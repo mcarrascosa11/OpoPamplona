@@ -11,6 +11,80 @@
    ================================================================== */
 
 export const RESUMENES = {
+  G3: {
+    intro:
+      "El Título X LRBRL (introducido por la Ley 57/2003) establece el régimen de organización de los municipios de gran población. El Ayuntamiento de Pamplona se rige por este régimen en virtud del art. 9 bis de la Ley Foral 6/1990. El Decreto de Organización Municipal desarrolla la estructura interna de la Administración ejecutiva.",
+    bloques: [
+      {
+        h: "El Pleno (arts. 122-123 LRBRL)",
+        items: [
+          "Art. 122.1: el Pleno = Alcalde + Concejales; órgano de máxima representación política.",
+          "Art. 122.2: el Pleno es convocado y presidido por el Alcalde; éste decide los empates con voto de calidad. Puede delegar la convocatoria y presidencia en un concejal.",
+          "Art. 122.3: comisiones formadas por miembros designados por los grupos políticos en proporción al número de concejales.",
+          "Art. 122.5: el Secretario general del Pleno (habilitado nacional) presta asesoramiento legal. Es preceptivo: si lo pide el Presidente o 1/3 de miembros (con antelación); en asuntos con mayoría especial; para control/fiscalización si lo pide el Presidente o 1/4 de concejales.",
+          "Art. 123.2: mayoría ABSOLUTA del número legal para: párrafos c), e), f), j) y o) y planeamiento general urbanístico. Demás acuerdos: mayoría SIMPLE.",
+          "Art. 123.3: solo son delegables a las comisiones los párrafos d), k), m) y ñ).",
+        ],
+      },
+      {
+        h: "El Alcalde y Tenientes de Alcalde (arts. 124-125 LRBRL)",
+        items: [
+          "Art. 124.1-3: máxima representación del municipio; responsable ante el Pleno; tratamiento de Excelencia.",
+          "Art. 124.5: NO delegables: b) dirección política, e) nombramiento de Tenientes de Alcalde, h) medidas de urgencia, j) Jefatura de la Policía Municipal; y tampoco: convocar/presidir la JGL, decidir empates, dictar bandos. Los párrafos c) y k) son delegables solo en la JGL.",
+          "Art. 125.1: Tenientes de Alcalde nombrados por el Alcalde entre concejales miembros de la JGL; sustituyen al Alcalde por orden de nombramiento en vacante, ausencia o enfermedad.",
+          "Art. 125.2: tratamiento de los Tenientes de Alcalde: Ilustrísima.",
+        ],
+      },
+      {
+        h: "Junta de Gobierno Local (arts. 126-127 LRBRL)",
+        items: [
+          "Art. 126.2: miembros nombrados y cesados libremente por el Alcalde; número máximo = 1/3 del número legal del Pleno, además del Alcalde.",
+          "Art. 126.3: la JGL responde solidariamente ante el Pleno.",
+          "Art. 126.4: Secretaría de la JGL: concejal miembro designado por el Alcalde.",
+          "Art. 126.5: deliberaciones SECRETAS; concejales no miembros y titulares de órganos directivos solo pueden asistir si son convocados expresamente por el Alcalde.",
+          "Art. 127.1.e: la concesión de licencias corresponde a la JGL, salvo atribución expresa por ley sectorial a otro órgano.",
+          "Art. 127.2: la JGL puede delegar en Tenientes de Alcalde u otros concejales los párrafos e), g), h) (con excepciones) y l).",
+        ],
+      },
+      {
+        h: "Otros órganos (arts. 128-132 LRBRL)",
+        items: [
+          "Art. 128.3: la presidencia del distrito corresponde en todo caso a un concejal.",
+          "Art. 130.1.A: órganos SUPERIORES = Alcalde + miembros de la JGL.",
+          "Art. 130.1.B: órganos DIRECTIVOS = coordinadores generales, directores generales, titular del órgano de apoyo a la JGL, titular de la asesoría jurídica, Secretario general del Pleno, Interventor general, titular del órgano de gestión tributaria.",
+          "Art. 130.3: coordinadores y directores generales deben ser funcionarios de carrera subgrupo A1.",
+          "Art. 131: Consejo Social de la Ciudad — integrado por representantes de organizaciones económicas, sociales, profesionales y de vecinos más representativas; emite informes sobre desarrollo económico, planificación estratégica y grandes proyectos urbanos.",
+          "Art. 132: Comisión especial de Sugerencias y Reclamaciones — creada por el Pleno; formada por representantes de todos los grupos en proporción; informe anual al Pleno + informes extraordinarios si la gravedad o urgencia lo aconsejan.",
+        ],
+      },
+      {
+        h: "Decreto de Organización Municipal de Pamplona",
+        items: [
+          "Estructura: 11 grandes áreas de gobierno. Dependen directamente del Alcalde: Área de Alcaldía y Área de Igualdad.",
+          "Área de Transparencia, Innovación y Política Lingüística: ANIMSA adscrita.",
+          "Área de Ciudad Habitable y Vivienda: Gerencia de Urbanismo + Pamplona Centro Histórico adscritos.",
+          "Área de Cultura y Educación: OA Escuelas Infantiles + Fundación Teatro Gayarre adscritos.",
+          "Área de Economía Local Sostenible: integra los órganos de gestión económico-financiera, presupuestaria e Intervención; Mercairuña y Comiruña adscritas.",
+          "Art. 2 Decreto: todas las áreas dispondrán de, al menos, una dirección y una secretaría técnica.",
+        ],
+      },
+    ],
+    claves: [
+      "Pleno = Alcalde + Concejales; máxima representación política — art. 122.1",
+      "Alcalde: tratamiento Excelencia; Tenientes de Alcalde: Ilustrísima — arts. 124.3 y 125.2",
+      "Mayoría absoluta en Pleno: párrafos c), e), f), j), o) y planeamiento — art. 123.2",
+      "Delegables a comisiones del Pleno: solo párrafos d), k), m) y ñ) — art. 123.3",
+      "No delegables del Alcalde: b), e), h), j) + convocar JGL, empates, bandos — art. 124.5",
+      "Tenientes de Alcalde: nombrados por Alcalde entre concejales miembros de la JGL — art. 125.1",
+      "JGL: máximo 1/3 del número legal del Pleno + Alcalde — art. 126.2",
+      "Deliberaciones JGL: secretas; no miembros asisten solo si convocados por el Alcalde — art. 126.5",
+      "Licencias: corresponden a la JGL salvo ley sectorial — art. 127.1.e",
+      "Órganos superiores: Alcalde + miembros JGL. Directivos: el resto — art. 130.1",
+      "Consejo Social: representantes de organizaciones económicas, sociales, profesionales y de vecinos — art. 131",
+      "Comisión Sugerencias: informe anual al Pleno + informes extraordinarios posibles — art. 132.3",
+      "ANIMSA → Área de Transparencia; Gerencia Urbanismo → Área Ciudad Habitable — Decreto Pamplona",
+    ],
+  },
   G2: {
     intro:
       "La LORAFNA (LO 13/1982, de 10 de agosto, de Reintegración y Amejoramiento del Régimen Foral de Navarra) no es un Estatuto de Autonomía ordinario: parte del reconocimiento constitucional de los derechos históricos y los «amejorar» democráticamente. Navarra es una Comunidad Foral —denominación propia— con instituciones, régimen tributario y competencias singulares.",
