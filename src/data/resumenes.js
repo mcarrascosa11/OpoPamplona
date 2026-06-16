@@ -11,6 +11,74 @@
    ================================================================== */
 
 export const RESUMENES = {
+  G4: {
+    intro:
+      "La Ley Foral 6/1990, de 2 de julio, de la Administración Local de Navarra regula la organización y el régimen de los entes locales navarros. Entran en el temario el Título Preliminar (arts. 1-5), las secciones 1.ª-4.ª y 8.ª del Cap. I del Tít. I (municipios, arts. 6-12 y 29-32) y la Sección 4.ª del Cap. II (mancomunidades, arts. 47-53).",
+    bloques: [
+      {
+        h: "Título Preliminar — principios y entes locales (arts. 1-5)",
+        items: [
+          "Art. 1: principios de la Administración Local de Navarra: autonomía, participación, desconcentración, eficacia y coordinación.",
+          "Art. 2: los municipios son las entidades locales básicas de la organización territorial de Navarra.",
+          "Art. 3: otros entes locales: a) comarcas; b) concejos; c) corporaciones de carácter tradicional (Bardenas Reales, Aezkoa, Roncal, Salazar, Aralar…); d) mancomunidades de ayuntamientos; e) mancomunidades de planificación general.",
+          "Art. 4: en materias de administración local que corresponden a Navarra → Ley Foral; en las restantes → legislación general del Estado.",
+        ],
+      },
+      {
+        h: "El municipio — organización, población y término (arts. 6-12)",
+        items: [
+          "Art. 6: el municipio es la entidad local básica y el cauce primario de participación ciudadana. Elementos: territorio, población y organización.",
+          "Art. 7: personalidad jurídica y plena capacidad del municipio.",
+          "Art. 8.3: municipios de más de 5.000 habitantes (o los que lo acuerden): obligados a contar con órganos de estudio, informe o consulta.",
+          "Art. 9: el Noble Valle y Universidad de Baztán conserva su organización tradicional (Ayuntamiento + Junta General del Valle + batzarres).",
+          "Art. 9 bis: Pamplona se rige por el Título X LRBRL con las peculiaridades de la LF 6/1990.",
+          "Art. 10: la población del municipio = personas inscritas en el padrón municipal.",
+          "Art. 11: el término municipal = ámbito territorial donde los órganos ejercen sus competencias.",
+          "Art. 12.2: deslinde entre municipios navarros → resuelve la Comunidad Foral, previo informe del Instituto Geográfico Nacional. Art. 12.3: si hay municipios de otra Comunidad → intervención e informe preceptivos del Gobierno de Navarra.",
+        ],
+      },
+      {
+        h: "Competencias y Concejo Abierto (arts. 29-32)",
+        items: [
+          "Art. 29: los municipios tienen las competencias que la legislación general reconoce a todos los del Estado + las que las leyes forales atribuyan.",
+          "Art. 30.1: el municipio puede delegar en concejos obras o servicios de su competencia. NUNCA son delegables las competencias URBANÍSTICAS.",
+          "Art. 31: servicios mínimos obligatorios; la dispensa la otorga el Gobierno de Navarra, que determina la entidad que asumirá el servicio (puede ser la comarca).",
+          "Art. 32.1: Concejo Abierto obligatorio en municipios con < 100 habitantes.",
+          "Art. 32.2: Concejo Abierto voluntario: petición de la mayoría de vecinos + decisión del ayuntamiento por 2/3 de sus miembros + aprobación del Gobierno de Navarra.",
+          "Art. 32.3: en Concejo Abierto, gobierno = Alcalde + Asamblea vecinal (todos los electores). Art. 32.4.b: el Alcalde puede designar una Comisión de 2 a 4 vocales.",
+        ],
+      },
+      {
+        h: "Mancomunidades (arts. 47-53)",
+        items: [
+          "Art. 47.2: las Mancomunidades tienen personalidad y capacidad jurídica propias; se rigen por sus Estatutos.",
+          "Art. 47.3: el objeto de la Mancomunidad NO puede incluir TODAS las competencias de los municipios asociados.",
+          "Art. 48: los Estatutos deben regular: ámbito territorial, municipios integrantes, denominación, objeto, competencias, órganos, representantes, recursos, plazo, causas de disolución.",
+          "Art. 49: iniciación del procedimiento de constitución: acuerdo de los plenos por MAYORÍA SIMPLE.",
+          "Art. 50, regla 4.ª: mancomunidades intercomunitarias → autorización previa de la Comunidad Foral.",
+          "Art. 50, regla 5.ª: aprobación de Estatutos → MAYORÍA ABSOLUTA de cada pleno.",
+          "Art. 50.3: modificación de Estatutos y disolución → DOS TERCERAS PARTES de las entidades integrantes.",
+          "Art. 51: la Junta General ostenta las atribuciones que en los ayuntamientos corresponden al pleno; las mayorías cualificadas municipales se mantienen.",
+          "Art. 52.1: adhesión a mancomunidades con municipios de otras CCAA → autorización previa de la Comunidad Foral.",
+        ],
+      },
+    ],
+    claves: [
+      "Principios (art. 1): autonomía, participación, desconcentración, eficacia, coordinación",
+      "Entes locales además de municipios (art. 3): comarcas, concejos, corporaciones tradicionales, mancomunidades de ayuntamientos, mancomunidades de planificación general",
+      "Elementos del municipio (art. 6.2): territorio, población, organización",
+      "Órganos de estudio obligatorios en municipios > 5.000 hab. (art. 8.3)",
+      "Pamplona → Título X LRBRL (art. 9 bis)",
+      "Población = inscritos en el padrón (art. 10)",
+      "Deslinde intercomunitario → Gobierno de Navarra preceptivo (art. 12.3)",
+      "Competencias urbanísticas: NUNCA delegables a concejos (art. 30.1)",
+      "Concejo Abierto obligatorio < 100 habitantes (art. 32.1)",
+      "Concejo Abierto voluntario: 2/3 del ayuntamiento + Gobierno de Navarra (art. 32.2)",
+      "Objeto de mancomunidad: no puede incluir TODAS las competencias (art. 47.3)",
+      "Constitución mancomunidad: iniciación mayoría simple (art. 49) / Estatutos mayoría absoluta (art. 50 regla 5.ª) / disolución 2/3 de entidades (art. 50.3)",
+      "Mancomunidades intercomunitarias: autorización previa de la Comunidad Foral (arts. 50 regla 4.ª y 52.1)",
+    ],
+  },
   G3: {
     intro:
       "El Título X LRBRL (introducido por la Ley 57/2003) establece el régimen de organización de los municipios de gran población. El Ayuntamiento de Pamplona se rige por este régimen en virtud del art. 9 bis de la Ley Foral 6/1990. El Decreto de Organización Municipal desarrolla la estructura interna de la Administración ejecutiva.",
