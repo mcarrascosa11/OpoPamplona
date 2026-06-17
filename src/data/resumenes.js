@@ -11,6 +11,214 @@
    ================================================================== */
 
 export const RESUMENES = {
+  G8: {
+    intro:
+      "El DFL 251/1993 aprueba el Estatuto del Personal al Servicio de las Administraciones Públicas de Navarra. Regula el acceso a la función pública, la carrera administrativa (grados), las situaciones administrativas, el régimen retributivo y el régimen disciplinario del personal funcionario, eventual y contratado.",
+    bloques: [
+      {
+        h: "Grupos/Niveles y titulación (art. 12)",
+        items: [
+          "Nivel A: Licenciado/Ingeniero/Arquitecto",
+          "Nivel B: Diplomado/IT/AT/FP3",
+          "Nivel C: Bachillerato/FP2",
+          "Nivel D: Graduado Escolar/FP1",
+          "Nivel E: Certificado de Escolaridad",
+        ],
+      },
+      {
+        h: "Acceso y turno restringido (arts. 15-16)",
+        items: [
+          "Turno restringido: mínimo 5 años de antigüedad como funcionario de carrera (art. 15.1.b); para niveles C/D/E sin titulación: 8 años (art. 15.2)",
+          "Ascenso de grado: período total máx. 6 años 7 meses; mínimo 2 años en grado anterior; máximo 8 años en mismo grado (salvo grado 7) (art. 16)",
+        ],
+      },
+      {
+        h: "Situaciones administrativas — excedencias (arts. 26-28 bis)",
+        items: [
+          "Excedencia voluntaria: no puede pedir reingreso hasta cumplir 1 año; no devenga retribuciones ni computa antigüedad; conserva nivel/grado/antigüedad (art. 26)",
+          "Excedencia especial (hijos/familiares): máximo 3 años por sujeto causante (art. 27.1)",
+          "Excedencia violencia de género: sin tiempo mínimo previo; reserva de puesto 6 meses (prorrogable hasta 18 en períodos de 3); retribuciones íntegras 2 primeros meses (art. 28 bis)",
+        ],
+      },
+      {
+        h: "Retribuciones (arts. 40-43)",
+        items: [
+          "Retribuciones básicas (art. 40.2): sueldo inicial, retribución por grado, premio de antigüedad",
+          "Complementos de puesto (art. 40.3): puesto de trabajo (máx. 75%), directivo (máx. 75%), dedicación exclusiva (55%), incompatibilidad (35%), prolongación jornada (máx. 10%), especial riesgo (máx. 10%)",
+          "Índices de nivel (art. 41.2): A=2; B=1,65; C=1,35; D=1,15; E=1",
+          "Retribución por grado (art. 42): 9% ACUMULATIVO sobre sueldo inicial del nivel; en grado 1 no se percibe",
+          "Premio de antigüedad (art. 43): NO acumulativo; sobre sueldo inicial nivel E; por quinquenios",
+        ],
+      },
+      {
+        h: "Régimen disciplinario (arts. 61-71)",
+        items: [
+          "Prescripción de faltas (art. 61.2): leves 1 mes; graves 1 año; muy graves 3 años",
+          "Sanciones (art. 67): leves → apercibimiento o 1-4 días suspensión; graves → 5-30 días, traslado, hasta 1 año sin concursos; muy graves → 1-5 años suspensión o separación",
+          "Cancelación anotaciones (art. 69.2): leves 6 meses; graves 2 años; muy graves 6 años",
+          "Prescripción de sanciones impuestas (art. 70.3): leves 1 año; graves 2 años; muy graves 3 años",
+          "Plazo máximo expediente disciplinario (art. 71.2): 12 meses (graves/muy graves); 6 meses (leves)",
+        ],
+      },
+      {
+        h: "Personal eventual y contratado (arts. 87-88)",
+        items: [
+          "Personal eventual: nombrado y cesado libremente por el DF y Corporaciones Locales; cesa al cesar quien lo nombró (art. 87)",
+          "Contrato por exceso/acumulación de tareas: máximo 9 meses; sin prórroga ni nuevo contrato para la misma necesidad (art. 88.1.d)",
+        ],
+      },
+    ],
+    claves: [
+      "Nivel A = Licenciado/Ingeniero/Arquitecto",
+      "Turno restringido: 5 años (8 años para C/D/E sin titulación)",
+      "Máx. en mismo grado: 8 años (salvo grado 7)",
+      "Excedencia voluntaria: mínimo 1 año; sin retribuciones ni cómputo antigüedad",
+      "Excedencia especial: máx. 3 años por sujeto causante",
+      "Violencia de género: reserva 6 m (hasta 18 m); retribuciones íntegras 2 m",
+      "Índices: A=2 / B=1,65 / C=1,35 / D=1,15 / E=1",
+      "Retribución grado: 9% acumulativo; en grado 1 nada",
+      "Premio antigüedad: NO acumulativo; quinquenios sobre nivel E",
+      "Prescripción faltas: 1 mes/1 año/3 años",
+      "Cancelación sanciones: 6 m/2 a/6 a",
+      "Exceso tareas: máx. 9 meses, sin prórroga",
+    ],
+  },
+
+  G7: {
+    intro:
+      "La Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Común (Título IV, arts. 53-105, y Título V, arts. 106-126) regula el desarrollo del procedimiento, los recursos administrativos y la revisión de oficio. Se complementa con la LF 6/1990 de Administración Local de Navarra (arts. 332-340) sobre el Tribunal Administrativo de Navarra (TAN).",
+    bloques: [
+      {
+        h: "Plazos clave del procedimiento (arts. 67-87)",
+        items: [
+          "Prescripción responsabilidad patrimonial: 1 año desde el hecho o manifestación del efecto lesivo (art. 67.1)",
+          "Subsanación de solicitudes: 10 días; si no subsana → tenido por desistido (art. 68.1)",
+          "Período de prueba ordinario: 10-30 días; extraordinario: máx. 10 días adicionales (art. 77.2)",
+          "Audiencia al interesado: 10-15 días (art. 82.2)",
+          "Información pública: mínimo 20 días (art. 83.2)",
+          "Reducción 20% sanción: condicionada al desistimiento o renuncia de recurso en vía administrativa (art. 85.3)",
+          "Actuaciones complementarias: alegaciones en 7 días; completadas en máx. 15 días (art. 87)",
+        ],
+      },
+      {
+        h: "Caducidad y ejecución forzosa (arts. 95-100)",
+        items: [
+          "Caducidad por paralización: paralización 3 meses por causa del interesado → advertencia → archivo (art. 95.1)",
+          "Medios de ejecución forzosa (art. 100.1): apremio sobre el patrimonio, ejecución subsidiaria, multa coercitiva y compulsión sobre las personas",
+        ],
+      },
+      {
+        h: "Revisión de oficio (arts. 106-107)",
+        items: [
+          "Revisión nulidad de pleno derecho: requiere dictamen favorable del Consejo de Estado; si iniciada de oficio y pasan 6 meses → caducidad (art. 106.1)",
+          "Declaración de lesividad: no puede adoptarse tras 4 años desde el acto; caducidad del procedimiento si no se resuelve en 6 meses (art. 107.2)",
+        ],
+      },
+      {
+        h: "Recursos administrativos (arts. 112-126)",
+        items: [
+          "Alzada: interponer en 1 mes (acto expreso) o 3 meses (presunto); resolver en 3 meses; silencio = desestimación (art. 122)",
+          "Reposición: 1 mes para interponer (expreso); 1 mes para resolver; silencio = desestimación",
+          "Revisión extraordinaria: motivo a) → 4 años; motivos b)-d) → 3 meses desde conocimiento (art. 125.2)",
+        ],
+      },
+      {
+        h: "TAN — LF 6/1990 arts. 332-340",
+        items: [
+          "Recurso ante el TAN: potestativo y gratuito; legitimados los vecinos aunque no les afecte personalmente; fundarse en cualquier infracción del OJ (art. 337)",
+          "Plazo de resolución del TAN: 6 meses; silencio = desestimación (art. 338.2)",
+          "La interposición ante el TAN NO suspende la ejecución del acto; el TAN NO puede acordar suspensión cautelar durante la tramitación (art. 339)",
+        ],
+      },
+    ],
+    claves: [
+      "Prescripción responsabilidad patrimonial: 1 año",
+      "Subsanación: 10 días → desistimiento si no subsana",
+      "Prueba ordinaria: 10-30 días; extraordinaria: máx. +10 días",
+      "Audiencia: 10-15 días",
+      "Información pública: mínimo 20 días",
+      "Reducción 20% sanción → desistimiento/renuncia recurso vía administrativa",
+      "Caducidad: paralización 3 meses → advertencia → archivo",
+      "Ejecución forzosa: 4 medios (apremio, subsidiaria, multa coercitiva, compulsión personas)",
+      "Revisión de oficio: dictamen CE; caducidad 6 meses si iniciada de oficio",
+      "Lesividad: máx. 4 años; caducidad procedimiento 6 meses",
+      "Alzada: 1 m interponer / 3 m resolver",
+      "Revisión extraordinaria: motivo a) 4 años; b)-d) 3 meses",
+      "TAN: potestativo, gratuito, vecinos legitimados, no suspende ejecución, 6 meses para resolver",
+    ],
+  },
+
+  G6: {
+    intro:
+      "La Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Común de las Administraciones Públicas (Títulos Preliminar I-III, arts. 1-52) establece los principios generales, el régimen de los interesados, la actividad de las AAPP, y la teoría de los actos administrativos: validez, eficacia, notificación, nulidad y anulabilidad.",
+    bloques: [
+      {
+        h: "Relación electrónica obligatoria (art. 14)",
+        items: [
+          "Obligados exclusivamente por medios electrónicos (art. 14.2): personas jurídicas, entidades sin personalidad, profesionales colegiados en ejercicio, representantes de los anteriores, empleados públicos por razón de su cargo",
+          "Las personas físicas pueden elegir canal, salvo que una norma reglamentaria lo imponga",
+        ],
+      },
+      {
+        h: "Plazos y cómputo (arts. 21, 30-33)",
+        items: [
+          "Plazo supletorio para resolver y notificar: 3 meses (art. 21.3)",
+          "Plazos por días = hábiles; último día inhábil → primer día hábil siguiente (art. 30.2/30.5)",
+          "Registro electrónico en día inhábil → primera hora del primer día hábil siguiente (art. 31.2.b)",
+          "Urgencia: reducción a la mitad de TODOS los plazos, salvo presentación de solicitudes y recursos (art. 33.1)",
+        ],
+      },
+      {
+        h: "Silencio administrativo (arts. 24-25)",
+        items: [
+          "Regla general en procedimientos a solicitud del interesado: silencio positivo (art. 24.1)",
+          "Silencio desestimatorio (art. 24.1): derecho de petición, dominio/servicio público, actividades que puedan dañar el medio ambiente, responsabilidad patrimonial",
+          "Procedimientos de oficio desfavorables o sancionadores: vencimiento del plazo → caducidad (art. 25.1.b)",
+        ],
+      },
+      {
+        h: "Actos administrativos: motivación, eficacia y convalidación (arts. 35, 39, 52)",
+        items: [
+          "Motivación obligatoria (art. 35.1): lista taxativa (letras a-i) — limitación de derechos, resolución de recursos, separación de criterio anterior, suspensión, etc.",
+          "Retroactividad: solo en sustitución de actos anulados o efectos favorables si el supuesto de hecho existía y no lesiona terceros (art. 39.3)",
+          "Convalidación: solo actos anulables; efectos desde la fecha de la convalidación, no retroactivos (art. 52)",
+        ],
+      },
+      {
+        h: "Notificación (arts. 40-44)",
+        items: [
+          "Plazo para cursar: 10 días desde que el acto es dictado (art. 40.2)",
+          "Contenido mínimo: texto íntegro, si pone fin a la vía administrativa, recursos procedentes, órgano y plazo (art. 40.2)",
+          "Notificación electrónica rechazada: 10 días naturales sin acceder (art. 43.2)",
+          "Notificación infructuosa → BOE obligatorio; boletín autonómico/provincial y tablón: facultativo (art. 44)",
+        ],
+      },
+      {
+        h: "Invalidez: nulidad y anulabilidad (arts. 47-48)",
+        items: [
+          "Nulidad de pleno derecho (art. 47.1): 7 causas tasadas (letras a-g), incluyendo prescindencia total y absoluta del procedimiento (letra e)",
+          "Anulabilidad: cualquier infracción del OJ, incluida la de forma (art. 48.1)",
+          "Defecto de forma → anulabilidad solo si impide alcanzar el fin del acto O genera indefensión (art. 48.2)",
+        ],
+      },
+    ],
+    claves: [
+      "Obligados electrónicos: PJ, entidades sin personalidad, colegiados en ejercicio, representantes, empleados públicos",
+      "Plazo supletorio resolver: 3 meses (no 6)",
+      "Plazos por días = hábiles",
+      "Silencio positivo regla general; desestimatorio en 4 supuestos tasados",
+      "Urgencia: mitad de plazos, SALVO solicitudes y recursos",
+      "Motivación: lista taxativa art. 35.1",
+      "Retroactividad: sustitución de anulado O favorables con supuesto previo existente",
+      "Notificación: 10 días desde dictado; texto íntegro + recursos + órgano + plazo",
+      "Notificación electrónica rechazada: 10 días naturales sin acceder",
+      "Publicación infructuosa: BOE obligatorio; resto facultativo",
+      "Nulidad: 7 causas tasadas art. 47.1",
+      "Defecto de forma → anulabilidad solo si impide fin o genera indefensión",
+      "Convalidación: solo anulables; efectos desde fecha de convalidación",
+    ],
+  },
+
   G5: {
     intro:
       "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público regula la organización y el funcionamiento de las AAPP, incluyendo sus órganos, los principios de actuación, la abstención y recusación, la responsabilidad patrimonial y las relaciones interadministrativas.",
