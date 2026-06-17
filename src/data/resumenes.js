@@ -11,6 +11,85 @@
    ================================================================== */
 
 export const RESUMENES = {
+  G5: {
+    intro:
+      "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público regula la organización y el funcionamiento de las AAPP, incluyendo sus órganos, los principios de actuación, la abstención y recusación, la responsabilidad patrimonial y las relaciones interadministrativas.",
+    bloques: [
+      {
+        h: "Ámbito subjetivo y principios (arts. 1-3)",
+        items: [
+          "Art. 2.2: el sector público institucional comprende: a) organismos públicos y entidades de derecho público; b) entidades de derecho privado vinculadas/dependientes; c) universidades públicas.",
+          "Art. 2.3: son Administraciones Públicas la AGE, las CCAA, las EE.LL. y los organismos/entidades del art. 2.2.a. Las del 2.2.b (privadas) y 2.2.c (universidades) NO son AAPP.",
+          "Art. 3.1: las AAPP actúan conforme a eficacia, jerarquía, descentralización, desconcentración y coordinación.",
+          "Art. 3.1 letras a-k: 11 principios adicionales, entre ellos servicio efectivo, objetividad, buena fe, confianza legítima, eficiencia, cooperación.",
+        ],
+      },
+      {
+        h: "Órganos administrativos (art. 5)",
+        items: [
+          "Art. 5.1: son órganos las unidades con funciones que tengan efectos jurídicos frente a terceros O cuya actuación sea preceptiva.",
+          "Art. 5.3: crear un órgano exige: a) integración y dependencia jerárquica; b) funciones y competencias; c) dotación de créditos necesarios.",
+          "Art. 5.4: no cabe crear órganos que dupliquen los existentes sin suprimir o restringir la competencia del anterior.",
+        ],
+      },
+      {
+        h: "Abstención y recusación (arts. 23-24)",
+        items: [
+          "Art. 23.2.b: abstención por parentesco de consanguinidad dentro del 4.º grado o de afinidad dentro del 2.º grado.",
+          "Art. 23.2.c: también por amistad íntima o enemistad manifiesta.",
+          "Art. 23.2.e: haber prestado servicios profesionales en los últimos 2 años.",
+          "Art. 23.4: actuar sin abstenerse NO implica necesariamente la invalidez del acto.",
+          "Art. 24.3: el recusado tiene 1 día para manifestar si concurre la causa.",
+          "Art. 24.4: si el recusado niega la causa → el superior resuelve en 3 días.",
+          "Art. 24.5: contra las resoluciones en materia de recusación NO cabe recurso (solo alegación al recurrir el acto final).",
+        ],
+      },
+      {
+        h: "Responsabilidad patrimonial (arts. 32-37)",
+        items: [
+          "Art. 32.1: responsabilidad por funcionamiento normal O anormal de los servicios públicos; excluida la fuerza mayor.",
+          "Art. 32.1 (párrafo 2): la anulación del acto NO presupone por sí misma derecho a indemnización.",
+          "Art. 32.2: el daño debe ser efectivo, evaluable económicamente e individualizado.",
+          "Art. 33.1: actuación conjunta → responsabilidad solidaria frente al particular.",
+          "Art. 33.2: concurrencia sin fórmula conjunta → criterios de competencia, interés público e intensidad; solidaria si no es posible determinar la parte.",
+          "Art. 34.3: cuantía calculada con referencia al día de la lesión + actualización según el Índice de Garantía de la Competitividad.",
+          "Art. 34.4: la indemnización puede sustituirse por compensación en especie o pagos periódicos con acuerdo del interesado.",
+          "Art. 36.1: el particular exige siempre la indemnización a la Administración, nunca directamente al funcionario.",
+          "Art. 36.2: la Administración exige de oficio la responsabilidad al personal por dolo o culpa/negligencia graves.",
+          "Art. 37: la vía penal NO suspende el procedimiento de responsabilidad patrimonial, salvo que la determinación de hechos en sede penal sea necesaria.",
+        ],
+      },
+      {
+        h: "Relaciones interadministrativas (arts. 140-158)",
+        items: [
+          "Art. 140.1.c: colaboración = deber general de actuar conjuntamente para fines comunes.",
+          "Art. 140.1.d: cooperación = compromisos específicos voluntarios entre dos o más Administraciones.",
+          "Art. 140.1.e: coordinación = garantizar coherencia; corresponde singularmente a la AGE.",
+          "Art. 141.2: la negativa a colaborar es tasada: no facultado, sin medios, perjuicio grave o información confidencial; debe comunicarse motivadamente.",
+          "Art. 143.2: la cooperación requiere aceptación expresa de las partes.",
+          "Art. 155.3: tratamiento ulterior para finalidad distinta → cedente puede oponerse en 10 días.",
+          "Art. 156.1: ENI — criterios y recomendaciones de seguridad, conservación y normalización para garantizar la interoperabilidad.",
+          "Art. 156.2: ENS — política de seguridad en la utilización de medios electrónicos (principios básicos y requisitos mínimos).",
+          "Art. 157.3: antes de adquirir o desarrollar una aplicación → consulta obligatoria en el directorio general; si hay solución disponible → obligada a reutilizarla salvo justificación de eficiencia.",
+        ],
+      },
+    ],
+    claves: [
+      "AAPP = AGE + CCAA + EE.LL. + entes art. 2.2.a (derecho público). Las entidades privadas y universidades NO son AAPP.",
+      "Principios art. 3.1: eficacia · jerarquía · descentralización · desconcentración · coordinación.",
+      "Crear órgano: integración + funciones + créditos (art. 5.3). No duplicar sin suprimir (art. 5.4).",
+      "Abstención parentesco: consanguinidad 4.º / afinidad 2.º (art. 23.2.b).",
+      "Recusación plazos: recusado 1 día → si niega, superior 3 días. No cabe recurso (arts. 24.3-24.5).",
+      "Anulación del acto ≠ indemnización automática (art. 32.1).",
+      "Daño: efectivo + evaluable + individualizado (art. 32.2).",
+      "Actuación conjunta → responsabilidad solidaria frente al particular (art. 33.1).",
+      "Regreso de la Administración contra el funcionario: dolo o culpa/negligencia GRAVES (art. 36.2).",
+      "Cooperación = voluntaria + compromisos específicos. Colaboración = deber general. Coordinación = AGE (art. 140.1).",
+      "Plazo oposición cedente datos: 10 días (art. 155.3).",
+      "ENI = interoperabilidad. ENS = seguridad (art. 156).",
+    ],
+  },
+
   G4: {
     intro:
       "La Ley Foral 6/1990, de 2 de julio, de la Administración Local de Navarra regula la organización y el régimen de los entes locales navarros. Entran en el temario el Título Preliminar (arts. 1-5), las secciones 1.ª-4.ª y 8.ª del Cap. I del Tít. I (municipios, arts. 6-12 y 29-32) y la Sección 4.ª del Cap. II (mancomunidades, arts. 47-53).",
