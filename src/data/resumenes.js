@@ -11,6 +11,77 @@
    ================================================================== */
 
 export const RESUMENES = {
+  G9: {
+    intro:
+      "La LF 5/2018, de 17 de mayo, de Transparencia, acceso a la información pública y buen gobierno de Navarra regula la publicidad activa, el derecho de acceso a la información pública y el Consejo de Transparencia de Navarra (CTN) como órgano de control independiente.",
+    bloques: [
+      {
+        h: "Ámbito subjetivo (arts. 2-3)",
+        items: [
+          "Sujetos plenos (art. 2): Administración CFN y organismos, entidades locales, UPNA, consorcios, sociedades/fundaciones públicas con participación >50%",
+          "Otros sujetos obligados solo en transparencia (art. 3): partidos, sindicatos, organizaciones empresariales; entidades privadas con subvenciones >20.000 € o ≥20% de ingresos y al menos 5.000 €; centros concertados; prestadores de servicios públicos",
+        ],
+      },
+      {
+        h: "Publicidad activa — obligaciones de información (arts. 11-18)",
+        items: [
+          "Actualización mínima: trimestral (art. 11.1.a); inventario de información pública también trimestral (art. 11.1.b)",
+          "Permanencia mínima: contratos/convenios/subvenciones → mientras persistan obligaciones + 10 años después (art. 11.2.c); información económica: 10 años (art. 11.2.d)",
+          "Adjudicatarios que incumplan requerimiento de información: multa coercitiva 500-5.000 € por períodos de 15 días; total no puede exceder del 5% del importe del contrato/subvención (art. 12.5)",
+          "Denuncia por incumplimiento publicidad activa ante CTN → respuesta motivada en 2 meses; confidencialidad del denunciante (art. 29 bis)",
+          "Publicidad activa abarca: información institucional, altos cargos, jurídica, económico-presupuestaria, contratación, convenios, subvenciones, patrimonio, urbanismo/medioambiente (art. 18)",
+        ],
+      },
+      {
+        h: "Derecho de acceso — ejercicio (arts. 30-33)",
+        items: [
+          "Titular: cualquier persona física o jurídica; no es necesario motivar ni acreditar interés alguno (art. 30.2)",
+          "Limitaciones tasadas (art. 31.1): seguridad pública, secreto en toma de decisiones, investigación penal/administrativa, tutela judicial, vigilancia e inspección, intereses económicos y comerciales, secreto profesional/PI, medio ambiente, información protegida por ley",
+          "Datos especiales/penales: acceso solo con consentimiento expreso y escrito del afectado o norma con rango de ley (art. 32.1)",
+          "Acceso parcial obligatorio cuando solo parte de la información está limitada (art. 33)",
+        ],
+      },
+      {
+        h: "Procedimiento de acceso (arts. 34-44)",
+        items: [
+          "Solicitud: por cualquier medio; no se exige motivar ni identificar documento concreto; la solicitud puede ser oral (se recoge en soporte electrónico) (art. 34)",
+          "Solicitudes imprecisas: 10 días hábiles para concretar; suspende plazo para resolver (art. 35.1)",
+          "Causas de inadmisión (art. 37): información inexistente, competencia desconocida, petición de elaboración de informes/dictámenes, solicitudes abusivas, documentación preparatoria inconclusa, información auxiliar interna, reelaboración necesaria",
+          "Derivación a órgano competente: 10 días naturales (art. 38.1)",
+          "Intervención de terceros: audiencia 10-15 días; suspende plazo para resolver (art. 39.1)",
+          "Plazo resolución: 1 mes + prórroga de 1 mes adicional (comunicar en 10 días) (art. 41.1)",
+          "Silencio: ESTIMATORIO (regla general); excepto cuando la denegación venga impuesta por norma con rango de ley (art. 41.2)",
+          "Resoluciones ponen fin a la vía administrativa → recurso contencioso o reclamación potestativa ante CTN (art. 42.5)",
+          "Gratuito: acceso in situ, entrega por correo electrónico, publicidad activa; copias y transposición de formato: precio máximo igual a coste (art. 44)",
+        ],
+      },
+      {
+        h: "Reclamación ante el CTN (art. 45)",
+        items: [
+          "Carácter: potestativo (sustitutivo de recursos administrativos)",
+          "Plazo interposición: 1 mes desde notificación, o en cualquier momento desde el silencio",
+          "Plazo resolución CTN: 3 meses; silencio = desestimación",
+          "Actos CTN: directamente ejecutivos y obligatorios para los sujetos destinatarios; impugnables en contencioso-administrativo",
+        ],
+      },
+    ],
+    claves: [
+      "Entidades privadas obligadas: >20.000 € subvenciones O ≥20% ingresos+mín 5.000 €",
+      "Actualización publicidad activa: mínimo trimestral",
+      "Permanencia contratos/convenios/subvenciones: duración + 10 años después",
+      "Multa coercitiva adjudicatarios incumplidores: 500-5.000 €/15 días; máx 5% del contrato",
+      "Denuncia publicidad activa → respuesta CTN en 2 meses",
+      "No hay que motivar ni acreditar interés para solicitar acceso",
+      "Datos especiales: consentimiento expreso y escrito O norma con rango de ley",
+      "Solicitudes imprecisas: 10 días hábiles para concretar; suspende plazo",
+      "Inadmisión: no incluye solicitudes a órgano incompetente (→ derivación en 10 días naturales)",
+      "Plazo resolución: 1 mes (+ prórroga 1 mes; avisar en 10 días)",
+      "Silencio = estimatorio (salvo denegación impuesta por ley)",
+      "Resoluciones de acceso: fin de vía administrativa",
+      "CTN: 1 mes para reclamar; 3 meses para resolver; silencio = desestimación; actos ejecutivos",
+    ],
+  },
+
   G8: {
     intro:
       "El DFL 251/1993 aprueba el Estatuto del Personal al Servicio de las Administraciones Públicas de Navarra. Regula el acceso a la función pública, la carrera administrativa (grados), las situaciones administrativas, el régimen retributivo y el régimen disciplinario del personal funcionario, eventual y contratado.",
