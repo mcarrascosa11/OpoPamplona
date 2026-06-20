@@ -291,6 +291,7 @@ function VistaLectura() {
   const [contenido, setContenido] = useState(null);       // texto cargado
   const [cargando, setCargando] = useState(false);
   const [error, setError] = useState(null);
+  const [disponibles, setDisponibles] = useState(null);   // Set de codigos con txt
   const [fontSize, setFontSize] = useState(() => {
     try { return parseInt(localStorage.getItem("lect-fs") || "15", 10); } catch { return 15; }
   });
@@ -300,6 +301,14 @@ function VistaLectura() {
   const [sidebarAbierto, setSidebarAbierto] = useState(false);
   const [tocAbierto, setTocAbierto] = useState(false);
   const contenedorRef = useRef(null);
+
+  // Carga la lista de códigos disponibles al montar
+  useEffect(() => {
+    if (!supabase) return;
+    supabase.from("temas").select("codigo").then(({ data }) => {
+      if (data) setDisponibles(new Set(data.map((r) => r.codigo)));
+    });
+  }, []);
 
   // Paleta según modo
   const bg    = darkMode ? "#18181B" : C.paper;
@@ -341,7 +350,7 @@ function VistaLectura() {
         .maybeSingle();
       if (err) throw err;
       if (!data) {
-        setError(`El tema ${tema.codigo} aún no está cargado en Supabase. Ejecuta: node --env-file=.env.local scripts/cargar-temas.js`);
+        setError(`El tema ${tema.codigo} no tiene texto disponible todavía (puede que solo exista en PDF o esté pendiente de cargar).`);
       } else {
         setContenido(data.contenido);
       }
@@ -390,22 +399,26 @@ function VistaLectura() {
       <div style={{ flex: 1, overflowY: "auto", padding: "4px 0" }}>
         {temasFiltrados.map((t) => {
           const activo = seleccionado?.codigo === t.codigo;
+          const hayTexto = disponibles == null || disponibles.has(t.codigo);
           return (
             <button
               key={t.codigo}
               onClick={() => cargarTema(t)}
+              title={!hayTexto ? "Solo disponible en PDF" : undefined}
               style={{
                 display: "block", width: "100%", textAlign: "left",
                 padding: "9px 14px", border: "none", cursor: "pointer",
                 background: activo ? C.red : "transparent",
-                color: activo ? "#fff" : tinta,
+                color: activo ? "#fff" : hayTexto ? tinta : tinta2,
                 borderLeft: activo ? `3px solid #7B0F1E` : "3px solid transparent",
+                opacity: hayTexto ? 1 : 0.45,
               }}
             >
               <span style={{ fontFamily: MONO, fontSize: 10.5, fontWeight: 700, marginRight: 6, opacity: 0.75 }}>
                 {t.codigo}
               </span>
               <span style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.4 }}>{t.titulo}</span>
+              {!hayTexto && <span style={{ fontFamily: MONO, fontSize: 9, marginLeft: 6, opacity: 0.6 }}>PDF</span>}
             </button>
           );
         })}
