@@ -51,27 +51,39 @@ function parsearNombre(filename) {
   return null;
 }
 
-// ── Extrae título: primera línea no vacía y no compuesta solo de signos ───────
-function extraerTitulo(texto) {
-  const ignorar = /^[=\-#*_\s]+$/;
+// ── Resolución de título: mapa oficial → regex "Tema N.-" → código provisional ─
+// Fallback 2: primera línea con prefijo "Tema N.-" o "TEMA N —"
+function buscarLineaTema(texto) {
   for (const linea of texto.split("\n")) {
     const l = linea.trim();
-    if (l && !ignorar.test(l)) {
-      // Quita prefijo "Tema N.-" si existe
-      return l.replace(/^Tema\s+\d+\.\-\s*/i, "").replace(/^={3,}\s*/, "").trim();
-    }
+    const m = l.match(/^Tema\s+\d+[\.\-]\s*(.+)/i)
+           || l.match(/^TEMA\s+\d+\s*[—–\-]+\s*(.+)/);
+    if (m) return m[1].trim();
   }
-  return "(sin título)";
+  return null;
+}
+
+function resolverTitulo(codigo, texto, titulos, pendientes) {
+  if (titulos[codigo]) return titulos[codigo];
+  const deLinea = buscarLineaTema(texto);
+  if (deLinea) return deLinea;
+  pendientes.push(codigo);
+  return `(${codigo}) — título pendiente de revisar`;
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
+  const TITULOS = JSON.parse(
+    await readFile(join(__dir, "titulos.json"), "utf8")
+  );
+
   const archivos = (await readdir(TEMAS_DIR))
     .filter((f) => f.endsWith(".txt"))
     .sort();
 
   const registros = [];
   const strayHash = [];   // archivos con líneas '^#[^#]' sueltas
+  const pendientes = [];  // códigos sin título en el mapa ni en el .txt
 
   for (const archivo of archivos) {
     const meta = parsearNombre(archivo);
@@ -83,7 +95,7 @@ async function main() {
     const raw = await readFile(join(TEMAS_DIR, archivo), "utf8");
     // Normaliza CRLF → LF (verbatim en lo demás)
     const contenido = raw.replace(/\r\n/g, "\n");
-    const titulo = extraerTitulo(contenido);
+    const titulo = resolverTitulo(meta.codigo, contenido, TITULOS, pendientes);
     const content_hash = createHash("sha256").update(contenido).digest("hex");
 
     // Detección de '#' sueltos (no divisores de ###...)
@@ -153,6 +165,11 @@ async function main() {
   console.log(`   ${insertados} insertados`);
   console.log(`   ${actualizados} actualizados`);
   console.log(`   ${sinCambio} sin cambios`);
+
+  if (pendientes.length > 0) {
+    console.warn(`\n⚠  Títulos pendientes de revisar (${pendientes.length}):`);
+    pendientes.forEach((c) => console.warn(`   • ${c} — añade su título en scripts/titulos.json`));
+  }
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
