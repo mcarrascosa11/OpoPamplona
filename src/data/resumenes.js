@@ -11,6 +11,188 @@
    ================================================================== */
 
 export const RESUMENES = {
+  G12: {
+    intro:
+      "La Estrategia de Transición Energética y Cambio Climático 2030 de Pamplona (ETEyCC 2030) es el instrumento de planificación del Ayuntamiento para descarbonizar la ciudad, articulado en 3 ejes (mitigación, adaptación y transición justa), 5 objetivos estratégicos, 24 líneas de acción y 74 acciones, con una inversión total de 860 M€ hasta 2030.",
+    bloques: [
+      {
+        h: "Objetivos 2030 — los 4 datos a memorizar",
+        items: [
+          "Emisiones: −64% de GEI respecto a 2005 (≠ 40% Pacto de Alcaldías; ≠ 55% Marco 2030 europeo)",
+          "Renovables: 37% del consumo energético final",
+          "Eficiencia: +39% respecto al escenario BAU (Business as Usual)",
+          "Pobreza energética: 0 hogares en pobreza energética",
+          "Ciudad Cero Emisiones: AÑO 2050 (no 2030)",
+        ],
+      },
+      {
+        h: "Diagnóstico ciudad 2005-2018 (trampas de examen)",
+        items: [
+          "Consumo: −8,7%; Emisiones: −15,6% (AMBOS bajan, pero el consumo baja MENOS que las emisiones)",
+          "2018: 4.551.325 MWh; 1.128.937 tCO2eq; coste 488 M€; 22,58 MWh/hab; 5,60 tCO2eq/hab",
+          "Renovables ciudad 2018: solo 9,5% del consumo final; de ese 9,5%, solo el 18% es producción local (≈2% del consumo final)",
+          "Mix consumo ciudad: petrolíferos 54%, gas natural 27%, electricidad 15%",
+          "Mix sectores consumo: transporte 51%, doméstico 20%, industrial 13%, comercio/servicios 12%, AAPP 4%",
+          "Ayuntamiento 2005-2019: consumo +24%, emisiones −22%; representa el 1,15% del consumo municipal",
+          "Mix Ayuntamiento: electricidad 52%, gas natural 43%; edificios/equipamientos 68%, alumbrado 30%, flota 2-3%",
+        ],
+      },
+      {
+        h: "Plan de Acción — inversión y plazos",
+        items: [
+          "Total: 860.223.800 € (inversión privada 576,7 M€ — fuente mayoritaria; fondos públicos externos 210,6 M€; Ayuntamiento 72,9 M€)",
+          "LE2 Actuaciones en edificios: 534,7 M€ — MAYOR partida; meta: rehabilitar 60% viviendas anteriores a 1979 (30.274 viviendas)",
+          "LE5 Generación renovable: 261 M€; meta fotovoltaica municipal: 5.338 kWp",
+          "Cronograma: corto 2021-2023 (237 M€) → medio 2024-2026 (267 M€) → largo 2027-2030 (356 M€)",
+          "Alumbrado: renovar 28.000 puntos de luz (84% del total); cubiertas verdes en 10% de edificios post-1979 (261 edificios)",
+        ],
+      },
+      {
+        h: "Adaptación climática",
+        items: [
+          "Proyección LIFE-IP NAdapta-CC: +0,23 ºC/década; cambio climático Pamplona: Cfb (Marítimo) → Mediterráneo a mediados de siglo",
+          "Olas de calor: 1,65→6,95/año; noches tropicales: 5→13/año; días cálidos: 9%→22%",
+          "2 cadenas de impacto: temperaturas→salud (riesgo MEDIO→MUY ELEVADO); lluvias intensas→medio construido (ya ALTO)",
+          "Barrios más vulnerables a temperatura: San Juan, San Jorge, Azpilagaña, Rochapea, Casco Antiguo, Iturrama",
+          "Barrios más expuestos a lluvias: Rochapea, Txantrea, San Jorge, Etxabakoitz",
+        ],
+      },
+      {
+        h: "Gobernanza y arquitectura (LE17)",
+        items: [
+          "5 órganos: Dirección ETEyCC + Comisión municipal de trabajo + comisiones interdepartamentales temporales + Órgano de participación sectorial + Observatorio de Medio Ambiente y CC",
+          "LE17 (clave para arquitecto): revisión del PMOU, revisión del CTE para clima futuro, nueva ordenanza de edificación",
+        ],
+      },
+    ],
+    claves: [
+      "−64% emisiones 2030 vs 2005 (≠ −40% Pacto de Alcaldías; ≠ −55% Marco UE 2030)",
+      "Ciudad Cero Emisiones = 2050",
+      "37% renovables; +39% eficiencia vs BAU; pobreza energética = 0",
+      "Consumo ciudad 2018: 4.551.325 MWh; 1.128.937 tCO2eq",
+      "Diagnóstico 2005-2018: consumo −8,7%; emisiones −15,6%",
+      "Renovables ciudad 2018: 9,5% del consumo final",
+      "Transporte = 51% del consumo y 55% de las emisiones de la ciudad",
+      "Plan: 5 OE / 24 LE / 74 acciones / 860.223.800 € totales",
+      "Inversión privada = fuente mayoritaria (576,7 M€ de 860 M€)",
+      "LE2 edificios: mayor presupuesto 534,7 M€; rehabilitar 60% viviendas pre-1979",
+      "Olas de calor: 1,65→6,95/año; Pamplona: Cfb→Mediterráneo a mediados de siglo",
+    ],
+  },
+
+  G11: {
+    intro:
+      "La LO 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, establece el marco estatal antidiscriminatorio por razón de sexo y los principios de acción positiva. La LF 17/2019, de 4 de abril, de Igualdad entre mujeres y hombres en las relaciones laborales y en el empleo en Navarra, desarrolla estos principios en el ámbito foral.",
+    bloques: [
+      {
+        h: "Tipos de discriminación (LO 3/2007 arts. 6-9)",
+        items: [
+          "Discriminación DIRECTA (art. 6.1): trato menos favorable a una persona en atención a su sexo respecto a otra en situación comparable",
+          "Discriminación INDIRECTA (art. 6.2): disposición, criterio o práctica aparentemente neutros que pone a un sexo en desventaja, salvo justificación objetiva (finalidad legítima + medios necesarios y adecuados)",
+          "Acoso SEXUAL (art. 7.1): conducta de naturaleza SEXUAL que atenta contra la dignidad",
+          "Acoso POR RAZÓN DE SEXO (art. 7.2): conducta EN FUNCIÓN DEL SEXO (sin componente sexual necesario) que atenta contra la dignidad",
+          "Ambos tipos de acoso se consideran discriminatorios en todo caso (art. 7.3)",
+          "Discriminación por EMBARAZO o MATERNIDAD = discriminación directa (art. 8) → sin posibilidad de justificación objetiva",
+          "INDEMNIDAD frente a represalias (art. 9): cualquier trato adverso por presentar queja/denuncia = discriminación por sexo",
+        ],
+      },
+      {
+        h: "Acciones positivas y prueba (LO 3/2007 arts. 11-13)",
+        items: [
+          "Acciones positivas (art. 11): medidas específicas en favor de mujeres para corregir desigualdad de hecho; poderes públicos Y también personas privadas; razonables y proporcionales; solo mientras subsistan las desigualdades",
+          "Carga de la prueba (art. 13): si la actora alega discriminación → la DEMANDADA debe probar ausencia de discriminación y proporcionalidad; NO aplica en procesos PENALES",
+        ],
+      },
+      {
+        h: "LF 17/2019 — datos y plazos clave",
+        items: [
+          "Representación equilibrada (art. 4.1.f): ningún sexo >60% ni <40%, tendiendo al 50%",
+          "Plan Estratégico Igualdad (art. 14): vigencia 6 años; diseñado por Instituto Navarro para la Igualdad; aprobado por GOBIERNO DE NAVARRA previo informe del Consejo Navarro de Igualdad; remitido al PARLAMENTO DE NAVARRA para debate y aprobación final",
+          "Informe de impacto de género (art. 22.2): obligatorio en anteproyectos de ley foral, disposiciones normativas generales y planes del Gobierno de Navarra",
+          "Informe de impacto de género en ordenanzas locales (art. 22.4): también obligatorio, sin excepción por tamaño",
+          "OPE (art. 24.7): informe de impacto de género + 2% de plazas para víctimas de violencia de género (si superan proceso selectivo y acreditan condición)",
+          "Ayudas públicas (art. 18.1): cláusulas de igualdad en bases reguladoras; art. 18.2: prohibición a entidades sancionadas (declaración responsable)",
+        ],
+      },
+    ],
+    claves: [
+      "Discriminación directa: trato menos favorable por razón de sexo (art. 6.1 LO 3/2007)",
+      "Discriminación indirecta: medida neutra con efecto desfavorable desproporcionado (art. 6.2) — sí admite justificación",
+      "Embarazo/maternidad = discriminación directa, sin posibilidad de justificación (art. 8)",
+      "Acoso sexual: conducta de naturaleza SEXUAL; acoso por razón de sexo: conducta EN FUNCIÓN DEL SEXO (sin componente sexual necesario)",
+      "Represalias por denuncia de discriminación = discriminación por sexo (art. 9)",
+      "Carga de la prueba: se invierte al demandado; NO en procesos penales (art. 13)",
+      "Representación equilibrada LF 17/2019: 40%-60% (ni más, ni menos)",
+      "Plan Estratégico Igualdad: 6 años; aprueba Gobierno, previo informe Consejo Navarro de Igualdad, remite al Parlamento",
+      "Informe de impacto de género: anteproyectos ley foral + disposiciones normativas + planes + ordenanzas locales",
+      "OPE Navarra: 2% plazas para víctimas violencia de género",
+    ],
+  },
+
+  G10: {
+    intro:
+      "El RGPD (Reglamento UE 2016/679) es la norma marco de protección de datos personales en la UE, de aplicación directa desde mayo 2018. La LO 3/2018 (LOPDGDD) lo adapta al ordenamiento español. Juntos regulan principios del tratamiento, bases de licitud, derechos de los interesados y condiciones especiales para categorías sensibles.",
+    bloques: [
+      {
+        h: "Principios del tratamiento (art. 5 RGPD)",
+        items: [
+          "a) Licitud, lealtad y transparencia",
+          "b) Limitación de la finalidad: solo para los fines recogidos",
+          "c) Minimización de datos: adecuados, pertinentes y limitados a lo necesario",
+          "d) Exactitud: datos exactos y actualizados",
+          "e) Limitación del plazo de conservación: no más de lo necesario para los fines",
+          "f) Integridad y confidencialidad: seguridad adecuada",
+          "Art. 5.2: Responsabilidad proactiva (accountability) del responsable del tratamiento",
+        ],
+      },
+      {
+        h: "Bases de licitud (art. 6 RGPD) y categorías especiales (art. 9)",
+        items: [
+          "6 bases de licitud (art. 6.1.a-f): consentimiento / contrato o medidas precontractuales / obligación legal / intereses vitales / interés público o poderes públicos / intereses legítimos (este último NO aplica a autoridades públicas en ejercicio de funciones)",
+          "Consentimiento (art. 7): libre, específico, informado, inequívoco; retirable en cualquier momento; retirada no afecta licitud previa; tan fácil retirar como dar",
+          "Menores: RGPD art. 8 → 16 años para servicios sociedad de la información; LOPDGDD art. 7 → España fija 14 años",
+          "Categorías especiales (art. 9 RGPD): prohibición de tratar datos de origen étnico/racial, opiniones políticas, convicciones religiosas/filosóficas, afiliación sindical, datos genéticos, biométricos identificativos, de salud, vida/orientación sexual + 10 excepciones (a-j)",
+          "LOPDGDD art. 9.1: para ideología, afiliación sindical, religión, orientación sexual, creencias, origen racial → el solo consentimiento NO basta para levantar la prohibición",
+        ],
+      },
+      {
+        h: "Derechos de los interesados (arts. 12-22 RGPD)",
+        items: [
+          "Plazo de respuesta (art. 12.3): 1 mes; prórroga de 2 meses adicionales si solicitud compleja (informar dentro del 1.er mes)",
+          "Solicitudes infundadas/excesivas/repetitivas (art. 12.5): el responsable puede cobrar canon razonable o negarse a actuar; la carga de probar el carácter repetitivo recae en el responsable",
+          "Derecho de acceso (art. 15): confirmación + información sobre finalidades, categorías, destinatarios, plazo conservación, derechos...",
+          "Rectificación (art. 16): sin dilación indebida",
+          "Supresión/Derecho al olvido (art. 17): 6 causas (a-f); excepciones art. 17.3: libertad de expresión, obligación legal, interés público en salud, archivo/investigación, reclamaciones",
+          "Limitación (art. 18): 4 supuestos: impugnación exactitud / tratamiento ilícito / fines de reclamación / oposición pendiente de verificación",
+          "Portabilidad (art. 20): solo si basado en CONSENTIMIENTO o CONTRATO Y tratamiento AUTOMATIZADO; no aplica a interés público/poderes públicos",
+          "Oposición (art. 21): para mercadotecnia directa = cese OBLIGATORIO e INCONDICIONAL; para arts. 6.1.e/f = el responsable puede invocar motivos legítimos imperiosos",
+          "Decisiones automatizadas (art. 22): derecho a no ser objeto de ellas; 3 excepciones: contrato, autorización legal, consentimiento explícito; si excepción: derecho a intervención humana, expresar punto de vista, impugnar",
+          "LOPDGDD art. 13.3: ejercicio del derecho de acceso más de 1 vez en 6 meses = puede considerarse repetitivo",
+        ],
+      },
+      {
+        h: "Otras disposiciones LOPDGDD",
+        items: [
+          "Art. 3: datos de personas fallecidas → familiares y herederos pueden solicitar acceso/rectificación/supresión, salvo prohibición del fallecido (que no afecta a datos patrimoniales)",
+          "Art. 5.3: deber de confidencialidad se mantiene AUN DESPUÉS de finalizar la relación con el responsable/encargado",
+        ],
+      },
+    ],
+    claves: [
+      "6 principios art. 5 RGPD: licitud-lealtad-transparencia / limitación finalidad / minimización / exactitud / limitación conservación / integridad-confidencialidad + accountability",
+      "6 bases de licitud art. 6 RGPD (a-f); intereses legítimos NO aplica a autoridades públicas en ejercicio de funciones",
+      "Consentimiento: retirable en cualquier momento; tan fácil retirar como dar; retirada no afecta licitud previa",
+      "Menores: 16 años (RGPD) pero 14 años en España (LOPDGDD art. 7)",
+      "Categorías especiales art. 9 RGPD: prohibición + 10 excepciones; LOPDGDD: para ideología/sindical/religión/orientación sexual → solo consentimiento NO basta",
+      "Plazo respuesta derechos: 1 mes + prórroga 2 meses (informar dentro del 1.er mes)",
+      "Supresión art. 17: 6 causas tasadas; excepciones: libertad expresión, obligación legal, interés público, archivo/investigación, reclamaciones",
+      "Portabilidad: solo si basado en consentimiento o contrato + tratamiento automatizado",
+      "Oposición a mercadotecnia directa: cese INCONDICIONAL (≠ oposición general que admite motivos legítimos imperiosos)",
+      "Decisiones automatizadas: 3 excepciones (contrato / autorización legal / consentimiento explícito) + garantías mínimas",
+      "Acceso repetitivo LOPDGDD: más de 1 vez en 6 meses sin causa legítima → puede considerarse repetitivo",
+    ],
+  },
+
   G9: {
     intro:
       "La LF 5/2018, de 17 de mayo, de Transparencia, acceso a la información pública y buen gobierno de Navarra regula la publicidad activa, el derecho de acceso a la información pública y el Consejo de Transparencia de Navarra (CTN) como órgano de control independiente.",
