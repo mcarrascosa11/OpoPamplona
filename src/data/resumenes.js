@@ -1436,4 +1436,163 @@ export const RESUMENES = {
       "Local reducidas dimensiones: sup. pública ≤ 100 m² + ocupación ≤ 50 personas",
     ],
   },
+
+  "E8": {
+    intro: "El CTE DB-HE (Ahorro de Energía), actualizado por RD 450/2022, establece en seis secciones (HE0–HE6) las exigencias de eficiencia energética y uso de energías renovables para edificios de nueva construcción e intervenciones en existentes.",
+    bloques: [
+      { h: "HE0 – Limitación del consumo energético", items: [
+        "Parámetros: Cep,nren (energía primaria no renovable) y Cep,tot (energía primaria total)",
+        "Zonas climáticas de invierno α, A, B, C, D, E — valores residencial nueva construcción: α=20 · A=25 · B=28 · C=32 · D=38 · E=43 kWh/m²·año",
+        "Intervenciones en existentes ≈ el doble de los valores de nueva construcción",
+        "Territorios extrapeninsulares (Canarias, Ceuta, Melilla): valores × 1,25",
+        "Sistema de referencia para demostrar cumplimiento por comparación con edificio de referencia",
+      ]},
+      { h: "HE1 – Control de la demanda energética (envolvente)", items: [
+        "Ulim muros y suelos (W/m²K): α=0,80 · A=0,70 · B=0,56 · C=0,49 · D=0,41 · E=0,37",
+        "Ulim cubiertas (W/m²K): α=0,55 · A=0,50 · B=0,44 · C=0,40 · D=0,35 · E=0,33",
+        "Ulim huecos (W/m²K): A=3,2 · B=2,7 · C=2,3 · D=2,1 · E=1,80",
+        "qsol;jul,lim (control solar julio): 2,00 kWh/m²·mes residencial · 4,00 otros usos",
+        "Permeabilidad Q100 ventanas: α/A/B ≤ 27 m³/h·m² · C/D/E ≤ 9 m³/h·m²",
+        "n50 estanquidad (residencial nueva >120 m²): V/A ≤ 2 → 6 h⁻¹ · V/A ≥ 4 → 3 h⁻¹ (interpolación lineal)",
+      ]},
+      { h: "HE2 – Rendimiento instalaciones térmicas", items: [
+        "Remite al Reglamento de Instalaciones Térmicas en los Edificios (RITE, RD 1027/2007)",
+      ]},
+      { h: "HE3 – Condiciones de las instalaciones de iluminación", items: [
+        "VEEI (W/m² por 100 lux): Administrativo=3,0 · Almacenes/aparcamientos=4,0 · Centros comerciales=6,0 · Hostelería/restauración=8,0 · Habitaciones hotel=10,0 · Locales >600 lux=2,5",
+        "Potencia máxima instalada: aparcamiento ≤600 lux → 5 W/m² · >600 lux → 10 W/m² · Otros usos → 25 W/m²",
+        "Control obligatorio: encendido manual exterior + encendido por horario centralizado",
+        "Zonas esporádicas (aseos, escaleras): el horario puede sustituirse por detección de presencia o pulsador temporizador",
+        "Luz natural: obligatoria cuando T·(Aw/A) > 0,11 + condición geométrica (θ>65°, ai>2hi o ai>2hi/Tc)",
+      ]},
+      { h: "HE4 – Contribución mínima renovable para ACS", items: [
+        "Ámbito: nueva construcción con ACS >100 l/d · reforma integral o cambio de uso con ACS >100 l/d",
+        "Contribución mínima: ≥70% de la demanda energética anual para ACS",
+        "Reducción al 60% si la demanda de ACS es inferior a 5.000 l/d",
+        "Bombas de calor ACS: SCOPdhw ≥ 2,5 (eléctricas) o ≥ 1,15 (térmicas) · temp. preparación ≥ 45°C",
+      ]},
+      { h: "HE5 – Generación mínima de electricidad renovable", items: [
+        "Ámbito: edificios nueva construcción >1.000 m² · ampliaciones >1.000 m² · reformas íntegras >1.000 m²",
+        "Pmin = mínimo de: P1 = Fpr;el × S (Fpr;el: 0,005 residencial · 0,010 otros usos) y P2 = 0,1 × (0,5·Sc – Soc)",
+        "Si no se puede alcanzar Pmin por razones urbanísticas o de protección, se justifica y se maximiza",
+      ]},
+      { h: "HE6 – Infraestructura de recarga de vehículos eléctricos", items: [
+        "Ámbito: nueva construcción con aparcamiento · existentes en cambio de uso/ampliación/reforma (condiciones específicas)",
+        "Exclusiones: no residencial ≤10 plazas · existentes ≤20 plazas si el coste supera el 7% de la intervención",
+        "Residencial privado: conducción de cables para el 100% de las plazas",
+        "No residencial: conducción para ≥20% de plazas + 1 estación/40 plazas (AGE: 1/20 plazas) · accesibles: 1 estación/5 plazas",
+      ]},
+    ],
+    claves: [
+      "HE0 zona C nueva residencial: 32 kWh/m²·año (no renovable) · extrapeninsular ×1,25",
+      "HE1 Ulim muros C: 0,49 · cubiertas B: 0,44 · huecos D: 2,1 W/m²K",
+      "HE1 qsol;jul residencial: 2,00 kWh/m²·mes · Q100 zona C: ≤9 m³/h·m²",
+      "HE3 VEEI hostelería: 8,0 · zonas esporádicas → presencia o temporizador · luz natural si T(Aw/A)>0,11",
+      "HE4 renovable ACS: ≥70% (60% si <5000 l/d) · SCOPdhw bomba calor eléctrica ≥2,5",
+      "HE5 ámbito >1.000 m² · Fpr;el: 0,005 residencial / 0,010 otros",
+      "HE6 residencial: conducción 100% · no residencial: 20% conducción + 1 estación/40 plazas",
+    ],
+  },
+
+  "E9": {
+    intro: "El RITE (RD 1027/2007, modificado) regula las exigencias de eficiencia energética, bienestar e higiene, y seguridad de las instalaciones térmicas en los edificios: climatización (calefacción, refrigeración, ventilación) y producción de ACS.",
+    bloques: [
+      { h: "Estructura y ámbito (Parte I, Cap. I-II)", items: [
+        "Ámbito: instalaciones fijas de climatización y ACS en edificios (nueva construcción y reformas)",
+        "Se considera reforma: incorporación/sustitución de subsistemas, ampliación, cambio de energía, cambio de uso",
+        "Exigencias técnicas: bienestar e higiene · eficiencia energética y renovables · seguridad (arts. 11-13)",
+        "Documentos reconocidos del RITE: documentos técnicos sin carácter reglamentario con reconocimiento ministerial",
+      ]},
+      { h: "Documentación técnica y condiciones administrativas (Cap. III)", items: [
+        "Potencia >70 kW → Proyecto firmado por técnico titulado competente",
+        "Potencia ≥5 kW y ≤70 kW → Memoria técnica (instalador habilitado o técnico titulado)",
+        "Potencia <5 kW → Sin documentación preceptiva ante la CCAA",
+        "Tras pruebas: el instalador habilitado y el director de la instalación suscriben el Certificado de la Instalación",
+        "Puesta en servicio: registro del certificado en el órgano competente de la CCAA antes de conectar energía",
+      ]},
+      { h: "IT 1 – Bienestar e higiene (IT 1.1)", items: [
+        "Condiciones interiores diseño (tabla 1.4.1.1): VERANO 23-25°C / HR 45-60% · INVIERNO 21-23°C / HR 40-50%",
+        "Temperatura de dimensionamiento: calefacción = 21°C · refrigeración = 25°C",
+        "Categorías calidad del aire interior (IDA): IDA1 hospitales/guarderías (20 dm³/s·p) · IDA2 oficinas/aulas (12,5) · IDA3 restaurantes/cines (8) · IDA4 (5)",
+        "Piscinas climatizadas: temperatura agua 24-30°C · tolerancia ±1,5°C · humedad local <65% · presión negativa 20-40 Pa",
+        "Categorías aire de extracción (AE): AE1 (oficinas) puede retornarse · AE2 solo transferencia a servicios · AE3/AE4 nunca recirculables",
+        "AE4 incluye: aparcamientos, campanas de humos, laboratorios químicos, locales de pinturas y solventes",
+      ]},
+      { h: "IT 1 – Eficiencia energética (IT 1.2)", items: [
+        "Procedimiento simplificado (valores límite) o alternativo (consumo calculado equivalente)",
+        "Fraccionamiento generadores: potencia >400 kW con combustible líquido/gaseoso → mínimo 2 generadores",
+        "Regulación quemadores: modulante para gas · ≤70 kW y combustible líquido puede ser de 1 o 2 marchas",
+        "Cargas de cálculo: invierno TS99% · verano TS1% · usos especiales (hospitales): TS99,6% y TS0,4%",
+        "Temperatura máxima de entrada a emisores de calefacción: 60°C",
+      ]},
+      { h: "Mantenimiento, uso e inspección (Cap. VI, IT 3)", items: [
+        "5-70 kW: empresa mantenedora según Manual de Uso y Mantenimiento, sin contrato formal obligatorio",
+        ">70 kW: contrato de mantenimiento obligatorio con empresa mantenedora habilitada",
+        ">5.000 kW calor o >1.000 kW frío (o solar >400 kW): director de mantenimiento técnico titulado competente",
+        "Registro de operaciones de mantenimiento: conservar al menos 5 años desde cada actuación",
+        "Certificado de mantenimiento anual (cuando hay contrato): enviado al órgano competente de la CCAA",
+      ]},
+    ],
+    claves: [
+      "Proyecto si >70 kW · Memoria técnica si 5-70 kW · Sin documentación si <5 kW",
+      "Condiciones diseño: verano 23-25°C/45-60%HR · invierno 21-23°C/40-50%HR · dim. refrigeración: 25°C",
+      "IDA1=20 dm³/s·p · IDA2=12,5 · IDA3=8 · IDA4=5 · solo AE1 puede retornarse",
+      "AE4: aparcamientos, campanas de humos, laboratorios químicos — nunca recirculable",
+      "Piscinas climatizadas: agua 24-30°C · aire=agua+1-2°C (máx 30°C) · HR local <65%",
+      "Fraccionamiento: >400 kW combustible líquido/gaseoso → ≥2 generadores",
+      "Mantenimiento: contrato obligatorio >70 kW · director técnico >5.000 kW calor / >1.000 kW frío · registro 5 años",
+    ],
+  },
+
+  "E10": {
+    intro: "El CTE DB-HS (Salubridad), actualizado por RD 450/2022, establece en seis secciones (HS1–HS6) las condiciones para proteger la salud de los usuarios frente a humedades, residuos, calidad del aire, agua, evacuación y radón.",
+    bloques: [
+      { h: "HS 1 – Protección frente a la humedad", items: [
+        "Ámbito: muros/suelos en contacto con el terreno · fachadas/cubiertas en contacto con el exterior",
+        "Presencia de agua: BAJA (cara inf. suelo > nivel freático) · MEDIA (<2 m bajo freático) · ALTA (≥2 m bajo freático)",
+        "Grado de impermeabilidad mínimo (tabla 2.1): Ks≤10⁻² + alta → 5 · Ks<10⁻² + media → 3 · baja → 1",
+        "Condiciones constructivas (C): C1=hormigón hidrófugo in situ · C2=hormigón fluido · C3=fábrica con mortero hidrófugo",
+        "Impermeabilización (I): I1=lámina o líquido · I2=pintura o I1 · I3=revestimiento hidrófugo interior (fábrica)",
+        "Drenaje (D): D1=capa drenante+filtrante · D2=pozo drenante c/50 m (diámetro ≥0,7 m, 2 bombas) · D3=tubo drenante en arranque · D4=canaletas cámara",
+        "Ventilación cámara (V1): caudal ≥0,7 l/s·m² superficie útil · 50% aberturas inferior + 50% coronación · distancia entre aberturas ≤5 m · relación Ss/Ah: 10<Ss/Ah<30",
+        "Encuentros muro-fachada (interior): impermeabilizante >15 cm sobre nivel suelo exterior + banda refuerzo hacia abajo ≥20 cm",
+        "Esquinas/rincones: banda de refuerzo ≥15 cm de anchura centrada en la arista",
+        "Limitación de condensaciones superficiales e intersticiales: según DB-HE1",
+      ]},
+      { h: "HS 2 – Recogida y evacuación de residuos", items: [
+        "Obligación: espacios y medios para extraer residuos ordinarios de acuerdo con el sistema público de recogida",
+        "Facilitar la separación selectiva en origen y la recogida selectiva",
+        "Almacén de contenedores de edificio + espacio de reserva + posibles bajantes de residuos",
+      ]},
+      { h: "HS 3 – Calidad del aire interior", items: [
+        "Objetivo: ventilación adecuada, eliminación de contaminantes habituales, caudal suficiente de aire exterior",
+        "Evacuación de productos de combustión: con carácter general, por la cubierta del edificio, independientemente del combustible",
+        "En viviendas y aparcamientos: cumplimiento de esta sección HS3 · resto de edificios: RITE IT 1.1.4.2",
+      ]},
+      { h: "HS 4 – Suministro de agua", items: [
+        "Agua apta para consumo · caudales suficientes · sin alteración de propiedades · prevención de retornos",
+        "Equipos de ACS con acumulación: condiciones para evitar el desarrollo de gérmenes patógenos (Legionella)",
+        "Ahorro y control del agua: criterios de diseño, señalización y dispositivos ahorradores",
+      ]},
+      { h: "HS 5 – Evacuación de aguas", items: [
+        "Medios para extraer aguas residuales de forma independiente o conjunta con pluviales y escorrentías",
+        "Comprende: aguas fecales (residuales) + aguas pluviales (precipitaciones) + escorrentías de cubierta y exteriores",
+      ]},
+      { h: "HS 6 – Protección frente al radón (RD 732/2019 + RD 450/2022)", items: [
+        "Radón: gas noble radiactivo procedente del terreno que puede acumularse en recintos cerrados",
+        "Riesgo variable por municipio según clasificación del potencial de radón del subsuelo",
+        "Medidas: barrera de protección · espacio de contención ventilado · despresurización del terreno",
+      ]},
+    ],
+    claves: [
+      "HS1 presencia agua: baja=sobre freático · media=0-2m bajo freático · alta=≥2m bajo freático",
+      "HS1 grado imp. mínimo: Ks≤10⁻² + alta → 5 · Ks≤10⁻⁵ + alta → 4 · baja → 1",
+      "HS1 V1 cámara: ≥0,7 l/s·m² · aberturas 50%inf+50%cor · distancia ≤5 m",
+      "HS1 D2 pozos drenantes: c/50 m · diámetro ≥0,7 m · 2 bombas de achique",
+      "HS1 encuentro muro-fachada interior: impermeabilizante >15 cm sobre nivel suelo · banda refuerzo ≥20 cm",
+      "HS1 esquinas/rincones: banda refuerzo ≥15 cm centrada en arista",
+      "HS3 combustión: evacuación general por cubierta · calidad aire en viviendas/aparcamientos → HS3; resto → RITE",
+      "DB-HS comprende 6 secciones (HS1-HS6): la 6ª (radón) incorporada por RD 732/2019",
+    ],
+  },
 };

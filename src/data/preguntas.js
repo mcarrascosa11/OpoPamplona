@@ -2296,4 +2296,232 @@ export const PREGUNTAS = [
     q: "¿Cuál es el límite de superficie de uso público para que un local se considere de 'reducidas dimensiones' a efectos de servicios higiénicos, según el Anejo C del DA DB-SUA/2?",
     o: ["50 m² de superficie y ocupación ≤ 25 personas", "100 m² de superficie y ocupación ≤ 50 personas", "150 m² de superficie y ocupación ≤ 75 personas", "200 m² de superficie y ocupación ≤ 100 personas"],
     c: 1, exp: "Anejo C DA DB-SUA/2: se consideran locales de reducidas dimensiones aquellos cuya superficie de uso público no exceda de 100 m² y cuya ocupación de público no exceda de 50 personas. En estos locales pueden plantearse soluciones alternativas como aseos de uso compartido, aseos unisex o suficiencia de aseos accesibles en zonas comunes del centro comercial o en la vía pública a menos de 50 m." },
+
+  // ── E8: CTE DB-HE Ahorro de Energía ──────────────────────────────────────
+  { id: "E8-01", tema: "E8",
+    q: "¿Cuál es el consumo de energía primaria no renovable límite (Cep,nren,lim) para un edificio residencial de nueva construcción en la zona climática C, según el CTE DB-HE0?",
+    o: ["25 kWh/m²·año", "28 kWh/m²·año", "32 kWh/m²·año", "38 kWh/m²·año"],
+    c: 2, exp: "Tabla 3.1.a del DB-HE0 (RD 450/2022): Cep,nren,lim para edificios residenciales de nueva construcción: zona α = 20, A = 25, B = 28, C = 32, D = 38, E = 43 kWh/m²·año. La zona C corresponde a 32 kWh/m²·año." },
+
+  { id: "E8-02", tema: "E8",
+    q: "Según el CTE DB-HE0, ¿cómo se modifican los valores límite de consumo de energía primaria no renovable en territorios extrapeninsulares (Canarias, Ceuta y Melilla)?",
+    o: ["Se reducen en un 10%", "Se aplican los mismos valores que en la Península", "Se multiplican por 1,25", "Se incrementan en un 20%"],
+    c: 2, exp: "El DB-HE0 establece que en territorios extrapeninsulares (Islas Canarias, Ceuta y Melilla) los valores límite de Cep,nren y Cep,tot se multiplican por el factor 1,25 respecto a los valores de la tabla general, para reflejar las especificidades climáticas y de suministro energético de dichos territorios." },
+
+  { id: "E8-03", tema: "E8",
+    q: "En el CTE DB-HE1, ¿cuál es la transmitancia térmica límite (Ulim) de muros y suelos para la zona climática C?",
+    o: ["0,41 W/m²K", "0,56 W/m²K", "0,70 W/m²K", "0,49 W/m²K"],
+    c: 3, exp: "Tabla 3.1.1.a del DB-HE1: Ulim para muros y suelos: zona α = 0,80; A = 0,70; B = 0,56; C = 0,49; D = 0,41; E = 0,37 W/m²K. La zona C exige un máximo de 0,49 W/m²K para muros y suelos en contacto con el exterior." },
+
+  { id: "E8-04", tema: "E8",
+    q: "Según el CTE DB-HE1, ¿cuál es el valor de transmitancia límite de cubierta (Ulim,cu) para la zona climática B?",
+    o: ["0,50 W/m²K", "0,44 W/m²K", "0,40 W/m²K", "0,33 W/m²K"],
+    c: 1, exp: "Tabla 3.1.1.a del DB-HE1: Ulim para cubiertas: zona α = 0,55; A = 0,50; B = 0,44; C = 0,40; D = 0,35; E = 0,33 W/m²K. La zona B exige cubiertas con transmitancia ≤ 0,44 W/m²K." },
+
+  { id: "E8-05", tema: "E8",
+    q: "En el CTE DB-HE1, ¿cuál es la transmitancia límite de huecos (Ulim,hu) para la zona climática D?",
+    o: ["2,3 W/m²K", "2,7 W/m²K", "1,80 W/m²K", "2,1 W/m²K"],
+    c: 3, exp: "Tabla 3.1.1.a del DB-HE1: Ulim para huecos: zona A = 3,2; B = 2,7; C = 2,3; D = 2,1; E = 1,80 W/m²K. La zona D exige huecos con transmitancia ≤ 2,1 W/m²K." },
+
+  { id: "E8-06", tema: "E8",
+    q: "¿Cuál es el valor límite de control solar (qsol;jul,lim) para un edificio residencial según el DB-HE1?",
+    o: ["1,00 kWh/m²·mes", "4,00 kWh/m²·mes", "3,00 kWh/m²·mes", "2,00 kWh/m²·mes"],
+    c: 3, exp: "Tabla 3.1.2 del DB-HE1: el valor límite de control solar qsol;jul,lim es de 2,00 kWh/m²·mes para uso residencial privado y de 4,00 kWh/m²·mes para otros usos. Este parámetro limita las ganancias solares en julio a través de los huecos de la envolvente." },
+
+  { id: "E8-07", tema: "E8",
+    q: "En el DB-HE1, ¿cuál es el límite de permeabilidad al aire Q100 (caudal a 100 Pa) para ventanas en las zonas climáticas C, D y E?",
+    o: ["≤27 m³/h·m²", "≤18 m³/h·m²", "≤9 m³/h·m²", "≤6 m³/h·m²"],
+    c: 2, exp: "Tabla 3.1.3.a del DB-HE1: la permeabilidad al aire Q100 de ventanas y puertas exteriores es ≤27 m³/h·m² para las zonas α, A y B, y ≤9 m³/h·m² para las zonas C, D y E (el doble de exigencia en zonas más frías)." },
+
+  { id: "E8-08", tema: "E8",
+    q: "Según el DB-HE1, ¿cuál es el valor límite de la tasa de renovación de aire n50 para edificios residenciales de nueva construcción con superficie >120 m² y relación V/A ≤ 2?",
+    o: ["10 h⁻¹", "8 h⁻¹", "3 h⁻¹", "6 h⁻¹"],
+    c: 3, exp: "Tabla 3.1.3.b del DB-HE1: para edificios residenciales de nueva construcción con superficie >120 m², n50,lim es de 6 h⁻¹ cuando V/A ≤ 2, y de 3 h⁻¹ cuando V/A ≥ 4, interpolando linealmente entre ambos valores. Este parámetro controla la estanquidad de la envolvente frente al aire." },
+
+  { id: "E8-09", tema: "E8",
+    q: "En el CTE DB-HE3, ¿cuál es el valor límite de eficiencia energética de la instalación (VEEIlim) para locales de hostelería y restauración?",
+    o: ["4,0 W/m² por cada 100 lux", "6,0 W/m² por cada 100 lux", "8,0 W/m² por cada 100 lux", "10,0 W/m² por cada 100 lux"],
+    c: 2, exp: "Tabla 3.1-HE3 del DB-HE: VEEIlim para hostelería y restauración = 8,0 W/m² por cada 100 lux. Los usos con menor tolerancia incluyen administrativo (3,0), almacenes (4,0), y zonas comunes no residenciales (6,0). Las habitaciones de hotel tienen el límite más alto: 10,0." },
+
+  { id: "E8-10", tema: "E8",
+    q: "Según el DB-HE3, en zonas de uso esporádico (aseos, pasillos, escaleras, aparcamientos), ¿qué sistema puede sustituir al encendido por horario centralizado?",
+    o: ["Solo interruptor manual", "Sistema de control centralizado de gestión", "Detección de presencia temporizado o pulsador con temporización", "Fotocélula de control de luz natural"],
+    c: 2, exp: "Apartado 3.3 del DB-HE3: en zonas de uso esporádico el sistema de encendido por horario centralizado puede sustituirse por: a) un control de encendido y apagado por sistema de detección de presencia temporizado, o b) un sistema de temporización mediante pulsador. Estas son las dos únicas alternativas aceptadas." },
+
+  { id: "E8-11", tema: "E8",
+    q: "En el DB-HE3, ¿qué condición matemática debe cumplirse (junto con otras condiciones geométricas) para que sea obligatoria la instalación de sistemas de aprovechamiento de luz natural?",
+    o: ["T·(Aw/A) > 0,05", "T·(Aw/A) > 0,11", "T·(Aw/A) > 0,20", "T·(Aw/A) > 0,15"],
+    c: 1, exp: "Apartado 3.4 del DB-HE3: se instalarán sistemas de aprovechamiento de la luz natural que regulen automáticamente el nivel de iluminación cuando se cumpla la expresión T(Aw/A) > 0,11 junto con alguna condición geométrica adicional (ángulo θ > 65°, patio descubierto ai > 2hi, o patio cubierto ai > 2·hi/Tc). T = transmisión luminosa del vidrio, Aw = área acristalamiento, A = área total de fachadas." },
+
+  { id: "E8-12", tema: "E8",
+    q: "Según el CTE DB-HE4, ¿cuál es la contribución mínima de energía procedente de fuentes renovables para cubrir la demanda de ACS en edificios de nueva construcción?",
+    o: ["Al menos el 50%, reducible al 40% si demanda < 5.000 l/d", "Al menos el 80%, sin posibilidad de reducción", "Al menos el 60%, sin posibilidad de reducción", "Al menos el 70%, reducible al 60% si demanda < 5.000 l/d"],
+    c: 3, exp: "Apartado 3.1 del DB-HE4: la contribución mínima de energía renovable cubrirá al menos el 70% de la demanda energética anual para ACS. Esta contribución mínima podrá reducirse al 60% cuando la demanda de ACS sea inferior a 5.000 l/d. Se considera únicamente la aportación renovable in situ, en proximidades o procedente de biomasa sólida." },
+
+  { id: "E8-13", tema: "E8",
+    q: "Para que una bomba de calor destinada a la producción de ACS pueda contabilizar su contribución renovable según el DB-HE4, ¿qué valor mínimo de SCOPdhw debe tener cuando sea accionada eléctricamente?",
+    o: ["1,15", "2,0", "2,5", "3,0"],
+    c: 2, exp: "Apartado 3.1.4 del DB-HE4: las bombas de calor destinadas a la producción de ACS, para poder considerar su contribución renovable, deben disponer de un SCOPdhw ≥ 2,5 cuando sean accionadas eléctricamente, e ≥ 1,15 cuando sean accionadas mediante energía térmica. La temperatura de preparación del ACS no será inferior a 45°C." },
+
+  { id: "E8-14", tema: "E8",
+    q: "¿A qué edificios se aplica la obligación de generación mínima de energía eléctrica renovable según el CTE DB-HE5?",
+    o: ["Todos los edificios de nueva construcción sin excepción", "Edificios de nueva construcción cuando superen los 500 m² construidos", "Edificios de nueva construcción cuando superen los 1.000 m² construidos", "Solo edificios de uso terciario de cualquier superficie"],
+    c: 2, exp: "Apartado 1 del DB-HE5: esta sección se aplica a edificios de nueva construcción cuando superen los 1.000 m² construidos, a ampliaciones de edificios existentes cuando se incremente la superficie construida en más de 1.000 m², y a edificios existentes que se reformen íntegramente o cambien de uso cuando superen los 1.000 m²." },
+
+  { id: "E8-15", tema: "E8",
+    q: "Según el CTE DB-HE6, en los edificios de uso distinto al residencial privado con aparcamiento, ¿qué dotación mínima de infraestructura de recarga de vehículos eléctricos se exige?",
+    o: ["Conducción para el 100% de las plazas, sin estaciones obligatorias", "Conducción para el 10% de las plazas y una estación por cada 20 plazas", "Conducción para el 20% de las plazas y una estación de recarga por cada 40 plazas", "Una estación por cada 10 plazas de aparcamiento"],
+    c: 2, exp: "Apartado 3 del DB-HE6: en edificios de uso distinto al residencial privado se instalarán sistemas de conducción de cables para al menos el 20% de las plazas, y una estación de recarga por cada 40 plazas (o fracción). Para edificios de la Administración General del Estado la ratio es 1 por cada 20 plazas. En uso residencial privado, la conducción debe cubrir el 100% de las plazas." },
+
+  // ── E9: RITE – Reglamento de Instalaciones Térmicas en los Edificios ───────
+  { id: "E9-01", tema: "E9",
+    q: "¿Cuál es el objeto del Reglamento de Instalaciones Térmicas en los Edificios (RITE)?",
+    o: ["Regular únicamente las instalaciones de calefacción en edificios residenciales", "Establecer las exigencias de eficiencia energética y seguridad para instalaciones térmicas destinadas al bienestar e higiene de las personas", "Desarrollar el sistema de certificación energética de edificios", "Regular el control de emisiones de CO₂ de las calderas industriales"],
+    c: 1, exp: "Artículo 1 del RITE (RD 1027/2007): el RITE tiene por objeto establecer las exigencias de eficiencia energética y seguridad que deben cumplir las instalaciones térmicas en los edificios destinadas a atender la demanda de bienestar e higiene de las personas, durante su diseño y dimensionado, ejecución, mantenimiento y uso." },
+
+  { id: "E9-02", tema: "E9",
+    q: "Según el artículo 15 del RITE, ¿qué documentación técnica es obligatoria cuando la potencia térmica nominal a instalar es mayor que 70 kW?",
+    o: ["Memoria técnica elaborada por instalador habilitado", "Declaración responsable del titular de la instalación", "Proyecto firmado por técnico titulado competente", "Solo el certificado de la instalación tras las pruebas"],
+    c: 2, exp: "Artículo 15.1.a) del RITE: cuando la potencia térmica nominal a instalar en generación de calor o frío sea mayor que 70 kW, se requerirá la realización de un proyecto. Este proyecto debe ser redactado y firmado por técnico titulado competente, quien será responsable de que el mismo se adapte a las exigencias del RITE (art. 16)." },
+
+  { id: "E9-03", tema: "E9",
+    q: "¿Qué documentación técnica exige el RITE cuando la potencia térmica nominal está entre 5 kW y 70 kW?",
+    o: ["Proyecto completo firmado por técnico competente", "Memoria técnica elaborada por instalador habilitado o técnico titulado", "Solo el certificado de la instalación registrado en la CCAA", "Declaración responsable del propietario"],
+    c: 1, exp: "Artículo 15.1.b) del RITE: cuando la potencia térmica nominal sea ≥5 kW y ≤70 kW, el proyecto podrá ser sustituido por una memoria técnica. Según el art. 17, la memoria técnica será elaborada por instalador habilitado o técnico titulado competente, y constará de justificación, descripción, cálculo y planos." },
+
+  { id: "E9-04", tema: "E9",
+    q: "Según la tabla 1.4.1.1 de la IT 1 del RITE, ¿cuáles son las condiciones interiores de diseño en verano para actividad metabólica sedentaria (1,2 met) y PPD < 10%?",
+    o: ["Temperatura operativa 20-22°C, humedad relativa 40-50%", "Temperatura operativa 23-25°C, humedad relativa 45-60%", "Temperatura operativa 25-27°C, humedad relativa 50-65%", "Temperatura operativa 22-24°C, humedad relativa 30-50%"],
+    c: 1, exp: "Tabla 1.4.1.1 del RITE (IT 1.1.4.1.2): condiciones interiores de diseño para personas con actividad sedentaria (1,2 met), vestimenta 0,5 clo en verano y 1 clo en invierno, PPD < 10%: VERANO: temperatura operativa 23-25°C, HR 45-60%. INVIERNO: temperatura operativa 21-23°C, HR 40-50%. Para dimensionamiento: calefacción = 21°C, refrigeración = 25°C." },
+
+  { id: "E9-05", tema: "E9",
+    q: "A efectos de dimensionamiento de sistemas de refrigeración, ¿qué temperatura interior de cálculo establece el RITE en la IT 1?",
+    o: ["22°C", "23°C", "25°C", "27°C"],
+    c: 2, exp: "IT 1.1.4.1.2 del RITE: para el dimensionamiento de los sistemas de calefacción se empleará una temperatura de cálculo de las condiciones interiores de 21°C. Para los sistemas de refrigeración la temperatura de cálculo será de 25°C. Estos valores pertenecen al límite superior (refrigeración) e inferior (calefacción) del rango de confort de verano/invierno respectivamente." },
+
+  { id: "E9-06", tema: "E9",
+    q: "En el RITE, ¿qué categoría de calidad del aire interior (IDA) corresponde a oficinas, residencias, aulas y museos?",
+    o: ["IDA 1 (aire de óptima calidad)", "IDA 2 (aire de buena calidad)", "IDA 3 (aire de calidad media)", "IDA 4 (aire de calidad baja)"],
+    c: 1, exp: "IT 1.1.4.2.2 del RITE: IDA 2 (aire de buena calidad) corresponde a oficinas, residencias (zonas comunes de hoteles, residencias de ancianos y estudiantes), salas de lectura, museos, salas de tribunales, aulas de enseñanza y piscinas. IDA 1 es para hospitales y guarderías; IDA 3 para cines, restaurantes y habitaciones de hotel." },
+
+  { id: "E9-07", tema: "E9",
+    q: "Según la tabla 1.4.2.1 del RITE, ¿cuál es el caudal mínimo de aire exterior de ventilación por persona para la categoría IDA 1 (hospitales, clínicas, guarderías)?",
+    o: ["5 dm³/s por persona", "8 dm³/s por persona", "12,5 dm³/s por persona", "20 dm³/s por persona"],
+    c: 3, exp: "Tabla 1.4.2.1 del RITE (método indirecto por persona): caudales mínimos de aire exterior: IDA 1 = 20 dm³/s·persona; IDA 2 = 12,5 dm³/s·persona; IDA 3 = 8 dm³/s·persona; IDA 4 = 5 dm³/s·persona. Para locales donde esté permitido fumar, los caudales serán como mínimo el doble de los indicados." },
+
+  { id: "E9-08", tema: "E9",
+    q: "Según la clasificación de aire de extracción del RITE, ¿a qué categoría (AE) pertenecen los aparcamientos, campanas de humos y laboratorios químicos?",
+    o: ["AE 1 (bajo nivel de contaminación)", "AE 2 (moderado nivel de contaminación)", "AE 3 (alto nivel de contaminación)", "AE 4 (muy alto nivel de contaminación)"],
+    c: 3, exp: "IT 1.1.4.2.5 del RITE: AE 4 (muy alto nivel de contaminación) incluye extracción de campanas de humos, aparcamientos, locales para manejo de pinturas y solventes, locales de almacenamiento de residuos de comida, fumadores de uso continuo y laboratorios químicos. Este aire contiene sustancias olorosas y contaminantes perjudiciales en concentraciones superiores a las permitidas." },
+
+  { id: "E9-09", tema: "E9",
+    q: "Según la IT 1.1.4.2.5 del RITE, ¿qué categoría de aire de extracción puede retornarse o recircularse a los locales?",
+    o: ["Solo AE 1, exento de humo de tabaco", "AE 1 y AE 2 siempre que se filtre", "AE 2 si no procede de zonas de fumadores", "AE 3 siempre que se mezcle con aire exterior"],
+    c: 0, exp: "IT 1.1.4.2.5 del RITE: solo el aire de categoría AE 1, exento de humo de tabaco, puede ser retornado a los locales. El aire AE 2 puede emplearse solo como aire de transferencia hacia locales de servicio, aseos y garajes. El aire AE 3 y AE 4 no puede emplearse como aire de recirculación o de transferencia bajo ningún concepto." },
+
+  { id: "E9-10", tema: "E9",
+    q: "¿A partir de qué potencia térmica nominal total instalada el titular de la instalación térmica debe suscribir un contrato de mantenimiento con empresa mantenedora, según el art. 26 del RITE?",
+    o: ["Mayor que 5 kW", "Mayor que 30 kW", "Mayor que 70 kW", "Mayor que 150 kW"],
+    c: 2, exp: "Artículo 26.6 del RITE: las instalaciones con potencia térmica nominal total en generación de calor o frío entre 5 kW y 70 kW se mantendrán por empresa mantenedora según el Manual de Uso y Mantenimiento, sin necesidad de contrato formal. Para potencias superiores a 70 kW es obligatorio suscribir contrato de mantenimiento con empresa mantenedora habilitada." },
+
+  { id: "E9-11", tema: "E9",
+    q: "En el RITE, ¿cuándo es preceptiva la figura del director de mantenimiento (técnico titulado competente) para las instalaciones térmicas?",
+    o: ["Siempre que la potencia sea mayor que 70 kW", "Cuando la potencia sea mayor que 400 kW", "Cuando la potencia sea mayor que 5.000 kW en calor y/o 1.000 kW en frío", "En todas las instalaciones que requieran proyecto"],
+    c: 2, exp: "Artículo 26.6.c) del RITE: las instalaciones con potencia térmica nominal total mayor que 5.000 kW en calor y/o 1.000 kW en frío (y las solares de más de 400 kW) deben mantenerse bajo la dirección de un técnico titulado competente con funciones de director de mantenimiento, ya pertenezca a la propiedad o a la empresa mantenedora." },
+
+  { id: "E9-12", tema: "E9",
+    q: "¿Durante cuánto tiempo debe conservarse el registro de operaciones de mantenimiento de las instalaciones térmicas, según el art. 27 del RITE?",
+    o: ["No inferior a 2 años desde cada operación", "No inferior a 5 años desde cada operación", "No inferior a 10 años desde cada operación", "Hasta la demolición del edificio"],
+    c: 1, exp: "Artículo 27.2 del RITE: el titular de la instalación será responsable del registro de operaciones de mantenimiento y lo tendrá a disposición de las autoridades competentes. Este registro debe conservarse durante un tiempo no inferior a cinco años, contados a partir de la fecha de ejecución de la correspondiente operación de mantenimiento." },
+
+  { id: "E9-13", tema: "E9",
+    q: "Según la IT 1.2.4.1.2.2 del RITE, ¿a partir de qué potencia útil nominal es obligatorio instalar dos o más generadores en centrales de producción de calor con combustible líquido o gaseoso?",
+    o: ["Más de 200 kW", "Más de 300 kW", "Más de 400 kW", "Más de 600 kW"],
+    c: 2, exp: "IT 1.2.4.1.2.2 del RITE: si la potencia útil nominal a instalar es mayor que 400 kW se instalarán dos o más generadores. Si la potencia es igual o menor que 400 kW y la instalación suministra calefacción y ACS, se puede emplear un único generador siempre que la potencia demandada por ACS sea igual o mayor que la del escalón de potencia mínimo." },
+
+  { id: "E9-14", tema: "E9",
+    q: "Según la IT 1.1.4.3.2 del RITE, ¿entre qué temperaturas debe mantenerse el agua en piscinas climatizadas?",
+    o: ["Entre 20°C y 26°C", "Entre 22°C y 28°C", "Entre 24°C y 30°C", "Entre 26°C y 32°C"],
+    c: 2, exp: "IT 1.1.4.3.2 del RITE: la temperatura del agua de las piscinas climatizadas estará comprendida entre 24°C y 30°C según el uso principal (excluidas piscinas terapéuticas). Asimismo, la tolerancia en el espacio de la temperatura del agua no podrá ser mayor que ±1,5°C. La temperatura del aire del local se mantendrá entre 1°C y 2°C por encima del agua, con máximo de 30°C." },
+
+  { id: "E9-15", tema: "E9",
+    q: "Según el art. 23 del RITE, ¿quién suscribe el certificado de la instalación una vez finalizadas las pruebas de puesta en servicio con resultado satisfactorio?",
+    o: ["El titular de la instalación y la empresa distribuidora de energía", "El organismo de control autorizado y la comunidad autónoma", "El director de obra y el proyectista del edificio", "El instalador habilitado y el director de la instalación (cuando éste sea preceptivo)"],
+    c: 3, exp: "Artículo 23.1 del RITE: una vez finalizada la instalación y realizadas las pruebas con resultado satisfactorio, el instalador habilitado y el director de la instalación (cuando su participación sea preceptiva) suscribirán el certificado de la instalación. Para la puesta en servicio, este certificado debe registrarse en el órgano competente de la Comunidad Autónoma (art. 24)." },
+
+  // ── E10: CTE DB-HS Salubridad ─────────────────────────────────────────────
+  { id: "E10-01", tema: "E10",
+    q: "¿A qué elementos constructivos se aplica la Sección HS 1 del CTE DB-HS (Protección frente a la humedad)?",
+    o: ["Solo a las cubiertas planas y muros de sótano con más de un nivel bajo rasante", "A los muros y suelos en contacto con el terreno, y a las fachadas y cubiertas en contacto con el aire exterior", "Únicamente a los elementos en contacto con el terreno (muros y suelos)", "Solo a fachadas con orientación norte y cubierta plana accesible"],
+    c: 1, exp: "Apartado 1.1 del DB-HS1: esta sección se aplica a los muros y suelos que están en contacto con el terreno y a los cerramientos en contacto con el aire exterior (fachadas y cubiertas). Los suelos elevados se consideran suelos en contacto con el terreno. Las medianerías descubiertas y los suelos de terrazas y balcones también quedan incluidos." },
+
+  { id: "E10-02", tema: "E10",
+    q: "En la tabla 2.1 del DB-HS1, ¿cuándo se considera 'alta' la presencia de agua en el terreno para determinar el grado de impermeabilidad de los muros?",
+    o: ["Cuando el nivel freático se encuentra a menos de 0,5 m de la cara inferior del suelo", "Cuando la cara inferior del suelo se encuentra a dos o más metros por debajo del nivel freático", "Cuando existe agua proveniente de precipitaciones en terreno arcilloso", "Cuando hay más de un metro de relleno sobre el nivel freático"],
+    c: 1, exp: "Apartado 2.1.1 del DB-HS1: la presencia de agua se considera alta cuando la cara inferior del suelo en contacto con el terreno se encuentra a dos o más metros por debajo del nivel freático; media cuando se encuentra a la misma profundidad que el nivel freático o a menos de dos metros por debajo; y baja cuando se encuentra por encima del nivel freático." },
+
+  { id: "E10-03", tema: "E10",
+    q: "En el DB-HS1, ¿qué grado de impermeabilidad mínimo se exige a un muro en contacto con el terreno cuyo coeficiente de permeabilidad es Ks ≤ 10⁻² cm/s y la presencia de agua es alta?",
+    o: ["Grado 2", "Grado 3", "Grado 4", "Grado 5"],
+    c: 3, exp: "Tabla 2.1 del DB-HS1: el grado de impermeabilidad mínimo exigido a los muros en función de la presencia de agua y permeabilidad del terreno es: Ks ≤ 10⁻² + presencia alta = 5; Ks entre 10⁻⁵ y 10⁻² + presencia alta = 5; Ks ≤ 10⁻⁵ + presencia alta = 4. La presencia alta con terrenos poco permeables exige siempre el grado máximo de 5." },
+
+  { id: "E10-04", tema: "E10",
+    q: "En el DB-HS1, la condición V1 de ventilación de la cámara de muro establece un caudal mínimo de ventilación de:",
+    o: ["0,5 l/s por cada m² de superficie útil del local", "0,7 l/s por cada m² de superficie útil del local", "1,0 l/s por cada m² de superficie útil del local", "1,5 l/s por cada m² de superficie útil del local"],
+    c: 1, exp: "Condición V1 del DB-HS1 (apartado 2.1.2): deben disponerse aberturas de ventilación en el arranque y la coronación de la hoja interior y ventilarse el local con un caudal de al menos 0,7 l/s por cada m² de superficie útil. Las aberturas deben repartirse al 50% entre la parte inferior y la coronación, y la distancia entre aberturas contiguas no superará los 5 m." },
+
+  { id: "E10-05", tema: "E10",
+    q: "En el DB-HS1 (condición V1), ¿cuál es la distancia máxima entre aberturas de ventilación contiguas de la cámara de muro?",
+    o: ["2 m", "3 m", "4 m", "5 m"],
+    c: 3, exp: "Condición V1 del DB-HS1: las aberturas de ventilación deben estar repartidas al 50% entre la parte inferior y la coronación de la hoja interior, distribuidas regularmente y dispuestas al tresbolillo. La distancia entre aberturas de ventilación contiguas no debe ser mayor que 5 m. Además, la relación Ss/Ah debe cumplir: 10 < Ss/Ah < 30." },
+
+  { id: "E10-06", tema: "E10",
+    q: "En el encuentro entre muro impermeabilizado por el interior y la fachada (DB-HS1, apt. 2.1.3.1), ¿a qué altura mínima debe prolongarse el impermeabilizante sobre el muro por encima del nivel del suelo exterior?",
+    o: ["5 cm como mínimo", "10 cm como mínimo", "Más de 15 cm", "20 cm como mínimo"],
+    c: 2, exp: "Apartado 2.1.3.1 del DB-HS1: en los arranques de la fachada sobre el muro impermeabilizado por el interior, el impermeabilizante debe prolongarse sobre el muro en todo su espesor a más de 15 cm por encima del nivel del suelo exterior, sobre una banda de refuerzo del mismo material que la barrera impermeable utilizada que debe prolongarse hacia abajo 20 cm como mínimo." },
+
+  { id: "E10-07", tema: "E10",
+    q: "¿Cuál es el objeto de la exigencia básica HS 2 del CTE DB-HS?",
+    o: ["Limitar el riesgo de condensaciones en los cerramientos y puentes térmicos", "Garantizar que los edificios dispongan de espacios y medios para extraer y separar selectivamente los residuos ordinarios", "Controlar la calidad y la presión del agua de suministro en los puntos de consumo", "Regular el caudal mínimo de ventilación en los locales habitables de las viviendas"],
+    c: 1, exp: "Artículo 13.2 del CTE (exigencia HS 2): los edificios dispondrán de espacios y medios para extraer los residuos ordinarios generados en ellos de forma acorde con el sistema público de recogida de tal forma que se facilite la adecuada separación en origen de dichos residuos, la recogida selectiva de los mismos y su posterior gestión." },
+
+  { id: "E10-08", tema: "E10",
+    q: "Según la exigencia básica HS 3 del CTE, ¿por dónde deben evacuarse con carácter general los productos de combustión de las instalaciones térmicas?",
+    o: ["A través de la fachada más cercana al generador térmico", "Por el patio interior del edificio", "Por la cubierta del edificio, con independencia del tipo de combustible", "Por el nivel más bajo del edificio para facilitar la dispersión"],
+    c: 2, exp: "Artículo 13.3.2 del CTE (exigencia HS 3): para limitar el riesgo de contaminación del aire interior de los edificios y del entorno exterior en fachadas y patios, la evacuación de productos de combustión de las instalaciones térmicas se producirá, con carácter general, por la cubierta del edificio, con independencia del tipo de combustible y del aparato que se utilice." },
+
+  { id: "E10-09", tema: "E10",
+    q: "¿Qué secciones comprende el CTE DB-HS (Salubridad) en su versión consolidada de 2022 (RD 450/2022)?",
+    o: ["HS 1 a HS 4 (protección humedad, residuos, aire interior, suministro agua)", "HS 1 a HS 5 (añade evacuación de aguas)", "HS 1 a HS 6 (añade protección frente al radón)", "HS 1 a HS 7 (añade calidad acústica)"],
+    c: 2, exp: "El DB-HS actualizado por RD 450/2022 comprende 6 secciones: HS 1 Protección frente a la humedad; HS 2 Recogida y evacuación de residuos; HS 3 Calidad del aire interior; HS 4 Suministro de agua; HS 5 Evacuación de aguas; HS 6 Protección frente a la exposición al radón. Esta última sección fue introducida por el RD 732/2019 y consolidada en 2022." },
+
+  { id: "E10-10", tema: "E10",
+    q: "Según el DB-HS1 (condición D2 de drenaje), ¿cada cuántos metros como máximo debe disponerse un pozo drenante próximo al muro, y cuál es su diámetro interior mínimo?",
+    o: ["Cada 30 m como máximo y diámetro ≥ 0,5 m", "Cada 50 m como máximo y diámetro ≥ 0,7 m", "Cada 25 m como máximo y diámetro ≥ 1,0 m", "Cada 100 m como máximo y diámetro ≥ 0,6 m"],
+    c: 1, exp: "Condición D2 del DB-HS1 (apartado 2.1.2): debe disponerse en la proximidad del muro un pozo drenante cada 50 m como máximo. El pozo debe tener un diámetro interior igual o mayor que 0,7 m y debe disponer de una capa filtrante que impida el arrastre de finos y de dos bombas de achique para evacuar el agua a la red de saneamiento o a cualquier sistema de recogida." },
+
+  { id: "E10-11", tema: "E10",
+    q: "En el DB-HS1, ¿qué prescribe la condición C1 respecto a la constitución del muro?",
+    o: ["Cuando el muro sea de fábrica deben utilizarse bloques hidrofugados y mortero hidrófugo", "Cuando el muro se construya in situ debe utilizarse hormigón hidrófugo", "El muro debe construirse con cámara de aire ventilada de al menos 5 cm", "Se debe disponer lámina impermeabilizante en toda la superficie del muro"],
+    c: 1, exp: "Condición C1 del DB-HS1 (apartado 2.1.2): cuando el muro se construya in situ debe utilizarse hormigón hidrófugo. La condición C2 exige hormigón de consistencia fluida para muros in situ, y C3 exige bloques o ladrillos hidrofugados y mortero hidrófugo para muros de fábrica. Estas condiciones de constitución se combinan con las de impermeabilización y drenaje." },
+
+  { id: "E10-12", tema: "E10",
+    q: "Según el DB-HS1 (apartado 2.1.3.5), ¿qué anchura mínima deben tener las bandas o capas de refuerzo del impermeabilizante en los encuentros entre dos planos (esquinas y rincones)?",
+    o: ["10 cm centrada en la arista", "15 cm centrada en la arista", "20 cm centrada en la arista", "25 cm centrada en la arista"],
+    c: 1, exp: "Apartado 2.1.3.5 del DB-HS1 (Esquinas y rincones): debe colocarse en los encuentros entre dos planos impermeabilizados una banda o capa de refuerzo del mismo material que el impermeabilizante utilizado de una anchura de 15 cm como mínimo y centrada en la arista. Cuando las bandas de refuerzo se apliquen antes que el impermeabilizante del muro deben ir adheridas al soporte previa aplicación de una imprimación." },
+
+  { id: "E10-13", tema: "E10",
+    q: "¿Qué exigencia establece el DB-HS 3 (Calidad del aire interior) respecto a la ventilación de los locales habitables de los edificios?",
+    o: ["Que la temperatura interior se controle mediante renovación permanente de aire", "Que los edificios dispongan de medios para ventilar adecuadamente, eliminando contaminantes y aportando caudal suficiente de aire exterior", "Que todos los edificios dispongan de sistemas de ventilación mecánica centralizada", "Que la concentración de CO₂ no supere las 1000 ppm en ningún local habitable"],
+    c: 1, exp: "Artículo 13.3.1 del CTE (exigencia HS 3): los edificios dispondrán de medios para que sus recintos se puedan ventilar adecuadamente, eliminando los contaminantes que se produzcan de forma habitual durante el uso normal de los edificios, de forma que se aporte un caudal suficiente de aire exterior y se garantice la extracción y expulsión del aire viciado por los contaminantes." },
+
+  { id: "E10-14", tema: "E10",
+    q: "¿Cuál es la exigencia básica HS 5 del CTE DB-HS?",
+    o: ["Garantizar la calidad del agua de suministro y prevenir la legionelosis en ACS", "Proteger los edificios frente a la exposición inadecuada al gas radón procedente del terreno", "Garantizar que los edificios dispongan de medios adecuados para extraer las aguas residuales y las pluviales", "Garantizar la separación de la red de agua potable y la red de riego"],
+    c: 2, exp: "Artículo 13.5 del CTE (exigencia HS 5): los edificios dispondrán de medios adecuados para extraer las aguas residuales generadas en ellos de forma independiente o conjunta con las precipitaciones atmosféricas y con las escorrentías. Esta exigencia cubre tanto la evacuación de aguas fecales como la de aguas pluviales procedentes de cubiertas, patios y zonas exteriores." },
+
+  { id: "E10-15", tema: "E10",
+    q: "La exigencia básica HS 6 (Protección frente a la exposición al radón), introducida en el DB-HS por el RD 732/2019, ¿qué objetivo persigue?",
+    o: ["Controlar la emisión de partículas radiactivas de los materiales de construcción", "Limitar el riesgo de exposición inadecuada a radón procedente del terreno en los recintos cerrados", "Regular el nivel de radiación solar en fachadas acristaladas de edificios singulares", "Reducir la emisión de campos electromagnéticos de las instalaciones del edificio"],
+    c: 1, exp: "Artículo 13.6 del CTE (exigencia HS 6): los edificios dispondrán de medios adecuados para limitar el riesgo previsible de exposición inadecuada a radón procedente del terreno en los recintos cerrados. El radón es un gas noble radiactivo que emana del terreno y puede concentrarse en espacios cerrados con contacto con el terreno, siendo un factor de riesgo para la salud. Su nivel de presencia varía por municipios según el potencial de radón del subsuelo." },
 ];
