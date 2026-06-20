@@ -129,23 +129,24 @@ async function main() {
   for (let i = 0; i < registros.length; i += LOTE) {
     const lote = registros.slice(i, i + LOTE);
 
-    // Consulta hashes actuales para detectar sin cambio
+    // Consulta hash Y título actuales para detectar cualquier cambio
     const codigos = lote.map((r) => r.codigo);
     const { data: existentes } = await supa
       .from("temas")
-      .select("codigo, content_hash")
+      .select("codigo, content_hash, titulo")
       .in("codigo", codigos);
-    const hashActual = Object.fromEntries(
-      (existentes || []).map((r) => [r.codigo, r.content_hash])
+    const actual = Object.fromEntries(
+      (existentes || []).map((r) => [r.codigo, { hash: r.content_hash, titulo: r.titulo }])
     );
 
     const aUpsert = [];
     lote.forEach((r) => {
-      if (hashActual[r.codigo] === r.content_hash) {
+      const ex = actual[r.codigo];
+      if (ex && ex.hash === r.content_hash && ex.titulo === r.titulo) {
         sinCambio++;
       } else {
         aUpsert.push({ ...r, updated_at: new Date().toISOString() });
-        if (hashActual[r.codigo]) actualizados++; else insertados++;
+        if (ex) actualizados++; else insertados++;
       }
     });
 
