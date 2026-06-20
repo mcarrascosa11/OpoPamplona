@@ -914,6 +914,107 @@ export const RESUMENES = {
     ],
   },
 
+  E4: {
+    intro:
+      "El Real Decreto 513/2017, de 22 de mayo, aprueba el Reglamento de instalaciones de protección contra incendios (RIPCI). Regula el diseño, instalación, mantenimiento e inspección de los equipos y sistemas de protección activa contra incendios (PCI). Se aplica a empresas instaladoras y mantenedoras y con carácter supletorio a instalaciones no reguladas por legislación específica.",
+    bloques: [
+      {
+        h: "Objeto, ámbito y definiciones (Cap. I, arts. 1-3)",
+        items: [
+          "Objeto (art. 1.1): condiciones y requisitos del diseño, instalación/aplicación, mantenimiento e inspección de equipos, sistemas y componentes de protección activa contra incendios",
+          "Carácter supletorio: aplica a instalaciones PCI no reguladas en legislaciones específicas, excepto túneles de carreteras del Estado (RD 635/2006)",
+          "Ámbito subjetivo (art. 2): empresas instaladoras y empresas mantenedoras; también fabricantes, importadores, distribuidores y organismos de certificación/evaluación técnica",
+          "Protección activa: conjunto de medios (manuales o automáticos) para detección, control y/o extinción de un incendio, facilitando la evacuación e impidiendo propagación",
+          "Empresa instaladora: ubica y/o instala equipos/sistemas PCI y coloca señales, balizamientos y planos de evacuación",
+          "Empresa mantenedora: realiza las operaciones de mantenimiento de los equipos/sistemas PCI",
+        ],
+      },
+      {
+        h: "Sistemas de detección y alarma de incendios (Anexo I §1)",
+        items: [
+          "Diseño e instalación: norma UNE 23007-14; sistema de alarma por voz: UNE 23007-32; compatibilidad de componentes: UNE-EN 54-13",
+          "Detectores: calor puntual (UNE-EN 54-5), humo puntual (54-7), llama (54-10), lineal (54-12), aspiración (54-20); todos con marcado CE",
+          "Pulsadores de alarma (UNE-EN 54-11): distancia máxima desde cualquier origen de evacuación: 25 m; altura parte superior: 80-120 cm",
+          "Dispositivos visuales de alarma: obligatorios cuando ruido ambiente >60 dB(A), cuando los ocupantes sean sordos o lleven protección auditiva",
+          "Equipos de control e indicación (e.c.i.): marcado CE (UNE 23007-2); identificación inmediata de la zona donde se activa un detector o pulsador",
+        ],
+      },
+      {
+        h: "Extintores de incendio (Anexo I §4)",
+        items: [
+          "Extintor portátil: masa en condiciones de funcionamiento ≤ 20 kg; extintor móvil: masa >20 kg, sobre ruedas",
+          "Extintores portátiles: certificados conforme a UNE-EN 3-7 y UNE-EN 3-10; extintores móviles: UNE-EN 1866-1",
+          "Altura instalación: parte superior entre 80 cm y 120 cm sobre el suelo",
+          "Recorrido máximo horizontal hasta extintor: 15 m (desde cualquier punto del sector, origen de evacuación)",
+          "Clases de fuego (UNE-EN 2): A (sólidos con brasas) · B (líquidos/sólidos licuables) · C (gases) · D (metales) · F (aceites y grasas en aparatos de cocina)",
+          "Generadores de aerosol: pueden usarse como extintores si tienen evaluación técnica favorable y capacidad de extinción ≥ extintor portátil convencional",
+        ],
+      },
+      {
+        h: "Sistemas de bocas de incendio equipadas — BIE (Anexo I §5)",
+        items: [
+          "Manguera semirrígida: 25 mm de diámetro interior; longitud máxima 30 m; K mínimo 42; caudal mínimo 85 l/min; presión mínima entrada 4 bar (400 kPa)",
+          "Manguera plana: 45 mm de diámetro interior; longitud máxima 20 m; K mínimo 85; caudal mínimo 160 l/min; presión mínima entrada 3,5 bar (350 kPa)",
+          "Presión máxima entrada (semirrígida y plana): 9 bar (900 kPa)",
+          "Boquilla/válvula/sistema apertura: situados a máx. 1,50 m sobre el nivel del suelo",
+          "Posición: preferentemente cerca de puertas/salidas; siempre una BIE a ≤5 m de cada salida de sector",
+          "Separación máxima entre BIE: 50 m; radio de acción = longitud manguera + 5 m",
+          "Autonomía: 1 hora con las 2 BIE hidráulicamente más desfavorables funcionando simultáneamente",
+          "Prueba de estanquidad antes de puesta en servicio: presión estática = máxima de servicio y mínimo 980 kPa (10 kg/cm²), mantenida 2 horas sin fugas",
+        ],
+      },
+      {
+        h: "Hidrantes (Anexo I §3) y Columna seca (Anexo I §6)",
+        items: [
+          "Hidrantes: columna (tipo B o C; heladas → solo tipo C) o bajo tierra; llave cuadradillo 25×25 mm (bajo tierra) / 30×30 mm (columna)",
+          "Distancia real a hidrante: <100 m en zonas urbanas; <40 m en el resto",
+          "Hidrante entre 5 m y 15 m del límite exterior del edificio protegido",
+          "Caudal mínimo por boca de hidrante: 500 l/min; presión mínima salida: 100 kPa (llenado camiones en zona urbana) / 500 kPa (impulsión directa)",
+          "Columna seca: tubería acero galvanizado DN80; ascendente → salidas en plantas pares hasta la 8ª y en todas las siguientes; válvula de seccionamiento cada 4 plantas",
+          "Centro de bocas (exterior e interior): a 0,90 m sobre el nivel del suelo",
+          "Recorrido máximo hasta columna seca: <60 m (siguiendo recorridos de evacuación)",
+          "Prueba estanquidad columna seca: ≥1.470 kPa (15 kg/cm²) hasta 30 m de altura / ≥2.450 kPa (25 kg/cm²) si >30 m, durante 2 horas",
+        ],
+      },
+      {
+        h: "Sistemas fijos de extinción (Anexo I §7-§12)",
+        items: [
+          "Rociadores automáticos (§7): diseño e instalación conforme UNE-EN 12845; componentes: marcado CE (serie UNE-EN 12259)",
+          "Agua nebulizada (§8): conforme a norma UNE-CEN/TS 14972",
+          "Espuma física (§9): UNE-EN 13565-2 (diseño) y UNE-EN 13565-1 (componentes); espumógenos: UNE-EN 1568",
+          "Polvo (§10): solo cuando garantizada evacuación del personal; mecanismo de disparo con retardo y prealarma",
+          "Agentes gaseosos (§11): solo cuando garantizada evacuación; retardo + prealarma; concentraciones según riesgo; UNE-EN 15004 o UNE ISO 6183",
+          "Aerosoles condensados (§12): UNE-EN 15276-2 (diseño) y UNE-EN 15276-1 (componentes)",
+          "Cocinas comerciales (§16): certificación previa según UNE-EN 17446; mantenimiento por empresa habilitada para el sistema base",
+        ],
+      },
+      {
+        h: "Mantas ignífugas (§14) y Señalización luminiscente (Sección 2ª)",
+        items: [
+          "Mantas ignífugas: láminas flexibles para extinguir por sofocación pequeños fuegos; norma UNE-EN 1869; caducidad máxima 20 años",
+          "Señalización: conforme a UNE 23033-1; señales sin símbolos ajenos (máx. 3% de la superficie para identificación)",
+          "Sistemas fotoluminiscentes: conforme a UNE 23035-4; categoría A obligatoria en centros con actividades del Anexo I del Plan Básico de Autoprotección (RD 393/2007)",
+          "Sistemas alimentados eléctricamente: requisitos análogos al alumbrado de emergencia en cuanto a funcionamiento",
+          "Señales no luminiscentes en interiores: deben estar iluminadas exteriormente y ser visibles incluso en caso de fallo del alumbrado normal",
+        ],
+      },
+    ],
+    claves: [
+      "RD 513/2017 — RIPCI; excepción supletoria: túneles de carreteras del Estado (RD 635/2006)",
+      "Extintor portátil ≤20 kg; móvil >20 kg en ruedas; recorrido máx. hasta extintor: 15 m",
+      "Extintores y pulsadores: parte superior entre 80 cm y 120 cm sobre el suelo",
+      "Pulsadores alarma: distancia máx. 25 m desde origen de evacuación",
+      "Clases fuego: A sólidos · B líquidos · C gases · D metales · F aceites/grasas cocina",
+      "BIE semirrígida: 25mm / 30m / 85 l/min / 4 bar mín · BIE plana: 45mm / 20m / 160 l/min / 3,5 bar mín",
+      "BIE: separación máx. 50m; una BIE a ≤5m de cada salida sector; autonomía 1h (2 BIE más desfavorables)",
+      "Hidrantes urbanos <100 m; no urbanos <40 m; caudal mín. 500 l/min",
+      "Columna seca DN80; recorrido máx. <60 m; bocas a 0,90 m; prueba ≤30m: 1.470 kPa / >30m: 2.450 kPa",
+      "Polvo y gaseosos: prealarma + retardo; solo si evacuación garantizada",
+      "Mantas ignífugas: sofocación; caducidad máx. 20 años",
+      "Señalización fotoluminiscente categoría A: centros con Plan de Autoprotección (RD 393/2007)",
+    ],
+  },
+
   E1: {
     intro:
       "La Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (LOE) regula el proceso de edificación: obligaciones y responsabilidades de los agentes, garantías y requisitos básicos de los edificios. Es el marco legal habilitante sobre el que se desarrolla el CTE.",
