@@ -913,4 +913,242 @@ export const RESUMENES = {
       "Control CF (autorización previa): histórico-artísticos o valor >25% recursos ordinarios",
     ],
   },
+
+  E1: {
+    intro:
+      "La Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (LOE) regula el proceso de edificación: obligaciones y responsabilidades de los agentes, garantías y requisitos básicos de los edificios. Es el marco legal habilitante sobre el que se desarrolla el CTE.",
+    bloques: [
+      {
+        h: "Ámbito y requisitos básicos (arts. 2-3)",
+        items: [
+          "Grupo a) usos residencial, sanitario, docente, cultural, administrativo, religioso → titulación habilitante: arquitecto",
+          "Grupo b) usos industriales, transporte, minero, ingeniería → titulación general: ingeniero / arquitecto según especialidad",
+          "Grupo c) resto de edificaciones → arquitecto, arquitecto técnico, ingeniero o ingeniero técnico según especialidad",
+          "Obras que requieren proyecto: nueva construcción (salvo escasa entidad + no residencial/público + 1 planta); intervenciones que alteren configuración arquitectónica; intervenciones totales en edificios protegidos",
+          "Requisitos básicos: funcionalidad (utilización, accesibilidad, telecomunicaciones, correos), seguridad (estructural, incendio, utilización) y habitabilidad (higiene, ruido, energía)",
+        ],
+      },
+      {
+        h: "Agentes de la edificación (arts. 8-16)",
+        items: [
+          "Promotor (art. 9): cualquier persona física o jurídica que decide, impulsa, programa y financia las obras; debe suscribir las garantías del art. 19",
+          "Proyectista (art. 10): redacta el proyecto; titulación según grupo de uso",
+          "Constructor (art. 11): ejecuta la obra; designa jefe de obra; responde de subcontratistas y de las deficiencias de los productos adquiridos",
+          "Director de obra (art. 12): dirige aspectos técnicos, estéticos, urbanísticos y medioambientales; coordina proyectos parciales",
+          "Director de ejecución (art. 13): dirige ejecución material y controla calidad; titulación para grupo a): arquitecto técnico",
+          "Entidades y laboratorios de control de calidad (art. 14): asistencia técnica de verificación; necesitan declaración responsable ante CCAA",
+          "Suministradores (art. 15): responden de origen, identidad y calidad de los productos",
+          "Propietarios y usuarios (art. 16): conservar y transmitir la documentación; uso adecuado conforme a instrucciones",
+        ],
+      },
+      {
+        h: "Recepción y documentación (arts. 6-7)",
+        items: [
+          "Recepción (art. 6): acto por el que el constructor entrega al promotor la obra terminada; con o sin reservas; por fases completas",
+          "Acta de recepción: firmada por promotor y constructor; refleja partes, fecha certificado final, coste final, reservas y garantías",
+          "Plazo: 30 días desde notificación escrita al promotor; si no hay respuesta → recepción tácita",
+          "Desde la recepción se computan los plazos de responsabilidad y garantía",
+          "Libro del Edificio (art. 7): proyecto actualizado + acta de recepción + relación de agentes + instrucciones uso y mantenimiento; entregado a usuarios finales",
+        ],
+      },
+      {
+        h: "Responsabilidad civil y plazos (arts. 17-18)",
+        items: [
+          "10 años: defectos estructurales (cimentación, soportes, vigas, forjados, muros de carga u otros elementos que comprometan resistencia y estabilidad)",
+          "3 años: defectos de elementos constructivos o instalaciones que incumplan requisitos de habitabilidad",
+          "1 año: defectos de ejecución en elementos de terminación o acabado → responsable: el constructor",
+          "Solidaridad: el promotor responde solidariamente con los demás agentes ante los adquirentes en todo caso",
+          "Prescripción (art. 18): 2 años desde que se produzcan los daños para exigir responsabilidad",
+          "Acción de repetición entre agentes o aseguradores: 2 años desde firmeza de la resolución judicial o pago extrajudicial",
+        ],
+      },
+      {
+        h: "Garantías por daños materiales (art. 19)",
+        items: [
+          "Seguro anual (acabados): 1 año · capital mínimo: 5% del coste final; tomador: constructor (puede ser el promotor por cuenta del constructor)",
+          "Seguro trienal (habitabilidad): 3 años · capital mínimo: 30% del coste final; tomador: promotor",
+          "Seguro decenal (estructura): 10 años · capital mínimo: 100% del coste final; tomador: promotor",
+          "Franquicia máxima admisible en seguros trienal/decenal: 1% del capital asegurado por unidad registral (no se admite franquicia en el seguro anual)",
+          "La prima debe estar pagada en la recepción; el fraccionamiento posterior no exonera al asegurador",
+          "Art. 20: no se autorizan ni inscriben escrituras de obra nueva sin acreditar las garantías del art. 19",
+        ],
+      },
+    ],
+    claves: [
+      "Grupo a) = arquitecto (proyecto + dirección + DEO: arquitecto técnico)",
+      "Obra sin proyecto: escasa entidad + sin carácter residencial/público + 1 planta",
+      "Recepción tácita: 30 días desde notificación escrita sin respuesta del promotor",
+      "Plazos responsabilidad: 1 año acabados (constructor) · 3 años habitabilidad · 10 años estructura",
+      "Prescripción acciones: 2 años desde que se producen los daños",
+      "Capital mínimo seguros: 5% (1 año) · 30% (3 años) · 100% (10 años)",
+      "Promotor: responsabilidad solidaria con todos los agentes ante adquirentes en todo caso",
+      "Libro del Edificio → usuarios finales",
+    ],
+  },
+
+  E2: {
+    intro:
+      "El Real Decreto 314/2006, de 17 de marzo, aprueba el Código Técnico de la Edificación (CTE), marco normativo que desarrolla la LOE y establece las exigencias básicas de calidad que deben cumplir los edificios en materia de seguridad y habitabilidad.",
+    bloques: [
+      {
+        h: "Estructura y objeto del CTE (arts. 1-3 Parte I)",
+        items: [
+          "Objeto (art. 1): marco normativo de exigencias básicas de calidad para satisfacer los requisitos básicos de seguridad y habitabilidad de la LOE",
+          "Dos partes: Parte I (disposiciones generales + exigencias básicas) y Parte II (Documentos Básicos — DB)",
+          "Los DB contienen: caracterización y cuantificación de las exigencias básicas + procedimientos de verificación (métodos y soluciones sancionadas por la práctica)",
+          "Ámbito (art. 2): se aplica a obras que precisan licencia; excepción: sencillez técnica + sin carácter residencial/público + 1 planta + sin afectar seguridad",
+          "En rehabilitación: se aplica cuando sea compatible con la naturaleza e intervención y el grado de protección del edificio",
+        ],
+      },
+      {
+        h: "Documentos Reconocidos y Registro General (art. 4)",
+        items: [
+          "Documentos Reconocidos: documentos técnicos SIN carácter reglamentario, con reconocimiento del Ministerio de Vivienda",
+          "Contenido: guías técnicas, métodos de evaluación, programas informáticos, comentarios CTE, etc.",
+          "Registro General CTE: adscrito a la Dirección General de Arquitectura y Política de Vivienda; carácter público e informativo",
+          "También se inscriben en el Registro: marcas, sellos, certificaciones de conformidad, organismos autorizados para evaluaciones técnicas",
+        ],
+      },
+      {
+        h: "Cumplimiento del CTE y condiciones del proyecto (arts. 5-6)",
+        items: [
+          "Dos vías de cumplimiento (art. 5.3): DB (suficiente) o soluciones alternativas (documentalmente justificadas con prestaciones ≥ DB)",
+          "Marcado CE obligatorio para productos de construcción incorporados con carácter permanente (art. 5.2.1)",
+          "Proyecto básico (art. 6.3.a): suficiente para licencia → insuficiente para construir; debe definir prestaciones sin impedir cumplimiento del CTE",
+          "Proyecto de ejecución (art. 6.3.b): no puede rebajar prestaciones del básico ni alterar usos/condiciones de la licencia (salvo aspectos legalizables)",
+          "Contenido mínimo del proyecto básico: documentos marcados con asterisco (*) en el Anejo I",
+        ],
+      },
+      {
+        h: "Condiciones de ejecución y del edificio (arts. 7-8)",
+        items: [
+          "Control de recepción de productos (art. 7.2): a) documentación de suministros, b) distintivos de calidad/evaluaciones de idoneidad, c) ensayos",
+          "Control de ejecución (art. 7.3): el DEO controla replanteo, materiales, ejecución y disposición de elementos constructivos e instalaciones",
+          "Control de obra terminada (art. 7.4): comprobaciones y pruebas de servicio previstas en el proyecto o por la DF",
+          "Libro del Edificio (art. 8.1): documentación del art. 7.2 + instrucciones de uso y mantenimiento + plan de mantenimiento",
+          "Plan de mantenimiento (art. 8.2): planificación de operaciones programadas, encomendadas a técnico competente; documentar intervenciones en el Libro del Edificio",
+        ],
+      },
+      {
+        h: "Exigencias básicas del CTE (arts. 10-15)",
+        items: [
+          "SE (Seguridad Estructural): SE1 resistencia y estabilidad · SE2 aptitud al servicio (sin deformaciones ni degradaciones inadmisibles)",
+          "SI (Seguridad en caso de Incendio): SI1 propagación interior · SI2 propagación exterior · SI3 evacuación · SI4 instalaciones PCI · SI5 intervención bomberos · SI6 resistencia estructural",
+          "SU (Seguridad de Utilización): SU1 caídas · SU2 impacto/atrapamiento · SU3 aprisionamiento · SU4 iluminación · SU5 alta ocupación · SU6 ahogamiento · SU7 vehículos · SU8 rayo",
+          "HS (Salubridad): HS1 humedad · HS2 residuos · HS3 calidad aire interior · HS4 suministro agua · HS5 evacuación aguas",
+          "HR (Protección frente al ruido): limitar ruido aéreo, impactos, vibraciones e instalaciones",
+          "HE (Ahorro de energía): HE1 demanda energética · HE2 instalaciones térmicas (RITE) · HE3 iluminación · HE4 solar ACS · HE5 fotovoltaica",
+        ],
+      },
+      {
+        h: "Disposición Transitoria Primera",
+        items: [
+          "El CTE NO se aplica a obras con licencia ya solicitada a la entrada en vigor del RD 314/2006",
+          "Períodos transitorios: 6 meses para DB-SI, DB-SU y DB-HE 1; 12 meses para DB-SE y sus subdocumentos y DB-HS",
+          "Las obras autorizadas en período transitorio deben comenzar en 3 meses desde la concesión; si no, deben adaptarse al CTE",
+        ],
+      },
+    ],
+    claves: [
+      "RD 314/2006 de 17 de marzo — CTE aprobado",
+      "CTE: 2 partes (Parte I disposiciones generales + Parte II DB); DB: carácter reglamentario",
+      "Documentos Reconocidos: sin carácter reglamentario; inscritos en Registro General CTE",
+      "Excepción ámbito CTE: sencillez técnica + sin residencial/público + 1 planta + sin riesgo seguridad",
+      "Proyecto básico: suficiente para licencia, insuficiente para construir",
+      "2 vías cumplimiento: DB (suficiente) o soluciones alternativas (prestaciones equivalentes justificadas)",
+      "Control recepción obras: documentación + distintivos calidad + ensayos",
+      "HE: 5 exigencias (HE1 a HE5); SI: 6 exigencias (SI1 a SI6); SU: 8 exigencias",
+      "Transitoria 1ª: CTE no aplica a obras con licencia solicitada antes de su entrada en vigor",
+    ],
+  },
+
+  E3: {
+    intro:
+      "El Documento Básico DB-SI (Seguridad en caso de Incendio) del CTE establece las reglas y procedimientos para cumplir las exigencias básicas SI 1 a SI 6. Su versión consolidada más reciente incorpora las modificaciones del RD 164/2025, de 4 de marzo.",
+    bloques: [
+      {
+        h: "SI 1 — Compartimentación en sectores de incendio",
+        items: [
+          "Las superficies máximas pueden DUPLICARSE cuando el sector esté protegido con instalación automática de extinción",
+          "Residencial Vivienda: máx. 2.500 m²; elementos entre viviendas: mín. EI 60",
+          "Administrativo: máx. 2.500 m²",
+          "Docente (>1 planta): máx. 4.000 m²; 1 planta: sin compartimentar",
+          "Hospitalario (zonas hospitalización): máx. 1.500 m² / sector; mín. 2 sectores por planta",
+          "Pública Concurrencia: máx. 2.500 m² (con excepciones para espacios de pública concurrencia con asientos fijos)",
+          "Comercial: máx. 2.500 m² (10.000 m² si edificio exento + extinción + h evacuación ≤ 10 m)",
+          "Aparcamiento: sector diferenciado obligatorio; vestíbulo de independencia en toda comunicación con otro uso",
+        ],
+      },
+      {
+        h: "SI 1 — Resistencia al fuego de elementos separadores (tabla 1.2)",
+        items: [
+          "Residencial Vivienda / Administrativo: h≤15m → EI 60; 15m<h≤28m → EI 90; h>28m → EI 120",
+          "Comercial / Pública Concurrencia / Hospitalario: h≤15m → EI 90; 15<h≤28m → EI 120; h>28m → EI 180",
+          "Aparcamiento: EI 120 en todos los casos (EI 180 si robotizado)",
+          "Plantas bajo rasante (uso Res. Viv., Adm.): EI 120; bajo rasante Comercial/PC/Hosp.: EI 120 (o 180 si h>28m)",
+          "Puertas entre sectores: EI2 t-C5 (t = mitad resistencia de la pared) o EI2 t/4-C5 si paso por vestíbulo de independencia con 2 puertas",
+        ],
+      },
+      {
+        h: "SI 1 — Locales y zonas de riesgo especial (tablas 2.1 y 2.2)",
+        items: [
+          "Clasificación: riesgo bajo / medio / alto según volumen, superficie o carga de fuego según el tipo de local",
+          "Ejemplos: cocina P>50 kW = riesgo alto; 30<P≤50 kW = medio; 20<P≤30 kW = bajo",
+          "Sala de calderas: >600 kW = alto; 200-600 kW = medio; 70-200 kW = bajo",
+          "Condiciones (tabla 2.2): R estructura (R90/R120/R180), EI paredes (EI90/EI120/EI180), vestíbulo independencia (no/sí/sí), puertas (EI2 45-C5 / 2xEI2 30-C5 / 2xEI2 45-C5), recorrido ≤25 m",
+        ],
+      },
+      {
+        h: "SI 1 — Reacción al fuego de elementos constructivos (tabla 4.1)",
+        items: [
+          "Zonas ocupables (techos y paredes): C-s2,d0; suelos: EFL",
+          "Pasillos y escaleras protegidos (techos y paredes): B-s1,d0; suelos: CFL-s1",
+          "Aparcamientos y recintos de riesgo especial (techos y paredes): B-s1,d0; suelos: BFL-s1",
+          "Espacios ocultos no estancos (patinillos, falsos techos…): B-s3,d0; BFL-s2",
+          "Solo aplica cuando el revestimiento supere el 5% de la superficie total del conjunto de techos, paredes o suelos del recinto",
+        ],
+      },
+      {
+        h: "SI 2 — Propagación exterior",
+        items: [
+          "Medianerías: elementos verticales separadores de otro edificio → mín. EI 120",
+          "Propagación horizontal entre sectores: puntos de fachada no EI 60 separados distancia d según ángulo α (enfrentadas paralelas α=0° → d≥3,00 m; α=180° → d≥0,50 m)",
+          "Propagación vertical: franja EI 60 de 1 m altura sobre el plano de fachada (puede reducirse en la dimensión del saliente si existe elemento saliente)",
+          "Reacción fachada (>10% superficie): D-s3,d0 (h≤10m) · C-s3,d0 (h≤18m) · B-s3,d0 (h>18m)",
+          "Cámaras ventiladas: D-s3,d0 (h≤10m) · B-s3,d0 (h≤28m) · A2-s3,d0 (h>28m)",
+          "Cubierta: REI 60 en franja de 0,50 m desde edificio colindante y 1,00 m sobre elemento compartimentador (alternativa: prolongar 0,60 m por encima de la cubierta)",
+        ],
+      },
+      {
+        h: "SI 3 — Evacuación de ocupantes",
+        items: [
+          "Densidades de ocupación clave (m²/persona): vivienda 20 · hospitalización 15 · servicios ambulatorios 10 · oficinas 10 · aulas 1,5 · espectadores sentados sin asiento def. 0,5 · espectadores de pie 0,25",
+          "Cálculo: superficie útil ÷ densidad de ocupación = número de personas",
+          "Número de salidas: con 1 sola salida, máximo 50 ocupantes (con excepciones por uso); si >50 ocupantes → ≥2 salidas",
+          "Longitud recorrido con 1 salida: ≤25 m en general (50 m en sectores de riesgo mínimo o si >50% ocupantes tiene otra salida; excepciones en plantas sobre rasante baja ocupación)",
+          "Puertas en recorrido de evacuación: apertura en sentido evacuación si ocupación ≥50 personas",
+          "Señalización: señales visibles desde todo punto del recorrido",
+        ],
+      },
+      {
+        h: "SI 4-SI 6 — Instalaciones PCI, Bomberos y Estructura",
+        items: [
+          "SI 4: dotación de instalaciones (BIE, detección, alarma, extinción automática, etc.) según uso y superficie",
+          "SI 5: viales de aproximación (anchura ≥3,5 m, altura libre ≥4,5 m, capacidad portante ≥20 kN/m²); entorno edificios de h>9 m: espacio para vehículo escalera (aprox. 5 m libres fachada accesible)",
+          "SI 6: resistencia al fuego de la estructura durante el tiempo necesario para evacuar y que actúen los bomberos; valores R según uso y altura del edificio",
+        ],
+      },
+    ],
+    claves: [
+      "Superficie sectores: Vivienda 2.500 m² · Administrativo 2.500 m² · Docente 4.000 m² · Hospitalario 1.500 m² · Comercial 2.500 m²",
+      "Duplicar superficie sector: instalación automática de extinción",
+      "Puertas entre sectores: EI2 t-C5 (t = mitad resistencia pared); por vestíbulo: t = cuarta parte",
+      "Medianerías entre edificios: EI 120",
+      "Franja vertical propagación fachada: 1 m de EI 60",
+      "Reacción al fuego zonas ocupables: techos/paredes C-s2,d0 · escaleras protegidas B-s1,d0",
+      "Riesgo especial alto: R 180 estructura · EI 180 paredes · 2×EI2 45-C5 puertas",
+      "Densidades ocupación: vivienda 20 · hospitalización 15 · oficinas 10 · aulas 1,5",
+      "Reacción fachada >18 m: B-s3,d0; cámara ventilada >28 m: A2-s3,d0",
+    ],
+  },
 };
