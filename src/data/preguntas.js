@@ -2068,4 +2068,232 @@ export const PREGUNTAS = [
     q: "Conforme al Anexo I §14 del RIPCI, ¿cuál es la caducidad máxima de las mantas ignífugas?",
     o: ["10 años", "15 años", "20 años", "25 años"],
     c: 2, exp: "Anexo I §14.3 RIPCI: dada la naturaleza del producto (mantas ignífugas), deberá indicarse la caducidad del mismo, que no debe exceder los 20 años. Deberán mantenerse adecuadamente envasadas hasta su uso para protegerlas de condiciones ambientales adversas." },
+
+  // ── E5: RSCIEI – RD 164/2025 ──────────────────────────────────────────────
+  { id: "E5-01", tema: "E5",
+    q: "¿Qué actividades se consideran uso industrial a efectos del RSCIEI (RD 164/2025)?",
+    o: ["Actividades Ley 21/1992 art. 3.1, almacenes industriales y talleres de reparación de vehículos", "Únicamente las actividades del Art. 3.1 de la Ley 21/1992 de Industria", "Los almacenes y las actividades comerciales con riesgo de incendio", "Las actividades sometidas a autorización ambiental integrada"],
+    c: 0, exp: "Art. 2.1 RD 164/2025: se considera uso industrial a las actividades del art. 3.1 Ley 21/1992 (actividades industriales), los almacenes industriales, los talleres de reparación de vehículos y los servicios auxiliares o complementarios de los anteriores." },
+
+  { id: "E5-02", tema: "E5",
+    q: "¿Cuál de las siguientes actividades queda EXCLUIDA del ámbito de aplicación del RSCIEI (RD 164/2025)?",
+    o: ["Talleres de reparación de vehículos", "Almacenes logísticos con QT ≥ 3.000.000 MJ", "Establecimientos de extracción de minerales", "Servicios auxiliares de actividades industriales"],
+    c: 2, exp: "Art. 2.2 RD 164/2025: quedan excluidas las actividades en establecimientos nucleares/radiactivos, extracción de minerales, actividades agrarias y ganaderas, instalaciones militares e instalaciones de servicio ferroviario (art. 42.1 Ley 38/2015)." },
+
+  { id: "E5-03", tema: "E5",
+    q: "En un edificio con uso industrial principal, ¿a partir de qué superficie construida deben las zonas de uso Administrativo subsidiario cumplir el CTE DB-SI?",
+    o: ["100 m²", "250 m²", "500 m²", "1.000 m²"],
+    c: 1, exp: "Art. 4.2.a) RD 164/2025: cuando las zonas de uso Administrativo subsidiario superen los 250 m² de superficie construida, deberán cumplir el DB-SI y constituir un sector de incendio independiente al de las zonas industriales." },
+
+  { id: "E5-04", tema: "E5",
+    q: "Según el Art. 4.2 del RD 164/2025, ¿en qué caso las zonas de Residencial Vivienda ubicadas en un establecimiento industrial deben cumplir el DB-SI?",
+    o: ["Cuando superen los 250 m² de superficie construida", "Cuando superen los 500 m² de superficie construida", "Cuando el uso industrial sea el predominante", "Siempre, sin umbral de superficie"],
+    c: 3, exp: "Art. 4.2.e) RD 164/2025: las zonas de Residencial Vivienda y Residencial Público deben cumplir el DB-SI 'siempre', independientemente de su superficie, a diferencia del resto de usos subsidiarios que tienen umbral de 250 m²." },
+
+  { id: "E5-05", tema: "E5",
+    q: "Conforme al Art. 5.2 del RD 164/2025, ¿cuándo quedan los establecimientos industriales exentos del cumplimiento de la práctica totalidad del reglamento?",
+    o: ["Cuando Qs ≤ 100 MJ/m² y superficie ≤ 250 m²", "Cuando Qs ≤ 42 MJ/m² y superficie construida ≤ 120 m²", "Cuando Qs ≤ 42 MJ/m² y superficie construida ≤ 200 m²", "Cuando Qs ≤ 100 MJ/m² y todos sus sectores sean de riesgo bajo"],
+    c: 1, exp: "Art. 5.2 RD 164/2025: quedan exentos los establecimientos cuya densidad de carga de fuego ponderada (Qs) no supere 42 MJ/m² y cuya superficie construida sea ≤ 120 m², ubicados en recinto propio. En estos casos solo deben cumplir el art. 12 (mantenimiento) y los apartados de extintores y alumbrado de emergencia del Anexo III." },
+
+  { id: "E5-06", tema: "E5",
+    q: "Según el Art. 10.4 del RD 164/2025, ¿cuándo puede sustituirse el proyecto de un establecimiento industrial por una memoria técnica?",
+    o: ["Si la superficie es inferior a 500 m² y los sectores son de riesgo bajo o medio", "Si la superficie es inferior a 300 m², todos los sectores son de riesgo intrínseco bajo y no aplican los arts. 10.3 ni 5.3", "Si la superficie es inferior a 1.000 m² y solo existe un sector de incendio", "Si el establecimiento es de configuración tipo C con riesgo intrínseco bajo"],
+    c: 1, exp: "Art. 10.4 RD 164/2025: la memoria técnica puede sustituir al proyecto cuando se cumplan simultáneamente tres condiciones: superficie construida inferior a 300 m², todos los sectores y áreas de incendio de riesgo intrínseco bajo, y que no sean de aplicación los arts. 10.3 (seguridad equivalente/prestacional) ni 5.3 (adaptaciones razonables)." },
+
+  { id: "E5-07", tema: "E5",
+    q: "¿Cuándo es obligatorio presentar un acta de inspección inicial de organismo de control para la puesta en servicio de un establecimiento industrial?",
+    o: ["Cuando la superficie total del establecimiento supere los 500 m²", "Cuando la superficie de sectores y áreas de riesgo medio y alto sume 1.000 m² o más (o apliquen arts. 10.3 o 5.3)", "Cuando cualquier sector tenga nivel de riesgo intrínseco alto", "Siempre que la superficie total supere los 2.000 m²"],
+    c: 1, exp: "Art. 11.1.c) RD 164/2025: se requiere acta de inspección inicial cuando la superficie construida de los sectores y áreas de incendio de nivel de riesgo medio y alto sume 1.000 m² o más, o bien cuando les sean de aplicación los artículos 10.3 (técnicas de seguridad equivalente o diseño prestacional) o 5.3 (adaptaciones razonables)." },
+
+  { id: "E5-08", tema: "E5",
+    q: "¿Qué caracteriza la configuración tipo A de un establecimiento industrial según el Anexo I del RD 164/2025?",
+    o: ["Ocupa totalmente un edificio a más de 3 m de otros establecimientos", "Ocupa parcialmente un edificio que tiene además otros establecimientos (industriales o de otros usos)", "Ocupa un espacio abierto descubierto o con cerramiento parcial", "Ocupa totalmente un edificio adyacente o a ≤ 3 m de otros"],
+    c: 1, exp: "Anexo I §1.1.1 RD 164/2025: la configuración tipo A es aquella en que el establecimiento ocupa parcialmente un edificio que tiene, además, otros establecimientos. Se diferencia en AV (separación vertical) y AH (separación horizontal). Si la separación mezcla características, prevalece la AV." },
+
+  { id: "E5-09", tema: "E5",
+    q: "¿Qué distancia de separación define la configuración tipo C de establecimiento industrial según el Anexo I del RD 164/2025?",
+    o: ["A más de 1 m del edificio más próximo de otro establecimiento", "A más de 3 m del edificio más próximo de otro establecimiento (libre de mercancías combustibles)", "A más de 5 m del edificio más próximo de otro establecimiento", "A más de 10 m del edificio más próximo de otro establecimiento"],
+    c: 1, exp: "Anexo I §1.1.3 RD 164/2025: la configuración tipo C es la del establecimiento que ocupa totalmente uno o varios edificios que están a una distancia superior a tres metros del edificio más próximo de otros establecimientos. Esa distancia debe estar libre de mercancías combustibles o elementos que puedan propagar el incendio." },
+
+  { id: "E5-10", tema: "E5",
+    q: "Para un espacio tipo D con cobertura y superficie cubierta A < 500 m² y altura H < 5 m, ¿qué porcentaje mínimo de área lateral abierta (L) exige el Anexo I del RD 164/2025?",
+    o: ["10%", "25%", "50%", "70%"],
+    c: 1, exp: "Anexo I tabla 1.1.1 RD 164/2025: para espacios tipo D con zona cubierta de A < 500 m² y H < 5 m, se exige L ≥ 25% de área lateral permanentemente abierta. Para A entre 500 y 1.500 m² con H < 5 m la solución no está admitida; para A > 1.500 m² con H ≥ 5 m se exige L ≥ 70%." },
+
+  { id: "E5-11", tema: "E5",
+    q: "Según la tabla 1.3.1 del Anexo I del RD 164/2025, ¿qué rango de Qs corresponde al nivel de riesgo intrínseco BAJO nivel 2?",
+    o: ["Qs ≤ 425 MJ/m²", "425 < Qs ≤ 850 MJ/m²", "850 < Qs ≤ 1.275 MJ/m²", "1.275 < Qs ≤ 1.700 MJ/m²"],
+    c: 1, exp: "Tabla 1.3.1 Anexo I RD 164/2025: NRI Bajo nivel 1 (Qs ≤ 425 MJ/m²) y nivel 2 (425 < Qs ≤ 850 MJ/m²); NRI Medio niveles 3–5 (hasta 3.400 MJ/m²); NRI Alto niveles 6–8 (hasta >13.600 MJ/m²)." },
+
+  { id: "E5-12", tema: "E5",
+    q: "¿Cuál es el valor máximo de Qs para que un sector de incendio se clasifique en nivel de riesgo intrínseco MEDIO nivel 5, según el RD 164/2025?",
+    o: ["1.700 MJ/m²", "3.400 MJ/m²", "6.800 MJ/m²", "13.600 MJ/m²"],
+    c: 1, exp: "Tabla 1.3.1 Anexo I RD 164/2025: el nivel de riesgo intrínseco MEDIO nivel 5 corresponde al rango 1.700 < Qs ≤ 3.400 MJ/m². A partir de Qs > 3.400 MJ/m² se entra en NRI ALTO (nivel 6 si Qs ≤ 6.800 MJ/m²)." },
+
+  { id: "E5-13", tema: "E5",
+    q: "¿Cuál es el valor máximo del coeficiente de peligrosidad por combustibilidad (Ci) para materiales no fumígenos, según la tabla 1.3.2 del RD 164/2025?",
+    o: ["1,00", "1,20", "1,40", "1,60"],
+    c: 3, exp: "Tabla 1.3.2 Anexo I RD 164/2025: el Ci máximo para materiales no fumígenos es 1,60, correspondiente al grado de peligro 1 (explosivos y sólidos/líquidos/gases extremadamente inflamables). Si el material es además fumígeno, el Ci se incrementa en un 20%, llegando a 1,92." },
+
+  { id: "E5-14", tema: "E5",
+    q: "Según el Art. 3.h del RD 164/2025, ¿qué se entiende por modificaciones significativas de un establecimiento industrial?",
+    o: ["Cambios en la distribución en planta o relocalización de estanterías sin aumento del riesgo", "Ampliaciones o reformas que impliquen aumento de superficie o del nivel de riesgo intrínseco del sector para el que fue diseñado, o que comprometan las exigencias básicas", "Reparaciones menores o sustitución de maquinaria equivalente", "El cambio de actividad productiva sin aumento de carga de fuego"],
+    c: 1, exp: "Art. 3.h RD 164/2025: son modificaciones significativas las ampliaciones o reformas que impliquen aumento de la superficie o del NRI de sus sectores o áreas. También las que comprometan el cumplimiento de las exigencias básicas o provoquen exigencias superiores en los Anexos. Los cambios en distribución, maquinaria o estanterías que no aumenten el NRI son modificaciones no significativas." },
+
+  { id: "E5-15", tema: "E5",
+    q: "Según el Art. 3 del RD 164/2025, ¿en qué se diferencia la protección pasiva de la protección activa contra incendios?",
+    o: ["La pasiva usa rociadores; la activa usa barreras corta-fuego", "La pasiva deriva de los requisitos constructivos del establecimiento; la activa comprende medios y sistemas que actúan directamente en detección, control o extinción", "La pasiva es obligatoria solo en riesgo alto; la activa se exige en todos los casos", "La pasiva se revisa cada 5 años; la activa cada año"],
+    c: 1, exp: "Art. 3.c) y d) RD 164/2025: la protección pasiva es la derivada de los requisitos constructivos (prevenir incendio, impedir/retrasar propagación, facilitar extinción y evacuación). La protección activa es el conjunto de medios, equipos y sistemas —manuales o automáticos— cuya función es actuar directamente en la detección, control o extinción del incendio." },
+
+  // ── E6: CTE DB-SUA ─────────────────────────────────────────────────────────
+  { id: "E6-01", tema: "E6",
+    q: "Según la tabla 1.2 del DB-SUA 1, ¿qué clase de resbaladicidad mínima se exige en suelos de zonas interiores secas con pendiente inferior al 6%?",
+    o: ["Clase 0", "Clase 1", "Clase 2", "Clase 3"],
+    c: 1, exp: "Tabla 1.2 SUA 1: las zonas interiores secas con pendiente menor que el 6% deben tener suelos de clase 1 (Rd > 15 y ≤ 35). Si la pendiente es ≥ 6% o se trata de escaleras, se exige clase 2. Las zonas interiores húmedas con pendiente < 6% exigen clase 2; zonas exteriores y piscinas, clase 3." },
+
+  { id: "E6-02", tema: "E6",
+    q: "¿Cuál es el resalto máximo admisible en una junta de pavimento, conforme al DB-SUA 1 (discontinuidades en el pavimento)?",
+    o: ["2 mm", "4 mm", "6 mm", "10 mm"],
+    c: 1, exp: "SUA 1 §2: el pavimento no tendrá juntas que presenten un resalto de más de 4 mm. Los elementos salientes puntuales de pequeña dimensión (como cerraderos de puertas) no deben sobresalir más de 12 mm, y el saliente que exceda de 6 mm en sus caras enfrentadas al sentido de circulación no debe formar un ángulo con el pavimento que exceda de 45°." },
+
+  { id: "E6-03", tema: "E6",
+    q: "Conforme al DB-SUA 1, ¿a partir de qué diferencia de cota es obligatorio disponer barreras de protección en desniveles, huecos y balcones?",
+    o: ["Diferencia de cota mayor que 30 cm", "Diferencia de cota mayor que 55 cm", "Diferencia de cota mayor que 70 cm", "Diferencia de cota mayor que 100 cm"],
+    c: 1, exp: "SUA 1 §3.1.1: deben existir barreras de protección en los desniveles, huecos y aberturas (horizontales o verticales), balcones y ventanas con una diferencia de cota mayor que 55 cm, excepto cuando la disposición constructiva haga muy improbable la caída o cuando la barrera sea incompatible con el uso previsto." },
+
+  { id: "E6-04", tema: "E6",
+    q: "¿Qué altura mínima debe tener una barrera de protección cuando la diferencia de cota protegida excede de 6 m, conforme al DB-SUA 1?",
+    o: ["0,90 m", "1,00 m", "1,10 m", "1,20 m"],
+    c: 2, exp: "SUA 1 §3.2.1: las barreras de protección tendrán como mínimo 0,90 m de altura cuando la diferencia de cota que protegen no exceda de 6 m, y de 1,10 m en el resto de los casos. La excepción son los huecos de escaleras de anchura menor que 40 cm, donde basta 0,90 m." },
+
+  { id: "E6-05", tema: "E6",
+    q: "¿Cuál es la contrahuella máxima permitida en escaleras de uso restringido conforme al DB-SUA 1?",
+    o: ["16 cm", "18 cm", "20 cm", "22 cm"],
+    c: 2, exp: "SUA 1 §4.1: en escaleras de uso restringido la contrahuella será de 20 cm como máximo y la huella de 22 cm como mínimo. Además, la anchura del tramo será de 0,80 m como mínimo. Se admiten mesetas partidas con peldaños a 45° y escalones sin tabica (proyección mínima superpuesta de 2,5 cm)." },
+
+  { id: "E6-06", tema: "E6",
+    q: "En escaleras de uso general, ¿qué relación deben cumplir la huella (H) y la contrahuella (C) a lo largo de cada tramo?",
+    o: ["52 cm ≤ 2C + H ≤ 68 cm", "54 cm ≤ 2C + H ≤ 70 cm", "56 cm ≤ 2C + H ≤ 72 cm", "60 cm ≤ 2C + H ≤ 75 cm"],
+    c: 1, exp: "SUA 1 §4.2.1: la huella H y la contrahuella C deben cumplir 54 cm ≤ 2C + H ≤ 70 cm. Además, H ≥ 28 cm en tramos rectos; C entre 13 y 18,5 cm (máx 17,5 cm en zonas de uso público o cuando no se disponga ascensor alternativo). No se admite bocel." },
+
+  { id: "E6-07", tema: "E6",
+    q: "¿Cuál es la pendiente máxima de una rampa perteneciente a un itinerario accesible cuya longitud sea menor de 6 m, según el DB-SUA 1?",
+    o: ["6%", "8%", "10%", "12%"],
+    c: 1, exp: "SUA 1 §4.3.1: las rampas de itinerario accesible tendrán una pendiente máxima del 10% cuando su longitud sea menor que 3 m, del 8% cuando sea menor que 6 m, y del 6% en el resto de los casos. La pendiente transversal de rampas accesibles será del 2% como máximo." },
+
+  { id: "E6-08", tema: "E6",
+    q: "Conforme al DB-SUA 2, ¿cuál es la altura libre mínima de paso en zonas de circulación que no sean de uso restringido?",
+    o: ["2,00 m", "2,10 m", "2,20 m", "2,50 m"],
+    c: 2, exp: "SUA 2 §1.1.1: la altura libre de paso en zonas de circulación será como mínimo 2,10 m en zonas de uso restringido y 2,20 m en el resto de las zonas. En los umbrales de las puertas la altura libre será 2 m como mínimo. Los elementos fijos en fachadas sobre zonas de circulación estarán a una altura de 2,20 m como mínimo." },
+
+  { id: "E6-09", tema: "E6",
+    q: "Según el DB-SUA 3, ¿cuál es la fuerza de apertura máxima de las puertas situadas en itinerarios accesibles con carácter general (cuando no sean resistentes al fuego)?",
+    o: ["25 N", "65 N", "100 N", "140 N"],
+    c: 0, exp: "SUA 3 §1.3: la fuerza de apertura de las puertas de salida es de 140 N como máximo en general. Para las situadas en itinerarios accesibles se aplica lo establecido en la definición de estos: máximo 25 N en general y 65 N cuando sean resistentes al fuego." },
+
+  { id: "E6-10", tema: "E6",
+    q: "¿Cuál es la iluminancia mínima que debe proporcionar el alumbrado normal en zonas interiores, conforme al DB-SUA 4?",
+    o: ["20 lux", "50 lux", "100 lux", "200 lux"],
+    c: 2, exp: "SUA 4 §1.1: en cada zona se dispondrá alumbrado capaz de proporcionar una iluminancia mínima de 20 lux en zonas exteriores y de 100 lux en zonas interiores, excepto aparcamientos interiores (50 lux). El factor de uniformidad media será del 40% como mínimo." },
+
+  { id: "E6-11", tema: "E6",
+    q: "Según el DB-SUA 4, ¿cuánto tiempo mínimo debe funcionar el alumbrado de emergencia a partir del fallo del alumbrado normal?",
+    o: ["30 minutos", "1 hora", "2 horas", "3 horas"],
+    c: 1, exp: "SUA 4 §2.3: el alumbrado de emergencia debe cumplir condiciones de servicio durante una hora como mínimo a partir del fallo. Además, debe alcanzar al menos el 50% del nivel de iluminación requerido al cabo de 5 s y el 100% a los 60 s. En el eje de vías de evacuación de anchura ≤ 2 m: ≥ 1 lux; en equipos de seguridad: ≥ 5 lux." },
+
+  { id: "E6-12", tema: "E6",
+    q: "¿Cuál es la profundidad máxima del vaso en piscinas infantiles, conforme al DB-SUA 6?",
+    o: ["30 cm", "40 cm", "50 cm", "70 cm"],
+    c: 2, exp: "SUA 6 §1.2.1: la profundidad del vaso en piscinas infantiles será 50 cm como máximo. En el resto de piscinas la profundidad máxima será de 3 m, y contarán con zonas de profundidad menor que 1,40 m. Se señalizarán los puntos donde se supere la profundidad de 1,40 m." },
+
+  { id: "E6-13", tema: "E6",
+    q: "¿En qué casos obliga siempre el DB-SUA 8 a instalar un sistema de protección contra el rayo con eficiencia E ≥ 0,98?",
+    o: ["Cuando la frecuencia esperada de impactos Ne sea mayor que el riesgo admisible Na", "Cuando el edificio sea de uso industrial o esté en zona de alta densidad de impactos", "Cuando el edificio manipule sustancias tóxicas, radioactivas, inflamables o explosivas, o su altura supere 43 m", "Cuando la frecuencia esperada de impactos Ne > 0,01 impactos/año"],
+    c: 2, exp: "SUA 8 §1.2: los edificios en los que se manipulen sustancias tóxicas, radioactivas, altamente inflamables o explosivas, y los edificios cuya altura sea superior a 43 m, dispondrán siempre de sistemas de protección contra el rayo de eficiencia E ≥ 0,98 (nivel de protección 1), con independencia del resultado de Ne/Na." },
+
+  { id: "E6-14", tema: "E6",
+    q: "¿A qué graderíos es aplicable el DB-SUA 5 sobre alta ocupación?",
+    o: ["A todos los edificios de Pública Concurrencia con más de 500 asistentes", "A estadios y pabellones con aforo superior a 1.000 espectadores", "A graderíos de estadios, pabellones y edificios similares previstos para más de 3.000 espectadores de pie", "A cualquier establecimiento con densidad de ocupación superior a 2 personas/m²"],
+    c: 2, exp: "SUA 5 §1: las condiciones del DB-SUA 5 son de aplicación a los graderíos de estadios, pabellones polideportivos, centros de reunión y otros edificios de uso cultural previstos para más de 3.000 espectadores de pie. También les es de aplicación la Sección SI 3 del DB-SI para condiciones de evacuación." },
+
+  { id: "E6-15", tema: "E6",
+    q: "Según el DB-SUA 9, ¿cuándo deben disponer de ascensor accesible los edificios de usos distintos al Residencial Vivienda?",
+    o: ["Siempre que el edificio tenga más de una planta", "Cuando haya que salvar más de 2 plantas desde la entrada accesible, o existan más de 200 m² útiles en plantas sin acceso accesible", "Solo cuando la superficie útil total supere los 500 m²", "Cuando el número de usuarios habituales supere las 50 personas"],
+    c: 1, exp: "SUA 9 §1.1.2: los edificios de otros usos dispondrán de ascensor accesible cuando haya que salvar más de 2 plantas desde alguna entrada principal accesible, o cuando existan más de 200 m² de superficie útil (excluida ocupación nula) en plantas sin entrada accesible al edificio." },
+
+  // ── E7: DA DB-SUA/2 – Accesibilidad en edificios existentes ────────────────
+  { id: "E7-01", tema: "E7",
+    q: "¿Qué edificios se consideran 'existentes' a efectos del DA DB-SUA/2?",
+    o: ["Aquellos cuya solicitud de licencia de obras fue anterior al 12 de septiembre de 2010", "Los construidos antes de la entrada en vigor del CTE (28/03/2006)", "Los construidos antes del 1 de enero de 2000", "Los edificios con más de 30 años de antigüedad en la fecha de la intervención"],
+    c: 0, exp: "DA DB-SUA/2, apartado 1: se consideran edificios y establecimientos existentes aquellos cuya solicitud de licencia de obras fue anterior al 12 de septiembre de 2010, conforme a la Disposición transitoria tercera del RD 173/2010. Los edificios con licencia posterior debieron cumplir plenamente las condiciones de accesibilidad ya vigentes desde esa fecha." },
+
+  { id: "E7-02", tema: "E7",
+    q: "Según la tabla 2 del DA DB-SUA/2, ¿qué tolerancia se admite para desniveles en accesos a edificios existentes?",
+    o: ["Desniveles hasta 3 cm sin requisito de pendiente especial", "Desniveles hasta 5 cm salvados con una pendiente no mayor al 25%", "Desniveles hasta 8 cm con señalización táctil complementaria", "No se admite ninguna tolerancia en accesos a edificios públicos"],
+    c: 1, exp: "Tabla 2 DA DB-SUA/2 (SUA 1-2, punto 3): en accesos se admiten desniveles de hasta 5 cm salvados con una pendiente no mayor que 25%. Esta tolerancia es adicional a la condición de discontinuidades que prohíbe escalones aislados en itinerarios accesibles." },
+
+  { id: "E7-03", tema: "E7",
+    q: "¿Qué pendiente máxima admite el DA DB-SUA/2 para una rampa accesible de hasta 3 m de longitud en un edificio existente?",
+    o: ["8%", "10%", "12%", "15%"],
+    c: 2, exp: "Tabla 2 DA DB-SUA/2 (SUA 1-4.3.1): en edificios existentes se admiten rampas de hasta 3 m con pendiente del 12% como máximo; de hasta 10 m con pendiente del 10% como máximo; de hasta 15 m con pendiente del 8% como máximo; o con pendiente del 6% sin límite de longitud." },
+
+  { id: "E7-04", tema: "E7",
+    q: "¿Cuál es la tolerancia mínima de anchura libre de paso en itinerarios accesibles de edificios existentes, según la tabla 2 del DA DB-SUA/2?",
+    o: ["0,80 m", "0,90 m", "1,00 m", "1,10 m"],
+    c: 1, exp: "Tabla 2 DA DB-SUA/2 (SUA 1-4.3.2, punto 3): se admite una anchura libre de paso de 0,90 m como mínimo en tramos rectos y entre pasamanos, como tolerancia para itinerarios accesibles en edificios existentes. El anejo A indica que 0,90 cm es suficiente para circular en línea recta y hacer giros de hasta 90°." },
+
+  { id: "E7-05", tema: "E7",
+    q: "Conforme al Anejo A del DA DB-SUA/2, ¿cuáles son las dimensiones mínimas de una plataforma elevadora vertical con puertas adyacentes para usuario de silla de ruedas con acompañante?",
+    o: ["80 × 125 cm", "90 × 140 cm", "110 × 140 cm (o bien 125 × 125 cm)", "100 × 100 cm"],
+    c: 2, exp: "Tabla A.1 DA DB-SUA/2: con puertas adyacentes y para silla manual o eléctrica tipo A o B con acompañante se exige 125 × 125 cm o bien 110 × 140 cm (anchura × profundidad), con carga mínima de 250 kg/m² y al menos 385 kg. Con una puerta o dos enfrentadas: 80 × 125 cm (para tipo A sin acompañante) o 90 × 140 cm (con acompañante)." },
+
+  { id: "E7-06", tema: "E7",
+    q: "Según el Anejo A.3 del DA DB-SUA/2, ¿para qué tipo de usuario es idónea la plataforma elevadora inclinada (salvaescaleras)?",
+    o: ["Para cualquier usuario con movilidad reducida de forma totalmente autónoma", "Para personas instruidas en su manejo o cuando se asegure supervisión y asistencia continua", "Para usuarios de silla de ruedas motorizada exclusivamente", "Para grandes flujos de personas en situaciones de evacuación de emergencia"],
+    c: 1, exp: "Anejo A.3 DA DB-SUA/2: las plataformas elevadoras inclinadas solo son adecuadas para personas instruidas en su manejo o donde se pueda asegurar supervisión y asistencia. Sus controles deben prevenir el uso no autorizado (p.ej. mediante llave). No deben utilizarse para la evacuación de emergencia del edificio." },
+
+  { id: "E7-07", tema: "E7",
+    q: "¿Cuál es el espacio libre mínimo junto a una plataforma elevadora inclinada en posición desplegada para no impedir el uso seguro de la escalera, según el DA DB-SUA/2?",
+    o: ["40 cm", "60 cm", "80 cm", "100 cm"],
+    c: 1, exp: "Anejo A.3 DA DB-SUA/2: para que la plataforma no impida el uso seguro de la escalera debe dejarse un espacio libre de al menos 60 cm cuando está desplegada. Si esta solución es inviable, se admite que ocupe todo el ancho de la escalera si la circulación es reducida (≤ 8 viviendas), existe recorrido alternativo, o el tramo no excede de 8 peldaños." },
+
+  { id: "E7-08", tema: "E7",
+    q: "Según la tabla B.1 del Anejo B del DA DB-SUA/2, ¿cuáles son las dimensiones mínimas de cabina de ascensor con una puerta o dos puertas enfrentadas para ser utilizable por usuarios de silla de ruedas?",
+    o: ["80 × 110 cm", "90 × 120 cm", "100 × 125 cm", "110 × 140 cm"],
+    c: 1, exp: "Tabla B.1 DA DB-SUA/2: para ascensores con una puerta o dos puertas enfrentadas, las dimensiones mínimas de cabina para usuarios de silla de ruedas son 90 × 120 cm (anchura × profundidad). Para puertas adyacentes: 125 × 125 cm o 120 × 140 cm. Cuando no sea posible alcanzar estas medidas, puede instalarse una cabina menor válida para personas con movilidad reducida pero no para usuarios de silla de ruedas." },
+
+  { id: "E7-09", tema: "E7",
+    q: "¿Qué anchura mínima de paso debe tener la puerta de un ascensor para ser utilizable por usuarios de silla de ruedas, conforme a la norma UNE-EN 81-70 citada en el DA?",
+    o: ["70 cm", "80 cm", "90 cm", "100 cm"],
+    c: 1, exp: "Anejo B.2 DA DB-SUA/2 (referencia UNE-EN 81-70 §5.2.1): la anchura de paso mínima de una puerta de ascensor es de 80 cm para que pueda ser utilizada por usuarios de silla de ruedas. Esta medida también se recoge en la norma UNE-EN 81-82 para mejora de accesibilidad de ascensores existentes." },
+
+  { id: "E7-10", tema: "E7",
+    q: "¿En qué condiciones se admite que los aseos de uso privado exclusivo de trabajadores no sean accesibles, según la tabla 2 del DA DB-SUA/2?",
+    o: ["Cuando la superficie útil privada sea inferior a 200 m² y el número de trabajadores no supere 20", "Cuando la superficie útil privada sea inferior a 100 m² y el número de trabajadores no supere 10", "Cuando el local tenga menos de 5 años de antigüedad desde su implantación", "En ningún caso; los aseos siempre deben ser accesibles en edificios existentes"],
+    c: 1, exp: "Tabla 2 DA DB-SUA/2 (SUA 9-1.2.6): se admite que no sean accesibles los aseos de uso exclusivo de trabajadores cuando la superficie útil de la zona privada no exceda de 100 m², el número de trabajadores no supere 10 (calculado según tabla 2.1 DB-SI3) y el aseo sea de uso exclusivo de los trabajadores." },
+
+  { id: "E7-11", tema: "E7",
+    q: "¿Cuál es el diámetro mínimo admisible del espacio de giro en itinerarios accesibles de edificios existentes, como tolerancia del DA DB-SUA/2?",
+    o: ["1,00 m", "1,20 m", "1,50 m", "1,80 m"],
+    c: 1, exp: "Tabla 2 DA DB-SUA/2 (Anejo A, Itinerario accesible): donde se exigen espacios de giro se admite que tengan al menos 1,20 m de diámetro, libre de obstáculos. El espacio deseable es de 1,50 m, pero un diámetro menor a 1,20 m no garantiza el uso autónomo por usuarios de silla de ruedas." },
+
+  { id: "E7-12", tema: "E7",
+    q: "Según el Anejo A.1 del DA DB-SUA/2, ¿cuál es la primera opción alternativa para salvar pequeños desniveles cuando no sea posible construir una rampa en un edificio existente?",
+    o: ["La plataforma elevadora inclinada (salvaescaleras)", "La plataforma elevadora vertical", "El montacargas de uso exclusivo", "La oruga motorizada con asistencia personal"],
+    c: 1, exp: "Anejo A.1 DA DB-SUA/2: el orden de preferencia es (1) solución a nivel (traslado del acceso), (2) rampa según DB SUA o tolerancias del DA, (3) plataforma elevadora vertical como primera alternativa, (4) plataforma elevadora inclinada como segunda opción en circunstancias excepcionales. Siempre debe mantenerse la escalera como recorrido alternativo al mecánico." },
+
+  { id: "E7-13", tema: "E7",
+    q: "¿Hasta qué anchura mínima puede reducirse una escalera prevista para evacuación descendente al instalar un ascensor en un edificio existente, según el Anejo B.4.2 del DA?",
+    o: ["0,60 m y no menos de P/100", "0,80 m y no menos de P/160", "0,90 m y no menos de P/200", "1,00 m en todos los casos"],
+    c: 1, exp: "Anejo B.4.2 DA DB-SUA/2: se permite la reducción de la anchura de escaleras previstas para evacuación descendente hasta 0,80 m y no menos de P/160 (donde P es el número de personas previstas). Para evacuación ascendente el límite es 0,80 m y no menos de P/(160-10h). Deben adoptarse medidas compensatorias que favorezcan la circulación y las condiciones de seguridad." },
+
+  { id: "E7-14", tema: "E7",
+    q: "Conforme a la tabla 2 del DA DB-SUA/2, ¿cuál es la longitud mínima admisible de mesetas intermedias en rampas de edificios existentes?",
+    o: ["1,00 m", "1,20 m", "1,50 m", "1,80 m"],
+    c: 1, exp: "Tabla 2 DA DB-SUA/2 (SUA 1-4.3.3, punto 1): se admiten mesetas intermedias de, al menos, 1,20 m de longitud (frente al mínimo de 1,50 m exigido en obra nueva). Para mesetas de cambio de dirección también se admite al menos 1,20 m de profundidad como tolerancia." },
+
+  { id: "E7-15", tema: "E7",
+    q: "¿Cuál es el límite de superficie de uso público para que un local se considere de 'reducidas dimensiones' a efectos de servicios higiénicos, según el Anejo C del DA DB-SUA/2?",
+    o: ["50 m² de superficie y ocupación ≤ 25 personas", "100 m² de superficie y ocupación ≤ 50 personas", "150 m² de superficie y ocupación ≤ 75 personas", "200 m² de superficie y ocupación ≤ 100 personas"],
+    c: 1, exp: "Anejo C DA DB-SUA/2: se consideran locales de reducidas dimensiones aquellos cuya superficie de uso público no exceda de 100 m² y cuya ocupación de público no exceda de 50 personas. En estos locales pueden plantearse soluciones alternativas como aseos de uso compartido, aseos unisex o suficiencia de aseos accesibles en zonas comunes del centro comercial o en la vía pública a menos de 50 m." },
 ];

@@ -1252,4 +1252,188 @@ export const RESUMENES = {
       "Reacción fachada >18 m: B-s3,d0; cámara ventilada >28 m: A2-s3,d0",
     ],
   },
+
+  "E5": {
+    intro: "El RD 164/2025 aprueba el nuevo Reglamento de Seguridad contra Incendios en Establecimientos Industriales (RSCIEI), que regula la protección frente a incendios en uso industrial: prevención, detección, propagación y extinción.",
+    bloques: [
+      { h: "Objeto y ámbito (Arts. 1–2)", items: [
+        "Uso industrial: actividades Ley 21/1992 art. 3.1, almacenes industriales, talleres reparación vehículos y servicios auxiliares.",
+        "Almacén logístico es establecimiento industrial si QT ≥ 3.000.000 MJ.",
+        "Exclusiones: nucleares/radiactivos, extracción minerales, actividades agrarias/ganaderas, instalaciones militares, instalaciones servicio ferroviario (art. 42.1 Ley 38/2015).",
+        "Si existen otras normas sectoriales específicas, el RSCIEI se aplica solo con carácter complementario.",
+      ]},
+      { h: "Definiciones clave (Art. 3)", items: [
+        "Protección pasiva: derivada de los requisitos constructivos (prevenir, impedir/retrasar propagación, facilitar extinción y evacuación).",
+        "Protección activa: medios, equipos y sistemas (manuales o automáticos) que actúan directamente en detección, control o extinción.",
+        "Técnicas de seguridad equivalente: soluciones que difieren de las prescripciones pero ofrecen igual o mayor nivel de seguridad.",
+        "Diseño prestacional: soluciones específicas para un emplazamiento concreto, siguiendo UNE-ISO 23932 y UNE-ISO 16733-1.",
+        "Modificaciones significativas: aumento de superficie o de NRI, o cualquier cambio que comprometa las exigencias básicas.",
+      ]},
+      { h: "Compatibilidad reglamentaria (Art. 4)", items: [
+        "Usos subsidiarios dentro del establecimiento industrial deben cumplir DB-SI cuando superen: 250 m² (administrativo, comercial, docente, pública concurrencia, alojamiento) o 100 m² (aparcamiento).",
+        "Residencial Vivienda y Residencial Público: siempre deben cumplir DB-SI, sin umbral de superficie.",
+        "Estas zonas deben constituir un sector de incendio independiente del sector industrial.",
+      ]},
+      { h: "Cumplimiento y exenciones (Art. 5)", items: [
+        "Exención casi total: Qs ≤ 42 MJ/m² y superficie ≤ 120 m² en recinto propio → solo deben cumplir art. 12 (mantenimiento) + extintores y alumbrado de emergencia del Anexo III, más memoria técnica.",
+        "Técnicas de seguridad equivalente o diseño prestacional (art. 5.1.b): bajo responsabilidad del proyectista, con informe de organismo de control.",
+        "Adaptaciones razonables en edificios existentes (art. 5.3): con informe previo de organismo de control.",
+      ]},
+      { h: "Exigencias básicas (Art. 6)", items: [
+        "(a) Propagación interior · (b) Propagación exterior · (c) Evacuación de ocupantes.",
+        "(d) Instalaciones de PCI · (e) Intervención Servicios de Extinción e Intervención · (f) Resistencia estructural al incendio.",
+      ]},
+      { h: "Proyecto y puesta en servicio (Arts. 10–11)", items: [
+        "Proyecto puede sustituirse por memoria técnica si: sup < 300 m² + todos sectores riesgo intrínseco bajo + no aplican arts. 10.3 ni 5.3.",
+        "Puesta en servicio: comunicación ante órgano competente de industria de la CCAA, con proyecto/memoria + certificado técnico.",
+        "Acta de inspección inicial de organismo de control (OC): obligatoria si sup de sectores de riesgo medio y alto ≥ 1.000 m², o si aplican arts. 10.3 o 5.3.",
+      ]},
+      { h: "Configuraciones – Anexo I", items: [
+        "Tipo A (AV/AH): el establecimiento ocupa parcialmente un edificio con otros establecimientos. AV = separación vertical; AH = separación horizontal. Mezcla → AV.",
+        "Tipo B: ocupa totalmente un edificio con estructura independiente, adyacente o a ≤ 3 m de otros.",
+        "Tipo C: ocupa totalmente edificios a más de 3 m de otros (distancia libre de combustibles).",
+        "Tipo D: espacio abierto. Si cubierto, requiere apertura lateral L ≥ 25% (A < 500 m², H < 5 m) hasta L ≥ 70% (A > 1.500 m², H ≥ 5 m).",
+      ]},
+      { h: "Nivel de riesgo intrínseco (NRI) – Tabla 1.3.1", items: [
+        "BAJO 1: Qs ≤ 425 MJ/m² · BAJO 2: 425 < Qs ≤ 850 MJ/m²",
+        "MEDIO 3: ≤ 1.275 · MEDIO 4: ≤ 1.700 · MEDIO 5: ≤ 3.400 (MJ/m²)",
+        "ALTO 6: ≤ 6.800 · ALTO 7: ≤ 13.600 · ALTO 8: > 13.600 (MJ/m²)",
+        "Coeficiente Ci (tabla 1.3.2): 1,60 (grado 1) / 1,40 / 1,20 / 1,00 / 1,00. Si fumígeno: Ci × 1,20 (máx 1,92).",
+      ]},
+    ],
+    claves: [
+      "Exención RSCIEI: Qs ≤ 42 MJ/m² + superficie ≤ 120 m² (solo extintores + emergencia + mantenimiento)",
+      "Memoria técnica sustituye al proyecto: sup < 300 m² + todos riesgo bajo + sin arts. 10.3/5.3",
+      "Acta OC obligatoria: superficie riesgo medio + alto ≥ 1.000 m² (o aplican arts. 10.3/5.3)",
+      "Tipo A (parcial edificio) · B (total, ≤3 m) · C (total, >3 m) · D (espacio abierto)",
+      "NRI: Bajo 1–2 (Qs ≤ 850) · Medio 3–5 (Qs ≤ 3.400) · Alto 6–8 (Qs > 3.400) – MJ/m²",
+      "Ci máx: 1,60 (grado 1 no fumígeno) / 1,92 (grado 1 fumígeno)",
+      "Uso subsidiario → DB-SI si > 250 m² (adm./com./docente...) o > 100 m² (aparcamiento) o SIEMPRE (residencial vivienda)",
+    ],
+  },
+
+  "E6": {
+    intro: "El DB-SUA (Seguridad de Utilización y Accesibilidad) del CTE, aprobado por RD 314/2006 y con última modificación en 2022 (RD 450/2022), regula 9 exigencias básicas: caídas, impacto/atrapamiento, aprisionamiento, iluminación, alta ocupación, ahogamiento, vehículos en movimiento, rayo y accesibilidad.",
+    bloques: [
+      { h: "SUA 1 – Suelos y desniveles", items: [
+        "Clases de suelos según Rd (péndulo UNE 41901): clase 1 (15 < Rd ≤ 35) · clase 2 (35 < Rd ≤ 45) · clase 3 (Rd > 45).",
+        "Tabla 1.2: interior seco <6% → clase 1; interior seco ≥6% o escaleras → clase 2; interior húmedo → clase 2/3; exterior / piscinas / duchas → clase 3.",
+        "Discontinuidades: resalto máx. 4 mm; elemento saliente puntual máx. 12 mm; desniveles ≤ 5 cm → pendiente máx. 25%.",
+        "Barrera de protección obligatoria si diferencia de cota > 55 cm. En zonas públicas: señalización visual y táctil desde 25 cm del borde si dif ≤ 55 cm.",
+      ]},
+      { h: "SUA 1 – Barreras de protección", items: [
+        "Altura mínima: ≥ 0,90 m (diferencia de cota ≤ 6 m) o ≥ 1,10 m (diferencia de cota > 6 m). Excepción: hueco escalera ancho < 40 cm → 0,90 m.",
+        "En Residencial Vivienda y escuelas infantiles: no escalables (sin apoyos 30–50 cm sobre suelo), sin aberturas ≥ 10 cm. En uso público (resto): sin aberturas ≥ 15 cm.",
+        "Frente a filas de asientos fijos: puede reducirse a 70 cm con elemento horizontal de 50 cm a 50 cm de altura.",
+      ]},
+      { h: "SUA 1 – Escaleras", items: [
+        "Uso restringido: ancho ≥ 0,80 m · contrahuella ≤ 20 cm · huella ≥ 22 cm.",
+        "Uso general: huella ≥ 28 cm (tramos rectos) · contrahuella 13–18,5 cm (máx. 17,5 sin ascensor o en uso público) · 54 ≤ 2C+H ≤ 70 cm.",
+        "Tramos: mín. 3 peldaños · altura máx. 2,25 m en uso público (3,20 m resto) · anchura libre según tabla 4.1 (mín. 0,80 m escalera uso general).",
+        "Pasamanos: si dif > 55 cm · en ambos lados si ancho libre > 1,20 m o sin ascensor alternativo · altura 90–110 cm.",
+      ]},
+      { h: "SUA 1 – Rampas", items: [
+        "Pendiente máx.: 12% general · itinerario accesible: ≤ 10% (<3 m), ≤ 8% (<6 m), ≤ 6% (resto) · aparcamiento vehículos: ≤ 16%.",
+        "Pendiente transversal accesible: máx. 2%.",
+        "Tramos: máx. 15 m (9 m si accesible) · anchura libre igual que escaleras (tabla 4.1).",
+        "Mesetas: ≥ anchura de rampa y longitud ≥ 1,50 m (entre tramos misma dirección).",
+      ]},
+      { h: "SUA 2 – Impacto y atrapamiento · SUA 3 – Aprisionamiento", items: [
+        "SUA 2: altura libre ≥ 2,20 m zonas generales (2,10 m restringidas); umbrales puertas ≥ 2,00 m.",
+        "Vidrios en áreas de riesgo: clasificación X(Y)Z según UNE-EN 12600; zona de riesgo en puertas hasta 1,50 m altura y 0,30 m a cada lado.",
+        "Puertas correderas: distancia al objeto fijo más próximo ≥ 20 cm.",
+        "SUA 3: fuerza apertura puertas de salida ≤ 140 N general; ≤ 25 N itinerario accesible; ≤ 65 N si RF en itinerario accesible.",
+      ]},
+      { h: "SUA 4 – Iluminación", items: [
+        "Alumbrado normal: ≥ 100 lux interiores · ≥ 20 lux exteriores · ≥ 50 lux aparcamientos; uniformidad media ≥ 40%.",
+        "Alumbrado de emergencia: entra en funcionamiento automáticamente cuando la tensión baja del 70% del valor nominal.",
+        "50% de iluminación a los 5 s; 100% a los 60 s; duración mínima 1 hora.",
+        "En vías evacuación ≤ 2 m de ancho: ≥ 1 lux en eje central; en equipos de seguridad: ≥ 5 lux; índice Ra ≥ 40.",
+      ]},
+      { h: "SUA 5–6–7–8", items: [
+        "SUA 5 (alta ocupación): aplicable a graderíos previstos para > 3.000 espectadores de pie. Pendiente graderío ≤ 50%; barreras si > 5 filas y pendiente > 6%.",
+        "SUA 6 (ahogamiento): piscina infantil máx. 50 cm de profundidad; andén ≥ 1,20 m; escaleras cada ≤ 15 m hasta 1 m bajo el agua.",
+        "SUA 7 (vehículos): espacio acceso/espera aparcamiento ≥ 4,5 m; señalización vel. máx. 20 km/h.",
+        "SUA 8 (rayo): sistema obligatorio si Ne > Na; SIEMPRE si sustancias peligrosas o altura > 43 m (eficiencia E ≥ 0,98, nivel 1); E = 1 − Na/Ne.",
+      ]},
+      { h: "SUA 9 – Accesibilidad", items: [
+        "Itinerario accesible al exterior del edificio (parcela → entrada principal).",
+        "Residencial Vivienda: ascensor accesible si > 2 plantas desde entrada accesible o > 12 viviendas en plantas sin entrada accesible.",
+        "Otros usos: ascensor accesible si > 2 plantas desde entrada accesible o > 200 m² útiles en plantas sin acceso accesible.",
+        "Plantas con zonas públicas > 100 m² útiles o elementos accesibles: ascensor accesible.",
+      ]},
+    ],
+    claves: [
+      "Suelos: clase 1 (interior seco <6%) · clase 2 (húmedo o seco ≥6%) · clase 3 (exterior/piscinas/duchas)",
+      "Barrera protección: dif. cota > 55 cm → h ≥ 0,90 m (dif ≤ 6 m) / h ≥ 1,10 m (dif > 6 m)",
+      "Escalera general: H ≥ 28 cm · C 13–18,5 cm · 54 ≤ 2C+H ≤ 70 cm · tramo máx. 2,25 m (uso público)",
+      "Rampa accesible: ≤ 10% (<3 m) · ≤ 8% (<6 m) · ≤ 6% (resto); tramo ≤ 9 m; meseta ≥ 1,50 m",
+      "Emergencia: ≥ 1 h · ≥ 1 lux eje vía (≤2 m) · 5 lux en equipos · 50% a 5 s · 100% a 60 s",
+      "Pararrayos SIEMPRE (E ≥ 0,98): sustancias peligrosas o altura > 43 m",
+      "Fuerza apertura: 140 N general · 25 N itinerario accesible · 65 N RF en itinerario accesible",
+    ],
+  },
+
+  "E7": {
+    intro: "El Documento de Apoyo DA DB-SUA/2 (versión 29/06/2018) establece criterios de flexibilidad para la adecuación efectiva de las condiciones de accesibilidad en edificios existentes, cuya solicitud de licencia fue anterior al 12 de septiembre de 2010.",
+    bloques: [
+      { h: "Objeto y criterios de aplicación (Aptos. 1–2)", items: [
+        "Edificio existente = licencia de obras anterior al 12/09/2010 (Disposición transitoria 3ª RD 173/2010).",
+        "Tabla 1: condiciones básicas de accesibilidad del DB-SUA y DB-SI que se deben respetar.",
+        "Tabla 2: tolerancias admisibles para determinadas condiciones, en especial para usuarios de silla de ruedas.",
+        "Si no es viable alcanzar ni las tolerancias de la tabla 2, el proyectista puede aplicar otras medidas bajo su responsabilidad para lograr la mayor adecuación posible.",
+      ]},
+      { h: "Tolerancias SUA 1 – Tabla 2", items: [
+        "Discontinuidades en accesos: desniveles ≤ 5 cm salvados con pendiente ≤ 25%.",
+        "Rampa accesible: ≤ 12% (longitud ≤ 3 m) · ≤ 10% (≤ 10 m) · ≤ 8% (≤ 15 m) · ≤ 6% (sin límite).",
+        "Anchura libre de paso: ≥ 0,90 m en tramos rectos y entre pasamanos.",
+        "Mesetas intermedias: ≥ 1,20 m de longitud (obra nueva: 1,50 m); meseta cambio dirección ≥ 1,20 m.",
+        "Pasamanos: puede arrancar con el peldaño si la prolongación interfiere la circulación.",
+      ]},
+      { h: "Tolerancias SUA 9 – Tabla 2", items: [
+        "Itinerario accesible: puede comunicar con una entrada que no sea la principal (si es de uso frecuente, de longitud similar y debidamente señalizada).",
+        "Espacio de giro: diámetro admisible ≥ 1,20 m (deseable 1,50 m; por debajo de 1,20 m no garantiza uso autónomo).",
+        "Aseos privados exclusivos de trabajadores: exentos de ser accesibles si sup. privada ≤ 100 m² y número de trabajadores ≤ 10.",
+        "Alojamientos accesibles: establecimientos con < 10 alojamientos admitidos sin alojamiento accesible para silla de ruedas.",
+      ]},
+      { h: "Anejo A – Accesos y pequeños desniveles", items: [
+        "Orden de preferencia: (1) solución a nivel (traslado acceso), (2) rampa, (3) plataforma elevadora vertical, (4) plataforma elevadora inclinada. Siempre escalera como alternativa al recorrido mecánico.",
+        "Orugas motorizadas y sillas salvaescaleras NO son adecuación efectiva (no permiten uso autónomo).",
+        "Rampas móviles y tapices: facilitadores de movilidad, no soluciones de accesibilidad.",
+      ]},
+      { h: "Anejo A.2 – Plataformas elevadoras verticales (UNE-EN 81-41)", items: [
+        "Con puertas adyacentes (para silla A o B + acompañante): 125×125 o 110×140 cm; carga ≥ 385 kg.",
+        "Con una puerta o dos enfrentadas (sin acompañante, silla tipo A): 80×125 cm; (con acompañante, tipo A/B): 90×140 cm.",
+        "Carga mínima: 250 kg/m². No son 'ascensor accesible' aunque la reglamentación las denomine ascensor.",
+        "Espacio deseable delante: giro de 1,50 m; mínimo viable: 1,20 m.",
+      ]},
+      { h: "Anejo A.3 – Plataformas elevadoras inclinadas / salvaescaleras (UNE-EN 81-40)", items: [
+        "Dimensiones: 70×90 cm (silla tipo A) o 75×100 cm (tipo A o B); carga ≥ 225–250 kg.",
+        "Solo para personas instruidas o con supervisión y asistencia; controles con llave para evitar uso no autorizado.",
+        "En posición desplegada: espacio libre ≥ 60 cm para no impedir el uso seguro de la escalera (excepciones con recorrido alternativo o ≤ 8 peldaños).",
+        "NO aptas para evacuación de emergencia del edificio.",
+      ]},
+      { h: "Anejo B – Instalación de ascensores en edificios existentes", items: [
+        "Cabina mínima para usuario de silla de ruedas: 90×120 cm (puerta única o dos enfrentadas) · 125×125 cm o 120×140 cm (puertas adyacentes).",
+        "Anchura mínima de paso de puerta: 80 cm (UNE-EN 81-70 §5.2.1).",
+        "Reducción anchura escalera para instalar ascensor: mínimo 0,80 m y ≥ P/160 (evacuación descendente); ≥ P/(160−10h) (evacuación ascendente). Requieren medidas compensatorias.",
+        "Si escalera sirve ≤ 8 viviendas y h ≤ 14 m: admitida escalera de uso restringido (huella mín 25 cm).",
+      ]},
+      { h: "Anejo C – Servicios higiénicos accesibles", items: [
+        "Local de reducidas dimensiones: sup. pública ≤ 100 m² + ocupación ≤ 50 personas.",
+        "Soluciones admisibles en locales pequeños: aseo unisex único, aseos compartidos personal y público, suficiencia de aseos accesibles en zonas comunes del centro comercial (recorrido ≤ 50 m).",
+        "Espacio de maniobra de 1,50 m deseable; se admite 1,20 m si no es posible.",
+        "Si no es viable cabina accesible para silla de ruedas: al menos una barra vertical de sujeción junto al inodoro.",
+      ]},
+    ],
+    claves: [
+      "Edificio existente = licencia anterior a 12/09/2010 (RD 173/2010, Disposición transitoria 3ª)",
+      "Rampa edificio existente: 12% (≤3 m) · 10% (≤10 m) · 8% (≤15 m) · 6% sin límite",
+      "Plataforma vertical: 125×125 o 110×140 cm (puertas adjuntas) · 80×125 o 90×140 cm (puertas frontales)",
+      "Plataforma inclinada: solo personas instruidas · no apta para evacuación · espacio libre ≥ 60 cm en escalera",
+      "Cabina ascensor mín.: 90×120 cm (puerta frontal) · anchura paso puerta ≥ 80 cm",
+      "Escalera reducible hasta 0,80 m (y ≥ P/160) para instalar ascensor – con medidas compensatorias",
+      "Local reducidas dimensiones: sup. pública ≤ 100 m² + ocupación ≤ 50 personas",
+    ],
+  },
 };
