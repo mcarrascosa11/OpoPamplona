@@ -124,6 +124,11 @@ function Inicio({ state, setTab, reload }) {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
+   COLORES DE SUBRAYADO
+   ═══════════════════════════════════════════════════════════════════════ */
+const COLORES_SUB = { amarillo: "#FDE068", verde: "#86EFAC", rosa: "#F9A8D4" };
+
+/* ═══════════════════════════════════════════════════════════════════════
    PARSER DE TEMAS (Formato A + Formato B + fallback plain)
    ═══════════════════════════════════════════════════════════════════════ */
 
@@ -177,101 +182,34 @@ function construirTOC(tokens) {
     .map((tk, i) => ({ ...tk, ancla: `tl-${i}-${tk.tipo}` }));
 }
 
-// Renderiza tokens como nodos React
-function renderTokens(tokens, fontSize) {
-  const entries = tokens.map((tk, i) => {
-    const ancla = `tl-${i}-${tk.tipo}`;
-    switch (tk.tipo) {
-      case "hrA":
-        return <hr key={i} style={{ border: "none", borderTop: `2px solid ${C.hair}`, margin: "18px 0" }} />;
-      case "hrB":
-        return <hr key={i} style={{ border: "none", borderTop: `3px double ${C.ink2}`, margin: "22px 0" }} />;
-      case "hrC":
-        return <hr key={i} style={{ border: "none", borderTop: `1px solid ${C.hair}`, margin: "10px 0" }} />;
+// Divide el contenido en segmentos según los subrayados (offsets de char)
+function splitByMarks(contenido, marks) {
+  if (!contenido) return [];
+  if (!marks.length) return [{ text: contenido, markId: null }];
+  const sorted = [...marks]
+    .filter((m) => m.inicio >= 0 && m.fin <= contenido.length && m.fin > m.inicio)
+    .sort((a, b) => a.inicio - b.inicio);
+  const segs = [];
+  let pos = 0;
+  for (const m of sorted) {
+    if (m.inicio > pos) segs.push({ text: contenido.slice(pos, m.inicio), markId: null });
+    segs.push({ text: contenido.slice(m.inicio, m.fin), markId: m.id, color: m.color });
+    pos = m.fin;
+  }
+  if (pos < contenido.length) segs.push({ text: contenido.slice(pos), markId: null });
+  return segs;
+}
 
-      case "aviso":
-        return (
-          <div key={i} id={ancla} style={{
-            background: "#FEF3C7", borderLeft: `4px solid ${C.amber}`,
-            padding: "10px 14px", margin: "14px 0",
-            fontFamily: SANS, fontSize: fontSize - 1, lineHeight: 1.6, color: "#78350F",
-            whiteSpace: "pre-wrap",
-          }}>{tk.texto}</div>
-        );
-
-      case "seccionA":
-        return (
-          <h3 key={i} id={ancla} style={{
-            fontFamily: MONO, fontSize: fontSize - 1, letterSpacing: 1.2, fontWeight: 700,
-            color: C.slate, borderBottom: `1px solid ${C.hair}`, paddingBottom: 6,
-            margin: "28px 0 10px", textTransform: "uppercase",
-          }}>{tk.texto}</h3>
-        );
-
-      case "seccionFinal":
-        return (
-          <h3 key={i} id={ancla} style={{
-            fontFamily: MONO, fontSize: fontSize - 1, letterSpacing: 1.5, fontWeight: 700,
-            color: C.red, borderBottom: `2px solid ${C.red}`, paddingBottom: 5,
-            margin: "30px 0 10px",
-          }}>{tk.texto}</h3>
-        );
-
-      case "cabMayor":
-        return (
-          <h2 key={i} id={ancla} style={{
-            fontFamily: MONO, fontSize: fontSize, letterSpacing: 1, fontWeight: 800,
-            color: C.ink, background: C.paper, padding: "8px 12px",
-            margin: "30px 0 12px", borderRadius: 3,
-          }}>{tk.texto}</h2>
-        );
-
-      case "articulo":
-        return (
-          <h3 key={i} id={ancla} style={{
-            fontFamily: SANS, fontSize: fontSize + 1, fontWeight: 700,
-            color: C.ink, borderLeft: `4px solid ${C.red}`,
-            paddingLeft: 10, margin: "24px 0 8px",
-          }}>{tk.texto}</h3>
-        );
-
-      case "disposicion":
-        return (
-          <h3 key={i} id={ancla} style={{
-            fontFamily: SANS, fontSize: fontSize, fontWeight: 700,
-            color: C.slate, margin: "22px 0 8px",
-          }}>{tk.texto}</h3>
-        );
-
-      case "encabSeccion":
-        return (
-          <h3 key={i} id={ancla} style={{
-            fontFamily: SANS, fontSize: fontSize, fontWeight: 600,
-            color: C.ink2, margin: "20px 0 8px", fontStyle: "italic",
-          }}>{tk.texto}</h3>
-        );
-
-      case "tituloTema":
-        return (
-          <p key={i} style={{
-            fontFamily: SANS, fontSize: fontSize - 1, color: C.ink2,
-            fontStyle: "italic", margin: "0 0 16px", lineHeight: 1.5,
-          }}>{tk.texto}</p>
-        );
-
-      case "vacia":
-        return <div key={i} style={{ height: 8 }} />;
-
-      default: // parrafo + plain
-        return (
-          <p key={i} style={{
-            fontFamily: SANS, fontSize: fontSize, lineHeight: 1.85,
-            color: C.ink, margin: "0 0 2px", whiteSpace: "pre-wrap",
-          }}>{tk.texto}</p>
-        );
-    }
-  });
-  return entries;
+// Offset de carácter de un nodo de texto dentro de un contenedor DOM
+function getCharOffset(container, node, offsetInNode) {
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  let count = 0;
+  let cur;
+  while ((cur = walker.nextNode())) {
+    if (cur === node) return count + offsetInNode;
+    count += cur.nodeValue.length;
+  }
+  return count + offsetInNode;
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
@@ -287,11 +225,11 @@ const LISTA_TEMAS = [
    ═══════════════════════════════════════════════════════════════════════ */
 function VistaLectura() {
   const [busqueda, setBusqueda] = useState("");
-  const [seleccionado, setSeleccionado] = useState(null); // { codigo, titulo }
-  const [contenido, setContenido] = useState(null);       // texto cargado
+  const [seleccionado, setSeleccionado] = useState(null);
+  const [contenido, setContenido] = useState(null);
   const [cargando, setCargando] = useState(false);
   const [error, setError] = useState(null);
-  const [disponibles, setDisponibles] = useState(null);   // Set de codigos con txt
+  const [disponibles, setDisponibles] = useState(null);
   const [fontSize, setFontSize] = useState(() => {
     try { return parseInt(localStorage.getItem("lect-fs") || "15", 10); } catch { return 15; }
   });
@@ -300,9 +238,13 @@ function VistaLectura() {
   });
   const [sidebarAbierto, setSidebarAbierto] = useState(false);
   const [tocAbierto, setTocAbierto] = useState(false);
+  const [subrayados, setSubrayados] = useState([]);
+  const [popup, setPopup] = useState(null); // { inicio, fin, x, y }
   const contenedorRef = useRef(null);
+  const bodyRef = useRef(null);
+  const popupRef = useRef(null);
 
-  // Carga la lista de códigos disponibles al montar
+  // Lista de códigos disponibles
   useEffect(() => {
     if (!supabase) return;
     supabase.from("temas").select("codigo").then(({ data }) => {
@@ -310,49 +252,60 @@ function VistaLectura() {
     });
   }, []);
 
-  // Paleta según modo
-  const bg    = darkMode ? "#18181B" : C.paper;
+  // Cierra popup al hacer clic fuera
+  useEffect(() => {
+    if (!popup) return;
+    const close = (e) => {
+      if (popupRef.current && !popupRef.current.contains(e.target)) setPopup(null);
+    };
+    document.addEventListener("mousedown", close);
+    return () => document.removeEventListener("mousedown", close);
+  }, [popup]);
+
+  const bg     = darkMode ? "#18181B" : C.paper;
   const bgCard = darkMode ? "#27272A" : C.card;
   const tinta  = darkMode ? "#E4E4E7" : C.ink;
   const tinta2 = darkMode ? "#A1A1AA" : C.ink2;
   const borde  = darkMode ? "#3F3F46" : C.hair;
 
-  const persistFs = (v) => { setFontSize(v); try { localStorage.setItem("lect-fs", String(v)); } catch {} };
+  const persistFs   = (v) => { setFontSize(v); try { localStorage.setItem("lect-fs", String(v)); } catch {} };
   const persistDark = (v) => { setDarkMode(v); try { localStorage.setItem("lect-dark", v ? "1" : "0"); } catch {} };
 
-  // Filtro del sidebar
   const temasFiltrados = useMemo(() => {
     const q = busqueda.toLowerCase();
     if (!q) return LISTA_TEMAS;
-    return LISTA_TEMAS.filter(
-      (t) => t.codigo.toLowerCase().includes(q) || t.titulo.toLowerCase().includes(q)
-    );
+    return LISTA_TEMAS.filter((t) => t.codigo.toLowerCase().includes(q) || t.titulo.toLowerCase().includes(q));
   }, [busqueda]);
 
-  // Carga desde Supabase
   const cargarTema = useCallback(async (tema) => {
     setSeleccionado(tema);
     setContenido(null);
     setError(null);
     setCargando(true);
     setSidebarAbierto(false);
+    setSubrayados([]);
+    setPopup(null);
     if (contenedorRef.current) contenedorRef.current.scrollTop = 0;
     if (!supabase) {
-      setError("Supabase no está configurado (faltan VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY). Ejecuta primero el script de carga.");
+      setError("Supabase no está configurado (faltan VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY).");
       setCargando(false);
       return;
     }
     try {
       const { data, error: err } = await supabase
-        .from("temas")
-        .select("contenido")
-        .eq("codigo", tema.codigo)
-        .maybeSingle();
+        .from("temas").select("contenido").eq("codigo", tema.codigo).maybeSingle();
       if (err) throw err;
       if (!data) {
-        setError(`El tema ${tema.codigo} no tiene texto disponible todavía (puede que solo exista en PDF o esté pendiente de cargar).`);
+        setError(`El tema ${tema.codigo} no tiene texto disponible todavía.`);
       } else {
         setContenido(data.contenido);
+        const codigo = getCodigo();
+        if (codigo) {
+          const { data: subs } = await supabase
+            .from("subrayados").select("id, inicio, fin, color")
+            .eq("codigo", codigo).eq("tema_codigo", tema.codigo);
+          setSubrayados(subs || []);
+        }
       }
     } catch (e) {
       setError(`Error de red: ${e.message}`);
@@ -360,22 +313,61 @@ function VistaLectura() {
     setCargando(false);
   }, []);
 
-  // Parse + TOC (memo para no re-parsear en cada render)
-  const { tokens, toc, formato } = useMemo(() => {
-    if (!contenido) return { tokens: [], toc: [], formato: null };
+  // TOC (solo para el índice navegable — el cuerpo se renderiza como texto plano)
+  const { toc, formato } = useMemo(() => {
+    if (!contenido) return { toc: [], formato: null };
     const fmt = detectarFormato(contenido);
-    if (fmt === "plain") {
-      // Texto plano: no tokenizar, renderizar como bloque pre-wrap
-      return { tokens: null, toc: [], formato: "plain" };
-    }
+    if (fmt === "plain") return { toc: [], formato: "plain" };
     const tks = contenido.split("\n").map((l) => tipificarLinea(l, fmt));
-    return { tokens: tks, toc: construirTOC(tks), formato: fmt };
+    return { toc: construirTOC(tks), formato: fmt };
   }, [contenido]);
 
-  // ── Render ──────────────────────────────────────────────────────────
+  // Segmentos de texto con/sin subrayado
+  const segments = useMemo(() => splitByMarks(contenido || "", subrayados), [contenido, subrayados]);
+
+  // Captura de selección de texto
+  const handleSeleccion = useCallback(() => {
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || !bodyRef.current) return;
+    const range = sel.getRangeAt(0);
+    if (!bodyRef.current.contains(range.commonAncestorContainer)) return;
+    const inicio = getCharOffset(bodyRef.current, range.startContainer, range.startOffset);
+    const fin    = getCharOffset(bodyRef.current, range.endContainer,   range.endOffset);
+    if (fin <= inicio) return;
+    const rects = range.getClientRects();
+    if (!rects.length) return;
+    const last = rects[rects.length - 1];
+    setPopup({ inicio, fin, x: last.left + last.width / 2, y: last.bottom + 8 });
+  }, []);
+
+  const guardarSubrayado = useCallback(async (color) => {
+    if (!popup || !seleccionado) return;
+    const codigo = getCodigo();
+    const mark = { inicio: popup.inicio, fin: popup.fin, color, tema_codigo: seleccionado.codigo };
+    setPopup(null);
+    window.getSelection()?.removeAllRanges();
+    if (supabase && codigo) {
+      const { data, error: err } = await supabase
+        .from("subrayados").insert({ ...mark, codigo })
+        .select("id, inicio, fin, color").single();
+      if (!err && data) setSubrayados((prev) => [...prev, data]);
+    } else {
+      setSubrayados((prev) => [...prev, { id: Date.now(), ...mark }]);
+    }
+  }, [popup, seleccionado]);
+
+  const borrarSubrayado = useCallback(async (e, id) => {
+    e.stopPropagation();
+    setSubrayados((prev) => prev.filter((m) => m.id !== id));
+    const codigo = getCodigo();
+    if (supabase && codigo) {
+      await supabase.from("subrayados").delete().eq("id", id).eq("codigo", codigo);
+    }
+  }, []);
+
   const esMovil = typeof window !== "undefined" && window.innerWidth < 700;
 
-  const Sidebar = () => (
+  const SidebarEl = () => (
     <div style={{
       width: 280, flexShrink: 0, borderRight: `1px solid ${borde}`,
       background: bgCard, display: "flex", flexDirection: "column",
@@ -398,25 +390,21 @@ function VistaLectura() {
       </div>
       <div style={{ flex: 1, overflowY: "auto", padding: "4px 0" }}>
         {temasFiltrados.map((t) => {
-          const activo = seleccionado?.codigo === t.codigo;
+          const activo   = seleccionado?.codigo === t.codigo;
           const hayTexto = disponibles == null || disponibles.has(t.codigo);
           return (
-            <button
-              key={t.codigo}
-              onClick={() => cargarTema(t)}
+            <button key={t.codigo} onClick={() => cargarTema(t)}
               title={!hayTexto ? "Solo disponible en PDF" : undefined}
               style={{
                 display: "block", width: "100%", textAlign: "left",
                 padding: "9px 14px", border: "none", cursor: "pointer",
                 background: activo ? C.red : "transparent",
                 color: activo ? "#fff" : hayTexto ? tinta : tinta2,
-                borderLeft: activo ? `3px solid #7B0F1E` : "3px solid transparent",
+                borderLeft: activo ? "3px solid #7B0F1E" : "3px solid transparent",
                 opacity: hayTexto ? 1 : 0.45,
               }}
             >
-              <span style={{ fontFamily: MONO, fontSize: 10.5, fontWeight: 700, marginRight: 6, opacity: 0.75 }}>
-                {t.codigo}
-              </span>
+              <span style={{ fontFamily: MONO, fontSize: 10.5, fontWeight: 700, marginRight: 6, opacity: 0.75 }}>{t.codigo}</span>
               <span style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.4 }}>{t.titulo}</span>
               {!hayTexto && <span style={{ fontFamily: MONO, fontSize: 9, marginLeft: 6, opacity: 0.6 }}>PDF</span>}
             </button>
@@ -431,14 +419,12 @@ function VistaLectura() {
 
   return (
     <div style={{ margin: "0 -18px", background: bg, minHeight: "80vh" }}>
-      {/* ── Barra de controles ── */}
+      {/* ── Controles ── */}
       <div style={{
         display: "flex", alignItems: "center", gap: 8, padding: "8px 14px",
         borderBottom: `1px solid ${borde}`, background: bgCard, flexWrap: "wrap",
       }}>
-        {/* Botón sidebar en móvil */}
-        <button
-          onClick={() => setSidebarAbierto((v) => !v)}
+        <button onClick={() => setSidebarAbierto((v) => !v)}
           style={{ ...ctaGhost, padding: "6px 12px", fontSize: 12, display: esMovil ? "inline-flex" : "none" }}
         >☰ Temas</button>
 
@@ -448,15 +434,18 @@ function VistaLectura() {
           </span>
         )}
         {seleccionado && toc.length > 0 && (
-          <button
-            onClick={() => setTocAbierto((v) => !v)}
+          <button onClick={() => setTocAbierto((v) => !v)}
             style={{ ...ctaGhost, padding: "5px 10px", fontSize: 11 }}
           >Índice</button>
+        )}
+        {subrayados.length > 0 && (
+          <span style={{ fontFamily: MONO, fontSize: 10, color: C.amber, background: "#FEF3C7", padding: "3px 8px", borderRadius: 12 }}>
+            {subrayados.length} subrayado{subrayados.length !== 1 ? "s" : ""}
+          </span>
         )}
 
         <div style={{ flex: 1 }} />
 
-        {/* Tamaño de letra */}
         <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
           <span style={{ fontFamily: MONO, fontSize: 10, color: tinta2 }}>A</span>
           {[13, 15, 17].map((sz) => (
@@ -468,15 +457,12 @@ function VistaLectura() {
             }}>A</button>
           ))}
         </div>
-
-        {/* Modo claro/oscuro */}
-        <button
-          onClick={() => persistDark(!darkMode)}
+        <button onClick={() => persistDark(!darkMode)}
           style={{ ...ctaGhost, padding: "5px 10px", fontSize: 11 }}
         >{darkMode ? "☀ Claro" : "☾ Oscuro"}</button>
       </div>
 
-      {/* ── Dropdown índice de artículos ── */}
+      {/* ── TOC dropdown ── */}
       {tocAbierto && toc.length > 0 && (
         <div style={{
           background: bgCard, borderBottom: `1px solid ${borde}`,
@@ -487,13 +473,16 @@ function VistaLectura() {
           </div>
           <div style={{ columns: "2 200px", gap: 8 }}>
             {toc.map((item, i) => (
-              <a
-                key={i}
-                href={`#${item.ancla}`}
+              <a key={i} href="#"
                 onClick={(e) => {
                   e.preventDefault();
                   setTocAbierto(false);
-                  document.getElementById(item.ancla)?.scrollIntoView({ behavior: "smooth", block: "start" });
+                  const container = contenedorRef.current;
+                  if (!container || !contenido) return;
+                  const charPos = contenido.indexOf(item.texto.slice(0, 40));
+                  if (charPos < 0) return;
+                  const fraction = charPos / contenido.length;
+                  container.scrollTop = fraction * (container.scrollHeight - container.clientHeight);
                 }}
                 style={{
                   display: "block", fontFamily: SANS, fontSize: 12, color: tinta,
@@ -511,9 +500,8 @@ function VistaLectura() {
         </div>
       )}
 
-      {/* ── Layout principal: sidebar + contenido ── */}
+      {/* ── Layout ── */}
       <div style={{ display: "flex", height: "calc(100vh - 180px)", overflow: "hidden" }}>
-        {/* Sidebar escritorio siempre visible / móvil overlay */}
         <div style={{
           display: (!esMovil || sidebarAbierto) ? "flex" : "none",
           flexDirection: "column",
@@ -523,7 +511,7 @@ function VistaLectura() {
           boxShadow: esMovil ? "4px 0 12px rgba(0,0,0,0.15)" : "none",
           width: 280, flexShrink: 0,
         }}>
-          <Sidebar />
+          <SidebarEl />
         </div>
 
         {/* Panel de lectura */}
@@ -532,7 +520,7 @@ function VistaLectura() {
             <div style={{ textAlign: "center", padding: "60px 24px", color: tinta2 }}>
               <div style={{ fontFamily: MONO, fontSize: 14, marginBottom: 10 }}>← Selecciona un tema</div>
               <div style={{ fontFamily: SANS, fontSize: 13 }}>
-                {supabase ? "Los temas se cargan desde Supabase." : "⚠ Supabase no configurado. Añade VITE_SUPABASE_URL y VITE_SUPABASE_ANON_KEY."}
+                {supabase ? "Los temas se cargan desde Supabase." : "⚠ Supabase no configurado."}
               </div>
             </div>
           )}
@@ -554,31 +542,78 @@ function VistaLectura() {
 
           {contenido && !cargando && (
             <div style={{ maxWidth: "70ch", margin: "0 auto", padding: "0 24px 48px" }}>
-              {/* Título del tema */}
-              {seleccionado && (
-                <div style={{ marginBottom: 24 }}>
-                  <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1.5, color: C.red, marginBottom: 4 }}>
-                    {seleccionado.codigo} · {formato === "A" ? "FORMATO ESTRUCTURADO" : formato === "B" ? "ARTICULADO LEGAL" : "TEXTO PLANO"}
-                  </div>
-                  <h1 style={{ fontFamily: SANS, fontSize: fontSize + 4, fontWeight: 800, color: tinta, margin: 0, lineHeight: 1.25 }}>
-                    {seleccionado.titulo}
-                  </h1>
+              <div style={{ marginBottom: 24 }}>
+                <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1.5, color: C.red, marginBottom: 4 }}>
+                  {seleccionado.codigo} · {formato === "A" ? "FORMATO ESTRUCTURADO" : formato === "B" ? "ARTICULADO LEGAL" : "TEXTO PLANO"}
+                  {!getCodigo() && (
+                    <span style={{ marginLeft: 10, color: C.amber }}>
+                      · Sin código de sincronización — los subrayados no se guardarán
+                    </span>
+                  )}
                 </div>
-              )}
+                <h1 style={{ fontFamily: SANS, fontSize: fontSize + 4, fontWeight: 800, color: tinta, margin: 0, lineHeight: 1.25 }}>
+                  {seleccionado.titulo}
+                </h1>
+              </div>
 
-              {/* Contenido parseado */}
-              {formato === "plain" ? (
-                <pre style={{
-                  fontFamily: SANS, fontSize: fontSize, lineHeight: 1.85, color: tinta,
-                  whiteSpace: "pre-wrap", wordBreak: "break-word", margin: 0,
-                }}>{contenido}</pre>
-              ) : (
-                renderTokens(tokens, fontSize)
-              )}
+              {/* Cuerpo: texto plano con subrayados como <mark> */}
+              <div
+                ref={bodyRef}
+                onMouseUp={handleSeleccion}
+                onTouchEnd={() => setTimeout(handleSeleccion, 200)}
+                style={{
+                  fontFamily: SANS, fontSize, lineHeight: 1.85, color: tinta,
+                  whiteSpace: "pre-wrap", wordBreak: "break-word", userSelect: "text", cursor: "text",
+                }}
+              >
+                {segments.map((seg, i) =>
+                  seg.markId ? (
+                    <mark
+                      key={i}
+                      onClick={(e) => borrarSubrayado(e, seg.markId)}
+                      title="Clic para borrar subrayado"
+                      style={{
+                        background: COLORES_SUB[seg.color] || COLORES_SUB.amarillo,
+                        color: tinta, cursor: "pointer", borderRadius: 2,
+                      }}
+                    >{seg.text}</mark>
+                  ) : (
+                    <span key={i}>{seg.text}</span>
+                  )
+                )}
+              </div>
             </div>
           )}
         </div>
       </div>
+
+      {/* ── Popup selector de color ── */}
+      {popup && (
+        <div ref={popupRef} style={{
+          position: "fixed", left: popup.x, top: popup.y,
+          transform: "translateX(-50%)", zIndex: 200,
+          background: "#fff", border: `1px solid ${C.hair}`,
+          borderRadius: 10, boxShadow: "0 4px 20px rgba(0,0,0,0.18)",
+          padding: "8px 12px", display: "flex", gap: 10, alignItems: "center",
+        }}>
+          {Object.entries(COLORES_SUB).map(([nombre, hex]) => (
+            <button key={nombre} onClick={() => guardarSubrayado(nombre)}
+              title={nombre.charAt(0).toUpperCase() + nombre.slice(1)}
+              style={{
+                width: 28, height: 28, borderRadius: "50%",
+                background: hex, border: "2px solid rgba(0,0,0,0.15)",
+                cursor: "pointer", flexShrink: 0,
+              }}
+            />
+          ))}
+          <button onClick={() => { setPopup(null); window.getSelection()?.removeAllRanges(); }}
+            style={{
+              fontFamily: MONO, fontSize: 14, color: C.ink2,
+              background: "none", border: "none", cursor: "pointer", padding: "0 2px", lineHeight: 1,
+            }}
+          >✕</button>
+        </div>
+      )}
     </div>
   );
 }
