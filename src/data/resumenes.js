@@ -1595,4 +1595,230 @@ export const RESUMENES = {
       "DB-HS comprende 6 secciones (HS1-HS6): la 6ª (radón) incorporada por RD 732/2019",
     ],
   },
+
+  "E11": {
+    intro: "El CTE DB-SE-AE (Acciones en la Edificación) cuantifica las acciones gravitatorias, climáticas y accidentales sobre los edificios para la verificación de la seguridad estructural. Clasifica las acciones en permanentes (peso propio, pretensado, terreno) y variables (uso, viento, nieve, térmicas, accidentales).",
+    bloques: [
+      { h: "Sobrecargas de uso (Tabla 3.1)", items: [
+        "A1 viviendas: 2 kN/m² uniforme + 2 kN conc.; B oficinas/admin: 2 kN/m²",
+        "C3 vestíbulos públicos y salas exposición: 5 kN/m² + 4 kN conc.",
+        "C5 aglomeraciones (estadios, discotecas): 5 kN/m² + 4 kN conc.; barandillas: 3,0 kN/m",
+        "D1-D2 locales comerciales e hipermercados: 5 kN/m² (D2: conc. 7 kN)",
+        "E vehículos ligeros (aparcamiento): 2 kN/m² + 20 kN conc. (0,2×0,2 m)",
+        "Tabiquería ordinaria ≤1,2 kN/m²: carga uniforme equivalente; en viviendas: 1,0 kN/m²",
+        "Barandillas: C5=3,0 kN/m · C3/C4/E/F=1,6 kN/m · resto=0,8 kN/m",
+        "Reducción sobrecargas: ≥5 plantas mismo uso → coef. 0,8; área tributaria ≥100 m² → coef. 0,7",
+      ]},
+      { h: "Viento", items: [
+        "Presión estática: qe = qb · ce · cp",
+        "qb simplificado: 0,5 kN/m² en cualquier punto de España",
+        "ce en zona urbana hasta 8 plantas: 2,0 (constante, independiente de la altura)",
+        "Coeficientes de rozamiento superficial: acero/aluminio=0,01 · rugoso=0,02 · muy rugoso=0,04",
+      ]},
+      { h: "Temperatura", items: [
+        "No considerar acciones térmicas si existen juntas de dilatación ≤40 m en hormigón/acero",
+        "Interior protegido (con climatización): temperatura constante de 20°C todo el año",
+      ]},
+      { h: "Nieve", items: [
+        "Valor mínimo en cubiertas planas de pisos con altitud <1.000 m: 1,0 kN/m²",
+        "Pamplona/Iruña (450 m): sk = 0,7 kN/m² (zona climática 5)",
+        "qn = µ · sk; µ: α≤30° → 1; entre 30° y 60° → interpolación lineal; α≥60° → 0",
+        "Limahoyas (semisuma inclinaciones >30°): µ = 2,0",
+        "Peso nieve prensada: 2 kN/m³; recién caída: 1,2 kN/m³",
+      ]},
+      { h: "Acciones accidentales", items: [
+        "Sismo: remisión a la NSCE (Norma de Construcción Sismorresistente)",
+        "Impacto vehículos ≤30 kN: 50 kN paralelo + 25 kN perp. a la vía; altura 0,6 m sobre rodadura; sup. 0,25×1,5 m",
+      ]},
+    ],
+    claves: [
+      "qe = qb · ce · cp; qb simplificado = 0,5 kN/m²; ce urbano ≤8 plantas = 2,0",
+      "Viviendas A1: 2 kN/m²; C5 aglomeraciones y C3 vestíbulos: 5 kN/m²",
+      "Aparcamiento E: 2 kN/m² + 20 kN conc.",
+      "Tabiquería viviendas: 1,0 kN/m²; ordinaria ≤1,2 kN/m²: carga uniforme equiv.",
+      "Nieve mín. cubiertas planas <1.000 m alt.: 1,0 kN/m²; Pamplona sk=0,7",
+      "Acciones térmicas: no necesarias si juntas dilatación ≤40 m",
+      "Impacto vehículos: 50 kN paralelo + 25 kN perp.; altura 0,6 m",
+      "Barandillas C5: 3 kN/m; C3-C4-E-F: 1,6 kN/m; resto: 0,8 kN/m",
+    ],
+  },
+
+  "E12": {
+    intro: "El CTE DB-SE-C regula el reconocimiento del terreno (estudio geotécnico), la selección del tipo de cimentación y los criterios de dimensionado para cimentaciones directas y profundas, incluyendo pilotes y micropilotes.",
+    bloques: [
+      { h: "Clasificación de construcciones (C-0 a C-4)", items: [
+        "C-0: <4 plantas y <300 m² · C-1: otras de <4 plantas",
+        "C-2: 4-10 plantas · C-3: 11-20 plantas · C-4: singulares o >20 plantas",
+        "La clasificación determina las exigencias mínimas del reconocimiento geotécnico",
+      ]},
+      { h: "Grupos de terreno (T-1 a T-3)", items: [
+        "T-1 favorables: poca variabilidad, práctica habitual cimentación directa aislada",
+        "T-2 intermedios: variabilidad moderada o singularidades locales",
+        "T-3 desfavorables: expansivos, colapsables, blandos, kársticos, rellenos >3 m, desnivel >15°, marismas, susceptibles deslizamientos, volcánicos, residuales",
+      ]},
+      { h: "Reconocimiento del terreno", items: [
+        "Mínimo 3 puntos de reconocimiento con carácter general",
+        "Técnicas: calicatas, sondeos mecánicos, ensayos de penetración, ensayos geofísicos",
+        "Categorías de muestras: A (inalteradas, para resistencia/deformabilidad) · B (alteradas, clasificación) · C (no cumple B)",
+      ]},
+      { h: "Cimentaciones directas", items: [
+        "Tipos: zapata aislada, combinada, corrida, pozo, emparrillado, losa",
+        "Zapata rígida: v ≤ 2h · flexible: v > 2h",
+        "Solera de asiento (hormigón de limpieza): espesor mínimo 10 cm",
+        "Profundidad habitual: 0,5–0,8 m bajo rasante exterior",
+        "Cimentación compensada: peso tierras excavadas ≈ peso edificio → presión neta mínima",
+      ]},
+      { h: "Cimentaciones profundas (pilotes)", items: [
+        "Definición: extremo inferior a profundidad > 8 × diámetro o anchura mínima",
+        "Pilotes por fuste ('flotantes'): carga transmitida principalmente por rozamiento lateral",
+        "Pilotes por punta ('columna'): apoyo en estrato competente en la punta",
+        "Reconocimiento geotécnico para pilotes columna: profundizar ≥5D bajo la punta teórica",
+        "Control nivelación obligatorio en C-3 y C-4: ≥10% pilares (mín. 4 ref.) · precisión 0,1 mm · distancia ≤20 m en muros",
+      ]},
+    ],
+    claves: [
+      "C-0 (<4 pl. <300 m²) · C-3 (11-20 pl.) · C-4 (>20 pl. o singulares)",
+      "T-3: expansivos, colapsables, blandos, kársticos, rellenos>3 m, desnivel>15°, marismas",
+      "Mín. 3 puntos reconocimiento; muestras categoría A para resistencia/deformabilidad",
+      "Zapata rígida: v ≤ 2h · solera asiento: mín. 10 cm",
+      "Cimentación profunda: extremo inferior >8×diámetro",
+      "Pilotes flotantes=por fuste; columna=por punta; reconocimiento ≥5D bajo punta",
+      "Nivelación obligatoria C-3 y C-4: ≥10% pilares · precisión 0,1 mm",
+    ],
+  },
+
+  "E13": {
+    intro: "La Ley Foral 10/2010 del derecho a la vivienda en Navarra garantiza el acceso a una vivienda digna regulando el régimen de vivienda de protección oficial (VPO) y de precio tasado (VPT): características, acceso, baremo, adjudicación y régimen jurídico.",
+    bloques: [
+      { h: "Tipos de vivienda protegida (art. 7)", items: [
+        "VPO: precio ≤ 1,30 × módulo ponderado · sup. ≤ 90 m² (120 m² fam. numerosas)",
+        "VPT: precio ≤ 1,50 × módulo ponderado · sup. ≤ 120 m² (140 m² fam. numerosas)",
+        "Arrendamiento VPO: duración mínima 21 años; tras ese plazo puede venderse a precio VPT 1ª transmisión",
+      ]},
+      { h: "Destino y ocupación (art. 8)", items: [
+        "Destino exclusivo: domicilio habitual y permanente del titular",
+        "Plazo máximo para ocupar: 6 meses desde calificación definitiva",
+        "Habitualidad: ocupación ≥ 9 meses/año (salvo autorización de desocupación temporal)",
+      ]},
+      { h: "Rentas máximas (art. 10)", items: [
+        "Renta VPO: 5,40 €/m²/mes (municipios ≤10.000 hab: 5,10 €/m²)",
+        "Garaje VPO: 60 €/mes · Trastero VPO: 2 €/m²/mes",
+        "Arrendamiento asequible: 8,25 €/m² · Garaje: 72,47 € · Trastero: 2,41 €/m²",
+      ]},
+      { h: "Requisitos de acceso (art. 17-18)", items: [
+        "7 requisitos: necesidad vivienda · residencia habitual · inscrito en Censo · capacidad económica · no titular vivienda adecuada · no transmitido en 5 años (salvo ingresos <100.000 €) · capacidad legal y empadronado en Navarra",
+        "VPO propiedad: ingresos entre 19.000 € y 4,5 × SARA",
+        "VPT propiedad: ingresos entre 24.000 € y 6,5 × SARA",
+      ]},
+      { h: "Reservas y baremo (art. 26-28)", items: [
+        "Reservas propiedad: 6% discapacidad (mín. 4% motriz grave) · 3% fam. numerosas · 3% terrorismo · 3% violencia de género",
+        "Baremo: 7 ptos/miembro familia (máx. 55) · 10 ptos vivienda inadecuada · 10 ptos Bolsa Alquiler · 5 ptos alquiler privado · 3 ptos/año cuenta ahorro (máx. 15) · 4/8 ptos empadronado >4/>8 años · 7 ptos fam. monoparental",
+        "Adjudicación propiedad: 4 procedimientos al año (1 marzo · 1 junio · 1 septiembre · 1 diciembre)",
+      ]},
+      { h: "Régimen jurídico (art. 43-49)", items: [
+        "Régimen de protección: indefinido, sin descalificación anticipada (art. 43)",
+        "Prohibición disposición gratuita: primeros 5 años desde calificación definitiva",
+        "Derecho de tanteo: 60 días desde comunicación de la transmisión",
+        "Derecho de retracto: 2 meses desde entrega de copia del contrato",
+      ]},
+    ],
+    claves: [
+      "VPO: ≤1,30×módulo ponderado · ≤90 m² · ingresos 19.000€–4,5×SARA",
+      "VPT: ≤1,50×módulo ponderado · ≤120 m² · ingresos 24.000€–6,5×SARA",
+      "Arrendamiento VPO: renta 5,40€/m² · garaje 60€ · trastero 2€/m²",
+      "Ocupación en 6 meses desde calificación definitiva · habitualidad ≥9 meses/año",
+      "Protección indefinida · sin descalificación · prohibición gratuita 5 años",
+      "Tanteo: 60 días · retracto: 2 meses",
+      "Baremo: 7 ptos/miembro (máx.55) · 10 ptos vivienda inadecuada · periodicidad trimestral",
+    ],
+  },
+
+  "E14": {
+    intro: "El Título V bis de la Ley Foral 10/2010 (incorporado por LF 8/2013) regula las viviendas deshabitadas en poder de personas jurídicas. El Título VII crea el Registro General de Viviendas de Navarra como instrumento de conocimiento del parque residencial.",
+    bloques: [
+      { h: "Concepto de vivienda deshabitada (art. 42 bis)", items: [
+        "Definición: vivienda no destinada a uso residencial durante >6 meses consecutivos en un año",
+        "Solo sujetas a sanción: personas jurídicas (en condominio, si titularidad mayoritaria es jurídica)",
+        "Excluidas: vivienda habitual · segunda residencia (máx. 1 por persona/unidad familiar) · turísticas con licencia · arrendadas temporada ≥30 días/año · fuera de Navarra · fuera de ordenación sin cédula",
+      ]},
+      { h: "Indicios de desocupación (art. 42 ter)", items: [
+        "Agua: consumo <0,21 m³/mes o <2,47 m³/año",
+        "Electricidad: consumo <24 kWh/mes o <291 kWh/año",
+        "Otros indicios: padrón, correspondencia en otra dirección, declaraciones de vecinos",
+      ]},
+      { h: "Procedimiento (art. 42 quinquies)", items: [
+        "Competencia: departamento de vivienda del Gobierno de Navarra (delegable en entidades locales)",
+        "Trámite de audiencia: 10 días para alegaciones del titular",
+        "Medidas de fomento que suspenden el procedimiento: habitar en 3 meses · calificar rehabilitación en 3 meses · ceder a Bolsa de Alquiler en 6 meses",
+        "Plazo máximo resolución: 1 año desde incoación; caducidad si no se resuelve",
+      ]},
+      { h: "Registro de Viviendas Deshabitadas (art. 42 sexies)", items: [
+        "Cancelación de la inscripción: acreditar habitación efectiva ≥6 meses ininterrumpidos",
+        "Plan bienal de control e inspección de viviendas deshabitadas",
+        "Comunicación al Ayuntamiento para incorporar al censo municipal",
+      ]},
+      { h: "Registro General de Viviendas de Navarra (art. 75-78)", items: [
+        "Naturaleza: titularidad pública, carácter administrativo, adscrito al departamento de vivienda",
+        "Contenido mínimo (art. 78): dirección · titular Registro Propiedad · cédula habitabilidad · tipo protección · IEE · cert. eficiencia energética · ayudas · datos arrendamiento · indicios desocupación",
+        "Datos de acceso público: dirección · cédula habitabilidad · tipo protección · IEE · cert. energético · ayudas · origen si desahucio bancario",
+      ]},
+    ],
+    claves: [
+      "Deshabitada = sin uso residencial >6 meses consecutivos en un año",
+      "Solo personas jurídicas sujetas a sanción",
+      "Indicios: agua <0,21 m³/mes · electricidad <24 kWh/mes (291 kWh/año)",
+      "Procedimiento: audiencia 10 días · plazo máx. 1 año (caducidad)",
+      "Medidas fomento: habitar 3 meses · rehabilitar 3 meses · Bolsa Alquiler 6 meses",
+      "Cancelación deshabitada: ≥6 meses habitación efectiva ininterrumpida",
+      "Registro Gral. Viviendas: administrativo · público · adscrito a departamento vivienda",
+    ],
+  },
+
+  "E15": {
+    intro: "El Decreto Foral 61/2013 desarrolla los Títulos II y IV de la Ley Foral 10/2010, regulando el procedimiento de calificación de las viviendas protegidas, sus características constructivas y las ayudas económicas (subvenciones y préstamos) para adquirentes, arrendatarios y promotores.",
+    bloques: [
+      { h: "Características constructivas (art. 10-13)", items: [
+        "VPO: ≤90 m² (120 m² fam. numerosas) · VPT: ≤120 m² (140 m² fam. numerosas)",
+        "Dormitorios: 1 dorm→≤60 m² · 2 dorm→≤80 m² (≤85 m² discapacidad motriz) · fam. numerosas→≥4 dorm",
+        "Terrazas/balcones: ≤10% de la superficie útil interior",
+        "Garaje vinculado: mín. 10,81 m² · máx. 14 m² (salvo discapacidad motriz)",
+        "Trastero: mín. 2 m² · máx. 15 m² · altura libre ≥1,5 m",
+        "Estándar energético: desde 2017 mín. B · desde 2018 mín. A · desde 2019 consumo casi nulo",
+      ]},
+      { h: "Precios máximos (art. 15-17)", items: [
+        "VPO 1ª transmisión: 1,30 × módulo ponderado · 2ª+ transmisión: 1,30 × módulo sin ponderar (gral.) o 1,20 (especial)",
+        "VPT 1ª transmisión: 1,50 × módulo ponderado · 2ª+ transmisión: 1,50 × módulo sin ponderar",
+        "Trasteros VPO: 0,52 × módulo · Trasteros VPT: 0,60 × módulo",
+        "Renta anual máx. VPO arrendamiento: 4,5% del precio máx. venta en 2ª transmisión",
+      ]},
+      { h: "Procedimiento de calificación (art. 20-25)", items: [
+        "Calificación provisional: el promotor tiene 36 meses + prórroga máx. 18 meses para solicitar la definitiva",
+        "Cantidades a cuenta: solo tras calificación provisional + autorización adm. + cuenta bancaria especial + seguro/aval",
+        "Calificación definitiva = cédula de habitabilidad clase A durante 30 años",
+        "Entrega llaves: plazo máximo 3 meses desde calificación definitiva",
+      ]},
+      { h: "Subvenciones a adquirentes (art. 27)", items: [
+        "≤ 2 × IPREM: VPO 12% · VPT 6%",
+        "2–2,5 × IPREM: VPO 10% · VPT 4%",
+        "2,5–3,5 × IPREM: VPO 6% · VPT 2%",
+        "Familias numerosas ≤3,5 × IPREM: +3% (cat. general) o +6% (cat. especial)",
+      ]},
+      { h: "Subvenciones a arrendatarios y préstamos (art. 28-31)", items: [
+        "VPO arrendamiento: 1,4–1,7 × IPREM → 25% · 1–1,4 × IPREM → 50% · <IPREM → 75%",
+        "Violencia de género: 90% (1er año) · 75% (2º año)",
+        "Alquiler Joven: <35 años · vivienda ≤75 m² útiles · unidad familiar ≤4 miembros",
+        "Préstamos cualificados: máx. 80% precio venta · hasta 30 años + carencia hasta 3 años",
+      ]},
+    ],
+    claves: [
+      "VPO 1ª transm.: 1,30×módulo ponderado · VPT: 1,50×módulo ponderado",
+      "Trastero: mín. 2 m², máx. 15 m² · garaje: 10,81–14 m²",
+      "Calific. definitiva = cédula habitabilidad clase A por 30 años",
+      "Plazo calific. definitiva: 36 meses + prórroga 18 meses desde provisional",
+      "Entrega llaves: máx. 3 meses desde calificación definitiva",
+      "Renta anual VPO arrendamiento: 4,5% precio máx. venta 2ª transmisión",
+      "Subvención adquirente: ≤2×IPREM → VPO 12% · VPT 6%",
+      "Préstamo cualificado: máx. 80% · hasta 30 años + 3 años carencia",
+    ],
+  },
 };

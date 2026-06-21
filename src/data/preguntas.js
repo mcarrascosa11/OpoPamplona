@@ -2524,4 +2524,384 @@ export const PREGUNTAS = [
     q: "La exigencia básica HS 6 (Protección frente a la exposición al radón), introducida en el DB-HS por el RD 732/2019, ¿qué objetivo persigue?",
     o: ["Controlar la emisión de partículas radiactivas de los materiales de construcción", "Limitar el riesgo de exposición inadecuada a radón procedente del terreno en los recintos cerrados", "Regular el nivel de radiación solar en fachadas acristaladas de edificios singulares", "Reducir la emisión de campos electromagnéticos de las instalaciones del edificio"],
     c: 1, exp: "Artículo 13.6 del CTE (exigencia HS 6): los edificios dispondrán de medios adecuados para limitar el riesgo previsible de exposición inadecuada a radón procedente del terreno en los recintos cerrados. El radón es un gas noble radiactivo que emana del terreno y puede concentrarse en espacios cerrados con contacto con el terreno, siendo un factor de riesgo para la salud. Su nivel de presencia varía por municipios según el potencial de radón del subsuelo." },
+
+  // ── E11 · CTE DB-SE-AE ────────────────────────────────────────────────────
+  { id: "E11-01", tema: "E11",
+    q: "¿Cuál es la sobrecarga de uso uniforme para zonas de viviendas (categoría A1) según la Tabla 3.1 del DB-SE-AE?",
+    o: ["1,0 kN/m²", "2,0 kN/m²", "3,0 kN/m²", "5,0 kN/m²"],
+    c: 1, exp: "La categoría A1 (zonas residenciales: dormitorios, salones, cuartos de baño, etc.) tiene sobrecarga uniforme de 2 kN/m² y carga concentrada de 2 kN. Es el valor más bajo de la tabla, reflejo del uso controlado de las viviendas frente a espacios de uso público." },
+
+  { id: "E11-02", tema: "E11",
+    q: "Para viviendas, ¿qué valor convencional puede adoptarse para el peso propio de la tabiquería ordinaria sin justificación adicional?",
+    o: ["0,5 kN/m² de superficie construida", "1,0 kN/m² de superficie construida", "1,2 kN/m² de superficie construida", "2,0 kN/m² de superficie construida"],
+    c: 1, exp: "El DB-SE-AE establece que la tabiquería ordinaria que no supere 1,2 kN/m² puede asimilarse a una carga equivalente uniforme. En viviendas, el valor convencional a adoptar sin justificación adicional es de 1,0 kN/m² de superficie construida." },
+
+  { id: "E11-03", tema: "E11",
+    q: "¿Cuánto vale la sobrecarga de uso en vestíbulos de acceso de edificios públicos y salas de exposición en museos (categoría C3)?",
+    o: ["2 kN/m²", "3 kN/m²", "4 kN/m²", "5 kN/m²"],
+    c: 3, exp: "La categoría C3 (zonas sin obstáculos para la circulación de personas: vestíbulos de hoteles u hospitales, antesalas, salas de espera y salas de exposición) tiene sobrecarga uniforme de 5 kN/m² y carga concentrada de 4 kN (Tabla 3.1 del DB-SE-AE)." },
+
+  { id: "E11-04", tema: "E11",
+    q: "En aparcamientos para vehículos ligeros (categoría E), ¿cuál es la carga concentrada de uso?",
+    o: ["5 kN", "10 kN", "20 kN", "50 kN"],
+    c: 2, exp: "La categoría E (tráfico y aparcamiento de vehículos ligeros, peso total ≤30 kN) tiene sobrecarga uniforme de 2 kN/m² y carga concentrada de 20 kN aplicada en un área de 0,2×0,2 m (Tabla 3.1 del DB-SE-AE). La carga concentrada representa el apoyo de una rueda de vehículo." },
+
+  { id: "E11-05", tema: "E11",
+    q: "En la fórmula de la presión estática del viento qe = qb·ce·cp del DB-SE-AE, ¿qué valor simplificado puede adoptarse para qb en todo el territorio español?",
+    o: ["0,3 kN/m²", "0,4 kN/m²", "0,5 kN/m²", "0,6 kN/m²"],
+    c: 2, exp: "El DB-SE-AE permite tomar como valor simplificado qb = 0,5 kN/m² para cualquier punto del territorio español. Aunque el valor exacto depende de la zona eólica (A, B o C) según el mapa de isotacas, 0,5 kN/m² es la simplificación más habitual y del lado de la seguridad para la zona más desfavorable." },
+
+  { id: "E11-06", tema: "E11",
+    q: "Para edificios en zona urbana de hasta 8 plantas, ¿qué valor constante del coeficiente de exposición (ce) puede adoptarse con independencia de la altura?",
+    o: ["1,5", "2,0", "2,5", "3,0"],
+    c: 1, exp: "En entornos urbanos con obstáculos de altura ≥15 m (grado de aspereza IV), el coeficiente de exposición puede adoptarse como constante e igual a ce = 2,0 para edificios de hasta 8 plantas (apartado 3.3.3 del DB-SE-AE). Esto simplifica significativamente el cálculo al no requerir la interpolación en función de la altura." },
+
+  { id: "E11-07", tema: "E11",
+    q: "¿A partir de qué longitud de elemento continuo sin junta de dilatación se deben calcular las acciones térmicas en estructuras de hormigón o acero?",
+    o: ["20 m", "30 m", "40 m", "60 m"],
+    c: 2, exp: "El DB-SE-AE establece que no es necesario considerar las acciones térmicas en los elementos de hormigón y acero que dispongan de juntas de dilatación separadas no más de 40 m. Para elementos continuos que superen esa longitud sin juntas, sí deben calcularse los efectos de la variación térmica (apartado 3.4.1)." },
+
+  { id: "E11-08", tema: "E11",
+    q: "¿Cuál es la carga de nieve mínima a considerar en cubiertas planas de edificios de pisos en localidades con altitud inferior a 1.000 m?",
+    o: ["0,5 kN/m²", "0,7 kN/m²", "1,0 kN/m²", "1,5 kN/m²"],
+    c: 2, exp: "El DB-SE-AE establece que el valor mínimo de la carga de nieve en cubiertas planas de edificios de pisos, para cualquier localidad con altitud inferior a 1.000 m sobre el nivel del mar, es de 1,0 kN/m², independientemente del valor que resulte de la tabla de sobrecarga de nieve por zonas climáticas." },
+
+  { id: "E11-09", tema: "E11",
+    q: "¿Cuál es el valor característico de la sobrecarga de nieve sobre el suelo (sk) para Pamplona/Iruña según el DB-SE-AE?",
+    o: ["0,4 kN/m²", "0,5 kN/m²", "0,6 kN/m²", "0,7 kN/m²"],
+    c: 3, exp: "Pamplona/Iruña está a 450 m de altitud y le corresponde sk = 0,7 kN/m² según la Tabla 3.8 del DB-SE-AE (zona climática de invierno 5, altitud entre 400 y 500 m). Este valor se usa como base para calcular la carga de nieve sobre la cubierta mediante qn = µ·sk." },
+
+  { id: "E11-10", tema: "E11",
+    q: "¿Cuál es el coeficiente de forma de la nieve (µ) para cubiertas con inclinación entre 30° y 60°?",
+    o: ["µ = 0 en toda la franja", "Interpolación lineal entre µ=1 (a 30°) y µ=0 (a 60°)", "µ = 1 en todos los casos hasta 60°", "µ = 2"],
+    c: 1, exp: "El DB-SE-AE establece que para cubiertas con pendiente α entre 30° y 60°, el coeficiente de forma varía linealmente: µ=1 para α=30° y µ=0 para α=60°. Para α≤30°, µ=1; para α≥60°, µ=0 y no hay carga de nieve. Las limahoyas con semisuma de inclinaciones >30° tienen µ=2,0." },
+
+  { id: "E11-11", tema: "E11",
+    q: "¿Qué norma específica regula las acciones sísmicas en el proyecto de un edificio, según el DB-SE-AE?",
+    o: ["CTE DB-SE", "NSCE (Norma de Construcción Sismorresistente)", "UNE EN 1998", "EHE-08"],
+    c: 1, exp: "El DB-SE-AE remite expresamente a la NSCE (Norma de Construcción Sismorresistente Española) para todo lo relativo a las acciones sísmicas, ya que este aspecto queda fuera del ámbito del propio DB-SE-AE. La NSCE establece la aceleración sísmica de cálculo por zonas y los criterios de análisis." },
+
+  { id: "E11-12", tema: "E11",
+    q: "¿Cuáles son las fuerzas estáticas equivalentes al impacto de un vehículo de hasta 30 kN de peso total sobre un elemento vertical, según el DB-SE-AE?",
+    o: ["25 kN paralelo y 50 kN perpendicular a la vía", "50 kN paralelo y 25 kN perpendicular a la vía", "100 kN en cualquier dirección", "30 kN paralelo y 15 kN perpendicular a la vía"],
+    c: 1, exp: "El DB-SE-AE establece para impacto de vehículos de hasta 30 kN: 50 kN en dirección paralela a la vía y 25 kN en dirección perpendicular, aplicadas simultáneamente. Se aplican a una altura de 0,6 m sobre la rasante de rodadura, sobre una superficie de 0,25 m de alto por 1,5 m de ancho." },
+
+  { id: "E11-13", tema: "E11",
+    q: "¿A qué altura sobre la rasante de rodadura se aplican las fuerzas equivalentes de impacto de vehículos en elementos verticales?",
+    o: ["0,4 m", "0,6 m", "1,0 m", "1,2 m"],
+    c: 1, exp: "Según el DB-SE-AE, las fuerzas estáticas equivalentes de impacto de vehículos se aplican a una altura de 0,6 m sobre la rasante de rodadura, distribuidas sobre una superficie de 0,25 m de alto por 1,5 m de ancho en la dirección perpendicular al impacto." },
+
+  { id: "E11-14", tema: "E11",
+    q: "¿Cuánto vale la fuerza horizontal que deben resistir barandillas y antepechos en zonas de aglomeración (categoría C5, como estadios o discotecas)?",
+    o: ["0,8 kN/m", "1,2 kN/m", "1,6 kN/m", "3,0 kN/m"],
+    c: 3, exp: "La Tabla 3.3 del DB-SE-AE distingue tres valores para la fuerza horizontal en barandillas: 3,0 kN/m para zonas de aglomeración categoría C5 (estadios, discotecas, salas de conciertos), 1,6 kN/m para C3, C4, E y cubiertas accesibles tipo F, y 0,8 kN/m para el resto de categorías (viviendas, oficinas, etc.)." },
+
+  { id: "E11-15", tema: "E11",
+    q: "¿Cuál es el coeficiente reductor de sobrecargas para elementos verticales que soporten 5 o más plantas del mismo uso, según el DB-SE-AE?",
+    o: ["0,7", "0,8", "0,9", "No existe reducción para elementos verticales"],
+    c: 1, exp: "La Tabla 3.2 del DB-SE-AE permite reducir las sobrecargas de uso en pilares y muros de carga. Para 5 o más plantas del mismo uso el coeficiente es 0,8. Para superficies tributarias ≥100 m² puede aplicarse adicionalmente un factor de reducción de 0,7. Estas reducciones reflejan la baja probabilidad de carga máxima simultánea en todos los pisos." },
+
+  // ── E12 · CTE DB-SE-C ─────────────────────────────────────────────────────
+  { id: "E12-01", tema: "E12",
+    q: "¿Cómo clasifica el CTE DB-SE-C las construcciones de menos de 4 plantas con superficie construida inferior a 300 m²?",
+    o: ["Tipo C-0", "Tipo C-1", "Tipo C-2", "Tipo T-1"],
+    c: 0, exp: "El DB-SE-C clasifica las construcciones en cinco tipos: C-0 (<4 plantas y <300 m²), C-1 (otras de <4 plantas), C-2 (4-10 plantas), C-3 (11-20 plantas) y C-4 (singulares o >20 plantas). La clasificación determina las exigencias mínimas del reconocimiento geotécnico; C-0 es el de menor exigencia." },
+
+  { id: "E12-02", tema: "E12",
+    q: "¿Qué características definen los terrenos del grupo T-1 (favorables) en el DB-SE-C?",
+    o: ["Terrenos con rellenos antrópicos superiores a 3 m o expansivos", "Terrenos con alta variabilidad espacial y presencia de suelos blandos", "Terrenos con poca variabilidad espacial y práctica habitual de cimentación directa mediante elementos aislados", "Terrenos kársticos en yesos o calizas con presencia de cavidades"],
+    c: 2, exp: "El DB-SE-C define los terrenos T-1 (favorables) como aquellos con poca variabilidad espacial y sin los factores desfavorables del T-3. En ellos la práctica habitual de la zona es la cimentación directa mediante elementos aislados. Son los de menor riesgo geotécnico y los que permiten mayor simplificación del reconocimiento." },
+
+  { id: "E12-03", tema: "E12",
+    q: "¿Cuántos puntos de reconocimiento mínimo exige el DB-SE-C con carácter general para el estudio geotécnico?",
+    o: ["1", "2", "3", "5"],
+    c: 2, exp: "El DB-SE-C establece con carácter general un mínimo de 3 puntos de reconocimiento del terreno (calicatas, sondeos mecánicos o ensayos de penetración). Las distancias máximas entre puntos y el número mínimo aumentan según el tipo de construcción (C-0 a C-4) y el grupo de terreno (T-1 a T-3)." },
+
+  { id: "E12-04", tema: "E12",
+    q: "¿Para qué tipos de construcción es obligatorio realizar controles de nivelación periódica de asientos según el DB-SE-C?",
+    o: ["Para todo edificio con más de 2 plantas sobre rasante", "Para construcciones tipo C-1 o superiores sobre terreno T-2 o T-3", "Para construcciones tipo C-3 y C-4", "Solo cuando el cálculo estructural lo requiera expresamente"],
+    c: 2, exp: "El DB-SE-C exige control de nivelación de movimientos (precisión 0,1 mm) de forma obligatoria para edificios de tipo C-3 (11-20 plantas) y C-4 (singulares o >20 plantas). Deben controlarse al menos el 10% de los pilares o secciones de muros (mínimo 4 referencias), con distancia máxima de 20 m en muros." },
+
+  { id: "E12-05", tema: "E12",
+    q: "¿Qué categoría de muestra geotécnica es necesaria para determinar la resistencia y la deformabilidad del terreno?",
+    o: ["Categoría C", "Categoría B", "Categoría A", "Cualquier categoría sirve para ensayos de resistencia"],
+    c: 2, exp: "El DB-SE-C clasifica las muestras en tres categorías: A (inalteradas, preservan estructura, densidad, humedad y propiedades mecánicas), B (alteradas, conservan clasificación pero no estructura ni propiedades mecánicas) y C (no cumple ni los requisitos de B). Solo las muestras de categoría A son válidas para determinar resistencia y deformabilidad." },
+
+  { id: "E12-06", tema: "E12",
+    q: "¿Cuándo se considera que una cimentación es 'profunda' según el DB-SE-C?",
+    o: ["Cuando su profundidad supera los 5 m bajo rasante", "Cuando el extremo inferior está a una profundidad mayor de 8 veces su diámetro o anchura mínima", "Cuando se emplean únicamente pilotes o micropilotes", "Cuando la cimentación queda por debajo del nivel freático"],
+    c: 1, exp: "El DB-SE-C define la cimentación profunda por la relación entre profundidad y dimensión transversal: es profunda cuando su extremo inferior se encuentra a una profundidad mayor de 8 veces su diámetro o anchura mínima. Esta definición incluye pilotes, micropilotes y pantallas de profundidad suficiente." },
+
+  { id: "E12-07", tema: "E12",
+    q: "¿Cómo se denominan los pilotes que transmiten su carga al terreno principalmente a través del rozamiento a lo largo del fuste?",
+    o: ["Pilotes por punta o 'columna'", "Pilotes flotantes o 'por fuste'", "Micropilotes de inyección repetitiva", "Pilotes de desplazamiento lateral"],
+    c: 1, exp: "El DB-SE-C distingue dos mecanismos de transferencia de carga en pilotes: los 'flotantes' o 'por fuste' (la carga se transmite principalmente por fricción lateral en el fuste, sin apoyo significativo en punta, y se usan cuando no hay estrato resistente accesible) y los 'columna' o 'por punta' (apoyo en un estrato competente en la punta)." },
+
+  { id: "E12-08", tema: "E12",
+    q: "¿Cuál es el espesor mínimo de la solera de asiento (hormigón de limpieza) bajo cimentaciones directas según el DB-SE-C?",
+    o: ["5 cm", "10 cm", "15 cm", "20 cm"],
+    c: 1, exp: "El DB-SE-C establece que bajo cimentaciones directas se dispondrá una capa de hormigón de limpieza con un espesor mínimo de 10 cm. Esta solera protege el fondo de la excavación, facilita el replanteo de la cimentación y evita la contaminación del hormigón estructural con el terreno." },
+
+  { id: "E12-09", tema: "E12",
+    q: "¿A qué profundidad mínima bajo rasante exterior conviene profundizar las cimentaciones superficiales según el DB-SE-C?",
+    o: ["0,2 a 0,3 m", "0,5 a 0,8 m", "1,0 a 1,5 m", "2,0 m como mínimo"],
+    c: 1, exp: "El DB-SE-C indica que las cimentaciones superficiales conviene profundizarse entre 0,5 m y 0,8 m por debajo de la rasante exterior para evitar los efectos de la helada, la erosión superficial y los movimientos del terreno vegetal, garantizando el apoyo en terreno firme no alterado." },
+
+  { id: "E12-10", tema: "E12",
+    q: "¿Cuándo se considera una zapata estructuralmente rígida según el DB-SE-C?",
+    o: ["Cuando el vuelo v es mayor que el doble del canto h (v > 2h)", "Cuando el vuelo v es menor o igual que el doble del canto h (v ≤ 2h)", "Cuando está construida con hormigón de resistencia ≥ C30/37", "Cuando tiene planta cuadrada con relación lado/canto < 3"],
+    c: 1, exp: "El DB-SE-C define la zapata rígida cuando el vuelo (v, distancia desde el borde del pilar hasta el borde de la zapata) es menor o igual que el doble del canto de la zapata (h): v ≤ 2h. Si v > 2h, la zapata es flexible y el cálculo debe adaptarse a las deformaciones de la propia zapata." },
+
+  { id: "E12-11", tema: "E12",
+    q: "¿Cuál de los siguientes factores clasifica un terreno en el grupo T-3 (desfavorable) según el DB-SE-C?",
+    o: ["Terrenos llanos con arena limpia sin rellenos", "Roca homogénea sin discontinuidades estructurales", "Suelos de marismas, estuarios o rellenos antrópicos superiores a 3 m", "Arcillas consolidadas en zona seca de baja sismicidad"],
+    c: 2, exp: "El DB-SE-C clasifica como T-3 terrenos con: suelos expansivos, colapsables o blandos; cambios litológicos bruscos; rellenos antrópicos >3 m; terrenos kársticos en yesos o calizas; desnivel >15°; suelos residuales; marismas y estuarios; zonas susceptibles de deslizamientos; y algunos terrenos volcánicos. Los T-3 requieren el reconocimiento geotécnico más exhaustivo." },
+
+  { id: "E12-12", tema: "E12",
+    q: "¿Qué caracteriza a la cimentación 'compensada' según el DB-SE-C?",
+    o: ["Combina pilotes en punta y zapatas aisladas en la misma planta de cimentación", "El peso de las tierras excavadas es similar al peso total del edificio, minimizando la presión neta sobre el terreno", "Se emplea exclusivamente cuando hay agua freática a menos de 1 m de profundidad", "Utiliza losas postensadas para redistribuir los asientos diferenciales"],
+    c: 1, exp: "La cimentación compensada se basa en que, si el peso de las tierras excavadas es aproximadamente igual al peso total del edificio, la presión neta transmitida al terreno es mínima (tendente a cero), lo que reduce notablemente los asientos. Se emplea en edificios pesados sobre terrenos compresibles para minimizar los asientos totales y diferenciales." },
+
+  { id: "E12-13", tema: "E12",
+    q: "Según el DB-SE-C, ¿qué contenido mínimo en sulfatos del suelo obliga a usar cementos resistentes a sulfatos conforme a la instrucción EHE?",
+    o: ["≥ 500 mg/kg en el suelo", "≥ 1.000 mg/kg en el suelo", "≥ 3.000 mg/kg en el suelo (o ≥ 600 mg/l en el agua subterránea)", "≥ 5.000 mg/kg en el suelo"],
+    c: 2, exp: "El DB-SE-C remite a la instrucción EHE para las especificaciones del hormigón. Cuando el suelo contiene sulfatos en concentración ≥ 3.000 mg/kg (o el agua subterránea ≥ 600 mg/l), el hormigón debe ser resistente a sulfatos. El ataque de sulfatos puede degradar el hormigón formando etringita expansiva que fisura la cimentación." },
+
+  { id: "E12-14", tema: "E12",
+    q: "¿Qué porcentaje mínimo de pilares deben someterse a control de nivelación en los edificios en que dicho control es obligatorio?",
+    o: ["5%", "10%", "15%", "25%"],
+    c: 1, exp: "El DB-SE-C exige que el control de nivelación en edificios C-3 y C-4 afecte al menos al 10% del total de pilares (o secciones de muros de carga), con un mínimo de 4 referencias de nivelación y distancias máximas entre referencias de 20 m en muros. La precisión de las lecturas debe ser de 0,1 mm." },
+
+  { id: "E12-15", tema: "E12",
+    q: "¿A qué profundidad mínima por debajo de la punta teórica del pilote debe llegar el reconocimiento geotécnico cuando se prevén pilotes por punta ('columna')?",
+    o: ["2 veces el diámetro (2D)", "3 veces el diámetro (3D)", "5 veces el diámetro (5D)", "10 veces el diámetro (10D)"],
+    c: 2, exp: "El DB-SE-C establece que el reconocimiento geotécnico debe alcanzar una profundidad suficiente por debajo de la cimentación prevista. Para pilotes por punta ('columna'), debe profundizarse al menos 5D (cinco veces el diámetro del pilote) por debajo de la punta teórica, para caracterizar adecuadamente el estrato de apoyo y la influencia del bulbo de presiones." },
+
+  // ── E13 · LF 10/2010 vivienda (I) ────────────────────────────────────────
+  { id: "E13-01", tema: "E13",
+    q: "Según la Ley Foral 10/2010, ¿qué es la calificación provisional de una vivienda protegida?",
+    o: ["El acto que reconoce que la vivienda está terminada y cumple la normativa", "El acto que reconoce que una promoción sin terminar podrá obtener la definitiva si se finaliza conforme a los documentos presentados", "La autorización para percibir cantidades a cuenta de los compradores", "El acto por el que el solicitante accede al Censo de demandantes de vivienda"],
+    c: 1, exp: "La Ley Foral 10/2010 distingue: calificación provisional (acto que reconoce que una promoción sin terminar podrá obtener la calificación definitiva si se finaliza de acuerdo con la documentación presentada) y calificación definitiva (reconoce que la vivienda está terminada y cumple la normativa de vivienda protegida). Esta distinción es clave para la temporalización de obligaciones del promotor." },
+
+  { id: "E13-02", tema: "E13",
+    q: "¿Cuál es la superficie útil máxima de una VPO (vivienda de protección oficial) para unidades familiares generales según la Ley Foral 10/2010?",
+    o: ["80 m²", "90 m²", "100 m²", "120 m²"],
+    c: 1, exp: "La Ley Foral 10/2010 (art. 7) fija la superficie útil máxima en 90 m² para VPO y 120 m² para VPT. Para familias numerosas los límites se amplían: 120 m² para VPO y 140 m² para VPT. La superficie se mide conforme a la normativa técnica aplicable, sin contar garajes ni trasteros." },
+
+  { id: "E13-03", tema: "E13",
+    q: "¿Cuántos meses al año como mínimo debe estar ocupada una vivienda protegida para que se considere habitual según la Ley Foral 10/2010?",
+    o: ["6 meses al año", "8 meses al año", "9 meses al año", "12 meses al año"],
+    c: 2, exp: "La Ley Foral 10/2010 (art. 8) establece que la habitualidad exige una ocupación de al menos 9 meses al año. El incumplimiento sin autorización administrativa previa supone incumplimiento del destino de la vivienda protegida y puede conllevar la revocación de las ayudas y la obligación de devolver las cantidades percibidas." },
+
+  { id: "E13-04", tema: "E13",
+    q: "¿Cuál es el precio máximo de renta mensual por m² útil de VPO en municipios de más de 10.000 habitantes?",
+    o: ["4,50 €/m²/mes", "5,10 €/m²/mes", "5,40 €/m²/mes", "8,25 €/m²/mes"],
+    c: 2, exp: "La Ley Foral 10/2010 (art. 10) fija la renta máxima de VPO en 5,40 €/m² útil/mes para municipios de más de 10.000 habitantes. En municipios de hasta 10.000 habitantes el máximo es de 5,10 €/m². El arrendamiento asequible tiene un precio superior: 8,25 €/m²/mes. Garaje VPO: 60 €/mes; trastero VPO: 2 €/m²/mes." },
+
+  { id: "E13-05", tema: "E13",
+    q: "¿Cuál es la duración mínima del destino al arrendamiento de las VPO calificadas en ese régimen según la Ley Foral 10/2010?",
+    o: ["10 años", "15 años", "21 años", "30 años"],
+    c: 2, exp: "La Ley Foral 10/2010 establece que las VPO calificadas en régimen de arrendamiento deben destinarse a este uso durante un mínimo de 21 años. Pasado este plazo el propietario puede transmitirlas, pero al precio máximo correspondiente a una VPT en primera transmisión, no libremente." },
+
+  { id: "E13-06", tema: "E13",
+    q: "¿Qué plazo máximo tiene el adquirente de una vivienda protegida para ocuparla desde la calificación definitiva?",
+    o: ["3 meses", "6 meses", "9 meses", "12 meses"],
+    c: 1, exp: "La Ley Foral 10/2010 (art. 8) establece que el adquirente debe hacer efectiva la ocupación en un plazo máximo de 6 meses desde la calificación definitiva (o desde la entrega de llaves si es posterior). Este plazo puede ser ampliado por causas justificadas mediante autorización administrativa previa." },
+
+  { id: "E13-07", tema: "E13",
+    q: "El precio máximo de venta de la VPT (vivienda de precio tasado) en primera transmisión equivale a:",
+    o: ["1,10 veces el módulo ponderado por m² útil", "1,30 veces el módulo ponderado por m² útil", "1,50 veces el módulo ponderado por m² útil", "1,80 veces el módulo ponderado por m² útil"],
+    c: 2, exp: "La Ley Foral 10/2010 (art. 7) fija los precios máximos en primera transmisión: VPO = 1,30 × módulo ponderado/m² útil y VPT = 1,50 × módulo ponderado/m² útil. El módulo ponderado incorpora el municipio, la superficie y el número de plantas. En segunda transmisión se aplica el módulo sin ponderar (96% del ponderado)." },
+
+  { id: "E13-08", tema: "E13",
+    q: "¿Cuál es el umbral mínimo de ingresos anuales de la unidad familiar para poder acceder a una VPO en régimen de propiedad o cesión de uso?",
+    o: ["12.000 €", "15.000 €", "19.000 €", "24.000 €"],
+    c: 2, exp: "La Ley Foral 10/2010 (art. 18) establece que para acceder a una VPO en propiedad o cesión de uso los ingresos deben estar entre un mínimo de 19.000 € y un máximo de 4,5 veces el indicador SARA. El umbral mínimo garantiza la capacidad de pago. Para VPT el mínimo es 24.000 € y el máximo 6,5 × SARA." },
+
+  { id: "E13-09", tema: "E13",
+    q: "¿Cuál es la reserva mínima obligatoria para personas con discapacidad en los procedimientos de adjudicación de VPO en régimen de propiedad?",
+    o: ["3%", "5%", "6%", "10%"],
+    c: 2, exp: "La Ley Foral 10/2010 (art. 26) establece reservas en los procedimientos de adjudicación: 6% para personas con discapacidad (de los cuales al menos 4 puntos porcentuales deben ser para discapacidad motriz grave), 3% para familias numerosas, 3% para víctimas de terrorismo y 3% para víctimas de violencia de género." },
+
+  { id: "E13-10", tema: "E13",
+    q: "En el baremo de adjudicación de viviendas protegidas de la Ley Foral 10/2010, ¿cuántos puntos se otorgan por cada miembro de la unidad familiar?",
+    o: ["5 puntos", "7 puntos", "10 puntos", "15 puntos"],
+    c: 1, exp: "El baremo de la Ley Foral 10/2010 (art. 28) asigna 7 puntos por cada miembro de la unidad familiar (incluyendo a quienes suscriben la solicitud), con un máximo de 55 puntos por este concepto. Es el criterio con mayor peso individual del baremo, reflejando la preferencia legislativa por las familias con más miembros." },
+
+  { id: "E13-11", tema: "E13",
+    q: "¿Con qué periodicidad se celebran los procedimientos de adjudicación de viviendas protegidas en régimen de propiedad según la Ley Foral 10/2010?",
+    o: ["Una vez al año, en enero", "Dos veces al año, en enero y julio", "Cuatro veces al año: 1 de marzo, 1 de junio, 1 de septiembre y 1 de diciembre", "De forma continua, sin periodicidad fija"],
+    c: 2, exp: "La Ley Foral 10/2010 establece que los procedimientos de adjudicación de viviendas protegidas en régimen de propiedad se inician cuatro veces al año: el 1 de marzo, el 1 de junio, el 1 de septiembre y el 1 de diciembre. Esta periodicidad trimestral permite gestionar las solicitudes del Censo de demandantes de forma ordenada." },
+
+  { id: "E13-12", tema: "E13",
+    q: "¿Durante cuántos años queda prohibida la disposición gratuita de una vivienda protegida desde su calificación definitiva, según la Ley Foral 10/2010?",
+    o: ["2 años", "5 años", "10 años", "Indefinidamente"],
+    c: 1, exp: "La Ley Foral 10/2010 (art. 44) prohíbe la disposición gratuita (donaciones u otros actos a título gratuito) de las viviendas protegidas durante los 5 primeros años desde la calificación definitiva. El objetivo es evitar que las ayudas públicas beneficien indirectamente a personas distintas de las destinatarias iniciales de la vivienda protegida." },
+
+  { id: "E13-13", tema: "E13",
+    q: "¿En cuántos días puede el Gobierno de Navarra ejercer el derecho de tanteo sobre la transmisión de una vivienda protegida?",
+    o: ["30 días desde la comunicación", "60 días desde la comunicación", "90 días desde la comunicación", "180 días desde la comunicación"],
+    c: 1, exp: "La Ley Foral 10/2010 (art. 49) establece que el derecho de tanteo puede ejercerse en el plazo de 60 días naturales desde la notificación al Gobierno de Navarra de la decisión de transmitir y de las condiciones de la transmisión. Transcurrido ese plazo sin ejercicio del tanteo, el titular puede transmitir libremente en el plazo de 6 meses y en las condiciones comunicadas." },
+
+  { id: "E13-14", tema: "E13",
+    q: "¿Cuál es la duración del régimen de protección de las viviendas protegidas según la Ley Foral 10/2010?",
+    o: ["30 años desde la calificación definitiva", "50 años desde la calificación definitiva", "Indefinida, sin posibilidad de descalificación anticipada", "Hasta que el titular lo solicite, con autorización del Gobierno de Navarra"],
+    c: 2, exp: "La Ley Foral 10/2010 (art. 43) establece que el régimen de protección de las viviendas protegidas es indefinido y no admite descalificación anticipada voluntaria. Esta es una característica diferencial de la legislación navarra respecto a otras comunidades autónomas, donde sí es posible solicitar la descalificación pasado un plazo determinado." },
+
+  { id: "E13-15", tema: "E13",
+    q: "¿Cuál es el límite máximo de ingresos (en veces el indicador SARA) para acceder a una VPO en régimen de propiedad?",
+    o: ["2,5 veces el SARA", "3,5 veces el SARA", "4,5 veces el SARA", "6,5 veces el SARA"],
+    c: 2, exp: "La Ley Foral 10/2010 (art. 18) fija los ingresos máximos en 4,5 veces el SARA para las VPO en régimen de propiedad o cesión de uso (con un mínimo de 19.000 €). Para VPO en arrendamiento, el máximo es 2,5 × SARA. Para VPT en propiedad, el máximo es 6,5 × SARA, con un mínimo de 24.000 €." },
+
+  // ── E14 · LF 10/2010 vivienda (II) ───────────────────────────────────────
+  { id: "E14-01", tema: "E14",
+    q: "Según la Ley Foral 10/2010 (art. 42 bis), ¿cuándo se presume que una vivienda está deshabitada?",
+    o: ["Cuando no está empadronada ninguna persona durante más de 3 meses", "Cuando no está destinada a uso residencial durante más de 6 meses consecutivos en el curso de un año", "Cuando sus suministros de agua y electricidad están dados de baja", "Cuando el propietario no reside en Navarra más de 6 meses al año"],
+    c: 1, exp: "El art. 42 bis de la Ley Foral 10/2010 define la vivienda deshabitada como aquella que no está siendo destinada efectivamente a uso residencial durante más de 6 meses consecutivos en el transcurso de un año. La ausencia de uso residencial efectivo (no el empadronamiento) es el criterio legal determinante." },
+
+  { id: "E14-02", tema: "E14",
+    q: "¿A qué personas puede imponerse sanción por mantener viviendas deshabitadas, según la Ley Foral 10/2010?",
+    o: ["A cualquier persona física o jurídica propietaria", "Solo a las entidades financieras con viviendas adquiridas en ejecuciones hipotecarias", "Solo a personas jurídicas (en condominios, si la titularidad mayoritaria es de una persona jurídica)", "Solo a promotores y constructores de obra nueva"],
+    c: 2, exp: "El art. 42 bis.5 de la Ley Foral 10/2010 limita expresamente la potestad sancionadora en materia de viviendas deshabitadas a las personas jurídicas. En el caso de comunidades de propietarios o condominios, la condición se cumple cuando la titularidad mayoritaria corresponde a una persona jurídica." },
+
+  { id: "E14-03", tema: "E14",
+    q: "¿Cuál es el consumo mensual de agua por debajo del cual puede considerarse que una vivienda está deshabitada, según la Ley Foral 10/2010?",
+    o: ["0,10 m³/mes", "0,21 m³/mes", "0,50 m³/mes", "1,00 m³/mes"],
+    c: 1, exp: "El art. 42 ter de la Ley Foral 10/2010 establece los indicios de desocupación. El consumo de agua se considera indicio de desocupación cuando es inferior a 0,21 m³/mes o a 2,47 m³/año. Estos umbrales son orientativos y forman parte de un cuadro de indicios (padrón, electricidad, correo, vecinos) que deben valorarse conjuntamente." },
+
+  { id: "E14-04", tema: "E14",
+    q: "¿Cuál de las siguientes situaciones está expresamente excluida de la condición de vivienda deshabitada según la Ley Foral 10/2010?",
+    o: ["Vivienda vacía de una empresa inmobiliaria en municipio de más de 50.000 habitantes", "Segunda residencia de una persona física (máximo una por persona o unidad familiar)", "Vivienda cuyo propietario ha fallecido hace 8 meses y está en proceso de herencia", "Vivienda en venta que lleva 7 meses desocupada"],
+    c: 1, exp: "El art. 42 bis de la Ley Foral 10/2010 excluye expresamente de la condición de deshabitada: las viviendas habituales del titular, las segundas residencias (máximo una por persona o unidad familiar), las de uso turístico con licencia vigente, las arrendadas por temporada (≥30 días/año), las ubicadas fuera de Navarra y las que se encuentran fuera de ordenación sin cédula de habitabilidad." },
+
+  { id: "E14-05", tema: "E14",
+    q: "¿Cuál es el plazo máximo para resolver el procedimiento de declaración de vivienda deshabitada, según la Ley Foral 10/2010?",
+    o: ["3 meses desde la incoación", "6 meses desde la incoación", "1 año desde la incoación (con caducidad si no se resuelve)", "2 años desde la incoación"],
+    c: 2, exp: "El art. 42 quinquies de la Ley Foral 10/2010 establece que el procedimiento de declaración de vivienda deshabitada tiene un plazo máximo de resolución de 1 año desde su incoación. Si transcurre ese plazo sin resolución expresa, el procedimiento caduca y el expediente se archiva sin perjuicio de poder reiniciarlo en el futuro." },
+
+  { id: "E14-06", tema: "E14",
+    q: "¿Cuánto tiempo debe estar efectivamente habitada una vivienda inscrita en el Registro de Viviendas Deshabitadas para poder cancelar dicha inscripción?",
+    o: ["3 meses ininterrumpidos", "6 meses ininterrumpidos", "9 meses ininterrumpidos", "1 año ininterrumpido"],
+    c: 1, exp: "El art. 42 sexies de la Ley Foral 10/2010 establece que para cancelar la inscripción en el Registro de Viviendas Deshabitadas debe acreditarse que la vivienda ha estado efectivamente habitada de forma ininterrumpida durante al menos 6 meses. La cancelación requiere trámite de audiencia si no se acredita debidamente la habitación efectiva." },
+
+  { id: "E14-07", tema: "E14",
+    q: "¿Cuál es el consumo anual de electricidad por debajo del cual puede considerarse una vivienda deshabitada?",
+    o: ["100 kWh/año", "200 kWh/año", "291 kWh/año", "500 kWh/año"],
+    c: 2, exp: "El art. 42 ter de la Ley Foral 10/2010 establece como indicio de desocupación un consumo eléctrico mensual inferior a 24 kWh o un consumo anual inferior a 291 kWh. Junto al consumo de agua, el padrón municipal, la correspondencia en otra dirección y otras circunstancias, conforman el cuadro de indicios para iniciar el procedimiento." },
+
+  { id: "E14-08", tema: "E14",
+    q: "¿Cuántos días tiene el titular de la vivienda para presentar alegaciones en el trámite de audiencia del procedimiento de declaración de vivienda deshabitada?",
+    o: ["5 días hábiles", "10 días hábiles", "15 días hábiles", "20 días hábiles"],
+    c: 1, exp: "El art. 42 quinquies de la Ley Foral 10/2010 establece un trámite de audiencia con un plazo de 10 días para que el titular pueda presentar alegaciones y documentación que desvirtúe los indicios de desocupación. El procedimiento puede suspenderse si el titular acepta voluntariamente alguna de las medidas de fomento propuestas." },
+
+  { id: "E14-09", tema: "E14",
+    q: "Si el titular acepta la medida de fomento de habitar voluntariamente la vivienda deshabitada, ¿en qué plazo máximo debe hacerlo efectivo?",
+    o: ["1 mes", "3 meses", "6 meses", "1 año"],
+    c: 1, exp: "El art. 42 quinquies de la Ley Foral 10/2010 contempla tres posibles medidas de fomento que el titular puede aceptar para suspender el procedimiento: habitar la vivienda en un plazo máximo de 3 meses; calificar como rehabilitación la obra necesaria en un plazo de 3 meses (con posterior plazo de habitación según licencia y mínimo 6 meses); o ceder la vivienda a la Bolsa de Alquiler en un plazo de 6 meses." },
+
+  { id: "E14-10", tema: "E14",
+    q: "¿Cuál es el contenido mínimo que debe constar en el Registro General de Viviendas de Navarra según su art. 78?",
+    o: ["Solo el precio de tasación y la titularidad catastral de la vivienda", "Solo la calificación urbanística y el código postal", "Dirección, titular, superficie, antigüedad, cédula de habitabilidad, tipo de protección, IEE, certificado de eficiencia energética, ayudas y datos de arrendamiento", "Solo datos de las viviendas protegidas con calificación definitiva vigente"],
+    c: 2, exp: "El art. 78 de la Ley Foral 10/2010 establece el contenido mínimo del Registro General de Viviendas de Navarra: dirección y referencia catastral, superficie, antigüedad, titular en el Registro de la Propiedad, cédula de habitabilidad, tipo de protección, IEE, certificado de eficiencia energética, ayudas concedidas, datos de arrendamiento, e indicios de desocupación cuando proceda." },
+
+  { id: "E14-11", tema: "E14",
+    q: "¿Qué carácter y adscripción tiene el Registro General de Viviendas de Navarra?",
+    o: ["Privado, gestionado por los colegios de arquitectos", "Municipal, cada Ayuntamiento gestiona el suyo propio", "Público, de naturaleza administrativa, adscrito al departamento competente en materia de vivienda", "Mixto, compartido entre la Administración foral y los municipios de más de 10.000 habitantes"],
+    c: 2, exp: "El art. 75 de la Ley Foral 10/2010 establece que el Registro General de Viviendas de Navarra es de titularidad pública, tiene naturaleza administrativa y está adscrito al departamento del Gobierno de Navarra competente en materia de vivienda. Es un registro administrativo, diferente al Registro de la Propiedad (que es registral y notarial)." },
+
+  { id: "E14-12", tema: "E14",
+    q: "¿Cuál de los siguientes datos del Registro General de Viviendas de Navarra tiene la consideración de información de acceso público?",
+    o: ["Los ingresos del titular de la vivienda", "El precio de adquisición de la vivienda", "El certificado de eficiencia energética", "Los datos bancarios del propietario"],
+    c: 2, exp: "El art. 78 de la Ley Foral 10/2010 determina los datos de acceso público: dirección postal, cédula de habitabilidad, tipo de protección aplicable, Libro del Edificio o IEE, certificado de eficiencia energética, ayudas públicas recibidas y, cuando proceda, el origen de la vivienda si proviene de desahucio bancario. Los datos económicos del titular son confidenciales." },
+
+  { id: "E14-13", tema: "E14",
+    q: "¿A quién corresponde la competencia para iniciar y resolver los procedimientos de declaración de vivienda deshabitada?",
+    o: ["Al Ayuntamiento del municipio donde se ubica la vivienda", "Al departamento del Gobierno de Navarra competente en vivienda (con posible delegación en entidades locales)", "A la Agencia Tributaria de Navarra", "Al juzgado de primera instancia del partido judicial correspondiente"],
+    c: 1, exp: "El art. 42 quinquies de la Ley Foral 10/2010 atribuye la competencia para iniciar, tramitar y resolver los procedimientos al departamento del Gobierno de Navarra competente en materia de vivienda. Esta competencia puede delegarse en las entidades locales que lo soliciten. El Ayuntamiento recibe comunicación de la declaración para incorporar la vivienda a su censo municipal." },
+
+  { id: "E14-14", tema: "E14",
+    q: "Las viviendas declaradas deshabitadas deben ser comunicadas por el Gobierno de Navarra al correspondiente:",
+    o: ["Registro de la Propiedad para anotación preventiva", "Catastro Inmobiliario para actualización del valor catastral", "Ayuntamiento del municipio donde se ubican, para su incorporación al censo municipal", "Tribunal Superior de Justicia de Navarra"],
+    c: 2, exp: "La Ley Foral 10/2010 establece que las viviendas declaradas deshabitadas deben comunicarse por el departamento competente al Ayuntamiento del municipio correspondiente, para que las incorpore al censo o registro municipal de viviendas deshabitadas. Esta comunicación puede tener consecuencias fiscales para el propietario (recargo en el IBI)." },
+
+  { id: "E14-15", tema: "E14",
+    q: "¿Con qué periodicidad debe planificarse la actividad de control e inspección de viviendas deshabitadas según la Ley Foral 10/2010?",
+    o: ["Anualmente, mediante un plan anual", "Cada dos años, mediante un plan bienal", "Cada cuatro años, coincidiendo con el mandato de gobierno", "Sin periodicidad fijada por ley, según disponibilidad de recursos"],
+    c: 1, exp: "La Ley Foral 10/2010 establece que el departamento competente en materia de vivienda elaborará y ejecutará un plan bienal (cada dos años) de control e inspección de las viviendas deshabitadas. El plan debe incluir los criterios para seleccionar las viviendas a inspeccionar y los mecanismos de seguimiento y evaluación de los resultados." },
+
+  // ── E15 · DF 61/2013 vivienda (I) ────────────────────────────────────────
+  { id: "E15-01", tema: "E15",
+    q: "¿Cuál es el plazo máximo desde la calificación provisional para solicitar la calificación definitiva de una vivienda protegida según el DF 61/2013?",
+    o: ["18 meses", "24 meses", "36 meses (prorrogables hasta 18 meses adicionales)", "48 meses"],
+    c: 2, exp: "El art. 22 del DF 61/2013 establece que el promotor dispone de 36 meses desde la calificación provisional para presentar la solicitud de calificación definitiva. Este plazo puede prorrogarse hasta un máximo de 18 meses adicionales por circunstancias justificadas, siempre que la solicitud de prórroga se presente antes del vencimiento del plazo inicial." },
+
+  { id: "E15-02", tema: "E15",
+    q: "¿Qué efecto produce la calificación definitiva de una vivienda protegida respecto a la cédula de habitabilidad, según el DF 61/2013?",
+    o: ["No tiene relación con la cédula de habitabilidad; son trámites independientes", "Equivale a la concesión de una cédula de habitabilidad de clase A con una duración de 30 años", "Equivale a una cédula de habitabilidad de clase B durante 15 años", "Requiere tramitar adicionalmente la cédula de habitabilidad ordinaria"],
+    c: 1, exp: "El art. 25.4 del DF 61/2013 establece que la calificación definitiva de una vivienda protegida surte los efectos de cédula de habitabilidad de clase A y tiene validez de 30 años. Esto significa que el adquirente no necesita tramitar la cédula de habitabilidad por separado, simplificando la gestión administrativa de la transmisión de la vivienda." },
+
+  { id: "E15-03", tema: "E15",
+    q: "¿Cuál es el precio máximo de venta en primera transmisión de una VPO según el DF 61/2013?",
+    o: ["1,20 veces el módulo ponderado por m² útil", "1,30 veces el módulo ponderado por m² útil", "1,50 veces el módulo ponderado por m² útil", "1,00 veces el módulo ponderado por m² útil"],
+    c: 1, exp: "El art. 15 del DF 61/2013 establece los precios máximos de venta: VPO en primera transmisión = 1,30 × módulo ponderado/m² útil; VPO en segunda transmisión = 1,30 × módulo sin ponderar (régimen general) o 1,20 × módulo sin ponderar (régimen especial). Para VPT: 1ª transmisión = 1,50 × módulo ponderado; sucesivas = 1,50 × módulo sin ponderar." },
+
+  { id: "E15-04", tema: "E15",
+    q: "¿Cuántos dormitorios mínimos deben tener las viviendas protegidas destinadas a familias numerosas en las reservas del DF 61/2013?",
+    o: ["2 dormitorios", "3 dormitorios", "4 dormitorios", "5 dormitorios"],
+    c: 2, exp: "El art. 10 del DF 61/2013 establece las características constructivas de las viviendas protegidas. Las viviendas reservadas para familias numerosas deben tener un mínimo de 4 dormitorios, pudiendo alcanzar las superficies máximas previstas para esa categoría: hasta 120 m² para VPO y hasta 140 m² para VPT." },
+
+  { id: "E15-05", tema: "E15",
+    q: "¿Cuál es la superficie útil máxima de la plaza de garaje vinculada a una vivienda protegida según el DF 61/2013?",
+    o: ["10,81 m²", "12,00 m²", "14,00 m² (salvo para personas con discapacidad motriz grave)", "20,00 m²"],
+    c: 2, exp: "El art. 10 del DF 61/2013 establece para las plazas de garaje vinculadas en viviendas protegidas una superficie útil mínima de 10,81 m² y máxima de 14 m². Se exceptúan las plazas adaptadas para personas con discapacidad motriz grave, que pueden tener mayor superficie para poder maniobrar en silla de ruedas o vehículos adaptados." },
+
+  { id: "E15-06", tema: "E15",
+    q: "¿Cuál es la superficie máxima de un trastero vinculado a una vivienda protegida según el DF 61/2013?",
+    o: ["10 m²", "15 m² (con altura libre mínima de 1,5 m)", "20 m²", "25 m²"],
+    c: 1, exp: "El art. 10 del DF 61/2013 establece que los trasteros vinculados a viviendas protegidas tendrán una superficie útil mínima de 2 m² y máxima de 15 m², con una altura libre mínima de 1,5 m. Cuando garaje y trastero individual comparten acceso exclusivo, la superficie total del anejo no puede superar 45 m²." },
+
+  { id: "E15-07", tema: "E15",
+    q: "Según el DF 61/2013, ¿qué nivel mínimo de calificación energética deben alcanzar las viviendas protegidas con calificación provisional solicitada a partir del 1 de enero de 2018?",
+    o: ["Nivel C", "Nivel B", "Nivel A", "Edificio de consumo de energía casi nulo"],
+    c: 2, exp: "El art. 10 del DF 61/2013 regula la evolución del estándar energético: calificación provisional desde 01/01/2017 → nivel mínimo B; desde 01/01/2018 → nivel mínimo A; desde 01/01/2019 → edificio de consumo de energía casi nulo (EECN). Para las sociedades públicas promotoras, la exigencia de EECN se adelanta a 2017." },
+
+  { id: "E15-08", tema: "E15",
+    q: "¿Cuánto asciende la subvención al adquirente de una VPO cuyos ingresos familiares ponderados no superan 2 veces el IPREM?",
+    o: ["6% del precio de venta", "10% del precio de venta", "12% del precio de venta", "15% del precio de venta"],
+    c: 2, exp: "El art. 27 del DF 61/2013 establece las subvenciones para adquirentes de viviendas protegidas según los ingresos: ≤ 2 × IPREM → 12% VPO y 6% VPT; entre 2 y 2,5 × IPREM → 10% VPO y 4% VPT; entre 2,5 y 3,5 × IPREM → 6% VPO y 2% VPT. Las familias numerosas reciben adicionalmente un 3% (cat. general) o 6% (cat. especial) si sus ingresos son ≤ 3,5 × IPREM." },
+
+  { id: "E15-09", tema: "E15",
+    q: "¿Cuánto asciende la subvención al arrendatario de una VPO cuyos ingresos familiares ponderados son inferiores al IPREM?",
+    o: ["50% de la renta anual", "60% de la renta anual", "75% de la renta anual", "90% de la renta anual"],
+    c: 2, exp: "El art. 28 del DF 61/2013 establece las subvenciones para arrendatarios de VPO según ingresos: entre 1,4 y 1,7 × IPREM → 25%; entre 1 y 1,4 × IPREM → 50%; por debajo del IPREM → 75%. Las víctimas de violencia de género tienen subvención del 90% durante el primer año de arrendamiento y del 75% durante el segundo año." },
+
+  { id: "E15-10", tema: "E15",
+    q: "¿Cuál es el porcentaje máximo del precio de venta que puede financiarse mediante préstamo cualificado según el DF 61/2013?",
+    o: ["60%", "70%", "80%", "90%"],
+    c: 2, exp: "El art. 31 del DF 61/2013 establece que los préstamos cualificados para la adquisición de viviendas protegidas tienen un importe máximo del 80% del precio de venta (incluidos garajes y trasteros vinculados), con un plazo de amortización de hasta 30 años y una posible carencia inicial de hasta 3 años." },
+
+  { id: "E15-11", tema: "E15",
+    q: "¿Cuál es la renta anual máxima para VPO calificadas en régimen de arrendamiento según el DF 61/2013?",
+    o: ["El 3% del precio máximo de venta en segunda transmisión", "El 4,5% del precio máximo de venta en segunda transmisión", "El 6% del precio máximo de venta en segunda transmisión", "La renta fijada directamente en la Ley Foral 10/2010 de 5,40 €/m²/mes"],
+    c: 1, exp: "El art. 17 del DF 61/2013 establece que la renta anual máxima de las VPO en régimen de arrendamiento es del 4,5% del precio máximo de venta aplicable en segunda transmisión y siguientes del mismo tipo y régimen. Este porcentaje se aplica al precio vigente en el momento del arrendamiento, no al de la calificación provisional." },
+
+  { id: "E15-12", tema: "E15",
+    q: "El programa de Alquiler Joven del DF 61/2013 se dirige a personas:",
+    o: ["Menores de 30 años, sin límite de composición familiar", "Menores de 35 años, con unidad familiar de hasta 4 miembros y vivienda de hasta 75 m² útiles", "Menores de 40 años, con ingresos menores de 2 × IPREM", "Menores de 35 años, sin restricción de tamaño de vivienda"],
+    c: 1, exp: "El art. 29 del DF 61/2013 regula el Alquiler Joven: los beneficiarios deben ser menores de 35 años, la vivienda debe tener como máximo 75 m² útiles y la unidad familiar no puede superar 4 miembros. La renta máxima equivale al 4,5% del precio máximo de venta de VPO en segunda transmisión." },
+
+  { id: "E15-13", tema: "E15",
+    q: "¿Cuántos meses tiene el promotor para hacer entrega de llaves a los adquirentes desde la calificación definitiva, según el DF 61/2013?",
+    o: ["1 mes", "3 meses", "6 meses", "12 meses"],
+    c: 1, exp: "El art. 25.5 del DF 61/2013 establece que el promotor debe hacer entrega de las llaves de las viviendas a sus adquirentes en un plazo máximo de 3 meses desde la calificación definitiva. El incumplimiento de este plazo puede dar lugar a responsabilidades frente a los compradores y ante la Administración de Navarra." },
+
+  { id: "E15-14", tema: "E15",
+    q: "¿Desde qué momento puede el promotor de viviendas protegidas percibir cantidades a cuenta de los futuros adquirentes?",
+    o: ["Desde la aprobación del proyecto básico visado", "Desde la obtención de la licencia de obras municipal", "Tras la calificación provisional, con autorización administrativa específica y en cuenta bancaria especial", "Desde la escritura pública de compraventa ante notario"],
+    c: 2, exp: "El art. 23 del DF 61/2013 establece que para percibir cantidades a cuenta de los futuros compradores, el promotor debe haber obtenido la calificación provisional y contar con autorización administrativa específica. Las cantidades deben depositarse en cuenta bancaria especial y estar garantizadas mediante seguro de caución o aval bancario solidario a favor de los compradores." },
+
+  { id: "E15-15", tema: "E15",
+    q: "En el DF 61/2013, ¿cuál es la repercusión máxima del suelo admitida para viviendas protegidas en arrendamiento en parcelas que no proceden de reserva obligatoria?",
+    o: ["10% del precio máximo de venta", "17,5% del precio máximo de venta", "30% del precio máximo de venta", "Sin límite de repercusión del suelo en este supuesto"],
+    c: 2, exp: "El art. 11 del DF 61/2013 establece dos límites de repercusión del suelo: en parcelas de reserva obligatoria, la repercusión máxima es del 17,5% del precio máximo de venta. En parcelas no procedentes de reserva obligatoria, puede alcanzar el 30%, pero únicamente para viviendas destinadas a régimen de arrendamiento. Los terrenos no pueden estar gravados con cargas hipotecarias previas al inicio de la calificación." },
 ];
