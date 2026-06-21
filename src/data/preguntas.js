@@ -2904,4 +2904,384 @@ export const PREGUNTAS = [
     q: "En el DF 61/2013, ¿cuál es la repercusión máxima del suelo admitida para viviendas protegidas en arrendamiento en parcelas que no proceden de reserva obligatoria?",
     o: ["10% del precio máximo de venta", "17,5% del precio máximo de venta", "30% del precio máximo de venta", "Sin límite de repercusión del suelo en este supuesto"],
     c: 2, exp: "El art. 11 del DF 61/2013 establece dos límites de repercusión del suelo: en parcelas de reserva obligatoria, la repercusión máxima es del 17,5% del precio máximo de venta. En parcelas no procedentes de reserva obligatoria, puede alcanzar el 30%, pero únicamente para viviendas destinadas a régimen de arrendamiento. Los terrenos no pueden estar gravados con cargas hipotecarias previas al inicio de la calificación." },
+
+  // ── E16 ─ DF 61/2013 (II): Rehabilitación protegida + Ordenanza Municipal Pamplona ──
+  { id: "E16-01", tema: "E16",
+    q: "¿Cuál es el plazo máximo para iniciar obras desde la calificación provisional de rehabilitación protegida?",
+    o: ["3 meses", "6 meses", "12 meses", "18 meses"],
+    c: 1, exp: "Los art. 49.1 y 51.1 del DF 61/2013 establecen que las obras de rehabilitación protegida deben iniciarse en un plazo máximo de 6 meses desde la calificación provisional y terminarse (solicitud de calificación definitiva) en un plazo máximo de 36 meses, prorrogables hasta 18 meses adicionales." },
+
+  { id: "E16-02", tema: "E16",
+    q: "¿Qué porcentaje mínimo de la superficie útil total del edificio debe destinarse a vivienda para que la actuación de adecuación estructural o funcional sea rehabilitación protegida?",
+    o: ["25%", "33%", "50%", "75%"],
+    c: 2, exp: "El art. 45.1.a) del DF 61/2013 exige que el cincuenta por ciento al menos de la superficie útil total del edificio (deducidas la planta baja y las superficies bajo rasante) se destine a vivienda para que la actuación de adecuación estructural o funcional sea protegible." },
+
+  { id: "E16-03", tema: "E16",
+    q: "¿Cuál es la antigüedad mínima exigida a los inmuebles para ser objeto de rehabilitación protegida según el DF 61/2013?",
+    o: ["15 años", "20 años", "25 años", "50 años"],
+    c: 2, exp: "El art. 46.1 del DF 61/2013 exige una antigüedad superior a 25 años. Se exceptúan las adaptaciones para personas con discapacidad usuarias de la vivienda y las obras para adaptar instalaciones a normativa técnica de aplicación obligatoria." },
+
+  { id: "E16-04", tema: "E16",
+    q: "¿A partir de qué porcentaje de demolición de forjados horizontales una actuación deja de ser protegible como rehabilitación?",
+    o: ["Más del 40%", "Más del 50%", "Más del 60%", "Más del 75%"],
+    c: 2, exp: "El art. 45.3.a) del DF 61/2013 establece que no son protegibles las actuaciones que incluyan el vaciado interior del edificio cuando se demuele, superpone o sustituye más del 60% de la superficie de los forjados horizontales (excluida la cubierta). Excepción: edificios de más de 100 años en mal estado que mantengan fachadas y sean BIC, inventariados o catalogados." },
+
+  { id: "E16-05", tema: "E16",
+    q: "¿Cuál es el límite inferior del presupuesto protegible por vivienda para que una actuación pueda recibir calificación de rehabilitación protegida?",
+    o: ["1.000 €/vivienda", "1.500 €/vivienda", "2.000 €/vivienda", "3.000 €/vivienda"],
+    c: 2, exp: "El art. 48.2.a) del DF 61/2013 establece que únicamente podrán recibir calificación como actuaciones protegibles de rehabilitación aquellas cuyo presupuesto protegible correspondiente a viviendas (sin incluir locales), dividido por el número de viviendas resultante, sea igual o superior a 2.000 euros por vivienda." },
+
+  { id: "E16-06", tema: "E16",
+    q: "¿Qué porcentaje de subvención obtiene una comunidad de vecinos por implantar un ascensor nuevo con adaptación COMPLETA a la normativa de accesibilidad universal?",
+    o: ["20%", "40%", "60%", "80%"],
+    c: 2, exp: "El art. 55.2 del DF 61/2013 establece que la implantación de ascensor en edificios de más de 25 años que carecían del mismo, con adaptación completa a la normativa de accesibilidad universal desde la entrada hasta las puertas de todas las viviendas, recibe una subvención del 60% del presupuesto subvencionable." },
+
+  { id: "E16-07", tema: "E16",
+    q: "¿Qué porcentaje de subvención corresponde a una comunidad de vecinos por mejora de la envolvente térmica hasta alcanzar las exigencias del CTE-DB-HE-1 para nueva construcción?",
+    o: ["20%", "30%", "40%", "50%"],
+    c: 2, exp: "El art. 55.2 del DF 61/2013 establece que la mejora de la envolvente térmica en edificios a cuya construcción no fue aplicable el DB-HE del CTE, alcanzando las exigencias para edificios nuevos (limitación de demanda energética), obtiene una subvención del 40% del presupuesto subvencionable." },
+
+  { id: "E16-08", tema: "E16",
+    q: "Para promotores usuarios con ingresos ≤2,5×IPREM con edificio de 60 años en Área de Rehabilitación Preferente, ¿qué porcentaje de subvención corresponde?",
+    o: ["10%", "20%", "40%", "45%"],
+    c: 3, exp: "El art. 55.1 del DF 61/2013 establece que con ingresos ≤2,5×IPREM la subvención base para edificio ≥50 años es 20%. Pero cuando se actúa en Área de Rehabilitación Preferente (o el solicitante o cónyuge tiene ≥65 o <35 años), la subvención es del 45%, independientemente de la antigüedad del edificio." },
+
+  { id: "E16-09", tema: "E16",
+    q: "¿Cuál es la subvención máxima por vivienda para personas físicas en Áreas de Rehabilitación Preferente o viviendas unifamiliares?",
+    o: ["6.000 €/vivienda", "13.000 €/vivienda", "20.000 €/vivienda", "26.000 €/vivienda"],
+    c: 3, exp: "El art. 55.3 del DF 61/2013 fija la subvención máxima en 13.000 €/vivienda para personas físicas en general, pero en Áreas de Rehabilitación Preferente o en viviendas unifamiliares (aisladas o adosadas horizontalmente) el límite asciende a 26.000 € por vivienda." },
+
+  { id: "E16-10", tema: "E16",
+    q: "¿Qué porcentaje de subvención corresponde a la rehabilitación para alquiler de un edificio de 60 años cuando la renta no supera la equivalente a una VPO de igual superficie (fuera de ARP)?",
+    o: ["11%", "22%", "30%", "40%"],
+    c: 1, exp: "El art. 57.1 del DF 61/2013 establece tres tramos: 40% en ARP con edificio >50 años; 22% en edificios de ≥50 años (fuera de ARP); 11% en edificios de 25 a 50 años. Para un edificio de 60 años fuera de ARP, corresponde el 22% del presupuesto subvencionable (sin superar el 14% del módulo ponderado × 120 m²)." },
+
+  { id: "E16-11", tema: "E16",
+    q: "¿Cuántos años debe permanecer arrendada una vivienda rehabilitada con subvención del art. 57 del DF 61/2013?",
+    o: ["3 años", "5 años", "10 años", "15 años"],
+    c: 1, exp: "El art. 57.2 del DF 61/2013 establece que las viviendas rehabilitadas que han recibido subvención para alquiler deben permanecer en régimen de arrendamiento durante al menos 5 años de arrendamiento efectivo desde la calificación definitiva." },
+
+  { id: "E16-12", tema: "E16",
+    q: "¿Cuál es la dotación presupuestaria mínima de la ordenanza municipal requerida para declarar un Área de Rehabilitación Preferente?",
+    o: ["≥0,5% del módulo ponderado por habitante del área y año", "≥1% del módulo ponderado por habitante del área y año", "≥2% del módulo ponderado por habitante del área y año", "Sin porcentaje mínimo establecido"],
+    c: 1, exp: "Los art. 54.1 y 54.2 del DF 61/2013 exigen que para ser declarada Área de Rehabilitación Preferente exista una ordenanza municipal específica de apoyo a la rehabilitación con dotación presupuestaria no inferior al 1% del módulo ponderado aplicable por habitante del área y año." },
+
+  { id: "E16-13", tema: "E16",
+    q: "Según la Ordenanza Municipal de Rehabilitación de Pamplona, ¿cuál es el período mínimo de destino al alquiler cuando los propietarios son beneficiarios de ayudas por rehabilitación con ese destino?",
+    o: ["5 años", "10 años", "15 años", "20 años"],
+    c: 2, exp: "El art. 6.2 de la Ordenanza Municipal de Rehabilitación de Pamplona establece que las personas o entidades propietarias de viviendas que reciban ayudas por rehabilitación con destino a alquiler están obligadas a mantener dicho destino durante un período mínimo de quince años." },
+
+  { id: "E16-14", tema: "E16",
+    q: "¿A qué porcentaje de ejecución de la obra puede la Oficina de Rehabilitación de Pamplona autorizar pagos a cuenta de la subvención?",
+    o: ["50%", "60%", "70%", "80%"],
+    c: 2, exp: "El art. 9.4 de la Ordenanza Municipal de Rehabilitación de Pamplona establece que, en casos extraordinarios y previo informe de la Oficina de Rehabilitación de Viviendas, se pueden efectuar pagos a cuenta cuando se ha ejecutado al menos el 70% del total de la obra." },
+
+  { id: "E16-15", tema: "E16",
+    q: "¿Cuántos meses desde el desistimiento debe esperar el promotor para solicitar nueva calificación provisional de rehabilitación protegida?",
+    o: ["6 meses", "12 meses", "18 meses", "24 meses"],
+    c: 1, exp: "El art. 51.3 del DF 61/2013 establece que si el promotor desiste del expediente de rehabilitación protegida calificado provisionalmente, no podrá solicitar nueva calificación provisional salvo que hayan transcurrido más de 12 meses desde dicho desistimiento." },
+
+  // ── E17 ─ DF 61/2013 (III): Viviendas de Integración Social + otras actuaciones ──
+  { id: "E17-01", tema: "E17",
+    q: "¿Cuál es la antigüedad mínima de una vivienda para ser reconocida como Vivienda de Integración Social (VIS)?",
+    o: ["5 años", "10 años", "15 años", "25 años"],
+    c: 2, exp: "El art. 66.2.a) del DF 61/2013 establece que la antigüedad de la vivienda no será inferior a 15 años en el momento de solicitar el reconocimiento como Vivienda de Integración Social." },
+
+  { id: "E17-02", tema: "E17",
+    q: "¿Cuál es el límite de ingresos familiares ponderados para ser beneficiario de una Vivienda de Integración Social (VIS)?",
+    o: ["Inferiores a 1 vez el IPREM", "Inferiores a 1,4 veces el IPREM", "Inferiores a 1,7 veces el IPREM", "Inferiores a 2 veces el IPREM"],
+    c: 2, exp: "El art. 68.2 del DF 61/2013 exige que los beneficiarios tengan ingresos familiares ponderados superiores a 3.000 euros e inferiores a 1,7 veces el IPREM." },
+
+  { id: "E17-03", tema: "E17",
+    q: "¿Qué subvención obtiene el adquirente de una VIS con ingresos inferiores al IPREM?",
+    o: ["30%", "40%", "45%", "50%"],
+    c: 2, exp: "El art. 74.1 del DF 61/2013 establece una subvención general del 30% del precio de compra. Cuando el adquirente tiene ingresos familiares ponderados inferiores al IPREM, la subvención asciende al 45%." },
+
+  { id: "E17-04", tema: "E17",
+    q: "¿Qué porcentaje de subvención recibe una entidad local que adquiere una vivienda usada para destinarla al alquiler en programas de integración social?",
+    o: ["30%", "35%", "40%", "50%"],
+    c: 2, exp: "El art. 74.2 del DF 61/2013 establece que el Gobierno de Navarra otorga una subvención del 40% del precio de compra de la vivienda usada sin anejos a las entidades locales que la adquieran para destinarla al alquiler en programas de integración social." },
+
+  { id: "E17-05", tema: "E17",
+    q: "En el programa de VIS en arrendamiento, ¿qué porcentaje de la renta mensual se subvenciona durante el primer año?",
+    o: ["75%", "80%", "90%", "100%"],
+    c: 2, exp: "El art. 74.3 del DF 61/2013 establece que las personas acogidas al programa de VIS en arrendamiento perciben una subvención del 90% de la renta mensual durante el primer año, y del 75% durante el segundo año." },
+
+  { id: "E17-06", tema: "E17",
+    q: "¿Cuántos años deben mantener los adquirentes de VIS la vivienda sin transmitirla para no devolver las ayudas recibidas?",
+    o: ["5 años", "8 años", "10 años", "15 años"],
+    c: 2, exp: "El art. 73.1 del DF 61/2013 establece que en los 10 años posteriores a la escritura de compra, las viviendas adquiridas por beneficiarios de VIS solo pueden transmitirse previo reintegro de las ayudas más los intereses legales (excepción: cesiones mortis causa)." },
+
+  { id: "E17-07", tema: "E17",
+    q: "¿Qué permanencia mínima ininterrumpida en Navarra deben acreditar los beneficiarios de actuaciones protegibles en VIS?",
+    o: ["1 año", "2 años", "3 años", "5 años"],
+    c: 2, exp: "El art. 68.3 del DF 61/2013 exige que el tiempo de permanencia ininterrumpida en Navarra de los destinatarios haya sido de al menos 3 años inmediatamente anteriores a la fecha de solicitud." },
+
+  { id: "E17-08", tema: "E17",
+    q: "¿Cuál es el precio máximo por m² útil de las viviendas libres de precio limitado en municipios del subárea 10.4 del POT de Navarra?",
+    o: ["1.800 €/m²", "2.031,43 €/m²", "2.370 €/m²", "2.800 €/m²"],
+    c: 2, exp: "El art. 78.1 del DF 61/2013 fija el precio máximo en 2.370 €/m² útil para municipios del subárea 10.4 del POT, y en 2.031,43 €/m² para el resto de localidades de Navarra. Los anejos no superarán el 40% del precio de la vivienda." },
+
+  { id: "E17-09", tema: "E17",
+    q: "¿Qué porcentaje de subvención al promotor corresponde por la construcción de apartamentos protegidos para mayores de 60 años con régimen de protección de 30 años?",
+    o: ["10%", "15%", "20%", "25%"],
+    c: 2, exp: "El art. 80.1.b) del DF 61/2013 establece que la subvención al promotor equivale al 20% del precio máximo de venta si la protección dura 30 años, o al 10% si la duración es de 15 años." },
+
+  { id: "E17-10", tema: "E17",
+    q: "En programas de regeneración energética de conjuntos residenciales (art. 81-85 DF 61/2013), ¿qué porcentaje de subvención se aplica a la mejora de envolvente térmica?",
+    o: ["40% (igual al régimen general)", "45%", "50%", "60%"],
+    c: 2, exp: "El art. 85.2 del DF 61/2013 incrementa al 50% del presupuesto protegible la ayuda para mejora de envolvente térmica (CTE-DB-HE.1) encuadrada en proyectos de intervención global de regeneración energética, frente al 40% del régimen general del art. 55.2." },
+
+  { id: "E17-11", tema: "E17",
+    q: "Para acceder a la bolsa de alquiler gestionada por la sociedad instrumental, ¿cuánto tiempo debe haber permanecido vacía la vivienda antes de la solicitud?",
+    o: ["Más de 6 meses", "Más de 1 año", "Más de 2 años", "Más de 3 años"],
+    c: 1, exp: "El art. 77.1.a) del DF 61/2013 establece que pueden acceder a la bolsa de alquiler las viviendas usadas con cédula de habitabilidad que hayan permanecido vacías durante más de un año antes de la correspondiente solicitud." },
+
+  { id: "E17-12", tema: "E17",
+    q: "¿A qué precio arrienda la sociedad instrumental de la bolsa de alquiler las viviendas a los inquilinos?",
+    o: ["Al precio libre de mercado", "A precio no superior al establecido para VPO", "Al 80% del precio de mercado", "Gratuitamente, siendo el total subvencionado"],
+    c: 1, exp: "El art. 77.1.d) del DF 61/2013 establece que la sociedad instrumental arrendará las viviendas de la bolsa de alquiler a precio no superior al establecido para viviendas de protección oficial." },
+
+  { id: "E17-13", tema: "E17",
+    q: "¿Cuál es la subvención máxima por vivienda en actuaciones de mejora de envolvente térmica dentro de proyectos de intervención global de regeneración energética?",
+    o: ["5.000 €/vivienda", "6.000 €/vivienda", "7.500 €/vivienda", "10.000 €/vivienda"],
+    c: 2, exp: "El art. 85.2 del DF 61/2013 fija la subvención máxima por mejora de envolvente térmica en proyectos de intervención global de regeneración energética en 7.500 euros por vivienda, superior a los 6.000 €/vivienda del régimen general." },
+
+  { id: "E17-14", tema: "E17",
+    q: "¿Qué porcentaje de subvención sobre la renta obtiene el arrendatario de un apartamento protegido para mayores de 60 años calificado como VPO régimen general, si sus ingresos son inferiores a 1,7×IPREM?",
+    o: ["20%", "25%", "30%", "40%"],
+    c: 1, exp: "El art. 80.2 del DF 61/2013 establece que en promociones calificadas como VPO de régimen general, la subvención al arrendatario equivale al 25% de la renta, siempre que el inquilino tenga ingresos familiares ponderados inferiores a 1,7 veces el IPREM." },
+
+  { id: "E17-15", tema: "E17",
+    q: "¿Qué porcentaje de subvención puede recibir la entidad administradora del Fondo Foral de Vivienda Social para rehabilitar viviendas de dicho fondo?",
+    o: ["50%", "75%", "90%", "100%"],
+    c: 3, exp: "El art. 87 del DF 61/2013 establece que se podrá subvencionar a la entidad administradora del Fondo Foral de Vivienda Social el 100% del importe de las obras e instalaciones, así como honorarios y tasas, necesarias para que las viviendas alcancen condiciones adecuadas de habitabilidad." },
+
+  // ── E18 ─ DF 142/2004 (I): Objeto, cédula de habitabilidad, Anexo I ──
+  { id: "E18-01", tema: "E18",
+    q: "¿Cuántos años de vigencia tiene una cédula de habitabilidad de clase A?",
+    o: ["10 años", "20 años", "30 años", "50 años"],
+    c: 2, exp: "El art. 7.1 del DF 142/2004 establece que la cédula de clase A, otorgada a viviendas de nueva construcción o incluidas en rehabilitaciones que permiten total adecuación estructural y de habitabilidad, tiene una vigencia de 30 años." },
+
+  { id: "E18-02", tema: "E18",
+    q: "¿Cuántos años de vigencia tiene una cédula de habitabilidad de clase B?",
+    o: ["5 años", "10 años", "15 años", "20 años"],
+    c: 1, exp: "El art. 7.2 del DF 142/2004 establece que la cédula de clase B tiene una vigencia de 10 años. Se otorga en segundas y sucesivas renovaciones de clase A, a viviendas existentes sin cédula anterior, y en la primera renovación de clase A con más de 5 años de demora." },
+
+  { id: "E18-03", tema: "E18",
+    q: "¿Cuántos meses dura la cédula de habitabilidad provisional?",
+    o: ["3 meses", "6 meses", "9 meses", "12 meses"],
+    c: 2, exp: "El art. 7.3 del DF 142/2004 establece que la cédula provisional, de otorgamiento excepcional, tiene una vigencia de 9 meses, condicionada a la realización de obras que adecuen la vivienda o el edificio a las condiciones mínimas de habitabilidad dentro de ese plazo. Vencido el plazo, los contratos de suministros devendrán inválidos." },
+
+  { id: "E18-04", tema: "E18",
+    q: "¿Qué efecto produce el incumplimiento sobrevenido de condiciones mínimas de habitabilidad sobre la cédula vigente?",
+    o: ["Suspensión temporal durante 6 meses mientras se subsana", "Pérdida automática de vigencia de la cédula", "Imposición de multa sin pérdida de vigencia", "Renovación condicionada con nuevo plazo de subsanación"],
+    c: 1, exp: "El art. 5.2 del DF 142/2004 dispone que el incumplimiento sobrevenido de alguna condición mínima implica automáticamente la pérdida de vigencia de la cédula, que podrá ser constatada y declarada por el Departamento en cualquier momento conforme al procedimiento de los art. 12 y 13." },
+
+  { id: "E18-05", tema: "E18",
+    q: "¿En cuántos meses debe el Departamento emitir el informe previo de habitabilidad solicitado por la entidad local antes de conceder una licencia de obras de nueva planta?",
+    o: ["1 mes", "2 meses", "3 meses", "6 meses"],
+    c: 1, exp: "El art. 10.2 del DF 142/2004 establece que el plazo para emitir el informe previo de habitabilidad es de 2 meses. Si el Departamento no lo notifica a la entidad local en ese plazo, el informe se entiende favorable para continuar la tramitación." },
+
+  { id: "E18-06", tema: "E18",
+    q: "Según el Anexo I del DF 142/2004, ¿cuál es el suministro mínimo de agua potable exigible por vivienda y día?",
+    o: ["250 litros", "300 litros", "400 litros", "500 litros"],
+    c: 3, exp: "El art. 2 del Anexo I del DF 142/2004 exige que el edificio cuente con suministro de agua potable desde red pública o captaciones privadas que permitan un mínimo de 500 litros por vivienda y día." },
+
+  { id: "E18-07", tema: "E18",
+    q: "¿Cuál es la altura mínima de protección (barandilla o antepecho) exigida en desniveles superiores a 60 cm en viviendas existentes (Anexo I del DF 142/2004)?",
+    o: ["80 cm", "90 cm", "95 cm", "110 cm"],
+    c: 1, exp: "El art. 3.d) del Anexo I del DF 142/2004 establece que cuando existan desniveles superiores a 60 cm debe situarse un elemento de protección, antepecho o barandado con una altura mínima de 90 cm." },
+
+  { id: "E18-08", tema: "E18",
+    q: "Según el Anexo I del DF 142/2004, ¿cuál es la superficie mínima del dormitorio principal en viviendas existentes?",
+    o: ["6 m²", "8 m²", "10 m²", "12 m²"],
+    c: 1, exp: "El art. 11.c) del Anexo I del DF 142/2004 exige que el dormitorio principal tenga al menos 8 m² con inscripción de un cuadrado de 2 m de lado. Los dormitorios adicionales tendrán al menos 6 m²." },
+
+  { id: "E18-09", tema: "E18",
+    q: "Según el Anexo I del DF 142/2004, ¿cuál es la superficie mínima del aseo (inodoro + lavabo + ducha o bañera) en viviendas existentes?",
+    o: ["1 m²", "1,5 m²", "2 m²", "2,5 m²"],
+    c: 1, exp: "El art. 11.d) del Anexo I del DF 142/2004 exige que el aseo tenga una superficie no menor de 1,5 m² con inodoro de cierre hidráulico, lavabo y ducha o bañera. No puede dar acceso directo a la cocina." },
+
+  { id: "E18-10", tema: "E18",
+    q: "Según el Anexo I del DF 142/2004, ¿cuál es la superficie mínima de la cocina independiente en viviendas existentes?",
+    o: ["4 m²", "5 m²", "6 m²", "7 m²"],
+    c: 1, exp: "El art. 11.a) del Anexo I del DF 142/2004 establece que la cocina independiente debe tener al menos 5 m² de superficie útil, con inscripción de un rectángulo de 1,80 × 1,20 m en su interior." },
+
+  { id: "E18-11", tema: "E18",
+    q: "¿Cuáles son las condiciones mínimas de los patios a los que abren dormitorios o salas de estar en viviendas existentes (Anexo I del DF 142/2004)?",
+    o: ["≥4 m², círculo ø≥1,5 m, luces rectas ≥1,5 m", "≥6 m², círculo ø≥2 m, luces rectas ≥2 m", "≥8 m², círculo ø≥2,5 m, luces rectas ≥3 m", "≥10 m², círculo ø≥3 m, luces rectas ≥3 m"],
+    c: 1, exp: "El art. 7.1 del Anexo I del DF 142/2004 exige: superficie mínima de 6 m², posibilidad de inscribir un círculo de 2 m de diámetro y luces rectas mínimas de 2 m. Si solo abre la cocina, los mínimos son 4 m² y 1,50 m de luces rectas." },
+
+  { id: "E18-12", tema: "E18",
+    q: "¿Cuál es la altura libre mínima que debe tener un espacio para que su superficie compute en el cómputo de superficies mínimas del Anexo I del DF 142/2004?",
+    o: ["1,70 m", "1,80 m", "1,90 m", "2,10 m"],
+    c: 2, exp: "El art. 12.1 del Anexo I del DF 142/2004 establece que para el cómputo de superficies mínimas solo se contempla la parte de superficie útil con altura libre mayor o igual que 1,90 m, siempre que la altura media del local supere los 2,10 m." },
+
+  { id: "E18-13", tema: "E18",
+    q: "¿Qué proporción mínima de la superficie de iluminación debe tener la ventilación de los huecos exteriores en viviendas existentes (Anexo I del DF 142/2004)?",
+    o: ["Un cuarto de la superficie de iluminación", "Un tercio de la superficie de iluminación", "La mitad de la superficie de iluminación", "Dos tercios de la superficie de iluminación"],
+    c: 1, exp: "El art. 19.4 del Anexo I del DF 142/2004 establece que la superficie de ventilación será al menos un tercio de la de iluminación. Los huecos de iluminación exterior tendrán superficie no inferior a 0,8 m² ni al 8% de los primeros 20 m² de la habitación." },
+
+  { id: "E18-14", tema: "E18",
+    q: "¿En qué supuesto excepcional puede el Departamento eximir del cumplimiento de condiciones básicas del Anexo I del DF 142/2004?",
+    o: ["Obras con presupuesto inferior a 20.000 €", "Construcciones anteriores a 1944 cuyo propietario-residente habita la vivienda desde antes de julio de 1985", "Municipios de menos de 500 habitantes", "Nunca; las condiciones del Anexo I son absolutamente inalterables"],
+    c: 1, exp: "El art. 3.5 del DF 142/2004 permite eximir del Anexo I cuando la construcción sea anterior al 1 de marzo de 1944 y se acredite que el residente es propietario y habita la vivienda como morada habitual desde antes del 1 de julio de 1985. En este caso, la cédula es personal e intransferible para ese residente." },
+
+  { id: "E18-15", tema: "E18",
+    q: "¿Pueden considerarse habitables las viviendas situadas en planta sótano según el DF 142/2004?",
+    o: ["Sí, con ventilación artificial forzada", "Sí, con iluminación cenital suficiente", "No, en ningún caso", "Sí, con autorización expresa del departamento de vivienda"],
+    c: 2, exp: "El art. 10.1 del Anexo I del DF 142/2004 establece taxativamente que no podrán considerarse habitables las viviendas situadas en planta sótano, sin excepción alguna." },
+
+  // ── E19 ─ DF 142/2004 (II): Anexo II — viviendas nuevas y rehabilitaciones equiparadas ──
+  { id: "E19-01", tema: "E19",
+    q: "¿Cuándo se considera que una rehabilitación es equiparable a obra nueva a efectos del Anexo II del DF 142/2004?",
+    o: ["Cuando el presupuesto supera el 50% del módulo ponderado y afecta a más de la mitad del edificio", "Cuando interviene en la totalidad de las viviendas y el PEM/m² supera el 70% del módulo ponderado", "Cuando se cambia más del 30% de los forjados del edificio", "Cuando se solicita calificación de rehabilitación integral al departamento de vivienda"],
+    c: 1, exp: "El art. 1.2 del Anexo II del DF 142/2004 establece que la rehabilitación es equiparable a obra nueva cuando afecta a la totalidad de las viviendas del edificio y el presupuesto de ejecución material dividido por m² construidos supera el 70% del módulo ponderado anual. También se equipara si se produce vaciado total o demolición de más del 60% de los forjados (excluida cubierta)." },
+
+  { id: "E19-02", tema: "E19",
+    q: "¿A partir de qué planta resulta obligatoria la instalación de ascensor en edificios de vivienda colectiva de nueva planta?",
+    o: ["Si hay vivienda en la 1ª planta sin contar la baja", "Si hay vivienda en la 2ª planta sin contar la baja", "Si hay vivienda en la 3ª planta sin contar la baja", "Si hay vivienda en la 4ª planta sin contar la baja"],
+    c: 2, exp: "El art. 4.2 del Anexo II del DF 142/2004 establece que es obligatoria la instalación de ascensor para cada núcleo de comunicaciones verticales en edificios de vivienda colectiva que cuenten con alguna vivienda cuyo acceso se sitúe en la planta tercera del edificio, sin contar la planta baja." },
+
+  { id: "E19-03", tema: "E19",
+    q: "¿Cuáles son las dimensiones interiores mínimas del ascensor cuando da servicio a 16 o menos viviendas (Anexo II del DF 142/2004)?",
+    o: ["Fondo 0,90 m × anchura 0,80 m", "Fondo 1,00 m × anchura 0,90 m", "Fondo 1,20 m × anchura 1,00 m", "Fondo 1,40 m × anchura 1,10 m"],
+    c: 2, exp: "El art. 4.6.a) del Anexo II del DF 142/2004 establece que si el ascensor da servicio a 16 o menos viviendas, tendrá fondo de 1,20 m y anchura de 1,00 m. Para más de 16 viviendas, el fondo mínimo es 1,40 m y la anchura 1,10 m." },
+
+  { id: "E19-04", tema: "E19",
+    q: "¿Cuál es el número máximo de viviendas por ascensor según el Anexo II del DF 142/2004?",
+    o: ["16 viviendas", "20 viviendas", "24 viviendas", "30 viviendas"],
+    c: 2, exp: "El art. 4.7 del Anexo II del DF 142/2004 establece que el número de ascensores se determinará de modo que no se supere la relación de 24 viviendas por ascensor." },
+
+  { id: "E19-05", tema: "E19",
+    q: "¿Cuál es la altura libre mínima en techos horizontales de viviendas nuevas según el Anexo II del DF 142/2004?",
+    o: ["2,20 m", "2,30 m", "2,40 m", "2,50 m"],
+    c: 2, exp: "El art. 12.1 del Anexo II del DF 142/2004 establece que la altura libre vertical mínima en techos horizontales (o con pendiente inferior al 30%) es de 2,40 m. En elementos de distribución, aseos, cocinas y tendederos cubiertos se admiten falsos techos que dejen 2,20 m." },
+
+  { id: "E19-06", tema: "E19",
+    q: "¿Cuál es la superficie mínima de la sala de estar en una vivienda nueva de 2 dormitorios?",
+    o: ["10 m²", "12 m²", "14 m²", "16 m²"],
+    c: 1, exp: "El art. 13.1 del Anexo II del DF 142/2004 establece que en viviendas de 1 o 2 dormitorios la sala de estar debe tener como mínimo 12 m², pudiendo inscribir un rectángulo de 2,70 × 3,50 m. Para más de 2 dormitorios, la superficie se incrementa 2 m² por dormitorio adicional." },
+
+  { id: "E19-07", tema: "E19",
+    q: "¿Cuál es la superficie mínima del dormitorio principal en viviendas de nueva planta según el Anexo II del DF 142/2004?",
+    o: ["8 m²", "9 m²", "10 m²", "12 m²"],
+    c: 2, exp: "El art. 15.1 del Anexo II del DF 142/2004 establece que toda vivienda debe contar con al menos un dormitorio de 10 o más m² en el que pueda inscribirse un cuadrado de 2,50 m de lado. Los dormitorios restantes tendrán superficie mínima de 8 m²." },
+
+  { id: "E19-08", tema: "E19",
+    q: "¿Cuál es la superficie mínima del baño en viviendas nuevas según el Anexo II del DF 142/2004?",
+    o: ["1,70 m²", "2,00 m²", "2,50 m²", "3,00 m²"],
+    c: 2, exp: "El art. 16.1 del Anexo II del DF 142/2004 establece que el baño tendrá superficie mínima de 2,50 m², con ducha, inodoro y lavabo, y espacio suficiente para sustituir el plato de ducha por una bañera de 1,40 × 0,70 m." },
+
+  { id: "E19-09", tema: "E19",
+    q: "¿Cuál es la anchura mínima de los pasillos interiores en viviendas de nueva planta (Anexo II del DF 142/2004)?",
+    o: ["70 cm", "80 cm", "90 cm", "100 cm"],
+    c: 2, exp: "El art. 18.2 del Anexo II del DF 142/2004 establece que los pasillos tendrán una anchura mínima de 90 cm. Se admiten estrechamientos puntuales hasta 80 cm siempre que el elemento que los produce no tenga fondo superior a la anchura libre que deja." },
+
+  { id: "E19-10", tema: "E19",
+    q: "¿Cuál es la anchura mínima de las puertas de paso interiores en viviendas de nueva planta (Anexo II del DF 142/2004)?",
+    o: ["70 cm", "80 cm", "90 cm", "100 cm"],
+    c: 1, exp: "El art. 18.3 del Anexo II del DF 142/2004 establece que la anchura mínima de puertas de paso interiores es de 80 cm." },
+
+  { id: "E19-11", tema: "E19",
+    q: "¿Cuáles son las dimensiones mínimas de una plaza de garaje con acceso frontal en viviendas nuevas (Anexo II del DF 142/2004)?",
+    o: ["2,0 × 4,5 m", "2,2 × 4,5 m", "2,3 × 4,7 m", "2,5 × 5,0 m"],
+    c: 2, exp: "El art. 8.4.1 del Anexo II del DF 142/2004 establece dimensiones mínimas de 2,3 m × 4,7 m con acceso frontal. En aparcamiento en línea: 2,2 m × 5,0 m. Si hay pared lateral, la anchura mínima es 2,8 m." },
+
+  { id: "E19-12", tema: "E19",
+    q: "¿Cuál es la altura libre mínima exigida en garajes de nueva creación en edificios de vivienda (Anexo II del DF 142/2004)?",
+    o: ["1,90 m", "2,00 m", "2,10 m", "2,20 m"],
+    c: 2, exp: "El art. 8.1.4 del Anexo II del DF 142/2004 establece que la altura mínima libre en cualquier punto de plaza de aparcamiento, rampa o elemento de circulación es de 2,10 m, incluido el espacio ocupado por la puerta de acceso." },
+
+  { id: "E19-13", tema: "E19",
+    q: "¿Cuál es la superficie mínima de la cocina independiente en viviendas nuevas con más de 1 dormitorio (Anexo II del DF 142/2004)?",
+    o: ["5 m²", "6 m²", "7 m²", "8 m²"],
+    c: 2, exp: "El art. 14.1 del Anexo II del DF 142/2004 establece que la cocina tendrá superficie mínima de 5 m² en viviendas de un solo dormitorio y de 7 m² en el resto de los casos, con inscripción de un rectángulo de 3 × 1,60 m o cuadrado de 2,20 m de lado." },
+
+  { id: "E19-14", tema: "E19",
+    q: "¿Cuál es la longitud mínima de cuerdas de tendedero exigida en cada vivienda de nueva planta (Anexo II del DF 142/2004)?",
+    o: ["3 m", "4 m", "6 m", "8 m"],
+    c: 2, exp: "El art. 17.1 del Anexo II del DF 142/2004 establece que en toda vivienda se podrá tender ropa al exterior con protección de vistas desde la calle, con una longitud mínima de cuerda de 6 m en tramos no inferiores a 1 m y separados horizontalmente al menos 20 cm." },
+
+  { id: "E19-15", tema: "E19",
+    q: "¿Cuál es la presión máxima admitida en las redes de agua fría y caliente de cocinas y aseos según el Anexo II del DF 142/2004?",
+    o: ["3 kg/cm²", "4 kg/cm²", "4,5 kg/cm²", "5 kg/cm²"],
+    c: 2, exp: "El art. 20.2 del Anexo II del DF 142/2004 establece que las redes de agua en cocina y aseos deben tener presión entre 1 y 4,5 kg/cm², velocidad ≤1,5 m/s y el equipo de ACS debe garantizar 13 l/min a 40°C o 75 l acumulados." },
+
+  // ── E20 ─ LF 17/2020: Actividades con Incidencia Ambiental ──
+  { id: "E20-01", tema: "E20",
+    q: "¿Cuál es el plazo máximo para resolver una solicitud de licencia de actividad clasificada (LAC) desde la presentación completa?",
+    o: ["2 meses", "3 meses", "4 meses", "6 meses"],
+    c: 2, exp: "El art. 42.1 de la LF 17/2020 establece que el titular de la entidad local debe dictar resolución en el plazo máximo de 4 meses. Transcurrido ese plazo sin resolución notificada, la solicitud se entiende desestimada (silencio negativo, art. 42.3)." },
+
+  { id: "E20-02", tema: "E20",
+    q: "¿Qué sentido tiene el silencio administrativo en la tramitación de la licencia de actividad clasificada según la LF 17/2020?",
+    o: ["Silencio positivo: la licencia se entiende concedida", "Silencio negativo: la solicitud se entiende desestimada", "El expediente queda en suspenso indefinidamente", "Se aplica una licencia provisional de 6 meses"],
+    c: 1, exp: "El art. 42.3 de la LF 17/2020 establece que transcurrido el plazo de 4 meses sin que se dicte y notifique la resolución, debe entenderse desestimada la solicitud de licencia de actividad clasificada (silencio administrativo negativo)." },
+
+  { id: "E20-03", tema: "E20",
+    q: "¿Cuáles son los principios inspiradores de la intervención ambiental de las administraciones públicas de Navarra según la LF 17/2020?",
+    o: ["Solo prevención y quien contamina paga", "Prevención, precaución, quien contamina paga, economía circular, reparación en la fuente y participación", "Precaución, transparencia y sostenibilidad económica", "Quien contamina paga, evaluación de impacto y coordinación interadministrativa"],
+    c: 1, exp: "El art. 2 de la LF 17/2020 establece que la actuación de las administraciones se inspirará en los principios de prevención, precaución o cautela, quien contamina paga, economía circular, reparación o corrección preferentemente en la fuente, y participación." },
+
+  { id: "E20-04", tema: "E20",
+    q: "¿Cuál de las siguientes NO es una forma de intervención ambiental regulada en la LF 17/2020?",
+    o: ["Autorización ambiental integrada", "Licencia de actividad clasificada", "Evaluación ambiental estratégica", "Certificado de compatibilidad ambiental"],
+    c: 3, exp: "El art. 8.3 de la LF 17/2020 enumera las formas de intervención: evaluación ambiental (EAE/EIA), autorización ambiental integrada, autorización ambiental unificada, evaluación de afecciones ambientales, licencia de actividad clasificada y declaración responsable. El 'certificado de compatibilidad ambiental' no existe en esta ley." },
+
+  { id: "E20-05", tema: "E20",
+    q: "¿Cuántos años tiene el titular para iniciar la actividad desde la concesión de la licencia de actividad clasificada?",
+    o: ["6 meses", "1 año", "2 años", "4 años"],
+    c: 2, exp: "El art. 44.1 de la LF 17/2020 establece que una vez otorgada la LAC, el titular dispone de un plazo máximo de 2 años para iniciar la actividad, salvo que la propia licencia establezca un plazo distinto." },
+
+  { id: "E20-06", tema: "E20",
+    q: "¿Cómo se habilita el inicio efectivo de la actividad una vez obtenida la licencia de actividad clasificada?",
+    o: ["Comunicación al ayuntamiento con 15 días de antelación", "Declaración responsable del titular de que cumple las condiciones de la licencia", "Acta de inicio firmada por técnico competente y visada colegialmente", "Sin trámite adicional; la LAC por sí sola habilita el inicio"],
+    c: 1, exp: "El art. 44.2 de la LF 17/2020 establece que la actividad puede ponerse en marcha tras la presentación de una declaración responsable en la que el titular manifiesta que cumple las condiciones fijadas en la licencia y los requisitos exigibles por la normativa vigente." },
+
+  { id: "E20-07", tema: "E20",
+    q: "¿Cuándo caduca la licencia de actividad clasificada según la LF 17/2020?",
+    o: ["A los 4 años de su concesión sin uso", "Cuando se lleva a cabo una modificación sustancial no autorizada", "Cuando se supera el plazo de inicio sin presentar la declaración responsable de puesta en marcha", "Cuando se transmite la titularidad sin comunicación previa"],
+    c: 2, exp: "El art. 45.1 de la LF 17/2020 establece que, superado el plazo para el inicio de la actividad sin que se presente la declaración responsable de puesta en marcha, la LAC agotará sus efectos y devendrá ineficaz." },
+
+  { id: "E20-08", tema: "E20",
+    q: "¿Cuándo puede el titular llevar a cabo una modificación NO sustancial de su instalación clasificada sin nueva tramitación completa?",
+    o: ["Solo cuando la entidad local la autorice expresamente", "Cuando la entidad local no manifiesta lo contrario en el plazo de 1 mes desde la comunicación", "Inmediatamente tras comunicarlo, sin período de espera", "Solo si el técnico director certifica ausencia de impacto ambiental"],
+    c: 1, exp: "El art. 48.3 de la LF 17/2020 establece que si el titular comunica la modificación y la califica como no sustancial, podrá llevarla a cabo si la entidad local no manifiesta lo contrario en el plazo máximo de 1 mes, sin perjuicio de licencias de obras u otras autorizaciones necesarias." },
+
+  { id: "E20-09", tema: "E20",
+    q: "¿Qué consideración legal tiene el personal inspector de actividades con incidencia ambiental según la LF 17/2020?",
+    o: ["Funcionario de carrera con habilitación nacional", "Agente de la autoridad", "Perito judicial independiente", "Fedatario público con fe pública administrativa"],
+    c: 1, exp: "El art. 58.1 de la LF 17/2020 establece que el personal oficialmente designado para labores de inspección ambiental goza de la consideración de agente de la autoridad para el ejercicio de las funciones que le son propias." },
+
+  { id: "E20-10", tema: "E20",
+    q: "Según el Anejo 3 de la LF 17/2020, ¿qué rango de potencia determina qué instalaciones de combustión están sometidas a licencia de actividad clasificada?",
+    o: ["Potencia menor de 250 kW", "Potencia ≥250 kW y <5 MW", "Potencia ≥1 MW y <10 MW", "Cualquier potencia de instalación de combustión industrial"],
+    c: 1, exp: "El Anejo 3, Grupo 1 de la LF 17/2020 somete a licencia de actividad clasificada a calderas, generadores de vapor u otros equipos de combustión (excluida la generación eléctrica) con potencia técnica nominal inferior a 5 MW y superior o igual a 250 kW." },
+
+  { id: "E20-11", tema: "E20",
+    q: "Según el Anejo 3 de la LF 17/2020, ¿cuál es la superficie máxima de los talleres de transformación de productos metálicos sin tratamientos superficiales para quedar incluidos en la licencia de actividad clasificada?",
+    o: ["500 m²", "1.000 m²", "2.000 m²", "5.000 m²"],
+    c: 2, exp: "El Anejo 3, Grupo 2.2 de la LF 17/2020 incluye los talleres e industrias de transformación de productos metálicos (corte, mecanizado, troquelado, soldadura, etc.) sin tratamientos superficiales en baños líquidos, con superficie construida total ≤2.000 m²." },
+
+  { id: "E20-12", tema: "E20",
+    q: "Según el Anejo 3 de la LF 17/2020, ¿qué actividades de alojamiento turístico se someten a licencia de actividad clasificada?",
+    o: ["Las de 5 o más plazas", "Las de más de 50 plazas", "Las no sometidas a declaración responsable o comunicación previa según normativa básica estatal", "Todas las actividades de alojamiento turístico sin excepción"],
+    c: 2, exp: "El Anejo 3, Grupo 15.5 de la LF 17/2020 somete a licencia de actividad clasificada las actividades de alojamiento turístico (hoteles, hospederías, albergues, balnearios, etc.) que no estén sometidas a declaración responsable o comunicación previa según la normativa básica estatal." },
+
+  { id: "E20-13", tema: "E20",
+    q: "¿Qué obligación tienen los titulares al cesar definitivamente una actividad clasificada en suelo no urbanizable?",
+    o: ["Comunicarlo al departamento de medio ambiente en 30 días", "Presentar un plan de restauración a la entidad local", "Reponer los terrenos a su estado original mediante demolición en el plazo máximo de 5 años", "Transferir la licencia a un nuevo titular en el plazo de 1 año"],
+    c: 2, exp: "El art. 52 de la LF 17/2020 establece que el cese definitivo de la actividad en suelo no urbanizable conlleva la obligación del titular de reponer los terrenos afectados a su estado original mediante la demolición y/o retirada de las construcciones utilizadas en el plazo máximo de 5 años." },
+
+  { id: "E20-14", tema: "E20",
+    q: "¿Qué órgano tiene la competencia inspectora de las actividades con autorización ambiental integrada o unificada en Navarra?",
+    o: ["El departamento de industria del GN", "El departamento de sanidad del GN", "El departamento competente en materia de medio ambiente del GN", "La entidad local donde se ubique la actividad"],
+    c: 2, exp: "El art. 56.1 de la LF 17/2020 establece que corresponde al Gobierno de Navarra (departamento competente en medio ambiente) la inspección de las instalaciones en las que haya emitido declaración de impacto ambiental, autorización para su puesta en marcha o informe de afecciones ambientales." },
+
+  { id: "E20-15", tema: "E20",
+    q: "¿A quién corresponde la inspección de las actividades sometidas a licencia de actividad clasificada según la LF 17/2020?",
+    o: ["Exclusivamente al Gobierno de Navarra", "A la entidad local que la otorgó y también a los departamentos del GN que emitieron informe vinculante previo", "A la entidad local exclusivamente", "Al departamento de medio ambiente del GN exclusivamente"],
+    c: 1, exp: "El art. 56.4 de la LF 17/2020 establece que la inspección de las actividades sometidas a LAC corresponde a las entidades locales en cuyo ámbito estén ubicadas y que otorgaron la licencia, y también a los departamentos del GN que hubieran emitido informe vinculante previo a la concesión." },
 ];

@@ -1821,4 +1821,383 @@ export const RESUMENES = {
       "Préstamo cualificado: máx. 80% · hasta 30 años + 3 años carencia",
     ],
   },
+
+  E16: {
+    intro: "El DF 61/2013 regula las actuaciones protegibles de rehabilitación de edificios (art. 45-57) y la Ordenanza Municipal de Rehabilitación de Pamplona. Exige antigüedad >25 años, presupuesto mínimo de 2.000 €/viv y porcentaje mínimo del 50% de superficie útil destinada a vivienda.",
+    bloques: [
+      {
+        h: "Condiciones para ser protegible (art. 45-48)",
+        items: [
+          "≥50% superficie útil total (exc. baja y sótano) destinada a vivienda",
+          "Antigüedad >25 años (exc.: accesibilidad sobrevenida o normativa técnica obligatoria)",
+          "No protegibles: vaciado >60% forjados; derribo de fachadas; superficie >120 m²",
+          "Presupuesto protegible mínimo: 2.000 €/viv (excluidos locales)",
+          "Presupuesto máximo: precio VPO/m² × 120 m²",
+          "Presupuesto subvencionable: ≤50% módulo ponderado × 120 m² + 20% módulo × anejos",
+        ],
+      },
+      {
+        h: "Plazos (art. 49-51)",
+        items: [
+          "Inicio obras: máx. 6 meses desde calificación provisional",
+          "Fin obras (solicitud calificación definitiva): máx. 36 meses",
+          "Prórroga de plazo: hasta 18 meses adicionales",
+          "Desistimiento: 12 meses de espera para nueva calificación provisional",
+        ],
+      },
+      {
+        h: "Subvenciones a personas físicas (art. 55.1)",
+        items: [
+          "Ingresos ≤2,5×IPREM, <50 años: 10%",
+          "Ingresos ≤2,5×IPREM, ≥50 años: 20%",
+          "Ingresos ≤2,5×IPREM, ARP o edad ≥65 o <35 años: 45%",
+          "Ingresos ≤2,5×IPREM, PIG-ARP o discapacidad ≥40%: 50%",
+          "Ingresos 2,5-3,5×IPREM, <50 años: 5%",
+          "Ingresos 2,5-3,5×IPREM, ≥50 años: 10%",
+          "Ingresos 2,5-3,5×IPREM, ARP o edad ≥65 o <35 años: 30%",
+          "Ingresos 2,5-3,5×IPREM, PIG-ARP o discapacidad ≥40%: 40%",
+        ],
+      },
+      {
+        h: "Subvenciones a comunidades de vecinos (art. 55.2)",
+        items: [
+          "Mejora envolvente térmica hasta CTE-HE1 nueva construcción: 40%",
+          "Ascensor NUEVO + adaptación COMPLETA a accesibilidad universal: 60%",
+          "Sin ascensor + obras de adaptación SIN ascensor (parcial): 40%",
+          "Con ascensor existente + obras de adaptación COMPLETA: 40%",
+          "Con ascensor existente + obras de adaptación PARCIAL: 20%",
+          "Eficiencia térmica mediante instalaciones centralizadas: 40%",
+          "Anillado de instalaciones: 20%",
+        ],
+      },
+      {
+        h: "Subvenciones máximas por vivienda (art. 55.3)",
+        items: [
+          "CCVV – máximo general: 5.000 €/viv",
+          "Sin ascensor previo + adaptación completa: 10.000 €/viv (o 13.000 €/viv si <11 viv/núcleo)",
+          "Mejora de envolvente: 6.000 €/viv",
+          "Personas físicas en general: 13.000 €/viv",
+          "ARP o unifamiliar aislada/adosada horizontalmente: 26.000 €/viv",
+        ],
+      },
+      {
+        h: "Rehabilitación para alquiler (art. 57)",
+        items: [
+          "ARP + edificio >50 años: 40% del presupuesto subvencionable",
+          "Edificio ≥50 años (fuera de ARP): 22%",
+          "Edificio 25-50 años: 11%",
+          "Permanencia mínima en arrendamiento: 5 años",
+          "Entidades locales / entidades públicas: 75%, máx. 60.000 €, 10 años",
+        ],
+      },
+      {
+        h: "Áreas de Rehabilitación Preferente (art. 54)",
+        items: [
+          "Edificación >50 años Y ordenanza municipal dotada ≥1% módulo ponderado/habitante/año",
+          "Centros históricos: >70% de edificios con antigüedad >50 años",
+        ],
+      },
+      {
+        h: "Ordenanza Municipal de Rehabilitación de Pamplona",
+        items: [
+          "Ámbito: Casco Antiguo, Ensanches, Milagrosa y resto de la ciudad",
+          "Período mínimo de destino: 5 años (uso privativo) / 15 años (alquiler)",
+          "Pagos a cuenta: posibles al ejecutar ≥70% de la obra",
+        ],
+      },
+    ],
+    claves: [
+      "2.000 €/viv mínimo de presupuesto protegible; máximo = VPO/m² × 120 m²",
+      "Antigüedad >25 años (salvo accesibilidad sobrevenida o normativa técnica obligatoria)",
+      "Inicio obras: 6 meses; fin: 36 meses; prórroga: 18 meses; desistimiento: espera 12 meses",
+      "Ascensor nuevo + accesibilidad completa: 60% (la subvención más alta de CCVV)",
+      "Personas en ARP o unifamiliar: hasta 26.000 €/viv",
+      "Alquiler en ARP + >50 años: 40%; ≥50 años fuera ARP: 22%; 25-50 años: 11%",
+      "Ordenanza Pamplona: destino alquiler mínimo 15 años; pagos a cuenta al 70% ejecución",
+    ],
+  },
+
+  E17: {
+    intro: "El DF 61/2013 regula tres grupos de actuaciones adicionales: Viviendas de Integración Social (VIS, art. 62-77), otras actuaciones específicas (bolsa alquiler, viviendas libres de precio limitado, apartamentos mayores/discapacidad, regeneración energética, art. 77-90) y el Fondo Foral de Vivienda Social (art. 87).",
+    bloques: [
+      {
+        h: "Viviendas de Integración Social (VIS) – Requisitos (art. 66-68)",
+        items: [
+          "Viviendas usadas, antigüedad ≥15 años, con cédula de habitabilidad",
+          "Precio ≤módulo ponderado sin corregir; superficie ≤120 m² (subvencionable ≤90 m²)",
+          "Beneficiarios: ingresos >3.000 € y <1,7×IPREM",
+          "Permanencia en Navarra: ≥3 años ininterrumpidos inmediatamente anteriores",
+        ],
+      },
+      {
+        h: "VIS – Ayudas (art. 73-74)",
+        items: [
+          "Vinculación: no transmisión en los 10 años siguientes (excepto mortis causa)",
+          "Subvención compra: 30% del precio (45% si ingresos <IPREM)",
+          "Entidades locales que compran para alquiler social: 40%",
+          "Arrendatarios VIS: 90% renta 1er año / 75% renta 2º año",
+        ],
+      },
+      {
+        h: "Bolsa de alquiler (art. 77)",
+        items: [
+          "Vivienda vacía >1 año + cédula de habitabilidad",
+          "Gestión: sociedad instrumental del Gobierno de Navarra",
+          "Precio arrendamiento: ≤precio VPO de igual superficie",
+        ],
+      },
+      {
+        h: "Viviendas libres de precio limitado (art. 78)",
+        items: [
+          "Precio máx. en subárea 10.4 del POT: 2.370 €/m² útil",
+          "Precio máx. en resto de Navarra: 2.031,43 €/m² útil",
+          "Anejos: precio ≤40% del precio de la vivienda",
+        ],
+      },
+      {
+        h: "Apartamentos protegidos para mayores/discapacidad (art. 80)",
+        items: [
+          "Subvención promotor: 20% (protección 30 años) / 10% (protección 15 años)",
+          "Subvención arrendatario (VPO régimen general): 25% si ingresos <1,7×IPREM",
+        ],
+      },
+      {
+        h: "Regeneración energética de conjuntos residenciales (art. 81-85)",
+        items: [
+          "Envolvente térmica hasta CTE-HE1: 50% (vs. 40% del régimen general)",
+          "Subvención máxima: 7.500 €/viv (vs. 6.000 €/viv del régimen general)",
+          "Accesibilidad en PIG: +5% adicional sobre el porcentaje base",
+        ],
+      },
+      {
+        h: "Fondo Foral de Vivienda Social (art. 87)",
+        items: [
+          "Subvención a la entidad administradora: 100% de obras, honorarios y tasas",
+        ],
+      },
+    ],
+    claves: [
+      "VIS: usadas ≥15 años, precio ≤módulo, ingresos >3.000 € y <1,7×IPREM",
+      "VIS compra: 30% (45% si <IPREM); entidades locales: 40%; arrendatario: 90%/75%",
+      "Vinculación VIS: 10 años sin transmitir (excepto mortis causa)",
+      "Bolsa alquiler: vacía >1 año; precio ≤VPO",
+      "Libre precio limitado: 2.370 €/m² (subárea 10.4) / 2.031,43 €/m² (resto)",
+      "Regeneración energética: envolvente 50%, máx. 7.500 €/viv",
+      "Fondo Foral Vivienda Social: 100% de subvención al gestor",
+    ],
+  },
+
+  E18: {
+    intro: "El DF 142/2004 establece las condiciones mínimas de habitabilidad de las viviendas en Navarra. Regula la cédula de habitabilidad (clases A, B y provisional) y el Anexo I (condiciones aplicables a todas las viviendas existentes).",
+    bloques: [
+      {
+        h: "Cédula de habitabilidad (art. 5-7)",
+        items: [
+          "Clase A (nueva planta o rehab. integral): vigencia 30 años",
+          "Clase B (2ª y sucesivas renovaciones, existente sin cédula previa): vigencia 10 años",
+          "Provisional (excepcional, con obras pendientes): vigencia 9 meses",
+          "Incumplimiento sobrevenido → pérdida automática de vigencia",
+          "Exigible para contratos de suministro (agua, gas, electricidad) y ante notario en compraventas",
+        ],
+      },
+      {
+        h: "Informe previo y tramitación (art. 9-10)",
+        items: [
+          "Entidad local solicita informe previo al departamento antes de conceder licencia de obra nueva",
+          "Plazo: 2 meses; silencio = favorable (permite continuar tramitación)",
+          "Toda vivienda debe cumplir Anexo I; nueva o reforma: Anexo I + II; protección pública: I + II + III",
+          "Excepción Anexo I: construcción anterior a 1944 + propietario-residente desde antes de julio 1985 (cédula personal e intransferible)",
+        ],
+      },
+      {
+        h: "Condiciones de salubridad (Anexo I, art. 2-5)",
+        items: [
+          "Suministro agua potable: mínimo 500 l/vivienda/día",
+          "Evacuación de aguas residuales a red de alcantarillado o fosa séptica",
+          "No se pueden considerar habitables las viviendas en planta sótano",
+        ],
+      },
+      {
+        h: "Condiciones de seguridad (Anexo I, art. 3)",
+        items: [
+          "Barandilla/antepecho en desniveles >60 cm: altura mínima 90 cm",
+        ],
+      },
+      {
+        h: "Superficies y dimensiones mínimas (Anexo I, art. 11-12)",
+        items: [
+          "Cocina independiente: ≥5 m² (rectángulo 1,80×1,20 m)",
+          "Sala de estar: ≥9 m² (rectángulo 2,50×3,00 m)",
+          "Dormitorio principal: ≥8 m² (cuadrado 2,00 m de lado)",
+          "Dormitorios adicionales: ≥6 m²",
+          "Aseo (inodoro + lavabo + ducha/bañera): ≥1,5 m²",
+          "Cómputo de superficies: solo zonas con altura libre ≥1,90 m (si altura media >2,10 m)",
+        ],
+      },
+      {
+        h: "Iluminación y ventilación (Anexo I, art. 7 y 19)",
+        items: [
+          "Iluminación exterior: ≥0,8 m² ni <8% de los primeros 20 m² de la habitación",
+          "Ventilación: al menos 1/3 de la superficie de iluminación",
+          "Patios con dormitorios/salas: ≥6 m², círculo ø≥2 m, luces rectas ≥2 m",
+          "Patios solo cocina: ≥4 m², luces rectas ≥1,50 m",
+        ],
+      },
+    ],
+    claves: [
+      "Cédula A: 30 años / Cédula B: 10 años / Provisional: 9 meses",
+      "Informe previo del departamento: 2 meses; silencio = favorable",
+      "Agua: 500 l/viv/día; barandilla en desniveles >60 cm: h≥90 cm",
+      "Cocina ≥5 m²; sala ≥9 m²; dormitorio principal ≥8 m²; aseo ≥1,5 m²",
+      "Ventilación: ≥1/3 de la superficie de iluminación",
+      "Sótanos: nunca habitables",
+      "Excepción Anexo I: construcción <1944 + propietario-residente desde antes jul-1985",
+    ],
+  },
+
+  E19: {
+    intro: "El Anexo II del DF 142/2004 regula las condiciones de habitabilidad aplicables a viviendas nuevas y a rehabilitaciones equiparables (PEM/m² >70% módulo ponderado o vaciado >60% forjados). Abarca acceso vertical, alturas, superficies, instalaciones y garajes.",
+    bloques: [
+      {
+        h: "Ámbito y equiparación a obra nueva (art. 1)",
+        items: [
+          "Equiparable a obra nueva: afecta a todas las viviendas Y PEM/m² >70% del módulo ponderado",
+          "También: vaciado total o demolición >60% forjados (excluida cubierta)",
+        ],
+      },
+      {
+        h: "Ascensor (art. 4)",
+        items: [
+          "Obligatorio cuando alguna vivienda se accede desde la 3ª planta (sin contar baja)",
+          "≤16 viviendas: fondo 1,20 m × anchura 1,00 m",
+          ">16 viviendas: fondo 1,40 m × anchura 1,10 m",
+          "Máximo 24 viviendas por ascensor",
+        ],
+      },
+      {
+        h: "Alturas (art. 12)",
+        items: [
+          "Techo horizontal: ≥2,40 m",
+          "Distribución, aseos, cocinas y tendederos cubiertos (con falso techo): ≥2,20 m",
+          "Rehabilitación sin sustitución de forjados: puede admitirse ≥2,20 m",
+        ],
+      },
+      {
+        h: "Superficies (art. 13-16)",
+        items: [
+          "Sala de estar (1-2 dorm): ≥12 m², rectángulo 2,70×3,50 m; (+2 m²/dorm adicional)",
+          "Cocina 1 dormitorio: ≥5 m²; cocina ≥2 dormitorios: ≥7 m² (rectángulo 3×1,60 m)",
+          "Dormitorio principal: ≥10 m², cuadrado 2,50 m de lado",
+          "Dormitorios adicionales: ≥8 m²",
+          "Baño (ducha+inodoro+lavabo): ≥2,50 m²",
+          "Aseo: ≥1,70 m²",
+          "Dotación baños: ≤3 dorm → 1 baño; ≥4 dorm → 1 baño + 1 aseo",
+        ],
+      },
+      {
+        h: "Tendedero y pasos (art. 17-18)",
+        items: [
+          "Tendedero: longitud mínima 6 m de cuerda (tramos ≥1 m, separación horizontal ≥20 cm)",
+          "Pasillos: anchura mínima 90 cm (estrechamientos puntuales hasta 80 cm admitidos)",
+          "Puertas de paso: anchura mínima 80 cm",
+          "Escaleras interiores: ≥90 cm, huella ≥27 cm, contrahuella ≤19 cm",
+        ],
+      },
+      {
+        h: "Garajes (art. 8)",
+        items: [
+          "Altura mínima libre: 2,10 m en toda plaza, rampa y circulación",
+          "Zaguán (desnivel >1 m entre vía y garaje): pendiente ≤6%, fondo ≥5 m",
+          "Rampa: anchura ≥3 m, pendiente máxima 20%",
+          "Plaza (acceso frontal): 2,3 × 4,7 m; con pared lateral: anchura ≥2,8 m",
+          "Plaza en línea: 2,2 × 5,0 m",
+          "Pasillo de maniobra: ≥3,5 m; si el ángulo de entrada >45°: ≥4,5 m",
+        ],
+      },
+      {
+        h: "Instalaciones (art. 20)",
+        items: [
+          "Presión agua: 1-4,5 kg/cm²",
+          "Velocidad máxima: 1,5 m/s",
+          "ACS: 13 l/min a 40 °C o 75 l acumulados",
+        ],
+      },
+    ],
+    claves: [
+      "Ascensor: obligatorio si hay viviendas en planta 3ª (sin contar baja); máx. 24 viv/ascensor",
+      "≤16 viv: ascensor 1,20×1,00 m; >16 viv: 1,40×1,10 m",
+      "Altura libre: ≥2,40 m (≥2,20 m en distribución, aseos, cocinas)",
+      "Sala estar 1-2 dorm: ≥12 m²; dorm principal ≥10 m²; baño ≥2,50 m²",
+      "Cocina ≥5 m² (1 dorm) / ≥7 m² (≥2 dorm); tendedero: ≥6 m cuerda",
+      "Garaje: h≥2,10 m; plaza 2,3×4,7 m; rampa ≥3 m, pendiente ≤20%",
+      "Agua: 1-4,5 kg/cm², ≤1,5 m/s; ACS: 13 l/min a 40°C o 75 l",
+    ],
+  },
+
+  E20: {
+    intro: "La LF 17/2020 de Actividades con Incidencia Ambiental regula las formas de intervención administrativa ambiental en Navarra: evaluación ambiental, autorización ambiental integrada (AAI), autorización ambiental unificada (AAU), licencia de actividad clasificada (LAC) y declaración responsable.",
+    bloques: [
+      {
+        h: "Principios (art. 2)",
+        items: [
+          "Prevención, precaución o cautela",
+          "Quien contamina paga",
+          "Economía circular",
+          "Reparación o corrección preferentemente en la fuente",
+          "Participación",
+        ],
+      },
+      {
+        h: "Formas de intervención ambiental (art. 8)",
+        items: [
+          "Evaluación ambiental estratégica (EAE) y evaluación de impacto ambiental (EIA)",
+          "Autorización ambiental integrada (AAI)",
+          "Autorización ambiental unificada (AAU)",
+          "Evaluación de afecciones ambientales",
+          "Licencia de actividad clasificada (LAC)",
+          "Declaración responsable ambiental",
+        ],
+      },
+      {
+        h: "Licencia de actividad clasificada – LAC (art. 36-52)",
+        items: [
+          "Precede a la construcción, montaje o traslado de la instalación",
+          "Competente: entidad local donde se ubique la actividad",
+          "Resolución: plazo máximo 4 meses; silencio = desestimación (negativo)",
+          "Inicio actividad: máx. 2 años desde la concesión",
+          "Habilitación de inicio: declaración responsable del titular de cumplimiento de condiciones",
+          "Caducidad: si no se presenta la declaración responsable de puesta en marcha → LAC ineficaz",
+          "Modificación no sustancial: comunicar y esperar 1 mes; si no hay respuesta → puede realizarse",
+          "Modificación sustancial: nueva tramitación completa",
+          "Cese en suelo no urbanizable: demolición/retirada en máx. 5 años",
+        ],
+      },
+      {
+        h: "Inspección (art. 56-58)",
+        items: [
+          "GN (departamento de medio ambiente): AAI, AAU y EIA",
+          "Entidad local + departamentos del GN que emitieron informe vinculante: LAC",
+          "Personal inspector = agente de la autoridad",
+        ],
+      },
+      {
+        h: "Anejo 3 – actividades sujetas a LAC (selección)",
+        items: [
+          "Grupo 1: calderas/instalaciones de combustión ≥250 kW y <5 MW (excl. generación eléctrica)",
+          "Grupo 2.2: talleres metálicos sin tratamiento superficial ≤2.000 m²",
+          "Grupo 15.5: alojamiento turístico no sujeto a declaración responsable estatal",
+          "Grupo 15.6: establecimientos comerciales/servicios >300 m² o >10 kW de potencia",
+        ],
+      },
+    ],
+    claves: [
+      "LAC: plazo resolución 4 meses; silencio negativo",
+      "Inicio actividad: máx. 2 años + declaración responsable de puesta en marcha",
+      "Sin declaración responsable → LAC caduca y deviene ineficaz",
+      "Modificación no sustancial: 1 mes silencio = puede realizarse",
+      "Cese en suelo no urbanizable: demolición en máx. 5 años",
+      "Personal inspector = agente de la autoridad",
+      "Grupos LAC: calderas ≥250 kW-<5 MW; talleres metálicos ≤2.000 m²; aloj. turístico sin DR; comercial >300 m²",
+    ],
+  },
 };
