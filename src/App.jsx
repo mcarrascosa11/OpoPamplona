@@ -804,67 +804,303 @@ function Test({ state, persist }) {
 }
 
 /* ---------- SUPUESTOS ---------- */
-function Supuestos({ state, persist }) {
-  const [activo, setActivo] = useState(null); const [texto, setTexto] = useState("");
-  const [seg, setSeg] = useState(0); const [corriendo, setCorriendo] = useState(false); const [verGuion, setVerGuion] = useState(false);
-  const timer = useRef(null);
-  useEffect(() => { if (corriendo) timer.current = setInterval(() => setSeg((s) => s + 1), 1000); return () => clearInterval(timer.current); }, [corriendo]);
-  const abrir = (s) => { setActivo(s); setTexto(state.supuestos[s.id]?.borrador || ""); setSeg(0); setCorriendo(false); setVerGuion(false); };
-  const guardarNota = async (nota) => { await persist({ ...state, supuestos: { ...state.supuestos, [activo.id]: { borrador: texto, ultimaNota: nota, fecha: Date.now() } } }); };
+const BLOQUES_SUP = [
+  { id: "licencia",         label: "Licencia / Disciplina" },
+  { id: "ruina_disciplina", label: "Ruina / Disciplina" },
+  { id: "cte_si_sua",       label: "CTE – SI / SUA" },
+  { id: "valoraciones",     label: "Valoraciones" },
+  { id: "croquis",          label: "Croquis / Proyecto" },
+  { id: "mixto",            label: "Mixto" },
+];
+const CRIT_META = [
+  { id: "estructura", label: "Estructura del informe" },
+  { id: "normativa",  label: "Normativa citada" },
+  { id: "calculo",    label: "Cálculo justificado" },
+  { id: "croquis",    label: "Croquis / Expr. gráfica" },
+  { id: "conclusion", label: "Conclusión unívoca" },
+];
+function calcPesos(sup) {
+  const raw = sup.pesos || {};
+  const activos = CRIT_META.filter((c) => raw[c.id] != null);
+  if (!activos.length) return Object.fromEntries(CRIT_META.map((c) => [c.id, 14]));
+  const suma = activos.reduce((s, c) => s + raw[c.id], 0);
+  if (!suma) return Object.fromEntries(activos.map((c) => [c.id, Math.round(70 / activos.length)]));
+  return Object.fromEntries(activos.map((c) => [c.id, Math.round((raw[c.id] / suma) * 70 * 10) / 10]));
+}
 
-  if (activo) {
+function Supuestos({ state, persist }) {
+  const [fase, setFase] = useState("lista");
+  const [sup, setSup] = useState(null);
+  const [filtroBloque, setFiltroBloque] = useState("todos");
+  const [filtroDif, setFiltroDif] = useState(0);
+  const [intentos, setIntentos] = useState([]);
+  const [verHistorial, setVerHistorial] = useState(false);
+
+  // Cronómetro
+  const [seg, setSeg] = useState(0);
+  const [corriendo, setCorriendo] = useState(false);
+  const [tiempoObj, setTiempoObj] = useState(0);
+  const timerRef = useRef(null);
+
+  // Autocorrección Fase 1
+  const [notaGlobal, setNotaGlobal] = useState(null);
+  const [notasLibres, setNotasLibres] = useState("");
+  const [guardado, setGuardado] = useState(false);
+
+  const cargarIntentos = useCallback(async () => {
+    const codigo = getCodigo();
+    if (!supabase || !codigo) return;
+    const { data } = await supabase
+      .from("intentos_supuesto")
+      .select("*")
+      .eq("codigo", codigo)
+      .order("created_at", { ascending: false });
+    if (data) setIntentos(data);
+  }, []);
+
+  useEffect(() => { cargarIntentos(); }, [cargarIntentos]);
+
+  useEffect(() => {
+    if (corriendo) timerRef.current = setInterval(() => setSeg((s) => s + 1), 1000);
+    else clearInterval(timerRef.current);
+    return () => clearInterval(timerRef.current);
+  }, [corriendo]);
+
+  const abrirSupuesto = (s) => {
+    setSup(s); setSeg(0); setCorriendo(false);
+    setTiempoObj(s.tiempo_estimado_min);
+    setNotaGlobal(null); setNotasLibres(""); setGuardado(false);
+    setFase("sesion");
+  };
+
+  const volverALista = () => {
+    setCorriendo(false); clearInterval(timerRef.current);
+    setSup(null); setFase("lista");
+  };
+
+  const guardarIntento = async () => {
+    const codigo = getCodigo();
+    const intento = {
+      supuesto_id: sup.id,
+      codigo: codigo || "anon",
+      fecha: new Date().toISOString(),
+      minutos_empleados: Math.round(seg / 60),
+      autonota: notaGlobal,
+      notas_autocorreccion: notasLibres || null,
+      rubrica: null,
+    };
+    if (supabase && codigo) {
+      await supabase.from("intentos_supuesto").insert(intento);
+      await cargarIntentos();
+    } else {
+      const prev = state.supuestos[sup.id]?.intentos || [];
+      await persist({ ...state, supuestos: { ...state.supuestos, [sup.id]: { intentos: [...prev, intento] } } });
+    }
+    setGuardado(true);
+  };
+
+  // ── LISTA ──
+  if (fase === "lista" && !verHistorial) {
+    const filtrados = SUPUESTOS.filter((s) =>
+      (filtroBloque === "todos" || s.bloque === filtroBloque) &&
+      (filtroDif === 0 || s.dificultad === filtroDif)
+    );
     return (
       <div>
-        <button className="cta" style={{ ...ctaGhost, marginBottom: 14 }} onClick={() => setActivo(null)}>← Volver al listado</button>
-        <Ficha codigo={`2ª PRUEBA · ${activo.temas.join(" · ")}`} titulo={activo.titulo}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, flexWrap: "wrap", gap: 8 }}>
-            <div style={{ fontFamily: MONO, fontSize: 13, color: seg > activo.minutos * 60 ? C.red : C.ink }}>⏱ {fmtTime(seg)} <span style={{ color: C.ink2 }}>/ orientativo {activo.minutos}:00</span></div>
-            <div style={{ display: "flex", gap: 6 }}>
-              <button className="cta" style={ctaGhost} onClick={() => setCorriendo((c) => !c)}>{corriendo ? "Pausa" : "Iniciar reloj"}</button>
-              <button className="cta" style={ctaGhost} onClick={() => { setSeg(0); setCorriendo(false); }}>Reset</button>
+        <Ficha codigo="2ª PRUEBA · SUPUESTOS" titulo="Resolver supuestos teórico-prácticos">
+          <p style={p}>Por escrito, a mano, sin textos, con material de dibujo (escalímetro, escuadra, cartabón). Vale <b>70 puntos</b> y decide la plaza. La app cronometra y autocorrige; el examen lo resuelves en papel.</p>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
+            <select value={filtroBloque} onChange={(e) => setFiltroBloque(e.target.value)} style={selectStyle}>
+              <option value="todos">Todos los bloques</option>
+              {BLOQUES_SUP.map((b) => <option key={b.id} value={b.id}>{b.label}</option>)}
+            </select>
+            <select value={filtroDif} onChange={(e) => setFiltroDif(+e.target.value)} style={selectStyle}>
+              <option value={0}>Toda dificultad</option>
+              <option value={1}>★ Básico</option>
+              <option value={2}>★★ Medio</option>
+              <option value={3}>★★★ Avanzado</option>
+            </select>
+            <button className="cta" style={ctaGhost} onClick={() => setVerHistorial(true)}>Historial</button>
+          </div>
+        </Ficha>
+        <div style={{ display: "grid", gap: 10 }}>
+          {filtrados.length === 0 && <p style={{ ...pSmall, padding: "14px 0" }}>Ningún supuesto coincide con los filtros.</p>}
+          {filtrados.map((s) => {
+            const mis = intentos.filter((i) => i.supuesto_id === s.id);
+            const ultimo = mis[0];
+            const bMeta = BLOQUES_SUP.find((b) => b.id === s.bloque);
+            return (
+              <button key={s.id} onClick={() => abrirSupuesto(s)} className="opt"
+                style={{ textAlign: "left", border: `1px solid ${C.hair}`, background: C.card, borderRadius: 6, padding: "14px 16px", cursor: "pointer" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8, flexWrap: "wrap", marginBottom: 6 }}>
+                  <div style={{ display: "flex", gap: 6, alignItems: "center", flexWrap: "wrap" }}>
+                    <span style={{ fontFamily: MONO, fontSize: 10, letterSpacing: 0.5, color: "#fff", background: C.slate, borderRadius: 3, padding: "2px 7px", fontWeight: 700 }}>{bMeta?.label || s.bloque}</span>
+                    <span style={{ fontFamily: MONO, fontSize: 11, color: C.amber }}>{"★".repeat(s.dificultad)}{"☆".repeat(3 - s.dificultad)}</span>
+                    <span style={{ fontFamily: MONO, fontSize: 10.5, color: C.ink2 }}>~{s.tiempo_estimado_min} min</span>
+                  </div>
+                  {mis.length > 0 && (
+                    <span style={{ fontFamily: MONO, fontSize: 10.5, color: C.ok }}>
+                      {mis.length} intento{mis.length > 1 ? "s" : ""} · última nota {ultimo.autonota ?? "—"}/70
+                    </span>
+                  )}
+                </div>
+                <div style={{ fontFamily: SANS, fontSize: 16, fontWeight: 700, color: C.ink, marginBottom: 4 }}>{s.titulo}</div>
+                <div style={{ fontFamily: MONO, fontSize: 10.5, color: C.ink2 }}>{s.temas.join(" · ")} · {s.fuente}</div>
+                {mis.length === 0 && <div style={{ fontFamily: MONO, fontSize: 10.5, color: C.ink2, marginTop: 4 }}>Sin practicar</div>}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  // ── HISTORIAL ──
+  if (verHistorial) {
+    const locales = Object.entries(state.supuestos || {}).flatMap(([sid, v]) =>
+      Array.isArray(v?.intentos) ? v.intentos : []
+    );
+    const todos = intentos.length ? intentos : locales;
+    const porBloque = BLOQUES_SUP.map((b) => {
+      const mis = todos.filter((i) => SUPUESTOS.find((s) => s.id === i.supuesto_id)?.bloque === b.id);
+      const conNota = mis.filter((i) => i.autonota != null);
+      return { ...b, n: mis.length, media: conNota.length ? Math.round(conNota.reduce((s, i) => s + i.autonota, 0) / conNota.length) : null };
+    }).filter((b) => b.n > 0);
+    return (
+      <div>
+        <button className="cta" style={{ ...ctaGhost, marginBottom: 14 }} onClick={() => setVerHistorial(false)}>← Volver al listado</button>
+        <Ficha codigo="HISTORIAL · SUPUESTOS" titulo="Resumen por bloque">
+          {porBloque.length === 0 ? (
+            <p style={p}>Sin intentos registrados aún. Completa algún supuesto primero.</p>
+          ) : (
+            <div style={{ display: "grid", gap: 10 }}>
+              {porBloque.map((b) => (
+                <div key={b.id} style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                  <div style={{ fontFamily: SANS, fontSize: 13, color: C.ink, flex: 1 }}>{b.label}</div>
+                  <div style={{ fontFamily: MONO, fontSize: 11, color: C.ink2 }}>{b.n} intento{b.n > 1 ? "s" : ""}</div>
+                  <div style={{ fontFamily: MONO, fontSize: 14, fontWeight: 700, color: b.media != null ? (b.media >= 50 ? C.ok : b.media >= 35 ? C.amber : C.red) : C.ink2 }}>
+                    {b.media != null ? `${b.media}/70` : "—"}
+                  </div>
+                </div>
+              ))}
             </div>
-          </div>
-          <div style={{ whiteSpace: "pre-wrap", fontFamily: SANS, fontSize: 14.5, lineHeight: 1.6, color: C.ink, background: C.card, border: `1px solid ${C.hair}`, padding: 14, borderRadius: 4, marginBottom: 16 }}>{activo.enunciado}</div>
-          <Label>Tu desarrollo (borrador — se guarda al puntuar)</Label>
-          <textarea value={texto} onChange={(e) => setTexto(e.target.value)} rows={10} placeholder="Estructura el informe: encuadre, normativa de aplicación, comprobaciones, conclusión motivada…"
-            style={{ width: "100%", fontFamily: SANS, fontSize: 14, lineHeight: 1.55, padding: 12, borderRadius: 4, border: `1.5px solid ${C.hair}`, background: "#fff", color: C.ink, resize: "vertical", boxSizing: "border-box" }} />
-          <div style={{ marginTop: 14 }}>
-            {!verGuion ? <button className="cta" style={ctaPrimary} onClick={() => { setVerGuion(true); setCorriendo(false); }}>Ver guión de corrección</button> : (
-              <div>
-                <div style={{ borderLeft: `3px solid ${C.ok}`, padding: "10px 16px", background: C.card, whiteSpace: "pre-wrap", fontFamily: SANS, fontSize: 13.5, lineHeight: 1.55, color: C.ink }}>{activo.guion}</div>
-                <Label style={{ marginTop: 16 }}>Autoevaluación honesta (sobre 10)</Label>
-                <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{[0, 2, 4, 5, 6, 7, 8, 9, 10].map((n) => <Chip key={n} on={state.supuestos[activo.id]?.ultimaNota === n} onClick={() => guardarNota(n)}>{n}</Chip>)}</div>
-                {state.supuestos[activo.id]?.ultimaNota != null && <p style={{ ...pSmall, marginTop: 10 }}>Guardado. Última nota: <b>{state.supuestos[activo.id].ultimaNota}/10</b>.</p>}
-              </div>
-            )}
-          </div>
+          )}
+        </Ficha>
+        <Ficha codigo="TODOS LOS INTENTOS" titulo="Historial completo">
+          {todos.length === 0 ? <p style={p}>Sin intentos.</p> : (
+            <div style={{ display: "grid", gap: 0 }}>
+              {todos.slice(0, 30).map((intento, i) => {
+                const s = SUPUESTOS.find((s) => s.id === intento.supuesto_id);
+                const nota = intento.autonota;
+                return (
+                  <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "9px 0", borderBottom: `1px solid ${C.hair}` }}>
+                    <div>
+                      <div style={{ fontFamily: SANS, fontSize: 13, fontWeight: 600, color: C.ink }}>{s?.titulo || intento.supuesto_id}</div>
+                      <div style={{ fontFamily: MONO, fontSize: 10.5, color: C.ink2 }}>
+                        {new Date(intento.fecha || intento.created_at).toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", year: "2-digit" })} · {intento.minutos_empleados ?? "?"} min
+                      </div>
+                    </div>
+                    <div style={{ fontFamily: MONO, fontSize: 15, fontWeight: 700, flexShrink: 0, color: nota != null ? (nota >= 50 ? C.ok : nota >= 35 ? C.amber : C.red) : C.ink2 }}>
+                      {nota ?? "—"}/70
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
         </Ficha>
       </div>
     );
   }
-  return (
-    <div>
-      <Ficha codigo="2ª PRUEBA · SUPUESTOS" titulo="Resolver supuestos teórico-prácticos">
-        <p style={p}>Por escrito, sobre la parte específica, sin textos y con material de dibujo (escalímetro, escuadra, cartabón). Vale 70 puntos y decide la plaza. Practica con reloj.</p>
-        <p style={pSmall}>Enunciados representativos (la convocatoria es nueva y no hay modelos oficiales públicos), sobre tu temario específico y el formato de las bases. El guión lista los puntos y normas que un tribunal espera.</p>
-      </Ficha>
-      <div style={{ display: "grid", gap: 12, marginTop: 14 }}>
-        {SUPUESTOS.map((s) => {
-          const h = state.supuestos[s.id];
-          return (
-            <button key={s.id} onClick={() => abrir(s)} className="opt" style={{ textAlign: "left", border: `1px solid ${C.hair}`, background: C.card, borderRadius: 6, padding: 16, cursor: "pointer" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", gap: 10, flexWrap: "wrap" }}>
-                <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.red }}>{s.temas.join(" · ")}</div>
-                <div style={{ fontFamily: MONO, fontSize: 10.5, color: C.ink2 }}>~{s.minutos} min</div>
-              </div>
-              <div style={{ fontFamily: SANS, fontSize: 16, fontWeight: 700, color: C.ink, margin: "6px 0 4px" }}>{s.titulo}</div>
-              <div style={{ fontFamily: MONO, fontSize: 11, color: h ? C.ok : C.ink2 }}>{h ? `✓ practicado — última nota ${h.ultimaNota ?? "—"}/10` : "sin practicar"}</div>
+
+  // ── SESIÓN ──
+  if (fase === "sesion" && sup) {
+    const superado = tiempoObj > 0 && seg > tiempoObj * 60;
+    return (
+      <div>
+        <button className="cta" style={{ ...ctaGhost, marginBottom: 14 }} onClick={volverALista}>← Volver al listado</button>
+        <Ficha codigo={`SUPUESTO · ${BLOQUES_SUP.find((b) => b.id === sup.bloque)?.label || sup.bloque}`} titulo={sup.titulo}>
+          {/* Cronómetro grande */}
+          <div style={{ textAlign: "center", padding: "28px 16px 22px", background: superado ? C.redSoft : `${C.hair}40`, borderRadius: 8, marginBottom: 20, border: `1.5px solid ${superado ? C.red : C.hair}` }}>
+            <div style={{ fontFamily: MONO, fontSize: 60, fontWeight: 700, letterSpacing: 3, color: superado ? C.red : C.ink, lineHeight: 1 }}>
+              {fmtTime(seg)}
+            </div>
+            <div style={{ fontFamily: MONO, fontSize: 11, letterSpacing: 0.5, color: superado ? C.red : C.ink2, marginTop: 8 }}>
+              {superado ? "⚠ TIEMPO OBJETIVO SUPERADO" : tiempoObj > 0 ? `objetivo: ${String(tiempoObj).padStart(2, "0")}:00` : "sin objetivo fijado"}
+            </div>
+          </div>
+          {/* Controles */}
+          <div style={{ display: "flex", gap: 8, alignItems: "center", justifyContent: "center", flexWrap: "wrap", marginBottom: 22 }}>
+            <button className="cta" style={corriendo ? ctaPrimary : ctaGhost} onClick={() => setCorriendo((c) => !c)}>
+              {corriendo ? "Pausar" : seg === 0 ? "Iniciar reloj" : "Continuar"}
             </button>
-          );
-        })}
+            <button className="cta" style={ctaGhost} onClick={() => { setSeg(0); setCorriendo(false); }}>Reset</button>
+            <div style={{ display: "flex", alignItems: "center", gap: 6, border: `1.5px solid ${C.hair}`, borderRadius: 4, padding: "5px 10px", background: "#fff" }}>
+              <span style={{ fontFamily: MONO, fontSize: 11, color: C.ink2 }}>Objetivo:</span>
+              <input type="number" value={tiempoObj} min={0} max={240}
+                onChange={(e) => setTiempoObj(Math.max(0, +e.target.value))}
+                style={{ fontFamily: MONO, fontSize: 13, width: 46, border: "none", outline: "none", background: "transparent", textAlign: "center", color: C.ink }} />
+              <span style={{ fontFamily: MONO, fontSize: 11, color: C.ink2 }}>min</span>
+            </div>
+          </div>
+          {/* Enunciado */}
+          <Label>Enunciado del supuesto</Label>
+          <div style={{ whiteSpace: "pre-wrap", fontFamily: SANS, fontSize: 14.5, lineHeight: 1.7, color: C.ink, background: "#fff", border: `1px solid ${C.hair}`, padding: "16px 18px", borderRadius: 6, marginBottom: 12 }}>
+            {sup.enunciado}
+          </div>
+          <p style={{ ...pSmall, fontStyle: "italic" }}>Resuelve en papel. Cuando termines, pulsa el botón de abajo para registrar el tiempo y autocorregir.</p>
+        </Ficha>
+        <button className="cta"
+          style={{ ...ctaPrimary, width: "100%", padding: "16px 20px", fontSize: 15, letterSpacing: 0.5 }}
+          disabled={seg < 60}
+          onClick={() => { setCorriendo(false); setFase("autocorreccion"); }}>
+          {seg < 60 ? `Inicia el reloj para habilitar (${seg}s)` : "TERMINAR Y AUTOCORREGIR"}
+        </button>
+        {seg < 60 && <p style={{ ...pSmall, textAlign: "center", marginTop: 8 }}>El botón se activa al minuto de reloj corrido.</p>}
       </div>
-    </div>
-  );
+    );
+  }
+
+  // ── AUTOCORRECCIÓN (Fase 1: nota global; Fase 2 añadirá rúbrica por criterio) ──
+  if (fase === "autocorreccion" && sup) {
+    return (
+      <div>
+        <Ficha codigo={`AUTOCORRECCIÓN · ${BLOQUES_SUP.find((b) => b.id === sup.bloque)?.label || sup.bloque}`} titulo={sup.titulo}>
+          <Label>Guión de corrección del tribunal</Label>
+          <div style={{ whiteSpace: "pre-wrap", fontFamily: SANS, fontSize: 13.5, lineHeight: 1.65, color: C.ink, borderLeft: `3px solid ${C.ok}`, padding: "12px 16px", background: C.okSoft, borderRadius: "0 4px 4px 0", marginBottom: 20 }}>
+            {sup.guion}
+          </div>
+          <div style={{ display: "flex", gap: 14, alignItems: "center", marginBottom: 20, background: C.card, border: `1px solid ${C.hair}`, borderRadius: 6, padding: "12px 16px" }}>
+            <div style={{ fontFamily: MONO, fontSize: 10.5, color: C.ink2, textTransform: "uppercase", letterSpacing: 1 }}>Tiempo empleado</div>
+            <div style={{ fontFamily: MONO, fontSize: 26, fontWeight: 700, color: C.ink }}>{fmtTime(seg)}</div>
+            <div style={{ fontFamily: MONO, fontSize: 11, color: C.ink2 }}>({Math.round(seg / 60)} min)</div>
+          </div>
+          <Label>Puntuación estimada (sobre 70)</Label>
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 18 }}>
+            {[0, 10, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70].map((n) => (
+              <Chip key={n} on={notaGlobal === n} onClick={() => !guardado && setNotaGlobal(n)} disabled={guardado}>{n}</Chip>
+            ))}
+          </div>
+          <Label>Notas de autocorrección (qué faltó, qué sobró…)</Label>
+          <textarea value={notasLibres} onChange={(e) => !guardado && setNotasLibres(e.target.value)} disabled={guardado} rows={4}
+            placeholder="Ej.: Olvidé citar el art. 192 LFOTU · El croquis no estaba acotado · La conclusión era ambigua…"
+            style={{ width: "100%", fontFamily: SANS, fontSize: 13.5, lineHeight: 1.55, padding: 12, borderRadius: 4, border: `1.5px solid ${C.hair}`, background: guardado ? C.paper : "#fff", color: C.ink, resize: "vertical", boxSizing: "border-box" }} />
+          {!guardado ? (
+            <button className="cta" style={{ ...ctaPrimary, marginTop: 14 }} disabled={notaGlobal === null} onClick={guardarIntento}>
+              Guardar intento
+            </button>
+          ) : (
+            <div style={{ marginTop: 14, display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center" }}>
+              <span style={{ fontFamily: MONO, fontSize: 12, color: C.ok }}>✓ Guardado — {notaGlobal}/70 · {Math.round(seg / 60)} min</span>
+              <button className="cta" style={ctaGhost} onClick={volverALista}>Volver al listado</button>
+            </div>
+          )}
+        </Ficha>
+      </div>
+    );
+  }
+
+  return null;
 }
 
 /* ---------- PROGRESO ---------- */
