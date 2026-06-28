@@ -167,4 +167,319 @@ Acompaña croquis acotado de la solución (usa el material de dibujo).`,
 
 CRITERIO: cálculo correcto de P y dimensionado + croquis legible, acotado y coherente. El croquis tiene peso específico en la nota.`,
   },
+
+  {
+    id: "SUP-E32-A",
+    titulo: "Declaración de ruina ordinaria: informe técnico y procedimiento",
+    bloque: "ruina_disciplina",
+    dificultad: 2,
+    fuente: "E32 · LFOTU Tít. V Cap. I Secc. 2ª · enunciado generado",
+    tiempo_estimado_min: 45,
+    temas: ["E32"],
+    pesos: { estructura: 15, normativa: 20, calculo: 25, croquis: null, conclusion: 10 },
+    enunciado:
+`El propietario de un edificio residencial de cuatro plantas en Pamplona solicita que el Ayuntamiento declare el estado ruinoso. Como arquitecto municipal, elabora el informe técnico y describe el procedimiento que debe seguirse.
+
+Datos del edificio: valor actual del edificio excluido el valor del terreno = 280.000 €; coste de las obras de reparación necesarias para su consolidación = 155.000 €. Además, los forjados de las plantas 2.ª y 3.ª presentan deterioro generalizado con deformaciones inadmisibles en sus elementos estructurales principales.`,
+    guion:
+`GUIÓN DE CORRECCIÓN (E32 · LFOTU):
+
+1. SUPUESTOS DE DECLARACIÓN DE RUINA (art. 199.2, l. 218)
+   El art. 199.2 prevé tres supuestos:
+   a) Coste obras > 50 % del valor actual del edificio o plantas afectadas,
+      excluido el valor del terreno (art. 199.2.a, l. 220).
+   b) Agotamiento generalizado de elementos estructurales o fundamentales
+      (art. 199.2.b, l. 222).
+   c) Obras no autorizables por fuera de ordenación (art. 199.2.c, l. 224).
+
+2. COMPROBACIÓN SUPUESTO a) — CÁLCULO (art. 199.2.a, l. 220)
+   · Coste de obras: 155.000 €
+   · Valor actual excluido terreno: 280.000 €
+   · Ratio: 155.000 / 280.000 = 55,36 % → SUPERIOR AL 50 %
+   → CUMPLE: procede declaración de ruina por este supuesto.
+   PUNTO CRÍTICO: el cálculo es concluyente por sí solo.
+
+3. COMPROBACIÓN SUPUESTO b) — AGOTAMIENTO ESTRUCTURAL (art. 199.2.b, l. 222)
+   · Los forjados de P2 y P3 presentan deterioro generalizado de sus
+     elementos estructurales principales.
+   → También cumple el supuesto del art. 199.2.b; aunque el supuesto a)
+     ya es suficiente, la concurrencia de ambos refuerza el pronunciamiento.
+
+4. PROCEDIMIENTO (art. 199.1, l. 216)
+   · El Ayuntamiento actúa de oficio o a instancia de cualquier interesado.
+   · Previa audiencia del propietario y de los moradores.
+   · En su caso, de conformidad con las previsiones del planeamiento.
+   · Adoptar las medidas necesarias para asegurar la integridad física de
+     los ocupantes y de terceras personas.
+
+5. EFECTOS Y OBLIGACIONES POSTERIORES
+   · Si el propietario no cumple → el Ayuntamiento lo ejecuta a su costa
+     (art. 199.3, l. 226).
+   · Urgencia y peligro en la demora → el Alcalde, bajo su responsabilidad,
+     dispondrá lo necesario para asegurar la integridad física
+     (art. 199.4, l. 228).
+   · Las edificaciones declaradas en ruina deberán ser sustituidas o
+     rehabilitadas conforme al planeamiento en el plazo por éste establecido
+     (art. 199.5, l. 230).
+   · Agotados los plazos sin solicitar licencia → la Administración
+     sancionará el retraso (art. 199.5 párr. 2.º, l. 232).
+
+6. PRONUNCIAMIENTO
+   Procede la declaración de ruina al concurrir el supuesto del art. 199.2.a
+   (ratio 55,36 % > 50 %, l. 220) y, adicionalmente, el del art. 199.2.b
+   (agotamiento estructural generalizado, l. 222).
+
+CRITERIO: cálculo correcto del ratio (art. 199.2.a) + identificación de
+los supuestos concurrentes + procedimiento (audiencia propietario y moradores,
+art. 199.1) + efectos posteriores (rehabilitar/sustituir y consecuencias del
+incumplimiento, art. 199.3-5).`,
+  },
+
+  {
+    id: "SUP-E32-B",
+    titulo: "Obras de ampliación concluidas sin licencia: legalidad, plazos y sanciones",
+    bloque: "licencia",
+    dificultad: 3,
+    fuente: "E32 · LFOTU Tít. V Cap. II y III · enunciado generado",
+    tiempo_estimado_min: 55,
+    temas: ["E32"],
+    pesos: { estructura: 15, normativa: 25, calculo: 15, croquis: null, conclusion: 15 },
+    enunciado:
+`La inspección urbanística detecta que un particular ha añadido una planta entera a su vivienda unifamiliar en suelo urbano sin contar con licencia urbanística. Según el expediente, los signos físicos exteriores de la obra son visibles desde la vía pública desde hace exactamente 2 años; la ampliación resulta compatible con las determinaciones del planeamiento vigente; y el promotor sigue siendo propietario del inmueble.
+
+Como arquitecto municipal, redacta el informe sobre la situación urbanística, el procedimiento de protección de la legalidad aplicable, las personas responsables y el régimen sancionador que corresponde.`,
+    guion:
+`GUIÓN DE CORRECCIÓN (E32 · LFOTU):
+
+1. CALIFICACIÓN DEL ACTO (art. 190.2.b, l. 20)
+   · La ampliación de edificios existentes está sujeta a licencia urbanística
+     (art. 190.2.b, l. 20).
+   · Las obras han concluido sin licencia → aplica el art. 203 (obras
+     ejecutadas ilegalmente, l. 283), no el art. 202 (obras en curso, l. 276).
+
+2. PLAZO DE ACTUACIÓN MUNICIPAL (art. 203, l. 283)
+   · La Entidad Local tiene 4 años desde la total terminación de las obras
+     o desde la aparición de signos físicos exteriores que permitan su
+     conocimiento (art. 203, l. 284).
+   · Han transcurrido 2 años → plazo vigente: la Administración puede actuar
+     (2 años < 4 años).
+
+3. PROCEDIMIENTO SEGÚN COMPATIBILIDAD (art. 202.b, l. 280)
+   · Obras compatibles con la ordenación vigente → art. 203 remite a los
+     acuerdos del art. 202 (l. 283); por ser compatibles, se aplica
+     el art. 202.b (l. 280):
+     requerir al interesado para que, en el plazo del requerimiento o en
+     su defecto 2 meses, solicite la preceptiva licencia o su modificación.
+   · Si no se solicita licencia o si fuera denegada → demolición,
+     reconstrucción o cesación definitiva a costa del interesado
+     (art. 202.b in fine, l. 280).
+   CONTRASTE: si las obras fueran incompatibles con el planeamiento →
+   demolición directa sin posibilidad de legalización (art. 202.a, l. 278).
+
+4. PERSONAS RESPONSABLES (art. 213.1, l. 380)
+   · El promotor, el empresario de las obras y el técnico director de
+     las mismas (art. 213.1, l. 380).
+   · A efectos de responsabilidad, también es promotor el propietario
+     del suelo que ha tenido conocimiento de las obras infractoras
+     (art. 213.3, l. 386). Aquí promotor y propietario actual coinciden.
+
+5. CALIFICACIÓN DE LA INFRACCIÓN Y SANCIÓN
+   · Adición de planta = exceso de edificación sobre la edificabilidad
+     permitida (superficie construida) → infracción GRAVE (art. 215.5,
+     l. 440: "entendiéndose por la misma tanto la superficie construida
+     como el volumen").
+   · Multa: desde 6.000 hasta 60.000 euros (art. 218.1.b, l. 502).
+   · Si el beneficio obtenido supera la sanción → se incrementa en la
+     cuantía equivalente al beneficio (art. 218.2, l. 506).
+
+6. PRESCRIPCIÓN DE LA INFRACCIÓN (art. 225.1, l. 598)
+   · Infracciones graves prescriben a los 8 años desde su comisión
+     o desde la aparición de signos exteriores (art. 225.4, l. 604).
+   · Han transcurrido 2 años → la infracción NO ha prescrito (2 < 8 años).
+
+7. PRONUNCIAMIENTO
+   · Actuar: plazo municipal no agotado (2 años < 4 años, art. 203, l. 284).
+   · Obras compatibles → requerir legalización en 2 meses (art. 202.b, l. 280).
+   · Incoar expediente sancionador: infracción grave art. 215.5 (l. 440),
+     multa 6.000-60.000 € (art. 218.1.b, l. 502).
+   · Infracción no prescrita: 2 años < 8 años (art. 225.1, l. 598).
+
+CRITERIO: distinción art. 202 (en curso) / art. 203 (concluidas) + verificar
+plazo 4 años (art. 203) + aplicar art. 202.b (compatible: 2 meses para
+legalizar) + calificar infracción grave art. 215.5 + sanción exacta
+6.000-60.000 € (art. 218.1.b) + prescripción 8 años (art. 225.1).`,
+  },
+
+  {
+    id: "SUP-E03-A",
+    titulo: "DB-SI · Ocupación y dimensionado de escalera en edificio mixto Administrativo / Pública concurrencia",
+    bloque: "cte_si_sua",
+    dificultad: 3,
+    fuente: "E3 · DB-SI SI3 · enunciado generado",
+    tiempo_estimado_min: 60,
+    temas: ["E3"],
+    pesos: { estructura: 10, normativa: 20, calculo: 30, croquis: null, conclusion: 10 },
+    enunciado:
+`Se proyecta en Pamplona un edificio de uso principalmente Administrativo (oficinas) de cuatro plantas sobre rasante. El edificio dispone de una sola escalera interior de 1,20 m de anchura útil, declarada en el proyecto como escalera no protegida. No existe instalación automática de extinción.
+
+Superficies útiles:
+
+  Planta baja (PB, cota ±0,00 — salida del edificio)
+    · Vestíbulo y zonas de uso público ............. 120 m²
+    · Zona de oficinas ............................. 240 m²
+  Planta 1.ª (PB +3,00 m) — zona de oficinas ....... 400 m²
+  Planta 2.ª (PB +6,00 m) — zona de oficinas ....... 400 m²
+  Planta 3.ª (PB +9,00 m) — zona de oficinas ....... 400 m²
+  Planta 4.ª (PB +12,00 m) — sala polivalente multiusos
+    (congresos y conferencias abiertos al público) .. 300 m²
+
+Se pide:
+  a) Calcular la ocupación de cada planta y la ocupación total del edificio.
+  b) Determinar en qué plantas es necesaria más de una salida de planta.
+  c) Verificar si la escalera no protegida es admisible y, si no lo es, indicar el tipo exigido.
+  d) Verificar si la anchura de 1,20 m es suficiente para la escalera exigida en c)
+     y, en caso negativo, calcular la anchura mínima necesaria.`,
+    guion:
+`GUIÓN DE CORRECCIÓN (DB-SI · E_Tema03.txt):
+
+1. CLASIFICACIÓN DE USO DE LA SALA POLIVALENTE (P4)
+   Uso para congresos y conferencias abiertos al público
+   → uso PÚBLICA CONCURRENCIA, subcategoría "salones de uso múltiple
+     en edificios para congresos, hoteles, etc." (tabla 2.1, l. 1286)
+   → densidad: 1 m²/persona (l. 1286).
+   Resto del edificio (PB, P1-P3): uso Administrativo.
+
+2. CÁLCULO DE OCUPACIÓN — tabla 2.1 (l. 1180)
+
+   PB vestíbulo/zona uso público:
+     120 m² / 2 m²/persona = 60 personas (l. 1216)
+   PB oficinas:
+     240 m² / 10 m²/persona = 24 personas (l. 1214)
+   PB total: 84 personas
+
+   P1 oficinas:  400 / 10 = 40 personas (l. 1214)
+   P2 oficinas:  400 / 10 = 40 personas
+   P3 oficinas:  400 / 10 = 40 personas
+   P4 salón multiusos (Pública concurrencia):
+     300 m² / 1 m²/persona = 300 personas (l. 1286)
+
+   TOTAL EDIFICIO: 504 personas
+
+3. NÚMERO DE SALIDAS POR PLANTA — tabla 3.1 (l. 1325)
+   Una única salida admisible si: P ≤ 100 personas + recorrido ≤ 25 m
+   + h evacuación descendente ≤ 28 m (l. 1335, 1351, 1359).
+
+   PB: 84 < 100 → 1 salida admisible (si recorrido ≤ 25 m)
+   P1: 40 < 100 → 1 salida admisible
+   P2: 40 < 100 → 1 salida admisible
+   P3: 40 < 100 → 1 salida admisible
+   P4: 300 > 100 → MÁS DE UNA SALIDA DE PLANTA NECESARIA (l. 1335)
+
+   Nota (l. 1378-1381): con más de 1 salida obligada en P4, "al menos
+   dos salidas de planta conducen a dos escaleras diferentes". Con una
+   sola escalera es necesaria una segunda vía de escape independiente
+   desde P4 (segunda escalera, salida directa a exterior, terraza, etc.).
+
+4. PROTECCIÓN DE LA ESCALERA — tabla 5.1 (l. 1570)
+   La escalera única comunica con todos los usos; debe cumplir las
+   condiciones más restrictivas de los usos de cada planta (l. 1607-1610):
+
+   P1-P3 (Administrativo) — no protegida: h ≤ 14 m (l. 1580). h = 9 m ✓
+   P4 (Pública concurrencia) — no protegida: h ≤ 10 m (l. 1582).
+     h = 12 m > 10 m → ESCALERA NO PROTEGIDA NO ADMISIBLE.
+
+   Debe ser ESCALERA PROTEGIDA.
+   Comprobación: Pública concurrencia, protegida → h ≤ 20 m (l. 1582).
+   12 m < 20 m ✓.
+
+5. CAPACIDAD DE LA ESCALERA PROTEGIDA — tabla 4.2 (l. 1524)
+   E = personas que usan la escalera (PB sale directamente al exterior):
+   E = P1 + P2 + P3 + P4 = 40 + 40 + 40 + 300 = 420 personas
+   Plantas servidas: 4
+
+   Fila de la tabla 4.2 (l. 1532), escalera protegida, 4 plantas:
+     1,20 m → 356 personas  (420 > 356 → INSUFICIENTE)
+
+   Fila de la tabla 4.2 (l. 1535), escalera protegida, 4 plantas:
+     1,50 m → 472 personas  (420 < 472 → CUMPLE ✓)
+
+   ANCHURA MÍNIMA NECESARIA: 1,50 m.
+   (Tabla 4.2 válida para escalera de doble tramo con anchura constante,
+    l. 1554; otras configuraciones → fórmula E ≤ 3S + 160·AS, l. 1455.)
+
+CRITERIO: uso P4 = Pública concurrencia, densidad 1 m²/p (tabla 2.1) +
+cálculo P por planta y total (504) + solo P4 necesita >1 salida (300>100) +
+escalera no protegida NO admisible (h=12m >10m, tabla 5.1, uso más
+restrictivo l.1607) → protegida exigida + tabla 4.2: 356<420 insuficiente
+→ anchura mínima 1,50 m (capacidad 472).`,
+  },
+
+  {
+    id: "SUP-E03-B",
+    titulo: "DB-SI · Recorridos de evacuación: tramo ciego y límites 25/50 m en local comercial",
+    bloque: "cte_si_sua",
+    dificultad: 2,
+    fuente: "E3 · DB-SI SI3 · enunciado generado",
+    tiempo_estimado_min: 40,
+    temas: ["E3"],
+    pesos: { estructura: 10, normativa: 25, calculo: 25, croquis: null, conclusion: 10 },
+    enunciado:
+`Un local de venta de ropa (uso Comercial) ocupa la planta baja de un edificio residencial en Pamplona. Superficie útil del área de ventas: 480 m². El local dispone de dos salidas de planta: Salida P (fachada principal) y Salida L (fachada lateral). No existe instalación automática de extinción.
+
+Datos de recorridos medidos desde el punto más desfavorable del local:
+
+  Recorrido hasta Salida P: ..................................... 54 m
+  Recorrido hasta Salida L: ..................................... 46 m
+  Recorrido hasta el punto desde el cual existen
+  al menos dos itinerarios alternativos: ........................ 28 m
+
+Se pide:
+  a) Calcular la ocupación del local y verificar si la dotación de dos salidas es suficiente.
+  b) Verificar si se cumplen las condiciones de longitud de recorrido de evacuación
+     del DB-SI con las dos salidas existentes.
+  c) ¿Permitiría la instalación de un sistema automático de extinción sanear
+     el incumplimiento detectado?`,
+    guion:
+`GUIÓN DE CORRECCIÓN (DB-SI · E_Tema03.txt):
+
+1. OCUPACIÓN — tabla 2.1 (l. 1180)
+   Local comercial, área de ventas en planta baja → 2 m²/persona (l. 1237).
+   P = 480 / 2 = 240 personas.
+
+   Número de salidas (tabla 3.1, l. 1335): P > 100 → más de una salida necesaria.
+   El local tiene 2 salidas → dotación suficiente ✓.
+
+2. CONDICIONES DE RECORRIDO con 2 salidas — tabla 3.1 (l. 1364-1376)
+
+   REGLA A — Recorrido hasta alguna salida de planta (l. 1364-1365):
+     "La longitud de los recorridos de evacuación hasta alguna salida
+      de planta no excede de 50 m"
+     Salida P: 54 m > 50 m  — no es la más próxima; no determina incumplimiento.
+     Salida L: 46 m < 50 m  — "hasta alguna salida" se refiere a la más próxima.
+     → CUMPLE.
+
+   REGLA B — Tramo sin bifurcación (l. 1373-1376):
+     "La longitud [...] desde su origen hasta llegar a algún punto desde el
+      cual existan al menos dos recorridos alternativos no excede de [...]
+      la longitud máxima admisible cuando se dispone de una sola salida,
+      en el resto de los casos."
+     Longitud máxima con una sola salida (Comercial, planta baja): 25 m (l. 1351).
+     Tramo hasta bifurcación: 28 m > 25 m → NO CUMPLE.
+
+3. ¿SE CORRIGE CON EXTINCIÓN AUTOMÁTICA? — nota (1) tabla 3.1 (l. 1383-1384)
+   "La longitud de los recorridos de evacuación que se indican se puede
+    aumentar un 25% cuando se trate de sectores de incendio protegidos con
+    una instalación automática de extinción."
+
+   Regla A con extinción: 50 × 1,25 = 62,5 m → Salida L 46 m < 62,5 m ✓
+   Regla B con extinción: 25 × 1,25 = 31,25 m → tramo 28 m < 31,25 m ✓
+   CON INSTALACIÓN AUTOMÁTICA DE EXTINCIÓN: CUMPLE.
+
+   Sin rociadores: reubicar/añadir salida de forma que el tramo sin
+   alternativa desde el punto más desfavorable quede ≤ 25 m.
+
+CRITERIO: P = 480/2 = 240 → 2 salidas mínimo (l.1335) ✓ + Regla A: 46m<50m
+(l.1364) ✓ + Regla B: tramo 28m>25m (l.1373-1376) ✗ + corrección con
+rociadores: 25×1,25=31,25m; 28m<31,25m ✓ (l.1383).`,
+  },
 ];
