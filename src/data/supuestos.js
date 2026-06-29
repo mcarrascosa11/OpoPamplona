@@ -482,4 +482,221 @@ CRITERIO: P = 480/2 = 240 → 2 salidas mínimo (l.1335) ✓ + Regla A: 46m<50m
 (l.1364) ✓ + Regla B: tramo 28m>25m (l.1373-1376) ✗ + corrección con
 rociadores: 25×1,25=31,25m; 28m<31,25m ✓ (l.1383).`,
   },
+
+  {
+    id: "SUP-E06-A",
+    titulo: "DB-SUA · Escalera de uso general sin ascensor + rampa itinerario accesible",
+    bloque: "cte_si_sua",
+    dificultad: 2,
+    fuente: "E6 · DB-SUA SUA1 · enunciado generado",
+    tiempo_estimado_min: 40,
+    temas: ["E6"],
+    pesos: { estructura: 10, normativa: 20, calculo: 30, croquis: null, conclusion: 10 },
+    enunciado:
+`Se proyecta un edificio de uso Administrativo de tres plantas sobre rasante. No se dispone de ascensor. El acceso desde la calle se resuelve con una rampa exterior perteneciente al itinerario accesible.
+
+Datos de la escalera interior (uso general, tramos rectos):
+
+  Huella:                  H = 28 cm
+  Contrahuella:            C = 18 cm
+  Peldaños por tramo:      10
+  Anchura útil del tramo:  1,10 m
+  Pasamanos:               uno (lado izquierdo)
+
+Datos de la rampa exterior (itinerario accesible):
+
+  Pendiente longitudinal:  7 %
+  Longitud del tramo:      8 m
+
+Se pide:
+  a) Verificar si la escalera cumple los límites de huella, contrahuella
+     y la relación 2C + H.
+  b) Verificar si la altura salvada por tramo es admisible.
+  c) Verificar si la rampa cumple la pendiente y la longitud máxima de tramo.`,
+    guion:
+`GUIÓN DE CORRECCIÓN (DB-SUA · E_Tema06.txt):
+
+1. ESCALERA DE USO GENERAL SIN ASCENSOR — ap. 4.2.1 (l. 615-620)
+   Límites aplicables cuando no se dispone de ascensor como alternativa:
+
+   Huella mínima:       H ≥ 28 cm (l. 615)
+   Contrahuella máxima: C ≤ 17,5 cm (l. 617-618: "siempre que no se
+     disponga ascensor como alternativa [...] la contrahuella medirá
+     17,5 cm, como máximo")
+   Relación (l. 619-620): 54 cm ≤ 2C + H ≤ 70 cm
+
+   Comprobación:
+     H = 28 cm → 28 ≥ 28 ✓
+     C = 18 cm → 18 > 17,5  → INCUMPLE (exceso de 0,5 cm)
+     2C + H = 2×18 + 28 = 64 cm → 54 ≤ 64 ≤ 70 ✓
+
+   PUNTO CRÍTICO: la relación cumple, pero la contrahuella NO cumple.
+   Son condiciones independientes; ambas deben satisfacerse.
+
+   Pasamanos (l. 772-773):
+     "cuando no se disponga ascensor [...] dispondrán de pasamanos
+      en ambos lados."
+     Con un solo pasamanos → INCUMPLE.
+
+2. ALTURA SALVADA POR TRAMO — ap. 4.2.2 punto 1 (l. 654-655)
+   Límite sin ascensor: 2,25 m
+   (l. 655: "así como siempre que no se disponga ascensor como
+    alternativa a la escalera")
+   Altura por tramo = 10 × 0,18 m = 1,80 m < 2,25 m ✓
+
+3. RAMPA ITINERARIO ACCESIBLE — ap. 4.3.1 y 4.3.2 (l. 802-804, 823-824)
+
+   Pendiente máxima según longitud del tramo (l. 802-804):
+     L < 3 m → máx 10 %
+     L < 6 m → máx  8 %
+     L ≥ 6 m → máx  6 %
+   Tramo: L = 8 m → aplica límite del 6 %.
+   Pendiente proyectada: 7 % > 6 % → INCUMPLE.
+
+   Longitud máxima de tramo accesible (l. 823-824):
+     "si la rampa pertenece a itinerarios accesibles [...] la longitud
+      del tramo será de 9 m, como máximo."
+   L = 8 m ≤ 9 m ✓
+
+   Corrección posible sin reducir pendiente: dividir en 2 tramos
+   de L < 6 m cada uno → límite pasa a 8 % > 7 % ✓.
+
+RESUMEN DE INCUMPLIMIENTOS:
+  · Escalera: C = 18 cm > 17,5 cm (l. 617-618).
+  · Escalera: pasamanos solo en 1 lado (l. 772-773).
+  · Rampa:    pendiente 7 % > 6 % para tramo ≥ 6 m (l. 802).
+
+CRITERIO: C ≤ 17,5 cm sin ascensor (l.617-618) + relación 2C+H = 64 ∈
+[54,70] ✓ (l.620) + condiciones independientes + altura tramo 1,80 m <
+2,25 m ✓ (l.655) + rampa accesible L=8m ≥ 6m → máx 6% (l.802); 7%>6% ✗
++ longitud 8m ≤ 9m ✓ (l.823).`,
+  },
+
+  {
+    id: "SUP-E38-A",
+    titulo: "Orden ECO/805/2003 · Método residual estático: valor máximo de solar",
+    bloque: "valoraciones",
+    dificultad: 2,
+    fuente: "E38 · Orden ECO/805/2003 art. 42 · enunciado generado",
+    tiempo_estimado_min: 35,
+    temas: ["E38"],
+    pesos: { estructura: 10, normativa: 20, calculo: 30, croquis: null, conclusion: 10 },
+    enunciado:
+`Un promotor inmobiliario solicita la tasación de un solar en Pamplona para conocer el precio máximo que puede pagar por él. El solar está clasificado como suelo urbano consolidado y puede edificarse de forma inmediata.
+
+Datos de la promoción prevista:
+
+  VM (valor del inmueble en hipótesis de edificio terminado,
+      calculado por método de comparación):           2.500.000 €
+
+  Pagos necesarios previstos (Σ Ci):
+    · Costes de construcción:                         1.050.000 €
+    · Honorarios técnicos y licencias:                  105.000 €
+    · Gastos de comercialización:                        75.000 €
+    · Gastos financieros:                                20.000 €
+    Total Σ Ci:                                       1.250.000 €
+
+  Margen neto del promotor (b):                          0,20 (20 %)
+
+Se pide:
+  a) Indicar en qué procedimiento del método residual se encuadra el cálculo
+     y justificar por qué es el aplicable.
+  b) Calcular el valor residual del solar (F).`,
+    guion:
+`GUIÓN DE CORRECCIÓN (Orden ECO/805/2003 · E_Tema38.txt):
+
+1. ELECCIÓN DEL PROCEDIMIENTO (art. 34, l. 564-577)
+   Art. 34.3 (l. 577): "El método residual sólo se podrá aplicar mediante
+   el procedimiento estático, a los solares e inmuebles en rehabilitación
+   en los que se pueda comenzar la edificación o rehabilitación en un plazo
+   no superior a un año, así como a los solares edificados."
+
+   El solar puede edificarse de inmediato → procedimiento ESTÁTICO.
+   (Plazos pendientes de gestión urbanística → habría que evaluar el
+   procedimiento dinámico, art. 34.2, l. 571-576.)
+
+2. PASOS DEL PROCEDIMIENTO ESTÁTICO (art. 40, l. 652-663)
+   a) Estimar costes de construcción y gastos necesarios (l. 655).
+   b) Estimar VM del inmueble terminado (l. 657).
+   c) Fijar margen del promotor (l. 659).
+   d) Aplicar fórmula (l. 661).
+
+3. FÓRMULA (art. 42, l. 668-681)
+   F = VM · (1 – b) – Σ Ci   (l. 671)
+
+   Donde:
+     F  = Valor del terreno o inmueble a rehabilitar  (l. 675)
+     VM = Valor del inmueble terminado = 2.500.000 €  (l. 677)
+     b  = Margen neto del promotor = 0,20             (l. 679)
+     Σ Ci = Suma de pagos necesarios = 1.250.000 €    (l. 681)
+
+   F = 2.500.000 × (1 – 0,20) – 1.250.000
+   F = 2.500.000 × 0,80       – 1.250.000
+   F = 2.000.000              – 1.250.000
+   F = 750.000 €
+
+   El valor residual (precio máximo a pagar por el solar): 750.000 €.
+
+CRITERIO: identificar procedimiento estático (art. 34.3, l. 577) +
+citar y aplicar F = VM(1-b) - ΣCi (art. 42, l. 671) +
+resultado correcto 750.000 €.`,
+  },
+
+  {
+    id: "SUP-E39-A",
+    titulo: "RD 1492/2011 · Valoración de suelo rural por capitalización de renta",
+    bloque: "valoraciones",
+    dificultad: 2,
+    fuente: "E39 · RD 1492/2011 arts. 7, 9, 11 · enunciado generado",
+    tiempo_estimado_min: 30,
+    temas: ["E39"],
+    pesos: { estructura: 10, normativa: 20, calculo: 30, croquis: null, conclusion: 10 },
+    enunciado:
+`El Ayuntamiento de Pamplona expropia una parcela de suelo rural con aprovechamiento agrícola de secano para ejecutar un nuevo vial. La propietaria impugna el justiprecio y aporta los siguientes datos de la explotación:
+
+  Superficie de la finca:                        1,5 ha
+  Ingresos anuales de la explotación (I):     3.600 €/ha/año
+  Costes anuales de la explotación (C):       1.600 €/ha/año
+  Tipo de capitalización general (r1):             3 %
+    (art. 12.1.a; remite a Disp. Adicional 7.ª TRLSRU)
+
+Se considera que la renta es constante y la explotación de vida útil ilimitada.
+
+Se pide:
+  a) Calcular la renta anual de la explotación (R) por hectárea y en total.
+  b) Calcular el valor del suelo por capitalización (V total de la finca).`,
+    guion:
+`GUIÓN DE CORRECCIÓN (RD 1492/2011 · E_Tema39.txt):
+
+AVISO NORMATIVA (l. 268): El art. 12.b y el Anexo I (coeficiente
+corrector r2 para actividades agropecuarias/forestales) fueron declarados
+nulos de pleno derecho por STS de 8 de junio de 2020. Solo se aplica r1
+(tipo general). El art. 2 figura "(Derogado)" (l. 64).
+
+1. MÉTODO APLICABLE (art. 7.1, l. 139-141)
+   "Cuando el suelo estuviera en situación de rural, los terrenos se
+    valorarán mediante la capitalización de la renta anual real o potencial
+    de la explotación [...] según su estado en el momento al que deba
+    entenderse referida la valoración y adoptándose la que sea superior."
+
+2. CÁLCULO DE LA RENTA (art. 9.1, l. 156-169)
+   R = I – C   (l. 161)
+   R = 3.600 – 1.600 = 2.000 €/ha/año
+   R total (1,5 ha) = 2.000 × 1,5 = 3.000 €/año
+
+3. CAPITALIZACIÓN — RENTA CONSTANTE, VIDA ILIMITADA (art. 11.b, l. 249-260)
+   "Cuando se considere una renta de la explotación, R, constante a lo
+    largo del tiempo, la expresión [...] se transformará en V = R / r"
+
+   V = R / r1 = 3.000 / 0,03 = 100.000 €
+
+   El valor del suelo rural de la finca: 100.000 €.
+
+   Nota: podría aplicarse factor de corrección por localización al alza
+   (art. 7.3, l. 145), si concurren las circunstancias del art. 17.
+
+CRITERIO: citar art. 7.1 (método capitalización suelo rural) +
+R = I - C = 2.000 €/ha (art. 9, l. 161) + V = R/r = 100.000 €
+(art. 11.b, l. 249-260) + mencionar nulidad r2/Anexo I (STS 2020, l. 268).`,
+  },
 ];
