@@ -699,4 +699,129 @@ CRITERIO: citar art. 7.1 (método capitalización suelo rural) +
 R = I - C = 2.000 €/ha (art. 9, l. 161) + V = R/r = 100.000 €
 (art. 11.b, l. 249-260) + mencionar nulidad r2/Anexo I (STS 2020, l. 268).`,
   },
+  {
+    id: "SUP-E35-A",
+    titulo: "Licencia urbanística: naturaleza jurídica y silencio administrativo",
+    bloque: "licencia",
+    dificultad: 2,
+    fuente: "enunciado generado",
+    tiempo_estimado_min: 35,
+    temas: ["E35"],
+    pesos: { estructura: 10, normativa: 30, calculo: 10, croquis: null, conclusion: 20 },
+    enunciado: `Un promotor solicita licencia urbanística para construir un edificio de 8 viviendas en suelo urbano consolidado de Pamplona. Aporta proyecto visado y documentación completa y abona el ICIO correspondiente sobre un presupuesto de ejecución material de 600.000 €. Transcurridos cinco meses sin resolución expresa, comunica al Ayuntamiento que entiende otorgada la licencia por silencio administrativo positivo e inicia las obras al día siguiente.
+
+Como arquitecto/a municipal, analiza: (a) la naturaleza jurídica de la licencia urbanística; (b) la validez de la invocación del silencio positivo; (c) el importe del ICIO liquidado.`,
+    guion: `NATURALEZA JURÍDICA (art. 190.1 TRLFOTU, l. 256)
+La licencia es un acto de control PREVIO, de carácter REGLADO y DECLARATIVO.
+  · Reglada: sin discrecionalidad; si el proyecto cumple la normativa se otorga;
+    si no cumple, se deniega.
+  · Declarativa: no crea derechos nuevos, reconoce los que ya otorga el planeamiento.
+
+SILENCIO ADMINISTRATIVO (arts. 72.5 y 77.5 TRLFOTU, l. 273)
+El silencio NUNCA puede otorgar facultades contrarias a la ordenación urbanística.
+Las licencias obtenidas por silencio positivo en contra de la ordenación son nulas
+de pleno derecho.
+El promotor NO puede invocar silencio positivo: las obras carecen de cobertura.
+La Ley 39/2015 (supletoria) confirma que no caben actos presuntos contra el
+ordenamiento jurídico.
+
+ICIO (Ordenanza Pamplona, l. 276)
+ICIO = 5 % del presupuesto de ejecución material.
+ICIO = 600.000 x 0,05 = 30.000 €.
+
+CONCLUSIÓN
+Las obras deben suspenderse de inmediato. El Ayuntamiento acordará la suspensión
+y la notificará al promotor. La inactividad en la resolución puede generar
+responsabilidad de la Administración, pero no legitima el inicio de obras.`,
+  },
+  {
+    id: "SUP-E36-A",
+    titulo: "Declaración responsable comercial: umbral Ley 12/2012 y puntos de recarga VE",
+    bloque: "licencia",
+    dificultad: 2,
+    fuente: "enunciado generado",
+    tiempo_estimado_min: 35,
+    temas: ["E36"],
+    pesos: { estructura: 10, normativa: 35, calculo: null, croquis: null, conclusion: 25 },
+    enunciado: `Un empresario quiere implantar una tienda de artículos deportivos de 650 m² de superficie útil en un local existente en Pamplona sin realizar obras de acondicionamiento. Consulta si puede iniciar la actividad mediante declaración responsable o si necesita obtener licencia previa. Además, quiere instalar dos puntos de recarga de vehículo eléctrico en el interior del local y pregunta si ello requiere licencia urbanística adicional.
+
+Como arquitecto/a municipal, responde a las dos consultas y describe las consecuencias inmediatas de la presentación de la declaración responsable.`,
+    guion: `UMBRAL LEY 12/2012 — ¿APLICA LA DR? (art. 2.1, l. 134-139)
+La Ley 12/2012 Título I se aplica a actividades comerciales minoristas en
+establecimientos con superficie útil de exposición y venta NO superior a 750 m².
+650 m² < 750 m² → el establecimiento queda dentro del ámbito de la ley.
+TRAMPA: los umbrales 300 m² y 500 m² son redacciones derogadas (l. 119);
+el vigente es 750 m².
+
+INEXIGIBILIDAD DE LICENCIA PREVIA (art. 3.1 Ley 12/2012, l. 146-152)
+Para inicio y desarrollo de estas actividades NO puede exigirse licencia previa
+de instalación, funcionamiento o apertura.
+Art. 3.3 (l. 156-160): la exención a obras de acondicionamiento opera solo si NO
+requieren proyecto ex art. 2.2 LOE. Aquí no hay obras: cuestión no aplicable.
+
+PUNTOS DE RECARGA VE (art. 192.h TRLFOTU, l. 76-78)
+Los puntos de recarga de VE en el interior de edificaciones no requieren licencia
+urbanística.
+Excepción: edificio BIC o sujeto a otro régimen de protección → regla no aplica.
+Conclusión: instalación posible sin licencia, salvo edificio protegido.
+
+EFECTOS DE LA PRESENTACIÓN DE LA DR
+Art. 4 Ordenanza control posterior Pamplona (l. 703-716): la DR habilita para
+iniciar la actividad desde su presentación.
+Art. 5.3 Ordenanza (l. 734-742): deben estar en el local a disposición del
+Ayuntamiento la copia de la DR diligenciada, el certificado técnico y la
+documentación complementaria.
+Art. 192 apt. 2 TRLFOTU (l. 80-82): la DR NO exime ni condiciona las facultades
+de inspección, control y sanción municipales.
+Art. 7.5 Ordenanza control posterior (l. 807-815): la inexactitud u omisión
+esencial en la DR determina la imposibilidad de continuar con la actividad.
+
+CONCLUSIÓN
+El empresario puede iniciar la actividad y colocar los puntos de recarga mediante
+DR, sin esperar licencia previa, salvo que el local esté en edificio protegido.
+La actividad queda sujeta a control posterior municipal.`,
+  },
+  {
+    id: "SUP-E36-B",
+    titulo: "Obras menores en Casco Antiguo de Pamplona: procedimiento incorrecto",
+    bloque: "licencia",
+    dificultad: 2,
+    fuente: "enunciado generado",
+    tiempo_estimado_min: 30,
+    temas: ["E36"],
+    pesos: { estructura: 10, normativa: 35, calculo: null, croquis: null, conclusion: 25 },
+    enunciado: `Un propietario tramita como actuación comunicada la pintura de la fachada de su vivienda situada en el ámbito del Casco Antiguo de Pamplona. Para la ejecución prevé colocar un andamio. Presenta la instancia en el Registro del Área de Urbanismo y el personal encargado del enterado revisa la solicitud.
+
+¿Debe el técnico municipal dar conformidad al procedimiento elegido? Razona la respuesta con dos argumentos independientes e indica qué procedimiento corresponde y los plazos asociados.`,
+    guion: `1.ER ARGUMENTO: UBICACIÓN EN CASCO ANTIGUO (art. 3 Ordenanza obras menores, l. 317-318)
+Las obras en fachadas y cubiertas pueden tramitarse como comunicadas SALVO en
+edificios situados en Casco Antiguo.
+El edificio está en el Casco Antiguo → primera causa de exclusión del régimen
+de comunicación.
+
+2.º ARGUMENTO: USO DE ANDAMIO (art. 3 último párrafo, l. 324-327)
+No pueden tramitarse como comunicadas las obras que exijan la colocación de
+andamios, la ocupación de vía pública o procedimientos de trabajos en altura.
+Doble exclusión independiente: Casco Antiguo + andamio.
+
+PROCEDIMIENTO CORRECTO: TRAMITACIÓN ABREVIADA (Título II Ordenanza)
+Art. 6.3 Ordenanza (l. 401-413): las obras en fachadas/cubiertas excluidas de
+comunicadas por razón de Casco Antiguo se tramitan por procedimiento abreviado.
+Plazo resolución: máximo 1 MES desde documentación completa (art. 9 párr. 3,
+l. 526-528).
+Inicio de obras: 3 MESES desde concesión.
+Finalización: 6 MESES desde concesión (art. 10.3.e, l. 556-561).
+Prórroga máxima = mitad de esos plazos.
+
+LÍMITE ADICIONAL: GRADOS DE PROTECCIÓN 1 Y 2 (art. 6, l. 427-428)
+Si el edificio tiene grado de protección 1 ó 2 en el Catálogo del Plan Municipal,
+NO puede tramitarse por abreviado: deberá seguirse el procedimiento ordinario de
+licencia mayor.
+Grado 3: sí admite abreviado con los límites del artículo.
+
+ACTUACIÓN DEL TÉCNICO (art. 5.2.b Ordenanza, l. 368-371)
+El técnico NO debe dar conformidad. Notificará al solicitante la improcedencia del
+régimen comunicado y le facilitará el modelo del procedimiento que corresponda
+(abreviado u ordinario según el grado de protección del edificio).`,
+  },
 ];
