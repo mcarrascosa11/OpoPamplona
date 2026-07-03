@@ -782,6 +782,53 @@ DR, sin esperar licencia previa, salvo que el local esté en edificio protegido.
 La actividad queda sujeta a control posterior municipal.`,
   },
   {
+    id: "SUP-E37-A",
+    titulo: "LF 14/2005 · Hallazgo arqueológico casual durante obras: obligaciones, dominio público e indemnización",
+    bloque: "mixto",
+    dificultad: 2,
+    fuente: "enunciado generado",
+    tiempo_estimado_min: 35,
+    temas: ["E37"],
+    pesos: { estructura: 10, normativa: 30, calculo: null, croquis: null, conclusion: 30 },
+    enunciado: `Durante la ejecución de obras de urbanización en una parcela privada de Pamplona, la dirección facultativa detecta restos de estructuras murarias de posible valor arqueológico. El promotor paraliza los trabajos. Reclama una indemnización por la paralización y pregunta si, al ser el descubridor, puede quedarse con los restos hallados.
+
+Como arquitecto/a municipal, analiza: (a) las obligaciones inmediatas del promotor y de la dirección facultativa; (b) el régimen jurídico de los bienes hallados; (c) si procede indemnización por la paralización; (d) si existe algún derecho económico del descubridor y del propietario del terreno.`,
+    guion: `OBLIGACIONES INMEDIATAS (art. 59.1 LF 14/2005, l. 306)
+Paralizar de inmediato las actuaciones que puedan dañar los restos.
+Comunicar el descubrimiento al Departamento competente en materia de cultura
+Y a la autoridad local, en el plazo máximo de 48 horas (art. 63.1, l. 344).
+Los restos deben permanecer en el lugar hasta que el Departamento determine
+su destino (art. 63.3, l. 348), salvo riesgo inminente de deterioro.
+
+RÉGIMEN JURÍDICO DE LOS BIENES HALLADOS (art. 56, l. 283)
+Son bienes de DOMINIO PÚBLICO todos los bienes integrantes del Patrimonio
+Arqueológico descubiertos como consecuencia de hallazgos casuales o
+intencionados, autorizados o no.
+El promotor NO adquiere propiedad sobre los restos: son de dominio público
+desde el momento del hallazgo.
+
+INDEMNIZACIÓN POR PARALIZACIÓN (art. 59.4, l. 312)
+La suspensión de las obras NO da lugar a indemnización.
+El Departamento resolverá en plazo máximo de 2 meses (art. 59.1, l. 306):
+autorizará el reinicio O inscribirá el bien e impondrá un plazo de suspensión
+hasta completar la intervención arqueológica y establecer medidas de conservación.
+
+PREMIO POR DESCUBRIMIENTO CASUAL (art. 64.1, l. 353)
+Aunque no hay propiedad ni indemnización, sí existe un PREMIO en metálico:
+la mitad del valor del hallado según tasación legal.
+Se reparte por partes iguales entre el descubridor y el propietario del lugar.
+Pierde el derecho al premio quien incumpla las obligaciones de comunicación
+(art. 64.2, l. 355).
+NO genera premio el descubrimiento en Áreas Arqueológicas de Cautela ya
+declaradas (art. 64.3.d, l. 365).
+
+CONCLUSIÓN
+Paralizar + comunicar en 48 h al Departamento Y a la entidad local.
+Los restos son dominio público; no procede indemnización por la suspensión.
+Sí procede premio: 50 % descubridor + 50 % propietario del terreno, siempre
+que se cumplan las obligaciones de comunicación y no sea Área de Cautela.`,
+  },
+  {
     id: "SUP-E36-B",
     titulo: "Obras menores en Casco Antiguo de Pamplona: procedimiento incorrecto",
     bloque: "licencia",
