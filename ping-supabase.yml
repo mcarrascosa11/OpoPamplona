@@ -1,0 +1,29 @@
+name: Ping Supabase
+
+# Evita que el proyecto de Supabase se pause por inactividad (plan Free: 7 días).
+# Corre cada 3 días a las 06:00 UTC. También se puede lanzar a mano desde la pestaña Actions.
+
+on:
+  schedule:
+    - cron: "0 6 */3 * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Consultar Supabase
+        run: |
+          RESPUESTA=$(curl -s -o /dev/null -w "%{http_code}" \
+            "${{ secrets.SUPABASE_URL }}/rest/v1/temas?select=id&limit=1" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}")
+
+          echo "Código HTTP: $RESPUESTA"
+
+          if [ "$RESPUESTA" = "200" ]; then
+            echo "Ping correcto. Proyecto activo."
+          else
+            echo "Fallo en el ping (HTTP $RESPUESTA)."
+            exit 1
+          fi
