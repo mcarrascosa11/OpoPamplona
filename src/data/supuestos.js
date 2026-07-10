@@ -782,6 +782,57 @@ DR, sin esperar licencia previa, salvo que el local esté en edificio protegido.
 La actividad queda sujeta a control posterior municipal.`,
   },
   {
+    id: "SUP-E40-A",
+    titulo: "RD 849/1986 · Zona de servidumbre y zona de policía en proyecto junto a cauce",
+    bloque: "licencia",
+    dificultad: 2,
+    fuente: "enunciado generado",
+    tiempo_estimado_min: 35,
+    temas: ["E40"],
+    pesos: { estructura: 10, normativa: 30, calculo: 10, croquis: null, conclusion: 20 },
+    enunciado: `Un promotor presenta en el Ayuntamiento de Pamplona solicitud de licencia urbanística para construir un vestuario permanente de 60 m² destinado a un campo de fútbol recreativo. La parcela linda al oeste con la margen derecha de un río; el borde del cauce dista 2 m del lindero de la parcela. El vestuario se sitúa a 60 m del borde del cauce. El promotor solicita también colocar un cerramiento de muro de fábrica estanco a lo largo del lindero oeste, a 2 m del cauce.
+
+Como arquitecto/a municipal, determina: (a) qué zonas de protección del DPH afectan a la parcela y sus dimensiones; (b) si el vestuario puede autorizarse mediante licencia municipal ordinaria; (c) qué régimen se aplica al cerramiento de muro estanco.`,
+    guion: `ZONAS DE PROTECCIÓN DEL DPH (art. 6.2 RD 849/1986, l. 170-172)
+Las márgenes de los cauces públicos están sujetas a dos zonas:
+  · Zona de servidumbre: 5 m de anchura desde el borde del cauce.
+  · Zona de policía:     100 m de anchura desde el borde del cauce.
+
+Aplicación a la parcela:
+  · Lindero oeste a 2 m del cauce → franja 0-5 m en zona de servidumbre.
+  · Vestuario a 60 m → zona de policía (60 < 100) y fuera de servidumbre (60 > 5).
+
+Resumen de distancias:
+  0 m ..... 5 m ..... zona de servidumbre
+  5 m ..... 100 m ... zona de policía  ← vestuario a 60 m
+  > 100 m ........... sin restricciones DPH
+
+VESTUARIO A 60 M: ¿BASTA LA LICENCIA MUNICIPAL? (art. 9.4, l. 229)
+Cualquier obra en zona de policía requiere AUTORIZACIÓN ADMINISTRATIVA PREVIA
+o declaración responsable ante el organismo de cuenca (art. 78 y ss.).
+Esta autorización es INDEPENDIENTE de la licencia municipal.
+El Ayuntamiento no puede otorgar la licencia sin que el promotor acredite
+haber obtenido —o presentado DR ante— el organismo de cuenca.
+
+CERRAMIENTO DE MURO ESTANCO A 2 M DEL CAUCE (art. 7.3, l. 191)
+2 m < 5 m → dentro de zona de servidumbre.
+Art. 7.3: "con carácter general no se podrá realizar ningún tipo de
+construcción en esta zona salvo que resulte conveniente o necesaria para
+el uso del dominio público hidráulico o para su conservación y restauración".
+Un muro estanco no responde a ese fin e impediría la servidumbre de paso
+peatonal y de vigilancia (art. 7.1.b, l. 183).
+No puede autorizarse sin autorización expresa y justificada del organismo
+de cuenca.
+
+CONCLUSIÓN
+Vestuario (60 m): exigir autorización previa del organismo de cuenca
+antes de tramitar la licencia municipal (art. 9.4).
+Cerramiento estanco (2 m): denegar; afecta a zona de servidumbre e
+impide el paso público (art. 7.3).
+Licencia municipal y autorización hidráulica son independientes pero
+acumulativas: ambas son necesarias.`,
+  },
+  {
     id: "SUP-E37-A",
     titulo: "LF 14/2005 · Hallazgo arqueológico casual durante obras: obligaciones, dominio público e indemnización",
     bloque: "mixto",
