@@ -782,6 +782,77 @@ DR, sin esperar licencia previa, salvo que el local esté en edificio protegido.
 La actividad queda sujeta a control posterior municipal.`,
   },
   {
+    id: "SUP-E41-A",
+    titulo: "Ruido · Pub con equipo musical bajo vivienda (RD 1367/2007 + DF 135/1989)",
+    bloque: "licencia",
+    dificultad: 2,
+    fuente: "enunciado generado",
+    tiempo_estimado_min: 40,
+    temas: ["E41"],
+    pesos: { estructura: 10, normativa: 25, calculo: 15, croquis: null, conclusion: 20 },
+    enunciado: `Se solicita licencia de actividad para un pub con equipo musical en la planta baja de un edificio residencial de Pamplona, con vivienda situada directamente encima (dormitorio sobre el local). El nivel sonoro máximo interior previsto es de 90 dBA y el horario de funcionamiento es nocturno. El proyecto presentado no incluye estudio acústico.
+
+Como arquitecto/a municipal, informa: (a) qué documentación acústica es exigible al proyecto; (b) el aislamiento acústico bruto mínimo exigible respecto a la vivienda más afectada; (c) los valores límite de ruido transmitido al dormitorio colindante; (d) las condiciones constructivas y de control que puede imponer el Ayuntamiento; (e) qué requisito adicional procede antes de la licencia de apertura; (f) si la respuesta cambiaría si la actividad fuese una discoteca.`,
+    guion: `DOCUMENTACIÓN EXIGIBLE: PROYECTO ACÚSTICO (art. 10 DF 135/1989, l. 1577-1583)
+Actividad MINP nueva próxima a viviendas → el proyecto técnico DEBE incluir
+proyecto acústico.
+  · Memoria: tipo de actividad, horario, niveles de emisión a 1 m, aislamientos
+    y silenciadores (dBA), amortiguadores de vibraciones, justificación de
+    niveles de inmisión, medidas para ruido de impacto.
+  · Planos: situación respecto a viviendas + planos de aislamiento 1/50 con
+    detalles 1/5.
+El proyecto presentado es incompleto: requerir subsanación.
+
+AISLAMIENTO ACÚSTICO BRUTO MÍNIMO (art. 12.2, l. 1605-1610)
+Local con nivel sonoro debido primordialmente a equipo musical → tabla art. 12.2:
+  85 dBA interior → 60 dBA de aislamiento
+  90 dBA interior → 65 dBA de aislamiento
+Nivel previsto 90 dBA → aislamiento bruto mínimo 65 dBA respecto a la
+vivienda más afectada.
+Cálculo con transmisiones indirectas: +3 dBA de inmisión como mínimo, salvo
+justificación (art. 10.3, l. 1585).
+Comparación: bar sin música ≤80 dBA solo requiere 55 dBA nocturno / 50 dBA
+diurno (art. 12.1, l. 1603) — la música encarece el aislamiento.
+
+LÍMITES DE INMISIÓN EN EL DORMITORIO COLINDANTE
+(art. 24.3 RD 1367/2007, l. 319 + tabla B2 anexo III, l. 974-990)
+Ninguna actividad puede transmitir a locales colindantes niveles superiores
+a la tabla B2.
+Uso residencial, dormitorios: LK,d 35 / LK,e 35 / LK,n 25 dB.
+Horario nocturno → el valor decisivo es LK,n = 25 dB en el dormitorio.
+Cumplimiento (art. 25.1.b, l. 336-342): ningún valor diario supera en 3 dB
+el límite; ningún LKeq,Ti medido lo supera en 5 dB.
+
+CONDICIONES CONSTRUCTIVAS Y DE CONTROL (art. 12.2, l. 1610)
+  · Limitador-controlador permanente que interrumpa el equipo musical al
+    superar el nivel máximo.
+  · Ventilación forzada obligatoria (también art. 10.4, l. 1587: actividad
+    con puertas/ventanas cerradas).
+  · Acceso por departamento estanco con absorción acústica y doble puerta.
+  · Ventanas: dobles, vidrios mínimo 6 mm separados al menos 50 mm, con
+    absorción en la cámara; cerradas durante el funcionamiento.
+
+ANTES DE LA LICENCIA DE APERTURA (art. 12.4 y 12.5, l. 1614-1616)
+Certificado de mediciones del aislamiento acústico conseguido, firmado por
+titulado técnico competente.
+Medición "in situ" mediante emisión de ruido rosa.
+Sin perjuicio de las comprobaciones municipales.
+
+¿Y SI FUERA DISCOTECA? (art. 12.3, l. 1612)
+Discotecas, salas de baile y similares (licencia posterior al DF 135/1989):
+obligatoriamente en edificio aislado o en sótano de edificación cuya planta
+baja esté exenta de viviendas.
+En este edificio (planta baja con vivienda encima) una discoteca NO sería
+autorizable en esa ubicación.
+
+CONCLUSIÓN
+Requerir proyecto acústico completo; exigir 65 dBA de aislamiento bruto;
+límite en dormitorio LK,n 25 dB; imponer limitador, ventilación forzada,
+doble puerta y ventanas dobles; certificado de aislamiento con ruido rosa
+antes de la apertura. Como pub es autorizable con esas condiciones; como
+discoteca, no.`,
+  },
+  {
     id: "SUP-E40-A",
     titulo: "RD 849/1986 · Zona de servidumbre y zona de policía en proyecto junto a cauce",
     bloque: "licencia",
