@@ -297,8 +297,14 @@ function VistaLectura() {
   const [fullscreen, setFullscreen] = useState(false);
   const raizRef = useRef(null);
 
+  const [sidebarVisible, setSidebarVisible] = useState(true);
+
   useEffect(() => {
-    const onChange = () => setFullscreen(!!document.fullscreenElement);
+    const onChange = () => {
+      const activa = !!document.fullscreenElement;
+      setFullscreen(activa);
+      setSidebarVisible(!activa); // al entrar en pantalla completa, oculta la lista; al salir, la recupera
+    };
     document.addEventListener("fullscreenchange", onChange);
     return () => document.removeEventListener("fullscreenchange", onChange);
   }, []);
@@ -497,9 +503,9 @@ function VistaLectura() {
         display: "flex", alignItems: "center", gap: 8, padding: "8px 14px",
         borderBottom: `1px solid ${borde}`, background: bgCard, flexWrap: "wrap",
       }}>
-        <button onClick={() => setSidebarAbierto((v) => !v)}
-          style={{ ...ctaGhost, padding: "6px 12px", fontSize: 12, display: esMovil ? "inline-flex" : "none" }}
-        >☰ Temas</button>
+        <button onClick={() => esMovil ? setSidebarAbierto((v) => !v) : setSidebarVisible((v) => !v)}
+          style={{ ...ctaGhost, padding: "6px 12px", fontSize: 12 }}
+        >{esMovil ? "☰ Temas" : sidebarVisible ? "◧ Ocultar lista" : "☰ Mostrar lista"}</button>
 
         {seleccionado && (
           <span style={{ fontFamily: MONO, fontSize: 11, color: C.red, fontWeight: 700 }}>
@@ -576,7 +582,7 @@ function VistaLectura() {
       {/* ── Layout ── */}
       <div style={{ display: "flex", height: alturaPanel, overflow: "hidden" }}>
         <div style={{
-          display: (!esMovil || sidebarAbierto) ? "flex" : "none",
+          display: (esMovil ? sidebarAbierto : sidebarVisible) ? "flex" : "none",
           flexDirection: "column",
           position: esMovil ? "absolute" : "relative",
           zIndex: esMovil ? 20 : 1,
@@ -614,7 +620,7 @@ function VistaLectura() {
           )}
 
           {contenido && !cargando && (
-            <div style={{ maxWidth: "70ch", margin: "0 auto", padding: "0 24px 48px" }}>
+            <div style={{ maxWidth: fullscreen ? "min(1400px, 92vw)" : "70ch", margin: "0 auto", padding: "0 24px 48px" }}>
               <div style={{ marginBottom: 24 }}>
                 <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1.5, color: C.red, marginBottom: 4 }}>
                   {seleccionado.codigo} · {formato === "A" ? "FORMATO ESTRUCTURADO" : formato === "B" ? "ARTICULADO LEGAL" : "TEXTO PLANO"}
