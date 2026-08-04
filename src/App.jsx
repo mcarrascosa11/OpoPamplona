@@ -7,10 +7,12 @@ import { loadState, saveState, syncDisponible, getCodigo, setCodigo } from "./li
 import { supabase } from "./lib/supabase.js";
 
 /* ---------- TOKENS (tablero de delineación) ---------- */
+// Los valores son variables CSS: cambian solas con el atributo data-theme del <div id="app-wrap">.
 const C = {
-  paper: "#EDEAE3", card: "#F7F5F0", ink: "#1C1B19", ink2: "#54514B", hair: "#C9C4B8",
-  red: "#B0182B", redSoft: "#F1DADA", ok: "#2F6B3C", okSoft: "#DDE9DD", slate: "#3B4A5A", amber: "#9A6B17",
+  paper: "var(--c-paper)", card: "var(--c-card)", ink: "var(--c-ink)", ink2: "var(--c-ink2)", hair: "var(--c-hair)", hairA: "var(--c-hair-a)",
+  red: "var(--c-red)", redSoft: "var(--c-redsoft)", ok: "var(--c-ok)", okSoft: "var(--c-oksoft)", slate: "var(--c-slate)", amber: "var(--c-amber)",
 };
+const INK_FIJA = "#1C1B19"; // texto sobre subrayados: siempre oscuro, el fondo pastel no cambia con el tema
 const MONO = "ui-monospace, 'SF Mono', 'Cascadia Mono', 'Roboto Mono', Menlo, Consolas, monospace";
 const SANS = "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
 
@@ -22,6 +24,9 @@ export default function App() {
   const [state, setState] = useState(null);
   const [saving, setSaving] = useState("idle");
   const [tab, setTab] = useState("inicio");
+  const [darkMode, setDarkMode] = useState(() => {
+    try { return localStorage.getItem("opo-dark-mode") === "1"; } catch { return false; }
+  });
 
   useEffect(() => { loadState().then((s) => setState(s || defaultState())); }, []);
 
@@ -30,12 +35,25 @@ export default function App() {
     const ok = await saveState(next); setSaving(ok ? "idle" : "error");
   }, []);
 
-  if (!state) return <div style={{ ...wrap, display: "flex", alignItems: "center", justifyContent: "center" }}><div style={{ fontFamily: MONO, color: C.ink2 }}>Cargando expediente…</div></div>;
+  const toggleDark = () => {
+    setDarkMode((v) => {
+      const next = !v;
+      try { localStorage.setItem("opo-dark-mode", next ? "1" : "0"); } catch {}
+      return next;
+    });
+  };
+
+  if (!state) return (
+    <div style={{ ...wrap, display: "flex", alignItems: "center", justifyContent: "center" }} data-theme={darkMode ? "dark" : "light"}>
+      <style>{baseCSS}</style>
+      <div style={{ fontFamily: MONO, color: C.ink2 }}>Cargando expediente…</div>
+    </div>
+  );
 
   return (
-    <div style={wrap}>
+    <div style={wrap} data-theme={darkMode ? "dark" : "light"}>
       <style>{baseCSS}</style>
-      <Header tab={tab} setTab={setTab} saving={saving} />
+      <Header tab={tab} setTab={setTab} saving={saving} darkMode={darkMode} toggleDark={toggleDark} />
       <main style={{ maxWidth: 920, margin: "0 auto", padding: "0 18px 64px" }}>
         {tab === "inicio" && <Inicio state={state} setTab={setTab} reload={() => loadState().then((s) => setState(s || defaultState()))} />}
         {tab === "temas" && <VistaLectura />}
@@ -48,7 +66,7 @@ export default function App() {
   );
 }
 
-function Header({ tab, setTab, saving }) {
+function Header({ tab, setTab, saving, darkMode, toggleDark }) {
   const tabs = [["inicio", "Inicio"], ["temas", "Leer temas"], ["resumenes", "Resúmenes"], ["test", "Test · 1ª"], ["supuestos", "Supuestos · 2ª"], ["progreso", "Progreso"]];
   return (
     <header style={{ borderBottom: `2px solid ${C.ink}`, marginBottom: 24, background: C.paper, position: "sticky", top: 0, zIndex: 5 }}>
@@ -58,8 +76,14 @@ function Header({ tab, setTab, saving }) {
             <div style={{ fontFamily: MONO, fontSize: 11, letterSpacing: 2, color: C.red, fontWeight: 700 }}>COAVN · OPOSICIÓN ENERO 2027</div>
             <h1 style={{ fontFamily: SANS, fontSize: 22, fontWeight: 800, margin: "2px 0 0", color: C.ink, letterSpacing: -0.4 }}>Arquitecto/a — Ayuntamiento de Pamplona</h1>
           </div>
-          <div style={{ fontFamily: MONO, fontSize: 10.5, color: saving === "error" ? C.red : C.ink2 }}>
-            {saving === "saving" ? "guardando…" : saving === "error" ? "⚠ sin guardar" : "● guardado"}
+          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            <button onClick={toggleDark} title="Cambiar tema" style={{
+              fontFamily: MONO, fontSize: 11, padding: "5px 10px", border: `1.5px solid ${C.hair}`,
+              background: "transparent", color: C.ink2, borderRadius: 4, cursor: "pointer",
+            }}>{darkMode ? "☀ Claro" : "☾ Oscuro"}</button>
+            <div style={{ fontFamily: MONO, fontSize: 10.5, color: saving === "error" ? C.red : C.ink2 }}>
+              {saving === "saving" ? "guardando…" : saving === "error" ? "⚠ sin guardar" : "● guardado"}
+            </div>
           </div>
         </div>
         <nav style={{ display: "flex", gap: 2, marginTop: 12, flexWrap: "wrap" }}>
@@ -79,10 +103,40 @@ function Header({ tab, setTab, saving }) {
 /* ---------- INICIO + sincronización ---------- */
 function Inicio({ state, setTab, reload }) {
   const [codigo, setCod] = useState(getCodigo());
+  const [backupMsg, setBackupMsg] = useState(null); // { ok, texto }
+  const fileInputRef = useRef(null);
   const vistas = Object.values(state.temas).reduce((a, t) => a + (t.vistas || 0), 0);
   const aciertos = Object.values(state.temas).reduce((a, t) => a + (t.aciertos || 0), 0);
   const pct = vistas ? Math.round((aciertos / vistas) * 100) : 0;
   const guardarCodigo = async () => { setCodigo(codigo); await reload(); };
+
+  const exportarProgreso = () => {
+    const payload = { app: "oposicion-pamplona", version: 1, exportadoEl: new Date().toISOString(), codigo: getCodigo(), data: state };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `oposicion-pamplona-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    setBackupMsg({ ok: true, texto: "Backup descargado." });
+  };
+
+  const importarProgreso = async (file) => {
+    try {
+      const json = JSON.parse(await file.text());
+      if (!json || typeof json !== "object" || !json.data || typeof json.data !== "object") {
+        throw new Error("el archivo no tiene el formato esperado");
+      }
+      if (!window.confirm("Esto sustituirá tu progreso actual en este dispositivo por el del backup. ¿Continuar?")) return;
+      if (json.codigo) { setCodigo(json.codigo); setCod(json.codigo); }
+      await saveState(json.data);
+      await reload();
+      setBackupMsg({ ok: true, texto: "Progreso importado correctamente." });
+    } catch (e) {
+      setBackupMsg({ ok: false, texto: `Error al importar: ${e.message}` });
+    }
+  };
 
   return (
     <div>
@@ -104,7 +158,7 @@ function Inicio({ state, setTab, reload }) {
             <p style={pSmall}>Escribe un código personal (el que quieras) e introdúcelo igual en cada dispositivo. Tu progreso se sincroniza con ese código.</p>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 8 }}>
               <input value={codigo} onChange={(e) => setCod(e.target.value)} placeholder="p. ej. marcos-2027"
-                style={{ fontFamily: MONO, fontSize: 13, padding: "9px 12px", border: `1.5px solid ${C.hair}`, borderRadius: 4, background: "#fff", color: C.ink, flex: "1 1 200px" }} />
+                style={{ fontFamily: MONO, fontSize: 13, padding: "9px 12px", border: `1.5px solid ${C.hair}`, borderRadius: 4, background: C.card, color: C.ink, flex: "1 1 200px" }} />
               <button className="cta" style={ctaPrimary} onClick={guardarCodigo}>Guardar y sincronizar</button>
             </div>
             {getCodigo() && <p style={{ ...pSmall, marginTop: 8 }}>Código activo: <b style={{ fontFamily: MONO }}>{getCodigo()}</b></p>}
@@ -112,6 +166,17 @@ function Inicio({ state, setTab, reload }) {
         ) : (
           <p style={pSmall}>Ahora mismo el progreso se guarda solo en este dispositivo. Para sincronizar entre los tres, configura Supabase (ver README) y rellena las variables de entorno; entonces aparecerá aquí el campo de código.</p>
         )}
+      </Ficha>
+
+      <Ficha codigo="COPIA DE SEGURIDAD" titulo="Backup de tu progreso">
+        <p style={pSmall}>Tu progreso vive en este dispositivo{getCodigo() ? " (y sincronizado con tu código)" : ", sin copia en ningún otro sitio"}. Descarga un archivo de vez en cuando por si pierdes el móvil o cambias de dispositivo sin haber configurado un código.</p>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 8 }}>
+          <button className="cta" style={ctaGhost} onClick={exportarProgreso}>Exportar progreso</button>
+          <button className="cta" style={ctaGhost} onClick={() => fileInputRef.current?.click()}>Importar progreso</button>
+          <input ref={fileInputRef} type="file" accept="application/json" style={{ display: "none" }}
+            onChange={(e) => { const f = e.target.files?.[0]; e.target.value = ""; if (f) importarProgreso(f); }} />
+        </div>
+        {backupMsg && <p style={{ ...pSmall, marginTop: 8, color: backupMsg.ok ? C.ok : C.red }}>{backupMsg.texto}</p>}
       </Ficha>
 
       <div style={{ display: "flex", gap: 8, marginTop: 14, flexWrap: "wrap" }}>
@@ -229,12 +294,22 @@ function VistaLectura() {
   const [contenido, setContenido] = useState(null);
   const [cargando, setCargando] = useState(false);
   const [error, setError] = useState(null);
+  const [fullscreen, setFullscreen] = useState(false);
+  const raizRef = useRef(null);
+
+  useEffect(() => {
+    const onChange = () => setFullscreen(!!document.fullscreenElement);
+    document.addEventListener("fullscreenchange", onChange);
+    return () => document.removeEventListener("fullscreenchange", onChange);
+  }, []);
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) raizRef.current?.requestFullscreen?.().catch(() => {});
+    else document.exitFullscreen?.();
+  };
   const [disponibles, setDisponibles] = useState(null);
   const [fontSize, setFontSize] = useState(() => {
     try { return parseInt(localStorage.getItem("lect-fs") || "15", 10); } catch { return 15; }
-  });
-  const [darkMode, setDarkMode] = useState(() => {
-    try { return localStorage.getItem("lect-dark") === "1"; } catch { return false; }
   });
   const [sidebarAbierto, setSidebarAbierto] = useState(false);
   const [tocAbierto, setTocAbierto] = useState(false);
@@ -262,14 +337,10 @@ function VistaLectura() {
     return () => document.removeEventListener("mousedown", close);
   }, [popup]);
 
-  const bg     = darkMode ? "#18181B" : C.paper;
-  const bgCard = darkMode ? "#27272A" : C.card;
-  const tinta  = darkMode ? "#E4E4E7" : C.ink;
-  const tinta2 = darkMode ? "#A1A1AA" : C.ink2;
-  const borde  = darkMode ? "#3F3F46" : C.hair;
+  // El tema (claro/oscuro) es global — ver toggleDark en el Header. Aquí solo alias a los tokens.
+  const bg = C.paper, bgCard = C.card, tinta = C.ink, tinta2 = C.ink2, borde = C.hair;
 
-  const persistFs   = (v) => { setFontSize(v); try { localStorage.setItem("lect-fs", String(v)); } catch {} };
-  const persistDark = (v) => { setDarkMode(v); try { localStorage.setItem("lect-dark", v ? "1" : "0"); } catch {} };
+  const persistFs = (v) => { setFontSize(v); try { localStorage.setItem("lect-fs", String(v)); } catch {} };
 
   const temasFiltrados = useMemo(() => {
     const q = busqueda.toLowerCase();
@@ -417,8 +488,10 @@ function VistaLectura() {
     </div>
   );
 
+  const alturaPanel = fullscreen ? "calc(100vh - 46px)" : "calc(100vh - 180px)";
+
   return (
-    <div style={{ margin: "0 -18px", background: bg, minHeight: "80vh" }}>
+    <div ref={raizRef} style={{ margin: fullscreen ? 0 : "0 -18px", background: bg, minHeight: "80vh" }}>
       {/* ── Controles ── */}
       <div style={{
         display: "flex", alignItems: "center", gap: 8, padding: "8px 14px",
@@ -457,9 +530,9 @@ function VistaLectura() {
             }}>A</button>
           ))}
         </div>
-        <button onClick={() => persistDark(!darkMode)}
+        <button onClick={toggleFullscreen} title="Pantalla completa"
           style={{ ...ctaGhost, padding: "5px 10px", fontSize: 11 }}
-        >{darkMode ? "☀ Claro" : "☾ Oscuro"}</button>
+        >{fullscreen ? "⤡ Salir" : "⤢ Pantalla completa"}</button>
       </div>
 
       {/* ── TOC dropdown ── */}
@@ -501,13 +574,13 @@ function VistaLectura() {
       )}
 
       {/* ── Layout ── */}
-      <div style={{ display: "flex", height: "calc(100vh - 180px)", overflow: "hidden" }}>
+      <div style={{ display: "flex", height: alturaPanel, overflow: "hidden" }}>
         <div style={{
           display: (!esMovil || sidebarAbierto) ? "flex" : "none",
           flexDirection: "column",
           position: esMovil ? "absolute" : "relative",
           zIndex: esMovil ? 20 : 1,
-          height: esMovil ? "calc(100vh - 180px)" : "100%",
+          height: esMovil ? alturaPanel : "100%",
           boxShadow: esMovil ? "4px 0 12px rgba(0,0,0,0.15)" : "none",
           width: 280, flexShrink: 0,
         }}>
@@ -574,7 +647,7 @@ function VistaLectura() {
                       title="Clic para borrar subrayado"
                       style={{
                         background: COLORES_SUB[seg.color] || COLORES_SUB.amarillo,
-                        color: tinta, cursor: "pointer", borderRadius: 2,
+                        color: INK_FIJA, cursor: "pointer", borderRadius: 2,
                       }}
                     >{seg.text}</mark>
                   ) : (
@@ -592,7 +665,7 @@ function VistaLectura() {
         <div ref={popupRef} style={{
           position: "fixed", left: popup.x, top: popup.y,
           transform: "translateX(-50%)", zIndex: 200,
-          background: "#fff", border: `1px solid ${C.hair}`,
+          background: C.card, border: `1px solid ${C.hair}`,
           borderRadius: 10, boxShadow: "0 4px 20px rgba(0,0,0,0.18)",
           padding: "8px 12px", display: "flex", gap: 10, alignItems: "center",
         }}>
@@ -665,7 +738,20 @@ function Test({ state, persist }) {
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
   const [resp, setResp] = useState([]); const [modo, setModo] = useState("todos"); const [num, setNum] = useState(10);
   const [parteR, setParteR] = useState("E"); const [desde, setDesde] = useState(1); const [hasta, setHasta] = useState(5);
+  const [alcanceFallos, setAlcanceFallos] = useState("recientes");
+  const [examen, setExamen] = useState(false); const [tiempoExamen, setTiempoExamen] = useState(90);
+  const [segRestantes, setSegRestantes] = useState(0);
   const temasDisp = [...new Set(PREGUNTAS.map((q) => q.tema))];
+
+  useEffect(() => {
+    if (fase !== "run" || !examen) return;
+    const id = setInterval(() => setSegRestantes((s) => Math.max(0, s - 1)), 1000);
+    return () => clearInterval(id);
+  }, [fase, examen]);
+
+  useEffect(() => {
+    if (examen && fase === "run" && segRestantes === 0) finalizarPorTiempo();
+  }, [segRestantes]);
 
   const enRango = (q) => {
     if (q.tema[0] !== parteR) return false;
@@ -677,27 +763,49 @@ function Test({ state, persist }) {
 
   const iniciar = () => {
     let base = PREGUNTAS;
-    if (modo === "falladas") base = PREGUNTAS.filter((q) => state.falladas.includes(q.id));
-    else if (modo === "rango") base = PREGUNTAS.filter(enRango);
+    if (modo === "falladas") {
+      const ids = alcanceFallos === "recientes" ? state.falladas.slice(-100) : state.falladas;
+      base = PREGUNTAS.filter((q) => ids.includes(q.id));
+    } else if (modo === "rango") base = PREGUNTAS.filter(enRango);
     if (!base.length) return;
     setPool(shuffle(base).slice(0, Math.min(num, base.length)).map((q) => ({ ...q, _order: shuffle([0, 1, 2, 3]) })));
-    setIdx(0); setSel(null); setShown(false); setResp([]); setFase("run");
+    setIdx(0); setSel(null); setShown(false); setResp([]);
+    if (examen) setSegRestantes(tiempoExamen * 60);
+    setFase("run");
   };
   const cur = pool[idx];
   const responder = () => { if (sel === null || shown) return; const ok = cur._order.indexOf(cur.c) === sel; setShown(true); setResp((r) => [...r, { id: cur.id, tema: cur.tema, ok, blank: false }]); };
   const enBlanco = () => { if (shown) return; setShown(true); setResp((r) => [...r, { id: cur.id, tema: cur.tema, ok: false, blank: true }]); };
   const siguiente = async () => { if (idx + 1 < pool.length) { setIdx(idx + 1); setSel(null); setShown(false); } else { await cerrar(); setFase("fin"); } };
-  const cerrar = async () => {
+  const cerrar = async (respFinal) => {
+    const respUsado = respFinal || resp;
     const next = { ...state, temas: { ...state.temas }, falladas: [...state.falladas] };
-    resp.forEach((r) => {
+    respUsado.forEach((r) => {
       const t = next.temas[r.tema] || { vistas: 0, aciertos: 0, fallos: 0 }; t.vistas += 1;
       if (r.ok) { t.aciertos += 1; next.falladas = next.falladas.filter((x) => x !== r.id); }
-      else if (!r.blank) { t.fallos += 1; if (!next.falladas.includes(r.id)) next.falladas.push(r.id); }
+      else if (!r.blank) { t.fallos += 1; next.falladas = [...next.falladas.filter((x) => x !== r.id), r.id]; }
       next.temas[r.tema] = t;
     });
-    const a = resp.filter((r) => r.ok).length, f = resp.filter((r) => !r.ok && !r.blank).length, b = resp.filter((r) => r.blank).length;
-    next.sesiones = [...state.sesiones, { fecha: Date.now(), n: resp.length, aciertos: a, fallos: f, blancos: b }].slice(-30);
+    const a = respUsado.filter((r) => r.ok).length, f = respUsado.filter((r) => !r.ok && !r.blank).length, b = respUsado.filter((r) => r.blank).length;
+    next.sesiones = [...state.sesiones, { fecha: Date.now(), n: respUsado.length, aciertos: a, fallos: f, blancos: b, examen }].slice(-30);
     await persist(next);
+  };
+
+  // ── Modo examen: sin corrección al momento, avanza directo a la siguiente ──
+  const avanzarExamen = async (blanco) => {
+    if (!blanco && sel === null) return;
+    const ok = !blanco && cur._order.indexOf(cur.c) === sel;
+    const nuevoResp = [...resp, { id: cur.id, tema: cur.tema, ok, blank: blanco }];
+    setResp(nuevoResp); setSel(null);
+    if (idx + 1 < pool.length) setIdx(idx + 1);
+    else { await cerrar(nuevoResp); setFase("fin"); }
+  };
+  const finalizarPorTiempo = async () => {
+    const restantes = pool.slice(resp.length).map((q) => ({ id: q.id, tema: q.tema, ok: false, blank: true }));
+    const respFinal = [...resp, ...restantes];
+    setResp(respFinal);
+    await cerrar(respFinal);
+    setFase("fin");
   };
 
   if (fase === "config") {
@@ -713,8 +821,18 @@ function Test({ state, persist }) {
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
           <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({PREGUNTAS.length})</Chip>
           <Chip on={modo === "rango"} onClick={() => setModo("rango")}>Por rango de temas</Chip>
-          <Chip on={modo === "falladas"} onClick={() => setModo("falladas")} disabled={!nF}>Repasar falladas ({nF})</Chip>
+          <Chip on={modo === "falladas"} onClick={() => setModo("falladas")} disabled={!nF}>Repasar mis fallos ({nF})</Chip>
         </div>
+
+        {modo === "falladas" && (
+          <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
+            <Label>Alcance</Label>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+              <Chip on={alcanceFallos === "recientes"} onClick={() => setAlcanceFallos("recientes")}>Últimos 100 fallos ({Math.min(nF, 100)})</Chip>
+              <Chip on={alcanceFallos === "todos"} onClick={() => setAlcanceFallos("todos")}>Todos mis fallos ({nF})</Chip>
+            </div>
+          </div>
+        )}
 
         {modo === "rango" && (
           <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
@@ -745,11 +863,64 @@ function Test({ state, persist }) {
 
         <Label>Nº de preguntas</Label>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 18 }}>
-          {[5, 10, 20, 40].map((n) => <Chip key={n} on={num === n} onClick={() => setNum(n)}>{n}</Chip>)}
+          {[5, 10, 20, 40, 100].map((n) => <Chip key={n} on={num === n} onClick={() => setNum(n)}>{n}</Chip>)}
         </div>
+
+        <Label>Simulacro de examen</Label>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: examen ? 10 : 18 }}>
+          <Chip on={!examen} onClick={() => setExamen(false)}>Practicar (corrección al momento)</Chip>
+          <Chip on={examen} onClick={() => setExamen(true)}>Examen cronometrado (sin corrección hasta el final)</Chip>
+        </div>
+        {examen && (
+          <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 18, background: C.paper }}>
+            <Label>Tiempo del simulacro</Label>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+              {[30, 60, 90, 120].map((m) => <Chip key={m} on={tiempoExamen === m} onClick={() => setTiempoExamen(m)}>{m} min</Chip>)}
+            </div>
+            <p style={{ ...pSmall, marginTop: 10, marginBottom: 0 }}>El reloj corre desde el primer segundo y no se puede pausar. Al agotarse el tiempo, la tanda se cierra automáticamente y lo que quede sin contestar cuenta como en blanco.</p>
+          </div>
+        )}
+
         <button className="cta" style={ctaPrimary} onClick={iniciar} disabled={okComenzar}>Comenzar</button>
         <p style={{ ...pSmall, marginTop: 14 }}>Temas con preguntas ahora: {temasDisp.length} de 72. El resto se irá poblando.</p>
       </Ficha>
+    );
+  }
+  if (fase === "run" && cur && examen) {
+    const aLive = resp.filter((r) => r.ok).length, fLive = resp.filter((r) => !r.ok && !r.blank).length, bLive = resp.filter((r) => r.blank).length;
+    const netoLive = aLive - fLive / 3, sobre30Live = resp.length ? Math.max(0, (netoLive / resp.length) * 30) : 0;
+    const bajoTiempo = segRestantes <= 300;
+    return (
+      <div>
+        <div style={{ textAlign: "center", padding: "18px 16px 14px", background: bajoTiempo ? C.redSoft : C.hairA, borderRadius: 8, marginBottom: 14, border: `1.5px solid ${bajoTiempo ? C.red : C.hair}` }}>
+          <div style={{ fontFamily: MONO, fontSize: 48, fontWeight: 700, letterSpacing: 3, color: bajoTiempo ? C.red : C.ink, lineHeight: 1 }}>{fmtTime(segRestantes)}</div>
+          <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 0.5, color: bajoTiempo ? C.red : C.ink2, marginTop: 6 }}>
+            {bajoTiempo ? "⚠ ÚLTIMOS 5 MINUTOS" : `tiempo restante · simulacro de ${tiempoExamen} min`}
+          </div>
+        </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(90px,1fr))", gap: 8, marginBottom: 16 }}>
+          <Stat n={aLive} label="aciertos" accent={C.ok} />
+          <Stat n={fLive} label="errores" accent={C.red} />
+          <Stat n={bLive} label="blancos" />
+          <Stat n={sobre30Live.toFixed(1)} label="nota est. /30" accent={sobre30Live >= 15 ? C.ok : C.amber} />
+        </div>
+        <Ficha codigo={`${cur.tema} · ${temaTitulo(cur.tema)}`} titulo={`Pregunta ${idx + 1} / ${pool.length}`}>
+          <p style={{ ...p, fontWeight: 600, fontSize: 16 }}>{cur.q}</p>
+          <div style={{ display: "grid", gap: 8, margin: "16px 0" }}>
+            {cur._order.map((origIdx, shownIdx) => (
+              <button key={shownIdx} onClick={() => setSel(shownIdx)} className="opt"
+                style={{ textAlign: "left", padding: "12px 14px", background: C.card, border: `1.5px solid ${sel === shownIdx ? C.ink : C.hair}`, borderRadius: 4, cursor: "pointer", fontFamily: SANS, fontSize: 14.5, color: C.ink, display: "flex", gap: 10, lineHeight: 1.45 }}>
+                <span style={{ fontFamily: MONO, fontWeight: 700, color: C.ink2 }}>{String.fromCharCode(97 + shownIdx)})</span>
+                <span>{cur.o[origIdx]}</span>
+              </button>
+            ))}
+          </div>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+            <button className="cta" style={ctaPrimary} onClick={() => avanzarExamen(false)} disabled={sel === null}>{idx + 1 < pool.length ? "Siguiente →" : "Terminar examen"}</button>
+            <button className="cta" style={ctaGhost} onClick={() => avanzarExamen(true)}>Dejar en blanco</button>
+          </div>
+        </Ficha>
+      </div>
     );
   }
   if (fase === "run" && cur) {
@@ -787,15 +958,27 @@ function Test({ state, persist }) {
   if (fase === "fin") {
     const a = resp.filter((r) => r.ok).length, f = resp.filter((r) => !r.ok && !r.blank).length, b = resp.filter((r) => r.blank).length;
     const neto = a - f / 3, sobre30 = pool.length ? Math.max(0, (neto / pool.length) * 30) : 0;
+    const aprobado = sobre30 >= 15;
     return (
-      <Ficha codigo="RESULTADO" titulo="Tanda corregida (criterio real)">
+      <Ficha codigo={examen ? "RESULTADO · SIMULACRO DE EXAMEN" : "RESULTADO"} titulo={examen ? `Simulacro corregido (criterio real, ${tiempoExamen} min)` : "Tanda corregida (criterio real)"}>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(110px,1fr))", gap: 12, marginBottom: 18 }}>
           <Stat n={a} label="aciertos" accent={C.ok} /><Stat n={f} label="fallos (−1/3)" accent={C.red} />
           <Stat n={b} label="en blanco" /><Stat n={neto.toFixed(2)} label="nota neta" />
         </div>
-        <div style={{ borderLeft: `3px solid ${C.red}`, padding: "10px 14px", background: C.card, marginBottom: 18 }}>
-          <p style={{ ...pSmall, margin: 0 }}>Equivalente sobre 30: <b style={{ fontFamily: MONO }}>{sobre30.toFixed(2)}</b> pts. Corte de la 1ª prueba: 15/30. En duda razonable, contesta; en duda total, blanco.</p>
+        <div style={{ borderLeft: `3px solid ${aprobado ? C.ok : C.red}`, padding: "10px 14px", background: C.card, marginBottom: examen ? 14 : 18 }}>
+          <p style={{ ...pSmall, margin: 0 }}>Equivalente sobre 30: <b style={{ fontFamily: MONO, color: aprobado ? C.ok : C.red }}>{sobre30.toFixed(2)}</b> pts. Corte de la 1ª prueba: 15/30. En duda razonable, contesta; en duda total, blanco.</p>
         </div>
+        {examen && (
+          <div style={{ marginBottom: 18 }}>
+            <div style={{ position: "relative", height: 10, background: C.hair, borderRadius: 5 }}>
+              <div style={{ position: "absolute", left: 0, top: 0, height: "100%", width: `${Math.min(100, (sobre30 / 30) * 100)}%`, background: aprobado ? C.ok : C.red, borderRadius: 5 }} />
+              <div title="Corte: 15/30" style={{ position: "absolute", left: "50%", top: -3, bottom: -3, width: 2, background: C.ink }} />
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", fontFamily: MONO, fontSize: 10, color: C.ink2, marginTop: 4 }}>
+              <span>0</span><span>corte · 15</span><span>30</span>
+            </div>
+          </div>
+        )}
         <button className="cta" style={ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
       </Ficha>
     );
@@ -1021,7 +1204,7 @@ function Supuestos({ state, persist }) {
         <button className="cta" style={{ ...ctaGhost, marginBottom: 14 }} onClick={volverALista}>← Volver al listado</button>
         <Ficha codigo={`SUPUESTO · ${BLOQUES_SUP.find((b) => b.id === sup.bloque)?.label || sup.bloque}`} titulo={sup.titulo}>
           {/* Cronómetro grande */}
-          <div style={{ textAlign: "center", padding: "28px 16px 22px", background: superado ? C.redSoft : `${C.hair}40`, borderRadius: 8, marginBottom: 20, border: `1.5px solid ${superado ? C.red : C.hair}` }}>
+          <div style={{ textAlign: "center", padding: "28px 16px 22px", background: superado ? C.redSoft : C.hairA, borderRadius: 8, marginBottom: 20, border: `1.5px solid ${superado ? C.red : C.hair}` }}>
             <div style={{ fontFamily: MONO, fontSize: 60, fontWeight: 700, letterSpacing: 3, color: superado ? C.red : C.ink, lineHeight: 1 }}>
               {fmtTime(seg)}
             </div>
@@ -1035,7 +1218,7 @@ function Supuestos({ state, persist }) {
               {corriendo ? "Pausar" : seg === 0 ? "Iniciar reloj" : "Continuar"}
             </button>
             <button className="cta" style={ctaGhost} onClick={() => { setSeg(0); setCorriendo(false); }}>Reset</button>
-            <div style={{ display: "flex", alignItems: "center", gap: 6, border: `1.5px solid ${C.hair}`, borderRadius: 4, padding: "5px 10px", background: "#fff" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 6, border: `1.5px solid ${C.hair}`, borderRadius: 4, padding: "5px 10px", background: C.card }}>
               <span style={{ fontFamily: MONO, fontSize: 11, color: C.ink2 }}>Objetivo:</span>
               <input type="number" value={tiempoObj} min={0} max={240}
                 onChange={(e) => setTiempoObj(Math.max(0, +e.target.value))}
@@ -1045,7 +1228,7 @@ function Supuestos({ state, persist }) {
           </div>
           {/* Enunciado */}
           <Label>Enunciado del supuesto</Label>
-          <div style={{ whiteSpace: "pre-wrap", fontFamily: SANS, fontSize: 14.5, lineHeight: 1.7, color: C.ink, background: "#fff", border: `1px solid ${C.hair}`, padding: "16px 18px", borderRadius: 6, marginBottom: 12 }}>
+          <div style={{ whiteSpace: "pre-wrap", fontFamily: SANS, fontSize: 14.5, lineHeight: 1.7, color: C.ink, background: C.card, border: `1px solid ${C.hair}`, padding: "16px 18px", borderRadius: 6, marginBottom: 12 }}>
             {sup.enunciado}
           </div>
           <p style={{ ...pSmall, fontStyle: "italic" }}>Resuelve en papel. Cuando termines, pulsa el botón de abajo para registrar el tiempo y autocorregir.</p>
@@ -1084,7 +1267,7 @@ function Supuestos({ state, persist }) {
           <Label>Notas de autocorrección (qué faltó, qué sobró…)</Label>
           <textarea value={notasLibres} onChange={(e) => !guardado && setNotasLibres(e.target.value)} disabled={guardado} rows={4}
             placeholder="Ej.: Olvidé citar el art. 192 LFOTU · El croquis no estaba acotado · La conclusión era ambigua…"
-            style={{ width: "100%", fontFamily: SANS, fontSize: 13.5, lineHeight: 1.55, padding: 12, borderRadius: 4, border: `1.5px solid ${C.hair}`, background: guardado ? C.paper : "#fff", color: C.ink, resize: "vertical", boxSizing: "border-box" }} />
+            style={{ width: "100%", fontFamily: SANS, fontSize: 13.5, lineHeight: 1.55, padding: 12, borderRadius: 4, border: `1.5px solid ${C.hair}`, background: guardado ? C.paper : C.card, color: C.ink, resize: "vertical", boxSizing: "border-box" }} />
           {!guardado ? (
             <button className="cta" style={{ ...ctaPrimary, marginTop: 14 }} disabled={notaGlobal === null} onClick={guardarIntento}>
               Guardar intento
@@ -1176,10 +1359,19 @@ const Chip = ({ on, onClick, disabled, children }) => (
 );
 const Label = ({ children, style }) => (<div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.ink2, marginBottom: 7, textTransform: "uppercase", ...style }}>{children}</div>);
 
-const wrap = { minHeight: "100vh", background: C.paper, color: C.ink, fontFamily: SANS, backgroundImage: `linear-gradient(${C.hair}40 1px, transparent 1px), linear-gradient(90deg, ${C.hair}40 1px, transparent 1px)`, backgroundSize: "28px 28px" };
+const wrap = { minHeight: "100vh", background: C.paper, color: C.ink, fontFamily: SANS, backgroundImage: `linear-gradient(${C.hairA} 1px, transparent 1px), linear-gradient(90deg, ${C.hairA} 1px, transparent 1px)`, backgroundSize: "28px 28px" };
 const p = { fontFamily: SANS, fontSize: 14.5, lineHeight: 1.6, color: C.ink, margin: "0 0 10px" };
 const pSmall = { fontFamily: SANS, fontSize: 12.5, lineHeight: 1.55, color: C.ink2, margin: "0 0 6px" };
 const ctaPrimary = { fontFamily: MONO, fontSize: 13, fontWeight: 700, padding: "11px 20px", background: C.red, color: "#fff", border: "none", borderRadius: 4, cursor: "pointer", letterSpacing: 0.3 };
 const ctaGhost = { fontFamily: MONO, fontSize: 13, fontWeight: 600, padding: "10px 18px", background: "transparent", color: C.ink, border: `1.5px solid ${C.ink}`, borderRadius: 4, cursor: "pointer" };
-const selectStyle = { fontFamily: MONO, fontSize: 13, padding: "7px 10px", border: `1.5px solid ${C.hair}`, borderRadius: 4, background: "#fff", color: C.ink, cursor: "pointer" };
-const baseCSS = `* { box-sizing: border-box; } .navbtn:hover { color: ${C.ink} !important; } .opt:hover:not(:disabled) { border-color: ${C.ink} !important; } .cta:hover:not(:disabled) { opacity: 0.9; } .cta:disabled { opacity: 0.4; cursor: not-allowed; } button:focus-visible, textarea:focus-visible, input:focus-visible { outline: 2px solid ${C.slate}; outline-offset: 2px; } @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }`;
+const selectStyle = { fontFamily: MONO, fontSize: 13, padding: "7px 10px", border: `1.5px solid ${C.hair}`, borderRadius: 4, background: C.card, color: C.ink, cursor: "pointer" };
+const baseCSS = `
+:root, [data-theme="light"] {
+  --c-paper: #EDEAE3; --c-card: #F7F5F0; --c-ink: #1C1B19; --c-ink2: #54514B; --c-hair: #C9C4B8; --c-hair-a: rgba(201,196,184,0.25);
+  --c-red: #B0182B; --c-redsoft: #F1DADA; --c-ok: #2F6B3C; --c-oksoft: #DDE9DD; --c-slate: #3B4A5A; --c-amber: #9A6B17;
+}
+[data-theme="dark"] {
+  --c-paper: #18181B; --c-card: #232326; --c-ink: #E8E6E1; --c-ink2: #A8A399; --c-hair: #3F3F46; --c-hair-a: rgba(63,63,70,0.4);
+  --c-red: #E5484D; --c-redsoft: #3B1E20; --c-ok: #4ADE80; --c-oksoft: #1C3324; --c-slate: #93C5FD; --c-amber: #FBBF24;
+}
+* { box-sizing: border-box; } .navbtn:hover { color: ${C.ink} !important; } .opt:hover:not(:disabled) { border-color: ${C.ink} !important; } .cta:hover:not(:disabled) { opacity: 0.9; } .cta:disabled { opacity: 0.4; cursor: not-allowed; } button:focus-visible, textarea:focus-visible, input:focus-visible { outline: 2px solid ${C.slate}; outline-offset: 2px; } @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }`;
