@@ -336,11 +336,21 @@ function VistaLectura() {
   // Cierra popup al hacer clic fuera
   useEffect(() => {
     if (!popup) return;
+    const abiertoEn = Date.now();
     const close = (e) => {
+      // En móvil, tras seleccionar texto con el dedo el navegador dispara un
+      // mousedown/touchstart "fantasma" ~300ms después sobre el propio texto
+      // (no el popup): sin este margen, el popup se cerraba solo antes de
+      // poder tocar un color.
+      if (Date.now() - abiertoEn < 400) return;
       if (popupRef.current && !popupRef.current.contains(e.target)) setPopup(null);
     };
     document.addEventListener("mousedown", close);
-    return () => document.removeEventListener("mousedown", close);
+    document.addEventListener("touchstart", close);
+    return () => {
+      document.removeEventListener("mousedown", close);
+      document.removeEventListener("touchstart", close);
+    };
   }, [popup]);
 
   // El tema (claro/oscuro) es global — ver toggleDark en el Header. Aquí solo alias a los tokens.
@@ -642,7 +652,7 @@ function VistaLectura() {
                 onTouchEnd={() => setTimeout(handleSeleccion, 200)}
                 style={{
                   fontFamily: SANS, fontSize, lineHeight: 1.85, color: tinta,
-                  whiteSpace: "pre-wrap", wordBreak: "break-word", userSelect: "text", cursor: "text",
+                  whiteSpace: "pre-wrap", wordBreak: "break-word", userSelect: "text", WebkitUserSelect: "text", cursor: "text",
                 }}
               >
                 {segments.map((seg, i) =>
