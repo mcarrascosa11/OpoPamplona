@@ -699,15 +699,28 @@ function VistaLectura() {
 
 /* ---------- RESÚMENES ---------- */
 function Resumenes() {
-  const disponibles = Object.keys(RESUMENES);
+  const disponibles = [...Object.keys(RESUMENES)].sort((a, b) => {
+    if (esGeneral(a) !== esGeneral(b)) return esGeneral(a) ? -1 : 1;
+    return temaNum(a) - temaNum(b);
+  });
   const [sel, setSel] = useState(disponibles[0] || null);
   const r = sel ? RESUMENES[sel] : null;
   return (
     <div>
       <Ficha codigo="RESÚMENES" titulo="Repaso por tema">
         <p style={pSmall}>Resúmenes orientados a examen: datos, artículos, plazos y ubicación de cada concepto. Crecen igual que el banco de test. Disponibles ahora: {disponibles.length} tema(s).</p>
-        <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 10 }}>
-          {disponibles.map((k) => <Chip key={k} on={sel === k} onClick={() => setSel(k)}>{k} · {temaTitulo(k).split("—")[0].trim()}</Chip>)}
+        <div style={{ display: "flex", flexDirection: "column", gap: 4, marginTop: 10 }}>
+          {disponibles.map((k) => (
+            <button key={k} onClick={() => setSel(k)} className="opt" style={{
+              display: "flex", alignItems: "baseline", gap: 10, width: "100%", textAlign: "left",
+              fontFamily: MONO, fontSize: 12.5, padding: "9px 12px", borderRadius: 4, cursor: "pointer",
+              border: `1.5px solid ${sel === k ? C.ink : C.hair}`, background: sel === k ? C.ink : "transparent",
+              color: sel === k ? C.paper : C.ink2, fontWeight: sel === k ? 700 : 500,
+            }}>
+              <span style={{ flexShrink: 0 }}>{k}</span>
+              <span style={{ opacity: sel === k ? 1 : 0.85 }}>{temaTitulo(k).split("—")[0].trim()}</span>
+            </button>
+          ))}
         </div>
       </Ficha>
 
@@ -744,6 +757,7 @@ function Test({ state, persist }) {
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
   const [resp, setResp] = useState([]); const [modo, setModo] = useState("todos"); const [num, setNum] = useState(10);
   const [parteR, setParteR] = useState("E"); const [desde, setDesde] = useState(1); const [hasta, setHasta] = useState(5);
+  const [temaUnico, setTemaUnico] = useState(1);
   const [alcanceFallos, setAlcanceFallos] = useState("recientes");
   const [examen, setExamen] = useState(false); const [tiempoExamen, setTiempoExamen] = useState(90);
   const [segRestantes, setSegRestantes] = useState(0);
@@ -766,6 +780,8 @@ function Test({ state, persist }) {
     return n >= lo && n <= hi;
   };
   const disponiblesRango = PREGUNTAS.filter(enRango).length;
+  const enTema = (q) => q.tema === `${parteR}${temaUnico}`;
+  const disponiblesTema = PREGUNTAS.filter(enTema).length;
 
   const iniciar = () => {
     let base = PREGUNTAS;
@@ -773,6 +789,7 @@ function Test({ state, persist }) {
       const ids = alcanceFallos === "recientes" ? state.falladas.slice(-100) : state.falladas;
       base = PREGUNTAS.filter((q) => ids.includes(q.id));
     } else if (modo === "rango") base = PREGUNTAS.filter(enRango);
+    else if (modo === "tema") base = PREGUNTAS.filter(enTema);
     if (!base.length) return;
     setPool(shuffle(base).slice(0, Math.min(num, base.length)).map((q) => ({ ...q, _order: shuffle([0, 1, 2, 3]) })));
     setIdx(0); setSel(null); setShown(false); setResp([]);
@@ -819,16 +836,34 @@ function Test({ state, persist }) {
     const maxTema = parteR === "G" ? totalGeneral : totalEsp;
     const nums = Array.from({ length: maxTema }, (_, i) => i + 1);
     const presets = parteR === "G" ? [[1, 5], [6, 10], [11, 13]] : [[1, 5], [6, 10], [11, 15], [16, 20], [21, 25], [26, 30], [31, 35], [36, 40], [41, 45], [46, 50], [51, 55], [56, 59]];
-    const okComenzar = (modo === "falladas" && !nF) || (modo === "rango" && !disponiblesRango);
+    const okComenzar = (modo === "falladas" && !nF) || (modo === "rango" && !disponiblesRango) || (modo === "tema" && !disponiblesTema);
     return (
       <Ficha codigo="1ª PRUEBA · TEST" titulo="Configura la tanda">
         <p style={p}>Cuatro opciones, una válida. Corrección como el examen real: cada fallo resta 1/3; en blanco, ni suma ni resta.</p>
         <Label>Modo</Label>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
           <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({PREGUNTAS.length})</Chip>
+          <Chip on={modo === "tema"} onClick={() => setModo("tema")}>Un solo tema</Chip>
           <Chip on={modo === "rango"} onClick={() => setModo("rango")}>Por rango de temas</Chip>
           <Chip on={modo === "falladas"} onClick={() => setModo("falladas")} disabled={!nF}>Repasar mis fallos ({nF})</Chip>
         </div>
+
+        {modo === "tema" && (
+          <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
+            <Label>Parte</Label>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 14 }}>
+              <Chip on={parteR === "G"} onClick={() => { setParteR("G"); setTemaUnico(1); }}>General (1–{totalGeneral})</Chip>
+              <Chip on={parteR === "E"} onClick={() => { setParteR("E"); setTemaUnico(1); }}>Específica (1–{totalEsp})</Chip>
+            </div>
+            <Label>Tema</Label>
+            <select value={temaUnico} onChange={(e) => setTemaUnico(+e.target.value)} style={{ ...selectStyle, width: "100%" }}>
+              {nums.map((n) => <option key={n} value={n}>{parteR}{n} · {(parteR === "G" ? TEMAS_GENERAL : TEMAS_ESP)[n - 1]}</option>)}
+            </select>
+            <p style={{ ...pSmall, marginTop: 10, marginBottom: 0, color: disponiblesTema ? C.ok : C.red }}>
+              {disponiblesTema} pregunta(s) disponible(s) en este tema.{!disponiblesTema ? " Aún no hay preguntas aquí; se irá poblando." : ""}
+            </p>
+          </div>
+        )}
 
         {modo === "falladas" && (
           <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
