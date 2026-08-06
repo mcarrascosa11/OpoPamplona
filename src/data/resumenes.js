@@ -3385,7 +3385,7 @@ export const RESUMENES = {
 
   E26: {
     intro:
-      "El Decreto Foral 108/2014 regula en Navarra el informe de evaluación de los edificios (IEE), que sustituyó a la antigua inspección técnica del RDL 8/2011 por exigencia de la Ley 8/2013 de rehabilitación, regeneración y renovación urbanas. Es un tema muy propio del arquitecto municipal, porque el Ayuntamiento aparece en los tres extremos: recibe el informe, lo inscribe en el registro y es quien ejecuta forzosamente si no se subsanan las deficiencias. El armazón del decreto son cuatro decisiones encadenadas: QUIÉN está obligado (art. 3) → QUÉ se mira (art. 4) → CÓMO se califican las deficiencias (art. 7) → QUÉ calificación recibe el edificio (art. 8). Los cuatro escalones de calificación —apto, apto con deficiencias leves, no apto provisionalmente y no apto— son el corazón del tema.",
+      "El tema reúne DOS decretos forales que se leen encadenados: el DF 108/2014, que regula el informe de evaluación de los edificios (IEE), y el DF 322/2000, que regula el LIBRO DEL EDIFICIO. La bisagra entre ambos es el art. 10.2 del DF 108/2014: el informe de evaluación se incorpora al libro del edificio y, si el libro no existe, el informe pasa a ser su primer documento. Del DF 108/2014 el armazón son cuatro decisiones encadenadas — QUIÉN está obligado (art. 3) → QUÉ se mira (art. 4) → CÓMO se califican las deficiencias (art. 7) → QUÉ calificación recibe el edificio (art. 8), con los cuatro escalones apto / apto con deficiencias leves / no apto provisionalmente / no apto. Del DF 322/2000 interesa la cadena documental: quién lo formaliza (el promotor), qué contiene (cinco apartados del art. 4), a quién y cómo se entrega (acta de recepción del art. 16) y quién lo mantiene después (la comunidad de propietarios). Es un tema muy propio del arquitecto municipal, porque el Ayuntamiento aparece en los dos extremos: recibe e inscribe el IEE, y la licencia de primera utilización marca los plazos del libro.",
     bloques: [
       {
         h: "Objeto y ámbito de aplicación (arts. 1-2)",
@@ -3526,6 +3526,57 @@ export const RESUMENES = {
           "DT SEGUNDA: quienes ya contaran con informe de evaluación antes de la entrada en vigor del decreto y dentro de su vigencia debían presentarlo para inscripción en el plazo máximo de 1 AÑO; de no solicitarse la inscripción en plazo, el informe se entiende COMO NO EFECTUADO",
         ],
       },
+      {
+        h: "DF 322/2000 — Libro del Edificio: obligatoriedad y custodia (arts. 1-3)",
+        nota:
+          "El segundo decreto del tema. Su ámbito es más estrecho de lo que parece: obligatorio en los edificios DESTINADOS A VIVIENDA que se construyan en Navarra, no en cualquier edificación. En rehabilitación también es obligatorio, pero con un contenido recortado — solo los datos y documentos que se deriven de la propia actividad rehabilitadora, no toda la historia del edificio, que sería imposible reconstruir. El dato que más se pregunta de este bloque es el plazo de un mes para registrar y archivar.",
+        items: [
+          "OBLIGATORIEDAD (art. 1): en todos los edificios DESTINADOS A VIVIENDA que se construyan en la Comunidad Foral a partir de la entrada en vigor del decreto",
+          "En REHABILITACIÓN (art. 1.1): es obligatoria la formalización del libro en las obras que afecten a la TOTALIDAD del edificio destinado a viviendas, a sus instalaciones generales o a sus elementos comunes, y en las rehabilitaciones BENEFICIARIAS DE AYUDAS PÚBLICAS. Pero en él figurarán EXCLUSIVAMENTE los datos y documentos que se deriven de la propia actividad rehabilitadora",
+          "Y además en cualquier otro supuesto en que resulte obligatorio por aplicación de la LOE (art. 1.2)",
+          "CUSTODIA Y ACTUALIZACIÓN (art. 2.1): corresponden al propietario del edificio o persona en quien delegue. En edificios en RÉGIMEN DE PROPIEDAD HORIZONTAL, asume esas funciones quien venga obligado a la custodia de documentación por la legislación de propiedad horizontal",
+          "En toda inscripción o incorporación de documentos debe constar la FECHA Y LA FIRMA de quien tiene atribuida la custodia (art. 2.2)",
+          "PLAZO DE UN MES (art. 2.3): las operaciones de mantenimiento, reforma, rehabilitación o cualquier otra que modifique los datos del libro deben registrarse en el plazo de UN MES desde que se produzcan o hayan finalizado; y los documentos que deban archivarse se incorporan en UN MES desde que se obtuvieran",
+          "EFECTO JUSTIFICATIVO (art. 2.4): la existencia del libro debidamente actualizado, con las operaciones de mantenimiento y reparación, surte efectos para JUSTIFICAR EL CUMPLIMIENTO de las obligaciones que la LOE impone a propietarios y usuarios, y de cualquier otra obligación de mantenimiento de la normativa sectorial",
+          "ACCESO (art. 3): el libro estará a disposición de TODOS LOS COPROPIETARIOS y de los representantes de la Administración que inspeccionen el cumplimiento de las obligaciones o la ejecución de las operaciones de control o mantenimiento obligatorias. En ambos casos puede exigirse efectuar copias de todo o parte del contenido A COSTA DEL SOLICITANTE",
+        ],
+      },
+      {
+        h: "Libro del Edificio: contenido (arts. 4-14)",
+        nota:
+          "Cinco apartados, precedidos de una copia del propio decreto foral que hace de guía para la actualización — un detalle que se pregunta porque es contraintuitivo. De los datos generales conviene retener los que tienen formato tasado: la fotografía de fachada con tamaño mínimo y el archivador DIN A4 con índice. Y las tres garantías del art. 9 son las de la LOE: diez, tres y un año.",
+        items: [
+          "El libro incluye EN PRIMER LUGAR una copia del propio Decreto Foral que regula su contenido, que constituye la GUÍA PARA SU ACTUALIZACIÓN (art. 4)",
+          "CINCO APARTADOS (art. 4): Datos Generales del Edificio · Archivo de Documentos · Proyecto y otros Documentos Técnicos · Registro de Incidencias · Registro de Operaciones de Mantenimiento y Rehabilitación",
+          "Los DATOS GENERALES (art. 5) se subdividen a su vez en cinco: Identificación del Edificio · Datos Jurídico-Administrativos · Intervinientes en el proceso edificatorio · Garantías y Seguros · Otros Datos u Observaciones",
+          "IDENTIFICACIÓN (art. 6): nombre, si lo tiene · dirección postal completa y REFERENCIA CATASTRAL · datos registrales de la escritura de Declaración de Obra Nueva y División en Propiedad Horizontal · plano de emplazamiento a escala suficiente · cédula parcelaria · y FOTOGRAFÍA de la fachada principal del edificio terminado, en tamaño MÍNIMO DE 9 POR 13 CENTÍMETROS",
+          "INTERVINIENTES (art. 8): promotor · autores del proyecto o proyectos · dirección facultativa · constructor · y subcontratistas e industriales instaladores, debiendo constar expresamente al menos los ejecutores de FONTANERÍA, CALEFACCIÓN, ELECTRICIDAD, GAS, ELEVADORES, TELECOMUNICACIONES, CONTRAINCENDIOS Y CLIMATIZACIÓN en todos los casos en que el edificio las contenga",
+          "GARANTÍAS (art. 9.1), las tres de la LOE: DIEZ AÑOS por daños que tengan su origen o afecten a cimentación, soportes, vigas, forjados u otros elementos estructurales y comprometan directamente la resistencia mecánica o estabilidad · TRES AÑOS por vicios o defectos de los elementos constructivos o de las instalaciones · UN AÑO por vicios o defectos que afecten a los elementos de TERMINACIÓN O ACABADO",
+          "ARCHIVO DE DOCUMENTOS (art. 11): archivador de hojas FORMATO DIN A4 con una nota de instrucciones sobre la forma de archivar y un ÍNDICE enumerativo. Contiene actas, escrituras, licencias, autorizaciones de uso, certificado final de obras, calificación definitiva o documentos de ayudas, pólizas de seguros, garantías de suministradores, acta de recepción del libro, estatutos de la agrupación o cooperativa, estatutos de la comunidad y otros. Todos los documentos deben ser ORIGINALES O COPIAS AUTENTICADAS O COMPULSADAS; si no son originales, se hará constar la situación del original",
+          "PROYECTO Y DOCUMENTACIÓN TÉCNICA (art. 12): copia VISADA Y COMPLETA del proyecto arquitectónico si el edificio se construyó SIN MODIFICACIÓN ALGUNA sobre el proyecto y así consta expresamente en el certificado final de obras. Si hubo modificaciones, el proyecto se SUSTITUYE por la DOCUMENTACIÓN FINAL DE OBRAS, igualmente completa y visada y con al menos la misma documentación y especificaciones",
+          "INSTRUCCIONES DE USO Y MANTENIMIENTO (art. 12.3), con cinco apartados por unidad: descripción · precauciones y recomendaciones · prohibiciones · mantenimiento por el usuario y/o por personal cualificado · calendario de operaciones recomendables y obligatorias. Las instrucciones de las instalaciones PROPIAS DE CADA VIVIENDA se suministran a sus adquirentes, no van al libro",
+          "CALENDARIO (art. 12.4): agrupa las acciones de mantenimiento obligatorio y recomendable por su frecuencia en períodos mensual, trimestral, anual, etc., e INFERIORES A VEINTE AÑOS",
+          "REGISTRO DE INCIDENCIAS (art. 13): reformas o cambios de uso que afecten al conjunto del edificio, sus instalaciones o elementos comunes —con descripción, datos del proyecto, fecha de la licencia y ayudas públicas— y cualquier otra incidencia que modifique los datos iniciales",
+          "REGISTRO DE OPERACIONES (art. 14): archivador DIN A4 con contratos de mantenimiento, registro de operaciones de mantenimiento, de reparación y de rehabilitación. Se consideran de REHABILITACIÓN las que no quepa incluir entre las de mantenimiento por su envergadura o por no estar en el calendario con periodicidad INFERIOR A VEINTE AÑOS, o las acogidas a algún tipo de AYUDA PÚBLICA",
+        ],
+      },
+      {
+        h: "Libro del Edificio: formalización, entrega y depósito (arts. 15-18)",
+        nota:
+          "El reparto de papeles es lo examinable: el PROMOTOR formaliza y custodia hasta la firma del acta de recepción; la COMUNIDAD cumplimenta después los registros, que se entregan en blanco con hojas según modelo oficial. El art. 16.3 contiene la nota literal que debe figurar en las copias entregadas a cada comprador, con su plazo de dos meses, y el art. 17 impone una previsión constructiva que hay que comprobar al informar un proyecto: el espacio para el armario del libro.",
+        items: [
+          "FORMALIZACIÓN (art. 15): acabada la obra, el PROMOTOR formaliza el libro cumplimentando los Datos Generales COMPLETOS, con excepción de los seguros que corresponda formalizar a la comunidad de propietarios (art. 9.2), e incorpora al archivo los documentos correspondientes y la documentación técnica del art. 12, salvo la del 12.5 (modificaciones durante la vida del edificio)",
+          "Los REGISTROS de Incidencias y de Operaciones de Mantenimiento y Rehabilitación se suministran SIN CUMPLIMENTAR, con hojas preparadas según MODELO OFICIAL, para que los cumplimenten los propietarios",
+          "ENTREGA (art. 16.1): el promotor entrega el libro al adquirente en el acto de transmisión de la propiedad si hay un único propietario; si el edificio está en PROPIEDAD HORIZONTAL, a la COMUNIDAD una vez constituida y designados sus representantes. Se firman DOS COPIAS del ACTA DE RECEPCIÓN —una se incorpora al propio libro y otra sirve al promotor como justificante—. El promotor CUSTODIA el libro hasta la firma del acta",
+          "Promociones con varios edificios o portales con comunidades independientes: UN EJEMPLAR del libro POR CADA COMUNIDAD (art. 16.2)",
+          "A los adquirentes de viviendas en propiedad horizontal se les entregan, en el acto de transmisión, COPIAS DE LAS HOJAS DE DATOS GENERALES según modelo oficial, firmadas por el promotor y con una nota apreciable advirtiendo de que, constituida la comunidad y elegidos los representantes, deberán solicitar fehacientemente la entrega del libro completo, con firma del acta de recepción EN EL PLAZO DE DOS MESES desde la recepción de la solicitud (art. 16.3)",
+          "Negativa a recibir (art. 16.5): si constituida la comunidad no se solicita la entrega, el promotor puede efectuarla por propia iniciativa; si el representante se niega a recibir el libro o a firmar el acta, el promotor repetirá fehacientemente la solicitud y, de persistir la negativa, lo COMUNICARÁ AL DEPARTAMENTO competente para el inicio de las acciones oportunas",
+          "Si el edificio queda como PROPIEDAD DEL PROMOTOR, la formalización debe efectuarse en el plazo de DOS MESES DESDE LA OBTENCIÓN DE LA LICENCIA DE PRIMERA UTILIZACIÓN (art. 16.6). En transmisión de la propiedad en régimen VERTICAL, debe transmitirse SIMULTÁNEAMENTE el libro completo (16.7)",
+          "ESPACIO DE DEPÓSITO (art. 17): en edificios de viviendas de NUEVA PLANTA en propiedad horizontal en los que no exista local de uso exclusivo de los representantes, debe preverse un espacio ACCESIBLE DESDE ELEMENTO COMÚN en el que pueda instalarse un armario con capacidad para contener el libro. La comunidad puede decidir después otra ubicación",
+          "TRAMITACIÓN FINAL (art. 18): al solicitar las CÉDULAS DE HABITABILIDAD como viviendas libres o la CALIFICACIÓN DEFINITIVA de viviendas protegidas, el promotor debe aportar copias firmadas de las hojas de Datos Generales del Edificio",
+          "Disposición final única: el decreto se aplica, CON EXCEPCIÓN DEL ARTÍCULO 17, a los edificios de nueva planta con viviendas que soliciten cédula de habitabilidad o calificación definitiva con posterioridad al 1 DE ENERO DE 2001",
+        ],
+      },
     ],
     claves: [
       "Ámbito: residencial colectiva = MÁS DE UNA VIVIENDA, aunque el edificio tenga otros usos. Asimilados: hoteles y residencias",
@@ -3549,6 +3600,24 @@ export const RESUMENES = {
       "El ayuntamiento inscribe en el registro en plazo máximo de DOS MESES",
       "El incumplimiento puede llevar a la pérdida anticipada de vigencia de las CÉDULAS DE HABITABILIDAD (art. 12 DF 142/2004)",
       "Regla permanente vigente: quien cumple 50 años desde el 1/1/2020 tiene UN AÑO para disponer del informe",
+      "— LIBRO DEL EDIFICIO (DF 322/2000) —",
+      "Obligatorio en edificios DESTINADOS A VIVIENDA; en rehabilitación, solo con los datos derivados de la propia actividad rehabilitadora",
+      "Plazo de UN MES para registrar operaciones y para archivar documentos desde que se obtienen",
+      "El libro actualizado JUSTIFICA el cumplimiento de las obligaciones de la LOE para propietarios y usuarios",
+      "Copias a costa del SOLICITANTE, sea copropietario o Administración inspectora",
+      "El libro empieza con una copia del propio Decreto Foral, que hace de guía para su actualización",
+      "Cinco apartados: Datos Generales · Archivo de Documentos · Proyecto y Documentos Técnicos · Registro de Incidencias · Registro de Operaciones",
+      "Fotografía de la fachada principal del edificio terminado: mínimo 9 × 13 cm",
+      "Garantías: 10 años estructurales · 3 años elementos constructivos e instalaciones · 1 año terminación o acabado",
+      "Documentos del archivo: originales o copias AUTENTICADAS O COMPULSADAS; si no, se hace constar dónde está el original",
+      "Si hubo modificaciones sobre el proyecto, éste se SUSTITUYE por la documentación final de obras, completa y visada",
+      "Calendario de mantenimiento: por frecuencias INFERIORES A VEINTE AÑOS. Rehabilitación = lo que excede de eso o lleva ayuda pública",
+      "El PROMOTOR formaliza y custodia hasta el acta de recepción; los registros se entregan EN BLANCO según modelo oficial",
+      "Acta de recepción por DUPLICADO: una copia al libro y otra al promotor como justificante",
+      "Varios portales con comunidades independientes: un ejemplar POR CADA COMUNIDAD",
+      "Plazo de DOS MESES para firmar el acta desde la solicitud fehaciente de la comunidad, y DOS MESES desde la licencia de primera utilización si el edificio queda para el promotor",
+      "En nueva planta y PH sin local de representantes: espacio accesible desde ELEMENTO COMÚN para el armario del libro (art. 17)",
+      "El promotor aporta copias firmadas de los Datos Generales al pedir la cédula de habitabilidad o la calificación definitiva",
     ],
   },
 
