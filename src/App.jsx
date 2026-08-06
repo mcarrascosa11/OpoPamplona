@@ -454,7 +454,10 @@ function VistaLectura() {
 
   const esMovil = typeof window !== "undefined" && window.innerWidth < 700;
 
-  const SidebarEl = () => (
+  // Se invoca como función —{renderSidebar()}— y no como <Componente />: al estar
+  // definida dentro del render, su identidad cambia en cada pasada y React
+  // remontaría el subárbol entero, perdiendo el scroll de la lista al elegir tema.
+  const renderSidebar = () => (
     <div style={{
       width: 280, flexShrink: 0, borderRight: `1px solid ${borde}`,
       background: bgCard, display: "flex", flexDirection: "column",
@@ -600,7 +603,7 @@ function VistaLectura() {
           boxShadow: esMovil ? "4px 0 12px rgba(0,0,0,0.15)" : "none",
           width: 280, flexShrink: 0,
         }}>
-          <SidebarEl />
+          {renderSidebar()}
         </div>
 
         {/* Panel de lectura */}
