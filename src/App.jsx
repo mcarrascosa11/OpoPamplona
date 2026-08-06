@@ -743,6 +743,7 @@ function Resumenes() {
           {r.bloques.map((b, i) => (
             <div key={i} style={{ marginTop: 16 }}>
               <div style={{ fontFamily: MONO, fontSize: 11, letterSpacing: 1, color: C.slate, fontWeight: 700, borderBottom: `1px solid ${C.hair}`, paddingBottom: 4, marginBottom: 8 }}>{b.h.toUpperCase()}</div>
+              {b.nota && <p style={{ ...p, margin: "0 0 8px", fontSize: 14 }}>{b.nota}</p>}
               {b.items.map((it, j) => (
                 <div key={j} style={{ display: "flex", gap: 8, marginBottom: 6 }}>
                   <span style={{ color: C.red, fontFamily: MONO, flexShrink: 0 }}>·</span>
