@@ -246,6 +246,28 @@ export const RESUMENES = {
           "Actos CTN: directamente ejecutivos y obligatorios para los sujetos destinatarios; impugnables en contencioso-administrativo",
         ],
       },
+      {
+        h: "Título VI — El Consejo de Transparencia de Navarra (arts. 63-69)",
+        nota:
+          "El Título VI regula el órgano en sí, no el trámite de reclamación del art. 45. Tres cosas lo definen: es INDEPENDIENTE pero adscrito orgánicamente al departamento de transparencia —independencia funcional, no orgánica—; su presidencia la elige el PARLAMENTO por mayoría absoluta para seis años NO renovables, mientras que los vocales los nombra el Gobierno por cuatro años; y tiene dientes propios, porque sus resoluciones son vinculantes y puede imponer multas coercitivas reiterables. Los dos plazos —seis y cuatro años— y la asimetría en quién nombra a cada uno son lo que más se pregunta.",
+        items: [
+          "NATURALEZA (art. 63): órgano INDEPENDIENTE destinado a promover la transparencia, que vela por el cumplimiento de las obligaciones de publicidad activa y garantiza el derecho de acceso. Actúa con objetividad, profesionalidad, sometimiento al ordenamiento jurídico, AUTONOMÍA y PLENA INDEPENDENCIA, pero se ADSCRIBE ORGÁNICAMENTE al departamento competente en materia de transparencia",
+          "FUNCIONES (art. 64), trece letras: conocer de las RECLAMACIONES contra resoluciones expresas o presuntas en materia de acceso · requerir la subsanación de incumplimientos, de oficio o por denuncia o reclamación · INFORMAR PRECEPTIVAMENTE los proyectos normativos de desarrollo · evaluar el grado de aplicación y formular recomendaciones · adoptar CRITERIOS DE INTERPRETACIÓN UNIFORME · resolver consultas de las entidades obligadas · elaborar la MEMORIA ANUAL · instar expedientes disciplinarios o sancionadores · IMPONER MULTAS COERCITIVAS (art. 69) · promover formación y sensibilización · colaborar con órganos análogos · y velar por el deber de facilitar información a parlamentarios forales y electos locales",
+          "La MEMORIA ANUAL se presenta ante el PARLAMENTO DE NAVARRA e incluye un apartado específico sobre el cumplimiento de la Ley Foral 16/2016 de CUENTAS ABIERTAS, además de reclamaciones y consultas tramitadas, recomendaciones y requerimientos, y los expedientes cuya incoación se haya instado (art. 64.g)",
+          "COMPOSICIÓN (art. 65.1): la presidencia más SIETE VOCALES, que recaen en personal técnico con experiencia, a propuesta de — el departamento competente en transparencia · la FEDERACIÓN NAVARRA DE MUNICIPIOS Y CONCEJOS · el Consejo de Navarra · la CÁMARA DE COMPTOS · el Defensor del Pueblo de Navarra · la Universidad Pública de Navarra · y el Parlamento de Navarra. Cabe proponer persona suplente para enfermedad, ausencia o impedimento temporal",
+          "PRESIDENCIA (art. 65.2): elegida por el PARLAMENTO DE NAVARRA por MAYORÍA ABSOLUTA entre personas de reconocido prestigio y competencia profesional, de entre las candidaturas de los grupos parlamentarios, y NOMBRADA POR EL GOBIERNO mediante decreto foral por un período de SEIS AÑOS NO RENOVABLE. Cesa por renuncia, fallecimiento o incapacitación judicial, y a petición del Parlamento por mayoría absoluta en caso de incumplimiento grave, incapacidad sobrevenida, incompatibilidad o condena por delito doloso. La expiración de los seis años conlleva CESE AUTOMÁTICO",
+          "VOCALES (art. 65.3): nombrados por CUATRO AÑOS por el GOBIERNO DE NAVARRA a propuesta de la presidencia del Consejo, previa designación por las entidades correspondientes. Expirado el mandato continúan en funciones hasta la nueva designación",
+          "INCOMPATIBILIDADES (art. 65.4): la condición de miembro NO exige dedicación exclusiva; la de presidente o presidenta es INCOMPATIBLE con ser alto cargo de la Administración foral y con la PERTENENCIA A UN PARTIDO POLÍTICO",
+          "EQUILIBRIO DE SEXOS (art. 65.5): se procura que las personas de cada sexo no superen el 60 % ni sean menos del 40 %, conforme al art. 4.1.f de la Ley Foral 17/2019 de igualdad",
+          "DIETAS (art. 65 bis): los miembros pueden compatibilizar su tarea con su puesto en la Administración y son retribuidos por su participación COMO PONENTES EN LOS DICTÁMENES, con dietas compatibles con su remuneración como funcionarios. Puede fijarse además una dieta anual para la presidencia y para quien ejerza la secretaría",
+          "FUNCIONES DE LA PRESIDENCIA (art. 66): representación del Consejo · velar por la observancia de la ley e instar expedientes disciplinarios o sancionadores · fijar el orden del día, convocar, presidir y moderar las sesiones, con VOTO DE CALIDAD · presentar la memoria al Parlamento · y colaborar con órganos análogos. En vacante, ausencia o enfermedad la sustituye el miembro DE MAYOR EDAD que cumpla el régimen de incompatibilidad del art. 65.4",
+          "ORGANIZACIÓN (art. 67): se rige por el REGLAMENTO que el propio órgano apruebe, que debe publicarse en el Boletín Oficial de Navarra. El apoyo jurídico, técnico y administrativo lo facilita el departamento competente en transparencia, con sus medios personales, económicos y materiales, y el departamento competente en archivos",
+          "DEBER DE COLABORACIÓN (art. 68): las administraciones públicas de Navarra y los demás sujetos de los arts. 2.1, 2.2 y 3 deben facilitar al Consejo la información que les solicite y prestarle la colaboración necesaria",
+          "EFICACIA DE SUS ACTOS (art. 69.1): los actos de petición de información y documentación y las resoluciones del Consejo son VINCULANTES para las administraciones, entidades y personas obligadas, con la excepción de las instituciones públicas forales no sujetas a su conocimiento",
+          "EJECUCIÓN FORZOSA (art. 69.4): advertido un posible incumplimiento, el Consejo requiere el cumplimiento en el plazo que fije; transcurrido éste, puede imponer MULTA COERCITIVA DE 500 A 5.000 EUROS, REITERABLE CADA DIEZ DÍAS hasta el cumplimiento íntegro, y HACER PÚBLICA la actitud incumplidora en su web, en su informe anual y en los medios, dando traslado al Parlamento de Navarra",
+          "AUXILIO (art. 69.5): el Consejo puede recabar el auxilio de cualquier administración y poder público para garantizar la efectividad de sus resoluciones, que lo prestarán con carácter PREFERENTE Y URGENTE",
+        ],
+      },
     ],
     claves: [
       "Entidades privadas obligadas: >20.000 € subvenciones O ≥20% ingresos+mín 5.000 €",
@@ -261,6 +283,16 @@ export const RESUMENES = {
       "Silencio = estimatorio (salvo denegación impuesta por ley)",
       "Resoluciones de acceso: fin de vía administrativa",
       "CTN: 1 mes para reclamar; 3 meses para resolver; silencio = desestimación; actos ejecutivos",
+      "CTN independiente PERO adscrito orgánicamente al departamento de transparencia",
+      "Presidencia: elige el PARLAMENTO por mayoría absoluta, nombra el GOBIERNO, 6 AÑOS NO renovables",
+      "Vocales: 7, nombrados por el GOBIERNO por 4 AÑOS a propuesta de la presidencia del Consejo",
+      "Proponen vocal: departamento de transparencia · FNMC · Consejo de Navarra · Cámara de Comptos · Defensor del Pueblo · UPNA · Parlamento",
+      "Presidencia incompatible con alto cargo foral y con pertenencia a partido político; tiene VOTO DE CALIDAD",
+      "Sustituye a la presidencia el miembro de MAYOR EDAD que cumpla las incompatibilidades",
+      "Memoria anual al Parlamento, con apartado específico de la LF 16/2016 de Cuentas Abiertas",
+      "Informa PRECEPTIVAMENTE los proyectos normativos de desarrollo y adopta criterios de interpretación uniforme",
+      "Multa coercitiva del CTN: 500 a 5.000 €, reiterable CADA DIEZ DÍAS, más publicación de la actitud incumplidora",
+      "Equilibrio de sexos: ni más del 60 % ni menos del 40 % (art. 4.1.f LF 17/2019)",
     ],
   },
 
@@ -3747,6 +3779,16 @@ export const RESUMENES = {
           "ANEJO 2 D — CERTIFICADO/FACTURA de entrega: información mínima de cuatro puntos — nombre del productor o gestor de procedencia · descripción de la obra de procedencia y nº de licencia si se requiere · cantidad en toneladas recibidas · código de la operación realizada (D o R)",
         ],
       },
+      {
+        h: "Disposiciones adicionales y transitoria",
+        nota:
+          "Tres disposiciones cortas que resuelven casos concretos y por eso se preguntan. La adicional primera es la más útil en la práctica municipal, porque saca del régimen general los excedentes de excavación de la obra pública sometida a evaluación de impacto ambiental — pero solo parcialmente: el estudio de gestión del art. 4.1.a se sigue exigiendo. La adicional segunda explica por qué las cifras del decreto (ratios del Anejo 3 y fianzas del art. 6) pueden estar desactualizadas respecto del texto de 2011: son actualizables por Orden Foral.",
+        items: [
+          "DA PRIMERA — excedentes de excavación en obra pública: las medidas del decreto, SALVO LO REFERIDO EN EL ARTÍCULO 4.1.a (el estudio de gestión), NO son aplicables a los excedentes generados en excavaciones y demoliciones de obras de TITULARIDAD PÚBLICA sometidas a evaluación de impacto ambiental, a los que se aplica la legislación de evaluación de impacto ambiental de proyectos. Si esos excedentes estuvieran CONTAMINADOS por sustancias peligrosas, se aplica la normativa específica de residuos",
+          "DA SEGUNDA — actualización de cifras: los valores de los RATIOS de generación de residuos de los distintos tipos de obra y la cuantía de las FIANZAS del art. 6 y del Anexo III pueden actualizarse mediante ORDEN FORAL del departamento competente, en función de la evolución que sufra el sector",
+          "DT ÚNICA — plazos de adaptación, todos de SEIS MESES: las instalaciones de tratamiento de RCDs con autorización vigente antes de la entrada en vigor debían adaptarse al Anejo I en 6 meses desde ésta · los titulares de emplazamientos con actividades autorizadas del art. 9 (restauración, acondicionamiento o relleno), en 6 meses desde el día siguiente a la publicación en el BON · y los titulares de ACTIVIDADES EXTRACTIVAS en ejecución con planes de restauración aprobados que incluyan RCDs debían adaptar dichos planes en el mismo plazo de 6 meses",
+        ],
+      },
     ],
     claves: [
       "Jerarquía: prevención → preparación para la reutilización → reciclado → otras valorizaciones → eliminación",
@@ -3771,6 +3813,9 @@ export const RESUMENES = {
       "Relleno y restauración: impermeabilización k = 1 × 10⁻⁷ m/s en 1 m de espesor; capa artificial mínimo 0,5 m",
       "Fianzas no devueltas tras SEIS MESES sin justificante: al fondo de recuperación de zonas degradadas",
       "Ratio de obra nueva: 0,146 m³/m² para residencial, no residencial e industrial. Excavación: 1,6 t/m²",
+      "Excedentes de excavación de obra PÚBLICA con EIA: fuera del decreto SALVO el estudio de gestión del art. 4.1.a (DA 1ª)",
+      "Ratios y fianzas son actualizables por ORDEN FORAL (DA 2ª)",
+      "Todos los plazos de adaptación de la DT única son de SEIS MESES",
     ],
   },
 
