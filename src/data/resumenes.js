@@ -3757,6 +3757,216 @@ export const RESUMENES = {
     ],
   },
 
+  E33: {
+    intro:
+      "Título VI de la LFOTU, el más corto de los cinco que estudias del DFL 1/2017 y también el más manejable: veinte artículos con tres instrumentos de intervención en el mercado del suelo. La lógica es de intensidad creciente. Primero los PATRIMONIOS PÚBLICOS DEL SUELO —el municipal y el Banco Foral—, que son masas de bienes SEPARADAS del resto del patrimonio y afectadas a un fin. Después el DERECHO DE SUPERFICIE, que permite construir vivienda protegida sin perder la titularidad pública del suelo. Y por último los DERECHOS DE TANTEO Y RETRACTO, que son la intervención más intrusiva porque se proyectan sobre transmisiones entre particulares. Todo el título gira sobre una misma idea: que la Administración disponga de suelo para vivienda protegida sin tener que expropiarlo cada vez.",
+    bloques: [
+      {
+        h: "Patrimonio Municipal del Suelo — concepto y bienes (arts. 226-229)",
+        nota:
+          "La palabra que define el patrimonio municipal del suelo es SEPARADO: no es una parte más de los bienes municipales sino un patrimonio distinto, vinculado a tres finalidades tasadas —regular el mercado de terrenos, obtener reservas para actuaciones públicas y facilitar la ejecución del planeamiento—. De ahí se sigue todo lo demás, incluida la exigencia de inventario y contabilidad diferenciados del art. 232. Del art. 227 lo examinable son los tres modos de integración, que no son equivalentes: unos bienes entran AUTOMÁTICAMENTE, otros por acuerdo plenario potestativo, y en los municipios de más de cinco mil habitantes hay además una incorporación OBLIGATORIA.",
+        items: [
+          "Art. 226 — CONCEPTO: el patrimonio municipal del suelo constituye un PATRIMONIO SEPARADO de los demás bienes de titularidad municipal, vinculado al cumplimiento de tres finalidades — REGULAR EL MERCADO de terrenos · obtener RESERVAS DE SUELO para actuaciones de iniciativa pública · y FACILITAR LA EJECUCIÓN DEL PLANEAMIENTO",
+          "Art. 227.1 — integración AUTOMÁTICA en todos los municipios: los bienes obtenidos por CESIONES, ya sea en terrenos o EN METÁLICO · los procedentes de EXPROPIACIONES URBANÍSTICAS de cualquier clase · y los procedentes del ejercicio del DERECHO DE TANTEO Y RETRACTO",
+          "Art. 227.2 — integración POTESTATIVA: los Ayuntamientos PODRÁN incorporar los bienes patrimoniales clasificados por el planeamiento como suelo URBANO O URBANIZABLE cuya inclusión se determine por ACUERDO PLENARIO",
+          "Art. 227.3 — integración OBLIGATORIA: los Ayuntamientos DE MÁS DE CINCO MIL HABITANTES DEBERÁN incluir en su patrimonio público de suelo los terrenos que se adquieran con dicha finalidad",
+          "Art. 228 — EXPROPIACIÓN para patrimonializar: los Ayuntamientos pueden expropiar terrenos URBANOS, URBANIZABLES Y NO URBANIZABLES que sean necesarios y estén incluidos en el planeamiento, con el fin de incorporarlos al patrimonio municipal de suelo",
+          "Art. 229 — RESERVAS DE SUELO: los Planes Generales Municipales pueden establecer, sobre suelo no urbanizable DE PRESERVACIÓN, reservas de terreno de posible adquisición para incorporarlo al patrimonio público. En su defecto o insuficiencia, los Ayuntamientos pueden establecerlas por el procedimiento de DELIMITACIÓN DE UNIDADES DE EJECUCIÓN",
+          "Art. 229.2 — efecto capital: el establecimiento o delimitación de estas reservas IMPLICA LA DECLARACIÓN DE UTILIDAD PÚBLICA Y LA NECESIDAD DE EXPROPIACIÓN a efectos expropiatorios",
+        ],
+      },
+      {
+        h: "Patrimonio Municipal del Suelo — destino, gestión y control (arts. 230-232)",
+        nota:
+          "El destino es la parte más preguntable porque tiene doble regla. Los BIENES, una vez incorporados al proceso de urbanización y edificación, van a vivienda protegida o a otros usos de interés social. Los INGRESOS obtenidos por su enajenación tienen una lista propia de seis destinos alternativos, además de la conservación y ampliación del propio patrimonio. Y en la gestión hay una regla de procedimiento que conviene fijar por contraste: la enajenación es ordinariamente por concurso o subasta, pero cuando el destino sea uso comercial o RESIDENCIAL DE VIVIENDA LIBRE la subasta pública es obligatoria — lo que impide colocar suelo público para vivienda libre por concurso a medida.",
+        items: [
+          "Art. 230.1 — destino de los BIENES: una vez incorporados al proceso de urbanización y edificación, deberán destinarse a la construcción de VIVIENDAS SUJETAS A ALGÚN RÉGIMEN DE PROTECCIÓN PÚBLICA o a OTROS USOS DE INTERÉS SOCIAL",
+          "Art. 230.2 — destino de los INGRESOS obtenidos por enajenación de terrenos y por la sustitución en metálico del aprovechamiento: la conservación y ampliación del propio patrimonio municipal del suelo, o bien — a) obras de URBANIZACIÓN · b) obtención y ejecución de SISTEMAS GENERALES · c) construcción de EQUIPAMIENTOS COLECTIVOS u otras instalaciones de uso público municipal promovidos por Administraciones o sus sociedades instrumentales · d) operaciones de iniciativa pública de REHABILITACIÓN, RENOVACIÓN O REGENERACIÓN urbanas y ayudas a la iniciativa privada con la misma finalidad · e) gastos de REALOJO Y RETORNO · f) compra y rehabilitación de edificios para vivienda protegida o equipamiento público",
+          "Art. 231.2.a — ENAJENACIÓN por concurso o subasta: ordinariamente por uno u otro procedimiento, pero cuando el destino sea de USOS COMERCIALES O RESIDENCIALES DE VIVIENDA LIBRE la enajenación se realizará POR SUBASTA PÚBLICA; el procedimiento de subasta se aplica también PREFERENTEMENTE cuando los bienes se destinen a usos industriales",
+          "Tipo de licitación en subasta (art. 231.2.a): como mínimo el VALOR URBANÍSTICO, incorporando los costes proporcionales de planeamiento, urbanización, gestión y actuaciones administrativas y materiales de adecuación, MINORADO en la depreciación correspondiente a los años transcurridos desde su construcción",
+          "Subasta desierta: si no se produce adjudicación o se declara desierto el concurso, puede acordarse EXCEPCIONALMENTE la ENAJENACIÓN DIRECTA, siempre que se celebre en las MISMAS CONDICIONES y por precio NO INFERIOR al que fue objeto de licitación",
+          "Art. 231.2.b — enajenación DIRECTA a precio no inferior al valor de los terrenos, a entidades de carácter ASISTENCIAL, SOCIAL O SINDICAL SIN ÁNIMO DE LUCRO que promuevan vivienda protegida y acrediten experiencia y medios para garantizar la viabilidad",
+          "Art. 231.2.c — CESIÓN, incluso a TÍTULO GRATUITO y por TIEMPO INDEFINIDO, a otras Administraciones, organismos públicos, entes instrumentales o sociedades públicas, con fines de vivienda protegida, equipamiento comunitario u otras instalaciones de uso público o interés social",
+          "Art. 231.2.d — adjudicación del DERECHO DE SUPERFICIE por concurso público u otros procedimientos de selección",
+          "Art. 232 — CONTROL, tres exigencias: gestión SEPARADA del resto de bienes, indicándolo en el INVENTARIO como carácter vinculado y separado · creación de un REGISTRO DEL PATRIMONIO MUNICIPAL DEL SUELO con las entradas de terrenos o metálico y las salidas justificadas con destino a las finalidades del art. 230 · y documentación CONTABLE expresa y diferenciada de los bienes, su movimiento patrimonial, enajenaciones y destino final, con técnicas de contabilidad y presupuestación públicas",
+        ],
+      },
+      {
+        h: "Banco Foral de Suelo Público (arts. 233-238)",
+        nota:
+          "El equivalente autonómico del patrimonio municipal: la Comunidad Foral DEBE constituirlo, mantenerlo y gestionarlo, y también es un patrimonio SEPARADO, en este caso dentro del Patrimonio de Navarra. Estúdialo por contraste con el municipal, porque el examen los intercambia. Dos diferencias de destino conviene retenerlas: el Banco añade expresamente los ALOJAMIENTOS DOTACIONALES a la vivienda protegida y a los usos de interés social; y los bienes obtenidos como DOTACIÓN SUPRAMUNICIPAL del art. 55.6 tienen un destino todavía más estrecho, pues solo pueden ir a vivienda protegida o a alojamientos dotacionales, sin la válvula del interés social.",
+        items: [
+          "Art. 233 — la Administración de la Comunidad Foral DEBERÁ constituir, mantener y gestionar su propio patrimonio de suelo, denominado BANCO FORAL DE SUELO PÚBLICO, con la finalidad de intervenir en el mercado del suelo. Constituye un PATRIMONIO SEPARADO dentro del Patrimonio de Navarra, y puede colaborar con los municipios y otras entidades públicas para facilitarles la adquisición o disponibilidad de terrenos",
+          "Art. 234 — BIENES INTEGRANTES: los terrenos de titularidad pública foral adquiridos por expropiación o cualquier otro procedimiento para su incorporación · los bienes patrimoniales del Patrimonio de Navarra que se le ADSCRIBAN · los terrenos obtenidos por CESIÓN PARA LA DOTACIÓN SUPRAMUNICIPAL · y los INGRESOS obtenidos por la gestión, enajenación o actos de gravamen a título oneroso",
+          "Art. 235 — la Administración Foral puede adquirir por cualquiera de las fórmulas previstas en la ley y por EXPROPIACIÓN, y establecer RESERVAS DE SUELO en suelo no urbanizable, especialmente por medio de los instrumentos de PLANEAMIENTO TERRITORIAL",
+          "Art. 236.1 — DESTINO: viviendas sujetas a algún régimen de protección pública, ALOJAMIENTOS DOTACIONALES, u otros usos de interés social",
+          "Art. 236.2 — destino REFORZADO: los bienes obtenidos en concepto de DOTACIÓN SUPRAMUNICIPAL del art. 55.6 se destinarán ÚNICAMENTE a vivienda protegida o alojamientos dotacionales",
+          "Art. 236.3 — los ingresos por cesiones, cánones y demás negocios a título oneroso se destinan a la conservación, gestión y ampliación del Banco, entendiéndose incluidos los gastos de elaboración de instrumentos de planeamiento y gestión y los gastos de urbanización del art. 139",
+          "Art. 237.1 — SEIS modalidades de gestión: adscripción a organismos o entes instrumentales · CESIÓN a otras administraciones, incluso a título gratuito y por tiempo indefinido · ENAJENACIÓN DIRECTA a precio no inferior al valor de los terrenos a entidades asistenciales, sociales o sindicales sin ánimo de lucro · adjudicación DIRECTA del derecho de superficie a administraciones, entes instrumentales, sociedades públicas o de capital mixto dedicadas a vivienda protegida · adjudicación del derecho de superficie a COOPERATIVAS DE VIVIENDA por concurso público u otros procedimientos que garanticen la igualdad · y adjudicación del derecho de superficie a entidades asistenciales, sociales o sindicales sin ánimo de lucro",
+          "Art. 237.2 — los bienes calificados como equipamientos comunitarios con destino a ALOJAMIENTOS DOTACIONALES se gestionan DE FORMA DIRECTA por la Administración foral, pudiendo no obstante ser objeto de CONCESIÓN ADMINISTRATIVA para su construcción y explotación",
+          "Art. 237 bis — contenido mínimo del acto de constitución del DERECHO DE SUPERFICIE sobre bienes del Banco destinados a vivienda protegida: determinación de los bienes · DURACIÓN, prorrogable HASTA LOS 99 AÑOS previa solicitud de los ocupantes legales formulada antes del vencimiento y vinculada al COMPROMISO DE MEJORAS que justifiquen la prolongación de la vida útil · título oneroso o gratuito, precio y canon · número y características de las viviendas · régimen y calificación y condiciones de acceso · PRECIO MÁXIMO mensual de alquiler o de venta por metro cuadrado útil · plazo máximo de ejecución de las obras · obligaciones de control y auditoría · régimen de infracciones y penalidades · y forma de REVERSIÓN a la Administración",
+          "Art. 237 bis.2-4: las personas superficiarias deben acreditar SOLVENCIA económica y técnica previa y presentar programas de conservación, mantenimiento y gestión; el derecho exige ESCRITURA PÚBLICA e INSCRIPCIÓN registral; y debe quedar garantizada en todo caso la CONSERVACIÓN DE LA TITULARIDAD PÚBLICA DEL SUELO",
+          "Art. 237 ter — CONCESIÓN ADMINISTRATIVA sobre bienes destinados a alojamientos dotacionales: el pliego debe incluir la determinación de los bienes, las obras e instalaciones a ejecutar, la DURACIÓN MÁXIMA, QUE NO PODRÁ SUPERAR LOS 99 AÑOS, y las causas de extinción, el canon, el régimen interior de uso, y el destino de las obras al término del plazo",
+          "Art. 238 — CONTROL: gestión separada del resto del Patrimonio de Navarra, con indicación en el inventario de su carácter vinculado y separado, y documentación contable expresa y diferenciada",
+        ],
+      },
+      {
+        h: "Derecho de superficie (arts. 239-241)",
+        nota:
+          "Ojo al plazo, porque aquí la LFOTU se aparta de la ley estatal: el TRLSRU fija un máximo de NOVENTA Y NUEVE años (art. 53.2), pero el art. 240.2 de la LFOTU lo limita a SETENTA Y CINCO, salvo la prórroga del art. 237 bis para los bienes del Banco Foral, que sí puede llegar a noventa y nueve. Es una discrepancia que se presta a pregunta cruzada con el tema E28. El resto del régimen coincide: si no se edifica en plazo el derecho se extingue, y al vencer el término la entidad superficiante hace suya la propiedad de lo edificado SIN INDEMNIZACIÓN alguna.",
+        items: [
+          "Art. 239 — SUJETOS que pueden constituirlo: la Administración de la Comunidad Foral, las ENTIDADES LOCALES, los organismos públicos, los entes instrumentales y las sociedades públicas, sobre terrenos de su propiedad, INCLUIDOS los adquiridos por cesión y los integrantes del patrimonio público del suelo",
+          "Art. 239 — DESTINO: construcción de viviendas sujetas a algún régimen de protección pública o a otros usos de interés social, correspondiendo el derecho al SUPERFICIARIO",
+          "Art. 240.1-2 — EXTINCIÓN: se extingue si NO SE EDIFICA en el plazo previsto en el acuerdo de constitución. El plazo NO PODRÁ EXCEDER DE SETENTA Y CINCO AÑOS, sin perjuicio de la prórroga hasta 99 del art. 237 bis para el Banco Foral",
+          "Art. 240.3 — al extinguirse por transcurso del plazo, la ENTIDAD SUPERFICIANTE HACE SUYA la propiedad de lo edificado SIN DEBER SATISFACER INDEMNIZACIÓN ALGUNA, cualquiera que sea el título por el que se constituyó",
+          "Art. 240.4-5 — la extinción por decurso del término provoca la de TODA CLASE de derechos reales o personales impuestos por el superficiario; si por otra causa se reúnen en la misma persona la propiedad del suelo y el derecho del superficiario, las cargas continúan gravándolos SEPARADAMENTE",
+          "Art. 241 — BENEFICIOS: la concesión del derecho de superficie por las Administraciones goza de los beneficios de la legislación de viviendas de protección pública, siempre que se cumplan sus requisitos",
+        ],
+      },
+      {
+        h: "Derechos de tanteo y retracto (arts. 242-246)",
+        nota:
+          "La intervención más incisiva del título, y la que más plazos tiene. Fíjalos en cadena porque el examen los intercambia: OCHO AÑOS es el plazo máximo de vigencia de la delimitación de la zona · UN MES para ejercer el tanteo desde la notificación fehaciente, y otro mes para el retracto desde que se conoce la enajenación · TRES MESES para hacer efectiva la liquidación, pasados los cuales CADUCA el derecho · y DOS AÑOS para cumplir la finalidad que motivó la adquisición. Y retén el cierre registral del art. 245.7, que es lo que hace efectivo el sistema: los notarios deniegan la escritura y el Registro no inscribe si no se acredita la comunicación previa.",
+        items: [
+          "Art. 242.1 — FINALIDADES de la delimitación de zonas: regularizar el mercado de suelo, constituir o ampliar patrimonio público, o ENJUGAR DÉFICIT DOTACIONALES. Pueden delimitarlas el GOBIERNO DE NAVARRA y los AYUNTAMIENTOS en el planeamiento territorial y urbanístico, sometiendo a tanteo y retracto las transmisiones por COMPRAVENTA O PERMUTA de terrenos y edificaciones",
+          "Art. 242.2 — procedimiento alternativo de delimitación: aprobación inicial por ORDEN FORAL del titular del Departamento · INFORMACIÓN PÚBLICA durante UN MES y audiencia de las entidades locales afectadas · informe de la COMISIÓN DE ORDENACIÓN DEL TERRITORIO sobre las alegaciones · y aprobación mediante DECRETO FORAL del Gobierno de Navarra",
+          "Art. 242.3 — la delimitación debe especificar al menos: la delimitación GEOGRÁFICA con referencia a calles, sectores o parcelas catastrales · el PLAZO durante el que podrá ejercitarse el derecho, QUE NO PODRÁ SER SUPERIOR A OCHO AÑOS desde la delimitación · y la FINALIDAD a la que vayan a destinarse los suelos o edificaciones",
+          "Art. 242.5 — la aprobación de la delimitación IMPLICA LA DECLARACIÓN DE UTILIDAD PÚBLICA a efectos expropiatorios",
+          "Art. 243 — tanteo y retracto SIN NECESIDAD DE DELIMITACIÓN: la Comunidad Foral y los municipios tienen estos derechos en TODOS los supuestos de transmisión por compraventa o permuta de suelo destinado por el planeamiento a VIVIENDA PROTEGIDA. Si el precio supera el máximo fijado por la legislación de VPO, la Administración ejercerá el derecho POR EL PRECIO MÁXIMO LEGALMENTE ESTABLECIDO",
+          "Art. 244 — PERMUTAS de terrenos por edificación futura: el ejercicio del derecho consiste en la ASUNCIÓN POR LA ADMINISTRACIÓN DEL COMPROMISO de entregar las edificaciones a construir, o parte de ellas, en las mismas condiciones pactadas entre las partes",
+          "Art. 245.1 — DEBER DE COMUNICACIÓN: todo propietario de terrenos no edificados o de edificaciones en zona delimitada que pretenda transmitir está obligado a comunicar FEHACIENTEMENTE a la Administración autora de la delimitación el PRECIO, las CONDICIONES DE PAGO y la IDENTIDAD DEL ADQUIRENTE",
+          "Art. 245.2 — TANTEO: UN MES desde la notificación fehaciente. Transcurrido sin que la Administración notifique su acuerdo de adquirir, la enajenación puede efectuarse libremente",
+          "Art. 245.3 — RETRACTO: UN MES desde que la Administración tuvo conocimiento de la enajenación, en caso de falta de comunicación; y en los mismos plazos cuando la enajenación se hubiera realizado sin ajustarse a los precios y condiciones notificados",
+          "Art. 245.4 — LIQUIDACIÓN: la Administración dispone de TRES MESES desde el ejercicio del derecho para hacer efectiva la liquidación; transcurrido ese plazo CADUCA el derecho de tanteo o retracto a su favor",
+          "Art. 245.5-6 — el pago será EN METÁLICO salvo que transmitente y Administración convengan otra forma; y en todo caso la Administración deberá CUMPLIR LA FINALIDAD que motivó la adquisición EN EL PLAZO DE DOS AÑOS desde el ejercicio del derecho",
+          "Art. 245.7 — CIERRE NOTARIAL Y REGISTRAL: los NOTARIOS denegarán la formalización en escritura pública de las transmisiones en zonas delimitadas cuando no se les acredite debidamente la comunicación; y NO TENDRÁN ACCESO AL REGISTRO DE LA PROPIEDAD las escrituras de compraventa o permuta afectadas si no aparece acreditado el cumplimiento de las obligaciones de comunicación",
+          "Art. 246 — SUPLETORIEDAD: en lo no contemplado, los derechos administrativos de tanteo y retracto se rigen por la LEGISLACIÓN CIVIL DE NAVARRA",
+        ],
+      },
+    ],
+    claves: [
+      "El patrimonio municipal del suelo es un PATRIMONIO SEPARADO, con tres finalidades: regular el mercado, obtener reservas y facilitar la ejecución del planeamiento",
+      "Entran AUTOMÁTICAMENTE: cesiones (en terrenos o metálico), expropiaciones urbanísticas y lo obtenido por tanteo y retracto",
+      "Los municipios de MÁS DE 5.000 HABITANTES deben incluir los terrenos que adquieran con esa finalidad",
+      "Las reservas de suelo del art. 229 se establecen sobre NO URBANIZABLE DE PRESERVACIÓN e implican utilidad pública y necesidad de expropiación",
+      "Los BIENES van a vivienda protegida o interés social; los INGRESOS tienen su propia lista de seis destinos (art. 230.2)",
+      "Uso comercial o RESIDENCIAL DE VIVIENDA LIBRE: enajenación por SUBASTA PÚBLICA obligatoria",
+      "Subasta desierta: cabe enajenación directa en las MISMAS condiciones y por precio NO INFERIOR al de licitación",
+      "Triple control del patrimonio municipal: inventario separado + REGISTRO propio + contabilidad diferenciada (art. 232)",
+      "El Banco Foral de Suelo Público es de constitución OBLIGATORIA y es patrimonio separado dentro del Patrimonio de Navarra",
+      "El Banco añade los ALOJAMIENTOS DOTACIONALES al destino; la dotación supramunicipal del art. 55.6 solo puede ir a vivienda protegida o alojamientos dotacionales",
+      "Los alojamientos dotacionales se gestionan DE FORMA DIRECTA, con posible concesión administrativa (art. 237.2)",
+      "DERECHO DE SUPERFICIE: máximo 75 AÑOS en la LFOTU (frente a los 99 del TRLSRU), prorrogable hasta 99 solo en el Banco Foral",
+      "Al extinguirse por plazo, lo edificado revierte SIN INDEMNIZACIÓN alguna",
+      "Concesión sobre alojamientos dotacionales: máximo 99 AÑOS (art. 237 ter)",
+      "La delimitación de zonas de tanteo y retracto dura como máximo OCHO AÑOS e implica declaración de utilidad pública",
+      "En suelo destinado a VIVIENDA PROTEGIDA hay tanteo y retracto SIN necesidad de delimitación previa (art. 243)",
+      "Si el precio supera el máximo de VPO, la Administración ejerce el derecho POR EL PRECIO MÁXIMO LEGAL",
+      "Plazos: 1 MES tanteo · 1 MES retracto · 3 MESES para liquidar, o caduca · 2 AÑOS para cumplir la finalidad",
+      "Sin acreditar la comunicación, el NOTARIO deniega la escritura y el REGISTRO no inscribe (art. 245.7)",
+      "Supletoriamente rige la LEGISLACIÓN CIVIL DE NAVARRA (art. 246)",
+    ],
+  },
+
+  E34: {
+    intro:
+      "El DF 253/2019 desarrolla el art. 79.3 de la LFOTU, que creó el Registro de Planeamiento pero no reguló cómo se inscribe en él. Es un tema muy práctico y de trámite: no discute conceptos urbanísticos sino QUÉ se inscribe, QUIÉN lo remite, EN QUÉ PLAZO y EN QUÉ FORMATO. Tiene dos mitades que conviene separar. La primera es registral —naturaleza, contenido, procedimiento de inscripción y ficha—, y ahí lo examinable son los plazos y el silencio. La segunda es técnica —el Título III sobre formato de presentación— y responde al problema que el preámbulo declara abiertamente: la enorme heterogeneidad con que los ayuntamientos venían presentando sus planes. De ahí las exigencias de PDF, resoluciones mínimas en puntos por pulgada, nomenclatura de carpetas y entrega de información vectorial en shapefile, que es lo que tú tendrás que preparar al remitir un instrumento aprobado.",
+    bloques: [
+      {
+        h: "Objeto, naturaleza y contenido del Registro (arts. 1-4)",
+        nota:
+          "Fija primero qué clase de registro es: PÚBLICO, de carácter ADMINISTRATIVO, custodiado y gestionado por el DEPARTAMENTO competente en ordenación del territorio, no por los ayuntamientos. Su finalidad declarada es garantizar la transparencia y la publicidad en el ejercicio de la función pública urbanística. Y su contenido son DOS PIEZAS que se preguntan juntas: una BASE DE DATOS informatizada con las fichas de inscripción, y un ARCHIVO DOCUMENTAL con copia digital de los documentos de cada instrumento.",
+        items: [
+          "Art. 1 — triple objeto: el CONTENIDO DOCUMENTAL Y FORMATO de presentación de los instrumentos para su tramitación y posterior acceso al Registro · el PROCEDIMIENTO DE INSCRIPCIÓN de los instrumentos aprobados definitivamente, así como de los de gestión y urbanización · y el RÉGIMEN DE CONSULTA del Registro",
+          "Art. 2 — ÁMBITO: todos los instrumentos de ordenación territorial y de planeamiento urbanístico municipal que se tramiten en Navarra, así como los instrumentos de GESTIÓN Y URBANIZACIÓN que desarrollen los Planes y Proyectos Sectoriales de Incidencia Supramunicipal aprobados por el Departamento",
+          "Art. 3.1 — NATURALEZA: registro PÚBLICO, de carácter ADMINISTRATIVO, custodiado y gestionado por el DEPARTAMENTO competente en materia de ordenación del territorio y urbanismo, con el objeto de garantizar la transparencia y la publicidad en el ejercicio de la función pública urbanística. Debe inscribirse igualmente CUALQUIER RESOLUCIÓN POSTERIOR, ADMINISTRATIVA O JUDICIAL, que afecte a su contenido",
+          "Art. 3.2 — ACCESO: cualquier persona o entidad, pública o privada, puede acceder por CONSULTA PRESENCIAL en las oficinas de la unidad orgánica competente o de forma TELEMÁTICA. Los certificados de los asientos los autoriza el FUNCIONARIO HABILITADO al efecto; también pueden emitirse notas informativas y obtenerse copias, SIN QUE SU IMPORTE EXCEDA DEL COSTE ADMINISTRATIVO",
+          "Art. 4 — CONTENIDO, dos piezas: una BASE DE DATOS INFORMATIZADA que recoge las fichas de inscripción del art. 7 · y un ARCHIVO DOCUMENTAL formado por copia en SOPORTE DIGITAL de los documentos de cada instrumento",
+        ],
+      },
+      {
+        h: "Procedimiento de inscripción (arts. 5-6)",
+        nota:
+          "Aquí están los datos que más se preguntan. La inscripción es OBLIGATORIA y tiene tres vías de iniciación según quién apruebe definitivamente: de oficio por el Departamento, a instancia del ayuntamiento, o a instancia del promotor particular cuando el instrumento se aprobó POR SILENCIO. Y hay tres plazos que conviene fijar en cadena: DIEZ DÍAS para que el ayuntamiento remita la documentación tras la aprobación definitiva · DIEZ DÍAS para subsanar si la documentación está incompleta, con posible denegación del asiento · y TREINTA DÍAS para practicar el asiento, con SILENCIO POSITIVO si se agotan.",
+        items: [
+          "Art. 5.1 — QUÉ se inscribe: los instrumentos de ordenación territorial, de gestión y de urbanización que los desarrollen, y los de planeamiento urbanístico municipal, UNA VEZ APROBADOS DEFINITIVAMENTE. También deben inscribirse las MODIFICACIONES introducidas en cualquiera de ellos",
+          "Art. 5.2 — la inscripción es OBLIGATORIA y puede producirse por tres vías: a) DE OFICIO por el Departamento, respecto de los instrumentos de ordenación del territorio, de gestión y urbanización, y de los de planeamiento municipal cuya aprobación definitiva competa a la Comunidad Foral · b) A INSTANCIA DEL AYUNTAMIENTO, respecto de aquellos cuya aprobación definitiva le corresponda · c) A INSTANCIA DE LAS PERSONAS PROMOTORAS de instrumentos de iniciativa particular APROBADOS POR SILENCIO ADMINISTRATIVO",
+          "Art. 5.2.b — PLAZO DEL AYUNTAMIENTO: debe remitir la documentación del art. 9 en los DIEZ DÍAS SIGUIENTES a la aprobación definitiva del instrumento",
+          "Art. 5.2.c — en el caso de aprobación por silencio a instancia del promotor, la persona responsable del registro REQUERIRÁ AL AYUNTAMIENTO para que remita la documentación en el plazo máximo de DIEZ DÍAS",
+          "Art. 6.1 — inscripción DE OFICIO: el Departamento crea la ficha, deposita la documentación en el archivo, emite CERTIFICACIÓN REGISTRAL con el número de registro asignado y la indicación del depósito, y da traslado de ella a los ayuntamientos sobre los que incida el instrumento",
+          "Art. 6.2.a — DOCUMENTACIÓN INCOMPLETA: si del examen se deduce ausencia o deficiencia, la unidad responsable requerirá al ayuntamiento para que aporte los datos o documentos necesarios en un plazo máximo de DIEZ DÍAS, PUDIENDO DENEGAR, en caso de incumplimiento, la práctica del asiento",
+          "Art. 6.2.b — PLAZO Y SILENCIO: con la documentación completa, el asiento se practica en el plazo máximo de TREINTA DÍAS. Transcurrido dicho plazo sin haberse practicado, SE ENTENDERÁ ESTIMADA la solicitud de inscripción",
+          "Art. 6.2.d — la inscripción se realiza SIN PERJUICIO DEL CONTROL de los instrumentos que el Departamento desarrolla conforme a la LFOTU y a la Ley Foral de Administración Local; del resultado del informe de control se DEJARÁ CONSTANCIA en la ficha de inscripción",
+        ],
+      },
+      {
+        h: "Fichas de inscripción y modificación de datos (arts. 7-8)",
+        nota:
+          "La ficha es el asiento propiamente dicho y tiene seis apartados. Del contenido interesa que recoge el CARÁCTER ESTRUCTURANTE O PORMENORIZADO de las determinaciones —lo que conecta directamente con el art. 49 de la LFOTU— y toda la cadena de fechas de tramitación, desde la aprobación inicial hasta la publicación de la normativa. El art. 8 impone una obligación permanente a los ayuntamientos que conviene tener presente: comunicar al Registro cualquier acto o resolución posterior con trascendencia registral que afecte al contenido del documento aprobado, incluidas las sentencias y las medidas cautelares.",
+        items: [
+          "Art. 7 — SEIS apartados de la ficha: 1) IDENTIFICACIÓN — tipo de instrumento, CARÁCTER ESTRUCTURANTE O PORMENORIZADO de sus determinaciones, y descripción del objeto · 2) LOCALIZACIÓN — municipio o municipios, concejo, entidad de población, ámbito territorial, urbanístico o normativo, y emplazamiento toponímico, catastral o postal · 3) PERSONAS PROMOTORAS — iniciativa pública o privada y nombre o razón social · 4) TRAMITACIÓN · 5) VIGENCIA · 6) FECHA Y NÚMERO DE REGISTRO",
+          "Art. 7.4 — TRAMITACIÓN: fecha de declaración del PSIS o de aprobación inicial, con su publicación en el BON y en su caso en prensa · fecha de aprobación PROVISIONAL · fecha de aprobación DEFINITIVA y de su publicación en el BON · fecha de publicación en el BON de la NORMATIVA ESCRITA Y LA DOCUMENTACIÓN GRÁFICA, con referencia al anuncio y su enlace web · y las conclusiones del informe de control del art. 6.2.d. En todos los casos con señalamiento de la Administración actuante",
+          "Art. 7.5 — VIGENCIA: el instrumento consta como VIGENTE o NO VIGENTE, y esta última situación abarca tanto lo PENDIENTE DE PUBLICACIÓN como lo que ha PERDIDO SU VIGENCIA por sentencias, resoluciones administrativas u otros actos. En observaciones se recoge el acuerdo, sentencia o resolución que afecte a la vigencia o al contenido",
+          "Art. 8 — CINCO CAUSAS de modificación de los datos inscritos: a) la efectiva PUBLICACIÓN en el BON del acuerdo de aprobación y de la normativa · b) SUBSANACIÓN DE ERRORES MATERIALES advertidos en la propia inscripción · c) SENTENCIAS judiciales o resoluciones administrativas sobre los instrumentos inscritos, TRAS ADQUIRIR FIRMEZA ADMINISTRATIVA · d) MEDIDAS CAUTELARES adoptadas por jueces y tribunales que afecten a la aplicación de los instrumentos · e) cualesquiera otros actos, acuerdos y resoluciones que, a juicio de la unidad responsable, afecten a los instrumentos",
+          "Art. 8 — las modificaciones se realizan DE OFICIO O A INSTANCIA DE PARTE por la unidad responsable, y los AYUNTAMIENTOS DEBEN COMUNICAR al Registro la concurrencia de cualquiera de esas circunstancias, así como cualquier acto o resolución posterior a la aprobación definitiva con trascendencia registral en que hubieran intervenido. La unidad responsable DA CUENTA a los ayuntamientos afectados de cualquier rectificación de la ficha",
+        ],
+      },
+      {
+        h: "Contenido y formato de los expedientes (arts. 9-10 y Anexo)",
+        nota:
+          "El Título III es el que aplicarás materialmente al preparar un envío, y sus exigencias son de detalle: todo en PDF salvo lo vectorial, páginas numeradas con referencia al total, cada archivo del documento técnico DILIGENCIADO CON FIRMA DIGITAL que certifique su coincidencia con el documento aprobado, y propiedades que permitan imprimir, copiar, extraer y firmar. Las dos resoluciones mínimas se preguntan por contraste — 200 PPP para lo escrito y administrativo, 300 PPP para lo gráfico — igual que la exigencia de que las hojas gráficas incorporen las COORDENADAS GEOGRÁFICAS DE SUS CUATRO ESQUINAS. Y el dato de cierre del Anexo: la información vectorial se entrega en SHAPEFILE.",
+        items: [
+          "Art. 9.1 — el ayuntamiento remite COPIA DEL EXPEDIENTE COMPLETO en formato digital, organizada en cinco apartados: a) ÍNDICE de documentos en pdf · b) DOCUMENTACIÓN ADMINISTRATIVA · c) DOCUMENTO TÉCNICO completo con las diligencias que garanticen su autenticidad y la fecha de aprobación · d) DOCUMENTACIÓN VECTORIAL en los supuestos del art. 10 y el Anexo · e) TEXTO DE LA SENTENCIA o auto judicial o resolución administrativa posterior que afecte a su contenido",
+          "Documentación ADMINISTRATIVA (art. 9.1.b): certificados de aprobación inicial, provisional y definitiva · justificante de la PUBLICACIÓN EN PRENSA Y EN EL BON del acuerdo de aprobación inicial · INFORMES MUNICIPALES jurídicos y técnicos emitidos por profesionales de la administración local actuante o de los órganos de los arts. 16 y 18.2 de la LFOTU · informes de otros órganos · y ALEGACIONES presentadas con los informes y resoluciones recaídas sobre ellas",
+          "Documento TÉCNICO (art. 9.1.c) — documentación INFORMATIVA Y JUSTIFICATIVA: memoria informativa y justificativa, planos de información, PLAN DE PARTICIPACIÓN, resumen ejecutivo, estudio ambiental estratégico, MEMORIA DE VIABILIDAD Y SOSTENIBILIDAD ECONÓMICA, ESTUDIO DE MOVILIDAD GENERADA, estudio sobre la adecuación de vivienda protegida, sistema de indicadores, plan de atracción y ordenación comercial y programa de desarrollo y ejecución",
+          "Documento TÉCNICO — documentación NORMATIVA: planos de ordenación, normas urbanísticas y CATÁLOGO DE PROTECCIONES",
+          "Art. 9.2 — FORMATO: todo en PDF salvo lo vectorial. Páginas NUMERADAS con referencia al total de páginas del documento. Cada archivo del documento técnico DILIGENCIADO MEDIANTE FIRMA DIGITAL certificando que coincide fielmente con el documento aprobado. Las propiedades deben permitir IMPRESIÓN, COPIA, EXTRACCIÓN Y FIRMA",
+          "Art. 9.2 — NOMENCLATURA del directorio principal: nombre del municipio —en afección supramunicipal, el primero por orden alfabético seguido del símbolo #—, la abreviatura o acrónimo del tipo de instrumento y una referencia al ámbito cuando sea distinto del término municipal, con los datos separados por GUION BAJO",
+          "Art. 9.2 — TRES CARPETAS y sus resoluciones: a) DOCUMENTACIÓN ADMINISTRATIVA en pdf, mínimo 200 PPP · b) DOCUMENTO TÉCNICO en pdf, con documentación ESCRITA a 200 PPP mínimo y documentación GRÁFICA a 300 PPP mínimo · c) INFORMACIÓN GEOGRÁFICA VECTORIAL",
+          "La documentación técnica GRÁFICA debe incorporar, cuando proceda, las COORDENADAS GEOGRÁFICAS DE SUS CUATRO ESQUINAS en el sistema geodésico de referencia del Anexo",
+          "Art. 10 — la documentación de los instrumentos que afecten a determinaciones de ORDENACIÓN ESTRUCTURANTE incluirá los conjuntos de datos de INFORMACIÓN GEOGRÁFICA VECTORIAL según los modelos, formatos y sistema geodésico del Anexo",
+          "ANEXO — la información geográfica vectorial se entregará en formato SHAPEFILE",
+          "Art. 9.3 — los instrumentos cuya aprobación corresponda a la Comunidad Foral deben presentarse igualmente en formato digital y con el mismo conjunto de documentación",
+        ],
+      },
+      {
+        h: "Publicidad, protección de datos y disposiciones (arts. 11-12)",
+        nota:
+          "El cierre del decreto tiene una regla de reparto de responsabilidad que conviene retener: son los AYUNTAMIENTOS Y LAS PERSONAS PROMOTORAS quienes deben indicar EXPRESAMENTE qué parte de la información suministrada tiene carácter confidencial, y la unidad responsable del Registro se limita a VERIFICAR el cumplimiento. No es el Registro quien decide qué es confidencial. De las disposiciones, la transitoria marca la frontera temporal: lo que estaba en tramitación debía adaptarse antes de su aprobación definitiva, y lo ya aprobado mantiene sus inscripciones tal como se practicaron.",
+        items: [
+          "Art. 11 — PUBLICIDAD REGISTRAL: se hace efectiva mediante consulta directa en las dependencias designadas, mediante copias expedidas de los documentos obrantes en el Registro, u otras formas de la legislación urbanística. El derecho de acceso y obtención de copias se ejerce conforme a la LEGISLACIÓN GENERAL DE PROCEDIMIENTO ADMINISTRATIVO COMÚN. Debe facilitarse además el acceso y consulta TELEMÁTICOS de la documentación técnica a través de los portales que disponga el Gobierno de Navarra",
+          "Art. 12 — PROTECCIÓN DE DATOS: los AYUNTAMIENTOS Y LAS PERSONAS PROMOTORAS deberán indicar DE FORMA EXPRESA aquella parte de la información suministrada que tiene carácter CONFIDENCIAL; la unidad responsable del Registro VERIFICA el cumplimiento",
+          "DA ÚNICA — los ayuntamientos PODRÁN, DE MANERA VOLUNTARIA, remitir los instrumentos de GESTIÓN Y DE URBANIZACIÓN cuya aprobación definitiva les corresponda para su inscripción directa en el Registro",
+          "DT ÚNICA — los instrumentos EN TRAMITACIÓN a la entrada en vigor debían adaptarse a estas prescripciones CON CARÁCTER PREVIO A SU APROBACIÓN DEFINITIVA. El decreto NO se aplica a los ya APROBADOS DEFINITIVAMENTE, que mantienen sus inscripciones en las condiciones en que fueron practicadas",
+          "DF PRIMERA — se faculta al titular del Departamento para MODIFICAR EL ANEXO y adaptarlo a nuevas necesidades, tecnologías o estándares del OPEN GEOSPATIAL CONSORTIUM, o a disposiciones de rango superior",
+          "Encaje normativo: el Registro fue creado por el art. 79.3 de la LFOTU, y este decreto lo desarrolla al amparo de su disposición final primera; el derecho de acceso sin acreditar interés procede del art. 8 de la propia LFOTU",
+        ],
+      },
+    ],
+    claves: [
+      "Registro PÚBLICO y ADMINISTRATIVO, custodiado y gestionado por el DEPARTAMENTO, no por los ayuntamientos",
+      "Dos piezas: BASE DE DATOS con las fichas + ARCHIVO DOCUMENTAL en soporte digital (art. 4)",
+      "Se inscribe lo APROBADO DEFINITIVAMENTE y también sus MODIFICACIONES, y toda resolución posterior que afecte al contenido",
+      "Tres vías de iniciación: de oficio · a instancia del ayuntamiento · a instancia del promotor si se aprobó POR SILENCIO",
+      "El ayuntamiento remite la documentación en los DIEZ DÍAS siguientes a la aprobación definitiva",
+      "Documentación incompleta: DIEZ DÍAS para subsanar, con posible DENEGACIÓN del asiento",
+      "Plazo para practicar el asiento: TREINTA DÍAS, con SILENCIO POSITIVO si se agota (art. 6.2.b)",
+      "La certificación registral recoge el NÚMERO DE REGISTRO y se comunica a los ayuntamientos afectados",
+      "La ficha recoge el carácter ESTRUCTURANTE O PORMENORIZADO de las determinaciones (art. 7.1.b)",
+      "Cinco causas de modificación de la ficha; las sentencias solo TRAS ADQUIRIR FIRMEZA (art. 8.c)",
+      "Los ayuntamientos deben COMUNICAR toda resolución posterior con trascendencia registral",
+      "Todo en PDF salvo lo vectorial; páginas numeradas y archivos DILIGENCIADOS con firma digital",
+      "Resoluciones mínimas: 200 PPP administrativa y escrita · 300 PPP gráfica",
+      "La documentación gráfica incorpora las COORDENADAS de sus CUATRO ESQUINAS",
+      "Lo vectorial solo se exige en instrumentos que afecten a ORDENACIÓN ESTRUCTURANTE (art. 10)",
+      "Formato de la información vectorial: SHAPEFILE (Anexo)",
+      "Directorio: municipio + acrónimo del instrumento + ámbito, separados por GUION BAJO; # si es supramunicipal",
+      "La confidencialidad la señalan AYUNTAMIENTOS Y PROMOTORES; el Registro solo VERIFICA (art. 12)",
+      "Los instrumentos de gestión y urbanización municipales se inscriben de forma VOLUNTARIA (DA única)",
+      "El decreto no se aplica a lo ya aprobado definitivamente a su entrada en vigor (DT única)",
+    ],
+  },
+
   E24: {
     intro:
       "El Decreto Foral 202/2002 es el desarrollo reglamentario que la Ley Foral 2/1989 anunciaba en su art. 2: aprueba el CATÁLOGO de establecimientos, espectáculos públicos y actividades recreativas y regula los REGISTROS de empresas y locales. Es un tema de definiciones, y por eso se examina con preguntas de detalle: qué nivel sonoro corresponde a cada figura, qué establecimiento exige vestíbulo estanco, cuál no puede tener pista de baile, qué diámetro mínimo tiene una pista. La clave para no perderse es entender que el Catálogo escalona los locales de hostelería por su intensidad musical —bar y cafetería (75 dBA) < bar especial y café-espectáculo (90 dBA) < discoteca (baile)— y que a cada escalón le corresponden exigencias constructivas mayores.",
