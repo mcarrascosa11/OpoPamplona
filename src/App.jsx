@@ -717,45 +717,121 @@ function Resumenes() {
     return temaNum(a) - temaNum(b);
   });
   const [sel, setSel] = useState(disponibles[0] || null);
+  // Índices de bloque abiertos. Se parte de todo plegado: así el tema entra de
+  // una pantalla y se despliega solo lo que se va a repasar.
+  const [abiertos, setAbiertos] = useState(() => new Set());
+  const [clavesAbierto, setClavesAbierto] = useState(false);
   const r = sel ? RESUMENES[sel] : null;
+
+  const cambiarTema = (k) => {
+    setSel(k);
+    setAbiertos(new Set());
+    setClavesAbierto(false);
+  };
+  const alternar = (i) => setAbiertos((prev) => {
+    const n = new Set(prev);
+    n.has(i) ? n.delete(i) : n.add(i);
+    return n;
+  });
+  const todoAbierto = r && abiertos.size === r.bloques.length;
+
+  const generales = disponibles.filter(esGeneral);
+  const especificos = disponibles.filter((k) => !esGeneral(k));
+
   return (
     <div>
       <Ficha codigo="RESÚMENES" titulo="Repaso por tema">
         <p style={pSmall}>Resúmenes orientados a examen: datos, artículos, plazos y ubicación de cada concepto. Crecen igual que el banco de test. Disponibles ahora: {disponibles.length} tema(s).</p>
-        <div style={{ display: "flex", flexDirection: "column", gap: 4, marginTop: 10 }}>
-          {disponibles.map((k) => (
-            <button key={k} onClick={() => setSel(k)} className="opt" style={{
-              display: "flex", alignItems: "baseline", gap: 10, width: "100%", textAlign: "left",
-              fontFamily: MONO, fontSize: 12.5, padding: "9px 12px", borderRadius: 4, cursor: "pointer",
-              border: `1.5px solid ${sel === k ? C.ink : C.hair}`, background: sel === k ? C.ink : "transparent",
-              color: sel === k ? C.paper : C.ink2, fontWeight: sel === k ? 700 : 500,
-            }}>
-              <span style={{ flexShrink: 0 }}>{k}</span>
-              <span style={{ opacity: sel === k ? 1 : 0.85 }}>{temaTitulo(k).split("—")[0].trim()}</span>
-            </button>
-          ))}
-        </div>
+        <select
+          value={sel || ""}
+          onChange={(e) => cambiarTema(e.target.value)}
+          style={{
+            width: "100%", marginTop: 10, fontFamily: MONO, fontSize: 13,
+            padding: "10px 12px", borderRadius: 4, cursor: "pointer",
+            border: `1.5px solid ${C.hair}`, background: C.card, color: C.ink,
+          }}
+        >
+          <optgroup label={`PARTE GENERAL (${generales.length})`}>
+            {generales.map((k) => (
+              <option key={k} value={k}>{k} · {temaTitulo(k).split("—")[0].trim()}</option>
+            ))}
+          </optgroup>
+          <optgroup label={`PARTE ESPECÍFICA (${especificos.length})`}>
+            {especificos.map((k) => (
+              <option key={k} value={k}>{k} · {temaTitulo(k).split("—")[0].trim()}</option>
+            ))}
+          </optgroup>
+        </select>
       </Ficha>
 
       {r && (
         <Ficha codigo={`${sel} · ${esGeneral(sel) ? "GENERAL (solo test)" : "ESPECÍFICO"}`} titulo={temaTitulo(sel)}>
           <p style={{ ...p, fontStyle: "italic", color: C.ink2 }}>{r.intro}</p>
-          {r.bloques.map((b, i) => (
-            <div key={i} style={{ marginTop: 16 }}>
-              <div style={{ fontFamily: MONO, fontSize: 11, letterSpacing: 1, color: C.slate, fontWeight: 700, borderBottom: `1px solid ${C.hair}`, paddingBottom: 4, marginBottom: 8 }}>{b.h.toUpperCase()}</div>
-              {b.nota && <p style={{ ...p, margin: "0 0 8px", fontSize: 14 }}>{b.nota}</p>}
-              {b.items.map((it, j) => (
-                <div key={j} style={{ display: "flex", gap: 8, marginBottom: 6 }}>
-                  <span style={{ color: C.red, fontFamily: MONO, flexShrink: 0 }}>·</span>
-                  <span style={{ ...p, margin: 0, fontSize: 14 }}>{it}</span>
-                </div>
-              ))}
-            </div>
-          ))}
+
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 14, marginBottom: 4 }}>
+            <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate }}>
+              {r.bloques.length} BLOQUES
+            </span>
+            <div style={{ flex: 1 }} />
+            <button
+              onClick={() => setAbiertos(todoAbierto ? new Set() : new Set(r.bloques.map((_, i) => i)))}
+              style={{ ...ctaGhost, padding: "4px 10px", fontSize: 11 }}
+            >{todoAbierto ? "Plegar todo" : "Abrir todo"}</button>
+          </div>
+
+          {r.bloques.map((b, i) => {
+            const abierto = abiertos.has(i);
+            return (
+              <div key={i} style={{ borderBottom: `1px solid ${C.hair}` }}>
+                <button
+                  onClick={() => alternar(i)}
+                  aria-expanded={abierto}
+                  style={{
+                    display: "flex", alignItems: "center", gap: 10, width: "100%", textAlign: "left",
+                    background: "transparent", border: "none", cursor: "pointer",
+                    padding: "11px 2px", color: abierto ? C.red : C.slate,
+                    fontFamily: MONO, fontSize: 11, letterSpacing: 1, fontWeight: 700,
+                  }}
+                >
+                  <span style={{ flexShrink: 0, fontSize: 13, lineHeight: 1, width: 12 }}>{abierto ? "−" : "+"}</span>
+                  <span style={{ flex: 1 }}>{b.h.toUpperCase()}</span>
+                  <span style={{ flexShrink: 0, fontWeight: 500, opacity: 0.6 }}>{b.items.length}</span>
+                </button>
+                {abierto && (
+                  <div style={{ padding: "0 0 14px 22px" }}>
+                    {b.nota && <p style={{ ...p, margin: "0 0 10px", fontSize: 14 }}>{b.nota}</p>}
+                    {b.items.map((it, j) => (
+                      <div key={j} style={{ display: "flex", gap: 8, marginBottom: 6 }}>
+                        <span style={{ color: C.red, fontFamily: MONO, flexShrink: 0 }}>·</span>
+                        <span style={{ ...p, margin: 0, fontSize: 14 }}>{it}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+
           {r.claves?.length > 0 && (
-            <div style={{ marginTop: 18, borderLeft: `3px solid ${C.red}`, background: C.redSoft, padding: "10px 14px" }}>
-              <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.red, marginBottom: 6 }}>CLAVES QUE MÁS CAEN</div>
-              {r.claves.map((c, i) => <div key={i} style={{ ...pSmall, margin: "0 0 4px", color: C.ink }}>— {c}</div>)}
+            <div style={{ marginTop: 18, borderLeft: `3px solid ${C.red}`, background: C.redSoft }}>
+              <button
+                onClick={() => setClavesAbierto((v) => !v)}
+                aria-expanded={clavesAbierto}
+                style={{
+                  display: "flex", alignItems: "center", gap: 10, width: "100%", textAlign: "left",
+                  background: "transparent", border: "none", cursor: "pointer", padding: "10px 14px",
+                  fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.red, fontWeight: 700,
+                }}
+              >
+                <span style={{ flexShrink: 0, fontSize: 13, lineHeight: 1, width: 12 }}>{clavesAbierto ? "−" : "+"}</span>
+                <span style={{ flex: 1 }}>CLAVES QUE MÁS CAEN</span>
+                <span style={{ flexShrink: 0, fontWeight: 500, opacity: 0.7 }}>{r.claves.length}</span>
+              </button>
+              {clavesAbierto && (
+                <div style={{ padding: "0 14px 12px 36px" }}>
+                  {r.claves.map((c, i) => <div key={i} style={{ ...pSmall, margin: "0 0 4px", color: C.ink }}>— {c}</div>)}
+                </div>
+              )}
             </div>
           )}
         </Ficha>
