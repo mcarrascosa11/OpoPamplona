@@ -3382,4 +3382,326 @@ export const RESUMENES = {
       "Café-Bar → catalogado como BAR (DA 3ª) · Restaurante + bar especial en el mismo local si hay espacios de uso diferenciado (DA 4ª)",
     ],
   },
+
+  E26: {
+    intro:
+      "El Decreto Foral 108/2014 regula en Navarra el informe de evaluación de los edificios (IEE), que sustituyó a la antigua inspección técnica del RDL 8/2011 por exigencia de la Ley 8/2013 de rehabilitación, regeneración y renovación urbanas. Es un tema muy propio del arquitecto municipal, porque el Ayuntamiento aparece en los tres extremos: recibe el informe, lo inscribe en el registro y es quien ejecuta forzosamente si no se subsanan las deficiencias. El armazón del decreto son cuatro decisiones encadenadas: QUIÉN está obligado (art. 3) → QUÉ se mira (art. 4) → CÓMO se califican las deficiencias (art. 7) → QUÉ calificación recibe el edificio (art. 8). Los cuatro escalones de calificación —apto, apto con deficiencias leves, no apto provisionalmente y no apto— son el corazón del tema.",
+    bloques: [
+      {
+        h: "Objeto y ámbito de aplicación (arts. 1-2)",
+        nota:
+          "El ámbito se define por la tipología, no por el uso: lo determinante es que haya más de una vivienda, aunque el edificio tenga simultáneamente otros usos. La exclusión de las unifamiliares tiene una frontera muy nítida y muy preguntable: lo que decide no es si hay accesos independientes ni si comparten sótano, sino si las viviendas se superponen verticalmente. Dos adosados que comparten garaje mancomunado bajo rasante siguen siendo unifamiliares; dos viviendas una encima de otra, con portales separados, no lo son nunca.",
+        items: [
+          "Triple objeto (art. 1): regular el informe de evaluación derivado de la Ley 8/2013 · favorecer la conservación y rehabilitación del parque y la regeneración y renovación de los tejidos urbanos, asegurando seguridad, salubridad y accesibilidad y dando a conocer la eficiencia energética · aprobar el programa de evaluaciones obligatorias en Navarra",
+          "Ámbito (art. 2.1): edificios de TIPOLOGÍA RESIDENCIAL COLECTIVA, entendiendo por tales los que cuentan con MÁS DE UNA VIVIENDA, independientemente de que el edificio contenga simultáneamente otros usos",
+          "Se ASIMILAN a esa tipología los edificios destinados a ser ocupados o habitados por un grupo de personas que, sin constituir núcleo familiar, comparten servicios y se someten a un régimen común: hoteles y residencias",
+          "Para determinar el número de viviendas se considera, además de las cédulas de habitabilidad vigentes, el NÚMERO DE VIVIENDAS INCLUIDAS EN EL CATASTRO (art. 2.1)",
+          "EXCLUIDAS las viviendas unifamiliares, entendiendo por tales las aisladas o adosadas HORIZONTALMENTE, aun cuando estas últimas compartan en planta bajo rasante garajes o trasteros mancomunados (art. 2.2)",
+          "Regla de cierre: en NINGÚN CASO se consideran unifamiliares las viviendas SUPERPUESTAS VERTICALMENTE, aunque cuenten con accesos independientes",
+        ],
+      },
+      {
+        h: "Obligatoriedad del informe (art. 3)",
+        nota:
+          "La regla general es la antigüedad de cincuenta años, pero junto a ella hay dos vías de obligación anticipada que conviene no confundir: la del apartado 2, ligada a pedir ayudas de rehabilitación protegida para tres tipos concretos de obra, y la del apartado 3, que permite al Ayuntamiento exigirlo a cualquier edificio con deficiencias evidentes aunque no tenga la edad. El orden de prelación de los documentos para acreditar la antigüedad es literal y se pregunta tal cual.",
+        items: [
+          "Regla general (art. 3.1): deben evaluarse los edificios de tipología residencial colectiva con antigüedad IGUAL O SUPERIOR A 50 AÑOS",
+          "ORDEN DE PRELACIÓN para acreditar la antigüedad, si hay documentos discrepantes: 1º calificación definitiva como vivienda protegida · 2º inscripción en el CATASTRO · 3º Registro de la Propiedad · 4º expedición de cédula de habitabilidad · 5º certificado de final de obra · 6º cualquier otro documento válido en derecho",
+          "Obligación anticipada por rehabilitación protegida (art. 3.2): todo proyecto que se pretenda calificar como rehabilitación protegida y tenga por objetivo la CONSOLIDACIÓN ESTRUCTURAL, la adaptación completa a la normativa de ACCESIBILIDAD universal, o la mejora de la ENVOLVENTE TÉRMICA, debe incorporar el informe previa o simultáneamente a la redacción del proyecto",
+          "Obligación anticipada por riesgo (art. 3.3): los ayuntamientos o el departamento competente pueden imponer el informe a edificios que aún no hayan alcanzado la antigüedad o el vencimiento de una evaluación previa, si presentan deficiencias evidentes estructurales, constructivas o de instalaciones que puedan suponer riesgo para las personas, tanto en el interior como en la VÍA PÚBLICA",
+          "EXENTOS los edificios declarados en RUINA, sin perjuicio de las obligaciones derivadas de esa declaración (art. 3.4)",
+          "La obligación corresponde a los PROPIETARIOS cualquiera que sea el régimen de propiedad, que deben encomendar la evaluación a técnicos competentes y facilitarles el acceso al edificio, viviendas y locales (art. 3.5)",
+          "Los propietarios de edificios NO obligados mantienen íntegro el deber de mantenimiento y conservación de la LOE y de la legislación urbanística (art. 3.6)",
+        ],
+      },
+      {
+        h: "Alcance de la evaluación (art. 4)",
+        nota:
+          "El alcance tiene un límite explícito que protege al técnico y que conviene tener claro: la evaluación se hace con los sentidos. No es objeto detectar vicios o daños ocultos ni determinar con precisión el origen de las patologías —solo formular un prediagnóstico—, y si hace falta más, el evaluador propone un informe pericial aparte. Con las instalaciones sujetas a inspección sectorial propia el técnico no inspecciona: se limita a pedir los papeles.",
+        items: [
+          "La evaluación comprende el EDIFICIO COMPLETO, elementos comunes y viviendas o locales, y todas las plantas desde la CIMENTACIÓN A LA CUBIERTA, aunque alguna supere el ámbito del edificio (garajes mancomunados o plantas de uso distinto al residencial)",
+          "Excepción por portales (art. 4.1): en edificios en régimen de propiedad horizontal con varios portales para los que se hayan constituido COMUNIDADES DE PROPIETARIOS INDEPENDIENTES, puede efectuarse una evaluación por cada comunidad o portal",
+          "Si el técnico no puede acceder a la totalidad de las viviendas o locales, debe reflejarlo en el informe indicando si supone limitación al contenido técnico y, en su caso, la VALIDEZ del informe para el conjunto del edificio (art. 4.2)",
+          "Aspecto a) ESTADO GENERAL: elementos estructurales, constructivos e instalaciones que no requieran inspección sectorial específica, constatando las patologías APRECIABLES CON LOS SENTIDOS. Para las instalaciones con inspección específica el técnico se LIMITA A REQUERIR contratos de mantenimiento, boletines o informes que acrediten el cumplimiento",
+          "Límite expreso del alcance: NO es objeto de la evaluación la detección de vicios o daños OCULTOS, ni la determinación precisa del origen de las patologías, aunque SÍ la formulación de un PREDIAGNÓSTICO de sus posibles causas. Si hace falta más, el evaluador propone a los propietarios un informe pericial o técnico —del propio evaluador o de otro— con diagnóstico preciso, forma de subsanación y necesidad de proyecto",
+          "Aspecto b) ACCESIBILIDAD: grado de accesibilidad y enumeración de elementos que incumplen el DB-SUA y la normativa de accesibilidad y no discriminación. Si el edificio es técnicamente inaccesible, hay que determinar si puede mejorar mediante AJUSTES RAZONABLES que no supongan carga desproporcionada (Ley 8/2013), indicándolos en el informe",
+          "Aspecto c) EFICIENCIA ENERGÉTICA: certificación con el contenido y procedimiento de la normativa vigente. Si ya existe certificado válido y no ha habido variaciones en las características energéticas del edificio o sus instalaciones, basta ADJUNTARLO; en caso contrario hay que certificar de nuevo",
+        ],
+      },
+      {
+        h: "Técnicos evaluadores y el informe (arts. 5-6)",
+        nota:
+          "La habilitación profesional es doble y cerrada —arquitecto o arquitecto técnico— porque se trata del edificio considerado en su conjunto, excluidas precisamente las instalaciones que exigen inspección especializada. La exigencia de independencia, imparcialidad y objetividad se traslada íntegra a las entidades de control de calidad que quieran redactarlo.",
+        items: [
+          "Técnicos (art. 5): el informe lo redacta técnico con titulación de ARQUITECTO, o titulados que ejerzan la profesión de ARQUITECTO TÉCNICO, sin perjuicio de la normativa básica estatal sobre competencias profesionales",
+          "El técnico debe garantizar la INDEPENDENCIA, IMPARCIALIDAD Y OBJETIVIDAD del informe; los mismos requisitos se exigen a las entidades de control de calidad de la edificación u otras sociedades que puedan redactarlo, y en todos los casos el informe va FIRMADO POR UN TÉCNICO COMPETENTE",
+          "Contenido del informe (art. 6.1): características generales del edificio · estado general según el art. 4.3 · deficiencias observadas · su calificación y su carácter LOCAL O GENERAL · el plazo para subsanarlas · y la calificación final del edificio",
+          "El informe se elabora obligatoriamente mediante la APLICACIÓN INFORMÁTICA creada por el departamento competente en materia de vivienda, según modelo normalizado (art. 6.2)",
+        ],
+      },
+      {
+        h: "Calificación de las deficiencias (art. 7)",
+        nota:
+          "Dos ejes independientes: gravedad y extensión. En gravedad, el criterio que separa lo muy grave de lo grave es el peligro y la inmediatez: lo muy grave compromete la estabilidad y hay que subsanarlo de manera inmediata; lo grave no representa peligro inmediato y se subsana en el plazo que fije el propio informe. Ojo a dos supuestos que el decreto califica expresamente como graves aunque no lo parezcan: la simple ausencia de los controles obligatorios de las instalaciones y el riesgo en la circulación por elementos comunes, con o sin discapacidad de los usuarios.",
+        items: [
+          "MUY GRAVES: por su importancia comprometen la estabilidad del elemento constructivo y suponen la inestabilidad del edificio en su conjunto o un PELIGRO para moradores o viandantes; deben subsanarse DE MANERA INMEDIATA. El informe incluirá las medidas de subsanación definitiva y su plazo y, en su caso, las MEDIDAS PROVISIONALES Y URGENTES que garanticen la estabilidad mientras se elabora el informe detallado, el proyecto de reparación y se ejecutan las obras",
+          "GRAVES: sin representar peligro inmediato para la estabilidad ni riesgo para moradores o viandantes, deben subsanarse en el plazo que el propio informe establezca. La necesidad se deriva de la importancia de la deficiencia en sí, de que su evolución previsible derive en MUY GRAVE en plazo inferior a un año, o de que su permanencia provoque deterioro progresivo hacia grave inestabilidad o insalubridad dentro del periodo de vigencia",
+          "Se califica también como GRAVE la AUSENCIA de los controles obligatorios de las instalaciones dentro de los plazos que imponga su normativa sectorial",
+          "Y son igualmente GRAVES las deficiencias que provocan que la circulación por los ELEMENTOS COMUNES suponga riesgo para los usuarios, SUFRAN O NO DISCAPACIDAD",
+          "LEVES: aquellas cuya importancia o evolución prevista no permite calificarlas como graves o muy graves, pero cuya resolución resulta necesaria para un adecuado mantenimiento del edificio evitando su progresivo deterioro",
+          "Por EXTENSIÓN — GENERALIZADAS: con independencia de su gravedad, las que afectan a MÁS DEL 50 % de la superficie del elemento constructivo considerado (fachada, cubierta, escalera, carpinterías…), excepto si dicho elemento es singular y de escasa relevancia en el conjunto",
+          "Por EXTENSIÓN — LOCALIZADAS: las que afectan a menos del 50 % del elemento, o las que, aun afectando a un porcentaje mayor o incluso a su totalidad, recaen sobre un elemento de ESCASA RELEVANCIA sobre el conjunto del edificio",
+        ],
+      },
+      {
+        h: "Calificación del edificio (art. 8)",
+        nota:
+          "Cuatro escalones. La frontera entre «no apto provisionalmente» y «no apto» es el plazo del año, y la doble condición del provisional conviene retenerla completa: deficiencias graves, plazo improrrogable inferior a un año Y ausencia de peligro para usuarios o viandantes. La ventaja práctica del provisional es que, subsanado, la nueva evaluación se limita a las deficiencias del informe inicial y no obliga a repetir un IEE completo.",
+        items: [
+          "APTO: el edificio no presenta ninguna deficiencia que deba ser reseñada en el informe",
+          "APTO CON DEFICIENCIAS LEVES: presenta ese tipo de deficiencias que, por afectar exclusivamente al mantenimiento, pueden subsanarse a lo largo del periodo de vigencia del informe. Tiene los mismos efectos que el apto, pero sirve de aviso y recordatorio del mantenimiento pendiente",
+          "NO APTO PROVISIONALMENTE: el informe incluye deficiencias GRAVES para cuya subsanación se ha establecido un plazo IMPRORROGABLE INFERIOR A UN AÑO y dichas deficiencias NO representan peligro para usuarios ni viandantes",
+          "Cómo sale del provisional: subsanadas las deficiencias en plazo y tras nueva evaluación LIMITADA a las deficiencias recogidas en el informe inicial, se certifica que se han efectuado las reparaciones exigidas y se alcanza la condición de apto o apto con deficiencias leves — no hace falta un IEE completo nuevo",
+          "NO APTO: el edificio con deficiencias MUY GRAVES. También el que cuenta con deficiencias graves cuya subsanación precise un plazo SUPERIOR A UN AÑO. Transcurrido el plazo del informe para subsanar, debe someterse a NUEVO informe de evaluación completo",
+        ],
+      },
+      {
+        h: "Vigencia y renovación (art. 9)",
+        nota:
+          "La vigencia es de diez años, pero el día inicial tiene una regla antielusión: se cuenta desde la entrada en el registro, salvo que el propietario se demore más de seis meses en presentarlo, en cuyo caso el plazo corre desde la firma del técnico y se pierde el tiempo transcurrido. En la renovación funciona la prórroga tácita mientras se hace la nueva evaluación, con el tope de un año.",
+        items: [
+          "Vigencia de DIEZ AÑOS desde su ENTRADA EN EL REGISTRO, excepto cuando entre la firma del informe y dicha entrada hubieran transcurrido más de 6 MESES, caso en el que el plazo se cuenta desde la FIRMA del informe por el técnico (art. 9.1)",
+          "El plazo puede REDUCIRSE cuando circunstancias sobrevenidas modifiquen y empeoren sustancialmente las condiciones de seguridad, salubridad, accesibilidad, eficiencia energética y ornato existentes al emitir el informe; los propietarios quedan obligados a subsanar o a someterse a nueva evaluación",
+          "Los AYUNTAMIENTOS, de oficio o a instancia de parte, pueden declarar la PÉRDIDA ANTICIPADA de la vigencia del informe si circunstancias sobrevenidas lo requieren",
+          "Todos los edificios obligados deben contar con un informe VIGENTE que los califique como APTO o APTO CON DEFICIENCIAS LEVES (art. 9.2)",
+          "PRÓRROGA EN LA RENOVACIÓN: se entiende prorrogada la vigencia del informe anterior durante el tiempo empleado en realizar la nueva evaluación, siempre que no transcurra más de UN AÑO desde la fecha de pérdida de vigencia",
+          "Un informe favorable NO exime: los propietarios mantienen íntegramente los deberes de mantenimiento y conservación establecidos legalmente (art. 9.3)",
+        ],
+      },
+      {
+        h: "Destino del informe y libro del edificio (art. 10)",
+        nota:
+          "Este artículo contiene la única obligación que pesa directamente sobre el técnico frente a la Administración, y es la que más conviene tener presente en el ejercicio profesional: si aparecen deficiencias muy graves con riesgo inminente, el informe lo remite al Ayuntamiento el propio técnico que lo firma, no el propietario. Y si la urgencia impide comunicarlo al Ayuntamiento, la vía alternativa es el departamento de extinción de incendios.",
+        items: [
+          "El técnico realiza el informe en la aplicación informática y lo firma con FIRMA DIGITAL válida; después entrega al propietario o a su representante los CÓDIGOS DE ACCESO que permiten hacer uso del informe firmado, y copia si se solicita (art. 10.1)",
+          "RIESGO INMINENTE: si el informe indica patologías o deficiencias muy graves que puedan suponer riesgo inminente para las personas, además de prever las medidas del art. 7, el informe debe ser remitido al ayuntamiento POR EL TÉCNICO QUE LO FIRMA en el plazo más breve posible. Si la inminencia exige medidas inmediatas y no se puede comunicar al ayuntamiento, se pone en conocimiento del Departamento competente en materia de EXTINCIÓN DE INCENDIOS",
+          "LIBRO DEL EDIFICIO (art. 10.2): el informe se incorpora al libro del edificio cuando exista o, si no existiera, CONSTITUYE EL PRIMER DOCUMENTO QUE LO INTEGRE, añadiéndose después los informes y proyectos necesarios para subsanar deficiencias",
+          "Transmisiones (art. 10.3): en la venta o arrendamiento de viviendas de un edificio obligado, el adquirente o el arrendatario puede exigir, JUNTO CON LA CÉDULA DE HABITABILIDAD, copia del informe",
+          "Inscripción (art. 10.4): el propietario o su representante remite al ayuntamiento las claves de acceso al original digital solicitando su inclusión en el registro. El ayuntamiento incorpora el informe al registro en el plazo máximo de DOS MESES",
+        ],
+      },
+      {
+        h: "Efectos del cumplimiento y del incumplimiento (art. 11)",
+        nota:
+          "El decreto es de 2014 y cita la Ley Foral 35/2002 de Ordenación del Territorio y Urbanismo, hoy refundida en el Decreto Foral Legislativo 1/2017 (LFOTU); las referencias a sus artículos 87, 196 y 212 deben leerse trasladadas al texto refundido vigente. Lo importante para el examen es el mecanismo: carecer del informe no es por sí solo infracción, pero desoír el requerimiento municipal sí lo convierte en incumplimiento de los deberes de conservación, con multas coercitivas, ejecución subsidiaria y, en el caso más grave, posible declaración de ruina.",
+        items: [
+          "Cumplir en plazo con calificación de apto o apto con deficiencias leves (art. 11.1) permite ACREDITAR con el informe el cumplimiento de las obligaciones de la LOE y de la legislación urbanística —conservando el deber de mantenimiento durante la vigencia— y acometer obras acogiéndose a la calificación como REHABILITACIÓN PROTEGIDA",
+          "CARECER del informe estando obligado (art. 11.2.1): consecuencias del art. 16 LOE · si se desoye el requerimiento del ayuntamiento o del departamento, se incumplen los deberes de uso, conservación y rehabilitación y puede declararse la responsabilidad por INFRACCIÓN GRAVE, sin perjuicio de que pueda declararse la RUINA · no puede solicitarse la calificación provisional de rehabilitación protegida · ejecución forzosa previo apercibimiento mediante MULTAS COERCITIVAS y/o EJECUCIÓN SUBSIDIARIA · en hoteles y residencias, medidas del departamento sectorial competente",
+          "NO EJECUTAR las obras tras un informe de no apto o no apto provisionalmente (art. 11.2.2): consecuencias del art. 16 LOE · infracción GRAVE en materia urbanística o, subsidiariamente, infracción MUY GRAVE de la Ley Foral 10/2010 del Derecho a la Vivienda · ejecución forzosa con multas coercitivas y/o ejecución subsidiaria",
+          "Consecuencia específica sobre la habitabilidad: el departamento competente en vivienda puede abrir expediente sobre la PÉRDIDA ANTICIPADA DE VIGENCIA DE LAS CÉDULAS DE HABITABILIDAD de las viviendas del edificio, según el art. 12 del DF 142/2004, en función de la gravedad, peligrosidad o insalubridad apreciadas",
+          "Para usos distintos del de vivienda incluidos en el ámbito, los departamentos competentes pueden iniciar expedientes que conduzcan a la ORDEN DE CESE DE LA ACTIVIDAD",
+        ],
+      },
+      {
+        h: "Registro General de Evaluación de Edificios (arts. 12-13)",
+        nota:
+          "El registro foral no compite con los municipales: sirve de base a todos ellos, de modo que el Ayuntamiento y el Gobierno de Navarra manejan la misma información. El reparto de papeles en la inscripción es la pregunta típica: el propietario aporta el código, el Ayuntamiento lo introduce y practica la inscripción.",
+        items: [
+          "El departamento competente en vivienda crea el registro general de evaluación de edificios de Navarra, que sirve de BASE para todos los registros municipales sobre esta materia (art. 12.1)",
+          "Cuádruple objeto (art. 12.2): proporcionar a los ayuntamientos la misma información de que dispone el Gobierno de Navarra · servir de base de datos al departamento para conocer el estado del parque y elaborar planes · facilitar a los profesionales y de modo indirecto a los ciudadanos la elaboración de los informes · nutrir los censos de construcciones, edificios, viviendas y locales precisados de rehabilitación de la Ley 8/2013, integrándose en el registro general de viviendas de Navarra cuando éste se establezca",
+          "El departamento debe poner a disposición de ayuntamientos, ciudadanos y profesionales una aplicación informática que posibilite la elaboración, presentación y registro de los informes (art. 12.3)",
+          "Procedimiento de inscripción (art. 13): una vez el propietario dispone de los códigos de acceso al informe firmado, SOLICITA al ayuntamiento la formalización de la inscripción; después el AYUNTAMIENTO introduce el código facilitado y practica la inscripción en el registro general mediante la aplicación informática",
+        ],
+      },
+      {
+        h: "Disposiciones adicionales y transitorias",
+        nota:
+          "El programa de implantación gradual de la DT 1ª ya está agotado en su calendario de fechas cerradas: las seis primeras letras cubrían de 2017 a 2021. Lo que sigue vivo hoy es la letra f), que es la regla permanente: quien cumple cincuenta años a partir del 1 de enero de 2020 dispone de un año desde esa fecha para tener el informe.",
+        items: [
+          "DA PRIMERA: las solicitudes de calificación provisional de rehabilitación protegida de edificios de 50 o más años presentadas a partir del 1 DE JULIO DE 2015 deben aportar copia del informe de evaluación",
+          "DA SEGUNDA: en ámbitos definidos por el ayuntamiento y según sus directrices, las oficinas de rehabilitación de viviendas y edificios (ORVE) pueden realizar informes técnicos que sirven de ORIENTACIÓN para las actuaciones sobre el medio urbano y para la elaboración de los propios informes de evaluación",
+          "DT PRIMERA — calendario cerrado: 100 o más años a 31/12/2013 → antes del 1 de enero de 2017 · 50 o más años a 31/12/2013 → antes de 2018 · los que cumplen 50 años entre 2014 y 2016 → antes de 2019 · entre 2017 y 2018 → antes de 2020 · durante 2019 → antes de 2021",
+          "DT PRIMERA — REGLA PERMANENTE (letra f): los que adquieran la antigüedad de 50 años a partir del 1 DE ENERO DE 2020 deben disponer del informe antes de que transcurra UN AÑO desde la fecha en que hubieran adquirido dicha antigüedad",
+          "DT SEGUNDA: los edificios con inspección técnica efectuada conforme al RDL 8/2011 no están obligados a contar con el informe durante el periodo de vigencia de aquella inspección, siempre que ese plazo fuera IGUAL O INFERIOR A DIEZ AÑOS",
+          "DT SEGUNDA: quienes ya contaran con informe de evaluación antes de la entrada en vigor del decreto y dentro de su vigencia debían presentarlo para inscripción en el plazo máximo de 1 AÑO; de no solicitarse la inscripción en plazo, el informe se entiende COMO NO EFECTUADO",
+        ],
+      },
+    ],
+    claves: [
+      "Ámbito: residencial colectiva = MÁS DE UNA VIVIENDA, aunque el edificio tenga otros usos. Asimilados: hoteles y residencias",
+      "Nunca son unifamiliares las viviendas SUPERPUESTAS VERTICALMENTE, aunque tengan accesos independientes; sí lo son las adosadas horizontalmente con garaje mancomunado bajo rasante",
+      "Obligación general: antigüedad ≥ 50 AÑOS. Exentos los declarados en RUINA",
+      "Prelación de la antigüedad: calificación definitiva VPO → catastro → Registro de la Propiedad → cédula → certificado final de obra → otro documento",
+      "Rehabilitación protegida que obliga al IEE anticipado: consolidación estructural, accesibilidad universal completa o mejora de envolvente térmica",
+      "Varios portales con comunidades independientes: cabe una evaluación por portal",
+      "Se evalúa con LOS SENTIDOS: no son objeto los vicios ocultos ni el origen preciso, pero sí un PREDIAGNÓSTICO",
+      "Instalaciones con inspección sectorial propia: el técnico solo REQUIERE los contratos, boletines e informes",
+      "Redactan arquitecto o arquitecto técnico, con independencia, imparcialidad y objetividad",
+      "Deficiencia GRAVE también: la ausencia de los controles obligatorios de instalaciones, y el riesgo en la circulación por elementos comunes (con o sin discapacidad)",
+      "Generalizada = más del 50 % del elemento · Localizada = menos del 50 %, o más si el elemento es de escasa relevancia",
+      "NO APTO PROVISIONALMENTE: deficiencias graves + plazo improrrogable INFERIOR a un año + SIN peligro para usuarios o viandantes",
+      "NO APTO: deficiencias muy graves, o graves que exijan MÁS de un año",
+      "Del provisional se sale con evaluación LIMITADA a las deficiencias del informe inicial; del no apto, con informe COMPLETO nuevo",
+      "Vigencia 10 años desde la entrada en el REGISTRO, salvo que pasen más de 6 MESES desde la firma: entonces cuenta desde la FIRMA",
+      "Prórroga en la renovación mientras se hace la nueva evaluación, con tope de UN AÑO desde la pérdida de vigencia",
+      "Riesgo inminente: lo remite al ayuntamiento EL PROPIO TÉCNICO que firma; si no puede, al departamento de EXTINCIÓN DE INCENDIOS",
+      "El informe se incorpora al LIBRO DEL EDIFICIO o, si no existe, es su PRIMER DOCUMENTO",
+      "El ayuntamiento inscribe en el registro en plazo máximo de DOS MESES",
+      "El incumplimiento puede llevar a la pérdida anticipada de vigencia de las CÉDULAS DE HABITABILIDAD (art. 12 DF 142/2004)",
+      "Regla permanente vigente: quien cumple 50 años desde el 1/1/2020 tiene UN AÑO para disponer del informe",
+    ],
+  },
+
+  E27: {
+    intro:
+      "El Decreto Foral 23/2011 desarrolla y adapta a Navarra el RD 105/2008 sobre producción y gestión de residuos de construcción y demolición. Es un tema de cifras: umbrales de separación por fracciones, cuantías de fianza, ratios de generación y plazos. El esquema conceptual es sencillo y conviene fijarlo antes de memorizar números — hay tres sujetos (PRODUCTOR, POSEEDOR y GESTOR) y a cada uno le corresponde un documento: el productor redacta el ESTUDIO de gestión dentro del proyecto, el poseedor redacta el PLAN que aprueba la dirección facultativa, y el gestor lleva el REGISTRO de entradas y salidas y emite los certificados. Para el técnico municipal el punto crítico es la fianza: se deposita con la solicitud de licencia y se devuelve contra certificado de gestor autorizado.",
+    bloques: [
+      {
+        h: "Objeto y ámbito (arts. 1-2)",
+        nota:
+          "La jerarquía de gestión del art. 1.a) marca el orden de preferencia de todo el decreto y se repite luego en las obligaciones del poseedor: prevención, preparación para la reutilización, reciclado, otras formas de valorización y, en último lugar, eliminación. De las exclusiones del art. 2.2, la que más se pregunta es la de las obras menores domiciliarias, que solo quedan fuera si no superan los 50 kg — un umbral en peso que no hay que confundir con los 50 m³ que definen la obra de escasa entidad.",
+        items: [
+          "Cuádruple objeto (art. 1): establecer el régimen jurídico de la producción y gestión de RCDs fomentando por este orden su PREVENCIÓN, PREPARACIÓN PARA LA REUTILIZACIÓN, RECICLADO y otras formas de VALORIZACIÓN · establecer las fianzas exigibles · concretar la cantidad mínima de RCDs sujeta a gestión específica diferenciada · establecer los requisitos técnicos mínimos de las plantas de tratamiento",
+          "NO tienen consideración de RCDs (art. 2.2): las tierras y piedras NO CONTAMINADAS por sustancias peligrosas reutilizadas en la misma obra, en obra distinta o en restauración, acondicionamiento o relleno, siempre que se acredite de forma FEHACIENTE su destino a reutilización",
+          "Tampoco: los residuos de industrias extractivas (Directiva 2006/21/CE) · los lodos de dragado no peligrosos reubicados en el interior de aguas superficiales · y los residuos de OBRAS MENORES de construcción o reparación domiciliaria cuando NO SUPEREN LOS 50 KG DE PESO",
+          "Los residuos generados en obra y regulados por legislación específica (peligrosos y no peligrosos), cuando estén mezclados con otros RCDs, se rigen por este decreto en lo no contemplado por aquella legislación (art. 2.3)",
+        ],
+      },
+      {
+        h: "Definiciones clave (art. 3)",
+        nota:
+          "Tres definiciones se preguntan una y otra vez. La de productor, porque lo ata a la LICENCIA URBANÍSTICA y solo subsidiariamente al titular del inmueble. La de poseedor, porque incluye expresamente a constructor, subcontratistas y autónomos, y excluye igual de expresamente a los trabajadores por cuenta ajena. Y la pareja obra menor / obra de escasa entidad, que se distinguen por criterios distintos: la menor por su naturaleza (domiciliaria, sencilla, sin proyecto y sin alterar volumen, uso ni número de viviendas), la de escasa entidad por el volumen de residuos que genera.",
+        items: [
+          "PRODUCTOR (art. 3.f): el titular de la LICENCIA URBANÍSTICA de la obra; en las obras que no precisen licencia, el titular del BIEN INMUEBLE. También quien efectúe operaciones de tratamiento o mezcla que cambien la naturaleza o composición de los residuos, y el importador o adquirente en cualquier Estado miembro de la UE",
+          "POSEEDOR (art. 3.h): quien tiene en su poder los RCDs sin ser gestor. En todo caso lo es quien EJECUTA la obra —constructor, subcontratistas o trabajadores autónomos—; en ningún caso lo son los TRABAJADORES POR CUENTA AJENA",
+          "GESTOR (art. 3.g): quien recoge, transporta, valoriza y/o elimina RCDs, incluida la vigilancia de esas operaciones y el mantenimiento posterior al cierre de los vertederos, y las actuaciones como negociante o agente",
+          "OBRA DE ESCASA ENTIDAD (art. 3.c): la que, sin ser obra menor, genera residuos que NO SUPERAN LOS 50 M³ y en general no precisa proyecto firmado por titulados, aunque puede precisar licencia de obra o declaración responsable",
+          "OBRA MENOR de construcción o reparación domiciliaria (art. 3.d): en domicilio particular, comercio, oficina o inmueble del sector servicios, de SENCILLA TÉCNICA y escasa entidad constructiva y económica, que no suponga alteración del volumen, del uso, de las instalaciones de uso común ni del número de viviendas y locales, y que no precisa proyecto firmado por titulados",
+          "ALMACENAMIENTO (art. 3.k): depósito temporal previo a la valorización o eliminación por tiempo INFERIOR A DOS AÑOS, salvo plazos reglamentarios menores. No incluye el depósito temporal en las instalaciones de producción con los mismos fines",
+          "RESIDUO INERTE (art. 3.e): no peligroso que no experimenta transformaciones físicas, químicas o biológicas significativas, no es soluble ni combustible, no reacciona, no es biodegradable y no afecta negativamente a otras materias; su lixiviabilidad, contenido de contaminantes y ecotoxicidad del lixiviado deben ser insignificantes",
+          "Se considera PARTE INTEGRANTE DE LA OBRA toda instalación de servicio exclusivo cuyo montaje y desmontaje tenga lugar durante la ejecución o al final: plantas de machaqueo, de hormigón, de prefabricados, de mezclas bituminosas, talleres de encofrados y de ferralla, almacenes y plantas de tratamiento de la propia obra",
+        ],
+      },
+      {
+        h: "Obligaciones del productor: el estudio de gestión (art. 4)",
+        nota:
+          "El estudio de gestión tiene siete contenidos mínimos numerados, y el examen suele atacar por dos sitios: el séptimo —la valoración del coste, que va en CAPÍTULO INDEPENDIENTE del presupuesto, igual que ocurre con el estudio de seguridad y salud— y el recorte del art. 4.2, que permite que el proyecto básico presentado para pedir licencia lleve solo cinco de los siete puntos, dejando fuera precisamente los planos y el pliego.",
+        items: [
+          "Contenido mínimo del ESTUDIO DE GESTIÓN (art. 4.1.a): 1) estimación de la cantidad en toneladas y/o m³ codificada según el Anejo 2A, pudiendo usarse los ratios del Anejo 3 · 2) medidas de PREVENCIÓN de generación · 3) operaciones de reutilización, valorización o eliminación previstas · 4) medidas para la SEPARACIÓN en obra · 5) PLANOS de las instalaciones de almacenamiento, manejo y separación · 6) prescripciones del PLIEGO de condiciones técnicas particulares · 7) valoración del COSTE previsto, que formará parte del presupuesto del proyecto EN CAPÍTULO INDEPENDIENTE",
+          "En obras de DEMOLICIÓN, REHABILITACIÓN, REPARACIÓN O REFORMA (art. 4.1.b): inventario de los residuos PELIGROSOS que se generarán, incluido en el estudio de gestión, previendo su RETIRADA SELECTIVA para evitar mezclas y asegurar su envío a gestores autorizados de residuos peligrosos",
+          "Documentación acreditativa de la gestión efectiva (art. 4.1.c): debe conservarse, para cada año natural, durante los CINCO AÑOS siguientes",
+          "Fianza (art. 4.1.d): constituirla salvo que se trate de obra menor de construcción o reparación domiciliaria, que se rige por lo que establezcan las ORDENANZAS MUNICIPALES",
+          "PROYECTO BÁSICO para licencia (art. 4.2): en obras de edificación, cuando se presente proyecto básico para obtener la licencia urbanística, contendrá al menos los documentos 1, 2, 3, 4 y 7 de la letra a) y la letra b) — es decir, quedan fuera los PLANOS (5) y el PLIEGO (6)",
+        ],
+      },
+      {
+        h: "Obligaciones del poseedor: el plan y la separación (art. 5)",
+        nota:
+          "El plan del poseedor sigue el mismo circuito que el plan de seguridad y salud: lo redacta quien ejecuta, lo aprueba la dirección facultativa, lo acepta la propiedad y desde ese momento es documento contractual. Los siete umbrales de separación del apartado 4 son el dato numérico más preguntado del tema; conviene fijarlos como una escala descendente y recordar que se miden por fracción individualizada sobre el total de la obra, no sobre lo generado en un momento dado.",
+        items: [
+          "PLAN (art. 5.1): quien ejecuta la obra debe presentar a la propiedad un plan que refleje cómo cumplirá sus obligaciones sobre los RCDs. Una vez APROBADO POR LA DIRECCIÓN FACULTATIVA y ACEPTADO POR LA PROPIEDAD, pasa a formar parte de los documentos contractuales de la obra",
+          "Entrega (art. 5.2): cuando no los gestione por sí mismo, el poseedor debe entregarlos a gestor autorizado o participar en un acuerdo voluntario o convenio de colaboración. Destino preferente y por este orden: REUTILIZACIÓN, RECICLADO u otras formas de VALORIZACIÓN; solo se destinan a eliminación cumpliendo las condiciones del art. 10",
+          "Mientras estén en su poder debe mantenerlos en condiciones adecuadas de higiene y seguridad y EVITAR LA MEZCLA de fracciones ya seleccionadas que impida o dificulte su posterior valorización o eliminación (art. 5.3)",
+          "UMBRALES DE SEPARACIÓN OBLIGATORIA por fracciones (art. 5.4), cuando la cantidad prevista para el TOTAL DE LA OBRA de cada fracción individualizada supere: HORMIGÓN 80 t · LADRILLOS, TEJAS Y CERÁMICOS 40 t · METAL 2 t · MADERA 1 t · VIDRIO 1 t · PLÁSTICO 0,5 t · PAPEL Y CARTÓN 0,5 t",
+          "La separación se hace PREFERENTEMENTE en la propia obra. Si por FALTA DE ESPACIO FÍSICO no resulta técnicamente viable, el poseedor puede encomendarla a un gestor en instalación externa, debiendo obtener de él documentación acreditativa de que ha cumplido esa obligación EN SU NOMBRE",
+          "El poseedor sufraga los costes de gestión, entrega al productor los certificados/facturas acreditativos y mantiene la documentación de cada año natural durante los CINCO AÑOS siguientes (art. 5.5)",
+        ],
+      },
+      {
+        h: "Fianzas y Registro de Constructor-Poseedor (art. 6)",
+        nota:
+          "Hay dos sistemas alternativos para garantizar la correcta gestión, y esa alternativa es la clave del artículo. O bien el productor deposita fianza obra por obra con la solicitud de licencia, o bien contrata a un constructor-poseedor inscrito en el Registro foral, que ya tiene depositada una fianza general por su actividad. Las obras de escasa entidad solo pueden usar la segunda vía; las demás pueden elegir. Los tres importes —11 €/t, 17 €/m³, mínimo 1.000 € y máximo 3 %— y el plazo de devolución de 15 días son datos de examen seguro.",
+        items: [
+          "Obras de ESCASA ENTIDAD (art. 6.1): el productor cumple contratando a un CONSTRUCTOR-POSEEDOR inscrito en el Registro de Constructor-Poseedor de RCDs que mantiene el departamento competente en medio ambiente",
+          "Obras que precisan licencia y NO son de escasa entidad (art. 6.2.a): depositar JUNTO CON LA SOLICITUD DE LICENCIA fianza o aval bancario de 11 EUROS/T o 17 EUROS/M³ de RCDs que no sean tierras de excavación, con un MÍNIMO DE 1.000 EUROS y un MÁXIMO DEL 3 % DEL PRESUPUESTO del proyecto",
+          "Devolución (art. 6.2.b-c): terminadas las obras, el productor solicita la devolución ante el AYUNTAMIENTO acompañando el certificado/factura de entrega del Anejo 2 D. Caben DEVOLUCIONES PARCIALES con certificados parciales. El Ayuntamiento devuelve la fianza en plazo NO SUPERIOR A 15 DÍAS desde la presentación del certificado",
+          "Alternativa (art. 6.2.d): también estos productores pueden acogerse al sistema del apartado 1 contratando a un constructor-poseedor inscrito en el Registro",
+          "REGISTRO DE CONSTRUCTOR-POSEEDOR (art. 6.3): inscripción preferentemente por registro electrónico, aportando identificación y domicilio del constructor —que debe tener personalidad jurídica propia— y resguardo del depósito ante Hacienda de Navarra de fianza en metálico o aval por valor de 1.000 EUROS para obras de escasa entidad (RCDs ≤ 50 m³) o 50.000 EUROS para obras cuyos RCDs superen los 50 m³",
+          "Obra contratada con una Administración Pública (art. 6.4): no se entiende finalizado el contrato y no puede devolverse en su totalidad la fianza de garantía del contrato mientras el adjudicatario no presente el certificado/factura que acredite la correcta gestión de los residuos",
+        ],
+      },
+      {
+        h: "Obligaciones del gestor (art. 7)",
+        nota:
+          "Trece obligaciones, de las que interesa retener las que tienen número o condición singular: la autorización es de gestor de residuos NO PELIGROSOS; la fianza del gestor no se calcula por obra sino por la CAPACIDAD MÁXIMA DE ALMACENAMIENTO de la instalación, y es requisito previo para obtener la autorización; y el envío del registro al departamento es SEMESTRAL como mínimo.",
+        items: [
+          "Obtener autorización de GESTOR DE RESIDUOS NO PELIGROSOS para almacenamiento y transferencia, tratamiento previo, valorización y eliminación. Las plantas móviles en centros fijos deben preverse en la autorización de ese centro; las que operen en obras distintas de donde se generaron y no sean centros fijos requieren autorización propia",
+          "Llevar el REGISTRO de entradas y salidas del Anejo 2 C, codificado según el Anejo 2 A, que garantiza la TRAZABILIDAD TOTAL; ponerlo a disposición del departamento y de los órganos de inspección, y mantener la información de cada año natural durante los CINCO AÑOS siguientes",
+          "Extender al poseedor o gestor que le entrega los RCDs los CERTIFICADOS/FACTURAS del Anejo 2 D, que garantizan la cesión de titularidad de los residuos. Si el gestor efectúa operaciones que no sean de valorización o eliminación, debe además transmitir los certificados de la operación subsiguiente",
+          "Los residuos recibidos en instalaciones de almacenamiento y transferencia o de tratamiento previo SIEMPRE se entregan a un gestor de valorización o eliminación para su tratamiento final, y no pueden usarse en obras de construcción o restauración sin tratamiento complementario",
+          "Si carece de autorización para residuos peligrosos, debe disponer de un procedimiento de admisión que asegure su DETECCIÓN Y SEGREGACIÓN previa al tratamiento, almacenarlos adecuadamente y derivarlos a gestores autorizados, sin perjuicio de la responsabilidad del productor, poseedor o gestor precedente",
+          "Envío al departamento, con periodicidad MÍNIMA SEMESTRAL y en formato electrónico, de copia del registro de entradas y salidas; las autorizaciones pueden fijar periodicidades distintas según la actividad",
+          "FIANZA DEL GESTOR: se establece por el departamento en función de la CAPACIDAD MÁXIMA DE ALMACENAMIENTO de RCDs de la instalación, y es REQUISITO NECESARIO PREVIO para obtener la autorización de gestor",
+          "Asegurar que los áridos y materiales reciclados obtenidos están caracterizados por un LABORATORIO HOMOLOGADO según la normativa técnica aplicable a su uso final, y garantizar la formación y cualificación del personal de dirección y explotación",
+        ],
+      },
+      {
+        h: "Valorización en la propia obra (art. 8)",
+        nota:
+          "Es la excepción que permite reciclar in situ sin ser gestor autorizado, y está sujeta a cuatro condiciones acumulativas: que el residuo esté en la lista del Anejo 2 B, que no lleve más del 1 % de impropios, que se empleen los medios de una planta de tratamiento salvo la báscula, y que se comunique a la Administración, que puede denegarlo motivadamente. Fíjate en quién recibe la comunicación: el Ayuntamiento si la obra tiene licencia, la Dirección General de Medio Ambiente y Agua si no la requiere.",
+        items: [
+          "Se EXIME de autorización de gestión a los poseedores-productores de los RCDs listados en el ANEJO 2 B tratados por el método allí indicado, cuando se realicen en la MISMA OBRA, adecuándose al proyecto y sin poner en peligro la salud humana ni dañar el medio ambiente, sin molestias por ruido ni olores y sin dañar el paisaje ni los espacios naturales protegidos",
+          "Los RCDs del Anejo 2 B solo pueden valorizarse en la propia obra si NO CONTIENEN MÁS DEL 1 % DE MATERIALES IMPROPIOS. La lista comprende hormigón, ladrillos, tejas y cerámicos, sus mezclas, mezclas bituminosas y balasto de vías férreas, todos con método R5",
+          "Deben emplearse los medios de los puntos 2 o 3 del Anejo 1 EXCEPTO EN LO REFERENTE A LA BÁSCULA, de modo que la eficacia de la separación sea como mínimo similar a la de una planta de tratamiento",
+          "COMUNICACIÓN previa: al AYUNTAMIENTO si no estuviera contemplado en el proyecto de obra, o a la DIRECCIÓN GENERAL DE MEDIO AMBIENTE Y AGUA si la obra no requiere licencia municipal. Ambos pueden DENEGARLO MOTIVADAMENTE",
+          "Las cantidades eximidas son solo las generadas en la propia obra solicitada, que figuren en el proyecto y en el estudio de gestión, y deben utilizarse en esa misma obra (art. 8.3)",
+          "Los Ayuntamientos que hayan registrado valorizaciones en obra envían anualmente a la Dirección General de Medio Ambiente y Agua, ANTES DEL 1 DE MARZO del año siguiente, un listado con las obras inscritas: número y ubicación, poseedor-productor, códigos LER, cantidades valorizadas y gestión realizada",
+        ],
+      },
+      {
+        h: "Restauración, relleno y vertedero (arts. 9-11)",
+        nota:
+          "El art. 9 impide que el relleno de huecos se use como vertido encubierto: exige autorización ambiental que declare EXPRESAMENTE que se trata de valorización, tratamiento previo para aprovechar los pétreos y una impermeabilización del emplazamiento con valores concretos. El art. 10 impone tratamiento previo antes de cualquier vertedero, con tres excepciones tasadas. Y el art. 11 cierra el círculo económico: las fianzas no devueltas acaban financiando la recuperación de zonas degradadas.",
+        items: [
+          "Requisitos para valorizar residuos inertes en restauración, acondicionamiento o relleno (art. 9): autorización ambiental de la LF 4/2005 que DECLARE EXPRESAMENTE que se trata de actividad de valorización · autorización de gestor indicando las operaciones · cumplir los requisitos del art. 7 EXCEPTO SU PUNTO 2 · que el resultado sea la SUSTITUCIÓN DE RECURSOS NATURALES que habrían debido emplearse",
+          "Tratamiento previo (art. 9.5): los RCDs destinados a restauración o relleno deben haber sido tratados para aprovechar como mínimo los materiales PÉTREOS (hormigón, cerámica…) y haberles sido retirada la TOTALIDAD de los residuos peligrosos y de los no peligrosos no inertes, salvo que el proyecto de restauración aprobado especifique los tipos admisibles",
+          "Criterios de admisión de los inertes: los del apartado 2.1 de la Decisión 2003/33/CE (art. 9.6)",
+          "IMPERMEABILIZACIÓN (art. 9.7): salvo que lo desaconsejen razones técnicas, los emplazamientos alcanzarán una impermeabilización natural o artificial equivalente a K = 1 × 10⁻⁷ M/S EN UN ESPESOR DE 1 M; la capa de impermeabilización geológica ARTIFICIAL tendrá un espesor MÍNIMO DE 0,5 M",
+          "VERTEDERO (art. 10.1): los RCDs que vayan a depositarse en vertedero autorizado deben haber sido tratados para aprovechar como mínimo los materiales pétreos y con retirada total de los peligrosos y de los no inertes",
+          "Tres EXCEPCIONES a esa exigencia (art. 10.2-3): los residuos inertes cuyo tratamiento sea TÉCNICAMENTE INVIABLE · los RCDs cuyo tratamiento no contribuya a los objetivos del art. 1 ni a reducir los peligros para la salud o el medio ambiente · y los vertederos ubicados en POBLACIONES AISLADAS que reciban exclusivamente RCDs inertes generados en dichas poblaciones",
+          "FONDO PARA LA RECUPERACIÓN DE ZONAS DEGRADADAS (art. 11): transcurridos SEIS MESES desde la finalización de las obras sin que el titular haya presentado justificante de entrega a gestor autorizado, y previa notificación del Ayuntamiento, las fianzas no devueltas pueden incorporarse a un fondo destinado a la rehabilitación, restauración o recuperación de zonas degradadas o con vertidos incontrolados",
+          "Régimen sancionador (art. 12): el establecido en la normativa vigente en materia de residuos, sin regulación propia en este decreto",
+        ],
+      },
+      {
+        h: "Anejos: plantas de tratamiento y ratios",
+        nota:
+          "De los anejos, lo examinable son los ratios del Anejo 3 —porque son los que un técnico municipal usa para comprobar si la estimación del estudio de gestión es razonable y para calcular la fianza— y la estructura en tres niveles de las plantas del Anejo 1. Un detalle útil: el ratio de obra nueva es el mismo, 0,146 m³/m², para residencial, no residencial e industrial.",
+        items: [
+          "ANEJO 1 — tres niveles: centros de ALMACENAMIENTO Y TRANSFERENCIA (R13), plantas FIJAS de tratamiento (R12/R5) y plantas MÓVILES (R5)",
+          "Equipamiento común de los centros de almacenamiento: cercado perimetral con puerta de cerradura inviolable y cuneta o sistema equivalente que conduzca las aguas de escorrentía a una BALSA DE DECANTACIÓN si son abiertos o al descubierto · medios informáticos de registro · BÁSCULA de pesaje en la recepción · persona de recepción en posición adecuada para inspeccionar visualmente la carga y decidir su aceptación o rechazo · medidas contra la emisión de polvo · acopios claramente identificados",
+          "Plantas fijas: TRATAMIENTO PREVIO (R12) con separación manual de voluminosos y segregación de peligrosos · TRATAMIENTO PRIMARIO (R5) con trommel o criba vibratoria, machacadora de mandíbulas o similar y trommel final, que permitan separar como mínimo TRES FRACCIONES —finos, gravas y gruesos—, con separador automático tipo OVERBAND para los férricos · TRATAMIENTO SECUNDARIO (R5) OPCIONAL, con lavado o soplado de los pétreos y, optativamente, molino de impactos para trituración secundaria",
+          "ANEJO 3 — RATIOS de obra nueva: 0,146 M³/M² construido, el mismo para residencial, no residencial e industrial",
+          "ANEJO 3 — RATIOS de reforma: residencial 0,57 m³/m² · naves industriales 1,263 m³/m² · locales comerciales 0,89 m³/m²",
+          "ANEJO 3 — RATIOS de demolición: edificios de estructura de hormigón 1,22 m³/m² · obra de fábrica 0,746 m³/m² · naves industriales 1,263 m³/m²",
+          "ANEJO 3 — excavación: 1,6 T POR M² construido. Esponjamiento de tierras: V × 1,1",
+          "ANEJO 2 D — CERTIFICADO/FACTURA de entrega: información mínima de cuatro puntos — nombre del productor o gestor de procedencia · descripción de la obra de procedencia y nº de licencia si se requiere · cantidad en toneladas recibidas · código de la operación realizada (D o R)",
+        ],
+      },
+    ],
+    claves: [
+      "Jerarquía: prevención → preparación para la reutilización → reciclado → otras valorizaciones → eliminación",
+      "Obras menores domiciliarias: excluidas solo si NO SUPERAN LOS 50 KG de peso",
+      "Obra de ESCASA ENTIDAD: residuos que no superan 50 M³ (no confundir con los 50 kg de la obra menor)",
+      "PRODUCTOR = titular de la LICENCIA urbanística; sin licencia, el titular del inmueble",
+      "POSEEDOR = quien ejecuta (constructor, subcontratistas, autónomos). NUNCA los trabajadores por cuenta ajena",
+      "Almacenamiento: depósito temporal INFERIOR A DOS AÑOS previo a valorización o eliminación",
+      "El coste de gestión va en CAPÍTULO INDEPENDIENTE del presupuesto del proyecto",
+      "Proyecto básico para licencia: solo los puntos 1, 2, 3, 4 y 7 + letra b) — sin planos ni pliego",
+      "El PLAN del poseedor lo aprueba la DIRECCIÓN FACULTATIVA y lo acepta la propiedad: pasa a ser documento contractual",
+      "Umbrales de separación: hormigón 80 t · cerámicos 40 t · metal 2 t · madera 1 t · vidrio 1 t · plástico 0,5 t · papel y cartón 0,5 t",
+      "Sin espacio físico en obra: cabe encomendar la separación a gestor externo, con documentación de que cumplió EN SU NOMBRE",
+      "Fianza de licencia: 11 €/t o 17 €/m³, mínimo 1.000 € y máximo 3 % del presupuesto; no computan las tierras de excavación",
+      "Devolución de la fianza por el Ayuntamiento: plazo NO SUPERIOR A 15 DÍAS, y caben devoluciones parciales",
+      "Registro de Constructor-Poseedor: fianza de 1.000 € (obras ≤ 50 m³) o 50.000 € (> 50 m³)",
+      "Documentación de productor, poseedor y gestor: conservar CINCO AÑOS por cada año natural",
+      "El gestor necesita autorización de residuos NO PELIGROSOS; su fianza se fija por CAPACIDAD MÁXIMA DE ALMACENAMIENTO y es previa a la autorización",
+      "Envío del registro de entradas y salidas al departamento: periodicidad mínima SEMESTRAL",
+      "Valorización en la propia obra: RCDs del Anejo 2 B con menos del 1 % de impropios y medios de planta salvo la BÁSCULA",
+      "Listado municipal anual de valorizaciones en obra: antes del 1 DE MARZO del año siguiente",
+      "Relleno y restauración: impermeabilización k = 1 × 10⁻⁷ m/s en 1 m de espesor; capa artificial mínimo 0,5 m",
+      "Fianzas no devueltas tras SEIS MESES sin justificante: al fondo de recuperación de zonas degradadas",
+      "Ratio de obra nueva: 0,146 m³/m² para residencial, no residencial e industrial. Excavación: 1,6 t/m²",
+    ],
+  },
 };
