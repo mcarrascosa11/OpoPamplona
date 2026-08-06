@@ -765,7 +765,8 @@ function Test({ state, persist }) {
   const [fase, setFase] = useState("config");
   const [pool, setPool] = useState([]); const [idx, setIdx] = useState(0);
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
-  const [resp, setResp] = useState([]); const [modo, setModo] = useState("todos"); const [num, setNum] = useState(10);
+  const [answers, setAnswers] = useState([]); const [confirmFin, setConfirmFin] = useState(false); const [filtroRev, setFiltroRev] = useState("todas");
+  const [modo, setModo] = useState("todos"); const [num, setNum] = useState(10);
   const [parteR, setParteR] = useState("E"); const [desde, setDesde] = useState(1); const [hasta, setHasta] = useState(5);
   const [temaUnico, setTemaUnico] = useState(1);
   const [alcanceFallos, setAlcanceFallos] = useState("recientes");
@@ -780,7 +781,7 @@ function Test({ state, persist }) {
   }, [fase, examen]);
 
   useEffect(() => {
-    if (examen && fase === "run" && segRestantes === 0) finalizarPorTiempo();
+    if (examen && fase === "run" && segRestantes === 0) finalizar();
   }, [segRestantes]);
 
   const enRango = (q) => {
@@ -801,45 +802,46 @@ function Test({ state, persist }) {
     } else if (modo === "rango") base = PREGUNTAS.filter(enRango);
     else if (modo === "tema") base = PREGUNTAS.filter(enTema);
     if (!base.length) return;
-    setPool(shuffle(base).slice(0, Math.min(num, base.length)).map((q) => ({ ...q, _order: shuffle([0, 1, 2, 3]) })));
-    setIdx(0); setSel(null); setShown(false); setResp([]);
+    const seleccion = shuffle(base).slice(0, Math.min(num, base.length)).map((q) => ({ ...q, _order: shuffle([0, 1, 2, 3]) }));
+    setPool(seleccion);
+    setIdx(0); setSel(null); setShown(false);
+    setAnswers(new Array(seleccion.length).fill(null));
+    setConfirmFin(false); setFiltroRev("todas");
     if (examen) setSegRestantes(tiempoExamen * 60);
     setFase("run");
   };
   const cur = pool[idx];
-  const responder = () => { if (sel === null || shown) return; const ok = cur._order.indexOf(cur.c) === sel; setShown(true); setResp((r) => [...r, { id: cur.id, tema: cur.tema, ok, blank: false }]); };
-  const enBlanco = () => { if (shown) return; setShown(true); setResp((r) => [...r, { id: cur.id, tema: cur.tema, ok: false, blank: true }]); };
-  const siguiente = async () => { if (idx + 1 < pool.length) { setIdx(idx + 1); setSel(null); setShown(false); } else { await cerrar(); setFase("fin"); } };
-  const cerrar = async (respFinal) => {
-    const respUsado = respFinal || resp;
+  const esBlanco = (a) => a === null || a === undefined;
+  const marcarRespuesta = (i, v) => setAnswers((prev) => { const n = [...prev]; n[i] = v; return n; });
+  const sinContestar = answers.filter(esBlanco).length;
+  const corregir = (ans) => pool.map((q, i) => ({
+    id: q.id, tema: q.tema, blank: esBlanco(ans[i]),
+    ok: !esBlanco(ans[i]) && q._order.indexOf(q.c) === ans[i],
+  }));
+
+  const finalizar = async (ansParam) => {
+    const rs = corregir(ansParam || answers);
     const next = { ...state, temas: { ...state.temas }, falladas: [...state.falladas] };
-    respUsado.forEach((r) => {
+    rs.forEach((r) => {
       const t = next.temas[r.tema] || { vistas: 0, aciertos: 0, fallos: 0 }; t.vistas += 1;
       if (r.ok) { t.aciertos += 1; next.falladas = next.falladas.filter((x) => x !== r.id); }
       else if (!r.blank) { t.fallos += 1; next.falladas = [...next.falladas.filter((x) => x !== r.id), r.id]; }
       next.temas[r.tema] = t;
     });
-    const a = respUsado.filter((r) => r.ok).length, f = respUsado.filter((r) => !r.ok && !r.blank).length, b = respUsado.filter((r) => r.blank).length;
-    next.sesiones = [...state.sesiones, { fecha: Date.now(), n: respUsado.length, aciertos: a, fallos: f, blancos: b, examen }].slice(-30);
+    const a = rs.filter((r) => r.ok).length, f = rs.filter((r) => !r.ok && !r.blank).length, b = rs.filter((r) => r.blank).length;
+    next.sesiones = [...state.sesiones, { fecha: Date.now(), n: rs.length, aciertos: a, fallos: f, blancos: b, examen }].slice(-30);
     await persist(next);
-  };
-
-  // ── Modo examen: sin corrección al momento, avanza directo a la siguiente ──
-  const avanzarExamen = async (blanco) => {
-    if (!blanco && sel === null) return;
-    const ok = !blanco && cur._order.indexOf(cur.c) === sel;
-    const nuevoResp = [...resp, { id: cur.id, tema: cur.tema, ok, blank: blanco }];
-    setResp(nuevoResp); setSel(null);
-    if (idx + 1 < pool.length) setIdx(idx + 1);
-    else { await cerrar(nuevoResp); setFase("fin"); }
-  };
-  const finalizarPorTiempo = async () => {
-    const restantes = pool.slice(resp.length).map((q) => ({ id: q.id, tema: q.tema, ok: false, blank: true }));
-    const respFinal = [...resp, ...restantes];
-    setResp(respFinal);
-    await cerrar(respFinal);
+    setConfirmFin(false);
     setFase("fin");
   };
+
+  // ── Modo práctica: corrección al momento ──
+  const responder = () => { if (sel === null || shown) return; marcarRespuesta(idx, sel); setShown(true); };
+  const enBlanco = () => { if (shown) return; marcarRespuesta(idx, null); setShown(true); };
+  const siguiente = async () => { if (idx + 1 < pool.length) { setIdx(idx + 1); setSel(null); setShown(false); } else await finalizar(); };
+
+  // ── Modo examen: sin corrección hasta el final, navegación libre ──
+  const irA = (i) => { if (i >= 0 && i < pool.length) { setIdx(i); setConfirmFin(false); } };
 
   if (fase === "config") {
     const nF = state.falladas.length;
@@ -928,7 +930,7 @@ function Test({ state, persist }) {
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
               {[30, 60, 90, 120].map((m) => <Chip key={m} on={tiempoExamen === m} onClick={() => setTiempoExamen(m)}>{m} min</Chip>)}
             </div>
-            <p style={{ ...pSmall, marginTop: 10, marginBottom: 0 }}>El reloj corre desde el primer segundo y no se puede pausar. Al agotarse el tiempo, la tanda se cierra automáticamente y lo que quede sin contestar cuenta como en blanco.</p>
+            <p style={{ ...pSmall, marginTop: 10, marginBottom: 0 }}>Como en el examen real: puedes moverte libremente entre preguntas y cambiar lo marcado hasta que finalices. No se corrige nada sobre la marcha; las respuestas válidas y las explicaciones aparecen todas juntas al terminar. El reloj corre desde el primer segundo y no se puede pausar; al agotarse, lo que quede sin contestar cuenta como en blanco.</p>
           </div>
         )}
 
@@ -938,8 +940,9 @@ function Test({ state, persist }) {
     );
   }
   if (fase === "run" && cur && examen) {
-    const aLive = resp.filter((r) => r.ok).length, fLive = resp.filter((r) => !r.ok && !r.blank).length, bLive = resp.filter((r) => r.blank).length;
-    const netoLive = aLive - fLive / 3, sobre30Live = resp.length ? Math.max(0, (netoLive / resp.length) * 30) : 0;
+    const contestadas = pool.length - sinContestar;
+    const marcada = answers[idx];
+    const ultima = idx + 1 === pool.length;
     const bajoTiempo = segRestantes <= 300;
     return (
       <div>
@@ -950,25 +953,51 @@ function Test({ state, persist }) {
           </div>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(90px,1fr))", gap: 8, marginBottom: 16 }}>
-          <Stat n={aLive} label="aciertos" accent={C.ok} />
-          <Stat n={fLive} label="errores" accent={C.red} />
-          <Stat n={bLive} label="blancos" />
-          <Stat n={sobre30Live.toFixed(1)} label="nota est. /30" accent={sobre30Live >= 15 ? C.ok : C.amber} />
+          <Stat n={`${contestadas}/${pool.length}`} label="contestadas" />
+          <Stat n={sinContestar} label="sin contestar" accent={sinContestar ? C.amber : C.ok} />
         </div>
         <Ficha codigo={`${cur.tema} · ${temaTitulo(cur.tema)}`} titulo={`Pregunta ${idx + 1} / ${pool.length}`}>
           <p style={{ ...p, fontWeight: 600, fontSize: 16 }}>{cur.q}</p>
           <div style={{ display: "grid", gap: 8, margin: "16px 0" }}>
             {cur._order.map((origIdx, shownIdx) => (
-              <button key={shownIdx} onClick={() => setSel(shownIdx)} className="opt"
-                style={{ textAlign: "left", padding: "12px 14px", background: C.card, border: `1.5px solid ${sel === shownIdx ? C.ink : C.hair}`, borderRadius: 4, cursor: "pointer", fontFamily: SANS, fontSize: 14.5, color: C.ink, display: "flex", gap: 10, lineHeight: 1.45 }}>
+              <button key={shownIdx} onClick={() => marcarRespuesta(idx, marcada === shownIdx ? null : shownIdx)} className="opt"
+                style={{ textAlign: "left", padding: "12px 14px", background: marcada === shownIdx ? C.hairA : C.card, border: `1.5px solid ${marcada === shownIdx ? C.ink : C.hair}`, borderRadius: 4, cursor: "pointer", fontFamily: SANS, fontSize: 14.5, color: C.ink, display: "flex", gap: 10, lineHeight: 1.45 }}>
                 <span style={{ fontFamily: MONO, fontWeight: 700, color: C.ink2 }}>{String.fromCharCode(97 + shownIdx)})</span>
                 <span>{cur.o[origIdx]}</span>
               </button>
             ))}
           </div>
-          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-            <button className="cta" style={ctaPrimary} onClick={() => avanzarExamen(false)} disabled={sel === null}>{idx + 1 < pool.length ? "Siguiente →" : "Terminar examen"}</button>
-            <button className="cta" style={ctaGhost} onClick={() => avanzarExamen(true)}>Dejar en blanco</button>
+          <p style={{ ...pSmall, marginBottom: 14 }}>
+            {esBlanco(marcada)
+              ? "Sin contestar. Puedes dejarla en blanco y volver a ella antes de finalizar."
+              : "Pulsa otra opción para cambiarla, o la misma para dejarla en blanco."}
+          </p>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
+            <button className="cta" style={ctaGhost} onClick={() => irA(idx - 1)} disabled={idx === 0}>← Anterior</button>
+            <button className="cta" style={ctaGhost} onClick={() => irA(idx + 1)} disabled={ultima}>Siguiente →</button>
+            <button className="cta" style={ctaPrimary} onClick={() => (sinContestar ? setConfirmFin(true) : finalizar())}>Finalizar y corregir</button>
+          </div>
+          {confirmFin && (
+            <div style={{ border: `1.5px solid ${C.amber}`, borderRadius: 4, padding: 14, marginBottom: 16, background: C.paper }}>
+              <p style={{ ...pSmall, margin: "0 0 10px" }}>Quedan <b>{sinContestar}</b> pregunta(s) sin contestar: contarán como en blanco (ni suman ni restan). ¿Finalizar y corregir?</p>
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                <button className="cta" style={ctaPrimary} onClick={() => finalizar()}>Sí, finalizar</button>
+                <button className="cta" style={ctaGhost} onClick={() => setConfirmFin(false)}>Seguir contestando</button>
+                <button className="cta" style={ctaGhost} onClick={() => irA(answers.findIndex(esBlanco))}>Ir a la primera sin contestar</button>
+              </div>
+            </div>
+          )}
+          <Label>Navegación · {pool.length} preguntas</Label>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+            {pool.map((q, i) => {
+              const hecha = !esBlanco(answers[i]); const actual = i === idx;
+              return (
+                <button key={q.id} onClick={() => irA(i)} className="opt" title={`Pregunta ${i + 1} · ${hecha ? "contestada" : "sin contestar"}`}
+                  style={{ minWidth: 34, height: 30, padding: "0 6px", borderRadius: 4, cursor: "pointer", fontFamily: MONO, fontSize: 12, fontWeight: 700,
+                    background: actual ? C.ink : hecha ? C.hairA : C.card, color: actual ? C.paper : hecha ? C.ink : C.ink2,
+                    border: `1.5px solid ${actual ? C.ink : hecha ? C.ink2 : C.hair}` }}>{i + 1}</button>
+              );
+            })}
           </div>
         </Ficha>
       </div>
@@ -1007,10 +1036,15 @@ function Test({ state, persist }) {
     );
   }
   if (fase === "fin") {
-    const a = resp.filter((r) => r.ok).length, f = resp.filter((r) => !r.ok && !r.blank).length, b = resp.filter((r) => r.blank).length;
+    const rs = corregir(answers);
+    const a = rs.filter((r) => r.ok).length, f = rs.filter((r) => !r.ok && !r.blank).length, b = rs.filter((r) => r.blank).length;
     const neto = a - f / 3, sobre30 = pool.length ? Math.max(0, (neto / pool.length) * 30) : 0;
     const aprobado = sobre30 >= 15;
+    const visibles = pool
+      .map((q, i) => ({ q, i, r: rs[i] }))
+      .filter(({ r }) => (filtroRev === "fallos" ? !r.ok && !r.blank : filtroRev === "blancos" ? r.blank : true));
     return (
+      <>
       <Ficha codigo={examen ? "RESULTADO · SIMULACRO DE EXAMEN" : "RESULTADO"} titulo={examen ? `Simulacro corregido (criterio real, ${tiempoExamen} min)` : "Tanda corregida (criterio real)"}>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(110px,1fr))", gap: 12, marginBottom: 18 }}>
           <Stat n={a} label="aciertos" accent={C.ok} /><Stat n={f} label="fallos (−1/3)" accent={C.red} />
@@ -1032,6 +1066,53 @@ function Test({ state, persist }) {
         )}
         <button className="cta" style={ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
       </Ficha>
+
+      <Ficha codigo="REVISIÓN" titulo="Pregunta a pregunta">
+        <p style={p}>Aquí está la corrección completa: la opción válida, lo que marcaste y la explicación de cada pregunta.</p>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 18 }}>
+          <Chip on={filtroRev === "todas"} onClick={() => setFiltroRev("todas")}>Todas ({pool.length})</Chip>
+          <Chip on={filtroRev === "fallos"} onClick={() => setFiltroRev("fallos")} disabled={!f}>Solo fallos ({f})</Chip>
+          <Chip on={filtroRev === "blancos"} onClick={() => setFiltroRev("blancos")} disabled={!b}>Solo en blanco ({b})</Chip>
+        </div>
+        {visibles.map(({ q, i, r }) => {
+          const acc = r.ok ? C.ok : r.blank ? C.ink2 : C.red;
+          return (
+            <div key={q.id} style={{ border: `1px solid ${C.hair}`, borderLeft: `3px solid ${acc}`, borderRadius: 4, padding: 14, marginBottom: 12, background: C.paper }}>
+              <div style={{ display: "flex", justifyContent: "space-between", gap: 10, flexWrap: "wrap", marginBottom: 8 }}>
+                <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 0.5, color: C.ink2 }}>{i + 1} · {q.tema} — {temaTitulo(q.tema)}</span>
+                <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, fontWeight: 700, color: acc }}>
+                  {r.ok ? "✓ ACIERTO" : r.blank ? "— EN BLANCO" : "✗ FALLO"}
+                </span>
+              </div>
+              <p style={{ ...p, fontWeight: 600 }}>{q.q}</p>
+              <div style={{ display: "grid", gap: 6, margin: "10px 0 12px" }}>
+                {q._order.map((origIdx, shownIdx) => {
+                  const esCorrecta = origIdx === q.c, esTuya = answers[i] === shownIdx;
+                  let bg = C.card, border = C.hair;
+                  if (esCorrecta) { bg = C.okSoft; border = C.ok; } else if (esTuya) { bg = C.redSoft; border = C.red; }
+                  return (
+                    <div key={shownIdx} style={{ padding: "9px 12px", background: bg, border: `1.5px solid ${border}`, borderRadius: 4, fontFamily: SANS, fontSize: 14, color: C.ink, display: "flex", gap: 10, lineHeight: 1.45 }}>
+                      <span style={{ fontFamily: MONO, fontWeight: 700, color: esCorrecta ? C.ok : C.ink2 }}>{String.fromCharCode(97 + shownIdx)})</span>
+                      <span style={{ flex: 1 }}>{q.o[origIdx]}</span>
+                      {(esCorrecta || esTuya) && (
+                        <span style={{ fontFamily: MONO, fontSize: 10, letterSpacing: 0.5, alignSelf: "center", whiteSpace: "nowrap", color: esCorrecta ? C.ok : C.red }}>
+                          {esCorrecta && esTuya ? "correcta · tu respuesta" : esCorrecta ? "correcta" : "tu respuesta"}
+                        </span>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+              <div style={{ borderLeft: `3px solid ${C.slate}`, padding: "8px 14px", background: C.card }}>
+                <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate, marginBottom: 4 }}>EXPLICACIÓN</div>
+                <p style={{ ...pSmall, margin: 0 }}>{q.exp}</p>
+              </div>
+            </div>
+          );
+        })}
+        <button className="cta" style={ctaGhost} onClick={() => setFase("config")}>Otra tanda</button>
+      </Ficha>
+      </>
     );
   }
   return null;
