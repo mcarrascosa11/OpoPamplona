@@ -727,17 +727,79 @@ export const RESUMENES = {
   },
   G2: {
     intro:
-      "La LORAFNA (LO 13/1982, de 10 de agosto, de Reintegración y Amejoramiento del Régimen Foral de Navarra) no es un Estatuto de Autonomía ordinario: parte del reconocimiento constitucional de los derechos históricos y los «amejorar» democráticamente. Navarra es una Comunidad Foral —denominación propia— con instituciones, régimen tributario y competencias singulares.",
+      "La LORAFNA (LO 13/1982, de 10 de agosto) no es un Estatuto de Autonomía ordinario y esa diferencia recorre todo el tema. Los Estatutos nacen de la Constitución; el Amejoramiento parte de unos derechos históricos PREEXISTENTES que la disposición adicional primera de la Constitución ampara, y se limita a «amejorarlos» —mejorarlos y ordenarlos democráticamente— sin crearlos. De ahí tres consecuencias que se preguntan una y otra vez: Navarra es COMUNIDAD FORAL y no Comunidad Autónoma; su régimen tributario es el Convenio Económico, de naturaleza PACCIONADA; y la reforma exige acuerdo de ambas partes, sin que ninguna pueda modificarlo unilateralmente. Del temario entran el Título Preliminar y el Título II, es decir, las bases y el reparto competencial — y ahí está el art. 44.1, que da a Navarra competencia EXCLUSIVA en ordenación del territorio, urbanismo y vivienda: el cimiento de toda la normativa foral que estudias en la parte específica.",
     bloques: [
       {
-        h: "Título Preliminar (arts. 1-9) — bases",
+        h: "Título Preliminar — Naturaleza y fundamento (arts. 1-3)",
+        nota:
+          "Los tres primeros artículos contienen la doctrina entera del Amejoramiento y por eso se preguntan casi literalmente. El art. 2 encadena las cuatro fuentes del régimen foral en un orden que conviene recitar: Ley de 1839, Ley Paccionada de 1841, la propia Ley Orgánica y la Constitución. Y remata con el límite infranqueable: nada de esto afecta a las instituciones, facultades y competencias del Estado inherentes a la UNIDAD CONSTITUCIONAL, que es la cláusula que marca hasta dónde puede llegar la foralidad.",
         items: [
-          "Art. 1: Navarra es una Comunidad Foral con régimen, autonomía e instituciones propias, indivisible, integrada en la Nación española.",
-          "Art. 9: castellano, lengua oficial; vascuence, cooficial en las zonas vascoparlantes en los términos que establezca una ley foral.",
+          "Art. 1 — definición: Navarra constituye una COMUNIDAD FORAL con régimen, autonomía e instituciones propias, INDIVISIBLE, integrada en la Nación española y SOLIDARIA con todos sus pueblos. Cuatro notas que se preguntan por sustitución: no es «Comunidad Autónoma», y los adjetivos indivisible y solidaria son literales",
+          "Art. 2.Uno — fundamento histórico: los derechos originarios e históricos serán respetados y amparados por los poderes públicos con arreglo a la LEY DE 25 DE OCTUBRE DE 1839, a la LEY PACCIONADA DE 16 DE AGOSTO DE 1841 y disposiciones complementarias, a esta Ley Orgánica y a la Constitución, conforme al párrafo primero de su DISPOSICIÓN ADICIONAL PRIMERA",
+          "Art. 2.Dos — límite: lo anterior NO afecta a las instituciones, facultades y competencias del Estado inherentes a la UNIDAD CONSTITUCIONAL",
+          "Art. 3 — triple objeto del Amejoramiento: INTEGRAR en el Régimen Foral todas las facultades y competencias compatibles con la unidad constitucional · ORDENAR DEMOCRÁTICAMENTE las instituciones forales · y GARANTIZAR las facultades y competencias propias del Régimen Foral",
+        ],
+      },
+      {
+        h: "Título Preliminar — Territorio, condición política y símbolos (arts. 4-9)",
+        nota:
+          "Bloque de memoria pura donde se falla por confusión con la Constitución. Fíjate en el contraste del art. 8: la capital de Navarra es la CIUDAD de Pamplona, mientras que la del Estado es la VILLA de Madrid; el examen cruza los dos. La condición política de navarro se ata a la VECINDAD ADMINISTRATIVA en cualquier municipio de Navarra, y no debe mezclarse con la condición CIVIL foral, que se rige por el Fuero Nuevo y sirve para otra cosa: el Derecho civil aplicable.",
+        items: [
+          "Art. 4 — territorio: los municipios comprendidos en las CINCO MERINDADES HISTÓRICAS de PAMPLONA, ESTELLA, TUDELA, SANGÜESA Y OLITE en el momento de promulgarse la ley",
+          "Art. 5.Uno — condición POLÍTICA de navarro: los españoles que, conforme a las leyes generales del Estado, tengan la VECINDAD ADMINISTRATIVA en cualquiera de los municipios de Navarra",
+          "Art. 5.Dos — emigrantes: los españoles residentes en el extranjero cuya última vecindad administrativa fue Navarra tienen IDÉNTICOS derechos políticos que los residentes, y también sus descendientes inscritos como españoles que lo soliciten",
+          "Art. 5.Tres — condición CIVIL foral: su adquisición, conservación, pérdida y recuperación se rigen por la Compilación del Derecho Civil Foral o FUERO NUEVO, no por este artículo",
+          "Art. 6 — igualdad: los navarros tienen los mismos derechos, libertades y deberes fundamentales que los demás españoles",
+          "Art. 7 — símbolos: ESCUDO de cadenas de ORO sobre fondo ROJO, con una ESMERALDA en el centro de unión de sus OCHO BRAZOS de eslabones y, sobre ellas, la Corona Real, símbolo del Antiguo Reino. BANDERA roja con el escudo en el centro",
+          "Art. 8 — capital: la CIUDAD de Pamplona (frente a la VILLA de Madrid del art. 5 CE)",
+          "Art. 9 — lenguas: el CASTELLANO es la lengua oficial de Navarra; el VASCUENCE tiene también carácter oficial en las ZONAS VASCOPARLANTES. Una LEY FORAL determina dichas zonas, regula el uso oficial y ordena su enseñanza en el marco de la legislación general del Estado",
+        ],
+      },
+      {
+        h: "Título II — Los tres niveles competenciales (arts. 39-43)",
+        nota:
+          "Aquí está la clave para no perderse en las listas de materias: la LORAFNA no clasifica competencias por su nombre sino por la INTENSIDAD de las potestades que otorga, y monta tres escalones. En la EXCLUSIVA (arts. 40 y 44 a 56) Navarra tiene potestad legislativa plena. En el DESARROLLO LEGISLATIVO (arts. 41 y 57) legisla, pero conforme a las bases estatales. En la MERA EJECUCIÓN (arts. 42 y 58) no legisla en absoluto: solo tiene potestad reglamentaria para organizar sus propios servicios, administración e inspección. Si retienes qué potestades corresponden a cada escalón, la pregunta sobre cualquier materia concreta se resuelve sola.",
+        items: [
+          "Art. 39.Uno — origen de las competencias: las que YA EJERCE al amparo de la Ley Paccionada de 1841 · las que expresamente le INTEGRA esta Ley Orgánica · y las que la legislación del Estado atribuya, transfiera o delegue CON CARÁCTER GENERAL a las Comunidades Autónomas o a las Provincias",
+          "Art. 39.Dos — cláusula abierta: también las que, A INICIATIVA DE LA DIPUTACIÓN FORAL, le atribuya, transfiera o delegue el Estado con posterioridad a la entrada en vigor de la ley",
+          "NIVEL 1 — COMPETENCIA EXCLUSIVA (art. 40.Uno), cuatro potestades: a) LEGISLATIVA · b) reglamentaria · c) administrativa, incluida la inspección · d) revisora en vía administrativa",
+          "Regla de prelación (art. 40.Tres): en las materias de competencia exclusiva, el DERECHO NAVARRO se aplica CON PREFERENCIA a cualquier otro; en defecto de Derecho propio se aplica SUPLETORIAMENTE el Derecho del Estado",
+          "NIVEL 2 — DESARROLLO LEGISLATIVO Y EJECUCIÓN (art. 41): potestades de DESARROLLO legislativo, reglamentaria, de administración e inspección y revisora. El desarrollo legislativo se ejerce EN TODO CASO de conformidad con las NORMAS BÁSICAS que dicte el Estado",
+          "NIVEL 3 — MERA EJECUCIÓN (art. 42): solo potestad REGLAMENTARIA PARA LA ORGANIZACIÓN DE SUS PROPIOS SERVICIOS, de administración e inspección, y revisora. Se ejerce conforme a las disposiciones generales que, en desarrollo de su legislación, dicte el Estado. No hay potestad legislativa",
+          "Art. 43 — ámbito: todas las facultades y competencias se entienden referidas a su PROPIO TERRITORIO, sin perjuicio de la eficacia PERSONAL que puedan tener las normas forales en los supuestos de los Convenios en materia fiscal o de la legislación estatal",
+        ],
+      },
+      {
+        h: "Título II — Competencias exclusivas (arts. 44-56)",
+        nota:
+          "El art. 44 enumera veintiocho materias y no tiene sentido memorizarlas todas; lo que cae es la primera —ordenación del territorio, urbanismo y vivienda— y las que llevan alguna coletilla que limita la exclusividad, porque el examen pregunta precisamente por esa salvedad: el patrimonio histórico es exclusivo «sin perjuicio de las facultades del Estado contra la exportación y la expoliación», la cultura es «en coordinación con el Estado» y los juegos y apuestas excluyen las Apuestas Mutuas Deportivo-Benéficas. Los arts. 45 a 56 desarrollan bloques con nombre propio, y de ellos los que más se preguntan son el Convenio Económico y la enseñanza.",
+        items: [
+          "Art. 44.1 — LA COMPETENCIA CLAVE PARA ESTA OPOSICIÓN: ORDENACIÓN DEL TERRITORIO, URBANISMO Y VIVIENDA, con carácter EXCLUSIVO. Es el título habilitante del DFL 1/2017 (LFOTU), de la LF 10/2010 del derecho a la vivienda y de toda la normativa foral urbanística",
+          "Otras exclusivas del art. 44 con salvedad expresa: obras públicas que NO sean de interés general del Estado · aprovechamientos hidráulicos cuando las aguas discurran ÍNTEGRAMENTE por Navarra · energía cuando no salga del territorio · CULTURA en coordinación con el Estado · patrimonio histórico y arquitectónico sin perjuicio de las facultades estatales contra la EXPORTACIÓN Y LA EXPOLIACIÓN · casinos, juegos y apuestas CON EXCLUSIÓN de las Apuestas Mutuas Deportivo-Benéficas",
+          "Materias exclusivas de interés directo para el técnico municipal: ESPECTÁCULOS (44.15, base de la LF 2/1989 y del DF 202/2002), promoción y ordenación del TURISMO (44.13), archivos, bibliotecas y museos no estatales (44.10) y colegios profesionales y ejercicio de las profesiones tituladas (44.26)",
+          "Art. 45 — CONVENIO ECONÓMICO: Navarra mantiene, establece y regula su propio régimen tributario por el sistema tradicional del Convenio, de NATURALEZA PACCIONADA, con aportación a las cargas generales del Estado",
+          "Art. 46 — ADMINISTRACIÓN LOCAL: facultades históricas más las compatibles que correspondan a Comunidades Autónomas y Provincias, con control de legalidad y de interés general sobre municipios y concejos, y garantía de una autonomía municipal no inferior a la general",
+          "Art. 47 — ENSEÑANZA: competencia PLENA en su regulación y administración en toda su extensión, niveles y grados, sin perjuicio de los preceptos constitucionales, las leyes orgánicas, la HOMOLOGACIÓN DE TÍTULOS y la ALTA INSPECCIÓN del Estado",
+          "Art. 48 — DERECHO CIVIL FORAL: competencia exclusiva sobre su conservación, modificación y desarrollo, que se ejerce por ley foral sobre el Fuero Nuevo",
+          "Art. 49 — instituciones forales, FUNCIÓN PÚBLICA foral, PROCEDIMIENTO ADMINISTRATIVO propio, contratos y concesiones, régimen jurídico de la Administración foral, y carreteras y caminos íntegramente en Navarra",
+          "Art. 51 — POLICÍA FORAL bajo mando de la Diputación, y coordinación de las Policías Locales",
+          "Arts. 50, 53, 54, 55 y 56 — agricultura, ganadería, caza y pesca y espacios naturales protegidos · sanidad interior e higiene · Seguridad Social · medios de comunicación · y actividad económica, industria, comercio interior, defensa del consumidor y Cajas de Ahorro",
+        ],
+      },
+      {
+        h: "Título II — Desarrollo legislativo y mera ejecución (arts. 57-58)",
+        nota:
+          "Dos listas cortas que hay que saber distinguir entre sí, porque el examen las intercambia. Truco práctico: en el art. 57 Navarra LEGISLA dentro de las bases estatales, y ahí está el MEDIO AMBIENTE, que es la materia que más interesa a un arquitecto municipal junto con la EXPROPIACIÓN FORZOSA en el ámbito de sus competencias. En el art. 58 Navarra solo EJECUTA, y basta con retener algunos casos característicos —penitenciaria, laboral, propiedad intelectual e industrial, productos farmacéuticos y vertidos industriales— para descartar por eliminación.",
+        items: [
+          "Art. 57 — DESARROLLO LEGISLATIVO Y EJECUCIÓN en el marco de la legislación básica estatal: a) RESPONSABILIDAD de las administraciones públicas de Navarra · b) EXPROPIACIÓN FORZOSA en el ámbito de sus competencias · c) MEDIO AMBIENTE Y ECOLOGÍA · d) reserva al sector público de recursos o servicios esenciales e intervención de empresas por interés general · e) ordenación del crédito, banca y seguros · f) régimen minero y energético y recursos geotérmicos",
+          "Art. 58.Uno — MERA EJECUCIÓN de la legislación del Estado: a) PENITENCIARIA · b) LABORAL, con la alta inspección del Estado y quedando reservadas a éste las migraciones y los fondos nacionales de empleo · c) propiedad INTELECTUAL E INDUSTRIAL · d) pesas y medidas y contraste de metales · e) ferias internacionales en Navarra · f) aeropuertos de interés general si el Estado no se reserva su gestión · g) establecimientos y productos FARMACÉUTICOS · h) VERTIDOS INDUSTRIALES Y CONTAMINANTES · i) archivos, bibliotecas y museos de titularidad estatal",
+          "Art. 58.Dos — corresponde asimismo a la Comunidad Foral la EJECUCIÓN, dentro de su territorio, de los TRATADOS Y CONVENIOS INTERNACIONALES en lo que afecten a materias de su competencia",
         ],
       },
       {
         h: "Instituciones forales (arts. 10-38)",
+        nota:
+          "Aunque el temario no pide este Título, conviene tenerlo porque sus mayorías y plazos se cruzan constantemente con los de la Constitución en el examen, y porque la Cámara de Comptos aparece luego como proponente de vocal del Consejo de Transparencia (tema 9). El paralelismo con el Estado es casi total, pero con dos diferencias que caen: en la investidura del Presidente la segunda votación es a las VEINTICUATRO horas, no a las cuarenta y ocho; y la moción de censura la presenta UN QUINTO de los parlamentarios, no un décimo.",
         items: [
           "Art. 10: tres instituciones — Parlamento (o Cortes de Navarra), Gobierno (o Diputación Foral) y Presidente.",
           "Art. 15.2: número de parlamentarios: no inferior a 40 ni superior a 60 (actualmente 50).",
@@ -753,17 +815,9 @@ export const RESUMENES = {
         ],
       },
       {
-        h: "Competencias (arts. 39-67)",
-        items: [
-          "Art. 40: competencias exclusivas → potestad legislativa, reglamentaria, administrativa e inspectora; Derecho navarro prevalente; Derecho estatal supletorio.",
-          "Art. 44: competencias exclusivas (urbanismo, obras públicas, cultura, patrimonio, turismo, asistencia social, cooperativas, etc.).",
-          "Art. 45: régimen tributario propio mediante el Convenio Económico con el Estado.",
-          "Art. 47: competencia plena en enseñanza en toda su extensión (salvo títulos académicos y alta inspección estatal).",
-          "Art. 48: competencia exclusiva en Derecho Civil Foral.",
-        ],
-      },
-      {
         h: "Poder Judicial (arts. 59-67)",
+        nota:
+          "El Capítulo III del Título II. Lo examinable es el paralelismo con el art. 123 de la Constitución: el Tribunal Supremo culmina la organización judicial en todo el Estado, pero el TSJ de Navarra la culmina EN EL ÁMBITO TERRITORIAL navarro, y a él corresponde la casación en Derecho civil foral. Es el mismo esquema que verás en cualquier Comunidad, sin singularidad foral relevante.",
         items: [
           "Art. 59: el Tribunal Superior de Justicia de Navarra culmina la organización judicial en el ámbito territorial navarro.",
           "Art. 61: casación en Derecho Civil Foral navarro → TSJ; lo contencioso-administrativo foral → también el TSJ.",
@@ -771,6 +825,8 @@ export const RESUMENES = {
       },
       {
         h: "Relaciones con el Estado y reforma (arts. 68-71)",
+        nota:
+          "El art. 71 es la conclusión lógica de todo el tema y por eso cierra el resumen: si el Amejoramiento es PACCIONADO —fruto de un acuerdo entre Navarra y el Estado—, ninguna de las dos partes puede modificarlo por su cuenta. Esa inmodificabilidad unilateral es la diferencia más citada frente a los Estatutos de Autonomía ordinarios, cuya reforma sigue el procedimiento que ellos mismos prevean. Nota además que los acuerdos de cooperación con el País Vasco u otras Comunidades limítrofes necesitan autorización de las CORTES GENERALES.",
         items: [
           "Art. 69: Junta de Cooperación = instrumento ordinario de relaciones interadministrativas; igual número de representantes de cada parte.",
           "Art. 70: acuerdos de cooperación con el País Vasco u otras CCAA limítrofes requieren autorización de las Cortes Generales.",
@@ -779,8 +835,20 @@ export const RESUMENES = {
       },
     ],
     claves: [
-      "Navarra: Comunidad Foral (no Comunidad Autónoma ordinaria) — art. 1",
+      "Navarra: Comunidad Foral (no Comunidad Autónoma ordinaria), INDIVISIBLE y SOLIDARIA — art. 1",
+      "Fundamento: Ley de 25-10-1839 + Ley Paccionada de 16-08-1841 + LORAFNA + DA 1ª de la Constitución — art. 2",
+      "Límite infranqueable: la UNIDAD CONSTITUCIONAL — art. 2.Dos",
+      "Triple objeto del Amejoramiento: integrar · ordenar democráticamente · garantizar — art. 3",
+      "5 Merindades: Pamplona, Estella, Tudela, Sangüesa y Olite — art. 4",
+      "Condición POLÍTICA de navarro = vecindad administrativa · condición CIVIL foral = Fuero Nuevo — art. 5",
+      "Capital: la CIUDAD de Pamplona (frente a la VILLA de Madrid del art. 5 CE) — art. 8",
+      "Escudo: cadenas de oro sobre fondo rojo, esmeralda central, OCHO brazos y Corona Real — art. 7",
       "Lengua: castellano oficial; vascuence cooficial en zonas vascoparlantes por ley foral — art. 9",
+      "TRES NIVELES: exclusiva (legisla, art. 40) · desarrollo legislativo dentro de las bases (art. 41/57) · mera ejecución, sin legislar (art. 42/58)",
+      "Art. 44.1: ORDENACIÓN DEL TERRITORIO, URBANISMO Y VIVIENDA es competencia EXCLUSIVA — base de la LFOTU",
+      "Medio ambiente y expropiación forzosa: desarrollo legislativo, NO exclusiva — art. 57",
+      "Vertidos industriales y contaminantes: solo EJECUCIÓN — art. 58",
+      "Convenio Económico: régimen tributario propio de naturaleza PACCIONADA — art. 45",
       "Instituciones: Parlamento, Diputación Foral (Gobierno), Presidente — art. 10",
       "Parlamento: 40-60 miembros; 2 períodos ordinarios — arts. 15.2 y 17.2",
       "Presidente: mayoría absoluta 1.ª votación / simple 2.ª (24 h) — art. 29",
@@ -801,6 +869,8 @@ export const RESUMENES = {
   bloques: [
     {
       h: "Título Preliminar (arts. 1-9)",
+      nota:
+        "Nueve artículos que fijan el marco entero y que caen casi siempre por su literalidad. La técnica del examen aquí no es entender, es distinguir palabras que se parecen: los cuatro valores superiores del 1.1 frente a la definición del Estado, la Monarquía parlamentaria como FORMA POLÍTICA frente al Estado social y democrático de Derecho como definición, y la villa de Madrid frente a la ciudad. El art. 9.3 conviene sabérselo de corrido porque su enumeración de principios se pregunta pidiendo el que falta.",
       items: [
         "Art. 1.1: Estado social y democrático de Derecho; valores superiores: libertad, justicia, igualdad y pluralismo político",
         "Art. 1.2: la soberanía nacional reside en el pueblo español",
@@ -817,6 +887,8 @@ export const RESUMENES = {
     },
     {
       h: "Fundamentos del Título I y españoles/extranjeros (arts. 10-13)",
+      nota:
+        "El art. 10.2 es la puerta de entrada del Derecho internacional: obliga a interpretar los derechos fundamentales conforme a la Declaración Universal y a los tratados ratificados por España, y por eso se invoca constantemente. Del art. 13 lo examinable es la reforma de 1992, la primera de las dos que ha tenido la Constitución: se añadió el sufragio PASIVO —no solo el activo— de los extranjeros en las municipales, para poder ratificar Maastricht.",
       items: [
         "Art. 10.1: dignidad de la persona, libre desarrollo de la personalidad, respeto a la ley y a los derechos de los demás = fundamento del orden político y de la paz social",
         "Art. 10.2: derechos fundamentales se interpretan conforme a la Declaración Universal de DDHH y tratados internacionales ratificados",
@@ -830,6 +902,8 @@ export const RESUMENES = {
     },
     {
       h: "Sección 1ª — derechos fundamentales (arts. 14-29)",
+      nota:
+        "El bloque más preguntado de la Constitución, y donde importa tanto el contenido como la UBICACIÓN de cada derecho, porque de ella depende su nivel de protección. Ten presente la anomalía del art. 14: la igualdad está fuera de la Sección 1ª —encabeza el Capítulo II— pero el art. 53.2 la hace amparable igual que los arts. 15 a 29. Es la trampa clásica: preguntan qué derecho «no pertenece a la Sección 1ª» y la respuesta es la igualdad, aunque sí quepa amparo.",
       items: [
         "Art. 14: igualdad ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión u otra condición. OJO: está FUERA de la Sección 1ª pero es amparable por el 53.2",
         "Art. 15: derecho a la vida y a la integridad física y moral; prohibida la tortura y tratos inhumanos; pena de muerte ABOLIDA salvo leyes penales militares en tiempos de guerra",
@@ -842,7 +916,7 @@ export const RESUMENES = {
         "Art. 22: asociación; ilícitas las secretas y de carácter paramilitar; disolución/suspensión SOLO por resolución judicial motivada",
         "Art. 23: participación en asuntos públicos directamente o por representantes; acceso en igualdad a funciones y cargos públicos",
         "Art. 24: tutela judicial efectiva; juez ordinario predeterminado por la ley; defensa y abogado; ser informado de la acusación; proceso público sin dilaciones indebidas; pruebas; no declarar contra sí mismo ni confesarse culpable; presunción de inocencia",
-        "Art. 25: principio de legalidad penal y sancionador; la Administración civil NO puede imponer sanciones privativas de libertad (25.3); Registro Civil (25.4? no: 25 no; el Registro Civil no está; omitir)",
+        "Art. 25: principio de legalidad penal y sancionador (nadie puede ser condenado o sancionado por acciones u omisiones que no fueran delito, falta o infracción administrativa según la legislación vigente en ese momento); las penas privativas de libertad se orientan a la reeducación y reinserción social; la Administración CIVIL no puede imponer sanciones que impliquen privación de libertad (25.3)",
         "Art. 26: prohibidos los Tribunales de Honor en el ámbito civil y profesional",
         "Art. 27: educación; libertad de enseñanza; enseñanza BÁSICA obligatoria y gratuita; libertad de creación de centros; participación de profesores, padres y alumnos; autonomía universitaria",
         "Art. 28: sindicación libre (nadie obligado a sindicarse); derecho de huelga; ley de servicios esenciales",
@@ -851,6 +925,8 @@ export const RESUMENES = {
     },
     {
       h: "Sección 2ª — derechos y deberes (arts. 30-38)",
+      nota:
+        "La Sección 2ª vincula a todos los poderes públicos y exige ley para regular su ejercicio, pero NO tiene amparo constitucional: esa es la frontera que separa esta sección de la anterior. La única excepción la introduce el propio art. 53.2, que extiende el amparo a la objeción de conciencia del art. 30.2 pese a estar aquí. Para el técnico municipal el artículo relevante es el 33: la propiedad privada, con su garantía expropiatoria de utilidad pública o interés social mediante indemnización.",
       items: [
         "Art. 30: servicio militar para defender España; objeción de conciencia con prestación social sustitutoria",
         "Art. 31: sistema tributario justo inspirado en igualdad y progresividad; nunca alcance confiscatorio",
@@ -865,6 +941,8 @@ export const RESUMENES = {
     },
     {
       h: "Principios rectores (arts. 39-52)",
+      nota:
+        "Tercer nivel de protección y el más débil: informan la legislación positiva, la práctica judicial y la actuación de los poderes públicos, pero SOLO pueden alegarse ante la jurisdicción ordinaria de acuerdo con las leyes que los desarrollen. No son derechos subjetivos invocables sin más. Aquí viven dos artículos que un arquitecto municipal cita a menudo: el 45 —medio ambiente adecuado— y sobre todo el 47, que enlaza la vivienda digna con la regulación del suelo para impedir la especulación y con la participación de la comunidad en las plusvalías.",
       items: [
         "Art. 39: protección social, económica y jurídica de la familia",
         "Art. 41: Seguridad Social pública para todos; asistencia y prestaciones sociales suficientes",
@@ -881,6 +959,8 @@ export const RESUMENES = {
     },
     {
       h: "Garantías y suspensión (arts. 53-55)",
+      nota:
+        "El art. 53 es el que ordena los tres niveles de protección de todo el Título I, así que conviene estudiarlo como índice y no como artículo suelto: contenido esencial y reserva de ley para Secciones 1ª y 2ª; amparo solo para el art. 14, la Sección 1ª y el 30.2; y mera alegación conforme a las leyes de desarrollo para los principios rectores. Del art. 55 lo que cae es la lista de derechos suspendibles, y se pregunta por exclusión: el honor del 18.1 no se suspende nunca, y el 17.3 —derechos del detenido— se suspende en estado de sitio pero no en el de excepción.",
       items: [
         "Art. 53.1: ley regulará el ejercicio de los derechos de Secciones 1ª y 2ª respetando su contenido esencial",
         "Art. 53.2: recurso de AMPARO ante el TC: art. 14 + Sección 1ª (arts. 15-29) + objeción de conciencia del 30.2",
@@ -892,6 +972,8 @@ export const RESUMENES = {
     },
     {
       h: "La Corona (arts. 56-65)",
+      nota:
+        "Título breve y de memoria pura. Dos ideas lo sostienen. La primera es que la inviolabilidad del Rey solo se explica junto al REFRENDO: como el Rey no responde, responde quien refrenda, y sin refrendo sus actos son nulos. La segunda es el orden sucesorio del art. 57.1, que hay que recitar entero —línea anterior sobre posterior, grado más próximo sobre más remoto, varón sobre mujer en el mismo grado, y mayor sobre menor en el mismo sexo— porque se pregunta cambiando un escalón. Ojo al refrendo del nombramiento del Presidente del Gobierno, que corresponde al Presidente del CONGRESO y no al del Gobierno.",
       items: [
         "Art. 56.1: Jefe del Estado, símbolo de su unidad y permanencia; arbitra y modera el funcionamiento regular de las instituciones; máxima representación internacional",
         "Art. 56.3: persona del Rey inviolable y no sujeta a responsabilidad",
@@ -905,6 +987,8 @@ export const RESUMENES = {
     },
     {
       h: "Cortes Generales (arts. 66-80)",
+      nota:
+        "Bicameralismo imperfecto: las dos cámaras tienen mandato de cuatro años, pero el Congreso predomina y el Senado es cámara de representación territorial con capacidad de veto vencible. Las cifras del Congreso y del Senado se preguntan por separado y se confunden: el Congreso tiene una horquilla constitucional de 300 a 400 diputados —hoy 350 por ley electoral— con reparto proporcional; el Senado tiene números fijos por provincia e isla que hay que memorizar tal cual. Los dos períodos ordinarios de sesiones, de febrero a junio y de septiembre a diciembre, son otro dato de respuesta directa.",
       items: [
         "Art. 66: representan al pueblo español; potestad legislativa, aprueban Presupuestos, controlan al Gobierno",
         "Art. 68: Congreso de 300 a 400 diputados (hoy 350); circunscripción = provincia; mínimo 2 por provincia + 1 Ceuta y 1 Melilla; representación PROPORCIONAL",
@@ -918,6 +1002,8 @@ export const RESUMENES = {
     },
     {
       h: "Fuentes: ley orgánica, delegación, decreto-ley, iniciativa (arts. 81-92)",
+      nota:
+        "El bloque de fuentes se examina cruzando LÍMITES MATERIALES con MAYORÍAS y PLAZOS. Lo que reserva el art. 81 a ley orgánica es casi lo mismo que el art. 86 prohíbe al decreto-ley y lo que el art. 82 excluye de la delegación legislativa, así que memorizar una lista te da las tres. Distingue bien las dos formas de delegación: ley de BASES para texto articulado y ley ordinaria para texto REFUNDIDO. Y no confundas los treinta días de convalidación del decreto-ley con los quince de sanción regia o los dos meses del veto del Senado.",
       items: [
         "Art. 81: LEY ORGÁNICA para desarrollo de derechos fundamentales y libertades públicas, estatutos de autonomía, régimen electoral general y demás materias previstas; aprobación/modificación/derogación por MAYORÍA ABSOLUTA del Congreso en votación final sobre el conjunto",
         "Art. 82-85: delegación legislativa → decretos legislativos; leyes de BASES (textos articulados) y leyes ordinarias de delegación (textos refundidos); NO delegable lo de ley orgánica ni materias del 82.2; plazo improrrogable",
@@ -930,6 +1016,8 @@ export const RESUMENES = {
     },
     {
       h: "Gobierno y relación con las Cortes (arts. 97-116)",
+      nota:
+        "Todo este bloque se reduce a una tabla de mayorías y plazos, y ahí es donde se falla. La investidura pide mayoría absoluta y, si falla, simple a las cuarenta y ocho horas, con disolución automática si en dos meses desde la primera votación nadie sale investido. La cuestión de confianza se gana por mayoría SIMPLE; la moción de censura exige ABSOLUTA y es constructiva, es decir, con candidato alternativo incluido. Los estados del art. 116 son otra tabla: alarma la declara el Gobierno por quince días, la excepción exige autorización previa del Congreso, y el sitio lo declara el Congreso por mayoría absoluta.",
       items: [
         "Art. 97: Gobierno dirige política interior y exterior, administración civil y militar y defensa",
         "Art. 98: Presidente, Vicepresidentes, Ministros y demás miembros que establezca la ley",
@@ -944,6 +1032,8 @@ export const RESUMENES = {
     },
     {
       h: "Poder Judicial (arts. 117-127)",
+      nota:
+        "Lo preguntable es la composición del CGPJ y el matiz del art. 123. El Tribunal Supremo culmina la organización judicial en todos los órdenes SALVO en materia de garantías constitucionales, que es del Tribunal Constitucional; y en Navarra el TSJ culmina la organización judicial en el ámbito territorial, con la casación en Derecho civil foral. Ojo a no mezclar los veinte vocales del CGPJ más su Presidente con los doce magistrados del Tribunal Constitucional: son dos órganos, dos cifras y dos duraciones distintas —cinco años el CGPJ, nueve el TC—.",
       items: [
         "Art. 117: justicia emana del pueblo; jueces y magistrados independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley",
         "Art. 122: CGPJ = órgano de gobierno del poder judicial: Presidente del Tribunal Supremo + 20 miembros por 5 años (12 de todas las categorías judiciales según ley orgánica; 4 a propuesta del Congreso y 4 del Senado por 3/5 entre juristas de reconocida competencia con más de 15 años)",
@@ -954,6 +1044,8 @@ export const RESUMENES = {
     },
     {
       h: "Economía y Hacienda (arts. 128-136)",
+      nota:
+        "Título corto del que se preguntan tres cosas. El ciclo presupuestario del art. 134 —los elabora el Gobierno, las Cortes los examinan, enmiendan y aprueban— con su prórroga automática si no se aprueban antes del primer día del ejercicio. El art. 135, que es la SEGUNDA y última reforma de la Constitución, de 2011, con la prioridad absoluta del pago de la deuda pública. Y el Tribunal de Cuentas, que depende de las Cortes Generales, para no confundirlo con la Cámara de Comptos navarra, que depende del Parlamento foral.",
       items: [
         "Art. 128: toda la riqueza del país subordinada al interés general",
         "Art. 133: potestad tributaria originaria del Estado; CCAA y corporaciones locales según Constitución y leyes",
@@ -964,6 +1056,8 @@ export const RESUMENES = {
     },
     {
       h: "Organización territorial (arts. 137-158)",
+      nota:
+        "El Título VIII interesa doblemente en esta oposición: por sí mismo y porque es el marco del que cuelgan la LORAFNA y toda la legislación foral. Los Capítulos I y II —principios generales y Administración local, arts. 137 a 142— son los que el temario pide expresamente. La autonomía local del art. 140 es autonomía para la GESTIÓN DE SUS INTERESES, no soberanía, y de ahí que la ley pueda atribuir competencias y controlarlas. El art. 149 no enumera lo que hacen las Comunidades sino lo EXCLUSIVO del Estado, y el 148 lo que aquéllas pueden asumir: se confunden con facilidad.",
       items: [
         "Art. 137: Estado se organiza en municipios, provincias y CCAA",
         "Art. 139: igualdad de todos los españoles; libre circulación",
@@ -979,6 +1073,8 @@ export const RESUMENES = {
     },
     {
       h: "Tribunal Constitucional (arts. 159-165)",
+      nota:
+        "Doce magistrados, nueve años de mandato y renovación por TERCIOS cada tres: son las tres cifras que se preguntan juntas. El reparto del nombramiento —cuatro Congreso, cuatro Senado, dos Gobierno, dos CGPJ, todos por el Rey— se cruza en el examen con el del CGPJ, así que conviene fijarlos como pares opuestos. Y no confundas legitimación para el recurso de INCONSTITUCIONALIDAD, que es tasada y de órganos, con la del AMPARO, que corresponde a cualquier persona con interés legítimo, el Defensor del Pueblo y el Ministerio Fiscal.",
       items: [
         "12 miembros nombrados por el Rey: 4 a propuesta del Congreso (3/5), 4 del Senado (3/5), 2 del Gobierno y 2 del CGPJ",
         "Mandato de 9 años; renovación por TERCIOS cada 3 años",
@@ -989,6 +1085,8 @@ export const RESUMENES = {
     },
     {
       h: "Reforma constitucional (arts. 166-169)",
+      nota:
+        "Dos procedimientos y una regla para elegir entre ellos. El AGRAVADO del art. 168 se reserva a la reforma total y a tres bloques concretos: Título Preliminar, Sección 1ª del Capítulo II del Título I —arts. 15 a 29— y Título II, la Corona. Todo lo demás va por el general del art. 167. Fíjate en la asimetría del referéndum: en el general es POTESTATIVO y hay que pedirlo un décimo de los miembros de cualquier cámara en quince días, mientras que en el agravado es OBLIGATORIO y además hay disolución de las Cortes por medio.",
       items: [
         "Art. 166: iniciativa según el 87.1 y 87.2 (Gobierno, Congreso, Senado); las CCAA NO pueden iniciar la reforma",
         "Art. 167 (procedimiento general): 3/5 de cada cámara; si no hay acuerdo, comisión paritaria y luego mayoría ABSOLUTA del Senado + 2/3 del Congreso; referéndum si lo pide 1/10 de los miembros de cualquiera de las cámaras en 15 días",
