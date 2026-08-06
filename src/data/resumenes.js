@@ -17,6 +17,8 @@ export const RESUMENES = {
     bloques: [
       {
         h: "Objetivos 2030 — los 4 datos a memorizar",
+        nota:
+          "Este tema no es articulado sino un documento de planificación, así que se examina por CIFRAS y por la arquitectura del documento. El riesgo aquí no es olvidar los números sino confundirlos con los de otros marcos: el −64 % de Pamplona convive en la cabeza con el −40 % del Pacto de Alcaldías y el −55 % del marco europeo 2030, y el examen los ofrece juntos como opciones. Ancla cada cifra a su fuente y su año base, y no memorices porcentajes sueltos.",
         items: [
           "Emisiones: −64% de GEI respecto a 2005 (≠ 40% Pacto de Alcaldías; ≠ 55% Marco 2030 europeo)",
           "Renovables: 37% del consumo energético final",
@@ -27,6 +29,8 @@ export const RESUMENES = {
       },
       {
         h: "Diagnóstico ciudad 2005-2018 (trampas de examen)",
+        nota:
+          "El diagnóstico es la parte que justifica las medidas, y por eso interesa entender de dónde vienen las emisiones antes de memorizar los repartos: en una ciudad como Pamplona el peso lo llevan la EDIFICACIÓN y la MOVILIDAD, no la industria, y eso explica que el Plan de Acción cargue el grueso de la inversión en rehabilitación energética y transporte. Si retienes esa lógica, los porcentajes por sector se sostienen solos y se distinguen mejor de los datos de consumo, que van por otra escala.",
         items: [
           "Consumo: −8,7%; Emisiones: −15,6% (AMBOS bajan, pero el consumo baja MENOS que las emisiones)",
           "2018: 4.551.325 MWh; 1.128.937 tCO2eq; coste 488 M€; 22,58 MWh/hab; 5,60 tCO2eq/hab",
@@ -39,6 +43,8 @@ export const RESUMENES = {
       },
       {
         h: "Plan de Acción — inversión y plazos",
+        nota:
+          "La estructura del Plan es lo primero que hay que poder recitar, porque es la pregunta de encuadre: TRES ejes —mitigación, adaptación y transición justa—, CINCO objetivos estratégicos, VEINTICUATRO líneas de acción y SETENTA Y CUATRO acciones, con 860 millones de euros hasta 2030. Esa cadena de números en orden decreciente es fácil de fijar y permite descartar opciones aunque no recuerdes el reparto sectorial de la inversión.",
         items: [
           "Total: 860.223.800 € (inversión privada 576,7 M€ — fuente mayoritaria; fondos públicos externos 210,6 M€; Ayuntamiento 72,9 M€)",
           "LE2 Actuaciones en edificios: 534,7 M€ — MAYOR partida; meta: rehabilitar 60% viviendas anteriores a 1979 (30.274 viviendas)",
@@ -49,6 +55,8 @@ export const RESUMENES = {
       },
       {
         h: "Adaptación climática",
+        nota:
+          "No confundas MITIGACIÓN con ADAPTACIÓN: mitigar es reducir emisiones para que el cambio climático sea menor; adaptarse es prepararse para los efectos que ya son inevitables. Son ejes distintos del mismo plan y el examen los intercambia. La adaptación en Pamplona gira sobre tres riesgos concretos —olas de calor e isla de calor urbana, inundaciones y episodios de lluvia intensa, y estrés hídrico—, y sus medidas son las que más tocan al urbanismo: infraestructura verde, drenaje sostenible y confort térmico del espacio público.",
         items: [
           "Proyección LIFE-IP NAdapta-CC: +0,23 ºC/década; cambio climático Pamplona: Cfb (Marítimo) → Mediterráneo a mediados de siglo",
           "Olas de calor: 1,65→6,95/año; noches tropicales: 5→13/año; días cálidos: 9%→22%",
@@ -59,6 +67,8 @@ export const RESUMENES = {
       },
       {
         h: "Gobernanza y arquitectura (LE17)",
+        nota:
+          "La línea estratégica que conecta este tema con tu trabajo: la edificación es a la vez el mayor emisor y el mayor yacimiento de ahorro, de modo que la rehabilitación energética del parque construido es la palanca principal del plan. Conviene estudiarla en relación con el DB-HE del CTE (tema E8) y con el informe de evaluación de los edificios (tema E26), porque la Estrategia se apoya en ambos instrumentos para ejecutarse: uno fija las exigencias y el otro detecta el parque que las incumple.",
         items: [
           "5 órganos: Dirección ETEyCC + Comisión municipal de trabajo + comisiones interdepartamentales temporales + Órgano de participación sectorial + Observatorio de Medio Ambiente y CC",
           "LE17 (clave para arquitecto): revisión del PMOU, revisión del CTE para clima futuro, nueva ordenanza de edificación",
@@ -85,7 +95,20 @@ export const RESUMENES = {
       "La LO 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, establece el marco estatal antidiscriminatorio por razón de sexo y los principios de acción positiva. La LF 17/2019, de 4 de abril, de Igualdad entre mujeres y hombres en las relaciones laborales y en el empleo en Navarra, desarrolla estos principios en el ámbito foral.",
     bloques: [
       {
+        h: "Principio de igualdad y ámbito (LO 3/2007 arts. 1-5, 10)",
+        nota:
+          "Antes de las definiciones conviene fijar el marco. La ley reconoce el principio de igualdad de trato como PRINCIPIO INFORMADOR del ordenamiento jurídico, que se integra y observa en la interpretación y aplicación de todas las normas — no es una regla más, sino un criterio hermenéutico general. Y su art. 10 establece la consecuencia jurídica de infringirlo: los actos y las cláusulas de los negocios jurídicos que constituyan o causen discriminación por razón de sexo se consideran NULOS Y SIN EFECTO, con un régimen reparador que incluye una indemnización REAL, EFECTIVA Y PROPORCIONADA al perjuicio sufrido y disuasoria.",
+        items: [
+          "Art. 1 — objeto: hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres, en particular mediante la eliminación de la discriminación de la mujer, sea cual fuere su circunstancia o condición, en cualesquiera de los ámbitos de la vida y singularmente en las esferas política, civil, laboral, económica, social y cultural",
+          "Art. 4 — el principio de igualdad de trato y de oportunidades es PRINCIPIO INFORMADOR del ordenamiento jurídico y, como tal, se integrará y observará en la interpretación y aplicación de las normas jurídicas",
+          "Art. 10 — CONSECUENCIAS JURÍDICAS de las conductas discriminatorias: los actos y las cláusulas de los negocios jurídicos que constituyan o causen discriminación por razón de sexo se consideran NULOS Y SIN EFECTO, y dan lugar a responsabilidad a través de un sistema de reparaciones o indemnizaciones que sean REALES, EFECTIVAS y PROPORCIONADAS al perjuicio sufrido, así como, en su caso, a un sistema eficaz y disuasorio de sanciones",
+          "Art. 5 — igualdad de trato en el ACCESO AL EMPLEO, en la formación y en la promoción profesionales y en las condiciones de trabajo: no puede constituir discriminación una diferencia de trato basada en una característica relacionada con el sexo cuando, debido a la naturaleza de las actividades profesionales, dicha característica constituya un REQUISITO PROFESIONAL ESENCIAL Y DETERMINANTE, siempre que el objetivo sea legítimo y el requisito proporcionado",
+        ],
+      },
+      {
         h: "Tipos de discriminación (LO 3/2007 arts. 6-9)",
+        nota:
+          "Cuatro figuras que el examen contrapone por parejas. DIRECTA frente a INDIRECTA: la primera es trato menos favorable por razón de sexo y no admite justificación; la segunda parte de una norma aparentemente NEUTRA y sí admite justificación objetiva, si persigue una finalidad legítima con medios necesarios y adecuados. Y acoso SEXUAL frente a acoso POR RAZÓN DE SEXO: el primero exige naturaleza sexual en la conducta; el segundo se produce «en función del sexo» y no requiere componente sexual alguno. Retén además que la discriminación por embarazo o maternidad se califica como DIRECTA, lo que cierra la puerta a cualquier justificación.",
         items: [
           "Discriminación DIRECTA (art. 6.1): trato menos favorable a una persona en atención a su sexo respecto a otra en situación comparable",
           "Discriminación INDIRECTA (art. 6.2): disposición, criterio o práctica aparentemente neutros que pone a un sexo en desventaja, salvo justificación objetiva (finalidad legítima + medios necesarios y adecuados)",
@@ -98,13 +121,20 @@ export const RESUMENES = {
       },
       {
         h: "Acciones positivas y prueba (LO 3/2007 arts. 11-13)",
+        nota:
+          "Dos preceptos con truco. Las ACCIONES POSITIVAS no son exclusivas de los poderes públicos: el art. 11.2 habilita expresamente también a las personas físicas y jurídicas PRIVADAS, dentro del marco de la legislación laboral. Y son temporales por definición, porque solo se aplican en tanto subsistan las situaciones de desigualdad. De la carga de la prueba retén la excepción: la inversión probatoria NO se aplica a los procesos PENALES, donde rige la presunción de inocencia.",
         items: [
           "Acciones positivas (art. 11): medidas específicas en favor de mujeres para corregir desigualdad de hecho; poderes públicos Y también personas privadas; razonables y proporcionales; solo mientras subsistan las desigualdades",
           "Carga de la prueba (art. 13): si la actora alega discriminación → la DEMANDADA debe probar ausencia de discriminación y proporcionalidad; NO aplica en procesos PENALES",
+          "Art. 11.2 — las acciones positivas también pueden adoptarlas las PERSONAS FÍSICAS Y JURÍDICAS PRIVADAS, en los términos establecidos en la ley y en el marco de la legislación laboral",
+          "Art. 12 — TUTELA JUDICIAL EFECTIVA: cualquier persona podrá recabar la tutela del derecho a la igualdad entre mujeres y hombres, incluso tras la terminación de la relación en la que supuestamente se ha producido la discriminación",
+          "Art. 12.2-3 — la legitimación para la defensa de estos derechos corresponde a la persona acosada, y en los litigios sobre acoso sexual y por razón de sexo será ÚNICAMENTE la persona acosada quien tenga legitimación",
         ],
       },
       {
         h: "LF 17/2019 — datos y plazos clave",
+        nota:
+          "La ley foral es la que aporta los datos numéricos del tema y la que te afecta como empleado municipal. Dos cifras se preguntan juntas y conviene no cruzarlas: la REPRESENTACIÓN EQUILIBRADA es la horquilla 40-60 % —la misma que verás en la composición del Consejo de Transparencia del tema 9—, y la reserva en las ofertas públicas de empleo para víctimas de violencia de género es del 2 % de las plazas. Del régimen de informes retén que el INFORME DE IMPACTO DE GÉNERO alcanza también a las ORDENANZAS LOCALES, sin excepción por tamaño de municipio: es obligatorio en las que tramites.",
         items: [
           "Representación equilibrada (art. 4.1.f): ningún sexo >60% ni <40%, tendiendo al 50%",
           "Plan Estratégico Igualdad (art. 14): vigencia 6 años; diseñado por Instituto Navarro para la Igualdad; aprobado por GOBIERNO DE NAVARRA previo informe del Consejo Navarro de Igualdad; remitido al PARLAMENTO DE NAVARRA para debate y aprobación final",
@@ -112,6 +142,7 @@ export const RESUMENES = {
           "Informe de impacto de género en ordenanzas locales (art. 22.4): también obligatorio, sin excepción por tamaño",
           "OPE (art. 24.7): informe de impacto de género + 2% de plazas para víctimas de violencia de género (si superan proceso selectivo y acreditan condición)",
           "Ayudas públicas (art. 18.1): cláusulas de igualdad en bases reguladoras; art. 18.2: prohibición a entidades sancionadas (declaración responsable)",
+          "La horquilla 40-60 % de representación equilibrada es la misma que reaparece en la composición del Consejo de Transparencia de Navarra (art. 65.5 LF 5/2018), que remite expresamente a este art. 4.1.f",
         ],
       },
     ],
@@ -135,6 +166,8 @@ export const RESUMENES = {
     bloques: [
       {
         h: "Principios del tratamiento (art. 5 RGPD)",
+        nota:
+          "Los seis principios del art. 5.1 se preguntan pidiendo el que falta o cambiando un adjetivo, así que conviene recitarlos con su denominación completa: licitud, lealtad y transparencia · limitación de la FINALIDAD · MINIMIZACIÓN de datos · EXACTITUD · limitación del PLAZO DE CONSERVACIÓN · integridad y confidencialidad. Y por encima de ellos, el apartado 2 añade el que lo cambia todo: la RESPONSABILIDAD PROACTIVA, que invierte la carga —el responsable no solo debe cumplir, sino ser capaz de DEMOSTRAR que cumple—.",
         items: [
           "a) Licitud, lealtad y transparencia",
           "b) Limitación de la finalidad: solo para los fines recogidos",
@@ -147,6 +180,8 @@ export const RESUMENES = {
       },
       {
         h: "Bases de licitud (art. 6 RGPD) y categorías especiales (art. 9)",
+        nota:
+          "Seis bases de licitud, y para una Administración la relevante casi nunca es el consentimiento sino el CUMPLIMIENTO DE UNA OBLIGACIÓN LEGAL o el ejercicio de PODERES PÚBLICOS. De hecho el interés legítimo, base habitual en el sector privado, NO es aplicable al tratamiento realizado por autoridades públicas en el ejercicio de sus funciones — matiz del art. 6.1 in fine que se pregunta. Las categorías especiales del art. 9 parten de una PROHIBICIÓN general de tratamiento que solo cede por las excepciones tasadas del apartado 2.",
         items: [
           "6 bases de licitud (art. 6.1.a-f): consentimiento / contrato o medidas precontractuales / obligación legal / intereses vitales / interés público o poderes públicos / intereses legítimos (este último NO aplica a autoridades públicas en ejercicio de funciones)",
           "Consentimiento (art. 7): libre, específico, informado, inequívoco; retirable en cualquier momento; retirada no afecta licitud previa; tan fácil retirar como dar",
@@ -157,6 +192,8 @@ export const RESUMENES = {
       },
       {
         h: "Derechos de los interesados (arts. 12-22 RGPD)",
+        nota:
+          "Los derechos se agrupan bien en dos bloques: los de INFORMACIÓN Y CONTROL —acceso, rectificación, supresión— y los de OPOSICIÓN Y LIMITACIÓN, más el de portabilidad. El plazo general de respuesta es de UN MES desde la recepción, prorrogable en DOS MESES MÁS cuando sea necesario por la complejidad o el número de solicitudes, informando al interesado dentro del primer mes. Ojo a dos delimitaciones: el derecho de SUPRESIÓN —el «derecho al olvido»— no opera cuando el tratamiento es necesario para cumplir una obligación legal o para el ejercicio de poderes públicos; y la PORTABILIDAD solo cabe cuando el tratamiento se basa en consentimiento o contrato y se efectúa por medios automatizados, de modo que no alcanza a los tratamientos administrativos ordinarios.",
         items: [
           "Plazo de respuesta (art. 12.3): 1 mes; prórroga de 2 meses adicionales si solicitud compleja (informar dentro del 1.er mes)",
           "Solicitudes infundadas/excesivas/repetitivas (art. 12.5): el responsable puede cobrar canon razonable o negarse a actuar; la carga de probar el carácter repetitivo recae en el responsable",
@@ -172,6 +209,8 @@ export const RESUMENES = {
       },
       {
         h: "Otras disposiciones LOPDGDD",
+        nota:
+          "La LO 3/2018 no sustituye al Reglamento europeo: lo desarrolla en lo que éste dejó a los Estados y añade materia propia. Para un ayuntamiento lo esencial es que el DELEGADO DE PROTECCIÓN DE DATOS es OBLIGATORIO en todas las autoridades y organismos públicos, sin excepción por tamaño, y que su designación debe comunicarse a la Agencia Española de Protección de Datos. La ley incorpora además el bloque de derechos digitales del Título X, que es donde vive el derecho a la desconexión digital en el ámbito laboral.",
         items: [
           "Art. 3: datos de personas fallecidas → familiares y herederos pueden solicitar acceso/rectificación/supresión, salvo prohibición del fallecido (que no afecta a datos patrimoniales)",
           "Art. 5.3: deber de confidencialidad se mantiene AUN DESPUÉS de finalizar la relación con el responsable/encargado",
@@ -1472,6 +1511,8 @@ export const RESUMENES = {
     bloques: [
       {
         h: "Clasificación y régimen (arts. 97-100 LF / arts. 1-8 Reg.)",
+        nota:
+          "La clasificación navarra es TRIPLE y ahí está su singularidad: además del dominio público y los bienes patrimoniales del régimen común, aparecen los BIENES COMUNALES, aquellos cuyo aprovechamiento y disfrute corresponde al COMÚN DE LOS VECINOS. No son una categoría menor: el art. 99.2 les da la consideración de bienes de dominio público, con su mismo régimen en lo no previsto expresamente. De ahí se sigue lo demás — el art. 100 declara unos y otros INALIENABLES, IMPRESCRIPTIBLES, INEMBARGABLES y no sujetos a tributo alguno, y añade para los comunales que no cambian de naturaleza ni de tratamiento jurídico cualquiera que sea la forma de disfrute.",
         items: [
           "Tres clases: dominio público (uso o servicio público), comunales (aprovechamiento vecinos) y patrimoniales",
           "Bienes comunales: considerados dominio público a todos los efectos (art. 99.2 LF / art. 5 Reg.)",
@@ -1481,6 +1522,8 @@ export const RESUMENES = {
       },
       {
         h: "Calificación y alteración (arts. 101-104 LF / arts. 9-14 Reg.)",
+        nota:
+          "La alteración de la calificación jurídica es el trámite que más vas a ver en un expediente municipal, típicamente para desafectar una parcela y poder enajenarla o cederla. Dos conceptos del art. 102 conviene tenerlos con su definición literal porque se preguntan: PARCELAS SOBRANTES son las que por su reducida extensión, forma irregular o emplazamiento NO son susceptibles de uso adecuado; y EFECTOS NO UTILIZABLES, los que por deterioro, depreciación o deficiente estado resultan inaplicables al servicio o a su normal aprovechamiento. Ambos se clasifican como bienes de dominio privado.",
         items: [
           "Alteración EXPRESA: expediente + info pública 1 mes + Pleno; si dominio público → mayoría absoluta (art. 103.1 LF)",
           "Alteración AUTOMÁTICA sin expediente (art. 103.3 LF / art. 13 Reg.): (a) aprobación definitiva planes urbanísticos, (b) adscripción patrimonial >25 años a uso/servicio público o comunal, (c) cesión obligatoria para uso público",
@@ -1490,6 +1533,8 @@ export const RESUMENES = {
       },
       {
         h: "Adquisición (arts. 105-109 LF)",
+        nota:
+          "Las formas de adquisición se preguntan pidiendo la que falta, así que conviene enumerarlas de corrido. Y hay dos reglas de destino que caen: los bienes adquiridos a título de HERENCIA, LEGADO O DONACIÓN sin condición se entienden PATRIMONIALES, y solo si la condición impone un destino público adquieren esa naturaleza; y la herencia se acepta siempre A BENEFICIO DE INVENTARIO, para no responder de las deudas más allá del activo.",
         items: [
           "Adquisición onerosa — Presidente: cuantía ≤5% recursos ordinarios Y ≤50% límite contratación directa (art. 107.1)",
           "Adquisición onerosa — Pleno: resto; mayoría absoluta si grava presupuestos de 2 o más ejercicios (art. 107.2)",
@@ -1500,6 +1545,8 @@ export const RESUMENES = {
       },
       {
         h: "Defensa, conservación y recuperación (arts. 110-120 LF)",
+        nota:
+          "Las potestades de defensa del patrimonio son la manifestación clásica de la autotutela: la entidad local puede recuperar por sí misma la posesión de sus bienes sin acudir al juez, deslindar los suyos de los ajenos e investigar la situación de los que presume propios. La diferencia esencial que se pregunta es de PLAZO: tratándose de bienes de dominio público o comunales, la potestad de recuperación de oficio es imprescriptible y puede ejercerse EN CUALQUIER MOMENTO; tratándose de patrimoniales, está sujeta a plazo, pasado el cual solo cabe la vía judicial.",
         items: [
           "Recuperación dominio público y comunales: en CUALQUIER MOMENTO, por vía administrativa (art. 111.1)",
           "Recuperación bienes patrimoniales: plazo de 1 AÑO desde el día siguiente a la ocupación; después → tribunales ordinarios (art. 111.2)",
@@ -1511,6 +1558,8 @@ export const RESUMENES = {
       },
       {
         h: "Utilización dominio público (arts. 121-131 LF / arts. 92-112 Reg.)",
+        nota:
+          "La escalera de usos del dominio público es la pregunta clásica y se ordena por intensidad creciente, con un título distinto para cada peldaño: uso COMÚN GENERAL, libre y sin título alguno · uso COMÚN ESPECIAL, que concurren circunstancias singulares y exige LICENCIA · uso PRIVATIVO, que ocupa una porción del dominio público limitando el uso de los demás y exige CONCESIÓN · y uso NORMAL o ANORMAL según sea o no conforme al destino del bien. Aprende la correspondencia entre cada uso y su título habilitante: es lo que te preguntarán, y también lo que aplicas al informar una ocupación de vía pública.",
         items: [
           "Licencia: uso especial o uso privativo sin obras permanentes — concedida directamente o por licitación; a PRECARIO, revocable en cualquier tiempo; NO por tiempo indefinido (art. 122 LF / art. 96 Reg.)",
           "Concesión: uso privativo con obras permanentes o uso anormal — Pleno; plazo máximo 99 años; mayoría absoluta si >5 años y cuantía >10% recursos ordinarios (arts. 123 LF / 98 Reg.)",
@@ -1521,6 +1570,8 @@ export const RESUMENES = {
       },
       {
         h: "Enajenación y gravamen (arts. 132-138 LF)",
+        nota:
+          "Solo se enajenan bienes PATRIMONIALES: los de dominio público y los comunales son inalienables, de modo que para vender uno hay que desafectarlo antes. La regla de procedimiento es la SUBASTA PÚBLICA, con excepciones tasadas de enajenación directa que hay que justificar. Y sobre todo, ten presente el control autonómico del art. 138: determinadas operaciones sobre el patrimonio local necesitan AUTORIZACIÓN previa del Gobierno de Navarra por encima de ciertos umbrales, un control que no existe en el régimen común y que es rasgo propio del Derecho local foral.",
         items: [
           "Enajenación — regla general: subasta pública; solo excepcionalmente enajenación directa (art. 133 LF)",
           "Enajenación — Pleno: requiere declaración previa de alienabilidad; mayoría absoluta si cuantía >20% recursos ordinarios (art. 132.2)",
@@ -1533,6 +1584,8 @@ export const RESUMENES = {
       },
       {
         h: "Control de la Comunidad Foral (art. 138 LF)",
+        nota:
+          "El cierre del tema y la especialidad foral más marcada: sobre el patrimonio de las entidades locales pesa un control de la Comunidad Foral que se articula por umbrales económicos y por tipo de operación. Enlaza con el art. 46 de la LORAFNA, que atribuye a Navarra el control de legalidad y de interés general sobre municipios y concejos — es decir, no es una intromisión sino el ejercicio de una competencia histórica reconocida en el Amejoramiento.",
         items: [
           "Autorización previa de la CF en: (a) bienes histórico-artísticos, (b) bienes cuyo valor >25% recursos ordinarios, (c) valores mobiliarios/créditos >25% recursos ordinarios",
           "Para el resto de inmuebles: basta con dar cuenta a la CF (sin autorización previa)",
