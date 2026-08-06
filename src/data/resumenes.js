@@ -435,60 +435,140 @@ export const RESUMENES = {
 
   G6: {
     intro:
-      "La Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Común de las Administraciones Públicas (Títulos Preliminar I-III, arts. 1-52) establece los principios generales, el régimen de los interesados, la actividad de las AAPP, y la teoría de los actos administrativos: validez, eficacia, notificación, nulidad y anulabilidad.",
+      "Primera mitad de la Ley 39/2015 (arts. 1-52), que es la ley del «hacia fuera» de la Administración: cómo se relaciona con el ciudadano, frente a la 40/2015 que ordena su organización interna. Estos tres títulos responden en orden a tres preguntas: QUIÉN puede actuar en un procedimiento (interesado, capacidad, representación), CÓMO se relaciona con la Administración (medios electrónicos, registros, lengua, plazos) y QUÉ es un acto administrativo (producción, motivación, eficacia, notificación e invalidez). Para un técnico municipal lo más rentable son los plazos y el silencio —porque condicionan cada informe que firmas— y la lista de causas de nulidad de pleno derecho, que se cruza con la disciplina urbanística.",
     bloques: [
       {
-        h: "Relación electrónica obligatoria (art. 14)",
+        h: "Interesados, capacidad y representación (arts. 3-8)",
+        nota:
+          "La capacidad de obrar en el procedimiento es más amplia que en el Derecho civil: la tienen también los MENORES DE EDAD para el ejercicio y defensa de los derechos que el ordenamiento les permita sin asistencia, salvo los incapacitados cuando la privación se extienda a ese ejercicio. El art. 4 distingue tres categorías de interesado que se preguntan por sus matices: quien promueve, quien tiene derechos que pueden RESULTAR AFECTADOS por la decisión, y quien tiene intereses LEGÍTIMOS que puedan resultar afectados y se persone ANTES de la resolución definitiva — ese último requisito temporal es la trampa habitual.",
         items: [
-          "Obligados exclusivamente por medios electrónicos (art. 14.2): personas jurídicas, entidades sin personalidad, profesionales colegiados en ejercicio, representantes de los anteriores, empleados públicos por razón de su cargo",
-          "Las personas físicas pueden elegir canal, salvo que una norma reglamentaria lo imponga",
+          "Art. 3 — CAPACIDAD DE OBRAR: la tienen quienes la ostenten con arreglo a las normas civiles, los MENORES de edad para el ejercicio y defensa de los derechos e intereses cuya actuación esté permitida sin la asistencia de quien ejerza la patria potestad o tutela (salvo los incapacitados cuando la privación alcance ese ejercicio), y los GRUPOS DE AFECTADOS, uniones y entidades sin personalidad y patrimonios independientes cuando la ley lo declare expresamente",
+          "Art. 4.1 — tres clases de INTERESADO: a) quienes lo PROMUEVAN como titulares de derechos o intereses legítimos individuales o colectivos · b) los que, sin haber iniciado el procedimiento, tengan DERECHOS que puedan resultar afectados por la decisión · c) aquellos cuyos INTERESES LEGÍTIMOS, individuales o colectivos, puedan resultar afectados y SE PERSONEN mientras no haya recaído resolución definitiva",
+          "Art. 4.2-3: las asociaciones y organizaciones representativas de intereses económicos y sociales son titulares de intereses legítimos COLECTIVOS en los términos que la ley reconozca. Si durante la tramitación se transmite la titularidad, el CAUSAHABIENTE sucede en su condición de interesado",
+          "Art. 5 — REPRESENTACIÓN: se presume para los actos y gestiones de mero trámite; debe acreditarse para formular SOLICITUDES, presentar DECLARACIONES RESPONSABLES o COMUNICACIONES, interponer RECURSOS, DESISTIR de acciones y RENUNCIAR a derechos. La falta o insuficiente acreditación NO impide que se tenga por realizado el acto si se aporta o se subsana el defecto en DIEZ DÍAS, o en el plazo mayor que se conceda",
+          "Art. 6 — REGISTROS ELECTRÓNICOS DE APODERAMIENTOS: los poderes inscritos tienen una validez máxima de CINCO AÑOS desde la inscripción, y pueden revocarse en cualquier momento",
+          "Art. 7 — pluralidad de interesados: las actuaciones se entienden con el REPRESENTANTE o el interesado que expresamente hayan señalado, y en su defecto con el que figure en PRIMER TÉRMINO",
+          "Art. 8 — nuevos interesados: si durante la instrucción se advierte la existencia de personas titulares de derechos o intereses legítimos y directos que puedan resultar afectados, se les COMUNICARÁ la tramitación",
+        ],
+      },
+      {
+        h: "Derechos, medios electrónicos y registros (arts. 13-19)",
+        nota:
+          "El art. 13 recoge los derechos de TODAS las personas en sus relaciones con la Administración, mientras que el art. 53 —ya en el tema 7— recoge los del INTERESADO en un procedimiento concreto: el examen los intercambia constantemente, así que conviene estudiarlos como pareja. Del art. 14 lo esencial es la lista de obligados a relacionarse electrónicamente, que incluye a quienes ejerzan una actividad profesional para la que se requiera COLEGIACIÓN OBLIGATORIA —de modo que un arquitecto está obligado en los trámites propios de su actividad— y a los representantes de un obligado.",
+        items: [
+          "Art. 13 — derechos de las personas: comunicarse a través de un PUNTO DE ACCESO GENERAL electrónico · ser ASISTIDAS en el uso de medios electrónicos · utilizar las LENGUAS OFICIALES · acceder a la información pública, archivos y registros · ser tratadas con respeto y deferencia · exigir RESPONSABILIDADES de las Administraciones y de su personal · a la protección de datos · y cualesquiera otros reconocidos por la Constitución y las leyes",
+          "Art. 14.2 — OBLIGADOS a relacionarse electrónicamente: las personas JURÍDICAS · las entidades SIN PERSONALIDAD jurídica · quienes ejerzan una ACTIVIDAD PROFESIONAL CON COLEGIACIÓN OBLIGATORIA para los trámites propios de esa actividad —notarios, registradores, y también los arquitectos— · quienes REPRESENTEN a un interesado obligado · y los EMPLEADOS de las AAPP para los trámites que realicen por razón de su condición",
+          "Art. 15 — LENGUA: los procedimientos tramitados por la AGE se sustancian en CASTELLANO, sin perjuicio del derecho a dirigirse en la lengua cooficial de la Comunidad; si concurren varios interesados y hay discrepancia sobre la lengua, el procedimiento se tramitará en castellano, traduciéndose a la cooficial los documentos que interesen a quienes lo soliciten",
+          "Art. 16 — REGISTRO ELECTRÓNICO GENERAL: cada Administración dispondrá del suyo. Los documentos pueden presentarse en el registro electrónico, en las OFICINAS DE CORREOS, en las representaciones diplomáticas u oficinas consulares, en las oficinas de ASISTENCIA EN MATERIA DE REGISTROS y en cualquier otro que establezcan las disposiciones vigentes",
+          "Art. 18 — COLABORACIÓN: las personas facilitarán a la Administración informes, inspecciones y otros actos de investigación en los casos previstos por la ley. Los interesados en un procedimiento que conozcan datos que permitan identificar a otros interesados que no hayan comparecido tienen el deber de proporcionárselos a la Administración",
+          "Art. 19 — COMPARECENCIA: la personal ante las oficinas públicas, ya sea presencial o por medios electrónicos, solo es obligatoria cuando así esté previsto en una NORMA CON RANGO DE LEY. En las citaciones debe hacerse constar expresamente si es obligatoria o facultativa y los efectos de no atenderla",
+          "Art. 20 — RESPONSABILIDAD DE LA TRAMITACIÓN: los titulares de las unidades y el personal al servicio de las AAPP son responsables directos de la tramitación y adoptarán las medidas oportunas para remover los obstáculos que impidan o dificulten el ejercicio de los derechos",
         ],
       },
       {
         h: "Plazos y cómputo (arts. 21, 30-33)",
+        nota:
+          "El art. 30 se reformó y hoy los plazos POR DÍAS son siempre hábiles salvo que la norma diga «naturales», mientras que los expresados en MESES o AÑOS se cuentan de fecha a fecha y vencen el día equivalente al de la notificación —si en el mes de vencimiento no hay día equivalente, vence el último del mes—. Esa asimetría entre días hábiles y meses de fecha a fecha es la que más se falla. Recuerda además que el plazo máximo para resolver no puede exceder de SEIS MESES salvo norma con rango de ley o de la Unión Europea, y que el supletorio es de TRES.",
         items: [
           "Plazo supletorio para resolver y notificar: 3 meses (art. 21.3)",
           "Plazos por días = hábiles; último día inhábil → primer día hábil siguiente (art. 30.2/30.5)",
           "Registro electrónico en día inhábil → primera hora del primer día hábil siguiente (art. 31.2.b)",
           "Urgencia: reducción a la mitad de TODOS los plazos, salvo presentación de solicitudes y recursos (art. 33.1)",
+          "Art. 30.1: si el plazo se fija en HORAS, se entienden HÁBILES —las que forman parte de un día hábil— y los plazos por horas no pueden exceder de veinticuatro, expresándose en otro caso en días",
+          "Art. 30.4: los plazos en MESES o AÑOS se computan a partir del día siguiente a la notificación o publicación y CONCLUYEN EL MISMO DÍA en que se produjo aquélla en el mes o año de vencimiento; si no hubiera día equivalente, se entiende que expira el ÚLTIMO DÍA DEL MES",
+          "Art. 30.6: la declaración de un día como HÁBIL O INHÁBIL a efectos de cómputo no determina por sí sola el funcionamiento de los centros de trabajo, la organización del tiempo de trabajo ni el acceso de los ciudadanos a los registros",
+          "Art. 21.2-3: el plazo máximo para resolver y notificar NO PUEDE EXCEDER DE SEIS MESES salvo que lo establezca una norma con rango de ley o el Derecho de la Unión; a falta de fijación expresa, es de TRES MESES",
+          "Art. 21.4: las AAPP deben PUBLICAR y mantener actualizadas en el portal web las relaciones de procedimientos con su plazo máximo y los efectos del silencio; y en toda solicitud debe informarse al interesado de esos extremos en el plazo de DIEZ DÍAS desde su recepción",
+          "Art. 22 — SUSPENSIÓN potestativa o preceptiva del plazo: requerimiento de subsanación (por el tiempo que medie hasta su cumplimiento, máximo tres meses) · pronunciamiento previo y preceptivo de un órgano de la Unión Europea · informes PRECEPTIVOS Y DETERMINANTES (máximo tres meses) · pruebas técnicas o análisis contradictorios · y negociaciones en procedimientos de terminación convencional",
+          "Art. 23 — AMPLIACIÓN: excepcionalmente puede acordarse una ampliación que no exceda de la MITAD del plazo máximo. Contra el acuerdo de ampliación o su denegación NO cabe recurso",
+          "Art. 32 — ampliación de plazos a los interesados: hasta la MITAD del plazo, si las circunstancias lo aconsejan y no se perjudican derechos de terceros; debe pedirse ANTES del vencimiento y no cabe ampliar un plazo ya vencido. El acuerdo tampoco es recurrible",
         ],
       },
       {
         h: "Silencio administrativo (arts. 24-25)",
+        nota:
+          "El silencio en procedimientos iniciados A SOLICITUD es, por regla general, ESTIMATORIO, y las excepciones están tasadas: derecho de petición, transferencia de facultades sobre dominio o servicio público, actividades que puedan dañar el medio ambiente, procedimientos de responsabilidad patrimonial y de impugnación de actos. En los iniciados DE OFICIO la regla se invierte según lo que esté en juego: si podían generar derechos, caducidad o desestimación; si eran sancionadores o de intervención susceptibles de efectos desfavorables, CADUCIDAD. Y una regla capital para urbanismo: el silencio positivo NUNCA puede otorgar facultades contrarias al ordenamiento.",
         items: [
           "Regla general en procedimientos a solicitud del interesado: silencio positivo (art. 24.1)",
           "Silencio desestimatorio (art. 24.1): derecho de petición, dominio/servicio público, actividades que puedan dañar el medio ambiente, responsabilidad patrimonial",
           "Procedimientos de oficio desfavorables o sancionadores: vencimiento del plazo → caducidad (art. 25.1.b)",
+          "Art. 24.1, párrafo 3 — REGLA CLAVE PARA URBANISMO: el silencio tiene efecto DESESTIMATORIO en los procedimientos de impugnación de actos y disposiciones y en los de revisión de oficio iniciados a solicitud. No obstante, cuando el recurso de ALZADA se interponga contra la desestimación por silencio de una solicitud, se entenderá ESTIMADO si, llegado el plazo de resolución, el órgano no dicta y notifica resolución expresa",
+          "Art. 24.2 — efectos: la estimación por silencio tiene la consideración de ACTO ADMINISTRATIVO FINALIZADOR del procedimiento; la desestimación por silencio tiene los solos efectos de permitir a los interesados interponer el recurso que proceda",
+          "Art. 24.3 — obligación de resolver PERSISTE: en los casos de silencio ESTIMATORIO la resolución expresa posterior solo podrá dictarse de ser CONFIRMATORIA del mismo; en los de silencio desestimatorio, se adoptará SIN VINCULACIÓN alguna al sentido del silencio",
+          "Art. 25.1.a — procedimientos de oficio de los que pudiera derivarse el reconocimiento o constitución de derechos: los interesados podrán entender DESESTIMADAS sus pretensiones por silencio",
+          "Art. 25.2: en los supuestos de caducidad podrá acordarse la reanudación si no ha transcurrido el plazo de PRESCRIPCIÓN",
         ],
       },
       {
-        h: "Actos administrativos: motivación, eficacia y convalidación (arts. 35, 39, 52)",
+        h: "Actos administrativos: producción, motivación y eficacia (arts. 34-39)",
+        nota:
+          "El acto administrativo se examina en tres planos: producción y contenido, forma y motivación, y eficacia. De la eficacia lo importante es el punto de partida: los actos se presumen VÁLIDOS y producen efectos DESDE LA FECHA EN QUE SE DICTEN, salvo que en ellos se disponga otra cosa; la eficacia queda demorada cuando lo exija el contenido del acto o esté supeditada a notificación, publicación o aprobación superior. Y el art. 37 recoge un principio que conviene tener presente al informar: la INDEROGABILIDAD SINGULAR, es decir, que las resoluciones administrativas de carácter particular no pueden vulnerar lo establecido en una disposición de carácter general, aunque procedan de un órgano de igual o superior jerarquía.",
         items: [
           "Motivación obligatoria (art. 35.1): lista taxativa (letras a-i) — limitación de derechos, resolución de recursos, separación de criterio anterior, suspensión, etc.",
           "Retroactividad: solo en sustitución de actos anulados o efectos favorables si el supuesto de hecho existía y no lesiona terceros (art. 39.3)",
           "Convalidación: solo actos anulables; efectos desde la fecha de la convalidación, no retroactivos (art. 52)",
+          "Art. 34 — producción y contenido: se dictan por el órgano COMPETENTE, ajustándose a los requisitos y al procedimiento establecido. El contenido será DETERMINADO Y ADECUADO a sus fines",
+          "Art. 36 — FORMA: los actos se producen por ESCRITO A TRAVÉS DE MEDIOS ELECTRÓNICOS, salvo que su naturaleza exija otra forma más adecuada. Cuando deban dictarse una SERIE DE ACTOS DE LA MISMA NATURALEZA —nombramientos, concesiones, licencias—, podrán refundirse en un único acto acordado por el órgano competente, especificando las circunstancias de cada interesado",
+          "Art. 37 — INDEROGABILIDAD SINGULAR: las resoluciones administrativas de carácter particular NO pueden vulnerar lo establecido en una disposición de carácter general, aunque procedan de un órgano de igual o superior jerarquía. Son NULAS las resoluciones que vulneren lo establecido en una disposición reglamentaria",
+          "Art. 38 — EJECUTIVIDAD: los actos son ejecutivos con arreglo a lo dispuesto en la ley",
+          "Art. 39.1-2 — EFICACIA: los actos se presumen VÁLIDOS y producen efectos DESDE LA FECHA EN QUE SE DICTEN, salvo que en ellos se disponga otra cosa. La eficacia queda DEMORADA cuando así lo exija el contenido del acto o esté supeditada a su notificación, publicación o aprobación superior",
+          "Art. 39.4-5: las normas y actos dictados por órganos INCOMPETENTES o sin los requisitos legales pueden ser convalidados por el órgano competente cuando sean favorables al interesado, siempre que no se lesionen derechos de terceros",
         ],
       },
       {
-        h: "Notificación (arts. 40-44)",
+        h: "Notificación (arts. 40-46)",
+        nota:
+          "La notificación no es un requisito de validez sino de EFICACIA, distinción que el examen aprovecha. Cuatro datos gobiernan el bloque: el plazo de DIEZ DÍAS para cursarla desde que el acto se dicta; el contenido mínimo, que incluye texto íntegro, si pone fin a la vía administrativa, recursos y plazos; el rechazo presunto de la notificación electrónica por el transcurso de DIEZ DÍAS NATURALES sin acceder; y la regla de los dos intentos en papel, en días y horas distintos y dentro de los tres días siguientes al primero, con al menos tres horas de diferencia. Ojo a que una notificación defectuosa se convalida si el interesado realiza actuaciones que supongan el conocimiento del contenido y alcance del acto o interpone el recurso procedente.",
         items: [
           "Plazo para cursar: 10 días desde que el acto es dictado (art. 40.2)",
           "Contenido mínimo: texto íntegro, si pone fin a la vía administrativa, recursos procedentes, órgano y plazo (art. 40.2)",
           "Notificación electrónica rechazada: 10 días naturales sin acceder (art. 43.2)",
           "Notificación infructuosa → BOE obligatorio; boletín autonómico/provincial y tablón: facultativo (art. 44)",
+          "Art. 40.3 — notificaciones DEFECTUOSAS: surten efecto a partir de la fecha en que el interesado realice actuaciones que supongan el conocimiento del contenido y alcance del acto o interponga el recurso procedente",
+          "Art. 40.4: a los solos efectos de entender cumplida la obligación de notificar dentro del plazo máximo, basta la notificación que contenga cuando menos el TEXTO ÍNTEGRO de la resolución y el INTENTO de notificación debidamente acreditado",
+          "Art. 41.1: cuando el interesado o su representante rechace la notificación, se hará constar en el expediente, especificándose las circunstancias del intento, y se tendrá por EFECTUADO EL TRÁMITE siguiéndose el procedimiento",
+          "Art. 42.2 — dos intentos en papel: si nadie se hace cargo de la notificación, se hará constar en el expediente y se repetirá por UNA SOLA VEZ y en HORA DISTINTA dentro de los TRES DÍAS siguientes, en día distinto al primer intento y con al menos TRES HORAS de diferencia",
+          "Art. 43.2 — notificación electrónica: se entiende PRACTICADA en el momento en que se produzca el acceso a su contenido, y RECHAZADA cuando hayan transcurrido DIEZ DÍAS NATURALES desde la puesta a disposición sin que se acceda a su contenido",
+          "Art. 45 — PUBLICACIÓN sustitutiva de la notificación: cuando el acto tenga por destinatario a una PLURALIDAD INDETERMINADA de personas, cuando se trate de actos integrantes de un procedimiento SELECTIVO O DE CONCURRENCIA COMPETITIVA, o cuando la Administración estime que la notificación a un solo interesado es insuficiente para garantizar la notificación a todos",
+          "Art. 46 — INDICACIÓN de notificaciones y publicaciones: si el órgano competente aprecia que la notificación por medio de anuncios o la publicación lesiona derechos o intereses legítimos, se limitará a publicar en el diario oficial una somera INDICACIÓN del contenido del acto y del lugar donde los interesados podrán comparecer para conocer el contenido íntegro",
         ],
       },
       {
-        h: "Invalidez: nulidad y anulabilidad (arts. 47-48)",
+        h: "Invalidez: nulidad, anulabilidad y conservación (arts. 47-52)",
+        nota:
+          "La nulidad de pleno derecho es la excepción y su lista es TASADA; todo lo demás que infringe el ordenamiento es anulabilidad. La diferencia práctica está en el régimen: la nulidad no se convalida, no prescribe y opera de pleno derecho; la anulabilidad puede convalidarse, se sana por el transcurso del tiempo y exige que el defecto de forma prive al acto de sus requisitos esenciales o produzca INDEFENSIÓN. Los arts. 49 a 52 completan el cuadro con cuatro reglas de economía procesal que conviene distinguir: no extensión de la invalidez, CONVERSIÓN del acto viciado en otro distinto, CONSERVACIÓN de los actos y trámites cuyo contenido se habría mantenido igual, y CONVALIDACIÓN de los anulables, que produce efectos DESDE SU FECHA y no hacia atrás.",
         items: [
           "Nulidad de pleno derecho (art. 47.1): 7 causas tasadas (letras a-g), incluyendo prescindencia total y absoluta del procedimiento (letra e)",
           "Anulabilidad: cualquier infracción del OJ, incluida la de forma (art. 48.1)",
           "Defecto de forma → anulabilidad solo si impide alcanzar el fin del acto O genera indefensión (art. 48.2)",
+          "LAS SIETE CAUSAS DE NULIDAD (art. 47.1): a) actos que LESIONEN LOS DERECHOS Y LIBERTADES susceptibles de amparo constitucional · b) los dictados por órgano MANIFIESTAMENTE INCOMPETENTE por razón de la MATERIA O DEL TERRITORIO · c) los de CONTENIDO IMPOSIBLE · d) los que sean CONSTITUTIVOS DE INFRACCIÓN PENAL o se dicten como consecuencia de ésta · e) los dictados PRESCINDIENDO TOTAL Y ABSOLUTAMENTE del procedimiento legalmente establecido o de las normas que contienen las reglas esenciales para la formación de la voluntad de los órganos colegiados · f) los actos EXPRESOS O PRESUNTOS contrarios al ordenamiento por los que se adquieren facultades o derechos CARECIENDO DE LOS REQUISITOS ESENCIALES para su adquisición · g) cualquier otro que se establezca expresamente en una disposición con rango de ley",
+          "Ojo a la letra b): la incompetencia que produce nulidad es la MANIFIESTA y por razón de la MATERIA O EL TERRITORIO; la incompetencia JERÁRQUICA es mera anulabilidad y además convalidable (art. 52.3)",
+          "La letra f) es la que fundamenta que una licencia obtenida por silencio contra el planeamiento sea NULA DE PLENO DERECHO: no cabe adquirir por silencio facultades careciendo de los requisitos esenciales",
+          "Art. 47.2 — nulidad de las DISPOSICIONES ADMINISTRATIVAS: las que vulneren la Constitución, las leyes u otras disposiciones de rango superior, las que regulen materias reservadas a la ley y las que establezcan la RETROACTIVIDAD de disposiciones sancionadoras no favorables o restrictivas de derechos individuales",
+          "Art. 48.3 — actuaciones FUERA DE PLAZO: la realización de actuaciones administrativas fuera del tiempo establecido solo implica la anulabilidad del acto cuando así lo imponga la NATURALEZA DEL TÉRMINO O PLAZO",
+          "Art. 49 — LÍMITES A LA EXTENSIÓN: la nulidad o anulabilidad de un acto NO implica la de los sucesivos independientes del primero; la nulidad de una PARTE del acto no implica la de las demás partes independientes de aquélla, salvo que la parte viciada sea de tal importancia que sin ella el acto no hubiera sido dictado",
+          "Art. 50 — CONVERSIÓN: los actos nulos o anulables que contengan los elementos constitutivos de OTRO DISTINTO producirán los efectos de éste",
+          "Art. 51 — CONSERVACIÓN: el órgano que declare la nulidad o anule las actuaciones dispondrá siempre la CONSERVACIÓN de aquellos actos y trámites cuyo contenido se hubiera mantenido igual de no haberse cometido la infracción",
+          "Art. 52.3: si el vicio consistiese en la falta de alguna AUTORIZACIÓN, podrá ser convalidado el acto mediante el otorgamiento de la misma por el órgano competente. La convalidación por INCOMPETENCIA JERÁRQUICA la realiza el órgano competente cuando sea superior jerárquico del que dictó el acto",
         ],
       },
     ],
     claves: [
-      "Obligados electrónicos: PJ, entidades sin personalidad, colegiados en ejercicio, representantes, empleados públicos",
+      "Obligados electrónicos: PJ, entidades sin personalidad, colegiados en ejercicio (arquitectos incluidos), representantes, empleados públicos",
+      "Interesado del art. 4.1.c: debe personarse ANTES de la resolución definitiva",
+      "Representación: se presume en actos de trámite; ha de acreditarse para solicitudes, recursos, desistimiento y renuncia — subsanable en 10 días",
+      "Poderes del registro electrónico: validez máxima de CINCO AÑOS",
+      "Comparecencia personal: obligatoria solo si lo prevé una norma CON RANGO DE LEY",
+      "Plazos en MESES: de fecha a fecha; si no hay día equivalente, el último del mes",
+      "Plazo máximo para resolver: nunca más de SEIS MESES salvo norma con rango de ley o Derecho de la UE",
+      "Ampliación de plazos: como máximo la MITAD, pedida ANTES del vencimiento y sin recurso",
+      "Alzada contra desestimación presunta: se entiende ESTIMADO si no se resuelve en plazo (art. 24.1)",
+      "El silencio estimatorio es ACTO FINALIZADOR; la resolución expresa posterior solo puede ser CONFIRMATORIA",
+      "Inderogabilidad singular: la resolución particular no puede vulnerar un reglamento, aunque venga de órgano superior (art. 37)",
+      "Los actos producen efectos DESDE QUE SE DICTAN; la notificación es requisito de EFICACIA, no de validez",
+      "Dos intentos de notificación en papel: hora distinta, dentro de 3 días, con 3 horas de diferencia",
+      "Nulidad por incompetencia: solo la MANIFIESTA y por MATERIA O TERRITORIO. La jerárquica es anulable y convalidable",
+      "Art. 47.1.f: no se adquieren por silencio facultades careciendo de los REQUISITOS ESENCIALES — base de la nulidad de licencias contra el planeamiento",
       "Plazo supletorio resolver: 3 meses (no 6)",
       "Plazos por días = hábiles",
       "Silencio positivo regla general; desestimatorio en 4 supuestos tasados",
@@ -510,15 +590,21 @@ export const RESUMENES = {
     bloques: [
       {
         h: "Ámbito subjetivo y principios (arts. 1-3)",
+        nota:
+          "La Ley 40/2015 regula el «hacia dentro» de la Administración —organización, órganos, relaciones entre Administraciones y responsabilidad— mientras que la 39/2015 regula el «hacia fuera», el procedimiento con el ciudadano. Tenerlo claro evita la mitad de los errores del bloque. El art. 2 se pregunta por exclusión: dentro del sector público institucional hay tres categorías, pero solo los ORGANISMOS PÚBLICOS Y ENTIDADES DE DERECHO PÚBLICO son Administración Pública; las entidades de derecho privado vinculadas y las universidades públicas forman parte del sector público pero NO son Administración.",
         items: [
           "Art. 2.2: el sector público institucional comprende: a) organismos públicos y entidades de derecho público; b) entidades de derecho privado vinculadas/dependientes; c) universidades públicas.",
           "Art. 2.3: son Administraciones Públicas la AGE, las CCAA, las EE.LL. y los organismos/entidades del art. 2.2.a. Las del 2.2.b (privadas) y 2.2.c (universidades) NO son AAPP.",
           "Art. 3.1: las AAPP actúan conforme a eficacia, jerarquía, descentralización, desconcentración y coordinación.",
           "Art. 3.1 letras a-k: 11 principios adicionales, entre ellos servicio efectivo, objetividad, buena fe, confianza legítima, eficiencia, cooperación.",
+          "Art. 3.2: las AAPP se relacionan entre sí y con sus órganos, organismos y entidades por MEDIOS ELECTRÓNICOS, asegurando la interoperabilidad y seguridad de los sistemas y la protección de datos",
+          "Art. 4 — PRINCIPIOS DE INTERVENCIÓN, de aplicación directa al control municipal de actividades: la actuación debe ser NECESARIA y PROPORCIONADA a la finalidad perseguida, eligiendo la medida MENOS RESTRICTIVA, motivándola y justificando su adecuación. Las AAPP velarán por el cumplimiento de los requisitos aplicables, para lo que podrán comprobar, verificar, investigar e inspeccionar",
         ],
       },
       {
         h: "Órganos administrativos (art. 5)",
+        nota:
+          "Artículo corto pero con una definición que se pregunta literal: no toda unidad administrativa es órgano, solo aquellas a las que se atribuyan funciones con EFECTOS JURÍDICOS FRENTE A TERCEROS o cuya actuación tenga carácter PRECEPTIVO. Los tres requisitos para crear uno —encaje jerárquico, delimitación de funciones y competencias, y crédito presupuestario— se enumeran para que el examen te pida el que falta, y la prohibición del apartado 4 impide duplicar órganos sin suprimir o restringir la competencia del anterior.",
         items: [
           "Art. 5.1: son órganos las unidades con funciones que tengan efectos jurídicos frente a terceros O cuya actuación sea preceptiva.",
           "Art. 5.3: crear un órgano exige: a) integración y dependencia jerárquica; b) funciones y competencias; c) dotación de créditos necesarios.",
@@ -527,6 +613,8 @@ export const RESUMENES = {
       },
       {
         h: "Abstención y recusación (arts. 23-24)",
+        nota:
+          "Bloque de aplicación diaria para quien informa expedientes, y de examen fácil si retienes dos asimetrías. La primera, en los grados de parentesco: CUATRO de consanguinidad frente a DOS de afinidad. La segunda, en los efectos: la actuación de una autoridad en la que concurre causa de abstención NO implica necesariamente la invalidez del acto, aunque sí puede generar responsabilidad. Los plazos de la recusación son cortos y contrapuestos —UN día para que el recusado se manifieste, TRES para que resuelva el superior si niega la causa—, y contra esa resolución no cabe recurso independiente.",
         items: [
           "Art. 23.2.b: abstención por parentesco de consanguinidad dentro del 4.º grado o de afinidad dentro del 2.º grado.",
           "Art. 23.2.c: también por amistad íntima o enemistad manifiesta.",
@@ -539,6 +627,8 @@ export const RESUMENES = {
       },
       {
         h: "Responsabilidad patrimonial (arts. 32-37)",
+        nota:
+          "El sistema español es de responsabilidad OBJETIVA: se responde del funcionamiento normal y del anormal, sin necesidad de culpa, y el único límite general es la FUERZA MAYOR —que no debe confundirse con el caso fortuito, que sí genera responsabilidad—. Dos reglas antiabuso conviene memorizarlas porque se preguntan tal cual: la anulación de un acto no presupone por sí misma derecho a indemnización, y no son indemnizables los daños que el particular tenga el DEBER JURÍDICO DE SOPORTAR. Y ojo al art. 36, que es donde vive el llamado derecho de repetición: la Administración indemniza al particular y DE OFICIO exige después a su autoridad o personal, pero solo por dolo, culpa o negligencia GRAVES.",
         items: [
           "Art. 32.1: responsabilidad por funcionamiento normal O anormal de los servicios públicos; excluida la fuerza mayor.",
           "Art. 32.1 (párrafo 2): la anulación del acto NO presupone por sí misma derecho a indemnización.",
@@ -547,6 +637,13 @@ export const RESUMENES = {
           "Art. 33.2: concurrencia sin fórmula conjunta → criterios de competencia, interés público e intensidad; solidaria si no es posible determinar la parte.",
           "Art. 34.3: cuantía calculada con referencia al día de la lesión + actualización según el Índice de Garantía de la Competitividad.",
           "Art. 34.4: la indemnización puede sustituirse por compensación en especie o pagos periódicos con acuerdo del interesado.",
+          "Art. 32.1 — regla clave: NO son indemnizables los daños que el particular tenga el DEBER JURÍDICO DE SOPORTAR de acuerdo con la ley. Y solo se excluye la FUERZA MAYOR, no el caso fortuito",
+          "Art. 32.3: también procede indemnización por la aplicación de ACTOS LEGISLATIVOS de naturaleza no expropiatoria que el particular no tenga el deber de soportar, cuando así se establezca en los propios actos",
+          "Art. 32.9: se sigue el procedimiento de la Ley 39/2015, y en materia de RESPONSABILIDAD CONCURRENTE, las especialidades del art. 33",
+          "Art. 35 — responsabilidad de DERECHO PRIVADO: cuando las AAPP actúen en relaciones de derecho privado responden DIRECTAMENTE del daño causado por el personal a su servicio, considerándose la actuación de éste como actuación de la propia Administración",
+          "Art. 36.2 — ACCIÓN DE REGRESO: la Administración, una vez indemnizado el particular, exigirá DE OFICIO de sus autoridades y personal la responsabilidad en que hubieran incurrido por DOLO, CULPA O NEGLIGENCIA GRAVES, previa instrucción del procedimiento y ponderando el resultado dañoso, la existencia o no de intencionalidad, la responsabilidad profesional del causante y su relación con la producción del resultado",
+          "Art. 36.3: el particular exige SIEMPRE a la Administración, nunca directamente a la autoridad o funcionario",
+          "Art. 37: la responsabilidad PENAL del personal se exige conforme a la legislación correspondiente, sin que ello suspenda los procedimientos de reconocimiento de responsabilidad patrimonial salvo que la determinación de los hechos en vía penal sea necesaria",
           "Art. 36.1: el particular exige siempre la indemnización a la Administración, nunca directamente al funcionario.",
           "Art. 36.2: la Administración exige de oficio la responsabilidad al personal por dolo o culpa/negligencia graves.",
           "Art. 37: la vía penal NO suspende el procedimiento de responsabilidad patrimonial, salvo que la determinación de hechos en sede penal sea necesaria.",
@@ -554,6 +651,8 @@ export const RESUMENES = {
       },
       {
         h: "Relaciones interadministrativas (arts. 140-158)",
+        nota:
+          "Tres conceptos que el examen intercambia sin piedad y que conviene separar por su naturaleza jurídica. COLABORACIÓN es un DEBER general de auxilio mutuo, no se pacta. COOPERACIÓN es VOLUNTARIA y se plasma en compromisos específicos que exigen aceptación expresa. COORDINACIÓN implica una posición de supremacía para garantizar coherencia, y corresponde singularmente a la Administración General del Estado. De ahí se sigue lo demás: como colaborar es un deber, negarse solo cabe por las CUATRO causas tasadas del art. 141.2 y siempre motivadamente.",
         items: [
           "Art. 140.1.c: colaboración = deber general de actuar conjuntamente para fines comunes.",
           "Art. 140.1.d: cooperación = compromisos específicos voluntarios entre dos o más Administraciones.",
@@ -564,6 +663,9 @@ export const RESUMENES = {
           "Art. 156.1: ENI — criterios y recomendaciones de seguridad, conservación y normalización para garantizar la interoperabilidad.",
           "Art. 156.2: ENS — política de seguridad en la utilización de medios electrónicos (principios básicos y requisitos mínimos).",
           "Art. 157.3: antes de adquirir o desarrollar una aplicación → consulta obligatoria en el directorio general; si hay solución disponible → obligada a reutilizarla salvo justificación de eficiencia.",
+          "Art. 142 — TÉCNICAS DE COLABORACIÓN: suministro de información, datos, documentos o medios probatorios · creación y mantenimiento de SISTEMAS INTEGRADOS DE INFORMACIÓN · deber de asistencia y auxilio para atender solicitudes en el ejercicio de competencias propias · y cualquier otra prevista en una ley",
+          "Art. 144 — TÉCNICAS DE COOPERACIÓN: participación en órganos de cooperación · participación en órganos consultivos de otras Administraciones · participación de una Administración en organismos de otra · prestación de medios materiales, económicos o personales · CONVENIOS · creación de consorcios · y cualesquiera otras previstas en la ley",
+          "Art. 140.1 — otros principios: lealtad institucional, adecuación al sistema de distribución de competencias, solidaridad interterritorial, gestión responsable de los recursos, y garantía e igualdad en el ejercicio de los derechos de todos los ciudadanos",
         ],
       },
     ],
@@ -580,6 +682,14 @@ export const RESUMENES = {
       "Cooperación = voluntaria + compromisos específicos. Colaboración = deber general. Coordinación = AGE (art. 140.1).",
       "Plazo oposición cedente datos: 10 días (art. 155.3).",
       "ENI = interoperabilidad. ENS = seguridad (art. 156).",
+      "Art. 4: la intervención debe ser NECESARIA y PROPORCIONADA, eligiendo la medida MENOS RESTRICTIVA y motivándola",
+      "Solo excluye la responsabilidad la FUERZA MAYOR, no el caso fortuito (art. 32.1)",
+      "No indemnizable el daño que se tenga el DEBER JURÍDICO DE SOPORTAR (art. 32.1)",
+      "El particular reclama SIEMPRE a la Administración, nunca al funcionario (art. 36.3)",
+      "La acción de regreso se ejerce DE OFICIO y solo por dolo, culpa o negligencia GRAVES (art. 36.2)",
+      "En relaciones de derecho privado la Administración responde DIRECTAMENTE de los daños de su personal (art. 35)",
+      "Negativa a colaborar: 4 causas TASADAS y siempre motivada (art. 141.2)",
+      "La cooperación exige ACEPTACIÓN EXPRESA; la colaboración es un deber que no se pacta (art. 143.2)",
     ],
   },
 
