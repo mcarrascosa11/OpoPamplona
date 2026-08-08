@@ -4712,6 +4712,213 @@ export const RESUMENES = {
     ],
   },
 
+  E41: {
+    intro:
+      "Dos normas de nivel distinto que se complementan. El RD 1367/2007 desarrolla la Ley 37/2003 del Ruido y establece el andamiaje conceptual: ÍNDICES acústicos, ÁREAS ACÚSTICAS, OBJETIVOS DE CALIDAD y SERVIDUMBRES acústicas. El DF 135/1989 baja al detalle práctico y regula qué debe contener el PROYECTO ACÚSTICO que acompaña al expediente de una actividad. Para un arquitecto municipal la conexión decisiva son los arts. 11 y 13 del real decreto: toda figura de planeamiento debe incluir explícitamente la ZONIFICACIÓN ACÚSTICA, cualquier modificación del planeamiento que cambie usos del suelo obliga a REVISAR esa zonificación, y los planes que ordenen ámbitos afectados por servidumbres acústicas deben remitirse ANTES DE SU APROBACIÓN INICIAL al órgano competente de la infraestructura para informe preceptivo. La lógica de fondo del sistema es que el objetivo de calidad no es un valor único: depende del TIPO DE ÁREA ACÚSTICA y de si el área está ya urbanizada o es de nuevo desarrollo.",
+    bloques: [
+      {
+        h: "Índices acústicos y de vibración (arts. 3-4)",
+        nota:
+          "Los índices se preguntan por su significado, no por su fórmula. Retén que LAeq,T evalúa niveles sonoros en un intervalo temporal T, y que la letra K en LKeq,T y LK,x indica que el valor lleva CORRECCIONES por componentes tonales emergentes, de baja frecuencia o por ruido impulsivo — esa K es la pista para identificarlos. El índice de VIBRACIÓN es uno solo, Law, y se aplica en el ESPACIO INTERIOR de los edificios.",
+        items: [
+          "Art. 3.1.a — índices para la evaluación del RUIDO, además de los del RD 1513/2005: LAmax para niveles sonoros MÁXIMOS durante el periodo temporal de evaluación · LAeq,T para niveles sonoros en un INTERVALO TEMPORAL T · LKeq,T para niveles en un intervalo T CON CORRECCIONES por componentes tonales emergentes, de baja frecuencia o ruido impulsivo · LK,x para evaluar la molestia y los niveles sonoros con esas mismas correcciones, PROMEDIADOS A LARGO PLAZO en el periodo temporal de evaluación «x»",
+          "Art. 3.1.b — índice de VIBRACIÓN: Law, para evaluar la molestia y los niveles de vibración máximos durante el periodo temporal de evaluación, EN EL ESPACIO INTERIOR DE EDIFICIOS",
+          "Art. 4 — los índices Ld, Le y Ln, definidos en el anexo I del RD 1513/2005, se aplican para verificar el cumplimiento de los OBJETIVOS DE CALIDAD ACÚSTICA aplicables a las áreas acústicas y al espacio interior de los edificios",
+        ],
+      },
+      {
+        h: "Áreas acústicas: tipos y delimitación (arts. 5-6)",
+        nota:
+          "Los SIETE tipos de área acústica del art. 5 son un mínimo: las comunidades autónomas determinan los tipos, pero han de prever al menos estos siete. Se clasifican por el USO PREDOMINANTE del suelo, y esa es la palabra clave — no por el uso puntual de una parcela. Ojo a que las letras d) y e) se distinguen con precisión: la e) agrupa los usos SANITARIO, DOCENTE Y CULTURAL que requieran especial protección, mientras que la d) es el terciario RESTANTE.",
+        items: [
+          "Art. 5.1 — en la planificación territorial y en los instrumentos de planeamiento urbanístico, TANTO GENERAL COMO DE DESARROLLO, se incluirá la ZONIFICACIÓN ACÚSTICA del territorio en áreas acústicas",
+          "SIETE TIPOS mínimos de área acústica, en atención al USO PREDOMINANTE del suelo: a) sectores con predominio de uso RESIDENCIAL · b) uso INDUSTRIAL · c) uso RECREATIVO Y DE ESPECTÁCULOS · d) uso TERCIARIO distinto del anterior · e) uso SANITARIO, DOCENTE Y CULTURAL que requiera especial protección contra la contaminación acústica · f) sectores afectados a SISTEMAS GENERALES DE INFRAESTRUCTURAS DE TRANSPORTE u otros equipamientos públicos que lo reclamen · g) ESPACIOS NATURALES que requieran especial protección",
+          "Al zonificar debe tenerse en cuenta la existencia de ZONAS DE SERVIDUMBRE ACÚSTICA y de RESERVAS DE SONIDO DE ORIGEN NATURAL",
+          "Art. 6 — REVISIÓN de las áreas acústicas conforme a los criterios del propio real decreto",
+        ],
+      },
+      {
+        h: "Servidumbres acústicas (arts. 7-12)",
+        nota:
+          "Figura pensada para hacer compatible el funcionamiento de las INFRAESTRUCTURAS DE TRANSPORTE —viario, ferroviario, aéreo y portuario— con los usos del suelo de su entorno. Su efecto es doble y conviene entenderlo bien: hacia dentro, en los sectores gravados las inmisiones PUEDEN SUPERAR los objetivos de calidad del área acústica; hacia fuera, pueden establecerse LIMITACIONES a determinados usos, actividades, instalaciones o edificaciones. Tienen vigencia INDEFINIDA y solo se revisan cuando hay modificaciones sustanciales en la infraestructura que alteren significativamente los niveles sonoros.",
+        items: [
+          "Art. 7.1 — CONCEPTO: servidumbres destinadas a conseguir la compatibilidad del funcionamiento o desarrollo de las infraestructuras de transporte VIARIO, FERROVIARIO, AÉREO Y PORTUARIO con los usos del suelo, actividades, instalaciones o edificaciones implantadas o que puedan implantarse en la zona de afección por el ruido",
+          "Art. 7.3 — en los sectores gravados por servidumbres acústicas las inmisiones PODRÁN SUPERAR los objetivos de calidad acústica aplicables a las correspondientes áreas acústicas",
+          "Art. 7.4 — en esos sectores PODRÁN ESTABLECERSE LIMITACIONES para determinados usos del suelo, actividades, instalaciones o edificaciones, con la finalidad de cumplir al menos los valores límite de inmisión establecidos para aquéllos",
+          "Art. 11.1 — el planeamiento territorial y urbanístico incluirá las determinaciones necesarias para conseguir la EFECTIVIDAD de las servidumbres acústicas. Si el planeamiento incluye MEDIDAS CORRECTORAS EFICACES que disminuyan los niveles sonoros, la zona de servidumbre PODRÁ SER MODIFICADA por el órgano que la delimitó; si esas medidas pierden eficacia o desaparecen, la zona se RESTITUYE a su estado inicial",
+          "Art. 11.2 — REGLA CLAVE PARA EL TÉCNICO MUNICIPAL: los instrumentos de planeamiento territorial y urbanístico que ordenen ámbitos afectados por servidumbres acústicas deberán remitirse, CON ANTERIORIDAD A SU APROBACIÓN INICIAL, revisión o modificación sustancial, al ÓRGANO SUSTANTIVO COMPETENTE DE LA INFRAESTRUCTURA para que emita INFORME PRECEPTIVO. Es aplicable tanto a los nuevos instrumentos como a las modificaciones y revisiones de los existentes",
+          "Art. 12.1 — las zonas de servidumbre acústica mantienen su vigencia POR TIEMPO INDEFINIDO",
+          "Art. 12.2 — deberá REVISARSE su delimitación cuando se produzcan MODIFICACIONES SUSTANCIALES en las infraestructuras que originen variaciones significativas de los niveles sonoros en su entorno",
+        ],
+      },
+      {
+        h: "Zonificación acústica y planeamiento (art. 13)",
+        nota:
+          "El artículo que más directamente te obliga. Sus tres primeros apartados encadenan una regla sencilla: toda figura de planeamiento debe incluir EXPLÍCITAMENTE la zonificación acústica; toda modificación, revisión o adaptación del planeamiento general que cambie USOS DEL SUELO obliga a revisar esa zonificación; y al tramitar planes de desarrollo que fijen los usos PORMENORIZADOS hay que delimitar de nuevo las áreas acústicas. Los plazos del apartado 4 están agotados hace años —cinco años desde la entrada en vigor, y 1 de enero de 2008 para aglomeraciones de más de 250.000 habitantes—, pero se preguntan por su literalidad.",
+        items: [
+          "Art. 13.1 — TODAS las figuras de planeamiento incluirán DE FORMA EXPLÍCITA la delimitación correspondiente a la zonificación acústica de la superficie de actuación. Cuando la delimitación en áreas acústicas esté incluida en el PLANEAMIENTO GENERAL, se utilizará esa delimitación",
+          "Art. 13.2 — las sucesivas MODIFICACIONES, REVISIONES Y ADAPTACIONES del planeamiento general que contengan modificaciones en los USOS DEL SUELO conllevarán la necesidad de REVISAR LA ZONIFICACIÓN ACÚSTICA en el correspondiente ámbito territorial",
+          "Art. 13.3 — igualmente será necesario delimitar las áreas acústicas cuando, con motivo de la tramitación de PLANES URBANÍSTICOS DE DESARROLLO, se establezcan los USOS PORMENORIZADOS del suelo",
+          "Art. 13.4 — la delimitación por tipo de área acústica debía estar terminada, con carácter general, ANTES DE CINCO AÑOS desde la entrada en vigor del real decreto, y en las AGLOMERACIONES DE MÁS DE 250.000 HABITANTES antes del 1 DE ENERO DE 2008",
+        ],
+      },
+      {
+        h: "Objetivos de calidad acústica (arts. 14-17)",
+        nota:
+          "El sistema distingue tres situaciones y conviene fijarlas por contraste. En ÁREAS URBANIZADAS EXISTENTES, si ya se supera el valor de la tabla A el objetivo es ALCANZARLO, mediante planes zonales específicos; si no se supera, el objetivo es NO SUPERARLO. En el RESTO DE ÁREAS URBANIZADAS —las de nuevo desarrollo— el objetivo es más exigente: no superar ese valor DISMINUIDO EN 5 DECIBELIOS. Y la regla de cumplimiento del art. 15 tiene dos condiciones acumulativas que se preguntan con sus cifras: ningún valor supera el de la tabla, y el 97 % de los valores diarios no lo supera EN MÁS DE 3 dB.",
+        items: [
+          "Art. 14.1 — ÁREAS URBANIZADAS EXISTENTES: a) si se supera el valor de alguno de los índices de la TABLA A del anexo II, el objetivo de calidad será ALCANZAR DICHO VALOR, debiendo adoptarse las medidas para la mejora acústica progresiva mediante PLANES ZONALES ESPECÍFICOS del art. 25.3 de la Ley 37/2003 · b) en caso contrario, el objetivo será la NO SUPERACIÓN de ese valor",
+          "Art. 14.2 — RESTO DE ÁREAS URBANIZADAS: el objetivo es la no superación del valor de la tabla A DISMINUIDO EN 5 DECIBELIOS",
+          "Art. 14.3 — en los ESPACIOS NATURALES delimitados como área acústica tipo g), los objetivos se establecen PARA CADA CASO EN PARTICULAR, atendiendo a las necesidades específicas que justifiquen su calificación",
+          "Art. 14.4 — ZONAS TRANQUILAS en aglomeraciones y en campo abierto: mantener los niveles por debajo del valor de la tabla A DISMINUIDO EN 5 DECIBELIOS, preservando la mejor calidad acústica compatible con el desarrollo sostenible",
+          "Art. 15 — CUMPLIMIENTO, dos condiciones acumulativas en el periodo de UN AÑO: a) NINGÚN valor supera los fijados en la tabla A · b) el 97 % DE TODOS LOS VALORES DIARIOS no supera EN 3 dB los valores fijados",
+          "Art. 16 — ESPACIO INTERIOR: se establece como objetivo la no superación, en el interior de las edificaciones destinadas a VIVIENDA y usos RESIDENCIALES, HOSPITALARIOS, EDUCATIVOS O CULTURALES, de los valores de las TABLAS B (ruido) y C (vibraciones) del anexo II. Estos valores tienen la consideración de VALORES LÍMITE",
+          "Art. 17 — el cumplimiento en el espacio interior se verifica con la misma regla del 97 % y los 3 dB, referida a la tabla B",
+        ],
+      },
+      {
+        h: "Emisiones, evaluación y mapas de ruido (arts. 21-32)",
+        nota:
+          "Bloque de encuadre. Del capítulo de evaluación interesa retener que los métodos, los instrumentos de medida y las entidades que realizan la evaluación están regulados, y que los MAPAS DE RUIDO son el instrumento de diagnóstico sobre el que después se apoyan los planes de acción. El título competencial del real decreto también se pregunta: se dicta al amparo del art. 149.1.16.ª y 23.ª de la Constitución —bases y coordinación general de la sanidad y legislación básica sobre protección del medio ambiente—.",
+        items: [
+          "Art. 21 — emisión de ruido de las AERONAVES SUBSÓNICAS CIVILES. Art. 22 — emisión de ruido de las MÁQUINAS DE USO AL AIRE LIBRE",
+          "Arts. 27-31 — MÉTODOS DE EVALUACIÓN de los índices acústicos, métodos de cálculo de Ld, Le y Ln, métodos de evaluación de los EFECTOS NOCIVOS, INSTRUMENTOS DE MEDIDA y ENTIDADES que realizan la evaluación",
+          "Art. 32 — elaboración de MAPAS DE RUIDO",
+          "Anexo III — las RELACIONES DOSIS-EFECTO se utilizan para evaluar el efecto del ruido sobre la población, en particular la relación entre las MOLESTIAS y los valores de Lden, y entre las ALTERACIONES DEL SUEÑO y los valores de Ln",
+          "Título competencial: art. 149.1.16.ª y 23.ª de la Constitución —bases y coordinación general de la sanidad y legislación básica sobre protección del medio ambiente—",
+        ],
+      },
+      {
+        h: "DF 135/1989 — el proyecto acústico (Cap. III, arts. 10 y ss.)",
+        nota:
+          "La parte que aplicarás al informar el expediente de una actividad. El proyecto acústico no se exige siempre: solo cuando la actividad esté PRÓXIMA a viviendas, instalaciones sanitarias o centros docentes, o cuando se presuma que los niveles sonoros puedan suponer incrementos apreciables del ruido de fondo en zonas sanitarias, docentes o residenciales. Su contenido está tasado —MEMORIA y PLANOS— y hay dos reglas de cálculo que conviene retener: las TRANSMISIONES INDIRECTAS se suponen, como mínimo, un incremento de 3 dBA salvo que la solución técnica garantice su inexistencia; y si la actividad necesita puertas y ventanas cerradas para garantizar el aislamiento, hay que disponer VENTILACIÓN FORZADA.",
+        items: [
+          "Art. 10.1 — CUÁNDO se exige: en los expedientes de actividades referentes a nuevas actividades o AMPLIACIÓN de las existentes, los proyectos técnicos deberán incluir un PROYECTO ACÚSTICO cuando las actividades estén situadas EN LAS PROXIMIDADES de viviendas, instalaciones sanitarias o actividades docentes, así como cuando se presuma que los niveles sonoros exterior o interior puedan suponer INCREMENTOS APRECIABLES del nivel sonoro del ruido de fondo en zonas sanitarias, docentes o residenciales",
+          "Art. 10.2 — el proyecto acústico comprende MEMORIA TÉCNICA Y PLANOS",
+          "Contenido de la MEMORIA: definición del TIPO DE ACTIVIDAD · HORARIO previsto · NIVELES SONOROS DE EMISIÓN A 1 METRO o nivel sonoro reverberado · descripción de los AISLAMIENTOS ACÚSTICOS Y SILENCIADORES proyectados, con expresión de su aislamiento bruto en dBA y del tipo de AMORTIGUADORES DE VIBRACIONES previstos, indicando flexión estática en mm y frecuencia propia en Hz · JUSTIFICACIÓN de que se cumplen los niveles de inmisión en función de los de emisión y las atenuaciones conseguidas · y medidas correctoras para el aislamiento de RUIDOS DE IMPACTO cuando el aislamiento general se prevea insuficiente",
+          "PLANOS mínimos: plano de SITUACIÓN de la actividad en relación con viviendas, instalaciones sanitarias o edificios docentes · planos de AISLAMIENTO ACÚSTICO a escala 1/50, con DETALLES A 1/5 de materiales, espesores y juntas",
+          "Art. 10.3 — al calcular el aislamiento necesario se supondrá que las TRANSMISIONES INDIRECTAS incrementan los niveles de inmisión, COMO MÍNIMO, EN 3 dBA, salvo que la solución técnica propuesta garantice suficientemente su inexistencia",
+          "Art. 10.4 — cuando sea necesario desarrollar la actividad con PUERTAS Y VENTANAS CERRADAS para garantizar el aislamiento, se dispondrá de sistema de VENTILACIÓN FORZADA",
+          "Art. 10.5 — deben considerarse las molestias por EFECTOS INDIRECTOS, con especial atención a: actividades que generen TRÁFICO ELEVADO en sus inmediaciones —almacenes, locales públicos y especialmente DISCOTECAS— en zonas de elevada densidad o con calles estrechas y escasos aparcamientos · actividades con operaciones de CARGA O DESCARGA en horario nocturno · y actividades con FUNCIONAMIENTO NOCTURNO de las instalaciones",
+        ],
+      },
+    ],
+    claves: [
+      "La K de LKeq,T y LK,x indica CORRECCIONES por componentes tonales, de baja frecuencia o ruido impulsivo",
+      "Índice de vibración: Law, aplicable al ESPACIO INTERIOR de edificios",
+      "SIETE tipos mínimos de área acústica, por USO PREDOMINANTE del suelo",
+      "El tipo e) agrupa sanitario, docente y cultural con especial protección; el d) es el terciario restante",
+      "Servidumbres acústicas: para compatibilizar las infraestructuras de transporte VIARIO, FERROVIARIO, AÉREO Y PORTUARIO con los usos del entorno",
+      "En zona de servidumbre acústica las inmisiones PUEDEN SUPERAR los objetivos de calidad del área",
+      "Las servidumbres acústicas tienen vigencia INDEFINIDA (art. 12.1)",
+      "Los planes que ordenen ámbitos con servidumbre acústica se remiten ANTES DE LA APROBACIÓN INICIAL al órgano de la infraestructura, para INFORME PRECEPTIVO (art. 11.2)",
+      "TODAS las figuras de planeamiento incluyen explícitamente la zonificación acústica (art. 13.1)",
+      "Modificar los USOS DEL SUELO obliga a REVISAR la zonificación acústica (art. 13.2)",
+      "Áreas urbanizadas EXISTENTES: si se supera la tabla A, el objetivo es ALCANZARLA mediante planes zonales",
+      "RESTO de áreas urbanizadas y zonas tranquilas: tabla A DISMINUIDA EN 5 dB",
+      "Cumplimiento: ningún valor supera la tabla Y el 97 % de los valores diarios no la supera EN 3 dB, en el periodo de UN AÑO",
+      "Espacio interior: tabla B (ruido) y tabla C (vibraciones); tienen consideración de VALORES LÍMITE",
+      "Aglomeraciones de más de 250.000 habitantes: zonificación antes del 1 de enero de 2008",
+      "DF 135/1989: el proyecto acústico se exige por PROXIMIDAD a viviendas, sanitario o docente, o por incremento apreciable del ruido de fondo",
+      "El proyecto acústico comprende MEMORIA y PLANOS; aislamiento a 1/50 con detalles a 1/5",
+      "Transmisiones indirectas: se suponen un incremento MÍNIMO de 3 dBA salvo garantía técnica en contra",
+      "Si hace falta trabajar con puertas y ventanas cerradas: VENTILACIÓN FORZADA obligatoria",
+      "Efectos indirectos a considerar: tráfico elevado (discotecas), carga y descarga nocturna y funcionamiento nocturno",
+    ],
+  },
+
+  E42: {
+    intro:
+      "Ley corta y de estructura muy clara: tres títulos que responden a QUÉ es un lugar de la memoria, CÓMO se declara e inscribe, y QUÉ régimen de protección arrastra esa inscripción. Es un tema que se examina bien porque casi todo su contenido son PLAZOS y EFECTOS, y porque el procedimiento del art. 7 concentra la mayoría de las preguntas posibles. Para un arquitecto municipal hay tres puntos de contacto directos y conviene tenerlos localizados: la resolución de inicio SUSPENDE cautelarmente las licencias de parcelación, edificación o demolición y los efectos de las ya otorgadas; las entidades locales DEBEN comunicar previamente al Gobierno de Navarra las solicitudes de licencia que afecten a un lugar de la memoria; y los instrumentos de planificación territorial y urbanística que afecten a estos bienes necesitan la CONFORMIDAD del departamento competente. Conviene estudiarla en paralelo con el tema 37, porque su arquitectura —registro, declaración, deberes del titular, autorización de intervenciones— replica la de la Ley Foral del Patrimonio Cultural, pero con plazos propios que no coinciden.",
+    bloques: [
+      {
+        h: "Objeto, concepto y alcance cronológico (arts. 1-4)",
+        nota:
+          "El art. 2 define dos categorías distintas de lugar de la memoria y el examen las intercambia. La primera es la HISTÓRICA: espacios vinculados directamente a los hechos —fosas y enterramientos, lugares de detención y asesinato, y obras públicas construidas con TRABAJOS FORZADOS de personas presas—. La segunda es la MEMORIAL: espacios que NO están vinculados directa e históricamente a aquellos acontecimientos, sino que fueron erigidos después en recuerdo y reparación de las víctimas. Esa distinción tiene consecuencia práctica en el art. 4.2, porque el alcance cronológico NO se aplica a los de la segunda categoría.",
+        items: [
+          "Art. 1 — OBJETO: regular la declaración, protección, conservación y difusión de los lugares de la memoria histórica de Navarra, para que sirvan como ESPACIOS DE TRANSMISIÓN DE LA MEMORIA y contribuyan a promover una cultura de paz y convivencia",
+          "Art. 2.1 — LUGAR DE LA MEMORIA HISTÓRICA: espacio físico ubicado en Navarra, DECLARADO E INSCRITO como tal, de interés para la Comunidad Foral como patrimonio histórico de la memoria por haberse desarrollado en él hechos de singular relevancia vinculados con la represión y violencia ejercidas sobre la población como consecuencia del GOLPE MILITAR DE 1936 y la subsiguiente represión franquista",
+          "TRES SUPUESTOS del art. 2.1: a) las FOSAS O ENTERRAMIENTOS individuales o colectivos de personas fusiladas y desaparecidas · b) los LUGARES DE DETENCIÓN Y ASESINATO de quienes sufrieron la violencia y represión franquista · c) las OBRAS PÚBLICAS CONSTRUIDAS CON TRABAJOS FORZADOS de personas presas durante el franquismo",
+          "Art. 2.2 — SEGUNDA CATEGORÍA: también es lugar de la memoria el espacio que, AUN NO ESTANDO VINCULADO DIRECTA E HISTÓRICAMENTE a aquellos acontecimientos, haya sido erigido en fechas posteriores por las familias de las víctimas, las asociaciones memorialistas, las instituciones o las administraciones públicas en recuerdo, reconocimiento y reparación de las víctimas",
+          "Art. 4.1 — ALCANCE CRONOLÓGICO: el período comprendido entre el GOLPE MILITAR DE JULIO DE 1936 y la ENTRADA EN VIGOR DE LA CONSTITUCIÓN EL 29 DE DICIEMBRE DE 1978",
+          "Art. 4.2 — esas fechas NO SE TIENEN EN CUENTA respecto de los espacios memoriales del art. 2.2",
+          "Art. 3 — PRINCIPIOS: carácter general de la protección · colaboración institucional · colaboración con los titulares de los bienes · fomento con cargo a los Presupuestos Generales de Navarra · ACCESIBILIDAD · DIVULGACIÓN, formando su estudio parte del sistema educativo de Navarra · e IGUALDAD, con incorporación de la perspectiva de género",
+          "Art. 5 — COMPETENCIAS de la Comunidad Foral: garantizar su conservación y protección · adoptar MEDIDAS CAUTELARES o, en su caso, la EXPROPIACIÓN FORZOSA · su fomento y divulgación · la POTESTAD SANCIONADORA · y la gestión del REGISTRO. Se ejercen a través del departamento competente, con el asesoramiento de la COMISIÓN TÉCNICA DE COORDINACIÓN EN MATERIA DE MEMORIA HISTÓRICA creada por la LF 33/2013",
+        ],
+      },
+      {
+        h: "El Registro y el procedimiento de declaración (arts. 6-8)",
+        nota:
+          "El art. 7 es el artículo estrella del tema y conviene recorrerlo por sus plazos, que son cuatro y distintos: TRES MESES para resolver y notificar el inicio si la petición viene de un particular, con silencio DESESTIMATORIO · UN MES como mínimo para audiencia e información pública · TRES MESES para el informe de la Comisión Técnica, que es PRECEPTIVO Y VINCULANTE · y DOCE MESES de caducidad del procedimiento. Y la consecuencia de la caducidad es singular: no puede volver a iniciarse otro procedimiento sobre el mismo bien en TRES AÑOS, salvo que lo inste el propio titular. La resolución final no la dicta el departamento sino el GOBIERNO DE NAVARRA mediante Acuerdo.",
+        items: [
+          "Art. 6.1 — se crea el REGISTRO DE LUGARES DE LA MEMORIA HISTÓRICA DE NAVARRA como instrumento de PUBLICIDAD Y CONTROL. Es PÚBLICO y su consulta, telemática o presencial, es GRATUITA (art. 6.3)",
+          "Art. 6.2 — contenido: cada lugar tiene su FOLIO O FICHA REGISTRAL · constan la resolución de inicio y la de declaración e inscripción, y las que modifiquen el contenido registral · descripción de las características identificativas y de las medidas provisionales, cautelares y definitivas · TRANSMISIONES E INTERVENCIONES que afecten a los bienes · y cuantos actos administrativos les afecten",
+          "Art. 7.a — INICIACIÓN: de oficio por resolución del órgano competente, o A PETICIÓN MOTIVADA de cualquier persona física o jurídica, en cuyo caso la resolución de inicio debe adoptarse y notificarse en el plazo máximo de TRES MESES, entendiéndose en otro caso DESESTIMADA la solicitud",
+          "Contenido mínimo de la resolución de inicio: identificación del lugar · identificación de los VALORES materiales, históricos o simbólicos que justifican la declaración · descripción de las partes del bien objeto de declaración · DELIMITACIÓN CARTOGRÁFICA con sus coordenadas geográficas · identificación de la propiedad y de las personas afectadas · concreción de las medidas de conservación, señalización y divulgación · y de las medidas cautelares necesarias",
+          "Art. 7.b — EFECTOS DE LA RESOLUCIÓN DE INICIO: lleva aparejada la ANOTACIÓN PREVENTIVA del bien en el Registro y tiene como efecto inmediato y directo la APLICACIÓN PROVISIONAL del régimen de protección. Con carácter cautelar conlleva la SUSPENSIÓN DE LAS LICENCIAS MUNICIPALES DE PARCELACIÓN, EDIFICACIÓN O DEMOLICIÓN, así como de LOS EFECTOS DE LAS YA OTORGADAS, y la suspensión de cualquier intervención que ponga en peligro los valores del bien",
+          "La suspensión cautelar CESA cuando se resuelve el procedimiento; no obstante, el departamento puede acordar esas actuaciones durante la tramitación cuando aprecie que no se pone en peligro el valor del bien",
+          "Art. 7.c-d — la resolución de inicio se PUBLICA en el BON, y son PRECEPTIVOS los trámites de AUDIENCIA —a los particulares directamente afectados y a la entidad local donde radique el lugar, por plazo mínimo de UN MES— y de INFORMACIÓN PÚBLICA —por plazo mínimo de UN MES desde la publicación del anuncio en el BON—",
+          "Art. 7.e — concluidos esos trámites se traslada el expediente a la COMISIÓN TÉCNICA DE COORDINACIÓN, que emitirá en el plazo máximo de TRES MESES informe PRECEPTIVO Y VINCULANTE a los efectos de la declaración e inscripción",
+          "Art. 7.f-g — la RESOLUCIÓN se lleva a cabo mediante ACUERDO DE GOBIERNO DE NAVARRA, a propuesta del titular del departamento competente; se notifica a los interesados y se publica en el BON, procediéndose a la inscripción",
+          "Art. 7.i — CADUCIDAD: se produce transcurridos DOCE MESES desde la incoación sin resolución notificada. Declarada la caducidad, NO PODRÁ VOLVER A INICIARSE un nuevo procedimiento sobre el mismo bien EN LOS TRES AÑOS SIGUIENTES, salvo que se realice a instancia de la persona titular del bien",
+          "Art. 8 — la MODIFICACIÓN y la CANCELACIÓN de la inscripción, cuando hayan cambiado o desaparecido las circunstancias que la motivaron, siguen el MISMO PROCEDIMIENTO que la declaración",
+        ],
+      },
+      {
+        h: "Efectos de la inscripción y deberes de los titulares (arts. 9-12)",
+        nota:
+          "El efecto más contundente está en el art. 9.2: la inscripción lleva IMPLÍCITA la declaración de utilidad pública o interés social a todos los efectos, INCLUIDOS los de expropiación forzosa y ejercicio de la servidumbre de paso. De las obligaciones del art. 11, la que más se pregunta por su concreción numérica es la de permitir la VISITA PÚBLICA AL MENOS CUATRO DÍAS AL MES, dispensable total o parcialmente por causa justificada. Y hay un deber que recae sobre cualquiera, no solo sobre los titulares: quien descubra RESTOS HUMANOS en los terrenos del mapa de fosas —o incluso fuera de ellos— debe comunicarlo DE FORMA INMEDIATA.",
+        items: [
+          "Art. 9.2 — la inscripción de terrenos e inmuebles como lugares de la memoria lleva IMPLÍCITA LA DECLARACIÓN DE UTILIDAD PÚBLICA O INTERÉS SOCIAL A TODOS LOS EFECTOS, incluidos los de EXPROPIACIÓN FORZOSA y ejercicio de la SERVIDUMBRE DE PASO",
+          "Art. 10.1 — DEBERES de los titulares: FACILITAR a la Administración foral las actuaciones de conservación, protección y mantenimiento · UTILIZAR los bienes de modo compatible con los valores intrínsecos a su condición · y FACILITAR las actuaciones tendentes a evitar su destrucción y deterioro",
+          "Art. 10.3-4 — corresponde al departamento competente ASESORAR sobre las obras precisas para el deber de conservación y SUFRAGAR LOS GASTOS correspondientes, colaborando además mediante partidas presupuestarias designadas al efecto",
+          "Art. 11.1 — OBLIGACIONES de propietarios, titulares de derechos o poseedores: a) COMUNICAR al departamento las transmisiones o actuaciones que efectúen por cualquier título, así como los daños u otras afectaciones · b) PERMITIR SU SEÑALIZACIÓN · c) PERMITIR LA VISITA PÚBLICA AL MENOS CUATRO DÍAS AL MES, en días y horas previamente señalados, dispensable total o parcialmente por causa justificada, y permitir la INSPECCIÓN del departamento",
+          "Art. 11.2 — quien DESCUBRA RESTOS HUMANOS en los terrenos delimitados en el MAPA DE FOSAS DE NAVARRA, o incluso fuera de ellos, deberá comunicarlo DE FORMA INMEDIATA al departamento competente",
+          "Art. 11.3 — DERECHOS de los titulares: recibir ASISTENCIA TÉCNICA del departamento en todo lo relativo a conservación, protección o modificación, y solicitar SUBVENCIONES u otras medidas de fomento",
+          "Art. 12 — INCUMPLIMIENTO: faculta a la Administración foral para realizar DE FORMA DIRECTA las intervenciones necesarias, dando cuenta inmediata al titular · puede dar lugar a la EXPROPIACIÓN FORZOSA por causa de utilidad pública o interés social · y el departamento puede imponer MULTAS COERCITIVAS",
+        ],
+      },
+      {
+        h: "Régimen de protección, intervenciones y planeamiento (arts. 13-15)",
+        nota:
+          "Aquí están los tres plazos que más te afectan como técnico municipal, y los tres tienen sentido de silencio distinto, así que conviene tabularlos. Las MEDIDAS CAUTELARES previas duran como máximo TRES MESES, dentro de los cuales debe incoarse el procedimiento —compáralo con los DOS MESES del art. 30 de la Ley del Patrimonio Cultural, que es la trampa cruzada—. La AUTORIZACIÓN de intervenciones se resuelve en TRES MESES con silencio ESTIMATORIO. Y el informe sobre instrumentos de planificación se emite en SEIS MESES y, de no emitirse, se entiende FAVORABLE. Añade el deber del art. 13.2: la entidad local debe comunicar previamente las solicitudes de licencia de derribo, obra o intervención que afecten a un lugar de la memoria.",
+        items: [
+          "Art. 13.1 — MEDIDAS CAUTELARES: la Administración foral puede SUSPENDER cualquier clase de obra o intervención para salvaguardar la integridad de un bien y en orden a su posterior inscripción. Su duración NO PODRÁ SER SUPERIOR A TRES MESES, dentro de los cuales deberá incoarse, en su caso, el procedimiento de declaración e inscripción",
+          "Art. 13.2 — DEBER DE LAS ENTIDADES LOCALES: deberán comunicar a la Administración de la Comunidad Foral, CON CARÁCTER PREVIO A SU TRAMITACIÓN, las solicitudes de LICENCIA DE DERRIBO, DE OBRA O INTERVENCIÓN que les sean formuladas y afecten a un lugar de la memoria",
+          "Art. 13.3 — AUTORIZACIÓN del departamento para cualquier cambio o modificación que pueda afectar a la conservación. La solicitud debe acompañarse de un PROYECTO DE CONSERVACIÓN que contendrá un ESTUDIO HISTÓRICO del lugar, un DIAGNÓSTICO de su estado de conservación actual, una PROPUESTA DE ACTUACIÓN y un PRESUPUESTO económico de ejecución, suscrito por PERSONAL TÉCNICO COMPETENTE",
+          "Art. 13.3.b — el expediente incorporará el INFORME de la Comisión Técnica de Coordinación. El departamento dispone de TRES MESES desde la solicitud para resolver; transcurrido ese plazo sin notificación expresa, la persona interesada ENTENDERÁ ESTIMADA la solicitud de autorización",
+          "Art. 13.3.c — la autorización se entenderá CADUCADA si transcurriera UN AÑO sin haberse iniciado las actuaciones para las que fue solicitada",
+          "Art. 13.4-5 — el departamento puede IMPEDIR EL DERRIBO o suspender cualquier obra que no cuente con esa autorización, y todo este régimen es aplicable también a los lugares que figuren con ANOTACIÓN PREVENTIVA en el Registro",
+          "Art. 14.1-2 — PLANEAMIENTO: los instrumentos de planificación territorial y urbanística que afecten a lugares de la memoria o a bienes con anotación preventiva establecerán DETERMINACIONES DE ORDENACIÓN acordes con el régimen de especial protección, y esos expedientes deberán contar con la PRECEPTIVA CONFORMIDAD del departamento competente",
+          "Art. 14.3 — ese informe se emitirá en el plazo de SEIS MESES desde su solicitud; en caso de NO SER EMITIDO en ese plazo, SE ENTENDERÁ FAVORABLE",
+          "Art. 14.4 — en las actuaciones sometidas a los instrumentos de PREVENCIÓN Y CONTROL AMBIENTAL se adoptarán las medidas protectoras y cautelares necesarias para conservar los bienes inscritos o con anotación preventiva",
+          "Art. 15 — régimen de SEÑALIZACIÓN de los lugares de la memoria histórica",
+        ],
+      },
+    ],
+    claves: [
+      "Dos categorías: la HISTÓRICA del art. 2.1 (fosas, lugares de detención y asesinato, obras con trabajos forzados) y la MEMORIAL del art. 2.2",
+      "Alcance cronológico: del GOLPE MILITAR DE JULIO DE 1936 al 29 DE DICIEMBRE DE 1978, entrada en vigor de la Constitución",
+      "Ese alcance NO se aplica a los espacios memoriales del art. 2.2",
+      "El Registro es PÚBLICO y su consulta, telemática o presencial, GRATUITA",
+      "Petición de particular: resolución de inicio en TRES MESES; el silencio es DESESTIMATORIO",
+      "La resolución de inicio SUSPENDE las licencias de parcelación, edificación o demolición Y LOS EFECTOS DE LAS YA OTORGADAS",
+      "Audiencia e información pública: plazo mínimo de UN MES cada una",
+      "Informe de la Comisión Técnica de Coordinación: TRES MESES, PRECEPTIVO Y VINCULANTE",
+      "La declaración se acuerda por el GOBIERNO DE NAVARRA, no por el departamento",
+      "CADUCIDAD del procedimiento: DOCE MESES; después no cabe reiniciar en TRES AÑOS salvo a instancia del titular",
+      "La inscripción lleva IMPLÍCITA la declaración de utilidad pública o interés social, incluida la expropiación y la servidumbre de paso",
+      "Visita pública: AL MENOS CUATRO DÍAS AL MES, dispensable por causa justificada",
+      "Quien descubra RESTOS HUMANOS debe comunicarlo DE FORMA INMEDIATA, dentro o fuera del mapa de fosas",
+      "Medidas cautelares previas: máximo TRES MESES (frente a los DOS del art. 30 de la LF 14/2005 de Patrimonio Cultural)",
+      "Las entidades locales comunican PREVIAMENTE a su tramitación las solicitudes de licencia de derribo, obra o intervención",
+      "Autorización de intervenciones: TRES MESES y silencio ESTIMATORIO (al contrario que en Patrimonio Cultural, donde es desestimatorio)",
+      "El proyecto de conservación incluye estudio histórico, diagnóstico, propuesta de actuación y presupuesto, suscrito por técnico competente",
+      "La autorización CADUCA si transcurre UN AÑO sin iniciar las actuaciones",
+      "Informe sobre instrumentos de planificación: SEIS MESES y, de no emitirse, se entiende FAVORABLE",
+    ],
+  },
+
   E24: {
     intro:
       "El Decreto Foral 202/2002 es el desarrollo reglamentario que la Ley Foral 2/1989 anunciaba en su art. 2: aprueba el CATÁLOGO de establecimientos, espectáculos públicos y actividades recreativas y regula los REGISTROS de empresas y locales. Es un tema de definiciones, y por eso se examina con preguntas de detalle: qué nivel sonoro corresponde a cada figura, qué establecimiento exige vestíbulo estanco, cuál no puede tener pista de baile, qué diámetro mínimo tiene una pista. La clave para no perderse es entender que el Catálogo escalona los locales de hostelería por su intensidad musical —bar y cafetería (75 dBA) < bar especial y café-espectáculo (90 dBA) < discoteca (baile)— y que a cada escalón le corresponden exigencias constructivas mayores.",
