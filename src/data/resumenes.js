@@ -4189,6 +4189,261 @@ export const RESUMENES = {
     ],
   },
 
+  E37: {
+    intro:
+      "La Ley Foral 14/2005 organiza el Patrimonio Cultural de Navarra en TRES ESCALONES DE PROTECCIÓN que gobiernan todo el tema: Bienes de INTERÉS CULTURAL —los más relevantes—, Bienes INVENTARIADOS y Bienes de RELEVANCIA LOCAL. De ese escalón depende quién protege, quién autoriza y con qué norma: los dos primeros exigen autorización del Departamento de Cultura y sus declaraciones PREVALECEN sobre el planeamiento; el tercero se remite íntegramente a la legislación y al planeamiento urbanístico municipal, es decir, a ti. Para un arquitecto municipal el tema tiene tres puntos de contacto diarios: la autorización previa de intervenciones, los Planes Especiales de Protección que la entidad local debe redactar, y el hallazgo arqueológico casual durante una obra, con su deber de paralización inmediata. Cierra el tema el Decreto Foral 290/1988, que delimita el Camino de Santiago y fija sus dos bandas de protección.",
+    bloques: [
+      {
+        h: "Objeto, principios y competencias (arts. 1-6)",
+        nota:
+          "Del reparto competencial interesa sobre todo lo que corresponde a las ENTIDADES LOCALES, porque describe tu trabajo: conservar y proteger los inmuebles de su término, redactar y gestionar los CATÁLOGOS urbanísticos de protección conectándolos con el Registro foral, adoptar medidas cautelares y expropiar respecto de los Bienes de Relevancia Local, y redactar y aplicar los Planes Especiales de Protección. Fíjate en la asimetría: sobre los Bienes de Relevancia Local el municipio tiene poder propio —incluida la expropiación—, mientras que en los otros dos escalones actúa como tramitador ante el Departamento.",
+        items: [
+          "Art. 5 — COMPETENCIAS DE LAS ENTIDADES LOCALES: a) la CONSERVACIÓN Y PROTECCIÓN de los bienes inmuebles del Patrimonio Cultural sitos en su ámbito territorial · b) la redacción y gestión de los CATÁLOGOS URBANÍSTICOS DE PROTECCIÓN y su conexión con el Registro de Bienes del Patrimonio Cultural de Navarra · c) la adopción de MEDIDAS CAUTELARES y acordar la EXPROPIACIÓN FORZOSA para conservar y proteger los BIENES DE RELEVANCIA LOCAL · d) la redacción y aplicación de los PLANES ESPECIALES DE PROTECCIÓN",
+          "Art. 6 — principios de COLABORACIÓN INTERADMINISTRATIVA entre la Administración foral y las entidades locales",
+        ],
+      },
+      {
+        h: "Clasificación de los bienes (arts. 13-18)",
+        nota:
+          "El art. 13 establece cuatro clases, pero solo las TRES PRIMERAS son objeto de especial protección y deben inscribirse en el Registro de Bienes del Patrimonio Cultural de Navarra; la cuarta es una categoría residual. Las SIETE categorías de bienes inmuebles de interés cultural del art. 15 se preguntan pidiendo la que falta o cambiando una definición, así que conviene recitarlas: Monumento, Conjunto Histórico, Sitio Histórico, Zona Arqueológica, Paisaje Cultural, Vía Histórica y Jardín Histórico. Y retén la regla del art. 14.2, que sorprende: no puede declararse BIC ni Inventariado la obra de un AUTOR VIVO, salvo autorización expresa de su propietario o adquisición por la Administración.",
+        items: [
+          "Art. 13.1 — CUATRO CLASES: a) Bienes de INTERÉS CULTURAL · b) Bienes INVENTARIADOS · c) Bienes de RELEVANCIA LOCAL · d) los demás bienes culturales no incluidos en las clases anteriores",
+          "Art. 13.2 — solo los de las letras a), b) y c) son objeto de ESPECIAL PROTECCIÓN y deben inscribirse en el REGISTRO DE BIENES DEL PATRIMONIO CULTURAL DE NAVARRA",
+          "Art. 14.1 — BIENES DE INTERÉS CULTURAL: los bienes inmuebles, muebles e inmateriales MÁS RELEVANTES, declarados como tales conforme al procedimiento de la ley foral",
+          "Art. 14.2 — NO podrá ser declarada BIC o Inventariado la OBRA DE UN AUTOR VIVO, salvo autorización expresa de su propietario o adquisición por la Administración",
+          "Art. 15 — SIETE CATEGORÍAS de bienes inmuebles de Interés Cultural: a) MONUMENTOS, realizaciones arquitectónicas o de ingeniería u obras de escultura colosal con interés histórico, etnológico, artístico, científico o social · b) CONJUNTO HISTÓRICO, agrupación de inmuebles que forman una unidad de asentamiento, continua o dispersa, testimonio de la evolución de una comunidad; también el núcleo individualizado dentro de una unidad superior de población que reúna esas características y pueda delimitarse claramente · c) SITIO HISTÓRICO, lugar o paraje natural vinculado a acontecimientos o recuerdos del pasado con valor histórico · d) ZONA ARQUEOLÓGICA, lugar donde existen bienes susceptibles de ser estudiados con metodología arqueológica, en superficie, subsuelo o bajo las aguas · e) PAISAJE CULTURAL, paraje natural, lugar de interés etnológico o conjunto de construcciones vinculadas a formas de vida y actividades tradicionales · f) VÍA HISTÓRICA, vía de comunicación de significada relevancia cultural, histórica, etnológica o técnica · g) JARDÍN HISTÓRICO, espacio delimitado producto de la ordenación de elementos naturales, de interés por su origen, pasado histórico o valores estéticos, sensoriales o botánicos",
+          "Art. 16 — BIENES INVENTARIADOS: los que, SIN REUNIR LAS CONDICIONES para ser declarados de Interés Cultural, merecen especial protección",
+          "Art. 17 — BIENES DE RELEVANCIA LOCAL: el tercer escalón, cuyo régimen se remite a la legislación y al planeamiento urbanístico municipal",
+        ],
+      },
+      {
+        h: "Régimen general de protección y medidas cautelares (arts. 27-33)",
+        nota:
+          "Los deberes del art. 27 recaen sobre TODOS los titulares de bienes del Patrimonio Cultural, no solo sobre los de bienes protegidos, y su incumplimiento habilita la ejecución subsidiaria a costa del titular. Dos preceptos son de manejo directo en un ayuntamiento: el art. 30, que permite al Departamento impedir el derribo y suspender cualquier obra con medidas cautelares de duración máxima DOS MESES, dentro de los cuales debe incoarse el procedimiento de declaración; y el art. 31, que obliga a la entidad local a NOTIFICAR al Departamento la incoación de todo expediente de ruina sobre un inmueble protegido y las resoluciones que se adopten, quedando aquél legitimado como interesado.",
+        items: [
+          "Art. 27.1 — DEBERES de los titulares: CONSERVAR, PROTEGER Y MANTENER los bienes · UTILIZARLOS de modo que no sea incompatible con los valores que aconsejan su conservación · EVITAR su pérdida, destrucción y deterioro · y FACILITAR a las Administraciones los datos precisos para su conocimiento, conservación y protección, permitiendo su examen",
+          "Art. 29 — INCUMPLIMIENTO: la Administración foral puede adoptar, PREVIO REQUERIMIENTO al titular y de FORMA SUBSIDIARIA, las medidas precisas, corriendo los gastos A CARGO DEL TITULAR. Puede además realizar DE FORMA DIRECTA las intervenciones necesarias, dando cuenta inmediata al titular",
+          "Art. 30 — MEDIDAS CAUTELARES PREVIAS: la Administración foral puede IMPEDIR EL DERRIBO y SUSPENDER cualquier clase de obra o intervención para salvaguardar la integridad de un bien o en orden a su posterior inserción en las categorías de especial protección. Su duración NO PODRÁ SER SUPERIOR A DOS MESES, dentro de los cuales deberá incoarse, en su caso, el procedimiento de declaración",
+          "Art. 31 — RUINA: incoado expediente de ruina sobre un inmueble incluido en alguna categoría de especial protección o con la inclusión incoada, el Departamento de Cultura está LEGITIMADO PARA INTERVENIR COMO INTERESADO, debiendo las ENTIDADES LOCALES NOTIFICARLE su incoación y las resoluciones que se adopten. Declarada la ruina, PREVALECE la protección que establece esta ley foral",
+        ],
+      },
+      {
+        h: "Protección de los Bienes inmuebles de Interés Cultural (arts. 35-41)",
+        nota:
+          "Aquí están los dos datos operativos que más vas a usar. Primero, la regla de PREVALENCIA: las determinaciones de la declaración de un BIC prevalecen sobre el planeamiento urbanístico, que debe ajustarse a ellas en su elaboración o mediante modificación, y las normativas sectoriales de edificación y habitabilidad se SUBORDINAN a la conservación de los valores culturales — un argumento decisivo cuando un requisito del CTE choca con la protección. Segundo, los dos plazos con sentido de silencio OPUESTO: la autorización de intervenciones se resuelve en DOS MESES con silencio NEGATIVO, mientras que el informe sobre un Plan Especial de Protección se emite en TRES MESES con silencio FAVORABLE.",
+        items: [
+          "Art. 35 — PREVALENCIA: las determinaciones contenidas en la declaración de un inmueble como BIC PREVALECEN sobre las propias de los planes urbanísticos relativas al bien, que deberán AJUSTARSE a ellas en su elaboración o mediante modificación. La aplicación de las normativas sectoriales de EDIFICACIÓN Y HABITABILIDAD se SUBORDINA a la conservación de los valores culturales",
+          "Art. 36 — AUTORIZACIÓN DE INTERVENCIONES: cualquier intervención sobre Bienes inmuebles de Interés Cultural Y SUS ENTORNOS requiere AUTORIZACIÓN PREVIA del Departamento competente en materia de cultura. La solicitud la presenta LA ENTIDAD LOCAL que tramita la licencia de obras, y debe resolverse en el plazo de DOS MESES, pudiendo en otro caso entenderse DESESTIMADA",
+          "Art. 37 — PLANES ESPECIALES DE PROTECCIÓN: las entidades locales DEBERÁN redactarlos, en desarrollo del Plan General Municipal, para los CONJUNTOS HISTÓRICOS, SITIOS HISTÓRICOS y ZONAS ARQUEOLÓGICAS. Antes de su aprobación definitiva necesitan INFORME FAVORABLE del Departamento de Cultura, que se emite en el plazo de TRES MESES desde la recepción de la documentación completa; transcurrido ese plazo sin emitirse, SE ENTIENDE OTORGADO DE FORMA FAVORABLE",
+          "Art. 40 — ENTORNO: el espacio, terreno y edificaciones inmediatos o mediatos que, SIN FORMAR PARTE INTEGRANTE del bien, incidan o afecten a su significación. La Administración foral puede acordar, de oficio o a instancia de las entidades locales, la EXPROPIACIÓN FORZOSA POR CAUSA DE INTERÉS SOCIAL de los inmuebles que impidan o perturben la utilización o contemplación del BIC, atenten contra su armonía ambiental o supongan riesgo para su conservación",
+          "Art. 38 — criterios generales de intervención. Art. 41 — régimen de los DESPLAZAMIENTOS de bienes inmuebles de Interés Cultural",
+        ],
+      },
+      {
+        h: "Bienes Inventariados y de Relevancia Local (arts. 42-44)",
+        nota:
+          "El escalón intermedio replica el régimen del BIC en lo esencial —prevalencia sobre el planeamiento, subordinación de las normativas sectoriales y autorización previa del Departamento en dos meses con silencio negativo—, con una diferencia: su régimen de protección concreto es el que fije SU PROPIA DECLARACIÓN. El tercer escalón, en cambio, se remite por entero al urbanismo municipal, y por eso es el que gestionas tú directamente a través del catálogo del Plan.",
+        items: [
+          "Art. 42 — BIENES INMUEBLES INVENTARIADOS: su régimen de protección es EL FIJADO EN SU DECLARACIÓN, que establecerá de forma expresa las medidas más convenientes para su conservación. Las determinaciones de la declaración PREVALECEN sobre las de los planes urbanísticos, y las normativas sectoriales de edificación y habitabilidad se SUBORDINAN a la conservación de los valores culturales",
+          "Art. 43 — AUTORIZACIÓN de intervenciones sobre Bienes inmuebles Inventariados: previa autorización del Departamento competente, solicitud presentada por LA ENTIDAD LOCAL que tramite la licencia, resolución en DOS MESES y silencio DESESTIMATORIO — mismo régimen que el art. 36",
+          "Art. 44 — BIENES DE RELEVANCIA LOCAL: su régimen específico de protección será el establecido en la LEGISLACIÓN URBANÍSTICA y en el PLANEAMIENTO URBANÍSTICO MUNICIPAL. Es el escalón que se gestiona íntegramente desde el catálogo municipal",
+        ],
+      },
+      {
+        h: "Patrimonio Arqueológico (arts. 55-64)",
+        nota:
+          "El bloque con el procedimiento que más probablemente te toque aplicar en obra. Distingue dos plazos que se confunden: si el hallazgo es CASUAL durante una obra, el promotor o la dirección facultativa deben PARALIZAR las actuaciones que puedan dañarlo y comunicarlo, resolviendo el Departamento en un máximo de DOS MESES; y la comunicación del descubrimiento debe hacerse en un plazo no superior a CUARENTA Y OCHO HORAS, sin que pueda darse conocimiento público antes. El premio por descubrimiento casual es del CINCUENTA POR CIENTO del valor de lo hallado, repartido POR PARTES IGUALES entre descubridor y propietario del lugar, y se pierde si se incumplen las obligaciones de comunicación.",
+        items: [
+          "Art. 55 — CONCEPTO: bienes muebles e inmuebles de carácter histórico susceptibles de ser estudiados con METODOLOGÍA ARQUEOLÓGICA, hayan sido o no extraídos, tanto en superficie como en el subsuelo o bajo las aguas",
+          "Art. 59 — MEDIDAS CAUTELARES EN LA EJECUCIÓN DE OBRAS: si durante una obra, en terreno público o privado, se hallaran de manera CASUAL bienes de valor arqueológico, el PROMOTOR O LA DIRECCIÓN FACULTATIVA deberán PARALIZAR las actuaciones que puedan dañarlos y comunicar el descubrimiento al Departamento de Cultura Y a la autoridad local del término. El Departamento resolverá en el plazo máximo de DOS MESES, autorizando el reinicio de las obras o inscribiendo el bien en el Registro",
+          "Art. 61 — ÁREAS ARQUEOLÓGICAS DE CAUTELA: espacios claramente delimitados, solares o parcelas, en los que por EVIDENCIAS MATERIALES, DOCUMENTACIÓN HISTÓRICA O TRADICIONES ORALES se presume fundadamente la existencia de bienes del Patrimonio Arqueológico. Las delimita el Departamento de Cultura PREVIA AUDIENCIA de los interesados y de las entidades locales afectadas, y requieren PUBLICACIÓN EN EL BOLETÍN OFICIAL DE NAVARRA",
+          "Art. 63 — DESCUBRIMIENTO: los hallazgos casuales o por azar, y los de carácter singular producidos en una intervención autorizada, se comunicarán a la mayor brevedad y EN TODO CASO EN UN PLAZO NO SUPERIOR A CUARENTA Y OCHO HORAS al Departamento de Cultura, a la entidad local o a las Fuerzas y Cuerpos de Seguridad, SIN QUE PUEDA DARSE CONOCIMIENTO PÚBLICO antes de haber realizado esa comunicación",
+          "Art. 64 — PREMIO POR DESCUBRIMIENTO: el descubridor y el propietario del lugar tienen derecho POR PARTES IGUALES a un premio en metálico igual a LA MITAD DEL VALOR de lo hallado, según tasación legal en expediente tramitado a solicitud de los interesados. En ningún caso tienen DERECHO DE RETENCIÓN sobre los bienes. El descubrimiento con incumplimiento de las obligaciones de comunicación PRIVA al descubridor del premio",
+          "Art. 58 — las INTERVENCIONES ARQUEOLÓGICAS requieren autorización. Art. 57 — INVENTARIO ARQUEOLÓGICO DE NAVARRA. Art. 60 — actuaciones ilícitas en el Patrimonio Arqueológico",
+        ],
+      },
+      {
+        h: "Otros patrimonios específicos (Título V, Caps. II-V)",
+        nota:
+          "Bloque de encuadre: el Título V desgaja del régimen general cinco patrimonios con reglas propias. Para el examen basta con saber ubicarlos y retener sus definiciones y sus inventarios o censos, que es lo que se pregunta. El patrimonio ETNOLÓGICO e INDUSTRIAL son los más próximos a la arquitectura, y el DOCUMENTAL trae un concepto —el ciclo vital de los documentos— que se pregunta por su nombre.",
+        items: [
+          "Cap. II — PATRIMONIO ETNOLÓGICO (art. 65) y PATRIMONIO INDUSTRIAL (art. 66), con su INVENTARIO ETNOLÓGICO DE NAVARRA (art. 68) y reglas específicas de protección de los bienes etnológicos INMATERIALES (art. 69) y del patrimonio industrial (art. 70)",
+          "Cap. III — PATRIMONIO DOCUMENTAL (arts. 71-80): concepto de DOCUMENTO (art. 72), deber de conservación (art. 74), CICLO VITAL DE LOS DOCUMENTOS (art. 75), deberes de los poseedores (art. 76), concepto de ARCHIVO y fondo documental (art. 77), SISTEMA ARCHIVÍSTICO DE NAVARRA (art. 78), CENSO DE ARCHIVOS (art. 79) y régimen de ACCESO a la documentación (art. 80)",
+          "Cap. IV — PATRIMONIO BIBLIOGRÁFICO (art. 81) y PATRIMONIO AUDIOVISUAL DE NAVARRA (art. 82)",
+        ],
+      },
+      {
+        h: "DF 290/1988 — Camino de Santiago",
+        nota:
+          "La segunda norma del tema y la más operativa, porque fija distancias concretas que hay que comprobar al informar una licencia. Son DOS BANDAS que no deben confundirse: la ZONA DE SERVIDUMBRE de TRES METROS desde cada borde exterior del Camino, y la FRANJA DE PROTECCIÓN DEL ENTORNO de TREINTA METROS desde el borde exterior. Y una regla de procedimiento tajante: el Ayuntamiento NO PUEDE OTORGAR licencia que afecte al Camino, a su servidumbre o a su entorno hasta que la autorización del Departamento haya sido notificada a la entidad local. El régimen se aplica en suelo NO URBANIZABLE y URBANIZABLE NO PROGRAMADO.",
+        items: [
+          "Art. 2 — ámbito del régimen provisional de protección urbanística: clases de suelo NO URBANIZABLE y URBANIZABLE NO PROGRAMADO",
+          "Art. 2.1 — DESTINO del Camino: SENDERO PEATONAL Y ECUESTRE de largo recorrido. Queda PROHIBIDO el tráfico rodado de vehículos de motor, excepto en los tramos que antes del 22 DE ABRIL DE 1988 sirvieran como vial de acceso a fincas cuyo único o más directo acceso sea el Camino",
+          "Art. 2.2 — ZONA DE SERVIDUMBRE de TRES METROS medidos desde CADA BORDE EXTERIOR del Camino; si discurre tangencialmente a una carretera, la servidumbre se establece para el borde OPUESTO a la carretera",
+          "Art. 2.3 — en la zona de servidumbre: se puede plantar arbolado e instalar elementos complementarios · quedan PROHIBIDAS la explotación minera, la extracción de gravas y arenas, las canteras y la CORTA A HECHO, pudiendo autorizarse el resto de actividades con movimiento de tierras · en actividades CONSTRUCTIVAS solo pueden autorizarse las INFRAESTRUCTURAS, quedando prohibidas todas las demás",
+          "Art. 2.4 — FRANJA DE PROTECCIÓN DEL ENTORNO: dada su condición de bien de interés cultural, y en tanto no se delimite por el planeamiento comarcal o local, se establece a lo largo del Camino una franja de TREINTA METROS de distancia contados desde el borde exterior",
+          "Art. 2.5 — en la franja de protección: se prohíbe la CORTA A HECHO, pudiendo autorizarse movimientos de tierras, roturación, quema de vegetación y aprovechamiento maderero y de leña; en lo constructivo pueden autorizarse infraestructuras e instalaciones vinculadas",
+          "Art. 4 — LICENCIAS: el otorgamiento de licencias municipales o concejiles para actividades autorizables que afecten al Camino, a su zona de servidumbre o a la franja de protección PRECISA RESOLUCIÓN PREVIA del Consejero autorizándolas; NO PODRÁ OTORGARSE LA LICENCIA hasta que la autorización haya sido NOTIFICADA A LA ENTIDAD LOCAL",
+          "Art. 4.2 — en la zona de servidumbre y en la franja de protección NO SE PERMITEN nuevas ALINEACIONES, AUMENTOS DE EDIFICABILIDAD, ni PARCELACIONES Y AGREGACIONES, con excepción de los procesos de CONCENTRACIÓN PARCELARIA",
+          "Art. 6 — PLANEAMIENTO: el planeamiento local y comarcal DEBERÁ INCORPORAR a sus determinaciones y documentos la DELIMITACIÓN FÍSICA del Camino y las determinaciones sobre su régimen de protección",
+          "Art. 7 — INFRACCIONES GRAVES: las actuaciones que supongan la EROSIÓN O DESTRUCCIÓN FÍSICA de parte del Camino, y la realización de actividades prohibidas en el Camino, en la zona de servidumbre o en la franja de protección del entorno",
+        ],
+      },
+    ],
+    claves: [
+      "TRES escalones: Bienes de INTERÉS CULTURAL · INVENTARIADOS · DE RELEVANCIA LOCAL. Los tres se inscriben en el Registro",
+      "El art. 13 tiene CUATRO clases, pero la cuarta es residual y no es objeto de especial protección",
+      "SIETE categorías de inmuebles BIC: Monumento · Conjunto Histórico · Sitio Histórico · Zona Arqueológica · Paisaje Cultural · Vía Histórica · Jardín Histórico",
+      "No cabe declarar BIC ni Inventariado la obra de un AUTOR VIVO, salvo autorización del propietario o adquisición pública (art. 14.2)",
+      "Las entidades locales redactan los CATÁLOGOS urbanísticos y los PLANES ESPECIALES, y sobre los Bienes de Relevancia Local pueden expropiar (art. 5)",
+      "Medidas cautelares previas: máximo DOS MESES, dentro de los cuales debe incoarse la declaración (art. 30)",
+      "Ruina: la entidad local DEBE notificar la incoación al Departamento, que interviene como interesado; declarada la ruina, PREVALECE la protección (art. 31)",
+      "La declaración de BIC y de Inventariado PREVALECE sobre el planeamiento, que debe ajustarse a ella",
+      "Las normativas sectoriales de edificación y habitabilidad se SUBORDINAN a la conservación de los valores culturales",
+      "Autorización de intervenciones (BIC e Inventariados): la solicita LA ENTIDAD LOCAL, se resuelve en DOS MESES y el silencio es DESESTIMATORIO",
+      "Informe sobre Planes Especiales de Protección: TRES MESES y silencio FAVORABLE — sentido opuesto al anterior",
+      "Planes Especiales obligatorios en CONJUNTOS HISTÓRICOS, SITIOS HISTÓRICOS y ZONAS ARQUEOLÓGICAS (art. 37)",
+      "Entorno: cabe EXPROPIACIÓN por interés social de los inmuebles que impidan o perturben la contemplación del BIC (art. 40)",
+      "Bienes de Relevancia Local: su régimen es el de la LEGISLACIÓN Y EL PLANEAMIENTO URBANÍSTICO MUNICIPAL (art. 44)",
+      "Hallazgo casual en obra: PARALIZAR y comunicar; el Departamento resuelve en DOS MESES (art. 59)",
+      "Comunicación del descubrimiento: plazo máximo de CUARENTA Y OCHO HORAS, sin darle publicidad antes (art. 63)",
+      "Premio: LA MITAD del valor de lo hallado, POR PARTES IGUALES entre descubridor y propietario; sin derecho de retención (art. 64)",
+      "Áreas Arqueológicas de Cautela: las delimita el Departamento previa audiencia y se publican en el BON (art. 61)",
+      "CAMINO DE SANTIAGO: servidumbre de 3 METROS y franja de protección del entorno de 30 METROS",
+      "No puede otorgarse licencia que afecte al Camino hasta que la autorización del Consejero se notifique a la entidad local (art. 4)",
+      "En servidumbre y franja: prohibidas nuevas alineaciones, aumentos de edificabilidad, parcelaciones y agregaciones, salvo concentración parcelaria",
+      "El planeamiento local DEBE incorporar la delimitación física del Camino y su régimen de protección (art. 6)",
+    ],
+  },
+
+  E38: {
+    intro:
+      "La Orden ECO/805/2003 es la norma de valoración con FINALIDAD FINANCIERA —garantía hipotecaria, entidades aseguradoras, fondos de pensiones e instituciones de inversión colectiva— y por eso no debe confundirse con el RD 1492/2011, que es el reglamento de valoraciones URBANÍSTICAS del tema siguiente: distinta finalidad, distintos métodos y distintos resultados para el mismo inmueble. Todo el tema se ordena alrededor de CUATRO MÉTODOS (coste, comparación, actualización de rentas y residual) y de los VALORES TÉCNICOS que cada uno produce. La clave para no perderse es entender esa correspondencia: el coste da el VALOR DE REEMPLAZAMIENTO, bruto o neto; la comparación da el valor por comparación y, ajustado, el hipotecario; la actualización da el valor por actualización; y el residual da el valor residual, por procedimiento dinámico o estático. A partir de ahí, cada método tiene sus requisitos de aplicabilidad, que es justo lo que se pregunta.",
+    bloques: [
+      {
+        h: "Ámbito, principios y definiciones (arts. 1-6)",
+        nota:
+          "Los principios del art. 3 se preguntan por su nombre y su enunciado, y dos de ellos condicionan todo lo demás. El de FINALIDAD explica por qué esta Orden y el reglamento urbanístico llegan a cifras distintas: la finalidad de la valoración condiciona el método. Y el de MAYOR Y MEJOR USO obliga a valorar el inmueble por su destino económicamente más aconsejable dentro de las posibilidades LEGALES Y FÍSICAS — la legalidad urbanística actúa como límite. Del art. 5, retén la regla básica: se usa siempre la superficie COMPROBADA POR EL TASADOR, y solo si no puede comprobarse se acude a la MENOR entre la catastral y la registral.",
+        items: [
+          "Art. 2 — ÁMBITO: la Orden se aplica cuando el valor de tasación se utilice para GARANTÍA HIPOTECARIA de créditos que formen parte de la cartera de cobertura de títulos hipotecarios, para el valor razonable de entidades ASEGURADORAS Y REASEGURADORAS, y para las demás finalidades financieras que enumera. Es valoración FINANCIERA, no urbanística",
+          "Art. 3 — PRINCIPIO DE ANTICIPACIÓN: el valor de un inmueble en explotación económica es función de las EXPECTATIVAS DE RENTA que previsiblemente proporcionará en el futuro",
+          "Art. 3 — PRINCIPIO DE FINALIDAD: la finalidad de la valoración CONDICIONA EL MÉTODO y las técnicas a seguir; los criterios y métodos deben ser coherentes con esa finalidad",
+          "Art. 3 — PRINCIPIO DE MAYOR Y MEJOR USO: el valor de un inmueble susceptible de distintos usos será el que resulte de destinarlo, DENTRO DE LAS POSIBILIDADES LEGALES Y FÍSICAS, al económicamente más aconsejable; y si admite distintas intensidades edificatorias, el que resulte de construirlo con la más aconsejable dentro de esas posibilidades",
+          "Art. 4 — ANTIGÜEDAD: número de años transcurridos entre la fecha de construcción o la de la ÚLTIMA REHABILITACIÓN INTEGRAL y la fecha de la valoración",
+          "Art. 4 — COMPARABLES: inmuebles similares al objeto de valoración o adecuados para la homogeneización, atendiendo a localización, uso, tipología, superficie, antigüedad, estado de conservación u otra característica física relevante",
+          "Art. 4 — ACTUALIZACIÓN DE UNA TASACIÓN: revisión de una tasación anterior emitida POR LA MISMA ENTIDAD TASADORA antes de transcurrir DOS AÑOS desde su emisión, en la que se modifiquen advertencias, condicionantes o valores",
+          "Art. 4 — DEPRECIACIÓN FÍSICA: pérdida del valor de reemplazamiento bruto en función de la ANTIGÜEDAD, el ESTADO DE CONSERVACIÓN y la DURACIÓN DE SUS COMPONENTES. DEPRECIACIÓN FUNCIONAL: pérdida por DEFECTUOSA ADAPTACIÓN A LA FUNCIÓN a que se destina",
+          "Art. 5 — SUPERFICIE: se utiliza siempre la COMPROBADA POR EL TASADOR. Si no es posible comprobarla, la MENOR entre la catastral y la registral. Si la comprobada es superior en más de un 5 % a la registral o a la catastral, rigen reglas específicas de advertencia",
+        ],
+      },
+      {
+        h: "Los cuatro métodos y sus valores técnicos (arts. 15-16)",
+        nota:
+          "Este es el esqueleto del tema y conviene memorizarlo como una tabla de correspondencias método → valor técnico, porque las preguntas suelen consistir en cruzarlos mal. Los cuatro métodos permiten obtener tres valores generales: valor de MERCADO, valor HIPOTECARIO y valor de REEMPLAZAMIENTO. Y hay una regla transversal que se pregunta sola: cuando la finalidad es la garantía hipotecaria del art. 2.a, en la aplicación de los métodos SE ELIMINARÁN LOS ELEMENTOS ESPECULATIVOS.",
+        items: [
+          "Art. 15.1 — CUATRO MÉTODOS: a) método del COSTE · b) método de COMPARACIÓN · c) método de ACTUALIZACIÓN DE RENTAS · d) método RESIDUAL",
+          "Art. 15.2 — dichos métodos permiten obtener el VALOR DE MERCADO, el VALOR HIPOTECARIO y el VALOR DE REEMPLAZAMIENTO",
+          "Art. 16.2 — REGLA TRANSVERSAL: en la aplicación de los métodos para la finalidad de garantía hipotecaria del art. 2.a SE ELIMINARÁN LOS ELEMENTOS ESPECULATIVOS",
+          "Art. 15 bis — MODELOS AUTOMATIZADOS DE VALORACIÓN: previstos para las finalidades del art. 18 del RDL 24/2021, con requisitos propios",
+          "Correspondencia método → valor técnico: COSTE → valor de REEMPLAZAMIENTO, bruto o neto · COMPARACIÓN → valor POR COMPARACIÓN (valor de mercado) y valor POR COMPARACIÓN AJUSTADO (valor hipotecario) · ACTUALIZACIÓN → valor POR ACTUALIZACIÓN (permite ambos) · RESIDUAL → valor RESIDUAL (permite ambos)",
+        ],
+      },
+      {
+        h: "Método del coste (arts. 17-19)",
+        nota:
+          "El más sencillo y el que más se parece a lo que hace un arquitecto a diario. Es aplicable a TODA CLASE de edificios y elementos de edificios, cualquiera que sea su estado —en proyecto, en construcción o rehabilitación, o terminados—, y produce el valor de reemplazamiento. La distinción entre BRUTO y NETO es la pregunta segura: el bruto suma las tres inversiones y el neto resta las depreciaciones. Y ojo a la circularidad aparente del art. 18.2: para determinar el valor del terreno dentro del método del coste se acude al método de COMPARACIÓN o al RESIDUAL, no al propio coste.",
+        items: [
+          "Art. 17.1 — APLICABILIDAD: a la valoración de TODA CLASE DE EDIFICIOS Y ELEMENTOS DE EDIFICIOS, en proyecto, en construcción o rehabilitación, o terminados",
+          "Art. 17.2 — mediante este método se calcula el VALOR DE REEMPLAZAMIENTO, que podrá ser BRUTO O NETO",
+          "Art. 18.1 — VALOR DE REEMPLAZAMIENTO BRUTO (VRB): suma de tres inversiones — a) el VALOR DEL TERRENO en que se encuentra el edificio, o el del EDIFICIO A REHABILITAR · b) el COSTE DE LA EDIFICACIÓN o de las obras de rehabilitación · c) los GASTOS NECESARIOS para realizar el reemplazamiento",
+          "Art. 18.2 — para determinar el valor del terreno o del edificio a rehabilitar se utilizará el MÉTODO DE COMPARACIÓN o el MÉTODO RESIDUAL",
+          "VALOR DE REEMPLAZAMIENTO NETO: el bruto MINORADO en las DEPRECIACIONES —física y funcional— que correspondan según la antigüedad, el estado de conservación y la adaptación funcional del inmueble",
+        ],
+      },
+      {
+        h: "Método de comparación (arts. 20-23)",
+        nota:
+          "El método más exigente en cuanto a datos, y ahí está su pregunta característica: el art. 21 requiere información suficiente sobre AL MENOS SEIS transacciones u ofertas de comparables. Ese seis reaparece en el método de actualización para el mercado de alquileres, de modo que conviene fijarlo como cifra común. Distingue además los dos valores que produce: el valor POR COMPARACIÓN da el valor de mercado, y el valor POR COMPARACIÓN AJUSTADO da el hipotecario — el ajuste es precisamente lo que elimina el componente especulativo.",
+        items: [
+          "Art. 20.1 — APLICABILIDAD: a la valoración de TODA CLASE DE INMUEBLES siempre que se cumplan los requisitos del art. 21. Puede aplicarse igualmente a la valoración del DERECHO DE SUPERFICIE (art. 53) y de las CONCESIONES ADMINISTRATIVAS (art. 54)",
+          "Art. 20.3 — DOS VALORES TÉCNICOS: el valor POR COMPARACIÓN, que determina el VALOR DE MERCADO, y el valor POR COMPARACIÓN AJUSTADO, que determina el VALOR HIPOTECARIO",
+          "Art. 21.1 — REQUISITOS: a) existencia de un MERCADO REPRESENTATIVO de los inmuebles comparables · b) disponer de suficientes datos sobre transacciones u ofertas que permitan identificar parámetros adecuados para la HOMOGENEIZACIÓN · c) disponer de información suficiente sobre AL MENOS SEIS TRANSACCIONES U OFERTAS de comparables que reflejen adecuadamente la situación actual del mercado",
+          "Art. 21.2 — requisitos ADICIONALES para la finalidad de garantía hipotecaria: disponer de datos para estimar la evolución de los precios de compraventa en el mercado local durante AL MENOS LOS DOS AÑOS ANTERIORES a la fecha de valoración, y de información adecuada sobre esa evolución",
+          "Arts. 22-23 — procedimiento de cálculo por comparación y AJUSTE del valor por comparación para obtener el valor hipotecario",
+        ],
+      },
+      {
+        h: "Método de actualización de rentas (arts. 24-33)",
+        nota:
+          "Es el método de los inmuebles que producen renta, y su aplicabilidad se define por esa aptitud: toda clase de inmuebles SUSCEPTIBLES DE PRODUCIR RENTAS y los derechos reales del art. 52.2, SALVO LAS OPCIONES DE COMPRA. A diferencia del método de comparación, cuyos tres requisitos son acumulativos, aquí basta con que se cumpla AL MENOS UNO de los del art. 25 — matiz que se pregunta. Del cálculo, los conceptos con nombre propio son los FLUJOS DE CAJA, el VALOR DE REVERSIÓN y el TIPO DE ACTUALIZACIÓN.",
+        items: [
+          "Art. 24.1 — APLICABILIDAD: a la valoración de toda clase de inmuebles SUSCEPTIBLES DE PRODUCIR RENTAS y a la de los derechos reales del art. 52.2, SALVO LAS OPCIONES DE COMPRA",
+          "Art. 24.2 — produce el VALOR POR ACTUALIZACIÓN, que permite determinar tanto el valor de mercado como el valor hipotecario",
+          "Art. 25.1 — basta con que se cumpla AL MENOS UNO de los requisitos. El primero es la existencia de un MERCADO DE ALQUILERES representativo de los comparables, para presumir el cual es necesario disponer como mínimo de SEIS DATOS DE RENTAS DE ALQUILER sobre comparables que reflejen la situación actual del mercado",
+          "Art. 27 — FLUJOS DE CAJA en el método de actualización, con reglas propias para los inmuebles CON MERCADO DE ALQUILERES (art. 28) y para OTROS INMUEBLES EN ARRENDAMIENTO (art. 29)",
+          "Art. 31 — VALOR DE REVERSIÓN. Art. 32 — TIPO DE ACTUALIZACIÓN. Art. 33 — FÓRMULA DE CÁLCULO del valor por actualización",
+        ],
+      },
+      {
+        h: "Método residual: dinámico y estático (arts. 34-42)",
+        nota:
+          "El método que más interesa a un arquitecto municipal, porque es el que se aplica al suelo. Su pregunta central es la delimitación entre los dos procedimientos, y se resuelve por el PLAZO: el DINÁMICO sirve para terrenos urbanos o urbanizables, estén o no edificados, y para edificios en proyecto, construcción o rehabilitación, incluso con obras paralizadas; el ESTÁTICO solo para solares e inmuebles en rehabilitación en los que pueda COMENZARSE LA EDIFICACIÓN EN UN PLAZO NO SUPERIOR A UN AÑO, y para solares edificados. La fórmula del estático es memorizable y cae con frecuencia: F = VM · (1 − b) − Σ Ci.",
+        items: [
+          "Art. 34.1 — DOS PROCEDIMIENTOS: a) análisis de inversiones con VALORES ESPERADOS, o procedimiento DINÁMICO · b) análisis de inversiones con VALORES ACTUALES, o procedimiento ESTÁTICO",
+          "Art. 34.2 — el DINÁMICO se aplica a: TERRENOS URBANOS O URBANIZABLES, estén o no edificados, y EDIFICIOS EN PROYECTO, CONSTRUCCIÓN O REHABILITACIÓN, incluso en el caso de que las obras estén PARALIZADAS",
+          "Art. 34.3 — el ESTÁTICO SOLO puede aplicarse a SOLARES E INMUEBLES EN REHABILITACIÓN en los que pueda comenzarse la edificación o rehabilitación en un PLAZO NO SUPERIOR A UN AÑO, así como a los SOLARES EDIFICADOS",
+          "Art. 34.4 — produce el VALOR RESIDUAL, que permite determinar tanto el valor de mercado como el hipotecario",
+          "Art. 35.1 — REQUISITOS, cuatro acumulativos: información adecuada para determinar la PROMOCIÓN MÁS PROBABLE con arreglo al régimen urbanístico aplicable · información suficiente sobre COSTES DE CONSTRUCCIÓN, gastos de promoción, financieros y de comercialización para un promotor de tipo medio · información de mercado para calcular los PRECIOS DE VENTA más probables en las fechas previstas de comercialización · e información suficiente sobre los RENDIMIENTOS de promociones semejantes",
+          "Art. 41 — MARGEN DE BENEFICIO DEL PROMOTOR: lo fija la entidad tasadora a partir de la información sobre promociones de semejante naturaleza, atendiendo al más habitual en promociones de características y emplazamiento similares, así como a los gastos financieros y de comercialización más frecuentes",
+          "Art. 42 — FÓRMULA DEL PROCEDIMIENTO ESTÁTICO: F = VM · (1 − b) − Σ Ci, donde F es el valor del terreno o inmueble a rehabilitar, VM el valor del inmueble EN LA HIPÓTESIS DE EDIFICIO TERMINADO, b el margen o beneficio neto del promotor en tanto por uno, y Ci cada uno de los pagos necesarios considerados",
+          "Arts. 36-38 — procedimiento de cálculo dinámico, con sus FLUJOS DE CAJA (art. 37) y su TIPO DE ACTUALIZACIÓN (art. 38)",
+        ],
+      },
+      {
+        h: "Valoración de inmuebles, terrenos y derechos (arts. 43-60)",
+        nota:
+          "El Capítulo II aplica los métodos a cada tipo de bien. Para el técnico municipal lo más relevante es el art. 51 y su distinción por NIVEL URBANÍSTICO: en los terrenos de nivel I el valor de tasación es el de COMPARACIÓN y, si no es posible, el RESIDUAL; en los de nivel II es el de comparación SIN CONSIDERACIÓN ALGUNA a su posible utilización urbanística, con el VALOR CATASTRAL como techo si no puede calcularse. Y hay una regla que conviene retener por su rotundidad: la existencia de un proyecto de construcción sobre un terreno NO permite valorarlo de manera distinta.",
+        items: [
+          "Art. 43.1 — las valoraciones se expresarán por FINCAS REGISTRALES INDEPENDIENTES; para valorar un inmueble integrado por varios elementos se valora cada uno",
+          "Art. 51.1 — TERRENOS DE NIVEL URBANÍSTICO I: el valor de tasación es el VALOR POR COMPARACIÓN, en su caso ajustado; cuando su cálculo no sea posible, el VALOR RESIDUAL. En ambos casos se descuentan, cuando proceda, los GASTOS DE DEMOLICIÓN",
+          "Art. 51.1 — REGLA CLAVE: la existencia de un PROYECTO DE CONSTRUCCIÓN sobre un determinado terreno NO PERMITE VALORARLO DE MANERA DIFERENTE a la prevista en esta sección",
+          "Art. 51.3 — TERRENOS DE NIVEL URBANÍSTICO II: el valor de tasación es el valor POR COMPARACIÓN SIN CONSIDERACIÓN ALGUNA a su posible utilización urbanística; si no fuera posible calcularlo, será COMO MÁXIMO EL VALOR CATASTRAL del terreno",
+          "Art. 51.4 — los valores del apartado 1 se calculan teniendo en cuenta el APROVECHAMIENTO URBANÍSTICO SUSCEPTIBLE DE APROPIACIÓN por su propietario EN LA FECHA DE LA TASACIÓN",
+          "Art. 51.2 — terrenos sujetos a EXPLOTACIÓN ECONÓMICA distinta de la agropecuaria: valor por ACTUALIZACIÓN",
+          "Art. 55 — SERVIDUMBRES: se valoran RESTANDO del valor del inmueble supuesto LIBRE de la carga, el valor del mismo inmueble TENIENDO EN CUENTA el efecto de la servidumbre que lo grava; ambos valores se calculan por el método que corresponda",
+          "Art. 56 — NUDA PROPIEDAD, USUFRUCTO, USO Y HABITACIÓN: la base para el prorrateo es el valor por ACTUALIZACIÓN según el art. 28; el USUFRUCTO es el valor actual actuarial de los flujos de caja durante el período de vigencia del derecho, y la NUDA PROPIEDAD la diferencia entre la base de prorrateo y ese valor",
+          "Otros derechos: CONCESIONES ADMINISTRATIVAS (art. 54), LIMITACIONES DEL DOMINIO (art. 57), OPCIONES DE COMPRA (art. 58), inmuebles con TIEMPO COMPARTIDO (art. 59) y COMPROMISOS DE COMPRA A PLAZOS (art. 60)",
+          "Sección 3.ª — valoración de FINCAS RÚSTICAS (art. 48)",
+        ],
+      },
+    ],
+    claves: [
+      "Finalidad FINANCIERA (garantía hipotecaria, aseguradoras, fondos): NO confundir con el RD 1492/2011, que es valoración URBANÍSTICA",
+      "Tres principios que caen: ANTICIPACIÓN · FINALIDAD · MAYOR Y MEJOR USO",
+      "Mayor y mejor uso: dentro de las posibilidades LEGALES Y FÍSICAS",
+      "Superficie: la COMPROBADA POR EL TASADOR; si no puede comprobarse, la MENOR entre catastral y registral",
+      "Antigüedad: desde la construcción o la ÚLTIMA REHABILITACIÓN INTEGRAL",
+      "Actualización de una tasación: misma entidad tasadora y antes de DOS AÑOS",
+      "CUATRO métodos: coste · comparación · actualización de rentas · residual",
+      "Permiten obtener tres valores: de MERCADO, HIPOTECARIO y de REEMPLAZAMIENTO",
+      "Para garantía hipotecaria SE ELIMINAN LOS ELEMENTOS ESPECULATIVOS (art. 16.2)",
+      "COSTE → valor de reemplazamiento BRUTO (suma de 3 inversiones) o NETO (bruto menos depreciaciones)",
+      "Dentro del método del coste, el terreno se valora por COMPARACIÓN o por RESIDUAL",
+      "COMPARACIÓN: exige AL MENOS SEIS transacciones u ofertas de comparables (art. 21.1.c)",
+      "Valor por comparación = mercado · valor por comparación AJUSTADO = hipotecario",
+      "ACTUALIZACIÓN: basta con cumplir AL MENOS UNO de los requisitos; el mercado de alquileres exige SEIS datos de rentas",
+      "Se excluyen del método de actualización las OPCIONES DE COMPRA (art. 24.1)",
+      "RESIDUAL DINÁMICO: terrenos urbanos o urbanizables y edificios en proyecto, construcción o rehabilitación, incluso paralizados",
+      "RESIDUAL ESTÁTICO: solo solares e inmuebles en rehabilitación que puedan empezar EN UN AÑO, y solares edificados",
+      "Fórmula del estático: F = VM · (1 − b) − Σ Ci",
+      "Las valoraciones se expresan por FINCAS REGISTRALES INDEPENDIENTES (art. 43.1)",
+      "Terrenos nivel I: comparación y, en su defecto, residual, descontando gastos de demolición",
+      "Terrenos nivel II: comparación SIN considerar la utilización urbanística; techo del VALOR CATASTRAL si no puede calcularse",
+      "Un PROYECTO DE CONSTRUCCIÓN sobre el terreno NO permite valorarlo de manera diferente (art. 51.1)",
+      "Servidumbre: valor libre de carga MENOS valor gravado (art. 55)",
+    ],
+  },
+
   E24: {
     intro:
       "El Decreto Foral 202/2002 es el desarrollo reglamentario que la Ley Foral 2/1989 anunciaba en su art. 2: aprueba el CATÁLOGO de establecimientos, espectáculos públicos y actividades recreativas y regula los REGISTROS de empresas y locales. Es un tema de definiciones, y por eso se examina con preguntas de detalle: qué nivel sonoro corresponde a cada figura, qué establecimiento exige vestíbulo estanco, cuál no puede tener pista de baile, qué diámetro mínimo tiene una pista. La clave para no perderse es entender que el Catálogo escalona los locales de hostelería por su intensidad musical —bar y cafetería (75 dBA) < bar especial y café-espectáculo (90 dBA) < discoteca (baile)— y que a cada escalón le corresponden exigencias constructivas mayores.",
