@@ -4444,6 +4444,274 @@ export const RESUMENES = {
     ],
   },
 
+  E39: {
+    intro:
+      "El RD 1492/2011 desarrolla el Título V del TRLSRU, así que es la CONTRAPARTIDA URBANÍSTICA de la Orden ECO/805/2003 del tema anterior: la misma finca puede arrojar valores distintos según se tase para una hipoteca o para una expropiación, y esa diferencia es deliberada. La estructura sigue las dos SITUACIONES BÁSICAS del suelo. En RURAL, capitalización de la renta real o potencial —la que sea superior— con un factor de corrección por localización que nunca puede pasar de dos, y con la prohibición absoluta de computar expectativas urbanísticas. En URBANIZADO, valor de repercusión por el método RESIDUAL ESTÁTICO aplicado a la edificabilidad de referencia, y en suelo ya edificado, el mayor de dos valores. Un aviso de vigencia que conviene tener presente: el art. 2 está derogado y la Sentencia del Tribunal Supremo de 8 de junio de 2020 declaró NULOS de pleno derecho el art. 12.1.b y el Anexo I, es decir, los coeficientes correctores del tipo de capitalización para explotaciones agropecuarias y forestales.",
+    bloques: [
+      {
+        h: "Objeto, definiciones y legalidad de lo edificado (arts. 1-5)",
+        nota:
+          "Antes de valorar hay que decidir dos cosas: qué es una explotación y si lo construido se ajusta a la legalidad. El art. 5 resuelve la segunda y su consecuencia es contundente cuando lo edificado es ilegal pero ya no cabe ordenar su demolición: en suelo RURAL no se computa en ningún caso el valor de lo construido, y en urbanizado el suelo se valora como si estuviera vacante. Retén también la definición de CONSTRUCCIÓN del art. 4.2, que excluye expresamente lo de escasa entidad constructiva y sencillez técnica —tinglados y cobertizos— siempre que no tenga carácter residencial ni público y se desarrolle en una sola planta.",
+        items: [
+          "Art. 1 — OBJETO: desarrollar el régimen de valoraciones del texto refundido de la Ley de Suelo",
+          "Art. 2 — situación básica de suelo urbanizado: DEROGADO. La definición vigente es la del art. 21 del TRLSRU",
+          "Art. 3 — MEMORIA DE SOSTENIBILIDAD ECONÓMICA: la documentación de los instrumentos de ordenación de actuaciones de urbanización debe incluirla, ponderando el impacto en las Haciendas Públicas. En relación con la Hacienda LOCAL deben CUANTIFICARSE los costes de mantenimiento por la puesta en marcha y prestación de los servicios públicos necesarios para atender el crecimiento previsto, y ESTIMARSE los ingresos municipales derivados de los principales tributos locales en función de la edificación y población potencial",
+          "Art. 4.1 — EXPLOTACIÓN EN SUELO RURAL: unidad económica de producción que desarrolla el conjunto de actividades, usos y utilidades en una parcela o finca de suelo rural, tomada como marco de referencia para calcular la renta real o potencial",
+          "Art. 4.2 — CONSTRUCCIÓN: las edificaciones e instalaciones, EXCEPTO aquellas de ESCASA ENTIDAD CONSTRUCTIVA Y SENCILLEZ TÉCNICA que no tengan, de forma eventual o permanente, carácter residencial ni público y se desarrollen EN UNA SOLA PLANTA, como los tinglados y cobertizos de pequeña entidad",
+          "Art. 5.1 — se entiende que lo edificado se AJUSTA A LA LEGALIDAD cuando se realizó de conformidad con la ordenación urbanística y el acto administrativo legitimante que requiriese, o ha sido posteriormente LEGALIZADO",
+          "Art. 5.2 — edificaciones NO ajustadas a la legalidad para las que ya NO PROCEDA dictar medidas de restablecimiento que impliquen demolición: en suelo RURAL, en ningún caso se computa el valor de lo edificado; en suelo URBANIZADO, el suelo se valora como si estuviera vacante",
+        ],
+      },
+      {
+        h: "Suelo rural: renta real y potencial (arts. 7-11)",
+        nota:
+          "La regla de partida del art. 7 es la misma del art. 36 del TRLSRU: capitalización de la renta anual REAL O POTENCIAL, adoptándose LA QUE SEA SUPERIOR. La distinción entre ambas es la pregunta característica: la REAL corresponde al estado y actividad actuales, acreditada o atribuible según los cultivos efectivamente implantados; la POTENCIAL, a los usos y actividades MÁS PROBABLES de que sean susceptibles los terrenos conforme a la legislación aplicable, con medios técnicos normales. Ojo a que la potencial no es una expectativa libre: exige referentes estadísticamente significativos o, en su defecto, estudio económico de viabilidad y acreditación de los títulos habilitantes necesarios.",
+        items: [
+          "Art. 7.1 — los terrenos en situación de RURAL se valoran mediante la CAPITALIZACIÓN de la renta anual REAL O POTENCIAL de la explotación, según su estado en el momento al que deba entenderse referida la valoración, ADOPTÁNDOSE LA QUE SEA SUPERIOR",
+          "Art. 7.3 — el valor obtenido PODRÁ SER CORREGIDO AL ALZA mediante la aplicación del FACTOR DE CORRECCIÓN POR LOCALIZACIÓN al valor de capitalización",
+          "Art. 8.1 — RENTA REAL: la que corresponde a la explotación del suelo rural de acuerdo con su ESTADO Y ACTIVIDAD EN EL MOMENTO de la valoración, ya sea la existente debidamente acreditada o la atribuible según los CULTIVOS Y APROVECHAMIENTOS EFECTIVAMENTE IMPLANTADOS sobre la base de datos estadísticamente significativos",
+          "Art. 8.2 — RENTA POTENCIAL: la atribuible a la explotación de acuerdo con los USOS Y ACTIVIDADES MÁS PROBABLES de que sean susceptibles los terrenos conforme a la legislación aplicable, utilizando los MEDIOS TÉCNICOS NORMALES para su producción. Para identificarlos deben considerarse referentes estadísticamente significativos —existencia y viabilidad en su ámbito territorial— o, en su defecto, justificarse mediante ESTUDIO ECONÓMICO DE VIABILIDAD y acreditarse la obtención de los TÍTULOS HABILITANTES necesarios",
+          "Art. 9 — CÁLCULO de la renta anual de la explotación, real o potencial. Art. 10 — CLASES DE EXPLOTACIONES RURALES",
+        ],
+      },
+      {
+        h: "Tipos de capitalización y explotación imposible (arts. 12-16)",
+        nota:
+          "Aquí está el aviso de vigencia más importante del tema. El art. 12 preveía tres tipos de capitalización: el general r1, el agropecuario y forestal r2 —obtenido multiplicando r1 por un coeficiente corrector de la tabla del Anexo I— y el r3 para actividades extractivas, comerciales, industriales y de servicios. Pues bien, la Sentencia del Tribunal Supremo de 8 de junio de 2020 declaró NULOS DE PLENO DERECHO tanto la letra b) como el Anexo I, de modo que los coeficientes correctores agropecuarios han desaparecido del ordenamiento. Del art. 16 retén la cifra: cuando no existe ni puede existir explotación, se capitaliza una renta teórica equivalente a la TERCERA PARTE de la renta real mínima de la tierra.",
+        items: [
+          "Art. 12.1.a — tipo de capitalización general r1: el establecido en el apartado 1 de la DISPOSICIÓN ADICIONAL SÉPTIMA del texto refundido de la Ley de Suelo",
+          "Art. 12.1.b — para actividades AGROPECUARIAS O FORESTALES preveía un tipo r2 resultante de multiplicar r1 por el coeficiente corrector de la tabla del Anexo I. DECLARADOS NULOS DE PLENO DERECHO tanto esta letra b) como el ANEXO I por SENTENCIA DEL TRIBUNAL SUPREMO DE 8 DE JUNIO DE 2020",
+          "Art. 12.1.c — para actividades EXTRACTIVAS, COMERCIALES, INDUSTRIALES Y DE SERVICIOS: tipo r3, resultado de multiplicar r1 por un coeficiente corrector determinado en función de la naturaleza y características de cada explotación, de acuerdo con el riesgo previsible",
+          "Art. 16 — EXPLOTACIÓN IMPOSIBLE: cuando no existiera explotación en el suelo rural y tampoco pudiera existir esa posibilidad por causa de las CARACTERÍSTICAS NATURALES del suelo, el valor se determina capitalizando una RENTA TEÓRICA R0 equivalente a la TERCERA PARTE de la renta real mínima de la tierra, establecida a partir de las estadísticas y estudios publicados por organismos públicos e instituciones según el ámbito territorial",
+        ],
+      },
+      {
+        h: "Factor de corrección por localización (art. 17)",
+        nota:
+          "El único mecanismo que permite subir el valor del suelo rural, y está acotado con precisión para que no se convierta en una puerta trasera a las expectativas urbanísticas. Son TRES factores que se MULTIPLICAN entre sí, y el producto NO PUEDE SER SUPERIOR A DOS: ese tope es el dato que más se pregunta. La segunda regla de cierre también cae: cuando alguno de los tres factores no resulte de aplicación, toma el valor UNO —no cero—, de modo que no anula el producto.",
+        items: [
+          "Art. 17.1 — FÓRMULA: Vf = V · Fl, donde Vf es el valor final del suelo en euros, V el valor de capitalización de la renta de la explotación y Fl el factor global de localización",
+          "Art. 17.2 — el factor global de localización se obtiene del PRODUCTO de TRES factores de corrección y NO PODRÁ SER SUPERIOR A DOS: a) por ACCESIBILIDAD A NÚCLEOS DE POBLACIÓN, u1 · b) por ACCESIBILIDAD A CENTROS DE ACTIVIDAD ECONÓMICA, u2 · c) por UBICACIÓN EN ENTORNOS DE SINGULAR VALOR AMBIENTAL O PAISAJÍSTICO, u3",
+          "Art. 17.2 — regla de cierre: cuando alguno de los tres factores NO RESULTE DE APLICACIÓN, tomará como valor LA UNIDAD",
+          "Art. 17.3 — el factor u1 se calcula en función del número de habitantes de los núcleos de población situados a menos de 4 KM de distancia, medida a vuelo de pájaro",
+        ],
+      },
+      {
+        h: "Suelo urbanizado: reglas generales y edificabilidad de referencia (arts. 19-21)",
+        nota:
+          "El art. 19 funciona como índice y conviene leerlo así, porque reparte cada situación a su artículo: no edificado o con edificación ilegal o en ruina física al art. 22 · edificado o en curso al 23 y 24 · reforma o renovación al 25 · actuaciones de dotación al 26 · y equidistribución al 27. La edificabilidad de referencia es el otro concepto clave: cuando la parcela no tiene edificabilidad o uso privado asignados, se le atribuye la EDIFICABILIDAD MEDIA del ámbito espacial homogéneo, cuya fórmula del art. 21 descuenta del denominador la superficie de suelo DOTACIONAL PÚBLICO ya afectado a su destino.",
+        items: [
+          "Art. 19 — REPARTO DE SUPUESTOS: suelo urbanizado NO EDIFICADO, o con edificación ilegal o en situación de RUINA FÍSICA → art. 22 · suelo EDIFICADO o en curso de edificación → arts. 23 y 24 · suelo sometido a operaciones de REFORMA O RENOVACIÓN de la urbanización → art. 25 · suelo sometido a ACTUACIONES DE DOTACIÓN → art. 26 · valoración en régimen de EQUIDISTRIBUCIÓN → art. 27",
+          "Art. 21 — EDIFICABILIDAD MEDIA del ámbito espacial homogéneo: se calcula ponderando la edificabilidad asignada a cada parcela por la relación entre el valor de repercusión de su uso y el del USO DE REFERENCIA adoptado por la legislación urbanística, dividiendo por la superficie del ámbito MINORADA en la superficie de suelo DOTACIONAL PÚBLICO EXISTENTE YA AFECTADO A SU DESTINO",
+        ],
+      },
+      {
+        h: "Suelo urbanizado no edificado y edificado (arts. 22-24)",
+        nota:
+          "El corazón operativo del reglamento. En suelo no edificado, el valor se obtiene aplicando a la edificabilidad de referencia el VALOR DE REPERCUSIÓN de cada uso, y ese valor de repercusión se determina por el MÉTODO RESIDUAL ESTÁTICO — no dinámico, dato que se pregunta por contraste con la Orden ECO. En suelo edificado o en curso, la regla es la misma del art. 37.2 del TRLSRU: el valor es EL SUPERIOR de dos, la tasación conjunta por comparación y el residual aplicado solo al suelo. Y para poder usar la comparación hace falta un conjunto estadísticamente significativo de AL MENOS SEIS muestras comparables, la misma cifra que exige la Orden ECO.",
+        items: [
+          "Art. 22.1 — VALOR DEL SUELO URBANIZADO NO EDIFICADO: VS = Σ Ei · VRSi, donde Ei es la edificabilidad correspondiente a cada uso considerado y VRSi el valor de repercusión del suelo de cada uno de esos usos",
+          "Art. 22.2 — los valores de repercusión se determinan por el MÉTODO RESIDUAL ESTÁTICO, a partir del valor en venta del producto inmobiliario terminado, el margen de beneficio del promotor y los costes de construcción y gastos necesarios",
+          "Art. 23 — SUELO EDIFICADO O EN CURSO DE EDIFICACIÓN: el valor de tasación será EL SUPERIOR de — a) el determinado por la TASACIÓN CONJUNTA del suelo y de la edificación que se ajuste a la legalidad, por el MÉTODO DE COMPARACIÓN aplicado exclusivamente a los usos de la edificación existente · b) el determinado por el MÉTODO RESIDUAL del art. 22 aplicado EXCLUSIVAMENTE AL SUELO, sin consideración de la edificación existente",
+          "Art. 24.1 — para la tasación conjunta por comparación es necesario un conjunto estadísticamente significativo de transacciones reales o de ofertas cuyo número sea IGUAL O SUPERIOR A SEIS MUESTRAS COMPARABLES",
+          "Art. 24.1 — condiciones de SEMEJANZA O EQUIVALENCIA BÁSICA en la selección de comparables: LOCALIZACIÓN, USO y demás características que permitan establecer el valor de sustitución en el mercado del inmueble objeto de valoración con grado de certidumbre suficiente",
+        ],
+      },
+      {
+        h: "Reforma o renovación, dotación y equidistribución (arts. 25-27)",
+        nota:
+          "Tres supuestos con una regla común de fondo: no se valoran las plusvalías que la propia actuación va a generar. En reforma o renovación, el método residual considera EXCLUSIVAMENTE los usos y edificabilidades atribuidos por la ordenación EN SU SITUACIÓN DE ORIGEN, de modo que el incremento derivado de la propia operación no se computa a favor del propietario. Y en equidistribución, la regla es la inversa y coherente con el art. 40 del TRLSRU: el suelo se tasa por el valor que le correspondería TERMINADA LA EJECUCIÓN, porque de lo que se trata es de ponderar aportaciones entre propietarios.",
+        items: [
+          "Art. 25 — REFORMA O RENOVACIÓN de la urbanización: se aplica el art. 22 si el suelo no está edificado o si la edificación es ilegal o está en ruina física, y el art. 23 si está edificado o en curso. En ambos casos el método residual considerará EXCLUSIVAMENTE los usos y edificabilidades atribuidos por la ordenación EN SU SITUACIÓN DE ORIGEN",
+          "Art. 26 — ACTUACIONES DE DOTACIÓN: el valor de las parcelas se determina mediante la aplicación de los VALORES DE REPERCUSIÓN del suelo correspondientes a los usos y edificabilidades establecidos en el art. 20",
+          "Art. 27.1 — EQUIDISTRIBUCIÓN: cuando los propietarios ejercitan la facultad de participar en régimen de equitativa distribución de beneficios y cargas, y salvo acuerdo específico suscrito por la TOTALIDAD de ellos, el suelo se tasa por el valor que les correspondería TERMINADA LA EJECUCIÓN, en los términos del art. 22",
+          "Art. 27.2 — si algún propietario NO PUDIERA EJERCITAR la facultad de participar por INSUFICIENCIA DE LOS DERECHOS APORTADOS para recibir una parcela edificable resultante, su suelo se tasa por reglas específicas, descontando los gastos de urbanización incrementados por la tasa libre de riesgo y la prima de riesgo, conforme al art. 40.2 del TRLSRU",
+        ],
+      },
+    ],
+    claves: [
+      "Es la valoración URBANÍSTICA: contrapártela con la Orden ECO/805/2003, que es financiera",
+      "AVISO DE VIGENCIA: el art. 2 está DEROGADO, y la STS de 8 de junio de 2020 declaró NULOS el art. 12.1.b y el ANEXO I",
+      "Memoria de sostenibilidad económica: cuantificar COSTES de mantenimiento y estimar INGRESOS municipales (art. 3)",
+      "Construcción: se excluye lo de escasa entidad y sencillez técnica, no residencial ni público y en UNA SOLA PLANTA (art. 4.2)",
+      "Edificación ilegal no demolible: en RURAL no se computa su valor; en URBANIZADO el suelo se valora como VACANTE (art. 5.2)",
+      "Suelo rural: capitalización de la renta real o potencial, LA QUE SEA SUPERIOR (art. 7.1)",
+      "Renta REAL = estado y actividad actuales · Renta POTENCIAL = usos más probables conforme a la legislación, con medios técnicos normales",
+      "La renta potencial exige referentes estadísticos o estudio de viabilidad MÁS acreditación de los títulos habilitantes",
+      "Tipo general r1: el de la DISPOSICIÓN ADICIONAL SÉPTIMA del TRLSRU",
+      "Sin explotación posible: renta teórica igual a LA TERCERA PARTE de la renta real mínima de la tierra (art. 16)",
+      "Factor de localización: producto de TRES factores y NUNCA SUPERIOR A DOS (art. 17.2)",
+      "Si un factor no resulta aplicable toma el valor UNO, no cero",
+      "u1 se calcula con los habitantes de los núcleos situados a menos de 4 KM a vuelo de pájaro",
+      "Edificabilidad media: descuenta del ámbito la superficie DOTACIONAL PÚBLICA ya afectada a su destino (art. 21)",
+      "Suelo urbanizado no edificado: VS = Σ Ei · VRSi, con el valor de repercusión por MÉTODO RESIDUAL ESTÁTICO",
+      "Suelo edificado: EL SUPERIOR entre tasación conjunta por COMPARACIÓN y residual aplicado SOLO AL SUELO (art. 23)",
+      "La comparación exige AL MENOS SEIS muestras comparables (art. 24.1), igual que la Orden ECO",
+      "Reforma o renovación: el residual considera los usos y edificabilidades EN SITUACIÓN DE ORIGEN (art. 25)",
+      "Equidistribución: el suelo se tasa por el valor que tendría TERMINADA LA EJECUCIÓN (art. 27.1)",
+    ],
+  },
+
+  E40: {
+    intro:
+      "El tema más extenso del temario —el Reglamento del Dominio Público Hidráulico tiene más de trescientos artículos— pero también uno de los más manejables si se ataca por su geometría en lugar de por su articulado. Todo el reglamento se sostiene sobre unas BANDAS CONCÉNTRICAS que parten del cauce hacia fuera: el CAUCE es dominio público; sobre las márgenes recae una ZONA DE SERVIDUMBRE de 5 metros y una ZONA DE POLICÍA de 100; y superpuestas a ellas, dos figuras de riesgo que no se miden en metros sino por criterios hidráulicos, la ZONA DE FLUJO PREFERENTE y la ZONA INUNDABLE. Si dominas esas cinco figuras, sus anchuras y qué se puede hacer en cada una, tienes resuelta la mayor parte del tema, porque el resto —usos comunes y privativos, concesiones y vertidos— se ordena después con la misma lógica de título habilitante: declaración responsable, autorización o concesión. Para un arquitecto municipal hay tres puntos de contacto constantes: la autorización del organismo de cuenca para obras en zona de policía, el informe previo del art. 25.4 del TRLA sobre los planes municipales, y las limitaciones de los arts. 9 bis, 9 ter y 14 bis, que condicionan qué se puede edificar según el suelo estuviera en situación rural o urbanizada A FECHA 30 DE DICIEMBRE DE 2016 — una fecha de corte que hay que memorizar.",
+    bloques: [
+      {
+        h: "El cauce y el dominio público hidráulico (arts. 1-5)",
+        nota:
+          "El concepto que abre y condiciona todo el reglamento es el de MÁXIMA CRECIDA ORDINARIA, porque es lo que delimita físicamente el cauce y, con él, el dominio público. Su definición hidrológica es precisa y se pregunta: la MEDIA DE LOS MÁXIMOS CAUDALES INSTANTÁNEOS ANUALES en régimen natural, calculada sobre un período superior a DIEZ AÑOS CONSECUTIVOS. Y hay una excepción de dominio que conviene retener por su doble condición acumulativa: son de dominio PRIVADO los cauces por los que discurran OCASIONALMENTE y EXCLUSIVAMENTE aguas pluviales, y solo EN TANTO atraviesen únicamente fincas de dominio privado.",
+        items: [
+          "Art. 4.1 — CAUCE PÚBLICO: el álveo o cauce natural de una corriente continua o discontinua cuyo terreno queda cubierto por las aguas en las MÁXIMAS CRECIDAS ORDINARIAS. Su determinación atiende a las características GEOMORFOLÓGICAS y ECOLÓGICAS y a la información hidrológica, hidráulica, fotográfica, cartográfica e histórica disponible",
+          "Art. 4.2 — CAUDAL DE LA MÁXIMA CRECIDA ORDINARIA: la MEDIA DE LOS MÁXIMOS CAUDALES INSTANTÁNEOS ANUALES en régimen natural, calculada sobre un período que incluirá el máximo número de años posible y será SUPERIOR A DIEZ AÑOS CONSECUTIVOS. Donde no haya información hidrológica suficiente se establecerá por métodos hidrológicos e hidráulicos alternativos y simulación",
+          "Art. 5 — CAUCES DE DOMINIO PRIVADO: los cauces por los que discurran OCASIONALMENTE y EXCLUSIVAMENTE AGUAS PLUVIALES, EN TANTO atraviesen únicamente fincas de dominio privado. Ese dominio privado NO autoriza a hacer labores ni construir obras que puedan variar el curso natural de las aguas en perjuicio del interés público o de tercero, o cuya destrucción por las avenidas pueda ocasionar daños",
+          "Art. 3 — la FASE ATMOSFÉRICA del ciclo hidrológico solo podrá ser modificada artificialmente en los supuestos y con las condiciones previstas",
+          "Arts. 12-13 — LECHO O FONDO de lagos y lagunas: el terreno que ocupan sus aguas en las épocas en que alcanzan su mayor nivel ordinario. Las CHARCAS situadas en predios de propiedad privada se consideran parte integrante de los mismos",
+          "Art. 15 — dominio público hidráulico de los ACUÍFEROS",
+        ],
+      },
+      {
+        h: "Riberas, márgenes y las dos bandas: servidumbre y policía (arts. 6-8)",
+        nota:
+          "El artículo 6 es probablemente el que más veces vas a citar en tu vida profesional, y sus dos cifras son de respuesta inmediata: CINCO METROS de zona de servidumbre y CIEN METROS de zona de policía, medidos en toda la extensión longitudinal de las márgenes. Distingue con cuidado RIBERAS de MÁRGENES, que el examen intercambia: las riberas son las fajas laterales de los cauces situadas POR ENCIMA DEL NIVEL DE AGUAS BAJAS —o sea, dentro del cauce—, mientras que las márgenes son los terrenos que LINDAN con los cauces, ya fuera de él. Y retén que ambas anchuras pueden modificarse en las zonas próximas a la desembocadura, en el entorno de embalses o cuando lo exija la seguridad de personas y bienes.",
+        items: [
+          "Art. 6.1 — RIBERAS: las fajas laterales de los cauces públicos situadas POR ENCIMA DEL NIVEL DE AGUAS BAJAS. MÁRGENES: los terrenos que LINDAN con los cauces",
+          "Art. 6.2 — las márgenes están sujetas en toda su extensión longitudinal a: a) una ZONA DE SERVIDUMBRE DE CINCO METROS de anchura PARA USO PÚBLICO · b) una ZONA DE POLICÍA DE CIEN METROS de anchura, en la que se condicionará el uso del suelo y las actividades que en él se desarrollen",
+          "Art. 6.3 — FINALIDAD de ambas zonas: preservar el estado del dominio público hidráulico, prevenir el deterioro de los ecosistemas acuáticos contribuyendo a su mejora, y proteger el régimen de las corrientes en avenidas, favoreciendo la función de los terrenos colindantes en la LAMINACIÓN de caudales y carga sólida transportada",
+          "Art. 6.4 — la anchura de ambas zonas PODRÁ MODIFICARSE en las zonas próximas a la desembocadura en el mar, en el entorno inmediato de los embalses, o cuando las condiciones topográficas o hidrográficas lo hagan necesario para la seguridad de personas y bienes",
+          "Art. 7.1 — TRES FINES de la zona de servidumbre: a) PROTECCIÓN del ecosistema fluvial y del dominio público hidráulico · b) PASO PÚBLICO PEATONAL y para los servicios de vigilancia, conservación y salvamento, salvo limitación por razones ambientales o de seguridad · c) VARADO Y AMARRE de embarcaciones de forma ocasional y en caso de necesidad",
+          "Art. 7.2 — los propietarios pueden LIBREMENTE sembrar y plantar ESPECIES NO ARBÓREAS siempre que no deterioren el ecosistema ni impidan el paso. Las TALAS O PLANTACIONES DE ESPECIES ARBÓREAS REQUIEREN AUTORIZACIÓN del organismo de cuenca",
+          "Art. 7.3 — con carácter general NO se podrá realizar NINGÚN TIPO DE CONSTRUCCIÓN en la zona de servidumbre, salvo que resulte conveniente o necesaria para el uso del dominio público hidráulico o para su conservación y restauración. Solo podrán autorizarse EDIFICACIONES EN CASOS MUY JUSTIFICADOS, ejecutándose en las condiciones menos desfavorables y con la MÍNIMA OCUPACIÓN, tanto en suelo como en vuelo, garantizando la efectividad de la servidumbre",
+          "Art. 8 — la zona de servidumbre puede MODIFICARSE por razones topográficas, hidrográficas o por exigencia de la concesión de un aprovechamiento, previa tramitación de expediente con audiencia al propietario y, en su caso, al concesionario, con la INDEMNIZACIÓN que proceda conforme a la legislación de expropiación forzosa",
+        ],
+      },
+      {
+        h: "Zona de policía y zona de flujo preferente (art. 9)",
+        nota:
+          "El artículo 9 contiene la definición técnica más preguntable de todo el tema. La ZONA DE FLUJO PREFERENTE es la UNIÓN de dos zonas: la VÍA DE INTENSO DESAGÜE y la zona donde, para la avenida de 100 años, pueden producirse graves daños a personas y bienes; su límite exterior es la ENVOLVENTE de ambas. Y los tres criterios de «graves daños» son alternativos, basta con uno: CALADO superior a 1 m, VELOCIDAD superior a 1 m/s, o PRODUCTO de ambas superior a 0,5 m²/s. La vía de intenso desagüe tiene su propia cifra: la zona por la que pasaría la avenida de 100 años sin producir una sobreelevación mayor de 0,3 m, reducible a 0,1 m o ampliable a 0,5 m según los perjuicios. Memoriza esos números por separado, porque el examen los cruza.",
+        items: [
+          "Art. 9.1 — en la zona de policía de 100 metros medidos HORIZONTALMENTE A PARTIR DEL CAUCE quedan sometidos al reglamento: a) las ALTERACIONES SUSTANCIALES DEL RELIEVE natural del terreno · b) las EXTRACCIONES DE ÁRIDOS · c) las CONSTRUCCIONES DE TODO TIPO, tengan carácter definitivo o provisional · d) cualquier otro uso o actividad que suponga un OBSTÁCULO PARA LA CORRIENTE EN RÉGIMEN DE AVENIDAS o pueda causar degradación o deterioro del estado de la masa de agua, del ecosistema acuático o del dominio público hidráulico",
+          "Art. 9.2 — ZONA DE FLUJO PREFERENTE: la constituida por la UNIÓN de la zona o zonas donde se concentra preferentemente el flujo durante las avenidas —VÍA DE INTENSO DESAGÜE— y de la zona donde, para la avenida de 100 AÑOS DE PERIODO DE RETORNO, puedan producirse GRAVES DAÑOS sobre las personas y los bienes; su límite exterior es la ENVOLVENTE de ambas",
+          "TRES CRITERIOS ALTERNATIVOS de graves daños: a) CALADO superior a 1 M · b) VELOCIDAD superior a 1 M/S · c) PRODUCTO de ambas variables superior a 0,5 M²/S. Basta con que se satisfaga UNO O MÁS",
+          "VÍA DE INTENSO DESAGÜE: la zona por la que pasaría la avenida de 100 años SIN PRODUCIR UNA SOBREELEVACIÓN MAYOR QUE 0,3 M respecto a la cota de la lámina de agua que se produciría con esa misma avenida considerando toda la llanura de inundación. La sobreelevación puede REDUCIRSE HASTA 0,1 M cuando el incremento de inundación produzca graves perjuicios, o AUMENTARSE HASTA 0,5 M en zonas rurales o cuando los daños sean reducidos",
+          "Art. 9.2 — en las zonas de flujo preferente SOLO podrán autorizarse actividades NO VULNERABLES frente a las avenidas y que NO SUPONGAN UNA REDUCCIÓN SIGNIFICATIVA DE LA CAPACIDAD DE DESAGÜE",
+          "Art. 9.3 — la MODIFICACIÓN de los límites de la zona de policía solo puede ser PROMOVIDA por la Administración General del Estado, autonómica o local; la competencia para acordarla es del ORGANISMO DE CUENCA, con información pública y audiencia a ayuntamientos, comunidades autónomas y propietarios afectados, y resolución motivada y publicada en el BOE y en el portal del organismo",
+          "Art. 9.4 — la ejecución de CUALQUIER OBRA O TRABAJO en la zona de policía deberá contar con AUTORIZACIÓN ADMINISTRATIVA PREVIA O DECLARACIÓN RESPONSABLE ante el organismo de cuenca, siendo INDEPENDIENTE de cualquier otra autorización de otras administraciones",
+        ],
+      },
+      {
+        h: "Limitaciones en la zona de flujo preferente (arts. 9 bis, 9 ter y 9 quáter)",
+        nota:
+          "Tres artículos que se distinguen por la SITUACIÓN BÁSICA del suelo a fecha 30 DE DICIEMBRE DE 2016, y esa es la clave para no confundirlos. En suelo que entonces era RURAL, el art. 9 bis PROHÍBE una lista tasada de usos. En suelo que entonces era URBANIZADO, el art. 9 ter PERMITE edificar con requisitos —la lógica se invierte—. Y el art. 9 quáter abre un régimen especial para los municipios con AL MENOS UN TERCIO de su superficie en zona de flujo preferente, o cuya morfología impida orientar sus desarrollos a zonas no inundables. Fíjate en el requisito paradójico del 9 quáter: exige que las nuevas edificaciones estén ubicadas FUERA DE LA ZONA DE POLICÍA.",
+        items: [
+          "Art. 9 bis — en suelo que a 30 DE DICIEMBRE DE 2016 estuviera en situación básica de SUELO RURAL, NO se permite la instalación de nuevas: a) instalaciones que almacenen, transformen, manipulen, generen o viertan productos perjudiciales —estaciones de servicio, depuradoras industriales, almacenes de residuos, instalaciones eléctricas de media y alta tensión—, ni CENTROS ESCOLARES O SANITARIOS, RESIDENCIAS de personas mayores o con discapacidad, centros deportivos o GRANDES SUPERFICIES COMERCIALES, ni PARQUES DE BOMBEROS, CENTROS PENITENCIARIOS o instalaciones de PROTECCIÓN CIVIL",
+          "Art. 9 bis.b — tampoco EDIFICACIONES, obras de reparación o rehabilitación que supongan INCREMENTO DE LA OCUPACIÓN EN PLANTA O DEL VOLUMEN, cambios de uso que incrementen la vulnerabilidad, GARAJES SUBTERRÁNEOS, SÓTANOS y cualquier edificación BAJO RASANTE, ni instalaciones permanentes de aparcamiento en superficie. Se exceptúan las obras imprescindibles para adaptar las edificaciones existentes a la normativa sectorial",
+          "Art. 9 bis, resto de letras: c) ACAMPADAS y zonas de alojamiento en campings · d) DEPURADORAS de aguas residuales urbanas, salvo estudio de alternativas que acredite la idoneidad · e) INVERNADEROS, CERRAMIENTOS Y VALLADOS NO PERMEABLES, como los muros de fábrica estancos · f) GRANJAS y criaderos incluidos en el Registro de explotaciones ganaderas · g) RELLENOS que modifiquen la rasante y reduzcan significativamente la capacidad de desagüe · h) ACOPIOS de materiales arrastrables y almacenamiento de residuos",
+          "Art. 9 ter — en suelo que a 30 DE DICIEMBRE DE 2016 estuviera en situación de SUELO URBANIZADO SÍ pueden realizarse nuevas edificaciones, obras con incremento de ocupación o volumen, cambios de uso, garajes subterráneos, sótanos y aparcamientos permanentes, siempre que: a) NO representen un aumento de la VULNERABILIDAD de personas o bienes, por haberse diseñado teniendo en cuenta el riesgo · b) NO se incremente de manera significativa la INUNDABILIDAD del entorno inmediato ni aguas abajo, ni se condicionen las actuaciones de defensa · c) no sean instalaciones de las prohibidas por su peligrosidad",
+          "Art. 9 quáter — RÉGIMEN ESPECIAL en municipios con AL MENOS UN TERCIO de su superficie incluida en la zona de flujo preferente, o cuya morfología y condicionantes ambientales o territoriales imposibiliten orientar sus desarrollos a zonas no inundables. Requisitos: a) estar ubicados FUERA DE LA ZONA DE POLICÍA · b) no incrementar significativamente el riesgo de inundación existente · c) no aumentar la vulnerabilidad · d) no construir las instalaciones del art. 9 bis.1 letras a), e) y h) ni grandes superficies comerciales",
+        ],
+      },
+      {
+        h: "Zona inundable y el informe del art. 25.4 (arts. 14 bis a 14 quater)",
+        nota:
+          "La zona inundable es la de mayor extensión y menor intensidad de protección: no prohíbe, CONDICIONA. Su referencia temporal es la avenida de 500 AÑOS de periodo de retorno —frente a los 100 de la zona de flujo preferente—, y esa es la pareja de cifras que más se cruza en el examen. Del art. 14 quater retén su relevancia directa para tu trabajo: es el precepto que obliga al organismo de cuenca a emitir INFORME PREVIO sobre los actos y planes de comunidades autónomas y entidades locales que afecten al régimen y aprovechamiento de las aguas o a los usos en dominio público hidráulico y sus zonas de servidumbre y policía. En concentraciones parcelarias, ese informe es VINCULANTE en cuanto a las modificaciones de derechos al uso del agua.",
+        items: [
+          "Art. 14 — se considera ZONA INUNDABLE los terrenos que puedan resultar inundados por los niveles teóricos que alcanzarían las aguas en las avenidas cuyo periodo estadístico de retorno sea de QUINIENTOS AÑOS",
+          "Art. 14 bis.1 — en suelos que a 30 DE DICIEMBRE DE 2016 estuvieran en situación básica de SUELO RURAL, las nuevas actividades, edificaciones y usos asociados se realizarán, EN LA MEDIDA DE LO POSIBLE, FUERA de las zonas inundables",
+          "Art. 14 bis.1.a — cuando no sea posible: las instalaciones se diseñarán teniendo en cuenta el riesgo, y los NUEVOS USOS RESIDENCIALES se dispondrán a una COTA TAL QUE NO SE VEAN AFECTADOS POR LA AVENIDA DE 500 AÑOS. Podrán disponer de GARAJES SUBTERRÁNEOS Y SÓTANOS siempre que se garantice la ESTANQUEIDAD del recinto para esa avenida, se realicen estudios específicos para evitar el colapso, y se disponga de RESPIRADEROS Y VÍAS DE EVACUACIÓN por encima de esa cota, teniendo en cuenta la accesibilidad en situación de emergencia",
+          "Art. 14 bis.1.b — se EVITARÁ el establecimiento de servicios o equipamientos sensibles o infraestructuras públicas en zona inundable",
+          "Art. 14 ter — procedimiento para la elaboración e integración de la CARTOGRAFÍA de zonas inundables",
+          "Art. 14 quater.1 — INFORME PREVIO del art. 25.4 del TRLA: los organismos de cuenca lo emitirán sobre los ACTOS Y PLANES que las comunidades autónomas y entidades locales hayan de aprobar en el ejercicio de sus competencias, siempre que afecten al régimen y aprovechamiento de las aguas continentales o a los usos permitidos en el dominio público hidráulico y en sus ZONAS DE SERVIDUMBRE Y POLICÍA",
+          "Art. 14 quater.2 — el informe analizará los efectos sobre: a) el RÉGIMEN DE CAUDALES si el plan comporta nuevas demandas, pronunciándose sobre la existencia o inexistencia de recursos suficientes — en las CONCENTRACIONES PARCELARIAS estos informes son VINCULANTES en cuanto a las modificaciones de derechos al uso del agua · b) el RÉGIMEN DE CORRIENTES si el plan puede modificar el tamaño de la zona de flujo preferente · c) cualquier aspecto relativo a la protección y calidad de las aguas",
+          "Art. 10 — gestión de los EPISODIOS DE AVENIDAS E INUNDACIONES. Art. 11 — situaciones jurídicas derivadas de las MODIFICACIONES NATURALES de los cauces",
+        ],
+      },
+      {
+        h: "Servidumbres legales de aguas (arts. 16-49)",
+        nota:
+          "Un bloque largo pero de estructura repetitiva, heredado del Código Civil. La servidumbre natural del art. 16 es el punto de partida: los predios INFERIORES están sujetos a recibir las aguas que naturalmente descienden de los superiores, sin obra del hombre. A partir de ahí, el reglamento regula con detalle la SERVIDUMBRE FORZOSA DE ACUEDUCTO —la más desarrollada, arts. 19 a 39— y luego las de ABREVADERO, SACA DE AGUA, PASO y ESTRIBO DE PRESA. Para el examen basta con retener la idea de cada una y dos o tres reglas características; no merece la pena memorizar el procedimiento artículo por artículo.",
+        items: [
+          "Art. 16 — SERVIDUMBRE NATURAL: los predios INFERIORES están sujetos a recibir las aguas que naturalmente y sin obra del hombre desciendan de los predios superiores, así como la tierra o piedra que arrastren en su curso",
+          "Art. 19 — SERVIDUMBRE DE ACUEDUCTO: otorga al propietario de un predio el derecho a conducir agua a través de predios ajenos, previa la correspondiente indemnización",
+          "Art. 20 — NO puede imponerse la servidumbre forzosa de acueducto sobre EDIFICIOS, sus PATIOS, JARDINES y demás dependencias, ni sobre huertas ya existentes",
+          "Art. 23 — la servidumbre forzosa de acueducto se constituye con carácter TEMPORAL o PERPETUO, según su finalidad",
+          "Art. 26 — los GASTOS de la servidumbre corren de cuenta de quien la haya promovido y obtenido",
+          "Art. 30 — NADIE podrá derivar agua de un acueducto ni aprovecharse de sus márgenes sin título suficiente",
+          "Art. 32 — se entiende IMPLÍCITO en la servidumbre forzosa de acueducto el derecho de paso por sus márgenes para su exclusivo servicio",
+          "Art. 33 — CAUSAS DE EXTINCIÓN de la servidumbre de acueducto",
+          "Art. 40 — en toda acequia o acueducto, el CAUCE, LOS CAJEROS Y LAS MÁRGENES se consideran parte integrante de la heredad o edificio a que van destinadas las aguas",
+          "Arts. 42-46 — SERVIDUMBRES DE ABREVADERO Y DE SACA DE AGUA: solo pueden imponerse por causa de utilidad pública en favor de alguna población o caserío, y NO se imponen sobre cisternas o aljibes. Llevan consigo la obligación de dar paso a personas y ganados",
+          "Art. 47 — SERVIDUMBRE DE PASO para facilitar el acceso a las márgenes, en los términos del reglamento",
+          "Art. 48 — servidumbre para precaver que las AVENIDAS arrebaten maderas u objetos. Art. 49 — DESBROCE Y LIMPIEZA de cauces públicos",
+        ],
+      },
+      {
+        h: "Usos comunes, usos comunes especiales y orden de preferencia (arts. 49 bis a 53)",
+        nota:
+          "Aquí está la escalera de títulos habilitantes que ordena todo el Título II, y conviene fijarla como una progresión: USO COMÚN, libre y SIN NECESIDAD DE AUTORIZACIÓN · USO COMÚN ESPECIAL, sujeto a DECLARACIÓN RESPONSABLE cuando no excluye la utilización del recurso por terceros · y AUTORIZACIÓN PREVIA cuando por su especial intensidad sí pueda afectar a esa utilización. Los usos privativos suben un peldaño más y exigen CONCESIÓN. El orden de preferencia del art. 49 bis clasifica los usos en OCHO CATEGORÍAS, encabezadas siempre por el ABASTECIMIENTO de núcleos urbanos.",
+        items: [
+          "Art. 50.1 — USOS COMUNES: todos pueden, SIN NECESIDAD DE AUTORIZACIÓN ADMINISTRATIVA, usar de las aguas superficiales mientras discurran por sus cauces naturales para BEBER, BAÑARSE y otros USOS DOMÉSTICOS, así como para ABREVAR EL GANADO",
+          "Art. 50.2 — estos usos deben llevarse a cabo sin alterar la CALIDAD Y EL CAUDAL de las aguas; EN NINGÚN CASO podrán desviarse de sus cauces o lechos, debiendo respetarse el régimen normal de aprovechamiento",
+          "Art. 51.1 — USOS COMUNES ESPECIALES sujetos a DECLARACIÓN RESPONSABLE: a) la NAVEGACIÓN Y FLOTACIÓN, incluida la navegación recreativa particular · b) el establecimiento de BARCAS DE PASO y sus embarcaderos · c) cualquier otro uso que NO EXCLUYA LA UTILIZACIÓN DEL RECURSO POR TERCEROS",
+          "Art. 52 — se someten a DECLARACIÓN RESPONSABLE, por no excluir la utilización por terceros, entre otras: la CORTA Y RETIRADA DE ÁRBOLES MUERTOS o que supongan riesgo para la seguridad, las PODAS y las actuaciones de gestión de la biomasa vegetal de obligada ejecución en aplicación de la normativa de prevención de INCENDIOS FORESTALES o de plagas",
+          "Art. 53 — los usos comunes especiales y otras actividades no recogidas en los arts. 51 y 52 que POR SU ESPECIAL INTENSIDAD puedan afectar a la utilización del recurso por terceros requieren AUTORIZACIÓN PREVIA del organismo de cuenca, respetando los principios de PUBLICIDAD, TRANSPARENCIA Y OBJETIVIDAD, y con CONCURRENCIA COMPETITIVA en los supuestos previstos",
+          "Art. 49 bis — ORDEN DE PREFERENCIA de los usos privativos: OCHO CATEGORÍAS, encabezadas por el uso destinado al ABASTECIMIENTO —primero el de núcleos urbanos, con el consumo humano en primer lugar, y después otros abastecimientos fuera de los núcleos urbanos—",
+          "Arts. 49 ter y 49 quáter — RÉGIMEN DE CAUDALES ECOLÓGICOS y su mantenimiento",
+        ],
+      },
+      {
+        h: "Actividades en zona de policía y concesiones (arts. 78 y Cap. III)",
+        nota:
+          "El art. 78 es el precepto que conecta este reglamento con tu mesa de trabajo: los usos del suelo y actividades en zona de policía y zonas inundables exigen DECLARACIÓN RESPONSABLE o AUTORIZACIÓN ADMINISTRATIVA PREVIA del organismo de cuenca, y además, para los actos y planes de comunidades autónomas y entidades locales, el informe preceptivo del art. 25.4 del TRLA. Del régimen concesional basta con retener la arquitectura: la concesión es el título de los USOS PRIVATIVOS, se otorga con carácter TEMPORAL, y el reglamento regula su novación, modificación, revisión y extinción en secciones sucesivas.",
+        items: [
+          "Art. 78.1 — los usos del suelo y las actividades que se desarrollen en la ZONA DE POLICÍA Y ZONAS INUNDABLES están condicionados conforme a los arts. 6 y 11 del TRLA. Es preciso presentar DECLARACIÓN RESPONSABLE u obtener AUTORIZACIÓN ADMINISTRATIVA PREVIA, cuya tramitación y resolución corresponde al ORGANISMO DE CUENCA",
+          "Art. 78.1 — para los ACTOS Y PLANES que hayan de aprobar las comunidades autónomas y entidades locales, el organismo de cuenca emitirá el INFORME PRECEPTIVO del art. 25.4 del TRLA y, cuando resulte pertinente, el del art. 128",
+          "Capítulo III del Título II — LA CONCESIÓN DE AGUAS: título habilitante de los USOS PRIVATIVOS. El reglamento regula la concesión en general, las normas generales y complementarias de procedimiento, las especialidades en la tramitación de otras concesiones, la NOVACIÓN, las MODIFICACIONES DE CARACTERÍSTICAS, la REVISIÓN, la EXTINCIÓN y el alumbramiento y utilización de AGUAS SUBTERRÁNEAS",
+          "Sección 7.ª del Capítulo II — USOS PRIVATIVOS POR DISPOSICIÓN LEGAL. Sección 8.ª — EXTINCIÓN del derecho al uso privativo",
+        ],
+      },
+      {
+        h: "Vertidos (Título III, Capítulo II, arts. 245 y ss.)",
+        nota:
+          "El último bloque del temario y el que más afecta al ayuntamiento como sujeto obligado, porque el titular de la autorización de vertido de AGUAS RESIDUALES URBANAS es el propio AYUNTAMIENTO o la entidad local correspondiente. Retén la distinción entre vertido DIRECTO —emisión directa a las aguas o al dominio público, incluida la inyección en aguas subterráneas sin percolación— e INDIRECTO —a través de azarbes, colectores de aguas residuales o pluviales, o por filtración a través del suelo—. Y que toda autorización de vertido debe concretar un contenido tasado: origen, punto de vertido, caudal y valores límite de emisión, instalaciones de depuración y plazos.",
+        items: [
+          "Art. 245.1 — se consideran VERTIDOS los que se realicen DIRECTA O INDIRECTAMENTE en las aguas continentales, así como en el resto del dominio público hidráulico, cualquiera que sea el procedimiento o técnica utilizada",
+          "VERTIDOS DIRECTOS: los producidos por emisión directa de contaminantes a las aguas continentales o a cualquier otro elemento del dominio público hidráulico, así como la descarga de contaminantes en el agua subterránea mediante INYECCIÓN SIN PERCOLACIÓN a través del suelo o del subsuelo",
+          "VERTIDOS INDIRECTOS: los realizados en aguas superficiales a través de AZARBES, redes de COLECTORES de recogida de aguas residuales o de aguas pluviales, o por filtración a través del suelo o del subsuelo",
+          "Art. 246.1 — el procedimiento de autorización se inicia por SOLICITUD del titular de la actividad, con los datos del art. 66 de la Ley 39/2015 y la DECLARACIÓN DE VERTIDO según modelo aprobado por el Ministerio",
+          "Art. 246.2 — el TITULAR de la autorización es el titular de la ACTIVIDAD generadora. En las AGUAS RESIDUALES URBANAS lo será EL AYUNTAMIENTO o la entidad local correspondiente, así como cualquier otra administración o entidad de derecho público competente",
+          "Art. 251 — CONDICIONADO de las autorizaciones: deben concretar el ORIGEN de las aguas residuales y la localización geográfica del punto de vertido · el CAUDAL y los VALORES LÍMITE DE EMISIÓN determinados con arreglo al ENFOQUE COMBINADO del art. 100.2 del TRLA · las INSTALACIONES DE DEPURACIÓN Y EVACUACIÓN suficientes · y las FECHAS de iniciación y terminación de las obras e instalaciones y sus fases",
+          "Secciones del Capítulo II: autorizaciones de vertido · ENTIDADES COLABORADORAS · SUSTANCIAS PELIGROSAS · vertidos a las AGUAS SUBTERRÁNEAS · REVISIÓN de las autorizaciones · y EMPRESAS DE VERTIDO",
+        ],
+      },
+    ],
+    claves: [
+      "Cauce = terreno cubierto por las aguas en las MÁXIMAS CRECIDAS ORDINARIAS",
+      "Máxima crecida ordinaria: media de los máximos caudales instantáneos anuales en régimen natural, período SUPERIOR A 10 AÑOS consecutivos",
+      "Cauces de dominio PRIVADO: por los que discurran OCASIONAL y EXCLUSIVAMENTE aguas pluviales, y solo mientras atraviesen fincas privadas",
+      "RIBERAS = fajas laterales por encima del nivel de aguas bajas (dentro del cauce) · MÁRGENES = terrenos que lindan con el cauce",
+      "ZONA DE SERVIDUMBRE: 5 METROS, para uso público · ZONA DE POLICÍA: 100 METROS",
+      "Tres fines de la servidumbre: protección del ecosistema · paso público peatonal y servicios · varado y amarre ocasional",
+      "En servidumbre: siembra y plantación NO ARBÓREA libre; las TALAS Y PLANTACIONES ARBÓREAS exigen autorización",
+      "En servidumbre no cabe construcción, salvo lo necesario para el DPH y edificaciones en CASOS MUY JUSTIFICADOS",
+      "Zona de policía: alteraciones sustanciales del relieve · extracciones de áridos · CONSTRUCCIONES DE TODO TIPO · obstáculos a la corriente en avenidas",
+      "ZONA DE FLUJO PREFERENTE = unión de la VÍA DE INTENSO DESAGÜE y la zona de graves daños para la avenida de 100 AÑOS; su límite es la ENVOLVENTE",
+      "Graves daños, criterios ALTERNATIVOS: calado > 1 m · velocidad > 1 m/s · producto > 0,5 m²/s",
+      "Vía de intenso desagüe: sobreelevación no mayor de 0,3 M (reducible a 0,1 o ampliable a 0,5)",
+      "ZONA INUNDABLE: avenida de 500 AÑOS de periodo de retorno (frente a los 100 del flujo preferente)",
+      "FECHA DE CORTE de los arts. 9 bis, 9 ter y 14 bis: 30 DE DICIEMBRE DE 2016",
+      "Suelo entonces RURAL en flujo preferente: PROHIBICIONES tasadas (art. 9 bis) · suelo entonces URBANIZADO: se PERMITE con requisitos (art. 9 ter)",
+      "Régimen especial del art. 9 quáter: municipios con AL MENOS UN TERCIO de superficie en flujo preferente; exige estar FUERA DE LA ZONA DE POLICÍA",
+      "Usos residenciales en zona inundable: a cota no afectada por la avenida de 500 AÑOS, con estanqueidad, respiraderos y vías de evacuación",
+      "Escalera de títulos: uso común LIBRE · uso común especial por DECLARACIÓN RESPONSABLE · autorización si afecta a terceros · CONCESIÓN para usos privativos",
+      "Usos comunes sin autorización: beber, bañarse, otros usos domésticos y ABREVAR EL GANADO",
+      "Orden de preferencia del art. 49 bis: OCHO categorías, encabezadas por el ABASTECIMIENTO de núcleos urbanos",
+      "Obras en zona de policía: declaración responsable o autorización del ORGANISMO DE CUENCA, independiente de la licencia municipal",
+      "Informe del art. 25.4 TRLA sobre planes locales; VINCULANTE en concentraciones parcelarias respecto de los derechos al uso del agua",
+      "Vertido DIRECTO: emisión directa o inyección sin percolación · INDIRECTO: azarbes, colectores o filtración por el suelo",
+      "El titular de la autorización de vertido de aguas residuales URBANAS es el AYUNTAMIENTO o entidad local",
+    ],
+  },
+
   E24: {
     intro:
       "El Decreto Foral 202/2002 es el desarrollo reglamentario que la Ley Foral 2/1989 anunciaba en su art. 2: aprueba el CATÁLOGO de establecimientos, espectáculos públicos y actividades recreativas y regula los REGISTROS de empresas y locales. Es un tema de definiciones, y por eso se examina con preguntas de detalle: qué nivel sonoro corresponde a cada figura, qué establecimiento exige vestíbulo estanco, cuál no puede tener pista de baile, qué diámetro mínimo tiene una pista. La clave para no perderse es entender que el Catálogo escalona los locales de hostelería por su intensidad musical —bar y cafetería (75 dBA) < bar especial y café-espectáculo (90 dBA) < discoteca (baile)— y que a cada escalón le corresponden exigencias constructivas mayores.",
