@@ -5,3 +5,7 @@ dist/
 .env.*.local
 .DS_Store
 .claude/
+
+# Textos de los temas: material de trabajo local, fuera del repo a propósito.
+# (Si alguna vez se quieren versionar, basta con borrar esta línea.)
+temas/
