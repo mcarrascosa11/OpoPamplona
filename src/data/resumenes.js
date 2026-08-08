@@ -3967,6 +3967,228 @@ export const RESUMENES = {
     ],
   },
 
+  E35: {
+    intro:
+      "Tema TEMÁTICO: el enunciado no cita ninguna norma, pero en Navarra la fuente troncal es la Sección 1.ª del Capítulo I del Título V de la LFOTU, artículos 190 a 197. La idea que lo ordena es la contraposición entre CONTROL PREVIO y CONTROL POSTERIOR: la licencia autoriza antes de actuar; la declaración responsable y la comunicación habilitan desde su presentación y la Administración comprueba después. Sobre esa base el tema añade dos capas que conviene tener separadas — el régimen de los actos promovidos por las Administraciones públicas, con la exención de control local de los PSIS declarados de interés general, y la trampa del propio enunciado: la APERTURA de actividades no es en Navarra una licencia urbanística, sino materia de intervención ambiental. Aviso sobre el material: el .txt del tema recoge el concepto del art. 190.1, las rúbricas de los arts. 190-197 y los preceptos verificados (arts. 47, 72.5, 77.5 y la reforma del 192 por la LF 4/2021), pero NO el articulado literal de los arts. 191 a 197; esos artículos figuran aquí por su función y no por sus apartados numéricos.",
+    bloques: [
+      {
+        h: "Concepto de licencia urbanística (art. 190.1)",
+        nota:
+          "La definición del art. 190.1 se pregunta casi literal y sus tres adjetivos tienen consecuencias distintas. PREVIO significa que no cabe iniciar la obra o el uso sin obtenerla. REGLADO, que no hay margen de discrecionalidad: si el proyecto se ajusta al ordenamiento debe otorgarse, y si no, debe denegarse — de ahí que sean nulas las reservas de dispensación (art. 80 LFOTU). Y DECLARATIVO, que la licencia no crea el derecho a edificar sino que constata que un derecho preexistente puede ejercerse; esto conecta con el art. 11.2 del TRLSRU, según el cual la edificabilidad prevista no se patrimonializa hasta su realización efectiva.",
+        items: [
+          "Art. 190.1 (literal): la licencia urbanística es un ACTO ADMINISTRATIVO DE CONTROL PREVIO, de carácter REGLADO y DECLARATIVO, mediante el cual la Administración correspondiente autoriza las actuaciones urbanísticas proyectadas PREVIA COMPROBACIÓN DE SU CONFORMIDAD AL ORDENAMIENTO URBANÍSTICO VIGENTE",
+          "CONTROL PREVIO: la comprobación se hace ANTES de actuar; no puede iniciarse la obra o el uso sin haberla obtenido",
+          "REGLADO: no es una potestad discrecional. Si el proyecto se ajusta al ordenamiento, DEBE otorgarse; si no se ajusta, DEBE denegarse. No caben dispensas — son nulas de pleno derecho las reservas de dispensación (art. 80 LFOTU)",
+          "DECLARATIVO: no otorga derechos nuevos, sino que CONSTATA que el derecho preexistente a edificar o usar puede ejercerse conforme a la ordenación",
+          "Competencia MUNICIPAL: la actividad urbanística pública corresponde con carácter general a los municipios (art. 11 LFOTU). En el régimen de gran población aplicable a Pamplona, la concesión de cualquier tipo de licencia corresponde a la JUNTA DE GOBIERNO LOCAL (art. 127.1.e LRBRL)",
+        ],
+      },
+      {
+        h: "Mapa de la Sección 1.ª (arts. 190-197)",
+        nota:
+          "Ocho artículos que conviene saber ubicar por su rúbrica, porque el examen pregunta con frecuencia «en qué artículo se regula» o pide identificar la materia. La secuencia tiene una lógica clara: primero QUÉ se sujeta a cada título habilitante (190 licencia, 191 obras municipales, 192 declaración responsable o comunicación), después CUÁNDO y CÓMO se tramita (193 plazos, 194 procedimiento de licencia, 195 procedimiento de declaración responsable), y por último CÓMO termina y qué efectos produce (196 resolución y silencio, 197 eficacia).",
+        items: [
+          "Art. 190 — ACTOS SUJETOS A LICENCIA: enumera los actos de transformación, construcción, edificación y uso del suelo y del subsuelo que requieren licencia municipal. Entre ellos, obras de edificación de NUEVA PLANTA y de AMPLIACIÓN, obras en edificios existentes, la PRIMERA UTILIZACIÓN U OCUPACIÓN de edificios e instalaciones, parcelaciones, demoliciones y movimientos de tierra",
+          "Art. 191 — OBRAS ORDINARIAS PROMOVIDAS POR LA ADMINISTRACIÓN MUNICIPAL: el Ayuntamiento no se somete a licencia a sí mismo, pero sigue un procedimiento de aprobación que cumple la función de control de legalidad urbanística. Es la primera pata del régimen de los actos de las Administraciones públicas",
+          "Art. 192 — ACTOS SUJETOS A DECLARACIÓN RESPONSABLE O COMUNICACIÓN PREVIA: enumera los actos que NO requieren licencia (se desarrolla en el tema 36)",
+          "Art. 193 — PLAZOS PARA LA SOLICITUD de licencias",
+          "Art. 194 — COMPETENCIA Y PROCEDIMIENTO PARA EL OTORGAMIENTO: órgano municipal competente y trámites —solicitud con documentación o proyecto, informes técnicos y jurídicos, resolución—, con supletoriedad de la Ley 39/2015 en lo no previsto",
+          "Art. 195 — PROCEDIMIENTO GENERAL PARA LOS ACTOS SUJETOS A DECLARACIÓN RESPONSABLE O COMUNICACIÓN: presentación con la documentación exigida, habilitación para actuar desde ese momento y comprobación municipal a posteriori",
+          "Art. 196 — RESOLUCIÓN del procedimiento de solicitud de licencias y régimen del SILENCIO administrativo",
+          "Art. 197 — EFICACIA DE LAS LICENCIAS: condiciones, plazos de iniciación, ejecución y caducidad, y transmisión",
+          "Quedan FUERA de este tema los arts. 198-199, Sección 2.ª, sobre órdenes de ejecución y declaración de ruina",
+        ],
+      },
+      {
+        h: "La «apertura» no es licencia urbanística en Navarra",
+        nota:
+          "Es la trampa central del enunciado y conviene tenerla muy clara porque afecta a cómo se informa un expediente real. El enunciado del tema agrupa «obras, primera utilización u ocupación, apertura», pero en Navarra el control de la implantación y apertura de ACTIVIDADES no se rige por la LFOTU sino por la legislación de intervención ambiental. Son dos títulos habilitantes distintos que suelen coexistir en la misma implantación: el de OBRA, por vía urbanística, y el de ACTIVIDAD, por vía ambiental.",
+        items: [
+          "URBANISMO (obras y usos del suelo) → LFOTU, arts. 190 y siguientes. La PRIMERA UTILIZACIÓN U OCUPACIÓN sí es un acto sujeto a licencia URBANÍSTICA (art. 190)",
+          "ACTIVIDAD / apertura (incidencia ambiental) → LEY FORAL 4/2005, de 22 de marzo, de intervención para la protección ambiental, y DECRETO FORAL 93/2006, de 28 de diciembre, su reglamento de desarrollo. Por esa vía se canalizan la licencia de actividad clasificada y los regímenes de declaración responsable o comunicación para actividades, según su incidencia ambiental",
+          "En la práctica una implantación suele necesitar AMBOS títulos —el de obra y el de actividad—, y la primera utilización o la apertura se vinculan a la comprobación del fin de obra",
+          "En Pamplona, las licencias y declaraciones de ACTIVIDAD, APERTURA y PRIMERA UTILIZACIÓN se gestionan de forma DIFERENCIADA de las de obra, y se declaran o solicitan previamente al inicio de la actividad o del uso del edificio",
+        ],
+      },
+      {
+        h: "Actos promovidos por las Administraciones públicas (arts. 191 y 47)",
+        nota:
+          "Dos capas que no deben mezclarse. La primera son las obras ordinarias del PROPIO AYUNTAMIENTO, que no se autolicencia pero sigue un procedimiento interno de aprobación con la misma función de control de legalidad (art. 191). La segunda es la EXENCIÓN DE CONTROL LOCAL del art. 47 para obras de otras Administraciones amparadas en un Plan o Proyecto Sectorial de Incidencia Supramunicipal: es una exención de licencia y de cualquier otro control preventivo local, pero NO de las obligaciones tributarias ante las entidades locales, y está sujeta a una cadena de requisitos que hay que poder recitar.",
+        items: [
+          "Capa 1 — art. 191: obras ordinarias promovidas por la Administración MUNICIPAL, con procedimiento de aprobación en sustitución de la licencia a sí misma",
+          "Capa 2 — art. 47: las obras previstas en un PSIS NO estarán sujetas a licencia ni a cualquier otro control preventivo local, SIN PERJUICIO DE LAS OBLIGACIONES TRIBUTARIAS ante las entidades locales",
+          "Requisito 1 — que se trate de construcción y reparación de INFRAESTRUCTURAS, DOTACIONES E INSTALACIONES, y su puesta en funcionamiento, DECLARADAS DE INTERÉS GENERAL por el Gobierno de Navarra. La declaración puede hacerse SIMULTÁNEAMENTE con la aprobación definitiva del PSIS o CON POSTERIORIDAD mediante decreto foral",
+          "Requisito 2 — que el Departamento competente COMUNIQUE dicha declaración a las entidades locales afectadas",
+          "Requisito 3 — que, con carácter previo al inicio de las obras o a su puesta en funcionamiento, el PROMOTOR ACREDITE ante el Departamento la sujeción del proyecto de ejecución a las determinaciones del PSIS y a la normativa protectora del medio ambiente",
+          "Requisito 4 — que el Departamento, PREVIA AUDIENCIA de las entidades locales afectadas, AUTORICE la ejecución de las obras con las determinaciones necesarias",
+          "Requisito 5 — que el Departamento comunique el cumplimiento de todos estos requisitos a las entidades locales; DESDE ESA NOTIFICACIÓN el promotor puede iniciar directamente las obras o la puesta en funcionamiento",
+          "Requisito 6 — finalizadas las obras, el promotor presenta CERTIFICACIÓN DE TÉCNICO COMPETENTE acreditativa de que se han llevado a cabo conforme al proyecto de ejecución, de la que el Departamento da traslado a las entidades locales",
+          "Requisito 7 — verificado el cumplimiento de las condiciones de la autorización, el Departamento AUTORIZA EL INICIO DE LA ACTIVIDAD",
+        ],
+      },
+      {
+        h: "Licencia frente a declaración responsable y comunicación",
+        nota:
+          "El cuadro de diferencias es el corazón del tema y se resume en cuándo interviene la Administración. Pero por encima de la distinción hay un principio común que es la pregunta más segura de todo el temario de disciplina: ni el silencio ni una declaración responsable legitiman jamás lo contrario a la ordenación. La LFOTU lo dice dos veces —arts. 72.5 y 77.5— con la consecuencia expresa de NULIDAD DE PLENO DERECHO y el deber municipal de iniciar la revisión de oficio, en línea con el art. 11.3 del TRLSRU y con el art. 47.1.f de la Ley 39/2015.",
+        items: [
+          "LICENCIA — control PREVIO: la Administración autoriza ANTES de actuar, tras comprobar la conformidad del proyecto con el ordenamiento. No puede iniciarse la obra o el uso sin el acto de otorgamiento. Procedimiento: arts. 194 y 196",
+          "DECLARACIÓN RESPONSABLE — control POSTERIOR: documento en el que el interesado MANIFIESTA BAJO SU RESPONSABILIDAD que cumple los requisitos y que dispone de la documentación acreditativa. HABILITA PARA ACTUAR DESDE SU PRESENTACIÓN con la documentación completa; el Ayuntamiento comprueba después",
+          "COMUNICACIÓN PREVIA — control POSTERIOR: puesta en conocimiento de la Administración de la intención de realizar una actuación; habilita igualmente desde su presentación, con comprobación posterior. Procedimiento de ambas: art. 195",
+          "En Pamplona la declaración responsable se presenta SIEMPRE con anterioridad al inicio de las obras y se comprueba EN ESE MISMO MOMENTO por técnico municipal — control posterior inmediato",
+          "PRINCIPIO COMÚN, art. 72.5 (literal): «No podrán adquirirse por silencio administrativo facultades o derechos que contravengan la ordenación territorial o urbanística y que culminan determinando la NULIDAD DE PLENO DERECHO de estos actos. Por ello la Administración municipal deberá iniciar el correspondiente procedimiento de REVISIÓN DE OFICIO»",
+          "Art. 77.5 — en el mismo sentido: la aprobación por silencio no puede vulnerar las leyes ni el planeamiento de rango superior; tampoco pueden adquirirse por silencio facultades o derechos que contravengan la legislación y la ordenación, siendo NULOS de pleno derecho e INEFICACES los así obtenidos",
+          "SUPLETORIEDAD: en lo no previsto rige la Ley 39/2015 en materia de procedimiento, silencio y revisión",
+        ],
+      },
+      {
+        h: "Régimen en Pamplona",
+        nota:
+          "Pamplona no tiene una ordenanza única de licencias: el régimen está disperso en varias normas municipales, lo que obliga a saber cuál se aplica a cada supuesto. Estas ordenanzas son además el objeto del tema siguiente, así que conviene estudiar ambos temas seguidos. Los datos de gestión que siguen proceden de la sede electrónica y son los que cambian con más facilidad; conviene contrastarlos antes del examen.",
+        items: [
+          "Ordenanza Municipal Reguladora de las LICENCIAS URBANÍSTICAS DE OBRAS MENORES (BON de 23/05/2007)",
+          "Ordenanza Municipal Reguladora del Procedimiento de CONTROL POSTERIOR de la declaración responsable y la comunicación previa (BON de 12/05/2014)",
+          "Texto Refundido del PLAN MUNICIPAL de Pamplona (BON de 18/02/2008) y ORDENANZA GENERAL DE EDIFICACIÓN, como normativa sustantiva de contraste",
+          "Gestión: Área de Gobierno Estratégico, Urbanismo, Vivienda y Agenda 2030; resuelve la CONCEJALÍA DELEGADA del Área",
+          "ICIO: 5 % del presupuesto de la obra, en régimen de AUTOLIQUIDACIÓN PREVIA",
+          "Obras comunicadas: tramitación INMEDIATA; la declaración responsable se presenta antes del inicio y se comprueba en ese momento por técnico municipal",
+        ],
+      },
+    ],
+    claves: [
+      "Licencia = acto de control PREVIO, REGLADO y DECLARATIVO (art. 190.1)",
+      "Fuente del tema: LFOTU, Título V, Cap. I, Sección 1.ª, arts. 190-197. Fuera quedan los arts. 198-199 (órdenes de ejecución y ruina)",
+      "Mapa: 190 actos sujetos a licencia · 191 obras municipales · 192 DR o comunicación · 193 plazos · 194 competencia y procedimiento · 195 procedimiento de DR · 196 resolución y silencio · 197 eficacia",
+      "La PRIMERA UTILIZACIÓN U OCUPACIÓN está sujeta a LICENCIA (art. 190)",
+      "La APERTURA de actividades NO es licencia urbanística en Navarra: va por la LF 4/2005 y el DF 93/2006",
+      "Una implantación suele necesitar DOS títulos: obra (LFOTU) y actividad (LF 4/2005)",
+      "Obras del propio Ayuntamiento: art. 191, procedimiento interno en sustitución de la licencia",
+      "PSIS de interés general: EXENTOS de licencia y de cualquier control preventivo local, pero NO de las obligaciones tributarias (art. 47)",
+      "La declaración de interés general se hace con la aprobación definitiva del PSIS o después POR DECRETO FORAL",
+      "El promotor del PSIS puede iniciar las obras DESDE LA NOTIFICACIÓN del cumplimiento de los requisitos por el Departamento",
+      "Finalizadas las obras del PSIS: certificación de TÉCNICO COMPETENTE y, verificada, autorización del inicio de la actividad",
+      "DR y comunicación HABILITAN DESDE SU PRESENTACIÓN con documentación completa; la licencia exige acto expreso previo",
+      "El silencio NUNCA otorga facultades contra la ordenación: NULIDAD DE PLENO DERECHO y revisión de oficio (arts. 72.5 y 77.5)",
+      "Supletoriedad de la Ley 39/2015 en procedimiento, silencio y revisión",
+      "En Pamplona las licencias las concede la JUNTA DE GOBIERNO LOCAL (art. 127.1.e LRBRL)",
+      "ICIO en Pamplona: 5 % del presupuesto, con autoliquidación previa",
+    ],
+  },
+
+  E36: {
+    intro:
+      "Cuatro normas de tres niveles que hay que estudiar como un sistema encajado. Arriba, la LEY 12/2012 estatal, que suprimió las licencias de apertura para el pequeño comercio y las sustituyó por declaración responsable con control posterior. En el medio, el ART. 192 de la LFOTU, que traslada esa lógica al urbanismo navarro enumerando los actos que no precisan licencia. Y abajo, las DOS ORDENANZAS DE PAMPLONA que lo aplican materialmente: la de obras menores de 2007 y la de control posterior de 2014. El tema es de aplicación diaria y muy numérico: umbrales de superficie, plazos de subsanación y de resolución, y plazos de inicio y finalización de obra. Dos advertencias que arrastran las cuatro normas: el art. 192 NO define «obra menor» sino que remite a las ordenanzas municipales, y tanto la Ley 12/2012 como las ordenanzas siguen citando la Ley 30/1992, derogada — sus remisiones deben leerse hechas a la Ley 39/2015, donde el régimen de la declaración responsable está hoy en el art. 69.",
+    bloques: [
+      {
+        h: "Art. 192 LFOTU — actos sujetos a declaración responsable o comunicación",
+        nota:
+          "Ocho letras, de las que las dos últimas son las más recientes y las que más se preguntan por ser reforma de la Ley Foral 4/2021: el autoconsumo solar y los puntos de recarga de vehículo eléctrico. En la letra g) hay dos datos que el examen manipula — que la instalación se admite SIN LIMITACIÓN DE POTENCIA, de modo que cualquier cifra que aparezca en un distractor es falsa, y que las excepciones son TRES y tasadas. Y el apartado 2 cierra el artículo con la regla que impide leer la declaración responsable como una patente de corso: no exime ni condiciona las facultades municipales de inspección, control y sanción.",
+        items: [
+          "Art. 192.1 — quedan sujetas al régimen de declaración responsable o comunicación, A LOS EFECTOS DE SU CONSTANCIA, REALIZACIÓN Y CONTROL POSTERIOR: a) las obras ligadas al ACONDICIONAMIENTO DE LOCALES para desempeñar la actividad comercial conforme a la normativa sectorial · b) las obras de ESCASA ENTIDAD O DIMENSIÓN que se determinen en las ORDENANZAS MUNICIPALES · c) CERRAMIENTOS Y VALLADOS · d) CARTELES PUBLICITARIOS visibles desde la vía pública · e) OBRAS MENORES · f) TRABAJOS PREVIOS a la construcción, tales como sondeos, prospecciones, catas y ensayos",
+          "Letra g) — INSTALACIONES DE APROVECHAMIENTO DE ENERGÍA SOLAR PARA AUTOCONSUMO sobre edificaciones o construcciones y PÉRGOLAS DE APARCAMIENTO, SIN LIMITACIÓN DE POTENCIA",
+          "TRES excepciones tasadas de la letra g), que sí requieren licencia: las instalaciones en edificios declarados BIEN DE INTERÉS CULTURAL o CATALOGADOS —con aplicación del art. 62.7.c— · las que afecten a los CIMIENTOS O LA ESTRUCTURA del edificio · y las que necesiten EVALUACIÓN DE IMPACTO AMBIENTAL",
+          "Letra h) — PUNTOS DE RECARGA DE VEHÍCULOS ELÉCTRICOS situados EN EL INTERIOR DE EDIFICACIONES, salvo que pudieran suponer impacto sobre bienes declarados de interés cultural o sujetos a cualquier otro régimen de protección",
+          "Art. 192.2 (literal): el régimen de declaración responsable NO EXIME NI CONDICIONA las facultades de INSPECCIÓN, CONTROL Y SANCIÓN de la entidad local sobre las obras que no se ajusten a la legislación, al planeamiento o a la propia declaración responsable",
+          "Redacción vigente fijada por la LEY FORAL 4/2021, de 22 de abril, que añadió las letras g) y h). Su finalidad expresa fue aclarar que las instalaciones de autoconsumo solar quedan sujetas a declaración responsable y NO a licencia de obras",
+          "CLAVE SISTEMÁTICA: el art. 192 NO define qué es una obra menor. Las letras b) y e) remiten a las ORDENANZAS MUNICIPALES, lo que enlaza este bloque directamente con la Ordenanza de obras menores de Pamplona",
+        ],
+      },
+      {
+        h: "Ley 12/2012, Título I — supresión de licencias en el comercio (arts. 1-5)",
+        nota:
+          "Norma estatal nacida para eliminar la licencia previa de apertura en el pequeño comercio, y cuyo dato más preguntado es el UMBRAL DE SUPERFICIE, porque ha cambiado dos veces: nació en 300 m², pasó a 500 y hoy está en 750 M² de superficie útil de exposición y venta al público, fijados por la Ley 14/2013. Las cifras antiguas son distractores clásicos. Retén también que el art. 3.2 trata el CAMBIO DE TITULARIDAD como comunicación previa «a los solos efectos informativos», y que la exención de licencia para obras solo opera cuando NO se requiere proyecto conforme al art. 2.2 de la LOE — si hace falta proyecto, seguimos en el terreno de la licencia.",
+        items: [
+          "Art. 1 — OBJETO: impulso y dinamización de la actividad comercial minorista y de determinados servicios mediante la eliminación de cargas y restricciones, en particular la SUPRESIÓN DE LAS LICENCIAS DE ÁMBITO MUNICIPAL vinculadas con los establecimientos comerciales, sus instalaciones y determinadas obras previas",
+          "Art. 2.1 — ÁMBITO: actividades comerciales minoristas y determinados servicios previstos en el ANEXO de la ley, realizados en establecimientos PERMANENTES situados en cualquier parte del territorio nacional, cuya superficie útil de EXPOSICIÓN Y VENTA AL PÚBLICO NO SEA SUPERIOR A 750 METROS CUADRADOS",
+          "Evolución del umbral: 300 m² en el RDL 19/2012 → 500 m² → 750 M² vigentes, fijados por la Ley 14/2013 de emprendedores",
+          "Art. 2.2 — quedan AL MARGEN del Título I las actividades que tengan impacto en el PATRIMONIO HISTÓRICO-ARTÍSTICO o en el USO PRIVATIVO Y OCUPACIÓN DE BIENES DE DOMINIO PÚBLICO",
+          "Art. 3.1 — INEXIGIBILIDAD DE LICENCIA: no podrá exigirse licencia previa de instalaciones, de funcionamiento o de actividad, ni otras análogas que sujeten a previa autorización el ejercicio de la actividad o la apertura del establecimiento",
+          "Art. 3.2 — CAMBIO DE TITULARIDAD: tampoco está sujeto a licencia; será exigible COMUNICACIÓN PREVIA a la administración competente A LOS SOLOS EFECTOS INFORMATIVOS",
+          "Art. 3.3 — OBRAS: no será exigible licencia para las obras ligadas al acondicionamiento de los locales CUANDO NO REQUIERAN LA REDACCIÓN DE UN PROYECTO DE OBRA conforme al art. 2.2 de la LOE",
+          "Art. 3.4 — límite: la inexigibilidad NO rige respecto de las OBRAS DE EDIFICACIÓN que fuesen precisas conforme al ordenamiento, que se siguen rigiendo por su normativa en cuanto a licencia previa, requisitos y competencia",
+          "Art. 4 — las licencias que no puedan exigirse SE SUSTITUYEN por declaraciones responsables o comunicaciones previas. El declarante deberá estar en posesión del JUSTIFICANTE DE PAGO DEL TRIBUTO cuando sea preceptivo; la declaración debe contener manifestación EXPLÍCITA del cumplimiento de los requisitos y, en su caso, de disponer de la documentación y del proyecto; los proyectos han de estar FIRMADOS POR TÉCNICOS COMPETENTES; y varias actuaciones sobre la misma actividad o local se TRAMITARÁN CONJUNTAMENTE",
+          "Art. 5 — SUJECIÓN AL RÉGIMEN GENERAL DE CONTROL: la presentación habilita desde ese momento para el ejercicio material de la actividad, pero NO PREJUZGA la adecuación del establecimiento a la normativa ni limita las potestades de comprobación, inspección, sanción y control de cualquier Administración. Habilita además a las ENTIDADES LOCALES a regular el procedimiento de comprobación posterior",
+          "DESFASE NORMATIVO: los arts. 4.1 y 5 remiten al art. 71 bis de la Ley 30/1992, DEROGADA. La base jurídica vigente de la declaración responsable y la comunicación es el ART. 69 DE LA LEY 39/2015",
+          "DF 11.ª — habilita a las Comunidades Autónomas a AMPLIAR el umbral de superficie, el catálogo de actividades y otros supuestos de inexigibilidad de licencia",
+        ],
+      },
+      {
+        h: "Ordenanza de obras menores de Pamplona — concepto y dos regímenes",
+        nota:
+          "Ordenanza de 2007 que reparte las obras menores en dos vías según su sencillez: RÉGIMEN DE COMUNICACIÓN para lo elemental (Título I) y PROCEDIMIENTO ABREVIADO, que sigue siendo licencia, para el resto (Título II). El concepto de obra menor del art. 2 se pregunta por sus tres notas acumulativas —sencillez técnica, escasa entidad constructiva y escasa entidad económica— y por su lista de exclusiones. Dos límites operativos que conviene tener presentes al informar: las actuaciones comunicadas NO valen si hay que colocar andamios u ocupar la vía pública, ni en edificios o elementos catalogados; y en el Casco Antiguo las obras de fachada y cubierta salen del régimen de comunicación.",
+        items: [
+          "Art. 2 — CONCEPTO de obra menor: se caracteriza por ser de SENCILLEZ TÉCNICA y ESCASA ENTIDAD CONSTRUCTIVA Y ECONÓMICA, consistiendo normalmente en pequeñas obras de simple reparación, decoración, ornato o cerramiento, que no precisan proyecto técnico ni presupuestos elevados; es la CONCURRENCIA CONJUNTA de esas circunstancias la que define el concepto",
+          "Art. 2 — en ningún caso suponen alteración de VOLUMEN o superficie construida, del USO OBJETIVO, reestructuración, redistribución o modificación sustancial de elementos estructurales o comunes, modificación sustancial del diseño exterior ni alteración del NÚMERO DE VIVIENDAS; tampoco afectan a la ESTRUCTURA ni a las condiciones de HABITABILIDAD O SEGURIDAD",
+          "EXCLUSIONES del concepto: las obras del art. 2.2 de la LOE, por ser obras mayores que requieren proyecto · las obras en edificios que no se ajusten a la ordenación del planeamiento · las que afecten a la ESTRUCTURA PORTANTE, incluidas escaleras y entreplantas, o a elementos comunes —salvo las obras en fachadas, cubiertas e instalaciones que la propia ordenanza contempla— · las que supongan IMPLANTACIÓN DE UNA ACTIVIDAD en local no utilizado antes o sustancialmente diferente a la autorizada · y las que supongan implantación o modificación sustancial de ACTIVIDADES CLASIFICADAS",
+          "TÍTULO I — RÉGIMEN DE COMUNICACIÓN (obras menores simples, art. 3): obras INTERIORES EN VIVIENDAS que no afecten a la habitabilidad, no supongan cambio de uso ni del número de viviendas y no afecten a elementos comunes —revestimientos, carpintería interior, aparatos sanitarios, instalaciones—; y obras EN FACHADAS Y CUBIERTAS salvo Casco Antiguo y siempre que se mantengan MATERIALES, COLORES Y DISEÑO existentes —retejado, bajantes, pintura, reparación de paramentos, barandillas y molduras, carpintería exterior—",
+          "LÍMITES de las actuaciones comunicadas (art. 3): en ningún caso pueden tramitarse así las obras que exijan la colocación de ANDAMIOS, la OCUPACIÓN DE LA VÍA PÚBLICA por cualquier medio —salvo contenedores, que van por su propia ordenanza— o el uso de TRABAJOS TEMPORALES EN ALTURA O VEHÍCULOS GRÚA. Tampoco las obras en edificios o elementos CATALOGADOS",
+          "Art. 4 — documentación de las comunicadas: instancia normalizada con la UBICACIÓN de la obra y constancia de haber sido revisada previamente por el personal encargado del enterado · acreditación de representación · MEMORIA descriptiva · PRESUPUESTO detallado por partidas con materiales y mano de obra · FOTOGRAFÍAS en actuaciones sobre fachadas o cubiertas · y autoliquidación de tributos con justificante de pago",
+          "TÍTULO II — PROCEDIMIENTO ABREVIADO (art. 6): obras interiores de albañilería y tabiquería que superen los supuestos de comunicadas · nueva implantación de instalaciones en viviendas · obras en LOCALES —fachadas, revestimientos, instalaciones— · cerramientos de balcones y toldos en plantas elevadas previa aprobación de MODELO COMÚN para la comunidad · toldos y RÓTULOS en locales · apertura de huecos en planta baja de locales con licencia de apertura sin modificar la configuración general de la fachada · obras en fachadas y cubiertas excluidas de comunicadas por cambiar materiales, colores o diseño o por estar en CASCO ANTIGUO, y rehabilitaciones integrales de fachada, que deben mantener DISEÑO UNITARIO · obras en instalaciones comunes · catas y derribos puntuales previos a un proyecto · y pequeñas reformas en zonas ajardinadas",
+          "PROTECCIÓN Y ABREVIADO: no pueden tramitarse por procedimiento abreviado las obras en edificios y elementos catalogados con GRADOS DE PROTECCIÓN 1 Y 2. En GRADO 3 sí se sigue el abreviado, tanto para las obras del art. 6 como para las del art. 3, siempre que no afecten a elementos de interés reseñados en el catálogo, y también en obras de restauración, reparación y mantenimiento de dichos elementos",
+        ],
+      },
+      {
+        h: "Ordenanza de obras menores — procedimiento, plazos y efectos",
+        nota:
+          "El bloque con más cifras del tema, y conviene fijarlas por parejas para no cruzarlas: DIEZ DÍAS HÁBILES de subsanación · QUINCE DÍAS HÁBILES para el análisis excepcional de una comunicada, con efecto de conformidad si el Ayuntamiento no dice nada · UN MES para resolver el abreviado · CUATRO DÍAS para retirar la licencia · y TRES MESES para iniciar y SEIS para terminar las obras, prorrogables como máximo por la mitad. Y una regla clásica que cae mucho, el art. 10.4: la licencia ampara las OBRAS pero NO los USOS, de modo que si el uso no está legalizado ni es legalizable, la ejecución de la obra no da derecho a la licencia de uso.",
+        items: [
+          "Art. 5 — procedimiento de las COMUNICADAS: la documentación se analiza DE INMEDIATO por el personal encargado del enterado, con tres salidas — si está INCOMPLETA se informa al solicitante, que puede dejarla en registro y completarla en DIEZ DÍAS HÁBILES o retirarla para completarla antes; si no subsana en plazo, se ARCHIVAN las actuaciones sin más trámite · si la actuación NO corresponde a este procedimiento, se notifica la necesidad de ajustarse al tipo de licencia que proceda · si es CORRECTA, se completa con DILIGENCIA DE «CONFORME» firmada por el encargado, se registra junto con el justificante de pago y se estima concluso el procedimiento",
+          "Art. 5.3 — SILENCIO POSITIVO EXCEPCIONAL: cuando por causas excepcionales la documentación no pueda analizarse de inmediato, en el plazo máximo de QUINCE DÍAS HÁBILES se comunicarán las deficiencias o la inadecuación del procedimiento. Transcurrido ese plazo SIN COMUNICACIÓN ALGUNA, se entenderá que la actuación es CONFORME y el interesado podrá iniciar las obras",
+          "Art. 8 — OCUPACIÓN DE VÍA PÚBLICA y medios auxiliares: se solicita PREFERENTEMENTE a la vez que la licencia abreviada; si se pide por separado, solo se autoriza SI PREVIAMENTE SE HA OTORGADO la licencia de obras. Exige plano de ubicación y, si hay andamios, montacargas, vehículos grúa o trabajos en altura, certificado de contratación de director de obra o de ejecución o, en su defecto, de que la instalación y retirada se harán bajo dirección de técnico competente, con documentos VISADOS",
+          "Art. 9 — procedimiento ABREVIADO: se inicia por solicitud normalizada; a efectos de cómputo, el expediente se considera iniciado en la fecha de entrada de la DOCUMENTACIÓN COMPLETA. Si falta documentación se requiere subsanación en DIEZ DÍAS HÁBILES con advertencia de tenerle por DESISTIDO",
+          "Art. 9.3 — la resolución deberá producirse en plazo NO SUPERIOR A UN MES, contado desde el día siguiente a aquel en que la documentación esté completa y subsanadas las deficiencias. El informe municipal puede proponer DENEGACIÓN si no cumple la normativa urbanística, u OTORGAMIENTO con requisitos o medidas correctoras, dándose cuenta periódicamente al órgano competente de las licencias otorgadas",
+          "Art. 9.4-5 — el plazo máximo se INTERRUMPE mediante requerimiento de subsanación, que debe precisar las deficiencias y el plazo. Los titulares podrán RETIRAR la licencia en los CUATRO DÍAS siguientes a su tramitación; si no la retiran, se les comunica en su domicilio",
+          "Art. 10.1 — en ningún caso se entenderán adquiridas POR SILENCIO las licencias que vayan contra la legislación o el planeamiento, ni cuando por falseamiento, error u omisión de datos no fuera posible la notificación de subsanación o de inadecuación de procedimiento",
+          "Art. 10.3.e — PLAZOS DE OBRA: comenzar a los TRES MESES desde la concesión de la licencia abreviada o desde la comunicación, y finalizar en SEIS MESES desde la concesión o comunicación, salvo plazo de ejecución superior señalado en la licencia. Transcurridos, puede declararse la CADUCIDAD, salvo prórroga o aplazamiento por un plazo que como máximo equivaldrá a LA MITAD de los anteriores",
+          "Art. 10.3 — otras condiciones: producen efectos entre Ayuntamiento e interesado pero NO alteran las situaciones jurídicas privadas · se entienden otorgadas SALVO EL DERECHO DE PROPIEDAD Y SIN PERJUICIO DE TERCEROS · solo pueden ejecutarse las obras descritas · el interesado debe tener a disposición municipal la licencia o el impreso diligenciado y facilitar el acceso para inspecciones · no pueden invocarse para excluir o disminuir la RESPONSABILIDAD CIVIL O PENAL · son TRANSMISIBLES, pero antiguo y nuevo titular deben comunicarlo POR ESCRITO, quedando ambos sujetos a responsabilidad si no lo hacen · y obligan a reparar los desperfectos en vías públicas",
+          "Art. 10.4 — REGLA CLÁSICA: la licencia de obras ampara las OBRAS pero NO LOS USOS urbanísticos. Si los usos no estuviesen legalizados y no fueran legalizables, la ejecución de las obras NO otorga derecho a la licencia que ampare el uso; las diligencias de conformidad y las licencias abreviadas se otorgan en el entendimiento de que los usos están legalizados",
+        ],
+      },
+      {
+        h: "Ordenanza de control posterior de Pamplona (BON 12/05/2014)",
+        nota:
+          "Es la norma que da cobertura al control ex post en Pamplona, al amparo del art. 5 de la Ley 12/2012 y del art. 84 de la LRBRL. Su distinción básica se pregunta invertida con frecuencia: la COMUNICACIÓN PREVIA sirve para el CAMBIO DE TITULARIDAD de una actividad ya en funcionamiento, mientras que la DECLARACIÓN RESPONSABLE sirve para PONER EN MARCHA una actividad y, en su caso, ejecutar obras de acondicionamiento sin proyecto. Ambas habilitan desde su presentación. Del procedimiento retén el plazo único de DIEZ DÍAS para subsanar y el efecto característico: la eficacia queda EN SUSPENSO hasta la subsanación, y si no se subsana se declara la INEFICACIA.",
+        items: [
+          "Art. 1 — OBJETO: regular el procedimiento de control posterior del Ayuntamiento de Pamplona sobre las actividades iniciadas mediante comunicación previa o declaración responsable, y sobre las OBRAS DE ACONDICIONAMIENTO de los locales cuando NO requieran proyecto conforme al art. 2.2 de la LOE. El control se limita a la IMPLANTACIÓN y no excluye los demás procedimientos de control sobre el funcionamiento",
+          "Art. 3 — COMUNICACIÓN PREVIA: acto por el que el interesado pone en conocimiento del Ayuntamiento el CAMBIO DE TITULARIDAD de actividades YA EN FUNCIONAMIENTO. Su presentación HABILITA para comenzar el ejercicio de la actividad",
+          "Art. 4 — DECLARACIÓN RESPONSABLE: acto por el que quien pretende PONER EN MARCHA una actividad manifiesta bajo su responsabilidad que cumple los requisitos, que dispone de la documentación acreditativa y que se COMPROMETE A MANTENER SU CUMPLIMIENTO durante la duración de la actividad. Puede además manifestar la intención de realizar obras de acondicionamiento sin proyecto, o tener por objeto EXCLUSIVO esas obras en actividades ya en funcionamiento. Su presentación HABILITA para iniciar la actividad o las obras",
+          "Art. 5 — presentación: instancia normalizada en el registro municipal, con el CERTIFICADO TÉCNICO que corresponda, el documento acreditativo del PAGO DE LA TASA y el ALTA EN EL IAE. Deben mantenerse EN EL LUGAR DE LA ACTIVIDAD, a disposición del Ayuntamiento, copia del documento diligenciado con su entrada en registro, copia del certificado técnico y la documentación complementaria",
+          "Art. 5.4 — SUBSANACIÓN: si la documentación fuera inexacta o insuficiente se requiere al interesado para que en DIEZ DÍAS subsane, con aviso de que en otro caso se dictará resolución declarando la INEFICACIA de la declaración responsable y, en su caso, el CESE de la actividad. La eficacia queda EN SUSPENSO hasta la subsanación",
+          "Art. 6 — FASE DE COMPROBACIÓN: en COMUNICACIÓN PREVIA el control se centra en la correspondencia entre los datos comunicados y los obrantes en el Ayuntamiento sobre ubicación del local, actividad y titular anterior. En DECLARACIÓN RESPONSABLE, en verificar si la actividad puede acogerse al trámite y comprobar el certificado técnico, el USO URBANÍSTICO y las condiciones básicas del local —superficie mínima, entreplantas—",
+          "Art. 6.5 — el control puede completarse con INSPECCIÓN IN SITU, previo requerimiento de la documentación técnica. De las actuaciones se levanta ACTA, que tiene en todo caso la consideración de DOCUMENTO PÚBLICO y el valor probatorio correspondiente en los procedimientos sancionadores, sin perjuicio de las pruebas que aporte el administrado",
+          "Art. 7.1 — TERMINACIÓN favorable: valorado que concurren las circunstancias adecuadas, se concluye el procedimiento mediante RESOLUCIÓN del órgano competente en materia de urbanismo, que se notifica al interesado y debe estar EN EL LOCAL a disposición de las administraciones",
+          "Art. 7.2 — actividad ajena al ámbito de la Ley 12/2012 u obras no amparadas: requerimiento de DIEZ DÍAS para alegar; a la vista de ello, resolución declarando la INEFICACIA, concesión de plazo para solicitar licencia y SUSPENSIÓN de la actividad. Si no fuera legalizable, CIERRE del establecimiento; igual si hay deficiencias técnicas NO subsanables, previo período de diez días de audiencia",
+          "Art. 7.3 — deficiencias SUBSANABLES: requerimiento para corregirlas en el plazo que se considere oportuno. Si fueran ESENCIALES, previa valoración técnico-jurídica, se acuerda la SUSPENSIÓN CAUTELAR con plazo para subsanar. Esa suspensión, como ACTO DE TRÁMITE CUALIFICADO, es recurrible en vía administrativa y judicial. Corregidas, se resuelve como en el 7.1; en caso contrario, ineficacia y CIERRE DEFINITIVO",
+          "Art. 7.5 — INEXACTITUD, FALSEDAD U OMISIÓN DE CARÁCTER ESENCIAL, o la no presentación: imposibilidad de continuar con el ejercicio del derecho o actividad DESDE EL MOMENTO EN QUE SE TENGA CONSTANCIA, sin perjuicio de responsabilidades penales, civiles o administrativas. La resolución puede determinar la obligación de RESTITUIR la situación jurídica al momento previo y la IMPOSIBILIDAD DE INSTAR UN NUEVO PROCEDIMIENTO con el mismo objeto durante un período determinado — regla equivalente al art. 69.4 de la Ley 39/2015",
+          "Los plazos concedidos para adoptar medidas correctoras o subsanar se consideran PLAZOS DE AUDIENCIA PREVIA a la resolución sobre el cese cautelar o definitivo, y todo ello sin perjuicio del oportuno EXPEDIENTE SANCIONADOR",
+        ],
+      },
+    ],
+    claves: [
+      "Art. 192 LFOTU: ocho letras. NO define «obra menor» — remite a las ORDENANZAS MUNICIPALES (letras b y e)",
+      "Autoconsumo solar: SIN LIMITACIÓN DE POTENCIA (cualquier cifra en un distractor es falsa)",
+      "Tres excepciones de la letra g): BIC o catalogado · afección a cimientos o estructura · necesidad de EIA",
+      "Puntos de recarga: solo los situados EN EL INTERIOR de edificaciones (letra h)",
+      "Las letras g) y h) las añadió la LEY FORAL 4/2021, de 22 de abril",
+      "Art. 192.2: la declaración responsable NO exime ni condiciona la inspección, control y sanción municipales",
+      "Ley 12/2012: umbral vigente de 750 M² de superficie útil de exposición y venta (antes 300 y 500)",
+      "Quedan fuera las actividades con impacto en el PATRIMONIO HISTÓRICO-ARTÍSTICO o en el dominio público (art. 2.2)",
+      "Cambio de titularidad: comunicación previa A LOS SOLOS EFECTOS INFORMATIVOS (art. 3.2)",
+      "La exención de licencia para obras solo opera si NO se requiere proyecto ex art. 2.2 LOE (art. 3.3)",
+      "Las remisiones al art. 71 bis de la Ley 30/1992 deben leerse hechas al ART. 69 DE LA LEY 39/2015",
+      "Obra menor: sencillez técnica + escasa entidad constructiva + escasa entidad económica, CONJUNTAMENTE",
+      "Comunicadas: NO valen con andamios, ocupación de vía pública, trabajos en altura o grúa, ni en edificios catalogados",
+      "Casco Antiguo: las obras de fachada y cubierta salen del régimen de comunicación y van al abreviado",
+      "Catalogados grados 1 y 2: excluidos del abreviado. Grado 3: admite abreviado con límites",
+      "Plazos de la ordenanza: 10 DÍAS HÁBILES subsanación · 15 DÍAS HÁBILES análisis excepcional con conformidad por silencio · 1 MES resolución del abreviado · 4 DÍAS para retirar la licencia",
+      "Obras: iniciar en 3 MESES y terminar en 6 MESES; prórroga máxima igual a LA MITAD de esos plazos",
+      "Art. 10.4: la licencia ampara las OBRAS pero NO LOS USOS",
+      "Ordenanza de 2014: COMUNICACIÓN PREVIA = cambio de titularidad · DECLARACIÓN RESPONSABLE = puesta en marcha y obras sin proyecto",
+      "Subsanación en la ordenanza de control posterior: 10 DÍAS, con la eficacia EN SUSPENSO hasta subsanar",
+      "El acta de inspección es DOCUMENTO PÚBLICO con valor probatorio (art. 6.5)",
+      "La suspensión cautelar es ACTO DE TRÁMITE CUALIFICADO y por tanto recurrible (art. 7.3)",
+    ],
+  },
+
   E24: {
     intro:
       "El Decreto Foral 202/2002 es el desarrollo reglamentario que la Ley Foral 2/1989 anunciaba en su art. 2: aprueba el CATÁLOGO de establecimientos, espectáculos públicos y actividades recreativas y regula los REGISTROS de empresas y locales. Es un tema de definiciones, y por eso se examina con preguntas de detalle: qué nivel sonoro corresponde a cada figura, qué establecimiento exige vestíbulo estanco, cuál no puede tener pista de baile, qué diámetro mínimo tiene una pista. La clave para no perderse es entender que el Catálogo escalona los locales de hostelería por su intensidad musical —bar y cafetería (75 dBA) < bar especial y café-espectáculo (90 dBA) < discoteca (baile)— y que a cada escalón le corresponden exigencias constructivas mayores.",
