@@ -107,7 +107,12 @@ function Inicio({ state, setTab, reload }) {
   const fileInputRef = useRef(null);
   const vistas = Object.values(state.temas).reduce((a, t) => a + (t.vistas || 0), 0);
   const aciertos = Object.values(state.temas).reduce((a, t) => a + (t.aciertos || 0), 0);
+  const fallos = Object.values(state.temas).reduce((a, t) => a + (t.fallos || 0), 0);
   const pct = vistas ? Math.round((aciertos / vistas) * 100) : 0;
+  // Nota neta con el criterio real de la 1ª prueba: cada fallo resta 1/3 y los
+  // blancos ni suman ni restan. El porcentaje bruto de aciertos siempre pinta
+  // mejor que la nota que saldría en el examen, así que se muestran los dos.
+  const pctNeto = vistas ? Math.round(Math.max(0, (aciertos - fallos / 3) / vistas) * 100) : 0;
   const guardarCodigo = async () => { setCodigo(codigo); await reload(); };
 
   const exportarProgreso = () => {
@@ -148,7 +153,8 @@ function Inicio({ state, setTab, reload }) {
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(150px,1fr))", gap: 12, margin: "18px 0" }}>
         <Stat n={PREGUNTAS.length} label="preguntas en el banco" />
         <Stat n={vistas} label="respondidas" />
-        <Stat n={`${pct}%`} label="aciertos" accent={pct >= 70 ? C.ok : pct >= 50 ? C.amber : C.red} />
+        <Stat n={`${pct}%`} label="aciertos brutos" accent={pct >= 70 ? C.ok : pct >= 50 ? C.amber : C.red} />
+        <Stat n={`${pctNeto}%`} label="neto (−1/3 por fallo)" accent={pctNeto >= 50 ? C.ok : pctNeto >= 35 ? C.amber : C.red} />
         <Stat n={SUPUESTOS.length} label="supuestos" />
       </div>
 
