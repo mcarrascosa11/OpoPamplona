@@ -11,7 +11,7 @@
    la más larga y que se concentre en una letra.                              */
 import { PREGUNTAS } from "../src/data/preguntas.js";
 
-const UMBRAL_LARGA = 35; // % de "correcta = más larga" por encima del cual el tema falla
+const UMBRAL_VISIBLE = 25; // % de "correcta visiblemente más larga" que hace fallar al tema
 const UMBRAL_LETRA = 45; // % de concentración en una sola letra
 const MIN_PREGUNTAS = 8; // por debajo de esto el porcentaje es ruido
 
@@ -19,14 +19,25 @@ const args = process.argv.slice(2);
 const soloPeores = args.includes("--peores");
 const filtro = args.filter((a) => !a.startsWith("--"));
 
+/* Dos medidas de "la correcta es la más larga":
+     · estricta: lo es aunque sea por un carácter. Comparable con el 22 % del
+       examen real, pero engañosa como diagnóstico — ganar por dos caracteres
+       no lo explota nadie.
+     · visible: lo es con más de un 10 % de margen sobre la segunda. Ésta es la
+       que de verdad permite acertar mirando la forma, y sobre la que se juzga. */
+const MARGEN = 0.10;
+
 function mide(qs) {
   const n = qs.length;
   const pos = [0, 0, 0, 0];
-  let masLarga = 0, ratio = 0, sumEnun = 0;
+  let masLarga = 0, visible = 0, ratio = 0, sumEnun = 0;
   for (const q of qs) {
     const L = q.o.map((x) => x.length);
-    const mx = Math.max(...L);
-    if (L[q.c] === mx && L.filter((x) => x === mx).length === 1) masLarga++;
+    const orden = [...L].sort((a, b) => b - a);
+    if (L[q.c] === orden[0] && L.filter((x) => x === orden[0]).length === 1) {
+      masLarga++;
+      if ((orden[0] - orden[1]) / orden[1] > MARGEN) visible++;
+    }
     ratio += L[q.c] / (L.filter((_, i) => i !== q.c).reduce((a, b) => a + b, 0) / 3);
     pos[q.c]++;
     sumEnun += q.q.length;
@@ -34,6 +45,7 @@ function mide(qs) {
   return {
     n,
     larga: (100 * masLarga) / n,
+    visible: (100 * visible) / n,
     ratio: ratio / n,
     letra: (100 * Math.max(...pos)) / n,
     pos,
@@ -58,28 +70,27 @@ filas.sort((a, b) => b.larga - a.larga);
 const global = mide(filtro.length ? [...temas.values()].flat() : PREGUNTAS);
 let fallan = 0;
 
-console.log("tema     n   correcta=+larga   ratio   a/b/c/d        enunciado");
-console.log("─".repeat(66));
+const fila = (m, etiq, marca = " ") =>
+  `${marca} ${etiq.padEnd(6)} ${String(m.n).padStart(4)}   ` +
+  `${m.larga.toFixed(0).padStart(3)} %  ${m.visible.toFixed(0).padStart(3)} %   ` +
+  `${m.ratio.toFixed(2)}   ${m.pos.join("/").padEnd(13)} ${Math.round(m.enun)}`;
+
+console.log("tema      n   +larga  visible  ratio   a/b/c/d       enunciado");
+console.log("─".repeat(62));
 for (const f of filas) {
   const fiable = f.n >= MIN_PREGUNTAS;
-  const mal = fiable && (f.larga > UMBRAL_LARGA || f.letra > UMBRAL_LETRA);
+  const mal = fiable && (f.visible > UMBRAL_VISIBLE || f.letra > UMBRAL_LETRA);
   if (mal) fallan++;
   if (soloPeores && !mal) continue;
-  const marca = !fiable ? "·" : mal ? "✗" : "✓";
-  console.log(
-    `${marca} ${f.tema.padEnd(6)} ${String(f.n).padStart(3)}   ` +
-      `${f.larga.toFixed(0).padStart(3)} %          ` +
-      `${f.ratio.toFixed(2)}    ${f.pos.join("/").padEnd(14)} ${Math.round(f.enun)}`
-  );
+  console.log(fila(f, f.tema, !fiable ? "·" : mal ? "✗" : "✓"));
 }
-console.log("─".repeat(66));
+console.log("─".repeat(62));
+console.log(fila(global, "TOTAL"));
+console.log("  REAL      100    22 %   ~20 %   1.03   25/27/28/20   240");
 console.log(
-  `TOTAL  ${String(global.n).padStart(4)}   ${global.larga.toFixed(0).padStart(3)} %          ` +
-    `${global.ratio.toFixed(2)}    ${global.pos.join("/").padEnd(14)} ${Math.round(global.enun)}`
-);
-console.log(`REAL   (2026)     22 %          1.03    25/27/28/20    240`);
-console.log(
-  `\nTemas que fallan (>${UMBRAL_LARGA} % más larga o >${UMBRAL_LETRA} % en una letra): ${fallan}` +
-    `   · = menos de ${MIN_PREGUNTAS} preguntas, sin valorar`
+  `\nSe juzga por la columna 'visible' (la correcta es la más larga con más de` +
+    `\nun 10 % de margen, que es lo que de verdad se puede explotar).` +
+    `\nTemas que fallan (>${UMBRAL_VISIBLE} % visible o >${UMBRAL_LETRA} % en una letra): ${fallan}` +
+    `   · = menos de ${MIN_PREGUNTAS} preguntas`
 );
 process.exitCode = fallan ? 1 : 0;
