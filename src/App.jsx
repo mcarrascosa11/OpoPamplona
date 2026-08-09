@@ -16,7 +16,7 @@ const INK_FIJA = "#1C1B19"; // texto sobre subrayados: siempre oscuro, el fondo 
 const MONO = "ui-monospace, 'SF Mono', 'Cascadia Mono', 'Roboto Mono', Menlo, Consolas, monospace";
 const SANS = "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
 
-const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: [] });
+const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: [], leidos: {} });
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const fmtTime = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
@@ -56,7 +56,7 @@ export default function App() {
       <Header tab={tab} setTab={setTab} saving={saving} darkMode={darkMode} toggleDark={toggleDark} />
       <main style={{ maxWidth: 920, margin: "0 auto", padding: "0 18px 64px" }}>
         {tab === "inicio" && <Inicio state={state} setTab={setTab} reload={() => loadState().then((s) => setState(s || defaultState()))} />}
-        {tab === "temas" && <VistaLectura />}
+        {tab === "temas" && <VistaLectura state={state} persist={persist} />}
         {tab === "resumenes" && <Resumenes />}
         {tab === "test" && <Test state={state} persist={persist} />}
         {tab === "supuestos" && <Supuestos state={state} persist={persist} />}
@@ -294,7 +294,11 @@ const LISTA_TEMAS = [
 /* ═══════════════════════════════════════════════════════════════════════
    COMPONENTE PRINCIPAL — VISTA DE LECTURA
    ═══════════════════════════════════════════════════════════════════════ */
-function VistaLectura() {
+function VistaLectura({ state, persist }) {
+  const leidos = state?.leidos || {};
+  const marcarLeido = (codigo, val) => {
+    persist({ ...state, leidos: { ...leidos, [codigo]: val } });
+  };
   const [busqueda, setBusqueda] = useState("");
   const [seleccionado, setSeleccionado] = useState(null);
   const [contenido, setContenido] = useState(null);
@@ -470,8 +474,13 @@ function VistaLectura() {
       height: "100%", overflow: "hidden",
     }}>
       <div style={{ padding: "12px 12px 8px", borderBottom: `1px solid ${borde}` }}>
-        <div style={{ fontFamily: MONO, fontSize: 10, letterSpacing: 1.5, color: C.red, marginBottom: 6 }}>
-          {LISTA_TEMAS.length} TEMAS
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 6 }}>
+          <span style={{ fontFamily: MONO, fontSize: 10, letterSpacing: 1.5, color: C.red }}>
+            {LISTA_TEMAS.length} TEMAS
+          </span>
+          <span style={{ fontFamily: MONO, fontSize: 10, letterSpacing: 0.5, color: C.ok }}>
+            {Object.values(leidos).filter(Boolean).length}/{LISTA_TEMAS.length} leídos
+          </span>
         </div>
         <input
           value={busqueda}
@@ -488,22 +497,44 @@ function VistaLectura() {
         {temasFiltrados.map((t) => {
           const activo   = seleccionado?.codigo === t.codigo;
           const hayTexto = disponibles == null || disponibles.has(t.codigo);
+          const leido    = !!leidos[t.codigo];
           return (
-            <button key={t.codigo} onClick={() => cargarTema(t)}
-              title={!hayTexto ? "Solo disponible en PDF" : undefined}
-              style={{
-                display: "block", width: "100%", textAlign: "left",
-                padding: "9px 14px", border: "none", cursor: "pointer",
-                background: activo ? C.red : "transparent",
-                color: activo ? "#fff" : hayTexto ? tinta : tinta2,
-                borderLeft: activo ? "3px solid #7B0F1E" : "3px solid transparent",
-                opacity: hayTexto ? 1 : 0.45,
-              }}
-            >
-              <span style={{ fontFamily: MONO, fontSize: 10.5, fontWeight: 700, marginRight: 6, opacity: 0.75 }}>{t.codigo}</span>
-              <span style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.4 }}>{t.titulo}</span>
-              {!hayTexto && <span style={{ fontFamily: MONO, fontSize: 9, marginLeft: 6, opacity: 0.6 }}>PDF</span>}
-            </button>
+            <div key={t.codigo} style={{
+              display: "flex", alignItems: "center",
+              background: activo ? C.red : "transparent",
+              borderLeft: activo ? "3px solid #7B0F1E" : "3px solid transparent",
+            }}>
+              <button
+                onClick={(e) => { e.stopPropagation(); marcarLeido(t.codigo, !leido); }}
+                title={leido ? "Marcar como no leído" : "Marcar como leído"}
+                style={{
+                  flexShrink: 0, width: 28, height: 34, border: "none", background: "transparent",
+                  cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center",
+                  color: leido ? (activo ? "#fff" : C.ok) : (activo ? "rgba(255,255,255,0.45)" : tinta2),
+                }}
+              >
+                <span style={{
+                  width: 15, height: 15, borderRadius: 4, display: "flex", alignItems: "center", justifyContent: "center",
+                  border: `1.5px solid ${leido ? "currentColor" : (activo ? "rgba(255,255,255,0.5)" : borde)}`,
+                  background: leido ? "currentColor" : "transparent", fontSize: 10, lineHeight: 1,
+                }}>
+                  {leido && <span style={{ color: activo ? C.red : bgCard, fontWeight: 700 }}>✓</span>}
+                </span>
+              </button>
+              <button onClick={() => cargarTema(t)}
+                title={!hayTexto ? "Solo disponible en PDF" : undefined}
+                style={{
+                  flex: 1, display: "block", textAlign: "left", minWidth: 0,
+                  padding: "9px 14px 9px 0", border: "none", cursor: "pointer", background: "transparent",
+                  color: activo ? "#fff" : hayTexto ? tinta : tinta2,
+                  opacity: hayTexto ? (leido && !activo ? 0.6 : 1) : 0.45,
+                }}
+              >
+                <span style={{ fontFamily: MONO, fontSize: 10.5, fontWeight: 700, marginRight: 6, opacity: 0.75 }}>{t.codigo}</span>
+                <span style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.4 }}>{t.titulo}</span>
+                {!hayTexto && <span style={{ fontFamily: MONO, fontSize: 9, marginLeft: 6, opacity: 0.6 }}>PDF</span>}
+              </button>
+            </div>
           );
         })}
         {temasFiltrados.length === 0 && (
@@ -530,6 +561,14 @@ function VistaLectura() {
           <span style={{ fontFamily: MONO, fontSize: 11, color: C.red, fontWeight: 700 }}>
             {seleccionado.codigo}
           </span>
+        )}
+        {seleccionado && (
+          <button onClick={() => marcarLeido(seleccionado.codigo, !leidos[seleccionado.codigo])}
+            style={{
+              ...ctaGhost, padding: "5px 10px", fontSize: 11,
+              ...(leidos[seleccionado.codigo] ? { color: C.ok, border: `1.5px solid ${C.ok}` } : null),
+            }}
+          >{leidos[seleccionado.codigo] ? "✓ Leído" : "Marcar leído"}</button>
         )}
         {seleccionado && toc.length > 0 && (
           <button onClick={() => setTocAbierto((v) => !v)}
