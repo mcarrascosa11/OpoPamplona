@@ -283,6 +283,23 @@ function getCharOffset(container, node, offsetInNode) {
   return count + offsetInNode;
 }
 
+// Offset de carácter bajo un punto de pantalla (x, y) — usado por el modo
+// subrayado táctil, que no depende de la selección nativa del navegador.
+function caretOffsetFromPoint(container, x, y) {
+  let node, offset;
+  if (document.caretRangeFromPoint) {
+    const range = document.caretRangeFromPoint(x, y);
+    if (!range) return null;
+    node = range.startContainer; offset = range.startOffset;
+  } else if (document.caretPositionFromPoint) {
+    const pos = document.caretPositionFromPoint(x, y);
+    if (!pos) return null;
+    node = pos.offsetNode; offset = pos.offset;
+  } else return null;
+  if (!container.contains(node)) return null;
+  return getCharOffset(container, node, offset);
+}
+
 /* ═══════════════════════════════════════════════════════════════════════
    ÍNDICE DE 72 TEMAS (lista completa para el sidebar)
    ═══════════════════════════════════════════════════════════════════════ */
@@ -331,6 +348,10 @@ function VistaLectura({ state, persist }) {
   const [tocAbierto, setTocAbierto] = useState(false);
   const [subrayados, setSubrayados] = useState([]);
   const [popup, setPopup] = useState(null); // { inicio, fin, x, y }
+  const [subrayadoModo, setSubrayadoModo] = useState(() => {
+    try { return localStorage.getItem("lect-subrayado-modo") === "1"; } catch { return false; }
+  });
+  const [anclaSub, setAnclaSub] = useState(null); // { offset, x, y } — primer toque en modo subrayado
   const contenedorRef = useRef(null);
   const bodyRef = useRef(null);
   const popupRef = useRef(null);
@@ -382,6 +403,7 @@ function VistaLectura({ state, persist }) {
     setSidebarAbierto(false);
     setSubrayados([]);
     setPopup(null);
+    setAnclaSub(null);
     if (contenedorRef.current) contenedorRef.current.scrollTop = 0;
     if (!supabase) {
       setError("Supabase no está configurado (faltan VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY).");
@@ -452,6 +474,33 @@ function VistaLectura({ state, persist }) {
       setSubrayados((prev) => [...prev, { id: Date.now(), ...mark }]);
     }
   }, [popup, seleccionado]);
+
+  // Modo subrayado táctil: en vez de depender de la selección nativa (que en
+  // móvil/tablet abre el menú del sistema de copiar/pegar y se come el gesto),
+  // el usuario toca el inicio y luego el final del pasaje a subrayar.
+  const toggleSubrayadoModo = useCallback(() => {
+    setSubrayadoModo((v) => {
+      const nv = !v;
+      try { localStorage.setItem("lect-subrayado-modo", nv ? "1" : "0"); } catch {}
+      return nv;
+    });
+    setAnclaSub(null);
+  }, []);
+
+  const handleTapSubrayado = useCallback((e) => {
+    if (!subrayadoModo || !bodyRef.current) return;
+    if (e.target.closest && e.target.closest("mark")) return; // deja que borrarSubrayado gestione el toque
+    const offset = caretOffsetFromPoint(bodyRef.current, e.clientX, e.clientY);
+    if (offset == null) return;
+    if (!anclaSub) {
+      setAnclaSub({ offset, x: e.clientX, y: e.clientY });
+    } else {
+      const inicio = Math.min(anclaSub.offset, offset);
+      const fin = Math.max(anclaSub.offset, offset);
+      setAnclaSub(null);
+      if (fin > inicio) setPopup({ inicio, fin, x: e.clientX, y: e.clientY + 8 });
+    }
+  }, [subrayadoModo, anclaSub]);
 
   const borrarSubrayado = useCallback(async (e, id) => {
     e.stopPropagation();
@@ -574,6 +623,20 @@ function VistaLectura({ state, persist }) {
           <button onClick={() => setTocAbierto((v) => !v)}
             style={{ ...ctaGhost, padding: "5px 10px", fontSize: 11 }}
           >Índice</button>
+        )}
+        {seleccionado && (
+          <button onClick={toggleSubrayadoModo}
+            title="En móvil/tablet, la selección nativa a veces abre el menú de copiar en vez de subrayar: este modo lo evita"
+            style={{
+              ...ctaGhost, padding: "5px 10px", fontSize: 11,
+              ...(subrayadoModo ? { color: C.amber, border: `1.5px solid ${C.amber}` } : null),
+            }}
+          >{subrayadoModo ? "✓ Modo subrayado" : "🖍 Subrayar"}</button>
+        )}
+        {subrayadoModo && (
+          <span style={{ fontFamily: MONO, fontSize: 10, color: C.amber, background: "#FEF3C7", padding: "3px 8px", borderRadius: 12 }}>
+            {anclaSub ? "Toca el final del pasaje" : "Toca el inicio del pasaje"}
+          </span>
         )}
         {subrayados.length > 0 && (
           <span style={{ fontFamily: MONO, fontSize: 10, color: C.amber, background: "#FEF3C7", padding: "3px 8px", borderRadius: 12 }}>
@@ -698,9 +761,13 @@ function VistaLectura({ state, persist }) {
                 ref={bodyRef}
                 onMouseUp={handleSeleccion}
                 onTouchEnd={() => setTimeout(handleSeleccion, 200)}
+                onClick={handleTapSubrayado}
                 style={{
                   fontFamily: SANS, fontSize, lineHeight: 1.85, color: tinta,
-                  whiteSpace: "pre-wrap", wordBreak: "break-word", userSelect: "text", WebkitUserSelect: "text", cursor: "text",
+                  whiteSpace: "pre-wrap", wordBreak: "break-word", cursor: subrayadoModo ? "crosshair" : "text",
+                  ...(subrayadoModo
+                    ? { userSelect: "none", WebkitUserSelect: "none", WebkitTouchCallout: "none" }
+                    : { userSelect: "text", WebkitUserSelect: "text" }),
                 }}
               >
                 {segments.map((seg, i) =>
@@ -723,6 +790,18 @@ function VistaLectura({ state, persist }) {
           )}
         </div>
       </div>
+
+      {/* ── Marcador del punto de inicio en modo subrayado táctil ── */}
+      {anclaSub && (
+        <div style={{
+          position: "fixed", left: anclaSub.x, top: anclaSub.y,
+          transform: "translate(-50%, -140%)", zIndex: 199, pointerEvents: "none",
+          background: C.amber, color: INK_FIJA, fontFamily: MONO, fontWeight: 700,
+          fontSize: 10, padding: "3px 7px", borderRadius: 6, whiteSpace: "nowrap",
+        }}>
+          inicio ↓
+        </div>
+      )}
 
       {/* ── Popup selector de color ── */}
       {popup && (
