@@ -6704,4 +6704,67 @@ export const PREGUNTAS = [
     o: ["Su inclusión en el censo de viviendas deshabitadas del Ayuntamiento correspondiente", "Servir de base para la incoación del expediente sancionador o expropiatorio cuando corresponda", "La adquisición automática de la vivienda por la Comunidad Foral", "Proporcionar información y datos estadísticos para las políticas públicas"],
     c: 2, exp: "Art. 42 sexies.4 LF 10/2010: la inscripción produce, entre otros, la inclusión en el censo municipal, servir de base para la incoación del expediente sancionador o expropiatorio cuando corresponda y proporcionar información y datos estadísticos. No implica adquisición automática de la vivienda por la Comunidad Foral." },
 
+  // ---------- TEMA 21 · Decreto Foral 26/2022 (E21) ----------
+  // Ampliación sobre las E21-01..17 ya existentes: solo cobertura genuinamente nueva
+  // (se descartaron 11 de las 15 generadas por duplicar, con otra redacción, el mismo
+  // artículo/apartado que una pregunta ya existente del tema).
+  { id: "E21-18", tema: "E21", subtema: "Definiciones",
+    q: "A efectos del Decreto Foral 26/2022, ¿qué se entiende por órgano ambiental?",
+    o: ["El órgano municipal competente para conceder la licencia de actividad clasificada", "El órgano de la Dirección General con competencias en medio ambiente que analiza técnicamente los expedientes de evaluación ambiental y formula las declaraciones e informes de impacto ambiental", "El órgano competente para autorizar la implantación de instalaciones y actividades", "El órgano de la Administración General del Estado encargado de las evaluaciones ambientales"],
+    c: 1, exp: "Art. 2.c del Decreto Foral 26/2022: el órgano ambiental es el órgano de la Dirección General con competencias en medio ambiente que realiza el análisis técnico de los expedientes de evaluación ambiental y formula las declaraciones de impacto ambiental y los informes de impacto ambiental." },
+
+  { id: "E21-19", tema: "E21", subtema: "Instalaciones independientes",
+    q: "Dos instalaciones sometidas al Reglamento se ubican en el mismo emplazamiento. ¿Cuándo se consideran independientes y deben disponer cada una de su autorización?",
+    o: ["Cuando tengan necesariamente titulares distintos", "Cuando no guarden relación técnica o, aun guardándola, no constituyan unidades subordinadas", "Únicamente cuando desarrollen actividades incluidas en catálogos diferentes", "Siempre que compartan instalaciones auxiliares"],
+    c: 1, exp: "Art. 3.1 del Decreto Foral 26/2022: se consideran independientes cuando no guarden relación de índole técnica o cuando, aun guardándola, no constituyan unidades subordinadas." },
+
+  { id: "E21-20", tema: "E21", subtema: "Proyecto técnico de licencia clasificada",
+    q: "En una solicitud de licencia de actividad clasificada, ¿qué documento debe acompañar necesariamente a la solicitud para iniciar el cómputo del plazo de concesión?",
+    o: ["Un informe favorable del Departamento competente en medio ambiente", "Un proyecto técnico conforme a lo previsto reglamentariamente", "La declaración responsable de puesta en marcha", "El certificado final de obra"],
+    c: 1, exp: "Arts. 45.1 y 45.2 del Decreto Foral 26/2022: la solicitud se presenta ante la entidad local y se acompaña de proyecto técnico; para iniciar el cómputo del plazo se exige que la solicitud vaya acompañada del proyecto técnico conforme al artículo siguiente." },
+
+  { id: "E21-21", tema: "E21", subtema: "Procedimiento de modificación sustancial",
+    q: "En el procedimiento de modificación sustancial, ¿cuál es el plazo mínimo de información pública establecido por el artículo 59?",
+    o: ["Diez días", "Quince días", "Veinte días", "Un mes"],
+    c: 1, exp: "Art. 59.3 del Decreto Foral 26/2022: el expediente de modificación sustancial se someterá a información pública durante un plazo que no será inferior a quince días desde su publicación en el Boletín Oficial de Navarra." },
+
+  // ---------- TEMA 23 · Ley Foral 2/1989 · Espectáculos públicos (E23) ----------
+  // Ampliación sobre las E23-01..15 ya existentes: solo cobertura genuinamente nueva
+  // (se descartaron 8 de las 15 generadas por duplicar, con otra redacción, el mismo
+  // artículo/apartado que una pregunta ya existente del tema).
+  { id: "E23-16", tema: "E23", subtema: "Obligaciones de las empresas",
+    q: "Entre las obligaciones de las empresas organizadoras de espectáculos y actividades recreativas se encuentra:",
+    o: ["Garantizar siempre la celebración aunque exista fuerza mayor", "Responder de los daños que se produzcan siempre, aunque no sean imputables", "Tener a disposición del público los libros y hojas de reclamaciones que reglamentariamente se establezcan", "Permitir únicamente reclamaciones verbales"],
+    c: 2, exp: "Art. 8.2.d de la Ley Foral 2/1989: las empresas deben tener a disposición del público los libros y hojas de reclamaciones que reglamentariamente se establezcan." },
+
+  { id: "E23-17", tema: "E23", subtema: "Derechos del público",
+    q: "Si un espectáculo es suspendido antes de iniciarse y no concurre una causa de fuerza mayor, el público tiene derecho, conforme al artículo 10, a:",
+    o: ["La devolución del importe pagado", "Una entrada para cualquier espectáculo futuro sin devolución", "Una indemnización automática equivalente al doble del precio", "Ninguna compensación"],
+    c: 0, exp: "Art. 10.2.b de la Ley Foral 2/1989: el público tiene derecho a la devolución del importe pagado cuando el espectáculo se suspenda o se modifique en sus aspectos esenciales, salvo que ocurra una vez iniciado y por causas de fuerza mayor." },
+
+  { id: "E23-18", tema: "E23", subtema: "Menores de dieciséis años",
+    q: "En las salas de fiestas, discotecas y establecimientos similares, cuando se realicen actuaciones en directo, los menores de dieciséis años pueden acceder:",
+    o: ["Siempre que paguen entrada", "Solo si van acompañados de sus progenitores o tutores y correctamente identificados", "Solo si van acompañados por cualquier persona mayor de edad", "Sin condición alguna durante la actuación"],
+    c: 1, exp: "Art. 10.5.a de la Ley Foral 2/1989: en caso de actuaciones en directo, los menores de 16 años pueden acceder acompañados de sus progenitores o tutores; durante la actuación deben estar correctamente identificados y no pueden permanecer en el establecimiento al finalizarla." },
+
+  { id: "E23-19", tema: "E23", subtema: "Solicitud de autorización",
+    q: "Cuando un espectáculo requiere autorización administrativa expresa previa, la empresa organizadora debe indicar en la solicitud, entre otras circunstancias:",
+    o: ["Solo la denominación del espectáculo", "La denominación y características, artistas, lugar, fechas y horarios y demás circunstancias exigibles", "Exclusivamente el aforo previsto", "Únicamente los datos económicos del organizador"],
+    c: 1, exp: "Art. 11.1 de la Ley Foral 2/1989: la solicitud debe indicar denominación y características, artistas o ejecutantes, lugar, fechas y horarios y las demás circunstancias que se señalen para cada caso." },
+
+  { id: "E23-20", tema: "E23", subtema: "Horarios",
+    q: "¿Quién fija el horario general de los espectáculos y actividades recreativas?",
+    o: ["Cada empresa organizadora", "Los Ayuntamientos mediante ordenanza en todo caso", "Se fija reglamentariamente", "El Gobierno de España mediante decreto"],
+    c: 2, exp: "Art. 12.3 de la Ley Foral 2/1989: el horario general será fijado reglamentariamente, teniendo en cuenta las clases de espectáculos, públicos, molestias o riesgos, estaciones y distinción entre laborables y festivos." },
+
+  { id: "E23-21", tema: "E23", subtema: "Registro municipal",
+    q: "En el registro municipal de empresas y locales de espectáculos públicos y actividades recreativas deben figurar, entre otros:",
+    o: ["Solo las empresas con ánimo de lucro", "Todos los locales con licencia de actividad y apertura, con mención expresa de su aforo, y todas las empresas que organicen espectáculos o actividades recreativas", "Solo los locales municipales", "Únicamente los establecimientos con aforo superior a 100 personas"],
+    c: 1, exp: "Art. 13.1 de la Ley Foral 2/1989: el registro municipal debe incluir todos los locales con las correspondientes licencias, con mención expresa de su aforo, y todas las empresas que organicen espectáculos o actividades recreativas." },
+
+  { id: "E23-22", tema: "E23", subtema: "Prohibición de espectáculos",
+    q: "¿Cuál de los siguientes espectáculos está expresamente comprendido entre los que deben prohibirse por la Ley Foral 2/1989?",
+    o: ["Los espectáculos taurinos celebrados conforme a sus normas específicas", "Los que puedan dar lugar a desórdenes públicos", "Todos los espectáculos sin ánimo de lucro", "Los celebrados en espacios privados"],
+    c: 1, exp: "Art. 14.1.b de la Ley Foral 2/1989: deben prohibirse los espectáculos y actividades recreativas que puedan dar lugar a desórdenes públicos. Los espectáculos taurinos no quedan comprendidos en la prohibición de crueldad o maltrato cuando se celebren conforme a las normas aplicables." },
+
 ];
