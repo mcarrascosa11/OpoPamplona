@@ -6674,4 +6674,34 @@ export const PREGUNTAS = [
         "Un informe arqueológico previo y el acta de replanteo",
         "Un levantamiento topográfico y un estudio geotécnico"],
     c: 1, exp: "Art. 13.3.a. El expediente debe incorporar además el informe de la Comisión Técnica de Coordinación en materia de Memoria Histórica antes de resolverse." },
+
+  // ---------- TEMA 14 · Ley Foral 10/2010 · Viviendas deshabitadas y Registro General (E14) ----------
+  // Ampliación sobre las E14-01..15 ya existentes: solo cobertura genuinamente nueva
+  // (se descartaron 10 de las 15 generadas por duplicar, con otra redacción, el mismo
+  // artículo/apartado que una pregunta ya existente del tema).
+  { id: "E14-16", tema: "E14", subtema: "Viviendas excluidas de la consideración de deshabitadas",
+    q: "Una persona física es titular de dos viviendas en Navarra y una de ellas constituye su domicilio habitual. Respecto de la otra, ¿qué vivienda se presumirá como destinada a esparcimiento o recreo conforme al artículo 42 bis?",
+    o: ["La de menor valor catastral, con independencia de sus consumos", "La que tenga mayor consumo de agua, electricidad y gas", "La que, conforme al criterio de vivienda habitual, no tenga esa consideración", "La que determine libremente la persona titular mediante declaración responsable"],
+    c: 2, exp: "Art. 42 bis.3.b LF 10/2010: cuando una persona o unidad familiar sea titular de dos viviendas, se presumirá como vivienda de esparcimiento o recreo la que, conforme al criterio del apartado anterior, no tenga la consideración de vivienda habitual." },
+
+  { id: "E14-17", tema: "E14", subtema: "Requerimientos de información",
+    q: "Cuando la información exigida sobre viviendas deshabitadas se conserve en soporte informático, ¿cómo deberá suministrarse si así se requiere?",
+    o: ["Siempre mediante soporte físico homologado", "Mediante comparecencia personal del titular", "En dicho soporte informático", "Exclusivamente mediante certificación administrativa en papel"],
+    c: 2, exp: "Art. 42 quáter.4 LF 10/2010: cuando la información exigida se conserve en soporte informático deberá suministrarse en dicho soporte en el caso de que sea requerido." },
+
+  { id: "E14-18", tema: "E14", subtema: "Información de las compañías suministradoras",
+    q: "Las compañías suministradoras de agua, electricidad y gas deben remitir determinada información sobre consumos cuando sea solicitada por la Administración competente. ¿Necesitan para ello el consentimiento de las personas afectadas?",
+    o: ["Sí, en todos los casos", "Sí, salvo que la petición proceda de un Ayuntamiento", "No, siempre que actúen dentro de los términos previstos por la normativa de protección de datos", "No, pero únicamente cuando la petición se refiera a una vivienda concreta"],
+    c: 2, exp: "Art. 42 quáter.5 LF 10/2010: las compañías suministradoras remitirán la información solicitada sin necesidad de contar con el consentimiento de las personas afectadas, en los términos dispuestos por la normativa reguladora de la protección de datos." },
+
+  { id: "E14-19", tema: "E14", subtema: "Plazo de remisión de información",
+    q: "¿Cuál es el plazo general para remitir las comunicaciones previstas en el artículo 42 quáter de la Ley Foral 10/2010?",
+    o: ["Diez días hábiles desde la recepción de la petición", "Un mes desde la recepción de la petición o desde la fecha correspondiente", "Treinta días desde la recepción de la petición o desde la fecha a que se refiere el apartado 7", "Tres meses desde la recepción del requerimiento"],
+    c: 2, exp: "Art. 42 quáter.8 LF 10/2010: las comunicaciones deberán remitirse en un plazo de treinta días, a computar desde la recepción de la petición de información o desde la fecha a que hace referencia el apartado 7." },
+
+  { id: "E14-20", tema: "E14", subtema: "Registro de Viviendas Deshabitadas",
+    q: "¿Cuál de los siguientes NO es uno de los efectos de la inscripción de una vivienda en el Registro de Viviendas Deshabitadas de Navarra?",
+    o: ["Su inclusión en el censo de viviendas deshabitadas del Ayuntamiento correspondiente", "Servir de base para la incoación del expediente sancionador o expropiatorio cuando corresponda", "La adquisición automática de la vivienda por la Comunidad Foral", "Proporcionar información y datos estadísticos para las políticas públicas"],
+    c: 2, exp: "Art. 42 sexies.4 LF 10/2010: la inscripción produce, entre otros, la inclusión en el censo municipal, servir de base para la incoación del expediente sancionador o expropiatorio cuando corresponda y proporcionar información y datos estadísticos. No implica adquisición automática de la vivienda por la Comunidad Foral." },
+
 ];

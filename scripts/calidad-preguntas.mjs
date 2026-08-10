@@ -53,6 +53,45 @@ function mide(qs) {
   };
 }
 
+/* Aviso (no error) cuando dos preguntas del mismo tema citan el mismo
+   artículo/apartado en 'exp': suele significar que preguntan el mismo dato
+   con distinta redacción, algo que el detector de texto casi-duplicado no
+   puede pillar porque el enunciado cambia lo bastante. */
+function extraeCita(exp) {
+  const m = String(exp || "").match(
+    /art(?:[íi]culo)?\.?\s*\d+\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies)?(?:\.\d+)*(?:\.[a-z])?/i
+  );
+  if (!m) return null;
+  return m[0]
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function buscaMismaCita(qs) {
+  const avisos = [];
+  const porTema = new Map();
+  for (const q of qs) {
+    if (!porTema.has(q.tema)) porTema.set(q.tema, []);
+    porTema.get(q.tema).push(q);
+  }
+  for (const grupo of porTema.values()) {
+    const porCita = new Map();
+    for (const q of grupo) {
+      const cita = extraeCita(q.exp);
+      if (!cita) continue;
+      if (!porCita.has(cita)) porCita.set(cita, []);
+      porCita.get(cita).push(q.id);
+    }
+    for (const [cita, ids] of porCita) {
+      if (ids.length > 1) avisos.push(`${ids.join(" ↔ ")} citan el mismo precepto (${cita})`);
+    }
+  }
+  return avisos;
+}
+
 const temas = new Map();
 for (const q of PREGUNTAS) {
   if (filtro.length && !filtro.includes(q.tema)) continue;
@@ -62,6 +101,12 @@ for (const q of PREGUNTAS) {
 if (!temas.size) {
   console.error("Sin preguntas para: " + filtro.join(", "));
   process.exit(1);
+}
+
+const mismaCita = buscaMismaCita([...temas.values()].flat());
+if (mismaCita.length) {
+  console.warn(`\nAVISOS DE MISMO PRECEPTO (${mismaCita.length})`);
+  mismaCita.forEach((a) => console.warn(`  ⚠ ${a}`));
 }
 
 const filas = [...temas].map(([tema, qs]) => ({ tema, ...mide(qs) }));
