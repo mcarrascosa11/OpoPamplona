@@ -6674,4 +6674,81 @@ export const PREGUNTAS = [
         "Un informe arqueológico previo y el acta de replanteo",
         "Un levantamiento topográfico y un estudio geotécnico"],
     c: 1, exp: "Art. 13.3.a. El expediente debe incorporar además el informe de la Comisión Técnica de Coordinación en materia de Memoria Histórica antes de resolverse." },
+
+  // ---------- TEMA 14 · Ley Foral 10/2010 · Viviendas deshabitadas y Registro General (E14) ----------
+  { id: "E14-01", tema: "E14", subtema: "Definición de vivienda deshabitada",
+    q: "A efectos del Título V bis de la Ley Foral 10/2010, ¿cuándo se presume que una vivienda no está habitada?",
+    o: ["Cuando no se destine efectivamente al uso residencial durante más de tres meses consecutivos en un año", "Cuando no se destine efectivamente al uso residencial durante más de seis meses consecutivos en el curso de un año", "Cuando permanezca vacía durante seis meses, aunque no sean consecutivos", "Cuando no conste ninguna persona empadronada durante un año completo"],
+    c: 1, exp: "Art. 42 bis.2 LF 10/2010: se presume que la vivienda no está habitada cuando no se destina efectivamente al uso residencial durante más de seis meses consecutivos en el curso de un año desde el último día de efectiva habitación." },
+
+  { id: "E14-02", tema: "E14", subtema: "Viviendas excluidas de la consideración de deshabitadas",
+    q: "Una persona física es titular de dos viviendas en Navarra y una de ellas constituye su domicilio habitual. Respecto de la otra, ¿qué vivienda se presumirá como destinada a esparcimiento o recreo conforme al artículo 42 bis?",
+    o: ["La de menor valor catastral, con independencia de sus consumos", "La que tenga mayor consumo de agua, electricidad y gas", "La que, conforme al criterio de vivienda habitual, no tenga esa consideración", "La que determine libremente la persona titular mediante declaración responsable"],
+    c: 2, exp: "Art. 42 bis.3.b LF 10/2010: cuando una persona o unidad familiar sea titular de dos viviendas, se presumirá como vivienda de esparcimiento o recreo la que, conforme al criterio del apartado anterior, no tenga la consideración de vivienda habitual." },
+
+  { id: "E14-03", tema: "E14", subtema: "Segunda residencia",
+    q: "A efectos de la exclusión de viviendas de esparcimiento o recreo del artículo 42 bis, ¿cuántas viviendas pueden tener esa consideración por persona o unidad familiar?",
+    o: ["Una vivienda por persona o unidad familiar", "Dos viviendas por unidad familiar como máximo", "Una vivienda por cada titular registral", "No existe límite si la vivienda tiene consumo efectivo"],
+    c: 0, exp: "Art. 42 bis.3.b LF 10/2010: las viviendas de personas físicas cuyo uso sea de esparcimiento o recreo pueden tener a estos efectos tal consideración únicamente una vivienda por persona o unidad familiar." },
+
+  { id: "E14-04", tema: "E14", subtema: "Indicios de no habitación y consumo de agua",
+    q: "En defecto de información más específica de los servicios suministradores, ¿qué consumo de agua permite considerar deshabitada una vivienda conforme al artículo 42 ter?",
+    o: ["Inferior a 0,21 m³ por vivienda y mes o inferior a 2,47 m³ por vivienda y año", "Inferior a 0,21 m³ por vivienda y año o inferior a 2,47 m³ por vivienda y mes", "Inferior a 0,24 m³ por vivienda y mes o inferior a 2,91 m³ por vivienda y año", "Inferior a 2,47 m³ por vivienda y mes o inferior a 24 m³ por vivienda y año"],
+    c: 0, exp: "Art. 42 ter.3 LF 10/2010: en defecto de información más específica, se considera indicativo de deshabitación un consumo de agua inferior a 0,21 m³ por vivienda y mes o inferior a 2,47 m³ por vivienda y año." },
+
+  { id: "E14-05", tema: "E14", subtema: "Indicios de no habitación y consumo eléctrico",
+    q: "En defecto de información más específica de los servicios suministradores, ¿qué consumo de electricidad permite considerar deshabitada una vivienda?",
+    o: ["Inferior a 24 kWh por vivienda y mes o inferior a 291 kWh por vivienda y año", "Inferior a 24 kWh por vivienda y año o inferior a 291 kWh por vivienda y mes", "Inferior a 29,1 kWh por vivienda y mes o inferior a 240 kWh por vivienda y año", "Inferior a 21 kWh por vivienda y mes o inferior a 247 kWh por vivienda y año"],
+    c: 0, exp: "Art. 42 ter.4 LF 10/2010: el umbral es inferior a 24 kWh por vivienda y mes o inferior a 291 kWh por vivienda y año, cuando no exista información más específica de los suministradores." },
+
+  { id: "E14-06", tema: "E14", subtema: "Requerimientos de información",
+    q: "Cuando la información exigida sobre viviendas deshabitadas se conserve en soporte informático, ¿cómo deberá suministrarse si así se requiere?",
+    o: ["Siempre mediante soporte físico homologado", "Mediante comparecencia personal del titular", "En dicho soporte informático", "Exclusivamente mediante certificación administrativa en papel"],
+    c: 2, exp: "Art. 42 quáter.4 LF 10/2010: cuando la información exigida se conserve en soporte informático deberá suministrarse en dicho soporte en el caso de que sea requerido." },
+
+  { id: "E14-07", tema: "E14", subtema: "Información de las compañías suministradoras",
+    q: "Las compañías suministradoras de agua, electricidad y gas deben remitir determinada información sobre consumos cuando sea solicitada por la Administración competente. ¿Necesitan para ello el consentimiento de las personas afectadas?",
+    o: ["Sí, en todos los casos", "Sí, salvo que la petición proceda de un Ayuntamiento", "No, siempre que actúen dentro de los términos previstos por la normativa de protección de datos", "No, pero únicamente cuando la petición se refiera a una vivienda concreta"],
+    c: 2, exp: "Art. 42 quáter.5 LF 10/2010: las compañías suministradoras remitirán la información solicitada sin necesidad de contar con el consentimiento de las personas afectadas, en los términos dispuestos por la normativa reguladora de la protección de datos." },
+
+  { id: "E14-08", tema: "E14", subtema: "Plazo de remisión de información",
+    q: "¿Cuál es el plazo general para remitir las comunicaciones previstas en el artículo 42 quáter de la Ley Foral 10/2010?",
+    o: ["Diez días hábiles desde la recepción de la petición", "Un mes desde la recepción de la petición o desde la fecha correspondiente", "Treinta días desde la recepción de la petición o desde la fecha a que se refiere el apartado 7", "Tres meses desde la recepción del requerimiento"],
+    c: 2, exp: "Art. 42 quáter.8 LF 10/2010: las comunicaciones deberán remitirse en un plazo de treinta días, a computar desde la recepción de la petición de información o desde la fecha a que hace referencia el apartado 7." },
+
+  { id: "E14-09", tema: "E14", subtema: "Inicio y audiencia del procedimiento declarativo",
+    q: "En el acuerdo de inicio del procedimiento contradictorio para declarar una vivienda deshabitada, ¿qué plazo de audiencia se concede a las personas interesadas?",
+    o: ["Cinco días desde la notificación", "Diez días desde la notificación", "Quince días hábiles desde la publicación", "Un mes desde la incoación"],
+    c: 1, exp: "Art. 42 quinquies.5 LF 10/2010: el acuerdo de inicio abre un trámite de audiencia por un período de diez días a contar desde su notificación, durante el cual pueden alegar y aportar o proponer pruebas." },
+
+  { id: "E14-10", tema: "E14", subtema: "Competencia para declarar la vivienda deshabitada",
+    q: "¿A quién corresponde la competencia para el inicio, tramitación y resolución del procedimiento declarativo de vivienda deshabitada, sin perjuicio de una posible delegación?",
+    o: ["Al Ayuntamiento donde se ubique la vivienda, exclusivamente", "Al departamento competente en materia de vivienda", "Al Registro de Viviendas Deshabitadas", "Al Gobierno de Navarra en sesión plenaria"],
+    c: 1, exp: "Art. 42 quinquies.1 LF 10/2010: la competencia corresponde al departamento competente en materia de vivienda. Puede delegarse, previa petición, en entidades locales que acrediten disponer de los recursos necesarios para ejercerla. El departamento mantiene en todo caso la competencia sobre los procedimientos sancionadores." },
+
+  { id: "E14-11", tema: "E14", subtema: "Plazo máximo del procedimiento",
+    q: "¿Cuál es el plazo máximo para resolver y notificar el procedimiento contradictorio para la declaración de una vivienda deshabitada?",
+    o: ["Seis meses, transcurridos los cuales se produce la caducidad", "Un año desde su incoación, transcurrido el cual se produce la caducidad", "Un año desde la primera inspección, tras el cual se archiva sin caducidad", "Tres meses desde el acuerdo de inicio, salvo suspensión"],
+    c: 1, exp: "Art. 42 quinquies.11 LF 10/2010: el plazo máximo para resolver y notificar es de un año desde la incoación; transcurrido ese plazo se produce la caducidad." },
+
+  { id: "E14-12", tema: "E14", subtema: "Registro de Viviendas Deshabitadas",
+    q: "¿Cuál de los siguientes NO es uno de los efectos de la inscripción de una vivienda en el Registro de Viviendas Deshabitadas de Navarra?",
+    o: ["Su inclusión en el censo de viviendas deshabitadas del Ayuntamiento correspondiente", "Servir de base para la incoación del expediente sancionador o expropiatorio cuando corresponda", "La adquisición automática de la vivienda por la Comunidad Foral", "Proporcionar información y datos estadísticos para las políticas públicas"],
+    c: 2, exp: "Art. 42 sexies.4 LF 10/2010: la inscripción produce, entre otros, la inclusión en el censo municipal, servir de base para la incoación del expediente sancionador o expropiatorio cuando corresponda y proporcionar información y datos estadísticos. No implica adquisición automática de la vivienda por la Comunidad Foral." },
+
+  { id: "E14-13", tema: "E14", subtema: "Cancelación del Registro de Viviendas Deshabitadas",
+    q: "Para cancelar la inscripción de una vivienda en el Registro de Viviendas Deshabitadas de Navarra se requiere previamente acreditar:",
+    o: ["La efectiva habitación durante tres meses consecutivos", "La efectiva habitación durante seis meses ininterrumpidos", "La ocupación durante seis meses alternos dentro de un año", "La mera presentación de un contrato de arrendamiento"],
+    c: 1, exp: "Art. 42 sexies.5 LF 10/2010: la cancelación requiere la previa acreditación de la efectiva habitación durante seis meses ininterrumpidos. Si no queda acreditada, se concede a la persona interesada un plazo de audiencia de 10 días hábiles." },
+
+  { id: "E14-14", tema: "E14", subtema: "Contenido del Registro General de Viviendas",
+    q: "¿Cuál de los siguientes datos figura expresamente entre los datos mínimos asociados a cada vivienda que debe incluir el Registro General de Viviendas de Navarra?",
+    o: ["El valor de mercado actualizado de la vivienda", "La renta mensual máxima que podría percibirse por su arrendamiento", "El certificado de eficiencia energética", "La identidad de todos los ocupantes efectivos durante los últimos cinco años"],
+    c: 2, exp: "Art. 78.2.f LF 10/2010: el Registro General de Viviendas de Navarra incluirá como mínimo el certificado de eficiencia energética. Los otros datos no aparecen entre los contenidos mínimos enumerados en el artículo 78.2." },
+
+  { id: "E14-15", tema: "E14", subtema: "Información de acceso público",
+    q: "Respecto de la información de acceso público del Registro General de Viviendas de Navarra, ¿cuál de las siguientes afirmaciones es correcta?",
+    o: ["La copia de las cédulas de habitabilidad en vigor exige acreditar siempre la propiedad de la vivienda", "El certificado de eficiencia energética figura entre la información de acceso público", "Los datos sobre ayudas públicas nunca pueden ser de acceso público", "La dirección catastral solo es accesible a las Administraciones públicas"],
+    c: 1, exp: "Art. 79.2 LF 10/2010: el certificado de eficiencia energética es información de acceso público. Además, la copia de las cédulas de habitabilidad en vigor puede obtenerse sin acreditar la propiedad o un título legítimo de ocupación, y la dirección postal y catastral, superficie, antigüedad y situación georreferenciada también tienen carácter público." },
+
 ];
