@@ -1,5 +1,7 @@
 // Tema E2 — CTE: RD 314/2006 y Parte I.
 // Fuente principal: BOE-A-2006-5515, texto consolidado vigente.
+import { RESUMENES } from "./resumenes.js";
+
 export const RESUMEN_E2 = {
   intro: "El CTE es el marco normativo que concreta las exigencias básicas de calidad de los edificios para satisfacer los requisitos de seguridad y habitabilidad previstos por la LOE. La Parte I es el mapa del sistema: define cuándo se aplica, cómo se acredita el cumplimiento, qué debe contener el proyecto y qué controles existen durante proyecto, obra y vida útil. La trampa central es distinguir EXIGENCIA BÁSICA, DOCUMENTO BÁSICO y SOLUCIÓN ADOPTADA: la exigencia es obligatoria; el DB ofrece parámetros, límites y procedimientos de verificación; y el proyectista puede adoptar soluciones alternativas si justifica documentalmente que alcanzan prestaciones equivalentes.",
   bloques: [
@@ -108,3 +110,8 @@ export const RESUMEN_E2 = {
     "Libro de Órdenes ≠ Libro de Incidencias: dirección facultativa vs seguridad y salud",
   ],
 };
+
+// Integración con el registro principal. temas.js importa este módulo antes de
+// que App consuma RESUMENES, por lo que E2 queda disponible sin duplicar el
+// gran fichero de resúmenes existente.
+RESUMENES.E2 = RESUMEN_E2;
