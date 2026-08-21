@@ -1,6 +1,9 @@
 /* Índice oficial del temario (bases BON, convocatoria mayo 2026).
    13 temas generales (solo test) + 59 específicos (test + supuestos). */
 
+// Carga el resumen E2 como efecto lateral para integrarlo en RESUMENES.
+import "./resumenE2.js";
+
 export const TEMAS_GENERAL = [
   "La Constitución Española de 1978",
   "LORAFNA — Amejoramiento del Régimen Foral",
