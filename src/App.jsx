@@ -16,7 +16,12 @@ const INK_FIJA = "#1C1B19"; // texto sobre subrayados: siempre oscuro, el fondo 
 const MONO = "ui-monospace, 'SF Mono', 'Cascadia Mono', 'Roboto Mono', Menlo, Consolas, monospace";
 const SANS = "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
 
-const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: [], leidos: {} });
+const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: [], leidos: {}, preguntas: {} });
+// Compatibilidad con estados guardados antes de introducir state.preguntas.
+const normalizarEstado = (s) => {
+  const base = s || defaultState();
+  return base.preguntas ? base : { ...base, preguntas: {} };
+};
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const fmtTime = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
@@ -28,7 +33,7 @@ export default function App() {
     try { return localStorage.getItem("opo-dark-mode") === "1"; } catch { return false; }
   });
 
-  useEffect(() => { loadState().then((s) => setState(s || defaultState())); }, []);
+  useEffect(() => { loadState().then((s) => setState(normalizarEstado(s))); }, []);
 
   const persist = useCallback(async (next) => {
     setState(next); setSaving("saving");
@@ -55,7 +60,7 @@ export default function App() {
       <style>{baseCSS}</style>
       <Header tab={tab} setTab={setTab} saving={saving} darkMode={darkMode} toggleDark={toggleDark} />
       <main style={{ maxWidth: 920, margin: "0 auto", padding: "0 18px 64px" }}>
-        {tab === "inicio" && <Inicio state={state} setTab={setTab} reload={() => loadState().then((s) => setState(s || defaultState()))} />}
+        {tab === "inicio" && <Inicio state={state} setTab={setTab} reload={() => loadState().then((s) => setState(normalizarEstado(s)))} />}
         {tab === "temas" && <VistaLectura state={state} persist={persist} />}
         {tab === "resumenes" && <Resumenes />}
         {tab === "test" && <Test state={state} persist={persist} />}
@@ -1025,12 +1030,19 @@ function Test({ state, persist }) {
 
   const finalizar = async (ansParam) => {
     const rs = corregir(ansParam || answers);
-    const next = { ...state, temas: { ...state.temas }, falladas: [...state.falladas] };
+    const next = { ...state, temas: { ...state.temas }, falladas: [...state.falladas], preguntas: { ...(state.preguntas || {}) } };
     rs.forEach((r) => {
       const t = next.temas[r.tema] || { vistas: 0, aciertos: 0, fallos: 0 }; t.vistas += 1;
       if (r.ok) { t.aciertos += 1; next.falladas = next.falladas.filter((x) => x !== r.id); }
       else if (!r.blank) { t.fallos += 1; next.falladas = [...next.falladas.filter((x) => x !== r.id), r.id]; }
       next.temas[r.tema] = t;
+      const pq = next.preguntas[r.id] || { vistas: 0, aciertos: 0, fallos: 0, ultima: null };
+      next.preguntas[r.id] = {
+        vistas: (pq.vistas || 0) + 1,
+        aciertos: (pq.aciertos || 0) + (r.ok ? 1 : 0),
+        fallos: (pq.fallos || 0) + (!r.ok && !r.blank ? 1 : 0),
+        ultima: Date.now(),
+      };
     });
     const a = rs.filter((r) => r.ok).length, f = rs.filter((r) => !r.ok && !r.blank).length, b = rs.filter((r) => r.blank).length;
     next.sesiones = [...state.sesiones, { fecha: Date.now(), n: rs.length, aciertos: a, fallos: f, blancos: b, examen }].slice(-30);
