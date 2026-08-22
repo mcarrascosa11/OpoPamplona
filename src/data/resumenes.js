@@ -2172,62 +2172,126 @@ export const RESUMENES = {
   },
 
   "E8": {
-    intro: "El CTE DB-HE (Ahorro de Energía), actualizado por RD 450/2022, establece en seis secciones (HE0–HE6) las exigencias de eficiencia energética y uso de energías renovables para edificios de nueva construcción e intervenciones en existentes.",
-    bloques: [
-      { h: "HE0 – Limitación del consumo energético", items: [
-        "Parámetros: Cep,nren (energía primaria no renovable) y Cep,tot (energía primaria total)",
-        "Zonas climáticas de invierno α, A, B, C, D, E — valores residencial nueva construcción: α=20 · A=25 · B=28 · C=32 · D=38 · E=43 kWh/m²·año",
-        "Intervenciones en existentes ≈ el doble de los valores de nueva construcción",
-        "Territorios extrapeninsulares (Canarias, Ceuta, Melilla): valores × 1,25",
-        "Sistema de referencia para demostrar cumplimiento por comparación con edificio de referencia",
-      ]},
-      { h: "HE1 – Control de la demanda energética (envolvente)", items: [
-        "Ulim muros y suelos (W/m²K): α=0,80 · A=0,70 · B=0,56 · C=0,49 · D=0,41 · E=0,37",
-        "Ulim cubiertas (W/m²K): α=0,55 · A=0,50 · B=0,44 · C=0,40 · D=0,35 · E=0,33",
-        "Ulim huecos (W/m²K): A=3,2 · B=2,7 · C=2,3 · D=2,1 · E=1,80",
-        "qsol;jul,lim (control solar julio): 2,00 kWh/m²·mes residencial · 4,00 otros usos",
-        "Permeabilidad Q100 ventanas: α/A/B ≤ 27 m³/h·m² · C/D/E ≤ 9 m³/h·m²",
-        "n50 estanquidad (residencial nueva >120 m²): V/A ≤ 2 → 6 h⁻¹ · V/A ≥ 4 → 3 h⁻¹ (interpolación lineal)",
-      ]},
-      { h: "HE2 – Rendimiento instalaciones térmicas", items: [
-        "Remite al Reglamento de Instalaciones Térmicas en los Edificios (RITE, RD 1027/2007)",
-      ]},
-      { h: "HE3 – Condiciones de las instalaciones de iluminación", items: [
-        "VEEI (W/m² por 100 lux): Administrativo=3,0 · Almacenes/aparcamientos=4,0 · Centros comerciales=6,0 · Hostelería/restauración=8,0 · Habitaciones hotel=10,0 · Locales >600 lux=2,5",
-        "Potencia máxima instalada: aparcamiento ≤600 lux → 5 W/m² · >600 lux → 10 W/m² · Otros usos → 25 W/m²",
-        "Control obligatorio: encendido manual exterior + encendido por horario centralizado",
-        "Zonas esporádicas (aseos, escaleras): el horario puede sustituirse por detección de presencia o pulsador temporizador",
-        "Luz natural: obligatoria cuando T·(Aw/A) > 0,11 + condición geométrica (θ>65°, ai>2hi o ai>2hi/Tc)",
-      ]},
-      { h: "HE4 – Contribución mínima renovable para ACS", items: [
-        "Ámbito: nueva construcción con ACS >100 l/d · reforma integral o cambio de uso con ACS >100 l/d",
-        "Contribución mínima: ≥70% de la demanda energética anual para ACS",
-        "Reducción al 60% si la demanda de ACS es inferior a 5.000 l/d",
-        "Bombas de calor ACS: SCOPdhw ≥ 2,5 (eléctricas) o ≥ 1,15 (térmicas) · temp. preparación ≥ 45°C",
-      ]},
-      { h: "HE5 – Generación mínima de electricidad renovable", items: [
-        "Ámbito: edificios nueva construcción >1.000 m² · ampliaciones >1.000 m² · reformas íntegras >1.000 m²",
-        "Pmin = mínimo de: P1 = Fpr;el × S (Fpr;el: 0,005 residencial · 0,010 otros usos) y P2 = 0,1 × (0,5·Sc – Soc)",
-        "Si no se puede alcanzar Pmin por razones urbanísticas o de protección, se justifica y se maximiza",
-      ]},
-      { h: "HE6 – Infraestructura de recarga de vehículos eléctricos", items: [
-        "Ámbito: nueva construcción con aparcamiento · existentes en cambio de uso/ampliación/reforma (condiciones específicas)",
-        "Exclusiones: no residencial ≤10 plazas · existentes ≤20 plazas si el coste supera el 7% de la intervención",
-        "Residencial privado: conducción de cables para el 100% de las plazas",
-        "No residencial: conducción para ≥20% de plazas + 1 estación/40 plazas (AGE: 1/20 plazas) · accesibles: 1 estación/5 plazas",
-      ]},
-    ],
-    claves: [
-      "HE0 zona C nueva residencial: 32 kWh/m²·año (no renovable) · extrapeninsular ×1,25",
-      "HE1 Ulim muros C: 0,49 · cubiertas B: 0,44 · huecos D: 2,1 W/m²K",
-      "HE1 qsol;jul residencial: 2,00 kWh/m²·mes · Q100 zona C: ≤9 m³/h·m²",
-      "HE3 VEEI hostelería: 8,0 · zonas esporádicas → presencia o temporizador · luz natural si T(Aw/A)>0,11",
-      "HE4 renovable ACS: ≥70% (60% si <5000 l/d) · SCOPdhw bomba calor eléctrica ≥2,5",
-      "HE5 ámbito >1.000 m² · Fpr;el: 0,005 residencial / 0,010 otros",
-      "HE6 residencial: conducción 100% · no residencial: 20% conducción + 1 estación/40 plazas",
-    ],
-  },
-
+  "intro": "El DB-HE es el Documento Básico del CTE que regula el requisito de Ahorro de energía, articulado en siete exigencias básicas (HE 0 a HE 6). Su aplicación correcta garantiza el uso racional de la energía y la incorporación de fuentes renovables, siendo fundamental dominar sus ámbitos, exclusiones y valores límite para la oposición.",
+  "bloques": [
+    {
+      "h": "Ámbito de aplicación y exclusiones",
+      "nota": "Trampa habitual: confundir los umbrales de superficie entre secciones. HE 0 aplica a edificios nuevos, ampliaciones que incrementen más de un 10% la superficie o volumen construido con superficie útil ampliada superior a 50 m2, cambios de uso con superficie útil total superior a 50 m2 y reformas que renueven conjuntamente la instalación de generación térmica y más del 25% de la envolvente térmica. Las exclusiones se repiten en casi todas las secciones: edificios protegidos oficialmente (la autoridad de protección determina los elementos inalterables), construcciones provisionales con plazo previsto de utilización igual o inferior a dos años, edificios aislados con superficie útil total inferior a 50 m2 y, en HE 0 y HE 1, edificios industriales, de la defensa y agrícolas no residenciales de baja demanda energética. Relación clave: en edificios mixtos (residencial junto a otro uso), HE 0 exige aplicar los valores límite de forma independiente a cada parte del edificio con uso diferenciado.",
+      "items": [
+        "HE 0 ámbito: nuevos, ampliaciones >10% y >50 m2 útil, cambios de uso >50 m2 útil, reformas con renovación conjunta de instalación térmica y >25% envolvente térmica",
+        "Exclusiones comunes: protegidos oficiales, provisionales ≤2 años, aislados <50 m2 útil, industriales/agrícolas/defensa no residenciales de baja demanda",
+        "Edificio de consumo de energía casi nulo: el que cumple HE 0 para edificios de nueva construcción"
+      ]
+    },
+    {
+      "h": "HE 0 - Límites de consumo energético",
+      "nota": "El examen suele mezclar Cep,nren (no renovable) y Cep,tot (total). Trampa: las tablas son diferentes para residencial privado y para usos distintos del residencial, y los factores extrapeninsulares varían según el indicador (1,25 para no renovable, 1,15 para total en residencial; 1,40 para ambos en no residencial). Mnemotecnia: NoRenovable castiga más al residencial (1,25), el Total es más benevolente (1,15). Para usos no residenciales, ambos indicadores dependen de la Carga Interna Media (CFI) en W/m2, que se calcula según el Anejo A.",
+      "items": [
+        "Cep,nren,lim residencial nuevo: α=20, A=25, B=28, C=32, D=38, E=43 kWh/m2·año; cambios de uso/reformas: α=40, A=50, B=55, C=65, D=70, E=80",
+        "Cep,tot,lim residencial nuevo: α=40, A=50, B=56, C=64, D=76, E=86; cambios de uso/reformas: α=55, A=75, B=80, C=90, D=105, E=115",
+        "Extrapeninsular residencial: Cep,nren ×1,25; Cep,tot ×1,15",
+        "Cep,nren,lim no residencial: α=70+8·CFI, A=55+8·CFI, B=50+8·CFI, C=35+8·CFI, D=20+8·CFI, E=10+8·CFI; factor extrapeninsular ×1,40",
+        "Cep,tot,lim no residencial: α=165+9·CFI, A=155+9·CFI, B=150+9·CFI, C=140+9·CFI, D=130+9·CFI, E=120+9·CFI; factor extrapeninsular ×1,40"
+      ]
+    },
+    {
+      "h": "HE 0 - Procedimiento de cálculo y sistemas de referencia",
+      "nota": "Trampa: si el proyecto no define sistemas de calefacción, refrigeración o ACS en viviendas, el reglamento impone un sistema de referencia obligatorio para el cálculo. Otro error frecuente es olvidar que el cálculo se realiza con intervalo mensual y que las horas fuera de consigna no pueden superar el 4% del tiempo de ocupación. La norma de cálculo es la UNE-EN ISO 52000-1:2019 con factor de exportación kexp=0. Mnemotecnia: Sin proyecto, gas para calor (0,92 PCS) y electricidad para frío (2,60).",
+      "items": [
+        "Sistemas de referencia residencial si no se definen en proyecto: calor y ACS con gas natural, rendimiento nominal 0,92 (PCS); frío con electricidad, rendimiento 2,60",
+        "Procedimiento de cálculo: UNE-EN ISO 52000-1:2019, kexp=0, intervalo mensual",
+        "Horas fuera de consigna ≤4% del tiempo total de ocupación, con margen superior a 1°C",
+        "Superficie de cálculo: suma de superficies útiles de espacios habitables dentro de la envolvente térmica (excluyendo laboratorios con condiciones de temperatura, cocinas industriales, salas de ordenadores, piscinas cubiertas, etc.)"
+      ]
+    },
+    {
+      "h": "HE 1 - Transmitancia térmica (U) y coeficiente global K",
+      "nota": "El examen confunde constantemente U (por elemento) con K (global de la envolvente). K solo se exige en residencial privado y en usos distintos del residencial, con tablas distintas. Trampa: en reformas, U solo aplica a elementos sustituidos o modificados, pero K aplica al conjunto si se renueva más del 25% de la envolvente. Las medianerías y particiones interiores pertenecientes a la envolvente térmica tienen valores de U muy altos (hasta 3,2 en α) porque no intercambian con el exterior. Mnemotecnia: U local, K global; K solo si >25% envolvente en reformas.",
+      "items": [
+        "U límite muros/suelos aire exterior (US,UM): α=0,80, A=0,70, B=0,56, C=0,49, D=0,41, E=0,37 W/m2K",
+        "U límite cubiertas aire exterior (UC): α=0,55, A=0,50, B=0,44, C=0,40, D=0,35, E=0,33 W/m2K",
+        "U límite huecos (UH): α=5,7, A=3,2, B=2,7, C=2,3, D=2,1, E=1,8; escaparates comerciales pueden incrementar UH en un 50%",
+        "K límite residencial nuevo V/A≤1: α=0,67, A=0,60, B=0,58, C=0,53, D=0,48, E=0,43; V/A≥4: α=0,86, A=0,80, B=0,77, C=0,72, D=0,67, E=0,62",
+        "K límite no residencial V/A≤1: α=0,96, A=0,81, B=0,76, C=0,65, D=0,54, E=0,43; exención comercial con V/A>5",
+        "En reformas: U aplica solo a elementos sustituidos/modificados; K aplica al conjunto si se renueva >25% envolvente"
+      ]
+    },
+    {
+      "h": "HE 1 - Control solar, permeabilidad y particiones interiores",
+      "nota": "Trampa: el parámetro de control solar qsol;jul se refiere al mes de julio con protecciones solares móviles activadas, no a la situación sin protección. La permeabilidad al aire de huecos (Q100) usa la clase 2 (≤27) para zonas α-A-B-C y clase 3 (≤9) para D-E, según UNE-EN 12207:2017. El n50 (estanqueidad del edificio) solo se exige en residencial privado nuevo con superficie útil total superior a 120 m2. Mnemotecnia: Zonas cálidas (D-E) exigen más estanqueidad: 9 en lugar de 27.",
+      "items": [
+        "Control solar qsol;jul,lim: residencial privado 2,00 kWh/m2·mes; otros usos 4,00",
+        "Permeabilidad huecos Q100,lim: zonas α-A-B-C ≤27 m3/h·m2 (clase 2); zonas D-E ≤9 (clase 3) UNE-EN 12207:2017",
+        "n50 residencial privado nuevo >120 m2: V/A≤2 → 6 h-1; V/A≥4 → 3 h-1 (interpolación entre 2 y 4)",
+        "Particiones interiores U límite entre unidades de distinto uso: horizontales/verticales α=1,35, A=1,25, B=1,10, C=0,95, D=0,85, E=0,70 W/m2K",
+        "Particiones interiores U límite entre unidades de mismo uso horizontales: α=1,90, A=1,80, B=1,55, C=1,35, D=1,20, E=1,00; verticales: α=1,40, A=1,40, B=1,20, C=1,20, D=1,20, E=1,00",
+        "Condensaciones: máxima acumulada anual no superará la cantidad de evaporación posible en el mismo periodo"
+      ]
+    },
+    {
+      "h": "HE 3 - Iluminación: eficiencia, potencia y controles",
+      "nota": "Trampa: HE 3 no aplica a viviendas ni a alumbrado de emergencia. El VEEI se expresa en W/m2 por cada 100 lux, por lo que valores más bajos son más exigentes. Los locales con nivel de iluminación superior a 600 lux tienen el VEEI más restrictivo (2,5) y la potencia máxima más alta (25 W/m2). Los controles son obligatorios: manual externo al cuadro más horario centralizado; en zonas esporádicas puede sustituirse por detección de presencia o pulsador. Mnemotecnia: Más lux, más potencia permitida, pero VEEI más ajustado.",
+      "items": [
+        "VEEI límite más exigente: locales >600 lux → 2,5; administrativo/andenes/pabellones → 3,0; aulas/diagnóstico → 3,5",
+        "VEEI límite más permisivo: habitaciones hoteles/hostales → 10,0; hostelería/religioso/salones actos/tiendas → 8,0",
+        "Potencia máxima: aparcamiento ≤600 lux → 5 W/m2; otros usos ≤600 lux → 10 W/m2; >600 lux → 25 W/m2",
+        "Control obligatorio: manual externo al cuadro + encendido por horario centralizado en cada cuadro eléctrico",
+        "Zonas esporádicas (aseos, pasillos, escaleras, tránsito, aparcamientos): detección de presencia temporizado o pulsador",
+        "Aprovechamiento luz natural: T(Aw/A)>0,11 y θ>65° o ai>2hi o ai>2hi/Tc; a menos de 5 m de ventana/lucernario. Excluidas zonas comunes residenciales, habitaciones hospital/hoteles, tiendas y pequeño comercio"
+      ]
+    },
+    {
+      "h": "HE 4 y HE 5 - Contribución de energías renovables",
+      "nota": "HE 4 y HE 5 son complementarios: HE 4 cubre ACS y piscinas con energía térmica renovable; HE 5 exige generación eléctrica renovable. Trampa: el 70% de HE 4 es sobre la demanda anual incluyendo pérdidas de distribución, acumulación y recirculación, y baja al 60% si la demanda de ACS es inferior a 5000 l/d. Solo cuenta la energía in situ, en proximidades o biomasa sólida. En HE 5, la potencia mínima es el menor de dos valores (P1 y P2), y el factor de producción eléctrica es 0,005 para residencial y 0,010 para el resto. Mnemotecnia: 70% para mucha agua, 60% para poca; doble tope en electricidad (consumo y cubierta).",
+      "items": [
+        "HE 4: contribución renovable mínima 70% demanda anual ACS y/o piscina; 60% si demanda ACS <5000 l/d",
+        "Fuentes válidas HE 4: in situ, proximidades del edificio o biomasa sólida",
+        "Bombas de calor ACS/piscina: SCOPdhw ≥2,5 (eléctrica) o ≥1,15 (térmica); temperatura preparación ACS ≥45°C",
+        "Energía residual en residencial privado: máximo 20% de la extraída por recuperadores ajenos a la instalación térmica",
+        "HE 5 ámbito: edificios nuevos, ampliaciones, reformas íntegras o cambio de uso >1000 m2 construidos (incluye aparcamiento interior, excluye zonas exteriores comunes)",
+        "Pmin = menor de P1=Fpr,el·S (0,005 residencial, 0,010 resto) y P2=0,1·(0,5·Sc - Soc)"
+      ]
+    },
+    {
+      "h": "HE 6 - Infraestructura de recarga de vehículos eléctricos",
+      "nota": "Trampa: las dotaciones difieren radicalmente entre residencial y no residencial. En residencial se exige previsión de conducción de cables para el 100% de plazas, pero no estaciones obligatorias. En no residencial, solo el 20% de plazas precisa conducción, más una estación de recarga cada 40 plazas (o fracción). Las plazas accesibles exigen 1 estación cada 5 plazas y computan para el cumplimiento general. Existen exclusiones por número de plazas y por coste (superior al 7% del coste de la intervención en existentes). Mnemotecnia: Residencial todo cableado; terciario 20% cables y 1 carga por 40 plazas.",
+      "items": [
+        "Residencial privado: sistemas de conducción de cables para el 100% de las plazas de aparcamiento",
+        "No residencial: conducción para ≥20% plazas + 1 estación de recarga cada 40 plazas (o fracción)",
+        "Administración General del Estado y organismos públicos vinculados: 1 estación cada 20 plazas",
+        "Plazas accesibles (DB SUA): 1 estación cada 5 plazas accesibles; computan para el cumplimiento general",
+        "Exclusiones: uso no residencial con ≤10 plazas; existentes no residencial ≤20 plazas y existentes residencial si coste >7% del coste de la intervención",
+        "Si usos mixtos y aparcamiento no diferenciado: se aplica el criterio del uso característico del edificio"
+      ]
+    },
+    {
+      "h": "Anejo A - Conceptos operativos para el cálculo",
+      "nota": "El Anejo A define conceptos que el examen usa como trampas conceptuales. La carga interna media (CFI) clasifica los espacios en baja (<6), media (6-9), alta (9-12) y muy alta (≥12 W/m2) y es imprescindible para las tablas de HE 0 en usos no residenciales. La compacidad V/A excluye del área de intercambio (A) las medianerías y contactos con espacios adyacentes exteriores a la envolvente. Las horas fuera de consigna se miden con margen superior a 1°C. Mnemotecnia: CFI seis-nueve-doce; V/A sin medianerías.",
+      "items": [
+        "CFI niveles: baja <6 W/m2; media 6-9; alta 9-12; muy alta ≥12 W/m2",
+        "Compacidad V/A = volumen encerrado por envolvente / superficie de intercambio con aire exterior o terreno (excluye medianerías y contactos con espacios adyacentes exteriores)",
+        "Horas fuera de consigna: horas con temperatura fuera del rango de consigna con margen >1°C durante periodos de ocupación",
+        "Superficie construida HE 5: incluye aparcamiento interior, excluye zonas exteriores comunes",
+        "Demanda de referencia ACS: Anejo F; temperatura agua de red: Anejo G",
+        "Valores de diseño térmicos: temperatura de referencia 10°C y equilibrio con ambiente 23°C y 50% HR"
+      ]
+    }
+  ],
+  "claves": [
+    "Las exclusiones del DB-HE se repiten: protegidos, provisionales ≤2 años, aislados <50 m2",
+    "HE 0: Cep,nren residencial extrapeninsular ×1,25; Cep,tot ×1,15; no residencial ambos ×1,40",
+    "Sin sistemas definidos en viviendas: gas natural 0,92 PCS para calor/ACS y electricidad 2,60 para frío",
+    "U es transmitancia por elemento; K es coeficiente global de la envolvente; K solo en reformas si >25% envolvente",
+    "Q100 clase 2 (≤27) para zonas α-A-B-C; clase 3 (≤9) para zonas D-E",
+    "Control solar julio: 2,00 residencial, 4,00 otros usos; siempre con protecciones móviles activadas",
+    "HE 4: 70% renovable anual para ACS/piscina; 60% si demanda ACS <5000 l/d",
+    "HE 5: Pmin es el menor de P1 (factor 0,005 residencial, 0,010 resto) y P2 (0,1·(0,5·Sc-Soc))",
+    "HE 6 residencial: 100% plazas con conducción; no residencial: 20% conducción + 1 estación/40 plazas",
+    "VEEI más permisivo: hoteles 10,0; más exigente: >600 lux 2,5",
+    "CFI niveles: 6-9-12; compacidad V/A excluye medianerías del área de intercambio",
+    "Procedimiento de cálculo: UNE-EN ISO 52000-1:2019, kexp=0, intervalo mensual"
+  ]
+}
   "E9": {
     intro: "El RITE (RD 1027/2007, modificado) regula las exigencias de eficiencia energética, bienestar e higiene, y seguridad de las instalaciones térmicas en los edificios: climatización (calefacción, refrigeración, ventilación) y producción de ACS.",
     bloques: [
