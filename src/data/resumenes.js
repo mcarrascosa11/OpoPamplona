@@ -1607,102 +1607,188 @@ export const RESUMENES = {
 
   E4: {
     intro:
-      "El Real Decreto 513/2017, de 22 de mayo, aprueba el Reglamento de instalaciones de protección contra incendios (RIPCI). Regula el diseño, instalación, mantenimiento e inspección de los equipos y sistemas de protección activa contra incendios (PCI). Se aplica a empresas instaladoras y mantenedoras y con carácter supletorio a instalaciones no reguladas por legislación específica.",
+      "El RD 513/2017 aprueba el Reglamento de Instalaciones de Protección Contra Incendios (RIPCI). Regula el diseño, instalación, mantenimiento e inspección de los equipos y sistemas de protección activa contra incendios. Es de aplicación supletoria cuando otra legislación específica no regule estos aspectos, con la excepción de los túneles de carreteras del Estado (RD 635/2006).",
     bloques: [
       {
-        h: "Objeto, ámbito y definiciones (Cap. I, arts. 1-3)",
+        h: "Disposiciones generales (Arts. 1–3)",
+        nota:
+          "El art. 1 define el objeto del reglamento: no es una norma de prevención de incendios en sí, sino de los equipos y sistemas de protección activa. El ámbito subjetivo (art. 2) alcanza a instaladoras, mantenedoras, fabricantes, importadores y organismos de evaluación técnica. En el examen se confunde a menudo con el DB-SI del CTE: el DB-SI exige QUE haya protección (qué sectores, qué resistencias); el RIPCI define CÓMO deben ser los equipos (marcado CE, normas UNE, mantenimiento).",
         items: [
-          "Objeto (art. 1.1): condiciones y requisitos del diseño, instalación/aplicación, mantenimiento e inspección de equipos, sistemas y componentes de protección activa contra incendios",
-          "Carácter supletorio: aplica a instalaciones PCI no reguladas en legislaciones específicas, excepto túneles de carreteras del Estado (RD 635/2006)",
-          "Ámbito subjetivo (art. 2): empresas instaladoras y empresas mantenedoras; también fabricantes, importadores, distribuidores y organismos de certificación/evaluación técnica",
-          "Protección activa: conjunto de medios (manuales o automáticos) para detección, control y/o extinción de un incendio, facilitando la evacuación e impidiendo propagación",
-          "Empresa instaladora: ubica y/o instala equipos/sistemas PCI y coloca señales, balizamientos y planos de evacuación",
-          "Empresa mantenedora: realiza las operaciones de mantenimiento de los equipos/sistemas PCI",
+          "Objeto (art. 1): condiciones y requisitos de diseño, instalación/aplicación, mantenimiento e inspección de equipos, sistemas y componentes de protección activa",
+          "Aplicación supletoria (art. 1.2): cuando otra legislación específica no regule la protección activa; excepción: túneles de carreteras del Estado → RD 635/2006",
+          "Ámbito subjetivo (art. 2): empresas instaladoras, mantenedoras, fabricantes, importadores, distribuidores y organismos de evaluación técnica",
+          "Protección activa (art. 3.a): medios, equipos y sistemas manuales o automáticos para detección, control y/o extinción, facilitando evacuación e impidiendo propagación",
+          "Evaluación técnica (art. 3.d): valoración de requisitos básicos del producto, control en fábrica y seguimiento anual; los organismos deben ser imparciales, con experiencia contrastada y procedimientos validados por la CCAA",
+          "Empresa instaladora (art. 3.f): ubica/instala equipos y sistemas; coloca señales, balizamientos y planos de evacuación de señalización luminiscente",
+          "Empresa mantenedora (art. 3.g): realiza operaciones de mantenimiento de equipos y sistemas",
         ],
       },
       {
-        h: "Sistemas de detección y alarma de incendios (Anexo I §1)",
+        h: "Sistemas de detección y alarma de incendios",
+        nota:
+          "Este apartado es un festival de normas UNE. En el examen suelen preguntar cuál corresponde a qué componente. La clave es agrupar: UNE 23007-XX para diseño/instalación, UNE-EN 54-XX para producto/marcado CE. Ojo: los detectores con alimentación autónoma no van por UNE-EN 54 sino por UNE-EN 14604. Los dispositivos visuales son obligatorios cuando el ruido supere 60 dB(A), haya personas sordas o se use protección auditiva.",
         items: [
-          "Diseño e instalación: norma UNE 23007-14; sistema de alarma por voz: UNE 23007-32; compatibilidad de componentes: UNE-EN 54-13",
-          "Detectores: calor puntual (UNE-EN 54-5), humo puntual (54-7), llama (54-10), lineal (54-12), aspiración (54-20); todos con marcado CE",
-          "Pulsadores de alarma (UNE-EN 54-11): distancia máxima desde cualquier origen de evacuación: 25 m; altura parte superior: 80-120 cm",
-          "Dispositivos visuales de alarma: obligatorios cuando ruido ambiente >60 dB(A), cuando los ocupantes sean sordos o lleven protección auditiva",
-          "Equipos de control e indicación (e.c.i.): marcado CE (UNE 23007-2); identificación inmediata de la zona donde se activa un detector o pulsador",
+          "Norma de componentes: UNE-EN 54-1; diseño/instalación/puesta en servicio: UNE 23007-14; compatibilidad: UNE-EN 54-13; alarma por voz: UNE 23007-32",
+          "Equipo de suministro de alimentación (e.s.a.): marcado CE conforme EN 54-4 (UNE 23007-4)",
+          "Detectores automáticos (calor, humo, llama, lineales, aspiración): marcado CE conforme UNE-EN 54-5, 54-7, 54-10, 54-12, 54-20",
+          "Detectores con fuente autónoma: marcado CE conforme UNE-EN 14604 (no UNE-EN 54)",
+          "Pulsadores de alarma (activación manual): marcado CE conforme EN 54-11; distancia máxima desde origen de evacuación: 25 m; altura parte superior: 80–120 cm",
+          "Equipo de control e indicación (e.c.i.): marcado CE conforme EN 54-2 (UNE 23007-2); debe identificar la zona de activación",
+          "Dispositivos acústicos: marcado CE UNE-EN 54-3; dispositivos visuales: UNE-EN 54-23 (obligatorios si ruido >60 dB(A), ocupantes sordos o protección auditiva)",
+          "Alarma por voz: controladores UNE-EN 54-16, altavoces UNE-EN 54-24",
+          "Transmisión de alarmas: marcado CE conforme EN 54-21; los sistemas de protección contra incendios tienen prioridad máxima en sistemas integrados",
+          "Resto de componentes: marcado CE conforme serie UNE-EN 54 cuando entre en vigor; hasta entonces, certificado o marca de conformidad (art. 5.2)",
         ],
       },
       {
-        h: "Extintores de incendio (Anexo I §4)",
+        h: "Sistemas de abastecimiento de agua contra incendios",
+        nota:
+          "Poco preguntado directamente, pero es la base de hidrantes, BIE y rociadores. La norma clave es UNE 23500. Si un sistema de extinción tiene evaluación técnica favorable (art. 5.3), su abastecimiento de agua se considera conforme. Para BIE, las tuberías cumplen UNE 23500 salvo que el propio epígrafe de BIE o rociadores diga lo contrario.",
         items: [
-          "Extintor portátil: masa en condiciones de funcionamiento ≤ 20 kg; extintor móvil: masa >20 kg, sobre ruedas",
-          "Extintores portátiles: certificados conforme a UNE-EN 3-7 y UNE-EN 3-10; extintores móviles: UNE-EN 1866-1",
-          "Altura instalación: parte superior entre 80 cm y 120 cm sobre el suelo",
-          "Recorrido máximo horizontal hasta extintor: 15 m (desde cualquier punto del sector, origen de evacuación)",
-          "Clases de fuego (UNE-EN 2): A (sólidos con brasas) · B (líquidos/sólidos licuables) · C (gases) · D (metales) · F (aceites y grasas en aparatos de cocina)",
-          "Generadores de aerosol: pueden usarse como extintores si tienen evaluación técnica favorable y capacidad de extinción ≥ extintor portátil convencional",
+          "Compuesto por fuentes de agua, equipos de impulsión y red general de incendios",
+          "Norma de referencia: UNE 23500",
+          "Sistemas con evaluación técnica favorable (art. 5.3): su abastecimiento se considera conforme",
+          "Tuberías de BIE: requisitos de UNE 23500, salvo que el epígrafe específico establezca otros (como en rociadores)",
         ],
       },
       {
-        h: "Sistemas de bocas de incendio equipadas — BIE (Anexo I §5)",
+        h: "Hidrantes contra incendios",
+        nota:
+          "Uno de los apartados más técnicos y con más cifras del reglamento. Se pregunta mucho la distancia máxima de recorrido (100 m urbanas / 40 m resto), el caudal mínimo (500 l/min) y las presiones (100 kPa solo llenado camiones en urbanas / 500 kPa resto). Los hidrantes municipales cumplen los requisitos de producto e instalación del RIPCI, pero su mantenimiento e inspección lo fija el municipio. Ojo a la llave de cuadradillo: 25×25 mm para bajo tierra, 30×30 mm para columna.",
         items: [
-          "Manguera semirrígida: 25 mm de diámetro interior; longitud máxima 30 m; K mínimo 42; caudal mínimo 85 l/min; presión mínima entrada 4 bar (400 kPa)",
-          "Manguera plana: 45 mm de diámetro interior; longitud máxima 20 m; K mínimo 85; caudal mínimo 160 l/min; presión mínima entrada 3,5 bar (350 kPa)",
-          "Presión máxima entrada (semirrígida y plana): 9 bar (900 kPa)",
-          "Boquilla/válvula/sistema apertura: situados a máx. 1,50 m sobre el nivel del suelo",
-          "Posición: preferentemente cerca de puertas/salidas; siempre una BIE a ≤5 m de cada salida de sector",
-          "Separación máxima entre BIE: 50 m; radio de acción = longitud manguera + 5 m",
-          "Autonomía: 1 hora con las 2 BIE hidráulicamente más desfavorables funcionando simultáneamente",
-          "Prueba de estanquidad antes de puesta en servicio: presión estática = máxima de servicio y mínimo 980 kPa (10 kg/cm²), mantenida 2 horas sin fugas",
+          "Tipos: columna (UNE-EN 14384) y bajo tierra (UNE-EN 14339); solo admitidos rango de par «2», tipos «B» o «C»; si heladas → solo tipo «C» (mST 250 N·m)",
+          "Hidrantes bajo tierra: PFA 1600 kPa (16 kg/cm²); tapas rojas RAL 3001 o inscripción «incendios»",
+          "Zona protegida: distancia recorrido real <100 m (urbanas) o <40 m (resto); distancia perpendicular a fachada: 5–15 m",
+          "Al menos un hidrante en entrada del edificio con salida de 100 mm, perpendicular a fachada y de espaldas a ella",
+          "Caudal mínimo ininterrumpido por boca: 500 l/min",
+          "Presión mínima: 100 kPa (1 kg/cm²) en urbanas si solo llenado de camiones; 500 kPa (5 kg/cm²) en el resto (impulsión directa)",
+          "Hidrantes solo llenado camiones: pueden conectarse a red pública sin depósitos ni bombas; si hay depósitos → autonomía ≥60 min",
+          "Llave cuadradillo: 25×25 mm (bajo tierra), 30×30 mm (columna); cierre en sentido agujas del reloj",
+          "Hidrantes municipales: producto e instalación → RIPCI; puesta en servicio, mantenimiento e inspección → municipio",
         ],
       },
       {
-        h: "Hidrantes (Anexo I §3) y Columna seca (Anexo I §6)",
+        h: "Extintores de incendio",
+        nota:
+          "Clásico de examen: clases de fuego (A, B, C, D, F), tipos de extintor (portátil ≤20 kg, móvil >20 kg) y distancias de recorrido (15 m máximo). Los extintores portátiles necesitan certificación conforme UNE-EN 3-7 y 3-10; los móviles conforme UNE-EN 1866-1. Los generadores de aerosoles pueden usarse como extintores si tienen evaluación técnica favorable y equivalen a un portátil convencional. La señalización va junto al armario, no sobre él.",
         items: [
-          "Hidrantes: columna (tipo B o C; heladas → solo tipo C) o bajo tierra; llave cuadradillo 25×25 mm (bajo tierra) / 30×30 mm (columna)",
-          "Distancia real a hidrante: <100 m en zonas urbanas; <40 m en el resto",
-          "Hidrante entre 5 m y 15 m del límite exterior del edificio protegido",
-          "Caudal mínimo por boca de hidrante: 500 l/min; presión mínima salida: 100 kPa (llenado camiones en zona urbana) / 500 kPa (impulsión directa)",
-          "Columna seca: tubería acero galvanizado DN80; ascendente → salidas en plantas pares hasta la 8ª y en todas las siguientes; válvula de seccionamiento cada 4 plantas",
-          "Centro de bocas (exterior e interior): a 0,90 m sobre el nivel del suelo",
-          "Recorrido máximo hasta columna seca: <60 m (siguiendo recorridos de evacuación)",
-          "Prueba estanquidad columna seca: ≥1.470 kPa (15 kg/cm²) hasta 30 m de altura / ≥2.450 kPa (25 kg/cm²) si >30 m, durante 2 horas",
+          "Portátil: ≤20 kg en condiciones de funcionamiento; móvil: >20 kg, sobre ruedas",
+          "Portátiles: certificación UNE-EN 3-7 y UNE-EN 3-10; móviles: UNE-EN 1866-1",
+          "También sujetos al RD 709/2015 (equipos a presión)",
+          "Emplazamiento: visibles, accesibles, próximos a riesgo y salidas; parte superior a 80–120 cm del suelo; recorrido máximo horizontal: 15 m",
+          "Clases de fuego (UNE-EN 2): A (sólidos/orgánicos con brasas) · B (líquidos) · C (gases) · D (metales) · F (cocina: aceites/grasas)",
+          "Generadores de aerosoles como extintores: evaluación técnica favorable (art. 5.3), equivalencia con portátil convencional, mantenimiento igual que portátil",
+          "Señalización: junto al armario, no sobre la superficie del mismo",
         ],
       },
       {
-        h: "Sistemas fijos de extinción (Anexo I §7-§12)",
+        h: "Bocas de incendio equipadas (BIE)",
+        nota:
+          "Apartado muy denso en cifras y con alta probabilidad de pregunta. Las BIE semirrígidas (25 mm) son para personas no especializadas; las planas (45 mm) requieren más formación. Factor K: 42 (semirrígida) vs 85 (plana). Presión mínima: 4 bar (400 kPa) semirrígida, 3,5 bar (350 kPa) plana. Presión máxima: 9 bar (900 kPa) para ambas. La prueba de estanquidad es a 980 kPa (10 kg/cm²) durante 2 h. La separación máxima entre BIE es 50 m. El radio de acción = longitud manguera + 5 m. Longitudes máximas: 20 m (plana), 30 m (semirrígida y alta presión).",
         items: [
-          "Rociadores automáticos (§7): diseño e instalación conforme UNE-EN 12845; componentes: marcado CE (serie UNE-EN 12259)",
-          "Agua nebulizada (§8): conforme a norma UNE-CEN/TS 14972",
-          "Espuma física (§9): UNE-EN 13565-2 (diseño) y UNE-EN 13565-1 (componentes); espumógenos: UNE-EN 1568",
-          "Polvo (§10): solo cuando garantizada evacuación del personal; mecanismo de disparo con retardo y prealarma",
-          "Agentes gaseosos (§11): solo cuando garantizada evacuación; retardo + prealarma; concentraciones según riesgo; UNE-EN 15004 o UNE ISO 6183",
-          "Aerosoles condensados (§12): UNE-EN 15276-2 (diseño) y UNE-EN 15276-1 (componentes)",
-          "Cocinas comerciales (§16): certificación previa según UNE-EN 17446; mantenimiento por empresa habilitada para el sistema base",
+          "Tipos: manguera semirrígida (UNE-EN 671-1, marcado CE) o plana (UNE-EN 671-2); solo admitidos 25 mm (semirrígida) y 45 mm (plana)",
+          "Racores: aprobados conforme UNE 23400 (art. 5.2)",
+          "Factor K mínimo: 42 (semirrígida), 85 (plana)",
+          "BIE alta presión: evaluación técnica favorable (art. 5.3); manguera ≤12 mm (salvo justificación de manejabilidad)",
+          "Altura máxima boquilla/válvula/apertura armario: 1,50 m sobre suelo",
+          "Ubicación: preferentemente cerca de puertas/salidas; siempre una BIE a ≤5 m de cada salida de sector (salvo que otra la cubra o legislación específica diga otra cosa)",
+          "Cobertura: toda la superficie del sector debe quedar cubierta por al menos una BIE; radio de acción = longitud manguera + 5 m",
+          "Separación máxima entre BIE: 50 m (semirrígida/plana); para alta presión: el doble del radio de acción",
+          "Longitud máxima manguera: 20 m (plana), 30 m (semirrígida), 30 m (alta presión)",
+          "Caudal mínimo semirrígida (25 mm): 85 l/min → presión mínima 4 bar (400 kPa); plana (45 mm): 160 l/min → 3,5 bar (350 kPa)",
+          "Presión máxima semirrígida/plana: 9 bar (900 kPa)",
+          "Autonomía red: 1 h mínimo para las 2 BIE hidráulicamente más desfavorables (o la única si solo hay una)",
+          "BIE alta presión: presión dinámica mínima 3.450 kPa (35 kg/cm²) en salida, funcionando las 2 más desfavorables, durante 1 h",
+          "Prueba estanquidad semirrígida/plana: presión estática = máxima de servicio, mínimo 980 kPa (10 kg/cm²), durante 2 h",
+          "Prueba estanquidad alta presión: 1,5 × presión trabajo máxima, durante 2 h",
+          "Señalización: junto al armario, no sobre el mismo",
         ],
       },
       {
-        h: "Mantas ignífugas (§14) y Señalización luminiscente (Sección 2ª)",
+        h: "Columna seca",
+        nota:
+          "Distinguir bien columna seca ascendente vs descendente. Ascendente: salidas en plantas pares hasta la 8.ª y en todas a partir de ésta; válvula de seccionamiento cada 4 plantas. Descendente: válvula y salida en CADA planta. Recorrido máximo hasta columna: 60 m. Prueba de estanquidad: 1.470 kPa (15 kg/cm²) si ≤30 m de altura; 2.450 kPa (25 kg/cm²) si >30 m. Señalización con texto «USO EXCLUSIVO SERVICIOS DE EXTINCIÓN DE INCENDIOS».",
         items: [
-          "Mantas ignífugas: láminas flexibles para extinguir por sofocación pequeños fuegos; norma UNE-EN 1869; caducidad máxima 20 años",
-          "Señalización: conforme a UNE 23033-1; señales sin símbolos ajenos (máx. 3% de la superficie para identificación)",
-          "Sistemas fotoluminiscentes: conforme a UNE 23035-4; categoría A obligatoria en centros con actividades del Anexo I del Plan Básico de Autoprotección (RD 393/2007)",
-          "Sistemas alimentados eléctricamente: requisitos análogos al alumbrado de emergencia en cuanto a funcionamiento",
-          "Señales no luminiscentes en interiores: deben estar iluminadas exteriormente y ser visibles incluso en caso de fallo del alumbrado normal",
+          "Componentes: toma en fachada (conexión siamesa, llaves, racores 70 mm, tapa, purga 25 mm) + columna acero galvanizado DN80",
+          "Ascendente: salidas en plantas pares hasta la 8.ª y en todas a partir de ésta; racores 45 mm; válvula seccionamiento cada 4 plantas (por encima de la salida)",
+          "Descendente: válvula y salida en cada planta; llave justo por debajo de la salida; racores 45 mm en todas las plantas",
+          "Salidas en recintos de escaleras o vestíbulos previos; centro de bocas a 0,90 m del suelo; válvulas de bola con palanca",
+          "Recorrido máximo hasta columna: <60 m por recorridos de evacuación",
+          "Cada columna (ascendente o descendente) tiene toma independiente en fachada",
+          "Zona de toma libre de obstáculos, señalizada, con espacio para camión de bombeo",
+          "Prueba estanquidad: presión estática = máxima de servicio, mínimo 1.470 kPa (15 kg/cm²) si ≤30 m; 2.450 kPa (25 kg/cm²) si >30 m; durante 2 h",
+          "Señalización: «USO EXCLUSIVO SERVICIOS DE EXTINCIÓN DE INCENDIOS»; junto al armario o inscrita en la puerta; en tomas de entrada se identifican plantas/zonas servidas y presión máxima de servicio",
+        ],
+      },
+      {
+        h: "Sistemas fijos de extinción",
+        nota:
+          "Todos los sistemas fijos comparten dos requisitos comunes: marcado CE (o certificado/marca de conformidad según art. 5.2 mientras no haya norma armonizada) y señalización de mecanismos de disparo/paro manual conforme anexo I sección 2.ª. Los sistemas con riesgo para el personal (polvo, gases, aerosoles) deben incluir retardo y prealarma para evacuación. En el examen se pregunta mucho qué norma corresponde a cada sistema.",
+        items: [
+          "Rociadores automáticos y agua pulverizada: componentes serie UNE-EN 12259 (marcado CE); diseño/instalación UNE-EN 12845; diluvio/inundación UNE 23501 a 23507",
+          "Agua nebulizada: UNE-CEN/TS 14972",
+          "Espuma física: diseño/instalación UNE-EN 13565-2; componentes UNE-EN 13565-1; espumógenos UNE-EN 1568-1 a 1568-4",
+          "Polvo: diseño/instalación UNE-EN 12416-2; componentes UNE-EN 12416-1; polvo UNE-EN 615; requiere retardo + prealarma (evacuación obligatoria)",
+          "Gases: UNE-EN 15004-1 (o UNE ISO 6183 según agente); componentes serie UNE-EN 12094; requiere retardo + prealarma",
+          "Aerosoles condensados: UNE-EN 15276-2; componentes marca conformidad UNE-EN 15276-1 (art. 5.2)",
+          "Cocinas comerciales: certificación UNE-EN 17446 (art. 5.2); instalación/mantenimiento por empresa habilitada del sistema base; mantenimiento según anexo II de sistemas fijos",
+          "Todos los mecanismos de disparo/paro manuales señalizados conforme anexo I sección 2.ª",
+        ],
+      },
+      {
+        h: "Control de humos y de calor",
+        nota:
+          "Cuatro estrategias de movimiento de gases: flotabilidad (techos altos), presurización diferencial (vías de evacuación, especialmente escaleras), ventilación horizontal (túneles/aparcamientos de poca esbeltez) y extracción de humos (durante y/o tras el incendio, cuando hay sistemas de supresión incompatibles con otros tipos). Las barreras de humo llevan marcado CE UNE-EN 12101-1; aireadores naturales UNE-EN 12101-2; extractores mecánicos UNE-EN 12101-3.",
+        items: [
+          "Estrategias: flotabilidad (techos altos) · presurización diferencial (vías evacuación, escaleras) · ventilación horizontal (túneles/aparcamientos) · extracción de humos (durante/tras incendio)",
+          "Flotabilidad: UNE 23585 (proyecto); UNE 23584 (instalación, puesta en marcha, mantenimiento) para edificios de 1 planta, multiplanta con atrios/escaleras o subterráneos",
+          "Presurización diferencial: UNE-EN 12101-6 + UNE 23584 (aspectos no previstos)",
+          "Ventilación horizontal: otras normas/documentos reconocidos por el Ministerio hasta entrada en vigor de UNE-EN específicas",
+          "Extracción de humos: diseño según renovaciones/hora u otros parámetros; usado también tras supresión del incendio cuando otros sistemas son incompatibles",
+          "Barreras de humo: marcado CE UNE-EN 12101-1; aireadores naturales: UNE-EN 12101-2; extractores mecánicos: UNE-EN 12101-3",
+          "Resto de componentes: marcado CE serie UNE-EN 12101 cuando entre en vigor; hasta entonces certificado/marca de conformidad (art. 5.2)",
+        ],
+      },
+      {
+        h: "Mantas ignífugas, alumbrado de emergencia y señalización luminiscente",
+        nota:
+          "Tres elementos auxiliares que suelen aparecer en preguntas de detalle. Mantas ignífugas: caducidad máxima 20 años, aprobadas conforme UNE-EN 1869. Alumbrado de emergencia: no lo regula el RIPCI en sí, sino que remite al REBT (RD 842/2002) e ITC-BT-28. Señalización luminiscente: fotoluminiscente (UNE 23035-4, categoría A en centros de autoprotección RD 393/2007) o eléctrica (requisitos análogos a alumbrado de emergencia). Las señales no luminiscentes dentro de edificios deben estar iluminadas exteriormente. Planos de evacuación conforme UNE 23032.",
+        items: [
+          "Mantas ignífugas: láminas flexibles para sofocación; aprobadas UNE-EN 1869 (art. 5.2); caducidad ≤20 años; envasadas hasta uso; visibles y accesibles",
+          "Alumbrado de emergencia: conforme al REBT (RD 842/2002) e ITC-BT-28; asegura iluminación en locales y accesos hasta salidas",
+          "Señalización luminiscente: función → informar situación de equipos de protección manual, aun con fallo de alumbrado normal",
+          "Tipos: fotoluminiscentes o eléctricas (fluorescencia, LED, electroluminiscencia); señales no luminiscentes permitidas si no se pierde visibilidad o en exterior/vía pública; en interior deben estar iluminadas exteriormente",
+          "Diseño de señales: UNE 23033-1 (medios manuales y alerta/alarma); señales no definidas → criterios UNE 23033-1, UNE 23032, UNE-EN ISO 7010",
+          "Planos de evacuación: UNE 23032; visibles aun con fallo de alumbrado; representan medios manuales con señales UNE 23033-1",
+          "Fotoluminiscentes: UNE 23035-4; categorías A y B; identificación con número de lote visible una vez instalada; justificación mediante informe de laboratorio acreditado",
+          "Categoría A obligatoria en centros de autoprotección (RD 393/2007)",
+          "Eléctricas: requisitos análogos a alumbrado de emergencia en funcionamiento + diseño UNE 23033-1",
+          "Señales no deben contener símbolos ajenos al mensaje; identificación en márgenes, ≤3% de la superficie total",
         ],
       },
     ],
     claves: [
-      "RD 513/2017 — RIPCI; excepción supletoria: túneles de carreteras del Estado (RD 635/2006)",
-      "Extintor portátil ≤20 kg; móvil >20 kg en ruedas; recorrido máx. hasta extintor: 15 m",
-      "Extintores y pulsadores: parte superior entre 80 cm y 120 cm sobre el suelo",
-      "Pulsadores alarma: distancia máx. 25 m desde origen de evacuación",
-      "Clases fuego: A sólidos · B líquidos · C gases · D metales · F aceites/grasas cocina",
-      "BIE semirrígida: 25mm / 30m / 85 l/min / 4 bar mín · BIE plana: 45mm / 20m / 160 l/min / 3,5 bar mín",
-      "BIE: separación máx. 50m; una BIE a ≤5m de cada salida sector; autonomía 1h (2 BIE más desfavorables)",
-      "Hidrantes urbanos <100 m; no urbanos <40 m; caudal mín. 500 l/min",
-      "Columna seca DN80; recorrido máx. <60 m; bocas a 0,90 m; prueba ≤30m: 1.470 kPa / >30m: 2.450 kPa",
-      "Polvo y gaseosos: prealarma + retardo; solo si evacuación garantizada",
-      "Mantas ignífugas: sofocación; caducidad máx. 20 años",
-      "Señalización fotoluminiscente categoría A: centros con Plan de Autoprotección (RD 393/2007)",
+      "RIPCI = protección ACTIVA (equipos); DB-SI = protección PASIVA (compartimentación, evacuación)",
+      "RIPCI supletorio; excepción: túneles carreteras Estado → RD 635/2006",
+      "Detectores autónomos: UNE-EN 14604 (no UNE-EN 54)",
+      "Pulsadores: 25 m máx desde origen evacuación; 80–120 cm altura",
+      "Dispositivos visuales obligatorios si ruido >60 dB(A), sordos o protección auditiva",
+      "Hidrantes urbanas: recorrido <100 m; resto <40 m; caudal 500 l/min",
+      "Hidrantes presión mínima: 100 kPa (solo llenado camiones urbanas) / 500 kPa (resto)",
+      "Llave hidrantes: 25×25 mm (bajo tierra), 30×30 mm (columna); cierra sentido agujas reloj",
+      "Extintor portátil ≤20 kg; móvil >20 kg; recorrido máximo 15 m; parte superior 80–120 cm",
+      "Clases fuego: A sólidos / B líquidos / C gases / D metales / F cocina",
+      "BIE semirrígida 25 mm (K=42, 85 l/min, 4 bar) vs plana 45 mm (K=85, 160 l/min, 3,5 bar)",
+      "BIE presión máxima: 9 bar (900 kPa); prueba estanquidad: 10 kg/cm² (980 kPa) durante 2 h",
+      "BIE separación máxima: 50 m; radio acción = longitud manguera + 5 m; longitudes 20 m (plana), 30 m (semirrígida)",
+      "Columna seca ascendente: salidas pares hasta 8.ª y todas después; seccionamiento cada 4 plantas",
+      "Columna seca descendente: válvula y salida en CADA planta",
+      "Columna seca prueba: 15 kg/cm² (≤30 m) / 25 kg/cm² (>30 m) durante 2 h",
+      "Rociadores: UNE-EN 12845; agua nebulizada: UNE-CEN/TS 14972; espuma: UNE-EN 13565-2",
+      "Polvo y gases: requieren retardo + prealarma (evacuación antes de descarga)",
+      "Mantas ignífugas: caducidad máxima 20 años",
+      "Alumbrado emergencia: REBT (RD 842/2002) e ITC-BT-28",
+      "Señalización fotoluminiscente: UNE 23035-4; categoría A en autoprotección (RD 393/2007)",
     ],
   },
 
@@ -1823,634 +1909,823 @@ export const RESUMENES = {
 
   E2: {
     intro:
-      "El Real Decreto 314/2006, de 17 de marzo, aprueba el Código Técnico de la Edificación (CTE), marco normativo que desarrolla la LOE y establece las exigencias básicas de calidad que deben cumplir los edificios en materia de seguridad y habitabilidad.",
+      "El Real Decreto 314/2006, de 17 de marzo, aprueba el Código Técnico de la Edificación (CTE): el marco que desarrolla la LOE y traduce sus requisitos básicos en exigencias comprobables durante el proyecto, la obra y la vida del edificio. Este tema no consiste solo en memorizar DB: ordena qué es obligatorio, cómo se acredita, quién controla y qué documentación deja cada fase.",
     bloques: [
       {
-        h: "Estructura y objeto del CTE (arts. 1-3 Parte I)",
+        h: "Qué es el CTE, dónde se aplica y cómo se estructura (arts. 1-3)",
+        nota:
+          "El CTE es el desarrollo reglamentario de la LOE para los requisitos de seguridad y habitabilidad; no es un catálogo voluntario de buenas prácticas. La trampa habitual está en la excepción de las obras nuevas: sus cinco condiciones son ACUMULATIVAS. En edificios existentes la regla tampoco es “todo o nada”: se exige la mayor adecuación efectiva posible cuando el cumplimiento íntegro no sea viable, pero esa excepción debe justificarse y quedar documentada.",
         items: [
-          "Objeto (art. 1): marco normativo de exigencias básicas de calidad para satisfacer los requisitos básicos de seguridad y habitabilidad de la LOE",
-          "Dos partes: Parte I (disposiciones generales + exigencias básicas) y Parte II (Documentos Básicos — DB)",
-          "Los DB contienen: caracterización y cuantificación de las exigencias básicas + procedimientos de verificación (métodos y soluciones sancionadas por la práctica)",
-          "Ámbito (art. 2): se aplica a obras que precisan licencia; excepción: sencillez técnica + sin carácter residencial/público + 1 planta + sin afectar seguridad",
-          "En rehabilitación: se aplica cuando sea compatible con la naturaleza e intervención y el grado de protección del edificio",
+          "Art. 1: marco normativo de exigencias básicas de calidad para edificios E INSTALACIONES; desarrolla la LOE y cubre proyecto, construcción, mantenimiento, conservación, uso e intervenciones en existentes",
+          "Requisitos desarrollados: SE · SI · SUA · HS · HR · HE. La funcionalidad se rige por normativa específica, SALVO la accesibilidad de personas con movilidad o comunicación reducida, que sí desarrolla el CTE",
+          "Art. 2.1: se aplica a edificaciones públicas y privadas cuyos proyectos requieren licencia o autorización legalmente exigible",
+          "Excepción a obra nueva: construcción de sencillez técnica Y escasa entidad constructiva Y sin uso residencial o público, ni eventual ni permanente, Y de una sola planta Y que no afecte a la seguridad de las personas",
+          "Edificios existentes: cumplimiento justificado en proyecto o memoria técnica; con declaración responsable/comunicación previa debe manifestarse que se posee ese proyecto o memoria",
+          "Si el cumplimiento no es urbanística, técnica o económicamente viable, o es incompatible con intervención/protección: mayor grado posible de adecuación efectiva, siempre justificado; documentación final = prestación alcanzada + condicionantes de uso/mantenimiento",
+          "Intervenciones: no pueden rebajar condiciones preexistentes inferiores al DB; las superiores solo pueden reducirse hasta el mínimo del DB. Todo cambio de uso característico debe cumplir el CTE",
+          "Dos partes: Parte I = disposiciones/condiciones generales + exigencias básicas; Parte II = DB, reglamentarios, actualizables y con caracterización/cuantificación + procedimientos de verificación",
         ],
       },
       {
-        h: "Documentos Reconocidos y Registro General (art. 4)",
+        h: "DB, Documentos Reconocidos y Registro General (arts. 3-4)",
+        nota:
+          "La distinción que conviene fijar es tajante: los DB son parte reglamentaria del CTE; los Documentos Reconocidos son apoyo técnico sin carácter reglamentario. Un Documento Reconocido puede facilitar la aplicación, pero no sustituye por sí mismo la exigencia del DB. El Registro General es público e informativo y recoge más cosas que esos documentos.",
         items: [
-          "Documentos Reconocidos: documentos técnicos SIN carácter reglamentario, con reconocimiento del Ministerio de Vivienda",
-          "Contenido: guías técnicas, métodos de evaluación, programas informáticos, comentarios CTE, etc.",
-          "Registro General CTE: adscrito a la Dirección General de Arquitectura y Política de Vivienda; carácter público e informativo",
-          "También se inscriben en el Registro: marcas, sellos, certificaciones de conformidad, organismos autorizados para evaluaciones técnicas",
+          "DB: caracterizan y cuantifican exigencias mediante niveles o valores límite y ofrecen métodos de verificación o soluciones sancionadas por la práctica; pueden remitirse a instrucciones, reglamentos y normas técnicas",
+          "Documentos Reconocidos: técnicos, SIN carácter reglamentario y reconocidos por el Ministerio competente; pueden ser guías/códigos de buena práctica, métodos de evaluación, soluciones, programas, bases de datos o comentarios",
+          "No pueden referirse a la utilización de un producto o sistema constructivo particular o bajo patente",
+          "Registro General del CTE: en el Ministerio de Vivienda, adscrito a la Dirección General de Arquitectura y Política de Vivienda; carácter PÚBLICO e INFORMATIVO",
+          "Además de los Documentos Reconocidos, puede inscribir distintivos voluntarios de calidad, certificaciones de prestaciones finales/gestión/ciclo de vida, organismos de evaluación de innovaciones, entidades de control y laboratorios",
         ],
       },
       {
-        h: "Cumplimiento del CTE y condiciones del proyecto (arts. 5-6)",
+        h: "Cómo se cumple el CTE: soluciones, productos y responsables (art. 5)",
+        nota:
+          "Hay dos caminos para acreditar la exigencia: aplicar el DB o apartarse de él mediante una solución alternativa. El segundo no es una licencia para proyectar libremente: exige responsabilidad del proyectista o director de obra, conformidad previa del promotor y prueba documental de una prestación al menos equivalente. Es una oposición clásica entre “cumplir el método” y “demostrar el resultado”.",
         items: [
-          "Dos vías de cumplimiento (art. 5.3): DB (suficiente) o soluciones alternativas (documentalmente justificadas con prestaciones ≥ DB)",
-          "Marcado CE obligatorio para productos de construcción incorporados con carácter permanente (art. 5.2.1)",
-          "Proyecto básico (art. 6.3.a): suficiente para licencia → insuficiente para construir; debe definir prestaciones sin impedir cumplimiento del CTE",
-          "Proyecto de ejecución (art. 6.3.b): no puede rebajar prestaciones del básico ni alterar usos/condiciones de la licencia (salvo aspectos legalizables)",
-          "Contenido mínimo del proyecto básico: documentos marcados con asterisco (*) en el Anejo I",
+          "Responsables: los agentes de la edificación conforme al capítulo III LOE, cada uno dentro de su intervención",
+          "Vía ordinaria: aplicar las soluciones técnicas de los DB basta para acreditar el cumplimiento de las exigencias que les corresponden",
+          "Vía alternativa: el proyectista o director de obra, bajo su responsabilidad y con conformidad previa del promotor, debe justificar documentalmente prestaciones AL MENOS EQUIVALENTES a las obtenibles con el DB",
+          "Productos incorporados permanentemente: marcado CE cuando proceda según su uso previsto; los DB pueden exigir además características técnicas determinadas",
+          "Productos, equipos y sistemas innovadores: conformes si acreditan las exigencias mediante evaluación técnica FAVORABLE de idoneidad para el uso previsto, otorgada por entidad autorizada",
         ],
       },
       {
-        h: "Condiciones de ejecución y del edificio (arts. 7-8)",
+        h: "Proyecto básico, ejecución y contenido documental (art. 6 y Anejo I)",
+        nota:
+          "El proyecto debe permitir valorar e interpretar inequívocamente la obra y justificar el CTE, no limitarse a describirla. La pareja que más cae es BÁSICO / EJECUCIÓN: el básico sirve para obtener licencia, pero nunca para empezar a construir; el de ejecución desarrolla aquel sin bajar prestaciones ni cambiar las condiciones autorizadas, salvo lo legalizable.",
         items: [
-          "Control de recepción de productos (art. 7.2): a) documentación de suministros, b) distintivos de calidad/evaluaciones de idoneidad, c) ensayos",
-          "Control de ejecución (art. 7.3): el DEO controla replanteo, materiales, ejecución y disposición de elementos constructivos e instalaciones",
-          "Control de obra terminada (art. 7.4): comprobaciones y pruebas de servicio previstas en el proyecto o por la DF",
-          "Libro del Edificio (art. 8.1): documentación del art. 7.2 + instrucciones de uso y mantenimiento + plan de mantenimiento",
-          "Plan de mantenimiento (art. 8.2): planificación de operaciones programadas, encomendadas a técnico competente; documentar intervenciones en el Libro del Edificio",
+          "El proyecto concreta: requisitos de productos/equipos/sistemas y su recepción; características y controles de cada unidad; compatibilidad entre sistemas; pruebas de servicio; e instrucciones de uso y mantenimiento",
+          "Proyecto básico: características generales y prestaciones mediante soluciones justificadas; suficiente para licencia/concesiones/autorizaciones, INSUFICIENTE para iniciar construcción",
+          "Proyecto de ejecución: desarrolla el básico y define toda la obra; no puede rebajar prestaciones del básico ni alterar usos/condiciones de licencia, salvo aspectos legalizables",
+          "Proyectos parciales u otros documentos se integran como documentos diferenciados bajo coordinación del proyectista",
+          "Anejo I: los elementos con asterisco (*) son el contenido mínimo del proyecto básico; el proyecto completo se ordena en Memoria, Planos, Pliego de condiciones, Mediciones y Presupuesto",
+          "Memoria: descriptiva, constructiva y justificación del CTE; Planos: los necesarios para definir en detalle; Pliego: prescripciones de productos, ejecución y pruebas; Presupuesto aproximado* en el básico",
         ],
       },
       {
-        h: "Exigencias básicas del CTE (arts. 10-15)",
+        h: "Ejecución, controles, Libro del Edificio y seguimiento (arts. 7-8 y Anejo II)",
+        nota:
+          "El control de calidad se ordena cronológicamente: primero se recibe el producto, después se controla cómo se ejecuta y finalmente se prueba el edificio terminado. No confundir quién aporta y quién recopila la documentación: el suministrador la entrega al constructor; el constructor la facilita al director de ejecución; este recopila el control. Al acabar, la documentación sigue viva dentro del Libro del Edificio y del plan de mantenimiento.",
         items: [
-          "SE (Seguridad Estructural): SE1 resistencia y estabilidad · SE2 aptitud al servicio (sin deformaciones ni degradaciones inadmisibles)",
-          "SI (Seguridad en caso de Incendio): SI1 propagación interior · SI2 propagación exterior · SI3 evacuación · SI4 instalaciones PCI · SI5 intervención bomberos · SI6 resistencia estructural",
-          "SU (Seguridad de Utilización): SU1 caídas · SU2 impacto/atrapamiento · SU3 aprisionamiento · SU4 iluminación · SU5 alta ocupación · SU6 ahogamiento · SU7 vehículos · SU8 rayo",
-          "HS (Salubridad): HS1 humedad · HS2 residuos · HS3 calidad aire interior · HS4 suministro agua · HS5 evacuación aguas",
-          "HR (Protección frente al ruido): limitar ruido aéreo, impactos, vibraciones e instalaciones",
-          "HE (Ahorro de energía): HE1 demanda energética · HE2 instalaciones térmicas (RITE) · HE3 iluminación · HE4 solar ACS · HE5 fotovoltaica",
+          "Obra: se ejecuta conforme al proyecto y modificaciones autorizadas por el director de obra, legislación, buena práctica e instrucciones de DO y DEO",
+          "Tres controles durante construcción: recepción de productos/equipos/sistemas; ejecución; y obra terminada",
+          "Recepción (art. 7.2): documentación de suministro + distintivos de calidad/evaluaciones de idoneidad + ensayos. El suministrador entrega documentos al constructor y este los facilita al DEO",
+          "Ejecución (art. 7.3): el DEO verifica replanteo, materiales, correcta ejecución/disposición de elementos e instalaciones, compatibilidad entre sistemas y controles previstos",
+          "Obra terminada (art. 7.4): comprobaciones y pruebas de servicio previstas en proyecto, ordenadas por la dirección facultativa o exigidas legalmente",
+          "Libro del Edificio: documentación de productos, instrucciones de uso y mantenimiento y plan de mantenimiento. Propietarios y usuarios han de usar adecuadamente, comunicar anomalías y documentar reparaciones, reformas o rehabilitaciones",
+          "Anejo II — seguimiento obligatorio: Libro de Órdenes y Asistencias; Libro de Incidencias; proyecto/anexos/modificaciones autorizadas; licencia y autorizaciones; certificado final de obra",
+          "Certificado final: DEO certifica dirección de ejecución material y control cuantitativo/cualitativo; DO certifica conformidad con proyecto objeto de licencia y aptitud para uso. Se anejan modificaciones y controles/resultados",
         ],
       },
       {
-        h: "Disposición Transitoria Primera",
+        h: "Mapa de exigencias básicas: SE, SI y SUA (arts. 9-12)",
+        nota:
+          "El art. 9 da la regla de lectura: los artículos formulan prestaciones cualitativas; los DB fijan, cuando corresponda, parámetros, niveles o valores límite. Aprende los acrónimos como una secuencia funcional, no como letras sueltas. Importante actualización: ya no es DB-SU, sino DB-SUA, y suma la accesibilidad como SUA 9.",
         items: [
-          "El CTE NO se aplica a obras con licencia ya solicitada a la entrada en vigor del RD 314/2006",
-          "Períodos transitorios: 6 meses para DB-SI, DB-SU y DB-HE 1; 12 meses para DB-SE y sus subdocumentos y DB-HS",
-          "Las obras autorizadas en período transitorio deben comenzar en 3 meses desde la concesión; si no, deben adaptarse al CTE",
+          "Art. 9: los niveles/valores límite de un DB son obligatorios CUANDO EL PROPIO DB lo establece expresamente; sus procedimientos no excluyentes acreditan cumplimiento según el estado actual de conocimientos",
+          "SE: SE1 resistencia y estabilidad; SE2 aptitud al servicio (sin deformaciones, comportamiento dinámico, degradaciones o anomalías inadmisibles)",
+          "SI: SI1 propagación interior · SI2 propagación exterior · SI3 evacuación · SI4 instalaciones de protección · SI5 intervención de bomberos · SI6 resistencia estructural al incendio",
+          "SUA: SUA1 caídas · SUA2 impacto/atrapamiento · SUA3 aprisionamiento · SUA4 iluminación inadecuada · SUA5 alta ocupación · SUA6 ahogamiento · SUA7 vehículos en movimiento · SUA8 rayo · SUA9 accesibilidad",
+        ],
+      },
+      {
+        h: "Mapa de exigencias básicas: HS, HR y HE (arts. 13-15)",
+        nota:
+          "Este bloque es muy preguntable por enumeración y por la asociación del número con su objeto. Dos actualizaciones especialmente fáciles de fallar: HS incorpora HS6 frente al radón, y HE empieza por HE0 —limitación del consumo— y termina en HE6 —recarga de vehículos eléctricos—. HE2 se desarrolla a través del RITE.",
+        items: [
+          "HS: HS1 humedad · HS2 recogida y evacuación de residuos · HS3 calidad del aire interior · HS4 suministro de agua · HS5 evacuación de aguas · HS6 protección frente a exposición al radón",
+          "HR: limita el riesgo de molestias o enfermedades por ruido aéreo, impactos, vibraciones de instalaciones y ruido reverberante",
+          "HE: HE0 limitación del consumo energético · HE1 control de la demanda mediante envolvente térmica · HE2 instalaciones térmicas (RITE) · HE3 iluminación · HE4 contribución renovable para ACS y climatización de piscinas cubiertas · HE5 generación eléctrica renovable · HE6 infraestructura de recarga de vehículos eléctricos",
+          "En HE0 importan zona climática, uso y —en existentes— alcance de la intervención; el consumo debe satisfacerse en gran medida con energía renovable",
+        ],
+      },
+      {
+        h: "Régimen transitorio original del RD 314/2006",
+        nota:
+          "Los plazos transitorios aparecen en el texto fuente del RD de aprobación y son material histórico: sirven para identificar qué régimen se aplicaba a expedientes en el arranque del CTE, no para proyectar hoy con las versiones ya actualizadas. Precisamente por eso conviene separar estas reglas de las exigencias vigentes del bloque anterior.",
+        items: [
+          "Disposición transitoria primera: el CTE no se aplicaba a obras de nueva construcción o intervenciones con licencia solicitada a la entrada en vigor del RD 314/2006",
+          "Régimen de aplicación voluntaria inicial: 6 meses para NBE-CT-79 y CPI-96; 12 meses para NBE-AE-88, NBE-FL-90, NBE-EA-95 y normas sobre instalaciones de agua",
+          "Las disposiciones transitorias específicas de los DB fijaron plazos de adaptación; no deben confundirse con el contenido actual de cada DB",
         ],
       },
     ],
     claves: [
       "RD 314/2006 de 17 de marzo — CTE aprobado",
-      "CTE: 2 partes (Parte I disposiciones generales + Parte II DB); DB: carácter reglamentario",
-      "Documentos Reconocidos: sin carácter reglamentario; inscritos en Registro General CTE",
-      "Excepción ámbito CTE: sencillez técnica + sin residencial/público + 1 planta + sin riesgo seguridad",
-      "Proyecto básico: suficiente para licencia, insuficiente para construir",
-      "2 vías cumplimiento: DB (suficiente) o soluciones alternativas (prestaciones equivalentes justificadas)",
-      "Control recepción obras: documentación + distintivos calidad + ensayos",
-      "HE: 5 exigencias (HE1 a HE5); SI: 6 exigencias (SI1 a SI6); SU: 8 exigencias",
-      "Transitoria 1ª: CTE no aplica a obras con licencia solicitada antes de su entrada en vigor",
+      "CTE: exige calidad en proyecto, construcción, mantenimiento, conservación, uso e intervención en existentes; funcionalidad solo entra por accesibilidad",
+      "Excepción obra nueva: sencillez + escasa entidad + sin residencial/público + una planta + sin riesgo personas (TODAS)",
+      "Existentes: mayor adecuación efectiva posible si cumplimiento íntegro inviable/incompatible, con justificación y constancia final de prestaciones y condicionantes",
+      "Parte I: condiciones generales y exigencias; Parte II: DB reglamentarios. Documentos Reconocidos: técnicos, pero NO reglamentarios",
+      "Dos vías: DB = acreditación suficiente; alternativa = responsabilidad proyectista/DO + conformidad promotor + prestación al menos equivalente justificada",
+      "Básico: licencia sí, construcción no. Ejecución: desarrolla sin rebajar prestaciones ni alterar condiciones autorizadas, salvo legalizable",
+      "Tres controles de obra: recepción = documentación + distintivos/evaluación + ensayos; ejecución; obra terminada",
+      "Anejo II: Órdenes y Asistencias + Incidencias + proyecto/modificaciones + licencia/autorizaciones + certificado final",
+      "SUA tiene 9 exigencias (incluida accesibilidad); HS llega a HS6 (radón); HE va de HE0 a HE6 (recarga VE)",
+      "Transitoria 1ª original: CTE no se aplicaba a obras con licencia ya solicitada a su entrada en vigor; es régimen histórico",
     ],
   },
 
   E3: {
     intro:
-      "El Documento Básico DB-SI (Seguridad en caso de Incendio) del CTE establece las reglas y procedimientos para cumplir las exigencias básicas SI 1 a SI 6. Su versión consolidada más reciente incorpora las modificaciones del RD 164/2025, de 4 de marzo.",
+      "El Documento Básico DB-SI del CTE traduce el requisito básico de Seguridad en caso de Incendio en seis exigencias básicas (SI 1 a SI 6). Su lógica es sencilla si se lee en bloques: lo que ocurre dentro del edificio (SI 1), lo que puede saltar al exterior (SI 2), cómo salen las personas (SI 3) y qué ayuda a los bomberos o mantiene el edificio en pie (SI 4, SI 5 y SI 6).",
     bloques: [
       {
-        h: "SI 1 — Compartimentación en sectores de incendio",
+        h: "Estructura del requisito básico SI: reacción frente a resistencia",
+        nota:
+          "Antes de entrar en tablas, fija el mapa mental: SI 1 = propagación INTERIOR + compartimentación + riesgo especial + reacción al fuego; SI 2 = propagación EXTERIOR; SI 3 = evacuación; SI 4 = instalaciones de protección contra incendios; SI 5 = intervención de bomberos; SI 6 = resistencia estructural al fuego. La trampa más común es confundir REACCIÓN AL FUEGO (cómo contribuye un material a propagar el incendio: clases A1-F más humos y gotas) con RESISTENCIA AL FUEGO (cuánto tiempo un elemento mantiene su función portante o separadora: R, EI, EI2).",
         items: [
-          "Las superficies máximas pueden DUPLICARSE cuando el sector esté protegido con instalación automática de extinción",
-          "Residencial Vivienda: máx. 2.500 m²; elementos entre viviendas: mín. EI 60",
-          "Administrativo: máx. 2.500 m²",
-          "Docente (>1 planta): máx. 4.000 m²; 1 planta: sin compartimentar",
-          "Hospitalario (zonas hospitalización): máx. 1.500 m² / sector; mín. 2 sectores por planta",
-          "Pública Concurrencia: máx. 2.500 m² (con excepciones para espacios de pública concurrencia con asientos fijos)",
-          "Comercial: máx. 2.500 m² (10.000 m² si edificio exento + extinción + h evacuación ≤ 10 m)",
+          "SI 1: compartimentación en sectores, locales de riesgo especial y reacción al fuego",
+          "SI 2: propagación exterior del incendio (fachadas, medianerías, cubiertas)",
+          "SI 3: evacuación de ocupantes (ocupación, salidas, recorridos, señalización)",
+          "SI 4: instalaciones de protección contra incendios (BIE, detección, alarma, extinción automática)",
+          "SI 5: vías de acceso y aproximación para los bomberos",
+          "SI 6: resistencia al fuego de la estructura",
+        ],
+      },
+      {
+        h: "SI 1 — Compartimentación en sectores de incendio (tabla 1.1)",
+        nota:
+          "Los límites de superficie son una de las zonas más preguntadas. La clave es recordar que el uso es lo que fija la cifra base y que una instalación automática de extinción DUPLICA esa superficie. No caigas en las trampas habituales: el uso docente en UNA sola planta está EXENTO de compartimentar; el comercial llega a 10.000 m² solo si concurren edificio exento + extinción automática + altura de evacuación ≤10 m; y el hospitalario de hospitalización es el más restrictivo.",
+        items: [
+          "Residencial Vivienda: 2.500 m² (elementos entre viviendas: EI 60)",
+          "Administrativo: 2.500 m²",
+          "Docente >1 planta: 4.000 m²; docente en 1 planta: sin compartimentar",
+          "Hospitalario (zonas de hospitalización): 1.500 m²; mínimo 2 sectores por planta",
+          "Pública Concurrencia: 2.500 m²",
+          "Comercial: 2.500 m²; 10.000 m² si edificio exento + extinción automática + altura evacuación ≤10 m",
           "Aparcamiento: sector diferenciado obligatorio; vestíbulo de independencia en toda comunicación con otro uso",
+          "Instalación automática de extinción: duplica las superficies máximas de sector",
         ],
       },
       {
         h: "SI 1 — Resistencia al fuego de elementos separadores (tabla 1.2)",
+        nota:
+          "La resistencia de paredes y forjados aumenta con la altura del edificio y con la peligrosidad del uso. Separa bien las tres familias de valores: vivienda/administrativo (menos exigente), comercial/pública concurrencia/hospitalario (más exigente) y aparcamiento (siempre EI 120, salvo robotizado EI 180). Para las puertas entre sectores recuerda la regla del EI2 t-C5: t es la MITAD de la resistencia de la pared; si el paso se hace por vestíbulo de independencia con DOS puertas, cada una puede ser EI2 t/4-C5.",
         items: [
-          "Residencial Vivienda / Administrativo: h≤15m → EI 60; 15m<h≤28m → EI 90; h>28m → EI 120",
-          "Comercial / Pública Concurrencia / Hospitalario: h≤15m → EI 90; 15<h≤28m → EI 120; h>28m → EI 180",
+          "Residencial Vivienda / Administrativo: h≤15 m → EI 60; 15<h≤28 m → EI 90; h>28 m → EI 120",
+          "Comercial / Pública Concurrencia / Hospitalario: h≤15 m → EI 90; 15<h≤28 m → EI 120; h>28 m → EI 180",
           "Aparcamiento: EI 120 en todos los casos (EI 180 si robotizado)",
-          "Plantas bajo rasante (uso Res. Viv., Adm.): EI 120; bajo rasante Comercial/PC/Hosp.: EI 120 (o 180 si h>28m)",
-          "Puertas entre sectores: EI2 t-C5 (t = mitad resistencia de la pared) o EI2 t/4-C5 si paso por vestíbulo de independencia con 2 puertas",
+          "Plantas bajo rasante Res. Viv./Adm.: EI 120; bajo rasante Com./PC/Hosp.: EI 120 (EI 180 si h>28 m)",
+          "Puertas entre sectores: EI2 t-C5, siendo t la mitad de la resistencia de la pared",
+          "Puertas por vestíbulo de independencia con 2 puertas: EI2 t/4-C5 cada una",
         ],
       },
       {
         h: "SI 1 — Locales y zonas de riesgo especial (tablas 2.1 y 2.2)",
+        nota:
+          "Dentro de un sector pueden existir locales con carga de fuego o potencia elevada (cocinas, salas de calderas, etc.). Su clasificación en riesgo bajo, medio o alto condiciona la resistencia de la estructura, la estanqueidad de los separadores, la obligatoriedad de vestíbulo de independencia y las características de las puertas. Los ejemplos numéricos de cocinas y salas de calderas son los que más se repiten.",
         items: [
-          "Clasificación: riesgo bajo / medio / alto según volumen, superficie o carga de fuego según el tipo de local",
-          "Ejemplos: cocina P>50 kW = riesgo alto; 30<P≤50 kW = medio; 20<P≤30 kW = bajo",
-          "Sala de calderas: >600 kW = alto; 200-600 kW = medio; 70-200 kW = bajo",
-          "Condiciones (tabla 2.2): R estructura (R90/R120/R180), EI paredes (EI90/EI120/EI180), vestíbulo independencia (no/sí/sí), puertas (EI2 45-C5 / 2xEI2 30-C5 / 2xEI2 45-C5), recorrido ≤25 m",
+          "Clasificación según volumen, superficie, carga de fuego o potencia del local",
+          "Cocinas: P>50 kW → alto; 30<P≤50 kW → medio; 20<P≤30 kW → bajo",
+          "Sala de calderas: >600 kW → alto; 200-600 kW → medio; 70-200 kW → bajo",
+          "Riesgo bajo: R 90 estructura · EI 90 paredes · sin vestíbulo · puerta EI2 45-C5 · recorrido ≤25 m",
+          "Riesgo medio: R 120 estructura · EI 120 paredes · vestíbulo · 2 puertas EI2 30-C5 · recorrido ≤25 m",
+          "Riesgo alto: R 180 estructura · EI 180 paredes · vestíbulo · 2 puertas EI2 45-C5 · recorrido ≤25 m",
         ],
       },
       {
         h: "SI 1 — Reacción al fuego de elementos constructivos (tabla 4.1)",
+        nota:
+          "La reacción al fuego afecta a revestimientos y acabados, no a la estabilidad estructural. La tabla 4.1 solo se aplica cuando el revestimiento supera el 5% de la superficie total de techos, paredes o suelos del recinto. Escaleras protegidas y aparcamientos exigen mejores clases que las zonas ocupables ordinarias.",
         items: [
-          "Zonas ocupables (techos y paredes): C-s2,d0; suelos: EFL",
-          "Pasillos y escaleras protegidos (techos y paredes): B-s1,d0; suelos: CFL-s1",
-          "Aparcamientos y recintos de riesgo especial (techos y paredes): B-s1,d0; suelos: BFL-s1",
-          "Espacios ocultos no estancos (patinillos, falsos techos…): B-s3,d0; BFL-s2",
-          "Solo aplica cuando el revestimiento supere el 5% de la superficie total del conjunto de techos, paredes o suelos del recinto",
+          "Zonas ocupables: techos y paredes C-s2,d0; suelos EFL",
+          "Pasillos y escaleras protegidos: techos y paredes B-s1,d0; suelos CFL-s1",
+          "Aparcamientos y recintos de riesgo especial: techos y paredes B-s1,d0; suelos BFL-s1",
+          "Espacios ocultos no estancos: techos y paredes B-s3,d0; suelos BFL-s2",
+          "Aplicación condicionada: solo si el revestimiento supera el 5% de la superficie total del recinto",
         ],
       },
       {
         h: "SI 2 — Propagación exterior",
+        nota:
+          "La propagación exterior se controla con medianeras resistentes, separación entre huecos de distintos sectores, franjas EI 60 en fachada y cubierta, y reacción al fuego de la envolvente según altura. Los valores de separación entre huecos (3,00 m frente a 0,50 m) dependen del ángulo α entre ellos; la reacción de fachada y de cámaras ventiladas empeora conforme gana altura.",
         items: [
-          "Medianerías: elementos verticales separadores de otro edificio → mín. EI 120",
-          "Propagación horizontal entre sectores: puntos de fachada no EI 60 separados distancia d según ángulo α (enfrentadas paralelas α=0° → d≥3,00 m; α=180° → d≥0,50 m)",
-          "Propagación vertical: franja EI 60 de 1 m altura sobre el plano de fachada (puede reducirse en la dimensión del saliente si existe elemento saliente)",
-          "Reacción fachada (>10% superficie): D-s3,d0 (h≤10m) · C-s3,d0 (h≤18m) · B-s3,d0 (h>18m)",
-          "Cámaras ventiladas: D-s3,d0 (h≤10m) · B-s3,d0 (h≤28m) · A2-s3,d0 (h>28m)",
-          "Cubierta: REI 60 en franja de 0,50 m desde edificio colindante y 1,00 m sobre elemento compartimentador (alternativa: prolongar 0,60 m por encima de la cubierta)",
+          "Medianerías entre edificios: EI 120",
+          "Huecos de fachada no EI 60: separación d según ángulo α (α=0° → d≥3,00 m; α=180° → d≥0,50 m)",
+          "Propagación vertical: franja EI 60 de 1 m de altura sobre el plano de fachada",
+          "Reacción fachada (>10% superficie): D-s3,d0 h≤10 m · C-s3,d0 h≤18 m · B-s3,d0 h>18 m",
+          "Cámaras ventiladas: D-s3,d0 h≤10 m · B-s3,d0 h≤28 m · A2-s3,d0 h>28 m",
+          "Cubierta: REI 60 en franja de 0,50 m desde edificio colindante y 1,00 m sobre elemento compartimentador (alternativa: prolongar 0,60 m)",
         ],
       },
       {
         h: "SI 3 — Evacuación de ocupantes",
+        nota:
+          "La evacuación se calcula a partir de la ocupación = superficie útil ÷ densidad de ocupación. La regla general es que con UNA sola salida se admiten hasta 50 ocupantes y 25 m de recorrido, aunque existen excepciones por uso o por disponer de otra salida para más del 50% de la ocupación. Cuando una puerta sirve a 50 o más personas debe abrir en el sentido de la evacuación.",
         items: [
-          "Densidades de ocupación clave (m²/persona): vivienda 20 · hospitalización 15 · servicios ambulatorios 10 · oficinas 10 · aulas 1,5 · espectadores sentados sin asiento def. 0,5 · espectadores de pie 0,25",
-          "Cálculo: superficie útil ÷ densidad de ocupación = número de personas",
-          "Número de salidas: con 1 sola salida, máximo 50 ocupantes (con excepciones por uso); si >50 ocupantes → ≥2 salidas",
-          "Longitud recorrido con 1 salida: ≤25 m en general (50 m en sectores de riesgo mínimo o si >50% ocupantes tiene otra salida; excepciones en plantas sobre rasante baja ocupación)",
+          "Densidades clave (m²/persona): vivienda 20 · hospitalización 15 · servicios ambulatorios 10 · oficinas 10 · aulas 1,5 · espectadores sentados sin asiento definido 0,5 · espectadores de pie 0,25",
+          "Cálculo de ocupantes: superficie útil ÷ densidad de ocupación",
+          "Una sola salida: máximo 50 ocupantes (con excepciones por uso)",
+          "Recorrido con 1 salida: ≤25 m en general (50 m en sectores de riesgo mínimo o si >50% ocupantes tiene otra salida)",
           "Puertas en recorrido de evacuación: apertura en sentido evacuación si ocupación ≥50 personas",
-          "Señalización: señales visibles desde todo punto del recorrido",
+          "Señalización visible desde todo punto del recorrido de evacuación",
         ],
       },
       {
-        h: "SI 4-SI 6 — Instalaciones PCI, Bomberos y Estructura",
+        h: "SI 4-SI 6 — Instalaciones PCI, acceso de bomberos y estructura",
+        nota:
+          "Estas tres exigencias cierran el DB-SI. SI 4 fija las dotaciones de protección activa (extintores, BIE, detección, alarma, extinción automática) según uso y superficie. SI 5 garantiza que los bomberos puedan llegar y desplegarse. SI 6 asegura que la estructura mantenga su resistencia durante el tiempo necesario para evacuar y actuar. No las estudies como tablas aisladas: son el soporte que hace viables SI 1, SI 2 y SI 3.",
         items: [
-          "SI 4: dotación de instalaciones (BIE, detección, alarma, extinción automática, etc.) según uso y superficie",
-          "SI 5: viales de aproximación (anchura ≥3,5 m, altura libre ≥4,5 m, capacidad portante ≥20 kN/m²); entorno edificios de h>9 m: espacio para vehículo escalera (aprox. 5 m libres fachada accesible)",
-          "SI 6: resistencia al fuego de la estructura durante el tiempo necesario para evacuar y que actúen los bomberos; valores R según uso y altura del edificio",
+          "SI 4: dotación de instalaciones de protección contra incendios según uso y superficie",
+          "SI 5: vial de aproximación ≥3,5 m de ancho, ≥4,5 m de altura libre y ≥20 kN/m² de capacidad portante",
+          "SI 5: edificios de h>9 m requieren espacio para vehículo escalera (aprox. 5 m libres frente a fachada accesible)",
+          "SI 6: la estructura debe mantener su resistencia al fuego el tiempo necesario para evacuar y actuar",
+          "SI 6: valores de resistencia estructural R según uso y altura del edificio",
         ],
       },
     ],
     claves: [
-      "Superficie sectores: Vivienda 2.500 m² · Administrativo 2.500 m² · Docente 4.000 m² · Hospitalario 1.500 m² · Comercial 2.500 m²",
-      "Duplicar superficie sector: instalación automática de extinción",
-      "Puertas entre sectores: EI2 t-C5 (t = mitad resistencia pared); por vestíbulo: t = cuarta parte",
+      "Mapa SI: 1-interior / 2-exterior / 3-evacuación / 4-PCI / 5-bomberos / 6-estructura",
+      "Reacción al fuego ≠ resistencia al fuego",
+      "Superficies de sector sin extinción: Vivienda 2.500 · Administrativo 2.500 · Docente >1 planta 4.000 · Hospitalario hospitalización 1.500 · Comercial/PC 2.500",
+      "Instalación automática de extinción: duplica las superficies de sector",
+      "Docente en una sola planta: exento de compartimentar",
+      "Puertas entre sectores: EI2 t-C5 (t = mitad de la pared); vestíbulo con 2 puertas: EI2 t/4-C5",
       "Medianerías entre edificios: EI 120",
-      "Franja vertical propagación fachada: 1 m de EI 60",
-      "Reacción al fuego zonas ocupables: techos/paredes C-s2,d0 · escaleras protegidas B-s1,d0",
-      "Riesgo especial alto: R 180 estructura · EI 180 paredes · 2×EI2 45-C5 puertas",
-      "Densidades ocupación: vivienda 20 · hospitalización 15 · oficinas 10 · aulas 1,5",
-      "Reacción fachada >18 m: B-s3,d0; cámara ventilada >28 m: A2-s3,d0",
+      "Huecos de fachada: α=0° → 3,00 m; α=180° → 0,50 m",
+      "Franja vertical en fachada: 1 m de EI 60; cubierta: 0,50 m + 1,00 m REI 60",
+      "Reacción fachada: D-s3,d0 h≤10 m · C-s3,d0 h≤18 m · B-s3,d0 h>18 m",
+      "Escaleras protegidas: techos/paredes B-s1,d0; suelos CFL-s1",
+      "Evacuación: 1 salida hasta 50 ocupantes y 25 m; puertas abren en sentido evacuación si ≥50 personas",
+      "Vial bomberos: ≥3,5 m ancho · ≥4,5 m altura · ≥20 kN/m²",
     ],
   },
 
-  "E5": {
-    intro: "El RD 164/2025 aprueba el nuevo Reglamento de Seguridad contra Incendios en Establecimientos Industriales (RSCIEI), que regula la protección frente a incendios en uso industrial: prevención, detección, propagación y extinción.",
+  E5: {
+    intro:
+      "El RD 164/2025 establece los requisitos de seguridad contra incendios en establecimientos industriales: prevención, detección, limitación de propagación y extinción. Es de aplicación complementaria cuando otra legislación sectorial específica regule la actividad. Define protección pasiva (constructiva) y activa (equipos/sistemas), y establece un sistema de caracterización por configuración del edificio, sectorización y nivel de riesgo intrínseco (NRI) determinado por la densidad de carga de fuego ponderada y corregida (Qs).",
     bloques: [
-      { h: "Objeto y ámbito (Arts. 1–2)", items: [
-        "Uso industrial: actividades Ley 21/1992 art. 3.1, almacenes industriales, talleres reparación vehículos y servicios auxiliares.",
-        "Almacén logístico es establecimiento industrial si QT ≥ 3.000.000 MJ.",
-        "Exclusiones: nucleares/radiactivos, extracción minerales, actividades agrarias/ganaderas, instalaciones militares, instalaciones servicio ferroviario (art. 42.1 Ley 38/2015).",
-        "Si existen otras normas sectoriales específicas, el RSCIEI se aplica solo con carácter complementario.",
-      ]},
-      { h: "Definiciones clave (Art. 3)", items: [
-        "Protección pasiva: derivada de los requisitos constructivos (prevenir, impedir/retrasar propagación, facilitar extinción y evacuación).",
-        "Protección activa: medios, equipos y sistemas (manuales o automáticos) que actúan directamente en detección, control o extinción.",
-        "Técnicas de seguridad equivalente: soluciones que difieren de las prescripciones pero ofrecen igual o mayor nivel de seguridad.",
-        "Diseño prestacional: soluciones específicas para un emplazamiento concreto, siguiendo UNE-ISO 23932 y UNE-ISO 16733-1.",
-        "Modificaciones significativas: aumento de superficie o de NRI, o cualquier cambio que comprometa las exigencias básicas.",
-      ]},
-      { h: "Compatibilidad reglamentaria (Art. 4)", items: [
-        "Usos subsidiarios dentro del establecimiento industrial deben cumplir DB-SI cuando superen: 250 m² (administrativo, comercial, docente, pública concurrencia, alojamiento) o 100 m² (aparcamiento).",
-        "Residencial Vivienda y Residencial Público: siempre deben cumplir DB-SI, sin umbral de superficie.",
-        "Estas zonas deben constituir un sector de incendio independiente del sector industrial.",
-      ]},
-      { h: "Cumplimiento y exenciones (Art. 5)", items: [
-        "Exención casi total: Qs ≤ 42 MJ/m² y superficie ≤ 120 m² en recinto propio → solo deben cumplir art. 12 (mantenimiento) + extintores y alumbrado de emergencia del Anexo III, más memoria técnica.",
-        "Técnicas de seguridad equivalente o diseño prestacional (art. 5.1.b): bajo responsabilidad del proyectista, con informe de organismo de control.",
-        "Adaptaciones razonables en edificios existentes (art. 5.3): con informe previo de organismo de control.",
-      ]},
-      { h: "Exigencias básicas (Art. 6)", items: [
-        "(a) Propagación interior · (b) Propagación exterior · (c) Evacuación de ocupantes.",
-        "(d) Instalaciones de PCI · (e) Intervención Servicios de Extinción e Intervención · (f) Resistencia estructural al incendio.",
-      ]},
-      { h: "Proyecto y puesta en servicio (Arts. 10–11)", items: [
-        "Proyecto puede sustituirse por memoria técnica si: sup < 300 m² + todos sectores riesgo intrínseco bajo + no aplican arts. 10.3 ni 5.3.",
-        "Puesta en servicio: comunicación ante órgano competente de industria de la CCAA, con proyecto/memoria + certificado técnico.",
-        "Acta de inspección inicial de organismo de control (OC): obligatoria si sup de sectores de riesgo medio y alto ≥ 1.000 m², o si aplican arts. 10.3 o 5.3.",
-      ]},
-      { h: "Configuraciones – Anexo I", items: [
-        "Tipo A (AV/AH): el establecimiento ocupa parcialmente un edificio con otros establecimientos. AV = separación vertical; AH = separación horizontal. Mezcla → AV.",
-        "Tipo B: ocupa totalmente un edificio con estructura independiente, adyacente o a ≤ 3 m de otros.",
-        "Tipo C: ocupa totalmente edificios a más de 3 m de otros (distancia libre de combustibles).",
-        "Tipo D: espacio abierto. Si cubierto, requiere apertura lateral L ≥ 25% (A < 500 m², H < 5 m) hasta L ≥ 70% (A > 1.500 m², H ≥ 5 m).",
-      ]},
-      { h: "Nivel de riesgo intrínseco (NRI) – Tabla 1.3.1", items: [
-        "BAJO 1: Qs ≤ 425 MJ/m² · BAJO 2: 425 < Qs ≤ 850 MJ/m²",
-        "MEDIO 3: ≤ 1.275 · MEDIO 4: ≤ 1.700 · MEDIO 5: ≤ 3.400 (MJ/m²)",
-        "ALTO 6: ≤ 6.800 · ALTO 7: ≤ 13.600 · ALTO 8: > 13.600 (MJ/m²)",
-        "Coeficiente Ci (tabla 1.3.2): 1,60 (grado 1) / 1,40 / 1,20 / 1,00 / 1,00. Si fumígeno: Ci × 1,20 (máx 1,92).",
-      ]},
+      {
+        h: "Disposiciones generales y ámbito (Arts. 1–4)",
+        nota:
+          "En el examen se confunde a menudo con el RIPCI (RD 513/2017): el RIPCI regula los equipos de protección activa; este reglamento regula el conjunto de la seguridad en establecimientos industriales (pasiva + activa). Ojo: los almacenes logísticos solo entran si QT ≥ 3.000.000 MJ y son de actividad principal logística; no entran los de venta física, archivos ni herramientas. Los talleres de reparación de vehículos SÍ entran.",
+        items: [
+          "Objeto (art. 1): requisitos de seguridad en incendio para establecimientos industriales; medidas de prevención, detección, limitación de propagación y extinción",
+          "Aplicación complementaria (art. 1.2): las normas sectoriales específicas prevalecen; este reglamento solo cubre lo no previsto",
+          "Uso industrial (art. 2.1): actividades industriales (Ley 21/1992), almacenes industriales, talleres reparación vehículos, servicios auxiliares",
+          "Exclusiones (art. 2.2): nucleares/radiactivas, extracción minerales, agrarias/ganaderas, militares, instalaciones servicio ferroviario",
+          "Almacén industrial (art. 3.b): recinto cubierto/no para almacenar productos; acceso solo personas autorizadas; NO abierto al público",
+          "Almacén logístico: solo si QT ≥ 3.000.000 MJ y actividad principal es logística; excluidos venta física, archivos, herramientas",
+          "Protección pasiva (art. 3.c): requisitos constructivos para prevenir, retrasar propagación y facilitar extinción/evacuación",
+          "Protección activa (art. 3.d): medios/equipos/sistemas manuales o automáticos para detección, control, extinción",
+          "Técnicas de seguridad equivalente (art. 3.e): soluciones que difieren de las prescripciones pero ofrecen nivel igual o mayor",
+          "Diseño prestacional (art. 3.f): soluciones diseñadas para un emplazamiento concreto garantizando nivel igual o mayor",
+          "Modificaciones significativas (art. 3.h): aumento superficie o nivel de riesgo intrínseco; las no significativas NO requieren nueva documentación",
+          "Compatibilidad CTE DB-SI (art. 4): usos no industriales en mismo edificio con distinta titularidad → DB-SI; usos subsidiarios dentro del industrial → DB-SI si superan superficies umbral (250 m² salvo residencial siempre y aparcamiento 100 m²)",
+        ],
+      },
+      {
+        h: "Cumplimiento y exigencias básicas (Arts. 5–6)",
+        nota:
+          "Clásica pregunta trampa: ¿qué establecimientos están exentos de cumplir TODO el reglamento? Respuesta: los de Qs ≤ 42 MJ/m², superficie ≤ 120 m² y en recinto propio separado físicamente → solo art. 12 (mantenimiento), anexo III (extintores + alumbrado emergencia) y memoria técnica. Las 6 exigencias básicas del art. 6.1 son las que se desarrollan en anexos II y III.",
+        items: [
+          "Cumplimiento mínimo exigible (art. 5.1): vía a) prescripciones completas; vía b) técnicas equivalentes o diseño prestacional (responsabilidad proyectista + conformidad titular + informe organismo control)",
+          "Exención parcial (art. 5.2): Qs ≤ 42 MJ/m² + superficie ≤ 120 m² + recinto propio separado físicamente → solo art. 12, anexo III (extintores y alumbrado emergencia) y memoria técnica firmada por técnico competente",
+          "Adaptaciones razonables (art. 5.3): para naves de polígonos con planeamiento anterior a la entrada en vigor o edificios existentes que no puedan cumplir; requieren informe previo de organismo de control habilitado",
+          "Exigencias básicas (art. 6.1): a) propagación interior · b) propagación exterior · c) evacuación · d) instalaciones protección · e) intervención bomberos · f) resistencia estructural",
+        ],
+      },
+      {
+        h: "Caracterización: configuraciones y sectorización (Art. 7 + Anexo I.1–I.2)",
+        nota:
+          "La caracterización es el corazón del reglamento. Primero se clasifica la configuración del edificio/espacio, luego se identifican sectores/áreas de incendio. Las configuraciones A, B, C son para edificios; D para espacios abiertos. Si hay comunicaciones (túneles, pasarelas) entre edificios tipo C, siguen siendo C si las comunicaciones tienen compartimentación y no afecta el colapso estructural.",
+        items: [
+          "Configuración tipo A: establecimiento ocupa parte de edificio con otros usos; AV (separación vertical), AH (separación horizontal); si mezcla → AV",
+          "Configuración tipo B: edificio completo con estructura independiente, adyacente o a ≤ 3 m de otros edificios",
+          "Configuración tipo C: edificio completo a > 3 m del más próximo, libre de combustibles; varios edificios de mismo establecimiento a >3 m o con muro separador entre sectores → independientes",
+          "Configuración tipo D: espacio abierto (descubierto o cubierto sin cerramientos laterales); si zona cubierta no cumple aberturas laterales → se reclasifica como A, B o C",
+          "Aberturas laterales tipo D: si H < 5m → L ≥ 25% siempre; si H ≥ 5m → L ≥ 25% (A<500), ≥50% (500-1500), ≥70% (A>1500); A no admitido si H<5m y 500-1500",
+          "Sector de incendio (Anexo I.2.1.a): zona de edificio que confina el incendio durante un tiempo mediante elementos resistentes al fuego o espacios perimetrales",
+          "Área de incendio (Anexo I.2.1.b): espacio abierto separado de otras zonas por perímetro, con elementos resistentes al fuego o espacios perimetrales",
+        ],
+      },
+      {
+        h: "Nivel de riesgo intrínseco y carga de fuego (Anexo I.3)",
+        nota:
+          "El NRI se clasifica en bajo (1-2), medio (3-5) y alto (6-8) según Qs. Los valores de Qs son clave: 425, 850, 1275, 1700, 3400, 6800, 13600. Se calcula por métodos de combustibilidad, fabricación o almacenamiento. Los elementos constructivos separados del interior por EI 30 pueden no contabilizarse. Se puede descartar carga de fuego de elementos constructivos si la desviación es <10%.",
+        items: [
+          "NRI BAJO: 1 (Qs ≤ 425) · 2 (425 < Qs ≤ 850)",
+          "NRI MEDIO: 3 (850 < Qs ≤ 1.275) · 4 (1.275 < Qs ≤ 1.700) · 5 (1.700 < Qs ≤ 3.400)",
+          "NRI ALTO: 6 (3.400 < Qs ≤ 6.800) · 7 (6.800 < Qs ≤ 13.600) · 8 (Qs > 13.600)",
+          "Qs = densidad carga de fuego ponderada y corregida (MJ/m²); QT = carga total (MJ) = Qs × A (sin dividir por A)",
+          "Método 3.2.1 (combustibilidad): Qs = Σ(qi·Gi·Ci)·R / A; qi = poder calorífico, Gi = masa, Ci = coef. peligrosidad, R = coef. actividad",
+          "Método 3.2.2 (fabricación): Qs = Σ(qsi·Si·Ci)·R / A + construcción; qsi de tabla 1.3.5; no se contabiliza 'almacén de día'",
+          "Método 3.2.3 (almacenamiento): Qs = Σ(qvi·hi·Si·Ci)·R / A + construcción; qvi de tabla 1.3.5; bruto vs neto según pasillos",
+          "Elementos constructivos: no contabilizar si separados del interior por EI 30; descartar totalidad si desviación <10%",
+          "Simplificación: descartar materiales no representativos si desviación de Qs <10% del total",
+          "Coeficiente Ci: 1,60 (grado 1, fumígeno 1,92) · 1,40 (grado 2, fumígeno 1,68) · 1,20 (grado 3, fumígeno 1,44) · 1,00 (grados 4-5, fumígeno 1,20)",
+        ],
+      },
+      {
+        h: "Requisitos constructivos y protección activa (Arts. 8–9)",
+        nota:
+          "Los requisitos constructivos están en el anexo II y las dotaciones de protección activa en el anexo III, ambos en función de la caracterización (configuración + NRI + superficie). Los productos de construcción deben tener marcado CE según Reglamento (UE) 2024/3110 (nuevo) o 305/2011. Los equipos de protección activa cumplen el RIPCI (RD 513/2017).",
+        items: [
+          "Requisitos constructivos (art. 8.1): anexo II según caracterización",
+          "Protección activa (art. 8.2): anexo III según caracterización",
+          "Anexo IV: requisitos para casos singulares que difieren de la caracterización general",
+          "Productos construcción (art. 9.1): marcado CE conforme Reglamento (UE) 2024/3110 o 305/2011",
+          "Productos sin marcado CE (art. 9.2): informes de ensayo, certificaciones u otra documentación técnica; operador económico debe proporcionar información al destinatario",
+          "Protección activa (art. 9.3): cumple RIPCI (RD 513/2017)",
+          "Productos con prestaciones mínimas (art. 9.4): características/prestaciones en proyecto; comprobación en construcción; constancia en certificado final",
+        ],
+      },
+      {
+        h: "Proyecto, puesta en servicio y mantenimiento (Arts. 10–12)",
+        nota:
+          "Trampa frecuente: ¿cuándo se puede sustituir el proyecto por memoria técnica? Respuesta: superficie < 300 m² + TODOS los sectores/áreas de NRI bajo + NO aplica art. 10.3 (técnicas equivalentes/prestacional) ni art. 5.3 (adaptaciones). La puesta en servicio requiere acta de inspección inicial de organismo de control cuando la superficie de sectores/áreas medio+alto sume ≥ 1.000 m² o cuando se apliquen art. 10.3 o 5.3.",
+        items: [
+          "Proyecto obligatorio (art. 10.1): para establecimientos del art. 2 y modificaciones significativas (art. 12.4); redactado por persona técnica titulada competente",
+          "Técnicas equivalentes/prestacional (art. 10.3): justificación documental + informe organismo de control; diseño prestacional sigue UNE-ISO 23932 y UNE-ISO 16733-1; métodos de cálculo verificados UNE-ISO 16730-1",
+          "Memoria técnica en vez de proyecto (art. 10.4): superficie < 300 m² + todos sectores/áreas NRI bajo + NO art. 10.3 ni 5.3",
+          "Puesta en servicio (art. 11.1): comunicación con proyecto/memoria + certificado técnico + acta inspección inicial (si ≥1.000 m² medio/alto o art. 10.3/5.3) + documentación RIPCI art. 20",
+          "Declaración responsable (art. 11.2): alternativa si la CCAA lo permite; documentación a disposición de la administración",
+          "Documentación en Libro del Edificio (art. 11.3)",
+          "Funcionamiento y mantenimiento (art. 12): titular responsable; equipos sujetos a RIPCI; ocupantes deben conocer características y actuación; plan de autoprotección si aplica RD 393/2007",
+          "Modificaciones significativas (art. 12.4): requieren nueva documentación arts. 10-11; no significativas → titular documenta y justifica",
+        ],
+      },
     ],
     claves: [
-      "Exención RSCIEI: Qs ≤ 42 MJ/m² + superficie ≤ 120 m² (solo extintores + emergencia + mantenimiento)",
-      "Memoria técnica sustituye al proyecto: sup < 300 m² + todos riesgo bajo + sin arts. 10.3/5.3",
-      "Acta OC obligatoria: superficie riesgo medio + alto ≥ 1.000 m² (o aplican arts. 10.3/5.3)",
-      "Tipo A (parcial edificio) · B (total, ≤3 m) · C (total, >3 m) · D (espacio abierto)",
-      "NRI: Bajo 1–2 (Qs ≤ 850) · Medio 3–5 (Qs ≤ 3.400) · Alto 6–8 (Qs > 3.400) – MJ/m²",
-      "Ci máx: 1,60 (grado 1 no fumígeno) / 1,92 (grado 1 fumígeno)",
-      "Uso subsidiario → DB-SI si > 250 m² (adm./com./docente...) o > 100 m² (aparcamiento) o SIEMPRE (residencial vivienda)",
+      "RIPCI = equipos/protección activa; RD 164/2025 = seguridad completa en industriales (pasiva+activa)",
+      "Almacén logístico: QT ≥ 3.000.000 MJ + actividad principal logística; NO venta física, archivos, herramientas",
+      "Qs ≤ 42 MJ/m² + ≤120 m² + recinto propio separado → solo art. 12 + anexo III (extintores+alumbrado) + memoria",
+      "Configuración A: parte de edificio (AV vertical, AH horizontal, mezcla=AV)",
+      "Configuración B: edificio completo independiente, adyacente o ≤3 m",
+      "Configuración C: edificio completo >3 m libre de combustibles",
+      "Configuración D: espacio abierto; si cubierto sin aberturas suficientes → reclasificar A/B/C",
+      "NRI: bajo 1-2 (≤850) · medio 3-5 (850-3400) · alto 6-8 (>3400)",
+      "Elementos constructivos con EI 30 hacia interior → no contabilizan en Qs",
+      "Memoria técnica en vez de proyecto: <300 m² + todo NRI bajo + sin técnicas equivalentes/adaptaciones",
+      "Acta inspección inicial obligatoria: ≥1.000 m² de medio+alto o técnicas equivalentes/adaptaciones",
+      "Diseño prestacional: UNE-ISO 23932 + UNE-ISO 16733-1; cálculo UNE-ISO 16730-1",
+      "Productos construcción: marcado CE Reglamento (UE) 2024/3110 (nuevo) o 305/2011",
     ],
   },
 
-  "E6": {
-    intro: "El DB-SUA (Seguridad de Utilización y Accesibilidad) del CTE, aprobado por RD 314/2006 y con última modificación en 2022 (RD 450/2022), regula 9 exigencias básicas: caídas, impacto/atrapamiento, aprisionamiento, iluminación, alta ocupación, ahogamiento, vehículos en movimiento, rayo y accesibilidad.",
+  E6: {
+    intro:
+      "El DB-SUA del CTE establece las exigencias de seguridad de utilización y accesibilidad en edificios y establecimientos. Se estructura en 9 secciones (SUA 1 a SUA 9) que cubren riesgos de caídas, impacto, aprisionamiento, iluminación, alta ocupación, ahogamiento, vehículos, rayo y accesibilidad. Es aplicable a obras de edificación, incluyendo instalaciones fijas, equipamiento propio y elementos de urbanización adscritos. En edificios existentes se admiten soluciones alternativas si no son viables las del DB.",
     bloques: [
-      { h: "SUA 1 – Suelos y desniveles", items: [
-        "Clases de suelos según Rd (péndulo UNE 41901): clase 1 (15 < Rd ≤ 35) · clase 2 (35 < Rd ≤ 45) · clase 3 (Rd > 45).",
-        "Tabla 1.2: interior seco <6% → clase 1; interior seco ≥6% o escaleras → clase 2; interior húmedo → clase 2/3; exterior / piscinas / duchas → clase 3.",
-        "Discontinuidades: resalto máx. 4 mm; elemento saliente puntual máx. 12 mm; desniveles ≤ 5 cm → pendiente máx. 25%.",
-        "Barrera de protección obligatoria si diferencia de cota > 55 cm. En zonas públicas: señalización visual y táctil desde 25 cm del borde si dif ≤ 55 cm.",
-      ]},
-      { h: "SUA 1 – Barreras de protección", items: [
-        "Altura mínima: ≥ 0,90 m (diferencia de cota ≤ 6 m) o ≥ 1,10 m (diferencia de cota > 6 m). Excepción: hueco escalera ancho < 40 cm → 0,90 m.",
-        "En Residencial Vivienda y escuelas infantiles: no escalables (sin apoyos 30–50 cm sobre suelo), sin aberturas ≥ 10 cm. En uso público (resto): sin aberturas ≥ 15 cm.",
-        "Frente a filas de asientos fijos: puede reducirse a 70 cm con elemento horizontal de 50 cm a 50 cm de altura.",
-      ]},
-      { h: "SUA 1 – Escaleras", items: [
-        "Uso restringido: ancho ≥ 0,80 m · contrahuella ≤ 20 cm · huella ≥ 22 cm.",
-        "Uso general: huella ≥ 28 cm (tramos rectos) · contrahuella 13–18,5 cm (máx. 17,5 sin ascensor o en uso público) · 54 ≤ 2C+H ≤ 70 cm.",
-        "Tramos: mín. 3 peldaños · altura máx. 2,25 m en uso público (3,20 m resto) · anchura libre según tabla 4.1 (mín. 0,80 m escalera uso general).",
-        "Pasamanos: si dif > 55 cm · en ambos lados si ancho libre > 1,20 m o sin ascensor alternativo · altura 90–110 cm.",
-      ]},
-      { h: "SUA 1 – Rampas", items: [
-        "Pendiente máx.: 12% general · itinerario accesible: ≤ 10% (<3 m), ≤ 8% (<6 m), ≤ 6% (resto) · aparcamiento vehículos: ≤ 16%.",
-        "Pendiente transversal accesible: máx. 2%.",
-        "Tramos: máx. 15 m (9 m si accesible) · anchura libre igual que escaleras (tabla 4.1).",
-        "Mesetas: ≥ anchura de rampa y longitud ≥ 1,50 m (entre tramos misma dirección).",
-      ]},
-      { h: "SUA 2 – Impacto y atrapamiento · SUA 3 – Aprisionamiento", items: [
-        "SUA 2: altura libre ≥ 2,20 m zonas generales (2,10 m restringidas); umbrales puertas ≥ 2,00 m.",
-        "Vidrios en áreas de riesgo: clasificación X(Y)Z según UNE-EN 12600; zona de riesgo en puertas hasta 1,50 m altura y 0,30 m a cada lado.",
-        "Puertas correderas: distancia al objeto fijo más próximo ≥ 20 cm.",
-        "SUA 3: fuerza apertura puertas de salida ≤ 140 N general; ≤ 25 N itinerario accesible; ≤ 65 N si RF en itinerario accesible.",
-      ]},
-      { h: "SUA 4 – Iluminación", items: [
-        "Alumbrado normal: ≥ 100 lux interiores · ≥ 20 lux exteriores · ≥ 50 lux aparcamientos; uniformidad media ≥ 40%.",
-        "Alumbrado de emergencia: entra en funcionamiento automáticamente cuando la tensión baja del 70% del valor nominal.",
-        "50% de iluminación a los 5 s; 100% a los 60 s; duración mínima 1 hora.",
-        "En vías evacuación ≤ 2 m de ancho: ≥ 1 lux en eje central; en equipos de seguridad: ≥ 5 lux; índice Ra ≥ 40.",
-      ]},
-      { h: "SUA 5–6–7–8", items: [
-        "SUA 5 (alta ocupación): aplicable a graderíos previstos para > 3.000 espectadores de pie. Pendiente graderío ≤ 50%; barreras si > 5 filas y pendiente > 6%.",
-        "SUA 6 (ahogamiento): piscina infantil máx. 50 cm de profundidad; andén ≥ 1,20 m; escaleras cada ≤ 15 m hasta 1 m bajo el agua.",
-        "SUA 7 (vehículos): espacio acceso/espera aparcamiento ≥ 4,5 m; señalización vel. máx. 20 km/h.",
-        "SUA 8 (rayo): sistema obligatorio si Ne > Na; SIEMPRE si sustancias peligrosas o altura > 43 m (eficiencia E ≥ 0,98, nivel 1); E = 1 − Na/Ne.",
-      ]},
-      { h: "SUA 9 – Accesibilidad", items: [
-        "Itinerario accesible al exterior del edificio (parcela → entrada principal).",
-        "Residencial Vivienda: ascensor accesible si > 2 plantas desde entrada accesible o > 12 viviendas en plantas sin entrada accesible.",
-        "Otros usos: ascensor accesible si > 2 plantas desde entrada accesible o > 200 m² útiles en plantas sin acceso accesible.",
-        "Plantas con zonas públicas > 100 m² útiles o elementos accesibles: ascensor accesible.",
-      ]},
+      {
+        h: "SUA 1 — Seguridad frente al riesgo de caídas",
+        nota:
+          "Apartado muy denso en cifras y uno de los más preguntados. La relación 2C + H = 54-70 cm es clave para escaleras. Las rampas de itinerarios accesibles tienen pendientes máximas decrecientes (10%, 8%, 6%) según longitud. Ojo: la clase de resbaladicidad 3 es la máxima, no la mínima. Las barreras de protección son obligatorias a partir de 55 cm de desnivel, no de 50 cm.",
+        items: [
+          "Resbaladicidad suelos: clase 0 (Rd≤15) · 1 (15-35) · 2 (35-45) · 3 (>45); exigibles clase 1 (interior seco, pendiente <6%), 2 (interior seco ≥6% o húmedo <6%), 3 (interior húmedo ≥6% o exterior/piscinas)",
+          "Juntas pavimento: resalto máximo 4 mm; elementos salientes puntuales máximo 12 mm (si >6 mm, ángulo ≤45º con pavimento)",
+          "Desniveles ≤5 cm: pendiente máxima 25%",
+          "Zonas circulación: no perforaciones >1,5 cm diámetro; barreras delimitación ≥80 cm",
+          "Escalón aislado o dos consecutivos: prohibido salvo uso restringido, viviendas, accesos/salidas, estratos; si hay itinerario accesible, NO en el mismo",
+          "Barreras protección obligatorias: desnivel >55 cm (salvo imposible o incompatible con uso)",
+          "Altura barreras: 0,90 m si desnivel ≤6 m; 1,10 m si >6 m; 0,90 m en huecos escaleras <40 cm anchura",
+          "Barreras niños (viviendas, escuelas infantiles, zonas públicas comercial/concurrencia): no escalables (sin apoyos 30-50 cm ni salientes >15 cm en 50-80 cm); aberturas ≤10 cm (≤15 cm en otros usos públicos)",
+          "Escaleras uso restringido: anchura ≥0,80 m; contrahuella ≤20 cm; huella ≥22 cm; mesetas partidas y escalones sin tabica permitidos (superposición ≥2,5 cm)",
+          "Escaleras uso general: huella ≥28 cm; contrahuella 13-18,5 cm (≤17,5 cm en uso público o sin ascensor); relación 54 ≤ 2C + H ≤ 70 cm; NO bocel; tabicas verticales o ≤15º con vertical",
+          "Escaleras curvas: huella ≥28 cm a 50 cm del interior; ≤44 cm exterior; misma contrahuella en toda la escalera entre dos plantas (variación ≤±1 cm entre tramos)",
+          "Tramos escaleras uso general: ≥3 peldaños; altura máxima 2,25 m (uso público/sin ascensor) o 3,20 m (resto); tramos rectos en hospitales, escuelas infantiles y primaria/secundaria",
+          "Anchura útil escaleras: según tabla 4.1 (ej. vivienda ≤25 pers: 0,80 m; pública concurrencia ≤100: 1,20 m; >100: 1,40 m); libre de obstáculos",
+          "Mesetas escaleras: misma anchura que escalera + longitud ≥1 m (eje); si cambio dirección, anchura no se reduce; en hospitales con giro 180º ≥1,60 m; en uso público franja visual/táctil en arranque",
+          "Pasamanos escaleras: ≥1 lado si salva >55 cm; ambos lados si anchura >1,20 m o sin ascensor; intermedios si anchura >4 m; altura 90-110 cm (65-75 cm en infantiles/primaria); prolongación 30 cm en uso público/sanitario",
+          "Rampas: pendiente ≤12% (≤10% si <3 m accesible, ≤8% si <6 m, ≤6% resto accesibles; ≤16% aparcamientos vehículos+peatones); pendiente transversal accesibles ≤2%",
+          "Tramos rampas: longitud ≤15 m (≤9 m accesibles); anchura mínima según tabla 4.1 escaleras; si accesible: rectas o radio ≥30 m, anchura ≥1,20 m, superficie horizontal 1,20 m al inicio/final",
+          "Mesetas rampas: anchura rampa + longitud ≥1,50 m (eje); si cambio dirección, anchura no se reduce; pasillo ≥1,20 m; puerta a ≥40 cm (≥1,50 m si accesible)",
+          "Pasamanos rampas: ≥1 lado si salva >550 mm y pendiente ≥6%; ambos lados si accesible, pendiente ≥6% y salva >18,5 cm; zócalo lateral ≥10 cm si accesible; altura 90-110 cm (65-75 cm infantiles/accesibles); prolongación 30 cm si tramo >3 m",
+          "Acristalamientos limpieza interior: si >6 m altura y vidrio transparente, todo exterior en radio 0,85 m desde borde practicable ≤1,30 m; reversibles con bloqueo",
+        ],
+      },
+      {
+        h: "SUA 2 — Impacto y atrapamiento",
+        nota:
+          "Preguntas frecuentes sobre altura libre de paso (2,20 m general, 2,10 m restringido), vidrios de seguridad X(Y)Z según UNE-EN 12600 y disposición de puertas en pasillos estrechos. Ojo: en pasillos <2,50 m las puertas laterales deben abrir para que el barrido NO invada el pasillo.",
+        items: [
+          "Altura libre paso: ≥2,10 m (uso restringido) · ≥2,20 m (resto); umbrales puertas ≥2 m",
+          "Elementos fachada sobre circulación: ≥2,20 m",
+          "Paredes circulación: sin salientes que no arranquen del suelo, volando >15 cm en zona 15 cm – 2,20 m",
+          "Puertas laterales pasillos <2,50 m: barrido NO invade pasillo (salvo uso restringido); en >2,50 m no invade anchura evacuación",
+          "Puertas vaivén entre circulaciones: partes transparentes/translúcidas entre 0,7-1,5 m",
+          "Puertas industriales/comerciales/garaje: reglamentación específica + marcado CE",
+          "Vidrios áreas riesgo impacto (UNE-EN 12600): puertas (0-1,5 m, anchura puerta+0,30 m) y paños fijos (0-0,90 m); parámetros X(Y)Z según diferencia cota (>12m: BoC-1; 0,55-12m: BoC-1o2; <0,55m: 1-3/BoC/cualquiera)",
+          "Vidrios puertas y duchas/bañeras: laminados o templados resistiendo impacto nivel 3",
+          "Superficies acristaladas confundibles con puertas: señalización visual contrastada 0,85-1,10 m y 1,50-1,70 m (salvo montantes ≤0,60 m o travesaño a altura inferior)",
+          "Atrapamiento puertas correderas manuales: distancia a fijo más próximo ≥20 cm",
+          "Apertura/cierre automáticos: dispositivos protección según tipo",
+        ],
+      },
+      {
+        h: "SUA 3 — Aprisionamiento",
+        nota:
+          "Poco voluminoso pero con cifras exactas. La fuerza de apertura de puertas de salida es 140 N máximo (25 N general en accesibles, 65 N si son resistentes al fuego). Los aseos/vestuarios accesibles en uso público deben tener llamada de asistencia.",
+        items: [
+          "Puertas con bloqueo interior: sistema desbloqueo desde exterior si personas pueden quedar atrapadas",
+          "Iluminación controlada desde interior (excepto baños/aseos de viviendas)",
+          "Aseos/vestuarios accesibles en uso público: dispositivo llamada asistencia interior, perceptible desde control o paso frecuente, con confirmación recepción",
+          "Fuerza apertura puertas salida: ≤140 N (≤25 N accesibles general; ≤65 N accesibles resistentes al fuego)",
+          "Maniobra puertas batientes/pivotantes/deslizantes con pestillos media vuelta: método ensayo UNE-EN 12046-2:2000",
+        ],
+      },
+      {
+        h: "SUA 4 — Iluminación inadecuada",
+        nota:
+          "Trampa común: confundir lux de alumbrado normal con lux de emergencia. Normal: 20 exterior, 100 interior, 50 aparcamiento. Emergencia: 1 lux en eje central vías ≤2 m, 5 lux en equipos de seguridad. El alumbrado de emergencia debe alcanzar 50% a los 5 s y 100% a los 60 s. Señales de seguridad: luminancia color ≥2 cd/m².",
+        items: [
+          "Alumbrado normal: ≥20 lux (exterior) · ≥100 lux (interior) · ≥50 lux (aparcamientos interiores); uniformidad media ≥40%",
+          "Balizamiento: en cines, teatros, discotecas, etc. en rampas y peldaños de escaleras",
+          "Alumbrado emergencia: entra automáticamente si tensión <70% nominal; fuente propia de energía",
+          "Zonas con emergencia: ocupación >100 pers; recorridos evacuación hasta exterior seguro/refugio; aparcamientos cerrados/cubiertos >100 m²; locales equipos protección incendios/riesgo especial; aseos generales en uso público; cuadros distribución; señales seguridad; itinerarios accesibles",
+          "Luminarias emergencia: situadas ≥2 m altura; en puertas salida y puntos peligro/equipos; en escaleras (cada tramo iluminado directamente), cambios nivel, cambios dirección, intersecciones",
+          "Emergencia vías evacuación ≤2 m: ≥1 lux eje central, ≥0,5 lux banda central (mitad anchura); >2 m → bandas de 2 m máximo",
+          "Emergencia equipos seguridad, protección incendios manual, cuadros: ≥5 lux",
+          "Relación illuminancia máx/mín en eje central: ≤40:1",
+          "Tiempo respuesta: ≥50% a los 5 s, 100% a los 60 s",
+          "Autonomía: 1 hora mínimo",
+          "Índice rendimiento cromático Ra: ≥40",
+          "Señales evacuación: luminancia color seguridad ≥2 cd/m²; relación max/min dentro color ≤10:1; relación Lblanca/Lcolor >10 entre 5:1 y 15:1; 50% a 5 s, 100% a 60 s",
+        ],
+      },
+      {
+        h: "SUA 5 — Alta ocupación",
+        nota:
+          "Aplicable solo a graderíos para >3.000 espectadores de pie. La densidad de ocupación es 4 pers/m² (del DB-SI). Las barreras rompeolas son obligatorias en graderíos >5 filas y pendiente >6%.",
+        items: [
+          "Ámbito: graderíos estadios, pabellones, centros reunión, culturales >3.000 espectadores de pie",
+          "Pendiente graderío: ≤50%",
+          "Longitud fila: ≤20 m (accesos en ambos extremos); ≤10 m (acceso en un extremo)",
+          "Diferencia cota fila-salida graderío: ≤4 m",
+          "Barreras rompeolas: >5 filas y pendiente >6% → barrera 1,10 m delante primera fila + adicionales según pendiente: 6-10% cada 5 m; 10-25% cada 4 m; 25-50% cada 3 m",
+          "Barreras: resisten fuerza horizontal 5,0 kN/m en borde superior",
+          "Aberturas barreras: ≤2 alineadas en filas sucesivas; ángulo <60º con barreras; anchura 1,10-1,40 m",
+        ],
+      },
+      {
+        h: "SUA 6 — Ahogamiento",
+        nota:
+          "Aplicable a piscinas de uso colectivo (no competición/enseñanza exclusiva, no unifamiliares, no médicas). Las piscinas infantiles tienen restricciones específicas (50 cm profundidad máxima, sin escaleras).",
+        items: [
+          "Ámbito: piscinas uso colectivo; excluidas competición/enseñanza exclusiva, unifamiliares, médicas/hidroterapia",
+          "Barreras protección: si acceso niños no controlado → barreras 1,20 m, resisten 0,5 kN/m, cumplen SUA 1.3.2.3; acceso solo por puntos con cierre/bloqueo",
+          "Profundidad piscinas infantiles: ≤50 cm",
+          "Profundidad resto piscinas: ≤3 m; zonas <1,40 m; señalización puntos >1,40 m y valores max/min",
+          "Cambios profundidad: infantiles ≤6%; recreo/polivalentes ≤10% hasta 1,40 m y ≤35% resto",
+          "Huecos vaso: rejas/dispositivo anti-atrapamiento",
+          "Materiales fondo ≤1,50 m: clase 3 resbaladicidad",
+          "Revestimiento interior: color claro",
+          "Andén/playa: clase 3 resbaladicidad; anchura ≥1,20 m; evita encharcamiento",
+          "Escaleras (excepto infantiles): profundidad ≥1 m bajo agua o 30 cm sobre suelo; cerca ángulos y cambios pendiente; ≤15 m entre escaleras; peldaños antideslizantes, sin aristas vivas, no sobresalen del plano pared",
+          "Pozos/depósitos accesibles: tapas/rejillas con rigidez/resistencia + cierres anti-apertura no autorizada",
+        ],
+      },
+      {
+        h: "SUA 7 — Vehículos en movimiento",
+        nota:
+          "Aplicable a aparcamientos (>100 m², excluidos garajes unifamiliares) y vías circulación vehículos en edificios. Velocidad máxima señalizada: 20 km/h. Si >200 vehículos o >5.000 m², los itinerarios peatonales deben estar diferenciados.",
+        items: [
+          "Ámbito: uso Aparcamiento (>100 m², no garajes unifamiliares) y vías circulación vehículos en edificios",
+          "Espacio acceso/espera: profundidad ≥4,5 m; pendiente ≤5%",
+          "Recorridos peatonales por rampa vehículos: anchura ≥80 cm; protección barrera ≥80 cm o pavimento nivel superior (desnivel según SUA 1.3.1)",
+          "Aparcamiento >200 vehículos o >5.000 m²: itinerarios peatonales zonas públicas diferenciados (pavimento pintura/relieve o nivel superior); si desnivel >55 cm → barrera SUA 1.3.2",
+          "Protección frente a puertas comunicación: barreras a ≥1,20 m de puerta, altura ≥80 cm",
+          "Señalización: sentido circulación, salidas, velocidad máxima 20 km/h, zonas tránsito/peones; gálibos/alturas si acceso transporte pesado; zonas almacenamiento/carga-descarga delimitadas",
+          "Accesos a viales exteriores: dispositivos alerta conductor presencia peatones",
+        ],
+      },
+      {
+        h: "SUA 8 — Protección contra el rayo",
+        nota:
+          "Fórmulas clave: Ne = Ng·Ae·C1·10⁻⁶; Na = 5,5·10⁻³/(C2·C3·C4·C5); E = 1 - Na/Ne. Instalación obligatoria si Ne > Na, o siempre en edificios >43 m o con sustancias tóxicas/inflamables/explosivas (eficiencia E ≥ 0,98). El nivel de protección 1 corresponde a E > 0,98.",
+        items: [
+          "Obligatoriedad: Ne > Na; o SIEMPRE si >43 m o sustancias tóxicas/radioactivas/inflamables/explosivas (E ≥ 0,98)",
+          "Ne = Ng · Ae · C1 · 10⁻⁶ [impactos/año]; Ng = densidad impactos terreno (mapa); Ae = superficie captura equivalente (perímetro + 3H); C1 = entorno (0,5 mismo altura/más alto · 0,75 más bajos · 1 aislado · 2 colina)",
+          "Na = 5,5·10⁻³ / (C2·C3·C4·C5)",
+          "C2: tipo construcción (0,5-3 según cubierta/estructura); C3: contenido (3 inflamable · 1 resto); C4: uso (0,5 no ocupado · 3 pública concurrencia/sanitario/comercial/docente · 1 resto); C5: continuidad servicio (5 esencial/impacto ambiental · 1 resto)",
+          "Eficiencia E = 1 - Na/Ne",
+          "Nivel protección 1: E > 0,98 · Nivel 2: 0,95 < E < 0,98 · Nivel 3: 0,80 < E < 0,95 · Nivel 4: 0 < E < 0,80 (instalación no obligatoria)",
+        ],
+      },
+      {
+        h: "SUA 9 — Accesibilidad",
+        nota:
+          "Sección muy extensa y con muchos números. En el examen suelen preguntar cuándo es obligatorio el ascensor accesible, cuántas plazas de aparcamiento accesibles o reservadas, y las dimensiones del itinerario accesible (1,20 m anchura, 1,50 m giro). Ojo: en viviendas la anchura de pasillos del itinerario accesible es 1,10 m (no 1,20 m). Las plazas reservadas para auditivas son 1 por cada 50 plazas si la actividad tiene componente auditiva y hay >50 asientos.",
+        items: [
+          "Itinerario accesible: desniveles por rampa accesible o ascensor; NO escalones; giro Ø1,50 m libre; pasillos ≥1,20 m (1,10 m en viviendas); estrechamientos puntuales ≥1,00 m y ≤0,50 m longitud; puertas ≥0,80 m (≥0,78 m en ángulo apertura); mecanismos 0,80-1,20 m; fuerza ≤25 N (≤65 N resistentes fuego); pendiente ≤4% o rampa accesible; trasversal ≤2%",
+          "Ascensor accesible obligatorio (residencial vivienda): >2 plantas desde entrada accesible hasta vivienda/zona comunitaria, o >12 viviendas en plantas sin entrada accesible; o previsión dimensional/estructural si no",
+          "Ascensor accesible obligatorio (otros usos): >2 plantas desde entrada hasta planta no ocupación nula, o >200 m² útil en plantas sin entrada accesible; o si planta tiene >100 m² uso público o elementos accesibles",
+          "Alojamientos accesibles (residencial público): 1 (5-50) · 2 (51-100) · 4 (101-150) · 6 (151-200) · 8+1 cada 50 adicionales (>200)",
+          "Plazas aparcamiento accesibles: 1 por vivienda accesible silla ruedas (residencial); residencial público: 1 por alojamiento accesible; comercial/concurrencia/aparcamiento público: 1 cada 33; otros: 1 cada 50 hasta 200, luego 1 cada 100; siempre ≥1 por cada plaza reservada silla ruedas",
+          "Plazas reservadas: 1 silla ruedas cada 100 plazas; 1 auditiva cada 50 plazas si actividad con componente auditiva y >50 asientos; zonas espera asientos fijos: 1 silla ruedas cada 100",
+          "Piscinas: entrada grúa o elemento adaptado (excepto infantiles) en públicas, residencial público con alojamientos accesibles, y edificios con viviendas accesibles silla ruedas",
+          "Punto atención accesible: al menos 1 en zonas atención al público; o punto llamada accesible",
+          "Servicios higiénicos accesibles: 1 aseo cada 10 inodoros; en vestuarios: 1 cabina accesible + 1 aseo + 1 ducha cada 10 unidades",
+          "Mecanismos accesibles: interruptores, intercomunicadores, pulsadores alarma (excepto interior viviendas y ocupación nula); altura 0,80-1,20 m; tomas corriente/señal 0,40-1,20 m; contraste cromático; NO interruptores giro/palanca; NO temporización en aseos/vestuarios accesibles",
+          "Señalización: SIA (Símbolo Internacional Accesibilidad) para entradas, itinerarios, plazas aparcamiento, servicios accesibles; ascensores accesibles: SIA + Braille y arábigo alto relieve 0,80-1,20 m en jamba derecha; servicios generales: pictogramas sexo alto relieve y contraste 0,80-1,20 m",
+          "Bandas visuales/táctiles: color contrastado; relieve 3±1 mm interior, 5±1 mm exterior; arranque escaleras: 80 cm longitud, anchura itinerario, acanaladuras perpendiculares; itinerario accesible a punto llamada/atención: acanaladura paralela marcha, 40 cm anchura",
+        ],
+      },
     ],
     claves: [
-      "Suelos: clase 1 (interior seco <6%) · clase 2 (húmedo o seco ≥6%) · clase 3 (exterior/piscinas/duchas)",
-      "Barrera protección: dif. cota > 55 cm → h ≥ 0,90 m (dif ≤ 6 m) / h ≥ 1,10 m (dif > 6 m)",
-      "Escalera general: H ≥ 28 cm · C 13–18,5 cm · 54 ≤ 2C+H ≤ 70 cm · tramo máx. 2,25 m (uso público)",
-      "Rampa accesible: ≤ 10% (<3 m) · ≤ 8% (<6 m) · ≤ 6% (resto); tramo ≤ 9 m; meseta ≥ 1,50 m",
-      "Emergencia: ≥ 1 h · ≥ 1 lux eje vía (≤2 m) · 5 lux en equipos · 50% a 5 s · 100% a 60 s",
-      "Pararrayos SIEMPRE (E ≥ 0,98): sustancias peligrosas o altura > 43 m",
-      "Fuerza apertura: 140 N general · 25 N itinerario accesible · 65 N RF en itinerario accesible",
+      "DB-SUA: 9 secciones (SUA 1 caídas a SUA 9 accesibilidad)",
+      "Clase resbaladicidad 3 = máxima (no mínima); clase 1 = interiores secos pendiente <6%",
+      "Barreras protección obligatorias: desnivel >55 cm; altura 0,90 m (≤6 m) o 1,10 m (>6 m)",
+      "Escaleras uso general: 54 ≤ 2C + H ≤ 70; huella ≥28 cm; contrahuella 13-18,5 cm (≤17,5 cm uso público/sin ascensor)",
+      "Rampas accesibles: ≤10% (<3 m), ≤8% (<6 m), ≤6% (resto); pendiente transversal ≤2%",
+      "Pasamanos: 90-110 cm (65-75 cm infantiles/accesibles); prolongación 30 cm",
+      "SUA 2: altura libre ≥2,20 m; puertas laterales pasillos <2,50 m → barrido NO invade pasillo",
+      "Vidrios riesgo impacto: UNE-EN 12600; puertas duchas/bañeras: nivel 3",
+      "SUA 3: fuerza apertura ≤140 N (≤25 N accesibles; ≤65 N accesibles resistentes fuego)",
+      "SUA 4: normal 20/100/50 lux; emergencia 1 lux eje vías, 5 lux equipos; 50% a 5 s, 100% a 60 s; 1 h autonomía",
+      "SUA 5: solo >3.000 espectadores pie; barreras rompeolas si >5 filas y pendiente >6%",
+      "SUA 6: piscinas infantiles ≤50 cm profundidad; fondo ≤1,50 m clase 3 resbaladicidad",
+      "SUA 7: velocidad máxima 20 km/h; >200 vehículos o >5.000 m² → itinerarios peatonales diferenciados",
+      "SUA 8: Ne > Na; siempre si >43 m o peligrosos; E = 1 - Na/Ne; nivel 1 si E > 0,98",
+      "SUA 9: ascensor residencial si >2 plantas o >12 viviendas sin entrada accesible; otros usos si >2 plantas o >200 m²",
+      "Plazas aparcamiento accesibles: 1/33 (comercial/concurrencia), 1/50 (otros)",
+      "Plazas reservadas: 1 silla ruedas/100; 1 auditiva/50 si componente auditiva y >50 asientos",
+      "Itinerario accesible: ≥1,20 m (1,10 m viviendas); puertas ≥0,80 m; giro Ø1,50 m; fuerza ≤25 N",
     ],
   },
 
-  "E7": {
-    intro: "El Documento de Apoyo DA DB-SUA/2 (versión 29/06/2018) establece criterios de flexibilidad para la adecuación efectiva de las condiciones de accesibilidad en edificios existentes, cuya solicitud de licencia fue anterior al 12 de septiembre de 2010.",
+  E7: {
+    intro:
+      "El DA DB-SUA/2 establece criterios de flexibilidad para adecuar edificios y establecimientos existentes a las condiciones básicas de accesibilidad. Su núcleo son las tablas de condiciones básicas (Tabla 1) y tolerancias admisibles (Tabla 2), junto con anejos específicos sobre plataformas, ascensores y servicios higiénicos. Es fundamental dominar la fecha límite de edificio existente, la jerarquía de soluciones y las reducciones permitidas en otros DB cuando se instala ascensor.",
     bloques: [
-      { h: "Objeto y criterios de aplicación (Aptos. 1–2)", items: [
-        "Edificio existente = licencia de obras anterior al 12/09/2010 (Disposición transitoria 3ª RD 173/2010).",
-        "Tabla 1: condiciones básicas de accesibilidad del DB-SUA y DB-SI que se deben respetar.",
-        "Tabla 2: tolerancias admisibles para determinadas condiciones, en especial para usuarios de silla de ruedas.",
-        "Si no es viable alcanzar ni las tolerancias de la tabla 2, el proyectista puede aplicar otras medidas bajo su responsabilidad para lograr la mayor adecuación posible.",
-      ]},
-      { h: "Tolerancias SUA 1 – Tabla 2", items: [
-        "Discontinuidades en accesos: desniveles ≤ 5 cm salvados con pendiente ≤ 25%.",
-        "Rampa accesible: ≤ 12% (longitud ≤ 3 m) · ≤ 10% (≤ 10 m) · ≤ 8% (≤ 15 m) · ≤ 6% (sin límite).",
-        "Anchura libre de paso: ≥ 0,90 m en tramos rectos y entre pasamanos.",
-        "Mesetas intermedias: ≥ 1,20 m de longitud (obra nueva: 1,50 m); meseta cambio dirección ≥ 1,20 m.",
-        "Pasamanos: puede arrancar con el peldaño si la prolongación interfiere la circulación.",
-      ]},
-      { h: "Tolerancias SUA 9 – Tabla 2", items: [
-        "Itinerario accesible: puede comunicar con una entrada que no sea la principal (si es de uso frecuente, de longitud similar y debidamente señalizada).",
-        "Espacio de giro: diámetro admisible ≥ 1,20 m (deseable 1,50 m; por debajo de 1,20 m no garantiza uso autónomo).",
-        "Aseos privados exclusivos de trabajadores: exentos de ser accesibles si sup. privada ≤ 100 m² y número de trabajadores ≤ 10.",
-        "Alojamientos accesibles: establecimientos con < 10 alojamientos admitidos sin alojamiento accesible para silla de ruedas.",
-      ]},
-      { h: "Anejo A – Accesos y pequeños desniveles", items: [
-        "Orden de preferencia: (1) solución a nivel (traslado acceso), (2) rampa, (3) plataforma elevadora vertical, (4) plataforma elevadora inclinada. Siempre escalera como alternativa al recorrido mecánico.",
-        "Orugas motorizadas y sillas salvaescaleras NO son adecuación efectiva (no permiten uso autónomo).",
-        "Rampas móviles y tapices: facilitadores de movilidad, no soluciones de accesibilidad.",
-      ]},
-      { h: "Anejo A.2 – Plataformas elevadoras verticales (UNE-EN 81-41)", items: [
-        "Con puertas adyacentes (para silla A o B + acompañante): 125×125 o 110×140 cm; carga ≥ 385 kg.",
-        "Con una puerta o dos enfrentadas (sin acompañante, silla tipo A): 80×125 cm; (con acompañante, tipo A/B): 90×140 cm.",
-        "Carga mínima: 250 kg/m². No son 'ascensor accesible' aunque la reglamentación las denomine ascensor.",
-        "Espacio deseable delante: giro de 1,50 m; mínimo viable: 1,20 m.",
-      ]},
-      { h: "Anejo A.3 – Plataformas elevadoras inclinadas / salvaescaleras (UNE-EN 81-40)", items: [
-        "Dimensiones: 70×90 cm (silla tipo A) o 75×100 cm (tipo A o B); carga ≥ 225–250 kg.",
-        "Solo para personas instruidas o con supervisión y asistencia; controles con llave para evitar uso no autorizado.",
-        "En posición desplegada: espacio libre ≥ 60 cm para no impedir el uso seguro de la escalera (excepciones con recorrido alternativo o ≤ 8 peldaños).",
-        "NO aptas para evacuación de emergencia del edificio.",
-      ]},
-      { h: "Anejo B – Instalación de ascensores en edificios existentes", items: [
-        "Cabina mínima para usuario de silla de ruedas: 90×120 cm (puerta única o dos enfrentadas) · 125×125 cm o 120×140 cm (puertas adyacentes).",
-        "Anchura mínima de paso de puerta: 80 cm (UNE-EN 81-70 §5.2.1).",
-        "Reducción anchura escalera para instalar ascensor: mínimo 0,80 m y ≥ P/160 (evacuación descendente); ≥ P/(160−10h) (evacuación ascendente). Requieren medidas compensatorias.",
-        "Si escalera sirve ≤ 8 viviendas y h ≤ 14 m: admitida escalera de uso restringido (huella mín 25 cm).",
-      ]},
-      { h: "Anejo C – Servicios higiénicos accesibles", items: [
-        "Local de reducidas dimensiones: sup. pública ≤ 100 m² + ocupación ≤ 50 personas.",
-        "Soluciones admisibles en locales pequeños: aseo unisex único, aseos compartidos personal y público, suficiencia de aseos accesibles en zonas comunes del centro comercial (recorrido ≤ 50 m).",
-        "Espacio de maniobra de 1,50 m deseable; se admite 1,20 m si no es posible.",
-        "Si no es viable cabina accesible para silla de ruedas: al menos una barra vertical de sujeción junto al inodoro.",
-      ]},
+      {
+        h: "Objeto y ámbito de aplicación",
+        nota:
+          "Trampa clásica: confundir edificio existente con cualquier edificio antiguo. La fecha límite es la solicitud de licencia de obras anterior al 12 de septiembre de 2010, conforme a la Disposición transitoria tercera del RD 173/2010. Si la licencia es posterior, debió cumplir plenamente la normativa vigente. El proyectista puede justificar la no viabilidad técnica, económica o urbanística, o la incompatibilidad con el grado de protección, aplicando entonces otras medidas que faciliten el acceso en el mayor grado posible. Recuerda que el punto 3 del artículo 2 del CTE Parte I es la base legal de esta flexibilidad.",
+        items: [
+          "Edificio existente: solicitud de licencia de obras anterior al 12 de septiembre de 2010.",
+          "Edificios con licencia posterior a dicha fecha: cumplimiento pleno de las condiciones de accesibilidad vigentes.",
+          "Si no es viable alcanzar la Tabla 2 o es incompatible con la protección del edificio: medidas alternativas bajo criterio y responsabilidad del proyectista (punto 3 art 2 CTE Parte I).",
+          "Otras soluciones admitidas: gestión y productos de apoyo, según coste, mantenimiento y autonomía personal.",
+        ],
+      },
+      {
+        h: "Condiciones básicas y tolerancias admisibles",
+        nota:
+          "Error frecuente: pensar que todas las condiciones del DB SUA admiten tolerancia. Solo las recogidas en la Tabla 2 del apartado 3 tienen flexibilidad; para el resto de condiciones de la Tabla 1 no se admiten tolerancias. La Tabla 1 recoge artículos clave del DB SUA y DB SI, mientras que la Tabla 2 establece valores límite concretos para usuarios de silla de ruedas. Presta especial atención a las pendientes de rampa, las fuerzas de apertura de puertas y los valores de alumbrado, que son datos numéricos muy preguntados.",
+        items: [
+          "Tabla 1: condiciones básicas de accesibilidad del DB SUA y DB SI. Tabla 2: tolerancias admisibles solo para lo que en ella se incluye.",
+          "Desniveles ≤55 cm: diferenciación visual y táctil desde 25 cm del borde (SUA 1-3.1).",
+          "Rampa accesible: pendiente 10% (<3 m), 8% (<6 m), 6% (resto); transversal 2% máx (SUA 1-4.3.1).",
+          "Tolerancia rampas: 12% (<3 m), 10% (<10 m), 8% (<15 m), 6% sin límite (Tabla 2 SUA 1-4.3.1).",
+          "Tramos rampa: longitud ≤9 m; anchura mínima 1,20 m; meseta inicio/final 1,20 m (SUA 1-4.3.2). Tolerancia anchura: 0,90 m (Tabla 2).",
+          "Mesetas rampa misma dirección: longitud eje ≥1,50 m (tolerancia 1,20 m). Cambio dirección: profundidad ≥1,20 m (Tabla 2).",
+          "Pasamanos rampa ≥6% y desnivel >18,5 cm: continuo ambos lados, zócalo ≥10 cm, altura 90-110 cm y otro a 65-75 cm (SUA 1-4.3.4).",
+          "Fuerza apertura puertas en itinerario accesible: 25 N general, 65 N si son resistentes al fuego (SUA 3 y SI 3-6).",
+          "Alumbrado: 20 lux exteriores, 100 lux interiores, 50 lux aparcamientos interiores; uniformidad media 40% mín (SUA 4-1).",
+          "Sistema alarma: señales visuales y acústicas, perceptibles en viviendas accesibles para discapacidad auditiva (SI 4-tabla 1.1).",
+          "Señalización evacuación: UNE 23034:1988; itinerarios accesibles con SIA y rótulo \"ZONA DE REFUGIO\" cuando conduzcan a refugio (SI 3-7).",
+        ],
+      },
+      {
+        h: "Anejo A: Jerarquía de soluciones en accesos y desniveles",
+        nota:
+          "El examen suele pedir ordenar las soluciones de menor a mayor invasividad o de mayor a menor preferencia. La jerarquía es inamovible: primero trasladar el acceso al punto de menor desnivel; si no, rampa según DB SUA o Tabla 2; si no es posible, plataforma vertical; solo en circunstancias excepcionales, plataforma inclinada. Es clave distinguir que dispositivos NO son adecuación efectiva: orugas motorizadas, sillas salvaescaleras (no autónomos), rampas móviles y tapices móviles. Las sillas de evacuación manuales solo valen para emergencia con personal instruido.",
+        items: [
+          "Solución preferente: trasladar el acceso donde el desnivel con la vía pública sea menor.",
+          "Segunda opción: rampa según DB SUA o, al menos, según parámetros de la Tabla 2 del apartado 3.",
+          "Tercera opción: plataforma elevadora vertical (apartado A.2).",
+          "Cuarta opción (excepcional): plataforma elevadora inclinada o salvaescaleras (apartado A.3), siempre que no entre en conflicto con evacuación y uso de la escalera.",
+          "Siempre deben disponerse escaleras como recorrido alternativo al sistema mecánico.",
+          "Orugas motorizadas y sillas salvaescaleras: NO permiten uso autónomo → NO son adecuación efectiva.",
+          "Rampas móviles y tapices móviles: NO son soluciones de accesibilidad ni forman parte de itinerarios accesibles.",
+          "Sillas de evacuación manuales: solo para emergencia con personal instruido en su manejo.",
+        ],
+      },
+      {
+        h: "Anejo A: Plataformas elevadoras verticales e inclinadas",
+        nota:
+          "Distingue bien entre plataforma vertical y ascensor accesible: una plataforma vertical cumple EN 81-41 y Directiva 2006/42/CE, pero NO es ascensor accesible porque no cumple UNE EN 81-70. Las plataformas inclinadas (salvaescaleras) se rigen por UNE EN 81-40. Ambas requieren un itinerario accesible hasta ellas (Tabla 2) y espacio de giro deseable de 1,50 m (mínimo 1,20 m). Las inclinadas necesitan controles con llave para evitar uso no autorizado y nunca se usan para evacuación. Ojo a las dimensiones y cargas mínimas de las tablas A.1 y A.2, y a la condición de los 60 cm libres en escalera.",
+        items: [
+          "Plataformas verticales: Directiva 2006/42/CE y norma EN 81-41. NO son ascensores accesibles (no cumplen UNE EN 81-70).",
+          "Tabla A.1 plataformas verticales: puertas adyacentes 125x125 cm o 110x140 cm, carga 250 kg/m² y 385 kg; una puerta/enfrentadas 80x125 cm (vivienda sin accesible o <1000 m²) o 90x140 cm (resto), cargas 250/250 kg o 250/315 kg.",
+          "Plataformas verticales menores a las dimensiones mínimas: solo para personas con movilidad reducida (no silla de ruedas), con prohibición expresa señalizada.",
+          "Plataformas inclinadas: norma UNE EN 81-40. Una única persona. Controles con llave para evitar uso no autorizado.",
+          "Tabla A.2 plataformas inclinadas: 70x90 cm (vivienda sin accesible o <1000 m², carga 250/225 kg); 75x100 cm (resto, carga 250/250 kg).",
+          "Plataforma inclinada desplegada: debe dejar 60 cm libres en escalera; si no, admitido ocupar todo el ancho si ≤8 viviendas, existe recorrido alternativo señalizado o tramo ≤8 peldaños.",
+          "Plataformas inclinadas: NO se utilizan para evacuación del edificio.",
+          "Ambas requieren señalización direccional, instrucciones de uso en pictogramas y dispositivo de llamada.",
+        ],
+      },
+      {
+        h: "Anejo B: Ascensores en vivienda colectiva",
+        nota:
+          "Este anejo regula la incorporación de ascensores cuando no se pueden aplicar las exigencias del DB SUA por inviabilidad técnica, económica o protección. Es fundamental memorizar las dimensiones mínimas de cabina de las tablas B.1 y B.2, y la anchura de puerta de 80 cm. Respecto a las intervenciones, recuerda que las que afectan a elementos privativos requieren acuerdo de la comunidad o el \"supuesto de expropiación\" del artículo 9.5.g del RDL 7/2015. Las intervenciones en fachada o patio que incidan en dominio público o condiciones urbanísticas requieren autorización administrativa (art 24.4 RDL 7/2015).",
+        items: [
+          "Tabla B.1: puertas adyacentes 125x125 cm o 120x140 cm; puertas enfrentadas 90x120 cm.",
+          "Tabla B.2 (UNE EN 81-70): 100x125 cm / 450 kg (silla A sin acompañante); 110x140 cm / 630 kg (silla A o B con acompañante).",
+          "Anchura de paso mínima de puerta de ascensor: 80 cm (UNE EN 81-70 y UNE EN 81-82).",
+          "Tipos de intervención: zonas comunes interiores, patios interiores, fachada (parcela o dominio público) y zonas privativas.",
+          "Afección a elementos privativos: requiere acuerdo en comunidad de propietarios o \"supuesto de expropiación\" (art 9.5.g RDL 7/2015).",
+          "Ocupación de dominio público o afección a condiciones urbanísticas: autorización administrativa (art 24.4 RDL 7/2015).",
+        ],
+      },
+      {
+        h: "Anejo B: Incidencia en otros Documentos Básicos",
+        nota:
+          "Una de las partes más técnicas y preguntadas. Al instalar un ascensor se pueden reducir otras condiciones del CTE si se acredita no viabilidad técnica y económica. En DB SI, la reducción de anchura de escaleras de evacuación es crítica: 0,80 m como mínimo absoluto, pero con fórmulas diferentes según evacuación descendente (P/160) o ascendente (P/(160-10h)). En DB SUA, una escalera de hasta 8 viviendas y 14 m de altura de evacuación puede reducirse a parámetros de uso restringido, manteniendo la huella en 25 cm. En DB HS, no se puede reducir la superficie de ventanas/puertas exteriores por debajo del mínimo del sistema complementario. En DB HR, los índices de reducción acústica dependen de si la maquinaria está dentro o fuera del recinto.",
+        items: [
+          "DB SI: reducción anchura escaleras evacuación hasta 0,80 m y no menos de P/160 (descendente) o P/(160-10h) (ascendente).",
+          "DB SI: pasillos o rampas reducidos no inferiores a 0,90 m, siempre que se cumpla anchura de cálculo de evacuación (SI-3).",
+          "DB SUA: escaleras de ≤8 viviendas y altura de evacuación ≤14 m pueden reducirse a parámetros de uso restringido, excepto huella ≥25 cm.",
+          "DB HS: si se reduce patio por debajo del mínimo DB HS3 3.2.1, adoptar medidas compensatorias (cerramientos permeables, ventilación mecánica, no usar patio como entrada de aire...).",
+          "DB HS: no reducir superficie total practicable de ventanas o puertas exteriores por debajo del mínimo del sistema complementario (DB HS3 4.4).",
+          "DB HR: ascensor colindante con viviendas sin cuarto de máquinas (maquinaria dentro) → RA >60 dBA; con cuarto de máquinas → RA >50 dBA.",
+        ],
+      },
+      {
+        h: "Anejo C: Servicios higiénicos accesibles",
+        nota:
+          "Este anejo ofrece flexibilidad cuando no se pueden cumplir las exigencias del DB SUA. La exención para uso exclusivo de trabajadores es una trampa clásica: se requieren tres condiciones simultáneas (superficie ≤100 m², trabajadores ≤10 y aseo exclusivo). Para locales reducidos (≤100 m² de uso público y ≤50 personas) se admiten soluciones compartidas o aseos a ~50 m. La transferencia unilateral se compensa con dos aseos (uno por cada lado) más rótulo. El espacio de maniobra puede reducirse a 1,20 m y aprovecharse el hueco bajo el lavabo hasta 20 cm si no tiene pedestal.",
+        items: [
+          "Uso privado exclusivo de trabajadores: exento de aseo accesible si superficie útil ≤100 m², trabajadores ≤10 (ocupación según tabla 2.1 DB SI3) y aseo exclusivo trabajadores.",
+          "Local reducido: ≤100 m² de uso público y ≤50 personas. Admiten aseos compartidos, unisex o aseos comunes a ~50 m.",
+          "Dos aseos accesibles con transferencia unilateral (uno derecha y otro izquierda) cumplen la exigencia de transferencia bilateral si se informa con rótulo.",
+          "Espacio de maniobra: 1,50 m deseable; 1,20 m admitido. Se puede aprovechar hueco bajo lavabo hasta 20 cm si no tiene pedestal.",
+          "En público sin espacio suficiente: admitida transferencia a un solo lado.",
+          "Si no es viable cabina para silla de ruedas: al menos barra vertical de sujeción y apoyo junto al inodoro.",
+        ],
+      },
     ],
     claves: [
-      "Edificio existente = licencia anterior a 12/09/2010 (RD 173/2010, Disposición transitoria 3ª)",
-      "Rampa edificio existente: 12% (≤3 m) · 10% (≤10 m) · 8% (≤15 m) · 6% sin límite",
-      "Plataforma vertical: 125×125 o 110×140 cm (puertas adjuntas) · 80×125 o 90×140 cm (puertas frontales)",
-      "Plataforma inclinada: solo personas instruidas · no apta para evacuación · espacio libre ≥ 60 cm en escalera",
-      "Cabina ascensor mín.: 90×120 cm (puerta frontal) · anchura paso puerta ≥ 80 cm",
-      "Escalera reducible hasta 0,80 m (y ≥ P/160) para instalar ascensor – con medidas compensatorias",
-      "Local reducidas dimensiones: sup. pública ≤ 100 m² + ocupación ≤ 50 personas",
+      "Edificio existente = licencia de obras anterior al 12 de septiembre de 2010.",
+      "Tabla 1 condiciones básicas; Tabla 2 tolerancias. Solo lo incluido en Tabla 2 admite flexibilidad.",
+      "Rampa accesible: 10%·3m / 8%·6m / 6% resto. Tolerancia: 12%·3m / 10%·10m / 8%·15m / 6% ilimitado.",
+      "Fuerza puerta accesible: 25 N general · 65 N resistente al fuego.",
+      "Pasamanos doble en rampa ≥6% y >18,5 cm: 90-110 cm y 65-75 cm.",
+      "Plataforma vertical NO es ascensor accesible; cumple EN 81-41 pero no UNE EN 81-70.",
+      "Orugas motorizadas, sillas salvaescaleras, rampas móviles y tapices móviles NO son adecuación efectiva.",
+      "Cabina ascensor accesible: 125x125 cm o 120x140 cm (adyacentes); 90x120 cm (enfrentadas). Puerta ≥80 cm.",
+      "Reducción escalera evacuación por ascensor: 0,80 m y P/160 (descendente) o P/(160-10h) (ascendente).",
+      "Escalera ≤8 viviendas y ≤14 m altura evacuación: parámetros uso restringido excepto huella ≥25 cm.",
+      "Aseo trabajadores exento si <100 m², <10 trabajadores y uso exclusivo (tres requisitos simultáneos).",
+      "Local reducido: <100 m² público y <50 personas; aseos comunes admitidos a ~50 m.",
+      "Plataforma inclinada: 60 cm libres en escalera desplegada (o ≤8 viviendas, recorrido alternativo o ≤8 peldaños).",
+      "DB HR ascensor colindante: sin cuarto máquinas RA>60 dBA; con cuarto máquinas RA>50 dBA.",
+      "Intervenciones en privativo: acuerdo comunidad o supuesto de expropiación (art 9.5.g RDL 7/2015).",
     ],
   },
 
   "E8": {
-  "intro": "El DB-HE es el Documento Básico del CTE que regula el requisito de Ahorro de energía, articulado en siete exigencias básicas (HE 0 a HE 6). Su aplicación correcta garantiza el uso racional de la energía y la incorporación de fuentes renovables, siendo fundamental dominar sus ámbitos, exclusiones y valores límite para la oposición.",
-  "bloques": [
-    {
-      "h": "Ámbito de aplicación y exclusiones",
-      "nota": "Trampa habitual: confundir los umbrales de superficie entre secciones. HE 0 aplica a edificios nuevos, ampliaciones que incrementen más de un 10% la superficie o volumen construido con superficie útil ampliada superior a 50 m2, cambios de uso con superficie útil total superior a 50 m2 y reformas que renueven conjuntamente la instalación de generación térmica y más del 25% de la envolvente térmica. Las exclusiones se repiten en casi todas las secciones: edificios protegidos oficialmente (la autoridad de protección determina los elementos inalterables), construcciones provisionales con plazo previsto de utilización igual o inferior a dos años, edificios aislados con superficie útil total inferior a 50 m2 y, en HE 0 y HE 1, edificios industriales, de la defensa y agrícolas no residenciales de baja demanda energética. Relación clave: en edificios mixtos (residencial junto a otro uso), HE 0 exige aplicar los valores límite de forma independiente a cada parte del edificio con uso diferenciado.",
-      "items": [
-        "HE 0 ámbito: nuevos, ampliaciones >10% y >50 m2 útil, cambios de uso >50 m2 útil, reformas con renovación conjunta de instalación térmica y >25% envolvente térmica",
-        "Exclusiones comunes: protegidos oficiales, provisionales ≤2 años, aislados <50 m2 útil, industriales/agrícolas/defensa no residenciales de baja demanda",
-        "Edificio de consumo de energía casi nulo: el que cumple HE 0 para edificios de nueva construcción"
-      ]
-    },
-    {
-      "h": "HE 0 - Límites de consumo energético",
-      "nota": "El examen suele mezclar Cep,nren (no renovable) y Cep,tot (total). Trampa: las tablas son diferentes para residencial privado y para usos distintos del residencial, y los factores extrapeninsulares varían según el indicador (1,25 para no renovable, 1,15 para total en residencial; 1,40 para ambos en no residencial). Mnemotecnia: NoRenovable castiga más al residencial (1,25), el Total es más benevolente (1,15). Para usos no residenciales, ambos indicadores dependen de la Carga Interna Media (CFI) en W/m2, que se calcula según el Anejo A.",
-      "items": [
-        "Cep,nren,lim residencial nuevo: α=20, A=25, B=28, C=32, D=38, E=43 kWh/m2·año; cambios de uso/reformas: α=40, A=50, B=55, C=65, D=70, E=80",
-        "Cep,tot,lim residencial nuevo: α=40, A=50, B=56, C=64, D=76, E=86; cambios de uso/reformas: α=55, A=75, B=80, C=90, D=105, E=115",
-        "Extrapeninsular residencial: Cep,nren ×1,25; Cep,tot ×1,15",
-        "Cep,nren,lim no residencial: α=70+8·CFI, A=55+8·CFI, B=50+8·CFI, C=35+8·CFI, D=20+8·CFI, E=10+8·CFI; factor extrapeninsular ×1,40",
-        "Cep,tot,lim no residencial: α=165+9·CFI, A=155+9·CFI, B=150+9·CFI, C=140+9·CFI, D=130+9·CFI, E=120+9·CFI; factor extrapeninsular ×1,40"
-      ]
-    },
-    {
-      "h": "HE 0 - Procedimiento de cálculo y sistemas de referencia",
-      "nota": "Trampa: si el proyecto no define sistemas de calefacción, refrigeración o ACS en viviendas, el reglamento impone un sistema de referencia obligatorio para el cálculo. Otro error frecuente es olvidar que el cálculo se realiza con intervalo mensual y que las horas fuera de consigna no pueden superar el 4% del tiempo de ocupación. La norma de cálculo es la UNE-EN ISO 52000-1:2019 con factor de exportación kexp=0. Mnemotecnia: Sin proyecto, gas para calor (0,92 PCS) y electricidad para frío (2,60).",
-      "items": [
-        "Sistemas de referencia residencial si no se definen en proyecto: calor y ACS con gas natural, rendimiento nominal 0,92 (PCS); frío con electricidad, rendimiento 2,60",
-        "Procedimiento de cálculo: UNE-EN ISO 52000-1:2019, kexp=0, intervalo mensual",
-        "Horas fuera de consigna ≤4% del tiempo total de ocupación, con margen superior a 1°C",
-        "Superficie de cálculo: suma de superficies útiles de espacios habitables dentro de la envolvente térmica (excluyendo laboratorios con condiciones de temperatura, cocinas industriales, salas de ordenadores, piscinas cubiertas, etc.)"
-      ]
-    },
-    {
-      "h": "HE 1 - Transmitancia térmica (U) y coeficiente global K",
-      "nota": "El examen confunde constantemente U (por elemento) con K (global de la envolvente). K solo se exige en residencial privado y en usos distintos del residencial, con tablas distintas. Trampa: en reformas, U solo aplica a elementos sustituidos o modificados, pero K aplica al conjunto si se renueva más del 25% de la envolvente. Las medianerías y particiones interiores pertenecientes a la envolvente térmica tienen valores de U muy altos (hasta 3,2 en α) porque no intercambian con el exterior. Mnemotecnia: U local, K global; K solo si >25% envolvente en reformas.",
-      "items": [
-        "U límite muros/suelos aire exterior (US,UM): α=0,80, A=0,70, B=0,56, C=0,49, D=0,41, E=0,37 W/m2K",
-        "U límite cubiertas aire exterior (UC): α=0,55, A=0,50, B=0,44, C=0,40, D=0,35, E=0,33 W/m2K",
-        "U límite huecos (UH): α=5,7, A=3,2, B=2,7, C=2,3, D=2,1, E=1,8; escaparates comerciales pueden incrementar UH en un 50%",
-        "K límite residencial nuevo V/A≤1: α=0,67, A=0,60, B=0,58, C=0,53, D=0,48, E=0,43; V/A≥4: α=0,86, A=0,80, B=0,77, C=0,72, D=0,67, E=0,62",
-        "K límite no residencial V/A≤1: α=0,96, A=0,81, B=0,76, C=0,65, D=0,54, E=0,43; exención comercial con V/A>5",
-        "En reformas: U aplica solo a elementos sustituidos/modificados; K aplica al conjunto si se renueva >25% envolvente"
-      ]
-    },
-    {
-      "h": "HE 1 - Control solar, permeabilidad y particiones interiores",
-      "nota": "Trampa: el parámetro de control solar qsol;jul se refiere al mes de julio con protecciones solares móviles activadas, no a la situación sin protección. La permeabilidad al aire de huecos (Q100) usa la clase 2 (≤27) para zonas α-A-B-C y clase 3 (≤9) para D-E, según UNE-EN 12207:2017. El n50 (estanqueidad del edificio) solo se exige en residencial privado nuevo con superficie útil total superior a 120 m2. Mnemotecnia: Zonas cálidas (D-E) exigen más estanqueidad: 9 en lugar de 27.",
-      "items": [
-        "Control solar qsol;jul,lim: residencial privado 2,00 kWh/m2·mes; otros usos 4,00",
-        "Permeabilidad huecos Q100,lim: zonas α-A-B-C ≤27 m3/h·m2 (clase 2); zonas D-E ≤9 (clase 3) UNE-EN 12207:2017",
-        "n50 residencial privado nuevo >120 m2: V/A≤2 → 6 h-1; V/A≥4 → 3 h-1 (interpolación entre 2 y 4)",
-        "Particiones interiores U límite entre unidades de distinto uso: horizontales/verticales α=1,35, A=1,25, B=1,10, C=0,95, D=0,85, E=0,70 W/m2K",
-        "Particiones interiores U límite entre unidades de mismo uso horizontales: α=1,90, A=1,80, B=1,55, C=1,35, D=1,20, E=1,00; verticales: α=1,40, A=1,40, B=1,20, C=1,20, D=1,20, E=1,00",
-        "Condensaciones: máxima acumulada anual no superará la cantidad de evaporación posible en el mismo periodo"
-      ]
-    },
-    {
-      "h": "HE 3 - Iluminación: eficiencia, potencia y controles",
-      "nota": "Trampa: HE 3 no aplica a viviendas ni a alumbrado de emergencia. El VEEI se expresa en W/m2 por cada 100 lux, por lo que valores más bajos son más exigentes. Los locales con nivel de iluminación superior a 600 lux tienen el VEEI más restrictivo (2,5) y la potencia máxima más alta (25 W/m2). Los controles son obligatorios: manual externo al cuadro más horario centralizado; en zonas esporádicas puede sustituirse por detección de presencia o pulsador. Mnemotecnia: Más lux, más potencia permitida, pero VEEI más ajustado.",
-      "items": [
-        "VEEI límite más exigente: locales >600 lux → 2,5; administrativo/andenes/pabellones → 3,0; aulas/diagnóstico → 3,5",
-        "VEEI límite más permisivo: habitaciones hoteles/hostales → 10,0; hostelería/religioso/salones actos/tiendas → 8,0",
-        "Potencia máxima: aparcamiento ≤600 lux → 5 W/m2; otros usos ≤600 lux → 10 W/m2; >600 lux → 25 W/m2",
-        "Control obligatorio: manual externo al cuadro + encendido por horario centralizado en cada cuadro eléctrico",
-        "Zonas esporádicas (aseos, pasillos, escaleras, tránsito, aparcamientos): detección de presencia temporizado o pulsador",
-        "Aprovechamiento luz natural: T(Aw/A)>0,11 y θ>65° o ai>2hi o ai>2hi/Tc; a menos de 5 m de ventana/lucernario. Excluidas zonas comunes residenciales, habitaciones hospital/hoteles, tiendas y pequeño comercio"
-      ]
-    },
-    {
-      "h": "HE 4 y HE 5 - Contribución de energías renovables",
-      "nota": "HE 4 y HE 5 son complementarios: HE 4 cubre ACS y piscinas con energía térmica renovable; HE 5 exige generación eléctrica renovable. Trampa: el 70% de HE 4 es sobre la demanda anual incluyendo pérdidas de distribución, acumulación y recirculación, y baja al 60% si la demanda de ACS es inferior a 5000 l/d. Solo cuenta la energía in situ, en proximidades o biomasa sólida. En HE 5, la potencia mínima es el menor de dos valores (P1 y P2), y el factor de producción eléctrica es 0,005 para residencial y 0,010 para el resto. Mnemotecnia: 70% para mucha agua, 60% para poca; doble tope en electricidad (consumo y cubierta).",
-      "items": [
-        "HE 4: contribución renovable mínima 70% demanda anual ACS y/o piscina; 60% si demanda ACS <5000 l/d",
-        "Fuentes válidas HE 4: in situ, proximidades del edificio o biomasa sólida",
-        "Bombas de calor ACS/piscina: SCOPdhw ≥2,5 (eléctrica) o ≥1,15 (térmica); temperatura preparación ACS ≥45°C",
-        "Energía residual en residencial privado: máximo 20% de la extraída por recuperadores ajenos a la instalación térmica",
-        "HE 5 ámbito: edificios nuevos, ampliaciones, reformas íntegras o cambio de uso >1000 m2 construidos (incluye aparcamiento interior, excluye zonas exteriores comunes)",
-        "Pmin = menor de P1=Fpr,el·S (0,005 residencial, 0,010 resto) y P2=0,1·(0,5·Sc - Soc)"
-      ]
-    },
-    {
-      "h": "HE 6 - Infraestructura de recarga de vehículos eléctricos",
-      "nota": "Trampa: las dotaciones difieren radicalmente entre residencial y no residencial. En residencial se exige previsión de conducción de cables para el 100% de plazas, pero no estaciones obligatorias. En no residencial, solo el 20% de plazas precisa conducción, más una estación de recarga cada 40 plazas (o fracción). Las plazas accesibles exigen 1 estación cada 5 plazas y computan para el cumplimiento general. Existen exclusiones por número de plazas y por coste (superior al 7% del coste de la intervención en existentes). Mnemotecnia: Residencial todo cableado; terciario 20% cables y 1 carga por 40 plazas.",
-      "items": [
-        "Residencial privado: sistemas de conducción de cables para el 100% de las plazas de aparcamiento",
-        "No residencial: conducción para ≥20% plazas + 1 estación de recarga cada 40 plazas (o fracción)",
-        "Administración General del Estado y organismos públicos vinculados: 1 estación cada 20 plazas",
-        "Plazas accesibles (DB SUA): 1 estación cada 5 plazas accesibles; computan para el cumplimiento general",
-        "Exclusiones: uso no residencial con ≤10 plazas; existentes no residencial ≤20 plazas y existentes residencial si coste >7% del coste de la intervención",
-        "Si usos mixtos y aparcamiento no diferenciado: se aplica el criterio del uso característico del edificio"
-      ]
-    },
-    {
-      "h": "Anejo A - Conceptos operativos para el cálculo",
-      "nota": "El Anejo A define conceptos que el examen usa como trampas conceptuales. La carga interna media (CFI) clasifica los espacios en baja (<6), media (6-9), alta (9-12) y muy alta (≥12 W/m2) y es imprescindible para las tablas de HE 0 en usos no residenciales. La compacidad V/A excluye del área de intercambio (A) las medianerías y contactos con espacios adyacentes exteriores a la envolvente. Las horas fuera de consigna se miden con margen superior a 1°C. Mnemotecnia: CFI seis-nueve-doce; V/A sin medianerías.",
-      "items": [
-        "CFI niveles: baja <6 W/m2; media 6-9; alta 9-12; muy alta ≥12 W/m2",
-        "Compacidad V/A = volumen encerrado por envolvente / superficie de intercambio con aire exterior o terreno (excluye medianerías y contactos con espacios adyacentes exteriores)",
-        "Horas fuera de consigna: horas con temperatura fuera del rango de consigna con margen >1°C durante periodos de ocupación",
-        "Superficie construida HE 5: incluye aparcamiento interior, excluye zonas exteriores comunes",
-        "Demanda de referencia ACS: Anejo F; temperatura agua de red: Anejo G",
-        "Valores de diseño térmicos: temperatura de referencia 10°C y equilibrio con ambiente 23°C y 50% HR"
-      ]
-    }
-  ],
-  "claves": [
-    "Las exclusiones del DB-HE se repiten: protegidos, provisionales ≤2 años, aislados <50 m2",
-    "HE 0: Cep,nren residencial extrapeninsular ×1,25; Cep,tot ×1,15; no residencial ambos ×1,40",
-    "Sin sistemas definidos en viviendas: gas natural 0,92 PCS para calor/ACS y electricidad 2,60 para frío",
-    "U es transmitancia por elemento; K es coeficiente global de la envolvente; K solo en reformas si >25% envolvente",
-    "Q100 clase 2 (≤27) para zonas α-A-B-C; clase 3 (≤9) para zonas D-E",
-    "Control solar julio: 2,00 residencial, 4,00 otros usos; siempre con protecciones móviles activadas",
-    "HE 4: 70% renovable anual para ACS/piscina; 60% si demanda ACS <5000 l/d",
-    "HE 5: Pmin es el menor de P1 (factor 0,005 residencial, 0,010 resto) y P2 (0,1·(0,5·Sc-Soc))",
-    "HE 6 residencial: 100% plazas con conducción; no residencial: 20% conducción + 1 estación/40 plazas",
-    "VEEI más permisivo: hoteles 10,0; más exigente: >600 lux 2,5",
-    "CFI niveles: 6-9-12; compacidad V/A excluye medianerías del área de intercambio",
-    "Procedimiento de cálculo: UNE-EN ISO 52000-1:2019, kexp=0, intervalo mensual"
-  ]
-}
-  "E9": {
-  "T09": {
-    "intro": "El Tema 9 aborda el Reglamento de Instalaciones Térmicas en los Edificios (RITE) y su vinculación con el Documento Básico HE Ahorro de Energía del CTE. Es un texto técnicamente denso donde el examen suele centrar sus preguntas en umbrales de potencia, clases de estanquidad, espesores de aislamiento y periodicidades de mantenimiento.",
-    "bloques": [
-      {
-        "h": "Estructura y ámbito del RITE",
-        "nota": "Trampa clásica: confundir las dos partes del RITE. La Parte I contiene las exigencias generales (bienestar, eficiencia, seguridad) y la Parte II las Instrucciones Técnicas (IT 1, 2 y 3). El concepto de reforma es más amplio de lo que parece: no solo cambiar equipos, sino también sustituir un generador por otro similar (Art. 2.4).",
-        "items": [
-          "Art. 1: objeto es eficiencia energética y seguridad en diseño, ejecución, mantenimiento y uso.",
-          "Art. 2.1: instalaciones térmicas = climatización (calefacción, refrigeración, ventilación) + ACS + interconexiones a redes urbanas + automatización y control.",
-          "Art. 2.3: reforma = nuevos subsistemas, sustitución por generador de distintas características, ampliación de equipos, cambio de tipo de energía o incorporación de renovables, cambio de uso.",
-          "Art. 2.4: también es reforma la sustitución de un generador por otro de similares características.",
-          "Art. 2.6: no se aplica a procesos industriales, agrícolas u otros no destinados a bienestar e higiene de personas.",
-          "Art. 4: Parte I (disposiciones generales) y Parte II (Instrucciones Técnicas IT 1, IT 2, IT 3)."
-        ]
-      },
-      {
-        "h": "Documentación técnica: proyecto, memoria y potencias umbral",
-        "nota": "El examen adora los números 5, 70 y 400 kW. Recuerda: 5 kW es el piso para memoria técnica; 70 kW es techo de memoria y piso de proyecto; 400 kW es el límite para un solo generador de combustible líquido/gaseoso. En solar térmica, si no hay equipo de apoyo, la potencia ficticia es 0,7 kW/m² de superficie de captador.",
-        "items": [
-          "Art. 15.1.a: >70 kW → proyecto.",
-          "Art. 15.1.b: ≥5 kW y ≤70 kW → memoria técnica.",
-          "Art. 15.1.c: <5 kW, calentadores instantáneos/termos eléctricos ≤70 kW y sistemas solares de un único elemento prefabricado → no preceptiva documentación ante CC.AA.",
-          "Art. 15.2: potencia nominal = suma de generadores de calor O de frío (no se suman entre sí), sin considerar solar térmica.",
-          "Art. 15.3: solar sin equipo de apoyo → potencia = superficie apertura captadores × 0,7 kW/m².",
-          "Art. 16: proyecto redactado y firmado por técnico titulado competente.",
-          "Art. 17: memoria técnica elaborada por instalador habilitado o técnico titulado competente."
-        ]
-      },
-      {
-        "h": "Ejecución, recepción, certificado y puesta en servicio",
-        "nota": "El certificado de instalación es la llave de la puesta en servicio. No se registran preinstalaciones. Una sustitución de generador ≤70 kW con variación de potencia ≤25% respecto al anterior está exenta de registro (Art. 24.11). La documentación final se incorpora al Libro del Edificio.",
-        "items": [
-          "Art. 19.1: ejecución por empresa instaladora habilitada.",
-          "Art. 19.2: si hay proyecto, ejecución bajo dirección de técnico titulado competente.",
-          "Art. 20: control de recepción = documentación + distintivos de calidad + ensayos.",
-          "Art. 23: certificado firmado por instalador habilitado y director de instalación (si procede); incluye resultados de pruebas IT 2 y declaración de cumplimiento.",
-          "Art. 24.1: puesta en servicio requiere registro del certificado en la CC.AA. para instalaciones >70 kW y memoria/proyecto.",
-          "Art. 24.7: no se registran preinstalaciones térmicas.",
-          "Art. 24.11: sustitución generador ≤70 kW exenta de registro si variación potencia útil nominal ≤25% y generador instalado ≤70 kW."
-        ]
-      },
-      {
-        "h": "Mantenimiento y obligaciones del titular",
-        "nota": "El titular es responsable desde la recepción provisional. La clave es 70 kW: por debajo, mantenimiento según Manual; por encima, contrato obligatorio; y si se superan 5.000 kW en calor o 1.000 kW en frío, hace falta director de mantenimiento. El registro de operaciones se conserva 5 años.",
-        "items": [
-          "Art. 25.1: titular responsable del uso y mantenimiento desde recepción provisional.",
-          "Art. 26.6.a: 5-70 kW → mantenimiento por empresa mantenedora según Manual.",
-          "Art. 26.6.b: >70 kW → contrato de mantenimiento obligatorio.",
-          "Art. 26.6.c: >5.000 kW calor y/o >1.000 kW frío, o solar >400 kW → mantenimiento bajo dirección de técnico titulado (director de mantenimiento).",
-          "Art. 27.2: registro de operaciones de mantenimiento conservado ≥5 años.",
-          "Art. 28: certificado de mantenimiento anual con validez máxima de 1 año."
-        ]
-      },
-      {
-        "h": "Bienestar e higiene: confort térmico y calidad del aire",
-        "nota": "El examen mezcla valores de diseño con valores de limitación de temperatura (IT 3.8). Aquí, en IT 1.1, hablamos de diseño: 21°C para calefacción y 25°C para refrigeración. Los caudales de ventilación dependen de la categoría IDA (1 a 4) y del método (indirecto por persona, directo por CO2, etc.). Solo el aire AE 1 puede retornarse.",
-        "items": [
-          "IT 1.1.4.1.2: temperatura operativa diseño · verano 23-25°C · invierno 21-23°C; HR verano 45-60%, invierno 40-50%.",
-          "IT 1.1.4.1.2: temperatura cálculo calefacción = 21°C · refrigeración = 25°C.",
-          "IT 1.1.4.2.2: IDA 1 = hospitales/clínicas/laboratorios/guarderías; IDA 2 = oficinas/aulas/residencias/museos; IDA 3 = comercios/cines/restaurantes/gimnasios.",
-          "IT 1.1.4.2.3: método indirecto por persona · IDA 1 = 20 dm³/s · IDA 2 = 12,5 · IDA 3 = 8 · IDA 4 = 5.",
-          "IT 1.1.4.2.5: AE 1 (bajo contaminación, sin humo) es el único retornable; AE 3 y AE 4 no pueden usarse como recirculación ni transferencia.",
-          "IT 1.1.4.3.1: higiene ACS sujeta a legislación legionelosis; prohibida la mezcla directa de agua fría con condensado o vapor de calderas."
-        ]
-      },
-      {
-        "h": "Eficiencia energética: generación de calor y frío",
-        "nota": "Los percentiles de temperatura exterior son una trampa: 99% invierno y 1% verano para edificios normales; 99,6% y 0,4% solo para usos especiales (hospitales, museos). En frío, >70 kW exige 4 escalonamientos como mínimo. En calor, >400 kW exige 2+ generadores. Los emisores de calefacción se calculan para 60°C máximo de entrada.",
-        "items": [
-          "IT 1.2.4.1.1: percentiles diseño · invierno TS 99% · verano TS 1%; excepción hospitales/museos → TS 99,6% y TS 0,4%.",
-          "IT 1.2.4.1.2.1: emisores calefacción calculados para temperatura entrada máxima 60°C.",
-          "IT 1.2.4.1.2.2: generadores combustible líquido/gaseoso · >400 kW → ≥2 generadores; ≤400 kW con ACS puede ser 1 si potencia ACS ≥ escalón mínimo.",
-          "IT 1.2.4.1.2.3: regulación quemadores gas siempre modulante; líquidos ≤70 kW pueden ser 1-2 marchas si se justifica.",
-          "IT 1.2.4.1.3.2: centrales frío >70 kW → mínimo 4 escalonamientos, siendo el mínimo como máximo del 25%.",
-          "IT 1.2.4.1.3.3: maquinaria frigorífica aire-aire · condensadores dimensionados para percentil más exigente +3°C."
-        ]
-      },
-      {
-        "h": "Aislamiento térmico, conductos y estanquidad",
-        "nota": "El 4% es la cifra mágica de pérdidas tanto para tuberías como para conductos de aire. Para conductos, la clase de estanquidad ATC 4 es el mínimo. Los espesores de referencia se dan para λ=0,04 W/(m·K); si el material cambia, hay que recalcular. En ACS se añaden 5 mm a los espesores de tubería.",
-        "items": [
-          "IT 1.2.4.2.1.1: pérdidas térmicas globales tuberías ≤4% de la potencia máxima transportada.",
-          "IT 1.2.4.2.1.2: espesores mínimos referencia λ=0,04 W/(m·K); ACS aumenta 5 mm sobre tablas.",
-          "IT 1.2.4.2.1.2: tuberías ≤25 mm y <10 m empotradas/canaletas → espesor mínimo 10 mm.",
-          "IT 1.2.4.2.2: conductos impulsión ≤4% pérdida; espesor interior 30 mm / exterior 50 mm (≤70 kW y λ=0,04).",
-          "IT 1.2.4.2.3: estanquidad conductos → clase ATC 4 o superior.",
-          "IT 1.2.4.2.5: SFP impulsión · aire acondicionado SFP 4 · ventilación simple SFP 3; extracción · aire acondicionado SFP 3 · ventilación simple SFP 2."
-        ]
-      },
-      {
-        "h": "Control, contabilización y recuperación de energía",
-        "nota": "El umbral de 290 kW para automatización de edificios no residenciales es una cifra que suele aparecer en preguntas de desarrollo. La contabilización por usuario es obligatoria en edificios multiusuario. El enfriamiento gratuito y la recuperación de calor del aire de extracción tienen umbrales claros: >70 kW para todo-aire y >0,28 m³/s de caudal expulsado, respectivamente.",
-        "items": [
-          "IT 1.2.4.3.1: edificios nuevos → autorregulación por espacio interior o zona térmica cuando sea viable.",
-          "IT 1.2.4.3.5: edificios no residenciales >290 kW → sistema de automatización y control de edificios.",
-          "IT 1.2.4.4: instalación multiusuario → sistema de reparto de gastos por servicio; ACS → contador individual.",
-          "IT 1.2.4.4: >70 kW → medición separada de combustible y energía eléctrica; generadores >70 kW → contador horas funcionamiento.",
-          "IT 1.2.4.5.1: enfriamiento gratuito por aire exterior obligatorio en sistemas todo-aire >70 kW en refrigeración.",
-          "IT 1.2.4.5.2: recuperación de calor del aire de extracción si caudal expulsado >0,28 m³/s.",
-          "IT 1.2.4.6.1: contribución renovable mínima según HE4 del CTE; bombas de calor deben superar el SPF de la Directiva 2009/28/CE."
-        ]
-      },
-      {
-        "h": "Seguridad: salas de máquinas y chimeneas",
-        "nota": "Sala de máquinas solo si potencia >70 kW (salvo excepciones como autónomos exteriores o generadores de aire caliente). La altura mínima es 2,50 m. En salas de gas, el elemento de baja resistencia mecánica debe ser ≥ V/100 con mínimo 1 m². Las chimeneas >400 kW necesitan conducto propio; ≤400 kW pueden compartir si suman ≤400 kW y tienen la misma configuración.",
-        "items": [
-          "IT 1.3.4.1.2.1: sala de máquinas si potencia >70 kW; no lo son autónomos exteriores, generadores aire caliente ni tubos radiantes a gas.",
-          "IT 1.3.4.1.2.2: altura mínima sala 2,50 m; libre sobre caldera 0,50 m.",
-          "IT 1.3.4.1.2.3: salas gas → nivel ≥ semisótano; elemento baja resistencia mecánica ≥ V/100 (mín. 1 m²).",
-          "IT 1.3.4.1.2.6: calderas quemador forzado → 0,5 m lateral (apertura puerta), 0,7 m fondo caja humos, frontal = profundidad (mín. 1 m).",
-          "IT 1.3.4.1.2.7: ventilación natural directa → 5 cm²/kW; forzada → caudal mínimo 1,8·PN + 10·A (m³/h).",
-          "IT 1.3.4.1.3.2: >400 kW → conducto propio evacuación; ≤400 kW pueden compartir si suma ≤400 kW y misma configuración."
-        ]
-      },
-      {
-        "h": "Pruebas de puesta en servicio (IT 2)",
-        "nota": "Las presiones de prueba son un clásico de examen tipo test. Agua caliente sanitaria se prueba al doble de la presión máxima (mínimo 6 bar), mientras que circuitos cerrados de climatización al 1,5 (mínimo 6 bar). El solar primario baja a 1,5× con mínimo 3 bar. Las pruebas de libre dilatación se hacen hasta la temperatura de tarado de los elementos de seguridad.",
-        "items": [
-          "IT 2.2.2.4: circuitos cerrados agua refrigerada o caliente ≤100°C → presión prueba = 1,5 × presión máxima trabajo (mín. 6 bar).",
-          "IT 2.2.2.4: circuitos ACS → presión prueba = 2 × presión máxima trabajo (mín. 6 bar).",
-          "IT 2.2.2.4: circuitos primarios solar térmica → presión prueba = 1,5 × presión máxima trabajo (mín. 3 bar).",
-          "IT 2.2.4: prueba libre dilatación hasta temperatura de tarado de elementos de seguridad.",
-          "IT 2.2.5: conductos → pruebas de resistencia estructural y estanquidad según clase ATC del proyecto.",
-          "IT 2.4: rendimiento generador de calor en pruebas no inferior en más de 5 unidades al límite inferior de su etiqueta energética."
-        ]
-      },
-      {
-        "h": "Mantenimiento y limitación de temperaturas (IT 3)",
-        "nota": "La IT 3.8 es aplicable a todos los edificios, nuevos y existentes, con independencia de la normativa anterior. Los límites de temperatura para usos administrativos, comerciales y pública concurrencia son 21°C en calefacción y 26°C en refrigeración, con HR 30-70%. Si la superficie del recinto es >1.000 m², es obligatorio un display visible de al menos DIN A3.",
-        "items": [
-          "IT 3.1 Tabla 3.1: calderas murales gas ≤70 kW · viviendas cada 2 años · restos usos anual.",
-          "IT 3.1 Tabla 3.1: aire acondicionado ≤12 kW · viviendas cada 4 años · restos usos cada 2 años.",
-          "IT 3.1 Tabla 3.1: instalaciones >70 kW → mantenimiento mensual.",
-          "IT 3.8.2: recintos calefactados ≤21°C; recintos refrigerados ≥26°C; HR 30-70%.",
-          "IT 3.8.3: display obligatorio de temperatura/humedad si superficie >1.000 m² (mínimo DIN A3, exactitud ±0,5°C).",
-          "IT 3.8.4: puertas de acceso desde calle → cierre automático para evitar pérdidas energéticas."
-        ]
-      }
+    intro: "El CTE DB-HE (Ahorro de Energía), actualizado por RD 450/2022, establece en seis secciones (HE0–HE6) las exigencias de eficiencia energética y uso de energías renovables para edificios de nueva construcción e intervenciones en existentes.",
+    bloques: [
+      { h: "HE0 – Limitación del consumo energético", nota: "HE0 fija los límites de consumo de energía primaria no renovable (Cep,nren) y total (Cep,tot) mediante la comparación con un edificio de referencia; la clave es el valor por zona climática y el factor 1,25 para territorios extrapeninsulares.", items: [
+        "Parámetros: Cep,nren (energía primaria no renovable) y Cep,tot (energía primaria total)",
+        "Zonas climáticas de invierno α, A, B, C, D, E — valores residencial nueva construcción: α=20 · A=25 · B=28 · C=32 · D=38 · E=43 kWh/m²·año",
+        "Intervenciones en existentes ≈ el doble de los valores de nueva construcción",
+        "Territorios extrapeninsulares (Canarias, Ceuta, Melilla): valores × 1,25",
+        "Sistema de referencia para demostrar cumplimiento por comparación con edificio de referencia",
+      ]},
+      { h: "HE1 – Control de la demanda energética (envolvente)", nota: "HE1 reduce la demanda térmica a través de la envolvente: límites de transmitancia U en muros, cubiertas y huecos, control solar en julio, estanquidad al aire (n50) y permeabilidad de ventanas.", items: [
+        "Ulim muros y suelos (W/m²K): α=0,80 · A=0,70 · B=0,56 · C=0,49 · D=0,41 · E=0,37",
+        "Ulim cubiertas (W/m²K): α=0,55 · A=0,50 · B=0,44 · C=0,40 · D=0,35 · E=0,33",
+        "Ulim huecos (W/m²K): A=3,2 · B=2,7 · C=2,3 · D=2,1 · E=1,80",
+        "qsol;jul,lim (control solar julio): 2,00 kWh/m²·mes residencial · 4,00 otros usos",
+        "Permeabilidad Q100 ventanas: α/A/B ≤ 27 m³/h·m² · C/D/E ≤ 9 m³/h·m²",
+        "n50 estanquidad (residencial nueva >120 m²): V/A ≤ 2 → 6 h⁻¹ · V/A ≥ 4 → 3 h⁻¹ (interpolación lineal)",
+      ]},
+      { h: "HE2 – Rendimiento instalaciones térmicas", nota: "HE2 no incluye valores propios en el DB-HE; remite integramente al RITE, que regula eficiencia, bienestar e higiene de las instalaciones térmicas.", items: [
+        "Remite al Reglamento de Instalaciones Térmicas en los Edificios (RITE, RD 1027/2007)",
+      ]},
+      { h: "HE3 – Condiciones de las instalaciones de iluminación", nota: "HE3 exige eficiencia en iluminación mediante el VEEI, potencia máxima instalada, control por horario o presencia y aprovechamiento de la luz natural.", items: [
+        "VEEI (W/m² por 100 lux): Administrativo=3,0 · Almacenes/aparcamientos=4,0 · Centros comerciales=6,0 · Hostelería/restauración=8,0 · Habitaciones hotel=10,0 · Locales >600 lux=2,5",
+        "Potencia máxima instalada: aparcamiento ≤600 lux → 5 W/m² · >600 lux → 10 W/m² · Otros usos → 25 W/m²",
+        "Control obligatorio: encendido manual exterior + encendido por horario centralizado",
+        "Zonas esporádicas (aseos, escaleras): el horario puede sustituirse por detección de presencia o pulsador temporizador",
+        "Luz natural: obligatoria cuando T·(Aw/A) > 0,11 + condición geométrica (θ>65°, ai>2hi o ai>2hi/Tc)",
+      ]},
+      { h: "HE4 – Contribución mínima renovable para ACS", nota: "HE4 obliga a cubrir con energías renovables al menos el 70 % de la demanda anual de ACS en edificios de nueva construcción o reforma integral, con reducciones y condiciones para bombas de calor.", items: [
+        "Ámbito: nueva construcción con ACS >100 l/d · reforma integral o cambio de uso con ACS >100 l/d",
+        "Contribución mínima: ≥70% de la demanda energética anual para ACS",
+        "Reducción al 60% si la demanda de ACS es inferior a 5.000 l/d",
+        "Bombas de calor ACS: SCOPdhw ≥ 2,5 (eléctricas) o ≥ 1,15 (térmicas) · temp. preparación ≥ 45°C",
+      ]},
+      { h: "HE5 – Generación mínima de electricidad renovable", nota: "HE5 exige producir electricidad renovable en edificios nuevos o reformas íntegras de más de 1.000 m², calculando la potencia mínima con los criterios P1 y P2.", items: [
+        "Ámbito: edificios nueva construcción >1.000 m² · ampliaciones >1.000 m² · reformas íntegras >1.000 m²",
+        "Pmin = mínimo de: P1 = Fpr;el × S (Fpr;el: 0,005 residencial · 0,010 otros usos) y P2 = 0,1 × (0,5·Sc – Soc)",
+        "Si no se puede alcanzar Pmin por razones urbanísticas o de protección, se justifica y se maximiza",
+      ]},
+      { h: "HE6 – Infraestructura de recarga de vehículos eléctricos", nota: "HE6 establece la preinstalación o instalación de puntos de recarga en aparcamientos de nueva construcción e intervenciones en existentes, con porcentajes distintos para residencial y no residencial.", items: [
+        "Ámbito: nueva construcción con aparcamiento · existentes en cambio de uso/ampliación/reforma (condiciones específicas)",
+        "Exclusiones: no residencial ≤10 plazas · existentes ≤20 plazas si el coste supera el 7% de la intervención",
+        "Residencial privado: conducción de cables para el 100% de las plazas",
+        "No residencial: conducción para ≥20% de plazas + 1 estación/40 plazas (AGE: 1/20 plazas) · accesibles: 1 estación/5 plazas",
+      ]},
     ],
-    "claves": [
-      "70 kW: umbral que separa memoria de proyecto, sala de máquinas, mantenimiento mensual y contabilización obligatoria.",
-      "5 kW: piso para exigir memoria técnica; por debajo no es preceptiva documentación ante CC.AA.",
-      "0,7 kW/m²: factor para calcular potencia ficticia de instalaciones solares térmicas sin equipo de apoyo.",
-      "21°C calefacción y 25°C refrigeración: temperaturas de cálculo de diseño en el confort.",
-      "26°C refrigeración y 21°C calefacción: límites de temperatura en uso público por ahorro energético (IT 3.8).",
-      "4%: pérdidas máximas admitidas en tuberías y en conductos de impulsión de aire.",
-      "ATC 4: clase mínima de estanquidad para redes de conductos.",
-      "1,5× presión máxima y mínimo 6 bar: prueba hidráulica de circuitos cerrados de climatización.",
-      "3 bar: presión mínima de prueba para circuitos primarios de instalaciones solares térmicas.",
-      "400 kW: límite para compartir conducto de humos; por encima, conducto propio obligatorio.",
-      "290 kW: potencia a partir de la cual los edificios no residenciales deben tener automatización y control.",
-      "99% invierno y 1% verano: percentiles de temperatura exterior para cálculo de cargas (99,6% y 0,4% en hospitales).",
-      "SFP 4-3-3-2: impulsión AA / impulsión vent-simple / extracción AA / extracción vent-simple.",
-      "5 años: tiempo mínimo de conservación del registro de operaciones de mantenimiento.",
-      "AE 1 es el único aire de extracción que puede retornarse a los locales; AE 3 y AE 4 están prohibidos de recirculación."
-    ]
-  }
-},
+    claves: [
+      "HE0 zona C nueva residencial: 32 kWh/m²·año (no renovable) · extrapeninsular ×1,25",
+      "HE1 Ulim muros C: 0,49 · cubiertas B: 0,44 · huecos D: 2,1 W/m²K",
+      "HE1 qsol;jul residencial: 2,00 kWh/m²·mes · Q100 zona C: ≤9 m³/h·m²",
+      "HE3 VEEI hostelería: 8,0 · zonas esporádicas → presencia o temporizador · luz natural si T(Aw/A)>0,11",
+      "HE4 renovable ACS: ≥70% (60% si <5000 l/d) · SCOPdhw bomba calor eléctrica ≥2,5",
+      "HE5 ámbito >1.000 m² · Fpr;el: 0,005 residencial / 0,010 otros",
+      "HE6 residencial: conducción 100% · no residencial: 20% conducción + 1 estación/40 plazas",
+    ],
+  },
+
+  "E9": {
+    intro: "El RITE (RD 1027/2007, modificado) regula las exigencias de eficiencia energética, bienestar e higiene, y seguridad de las instalaciones térmicas en los edificios: climatización (calefacción, refrigeración, ventilación) y producción de ACS.",
+    bloques: [
+      { h: "Estructura y ámbito (Parte I, Cap. I-II)", nota: "Este bloque encuadra el RITE: aplica a instalaciones fijas de climatización y ACS, y distingue cuándo una intervención cuenta como reforma. La trampa habitual es confundir su ámbito con el DB-HE o el DB-HS.", items: [
+        "Ámbito: instalaciones fijas de climatización y ACS en edificios (nueva construcción y reformas)",
+        "Se considera reforma: incorporación/sustitución de subsistemas, ampliación, cambio de energía, cambio de uso",
+        "Exigencias técnicas: bienestar e higiene · eficiencia energética y renovables · seguridad (arts. 11-13)",
+        "Documentos reconocidos del RITE: documentos técnicos sin carácter reglamentario con reconocimiento ministerial",
+      ]},
+      { h: "Documentación técnica y condiciones administrativas (Cap. III)", nota: "La documentación exigida depende únicamente de la potencia térmica nominal: proyecto >70 kW, memoria 5-70 kW y nada <5 kW. Hay que memorizar los umbrales, quién firma el certificado y que la puesta en servicio requiere registro previo en la CCAA.", items: [
+        "Potencia >70 kW → Proyecto firmado por técnico titulado competente",
+        "Potencia ≥5 kW y ≤70 kW → Memoria técnica (instalador habilitado o técnico titulado)",
+        "Potencia <5 kW → Sin documentación preceptiva ante la CCAA",
+        "Tras pruebas: el instalador habilitado y el director de la instalación suscriben el Certificado de la Instalación",
+        "Puesta en servicio: registro del certificado en el órgano competente de la CCAA antes de conectar energía",
+      ]},
+      { h: "IT 1 – Bienestar e higiene (IT 1.1)", nota: "IT 1.1 fija condiciones interiores de diseño, caudales de aire y categorías IDA/AE. El examen suele mezclar valores de IDA o preguntar qué aire de extracción puede retornarse o recircularse.", items: [
+        "Condiciones interiores diseño (tabla 1.4.1.1): VERANO 23-25°C / HR 45-60% · INVIERNO 21-23°C / HR 40-50%",
+        "Temperatura de dimensionamiento: calefacción = 21°C · refrigeración = 25°C",
+        "Categorías calidad del aire interior (IDA): IDA1 hospitales/guarderías (20 dm³/s·p) · IDA2 oficinas/aulas (12,5) · IDA3 restaurantes/cines (8) · IDA4 (5)",
+        "Piscinas climatizadas: temperatura agua 24-30°C · tolerancia ±1,5°C · humedad local <65% · presión negativa 20-40 Pa",
+        "Categorías aire de extracción (AE): AE1 (oficinas) puede retornarse · AE2 solo transferencia a servicios · AE3/AE4 nunca recirculables",
+        "AE4 incluye: aparcamientos, campanas de humos, laboratorios químicos, locales de pinturas y solventes",
+      ]},
+      { h: "IT 1 – Eficiencia energética (IT 1.2)", nota: "IT 1.2 regula la eficiencia de los generadores, el fraccionamiento, la regulación de quemadores y las cargas de cálculo. Los valores límite, las temperaturas de emisores y los porcentajes de temperaturas de diseño son clásicos de examen.", items: [
+        "Procedimiento simplificado (valores límite) o alternativo (consumo calculado equivalente)",
+        "Fraccionamiento generadores: potencia >400 kW con combustible líquido/gaseoso → mínimo 2 generadores",
+        "Regulación quemadores: modulante para gas · ≤70 kW y combustible líquido puede ser de 1 o 2 marchas",
+        "Cargas de cálculo: invierno TS99% · verano TS1% · usos especiales (hospitales): TS99,6% y TS0,4%",
+        "Temperatura máxima de entrada a emisores de calefacción: 60°C",
+      ]},
+      { h: "Mantenimiento, uso e inspección (Cap. VI, IT 3)", nota: "El RITE exige mantenimiento escalonado por potencia: contrato obligatorio >70 kW, director técnico en grandes instalaciones y conservación del registro de operaciones al menos 5 años.", items: [
+        "5-70 kW: empresa mantenedora según Manual de Uso y Mantenimiento, sin contrato formal obligatorio",
+        ">70 kW: contrato de mantenimiento obligatorio con empresa mantenedora habilitada",
+        ">5.000 kW calor o >1.000 kW frío (o solar >400 kW): director de mantenimiento técnico titulado competente",
+        "Registro de operaciones de mantenimiento: conservar al menos 5 años desde cada actuación",
+        "Certificado de mantenimiento anual (cuando hay contrato): enviado al órgano competente de la CCAA",
+      ]},
+    ],
+    claves: [
+      "Proyecto si >70 kW · Memoria técnica si 5-70 kW · Sin documentación si <5 kW",
+      "Condiciones diseño: verano 23-25°C/45-60%HR · invierno 21-23°C/40-50%HR · dim. refrigeración: 25°C",
+      "IDA1=20 dm³/s·p · IDA2=12,5 · IDA3=8 · IDA4=5 · solo AE1 puede retornarse",
+      "AE4: aparcamientos, campanas de humos, laboratorios químicos — nunca recirculable",
+      "Piscinas climatizadas: agua 24-30°C · aire=agua+1-2°C (máx 30°C) · HR local <65%",
+      "Fraccionamiento: >400 kW combustible líquido/gaseoso → ≥2 generadores",
+      "Mantenimiento: contrato obligatorio >70 kW · director técnico >5.000 kW calor / >1.000 kW frío · registro 5 años",
+    ],
+  },
+
+  "E10": {
+    intro: "El CTE DB-HS (Salubridad), actualizado por RD 450/2022, establece en seis secciones (HS1–HS6) las condiciones para proteger la salud de los usuarios frente a humedades, residuos, calidad del aire, agua, evacuación y radón.",
+    bloques: [
+      { h: "HS 1 – Protección frente a la humedad", items: [
+        "Ámbito: muros/suelos en contacto con el terreno · fachadas/cubiertas en contacto con el exterior",
+        "Presencia de agua: BAJA (cara inf. suelo > nivel freático) · MEDIA (<2 m bajo freático) · ALTA (≥2 m bajo freático)",
+        "Grado de impermeabilidad mínimo (tabla 2.1): Ks≤10⁻² + alta → 5 · Ks<10⁻² + media → 3 · baja → 1",
+        "Condiciones constructivas (C): C1=hormigón hidrófugo in situ · C2=hormigón fluido · C3=fábrica con mortero hidrófugo",
+        "Impermeabilización (I): I1=lámina o líquido · I2=pintura o I1 · I3=revestimiento hidrófugo interior (fábrica)",
+        "Drenaje (D): D1=capa drenante+filtrante · D2=pozo drenante c/50 m (diámetro ≥0,7 m, 2 bombas) · D3=tubo drenante en arranque · D4=canaletas cámara",
+        "Ventilación cámara (V1): caudal ≥0,7 l/s·m² superficie útil · 50% aberturas inferior + 50% coronación · distancia entre aberturas ≤5 m · relación Ss/Ah: 10<Ss/Ah<30",
+        "Encuentros muro-fachada (interior): impermeabilizante >15 cm sobre nivel suelo exterior + banda refuerzo hacia abajo ≥20 cm",
+        "Esquinas/rincones: banda de refuerzo ≥15 cm de anchura centrada en la arista",
+        "Limitación de condensaciones superficiales e intersticiales: según DB-HE1",
+      ]},
+      { h: "HS 2 – Recogida y evacuación de residuos", items: [
+        "Obligación: espacios y medios para extraer residuos ordinarios de acuerdo con el sistema público de recogida",
+        "Facilitar la separación selectiva en origen y la recogida selectiva",
+        "Almacén de contenedores de edificio + espacio de reserva + posibles bajantes de residuos",
+      ]},
+      { h: "HS 3 – Calidad del aire interior", items: [
+        "Objetivo: ventilación adecuada, eliminación de contaminantes habituales, caudal suficiente de aire exterior",
+        "Evacuación de productos de combustión: con carácter general, por la cubierta del edificio, independientemente del combustible",
+        "En viviendas y aparcamientos: cumplimiento de esta sección HS3 · resto de edificios: RITE IT 1.1.4.2",
+      ]},
+      { h: "HS 4 – Suministro de agua", items: [
+        "Agua apta para consumo · caudales suficientes · sin alteración de propiedades · prevención de retornos",
+        "Equipos de ACS con acumulación: condiciones para evitar el desarrollo de gérmenes patógenos (Legionella)",
+        "Ahorro y control del agua: criterios de diseño, señalización y dispositivos ahorradores",
+      ]},
+      { h: "HS 5 – Evacuación de aguas", items: [
+        "Medios para extraer aguas residuales de forma independiente o conjunta con pluviales y escorrentías",
+        "Comprende: aguas fecales (residuales) + aguas pluviales (precipitaciones) + escorrentías de cubierta y exteriores",
+      ]},
+      { h: "HS 6 – Protección frente al radón (RD 732/2019 + RD 450/2022)", items: [
+        "Radón: gas noble radiactivo procedente del terreno que puede acumularse en recintos cerrados",
+        "Riesgo variable por municipio según clasificación del potencial de radón del subsuelo",
+        "Medidas: barrera de protección · espacio de contención ventilado · despresurización del terreno",
+      ]},
+    ],
+    claves: [
+      "HS1 presencia agua: baja=sobre freático · media=0-2m bajo freático · alta=≥2m bajo freático",
+      "HS1 grado imp. mínimo: Ks≤10⁻² + alta → 5 · Ks≤10⁻⁵ + alta → 4 · baja → 1",
+      "HS1 V1 cámara: ≥0,7 l/s·m² · aberturas 50%inf+50%cor · distancia ≤5 m",
+      "HS1 D2 pozos drenantes: c/50 m · diámetro ≥0,7 m · 2 bombas de achique",
+      "HS1 encuentro muro-fachada interior: impermeabilizante >15 cm sobre nivel suelo · banda refuerzo ≥20 cm",
+      "HS1 esquinas/rincones: banda refuerzo ≥15 cm centrada en arista",
+      "HS3 combustión: evacuación general por cubierta · calidad aire en viviendas/aparcamientos → HS3; resto → RITE",
+      "DB-HS comprende 6 secciones (HS1-HS6): la 6ª (radón) incorporada por RD 732/2019",
+    ],
+  },
+
   "E11": {
     intro: "El CTE DB-SE-AE (Acciones en la Edificación) cuantifica las acciones gravitatorias, climáticas y accidentales sobre los edificios para la verificación de la seguridad estructural. Clasifica las acciones en permanentes (peso propio, pretensado, terreno) y variables (uso, viento, nieve, térmicas, accidentales).",
     bloques: [
