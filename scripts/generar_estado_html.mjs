@@ -1,16 +1,7 @@
 import { PREGUNTAS } from '../src/data/preguntas.js';
 import { RESUMENES } from '../src/data/resumenes.js';
-import { RESUMEN_E03 } from '../src/data/resumenE03.js';
-import { RESUMEN_E04 } from '../src/data/resumenE04.js';
 import { temaTitulo } from '../src/data/temas.js';
 import fs from 'fs';
-
-// Los resúmenes de E3 y E4 viven en módulos separados en main.
-const RESUMENES_COMPLETO = {
-  ...RESUMENES,
-  E3: RESUMEN_E03,
-  E4: RESUMEN_E04,
-};
 
 const MARGEN = 0.10;
 const UMBRAL_VISIBLE = 25;
@@ -36,7 +27,7 @@ function mide(qs) {
 }
 
 function analizaResumen(key) {
-  const r = RESUMENES_COMPLETO[key];
+  const r = RESUMENES[key];
   if (!r) return {estado:'EN BLANCO', tiene:false, notas:0, items:0, citas:0, claves:0};
   const bloques = r.bloques || [];
   const notas = bloques.filter(b=>b.nota && b.nota.trim()).length;
@@ -486,7 +477,7 @@ fs.writeFileSync('ESTADO_TEMAS.html', html, 'utf8');
 
 // También generar markdown
 let md = `# Mapa del temario — calidad real\n\n`;
-md += `Fecha: 2026-08-22. Preguntas: ${PREGUNTAS.length}. Resúmenes: ${Object.keys(RESUMENES_COMPLETO).length}/72.\n\n`;
+md += `Fecha: 2026-08-22. Preguntas: ${PREGUNTAS.length}. Resúmenes: ${Object.keys(RESUMENES).length}/72.\n\n`;
 md += `Criterio de resumen: **Bueno** = la mayoría de bloques tienen nota explicativa + claves. **Malo** = lista plana sin notas. **En blanco** = no existe.\n\n`;
 md += `| Tema | Título | Global | Resumen | Preguntas | Nº | Visible>10% | Ratio | a/b/c/d | Notas/Items | Claves |\n`;
 md += `|------|--------|--------|---------|-----------|---:|------------:|------:|---------|------------:|-------:|\n`;

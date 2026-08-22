@@ -2152,6 +2152,155 @@ export const RESUMENES = {
     ],
   },
 
+  E3: {
+    intro: "El DB-SI establece reglas y procedimientos para cumplir las exigencias básicas de seguridad en caso de incendio. Se organiza en SI 1 a SI 6: propagación interior, propagación exterior, evacuación, instalaciones de protección, intervención de bomberos y resistencia al fuego de la estructura.",
+    bloques: [
+      { h: "Mapa del DB-SI", items: [
+        "SI 1: Propagación interior · SI 2: Propagación exterior · SI 3: Evacuación de ocupantes · SI 4: Instalaciones de protección contra incendios · SI 5: Intervención de los bomberos · SI 6: Resistencia al fuego de la estructura.",
+        "Los sectores se compartimentan según las condiciones establecidas en SI 1; las superficies máximas pueden duplicarse con instalación automática de extinción.",
+        "El DB-SI incluye además un Anejo A de terminología y los anejos de cálculo de resistencia al fuego."
+      ]},
+      { h: "SI 1 — Propagación interior", items: [
+        "La compartimentación en sectores de incendio se determina según el uso, superficie y condiciones del edificio.",
+        "Las zonas de riesgo especial se clasifican en bajo, medio y alto, con exigencias crecientes de resistencia al fuego y vestíbulo de independencia en los supuestos indicados.",
+        "Los espacios ocultos y los pasos de instalaciones deben mantener la compartimentación contra incendios.",
+        "La reacción al fuego de los elementos constructivos se determina según la situación y el uso del espacio.",
+        "Las puertas entre sectores y las de vestíbulos de independencia tienen clases de resistencia al fuego específicas."
+      ]},
+      { h: "SI 2 — Propagación exterior", items: [
+        "Las medianerías o elementos verticales separadores de otro edificio deben cumplir la resistencia al fuego exigida.",
+        "La separación horizontal entre huecos de fachadas enfrentadas o en ángulo se determina según el ángulo entre planos.",
+        "La propagación vertical por fachada exige una franja resistente al fuego en las condiciones indicadas.",
+        "Las fachadas y cámaras ventiladas tienen clases de reacción al fuego según la altura del edificio.",
+        "Las cubiertas deben resolver la propagación exterior en los encuentros con edificios y elementos compartimentadores."
+      ]},
+      { h: "SI 3 — Evacuación de ocupantes", items: [
+        "La ocupación se determina mediante la superficie útil y las densidades de ocupación de la tabla correspondiente.",
+        "Las condiciones de salida única y de más de una salida dependen de ocupación, uso, altura y longitud de los recorridos.",
+        "La anchura de puertas, pasos, pasillos y rampas se determina mediante las relaciones establecidas en el DB-SI y sus mínimos.",
+        "En determinados supuestos las puertas deben abrir en el sentido de la evacuación.",
+        "Se establecen condiciones específicas para control de humo y para la evacuación de personas con discapacidad, incluyendo sectores alternativos y zonas de refugio."
+      ]},
+      { h: "SI 4 — Instalaciones de protección contra incendios", items: [
+        "La dotación de extintores, BIE, columna seca, detección, alarma, hidrantes y sistemas automáticos depende del uso y de las condiciones establecidas en la tabla de dotación.",
+        "Los extintores deben disponerse de forma que el recorrido real hasta alguno de ellos no exceda de 15 m en las condiciones generales indicadas.",
+        "La señalización de las instalaciones manuales de protección contra incendios debe cumplir el RIPCI."
+      ]},
+      { h: "SI 5 — Intervención de bomberos", items: [
+        "Viales de aproximación: anchura mínima libre 3,5 m; altura mínima libre 4,5 m; capacidad portante 20 kN/m².",
+        "En tramos curvos, el carril debe quedar delimitado por una corona circular de radios mínimos 5,30 m y 12,50 m, con anchura libre de circulación 7,20 m.",
+        "Los edificios con altura de evacuación descendente mayor de 9 m deben disponer de espacio de maniobra con las condiciones indicadas.",
+        "Separación máxima del vehículo de bomberos a fachada: 23 m hasta 15 m de altura de evacuación; 18 m entre más de 15 y 20 m; 10 m por encima de 20 m.",
+        "Huecos de acceso por fachada: alféizar ≤1,20 m; dimensiones mínimas 0,80 × 1,20 m; separación máxima entre ejes verticales consecutivos 25 m.",
+        "En zonas edificadas limítrofes o interiores a áreas forestales se exige una franja de 25 m y las condiciones de acceso indicadas."
+      ]},
+      { h: "SI 6 — Resistencia al fuego de la estructura", items: [
+        "La resistencia al fuego puede determinarse mediante las tablas de los anejos, métodos simplificados o ensayos.",
+        "Los elementos estructurales principales deben alcanzar la clase R exigida o soportar el tiempo equivalente de exposición al fuego.",
+        "Para riesgo especial: R90 bajo, R120 medio y R180 alto.",
+        "Las cubiertas ligeras no destinadas a evacuación pueden ser R30 en las condiciones previstas por el DB-SI.",
+        "Los elementos estructurales secundarios cuyo colapso no comprometa ocupantes, estabilidad global, evacuación ni compartimentación pueden quedar sin exigencia de resistencia al fuego."
+      ]},
+      { h: "Terminología útil", items: [
+        "Vestíbulo de independencia: recinto de uso exclusivo para circulación situado entre zonas para aportar mayor garantía de compartimentación contra incendios.",
+        "Zona de ocupación nula: zona donde la presencia de personas es ocasional o de mantenimiento y que no se considera para determinar ocupantes o altura de evacuación.",
+        "Zona de refugio: zona con superficie suficiente para las plazas exigibles, situada en los lugares previstos por el DB-SI."
+      ]}
+    ],
+    claves: [
+      "SI1 interior · SI2 exterior · SI3 evacuación · SI4 instalaciones · SI5 bomberos · SI6 estructura",
+      "Vial bomberos: 3,5 m / 4,5 m / 20 kN/m²",
+      "Acceso fachada: 0,80 × 1,20 m; separación máxima 25 m",
+      "Riesgo especial: R90 / R120 / R180",
+      "Zona de refugio: 1,20 × 0,80 m para silla de ruedas y 0,80 × 0,60 m para otras personas con movilidad reducida"
+    ],
+  },
+
+  E4: {
+    intro: "El RIPCI regula las condiciones y requisitos de diseño, instalación/aplicación, mantenimiento e inspección de equipos, sistemas y componentes de protección activa contra incendios. El resumen se limita al contenido del E_Tema04.txt.",
+    bloques: [
+      { h: "Disposiciones generales", items: [
+        "Objeto: condiciones y requisitos para diseño, instalación/aplicación, mantenimiento e inspección de instalaciones de protección activa contra incendios.",
+        "La protección activa comprende medios, equipos y sistemas manuales o automáticos para detección, control y/o extinción.",
+        "Empresa instaladora: instala equipos y sistemas y coloca señales, balizamientos o planos de evacuación luminiscentes. Empresa mantenedora: realiza operaciones de mantenimiento."
+      ]},
+      { h: "Sistemas de detección y alarma", items: [
+        "Diseño, instalación, puesta en servicio y uso según UNE 23007-14; compatibilidad de componentes según UNE-EN 54-13; alarma por voz según UNE 23007-32.",
+        "Pulsadores: recorrido máximo 25 m y parte superior entre 80 y 120 cm.",
+        "El equipo de control e indicación debe permitir identificar la zona activada.",
+        "Los dispositivos de alarma visual se disponen en los supuestos indicados por el reglamento."
+      ]},
+      { h: "Abastecimiento de agua e hidrantes", items: [
+        "El abastecimiento comprende fuentes de agua, equipos de impulsión y red general para garantizar caudal, presión y autonomía.",
+        "Zona protegida por hidrante: recorrido real inferior a 100 m en zonas urbanas y a 40 m en el resto.",
+        "Al menos un hidrante tendrá salida de 100 mm, en las condiciones establecidas.",
+        "Caudal mínimo por boca: 500 l/min. La presión mínima depende de si se utiliza para llenado de camiones o para impulsión directa."
+      ]},
+      { h: "Extintores", items: [
+        "Extintor portátil: masa ≤20 kg. Extintor móvil: masa >20 kg y sobre ruedas.",
+        "Deben situarse visibles y accesibles, preferentemente próximos a las salidas, con la parte superior entre 80 y 120 cm.",
+        "Recorrido máximo horizontal hasta un extintor: 15 m.",
+        "Clases de fuego: A sólidos con brasas; B líquidos o sólidos licuables; C gases; D metales; F aceites y grasas de cocina."
+      ]},
+      { h: "Bocas de incendio equipadas", items: [
+        "Manguera semirrígida: 25 mm. Manguera plana: 45 mm.",
+        "Boquilla y válvula o sistema de apertura: máximo 1,50 m sobre el suelo.",
+        "Una BIE se sitúa a un máximo de 5 m de cada salida de sector, salvo las excepciones previstas.",
+        "Radio de acción: longitud de manguera más 5 m. Separación máxima entre BIE: 50 m.",
+        "Longitud máxima de manguera: 20 m plana y 30 m semirrígida.",
+        "Durante una hora deben funcionar las dos BIE hidráulicamente más desfavorables: 25 mm, 85 l/min y 4 bar; 45 mm, 160 l/min y 3,5 bar. Presión máxima de entrada: 9 bar.",
+        "Prueba previa al servicio: presión estática igual a la máxima de servicio y como mínimo 980 kPa durante dos horas para BIE con manguera semirrígida o plana."
+      ]},
+      { h: "Sistemas de columna seca", items: [
+        "Toma de agua exterior con conexión siamesa, llaves incorporadas y racores de 70 mm; columna de acero galvanizado DN80.",
+        "Ascendente: salidas en plantas pares hasta la octava y en todas a partir de ella; válvula de seccionamiento cada cuatro plantas.",
+        "Descendente: válvula de seccionamiento y salida en cada planta.",
+        "Las bocas de salida se sitúan en recintos de escaleras o vestíbulos previos.",
+        "El recorrido máximo hasta las columnas secas debe ser inferior a 60 m.",
+        "Prueba: mínimo 1470 kPa hasta 30 m de altura y 2450 kPa por encima de 30 m, durante dos horas."
+      ]},
+      { h: "Sistemas fijos de extinción", items: [
+        "Rociadores automáticos y agua pulverizada: red de tuberías, puesto de control y boquillas; diseño de rociadores según UNE-EN 12845.",
+        "Agua nebulizada: UNE-CEN/TS 14972.",
+        "Espuma física: red, tanque de espumógeno, dosificador/proporcionador y boquillas; diseño UNE-EN 13565-2.",
+        "Polvo: recipiente de polvo, gas propelente, tuberías, válvulas selectoras, accionamiento/control y boquillas. Requiere seguridad o evacuación, retardo y prealarma.",
+        "Agentes gaseosos: dispositivos de accionamiento, control, recipientes, tuberías y difusores. También requieren seguridad o evacuación, retardo y prealarma.",
+        "Aerosoles condensados: dispositivos de accionamiento, equipos de control y generadores de aerosol.",
+        "Cocinas comerciales: sistemas certificados conforme UNE-EN 17446; instalación y mantenimiento por empresas habilitadas para el sistema correspondiente."
+      ]},
+      { h: "Control de humos y calor", items: [
+        "Finalidad: limitar los efectos del calor y humo, favorecer la evacuación y facilitar la extinción.",
+        "Cuatro estrategias: flotabilidad de gases calientes, presurización diferencial, ventilación horizontal y extracción de humos.",
+        "Flotabilidad: UNE 23585 para proyecto y UNE 23584 para instalación, puesta en marcha y mantenimiento en los supuestos indicados.",
+        "Presión diferencial: UNE-EN 12101-6 y UNE 23584 en lo no previsto.",
+        "Los componentes de extracción de calor y humos se someten a las normas de la serie UNE-EN 12101 indicadas."
+      ]},
+      { h: "Mantas ignífugas y alumbrado de emergencia", items: [
+        "Las mantas ignífugas extinguen pequeños fuegos por sofocación; su caducidad no debe exceder de 20 años.",
+        "Deben ser visibles, accesibles y estar próximas a los puntos donde se estime mayor probabilidad de uso.",
+        "El alumbrado de emergencia asegura iluminación tras el fallo del alumbrado normal y permite identificar equipos y medios de protección.",
+        "El alumbrado de emergencia cumple las especificaciones del REBT e ITC-BT-28."
+      ]},
+      { h: "Señalización luminiscente", items: [
+        "Su función es informar de la situación de equipos e instalaciones de protección contra incendios de utilización manual incluso ante fallo del alumbrado normal.",
+        "Puede ser fotoluminiscente o estar alimentada eléctricamente.",
+        "Las señales deben ser claramente visibles y pueden reforzarse mediante balizamientos y planos de evacuación.",
+        "Señales de medios manuales y sistemas de alerta/alarma: UNE 23033-1. Planos de evacuación: UNE 23032.",
+        "Sistemas fotoluminiscentes: UNE 23035-4; categoría A en los centros donde se desarrollen las actividades indicadas en el anexo I de la Norma Básica de Autoprotección."
+      ]}
+    ],
+    claves: [
+      "Pulsador: 25 m / 80-120 cm",
+      "Hidrante: <100 m urbano / <40 m resto; 500 l/min",
+      "Extintor: 15 m / 80-120 cm",
+      "BIE: separación 50 m; radio = manguera + 5 m",
+      "BIE 25 mm: 85 l/min / 4 bar; BIE 45 mm: 160 l/min / 3,5 bar",
+      "Columna seca: recorrido <60 m; DN80",
+      "Manta ignífuga: caducidad ≤20 años",
+      "Humos: flotabilidad / presión diferencial / ventilación horizontal / extracción"
+    ],
+  },
+
   E5: {
     intro:
       "El RD 164/2025 establece los requisitos de seguridad contra incendios en establecimientos industriales: prevención, detección, limitación de propagación y extinción. Es de aplicación complementaria cuando otra legislación sectorial específica regule la actividad. Define protección pasiva (constructiva) y activa (equipos/sistemas), y establece un sistema de caracterización por configuración del edificio, sectorización y nivel de riesgo intrínseco (NRI) determinado por la densidad de carga de fuego ponderada y corregida (Qs).",

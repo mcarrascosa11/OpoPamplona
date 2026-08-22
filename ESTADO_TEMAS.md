@@ -20,7 +20,7 @@ Criterio de resumen: **Bueno** = la mayoría de bloques tienen nota explicativa 
 | G12 | Estrategia Transición Energética y Cambio Climático 2030 Pamplona | OK | BUENO | OK | 15 | 0% | 0.99 | 4/4/4/3 | 5/24 | 11 |
 | G13 | Bienes de las entidades locales (LF 6/1990 + DF 280/1990) | OK | BUENO | OK | 15 | 13% | 1.15 | 4/4/4/3 | 7/33 | 9 |
 | E1 | LOE — Ley 38/1999 de Ordenación de la Edificación | REGULARES | BUENO | REGULARES | 15 | 20% | 0.95 | 4/4/4/3 | 7/48 | 9 |
-| E2 | CTE — RD 314/2006 y Parte I | REGULARES | BUENO | REGULARES | 19 | 16% | 1.03 | 5/5/5/4 | 8/41 | 12 |
+| E2 | CTE — RD 314/2006 y Parte I | REGULARES | BUENO | REGULARES | 19 | 16% | 1.03 | 5/5/5/4 | 8/43 | 11 |
 | E3 | CTE DB-SI — Seguridad en caso de incendio | MALO | MALO | REGULARES | 15 | 20% | 1.19 | 4/4/4/3 | 0/35 | 5 |
 | E4 | RD 513/2017 — RIPCI | MALO | MALO | REGULARES | 20 | 25% | 1.38 | 5/5/5/5 | 0/49 | 8 |
 | E5 | RD 164/2025 — Incendios establecimientos industriales | REGULARES | BUENO | REGULARES | 20 | 20% | 0.97 | 5/5/5/5 | 6/48 | 13 |
