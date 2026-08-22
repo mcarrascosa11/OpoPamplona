@@ -4101,84 +4101,248 @@ export const RESUMENES = {
   ],
 },
 
-  E19: {
-    intro: "El Anexo II del DF 142/2004 regula las condiciones de habitabilidad aplicables a viviendas nuevas y a rehabilitaciones equiparables (PEM/m² >70% módulo ponderado o vaciado >60% forjados). Abarca acceso vertical, alturas, superficies, instalaciones y garajes.",
-    bloques: [
-      {
-        h: "Ámbito y equiparación a obra nueva (art. 1)",
-        items: [
-          "Equiparable a obra nueva: afecta a todas las viviendas Y PEM/m² >70% del módulo ponderado",
-          "También: vaciado total o demolición >60% forjados (excluida cubierta)",
-        ],
-      },
-      {
-        h: "Ascensor (art. 4)",
-        items: [
-          "Obligatorio cuando alguna vivienda se accede desde la 3ª planta (sin contar baja)",
-          "≤16 viviendas: fondo 1,20 m × anchura 1,00 m",
-          ">16 viviendas: fondo 1,40 m × anchura 1,10 m",
-          "Máximo 24 viviendas por ascensor",
-        ],
-      },
-      {
-        h: "Alturas (art. 12)",
-        items: [
-          "Techo horizontal: ≥2,40 m",
-          "Distribución, aseos, cocinas y tendederos cubiertos (con falso techo): ≥2,20 m",
-          "Rehabilitación sin sustitución de forjados: puede admitirse ≥2,20 m",
-        ],
-      },
-      {
-        h: "Superficies (art. 13-16)",
-        items: [
-          "Sala de estar (1-2 dorm): ≥12 m², rectángulo 2,70×3,50 m; (+2 m²/dorm adicional)",
-          "Cocina 1 dormitorio: ≥5 m²; cocina ≥2 dormitorios: ≥7 m² (rectángulo 3×1,60 m)",
-          "Dormitorio principal: ≥10 m², cuadrado 2,50 m de lado",
-          "Dormitorios adicionales: ≥8 m²",
-          "Baño (ducha+inodoro+lavabo): ≥2,50 m²",
-          "Aseo: ≥1,70 m²",
-          "Dotación baños: ≤3 dorm → 1 baño; ≥4 dorm → 1 baño + 1 aseo",
-        ],
-      },
-      {
-        h: "Tendedero y pasos (art. 17-18)",
-        items: [
-          "Tendedero: longitud mínima 6 m de cuerda (tramos ≥1 m, separación horizontal ≥20 cm)",
-          "Pasillos: anchura mínima 90 cm (estrechamientos puntuales hasta 80 cm admitidos)",
-          "Puertas de paso: anchura mínima 80 cm",
-          "Escaleras interiores: ≥90 cm, huella ≥27 cm, contrahuella ≤19 cm",
-        ],
-      },
-      {
-        h: "Garajes (art. 8)",
-        items: [
-          "Altura mínima libre: 2,10 m en toda plaza, rampa y circulación",
-          "Zaguán (desnivel >1 m entre vía y garaje): pendiente ≤6%, fondo ≥5 m",
-          "Rampa: anchura ≥3 m, pendiente máxima 20%",
-          "Plaza (acceso frontal): 2,3 × 4,7 m; con pared lateral: anchura ≥2,8 m",
-          "Plaza en línea: 2,2 × 5,0 m",
-          "Pasillo de maniobra: ≥3,5 m; si el ángulo de entrada >45°: ≥4,5 m",
-        ],
-      },
-      {
-        h: "Instalaciones (art. 20)",
-        items: [
-          "Presión agua: 1-4,5 kg/cm²",
-          "Velocidad máxima: 1,5 m/s",
-          "ACS: 13 l/min a 40 °C o 75 l acumulados",
-        ],
-      },
-    ],
-    claves: [
-      "Ascensor: obligatorio si hay viviendas en planta 3ª (sin contar baja); máx. 24 viv/ascensor",
-      "≤16 viv: ascensor 1,20×1,00 m; >16 viv: 1,40×1,10 m",
-      "Altura libre: ≥2,40 m (≥2,20 m en distribución, aseos, cocinas)",
-      "Sala estar 1-2 dorm: ≥12 m²; dorm principal ≥10 m²; baño ≥2,50 m²",
-      "Cocina ≥5 m² (1 dorm) / ≥7 m² (≥2 dorm); tendedero: ≥6 m cuerda",
-      "Garaje: h≥2,10 m; plaza 2,3×4,7 m; rampa ≥3 m, pendiente ≤20%",
-      "Agua: 1-4,5 kg/cm², ≤1,5 m/s; ACS: 13 l/min a 40°C o 75 l",
-    ],
-  },
+  "E19": {
+  intro: "El Decreto Foral 142/2004, de 22 de marzo, regula las condiciones minimas de habitabilidad de las viviendas en la Comunidad Foral de Navarra; su Anexo II desarrolla los requisitos tecnicos aplicables a edificios y viviendas nuevas, rehabilitadas o ampliadas, organizados en condiciones del edificio y condiciones de las viviendas.",
+  bloques: [
+    {
+      h: "Ambito de aplicacion (Cap. I, art. 1)",
+      nota: "Este articulo es clave porque establece cuando una rehabilitacion se equipara a obra nueva y, por tanto, debe cumplir el Anexo II al completo. La trampa habitual es pensar que solo el presupuesto importa; en realidad hay tres vias independientes: presupuesto/m2 >70% del modulo ponderado, vaciado total del edificio, o demolicion y reposicion de mas del 60% de la superficie de forjados (excluida cubierta). Ademas, los presupuestos de obras de los ultimos 5 anos se acumulan para el calculo. En rehabilitaciones parciales solo se exige lo compatible con la intervencion, y en ampliaciones solo en la zona ampliada, sin deteriorar lo existente.",
+      items: [
+        "Ambito: viviendas de nueva planta, nuevas en edificio existente y rehabilitadas equiparables a nueva planta (art. 1.1)",
+        "Rehabilitacion equiparable a nueva: presupuesto de ejecucion material dividido por m2 construidos afectados supera el 70% del modulo ponderado anual de actuaciones protegibles (art. 1.2)",
+        "Acumulacion de presupuestos: se suman obras efectuadas en el edificio cuya finalizacion haya sido dentro de los 5 anos anteriores a la solicitud de licencia (art. 1.3)",
+        "Equiparacion tambien por vaciado total del edificio o demolicion y reposicion de mas del 60% de la superficie de forjados, excluida la cubierta, con independencia del presupuesto (art. 1.4)",
+        "Rehabilitaciones parciales: exigibles las condiciones compatibles con la naturaleza de la intervencion (art. 1.5)",
+        "Ampliaciones: exigibles en la zona ampliada; prohibido deteriorar las condiciones de habitabilidad de las viviendas o elementos comunes existentes (art. 1.6)"
+      ]
+    },
+    {
+      h: "Servicios, instalaciones y otras condiciones del edificio (Arts. 2, 9, 10)",
+      nota: "Este bloque agrupa requisitos transversales del edificio que suelen caer en preguntas de enumeracion. La ventilacion de bajantes y la de trasteros son detalles tecnicos faciles de confundir con el CTE. La cifra de 0,5 volumenes/hora para trasteros y la prohibicion de conectar impulsores de aire o campanas extractoras a los conductos de ventilacion de bajantes son puntos de trampa. La planta baja exige forjado ventilado a 0,5 m del terreno salvo justificacion de aislamiento de humedades.",
+      items: [
+        "Instalaciones de telecomunicaciones y casilleros postales en portales segun normativa aplicable (art. 2.1 y 2.2)",
+        "Bajantes de saneamiento ventiladas (art. 2.3)",
+        "Conductos de ventilacion: un colector maximo 8 plantas; dos ultimas con conducto independiente; seccion minima colector 400 cm2; remate en aspirador estatico o dinamico (art. 2.4.a)",
+        "Acometidas individuales: un solo local, longitud minima 2 m, seccion minima 150 cm2, protegidas por rejilla en contacto con el local; prohibido conectar impulsores de aire o campanas extractoras (art. 2.4.b)",
+        "Prohibicion de conectar al mismo colector conductos de ventilacion y salidas de humos o gases (art. 2.4.c)",
+        "Trasteros: acceso con puerta minima 80 x 200 cm; ventilacion con renovacion minima 0,5 volumenes/hora (art. 9)",
+        "Planta baja: forjado con separacion del terreno de 0,5 m formando camara ventilada, salvo justificacion de aislamiento eficaz de humedades (art. 10.a)",
+        "Pendiente maxima del pavimento en interior de vivienda: 0,5% (art. 10.b)",
+        "Patios de parcela: accesibles para limpieza salvo uso privativo con acceso desde la vivienda; desague sifonico para aguas pluviales (art. 10.c)"
+      ]
+    },
+    {
+      h: "Seguridad y protecciones (Art. 3)",
+      nota: "Las medidas de seguridad contra caidas son muy preguntables por sus cifras exactas. La trampa esta en distinguir desniveles de elementos comunes o locales vinculados (40 cm) frente a desniveles en el interior de la vivienda (60 cm). La esfera de 12 cm de diametro es el parametro comun para huecos de barandillas y entre peldaños sin tabica. El vidrio o ceramica fragil debe garantizar que su rotura no elimine la proteccion.",
+      items: [
+        "Desniveles >40 cm en elementos comunes o locales vinculados a viviendas, o >60 cm en interior de viviendas: proteccion, antepecho o barandado (art. 3.1)",
+        "Barandilla: altura minima 95 cm en cualquier punto, medida desde pavimento terminado; impedir paso de esfera de 12 cm de diametro bajo esa altura (art. 3.1.b)",
+        "Elementos fragiles (vidrio, ceramicos) bajo 95 cm: armado interior o sistema justificado que garantice que la rotura no supone desaparicion fisica ni deja de cumplir su funcion (art. 3.1.c)",
+        "Escaleras sin tabicas: si el hueco entre peldaños permite caida >60 cm, impedir paso de esfera de 12 cm (art. 3.2)",
+        "Edificios de mas de una vivienda: acceso desde via publica al portal limitado por puerta con mecanismo de apertura accionable desde exterior e interior de cada vivienda, con dispositivo de comunicacion oral (art. 3.3)",
+        "Puerta de acceso a viviendas: cerradura con llave y mirilla con vision al exterior (art. 3.4)"
+      ]
+    },
+    {
+      h: "Accesos y ascensores (Art. 4)",
+      nota: "Este articulo concentra umbrales numericos que el opositor debe saber de memoria. La obligatoriedad de ascensor se activa cuando alguna vivienda tiene acceso en planta tercera (sin contar la baja). Las dimensiones de cabina cambian segun si el ascensor da servicio a 16 o menos viviendas (1,20 x 1,00 m) o a mas de 16 (1,40 x 1,10 m). La relacion maxima es 24 viviendas por ascensor. En rehabilitaciones equiparables a nueva, si el edificio tiene menos de baja mas seis plantas, se exime del ascensor cuando su instalacion sea imposible. La exencion por division de vivienda exige acumulativamente no incrementar superficie de vivienda y que la instalacion requiera cesion de superficie de otros propietarios.",
+      items: [
+        "Obligatoriedad de ascensor: edificios de vivienda colectiva con alguna vivienda cuyo acceso se situe en planta tercera, sin contar la baja (art. 4.2)",
+        "Edificios de nueva planta sin ascensor obligatorio: disponer huecos y espacios para su futura instalacion con las mismas dimensiones que si estuviera instalado (art. 4.3)",
+        "Exencion en rehabilitaciones equiparables: edificio con plantas inferiores a baja mas seis, si la instalacion del ascensor es imposible (art. 4.4)",
+        "Exencion por division de vivienda: no incremento de superficie destinada a vivienda Y imposibilidad de instalar ascensor sin cesion de superficie de otros propietarios de fincas del mismo edificio (art. 4.5)",
+        "Cabina ascensor <=16 viviendas: fondo 1,20 m y anchura 1,00 m (art. 4.6.a)",
+        "Cabina ascensor >16 viviendas: fondo minimo 1,40 m y anchura minima 1,10 m, salvo que exista mas de un ascensor de 1 x 1,20 m (art. 4.6.b)",
+        "Relacion maxima: 24 viviendas por ascensor (art. 4.7)",
+        "Acceso de ascensores a plantas de garaje o trasteros en las mismas condiciones de accesibilidad que el resto de plantas (art. 4.8)"
+      ]
+    },
+    {
+      h: "Circulaciones y escaleras de uso comun (Arts. 5-6)",
+      nota: "Las escaleras de uso comun son uno de los temas estrella del examen por la cantidad de parametros numericos. La anchura minima del peldanado y mesetas es 1 m, pero las mesetas con puertas a viviendas, locales o ascensor exigen 1,20 m. La altura libre minima general en escalera es 2,10 m. La iluminacion directa por apertura a espacio exterior o patio interior requiere 1 m2 por planta y rosca completa, con 0,3 m2 practicable. La iluminacion cenital tiene sus propias dimensiones de hueco (1 m2 central, 1,3 m2 no central) y lucernario (2 m2 si angulo <45°, 3 m2 si >45°). La distancia maxima del punto mas alto del lucernario a la cota del portal es 17 m.",
+      items: [
+        "Portal: puerta de dimensiones minimas 0,90 x 2,00 m (art. 5.1)",
+        "Circulacion horizontal hasta viviendas: anchura minima 1 m, altura libre minima 2,40 m; en zonas <=2,50 m de anchura se admite falso techo a 2,20 m del forjado resistente; bajo elementos que cuelguen (vigas, conductos) altura minima 2,10 m si el elemento no tiene mas de 0,80 m de fondo (art. 5.2)",
+        "Escaleras: comunican todas las plantas con accesos a viviendas con la de acceso al edificio; escaleras de salida de garaje acceden directamente al exterior si no acceden a el las escaleras principales (art. 6.1)",
+        "Anchura minima peldanado o mesetas intermedias: 1 m; altura vertical libre minima en cualquier punto de escalera y rellanos hasta distancia igual a la anchura de la escalera: 2,10 m (art. 6.2.a)",
+        "Mesetas sin puertas: minimo la anchura de la escalera; mesetas con puertas a viviendas, locales o ascensor: minimo 1,20 m, con hueco de puertas al menos a 25 cm del peldaño mas proximo (art. 6.2.b)",
+        "Iluminacion y ventilacion directas: apertura a espacio exterior o patio interior; superficie minima 1 m2 por planta y rosca completa; superficie practicable para ventilacion 0,3 m2; prohibida iluminacion a traves de terrazas privadas, tendederos o terrazas comunes cubiertas (art. 6.3.1)",
+        "Sistema de apertura o altura del hueco: evitar invasion del recorrido de evacuacion en altura minima de 2 m (art. 6.3.2)",
+        "Iluminacion directa del recorrido de evacuacion desde el hueco, excepto en planta baja, a distancia maxima de 3 m al punto mas cercano del eje del recorrido; anchura del recorrido igual a la de la escalera (art. 6.3.3)",
+        "Iluminacion cenital: hueco central minimo 1 m2 con cilindro inscribible de 0,5 m de diametro; si no es central: 1,3 m2, cilindro 0,8 m, lado minimo de contacto con escalera 1,3 m; hueco hasta planta del portal (art. 6.3.4.a)",
+        "Lucernario en cubierta: 2 m2 si angulo <45° con horizontal; 3 m2 si >45°; punto mas alto del lucernario a menos de 17 m de la cota del portal; ventilacion permanente o practicable desde la escalera de 0,80 m2 (art. 6.3.4.b)",
+        "Distribuidor de planta sin iluminacion y ventilacion propias e independizado de la escalera: conducto de ventilacion hasta cubierta en mismas condiciones que cocinas y banos (art. 6.3.5)"
+      ]
+    },
+    {
+      h: "Patios: clasificacion y dimensiones (Art. 7)",
+      nota: "La clasificacion de patios es fundamental para determinar que huecos pueden abrirse a ellos y con que exigencias. El patio de manzana se considera espacio exterior si admite un cilindro de 12 m de diametro; si no, es patio interior. El patio de parcela tiene dimensiones minimas de cilindro inscrito (3 m de diametro y 0,25 H), superficie (12 m2 y H2/10) y luces rectas (3 m). Las luces rectas se definen como la minima perpendicular libre de obstaculos aplicable a cualquier punto del hueco. La altura H se cuenta desde la cota del pavimento de la primera planta iluminada hasta la coronacion del edificio en el perimetro del patio.",
+      items: [
+        "Patio de manzana: regulado por planeamiento urbanistico; si admite cilindro de 12 m de diametro en la base, tiene consideracion de espacio exterior; si no, patio interior (art. 7.a)",
+        "Patio interior o de parcela: incluido en una sola parcela o mancomunado; si es mancomunado y se adicionan dimensiones para alcanzar minimos, debe inscribirse en el Registro de la Propiedad con caracter mancomunado (art. 7.b)",
+        "Dimensiones minimas patio interior: cilindro inscrito 3 m de diametro y 0,25 H; superficie 12 m2 y H2/10; luces rectas 3 m (art. 7.b)",
+        "Luces rectas: minima perpendicular libre de obstaculos aplicable a cualquier punto de la superficie del hueco (art. 7.b)",
+        "Altura H del patio: desde cota del pavimento de la primera planta que se ilumina hasta la coronacion del edificio en el perimetro del patio; si no es uniforme, media ponderada de alturas en la finca propia, excluyendo chimeneas u otros elementos cuyo lado de contacto con el patio no supere 60 cm (art. 7.b)",
+        "Por encima de la coronacion: admisibles elementos o plantas retranqueados si no sobresalen de planos de 45° de pendiente que pasan por el elemento de coronacion de cada fachada del patio (art. 7.b)",
+        "Patios de viviendas unifamiliares de una sola planta: cumplen condiciones basicas del anexo 1 excepto luces rectas, que seran de al menos 3 m (art. 7.b)",
+        "Entrantes en patios de parcela o manzana: solo huecos necesarios para iluminacion y ventilacion si los entrantes tienen al menos las dimensiones minimas de patios de fachada (art. 7.b)",
+        "Patio exterior o de fachada: entrantes de mas de 1,5 m de profundidad; anchura minima del frente abierto 3 m; profundidad maxima igual a 1,5 veces su anchura; si se abren huecos de salas de estar en paredes laterales, luces rectas minimas de 6 m (art. 7.c)"
+      ]
+    },
+    {
+      h: "Garajes de nueva creacion (Art. 8)",
+      nota: "El articulo 8 es extenso y muy propenso a preguntas de cifras. La altura libre minima general en garajes es 2,10 m. Las plazas estandar miden 2,30 x 4,70 m con acceso frontal, o 2,20 x 5,00 m en linea; si estan limitadas por pared lateral, 2,80 x 4,70 m. Las plazas para minusvalidos son de 3,20 x 4,70 m, salvo que tengan un lateral completo libre lindando con pasillo, en cuyo caso pueden ser de 2,30 m de anchura. Las rampas rectas tienen anchura minima de 3 m y pendiente maxima del 20%; en curvas con radio <20 m, anchura 3,50 m y pendiente 15%. El radio minimo de curvatura en el eje es 6 m. El zaguan antes de una rampa con desnivel >1 m tiene 5 m de fondo minimo y pendiente maxima del 6%.",
+      items: [
+        "Definicion de garaje: local destinado al estacionamiento regular de vehiculos; no aplicable a garajes de uso publico (art. 8.1.1 y 8.1.2)",
+        "Garaje mancomunado: no son salidas de emergencia las que atraviesan fincas o portales privados sin servidumbre constituida (art. 8.1.3)",
+        "Altura libre minima en cualquier punto de plaza, rampa o elemento de circulacion: 2,10 m, incluyendo espacio de puerta de acceso (art. 8.1.4)",
+        "Zaguan para rampa descendente con desnivel >1 m: pendiente maxima 6%, fondo minimo 5 m antes de la rampa sin incluir acera ni calzada publica; anchura minima 3,5 m; puerta minima 3 m; en viviendas unifamiliares: fondo 2,5 m, anchura 3 m, puerta 2,5 m, salvo garaje comun a varias viviendas (art. 8.2.1)",
+        "Garajes de 100 o mas plazas: acceso y salida diferenciados o rampa y acceso dobles; rampas dobles minimo 5,40 m de anchura (art. 8.2.2)",
+        "Rampas de acceso rectas: anchura minima 3 m, pendiente maxima 20%; tramos curvos con radio <20 m: anchura minima 3,5 m, pendiente maxima 15% en el eje; radio minimo de curvatura en el eje: 6 m (art. 8.2.3)",
+        "Rampa doble sentido sin percepcion visual entre extremos o >30 m: dispositivo de indicacion de sentido prioritario (art. 8.2.4)",
+        "Ascensor para vehiculos o elevacoches como unico acceso: un aparato por cada 20 plazas o fraccion; garajes con 6 o mas plazas: zaguan minimo 5 m de anchura por 10 m de fondo (art. 8.2.5)",
+        "Pasillos circulacion vehiculos: anchura minima 3,5 m; si dan plazas con angulo >45°, anchura minima 4,5 m en todo el frente de la plaza (art. 8.3.1)",
+        "Cambios de direccion o giros: inscribible carril de 3 m de anchura con radio minimo de giro en eje central de 5 m (art. 8.3.2)",
+        "Pasillos circulacion personas: anchura minima 1 m; no invaden superficie de plazas; acceso a trastero solo a traves de plaza vinculada (art. 8.3.3)",
+        "Plaza estandar: superficie plana, pendiente maxima 6%, dimensiones libres minimas 2,30 x 4,70 m con acceso frontal; 2,20 x 5,00 m en aparcamientos en linea (art. 8.4.1)",
+        "Plaza limitada lateralmente por pared: 2,80 x 4,70 m; admisible reduccion de anchura eficaz a 2,50 m en longitud maxima 2,50 m desde el fondo (art. 8.4.2)",
+        "Elementos limitantes laterales con longitud >1,20 m paralela al eje mayor: asimilacion a pared lateral (art. 8.4.3)",
+        "Acceso a plazas desde circulacion: inexistencia de obstaculos en prolongacion recta de limites laterales hasta el pasillo, con recorrido maximo 5 m; si se supera, el acceso debe reunir condiciones de pasillo de circulacion (art. 8.4.4)",
+        "Plazas para minusvalidos: 3,20 m de frente por 4,70 m de fondo; si un lateral completo es libre de obstaculos lindando con pasillo de circulacion, anchura de 2,30 m (art. 8.4.6)"
+      ]
+    },
+    {
+      h: "Programa, superficies minimas y alturas de viviendas (Arts. 11-12)",
+      nota: "Estos articulos contienen los requisitos fundamentales de toda vivienda. La superficie util total minima es 30 m2 y debe incluir al menos sala de estar, un dormitorio, un bano y una cocina. La altura libre minima general es 2,40 m, pero en distribucion, aseos, cocinas y tendederos cubiertos se admite 2,20 m con falso techo. En rehabilitacion sin sustitucion de forjados se admite 2,20 m general. En techos inclinados con pendiente >30%, la parte con altura <2,20 m no computa para superficies minimas ni para inscripcion de figuras. La vivienda nunca puede ser paso obligado a otro uso o local.",
+      items: [
+        "Superficie util total minima de toda vivienda: 30 m2 (art. 11.1)",
+        "Programa minimo obligatorio: sala de estar, un dormitorio, un bano y una cocina, todos con condiciones minimas establecidas (art. 11.1)",
+        "La vivienda no servira de paso obligado a ningun otro uso o local; toda habitacion a la que se acceda unicamente desde el interior de la vivienda forma parte de ella (art. 11.2)",
+        "Altura libre vertical minima en techos horizontales o pendiente <30%: 2,40 m (art. 12.1)",
+        "En distribucion, aseos, cocinas y tendederos cubiertos: admisibles falsos techos suspendidos que dejen altura libre de 2,20 m (art. 12.1)",
+        "Rehabilitacion de existentes sin sustitucion de forjados: altura libre minima admitida de 2,20 m (art. 12.2)",
+        "Techos inclinados con pendiente >30%: la superficie con altura libre <2,20 m no computa para superficies minimas exigidas ni para inscripcion de figuras (art. 12.3)",
+        "Altura libre minima en huecos de paso o elementos singulares (puertas, arcos, vigas): 2 m (art. 12.4)",
+        "Altura libre minima en escaleras interiores de la vivienda: la misma que para escaleras de uso comun (2,10 m) (art. 12.5)"
+      ]
+    },
+    {
+      h: "Sala de estar, cocina y dormitorios (Arts. 13-15)",
+      nota: "Las superficies y figuras inscribibles de estas habitaciones son materia de examen directo. La sala de estar tiene 12 m2 para 1-2 dormitorios y +2 m2 por cada dormitorio adicional; el rectangulo minimo es 2,7 x 3,5 m para 1-2 dormitorios y 3 x 4 m para mas. Si cocina y estar estan integradas, se suman 4 m2 a la superficie del estar manteniendo el mismo rectangulo minimo en la zona de estar, y la comunicacion entre ambas debe tener superficie minima de 3,50 m2 no interferida. La cocina independiente no puede ser paso obligado ni dar acceso directo a dormitorio o aseo. El dormitorio principal exige 10 m2 con cuadrado de 2,50 m; los secundarios 8 m2 con cuadrado de 2,40 m o rectangulo de 4 x 2 m. Toda habitacion independiente >4 m2 con hueco de iluminacion se considera dormitorio secundario, excepto aseos, cocina, oficios o despensas con acceso exclusivo desde cocina.",
+      items: [
+        "Sala de estar 1-2 dormitorios: 12 m2; rectangulo inscribible 2,7 x 3,5 m (art. 13.1)",
+        "Sala de estar >2 dormitorios: +2 m2 por cada dormitorio adicional; rectangulo inscribible 3 x 4 m (art. 13.1)",
+        "Cocina y estar integradas: sumar 4 m2 a la superficie del estar; mantener rectangulo minimo de la zona de estar; comunicacion entre ambas con superficie minima 3,50 m2 no interferida por obra, elemento fijo o puerta; imposibilidad de dotarlas de configuracion independiente sin efectuar obra (art. 13.2 y 13.3)",
+        "Cocina: 5 m2 en viviendas de un solo dormitorio; 7 m2 en el resto; rectangulo 3 x 1,60 m o cuadrado 2,20 m de lado (art. 14.1)",
+        "Cocinas integradas en estar: la figura inscribible de la cocina no puede solaparse con la del estar (art. 14.2)",
+        "Cocina independiente: no servira de paso obligado excepto a despensa, oficio o tendedero; prohibido acceso directo a dormitorio o aseo (art. 14.3)",
+        "Dormitorio principal: minimo 10 m2; cuadrado inscribible de 2,50 m de lado (art. 15.1)",
+        "Dormitorios secundarios: minimo 8 m2; cuadrado de 2,40 m de lado o rectangulo de 4 x 2 m (art. 15.1)",
+        "Ningun dormitorio servira de paso a otra habitacion independiente, excepto banos o vestidores vinculados al propio dormitorio (art. 15.2)",
+        "Habitacion independiente >4 m2 con hueco de iluminacion: se considera dormitorio secundario; excluidos aseos, cocina, oficios o despensas con acceso exclusivo desde cocina (art. 15.3)"
+      ]
+    },
+    {
+      h: "Banos, aseos y cuartos inodoro (Art. 16)",
+      nota: "Este articulo combina superficies, equipamientos y accesibilidad. El bano minimo es de 2,50 m2 con ducha, inodoro y lavabo, y debe existir reserva de espacio para sustituir la ducha por banera de 1,40 x 0,70 m. El aseo es de 1,70 m2 con ducha o banera, inodoro y lavabo. El cuarto inodoro minimo es de 1,50 m2 con inodoro y lavabo. El equipamiento minimo varia con el numero de dormitorios: hasta 3, un bano; 4 o mas, un bano mas un aseo. Al menos un bano debe permitir inscribir un cilindro de 120 cm de diametro y 70 cm de altura sin mas reformas que eliminar el bide y cambiar el giro de la puerta. La separacion entre paramentos con aparatos enfrentados es de 1,60 m; sin aparatos enfrentados, 1,20 m.",
+      items: [
+        "Bano: superficie minima 2,50 m2; equipamiento minimo ducha, inodoro y lavabo; reserva de espacio para sustituir ducha por banera de 1,40 x 0,70 m (art. 16.1)",
+        "Aseo: superficie minima 1,70 m2; equipamiento minimo ducha o banera, inodoro y lavabo (art. 16.2)",
+        "Equipamiento minimo por numero de dormitorios: hasta 3 dormitorios, 1 bano; 4 o mas dormitorios, 1 bano + 1 aseo (art. 16.3)",
+        "Accesibilidad en bano: inscribible cilindro de 120 cm de diametro y 70 cm de altura sin mas reformas que eliminacion del bide y cambio de giro de la puerta (art. 16.4)",
+        "Acceso: al menos un bano o aseo accesible desde espacios de circulacion; si todos los dormitorios tienen bano privativo, basta un cuarto inodoro con acceso desde circulacion (art. 16.5)",
+        "Separacion entre paramentos sin aparatos enfrentados: 1,20 m; con aparatos enfrentados: 1,60 m; anchura minima donde se situan aparatos: 0,90 m (art. 16.6)",
+        "Lavabo, inodoro y bide: anchura minima libre no solapable con otro aparato de 60 cm (art. 16.7)",
+        "Cuarto inodoro: minimo inodoro y lavabo; superficie minima 1,50 m2; anchura no inferior a 0,9 m (art. 16.8)",
+        "Techos inclinados >30% en banos/aseos: altura libre minima de 2 m en espacios de aparatos y circulacion (art. 16.9)",
+        "Revestimiento impermeable en suelos y paredes hasta altura minima de 2 m en locales con aparatos sanitarios (art. 16.10)"
+      ]
+    },
+    {
+      h: "Tendederos y espacios de circulacion interior (Arts. 17-18)",
+      nota: "El tendedero es obligatorio en toda vivienda con longitud minima de cuerda de 6 m en tramos no inferiores a 1 m, separados horizontalmente 20 cm, y 150 cm de altura libre bajo las cuerdas. Si es cerrado, minimo 2,4 m2, hueco practicable al exterior de 1,20 m2, y no puede abrirse a el ningun hueco necesario para iluminacion o ventilacion de la vivienda. Los patios tendedero en rehabilitacion admiten 2 x 2 m para maximo dos viviendas por planta. La circulacion interior exige un cuadrado de 1,10 m tras la puerta de entrada, pasillos de 90 cm (con estrechamientos a 80 cm si el elemento no supera en fondo la anchura libre), puertas interiores de 80 cm, y escaleras interiores de 90 cm de anchura con huella minima 27 cm y contrahuella maxima 19 cm.",
+      items: [
+        "Tendedero obligatorio en toda vivienda: longitud minima de cuerda 6 m en tramos no inferiores a 1 m; separacion horizontal minima entre tramos o elementos de 20 cm; altura libre de 150 cm bajo cuerdas (art. 17.1)",
+        "Proteccion de vistas desde la calle obligatoria, salvo tendido a patio interior o de manzana sin acceso publico (art. 17.1)",
+        "Tendedero abierto: elementos y celosias no interferiran luces rectas de huecos necesarios para iluminacion minima (art. 17.2)",
+        "Tendedero cerrado: separado de la vivienda por cierre y huecos con caracteristicas termicas, acusticas o sectoriales exigidas para cierres con el exterior; superficie minima 2,4 m2; hueco practicable al exterior minimo 1,20 m2; evacuacion de agua prevista; prohibido abrir a el huecos necesarios para iluminacion o ventilacion (art. 17.3, 17.4, 17.5)",
+        "Patios tendedero en rehabilitacion: dimensiones minimas 2 x 2 m para maximo dos viviendas por planta; podran estar cubiertos; ventilacion permanente en coronacion de 2 m2; toma de aire del exterior en planta mas baja de 0,10 m2; sumidero (art. 17.6 y 17.7)",
+        "Vestibulo: tras puerta de entrada, cuadrado inscribible de 1,10 m de lado (art. 18.1)",
+        "Pasillos: anchura minima 90 cm; estrechamientos hasta 80 cm si el elemento que los produce no tiene fondo superior a la anchura libre que deja (art. 18.2)",
+        "Puertas interiores de paso: anchura minima 80 cm (art. 18.3)",
+        "Escaleras interiores de la vivienda: anchura minima 90 cm, huella minima 27 cm, contrahuella maxima 19 cm; no aplicable a accesos a espacios no habitables (art. 18.4)",
+        "Peldaños compensados: huella minima 27 cm medidos a 45 cm del borde interior (art. 18.5)"
+      ]
+    },
+    {
+      h: "Iluminacion y ventilacion de viviendas (Art. 19)",
+      nota: "Este articulo es tecnico y denso en cifras. La sala de estar debe iluminarse siempre de espacio libre exterior o patio de manzana (excepto unifamiliar); cocina, comedor y dormitorios pueden abrir tambien a patio de parcela. Las luces rectas minimas son de 3 m. Los huecos de iluminacion deben tener 1 m2 y el 10% de la superficie util de la habitacion, pero solo se consideran los primeros 20 m2 de cada habitacion para el calculo. Si abren a espacio cubierto o mirador, la superficie minima se incrementa un 50%. El vidrio transparente debe ser al menos el 70% del hueco; si es menos, solo computa la superficie con vidrio transparente. Los huecos necesarios no pueden estar a mas de 2 m en planta del rectangulo minimo inscribible. La ventilacion directa requiere al menos un tercio de la superficie minima de iluminacion.",
+      items: [
+        "Sala de estar: iluminacion y ventilacion de espacio libre exterior o patio de manzana, excepto en vivienda unifamiliar (art. 19.1)",
+        "Cocina, comedor y dormitorios: pueden abrirse tambien a patio de parcela; luces rectas minimas 3 m en todos los casos (art. 19.1)",
+        "Dimensiones minimas huecos iluminacion: 1 m2 y el 10% de la superficie util en planta de cada habitacion; si abren a espacio cubierto o mirador, superficie minima incrementada en 50% (art. 19.2)",
+        "Hueco abierto al exterior del espacio cubierto o mirador: al menos 10% de la superficie util del mismo sumada a la de las habitaciones que a el abren; cumplir luces rectas y distancias a figuras inscribibles (art. 19.2)",
+        "Calculo de superficie minima de iluminacion: solo se consideran los primeros 20 m2 de cada habitacion (art. 19.3)",
+        "Vidrio transparente: debe ser no inferior al 70% de la superficie del hueco; en proporciones inferiores, computa exclusivamente la superficie con vidrio transparente (art. 19.4)",
+        "Distancia maxima de huecos necesarios al rectangulo minimo inscribible de la dependencia: 2 m en planta (art. 19.5)",
+        "Salas de estar y dormitorios: prohibida iluminacion necesaria a traves de galerias de uso comun (art. 19.6)",
+        "Rehabilitacion con fachada mantenida por imposicion administrativa: basta cumplir condiciones minimas del punto 19.4 del anexo 1 (art. 19.7)",
+        "Hueco practicable en estar, cocina y dormitorio principal: dimensiones minimas 70 x 70 cm libres, situado en banda entre 95 cm y 180 cm de altura sobre pavimento (art. 19.8)",
+        "Huecos minimos para ventilacion directa: al menos un tercio de la superficie minima de iluminacion; mecanismo de apertura a maximo 1,50 m de altura (art. 19.9)",
+        "Cocina y banos/aseos/cuartos inodoros: conducto de ventilacion por tiro forzado permanente hasta cubierta, independiente de campanas extractoras, calderas u otros; remate por pieza aspiradora estatica o dinamica; despensas sin ventilacion directa tambien lo requieren (art. 19.10)",
+        "Cocinas: conducto independiente hasta cubierta para campana extractora, diametro minimo 10 cm (art. 19.10)",
+        "Puertas de aseos: rejilla o hueco inferior de al menos 70 cm2 (art. 19.11)",
+        "Cocina y estar en un mismo espacio: ademas de ventilacion permanente, ventilacion mecanica hasta cubierta con capacidad minima de aspiracion de 300 m3/h (art. 19.12)"
+      ]
+    },
+    {
+      h: "Instalaciones minimas de las viviendas (Art. 20)",
+      nota: "Este articulo recoge requisitos de instalaciones que suelen contrastarse con el CTE y reglamentos sectoriales. La presion de agua debe estar entre 1 y 4,5 kg/cm2 y la velocidad no superar 1,5 m/s. El agua caliente debe garantizar 13 l/min a 40 °C o acumulado de 75 litros. Las cocinas deben tener tomas para fregadero, lavadora y lavavajillas, con llave de corte independiente para lavadora y lavavajillas. Todos los huecos exteriores con vidrio deben tener persiana o contraventana exterior para oscurecimiento y proteccion solar; admisibles interiores si hay elementos exteriores que garanticen proteccion solar. La calefaccion debe permitir alcanzar 20 °C en todo el interior.",
+      items: [
+        "Servicios minimos del edificio canalizados por interior de la vivienda segun reglamentos tecnicos aplicables (art. 20.1)",
+        "Presion agua fria y caliente en cocina y aseos: entre 1 y 4,5 kg/cm2; velocidad maxima 1,5 m/s (art. 20.2)",
+        "Agua caliente: consumo instantaneo de 13 litros/minuto a 40 °C o acumulado de 75 litros (art. 20.2)",
+        "Llaves de corte en cada dependencia con instalacion de fontaneria (art. 20.3)",
+        "Cocina: tomas de agua y desague para fregadero, lavadora y lavavajillas; llave de corte independiente para lavadora y lavavajillas; red electrica empotrada y toma de tierra segun REBT (art. 20.4)",
+        "Tomas de TV, radio, telefonia, comunicaciones por cable y otras redes: segun normativa de telecomunicaciones vigente (art. 20.5)",
+        "Huecos exteriores con vidrio: persiana o contraventana exterior para oscurecimiento y proteccion de radiacion solar directa; admisibles interiores con elementos exteriores garantes de proteccion solar (art. 20.6)",
+        "Calefaccion: capacidad para alcanzar minimo 20 °C en todo el interior segun normativa termica vigente (art. 20.7)"
+      ]
+    },
+    {
+      h: "Superficies utiles y construidas (Art. 21)",
+      nota: "Este articulo define metrologicamente como medir las superficies, obligando a que las cifras figuren en cualquier documento y publicidad de venta o alquiler. La superficie construida incluye el perimetro exterior de fachadas y ejes de medianeras, mas el 50% de terrazas y balcones de uso privativo (100% de miradores y tendederos cerrados). No computan como construida las terrazas sobre cubierta plana de elemento comun en regimen de division horizontal, ni los espacios exteriores descubiertos en planta baja. La superficie util deduce muros, tabiques, antepechos, elementos estructurales verticales, conductos exentos o que sobresalgan con seccion >100 cm2, y zonas con altura libre <1,50 m. La superficie util de cada recinto se mide por la cara interior de los cerramientos con las mismas deducciones.",
+      items: [
+        "Obligacion de figurar en todo documento y publicidad de venta o alquiler (art. 21.1)",
+        "Superficie construida: perimetro exterior de cierre de fachadas y ejes de paredes medianeras o elementos de separacion (art. 21.2.a)",
+        "Superficie construida: mas 50% de terrazas, balcones y similares de uso privativo; 100% de miradores y tendederos cerrados (art. 21.2.b)",
+        "No computan como construida: terrazas sobre cubierta plana de elemento comun en division horizontal; espacios exteriores descubiertos en planta baja aunque pavimentados (art. 21.2.b)",
+        "Tendederos: misma medicion que terrazas si son accesibles y abiertos; 100% si son cerrados (art. 21.2.b)",
+        "Superficie construida: mas parte proporcional de superficie construida en elementos comunes (art. 21.2.c)",
+        "Superficie util de vivienda: apartados a) y b) de construida, deducidos muros, tabiques, antepechos de terrazas, elementos estructurales verticales, conductos exentos o que sobresalgan de cierres o tabiques con seccion horizontal >100 cm2, y superficie con altura libre <1,50 m (art. 21.3)",
+        "Superficie util de recinto o trastero: comprendida dentro del perimetro de la cara interior de los cerramientos, con las mismas deducciones que la vivienda (art. 21.4)",
+        "Superficie construida total de garaje: perimetro exterior de cierres que delimitan exteriormente la superficie cubierta y eje de los que lo separan de otros usos o paredes medianeras (art. 21.5)",
+        "Superficie util de plaza de garaje: rectangulo que la delimita libre de obstaculos, sin incluir elementos comunes o de circulacion como rampas, pasillos o espacios residuales (art. 21.6)"
+      ]
+    }
+  ],
+  claves: [
+    "Rehabilitacion equiparable a nueva: presupuesto >70% modulo ponderado/m2, o vaciado total, o demolicion + reposicion >60% superficie forjados (excluida cubierta)",
+    "Superficie util minima vivienda: 30 m2; programa minimo: estar + 1 dormitorio + 1 bano + 1 cocina",
+    "Altura libre minima general: 2,40 m; en distribucion, aseos, cocinas y tendederos cubiertos se admite 2,20 m con falso techo; en rehabilitacion sin sustitucion de forjados: 2,20 m general",
+    "Barandilla: altura minima 95 cm; impedir paso esfera 12 cm; desnivel comun/local vinculado >40 cm, interior vivienda >60 cm",
+    "Ascensor obligatorio desde planta tercera (sin contar baja); cabina <=16 viviendas: 1,20 x 1,00 m; >16 viviendas: 1,40 x 1,10 m; maximo 24 viviendas por ascensor",
+    "Sala de estar 1-2 dormitorios: 12 m2 (2,7 x 3,5 m); >2 dormitorios: +2 m2/dormitorio adicional (3 x 4 m); integrada con cocina: +4 m2",
+    "Cocina: 5 m2 (1 dormitorio), 7 m2 (resto); figura 3 x 1,60 m o cuadrado 2,20 m; dormitorio principal: 10 m2 (cuadrado 2,50 m); secundarios: 8 m2 (cuadrado 2,40 m o 4 x 2 m)",
+    "Bano: 2,50 m2; aseo: 1,70 m2; cuarto inodoro: 1,50 m2; hasta 3 dormitorios: 1 bano; 4 o mas: 1 bano + 1 aseo",
+    "Huecos iluminacion: 1 m2 y 10% superficie util habitacion (solo primeros 20 m2); vidrio transparente minimo 70% del hueco; ventilacion directa: 1/3 de superficie iluminacion",
+    "Garaje: altura libre 2,10 m; plaza estandar 2,30 x 4,70 m; minusvalidos 3,20 x 4,70 m (o 2,30 m si lateral libre a pasillo); rampa recta 3 m anchura, pendiente max 20%",
+    "Patio interior: cilindro inscrito 3 m diametro y 0,25 H; superficie 12 m2 y H2/10; luces rectas 3 m",
+    "Tendedero: 6 m cuerda en tramos >=1 m, separacion 20 cm, altura libre 150 cm; cerrado: minimo 2,4 m2, hueco practicable 1,20 m2",
+    "Escalera comun: anchura 1 m; meseta con puertas 1,20 m; altura libre 2,10 m; iluminacion 1 m2/planta y rosca, 0,3 m2 practicable",
+    "Presion agua: 1 a 4,5 kg/cm2; velocidad max 1,5 m/s; ACS: 13 l/min a 40 °C o acumulado 75 litros; calefaccion: minimo 20 °C"
+  ],
+},
 
   E20: {
     intro: "La LF 17/2020 de Actividades con Incidencia Ambiental regula las formas de intervención administrativa ambiental en Navarra: evaluación ambiental, autorización ambiental integrada (AAI), autorización ambiental unificada (AAU), licencia de actividad clasificada (LAC) y declaración responsable.",
