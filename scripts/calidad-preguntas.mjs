@@ -3,10 +3,12 @@
          node scripts/calidad-preguntas.mjs --peores
 
    Compara el banco con los dos exámenes oficiales analizados (Gobierno de
-   Navarra, arquitecto): 2026 y 2019. Referencias medidas sobre el de 2026:
-     · correcta = opción más larga ....... 22 %   (azar puro: 25 %)
-     · longitud correcta / incorrectas ... 1,03
-     · reparto a/b/c/d ................... 25/27/28/20  (2019: 22/22/29/27)
+   Navarra, arquitecto): 2026 y 2019. Referencias medidas sobre el de 2026
+   (con la clave de respuestas proporcionada):
+     · correcta = opción más larga ....... 29 %   (azar puro: 25 %)
+     · correcta visiblemente más larga ... 17 %   (margen >10 %)
+     · longitud correcta / incorrectas ... 1,06
+     · reparto a/b/c/d ................... 25/28/27/20  (2019: 22/22/29/27)
    Los delatores que queremos evitar son que la correcta sea sistemáticamente
    la más larga y que se concentre en una letra.                              */
 import { PREGUNTAS } from "../src/data/preguntas.js";
@@ -131,7 +133,7 @@ for (const f of filas) {
 }
 console.log("─".repeat(62));
 console.log(fila(global, "TOTAL"));
-console.log("  REAL      100    22 %   ~20 %   1.03   25/27/28/20   240");
+console.log("  REAL      100    29 %   17 %   1.06   25/28/27/20   240");
 console.log(
   `\nSe juzga por la columna 'visible' (la correcta es la más larga con más de` +
     `\nun 10 % de margen, que es lo que de verdad se puede explotar).` +

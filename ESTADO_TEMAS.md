@@ -22,10 +22,10 @@ Criterio de resumen: **Bueno** = la mayoría de bloques tienen nota explicativa 
 | E1 | LOE — Ley 38/1999 de Ordenación de la Edificación | REGULARES | BUENO | REGULARES | 15 | 20% | 0.95 | 4/4/4/3 | 7/48 | 9 |
 | E2 | CTE — RD 314/2006 y Parte I | REGULARES | BUENO | REGULARES | 19 | 16% | 1.03 | 5/5/5/4 | 8/41 | 12 |
 | E3 | CTE DB-SI — Seguridad en caso de incendio | REGULARES | BUENO | REGULARES | 15 | 20% | 1.19 | 4/4/4/3 | 8/48 | 13 |
-| E4 | RD 513/2017 — RIPCI | MALO | MALO | REGULARES | 20 | 25% | 1.38 | 5/5/5/5 | 0/45 | 12 |
-| E5 | RD 164/2025 — Incendios establecimientos industriales | MALO | MALO | REGULARES | 20 | 20% | 0.97 | 5/5/5/5 | 0/28 | 7 |
-| E6 | CTE DB-SUA — Seguridad de utilización y accesibilidad | MALO | MALO | REGULARES | 16 | 19% | 1.11 | 4/4/4/4 | 0/31 | 7 |
-| E7 | DA DB-SUA/2 — Accesibilidad en edificios existentes | MALO | MALO | REGULARES | 15 | 20% | 1.18 | 4/4/4/3 | 0/32 | 7 |
+| E4 | RD 513/2017 — RIPCI | REGULARES | BUENO | REGULARES | 20 | 25% | 1.38 | 5/5/5/5 | 10/87 | 21 |
+| E5 | RD 164/2025 — Incendios establecimientos industriales | REGULARES | BUENO | REGULARES | 20 | 20% | 0.97 | 5/5/5/5 | 6/48 | 13 |
+| E6 | CTE DB-SUA — Seguridad de utilización y accesibilidad | REGULARES | BUENO | REGULARES | 16 | 19% | 1.11 | 4/4/4/4 | 9/91 | 18 |
+| E7 | DA DB-SUA/2 — Accesibilidad en edificios existentes | REGULARES | BUENO | REGULARES | 15 | 20% | 1.18 | 4/4/4/3 | 7/49 | 15 |
 | E8 | CTE DB-HE — Ahorro de energía | MALO | MALO | OK | 15 | 13% | 1.07 | 4/4/4/3 | 0/28 | 7 |
 | E9 | CTE DB-HE2 + RITE (RD 1027/2007) | MALO | MALO | REGULARES | 25 | 20% | 1.12 | 7/6/6/6 | 0/25 | 7 |
 | E10 | CTE DB-HS — Salubridad | MALO | MALO | REGULARES | 24 | 17% | 1.07 | 6/6/6/6 | 0/24 | 8 |
@@ -83,17 +83,17 @@ Criterio de resumen: **Bueno** = la mayoría de bloques tienen nota explicativa 
 
 - **En blanco** (9): E43, E45, E46, E51, E55, E56, E57, E58, E59
 - **Falta resumen** (5): E44, E47, E48, E49, E50
-- **Malo** (26): E4, E5, E6, E7, E8, E9, E10, E11, E12, E13, E14, E15, E16, E17, E18, E19, E20, E21, E22, E25, E30, E31, E32, E52, E53, E54
+- **Malo** (22): E8, E9, E10, E11, E12, E13, E14, E15, E16, E17, E18, E19, E20, E21, E22, E25, E30, E31, E32, E52, E53, E54
 - **A revisar** (16): E23, E24, E26, E27, E28, E29, E33, E34, E35, E36, E37, E38, E39, E40, E41, E42
 - **Pocas** (0): ninguno
-- **Regulares** (6): G7, G8, G10, E1, E2, E3
+- **Regulares** (10): G7, G8, G10, E1, E2, E3, E4, E5, E6, E7
 - **OK** (10): G1, G2, G3, G4, G5, G6, G9, G11, G12, G13
 
 ## Orden de trabajo recomendado
 
 1. **En blanco**: E43, E45, E46, E51, E55, E56, E57, E58, E59
 2. **Falta resumen**: E44, E47, E48, E49, E50
-3. **Resúmenes malos**: E4, E5, E6, E7, E8, E9, E10, E11, E12, E13, E14, E15, E16, E17, E18, E19, E20, E21, E22, E25, E30, E31, E32, E52, E53, E54
+3. **Resúmenes malos**: E8, E9, E10, E11, E12, E13, E14, E15, E16, E17, E18, E19, E20, E21, E22, E25, E30, E31, E32, E52, E53, E54
 4. **Preguntas a revisar**: E23, E24, E26, E27, E28, E29, E33, E34, E35, E36, E37, E38, E39, E40, E41, E42
-5. **Regulares**: G7, G8, G10, E1, E2, E3
+5. **Regulares**: G7, G8, G10, E1, E2, E3, E4, E5, E6, E7
 6. **OK**: G1, G2, G3, G4, G5, G6, G9, G11, G12, G13
