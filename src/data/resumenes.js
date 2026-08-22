@@ -3092,8 +3092,8 @@ export const RESUMENES = {
     "Balcones volados: sobrecarga zona servida + 2 kN/m lineal en bordes",
     "Barandillas zonas tráfico vehículos: fuerza horizontal mínima 50 kN",
     "Carretillas elevadoras: fuerza impacto = 5 × peso máximo autorizado"
-  ]
-}
+  ],
+},
    
   "E12": {
     intro: "El CTE DB-SE-C regula el reconocimiento del terreno (estudio geotécnico), la selección del tipo de cimentación y los criterios de dimensionado para cimentaciones directas y profundas, incluyendo pilotes y micropilotes.",
