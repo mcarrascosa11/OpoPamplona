@@ -2875,50 +2875,106 @@ export const RESUMENES = {
     ],
   },
 
-  "E11": {
-    intro: "El CTE DB-SE-AE (Acciones en la Edificación) cuantifica las acciones gravitatorias, climáticas y accidentales sobre los edificios para la verificación de la seguridad estructural. Clasifica las acciones en permanentes (peso propio, pretensado, terreno) y variables (uso, viento, nieve, térmicas, accidentales).",
+  "E10": {
+    intro: "El Documento Basico HS Salubridad del CTE, aprobado por RD 314/2006 y modificado posteriormente, establece las reglas para cumplir el requisito basico Higiene, salud y proteccion del medio ambiente a traves de seis exigencias basicas (HS 1 a HS 6).",
     bloques: [
-      { h: "Sobrecargas de uso (Tabla 3.1)", items: [
-        "A1 viviendas: 2 kN/m² uniforme + 2 kN conc.; B oficinas/admin: 2 kN/m²",
-        "C3 vestíbulos públicos y salas exposición: 5 kN/m² + 4 kN conc.",
-        "C5 aglomeraciones (estadios, discotecas): 5 kN/m² + 4 kN conc.; barandillas: 3,0 kN/m",
-        "D1-D2 locales comerciales e hipermercados: 5 kN/m² (D2: conc. 7 kN)",
-        "E vehículos ligeros (aparcamiento): 2 kN/m² + 20 kN conc. (0,2×0,2 m)",
-        "Tabiquería ordinaria ≤1,2 kN/m²: carga uniforme equivalente; en viviendas: 1,0 kN/m²",
-        "Barandillas: C5=3,0 kN/m · C3/C4/E/F=1,6 kN/m · resto=0,8 kN/m",
-        "Reducción sobrecargas: ≥5 plantas mismo uso → coef. 0,8; área tributaria ≥100 m² → coef. 0,7",
-      ]},
-      { h: "Viento", items: [
-        "Presión estática: qe = qb · ce · cp",
-        "qb simplificado: 0,5 kN/m² en cualquier punto de España",
-        "ce en zona urbana hasta 8 plantas: 2,0 (constante, independiente de la altura)",
-        "Coeficientes de rozamiento superficial: acero/aluminio=0,01 · rugoso=0,02 · muy rugoso=0,04",
-      ]},
-      { h: "Temperatura", items: [
-        "No considerar acciones térmicas si existen juntas de dilatación ≤40 m en hormigón/acero",
-        "Interior protegido (con climatización): temperatura constante de 20°C todo el año",
-      ]},
-      { h: "Nieve", items: [
-        "Valor mínimo en cubiertas planas de pisos con altitud <1.000 m: 1,0 kN/m²",
-        "Pamplona/Iruña (450 m): sk = 0,7 kN/m² (zona climática 5)",
-        "qn = µ · sk; µ: α≤30° → 1; entre 30° y 60° → interpolación lineal; α≥60° → 0",
-        "Limahoyas (semisuma inclinaciones >30°): µ = 2,0",
-        "Peso nieve prensada: 2 kN/m³; recién caída: 1,2 kN/m³",
-      ]},
-      { h: "Acciones accidentales", items: [
-        "Sismo: remisión a la NSCE (Norma de Construcción Sismorresistente)",
-        "Impacto vehículos ≤30 kN: 50 kN paralelo + 25 kN perp. a la vía; altura 0,6 m sobre rodadura; sup. 0,25×1,5 m",
-      ]},
+      {
+        h: "Marco general y exigencias basicas",
+        nota: "El DB HS se compone de seis secciones vinculadas una a una con las exigencias del articulo 13 del CTE. En examen es frecuente que se pregunte por la correspondencia entre exigencia y seccion, o por el hecho de que el texto consolidado carece de valor juridico.",
+        items: [
+          "Objeto: reglas y procedimientos para cumplir las exigencias basicas de salubridad (HS 1 a HS 6)",
+          "Aplicacion correcta del conjunto del DB satisface el requisito basico Higiene, salud y proteccion del medio ambiente",
+          "HS 1: Proteccion frente a la humedad",
+          "HS 2: Recogida y evacuacion de residuos",
+          "HS 3: Calidad del aire interior",
+          "HS 4: Suministro de agua",
+          "HS 5: Evacuacion de aguas",
+          "HS 6: Proteccion frente a la exposicion al radon"
+        ]
+      },
+      {
+        h: "HS 1 – Proteccion frente a la humedad",
+        nota: "Trampa habitual: confundir los grados de impermeabilidad de muros, suelos y fachadas, que usan parametros distintos. Muros y suelos dependen del nivel freatico y del coeficiente de permeabilidad del terreno (Ks); las fachadas dependen de la zona pluviometrica y del grado de exposicion al viento. Las cubiertas tienen un unico grado de impermeabilidad exigido, independiente del clima.",
+        items: [
+          "Muros: grado minimo en tabla 2.1 segun presencia de agua (baja: cara inferior suelo por encima del nivel freatico; media: hasta 2 m por debajo; alta: 2 m o mas por debajo) y Ks del terreno",
+          "Suelos: grado minimo en tabla 2.3 con los mismos criterios de presencia de agua y Ks",
+          "Fachadas: grado minimo en tabla 2.5 segun zona pluviometrica de promedios (I a V) y grado de exposicion al viento (V1 a V3)",
+          "Cubiertas: grado unico e independiente de factores climaticos; deben incluir sistema de pendientes, barrera contra vapor si procede, aislante, impermeabilizacion y proteccion o tejado segun el caso",
+          "Muros parcialmente estancos: ventilar cama con relacion Ss/Ah entre 10 y 30 (formula 2.1); aberturas repartidas al 50% entre arranque y coronacion; distancia entre aberturas <= 5 m",
+          "Suelo elevado: ventilar con relacion Ss/As entre 10 y 30 (formula 2.2); aberturas al 50% en dos paredes enfrentadas",
+          "Tubos de drenaje: diametro minimo 125-250 mm segun grado de impermeabilidad; pendiente minima 3-8 por mil, maxima 14 por mil"
+        ]
+      },
+      {
+        h: "HS 2 – Recogida y evacuacion de residuos",
+        nota: "Ojo con las formulas de superficie: el almacen de contenedores usa el factor de contenedor (Cf) y el espacio de reserva usa el factor de fraccion (Ff). La distancia maxima del almacen al acceso (25 m) y la anchura libre del recorrido (1,20 m) son datos de examen recurrentes. Las bajantes de residuos no pueden usarse para vidrio y requieren diametro minimo de 450 mm.",
+        items: [
+          "Almacen de contenedores: S = 0,8 · P · suma(Tf · Gf · Cf · Mf); superficie minima para manejo adecuado de contenedores",
+          "P = numero de dormitorios sencillos + 2 · numero de dormitorios dobles",
+          "Gf (dm3/persona·dia): papel/carton 1,55; envases ligeros 8,40; materia organica 1,50; vidrio 0,48; varios 1,50",
+          "Mf = 4 para fraccion varios; Mf = 1 para las demas fracciones",
+          "Espacio de reserva: SR = P · suma(Ff · Mf); Ff en tabla 2.2",
+          "Distancia almacen/reserva a acceso del edificio < 25 m; recorrido con anchura libre >= 1,20 m (estrechamientos localizados >= 1 m y <= 0,45 m de longitud)",
+          "Bajantes: diametro >= 450 mm; material de clase de reaccion al fuego A1; separacion del resto de recintos mediante muros EI-120; cambios de direccion <= 30º respecto a la vertical; cada 10 m acodadura con cuatro codos de 15º maximo",
+          "Compuertas de vertido: circulares con diametro 300-350 mm o rectangulares 300x300 a 350x350 mm; cierre hermetico y sistema de enclavamiento electrico",
+          "Almacenamiento inmediato en viviendas: C = CA · Pv; capacidad minima 45 dm3; superficie en planta minima 30x30 cm"
+        ]
+      },
+      {
+        h: "HS 3 – Calidad del aire interior",
+        nota: "Se exigen dos condiciones de CO2 simultaneas (media anual y acumulado sobre 1.600 ppm) que se consideran satisfechas con la ventilacion de caudal constante de la tabla 2.1. Trampa: los conductos de extraccion hibridos no pueden servir a mas de 6 plantas y los de las dos ultimas plantas deben ser individuales. Los aparcamientos que exceden de 5 plazas o 100 m2 utiles requieren deteccion de CO.",
+        items: [
+          "Locales habitables: concentracion media anual de CO2 < 900 ppm; acumulado anual de CO2 que exceda 1.600 ppm < 500.000 ppm·h",
+          "Caudal minimo en periodos de no ocupacion: 1,5 l/s por local habitable",
+          "Caudales minimos de ventilacion de caudal constante en tabla 2.1 segun tipo de vivienda (0-1, 2 o >=3 dormitorios)",
+          "Cocina: sistema de extraccion mecanica independiente de la ventilacion general, con caudal minimo de 50 l/s en la zona de coccion",
+          "Aparcamientos y garajes: caudal minimo 120 l/s por plaza; trasteros: 0,7 l/s·m2; almacenes de residuos: 10 l/s",
+          "Ventilacion en viviendas: aire circula de locales secos a húmedos; aberturas de admision a >1,80 m del suelo; aberturas de extraccion a <200 mm del techo y a >100 mm de rincones o esquinas verticales",
+          "Conductos de extraccion para ventilacion hibrida: no pueden servir a mas de 6 plantas; conductos de las dos ultimas plantas deben ser individuales; conexion mediante ramales verticales que desembocan inmediatamente por debajo del ramal siguiente",
+          "Conductos de extraccion mecanica contiguos a local habitable: seccion S >= 2,5 · qvt; en cubierta: S >= 1,5 · qvt",
+          "Ventanas y puertas exteriores: superficie total practicable minima igual a un veinteavo de la superficie util del local"
+        ]
+      },
+      {
+        h: "HS 4 – Suministro de agua",
+        nota: "Dato clave: la presion maxima en cualquier punto de consumo es 500 kPa y la minima 100 kPa (150 kPa para fluxores y calentadores). La temperatura de agua caliente sanitaria debe estar entre 50 y 65ºC. La red de retorno de ACS es obligatoria cuando la longitud de ida al punto mas alejado es igual o mayor que 15 m. Las velocidades de calculo differen entre tuberias metalicas (maximo 2 m/s) y termoplasticas/multicapa (maximo 3,5 m/s).",
+        items: [
+          "Calidad del agua: apta para consumo humano segun RD 140/2003; materiales sin incompatibilidad electroquimica y resistentes a corrosion interior",
+          "Presion minima en puntos de consumo: 100 kPa para grifos comunes; 150 kPa para fluxores y calentadores",
+          "Presion maxima en cualquier punto de consumo: 500 kPa",
+          "ACS: temperatura en puntos de consumo entre 50ºC y 65ºC",
+          "Red de retorno de ACS obligatoria cuando la longitud de la tuberia de ida al punto de consumo mas alejado sea >= 15 m",
+          "Velocidades de calculo: tuberias metalicas 0,50-2,00 m/s; tuberias termoplasticas y multicapa 0,50-3,50 m/s",
+          "Grupo de presion: 2 bombas para caudales hasta 10 dm3/s; 3 bombas hasta 30 dm3/s; 4 bombas para mas de 30 dm3/s",
+          "Volumen del deposito auxiliar de alimentacion: V = Q · t · 60, siendo t el tiempo estimado entre 15 y 20 min",
+          "Diámetros minimos de ramales de enlace en tabla 4.2 (ej. lavabo/bide: 1/2 acero o 12 mm cobre/plastico; inodoro con cisterna: 1/2 o 12 mm; inodoro con fluxor: 1-1 1/2 o 25-40 mm)"
+        ]
+      },
+      {
+        h: "HS 5 – Evacuacion de aguas",
+        nota: "Es fundamental distinguir los tres subsistemas de ventilacion: primaria (edificios <7 plantas, o <11 si bajante sobredimensionada y ramales <5 m), secundaria (conexiones en plantas alternas si <15 plantas o en cada planta si >=15) y terciaria (ramales >5 m o edificios >14 plantas). Los cierres hidraulicos tienen alturas normalizadas (50-100 mm) y la corona debe estar como maximo a 60 cm de la valvula de desague. En pluviales, el factor de correccion f = i/100 es frecuente en examen.",
+        items: [
+          "Cierres hidraulicos: altura minima 50 mm (usos continuos), 70 mm (usos discontinuos); altura maxima 100 mm; corona a distancia <= 60 cm de la valvula de desague del aparato",
+          "Sifon: diametro >= valvula de desague y <= diametro del ramal de desague",
+          "Red de pequena evacuacion: distancia bote sifonico a bajante <= 2,00 m; derivaciones que acometen al bote <= 2,50 m con pendiente 2-4%",
+          "Fregaderos, lavabos y bides a bajante: distancia maxima 4,00 m; pendiente 2,5-5%; baneras y duchas: pendiente <= 10%",
+          "Inodoros: desague directo a bajante o mediante mangueton de longitud <= 1,00 m",
+          "Ventilacion primaria: unico sistema suficiente en edificios <7 plantas (o <11 si bajante sobredimensionada y ramales <5 m); prolongacion >= 1,30 m sobre cubierta no transitable, o >= 2,00 m si es transitable",
+          "Ventilacion secundaria: conexiones en plantas alternas si edificio <15 plantas, o en cada planta si >=15; diametro de la columna >= mitad del diametro de la bajante",
+          "Ventilacion terciaria: obligatoria cuando longitud de ramales de desague >5 m o edificios >14 plantas; conecta cierres hidraulicos con la columna de ventilacion secundaria",
+          "Aguas pluviales: factor de correccion f = i/100 para intensidades distintas de 100 mm/h; numero minimo de sumideros segun superficie en proyeccion (S<100 m2: 2; 100-200: 3; 200-500: 4; >500: 1 cada 150 m2)",
+          "Sistemas de bombeo y elevacion: caudal de cada bomba >= 125% del caudal de aportacion; minimo 2 bombas; volumen util del deposito de recepcion Vu = 0,3 · Qb (dm3)"
+        ]
+      }
     ],
     claves: [
-      "qe = qb · ce · cp; qb simplificado = 0,5 kN/m²; ce urbano ≤8 plantas = 2,0",
-      "Viviendas A1: 2 kN/m²; C5 aglomeraciones y C3 vestíbulos: 5 kN/m²",
-      "Aparcamiento E: 2 kN/m² + 20 kN conc.",
-      "Tabiquería viviendas: 1,0 kN/m²; ordinaria ≤1,2 kN/m²: carga uniforme equiv.",
-      "Nieve mín. cubiertas planas <1.000 m alt.: 1,0 kN/m²; Pamplona sk=0,7",
-      "Acciones térmicas: no necesarias si juntas dilatación ≤40 m",
-      "Impacto vehículos: 50 kN paralelo + 25 kN perp.; altura 0,6 m",
-      "Barandillas C5: 3 kN/m; C3-C4-E-F: 1,6 kN/m; resto: 0,8 kN/m",
+      "DB HS: 6 exigencias basicas (HS 1 a HS 6) que satisfacen el requisito basico Higiene, salud y proteccion del medio ambiente",
+      "HS 1: Relacion de ventilacion Ss/Ah y Ss/As entre 10 y 30 para muros parcialmente estancos y suelos elevados",
+      "HS 2: Distancia maxima del almacen al acceso del edificio < 25 m; anchura libre del recorrido >= 1,20 m; bajantes de residuos con diametro minimo 450 mm",
+      "HS 3: CO2 media anual < 900 ppm; acumulado anual por encima de 1.600 ppm < 500.000 ppm·h; conductos hibridos limitados a 6 plantas",
+      "HS 4: Presion maxima 500 kPa; presion minima 100 kPa (150 kPa para fluxores); ACS entre 50 y 65ºC; retorno ACS obligatorio si ida >= 15 m",
+      "HS 5: Cierre hidraulico con altura entre 50 y 100 mm; corona a <= 60 cm de la valvula de desague; ventilacion primaria limitada a edificios <7 plantas",
+      "HS 5: Factor de correccion pluviometrico f = i/100; volumen del deposito de bombeo Vu = 0,3 · Qb (dm3)"
     ],
   },
 
