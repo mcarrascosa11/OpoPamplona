@@ -4101,7 +4101,7 @@ export const RESUMENES = {
   ],
 },
 
-  "E19": {
+  "E20": {
   intro: "El Decreto Foral 142/2004, de 22 de marzo, regula las condiciones minimas de habitabilidad de las viviendas en la Comunidad Foral de Navarra; su Anexo II desarrolla los requisitos tecnicos aplicables a edificios y viviendas nuevas, rehabilitadas o ampliadas, organizados en condiciones del edificio y condiciones de las viviendas.",
   bloques: [
     {
@@ -4344,146 +4344,163 @@ export const RESUMENES = {
   ],
 },
 
-  E20: {
-    intro: "La LF 17/2020 de Actividades con Incidencia Ambiental regula las formas de intervención administrativa ambiental en Navarra: evaluación ambiental, autorización ambiental integrada (AAI), autorización ambiental unificada (AAU), licencia de actividad clasificada (LAC) y declaración responsable.",
-    bloques: [
-      {
-        h: "Principios (art. 2)",
-        items: [
-          "Prevención, precaución o cautela",
-          "Quien contamina paga",
-          "Economía circular",
-          "Reparación o corrección preferentemente en la fuente",
-          "Participación",
-        ],
-      },
-      {
-        h: "Formas de intervención ambiental (art. 8)",
-        items: [
-          "Evaluación ambiental estratégica (EAE) y evaluación de impacto ambiental (EIA)",
-          "Autorización ambiental integrada (AAI)",
-          "Autorización ambiental unificada (AAU)",
-          "Evaluación de afecciones ambientales",
-          "Licencia de actividad clasificada (LAC)",
-          "Declaración responsable ambiental",
-        ],
-      },
-      {
-        h: "Licencia de actividad clasificada – LAC (art. 36-52)",
-        items: [
-          "Precede a la construcción, montaje o traslado de la instalación",
-          "Competente: entidad local donde se ubique la actividad",
-          "Resolución: plazo máximo 4 meses; silencio = desestimación (negativo)",
-          "Inicio actividad: máx. 2 años desde la concesión",
-          "Habilitación de inicio: declaración responsable del titular de cumplimiento de condiciones",
-          "Caducidad: si no se presenta la declaración responsable de puesta en marcha → LAC ineficaz",
-          "Modificación no sustancial: comunicar y esperar 1 mes; si no hay respuesta → puede realizarse",
-          "Modificación sustancial: nueva tramitación completa",
-          "Cese en suelo no urbanizable: demolición/retirada en máx. 5 años",
-        ],
-      },
-      {
-        h: "Inspección (art. 56-58)",
-        items: [
-          "GN (departamento de medio ambiente): AAI, AAU y EIA",
-          "Entidad local + departamentos del GN que emitieron informe vinculante: LAC",
-          "Personal inspector = agente de la autoridad",
-        ],
-      },
-      {
-        h: "Anejo 3 – actividades sujetas a LAC (selección)",
-        items: [
-          "Grupo 1: calderas/instalaciones de combustión ≥250 kW y <5 MW (excl. generación eléctrica)",
-          "Grupo 2.2: talleres metálicos sin tratamiento superficial ≤2.000 m²",
-          "Grupo 15.5: alojamiento turístico no sujeto a declaración responsable estatal",
-          "Grupo 15.6: establecimientos comerciales/servicios >300 m² o >10 kW de potencia",
-        ],
-      },
-    ],
-    claves: [
-      "LAC: plazo resolución 4 meses; silencio negativo",
-      "Inicio actividad: máx. 2 años + declaración responsable de puesta en marcha",
-      "Sin declaración responsable → LAC caduca y deviene ineficaz",
-      "Modificación no sustancial: 1 mes silencio = puede realizarse",
-      "Cese en suelo no urbanizable: demolición en máx. 5 años",
-      "Personal inspector = agente de la autoridad",
-      "Grupos LAC: calderas ≥250 kW-<5 MW; talleres metálicos ≤2.000 m²; aloj. turístico sin DR; comercial >300 m²",
-    ],
-  },
-  E30: {
-    intro:
-      "Título III del TRLFOTU (DFL 1/2017), arts. 84-129: régimen urbanístico del suelo. Clasificación (urbano/urbanizable/no urbanizable), derechos y deberes por clase de suelo, aprovechamiento, régimen del suelo no urbanizable y expropiaciones. Es el tema de los porcentajes y superficies: memorizar cifras.",
-    bloques: [
-      {
-        h: "Deberes generales y normas de aplicación directa (arts. 85-87)",
-        items: [
-          "Deber de conservación (art. 85): seguridad, salubridad, ornato público y habitabilidad. Límite del deber: la MITAD del coste de reposición del bien, excluido el valor del suelo (art. 85.3)",
-          "Adaptación al ambiente (art. 86): normas de aplicación directa, independientes de la clasificación; prohibida toda construcción en áreas amenazadas por riesgos (86.d)",
-          "Alturas sin plan (art. 87): máximo 3 plantas medidas en cada punto del terreno; en solares de manzanas edificadas en más de 2/3, el Ayuntamiento puede autorizar la altura media de los edificios ya construidos",
-        ],
-      },
-      {
-        h: "Clasificación del suelo (arts. 88-93)",
-        items: [
-          "Tres clases: urbano, urbanizable y no urbanizable (art. 88). Municipio sin planeamiento: lo que no sea urbano es NO URBANIZABLE (art. 89)",
-          "Suelo urbano (art. 90): integrado en malla urbana + (a) urbanizado en ejecución del planeamiento, (b) servicios instalados y operativos, o (c) edificación en 2/3 del espacio apto",
-          "Categorías: consolidado (solo actuaciones edificatorias o de dotación) / no consolidado (renovación o reforma de la urbanización)",
-          "Solar (art. 91): urbanizado con acceso rodado, abastecimiento, evacuación de aguas y electricidad + calzada pavimentada y encintado de aceras + alineaciones y rasantes señaladas",
-          "SNU (art. 92): PROTECCIÓN = letras a-b-c (legislación sectorial, OT, riesgos); PRESERVACIÓN = letras d-e (valores según planeamiento municipal). 8 subcategorías",
-          "Cédula urbanística (art. 94): ordenanza obligatoria en municipios de MÁS DE 5.000 habitantes",
-        ],
-      },
-      {
-        h: "Derechos y deberes: los porcentajes (arts. 95-105)",
-        items: [
-          "Aprovechamiento materializable (art. 95.3): suelo urbano CONSOLIDADO = 100%; NO CONSOLIDADO = 90% del de la unidad o área de reparto",
-          "Cesión en SUC por actuación edificatoria (art. 96.1.a): terrenos fuera de alineaciones, máximo 10% de la superficie de la finca",
-          "Actuaciones de dotación (art. 96.2.a): cesión del 10% del INCREMENTO de aprovechamiento; excepcional entre 5% y 15%",
-          "SUNC y urbanizable (arts. 96.3.c y 98.d): cesión del 10% del aprovechamiento (salvo mera sustitución sin incremento)",
-          "Áreas de reparto (art. 99.1): el aprovechamiento tipo de áreas del mismo uso global no puede ser inferior en un 15% al más alto",
-          "Edificabilidad residencial (art. 102): superficie útil × coeficiente 1,15; se deducen conductos >100 cm² y alturas libres <1,50 m",
-          "Plazo de deberes de cesión/equidistribución/urbanización si el plan no lo fija (art. 104.2): 8 AÑOS desde publicación en BON",
-          "Urbanización y edificación simultáneas (art. 105): garantía máx. 30% de la carga urbanística",
-        ],
-      },
-      {
-        h: "Suelo no urbanizable (arts. 108-119)",
-        items: [
-          "Actividades: permitidas / autorizables / prohibidas (art. 110). Permitidas: aperos ≤15 m², cierres de parcela, ampliaciones agrícolas-ganaderas ≤20% superficie construida",
-          "Servidumbre de caminos públicos, vías pecuarias y Camino de Santiago sin normativa propia: 3 metros (art. 111.2)",
-          "Industrial/terciario en SNU preservación (art. 113.2): cesión del 10% del incremento de VALOR de los terrenos",
-          "Vivienda unifamiliar aislada en preservación (art. 115): parcela ≥10.000 m²; ≥50% a usos agrarios; residencia habitual; prohibido repetir en 5 años; 2 viviendas por edificación solo con parentesco hasta 3er grado",
-          "Barrios rurales tradicionales (art. 116): parcela mínima 1.500 m²",
-          "Autorización (art. 117): informe municipal y remisión en 2 meses; resolución del Departamento: silencio de 2 meses = DENEGADA (trampa: silencio negativo); ejecución en 2 años; reposición al cese en máx. 5 años",
-        ],
-      },
-      {
-        h: "Expropiaciones (arts. 120-129)",
-        items: [
-          "Valoraciones: siempre por legislación ESTATAL (arts. 120 y 125)",
-          "Aceptación del precio ofrecido por la Administración: derecho a percibirlo incrementado en un 5% (art. 125.3)",
-          "Jurado de Expropiación de Navarra (art. 126): 5 miembros designados por el Gobierno de Navarra + secretario licenciado en Derecho; resuelve en 4 MESES; silencio = desestimación; agota vía administrativa",
-          "Expropiación por incumplimiento (art. 128): alegaciones 15 días; plazo de subsanación entre 1 y 3 meses; si subsana → expediente sancionador sustitutorio",
-        ],
-      },
-    ],
-    claves: [
-      "Deber de conservación: límite = 1/2 coste de reposición SIN valor del suelo (art. 85.3)",
-      "Sin plan: máx. 3 plantas; manzana edificada 2/3 → media (art. 87)",
-      "Suelo urbano por edificación: 2/3 del espacio apto (art. 90.1.c)",
-      "Aprovechamiento: SUC 100% / SUNC 90% (art. 95.3)",
-      "Cesiones del 10%: SUNC, urbanizable, dotación (sobre incremento, 5-15% excepcional)",
-      "Aprovechamiento tipo entre áreas mismo uso: diferencia máx. 15% (art. 99.1)",
-      "Edificabilidad residencial = superficie útil × 1,15 (art. 102)",
-      "Deberes urbanísticos sin plazo en plan: 8 años (art. 104.2)",
-      "Garantía urbanización+edificación simultánea: ≤30% (art. 105)",
-      "SNU: aperos ≤15 m²; ampliación ≤20%; servidumbre caminos 3 m",
-      "Vivienda SNU preservación: 10.000 m² (barrios rurales: 1.500 m²); 50% agrario; 5 años",
-      "Art. 117: silencio del Departamento 2 meses = DENEGADA; ejecución 2 años; reposición 5 años",
-      "Jurado Expropiación: 5 miembros, resuelve en 4 meses, silencio negativo",
-      "Mutuo acuerdo: aceptar precio de la Administración = +5%",
-    ],
-  },
+  "E19": {
+  intro: "La Ley Foral 17/2020, de 16 de diciembre, regula las actividades con incidencia ambiental en Navarra, estableciendo un sistema de intervención administrativa previa —licencias, autorizaciones y evaluaciones— que articula la competencia del departamento de medio ambiente, las entidades locales y los órganos sustantivos, con énfasis en la licencia de actividad clasificada y en los mecanismos de inspección y seguimiento.",
+  bloques: [
+    {
+      h: "Objeto, principios y disposiciones generales (arts. 1-6)",
+      nota: "Este bloque fija el marco conceptual de toda la ley. La trampa habitual es confundir los principios inspiradores (art. 2) con las finalidades concretas (art. 1): los primeros son prevención, precaución, quien contamina paga, economía circular, reparación en origen y participación; las segundas incluyen control previo, coordinación interadministrativa, simplificación, transparencia, inspección y régimen sancionador. El art. 6 vincula expresamente esta ley con la Ley 26/2007 de responsabilidad medioambiental.",
+      items: [
+        "Art. 1: objeto = regular las formas de intervención de las administraciones públicas de Navarra para prevenir y reducir la contaminación y el impacto ambiental sobre atmósfera, agua, suelo, paisaje y medio natural",
+        "Art. 1, finalidades: control administrativo previo y posterior; coordinación interadministrativa; simplificación de trámites; difusión de información ambiental; transparencia y participación ciudadana; inspección; restauración de la legalidad; régimen sancionador",
+        "Art. 2.1: principios inspiradores = prevención, precaución o cautela, quien contamina paga, economía circular, reparación o corrección preferentemente en la fuente, participación",
+        "Art. 2.2: integración ambiental en la planificación exige análisis previo justificativo de necesidades e integración de condicionamientos ambientales desde el planteamiento inicial",
+        "Art. 3: cooperación interadministrativa con información mutua, cooperación y colaboración, especialmente en autorización ambiental integrada, evaluación ambiental, autorización ambiental unificada y licencia de actividad clasificada",
+        "Art. 4: derecho a participación real y efectiva; los planes y programas deben incluir un plan de participación con perspectiva de género; el departamento competente mantiene un sistema de información pública sobre inventarios, autorizaciones, calidad ambiental, emisiones y normas de calidad",
+        "Art. 5: acción pública para exigir cumplimiento y para solicitar medidas de restauración de la legalidad ambiental o denunciar infracciones",
+        "Art. 6: el cumplimiento de esta ley no exonera de la Ley 26/2007 de responsabilidad medioambiental; los operadores del Anejo III de dicha ley deberán disponer de garantía financiera cuando así se indique en la autorización o licencia"
+      ]
+    },
+    {
+      h: "Instrumentos de intervención ambiental (arts. 7-11)",
+      nota: "Este bloque ordena las seis formas de intervención y aclara qué competencia corresponde a Navarra. La pregunta clásica distingue entre evaluación ambiental (básica estatal, infracciones forales) y evaluación de afecciones ambientales (foral, para proyectos de menor entidad no contemplados en la legislación básica). La autorización ambiental integrada se rige por normativa básica salvo infracciones y sanciones.",
+      items: [
+        "Art. 7: ámbito = planes, programas, instalaciones, proyectos y actividades públicas o privadas susceptibles de producir molestias, alterar el medio ambiente o riesgo de afecciones; sin perjuicio de competencias estatales",
+        "Art. 8.3: seis formas de intervención para actividades con incidencia ambiental: evaluación ambiental estratégica e impacto ambiental; autorización ambiental integrada; autorización ambiental unificada; evaluación de afecciones ambientales; licencia de actividad clasificada; declaración responsable previa",
+        "Art. 9: autorizaciones otorgadas por el departamento de medio ambiente de Navarra = evaluación ambiental estratégica e impacto ambiental; autorización ambiental integrada; autorización ambiental unificada; evaluación de afecciones ambientales",
+        "Art. 10.1: evaluación ambiental se rige por normativa básica, salvo infracciones y sanciones que son forales",
+        "Art. 10.2: evaluación de afecciones ambientales = actividades de menor entidad o umbrales inferiores no contemplados en legislación básica; recogidas en Anejo 2; tramitación en Capítulo IV del Título I",
+        "Art. 10.3: entidades locales con competencia en planificación territorial actúan como órgano ambiental; en municipios de menos de 5.000 habitantes el departamento puede asumirlo por convenio",
+        "Art. 11: autorización ambiental integrada regida por normativa básica salvo infracciones y sanciones; competencia del departamento de medio ambiente; modificación no sustancial puede considerarse significativa si afecta condiciones de funcionamiento; el titular puede solicitar cambio de valores límite o condiciones si justifica cumplimiento de MTD, tramitándose por procedimiento simplificado"
+      ]
+    },
+    {
+      h: "Licencia de actividad clasificada: ámbito, finalidad y obligaciones (arts. 38-40)",
+      nota: "La licencia de actividad clasificada es la figura central para el arquitecto municipal: la concede la entidad local y precede a la construcción. La trampa frecuente es olvidar que la licencia de obras solo puede adelantarse en actividades de baja incidencia y sin informe de protección civil, siempre bajo responsabilidad exclusiva del titular. La finalidad es doble: prevención/control por la entidad local y coordinación interadministrativa para agilizar trámites.",
+      items: [
+        "Art. 38.1: la licencia afecta a implantación, funcionamiento y modificación de instalaciones incluidas en el Anejo 3; precede en todo caso a la construcción, montaje o traslado",
+        "Art. 38.2: reglamentariamente se podrá conceder licencia de obras mientras se tramita la licencia de actividad clasificada, salvo para actividades con informe de protección civil por seguridad de personas",
+        "Art. 38.3: en esos casos la ejecución de obras queda bajo exclusiva responsabilidad del titular, sin condicionar la futura licencia de actividad clasificada",
+        "Art. 38.4: la entidad local competente es la que tenga atribuida la competencia para otorgamiento de licencias en la legislación local",
+        "Art. 39.1: finalidad = sistema de prevención y control por acto de intervención administrativa local; coordinación de unidades administrativas para agilizar trámites",
+        "Art. 39.2: el otorgamiento no será efectivo hasta disponer de otros medios de intervención administrativa previos (autorizaciones sustantivas, actuaciones de seguridad, salud o medio ambiente)",
+        "Art. 39.3: la licencia se otorga sin perjuicio de autorizaciones o concesiones para ocupación, utilización o vertido de aguas residuales del dominio público hidráulico",
+        "Art. 40: obligaciones del titular = disponer de licencia y cumplir condiciones; control e información sectorial; comunicar modificaciones sustanciales o no; comunicar transmisión de titularidad; informar inmediatamente de incidentes o accidentes ambientales; prestar asistencia a inspección; cumplir demás obligaciones legales"
+      ]
+    },
+    {
+      h: "Tramitación, resolución y contenido de la licencia (arts. 41-43)",
+      nota: "Este bloque contiene los plazos más preguntables del tema. El plazo máximo de resolución es de cuatro meses desde la solicitud completa; el silencio es desestimatorio. La resolución debe publicarse en el BON. El contenido de la licencia se fija en función de las mejores técnicas disponibles, pero puede exigir condiciones complementarias más rigurosas si la normativa de calidad ambiental lo requiere.",
+      items: [
+        "Art. 41.1: trámites mínimos del procedimiento reglamentario = solicitud ante la entidad local; información pública y notificación a colindantes; informe vinculante del departamento de salud o protección civil para actividades que afecten a salud o seguridad de personas; informes de otros departamentos; remisión de documentación técnica para autorizaciones sustantivas, en particular explotaciones ganaderas; propuesta de resolución y audiencia al promotor; resolución motivada",
+        "Art. 41.2: en suelo no urbanizable, las licencias municipales solo se otorgan con posterioridad a la autorización de actividad en suelo no urbanizable",
+        "Art. 42.1: plazo máximo de resolución = cuatro meses desde la presentación de la solicitud completa",
+        "Art. 42.2: la resolución se notifica al titular, órganos con informe vinculante, alegantes y resto de interesados; debe publicarse en el Boletín Oficial de Navarra",
+        "Art. 42.3: silencio administrativo = desestimación de la solicitud tras cuatro meses sin resolución",
+        "Art. 42.4: en municipios compuestos, traslado de concesiones a los concejos en cinco días",
+        "Art. 43.1: contenido de la licencia = valores límite de emisión y medidas técnicas equivalentes para atmósfera, aguas, suelo, ruidos y vibraciones; procedimientos de producción, control y gestión de residuos; medidas correctoras y prescripciones técnicas; fianza o seguro para restauración; demás condiciones de la normativa ambiental sectorial",
+        "Art. 43.2: los valores límite se fijan según niveles de emisión asociados a las mejores técnicas disponibles en condiciones normales de funcionamiento",
+        "Art. 43.3: si la normativa de calidad ambiental exige condiciones más rigurosas que las MTD, la licencia exigirá condiciones complementarias"
+      ]
+    },
+    {
+      h: "Inicio, caducidad y modificaciones de la licencia (arts. 44-48)",
+      nota: "Aquí se regulan los efectos temporales y dinámicos de la licencia. La puesta en marcha requiere declaración responsable, que habilita el ejercicio efectivo pero no prejuzga el acomodo real a la normativa. La caducidad opera por no presentar dicha declaración en el plazo de dos años. La distinción entre modificación sustancial y no sustancial es clave: la no sustancial puede ejecutarse salvo que la entidad local manifieste lo contrario en un mes.",
+      items: [
+        "Art. 44.1: plazo máximo de dos años para iniciar la actividad desde la concesión de la licencia, salvo plazo distinto",
+        "Art. 44.2: puesta en marcha mediante declaración responsable del promotor en la que manifiesta cumplimiento de condiciones, posesión de documentación acreditativa y compromiso de mantenimiento",
+        "Art. 44.3: la declaración responsable habilita para el ejercicio efectivo de la actividad, pero no prejuzga la situación real ni limita potestades de vigilancia, control y sanción",
+        "Art. 45.1: si transcurren los dos años sin declaración responsable, la licencia agota sus efectos y deviene ineficaz",
+        "Art. 45.2: en proyectos no ejecutados en su totalidad, caduca la parte no incluida en la declaración responsable de puesta en marcha parcial",
+        "Art. 46: modificación de oficio cuando la contaminación lo haga conveniente, cambien las MTD, sea necesario por seguridad, cambien normas sectoriales, existan circunstancias sobrevenidas o lo exija la legislación vigente",
+        "Art. 47: modificación a solicitud del titular cuando justifique nivel de protección ambiental similar y acorde con MTD, sin modificaciones de la instalación",
+        "Art. 48.1-2: la modificación a iniciativa del titular puede ser sustancial o no sustancial; debe comunicarse a la entidad local con justificación y documentos",
+        "Art. 48.3: si el titular la califica como no sustancial, puede ejecutarla salvo que la entidad local manifieste lo contrario en el plazo máximo de un mes",
+        "Art. 48.4: si es sustancial, no podrá llevarse a cabo hasta modificar la licencia por el procedimiento reglamentario",
+        "Art. 48.5: modificación sustancial = cambio no previsto que afecte características, procesos, funcionamiento o extensión, con mayor incidencia ambiental y criterios reglamentarios",
+        "Art. 48.6: modificaciones en suelo no urbanizable con cambio de actividad, uso, aumento de volumen o nueva demanda de servicios requieren nueva autorización de actividades en suelo no urbanizable"
+      ]
+    },
+    {
+      h: "Eficacia, cierre y responsabilidad de la licencia (arts. 49-52)",
+      nota: "Este bloque cierra el régimen de la licencia de actividad clasificada con reglas de eficacia, transmisión y cierre. La licencia es trasmisible con notificación a la entidad local. El cierre en suelo no urbanizable impone la reposición del terreno en cinco años. La equivalencia con autorización de vertido indirecto simplifica la tramitación para el titular, pero no exime de otras autorizaciones.",
+      items: [
+        "Art. 49: el titular es responsable del cumplimiento de medidas y condiciones de la licencia y de los efectos ambientales derivados del funcionamiento",
+        "Art. 50.1: la licencia de actividad clasificada equivale a autorización de vertido indirecto a aguas superficiales",
+        "Art. 50.2-3: las solicitudes de licencia para actividades potencialmente contaminadoras de la atmósfera o de gestión de residuos deben ponerse en conocimiento del departamento de medio ambiente",
+        "Art. 51.1: la licencia se entiende otorgada salvo derecho de propiedad y sin perjuicio de tercero; no exime de responsabilidades civiles o penales",
+        "Art. 51.2: no se conceden licencias de obras para actividades clasificadas sin licencia de actividad previa, salvo actividades de baja incidencia sin informe de protección civil, bajo responsabilidad exclusiva del promotor",
+        "Art. 51.3: las licencias son trasmisibles; la transmisión debe notificarse a la entidad local para determinar titular y responsabilidades",
+        "Art. 52: cese definitivo en suelo no urbanizable obliga a reponer terrenos a estado original en plazo máximo de cinco años; para actividades potencialmente contaminantes del suelo (RD 9/2005) se exige informe de situación del suelo ante el departamento de medio ambiente"
+      ]
+    },
+    {
+      h: "Inspección: finalidad, competencias y facultades (arts. 55-60)",
+      nota: "La inspección ambiental es competencia del Gobierno de Navarra para actividades con autorización o declaración de impacto/afecciones, y de las entidades locales para licencias de actividad clasificada. El personal inspector tiene consideración de agente de autoridad, puede acceder sin previo aviso y sus actas son documentos públicos. La confidencialidad de secretos industriales tiene un tratamiento específico en las fotografías y el expediente.",
+      items: [
+        "Art. 55.1: finalidad = garantizar adecuación a la legalidad ambiental y verificar cumplimiento y eficacia de condiciones de autorizaciones y licencias",
+        "Art. 55.2: objetivos específicos = comprobar condiciones de autorización; eficacia de medidas correctoras; información actualizada; identificación de no legalizadas; gestión de quejas; reducción de impacto; propuesta de revisiones; evaluación de riesgos ambientales según Directiva 2010/75/UE",
+        "Art. 56.1: competencia inspector del Gobierno de Navarra sobre actividades con declaración de impacto, autorización de puesta en marcha o informe de afecciones ambientales",
+        "Art. 56.2: las competencias se ejercen por el departamento de medio ambiente y los departamentos con informes vinculantes",
+        "Art. 56.3: para planes y proyectos sujetos a evaluación ambiental estratégica, impacto o afecciones, la inspección corresponde al órgano sustantivo; el departamento de medio ambiente puede recabar información y realizar comprobaciones",
+        "Art. 56.4: inspección de licencias de actividad clasificada = entidades locales que otorgaron la licencia y departamentos del Gobierno de Navarra que emitieron informe previo",
+        "Art. 56.5: las administraciones pueden otorgar facultades de vigilancia a entidades de inspección acreditadas por la Entidad Nacional de Acreditación",
+        "Art. 57: planificación de inspecciones en el primer trimestre del año mediante programas con área geográfica, tipo de instalaciones, frecuencia de visitas y periodo de vigencia",
+        "Art. 58.1: el personal inspector goza de consideración de agente de autoridad",
+        "Art. 59.1: facultades = recabar documentación; acceder y permanecer sin previo aviso en instalaciones; para domicilios se requiere autorización judicial",
+        "Art. 59.2: facultad de tomar fotografías; si hay información sensible designada como confidencial, no se dará acceso a terceros ni se divulgará; el órgano de inspección determina motivadamente qué fotografías o partes no afectan a secretos técnicos o comerciales",
+        "Art. 59.3: actas e informes del personal inspector tienen naturaleza de documentos públicos y valor probatorio",
+        "Art. 59.4: facultades = requerir medidas correctoras; proponer medidas provisionales y definitivas de protección y restauración; poner en conocimiento infracciones y proponer sanciones; proponer modificación, revisión o revocación de autorizaciones",
+        "Art. 60: los titulares deben prestar colaboración necesaria; el incumplimiento es obstrucción a la inspección; pueden invocar confidencialidad en procesos industriales y aspectos legalmente reconocidos"
+      ]
+    },
+    {
+      h: "Seguimiento de autorizaciones y declaraciones ambientales (arts. 63-66)",
+      nota: "El seguimiento diferencia claramente quién controla cada instrumento: el departamento de medio ambiente para autorizaciones ambientales integradas y unificadas; el órgano sustantivo para declaraciones de impacto e informes de afecciones ambientales, con posibilidad de que el departamento de medio ambiente realice comprobaciones. Los resultados de inspección son públicos salvo limitaciones legales y deben desagregarse por sexo.",
+      items: [
+        "Art. 63: seguimiento de autorizaciones ambiental integrada = departamento de medio ambiente; puede designar entidades con capacidad técnica para actuaciones materiales no reservadas a funcionarios públicos; los programas de inspección determinan área geográfica, tipo de instalaciones, frecuencia y vigencia; resultados públicos",
+        "Art. 64: seguimiento de declaración ambiental estratégica = promotor remite informe de seguimiento al órgano sustantivo con listado de comprobación del programa de vigilancia ambiental; el programa y el listado se publican en la sede electrónica; el departamento de medio ambiente participa y puede recabar información; para planes estatales, el seguimiento de determinadas condiciones puede asumirlo Navarra con acuerdo expreso",
+        "Art. 65: seguimiento de declaraciones de impacto e informes de afecciones ambientales = órgano sustantivo; el promotor remite informe de seguimiento si así se determina, con listado de comprobación del programa de vigilancia ambiental; el departamento de medio ambiente puede recabar información y comprobaciones; el promotor debe permitir acceso a empleados públicos con autoridad y prestar colaboración; para proyectos estatales, salvo energía nuclear y explosivos, el seguimiento puede asumirlo Navarra con acuerdo expreso",
+        "Art. 66: seguimiento de autorización ambiental unificada = departamento de medio ambiente; misma regulación que la integrada en cuanto a designación de entidades, programas de inspección y publicidad de resultados",
+        "Art. 62: los resultados de inspección se ponen a disposición del público con las limitaciones de la Ley 27/2006; la información en registros debe desagregarse por sexo"
+      ]
+    },
+    {
+      h: "Anejo 3: Actividades sometidas a licencia de actividad clasificada",
+      nota: "El Anejo 3 contiene 15 grupos de actividades con umbrales concretos que determinan su sujeción a licencia de actividad clasificada. La pregunta típica exige identificar el grupo y el umbral correcto. Las cifras más recurrentes son 300 m² de superficie construida en industrias diversas, 300 habitantes-equivalentes en tratamiento de aguas, 50 t/año en residuos y disolventes, y los rangos de plazas en explotaciones ganaderas. No es necesario memorizar todos los grupos, pero sí los umbrales representativos y la estructura del anejo.",
+      items: [
+        "Grupo 1: instalaciones de combustión con potencia nominal inferior a 5 MW y superior o igual a 250 kW, excepto generación o cogeneración eléctrica",
+        "Grupo 2: tratamiento de superficie de metales y plásticos por vía electrolítica o química con volumen de cubetas o líneas menor o igual a 1 m³; talleres de transformación de metales con superficie construida inferior o igual a 2.000 m²",
+        "Grupo 3: compostaje a escala; valorización de residuos no peligrosos inferior a 50 t/año; puntos limpios fijos de entidades locales hasta 50 t peligrosos y 100 t no peligrosos; almacenamiento temporal no peligroso inferior a 100 t en nave industrial; almacenamiento temporal de RAEE hasta 50 t",
+        "Grupo 4: transformación de madera; laminación de madera y plástico con disolventes menor o igual a 5 t/año; otras industrias de papel, cartón o madera no sometidas a declaración responsable con superficie superior a 300 m²",
+        "Grupo 5: industria textil y calzado no sometida a declaración responsable con superficie superior a 300 m²",
+        "Grupo 6: fabricación de artículos de cuero no sometida a declaración responsable con superficie superior a 300 m²; recubrimiento de cuero con disolventes menor o igual a 10 t/año",
+        "Grupo 7: mataderos hasta 10 t/día; transformación de materia prima animal hasta 30 t/día; transformación de materia prima vegetal hasta 100 t/día o hasta 200 t/día si funciona máximo 90 días consecutivos al año; leche hasta 50 t/día; grasas, aceites, cerveza, confituras, féculas, harina y aceite de pescado en polígono o a más de 500 m de residencial o menos de 1 ha, con capacidades de 75 a 100 t/día según caso",
+        "Grupo 8: explotaciones ganaderas con rangos de plazas según especie; acuicultura intensiva hasta 500 t/año",
+        "Grupo 9: consumo de disolventes orgánicos con umbrales de 1 a 25 t/año según actividad específica",
+        "Grupo 10: conservación de madera con productos químicos hasta 50 m³/día",
+        "Grupo 11: tratamiento de aguas residuales independiente, no independiente o urbanas, hasta 300 habitantes-equivalentes",
+        "Grupo 12: reproducción de textos e imágenes con superficie útil de exposición y venta superior a 750 m²; impresión offset, rotograbado, flexografía y serigrafía con consumos de disolvente de 15 a 30 t/año según caso",
+        "Grupo 13: fabricación de plásticos por inyección, moldeo o extrusión; conversión de caucho con disolventes hasta 15 t/año; talleres de cantería, albañilería, electricidad, prefabricados de hormigón, reparación de vehículos; lavanderías industriales con vertido diario hasta 50 m³; I+D con cualquier capacidad; otras industriales sin autorización de emisiones",
+        "Grupo 14: almacenes de productos agrícolas y de objetos desde 500 m²; almacenamiento de productos químicos, petróleo, petroquímicos, gas natural, combustibles líquidos y licuados con capacidades de 1.000 litros a 500 m³ según caso; estiércoles líquidos hasta 5.000 m³ y sólidos hasta 5.000 t",
+        "Grupo 15: espectáculos y actividades recreativas; cementerios, tanatorios y velatorios; estaciones de servicio de 1.000 litros a 500 m³; lavaderos de vehículos; alojamiento turístico no sometido a declaración responsable; otras actividades comerciales y servicios de más de 300 m² o potencia mecánica superior a 10 kW; tatuaje y piercing sin límite de superficie ni potencia; actividades con incidencia en seguridad de personas de carácter sanitario, residencial, aparcamiento, docente, administrativo, cultural/religioso e infraestructuras de transporte"
+      ]
+    }
+  ],
+  claves: [
+    "Ley Foral 17/2020, de 16 de diciembre: actividades con incidencia ambiental en Navarra",
+    "Seis formas de intervención: evaluación ambiental e impacto; autorización ambiental integrada; autorización ambiental unificada; evaluación de afecciones ambientales; licencia de actividad clasificada; declaración responsable previa (art. 8.3)",
+    "Plazo de resolución de licencia de actividad clasificada: cuatro meses desde solicitud completa; silencio = desestimación (art. 42)",
+    "Plazo para iniciar actividad tras licencia: dos años; caducidad si no se presenta declaración responsable (arts. 44.1 y 45.1)",
+    "Plazo para que la entidad local manifieste lo contrario sobre modificación no sustancial: un mes (art. 48.3)",
+    "Plazo para reponer terrenos en suelo no urbanizable tras cese definitivo: cinco años (art. 52)",
+    "Municipios de menos de 5.000 habitantes: el departamento de medio ambiente puede asumir la competencia de órgano ambiental por convenio (art. 10.3)",
+    "La licencia de actividad clasificada equivale a autorización de vertido indirecto a aguas superficiales (art. 50.1)",
+    "Umbrales recurrentes en Anejo 3: 300 m² de superficie construida en industrias diversas; 300 habitantes-equivalentes en aguas residuales; 50 t/año en residuos y disolventes; 250 kW a 5 MW en instalaciones de combustión",
+    "El personal inspector tiene consideración de agente de autoridad y puede acceder sin previo aviso a instalaciones; para domicilios se requiere autorización judicial (art. 59.1)",
+    "Los resultados de inspección son públicos y la información en registros debe desagregarse por sexo (art. 62)"
+  ],
+},
   E31: {
     intro:
       "Título IV del TRLFOTU (DFL 1/2017), arts. 130-189: ejecución del planeamiento. Unidades de ejecución, parcelación y reparcelación, y los 6 sistemas de actuación (3 privados: compensación, reparcelación voluntaria y agente urbanizador; 3 públicos: cooperación, ejecución forzosa y expropiación). Tema de plazos y quórums.",
