@@ -2293,107 +2293,164 @@ export const RESUMENES = {
   ]
 }
   "E9": {
-    intro: "El RITE (RD 1027/2007, modificado) regula las exigencias de eficiencia energética, bienestar e higiene, y seguridad de las instalaciones térmicas en los edificios: climatización (calefacción, refrigeración, ventilación) y producción de ACS.",
-    bloques: [
-      { h: "Estructura y ámbito (Parte I, Cap. I-II)", items: [
-        "Ámbito: instalaciones fijas de climatización y ACS en edificios (nueva construcción y reformas)",
-        "Se considera reforma: incorporación/sustitución de subsistemas, ampliación, cambio de energía, cambio de uso",
-        "Exigencias técnicas: bienestar e higiene · eficiencia energética y renovables · seguridad (arts. 11-13)",
-        "Documentos reconocidos del RITE: documentos técnicos sin carácter reglamentario con reconocimiento ministerial",
-      ]},
-      { h: "Documentación técnica y condiciones administrativas (Cap. III)", items: [
-        "Potencia >70 kW → Proyecto firmado por técnico titulado competente",
-        "Potencia ≥5 kW y ≤70 kW → Memoria técnica (instalador habilitado o técnico titulado)",
-        "Potencia <5 kW → Sin documentación preceptiva ante la CCAA",
-        "Tras pruebas: el instalador habilitado y el director de la instalación suscriben el Certificado de la Instalación",
-        "Puesta en servicio: registro del certificado en el órgano competente de la CCAA antes de conectar energía",
-      ]},
-      { h: "IT 1 – Bienestar e higiene (IT 1.1)", items: [
-        "Condiciones interiores diseño (tabla 1.4.1.1): VERANO 23-25°C / HR 45-60% · INVIERNO 21-23°C / HR 40-50%",
-        "Temperatura de dimensionamiento: calefacción = 21°C · refrigeración = 25°C",
-        "Categorías calidad del aire interior (IDA): IDA1 hospitales/guarderías (20 dm³/s·p) · IDA2 oficinas/aulas (12,5) · IDA3 restaurantes/cines (8) · IDA4 (5)",
-        "Piscinas climatizadas: temperatura agua 24-30°C · tolerancia ±1,5°C · humedad local <65% · presión negativa 20-40 Pa",
-        "Categorías aire de extracción (AE): AE1 (oficinas) puede retornarse · AE2 solo transferencia a servicios · AE3/AE4 nunca recirculables",
-        "AE4 incluye: aparcamientos, campanas de humos, laboratorios químicos, locales de pinturas y solventes",
-      ]},
-      { h: "IT 1 – Eficiencia energética (IT 1.2)", items: [
-        "Procedimiento simplificado (valores límite) o alternativo (consumo calculado equivalente)",
-        "Fraccionamiento generadores: potencia >400 kW con combustible líquido/gaseoso → mínimo 2 generadores",
-        "Regulación quemadores: modulante para gas · ≤70 kW y combustible líquido puede ser de 1 o 2 marchas",
-        "Cargas de cálculo: invierno TS99% · verano TS1% · usos especiales (hospitales): TS99,6% y TS0,4%",
-        "Temperatura máxima de entrada a emisores de calefacción: 60°C",
-      ]},
-      { h: "Mantenimiento, uso e inspección (Cap. VI, IT 3)", items: [
-        "5-70 kW: empresa mantenedora según Manual de Uso y Mantenimiento, sin contrato formal obligatorio",
-        ">70 kW: contrato de mantenimiento obligatorio con empresa mantenedora habilitada",
-        ">5.000 kW calor o >1.000 kW frío (o solar >400 kW): director de mantenimiento técnico titulado competente",
-        "Registro de operaciones de mantenimiento: conservar al menos 5 años desde cada actuación",
-        "Certificado de mantenimiento anual (cuando hay contrato): enviado al órgano competente de la CCAA",
-      ]},
+  "T09": {
+    "intro": "El Tema 9 aborda el Reglamento de Instalaciones Térmicas en los Edificios (RITE) y su vinculación con el Documento Básico HE Ahorro de Energía del CTE. Es un texto técnicamente denso donde el examen suele centrar sus preguntas en umbrales de potencia, clases de estanquidad, espesores de aislamiento y periodicidades de mantenimiento.",
+    "bloques": [
+      {
+        "h": "Estructura y ámbito del RITE",
+        "nota": "Trampa clásica: confundir las dos partes del RITE. La Parte I contiene las exigencias generales (bienestar, eficiencia, seguridad) y la Parte II las Instrucciones Técnicas (IT 1, 2 y 3). El concepto de reforma es más amplio de lo que parece: no solo cambiar equipos, sino también sustituir un generador por otro similar (Art. 2.4).",
+        "items": [
+          "Art. 1: objeto es eficiencia energética y seguridad en diseño, ejecución, mantenimiento y uso.",
+          "Art. 2.1: instalaciones térmicas = climatización (calefacción, refrigeración, ventilación) + ACS + interconexiones a redes urbanas + automatización y control.",
+          "Art. 2.3: reforma = nuevos subsistemas, sustitución por generador de distintas características, ampliación de equipos, cambio de tipo de energía o incorporación de renovables, cambio de uso.",
+          "Art. 2.4: también es reforma la sustitución de un generador por otro de similares características.",
+          "Art. 2.6: no se aplica a procesos industriales, agrícolas u otros no destinados a bienestar e higiene de personas.",
+          "Art. 4: Parte I (disposiciones generales) y Parte II (Instrucciones Técnicas IT 1, IT 2, IT 3)."
+        ]
+      },
+      {
+        "h": "Documentación técnica: proyecto, memoria y potencias umbral",
+        "nota": "El examen adora los números 5, 70 y 400 kW. Recuerda: 5 kW es el piso para memoria técnica; 70 kW es techo de memoria y piso de proyecto; 400 kW es el límite para un solo generador de combustible líquido/gaseoso. En solar térmica, si no hay equipo de apoyo, la potencia ficticia es 0,7 kW/m² de superficie de captador.",
+        "items": [
+          "Art. 15.1.a: >70 kW → proyecto.",
+          "Art. 15.1.b: ≥5 kW y ≤70 kW → memoria técnica.",
+          "Art. 15.1.c: <5 kW, calentadores instantáneos/termos eléctricos ≤70 kW y sistemas solares de un único elemento prefabricado → no preceptiva documentación ante CC.AA.",
+          "Art. 15.2: potencia nominal = suma de generadores de calor O de frío (no se suman entre sí), sin considerar solar térmica.",
+          "Art. 15.3: solar sin equipo de apoyo → potencia = superficie apertura captadores × 0,7 kW/m².",
+          "Art. 16: proyecto redactado y firmado por técnico titulado competente.",
+          "Art. 17: memoria técnica elaborada por instalador habilitado o técnico titulado competente."
+        ]
+      },
+      {
+        "h": "Ejecución, recepción, certificado y puesta en servicio",
+        "nota": "El certificado de instalación es la llave de la puesta en servicio. No se registran preinstalaciones. Una sustitución de generador ≤70 kW con variación de potencia ≤25% respecto al anterior está exenta de registro (Art. 24.11). La documentación final se incorpora al Libro del Edificio.",
+        "items": [
+          "Art. 19.1: ejecución por empresa instaladora habilitada.",
+          "Art. 19.2: si hay proyecto, ejecución bajo dirección de técnico titulado competente.",
+          "Art. 20: control de recepción = documentación + distintivos de calidad + ensayos.",
+          "Art. 23: certificado firmado por instalador habilitado y director de instalación (si procede); incluye resultados de pruebas IT 2 y declaración de cumplimiento.",
+          "Art. 24.1: puesta en servicio requiere registro del certificado en la CC.AA. para instalaciones >70 kW y memoria/proyecto.",
+          "Art. 24.7: no se registran preinstalaciones térmicas.",
+          "Art. 24.11: sustitución generador ≤70 kW exenta de registro si variación potencia útil nominal ≤25% y generador instalado ≤70 kW."
+        ]
+      },
+      {
+        "h": "Mantenimiento y obligaciones del titular",
+        "nota": "El titular es responsable desde la recepción provisional. La clave es 70 kW: por debajo, mantenimiento según Manual; por encima, contrato obligatorio; y si se superan 5.000 kW en calor o 1.000 kW en frío, hace falta director de mantenimiento. El registro de operaciones se conserva 5 años.",
+        "items": [
+          "Art. 25.1: titular responsable del uso y mantenimiento desde recepción provisional.",
+          "Art. 26.6.a: 5-70 kW → mantenimiento por empresa mantenedora según Manual.",
+          "Art. 26.6.b: >70 kW → contrato de mantenimiento obligatorio.",
+          "Art. 26.6.c: >5.000 kW calor y/o >1.000 kW frío, o solar >400 kW → mantenimiento bajo dirección de técnico titulado (director de mantenimiento).",
+          "Art. 27.2: registro de operaciones de mantenimiento conservado ≥5 años.",
+          "Art. 28: certificado de mantenimiento anual con validez máxima de 1 año."
+        ]
+      },
+      {
+        "h": "Bienestar e higiene: confort térmico y calidad del aire",
+        "nota": "El examen mezcla valores de diseño con valores de limitación de temperatura (IT 3.8). Aquí, en IT 1.1, hablamos de diseño: 21°C para calefacción y 25°C para refrigeración. Los caudales de ventilación dependen de la categoría IDA (1 a 4) y del método (indirecto por persona, directo por CO2, etc.). Solo el aire AE 1 puede retornarse.",
+        "items": [
+          "IT 1.1.4.1.2: temperatura operativa diseño · verano 23-25°C · invierno 21-23°C; HR verano 45-60%, invierno 40-50%.",
+          "IT 1.1.4.1.2: temperatura cálculo calefacción = 21°C · refrigeración = 25°C.",
+          "IT 1.1.4.2.2: IDA 1 = hospitales/clínicas/laboratorios/guarderías; IDA 2 = oficinas/aulas/residencias/museos; IDA 3 = comercios/cines/restaurantes/gimnasios.",
+          "IT 1.1.4.2.3: método indirecto por persona · IDA 1 = 20 dm³/s · IDA 2 = 12,5 · IDA 3 = 8 · IDA 4 = 5.",
+          "IT 1.1.4.2.5: AE 1 (bajo contaminación, sin humo) es el único retornable; AE 3 y AE 4 no pueden usarse como recirculación ni transferencia.",
+          "IT 1.1.4.3.1: higiene ACS sujeta a legislación legionelosis; prohibida la mezcla directa de agua fría con condensado o vapor de calderas."
+        ]
+      },
+      {
+        "h": "Eficiencia energética: generación de calor y frío",
+        "nota": "Los percentiles de temperatura exterior son una trampa: 99% invierno y 1% verano para edificios normales; 99,6% y 0,4% solo para usos especiales (hospitales, museos). En frío, >70 kW exige 4 escalonamientos como mínimo. En calor, >400 kW exige 2+ generadores. Los emisores de calefacción se calculan para 60°C máximo de entrada.",
+        "items": [
+          "IT 1.2.4.1.1: percentiles diseño · invierno TS 99% · verano TS 1%; excepción hospitales/museos → TS 99,6% y TS 0,4%.",
+          "IT 1.2.4.1.2.1: emisores calefacción calculados para temperatura entrada máxima 60°C.",
+          "IT 1.2.4.1.2.2: generadores combustible líquido/gaseoso · >400 kW → ≥2 generadores; ≤400 kW con ACS puede ser 1 si potencia ACS ≥ escalón mínimo.",
+          "IT 1.2.4.1.2.3: regulación quemadores gas siempre modulante; líquidos ≤70 kW pueden ser 1-2 marchas si se justifica.",
+          "IT 1.2.4.1.3.2: centrales frío >70 kW → mínimo 4 escalonamientos, siendo el mínimo como máximo del 25%.",
+          "IT 1.2.4.1.3.3: maquinaria frigorífica aire-aire · condensadores dimensionados para percentil más exigente +3°C."
+        ]
+      },
+      {
+        "h": "Aislamiento térmico, conductos y estanquidad",
+        "nota": "El 4% es la cifra mágica de pérdidas tanto para tuberías como para conductos de aire. Para conductos, la clase de estanquidad ATC 4 es el mínimo. Los espesores de referencia se dan para λ=0,04 W/(m·K); si el material cambia, hay que recalcular. En ACS se añaden 5 mm a los espesores de tubería.",
+        "items": [
+          "IT 1.2.4.2.1.1: pérdidas térmicas globales tuberías ≤4% de la potencia máxima transportada.",
+          "IT 1.2.4.2.1.2: espesores mínimos referencia λ=0,04 W/(m·K); ACS aumenta 5 mm sobre tablas.",
+          "IT 1.2.4.2.1.2: tuberías ≤25 mm y <10 m empotradas/canaletas → espesor mínimo 10 mm.",
+          "IT 1.2.4.2.2: conductos impulsión ≤4% pérdida; espesor interior 30 mm / exterior 50 mm (≤70 kW y λ=0,04).",
+          "IT 1.2.4.2.3: estanquidad conductos → clase ATC 4 o superior.",
+          "IT 1.2.4.2.5: SFP impulsión · aire acondicionado SFP 4 · ventilación simple SFP 3; extracción · aire acondicionado SFP 3 · ventilación simple SFP 2."
+        ]
+      },
+      {
+        "h": "Control, contabilización y recuperación de energía",
+        "nota": "El umbral de 290 kW para automatización de edificios no residenciales es una cifra que suele aparecer en preguntas de desarrollo. La contabilización por usuario es obligatoria en edificios multiusuario. El enfriamiento gratuito y la recuperación de calor del aire de extracción tienen umbrales claros: >70 kW para todo-aire y >0,28 m³/s de caudal expulsado, respectivamente.",
+        "items": [
+          "IT 1.2.4.3.1: edificios nuevos → autorregulación por espacio interior o zona térmica cuando sea viable.",
+          "IT 1.2.4.3.5: edificios no residenciales >290 kW → sistema de automatización y control de edificios.",
+          "IT 1.2.4.4: instalación multiusuario → sistema de reparto de gastos por servicio; ACS → contador individual.",
+          "IT 1.2.4.4: >70 kW → medición separada de combustible y energía eléctrica; generadores >70 kW → contador horas funcionamiento.",
+          "IT 1.2.4.5.1: enfriamiento gratuito por aire exterior obligatorio en sistemas todo-aire >70 kW en refrigeración.",
+          "IT 1.2.4.5.2: recuperación de calor del aire de extracción si caudal expulsado >0,28 m³/s.",
+          "IT 1.2.4.6.1: contribución renovable mínima según HE4 del CTE; bombas de calor deben superar el SPF de la Directiva 2009/28/CE."
+        ]
+      },
+      {
+        "h": "Seguridad: salas de máquinas y chimeneas",
+        "nota": "Sala de máquinas solo si potencia >70 kW (salvo excepciones como autónomos exteriores o generadores de aire caliente). La altura mínima es 2,50 m. En salas de gas, el elemento de baja resistencia mecánica debe ser ≥ V/100 con mínimo 1 m². Las chimeneas >400 kW necesitan conducto propio; ≤400 kW pueden compartir si suman ≤400 kW y tienen la misma configuración.",
+        "items": [
+          "IT 1.3.4.1.2.1: sala de máquinas si potencia >70 kW; no lo son autónomos exteriores, generadores aire caliente ni tubos radiantes a gas.",
+          "IT 1.3.4.1.2.2: altura mínima sala 2,50 m; libre sobre caldera 0,50 m.",
+          "IT 1.3.4.1.2.3: salas gas → nivel ≥ semisótano; elemento baja resistencia mecánica ≥ V/100 (mín. 1 m²).",
+          "IT 1.3.4.1.2.6: calderas quemador forzado → 0,5 m lateral (apertura puerta), 0,7 m fondo caja humos, frontal = profundidad (mín. 1 m).",
+          "IT 1.3.4.1.2.7: ventilación natural directa → 5 cm²/kW; forzada → caudal mínimo 1,8·PN + 10·A (m³/h).",
+          "IT 1.3.4.1.3.2: >400 kW → conducto propio evacuación; ≤400 kW pueden compartir si suma ≤400 kW y misma configuración."
+        ]
+      },
+      {
+        "h": "Pruebas de puesta en servicio (IT 2)",
+        "nota": "Las presiones de prueba son un clásico de examen tipo test. Agua caliente sanitaria se prueba al doble de la presión máxima (mínimo 6 bar), mientras que circuitos cerrados de climatización al 1,5 (mínimo 6 bar). El solar primario baja a 1,5× con mínimo 3 bar. Las pruebas de libre dilatación se hacen hasta la temperatura de tarado de los elementos de seguridad.",
+        "items": [
+          "IT 2.2.2.4: circuitos cerrados agua refrigerada o caliente ≤100°C → presión prueba = 1,5 × presión máxima trabajo (mín. 6 bar).",
+          "IT 2.2.2.4: circuitos ACS → presión prueba = 2 × presión máxima trabajo (mín. 6 bar).",
+          "IT 2.2.2.4: circuitos primarios solar térmica → presión prueba = 1,5 × presión máxima trabajo (mín. 3 bar).",
+          "IT 2.2.4: prueba libre dilatación hasta temperatura de tarado de elementos de seguridad.",
+          "IT 2.2.5: conductos → pruebas de resistencia estructural y estanquidad según clase ATC del proyecto.",
+          "IT 2.4: rendimiento generador de calor en pruebas no inferior en más de 5 unidades al límite inferior de su etiqueta energética."
+        ]
+      },
+      {
+        "h": "Mantenimiento y limitación de temperaturas (IT 3)",
+        "nota": "La IT 3.8 es aplicable a todos los edificios, nuevos y existentes, con independencia de la normativa anterior. Los límites de temperatura para usos administrativos, comerciales y pública concurrencia son 21°C en calefacción y 26°C en refrigeración, con HR 30-70%. Si la superficie del recinto es >1.000 m², es obligatorio un display visible de al menos DIN A3.",
+        "items": [
+          "IT 3.1 Tabla 3.1: calderas murales gas ≤70 kW · viviendas cada 2 años · restos usos anual.",
+          "IT 3.1 Tabla 3.1: aire acondicionado ≤12 kW · viviendas cada 4 años · restos usos cada 2 años.",
+          "IT 3.1 Tabla 3.1: instalaciones >70 kW → mantenimiento mensual.",
+          "IT 3.8.2: recintos calefactados ≤21°C; recintos refrigerados ≥26°C; HR 30-70%.",
+          "IT 3.8.3: display obligatorio de temperatura/humedad si superficie >1.000 m² (mínimo DIN A3, exactitud ±0,5°C).",
+          "IT 3.8.4: puertas de acceso desde calle → cierre automático para evitar pérdidas energéticas."
+        ]
+      }
     ],
-    claves: [
-      "Proyecto si >70 kW · Memoria técnica si 5-70 kW · Sin documentación si <5 kW",
-      "Condiciones diseño: verano 23-25°C/45-60%HR · invierno 21-23°C/40-50%HR · dim. refrigeración: 25°C",
-      "IDA1=20 dm³/s·p · IDA2=12,5 · IDA3=8 · IDA4=5 · solo AE1 puede retornarse",
-      "AE4: aparcamientos, campanas de humos, laboratorios químicos — nunca recirculable",
-      "Piscinas climatizadas: agua 24-30°C · aire=agua+1-2°C (máx 30°C) · HR local <65%",
-      "Fraccionamiento: >400 kW combustible líquido/gaseoso → ≥2 generadores",
-      "Mantenimiento: contrato obligatorio >70 kW · director técnico >5.000 kW calor / >1.000 kW frío · registro 5 años",
-    ],
-  },
-
-  "E10": {
-    intro: "El CTE DB-HS (Salubridad), actualizado por RD 450/2022, establece en seis secciones (HS1–HS6) las condiciones para proteger la salud de los usuarios frente a humedades, residuos, calidad del aire, agua, evacuación y radón.",
-    bloques: [
-      { h: "HS 1 – Protección frente a la humedad", items: [
-        "Ámbito: muros/suelos en contacto con el terreno · fachadas/cubiertas en contacto con el exterior",
-        "Presencia de agua: BAJA (cara inf. suelo > nivel freático) · MEDIA (<2 m bajo freático) · ALTA (≥2 m bajo freático)",
-        "Grado de impermeabilidad mínimo (tabla 2.1): Ks≤10⁻² + alta → 5 · Ks<10⁻² + media → 3 · baja → 1",
-        "Condiciones constructivas (C): C1=hormigón hidrófugo in situ · C2=hormigón fluido · C3=fábrica con mortero hidrófugo",
-        "Impermeabilización (I): I1=lámina o líquido · I2=pintura o I1 · I3=revestimiento hidrófugo interior (fábrica)",
-        "Drenaje (D): D1=capa drenante+filtrante · D2=pozo drenante c/50 m (diámetro ≥0,7 m, 2 bombas) · D3=tubo drenante en arranque · D4=canaletas cámara",
-        "Ventilación cámara (V1): caudal ≥0,7 l/s·m² superficie útil · 50% aberturas inferior + 50% coronación · distancia entre aberturas ≤5 m · relación Ss/Ah: 10<Ss/Ah<30",
-        "Encuentros muro-fachada (interior): impermeabilizante >15 cm sobre nivel suelo exterior + banda refuerzo hacia abajo ≥20 cm",
-        "Esquinas/rincones: banda de refuerzo ≥15 cm de anchura centrada en la arista",
-        "Limitación de condensaciones superficiales e intersticiales: según DB-HE1",
-      ]},
-      { h: "HS 2 – Recogida y evacuación de residuos", items: [
-        "Obligación: espacios y medios para extraer residuos ordinarios de acuerdo con el sistema público de recogida",
-        "Facilitar la separación selectiva en origen y la recogida selectiva",
-        "Almacén de contenedores de edificio + espacio de reserva + posibles bajantes de residuos",
-      ]},
-      { h: "HS 3 – Calidad del aire interior", items: [
-        "Objetivo: ventilación adecuada, eliminación de contaminantes habituales, caudal suficiente de aire exterior",
-        "Evacuación de productos de combustión: con carácter general, por la cubierta del edificio, independientemente del combustible",
-        "En viviendas y aparcamientos: cumplimiento de esta sección HS3 · resto de edificios: RITE IT 1.1.4.2",
-      ]},
-      { h: "HS 4 – Suministro de agua", items: [
-        "Agua apta para consumo · caudales suficientes · sin alteración de propiedades · prevención de retornos",
-        "Equipos de ACS con acumulación: condiciones para evitar el desarrollo de gérmenes patógenos (Legionella)",
-        "Ahorro y control del agua: criterios de diseño, señalización y dispositivos ahorradores",
-      ]},
-      { h: "HS 5 – Evacuación de aguas", items: [
-        "Medios para extraer aguas residuales de forma independiente o conjunta con pluviales y escorrentías",
-        "Comprende: aguas fecales (residuales) + aguas pluviales (precipitaciones) + escorrentías de cubierta y exteriores",
-      ]},
-      { h: "HS 6 – Protección frente al radón (RD 732/2019 + RD 450/2022)", items: [
-        "Radón: gas noble radiactivo procedente del terreno que puede acumularse en recintos cerrados",
-        "Riesgo variable por municipio según clasificación del potencial de radón del subsuelo",
-        "Medidas: barrera de protección · espacio de contención ventilado · despresurización del terreno",
-      ]},
-    ],
-    claves: [
-      "HS1 presencia agua: baja=sobre freático · media=0-2m bajo freático · alta=≥2m bajo freático",
-      "HS1 grado imp. mínimo: Ks≤10⁻² + alta → 5 · Ks≤10⁻⁵ + alta → 4 · baja → 1",
-      "HS1 V1 cámara: ≥0,7 l/s·m² · aberturas 50%inf+50%cor · distancia ≤5 m",
-      "HS1 D2 pozos drenantes: c/50 m · diámetro ≥0,7 m · 2 bombas de achique",
-      "HS1 encuentro muro-fachada interior: impermeabilizante >15 cm sobre nivel suelo · banda refuerzo ≥20 cm",
-      "HS1 esquinas/rincones: banda refuerzo ≥15 cm centrada en arista",
-      "HS3 combustión: evacuación general por cubierta · calidad aire en viviendas/aparcamientos → HS3; resto → RITE",
-      "DB-HS comprende 6 secciones (HS1-HS6): la 6ª (radón) incorporada por RD 732/2019",
-    ],
-  },
-
+    "claves": [
+      "70 kW: umbral que separa memoria de proyecto, sala de máquinas, mantenimiento mensual y contabilización obligatoria.",
+      "5 kW: piso para exigir memoria técnica; por debajo no es preceptiva documentación ante CC.AA.",
+      "0,7 kW/m²: factor para calcular potencia ficticia de instalaciones solares térmicas sin equipo de apoyo.",
+      "21°C calefacción y 25°C refrigeración: temperaturas de cálculo de diseño en el confort.",
+      "26°C refrigeración y 21°C calefacción: límites de temperatura en uso público por ahorro energético (IT 3.8).",
+      "4%: pérdidas máximas admitidas en tuberías y en conductos de impulsión de aire.",
+      "ATC 4: clase mínima de estanquidad para redes de conductos.",
+      "1,5× presión máxima y mínimo 6 bar: prueba hidráulica de circuitos cerrados de climatización.",
+      "3 bar: presión mínima de prueba para circuitos primarios de instalaciones solares térmicas.",
+      "400 kW: límite para compartir conducto de humos; por encima, conducto propio obligatorio.",
+      "290 kW: potencia a partir de la cual los edificios no residenciales deben tener automatización y control.",
+      "99% invierno y 1% verano: percentiles de temperatura exterior para cálculo de cargas (99,6% y 0,4% en hospitales).",
+      "SFP 4-3-3-2: impulsión AA / impulsión vent-simple / extracción AA / extracción vent-simple.",
+      "5 años: tiempo mínimo de conservación del registro de operaciones de mantenimiento.",
+      "AE 1 es el único aire de extracción que puede retornarse a los locales; AE 3 y AE 4 están prohibidos de recirculación."
+    ]
+  }
+},
   "E11": {
     intro: "El CTE DB-SE-AE (Acciones en la Edificación) cuantifica las acciones gravitatorias, climáticas y accidentales sobre los edificios para la verificación de la seguridad estructural. Clasifica las acciones en permanentes (peso propio, pretensado, terreno) y variables (uso, viento, nieve, térmicas, accidentales).",
     bloques: [
