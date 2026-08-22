@@ -2627,20 +2627,20 @@ export const RESUMENES = {
   "E9": {
     intro: "El RITE (RD 1027/2007, modificado) regula las exigencias de eficiencia energética, bienestar e higiene, y seguridad de las instalaciones térmicas en los edificios: climatización (calefacción, refrigeración, ventilación) y producción de ACS.",
     bloques: [
-      { h: "Estructura y ámbito (Parte I, Cap. I-II)", items: [
+      { h: "Estructura y ámbito (Parte I, Cap. I-II)", nota: "Este bloque encuadra el RITE: aplica a instalaciones fijas de climatización y ACS, y distingue cuándo una intervención cuenta como reforma. La trampa habitual es confundir su ámbito con el DB-HE o el DB-HS.", items: [
         "Ámbito: instalaciones fijas de climatización y ACS en edificios (nueva construcción y reformas)",
         "Se considera reforma: incorporación/sustitución de subsistemas, ampliación, cambio de energía, cambio de uso",
         "Exigencias técnicas: bienestar e higiene · eficiencia energética y renovables · seguridad (arts. 11-13)",
         "Documentos reconocidos del RITE: documentos técnicos sin carácter reglamentario con reconocimiento ministerial",
       ]},
-      { h: "Documentación técnica y condiciones administrativas (Cap. III)", items: [
+      { h: "Documentación técnica y condiciones administrativas (Cap. III)", nota: "La documentación exigida depende únicamente de la potencia térmica nominal: proyecto >70 kW, memoria 5-70 kW y nada <5 kW. Hay que memorizar los umbrales, quién firma el certificado y que la puesta en servicio requiere registro previo en la CCAA.", items: [
         "Potencia >70 kW → Proyecto firmado por técnico titulado competente",
         "Potencia ≥5 kW y ≤70 kW → Memoria técnica (instalador habilitado o técnico titulado)",
         "Potencia <5 kW → Sin documentación preceptiva ante la CCAA",
         "Tras pruebas: el instalador habilitado y el director de la instalación suscriben el Certificado de la Instalación",
         "Puesta en servicio: registro del certificado en el órgano competente de la CCAA antes de conectar energía",
       ]},
-      { h: "IT 1 – Bienestar e higiene (IT 1.1)", items: [
+      { h: "IT 1 – Bienestar e higiene (IT 1.1)", nota: "IT 1.1 fija condiciones interiores de diseño, caudales de aire y categorías IDA/AE. El examen suele mezclar valores de IDA o preguntar qué aire de extracción puede retornarse o recircularse.", items: [
         "Condiciones interiores diseño (tabla 1.4.1.1): VERANO 23-25°C / HR 45-60% · INVIERNO 21-23°C / HR 40-50%",
         "Temperatura de dimensionamiento: calefacción = 21°C · refrigeración = 25°C",
         "Categorías calidad del aire interior (IDA): IDA1 hospitales/guarderías (20 dm³/s·p) · IDA2 oficinas/aulas (12,5) · IDA3 restaurantes/cines (8) · IDA4 (5)",
@@ -2648,14 +2648,14 @@ export const RESUMENES = {
         "Categorías aire de extracción (AE): AE1 (oficinas) puede retornarse · AE2 solo transferencia a servicios · AE3/AE4 nunca recirculables",
         "AE4 incluye: aparcamientos, campanas de humos, laboratorios químicos, locales de pinturas y solventes",
       ]},
-      { h: "IT 1 – Eficiencia energética (IT 1.2)", items: [
+      { h: "IT 1 – Eficiencia energética (IT 1.2)", nota: "IT 1.2 regula la eficiencia de los generadores, el fraccionamiento, la regulación de quemadores y las cargas de cálculo. Los valores límite, las temperaturas de emisores y los porcentajes de temperaturas de diseño son clásicos de examen.", items: [
         "Procedimiento simplificado (valores límite) o alternativo (consumo calculado equivalente)",
         "Fraccionamiento generadores: potencia >400 kW con combustible líquido/gaseoso → mínimo 2 generadores",
         "Regulación quemadores: modulante para gas · ≤70 kW y combustible líquido puede ser de 1 o 2 marchas",
         "Cargas de cálculo: invierno TS99% · verano TS1% · usos especiales (hospitales): TS99,6% y TS0,4%",
         "Temperatura máxima de entrada a emisores de calefacción: 60°C",
       ]},
-      { h: "Mantenimiento, uso e inspección (Cap. VI, IT 3)", items: [
+      { h: "Mantenimiento, uso e inspección (Cap. VI, IT 3)", nota: "El RITE exige mantenimiento escalonado por potencia: contrato obligatorio >70 kW, director técnico en grandes instalaciones y conservación del registro de operaciones al menos 5 años.", items: [
         "5-70 kW: empresa mantenedora según Manual de Uso y Mantenimiento, sin contrato formal obligatorio",
         ">70 kW: contrato de mantenimiento obligatorio con empresa mantenedora habilitada",
         ">5.000 kW calor o >1.000 kW frío (o solar >400 kW): director de mantenimiento técnico titulado competente",
