@@ -2570,14 +2570,14 @@ export const RESUMENES = {
   "E8": {
     intro: "El CTE DB-HE (Ahorro de Energía), actualizado por RD 450/2022, establece en seis secciones (HE0–HE6) las exigencias de eficiencia energética y uso de energías renovables para edificios de nueva construcción e intervenciones en existentes.",
     bloques: [
-      { h: "HE0 – Limitación del consumo energético", items: [
+      { h: "HE0 – Limitación del consumo energético", nota: "HE0 fija los límites de consumo de energía primaria no renovable (Cep,nren) y total (Cep,tot) mediante la comparación con un edificio de referencia; la clave es el valor por zona climática y el factor 1,25 para territorios extrapeninsulares.", items: [
         "Parámetros: Cep,nren (energía primaria no renovable) y Cep,tot (energía primaria total)",
         "Zonas climáticas de invierno α, A, B, C, D, E — valores residencial nueva construcción: α=20 · A=25 · B=28 · C=32 · D=38 · E=43 kWh/m²·año",
         "Intervenciones en existentes ≈ el doble de los valores de nueva construcción",
         "Territorios extrapeninsulares (Canarias, Ceuta, Melilla): valores × 1,25",
         "Sistema de referencia para demostrar cumplimiento por comparación con edificio de referencia",
       ]},
-      { h: "HE1 – Control de la demanda energética (envolvente)", items: [
+      { h: "HE1 – Control de la demanda energética (envolvente)", nota: "HE1 reduce la demanda térmica a través de la envolvente: límites de transmitancia U en muros, cubiertas y huecos, control solar en julio, estanquidad al aire (n50) y permeabilidad de ventanas.", items: [
         "Ulim muros y suelos (W/m²K): α=0,80 · A=0,70 · B=0,56 · C=0,49 · D=0,41 · E=0,37",
         "Ulim cubiertas (W/m²K): α=0,55 · A=0,50 · B=0,44 · C=0,40 · D=0,35 · E=0,33",
         "Ulim huecos (W/m²K): A=3,2 · B=2,7 · C=2,3 · D=2,1 · E=1,80",
@@ -2585,28 +2585,28 @@ export const RESUMENES = {
         "Permeabilidad Q100 ventanas: α/A/B ≤ 27 m³/h·m² · C/D/E ≤ 9 m³/h·m²",
         "n50 estanquidad (residencial nueva >120 m²): V/A ≤ 2 → 6 h⁻¹ · V/A ≥ 4 → 3 h⁻¹ (interpolación lineal)",
       ]},
-      { h: "HE2 – Rendimiento instalaciones térmicas", items: [
+      { h: "HE2 – Rendimiento instalaciones térmicas", nota: "HE2 no incluye valores propios en el DB-HE; remite integramente al RITE, que regula eficiencia, bienestar e higiene de las instalaciones térmicas.", items: [
         "Remite al Reglamento de Instalaciones Térmicas en los Edificios (RITE, RD 1027/2007)",
       ]},
-      { h: "HE3 – Condiciones de las instalaciones de iluminación", items: [
+      { h: "HE3 – Condiciones de las instalaciones de iluminación", nota: "HE3 exige eficiencia en iluminación mediante el VEEI, potencia máxima instalada, control por horario o presencia y aprovechamiento de la luz natural.", items: [
         "VEEI (W/m² por 100 lux): Administrativo=3,0 · Almacenes/aparcamientos=4,0 · Centros comerciales=6,0 · Hostelería/restauración=8,0 · Habitaciones hotel=10,0 · Locales >600 lux=2,5",
         "Potencia máxima instalada: aparcamiento ≤600 lux → 5 W/m² · >600 lux → 10 W/m² · Otros usos → 25 W/m²",
         "Control obligatorio: encendido manual exterior + encendido por horario centralizado",
         "Zonas esporádicas (aseos, escaleras): el horario puede sustituirse por detección de presencia o pulsador temporizador",
         "Luz natural: obligatoria cuando T·(Aw/A) > 0,11 + condición geométrica (θ>65°, ai>2hi o ai>2hi/Tc)",
       ]},
-      { h: "HE4 – Contribución mínima renovable para ACS", items: [
+      { h: "HE4 – Contribución mínima renovable para ACS", nota: "HE4 obliga a cubrir con energías renovables al menos el 70 % de la demanda anual de ACS en edificios de nueva construcción o reforma integral, con reducciones y condiciones para bombas de calor.", items: [
         "Ámbito: nueva construcción con ACS >100 l/d · reforma integral o cambio de uso con ACS >100 l/d",
         "Contribución mínima: ≥70% de la demanda energética anual para ACS",
         "Reducción al 60% si la demanda de ACS es inferior a 5.000 l/d",
         "Bombas de calor ACS: SCOPdhw ≥ 2,5 (eléctricas) o ≥ 1,15 (térmicas) · temp. preparación ≥ 45°C",
       ]},
-      { h: "HE5 – Generación mínima de electricidad renovable", items: [
+      { h: "HE5 – Generación mínima de electricidad renovable", nota: "HE5 exige producir electricidad renovable en edificios nuevos o reformas íntegras de más de 1.000 m², calculando la potencia mínima con los criterios P1 y P2.", items: [
         "Ámbito: edificios nueva construcción >1.000 m² · ampliaciones >1.000 m² · reformas íntegras >1.000 m²",
         "Pmin = mínimo de: P1 = Fpr;el × S (Fpr;el: 0,005 residencial · 0,010 otros usos) y P2 = 0,1 × (0,5·Sc – Soc)",
         "Si no se puede alcanzar Pmin por razones urbanísticas o de protección, se justifica y se maximiza",
       ]},
-      { h: "HE6 – Infraestructura de recarga de vehículos eléctricos", items: [
+      { h: "HE6 – Infraestructura de recarga de vehículos eléctricos", nota: "HE6 establece la preinstalación o instalación de puntos de recarga en aparcamientos de nueva construcción e intervenciones en existentes, con porcentajes distintos para residencial y no residencial.", items: [
         "Ámbito: nueva construcción con aparcamiento · existentes en cambio de uso/ampliación/reforma (condiciones específicas)",
         "Exclusiones: no residencial ≤10 plazas · existentes ≤20 plazas si el coste supera el 7% de la intervención",
         "Residencial privado: conducción de cables para el 100% de las plazas",
