@@ -5214,104 +5214,151 @@ export const RESUMENES = {
     "Consulta potestativa previa: plazo máximo 2 meses, no vinculante (art. 13 bis.1 y 4)"
   ],
 },
-  E25: {
-    intro:
-      "El RD 1627/1997 desarrolla la Ley 31/1995 de Prevención de Riesgos Laborales para las obras de construcción. Define los agentes (promotor, proyectista, coordinadores, dirección facultativa, contratista, subcontratista y autónomo) y encadena tres documentos: ESTUDIO (o estudio básico) en fase de proyecto → PLAN del contratista en fase de ejecución → LIBRO DE INCIDENCIAS durante la obra. No se aplica a industrias extractivas.",
-    bloques: [
-      {
-        h: "Ámbito y definiciones (arts. 1-2)",
-        items: [
-          "Disposiciones mínimas de seguridad y salud en obras de construcción, en el marco de la Ley 31/1995. NO se aplica a industrias extractivas a cielo abierto, subterráneas o por sondeos",
-          "Promotor: cualquier persona por cuenta de la cual se realiza una obra. Proyectista: autor del proyecto por encargo del promotor",
-          "Dirección facultativa: técnico o técnicos designados por el promotor para la dirección y control de la ejecución. El coordinador de ejecución está INTEGRADO en ella; el coordinador de proyecto, no",
-          "Contratista: asume el compromiso ante el PROMOTOR. Subcontratista: lo asume ante el CONTRATISTA",
-          "Trabajador autónomo: sin contrato de trabajo y de forma personal y directa. Si emplea trabajadores por cuenta ajena pasa a tener la consideración de contratista o subcontratista",
-          "Contratistas y subcontratistas tienen la consideración de EMPRESARIO a efectos de la normativa de prevención",
-          "Si el promotor contrata directamente a trabajadores autónomos, es CONTRATISTA respecto de ellos — salvo la construcción o reparación que contrate un cabeza de familia respecto de su propia vivienda",
-        ],
-      },
-      {
-        h: "Coordinadores (art. 3)",
-        items: [
-          "Coordinador en fase de PROYECTO: obligatorio cuando intervengan VARIOS PROYECTISTAS",
-          "Coordinador en fase de EJECUCIÓN: obligatorio cuando intervenga más de una empresa, o una empresa y trabajadores autónomos, o varios autónomos. Se designa antes del inicio de los trabajos o tan pronto se constate esa circunstancia",
-          "Ambas designaciones pueden recaer en la misma persona",
-          "La designación NO exime al promotor de sus responsabilidades",
-          "Cuando no sea necesario designar coordinador, sus funciones (aprobar el plan, controlar accesos) las asume la DIRECCIÓN FACULTATIVA",
-        ],
-      },
-      {
-        h: "Estudio de seguridad y salud vs estudio básico (arts. 4-6)",
-        items: [
-          "Estudio COMPLETO si concurre alguno de estos 4 supuestos (art. 4.1): PEC ≥ 450.759,08 € (las 75 millones de pesetas del texto original) · duración estimada > 30 días laborables empleando en algún momento a más de 20 trabajadores simultáneamente · volumen de mano de obra > 500 jornadas · obras de túneles, galerías, conducciones subterráneas y presas",
-          "En cualquier otro caso: ESTUDIO BÁSICO. Nunca se queda una obra sin ninguno de los dos",
-          "Lo elabora el técnico competente designado por el promotor; si hay coordinador de proyecto, le corresponde a él elaborarlo o hacer que se elabore bajo su responsabilidad",
-          "5 documentos del estudio completo (art. 5.2): MEMORIA descriptiva · PLIEGO de condiciones particulares · PLANOS · MEDICIONES · PRESUPUESTO. El estudio básico no exige esta estructura documental: basta con precisar las normas aplicables y los riesgos",
-          "El presupuesto se incorpora al presupuesto general de la obra como UN CAPÍTULO MÁS; solo caben partidas alzadas en elementos de difícil previsión; no incluye los costes de la correcta ejecución profesional de los trabajos",
-          "El contratista puede proponer alternativas en el plan, con justificación técnica, siempre que no disminuyan el importe total ni los niveles de protección",
-          "Tanto el estudio como el básico deben contemplar las previsiones e informaciones útiles para los previsibles TRABAJOS POSTERIORES",
-        ],
-      },
-      {
-        h: "Plan de seguridad y salud (art. 7)",
-        items: [
-          "Lo elabora CADA CONTRATISTA en aplicación del estudio o del estudio básico, en función de su propio sistema de ejecución",
-          "Se aprueba ANTES DEL INICIO DE LA OBRA por el coordinador de ejecución (o por la dirección facultativa si no hay coordinador)",
-          "Obras de las Administraciones públicas: el plan, con informe del coordinador, se eleva para su aprobación a la ADMINISTRACIÓN QUE HAYA ADJUDICADO LA OBRA",
-          "Es el instrumento básico de ordenación de la actividad preventiva en la obra",
-          "Puede modificarse durante la ejecución, pero siempre con aprobación expresa en los mismos términos",
-          "Debe estar en la obra a disposición permanente de la dirección facultativa, de los trabajadores y sus representantes, y de la Inspección de Trabajo",
-        ],
-      },
-      {
-        h: "Obligaciones de los agentes (arts. 8-12)",
-        items: [
-          "Coordinador de ejecución (art. 9): coordinar la aplicación de los principios de prevención, coordinar la actuación de contratistas, subcontratistas y autónomos, APROBAR el plan y sus modificaciones, organizar la coordinación de actividades empresariales (art. 24 LPRL), coordinar el control de los métodos de trabajo y adoptar medidas para que solo accedan a la obra personas autorizadas",
-          "Contratistas y subcontratistas (art. 11): cumplir y hacer cumplir el plan, aplicar los principios de la acción preventiva, cumplir el Anexo IV, informar a los autónomos y atender las instrucciones del coordinador",
-          "Responden SOLIDARIAMENTE de las consecuencias del incumplimiento de las medidas del plan (art. 42.2 LPRL). Las responsabilidades del coordinador, la dirección facultativa y el promotor no les eximen",
-          "Autónomos (art. 12): cumplir el Anexo IV y el plan, usar equipos conformes al RD 1215/1997 y EPI conformes al RD 773/1997, y atender las instrucciones del coordinador",
-        ],
-      },
-      {
-        h: "Libro de incidencias y paralización (arts. 13-14)",
-        items: [
-          "Un libro por centro de trabajo, con HOJAS POR DUPLICADO, para el control y seguimiento del plan",
-          "Lo facilita el COLEGIO PROFESIONAL al que pertenezca el técnico que haya aprobado el plan; en obras de las Administraciones públicas, la OFICINA DE SUPERVISIÓN DE PROYECTOS u órgano equivalente",
-          "Debe mantenerse siempre en la obra, en poder del coordinador de ejecución o, si no lo hay, de la dirección facultativa",
-          "Efectuada una anotación, se notifica al contratista afectado y a los representantes de sus trabajadores. Si la anotación se refiere al incumplimiento de advertencias previas o a una paralización, se remite copia a la INSPECCIÓN DE TRABAJO en 24 HORAS",
-          "Paralización (art. 14): ante RIESGO GRAVE E INMINENTE, el coordinador o cualquier persona integrada en la dirección facultativa puede paralizar los tajos o la totalidad de la obra, dejando constancia en el libro y advirtiendo antes al contratista",
-          "Quien ordena la paralización debe dar cuenta a la Inspección de Trabajo, a los contratistas y subcontratistas afectados y a los representantes de sus trabajadores",
-        ],
-      },
-      {
-        h: "Otras disposiciones (arts. 15-19)",
-        items: [
-          "Información a los trabajadores COMPRENSIBLE (art. 15); copia del plan y de sus modificaciones a los representantes de los trabajadores (art. 16.3)",
-          "VISADO (art. 17): la inclusión del estudio o del estudio básico en el proyecto de ejecución es requisito necesario para el visado colegial, para la expedición de la LICENCIA MUNICIPAL y para las demás autorizaciones administrativas",
-          "En obras de las AAPP, la Oficina de Supervisión de Proyectos hace declaración expresa sobre la inclusión del estudio",
-          "El AVISO PREVIO del art. 18 está DEROGADO",
-          "Comunicación de apertura del centro de trabajo (art. 19): previa al comienzo de los trabajos, la presentan únicamente los CONTRATISTAS e incluye el plan de seguridad y salud",
-        ],
-      },
-    ],
-    claves: [
-      "No aplica a industrias extractivas (cielo abierto, subterráneas o por sondeos)",
-      "Coordinador de PROYECTO: varios proyectistas · Coordinador de EJECUCIÓN: más de una empresa",
-      "La designación de coordinador NO exime al promotor de sus responsabilidades",
-      "Estudio completo: PEC ≥ 450.759,08 € · > 30 días laborables con > 20 trabajadores simultáneos · > 500 jornadas · túneles, galerías, conducciones subterráneas y presas",
-      "5 documentos del estudio: memoria, pliego, planos, mediciones y presupuesto",
-      "El presupuesto del estudio va como un capítulo más del presupuesto general de la obra",
-      "El plan lo hace CADA contratista y lo aprueba el coordinador de ejecución antes del inicio de la obra",
-      "Obra pública: aprueba el plan la Administración que adjudicó la obra, con informe del coordinador",
-      "Sin coordinador, sus funciones las asume la dirección facultativa",
-      "Libro de incidencias: hojas por duplicado; lo facilita el Colegio profesional del técnico que aprobó el plan (o la Oficina de Supervisión de Proyectos en obra pública)",
-      "Copia a la Inspección de Trabajo en 24 horas si la anotación reitera un incumplimiento o hay paralización",
-      "Paralización: riesgo grave e inminente; puede ordenarla el coordinador o cualquiera de la dirección facultativa",
-      "Sin estudio (o básico) no hay visado ni licencia municipal (art. 17)",
-      "Aviso previo (art. 18): DEROGADO. Queda la comunicación de apertura del art. 19, que presenta el contratista e incluye el plan",
-      "Contratistas y subcontratistas: responsabilidad solidaria (art. 42.2 LPRL)",
-    ],
-  },
+  "E25": {
+  intro: "El Real Decreto 1627/1997, de 24 de octubre, desarrolla en el ambito de la construccion las disposiciones minimas de seguridad y salud derivadas de la Ley 31/1995, de 8 de noviembre, de Prevencion de Riesgos Laborales, regulando la cadena de responsabilidades desde el proyecto hasta la ejecucion de la obra.",
+  bloques: [
+    {
+      h: "Objeto, ambito de aplicacion y definiciones (arts. 1-2)",
+      nota: "La trampa clasica es confundir este Real Decreto con el Reglamento de los Servicios de Prevencion: el RD 39/1997 se aplica plenamente, pero sin perjuicio de las normas especificas de construccion. Importante: no rige para industrias extractivas. En las definiciones, fijar la cadena de mando (promotor-proyectista-coordinadores-contratista-subcontratista-autonomo) y la excepcion del cabeza de familia en su vivienda.",
+      items: [
+        "Art. 1.1: establece las disposiciones minimas de seguridad y salud aplicables a obras de construccion en el marco de la LPRL (Ley 31/1995)",
+        "Art. 1.2: exclusion expresa de industrias extractivas a cielo abierto, subterraneas o por sondeos",
+        "Art. 1.3: aplicacion plena del RD 39/1997 (Reglamento de los Servicios de Prevencion) sin perjuicio de las disposiciones especificas del presente RD",
+        "Art. 2.1: definiciones de obra de construccion, trabajos con riesgos especiales, promotor, proyectista, coordinador en proyecto, coordinador en ejecucion, direccion facultativa, contratista, subcontratista y trabajador autonomo",
+        "Art. 2.2: el contratista y el subcontratista tienen consideracion de empresario a efectos de la normativa de prevencion de riesgos laborales",
+        "Art. 2.3: el promotor que contrate directamente a trabajadores autonomos tiene consideracion de contratista respecto de aquellos, salvo que la actividad sea la construccion o reparacion que contrate un cabeza de familia respecto de su vivienda"
+      ]
+    },
+    {
+      h: "Designacion de los coordinadores en materia de seguridad y salud (art. 3)",
+      nota: "La designacion no es siempre obligatoria: en proyecto solo si intervienen varios proyectistas; en ejecucion solo si hay mas de una empresa o empresa mas autonomos. La misma persona puede ejercer ambas coordinaciones. La designacion nunca exime al promotor de sus responsabilidades.",
+      items: [
+        "Art. 3.1: el promotor designara coordinador en materia de seguridad y salud durante la elaboracion del proyecto cuando intervengan varios proyectistas",
+        "Art. 3.2: el promotor designara coordinador en materia de seguridad y salud durante la ejecucion cuando intervenga mas de una empresa, o una empresa y trabajadores autonomos o diversos trabajadores autonomos; la designacion debe hacerse antes del inicio o tan pronto como se constate",
+        "Art. 3.3: ambas coordinaciones pueden recaer en la misma persona",
+        "Art. 3.4: la designacion de coordinadores no exime al promotor de sus responsabilidades"
+      ]
+    },
+    {
+      h: "Estudio de seguridad y salud vs. estudio basico: umbrales y contenido (arts. 4-6)",
+      nota: "Este bloque es altamente preguntable por cifras. Estudio completo cuando se cumple ALGUNO de los cuatro supuestos del art. 4.1; en el resto, estudio basico. El estudio completo exige cinco documentos y su presupuesto debe incorporarse como un capitulo mas del presupuesto general, sin partidas alzadas salvo dificil prevision. Ni el completo ni el basico deben incluir los costes de ejecucion profesional reglamentaria.",
+      items: [
+        "Art. 4.1: estudio completo obligatorio cuando el presupuesto de ejecucion por contrata sea igual o superior a 75 millones de pesetas; o la duracion estimada supere 30 dias laborables con mas de 20 trabajadores simultaneos; o el volumen de mano de obra supere 500; o se trate de obras de tuneles, galerias, conducciones subterraneas y presas",
+        "Art. 4.2: en los proyectos no incluidos en los supuestos anteriores, estudio basico de seguridad y salud",
+        "Art. 5.1: el estudio completo se elabora por el tecnico competente designado por el promotor, o por el coordinador en proyecto si existe",
+        "Art. 5.2: el estudio completo contiene como minimo: memoria descriptiva, pliego de condiciones particulares, planos, mediciones y presupuesto",
+        "Art. 5.3: el estudio forma parte del proyecto de ejecucion u obra, es coherente con el mismo y recoge las medidas preventivas adecuadas",
+        "Art. 5.4: el presupuesto del estudio se incorpora al presupuesto general como un capitulo mas; solo partidas alzadas en elementos de dificil prevision; no se incluyen los costes de la correcta ejecucion profesional reglamentaria",
+        "Art. 5.5: el estudio debe localizar e identificar las zonas con trabajos del anexo II y sus medidas especificas",
+        "Art. 5.6 y art. 6.3: ambos estudios deben contemplar previsiones e informaciones utiles para los previsibles trabajos posteriores",
+        "Art. 6.1: el estudio basico se elabora por el tecnico competente o por el coordinador en proyecto si existe",
+        "Art. 6.2: el estudio basico debe precisar normas aplicables, identificar riesgos evitables con medidas tecnicas, relacionar riesgos no evitables con medidas preventivas y protecciones, valorar eficacia de alternativas, e incluir medidas especificas del anexo II si procede"
+      ]
+    },
+    {
+      h: "Plan de seguridad y salud: elaboracion, aprobacion y modificaciones (art. 7)",
+      nota: "El plan es el instrumento basico de ordenacion de la actividad preventiva en los puestos de trabajo de la obra. Lo elabora CADA contratista a partir del estudio o estudio basico. La aprobacion previa al inicio es ineludible. Las alternativas del contratista no pueden rebajar niveles de proteccion ni el importe total del estudio completo.",
+      items: [
+        "Art. 7.1: cada contratista elabora un plan de seguridad y salud aplicando el estudio o estudio basico; puede proponer medidas alternativas con justificacion tecnica, sin disminuir niveles de proteccion ni, en caso de estudio completo, el importe total",
+        "Art. 7.2: el plan debe aprobarse antes del inicio de la obra por el coordinador en ejecucion; en obras publicas, el plan con informe del coordinador se eleva a la Administracion adjudicadora; si no hay coordinador, asume la direccion facultativa",
+        "Art. 7.3: el plan constituye el instrumento basico de ordenacion de las actividades de identificacion, evaluacion de riesgos y planificacion preventiva del Reglamento de los Servicios de Prevencion",
+        "Art. 7.4: el plan puede modificarse por el contratista segun evolucion de la obra, siempre con aprobacion expresa; quienes intervengan en la obra, responsables de prevencion y representantes de trabajadores pueden presentar sugerencias por escrito; el plan estara a disposicion permanente de todos ellos",
+        "Art. 7.5: el plan estara a disposicion permanente de la direccion facultativa"
+      ]
+    },
+    {
+      h: "Principios generales en proyecto y en ejecucion (arts. 8 y 10)",
+      nota: "Ambos articulos desarrollan el art. 15 de la LPRL, pero en fases distintas: el art. 8 vincula la prevencion al proyecto (decisiones constructivas y de organizacion); el art. 10 la traslada a la obra (orden, limpieza, almacenamiento, mantenimiento, cooperacion). La pregunta tipica consiste en distinguir a que fase pertenece cada principio.",
+      items: [
+        "Art. 8.1: el proyectista debe tener en cuenta los principios generales de prevencion al tomar decisiones constructivas, tecnicas y de organizacion, y al estimar la duracion de trabajos o fases",
+        "Art. 8.2: se tendran en cuenta el estudio o estudio basico y las previsiones para trabajos posteriores durante la concepcion, estudio y elaboracion del proyecto",
+        "Art. 8.3: el coordinador en proyecto coordina la aplicacion de lo anterior",
+        "Art. 10.a): mantenimiento de la obra en buen estado de orden y limpieza",
+        "Art. 10.b): eleccion del emplazamiento de puestos y areas de trabajo y determinacion de vias de circulacion",
+        "Art. 10.c): manipulacion de materiales y utilizacion de medios auxiliares",
+        "Art. 10.d): mantenimiento, control previo a la puesta en servicio y control periodico de instalaciones y dispositivos",
+        "Art. 10.e): delimitacion y acondicionamiento de zonas de almacenamiento, en particular de materias peligrosas",
+        "Art. 10.f): recogida de materiales peligrosos utilizados",
+        "Art. 10.g): almacenamiento y eliminacion o evacuacion de residuos y escombros",
+        "Art. 10.h): adaptacion del tiempo efectivo dedicado a trabajos o fases segun evolucion de la obra",
+        "Art. 10.i): cooperacion entre contratistas, subcontratistas y trabajadores autonomos",
+        "Art. 10.j): interacciones e incompatibilidades con otros trabajos o actividades en la obra o cercanas"
+      ]
+    },
+    {
+      h: "Funciones del coordinador durante la ejecucion (art. 9)",
+      nota: "El coordinador en ejecucion esta integrado en la direccion facultativa y ejerce seis funciones especificas. Dos de ellas (aprobacion del plan y control de accesos) las asume la direccion facultativa cuando no hay coordinador. La funcion de organizar la coordinacion de actividades empresariales remite expresamente al art. 24 de la LPRL.",
+      items: [
+        "Art. 9.a): coordinar la aplicacion de los principios generales de prevencion al tomar decisiones tecnicas y de organizacion, y al estimar la duracion de trabajos o fases",
+        "Art. 9.b): coordinar las actividades de la obra para garantizar que contratistas, subcontratistas y autonomos apliquen coherentemente los principios de la accion preventiva del art. 15 LPRL, en particular en las tareas del art. 10",
+        "Art. 9.c): aprobar el plan de seguridad y salud y sus modificaciones; si no hay coordinador, asume la direccion facultativa",
+        "Art. 9.d): organizar la coordinacion de actividades empresariales prevista en el art. 24 de la LPRL",
+        "Art. 9.e): coordinar las acciones y funciones de control de la aplicacion correcta de los metodos de trabajo",
+        "Art. 9.f): adoptar medidas para que solo las personas autorizadas accedan a la obra; si no hay coordinador, asume la direccion facultativa"
+      ]
+    },
+    {
+      h: "Obligaciones de contratistas, subcontratistas y trabajadores autonomos (arts. 11-12)",
+      nota: "La responsabilidad solidaria de contratistas y subcontratistas por el incumplimiento del plan (art. 42.2 LPRL) es un dato clave. Los autonomos deben cumplir no solo el plan y el anexo IV, sino tambien las normas especificas de equipos de trabajo (RD 1215/1997) y EPI (RD 773/1997). Las responsabilidades de coordinadores, DF y promotor no eximen a contratistas ni subcontratistas.",
+      items: [
+        "Art. 11.1.a): aplicar los principios de la accion preventiva del art. 15 LPRL, en particular en las tareas del art. 10",
+        "Art. 11.1.b): cumplir y hacer cumplir a su personal el plan de seguridad y salud",
+        "Art. 11.1.c): cumplir la normativa de prevencion, la coordinacion de actividades empresariales del art. 24 LPRL y las disposiciones minimas del anexo IV",
+        "Art. 11.1.d): informar e instruir a los trabajadores autonomos sobre las medidas de seguridad y salud",
+        "Art. 11.1.e): atender las indicaciones del coordinador en ejecucion o, en su caso, de la direccion facultativa",
+        "Art. 11.2: los contratistas y subcontratistas son responsables de la ejecucion correcta de las medidas preventivas que les correspondan, y responden solidariamente del incumplimiento del plan conforme al art. 42.2 LPRL",
+        "Art. 11.3: las responsabilidades de coordinadores, direccion facultativa y promotor no eximen a contratistas y subcontratistas",
+        "Art. 12.1.a): los autonomos aplican los principios de la accion preventiva del art. 15 LPRL",
+        "Art. 12.1.b): cumplen las disposiciones minimas del anexo IV",
+        "Art. 12.1.c): cumplen las obligaciones de los trabajadores del art. 29 LPRL",
+        "Art. 12.1.d): se ajustan a la coordinacion de actividades empresariales del art. 24 LPRL",
+        "Art. 12.1.e): utilizan equipos de trabajo conforme al RD 1215/1997",
+        "Art. 12.1.f): eligen y utilizan EPI conforme al RD 773/1997",
+        "Art. 12.1.g): atienden las indicaciones del coordinador o direccion facultativa",
+        "Art. 12.2: los trabajadores autonomos deben cumplir el plan de seguridad y salud"
+      ]
+    },
+    {
+      h: "Libro de incidencias y paralizacion de trabajos (arts. 13-14)",
+      nota: "El libro de incidencias es por duplicado y debe permanecer siempre en la obra. La copia a la Inspeccion de Trabajo en 24 horas solo es obligatoria si la anotacion supone reiteracion de una advertencia anterior o si se produce paralizacion. La paralizacion requiere riesgo grave e inminente; antes debe advertirse al contratista y dejarse constancia en el libro.",
+      items: [
+        "Art. 13.1: en cada centro de trabajo existira un libro de incidencias por duplicado para control y seguimiento del plan",
+        "Art. 13.2: el libro se facilita por el Colegio profesional del tecnico que apruebe el plan, o por la Oficina de Supervision de Proyectos en obras publicas",
+        "Art. 13.3: el libro se mantiene siempre en la obra, en poder del coordinador en ejecucion o, si no existe, de la direccion facultativa; tienen acceso DF, contratistas, subcontratistas, autonomos, responsables de prevencion, representantes de trabajadores y tecnicos de las Administraciones",
+        "Art. 13.4: tras una anotacion, el coordinador o DF notifica al contratista afectado y a los representantes de trabajadores; si es reiteracion de advertencia u observacion anterior, o en el supuesto del art. 14, se remite copia a la Inspeccion de Trabajo en 24 horas, especificando si es reiteracion o nueva observacion",
+        "Art. 14.1: el coordinador o cualquier persona de la DF, ante incumplimiento de medidas, advertira al contratista y dejara constancia en el libro; podra paralizar tajos u obra total ante riesgo grave e inminente",
+        "Art. 14.2: quien ordene la paralizacion dara cuenta a la Inspeccion de Trabajo, a los contratistas y subcontratistas afectados y a los representantes de los trabajadores",
+        "Art. 14.3: sin perjuicio de la normativa de contratos de las Administraciones publicas sobre plazos y suspension"
+      ]
+    },
+    {
+      h: "Derechos de los trabajadores, visado e informacion a la autoridad laboral (arts. 15-17 y 19)",
+      nota: "El visado del proyecto es condicion suspensiva: sin estudio o estudio basico no hay visado, ni licencia, ni autorizaciones. La comunicacion de apertura del centro de trabajo es previa al inicio y solo la presentan los contratistas, incluyendo el plan. El plan debe estar a disposicion permanente de la Inspeccion y de los tecnicos de las Administraciones.",
+      items: [
+        "Art. 15.1: los contratistas y subcontratistas garantizan que los trabajadores reciban informacion adecuada de todas las medidas de seguridad y salud, conforme al art. 18 LPRL",
+        "Art. 15.2: la informacion debe ser comprensible para los trabajadores afectados",
+        "Art. 16.1: la consulta y participacion de trabajadores o representantes se realiza conforme al art. 18.2 LPRL",
+        "Art. 16.2: cuando sea necesario por nivel de riesgo e importancia de la obra, la consulta y participacion se desarrolla con coordinacion conforme al art. 39.3 LPRL",
+        "Art. 16.3: el contratista facilita una copia del plan y sus modificaciones a los representantes de los trabajadores",
+        "Art. 17.1: la inclusion del estudio o estudio basico en el proyecto de ejecucion es requisito necesario para el visado por el Colegio, la licencia municipal y demas autorizaciones",
+        "Art. 17.2: en obras de Administraciones publicas, la Oficina de Supervision de Proyectos u organo equivalente hara declaracion expresa sobre la inclusion del estudio o estudio basico",
+        "Art. 19.1: la comunicacion de apertura del centro de trabajo a la autoridad laboral es previa al inicio y se presenta unicamente por los contratistas; incluye el plan de seguridad y salud",
+        "Art. 19.2: el plan de seguridad y salud estara a disposicion permanente de la Inspeccion de Trabajo y de los tecnicos de los organos especializados de las Administraciones competentes"
+      ]
+    }
+  ],
+  claves: [
+    "RD 1627/1997, 24 de octubre: disposiciones minimas de seguridad y salud en obras de construccion, en el marco de la LPRL (Ley 31/1995)",
+    "No aplica a industrias extractivas a cielo abierto, subterraneas o por sondeos",
+    "Estudio completo: presupuesto mayor o igual a 75 millones de pesetas; duracion mayor a 30 dias laborables con mas de 20 trabajadores simultaneos; volumen de mano de obra mayor a 500; obras de tuneles, galerias, conducciones subterraneas y presas",
+    "Estudio completo = 5 documentos: memoria, pliego de condiciones, planos, mediciones y presupuesto",
+    "El plan de seguridad y salud lo elabora cada contratista y debe aprobarse antes del inicio de la obra por el coordinador en ejecucion o, en su defecto, por la direccion facultativa",
+    "Libro de incidencias: por duplicado, siempre en la obra; copia a la Inspeccion de Trabajo en 24 horas si es reiteracion de advertencia o en caso de paralizacion",
+    "Paralizacion: ante riesgo grave e inminente, ordenada por el coordinador o persona de la DF; previa advertencia al contratista y constancia en el libro",
+    "Visado del proyecto: requisito necesario incluir el estudio o estudio basico; sin ello no hay licencia ni autorizaciones",
+    "Comunicacion de apertura del centro de trabajo: previa al inicio, presentada unicamente por los contratistas, e incluye el plan de seguridad y salud"
+  ],
+},
 
  "E23": {
   intro: "La Ley Foral 2/1989 regula los espectáculos públicos y actividades recreativas en el territorio de la Comunidad Foral de Navarra, estableciendo un régimen integral de licencias, autorizaciones, responsabilidades de los sujetos intervinientes y facultades de control de las administraciones foral y local.",
