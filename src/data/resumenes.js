@@ -5313,121 +5313,103 @@ export const RESUMENES = {
     ],
   },
 
-  E23: {
-    intro:
-      "La Ley Foral 2/1989 es la norma marco de los espectáculos públicos y actividades recreativas en Navarra: una ley corta (18 artículos en los cuatro capítulos del temario) pero que reparte competencias entre el Gobierno de Navarra y los Ayuntamientos y fija el esquema de intervención que luego desarrolla el Decreto Foral 202/2002 (tema 24). Para el técnico municipal el hilo conductor es la cadena LICENCIA DE ACTIVIDAD → LICENCIA DE APERTURA → autorización especial para lo extraordinario, más la potestad de prohibir y suspender del Capítulo IV. Conviene estudiarla en pareja con el tema 24, porque la ley remite constantemente al Catálogo y el Catálogo presupone las definiciones de la ley.",
-    bloques: [
-      {
-        h: "Capítulo I — Ámbito de aplicación (arts. 1-3)",
-        nota:
-          "El artículo 1 delimita el ámbito con un criterio deliberadamente amplio y luego recorta por el lado de lo privado. Lo importante es que la amplitud no se mide por el tipo de acto sino por su capacidad de congregar público: da igual quién sea el titular, si gana dinero o si lo hace una vez al año. La exclusión de lo privado, además, no es completa: la ley se va del terreno de los espectáculos pero deja intacta la exigencia de licencia municipal y de condiciones técnicas del local, que es justo lo que interesa al Ayuntamiento.",
-        items: [
-          "Se aplica a los espectáculos y actividades recreativas realizados ÍNTEGRAMENTE en territorio de la Comunidad Foral que vayan dirigidos al público en general o SEAN CAPACES DE CONGREGARLO (art. 1.1). Los cuatro criterios indiferentes: titularidad pública o privada, con o sin fines lucrativos, de modo habitual o esporádico",
-          "Quedan excluidas (art. 1.2) las actividades restringidas al ámbito puramente privado o de carácter familiar no abiertas a la pública concurrencia, y las que se realicen en ejercicio de los derechos fundamentales reconocidos por la Constitución (manifestaciones, cultos, reuniones…)",
-          "Pero la exclusión es solo parcial: los locales donde se desarrollen esas actividades CON FINES DE DIVERSIÓN O ESPARCIMIENTO siguen necesitando LICENCIA MUNICIPAL y deben reunir condiciones técnicas para evitar molestias a terceros y garantizar la seguridad de personas y bienes. La ley enumera cuatro frentes: solidez de las estructuras, funcionamiento de las instalaciones, prevención y protección contra incendios, y salubridad e higiene",
-          "El Catálogo (art. 2) se remite a desarrollo reglamentario —es el DF 202/2002— y debe definir las actividades según sus características propias con tres criterios: regular y catalogar adecuando, desarrollando e impulsando las actividades y en todo caso NO RESTRINGIÉNDOLAS; facultar a los Ayuntamientos para aplicar la normativa, otorgar licencias y ampliar o restringir el horario; e imponer sanciones con criterios de PROPORCIONALIDAD, atendiendo a la capacidad económica de las empresas y a la gravedad del incumplimiento",
-          "Cláusula de compatibilidad (art. 3): la Ley Foral se aplica sin perjuicio de las demás normas que incidan en aspectos distintos de los que ella regula (ruido, actividades clasificadas, patrimonio, consumo…)",
-        ],
-      },
-      {
-        h: "Capítulo II — Locales: licencias (arts. 4-6)",
-        nota:
-          "Aquí está el núcleo de lo que se pregunta a un arquitecto municipal. La regla es doble licencia previa —actividad y apertura— y una exigencia de precisión: la licencia no habilita para «hostelería» en abstracto, sino para la figura exacta del Catálogo, lo que explica que cambiar de uso o ampliar actividades obligue a pedir licencia nueva y no baste una simple comunicación. Junto a esa vía ordinaria conviven dos atajos tasados: la autorización especial para lo extraordinario (art. 4.4) y la licencia especial por procedimiento abreviado para lo eventual o desmontable (art. 6).",
-        items: [
-          "Ningún local, SEA CERRADO O DESCUBIERTO, puede dedicarse a espectáculos o actividades recreativas sin haber obtenido previamente las licencias de ACTIVIDAD y de APERTURA (art. 4.1). Son dos licencias distintas y ambas previas",
-          "La licencia de actividad debe reflejar CON EXACTITUD la actividad a que se destina el local, según las definiciones del Catálogo del art. 2 (art. 4.2)",
-          "Destinar el local a una actividad distinta de la anterior, o ampliar actividades, exige NUEVA LICENCIA (art. 4.3): no cabe modificar la existente ni resolverlo por comunicación",
-          "La celebración de un espectáculo o actividad de carácter EXTRAORDINARIO —distinto de los habituales y no cubierto por la licencia— exige AUTORIZACIÓN ESPECIAL, que se otorga una vez comprobadas las condiciones de seguridad (art. 4.4). Este es el precepto que desarrolla el art. 31 del DF 202/2002 con el plazo de 15 días",
-          "Condiciones técnicas para la licencia de actividad (art. 5): el solicitante debe acreditar que el local cumple el CTE (RD 314/2006) y los reglamentos específicos de cada tipo de espectáculo. Excepción expresa: los arts. 26, 27, 28, 29, 32 y 33 del Capítulo II del Título I del Reglamento General de Policía de Espectáculos (RD 2816/1982) NO son de aplicación en Navarra",
-          "Instalaciones EVENTUALES, PORTÁTILES O DESMONTABLES (art. 6): licencia especial otorgada en procedimiento administrativo ABREVIADO, previa comprobación de las condiciones de seguridad adecuadas a cada caso",
-        ],
-      },
-      {
-        h: "Capítulo III — Celebración: autorizaciones y competencia (art. 7)",
-        nota:
-          "El artículo 7 es el más preguntable del tema porque combina una lista cerrada de seis supuestos con un reparto de competencias que no es intuitivo, y encima remata con un silencio administrativo POSITIVO. La lógica del reparto: el Gobierno de Navarra se queda lo que excede del municipio o tiene regulación sectorial propia (taurinos, itinerarios supramunicipales, juegos de azar, lo excepcional no catalogado); el Ayuntamiento o Concejo se queda lo que ocurre en su suelo o en sus locales (vía pública y extraordinarios). Un truco de memoria: al municipio le tocan las letras b) y e); al Gobierno, las otras cuatro.",
-        items: [
-          "Regla general (art. 7.1): los espectáculos que tengan lugar DE MODO HABITUAL en locales con licencia NO necesitan ningún otro trámite para celebrarse",
-          "Necesitan autorización administrativa EXPRESA seis supuestos (art. 7.2): a) espectáculos taurinos · b) los que se celebren en vías públicas u ocupen espacios de uso público · c) los que discurran sobre un itinerario por MÁS DE UN MUNICIPIO · d) los juegos de azar, según su normativa propia · e) los de carácter extraordinario que se aparten de la licencia del local (art. 4.4) · f) los de características EXCEPCIONALES no incluidos en el Catálogo",
-          "SILENCIO POSITIVO: si solicitada la autorización la Administración no se pronuncia en el plazo que reglamentariamente se determine, se entiende CONCEDIDA (art. 7.2 in fine)",
-          "Competencia (art. 7.3): el GOBIERNO DE NAVARRA en las letras a), c), d) y f) —taurinos, itinerarios supramunicipales, juegos de azar y excepcionales no catalogados—; el AYUNTAMIENTO O CONCEJO donde se celebren en las letras b) y e) —vía pública y extraordinarios—",
-        ],
-      },
-      {
-        h: "Capítulo III — Empresas, artistas y público (arts. 8-10)",
-        nota:
-          "Tres sujetos y tres estatutos jurídicos. La empresa se define por asumir responsabilidades frente al público Y frente a la Administración, no por organizar sin más. Del artista interesa sobre todo la «causa legítima» para negarse a actuar, porque la ley la define y la vincula precisamente a la seguridad. Y del público, el bloque de los menores de dieciséis años, que es donde se concentran las preguntas de detalle.",
-        items: [
-          "Empresa (art. 8.1): personas físicas o jurídicas que ORGANIZAN el espectáculo y ASUMEN, frente al público y a la Administración, las responsabilidades derivadas de su celebración",
-          "Obligaciones de la empresa (art. 8.2): adoptar las medidas de seguridad e higiene, pudiendo exigírsele servicios de seguridad y vigilancia cuando se prevea gran concentración de personas; responder de los daños que le sean imputables POR NEGLIGENCIA O IMPREVISIÓN, con obligación de asegurar los riesgos en los casos reglamentarios, sin que el seguro excluya su responsabilidad PRINCIPAL Y SOLIDARIA; ofrecer lo anunciado salvo fuerza mayor y devolver lo pagado si se suspende; y tener a disposición del público los libros y hojas de reclamaciones",
-          "Artistas o ejecutantes (art. 9): lo son quienes actúan para proporcionar diversión, esparcimiento o recreo, CON O SIN RETRIBUCIÓN. Solo pueden negarse a actuar o alterar su actuación por causa legítima o fuerza mayor, y la ley define CAUSA LEGÍTIMA como la carencia o insuficiencia de las medidas de seguridad o higiene, cuyo estado tienen DERECHO A COMPROBAR antes del inicio. La actuación de menores se somete al Estatuto de los Trabajadores",
-          "Público (art. 10.1): quienes acuden a presenciar o tomar parte sin otro fin que el esparcimiento, PAGUEN O NO un precio",
-          "Derechos del público (art. 10.2): que se desarrolle en las condiciones anunciadas; devolución del importe si se suspende o se modifica en aspectos ESENCIALES, salvo que ello ocurra una vez iniciado y por fuerza mayor; usar las hojas de reclamaciones; y trato no discriminatorio, salvo por razones objetivas y PÚBLICAMENTE ESTABLECIDAS",
-          "Prohibiciones al público (art. 10.4): exigir actuaciones distintas de las anunciadas; FUMAR en locales cerrados salvo donde la empresa lo autorice y señale con carteles visibles; portar armas u objetos que puedan usarse como tales; entrar sin cumplir los requisitos de admisión hechos públicos; y adoptar conductas peligrosas o molestas",
-          "MENORES DE DIECISÉIS AÑOS (art. 10.5) — cuatro prohibiciones de entrada o participación: a) salas de fiestas, discotecas y similares, SALVO actuaciones en directo, en cuyo caso pueden acceder acompañados de progenitores o tutores, correctamente identificados y sin poder permanecer al terminar la actuación · b) los clasificados como reservados para adultos · c) los que se celebren DURANTE LA NOCHE, salvo acompañados de mayores de edad responsables de su seguridad · d) los taurinos y los de grave riesgo para la integridad física, a los que solo pueden acudir COMO ESPECTADORES",
-          "Regla de cierre del art. 10.5: a los menores de dieciséis años que accedan a espectáculos no prohibidos no se les puede servir ni permitir la consumición de bebidas alcohólicas",
-        ],
-      },
-      {
-        h: "Capítulo III — Solicitud, localidades y horarios (arts. 11-12)",
-        nota:
-          "Bloque breve y muy memorizable. Dos ideas: la venta de localidades debe garantizar que quede aforo para el público general (contra la práctica de colocar todo por canales cerrados), y el horario general es reglamentario pero con una válvula municipal, ya que la propia norma prevé los casos en que los Alcaldes pueden modificarlo.",
-        items: [
-          "La solicitud de autorización previa (art. 11.1) se presenta con la debida antelación indicando denominación y características del espectáculo, artistas o ejecutantes, lugar, fechas y horarios y las demás circunstancias que se señalen",
-          "Venta de localidades (art. 11.2): en las condiciones que se establezcan reglamentariamente, de modo que se asegure la posibilidad de concurrencia del público en general en AL MENOS UNA PARTE del total del aforo. Queda PROHIBIDA la reventa callejera o con recargo sobre el precio de la empresa",
-          "Puntualidad y apertura (art. 12.1-2): deben comenzar a la hora anunciada y los locales estar abiertos y debidamente iluminados con antelación suficiente para permitir el acceso en condiciones de seguridad y comodidad; el órgano competente puede señalar un plazo de antelación para esa apertura",
-          "Horario general (art. 12.3): se fija REGLAMENTARIAMENTE atendiendo a las clases de espectáculo, las características de sus públicos, las molestias o riesgos que originen, las estaciones o épocas del año y la distinción entre laborables y festivos. El propio horario general determina los casos en que puede ser modificado por los ALCALDES y las circunstancias para horarios particulares",
-        ],
-      },
-      {
-        h: "Capítulo IV — Registro, prohibición y suspensión (arts. 13-16)",
-        nota:
-          "El Capítulo IV da a la Administración tres herramientas de intervención escalonadas: registrar, prohibir antes y suspender durante. La distinción entre prohibir (art. 14, sobre lo que aún no ha empezado) y suspender (art. 15, sobre lo que ya está en marcha) es la pregunta clásica, junto con la excepción de urgencia que permite a los agentes presentes ordenar la suspensión por sí mismos sin esperar a resolución.",
-        items: [
-          "Registro municipal (art. 13.1): los Ayuntamientos deben mantener un registro de empresas y locales donde figuren todos los locales con licencias de actividad y apertura CON MENCIÓN EXPRESA DE SU AFORO, y todas las empresas que organicen espectáculos",
-          "Los Ayuntamientos dan traslado al Gobierno de Navarra de todos los asientos, y sobre esa base el Gobierno mantiene un REGISTRO GENERAL (art. 13.2)",
-          "Se PROHIBIRÁN cinco tipos de espectáculos (art. 14.1): a) los que puedan constituir DELITO · b) los que puedan dar lugar a DESÓRDENES PÚBLICOS · c) los de grave peligro para artistas o público, o los que se realicen en locales SIN LICENCIA · d) los que impliquen CRUELDAD O MALTRATO para los animales, sin que se entiendan comprendidos los espectáculos taurinos celebrados conforme a sus normas · e) los que proceda prohibir conforme a la legislación de protección de menores o de propiedad intelectual",
-          "La prohibición la adopta el ORGANISMO COMPETENTE PARA AUTORIZAR el espectáculo. Si la entidad local competente no adopta ninguna medida tras ser requerida por el Gobierno de Navarra, o si es preciso actuar con urgencia, puede hacerlo el Gobierno EN SU LUGAR (art. 14.2)",
-          "SUSPENSIÓN (art. 15): los espectáculos que ya se estén desarrollando pueden suspenderse en los mismos casos y por los mismos órganos del art. 14. Excepción de urgencia: cuando existan razones de MÁXIMA URGENCIA así valoradas por los agentes o delegados de la autoridad PRESENTES EN EL ACTO, pueden estos por sí mismos ordenar la suspensión",
-          "Cláusula estatal (art. 16): todo lo anterior se aplica sin perjuicio de las facultades de la Administración del Estado en casos de peligro extraordinario para la seguridad pública o por aplicación de la legislación sobre estados excepcionales",
-        ],
-      },
-      {
-        h: "Capítulo IV — Inspección y control (arts. 17-18)",
-        nota:
-          "Este es el bloque que afecta directamente al arquitecto municipal, porque es el que le atribuye la condición de agente de la autoridad cuando inspecciona y el que permite exigir certificados técnicos en cualquier momento. Fíjate en el detalle del art. 17.4: los certificados no se archivan sin más, los Servicios Técnicos deben VERIFICARLOS y, en su caso, rectificarlos dejando constancia en el propio documento.",
-        items: [
-          "Vigilancia (art. 17.1): el Gobierno de Navarra y las Entidades Locales con cuerpos de policía propios dispondrán servicios ordinarios de protección y vigilancia para asegurar el normal desenvolvimiento y el cumplimiento de la legalidad",
-          "Inspección (art. 17.2): ambas Administraciones deben designar PERSONAL TÉCNICO que realice las inspecciones necesarias en locales e instalaciones. En el ejercicio de sus funciones, ese personal tiene la consideración de AGENTE DE LA AUTORIDAD",
-          "Las empresas están obligadas a facilitar el LIBRE ACCESO de las personas designadas y a prestarles la colaboración necesaria (art. 17.3)",
-          "Certificados (art. 17.4): en CUALQUIER MOMENTO puede exigirse a las empresas titulares la presentación de certificados suscritos por técnicos competentes que acrediten el cumplimiento de las condiciones de seguridad. Una vez en poder de la Administración, los Servicios Técnicos del apartado 2 deben VERIFICARLOS y en su caso RECTIFICARLOS, dejando siempre constancia en los mismos de tales actuaciones",
-          "Apoyo y sustitución (art. 18): el Gobierno presta apoyo técnico a las Entidades locales PREVIA PETICIÓN de éstas. Si una entidad local no ejercita las funciones de inspección, debe hacerlo el Gobierno en su lugar, previo requerimiento y SOLO si aquélla no dispone de personal propio cualificado",
-        ],
-      },
-    ],
-    claves: [
-      "Ámbito: realizados íntegramente en Navarra + dirigidos al público o CAPACES DE CONGREGARLO; da igual titularidad, lucro y habitualidad",
-      "Lo privado o familiar queda excluido, pero el local con fines de diversión sigue necesitando licencia municipal y condiciones técnicas",
-      "Doble licencia previa: ACTIVIDAD + APERTURA, en local cerrado o descubierto",
-      "Cambio de actividad o ampliación = NUEVA licencia (art. 4.3), no modificación",
-      "Art. 5: se exige el CTE, salvo los arts. 26, 27, 28, 29, 32 y 33 del RD 2816/1982, inaplicables en Navarra",
-      "Instalaciones eventuales, portátiles o desmontables: licencia especial en procedimiento ABREVIADO (art. 6)",
-      "Seis supuestos de autorización expresa (art. 7.2): taurinos · vía pública · itinerario supramunicipal · juegos de azar · extraordinarios · excepcionales no catalogados",
-      "Competencia: GOBIERNO a), c), d) y f) · AYUNTAMIENTO O CONCEJO b) y e)",
-      "Silencio administrativo POSITIVO en la autorización del art. 7.2",
-      "La empresa responde de daños por negligencia o imprevisión; el seguro no excluye su responsabilidad principal y SOLIDARIA",
-      "Causa legítima del artista para no actuar = carencia o insuficiencia de medidas de seguridad o higiene, que tiene derecho a comprobar antes",
-      "Menores de 16: discotecas salvo directo con progenitores · reservados a adultos · nocturnos salvo acompañados · taurinos solo como espectadores",
-      "Reventa callejera o con recargo: PROHIBIDA. La venta debe dejar parte del aforo al público general",
-      "El horario general es reglamentario, pero él mismo fija cuándo pueden modificarlo los ALCALDES",
-      "Registro municipal con mención expresa del AFORO; traslado al Gobierno, que lleva el registro general",
-      "Taurinos: excluidos de la prohibición por crueldad o maltrato animal si se celebran conforme a sus normas",
-      "PROHIBIR (art. 14) = antes · SUSPENDER (art. 15) = ya empezado; en máxima urgencia lo ordenan los propios agentes presentes",
-      "El personal técnico de inspección tiene consideración de AGENTE DE LA AUTORIDAD",
-      "Los certificados de técnico competente pueden exigirse en cualquier momento, y los Servicios Técnicos los verifican y rectifican dejando constancia",
-      "El Gobierno solo sustituye a la entidad local si ésta no dispone de personal propio cualificado",
-    ],
-  },
+ "E23": {
+  intro: "La Ley Foral 2/1989 regula los espectáculos públicos y actividades recreativas en el territorio de la Comunidad Foral de Navarra, estableciendo un régimen integral de licencias, autorizaciones, responsabilidades de los sujetos intervinientes y facultades de control de las administraciones foral y local.",
+  bloques: [
+    {
+      h: "Ámbito de aplicación y disposiciones generales (arts. 1-3)",
+      nota: "La amplitud del ámbito es total para espectáculos dirigidos al público en Navarra, pero la trampa habitual confunde la exclusión del ámbito privado o familiar con la obligación de los locales privados de diversión de obtener licencia municipal y cumplir condiciones técnicas. El catálogo del art. 2 se desarrolla reglamentariamente con criterios de no restricción de actividades.",
+      items: [
+        "Art. 1.1: ámbito = espectáculos y actividades recreativas realizados íntegramente en Navarra, dirigidos al público en general, con independencia de titularidad pública o privada, fines lucrativos o no, y carácter habitual o esporádico",
+        "Art. 1.2: exclusión de actividades restringidas al ámbito puramente privado o familiar sin públic concurrencia, y de las realizadas en ejercicio de derechos fundamentales",
+        "Art. 1.2 (segunda parte): los locales donde se realicen actividades privadas con fines de diversión o esparcimiento deberán reunir condiciones técnicas de solidez, prevención de incendios, salubridad e higiene, y contar con licencia municipal",
+        "Art. 2: el Catálogo de locales y actividades se establece reglamentariamente con criterios de no restringir actividades, facultar a los Ayuntamientos para licencias y horarios, e imponer sanciones proporcionales atendiendo a capacidad económica y gravedad",
+        "Art. 3: aplicación de la Ley Foral sin perjuicio de otras normas que incidan en aspectos distintos"
+      ]
+    },
+    {
+      h: "Locales: licencias, condiciones técnicas e instalaciones eventuales (arts. 4-6)",
+      nota: "Este bloque articula el régimen de licencias previas como requisito indispensable. La trampa más frecuente es olvidar que el cambio de actividad o su ampliación exige nueva licencia, o confundir la licencia especial para instalaciones eventuales con la ordinaria. El art. 5 es clave para Navarra por la exclusión expresa de seis artículos del RGPEP y AR.",
+      items: [
+        "Art. 4.1: ningún local, cerrado o descubierto, podrá dedicarse a espectáculos públicos y actividades recreativas sin licencias de actividad y de apertura previstas en la legislación vigente",
+        "Art. 4.2: la licencia de actividad debe reflejar con exactitud la actividad según las definiciones del catálogo del art. 2",
+        "Art. 4.3: la utilización de un local para actividad distinta a la anterior o la ampliación de actividades exige nueva licencia",
+        "Art. 4.4: espectáculos o actividades extraordinarias, distintas de las habituales autorizadas en la licencia, requieren autorización especial previa comprobación de condiciones de seguridad",
+        "Art. 5: para la licencia de actividad debe acreditarse el cumplimiento del CTE (RD 314/2006) y reglamentos específicos; no resultan de aplicación en Navarra los arts. 26, 27, 28, 29, 32 y 33 del Capítulo II del Título I del RGPEP y AR (RD 2816/1982)",
+        "Art. 6: espectáculos en instalaciones eventuales, portátiles o desmontables necesitan licencia especial, otorgada en procedimiento administrativo abreviado previa comprobación de seguridad"
+      ]
+    },
+    {
+      h: "Autorizaciones para la celebración, venta de localidades y horarios (arts. 7, 11-12)",
+      nota: "La distinción central es entre espectáculos habituales en locales autorizados, que no precisan trámite adicional, y los seis supuestos de autorización expresa. La competencia es distinta según la clase de espectáculo: el Gobierno de Navarra gestiona los de mayor calado o riesgo, mientras que el Ayuntamiento resuelve los vinculados al espacio público municipal y los extraordinarios. El silencio administrativo opera favorablemente.",
+      items: [
+        "Art. 7.1: espectáculos o actividades habituales en locales con licencia no necesitan trámite adicional para su celebración",
+        "Art. 7.2: autorización expresa para espectáculos taurinos; los celebrados en vías públicas o espacios de uso público; los que discurran por más de un municipio; los juegos de azar; los extraordinarios según art. 4.4; y los excepcionales no incluidos en el catálogo",
+        "Art. 7.2 (final): si la Administración no se pronuncia en el plazo reglamentario, se entenderá concedida la autorización por silencio administrativo",
+        "Art. 7.3: competencia del Gobierno de Navarra para taurinos, itinerarios, juegos de azar y excepcionales; competencia del Ayuntamiento o Concejo para vías públicas y extraordinarios",
+        "Art. 11.1: solicitud de autorización con antelación, indicando denominación, características, artistas, lugar, fechas, horarios y demás circunstancias",
+        "Art. 11.2: las localidades se pondrán a la venta en condiciones reglamentarias, asegurando la concurrencia del público en general en al menos una parte del aforo; queda prohibida la reventa callejera o con recargo",
+        "Art. 12.1: los espectáculos deben comenzar a la hora anunciada o respetar los horarios marcados",
+        "Art. 12.2: apertura e iluminación del local con antelación suficiente para permitir el acceso seguro; el órgano competente puede señalar plazo de antelación",
+        "Art. 12.3: horario general fijado reglamentariamente atendiendo a clase de actividad, público, molestias o riesgos, estaciones del año y distinción entre días laborables y festivos; los Alcaldes pueden modificarlo o establecer horarios particulares por circunstancias especiales"
+      ]
+    },
+    {
+      h: "Empresas, artistas y público: derechos, obligaciones y prohibiciones (arts. 8-10)",
+      nota: "Este bloque define la triada de sujetos intervinientes y sus respectivas responsabilidades. La empresa asume responsabilidad principal y solidaria que el seguro no exonera. El artista solo puede negarse por causa legítima, definida restrictivamente como la insuficiencia de medidas de seguridad o higiene. Las prohibiciones para menores de 16 años son enumerativas y admiten excepciones puntuales que conviene no generalizar.",
+      items: [
+        "Art. 8.1: empresa = persona física o jurídica que organiza el espectáculo y asume responsabilidades frente al público y la Administración; las jurídicas deben estar constituidas o actuar conforme a su legislación aplicable",
+        "Art. 8.2.a): obligación de adoptar medidas de seguridad e higiene; en grandes concentraciones se puede exigir el establecimiento de servicios de seguridad y vigilancia",
+        "Art. 8.2.b): responsabilidad por daños imputables por negligencia o imprevisión; en casos reglamentarios la empresa está obligada a asegurar los riesgos, sin que ello excluya su responsabilidad principal y solidaria",
+        "Art. 8.2.c): ofrecer el espectáculo anunciado salvo fuerza mayor, con devolución de las cantidades pagadas en caso de suspensión según condicionado reglamentario",
+        "Art. 8.2.d): tener a disposición del público los libros y hojas de reclamaciones que reglamentariamente se establezcan",
+        "Art. 9.1: artistas o ejecutantes = personas cuya actuación o intervención va dirigida a proporcionar diversión, esparcimiento o recreo al público, con o sin retribución",
+        "Art. 9.2.a): obligación de actuar conforme a normas o programa; solo podrán negarse o alterar la actuación por causa legítima o fuerza mayor, siendo causa legítima la carencia o insuficiencia de medidas de seguridad o higiene, cuyo estado podrán comprobar antes del inicio",
+        "Art. 9.2.b): guardar el respeto debido al público",
+        "Art. 9.3: intervención de menores de edad como artistas sometida a las limitaciones del Estatuto de los Trabajadores y normas complementarias",
+        "Art. 10.1: público = personas que acuden a presenciar o tomar parte en el espectáculo sin otro fin que el esparcimiento, independientemente de que paguen o no",
+        "Art. 10.2.a): derecho a que el espectáculo se desarrolle en las condiciones anunciadas",
+        "Art. 10.2.b): derecho a devolución del importe pagado en caso de suspensión o modificación esencial, salvo que cualquiera de los dos casos se produzca una vez iniciado y por causas de fuerza mayor",
+        "Art. 10.2.d): derecho a trato no discriminatorio, salvo por razones objetivas y públicamente establecidas",
+        "Art. 10.3: obligaciones de ocupar localidades o zonas señaladas, cumplir normas de seguridad y respeto, y seguir instrucciones del personal de vigilancia",
+        "Art. 10.4: prohibiciones de exigir actuaciones distintas de las anunciadas; fumar en locales cerrados salvo en lugares autorizados y señalados; portar armas u objetos prohibidos; entrar sin cumplir requisitos de admisión; y adoptar conductas que produzcan peligro, molestias o dificulten el normal desarrollo",
+        "Art. 10.5: prohibición de entrada o participación de menores de 16 años en salas de fiestas, discotecas y similares (salvo actuaciones en directo, en cuyo caso podrán acceder acompañados de progenitores o tutores, debiendo estar identificados y abandonar el local al finalizar la actuación); espectáculos clasificados para adultos; espectáculos nocturnos (salvo acompañados de mayores de edad responsables); y espectáculos taurinos o de grave riesgo físico, en los que solo podrán acudir como espectadores",
+        "Art. 10.5 (final): a los menores de 16 años que accedan a espectáculos no incluidos en las prohibiciones anteriores no se les podrá servir ni permitir la consumición de bebidas alcohólicas"
+      ]
+    },
+    {
+      h: "Facultades de las autoridades administrativas: registro, prohibición, suspensión e inspección (arts. 13-18)",
+      nota: "Las facultades administrativas se distribuyen entre registro, prohibición, suspensión e inspección. La trampa radica en la competencia concurrente: el Ayuntamiento es el registro primario, pero el Gobierno de Navarra centraliza el registro general y puede suplir la inacción municipal en prohibiciones urgentes. La consideración de Agente de la Autoridad del personal técnico inspector y la posibilidad de suspensión inmediata por los agentes presentes son puntos especialmente preguntables.",
+      items: [
+        "Art. 13.1: los Ayuntamientos mantienen registro de locales con licencias de actividad y apertura (con mención expresa del aforo) y de empresas organizadoras, referidos a su término municipal",
+        "Art. 13.2: los Ayuntamientos trasladan los asientos al Gobierno de Navarra, que mantiene un registro general de empresas y locales",
+        "Art. 14.1: prohibición de espectáculos que constituyan delito; den lugar a desórdenes públicos; revistan grave peligro para artistas o público o se realicen sin licencia; impliquen crueldad o maltrato animal (excepto taurinos conforme a sus normas); o proceda por legislación sobre protección de menores o propiedad intelectual",
+        "Art. 14.2: la prohibición la adopta el organismo competente para conceder la autorización; si la entidad local no actúa tras requerimiento del Gobierno de Navarra o es preciso actuar con urgencia, puede hacerlo el Gobierno en su lugar",
+        "Art. 15: los espectáculos ya desarrollándose podrán suspenderse en los mismos casos y por los mismos órganos del art. 14; en razones de máxima urgencia, los agentes o delegados de la autoridad presentes podrán ordenar la suspensión directamente",
+        "Art. 16: lo anterior se aplica sin perjuicio de las facultades de la Administración del Estado en casos de peligro extraordinario para la seguridad pública o por estados excepcionales",
+        "Art. 17.1: el Gobierno de Navarra y las entidades locales con cuerpos de policía propia dispondrán servicios ordinarios de protección y vigilancia de los espectáculos",
+        "Art. 17.2: designación de personal técnico para inspecciones en locales e instalaciones, con consideración de Agente de la Autoridad en el ejercicio de sus funciones",
+        "Art. 17.3: las empresas están obligadas a facilitar el libre acceso de policías e inspectores técnicos, así como a prestarles la colaboración necesaria",
+        "Art. 17.4: el Gobierno de Navarra y las entidades locales podrán exigir en cualquier momento certificados de técnicos competentes que acrediten el cumplimiento de condiciones de seguridad; los Servicios Técnicos deberán verificarlos y, en su caso, rectificarlos, dejando constancia escrita",
+        "Art. 18.1: el Gobierno de Navarra prestará apoyo técnico a las entidades locales para inspección y control, previa petición de estas",
+        "Art. 18.2: si una entidad local no ejerce las funciones de inspección, las asumirá el Gobierno de Navarra previo requerimiento, pero solo en el supuesto de que la entidad local no disponga de personal propio cualificado"
+      ]
+    }
+  ],
+  claves: [
+    "Ley Foral 2/1989: espectáculos públicos y actividades recreativas en Navarra",
+    "Art. 1: ámbito = territorio de la Comunidad Foral, dirigidos al público; exclusión = ámbito puramente privado o familiar y ejercicio de derechos fundamentales",
+    "Art. 4: licencia de actividad + licencia de apertura; cambio de actividad = nueva licencia; extraordinarios = autorización especial",
+    "Art. 5: no aplican en Navarra los arts. 26, 27, 28, 29, 32 y 33 del Cap. II Título I del RGPEP y AR (RD 2816/1982)",
+    "Art. 7: silencio administrativo positivo; competencia del Gobierno de Navarra para taurinos, itinerarios, juegos de azar y excepcionales; competencia municipal para vías públicas y extraordinarios",
+    "Art. 8: responsabilidad principal y solidaria de la empresa, no excluida por el seguro obligatorio en los casos reglamentarios",
+    "Art. 9: causa legítima del artista para negarse a actuar = carencia o insuficiencia de medidas de seguridad o higiene",
+    "Art. 10: prohibición de entrada a menores de 16 años en discotecas y salas de fiesta (salvo actuaciones en directo con progenitores o tutores), espectáculos para adultos, nocturnos (salvo acompañados de mayor responsable) y taurinos o de grave riesgo físico",
+    "Art. 14: si la entidad local no adopta la medida de prohibición tras requerimiento del Gobierno de Navarra o hay urgencia, actúa el Gobierno en su lugar",
+    "Art. 15: en caso de máxima urgencia, los agentes o delegados de la autoridad presentes en el acto pueden ordenar la suspensión directamente",
+    "Art. 17.2: el personal técnico inspector tiene la consideración de Agente de la Autoridad"
+  ],
+},
 
   E33: {
     intro:
