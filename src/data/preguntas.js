@@ -2402,7 +2402,7 @@ export const PREGUNTAS = [
     c: 2, exp: "SUA 1 §4.2.1: la huella H y la contrahuella C deben cumplir 54 cm ≤ 2C + H ≤ 70 cm. Además, H ≥ 28 cm en tramos rectos; C entre 13 y 18,5 cm (máx 17,5 cm en zonas de uso público o cuando no se disponga ascensor alternativo). No se admite bocel." },
 
   { id: "E6-07", tema: "E6",
-    q: "¿Cuál es la pendiente máxima de una rampa perteneciente a un itinerario accesible cuya longitud sea menor de 6 m, según el DB-SUA 1?",
+    q: "¿Cuál es la pendiente máxima de una rampa perteneciente a un itinerario accesible cuya longitud sea igual o superior a 3 m e inferior a 6 m, según el DB-SUA 1?",
     o: ["12%", "10%", "6%", "8%"],
     c: 3, exp: "SUA 1 §4.3.1: las rampas de itinerario accesible tendrán una pendiente máxima del 10% cuando su longitud sea menor que 3 m, del 8% cuando sea menor que 6 m, y del 6% en el resto de los casos. La pendiente transversal de rampas accesibles será del 2% como máximo." },
 
