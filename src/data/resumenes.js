@@ -2649,55 +2649,166 @@ export const RESUMENES = {
     ],
   },
 
-  "E9": {
-    intro: "El RITE (RD 1027/2007, modificado) regula las exigencias de eficiencia energética, bienestar e higiene, y seguridad de las instalaciones térmicas en los edificios: climatización (calefacción, refrigeración, ventilación) y producción de ACS.",
-    bloques: [
-      { h: "Estructura y ámbito (Parte I, Cap. I-II)", nota: "Este bloque encuadra el RITE: aplica a instalaciones fijas de climatización y ACS, y distingue cuándo una intervención cuenta como reforma. La trampa habitual es confundir su ámbito con el DB-HE o el DB-HS.", items: [
-        "Ámbito: instalaciones fijas de climatización y ACS en edificios (nueva construcción y reformas)",
-        "Se considera reforma: incorporación/sustitución de subsistemas, ampliación, cambio de energía, cambio de uso",
-        "Exigencias técnicas: bienestar e higiene · eficiencia energética y renovables · seguridad (arts. 11-13)",
-        "Documentos reconocidos del RITE: documentos técnicos sin carácter reglamentario con reconocimiento ministerial",
-      ]},
-      { h: "Documentación técnica y condiciones administrativas (Cap. III)", nota: "La documentación exigida depende únicamente de la potencia térmica nominal: proyecto >70 kW, memoria 5-70 kW y nada <5 kW. Hay que memorizar los umbrales, quién firma el certificado y que la puesta en servicio requiere registro previo en la CCAA.", items: [
-        "Potencia >70 kW → Proyecto firmado por técnico titulado competente",
-        "Potencia ≥5 kW y ≤70 kW → Memoria técnica (instalador habilitado o técnico titulado)",
-        "Potencia <5 kW → Sin documentación preceptiva ante la CCAA",
-        "Tras pruebas: el instalador habilitado y el director de la instalación suscriben el Certificado de la Instalación",
-        "Puesta en servicio: registro del certificado en el órgano competente de la CCAA antes de conectar energía",
-      ]},
-      { h: "IT 1 – Bienestar e higiene (IT 1.1)", nota: "IT 1.1 fija condiciones interiores de diseño, caudales de aire y categorías IDA/AE. El examen suele mezclar valores de IDA o preguntar qué aire de extracción puede retornarse o recircularse.", items: [
-        "Condiciones interiores diseño (tabla 1.4.1.1): VERANO 23-25°C / HR 45-60% · INVIERNO 21-23°C / HR 40-50%",
-        "Temperatura de dimensionamiento: calefacción = 21°C · refrigeración = 25°C",
-        "Categorías calidad del aire interior (IDA): IDA1 hospitales/guarderías (20 dm³/s·p) · IDA2 oficinas/aulas (12,5) · IDA3 restaurantes/cines (8) · IDA4 (5)",
-        "Piscinas climatizadas: temperatura agua 24-30°C · tolerancia ±1,5°C · humedad local <65% · presión negativa 20-40 Pa",
-        "Categorías aire de extracción (AE): AE1 (oficinas) puede retornarse · AE2 solo transferencia a servicios · AE3/AE4 nunca recirculables",
-        "AE4 incluye: aparcamientos, campanas de humos, laboratorios químicos, locales de pinturas y solventes",
-      ]},
-      { h: "IT 1 – Eficiencia energética (IT 1.2)", nota: "IT 1.2 regula la eficiencia de los generadores, el fraccionamiento, la regulación de quemadores y las cargas de cálculo. Los valores límite, las temperaturas de emisores y los porcentajes de temperaturas de diseño son clásicos de examen.", items: [
-        "Procedimiento simplificado (valores límite) o alternativo (consumo calculado equivalente)",
-        "Fraccionamiento generadores: potencia >400 kW con combustible líquido/gaseoso → mínimo 2 generadores",
-        "Regulación quemadores: modulante para gas · ≤70 kW y combustible líquido puede ser de 1 o 2 marchas",
-        "Cargas de cálculo: invierno TS99% · verano TS1% · usos especiales (hospitales): TS99,6% y TS0,4%",
-        "Temperatura máxima de entrada a emisores de calefacción: 60°C",
-      ]},
-      { h: "Mantenimiento, uso e inspección (Cap. VI, IT 3)", nota: "El RITE exige mantenimiento escalonado por potencia: contrato obligatorio >70 kW, director técnico en grandes instalaciones y conservación del registro de operaciones al menos 5 años.", items: [
-        "5-70 kW: empresa mantenedora según Manual de Uso y Mantenimiento, sin contrato formal obligatorio",
-        ">70 kW: contrato de mantenimiento obligatorio con empresa mantenedora habilitada",
-        ">5.000 kW calor o >1.000 kW frío (o solar >400 kW): director de mantenimiento técnico titulado competente",
-        "Registro de operaciones de mantenimiento: conservar al menos 5 años desde cada actuación",
-        "Certificado de mantenimiento anual (cuando hay contrato): enviado al órgano competente de la CCAA",
-      ]},
-    ],
-    claves: [
-      "Proyecto si >70 kW · Memoria técnica si 5-70 kW · Sin documentación si <5 kW",
-      "Condiciones diseño: verano 23-25°C/45-60%HR · invierno 21-23°C/40-50%HR · dim. refrigeración: 25°C",
-      "IDA1=20 dm³/s·p · IDA2=12,5 · IDA3=8 · IDA4=5 · solo AE1 puede retornarse",
-      "AE4: aparcamientos, campanas de humos, laboratorios químicos — nunca recirculable",
-      "Piscinas climatizadas: agua 24-30°C · aire=agua+1-2°C (máx 30°C) · HR local <65%",
-      "Fraccionamiento: >400 kW combustible líquido/gaseoso → ≥2 generadores",
-      "Mantenimiento: contrato obligatorio >70 kW · director técnico >5.000 kW calor / >1.000 kW frío · registro 5 años",
-    ],
-  },
+ "E9": {
+  intro: "El RITE (RD 1027/2007 y modificaciones) establece las exigencias que deben cumplir las instalaciones térmicas de los edificios para atender las demandas de bienestar e higiene, eficiencia energética y seguridad. Incluye climatización (calefacción, refrigeración y ventilación) y producción de ACS.",
+
+  bloques: [
+
+    {
+      h: "1. Ámbito, exigencias y documentación",
+      nota: "Este es el bloque que conviene dominar de memoria: objeto, ámbito, documentación, puesta en servicio y responsables.",
+      items: [
+        "Instalaciones térmicas: instalaciones fijas de climatización (calefacción, refrigeración y ventilación) y producción de ACS.",
+        "Exigencias: calidad térmica del ambiente, calidad del aire interior, higiene y calidad del ambiente acústico.",
+        "Eficiencia energética: sistemas eficientes, recuperación de energía, energías renovables y energías residuales.",
+        "Potencia >70 kW → proyecto.",
+        "Potencia ≥5 kW y ≤70 kW → memoria técnica.",
+        "Potencia <5 kW → no es preceptiva documentación ante la CCAA.",
+        "Certificado de instalación: instalador habilitado + director de la instalación cuando sea preceptivo.",
+        "El titular/usuario es responsable del cumplimiento del RITE desde la recepción provisional.",
+        "Mantenimiento: empresas mantenedoras habilitadas, salvo el supuesto permitido para personal propio del titular."
+      ]
+    },
+
+    {
+      h: "2. IT 1.1 – Bienestar e higiene",
+      nota: "Aquí sí interesa memorizar los rangos y clasificaciones que aparecen en tablas.",
+      items: [
+        "Temperatura operativa de diseño: invierno 21-23 °C · verano 23-25 °C.",
+        "Para dimensionamiento: calefacción = 21 °C · refrigeración = 25 °C.",
+        "IDA 1 = hospitales, clínicas, laboratorios y guarderías.",
+        "IDA 2 = oficinas, residencias, salas de lectura, museos, tribunales, aulas y piscinas.",
+        "IDA 3 = edificios comerciales, cines, teatros, hoteles, restaurantes, cafeterías, bares, gimnasios, etc.",
+        "IDA 4 = calidad de aire baja.",
+        "Solo el aire AE 1, exento de humo de tabaco, puede retornarse o recircularse.",
+        "AE 2 → únicamente puede utilizarse como aire de transferencia hacia locales de servicio, aseos y garajes.",
+        "AE 3 y AE 4 → no pueden utilizarse como aire de recirculación ni transferencia.",
+        "AE 4 incluye, entre otros: aparcamientos, campanas de humos, laboratorios químicos y locales de pinturas y solventes.",
+        "Piscinas climatizadas: agua 24-30 °C · tolerancia máxima ±1,5 °C · aire 1-2 °C por encima del agua, con máximo 30 °C."
+      ],
+
+      tablas: [
+        {
+          titulo: "Caudal mínimo de aire exterior por persona",
+          tabla: [
+            ["Categoría", "Caudal"],
+            ["IDA 1", "20 dm³/s·persona"],
+            ["IDA 2", "12,5 dm³/s·persona"],
+            ["IDA 3", "8 dm³/s·persona"],
+            ["IDA 4", "5 dm³/s·persona"]
+          ]
+        }
+      ]
+    },
+
+    {
+      h: "3. IT 1.2 – Eficiencia energética",
+      nota: "No memorizar todas las fórmulas de cálculo. Sí conviene conocer los valores y umbrales que pueden convertirse fácilmente en preguntas tipo test.",
+      items: [
+        "Fraccionamiento de potencia: instalaciones >400 kW con combustible líquido o gaseoso → mínimo 2 generadores.",
+        "Cargas de cálculo: invierno → TS 99 % · verano → TS 1 %.",
+        "Usos especiales: hospitales → TS 99,6 % en invierno y TS 0,4 % en verano.",
+        "Temperatura máxima de entrada a emisores de calefacción: 60 °C.",
+        "Caudal de aire expulsado al exterior >0,28 m³/s → recuperación de energía del aire expulsado.",
+        "Efecto Joule para calefacción centralizada: permitido en instalaciones con bomba de calor cuando la relación entre potencia eléctrica de resistencias de apoyo y potencia eléctrica en bornes del motor del compresor sea ≤1,2."
+      ],
+
+      tablas: [
+        {
+          titulo: "Espesores mínimos de aislamiento – fluidos calientes en el interior",
+          tabla: [
+            ["Diámetro exterior", "40-60 °C", ">60-100 °C", ">100-180 °C"],
+            ["D ≤ 35 mm", "25 mm", "25 mm", "30 mm"],
+            ["35 < D ≤ 60 mm", "30 mm", "30 mm", "40 mm"],
+            ["60 < D ≤ 90 mm", "30 mm", "30 mm", "40 mm"],
+            ["90 < D ≤ 140 mm", "30 mm", "40 mm", "50 mm"],
+            ["D > 140 mm", "35 mm", "40 mm", "50 mm"]
+          ]
+        },
+        {
+          titulo: "Espesores mínimos de aislamiento – fluidos calientes en el exterior",
+          tabla: [
+            ["Diámetro exterior", "40-60 °C", ">60-100 °C", ">100-180 °C"],
+            ["D ≤ 35 mm", "35 mm", "35 mm", "40 mm"],
+            ["35 < D ≤ 60 mm", "40 mm", "40 mm", "50 mm"],
+            ["60 < D ≤ 90 mm", "40 mm", "40 mm", "50 mm"],
+            ["90 < D ≤ 140 mm", "40 mm", "50 mm", "60 mm"],
+            ["D > 140 mm", "45 mm", "50 mm", "60 mm"]
+          ]
+        },
+        {
+          titulo: "Espesores mínimos de aislamiento – fluidos fríos en el interior",
+          tabla: [
+            ["Diámetro exterior", "> -10...0 °C", ">0...10 °C", ">10 °C"],
+            ["D ≤ 35 mm", "30 mm", "25 mm", "20 mm"],
+            ["35 < D ≤ 60 mm", "40 mm", "30 mm", "20 mm"],
+            ["60 < D ≤ 90 mm", "40 mm", "30 mm", "30 mm"],
+            ["90 < D ≤ 140 mm", "50 mm", "40 mm", "30 mm"],
+            ["D > 140 mm", "50 mm", "40 mm", "30 mm"]
+          ]
+        },
+        {
+          titulo: "Espesores mínimos de aislamiento – fluidos fríos en el exterior",
+          tabla: [
+            ["Diámetro exterior", "> -10...0 °C", ">0...10 °C", ">10 °C"],
+            ["D ≤ 35 mm", "50 mm", "45 mm", "40 mm"],
+            ["35 < D ≤ 60 mm", "60 mm", "50 mm", "40 mm"],
+            ["60 < D ≤ 90 mm", "60 mm", "50 mm", "50 mm"],
+            ["90 < D ≤ 140 mm", "70 mm", "60 mm", "50 mm"],
+            ["D > 140 mm", "70 mm", "60 mm", "50 mm"]
+          ]
+        },
+        {
+          titulo: "Espesores mínimos de circuitos frigoríficos",
+          tabla: [
+            ["Diámetro exterior", "Interior edificios", "Exterior edificios"],
+            ["D ≤ 13 mm", "10 mm", "15 mm"],
+            ["13 < D ≤ 26 mm", "15 mm", "20 mm"],
+            ["26 < D ≤ 35 mm", "20 mm", "25 mm"],
+            ["35 < D ≤ 90 mm", "30 mm", "40 mm"],
+            ["D > 90 mm", "40 mm", "50 mm"]
+          ]
+        }
+      ]
+    },
+
+    {
+      h: "4. IT 2 – Montaje",
+      nota: "No necesitas estudiar cada procedimiento de montaje. Quédate con los valores concretos que pueden aparecer en test.",
+      items: [
+        "Prueba de resistencia mecánica de redes de tuberías: 1,5 veces la presión máxima efectiva de trabajo, con mínimo de 6 bar en los circuitos indicados.",
+        "Las pruebas deben realizarse antes de la puesta en servicio."
+      ]
+    },
+
+    {
+      h: "5. IT 3 – Mantenimiento y uso",
+      nota: "Memorizar las periodicidades y los grandes umbrales. No intentar aprender de memoria toda la tabla de mantenimiento de cada equipo en esta primera vuelta.",
+      items: [
+        "Las operaciones de mantenimiento corresponden a empresas mantenedoras habilitadas, salvo el supuesto de mantenimiento por personal propio del titular.",
+        "Instalaciones >5.000 kW en calor y/o >1.000 kW en frío → empresa mantenedora con contrato y director de mantenimiento técnico titulado competente.",
+        "Instalaciones solares de calefacción/refrigeración >400 kW → mismo régimen de director de mantenimiento.",
+        "Registro de operaciones de mantenimiento → conservar al menos 5 años."
+      ]
+    }
+
+  ],
+
+  claves: [
+    "PROYECTO >70 kW · MEMORIA 5-70 kW · <5 kW sin documentación preceptiva ante CCAA.",
+    "Calefacción 21 °C · Refrigeración 25 °C.",
+    "IDA 1=20 · IDA 2=12,5 · IDA 3=8 · IDA 4=5 dm³/s·persona.",
+    "Oficinas = IDA 2 · hospitales/clínicas/laboratorios/guarderías = IDA 1.",
+    "Solo AE 1 puede retornarse/recircularse.",
+    "AE 4 = aparcamientos, campanas de humos, laboratorios químicos, pinturas y solventes, etc.",
+    "Piscinas: agua 24-30 °C · tolerancia ±1,5 °C · aire +1/+2 °C respecto al agua, máximo 30 °C.",
+    ">400 kW con combustible líquido/gaseoso → mínimo 2 generadores.",
+    "Aire expulsado >0,28 m³/s → recuperación de energía.",
+    "Prueba de resistencia mecánica: 1,5 × presión máxima efectiva de trabajo · mínimo 6 bar.",
+    "Registro de mantenimiento: mínimo 5 años.",
+    ">5.000 kW calor / >1.000 kW frío → director de mantenimiento."
+  ]
+},
 
   "E10": {
     intro: "El CTE DB-HS (Salubridad), actualizado por RD 450/2022, establece en seis secciones (HS1–HS6) las condiciones para proteger la salud de los usuarios frente a humedades, residuos, calidad del aire, agua, evacuación y radón.",
