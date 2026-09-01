@@ -3492,59 +3492,7 @@ export const RESUMENES = {
   ]
 },
 
-  "E10": {
-    intro: "El CTE DB-HS (Salubridad), actualizado por RD 450/2022, establece en seis secciones (HS1–HS6) las condiciones para proteger la salud de los usuarios frente a humedades, residuos, calidad del aire, agua, evacuación y radón.",
-    bloques: [
-      { h: "HS 1 – Protección frente a la humedad", items: [
-        "Ámbito: muros/suelos en contacto con el terreno · fachadas/cubiertas en contacto con el exterior",
-        "Presencia de agua: BAJA (cara inf. suelo > nivel freático) · MEDIA (<2 m bajo freático) · ALTA (≥2 m bajo freático)",
-        "Grado de impermeabilidad mínimo (tabla 2.1): Ks≤10⁻² + alta → 5 · Ks<10⁻² + media → 3 · baja → 1",
-        "Condiciones constructivas (C): C1=hormigón hidrófugo in situ · C2=hormigón fluido · C3=fábrica con mortero hidrófugo",
-        "Impermeabilización (I): I1=lámina o líquido · I2=pintura o I1 · I3=revestimiento hidrófugo interior (fábrica)",
-        "Drenaje (D): D1=capa drenante+filtrante · D2=pozo drenante c/50 m (diámetro ≥0,7 m, 2 bombas) · D3=tubo drenante en arranque · D4=canaletas cámara",
-        "Ventilación cámara (V1): caudal ≥0,7 l/s·m² superficie útil · 50% aberturas inferior + 50% coronación · distancia entre aberturas ≤5 m · relación Ss/Ah: 10<Ss/Ah<30",
-        "Encuentros muro-fachada (interior): impermeabilizante >15 cm sobre nivel suelo exterior + banda refuerzo hacia abajo ≥20 cm",
-        "Esquinas/rincones: banda de refuerzo ≥15 cm de anchura centrada en la arista",
-        "Limitación de condensaciones superficiales e intersticiales: según DB-HE1",
-      ]},
-      { h: "HS 2 – Recogida y evacuación de residuos", items: [
-        "Obligación: espacios y medios para extraer residuos ordinarios de acuerdo con el sistema público de recogida",
-        "Facilitar la separación selectiva en origen y la recogida selectiva",
-        "Almacén de contenedores de edificio + espacio de reserva + posibles bajantes de residuos",
-      ]},
-      { h: "HS 3 – Calidad del aire interior", items: [
-        "Objetivo: ventilación adecuada, eliminación de contaminantes habituales, caudal suficiente de aire exterior",
-        "Evacuación de productos de combustión: con carácter general, por la cubierta del edificio, independientemente del combustible",
-        "En viviendas y aparcamientos: cumplimiento de esta sección HS3 · resto de edificios: RITE IT 1.1.4.2",
-      ]},
-      { h: "HS 4 – Suministro de agua", items: [
-        "Agua apta para consumo · caudales suficientes · sin alteración de propiedades · prevención de retornos",
-        "Equipos de ACS con acumulación: condiciones para evitar el desarrollo de gérmenes patógenos (Legionella)",
-        "Ahorro y control del agua: criterios de diseño, señalización y dispositivos ahorradores",
-      ]},
-      { h: "HS 5 – Evacuación de aguas", items: [
-        "Medios para extraer aguas residuales de forma independiente o conjunta con pluviales y escorrentías",
-        "Comprende: aguas fecales (residuales) + aguas pluviales (precipitaciones) + escorrentías de cubierta y exteriores",
-      ]},
-      { h: "HS 6 – Protección frente al radón (RD 732/2019 + RD 450/2022)", items: [
-        "Radón: gas noble radiactivo procedente del terreno que puede acumularse en recintos cerrados",
-        "Riesgo variable por municipio según clasificación del potencial de radón del subsuelo",
-        "Medidas: barrera de protección · espacio de contención ventilado · despresurización del terreno",
-      ]},
-    ],
-    claves: [
-      "HS1 presencia agua: baja=sobre freático · media=0-2m bajo freático · alta=≥2m bajo freático",
-      "HS1 grado imp. mínimo: Ks≤10⁻² + alta → 5 · Ks≤10⁻⁵ + alta → 4 · baja → 1",
-      "HS1 V1 cámara: ≥0,7 l/s·m² · aberturas 50%inf+50%cor · distancia ≤5 m",
-      "HS1 D2 pozos drenantes: c/50 m · diámetro ≥0,7 m · 2 bombas de achique",
-      "HS1 encuentro muro-fachada interior: impermeabilizante >15 cm sobre nivel suelo · banda refuerzo ≥20 cm",
-      "HS1 esquinas/rincones: banda refuerzo ≥15 cm centrada en arista",
-      "HS3 combustión: evacuación general por cubierta · calidad aire en viviendas/aparcamientos → HS3; resto → RITE",
-      "DB-HS comprende 6 secciones (HS1-HS6): la 6ª (radón) incorporada por RD 732/2019",
-    ],
-  },
-
-  "E10": {
+    "E10": {
     intro: "El Documento Basico HS Salubridad del CTE, aprobado por RD 314/2006 y modificado posteriormente, establece las reglas para cumplir el requisito basico Higiene, salud y proteccion del medio ambiente a traves de seis exigencias basicas (HS 1 a HS 6).",
     bloques: [
       {
@@ -4082,52 +4030,7 @@ export const RESUMENES = {
   ],
 },
    
-  "E13": {
-    intro: "La Ley Foral 10/2010 del derecho a la vivienda en Navarra garantiza el acceso a una vivienda digna regulando el régimen de vivienda de protección oficial (VPO) y de precio tasado (VPT): características, acceso, baremo, adjudicación y régimen jurídico.",
-    bloques: [
-      { h: "Tipos de vivienda protegida (art. 7)", items: [
-        "VPO: precio ≤ 1,30 × módulo ponderado · sup. ≤ 90 m² (120 m² fam. numerosas)",
-        "VPT: precio ≤ 1,50 × módulo ponderado · sup. ≤ 120 m² (140 m² fam. numerosas)",
-        "Arrendamiento VPO: duración mínima 21 años; tras ese plazo puede venderse a precio VPT 1ª transmisión",
-      ]},
-      { h: "Destino y ocupación (art. 8)", items: [
-        "Destino exclusivo: domicilio habitual y permanente del titular",
-        "Plazo máximo para ocupar: 6 meses desde calificación definitiva",
-        "Habitualidad: ocupación ≥ 9 meses/año (salvo autorización de desocupación temporal)",
-      ]},
-      { h: "Rentas máximas (art. 10)", items: [
-        "Renta VPO: 5,40 €/m²/mes (municipios ≤10.000 hab: 5,10 €/m²)",
-        "Garaje VPO: 60 €/mes · Trastero VPO: 2 €/m²/mes",
-        "Arrendamiento asequible: 8,25 €/m² · Garaje: 72,47 € · Trastero: 2,41 €/m²",
-      ]},
-      { h: "Requisitos de acceso (art. 17-18)", items: [
-        "7 requisitos: necesidad vivienda · residencia habitual · inscrito en Censo · capacidad económica · no titular vivienda adecuada · no transmitido en 5 años (salvo ingresos <100.000 €) · capacidad legal y empadronado en Navarra",
-        "VPO propiedad: ingresos entre 19.000 € y 4,5 × SARA",
-        "VPT propiedad: ingresos entre 24.000 € y 6,5 × SARA",
-      ]},
-      { h: "Reservas y baremo (art. 26-28)", items: [
-        "Reservas propiedad: 6% discapacidad (mín. 4% motriz grave) · 3% fam. numerosas · 3% terrorismo · 3% violencia de género",
-        "Baremo: 7 ptos/miembro familia (máx. 55) · 10 ptos vivienda inadecuada · 10 ptos Bolsa Alquiler · 5 ptos alquiler privado · 3 ptos/año cuenta ahorro (máx. 15) · 4/8 ptos empadronado >4/>8 años · 7 ptos fam. monoparental",
-        "Adjudicación propiedad: 4 procedimientos al año (1 marzo · 1 junio · 1 septiembre · 1 diciembre)",
-      ]},
-      { h: "Régimen jurídico (art. 43-49)", items: [
-        "Régimen de protección: indefinido, sin descalificación anticipada (art. 43)",
-        "Prohibición disposición gratuita: primeros 5 años desde calificación definitiva",
-        "Derecho de tanteo: 60 días desde comunicación de la transmisión",
-        "Derecho de retracto: 2 meses desde entrega de copia del contrato",
-      ]},
-    ],
-    claves: [
-      "VPO: ≤1,30×módulo ponderado · ≤90 m² · ingresos 19.000€–4,5×SARA",
-      "VPT: ≤1,50×módulo ponderado · ≤120 m² · ingresos 24.000€–6,5×SARA",
-      "Arrendamiento VPO: renta 5,40€/m² · garaje 60€ · trastero 2€/m²",
-      "Ocupación en 6 meses desde calificación definitiva · habitualidad ≥9 meses/año",
-      "Protección indefinida · sin descalificación · prohibición gratuita 5 años",
-      "Tanteo: 60 días · retracto: 2 meses",
-      "Baremo: 7 ptos/miembro (máx.55) · 10 ptos vivienda inadecuada · periodicidad trimestral",
-    ],
-  },
-
+  
   "E14": {
   intro:
     "La Ley Foral 10/2010, de 10 de mayo, del derecho a la vivienda en Navarra, regula en su Título V bis los instrumentos administrativos para evitar la existencia de viviendas deshabitadas y en su Título VII el Registro General de Viviendas de Navarra, configurando un sistema de detección, declaración, inscripción y seguimiento de la deshabitación con efectos sancionadores, expropiatorios y estadísticos.",
