@@ -50,7 +50,7 @@ const adaptiveTestPlugin = () => ({
     const panelMarker = '{modo === "rango" && (';
     if (!code.includes('Incluye preguntas de todos los temas marcados como leídos')) {
       if (!code.includes(panelMarker)) throw new Error("No se encontró el panel de configuración del rango");
-      const panel = `{modo === "aprendido" && (\n          <div style={{ border: "1px solid var(--c-hair)", borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>\n            <p style={{ ...pSmall, margin: 0 }}>Incluye preguntas de todos los temas marcados como leídos. Las preguntas que más has fallado tienen mayor probabilidad de aparecer.</p>\n            <p style={{ ...pSmall, marginTop: 8, marginBottom: 0, color: disponiblesAprendido ? C.ok : C.red }}>{temasLeidos.length} tema(s) leído(s) · {disponiblesAprendido} pregunta(s) disponible(s).</p>\n          </div>\n        )}\n\n        ${panelMarker}`;
+      const panel = `{modo === "aprendido" && (\n          <div style={{ border: "1px solid var(--c-hair)", borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>\n            <p style={{ ...pSmall, margin: 0 }}>Incluye preguntas de todos los temas marcados como leídos. Las preguntas que más has fallado tienen mayor probabilidad de aparecer.</p>\n            <p style={{ ...pSmall, marginTop: 8, marginBottom: 0, color: disponiblesAprendido ? C.ok : C.red }}>\${temasLeidos.length} tema(s) leído(s) · \${disponiblesAprendido} pregunta(s) disponible(s).</p>\n          </div>\n        )}\n\n        ${panelMarker}`;
       code = code.replace(panelMarker, panel);
     }
 
