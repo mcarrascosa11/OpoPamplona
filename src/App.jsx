@@ -23,6 +23,48 @@ const normalizarEstado = (s) => {
   return base.preguntas ? base : { ...base, preguntas: {} };
 };
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+const seleccionarAdaptativas = (preguntas, historial, cantidad) => {
+  const ponderadas = preguntas.map((q) => {
+    const h = historial?.[q.id] || {};
+    const fallos = h.fallos || 0;
+    const aciertos = h.aciertos || 0;
+
+    // Base 1.
+    // Cada fallo añade mucho peso.
+    // Los aciertos reducen ligeramente la prioridad.
+    const peso = Math.max(
+      0.5,
+      1 + fallos * 2 - Math.min(aciertos * 0.1, 0.5)
+    );
+
+    return { q, peso };
+  });
+
+  const resultado = [];
+  const disponibles = [...ponderadas];
+
+  while (resultado.length < Math.min(cantidad, disponibles.length)) {
+    const total = disponibles.reduce((s, x) => s + x.peso, 0);
+    let r = Math.random() * total;
+
+    let elegido = disponibles[disponibles.length - 1];
+
+    for (const item of disponibles) {
+      r -= item.peso;
+      if (r <= 0) {
+        elegido = item;
+        break;
+      }
+    }
+
+    resultado.push(elegido.q);
+    disponibles.splice(disponibles.indexOf(elegido), 1);
+  }
+
+  return resultado;
+};
+
 const fmtTime = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
 export default function App() {
@@ -976,6 +1018,13 @@ function Test({ state, persist }) {
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
   const [answers, setAnswers] = useState([]); const [confirmFin, setConfirmFin] = useState(false); const [filtroRev, setFiltroRev] = useState("todas");
   const [modo, setModo] = useState("todos"); const [num, setNum] = useState(10);
+  const temasLeidos = Object.keys(state.leidos || {}).filter(
+  (codigo) => state.leidos[codigo]
+);
+
+const preguntasAprendido = PREGUNTAS.filter(
+  (q) => temasLeidos.includes(q.tema)
+);
   const [parteR, setParteR] = useState("E"); const [desde, setDesde] = useState(1); const [hasta, setHasta] = useState(5);
   const [temaUnico, setTemaUnico] = useState(1);
   const [alcanceFallos, setAlcanceFallos] = useState("recientes");
@@ -1003,15 +1052,38 @@ function Test({ state, persist }) {
   const enTema = (q) => q.tema === `${parteR}${temaUnico}`;
   const disponiblesTema = PREGUNTAS.filter(enTema).length;
 
-  const iniciar = () => {
-    let base = PREGUNTAS;
-    if (modo === "falladas") {
-      const ids = alcanceFallos === "recientes" ? state.falladas.slice(-100) : state.falladas;
-      base = PREGUNTAS.filter((q) => ids.includes(q.id));
-    } else if (modo === "rango") base = PREGUNTAS.filter(enRango);
-    else if (modo === "tema") base = PREGUNTAS.filter(enTema);
-    if (!base.length) return;
-    const seleccion = shuffle(base).slice(0, Math.min(num, base.length)).map((q) => ({ ...q, _order: shuffle([0, 1, 2, 3]) }));
+const iniciar = () => {
+  let base = PREGUNTAS;
+
+  if (modo === "falladas") {
+    const ids = alcanceFallos === "recientes"
+      ? state.falladas.slice(-100)
+      : state.falladas;
+
+    base = PREGUNTAS.filter((q) => ids.includes(q.id));
+
+  } else if (modo === "rango") {
+    base = PREGUNTAS.filter(enRango);
+
+  } else if (modo === "tema") {
+    base = PREGUNTAS.filter(enTema);
+
+  } else if (modo === "aprendido") {
+    base = preguntasAprendido;
+  }
+
+  if (!base.length) return;
+
+  const seleccionBase =
+    modo === "aprendido"
+      ? seleccionarAdaptativas(base, state.preguntas, num)
+      : shuffle(base).slice(0, Math.min(num, base.length));
+
+  const seleccion = seleccionBase.map((q) => ({
+    ...q,
+    _order: shuffle([0, 1, 2, 3]),
+  }));
+  
     setPool(seleccion);
     setIdx(0); setSel(null); setShown(false);
     setAnswers(new Array(seleccion.length).fill(null));
@@ -1064,7 +1136,11 @@ function Test({ state, persist }) {
     const maxTema = parteR === "G" ? totalGeneral : totalEsp;
     const nums = Array.from({ length: maxTema }, (_, i) => i + 1);
     const presets = parteR === "G" ? [[1, 5], [6, 10], [11, 13]] : [[1, 5], [6, 10], [11, 15], [16, 20], [21, 25], [26, 30], [31, 35], [36, 40], [41, 45], [46, 50], [51, 55], [56, 59]];
-    const okComenzar = (modo === "falladas" && !nF) || (modo === "rango" && !disponiblesRango) || (modo === "tema" && !disponiblesTema);
+    const okComenzar =
+  (modo === "falladas" && !nF) ||
+  (modo === "rango" && !disponiblesRango) ||
+  (modo === "tema" && !disponiblesTema) ||
+  (modo === "aprendido" && !preguntasAprendido.length);
     return (
       <Ficha codigo="1ª PRUEBA · TEST" titulo="Configura la tanda">
         <p style={p}>Cuatro opciones, una válida. Corrección como el examen real: cada fallo resta 1/3; en blanco, ni suma ni resta.</p>
@@ -1073,6 +1149,13 @@ function Test({ state, persist }) {
           <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({PREGUNTAS.length})</Chip>
           <Chip on={modo === "tema"} onClick={() => setModo("tema")}>Un solo tema</Chip>
           <Chip on={modo === "rango"} onClick={() => setModo("rango")}>Por rango de temas</Chip>
+          <Chip
+  on={modo === "aprendido"}
+  onClick={() => setModo("aprendido")}
+  disabled={!temasLeidos.length || !preguntasAprendido.length}
+>
+  Repasar lo aprendido ({temasLeidos.length})
+</Chip>
           <Chip on={modo === "falladas"} onClick={() => setModo("falladas")} disabled={!nF}>Repasar mis fallos ({nF})</Chip>
         </div>
 
