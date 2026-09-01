@@ -1723,3 +1723,4 @@ const baseCSS = `
   --c-red: #E5484D; --c-redsoft: #3B1E20; --c-ok: #4ADE80; --c-oksoft: #1C3324; --c-slate: #93C5FD; --c-amber: #FBBF24;
 }
 * { box-sizing: border-box; } html, body { margin: 0; padding: 0; background: var(--c-paper); } .navbtn:hover { color: ${C.ink} !important; } .opt:hover:not(:disabled) { border-color: ${C.ink} !important; } .cta:hover:not(:disabled) { opacity: 0.9; } .cta:disabled { opacity: 0.4; cursor: not-allowed; } button:focus-visible, textarea:focus-visible, input:focus-visible { outline: 2px solid ${C.slate}; outline-offset: 2px; } @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }`;
+
