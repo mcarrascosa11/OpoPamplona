@@ -3203,7 +3203,7 @@ export const PREGUNTAS = [
       "Por la fachada más próxima",
       "Por el patio interior",
       "Por el nivel inferior del edificio"],
-  c: 0, exp: "La exigencia básica HS 3 establece que, con carácter general, los productos de combustión de las instalaciones térmicas deben evacuarse por la cubierta del edificio." }
+  c: 0, exp: "La exigencia básica HS 3 establece que, con carácter general, los productos de combustión de las instalaciones térmicas deben evacuarse por la cubierta del edificio." },
 
   // ── E11 · CTE DB-SE-AE ────────────────────────────────────────────────────
   { id: "E11-01", tema: "E11",
