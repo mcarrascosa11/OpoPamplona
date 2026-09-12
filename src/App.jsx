@@ -1100,6 +1100,17 @@ const iniciar = () => {
     ok: !esBlanco(ans[i]) && q._order.indexOf(q.c) === ans[i],
   }));
 
+  const tituloTanda = () => {
+    if (modo === "tema") return `${parteR}${temaUnico} · ${pool.length} preguntas`;
+    if (modo === "rango") {
+      const lo = Math.min(desde, hasta), hi = Math.max(desde, hasta);
+      return `${parteR}${lo}–${parteR}${hi} · ${pool.length} preguntas`;
+    }
+    if (modo === "falladas") return `Repasar mis fallos · ${pool.length} preguntas`;
+    if (modo === "aprendido") return `Repasar lo aprendido · ${pool.length} preguntas`;
+    return `Todo el banco · ${pool.length} preguntas`;
+  };
+
   const finalizar = async (ansParam) => {
     const rs = corregir(ansParam || answers);
     const next = { ...state, temas: { ...state.temas }, falladas: [...state.falladas], preguntas: { ...(state.preguntas || {}) } };
@@ -1117,13 +1128,28 @@ const iniciar = () => {
       };
     });
     const a = rs.filter((r) => r.ok).length, f = rs.filter((r) => !r.ok && !r.blank).length, b = rs.filter((r) => r.blank).length;
-    const tituloSesion =
-      modo === "tema" ? `${parteR}${temaUnico}`
-      : modo === "rango" ? `${parteR}${Math.min(desde, hasta)}–${parteR}${Math.max(desde, hasta)}`
-      : modo === "aprendido" ? "Repasar lo aprendido"
-      : modo === "falladas" ? "Repasar mis fallos"
-      : "Todo el banco";
-    next.sesiones = [...state.sesiones, { fecha: Date.now(), titulo: `${tituloSesion} · ${rs.length} preguntas`, n: rs.length, aciertos: a, fallos: f, blancos: b, examen }].slice(-30);
+    const titulo = modo === "tema"
+  ? temasSeleccionados.join(" · ")
+  : modo === "rango"
+    ? `E${Math.min(...temasSeleccionados.map(t => parseInt(t.replace(/\D/g, ""))))}–E${Math.max(...temasSeleccionados.map(t => parseInt(t.replace(/\D/g, ""))))}`
+    : modo === "aprendido"
+      ? "Repasar lo aprendido"
+      : modo === "falladas"
+        ? "Repasar mis fallos"
+        : "Todo el banco";
+
+next.sesiones = [
+  ...state.sesiones,
+  {
+    fecha: Date.now(),
+    n: rs.length,
+    aciertos: a,
+    fallos: f,
+    blancos: b,
+    examen,
+    titulo
+  }
+].slice(-30);
     await persist(next);
     setConfirmFin(false);
     setFase("fin");
@@ -1758,17 +1784,13 @@ function Progreso({ state, persist }) {
         <Ficha codigo="HISTORIAL" titulo="Últimas tandas">
           <div style={{ display: "grid", gap: 6 }}>
             {[...state.sesiones].reverse().slice(0, 10).map((s, i) => (
-              <div key={i} style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: 12, alignItems: "center", fontFamily: MONO, fontSize: 12, color: C.ink2, borderBottom: `1px solid ${C.hair}`, paddingBottom: 7 }}>
-                <div style={{ minWidth: 0 }}>
-                  <div style={{ color: C.ink, fontWeight: 700, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-                    {s.titulo || `Tanda · ${s.n} preguntas`}
-                  </div>
-                  <div style={{ fontSize: 10.5, marginTop: 2 }}>
-                    {new Date(s.fecha).toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}
-                  </div>
-                </div>
-                <span style={{ whiteSpace: "nowrap" }}><b style={{ color: C.ok }}>{s.aciertos}✓</b> · <b style={{ color: C.red }}>{s.fallos}✗</b> · {s.blancos}∅ <span style={{ color: C.ink }}>/ {s.n}</span></span>
-              </div>
+             <div key={i} style={{ display: "flex", justifyContent: "space-between", fontFamily: MONO, fontSize: 12, color: C.ink2, borderBottom: `1px solid ${C.hair}`, paddingBottom: 5 }}>
+  <span>
+    <b style={{ color: C.ink }}>{s.titulo || `Tanda · ${s.n} preguntas`}</b><br />
+    {new Date(s.fecha).toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}
+  </span>
+  <span><b style={{ color: C.ok }}>{s.aciertos}✓</b> · <b style={{ color: C.red }}>{s.fallos}✗</b> · {s.blancos}∅ <span style={{ color: C.ink }}>/ {s.n}</span></span>
+</div>
             ))}
           </div>
         </Ficha>
