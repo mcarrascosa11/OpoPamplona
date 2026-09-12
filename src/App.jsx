@@ -1128,15 +1128,20 @@ const iniciar = () => {
       };
     });
     const a = rs.filter((r) => r.ok).length, f = rs.filter((r) => !r.ok && !r.blank).length, b = rs.filter((r) => r.blank).length;
+    // Temas reales que han salido en esta tanda (por si el pool mezcla varios)
+    const temasSeleccionados = [...new Set(pool.map((q) => q.tema))];
+    const numeros = temasSeleccionados.map((t) => parseInt(t.replace(/\D/g, ""), 10));
+    const letra = (temasSeleccionados[0] || "E")[0];
+
     const titulo = modo === "tema"
-  ? temasSeleccionados.join(" · ")
-  : modo === "rango"
-    ? `E${Math.min(...temasSeleccionados.map(t => parseInt(t.replace(/\D/g, ""))))}–E${Math.max(...temasSeleccionados.map(t => parseInt(t.replace(/\D/g, ""))))}`
-    : modo === "aprendido"
-      ? "Repasar lo aprendido"
-      : modo === "falladas"
-        ? "Repasar mis fallos"
-        : "Todo el banco";
+      ? temasSeleccionados.join(" · ")
+      : modo === "rango"
+        ? `${letra}${Math.min(...numeros)}–${letra}${Math.max(...numeros)}`
+        : modo === "aprendido"
+          ? "Repasar lo aprendido"
+          : modo === "falladas"
+            ? "Repasar mis fallos"
+            : "Todo el banco";
 
 next.sesiones = [
   ...state.sesiones,
