@@ -1117,7 +1117,13 @@ const iniciar = () => {
       };
     });
     const a = rs.filter((r) => r.ok).length, f = rs.filter((r) => !r.ok && !r.blank).length, b = rs.filter((r) => r.blank).length;
-    next.sesiones = [...state.sesiones, { fecha: Date.now(), n: rs.length, aciertos: a, fallos: f, blancos: b, examen }].slice(-30);
+    const tituloSesion =
+      modo === "tema" ? `${parteR}${temaUnico}`
+      : modo === "rango" ? `${parteR}${Math.min(desde, hasta)}–${parteR}${Math.max(desde, hasta)}`
+      : modo === "aprendido" ? "Repasar lo aprendido"
+      : modo === "falladas" ? "Repasar mis fallos"
+      : "Todo el banco";
+    next.sesiones = [...state.sesiones, { fecha: Date.now(), titulo: `${tituloSesion} · ${rs.length} preguntas`, n: rs.length, aciertos: a, fallos: f, blancos: b, examen }].slice(-30);
     await persist(next);
     setConfirmFin(false);
     setFase("fin");
@@ -1752,9 +1758,16 @@ function Progreso({ state, persist }) {
         <Ficha codigo="HISTORIAL" titulo="Últimas tandas">
           <div style={{ display: "grid", gap: 6 }}>
             {[...state.sesiones].reverse().slice(0, 10).map((s, i) => (
-              <div key={i} style={{ display: "flex", justifyContent: "space-between", fontFamily: MONO, fontSize: 12, color: C.ink2, borderBottom: `1px solid ${C.hair}`, paddingBottom: 5 }}>
-                <span>{new Date(s.fecha).toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}</span>
-                <span><b style={{ color: C.ok }}>{s.aciertos}✓</b> · <b style={{ color: C.red }}>{s.fallos}✗</b> · {s.blancos}∅ <span style={{ color: C.ink }}>/ {s.n}</span></span>
+              <div key={i} style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: 12, alignItems: "center", fontFamily: MONO, fontSize: 12, color: C.ink2, borderBottom: `1px solid ${C.hair}`, paddingBottom: 7 }}>
+                <div style={{ minWidth: 0 }}>
+                  <div style={{ color: C.ink, fontWeight: 700, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                    {s.titulo || `Tanda · ${s.n} preguntas`}
+                  </div>
+                  <div style={{ fontSize: 10.5, marginTop: 2 }}>
+                    {new Date(s.fecha).toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}
+                  </div>
+                </div>
+                <span style={{ whiteSpace: "nowrap" }}><b style={{ color: C.ok }}>{s.aciertos}✓</b> · <b style={{ color: C.red }}>{s.fallos}✗</b> · {s.blancos}∅ <span style={{ color: C.ink }}>/ {s.n}</span></span>
               </div>
             ))}
           </div>
