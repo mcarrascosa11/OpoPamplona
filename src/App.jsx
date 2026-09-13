@@ -893,7 +893,8 @@ function Resumenes() {
   const [abiertos, setAbiertos] = useState(() => new Set());
   const [clavesAbierto, setClavesAbierto] = useState(false);
   const r = sel ? RESUMENES[sel] : null;
-
+  const mem = r?.memorizacion || {};
+  
   const cambiarTema = (k) => {
     setSel(k);
     setAbiertos(new Set());
@@ -908,7 +909,7 @@ function Resumenes() {
 
   const generales = disponibles.filter(esGeneral);
   const especificos = disponibles.filter((k) => !esGeneral(k));
-
+  const mem = r?.memorizacion || {};
   return (
     <div>
       <Ficha codigo="RESÚMENES" titulo="Repaso por tema">
@@ -1005,6 +1006,162 @@ function Resumenes() {
               )}
             </div>
           )}
+
+          {(mem.tablas?.length > 0 || mem.datos?.length > 0 || mem.excepciones?.length > 0) && (
+  <div style={{ marginTop: 22 }}>
+    
+    <div style={{
+      fontFamily: MONO,
+      fontSize: 10.5,
+      letterSpacing: 1,
+      color: C.red,
+      fontWeight: 700,
+      marginBottom: 12
+    }}>
+      MEMORIZACIÓN
+    </div>
+
+    {mem.tablas?.map((tabla, i) => (
+      <div key={i} style={{
+        marginBottom: 20,
+        overflowX: "auto"
+      }}>
+        <div style={{
+          fontFamily: MONO,
+          fontSize: 10.5,
+          fontWeight: 700,
+          color: C.slate,
+          marginBottom: 7
+        }}>
+          {tabla.titulo?.toUpperCase()}
+        </div>
+
+        <table style={{
+          width: "100%",
+          borderCollapse: "collapse",
+          fontFamily: SANS,
+          fontSize: 13
+        }}>
+          <thead>
+            <tr>
+              {(tabla.columnas || []).map((col, j) => (
+                <th key={j} style={{
+                  textAlign: j === 0 ? "left" : "center",
+                  padding: "8px 10px",
+                  borderBottom: `2px solid ${C.ink}`,
+                  color: C.ink,
+                  fontFamily: MONO,
+                  fontSize: 10,
+                  letterSpacing: 0.5,
+                  whiteSpace: "nowrap"
+                }}>
+                  {col}
+                </th>
+              ))}
+            </tr>
+          </thead>
+
+          <tbody>
+            {(tabla.filas || []).map((fila, j) => (
+              <tr key={j}>
+                {fila.map((celda, k) => (
+                  <td key={k} style={{
+                    padding: "8px 10px",
+                    borderBottom: `1px solid ${C.hair}`,
+                    textAlign: k === 0 ? "left" : "center",
+                    color: C.ink,
+                    fontWeight: k === 0 ? 600 : 400
+                  }}>
+                    {celda}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
+        {tabla.nota && (
+          <div style={{
+            marginTop: 7,
+            fontFamily: SANS,
+            fontSize: 12,
+            lineHeight: 1.5,
+            color: C.ink2
+          }}>
+            {tabla.nota}
+          </div>
+        )}
+      </div>
+    ))}
+
+    {mem.datos?.length > 0 && (
+      <div style={{ marginBottom: 20 }}>
+        <div style={{
+          fontFamily: MONO,
+          fontSize: 10.5,
+          fontWeight: 700,
+          color: C.slate,
+          marginBottom: 7
+        }}>
+          DATOS QUE APRENDER
+        </div>
+
+        <div style={{
+          display: "grid",
+          gap: 6
+        }}>
+          {mem.datos.map((dato, i) => (
+            <div key={i} style={{
+              padding: "8px 10px",
+              background: C.card,
+              borderLeft: `3px solid ${C.amber}`,
+              fontFamily: MONO,
+              fontSize: 11.5,
+              lineHeight: 1.5,
+              color: C.ink
+            }}>
+              {dato}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {mem.excepciones?.length > 0 && (
+      <div>
+        <div style={{
+          fontFamily: MONO,
+          fontSize: 10.5,
+          fontWeight: 700,
+          color: C.slate,
+          marginBottom: 7
+        }}>
+          EXCEPCIONES Y TRAMPAS
+        </div>
+
+        <div style={{
+          display: "grid",
+          gap: 6
+        }}>
+          {mem.excepciones.map((exc, i) => (
+            <div key={i} style={{
+              padding: "8px 10px",
+              background: C.redSoft,
+              borderLeft: `3px solid ${C.red}`,
+              fontFamily: SANS,
+              fontSize: 13,
+              lineHeight: 1.5,
+              color: C.ink
+            }}>
+              {exc}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+  </div>
+)}
         </Ficha>
       )}
     </div>
