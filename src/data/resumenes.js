@@ -4932,115 +4932,444 @@ export const RESUMENES = {
    
   "E16": {
   intro: "El Tema 16 articula el Capítulo III del Decreto Foral 61/2013, que regula las actuaciones protegibles de rehabilitación en Navarra, con la Ordenanza municipal de Pamplona que desarrolla las ayudas locales en el Casco Antiguo y en el resto de la ciudad, estableciendo un sistema dual de financiación foral y municipal.",
+
   bloques: [
     {
-      h: "Actuaciones protegibles y condiciones del edificio",
-      nota: "El artículo 45 del DF es el núcleo normativo: enumera ocho tipos de actuaciones protegibles y cinco exclusiones taxativas. En el examen suele caerse en la trampa de las obras no protegibles (vaciado interior, descentralización térmica, repartidores de costes) o en el límite de 120 m² para ampliaciones y nuevas viviendas. La ordenanza municipal reproduce estas actuaciones pero añade obras singulares de fachada, columnas de ventilación y calefacciones de distrito, con umbrales de coste propios.",
+      h: "Actuaciones protegibles y condiciones del edificio (arts. 45-46 DF + art. 19 Ordenanza)",
+      nota: "El artículo 45 del Decreto Foral es el núcleo del tema: determina qué actuaciones de rehabilitación están protegidas y cuáles quedan excluidas. La Ordenanza de Pamplona reproduce estas categorías y añade actuaciones municipales específicas.",
       items: [
-        "Art. 45.1 DF: actuaciones protegibles son adecuación estructural y/o funcional, mejora energética y adaptación normativa, habitabilidad, accesibilidad universal, ampliación hasta 120 m² útiles, creación de viviendas por unión o segregación sin incrementar volumen ni superficie construida, y mejora de eficiencia de instalaciones térmicas centralizadas",
-        "Adecuación estructural: garantizar estabilidad, resistencia, firmeza y solidez según el DF 142/2004; adecuación funcional: accesos, estanqueidad, aislamiento térmico, redes generales, seguridad y accesibilidad",
-        "Art. 45.3 DF: no son protegibles el vaciado interior que supere el 60% de los forjados horizontales (con excepciones para edificios de más de 100 años bien catalogados o inventariados), el derribo de fachadas exteriores, la ampliación por encima de 120 m², la descentralización de instalaciones térmicas colectivas, el mantenimiento y la instalación de dispositivos repartidores de costes (salvo el anillado interior)",
-        "Art. 46 DF: condiciones mínimas del edificio: antigüedad superior a 25 años (salvo adaptaciones para discapacidad o adaptación a normativa técnica obligatoria), adaptación al planeamiento, organización espacial que permita cumplir la habitabilidad, y garantía de adecuación estructural y funcional",
-        "Ordenanza Pamplona, art. 19: añade como protegibles la adecuación urbanística, la instalación de columnas de baños, cocinas y ventilación de patios cubiertos, trabajos singulares de acabados de fachadas, la implantación de ascensores con o sin adaptación completa, la adquisición de superficies de local imprescindibles para ascensor, y actuaciones de mejora de eficiencia en calefacciones de distrito",
-        "Ordenanza Pamplona: las obras de adecuación estructural y funcional deben superar 7.000 € de presupuesto de ejecución material por vivienda, reducible a 4.000 € si se realizan conjuntamente con mejoras energéticas, accesibilidad o ascensor"
+        "Art. 45.1 DF: actuaciones protegibles: adecuación estructural y/o funcional; mejora energética y adaptación normativa; habitabilidad; accesibilidad universal; ampliación hasta 120 m² útiles; creación de viviendas por unión o segregación sin incrementar volumen ni superficie construida; mejora de eficiencia de instalaciones térmicas centralizadas.",
+        "Adecuación estructural: garantizar estabilidad, resistencia, firmeza y solidez según el DF 142/2004.",
+        "Adecuación funcional: accesos, estanqueidad, aislamiento térmico, redes generales, seguridad y accesibilidad.",
+        "Art. 45.3 DF: no son protegibles el vaciado interior que supere el 60% de los forjados horizontales, el derribo de fachadas exteriores, la ampliación por encima de 120 m², la descentralización de instalaciones térmicas colectivas, el mantenimiento y la instalación de dispositivos repartidores de costes, salvo el anillado interior.",
+        "Excepción al vaciado >60%: edificios de más de 100 años que cumplan las condiciones patrimoniales previstas.",
+        "Art. 46 DF: antigüedad superior a 25 años, salvo adaptaciones para discapacidad o adaptación a normativa técnica obligatoria.",
+        "Art. 46 DF: el edificio debe adaptarse al planeamiento y la organización espacial debe permitir el cumplimiento de las condiciones de habitabilidad.",
+        "Art. 46 DF: debe garantizarse la adecuación estructural y funcional.",
+        "Ordenanza Pamplona, art. 19: añade adecuación urbanística; columnas de baños, cocinas y ventilación de patios cubiertos; trabajos singulares de acabados de fachadas; implantación de ascensores con o sin adaptación completa; adquisición de superficies de local imprescindibles para ascensor; mejora de eficiencia en calefacciones de distrito.",
+        "Ordenanza Pamplona, art. 19.A: las obras de adecuación estructural y funcional deben superar 7.000 € de PEM por vivienda, reducible a 4.000 € si se ejecutan conjuntamente con mejoras energéticas, accesibilidad o ascensor."
       ]
     },
+
     {
-      h: "Presupuestos, límites y plazos de ejecución",
-      nota: "El DF distingue tres presupuestos (general, protegible y subvencionable) con topes inferiores y superiores que el opositor debe saber distinguir. La ordenanza municipal superpone sus propios límites vinculados al módulo ponderado del Gobierno de Navarra y a la superficie útil, aplicables a sumas de actuaciones en ventanas de 10 años. El examen mezcla ambos sistemas, por lo que conviene separar qué regla es foral y qué regla es municipal.",
+      h: "Presupuestos, límites y plazos de ejecución (arts. 47-48 y 51 DF + art. 21 Ordenanza)",
+      nota: "Hay que distinguir presupuesto general, protegido y subvencionable. Después se superponen los límites municipales de Pamplona.",
       items: [
-        "Art. 47.1 DF: presupuesto general = presupuesto de ejecución material + gastos generales + beneficio industrial (máximo 15% de aquel)",
-        "Art. 47.2 DF: presupuesto protegible = general menos partidas no protegibles + hasta un 10% de honorarios profesionales de proyecto y dirección + tasas de licencia municipal; incluye honorarios del IEE si la calificación provisional se solicita en los cinco primeros años desde el informe; excluye IVA e ICIO",
-        "Art. 47.3 DF: presupuesto subvencionable = base de cálculo de las subvenciones; coincide con el protegible salvo que los límites del DF lo reduzcan",
-        "Art. 48.2.a DF: límite inferior del presupuesto protegible: 2.000 € por vivienda resultante tras la actuación",
-        "Art. 48.2.b DF: límite superior del protegible: no exceder del precio máximo de venta del m² útil de VPO por la superficie útil de vivienda y anejos; si la superficie útil supera los 120 m², el máximo se calcula sobre 120 m²; en actuaciones en edificio completo, los locales comerciales no pueden superar el 40% de la superficie computable total de las viviendas",
-        "Art. 48.3 DF: límite del subvencionable: 50% del módulo ponderado por m² útil de vivienda (hasta 120 m²) más 20% del módulo ponderado por m² útil de anejos, sin superar el presupuesto protegible",
-        "Art. 51.1 DF: plazos máximos: inicio de obras en 6 meses desde la calificación provisional; terminación y solicitud de calificación definitiva en 36 meses; prórroga justificada de hasta 18 meses más",
-        "Ordenanza Pamplona, art. 21.4: límite municipal para obras de los apartados a y b del art. 19: 40 veces el módulo ponderado vigente por cada vivienda o unidad registral (excepto garajes y trasteros), aplicable a la suma de actuaciones en 10 años desde la calificación provisional",
-        "Ordenanza Pamplona, art. 21.5: límite municipal para obras interiores de viviendas (apartado c): 65% del módulo ponderado por m² útil; si la vivienda tiene menos de 60 m² se toman 60 m²; si tiene más de 90 m² se toman 90 m²",
-        "Ordenanza Pamplona, art. 21.6: límite municipal para calefacciones de distrito (apartado d): 8 veces el módulo ponderado por cada vivienda o local servido (excepto garajes y trasteros), aplicable a la suma de actuaciones en 10 años"
+        "Art. 47.1 DF: presupuesto general = presupuesto de ejecución material + gastos generales + beneficio industrial, con estos últimos hasta un máximo del 15% del PEM.",
+        "Art. 47.2 DF: presupuesto protegible = presupuesto general menos partidas no protegibles + hasta un 10% de honorarios profesionales de proyecto y dirección + tasas de licencia municipal.",
+        "Art. 47.2 DF: pueden incluirse los honorarios del IEE si la calificación provisional se solicita dentro de los cinco primeros años desde el informe.",
+        "Art. 47.2 DF: IVA e ICIO quedan fuera del presupuesto protegible.",
+        "Art. 47.3 DF: presupuesto subvencionable = base para calcular las subvenciones y coincide con el protegible salvo que se apliquen los límites del Decreto.",
+        "Art. 48.2.a DF: presupuesto protegible mínimo = 2.000 € por vivienda resultante.",
+        "Art. 48.2.b DF: presupuesto protegible máximo = precio máximo de venta del m² útil de VPO × superficie útil de vivienda y anejos; si la superficie útil supera 120 m², se computan como máximo 120 m².",
+        "Art. 48.2.b DF: en actuaciones sobre edificio completo, los locales comerciales no pueden superar el 40% de la superficie computable total de las viviendas.",
+        "Art. 48.3 DF: presupuesto subvencionable máximo = 50% del módulo ponderado × m² útiles de vivienda, hasta 120 m², más 20% del módulo ponderado × m² útiles de anejos; nunca puede superar el presupuesto protegible.",
+        "Art. 51 DF: las obras deben iniciarse en un máximo de 6 meses desde la calificación provisional.",
+        "Art. 51 DF: las obras deben terminarse y solicitarse la calificación definitiva en un máximo de 36 meses desde la calificación provisional.",
+        "Art. 51 DF: prórroga justificada de hasta 18 meses.",
+        "Ordenanza Pamplona, art. 21.4: para actuaciones de los apartados a y b, límite municipal = 40 × módulo ponderado vigente × número de viviendas o unidades registrales, excluyendo garajes y trasteros.",
+        "Ordenanza Pamplona, art. 21.4: ese límite municipal se aplica a la suma de actuaciones realizadas en un período de 10 años desde la calificación provisional.",
+        "Ordenanza Pamplona, art. 21.5: obras interiores de viviendas del apartado c → 65% del módulo ponderado por m² útil; mínimo computable 60 m² y máximo 90 m².",
+        "Ordenanza Pamplona, art. 21.6: calefacciones de distrito → 8 × módulo ponderado por cada vivienda o local servido, excluidos garajes y trasteros; acumulación en 10 años."
       ]
     },
+
     {
-      h: "Calificación provisional y definitiva",
-      nota: "La calificación es el procedimiento administrativo que habilita la protección y el acceso a las ayudas. La provisional tiene efectos de informe favorable previo a licencia y permite acogerse a financiación; la definitiva se identifica con la diligencia de terminación de obra. La trampa clásica consiste en confundir los efectos de cada una o los plazos para solicitar la definitiva. Las obras iniciadas antes de la provisional dejan de ser protegibles en su conjunto.",
+      h: "Calificación provisional y definitiva (arts. 44, 49, 50, 52-53 DF)",
+      nota: "La regla esencial es que las obras no pueden comenzar antes de la calificación provisional. La definitiva se produce con la diligencia de terminación de obra y tiene sus propios requisitos documentales.",
       items: [
-        "Art. 44.1 DF: la calificación es un procedimiento administrativo que comprende la resolución provisional y la definitiva; las obras no pueden iniciarse sin la calificación provisional",
-        "Art. 49.2 DF: solo se consideran protegibles las actuaciones iniciadas después de la calificación provisional; si se inician antes, la actuación en su conjunto no es protegible",
-        "Art. 49.3 DF: la calificación provisional surte efectos de informe favorable previo a licencia respecto del cumplimiento de habitabilidad y normativa básica de edificación, limitado a los elementos afectados, y posibilita el acceso a préstamos cualificados",
-        "Art. 49.4 DF: la fecha de calificación definitiva es la misma de la diligencia de terminación de obra, que surte efectos de calificación definitiva",
-        "Art. 49.1.k DF: plazo máximo de 6 meses para iniciar obras y 36 meses para terminarlas, ambos desde la calificación provisional",
-        "Art. 50 DF: solicitud de calificación provisional ante el Departamento competente u Oficinas de Rehabilitación; documentación: acreditación de personalidad y propiedad, proyecto técnico o memoria, licencia o compromiso de solicitarla, declaración del IRPF, referencia catastral, declaración de estar al corriente tributario, y en su caso declaración del IEE para comunidades de vecinos",
-        "Art. 52 DF: solicitud de calificación definitiva en el plazo máximo de un mes desde la terminación de las obras; se aporta licencia (si no se aportó), certificado final de obra visado, facturas y certificado de empadronamiento; incumplimiento de requisitos esenciales durante la ejecución provoca archivo de oficio y decaimiento del derecho",
-        "Art. 53 DF: el promotor debe acreditar dominio, uso y disfrute e inexistencia de cargas inviables mediante nota simple de menos de 2 meses; si cambia la titularidad, el nuevo titular debe solicitar reconocimiento como promotor antes de la calificación definitiva; en caso de fallecimiento, los herederos pueden subrogarse con plazos específicos para acreditar la nueva titularidad"
+        "Art. 44.1 DF: la calificación es un procedimiento administrativo que comprende resolución provisional y definitiva.",
+        "Art. 44.1 DF: las obras no pueden iniciarse sin la calificación provisional.",
+        "Art. 49.2 DF: solo son protegibles las actuaciones iniciadas después de la calificación provisional; si se comienzan antes, la actuación completa deja de ser protegible.",
+        "Art. 49.3 DF: la calificación provisional produce efecto de informe favorable previo a licencia respecto de habitabilidad y normativa básica, limitado a los elementos afectados, y permite acceder a préstamos cualificados.",
+        "Art. 49.4 DF: la fecha de la calificación definitiva coincide con la diligencia de terminación de obra.",
+        "Art. 49: plazo máximo de 6 meses para iniciar las obras y 36 meses para terminarlas, ambos desde la calificación provisional.",
+        "Art. 50 DF: la solicitud provisional exige, entre otra documentación, acreditación de personalidad y propiedad, proyecto técnico o memoria, licencia o compromiso de solicitarla, declaración del IRPF, referencia catastral, declaración de estar al corriente tributario y, en comunidades, en su caso, IEE.",
+        "Art. 52 DF: la calificación definitiva debe solicitarse en el plazo máximo de 1 mes desde la terminación de las obras.",
+        "Art. 52 DF: para la definitiva se aporta, entre otra documentación, licencia si no se aportó antes, certificado final de obra visado, facturas y certificado de empadronamiento.",
+        "Art. 52 DF: el incumplimiento de requisitos esenciales durante la ejecución provoca archivo de oficio y decaimiento del derecho.",
+        "Art. 53 DF: debe acreditarse dominio, uso y disfrute y ausencia de cargas inviables mediante nota simple con antigüedad inferior a 2 meses.",
+        "Art. 53 DF: si cambia la titularidad, el nuevo titular debe solicitar reconocimiento como promotor antes de la calificación definitiva.",
+        "Art. 53 DF: en caso de fallecimiento, los herederos pueden subrogarse en las condiciones y plazos previstos."
       ]
     },
+
     {
-      h: "Subvenciones forales: cuantías y límites máximos",
-      nota: "El artículo 55 del DF contiene una tabla compleja que relaciona los ingresos familiares ponderados (múltiplos del IPREM) con la antigüedad del edificio y con bonificaciones por colectivos vulnerables. Además, fija límites máximos absolutos por vivienda que no deben confundirse con los límites del presupuesto protegible. La clave es separar los porcentajes del DF de los porcentajes de la ordenanza municipal y memorizar los topes absolutos por tipología de actuación.",
+      h: "Subvenciones forales: promotores usuarios y comunidades (art. 55 DF)",
+      nota: "Esta es una de las partes que más merece una tabla. Hay que separar porcentajes según ingresos y antigüedad del edificio y después los límites máximos absolutos.",
       items: [
-        "Art. 55.1 DF: porcentajes sobre el presupuesto subvencionable para promotores usuarios según ingresos ponderados y antigüedad: hasta 2,5 IPREM, 10% en edificios de 25 a 50 años y 20% en edificios de 50 o más; 45% en Áreas de Rehabilitación Preferente o si el solicitante o cónyuge tiene 65 o más años o menos de 35; 50% en Proyectos de Intervención Global de Áreas Preferente o adaptación interior para discapacidad igual o superior al 40%",
-        "Art. 55.1 DF: entre 2,5 y 3,5 IPREM, 5% en edificios de 25 a 50 años y 10% en edificios de 50 o más; 30% en Áreas Preferente o edad >=65/<35; 40% en Proyectos Intervención Global Áreas Preferente o discapacidad >=40%",
-        "Art. 55.1 DF: porcentajes adicionales no acumulables entre sí: familias numerosas especiales +10%, generales +5%; víctimas del terrorismo +5%; víctimas de violencia de género +5%; perceptores de renta de inclusión social +5%",
-        "Art. 55.2 DF: subvenciones a comunidades de vecinos: mejora envolvente térmica 40%; implantación ascensor sin ascensor y adaptación completa 60%; edificios con ascensor y adaptación completa 40%; ascensor sin adaptación completa 40% (sin ascensor) o 20% (con ascensor); mejora eficiencia instalaciones térmicas centralizadas 40%; anillado interior 20%",
-        "Art. 55.2 DF: en mejora de envolvente térmica es requisito presentar certificado de eficiencia energética registrado previo y posterior a las obras, cuyo coste es añadible al presupuesto",
-        "Art. 55.3 DF: límites máximos de subvención: comunidades de vecinos, 5.000 € por vivienda (6.000 € en adaptación parcial con ascensor previo; 7.000 € en adaptación parcial sin ascensor previo); edificios sin ascensor con adaptación completa, 10.000 € por vivienda (13.000 € si menos de 11 viviendas por núcleo de comunicación vertical); edificios con ascensor sin adaptación completa, 3.000 € por vivienda; rehabilitación envolvente térmica, 6.000 € por vivienda; personas físicas, 13.000 € por vivienda (26.000 € en Áreas Preferente o viviendas unifamiliares); expedientes de alquiler (art. 57), 12.000 € por vivienda; mejora eficiencia térmica centralizada, 6.000 € por vivienda; anillado interior, 3.000 € por vivienda",
-        "Art. 57.1 DF: subvenciones para alquiler: 40% en Áreas Preferente y edificios >50 años; 22% en edificios >=50 años; 11% en edificios de 25 a 50 años; en todos los casos la renta anual no debe exceder la equivalente a una VPO de igual superficie",
-        "Art. 58 DF: unidades familiares en riesgo de exclusión social: subvención del 50% del coste de la rehabilitación necesaria, con presupuesto protegible entre 2.000 € y 12.000 €, sin requerir ingresos mínimos e incompatible con otras ayudas del Gobierno de Navarra"
+        "Art. 55.1 DF: hasta 2,5 IPREM: 10% en edificios de 25 a 50 años; 20% en edificios de 50 o más años.",
+        "Art. 55.1 DF: en Área de Rehabilitación Preferente o cuando el solicitante o cónyuge tenga 65 o más años o menos de 35 → 45%.",
+        "Art. 55.1 DF: en Proyecto de Intervención Global de Área Preferente o adaptación interior para discapacidad ≥40% → 50%.",
+        "Art. 55.1 DF: entre 2,5 y 3,5 IPREM: 5% en edificios de 25 a 50 años; 10% en edificios de 50 o más años.",
+        "Art. 55.1 DF: entre 2,5 y 3,5 IPREM, en Área Preferente o por edad ≥65/<35 → 30%.",
+        "Art. 55.1 DF: entre 2,5 y 3,5 IPREM, en Proyecto de Intervención Global de Área Preferente o discapacidad ≥40% → 40%.",
+        "Art. 55.1 DF: complementos no acumulables entre sí: familia numerosa especial +10%; familia numerosa general +5%; víctima del terrorismo +5%; víctima de violencia de género +5%; perceptor de renta de inclusión social +5%.",
+        "Art. 55.2 DF: comunidades de vecinos → envolvente térmica 40%; implantación de ascensor sin ascensor y adaptación completa 60%; edificios con ascensor y adaptación completa 40%; ascensor sin adaptación completa 40% sin ascensor previo y 20% con ascensor previo; mejora de eficiencia de instalaciones térmicas centralizadas 40%; anillado interior 20%.",
+        "Art. 55.2 DF: para mejora de envolvente térmica se exige certificado energético registrado previo y posterior.",
+        "Art. 55.3 DF: límites máximos comunidades: 5.000 €/vivienda; 6.000 € en adaptación parcial con ascensor previo; 7.000 € en adaptación parcial sin ascensor previo.",
+        "Art. 55.3 DF: edificio sin ascensor con adaptación completa → 10.000 €/vivienda; 13.000 €/vivienda si hay menos de 11 viviendas por núcleo de comunicación vertical.",
+        "Art. 55.3 DF: edificio con ascensor sin adaptación completa → 3.000 €/vivienda.",
+        "Art. 55.3 DF: envolvente térmica → 6.000 €/vivienda.",
+        "Art. 55.3 DF: personas físicas → 13.000 €/vivienda; 26.000 € en Área Preferente o vivienda unifamiliar.",
+        "Art. 55.3 DF: expedientes de alquiler del art. 57 → 12.000 €/vivienda.",
+        "Art. 55.3 DF: mejora de eficiencia térmica centralizada → 6.000 €/vivienda.",
+        "Art. 55.3 DF: anillado interior → 3.000 €/vivienda."
       ]
     },
+
     {
-      h: "Áreas de Rehabilitación Preferente y régimen de alquiler",
-      nota: "Las Áreas de Rehabilitación Preferente son la puerta de entrada a las subvenciones más altas tanto en la norma foral como en la ordenanza municipal. Su declaración exige una ordenanza municipal específica con dotación presupuestaria mínima del 1% del módulo ponderado por habitante y año. El régimen de alquiler añade compromisos de mantenimiento del uso durante años y controles a través de la declaración del IRPF.",
+      h: "Alquiler y situaciones de exclusión (arts. 54, 56-58 DF)",
+      nota: "Las Áreas de Rehabilitación Preferente incrementan las ayudas. El alquiler tiene sus propios porcentajes, límites y compromisos temporales.",
       items: [
-        "Art. 54.1 DF: el Departamento competente puede declarar Áreas de Rehabilitación Preferente en zonas consolidadas de más de 50 años con planeamiento adecuado y ordenanza municipal específica con dotación presupuestaria no inferior al 1% del módulo ponderado aplicable por habitante y año",
-        "Art. 54.2 DF: también pueden declararse centros históricos y conjuntos edificados con Plan Especial vigente donde más del 70% de los edificios tengan más de 50 años (90% si son conjuntos dispersos tradicionales rurales), siempre que exista ordenanza de ayudas específica con la misma dotación mínima del 1%",
-        "Art. 56.2 DF: en Proyectos de Intervención Global de Áreas Preferente, subvención máxima del 60% del módulo ponderado por m² útil para edificios completos de viviendas promovidos por Administraciones públicas o sociedades públicas; durante 30 años el precio de venta no superará el de precio tasado, con derecho de tanteo y retracto a favor de la Comunidad Foral",
-        "Art. 57.2 DF: para percibir la subvención de alquiler es necesario justificar el arrendamiento antes de un año desde la calificación definitiva; las viviendas deben permanecer en alquiler al menos 5 años; si se desocupan, el promotor puede realquilar a precio VPO, devolver la subvención o inscribir la vivienda en la bolsa de alquiler",
-        "Art. 57.3 DF: el Gobierno de Navarra puede subvencionar hasta el 75% del coste (máx 60.000 € por vivienda) para dotar a viviendas de entidades locales de condiciones para el arrendamiento o para cambio de uso a vivienda de locales en planta baja o entreplanta; destino obligatorio al alquiler durante 10 años",
-        "Ordenanza Pamplona: en el Casco Antiguo y en el resto de la ciudad, las ayudas a propietarios de edificios destinados a alquiler exigen que la renta anual por m² útil no supere el 5% del módulo ponderado vigente durante 15 años"
+        "Art. 54.1 DF: pueden declararse Áreas de Rehabilitación Preferente en zonas consolidadas de más de 50 años.",
+        "Art. 54.1 DF: debe existir planeamiento adecuado y ordenanza municipal específica.",
+        "Art. 54.1 DF: dotación presupuestaria mínima = 1% del módulo ponderado aplicable por habitante y año.",
+        "Art. 54.2 DF: también pueden declararse centros históricos y conjuntos edificados con Plan Especial vigente donde más del 70% de los edificios tengan más de 50 años.",
+        "Art. 54.2 DF: en conjuntos dispersos tradicionales rurales el porcentaje exigido asciende al 90%.",
+        "Art. 56.2 DF: en Proyectos de Intervención Global de Áreas Preferente, subvención máxima del 60% del módulo ponderado por m² útil para edificios completos de viviendas promovidos por Administraciones o sociedades públicas.",
+        "Art. 56.2 DF: durante 30 años el precio de venta de esas viviendas no supera el precio tasado y existe derecho de tanteo y retracto a favor de la Comunidad Foral.",
+        "Art. 57.1 DF: subvención al alquiler → 40% en Área Preferente y edificios de más de 50 años; 22% en edificios de 50 o más años; 11% en edificios de 25 a 50 años.",
+        "Art. 57.1 DF: en todos los casos la renta anual no puede superar la equivalente a una VPO de igual superficie.",
+        "Art. 57.2 DF: para percibir la subvención de alquiler se debe justificar el arrendamiento antes de 1 año desde la calificación definitiva.",
+        "Art. 57.2 DF: las viviendas deben mantenerse en alquiler durante al menos 5 años.",
+        "Art. 57.2 DF: si se desocupan, el promotor puede volver a alquilarlas a precio VPO, devolver la subvención o inscribirlas en la bolsa de alquiler.",
+        "Art. 57.3 DF: el Gobierno de Navarra puede subvencionar hasta el 75% del coste, con máximo de 60.000 €/vivienda, para poner viviendas de entidades locales en condiciones de alquiler o cambiar a vivienda locales de planta baja o entreplanta.",
+        "Art. 57.3 DF: estas viviendas deben destinarse al alquiler durante 10 años.",
+        "Art. 58 DF: unidades familiares en riesgo de exclusión social → 50% del coste de rehabilitación necesaria.",
+        "Art. 58 DF: presupuesto protegible en riesgo de exclusión → entre 2.000 € y 12.000 €.",
+        "Art. 58 DF: no se exige ingreso mínimo.",
+        "Art. 58 DF: ayuda incompatible con otras ayudas del Gobierno de Navarra."
       ]
     },
+
     {
-      h: "Obras protegibles y ayudas municipales en Pamplona",
-      nota: "La Ordenanza de Pamplona reproduce las actuaciones del DF pero añade obras específicas como columnas de ventilación, calefacciones de distrito y trabajos singulares de fachada. Los porcentajes de subvención municipal varían según se trate del Casco Antiguo o del resto de la ciudad, y según exista o no un Proyecto de Intervención Global o Público. El examen suele mezclar las tablas del Casco Antiguo con las del resto de la ciudad, por lo que conviene fijar las diferencias en ascensores y en los porcentajes PIG.",
+      h: "Ordenanza Pamplona: actuaciones y ayudas municipales",
+      nota: "La Ordenanza municipal aplica al Casco Antiguo y al resto de Pamplona y añade actuaciones específicas. Los porcentajes municipales deben estudiarse separados de los forales.",
       items: [
-        "Ordenanza, art. 19: obras protegibles de rehabilitación en Pamplona se clasifican en: A) adecuación estructural, funcional y estética del edificio; B) mejoras energéticas, urbanísticas, de instalaciones, accesibilidad y adquisición de espacios para ascensor; C) obras interiores de viviendas incluidas en el mismo expediente; D) mejora de eficiencia de calefacciones de distrito",
-        "Ordenanza, art. 19.B.1: para la mejora de la envolvente térmica es requisito adjuntar certificado de eficiencia energética registrado previo y posterior a las obras, cuyo coste es añadible al presupuesto",
-        "Ordenanza, art. 19.B.2: no son protegibles las actuaciones de inversión en generadores térmicos de combustible fósil (salvo gas natural), la descentralización de instalaciones térmicas colectivas, el mantenimiento, las actuaciones individuales en el interior de las viviendas ni los dispositivos repartidores de costes (salvo el anillado interior)",
-        "Ordenanza, art. 19.B.6-B.8: la adaptación completa a la normativa de accesibilidad se acredita alcanzando los valores de la tabla 2 de tolerancias admisibles del DA DB-SUA/2; las cabinas de ascensor inferiores a 70 cm de anchura por 90 cm de fondo y las plataformas elevadoras no cabinadas no tienen derecho a ayudas de accesibilidad",
-        "Ordenanza, arts. 24 y 29: las subvenciones municipales a comunidades de propietarios en elementos comunes son del 24% para adecuación estructural/funcional y mejora de envolvente; del 29% para sustitución de equipos por renovables; del 36% para implantación de ascensor con adaptación completa en el Casco Antiguo; en el resto de la ciudad, la implantación de ascensor con adaptación completa puede alcanzar hasta el 100% en ámbitos PIG",
-        "Ordenanza, arts. 24.3 y 29.3: las personas físicas propietarias o usuarias de viviendas reciben una ayuda complementaria para obras de los apartados a, b.1 y b.2 del 12% si ingresos <1 SARA (máx 1.000 €) y del 6% si ingresos entre 1 y 2 SARA (máx 2.000 €)",
-        "Ordenanza, art. 24.3 y 29: la cuantía máxima de la subvención por vivienda (parte proporcional de la comunidad más ayuda complementaria) no podrá superar el presupuesto protegible máximo correspondiente a la misma"
+        "Ordenanza art. 19: actuaciones A) adecuación estructural, funcional y estética; B) mejoras energéticas, urbanísticas, instalaciones, accesibilidad y adquisición de espacios para ascensor; C) obras interiores de viviendas incluidas en el mismo expediente; D) mejora de eficiencia de calefacciones de distrito.",
+        "Ordenanza art. 19.B.1: envolvente térmica → certificado energético registrado previo y posterior; su coste puede incorporarse al presupuesto.",
+        "Ordenanza art. 19.B.2: no protegibles las inversiones en generadores térmicos de combustible fósil, salvo gas natural; descentralización de instalaciones térmicas colectivas; mantenimiento; actuaciones individuales interiores; repartidores de costes, salvo anillado interior.",
+        "Ordenanza art. 19.B.6-B.8: adaptación completa de accesibilidad conforme a los valores de la tabla 2 de tolerancias admisibles del DA DB-SUA/2.",
+        "Ordenanza art. 19.B.6-B.8: cabinas de ascensor inferiores a 70 cm de anchura por 90 cm de fondo y plataformas elevadoras no cabinadas no tienen derecho a ayudas de accesibilidad.",
+        "Ordenanza arts. 24 y 29: comunidades → 24% para adecuación estructural/funcional y mejora de envolvente.",
+        "Ordenanza arts. 24 y 29: comunidades → 29% para sustitución de equipos por renovables.",
+        "Ordenanza arts. 24 y 29: Casco Antiguo → 36% para implantación de ascensor con adaptación completa.",
+        "Ordenanza arts. 24 y 29: resto de la ciudad → la implantación de ascensor con adaptación completa puede alcanzar el 100% en ámbitos PIG.",
+        "Ordenanza arts. 24.3 y 29.3: ayuda complementaria a personas físicas propietarias o usuarias por obras de los apartados a, b.1 y b.2 → 12% si ingresos <1 SARA, máximo 1.000 €; 6% si ingresos entre 1 y 2 SARA, máximo 2.000 €.",
+        "Ordenanza arts. 24.3 y 29: la cuantía máxima por vivienda, sumando parte proporcional comunitaria y ayuda complementaria, no puede superar el presupuesto protegible máximo correspondiente."
       ]
     },
+
     {
-      h: "Tramitación, obligaciones y reintegro de las ayudas municipales",
-      nota: "La ordenanza municipal regula un procedimiento de evaluación individualizada (no competitivo) con plazos y documentación específica que incluye una consulta previa obligatoria a la Oficina de Rehabilitación. El incumplimiento de las obligaciones de destino (5 años para uso propio, 15 para alquiler) o la obtención de otras ayudas que superen el coste de la actividad provocan el reintegro. El examen suele preguntar por los plazos de resolución o por las garantías exigidas para los anticipos.",
+      h: "Tramitación, obligaciones y reintegro municipal",
+      nota: "La Ordenanza utiliza evaluación individualizada y establece consulta previa, límites para contratar, anticipos, destino de las ayudas y reintegro.",
       items: [
-        "Ordenanza, art. 12: el procedimiento ordinario es de evaluación individualizada (concurrencia no competitiva); la concesión directa se canaliza mediante convenios o para ayudas nominativas en el presupuesto",
-        "Ordenanza, art. 15.1: es obligatoria la consulta previa a la Oficina de Rehabilitación mediante documento técnico que analice el estado del edificio, el cumplimiento urbanístico, las necesidades energéticas y de accesibilidad, y la propuesta de actuación integral",
-        "Ordenanza, art. 15.3: si el gasto subvencionable supera 40.000 € en ejecución de obra o 15.000 € en suministro de bienes de equipo o servicios de consultoría, se deben solicitar al menos tres ofertas de proveedores diferentes",
-        "Ordenanza, art. 9.4: se admiten pagos a cuenta si se ha ejecutado el 70% de la obra y previo informe de necesidad de la ORV; los anticipos superiores a 60.000 € requieren garantía, salvo que la beneficiaria sea del Sector Público",
-        "Ordenanza, art. 6: obligación de destino de 5 años para personas propietarias de viviendas beneficiarias de ayudas complementarias o a elementos privativos, y de 15 años para propietarias con destino a alquiler; el incumplimiento, incluida la enajenación o gravamen, es causa de reintegro",
-        "Ordenanza, art. 7.3: el importe de las subvenciones, aisladamente o en concurrencia con otras, no podrá superar el coste de la actividad subvencionada; en caso de exceso, procede el reintegro del exceso con intereses de demora",
-        "Ordenanza, art. 16.6: el plazo máximo para resolver y notificar es de 6 meses; transcurrido dicho plazo sin resolución expresa, se entenderá desestimada la solicitud"
+        "Ordenanza art. 12: procedimiento ordinario = evaluación individualizada, mediante concurrencia no competitiva.",
+        "Ordenanza art. 12: concesión directa mediante convenios o ayudas nominativas previstas en el presupuesto.",
+        "Ordenanza art. 15.1: consulta previa obligatoria a la Oficina de Rehabilitación mediante documento técnico.",
+        "Ordenanza art. 15.1: el documento técnico analiza estado del edificio, cumplimiento urbanístico, necesidades energéticas y accesibilidad y propuesta de actuación integral.",
+        "Ordenanza art. 15.3: si gasto subvencionable >40.000 € en obra o >15.000 € en suministro de bienes de equipo o servicios de consultoría → mínimo tres ofertas de proveedores diferentes.",
+        "Ordenanza art. 9.4: pagos a cuenta cuando se haya ejecutado el 70% de la obra y exista informe de necesidad de la ORV.",
+        "Ordenanza art. 9.4: anticipos superiores a 60.000 € → garantía, salvo beneficiaria del Sector Público.",
+        "Ordenanza art. 6: obligación de destino de 5 años para propietarios de viviendas beneficiarias de ayudas complementarias o elementos privativos.",
+        "Ordenanza art. 6: obligación de destino de 15 años para viviendas destinadas a alquiler.",
+        "Ordenanza art. 6: incumplimiento de destino, incluida enajenación o gravamen, → reintegro.",
+        "Ordenanza art. 7.3: las subvenciones, solas o acumuladas con otras, no pueden superar el coste de la actividad subvencionada.",
+        "Ordenanza art. 7.3: el exceso percibido se reintegra con intereses de demora.",
+        "Ordenanza art. 16.6: plazo máximo para resolver y notificar → 6 meses.",
+        "Ordenanza art. 16.6: transcurrido el plazo sin resolución expresa → solicitud desestimada."
       ]
     }
   ],
+
+  memorizacion: {
+    tablas: [
+      {
+        titulo: "Actuaciones protegibles y exclusiones",
+        columnas: ["Actuación", "Regla"],
+        filas: [
+          ["Adecuación estructural/funcional", "Protegible"],
+          ["Mejora energética/adaptación normativa", "Protegible"],
+          ["Habitabilidad", "Protegible"],
+          ["Accesibilidad universal", "Protegible"],
+          ["Ampliación", "Hasta 120 m² útiles"],
+          ["Unión/segregación", "Sin aumentar volumen ni superficie construida"],
+          ["Vaciado interior", "No >60% de forjados"],
+          ["Edificio >100 años", "Excepción al límite de vaciado en supuestos patrimoniales"],
+          ["Ampliación >120 m²", "No protegible"],
+          ["Descentralización térmica colectiva", "No protegible"],
+          ["Mantenimiento", "No protegible"],
+          ["Repartidores de costes", "No protegibles, salvo anillado interior"]
+        ]
+      },
+
+      {
+        titulo: "Presupuestos",
+        columnas: ["Concepto", "Límite / cálculo"],
+        filas: [
+          ["Presupuesto general", "PEM + GG + BI"],
+          ["GG + BI", "Máx. 15% PEM"],
+          ["Honorarios en protegible", "Hasta 10%"],
+          ["IVA", "No incluido"],
+          ["ICIO", "No incluido"],
+          ["Presupuesto protegible mínimo", "2.000 €/vivienda"],
+          ["Presupuesto subvencionable vivienda", "50% módulo ponderado × m² útiles, máx. 120 m²"],
+          ["Presupuesto subvencionable anejos", "20% módulo ponderado × m² útiles"],
+          ["Locales en edificio completo", "≤40% superficie computable viviendas"]
+        ]
+      },
+
+      {
+        titulo: "Plazos de rehabilitación",
+        columnas: ["Actuación", "Plazo"],
+        filas: [
+          ["Inicio de obras", "≤6 meses desde calificación provisional"],
+          ["Terminación / solicitud definitiva", "≤36 meses"],
+          ["Prórroga", "Hasta 18 meses"],
+          ["Solicitud definitiva tras terminar", "≤1 mes"]
+        ]
+      },
+
+      {
+        titulo: "Límites municipales de Pamplona",
+        columnas: ["Actuación", "Límite"],
+        filas: [
+          ["Apartados a y b", "40 × módulo ponderado × vivienda/unidad registral"],
+          ["Acumulación a-b", "10 años"],
+          ["Interior de viviendas", "65% módulo ponderado × m² útil"],
+          ["Interior <60 m²", "Se computan 60 m²"],
+          ["Interior >90 m²", "Se computan 90 m²"],
+          ["Calefacción de distrito", "8 × módulo ponderado × vivienda/local"],
+          ["Acumulación calefacción", "10 años"]
+        ]
+      },
+
+      {
+        titulo: "Subvención foral al promotor usuario",
+        columnas: ["Ingresos / situación", "25–50 años", "≥50 años"],
+        filas: [
+          ["≤2,5 IPREM", "10%", "20%"],
+          ["2,5–3,5 IPREM", "5%", "10%"],
+          ["Área Preferente / ≥65 / <35", "45%", "45%"],
+          ["PIG Área Preferente / discapacidad ≥40%", "50%", "50%"]
+        ]
+      },
+
+      {
+        titulo: "Complementos forales",
+        columnas: ["Situación", "Complemento"],
+        filas: [
+          ["Familia numerosa especial", "+10%"],
+          ["Familia numerosa general", "+5%"],
+          ["Víctima del terrorismo", "+5%"],
+          ["Víctima de violencia de género", "+5%"],
+          ["Renta de inclusión social", "+5%"]
+        ]
+      },
+
+      {
+        titulo: "Subvenciones forales a comunidades",
+        columnas: ["Actuación", "Subvención"],
+        filas: [
+          ["Mejora envolvente térmica", "40%"],
+          ["Ascensor sin ascensor + adaptación completa", "60%"],
+          ["Edificio con ascensor + adaptación completa", "40%"],
+          ["Ascensor sin adaptación completa, sin ascensor previo", "40%"],
+          ["Ascensor sin adaptación completa, con ascensor previo", "20%"],
+          ["Eficiencia instalaciones térmicas centralizadas", "40%"],
+          ["Anillado interior", "20%"]
+        ]
+      },
+
+      {
+        titulo: "Límites máximos de subvención foral",
+        columnas: ["Actuación", "Máximo"],
+        filas: [
+          ["Comunidad de vecinos", "5.000 €/vivienda"],
+          ["Adaptación parcial + ascensor previo", "6.000 €/vivienda"],
+          ["Adaptación parcial sin ascensor previo", "7.000 €/vivienda"],
+          ["Sin ascensor + adaptación completa", "10.000 €/vivienda"],
+          ["Sin ascensor + adaptación completa + <11 viviendas/núcleo", "13.000 €/vivienda"],
+          ["Con ascensor + sin adaptación completa", "3.000 €/vivienda"],
+          ["Envolvente térmica", "6.000 €/vivienda"],
+          ["Persona física", "13.000 €/vivienda"],
+          ["Persona física en Área Preferente o unifamiliar", "26.000 €/vivienda"],
+          ["Alquiler art. 57", "12.000 €/vivienda"],
+          ["Eficiencia térmica centralizada", "6.000 €/vivienda"],
+          ["Anillado interior", "3.000 €/vivienda"]
+        ]
+      },
+
+      {
+        titulo: "Subvención foral al alquiler",
+        columnas: ["Supuesto", "Subvención"],
+        filas: [
+          ["Área Preferente y >50 años", "40%"],
+          ["Edificio ≥50 años", "22%"],
+          ["Edificio 25–50 años", "11%"],
+          ["Renta máxima", "Equivalente a VPO de igual superficie"],
+          ["Justificar alquiler", "Antes de 1 año desde definitiva"],
+          ["Mantenimiento alquiler", "≥5 años"]
+        ]
+      },
+
+      {
+        titulo: "Riesgo de exclusión social",
+        columnas: ["Concepto", "Dato"],
+        filas: [
+          ["Subvención", "50% del coste de rehabilitación necesaria"],
+          ["Presupuesto protegible", "2.000–12.000 €"],
+          ["Ingreso mínimo", "No se exige"],
+          ["Compatibilidad", "Incompatible con otras ayudas del Gobierno de Navarra"]
+        ]
+      },
+
+      {
+        titulo: "Área de Rehabilitación Preferente",
+        columnas: ["Condición", "Dato"],
+        filas: [
+          ["Antigüedad zona consolidada", ">50 años"],
+          ["Edificios >50 años en conjuntos", ">70%"],
+          ["Conjuntos dispersos tradicionales rurales", "≥90%"],
+          ["Dotación presupuestaria mínima", "1% módulo ponderado/habitante/año"],
+          ["PIG promovido por Administración/sociedad pública", "Hasta 60% módulo ponderado/m² útil"],
+          ["Protección precio PIG", "30 años"],
+          ["Precio PIG", "Máximo precio tasado"]
+        ]
+      },
+
+      {
+        titulo: "Subvenciones municipales Pamplona",
+        columnas: ["Actuación", "Ayuda"],
+        filas: [
+          ["Adecuación estructural/funcional y envolvente", "24%"],
+          ["Sustitución equipos por renovables", "29%"],
+          ["Ascensor + adaptación completa · Casco Antiguo", "36%"],
+          ["Ascensor + adaptación completa · PIG resto ciudad", "Hasta 100%"],
+          ["Ayuda complementaria <1 SARA", "12%, máximo 1.000 €"],
+          ["Ayuda complementaria 1–2 SARA", "6%, máximo 2.000 €"]
+        ]
+      },
+
+      {
+        titulo: "Condiciones específicas Pamplona",
+        columnas: ["Concepto", "Dato"],
+        filas: [
+          ["PEM mínimo estructural/funcional", ">7.000 €/vivienda"],
+          ["PEM mínimo conjunto con energía/accesibilidad/ascensor", "4.000 €/vivienda"],
+          ["Consulta ORV", "Obligatoria y previa"],
+          ["Tres ofertas · obras", ">40.000 €"],
+          ["Tres ofertas · suministro/consultoría", ">15.000 €"],
+          ["Pago a cuenta", "70% obra ejecutada"],
+          ["Garantía anticipo", ">60.000 €, salvo Sector Público"],
+          ["Destino uso propio", "5 años"],
+          ["Destino alquiler", "15 años"],
+          ["Resolución", "6 meses"],
+          ["Silencio", "Desestimatorio"]
+        ]
+      },
+
+      {
+        titulo: "Accesibilidad municipal",
+        columnas: ["Concepto", "Regla"],
+        filas: [
+          ["Adaptación completa", "Valores de tabla 2 de tolerancias DA DB-SUA/2"],
+          ["Cabina ascensor <70 × 90 cm", "Sin ayuda de accesibilidad"],
+          ["Plataforma elevadora no cabinada", "Sin ayuda de accesibilidad"]
+        ]
+      }
+    ],
+
+    datos: [
+      "Antigüedad mínima rehabilitación protegida: >25 años.",
+      "Vaciado máximo ordinario: 60% de forjados horizontales.",
+      "Excepción patrimonial: edificios >100 años en los supuestos previstos.",
+      "Ampliación máxima protegible: 120 m² útiles.",
+      "Presupuesto protegible mínimo: 2.000 €/vivienda.",
+      "Gastos generales + beneficio industrial: máximo 15% del PEM.",
+      "Honorarios de proyecto y dirección: hasta 10% del presupuesto general.",
+      "Subvencionable: 50% módulo ponderado × vivienda + 20% módulo ponderado × anejos.",
+      "Inicio obras: 6 meses.",
+      "Terminación: 36 meses.",
+      "Prórroga: 18 meses.",
+      "Solicitud definitiva tras terminación: 1 mes.",
+      "40 × módulo ponderado: límite municipal actuaciones a-b.",
+      "65% módulo ponderado: límite municipal interiores.",
+      "60–90 m²: superficie computable de interiores municipales.",
+      "8 × módulo ponderado: límite municipal calefacción de distrito.",
+      "10 años: ventana de acumulación municipal.",
+      "Subvención foral promotor usuario: 10/20%, 5/10%, 45%, 50% según supuesto.",
+      "Complementos forales: +10% especial; +5% general/terrorismo/violencia/inclusión.",
+      "Ascensor sin ascensor + adaptación completa: 60% foral.",
+      "Persona física: máximo 13.000 €; Área Preferente/unifamiliar: 26.000 €.",
+      "Área Preferente: >70% edificios >50 años; 90% en conjunto rural disperso.",
+      "Dotación ARP: 1% módulo ponderado/habitante/año.",
+      "Alquiler foral: 40/22/11%.",
+      "Riesgo exclusión: 50%, presupuesto 2.000–12.000 €.",
+      "Pamplona estructural/funcional: 24%.",
+      "Pamplona renovables: 29%.",
+      "Ascensor + adaptación completa Casco Antiguo: 36%.",
+      "Ascensor + adaptación completa en PIG: hasta 100%.",
+      "Ayuda complementaria municipal: 12% <1 SARA; 6% entre 1 y 2 SARA.",
+      "Tres ofertas: >40.000 € obra / >15.000 € suministro o consultoría.",
+      "Pago a cuenta: 70% ejecutado.",
+      "Garantía: anticipos >60.000 €.",
+      "Destino: 5 años uso propio / 15 años alquiler.",
+      "Resolución municipal: 6 meses; silencio desestimatorio."
+    ],
+
+    excepciones: [
+      "Las obras iniciadas antes de la calificación provisional hacen que la actuación en su conjunto no sea protegible.",
+      "El límite del 60% de vaciado tiene excepción para determinados edificios de más de 100 años con interés patrimonial.",
+      "Las viviendas unifamiliares y las actuaciones adaptadas a discapacidad pueden quedar sujetas a reglas específicas.",
+      "La exigencia de antigüedad superior a 25 años admite excepciones para adaptaciones por discapacidad y por normativa técnica obligatoria.",
+      "En actuaciones de envolvente térmica se exige certificado energético registrado antes y después de las obras.",
+      "Los repartidores de costes no son protegibles, salvo el anillado interior.",
+      "La descentralización de instalaciones térmicas colectivas no es protegible.",
+      "Las inversiones en generadores térmicos de combustible fósil no son protegibles en la Ordenanza, salvo gas natural.",
+      "Cabinas de ascensor inferiores a 70 × 90 cm y plataformas elevadoras no cabinadas no reciben ayudas municipales de accesibilidad.",
+      "Los complementos de subvención foral del art. 55.1 no son acumulables entre sí.",
+      "Las viviendas del PIG promovido por Administraciones o sociedades públicas quedan sometidas a precio tasado durante 30 años y a tanteo/retracto foral.",
+      "La subvención de alquiler exige justificar el arrendamiento antes de un año desde la calificación definitiva y mantenerlo durante al menos cinco años.",
+      "La ayuda de riesgo de exclusión social es incompatible con otras ayudas del Gobierno de Navarra.",
+      "Las ayudas municipales no pueden superar el coste de la actividad subvencionada.",
+      "El incumplimiento del destino de 5 años o 15 años genera reintegro.",
+      "El pago a cuenta municipal solo procede cuando se ha ejecutado el 70% de la obra y existe informe de necesidad de la ORV.",
+      "Los anticipos superiores a 60.000 € exigen garantía salvo beneficiaria del Sector Público."
+    ]
+  },
+
   claves: [
-    "DF 61/2013, art. 45: antigüedad mínima 25 años para calificar como protegible (salvo adaptaciones para discapacidad o normativa técnica obligatoria)",
-    "DF 61/2013, art. 48.2.a: presupuesto protegible mínimo 2.000 € por vivienda resultante",
-    "DF 61/2013, art. 51: plazo de 6 meses para iniciar obras y 36 meses para terminarlas desde la calificación provisional; prórroga de hasta 18 meses",
-    "DF 61/2013, art. 55.2: comunidades de vecinos, 60% de subvención para implantación de ascensor con adaptación completa en edificios de más de 25 años sin ascensor",
-    "DF 61/2013, art. 55.3: subvención máxima por vivienda para personas físicas: 13.000 € (26.000 € en Áreas de Rehabilitación Preferente o viviendas unifamiliares)",
-    "Ordenanza Pamplona, art. 19.A: las obras de adecuación estructural y funcional requieren un presupuesto de ejecución material superior a 7.000 € por vivienda (4.000 € si se realizan conjuntamente con mejoras energéticas o de accesibilidad)",
-    "Ordenanza Pamplona, art. 21.4: el presupuesto protegible máximo municipal para obras de los apartados a y b es de 40 veces el módulo ponderado vigente por vivienda, aplicable a la suma de actuaciones en 10 años",
-    "Ordenanza Pamplona, art. 24 y 29: las subvenciones a comunidades por adecuación estructural y funcional son del 24% (30% en ámbitos PIG), y la ayuda complementaria a propietarios por obras de a, b.1 y b.2 es del 12% si los ingresos son inferiores a 1 SARA",
-    "Ordenanza Pamplona, art. 6: obligación de destino de 5 años para uso propio y 15 años para alquiler, con reintegro por enajenación o gravamen",
-    "Ordenanza Pamplona, art. 16.6: plazo máximo de resolución y notificación de 6 meses; silencio administrativo = desestimación"
-  ],
+    "Rehabilitación protegible: edificio >25 años, salvo excepciones.",
+    "Vaciado interior máximo ordinario: 60% de forjados.",
+    "Ampliación protegible: hasta 120 m² útiles.",
+    "Presupuesto protegible mínimo: 2.000 €/vivienda.",
+    "GG + BI: máximo 15% PEM.",
+    "Honorarios: hasta 10%.",
+    "IVA e ICIO: no forman parte del presupuesto protegible.",
+    "Inicio obras: 6 meses; terminación: 36 meses; prórroga: 18 meses.",
+    "Solicitud definitiva: 1 mes desde terminación.",
+    "Presupuesto subvencionable: 50% módulo ponderado vivienda + 20% anejos.",
+    "Límite municipal a-b: 40 × módulo ponderado.",
+    "Interior vivienda municipal: 65% módulo ponderado; computa entre 60 y 90 m².",
+    "Calefacción de distrito: 8 × módulo ponderado.",
+    "Subvención foral usuario: 10/20%; 5/10%; 45%; 50%.",
+    "Complementos: +10% especial; +5% general y otros colectivos.",
+    "Ascensor sin ascensor + adaptación completa: 60% foral.",
+    "Persona física: 13.000 €; Área Preferente/unifamiliar: 26.000 €.",
+    "Área Preferente: >70% edificios >50 años; 90% rural disperso.",
+    "Alquiler foral: 40/22/11%.",
+    "Pamplona estructural/funcional: 24%; renovables: 29%; ascensor Casco Antiguo: 36%; PIG: hasta 100%.",
+    "Ayuda complementaria Pamplona: 12% <1 SARA; 6% 1–2 SARA.",
+    "Consulta previa ORV: obligatoria.",
+    "Tres ofertas: >40.000 € obra / >15.000 € suministro o consultoría.",
+    "Pago a cuenta: 70% ejecutado.",
+    "Destino: 5 años uso propio / 15 alquiler.",
+    "Resolución municipal: 6 meses; silencio desestimatorio."
+  ]
 },
+   
   "E17": {
   intro: "El Decreto Foral 61/2013 regula las actuaciones protegibles en materia de vivienda en Navarra, desarrollando la Ley Foral 10/2010 del Derecho a la Vivienda; su Capítulo V crea el régimen de Viviendas de Integración Social y su Capítulo VI recoge otras figuras como la Bolsa de Alquiler, la vivienda libre de precio limitado, los apartamentos para mayores o personas con discapacidad, la regeneración energética de conjuntos residenciales y la rehabilitación del Fondo Foral de Vivienda Social.",
   bloques: [
