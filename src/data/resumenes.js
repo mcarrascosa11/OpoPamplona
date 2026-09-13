@@ -4360,148 +4360,561 @@ export const RESUMENES = {
 },
    
  "E15": {
-  intro: "El Decreto Foral 61/2013 desarrolla los titulos II y IV de la Ley Foral 10/2010, regulando las actuaciones protegibles en materia de vivienda en Navarra, sus ayudas, la calificacion de viviendas protegidas, los precios maximos, las reservas, el regimen de arrendamiento y la duracion del regimen de proteccion.",
+  intro: "El Decreto Foral 61/2013, de 18 de septiembre, desarrolla principalmente los Títulos II y IV de la Ley Foral 10/2010 y regula las actuaciones protegibles en materia de vivienda en Navarra, las ayudas, las características de las viviendas protegidas, sus precios máximos, las reservas, el procedimiento de calificación, los préstamos cualificados, las limitaciones de uso y disposición, el arrendamiento con y sin opción de compra y la duración del régimen de protección. En este tema entran el Capítulo I, el Capítulo II, el Capítulo IV y el Anexo I.",
+
   bloques: [
     {
-      h: "Ambito, actuaciones protegibles y ayudas (arts. 1-5)",
-      nota: "Este bloque fija el marco general del Decreto y es clave para no confundir las actuaciones protegibles con las ayudas. La trampa habitual consiste en mezclar las modalidades de ayuda (prestamos, subvenciones, reduccion de precio) con las aportaciones de la Administracion (suelo, derechos de superficie, descuentos). Recuerda que la financiacion cualificada no se limita a dinero: tambien vale suelo.",
+      h: "1. Ámbito, actuaciones protegibles y ayudas (arts. 1-5)",
+      nota: "El Capítulo I establece las reglas comunes. Primero distingue qué actuaciones reciben protección y después qué modalidades de ayuda pueden utilizarse. No deben confundirse las ayudas propiamente dichas con las aportaciones que puede realizar la Administración dentro de la financiación cualificada.",
       items: [
-        "Art. 1: objeto del Decreto Foral 61/2013; desarrolla los titulos II y IV de la Ley Foral 10/2010 y modifica aspectos del Decreto Foral 25/2011 (Censo de solicitantes)",
-        "Art. 2: actuaciones protegibles; adquisicion/adjudicacion en primera transmision, alquiler de VPO, promocion para uso propio/venta/arrendamiento, rehabilitacion, Viviendas de Integracion Social, bolsa de alquiler, apartamentos para mayores de 60 anos o personas con discapacidad",
-        "Art. 3: ayudas mediante prestamos cualificados, subvenciones o reduccion/descuento sobre precio maximo de venta o renta; financiacion cualificada incluye aportaciones como cesion o permuta de suelo, derechos de superficie, uso y disfrute, o reduccion de precio",
-        "Art. 4: las subvenciones no se revisan al salvo en via de recurso o revision de oficio; compatibles con otras ayudas de Navarra u otras Administraciones; deudas con Hacienda Foral bloquean el abono",
-        "Art. 5: limite presupuestario anual; el volumen total de ayudas no excedera de la consignacion y disponibilidad presupuestaria"
+        "Art. 1.1: objeto principal: procedimiento de calificación de viviendas protegidas y actuaciones de rehabilitación; fomento de la edificación residencial; actuaciones protegibles en materia de vivienda; arrendamiento de vivienda protegida con y sin opción de compra.",
+        "Art. 1.2: también desarrolla parcialmente los Títulos I, III y VI de la Ley Foral 10/2010; modifica aspectos del Decreto Foral 25/2011 sobre el Censo; y desarrolla los arts. 7, 11, 14 y 16 de la Ley Foral 6/2009.",
+        "Art. 2: actuaciones protegibles: adquisición o adjudicación en primera transmisión; alquiler de VPO calificadas definitivamente en arrendamiento; promoción para uso propio, venta o arrendamiento con o sin opción de compra; rehabilitación de viviendas, edificios y áreas urbanas; Viviendas de Integración Social; bolsa de alquiler; apartamentos en alquiler para mayores de 60 años o personas con discapacidad.",
+        "Art. 3.1: modalidades de ayuda: préstamos cualificados; subvenciones; reducción o descuento sobre el precio máximo de venta o renta.",
+        "Art. 3.2-3: financiación cualificada = intervención de la Administración mediante apoyos económicos u otras aportaciones. Incluye cesión o permuta de suelo, cesión o permuta de derechos de superficie o de uso y disfrute, y reducción o descuento sobre precio de venta o renta.",
+        "Art. 4.1: las cuantías y porcentajes de subvención estimados en calificaciones o visados no pueden revisarse al alza salvo en vía de recurso o revisión de oficio. Las novaciones del contrato de compraventa o adjudicación tampoco generan derecho a revisión al alza.",
+        "Art. 4: las ayudas son compatibles con otras ayudas salvo incompatibilidad normativa; el abono queda condicionado al cumplimiento de los requisitos y al pago de las obligaciones correspondientes.",
+        "Art. 5: las ayudas quedan sometidas a la consignación y disponibilidad presupuestaria anual."
       ]
     },
     {
-      h: "Requisitos de acceso y unidad familiar (arts. 6-9)",
-      nota: "Las fechas de referencia varian segun el tipo de actuacion y es frecuente que el examen pregunte cual aplica en cada caso. La unidad familiar sigue el criterio del IRPF, pero con una presuncion especial para descendientes en caso de separacion o ausencia de vinculo matrimonial/pareja estable. Los modulos se actualizan anualmente con efectos de 1 de enero.",
+      h: "2. Fechas de referencia, unidad familiar, renta ponderada y módulos (arts. 6-9)",
+      nota: "Estos artículos son conceptuales, pero el examen puede intercambiar las fechas de referencia. El módulo y la renta ponderada son conceptos transversales que después aparecen en precios y subvenciones.",
       items: [
-        "Art. 6: fecha de referencia para requisitos es la de solicitud de calificacion provisional en promociones individuales para uso propio y rehabilitacion; la prevista en los arts. 2 y 7 del DF 25/2011 para acceso a vivienda en propiedad o arrendamiento; la de visado de contratos en adjudicaciones de usadas, cooperativas y arrendamiento para mayores/discapacidad; el primer dia de cada renovacion anual en contratos de arrendamiento",
-        "Art. 7: unidad familiar se rige por el IRPF; en separacion o sin vinculo matrimonial/pareja estable se presume convivencia de descendientes bajo patria potestad compartida; familias numerosas con titulo en vigor acceden a actuaciones especificas",
-        "Art. 8: renta ponderada acreditada mediante declaracion del IRPF; calculo conforme al Anexo 2 del Decreto",
-        "Art. 9: modulos ponderado y sin ponderar se actualizan anualmente con efectos de 1 de enero; mientras no haya sistema propio de Navarra se usan los indices del Estado para mano de obra y materiales, y el IPC estatal"
+        "Art. 6: en promoción individual para uso propio y rehabilitación, la fecha de referencia de los requisitos es la de solicitud de calificación provisional.",
+        "Art. 6: en acceso a vivienda en propiedad o arrendamiento se aplica la fecha de referencia prevista en los arts. 2 y 7 del Decreto Foral 25/2011.",
+        "Art. 6: en adjudicaciones de vivienda usada, cooperativas y arrendamiento para mayores o personas con discapacidad se toma la fecha del visado del contrato.",
+        "Art. 6: en contratos de arrendamiento ya vigentes, para las renovaciones anuales se toma el primer día de cada nueva anualidad.",
+        "Art. 7: unidad familiar según la normativa del IRPF, con las particularidades del Decreto; en separación o inexistencia de vínculo matrimonial o pareja estable se presume la convivencia de descendientes sometidos a patria potestad compartida.",
+        "Art. 7: las familias numerosas con título en vigor acceden a las actuaciones específicas previstas en la normativa.",
+        "Art. 8: la renta ponderada se acredita mediante la declaración del IRPF y se calcula conforme al Anexo II.",
+        "Art. 9: los módulos ponderado y sin ponderar se actualizan anualmente con efectos de 1 de enero.",
+        "Art. 9: mientras Navarra no disponga de un sistema propio de actualización se utilizan los índices estatales correspondientes para mano de obra, materiales e IPC."
       ]
     },
     {
-      h: "Caracteristicas constructivas y urbanisticas (arts. 10-13)",
-      nota: "Este bloque concentra cifras memorizables y es muy preguntable por enumeracion. La clave esta en distinguir entre viviendas de proteccion oficial y precio tasado, y en no olvidar las excepciones para familias numerosas y personas con discapacidad. Las superficies de balcones/terrazas se suman a la util interior con tope del 10%.",
+      h: "3. Características constructivas de las viviendas protegidas (arts. 10-13)",
+      nota: "Es uno de los bloques más memorizables. Aquí están las superficies, anejos, requisitos energéticos, terrenos, unifamiliares y discapacidad. Conviene memorizar los números como parejas o series.",
       items: [
-        "Art. 10.1: superficie util medida conforme al DF 142/2004; balcones y terrazas suman a la util interior con tope del 10% de esta",
-        "Art. 10.2: distribucion interior; 1 dormitorio hasta 60 m2, 2 dormitorios hasta 80 m2 (85 m2 si reserva discapacidad motriz grave), 3 o mas hasta el maximo legal; reserva familias numerosas con 4 dormitorios minimo; diseno que excluya anexion fisica de espacios adyacentes",
-        "Art. 10.3: anejos vinculados; garaje minimo 10,81 m2 y maximo 14 m2 (excepto discapacidad); trastero maximo 15 m2 y minimo 2 m2; huecos de iluminacion por debajo de 1,8 m no computan; iluminacion maximo 5% de la util del local; garaje mancomunado con plazo de ejecucion maximo 3 anos y demora total maximo 5 anos desde calificacion definitiva; garaje individual con trastero acoplado maximo 45 m2",
-        "Art. 10.4: locales no vinculados con tope del 40% de la superficie util total de la promocion; si no consta util real se computa el 85% de la construida; precio maximo de local no vinculado al 40% del precio maximo de vivienda para calculo de repercusion del suelo; a demas efectos precio libre",
-        "Art. 10.7: superficie util maxima VPO 90 m2 (120 m2 familias numerosas); precio tasado 120 m2 (140 m2 familias numerosas)",
-        "Art. 10.8: superficie construida maxima VPO 260 m2 (300 m2 familias numerosas); precio tasado 310 m2 (360 m2 familias numerosas)",
-        "Art. 10.9: calificacion energetica minima B desde 1/1/2017, A desde 1/1/2018, edificio de consumo casi nulo desde 1/1/2019; excepto unifamiliares aisladas; promovidas por sociedades publicas, consumo casi nulo desde 1/1/2017",
-        "Art. 11: terrenos aptos si cumplen normativa urbanistica, habitabilidad, accesibilidad, CTE, patrimonio historico y actividades clasificadas; libres de cargas incompatibles o injustificadamente onerosas; valoracion de terrenos y edificacion a precios de mercado",
-        "Art. 12: unifamiliares; todos los locales vinculados como anejos en plantas bajas, sotanos o semisotanos; zaguan maximo 12 m2 no computable como util; espacios de acceso a garaje maximo 16 m2; anejos rurales VPO maximo 100 m2 (precio tasado 120 m2), resto 45 m2",
-        "Art. 13: reserva discapacidad motriz grave requiere afectacion en extremidades inferiores igual o superior al 40%; preferencia planta baja o ascensor/rampa; plazas de aparcamiento iguales al numero de viviendas reservadas; interior adaptado a silla de ruedas segun CTE; en unifamiliares pueden ser de mas de una planta con ascensor o rampa"
+        "Art. 10.1: la superficie útil de viviendas y anejos se mide conforme al art. 21 del Anexo II del Decreto Foral 142/2004.",
+        "Art. 10.1: balcones y terrazas se suman a la superficie útil interior, con un máximo del 10% de esta.",
+        "Art. 10.2: 1 dormitorio → hasta 60 m² útiles; 2 dormitorios → hasta 80 m²; 3 o más → hasta el máximo legal.",
+        "Art. 10.2: las viviendas de 2 dormitorios reservadas para personas con discapacidad motriz grave pueden alcanzar 85 m² útiles.",
+        "Art. 10.2: las viviendas reservadas a familias numerosas deben tener como mínimo 4 dormitorios.",
+        "Art. 10.2: el diseño de los edificios debe impedir físicamente la anexión de espacios adyacentes a las viviendas.",
+        "Art. 10.3: a cada vivienda protegida pueden vincularse jurídicamente un trastero y una plaza de garaje.",
+        "Art. 10.3.a: garaje → mínimo 10,81 m² útiles y máximo 14 m², salvo plazas destinadas a personas con discapacidad motriz.",
+        "Art. 10.3.b: en plazas para discapacidad motriz puede superarse 14 m², pero solo computan los primeros 14 m² para ayudas y precio máximo; tampoco computan los espacios de acceso.",
+        "Art. 10.3.c: trastero → mínimo 2 m² y máximo 15 m²; computa toda superficie con altura libre superior a 1,50 m.",
+        "Art. 10.3.d: ningún local vinculado puede tener huecos de iluminación por debajo de 1,80 m sobre pavimento terminado; superficie total de iluminación máxima = 5% de la superficie útil del local.",
+        "Art. 10.3.e: garaje mancomunado cuyo acceso no esté ejecutado al iniciar el expediente → plazo de ejecución previsto en escritura máximo 3 años y nunca con demora superior a 5 años desde la calificación definitiva.",
+        "Art. 10.3: garaje individual con trastero acoplado → máximo 45 m².",
+        "Art. 10.4.a: locales no vinculados + plazas de garaje no vinculadas → máximo 40% de la superficie útil total de la promoción.",
+        "Art. 10.4.a: si no consta la superficie útil real de un local no vinculado → se computa el 85% de la superficie construida.",
+        "Art. 10.4.b: los locales no vinculados deben situarse preferentemente en plantas completas distintas de las viviendas y nunca compartir accesos o salidas con ellas.",
+        "Art. 10.4.c: para calcular la repercusión máxima del suelo, el precio máximo del local no vinculado = 40% del precio máximo por m² útil de vivienda protegida del expediente; a los demás efectos, el local tiene precio libre.",
+        "Art. 10.4.d: las plazas de garaje no vinculadas pueden superar las superficies máximas ordinarias, aunque deben cumplir las dimensiones y superficie mínimas.",
+        "Art. 10.4: plazas no vinculadas para motocicletas → mínimo 1,20 x 2,40 m y máximo 5 m².",
+        "Art. 10.5: las condiciones constructivas comunes son las exigidas por habitabilidad, CTE y demás normativa general de edificación.",
+        "Art. 10.6: los terrenos para vivienda protegida deben cumplir las condiciones urbanísticas y de aptitud del art. 11.",
+        "Art. 10.7: VPO → superficie útil máxima 90 m²; familias numerosas → 120 m².",
+        "Art. 10.7: precio tasado → superficie útil máxima 120 m²; familias numerosas → 140 m².",
+        "Art. 10.8: VPO → superficie construida máxima 260 m² incluyendo anejos; familias numerosas → 300 m².",
+        "Art. 10.8: precio tasado → superficie construida máxima 310 m² incluyendo anejos; familias numerosas → 360 m².",
+        "Art. 10.9: proyectos presentados para calificación provisional desde 1/1/2017 → mínimo B de calificación energética relativa al consumo.",
+        "Art. 10.9: proyectos desde 1/1/2018 → mínimo A.",
+        "Art. 10.9: proyectos desde 1/1/2019 → requisitos de edificio de consumo de energía casi nulo.",
+        "Art. 10.9: las exigencias de nivel B y A no son aplicables a viviendas protegidas unifamiliares aisladas. No significa que tengan que alcanzar un nivel superior; son una excepción concreta a esas exigencias.",
+        "Art. 10.9: viviendas protegidas promovidas por sociedades públicas → consumo de energía casi nulo desde 1/1/2017.",
+        "Art. 11.2: los terrenos deben permitir simultáneamente el cumplimiento de habitabilidad, accesibilidad universal, vivienda protegida, ordenación territorial y urbanística, patrimonio histórico, CTE, actividades clasificadas y demás normativa aplicable.",
+        "Art. 11.3: terrenos libres de cargas que impidan la construcción o resulten injustificadamente onerosas para los destinatarios.",
+        "Art. 11.4: en repercusión máxima del suelo y urbanización se incluyen urbanización exterior, adquisición de terrenos, cargas de reparcelación, indemnizaciones y levantamiento de cargas.",
+        "Art. 11.4: los costes de edificación y urbanización interior se valoran a precios de mercado aunque existan donaciones, prestaciones desinteresadas o autoconstrucción.",
+        "Art. 12: en viviendas unifamiliares, los locales vinculados se consideran anejos y se ubican en planta baja, sótano o semisótano.",
+        "Art. 12: zaguán → máximo 12 m² y no computa como superficie útil.",
+        "Art. 12: espacios de acceso a garaje → máximo 16 m².",
+        "Art. 12: anejos rurales vinculados → VPO máximo 100 m²; precio tasado máximo 120 m²; resto de anejos máximo 45 m².",
+        "Art. 13: discapacidad motriz grave → afectación de extremidades inferiores igual o superior al 40%.",
+        "Art. 13: viviendas reservadas → preferentemente planta baja; si están en otra planta, ascensor o rampa accesible.",
+        "Art. 13: plazas de aparcamiento reservadas → una plaza por cada vivienda reservada.",
+        "Art. 13: la vivienda debe estar adaptada a silla de ruedas conforme al CTE.",
+        "Art. 13: en unifamiliares adaptadas pueden existir varias plantas si se dispone ascensor o rampa accesible."
       ]
     },
     {
-      h: "Precios maximos de venta y renta (arts. 14-17)",
-      nota: "Es fundamental distinguir entre primera transmision (hasta un ano desde la calificacion definitiva) y segunda o posteriores transmisiones, asi como entre modulo ponderado y sin ponderar. Los coeficientes varian segun tipo de vivienda y tipo de anejo. La renta anual maxima se calcula como porcentaje del precio de segunda transmision.",
+      h: "4. Precios máximos de venta y renta (arts. 14-17)",
+      nota: "La clave del bloque es distinguir tipo de vivienda, primera o segunda transmisión, módulo ponderado o sin ponderar y vivienda frente a anejos.",
       items: [
-        "Art. 14: no puede obligarse a adquirir anejos no vinculados; garaje individual vinculado con trastero acoplado se valora como trastero en toda su superficie; plaza discapacidad que supere 14 m2 no excede en precio de una plaza de 14 m2; plaza que supere 14 m2 por medicion anterior al DF 142/2004, precio tope del 40% del precio por m2 util de la vivienda vinculada",
-        "Art. 15: VPO primera transmision (hasta 1 ano de calificacion definitiva): 1,30 veces modulo ponderado por m2 util de vivienda y garaje vinculado, y 0,52 veces para trasteros y otros anejos; segunda transmision o despues de 1 ano: regimen general 1,3 y 0,52 modulo sin ponderar; regimen especial 1,2 y 0,48 modulo sin ponderar",
-        "Art. 16: precio tasado primera transmision: 1,50 veces modulo ponderado por m2 util de vivienda y garaje vinculado, y 0,60 veces para trasteros; segunda transmision o despues de 1 ano: 1,50 y 0,60 modulo sin ponderar",
-        "Art. 17: renta anual maxima de VPO en arrendamiento: 4,5% del precio maximo de venta vigente para segundas transmisiones; mismo limite para viviendas de propiedad arrendadas por sus propietarios y promociones acogidas al art. 105 del DF 287/1998"
+        "Art. 14: no puede obligarse a adquirir anejos no vinculados.",
+        "Art. 14: garaje individual vinculado con trastero acoplado se valora como trastero en toda su superficie.",
+        "Art. 14: plaza para discapacidad que supere 14 m² → el exceso no incrementa el precio máximo; se toma como máximo una plaza de 14 m².",
+        "Art. 14: plazas superiores a 14 m² por medición anterior al DF 142/2004 → precio máximo del 40% del precio por m² útil de la vivienda vinculada.",
+        "Art. 15: VPO, primera transmisión y durante menos de un año desde la calificación definitiva → 1,30 × módulo ponderado por m² útil de vivienda y garaje vinculado; 0,52 × módulo ponderado para trasteros y otros anejos.",
+        "Art. 15: VPO, segunda y posteriores transmisiones, o primera transmisión una vez transcurrido al menos un año desde la calificación definitiva → módulo sin ponderar.",
+        "Art. 15: VPO régimen general → 1,30 × módulo sin ponderar para vivienda y garaje; 0,52 × para trasteros y otros anejos.",
+        "Art. 15: VPO régimen especial → 1,20 × módulo sin ponderar para vivienda y garaje; 0,48 × para trasteros y otros anejos.",
+        "Art. 16: precio tasado, primera transmisión y menos de un año desde calificación definitiva → 1,50 × módulo ponderado para vivienda y garaje; 0,60 × para trasteros y otros anejos.",
+        "Art. 16: precio tasado, segunda y posteriores transmisiones, o primera transmisión transcurrido al menos un año → 1,50 × módulo sin ponderar para vivienda y garaje; 0,60 × para trasteros y otros anejos.",
+        "Art. 17: renta anual máxima VPO en arrendamiento → 4,5% del precio máximo de venta vigente para segunda transmisión de vivienda y anejos vinculados.",
+        "Art. 17: ese mismo límite de renta se aplica a viviendas protegidas en propiedad arrendadas por sus propietarios y a promociones del art. 105 del DF 287/1998."
       ]
     },
     {
-      h: "Reservas y fraccionamiento de promociones (arts. 18-19)",
-      nota: "Los cuadros de reservas son altamente preguntables. La diferencia entre propiedad/arrendamiento con opcion de compra y arrendamiento sin opcion de compra es crucial: en el segundo, las reservas empiezan antes (desde 17 viviendas) y el grupo e) tiene tratamiento diferenciado. El fraccionamiento espacial o temporal tiene un ano de bloqueo salvo excepciones.",
+      h: "5. Reservas y fraccionamiento de promociones (arts. 18-19)",
+      nota: "Las reservas deben memorizarse como dos tablas diferentes. La primera corresponde a propiedad y alquiler con opción de compra; la segunda a VPO en alquiler sin opción de compra.",
       items: [
-        "Art. 18.1: en propiedad y arrendamiento con opcion de compra, reservas para grupos a), b), c), d) y e) empiezan en promociones de 34 a 66 viviendas con 1 por grupo (5 total); escala progresiva hasta 300 o mas (9 por grupo, 45 total, mas 1 por grupo y 5 total por cada 33 que excedan de 300)",
-        "Art. 18.2: en arrendamiento sin opcion de compra, reservas empiezan en 17 a 33 viviendas con 0 para a)-d) y 1 para e) (1 total); escala distinta hasta 200 o mas (6 para a)-d) mas 1 por cada 33 que excedan de 200; 12 para e) mas 1 por cada 17 que excedan de 200)",
-        "Art. 18.3: reserva familias numerosas ampliable por configuracion arquitectonica previa autorizacion",
-        "Art. 18.4: si no hay solicitantes en el Censo para discapacidad motriz grave, el promotor puede no promoverlas adaptadas; excepto promocion publica, que se rige por la Ley Foral 5/2010 de accesibilidad universal",
-        "Art. 18.5: en promociones hasta 33 viviendas, la reserva de realojos puede abarcar parte o totalidad; en mas de 33, no puede reducir el total de reservas de los grupos anteriores",
-        "Art. 18.6: transcurridos 6 meses desde la calificacion provisional, las no adjudicadas de reservas de realojos pueden pasar a reserva general de empadronados",
-        "Art. 18.7: empadronamiento ininterrumpido minimo 4 anos computado desde la solicitud de calificacion provisional; al menos un adjudicatario debe reunirlo",
-        "Art. 19: prohibicion de solicitar nueva calificacion provisional en el mismo municipio y misma modalidad hasta transcurrir 1 ano; excepciones: suma de viviendas igual o inferior a 33, acumulacion de reservas, terreno publico por concurso, areas de reparto o unidades de ejecucion distintas o parcelas no colindantes (salvo unifamiliares)"
+        "Art. 18.1: en propiedad y alquiler con opción de compra se reserva el mismo número de viviendas para cada uno de los grupos a), b), c), d) y e).",
+        "Art. 18.2: en alquiler sin opción de compra los grupos a)-d) tienen una tabla y el grupo e) otra, con un total específico.",
+        "Art. 18.3: la reserva para familias numerosas puede ampliarse si lo exige la configuración arquitectónica del edificio, previa autorización.",
+        "Art. 18.4: si el Censo no permite cubrir las reservas para discapacidad motriz grave, el promotor queda autorizado automáticamente para no promover como adaptadas las viviendas no adjudicadas por esa causa.",
+        "Art. 18.4: excepción: promociones públicas → se aplica la disposición adicional cuarta de la Ley Foral 5/2010.",
+        "Art. 18.5: hasta 33 viviendas, la reserva para realojos puede abarcar parte o incluso toda la promoción según resoluciones o convenios.",
+        "Art. 18.5: más de 33 viviendas → los realojos no pueden reducir el número total de reservas ordinarias.",
+        "Art. 18.6: transcurridos 6 meses desde la calificación provisional, las viviendas de reserva para realojos no adjudicadas pueden pasar a la reserva general para empadronados.",
+        "Art. 18.7: empadronamiento ininterrumpido mínimo de 4 años, computado desde la solicitud de calificación provisional; al menos uno de los adjudicatarios de cada vivienda debe cumplirlo.",
+        "Art. 19: un promotor que haya solicitado calificación provisional no puede solicitar en el mismo municipio otra de la misma modalidad hasta transcurrido 1 año.",
+        "Art. 19.1: excepción si la suma de viviendas de las promociones es ≤33.",
+        "Art. 19.2: excepción si se acumulan en uno o varios expedientes las reservas que corresponderían a la suma de promociones.",
+        "Art. 19.3: excepción si una actuación está en terreno público obtenido por concurso.",
+        "Art. 19.4: excepción si las promociones están en áreas de reparto o unidades de ejecución distintas o en parcelas no colindantes de la misma unidad; excepción de esta última regla para promociones unifamiliares."
       ]
     },
     {
-      h: "Calificacion provisional y definitiva (arts. 20-26)",
-      nota: "La calificacion es un procedimiento administrativo de dos fases. La provisional tiene efecto de informe favorable previo a licencia; la definitiva surte efectos de cedula de habitabilidad de clase A durante 30 anos. El plazo para terminar obras es de 36 meses prorrogables hasta 18 meses mas. La documentacion de cada fase es extensa y diferenciada.",
+      h: "6. Calificación provisional y definitiva (arts. 20-26)",
+      nota: "La calificación es el procedimiento administrativo que comprueba que una promoción cumple la normativa de vivienda protegida. La provisional permite avanzar hacia la construcción y la definitiva acredita el resultado final.",
       items: [
-        "Art. 20: la calificacion comprueba legalidad y caracteristicas exigidas; incluye resoluciones de calificacion provisional y definitiva",
-        "Art. 21: contenido minimo de la calificacion; norma de financiacion, identificacion del solicitante, numero y superficie de viviendas/anejos/locales, tipo de vivienda, regimen de acceso, modulo aplicable, limitacion de disponibilidad presupuestaria",
-        "Art. 22: calificacion provisional para nueva planta sin terminar que comprenda al menos un edificio completo (portal completo); no pueden coexistir dos tipos o regimenes de proteccion ni viviendas libres y protegidas en el mismo edificio, salvo excepciones en arrendamiento sin opcion de compra; efecto de informe favorable previo a licencia; requiere escritura de mancomunidad si comparte instalaciones obligatorias",
-        "Art. 23: autorizacion para percibir cantidades a cuenta tras calificacion provisional; requiere que el numero de compradores no supere las viviendas calificadas, cuenta bancaria especial exclusiva y seguro o aval solidario que garantice devolucion con intereses legales",
-        "Art. 24: plazo maximo 36 meses desde calificacion provisional para solicitar la definitiva; prorrogable hasta 18 meses mas a instancia previa al vencimiento; archivo de oficio si no se presenta; desistimiento impide nueva calificacion en la misma parcela y mismo tipo/regimen durante 12 meses",
-        "Art. 25: documentacion calificacion definitiva; licencia de primera utilizacion, planos de final de obra, escritura declarativa de obra nueva, certificado de final visado, poliza de incendios, Libro de ordenes y visitas, fichas del Libro del Edificio, certificado energetico inscrito; inspeccion previa por el Departamento; calificacion por fases en edificios o portales completos; efectos de cedula de habitabilidad clase A durante 30 anos; entrega de viviendas en 3 meses desde la definitiva",
-        "Art. 26: resoluciones motivadas y recurribles; en denegacion por causas del promotor, los adquirentes pueden resolver el contrato o solicitar reinicio del expediente en 3 meses; del precio final se deducen cantidades invertidas por adquirentes en subsanaciones"
+        "Art. 20: la calificación comprende resolución provisional y resolución definitiva.",
+        "Art. 21: tanto la calificación provisional como la definitiva incluyen como mínimo: norma de financiación; identificación del solicitante; número y superficies de viviendas y anejos; existencia y vinculación de garajes y trasteros; locales; tipo de vivienda; régimen de acceso o uso; módulo aplicable; referencia a la disponibilidad presupuestaria y límites de las ayudas.",
+        "Art. 22: la calificación provisional de nueva planta exige que la promoción comprenda al menos un edificio completo o portal completo.",
+        "Art. 22: regla general de no coexistencia de dos tipos o regímenes de protección ni de viviendas libres y protegidas en el mismo edificio, salvo las excepciones previstas para determinadas promociones en alquiler sin opción de compra.",
+        "Art. 22: la calificación provisional surte efecto de informe favorable previo a la licencia.",
+        "Art. 22: si existen instalaciones obligatorias comunes, puede requerirse escritura de mancomunidad.",
+        "Art. 22: la solicitud debe incluir acreditación de identidad/representación, documentación urbanística y registral, proyecto básico y de ejecución visado, estudio de seguridad y salud, declaración de obra nueva no terminada, datos de promoción y acreditación económica del suelo y urbanización, entre otra documentación.",
+        "Art. 23: tras la calificación provisional se puede autorizar la percepción de cantidades a cuenta.",
+        "Art. 23: el número de compradores no puede superar el número de viviendas calificadas.",
+        "Art. 23: debe existir cuenta bancaria especial y exclusiva.",
+        "Art. 23: las cantidades a cuenta deben estar garantizadas mediante seguro o aval solidario que cubra su devolución con intereses legales.",
+        "Art. 24: la calificación definitiva debe solicitarse dentro de un plazo máximo de 36 meses desde la calificación provisional.",
+        "Art. 24: el plazo de 36 meses puede prorrogarse hasta 18 meses más si se solicita antes del vencimiento.",
+        "Art. 24: si no se presenta la solicitud de definitiva dentro de plazo, el expediente se archiva de oficio.",
+        "Art. 24: si el promotor desiste de la calificación provisional, no puede pedir nueva calificación en la misma parcela y mismo tipo o régimen durante 12 meses desde la resolución que acepta el desistimiento.",
+        "Art. 25: para la calificación definitiva deben aportarse, entre otros, licencia municipal de primera utilización, documentación final de obra, escritura de obra nueva, certificado final visado, póliza de incendios, Libro de órdenes y visitas, documentación del Libro del Edificio y certificado energético inscrito.",
+        "Art. 25: la Administración realiza inspección previa al otorgamiento.",
+        "Art. 25: en construcciones por fases, la calificación definitiva puede otorgarse por fases, siempre que cada fase comprenda edificios o portales completos.",
+        "Art. 25: la calificación definitiva surte efectos de cédula de habitabilidad de clase A durante 30 años.",
+        "Art. 25: el promotor debe entregar las viviendas y poner las llaves a disposición en un máximo de 3 meses desde la calificación definitiva, salvo prórroga excepcional.",
+        "Art. 26: otorgamiento y denegación deben ser resoluciones motivadas y recurribles en vía administrativa.",
+        "Art. 26: si la denegación definitiva es imputable al promotor, los adquirentes pueden resolver el contrato y recuperar cantidades o pedir el reinicio del expediente a su favor dentro de 3 meses.",
+        "Art. 26: del precio final se deducen las cantidades que los adquirentes hayan tenido que invertir en obras necesarias para conseguir la calificación definitiva."
       ]
     },
     {
-      h: "Subvenciones y prestamos cualificados (arts. 27-37)",
-      nota: "Las subvenciones a adquirentes se calculan sobre el precio de venta segun tramos de renta e IPREM, con topes de superficie. Las de arrendamiento son anuales y dependen de los ingresos familiares ponderados. Los prestamos cualificados tienen un tope del 80% del precio de venta y plazo de amortizacion de hasta 30 anos con carencia de hasta 3 anos.",
+      h: "7. Subvenciones a adquisición y arrendamiento (arts. 27-30)",
+      nota: "Las ayudas a adquisición dependen de los ingresos y del tipo de vivienda. Las ayudas al alquiler son anuales. Estos porcentajes conviene memorizarlos como una tabla cerrada.",
       items: [
-        "Art. 27: subvenciones a adquirentes/adjudicatarios/promotores uso propio; superficie computable maxima 90 m2 (120 m2 VPO y 140 m2 precio tasado para familias numerosas); tramos: hasta 2 IPREM (VPO 12%, precio tasado 6%), de 2 a 2,5 IPREM (10% y 4%), de 2,5 a 3,5 IPREM (6% y 2%); familias numerosas complementarias 3% categoria general y 6% categoria especial si ingresos no superan 3,5 IPREM",
-        "Art. 28: subvenciones anuales a arrendatarios de VPO; superficie computable 90 m2 (120 m2 familias numerosas); tramos: 1,7 a 1,4 IPREM 25%, 1,4 a 1 IPREM 50%, menor que IPREM 75%; victimas violencia de genero 90% primer ano y 75% segundo ano; perceptores renta inclusion social 75% en renovacion",
-        "Art. 29: Alquiler Joven; requisitos: ningun solicitante mayor de 35 anos, superficie maxima 75 m2, unidad familiar maxima 4 miembros, renta inicial anual maxima 4,5% del precio de segunda transmision de VPO",
-        "Art. 30: tramitacion de subvenciones; promotores pueden solicitar abono descontando del precio de venta (entidad colaboradora); garantia obligatoria si supera 60.000 euros; plazo maximo 6 meses desde escritura publica para solicitar ayudas directas; renovaciones anuales con 15 dias de antelacion",
-        "Art. 31: prestamos cualificados; cuantia maxima 80% del precio de venta incluyendo anejos vinculados; plazo amortizacion hasta 30 anos; carencia hasta 3 anos desde formalizacion al promotor",
-        "Art. 36: acuerdos de colaboracion con entidades de credito; incluiran obligatoriamente ambito de aplicacion temporal",
-        "Art. 37: tramitacion de prestamos cualificados; solicitud del promotor antes de 6 meses desde calificacion definitiva; conformidad del Departamento con silencio administrativo de 20 dias; notificacion de formalizacion y disposiciones"
+        "Art. 27: destinatarios de subvención de adquisición: adquirentes y adjudicatarios en primera transmisión y promotores para uso propio de viviendas protegidas.",
+        "Art. 27: superficie máxima computable para subvención: 90 m²; familias numerosas → 120 m² en VPO y 140 m² en precio tasado.",
+        "Art. 27: hasta 2 IPREM → VPO 12%; precio tasado 6%.",
+        "Art. 27: más de 2 hasta 2,5 IPREM → VPO 10%; precio tasado 4%.",
+        "Art. 27: más de 2,5 hasta 3,5 IPREM → VPO 6%; precio tasado 2%.",
+        "Art. 27: familias numerosas con ingresos ≤3,5 IPREM → complemento 3% categoría general y 6% categoría especial.",
+        "Art. 27: en promociones individuales de uso propio se aplican esos porcentajes sobre el coste computable.",
+        "Art. 27: en viviendas unifamiliares o viviendas rurales con otros locales distintos de la vivienda, la subvención por esos locales no excede de la correspondiente a 36 m² de anejo.",
+        "Art. 28: subvenciones al arrendatario de VPO calificadas definitivamente en alquiler, con o sin opción de compra, y otros supuestos previstos.",
+        "Art. 28: para obtener subvención debe existir visado administrativo del contrato y estar al corriente de rentas, comunidad, mantenimiento, contribuciones, tasas e impuestos municipales.",
+        "Art. 28: superficie computable para subvención al alquiler → máximo 90 m²; familias numerosas → 120 m².",
+        "Art. 28: ingresos entre 1,4 y 1,7 IPREM → subvención 25%.",
+        "Art. 28: ingresos entre 1 y 1,4 IPREM → subvención 50%.",
+        "Art. 28: ingresos inferiores a 1 IPREM → subvención 75%.",
+        "Art. 28: víctimas de violencia de género → 90% durante el primer año y 75% durante el segundo.",
+        "Art. 28: en determinados casos de acceso por el art. 19.c) de la Ley Foral 10/2010, las víctimas de violencia de género pueden disfrutar del régimen anterior durante los dos primeros años.",
+        "Art. 28: perceptores de renta de inclusión social o prestación sustitutiva → subvención del 75% en renovación o prórroga.",
+        "Art. 28: las subvenciones al arrendamiento son anuales.",
+        "Art. 28: al renovarse anualmente se tienen en cuenta los ingresos de todas las personas que conviven en la vivienda.",
+        "Art. 29: Alquiler Joven → ninguno de los solicitantes debe haber cumplido 35 años al solicitarlo.",
+        "Art. 29: superficie útil máxima Alquiler Joven → 75 m².",
+        "Art. 29: unidad familiar máxima → 4 miembros.",
+        "Art. 29: renta inicial anual máxima → 4,5% del precio máximo de segunda transmisión que hubiera correspondido a la vivienda y anejos si fueran VPO en propiedad.",
+        "Art. 30: el promotor puede solicitar el abono de las subvenciones entre el visado y la escritura, descontándolas del precio de venta.",
+        "Art. 30: si la subvención supera 60.000 €, se exige garantía mediante aval o seguro.",
+        "Art. 30: si el adquirente solicita directamente la ayuda tras la calificación definitiva, el plazo máximo es de 6 meses desde la escritura pública.",
+        "Art. 30: las renovaciones de subvenciones a arrendatarios son anuales y deben solicitarse con al menos 15 días de antelación."
       ]
     },
     {
-      h: "Limitaciones al uso y regimen de proteccion (arts. 38-43)",
-      nota: "La duracion del regimen de proteccion depende del tipo de vivienda, regimen, fecha de calificacion provisional y definitiva. La descalificacion anticipada exige devolucion de ayudas con intereses legales. La desocupacion autorizada puede durar hasta 3 anos y no exige devolucion de ayudas.",
+      h: "8. Préstamos cualificados (arts. 31-37)",
+      nota: "Aquí hay una cadena muy sencilla de memorizar: 80% - 30 años - 3 años. Los arts. 32 a 35 son más conceptuales y el 37 contiene un plazo de 6 meses y un silencio de 20 días.",
       items: [
-        "Art. 38: duracion del regimen en el art. 43 de la Ley Foral 10/2010 y Anexo I del Decreto; comunicaciones de enajenacion con aceptacion expresa de objeto y precio por el futuro adquirente",
-        "Art. 39: cambio por inadecuacion en misma localidad o radio maximo 20 km en linea recta; requiere escritura de adquisicion y, si es necesario, certificado de distribucion en momento de calificacion definitiva; excepcion de ubicacion y plazo para objetivos de organizacion terrorista con certificacion de la Delegacion del Gobierno",
-        "Art. 40: descalificacion anticipada; documentacion requerida: escritura de adquisicion, certificado de titularidad y libertad de cargas, devolucion de tributos con intereses, devolucion de exencion de ITP y AJD, devolucion de ayudas personales/subvenciones/Subsidios a Navarra y al Estado con intereses, cedula parcelaria",
-        "Art. 41: resolucion motivada del Departamento; traslado a interesado, Ayuntamiento, Hacienda y Registro de la Propiedad; notificacion al Ministerio si hubo ayudas estatales",
-        "Art. 42: causas de desocupacion autorizada: traslado laboral o estudios, salud, otras causas justificadas previo intento de venta/alquiler e imposibilidad de ocupacion por familiar hasta 2. grado de consaguinidad; causas posteriores a la escritura; plazo maximo 3 anos; uso gratuito por familiar hasta 2. grado si imposibilidad de ocupar en plazo legal",
-        "Art. 43: no se exige devolucion de ayudas en desocupacion o uso familiar; plazo maximo de resolucion 3 meses con silencio administrativo favorable"
+        "Art. 31: préstamo cualificado = préstamo autorizado por el Departamento para financiar vivienda protegida y actuaciones protegibles.",
+        "Art. 31: cuantía máxima ordinaria → 80% del precio de venta, incluyendo garajes y trasteros vinculados y otros locales vinculados en unifamiliares.",
+        "Art. 31: este 80% puede incrementarse para determinadas actuaciones si lo establecen los acuerdos de colaboración.",
+        "Art. 31: amortización máxima → 30 años.",
+        "Art. 31: carencia máxima → 3 años desde la formalización del préstamo al promotor.",
+        "Art. 32: el tipo de interés se fija en los acuerdos de colaboración con las entidades de crédito; pueden existir rangos mínimo y máximo.",
+        "Art. 33: las comisiones se fijan en los acuerdos de colaboración y pueden variar según la actuación.",
+        "Art. 34: pueden concederse préstamos cualificados a promotores con calificación provisional.",
+        "Art. 34: la disposición del préstamo puede seguir un calendario pactado con la entidad financiera según ejecución de la inversión y, en su caso, ventas o adjudicaciones.",
+        "Art. 34: el préstamo del adquirente/adjudicatario puede ser directo o mediante subrogación en la deuda hipotecaria del promotor.",
+        "Art. 35: el préstamo del promotor puede novarse al producirse la subrogación del comprador si existe acuerdo con la entidad financiera.",
+        "Art. 35: promotores individuales de nueva planta o rehabilitación para uso propio pueden novar las condiciones al terminar la carencia.",
+        "Art. 36: el Gobierno de Navarra puede establecer acuerdos de colaboración con entidades de crédito que operen en Navarra.",
+        "Art. 36: puede establecerse un volumen mínimo de recursos a convenir.",
+        "Art. 36: los acuerdos deben incluir obligatoriamente su ámbito temporal de aplicación.",
+        "Art. 37: promotores y, en préstamo directo, adquirentes/adjudicatarios pueden solicitar préstamos en entidades colaboradoras.",
+        "Art. 37: el promotor debe presentar la solicitud antes de 6 meses desde la calificación definitiva.",
+        "Art. 37: documentación básica: calificación provisional o definitiva y contrato visado, según proceda.",
+        "Art. 37: la entidad financiera debe solicitar conformidad del Departamento.",
+        "Art. 37: transcurridos 20 días desde la recepción en el Departamento sin pronunciamiento expreso en contra, se entiende ajustado a la normativa aplicable.",
+        "Art. 37: la fecha de formalización determina el comienzo del período de carencia.",
+        "Art. 37: ante requerimiento del Departamento, entidades y prestatarios deben remitir documentación en un plazo máximo de 15 días."
       ]
     },
     {
-      h: "Arrendamiento con y sin opcion de compra (arts. 61-65)",
-      nota: "El arrendamiento con opcion de compra puede ejercerse sobre la misma vivienda o sobre otra distinta por inadecuacion o programa de Alquiler Joven. El descuento por rentas pagadas es del 20% de las cantidades abonadas en los ultimos 5 anos. El contrato de arrendamiento tiene duracion anual obligatoria con prorrogas anuales y actualizacion por IPC.",
+      h: "9. Limitaciones de uso, cambio de vivienda, descalificación y desocupación (arts. 38-43)",
+      nota: "Este bloque no tiene tantos números como los anteriores, pero sí conceptos que pueden confundirse. La descalificación anticipada implica devolución de ayudas; la desocupación autorizada no.",
       items: [
-        "Art. 61: tipos de arrendamiento con opcion de compra; sobre la misma vivienda o sobre otra distinta por inadecuacion o prevision de programa Alquiler Joven",
-        "Art. 62: requisitos para ejercer la opcion; adjudicacion segun Censo de solicitantes; si se ejerce al firmar el contrato inicial no se exigen requisitos de acceso en la compraventa; si es posterior, ingresos no superiores a 6,5 IPREM y no ser titular de otra vivienda; permanencia minima 12 meses en alquiler (6 en precio pactado) y 5 anos desde calificacion definitiva; estar al corriente de gastos; precio de segunda transmision",
-        "Art. 63: opcion sobre otra vivienda por inadecuacion; el Departamento adjudica vivienda adecuada calificada provisionalmente usando reservas de realojos o suelo publico; en programa juvenil solo sobre suelo publico",
-        "Art. 64: descuento del 20% de las rentas abonadas en los ultimos 5 anos calculado por suma aritmetica; si es sobre vivienda distinta, abono equivalente por el promotor; igual tratamiento en viviendas del Banco Foral de Suelo Publico",
-        "Art. 65: contrato de arrendamiento por un ano con prorroga anual; prohibicion de cesion y subarriendo; repercutibilidad de servicios y Contribucion Territorial; garantias complementarias con tope de coste; actualizacion anual por IPC estatal; notificacion de rescision y actualizaciones; inadmision si visado con fecha posterior a la entrada en vigor del contrato, sin baja de anteriores arrendatarios o con inquilinos de otra vivienda protegida sin baja; alquiler compartido con renta maxima proporcional y subvencion por dormitorio, sin lazos familiares, menores de 35 anos, unicas solicitantes en el Censo, sin descendientes ni familiares a cargo, ingresos inferiores a 1,7 IPREM y ocupacion maxima de un dormitorio"
+        "Art. 38: la duración del régimen de protección es la establecida en el art. 43 de la Ley Foral 10/2010 y en el Anexo I del Decreto.",
+        "Art. 38: durante la protección, las comunicaciones de enajenación deben incluir aceptación expresa del objeto y precio por el futuro adquirente.",
+        "Art. 39: para cambio de vivienda por inadecuación, la nueva vivienda debe proporcionarse en la misma localidad o en un radio máximo de 20 km en línea recta.",
+        "Art. 39: documentación básica del cambio por inadecuación: solicitud, libro de familia y escritura de adquisición; si faltan habitaciones o superficie en escritura, certificado técnico de la distribución en la fecha de calificación definitiva.",
+        "Art. 39: si el cambio obedece a motivos de seguridad por relación con una organización terrorista, pueden establecerse diferentes condiciones de ubicación y plazo, acreditándolo mediante certificación de la Delegación del Gobierno en Navarra.",
+        "Art. 40: la descalificación anticipada exige solicitud del propietario y documentación acreditativa, incluida escritura, titularidad y libertad de cargas y devolución de ayudas y beneficios fiscales cuando corresponda.",
+        "Art. 40: deben devolverse al Gobierno de Navarra las ayudas económicas, subvenciones y subsidiaciones de intereses con los intereses legales correspondientes.",
+        "Art. 40: también deben devolverse las ayudas estatales y beneficios fiscales correspondientes, con sus intereses.",
+        "Art. 41: la descalificación se autoriza o deniega mediante resolución motivada.",
+        "Art. 41: la resolución se comunica al interesado, Ayuntamiento, Hacienda y Registro de la Propiedad y, si hubo ayudas estatales, al Ministerio competente.",
+        "Art. 42: causas de desocupación: traslado laboral o de estudios; motivos de salud; otras causas justificadas apreciadas por el Departamento después de intentar vender o alquilar y acreditar imposibilidad de ocupación por familiar hasta segundo grado.",
+        "Art. 42: la causa debe ser posterior a la escritura de adjudicación o compraventa.",
+        "Art. 42: la desocupación autorizada puede concederse por un máximo de 3 años.",
+        "Art. 42: puede permitirse el uso por familiar hasta segundo grado si se acredita imposibilidad de ocupar la vivienda en plazo, siempre sin precio o renta.",
+        "Art. 43: en desocupación autorizada o uso por familiar no se exige devolver las ayudas públicas concedidas por compra o adjudicación.",
+        "Art. 43: plazo máximo para resolver → 3 meses.",
+        "Art. 43: transcurridos 3 meses sin respuesta, la autorización puede entenderse otorgada en los términos del Decreto."
       ]
     },
     {
-      h: "Anexo I. Duracion del regimen legal",
-      nota: "El Anexo I es un compendio cronologico de plazos de proteccion que suele caer en el examen por confusion de fechas. La regla mnemotecnica es que el 3 de julio de 2004 y el 17 de julio de 2010 son hitos que cambian los plazos. En propiedad, el plazo general actual es 30 anos; en alquiler, 15 anos para regimen general y 30 para opcion de compra a partir de 2010.",
+      h: "10. Arrendamiento con opción de compra y condiciones del alquiler (arts. 61-65)",
+      nota: "El esquema es: puede ser sobre la misma vivienda o sobre otra; si la opción se ejerce después del contrato inicial hay requisitos de acceso; el descuento es del 20% de las rentas de los últimos 5 años; el contrato de alquiler dura 1 año prorrogable anualmente.",
       items: [
-        "Propiedad: VPO calificacion definitiva anterior a 3/7/2004 acogidas al RDL 31/1978, 30 anos (liberacion de precio a los 20); VPO calificacion definitiva posterior a 3/7/2004, 30 anos; precio tasado/pactado calificacion provisional a partir de 3/7/2004, 30 anos",
-        "Propiedad: precio tasado suelo publico calificado definitivamente antes de 3/7/2004 con solicitud provisional antes de 15/5/2003, 12 anos; solicitada despues de 15/5/2003 y calificada antes de 3/7/2004, 20 anos; limitacion de precio durante 12 anos para suelo publico calificado antes de 3/7/2004; suelo privado con provisional antes de 3/7/2004 sin limitacion de precio en segundas transmisiones",
-        "Alquiler: VPO regimen general calificada provisionalmente a partir de 1/1/1995, 15 anos; VPO regimen especial a partir de 1/1/1995, 20 anos; precio tasado en alquiler 15 anos; precio pactado en alquiler 10 anos (8 con opcion de compra); VPO en alquiler provisional a partir de 17/7/2010, 15 anos; VPO en alquiler con opcion de compra provisional a partir de 17/7/2010, 30 anos",
-        "Cesion de uso: duracion indefinida o hasta finalizacion del derecho de superficie, siempre que este se constituya para minimo 50 anos"
+        "Art. 61: dos modalidades básicas: opción de compra sobre la misma vivienda alquilada y opción sobre otra vivienda protegida.",
+        "Art. 61: la opción sobre otra vivienda puede derivar de inadecuación de la vivienda alquilada o de un programa de Alquiler Joven que lo prevea.",
+        "Art. 62: la vivienda se adjudica según el procedimiento del Censo; lo mismo en Alquiler Joven.",
+        "Art. 62: si la opción se ejerce al firmar el contrato inicial, no hay que volver a acreditar los requisitos de acceso en la compraventa.",
+        "Art. 62: si la opción se ejerce posteriormente → ingresos familiares ponderados ≤ 6,5 IPREM y no ser titular de otra vivienda.",
+        "Art. 62: permanencia mínima en alquiler para ejercer opción → 12 meses; en precio pactado → 6 meses.",
+        "Art. 62: la opción puede ejercerse dentro del plazo acordado con el promotor y dentro del régimen de protección.",
+        "Art. 62: debe estarse al corriente de gastos.",
+        "Art. 62: el precio de adquisición se corresponde con el régimen de segunda transmisión.",
+        "Art. 63: si la opción se ejerce sobre otra vivienda por inadecuación, el Departamento puede adjudicar vivienda adecuada utilizando reservas de realojo o suelo público.",
+        "Art. 63: en programas juveniles, la opción sobre otra vivienda se limita al suelo público cuando así lo establezca el programa.",
+        "Art. 64: al ejercer la opción se descuenta del precio un 20% de las rentas efectivamente abonadas durante los cinco últimos años de alquiler.",
+        "Art. 64: el 20% se calcula por suma aritmética de las cantidades efectivamente abonadas.",
+        "Art. 64: si la opción es sobre una vivienda distinta de la alquilada, el descuento se sustituye por un abono equivalente a cargo del promotor.",
+        "Art. 64: mismo tratamiento para viviendas alquiladas del Banco Foral de Suelo Público.",
+        "Art. 65.1: contrato de arrendamiento → 1 año, con derecho a prórroga anual para el arrendatario.",
+        "Art. 65.1: no se admiten contratos con duración distinta de un año.",
+        "Art. 65.2: prohibida la cesión y el subarriendo, incluso parcial.",
+        "Art. 65.4: el arrendador puede repercutir el coste real de servicios disfrutados y pagados por él y la cuota íntegra de Contribución Territorial.",
+        "Art. 65.5: se pueden exigir garantías complementarias con límites; solo pueden exigirse a adjudicatarios, nunca a simples solicitantes.",
+        "Art. 65.6: actualización de renta una vez por año de vigencia mediante la variación del Índice General Nacional del IPC en el período correspondiente.",
+        "Art. 65.7: deben notificarse al Departamento las rescisiones y todas las actualizaciones de renta.",
+        "Art. 65.8: se inadmiten contratos presentados a visado después de entrar en vigor, contratos sin comunicación previa de baja del anterior arrendatario y contratos cuyos inquilinos sigan constando como arrendatarios de otra vivienda protegida.",
+        "Art. 65.9: el contrato se ajusta también a la legislación general de arrendamientos urbanos."
+      ]
+    },
+    {
+      h: "11. Anexo I — Duración del régimen legal de las viviendas protegidas",
+      nota: "El Anexo I debe estudiarse como tabla cronológica. Los hitos fundamentales son 1/1/1969, 15/5/2003, 3/7/2004, 1/1/1995 y 17/7/2010. No intentes memorizarlo como párrafo.",
+      items: [
+        "Propiedad — solicitud de calificación provisional antes de 1/1/1969 → 20 años de protección desde la calificación definitiva.",
+        "Propiedad — VPO solicitada después de 1/1/1969 y no acogida al RDL 31/1978 → 50 años; desde los 20 años queda liberada de limitación de precio y renta y puede transmitirse a cualquier persona física para domicilio habitual y permanente.",
+        "Propiedad — VPO acogida al RDL 31/1978 con calificación definitiva anterior a 3/7/2004 → 30 años; desde los 20 años queda liberada de limitación de precio y renta y puede transmitirse a cualquier persona física para domicilio habitual y permanente.",
+        "Propiedad — VPO cuya calificación provisional se solicitó desde 15/5/2003 y obtuvo definitiva antes de 3/7/2004 → 20 años.",
+        "Propiedad — VPO con calificación definitiva posterior a 3/7/2004 → 30 años.",
+        "Propiedad — precio tasado y precio pactado con calificación provisional solicitada desde 3/7/2004 → 30 años.",
+        "Propiedad — precio tasado sobre suelo público calificado definitivamente desde 3/7/2004 → 30 años.",
+        "Propiedad — precio tasado sobre suelo público con solicitud provisional anterior a 15/5/2003 y definitiva anterior a 3/7/2004 → 12 años.",
+        "Propiedad — precio tasado sobre suelo público con solicitud provisional posterior a 15/5/2003 y definitiva anterior a 3/7/2004 → 20 años.",
+        "Propiedad — precio tasado sobre suelo público calificado definitivamente antes de 3/7/2004 → limitación de precio durante 12 años desde la definitiva.",
+        "Propiedad — precio tasado sobre suelo privado con calificación provisional anterior a 3/7/2004 → sin limitación de precio de venta y renta en segunda y posteriores transmisiones.",
+        "Alquiler — VPO calificada provisionalmente hasta 31/12/1994 → 30 años desde definitiva.",
+        "Alquiler — VPO régimen general calificada provisionalmente desde 1/1/1995 → 15 años.",
+        "Alquiler — VPO régimen especial calificada provisionalmente desde 1/1/1995 → 20 años.",
+        "Alquiler — precio tasado → 15 años.",
+        "Alquiler — precio pactado → 10 años.",
+        "Alquiler — precio pactado con opción de compra → 8 años.",
+        "Alquiler — VPO cuya calificación provisional se solicitó desde 17/7/2010 → 15 años.",
+        "Alquiler con opción de compra — VPO cuya calificación provisional se solicitó desde 17/7/2010 → 30 años.",
+        "Cesión de uso → duración indefinida o hasta que finalice el derecho de superficie, siempre que este tenga una duración mínima de 50 años."
       ]
     }
   ],
-  claves: [
-    "Decreto Foral 61/2013 desarrolla los titulos II y IV de la Ley Foral 10/2010",
-    "Superficie util maxima VPO 90 m2 (120 m2 familias numerosas); precio tasado 120 m2 (140 m2 familias numerosas)",
-    "Superficie construida maxima VPO 260 m2 (300 m2 familias numerosas); precio tasado 310 m2 (360 m2 familias numerosas)",
-    "Calificacion energetica minima B desde 1/1/2017, A desde 1/1/2018, consumo casi nulo desde 1/1/2019; excepto unifamiliares aisladas",
-    "Precio VPO primera transmision: 1,30 modulo ponderado (vivienda y garaje) y 0,52 (trasteros); segunda transmision: 1,3 y 0,52 modulo sin ponderar regimen general, 1,2 y 0,48 regimen especial",
-    "Precio tasado primera transmision: 1,50 modulo ponderado y 0,60; segunda transmision: 1,50 y 0,60 modulo sin ponderar",
-    "Renta anual maxima arrendamiento VPO: 4,5% del precio maximo de segunda transmision",
-    "Plazo maximo obras 36 meses desde calificacion provisional, prorrogables 18 meses",
-    "Calificacion definitiva surte efectos de cedula de habitabilidad clase A durante 30 anos",
-    "Prestamo cualificado maximo 80% del precio de venta; amortizacion hasta 30 anos; carencia hasta 3 anos",
-    "Subvenciones adquisicion VPO: 12% hasta 2 IPREM, 10% de 2 a 2,5 IPREM, 6% de 2,5 a 3,5 IPREM",
-    "Subvenciones arrendamiento: 25% (1,7 a 1,4 IPREM), 50% (1,4 a 1 IPREM), 75% (menor que IPREM), 90% victimas violencia de genero primer ano",
-    "Permanencia minima para opcion de compra: 12 meses en alquiler (6 en precio pactado) y 5 anos desde calificacion definitiva",
-    "Descuento opcion de compra: 20% de las rentas abonadas en los ultimos 5 anos",
-    "Duracion proteccion propiedad VPO calificada definitiva posterior a 3/7/2004: 30 anos; alquiler con opcion de compra provisional a partir de 17/7/2010: 30 anos; alquiler sin opcion provisional a partir de 17/7/2010: 15 anos"
-  ],
-},
 
+  memorizacion: {
+    tablas: {
+      superficies_utiles: {
+        titulo: "Superficie útil máxima",
+        filas: [
+          ["VPO", "90 m²"],
+          ["VPO + familia numerosa", "120 m²"],
+          ["Precio tasado", "120 m²"],
+          ["Precio tasado + familia numerosa", "140 m²"]
+        ]
+      },
+
+      superficies_construidas: {
+        titulo: "Superficie construida máxima",
+        filas: [
+          ["VPO", "260 m²"],
+          ["VPO + familia numerosa", "300 m²"],
+          ["Precio tasado", "310 m²"],
+          ["Precio tasado + familia numerosa", "360 m²"]
+        ]
+      },
+
+      dormitorios: {
+        titulo: "Dormitorios y superficie útil",
+        filas: [
+          ["1 dormitorio", "≤60 m²"],
+          ["2 dormitorios", "≤80 m²"],
+          ["2 dormitorios + discapacidad motriz grave", "≤85 m²"],
+          ["3 o más dormitorios", "Hasta máximo legal"],
+          ["Familia numerosa", "Mínimo 4 dormitorios"]
+        ]
+      },
+
+      anejos: {
+        titulo: "Anejos",
+        filas: [
+          ["Garaje mínimo", "10,81 m²"],
+          ["Garaje máximo ordinario", "14 m²"],
+          ["Garaje discapacidad", "Puede superar 14 m², pero solo computan 14 m²"],
+          ["Trastero mínimo", "2 m²"],
+          ["Trastero máximo", "15 m²"],
+          ["Garaje + trastero acoplado", "≤45 m²"],
+          ["Altura mínima para computar huecos de iluminación", "1,80 m"],
+          ["Iluminación máxima del local", "5% de superficie útil"],
+          ["Locales no vinculados", "≤40% superficie útil total promoción"],
+          ["Superficie útil si no consta", "85% de superficie construida"],
+          ["Motocicletas no vinculadas", "1,20 x 2,40 m; máximo 5 m²"]
+        ]
+      },
+
+      precios_vivienda_protegida: {
+        titulo: "Precios máximos",
+        filas: [
+          ["VPO general · 1ª transmisión", "1,30 × módulo ponderado · vivienda + garaje"],
+          ["VPO general · 1ª transmisión", "0,52 × módulo ponderado · trasteros/otros anejos"],
+          ["VPO general · 2ª y posteriores", "1,30 × módulo sin ponderar · vivienda + garaje"],
+          ["VPO general · 2ª y posteriores", "0,52 × módulo sin ponderar · trasteros/otros anejos"],
+          ["VPO régimen especial · 2ª y posteriores", "1,20 × módulo sin ponderar · vivienda + garaje"],
+          ["VPO régimen especial · 2ª y posteriores", "0,48 × módulo sin ponderar · trasteros/otros anejos"],
+          ["Precio tasado · 1ª transmisión", "1,50 × módulo ponderado · vivienda + garaje"],
+          ["Precio tasado · 1ª transmisión", "0,60 × módulo ponderado · trasteros/otros anejos"],
+          ["Precio tasado · 2ª y posteriores", "1,50 × módulo sin ponderar · vivienda + garaje"],
+          ["Precio tasado · 2ª y posteriores", "0,60 × módulo sin ponderar · trasteros/otros anejos"]
+        ]
+      },
+
+      ayudas_adquisicion: {
+        titulo: "Subvención adquisición",
+        filas: [
+          ["≤2 IPREM", "VPO 12% · Tasada 6%"],
+          [">2 hasta 2,5 IPREM", "VPO 10% · Tasada 4%"],
+          [">2,5 hasta 3,5 IPREM", "VPO 6% · Tasada 2%"],
+          ["Familia numerosa categoría general", "+3%"],
+          ["Familia numerosa categoría especial", "+6%"]
+        ]
+      },
+
+      ayudas_alquiler: {
+        titulo: "Subvención arrendamiento",
+        filas: [
+          ["1,4–1,7 IPREM", "25%"],
+          ["1–1,4 IPREM", "50%"],
+          ["<1 IPREM", "75%"],
+          ["Violencia de género · 1er año", "90%"],
+          ["Violencia de género · 2º año", "75%"],
+          ["Renta de inclusión social · renovación/prórroga", "75%"]
+        ]
+      },
+
+      reservas_propiedad_opcion: {
+        titulo: "Reservas: propiedad y alquiler con opción de compra",
+        filas: [
+          ["1–33 viviendas", "0 por grupo", "0 total"],
+          ["34–66", "1 por grupo", "5 total"],
+          ["67–99", "2 por grupo", "10 total"],
+          ["100–133", "3 por grupo", "15 total"],
+          ["134–166", "4 por grupo", "20 total"],
+          ["167–199", "5 por grupo", "25 total"],
+          ["200–233", "6 por grupo", "30 total"],
+          ["234–266", "7 por grupo", "35 total"],
+          ["267–299", "8 por grupo", "40 total"],
+          ["≥300", "9 + 1 por cada 33 excedentes", "45 + 5 por cada 33 excedentes"]
+        ]
+      },
+
+      reservas_alquiler_sin_opcion: {
+        titulo: "Reservas: alquiler sin opción de compra",
+        filas: [
+          ["1–16 viviendas", "a-d: 0", "e: 0", "0 total"],
+          ["17–33", "a-d: 0", "e: 1", "1 total"],
+          ["34–49", "a-d: 1", "e: 2", "6 total"],
+          ["50–66", "a-d: 1", "e: 3", "7 total"],
+          ["67–83", "a-d: 2", "e: 4", "12 total"],
+          ["83–99", "a-d: 2", "e: 5", "13 total"],
+          ["100–116", "a-d: 3", "e: 6", "18 total"],
+          ["117–133", "a-d: 3", "e: 7", "19 total"],
+          ["134–149", "a-d: 4", "e: 8", "24 total"],
+          ["150–166", "a-d: 4", "e: 9", "25 total"],
+          ["167–183", "a-d: 5", "e: 10", "30 total"],
+          ["184–199", "a-d: 5", "e: 11", "31 total"],
+          ["≥200", "a-d: 6 + 1/33 excedentes", "e: 12 + 1/17 excedentes", "según regla"]
+        ],
+        nota: "El texto consolidado oficial contiene literalmente el intervalo 83–99 después de 67–83. El solapamiento parece un problema del texto normativo consolidado y no debe corregirse de memoria sin consultar la publicación oficial aplicable."
+      },
+
+      prestamos: {
+        titulo: "Préstamo cualificado",
+        filas: [
+          ["Cuantía máxima ordinaria", "80%"],
+          ["Amortización máxima", "30 años"],
+          ["Carencia máxima", "3 años"],
+          ["Solicitud promotor", "Antes de 6 meses desde calificación definitiva"],
+          ["Conformidad Departamento", "20 días sin pronunciamiento expreso en contra"],
+          ["Requerimiento de documentación", "15 días"]
+        ]
+      },
+
+      opcion_compra: {
+        titulo: "Opción de compra",
+        filas: [
+          ["Ingresos máximos si se ejerce posteriormente", "6,5 IPREM"],
+          ["Permanencia mínima alquiler", "12 meses"],
+          ["Permanencia mínima precio pactado", "6 meses"],
+          ["Descuento", "20%"],
+          ["Rentas computables", "Últimos 5 años"],
+          ["Precio de compra", "Precio de segunda transmisión"]
+        ]
+      },
+
+      plazos_calificacion: {
+        titulo: "Plazos de calificación",
+        filas: [
+          ["Solicitud de calificación definitiva", "36 meses desde calificación provisional"],
+          ["Prórroga", "18 meses"],
+          ["Entrega de viviendas", "3 meses desde definitiva"],
+          ["Desistimiento → nueva calificación mismo tipo/régimen", "12 meses"],
+          ["Solicitud directa de ayudas desde escritura", "6 meses"]
+        ]
+      },
+
+      energia: {
+        titulo: "Eficiencia energética",
+        filas: [
+          ["Desde 1/1/2017", "B mínimo"],
+          ["Desde 1/1/2018", "A mínimo"],
+          ["Desde 1/1/2019", "Consumo de energía casi nulo"],
+          ["Excepción B/A", "Unifamiliares aisladas"],
+          ["Sociedades públicas", "Consumo casi nulo desde 1/1/2017"]
+        ]
+      },
+
+      duracion_proteccion: {
+        titulo: "Anexo I · Duración",
+        filas: [
+          ["Propiedad · antes 1/1/1969", "20 años"],
+          ["VPO no RDL 31/1978 · después 1/1/1969", "50 años"],
+          ["VPO RDL 31/1978 · definitiva <3/7/2004", "30 años"],
+          ["VPO solicitud ≥15/5/2003 + definitiva <3/7/2004", "20 años"],
+          ["VPO definitiva >3/7/2004", "30 años"],
+          ["Precio tasado/pactado solicitud provisional ≥3/7/2004", "30 años"],
+          ["Tasada suelo público · provisional <15/5/2003 + definitiva <3/7/2004", "12 años"],
+          ["Tasada suelo público · provisional >15/5/2003 + definitiva <3/7/2004", "20 años"],
+          ["VPO alquiler provisional ≤31/12/1994", "30 años"],
+          ["VPO régimen general alquiler desde 1/1/1995", "15 años"],
+          ["VPO régimen especial alquiler desde 1/1/1995", "20 años"],
+          ["Precio tasado alquiler", "15 años"],
+          ["Precio pactado alquiler", "10 años"],
+          ["Precio pactado alquiler + opción", "8 años"],
+          ["VPO alquiler provisional desde 17/7/2010", "15 años"],
+          ["VPO alquiler + opción desde 17/7/2010", "30 años"],
+          ["Cesión de uso", "Indefinida o hasta fin derecho de superficie; superficie ≥50 años"]
+        ]
+      }
+    },
+
+    datos: [
+      "DF 61/2013 → desarrolla principalmente Títulos II y IV de LF 10/2010.",
+      "3 modalidades de ayuda → préstamo / subvención / reducción-descuento.",
+      "1 dormitorio = 60 m²; 2 = 80 m²; discapacidad motriz grave en 2 dormitorios = 85 m².",
+      "Garaje = 10,81–14 m².",
+      "Trastero = 2–15 m².",
+      "Garaje + trastero acoplado = 45 m².",
+      "Locales no vinculados = 40%; si no consta superficie útil = 85% de construida.",
+      "Unifamiliar: zaguán 12 m²; acceso garaje 16 m².",
+      "Anejos rurales: VPO 100 m²; tasada 120 m².",
+      "Discapacidad motriz grave = ≥40% en extremidades inferiores.",
+      "VPO = 1,30/0,52; VPO especial = 1,20/0,48; tasada = 1,50/0,60.",
+      "Primera transmisión <1 año desde definitiva → módulo ponderado.",
+      "Segunda/posterior o primera transmisión ≥1 año → módulo sin ponderar.",
+      "Renta VPO = 4,5% del precio máximo de segunda transmisión.",
+      "Reservas propiedad/opción comienzan en 34 viviendas.",
+      "Reservas alquiler sin opción comienzan en 17 viviendas.",
+      "Empadronamiento mínimo para la reserva general = 4 años.",
+      "Calificación definitiva = cédula de habitabilidad clase A durante 30 años.",
+      "Obras/plazo para definitiva = 36 + 18 meses.",
+      "Entrega = 3 meses.",
+      "Préstamo = 80%-30 años-3 años.",
+      "Subvención adquisición VPO = 12%-10%-6%.",
+      "Subvención adquisición tasada = 6%-4%-2%.",
+      "Familia numerosa = +3% general / +6% especial.",
+      "Alquiler = 25%-50%-75%; violencia de género = 90%-75%.",
+      "Alquiler Joven = <35 años / 75 m² / 4 miembros.",
+      "Opción = 6,5 IPREM / 12 meses / 6 meses precio pactado / 20% / 5 años.",
+      "Desocupación autorizada = máximo 3 años y sin devolución de ayudas.",
+      "Cambio por inadecuación = misma localidad o radio máximo 20 km.",
+      "Hitos Anexo I = 1/1/1969, 15/5/2003, 3/7/2004, 1/1/1995, 17/7/2010."
+    ],
+
+    excepciones: [
+      "Las viviendas unifamiliares aisladas están exceptuadas de las exigencias de nivel B desde 2017 y A desde 2018; no significa que tengan que cumplir un nivel superior.",
+      "Las viviendas unifamiliares aisladas no quedan por esa excepción automáticamente exentas de las exigencias de consumo de energía casi nulo de 2019.",
+      "Garajes para personas con discapacidad motriz pueden superar 14 m², pero para ayudas y precio solo computan 14 m².",
+      "La reserva de familias numerosas puede ampliarse si lo exige la configuración arquitectónica y lo autoriza el Departamento.",
+      "Si no hay suficientes solicitantes para discapacidad motriz grave, el promotor puede no promover las viviendas no adjudicadas como adaptadas; las promociones públicas tienen régimen específico.",
+      "En promociones de hasta 33 viviendas, los realojos pueden ocupar parte o incluso toda la promoción.",
+      "En descalificación anticipada se devuelven ayudas y beneficios correspondientes con intereses; en desocupación autorizada no se exige devolución.",
+      "Si la opción de compra se ejerce en el momento del contrato inicial, no se vuelven a exigir los requisitos de acceso en la compraventa.",
+      "Si la opción se ejerce posteriormente, sí se exige, entre otros requisitos, no superar 6,5 IPREM y no ser titular de otra vivienda.",
+      "El plazo de 36 meses para la calificación definitiva admite prórroga de hasta 18 meses si se solicita antes de vencer.",
+      "La primera transmisión no siempre significa que se aplique el régimen de primera transmisión: una primera venta cuando ya ha pasado al menos un año desde la definitiva se somete a los precios de segunda transmisión.",
+      "En la tabla oficial del art. 18.2 aparece literalmente el intervalo 83–99 después de 67–83. Mantener el dato tal como figura en la norma hasta verificar una eventual corrección oficial."
+    ]
+  },
+
+  claves: [
+    "DF 61/2013 → Títulos II y IV de la LF 10/2010.",
+    "VPO: 90 m²; familia numerosa: 120 m².",
+    "Tasada: 120 m²; familia numerosa: 140 m².",
+    "VPO construida: 260/300 m²; tasada: 310/360 m².",
+    "1 dormitorio 60; 2 dormitorios 80; discapacidad grave 85.",
+    "Garaje 10,81–14; trastero 2–15; conjunto garaje+trastero 45.",
+    "VPO 1,30/0,52; VPO especial 1,20/0,48; tasada 1,50/0,60.",
+    "Primera transmisión <1 año → módulo ponderado; después → módulo sin ponderar.",
+    "Renta VPO = 4,5%.",
+    "Reservas propiedad/opción → desde 34 viviendas; alquiler sin opción → desde 17.",
+    "Calificación definitiva → cédula A durante 30 años.",
+    "36 meses + 18 de prórroga.",
+    "Préstamo = 80% / 30 años / 3 años.",
+    "Adquisición VPO = 12/10/6%; tasada = 6/4/2%.",
+    "Alquiler = 25/50/75%; violencia de género = 90/75%.",
+    "Opción = 6,5 IPREM / 12 meses / 20% / 5 años.",
+    "Desocupación autorizada = 3 años máximo y sin devolver ayudas.",
+    "Anexo I: 20 / 50 / 30 / 20 / 12 / 15 / 10 / 8 / 30 según supuesto."
+  ]
+},
   "E16": {
   intro: "El Tema 16 articula el Capítulo III del Decreto Foral 61/2013, que regula las actuaciones protegibles de rehabilitación en Navarra, con la Ordenanza municipal de Pamplona que desarrolla las ayudas locales en el Casco Antiguo y en el resto de la ciudad, estableciendo un sistema dual de financiación foral y municipal.",
   bloques: [
