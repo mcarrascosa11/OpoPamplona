@@ -909,7 +909,7 @@ function Resumenes() {
 
   const generales = disponibles.filter(esGeneral);
   const especificos = disponibles.filter((k) => !esGeneral(k));
-  const mem = r?.memorizacion || {};
+ 
   return (
     <div>
       <Ficha codigo="RESÚMENES" titulo="Repaso por tema">
