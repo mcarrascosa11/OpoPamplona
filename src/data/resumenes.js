@@ -5370,8 +5370,9 @@ export const RESUMENES = {
   ]
 },
    
-  "E17": {
+ "E17": {
   intro: "El Decreto Foral 61/2013 regula las actuaciones protegibles en materia de vivienda en Navarra, desarrollando la Ley Foral 10/2010 del Derecho a la Vivienda; su Capítulo V crea el régimen de Viviendas de Integración Social y su Capítulo VI recoge otras figuras como la Bolsa de Alquiler, la vivienda libre de precio limitado, los apartamentos para mayores o personas con discapacidad, la regeneración energética de conjuntos residenciales y la rehabilitación del Fondo Foral de Vivienda Social.",
+  
   bloques: [
     {
       h: "Concepto y características de las Viviendas de Integración Social (art. 66)",
@@ -5384,6 +5385,7 @@ export const RESUMENES = {
         "Art. 66.2.d): superficie útil máxima de 120 m² útiles; superficie subvencionable máxima de 90 m² útiles, salvo familia numerosa"
       ]
     },
+
     {
       h: "Actuaciones protegibles, beneficiarios y entes participantes (arts. 67-70)",
       nota: "Este bloque concentra los requisitos de acceso y es frecuente en preguntas de compatibilidad. Importa no confundir los requisitos para beneficiarios (ingresos > 3.000 €, ponderados < 1,7 IPREM, 3 años en Navarra) con los de entes sin ánimo de lucro (inscritos en Registro de Servicios Sociales, 3 años de experiencia, convenio con el Departamento). La remisión al Decreto Foral 25/2011 (Censo de solicitantes de vivienda protegida) enlaza con el régimen general de VPO.",
@@ -5397,6 +5399,7 @@ export const RESUMENES = {
         "Art. 70: entidades locales pueden suscribir convenios directos con el Gobierno de Navarra o adherirse a convenios con entes sin ánimo de lucro, especificando ámbitos geográficos, grupos destinatarios y modalidades de apoyo"
       ]
     },
+
     {
       h: "Convenios, arrendamiento y vinculación de las VIS (arts. 71-73)",
       nota: "La duración de la vinculación (10 años) es una cifra recurrente. Importa distinguir entre la vinculación para adquisición (transmisión solo con reintegro de ayudas + interés legal) y la de entidades locales (mantenimiento del destino de alquiler 10 años). En arrendamiento, la exención de aval y la posibilidad de compartir vivienda entre unidades familiares sin lazos son detalles que suelen caer en trampa.",
@@ -5411,6 +5414,7 @@ export const RESUMENES = {
         "Art. 73.3: entidades locales que adquieran VIS deben mantener destino de alquiler 10 años; cambio de régimen implica devolución proporcional según tiempo restante"
       ]
     },
+
     {
       h: "Subvenciones para compra, alquiler y acceso a VIS (arts. 74-75)",
       nota: "Los porcentajes de subvención son datos puros que se suelen preguntar por comparación: 30% compra general, 45% si ingresos < IPREM, 40% para entidades locales en compra, 90% primer año de alquiler y 75% segundo año. El plazo de 15 días para solicitar tras la suscripción del contrato es un dato de procedimiento frecuente. La asunción de gastos de escrituración y suministros hasta el 10% del precio es un límite que conviene recordar.",
@@ -5425,6 +5429,7 @@ export const RESUMENES = {
         "Art. 75.2: reconocimiento de la vivienda como VIS y concesión de ayudas; abono tras escritura pública; posibilidad de anticipos a entes sin ánimo de lucro con garantías"
       ]
     },
+
     {
       h: "Fomento del alquiler de vivienda usada y vivienda libre de precio limitado (arts. 76-78)",
       nota: "Se distinguen dos figuras distintas: la Bolsa de Alquiler (intermediación mediante sociedad instrumental) y la Vivienda Libre de Precio Limitado (nueva, con precio tope por m²). En la Bolsa, la sociedad instrumental paga al propietario el precio de mercado (tope VPO) y subarrienda a precio VPO; el Gobierno compensa la diferencia. Los precios de la vivienda libre de precio limitado (2.370 €/m² en subárea 10.4 y 2.031,43 €/m² en resto) son cifras exactas que suelen caer. Quedan excluidos los arrendamientos de temporada y plazos inferiores a la LAU.",
@@ -5440,6 +5445,7 @@ export const RESUMENES = {
         "Art. 78.4: posibilidad de préstamo cualificado como VPO previo reconocimiento administrativo; no pueden beneficiarse de la deducción adicional del art. 18 LF 6/2009 si el contrato se diligencia desde la entrada en vigor del DF 61/2013"
       ]
     },
+
     {
       h: "Apartamentos protegidos para mayores de 60 años o personas con discapacidad (arts. 79-80)",
       nota: "Esta sección integra la normativa de Servicios Sociales (DF 209/1991) con la de vivienda protegida. Los apartamentos se califican como VPO y computan superficie útil general más la parte proporcional de espacios comunes. La subvención al promotor (20% a 30 años de protección, 10% a 15 años) y la obligación de destinar el edificio al alquiler durante la vigencia del régimen de protección son puntos clave. La selección de inquilinos se realiza exclusivamente a través del Censo de solicitantes de VPO.",
@@ -5454,6 +5460,7 @@ export const RESUMENES = {
         "Art. 80.4: obligación de destinar el edificio a arrendamiento o cesión de uso durante la vigencia del régimen de protección; requisito para calificación definitiva; se inscribe en Registro de la Propiedad"
       ]
     },
+
     {
       h: "Regeneración energética de conjuntos residenciales (arts. 81-86)",
       nota: "Esta sección conecta la rehabilitación con la eficiencia energética y los fondos FEDER. Los proyectos de intervención global son aprobados por orden foral del Consejero. El límite inferior de 2.000 €/vivienda, el incremento al 50% de subvención para envolvente térmica (tope 7.500 € por vivienda) y el incremento del 5% en accesibilidad son cifras que suelen preguntarse. Las obligaciones de publicidad FEDER (cartel, emblema UE, conservación documental 3 años) son requisitos de control comunitario que operan como condición de la cofinanciación.",
@@ -5477,6 +5484,7 @@ export const RESUMENES = {
         "Art. 86.3: publicidad de la contribución FEDER con cartel visible que incluya frase específica y emblema de la UE"
       ]
     },
+
     {
       h: "Rehabilitación de viviendas del Fondo Foral de Vivienda Social (art. 87)",
       nota: "Es la sección más breve pero no por ello menos pregunable. La subvención al 100% de obras, instalaciones, honorarios y tasas para alcanzar condiciones de habitabilidad es una cifra contundente que contrasta con los porcentajes parciales del resto del decreto. El abono se realiza a posteriori, tras justificación de gastos e informe del Servicio competente, lo que la distingue de otras subvenciones que pueden anticiparse a entes sin ánimo de lucro.",
@@ -5486,6 +5494,7 @@ export const RESUMENES = {
       ]
     }
   ],
+
   claves: [
     "DF 61/2013: Decreto Foral que regula actuaciones protegibles en materia de vivienda en Navarra",
     "VIS: viviendas usadas, antigüedad mínima 15 años, precio por m² <= módulo sin ponderar, superficie útil máxima 120 m², subvencionable 90 m² (salvo familia numerosa)",
@@ -5498,6 +5507,248 @@ export const RESUMENES = {
     "Regeneración energética: presupuesto mínimo 2.000 €/vivienda; subvención envolvente térmica al 50% (tope 7.500 €/vivienda); incremento 5% en accesibilidad; cofinanciación FEDER 50%",
     "Fondo Foral de Vivienda Social: subvención del 100% de obras, instalaciones, honorarios y tasas para habitabilidad"
   ],
+
+  memorizacion: {
+    tablas: [
+      {
+        titulo: "VIS · características de la vivienda",
+        columnas: ["Dato", "Regla"],
+        filas: [
+          ["Tipo", "Vivienda usada"],
+          ["Ubicación", "Navarra"],
+          ["Antigüedad mínima", "15 años"],
+          ["Superficie útil máxima", "120 m²"],
+          ["Superficie subvencionable máxima", "90 m²"],
+          ["Precio vivienda", "<= módulo sin ponderar"],
+          ["Anejos", "Máx. 40% del módulo sin ponderar"]
+        ],
+        nota: "La superficie subvencionable de 90 m² admite excepción para familia numerosa."
+      },
+
+      {
+        titulo: "VIS · requisitos de acceso",
+        columnas: ["Requisito", "Valor"],
+        filas: [
+          ["Ingresos", "> 3.000 €"],
+          ["Ingresos familiares ponderados", "< 1,7 IPREM"],
+          ["Permanencia en Navarra", "≥ 3 años ininterrumpidos"],
+          ["Integración social", "Contrato con entidad conveniada"],
+          ["Acceso a vivienda protegida", "Cumplir requisitos Censo VPO (DF 25/2011)"]
+        ]
+      },
+
+      {
+        titulo: "Entidades sin ánimo de lucro",
+        columnas: ["Requisito", "Valor"],
+        filas: [
+          ["Registro", "Inscritas en Registro de Servicios Sociales"],
+          ["Experiencia", "≥ 3 años de programas de intervención social"],
+          ["Convenio", "Convenio de colaboración con el Departamento competente"]
+        ]
+      },
+
+      {
+        titulo: "Convenios VIS",
+        columnas: ["Dato", "Valor"],
+        filas: [
+          ["Duración inicial mínima", "1 año"],
+          ["Prórroga", "Tácita por igual plazo"],
+          ["Denuncia", "2 meses de antelación"]
+        ]
+      },
+
+      {
+        titulo: "VIS · arrendamiento",
+        columnas: ["Dato", "Regla"],
+        filas: [
+          ["Ingresos familiares ponderados", "< 1 IPREM"],
+          ["Aval", "Exento para la reserva del art. 20.4.b) LF 10/2010"],
+          ["Unidades familiares compartiendo vivienda", "Sin vínculos familiares ni pareja estable"],
+          ["Tamaño de cada unidad", "1 o 2 personas"],
+          ["Dormitorios", "Máx. 1 por unidad familiar"]
+        ]
+      },
+
+      {
+        titulo: "VIS · subvenciones de compra",
+        columnas: ["Beneficiario / situación", "Subvención"],
+        filas: [
+          ["Adquirente o adjudicatario", "30%"],
+          ["Ingresos familiares ponderados < IPREM", "45%"],
+          ["Entidad local adquirente para alquiler social", "40%"]
+        ]
+      },
+
+      {
+        titulo: "VIS · subvenciones de alquiler",
+        columnas: ["Periodo", "Subvención"],
+        filas: [
+          ["Primer año", "90% de la renta"],
+          ["Segundo año", "75% de la renta"]
+        ]
+      },
+
+      {
+        titulo: "VIS · otros límites económicos y temporales",
+        columnas: ["Dato", "Valor"],
+        filas: [
+          ["Gastos asumibles por Gobierno", "Hasta 10% del precio de compra"],
+          ["Solicitud tras contrato de adquisición", "15 días"],
+          ["Vinculación adquisición", "10 años"],
+          ["Destino de alquiler de VIS adquirida por entidad local", "10 años"]
+        ]
+      },
+
+      {
+        titulo: "Bolsa de Alquiler",
+        columnas: ["Dato", "Regla"],
+        filas: [
+          ["Vivienda", "Usada"],
+          ["Habitabilidad", "Con cédula de habitabilidad"],
+          ["Tiempo vacía", "> 1 año"],
+          ["Pago al propietario", "Precio de mercado con tope VPO"],
+          ["Subarriendo al inquilino", "Precio no superior al de VPO"],
+          ["Inquilino", "Debe cumplir requisitos de acceso a VPO"]
+        ],
+        nota: "La exigencia de > 1 año vacía es excepcionable."
+      },
+
+      {
+        titulo: "Vivienda libre de precio limitado",
+        columnas: ["Ámbito", "Precio máximo"],
+        filas: [
+          ["Subárea 10.4 POTNav 3", "2.370 €/m² útil"],
+          ["Resto de Navarra", "2.031,43 €/m² útil"],
+          ["Anejos", "Máx. 40% del precio máximo de vivienda y garaje"]
+        ]
+      },
+
+      {
+        titulo: "Apartamentos protegidos",
+        columnas: ["Dato", "Regla"],
+        filas: [
+          ["Calificación", "VPO"],
+          ["Personas mayores", "≥ 60 años"],
+          ["Discapacidad motriz", "Grave"],
+          ["Grado de discapacidad", "≥ 65%"],
+          ["Selección", "Censo de solicitantes de VPO"],
+          ["Reserva", "Total para los colectivos previstos"],
+          ["Subvención promotor · protección 30 años", "20%"],
+          ["Subvención promotor · protección 15 años", "10%"],
+          ["Subvención arrendatario", "25% si ingresos < 1,7 IPREM"]
+        ]
+      },
+
+      {
+        titulo: "Regeneración energética de conjuntos residenciales",
+        columnas: ["Dato", "Valor"],
+        filas: [
+          ["Presupuesto mínimo protegible", "2.000 €/vivienda resultante"],
+          ["Subvención envolvente térmica", "50% del presupuesto protegible"],
+          ["Máximo envolvente", "7.500 €/vivienda"],
+          ["Incremento por accesibilidad", "+5%"],
+          ["Cofinanciación FEDER", "50%"],
+          ["Conservación documentación", "3 años"],
+          ["Cartel FEDER > ayuda", "> 500.000 €"]
+        ]
+      },
+
+      {
+        titulo: "Fondo Foral de Vivienda Social",
+        columnas: ["Actuación", "Subvención"],
+        filas: [
+          ["Obras e instalaciones", "100%"],
+          ["Honorarios", "100%"],
+          ["Tasas", "100%"]
+        ],
+        nota: "La finalidad es alcanzar condiciones de habitabilidad y uso."
+      },
+
+      {
+        titulo: "Comparativa rápida · cifras clave E17",
+        columnas: ["Materia", "Cifra"],
+        filas: [
+          ["VIS antigüedad", "15 años"],
+          ["VIS superficie máxima", "120 m² útiles"],
+          ["VIS superficie subvencionable", "90 m² útiles"],
+          ["VIS anejos", "40%"],
+          ["Ingresos VIS", "> 3.000 € y < 1,7 IPREM"],
+          ["Permanencia Navarra", "3 años"],
+          ["Compra VIS", "30% / 45%"],
+          ["Compra entidad local", "40%"],
+          ["Alquiler VIS", "90% / 75%"],
+          ["Gastos asumibles", "10%"],
+          ["Solicitud", "15 días"],
+          ["Vinculación VIS", "10 años"],
+          ["Bolsa vivienda vacía", "> 1 año"],
+          ["Precio libre limitado", "2.370 / 2.031,43 €/m²"],
+          ["Apartamentos · edad", "60 años"],
+          ["Apartamentos · discapacidad", "≥ 65%"],
+          ["Promotor apartamentos", "20% / 10%"],
+          ["Regeneración · mínimo", "2.000 €/vivienda"],
+          ["Envolvente energética", "50% / 7.500 €"],
+          ["Accesibilidad", "+5%"],
+          ["FEDER", "50%"],
+          ["Archivo documental FEDER", "3 años"],
+          ["Fondo Foral Social", "100%"]
+        ]
+      }
+    ],
+
+    datos: [
+      "15 años = antigüedad mínima de una VIS",
+      "120 m² útiles = superficie máxima VIS",
+      "90 m² útiles = superficie máxima subvencionable VIS",
+      "40% = máximo de los anejos respecto al módulo sin ponderar en VIS",
+      "> 3.000 € = ingresos mínimos del beneficiario VIS",
+      "< 1,7 IPREM = ingresos familiares ponderados máximos del beneficiario VIS",
+      "3 años = permanencia mínima ininterrumpida en Navarra",
+      "1 año = duración mínima del convenio VIS",
+      "2 meses = antelación para denunciar el convenio",
+      "< 1 IPREM = límite de ingresos para VIS en arrendamiento",
+      "1 o 2 personas = composición de cada unidad familiar que comparte VIS",
+      "1 dormitorio = máximo por unidad familiar que comparte vivienda",
+      "10 años = vinculación de las VIS adquiridas",
+      "10 años = obligación de alquiler de las VIS adquiridas por entidades locales",
+      "30% = subvención general de compra VIS",
+      "45% = subvención compra VIS con ingresos < IPREM",
+      "40% = subvención a entidades locales para compra de VIS destinada a alquiler social",
+      "90% = subvención de alquiler VIS el primer año",
+      "75% = subvención de alquiler VIS el segundo año",
+      "10% = máximo de gastos de compra que puede asumir el Gobierno",
+      "15 días = plazo para presentar documentación tras el contrato de adquisición VIS",
+      "> 1 año = antigüedad del vacío para acceso ordinario a la Bolsa de Alquiler",
+      "2.370 €/m² útil = precio máximo de vivienda libre de precio limitado en subárea 10.4 POTNav 3",
+      "2.031,43 €/m² útil = precio máximo en el resto de Navarra",
+      "40% = máximo de anejos en vivienda libre de precio limitado",
+      "60 años = edad mínima para apartamentos protegidos",
+      "65% = grado mínimo de discapacidad previsto para apartamentos",
+      "20% = subvención al promotor con protección de 30 años",
+      "10% = subvención al promotor con protección de 15 años",
+      "25% = subvención al arrendatario de apartamentos con ingresos < 1,7 IPREM",
+      "2.000 €/vivienda = presupuesto mínimo en regeneración energética",
+      "50% = subvención de envolvente térmica",
+      "7.500 €/vivienda = máximo de subvención de envolvente",
+      "+5% = incremento por accesibilidad",
+      "50% = cofinanciación FEDER",
+      "3 años = conservación de documentación FEDER",
+      "> 500.000 € = umbral de ayuda para cartel FEDER indicado en el texto",
+      "100% = subvención del Fondo Foral de Vivienda Social"
+    ],
+
+    excepciones: [
+      "VIS: los 90 m² subvencionables se amplían como excepción para familia numerosa",
+      "Precio VIS: los anejos admiten como máximo el 40% del módulo sin ponderar",
+      "Bolsa de Alquiler: la exigencia de que la vivienda esté vacía más de 1 año es excepcionable",
+      "VIS adquirida: la vinculación de 10 años tiene excepción para cesiones mortis causa",
+      "VIS compartida: solo es posible entre unidades familiares sin lazos familiares ni pareja estable",
+      "Compartición VIS: cada unidad familiar debe tener 1 o 2 personas y ocupar como máximo un dormitorio",
+      "Arrendamientos de temporada y contratos con plazo inferior al de la LAU quedan excluidos de la Bolsa de Alquiler",
+      "Apartamentos protegidos: la reserva se dirige específicamente a mayores de 60 años, personas con discapacidad motriz grave o grado de discapacidad igual o superior al 65%, y unidades familiares con al menos un miembro de esos colectivos",
+      "Vivienda libre de precio limitado: solo se contempla la primera transmisión a persona física y el precio contractual no puede superar el máximo",
+      "Fondo Foral de Vivienda Social: la ayuda del 100% se dirige exclusivamente a alcanzar condiciones de habitabilidad y uso"
+    ]
+  }
 },
  "E18": {
   intro: "El Decreto Foral 142/2004, de 22 de marzo, regula las condiciones mínimas de habitabilidad de las viviendas en Navarra, unificando la normativa dispersa anterior y estableciendo un sistema de cédulas de habitabilidad con tres clases, inspección permanente y procedimiento sancionador para la pérdida de vigencia.",
