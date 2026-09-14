@@ -6069,7 +6069,7 @@ export const RESUMENES = {
       "En el Grupo 7.4, el límite de producción vegetal llega a 200 t/día cuando la instalación funciona como máximo 90 días consecutivos en un año.",
       "El Anejo 3 utiliza umbrales diferentes según actividad: superficie, potencia, toneladas/año, toneladas/día, m³, litros, plazas ganaderas o habitantes-equivalentes."
     ]
-  ]
+  }
 },
 
   "E19": {
