@@ -7,7 +7,7 @@
        claves: ["dato puro memorizable", ...]   // lo que más cae
      }
    Pensado para estudio rápido y repaso: prioriza datos, artículos,
-   plazos, ubicación de cada derecho. Crece igual que el banco de test.
+   plazos, ubicación de cada derecho. Crece igual que el banco de test..
    ================================================================== */
 
 export const RESUMENES = {
