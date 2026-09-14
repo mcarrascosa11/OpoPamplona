@@ -4843,115 +4843,259 @@ export const PREGUNTAS = [
         "Monumento Natural MN-25 (O.F. 926/1996), cuyo régimen de Espacio Natural prevalece sobre el del Catálogo"],
     c: 3, exp: "La Sequoia del INAP es Monumento Natural MN-25 (O.F. 926/1996, de 6 de septiembre), al amparo de la LF 9/1996 de Espacios Naturales: esa protección PREVALECE sobre la del Catálogo en caso de contradicción. Los otros grado 1: Sequoia de la Diputación y Sophora de Recoletas. Las infracciones se valoran por las Normas Granada (UNESCO 1990)." },
 
-  // ---------- TEMA 21 ESPECÍFICO · DF 26/2022 REGLAMENTO ACTIVIDADES AMBIENTALES (E21) ----------
-  { id: "E21-01", tema: "E21",
-    q: "Además de los procedimientos de autorización ambiental integrada, unificada, evaluación de afecciones ambientales y licencia de actividad clasificada, el DF 26/2022 regula:",
-    o: ["El régimen de responsabilidad medioambiental de la Ley 26/2007",
-        "El régimen de inspección, la restauración de la legalidad infringida y el procedimiento de sustitución de la sanción de multa por una prestación ambiental",
-        "El régimen de las declaraciones responsables de actividades inocuas y sus ordenanzas tipo",
-        "La zonificación acústica y los objetivos de calidad acústica de Navarra"],
-    c: 1, exp: "Art. 1 DF 26/2022: objeto triple — a) los cuatro procedimientos de intervención ambiental; b) inspección y restauración de la legalidad y reposición de la realidad física alterada; c) sustitución de la multa por una prestación ambiental de restauración, conservación o mejora." },
-  { id: "E21-02", tema: "E21",
-    q: "A efectos del DF 26/2022, se entiende por instalación existente la que está en funcionamiento y fue autorizada con anterioridad a:",
-    o: ["22 de junio de 2021", "La entrada en vigor de la LF 17/2020", "1 de enero de 2021", "30 de marzo de 2022"],
-    c: 0, exp: "Art. 2.a: autorizada antes del 22 de junio de 2021, o que hubiera solicitado las autorizaciones exigibles siempre que se ponga en funcionamiento como máximo 12 meses después. El 30 de marzo de 2022 es la fecha del propio Decreto Foral (trampa habitual)." },
-  { id: "E21-03", tema: "E21",
-    q: "En los procedimientos regulados en el DF 26/2022, el vencimiento del plazo sin haberse notificado resolución expresa:",
-    o: ["Produce la caducidad automática del expediente con archivo de actuaciones",
-        "Permite entenderlos estimados por silencio positivo",
-        "Obliga a resolver en el sentido más favorable al interesado",
-        "Legitima a las personas interesadas para entenderlos desestimados y les habilita para recurrir"],
-    c: 3, exp: "Art. 7: silencio DESESTIMATORIO en todos los procedimientos del reglamento. Además, la resolución expresa posterior al vencimiento se adopta sin vinculación alguna al sentido del silencio." },
-  { id: "E21-04", tema: "E21",
-    q: "Según el art. 8 del DF 26/2022, en ningún caso tendrán carácter confidencial los datos relativos a:",
-    o: ["Los datos personales cuando el interesado no haya consentido su tratamiento",
-        "Los derechos de propiedad intelectual e industrial",
-        "La información comercial e industrial protegida por norma con rango de ley",
-        "La ubicación y los potenciales impactos ambientales: consumos de agua, energía y combustibles, producción de residuos, emisiones a la atmósfera y aguas residuales"],
-    c: 3, exp: "Art. 8.3. Las otras tres SÍ pueden considerarse confidenciales (art. 8.2 a, b y c). La confidencialidad la propone el titular, pero el órgano competente puede entender motivadamente que no procede." },
-  { id: "E21-05", tema: "E21",
-    q: "El órgano competente para conceder la licencia de actividad clasificada puede inadmitirla de forma expresa y motivada:",
-    o: ["En el plazo de un mes, por razones ambientales",
-        "En cualquier momento anterior a la propuesta de resolución",
-        "En el plazo de quince días, por razones de competencia municipal basadas en el planeamiento urbanístico o en las ordenanzas municipales",
-        "En el plazo de diez días, por defectos de la documentación técnica"],
-    c: 2, exp: "Art. 47: 15 días y solo por razones de competencia municipal (planeamiento u ordenanzas). No cabe inadmitir por motivos ambientales: eso se resuelve en el fondo del expediente." },
-  { id: "E21-06", tema: "E21",
-    q: "El período de información pública en la tramitación de la licencia de actividad clasificada no será inferior a:",
-    o: ["Veinte días", "Diez días", "Quince días", "Un mes"],
-    c: 0, exp: "Art. 48.1: 20 días desde la publicación en el BON, con anuncio en el tablón y notificación personal a propietarios y ocupantes de las fincas inmediatas (y a los Concejos en municipios compuestos). Los 15 días son el plazo del promotor para contestar alegaciones y el de la información pública en la modificación sustancial (art. 59.3)." },
-  { id: "E21-07", tema: "E21",
-    q: "Los informes de los Departamentos de la Administración foral en la tramitación de la licencia de actividad clasificada:",
-    o: ["Son preceptivos y vinculantes para las entidades locales; se emiten en el plazo de un mes desde la recepción del resultado de la información pública y, si no se emiten, se continúa la tramitación",
-        "Son preceptivos pero no vinculantes y se emiten en quince días",
-        "Son facultativos y su falta paraliza el expediente hasta que se emitan",
-        "Solo son vinculantes cuando el Ayuntamiento lo solicite expresamente"],
-    c: 0, exp: "Art. 49.6 y 49.7: preceptivos y VINCULANTES en el momento de la concesión; plazo de un mes salvo que su normativa permita uno mayor; transcurrido sin emitirse y notificarse, se continúa la tramitación." },
-  { id: "E21-08", tema: "E21",
-    q: "Plazo máximo para dictar y notificar la resolución de la licencia de actividad clasificada y sentido del silencio:",
-    o: ["Tres meses y silencio positivo",
-        "Seis meses y silencio negativo",
-        "Cuatro meses y silencio negativo",
-        "Tres meses y silencio negativo"],
-    c: 2, exp: "Art. 53.1: 4 meses desde que se presente la documentación completa; transcurridos, la solicitud se entiende DESESTIMADA. Los 3 meses son el plazo de los procedimientos de modificación (arts. 59, 63 y 64)." },
-  { id: "E21-09", tema: "E21",
-    q: "Cabe conceder licencia de obras mientras se tramita la licencia de actividad clasificada cuando la instalación o actividad:",
-    o: ["Haya superado ya el trámite de información pública",
-        "Requiera únicamente informe en materia de salud pública",
-        "Cuente con informe favorable del órgano ambiental",
-        "No requiera autorización de actividades en suelo no urbanizable, no presente riesgos para la seguridad ni para la salud de las personas y no requiera autorización ganadera"],
-    c: 3, exp: "Art. 55.1: los cuatro requisitos son acumulativos, y la ejecución queda bajo la exclusiva responsabilidad del titular. Trampa: mientras se tramita una MODIFICACIÓN SUSTANCIAL no se puede conceder licencia de obras (art. 61.4)." },
-  { id: "E21-10", tema: "E21",
-    q: "Notificada por el titular una modificación que considera NO sustancial, podrá llevarla a cabo:",
-    o: ["Inmediatamente, sin más trámite",
-        "Solo tras resolución expresa favorable del órgano competente",
-        "Transcurridos tres meses sin respuesta de la Administración",
-        "Siempre que el órgano competente no se hubiese pronunciado en sentido contrario en el plazo de un mes"],
-    c: 3, exp: "Art. 57.b y c: el órgano debe determinar expresamente en 1 mes si la modificación es sustancial o no; si el titular la calificó como no sustancial y no hay pronunciamiento contrario, puede ejecutarla (sin perjuicio de la licencia de obras). La resolución que califica la modificación tiene una vigencia de 4 meses (art. 57.e)." },
-  { id: "E21-11", tema: "E21",
-    q: "Conforme al art. 58 del DF 26/2022, constituye modificación SUSTANCIAL de la actividad:",
-    o: ["Un incremento superior al 25% del consumo de agua, materias primas o energía",
-        "Un incremento de más del 50% de la capacidad de producción de la actividad o instalación",
-        "Un incremento superior al 25% de la capacidad total de almacenamiento de productos químicos",
-        "Un incremento superior al 50% de la emisión másica de contaminantes atmosféricos"],
-    c: 1, exp: "Regla de tres porcentajes: 50% en capacidad de producción y en consumos de agua, materias primas o energía; 25% en emisiones atmosféricas y vertidos; 40% en capacidad total de almacenamiento de productos químicos y residuos. Las otras tres opciones cruzan mal el porcentaje." },
-  { id: "E21-12", tema: "E21",
-    q: "Se considera modificación sustancial el incremento en la generación de residuos peligrosos:",
-    o: ["De más de 4 toneladas al año, siempre que se produzca modificación estructural del proceso y un incremento de más del 25% del total autorizado",
-        "De más de 20 toneladas al año en todo caso",
-        "De cualquier cantidad, por tratarse de residuos peligrosos",
-        "De más de 10 toneladas al año o de más del 50% del total autorizado"],
-    c: 0, exp: "Art. 58.g. Para residuos NO peligrosos el umbral es de más de 20 t/año siempre que represente más del 50% (art. 58.h). Además, los criterios no son limitativos y la suma de varias modificaciones no sustanciales puede llegar a ser sustancial (art. 58.3)." },
-  { id: "E21-13", tema: "E21",
-    q: "Resuelto el procedimiento de modificación sustancial, el titular dispone para su puesta en funcionamiento de un plazo máximo de:",
-    o: ["Seis meses", "Dos años, salvo que se establezca un plazo distinto", "Un año", "Cuatro años"],
-    c: 1, exp: "Art. 60.1: 2 años. La modificación no puede entrar en funcionamiento sin declaración responsable previa, y sus condiciones se aplican desde la fecha de presentación de esa declaración (art. 61.1). Si transcurre el plazo, caducidad declarada expresamente previa audiencia." },
-  { id: "E21-14", tema: "E21",
-    q: "Según el Anejo I del DF 26/2022, precisan informe de protección civil las actividades comerciales y centros comerciales cuando la superficie construida de la zona de ventas sea superior a:",
-    o: ["750 m²", "500 m²", "1.000 m²", "300 m²"],
-    c: 0, exp: "Anejo I, 15.6: 750 m² de zona de ventas. Compárese: industrias y almacenamientos (grupos 1 a 14) 1.000 m² de superficie construida; alojamiento turístico 500 m²; administrativo 2.000 m². Los 300 m² son el umbral del grupo 15.6 del Anejo 3 de la LF 17/2020 para quedar sujeto a LAC, que es cosa distinta." },
-  { id: "E21-15", tema: "E21",
-    q: "En el Anejo I (informe de protección civil), respecto del alojamiento turístico y de los espectáculos públicos:",
-    o: ["Alojamiento turístico superior a 500 m² incluidas las casas rurales; espectáculos con aforo superior a 500 personas",
-        "Alojamiento turístico con superficie construida superior a 500 m², excepto casas rurales, y campings en todos los casos; espectáculos en locales cubiertos con aforo superior a 100 personas",
-        "Alojamiento turístico a partir de 1.000 m² y espectáculos con aforo superior a 300 personas",
-        "Todos los alojamientos turísticos sin excepción y solo las salas de fiesta y discotecas"],
-    c: 1, exp: "Anejo I, 15.5 y 15.1. Dos excepciones que caen: las CASAS RURALES quedan fuera del umbral de 500 m², y los CAMPINGS precisan informe siempre, sin umbral. El aforo de referencia en espectáculos y en tanatorios (15.2) es 100 personas, calculado con las densidades del CTE DB-SI." },
-  { id: "E21-16", tema: "E21",
-    q: "Precisan informe preceptivo y vinculante en materia de SALUD PÚBLICA (Anejo II), entre otras:",
-    o: ["Los aparcamientos de vehículos de más de 1.000 m²",
-        "Las industrias y almacenamientos de más de 1.000 m² de superficie construida",
-        "La construcción de nuevos cementerios o su ampliación, los establecimientos no sanitarios de tatuaje o piercing y las instalaciones de riesgo de legionela",
-        "Las actividades docentes de más de 1.000 m² de superficie construida"],
-    c: 2, exp: "Anejo II. Las otras tres son supuestos del Anejo I (protección civil). El Anejo II incluye además biocidas (salvo los de uso autorizado al público en general), centros sanitarios con internamiento y socio-sanitarios residenciales, clubes de fumadores, uso recreativo del agua, agua de consumo no procedente de red pública y reutilización de aguas regeneradas." },
-  { id: "E21-17", tema: "E21",
-    q: "El procedimiento específico para determinar los deberes de reposición de la realidad física alterada e indemnización (art. 80):",
-    o: ["Corresponde en exclusiva a la Administración de la Comunidad Foral",
-        "Solo procede cuando haya recaído previamente sentencia penal firme",
-        "No podrá iniciarse mientras exista un procedimiento sancionador en curso sobre los mismos hechos y los mismos sujetos",
-        "Puede tramitarse simultáneamente al procedimiento sancionador sobre los mismos hechos"],
-    c: 2, exp: "Art. 80.1: el sancionador en curso bloquea el inicio del procedimiento de reposición. Los hechos declarados probados por resoluciones penales firmes y por las sancionadoras que agotan la vía administrativa vinculan a la resolución (art. 81.1). Plazo de resolución: 6 meses, con caducidad si transcurre." },
+  // ---------- TEMA 21 · DF 26/2022 · PREGUNTAS REVISADAS ----------
 
+{ id: "E21-01", tema: "E21",
+  q: "¿Qué conjunto recoge correctamente el contenido regulado por el DF 26/2022?",
+  o: [
+    "Intervención ambiental, inspección y responsabilidad patrimonial",
+    "Intervención ambiental, inspección y restauración de la legalidad, y sustitución de multas por prestaciones ambientales",
+    "Intervención ambiental, evaluación urbanística y régimen sancionador general",
+    "Intervención ambiental, disciplina urbanística y responsabilidad medioambiental"
+  ],
+  c: 1,
+  exp: "Art. 1: regula los procedimientos de intervención ambiental; la inspección y restauración de la legalidad; y la sustitución de multas por prestaciones ambientales."
+},
+
+{ id: "E21-02", tema: "E21",
+  q: "¿Qué fecha utiliza el art. 2.a del DF 26/2022 para definir una instalación existente?",
+  o: [
+    "22 de junio de 2021",
+    "16 de diciembre de 2020",
+    "30 de marzo de 2022",
+    "17 de febrero de 2021"
+  ],
+  c: 0,
+  exp: "Art. 2.a: instalación existente es la que estaba en funcionamiento y había sido autorizada antes del 22 de junio de 2021, con la condición adicional prevista para las instalaciones que hubieran solicitado las autorizaciones exigibles."
+},
+
+{ id: "E21-03", tema: "E21",
+  q: "¿Qué efecto produce, con carácter general, la falta de resolución expresa dentro del plazo en los procedimientos del DF 26/2022?",
+  o: [
+    "Silencio estimatorio, salvo resolución posterior",
+    "Silencio desestimatorio, con posibilidad de recurso",
+    "Caducidad automática, con archivo del expediente",
+    "Suspensión del procedimiento hasta resolución expresa"
+  ],
+  c: 1,
+  exp: "Art. 7: el vencimiento del plazo sin resolución expresa permite entender desestimadas las solicitudes y habilita para interponer los recursos procedentes."
+},
+
+{ id: "E21-04", tema: "E21",
+  q: "¿Qué información no puede tener carácter confidencial según el art. 8.3?",
+  o: [
+    "Información comercial protegida legalmente",
+    "Derechos de propiedad intelectual e industrial",
+    "Ubicación e impactos ambientales de la instalación",
+    "Datos personales sometidos a protección legal"
+  ],
+  c: 2,
+  exp: "Art. 8.3: no pueden ser confidenciales los datos relativos a la ubicación y a los potenciales impactos ambientales, incluidos consumos, residuos y emisiones."
+},
+
+{ id: "E21-05", tema: "E21",
+  q: "¿En qué plazo puede inadmitirse una solicitud de licencia de actividad clasificada por razones de competencia municipal?",
+  o: [
+    "10 días desde la presentación",
+    "15 días desde la presentación",
+    "20 días desde la presentación",
+    "1 mes desde la presentación"
+  ],
+  c: 1,
+  exp: "Art. 47: la inadmisión expresa y motivada puede acordarse en el plazo de 15 días y por razones de competencia municipal basadas en el planeamiento urbanístico o en las ordenanzas municipales."
+},
+
+{ id: "E21-06", tema: "E21",
+  q: "¿Cuál es el plazo mínimo de información pública en la tramitación de una licencia de actividad clasificada?",
+  o: [
+    "10 días",
+    "15 días",
+    "20 días",
+    "30 días"
+  ],
+  c: 2,
+  exp: "Art. 48.1: el periodo de información pública no será inferior a 20 días."
+},
+
+{ id: "E21-07", tema: "E21",
+  q: "¿Qué carácter tienen los informes de los Departamentos de la Administración foral en la licencia de actividad clasificada?",
+  o: [
+    "Preceptivos y vinculantes, con plazo general de un mes",
+    "Facultativos y vinculantes, con plazo general de quince días",
+    "Preceptivos y no vinculantes, con plazo general de veinte días",
+    "Facultativos y no vinculantes, con plazo general de un mes"
+  ],
+  c: 0,
+  exp: "Arts. 49.6 y 49.7: son preceptivos y vinculantes en el momento de la concesión. El plazo general es de un mes, salvo que su normativa específica establezca uno mayor."
+},
+
+{ id: "E21-08", tema: "E21",
+  q: "¿Cuál es el plazo máximo para resolver y notificar una licencia de actividad clasificada?",
+  o: [
+    "2 meses, con silencio estimatorio",
+    "3 meses, con silencio desestimatorio",
+    "4 meses, con silencio desestimatorio",
+    "6 meses, con silencio estimatorio"
+  ],
+  c: 2,
+  exp: "Art. 53.1: el plazo máximo es de 4 meses desde la presentación de la documentación completa. Transcurrido el plazo, la solicitud se entiende desestimada."
+},
+
+{ id: "E21-09", tema: "E21",
+  q: "¿Qué combinación permite conceder licencia de obras durante la tramitación de una licencia de actividad clasificada?",
+  o: [
+    "Información pública finalizada, informe ambiental favorable y ausencia de licencia urbanística",
+    "Ausencia de autorización en suelo no urbanizable, ausencia de riesgos y ausencia de autorización ganadera",
+    "Proyecto técnico presentado, informe sanitario favorable y ausencia de alegaciones",
+    "Declaración responsable presentada, ausencia de riesgos y resolución ambiental favorable"
+  ],
+  c: 1,
+  exp: "Art. 55.1: deben concurrir acumulativamente los requisitos relativos a suelo no urbanizable, seguridad y salud, y autorización ganadera."
+},
+
+{ id: "E21-10", tema: "E21",
+  q: "Si el titular comunica que una modificación es no sustancial, ¿cuándo puede ejecutarla si el órgano competente no se pronuncia en sentido contrario?",
+  o: [
+    "Después de 15 días",
+    "Después de 1 mes",
+    "Después de 3 meses",
+    "Después de 6 meses"
+  ],
+  c: 1,
+  exp: "Arts. 57.b y 57.c: si transcurre un mes sin pronunciamiento contrario del órgano competente, puede ejecutarse la modificación calificada por el titular como no sustancial."
+},
+
+{ id: "E21-11", tema: "E21",
+  q: "¿Qué incremento constituye modificación sustancial según el art. 58?",
+  o: [
+    "Más del 25% del consumo de agua, materias primas o energía",
+    "Más del 50% de la capacidad de producción",
+    "Más del 25% del almacenamiento de productos químicos",
+    "Más del 50% de las emisiones atmosféricas"
+  ],
+  c: 1,
+  exp: "Art. 58: el incremento superior al 50% de la capacidad de producción constituye modificación sustancial. Los porcentajes varían según el parámetro considerado."
+},
+
+{ id: "E21-12", tema: "E21",
+  q: "¿Qué condición establece el art. 58.g para considerar sustancial el incremento de residuos peligrosos?",
+  o: [
+    "Más de 4 t/año y más del 25% del total autorizado",
+    "Más de 10 t/año y más del 25% del total autorizado",
+    "Más de 20 t/año y más del 50% del total autorizado",
+    "Cualquier incremento superior al 10% del total autorizado"
+  ],
+  c: 0,
+  exp: "Art. 58.g: más de 4 toneladas/año, siempre que exista modificación estructural del proceso y el incremento represente más del 25% del total autorizado."
+},
+
+{ id: "E21-13", tema: "E21",
+  q: "¿Qué plazo máximo existe para poner en funcionamiento una modificación sustancial una vez resuelto el procedimiento?",
+  o: [
+    "6 meses, salvo plazo específico",
+    "1 año, salvo plazo específico",
+    "2 años, salvo plazo específico",
+    "4 años, salvo plazo específico"
+  ],
+  c: 2,
+  exp: "Art. 60.1: el plazo máximo es de 2 años, salvo que se establezca otro plazo."
+},
+
+{ id: "E21-14", tema: "E21",
+  q: "En el Anejo I, ¿qué superficie de zona de ventas determina que una actividad comercial precise informe de protección civil?",
+  o: [
+    "300 m² de superficie construida",
+    "500 m² de superficie construida",
+    "750 m² de superficie construida",
+    "1.000 m² de superficie construida"
+  ],
+  c: 2,
+  exp: "Anejo I, apartado 15.6: las actividades comerciales y centros comerciales precisan informe cuando la zona de ventas supera los 750 m²."
+},
+
+{ id: "E21-15", tema: "E21",
+  q: "¿Cuál es el régimen del Anejo I para alojamiento turístico, campings y espectáculos?",
+  o: [
+    "Alojamiento >500 m² incluidos campings; espectáculos >300 personas",
+    "Alojamiento >750 m² salvo casas rurales; campings >500 m²; espectáculos >100 personas",
+    "Alojamiento >500 m² salvo casas rurales; campings en todos los casos; espectáculos >100 personas",
+    "Alojamiento >1.000 m² salvo casas rurales; campings en todos los casos; espectáculos >500 personas"
+  ],
+  c: 2,
+  exp: "Anejo I: alojamiento turístico con superficie construida superior a 500 m², excepto casas rurales; campings en todos los casos; espectáculos en locales cubiertos con aforo superior a 100 personas."
+},
+
+{ id: "E21-16", tema: "E21",
+  q: "¿Cuál de estas actividades pertenece al Anejo II, relativo al informe de salud pública?",
+  o: [
+    "Aparcamientos de vehículos de más de 1.000 m²",
+    "Industrias y almacenamientos de más de 1.000 m²",
+    "Nuevos cementerios o ampliación de los existentes",
+    "Actividades docentes de más de 1.000 m²"
+  ],
+  c: 2,
+  exp: "El Anejo II incluye, entre otros supuestos, la construcción de nuevos cementerios o la ampliación de los existentes, además de tatuaje/piercing no sanitarios e instalaciones de riesgo de legionela."
+},
+
+{ id: "E21-17", tema: "E21",
+  q: "¿Qué relación existe entre el procedimiento de reposición de la realidad física alterada y el procedimiento sancionador?",
+  o: [
+    "El procedimiento de reposición debe iniciarse antes que el sancionador",
+    "Ambos procedimientos deben finalizar siempre simultáneamente",
+    "La existencia de un sancionador en curso impide iniciar el procedimiento de reposición sobre los mismos hechos y sujetos",
+    "El procedimiento sancionador queda suspendido hasta finalizar el de reposición"
+  ],
+  c: 2,
+  exp: "Art. 80.1: no podrá iniciarse el procedimiento de reposición mientras exista un procedimiento sancionador en curso sobre los mismos hechos y sujetos."
+},
+
+{ id: "E21-18", tema: "E21",
+  q: "¿Qué órgano tiene la consideración de órgano ambiental a efectos del DF 26/2022?",
+  o: [
+    "El órgano municipal que concede la licencia clasificada",
+    "El órgano de la Dirección General competente en medio ambiente que realiza el análisis técnico y formula las declaraciones e informes de impacto ambiental",
+    "El órgano competente en protección civil",
+    "El órgano estatal competente en evaluación ambiental"
+  ],
+  c: 1,
+  exp: "Art. 2.c: es el órgano de la Dirección General con competencias en medio ambiente encargado del análisis técnico y de formular las declaraciones e informes de impacto ambiental."
+},
+
+{ id: "E21-19", tema: "E21",
+  q: "¿Cuándo se consideran independientes dos instalaciones situadas en el mismo emplazamiento?",
+  o: [
+    "Cuando tengan titulares diferentes",
+    "Cuando desarrollen actividades diferentes",
+    "Cuando no exista relación técnica o, existiendo, no constituyan unidades subordinadas",
+    "Cuando no compartan ninguna instalación auxiliar"
+  ],
+  c: 2,
+  exp: "Art. 3.1: son independientes cuando no guardan relación de índole técnica o, aun guardándola, no constituyen unidades subordinadas."
+},
+
+{ id: "E21-20", tema: "E21",
+  q: "¿Qué documento debe acompañar a la solicitud de licencia de actividad clasificada para iniciar el cómputo del plazo?",
+  o: [
+    "El certificado final de obra",
+    "La declaración responsable de puesta en marcha",
+    "El proyecto técnico conforme a la normativa aplicable",
+    "El informe favorable de protección civil"
+  ],
+  c: 2,
+  exp: "Arts. 45.1 y 45.2: la solicitud se acompaña del proyecto técnico conforme a lo previsto reglamentariamente."
+},
+
+{ id: "E21-21", tema: "E21",
+  q: "¿Cuál es el plazo mínimo de información pública en el procedimiento de modificación sustancial?",
+  o: [
+    "10 días",
+    "15 días",
+    "20 días",
+    "30 días"
+  ],
+  c: 1,
+  exp: "Art. 59.3: el expediente de modificación sustancial se somete a información pública durante un plazo no inferior a 15 días."
+},
   // ---------- TEMA 22 ESPECÍFICO · LF 7/2003 DE TURISMO DE NAVARRA (E22) ----------
 { id: "E22-01", tema: "E22",
   q: "Según el artículo 1 de la Ley Foral 7/2003, de Turismo de Navarra, esta ley foral tiene como objeto:",
