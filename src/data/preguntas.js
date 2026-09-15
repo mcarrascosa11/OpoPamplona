@@ -5096,160 +5096,272 @@ export const PREGUNTAS = [
   c: 1,
   exp: "Art. 59.3: el expediente de modificación sustancial se somete a información pública durante un plazo no inferior a 15 días."
 },
-  // ---------- TEMA 22 ESPECÍFICO · LF 7/2003 DE TURISMO DE NAVARRA (E22) ----------
+ // ---------- TEMA 22 ESPECÍFICO · LF 7/2003 DE TURISMO DE NAVARRA (E22) ----------
+
 { id: "E22-01", tema: "E22",
-  q: "Según el artículo 1 de la Ley Foral 7/2003, de Turismo de Navarra, esta ley foral tiene como objeto:",
-  o: ["La regulación de las actividades turísticas que se desarrollen en establecimientos hoteleros y de restauración de Navarra",
-      "La regulación de las actividades turísticas que se desarrollen en suelo urbano y urbanizable de la Comunidad Foral de Navarra",
-      "La regulación de la planificación territorial de las actividades turísticas en la Comunidad Foral de Navarra",
-      "La regulación del sector turístico de Navarra, sus fines y principios, y las actuaciones de las Administraciones Públicas"],
-  c: 3, exp: "Art. 1 LF 7/2003: esta ley foral tiene como objeto la regulación del sector turístico de la Comunidad Foral de Navarra, estableciendo sus fines y principios, determinando las actuaciones de las Administraciones Públicas de Navarra para la ordenación y promoción de las actividades turísticas y de la calidad en la prestación de los servicios turísticos." },
+  q: "Según el artículo 1 de la Ley Foral 7/2003, de Turismo de Navarra, ¿cuál es su objeto?",
+  o: [
+    "Regular el sector turístico de Navarra, sus fines y principios y las actuaciones públicas en materia de ordenación y promoción",
+    "Regular únicamente las actividades de alojamiento y restauración y las condiciones de funcionamiento de sus establecimientos",
+    "Regular exclusivamente la planificación territorial y urbanística de las actividades turísticas de la Comunidad Foral",
+    "Regular únicamente la clasificación, inscripción y control administrativo de las empresas y establecimientos turísticos"
+  ],
+  c: 0,
+  exp: "Art. 1: la ley foral regula el sector turístico de Navarra, estableciendo sus fines y principios y determinando las actuaciones de las Administraciones Públicas para la ordenación y promoción de las actividades turísticas y de la calidad en la prestación de los servicios turísticos."
+},
+
 { id: "E22-02", tema: "E22",
-  q: "Conforme al artículo 5 de la Ley Foral 7/2003, de Turismo de Navarra, corresponde a la Administración de la Comunidad Foral de Navarra, entre otras competencias:",
-  o: ["Planificar y ordenar las actividades turísticas que se desarrollen en suelo urbano y urbanizable",
-      "Formular y aplicar la política de la Comunidad Foral en materia de turismo y promoción",
-      "Inspeccionar y sancionar las actividades turísticas que incumplan la normativa vigente",
-      "Conceder las licencias de actividad turística a los establecimientos hoteleros y de restauración"],
-  c: 1, exp: "Art. 5.a y b LF 7/2003: corresponde a la Administración de la Comunidad Foral de Navarra formular y aplicar la política de la Comunidad Foral en materia de turismo, y promocionar la imagen de Navarra como destino turístico." },
+  q: "Conforme al artículo 5 de la Ley Foral 7/2003, ¿qué competencia corresponde a la Administración de la Comunidad Foral de Navarra?",
+  o: [
+    "Promover exclusivamente los recursos turísticos de interés local de los municipios navarros",
+    "Formular y aplicar la política de la Comunidad Foral en materia de turismo",
+    "Conceder las licencias municipales necesarias para abrir establecimientos turísticos",
+    "Gestionar exclusivamente la clasificación turística de los establecimientos de restauración"
+  ],
+  c: 1,
+  exp: "Art. 5.a: corresponde a la Administración de la Comunidad Foral de Navarra formular y aplicar la política de la Comunidad Foral en materia de turismo. También le corresponde promocionar la imagen de Navarra como destino turístico."
+},
+
 { id: "E22-03", tema: "E22",
-  q: "Según el artículo 6 de la Ley Foral 7/2003, de Turismo de Navarra, corresponde a las entidades locales de Navarra, entre otras competencias:",
-  o: ["Promover y fomentar los recursos y actividades turísticas de su interés",
-      "Formular y aplicar la política turística de la Comunidad Foral de Navarra",
-      "Planificar y ordenar las actividades turísticas de toda la Comunidad Foral",
-      "Conceder la autorización ambiental integrada a los establecimientos turísticos"],
-  c: 0, exp: "Art. 6.a LF 7/2003: corresponde a las entidades locales de Navarra promover y fomentar los recursos, actividades u otros aspectos en relación con el turismo que sean de su interés, en coordinación con la Administración de la Comunidad Foral." },
+  q: "Según el artículo 6 de la Ley Foral 7/2003, ¿qué corresponde a las entidades locales de Navarra?",
+  o: [
+    "Promover y fomentar los recursos, actividades u otros aspectos turísticos que sean de su interés",
+    "Formular y aplicar la política general de turismo de la Comunidad Foral de Navarra",
+    "Establecer la clasificación turística de todos los establecimientos existentes en su término municipal",
+    "Conceder las autorizaciones autonómicas exigidas para el ejercicio de las actividades turísticas"
+  ],
+  c: 0,
+  exp: "Art. 6.a: corresponde a las entidades locales promover y fomentar los recursos, actividades u otros aspectos relacionados con el turismo que sean de su interés, en coordinación con la Administración de la Comunidad Foral."
+},
+
 { id: "E22-04", tema: "E22",
-  q: "Conforme al artículo 12 de la Ley Foral 7/2003, de Turismo de Navarra, se entiende por recurso turístico:",
-  o: ["Bien o manifestación de la realidad física, social o cultural que genera corrientes turísticas",
-      "Cualquier empresa que se dedique a la prestación de servicios turísticos en Navarra",
-      "Cualquier actividad que se desarrolle en el ámbito de la Comunidad Foral de Navarra con fines turísticos",
-      "Cualquier establecimiento donde se desarrollen actividades turísticas, cualquiera que sea su naturaleza"],
-  c: 0, exp: "Art. 12.1 LF 7/2003: se entiende por recurso turístico aquel bien material o manifestación diversa de la realidad física, geográfica, social o cultural de Navarra susceptible de generar corrientes turísticas." },
+  q: "Conforme al artículo 12 de la Ley Foral 7/2003, ¿qué se entiende por recurso turístico?",
+  o: [
+    "La empresa que presta habitualmente un servicio turístico mediante precio y con ánimo de lucro",
+    "El establecimiento en el que se presta temporalmente un servicio de alojamiento turístico",
+    "El bien material o manifestación de la realidad física, geográfica, social o cultural susceptible de generar corrientes turísticas",
+    "La actividad económica que, por su naturaleza, permite promover Navarra como destino turístico"
+  ],
+  c: 2,
+  exp: "Art. 12.1: recurso turístico es el bien material o manifestación diversa de la realidad física, geográfica, social o cultural de Navarra susceptible de generar corrientes turísticas."
+},
+
 { id: "E22-05", tema: "E22",
-  q: "Según el artículo 12 de la Ley Foral 7/2003, de Turismo de Navarra, se entiende por empresa turística:",
-  o: ["La persona física o jurídica que se dedica a la promoción turística de la Comunidad Foral de Navarra",
-      "Cualquier persona física o jurídica que preste servicios turísticos de forma ocasional o esporádica",
-      "La persona física o jurídica que se dedica a la gestión de establecimientos turísticos de titularidad pública",
-      "La persona física o jurídica que, de manera habitual y con ánimo de lucro, presta un servicio turístico en nombre propio"],
-  c: 3, exp: "Art. 12.3 LF 7/2003: se entiende por empresa turística la persona física o jurídica que, en nombre propio, de manera habitual y con ánimo de lucro, se dedica a la realización de una actividad turística o a la prestación de algún servicio turístico. Se presumirá la habitualidad cuando se realice publicidad de la prestación de servicios turísticos." },
+  q: "Según el artículo 12 de la Ley Foral 7/2003, ¿qué se entiende por empresa turística?",
+  o: [
+    "La persona física o jurídica que promociona Navarra como destino turístico por cuenta de una Administración Pública",
+    "La persona física o jurídica que presta ocasionalmente servicios turísticos, aunque carezca de ánimo de lucro",
+    "La persona física o jurídica que gestiona establecimientos turísticos de titularidad pública, con independencia de su forma de actuación",
+    "La persona física o jurídica que, en nombre propio, de manera habitual y con ánimo de lucro, realiza una actividad o presta un servicio turístico"
+  ],
+  c: 3,
+  exp: "Art. 12.3: empresa turística es la persona física o jurídica que, en nombre propio, de manera habitual y con ánimo de lucro, se dedica a una actividad turística o a prestar un servicio turístico. La habitualidad se presume cuando existe publicidad de los servicios."
+},
+
 { id: "E22-06", tema: "E22",
-  q: "Conforme al artículo 13 de la Ley Foral 7/2003, de Turismo de Navarra, el ejercicio de la actividad turística:",
-  o: ["Requiere licencia previa de la entidad local competente en todos los casos",
-      "Requiere autorización previa de la Administración de la Comunidad Foral de Navarra en todos los casos",
-      "Es libre, sin más límites que el cumplimiento de la normativa legal y reglamentaria aplicable",
-      "Requiere inscripción previa en el Registro de Turismo de Navarra en todos los casos"],
-  c: 2, exp: "Art. 13.1 LF 7/2003: el ejercicio de la actividad turística es libre, sin más limitaciones que las derivadas del cumplimiento de las normas legales y reglamentarias que sean de aplicación." },
+  q: "Conforme al artículo 13 de la Ley Foral 7/2003, el ejercicio de la actividad turística:",
+  o: [
+    "Está sometido a licencia previa de la entidad local competente en todos los supuestos",
+    "Está sometido a autorización previa de la Administración de la Comunidad Foral en todos los supuestos",
+    "Es libre, sin más limitaciones que las derivadas del cumplimiento de las normas legales y reglamentarias aplicables",
+    "Está sometido a inscripción previa en el Registro de Turismo de Navarra en todos los supuestos"
+  ],
+  c: 2,
+  exp: "Art. 13.1: el ejercicio de la actividad turística es libre, sin más limitaciones que las derivadas del cumplimiento de las normas legales y reglamentarias que sean de aplicación."
+},
+
 { id: "E22-07", tema: "E22",
-  q: "Según el artículo 14 de la Ley Foral 7/2003, de Turismo de Navarra, el Registro de Turismo de Navarra:",
-  o: ["Es un registro privado de naturaleza administrativa en el que se inscribirán exclusivamente los establecimientos hoteleros",
-      "Es un registro público de naturaleza administrativa en el que se inscribirán exclusivamente los establecimientos de restauración",
-      "Es un registro público donde se inscriben establecimientos, empresas, entidades no empresariales y profesiones turísticas",
-      "Es un registro privado de naturaleza mercantil en el que se inscribirán las empresas turísticas"],
-  c: 2, exp: "Art. 14.1 LF 7/2003: el Registro de Turismo de Navarra es un registro público de naturaleza administrativa que tiene por objeto la inscripción de establecimientos turísticos, empresas turísticas, entidades turísticas no empresariales y personas que desempeñen profesiones turísticas." },
+  q: "Según el artículo 14 de la Ley Foral 7/2003, ¿qué naturaleza y alcance tiene el Registro de Turismo de Navarra?",
+  o: [
+    "Es un registro público de naturaleza administrativa para empresas y establecimientos de alojamiento",
+    "Es un registro privado de naturaleza mercantil para empresas dedicadas al sector turístico",
+    "Es un registro público de naturaleza administrativa donde se inscriben establecimientos, empresas, entidades no empresariales y profesionales turísticos",
+    "Es un registro público de naturaleza administrativa reservado exclusivamente a establecimientos de restauración"
+  ],
+  c: 2,
+  exp: "Art. 14.1: el Registro de Turismo de Navarra es un registro público de naturaleza administrativa en el que se inscriben establecimientos turísticos, empresas turísticas, entidades turísticas no empresariales y personas que desempeñen profesiones turísticas."
+},
+
 { id: "E22-08", tema: "E22",
-  q: "Conforme al artículo 15 de la Ley Foral 7/2003, de Turismo de Navarra, se entiende por alojamiento turístico:",
-  o: ["Cualquier establecimiento donde se ofrezca alojamiento de forma gratuita a los turistas",
-      "Cualquier establecimiento donde se ofrezca alojamiento temporal, cualquiera que sea su naturaleza",
-      "El establecimiento en el que se ofrece alojamiento permanente a las personas que lo soliciten",
-      "El establecimiento que ofrece, mediante precio, alojamiento temporal con o sin servicios complementarios"],
-  c: 3, exp: "Art. 15.1 LF 7/2003: se entiende por alojamiento turístico el establecimiento en el que se ofrece a las personas usuarias turísticas, mediante precio, alojamiento temporal con o sin prestación de servicios complementarios." },
+  q: "Conforme al artículo 15 de la Ley Foral 7/2003, ¿qué se entiende por alojamiento turístico?",
+  o: [
+    "El establecimiento que ofrece gratuitamente alojamiento temporal a personas usuarias turísticas, con o sin servicios complementarios",
+    "El establecimiento que ofrece, mediante precio, alojamiento temporal con o sin prestación de servicios complementarios",
+    "El establecimiento que ofrece alojamiento permanente mediante precio, con independencia de los servicios complementarios",
+    "Cualquier inmueble en el que se ofrezca alojamiento temporal, aunque no exista contraprestación económica"
+  ],
+  c: 1,
+  exp: "Art. 15.1: alojamiento turístico es el establecimiento en el que se ofrece a las personas usuarias turísticas, mediante precio, alojamiento temporal con o sin prestación de servicios complementarios."
+},
+
 { id: "E22-09", tema: "E22",
-  q: "Según el artículo 16 de la Ley Foral 7/2003, de Turismo de Navarra, los establecimientos de alojamiento turístico se ordenan en las siguientes clases:",
-  o: ["Establecimientos hoteleros, campamentos de turismo, albergues turísticos, casas rurales y viviendas turísticas",
-      "Hoteleros, campamentos de turismo, albergues, casas rurales, apartamentos y viviendas turísticas, y alojamientos singulares",
-      "Establecimientos hoteleros, campamentos de turismo, albergues turísticos, casas rurales y apartamentos turísticos",
-      "Establecimientos hoteleros, campamentos de turismo, albergues turísticos, casas rurales, apartamentos turísticos y hoteles rurales"],
-  c: 1, exp: "Art. 16.1 LF 7/2003: los establecimientos de alojamiento turístico se ordenan en las siguientes clases: a) establecimientos hoteleros; b) campamentos de turismo; c) albergues turísticos; d) casas rurales; e) apartamentos turísticos y viviendas turísticas; f) alojamientos singulares; g) cualesquiera otros que se determinen reglamentariamente." },
+  q: "Según el artículo 16 de la Ley Foral 7/2003, ¿qué clases de establecimientos de alojamiento turístico contempla la ley?",
+  o: [
+    "Establecimientos hoteleros, campamentos de turismo, albergues, casas rurales, apartamentos turísticos y hoteles rurales",
+    "Establecimientos hoteleros, campamentos de turismo, albergues turísticos, casas rurales y viviendas turísticas",
+    "Hoteleros, campamentos de turismo, albergues, casas rurales, apartamentos y viviendas turísticas, alojamientos singulares y los que reglamentariamente se determinen",
+    "Establecimientos hoteleros, campamentos de turismo, albergues turísticos, casas rurales y apartamentos turísticos"
+  ],
+  c: 2,
+  exp: "Art. 16.1: se incluyen establecimientos hoteleros; campamentos de turismo; albergues turísticos; casas rurales; apartamentos turísticos y viviendas turísticas; alojamientos singulares; y cualesquiera otros que se determinen reglamentariamente."
+},
+
 { id: "E22-10", tema: "E22",
-  q: "Conforme al artículo 18 de la Ley Foral 7/2003, de Turismo de Navarra, se entiende por establecimiento hotelero aquel caracterizado por:",
-  o: ["Ocupar la totalidad de un edificio, cualquiera que sea su configuración de accesos y escaleras",
-      "Ocupar cualquier espacio donde se ofrezca alojamiento temporal, cualquiera que sea su configuración",
-      "Ocupar la totalidad de un edificio o parte independiente, con accesos de uso exclusivo de la clientela",
-      "Ocupar parcialmente un edificio compartido con otros usos, con entradas compartidas con otros usuarios"],
-  c: 2, exp: "Art. 18.a LF 7/2003: se entiende por hotel aquel establecimiento caracterizado por ocupar la totalidad de un edificio o parte independiente del mismo, con entradas, escaleras y, en su caso, ascensores para uso independiente y exclusivo de la clientela y que cumpla los requisitos técnicos que se establezcan reglamentariamente." },
+  q: "Conforme al artículo 18.a de la Ley Foral 7/2003, ¿qué característica define al hotel?",
+  o: [
+    "Ocupa cualquier parte de un edificio y dispone de acceso compartido con otros usos",
+    "Ocupa la totalidad de un edificio o parte independiente, con accesos y elementos de comunicación de uso exclusivo de la clientela",
+    "Ocupa necesariamente la totalidad de un edificio y comparte sus accesos con otros usuarios",
+    "Ocupa una parte independiente de un edificio, aunque los accesos sean de uso común con otros establecimientos"
+  ],
+  c: 1,
+  exp: "Art. 18.a: el hotel ocupa la totalidad de un edificio o una parte independiente del mismo, con entradas, escaleras y, en su caso, ascensores para uso independiente y exclusivo de la clientela, además de cumplir los requisitos técnicos reglamentarios."
+},
+
 { id: "E22-11", tema: "E22",
-  q: "Según el artículo 19 de la Ley Foral 7/2003, de Turismo de Navarra, se entiende por campamento de turismo:",
-  o: ["El espacio de terreno destinado exclusivamente al alojamiento en tiendas de campaña, cualquiera que sea su configuración",
-      "Cualquier espacio de terreno donde se ofrezca alojamiento temporal al aire libre, cualquiera que sea su configuración",
-      "El espacio de terreno delimitado y acondicionado para facilitar, mediante precio, la vida al aire libre",
-      "Cualquier espacio de terreno donde se ofrezca alojamiento temporal en caravanas o autocaravanas"],
-  c: 2, exp: "Art. 19.1 LF 7/2003: se entiende por campamento de turismo el espacio de terreno debidamente delimitado, acondicionado y dotado de las instalaciones y servicios precisos, destinado a facilitar temporalmente a las personas, mediante precio, un lugar para la vida al aire libre, con fines vacacionales o turísticos." },
+  q: "Según el artículo 19.1 de la Ley Foral 7/2003, ¿qué se entiende por campamento de turismo?",
+  o: [
+    "El espacio de terreno delimitado y acondicionado para facilitar temporalmente, mediante precio, la vida al aire libre con fines vacacionales o turísticos",
+    "El espacio de terreno destinado exclusivamente al alojamiento en tiendas de campaña, aunque no disponga de instalaciones y servicios",
+    "Cualquier terreno donde se permita temporalmente el alojamiento en caravanas o autocaravanas mediante precio",
+    "El espacio de terreno no delimitado destinado al alojamiento al aire libre de personas usuarias turísticas"
+  ],
+  c: 0,
+  exp: "Art. 19.1: es el espacio de terreno debidamente delimitado, acondicionado y dotado de las instalaciones y servicios precisos, destinado a facilitar temporalmente, mediante precio, la vida al aire libre con fines vacacionales o turísticos."
+},
+
 { id: "E22-12", tema: "E22",
-  q: "Conforme al artículo 21 de la Ley Foral 7/2003, de Turismo de Navarra, se entiende por casa rural:",
-  o: ["Cualquier establecimiento situado en el ámbito rural donde se ofrezca alojamiento temporal, cualquiera que sea su estética",
-      "Cualquier establecimiento situado en suelo no urbanizable donde se ofrezca alojamiento temporal",
-      "El establecimiento situado en el ámbito rural destinado exclusivamente al alojamiento de turistas extranjeros",
-      "El establecimiento rural con la estética propia de la arquitectura tradicional de la zona"],
-  c: 3, exp: "Art. 21.1 LF 7/2003: se entiende por casas rurales los establecimientos situados en el ámbito rural cuya estética y características sean las propias de la arquitectura tradicional de la zona, en los que se proporcione, mediante precio, el servicio de alojamiento temporal con o sin prestación de servicios complementarios." },
+  q: "Conforme al artículo 21.1 de la Ley Foral 7/2003, ¿qué caracteriza a una casa rural?",
+  o: [
+    "Estar situada necesariamente en suelo no urbanizable y destinarse exclusivamente a turistas extranjeros",
+    "Estar situada en ámbito rural y presentar una estética y características propias de la arquitectura tradicional de la zona",
+    "Estar situada en cualquier municipio rural y ofrecer únicamente alojamiento sin servicios complementarios",
+    "Estar situada en un edificio tradicional y ocupar necesariamente la totalidad del inmueble"
+  ],
+  c: 1,
+  exp: "Art. 21.1: las casas rurales son establecimientos situados en el ámbito rural cuya estética y características sean propias de la arquitectura tradicional de la zona, donde se proporciona mediante precio alojamiento temporal con o sin servicios complementarios."
+},
+
 { id: "E22-13", tema: "E22",
-  q: "Según el artículo 23 de la Ley Foral 7/2003, de Turismo de Navarra, se entiende por establecimiento de restauración:",
-  o: ["El que, de forma habitual y mediante precio, suministra comidas y bebidas para su consumo en el local",
-      "Cualquier establecimiento donde se ofrezcan comidas y bebidas, cualquiera que sea su naturaleza o configuración",
-      "El establecimiento que se dedica exclusivamente a la preparación de comidas para llevar",
-      "El establecimiento que se dedica de forma ocasional a suministrar comidas y bebidas a los turistas"],
-  c: 0, exp: "Art. 23.1 LF 7/2003: se entiende por establecimientos de restauración los que se dedican de forma habitual, profesional, y mediante precio, a suministrar desde instalaciones, fijas o móviles, abiertas al público, comidas y bebidas, para su consumo en sus propias dependencias." },
+  q: "Según el artículo 23.1 de la Ley Foral 7/2003, ¿qué se entiende por establecimiento de restauración?",
+  o: [
+    "El que presta ocasionalmente comidas y bebidas a turistas mediante precio y desde instalaciones abiertas al público",
+    "El que se dedica exclusivamente a preparar comidas para llevar desde instalaciones fijas abiertas al público",
+    "El que se dedica de forma habitual, profesional y mediante precio a suministrar desde instalaciones fijas o móviles abiertas al público comidas y bebidas para su consumo en sus dependencias",
+    "El que suministra comidas y bebidas exclusivamente dentro de establecimientos de alojamiento turístico mediante precio"
+  ],
+  c: 2,
+  exp: "Art. 23.1: son establecimientos de restauración los que se dedican de forma habitual, profesional y mediante precio a suministrar, desde instalaciones fijas o móviles abiertas al público, comidas y bebidas para su consumo en sus propias dependencias."
+},
+
 { id: "E22-14", tema: "E22",
-  q: "Conforme al artículo 24 de la Ley Foral 7/2003, de Turismo de Navarra, los establecimientos de restauración podrán adoptar, entre otras, las siguientes modalidades:",
-  o: ["Restaurantes, bares, cafeterías, mesones y establecimientos de restauración de categoría superior",
-      "Restaurantes y otros que se determinen reglamentariamente, incluida la hostelería de interés gastronómico",
-      "Restaurantes, bares, cafeterías y establecimientos de restauración clasificados por categorías",
-      "Restaurantes, bares, cafeterías y establecimientos de hostelería de categoría superior"],
-  c: 1, exp: "Art. 24.1 LF 7/2003: los establecimientos de restauración podrán adoptar las siguientes modalidades: a) restaurantes; b) otros establecimientos que reglamentariamente se determinen; c) establecimientos de hostelería que organicen o participen en el desarrollo de las actividades gastronómicas previstas declaradas de interés turístico o que tengan un carácter emblemático, singular o de arraigo a la localidad." },
+  q: "Conforme al artículo 24.1 de la Ley Foral 7/2003, ¿qué modalidades pueden adoptar los establecimientos de restauración?",
+  o: [
+    "Restaurantes, bares, cafeterías y establecimientos clasificados por categorías de servicio",
+    "Restaurantes, otros establecimientos determinados reglamentariamente y establecimientos de hostelería vinculados a actividades gastronómicas de interés turístico o de carácter singular",
+    "Restaurantes, bares, cafeterías y mesones, además de establecimientos de categoría superior",
+    "Restaurantes, cafeterías y establecimientos de hostelería rural con clasificación específica"
+  ],
+  c: 1,
+  exp: "Art. 24.1: pueden adoptar las modalidades de restaurantes; otros establecimientos que reglamentariamente se determinen; y establecimientos de hostelería que organicen o participen en actividades gastronómicas declaradas de interés turístico o que tengan carácter emblemático, singular o de arraigo a la localidad."
+},
+
 { id: "E22-15", tema: "E22",
-  q: "Según el artículo 13 bis de la Ley Foral 7/2003, de Turismo de Navarra, la consulta potestativa previa de adecuación a la normativa turística:",
-  o: ["Podrá formularse por cualquier persona interesada una vez iniciada la construcción del establecimiento turístico",
-      "Podrá formularse por quien proyecte construir o modificar un establecimiento turístico, antes de cualquier trámite",
-      "Deberá formularse obligatoriamente por todas las personas que proyecten la construcción de un establecimiento turístico",
-      "Deberá formularse obligatoriamente ante la entidad local competente antes de iniciar cualquier trámite administrativo"],
-  c: 1, exp: "Art. 13 bis.1 LF 7/2003: las personas físicas o jurídicas que proyecten la construcción o modificación de un establecimiento para uso turístico, así como el ejercicio de una actividad turística, podrán, antes de iniciar cualquier tipo de actuación o trámite administrativo, formular una consulta respecto de su clasificación turística que será respondida por el órgano competente en el plazo máximo de dos meses." },
+  q: "Según el artículo 13 bis de la Ley Foral 7/2003, ¿quién puede formular la consulta potestativa previa de adecuación a la normativa turística?",
+  o: [
+    "Únicamente la entidad local antes de conceder la licencia urbanística del establecimiento",
+    "Las personas físicas o jurídicas que proyecten construir o modificar un establecimiento turístico o ejercer una actividad turística, antes de cualquier actuación o trámite administrativo",
+    "Únicamente las empresas turísticas ya inscritas en el Registro de Turismo de Navarra",
+    "Cualquier persona interesada, pero solamente después de iniciar la construcción del establecimiento"
+  ],
+  c: 1,
+  exp: "Art. 13 bis.1: las personas físicas o jurídicas que proyecten construir o modificar un establecimiento para uso turístico o ejercer una actividad turística pueden, antes de iniciar cualquier actuación o trámite administrativo, formular la consulta. El órgano competente debe responder en un plazo máximo de dos meses."
+},
 
 { id: "E22-16", tema: "E22",
-  q: "Tiene la consideración de actividad clandestina, conforme al art. 13 de la Ley Foral 7/2003, de Turismo de Navarra:",
-  o: ["Prestar publicidad o servicios sujetos a inscripción sin declaración responsable",
-      "Prestar servicios turísticos a precios inferiores a los declarados en el Registro",
-      "Ejercer la actividad sin haber obtenido la licencia municipal de apertura",
-      "Prestar servicios turísticos sin estar dado de alta en la Seguridad Social"],
-  c: 0, exp: "Art. 13.4 LF 7/2003: basta la publicidad, aunque no llegue a prestarse el servicio. Los precios son libres (art. 13.5), de modo que ofrecerlos por debajo de los declarados no es, por sí mismo, infracción." },
-{ id: "E22-17", tema: "E22",
-  q: "Según el art. 14.4 de la Ley Foral 7/2003, de Turismo de Navarra, la inexactitud, falsedad u omisión de carácter esencial en la declaración responsable de inscripción determina la cancelación de la inscripción, y la resolución podrá impedir volver a inscribirse por un plazo máximo de:",
-  o: ["Un año", "Seis meses", "Dos años", "Tres meses"],
-  c: 1, exp: "Art. 14.4 LF 7/2003: hasta seis meses desde la notificación de la resolución, sin perjuicio de las responsabilidades penales, civiles o administrativas. No confundir con los dos años de cese que provocan la cancelación de oficio (art. 14.7)." },
-{ id: "E22-18", tema: "E22",
-  q: "El cese de la actividad para la que se practicó la inscripción en el Registro de Turismo de Navarra durante un período superior a dos años consecutivos, conforme al art. 14.7 de la Ley Foral 7/2003:",
-  o: ["Conlleva la cancelación de oficio de la inscripción, con audiencia previa",
-      "Obliga al titular a solicitar una nueva clasificación del establecimiento",
-      "No produce efecto alguno mientras no se comunique la baja definitiva",
-      "Supone la imposición automática de una sanción por actividad clandestina"],
-  c: 0, exp: "Art. 14.7 LF 7/2003: la baja voluntaria exige comunicación previa al departamento competente y conlleva también la cancelación." },
-{ id: "E22-19", tema: "E22",
-  q: "El principio de unidad de explotación del alojamiento turístico, previsto en el art. 15.3 de la Ley Foral 7/2003, de Turismo de Navarra, significa que:",
-  o: ["Los servicios complementarios deben prestarse necesariamente por el titular del alojamiento",
-      "Se somete a una única titularidad empresarial por establecimiento o unidad",
-      "El establecimiento debe ocupar necesariamente la totalidad de un edificio",
-      "Un mismo titular no puede explotar más de un establecimiento de alojamiento"],
-  c: 1, exp: "Art. 15.3 LF 7/2003: ocupar la totalidad del edificio o una parte independiente es el requisito del hotel (art. 18.a), no el principio de unidad de explotación: son dos conceptos distintos que conviene no confundir." },
-{ id: "E22-20", tema: "E22",
-  q: "En materia de distintivos y publicidad de los establecimientos de alojamiento, conforme al art. 16.4 de la Ley Foral 7/2003, de Turismo de Navarra:",
-  o: ["Es obligatoria la placa en la entrada, y la categoría debe figurar en publicidad y facturas",
-      "La categoría únicamente debe constar en la documentación registral del establecimiento",
-      "La placa se exhibe en la recepción y la categoría solo en las facturas",
-      "La placa normalizada es voluntaria y la categoría solo debe constar en la publicidad"],
-  c: 0, exp: "Art. 16.4 LF 7/2003: en todos los establecimientos de alojamiento será obligatoria la exhibición, junto a la entrada principal, de una placa normalizada en la que figurará el distintivo correspondiente al tipo de establecimiento y su clasificación; la categoría debe figurar también en la publicidad y en las facturas." },
-{ id: "E22-21", tema: "E22",
-  q: "Quedan excluidos del concepto de albergue turístico, conforme al art. 20.2 de la Ley Foral 7/2003, de Turismo de Navarra:",
-  o: ["Los que dispongan de menos de veinte plazas",
-      "Los albergues situados en el medio rural",
-      "Los Albergues Juveniles de la Red de Albergues de Juventud",
-      "Los que ofrezcan servicios complementarios de restauración"],
-  c: 2, exp: "Art. 20.2.d LF 7/2003: también se excluyen el alojamiento en habitaciones múltiples dentro de campamentos de turismo, el condicionado a pertenecer a un grupo u organización y el prestado sin contraprestación económica o con mero donativo." },
-{ id: "E22-22", tema: "E22",
-  q: "En materia de restauración, el artículo 23.2 de la Ley Foral 7/2003, de Turismo de Navarra, excluye de su ámbito:",
-  o: ["La restauración prestada dentro de establecimientos hoteleros",
-      "Los establecimientos que sirven comida para llevar",
-      "Las instalaciones móviles abiertas al público",
-      "La restauración social colectiva en comedores asistenciales"],
-  c: 3, exp: "Art. 23.2 LF 7/2003: queda excluida la restauración social colectiva, prestada en comedores de carácter asistencial, institucional, escolar, universitario, social o laboral destinados a colectivos particulares y no al público en general. El concepto legal de establecimiento de restauración (art. 23.1) admite expresamente instalaciones fijas o móviles abiertas al público." },
+  q: "Conforme al artículo 13.4 de la Ley Foral 7/2003, ¿cuándo existe actividad turística clandestina?",
+  o: [
+    "Cuando se presta un servicio turístico sin estar dado de alta en la Seguridad Social",
+    "Cuando se presta un servicio turístico a un precio distinto del declarado inicialmente",
+    "Cuando se publicita o presta una actividad sujeta a inscripción sin haber realizado la declaración responsable exigida",
+    "Cuando se inicia una actividad turística sin haber obtenido previamente licencia municipal de apertura"
+  ],
+  c: 2,
+  exp: "Art. 13.4: existe actividad clandestina cuando se publicita o se presta un servicio sujeto a inscripción sin haber realizado la declaración responsable exigida. La publicidad puede ser suficiente aunque todavía no se haya prestado el servicio."
+},
 
+{ id: "E22-17", tema: "E22",
+  q: "Según el artículo 14.4 de la Ley Foral 7/2003, la inexactitud, falsedad u omisión esencial en una declaración responsable puede impedir una nueva inscripción durante un máximo de:",
+  o: [
+    "Tres meses desde la notificación de la resolución",
+    "Seis meses desde la notificación de la resolución",
+    "Un año desde la notificación de la resolución",
+    "Dos años desde la notificación de la resolución"
+  ],
+  c: 1,
+  exp: "Art. 14.4: la cancelación de la inscripción puede ir acompañada de la imposibilidad de volver a inscribirse durante un máximo de seis meses desde la notificación de la resolución, sin perjuicio de las responsabilidades correspondientes."
+},
+
+{ id: "E22-18", tema: "E22",
+  q: "Según el artículo 14.7 de la Ley Foral 7/2003, ¿qué ocurre cuando cesa la actividad durante más de dos años consecutivos?",
+  o: [
+    "Se mantiene automáticamente la inscripción hasta que el titular comunique expresamente la baja",
+    "Se produce la cancelación de oficio de la inscripción conforme al procedimiento previsto legalmente",
+    "Debe solicitarse una nueva clasificación turística, aunque la actividad se reanude inmediatamente",
+    "Se inicia automáticamente un procedimiento sancionador por actividad clandestina"
+  ],
+  c: 1,
+  exp: "Art. 14.7: el cese de la actividad durante un período superior a dos años consecutivos determina la cancelación de oficio de la inscripción. Es un supuesto distinto de la baja voluntaria comunicada por el titular."
+},
+
+{ id: "E22-19", tema: "E22",
+  q: "Conforme al artículo 15.3 de la Ley Foral 7/2003, ¿qué implica el principio de unidad de explotación?",
+  o: [
+    "Que los servicios complementarios deben ser prestados directamente por el propietario del inmueble",
+    "Que cada establecimiento o unidad de explotación queda sometido a una única titularidad empresarial",
+    "Que cada titular solo puede explotar un establecimiento de alojamiento turístico",
+    "Que el establecimiento debe ocupar necesariamente la totalidad del edificio en el que se ubica"
+  ],
+  c: 1,
+  exp: "Art. 15.3: el principio de unidad de explotación implica que el establecimiento o unidad de explotación queda sometido a una única titularidad empresarial. No debe confundirse con las condiciones físicas del hotel del art. 18.a."
+},
+
+{ id: "E22-20", tema: "E22",
+  q: "Según el artículo 16.4 de la Ley Foral 7/2003, ¿qué obligación existe respecto a la identificación y categoría de los alojamientos?",
+  o: [
+    "Debe exhibirse junto a la entrada una placa normalizada y la categoría debe figurar también en publicidad y facturas",
+    "La placa normalizada es opcional y la categoría solo debe aparecer en la documentación registral",
+    "La placa debe colocarse en la recepción y la categoría debe figurar únicamente en las facturas",
+    "Debe exhibirse la placa normalizada en la entrada, pero la categoría solo debe figurar en la publicidad"
+  ],
+  c: 0,
+  exp: "Art. 16.4: en todos los establecimientos de alojamiento es obligatoria la exhibición junto a la entrada principal de una placa normalizada con el distintivo correspondiente al tipo y clasificación. La categoría debe figurar también en la publicidad y en las facturas."
+},
+
+{ id: "E22-21", tema: "E22",
+  q: "Conforme al artículo 20.2 de la Ley Foral 7/2003, ¿qué establecimiento queda excluido del concepto de albergue turístico?",
+  o: [
+    "El establecimiento situado en el medio rural que dispone de habitaciones compartidas",
+    "El establecimiento que ofrece servicios complementarios de restauración a sus usuarios",
+    "El alojamiento prestado en habitaciones múltiples dentro de un campamento de turismo",
+    "El establecimiento que ofrece alojamiento temporal mediante precio y dispone de instalaciones comunes"
+  ],
+  c: 2,
+  exp: "Art. 20.2: quedan excluidos, entre otros, el alojamiento en habitaciones múltiples dentro de campamentos de turismo, el condicionado a pertenecer a un grupo u organización y el prestado sin contraprestación económica o mediante mero donativo."
+},
+
+{ id: "E22-22", tema: "E22",
+  q: "Según el artículo 23.2 de la Ley Foral 7/2003, ¿qué actividad queda excluida del concepto legal de establecimiento de restauración?",
+  o: [
+    "La restauración prestada dentro de un establecimiento hotelero",
+    "La restauración social colectiva en comedores asistenciales, institucionales, escolares, universitarios, sociales o laborales destinados a colectivos particulares",
+    "La restauración prestada desde instalaciones móviles abiertas al público",
+    "La prestación habitual y profesional de comidas y bebidas para consumo en las propias dependencias"
+  ],
+  c: 1,
+  exp: "Art. 23.2: queda excluida la restauración social colectiva prestada en comedores de carácter asistencial, institucional, escolar, universitario, social o laboral destinados a colectivos particulares y no al público en general."
+}, 
+   
   // ---------- TEMA 25 ESPECÍFICO · RD 1627/1997 SEGURIDAD Y SALUD EN OBRAS (E25) ----------
   { id: "E25-04", tema: "E25",
     q: "El trabajador autónomo que emplee en la obra a trabajadores por cuenta ajena:",
