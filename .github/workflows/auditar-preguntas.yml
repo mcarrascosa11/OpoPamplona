@@ -1,0 +1,17 @@
+name: Auditar preguntas
+
+on:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ejecutar auditoria
+        run: node scripts/auditar_preguntas.cjs
+      - name: Guardar informe
+        uses: actions/upload-artifact@v4
+        with:
+          name: auditoria-preguntas
+          path: auditoria_preguntas.csv
