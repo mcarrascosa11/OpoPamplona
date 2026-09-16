@@ -7,11 +7,8 @@ const source = path.join(ROOT, "src", "data", "preguntas.js");
 const output = path.join(ROOT, "auditoria_preguntas.csv");
 
 async function main() {
-  if (!fs.existsSync(source)) {
-    throw new Error("No se encuentra " + source);
-  }
+  if (!fs.existsSync(source)) throw new Error("No se encuentra " + source);
 
-  // Carga real del archivo JS. Esto evita intentar parsear el código con regex.
   const mod = await import(pathToFileURL(source).href + "?audit=" + Date.now());
   const preguntas = mod.PREGUNTAS;
 
@@ -19,125 +16,109 @@ async function main() {
     throw new Error("No se ha encontrado PREGUNTAS en preguntas.js");
   }
 
-  const warnings = [
+  function norm(value) {
+    return String(value ?? "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^\p{L}\p{N}\s]/gu, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  const absoluteWords = [
     "unicamente", "exclusivamente", "siempre", "nunca",
     "solo", "solamente", "en todos los casos", "sin excepcion"
   ];
 
-  function norm(value) {
-    return String(value || "")
-      .toLowerCase()
-      .normalize("NFD")
-      .replace(/[\\u0300-\\u036f]/g, "")
-      .replace(/[^\\p{L}\\p{N}\\s]/gu, " ")
-      .replace(/\\s+/g, " ")
-      .trim();
-  }
-
-  function similarity(a, b) {
-    const A = new Set(norm(a).split(" ").filter(Boolean));
-    const B = new Set(norm(b).split(" ").filter(Boolean));
-    if (!A.size || !B.size) return 0;
-    let intersection = 0;
-    for (const x of A) if (B.has(x)) intersection++;
-    return intersection / new Set([...A, ...B]).size;
-  }
-
-  const rows = [];
-
-  for (const p of preguntas) {
-    const q = String(p.q || "");
+  const rows = preguntas.map((p) => {
+    const q = String(p.q ?? "");
     const options = Array.isArray(p.o) ? p.o.map(String) : [];
     const c = Number.isInteger(p.c) ? p.c : null;
-    const exp = String(p.exp || "");
+    const exp = String(p.exp ?? "");
     const issues = [];
 
-    if (!q) issues.push("SIN_ENUNCIADO");
+    // ERRORES OBJETIVOS: no dependen de interpretar la norma.
+    if (!q.trim()) issues.push("SIN_ENUNCIADO");
     if (options.length !== 4) issues.push("NO_HAY_4_OPCIONES");
     if (c === null || c < 0 || c > 3) issues.push("RESPUESTA_INVALIDA");
-    if (!exp) issues.push("SIN_EXPLICACION");
+    if (!exp.trim()) issues.push("SIN_EXPLICACION");
 
-    const nq = norm(q);
-    if (warnings.some(w => nq.includes(w))) {
-      issues.push("ABSOLUTO_EN_ENUNCIADO");
-    }
+    if (options.length === 4) {
+      const normalizedOptions = options.map(norm);
 
-    if (options.length === 4 && c !== null) {
-      const lengths = options.map(x => x.length);
-      const avg = lengths.reduce((a, b) => a + b, 0) / 4;
-
-      // Señal de que la respuesta correcta destaca visualmente por longitud.
-      if (options[c].length > avg * 1.8 && options[c].length - Math.min(...lengths) > 40) {
-        issues.push("CORRECTA_MUCHO_MAS_LARGA");
-      }
-
+      // Solo duplicados REALES. No se usa similitud difusa.
       for (let i = 0; i < 4; i++) {
         for (let j = i + 1; j < 4; j++) {
-          const a = norm(options[i]);
-          const b = norm(options[j]);
-          if (a && a === b) issues.push("OPCIONES_DUPLICADAS");
-          else if (a && b && similarity(options[i], options[j]) >= 0.85) {
-            issues.push("OPCIONES_MUY_PARECIDAS");
+          if (normalizedOptions[i] && normalizedOptions[i] === normalizedOptions[j]) {
+            issues.push("OPCIONES_DUPLICADAS");
           }
         }
       }
 
+      // Señal, no error: la correcta destaca mucho por longitud.
+      if (c !== null && c >= 0 && c < 4) {
+        const lengths = options.map(x => x.length);
+        const sorted = [...lengths].sort((a, b) => a - b);
+        const median = (sorted[1] + sorted[2]) / 2;
+        if (median > 0 && lengths[c] >= median * 2 && lengths[c] - median >= 50) {
+          issues.push("CORRECTA_MUCHO_MAS_LARGA");
+        }
+      }
+
+      // Señal, no error: uso de absolutos en distractores.
       const distractors = options.filter((_, i) => i !== c);
-      const absoluteDistractors = distractors.filter(x =>
-        warnings.some(w => norm(x).includes(w))
-      );
-      if (absoluteDistractors.length >= 2) {
-        issues.push("DISTRACTORES_ABSOLUTOS");
-      }
-
-      if (distractors.some(x => {
-        const n = norm(x);
-        return n === "todas las anteriores" || n === "ninguna de las anteriores";
-      })) {
-        issues.push("TODAS_NINGUNA");
+      if (distractors.some(x => absoluteWords.some(w => norm(x).includes(w)))) {
+        issues.push("DISTRACTOR_ABSOLUTO");
       }
     }
 
-    if (exp && !/(art\\.?|articulo|arts\\.?|ley|decreto|real decreto|ordenanza|disposicion)/i.test(exp)) {
-      issues.push("SIN_REFERENCIA_NORMATIVA");
+    // La pregunta puede ser corta y ser perfectamente válida.
+    // Solo marcamos si es extremadamente corta.
+    if (q.trim().length > 0 && q.trim().length < 35) {
+      issues.push("ENUNCIADO_MUY_CORTO");
     }
 
-    if (q.length < 70) issues.push("ENUNCIADO_CORTO");
-    if (q.length > 650) issues.push("ENUNCIADO_LARGO");
+    return { ...p, q, o: options, c, exp, issues };
+  });
 
-    rows.push({ ...p, issues });
+  // Duplicados exactos de enunciado. Solo se marca la coincidencia literal
+  // normalizada; NO se usa similitud por palabras.
+  const byQuestion = new Map();
+
+  for (const p of rows) {
+    const key = norm(p.q);
+    if (!key) continue;
+    if (!byQuestion.has(key)) byQuestion.set(key, []);
+    byQuestion.get(key).push(p);
   }
 
-  // Detecta preguntas iguales o casi iguales.
-  for (let i = 0; i < rows.length; i++) {
-    for (let j = i + 1; j < rows.length; j++) {
-      const a = norm(rows[i].q);
-      const b = norm(rows[j].q);
-      if (a && a === b) {
-        rows[i].issues.push("PREGUNTA_DUPLICADA:" + rows[j].id);
-        rows[j].issues.push("PREGUNTA_DUPLICADA:" + rows[i].id);
-      } else if (a && b && similarity(a, b) >= 0.90) {
-        rows[i].issues.push("PREGUNTA_MUY_PARECIDA:" + rows[j].id);
-        rows[j].issues.push("PREGUNTA_MUY_PARECIDA:" + rows[i].id);
+  for (const group of byQuestion.values()) {
+    if (group.length > 1) {
+      for (const p of group) {
+        const others = group.filter(x => x !== p).map(x => x.id).join(",");
+        p.issues.push("PREGUNTA_DUPLICADA:" + others);
       }
     }
   }
 
   function state(issues) {
-    if (issues.some(x =>
-      x === "SIN_ENUNCIADO" ||
-      x === "NO_HAY_4_OPCIONES" ||
-      x === "RESPUESTA_INVALIDA"
-    )) return "ERROR";
-    if (issues.length >= 2) return "REVISAR";
-    if (issues.length === 1) return "ATENCION";
+    const hard = [
+      "SIN_ENUNCIADO",
+      "NO_HAY_4_OPCIONES",
+      "RESPUESTA_INVALIDA",
+      "SIN_EXPLICACION",
+      "OPCIONES_DUPLICADAS"
+    ];
+    if (issues.some(x => hard.includes(x))) return "ERROR";
+    if (issues.length > 0) return "ATENCION";
     return "OK";
   }
 
   function csv(value) {
     return '"' + String(value ?? "")
       .replace(/"/g, '""')
-      .replace(/\\r?\\n/g, " ") + '"';
+      .replace(/\r?\n/g, " ") + '"';
   }
 
   const csvRows = [[
@@ -152,28 +133,29 @@ async function main() {
       state(p.issues),
       p.issues.join(" | "),
       p.q,
-      ...(p.o || ["", "", "", ""]).slice(0, 4),
-      p.c === null || p.c === undefined ? "" : String.fromCharCode(65 + p.c),
+      p.o[0] || "",
+      p.o[1] || "",
+      p.o[2] || "",
+      p.o[3] || "",
+      p.c === null ? "" : String.fromCharCode(65 + p.c),
       p.exp
     ]);
   }
 
-  fs.writeFileSync(
-    output,
-    csvRows.map(row => row.map(csv).join(";")) .join("\\n"),
-    "utf8"
-  );
+  fs.writeFileSync(output, csvRows.map(r => r.map(csv).join(";")).join("\n"), "utf8");
 
-  const counts = { OK: 0, ATENCION: 0, REVISAR: 0, ERROR: 0 };
+  const counts = { OK: 0, ATENCION: 0, ERROR: 0 };
   for (const p of rows) counts[state(p.issues)]++;
 
   console.log("=== AUDITORIA DEL BANCO ===");
   console.log("Preguntas: " + rows.length);
   console.log("OK: " + counts.OK);
   console.log("ATENCION: " + counts.ATENCION);
-  console.log("REVISAR: " + counts.REVISAR);
   console.log("ERROR: " + counts.ERROR);
   console.log("Informe: " + output);
+  console.log("");
+  console.log("La auditoria NO determina si una respuesta es jurídicamente correcta.");
+  console.log("Solo detecta problemas objetivos y señales para revisión humana/IA.");
   console.log("");
 
   for (const p of rows) {
@@ -185,6 +167,6 @@ async function main() {
 }
 
 main().catch(error => {
-  console.error("ERROR:", error.message);
+  console.error("ERROR:", error);
   process.exit(1);
 });
