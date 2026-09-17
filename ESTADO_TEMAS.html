@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Mapa del temario</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet"/>
-<style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mapa del temario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
     :root {
       --bg: #f8f7f5;
       --surface: #ffffff;
@@ -214,131 +213,1059 @@
       header, .summary, .controls, .table-wrap, .legend, .bloques { padding-left: 1rem; padding-right: 1rem; }
       th, td { padding: .55rem .6rem; }
     }
-</style>
+  </style>
 </head>
 <body>
-<header>
-<h1>Mapa del temario</h1>
-<p class="subtitle">Oposición de arquitecto · Ayuntamiento de Pamplona · actualizado 1 sep 2026</p>
-</header>
-<section aria-label="Resumen" class="summary">
-<div class="card blank"><span class="card-num">9</span><span class="card-label">En blanco</span></div><div class="card warn"><span class="card-num">5</span><span class="card-label">Falta resumen</span></div><div class="card bad"><span class="card-num">22</span><span class="card-label">Malo</span></div><div class="card bad"><span class="card-num">16</span><span class="card-label">A revisar</span></div><div class="card ok"><span class="card-num">9</span><span class="card-label">Regulares</span></div><div class="card good"><span class="card-num">11</span><span class="card-label">OK</span></div>
-</section>
-<section aria-label="Filtros" class="controls">
-<button class="active" data-filter="all">Todos</button>
-<button data-filter="hechos">Hechos</button>
-<button data-filter="pendientes">Pendientes</button>
-<button data-filter="EN BLANCO">En blanco</button>
-<button data-filter="MALO">Resumen malo</button>
-<button data-filter="A REVISAR">Preguntas a revisar</button>
-<button data-filter="MEJORABLE">Mejorable</button>
-<button data-filter="REGULARES">Regulares</button>
-<button data-filter="OK">OK</button>
-<button data-filter="BUENO">Bueno</button>
-</section>
-<p class="counters" id="counters"></p>
-<p class="legend">Visible &gt;10% = % de preguntas donde la opción correcta es claramente más larga. Notas/Items = bloques con explicación / total de puntos. Claves = datos puros memorizables. Marca los temas hechos con el checkbox; se guarda en este navegador.</p>
-<div class="table-wrap">
-<table>
-<thead>
-<tr>
-<th>Tema</th><th>Hecho</th><th>Título</th><th>Global</th><th>Resumen</th><th>Preguntas</th><th>Nº</th><th>Visible &gt;10%</th><th>Ratio</th><th>a/b/c/d</th><th>Notas/Items</th><th>Claves</th>
-</tr>
-</thead>
-<tbody>
-<tr data-global="OK" data-key="G1" data-preg="OK" data-res="BUENO">
-<td class="tema">G1</td><td class="hecho"><input aria-label="Marcar G1 como hecho" data-tema="G1" type="checkbox"/></td><td class="titulo">La Constitución Española de 1978</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">0%</td><td class="num">0.92</td><td class="num">4/4/4/3</td><td class="num">15/122</td><td class="num">30</td>
-</tr>
-<tr data-global="OK" data-key="G2" data-preg="OK" data-res="BUENO"><td class="tema">G2</td><td class="hecho"><input aria-label="Marcar G2 como hecho" data-tema="G2" type="checkbox"/></td><td class="titulo">LORAFNA — Amejoramiento del Régimen Foral</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">0%</td><td class="num">1.04</td><td class="num">4/4/4/3</td><td class="num">8/48</td><td class="num">26</td></tr>
-<tr data-global="OK" data-key="G3" data-preg="OK" data-res="BUENO"><td class="tema">G3</td><td class="hecho"><input aria-label="Marcar G3 como hecho" data-tema="G3" type="checkbox"/></td><td class="titulo">Organización del Ayuntamiento de Pamplona (L 7/1985 + Decreto org.)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">16</td><td class="num">6%</td><td class="num">1.04</td><td class="num">4/4/4/4</td><td class="num">5/47</td><td class="num">20</td></tr>
-<tr data-global="OK" data-key="G4" data-preg="OK" data-res="BUENO"><td class="tema">G4</td><td class="hecho"><input aria-label="Marcar G4 como hecho" data-tema="G4" type="checkbox"/></td><td class="titulo">LF 6/1990 de Administración Local de Navarra</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">0%</td><td class="num">1.02</td><td class="num">4/4/4/3</td><td class="num">4/41</td><td class="num">21</td></tr>
-<tr data-global="OK" data-key="G5" data-res="BUENO"><td class="tema">G5</td><td class="hecho"><input aria-label="Marcar G5 como hecho" data-tema="G5" type="checkbox"/></td><td class="titulo">Ley 40/2015 — Régimen Jurídico del Sector Público</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">0%</td><td class="num">1.01</td><td class="num">4/4/4/3</td><td class="num">5/45</td><td class="num">20</td></tr>
-<tr data-global="OK" data-key="G6" data-res="BUENO"><td class="tema">G6</td><td class="hecho"><input aria-label="Marcar G6 como hecho" data-tema="G6" type="checkbox"/></td><td class="titulo">Ley 39/2015 — Procedimiento Administrativo (I)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">7%</td><td class="num">0.98</td><td class="num">4/4/4/3</td><td class="num">7/66</td><td class="num">27</td></tr>
-<tr data-global="REGULARES" data-key="G7" data-preg="REGULARES" data-res="BUENO"><td class="tema">G7</td><td class="hecho"><input aria-label="Marcar G7 como hecho" data-tema="G7" type="checkbox"/></td><td class="titulo">Ley 39/2015 — Procedimiento Administrativo (II) + impugnación local</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">16</td><td class="num">19%</td><td class="num">1.04</td><td class="num">5/3/5/3</td><td class="num">7/73</td><td class="num">31</td></tr>
-<tr data-global="REGULARES" data-key="G8" data-preg="REGULARES" data-res="BUENO"><td class="tema">G8</td><td class="hecho"><input aria-label="Marcar G8 como hecho" data-tema="G8" type="checkbox"/></td><td class="titulo">DFL 251/1993 — Estatuto del Personal de las AAPP de Navarra</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">17</td><td class="num">24%</td><td class="num">1.05</td><td class="num">4/4/4/5</td><td class="num">9/42</td><td class="num">12</td></tr>
-<tr data-global="OK" data-key="G9" data-preg="OK" data-res="BUENO"><td class="tema">G9</td><td class="hecho"><input aria-label="Marcar G9 como hecho" data-tema="G9" type="checkbox"/></td><td class="titulo">LF 5/2018 — Transparencia y acceso a la información</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">22</td><td class="num">9%</td><td class="num">1.10</td><td class="num">7/5/5/5</td><td class="num">6/39</td><td class="num">23</td></tr>
-<tr data-global="REGULARES" data-key="G10" data-preg="REGULARES" data-res="BUENO"><td class="tema">G10</td><td class="hecho"><input aria-label="Marcar G10 como hecho" data-tema="G10" type="checkbox"/></td><td class="titulo">Protección de datos (RGPD + LO 3/2018)</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">19</td><td class="num">21%</td><td class="num">1.04</td><td class="num">5/5/5/4</td><td class="num">4/24</td><td class="num">11</td></tr>
-<tr data-global="OK" data-key="G11" data-preg="OK" data-res="BUENO"><td class="tema">G11</td><td class="hecho"><input aria-label="Marcar G11 como hecho" data-tema="G11" type="checkbox"/></td><td class="titulo">Igualdad (LO 3/2007 + LF 17/2019)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">18</td><td class="num">0%</td><td class="num">0.82</td><td class="num">5/5/4/4</td><td class="num">4/23</td><td class="num">10</td></tr>
-<tr data-global="OK" data-key="G12" data-preg="OK" data-res="BUENO"><td class="tema">G12</td><td class="hecho"><input aria-label="Marcar G12 como hecho" data-tema="G12" type="checkbox"/></td><td class="titulo">Estrategia Transición Energética y Cambio Climático 2030 Pamplona</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">0%</td><td class="num">0.99</td><td class="num">4/4/4/3</td><td class="num">5/24</td><td class="num">11</td></tr>
-<tr data-global="OK" data-key="G13" data-preg="OK" data-res="BUENO"><td class="tema">G13</td><td class="hecho"><input aria-label="Marcar G13 como hecho" data-tema="G13" type="checkbox"/></td><td class="titulo">Bienes de las entidades locales (LF 6/1990 + DF 280/1990)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">13%</td><td class="num">1.15</td><td class="num">4/4/4/3</td><td class="num">7/33</td><td class="num">9</td></tr>
-
-<!-- TEMAS E1-E59 -->
-<tr data-global="REGULARES" data-key="E1" data-preg="REGULARES" data-res="BUENO"><td class="tema">E1</td><td class="hecho"><input aria-label="Marcar E1 como hecho" data-tema="E1" type="checkbox"/></td><td class="titulo">LOE — Ley 38/1999 de Ordenación de la Edificación</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">15</td><td class="num">20%</td><td class="num">0.95</td><td class="num">4/4/4/3</td><td class="num">7/48</td><td class="num">9</td></tr>
-<tr data-global="REGULARES" data-key="E2" data-preg="REGULARES" data-res="BUENO"><td class="tema">E2</td><td class="hecho"><input aria-label="Marcar E2 como hecho" data-tema="E2" type="checkbox"/></td><td class="titulo">CTE — RD 314/2006 y Parte I</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">19</td><td class="num">16%</td><td class="num">1.03</td><td class="num">5/5/5/4</td><td class="num">8/43</td><td class="num">11</td></tr>
-<tr data-global="OK" data-key="E3" data-preg="OK" data-res="BUENO"><td class="tema">E3</td><td class="hecho"><input aria-label="Marcar E3 como hecho" data-tema="E3" type="checkbox"/></td><td class="titulo">CTE DB-SI — Seguridad en caso de incendio</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">20%</td><td class="num">1.19</td><td class="num">4/4/4/3</td><td class="num">0/35</td><td class="num">5</td></tr>
-<tr data-global="OK" data-key="E4" data-preg="OK" data-res="BUENO"><td class="tema">E4</td><td class="hecho"><input aria-label="Marcar E4 como hecho" data-tema="E4" type="checkbox"/></td><td class="titulo">RD 513/2017 — RIPCI</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">20</td><td class="num">25%</td><td class="num">1.38</td><td class="num">5/5/5/5</td><td class="num">0/49</td><td class="num">8</td></tr>
-<tr data-global="REGULARES" data-key="E5" data-preg="REGULARES" data-res="BUENO"><td class="tema">E5</td><td class="hecho"><input aria-label="Marcar E5 como hecho" data-tema="E5" type="checkbox"/></td><td class="titulo">RD 164/2025 — Incendios establecimientos industriales</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">20</td><td class="num">20%</td><td class="num">0.97</td><td class="num">5/5/5/5</td><td class="num">6/48</td><td class="num">13</td></tr>
-<tr data-global="REGULARES" data-key="E6" data-preg="REGULARES" data-res="BUENO"><td class="tema">E6</td><td class="hecho"><input aria-label="Marcar E6 como hecho" data-tema="E6" type="checkbox"/></td><td class="titulo">CTE DB-SUA — Seguridad de utilización y accesibilidad</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">16</td><td class="num">19%</td><td class="num">1.11</td><td class="num">4/4/4/4</td><td class="num">9/91</td><td class="num">18</td></tr>
-<tr data-global="REGULARES" data-key="E7" data-preg="REGULARES" data-res="BUENO"><td class="tema">E7</td><td class="hecho"><input aria-label="Marcar E7 como hecho" data-tema="E7" type="checkbox"/></td><td class="titulo">DA DB-SUA/2 — Accesibilidad en edificios existentes</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">15</td><td class="num">20%</td><td class="num">1.18</td><td class="num">4/4/4/3</td><td class="num">7/49</td><td class="num">15</td></tr>
-<tr data-global="OK" data-key="E8" data-preg="OK" data-res="BUENO"><td class="tema">E8</td><td class="hecho"><input aria-label="Marcar E8 como hecho" data-tema="E8" type="checkbox"/></td><td class="titulo">CTE DB-HE — Ahorro de energía</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">13%</td><td class="num">1.07</td><td class="num">4/4/4/3</td><td class="num">7/28</td><td class="num">7</td></tr>
-<tr data-global="REGULARES" data-key="E9" data-preg="REGULARES" data-res="BUENO"><td class="tema">E9</td><td class="hecho"><input aria-label="Marcar E9 como hecho" data-tema="E9" type="checkbox"/></td><td class="titulo">CTE DB-HE2 + RITE (RD 1027/2007)</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">25</td><td class="num">20%</td><td class="num">1.12</td><td class="num">7/6/6/6</td><td class="num">5/25</td><td class="num">7</td></tr>
-<tr data-global="REGULARES" data-key="E10" data-preg="REGULARES" data-res="BUENO"><td class="tema">E10</td><td class="hecho"><input aria-label="Marcar E10 como hecho" data-tema="E10" type="checkbox"/></td><td class="titulo">CTE DB-HS — Salubridad</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">24</td><td class="num">17%</td><td class="num">1.07</td><td class="num">6/6/6/6</td><td class="num">0/24</td><td class="num">8</td></tr>
-<tr data-global="OK" data-key="E11" data-preg="OK" data-res="BUENO"><td class="tema">E11</td><td class="hecho"><input aria-label="Marcar E11 como hecho" data-tema="E11" type="checkbox"/></td><td class="titulo">CTE DB-SE-AE — Acciones en la edificación</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">13%</td><td class="num">1.34</td><td class="num">4/4/4/3</td><td class="num">0/21</td><td class="num">8</td></tr>
-<tr data-global="REGULARES" data-key="E12" data-preg="REGULARES" data-res="BUENO"><td class="tema">E12</td><td class="hecho"><input aria-label="Marcar E12 como hecho" data-tema="E12" type="checkbox"/></td><td class="titulo">CTE DB-SE-C — Cimientos</td><td><span class="chip ok">Regulares</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip ok">Regulares</span></td><td class="num">17</td><td class="num">24%</td><td class="num">1.23</td><td class="num">5/4/4/4</td><td class="num">0/19</td><td class="num">7</td></tr>
-<tr data-global="OK" data-key="E13" data-preg="OK" data-res="BUENO"><td class="tema">E13</td><td class="hecho"><input aria-label="Marcar E13 como hecho" data-tema="E13" type="checkbox"/></td><td class="titulo">LF 10/2010 — Derecho a la vivienda (I)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">13%</td><td class="num">1.10</td><td class="num">4/4/4/3</td><td class="num">0/19</td><td class="num">7</td></tr>
-<tr data-global="A REVISAR" data-key="E14" data-preg="A REVISAR" data-res="BUENO"><td class="tema">E14</td><td class="hecho"><input aria-label="Marcar E14 como hecho" data-tema="E14" type="checkbox"/></td><td class="titulo">LF 10/2010 — Derecho a la vivienda (II)</td><td><span class="chip warn">A revisar</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip bad">A revisar</span></td><td class="num">20</td><td class="num">40%</td><td class="num">1.38</td><td class="num">4/4/9/3</td><td class="num">0/16</td><td class="num">7</td></tr>
-<tr data-global="OK" data-key="E15" data-preg="OK" data-res="BUENO"><td class="tema">E15</td><td class="hecho"><input aria-label="Marcar E15 como hecho" data-tema="E15" type="checkbox"/></td><td class="titulo">DF 61/2013 — Actuaciones protegibles (I)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">21</td><td class="num">14%</td><td class="num">1.41</td><td class="num">6/5/5/5</td><td class="num">0/22</td><td class="num">8</td></tr>
-<tr data-global="OK" data-key="E16" data-preg="OK" data-res="BUENO"><td class="tema">E16</td><td class="hecho"><input aria-label="Marcar E16 como hecho" data-tema="E16" type="checkbox"/></td><td class="titulo">DF 61/2013 — Rehabilitación (II) + Ordenanza Pamplona</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">0%</td><td class="num">1.00</td><td class="num">4/4/4/3</td><td class="num">0/40</td><td class="num">7</td></tr>
-<tr data-global="OK" data-key="E17" data-preg="OK" data-res="BUENO"><td class="tema">E17</td><td class="hecho"><input aria-label="Marcar E17 como hecho" data-tema="E17" type="checkbox"/></td><td class="titulo">DF 61/2013 — Integración social (III)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">7%</td><td class="num">0.99</td><td class="num">4/4/4/3</td><td class="num">0/20</td><td class="num">7</td></tr>
-<tr data-global="OK" data-key="E18" data-preg="OK" data-res="BUENO"><td class="tema">E18</td><td class="hecho"><input aria-label="Marcar E18 como hecho" data-tema="E18" type="checkbox"/></td><td class="titulo">DF 142/2004 — Habitabilidad (I)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">7%</td><td class="num">1.04</td><td class="num">4/4/4/3</td><td class="num">0/23</td><td class="num">7</td></tr>
-<tr data-global="OK" data-key="E19" data-preg="OK" data-res="BUENO"><td class="tema">E19</td><td class="hecho"><input aria-label="Marcar E19 como hecho" data-tema="E19" type="checkbox"/></td><td class="titulo">DF 142/2004 — Habitabilidad (II)</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">15</td><td class="num">7%</td><td class="num">1.03</td><td class="num">4/4/4/3</td><td class="num">0/29</td><td class="num">7</td></tr>
-<tr data-global="OK" data-key="E20" data-preg="OK" data-res="BUENO"><td class="tema">E20</td><td class="hecho"><input aria-label="Marcar E20 como hecho" data-tema="E20" type="checkbox"/></td><td class="titulo">LF 17/2020 — Actividades con incidencia ambiental</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">22</td><td class="num">5%</td><td class="num">0.97</td><td class="num">6/6/5/5</td><td class="num">0/27</td><td class="num">7</td></tr>
-<tr data-global="A REVISAR" data-key="E21" data-preg="A REVISAR" data-res="BUENO"><td class="tema">E21</td><td class="hecho"><input aria-label="Marcar E21 como hecho" data-tema="E21" type="checkbox"/></td><td class="titulo">DF 26/2022 — Reglamento actividades ambientales</td><td><span class="chip warn">A revisar</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip bad">A revisar</span></td><td class="num">21</td><td class="num">67%</td><td class="num">2.02</td><td class="num">5/8/4/4</td><td class="num">0/48</td><td class="num">12</td></tr>
-<tr data-global="OK" data-key="E22" data-preg="OK" data-res="BUENO"><td class="tema">E22</td><td class="hecho"><input aria-label="Marcar E22 como hecho" data-tema="E22" type="checkbox"/></td><td class="titulo">LF 7/2003 — Turismo de Navarra</td><td><span class="chip good">OK</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip good">OK</span></td><td class="num">22</td><td class="num">5%</td><td class="num">1.05</td><td class="num">6/6/5/5</td><td class="num">0/39</td><td class="num">14</td></tr>
-<tr data-global="A REVISAR" data-key="E23" data-preg="A REVISAR" data-res="BUENO"><td class="tema">E23</td><td class="hecho"><input aria-label="Marcar E23 como hecho" data-tema="E23" type="checkbox"/></td><td class="titulo">LF 2/1989 — Espectáculos públicos</td><td><span class="chip warn">A revisar</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip bad">A revisar</span></td><td class="num">22</td><td class="num">55%</td><td class="num">1.77</td><td class="num">5/8/6/3</td><td class="num">7/38</td><td class="num">20</td></tr>
-<tr data-global="A REVISAR" data-key="E24" data-preg="A REVISAR" data-res="BUENO"><td class="tema">E24</td><td class="hecho"><input aria-label="Marcar E24 como hecho" data-tema="E24" type="checkbox"/></td><td class="titulo">DF 202/2002 — Catálogo de espectáculos</td><td><span class="chip warn">A revisar</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip bad">A revisar</span></td><td class="num">15</td><td class="num">40%</td><td class="num">1.36</td><td class="num">4/4/4/3</td><td class="num">9/52</td><td class="num">22</td></tr>
-<tr data-global="A REVISAR" data-key="E25" data-preg="A REVISAR" data-res="BUENO"><td class="tema">E25</td><td class="hecho"><input aria-label="Marcar E25 como hecho" data-tema="E25" type="checkbox"/></td><td class="titulo">RD 1627/1997 — Seguridad y salud en obras</td><td><span class="chip warn">A revisar</span></td><td><span class="chip good">Bueno</span></td><td><span class="chip bad">A revisar</span></td><td class="num">15</td><td class="num">60%</td><td class="num">2.05</td><td class="num">4/4/4/3</td><td class="num">0/40</td><td class="num">15</td></tr>
-
-</tbody>
-</table>
-</div>
-<section class="bloques"><ul><li>En blanco (9): E43, E45, E46, E51, E55, E56, E57, E58, E59</li><li>Falta resumen (5): E44, E47, E48, E49, E50</li><li>Malo (22): E3, E4, E10, E11, E12, E13, E14, E15, E16, E17, E18, E19, E20, E21, E22, E25, E30, E31, E32, E52, E53, E54</li><li>A revisar (16): E23, E24, E26, E27, E28, E29, E33, E34, E35, E36, E37, E38, E39, E40, E41, E42</li><li>Pocas (0): ninguno</li><li>Regulares (9): G7, G8, G10, E1, E2, E5, E6, E7, E9</li><li>OK (11): G1, G2, G3, G4, G5, G6, G9, G11, G12, G13, E8</li></ul></section>
-<script>
+  <header>
+    <h1>Mapa del temario</h1>
+    <p class="subtitle">Oposición de arquitecto · Ayuntamiento de Pamplona · actualizado 22 ago 2026</p>
+  </header>
+  <section class="summary" aria-label="Resumen">
+    <div class="card blank"><span class="card-num">9</span><span class="card-label">En blanco</span></div><div class="card warn"><span class="card-num">5</span><span class="card-label">Falta resumen</span></div><div class="card bad"><span class="card-num">22</span><span class="card-label">Malo</span></div><div class="card bad"><span class="card-num">16</span><span class="card-label">A revisar</span></div><div class="card ok"><span class="card-num">9</span><span class="card-label">Regulares</span></div><div class="card good"><span class="card-num">11</span><span class="card-label">OK</span></div>
+  </section>
+  <section class="controls" aria-label="Filtros">
+    <button class="active" data-filter="all">Todos</button>
+    <button data-filter="hechos">Hechos</button>
+    <button data-filter="pendientes">Pendientes</button>
+    <button data-filter="EN BLANCO">En blanco</button>
+    <button data-filter="MALO">Resumen malo</button>
+    <button data-filter="A REVISAR">Preguntas a revisar</button>
+    <button data-filter="MEJORABLE">Mejorable</button>
+    <button data-filter="REGULARES">Regulares</button>
+    <button data-filter="OK">OK</button>
+    <button data-filter="BUENO">Bueno</button>
+  </section>
+  <p id="counters" class="counters"></p>
+  <p class="legend">Visible >10% = % de preguntas donde la opción correcta es claramente más larga. Notas/Items = bloques con explicación / total de puntos. Claves = datos puros memorizables. Marca los temas hechos con el checkbox; se guarda en este navegador.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Tema</th>
+          <th>Hecho</th>
+          <th>Título</th>
+          <th>Global</th>
+          <th>Resumen</th>
+          <th>Preguntas</th>
+          <th>Nº</th>
+          <th>Visible >10%</th>
+          <th>Ratio</th>
+          <th>a/b/c/d</th>
+          <th>Notas/Items</th>
+          <th>Claves</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-key="G1" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G1</td>
+    <td class="hecho"><input type="checkbox" data-tema="G1" aria-label="Marcar G1 como hecho"></td>
+    <td class="titulo">La Constitución Española de 1978</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">0%</td>
+    <td class="num">0.92</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">15/122</td>
+    <td class="num">30</td>
+  </tr><tr data-key="G2" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G2</td>
+    <td class="hecho"><input type="checkbox" data-tema="G2" aria-label="Marcar G2 como hecho"></td>
+    <td class="titulo">LORAFNA — Amejoramiento del Régimen Foral</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">0%</td>
+    <td class="num">1.04</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">8/48</td>
+    <td class="num">26</td>
+  </tr><tr data-key="G3" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G3</td>
+    <td class="hecho"><input type="checkbox" data-tema="G3" aria-label="Marcar G3 como hecho"></td>
+    <td class="titulo">Organización del Ayuntamiento de Pamplona (L 7/1985 + Decreto org.)</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">16</td>
+    <td class="num">6%</td>
+    <td class="num">1.04</td>
+    <td class="num">4/4/4/4</td>
+    <td class="num">5/47</td>
+    <td class="num">20</td>
+  </tr><tr data-key="G4" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G4</td>
+    <td class="hecho"><input type="checkbox" data-tema="G4" aria-label="Marcar G4 como hecho"></td>
+    <td class="titulo">LF 6/1990 de Administración Local de Navarra</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">0%</td>
+    <td class="num">1.02</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">4/41</td>
+    <td class="num">21</td>
+  </tr><tr data-key="G5" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G5</td>
+    <td class="hecho"><input type="checkbox" data-tema="G5" aria-label="Marcar G5 como hecho"></td>
+    <td class="titulo">Ley 40/2015 — Régimen Jurídico del Sector Público</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">0%</td>
+    <td class="num">1.01</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">5/45</td>
+    <td class="num">20</td>
+  </tr><tr data-key="G6" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G6</td>
+    <td class="hecho"><input type="checkbox" data-tema="G6" aria-label="Marcar G6 como hecho"></td>
+    <td class="titulo">Ley 39/2015 — Procedimiento Administrativo (I)</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">7%</td>
+    <td class="num">0.98</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">7/66</td>
+    <td class="num">27</td>
+  </tr><tr data-key="G7" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">G7</td>
+    <td class="hecho"><input type="checkbox" data-tema="G7" aria-label="Marcar G7 como hecho"></td>
+    <td class="titulo">Ley 39/2015 — Procedimiento Administrativo (II) + impugnación local</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">16</td>
+    <td class="num">19%</td>
+    <td class="num">1.04</td>
+    <td class="num">5/3/5/3</td>
+    <td class="num">7/73</td>
+    <td class="num">31</td>
+  </tr><tr data-key="G8" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">G8</td>
+    <td class="hecho"><input type="checkbox" data-tema="G8" aria-label="Marcar G8 como hecho"></td>
+    <td class="titulo">DFL 251/1993 — Estatuto del Personal de las AAPP de Navarra</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">17</td>
+    <td class="num">24%</td>
+    <td class="num">1.05</td>
+    <td class="num">4/4/4/5</td>
+    <td class="num">9/42</td>
+    <td class="num">12</td>
+  </tr><tr data-key="G9" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G9</td>
+    <td class="hecho"><input type="checkbox" data-tema="G9" aria-label="Marcar G9 como hecho"></td>
+    <td class="titulo">LF 5/2018 — Transparencia y acceso a la información</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">22</td>
+    <td class="num">9%</td>
+    <td class="num">1.10</td>
+    <td class="num">7/5/5/5</td>
+    <td class="num">6/39</td>
+    <td class="num">23</td>
+  </tr><tr data-key="G10" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">G10</td>
+    <td class="hecho"><input type="checkbox" data-tema="G10" aria-label="Marcar G10 como hecho"></td>
+    <td class="titulo">Protección de datos (RGPD + LO 3/2018)</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">19</td>
+    <td class="num">21%</td>
+    <td class="num">1.04</td>
+    <td class="num">5/5/5/4</td>
+    <td class="num">4/24</td>
+    <td class="num">11</td>
+  </tr><tr data-key="G11" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G11</td>
+    <td class="hecho"><input type="checkbox" data-tema="G11" aria-label="Marcar G11 como hecho"></td>
+    <td class="titulo">Igualdad (LO 3/2007 + LF 17/2019)</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">18</td>
+    <td class="num">0%</td>
+    <td class="num">0.82</td>
+    <td class="num">5/5/4/4</td>
+    <td class="num">4/23</td>
+    <td class="num">10</td>
+  </tr><tr data-key="G12" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G12</td>
+    <td class="hecho"><input type="checkbox" data-tema="G12" aria-label="Marcar G12 como hecho"></td>
+    <td class="titulo">Estrategia Transición Energética y Cambio Climático 2030 Pamplona</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">0%</td>
+    <td class="num">0.99</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">5/24</td>
+    <td class="num">11</td>
+  </tr><tr data-key="G13" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">G13</td>
+    <td class="hecho"><input type="checkbox" data-tema="G13" aria-label="Marcar G13 como hecho"></td>
+    <td class="titulo">Bienes de las entidades locales (LF 6/1990 + DF 280/1990)</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">13%</td>
+    <td class="num">1.15</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">7/33</td>
+    <td class="num">9</td>
+  </tr><tr data-key="E1" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">E1</td>
+    <td class="hecho"><input type="checkbox" data-tema="E1" aria-label="Marcar E1 como hecho"></td>
+    <td class="titulo">LOE — Ley 38/1999 de Ordenación de la Edificación</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">15</td>
+    <td class="num">20%</td>
+    <td class="num">0.95</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">7/48</td>
+    <td class="num">9</td>
+  </tr><tr data-key="E2" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">E2</td>
+    <td class="hecho"><input type="checkbox" data-tema="E2" aria-label="Marcar E2 como hecho"></td>
+    <td class="titulo">CTE — RD 314/2006 y Parte I</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">19</td>
+    <td class="num">16%</td>
+    <td class="num">1.03</td>
+    <td class="num">5/5/5/4</td>
+    <td class="num">8/43</td>
+    <td class="num">11</td>
+  </tr><tr data-key="E3" data-res="MALO" data-preg="REGULARES" data-global="MALO">
+    <td class="tema">E3</td>
+    <td class="hecho"><input type="checkbox" data-tema="E3" aria-label="Marcar E3 como hecho"></td>
+    <td class="titulo">CTE DB-SI — Seguridad en caso de incendio</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">15</td>
+    <td class="num">20%</td>
+    <td class="num">1.19</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/35</td>
+    <td class="num">5</td>
+  </tr><tr data-key="E4" data-res="MALO" data-preg="REGULARES" data-global="MALO">
+    <td class="tema">E4</td>
+    <td class="hecho"><input type="checkbox" data-tema="E4" aria-label="Marcar E4 como hecho"></td>
+    <td class="titulo">RD 513/2017 — RIPCI</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">20</td>
+    <td class="num">25%</td>
+    <td class="num">1.38</td>
+    <td class="num">5/5/5/5</td>
+    <td class="num">0/49</td>
+    <td class="num">8</td>
+  </tr><tr data-key="E5" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">E5</td>
+    <td class="hecho"><input type="checkbox" data-tema="E5" aria-label="Marcar E5 como hecho"></td>
+    <td class="titulo">RD 164/2025 — Incendios establecimientos industriales</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">20</td>
+    <td class="num">20%</td>
+    <td class="num">0.97</td>
+    <td class="num">5/5/5/5</td>
+    <td class="num">6/48</td>
+    <td class="num">13</td>
+  </tr><tr data-key="E6" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">E6</td>
+    <td class="hecho"><input type="checkbox" data-tema="E6" aria-label="Marcar E6 como hecho"></td>
+    <td class="titulo">CTE DB-SUA — Seguridad de utilización y accesibilidad</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">16</td>
+    <td class="num">19%</td>
+    <td class="num">1.11</td>
+    <td class="num">4/4/4/4</td>
+    <td class="num">9/91</td>
+    <td class="num">18</td>
+  </tr><tr data-key="E7" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">E7</td>
+    <td class="hecho"><input type="checkbox" data-tema="E7" aria-label="Marcar E7 como hecho"></td>
+    <td class="titulo">DA DB-SUA/2 — Accesibilidad en edificios existentes</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">15</td>
+    <td class="num">20%</td>
+    <td class="num">1.18</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">7/49</td>
+    <td class="num">15</td>
+  </tr><tr data-key="E8" data-res="BUENO" data-preg="OK" data-global="OK">
+    <td class="tema">E8</td>
+    <td class="hecho"><input type="checkbox" data-tema="E8" aria-label="Marcar E8 como hecho"></td>
+    <td class="titulo">CTE DB-HE — Ahorro de energía</td>
+    <td><span class="chip good">OK</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">13%</td>
+    <td class="num">1.07</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">7/28</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E9" data-res="BUENO" data-preg="REGULARES" data-global="REGULARES">
+    <td class="tema">E9</td>
+    <td class="hecho"><input type="checkbox" data-tema="E9" aria-label="Marcar E9 como hecho"></td>
+    <td class="titulo">CTE DB-HE2 + RITE (RD 1027/2007)</td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">25</td>
+    <td class="num">20%</td>
+    <td class="num">1.12</td>
+    <td class="num">7/6/6/6</td>
+    <td class="num">5/25</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E10" data-res="MALO" data-preg="REGULARES" data-global="MALO">
+    <td class="tema">E10</td>
+    <td class="hecho"><input type="checkbox" data-tema="E10" aria-label="Marcar E10 como hecho"></td>
+    <td class="titulo">CTE DB-HS — Salubridad</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">24</td>
+    <td class="num">17%</td>
+    <td class="num">1.07</td>
+    <td class="num">6/6/6/6</td>
+    <td class="num">0/24</td>
+    <td class="num">8</td>
+  </tr><tr data-key="E11" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E11</td>
+    <td class="hecho"><input type="checkbox" data-tema="E11" aria-label="Marcar E11 como hecho"></td>
+    <td class="titulo">CTE DB-SE-AE — Acciones en la edificación</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">13%</td>
+    <td class="num">1.34</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/21</td>
+    <td class="num">8</td>
+  </tr><tr data-key="E12" data-res="MALO" data-preg="REGULARES" data-global="MALO">
+    <td class="tema">E12</td>
+    <td class="hecho"><input type="checkbox" data-tema="E12" aria-label="Marcar E12 como hecho"></td>
+    <td class="titulo">CTE DB-SE-C — Cimientos</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip ok">Regulares</span></td>
+    <td class="num">17</td>
+    <td class="num">24%</td>
+    <td class="num">1.23</td>
+    <td class="num">5/4/4/4</td>
+    <td class="num">0/19</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E13" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E13</td>
+    <td class="hecho"><input type="checkbox" data-tema="E13" aria-label="Marcar E13 como hecho"></td>
+    <td class="titulo">LF 10/2010 — Derecho a la vivienda (I)</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">13%</td>
+    <td class="num">1.10</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/19</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E14" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E14</td>
+    <td class="hecho"><input type="checkbox" data-tema="E14" aria-label="Marcar E14 como hecho"></td>
+    <td class="titulo">LF 10/2010 — Derecho a la vivienda (II)</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">20</td>
+    <td class="num">40%</td>
+    <td class="num">1.38</td>
+    <td class="num">4/4/9/3</td>
+    <td class="num">0/16</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E15" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E15</td>
+    <td class="hecho"><input type="checkbox" data-tema="E15" aria-label="Marcar E15 como hecho"></td>
+    <td class="titulo">DF 61/2013 — Actuaciones protegibles (I)</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">21</td>
+    <td class="num">14%</td>
+    <td class="num">1.41</td>
+    <td class="num">6/5/5/5</td>
+    <td class="num">0/22</td>
+    <td class="num">8</td>
+  </tr><tr data-key="E16" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E16</td>
+    <td class="hecho"><input type="checkbox" data-tema="E16" aria-label="Marcar E16 como hecho"></td>
+    <td class="titulo">DF 61/2013 — Rehabilitación (II) + Ordenanza Pamplona</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">0%</td>
+    <td class="num">1.00</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/40</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E17" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E17</td>
+    <td class="hecho"><input type="checkbox" data-tema="E17" aria-label="Marcar E17 como hecho"></td>
+    <td class="titulo">DF 61/2013 — Integración social (III)</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">7%</td>
+    <td class="num">0.99</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/20</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E18" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E18</td>
+    <td class="hecho"><input type="checkbox" data-tema="E18" aria-label="Marcar E18 como hecho"></td>
+    <td class="titulo">DF 142/2004 — Habitabilidad (I)</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">7%</td>
+    <td class="num">1.04</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/23</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E19" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E19</td>
+    <td class="hecho"><input type="checkbox" data-tema="E19" aria-label="Marcar E19 como hecho"></td>
+    <td class="titulo">DF 142/2004 — Habitabilidad (II)</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">15</td>
+    <td class="num">7%</td>
+    <td class="num">1.03</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/29</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E20" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E20</td>
+    <td class="hecho"><input type="checkbox" data-tema="E20" aria-label="Marcar E20 como hecho"></td>
+    <td class="titulo">LF 17/2020 — Actividades con incidencia ambiental</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">22</td>
+    <td class="num">5%</td>
+    <td class="num">0.97</td>
+    <td class="num">6/6/5/5</td>
+    <td class="num">0/27</td>
+    <td class="num">7</td>
+  </tr><tr data-key="E21" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E21</td>
+    <td class="hecho"><input type="checkbox" data-tema="E21" aria-label="Marcar E21 como hecho"></td>
+    <td class="titulo">DF 26/2022 — Reglamento actividades ambientales</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">21</td>
+    <td class="num">67%</td>
+    <td class="num">2.02</td>
+    <td class="num">5/8/4/4</td>
+    <td class="num">0/48</td>
+    <td class="num">12</td>
+  </tr><tr data-key="E22" data-res="MALO" data-preg="OK" data-global="MALO">
+    <td class="tema">E22</td>
+    <td class="hecho"><input type="checkbox" data-tema="E22" aria-label="Marcar E22 como hecho"></td>
+    <td class="titulo">LF 7/2003 — Turismo de Navarra</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip good">OK</span></td>
+    <td class="num">22</td>
+    <td class="num">5%</td>
+    <td class="num">1.05</td>
+    <td class="num">6/6/5/5</td>
+    <td class="num">0/39</td>
+    <td class="num">14</td>
+  </tr><tr data-key="E23" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E23</td>
+    <td class="hecho"><input type="checkbox" data-tema="E23" aria-label="Marcar E23 como hecho"></td>
+    <td class="titulo">LF 2/1989 — Espectáculos públicos</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">22</td>
+    <td class="num">55%</td>
+    <td class="num">1.77</td>
+    <td class="num">5/8/6/3</td>
+    <td class="num">7/38</td>
+    <td class="num">20</td>
+  </tr><tr data-key="E24" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E24</td>
+    <td class="hecho"><input type="checkbox" data-tema="E24" aria-label="Marcar E24 como hecho"></td>
+    <td class="titulo">DF 202/2002 — Catálogo de espectáculos</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">40%</td>
+    <td class="num">1.36</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">9/52</td>
+    <td class="num">22</td>
+  </tr><tr data-key="E25" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E25</td>
+    <td class="hecho"><input type="checkbox" data-tema="E25" aria-label="Marcar E25 como hecho"></td>
+    <td class="titulo">RD 1627/1997 — Seguridad y salud en obras</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">60%</td>
+    <td class="num">2.05</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/40</td>
+    <td class="num">15</td>
+  </tr><tr data-key="E26" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E26</td>
+    <td class="hecho"><input type="checkbox" data-tema="E26" aria-label="Marcar E26 como hecho"></td>
+    <td class="titulo">DF 108/2014 IEE + DF 322/2000 Libro del Edificio</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">25</td>
+    <td class="num">72%</td>
+    <td class="num">1.79</td>
+    <td class="num">7/6/6/6</td>
+    <td class="num">14/92</td>
+    <td class="num">39</td>
+  </tr><tr data-key="E27" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E27</td>
+    <td class="hecho"><input type="checkbox" data-tema="E27" aria-label="Marcar E27 como hecho"></td>
+    <td class="titulo">DF 23/2011 — Residuos de construcción y demolición</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">17</td>
+    <td class="num">59%</td>
+    <td class="num">1.74</td>
+    <td class="num">5/4/4/4</td>
+    <td class="num">10/62</td>
+    <td class="num">25</td>
+  </tr><tr data-key="E28" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E28</td>
+    <td class="hecho"><input type="checkbox" data-tema="E28" aria-label="Marcar E28 como hecho"></td>
+    <td class="titulo">RDL 7/2015 — Ley de Suelo y Rehabilitación Urbana</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">17</td>
+    <td class="num">65%</td>
+    <td class="num">1.61</td>
+    <td class="num">5/4/4/4</td>
+    <td class="num">10/70</td>
+    <td class="num">20</td>
+  </tr><tr data-key="E29" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E29</td>
+    <td class="hecho"><input type="checkbox" data-tema="E29" aria-label="Marcar E29 como hecho"></td>
+    <td class="titulo">DFL 1/2017 — Territorio y Urbanismo (Tít. prelim, I, II)</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">21</td>
+    <td class="num">43%</td>
+    <td class="num">1.54</td>
+    <td class="num">6/5/5/5</td>
+    <td class="num">10/82</td>
+    <td class="num">26</td>
+  </tr><tr data-key="E30" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E30</td>
+    <td class="hecho"><input type="checkbox" data-tema="E30" aria-label="Marcar E30 como hecho"></td>
+    <td class="titulo">DFL 1/2017 — Título III: régimen del suelo</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">27%</td>
+    <td class="num">1.21</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/27</td>
+    <td class="num">14</td>
+  </tr><tr data-key="E31" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E31</td>
+    <td class="hecho"><input type="checkbox" data-tema="E31" aria-label="Marcar E31 como hecho"></td>
+    <td class="titulo">DFL 1/2017 — Título IV: ejecución del planeamiento</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">40%</td>
+    <td class="num">1.68</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/28</td>
+    <td class="num">14</td>
+  </tr><tr data-key="E32" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E32</td>
+    <td class="hecho"><input type="checkbox" data-tema="E32" aria-label="Marcar E32 como hecho"></td>
+    <td class="titulo">DFL 1/2017 — Título V: disciplina + Título VII</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">53%</td>
+    <td class="num">1.48</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/31</td>
+    <td class="num">14</td>
+  </tr><tr data-key="E33" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E33</td>
+    <td class="hecho"><input type="checkbox" data-tema="E33" aria-label="Marcar E33 como hecho"></td>
+    <td class="titulo">DFL 1/2017 — Título VI: mercado del suelo</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">67%</td>
+    <td class="num">1.48</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">5/47</td>
+    <td class="num">20</td>
+  </tr><tr data-key="E34" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E34</td>
+    <td class="hecho"><input type="checkbox" data-tema="E34" aria-label="Marcar E34 como hecho"></td>
+    <td class="titulo">DF 253/2019 — Registro de Planeamiento</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">80%</td>
+    <td class="num">1.79</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">5/35</td>
+    <td class="num">20</td>
+  </tr><tr data-key="E35" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E35</td>
+    <td class="hecho"><input type="checkbox" data-tema="E35" aria-label="Marcar E35 como hecho"></td>
+    <td class="titulo">Licencias urbanísticas</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">12</td>
+    <td class="num">42%</td>
+    <td class="num">1.56</td>
+    <td class="num">3/3/3/3</td>
+    <td class="num">6/40</td>
+    <td class="num">16</td>
+  </tr><tr data-key="E36" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E36</td>
+    <td class="hecho"><input type="checkbox" data-tema="E36" aria-label="Marcar E36 como hecho"></td>
+    <td class="titulo">Declaraciones responsables y comunicaciones previas</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">18</td>
+    <td class="num">72%</td>
+    <td class="num">2.11</td>
+    <td class="num">5/5/4/4</td>
+    <td class="num">5/49</td>
+    <td class="num">22</td>
+  </tr><tr data-key="E37" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E37</td>
+    <td class="hecho"><input type="checkbox" data-tema="E37" aria-label="Marcar E37 como hecho"></td>
+    <td class="titulo">LF 14/2005 — Patrimonio Cultural de Navarra</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">16</td>
+    <td class="num">56%</td>
+    <td class="num">1.59</td>
+    <td class="num">4/4/4/4</td>
+    <td class="num">8/40</td>
+    <td class="num">22</td>
+  </tr><tr data-key="E38" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E38</td>
+    <td class="hecho"><input type="checkbox" data-tema="E38" aria-label="Marcar E38 como hecho"></td>
+    <td class="titulo">Orden ECO/805/2003 — Valoración de inmuebles</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">53%</td>
+    <td class="num">1.65</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">7/47</td>
+    <td class="num">23</td>
+  </tr><tr data-key="E39" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E39</td>
+    <td class="hecho"><input type="checkbox" data-tema="E39" aria-label="Marcar E39 como hecho"></td>
+    <td class="titulo">RD 1492/2011 — Reglamento de valoraciones</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">12</td>
+    <td class="num">42%</td>
+    <td class="num">1.29</td>
+    <td class="num">3/3/3/3</td>
+    <td class="num">7/31</td>
+    <td class="num">19</td>
+  </tr><tr data-key="E40" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E40</td>
+    <td class="hecho"><input type="checkbox" data-tema="E40" aria-label="Marcar E40 como hecho"></td>
+    <td class="titulo">RD 849/1986 — Dominio Público Hidráulico</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">18</td>
+    <td class="num">61%</td>
+    <td class="num">1.94</td>
+    <td class="num">5/5/4/4</td>
+    <td class="num">9/64</td>
+    <td class="num">24</td>
+  </tr><tr data-key="E41" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E41</td>
+    <td class="hecho"><input type="checkbox" data-tema="E41" aria-label="Marcar E41 como hecho"></td>
+    <td class="titulo">RD 1367/2007 ruido + DF 135/1989</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">12</td>
+    <td class="num">75%</td>
+    <td class="num">1.92</td>
+    <td class="num">3/3/3/3</td>
+    <td class="num">7/37</td>
+    <td class="num">20</td>
+  </tr><tr data-key="E42" data-res="BUENO" data-preg="A REVISAR" data-global="A REVISAR">
+    <td class="tema">E42</td>
+    <td class="hecho"><input type="checkbox" data-tema="E42" aria-label="Marcar E42 como hecho"></td>
+    <td class="titulo">LF 29/2018 — Memoria Histórica</td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td><span class="chip good">Bueno</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">14</td>
+    <td class="num">57%</td>
+    <td class="num">1.74</td>
+    <td class="num">4/4/3/3</td>
+    <td class="num">4/36</td>
+    <td class="num">19</td>
+  </tr><tr data-key="E43" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E43</td>
+    <td class="hecho"><input type="checkbox" data-tema="E43" aria-label="Marcar E43 como hecho"></td>
+    <td class="titulo">LF 17/2001 — Comercio en Navarra</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E44" data-res="EN BLANCO" data-preg="A REVISAR" data-global="FALTA RESUMEN">
+    <td class="tema">E44</td>
+    <td class="hecho"><input type="checkbox" data-tema="E44" aria-label="Marcar E44 como hecho"></td>
+    <td class="titulo">Ley 21/2013 — Evaluación ambiental</td>
+    <td><span class="chip warn">Falta resumen</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">40%</td>
+    <td class="num">1.26</td>
+    <td class="num">4/4/5/2</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E45" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E45</td>
+    <td class="hecho"><input type="checkbox" data-tema="E45" aria-label="Marcar E45 como hecho"></td>
+    <td class="titulo">Orden TMA/851/2021 — Accesibilidad espacios públicos</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E46" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E46</td>
+    <td class="hecho"><input type="checkbox" data-tema="E46" aria-label="Marcar E46 como hecho"></td>
+    <td class="titulo">LF 4/2022 — Cambio Climático y Transición Energética</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E47" data-res="EN BLANCO" data-preg="A REVISAR" data-global="FALTA RESUMEN">
+    <td class="tema">E47</td>
+    <td class="hecho"><input type="checkbox" data-tema="E47" aria-label="Marcar E47 como hecho"></td>
+    <td class="titulo">LF 2/2018 — Contratos Públicos (I)</td>
+    <td><span class="chip warn">Falta resumen</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">14</td>
+    <td class="num">7%</td>
+    <td class="num">0.93</td>
+    <td class="num">1/7/5/1</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E48" data-res="EN BLANCO" data-preg="A REVISAR" data-global="FALTA RESUMEN">
+    <td class="tema">E48</td>
+    <td class="hecho"><input type="checkbox" data-tema="E48" aria-label="Marcar E48 como hecho"></td>
+    <td class="titulo">LF 2/2018 — Contratos Públicos (II)</td>
+    <td><span class="chip warn">Falta resumen</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">0%</td>
+    <td class="num">0.94</td>
+    <td class="num">0/7/7/1</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E49" data-res="EN BLANCO" data-preg="A REVISAR" data-global="FALTA RESUMEN">
+    <td class="tema">E49</td>
+    <td class="hecho"><input type="checkbox" data-tema="E49" aria-label="Marcar E49 como hecho"></td>
+    <td class="titulo">LF 2/2018 — Contratos Públicos (III)</td>
+    <td><span class="chip warn">Falta resumen</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">16</td>
+    <td class="num">6%</td>
+    <td class="num">1.01</td>
+    <td class="num">3/9/4/0</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E50" data-res="EN BLANCO" data-preg="A REVISAR" data-global="FALTA RESUMEN">
+    <td class="tema">E50</td>
+    <td class="hecho"><input type="checkbox" data-tema="E50" aria-label="Marcar E50 como hecho"></td>
+    <td class="titulo">LF 2/2018 — Contratos Públicos (IV)</td>
+    <td><span class="chip warn">Falta resumen</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">0%</td>
+    <td class="num">1.00</td>
+    <td class="num">2/7/5/1</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E51" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E51</td>
+    <td class="hecho"><input type="checkbox" data-tema="E51" aria-label="Marcar E51 como hecho"></td>
+    <td class="titulo">DF 45/2011 — POT 3 Área Central</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E52" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E52</td>
+    <td class="hecho"><input type="checkbox" data-tema="E52" aria-label="Marcar E52 como hecho"></td>
+    <td class="titulo">Historia de la evolución urbanística de Pamplona</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">80%</td>
+    <td class="num">1.52</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/26</td>
+    <td class="num">14</td>
+  </tr><tr data-key="E53" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E53</td>
+    <td class="hecho"><input type="checkbox" data-tema="E53" aria-label="Marcar E53 como hecho"></td>
+    <td class="titulo">Plan Municipal de Pamplona</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">47%</td>
+    <td class="num">1.42</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/27</td>
+    <td class="num">15</td>
+  </tr><tr data-key="E54" data-res="MALO" data-preg="A REVISAR" data-global="MALO">
+    <td class="tema">E54</td>
+    <td class="hecho"><input type="checkbox" data-tema="E54" aria-label="Marcar E54 como hecho"></td>
+    <td class="titulo">Catálogo del Plan Municipal de Pamplona</td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">Malo</span></td>
+    <td><span class="chip bad">A revisar</span></td>
+    <td class="num">15</td>
+    <td class="num">67%</td>
+    <td class="num">1.84</td>
+    <td class="num">4/4/4/3</td>
+    <td class="num">0/30</td>
+    <td class="num">16</td>
+  </tr><tr data-key="E55" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E55</td>
+    <td class="hecho"><input type="checkbox" data-tema="E55" aria-label="Marcar E55 como hecho"></td>
+    <td class="titulo">PEPRI del Casco Antiguo de Pamplona</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E56" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E56</td>
+    <td class="hecho"><input type="checkbox" data-tema="E56" aria-label="Marcar E56 como hecho"></td>
+    <td class="titulo">Ordenanza General de Edificación de Pamplona</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E57" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E57</td>
+    <td class="hecho"><input type="checkbox" data-tema="E57" aria-label="Marcar E57 como hecho"></td>
+    <td class="titulo">Ordenanzas de higiene de Pamplona</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E58" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E58</td>
+    <td class="hecho"><input type="checkbox" data-tema="E58" aria-label="Marcar E58 como hecho"></td>
+    <td class="titulo">Movilidad en la planificación urbana de Pamplona</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr><tr data-key="E59" data-res="EN BLANCO" data-preg="SIN PREGUNTAS" data-global="EN BLANCO">
+    <td class="tema">E59</td>
+    <td class="hecho"><input type="checkbox" data-tema="E59" aria-label="Marcar E59 como hecho"></td>
+    <td class="titulo">Ciclo del agua en la planificación urbana de Pamplona</td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">En blanco</span></td>
+    <td><span class="chip blank">Sin preg.</span></td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">-</td>
+    <td class="num">0/0</td>
+    <td class="num">0</td>
+  </tr>
+      </tbody>
+    </table>
+  </div>
+  <section class="bloques">
+    <ul>
+      <li>En blanco (9): E43, E45, E46, E51, E55, E56, E57, E58, E59</li><li>Falta resumen (5): E44, E47, E48, E49, E50</li><li>Malo (22): E3, E4, E10, E11, E12, E13, E14, E15, E16, E17, E18, E19, E20, E21, E22, E25, E30, E31, E32, E52, E53, E54</li><li>A revisar (16): E23, E24, E26, E27, E28, E29, E33, E34, E35, E36, E37, E38, E39, E40, E41, E42</li><li>Pocas (0): ninguno</li><li>Regulares (9): G7, G8, G10, E1, E2, E5, E6, E7, E9</li><li>OK (11): G1, G2, G3, G4, G5, G6, G9, G11, G12, G13, E8</li>
+    </ul>
+  </section>
+  <script>
     const STORAGE_KEY = 'opoTemasHechos';
     const buttons = document.querySelectorAll('.controls button');
-    const rows = [...document.querySelectorAll('tbody tr')];
+    const rows = document.querySelectorAll('tbody tr');
+    const checks = document.querySelectorAll('tbody input[type="checkbox"]');
     const counters = document.getElementById('counters');
-    const checks = document.querySelectorAll('input[type="checkbox"][data-tema]');
 
-    function getDone() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch { return {}; } }
-    function saveDone(done) { localStorage.setItem(STORAGE_KEY, JSON.stringify(done)); }
-    function applyDone() {
-      const done = getDone();
-      checks.forEach(c => {
-        const row = c.closest('tr');
-        const ok = !!done[c.dataset.tema];
-        c.checked = ok;
-        row.classList.toggle('hecho', ok);
+    function saveChecks() {
+      const done = [...checks].filter(c => c.checked).map(c => c.dataset.tema);
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(done)); } catch {}
+    }
+
+    function loadChecks() {
+      try {
+        const done = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+        for (const c of checks) {
+          c.checked = done.includes(c.dataset.tema);
+          c.closest('tr').classList.toggle('hecho', c.checked);
+        }
+      } catch {}
+    }
+
+    function updateCounters() {
+      const done = [...checks].filter(c => c.checked).length;
+      const total = checks.length;
+      if (counters) counters.textContent = `${done}/${total} hechos · ${total - done} pendientes`;
+    }
+
+    function rowDone(row) {
+      return row.querySelector('input[type="checkbox"]').checked;
+    }
+
+    function applyFilter(filter) {
+      rows.forEach(row => {
+        let show;
+        if (filter === 'all') show = true;
+        else if (filter === 'hechos') show = rowDone(row);
+        else if (filter === 'pendientes') show = !rowDone(row);
+        else show = row.dataset.global === filter || row.dataset.res === filter || row.dataset.preg === filter;
+        row.classList.toggle('hidden', !show);
       });
     }
-    function updateCounters() {
-      const visible = rows.filter(r => !r.classList.contains('hidden')).length;
-      const done = getDone();
-      const hechos = rows.filter(r => done[r.dataset.key]).length;
-      counters.textContent = `Mostrando ${visible} de ${rows.length} temas · Hechos: ${hechos}/${rows.length}`;
-    }
-    function matches(row, filter) {
-      if (filter === 'all') return true;
-      if (filter === 'hechos') return !!getDone()[row.dataset.key];
-      if (filter === 'pendientes') return !getDone()[row.dataset.key];
-      return row.dataset.global === filter || row.dataset.res === filter || row.dataset.preg === filter;
-    }
-    buttons.forEach(button => button.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      button.classList.add('active');
-      const filter = button.dataset.filter;
-      rows.forEach(row => row.classList.toggle('hidden', !matches(row, filter)));
-      updateCounters();
-    }));
-    checks.forEach(c => c.addEventListener('change', () => {
-      const done = getDone();
-      done[c.dataset.tema] = c.checked;
-      saveDone(done);
-      c.closest('tr').classList.toggle('hecho', c.checked);
-      updateCounters();
-    }));
-    applyDone();
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyFilter(btn.dataset.filter);
+      });
+    });
+
+    checks.forEach(c => {
+      c.addEventListener('change', () => {
+        c.closest('tr').classList.toggle('hecho', c.checked);
+        saveChecks();
+        updateCounters();
+        const active = document.querySelector('.controls button.active');
+        if (active && (active.dataset.filter === 'hechos' || active.dataset.filter === 'pendientes')) {
+          applyFilter(active.dataset.filter);
+        }
+      });
+    });
+
+    loadChecks();
     updateCounters();
-</script>
+  </script>
 </body>
 </html>
