@@ -28,21 +28,38 @@ const normalizarEstado = (s) => {
 };
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
-const seleccionarAdaptativas = (preguntas, historial, cantidad) => {
+// No modifica el historial: solamente decide qué preguntas merecen volver a
+// aparecer hoy. La prioridad combina el fallo aún pendiente, el rendimiento
+// histórico y el tiempo transcurrido desde la última vez que se vio.
+const seleccionarAdaptativas = (preguntas, historial, falladas, cantidad) => {
+  const ahora = Date.now();
+  const pendientes = new Set(falladas || []);
   const ponderadas = preguntas.map((q) => {
     const h = historial?.[q.id] || {};
+    const vistas = Number(h.vistas) || 0;
     const fallos = h.fallos || 0;
     const aciertos = h.aciertos || 0;
+    const ultima = Number(h.ultima) || 0;
+    const diasDesdeUltima = ultima > 0 ? Math.max(0, (ahora - ultima) / 86_400_000) : null;
 
-    // Base 1.
-    // Cada fallo añade mucho peso.
-    // Los aciertos reducen ligeramente la prioridad.
-    const peso = Math.max(
-      0.5,
-      1 + fallos * 2 - Math.min(aciertos * 0.1, 0.5)
-    );
+    let peso = 1;
+    // Un fallo que aún no se ha resuelto debe salir primero, pero no se repite
+    // obligatoriamente: la selección conserva variedad dentro de la tanda.
+    if (pendientes.has(q.id)) peso += 16;
+    // El histórico importa incluso si la última respuesta fue correcta.
+    if (vistas > 0) peso += Math.min(8, (fallos / vistas) * 8 + fallos * 0.7);
+    // Una pregunta inédita ayuda a no convertir el repaso en un bucle de
+    // errores; una ya vista hace tiempo vuelve a ganar prioridad poco a poco.
+    if (!vistas) peso += 3;
+    else if (diasDesdeUltima !== null) {
+      peso += Math.min(3.5, diasDesdeUltima * 0.25);
+      if (diasDesdeUltima < 1 && !pendientes.has(q.id)) peso -= 3;
+    }
+    // Muchos aciertos no expulsan una pregunta: solo evitan que desplace a
+    // una laguna real por el mero hecho de haber aparecido muchas veces.
+    peso -= Math.min(0.8, aciertos * 0.08);
 
-    return { q, peso };
+    return { q, peso: Math.max(0.2, peso) };
   });
 
   const resultado = [];
@@ -1328,7 +1345,7 @@ const iniciar = () => {
 
   const seleccionBase =
     modo === "aprendido"
-      ? seleccionarAdaptativas(base, state.preguntas, num)
+      ? seleccionarAdaptativas(base, state.preguntas, state.falladas, num)
       : shuffle(base).slice(0, Math.min(num, base.length));
 
   const seleccion = seleccionBase.map((q) => ({
@@ -1443,7 +1460,7 @@ next.sesiones = [
   onClick={() => setModo("aprendido")}
   disabled={!temasLeidos.length || !preguntasAprendido.length}
 >
-  Repasar lo aprendido ({temasLeidos.length})
+  Repaso inteligente ({temasLeidos.length})
 </Chip>
           <Chip on={modo === "falladas"} onClick={() => setModo("falladas")} disabled={!nF}>Repasar mis fallos ({nF})</Chip>
         </div>
@@ -1472,6 +1489,13 @@ next.sesiones = [
               <Chip on={alcanceFallos === "recientes"} onClick={() => setAlcanceFallos("recientes")}>Últimos 100 fallos ({Math.min(nF, 100)})</Chip>
               <Chip on={alcanceFallos === "todos"} onClick={() => setAlcanceFallos("todos")}>Todos mis fallos ({nF})</Chip>
             </div>
+          </div>
+        )}
+
+        {modo === "aprendido" && (
+          <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
+            <Label>Selección automática</Label>
+            <p style={{ ...pSmall, margin: 0 }}>Mezcla preguntas no vistas, fallos que aún tienes pendientes, fallos históricos y preguntas que llevan tiempo sin aparecer. No cambia tus porcentajes ni borra tus fallos: solo decide mejor la siguiente tanda.</p>
           </div>
         )}
 
