@@ -6,6 +6,11 @@ import { SUPUESTOS } from "./data/supuestos.js";
 import { loadState, saveState, syncDisponible, getCodigo, setCodigo } from "./lib/storage.js";
 import { supabase } from "./lib/supabase.js";
 
+// El historial conserva todas las preguntas contestadas. El banco de estudio,
+// en cambio, excluye las retiradas tras una auditoría editorial.
+const esPreguntaActiva = (pregunta) => pregunta.estado !== "retirada";
+const PREGUNTAS_ACTIVAS = PREGUNTAS.filter(esPreguntaActiva);
+
 /* ---------- TOKENS (tablero de delineación) ---------- */
 // Los valores son variables CSS: cambian solas con el atributo data-theme del <div id="app-wrap">.
 const C = {
@@ -219,7 +224,7 @@ function Inicio({ state, setTab, reload }) {
       </Ficha>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(150px,1fr))", gap: 12, margin: "18px 0" }}>
-        <Stat n={PREGUNTAS.length} label="preguntas en el banco" />
+        <Stat n={PREGUNTAS_ACTIVAS.length} label="preguntas activas" />
         <Stat n={vistas} label="respondidas" />
         <Stat n={`${pct}%`} label="aciertos brutos" accent={pct >= 70 ? C.ok : pct >= 50 ? C.amber : C.red} />
         <Stat n={`${pctNeto}%`} label="neto (−1/3 por fallo)" accent={pctNeto >= 50 ? C.ok : pctNeto >= 35 ? C.amber : C.red} />
@@ -1291,7 +1296,7 @@ function Test({ state, persist }) {
   (codigo) => state.leidos[codigo]
 );
 
-const preguntasAprendido = PREGUNTAS.filter(
+const preguntasAprendido = PREGUNTAS_ACTIVAS.filter(
   (q) => temasLeidos.includes(q.tema)
 );
   const [parteR, setParteR] = useState("E"); const [desde, setDesde] = useState(1); const [hasta, setHasta] = useState(5);
@@ -1299,7 +1304,7 @@ const preguntasAprendido = PREGUNTAS.filter(
   const [alcanceFallos, setAlcanceFallos] = useState("recientes");
   const [examen, setExamen] = useState(false); const [tiempoExamen, setTiempoExamen] = useState(90);
   const [segRestantes, setSegRestantes] = useState(0);
-  const temasDisp = [...new Set(PREGUNTAS.map((q) => q.tema))];
+  const temasDisp = [...new Set(PREGUNTAS_ACTIVAS.map((q) => q.tema))];
 
   useEffect(() => {
     if (fase !== "run" || !examen) return;
@@ -1317,25 +1322,25 @@ const preguntasAprendido = PREGUNTAS.filter(
     const lo = Math.min(desde, hasta), hi = Math.max(desde, hasta);
     return n >= lo && n <= hi;
   };
-  const disponiblesRango = PREGUNTAS.filter(enRango).length;
+  const disponiblesRango = PREGUNTAS_ACTIVAS.filter(enRango).length;
   const enTema = (q) => q.tema === `${parteR}${temaUnico}`;
-  const disponiblesTema = PREGUNTAS.filter(enTema).length;
+  const disponiblesTema = PREGUNTAS_ACTIVAS.filter(enTema).length;
 
 const iniciar = () => {
-  let base = PREGUNTAS;
+  let base = PREGUNTAS_ACTIVAS;
 
   if (modo === "falladas") {
     const ids = alcanceFallos === "recientes"
       ? state.falladas.slice(-100)
       : state.falladas;
 
-    base = PREGUNTAS.filter((q) => ids.includes(q.id));
+    base = PREGUNTAS_ACTIVAS.filter((q) => ids.includes(q.id));
 
   } else if (modo === "rango") {
-    base = PREGUNTAS.filter(enRango);
+    base = PREGUNTAS_ACTIVAS.filter(enRango);
 
   } else if (modo === "tema") {
-    base = PREGUNTAS.filter(enTema);
+    base = PREGUNTAS_ACTIVAS.filter(enTema);
 
   } else if (modo === "aprendido") {
     base = preguntasAprendido;
@@ -1438,7 +1443,7 @@ next.sesiones = [
   const irA = (i) => { if (i >= 0 && i < pool.length) { setIdx(i); setConfirmFin(false); } };
 
   if (fase === "config") {
-    const nF = state.falladas.length;
+    const nF = state.falladas.filter((id) => PREGUNTAS_ACTIVAS.some((q) => q.id === id)).length;
     const maxTema = parteR === "G" ? totalGeneral : totalEsp;
     const nums = Array.from({ length: maxTema }, (_, i) => i + 1);
     const presets = parteR === "G" ? [[1, 5], [6, 10], [11, 13]] : [[1, 5], [6, 10], [11, 15], [16, 20], [21, 25], [26, 30], [31, 35], [36, 40], [41, 45], [46, 50], [51, 55], [56, 59]];
@@ -1452,7 +1457,7 @@ next.sesiones = [
         <p style={p}>Cuatro opciones, una válida. Corrección como el examen real: cada fallo resta 1/3; en blanco, ni suma ni resta.</p>
         <Label>Modo</Label>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
-          <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({PREGUNTAS.length})</Chip>
+          <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({PREGUNTAS_ACTIVAS.length})</Chip>
           <Chip on={modo === "tema"} onClick={() => setModo("tema")}>Un solo tema</Chip>
           <Chip on={modo === "rango"} onClick={() => setModo("rango")}>Por rango de temas</Chip>
           <Chip

@@ -2148,10 +2148,10 @@ export const PREGUNTAS = [
 
   { id: "E3-07", tema: "E3",
     q: "Conforme a la tabla 1.2 del DB-SI, ¿cuál es la resistencia al fuego de las puertas de paso entre sectores de incendio?",
-    o: ["EI2 30-C5 siempre",
+    o: ["EI2 30-C5, con independencia de la resistencia exigida a la pared",
         "EI2 t-C5, siendo t igual al tiempo de resistencia al fuego de la pared",
         "EI2 t-C5, siendo t la mitad del tiempo de resistencia al fuego requerido a la pared donde se encuentra",
-        "EI2 60-C5 para cualquier uso y altura"],
+        "EI2 60-C5, con independencia de si existe vestíbulo de independencia"],
     c: 2, exp: "Tabla 1.2 DB-SI: las puertas de paso entre sectores de incendio deben ser EI2 t-C5, siendo t la mitad del tiempo de resistencia al fuego requerido a la pared en la que se encuentre, o bien la cuarta parte cuando el paso se realice a través de un vestíbulo de independencia y dos puertas." },
 
   { id: "E3-08", tema: "E3",

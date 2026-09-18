@@ -78,6 +78,9 @@ create policy "acceso por codigo" on progreso
 Todo el contenido vive en `src/data/`, separado de la lógica:
 
 - `preguntas.js` — banco de test. Añade objetos `{ id, tema, q, o, c, exp }`.
+  Para retirar una pregunta auditada sin borrar su historial, añade
+  `estado: "retirada"` y, si existe, `sustituidaPor: "E3-XX"`. Las retiradas
+  no salen en test ni en repaso de fallos; sus datos históricos se conservan.
 - `resumenes.js` — resúmenes por tema.
 - `supuestos.js` — supuestos prácticos de la 2ª prueba.
 - `temas.js` — índice oficial (no tocar salvo erratas).
