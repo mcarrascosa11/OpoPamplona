@@ -1241,7 +1241,7 @@ export const RESUMENES = {
   },
   G1: {
   intro:
-    "Constitución Española de 1978: norma suprema del ordenamiento. Aprobada por las Cortes el 31-10-1978, ratificada en referéndum el 6-12-1978, sancionada por el Rey el 27-12-1978 y publicada en el BOE el 29-12-1978, fecha en que ENTRA EN VIGOR (disposición final). Estructura: Preámbulo + Título Preliminar + 10 Títulos, 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final. Solo ha sido reformada DOS veces: art. 13.2 (1992, sufragio pasivo de extranjeros en municipales por Maastricht) y art. 135 (2011, estabilidad presupuestaria).",
+    "Constitución Española de 1978: norma suprema del ordenamiento. Aprobada por las Cortes el 31-10-1978, ratificada en referéndum el 6-12, sancionada el 27-12 y publicada —con entrada en vigor— el 29-12-1978. Estructura: Preámbulo + Título Preliminar + 10 Títulos, 169 artículos, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final. Tiene CUATRO reformas vigentes: arts. 13.2 (1992), 135 (2011), 49 (2024) y 69.3 (2026). Para este tema son nucleares el Preliminar, el Título I y los capítulos I y II del Título VIII (arts. 137 a 142).",
   bloques: [
     {
       h: "Título Preliminar (arts. 1-9)",
@@ -1260,11 +1260,27 @@ export const RESUMENES = {
         "Art. 9.2: poderes públicos promueven condiciones para que libertad e igualdad sean reales y efectivas",
         "Art. 9.3: legalidad, jerarquía normativa, publicidad, irretroactividad de lo sancionador no favorable, seguridad jurídica, responsabilidad e interdicción de la arbitrariedad",
       ],
+      tablas: [
+        { titulo: "Constitución · reformas vigentes", tabla: [
+          ["Fecha", "Artículo", "Materia que debes asociar"],
+          ["1992", "13.2", "Sufragio activo y pasivo de extranjeros en municipales"],
+          ["2011", "135", "Estabilidad presupuestaria y deuda pública"],
+          ["2024", "49", "Derechos, autonomía e inclusión de personas con discapacidad"],
+          ["2026", "69.3", "Senado: Ibiza y Formentera, circunscripciones separadas"],
+        ]},
+        { titulo: "Título Preliminar · asociaciones de examen", tabla: [
+          ["Artículo", "Asociación correcta", "Trampa habitual"],
+          ["1.1 / 1.3", "Valores: libertad, justicia, igualdad, pluralismo; forma: Monarquía parlamentaria", "Confundir definición del Estado y forma política"],
+          ["3", "Castellano: deber de conocer y derecho de usar", "Las otras lenguas son oficiales según su Estatuto"],
+          ["5", "Capital: la villa de Madrid", "Decir ciudad de Madrid"],
+          ["9.3", "Legalidad a interdicción de arbitrariedad", "Incluir la igualdad, que está en art. 14"],
+        ]},
+      ],
     },
     {
       h: "Fundamentos del Título I y españoles/extranjeros (arts. 10-13)",
       nota:
-        "El art. 10.2 es la puerta de entrada del Derecho internacional: obliga a interpretar los derechos fundamentales conforme a la Declaración Universal y a los tratados ratificados por España, y por eso se invoca constantemente. Del art. 13 lo examinable es la reforma de 1992, la primera de las dos que ha tenido la Constitución: se añadió el sufragio PASIVO —no solo el activo— de los extranjeros en las municipales, para poder ratificar Maastricht.",
+        "El art. 10.2 es la puerta de entrada del Derecho internacional: obliga a interpretar los derechos fundamentales conforme a la Declaración Universal y a los tratados ratificados por España. Del art. 13 lo examinable es la reforma de 1992, la primera de CUATRO: se añadió el sufragio PASIVO —no solo el activo— de los extranjeros en las municipales, para poder ratificar Maastricht.",
       items: [
         "Art. 10.1: dignidad de la persona, libre desarrollo de la personalidad, respeto a la ley y a los derechos de los demás = fundamento del orden político y de la paz social",
         "Art. 10.2: derechos fundamentales se interpretan conforme a la Declaración Universal de DDHH y tratados internacionales ratificados",
@@ -1282,7 +1298,7 @@ export const RESUMENES = {
         "El bloque más preguntado de la Constitución, y donde importa tanto el contenido como la UBICACIÓN de cada derecho, porque de ella depende su nivel de protección. Ten presente la anomalía del art. 14: la igualdad está fuera de la Sección 1ª —encabeza el Capítulo II— pero el art. 53.2 la hace amparable igual que los arts. 15 a 29. Es la trampa clásica: preguntan qué derecho «no pertenece a la Sección 1ª» y la respuesta es la igualdad, aunque sí quepa amparo.",
       items: [
         "Art. 14: igualdad ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión u otra condición. OJO: está FUERA de la Sección 1ª pero es amparable por el 53.2",
-        "Art. 15: derecho a la vida y a la integridad física y moral; prohibida la tortura y tratos inhumanos; pena de muerte ABOLIDA salvo leyes penales militares en tiempos de guerra",
+        "Art. 15: derecho a la vida y a la integridad física y moral; prohibidas tortura y tratos inhumanos. Literal constitucional: pena de muerte abolida salvo leyes penales militares en tiempo de guerra; la legislación penal vigente no la prevé",
         "Art. 16: libertad ideológica, religiosa y de culto; NINGUNA confesión tiene carácter estatal; cooperación con la Iglesia Católica y demás",
         "Art. 17: libertad y seguridad; detención preventiva máx. 72 horas; habeas corpus; derechos del detenido (informar de razones, abogado, silencio)",
         "Art. 18: honor, intimidad personal y familiar y propia imagen; inviolabilidad del domicilio; secreto de las comunicaciones; art. 18.4: protección frente al uso de la informática",
@@ -1296,7 +1312,7 @@ export const RESUMENES = {
         "Art. 26: prohibidos los Tribunales de Honor en el ámbito civil y profesional",
         "Art. 27: educación; libertad de enseñanza; enseñanza BÁSICA obligatoria y gratuita; libertad de creación de centros; participación de profesores, padres y alumnos; autonomía universitaria",
         "Art. 28: sindicación libre (nadie obligado a sindicarse); derecho de huelga; ley de servicios esenciales",
-        "Art. 29: petición individual por escrito; miembros de FFAA/Institutos armados: solo por conducto de su mando",
+        "Art. 29: petición individual Y colectiva por escrito; miembros de FFAA/Institutos armados o cuerpos con disciplina militar: solo individualmente y conforme a su legislación específica",
       ],
     },
     {
@@ -1304,7 +1320,7 @@ export const RESUMENES = {
       nota:
         "La Sección 2ª vincula a todos los poderes públicos y exige ley para regular su ejercicio, pero NO tiene amparo constitucional: esa es la frontera que separa esta sección de la anterior. La única excepción la introduce el propio art. 53.2, que extiende el amparo a la objeción de conciencia del art. 30.2 pese a estar aquí. Para el técnico municipal el artículo relevante es el 33: la propiedad privada, con su garantía expropiatoria de utilidad pública o interés social mediante indemnización.",
       items: [
-        "Art. 30: servicio militar para defender España; objeción de conciencia con prestación social sustitutoria",
+        "Art. 30: derecho y deber de defender España; la ley fija obligaciones militares, objeción de conciencia y causas de exención, pudiendo imponer prestación social sustitutoria",
         "Art. 31: sistema tributario justo inspirado en igualdad y progresividad; nunca alcance confiscatorio",
         "Art. 32: matrimonio con igualdad de derechos y deberes de los cónyuges",
         "Art. 33: propiedad privada y herencia; nadie privado de sus bienes sino por expropiación por utilidad pública o interés social MEDIANTE COMPENSACIÓN y conforme a leyes",
@@ -1327,7 +1343,7 @@ export const RESUMENES = {
         "Art. 46: patrimonio histórico, cultural y artístico",
         "Art. 47: vivienda digna y adecuada; regulación del suelo para impedir la especulación",
         "Art. 48: participación de la juventud",
-        "Art. 49: atención e integración de personas con discapacidad",
+        "Art. 49 (reforma 2024): personas con discapacidad ejercen los derechos del Título I en libertad e igualdad reales y efectivas; políticas de autonomía personal e inclusión social en entornos universalmente accesibles",
         "Art. 50: pensiones adecuadas y periódicamente actualizadas para la tercera edad",
         "Art. 51: defensa de consumidores y usuarios",
         "Art. 53.3: los principios rectores SOLO son alegables ante la judicatura ordinaria conforme a las leyes que los desarrollen (no invocables directamente)",
@@ -1341,13 +1357,29 @@ export const RESUMENES = {
         "Art. 53.1: ley regulará el ejercicio de los derechos de Secciones 1ª y 2ª respetando su contenido esencial",
         "Art. 53.2: recurso de AMPARO ante el TC: art. 14 + Sección 1ª (arts. 15-29) + objeción de conciencia del 30.2",
         "Art. 54: Defensor del Pueblo = alto comisionado de las Cortes Generales, regulado por ley orgánica",
-        "Art. 55.1 (estados de excepción o sitio): suspendibles 17.2, 17.3, 18.2, 18.3, 19, 20.1.a y d, 21, 28.2 y 37.2; EXCEPTO el 17.3 en estado de excepción",
+        "Art. 55.1 (estados de excepción o sitio): suspendibles 17.2, 17.3, 18.2, 18.3, 19, 20.1.a y d Y 20.5, 21, 28.2 y 37.2; EXCEPTO el 17.3 en estado de excepción",
         "Art. 55.2 (suspensión individual, investigación de bandas armadas/elementos terroristas): 17.2 y 18.2 y 18.3, con intervención judicial y control parlamentario",
         "TRAMPA: el honor (18.1) NUNCA se suspende; el 28.2 (huelga) y 37.2 (conflicto colectivo) SÍ son suspendibles",
+      ],
+      tablas: [
+        { titulo: "Título I · nivel de protección", tabla: [
+          ["Bloque", "Artículos", "Tutela que debes recordar"],
+          ["Igualdad y Sección 1.ª", "14 y 15-29", "Procedimiento preferente y sumario; amparo ante TC"],
+          ["Objeción de conciencia", "30.2", "También amparo, aunque está en Sección 2.ª"],
+          ["Sección 2.ª", "30-38", "Ley y contenido esencial; sin amparo salvo 30.2"],
+          ["Principios rectores", "39-52", "Alegables conforme a las leyes que los desarrollen"],
+        ]},
+        { titulo: "Art. 55.1 · suspensión en excepción o sitio", tabla: [
+          ["Puede suspenderse", "Matiz"],
+          ["17.2; 18.2 y 18.3; 19; 20.1.a/d y 20.5; 21; 28.2; 37.2", "En excepción o sitio, en los términos constitucionales"],
+          ["17.3", "En sitio; queda exceptuado en estado de excepción"],
+          ["18.1", "Honor e intimidad: no figura entre los suspendibles"],
+        ]},
       ],
     },
     {
       h: "La Corona (arts. 56-65)",
+      incluir: false,
       nota:
         "Título breve y de memoria pura. Dos ideas lo sostienen. La primera es que la inviolabilidad del Rey solo se explica junto al REFRENDO: como el Rey no responde, responde quien refrenda, y sin refrendo sus actos son nulos. La segunda es el orden sucesorio del art. 57.1, que hay que recitar entero —línea anterior sobre posterior, grado más próximo sobre más remoto, varón sobre mujer en el mismo grado, y mayor sobre menor en el mismo sexo— porque se pregunta cambiando un escalón. Ojo al refrendo del nombramiento del Presidente del Gobierno, que corresponde al Presidente del CONGRESO y no al del Gobierno.",
       items: [
@@ -1363,12 +1395,13 @@ export const RESUMENES = {
     },
     {
       h: "Cortes Generales (arts. 66-80)",
+      incluir: false,
       nota:
-        "Bicameralismo imperfecto: las dos cámaras tienen mandato de cuatro años, pero el Congreso predomina y el Senado es cámara de representación territorial con capacidad de veto vencible. Las cifras del Congreso y del Senado se preguntan por separado y se confunden: el Congreso tiene una horquilla constitucional de 300 a 400 diputados —hoy 350 por ley electoral— con reparto proporcional; el Senado tiene números fijos por provincia e isla que hay que memorizar tal cual. Los dos períodos ordinarios de sesiones, de febrero a junio y de septiembre a diciembre, son otro dato de respuesta directa.",
+        "Bicameralismo imperfecto: las dos cámaras tienen mandato de cuatro años, pero el Congreso predomina y el Senado es cámara de representación territorial con capacidad de veto vencible. Las cifras del Congreso y del Senado se preguntan por separado y se confunden: el Congreso tiene una horquilla constitucional de 300 a 400 diputados —hoy 350 por ley electoral— con reparto proporcional; el Senado tiene números fijos por provincia e isla que han cambiado en 2026. Los dos períodos ordinarios de sesiones, de febrero a junio y de septiembre a diciembre, son otro dato de respuesta directa.",
       items: [
         "Art. 66: representan al pueblo español; potestad legislativa, aprueban Presupuestos, controlan al Gobierno",
         "Art. 68: Congreso de 300 a 400 diputados (hoy 350); circunscripción = provincia; mínimo 2 por provincia + 1 Ceuta y 1 Melilla; representación PROPORCIONAL",
-        "Art. 69: Senado = cámara de representación TERRITORIAL; 4 senadores por provincia; Gran Canaria, Mallorca y Tenerife = 3; Ibiza-Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma = 1; Ceuta y Melilla = 2",
+        "Art. 69: Senado = cámara de representación TERRITORIAL; 4 senadores por provincia; Gran Canaria, Mallorca y Tenerife = 3; Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma = 1; Ceuta y Melilla = 2",
         "Art. 68.2/69.6: mandato de AMBAS cámaras = 4 años",
         "Art. 73: dos períodos ORDINARIOS de sesiones: febrero-junio y septiembre-diciembre",
         "Art. 74: sesiones conjuntas para competencias no legislativas del Título II (juras, etc.)",
@@ -1378,6 +1411,7 @@ export const RESUMENES = {
     },
     {
       h: "Fuentes: ley orgánica, delegación, decreto-ley, iniciativa (arts. 81-92)",
+      incluir: false,
       nota:
         "El bloque de fuentes se examina cruzando LÍMITES MATERIALES con MAYORÍAS y PLAZOS. Lo que reserva el art. 81 a ley orgánica es casi lo mismo que el art. 86 prohíbe al decreto-ley y lo que el art. 82 excluye de la delegación legislativa, así que memorizar una lista te da las tres. Distingue bien las dos formas de delegación: ley de BASES para texto articulado y ley ordinaria para texto REFUNDIDO. Y no confundas los treinta días de convalidación del decreto-ley con los quince de sanción regia o los dos meses del veto del Senado.",
       items: [
@@ -1392,6 +1426,7 @@ export const RESUMENES = {
     },
     {
       h: "Gobierno y relación con las Cortes (arts. 97-116)",
+      incluir: false,
       nota:
         "Todo este bloque se reduce a una tabla de mayorías y plazos, y ahí es donde se falla. La investidura pide mayoría absoluta y, si falla, simple a las cuarenta y ocho horas, con disolución automática si en dos meses desde la primera votación nadie sale investido. La cuestión de confianza se gana por mayoría SIMPLE; la moción de censura exige ABSOLUTA y es constructiva, es decir, con candidato alternativo incluido. Los estados del art. 116 son otra tabla: alarma la declara el Gobierno por quince días, la excepción exige autorización previa del Congreso, y el sitio lo declara el Congreso por mayoría absoluta.",
       items: [
@@ -1408,6 +1443,7 @@ export const RESUMENES = {
     },
     {
       h: "Poder Judicial (arts. 117-127)",
+      incluir: false,
       nota:
         "Lo preguntable es la composición del CGPJ y el matiz del art. 123. El Tribunal Supremo culmina la organización judicial en todos los órdenes SALVO en materia de garantías constitucionales, que es del Tribunal Constitucional; y en Navarra el TSJ culmina la organización judicial en el ámbito territorial, con la casación en Derecho civil foral. Ojo a no mezclar los veinte vocales del CGPJ más su Presidente con los doce magistrados del Tribunal Constitucional: son dos órganos, dos cifras y dos duraciones distintas —cinco años el CGPJ, nueve el TC—.",
       items: [
@@ -1420,8 +1456,9 @@ export const RESUMENES = {
     },
     {
       h: "Economía y Hacienda (arts. 128-136)",
+      incluir: false,
       nota:
-        "Título corto del que se preguntan tres cosas. El ciclo presupuestario del art. 134 —los elabora el Gobierno, las Cortes los examinan, enmiendan y aprueban— con su prórroga automática si no se aprueban antes del primer día del ejercicio. El art. 135, que es la SEGUNDA y última reforma de la Constitución, de 2011, con la prioridad absoluta del pago de la deuda pública. Y el Tribunal de Cuentas, que depende de las Cortes Generales, para no confundirlo con la Cámara de Comptos navarra, que depende del Parlamento foral.",
+        "Título corto del que se preguntan tres cosas. El ciclo presupuestario del art. 134 —los elabora el Gobierno, las Cortes los examinan y aprueban— con su prórroga automática si no se aprueban antes del primer día del ejercicio. El art. 135 fue la SEGUNDA reforma de la Constitución, en 2011, con la prioridad absoluta del pago de la deuda pública. Y el Tribunal de Cuentas depende de las Cortes Generales, para no confundirlo con la Cámara de Comptos navarra, que depende del Parlamento foral.",
       items: [
         "Art. 128: toda la riqueza del país subordinada al interés general",
         "Art. 133: potestad tributaria originaria del Estado; CCAA y corporaciones locales según Constitución y leyes",
@@ -1431,24 +1468,32 @@ export const RESUMENES = {
       ],
     },
     {
-      h: "Organización territorial (arts. 137-158)",
+      h: "Organización territorial: principios generales y Administración local (arts. 137-142)",
       nota:
-        "El Título VIII interesa doblemente en esta oposición: por sí mismo y porque es el marco del que cuelgan la LORAFNA y toda la legislación foral. Los Capítulos I y II —principios generales y Administración local, arts. 137 a 142— son los que el temario pide expresamente. La autonomía local del art. 140 es autonomía para la GESTIÓN DE SUS INTERESES, no soberanía, y de ahí que la ley pueda atribuir competencias y controlarlas. El art. 149 no enumera lo que hacen las Comunidades sino lo EXCLUSIVO del Estado, y el 148 lo que aquéllas pueden asumir: se confunden con facilidad.",
+        "El Título VIII interesa doblemente: por sí mismo y porque es el marco de la LORAFNA y la legislación foral. Tu programa termina en el art. 142. La autonomía local del art. 140 es autonomía para la GESTIÓN DE SUS INTERESES, no soberanía: no confundas municipio, provincia y Comunidad Autónoma ni añadas comarcas al art. 137.",
       items: [
         "Art. 137: Estado se organiza en municipios, provincias y CCAA",
         "Art. 139: igualdad de todos los españoles; libre circulación",
         "Art. 140: autonomía municipal; Alcaldes elegidos por los Concejales o por los vecinos",
-        "Art. 141: alteración de límites provinciales por ley ORGÁNICA de las Cortes",
-        "Art. 145: PROHIBIDA la federación de CCAA",
-        "Art. 148/149: competencias asumibles por CCAA vs. competencias EXCLUSIVAS del Estado",
-        "Art. 153: control de la actividad de los órganos de las CCAA (TC, Gobierno/CAC, jurisdicción contencioso-administrativa, Tribunal de Cuentas)",
-        "Art. 155: incumplimiento grave de obligaciones por una CCAA: requerimiento al Presidente y, si no atiende, con aprobación por mayoría ABSOLUTA del Senado, el Gobierno adopta medidas coercitivas",
-        "Art. 156: autonomía financiera de las CCAA",
-        "Art. 158: Fondo de Compensación Interterritorial",
+        "Art. 141: provincia = entidad local con personalidad jurídica propia, agrupación de municipios y división territorial para actividades del Estado; alteración de límites por ley ORGÁNICA de las Cortes",
+        "Art. 141.2: gobierno y administración autónoma de provincias por Diputaciones u otras corporaciones representativas; las islas tienen Cabildos o Consejos",
+        "Art. 142: haciendas locales con medios suficientes; tributos propios + participación en tributos del Estado y de las CCAA",
+      ],
+      tablas: [
+        { titulo: "Título VIII · Administración local", tabla: [
+          ["Artículo", "Regla que debes asociar"],
+          ["137", "Municipios, provincias y CCAA; autonomía para sus intereses"],
+          ["138", "Solidaridad y equilibrio económico; sin privilegios estatutarios"],
+          ["139", "Igualdad de derechos y obligaciones; libre circulación de personas y bienes"],
+          ["140", "Municipio autónomo; ayuntamiento = alcaldes y concejales; alcalde por concejales o vecinos"],
+          ["141", "Provincia; límites por Cortes Generales mediante ley orgánica"],
+          ["142", "Suficiencia financiera: tributos propios y participaciones estatal y autonómica"],
+        ]},
       ],
     },
     {
       h: "Tribunal Constitucional (arts. 159-165)",
+      incluir: false,
       nota:
         "Doce magistrados, nueve años de mandato y renovación por TERCIOS cada tres: son las tres cifras que se preguntan juntas. El reparto del nombramiento —cuatro Congreso, cuatro Senado, dos Gobierno, dos CGPJ, todos por el Rey— se cruza en el examen con el del CGPJ, así que conviene fijarlos como pares opuestos. Y no confundas legitimación para el recurso de INCONSTITUCIONALIDAD, que es tasada y de órganos, con la del AMPARO, que corresponde a cualquier persona con interés legítimo, el Defensor del Pueblo y el Ministerio Fiscal.",
       items: [
@@ -1461,6 +1506,7 @@ export const RESUMENES = {
     },
     {
       h: "Reforma constitucional (arts. 166-169)",
+      incluir: false,
       nota:
         "Dos procedimientos y una regla para elegir entre ellos. El AGRAVADO del art. 168 se reserva a la reforma total y a tres bloques concretos: Título Preliminar, Sección 1ª del Capítulo II del Título I —arts. 15 a 29— y Título II, la Corona. Todo lo demás va por el general del art. 167. Fíjate en la asimetría del referéndum: en el general es POTESTATIVO y hay que pedirlo un décimo de los miembros de cualquier cámara en quince días, mientras que en el agravado es OBLIGATORIO y además hay disolución de las Cortes por medio.",
       items: [
@@ -1474,34 +1520,21 @@ export const RESUMENES = {
   claves: [
     "Referéndum 6-12-1978; sanción 27-12; BOE y entrada en vigor 29-12-1978",
     "169 artículos; 4 DA; 9 DT; 1 derogatoria; 1 final",
-    "Solo 2 reformas: art. 13.2 (1992) y art. 135 (2011)",
+    "4 reformas: arts. 13.2 (1992), 135 (2011), 49 (2024) y 69.3 (2026)",
     "Art. 1.1 valores: libertad, justicia, igualdad, pluralismo político",
     "Art. 5: la VILLA de Madrid",
     "Sección 1ª = arts. 15-29; el 14 queda fuera pero es amparable",
     "Amparo (53.2): 14 + Sección 1ª + 30.2 (objeción de conciencia)",
     "Detención preventiva máx. 72 horas (17.2)",
-    "Pena de muerte abolida salvo leyes penales militares en tiempo de guerra (15)",
+    "Art. 15 literal: pena de muerte abolida salvo leyes penales militares en tiempo de guerra; la legislación penal vigente no la prevé",
     "Censura previa prohibida; secuestro de publicaciones solo judicial (20.2 y 20.5)",
-    "Suspensión 55.1: 17.2, 17.3, 18.2, 18.3, 19, 20.1.a/d, 21, 28.2, 37.2; 17.3 exceptuado en excepción",
+    "Suspensión 55.1: 17.2, 17.3, 18.2, 18.3, 19, 20.1.a/d y 20.5, 21, 28.2, 37.2; 17.3 exceptuado en excepción",
     "55.2 individual: 17.2 y 18.2/18.3",
-    "Ley orgánica: mayoría absoluta del Congreso en votación final sobre el conjunto (81)",
-    "Decreto-ley: no toca Sección 1ª; convalidación en 30 días (86)",
-    "Iniciativa popular: 500.000 firmas (87.3)",
-    "Congreso 300-400 (350); provincia circunscripción; proporcional",
-    "Senado: 4 por provincia; 3 Gran Canaria/Mallorca/Tenerife; 2 Ceuta/Melilla",
-    "Períodos ordinarios: feb-jun y sep-dic (73)",
-    "Veto Senado: 2 meses (urgencia 20 días); sanción real 15 días",
-    "Investidura: absoluta → simple a las 48 h; 2 meses sin investir → disolución",
-    "Moción de censura: 1/10 firmas (35), constructiva, mayoría absoluta",
-    "Cuestión de confianza: mayoría simple",
-    "Estados: alarma 15 días; excepción 30+30; sitio mayoría absoluta Congreso",
-    "CGPJ: 20 miembros + Presidente, 5 años",
-    "TC: 12 miembros, 9 años, tercios cada 3 años; Presidente 3 años",
-    "Presupuestos: elabora Gobierno; prórroga automática si no se aprueban",
+    "Art. 47: vivienda digna, suelo contra especulación y plusvalías para la comunidad",
+    "Art. 49 vigente: autonomía e inclusión de las personas con discapacidad en entornos universalmente accesibles",
     "Alteración límites provinciales: ley orgánica (141.1)",
-    "Federación de CCAA prohibida (145)",
-    "Reforma agravada (168): Preliminar, arts. 15-29 o Corona → 2/3 + disolución + 2/3 + referéndum",
-    "Sin reforma en guerra ni estados de alarma/excepción/sitio (169)",
+    "Alcalde: elegido por concejales o vecinos (140)",
+    "Hacienda local: tributos propios + participación estatal y autonómica (142)",
   ],
 },
 

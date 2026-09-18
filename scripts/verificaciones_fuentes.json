@@ -1,4 +1,12 @@
 {
+  "G1": {
+    "estado": "VERIFICADO",
+    "verificado_el": "2026-09-18",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+    "version": "Constitución Española, texto consolidado del BOE actualizado el 20-05-2026",
+    "alcance": "Estructura, Título Preliminar, Título I y Título VIII, capítulos I y II; resumen y preguntas G1-01 a G1-20 contrastados.",
+    "nota": "El resumen visible se limita al alcance del temario. Incorpora las cuatro reformas constitucionales vigentes, incluidos los arts. 49 (2024) y 69.3 (2026)."
+  },
   "E8": {
     "estado": "VERIFICADO",
     "verificado_el": "2026-09-18",

@@ -948,7 +948,8 @@ function Resumenes({ state, persist }) {
     n.has(i) ? n.delete(i) : n.add(i);
     return n;
   });
-  const todoAbierto = r && abiertos.size === r.bloques.length;
+  const bloquesVisibles = r?.bloques.filter((b) => b.incluir !== false) || [];
+  const todoAbierto = r && abiertos.size === bloquesVisibles.length;
 
   const generales = disponibles.filter(esGeneral);
   const especificos = disponibles.filter((k) => !esGeneral(k));
@@ -1008,16 +1009,16 @@ function Resumenes({ state, persist }) {
 
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 14, marginBottom: 4 }}>
             <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate }}>
-              {r.bloques.length} BLOQUES
+              {bloquesVisibles.length} BLOQUES
             </span>
             <div style={{ flex: 1 }} />
             <button
-              onClick={() => setAbiertos(todoAbierto ? new Set() : new Set(r.bloques.map((_, i) => i)))}
+              onClick={() => setAbiertos(todoAbierto ? new Set() : new Set(bloquesVisibles.map((_, i) => i)))}
               style={{ ...ctaGhost, padding: "4px 10px", fontSize: 11 }}
             >{todoAbierto ? "Plegar todo" : "Abrir todo"}</button>
           </div>
 
-          {r.bloques.map((b, i) => {
+          {bloquesVisibles.map((b, i) => {
             const abierto = abiertos.has(i);
             return (
               <div key={i} style={{ borderBottom: `1px solid ${C.hair}` }}>
