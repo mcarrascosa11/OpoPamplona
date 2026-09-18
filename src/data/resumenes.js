@@ -7222,7 +7222,7 @@ export const RESUMENES = {
         "Art. 1.3: aplicacion plena del RD 39/1997 (Reglamento de los Servicios de Prevencion) sin perjuicio de las disposiciones especificas del presente RD",
         "Art. 2.1: definiciones de obra de construccion, trabajos con riesgos especiales, promotor, proyectista, coordinador en proyecto, coordinador en ejecucion, direccion facultativa, contratista, subcontratista y trabajador autonomo",
         "Art. 2.2: el contratista y el subcontratista tienen consideracion de empresario a efectos de la normativa de prevencion de riesgos laborales",
-        "Art. 2.3: el promotor que contrate directamente a trabajadores autonomos tiene consideracion de contratista respecto de aquellos, salvo que la actividad sea la construccion o reparacion que contrate un cabeza de familia respecto de su vivienda"
+        "Art. 2.3: el promotor que contrate directamente a trabajadores autonomos tiene consideracion de contratista respecto de aquellos, salvo la construccion o reparacion exclusivamente de la vivienda que pueda contratar un cabeza de familia"
       ]
     },
     {
@@ -7328,8 +7328,8 @@ export const RESUMENES = {
       ]
     },
     {
-      h: "Derechos de los trabajadores, visado e informacion a la autoridad laboral (arts. 15-17 y 19)",
-      nota: "El visado del proyecto es condicion suspensiva: sin estudio o estudio basico no hay visado, ni licencia, ni autorizaciones. La comunicacion de apertura del centro de trabajo es previa al inicio y solo la presentan los contratistas, incluyendo el plan. El plan debe estar a disposicion permanente de la Inspeccion y de los tecnicos de las Administraciones.",
+      h: "Derechos de los trabajadores, visado e informacion a la autoridad laboral (arts. 15-19)",
+      nota: "Trampa expresa: el art. 18 (aviso previo) esta derogado. El visado del proyecto es condicion suspensiva: sin estudio o estudio basico no hay visado, ni licencia, ni autorizaciones. La comunicacion de apertura del centro de trabajo es previa al inicio y solo la presentan los contratistas, incluyendo el plan. El plan debe estar a disposicion permanente de la Inspeccion y de los tecnicos de las Administraciones.",
       items: [
         "Art. 15.1: los contratistas y subcontratistas garantizan que los trabajadores reciban informacion adecuada de todas las medidas de seguridad y salud, conforme al art. 18 LPRL",
         "Art. 15.2: la informacion debe ser comprensible para los trabajadores afectados",
@@ -7338,6 +7338,7 @@ export const RESUMENES = {
         "Art. 16.3: el contratista facilita una copia del plan y sus modificaciones a los representantes de los trabajadores",
         "Art. 17.1: la inclusion del estudio o estudio basico en el proyecto de ejecucion es requisito necesario para el visado por el Colegio, la licencia municipal y demas autorizaciones",
         "Art. 17.2: en obras de Administraciones publicas, la Oficina de Supervision de Proyectos u organo equivalente hara declaracion expresa sobre la inclusion del estudio o estudio basico",
+        "Art. 18: aviso previo, DEROGADO",
         "Art. 19.1: la comunicacion de apertura del centro de trabajo a la autoridad laboral es previa al inicio y se presenta unicamente por los contratistas; incluye el plan de seguridad y salud",
         "Art. 19.2: el plan de seguridad y salud estara a disposicion permanente de la Inspeccion de Trabajo y de los tecnicos de los organos especializados de las Administraciones competentes"
       ]
@@ -7351,7 +7352,7 @@ export const RESUMENES = {
     "El plan de seguridad y salud lo elabora cada contratista y debe aprobarse antes del inicio de la obra por el coordinador en ejecucion o, en su defecto, por la direccion facultativa",
     "Libro de incidencias: por duplicado, siempre en la obra; copia a la Inspeccion de Trabajo en 24 horas si es reiteracion de advertencia o en caso de paralizacion",
     "Paralizacion: ante riesgo grave e inminente, ordenada por el coordinador o persona de la DF; previa advertencia al contratista y constancia en el libro",
-    "Visado del proyecto: requisito necesario incluir el estudio o estudio basico; sin ello no hay licencia ni autorizaciones",
+    "Visado del proyecto: requisito necesario incluir el estudio o estudio basico; sin ello no hay licencia ni autorizaciones; art. 18 (aviso previo), DEROGADO",
     "Comunicacion de apertura del centro de trabajo: previa al inicio, presentada unicamente por los contratistas, e incluye el plan de seguridad y salud"
   ],
 },
