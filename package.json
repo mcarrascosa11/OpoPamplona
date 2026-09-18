@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "auditar:preguntas": "node scripts/auditar_preguntas.cjs",
+    "auditar:fuentes": "node scripts/auditar_fuentes.cjs",
+    "check": "npm run auditar:preguntas && npm run build",
+    "check:local": "npm run auditar:preguntas && npm run auditar:fuentes && npm run build"
   },
   "dependencies": {
     "@google/genai": "^1.24.0",

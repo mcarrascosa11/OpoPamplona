@@ -1,17 +1,37 @@
-name: Auditar preguntas
+name: Calidad del banco de estudio
 
 on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: calidad-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  audit:
+  comprobar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Ejecutar auditoria
-        run: node scripts/auditar_preguntas.cjs
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Instalar dependencias bloqueadas
+        run: npm ci
+      - name: Auditar preguntas y compilar la app
+        run: npm run check
       - name: Guardar informe
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: auditoria-preguntas
           path: auditoria_preguntas.csv
+          if-no-files-found: warn

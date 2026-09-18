@@ -11,6 +11,31 @@ npm run dev
 
 Abre la URL que indica la terminal (normalmente http://localhost:5173).
 
+## Comprobaciones antes de publicar
+
+```bash
+# Lo que valida GitHub: estructura del banco y compilación de la app.
+npm run check
+
+# Añade la auditoría de las fuentes locales de trabajo (`temas/`).
+npm run check:local
+```
+
+`temas/` permanece deliberadamente fuera de GitHub: contiene el material local
+de trabajo. Por ello la auditoría de fuentes solo se ejecuta en el ordenador
+donde está esa carpeta; GitHub valida el banco y la aplicación publicados.
+
+La comprobación de preguntas bloquea errores estructurales (ID duplicado,
+respuesta inválida, opciones incompletas o explicación ausente). Los avisos de
+calidad editorial, como un distractor absoluto o una respuesta demasiado larga,
+se conservan en el informe pero no bloquean el despliegue.
+
+En GitHub, el workflow **Calidad del banco de estudio** se ejecuta en cada pull
+request a `main`, en cada actualización de `main` y manualmente. Para que sea
+un requisito real antes de producción, activa en GitHub: *Settings → Branches
+→ Add branch protection rule → main → Require status checks to pass*, y marca
+el check `comprobar`.
+
 ## Subir a Vercel
 
 1. Sube esta carpeta a un repositorio de GitHub.

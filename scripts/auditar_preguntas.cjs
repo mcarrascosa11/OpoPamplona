@@ -196,6 +196,13 @@ async function main() {
       console.log(s + " | " + p.id + " | " + p.issues.join(", "));
     }
   }
+
+  // Los avisos editoriales no bloquean el trabajo, pero una incoherencia
+  // estructural sí: podría romper el test o mezclar el historial de estudio.
+  if (counts.ERROR > 0) {
+    console.error(`La auditoría ha encontrado ${counts.ERROR} preguntas con errores estructurales.`);
+    process.exitCode = 1;
+  }
 }
 
 main().catch(error => {
