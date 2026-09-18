@@ -7355,6 +7355,52 @@ export const RESUMENES = {
     "Visado del proyecto: requisito necesario incluir el estudio o estudio basico; sin ello no hay licencia ni autorizaciones; art. 18 (aviso previo), DEROGADO",
     "Comunicacion de apertura del centro de trabajo: previa al inicio, presentada unicamente por los contratistas, e incluye el plan de seguridad y salud"
   ],
+  memorizacion: {
+    tablas: [
+      {
+        titulo: "Coordinadores de seguridad y salud · cuándo proceden",
+        columnas: ["Fase", "Cuándo es obligatorio", "Regla que no debes confundir"],
+        filas: [
+          ["Elaboración del proyecto", "Cuando intervengan varios proyectistas", "Lo designa el promotor"],
+          ["Ejecución de obra", "Más de una empresa; empresa + autónomos; o varios autónomos", "La concurrencia, no el número de trabajadores, es el criterio"],
+          ["Ambas fases", "Puede ser la misma persona", "Su designación no libera al promotor de responsabilidad"]
+        ]
+      },
+      {
+        titulo: "Estudio de seguridad y salud · decisión en cuatro disparadores",
+        columnas: ["Supuesto", "Exige estudio completo"],
+        filas: [
+          ["Presupuesto de ejecución por contrata", "≥ 75 millones de pesetas"],
+          ["Duración y plantilla", "> 30 días laborables y > 20 trabajadores simultáneos"],
+          ["Volumen de mano de obra", "> 500 jornadas de trabajo"],
+          ["Tipo de obra", "Túneles, galerías, conducciones subterráneas o presas"],
+          ["Resto de proyectos", "Estudio básico"]
+        ]
+      },
+      {
+        titulo: "Plan de seguridad y salud · autoría, aprobación y límites",
+        columnas: ["Aspecto", "Regla"],
+        filas: [
+          ["Quién lo elabora", "Cada contratista, aplicando el estudio o estudio básico"],
+          ["Cuándo se aprueba", "Antes del inicio de la obra"],
+          ["Obra ordinaria", "Coordinador durante la ejecución; sin él, dirección facultativa"],
+          ["Obra pública", "Administración adjudicadora, tras informe del coordinador"],
+          ["Alternativas y modificaciones", "Exigen justificación/aprobación expresa; nunca rebajan la protección ni el importe total del estudio completo"]
+        ]
+      },
+      {
+        titulo: "Libro de incidencias y paralización · secuencia de control",
+        columnas: ["Actuación", "Regla decisiva"],
+        filas: [
+          ["Libro", "Por duplicado y siempre en la obra; lo custodia el coordinador o, si no existe, la dirección facultativa"],
+          ["Anotación", "Se notifica al contratista afectado y a los representantes de trabajadores"],
+          ["Copia a Inspección", "En 24 horas solo por reiteración de advertencia/observación o por paralización"],
+          ["Paralización", "Coordinador o cualquier persona de la dirección facultativa; requiere riesgo grave e inminente"],
+          ["Antes de paralizar", "Advertencia al contratista y constancia en el libro"]
+        ]
+      }
+    ]
+  },
 },
 
  "E23": {
