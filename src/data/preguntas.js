@@ -2197,6 +2197,47 @@ export const PREGUNTAS = [
     o: ["10 m²/persona", "15 m²/persona", "20 m²/persona", "5 m²/persona"],
     c: 0, exp: "Tabla 2.1 Sección SI 3 DB-SI: en uso Administrativo, las plantas o zonas de oficinas tienen una densidad de ocupación de 10 m²/persona. Los vestíbulos generales y zonas de uso público tienen 2 m²/persona." },
 
+  // ── E3 v2 · Aplicación de tablas DB-SI (fuente consolidada 04-03-2025) ──
+  { id: "E3-16", tema: "E3",
+    q: "Un sector de uso Administrativo tiene 4.800 m² construidos y dispone de instalación automática de extinción. Sin perjuicio del resto de condiciones del DB-SI, ¿qué conclusión es correcta respecto de su superficie?",
+    o: ["Cumple el límite de superficie, porque la extinción automática permite elevar de 2.500 a 5.000 m² el máximo del sector", "No cumple, porque en Administrativo la extinción automática no altera el límite de 2.500 m² de cada sector", "Cumple por ser inferior al límite de 10.000 m² aplicable a cualquier uso con extinción automática", "No cumple, porque todo sector Administrativo con más de 4.000 m² ha de dividirse en dos sectores equivalentes"],
+    c: 0, exp: "SI 1.1 y tabla 1.1 DB-SI: las superficies máximas de los sectores pueden duplicarse con instalación automática de extinción. En Administrativo el límite ordinario es 2.500 m²; con esa protección pasa a 5.000 m²." },
+
+  { id: "E3-17", tema: "E3",
+    q: "¿En cuál de estas situaciones puede un sector Comercial alcanzar 10.000 m² conforme a la tabla 1.1 del DB-SI?",
+    o: ["Cuando el establecimiento ocupa íntegramente un edificio protegido con extinción automática y su altura de evacuación no excede de 10 m", "Cuando el centro comercial tiene varios edificios conectados y cada establecimiento dispone de detección automática de incendios", "Cuando el local comercial está en planta baja y tiene una ocupación inferior a 500 personas, aunque no tenga extinción automática", "Cuando el establecimiento está compartimentado mediante elementos EI 120, aunque la altura de evacuación exceda de 10 m"],
+    c: 0, exp: "Tabla 1.1 DB-SI: el límite de 10.000 m² exige que el establecimiento o centro comercial ocupe en su totalidad un edificio íntegramente protegido con instalación automática de extinción y que h de evacuación no exceda de 10 m." },
+
+  { id: "E3-18", tema: "E3",
+    q: "Un local de riesgo especial medio comunica con el resto del edificio. ¿Qué solución de paso exige la tabla 2.2 del DB-SI?",
+    o: ["Un vestíbulo de independencia y dos puertas EI2 30-C5", "Un vestíbulo de independencia y una puerta EI2 45-C5", "Una puerta EI2 45-C5 directamente al resto del edificio", "Dos puertas EI2 45-C5 sin necesidad de vestíbulo de independencia"],
+    c: 0, exp: "Tabla 2.2 DB-SI: en riesgo especial medio se exige vestíbulo de independencia en cada comunicación y 2 × EI2 30-C5. El riesgo alto requiere 2 × EI2 45-C5; el bajo no exige vestíbulo y usa EI2 45-C5." },
+
+  { id: "E3-19", tema: "E3",
+    q: "Dos fachadas de sectores distintos forman entre sí un ángulo de 90°. Si los puntos enfrentados no alcanzan EI 60, ¿qué distancia horizontal mínima d deben guardar?",
+    o: ["1,25 m", "2,00 m", "2,50 m", "3,00 m"],
+    c: 1, exp: "SI 2.1.2 DB-SI: para α = 90°, la separación horizontal d entre puntos de fachada no EI 60 es 2,00 m. La tabla permite interpolación lineal para ángulos intermedios." },
+
+  { id: "E3-20", tema: "E3",
+    q: "Un sistema constructivo ocupa más del 10% de una fachada de 14 m de altura total. ¿Cuál es la clase mínima de reacción al fuego exigible al sistema, incluida su condición de uso final?",
+    o: ["D-s3,d0", "C-s3,d0", "B-s3,d0", "A2-s3,d0"],
+    c: 1, exp: "SI 2.1.4 DB-SI: para sistemas constructivos de fachada que ocupen más del 10% de su superficie, se exige D-s3,d0 hasta 10 m, C-s3,d0 hasta 18 m y B-s3,d0 por encima de 18 m." },
+
+  { id: "E3-21", tema: "E3",
+    q: "Una planta Administrativa no hospitalaria, con 80 ocupantes, dispone de una única salida de planta y el recorrido máximo hasta ella es de 24 m. La evacuación descendente no supera 28 m. ¿Qué indica la tabla 3.1 del DB-SI?",
+    o: ["La solución cumple las condiciones examinadas de ocupación y longitud para una única salida", "La solución incumple porque una planta Administrativa con una salida no puede superar 50 ocupantes", "La solución incumple porque una única salida exige un recorrido máximo de 15 m en cualquier uso", "La solución exigiría añadir una instalación automática de extinción al sector"],
+    c: 0, exp: "Tabla 3.1 DB-SI: con una salida la ocupación general no puede exceder de 100 personas y el recorrido no puede exceder de 25 m, además de respetar las condiciones específicas de altura y uso. Los datos planteados cumplen esas dos magnitudes." },
+
+  { id: "E3-22", tema: "E3",
+    q: "En un sector con más de una salida de planta, el límite ordinario de recorrido hasta alguna salida es 50 m. Si el sector dispone de instalación automática de extinción, ¿cuál puede ser el nuevo límite?",
+    o: ["55,0 m", "60,0 m", "62,5 m", "75,0 m"],
+    c: 2, exp: "Tabla 3.1 DB-SI: las longitudes de recorrido pueden aumentarse un 25% cuando el sector esté protegido con instalación automática de extinción. 50 m × 1,25 = 62,5 m." },
+
+  { id: "E3-23", tema: "E3",
+    q: "En una planta sobre rasante de un edificio Hospitalario cuya altura de evacuación es 20 m, ¿qué resistencia al fuego suficiente se exige con carácter general a sus elementos estructurales principales?",
+    o: ["R 90", "R 120", "R 150", "R 180"],
+    c: 1, exp: "Tabla 3.1 SI 6 DB-SI: para uso Hospitalario en plantas sobre rasante se exige R 90 con h≤15 m, R 120 con 15<h≤28 m y R 180 con h>28 m. A 20 m corresponde R 120." },
+
   // ── E4 · RD 513/2017 — RIPCI ────────────────────────────────────────────
 { id: "E4-01", tema: "E4",
   q: "De conformidad con el artículo 1 del Real Decreto 513/2017, de 22 de mayo, por el que se aprueba el Reglamento de instalaciones de protección contra incendios, constituye el objeto de este reglamento:",
