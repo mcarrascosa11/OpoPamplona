@@ -2659,13 +2659,13 @@ export const PREGUNTAS = [
     o: ["38 kWh/m²·año", "25 kWh/m²·año", "28 kWh/m²·año", "32 kWh/m²·año"],
     c: 3, exp: "Tabla 3.1.a del DB-HE0 (RD 450/2022): Cep,nren,lim para edificios residenciales de nueva construcción: zona α = 20, A = 25, B = 28, C = 32, D = 38, E = 43 kWh/m²·año. La zona C corresponde a 32 kWh/m²·año." },
 
-  { id: "E8-02", tema: "E8",
-  q: "Según el CTE DB-HE0, ¿cómo se modifican los valores límite de consumo de energía primaria no renovable en territorios extrapeninsulares (Canarias, Ceuta y Melilla)?",
+{ id: "E8-02", tema: "E8",
+  q: "Según el CTE DB-HE0, ¿cómo se modifican los valores límite de consumo de energía primaria no renovable en los territorios extrapeninsulares (Illes Balears, Canarias, Ceuta y Melilla)?",
   o: ["Se incrementan en un 20%",
       "Se multiplican por 1,25",
       "Se reducen en un 10%",
       "Se aplican los mismos valores que en la Península"],
-  c: 1, exp: "El DB-HE0 establece que en territorios extrapeninsulares los valores límite de Cep,nren se multiplican por 1,25. Para uso residencial privado, los valores límite de Cep,tot se multiplican por 1,15." },
+  c: 1, exp: "Tabla 3.1.a-HE0: en Illes Balears, Canarias, Ceuta y Melilla los valores de Cep,nren se multiplican por 1,25. Para Cep,tot de uso residencial privado, la tabla 3.2.a-HE0 establece el factor 1,15." },
   
    { id: "E8-03", tema: "E8",
     q: "En el CTE DB-HE1, ¿cuál es la transmitancia térmica límite (Ulim) de muros y suelos para la zona climática C?",
@@ -2745,6 +2745,48 @@ export const PREGUNTAS = [
         "Conducción para el 20% de las plazas y una estación de recarga por cada 40 plazas",
         "Una estación por cada 10 plazas de aparcamiento"],
     c: 2, exp: "Apartado 3 del DB-HE6: en edificios de uso distinto al residencial privado se instalarán sistemas de conducción de cables para al menos el 20% de las plazas, y una estación de recarga por cada 40 plazas (o fracción). Para edificios de la Administración General del Estado la ratio es 1 por cada 20 plazas. En uso residencial privado, la conducción debe cubrir el 100% de las plazas." },
+
+  // E8 v2 · casos y relaciones contrastados con el DB-HE oficial (articulado 14-06-2022)
+  // Estas preguntas nuevas no sustituyen IDs históricos ni alteran el progreso ya registrado.
+  { id: "E8-16", tema: "E8", subtema: "HE0 · territorio extrapeninsular",
+    q: "Un edificio residencial privado de nueva construcción se ubica en zona climática C de Illes Balears. ¿Cuál es el Cep,nren,lim aplicable?",
+    o: ["32 kWh/m²·año", "38 kWh/m²·año", "40 kWh/m²·año", "43 kWh/m²·año"],
+    c: 2, exp: "Tabla 3.1.a-HE0: en uso residencial privado, zona C de nueva construcción = 32 kWh/m²·año. En Illes Balears el valor se multiplica por 1,25: 32 × 1,25 = 40 kWh/m²·año." },
+
+  { id: "E8-17", tema: "E8", subtema: "HE1 · estanquidad",
+    q: "En un edificio residencial privado nuevo de 130 m², con una compacidad V/A = 3, ¿qué n50 límite resulta al interpolar linealmente la tabla HE1?",
+    o: ["3 h⁻¹", "4,5 h⁻¹", "6 h⁻¹", "9 h⁻¹"],
+    c: 1, exp: "Tabla 3.1.3.b-HE1: n50 = 6 h⁻¹ para V/A ≤2 y 3 h⁻¹ para V/A ≥4. Para V/A = 3, punto medio, corresponde 4,5 h⁻¹ mediante interpolación lineal." },
+
+  { id: "E8-18", tema: "E8", subtema: "HE1 · alcance en reforma",
+    q: "En una reforma se modifica sustancialmente un cerramiento de la envolvente. Respecto de la tabla Ulim de HE1, ¿qué afirmación es correcta?",
+    o: ["Se aplica a la envolvente afectada en conjunto", "Se aplica al elemento sustituido, incorporado o modificado sustancialmente", "Se aplica cuando se renueva más del 25% de la envolvente", "Se aplica tras modificar la instalación térmica"],
+    c: 1, exp: "HE1, apartado 3.1.1: en reformas, la tabla Ulim se aplica a los elementos de la envolvente que se sustituyan, incorporen o modifiquen sustancialmente, y también a los que vean cambiadas sus condiciones con incremento de necesidades energéticas." },
+
+  { id: "E8-19", tema: "E8", subtema: "HE3 · potencia instalada",
+    q: "En una zona de uso distinto de aparcamiento se proyecta una iluminancia media de 700 lux. ¿Cuál es la potencia máxima instalada por superficie iluminada según HE3?",
+    o: ["5 W/m²", "10 W/m²", "25 W/m²", "20 W/m²"],
+    c: 2, exp: "Tabla 3.2-HE3: para otros usos, la potencia máxima instalada es 10 W/m² cuando la iluminancia media es ≤600 lux y 25 W/m² cuando es >600 lux. Los 5 W/m² corresponden a aparcamientos." },
+
+  { id: "E8-20", tema: "E8", subtema: "HE3 · luz natural",
+    q: "Una oficina tiene T(Aw/A) = 0,12 y cerramiento acristalado al exterior con θ = 70°. ¿Debe disponer de aprovechamiento automático de luz natural?",
+    o: ["Queda fuera al exigir una ratio de 0,15", "Queda fuera al ser un cerramiento exterior", "Se exige por superar 0,11 y cumplir condición geométrica", "Se exige en aparcamientos"],
+    c: 2, exp: "HE3, apartado 3.4: se exige cuando T(Aw/A) >0,11 y concurre una condición geométrica. En cerramientos al exterior, θ >65° es una de ellas. Deben regularse las luminarias a menos de 5 m de una ventana y las situadas bajo lucernario." },
+
+  { id: "E8-21", tema: "E8", subtema: "HE4 · ámbito",
+    q: "Un edificio existente tiene una demanda de ACS de 200 l/d y se sustituye íntegramente su instalación de generación térmica. ¿Qué consecuencia tiene para HE4?",
+    o: ["Queda fuera por tratarse de un edificio existente", "Entra por superar 100 l/d y reformar íntegramente la generación térmica", "Queda fuera al no superar 5.000 l/d", "Entra por incrementar la superficie construida"],
+    c: 1, exp: "HE4, apartado 1: se aplica a edificios existentes con ACS superior a 100 l/d cuando se reforme íntegramente el edificio, la instalación de generación térmica o exista cambio de uso característico." },
+
+  { id: "E8-22", tema: "E8", subtema: "HE5 · umbral",
+    q: "¿Cuál de estas actuaciones queda dentro del ámbito de HE5 exclusivamente por superar su umbral de superficie?",
+    o: ["Edificio nuevo de 1.000 m² construidos", "Ampliación que añade exactamente 1.000 m²", "Edificio existente de 1.000 m² con reforma parcial", "Cambio de uso característico en edificio existente de 1.001 m²"],
+    c: 3, exp: "HE5 se aplica a nueva construcción cuando supere 1.000 m², ampliaciones cuando el incremento sea de más de 1.000 m² y edificios existentes con reforma íntegra o cambio de uso cuando superen 1.000 m². El texto exige superar el umbral, no igualarlo." },
+
+  { id: "E8-23", tema: "E8", subtema: "HE6 · cálculo de dotación",
+    q: "Un edificio no residencial dispone de 120 plazas de aparcamiento, sin régimen especial de Administración General del Estado. ¿Qué dotación mínima cumple HE6?",
+    o: ["Conducción para 12 plazas y 6 estaciones de recarga", "Conducción para 24 plazas y 3 estaciones de recarga", "Conducción para 120 plazas y 3 estaciones de recarga", "Conducción para 24 plazas y una estación de recarga"],
+    c: 1, exp: "HE6: uso no residencial exige sistemas de conducción para al menos el 20% de las plazas y una estación por cada 40 plazas o fracción. Para 120 plazas: 24 plazas con conducción y 3 estaciones." },
 
   // ── E9: RITE – Reglamento de Instalaciones Térmicas en los Edificios ───────
 
@@ -3305,6 +3347,51 @@ export const PREGUNTAS = [
       "Por el patio interior",
       "Por el nivel inferior del edificio"],
   c: 0, exp: "La exigencia básica HS 3 establece que, con carácter general, los productos de combustión de las instalaciones térmicas deben evacuarse por la cubierta del edificio." },
+
+// v2 · cuestiones de aplicación contrastadas con DB-HS (articulado 14-06-2022)
+{ id: "E10-33", tema: "E10",
+  q: "En un muro en contacto con el terreno, la cara inferior del suelo está a la misma profundidad que el nivel freático y el terreno tiene Ks ≤ 10⁻⁵ cm/s. ¿Qué grado mínimo de impermeabilidad exige HS 1?",
+  o: ["Grado 1", "Grado 2", "Grado 3", "Grado 4"],
+  c: 1, exp: "La situación es de presencia de agua media. En la tabla 2.1 de HS 1, con Ks ≤ 10⁻⁵ cm/s, el grado exigido es 2. La trampa es aplicar la columna de permeabilidad intermedia o la tabla de suelos." },
+
+{ id: "E10-34", tema: "E10",
+  q: "Para dimensionar el almacén de residuos de un edificio con un dormitorio principal y dos dormitorios sencillos, ¿qué valor de P debe emplearse en la fórmula S = 0,8 · P · Σ(Tf · Gf · Cf · Mf)?",
+  o: ["P = 3", "P = 4", "P = 5", "P = 6"],
+  c: 1, exp: "P es el número estimado de ocupantes: dormitorios sencillos + el doble de dormitorios dobles. El principal se considera doble: 2 + 2 = 4." },
+
+{ id: "E10-35", tema: "E10",
+  q: "En una vivienda de dos dormitorios, ¿qué conjunto recoge correctamente los caudales mínimos de HS 3 para dormitorio principal, otro dormitorio, sala/comedor y total de locales húmedos?",
+  o: ["8 · 4 · 8 · 24 l/s", "8 · 4 · 10 · 24 l/s", "8 · 6 · 8 · 24 l/s", "8 · 4 · 8 · 33 l/s"],
+  c: 0, exp: "Para dos dormitorios, la tabla 2.1 fija 8 l/s en el principal, 4 l/s en el resto, 8 l/s en sala/comedor y 24 l/s como mínimo total en locales húmedos." },
+
+{ id: "E10-36", tema: "E10",
+  q: "En una instalación centralizada de ACS, la tubería de ida hasta el punto de consumo más alejado mide exactamente 15 m. ¿Qué solución cumple HS 4?",
+  o: ["No instalar retorno porque 15 m no rebasa el umbral",
+      "Instalar retorno y limitar su pérdida de temperatura a 3 °C",
+      "Instalar retorno si el caudal calculado supera 250 l/h por columna",
+      "Instalar retorno y admitir una pérdida de hasta 5 °C"],
+  c: 1, exp: "La red de retorno es obligatoria cuando la longitud es igual o mayor que 15 m. En el grifo más alejado, la pérdida desde acumulador o intercambiador es como máximo 3 °C." },
+
+{ id: "E10-37", tema: "E10",
+  q: "Un edificio de 12 plantas tiene ramales de desagüe de 6 m. ¿Qué consecuencia establece HS 5 para la ventilación de la red?",
+  o: ["La ventilación primaria basta por tener menos de 15 plantas",
+      "Debe disponerse ventilación terciaria por superar 5 m de ramal",
+      "Basta secundaria con conexión en plantas alternas",
+      "Basta terciaria al no alcanzar 15 plantas"],
+  c: 1, exp: "La ventilación terciaria se exige cuando los ramales superan 5 m o el edificio tiene más de 14 plantas. Basta uno de los dos supuestos; aquí se cumple el primero." },
+
+{ id: "E10-38", tema: "E10",
+  q: "En una intervención en edificio existente se obtiene, conforme al apéndice C de HS 6, un promedio anual de radón de 510 Bq/m³ en una zona de muestreo. ¿Qué nivel de soluciones debe adoptarse?",
+  o: ["Las de zona I", "Las de zona II", "La ventilación interior ordinaria como medida suficiente", "Una barrera sin la alternativa prevista para zona I"],
+  c: 0, exp: "510 Bq/m³ equivale a 1,7 veces el nivel de referencia de 300 Bq/m³. Si el valor está entre 1 y 2 veces el nivel, se adoptan las soluciones de zona I; zona II es para valores que superen dos veces el nivel." },
+
+{ id: "E10-39", tema: "E10",
+  q: "¿En cuál de estos casos puede considerarse suficiente la ventilación primaria como único sistema en HS 5?",
+  o: ["Edificio de 6 plantas",
+      "Edificio de 7 plantas con ramales de 4 m",
+      "Edificio de 10 plantas con ramales de 5 m",
+      "Edificio de 11 plantas con bajante ordinaria"],
+  c: 0, exp: "La primaria sola es suficiente con menos de 7 plantas. También puede bastar con menos de 11 si la bajante está sobredimensionada y los ramales tienen menos de 5 m; ninguno de esos requisitos adicionales aparece en las otras opciones." },
 
   // ── E11 · CTE DB-SE-AE ────────────────────────────────────────────────────
   { id: "E11-01", tema: "E11",
@@ -7246,22 +7333,22 @@ export const PREGUNTAS = [
   // Ampliación sobre las E21-01..17 ya existentes: solo cobertura genuinamente nueva
   // (se descartaron 11 de las 15 generadas por duplicar, con otra redacción, el mismo
   // artículo/apartado que una pregunta ya existente del tema).
-  { id: "E21-18", tema: "E21", subtema: "Definiciones",
+  { id: "E21-26", tema: "E21", subtema: "Definiciones",
     q: "A efectos del Decreto Foral 26/2022, ¿qué se entiende por órgano ambiental?",
     o: ["El órgano municipal competente para conceder la licencia de actividad clasificada", "El órgano de la Dirección General con competencias en medio ambiente que analiza técnicamente los expedientes de evaluación ambiental y formula las declaraciones e informes de impacto ambiental", "El órgano competente para autorizar la implantación de instalaciones y actividades", "El órgano de la Administración General del Estado encargado de las evaluaciones ambientales"],
     c: 1, exp: "Art. 2.c del Decreto Foral 26/2022: el órgano ambiental es el órgano de la Dirección General con competencias en medio ambiente que realiza el análisis técnico de los expedientes de evaluación ambiental y formula las declaraciones de impacto ambiental y los informes de impacto ambiental." },
 
-  { id: "E21-19", tema: "E21", subtema: "Instalaciones independientes",
+  { id: "E21-27", tema: "E21", subtema: "Instalaciones independientes",
     q: "Dos instalaciones sometidas al Reglamento se ubican en el mismo emplazamiento. ¿Cuándo se consideran independientes y deben disponer cada una de su autorización?",
     o: ["Cuando tengan necesariamente titulares distintos", "Cuando no guarden relación técnica o, aun guardándola, no constituyan unidades subordinadas", "Únicamente cuando desarrollen actividades incluidas en catálogos diferentes", "Siempre que compartan instalaciones auxiliares"],
     c: 1, exp: "Art. 3.1 del Decreto Foral 26/2022: se consideran independientes cuando no guarden relación de índole técnica o cuando, aun guardándola, no constituyan unidades subordinadas." },
 
-  { id: "E21-20", tema: "E21", subtema: "Proyecto técnico de licencia clasificada",
+  { id: "E21-28", tema: "E21", subtema: "Proyecto técnico de licencia clasificada",
     q: "En una solicitud de licencia de actividad clasificada, ¿qué documento debe acompañar necesariamente a la solicitud para iniciar el cómputo del plazo de concesión?",
     o: ["Un informe favorable del Departamento competente en medio ambiente", "Un proyecto técnico conforme a lo previsto reglamentariamente", "La declaración responsable de puesta en marcha", "El certificado final de obra"],
     c: 1, exp: "Arts. 45.1 y 45.2 del Decreto Foral 26/2022: la solicitud se presenta ante la entidad local y se acompaña de proyecto técnico; para iniciar el cómputo del plazo se exige que la solicitud vaya acompañada del proyecto técnico conforme al artículo siguiente." },
 
-  { id: "E21-21", tema: "E21", subtema: "Procedimiento de modificación sustancial",
+  { id: "E21-29", tema: "E21", subtema: "Procedimiento de modificación sustancial",
     q: "En el procedimiento de modificación sustancial, ¿cuál es el plazo mínimo de información pública establecido por el artículo 59?",
     o: ["Diez días", "Quince días", "Veinte días", "Un mes"],
     c: 1, exp: "Art. 59.3 del Decreto Foral 26/2022: el expediente de modificación sustancial se someterá a información pública durante un plazo que no será inferior a quince días desde su publicación en el Boletín Oficial de Navarra." },

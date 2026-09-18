@@ -26,6 +26,22 @@ async function main() {
       .trim();
   }
 
+  // Para comparar fórmulas no se pueden borrar los operadores: «Tf · Gf» y
+  // «Tf + Gf» no son la misma opción aunque las letras coincidan.
+  function normOption(value) {
+    return String(value ?? "")
+      .replace(/[×·*]/g, " por ")
+      .replace(/\+/g, " mas ")
+      .replace(/=/g, " igual ")
+      .replace(/\//g, " entre ")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^\p{L}\p{N}\s]/gu, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
   const absoluteWords = [
     "unicamente", "exclusivamente", "siempre", "nunca",
     "solo", "solamente", "en todos los casos", "sin excepcion"
@@ -45,7 +61,7 @@ async function main() {
     if (!exp.trim()) issues.push("SIN_EXPLICACION");
 
     if (options.length === 4) {
-      const normalizedOptions = options.map(norm);
+      const normalizedOptions = options.map(normOption);
 
       // Solo duplicados REALES. No se usa similitud difusa.
       for (let i = 0; i < 4; i++) {
@@ -102,15 +118,31 @@ async function main() {
     }
   }
 
+  // Cada pregunta debe tener un ID único: el historial de respuestas y el
+  // repaso de fallos se indexan por ID. Dos preguntas distintas con el mismo
+  // ID mezclan su progreso aunque sus enunciados no coincidan.
+  const byId = new Map();
+  for (const p of rows) {
+    if (!p.id) continue;
+    if (!byId.has(p.id)) byId.set(p.id, []);
+    byId.get(p.id).push(p);
+  }
+  for (const [id, group] of byId) {
+    if (group.length > 1) {
+      group.forEach((p) => p.issues.push(`ID_DUPLICADO:${id}`));
+    }
+  }
+
   function state(issues) {
     const hard = [
       "SIN_ENUNCIADO",
       "NO_HAY_4_OPCIONES",
       "RESPUESTA_INVALIDA",
       "SIN_EXPLICACION",
-      "OPCIONES_DUPLICADAS"
+      "OPCIONES_DUPLICADAS",
+      "ID_DUPLICADO"
     ];
-    if (issues.some(x => hard.includes(x))) return "ERROR";
+    if (issues.some(x => hard.some((issue) => x === issue || x.startsWith(`${issue}:`)))) return "ERROR";
     if (issues.length > 0) return "ATENCION";
     return "OK";
   }

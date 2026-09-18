@@ -1,0 +1,18 @@
+{
+  "E8": {
+    "estado": "VERIFICADO",
+    "verificado_el": "2026-09-18",
+    "fuente": "https://www.codigotecnico.org/pdf/Documentos/HE/DccHE.pdf",
+    "version": "DB-HE: articulado 14-06-2022; comentarios 22-12-2023",
+    "alcance": "HE0, HE1, HE3, HE4, HE5 y HE6; tablas y preguntas E8-01 a E8-23 contrastadas",
+    "nota": "El TXT contiene tablas convertidas en celdas verticales. El resumen usa tablas reconstruidas y conserva las preguntas históricas."
+  },
+  "E10": {
+    "estado": "VERIFICADO_PARCIAL",
+    "verificado_el": "2026-09-18",
+    "fuente": "https://www.codigotecnico.org/pdf/Documentos/HS/DccHS.pdf",
+    "version": "DB-HS: articulado 14-06-2022; comentarios 12-02-2025",
+    "alcance": "Tablas de memorización HS1 a HS6 y preguntas E10-33 a E10-39 contrastadas; el resto del resumen histórico queda pendiente de revisión granular.",
+    "nota": "El TXT contiene 180 bloques de tabla fragmentados. Se han separado las tablas de alto rendimiento de examen sin declarar validado el documento completo."
+  }
+}

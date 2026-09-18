@@ -2593,41 +2593,37 @@ export const RESUMENES = {
   },
 
   "E8": {
-    intro: "El CTE DB-HE (Ahorro de Energía), actualizado por RD 450/2022, establece en seis secciones (HE0–HE6) las exigencias de eficiencia energética y uso de energías renovables para edificios de nueva construcción e intervenciones en existentes.",
+    intro: "El CTE DB-HE (Ahorro de Energía), con articulado de 14 de junio de 2022, establece seis exigencias (HE0–HE6) sobre consumo, envolvente, iluminación, renovables y recarga. Las cifras de este resumen se han contrastado con las tablas oficiales: estudia siempre la fila completa, no una secuencia comprimida de números.",
     bloques: [
-      { h: "HE0 – Limitación del consumo energético", nota: "HE0 fija los límites de consumo de energía primaria no renovable (Cep,nren) y total (Cep,tot) mediante la comparación con un edificio de referencia; la clave es el valor por zona climática y el factor 1,25 para territorios extrapeninsulares.", items: [
+      { h: "HE0 – Limitación del consumo energético", nota: "HE0 fija límites de consumo de energía primaria no renovable (Cep,nren) y total (Cep,tot). No memorices que las reformas son ‘el doble’: tienen su propia fila y no coincide exactamente en todas las zonas.", items: [
         "Parámetros: Cep,nren (energía primaria no renovable) y Cep,tot (energía primaria total)",
-        "Zonas climáticas de invierno α, A, B, C, D, E — valores residencial nueva construcción: α=20 · A=25 · B=28 · C=32 · D=38 · E=43 kWh/m²·año",
-        "Intervenciones en existentes ≈ el doble de los valores de nueva construcción",
-        "Territorios extrapeninsulares (Canarias, Ceuta, Melilla): valores × 1,25",
+        "En residencial privado: usa la tabla Cep,nren o Cep,tot según el indicador; obra nueva/ampliación y reforma/cambio de uso son filas distintas",
+        "Cep,nren extrapeninsular (Illes Balears, Canarias, Ceuta y Melilla): × 1,25; Cep,tot residencial extrapeninsular: × 1,15",
         "Sistema de referencia para demostrar cumplimiento por comparación con edificio de referencia",
       ]},
-      { h: "HE1 – Control de la demanda energética (envolvente)", nota: "HE1 reduce la demanda térmica a través de la envolvente: límites de transmitancia U en muros, cubiertas y huecos, control solar en julio, estanquidad al aire (n50) y permeabilidad de ventanas.", items: [
-        "Ulim muros y suelos (W/m²K): α=0,80 · A=0,70 · B=0,56 · C=0,49 · D=0,41 · E=0,37",
-        "Ulim cubiertas (W/m²K): α=0,55 · A=0,50 · B=0,44 · C=0,40 · D=0,35 · E=0,33",
-        "Ulim huecos (W/m²K): A=3,2 · B=2,7 · C=2,3 · D=2,1 · E=1,80",
-        "qsol;jul,lim (control solar julio): 2,00 kWh/m²·mes residencial · 4,00 otros usos",
-        "Permeabilidad Q100 ventanas: α/A/B ≤ 27 m³/h·m² · C/D/E ≤ 9 m³/h·m²",
-        "n50 estanquidad (residencial nueva >120 m²): V/A ≤ 2 → 6 h⁻¹ · V/A ≥ 4 → 3 h⁻¹ (interpolación lineal)",
+      { h: "HE1 – Control de la demanda energética (envolvente)", nota: "HE1 limita U, control solar, permeabilidad y estanquidad. Atención: la primera columna de la tabla de huecos es α; si falta, todos los valores quedan desplazados una zona.", items: [
+        "Ulim: límites de transmitancia de los elementos de la envolvente térmica",
+        "qsol;jul: límite de control solar en julio; se aplica en los supuestos de nueva construcción, ampliación, cambio de uso y determinadas reformas",
+        "Q100: permeabilidad al aire de los huecos; n50: renovación de aire a 50 Pa para residencial nuevo >120 m²",
       ]},
       { h: "HE2 – Rendimiento instalaciones térmicas", nota: "HE2 no incluye valores propios en el DB-HE; remite integramente al RITE, que regula eficiencia, bienestar e higiene de las instalaciones térmicas.", items: [
         "Remite al Reglamento de Instalaciones Térmicas en los Edificios (RITE, RD 1027/2007)",
       ]},
-      { h: "HE3 – Condiciones de las instalaciones de iluminación", nota: "HE3 exige eficiencia en iluminación mediante el VEEI, potencia máxima instalada, control por horario o presencia y aprovechamiento de la luz natural.", items: [
-        "VEEI (W/m² por 100 lux): Administrativo=3,0 · Almacenes/aparcamientos=4,0 · Centros comerciales=6,0 · Hostelería/restauración=8,0 · Habitaciones hotel=10,0 · Locales >600 lux=2,5",
-        "Potencia máxima instalada: aparcamiento ≤600 lux → 5 W/m² · >600 lux → 10 W/m² · Otros usos → 25 W/m²",
+      { h: "HE3 – Condiciones de las instalaciones de iluminación", nota: "HE3 exige VEEI, potencia máxima instalada, control y aprovechamiento de luz natural. No confundas VEEI con potencia máxima: son tablas diferentes.", items: [
+        "VEEI: límite por uso del recinto, expresado en W/m² por cada 100 lux",
+        "Potencia máxima instalada: aparcamientos = 5 W/m²; otros usos = 10 W/m² si Em ≤600 lux y 25 W/m² si Em >600 lux",
         "Control obligatorio: encendido manual exterior + encendido por horario centralizado",
         "Zonas esporádicas (aseos, escaleras): el horario puede sustituirse por detección de presencia o pulsador temporizador",
-        "Luz natural: obligatoria cuando T·(Aw/A) > 0,11 + condición geométrica (θ>65°, ai>2hi o ai>2hi/Tc)",
+        "Luz natural: T(Aw/A) > 0,11 + condición geométrica; regula luminarias a menos de 5 m de ventana y bajo lucernario",
       ]},
-      { h: "HE4 – Contribución mínima renovable para ACS", nota: "HE4 obliga a cubrir con energías renovables al menos el 70 % de la demanda anual de ACS en edificios de nueva construcción o reforma integral, con reducciones y condiciones para bombas de calor.", items: [
-        "Ámbito: nueva construcción con ACS >100 l/d · reforma integral o cambio de uso con ACS >100 l/d",
+      { h: "HE4 – Contribución mínima renovable para ACS", nota: "HE4 fija la contribución renovable para ACS y climatización de piscina cubierta. La demanda incluye pérdidas de distribución, acumulación y recirculación.", items: [
+        "Ámbito: nueva construcción con ACS >100 l/d; edificio existente con ACS >100 l/d y reforma íntegra, reforma íntegra de la generación térmica o cambio de uso; y ciertos incrementos >50% en edificios con ACS inicial >5.000 l/d",
         "Contribución mínima: ≥70% de la demanda energética anual para ACS",
         "Reducción al 60% si la demanda de ACS es inferior a 5.000 l/d",
         "Bombas de calor ACS: SCOPdhw ≥ 2,5 (eléctricas) o ≥ 1,15 (térmicas) · temp. preparación ≥ 45°C",
       ]},
-      { h: "HE5 – Generación mínima de electricidad renovable", nota: "HE5 exige producir electricidad renovable en edificios nuevos o reformas íntegras de más de 1.000 m², calculando la potencia mínima con los criterios P1 y P2.", items: [
-        "Ámbito: edificios nueva construcción >1.000 m² · ampliaciones >1.000 m² · reformas íntegras >1.000 m²",
+      { h: "HE5 – Generación mínima de electricidad renovable", nota: "HE5 exige electricidad renovable para autoconsumo o red. El umbral es ‘superen’ o ‘más de’ 1.000 m²: 1.000 m² exactos no bastan.", items: [
+        "Ámbito: nueva construcción >1.000 m² · ampliación que incremente >1.000 m² · reforma íntegra o cambio de uso característico de existente >1.000 m²",
         "Pmin = mínimo de: P1 = Fpr;el × S (Fpr;el: 0,005 residencial · 0,010 otros usos) y P2 = 0,1 × (0,5·Sc – Soc)",
         "Si no se puede alcanzar Pmin por razones urbanísticas o de protección, se justifica y se maximiza",
       ]},
@@ -2639,14 +2635,94 @@ export const RESUMENES = {
       ]},
     ],
     claves: [
-      "HE0 zona C nueva residencial: 32 kWh/m²·año (no renovable) · extrapeninsular ×1,25",
-      "HE1 Ulim muros C: 0,49 · cubiertas B: 0,44 · huecos D: 2,1 W/m²K",
+      "HE0 residencial nuevo: zona C Cep,nren = 32 kWh/m²·año · extrapeninsular ×1,25",
+      "HE1 Ulim: muros C = 0,49 · cubiertas B = 0,44 · huecos D = 1,8 W/m²K",
       "HE1 qsol;jul residencial: 2,00 kWh/m²·mes · Q100 zona C: ≤9 m³/h·m²",
       "HE3 VEEI hostelería: 8,0 · zonas esporádicas → presencia o temporizador · luz natural si T(Aw/A)>0,11",
       "HE4 renovable ACS: ≥70% (60% si <5000 l/d) · SCOPdhw bomba calor eléctrica ≥2,5",
       "HE5 ámbito >1.000 m² · Fpr;el: 0,005 residencial / 0,010 otros",
       "HE6 residencial: conducción 100% · no residencial: 20% conducción + 1 estación/40 plazas",
     ],
+    memorizacion: {
+      tablas: [
+        {
+          titulo: "HE0 · Cep,nren,lim residencial privado (kWh/m²·año)",
+          columnas: ["Caso", "α", "A", "B", "C", "D", "E"],
+          filas: [
+            ["Nuevos y ampliaciones", "20", "25", "28", "32", "38", "43"],
+            ["Cambio a residencial y reformas", "40", "50", "55", "65", "70", "80"],
+          ],
+          nota: "En Illes Balears, Canarias, Ceuta y Melilla: ×1,25. Cep,tot residencial tiene otra tabla: nuevos 40/50/56/64/76/86 y reforma/cambio 55/75/80/90/105/115; allí el factor es ×1,15.",
+        },
+        {
+          titulo: "HE1 · Ulim de la envolvente (W/m²K)",
+          columnas: ["Elemento", "α", "A", "B", "C", "D", "E"],
+          filas: [
+            ["Muros y suelos al exterior", "0,80", "0,70", "0,56", "0,49", "0,41", "0,37"],
+            ["Cubiertas al exterior", "0,55", "0,50", "0,44", "0,40", "0,35", "0,33"],
+            ["Huecos", "3,2", "2,7", "2,3", "2,1", "1,8", "1,8"],
+          ],
+          nota: "Huecos = conjunto de marco, vidrio y, en su caso, cajón de persiana. La columna α es esencial.",
+        },
+        {
+          titulo: "HE1 · Control solar y estanquidad",
+          columnas: ["Parámetro", "Condición", "Límite"],
+          filas: [
+            ["qsol;jul", "Residencial privado", "2,00 kWh/m²·mes"],
+            ["qsol;jul", "Otros usos", "4,00 kWh/m²·mes"],
+            ["Q100 huecos", "Zonas α, A y B", "≤27 m³/h·m²"],
+            ["Q100 huecos", "Zonas C, D y E", "≤9 m³/h·m²"],
+            ["n50 residencial nuevo >120 m²", "V/A ≤2 / V/A ≥4", "6 h⁻¹ / 3 h⁻¹"],
+          ],
+          nota: "Entre los valores de compacidad se interpola linealmente. n50 no se aplica por vivienda aislada, sino al conjunto del edificio nuevo considerado.",
+        },
+        {
+          titulo: "HE3 · VEEIlim (selección de usos)",
+          columnas: ["Uso del recinto", "VEEIlim (W/m² por 100 lux)"],
+          filas: [
+            ["Administrativo en general", "3,0"],
+            ["Almacenes, cocinas y aparcamientos", "4,0"],
+            ["Zonas comunes no residenciales / centros comerciales", "6,0"],
+            ["Hostelería y restauración", "8,0"],
+            ["Habitaciones de hotel", "10,0"],
+            ["Locales con iluminancia >600 lux", "2,5"],
+          ],
+          nota: "No confundir con potencia máxima instalada: aparcamientos 5 W/m²; otros usos, 10 W/m² si Em ≤600 lux y 25 W/m² si Em >600 lux.",
+        },
+        {
+          titulo: "HE4 · Renovable para ACS y piscina cubierta",
+          columnas: ["Concepto", "Exigencia"],
+          filas: [
+            ["Contribución renovable mínima", "≥70% de la demanda energética anual"],
+            ["Reducción", "60% si ACS <5.000 l/d"],
+            ["Bomba de calor eléctrica", "SCOPdhw ≥2,5"],
+            ["Bomba de calor térmica", "SCOPdhw ≥1,15"],
+            ["Temperatura de preparación ACS", "≥45 °C"],
+          ],
+          nota: "La contribución incluye ACS y climatización de piscina cubierta, con pérdidas de distribución, acumulación y recirculación.",
+        },
+        {
+          titulo: "HE5 · Generación eléctrica renovable",
+          columnas: ["Caso", "Regla"],
+          filas: [
+            ["Ámbito", "Nueva >1.000 m²; ampliación >1.000 m²; reforma íntegra o cambio de uso >1.000 m²"],
+            ["P1", "Fpr;el × S: 0,005 residencial / 0,010 resto de usos"],
+            ["P2", "0,1 × (0,5 × Sc − Soc)"],
+            ["Pmin", "El menor de P1 y P2"],
+          ],
+        },
+        {
+          titulo: "HE6 · Infraestructura de recarga",
+          columnas: ["Uso", "Conducción de cables", "Estaciones"],
+          filas: [
+            ["Residencial privado", "100% de plazas", "La sección no fija ratio general"],
+            ["No residencial", "≥20% de plazas", "1 por cada 40 plazas o fracción"],
+            ["AGE / organismos vinculados", "≥20% de plazas", "1 por cada 20 plazas o fracción"],
+            ["Plazas accesibles", "—", "1 por cada 5 plazas accesibles"],
+          ],
+        },
+      ],
+    },
   },
 
  "E9": {
@@ -3796,6 +3872,97 @@ export const RESUMENES = {
     "HS6 nivel de referencia 300 Bq/m3; zona I = barrera o camara; zona II = barrera + ventilacion/despresurizacion",
     "HS6 barrera tipo lamina valida sin calculo: difusion <10^-11 m2/s y espesor >=2 mm"
   ],
+  memorizacion: {
+    tablas: [
+      {
+        titulo: "HS1 · Muros en contacto con el terreno: grado de impermeabilidad",
+        columnas: ["Presencia de agua", "Ks ≥ 10⁻²", "10⁻⁵ < Ks < 10⁻²", "Ks ≤ 10⁻⁵"],
+        filas: [
+          ["Alta", "5", "5", "4"],
+          ["Media", "3", "2", "2"],
+          ["Baja", "1", "1", "1"]
+        ],
+        nota: "Lee primero la fila (agua) y después la permeabilidad. Es una tabla de aplicación, no una lista de cifras sueltas."
+      },
+      {
+        titulo: "HS1 · Suelos en contacto con el terreno: grado de impermeabilidad",
+        columnas: ["Presencia de agua", "Ks > 10⁻⁵", "Ks ≤ 10⁻⁵"],
+        filas: [
+          ["Alta", "5", "4"],
+          ["Media", "4", "3"],
+          ["Baja", "2", "1"]
+        ],
+        nota: "Trampa típica: no copies la tabla de muros; los umbrales y los grados cambian."
+      },
+      {
+        titulo: "HS2 · Generación de residuos para el cálculo del almacén",
+        columnas: ["Fracción", "Gf · dm³/(persona·día)", "Mf"],
+        filas: [
+          ["Papel / cartón", "1,55", "1"],
+          ["Envases ligeros", "8,40", "1"],
+          ["Materia orgánica", "1,50", "1"],
+          ["Vidrio", "0,48", "1"],
+          ["Varios", "1,50", "4"]
+        ],
+        nota: "Fórmula: S = 0,8 · P · Σ(Tf · Gf · Cf · Mf). P = dormitorios sencillos + 2 · dormitorios dobles; el principal cuenta como doble."
+      },
+      {
+        titulo: "HS3 · Ventilación constante en viviendas",
+        columnas: ["Dormitorios", "Principal", "Resto", "Sala/comedor", "Húmedos total", "Húmedo/local"],
+        filas: [
+          ["0 o 1", "8", "—", "6", "12", "6"],
+          ["2", "8", "4", "8", "24", "7"],
+          ["3 o más", "8", "4", "10", "33", "8"]
+        ],
+        nota: "Caudales en l/s. Recuerda el recorrido: aire exterior → locales secos → locales húmedos → extracción."
+      },
+      {
+        titulo: "HS4 · Agua y ACS: valores que se preguntan juntos",
+        columnas: ["Cuestión", "Exigencia"],
+        filas: [
+          ["Presión mínima", "100 kPa en grifos; 150 kPa en fluxores y calentadores"],
+          ["Presión máxima", "500 kPa en cualquier punto de consumo"],
+          ["ACS en punto de consumo", "50–65 °C"],
+          ["Retorno de ACS", "Obligatorio si ida al punto más alejado ≥15 m"],
+          ["Retorno: pérdida / caudal / diámetro", "≤3 °C · ≥250 l/h por columna · DN interior ≥16 mm"]
+        ],
+        nota: "La excepción de 50–65 °C solo alcanza a instalaciones en edificios de uso exclusivo vivienda cuando no afecten al ambiente exterior."
+      },
+      {
+        titulo: "HS5 · Desagüe: aparatos y ventilación",
+        columnas: ["Caso", "Regla"],
+        filas: [
+          ["Cierre hidráulico", "Mín. 50 mm (uso continuo) / 70 mm (discontinuo); máx. 100 mm"],
+          ["UD de desagüe continuo", "1 UD por cada 0,03 dm³/s"],
+          ["Ventilación primaria sola", "<7 plantas; o <11 si bajante sobredimensionada y ramales <5 m"],
+          ["Ventilación secundaria", "Conexiones alternas <15 plantas; en cada planta si ≥15"],
+          ["Ventilación terciaria", "Ramales >5 m o edificio >14 plantas"],
+          ["Aparato no incluido", "DN 32/40/50/60/80/100 = 1/2/3/4/5/6 UD"]
+        ],
+        nota: "No confundir 7/11/14/15 plantas: cada cifra responde a un subsistema distinto."
+      },
+      {
+        titulo: "HS6 · Radón: decisión de protección",
+        columnas: ["Situación", "Respuesta exigible"],
+        filas: [
+          ["Nivel de referencia", "Promedio anual interior: 300 Bq/m³"],
+          ["Municipio zona I", "Barrera o cámara de aire mitigadora"],
+          ["Municipio zona II", "Barrera + espacio ventilado o despresurización del terreno"],
+          ["Existente: entre 1 y 2 × referencia", "Soluciones de zona I"],
+          ["Existente: >2 × referencia", "Soluciones de zona II"]
+        ],
+        nota: "Si ninguna zona de muestreo supera el nivel de referencia, no se exige implantar soluciones de protección."
+      }
+    ],
+    datos: [
+      "Fuente contrastada: DB-HS con comentarios del Ministerio, articulado de 14-06-2022 y comentarios de 12-02-2025.",
+      "Estrategia: domina primero las siete tablas de arriba; las tablas extensas de dimensionado se consultan por sección cuando el supuesto lo exija."
+    ],
+    excepciones: [
+      "HS1: condensaciones superficiales e intersticiales se comprueban por DB-HE1, no por la tabla de impermeabilidad.",
+      "HS6: las soluciones de zona I/II para edificios existentes se activan a partir de mediciones conformes al apéndice C."
+    ]
+  },
 },
 "E11": {
   intro: "El DB-SE-AE es el Documento Básico del CTE que determina las acciones sobre los edificios para verificar el cumplimiento de los requisitos de seguridad estructural y aptitud al servicio del DB-SE; todos sus valores son característicos salvo indicación contraria.",

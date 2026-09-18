@@ -16,11 +16,15 @@ const INK_FIJA = "#1C1B19"; // texto sobre subrayados: siempre oscuro, el fondo 
 const MONO = "ui-monospace, 'SF Mono', 'Cascadia Mono', 'Roboto Mono', Menlo, Consolas, monospace";
 const SANS = "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
 
-const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: [], leidos: {}, preguntas: {} });
-// Compatibilidad con estados guardados antes de introducir state.preguntas.
+const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: [], leidos: {}, preguntas: {}, notasResumen: {} });
+// Compatibilidad con estados guardados antes de introducir preguntas o notasResumen.
 const normalizarEstado = (s) => {
   const base = s || defaultState();
-  return base.preguntas ? base : { ...base, preguntas: {} };
+  return {
+    ...base,
+    preguntas: base.preguntas || {},
+    notasResumen: base.notasResumen || {},
+  };
 };
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
@@ -104,7 +108,7 @@ export default function App() {
       <main style={{ maxWidth: 920, margin: "0 auto", padding: "0 18px 64px" }}>
         {tab === "inicio" && <Inicio state={state} setTab={setTab} reload={() => loadState().then((s) => setState(normalizarEstado(s)))} />}
         {tab === "temas" && <VistaLectura state={state} persist={persist} />}
-        {tab === "resumenes" && <Resumenes />}
+        {tab === "resumenes" && <Resumenes state={state} persist={persist} />}
         {tab === "test" && <Test state={state} persist={persist} />}
         {tab === "supuestos" && <Supuestos state={state} persist={persist} />}
         {tab === "progreso" && <Progreso state={state} persist={persist} />}
@@ -882,7 +886,7 @@ function VistaLectura({ state, persist }) {
 }
 
 /* ---------- RESÚMENES ---------- */
-function Resumenes() {
+function Resumenes({ state, persist }) {
   const disponibles = [...Object.keys(RESUMENES)].sort((a, b) => {
     if (esGeneral(a) !== esGeneral(b)) return esGeneral(a) ? -1 : 1;
     return temaNum(a) - temaNum(b);
@@ -892,10 +896,27 @@ function Resumenes() {
   // una pantalla y se despliega solo lo que se va a repasar.
   const [abiertos, setAbiertos] = useState(() => new Set());
   const [clavesAbierto, setClavesAbierto] = useState(false);
+  const notasPorTema = state.notasResumen || {};
+  const [notasBorrador, setNotasBorrador] = useState(() => notasPorTema[sel] || "");
   const r = sel ? RESUMENES[sel] : null;
   const mem = r?.memorizacion || {};
-  
+
+  useEffect(() => {
+    setNotasBorrador(notasPorTema[sel] || "");
+  }, [sel, notasPorTema]);
+
+  const guardarNotas = async (codigo = sel, texto = notasBorrador) => {
+    if (!codigo) return;
+    const nextNotas = { ...notasPorTema };
+    const limpio = texto.trimEnd();
+    if (limpio.trim()) nextNotas[codigo] = limpio;
+    else delete nextNotas[codigo];
+    await persist({ ...state, notasResumen: nextNotas });
+  };
+
   const cambiarTema = (k) => {
+    // Cambiar de tema nunca descarta una anotación que aún estaba en edición.
+    if (sel && notasBorrador !== (notasPorTema[sel] || "")) guardarNotas();
     setSel(k);
     setAbiertos(new Set());
     setClavesAbierto(false);
@@ -940,6 +961,29 @@ function Resumenes() {
         <Ficha codigo={`${sel} · ${esGeneral(sel) ? "GENERAL (solo test)" : "ESPECÍFICO"}`} titulo={temaTitulo(sel)}>
           <p style={{ ...p, fontStyle: "italic", color: C.ink2 }}>{r.intro}</p>
 
+          <div style={{ margin: "18px 0", padding: "14px 16px", border: `1px solid ${C.hair}`, borderLeft: `3px solid ${C.amber}`, borderRadius: 4, background: C.card }}>
+            <div style={{ display: "flex", alignItems: "baseline", gap: 10, marginBottom: 7, flexWrap: "wrap" }}>
+              <Label style={{ marginBottom: 0 }}>Mi cuaderno · {sel}</Label>
+              <span style={{ fontFamily: MONO, fontSize: 10.5, color: notasBorrador === (notasPorTema[sel] || "") ? C.ok : C.amber }}>
+                {notasBorrador === (notasPorTema[sel] || "") ? "guardado" : "cambios sin guardar"}
+              </span>
+            </div>
+            <textarea
+              value={notasBorrador}
+              onChange={(e) => setNotasBorrador(e.target.value)}
+              onBlur={() => {
+                if (notasBorrador !== (notasPorTema[sel] || "")) guardarNotas();
+              }}
+              rows={4}
+              placeholder="Escribe aquí tus propias líneas: E35: silencio = …&#10;E18: patio existente = …"
+              style={{ width: "100%", boxSizing: "border-box", fontFamily: SANS, fontSize: 13.5, lineHeight: 1.55, padding: "10px 12px", resize: "vertical", borderRadius: 4, border: `1.5px solid ${C.hair}`, background: C.paper, color: C.ink }}
+            />
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, marginTop: 8, flexWrap: "wrap" }}>
+              <span style={{ ...pSmall, margin: 0 }}>Se guarda con el botón, al salir del campo o al cambiar de tema.</span>
+              <button className="cta" onClick={() => guardarNotas()} style={{ ...ctaGhost, padding: "6px 11px", fontSize: 11 }}>Guardar anotaciones</button>
+            </div>
+          </div>
+
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 14, marginBottom: 4 }}>
             <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate }}>
               {r.bloques.length} BLOQUES
@@ -967,13 +1011,64 @@ function Resumenes() {
                 >
                   <span style={{ flexShrink: 0, fontSize: 13, lineHeight: 1, width: 12 }}>{abierto ? "−" : "+"}</span>
                   <span style={{ flex: 1 }}>{b.h.toUpperCase()}</span>
-                  <span style={{ flexShrink: 0, fontWeight: 500, opacity: 0.6 }}>{b.items.length}</span>
+                  <span style={{ flexShrink: 0, fontWeight: 500, opacity: 0.6 }}>{b.items.length + (b.items2?.length || 0)}</span>
                 </button>
                 {abierto && (
                   <div style={{ padding: "0 0 14px 22px" }}>
                     {b.nota && <p style={{ ...p, margin: "0 0 10px", fontSize: 14 }}>{b.nota}</p>}
                     {b.items.map((it, j) => (
                       <div key={j} style={{ display: "flex", gap: 8, marginBottom: 6 }}>
+                        <span style={{ color: C.red, fontFamily: MONO, flexShrink: 0 }}>·</span>
+                        <span style={{ ...p, margin: 0, fontSize: 14 }}>{it}</span>
+                      </div>
+                    ))}
+                    {b.tablas?.map((tabla, tableIndex) => {
+                      const [columnas = [], ...filas] = tabla.tabla || [];
+                      return (
+                        <div key={tableIndex} style={{ margin: "14px 0 16px", overflowX: "auto" }}>
+                          {tabla.titulo && (
+                            <div style={{ fontFamily: MONO, fontSize: 10.5, fontWeight: 700, color: C.slate, marginBottom: 7 }}>
+                              {tabla.titulo.toUpperCase()}
+                            </div>
+                          )}
+                          <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: SANS, fontSize: 13 }}>
+                            <thead>
+                              <tr>
+                                {columnas.map((col, columnIndex) => (
+                                  <th key={columnIndex} style={{
+                                    textAlign: columnIndex === 0 ? "left" : "center",
+                                    padding: "8px 10px",
+                                    borderBottom: `2px solid ${C.ink}`,
+                                    color: C.ink,
+                                    fontFamily: MONO,
+                                    fontSize: 10,
+                                    letterSpacing: 0.5,
+                                    whiteSpace: "nowrap"
+                                  }}>{col}</th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {filas.map((fila, rowIndex) => (
+                                <tr key={rowIndex}>
+                                  {fila.map((celda, columnIndex) => (
+                                    <td key={columnIndex} style={{
+                                      padding: "8px 10px",
+                                      borderBottom: `1px solid ${C.hair}`,
+                                      textAlign: columnIndex === 0 ? "left" : "center",
+                                      color: C.ink,
+                                      fontWeight: columnIndex === 0 ? 600 : 400
+                                    }}>{celda}</td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      );
+                    })}
+                    {b.items2?.map((it, j) => (
+                      <div key={`extra-${j}`} style={{ display: "flex", gap: 8, marginBottom: 6 }}>
                         <span style={{ color: C.red, fontFamily: MONO, flexShrink: 0 }}>·</span>
                         <span style={{ ...p, margin: 0, fontSize: 14 }}>{it}</span>
                       </div>
@@ -1654,6 +1749,7 @@ function Supuestos({ state, persist }) {
   const [notaGlobal, setNotaGlobal] = useState(null);
   const [notasLibres, setNotasLibres] = useState("");
   const [guardado, setGuardado] = useState(false);
+  const [errorGuardado, setErrorGuardado] = useState(null);
 
   const cargarIntentos = useCallback(async () => {
     const codigo = getCodigo();
@@ -1677,7 +1773,7 @@ function Supuestos({ state, persist }) {
   const abrirSupuesto = (s) => {
     setSup(s); setSeg(0); setCorriendo(false);
     setTiempoObj(s.tiempo_estimado_min);
-    setNotaGlobal(null); setNotasLibres(""); setGuardado(false);
+    setNotaGlobal(null); setNotasLibres(""); setGuardado(false); setErrorGuardado(null);
     setFase("sesion");
   };
 
@@ -1697,12 +1793,24 @@ function Supuestos({ state, persist }) {
       notas_autocorreccion: notasLibres || null,
       rubrica: null,
     };
-    if (supabase && codigo) {
-      await supabase.from("intentos_supuesto").insert(intento);
-      await cargarIntentos();
-    } else {
+    const guardarLocal = async () => {
       const prev = state.supuestos[sup.id]?.intentos || [];
       await persist({ ...state, supuestos: { ...state.supuestos, [sup.id]: { intentos: [...prev, intento] } } });
+    };
+
+    setErrorGuardado(null);
+    if (supabase && codigo) {
+      const { error } = await supabase.from("intentos_supuesto").insert(intento);
+      if (error) {
+        // El trabajo del opositor no puede desaparecer por un fallo de red o
+        // una tabla de Supabase aún no creada: se conserva localmente.
+        await guardarLocal();
+        setErrorGuardado("No se ha podido sincronizar el intento; queda guardado en este dispositivo.");
+      } else {
+        await cargarIntentos();
+      }
+    } else {
+      await guardarLocal();
     }
     setGuardado(true);
   };
@@ -1903,6 +2011,7 @@ function Supuestos({ state, persist }) {
               <button className="cta" style={ctaGhost} onClick={volverALista}>Volver al listado</button>
             </div>
           )}
+          {errorGuardado && <p style={{ ...pSmall, color: C.red, marginTop: 10 }}>{errorGuardado}</p>}
         </Ficha>
       </div>
     );
