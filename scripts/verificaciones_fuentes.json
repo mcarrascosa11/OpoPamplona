@@ -14,5 +14,13 @@
     "version": "DB-HS: articulado 14-06-2022; comentarios 12-02-2025",
     "alcance": "Tablas de memorización HS1 a HS6 y preguntas E10-33 a E10-39 contrastadas; el resto del resumen histórico queda pendiente de revisión granular.",
     "nota": "El TXT contiene 180 bloques de tabla fragmentados. Se han separado las tablas de alto rendimiento de examen sin declarar validado el documento completo."
+  },
+  "E3": {
+    "estado": "VERIFICADO_PARCIAL",
+    "verificado_el": "2026-09-18",
+    "fuente": "https://www.codigotecnico.org/pdf/Documentos/SI/DBSI_RSCIEI.pdf",
+    "version": "DB-SI consolidado tras RD 164/2025, 4 de marzo de 2025",
+    "alcance": "Tablas de memorización SI 1, SI 2, SI 3 y SI 6 contrastadas; las preguntas históricas E3-01 a E3-32 quedan pendientes de contraste individual.",
+    "nota": "El TXT contiene tablas fragmentadas. El resumen incorpora solo tablas de alto rendimiento trazables a la fuente oficial, sin declarar verificado el banco completo."
   }
 }

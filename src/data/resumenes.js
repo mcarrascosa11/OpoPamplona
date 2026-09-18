@@ -2054,6 +2054,24 @@ export const RESUMENES = {
         "Tabla 1.2: en bajo rasante, EI 120 para todos los usos (el riesgo mínimo no se admite en bajo rasante); sobre rasante varía desde EI 60 hasta EI 180 según uso y altura",
         "Puertas entre sectores: EI2 t-C5, siendo t la mitad del tiempo de la pared; o la cuarta parte si el paso se realiza a través de vestíbulo de independencia con dos puertas",
         "Escaleras y ascensores entre sectores o entre riesgo especial y resto del edificio: compartimentados; ascensores con puerta E 30 o vestíbulo EI2 30-C5 (siempre vestíbulo en riesgo especial o Aparcamiento)"
+      ],
+      tablas: [
+        { titulo: "SI 1 · Sectores: límites de superficie más preguntables", tabla: [
+          ["Uso / situación", "Límite", "Matiz decisivo"],
+          ["Residencial Vivienda / Administrativo / Residencial Público", "2.500 m²", "En Vivienda, separadores entre viviendas: al menos EI 60"],
+          ["Docente", "4.000 m²", "Solo si el edificio tiene más de una planta; con una sola, no exige sectores"],
+          ["Comercial", "2.500 m²", "10.000 m² si ocupa edificio íntegro, extinción automática y h evacuación ≤10 m"],
+          ["Hospitalario: hospitalización o unidades especiales", "1.500 m²", "Al menos dos sectores y espacio para pacientes del contiguo"],
+          ["Pública Concurrencia", "2.500 m²", "Excepciones condicionadas para determinados espacios"],
+          ["Sector de riesgo mínimo", "Sin límite", "No se admite bajo rasante"],
+        ]},
+        { titulo: "SI 1 · Separadores de sectores: paredes y techos", tabla: [
+          ["Uso del sector", "Bajo rasante", "h ≤15 m", "15<h≤28 m", "h>28 m"],
+          ["Vivienda / Residencial Público / Docente / Administrativo", "EI 120", "EI 60", "EI 90", "EI 120"],
+          ["Comercial / Pública Concurrencia / Hospitalario", "EI 120", "EI 90", "EI 120", "EI 180"],
+          ["Aparcamiento", "EI 120", "EI 120", "EI 120", "EI 120"],
+          ["Puerta entre sectores", "EI2 t-C5", "t = ½ pared", "Con vestíbulo y 2 puertas: t = ¼", ""],
+        ]},
       ]
     },
     {
@@ -2067,6 +2085,23 @@ export const RESUMENES = {
         "Paso de instalaciones: mantener resistencia mediante obturación automática (compuerta EI t o intumescente) o elementos pasantes con igual resistencia; excluidas penetraciones ≤50 cm²",
         "Tabla 4.1 reacción al fuego: zonas ocupables C-s2,d0 (techos/paredes) y EFL (suelos); pasillos/escaleras protegidas B-s1,d0 y CFL-s1; aparcamientos/riesgo especial B-s1,d0 y BFL-s1; espacios ocultos no estancos B-s3,d0 y BFL-s2",
         "Carpas y cerramientos textiles: nivel T2 conforme UNE-EN 15619:2014 o C-s2,d0 conforme UNE-EN 13501-1:2007"
+      ],
+      tablas: [
+        { titulo: "SI 1 · Condiciones de zonas de riesgo especial", tabla: [
+          ["Característica", "Bajo", "Medio", "Alto"],
+          ["Estructura portante", "R 90", "R 120", "R 180"],
+          ["Paredes y techos", "EI 90", "EI 120", "EI 180"],
+          ["Vestíbulo en cada comunicación", "No", "Sí", "Sí"],
+          ["Puertas de comunicación", "EI2 45-C5", "2 × EI2 30-C5", "2 × EI2 45-C5"],
+          ["Recorrido hasta salida", "≤25 m", "≤25 m", "≤25 m"],
+        ]},
+        { titulo: "SI 1 · Reacción al fuego de revestimientos", tabla: [
+          ["Situación", "Techos y paredes", "Suelos"],
+          ["Zonas ocupables (no vivienda)", "C-s2,d0", "EFL"],
+          ["Pasillos y escaleras protegidos", "B-s1,d0", "CFL-s1"],
+          ["Aparcamientos y riesgo especial", "B-s1,d0", "BFL-s1"],
+          ["Espacios ocultos no estancos", "B-s3,d0", "BFL-s2"],
+        ]},
       ]
     },
     {
@@ -2081,6 +2116,18 @@ export const RESUMENES = {
         "Fachadas ≤18 m con arranque accesible al público: B-s3,d0 hasta altura de 3,5 m",
         "Cubiertas: REI 60 en franja de 0,50 m desde medianería y 1,00 m sobre encuentro con compartimentador; alternativa: prolongar medianería 0,60 m sobre cubierta",
         "Encuentro cubierta-fachada: altura h según distancia d (d≥2,50 m→h=0; d=0→h=5,00 m); materiales de cubierta a <5 m de fachada no EI 60 → BROOF (t1)"
+      ],
+      tablas: [
+        { titulo: "SI 2 · Fachadas: distancia entre puntos no EI 60", tabla: [
+          ["Ángulo α", "0°", "45°", "60°", "90°", "135°", "180°"],
+          ["Distancia d mínima", "3,00 m", "2,75 m", "2,50 m", "2,00 m", "1,25 m", "0,50 m"],
+        ]},
+        { titulo: "SI 2 · Fachadas: reacción al fuego por altura", tabla: [
+          ["Elemento", "h≤10 m", "10<h≤18 m", "18<h≤28 m", "h>28 m"],
+          ["Sistema constructivo de fachada (>10%)", "D-s3,d0", "C-s3,d0", "B-s3,d0", "B-s3,d0"],
+          ["Aislamiento en cámara ventilada", "D-s3,d0", "B-s3,d0", "B-s3,d0", "A2-s3,d0"],
+          ["Arranque accesible al público (h≤18 m)", "B-s3,d0 hasta 3,5 m", "B-s3,d0 hasta 3,5 m", "—", "—"],
+        ]},
       ]
     },
     {
@@ -2094,6 +2141,17 @@ export const RESUMENES = {
         "Desde origen hasta punto con dos recorridos alternativos: ≤15 m en hospitalización/intensivo",
         "Aumento del 25% en recorridos cuando el sector tenga instalación automática de extinción",
         "Compatibilidad de evacuación: establecimientos Comercial/Pública concurrencia o Docente/Hospitalario/Residencial Público/Administrativo >1.500 m² integrados en edificio de uso principal distinto → salidas de uso habitual independientes de zonas comunes"
+      ],
+      tablas: [
+        { titulo: "SI 3 · Salidas y recorridos de evacuación", tabla: [
+          ["Configuración", "Ocupación / condición", "Recorrido máximo"],
+          ["Una salida", "≤100 pers.; excepciones: 500 en edificio de viviendas; 50 si ascenso >2 m", "25 m"],
+          ["Una salida: Aparcamiento", "Condiciones generales", "35 m"],
+          ["Una salida directa al exterior", "Ocupación ≤25 pers.", "50 m"],
+          ["Más de una salida", "Regla general", "50 m"],
+          ["Más de una: duermen / hospitalización / infantil-primaria", "Regla especial", "35 m"],
+          ["Extinción automática", "Sector protegido", "+25% de recorrido"],
+        ]},
       ]
     },
     {
@@ -2160,6 +2218,16 @@ export const RESUMENES = {
         "Elementos en escalera protegida o pasillo protegido: mínimo R 30; en escalera especialmente protegida no se exige",
         "Elementos secundarios: si su colapso no afecta a ocupantes, estabilidad global, evacuación o compartimentación → sin exigencia; suelos que deban garantizar R → accesibles por escalera con igual R o protegida",
         "Estructuras textiles (carpas): R 30, excepto si el textil es T2 o C-s2,d0 y presenta perforación ≥20 cm² tras ensayo UNE-EN 14115:2002"
+      ],
+      tablas: [
+        { titulo: "SI 6 · Estructura principal: resistencia R", tabla: [
+          ["Uso", "Sótano", "h≤15 m", "15<h≤28 m", "h>28 m"],
+          ["Vivienda unifamiliar", "R 30", "R 30", "—", "—"],
+          ["Residencial Vivienda / Público / Docente / Administrativo", "R 120", "R 60", "R 90", "R 120"],
+          ["Comercial / Pública Concurrencia / Hospitalario", "R 120", "R 90", "R 120", "R 180"],
+          ["Aparcamiento exclusivo o sobre otro uso", "", "R 90", "R 90", "R 90"],
+          ["Aparcamiento bajo otro uso", "", "R 120", "R 120", "R 120 (R 180 robotizado)"],
+        ]},
       ]
     }
   ],
