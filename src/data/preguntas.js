@@ -5879,106 +5879,202 @@ export const PREGUNTAS = [
    
   // ---------- TEMA 26 ESPECÍFICO · IEE Y LIBRO DEL EDIFICIO (E26) ----------
   // Banco activo: 15 preguntas. Las retiradas conservan el historial ya respondido.
-  { id: "E26-01", tema: "E26",
-    q: "Una promoción está formada por dos viviendas adosadas horizontalmente que comparten únicamente el garaje mancomunado situado bajo rasante. A efectos del ámbito del Decreto Foral 108/2014, señale cuál es la conclusión correcta respecto de su sometimiento al informe de evaluación:",
-    o: ["Queda excluida por tratarse de viviendas unifamiliares, aunque compartan garaje o trasteros mancomunados bajo rasante", "Está incluida porque todo elemento común bajo rasante convierte la promoción en residencial colectiva", "Está incluida si las dos viviendas tienen cédulas de habitabilidad vigentes y accesos independientes", "Queda incluida desde que alcance cincuenta años, del mismo modo que dos viviendas superpuestas verticalmente"],
-    c: 0, exp: "Art. 2.2 DF 108/2014. Son unifamiliares las viviendas aisladas o adosadas horizontalmente, aun compartiendo garajes o trasteros mancomunados bajo rasante. La regla opuesta se reserva a las viviendas superpuestas verticalmente, que nunca se consideran unifamiliares aunque tengan accesos independientes." },
-  { id: "E26-02", tema: "E26",
-    q: "Para fijar la antigüedad de un edificio sujeto a evaluación concurren documentos con fechas distintas: calificación definitiva de vivienda protegida, catastro, Registro de la Propiedad, cédula de habitabilidad y certificado final de obra. Conforme al orden de prelación del artículo 3.1, ¿qué secuencia comienza correctamente?",
-    o: ["Catastro, Registro de la Propiedad, calificación definitiva de vivienda protegida, cédula y certificado final de obra", "Calificación definitiva de vivienda protegida, catastro, Registro de la Propiedad, cédula y certificado final de obra", "Certificado final de obra, cédula, Registro de la Propiedad, catastro y calificación definitiva", "Cédula de habitabilidad, catastro, calificación definitiva, Registro y certificado final de obra"],
-    c: 1, exp: "Art. 3.1 DF 108/2014. Si los documentos no coinciden, prevalecen sucesivamente la calificación definitiva como vivienda protegida, el catastro, el Registro de la Propiedad, la cédula de habitabilidad y el certificado final de obra; después, cualquier otro documento válido en derecho." },
-  { id: "E26-03", tema: "E26",
-    q: "Una comunidad pretende solicitar la calificación de rehabilitación protegida para mejorar exclusivamente la envolvente térmica de un edificio residencial colectivo de cuarenta y dos años. Antes de redactar el proyecto, pregunta si debe encargar el informe de evaluación del edificio. Señale la respuesta ajustada al Decreto Foral 108/2014:",
-    o: ["Debe incorporarse el IEE previa o simultáneamente a la redacción del proyecto, porque la mejora de envolvente es uno de los tres objetivos que activan la obligación", "No procede IEE hasta que el edificio cumpla cincuenta años, pues la antigüedad excluye una obligación anticipada", "Debe esperarse a una declaración municipal de ruina, pues un edificio menor de cincuenta años no puede quedar sujeto al IEE", "Basta aportar el certificado de eficiencia energética, que sustituye al IEE en esa rehabilitación energética protegida"],
-    c: 0, exp: "Art. 3.2 DF 108/2014. La consolidación estructural, la adaptación completa a accesibilidad universal y la mejora de la envolvente térmica exigen incorporar el IEE previa o simultáneamente al proyecto de rehabilitación protegida, con independencia de los cincuenta años." },
-  { id: "E26-04", tema: "E26",
-    q: "Durante la evaluación de un edificio el técnico no logra acceder a dos viviendas y comprueba que el ascensor está sujeto a inspección sectorial específica. ¿Qué actuación describe correctamente el alcance del informe de evaluación?",
-    o: ["Debe excluir del informe todas las viviendas y limitarse a los elementos comunes, pues el IEE no alcanza propiedades privativas", "Debe detectar los daños ocultos y determinar con precisión la causa de toda patología para suplir la falta de acceso", "Debe reflejar la falta de acceso y sus efectos sobre la validez del informe; respecto del ascensor, requerir contratos, boletines o informes de control sectorial", "Debe declarar inválido el IEE completo, puesto que cualquier vivienda no visitada obliga a comenzar de nuevo la evaluación"],
-    c: 2, exp: "Arts. 4.1 a 4.3 DF 108/2014. El IEE comprende el edificio completo, pero la falta de acceso se hace constar con sus limitaciones. Los vicios ocultos y el origen preciso no son su objeto; para instalaciones sujetas a inspección específica el evaluador requiere la documentación acreditativa." },
-  { id: "E26-05", tema: "E26", estado: "retirada", sustituidaPor: "E26-04",
-    q: "En un edificio en régimen de propiedad horizontal con tres portales para los que se han constituido comunidades de propietarios independientes:",
-    o: ["Podrá efectuarse una evaluación por cada comunidad o portal", "Debe realizarse una evaluación por cada vivienda", "Solo se evalúan los elementos comunes generales, excluyendo los de cada portal", "Debe realizarse necesariamente una única evaluación del edificio completo"],
-    c: 0, exp: "Art. 4.1 DF 108/2014. En los portales con comunidades independientes cabe una evaluación por portal, que debe incluir las plantas afectadas desde la cimentación a la cubierta." },
-  { id: "E26-06", tema: "E26",
-    q: "Una entidad de control de calidad recibe el encargo de elaborar un IEE de un edificio de viviendas. Conforme al artículo 5 del Decreto Foral 108/2014, ¿cuál de los siguientes requisitos es exigible para que el informe sea válido?",
-    o: ["Que la entidad lo emita bajo su exclusiva responsabilidad, sin necesidad de firma individual cuando esté inscrita como entidad de control", "Que lo redacte y firme un técnico con titulación de arquitecto o que ejerza la profesión de arquitecto técnico, garantizando independencia, imparcialidad y objetividad", "Que lo redacte cualquier técnico competente en instalaciones, al quedar excluidas del IEE las inspecciones sectoriales específicas", "Que lo firme necesariamente un arquitecto, sin posibilidad de intervención de profesionales que ejerzan la arquitectura técnica"],
-    c: 1, exp: "Art. 5 DF 108/2014. El informe se vincula a arquitecto o a quien ejerza la profesión de arquitecto técnico, sin perjuicio de la normativa básica estatal. Las entidades pueden redactarlo, pero los mismos requisitos de independencia, imparcialidad y objetividad se les aplican y siempre debe firmarlo técnico competente." },
-  { id: "E26-07", tema: "E26",
-    q: "En un edificio no se ha realizado dentro del plazo sectorial obligatorio el control periódico de una instalación, aunque todavía no hay peligro inmediato para moradores ni viandantes. A los efectos de la clasificación del artículo 7 del Decreto Foral 108/2014, dicha omisión debe calificarse como:",
-    o: ["Deficiencia leve, porque no compromete de forma inmediata la estabilidad del edificio", "Deficiencia generalizada, por afectar potencialmente al conjunto de la instalación", "Deficiencia grave, pues la ausencia de controles obligatorios en plazo recibe expresamente esa calificación", "Deficiencia muy grave, pues toda infracción de una normativa sectorial exige subsanación inmediata"],
-    c: 2, exp: "Art. 7.1.b DF 108/2014. La ausencia de los controles obligatorios de instalaciones dentro de los plazos de su normativa sectorial es una deficiencia grave. La extensión —generalizada o localizada— es una clasificación distinta e independiente de la gravedad." },
-  { id: "E26-08", tema: "E26", estado: "retirada", sustituidaPor: "E26-07",
-    q: "Una deficiencia que afecta a la totalidad de un elemento constructivo singular y de escasa relevancia en el conjunto del edificio se califica, por su extensión, como:",
-    o: ["No procede calificarla por extensión, solo por gravedad", "Localizada, porque la relevancia del elemento sobre el conjunto del edificio es escasa", "Muy grave, con independencia de su extensión", "Generalizada, por afectar al 100 % del elemento"],
-    c: 1, exp: "Art. 7.2.b DF 108/2014. Aunque afecte a todo el elemento, es localizada si la relevancia de este sobre el conjunto es escasa." },
-  { id: "E26-09", tema: "E26",
-    q: "El IEE de un edificio identifica deficiencias graves, sin peligro para usuarios ni viandantes, y fija para repararlas un plazo improrrogable de diez meses. ¿Qué calificación procede y qué revisión se exige una vez ejecutadas en plazo las obras?",
-    o: ["Apto con deficiencias leves; basta incorporar al libro la factura de las reparaciones", "No apto provisionalmente; una nueva evaluación limitada a las deficiencias iniciales certifica las reparaciones", "No apto; debe emitirse un IEE completo antes de iniciar cualquier reparación", "No apto provisionalmente; la condición de apto se recupera automáticamente al finalizar el décimo mes"],
-    c: 1, exp: "Art. 8.c DF 108/2014. El no apto provisional exige conjuntamente deficiencias graves, plazo improrrogable inferior a un año y ausencia de peligro. Tras subsanarlas, basta evaluación limitada a las deficiencias iniciales que certifique la reparación; no hay automatismo." },
-  { id: "E26-10", tema: "E26", estado: "retirada", sustituidaPor: "E26-09",
-    q: "Subsanadas en plazo las deficiencias de un edificio calificado como no apto provisionalmente, para alcanzar la condición de apto:",
-    o: ["Basta con la comunicación del propietario al ayuntamiento acompañada del certificado final de obra", "Debe realizarse un nuevo informe de evaluación completo del edificio", "Basta con una nueva evaluación limitada a las deficiencias recogidas en el informe inicial, certificando que se han efectuado las reparaciones exigidas", "La calificación de apto se produce automáticamente al vencer el plazo establecido"],
-    c: 2, exp: "Art. 8.c DF 108/2014. La evaluación limitada permite obtener apto o apto con deficiencias leves tras reparar en plazo." },
-  { id: "E26-11", tema: "E26",
-    q: "Un IEE se firma digitalmente el 10 de febrero de 2026, pero se incorpora al Registro General el 20 de septiembre de 2026. Al aplicar la regla de vigencia del artículo 9.1, ¿desde qué fecha deben computarse sus diez años?",
-    o: ["Desde el 20 de septiembre, aplicando la regla ordinaria de cómputo desde la entrada en el Registro", "Desde el 10 de febrero, porque entre firma e inscripción han transcurrido más de seis meses", "Desde el 31 de diciembre de 2026, por ser el primer cierre anual posterior a la inscripción", "Desde la fecha en que el Ayuntamiento comunique al propietario la incorporación al Registro"],
-    c: 1, exp: "Art. 9.1 DF 108/2014. La regla ordinaria parte de la entrada en registro, salvo que entre firma e inscripción medien más de seis meses; entonces el plazo de diez años cuenta desde la firma del técnico." },
-  { id: "E26-12", tema: "E26", estado: "retirada", sustituidaPor: "E26-11",
-    q: "En los casos de renovación del informe de evaluación, el artículo 9.2 establece que la vigencia anterior se prorroga durante la nueva evaluación, siempre que:",
-    o: ["La prórroga se solicite expresamente al ayuntamiento antes de vencer el informe", "No transcurran más de dos años desde la pérdida de vigencia", "No transcurra más de un año desde la fecha de pérdida de vigencia", "El edificio tenga una calificación inicial de apto sin deficiencias"],
-    c: 2, exp: "Art. 9.2 DF 108/2014. La prórroga es tácita durante la renovación, con límite de un año desde la pérdida de vigencia." },
-  { id: "E26-13", tema: "E26",
-    q: "Al firmar un IEE, el técnico aprecia patologías muy graves que pueden implicar riesgo inminente para las personas. Si la urgencia permite comunicar con el Ayuntamiento, ¿qué secuencia impone el artículo 10.1?",
-    o: ["El propietario remite el informe al departamento de vivienda en el plazo de un mes, sin intervención posterior del técnico", "El técnico ordena directamente el desalojo total y después solicita la inscripción en el Registro General", "El técnico que firma remite el informe al Ayuntamiento en el plazo más breve posible, además de prever las medidas definitivas o provisionales exigibles", "La comunidad convoca una junta extraordinaria y comunica las patologías al Ayuntamiento cuando apruebe el presupuesto de reparación"],
-    c: 2, exp: "Art. 10.1 DF 108/2014. La comunicación inmediata al Ayuntamiento corresponde al técnico firmante. Si la inminencia exige medidas inmediatas y no puede comunicar con el Ayuntamiento, se informa al departamento competente en extinción de incendios." },
-  { id: "E26-14", tema: "E26", estado: "retirada", sustituidaPor: "E26-16",
-    q: "Respecto de la relación del informe de evaluación con el libro del edificio, el artículo 10.2 dispone que:",
-    o: ["El informe sustituye al libro del edificio en los edificios de más de cincuenta años", "El informe se incorpora al libro cuando exista o, si no existe, constituye el primer documento que lo integra", "El informe solo se incorpora al libro en edificios posteriores a la LOE", "El informe se archiva de forma independiente y nunca forma parte del libro"],
-    c: 1, exp: "Art. 10.2 DF 108/2014. Después se incorporan los informes y proyectos necesarios para subsanar las deficiencias." },
-  { id: "E26-15", tema: "E26",
-    q: "Tras recibir del técnico los códigos de acceso al original digital válido del IEE, el propietario solicita al Ayuntamiento su inclusión en el Registro General. Conforme a los artículos 10.4 y 13, ¿qué actuación y plazo corresponden al Ayuntamiento?",
-    o: ["Debe introducir el código en la aplicación informática e incorporar el informe al registro en un plazo máximo de dos meses", "Debe remitir el expediente al departamento de vivienda para que este practique la inscripción en el plazo máximo de un mes", "Debe comprobar físicamente el edificio y emitir una nueva calificación en los quince días siguientes", "Debe notificar al propietario que el IEE se inscribe de forma automática desde la firma digital del técnico"],
-    c: 0, exp: "Arts. 10.4 y 13 DF 108/2014. El propietario solicita la inscripción y el Ayuntamiento utiliza la aplicación habilitada para introducir el código y practicarla; el art. 10.4 fija un máximo de dos meses para incorporar el informe." },
-  { id: "E26-16", tema: "E26",
-    q: "Una rehabilitación afecta a las instalaciones generales y a elementos comunes de un edificio de viviendas, aunque no recibe ayuda pública. Conforme al Decreto Foral 322/2000, ¿qué contenido debe tener el Libro del Edificio que se formalice por esa actuación?",
-    o: ["No es obligatorio, porque la formalización en rehabilitación exige que concurran afectación total y ayuda pública", "Debe reconstruir toda la documentación original de la obra nueva, incluidos documentos ajenos a la rehabilitación", "Debe incluir exclusivamente los datos y documentos derivados de la propia actividad rehabilitadora", "Debe limitarse a una certificación municipal de que las instalaciones comunes han sido revisadas"],
-    c: 2, exp: "Art. 1.1 DF 322/2000. El libro es obligatorio si la rehabilitación afecta a la totalidad del edificio, a sus instalaciones generales o a elementos comunes, o si es beneficiaria de ayuda pública. En estos supuestos incorpora exclusivamente los datos y documentos derivados de la actividad rehabilitadora." },
-  { id: "E26-17", tema: "E26",
-    q: "La comunidad termina una reparación que modifica datos ya inscritos en el Libro del Edificio y recibe posteriormente la documentación que debe archivarse. ¿Qué régimen de actualización fija el artículo 2.3 del Decreto Foral 322/2000?",
-    o: ["La operación debe registrarse en un mes desde que se produzca o finalice, y los documentos deben archivarse en un mes desde su obtención", "La operación y la documentación pueden reflejarse al cierre anual de cuentas tras acuerdo de la junta", "La operación se registra en quince días y los documentos se archivan en tres meses desde su emisión", "La obligación de registro nace si la operación supera el presupuesto anual de mantenimiento aprobado por la comunidad"],
-    c: 0, exp: "Art. 2.3 DF 322/2000. Hay dos plazos de un mes: para registrar mantenimiento, reforma o rehabilitación desde que se produzcan o terminen, y para incorporar documentos al archivo desde que se obtengan." },
-  { id: "E26-18", tema: "E26", estado: "retirada", sustituidaPor: "E26-21",
-    q: "Según el artículo 4 del Decreto Foral 322/2000, el Libro del Edificio incluye en primer lugar una copia del propio Decreto Foral que regula su contenido.",
-    o: ["Correcto, y después se estructura en cinco apartados documentales", "Correcto, pero únicamente en promociones de vivienda protegida", "Incorrecto, pues comienza obligatoriamente por el proyecto arquitectónico visado", "Incorrecto, pues el decreto no puede formar parte del Libro del Edificio"],
-    c: 0, exp: "Art. 4 DF 322/2000. Además de la copia del decreto, el Libro se organiza en Datos Generales, Archivo de Documentos, Proyecto y documentos técnicos, Registro de incidencias y Registro de operaciones." },
-  { id: "E26-19", tema: "E26", estado: "retirada", sustituidaPor: "E26-20",
-    q: "El artículo 6 del Decreto Foral 322/2000 exige una fotografía de la fachada principal del edificio terminado con tamaño mínimo de 9 por 13 centímetros.",
-    o: ["Correcto", "Incorrecto: 10 por 15 centímetros", "Incorrecto: 13 por 18 centímetros", "Incorrecto: 6 por 9 centímetros"],
-    c: 0, exp: "Art. 6.f DF 322/2000. La medida mínima de la fotografía de fachada principal es 9 × 13 cm." },
-  { id: "E26-20", tema: "E26",
-    q: "Al preparar los Datos Generales del Libro del Edificio deben anotarse los periodos de garantía por daños materiales causados por vicios o defectos de construcción. ¿Cuál relaciona correctamente duración y objeto de cada garantía?",
-    o: ["Diez años para cimentación y estructura que comprometa resistencia o estabilidad; tres para elementos constructivos e instalaciones; uno para terminación o acabado", "Diez años para cualquier defecto de la edificación; tres para daños estéticos; uno para deficiencias de mantenimiento de la comunidad", "Cinco años para estructura, tres para instalaciones y uno para terminación, sin exigir relación con la resistencia mecánica", "Diez años para elementos estructurales, cinco para instalaciones y dos para los elementos de acabado"],
-    c: 0, exp: "Art. 9.1 DF 322/2000. La garantía decenal exige que los vicios afecten a cimentación, soportes, vigas, forjados u otros elementos estructurales y comprometan directamente resistencia mecánica o estabilidad. Las restantes son trienal de elementos constructivos o instalaciones y anual de acabado." },
-  { id: "E26-21", tema: "E26",
-    q: "Una obra se ejecutó con modificaciones respecto del proyecto arquitectónico inicial, circunstancia recogida en el certificado final de obras. Para integrar la documentación técnica en el Libro del Edificio, ¿qué documento debe sustituir al proyecto inicial?",
-    o: ["El certificado final de obra sin más documentación, porque acredita la recepción de las modificaciones", "El proyecto inicial visado junto a una relación simplificada de cambios suscrita por el promotor", "La documentación final de obras completa y visada, con al menos la misma documentación y especificaciones que el proyecto inicial", "Un informe de la comunidad de propietarios que identifique las modificaciones ya ejecutadas"],
-    c: 2, exp: "Art. 12.1.º DF 322/2000. El proyecto arquitectónico completo y visado se incorpora solo si se construyó sin modificación y así consta expresamente en el certificado final. Con modificaciones, lo sustituye la documentación final de obras completa y visada." },
-  { id: "E26-22", tema: "E26", estado: "retirada", sustituidaPor: "E26-23",
-    q: "Acabada la obra, el artículo 15 atribuye al promotor la formalización del Libro del Edificio, con Datos Generales completos salvo los seguros que correspondan a la comunidad.",
-    o: ["Correcto", "Incorrecto: corresponde a la dirección facultativa", "Incorrecto: corresponde al Ayuntamiento", "Incorrecto: corresponde a la comunidad ya constituida"],
-    c: 0, exp: "Art. 15 DF 322/2000. El promotor formaliza el Libro; los registros de incidencias y operaciones se entregan sin cumplimentar según modelo oficial." },
-  { id: "E26-23", tema: "E26",
-    q: "En una promoción sometida a propiedad horizontal, ya se ha constituido la comunidad y se han designado sus representantes. Al realizar la entrega del Libro del Edificio, ¿qué destinatario y qué formalidad exige el artículo 16.1?",
-    o: ["Se entrega a cada adquirente de vivienda, firmándose una única diligencia incorporada al expediente municipal", "Se entrega al Ayuntamiento, que lo custodia hasta que la comunidad nombre administrador de fincas", "Se entrega a la comunidad de propietarios; se firman dos copias del acta de recepción, una para el Libro y otra para el promotor", "Se entrega al administrador elegido por el promotor, sin acta de recepción mientras no se transmita la última vivienda"],
-    c: 2, exp: "Art. 16.1 DF 322/2000. En propiedad horizontal el destinatario es la comunidad constituida con representantes designados. El acta de recepción se firma por duplicado: una copia se incorpora al Libro y la otra acredita la entrega al promotor." },
-  { id: "E26-24", tema: "E26", estado: "retirada", sustituidaPor: "E26-23",
-    q: "Cuando el edificio queda como propiedad del promotor, la formalización del Libro del Edificio debe efectuarse en dos meses desde la licencia de primera utilización.",
-    o: ["Correcto", "Incorrecto: desde la declaración de obra nueva", "Incorrecto: desde el certificado final de obra", "Incorrecto: desde la primera transmisión de una vivienda"],
-    c: 0, exp: "Art. 16.6 DF 322/2000. El plazo de dos meses se cuenta desde la obtención de la licencia de primera utilización." },
-  { id: "E26-25", tema: "E26", estado: "retirada", sustituidaPor: "E26-23",
-    q: "En vivienda de nueva planta en propiedad horizontal sin local exclusivo de representantes, el artículo 17 exige prever espacio accesible desde elemento común para un armario destinado al Libro del Edificio.",
-    o: ["Correcto", "Incorrecto: debe depositarse en el Ayuntamiento", "Incorrecto: basta con custodiarlo en la vivienda del presidente", "Incorrecto: exige construir obligatoriamente un local de comunidad"],
-    c: 0, exp: "Art. 17 DF 322/2000. Debe preverse ese espacio; la comunidad puede decidir posteriormente otra ubicación para el Libro." },
+  
+  {
+    "id": "E26-01",
+    "tema": "E26",
+    "q": "Según el artículo 1 del Decreto Foral 108/2014, por el que se regula el informe de evaluación de los edificios, ¿cuál de los siguientes no constituye uno de los objetos de dicha norma?",
+    "o": [
+      "Regular el informe de evaluación de los edificios que se redactará como consecuencia de la obligación establecida en la Ley 8/2013, de 26 de junio.",
+      "Favorecer la conservación y rehabilitación del parque de edificios de viviendas y la regeneración y renovación de los tejidos urbanos existentes.",
+      "Aprobar el programa de evaluaciones obligatorias en la Comunidad Foral de Navarra.",
+      "Establecer el régimen sancionador aplicable a los propietarios que incumplan la obligación de mantener los edificios en condiciones de seguridad y salubridad."
+    ],
+    "c": 3,
+    "exp": "El artículo 1 del Decreto Foral 108/2014 enumera tres objetos: regular el informe de evaluación, favorecer la conservación y rehabilitación, y aprobar el programa de evaluaciones obligatorias. El régimen sancionador no se configura como un objeto autónomo, sino que las consecuencias del incumplimiento se derivan de la legislación sectorial (Ley Foral 35/2002 y Ley Foral 10/2010), según el artículo 11. Por tanto, la opción cuarta no es correcta."
+  },
+  {
+    "id": "E26-02",
+    "tema": "E26",
+    "q": "En relación con el ámbito de aplicación del Decreto Foral 108/2014, ¿qué edificios quedan expresamente excluidos de la obligación de someterse a evaluación?",
+    "o": [
+      "Los edificios residenciales colectivos con más de una vivienda, aunque contengan simultáneamente otros usos.",
+      "Los edificios destinados a ser ocupados por un grupo de personas que, sin constituir núcleo familiar, compartan servicios y se sometan a un régimen común, como hoteles o residencias.",
+      "Las viviendas unifamiliares, entendiendo por tales las aisladas o adosadas horizontalmente, aun cuando compartan garajes o trasteros mancomunados en planta bajo rasante.",
+      "Los edificios de tipología residencial colectiva que cuenten con una antigüedad igual o superior a 50 años."
+    ],
+    "c": 2,
+    "exp": "El artículo 2.2 del Decreto Foral 108/2014 excluye expresamente las viviendas unifamiliares, considerando como tales las aisladas o adosadas horizontalmente, incluso si comparten garajes o trasteros mancomunados. Las superpuestas verticalmente nunca se consideran unifamiliares. Las demás opciones describen supuestos incluidos en el ámbito de aplicación (artículo 2.1)."
+  },
+  {
+    "id": "E26-03",
+    "tema": "E26",
+    "q": "Un edificio de tipología residencial colectiva tiene una antigüedad de 52 años. Para acreditar dicha antigüedad a efectos del Decreto Foral 108/2014, si existen varios documentos y no coinciden, ¿cuál es el orden de prelación establecido en el artículo 3.1?",
+    "o": [
+      "Calificación definitiva como vivienda protegida, inscripción en el catastro, inscripción en el Registro de la Propiedad, expedición de cédula de habitabilidad, certificado de final de obra u otro documento válido en derecho.",
+      "Inscripción en el Registro de la Propiedad, calificación definitiva como vivienda protegida, certificado de final de obra, expedición de cédula de habitabilidad, inscripción en el catastro u otro documento válido en derecho.",
+      "Certificado de final de obra, calificación definitiva como vivienda protegida, inscripción en el catastro, inscripción en el Registro de la Propiedad, expedición de cédula de habitabilidad u otro documento válido en derecho.",
+      "Expedición de cédula de habitabilidad, certificado de final de obra, calificación definitiva como vivienda protegida, inscripción en el Registro de la Propiedad, inscripción en el catastro u otro documento válido en derecho."
+    ],
+    "c": 0,
+    "exp": "El artículo 3.1 del Decreto Foral 108/2014 establece que, si existieran varios documentos acreditativos y no fuera coincidente la antigüedad, el orden de prelación coincidirá con el de su enumeración en dicho apartado: fecha de calificación definitiva como vivienda protegida, inscripción en el catastro, en el Registro de la Propiedad, expedición de cédula de habitabilidad, certificado de final de obra o cualquier otro documento válido en derecho. La opción primera reproduce exactamente ese orden."
+  },
+  {
+    "id": "E26-04",
+    "tema": "E26",
+    "q": "En la evaluación de un edificio sujeta al Decreto Foral 108/2014, el técnico evaluador no ha podido acceder a la totalidad de las viviendas o locales. ¿Qué debe hacer conforme al artículo 4.2?",
+    "o": [
+      "Suspender la evaluación hasta obtener el acceso a todos los elementos, comunicándolo al ayuntamiento para que requiera a los propietarios.",
+      "Reflejar tal circunstancia en el informe, indicando si supone alguna limitación al contenido técnico del informe y, en su caso, la validez del informe para el conjunto del edificio.",
+      "Emitir el informe con la calificación de “no apto provisionalmente” hasta que se complete la inspección de las partes no accesibles.",
+      "Limitar el informe a los elementos comunes, dejando constancia de que las viviendas no inspeccionadas quedan excluidas de la evaluación."
+    ],
+    "c": 1,
+    "exp": "El artículo 4.2 del Decreto Foral 108/2014 dispone que, si el técnico evaluador no pudiera acceder a la totalidad de las viviendas o locales, deberá reflejar tal circunstancia en el informe, indicando si supone alguna limitación al contenido técnico y, en su caso, la validez del informe para el conjunto del edificio. No se prevé la suspensión automática ni una calificación específica por este motivo."
+  },
+  {
+    "id": "E26-05",
+    "tema": "E26",
+    "q": "¿Qué titulación se exige, con carácter general, para redactar el informe de evaluación de los edificios regulado en el Decreto Foral 108/2014, según su artículo 5?",
+    "o": [
+      "Arquitecto, o titulados que ejerzan la profesión de arquitecto técnico, sin perjuicio de lo que pudiera determinar la normativa básica estatal en materia de competencias profesionales.",
+      "Arquitecto superior exclusivamente, quedando excluida la titulación de arquitecto técnico.",
+      "Ingeniero de la edificación o arquitecto técnico, sin que pueda intervenir un arquitecto superior.",
+      "Cualquier técnico competente con titulación universitaria en el ámbito de la edificación, incluyendo ingenieros industriales."
+    ],
+    "c": 0,
+    "exp": "El artículo 5 del Decreto Foral 108/2014 establece que el informe lo redactará técnico con la titulación de arquitecto, o titulados que ejerzan la profesión de arquitecto técnico, sin perjuicio de lo que pudiera determinar la normativa básica del Estado en materia de competencias profesionales. Las demás opciones restringen o amplían indebidamente la titulación exigida."
+  },
+  {
+    "id": "E26-06",
+    "tema": "E26",
+    "q": "Según el artículo 7.1 del Decreto Foral 108/2014, ¿cómo se definen las deficiencias graves?",
+    "o": [
+      "Son las que, por su importancia, comprometen la estabilidad del elemento constructivo que las presenta y suponen la inestabilidad del edificio en su conjunto o un peligro para sus moradores o viandantes.",
+      "Son las que, sin representar un peligro inmediato para la estabilidad del edificio ni riesgo para la seguridad de moradores o viandantes, deben subsanarse en el plazo que el propio informe establece, bien por su importancia, porque su previsible evolución derivará en muy grave en un plazo inferior a un año, o porque su permanencia provocaría un deterioro progresivo del elemento.",
+      "Son aquellas cuya importancia o evolución prevista no permiten calificarlas como graves o muy graves, pero cuya resolución resulta necesaria para un adecuado mantenimiento del edificio evitando su progresivo deterioro.",
+      "Son las que afectan a más del 50 % de la superficie del elemento constructivo considerado, independientemente de su gravedad intrínseca."
+    ],
+    "c": 1,
+    "exp": "El artículo 7.1.b del Decreto Foral 108/2014 define las deficiencias graves como las que, sin representar un peligro inmediato para la estabilidad del edificio ni riesgo para la seguridad de moradores o viandantes, deben subsanarse en el plazo que el propio informe establece. La necesidad de subsanación deriva de su importancia, de que su evolución derive en muy grave en menos de un año, o de que su permanencia provoque un deterioro progresivo. La opción primera define las muy graves (artículo 7.1.a); la tercera, las leves (artículo 7.1.c); y la cuarta se refiere a la extensión generalizada (artículo 7.2.a)."
+  },
+  {
+    "id": "E26-07",
+    "tema": "E26",
+    "q": "Conforme al artículo 8 del Decreto Foral 108/2014, ¿en qué caso se calificará el edificio como “no apto provisionalmente”?",
+    "o": [
+      "Cuando presente deficiencias muy graves, con independencia del plazo para subsanarlas.",
+      "Cuando presente deficiencias graves para cuya subsanación se haya establecido un plazo improrrogable inferior a un año en el propio informe y dichas deficiencias no representen peligro para los usuarios del edificio o los viandantes.",
+      "Cuando presente deficiencias leves que puedan ser subsanadas a lo largo del periodo de vigencia del informe.",
+      "Cuando, tras la evaluación, se detecten deficiencias graves cuya subsanación requiera un plazo superior a un año."
+    ],
+    "c": 1,
+    "exp": "El artículo 8.c del Decreto Foral 108/2014 establece que será “no apto provisionalmente” el edificio en cuyo informe se incluyan deficiencias graves para cuya subsanación se haya establecido un plazo improrrogable inferior a un año en el propio informe y dichas deficiencias no representen peligro para los usuarios del edificio o los viandantes. La opción primera corresponde al “no apto” por deficiencias muy graves; la tercera, al “apto con deficiencias leves”; y la cuarta, al “no apto” por deficiencias graves con plazo superior a un año."
+  },
+  {
+    "id": "E26-08",
+    "tema": "E26",
+    "q": "En relación con la vigencia del informe de evaluación de los edificios, según el artículo 9.1 del Decreto Foral 108/2014, ¿desde qué momento se computa el plazo de diez años?",
+    "o": [
+      "Siempre desde la fecha de firma del informe por el técnico evaluador.",
+      "Desde la fecha de entrada en el registro, excepto cuando entre la firma del informe y dicha entrada hubieran transcurrido más de 6 meses, en cuyo caso se contará desde la firma.",
+      "Desde la fecha de notificación al ayuntamiento correspondiente, sin excepciones.",
+      "Desde la fecha de constitución de la comunidad de propietarios, si el edificio está en régimen de propiedad horizontal."
+    ],
+    "c": 1,
+    "exp": "El artículo 9.1 del Decreto Foral 108/2014 dispone que el informe tendrá una vigencia de diez años desde su entrada en el registro, excepto cuando entre la firma del informe y dicha entrada hubieran transcurrido más de 6 meses, caso en el que el plazo se contará desde la firma del informe por el técnico. Las demás opciones no se ajustan a este precepto."
+  },
+  {
+    "id": "E26-09",
+    "tema": "E26",
+    "q": "Si el informe de evaluación indica la presencia de patologías o deficiencias muy graves que puedan suponer riesgo inminente para las personas, ¿qué debe hacer el técnico que lo firma, además de prever las medidas definitivas o provisionales exigidas en el artículo 7?",
+    "o": [
+      "Remitir el informe al ayuntamiento por el técnico que lo firma en el plazo más breve posible; si la inminencia del riesgo exigiera medidas inmediatas y no se pudiera comunicar al ayuntamiento, se pondrá en conocimiento del Departamento competente en materia de extinción de incendios.",
+      "Remitir el informe exclusivamente al Departamento competente en materia de vivienda del Gobierno de Navarra, sin necesidad de comunicarlo al ayuntamiento.",
+      "Convocar de urgencia a la comunidad de propietarios para que adopte las medidas cautelares, sin obligación de comunicarlo a ninguna administración.",
+      "Ordenar la evacuación inmediata del edificio y dar traslado al juzgado de guardia en el plazo de 24 horas."
+    ],
+    "c": 0,
+    "exp": "El artículo 10.1, párrafo tercero, del Decreto Foral 108/2014 establece que, si el informe indicara la presencia de patologías o deficiencias muy graves que puedan suponer riesgo inminente para las personas, además de prever las medidas definitivas o provisionales, el informe deberá ser remitido al ayuntamiento por el técnico que lo firma en el plazo más breve posible. Si la inminencia del riesgo exigiera la adopción de medidas inmediatas y no se pudiera comunicar al ayuntamiento, se pondrá la situación en conocimiento del Departamento competente en materia de extinción de incendios."
+  },
+  {
+    "id": "E26-10",
+    "tema": "E26",
+    "q": "Según el artículo 11.2.1 del Decreto Foral 108/2014, para los propietarios que, estando obligados, carezcan del informe de evaluación del edificio, ¿cuál de las siguientes consecuencias se contempla expresamente?",
+    "o": [
+      "No podrá solicitarse la calificación provisional de rehabilitación protegida.",
+      "Se procederá automáticamente a la declaración de ruina del edificio.",
+      "Se impondrá una multa coercitiva diaria hasta la presentación del informe, sin posibilidad de ejecución subsidiaria.",
+      "Se revocará la cédula de habitabilidad de todas las viviendas del edificio de forma inmediata."
+    ],
+    "c": 0,
+    "exp": "El artículo 11.2.1 del Decreto Foral 108/2014 enumera las consecuencias de carecer del informe de evaluación estando obligado. Entre ellas se incluye, en la letra c), que no podrá solicitarse la calificación provisional de rehabilitación protegida. Las demás opciones no se recogen como consecuencias automáticas en dicho precepto; la declaración de ruina requiere el cumplimiento de los requisitos del artículo 196 de la Ley Foral 35/2002, y la revocación de cédulas se contempla en otro supuesto (artículo 11.2.2.d) para el caso de no ejecutar las reparaciones tras un informe no apto."
+  },
+  {
+    "id": "E26-11",
+    "tema": "E26",
+    "q": "El Registro General de Evaluación de Edificios de Navarra, regulado en el artículo 12 del Decreto Foral 108/2014, tiene entre sus objetos, según dicho artículo, nutrir los censos de construcciones, edificios, viviendas y locales precisados de rehabilitación a los que se refiere:",
+    "o": [
+      "La disposición adicional primera de la Ley 8/2013, de 26 de junio, de rehabilitación, regeneración y renovación urbanas.",
+      "El artículo 16 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación.",
+      "El artículo 87.2 de la Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo.",
+      "La disposición transitoria primera del propio Decreto Foral 108/2014."
+    ],
+    "c": 0,
+    "exp": "El artículo 12.2.d) del Decreto Foral 108/2014 establece que el registro general de evaluación de edificios de Navarra tiene por objeto, entre otros, nutrir los censos de construcciones, edificios, viviendas y locales precisados de rehabilitación a los que se refiere la disposición adicional primera de la Ley 8/2013, de 26 de junio, de rehabilitación, regeneración y renovación urbanas. Las demás referencias no corresponden a este objeto específico."
+  },
+  {
+    "id": "E26-12",
+    "tema": "E26",
+    "q": "De acuerdo con la disposición transitoria primera del Decreto Foral 108/2014, ¿qué plazo se establece para que los propietarios de edificios de tipología residencial colectiva que el 31 de diciembre de 2013 tengan una antigüedad de 50 ó más años dispongan del correspondiente informe de evaluación?",
+    "o": [
+      "Antes del primer día del año 2017.",
+      "Antes del primer día del año 2018.",
+      "Antes del primer día del año 2019.",
+      "Antes del primer día del año 2020."
+    ],
+    "c": 1,
+    "exp": "La disposición transitoria primera, apartado 2.b), del Decreto Foral 108/2014 establece que los propietarios o comunidades de propietarios de edificios de tipología residencial colectiva que el 31 de diciembre de 2013 tengan una antigüedad de 50 ó más años deberán efectuar la evaluación del edificio de forma que dispongan del correspondiente informe antes del primer día del año 2018. El plazo del año 2017 corresponde a los edificios con 100 ó más años (letra a)."
+  },
+  {
+    "id": "E26-13",
+    "tema": "E26",
+    "q": "En relación con el Decreto Foral 322/2000, por el que se regula el libro del edificio, ¿en cuál de los siguientes supuestos es obligatoria la formalización de un Libro del Edificio, aunque deban figurar en él exclusivamente los datos y documentos que se deriven de la propia actividad rehabilitadora?",
+    "o": [
+      "En las obras de rehabilitación que afecten a la totalidad del edificio destinado a viviendas, sus instalaciones generales o elementos comunes, o en los casos de rehabilitaciones beneficiarias de ayudas públicas.",
+      "Únicamente en los edificios de nueva planta destinados a vivienda que se construyan a partir de la entrada en vigor del decreto foral.",
+      "En las obras de reforma que afecten exclusivamente al interior de una vivienda, sin intervención en elementos comunes.",
+      "En los edificios destinados a usos distintos del residencial, como oficinas o locales comerciales, cuando se rehabiliten."
+    ],
+    "c": 0,
+    "exp": "El artículo 1.1 del Decreto Foral 322/2000 establece que, en las obras de rehabilitación que afecten a la totalidad del edificio destinado a viviendas, sus instalaciones generales o elementos comunes, o en los casos de rehabilitaciones beneficiarias de ayudas públicas, será obligatoria la formalización de un Libro del Edificio, aunque deberán figurar en él exclusivamente los datos y documentos que se deriven de la propia actividad rehabilitadora. Las demás opciones no se ajustan a este supuesto."
+  },
+  {
+    "id": "E26-14",
+    "tema": "E26",
+    "q": "Según el artículo 4 del Decreto Foral 322/2000, el contenido del Libro del Edificio se agrupará en varios apartados. ¿Cuál de los siguientes no es uno de ellos?",
+    "o": [
+      "Datos Generales del Edificio.",
+      "Archivo de Documentos.",
+      "Proyecto y otros Documentos Técnicos.",
+      "Registro de Incidencias y Reclamaciones de Usuarios."
+    ],
+    "c": 3,
+    "exp": "El artículo 4 del Decreto Foral 322/2000 enumera los apartados en que se agrupa el contenido del Libro del Edificio: Datos Generales del Edificio, Archivo de Documentos, Proyecto y otros Documentos Técnicos, Registro de Incidencias, y Registro de Operaciones de Mantenimiento y Rehabilitación. No existe un apartado denominado “Registro de Incidencias y Reclamaciones de Usuarios”; el registro de incidencias se regula en el artículo 13."
+  },
+  {
+    "id": "E26-15",
+    "tema": "E26",
+    "q": "Conforme al artículo 16 del Decreto Foral 322/2000, en el caso de un edificio sometido al régimen de propiedad horizontal, ¿a quién debe entregar el promotor el Libro del Edificio?",
+    "o": [
+      "A cada uno de los adquirientes de las viviendas, en el acto de transmisión de la propiedad, entregándoles un ejemplar completo del libro.",
+      "A la comunidad de propietarios, una vez que se haya constituido y se haya producido la designación de sus representantes.",
+      "Al ayuntamiento del término municipal donde se ubique el edificio, para su custodia y archivo.",
+      "Al Departamento de Medio Ambiente, Ordenación del Territorio y Vivienda del Gobierno de Navarra, para su inscripción en el registro correspondiente."
+    ],
+    "c": 1,
+    "exp": "El artículo 16.1 del Decreto Foral 322/2000 establece que, si el edificio está sometido al régimen de propiedad horizontal, el promotor entregará el Libro del Edificio a la comunidad de propietarios, una vez que se haya constituido y se haya producido la designación de sus representantes. A los adquirientes de las viviendas se les entregarán copias de las hojas correspondientes a los Datos Generales (artículo 16.3), no el libro completo."
+  },
 
   // ---------- TEMA 27 ESPECÍFICO · DF 23/2011 RESIDUOS DE CONSTRUCCIÓN Y DEMOLICIÓN (E27) ----------
   { id: "E27-01", tema: "E27",
