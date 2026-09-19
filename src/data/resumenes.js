@@ -9045,6 +9045,54 @@ export const RESUMENES = {
       "En nueva planta y PH sin local de representantes: espacio accesible desde ELEMENTO COMÚN para el armario del libro (art. 17)",
       "El promotor aporta copias firmadas de los Datos Generales al pedir la cédula de habitabilidad o la calificación definitiva",
     ],
+    memorizacion: {
+      tablas: [
+        {
+          titulo: "IEE · cuándo es exigible",
+          columnas: ["Supuesto", "Regla"],
+          filas: [
+            ["Regla general", "Edificio residencial colectivo con antigüedad ≥ 50 años"],
+            ["Tipología colectiva", "Más de una vivienda; se asimilan hoteles y residencias con servicios y régimen común"],
+            ["Rehabilitación protegida", "IEE previo o simultáneo si hay consolidación estructural, accesibilidad completa o mejora de envolvente térmica"],
+            ["Riesgo antes de plazo", "Ayuntamiento o departamento de vivienda puede exigirlo ante deficiencias evidentes con riesgo para personas"],
+            ["Exención", "Edificio declarado en ruina, sin perjuicio de los deberes derivados de esa declaración"]
+          ]
+        },
+        {
+          titulo: "IEE · gravedad, extensión y calificación final",
+          columnas: ["Concepto", "Condición que lo define", "Efecto"],
+          filas: [
+            ["Deficiencia muy grave", "Inestabilidad del edificio o peligro para moradores o viandantes", "Subsanación inmediata; edificio no apto"],
+            ["Deficiencia grave", "Sin peligro inmediato; exige subsanación en el plazo del informe", "No apto provisional si el plazo improrrogable es < 1 año y no hay peligro"],
+            ["Deficiencia leve", "Necesaria para mantener el edificio, sin alcanzar gravedad", "Apto con deficiencias leves"],
+            ["Generalizada", "> 50 % del elemento, salvo que sea singular y de escasa relevancia", "Criterio de extensión, independiente de la gravedad"],
+            ["No apto", "Deficiencia muy grave o grave con plazo de subsanación > 1 año", "Tras el plazo, exige IEE completo nuevo"]
+          ]
+        },
+        {
+          titulo: "IEE · plazos y circuito registral",
+          columnas: ["Hito", "Regla"],
+          filas: [
+            ["Vigencia ordinaria", "10 años desde la entrada en el registro"],
+            ["Demora entre firma e inscripción", "Si supera 6 meses, los 10 años cuentan desde la firma del técnico"],
+            ["Renovación", "El IEE anterior se prorroga mientras se hace el nuevo, con tope de 1 año desde su pérdida de vigencia"],
+            ["Remisión del informe", "Técnico → propietario: códigos de acceso; propietario → Ayuntamiento: solicita la inscripción"],
+            ["Inscripción", "El Ayuntamiento incorpora el informe al registro en un máximo de 2 meses"]
+          ]
+        },
+        {
+          titulo: "Libro del Edificio · memoria de cifras y responsables",
+          columnas: ["Materia", "Regla"],
+          filas: [
+            ["Garantías de daños materiales", "10 años: estructura · 3 años: elementos constructivos e instalaciones · 1 año: terminación o acabado"],
+            ["Actualización", "Operaciones y documentos: registro o archivo en el plazo de 1 mes"],
+            ["Formalización", "La realiza el promotor al acabar la obra; los registros se entregan en blanco según modelo oficial"],
+            ["Entrega en propiedad horizontal", "A la comunidad constituida con representantes; acta de recepción por duplicado"],
+            ["Edificio que sigue siendo del promotor", "Formalización dentro de 2 meses desde la licencia de primera utilización"]
+          ]
+        }
+      ]
+    },
   },
 
   E27: {
