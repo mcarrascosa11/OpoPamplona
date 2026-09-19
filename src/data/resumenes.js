@@ -9045,54 +9045,147 @@ export const RESUMENES = {
       "En nueva planta y PH sin local de representantes: espacio accesible desde ELEMENTO COMÚN para el armario del libro (art. 17)",
       "El promotor aporta copias firmadas de los Datos Generales al pedir la cédula de habitabilidad o la calificación definitiva",
     ],
-    memorizacion: {
-      tablas: [
-        {
-          titulo: "IEE · cuándo es exigible",
-          columnas: ["Supuesto", "Regla"],
-          filas: [
-            ["Regla general", "Edificio residencial colectivo con antigüedad ≥ 50 años"],
-            ["Tipología colectiva", "Más de una vivienda; se asimilan hoteles y residencias con servicios y régimen común"],
-            ["Rehabilitación protegida", "IEE previo o simultáneo si hay consolidación estructural, accesibilidad completa o mejora de envolvente térmica"],
-            ["Riesgo antes de plazo", "Ayuntamiento o departamento de vivienda puede exigirlo ante deficiencias evidentes con riesgo para personas"],
-            ["Exención", "Edificio declarado en ruina, sin perjuicio de los deberes derivados de esa declaración"]
-          ]
-        },
-        {
-          titulo: "IEE · gravedad, extensión y calificación final",
-          columnas: ["Concepto", "Condición que lo define", "Efecto"],
-          filas: [
-            ["Deficiencia muy grave", "Inestabilidad del edificio o peligro para moradores o viandantes", "Subsanación inmediata; edificio no apto"],
-            ["Deficiencia grave", "Sin peligro inmediato; exige subsanación en el plazo del informe", "No apto provisional si el plazo improrrogable es < 1 año y no hay peligro"],
-            ["Deficiencia leve", "Necesaria para mantener el edificio, sin alcanzar gravedad", "Apto con deficiencias leves"],
-            ["Generalizada", "> 50 % del elemento, salvo que sea singular y de escasa relevancia", "Criterio de extensión, independiente de la gravedad"],
-            ["No apto", "Deficiencia muy grave o grave con plazo de subsanación > 1 año", "Tras el plazo, exige IEE completo nuevo"]
-          ]
-        },
-        {
-          titulo: "IEE · plazos y circuito registral",
-          columnas: ["Hito", "Regla"],
-          filas: [
-            ["Vigencia ordinaria", "10 años desde la entrada en el registro"],
-            ["Demora entre firma e inscripción", "Si supera 6 meses, los 10 años cuentan desde la firma del técnico"],
-            ["Renovación", "El IEE anterior se prorroga mientras se hace el nuevo, con tope de 1 año desde su pérdida de vigencia"],
-            ["Remisión del informe", "Técnico → propietario: códigos de acceso; propietario → Ayuntamiento: solicita la inscripción"],
-            ["Inscripción", "El Ayuntamiento incorpora el informe al registro en un máximo de 2 meses"]
-          ]
-        },
-        {
-          titulo: "Libro del Edificio · memoria de cifras y responsables",
-          columnas: ["Materia", "Regla"],
-          filas: [
-            ["Garantías de daños materiales", "10 años: estructura · 3 años: elementos constructivos e instalaciones · 1 año: terminación o acabado"],
-            ["Actualización", "Operaciones y documentos: registro o archivo en el plazo de 1 mes"],
-            ["Formalización", "La realiza el promotor al acabar la obra; los registros se entregan en blanco según modelo oficial"],
-            ["Entrega en propiedad horizontal", "A la comunidad constituida con representantes; acta de recepción por duplicado"],
-            ["Edificio que sigue siendo del promotor", "Formalización dentro de 2 meses desde la licencia de primera utilización"]
-          ]
-        }
-      ]
+    "memorizacion": {
+  "tablas": [
+    {
+      "titulo": "Calificación del edificio según deficiencias (DF 108/2014, art. 8)",
+      "columnas": ["Calificación", "Deficiencias que la determinan", "Plazo de subsanación", "Efecto posterior"],
+      "filas": [
+        ["Apto", "Ninguna deficiencia que deba reseñarse", "No procede", "Vigencia 10 años; mantiene deberes de mantenimiento"],
+        ["Apto con deficiencias leves", "Solo deficiencias leves que afectan al mantenimiento", "A lo largo del periodo de vigencia del informe", "Vigencia 10 años; mantiene deberes de mantenimiento"],
+        ["No apto provisionalmente", "Deficiencias graves que no representan peligro para usuarios o viandantes", "Plazo improrrogable inferior a un año fijado en el informe", "Nueva evaluación limitada a las deficiencias del informe inicial para certificar reparaciones"],
+        ["No apto", "Deficiencias muy graves, o graves con plazo de subsanación superior a un año", "El que fije el informe (superior a un año si son graves)", "Nuevo informe de evaluación completo tras la subsanación"]
+      ],
+      "nota": "DF 108/2014, art. 8. En el caso de deficiencias muy graves, el informe debe incluir medidas de subsanación definitiva y plazo, y en su caso medidas provisionales y urgentes (art. 7.1.a)."
     },
+    {
+      "titulo": "Tipos de deficiencias por importancia (DF 108/2014, art. 7.1)",
+      "columnas": ["Tipo", "Definición", "Plazo de subsanación"],
+      "filas": [
+        ["Muy graves", "Comprometen la estabilidad del elemento constructivo y suponen inestabilidad del edificio o peligro para moradores o viandantes", "Deben subsanarse de manera inmediata; el informe fija plazo y medidas provisionales urgentes si procede"],
+        ["Graves", "Sin peligro inmediato para estabilidad ni riesgo para seguridad, pero deben subsanarse; su evolución derivaría en muy grave en menos de un año, o su permanencia provocaría deterioro progresivo", "Plazo que fija el propio informe"],
+        ["Leves", "Importancia o evolución prevista no permite calificarlas como graves o muy graves, pero su resolución es necesaria para un adecuado mantenimiento", "A lo largo del periodo de vigencia del informe"]
+      ],
+      "nota": "DF 108/2014, art. 7.1. También son graves la ausencia de controles obligatorios de instalaciones (inspección/mantenimiento) dentro de los plazos de su normativa sectorial, y las que provocan riesgo en la circulación por elementos comunes (art. 7.1.b)."
+    },
+    {
+      "titulo": "Extensión de las deficiencias (DF 108/2014, art. 7.2)",
+      "columnas": ["Calificación", "Criterio"],
+      "filas": [
+        ["Generalizadas", "Afectan a más del 50 % de la superficie del elemento constructivo considerado (fachada, cubierta, escalera, carpinterías, etc.), salvo si el elemento es singular y de escasa relevancia en el conjunto"],
+        ["Localizadas", "Afectan a menos del 50 % de la superficie del elemento, o aun afectando a más, la relevancia del elemento sobre el conjunto del edificio es escasa"]
+      ],
+      "nota": "DF 108/2014, art. 7.2. La extensión es un criterio independiente de la importancia: una deficiencia leve puede ser generalizada."
+    },
+    {
+      "titulo": "Programa de implantación gradual de la obligación de evaluación (DF 108/2014, DT Primera)",
+      "columnas": ["Supuesto", "Antigüedad de referencia", "Plazo máximo para disponer del informe"],
+      "filas": [
+        ["Edificios residenciales colectivos a 31/12/2013", "100 ó más años", "Antes del 1 de enero de 2017"],
+        ["Edificios residenciales colectivos a 31/12/2013", "50 ó más años", "Antes del 1 de enero de 2018"],
+        ["Edificios que adquieren 50 años entre 01/01/2014 y 31/12/2016", "50 años", "Antes del 1 de enero de 2019"],
+        ["Edificios que adquieren 50 años entre 01/01/2017 y 31/12/2018", "50 años", "Antes del 1 de enero de 2020"],
+        ["Edificios que adquieren 50 años entre 01/01/2019 y 31/12/2019", "50 años", "Antes del 1 de enero de 2021"],
+        ["Edificios que adquieren 50 años a partir de 01/01/2020", "50 años", "Antes de que transcurra un año desde la fecha en que adquirieron dicha antigüedad (art. 9)"]
+      ],
+      "nota": "DF 108/2014, DT Primera, apartado 2. Los edificios que soliciten calificación provisional como rehabilitación protegida a partir del 1 de julio de 2015 para consolidación estructural, adaptación completa a accesibilidad universal o mejora de la envolvente térmica deben efectuar la evaluación previa o simultáneamente a la redacción del proyecto (DT Primera 2.g)."
+    },
+    {
+      "titulo": "Acreditación de la antigüedad del edificio: orden de prelación (DF 108/2014, art. 3.1)",
+      "columnas": ["Orden", "Documento acreditativo"],
+      "filas": [
+        ["1.º", "Fecha de calificación definitiva como vivienda protegida"],
+        ["2.º", "Inscripción en el catastro"],
+        ["3.º", "Inscripción en el Registro de la Propiedad"],
+        ["4.º", "Expedición de cédula de habitabilidad"],
+        ["5.º", "Certificado de final de obra"],
+        ["6.º", "Cualquier otro documento válido en derecho"]
+      ],
+      "nota": "DF 108/2014, art. 3.1. Si existen varios documentos y no coincide la antigüedad, el orden de prelación coincide con el de esta enumeración."
+    },
+    {
+      "titulo": "Vigencia del informe de evaluación (DF 108/2014, art. 9)",
+      "columnas": ["Supuesto", "Duración", "Inicio del cómputo"],
+      "filas": [
+        ["Regla general", "10 años", "Desde la entrada del informe en el registro"],
+        ["Firma del informe y entrada en registro separadas más de 6 meses", "10 años", "Desde la firma del informe por el técnico"],
+        ["Renovación del informe", "Prorroga el anterior durante el tiempo empleado en la nueva evaluación", "Siempre que no transcurra más de un año desde la pérdida de vigencia"],
+        ["Circunstancias sobrevenidas que empeoran sustancialmente las condiciones", "Reducción del plazo", "Los propietarios deben subsanar las nuevas deficiencias o someterse a nueva evaluación"]
+      ],
+      "nota": "DF 108/2014, art. 9. Los ayuntamientos, de oficio o a instancia de parte, pueden declarar la pérdida anticipada de vigencia si circunstancias sobrevenidas lo requieren (art. 9.1)."
+    },
+    {
+      "titulo": "Consecuencias del incumplimiento de la obligación de evaluación (DF 108/2014, art. 11)",
+      "columnas": ["Supuesto de incumplimiento", "Consecuencia principal", "Referencia"],
+      "filas": [
+        ["Carecer del informe estando obligado", "No puede solicitarse la calificación provisional de rehabilitación protegida", "Art. 11.2.1.c)"],
+        ["Desoír el requerimiento del ayuntamiento o del departamento competente en vivienda", "Infracción grave del art. 212.12 de la Ley Foral 35/2002; posible declaración de ruina (art. 196)", "Art. 11.2.1.b)"],
+        ["Carecer del informe (con carácter general)", "Ejecución forzosa mediante multas coercitivas y/o ejecución subsidiaria", "Art. 11.2.1.d)"],
+        ["Informe no apto o no apto provisional y no ejecutar las reparaciones en plazo", "Infracción grave del art. 212.12 de la Ley Foral 35/2002 o, subsidiariamente, infracción muy grave del art. 66.3 de la Ley Foral 10/2010", "Art. 11.2.2.b)"],
+        ["Informe no apto o no apto provisional y no ejecutar reparaciones (gravedad o insalubridad)", "Posible pérdida anticipada de vigencia de las cédulas de habitabilidad (art. 12 DF 142/2004)", "Art. 11.2.2.d)"],
+        ["Edificio con uso distinto de vivienda incluido en el ámbito (hoteles, residencias)", "El departamento competente por razón del uso puede iniciar expedientes que conduzcan al cese de la actividad", "Art. 11.2.2.e) y 11.2.1.e)"]
+      ],
+      "nota": "DF 108/2014, art. 11. El cumplimiento con informe apto o apto con deficiencias leves acredita las obligaciones de los arts. 16 de la Ley 38/1999 y 87 de la Ley Foral 35/2002, y permite acogerse a la calificación como rehabilitación protegida (art. 11.1)."
+    },
+    {
+      "titulo": "Apartados del Libro del Edificio (DF 322/2000, art. 4)",
+      "columnas": ["Apartado", "Contenido principal"],
+      "filas": [
+        ["Datos Generales del Edificio", "Identificación, datos jurídico-administrativos, intervinientes, garantías y seguros, otros datos (arts. 5 a 10)"],
+        ["Archivo de Documentos", "Actas, escrituras, licencias, autorizaciones de uso, certificado final de obras, calificación definitiva, pólizas, garantías, acta de recepción, estatutos y otros (art. 11)"],
+        ["Proyecto y otros Documentos Técnicos", "Proyecto arquitectónico o documentación final de obras, proyectos complementarios, instrucciones de uso y mantenimiento, calendario de mantenimiento y modificaciones (art. 12)"],
+        ["Registro de Incidencias", "Reformas o cambios de uso y otras incidencias (art. 13)"],
+        ["Registro de Operaciones de Mantenimiento y Rehabilitación", "Contratos de mantenimiento, registro de mantenimiento, de reparación y de rehabilitación (art. 14)"]
+      ],
+      "nota": "DF 322/2000, art. 4. El Libro incluye en primer lugar una copia del propio Decreto Foral, que constituye la guía para su actualización."
+    },
+    {
+      "titulo": "Garantías por daños materiales en el Libro del Edificio (DF 322/2000, art. 9.1)",
+      "columnas": ["Periodo", "Daños cubiertos"],
+      "filas": [
+        ["10 años", "Vicios o defectos que afecten a cimentación, soportes, vigas, forjados u otros elementos estructurales y comprometan directamente la resistencia mecánica o estabilidad del edificio"],
+        ["3 años", "Vicios o defectos de los elementos constructivos o de las instalaciones"],
+        ["1 año", "Vicios o defectos que afecten a los elementos de terminación o acabado de las obras"]
+      ],
+      "nota": "DF 322/2000, art. 9.1. Las garantías derivan del régimen de la Ley 38/1999, de Ordenación de la Edificación. El art. 9.2 recoge otros seguros o garantías que afecten al edificio, sus instalaciones o elementos comunes."
+    }
+  ],
+  "datos": [
+    "El parque de viviendas de Navarra supera las 320.000 unidades y más del 28 % tienen una antigüedad superior a cincuenta años (Preámbulo, apartado 1, DF 108/2014).",
+    "El informe de evaluación de los edificios tiene una vigencia de 10 años desde su entrada en el registro, salvo que entre la firma y la entrada transcurran más de 6 meses, en cuyo caso se cuenta desde la firma (DF 108/2014, art. 9.1).",
+    "El plazo de renovación del informe se prorroga durante el tiempo empleado en la nueva evaluación, siempre que no transcurra más de 1 año desde la pérdida de vigencia (DF 108/2014, art. 9.2).",
+    "La obligación de evaluación se extiende a edificios de tipología residencial colectiva con antigüedad igual o superior a 50 años (DF 108/2014, art. 3.1).",
+    "Los edificios declarados en ruina quedan exentos de la obligación de evaluación, sin perjuicio de las obligaciones derivadas de dicha declaración (DF 108/2014, art. 3.4).",
+    "El técnico que firma el informe debe remitirlo al ayuntamiento en el plazo más breve posible si detecta deficiencias muy graves con riesgo inminente; si no puede comunicarlo al ayuntamiento, lo pondrá en conocimiento del Departamento competente en materia de extinción de incendios (DF 108/2014, art. 10.1).",
+    "El ayuntamiento, una vez recibida la solicitud de inclusión del informe en el registro, dispone de un plazo máximo de 2 meses para incorporarlo (DF 108/2014, art. 10.4).",
+    "Las solicitudes de calificación provisional de rehabilitación protegida de edificios con antigüedad igual o superior a 50 años presentadas a partir del 1 de julio de 2015 deben aportar copia del informe de evaluación (DF 108/2014, DA Primera).",
+    "Los edificios que contaran con informe de evaluación antes de la entrada en vigor del DF 108/2014 y estén dentro de su periodo de vigencia deben presentarlo para su inscripción en el registro general en el plazo máximo de 1 año desde la entrada en vigor; si no, el informe se entiende como no efectuado (DF 108/2014, DT Segunda).",
+    "Las inspecciones técnicas efectuadas conforme al Real Decreto-Ley 8/2011 eximen de contar con el informe de evaluación durante su periodo de vigencia, siempre que dicho plazo sea igual o inferior a 10 años (DF 108/2014, DT Segunda).",
+    "La evaluación comprende el edificio completo, desde la cimentación a la cubierta, incluidas viviendas y locales; en propiedad horizontal con varios portales y comunidades independientes puede efectuarse una evaluación por cada comunidad o portal (DF 108/2014, art. 4.1).",
+    "El informe de evaluación se elabora mediante la aplicación informática creada por el departamento competente en materia de vivienda, con firma digital válida del técnico (DF 108/2014, arts. 6.2 y 10.1).",
+    "El Registro General de Evaluación de Edificios de Navarra se crea y mantiene por el departamento competente en materia de vivienda y sirve de base a todos los registros municipales (DF 108/2014, art. 12.1).",
+    "La inscripción de los informes de evaluación en el registro general se realiza exclusivamente por medios telemáticos (DF 108/2014, Preámbulo, apartado 2).",
+    "El Libro del Edificio es obligatorio en todos los edificios destinados a vivienda que se construyan en Navarra a partir de la entrada en vigor del DF 322/2000, y en las obras de rehabilitación que afecten a la totalidad del edificio, sus instalaciones generales o elementos comunes, o que sean beneficiarias de ayudas públicas (DF 322/2000, art. 1).",
+    "En el Libro del Edificio, las operaciones de mantenimiento, reforma o rehabilitación deben registrarse en el plazo de 1 mes desde que se produzcan o finalicen; los documentos se incorporan al archivo en el plazo de 1 mes desde su obtención (DF 322/2000, art. 2.3).",
+    "El Libro del Edificio se entrega a la comunidad de propietarios, una vez constituida y designados sus representantes, en el régimen de propiedad horizontal; a los adquirientes de viviendas se les entregan copias de las hojas de Datos Generales (DF 322/2000, art. 16.1 y 16.3).",
+    "Si constituida la comunidad de propietarios no se solicita al promotor la entrega del Libro, este puede efectuarla por propia iniciativa a los representantes; si estos se niegan a recibirlo o a firmar el acta, el promotor lo comunicará al Departamento de Medio Ambiente, Ordenación del Territorio y Vivienda (DF 322/2000, art. 16.5).",
+    "Cuando el edificio quede como propiedad del promotor, la formalización del Libro del Edificio debe efectuarse en el plazo de 2 meses desde la obtención de la licencia de primera utilización (DF 322/2000, art. 16.6)."
+  ],
+  "excepciones": [
+    "Exclusión de viviendas unifamiliares: el DF 108/2014 se aplica a edificios de tipología residencial colectiva (más de una vivienda); quedan excluidas las viviendas unifamiliares aisladas o adosadas horizontalmente, aun compartiendo garajes o trasteros mancomunados en planta bajo rasante. Nunca se consideran unifamiliares las superpuestas verticalmente, aunque tengan accesos independientes (DF 108/2014, art. 2.2).",
+    "Asimilación a tipología residencial colectiva: los edificios destinados a ser ocupados por grupos que, sin constituir núcleo familiar, compartan servicios y se sometan a régimen común (hoteles, residencias) se asimilan a la tipología residencial colectiva y quedan dentro del ámbito de aplicación (DF 108/2014, art. 2.1).",
+    "Exención por ruina: los edificios declarados en ruina quedan exentos de la obligación de evaluación, sin perjuicio de las obligaciones derivadas de la declaración de ruina (DF 108/2014, art. 3.4).",
+    "Excepción al cómputo de vigencia: la regla general es contar los 10 años desde la entrada en el registro; la excepción es contar desde la firma del informe cuando entre firma y entrada transcurren más de 6 meses (DF 108/2014, art. 9.1).",
+    "No apto provisionalmente frente a no apto: ambos exigen deficiencias graves, pero el no apto provisionalmente se reserva para plazos improrrogables inferiores a un año y sin peligro para usuarios o viandantes; el no apto se aplica a deficiencias muy graves o a graves con plazo superior a un año (DF 108/2014, art. 8.c y 8.d).",
+    "Nueva evaluación limitada frente a informe completo: tras subsanar deficiencias en un edificio no apto provisionalmente, la nueva evaluación puede limitarse a los elementos en que se actúa, certificándose su correcta ejecución sin nuevo informe completo; en el caso de no apto, transcurrido el plazo debe someterse a nuevo informe de evaluación (DF 108/2014, art. 8.c y 8.d).",
+    "Instalaciones con inspección técnica específica: en la evaluación del edificio, el técnico no evalúa esas instalaciones, sino que se limita a requerir a propietarios o administradores los contratos, boletines o informes que acrediten el cumplimiento; la ausencia de esos controles obligatorios se considera deficiencia grave (DF 108/2014, art. 4.3.a y 7.1.b).",
+    "Detección de vicios o daños ocultos: no es objeto de la evaluación la detección de vicios o daños ocultos ni la determinación precisa del origen de las patologías, aunque sí la formulación de un prediagnóstico de sus posibles causas (DF 108/2014, art. 4.3.a).",
+    "Certificado de eficiencia energética: si el edificio ya cuenta con un certificado válido y no ha habido variaciones en las características energéticas, basta con adjuntarlo; en caso contrario, debe efectuarse nueva certificación (DF 108/2014, art. 4.3.c).",
+    "Falta de acceso a viviendas o locales: el técnico puede emitir el informe sin inspeccionar la totalidad, reflejando la circunstancia y su posible limitación o validez para el conjunto; no se suspende la evaluación ni se califica por ese solo motivo (DF 108/2014, art. 4.2).",
+    "Validez de inspecciones técnicas previas: los edificios con inspección técnica conforme al RDL 8/2011 no están obligados a contar con el informe de evaluación durante el periodo de vigencia de la inspección, siempre que dicho plazo sea igual o inferior a 10 años (DF 108/2014, DT Segunda).",
+    "Obligación del Libro del Edificio en rehabilitación: la regla general es la obligación en edificios de nueva planta destinados a vivienda; la excepción es que en las rehabilitaciones que afecten a la totalidad del edificio, instalaciones generales o elementos comunes, o beneficiarias de ayudas públicas, también es obligatorio, pero solo con los datos derivados de la propia actividad rehabilitadora (DF 322/2000, art. 1.1)."
+  ]
+},
   },
 
   E27: {
