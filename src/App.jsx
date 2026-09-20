@@ -3,7 +3,7 @@ import { TEMAS_GENERAL, TEMAS_ESP, temaTitulo, esGeneral, temaNum, totalGeneral,
 import { PREGUNTAS } from "./data/preguntas.js";
 import { RESUMENES } from "./data/resumenes.js";
 import { SUPUESTOS } from "./data/supuestos.js";
-import { loadState, saveState, syncDisponible, getCodigo, setCodigo } from "./lib/storage.js";
+import { loadState, saveState, syncDisponible, getCodigo, setCodigo, codigoSeguro, generarCodigoSeguro } from "./lib/storage.js";
 import { supabase } from "./lib/supabase.js";
 
 // El historial conserva todas las preguntas contestadas. El banco de estudio,
@@ -177,6 +177,7 @@ function Header({ tab, setTab, saving, darkMode, toggleDark }) {
 function Inicio({ state, setTab, reload }) {
   const [codigo, setCod] = useState(getCodigo());
   const [backupMsg, setBackupMsg] = useState(null); // { ok, texto }
+  const [syncMsg, setSyncMsg] = useState(null);
   const fileInputRef = useRef(null);
   const vistas = Object.values(state.temas).reduce((a, t) => a + (t.vistas || 0), 0);
   const aciertos = Object.values(state.temas).reduce((a, t) => a + (t.aciertos || 0), 0);
@@ -186,10 +187,38 @@ function Inicio({ state, setTab, reload }) {
   // blancos ni suman ni restan. El porcentaje bruto de aciertos siempre pinta
   // mejor que la nota que saldría en el examen, así que se muestran los dos.
   const pctNeto = vistas ? Math.round(Math.max(0, (aciertos - fallos / 3) / vistas) * 100) : 0;
-  const guardarCodigo = async () => { setCodigo(codigo); await reload(); };
+  const guardarCodigo = async () => {
+    const limpio = codigo.trim();
+    if (limpio && !codigoSeguro(limpio)) {
+      setSyncMsg({ ok: false, texto: "Usa al menos 20 caracteres. Mejor genera un código aleatorio." });
+      return;
+    }
+    if (!setCodigo(limpio)) {
+      setSyncMsg({ ok: false, texto: "No se ha podido guardar el código." });
+      return;
+    }
+    setCod(limpio);
+    await reload();
+    setSyncMsg({ ok: true, texto: limpio ? "Código guardado y sincronización activada." : "Sincronización desactivada." });
+  };
+
+  const generarCodigo = () => {
+    const nuevo = generarCodigoSeguro();
+    setCod(nuevo);
+    setSyncMsg({ ok: true, texto: "Código aleatorio generado. Guárdalo y úsalo en tus otros dispositivos." });
+  };
+
+  const copiarCodigo = async () => {
+    try {
+      await navigator.clipboard.writeText(codigo.trim());
+      setSyncMsg({ ok: true, texto: "Código copiado." });
+    } catch {
+      setSyncMsg({ ok: false, texto: "No se ha podido copiar automáticamente." });
+    }
+  };
 
   const exportarProgreso = () => {
-    const payload = { app: "oposicion-pamplona", version: 1, exportadoEl: new Date().toISOString(), codigo: getCodigo(), data: state };
+    const payload = { app: "oposicion-pamplona", version: 2, exportadoEl: new Date().toISOString(), data: state };
     const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -207,7 +236,6 @@ function Inicio({ state, setTab, reload }) {
         throw new Error("el archivo no tiene el formato esperado");
       }
       if (!window.confirm("Esto sustituirá tu progreso actual en este dispositivo por el del backup. ¿Continuar?")) return;
-      if (json.codigo) { setCodigo(json.codigo); setCod(json.codigo); }
       await saveState(json.data);
       await reload();
       setBackupMsg({ ok: true, texto: "Progreso importado correctamente." });
@@ -234,13 +262,21 @@ function Inicio({ state, setTab, reload }) {
       <Ficha codigo="SINCRONIZACIÓN" titulo="Mismo progreso en tus 3 dispositivos">
         {syncDisponible() ? (
           <>
-            <p style={pSmall}>Escribe un código personal (el que quieras) e introdúcelo igual en cada dispositivo. Tu progreso se sincroniza con ese código.</p>
+            <p style={pSmall}>La sincronización usa el código como credencial. Usa uno largo y único; lo más seguro es generarlo aleatoriamente y copiarlo a tus otros dispositivos.</p>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 8 }}>
-              <input value={codigo} onChange={(e) => setCod(e.target.value)} placeholder="p. ej. marcos-2027"
-                style={{ fontFamily: MONO, fontSize: 13, padding: "9px 12px", border: `1.5px solid ${C.hair}`, borderRadius: 4, background: C.card, color: C.ink, flex: "1 1 200px" }} />
+              <input value={codigo} onChange={(e) => setCod(e.target.value)} placeholder="mín. 20 caracteres"
+                autoComplete="off" spellCheck={false}
+                style={{ fontFamily: MONO, fontSize: 13, padding: "9px 12px", border: `1.5px solid ${C.hair}`, borderRadius: 4, background: C.card, color: C.ink, flex: "1 1 260px" }} />
+              <button className="cta" style={ctaGhost} onClick={generarCodigo}>Generar seguro</button>
+              <button className="cta" style={ctaGhost} onClick={copiarCodigo} disabled={!codigo.trim()}>Copiar</button>
               <button className="cta" style={ctaPrimary} onClick={guardarCodigo}>Guardar y sincronizar</button>
             </div>
-            {getCodigo() && <p style={{ ...pSmall, marginTop: 8 }}>Código activo: <b style={{ fontFamily: MONO }}>{getCodigo()}</b></p>}
+            {syncMsg && <p style={{ ...pSmall, marginTop: 8, color: syncMsg.ok ? C.ok : C.red }}>{syncMsg.texto}</p>}
+            {getCodigo() && (
+              <p style={{ ...pSmall, marginTop: 8, color: codigoSeguro(getCodigo()) ? C.ok : C.red }}>
+                {codigoSeguro(getCodigo()) ? "Código activo con longitud segura." : "Tu código activo es antiguo y corto. Cámbialo por uno generado aleatoriamente."}
+              </p>
+            )}
           </>
         ) : (
           <p style={pSmall}>Ahora mismo el progreso se guarda solo en este dispositivo. Para sincronizar entre los tres, configura Supabase (ver README) y rellena las variables de entorno; entonces aparecerá aquí el campo de código.</p>
@@ -479,7 +515,7 @@ function VistaLectura({ state, persist }) {
     setAnclaSub(null);
     if (contenedorRef.current) contenedorRef.current.scrollTop = 0;
     if (!supabase) {
-      setError("Supabase no está configurado (faltan VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY).");
+      setError("Supabase no está configurado (faltan la URL o la clave publicable).");
       setCargando(false);
       return;
     }
@@ -1786,7 +1822,7 @@ function Supuestos({ state, persist }) {
     if (!supabase || !codigo) return;
     const { data } = await supabase
       .from("intentos_supuesto")
-      .select("*")
+      .select("id, supuesto_id, fecha, minutos_empleados, autonota, notas_autocorreccion, rubrica, created_at")
       .eq("codigo", codigo)
       .order("created_at", { ascending: false });
     if (data) setIntentos(data);

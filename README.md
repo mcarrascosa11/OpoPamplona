@@ -47,31 +47,36 @@ Sin más configuración, el progreso se guarda en cada dispositivo por separado 
 
 ## Sincronizar entre dispositivos (opcional, Supabase)
 
-1. Crea un proyecto gratis en https://supabase.com
-2. En el SQL Editor, ejecuta:
+La app admite una clave publicable de Supabase en el navegador. Esa clave no es
+un secreto: la protección real la hace RLS.
 
-```sql
-create table progreso (
-  codigo text primary key,
-  data jsonb,
-  updated_at timestamptz default now()
-);
-alter table progreso enable row level security;
--- Política permisiva (sin login). El "código" actúa de clave privada:
--- quien no lo conozca no puede leer/escribir una fila concreta sin adivinarlo.
-create policy "acceso por codigo" on progreso
-  for all using (true) with check (true);
-```
+1. En Supabase → SQL Editor, ejecuta `scripts/supabase-security-v2.sql`.
+   El script es idempotente, conserva los datos y sustituye las antiguas
+   políticas permisivas por políticas que exigen demostrar conocimiento del
+   código de sincronización mediante su hash SHA-256.
+2. En Vercel → Project Settings → Environment Variables, añade:
+   - `VITE_SUPABASE_URL`
+   - `VITE_SUPABASE_PUBLISHABLE_KEY` (preferida), o temporalmente
+     `VITE_SUPABASE_ANON_KEY` en proyectos antiguos.
+3. Redeploy.
+4. En la app usa **Generar seguro**. El código generado tiene 128 bits aleatorios.
+   Guárdalo únicamente en tus dispositivos y no lo incluyas en capturas, backups
+   ni repositorios.
 
-> Nota de seguridad honesta: esto no usa login. La privacidad depende de que tu
-> código de sincronización sea difícil de adivinar. Para un banco de preguntas
-> de estudio es asumible; no guardes aquí datos sensibles.
+Las tablas de progreso, subrayados e intentos quedan limitadas por RLS al código
+correcto. `temas` es solo lectura pública. La `service_role`/secret key nunca
+debe llegar al navegador.
 
-3. En Vercel → Project Settings → Environment Variables, añade:
-   - `VITE_SUPABASE_URL` = la URL de tu proyecto Supabase
-   - `VITE_SUPABASE_ANON_KEY` = la anon/public key
-4. Redeploy. En la pantalla de Inicio aparecerá el campo "código de sincronización".
-   Escribe el mismo código en los tres dispositivos y compartirán progreso.
+### Endpoint privado de generación de preguntas
+
+`/api/generar-preguntas` está desactivado salvo que Vercel tenga estas dos
+variables de servidor:
+
+- `GEMINI_API_KEY`
+- `GENERAR_PREGUNTAS_TOKEN`
+
+Las peticiones deben usar `Authorization: Bearer <GENERAR_PREGUNTAS_TOKEN>`.
+No pongas ninguna de esas variables con prefijo `VITE_`.
 
 ## Cómo crece el contenido
 

@@ -1,27 +1,37 @@
-import { createClient } from "@supabase/supabase-js";
+import { supabase } from "./supabase.js";
 
 /* ------------------------------------------------------------------
    ALMACENAMIENTO
    - Por defecto: localStorage (cada dispositivo lleva su progreso).
-   - Si defines VITE_SUPABASE_URL y VITE_SUPABASE_ANON_KEY y el usuario
-     introduce un "código de sincronización", el progreso se guarda en
-     Supabase con ese código como clave → sincroniza entre dispositivos
-     que usen el mismo código. Sin login.
+   - Si hay Supabase y un código de sincronización, el progreso se replica.
+   - El código se trata como una credencial: las nuevas altas exigen al menos
+     20 caracteres y la UI puede generar 128 bits aleatorios.
    ------------------------------------------------------------------ */
 
-const URL = import.meta.env.VITE_SUPABASE_URL;
-const ANON = import.meta.env.VITE_SUPABASE_ANON_KEY;
-const supa = URL && ANON ? createClient(URL, ANON) : null;
-
+const supa = supabase;
 const LS_DATA = "oposicion-pamplona-v1";
 const LS_CODE = "oposicion-pamplona-sync";
+const MIN_CODE_LENGTH = 20;
 
 export const syncDisponible = () => !!supa;
 export const getCodigo = () => {
   try { return localStorage.getItem(LS_CODE) || ""; } catch { return ""; }
 };
+export const codigoSeguro = (c) => !c || c.trim().length >= MIN_CODE_LENGTH;
+export const generarCodigoSeguro = () => {
+  const bytes = new Uint8Array(16);
+  crypto.getRandomValues(bytes);
+  return Array.from(bytes, (b) => b.toString(16).padStart(2, "0")).join("");
+};
 export const setCodigo = (c) => {
-  try { c ? localStorage.setItem(LS_CODE, c.trim()) : localStorage.removeItem(LS_CODE); } catch {}
+  const limpio = (c || "").trim();
+  if (limpio && !codigoSeguro(limpio)) return false;
+  try {
+    limpio ? localStorage.setItem(LS_CODE, limpio) : localStorage.removeItem(LS_CODE);
+    return true;
+  } catch {
+    return false;
+  }
 };
 
 export async function loadState() {
