@@ -1,8 +1,8 @@
 node_modules/
 dist/
-.env
-.env.local
-.env.*.local
+.env*
+!.env.example
+.vercel/
 .DS_Store
 .claude/
 
@@ -12,3 +12,11 @@ temas/
 
 # Informes regenerables de las auditorías locales.
 auditoria_*.csv
+
+# Credenciales y claves privadas
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
