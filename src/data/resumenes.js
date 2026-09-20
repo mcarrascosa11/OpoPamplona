@@ -9352,176 +9352,7 @@ export const RESUMENES = {
       "Ratios y fianzas son actualizables por ORDEN FORAL (DA 2ª)",
       "Todos los plazos de adaptación de la DT única son de SEIS MESES",
     ],
-  },
-
-  E28: {
-    intro:
-      "El RDL 7/2015 (TRLSRU) es la ley estatal del suelo: no clasifica suelo —eso es competencia autonómica— sino que fija las CONDICIONES BÁSICAS de igualdad en derechos y deberes, y sobre todo el régimen de VALORACIONES, que sí es competencia exclusiva del Estado. De ahí su estructura mental: dos SITUACIONES BÁSICAS del suelo (rural y urbanizado, art. 21) que no se confunden con las clases de suelo de la LFOTU, y a cada situación le corresponde un método de valoración (capitalización de rentas en rural, residual estático en urbanizado). Conviene tener presente que la Sentencia del TC 143/2017 anuló bastantes incisos por invadir competencias autonómicas, y el temario incluye además los títulos de expropiación, derecho de superficie y Registro de la Propiedad.",
-    bloques: [
-      {
-        h: "Título Preliminar — Objeto y definiciones (arts. 1-4)",
-        nota:
-          "Las definiciones del art. 2 se preguntan por su literalidad numérica: los 183 días de la residencia habitual y, sobre todo, las doce mensualidades que marcan cuándo una carga es desproporcionada en propiedad horizontal. Esa cifra es la que aplica un técnico al informar si unas obras de accesibilidad son exigibles o no.",
-        items: [
-          "Objeto (art. 1): regula para TODO EL TERRITORIO ESTATAL las condiciones básicas que garantizan la igualdad en el ejercicio de derechos y deberes relacionados con el suelo, y un desarrollo sostenible, competitivo y eficiente del medio urbano. Establece además las bases económicas y medioambientales del régimen del suelo, su valoración y la responsabilidad patrimonial",
-          "ACTUACIONES SOBRE EL MEDIO URBANO (art. 2.1): rehabilitación edificatoria cuando haya insuficiencia o degradación de los requisitos básicos de funcionalidad, seguridad y habitabilidad, y regeneración y renovación urbanas cuando afecten a edificios y a tejidos urbanos, pudiendo incluir nueva edificación en sustitución de edificios demolidos. Tienen CARÁCTER INTEGRADO cuando articulan medidas sociales, ambientales y económicas en una estrategia global y unitaria",
-          "INFRAVIVIENDA (art. 2.2): edificación o parte de ella destinada a vivienda que no reúne las condiciones mínimas exigidas. En todo caso, las que incumplan requisitos de superficie, número, dimensión y características de las piezas habitables, las que presenten deficiencias graves en dotaciones e instalaciones básicas y las que no cumplan los mínimos de seguridad, accesibilidad universal y habitabilidad",
-          "RESIDENCIA HABITUAL (art. 2.3): la que constituya el domicilio de quien la ocupa durante un período SUPERIOR A 183 DÍAS AL AÑO",
-          "COSTE DE REPOSICIÓN (art. 2.4): valor actual de construcción de un inmueble de nueva planta EQUIVALENTE AL ORIGINAL en características constructivas y superficie útil, en condiciones de que su ocupación sea autorizable",
-          "AJUSTES RAZONABLES (art. 2.5): medidas de adecuación para la accesibilidad universal de forma eficaz, segura y práctica sin carga desproporcionada. En edificios en PROPIEDAD HORIZONTAL la carga se entiende DESPROPORCIONADA cuando el coste de las obras repercutido anualmente, descontadas las ayudas públicas, EXCEDE DE DOCE MENSUALIDADES ordinarias de gastos comunes",
-          "Ordenación territorial y urbanística (art. 4): son FUNCIONES PÚBLICAS NO SUSCEPTIBLES DE TRANSACCIÓN; determinan las facultades y deberes de la propiedad conforme al destino del suelo, sin conferir derecho a indemnización salvo en los casos expresamente establecidos. El ejercicio de la potestad de ordenación debe ser MOTIVADO, con expresión de los intereses generales a que sirve",
-        ],
-      },
-      {
-        h: "Actuaciones de transformación urbanística y edificatorias (art. 7)",
-        nota:
-          "El artículo 7 es la pieza que articula toda la ley, porque de la calificación de la actuación depende el paquete de deberes del art. 18. La distinción crítica es entre actuación de URBANIZACIÓN (nueva o de reforma/renovación) y actuación de DOTACIÓN, que se caracteriza en negativo: incrementa dotaciones para reajustar la proporción con más edificabilidad o nuevos usos, pero NO requiere reformar la urbanización. Si hiciera falta reformarla, ya sería actuación de urbanización.",
-        items: [
-          "ACTUACIONES DE URBANIZACIÓN (art. 7.1.a): las de NUEVA URBANIZACIÓN, que suponen el paso de un ámbito de suelo rural a urbanizado creando parcelas aptas para la edificación conectadas con las redes de servicios; y las que tengan por objeto REFORMAR O RENOVAR la urbanización de un ámbito ya urbanizado",
-          "ACTUACIONES DE DOTACIÓN (art. 7.1.b): las que tienen por objeto INCREMENTAR LAS DOTACIONES PÚBLICAS de un ámbito de suelo urbanizado para reajustar su proporción con la mayor edificabilidad o densidad o con los nuevos usos asignados, y que NO REQUIERAN la reforma o renovación de la urbanización",
-          "ACTUACIONES EDIFICATORIAS (art. 7.2), siempre que no concurran las condiciones anteriores, incluso cuando requieran obras complementarias de urbanización: las de nueva edificación y sustitución de la existente, y las de REHABILITACIÓN EDIFICATORIA en los términos de la LOE",
-          "Inicio y terminación (art. 7.4): las actuaciones de urbanización se entienden INICIADAS cuando, aprobados y eficaces todos los instrumentos, empieza la ejecución material de las obras, presumiéndose por acta administrativa o notarial. La CADUCIDAD de cualquiera de los instrumentos RESTITUYE el suelo a la situación en que se hallaba al inicio. La TERMINACIÓN se presume a la recepción de las obras por la Administración",
-        ],
-      },
-      {
-        h: "Estatuto de la propiedad: facultades y deberes (arts. 11-17)",
-        nota:
-          "Aquí está una de las reglas más citadas de toda la ley: la previsión de edificabilidad por el planeamiento NO se integra por sí misma en el contenido del derecho de propiedad; la patrimonialización solo se produce con su realización efectiva. Y el otro dato imprescindible para el técnico municipal es el límite del deber de conservación: la MITAD del valor actual de construcción de un inmueble equivalente, elevable hasta el 75 % del coste de reposición si la legislación autonómica lo prevé y hay inejecución injustificada.",
-        items: [
-          "Régimen estatutario (art. 11.1-2): el régimen urbanístico de la propiedad es ESTATUTARIO y resulta de su vinculación a concretos destinos. La previsión de edificabilidad por sí misma NO integra el contenido del derecho: la PATRIMONIALIZACIÓN se produce únicamente con su REALIZACIÓN EFECTIVA y condicionada al cumplimiento de deberes y levantamiento de cargas",
-          "SILENCIO (art. 11.3): en ningún caso pueden entenderse adquiridas por silencio administrativo facultades o derechos que contravengan la ordenación territorial o urbanística. Y serán EXPRESOS, CON SILENCIO NEGATIVO, los actos que autoricen movimientos de tierras, explanaciones, parcelaciones y divisiones de fincas; obras de edificación e instalaciones de nueva planta; casas prefabricadas e instalaciones similares; y talas de masas arbóreas (art. 11.4, con incisos anulados por la STC 143/2017)",
-          "Primera ocupación por comunicación previa o declaración responsable (art. 11.5): si no resulta que la edificación cumple los requisitos, la Administración debe adoptar medidas para el cese de la ocupación; si no lo hace EN SEIS MESES, responde de los perjuicios a terceros de buena fe, pudiendo repercutirlos al sujeto obligado",
-          "Deberes generales de la propiedad (art. 15.1), cualquiera que sea la situación del suelo: dedicarlos a usos compatibles con la ordenación · CONSERVARLOS en condiciones legales de seguridad, salubridad, accesibilidad universal y ornato · realizar las obras adicionales que la Administración ordene por motivos turísticos o culturales o para la mejora de la calidad y sostenibilidad del medio urbano, hasta donde alcance el deber legal de conservación",
-          "LÍMITE DEL DEBER DE CONSERVACIÓN (art. 15.3): la MITAD DEL VALOR ACTUAL DE CONSTRUCCIÓN de un inmueble de nueva planta equivalente al original. Lo que exceda de ese límite corre a cargo de los fondos de la Administración que ordene las obras",
-          "Inejecución injustificada (art. 15.4): procede la ejecución subsidiaria sustituyendo al titular y asumiendo la facultad de edificar o rehabilitar con cargo a aquél. En tales supuestos el límite máximo del deber de conservación PUEDE ELEVARSE, si así lo dispone la legislación autonómica, HASTA EL 75 % DEL COSTE DE REPOSICIÓN",
-          "Deberes en suelo rural (art. 16): costear y ejecutar las obras para mantener terrenos y masa vegetal evitando riesgos de erosión, incendio e inundación; garantizar seguridad y salud públicas; prevenir la contaminación. En suelo rural no sometido a actuación de urbanización quedan PROHIBIDAS las parcelaciones urbanísticas",
-        ],
-      },
-      {
-        h: "Deberes de la promoción y realojamiento (arts. 18-19)",
-        nota:
-          "El porcentaje de cesión de la letra b) es de los datos más preguntados: horquilla general del 5 al 15 %, con posibilidad excepcional de llegar al 20 % cuando el valor de las parcelas resultantes sea sensiblemente superior al medio. Del art. 19, el dato fino es la superficie mínima de la vivienda de retorno, con su doble condición.",
-        items: [
-          "Deberes de las actuaciones de urbanización (art. 18.1): entregar el suelo de viales, espacios libres, zonas verdes y demás dotaciones públicas · entregar, con destino a PATRIMONIO PÚBLICO DE SUELO, el suelo libre de cargas correspondiente al porcentaje de la edificabilidad media ponderada · costear y ejecutar todas las obras de urbanización y las infraestructuras de conexión, ampliación y reforzamiento exteriores · entregar esas obras junto con el suelo · garantizar el REALOJAMIENTO y el retorno · e INDEMNIZAR a los titulares de construcciones que deban demolerse y de obras, instalaciones, plantaciones y sembrados no conservables",
-          "PORCENTAJE DE CESIÓN (art. 18.1.b): con carácter general no puede ser INFERIOR AL 5 % NI SUPERIOR AL 15 %. Excepcionalmente la legislación autonómica puede reducirlo o incrementarlo de forma proporcionada y motivada HASTA UN MÁXIMO DEL 20 % en caso de incremento, para ámbitos en que el valor de las parcelas resultantes sea sensiblemente inferior o superior al medio",
-          "En las ACTUACIONES DE DOTACIÓN (art. 18.2), el deber de entrega se determina atendiendo SOLO AL INCREMENTO de la edificabilidad media ponderada que resulte de la modificación del planeamiento, y puede cumplirse SUSTITUYENDO la entrega de suelo POR SU VALOR EN METÁLICO",
-          "Los terrenos incluidos en el ámbito están afectados CON CARÁCTER DE GARANTÍA REAL al cumplimiento de estos deberes, que se presumen cumplidos con la recepción de las obras (art. 18.6)",
-          "REALOJAMIENTO (art. 19.1): lo garantiza la Administración expropiante o el beneficiario cuando se actúa por expropiación —la entrega de la vivienda de reemplazo EQUIVALE AL ABONO DEL JUSTIPRECIO, salvo que el expropiado opte por percibirlo en metálico, en cuyo caso pierde el derecho de realojo—, y el promotor cuando se actúa por ámbitos de gestión conjunta no expropiatorios",
-          "DERECHO DE RETORNO (art. 19.2): el propietario debe proporcionar nueva vivienda de superficie NO INFERIOR AL 50 % DE LA ANTERIOR siempre que tenga AL MENOS 90 M², o no inferior a la que tuviere si no alcanzaba dicha superficie, de características análogas y ubicada en el mismo solar o en el entorno",
-          "El derecho de realojamiento es PERSONAL E INTRANSFERIBLE, salvo herederos forzosos o cónyuge supérstite que acrediten compartir la vivienda en términos de residencia habitual (art. 19.3). Si no es materialmente posible ofrecer vivienda, hay derecho a su EQUIVALENTE ECONÓMICO (19.5)",
-        ],
-      },
-      {
-        h: "Situaciones básicas del suelo y reservas (arts. 20-22)",
-        nota:
-          "El art. 21 es el corazón conceptual de la ley: solo hay DOS situaciones básicas, rural y urbanizado, y no coinciden con las clases de suelo autonómicas. Todo suelo urbanizable sectorizado y con plan aprobado sigue estando EN SITUACIÓN DE RURAL hasta que termine la actuación de urbanización — de ahí que se valore por capitalización de rentas y no por expectativas. La regla de la circunvalación del 21.3.b) evita convertir en urbanizado cualquier finca colindante con una vía rápida.",
-        items: [
-          "SITUACIÓN DE SUELO RURAL (art. 21.2): en todo caso el preservado por la ordenación de su transformación mediante la urbanización, incluyendo como mínimo los terrenos excluidos por la legislación de protección del dominio público, la naturaleza o el patrimonio cultural, los de valores ecológicos, agrícolas, ganaderos, forestales y paisajísticos y los que presenten RIESGOS naturales o tecnológicos. Y ADEMÁS el suelo para el que se prevea o permita su paso a urbanizado HASTA QUE TERMINE la correspondiente actuación de urbanización",
-          "SITUACIÓN DE SUELO URBANIZADO (art. 21.3): el que, ESTANDO LEGALMENTE INTEGRADO EN UNA MALLA URBANA conformada por una red de viales, dotaciones y parcelas propia del núcleo, cumpla alguna de estas tres condiciones — haber sido urbanizado en ejecución del instrumento de ordenación · tener instaladas y operativas las infraestructuras y servicios necesarios mediante conexión en red, o poder llegar a contar con ellos sin más obras que las de conexión · estar ocupado por la edificación en el porcentaje que determine la legislación autonómica",
-          "Regla antielusión: el hecho de que el suelo sea COLINDANTE CON CARRETERAS DE CIRCUNVALACIÓN o vías de comunicación interurbanas NO comporta por sí mismo su consideración como suelo urbanizado (art. 21.3.b)",
-          "También están en situación de urbanizado los NÚCLEOS RURALES TRADICIONALES legalmente asentados cuando la legislación autonómica les atribuya la condición de suelo urbano o asimilada y cuenten con las dotaciones requeridas (art. 21.4)",
-          "RESERVA DE VIVIENDA PROTEGIDA (art. 20.1.b): como mínimo, los terrenos necesarios para realizar el 40 POR CIENTO de la edificabilidad residencial prevista en el suelo rural que vaya a incluirse en actuaciones de NUEVA URBANIZACIÓN y el 20 POR CIENTO en el suelo urbanizado que deba someterse a actuaciones de REFORMA O RENOVACIÓN de la urbanización (porcentajes vigentes tras la Ley 12/2023; el texto original de 2015 fijaba el 30 % y el 10 %). La legislación autonómica puede fijar o permitir excepcionalmente una reserva inferior o eximirla para determinados municipios o actuaciones",
-          "Documentación ambiental y económica (art. 22): el informe de sostenibilidad ambiental de las actuaciones de urbanización debe incluir un MAPA DE RIESGOS NATURALES; en consultas deben recabarse los informes de la Administración HIDROLÓGICA, de COSTAS y de CARRETERAS e infraestructuras afectadas, que son DETERMINANTES para la memoria ambiental, de la que solo cabe disentir de forma expresamente motivada; y la documentación debe incluir INFORME O MEMORIA DE SOSTENIBILIDAD ECONÓMICA que pondere el impacto en las Haciendas Públicas",
-        ],
-      },
-      {
-        h: "Reglas procedimentales y normas civiles (arts. 23-28)",
-        nota:
-          "De este bloque interesan al técnico municipal tres cosas: el resumen ejecutivo obligatorio en la información pública, los requisitos notariales y registrales de la declaración de obra nueva, y la regla del art. 27.3 que permite al adquirente rescindir el contrato en cuatro años si no se hizo constar la situación urbanística.",
-        items: [
-          "Efecto de los instrumentos de distribución (art. 23.1): SUBROGACIÓN de las fincas de origen por las de resultado y reparto de titularidad entre propietarios, promotor y Administración. Las transmisiones por aportación y las adjudicaciones proporcionales están EXENTAS con carácter permanente de ITP y AJD y no se consideran transmisión a efectos de la plusvalía municipal (art. 23.7)",
-          "RESUMEN EJECUTIVO (art. 25.3): la documentación expuesta al público debe incluirlo, expresando la delimitación de los ámbitos en que la ordenación proyectada ALTERA LA VIGENTE con plano de situación y alcance de la alteración, y los ámbitos en que se suspendan la ordenación o los procedimientos, con la duración de la suspensión",
-          "FINCA vs PARCELA (art. 26.1): finca es la unidad de suelo o de edificación atribuida exclusiva y excluyentemente a uno o varios propietarios en proindiviso, que puede situarse en rasante, vuelo o subsuelo; PARCELA es la unidad de suelo que tenga atribuida EDIFICABILIDAD Y USO, o solo uso urbanístico independiente",
-          "Los NOTARIOS exigirán, para su testimonio, la acreditación documental de la autorización administrativa de las segregaciones o divisiones, y los REGISTRADORES la exigirán para inscribir (art. 26.2)",
-          "Transmisión de fincas (art. 27): NO modifica la situación del titular respecto de los deberes; el nuevo titular queda SUBROGADO. En las enajenaciones debe hacerse constar la situación urbanística cuando los terrenos no sean susceptibles de uso privado o edificación, tengan edificaciones fuera de ordenación o se destinen a vivienda protegida, y los deberes pendientes. Su infracción faculta al adquirente para RESCINDIR el contrato en el plazo de CUATRO AÑOS",
-          "DECLARACIÓN DE OBRA NUEVA (art. 28): en construcción, los notarios exigen el acto administrativo habilitante y certificación de técnico competente sobre el ajuste al proyecto; TERMINADA, además certificación de finalización conforme al proyecto, acreditación del cumplimiento de los requisitos para la entrega a los usuarios y las autorizaciones que garanticen el destino al uso previsto y los requisitos de EFICIENCIA ENERGÉTICA",
-          "Obras prescritas (art. 28.4): cuando ya no proceda adoptar medidas de restablecimiento que impliquen demolición por haber transcurrido los plazos, se inscriben con certificación del Ayuntamiento o de técnico competente, acta notarial o certificación catastral descriptiva y gráfica, comprobando el Registrador la inexistencia de anotación preventiva de disciplina urbanística y que el suelo no es demanial",
-        ],
-      },
-      {
-        h: "Título V — Valoraciones (arts. 34-41)",
-        nota:
-          "Este es el título más preguntado y el que menos margen deja: hay un método por situación básica y no cabe elegir. En rural, capitalización de la renta anual real o potencial, LA QUE SEA SUPERIOR, con corrección al alza por factores objetivos de localización y con prohibición expresa de computar expectativas urbanísticas. En urbanizado sin edificar, residual estático sobre el valor de repercusión. Y en urbanizado ya edificado, el valor es EL SUPERIOR de dos: comparación conjunta suelo+edificación, o residual solo del suelo.",
-        items: [
-          "Ámbito (art. 34.1): estas reglas rigen la valoración cuando tenga por objeto la verificación de las operaciones de reparto de beneficios y cargas, la fijación del JUSTIPRECIO expropiatorio cualquiera que sea su finalidad, el precio en la VENTA O SUSTITUCIÓN FORZOSAS, y la determinación de la RESPONSABILIDAD PATRIMONIAL",
-          "Fechas de referencia (art. 34.2): en reparto de beneficios y cargas, la fecha de INICIACIÓN DEL PROCEDIMIENTO de aprobación del instrumento · en expropiación, el momento de iniciación del expediente de justiprecio individualizado o de EXPOSICIÓN AL PÚBLICO del proyecto si hay tasación conjunta · en venta o sustitución forzosas, la iniciación del procedimiento de declaración del incumplimiento · en responsabilidad patrimonial, la entrada en vigor de la disposición o el comienzo de eficacia del acto lesivo",
-          "Criterios generales (art. 35): el valor del suelo corresponde a su PLENO DOMINIO, LIBRE DE TODA CARGA. El suelo se tasa según su SITUACIÓN y CON INDEPENDENCIA de la causa de la valoración y del instrumento que la motive. Las edificaciones en suelo rural se tasan CON INDEPENDENCIA de los terrenos si se ajustan a la legalidad; en suelo urbanizado, CONJUNTAMENTE con el suelo. Si están FUERA DE ORDENACIÓN, su valor se reduce en proporción al tiempo transcurrido de su vida útil",
-          "SUELO RURAL (art. 36.1.a): capitalización de la RENTA ANUAL REAL O POTENCIAL, LA QUE SEA SUPERIOR, según su estado en el momento de la valoración. La renta potencial atiende al rendimiento del uso o explotación de que sean susceptibles usando medios técnicos normales, incluyendo como ingresos las SUBVENCIONES ESTABLES y descontando los costes de explotación",
-          "Corrección al alza en rural (art. 36.1.a): por FACTORES OBJETIVOS DE LOCALIZACIÓN —accesibilidad a núcleos de población o centros de actividad económica, ubicación en entornos de singular valor ambiental o paisajístico—, justificados en el expediente y en los términos reglamentarios",
-          "PROHIBICIÓN CLAVE (art. 36.2): en ningún caso pueden considerarse EXPECTATIVAS derivadas de la asignación de edificabilidades y usos por la ordenación que no hayan sido aún plenamente realizados. Las edificaciones en rural que deban valorarse aparte se tasan por COSTE DE REPOSICIÓN según su estado y antigüedad",
-          "SUELO URBANIZADO NO EDIFICADO, o con edificación ilegal o en ruina física (art. 37.1): se toman el uso y edificabilidad atribuidos por la ordenación —si no tiene asignados, la EDIFICABILIDAD MEDIA y el USO MAYORITARIO del ámbito espacial homogéneo—, se aplica el VALOR DE REPERCUSIÓN por el MÉTODO RESIDUAL ESTÁTICO y se descuenta el valor de los DEBERES Y CARGAS PENDIENTES",
-          "SUELO EDIFICADO O EN CURSO DE EDIFICACIÓN (art. 37.2): el valor será EL SUPERIOR de — a) la tasación CONJUNTA de suelo y edificación ajustada a la legalidad por el MÉTODO DE COMPARACIÓN, aplicado exclusivamente a los usos existentes; o b) el método RESIDUAL del apartado 1 aplicado exclusivamente al SUELO, sin consideración de la edificación existente",
-          "En suelo urbanizado sometido a actuaciones de REFORMA O RENOVACIÓN, el método residual considera los usos y edificabilidades atribuidos por la ordenación EN SU SITUACIÓN DE ORIGEN (art. 37.3)",
-          "Indemnización de la facultad de participar en actuaciones de nueva urbanización (art. 38): requiere cuatro requisitos acumulativos y se calcula aplicando el mismo porcentaje de participación de la comunidad en las plusvalías del art. 18.1.b) a la diferencia de valor entre la situación de origen y la de actuación terminada",
-          "Equidistribución (art. 40): las aportaciones de suelo se tasan por el valor que correspondería al suelo SI ESTUVIERA TERMINADA LA ACTUACIÓN",
-        ],
-      },
-      {
-        h: "Título VI — Expropiación y responsabilidad patrimonial (arts. 42-48)",
-        nota:
-          "Del régimen expropiatorio interesan sobre todo la reversión y la retasación. La reversión decae si el uso dotacional público se implantó y mantuvo OCHO AÑOS, y en las expropiaciones para urbanizar procede si han pasado DIEZ AÑOS sin concluir la urbanización. La retasación es la figura propia de esta ley: no devuelve el suelo, sino que da al expropiado la diferencia de valor cuando la Administración aumenta después los usos o la edificabilidad.",
-        items: [
-          "Efecto de la aprobación de los instrumentos (art. 42.2): conlleva la DECLARACIÓN DE UTILIDAD PÚBLICA Y LA NECESIDAD DE OCUPACIÓN de los bienes cuando habiliten para su ejecución y ésta deba producirse por expropiación, extendiéndose a los terrenos precisos para CONECTAR la actuación con las redes generales de servicios",
-          "La delimitación de un ámbito para actuaciones sobre el medio urbano, firme en vía administrativa, comporta la declaración de utilidad pública o interés social a efectos de expropiación, VENTA Y SUSTITUCIÓN FORZOSAS, y su sujeción a los derechos de TANTEO Y RETRACTO a favor de la Administración actuante (art. 42.3)",
-          "Las VÍAS RURALES comprendidas en la superficie expropiada se entienden de PROPIEDAD MUNICIPAL salvo prueba en contrario; las vías urbanas que desaparezcan se entienden transmitidas de pleno derecho al organismo expropiante (art. 42.4)",
-          "Justiprecio (art. 43): se fija por expediente individualizado o por TASACIÓN CONJUNTA y, si hay acuerdo con el expropiado, puede satisfacerse EN ESPECIE. En actuaciones sobre el medio urbano NO ES PRECISO el consentimiento del propietario para pagar en especie, siempre que se efectúe dentro del propio ámbito de gestión y del plazo de terminación de las obras",
-          "REVERSIÓN — NO procede (art. 47.1) si: el uso dotacional público que motivó la expropiación fue efectivamente implantado y MANTENIDO DURANTE OCHO AÑOS, o el nuevo uso es igualmente dotacional público · la expropiación fue para formar o ampliar un PATRIMONIO PÚBLICO DE SUELO y el nuevo uso es compatible con sus fines · fue para ejecutar una ACTUACIÓN DE URBANIZACIÓN · fue por INCUMPLIMIENTO de deberes o no levantamiento de cargas · y los restantes supuestos de la LEF",
-          "Suelo expropiado para ejecutar una actuación de urbanización (art. 47.2): procede la REVERSIÓN cuando hayan transcurrido DIEZ AÑOS desde la expropiación sin que la urbanización se haya concluido; y procede la RETASACIÓN cuando se alteren los usos o la edificabilidad por una modificación del planeamiento que no se efectúe en el marco de un nuevo ejercicio pleno de la potestad de ordenación y ello suponga un incremento de valor",
-          "SUPUESTOS INDEMNIZATORIOS (art. 48): la alteración de las condiciones de ejecución de la urbanización o de participación de los propietarios · las VINCULACIONES Y LIMITACIONES SINGULARES que excedan de los deberes legales o restrinjan edificabilidad o uso sin distribución equitativa · la modificación o extinción de la eficacia de títulos habilitantes por cambio sobrevenido de la ordenación · su ANULACIÓN, la demora injustificada y la denegación improcedente, sin indemnización si hay dolo, culpa o negligencia graves del perjudicado · y la ocupación de terrenos destinados a dotaciones públicas",
-          "Las situaciones de FUERA DE ORDENACIÓN producidas por cambios en la ordenación NO SON INDEMNIZABLES, sin perjuicio de que pueda serlo la imposibilidad de usar y disfrutar lícitamente la construcción durante su vida útil (art. 48.a)",
-          "Ocupación de terrenos dotacionales (art. 48.e): transcurridos CUATRO AÑOS desde la ocupación sin aprobación definitiva del instrumento que adjudique otros de valor equivalente, los interesados pueden advertir a la Administración su propósito de iniciar el justiprecio, quedando facultados para iniciarlo transcurridos SEIS MESES desde dicha advertencia",
-        ],
-      },
-      {
-        h: "Derecho de superficie (arts. 53-54)",
-        nota:
-          "Tema corto y muy memorizable, con dos cifras que caen: los noventa y nueve años de plazo máximo y la doble exigencia de escritura pública e inscripción registral para su válida constitución —la inscripción aquí es CONSTITUTIVA, no meramente declarativa—.",
-        items: [
-          "Contenido (art. 53.1): atribuye al superficiario la facultad de realizar construcciones en la RASANTE, EL VUELO Y EL SUBSUELO de finca ajena, manteniendo la PROPIEDAD TEMPORAL de lo construido. También puede constituirse sobre construcciones ya realizadas o sobre viviendas, locales o elementos privativos",
-          "Constitución (art. 53.2): requiere ESCRITURA PÚBLICA E INSCRIPCIÓN en el Registro de la Propiedad. En la escritura debe fijarse NECESARIAMENTE el plazo de duración, que NO PODRÁ EXCEDER DE NOVENTA Y NUEVE AÑOS. Solo puede constituirlo el PROPIETARIO DEL SUELO, sea público o privado",
-          "Puede constituirse a TÍTULO ONEROSO O GRATUITO; en el oneroso la contraprestación puede ser suma alzada, canon periódico, adjudicación de viviendas o locales o derechos de arrendamiento, o varias modalidades a la vez (art. 53.3)",
-          "El superficiario puede constituir la propiedad superficiaria en RÉGIMEN DE PROPIEDAD HORIZONTAL con separación del terreno y transmitir y gravar como fincas independientes durante el plazo, SIN NECESIDAD del consentimiento del propietario del suelo (art. 54.2)",
-          "El SUBSUELO corresponde al propietario del suelo y se transmite y grava junto con éste, salvo que haya sido incluido en el derecho de superficie (art. 54.4)",
-          "Extinción (art. 54.5): se extingue si no se edifica conforme a la ordenación en el plazo previsto y, en todo caso, por transcurso del plazo. Al extinguirse por plazo, el propietario del suelo HACE SUYA la propiedad de lo edificado SIN INDEMNIZACIÓN alguna, y se extinguen todos los derechos reales o personales impuestos por el superficiario",
-        ],
-      },
-      {
-        h: "Registro de la Propiedad (arts. 65-68)",
-        nota:
-          "La pregunta habitual de este capítulo es la clase de asiento que corresponde a cada acto, porque el art. 67 los reparte en tres cajones. Regla práctica: inscripción para lo que altera el dominio, anotación preventiva para lo litigioso o en tramitación —con caducidad a los cuatro años— y nota marginal para lo meramente informativo, con vigencia indefinida pero sin más efecto que dar a conocer la situación urbanística.",
-        items: [
-          "Actos INSCRIBIBLES (art. 65.1): los actos firmes de aprobación de expedientes de ejecución que modifiquen fincas o atribuyan dominio · las cesiones obligatorias de terrenos · la INCOACIÓN de expedientes de disciplina urbanística o restauración de la legalidad · las condiciones especiales de los actos habilitantes · los actos de transferencia y gravamen del aprovechamiento urbanístico · la INTERPOSICIÓN DE RECURSO contencioso-administrativo que pretenda la anulación de instrumentos · los actos y sentencias firmes que declaren esa anulación · y cualquier otro acto que modifique el dominio o la descripción de fincas determinadas",
-          "CLASES DE ASIENTO (art. 67): por INSCRIPCIÓN los actos de las letras a), b), g) y h) del art. 65.1 y la superficie ocupada a favor de la Administración por dotaciones públicas · por ANOTACIÓN PREVENTIVA los de las letras c) y f) —disciplina urbanística y recurso contencioso—, que CADUCAN A LOS CUATRO AÑOS y pueden prorrogarse · por NOTA MARGINAL los demás, con VIGENCIA INDEFINIDA pero sin más efecto que dar a conocer la situación urbanística en el momento del título que las originó",
-          "En la incoación de expedientes de disciplina sobre actuaciones que hayan creado nuevas fincas registrales por parcelación, reparcelación, obra nueva o propiedad horizontal, la Administración está OBLIGADA a acordar la anotación preventiva; su omisión genera RESPONSABILIDAD de la Administración frente al adquirente de buena fe (art. 65.2)",
-          "Los actos pueden inscribirse mediante CERTIFICACIÓN ADMINISTRATIVA expedida por el órgano urbanístico actuante, salvo que la legislación establezca otra cosa (art. 66)",
-          "Expedientes de distribución de beneficios y cargas (art. 68): su iniciación o la afección de los terrenos se hace constar por NOTA AL MARGEN de la última inscripción de dominio, con duración de TRES AÑOS PRORROGABLE POR OTROS TRES a instancia del órgano o agrupación que la solicitó",
-          "El título que inscribe el proyecto de distribución es SUFICIENTE para la modificación de entidades hipotecarias, rectificación de descripciones registrales, inmatriculación de fincas o excesos de cabida, reanudación del tracto sucesivo y cancelación de derechos reales incompatibles (art. 68.5)",
-        ],
-      },
-    ],
-    claves: [
-      "Residencia habitual: más de 183 DÍAS al año · Carga desproporcionada en PH: más de DOCE MENSUALIDADES de gastos comunes",
-      "Actuación de DOTACIÓN: incrementa dotaciones sin requerir reforma o renovación de la urbanización",
-      "La edificabilidad prevista NO integra por sí sola la propiedad: la patrimonialización exige REALIZACIÓN EFECTIVA",
-      "Deber de conservación: la MITAD del valor actual de construcción; hasta el 75 % del coste de reposición si hay inejecución injustificada y lo prevé la ley autonómica",
-      "Cesión de la edificabilidad media ponderada: entre el 5 % y el 15 %, excepcionalmente hasta el 20 %",
-      "Vivienda de retorno: no inferior al 50 % de la anterior si tenía al menos 90 m²",
-      "En expropiación, la vivienda de reemplazo EQUIVALE al justiprecio; si el expropiado cobra en metálico, pierde el realojo",
-      "SOLO DOS situaciones básicas: rural y urbanizado. El urbanizable sigue siendo RURAL hasta terminar la urbanización",
-      "Ser colindante con una circunvalación NO convierte el suelo en urbanizado",
-      "Rural: capitalización de la renta real o POTENCIAL, la que sea SUPERIOR, corregible al alza por localización",
-      "PROHIBIDO valorar expectativas urbanísticas no realizadas (art. 36.2)",
-      "Urbanizado sin edificar: residual ESTÁTICO sobre el valor de repercusión, descontando deberes y cargas pendientes",
-      "Urbanizado edificado: el SUPERIOR entre comparación conjunta (suelo+edificación) y residual solo del suelo",
-      "Fuera de ordenación: el valor se reduce en proporción al tiempo transcurrido de su vida útil, y la situación NO es indemnizable",
-      "No hay reversión si el uso dotacional se implantó y mantuvo OCHO AÑOS",
-      "Expropiación para urbanizar: reversión a los DIEZ AÑOS sin concluir · retasación si aumentan usos o edificabilidad",
-      "Ocupación de dotacionales: a los 4 AÑOS cabe advertir, y a los 6 MESES de la advertencia iniciar el justiprecio",
-      "Derecho de superficie: escritura pública + inscripción (constitutiva), máximo 99 AÑOS, y al extinguirse lo edificado revierte SIN indemnización",
-      "Asientos: inscripción (dominio) · anotación preventiva (disciplina y recurso, caduca a los 4 AÑOS) · nota marginal (informativa, indefinida)",
-      "Nota marginal de distribución de beneficios y cargas: TRES AÑOS prorrogables por otros TRES",
-    ],
- "memorizacion": {
+      "memorizacion": {
   "tablas": [
     {
       "titulo": "Fianzas y garantías en el Decreto Foral 23/2011 (art. 6)",
@@ -9724,6 +9555,175 @@ export const RESUMENES = {
     "Fianzas: la cuantía de la fianza del gestor se fija por el Departamento de Desarrollo Rural y Medio Ambiente en función de la capacidad máxima de almacenamiento de RCDs de la instalación, y es requisito previo para la autorización, a diferencia de las fianzas de los productores (art. 7.12)."
   ]
 },
+  },
+
+  E28: {
+    intro:
+      "El RDL 7/2015 (TRLSRU) es la ley estatal del suelo: no clasifica suelo —eso es competencia autonómica— sino que fija las CONDICIONES BÁSICAS de igualdad en derechos y deberes, y sobre todo el régimen de VALORACIONES, que sí es competencia exclusiva del Estado. De ahí su estructura mental: dos SITUACIONES BÁSICAS del suelo (rural y urbanizado, art. 21) que no se confunden con las clases de suelo de la LFOTU, y a cada situación le corresponde un método de valoración (capitalización de rentas en rural, residual estático en urbanizado). Conviene tener presente que la Sentencia del TC 143/2017 anuló bastantes incisos por invadir competencias autonómicas, y el temario incluye además los títulos de expropiación, derecho de superficie y Registro de la Propiedad.",
+    bloques: [
+      {
+        h: "Título Preliminar — Objeto y definiciones (arts. 1-4)",
+        nota:
+          "Las definiciones del art. 2 se preguntan por su literalidad numérica: los 183 días de la residencia habitual y, sobre todo, las doce mensualidades que marcan cuándo una carga es desproporcionada en propiedad horizontal. Esa cifra es la que aplica un técnico al informar si unas obras de accesibilidad son exigibles o no.",
+        items: [
+          "Objeto (art. 1): regula para TODO EL TERRITORIO ESTATAL las condiciones básicas que garantizan la igualdad en el ejercicio de derechos y deberes relacionados con el suelo, y un desarrollo sostenible, competitivo y eficiente del medio urbano. Establece además las bases económicas y medioambientales del régimen del suelo, su valoración y la responsabilidad patrimonial",
+          "ACTUACIONES SOBRE EL MEDIO URBANO (art. 2.1): rehabilitación edificatoria cuando haya insuficiencia o degradación de los requisitos básicos de funcionalidad, seguridad y habitabilidad, y regeneración y renovación urbanas cuando afecten a edificios y a tejidos urbanos, pudiendo incluir nueva edificación en sustitución de edificios demolidos. Tienen CARÁCTER INTEGRADO cuando articulan medidas sociales, ambientales y económicas en una estrategia global y unitaria",
+          "INFRAVIVIENDA (art. 2.2): edificación o parte de ella destinada a vivienda que no reúne las condiciones mínimas exigidas. En todo caso, las que incumplan requisitos de superficie, número, dimensión y características de las piezas habitables, las que presenten deficiencias graves en dotaciones e instalaciones básicas y las que no cumplan los mínimos de seguridad, accesibilidad universal y habitabilidad",
+          "RESIDENCIA HABITUAL (art. 2.3): la que constituya el domicilio de quien la ocupa durante un período SUPERIOR A 183 DÍAS AL AÑO",
+          "COSTE DE REPOSICIÓN (art. 2.4): valor actual de construcción de un inmueble de nueva planta EQUIVALENTE AL ORIGINAL en características constructivas y superficie útil, en condiciones de que su ocupación sea autorizable",
+          "AJUSTES RAZONABLES (art. 2.5): medidas de adecuación para la accesibilidad universal de forma eficaz, segura y práctica sin carga desproporcionada. En edificios en PROPIEDAD HORIZONTAL la carga se entiende DESPROPORCIONADA cuando el coste de las obras repercutido anualmente, descontadas las ayudas públicas, EXCEDE DE DOCE MENSUALIDADES ordinarias de gastos comunes",
+          "Ordenación territorial y urbanística (art. 4): son FUNCIONES PÚBLICAS NO SUSCEPTIBLES DE TRANSACCIÓN; determinan las facultades y deberes de la propiedad conforme al destino del suelo, sin conferir derecho a indemnización salvo en los casos expresamente establecidos. El ejercicio de la potestad de ordenación debe ser MOTIVADO, con expresión de los intereses generales a que sirve",
+        ],
+      },
+      {
+        h: "Actuaciones de transformación urbanística y edificatorias (art. 7)",
+        nota:
+          "El artículo 7 es la pieza que articula toda la ley, porque de la calificación de la actuación depende el paquete de deberes del art. 18. La distinción crítica es entre actuación de URBANIZACIÓN (nueva o de reforma/renovación) y actuación de DOTACIÓN, que se caracteriza en negativo: incrementa dotaciones para reajustar la proporción con más edificabilidad o nuevos usos, pero NO requiere reformar la urbanización. Si hiciera falta reformarla, ya sería actuación de urbanización.",
+        items: [
+          "ACTUACIONES DE URBANIZACIÓN (art. 7.1.a): las de NUEVA URBANIZACIÓN, que suponen el paso de un ámbito de suelo rural a urbanizado creando parcelas aptas para la edificación conectadas con las redes de servicios; y las que tengan por objeto REFORMAR O RENOVAR la urbanización de un ámbito ya urbanizado",
+          "ACTUACIONES DE DOTACIÓN (art. 7.1.b): las que tienen por objeto INCREMENTAR LAS DOTACIONES PÚBLICAS de un ámbito de suelo urbanizado para reajustar su proporción con la mayor edificabilidad o densidad o con los nuevos usos asignados, y que NO REQUIERAN la reforma o renovación de la urbanización",
+          "ACTUACIONES EDIFICATORIAS (art. 7.2), siempre que no concurran las condiciones anteriores, incluso cuando requieran obras complementarias de urbanización: las de nueva edificación y sustitución de la existente, y las de REHABILITACIÓN EDIFICATORIA en los términos de la LOE",
+          "Inicio y terminación (art. 7.4): las actuaciones de urbanización se entienden INICIADAS cuando, aprobados y eficaces todos los instrumentos, empieza la ejecución material de las obras, presumiéndose por acta administrativa o notarial. La CADUCIDAD de cualquiera de los instrumentos RESTITUYE el suelo a la situación en que se hallaba al inicio. La TERMINACIÓN se presume a la recepción de las obras por la Administración",
+        ],
+      },
+      {
+        h: "Estatuto de la propiedad: facultades y deberes (arts. 11-17)",
+        nota:
+          "Aquí está una de las reglas más citadas de toda la ley: la previsión de edificabilidad por el planeamiento NO se integra por sí misma en el contenido del derecho de propiedad; la patrimonialización solo se produce con su realización efectiva. Y el otro dato imprescindible para el técnico municipal es el límite del deber de conservación: la MITAD del valor actual de construcción de un inmueble equivalente, elevable hasta el 75 % del coste de reposición si la legislación autonómica lo prevé y hay inejecución injustificada.",
+        items: [
+          "Régimen estatutario (art. 11.1-2): el régimen urbanístico de la propiedad es ESTATUTARIO y resulta de su vinculación a concretos destinos. La previsión de edificabilidad por sí misma NO integra el contenido del derecho: la PATRIMONIALIZACIÓN se produce únicamente con su REALIZACIÓN EFECTIVA y condicionada al cumplimiento de deberes y levantamiento de cargas",
+          "SILENCIO (art. 11.3): en ningún caso pueden entenderse adquiridas por silencio administrativo facultades o derechos que contravengan la ordenación territorial o urbanística. Y serán EXPRESOS, CON SILENCIO NEGATIVO, los actos que autoricen movimientos de tierras, explanaciones, parcelaciones y divisiones de fincas; obras de edificación e instalaciones de nueva planta; casas prefabricadas e instalaciones similares; y talas de masas arbóreas (art. 11.4, con incisos anulados por la STC 143/2017)",
+          "Primera ocupación por comunicación previa o declaración responsable (art. 11.5): si no resulta que la edificación cumple los requisitos, la Administración debe adoptar medidas para el cese de la ocupación; si no lo hace EN SEIS MESES, responde de los perjuicios a terceros de buena fe, pudiendo repercutirlos al sujeto obligado",
+          "Deberes generales de la propiedad (art. 15.1), cualquiera que sea la situación del suelo: dedicarlos a usos compatibles con la ordenación · CONSERVARLOS en condiciones legales de seguridad, salubridad, accesibilidad universal y ornato · realizar las obras adicionales que la Administración ordene por motivos turísticos o culturales o para la mejora de la calidad y sostenibilidad del medio urbano, hasta donde alcance el deber legal de conservación",
+          "LÍMITE DEL DEBER DE CONSERVACIÓN (art. 15.3): la MITAD DEL VALOR ACTUAL DE CONSTRUCCIÓN de un inmueble de nueva planta equivalente al original. Lo que exceda de ese límite corre a cargo de los fondos de la Administración que ordene las obras",
+          "Inejecución injustificada (art. 15.4): procede la ejecución subsidiaria sustituyendo al titular y asumiendo la facultad de edificar o rehabilitar con cargo a aquél. En tales supuestos el límite máximo del deber de conservación PUEDE ELEVARSE, si así lo dispone la legislación autonómica, HASTA EL 75 % DEL COSTE DE REPOSICIÓN",
+          "Deberes en suelo rural (art. 16): costear y ejecutar las obras para mantener terrenos y masa vegetal evitando riesgos de erosión, incendio e inundación; garantizar seguridad y salud públicas; prevenir la contaminación. En suelo rural no sometido a actuación de urbanización quedan PROHIBIDAS las parcelaciones urbanísticas",
+        ],
+      },
+      {
+        h: "Deberes de la promoción y realojamiento (arts. 18-19)",
+        nota:
+          "El porcentaje de cesión de la letra b) es de los datos más preguntados: horquilla general del 5 al 15 %, con posibilidad excepcional de llegar al 20 % cuando el valor de las parcelas resultantes sea sensiblemente superior al medio. Del art. 19, el dato fino es la superficie mínima de la vivienda de retorno, con su doble condición.",
+        items: [
+          "Deberes de las actuaciones de urbanización (art. 18.1): entregar el suelo de viales, espacios libres, zonas verdes y demás dotaciones públicas · entregar, con destino a PATRIMONIO PÚBLICO DE SUELO, el suelo libre de cargas correspondiente al porcentaje de la edificabilidad media ponderada · costear y ejecutar todas las obras de urbanización y las infraestructuras de conexión, ampliación y reforzamiento exteriores · entregar esas obras junto con el suelo · garantizar el REALOJAMIENTO y el retorno · e INDEMNIZAR a los titulares de construcciones que deban demolerse y de obras, instalaciones, plantaciones y sembrados no conservables",
+          "PORCENTAJE DE CESIÓN (art. 18.1.b): con carácter general no puede ser INFERIOR AL 5 % NI SUPERIOR AL 15 %. Excepcionalmente la legislación autonómica puede reducirlo o incrementarlo de forma proporcionada y motivada HASTA UN MÁXIMO DEL 20 % en caso de incremento, para ámbitos en que el valor de las parcelas resultantes sea sensiblemente inferior o superior al medio",
+          "En las ACTUACIONES DE DOTACIÓN (art. 18.2), el deber de entrega se determina atendiendo SOLO AL INCREMENTO de la edificabilidad media ponderada que resulte de la modificación del planeamiento, y puede cumplirse SUSTITUYENDO la entrega de suelo POR SU VALOR EN METÁLICO",
+          "Los terrenos incluidos en el ámbito están afectados CON CARÁCTER DE GARANTÍA REAL al cumplimiento de estos deberes, que se presumen cumplidos con la recepción de las obras (art. 18.6)",
+          "REALOJAMIENTO (art. 19.1): lo garantiza la Administración expropiante o el beneficiario cuando se actúa por expropiación —la entrega de la vivienda de reemplazo EQUIVALE AL ABONO DEL JUSTIPRECIO, salvo que el expropiado opte por percibirlo en metálico, en cuyo caso pierde el derecho de realojo—, y el promotor cuando se actúa por ámbitos de gestión conjunta no expropiatorios",
+          "DERECHO DE RETORNO (art. 19.2): el propietario debe proporcionar nueva vivienda de superficie NO INFERIOR AL 50 % DE LA ANTERIOR siempre que tenga AL MENOS 90 M², o no inferior a la que tuviere si no alcanzaba dicha superficie, de características análogas y ubicada en el mismo solar o en el entorno",
+          "El derecho de realojamiento es PERSONAL E INTRANSFERIBLE, salvo herederos forzosos o cónyuge supérstite que acrediten compartir la vivienda en términos de residencia habitual (art. 19.3). Si no es materialmente posible ofrecer vivienda, hay derecho a su EQUIVALENTE ECONÓMICO (19.5)",
+        ],
+      },
+      {
+        h: "Situaciones básicas del suelo y reservas (arts. 20-22)",
+        nota:
+          "El art. 21 es el corazón conceptual de la ley: solo hay DOS situaciones básicas, rural y urbanizado, y no coinciden con las clases de suelo autonómicas. Todo suelo urbanizable sectorizado y con plan aprobado sigue estando EN SITUACIÓN DE RURAL hasta que termine la actuación de urbanización — de ahí que se valore por capitalización de rentas y no por expectativas. La regla de la circunvalación del 21.3.b) evita convertir en urbanizado cualquier finca colindante con una vía rápida.",
+        items: [
+          "SITUACIÓN DE SUELO RURAL (art. 21.2): en todo caso el preservado por la ordenación de su transformación mediante la urbanización, incluyendo como mínimo los terrenos excluidos por la legislación de protección del dominio público, la naturaleza o el patrimonio cultural, los de valores ecológicos, agrícolas, ganaderos, forestales y paisajísticos y los que presenten RIESGOS naturales o tecnológicos. Y ADEMÁS el suelo para el que se prevea o permita su paso a urbanizado HASTA QUE TERMINE la correspondiente actuación de urbanización",
+          "SITUACIÓN DE SUELO URBANIZADO (art. 21.3): el que, ESTANDO LEGALMENTE INTEGRADO EN UNA MALLA URBANA conformada por una red de viales, dotaciones y parcelas propia del núcleo, cumpla alguna de estas tres condiciones — haber sido urbanizado en ejecución del instrumento de ordenación · tener instaladas y operativas las infraestructuras y servicios necesarios mediante conexión en red, o poder llegar a contar con ellos sin más obras que las de conexión · estar ocupado por la edificación en el porcentaje que determine la legislación autonómica",
+          "Regla antielusión: el hecho de que el suelo sea COLINDANTE CON CARRETERAS DE CIRCUNVALACIÓN o vías de comunicación interurbanas NO comporta por sí mismo su consideración como suelo urbanizado (art. 21.3.b)",
+          "También están en situación de urbanizado los NÚCLEOS RURALES TRADICIONALES legalmente asentados cuando la legislación autonómica les atribuya la condición de suelo urbano o asimilada y cuenten con las dotaciones requeridas (art. 21.4)",
+          "RESERVA DE VIVIENDA PROTEGIDA (art. 20.1.b): como mínimo, los terrenos necesarios para realizar el 40 POR CIENTO de la edificabilidad residencial prevista en el suelo rural que vaya a incluirse en actuaciones de NUEVA URBANIZACIÓN y el 20 POR CIENTO en el suelo urbanizado que deba someterse a actuaciones de REFORMA O RENOVACIÓN de la urbanización (porcentajes vigentes tras la Ley 12/2023; el texto original de 2015 fijaba el 30 % y el 10 %). La legislación autonómica puede fijar o permitir excepcionalmente una reserva inferior o eximirla para determinados municipios o actuaciones",
+          "Documentación ambiental y económica (art. 22): el informe de sostenibilidad ambiental de las actuaciones de urbanización debe incluir un MAPA DE RIESGOS NATURALES; en consultas deben recabarse los informes de la Administración HIDROLÓGICA, de COSTAS y de CARRETERAS e infraestructuras afectadas, que son DETERMINANTES para la memoria ambiental, de la que solo cabe disentir de forma expresamente motivada; y la documentación debe incluir INFORME O MEMORIA DE SOSTENIBILIDAD ECONÓMICA que pondere el impacto en las Haciendas Públicas",
+        ],
+      },
+      {
+        h: "Reglas procedimentales y normas civiles (arts. 23-28)",
+        nota:
+          "De este bloque interesan al técnico municipal tres cosas: el resumen ejecutivo obligatorio en la información pública, los requisitos notariales y registrales de la declaración de obra nueva, y la regla del art. 27.3 que permite al adquirente rescindir el contrato en cuatro años si no se hizo constar la situación urbanística.",
+        items: [
+          "Efecto de los instrumentos de distribución (art. 23.1): SUBROGACIÓN de las fincas de origen por las de resultado y reparto de titularidad entre propietarios, promotor y Administración. Las transmisiones por aportación y las adjudicaciones proporcionales están EXENTAS con carácter permanente de ITP y AJD y no se consideran transmisión a efectos de la plusvalía municipal (art. 23.7)",
+          "RESUMEN EJECUTIVO (art. 25.3): la documentación expuesta al público debe incluirlo, expresando la delimitación de los ámbitos en que la ordenación proyectada ALTERA LA VIGENTE con plano de situación y alcance de la alteración, y los ámbitos en que se suspendan la ordenación o los procedimientos, con la duración de la suspensión",
+          "FINCA vs PARCELA (art. 26.1): finca es la unidad de suelo o de edificación atribuida exclusiva y excluyentemente a uno o varios propietarios en proindiviso, que puede situarse en rasante, vuelo o subsuelo; PARCELA es la unidad de suelo que tenga atribuida EDIFICABILIDAD Y USO, o solo uso urbanístico independiente",
+          "Los NOTARIOS exigirán, para su testimonio, la acreditación documental de la autorización administrativa de las segregaciones o divisiones, y los REGISTRADORES la exigirán para inscribir (art. 26.2)",
+          "Transmisión de fincas (art. 27): NO modifica la situación del titular respecto de los deberes; el nuevo titular queda SUBROGADO. En las enajenaciones debe hacerse constar la situación urbanística cuando los terrenos no sean susceptibles de uso privado o edificación, tengan edificaciones fuera de ordenación o se destinen a vivienda protegida, y los deberes pendientes. Su infracción faculta al adquirente para RESCINDIR el contrato en el plazo de CUATRO AÑOS",
+          "DECLARACIÓN DE OBRA NUEVA (art. 28): en construcción, los notarios exigen el acto administrativo habilitante y certificación de técnico competente sobre el ajuste al proyecto; TERMINADA, además certificación de finalización conforme al proyecto, acreditación del cumplimiento de los requisitos para la entrega a los usuarios y las autorizaciones que garanticen el destino al uso previsto y los requisitos de EFICIENCIA ENERGÉTICA",
+          "Obras prescritas (art. 28.4): cuando ya no proceda adoptar medidas de restablecimiento que impliquen demolición por haber transcurrido los plazos, se inscriben con certificación del Ayuntamiento o de técnico competente, acta notarial o certificación catastral descriptiva y gráfica, comprobando el Registrador la inexistencia de anotación preventiva de disciplina urbanística y que el suelo no es demanial",
+        ],
+      },
+      {
+        h: "Título V — Valoraciones (arts. 34-41)",
+        nota:
+          "Este es el título más preguntado y el que menos margen deja: hay un método por situación básica y no cabe elegir. En rural, capitalización de la renta anual real o potencial, LA QUE SEA SUPERIOR, con corrección al alza por factores objetivos de localización y con prohibición expresa de computar expectativas urbanísticas. En urbanizado sin edificar, residual estático sobre el valor de repercusión. Y en urbanizado ya edificado, el valor es EL SUPERIOR de dos: comparación conjunta suelo+edificación, o residual solo del suelo.",
+        items: [
+          "Ámbito (art. 34.1): estas reglas rigen la valoración cuando tenga por objeto la verificación de las operaciones de reparto de beneficios y cargas, la fijación del JUSTIPRECIO expropiatorio cualquiera que sea su finalidad, el precio en la VENTA O SUSTITUCIÓN FORZOSAS, y la determinación de la RESPONSABILIDAD PATRIMONIAL",
+          "Fechas de referencia (art. 34.2): en reparto de beneficios y cargas, la fecha de INICIACIÓN DEL PROCEDIMIENTO de aprobación del instrumento · en expropiación, el momento de iniciación del expediente de justiprecio individualizado o de EXPOSICIÓN AL PÚBLICO del proyecto si hay tasación conjunta · en venta o sustitución forzosas, la iniciación del procedimiento de declaración del incumplimiento · en responsabilidad patrimonial, la entrada en vigor de la disposición o el comienzo de eficacia del acto lesivo",
+          "Criterios generales (art. 35): el valor del suelo corresponde a su PLENO DOMINIO, LIBRE DE TODA CARGA. El suelo se tasa según su SITUACIÓN y CON INDEPENDENCIA de la causa de la valoración y del instrumento que la motive. Las edificaciones en suelo rural se tasan CON INDEPENDENCIA de los terrenos si se ajustan a la legalidad; en suelo urbanizado, CONJUNTAMENTE con el suelo. Si están FUERA DE ORDENACIÓN, su valor se reduce en proporción al tiempo transcurrido de su vida útil",
+          "SUELO RURAL (art. 36.1.a): capitalización de la RENTA ANUAL REAL O POTENCIAL, LA QUE SEA SUPERIOR, según su estado en el momento de la valoración. La renta potencial atiende al rendimiento del uso o explotación de que sean susceptibles usando medios técnicos normales, incluyendo como ingresos las SUBVENCIONES ESTABLES y descontando los costes de explotación",
+          "Corrección al alza en rural (art. 36.1.a): por FACTORES OBJETIVOS DE LOCALIZACIÓN —accesibilidad a núcleos de población o centros de actividad económica, ubicación en entornos de singular valor ambiental o paisajístico—, justificados en el expediente y en los términos reglamentarios",
+          "PROHIBICIÓN CLAVE (art. 36.2): en ningún caso pueden considerarse EXPECTATIVAS derivadas de la asignación de edificabilidades y usos por la ordenación que no hayan sido aún plenamente realizados. Las edificaciones en rural que deban valorarse aparte se tasan por COSTE DE REPOSICIÓN según su estado y antigüedad",
+          "SUELO URBANIZADO NO EDIFICADO, o con edificación ilegal o en ruina física (art. 37.1): se toman el uso y edificabilidad atribuidos por la ordenación —si no tiene asignados, la EDIFICABILIDAD MEDIA y el USO MAYORITARIO del ámbito espacial homogéneo—, se aplica el VALOR DE REPERCUSIÓN por el MÉTODO RESIDUAL ESTÁTICO y se descuenta el valor de los DEBERES Y CARGAS PENDIENTES",
+          "SUELO EDIFICADO O EN CURSO DE EDIFICACIÓN (art. 37.2): el valor será EL SUPERIOR de — a) la tasación CONJUNTA de suelo y edificación ajustada a la legalidad por el MÉTODO DE COMPARACIÓN, aplicado exclusivamente a los usos existentes; o b) el método RESIDUAL del apartado 1 aplicado exclusivamente al SUELO, sin consideración de la edificación existente",
+          "En suelo urbanizado sometido a actuaciones de REFORMA O RENOVACIÓN, el método residual considera los usos y edificabilidades atribuidos por la ordenación EN SU SITUACIÓN DE ORIGEN (art. 37.3)",
+          "Indemnización de la facultad de participar en actuaciones de nueva urbanización (art. 38): requiere cuatro requisitos acumulativos y se calcula aplicando el mismo porcentaje de participación de la comunidad en las plusvalías del art. 18.1.b) a la diferencia de valor entre la situación de origen y la de actuación terminada",
+          "Equidistribución (art. 40): las aportaciones de suelo se tasan por el valor que correspondería al suelo SI ESTUVIERA TERMINADA LA ACTUACIÓN",
+        ],
+      },
+      {
+        h: "Título VI — Expropiación y responsabilidad patrimonial (arts. 42-48)",
+        nota:
+          "Del régimen expropiatorio interesan sobre todo la reversión y la retasación. La reversión decae si el uso dotacional público se implantó y mantuvo OCHO AÑOS, y en las expropiaciones para urbanizar procede si han pasado DIEZ AÑOS sin concluir la urbanización. La retasación es la figura propia de esta ley: no devuelve el suelo, sino que da al expropiado la diferencia de valor cuando la Administración aumenta después los usos o la edificabilidad.",
+        items: [
+          "Efecto de la aprobación de los instrumentos (art. 42.2): conlleva la DECLARACIÓN DE UTILIDAD PÚBLICA Y LA NECESIDAD DE OCUPACIÓN de los bienes cuando habiliten para su ejecución y ésta deba producirse por expropiación, extendiéndose a los terrenos precisos para CONECTAR la actuación con las redes generales de servicios",
+          "La delimitación de un ámbito para actuaciones sobre el medio urbano, firme en vía administrativa, comporta la declaración de utilidad pública o interés social a efectos de expropiación, VENTA Y SUSTITUCIÓN FORZOSAS, y su sujeción a los derechos de TANTEO Y RETRACTO a favor de la Administración actuante (art. 42.3)",
+          "Las VÍAS RURALES comprendidas en la superficie expropiada se entienden de PROPIEDAD MUNICIPAL salvo prueba en contrario; las vías urbanas que desaparezcan se entienden transmitidas de pleno derecho al organismo expropiante (art. 42.4)",
+          "Justiprecio (art. 43): se fija por expediente individualizado o por TASACIÓN CONJUNTA y, si hay acuerdo con el expropiado, puede satisfacerse EN ESPECIE. En actuaciones sobre el medio urbano NO ES PRECISO el consentimiento del propietario para pagar en especie, siempre que se efectúe dentro del propio ámbito de gestión y del plazo de terminación de las obras",
+          "REVERSIÓN — NO procede (art. 47.1) si: el uso dotacional público que motivó la expropiación fue efectivamente implantado y MANTENIDO DURANTE OCHO AÑOS, o el nuevo uso es igualmente dotacional público · la expropiación fue para formar o ampliar un PATRIMONIO PÚBLICO DE SUELO y el nuevo uso es compatible con sus fines · fue para ejecutar una ACTUACIÓN DE URBANIZACIÓN · fue por INCUMPLIMIENTO de deberes o no levantamiento de cargas · y los restantes supuestos de la LEF",
+          "Suelo expropiado para ejecutar una actuación de urbanización (art. 47.2): procede la REVERSIÓN cuando hayan transcurrido DIEZ AÑOS desde la expropiación sin que la urbanización se haya concluido; y procede la RETASACIÓN cuando se alteren los usos o la edificabilidad por una modificación del planeamiento que no se efectúe en el marco de un nuevo ejercicio pleno de la potestad de ordenación y ello suponga un incremento de valor",
+          "SUPUESTOS INDEMNIZATORIOS (art. 48): la alteración de las condiciones de ejecución de la urbanización o de participación de los propietarios · las VINCULACIONES Y LIMITACIONES SINGULARES que excedan de los deberes legales o restrinjan edificabilidad o uso sin distribución equitativa · la modificación o extinción de la eficacia de títulos habilitantes por cambio sobrevenido de la ordenación · su ANULACIÓN, la demora injustificada y la denegación improcedente, sin indemnización si hay dolo, culpa o negligencia graves del perjudicado · y la ocupación de terrenos destinados a dotaciones públicas",
+          "Las situaciones de FUERA DE ORDENACIÓN producidas por cambios en la ordenación NO SON INDEMNIZABLES, sin perjuicio de que pueda serlo la imposibilidad de usar y disfrutar lícitamente la construcción durante su vida útil (art. 48.a)",
+          "Ocupación de terrenos dotacionales (art. 48.e): transcurridos CUATRO AÑOS desde la ocupación sin aprobación definitiva del instrumento que adjudique otros de valor equivalente, los interesados pueden advertir a la Administración su propósito de iniciar el justiprecio, quedando facultados para iniciarlo transcurridos SEIS MESES desde dicha advertencia",
+        ],
+      },
+      {
+        h: "Derecho de superficie (arts. 53-54)",
+        nota:
+          "Tema corto y muy memorizable, con dos cifras que caen: los noventa y nueve años de plazo máximo y la doble exigencia de escritura pública e inscripción registral para su válida constitución —la inscripción aquí es CONSTITUTIVA, no meramente declarativa—.",
+        items: [
+          "Contenido (art. 53.1): atribuye al superficiario la facultad de realizar construcciones en la RASANTE, EL VUELO Y EL SUBSUELO de finca ajena, manteniendo la PROPIEDAD TEMPORAL de lo construido. También puede constituirse sobre construcciones ya realizadas o sobre viviendas, locales o elementos privativos",
+          "Constitución (art. 53.2): requiere ESCRITURA PÚBLICA E INSCRIPCIÓN en el Registro de la Propiedad. En la escritura debe fijarse NECESARIAMENTE el plazo de duración, que NO PODRÁ EXCEDER DE NOVENTA Y NUEVE AÑOS. Solo puede constituirlo el PROPIETARIO DEL SUELO, sea público o privado",
+          "Puede constituirse a TÍTULO ONEROSO O GRATUITO; en el oneroso la contraprestación puede ser suma alzada, canon periódico, adjudicación de viviendas o locales o derechos de arrendamiento, o varias modalidades a la vez (art. 53.3)",
+          "El superficiario puede constituir la propiedad superficiaria en RÉGIMEN DE PROPIEDAD HORIZONTAL con separación del terreno y transmitir y gravar como fincas independientes durante el plazo, SIN NECESIDAD del consentimiento del propietario del suelo (art. 54.2)",
+          "El SUBSUELO corresponde al propietario del suelo y se transmite y grava junto con éste, salvo que haya sido incluido en el derecho de superficie (art. 54.4)",
+          "Extinción (art. 54.5): se extingue si no se edifica conforme a la ordenación en el plazo previsto y, en todo caso, por transcurso del plazo. Al extinguirse por plazo, el propietario del suelo HACE SUYA la propiedad de lo edificado SIN INDEMNIZACIÓN alguna, y se extinguen todos los derechos reales o personales impuestos por el superficiario",
+        ],
+      },
+      {
+        h: "Registro de la Propiedad (arts. 65-68)",
+        nota:
+          "La pregunta habitual de este capítulo es la clase de asiento que corresponde a cada acto, porque el art. 67 los reparte en tres cajones. Regla práctica: inscripción para lo que altera el dominio, anotación preventiva para lo litigioso o en tramitación —con caducidad a los cuatro años— y nota marginal para lo meramente informativo, con vigencia indefinida pero sin más efecto que dar a conocer la situación urbanística.",
+        items: [
+          "Actos INSCRIBIBLES (art. 65.1): los actos firmes de aprobación de expedientes de ejecución que modifiquen fincas o atribuyan dominio · las cesiones obligatorias de terrenos · la INCOACIÓN de expedientes de disciplina urbanística o restauración de la legalidad · las condiciones especiales de los actos habilitantes · los actos de transferencia y gravamen del aprovechamiento urbanístico · la INTERPOSICIÓN DE RECURSO contencioso-administrativo que pretenda la anulación de instrumentos · los actos y sentencias firmes que declaren esa anulación · y cualquier otro acto que modifique el dominio o la descripción de fincas determinadas",
+          "CLASES DE ASIENTO (art. 67): por INSCRIPCIÓN los actos de las letras a), b), g) y h) del art. 65.1 y la superficie ocupada a favor de la Administración por dotaciones públicas · por ANOTACIÓN PREVENTIVA los de las letras c) y f) —disciplina urbanística y recurso contencioso—, que CADUCAN A LOS CUATRO AÑOS y pueden prorrogarse · por NOTA MARGINAL los demás, con VIGENCIA INDEFINIDA pero sin más efecto que dar a conocer la situación urbanística en el momento del título que las originó",
+          "En la incoación de expedientes de disciplina sobre actuaciones que hayan creado nuevas fincas registrales por parcelación, reparcelación, obra nueva o propiedad horizontal, la Administración está OBLIGADA a acordar la anotación preventiva; su omisión genera RESPONSABILIDAD de la Administración frente al adquirente de buena fe (art. 65.2)",
+          "Los actos pueden inscribirse mediante CERTIFICACIÓN ADMINISTRATIVA expedida por el órgano urbanístico actuante, salvo que la legislación establezca otra cosa (art. 66)",
+          "Expedientes de distribución de beneficios y cargas (art. 68): su iniciación o la afección de los terrenos se hace constar por NOTA AL MARGEN de la última inscripción de dominio, con duración de TRES AÑOS PRORROGABLE POR OTROS TRES a instancia del órgano o agrupación que la solicitó",
+          "El título que inscribe el proyecto de distribución es SUFICIENTE para la modificación de entidades hipotecarias, rectificación de descripciones registrales, inmatriculación de fincas o excesos de cabida, reanudación del tracto sucesivo y cancelación de derechos reales incompatibles (art. 68.5)",
+        ],
+      },
+    ],
+    claves: [
+      "Residencia habitual: más de 183 DÍAS al año · Carga desproporcionada en PH: más de DOCE MENSUALIDADES de gastos comunes",
+      "Actuación de DOTACIÓN: incrementa dotaciones sin requerir reforma o renovación de la urbanización",
+      "La edificabilidad prevista NO integra por sí sola la propiedad: la patrimonialización exige REALIZACIÓN EFECTIVA",
+      "Deber de conservación: la MITAD del valor actual de construcción; hasta el 75 % del coste de reposición si hay inejecución injustificada y lo prevé la ley autonómica",
+      "Cesión de la edificabilidad media ponderada: entre el 5 % y el 15 %, excepcionalmente hasta el 20 %",
+      "Vivienda de retorno: no inferior al 50 % de la anterior si tenía al menos 90 m²",
+      "En expropiación, la vivienda de reemplazo EQUIVALE al justiprecio; si el expropiado cobra en metálico, pierde el realojo",
+      "SOLO DOS situaciones básicas: rural y urbanizado. El urbanizable sigue siendo RURAL hasta terminar la urbanización",
+      "Ser colindante con una circunvalación NO convierte el suelo en urbanizado",
+      "Rural: capitalización de la renta real o POTENCIAL, la que sea SUPERIOR, corregible al alza por localización",
+      "PROHIBIDO valorar expectativas urbanísticas no realizadas (art. 36.2)",
+      "Urbanizado sin edificar: residual ESTÁTICO sobre el valor de repercusión, descontando deberes y cargas pendientes",
+      "Urbanizado edificado: el SUPERIOR entre comparación conjunta (suelo+edificación) y residual solo del suelo",
+      "Fuera de ordenación: el valor se reduce en proporción al tiempo transcurrido de su vida útil, y la situación NO es indemnizable",
+      "No hay reversión si el uso dotacional se implantó y mantuvo OCHO AÑOS",
+      "Expropiación para urbanizar: reversión a los DIEZ AÑOS sin concluir · retasación si aumentan usos o edificabilidad",
+      "Ocupación de dotacionales: a los 4 AÑOS cabe advertir, y a los 6 MESES de la advertencia iniciar el justiprecio",
+      "Derecho de superficie: escritura pública + inscripción (constitutiva), máximo 99 AÑOS, y al extinguirse lo edificado revierte SIN indemnización",
+      "Asientos: inscripción (dominio) · anotación preventiva (disciplina y recurso, caduca a los 4 AÑOS) · nota marginal (informativa, indefinida)",
+      "Nota marginal de distribución de beneficios y cargas: TRES AÑOS prorrogables por otros TRES",
+    ],
   },
 
   E29: {
