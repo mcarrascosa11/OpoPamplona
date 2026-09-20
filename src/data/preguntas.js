@@ -6077,9 +6077,7 @@ export const PREGUNTAS = [
   },
 
   // ---------- TEMA 27 ESPECÍFICO · DF 23/2011 RESIDUOS DE CONSTRUCCIÓN Y DEMOLICIÓN (E27) ----------
-  [
-  {
-    "id": "E27-01",
+    {    "id": "E27-01",
     "tema": "E27",
     "q": "El Decreto Foral 23/2011, de 28 de marzo, tiene como objeto, entre otros, establecer el régimen jurídico de la producción y gestión de los RCDs con el fin de fomentar, por este orden, su prevención, preparación para la reutilización, reciclado y otras formas de valorización. ¿Cuál de las siguientes afirmaciones describe correctamente otro de los objetos de este Decreto Foral?",
     "o": [
@@ -6272,8 +6270,8 @@ export const PREGUNTAS = [
     ],
     "c": 0,
     "exp": "El Anejo 1, punto 1, establece que si los almacenamientos se realizan en naves abiertas o al descubierto, la instalación deberá contar con una cuneta o sistema equivalente de manera que la totalidad de las aguas de escorrentía del recinto se recojan y se conduzcan a una balsa para su decantación previa a su vertido en cauce público. Las demás alternativas describen finalidades distintas (infiltración directa, riego, vertido a saneamiento sin tratamiento) que no se corresponden con el requisito técnico establecido."
-  }
-],
+  },
+   
   // ---------- TEMA 28 ESPECÍFICO · RDL 7/2015 TRLSRU (E28) ----------
   { id: "E28-03", tema: "E28",
     q: "Conforme al art. 2.5 del TRLSRU, en los edificios constituidos en régimen de propiedad horizontal se entenderá que la carga derivada de unas obras de accesibilidad es desproporcionada cuando su coste repercutido anualmente, descontadas las ayudas públicas:",
