@@ -5074,96 +5074,201 @@ export const PREGUNTAS = [
   },
    
   // ---------- TEMA 32 ESPECÍFICO · TRLFOTU V — LICENCIAS Y DISCIPLINA (E32) ----------
-  { id: "E32-01", tema: "E32",
-    q: "El art. 190.1 TRLFOTU define la licencia urbanística como acto administrativo de control:",
-    o: ["Previo, de carácter discrecional y constitutivo",
-        "Previo, de carácter reglado y declarativo",
-        "Posterior, de carácter reglado y declarativo",
-        "Previo, de carácter reglado y constitutivo"],
-    c: 1, exp: "Art. 190.1: control PREVIO, REGLADO y DECLARATIVO. Reglado: sin discrecionalidad; declarativo: no crea derechos, reconoce los que otorga el planeamiento. Los distractores alteran uno solo de los tres adjetivos." },
-  { id: "E32-02", tema: "E32",
-    q: "NO está sujeto a licencia urbanística conforme al art. 190.4 TRLFOTU:",
-    o: ["La demolición de construcciones fuera de los casos de ruina inminente",
-        "La primera utilización u ocupación de los edificios",
-        "La corta de arbolado que constituya masa arbórea",
-        "Las parcelaciones o divisiones de fincas incluidas en un proyecto de reparcelación"],
-    c: 3, exp: "Art. 190.4.b: las parcelaciones incluidas en un proyecto de reparcelación no requieren licencia. Tampoco las obras municipales en término propio, las órdenes de ejecución, los actos eximidos por legislación sectorial ni los sujetos a DR. Las otras tres opciones están sujetas (art. 190.2.f, h, i, k)." },
-  { id: "E32-03", tema: "E32",
-    q: "En defecto de previsión del planeamiento, el plazo para solicitar licencia de edificación en actuaciones sistemáticas es (art. 193 TRLFOTU):",
-    o: ["Un año en municipios de más de 5.000 habitantes y dos en los de menos, desde la urbanización",
-        "Seis meses en municipios de más de 5.000 habitantes",
-        "Cuatro años, duplicándose en actuaciones asistemáticas",
-        "Dos años en todos los municipios"],
-    c: 0, exp: "Art. 193: 1 año (entidades >5.000 hab) o 2 años (<5.000 hab) desde la urbanización; los plazos se DUPLICAN en actuaciones asistemáticas y pueden ampliarse por circunstancias económicas justificadas." },
-  { id: "E32-04", tema: "E32",
-    q: "Presentado el proyecto de edificación tras la concesión de la licencia, la entidad local dispone para resolver sobre su conformidad de un plazo máximo de (art. 194.6 TRLFOTU):",
-    o: ["15 días", "10 días", "Un mes", "Dos meses"],
-    c: 0, exp: "Art. 194.6: 15 días desde la presentación del proyecto de edificación (definido en el CTE), cuya presentación es condición de eficacia de la licencia concedida sobre proyecto básico. Los 2 meses son el plazo de resolución de la licencia (art. 194.7)." },
-  { id: "E32-05", tema: "E32",
-    q: "Respecto al silencio administrativo en las licencias urbanísticas, el art. 194.7 TRLFOTU establece que:",
-    o: ["Transcurridos tres meses la licencia se entiende otorgada en todo caso",
-        "El silencio es siempre negativo en materia urbanística",
-        "Transcurridos dos meses la licencia se entiende otorgada, salvo que la normativa básica estatal disponga lo contrario, y sin que puedan adquirirse facultades contra el ordenamiento urbanístico",
-        "El silencio positivo opera incluso contra el planeamiento si la Administración no resolvió en plazo"],
-    c: 2, exp: "Art. 194.7: silencio positivo a los 2 meses salvo normativa básica estatal en contra; pero son nulas de pleno derecho las licencias y facultades obtenidas por silencio contra el ordenamiento urbanístico. La opción d es la trampa: el silencio nunca ampara lo contrario a la legalidad." },
-  { id: "E32-06", tema: "E32",
-    q: "Las actuaciones sujetas a declaración responsable que se realicen sin haberla presentado se consideran (art. 195.8 TRLFOTU):",
-    o: ["Subsanables mediante presentación extemporánea sin consecuencias",
-        "Sujetas únicamente a multa coercitiva",
-        "Infracción leve en todo caso",
-        "Actuaciones sin licencia a todos los efectos"],
-    c: 3, exp: "Art. 195.8: se consideran actuaciones SIN LICENCIA a todos los efectos, aplicándoseles el mismo régimen de protección de la legalidad y sancionador que a las obras y usos sin licencia." },
-  { id: "E32-07", tema: "E32",
-    q: "Si la licencia no especifica plazo de caducidad, los plazos para la ejecución son (art. 197.6 TRLFOTU):",
-    o: ["Un año para comenzar y tres años para finalizar las obras",
-        "Seis meses para comenzar y dos años para finalizar",
-        "Dos años para comenzar y cuatro para finalizar",
-        "Un año para comenzar y cinco para finalizar"],
-    c: 0, exp: "Art. 197.6: 1 año para comenzar y 3 años para finalizar. La caducidad se declara previa audiencia de 15 días hábiles; la prórroga debe pedirse antes de 2 meses de la conclusión del plazo y habiendo transcurrido al menos su mitad; la de fin de obras exige cobertura de aguas hecha." },
-  { id: "E32-08", tema: "E32",
-    q: "Las multas coercitivas por incumplimiento de una orden de ejecución pueden imponerse (art. 198.3 TRLFOTU):",
-    o: ["Hasta seis sucesivas, por períodos de dos meses, de 300 a 3.000 €",
-        "Sin límite de número, de 600 a 6.000 €",
-        "Hasta doce sucesivas, por períodos de un mes, de 600 a 6.000 €, hasta el límite del deber legal de conservación",
-        "Hasta doce sucesivas, por períodos de un mes, de 300 a 6.000 €"],
-    c: 2, exp: "Art. 198.3: hasta 12 multas sucesivas por períodos de un mes, de 600 a 6.000 €, con el límite del deber legal de conservación; agotadas, la Administración está obligada a la ejecución subsidiaria. Mismo esquema en la reposición de la realidad física (art. 207.3)." },
-  { id: "E32-09", tema: "E32",
-    q: "Procede declarar el estado ruinoso de una construcción cuando el coste de las obras necesarias supere el (art. 199.2.a TRLFOTU):",
-    o: ["50% del valor del edificio incluido el terreno",
-        "75% del valor de reposición del edificio",
-        "50% del valor actual del edificio o plantas afectadas, excluido el valor del terreno",
-        "40% del valor catastral de la construcción"],
-    c: 2, exp: "Art. 199.2.a: coste superior al 50% del valor actual del edificio o plantas afectadas, EXCLUIDO el valor del terreno. Los otros dos supuestos: agotamiento generalizado de elementos estructurales (b) y edificio en fuera de ordenación cuyas obras no sean autorizables (c)." },
-  { id: "E32-10", tema: "E32",
-    q: "Concluidas unas obras sin licencia, la Entidad Local puede adoptar las medidas de restauración de la legalidad dentro del plazo de (art. 203 TRLFOTU):",
-    o: ["Ocho años desde la total terminación",
-        "Dos años desde la terminación",
-        "Sin límite de plazo en todo caso",
-        "Cuatro años desde la total terminación o desde la aparición de signos físicos exteriores"],
-    c: 3, exp: "Art. 203: 4 años desde la total terminación o la aparición de signos externos. Sin plazo solo en dominio público, viales, zonas verdes, espacios libres y BIC públicos; 10 años en SNU de protección privado (art. 205)." },
-  { id: "E32-11", tema: "E32",
-    q: "La acción para restaurar el orden urbanístico infringido sobre bienes de titularidad privada en suelo no urbanizable de PROTECCIÓN prescribe (art. 205.2 TRLFOTU):",
-    o: ["A los ocho años", "A los diez años", "A los cuatro años", "No prescribe nunca"],
-    c: 1, exp: "Art. 205.2: 10 años. La imprescriptibilidad (art. 205.1) se reserva a actuaciones sobre dominio público y sus servidumbres, viales, zonas verdes, espacios libres y BIC, todos de titularidad pública." },
-  { id: "E32-12", tema: "E32",
-    q: "Ordenada la paralización de unas obras, las empresas suministradoras deben interrumpir el suministro de agua o energía eléctrica en el plazo máximo de (art. 208.2 TRLFOTU):",
-    o: ["Dos días", "Diez días", "Cinco días", "24 horas"],
-    c: 2, exp: "Art. 208.2: 5 días desde la notificación de la resolución. Los 2 días son el plazo del interesado para retirar materiales y maquinaria (art. 208.3). El incumplimiento por las suministradoras es infracción leve (art. 214.12)." },
-  { id: "E32-13", tema: "E32",
-    q: "Las infracciones urbanísticas graves se sancionan con multa de (art. 218.1.b TRLFOTU):",
-    o: ["6.000 a 60.000 euros", "300 a 6.000 euros", "30.000 a 100.000 euros", "60.000 a 300.000 euros"],
-    c: 0, exp: "Art. 218.1: leves 300-6.000 €; graves 6.000-60.000 €; muy graves 60.000-300.000 €. Si el beneficio del infractor supera la sanción, esta se incrementa en la cuantía equivalente al beneficio (art. 218.2)." },
-  { id: "E32-14", tema: "E32",
-    q: "Las infracciones urbanísticas muy graves y las sanciones impuestas por ellas prescriben, respectivamente (art. 225 TRLFOTU):",
-    o: ["A los cuatro años y a los seis meses",
-        "A los diez y a los cuatro años",
-        "A los ocho y a los dos años",
-        "A los diez y a los dos años"],
-    c: 1, exp: "Art. 225: infracciones muy graves 10 años, graves 8, leves 4; sanciones muy graves 4 años, graves 2, leves 6 meses. Las parcelaciones ilegales se presumen infracciones continuadas (el cómputo arranca del último acto)." },
-  { id: "E32-15", tema: "E32",
-    q: "Para su inscripción registral, las entidades privadas colaboradoras urbanísticas deben acreditarse por ENAC conforme a la norma UNE-EN ISO/IEC 17020 (tipo A) y suscribir un seguro de responsabilidad civil de cuantía mínima de (art. 251 TRLFOTU):",
-    o: ["300.000 euros", "1.000.000 de euros", "3.000.000 de euros", "600.000 euros"],
-    c: 1, exp: "Art. 251.b: seguro de RC por cuantía mínima de 1.000.000 €. Además: un arquitecto o ingeniero y un abogado, ambos con 10 años de experiencia acreditada (251.c), y conservación de expedientes durante 7 años (art. 252.h)." },
+   {
+    "id": "E32-01",
+    "tema": "E32",
+    "q": "Conforme al artículo 190.2 del Decreto Foral Legislativo 1/2017, ¿cuál de las siguientes actuaciones está sujeta a previa licencia urbanística?",
+    "o": [
+      "La corta de arbolado que constituya masa arbórea, espacio boscoso, arbolado o parque, salvo las labores autorizadas por la legislación agraria.",
+      "La demolición de construcciones cuando se haya declarado la situación de ruina inminente.",
+      "Los movimientos de tierra que estén detallados y programados como obras a ejecutar en un proyecto de urbanización aprobado.",
+      "La primera utilización u ocupación de edificios e instalaciones, siempre que se trate de edificios de titularidad municipal."
+    ],
+    "c": 0,
+    "exp": "El artículo 190.2.k) sujeta a licencia la corta de arbolado que constituya masa arbórea, espacio boscoso, arbolado o parque, exista o no planeamiento aprobado, con excepción de las labores autorizadas por la legislación agraria. La demolición de construcciones está sujeta a licencia salvo en casos declarados de ruina inminente (art. 190.2.i). Los movimientos de tierra están sujetos a licencia salvo que estén detallados en un proyecto de urbanización o edificación aprobado (art. 190.2.g). La primera utilización u ocupación de edificios está sujeta a licencia con carácter general (art. 190.2.h)."
+  },
+  {
+    "id": "E32-02",
+    "tema": "E32",
+    "q": "En un municipio de 3.000 habitantes, ¿cuál es el plazo para solicitar licencia de edificación en actuaciones asistemáticas, en defecto de previsión en el planeamiento, conforme al artículo 193 del Decreto Foral Legislativo 1/2017?",
+    "o": [
+      "Cuatro años desde que se hubiera procedido a la urbanización conforme al artículo 104 de la ley foral.",
+      "Dos años desde que se hubiera procedido a la urbanización conforme al artículo 104 de la ley foral.",
+      "Un año desde que se hubiera procedido a la urbanización conforme al artículo 104 de la ley foral.",
+      "Dos años desde la aprobación definitiva del planeamiento que habilita la actuación."
+    ],
+    "c": 0,
+    "exp": "Según el artículo 193, en defecto de previsión en el planeamiento, el plazo para solicitud de licencia de edificación en actuaciones sistemáticas es de un año en entidades locales de más de cinco mil habitantes y de dos años en entidades de menos de esa población, desde que se hubiera procedido a la urbanización conforme al artículo 104. Los plazos se duplican en el caso de solicitud de licencia de edificación en actuaciones asistemáticas. Por tanto, en un municipio de 3.000 habitantes (menos de 5.000), el plazo para actuaciones asistemáticas es de cuatro años (2 años x 2)."
+  },
+  {
+    "id": "E32-03",
+    "tema": "E32",
+    "q": "De acuerdo con el artículo 194.7 del Decreto Foral Legislativo 1/2017, ¿cuál es el plazo máximo para resolver el procedimiento de concesión de licencias urbanísticas y qué efecto tiene el silencio administrativo?",
+    "o": [
+      "El plazo es de dos meses desde la presentación de la documentación completa en el registro general. Transcurrido dicho plazo sin comunicación, se entiende otorgada la licencia por silencio administrativo, salvo cuando la normativa básica estatal disponga lo contrario.",
+      "El plazo es de tres meses desde la presentación de la solicitud en el registro general. Transcurrido dicho plazo sin comunicación, se entiende denegada la licencia por silencio administrativo negativo.",
+      "El plazo es de dos meses desde la presentación de la documentación completa en el registro general. Transcurrido dicho plazo sin comunicación, se entiende otorgada la licencia por silencio administrativo, sin excepciones.",
+      "El plazo es de un mes desde la presentación de la documentación completa en el registro general. Transcurrido dicho plazo sin comunicación, se entiende otorgada la licencia por silencio administrativo, salvo cuando se disponga lo contrario en la normativa básica estatal."
+    ],
+    "c": 0,
+    "exp": "El artículo 194.7 establece que las licencias se resolverán en el plazo máximo de dos meses desde que se presente la documentación completa en el registro general. Transcurrido dicho plazo sin haberse comunicado acto alguno, se entenderá otorgada la licencia por silencio administrativo, salvo cuando se dispusiera lo contrario en la normativa básica estatal. Además, la obtención de licencia por silencio administrativo no podrá vulnerar lo dispuesto en las leyes, los instrumentos de ordenación territorial y los planes urbanísticos de rango superior. Las otras opciones alteran el plazo o el sentido del silencio."
+  },
+  {
+    "id": "E32-04",
+    "tema": "E32",
+    "q": "Según el artículo 197.6 del Decreto Foral Legislativo 1/2017, en el caso de que las licencias no especificaran un plazo de caducidad, ¿cuáles son los plazos mínimos para la ejecución de los actos de edificación y uso del suelo, salvo que el planeamiento prevea otros distintos?",
+    "o": [
+      "Un año para comenzar las obras y tres años para finalizarlas.",
+      "Dos años para comenzar las obras y cuatro años para finalizarlas.",
+      "Un año para comenzar las obras y dos años para finalizarlas.",
+      "Seis meses para comenzar las obras y dos años para finalizarlas."
+    ],
+    "c": 0,
+    "exp": "El artículo 197.6 establece que, en el caso de que las licencias no especificaran un plazo de caducidad, los plazos mínimos para la ejecución de los actos de edificación y uso del suelo, salvo que el planeamiento prevea otros distintos, serán: un año para comenzar las obras (letra a) y tres años para finalizar las obras (letra b). Las demás opciones modifican estos plazos sin fundamento en el texto."
+  },
+  {
+    "id": "E32-05",
+    "tema": "E32",
+    "q": "Conforme al artículo 198.3 del Decreto Foral Legislativo 1/2017, ¿cuál es el número máximo de multas coercitivas que puede imponer el Ayuntamiento para la ejecución de órdenes de ejecución, y cuál es su cuantía?",
+    "o": [
+      "Hasta doce multas sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, hasta el límite del deber legal de conservación.",
+      "Hasta diez multas sucesivas por períodos de quince días y en cuantía de 300 a 3.000 euros, sin límite alguno.",
+      "Hasta doce multas sucesivas por períodos de dos meses y en cuantía de 1.000 a 10.000 euros, hasta el límite del deber legal de conservación.",
+      "Hasta quince multas sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, sin límite alguno."
+    ],
+    "c": 0,
+    "exp": "El artículo 198.3 dispone que el incumplimiento de una orden de ejecución faculta al Ayuntamiento para proceder a su ejecución subsidiaria, o para imponer multas coercitivas, hasta doce sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, hasta el límite del deber legal de conservación. Además, transcurrido el plazo de cumplimiento voluntario derivado de la última multa coercitiva impuesta, la Administración actuante estará obligada a ejecutar subsidiariamente las obras ordenadas, con cargo al obligado."
+  },
+  {
+    "id": "E32-06",
+    "tema": "E32",
+    "q": "Según el artículo 199.2 del Decreto Foral Legislativo 1/2017, ¿en cuál de los siguientes supuestos se declarará el estado ruinoso de una construcción?",
+    "o": [
+      "Cuando el coste de las obras necesarias sea superior al 50 por 100 del valor actual del edificio o plantas afectadas, excluido el valor del terreno.",
+      "Cuando el coste de las obras necesarias sea superior al 30 por 100 del valor actual del edificio o plantas afectadas, incluido el valor del terreno.",
+      "Cuando el edificio presente un agotamiento generalizado de sus elementos estructurales, siempre que el coste de las obras sea superior al 50 por 100 del valor actual, incluido el terreno.",
+      "Cuando se requiera la realización de obras que pudieran ser autorizadas por encontrarse el edificio en situación de fuera de ordenación."
+    ],
+    "c": 0,
+    "exp": "El artículo 199.2 establece que se declarará el estado ruinoso en los siguientes supuestos: a) cuando el coste de las obras necesarias sea superior al 50 por 100 del valor actual del edificio o plantas afectadas, excluido el valor del terreno; b) cuando el edificio presente un agotamiento generalizado de sus elementos estructurales o fundamentales; y c) cuando se requiera la realización de obras que no pudieran ser autorizadas por encontrarse el edificio en situación de fuera de ordenación. La opción que menciona el 30 % incluye el terreno es incorrecta. La que exige agotamiento generalizado con coste superior al 50 % incluyendo terreno añade un requisito no previsto. La que menciona obras autorizables en fuera de ordenación invierte la condición de la letra c)."
+  },
+  {
+    "id": "E32-07",
+    "tema": "E32",
+    "q": "De acuerdo con el artículo 202 del Decreto Foral Legislativo 1/2017, cuando se estuvieran ejecutando obras o usos sin licencia o contraviniendo sus condiciones, y las obras fueran compatibles con la ordenación vigente, ¿qué debe hacer la Entidad Local?",
+    "o": [
+      "Requerir al interesado para que en el plazo señalado en el requerimiento, o en su defecto de dos meses, solicite la preceptiva licencia o su modificación.",
+      "Decretar inmediatamente la demolición de las obras por su carácter ilegal, sin posibilidad de legalización.",
+      "Requerir al interesado para que en el plazo de un mes solicite la licencia, y si no lo hace, proceder a la expropiación de los terrenos.",
+      "Suspender las obras y dar traslado al Departamento competente en ordenación del territorio para que este resuelva sobre la legalización."
+    ],
+    "c": 0,
+    "exp": "El artículo 202.b) establece que si las obras o usos fueran compatibles con la ordenación vigente, se requerirá al interesado para que en el plazo señalado en el requerimiento, o en su defecto, de dos meses, solicite la preceptiva licencia o su modificación. En caso de no proceder la legalización, se decretará la demolición, reconstrucción o cesación definitiva de la obra o del uso en la parte pertinente a costa del interesado. Las otras opciones alteran el plazo, el procedimiento o el órgano competente."
+  },
+  {
+    "id": "E32-08",
+    "tema": "E32",
+    "q": "Según el artículo 205 del Decreto Foral Legislativo 1/2017, ¿cuál es el plazo de prescripción de la acción de la Administración para restaurar el orden infringido cuando se trata de actuaciones ilegales sobre bienes de titularidad privada en suelo no urbanizable de protección?",
+    "o": [
+      "Diez años.",
+      "Cuatro años.",
+      "No está sujeta a plazo alguno de prescripción.",
+      "Cinco años."
+    ],
+    "c": 0,
+    "exp": "El artículo 205.2 establece que cuando se trate de actuaciones contrarias a la ley foral que se realicen sobre los bienes de titularidad privada en suelo no urbanizable de protección, la acción prescribirá a los diez años. La acción no está sujeta a plazo cuando se trata de bienes de dominio público, viales, zonas verdes, espacios libres o bienes de interés cultural de titularidad pública (art. 205.1). Las otras opciones no se corresponden con el supuesto preguntado."
+  },
+  {
+    "id": "E32-09",
+    "tema": "E32",
+    "q": "Conforme al artículo 207 del Decreto Foral Legislativo 1/2017, en relación con la reposición de la realidad física alterada, ¿cuál es el plazo máximo de ampliación que puede solicitar la persona obligada antes de la ejecución forzosa?",
+    "o": [
+      "Un período máximo de seis meses, sin que dicho plazo pueda ser objeto de nueva ampliación.",
+      "Un período máximo de tres meses, prorrogable por otros tres meses más.",
+      "Un período máximo de un año, sin posibilidad de nueva ampliación.",
+      "Un período máximo de seis meses, prorrogable por otros seis meses si concurren motivos justificados."
+    ],
+    "c": 0,
+    "exp": "El artículo 207.5 dispone que, en cualquier momento anterior a la ejecución forzosa de una medida de restauración adoptada, la persona obligada podrá instar la ampliación del plazo concedido, por un período máximo de seis meses, para su ejecución con indicación expresa de los motivos que la hacen necesaria. Dicho plazo no podrá ser objeto de nueva ampliación y facultará a la Administración a ordenar la ejecución forzosa de la medida de restauración. Las otras opciones modifican el plazo o añaden prórrogas no previstas."
+  },
+  {
+    "id": "E32-10",
+    "tema": "E32",
+    "q": "Según el artículo 215.20 del Decreto Foral Legislativo 1/2017, la no paralización de obras en el plazo de setenta y dos horas desde que se reciba el requerimiento suspensivo de la Administración es una infracción grave. ¿Qué consecuencia adicional se prevé a partir del tercer requerimiento incumplido?",
+    "o": [
+      "La sanción se impondrá en su grado máximo, y el cuarto requerimiento dará lugar al traslado de la conducta del desobediente al Ministerio Fiscal.",
+      "Se procederá a la expropiación forzosa de los terrenos y las obras realizadas.",
+      "Se impondrá una multa coercitiva adicional de 6.000 euros por cada día de retraso.",
+      "Se ordenará la demolición inmediata de las obras sin posibilidad de legalización posterior."
+    ],
+    "c": 0,
+    "exp": "El artículo 215.20, en su párrafo segundo, establece que a partir del tercer requerimiento incumplido, la sanción se impondrá en su grado máximo. El cuarto requerimiento dará lugar al traslado de la conducta del desobediente al Ministerio Fiscal, por si tal actitud fuera constitutiva de delito. Las otras opciones mencionan medidas no previstas específicamente para este supuesto en el precepto."
+  },
+  {
+    "id": "E32-11",
+    "tema": "E32",
+    "q": "De acuerdo con el artículo 218 del Decreto Foral Legislativo 1/2017, ¿cuál es la cuantía de las multas para las infracciones urbanísticas graves y muy graves?",
+    "o": [
+      "Las graves, de 6.000 a 60.000 euros; las muy graves, de 60.000 a 300.000 euros.",
+      "Las graves, de 3.000 a 30.000 euros; las muy graves, de 30.000 a 150.000 euros.",
+      "Las graves, de 6.000 a 60.000 euros; las muy graves, de 60.000 a 600.000 euros.",
+      "Las graves, de 10.000 a 100.000 euros; las muy graves, de 100.000 a 500.000 euros."
+    ],
+    "c": 0,
+    "exp": "El artículo 218.1 establece las siguientes cuantías: a) las leves, con multa desde 300 hasta 6.000 euros; b) las graves, con multa desde 6.000 hasta 60.000 euros; c) las muy graves, con multa desde 60.000 hasta 300.000 euros. Las otras opciones alteran los límites de las multas."
+  },
+  {
+    "id": "E32-12",
+    "tema": "E32",
+    "q": "Según el artículo 221 del Decreto Foral Legislativo 1/2017, en los supuestos de infracción por realización de actividades, construcciones o usos no legalizables, ¿en qué porcentaje se reduce la sanción y qué garantía se exige?",
+    "o": [
+      "Se reduce en un 50 por 100 si se abona el resto en un mes, se muestra conformidad renunciando a impugnar y se garantiza la restauración con un aval del 100 por 100 del importe de las obras.",
+      "Se reduce en un 30 por 100 si se abona el resto en dos meses, se muestra conformidad y se garantiza con una fianza del 50 por 100.",
+      "Se reduce en un 50 por 100 si se abona el resto en dos meses, se muestra conformidad renunciando a impugnar y se garantiza con un aval del 50 por 100.",
+      "Se reduce en un 75 por 100 si se abona el resto en un mes, se muestra conformidad y se garantiza con un aval del 100 por 100."
+    ],
+    "c": 0,
+    "exp": "El artículo 221.2 establece que, en los supuestos de infracción por realización de actividades, construcciones o usos no legalizables, la sanción se reducirá en un 50 por 100 de su cuantía cuando se cumplan los siguientes requisitos: a) se abone el resto de la multa en el plazo máximo de un mes contado a partir de la notificación de la sanción; b) el infractor muestre por escrito su conformidad con la sanción impuesta y renuncie expresamente al ejercicio de toda acción de impugnación en el referido plazo; c) el infractor se comprometa a restaurar el orden infringido a su situación inicial en los plazos que le señale la Administración y garantice este compromiso mediante aval por el 100 por 100 del importe de las obras o actuaciones necesarias. Las otras opciones confunden porcentajes, plazos o tipos de garantía con los del apartado 1 (actividades legalizables)."
+  },
+  {
+    "id": "E32-13",
+    "tema": "E32",
+    "q": "Conforme al artículo 225 del Decreto Foral Legislativo 1/2017, ¿cuál es el plazo de prescripción de las infracciones urbanísticas graves y de las sanciones impuestas por infracciones muy graves?",
+    "o": [
+      "Las infracciones graves prescriben a los ocho años; las sanciones por infracciones muy graves prescriben a los cuatro años.",
+      "Las infracciones graves prescriben a los cinco años; las sanciones por infracciones muy graves prescriben a los tres años.",
+      "Las infracciones graves prescriben a los cuatro años; las sanciones por infracciones muy graves prescriben a los dos años.",
+      "Las infracciones graves prescriben a los diez años; las sanciones por infracciones muy graves prescriben a los cinco años."
+    ],
+    "c": 0,
+    "exp": "El artículo 225.1 establece que las infracciones urbanísticas muy graves prescribirán a los diez años, las graves a los ocho y las leves a los cuatro años. El artículo 225.5 dispone que las sanciones impuestas por infracciones muy graves prescribirán a los cuatro años, las impuestas por infracciones graves a los dos y por infracciones leves a los seis meses. Las otras opciones confunden los plazos de prescripción de infracciones y sanciones."
+  },
+  {
+    "id": "E32-14",
+    "tema": "E32",
+    "q": "Según el artículo 251 del Decreto Foral Legislativo 1/2017, ¿qué requisito de acreditación y seguro debe cumplir una entidad privada colaboradora urbanística para poder inscribirse en el Registro de la Comunidad Foral de Navarra?",
+    "o": [
+      "Contar con acreditación de ENAC conforme a la norma UNE-EN ISO/IEC 17020 (entidades de tipo A) y suscribir un seguro de responsabilidad civil por cuantía mínima de 1.000.000 de euros.",
+      "Contar con acreditación de ENAC conforme a la norma UNE-EN ISO 9001 y suscribir un seguro de responsabilidad civil por cuantía mínima de 500.000 de euros.",
+      "Contar con acreditación del Departamento competente en ordenación del territorio y suscribir un seguro de responsabilidad civil por cuantía mínima de 2.000.000 de euros.",
+      "Contar con acreditación de ENAC conforme a la norma UNE-EN ISO/IEC 17020 (entidades de tipo B) y suscribir un seguro de responsabilidad civil por cuantía mínima de 1.000.000 de euros."
+    ],
+    "c": 0,
+    "exp": "El artículo 251 exige que las entidades privadas colaboradoras urbanísticas cuenten con una acreditación concedida por ENAC en cumplimiento de la norma UNE-EN ISO/IEC 17020 (entidades de tipo A) y que tengan suscrito un seguro de responsabilidad civil por cuantía mínima de 1.000.000 de euros. Las otras opciones modifican la norma de acreditación, el tipo de entidad o la cuantía del seguro."
+  },
+  {
+    "id": "E32-15",
+    "tema": "E32",
+    "q": "De acuerdo con el artículo 254.3 del Decreto Foral Legislativo 1/2017, ¿cuál de las siguientes conductas constituye una infracción grave de las entidades privadas colaboradoras urbanísticas?",
+    "o": [
+      "La expedición negligente de actas de comprobación, certificados e informes que contengan datos falsos o inexactos.",
+      "La realización de actividades y funciones sin estar previamente acreditadas e inscritas en el Registro.",
+      "La expedición dolosa de actas de comprobación, certificados e informes que no se ajusten a la realidad de los hechos.",
+      "No comunicar al ayuntamiento las infracciones urbanísticas que pudieran detectar durante sus labores de inspección."
+    ],
+    "c": 0,
+    "exp": "El artículo 254.3 tipifica como infracciones graves de las entidades privadas colaboradoras, entre otras, la expedición negligente de actas de comprobación, certificados e informes que contengan datos falsos o inexactos (letra a). La realización de actividades sin acreditación e inscripción (letra a del apartado 2) y la expedición dolosa de actas que no se ajusten a la realidad (letra e del apartado 2) y la no comunicación de infracciones urbanísticas (letra f del apartado 2) están tipificadas como infracciones muy graves."
+  },
 
   // ---------- TEMA 52 ESPECÍFICO · HISTORIA URBANÍSTICA DE PAMPLONA (E52) ----------
   { id: "E52-01", tema: "E52",
