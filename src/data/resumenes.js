@@ -8254,6 +8254,69 @@ export const RESUMENES = {
       "En Pamplona las licencias las concede la JUNTA DE GOBIERNO LOCAL (art. 127.1.e LRBRL)",
       "ICIO en Pamplona: 5 % del presupuesto, con autoliquidación previa",
     ],
+     "memorizacion": {
+  "tablas": [
+    {
+      "titulo": "Actos sujetos a licencia urbanística vs. declaración responsable o comunicación (TRLFOTU, arts. 190 y 192)",
+      "columnas": ["Tipo de acto", "Norma", "Régimen de control", "Ejemplos"],
+      "filas": [
+        ["Actos de transformación, construcción, edificación y uso del suelo y subsuelo", "Art. 190 TRLFOTU", "Licencia urbanística municipal (control previo)", "Obras de nueva planta y ampliación; obras en edificios existentes; primera utilización u ocupación; parcelaciones; demoliciones; movimientos de tierra"],
+        ["Obras y actuaciones de menor entidad o sin proyecto", "Art. 192 TRLFOTU", "Declaración responsable o comunicación previa (control posterior)", "Instalaciones de energía solar para autoconsumo (letra g, añadida por LF 4/2021); puntos de recarga de vehículos eléctricos en interior de edificaciones (letra h, añadida por LF 4/2021)"],
+        ["Actos promovidos por la Administración municipal", "Art. 191 TRLFOTU", "Procedimiento interno de aprobación (no sujeción a licencia propia)", "Obras ordinarias del Ayuntamiento"],
+        ["Obras amparadas en Plan o Proyecto Sectorial de Incidencia Supramunicipal (PSIS) de interés general", "Art. 47 TRLFOTU", "Exención de licencia y de cualquier control preventivo local", "Construcción y reparación de infraestructuras, dotaciones e instalaciones declaradas de interés general por el Gobierno de Navarra"]
+      ],
+      "nota": "TRLFOTU (DFL 1/2017), arts. 190, 191, 192 y 47. El art. 192 fue modificado por la Ley Foral 4/2021, de 22 de abril, que añadió las letras g) y h). La primera utilización u ocupación se encuadra entre los actos sujetos a licencia del art. 190."
+    },
+    {
+      "titulo": "Licencia urbanística vs. declaración responsable/comunicación (TRLFOTU)",
+      "columnas": ["Característica", "Licencia (control previo)", "Declaración responsable/comunicación (control posterior)"],
+      "filas": [
+        ["Momento de eficacia", "Requiere acto expreso de otorgamiento antes de iniciar la obra o uso", "Habilita para actuar desde su presentación con la documentación completa"],
+        ["Naturaleza del control", "La Administración comprueba la conformidad del proyecto antes de autorizar", "El interesado manifiesta bajo su responsabilidad que cumple los requisitos; el Ayuntamiento comprueba después"],
+        ["Procedimiento", "Arts. 194 y 196 TRLFOTU", "Art. 195 TRLFOTU"],
+        ["Efecto sobre la ordenación", "No puede otorgarse contra la ordenación urbanística (acto reglado)", "No legitima obras o usos contra la ordenación; el silencio nunca otorga facultades contrarias"]
+      ],
+      "nota": "TRLFOTU (DFL 1/2017), arts. 190.1, 194, 195 y 196. En Pamplona, la declaración responsable se presenta antes del inicio de las obras y se comprueba en ese momento por técnico municipal (Ordenanza de control posterior, BON 12/05/2014)."
+    },
+    {
+      "titulo": "Régimen del silencio administrativo en materia urbanística (TRLFOTU)",
+      "columnas": ["Artículo", "Regla", "Efecto"],
+      "filas": [
+        ["Art. 72.5 TRLFOTU", "No podrán adquirirse por silencio administrativo facultades o derechos que contravengan la ordenación territorial o urbanística", "Nulidad de pleno derecho de los actos así obtenidos; la Administración debe iniciar revisión de oficio"],
+        ["Art. 77.5 TRLFOTU", "La aprobación por silencio no puede vulnerar leyes ni planeamiento de rango superior", "Nulos de pleno derecho e ineficaces los derechos obtenidos por silencio contra la legislación y la ordenación territorial o urbanística"]
+      ],
+      "nota": "TRLFOTU (DFL 1/2017), arts. 72.5 y 77.5. Coherente con el art. 11 del TR de la Ley de Suelo estatal (RDLeg 7/2015). En lo no previsto, rige supletoriamente la Ley 39/2015."
+    },
+    {
+      "titulo": "Ordenanzas municipales de Pamplona aplicables a licencias y control posterior",
+      "columnas": ["Ámbito", "Norma", "Dato relevante"],
+      "filas": [
+        ["Licencias urbanísticas de obras menores", "Ordenanza Municipal Reguladora de las Licencias Urbanísticas de Obras Menores (BON 23/05/2007)", "Procedimiento abreviado con plazo de expedición de 1 mes; régimen de comunicación para obras de extrema sencillez"],
+        ["Control posterior de declaraciones responsables y comunicaciones previas", "Ordenanza Municipal Reguladora del Procedimiento de Control Posterior (BON 12/05/2014)", "La declaración responsable se presenta antes del inicio y se comprueba en ese momento por técnico municipal"],
+        ["Planeamiento", "Texto Refundido del Plan Municipal de Pamplona (BON 18/02/2008)", "Instrumento de ordenación urbanística municipal"],
+        ["Edificación", "Ordenanza General de Edificación", "Regula condiciones de la edificación"]
+      ],
+      "nota": "Pamplona no tiene una ordenanza única de licencias; el régimen está disperso. Resuelve la Concejalía Delegada del Área de Gobierno Estratégico, Urbanismo, Vivienda y Agenda 2030. El ICIO es del 5% del presupuesto de la obra (autoliquidación previa)."
+    }
+  ],
+  "datos": [
+    "La licencia urbanística es un acto administrativo de control previo, de carácter reglado y declarativo, mediante el cual la Administración autoriza actuaciones urbanísticas previa comprobación de su conformidad al ordenamiento urbanístico vigente (art. 190.1 TRLFOTU).",
+    "La competencia para otorgar licencias urbanísticas corresponde con carácter general a los municipios (art. 11 TRLFOTU).",
+    "El art. 192 TRLFOTU fue modificado por la Ley Foral 4/2021, de 22 de abril, que añadió la letra g) para instalaciones de aprovechamiento de energía solar para autoconsumo y la letra h) para puntos de recarga de vehículos eléctricos en el interior de edificaciones, con el fin de que no precisen licencia de obras municipal.",
+    "El art. 47 TRLFOTU exime de licencia y de cualquier control preventivo local las obras previstas en un Plan o Proyecto Sectorial de Incidencia Supramunicipal cuando se cumplan los requisitos de declaración de interés general por el Gobierno de Navarra, comunicación a las entidades locales, acreditación de sujeción al PSIS y autorización de ejecución por el Departamento competente.",
+    "En Pamplona, el ICIO (Impuesto sobre Construcciones, Instalaciones y Obras) es del 5% del presupuesto de la obra y se gestiona mediante autoliquidación previa.",
+    "En Pamplona, las licencias y declaraciones de actividad, apertura y primera utilización se gestionan de forma diferenciada de las de obra y se solicitan o declaran previamente al inicio de la actividad o uso del edificio.",
+    "El silencio administrativo nunca puede otorgar facultades o derechos que contravengan la ordenación territorial o urbanística; los así obtenidos son nulos de pleno derecho (arts. 72.5 y 77.5 TRLFOTU).",
+    "La declaración responsable habilita para actuar desde su presentación con la documentación completa, sin perjuicio de la comprobación posterior por la Administración (art. 195 TRLFOTU).",
+    "En Pamplona, la declaración responsable se presenta siempre con anterioridad al inicio de las obras y se comprueba en ese mismo momento por técnico municipal."
+  ],
+  "excepciones": [
+    "La apertura de actividades no se rige por el TRLFOTU (licencia urbanística), sino por la Ley Foral 4/2005, de 22 de marzo, de intervención para la protección ambiental, y su reglamento (Decreto Foral 93/2006), que canalizan la licencia de actividad clasificada y los regímenes de declaración responsable o comunicación según la incidencia ambiental.",
+    "Las obras ordinarias promovidas por la propia Administración municipal no se someten a licencia urbanística, sino a un procedimiento interno de aprobación que cumple la función de control de legalidad urbanística (art. 191 TRLFOTU).",
+    "Las obras amparadas en un Plan o Proyecto Sectorial de Incidencia Supramunicipal de interés general quedan exentas de licencia y de cualquier otro control preventivo local, siempre que se cumplan los requisitos del art. 47 TRLFOTU (declaración de interés general por el Gobierno de Navarra, comunicación a las entidades locales, acreditación ante el Departamento, autorización de ejecución, etc.).",
+    "La declaración responsable y la comunicación previa son técnicas de control posterior que habilitan desde su presentación, a diferencia de la licencia, que es un control previo que requiere acto expreso de otorgamiento antes de iniciar la actuación."
+  ]
+},
   },
 
   E36: {
