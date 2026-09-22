@@ -4680,108 +4680,201 @@ export const PREGUNTAS = [
     c: 3, exp: "El art. 56.4 de la LF 17/2020 establece que la inspección de las actividades sometidas a LAC corresponde a las entidades locales en cuyo ámbito estén ubicadas y que otorgaron la licencia, y también a los departamentos del GN que hubieran emitido informe previo a la concesión." },
 
   // ---------- TEMA 30 ESPECÍFICO · TRLFOTU III — RÉGIMEN DEL SUELO (E30) ----------
-  { id: "E30-01", tema: "E30",
-    q: "Según el art. 85.3 TRLFOTU, el límite del deber de conservación que permite al propietario de un bien catalogado recabar la cooperación de las Administraciones es:",
-    o: ["El coste íntegro de reposición del bien, incluido el valor del suelo",
-        "La mitad del valor catastral del inmueble",
-        "El 50% del valor de mercado del bien, incluido el suelo",
-        "La mitad del coste de reposición del bien, excluido el valor del suelo"],
-    c: 3, exp: "Art. 85.3 TRLFOTU: el deber de conservación se entiende hasta la mitad del coste de reposición del bien, excluido el valor del suelo. Las trampas juegan con incluir el suelo o cambiar la referencia (catastral, mercado)." },
-  { id: "E30-02", tema: "E30",
-    q: "Mientras no exista plan que lo autorice, el art. 87 TRLFOTU limita la edificación a una altura máxima de:",
-    o: ["Cuatro plantas medidas desde rasante",
-        "La media de los edificios colindantes, en todo caso",
-        "Tres plantas en cada punto del terreno",
-        "Dos plantas en cada punto del terreno"],
-    c: 2, exp: "Art. 87: sin plan, máximo 3 plantas medidas en cada punto del terreno. La media de los edificios construidos solo es autorizable por el Ayuntamiento en solares de núcleos o manzanas edificados en más de dos terceras partes." },
-  { id: "E30-03", tema: "E30",
-    q: "Para que un terreno integrado en la malla urbana sea suelo urbano por razón de la edificación existente (art. 90.1.c TRLFOTU), debe estar ocupado por la edificación en al menos:",
-    o: ["Un tercio del espacio apto para la misma",
-        "Dos terceras partes del espacio apto para la misma",
-        "Tres cuartas partes del espacio apto para la misma",
-        "La mitad del espacio apto para la misma"],
-    c: 1, exp: "Art. 90.1.c: ocupación por la edificación de al menos 2/3 del espacio apto para ella según la ordenación propuesta, aun careciendo de algún servicio. Misma fracción (2/3) que usa el art. 87 para las alturas en manzanas consolidadas." },
-  { id: "E30-04", tema: "E30",
-    q: "NO es un requisito exigido por el art. 91 TRLFOTU para que una superficie de suelo urbano tenga la consideración de solar:",
-    o: ["Alineaciones y rasantes señaladas",
-        "Calzada pavimentada y encintado de aceras en la vía a que dé frente",
-        "Acceso rodado y suministro de energía eléctrica",
-        "Red de gas canalizado y telecomunicaciones"],
-    c: 3, exp: "Art. 91: en defecto de concreción del planeamiento, bastan acceso rodado, abastecimiento de agua, evacuación de aguas y energía eléctrica, más calzada pavimentada y encintado de aceras, alineaciones y rasantes, y en su caso el reparto de cargas. Gas y telecomunicaciones no figuran." },
-  { id: "E30-05", tema: "E30",
-    q: "En la categorización del suelo no urbanizable del art. 92.2 TRLFOTU, el suelo no urbanizable de PROTECCIÓN comprende los terrenos:",
-    o: ["Únicamente los sometidos a régimen sectorial de protección",
-        "De las letras d) y e) del art. 92.1: valores apreciados por el planeamiento municipal",
-        "De las letras a), b) y c) del art. 92.1: régimen sectorial, exclusión por OT y riesgos",
-        "Todos los clasificados por el planeamiento municipal justificadamente"],
-    c: 2, exp: "Art. 92.2.a: protección = letras a (régimen especial sectorial), b (excluidos por instrumentos de OT) y c (riesgos). Las letras d y e (valores según el planeamiento municipal) integran el suelo de PRESERVACIÓN (92.2.b)." },
-  { id: "E30-06", tema: "E30",
-    q: "La ordenanza de la Cédula urbanística es de obligada aprobación (art. 94 TRLFOTU) en los Ayuntamientos de municipios de más de:",
-    o: ["Tres mil habitantes",
-        "Mil habitantes de la Comarca de Pamplona",
-        "Cinco mil habitantes",
-        "Diez mil habitantes"],
-    c: 2, exp: "Art. 94: la ordenanza deberá ser dictada por los Ayuntamientos de municipios de más de 5.000 habitantes. No confundir con el umbral de 3.000 hab (programación de unidades de ejecución, art. 142.4)." },
-  { id: "E30-07", tema: "E30",
-    q: "El aprovechamiento urbanístico materializable por los propietarios según el art. 95.3 TRLFOTU es:",
-    o: ["100% en consolidado y 90% del de la unidad de ejecución o área de reparto en no consolidado",
-        "90% en ambas categorías de suelo urbano",
-        "100% en suelo urbano consolidado y 85% en no consolidado",
-        "90% en consolidado y 100% en no consolidado"],
-    c: 0, exp: "Art. 95.3: SUC = 100% del aprovechamiento de la parcela (salvo actuaciones de dotación); SUNC = 90% del correspondiente a la unidad de ejecución o área de reparto." },
-  { id: "E30-08", tema: "E30",
-    q: "En las actuaciones de dotación, el deber de entrega del suelo correspondiente al 10% del incremento de aprovechamiento puede, con carácter excepcional y a la vista de la memoria de viabilidad (art. 96.2.a TRLFOTU):",
-    o: ["Reducirse hasta el 2% o incrementarse hasta el 20%",
-        "Solo incrementarse, nunca reducirse",
-        "Reducirse hasta un mínimo del 5% o incrementarse hasta un máximo del 15%",
-        "Suprimirse totalmente"],
-    c: 2, exp: "Art. 96.2.a: el porcentaje del 10% sobre el incremento puede reducirse hasta un mínimo del 5% o incrementarse de forma proporcionada y motivada hasta un máximo del 15%." },
-  { id: "E30-09", tema: "E30",
-    q: "Si el planeamiento no establece plazos para el cumplimiento de los deberes de cesión, equidistribución y urbanización, el plazo máximo es (art. 104.2 TRLFOTU):",
-    o: ["Ocho años desde la publicación en el BON",
-        "Diez años desde la entrada en vigor del plan",
-        "Cuatro años desde la aprobación definitiva",
-        "Seis años desde la publicación en el BON"],
-    c: 0, exp: "Art. 104.2: en defecto de plazos fijados por el plan, 8 años contados desde su publicación en el Boletín Oficial de Navarra." },
-  { id: "E30-10", tema: "E30",
-    q: "Las garantías que la Administración puede exigir para autorizar la urbanización y edificación simultáneas no podrán exceder del (art. 105 TRLFOTU):",
-    o: ["20% de la carga urbanística de la parcela o ámbito",
-        "30% de la carga urbanística de la parcela o ámbito",
-        "50% del presupuesto de las obras de urbanización",
-        "10% de la carga urbanística de la parcela o ámbito"],
-    c: 1, exp: "Art. 105: garantías pertinentes y proporcionadas que no podrán exceder del 30% de la carga urbanística. No confundir con la fianza del 20% del art. 134.6 para iniciar obras de urbanización sin gestión aprobada." },
-  { id: "E30-11", tema: "E30",
-    q: "Entre las actuaciones PERMITIDAS en suelo no urbanizable (art. 110.2 TRLFOTU) figuran las instalaciones menores para guarda de aperos o cobijo de animales domésticos que en su conjunto no superen:",
-    o: ["10 m² de superficie", "25 m² de superficie", "20 m² de superficie", "15 m² de superficie"],
-    c: 3, exp: "Art. 110.2.b: edificaciones menores de guarda de aperos o cobijo de animales domésticos de hasta 15 m² en su conjunto. También son permitidas las ampliaciones agrícolas/ganaderas preexistentes de hasta el 20% de la superficie construida." },
-  { id: "E30-12", tema: "E30",
-    q: "La superficie mínima de parcela para autorizar una vivienda unifamiliar aislada en suelo no urbanizable de preservación es (art. 115.2 TRLFOTU):",
-    o: ["10.000 m², destinando al menos el 50% a usos agrarios, pecuarios o forestales no constructivos",
-        "5.000 m², destinando al menos el 30% a usos agrarios",
-        "20.000 m², destinando la mitad a usos forestales",
-        "1.500 m², sin exigencia de uso agrario"],
-    c: 0, exp: "Art. 115.2: parcela ≥10.000 m² con al menos el 50% destinado a usos agrarios, pecuarios o forestales no constructivos. Los 1.500 m² corresponden a viviendas en barrios rurales tradicionales (art. 116.2)." },
-  { id: "E30-13", tema: "E30",
-    q: "En el procedimiento de autorización de actividades autorizables en suelo no urbanizable (art. 117 TRLFOTU), transcurridos dos meses sin que el Departamento comunique acto alguno al ayuntamiento, la autorización se entiende:",
-    o: ["Denegada",
-        "Otorgada por silencio positivo",
-        "Pendiente de subsanación",
-        "Otorgada solo si el informe municipal fue favorable"],
-    c: 0, exp: "Art. 117.1.c: transcurridos 2 meses sin comunicación, se entiende DENEGADA la autorización (silencio negativo). Trampa habitual: en licencias urbanísticas el silencio es positivo (art. 194.7); aquí es negativo." },
-  { id: "E30-14", tema: "E30",
-    q: "El Jurado de Expropiación de Navarra (art. 126 TRLFOTU) está formado por:",
-    o: ["Siete miembros, uno por cada departamento del Gobierno de Navarra",
-        "Cinco miembros designados por el Gobierno de Navarra entre personas con experiencia en valoraciones inmobiliarias",
-        "Tres miembros designados por el Parlamento de Navarra",
-        "Cinco miembros elegidos por los colegios profesionales"],
-    c: 1, exp: "Art. 126.2: 5 miembros designados por el Gobierno de Navarra entre personas con experiencia profesional en valoraciones inmobiliarias, uno de ellos Presidente, más un Secretario funcionario licenciado en Derecho. Resuelve en 4 meses; el silencio desestima." },
-  { id: "E30-15", tema: "E30",
-    q: "La aceptación por los expropiados, en el plazo concedido, del precio ofrecido por la Administración en el expediente de justiprecio les da derecho a percibir dicho precio (art. 125.3 TRLFOTU):",
-    o: ["Incrementado en el interés legal del dinero",
-        "Incrementado en un 5%",
-        "Sin incremento alguno",
-        "Incrementado en un 10%"],
-    c: 1, exp: "Art. 125.3: la aceptación del precio ofrecido por la Administración da derecho a percibirlo incrementado en un 5%. Este premio no se aplica cuando el pago se realiza mediante adjudicación de terrenos (art. 125.4)." },
+   {
+    "id": "E30-01",
+    "tema": "E30",
+    "q": "Según el artículo 87 del Título III del TRLFOTU, mientras no exista plan que lo autorice, ¿cuál es la altura máxima a la que puede edificarse, medida en cada punto del terreno?",
+    "o": [
+      "Dos plantas, sin perjuicio de las demás limitaciones aplicables.",
+      "Tres plantas, sin perjuicio de las demás limitaciones aplicables.",
+      "Cuatro plantas, siempre que la parcela tenga frente a dos calles.",
+      "La media de las alturas de los edificios ya construidos en la manzana."
+    ],
+    "c": 1,
+    "exp": "El artículo 87 LFOTU establece que, mientras no exista plan que lo autorice, no podrá edificarse con una altura superior a tres plantas medidas en cada punto del terreno, sin perjuicio de las demás limitaciones aplicables. La opción que menciona la media de alturas corresponde a la regla especial para solares enclavados en núcleos o manzanas edificados en más de dos terceras partes, que requiere autorización municipal."
+  },
+  {
+    "id": "E30-02",
+    "tema": "E30",
+    "q": "De acuerdo con el artículo 89 del Título III del TRLFOTU, en los municipios que carezcan de planeamiento que clasifique suelo, ¿qué consideración tienen los terrenos que no tengan la condición de urbanos conforme a los criterios del artículo 90?",
+    "o": [
+      "Tendrán la consideración de suelo urbanizable, a la espera de su ordenación pormenorizada.",
+      "Tendrán la consideración de suelo no urbanizable.",
+      "Tendrán la consideración de suelo urbano no consolidado, si cuentan con acceso rodado.",
+      "Quedarán como suelo rústico común hasta la aprobación del Plan General Municipal."
+    ],
+    "c": 1,
+    "exp": "El artículo 89 LFOTU dispone que, en los municipios que carezcan de planeamiento que clasifique suelo, los terrenos que no tengan la condición de urbano de conformidad con los criterios del artículo siguiente tendrán la consideración de suelo no urbanizable. Las demás alternativas introducen categorías o consecuencias no previstas en el precepto."
+  },
+  {
+    "id": "E30-03",
+    "tema": "E30",
+    "q": "Según el artículo 94 del Título III del TRLFOTU, ¿a partir de qué umbral de población están obligados los Ayuntamientos a dictar ordenanza reguladora de la Cédula urbanística?",
+    "o": [
+      "Municipios de más de 2.000 habitantes.",
+      "Municipios de más de 5.000 habitantes.",
+      "Municipios de más de 10.000 habitantes.",
+      "Todos los municipios, con independencia de su población."
+    ],
+    "c": 1,
+    "exp": "El artículo 94 LFOTU señala que los Ayuntamientos podrán crear en la correspondiente ordenanza un documento acreditativo del régimen y las condiciones urbanísticas que concurran en las fincas, denominado Cédula urbanística. En todo caso, la ordenanza deberá ser dictada por los Ayuntamientos de municipios de más de cinco mil habitantes. Las demás opciones modifican el umbral."
+  },
+  {
+    "id": "E30-04",
+    "tema": "E30",
+    "q": "Conforme al artículo 96.2.a del Título III del TRLFOTU, en las actuaciones de dotación en suelo urbano consolidado, el deber de entrega del 10 % del incremento de aprovechamiento puede cumplirse mediante sustitución por su valor en metálico. ¿Con qué finalidad se prevé esta sustitución?",
+    "o": [
+      "Únicamente para costear la parte de financiación pública prevista en la actuación.",
+      "Únicamente para integrarse en el patrimonio público de suelo, con destino preferente a actuaciones de rehabilitación o regeneración y renovación urbanas.",
+      "Para costear la parte de financiación pública que pudiera estar prevista en la actuación o para integrarse en el patrimonio público de suelo, con destino preferente a actuaciones de rehabilitación o de regeneración y renovación urbanas.",
+      "Para compensar económicamente a los propietarios de las parcelas colindantes afectadas por la nueva ordenación."
+    ],
+    "c": 2,
+    "exp": "El artículo 96.2.a LFOTU permite cumplir el deber de entrega del 10 % del incremento de aprovechamiento en actuaciones de dotación mediante sustitución por su valor en metálico, con la finalidad de costear la parte de financiación pública que pudiera estar prevista en la propia actuación o de integrarse en el patrimonio público de suelo, con destino preferente a actuaciones de rehabilitación o de regeneración y renovación urbanas. Las opciones que limitan la finalidad a uno solo de esos destinos son incompletas."
+  },
+  {
+    "id": "E30-05",
+    "tema": "E30",
+    "q": "Según el artículo 98 del Título III del TRLFOTU, entre los deberes de los propietarios de suelo urbanizable se incluye ceder obligatoria y gratuitamente el suelo necesario para la ejecución de los sistemas generales que el planeamiento general incluya o adscriba al ámbito. ¿Qué otro destino específico menciona el precepto para esa cesión de suelo?",
+    "o": [
+      "Los terrenos destinados a dotación supramunicipal para la construcción de viviendas sometidas a algún régimen de protección pública, así como a los alojamientos dotacionales regulados por la normativa vigente en materia de vivienda.",
+      "Los terrenos destinados a la ampliación del patrimonio municipal del suelo para usos industriales o terciarios.",
+      "Los terrenos destinados a equipamientos deportivos y culturales de carácter supramunicipal.",
+      "Los terrenos destinados a la construcción de infraestructuras de conexión con carreteras de titularidad foral."
+    ],
+    "c": 0,
+    "exp": "El artículo 98.b LFOTU establece que los propietarios de suelo urbanizable deben ceder obligatoria y gratuitamente el suelo necesario para la ejecución de los sistemas generales que el planeamiento general incluya o adscriba al ámbito, así como los terrenos destinados a dotación supramunicipal para la construcción de viviendas sometidas a algún régimen de protección pública, así como a los alojamientos dotacionales regulados por la normativa vigente en materia de vivienda. Las demás opciones no figuran en el precepto."
+  },
+  {
+    "id": "E30-06",
+    "tema": "E30",
+    "q": "El artículo 99.1 del Título III del TRLFOTU establece un límite a la diferencia de aprovechamiento tipo entre las diferentes áreas de reparto del mismo uso global en suelo urbano no consolidado. ¿Cuál es ese límite?",
+    "o": [
+      "No podrá ser inferior en un 10 % del más alto de las mismas.",
+      "No podrá ser inferior en un 15 % del más alto de las mismas.",
+      "No podrá ser inferior en un 20 % del más alto de las mismas.",
+      "No podrá ser inferior en un 25 % del más alto de las mismas."
+    ],
+    "c": 1,
+    "exp": "El artículo 99.1 LFOTU dispone que el aprovechamiento tipo de las diferentes áreas de reparto del mismo uso global no podrá ser inferior en un 15 % del más alto de las mismas. Las otras opciones modifican el porcentaje."
+  },
+  {
+    "id": "E30-07",
+    "tema": "E30",
+    "q": "Según el artículo 102 del Título III del TRLFOTU, el aprovechamiento de proyecto de edificación residencial se define como el producto de la superficie útil por un coeficiente. ¿Cuál es ese coeficiente?",
+    "o": [
+      "1,00",
+      "1,10",
+      "1,15",
+      "1,20"
+    ],
+    "c": 2,
+    "exp": "El artículo 102 LFOTU define el aprovechamiento de proyecto de edificación residencial o edificabilidad residencial asignado a una parcela como el producto de la superficie útil por el coeficiente de 1,15, siendo este el coeficiente de conversión de la superficie útil calculada antes y después de la utilización de técnicas constructivas encaminadas a mejorar los niveles de aislamiento termo-acústicos y de salubridad. Las demás opciones no corresponden al coeficiente legal."
+  },
+  {
+    "id": "E30-08",
+    "tema": "E30",
+    "q": "De acuerdo con el artículo 104.2 del Título III del TRLFOTU, si el instrumento de planeamiento urbanístico que establece la ordenación pormenorizada no señala plazos para el cumplimiento de los deberes de cesión, equidistribución y urbanización, ¿cuál es el plazo máximo legal y desde cuándo se computa?",
+    "o": [
+      "Cuatro años, contados desde la aprobación definitiva del instrumento de planeamiento.",
+      "Seis años, contados desde la publicación del acuerdo de aprobación en el Boletín Oficial de Navarra.",
+      "Ocho años, contados desde la publicación en el Boletín Oficial de Navarra.",
+      "Diez años, contados desde la entrada en vigor del Plan General Municipal."
+    ],
+    "c": 2,
+    "exp": "El artículo 104.2 LFOTU establece que, si no se establecieran estos plazos por el plan, el plazo máximo para el cumplimiento de los deberes de cesión, equidistribución y urbanización será de ocho años, contados desde su publicación en el Boletín Oficial de Navarra. Las otras opciones alteran el plazo o el hecho que inicia el cómputo."
+  },
+  {
+    "id": "E30-09",
+    "tema": "E30",
+    "q": "Según el artículo 110.2 del Título III del TRLFOTU, entre las actuaciones consideradas permitidas en suelo no urbanizable se encuentran las ampliaciones de instalaciones agrícolas o ganaderas preexistentes que, en su conjunto, no impliquen un aumento de un determinado porcentaje de la superficie construida, con autorización del Departamento competente en materia de ordenación del territorio y urbanismo y sin requerir nueva demanda de servicios. ¿Cuál es ese porcentaje máximo?",
+    "o": [
+      "10 %",
+      "15 %",
+      "20 %",
+      "25 %"
+    ],
+    "c": 2,
+    "exp": "El artículo 110.2.d LFOTU considera actuación permitida la ampliación de instalaciones agrícolas o ganaderas preexistentes que, en su conjunto, no impliquen un aumento del 20 % de la superficie construida, con autorización del Departamento competente en materia de ordenación del territorio y urbanismo y sin requerir nueva demanda de servicios. Las demás opciones modifican el porcentaje."
+  },
+  {
+    "id": "E30-10",
+    "tema": "E30",
+    "q": "Conforme al artículo 111.2 del Título III del TRLFOTU, para los caminos públicos y para los itinerarios de interés, como las vías pecuarias o el Camino de Santiago, que no tengan delimitada zona de servidumbre en su normativa específica, se establece una zona de servidumbre de una determinada anchura medida desde el borde exterior de dichos caminos. ¿Cuál es esa anchura?",
+    "o": [
+      "Dos metros.",
+      "Tres metros.",
+      "Cinco metros.",
+      "Diez metros."
+    ],
+    "c": 1,
+    "exp": "El artículo 111.2 LFOTU establece una zona de servidumbre de tres metros medidos desde el borde exterior de dichos caminos para los caminos públicos y para los itinerarios de interés, como las vías pecuarias o el Camino de Santiago, que no tengan delimitada zona de servidumbre en su normativa específica. Las otras opciones no corresponden a la anchura legal."
+  },
+  {
+    "id": "E30-11",
+    "tema": "E30",
+    "q": "Según el artículo 115.2 del Título III del TRLFOTU, la superficie mínima de la parcela para construir viviendas unifamiliares aisladas en suelo no urbanizable de preservación no será inferior a 10.000 metros cuadrados y deberá utilizarse, en el porcentaje que se fije reglamentariamente o por el planeamiento municipal, para actividades o usos agrarios, pecuarios o forestales no constructivos. ¿Cuál es el porcentaje mínimo que no podrá ser inferior?",
+    "o": [
+      "25 %",
+      "40 %",
+      "50 %",
+      "60 %"
+    ],
+    "c": 2,
+    "exp": "El artículo 115.2 LFOTU establece que la superficie mínima de la parcela para construir viviendas aisladas en suelo no urbanizable no será inferior a 10.000 metros cuadrados y deberá utilizarse, en el porcentaje que se fije reglamentariamente o por el planeamiento municipal, que no será inferior al 50 %, para actividades o usos agrarios, pecuarios o forestales no constructivos. Las demás opciones modifican el porcentaje mínimo."
+  },
+  {
+    "id": "E30-12",
+    "tema": "E30",
+    "q": "El artículo 117.4 del Título III del TRLFOTU establece que la ejecución o puesta en marcha de la actividad autorizada en suelo no urbanizable deberá realizarse en el plazo máximo de dos años desde que se otorgara la autorización. ¿Qué efecto tiene el transcurso de ese plazo sin ejecución?",
+    "o": [
+      "La autorización queda prorrogada automáticamente por un año más.",
+      "La autorización agota automáticamente sus efectos y deviene ineficaz.",
+      "Se impone una multa coercitiva del 10 % del presupuesto de la actividad.",
+      "El ayuntamiento debe iniciar el procedimiento de expropiación forzosa."
+    ],
+    "c": 1,
+    "exp": "El artículo 117.4 LFOTU dispone que la ejecución o puesta en marcha de la actividad deberá realizarse en el plazo máximo de dos años desde que se otorgara la autorización, transcurrido el cual esta agotará automáticamente sus efectos y devendrá ineficaz. Las demás opciones no corresponden al efecto legal previsto."
+  },
+  {
+    "id": "E30-13",
+    "tema": "E30",
+    "q": "Según el artículo 128 del Título III del TRLFOTU, en el procedimiento previo a la expropiación por incumplimiento de deberes urbanísticos, tras las alegaciones, la Administración concederá un plazo para subsanar las causas que motivaron el expediente. ¿Cuál es la duración de ese plazo?",
+    "o": [
+      "No inferior a quince días ni superior a un mes.",
+      "No inferior a un mes ni superior a dos meses.",
+      "No inferior a un mes ni superior a tres meses.",
+      "No inferior a dos meses ni superior a cuatro meses."
+    ],
+    "c": 2,
+    "exp": "El artículo 128.2 LFOTU establece que, a la vista de las alegaciones formuladas, la Administración concederá un plazo no inferior a un mes ni superior a tres para subsanar las causas que motivaron el expediente en las condiciones que se señalen. Las otras opciones alteran los límites del plazo."
+  },
+  {
+    "id": "E30-14",
+    "tema": "E30",
+    "q": "Conforme al artículo 126.5 del Título III del TRLFOTU, el Jurado de Expropiación de Navarra decidirá ejecutoriamente sobre el justo precio en el plazo máximo de cuatro meses. ¿Qué consecuencia tiene el transcurso de ese plazo sin resolución y notificación?",
+    "o": [
+      "Se entenderá estimada la solicitud contenida en las hojas de aprecio de los propietarios.",
+      "Se entenderá desestimada la solicitud contenida en las hojas de aprecio formuladas por los propietarios.",
+      "El expediente se remitirá automáticamente al Tribunal Superior de Justicia de Navarra.",
+      "El justiprecio se fijará definitivamente por el valor catastral del inmueble."
+    ],
+    "c": 1,
+    "exp": "El artículo 126.5 LFOTU dispone que el Jurado de Expropiación de Navarra decidirá ejecutoriamente sobre el justo precio que corresponda a los bienes y derechos objeto de la expropiación en el plazo máximo de cuatro meses. Transcurrido este plazo sin resolución y notificación, se entenderá desestimada la solicitud contenida en las hojas de aprecio formuladas por los propietarios. Las demás opciones no se ajustan al precepto."
+  },
+  {
+    "id": "E30-15",
+    "tema": "E30",
+    "q": "Según el artículo 113.2 del Título III del TRLFOTU, las actividades industriales o terciarias autorizables en suelo no urbanizable de preservación están sujetas al deber de adjudicación al ayuntamiento del aprovechamiento correspondiente al 10 % del incremento de valor de los terrenos afectados. ¿En qué momento debe cumplirse este deber?",
+    "o": [
+      "Con carácter previo a la solicitud de autorización ante el Departamento competente.",
+      "Una vez concedida la autorización y previo al inicio de cualquier actuación.",
+      "Simultáneamente a la finalización de las obras de urbanización.",
+      "En el momento de la inscripción de la edificación en el Registro de la Propiedad."
+    ],
+    "c": 1,
+    "exp": "El artículo 113.2 LFOTU establece que estas actuaciones estarán sujetas al deber de adjudicación al ayuntamiento del aprovechamiento correspondiente al 10 % del incremento de valor de los terrenos afectados, una vez concedida la autorización y previo al inicio de cualquier actuación. Las demás opciones sitúan el cumplimiento del deber en momentos no previstos en el precepto."
+  },
 
   // ---------- TEMA 31 ESPECÍFICO · TRLFOTU IV — EJECUCIÓN DEL PLANEAMIENTO (E31) ----------
   { id: "E31-01", tema: "E31",
