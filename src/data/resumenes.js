@@ -8073,6 +8073,80 @@ export const RESUMENES = {
       "Los instrumentos de gestión y urbanización municipales se inscriben de forma VOLUNTARIA (DA única)",
       "El decreto no se aplica a lo ya aprobado definitivamente a su entrada en vigor (DT única)",
     ],
+     "memorizacion": {
+  "tablas": [
+    {
+      "titulo": "Plazos de inscripción en el Registro de Planeamiento de Navarra (Decreto Foral 253/2019)",
+      "columnas": ["Supuesto", "Plazo", "Inicio del cómputo", "Órgano obligado"],
+      "filas": [
+        ["Instrumentos de ordenación territorial, de gestión, de urbanización y de planeamiento municipal cuya aprobación definitiva compete a la Administración de la Comunidad Foral", "No se fija plazo; inscripción de oficio", "No aplica", "Departamento competente en materia de ordenación del territorio y urbanismo"],
+        ["Instrumentos de ordenación territorial y de planeamiento municipal cuya aprobación definitiva compete al ayuntamiento", "10 días", "Desde la aprobación definitiva del instrumento", "Ayuntamiento correspondiente"],
+        ["Instrumentos promovidos por iniciativa particular aprobados por silencio administrativo", "10 días", "Desde el requerimiento de la persona responsable del registro al ayuntamiento", "Ayuntamiento correspondiente"]
+      ],
+      "nota": "Artículos 5.2.a), 5.2.b) y 5.2.c) del Decreto Foral 253/2019, de 16 de octubre. El plazo de 10 días es de carácter máximo."
+    },
+    {
+      "titulo": "Resoluciones mínimas y formatos de la documentación digital (Decreto Foral 253/2019)",
+      "columnas": ["Tipo de documentación", "Formato", "Resolución mínima", "Observaciones"],
+      "filas": [
+        ["Documentación Administrativa", "PDF", "200 ppp", "Incluida en carpeta específica"],
+        ["Documentación Escrita (Documento Técnico)", "PDF", "200 ppp", "Incluida en carpeta Documentación Escrita"],
+        ["Documentación Gráfica (Documento Técnico)", "PDF", "300 ppp", "Coordenadas geográficas de las 4 esquinas en sistema ETRS89 UTM 30N"],
+        ["Información Geográfica Vectorial", "Shapefile", "No aplica", "Cada conjunto de datos en fichero independiente; nombre precedido por CODSIUN"]
+      ],
+      "nota": "Artículos 9.2 y 10, y Anexo del Decreto Foral 253/2019. ppp = puntos por pulgada. El sistema geodésico de referencia es ETRS89 UTM huso 30 norte (EPSG:25830)."
+    },
+    {
+      "titulo": "Conjuntos de datos de información geográfica vectorial (Anexo del Decreto Foral 253/2019)",
+      "columnas": ["Nº", "Denominación del conjunto de datos", "Nombre del fichero", "Atributo identificativo principal"],
+      "filas": [
+        ["1", "Ámbito de la actuación", "CODSIUN_ambito", "CODSIUN (Número entero, 6 dígitos)"],
+        ["2", "Unidades espaciales", "CODSIUN_udespacial", "UESPACIAL (Texto, 6; formato SE-001 a SE-999)"],
+        ["3", "Clase de suelo", "CODSIUN_clase", "CLASESUELO (Suelo urbano, urbanizable, no urbanizable)"],
+        ["4", "Categorías y subcategorías de suelo no urbanizable", "CODSIUN_snu", "CATEGSNU (Protección, Preservación) y SBCATEGSNU"],
+        ["5", "Sectores de suelo urbanizable", "CODSIUN_sector", "SECTORSU (Texto, 6; formato S-001 a S-999)"],
+        ["6", "Sistemas generales", "CODSIUN_sg", "SIST_GEN (Texto, 6; formato SG-001 a SG-999)"]
+      ],
+      "nota": "Anexo del Decreto Foral 253/2019. El atributo CODSIUN del conjunto de datos 1 precede el nombre de todos los ficheros. La geometría de todos los conjuntos es poligonal, aceptando multiparte y polígonos isla."
+    },
+    {
+      "titulo": "Causas de modificación de la ficha de inscripción (Artículo 8 del Decreto Foral 253/2019)",
+      "columnas": ["Causa", "Descripción", "Iniciativa"],
+      "filas": [
+        ["Publicación en BON", "Efectiva publicación del acuerdo de aprobación y de la normativa correspondiente", "De oficio o a instancia de parte"],
+        ["Error material", "Subsanación de errores materiales advertidos en la propia inscripción", "De oficio o a instancia de parte"],
+        ["Sentencia o resolución administrativa", "Sentencias judiciales o resoluciones administrativas firmes que recaigan sobre los instrumentos", "De oficio o a instancia de parte"],
+        ["Medida cautelar", "Medidas cautelares adoptadas por jueces y tribunales que afecten a la aplicación de los instrumentos", "De oficio o a instancia de parte"],
+        ["Otros actos o resoluciones", "Cualesquiera otros actos, acuerdos y resoluciones que, a juicio de la unidad orgánica responsable, afecten a los instrumentos", "De oficio o a instancia de parte"]
+      ],
+      "nota": "Artículo 8 del Decreto Foral 253/2019. Los ayuntamientos tienen la obligación de comunicar al Registro cualquier acto o resolución posterior a la aprobación definitiva con trascendencia registral."
+    }
+  ],
+  "datos": [
+    "El Registro de Planeamiento de Navarra es un registro público, de carácter administrativo, custodiado y gestionado por el Departamento competente en materia de ordenación del territorio y urbanismo (art. 3.1 DF 253/2019).",
+    "El Registro consta de una base de datos informatizada con las fichas de inscripción de cada instrumento y de un archivo documental con copia de los documentos en soporte digital (art. 4 DF 253/2019).",
+    "La inscripción en el Registro es obligatoria para los instrumentos de ordenación territorial, de gestión y de urbanización que los desarrollen, así como para los instrumentos de planeamiento urbanístico municipal, una vez aprobados definitivamente (art. 5.1 DF 253/2019).",
+    "Cuando la documentación remitida por el ayuntamiento se encuentre completa, la unidad responsable del Registro practicará el asiento de inscripción en el plazo máximo de 30 días; transcurrido dicho plazo sin que se haya practicado, se entenderá estimada la solicitud de inscripción (art. 6.2.b) DF 253/2019).",
+    "Si del examen de la documentación se deduce ausencia o deficiencia, la unidad responsable del registro requerirá al ayuntamiento para que aporte datos o documentos en un plazo máximo de 10 días, pudiendo denegar la inscripción en caso de incumplimiento (art. 6.2.a) DF 253/2019).",
+    "Los ayuntamientos podrán, de manera voluntaria, remitir los instrumentos de gestión y de urbanización cuya aprobación definitiva les corresponda para su inscripción directa en el Registro (Disposición Adicional Única DF 253/2019).",
+    "Los instrumentos en tramitación a la entrada en vigor del decreto deberán adaptarse con carácter previo a su aprobación definitiva a las prescripciones del mismo (Disposición Transitoria Única DF 253/2019).",
+    "Los instrumentos aprobados definitivamente antes de la entrada en vigor del decreto no se ven afectados por el mismo y mantienen las inscripciones en las condiciones en que fueron practicadas (Disposición Transitoria Única DF 253/2019).",
+    "El sistema geodésico de referencia de las entidades gráficas es el ETRS89, proyección UTM huso 30 norte, codificado como EPSG:25830 (Anexo DF 253/2019).",
+    "El conjunto de datos 3 (Clase de suelo) debe completar la totalidad del ámbito del instrumento, garantizando consistencia geométrica con el conjunto 1 (art. Anexo DF 253/2019).",
+    "Los recintos o partes de recinto que deban ajustarse a las líneas del catastro oficial de Navarra deberán emplear la línea exacta de dicha capa de información y no volverá a digitalizarse; solo se podrán utilizar líneas no coincidentes con catastro en el lugar geográfico donde se produzca una segregación (Normas de elaboración, Anexo DF 253/2019).",
+    "En el conjunto de datos 1 (Ámbito de la actuación), el atributo MUNICIPIOS es de tipo texto con tamaño 255 y recoge los nombres de los municipios afectados separados por comas (Anexo DF 253/2019).",
+    "En el conjunto de datos 5 (Sectores de suelo urbanizable), el atributo EDIF_MAX es de tipo doble con precisión 2 y tamaño 19, y expresa la edificabilidad máxima como cuantía en metros cuadrados de superficie construida máxima (Anexo DF 253/2019)."
+  ],
+  "excepciones": [
+    "La inscripción de oficio por el Departamento compete a los instrumentos de ordenación del territorio, de gestión y de urbanización que los desarrollen, y a los instrumentos de planeamiento municipal cuya aprobación definitiva corresponda a la Administración de la Comunidad Foral; en cambio, para los instrumentos cuya aprobación definitiva corresponda al ayuntamiento, la inscripción se realiza a instancia de este, que debe remitir la documentación en 10 días (art. 5.2.a y b DF 253/2019).",
+    "En los instrumentos promovidos por iniciativa particular aprobados por silencio administrativo, la inscripción se realiza a instancia de las personas promotoras, y es la persona responsable del registro quien requiere al ayuntamiento para que remita la documentación en 10 días; este supuesto es distinto del de los instrumentos cuya aprobación definitiva es municipal, donde es el propio ayuntamiento quien debe remitirla (art. 5.2.c DF 253/2019).",
+    "Cuando la documentación remitida por el ayuntamiento está completa, el plazo para practicar el asiento de inscripción es de 30 días y el silencio es estimatorio; en cambio, cuando se requiere al ayuntamiento para subsanar deficiencias, el plazo es de 10 días y el incumplimiento puede dar lugar a la denegación de la inscripción (art. 6.2.a y b DF 253/2019).",
+    "La documentación administrativa y la documentación escrita deben entregarse en PDF con una resolución mínima de 200 ppp; la documentación gráfica debe entregarse en PDF con una resolución mínima de 300 ppp e incorporar las coordenadas geográficas de las 4 esquinas (art. 9.2 DF 253/2019).",
+    "Los instrumentos en tramitación a la entrada en vigor del decreto deben adaptarse con carácter previo a su aprobación definitiva; sin embargo, los instrumentos ya aprobados definitivamente a esa fecha no se ven afectados y mantienen sus inscripciones en las condiciones en que fueron practicadas (Disposición Transitoria Única DF 253/2019).",
+    "El planeamiento a desarrollar debe ajustarse a la delimitación oficial del ámbito; solo podrá haber desajuste si la nueva ordenación requiere modificar el ámbito, y únicamente en las parcelas que requieran ser segregadas o anexionadas (Criterios específicos, conjunto de datos 1, Anexo DF 253/2019).",
+    "En el conjunto de datos 4 (Categorías y subcategorías de suelo no urbanizable), los valores de CATEGSNU, SBCATEGSNU y COD_CS pueden superponerse, reflejándose bajo la forma valor 1 + valor 2 (signo más, separado por un espacio a cada lado); esta concatenación es específica de este conjunto y no se aplica a otros conjuntos de datos (Anexo DF 253/2019)."
+  ]
+},
   },
 
   E35: {
