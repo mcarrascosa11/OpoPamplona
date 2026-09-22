@@ -7852,6 +7852,128 @@ export const RESUMENES = {
       "Sin acreditar la comunicación, el NOTARIO deniega la escritura y el REGISTRO no inscribe (art. 245.7)",
       "Supletoriamente rige la LEGISLACIÓN CIVIL DE NAVARRA (art. 246)",
     ],
+     "memorizacion": {
+  "tablas": [
+    {
+      "titulo": "Patrimonios públicos del suelo: municipal vs. Banco Foral (Título VI, Cap. I)",
+      "columnas": ["Aspecto", "Patrimonio Municipal del Suelo", "Banco Foral de Suelo Público"],
+      "filas": [
+        ["Norma de referencia", "Arts. 226 a 232", "Arts. 233 a 238"],
+        ["Titularidad", "Ayuntamiento", "Administración de la Comunidad Foral de Navarra"],
+        ["Carácter", "Patrimonio separado de los demás bienes municipales (art. 226)", "Patrimonio separado dentro del Patrimonio de Navarra (art. 233.1)"],
+        ["Constitución", "Automática en todos los municipios con cesiones, expropiaciones urbanísticas y tanteo/retracto (art. 227.1)", "Obligatoria para la Administración Foral (art. 233.1)"],
+        ["Incorporación potestativa", "Bienes patrimoniales clasificados como suelo urbano o urbanizable por acuerdo plenario (art. 227.2)", "Bienes patrimoniales del Patrimonio de Navarra que se adscriban (art. 234.b)"],
+        ["Obligación adicional", "Ayuntamientos de más de 5.000 habitantes deben incluir terrenos adquiridos con dicha finalidad (art. 227.3)", "No se establece umbral de población"],
+        ["Control", "Registro del Patrimonio Municipal del Suelo e inventario separado (art. 232)", "Inventario de bienes del Patrimonio de Navarra con carácter vinculado y separado (art. 238)"]
+      ],
+      "nota": "Fuente: Decreto Foral Legislativo 1/2017, Título VI, Capítulo I, arts. 226-238. Las condiciones de incorporación automática y potestativa difieren entre ambos patrimonios."
+    },
+    {
+      "titulo": "Destino de bienes e ingresos: Patrimonio Municipal vs. Banco Foral (arts. 230 y 236)",
+      "columnas": ["Concepto", "Patrimonio Municipal del Suelo", "Banco Foral de Suelo Público"],
+      "filas": [
+        ["Destino principal de bienes", "Construcción de viviendas sujetas a algún régimen de protección pública u otros usos de interés social (art. 230.1)", "Construcción de viviendas sujetas a algún régimen de protección pública, alojamientos dotacionales u otros usos de interés social (art. 236.1)"],
+        ["Destino de ingresos por enajenación/gestión", "Conservación y ampliación del patrimonio o: obras de urbanización; sistemas generales; equipamientos; rehabilitación/renovación; gastos de realojo; compra/rehabilitación de edificios (art. 230.2)", "Conservación, gestión y ampliación, incluidos gastos de planeamiento, gestión urbanística y urbanización del art. 139 (art. 236.3)"],
+        ["Destino específico de dotación supramunicipal", "No se menciona específicamente", "Solo viviendas protegidas o alojamientos dotacionales (art. 236.2)"]
+      ],
+      "nota": "Fuente: arts. 230 y 236. El destino de los bienes del Banco Foral incluye alojamientos dotacionales, ausente en el destino del patrimonio municipal. Los ingresos del Banco Foral financian gastos de planeamiento y urbanización del art. 139."
+    },
+    {
+      "titulo": "Modos de gestión y transmisión: Patrimonio Municipal vs. Banco Foral (arts. 231 y 237)",
+      "columnas": ["Modo", "Patrimonio Municipal del Suelo", "Banco Foral de Suelo Público"],
+      "filas": [
+        ["Enajenación por concurso o subasta", "Regla general; subasta obligatoria para usos comerciales o residenciales de vivienda libre; preferente para usos industriales (art. 231.2.a)", "No se regula en el art. 237; se remite a enajenación directa a entidades sin ánimo de lucro (art. 237.1.c)"],
+        ["Enajenación directa a entidades sin ánimo de lucro", "A precio no inferior al valor de los terrenos, para viviendas protegidas (art. 231.2.b)", "A precio no inferior al valor de los terrenos, a entidades asistenciales, sociales o sindicales sin ánimo de lucro (art. 237.1.c)"],
+        ["Cesión", "A otras Administraciones, organismos o sociedades públicas, incluso gratuita e indefinida (art. 231.2.c)", "A otras Administraciones, organismos, entes instrumentales y sociedades públicas, incluso gratuita e indefinida (art. 237.1.b)"],
+        ["Derecho de superficie", "Por concurso público u otros procedimientos, con remisión al art. 237 bis (art. 231.2.d)", "Adjudicación directa a Administraciones, entes, sociedades públicas o mixtas; a cooperativas por concurso; a entidades sin ánimo de lucro (art. 237.1.d, e, f)"],
+        ["Concesión administrativa", "No se regula", "Para alojamientos dotacionales, con pliego regulador del art. 237 ter (art. 237.2)"],
+        ["Adscripción a organismos", "No se regula específicamente", "A organismos o entes instrumentales o sociedades públicas para administración, conservación, defensa y mejora (art. 237.1.a)"]
+      ],
+      "nota": "Fuente: arts. 231 y 237. El Banco Foral incorpora la concesión administrativa para alojamientos dotacionales y la adscripción a organismos, ausentes en el patrimonio municipal."
+    },
+    {
+      "titulo": "Derecho de superficie: duración y extinción (arts. 237 bis, 240)",
+      "columnas": ["Aspecto", "Regla general", "Especialidad para Banco Foral (art. 237 bis)"],
+      "filas": [
+        ["Plazo máximo", "75 años (art. 240.2)", "Hasta 99 años, prorrogable previa solicitud de ocupantes legales vinculada a mejoras (art. 237 bis.1.b)"],
+        ["Extinción por no edificar", "Si no se edifica en el plazo previsto en el acuerdo de constitución (art. 240.1)", "Se aplica la misma regla general"],
+        ["Efecto de extinción por transcurso del plazo", "La entidad superficiante hace suya la propiedad de lo edificado sin indemnización (art. 240.3)", "Se aplica la misma regla general"],
+        ["Extinción de derechos reales o personales", "La extinción del derecho de superficie provoca la de toda clase de derechos impuestos por el superficiario (art. 240.4)", "Se aplica la misma regla general"],
+        ["Reversión", "No se regula específicamente", "El acto de constitución debe prever la forma de reversión a favor de la Administración titular (art. 237 bis.1.j)"],
+        ["Formalización", "No se regula específicamente en el Cap. II", "Escritura pública e inscripción en el Registro de la Propiedad (art. 237 bis.3)"]
+      ],
+      "nota": "Fuente: arts. 237 bis y 240. La especialidad del Banco Foral permite prórroga hasta 99 años y exige previsión de reversión y formalización registral."
+    },
+    {
+      "titulo": "Derechos de tanteo y retracto: plazos y ejercicio (arts. 242-246)",
+      "columnas": ["Concepto", "Plazo", "Inicio del cómputo", "Fuente"],
+      "filas": [
+        ["Delimitación de zona: duración del derecho", "No superior a 8 años", "Desde la delimitación de la zona correspondiente", "Art. 242.3.b"],
+        ["Tanteo: plazo para ejercitar", "1 mes", "Desde la notificación fehaciente de la intención de enajenar con precio y condiciones", "Art. 245.2"],
+        ["Retracto: plazo para ejercitar", "1 mes", "Desde que la Administración tuvo conocimiento de la enajenación", "Art. 245.3"],
+        ["Retracto: enajenación sin ajustarse a precios/condiciones notificados", "1 mes", "Desde el conocimiento de la enajenación", "Art. 245.3"],
+        ["Liquidación del precio por la Administración", "3 meses", "Desde el ejercicio del derecho de tanteo o retracto", "Art. 245.4"],
+        ["Cumplimiento de la finalidad de la adquisición", "2 años", "Desde el ejercicio del derecho", "Art. 245.6"]
+      ],
+      "nota": "Fuente: arts. 242-246. El plazo de 8 años es para la delimitación de la zona; el tanteo y retracto tienen plazos de 1 mes. La liquidación es de 3 meses y el cumplimiento de la finalidad de 2 años."
+    },
+    {
+      "titulo": "Tanteo y retracto: precio en viviendas protegidas y permutas (arts. 243-244)",
+      "columnas": ["Supuesto", "Regla", "Condición", "Fuente"],
+      "filas": [
+        ["Tanteo/retracto sobre suelo destinado a viviendas protegidas", "La Administración Foral y los municipios tienen derecho", "En todos los supuestos de transmisión por compraventa o permuta", "Art. 243.1"],
+        ["Precio superior al máximo legal de vivienda protegida", "La Administración ejerce tanteo/retracto por el precio máximo legalmente establecido", "Cuando el precio de compraventa o estimación de permuta supere el máximo fijado por la legislación de VPO", "Art. 243.2"],
+        ["Permuta de terrenos por edificación a construir", "La Administración asume el compromiso de entregar las edificaciones o parte de ellas", "En las mismas condiciones pactadas entre las partes", "Art. 244"]
+      ],
+      "nota": "Fuente: arts. 243 y 244. El precio máximo legal opera como límite en el ejercicio del derecho sobre suelo destinado a viviendas protegidas."
+    }
+  ],
+  "datos": [
+    "El patrimonio municipal del suelo es un patrimonio separado vinculado a regular el mercado de terrenos, obtener reservas de suelo y facilitar la ejecución del planeamiento (art. 226).",
+    "Integran automáticamente el patrimonio municipal del suelo los bienes por cesiones (terrenos o metálico), expropiaciones urbanísticas de cualquier clase y los procedentes del ejercicio de tanteo y retracto (art. 227.1).",
+    "Los Ayuntamientos de más de 5.000 habitantes deben incluir en su patrimonio público de suelo los terrenos adquiridos con dicha finalidad (art. 227.3).",
+    "Los Planes Generales Municipales pueden establecer reservas de terreno sobre suelo no urbanizable de preservación para su incorporación al patrimonio público de suelo (art. 229.1).",
+    "El establecimiento o delimitación de reservas de suelo implica declaración de utilidad pública y necesidad de expropiación a efectos expropiatorios (art. 229.2).",
+    "El Banco Foral de Suelo Público constituye un patrimonio separado dentro del Patrimonio de Navarra (art. 233.1).",
+    "El Banco Foral puede colaborar con municipios y otras entidades públicas no territoriales o instrumentales para facilitarles adquisición o disponibilidad de terrenos (art. 233.2).",
+    "Integran el Banco Foral los terrenos de titularidad pública de la Administración Foral adquiridos por expropiación o cualquier otro procedimiento, bienes patrimoniales adscritos, terrenos por cesión para dotación supramunicipal e ingresos por gestión, enajenación o gravamen (art. 234).",
+    "La Administración Foral puede establecer reservas de suelo en suelo no urbanizable para constituir o ampliar el Banco Foral mediante instrumentos de planeamiento territorial (art. 235.2).",
+    "Los bienes del Banco Foral obtenidos como dotación supramunicipal (art. 55.6) se destinan únicamente a viviendas protegidas o alojamientos dotacionales (art. 236.2).",
+    "El acto de constitución del derecho de superficie sobre bienes del Banco Foral destinados a viviendas protegidas debe contener, entre otros, duración máxima, título oneroso o gratuito, número de viviendas, régimen y calificación, precio máximo mensual de alquiler o venta, plazo máximo de ejecución, obligaciones de control y auditoría, régimen de infracciones y penalidades y forma de reversión (art. 237 bis.1).",
+    "La duración máxima del derecho de superficie sobre bienes del Banco Foral es de 99 años, prorrogable previa solicitud de los ocupantes legales vinculada al compromiso de realizar mejoras que justifiquen la prolongación de la vida útil (art. 237 bis.1.b).",
+    "El pliego regulador de la concesión administrativa sobre bienes del Banco Foral destinados a alojamientos dotacionales debe incluir, al menos: bienes objeto, obras e instalaciones, duración máxima (no superior a 99 años), canon, régimen interior de uso, destino al término del plazo y cualesquiera otros necesarios (art. 237 ter).",
+    "El derecho de superficie se extingue si no se edifica en el plazo previsto en el acuerdo de constitución (art. 240.1).",
+    "El plazo del derecho de superficie no puede exceder de 75 años, sin perjuicio de la especialidad del art. 237 bis para el Banco Foral (art. 240.2).",
+    "Extinguido el derecho de superficie por transcurso del plazo, la entidad superficiante hace suya la propiedad de lo edificado sin indemnización alguna (art. 240.3).",
+    "La extinción del derecho de superficie por decurso del término provoca la de toda clase de derechos reales o personales impuestos por el superficiario (art. 240.4).",
+    "El Gobierno de Navarra y los Ayuntamientos pueden delimitar zonas en planeamiento territorial y urbanístico donde las transmisiones por compraventa o permuta estén sometidas a tanteo y retracto a favor de la Administración Foral y de los Ayuntamientos (art. 242.1).",
+    "La delimitación de zonas por procedimiento alternativo exige: aprobación inicial por orden foral, información pública de un mes y audiencia a entidades locales, informe de la Comisión de Ordenación del Territorio y aprobación por decreto foral (art. 242.2).",
+    "La delimitación debe especificar la delimitación geográfica, el plazo de ejercicio del derecho (no superior a 8 años) y la finalidad de los suelos o edificaciones (art. 242.3).",
+    "Aprobada la delimitación, deben realizarse ante los Registros de la Propiedad las gestiones necesarias para asegurar el cumplimiento de las obligaciones de notificación (art. 242.4).",
+    "La aprobación de la delimitación implica declaración de utilidad pública a efectos expropiatorios (art. 242.5).",
+    "En zonas delimitadas, todo propietario con intención de transmitir debe comunicar fehacientemente a la Administración autora el precio, condiciones de pago e identidad del adquirente (art. 245.1).",
+    "El plazo para ejercitar el tanteo es de un mes desde la notificación fehaciente de la intención de enajenar con precio y condiciones (art. 245.2).",
+    "Transcurrido el mes sin notificación del acuerdo de adquirir, se puede efectuar la enajenación libremente (art. 245.2).",
+    "El retracto se puede ejercitar en el plazo de un mes desde que la Administración tuvo conocimiento de la enajenación, también cuando la enajenación no se ajustó a precios y condiciones notificados (art. 245.3).",
+    "La Administración dispone de tres meses desde el ejercicio del tanteo o retracto para hacer efectiva la liquidación de la cantidad a satisfacer (art. 245.4).",
+    "Transcurrido el plazo de tres meses sin liquidar, caduca el derecho de tanteo o retracto a favor de la Administración (art. 245.4).",
+    "El pago del precio en tanteo y retracto será en metálico, salvo que transmitente y Administración convengan otra forma (art. 245.5).",
+    "Cuando la Administración ejercite tanteo o retracto debe cumplir la finalidad que motivó la adquisición en el plazo de dos años desde el ejercicio del derecho (art. 245.6).",
+    "Los notarios denegarán la formalización en escritura pública de transmisiones en zonas delimitadas cuando no se acredite la existencia de la comunicación a las Administraciones (art. 245.7).",
+    "Las escrituras de compraventa o permuta de terrenos o edificaciones afectadas por tanteo o retracto no tendrán acceso al Registro de la Propiedad si no aparece fehacientemente acreditado el cumplimiento de las obligaciones de comunicación (art. 245.7).",
+    "En los aspectos no contemplados en la ley foral, los derechos administrativos de tanteo y retracto se rigen por las prescripciones de la legislación civil de Navarra (art. 246)."
+  ],
+  "excepciones": [
+    "En el patrimonio municipal del suelo, la enajenación se realiza ordinariamente por concurso o subasta; sin embargo, cuando el destino sea usos comerciales o residenciales de vivienda libre, la enajenación se realizará por subasta pública, y se aplicará preferentemente la subasta cuando los bienes se destinen a usos industriales (art. 231.2.a).",
+    "En el patrimonio municipal del suelo, si no se produce adjudicación en la subasta o se declara desierto el concurso, podrá acordarse excepcionalmente la enajenación directa, siempre que se celebre en las mismas condiciones y por precio no inferior al de licitación (art. 231.2.a).",
+    "El plazo máximo del derecho de superficie es de 75 años con carácter general (art. 240.2); no obstante, sobre bienes del Banco Foral de Suelo Público, la duración máxima es de 99 años, prorrogable previa solicitud de los ocupantes legales vinculada a mejoras (art. 237 bis.1.b).",
+    "La extinción del derecho de superficie por transcurso del plazo no genera indemnización a favor del superficiario (art. 240.3); sin embargo, el acto de constitución sobre bienes del Banco Foral debe prever la forma de ejecución de la reversión a favor de la Administración titular (art. 237 bis.1.j).",
+    "En el tanteo y retracto sobre suelo destinado a viviendas protegidas, cuando el precio de compraventa o la estimación de permuta supere el máximo fijado por la legislación de VPO, la Administración ejercita el derecho por el precio máximo legalmente establecido, no por el precio pactado (art. 243.2).",
+    "En el caso de permuta de terrenos y edificaciones por edificación o parte de ella a construir, el ejercicio del tanteo y retracto consiste en la asunción por la Administración del compromiso de entregar las edificaciones a construir o parte de ellas en las mismas condiciones pactadas entre las partes (art. 244).",
+    "La Administración dispone de tres meses desde el ejercicio del tanteo o retracto para hacer efectiva la liquidación; transcurrido dicho plazo, caduca el derecho a su favor (art. 245.4).",
+    "El pago del precio en tanteo y retracto será en metálico, salvo que el transmitente y la Administración convengan mutuamente otra forma (art. 245.5)."
+  ]
+},
   },
 
   E34: {
