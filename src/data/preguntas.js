@@ -6445,7 +6445,7 @@ export const PREGUNTAS = [
   },
    
     // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) (E29) ----------
-  [
+  
   {
     "id": "E29-01",
     "tema": "E29",
@@ -6640,8 +6640,7 @@ export const PREGUNTAS = [
     ],
     "c": 2,
     "exp": "Las determinaciones de la Estrategia Territorial de Navarra tienen carácter orientativo (art. 31.3 LFOTU). Constituyen criterios, directrices y guías de actuación de carácter no vinculante, informadores de las pautas que el Gobierno de Navarra considera adecuadas para la actuación territorial y urbanística de los poderes públicos (art. 29.1.c)."
-  }
-],
+  },
    
   // ---------- TEMA 33 ESPECÍFICO · LFOTU VI, MERCADO DEL SUELO (E33) ----------
   { id: "E33-01", tema: "E33",
