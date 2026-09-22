@@ -6937,105 +6937,201 @@ export const PREGUNTAS = [
   },
    
   // ---------- TEMA 33 ESPECÍFICO · LFOTU VI, MERCADO DEL SUELO (E33) ----------
-  { id: "E33-01", tema: "E33",
-    q: "Conforme al art. 226 del DFL 1/2017, el patrimonio municipal del suelo se define como:",
-    o: ["Un registro administrativo de los terrenos de titularidad municipal destinados a vivienda protegida",
-        "Un patrimonio separado de los demás bienes de titularidad municipal, vinculado a regular el mercado de terrenos, obtener reservas de suelo para actuaciones de iniciativa pública y facilitar la ejecución del planeamiento",
-        "El conjunto de terrenos calificados por el planeamiento para vivienda de protección oficial",
-        "Un conjunto de bienes integrado en el patrimonio general del municipio, sin régimen singular"],
-    c: 1, exp: "Art. 226. La nota de patrimonio SEPARADO es la que explica las exigencias del art. 232: inventario con carácter vinculado y separado, registro propio y contabilidad diferenciada." },
-  { id: "E33-02", tema: "E33",
-    q: "¿Cuál de los siguientes bienes integra AUTOMÁTICAMENTE el patrimonio municipal del suelo en todos los municipios (art. 227.1)?",
-    o: ["Los bienes patrimoniales clasificados como suelo urbano cuya inclusión acuerde el Pleno",
-        "Los terrenos obtenidos por cesión para la dotación supramunicipal",
-        "Los terrenos adquiridos con esa finalidad por municipios de más de cinco mil habitantes",
-        "Los bienes obtenidos como consecuencia de cesiones, ya sea en terrenos o en metálico, y de expropiaciones urbanísticas de cualquier clase"],
-    c: 3, exp: "Art. 227.1, que incluye además lo procedente del ejercicio del derecho de tanteo y retracto. La primera opción es incorporación potestativa por acuerdo plenario (227.2) y la tercera, obligatoria pero solo en municipios de más de 5.000 habitantes (227.3). La cuarta corresponde al Banco Foral (art. 234.c)." },
-  { id: "E33-03", tema: "E33",
-    q: "Las reservas de terreno para su incorporación al patrimonio público de suelo previstas en el art. 229 se establecen por los Planes Generales Municipales sobre suelo clasificado como:",
-    o: ["Cualquier clase de suelo, sin restricción",
-        "No urbanizable de preservación",
-        "Urbano no consolidado",
-        "Urbanizable sectorizado"],
-    c: 1, exp: "Art. 229.1. En su defecto o insuficiencia, los Ayuntamientos pueden establecerlas por el procedimiento de delimitación de unidades de ejecución. Su establecimiento implica la declaración de utilidad pública y la necesidad de expropiación (229.2)." },
-  { id: "E33-04", tema: "E33",
-    q: "Cuando los bienes del patrimonio municipal del suelo se destinen a usos comerciales o residenciales de VIVIENDA LIBRE, su enajenación (art. 231.2.a):",
-    o: ["Está prohibida, por ser incompatible con el destino del patrimonio",
-        "Se realizará por enajenación directa, previa valoración técnica",
-        "Se realizará por concurso, para poder valorar criterios sociales",
-        "Se realizará por subasta pública"],
-    c: 3, exp: "Art. 231.2.a. La regla ordinaria es concurso o subasta, pero para usos comerciales y de vivienda libre la subasta pública es obligatoria; también se aplica preferentemente en usos industriales. Es la garantía de que el suelo público no se coloque a medida." },
-  { id: "E33-05", tema: "E33",
-    q: "Declarada desierta la subasta de un bien del patrimonio municipal del suelo, el art. 231.2.a permite:",
-    o: ["Acordar excepcionalmente la enajenación directa, en las mismas condiciones y por precio no inferior al que fue objeto de licitación",
-        "Ceder gratuitamente el bien a cualquier entidad sin ánimo de lucro",
-        "Reclasificar el bien como patrimonial ordinario y venderlo libremente",
-        "Acordar la enajenación directa con una rebaja de hasta el 20 % del tipo de licitación"],
-    c: 0, exp: "Art. 231.2.a, párrafo final. El precio y las condiciones quedan blindados: la enajenación directa no puede ser una vía para abaratar lo que no se adjudicó en licitación." },
-  { id: "E33-06", tema: "E33",
-    q: "El art. 232 impone tres exigencias de control sobre el Patrimonio Municipal del Suelo. ¿Cuál de las siguientes NO figura entre ellas?",
-    o: ["Documentación contable expresa y diferenciada mediante técnicas de contabilidad y presupuestación públicas",
-        "Creación de un Registro del Patrimonio Municipal del Suelo con entradas y salidas justificadas",
-        "Autorización previa del Gobierno de Navarra para cada enajenación",
-        "Gestión separada del resto de bienes, indicándolo en el inventario"],
-    c: 2, exp: "Art. 232. El control autonómico sobre el patrimonio local existe en materia de bienes (art. 138 LF 6/1990), pero no es una de las tres exigencias que este artículo impone al patrimonio municipal del suelo." },
-  { id: "E33-07", tema: "E33",
-    q: "Respecto del Banco Foral de Suelo Público, el art. 233 establece que la Administración de la Comunidad Foral:",
-    o: ["Podrá constituirlo si lo estima conveniente para intervenir en el mercado del suelo",
-        "Lo constituirá únicamente cuando los municipios se lo soliciten",
-        "Deberá constituirlo, mantenerlo y gestionarlo, constituyendo un patrimonio separado dentro del Patrimonio de Navarra",
-        "Lo gestionará conjuntamente con los ayuntamientos mediante convenio obligatorio"],
-    c: 2, exp: "Art. 233.1. Su constitución es obligatoria y su naturaleza, la de patrimonio separado, igual que en el municipal. Puede además colaborar con los municipios para facilitarles la adquisición o disponibilidad de terrenos (233.2)." },
-  { id: "E33-08", tema: "E33",
-    q: "Los bienes obtenidos por el Banco Foral de Suelo Público en concepto de dotación supramunicipal del art. 55.6 de la LFOTU se destinarán (art. 236.2):",
-    o: ["Preferentemente a equipamiento comunitario y, en su defecto, a vivienda protegida",
-        "A cualquier uso público, previa justificación en el expediente",
-        "Únicamente a la construcción de viviendas sometidas a algún régimen de protección pública o a alojamientos dotacionales",
-        "A vivienda protegida, alojamientos dotacionales u otros usos de interés social, indistintamente"],
-    c: 2, exp: "Art. 236.2. Es un destino más estrecho que el general del 236.1, que sí incluye 'otros usos de interés social'. La dotación supramunicipal nace con una finalidad residencial protegida y no admite la válvula del interés social." },
-  { id: "E33-09", tema: "E33",
-    q: "Los bienes del Banco Foral de Suelo Público calificados como equipamientos comunitarios con destino a alojamientos dotacionales (art. 237.2):",
-    o: ["Se gestionan de forma directa por la Administración de la Comunidad Foral, pudiendo ser objeto de concesión administrativa para su construcción y explotación",
-        "Se gestionan mediante derecho de superficie adjudicado por concurso público",
-        "Se enajenan directamente a entidades sin ánimo de lucro",
-        "Se ceden obligatoriamente a los ayuntamientos en cuyo término radiquen"],
-    c: 0, exp: "Art. 237.2, en relación con el art. 237 ter, que fija el contenido mínimo del pliego regulador de esa concesión, cuya duración no puede superar los 99 años." },
-  { id: "E33-10", tema: "E33",
-    q: "Conforme al art. 240.2 del DFL 1/2017, el plazo del derecho de superficie constituido por las Administraciones navarras no podrá exceder de:",
-    o: ["Cien años", "Noventa y nueve años", "Cincuenta años", "Setenta y cinco años"],
-    c: 3, exp: "Art. 240.2: setenta y cinco años, frente a los noventa y nueve del art. 53.2 del TRLSRU estatal. La única excepción es la prórroga hasta 99 años del art. 237 bis para los bienes del Banco Foral, vinculada al compromiso de mejoras de los ocupantes legales." },
-  { id: "E33-11", tema: "E33",
-    q: "Extinguido el derecho de superficie por transcurso del plazo, el art. 240.3 dispone que la entidad superficiante:",
-    o: ["Deberá ofrecer al superficiario la adquisición del suelo por su valor urbanístico",
-        "Hará suya la propiedad de lo edificado sin deber satisfacer indemnización alguna, cualquiera que sea el título por el que se constituyó",
-        "Mantendrá la copropiedad de lo edificado con el superficiario",
-        "Deberá indemnizar al superficiario por el valor residual de lo edificado"],
-    c: 1, exp: "Art. 240.3, coincidente con el art. 54.5 del TRLSRU. La extinción por decurso del término provoca además la de toda clase de derechos reales o personales impuestos por el superficiario (240.4)." },
-  { id: "E33-12", tema: "E33",
-    q: "La delimitación de zonas sujetas a los derechos de tanteo y retracto debe especificar el plazo durante el que podrán ejercitarse, que no podrá ser superior a (art. 242.3.b):",
-    o: ["Ocho años", "Cuatro años", "Diez años", "Seis años"],
-    c: 0, exp: "Art. 242.3.b, contados desde la delimitación de la zona. La delimitación debe especificar además el ámbito geográfico con referencia a calles, sectores o parcelas catastrales, y la finalidad a la que vayan a destinarse los suelos o edificaciones." },
-  { id: "E33-13", tema: "E33",
-    q: "Sobre suelo destinado por el planeamiento a la construcción de viviendas sujetas a algún régimen de protección pública, los derechos de tanteo y retracto (art. 243):",
-    o: ["Existen en todos los supuestos de transmisión por compraventa o permuta, sin necesidad de delimitación previa",
-        "Solo pueden ejercerse cuando el precio sea inferior al máximo legal de VPO",
-        "Solo existen si el suelo está incluido en una zona previamente delimitada al efecto",
-        "Corresponden únicamente a la Administración de la Comunidad Foral"],
-    c: 0, exp: "Art. 243.1: es un supuesto legal directo, sin delimitación. Y si el precio pactado supera el máximo fijado por la legislación de VPO, la Administración ejercita el derecho POR EL PRECIO MÁXIMO LEGALMENTE ESTABLECIDO (243.2)." },
-  { id: "E33-14", tema: "E33",
-    q: "Ejercitado el derecho de tanteo o de retracto, la Administración dispone de un plazo para hacer efectiva la liquidación de la cantidad a satisfacer. Ese plazo y su consecuencia son (art. 245.4):",
-    o: ["Un mes; transcurrido, el derecho se prorroga automáticamente",
-        "Tres meses; transcurrido dicho plazo, caduca el derecho de tanteo o retracto a su favor",
-        "Dos años; coincidente con el plazo para cumplir la finalidad de la adquisición",
-        "Seis meses; transcurrido, debe indemnizarse al transmitente"],
-    c: 1, exp: "Art. 245.4. No confundir con los dos años del art. 245.6, que es el plazo en que la Administración debe cumplir la finalidad que motivó la adquisición, ni con el mes para ejercer el tanteo desde la notificación fehaciente (245.2)." },
-  { id: "E33-15", tema: "E33",
-    q: "En las zonas delimitadas conforme al Capítulo III, si no se acredita la comunicación previa a la Administración, el art. 245.7 establece que:",
-    o: ["El adquirente responde solidariamente del pago del justiprecio",
-        "La transmisión es válida, sin más consecuencia que una sanción administrativa al transmitente",
-        "Los notarios denegarán la formalización en escritura pública y las escrituras no tendrán acceso al Registro de la Propiedad",
-        "La Administración podrá expropiar los terrenos por el precio de la transmisión"],
-    c: 2, exp: "Art. 245.7. Es el cierre notarial y registral que hace efectivo todo el sistema: sin comunicación no hay escritura ni inscripción. En lo no previsto, estos derechos se rigen por la legislación civil de Navarra (art. 246)." },
+   {
+    "id": "E33-01",
+    "tema": "E33",
+    "q": "El patrimonio municipal del suelo se configura como un patrimonio separado de los demás bienes de titularidad municipal. ¿A cuál de las siguientes finalidades está vinculado según el artículo 226 del Decreto Foral Legislativo 1/2017?",
+    "o": [
+      "Regular el mercado de terrenos, obtener reservas de suelo para actuaciones de iniciativa pública y facilitar la ejecución del planeamiento.",
+      "Financiar exclusivamente la construcción de viviendas de protección oficial y equipamientos deportivos municipales.",
+      "Garantizar la reserva de suelo para usos industriales y comerciales que impulsen el desarrollo económico local.",
+      "Constituir una reserva patrimonial para hacer frente a expropiaciones urbanísticas derivadas de sistemas generales."
+    ],
+    "c": 0,
+    "exp": "El artículo 226 vincula el patrimonio municipal del suelo a regular el mercado de terrenos, obtener reservas de suelo para actuaciones de iniciativa pública y facilitar la ejecución del planeamiento. Las demás alternativas limitan o desvían esa finalidad a otros destinos no previstos en dicho precepto."
+  },
+  {
+    "id": "E33-02",
+    "tema": "E33",
+    "q": "¿Qué bienes integran automáticamente el patrimonio municipal del suelo en todos los municipios, conforme al artículo 227.1?",
+    "o": [
+      "Los bienes obtenidos por cesiones en terrenos o metálico, las expropiaciones urbanísticas de cualquier clase y los procedentes del ejercicio del derecho de tanteo y retracto.",
+      "Los bienes patrimoniales clasificados por el planeamiento como suelo urbano o urbanizable y los adquiridos por compraventa directa.",
+      "Los terrenos adquiridos mediante expropiación para sistemas generales y los procedentes de la disolución de juntas de compensación.",
+      "Los bienes inmuebles de titularidad municipal no afectados a uso público y los ingresos por multas urbanísticas."
+    ],
+    "c": 0,
+    "exp": "El artículo 227.1 establece la integración automática de los bienes por cesiones (terrenos o metálico), expropiaciones urbanísticas de cualquier clase y los procedentes del ejercicio de tanteo y retracto. Las demás opciones no se corresponden con la integración automática regulada en dicho precepto."
+  },
+  {
+    "id": "E33-03",
+    "tema": "E33",
+    "q": "En relación con la incorporación de bienes al patrimonio municipal del suelo, ¿qué obligación específica impone el artículo 227.3 a los Ayuntamientos de más de cinco mil habitantes?",
+    "o": [
+      "Deberán incluir en su patrimonio público de suelo los terrenos que se adquieran con dicha finalidad, de conformidad con los artículos siguientes.",
+      "Deberán destinar al menos el 30 % de los ingresos municipales ordinarios a la adquisición de suelo para vivienda protegida.",
+      "Deberán constituir un registro contable separado exclusivamente para los bienes adquiridos por expropiación urbanística.",
+      "Deberán ceder obligatoriamente al Banco Foral de Suelo Público los terrenos no urbanizables de preservación."
+    ],
+    "c": 0,
+    "exp": "El artículo 227.3 impone a los Ayuntamientos de más de 5.000 habitantes la obligación de incluir en su patrimonio público de suelo los terrenos adquiridos con dicha finalidad. Las demás alternativas añaden obligaciones no previstas en dicho apartado."
+  },
+  {
+    "id": "E33-04",
+    "tema": "E33",
+    "q": "El artículo 229.2 establece que el establecimiento o delimitación de reservas de suelo para su incorporación al patrimonio público de suelo implica:",
+    "o": [
+      "La declaración de utilidad pública y la necesidad de expropiación a efectos expropiatorios.",
+      "La declaración de interés social y la autorización previa del Gobierno de Navarra para cualquier adquisición.",
+      "La sujeción al derecho de tanteo y retracto a favor de la Administración de la Comunidad Foral.",
+      "La desafectación automática del suelo no urbanizable de preservación y su clasificación como urbanizable."
+    ],
+    "c": 0,
+    "exp": "El artículo 229.2 dispone que el establecimiento o delimitación de estas reservas implica la declaración de utilidad pública y la necesidad de expropiación a efectos expropiatorios. Las demás alternativas no se corresponden con el efecto jurídico señalado en dicho precepto."
+  },
+  {
+    "id": "E33-05",
+    "tema": "E33",
+    "q": "Según el artículo 230.1, los bienes del patrimonio municipal del suelo, una vez incorporados al proceso de urbanización y edificación, deberán ser destinados a:",
+    "o": [
+      "La construcción de viviendas sujetas a algún régimen de protección pública o a otros usos de interés social.",
+      "La construcción de viviendas de lujo y equipamientos comerciales que garanticen la rentabilidad municipal.",
+      "La creación de reservas de suelo para futuras ampliaciones del cementerio y zonas verdes.",
+      "La edificación de sedes administrativas municipales y aparcamientos de rotación."
+    ],
+    "c": 0,
+    "exp": "El artículo 230.1 destina los bienes del patrimonio municipal del suelo, una vez incorporados al proceso de urbanización y edificación, a la construcción de viviendas sujetas a algún régimen de protección pública o a otros usos de interés social. Las demás alternativas no coinciden con el destino legalmente previsto."
+  },
+  {
+    "id": "E33-06",
+    "tema": "E33",
+    "q": "El artículo 230.2 enumera los destinos de los ingresos obtenidos mediante enajenación de terrenos y sustitución del aprovechamiento. ¿Cuál de los siguientes NO se incluye entre las finalidades de dichos ingresos?",
+    "o": [
+      "La construcción de viviendas libres para su venta en el mercado.",
+      "Las obras de urbanización.",
+      "La obtención y ejecución de sistemas generales.",
+      "La compra y/o rehabilitación de edificios para vivienda protegida o equipamiento público."
+    ],
+    "c": 0,
+    "exp": "El artículo 230.2 no incluye entre las finalidades de los ingresos la construcción de viviendas libres para su venta. Sí incluye obras de urbanización, obtención y ejecución de sistemas generales, y compra y/o rehabilitación de edificios para vivienda protegida o equipamiento público."
+  },
+  {
+    "id": "E33-07",
+    "tema": "E33",
+    "q": "En relación con la enajenación de bienes del patrimonio municipal del suelo, el artículo 231.2.a establece que cuando el destino de los bienes sea el de usos comerciales o residenciales de vivienda libre, la enajenación se realizará:",
+    "o": [
+      "Por subasta pública.",
+      "Por concurso público.",
+      "Mediante enajenación directa a entidades sin ánimo de lucro.",
+      "Mediante cesión gratuita a otras Administraciones Públicas."
+    ],
+    "c": 0,
+    "exp": "El artículo 231.2.a establece que cuando el destino de los bienes sea usos comerciales o residenciales de vivienda libre, la enajenación se realizará por subasta pública. Las demás alternativas corresponden a otros supuestos o modos de transmisión regulados en el mismo precepto."
+  },
+  {
+    "id": "E33-08",
+    "tema": "E33",
+    "q": "El Banco Foral de Suelo Público se configura como un patrimonio separado dentro del Patrimonio de Navarra. ¿Cuál de las siguientes afirmaciones sobre su constitución es correcta según el artículo 233?",
+    "o": [
+      "La Administración de la Comunidad Foral deberá constituir, mantener y gestionar su propio patrimonio de suelo con la finalidad de intervenir en el mercado del suelo.",
+      "La constitución del Banco Foral es potestativa para la Administración Foral y solo obligatoria si lo aprueba el Parlamento de Navarra.",
+      "El Banco Foral se integra en el patrimonio municipal del suelo de Pamplona como entidad gestora única.",
+      "El Banco Foral solo podrá constituirse cuando exista un convenio previo con todos los municipios afectados."
+    ],
+    "c": 0,
+    "exp": "El artículo 233.1 establece que la Administración de la Comunidad Foral deberá constituir, mantener y gestionar su propio patrimonio de suelo, denominado Banco Foral de Suelo Público, con la finalidad de intervenir en el mercado del suelo. Las demás alternativas contradicen el carácter obligatorio y la titularidad foral del Banco."
+  },
+  {
+    "id": "E33-09",
+    "tema": "E33",
+    "q": "El artículo 234 enumera los bienes y recursos que integran el Banco Foral de Suelo Público. ¿Cuál de los siguientes NO se incluye en dicha enumeración?",
+    "o": [
+      "Los terrenos de titularidad privada adquiridos por los municipios para su incorporación al Banco Foral.",
+      "Los terrenos de titularidad pública de la Administración de la Comunidad Foral adquiridos por expropiación o cualquier otro procedimiento.",
+      "Los bienes patrimoniales del Patrimonio de Navarra que se adscriban al Banco Foral.",
+      "Los ingresos obtenidos por la gestión, enajenación o actos de gravamen a título oneroso sobre los bienes del Banco."
+    ],
+    "c": 0,
+    "exp": "El artículo 234 no incluye los terrenos de titularidad privada adquiridos por los municipios. Sí incluye los terrenos de titularidad pública de la Administración Foral, los bienes patrimoniales del Patrimonio de Navarra que se adscriban y los ingresos por gestión, enajenación o gravamen."
+  },
+  {
+    "id": "E33-10",
+    "tema": "E33",
+    "q": "Según el artículo 236.2, los bienes obtenidos en concepto de dotación supramunicipal prevista en el artículo 55.6 se destinarán únicamente a:",
+    "o": [
+      "La construcción de viviendas sometidas a algún régimen de protección pública o alojamientos dotacionales regulados por la normativa vigente en materia de vivienda.",
+      "La construcción de equipamientos comunitarios de carácter cultural y deportivo.",
+      "La ampliación del patrimonio municipal del suelo del municipio donde se ubiquen.",
+      "La financiación de obras de urbanización de sistemas generales de interés supramunicipal."
+    ],
+    "c": 0,
+    "exp": "El artículo 236.2 limita el destino de los bienes obtenidos como dotación supramunicipal a la construcción de viviendas sometidas a algún régimen de protección pública o alojamientos dotacionales. Las demás alternativas amplían o desvían ese destino específico."
+  },
+  {
+    "id": "E33-11",
+    "tema": "E33",
+    "q": "El artículo 237.2 establece que los bienes integrantes del Banco Foral de Suelo Público calificados como equipamientos comunitarios con destino a alojamientos dotacionales se gestionarán:",
+    "o": [
+      "De forma directa por la Administración de la Comunidad Foral de Navarra, pudiendo ser objeto de concesión administrativa a favor de terceros para su construcción y explotación.",
+      "Mediante enajenación directa a entidades de carácter asistencial sin ánimo de lucro.",
+      "A través de sociedades de capital mixto dedicadas a la gestión de viviendas protegidas.",
+      "Por adscripción a los organismos o entes instrumentales dependientes de la Administración Foral."
+    ],
+    "c": 0,
+    "exp": "El artículo 237.2 dispone que estos bienes se gestionan de forma directa por la Administración de la Comunidad Foral, pudiendo ser objeto de concesión administrativa a favor de terceros para su construcción y explotación en los términos del artículo 237 ter. Las demás alternativas corresponden a otros modos de gestión regulados en el artículo 237.1."
+  },
+  {
+    "id": "E33-12",
+    "tema": "E33",
+    "q": "Conforme al artículo 237 bis.1, el acto de constitución del derecho de superficie sobre bienes del Banco Foral de Suelo Público destinados a la construcción de viviendas protegidas deberá contener, entre otros aspectos, la duración máxima del derecho. ¿Cuál es el plazo máximo previsto y su posible prórroga?",
+    "o": [
+      "Hasta 99 años, prorrogable previa solicitud de los ocupantes legales vinculada al compromiso de realizar mejoras en la edificación.",
+      "Hasta 75 años, prorrogable automáticamente por periodos de 10 años hasta un máximo de 120 años.",
+      "Hasta 50 años, prorrogable por acuerdo del Gobierno de Navarra sin intervención de los ocupantes.",
+      "Hasta 99 años, sin posibilidad de prórroga alguna una vez transcurrido dicho plazo."
+    ],
+    "c": 0,
+    "exp": "El artículo 237 bis.1.b prevé una duración máxima de 99 años, prorrogable previa solicitud de los ocupantes legales formulada antes del vencimiento y vinculada al compromiso de realizar mejoras que justifiquen la prolongación de la vida útil. Las demás alternativas modifican el plazo o las condiciones de prórroga."
+  },
+  {
+    "id": "E33-13",
+    "tema": "E33",
+    "q": "El artículo 240.3 regula el efecto de la extinción del derecho de superficie por haber transcurrido el plazo. Según dicho precepto, la entidad superficiante:",
+    "o": [
+      "Hará suya la propiedad de lo edificado, sin que deba satisfacer indemnización alguna cualquiera que sea el título en virtud del cual se hubiere constituido el derecho.",
+      "Deberá abonar al superficiario el valor residual de lo edificado según tasación pericial contradictoria.",
+      "Perderá la propiedad del suelo a favor del superficiario, que la consolidará sin contraprestación.",
+      "Deberá sacar a subasta pública la edificación resultante antes de incorporarla a su patrimonio."
+    ],
+    "c": 0,
+    "exp": "El artículo 240.3 establece que, cuando se extinga el derecho de superficie por haber transcurrido el plazo, la entidad superficiante hará suya la propiedad de lo edificado, sin que deba satisfacer indemnización alguna cualquiera que sea el título en virtud del cual se hubiere constituido aquel derecho. Las demás alternativas contradicen el efecto legal previsto."
+  },
+  {
+    "id": "E33-14",
+    "tema": "E33",
+    "q": "En relación con la delimitación de zonas para el ejercicio del derecho de tanteo y retracto, el artículo 242.2 establece un procedimiento alternativo al planeamiento. ¿Cuál es la secuencia correcta de dicho procedimiento?",
+    "o": [
+      "Aprobación inicial por orden foral, información pública durante un mes y audiencia de las entidades locales afectadas, informe de la Comisión de Ordenación del Territorio y aprobación mediante decreto foral del Gobierno de Navarra.",
+      "Aprobación inicial por acuerdo plenario municipal, información pública durante dos meses, informe del Consejo de Urbanismo y aprobación por orden foral.",
+      "Aprobación definitiva por decreto foral, información pública durante un mes y audiencia a los propietarios afectados, con informe preceptivo del Parlamento de Navarra.",
+      "Aprobación inicial por la Comisión de Ordenación del Territorio, audiencia municipal durante quince días, información pública durante dos meses y aprobación por ley foral."
+    ],
+    "c": 0,
+    "exp": "El artículo 242.2 establece la secuencia: aprobación inicial por orden foral del titular del Departamento competente, información pública durante un mes y audiencia de las entidades locales afectadas, informe de la Comisión de Ordenación del Territorio sobre las alegaciones presentadas y aprobación mediante decreto foral del Gobierno de Navarra. Las demás alternativas alteran el orden, los plazos o los órganos competentes."
+  },
+  {
+    "id": "E33-15",
+    "tema": "E33",
+    "q": "El artículo 245 regula el modo de ejercicio de los derechos de tanteo y retracto. ¿Cuál de las siguientes afirmaciones es INCORRECTA según dicho precepto?",
+    "o": [
+      "El plazo para el ejercicio del retracto, cuando la enajenación se hubiese realizado sin ajustarse a los precios y condiciones notificados, es de tres meses desde el conocimiento de la enajenación.",
+      "Todo propietario de terrenos no edificados o de edificaciones con intención de transmitir está obligado a comunicar fehacientemente a la Administración autora de la delimitación el precio, las condiciones de pago y la identidad del adquirente.",
+      "El plazo para el ejercicio del tanteo es de un mes desde la notificación en forma fehaciente de la intención de enajenar con indicación del precio y demás condiciones.",
+      "La Administración dispone de un plazo de tres meses desde el ejercicio del derecho de tanteo o retracto para hacer efectiva la liquidación de la cantidad a satisfacer."
+    ],
+    "c": 0,
+    "exp": "El artículo 245.3 establece que el retracto se podrá ejercitar en el plazo de un mes, no de tres meses, desde que la Administración tuvo conocimiento de la enajenación, incluso cuando la enajenación no se ajustó a los precios y condiciones notificados. Las demás afirmaciones son correctas conforme al artículo 245: la obligación de comunicación fehaciente (art. 245.1), el plazo de un mes para el tanteo (art. 245.2) y el plazo de tres meses para la liquidación (art. 245.4)."
+  },
 
   // ---------- TEMA 34 ESPECÍFICO · DF 253/2019 REGISTRO DE PLANEAMIENTO (E34) ----------
   { id: "E34-01", tema: "E34",
