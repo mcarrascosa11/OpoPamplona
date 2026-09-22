@@ -6649,6 +6649,115 @@ export const RESUMENES = {
       "Sancionador: 6+6 meses; caducidad y posible reinicio (art. 224)",
       "Entidades colaboradoras: ENAC 17020 tipo A; RC ≥1 M€; técnico y abogado con 10 años; expedientes 7 años",
     ],
+     "memorizacion": {
+  "tablas": [
+    {
+      "titulo": "Instrumento exigible para la ejecución según clase de suelo (Título IV, Cap. I)",
+      "columnas": ["Clase de suelo", "Instrumento mínimo exigible", "Condición"],
+      "filas": [
+        ["Suelo urbano", "Plan General Municipal", "Si contiene ordenación pormenorizada"],
+        ["Suelo urbano", "Plan Especial de Actuación Urbana o Estudio de Detalle", "En defecto de ordenación pormenorizada en el Plan General"],
+        ["Suelo urbanizable", "Plan General Municipal", "Si contiene ordenación pormenorizada propia de un Plan Parcial"],
+        ["Suelo urbanizable", "Plan Parcial del respectivo Sector", "En defecto de ordenación pormenorizada en el Plan General"],
+        ["Sistemas generales", "Ejecución directa o Plan Especial", "No requiere instrumento de desarrollo previo"]
+      ],
+      "nota": "Art. 131 del Decreto Foral Legislativo 1/2017. La ejecución requiere la aprobación definitiva del instrumento más detallado exigible según la clase de suelo."
+    },
+    {
+      "titulo": "Sistemas de actuación: clasificación y caracteres (Título IV, Cap. II)",
+      "columnas": ["Tipo", "Sistema", "Quién ejecuta", "Instrumento clave"],
+      "filas": [
+        ["Privado", "Compensación", "Propietarios (Junta de Compensación)", "Estatutos + Proyecto de Reparcelación"],
+        ["Privado", "Reparcelación voluntaria", "Todos los propietarios de común acuerdo", "Proyecto de Reparcelación (por unanimidad)"],
+        ["Privado", "Agente Urbanizador", "Agente seleccionado en concurrencia", "Programa de Actuación Urbanizadora"],
+        ["Público", "Cooperación", "Administración (con aportación de suelo por propietarios)", "Proyecto de Reparcelación formulado por Ayuntamiento o >35% propietarios"],
+        ["Público", "Ejecución forzosa", "Comisión Gestora", "Acuerdo de aplicación + Proyecto de Reparcelación"],
+        ["Público", "Expropiación", "Administración actuante", "Relación de propietarios + tasación conjunta o individualizada"]
+      ],
+      "nota": "Arts. 157 a 186. Los sistemas privados exigen garantías ante la Administración. En los públicos, la Administración asume la ejecución con cargo a los propietarios."
+    },
+    {
+      "titulo": "Plazos en el sistema de ejecución forzosa (Título IV, Cap. II, Sección 3ª, Subsección 2ª)",
+      "columnas": ["Supuesto", "Plazo", "Hecho que inicia el cómputo", "Consecuencia"],
+      "filas": [
+        ["No presentar proyecto de Estatutos de la Junta de Compensación", "6 meses", "Aprobación definitiva del Plan o plazo que este establezca", "Puede acordarse ejecución forzosa a instancia de propietarios con ≥25% de superficie"],
+        ["No constituirse la Junta de Compensación", "3 meses", "Aprobación definitiva de los Estatutos", "Puede acordarse ejecución forzosa a instancia de propietarios con ≥25% de superficie"],
+        ["No presentar el Proyecto de Reparcelación", "6 meses", "Constitución de la Junta de Compensación", "Puede acordarse ejecución forzosa a instancia de propietarios con ≥25% de superficie"],
+        ["Notificación a propietarios para adhesión a la gestión", "15 días (prorrogable por otro igual)", "Notificación del acuerdo de iniciación del sistema", "Manifestación de voluntad de incorporarse a la gestión"]
+      ],
+      "nota": "Art. 178. La ejecución forzosa se acuerda a instancia de propietarios que representen al menos el 25% de la superficie total de la unidad de ejecución."
+    },
+    {
+      "titulo": "Derechos de realojo y retorno según tipo de actuación (Art. 140)",
+      "columnas": ["Tipo de actuación", "Titular del derecho", "Obligado", "Condición"],
+      "filas": [
+        ["Expropiación", "Ocupantes legales con residencia habitual", "Administración expropiante o beneficiario", "Viviendas conforme a necesidades y normativa de VPO; gastos de traslado a cargo del obligado"],
+        ["Sistemas distintos de expropiación", "Ocupantes legales con residencia habitual", "Administración actuante", "No tienen derecho si, en correspondencia con su aportación de terrenos, resultan adjudicatarios de aprovechamientos residenciales superiores a los fijados para VPO"],
+        ["Actuaciones asistemáticas sin expropiación", "Ocupantes legales en régimen de alquiler con residencia habitual", "Propietario de las viviendas", "Derecho de retorno regulado en legislación de arrendamientos y alojamiento provisional en condiciones adecuadas"]
+      ],
+      "nota": "Art. 140. Los gastos de traslado y accesorios se computan como gastos de la actuación urbanística en los sistemas distintos de expropiación."
+    },
+    {
+      "titulo": "Exenciones fiscales en transmisiones derivadas de la ejecución (Art. 159)",
+      "columnas": ["Impuesto", "Exención", "Condición"],
+      "filas": [
+        ["Transmisiones Patrimoniales y Actos Jurídicos Documentados", "Exención con carácter permanente", "Transmisiones o adjudicaciones en favor de propietarios de la unidad de ejecución, en proporción a sus derechos, y cumpliendo requisitos urbanísticos"],
+        ["Incremento del Valor de los Terrenos de Naturaleza Urbana", "No se consideran transmisiones de dominio", "Mismas condiciones que la exención anterior"]
+      ],
+      "nota": "Art. 159. Si el valor de los solares adjudicados excede del que proporcionalmente corresponde a los terrenos aportados, se giran liquidaciones por el exceso."
+    },
+    {
+      "titulo": "Garantías exigidas en distintos sistemas de actuación (Título IV, Cap. II)",
+      "columnas": ["Supuesto", "Garantía", "Cuantía / Condición"],
+      "filas": [
+        ["Proyecto de Urbanización ejecutado antes de aprobar instrumentos de gestión", "Fianza reglamentaria", "20% del costo de la urbanización + conformidad expresa de propietarios registrales"],
+        ["Programa de Actuación Urbanizadora (Agente Urbanizador)", "Garantía provisional", "2% del importe previsto de las obras de urbanización"],
+        ["Sistema de compensación", "Garantías ante la Administración", "Las que establezca el Ayuntamiento en la aprobación inicial del Proyecto de Reparcelación"],
+        ["Sistema de reparcelación voluntaria", "Garantías ante la Administración", "Las que establezca el Ayuntamiento en la aprobación inicial del Proyecto de Reparcelación"]
+      ],
+      "nota": "Arts. 134.6, 167.1, 168.1 y 174.2. Las garantías buscan asegurar la correcta ejecución de la actuación."
+    }
+  ],
+  "datos": [
+    "La ejecución del planeamiento requiere la aprobación definitiva del instrumento más detallado exigible según la clase de suelo (Art. 131.1).",
+    "En suelo urbano, si el Plan General contiene ordenación pormenorizada, es suficiente para ejecutar; en su defecto, se precisa Plan Especial de Actuación Urbana o Estudio de Detalle (Art. 131.2).",
+    "En suelo urbanizable, si el Plan General contiene ordenación pormenorizada propia de un Plan Parcial, es suficiente; en su defecto, se precisa Plan Parcial del Sector (Art. 131.3).",
+    "La ejecución de sistemas generales se lleva a cabo directamente o mediante Planes Especiales (Art. 131.4).",
+    "La competencia para ejecutar los planes corresponde a los Ayuntamientos, sin perjuicio de organismos o sociedades instrumentales y de la participación de particulares (Art. 132.1).",
+    "Corresponde al titular del Departamento competente en ordenación del territorio y urbanismo tramitar y, en su caso, aprobar documentos de gestión urbanística cuando se trate de actuaciones públicas promovidas por la Administración de la Comunidad Foral de Navarra o sus organismos o sociedades instrumentales (Art. 132.2).",
+    "Las unidades de ejecución en municipios de más de 3.000 habitantes (o que prevean alcanzar dicha población) y en municipios de más de 1.000 habitantes de la Comarca de Pamplona deben establecer plazos para su ejecución en la programación del plan; en el resto de municipios es potestativo (Art. 142.4).",
+    "La modificación de las unidades de ejecución delimitadas por el planeamiento se acuerda por el Ayuntamiento conforme al procedimiento del artículo 74 para Estudios de Detalle (Art. 143.2).",
+    "Si tras delimitar una unidad de ejecución se justifica su inviabilidad económica por cargas excesivas, el Ayuntamiento debe modificarla o autorizar una reducción de la contribución de los propietarios o una compensación a cargo de la Administración (Art. 144.2).",
+    "Se considera parcelación urbanística toda división o segregación de terrenos en dos o más lotes cuando tenga por finalidad permitir o facilitar actos de edificación o uso del suelo sometidos a licencia urbanística (Art. 145.2).",
+    "En ningún caso se consideran solares ni se permite edificar en los lotes resultantes de una parcelación ilegal (Art. 148.2).",
+    "Las licencias de parcelación y las declaraciones de innecesariedad se someten al régimen de licencias urbanísticas, pero el silencio administrativo siempre se entiende denegatorio (Art. 148.4).",
+    "La reparcelación exige la aplicación de los sistemas de actuación, salvo que resulte suficientemente equitativa la distribución de beneficios y cargas (Art. 149.3).",
+    "En la reparcelación, si la cuantía de los derechos de algunos propietarios no alcanza el 15% de la parcela mínima edificable, la adjudicación puede sustituirse por una indemnización en metálico (Art. 150.6).",
+    "No serán objeto de nueva adjudicación los terrenos edificados conforme al planeamiento, conservándose las propiedades primitivas (Art. 150.8.a).",
+    "En unidades de ejecución de gran magnitud sin mayoría de propietarios favorable a urbanizar en una sola fase, los proyectos de reparcelación y urbanización pueden establecer fases (Art. 151.1).",
+    "La aprobación definitiva del Proyecto de Reparcelación faculta a la Administración para la ocupación directa de terrenos necesarios para la ejecución de la urbanización y servicios comunes de cesión obligatoria y gratuita (Art. 133.4).",
+    "En el sistema de compensación, los propietarios que representen más del 35% de la superficie de la unidad de ejecución deben presentar el proyecto de Estatutos de la Junta de Compensación (Art. 162.1).",
+    "La aprobación definitiva de los Estatutos implica la incorporación automática de todos los propietarios al sistema de compensación (Art. 162.3).",
+    "En la Junta de Compensación, un representante de la Administración actuante forma parte del órgano rector en todo caso (Art. 165.3).",
+    "En el sistema del Agente Urbanizador, el Programa de Actuación Urbanizadora debe abarcar una o varias unidades de ejecución completas (Art. 172.2).",
+    "En el sistema de cooperación, la Administración puede exigir a los propietarios el pago de cantidades a cuenta de los gastos de urbanización por el importe correspondiente a las inversiones a realizar en los seis meses siguientes (Art. 176.1).",
+    "En el sistema de ejecución forzosa, la Comisión gestora se compone por representantes, a partes iguales, de los propietarios y de la Administración (Art. 179.2).",
+    "En el sistema de expropiación, la expropiación se aplica por unidades de ejecución completas y comprende todos los bienes y derechos incluidos en las mismas (Art. 185.2).",
+    "La ocupación directa para obtener terrenos dotacionales requiere la previa determinación por el Ayuntamiento del aprovechamiento subjetivo del titular y de la unidad de ejecución excedentaria donde se hará efectivo (Art. 189.1).",
+    "Transcurridos cuatro años desde la ocupación directa sin que se apruebe definitivamente el instrumento de redistribución de la unidad de ejecución, los propietarios afectados pueden solicitar al Ayuntamiento el inicio del expediente de justiprecio (Art. 189.4)."
+  ],
+  "excepciones": [
+    "Regla general: en suelo urbano consolidado, las obras aisladas previstas por el planeamiento se realizan mediante Proyectos de Obras Ordinarias. Excepción: las actuaciones asistemáticas pueden ser realizadas directamente por los propietarios previa licencia urbanística que recoja las condiciones del artículo 96.1 (Arts. 135.1 y 138.2).",
+    "Regla general: la aprobación definitiva del Proyecto de Reparcelación conlleva el levantamiento de la suspensión de licencias. Excepción: la suspensión se mantiene si no se ha producido dicha aprobación definitiva; los peticionarios de licencias suspendidas tienen derecho a indemnización por el coste oficial de los proyectos y devolución de tasas (Art. 152.2 y 152.3).",
+    "Regla general: en la reparcelación, el derecho de los propietarios es proporcional a la superficie de las parcelas. Excepción: los propietarios pueden adoptar por unanimidad otros criterios diferentes (Art. 150, párrafo introductorio).",
+    "Regla general: los terrenos con edificación no ajustada al planeamiento no se adjudican de nuevo. Excepción: cuando la diferencia entre el aprovechamiento que le corresponde conforme al plan y el que le correspondería en proporción a su derecho sea inferior al 15%, se conserva la propiedad primitiva (Art. 150.8.b).",
+    "Regla general: en la parcelación urbanística se exige licencia o aprobación de Proyecto de Reparcelación. Excepción: las parcelaciones rústicas solo requieren declaración previa de innecesariedad de licencia, y las operaciones de concentración parcelaria están exceptuadas de tal declaración (Art. 148.3).",
+    "Regla general: el silencio administrativo en licencias urbanísticas se rige por la ley foral. Excepción: en licencias de parcelación y declaraciones de innecesariedad, el silencio siempre se entiende denegatorio (Art. 148.4).",
+    "Regla general: en el sistema de compensación, todos los propietarios se incorporan automáticamente a la Junta tras la aprobación definitiva de los Estatutos. Excepción: los propietarios que no deseen participar pueden solicitar la expropiación de sus bienes y derechos antes de la aprobación inicial del Proyecto de Reparcelación, quedando excluidos (Art. 163).",
+    "Regla general: el Agente Urbanizador es responsable de los daños causados a propietarios o terceros por su actividad. Excepción: no será responsable cuando los daños tengan su origen en una orden directa de la Administración actuante o en el cumplimiento de una condición impuesta por ella (Art. 173.7).",
+    "Regla general: en el sistema de expropiación, la Administración obtiene todos los terrenos y ejecuta las obras. Excepción: los órganos expropiantes pueden liberar de la expropiación determinados bienes, imponiendo condiciones y garantías, quedando el liberado sujeto a los deberes urbanísticos básicos (Art. 186.1 y 186.2)."
+  ]
+},
   },
   E52: {
     intro:
