@@ -4877,106 +4877,202 @@ export const PREGUNTAS = [
   },
 
   // ---------- TEMA 31 ESPECÍFICO · TRLFOTU IV — EJECUCIÓN DEL PLANEAMIENTO (E31) ----------
-  { id: "E31-01", tema: "E31",
-    q: "Según el art. 134 TRLFOTU, los Proyectos de Urbanización:",
-    o: ["No pueden contener determinaciones sobre ordenación ni régimen del suelo y de la edificación",
-        "Sustituyen al Plan Parcial en sectores de escasa entidad",
-        "Pueden modificar las previsiones del planeamiento que desarrollan si lo justifican",
-        "Establecen la ordenación pormenorizada de las unidades de ejecución"],
-    c: 0, exp: "Art. 134.1: son proyectos de obras; no pueden contener determinaciones sobre ordenación ni régimen del suelo, ni modificar el planeamiento (solo adaptaciones exigidas por la ejecución material). Se tramitan como los Estudios de Detalle." },
-  { id: "E31-02", tema: "E31",
-    q: "Para iniciar las obras de urbanización antes de la aprobación definitiva de los instrumentos de gestión, el promotor del Proyecto de Urbanización debe (art. 134.6 TRLFOTU):",
-    o: ["Prestar fianza del 10% del coste de la urbanización",
-        "Obtener autorización del Departamento competente en OT y urbanismo",
-        "Prestar aval del 30% de la carga urbanística",
-        "Prestar fianza del 20% del coste de la urbanización y contar con la conformidad expresa de los propietarios registrales afectados"],
-    c: 3, exp: "Art. 134.6: fianza reglamentaria del 20% del costo de la urbanización + conformidad expresa de los propietarios registrales. No confundir con el 30% del art. 105 (urbanización y edificación simultáneas) ni el 2% del art. 174 (garantía provisional del agente urbanizador)." },
-  { id: "E31-03", tema: "E31",
-    q: "La programación de plazos de ejecución de las Unidades de Ejecución es obligatoria (art. 142.4 TRLFOTU) en:",
-    o: ["Municipios de más de 3.000 habitantes o cuyo planeamiento prevea alcanzarlos, y de más de 1.000 en la Comarca de Pamplona",
-        "Únicamente en Pamplona y su Comarca",
-        "Municipios de más de 5.000 habitantes",
-        "Todos los municipios de Navarra"],
-    c: 0, exp: "Art. 142.4: obligatoria en municipios >3.000 hab (o que prevean alcanzar esa población) y en los de >1.000 hab de la Comarca de Pamplona; potestativa en el resto." },
-  { id: "E31-04", tema: "E31",
-    q: "En las licencias de parcelación y en las declaraciones de innecesariedad de licencia, el silencio administrativo (art. 148.4 TRLFOTU):",
-    o: ["Es positivo salvo en suelo no urbanizable",
-        "Se entenderá siempre denegatorio de la solicitud",
-        "Depende de lo que establezca la ordenanza municipal",
-        "Es positivo, como regla general de las licencias urbanísticas"],
-    c: 1, exp: "Art. 148.4: el silencio siempre se entiende DENEGATORIO en parcelaciones. Es la excepción a la regla del silencio positivo de las licencias del art. 194.7 — pareja de trampa clásica." },
-  { id: "E31-05", tema: "E31",
-    q: "En la reparcelación, cuando la cuantía de los derechos de un propietario no alcanza determinado porcentaje de la parcela mínima edificable, la adjudicación puede sustituirse por indemnización en metálico. Ese porcentaje es (art. 150.6 TRLFOTU):",
-    o: ["El 25%", "El 20%", "El 10%", "El 15%"],
-    c: 3, exp: "Art. 150.6: si los derechos no alcanzan el 15% de la parcela mínima edificable, la adjudicación puede sustituirse por indemnización en metálico. El 15% aparece también en el art. 150.8.b (no readjudicación) y en la normalización de fincas (art. 155.2)." },
-  { id: "E31-06", tema: "E31",
-    q: "La reparcelación económica procede cuando no es posible la reparcelación material de los terrenos en un porcentaje superior al (art. 154.1 TRLFOTU):",
-    o: ["30% de la superficie de la unidad de ejecución",
-        "50% de la superficie de la unidad de ejecución",
-        "40% de la superficie de la unidad de ejecución",
-        "60% de la superficie de la unidad de ejecución"],
-    c: 1, exp: "Art. 154.1: procede cuando por las circunstancias de la edificación adecuada al Plan no sea posible la reparcelación material en más del 50% de la superficie de la unidad." },
-  { id: "E31-07", tema: "E31",
-    q: "Son sistemas de actuación PRIVADA según el art. 157.2 TRLFOTU:",
-    o: ["Compensación, reparcelación voluntaria y agente urbanizador",
-        "Compensación, reparcelación voluntaria y ejecución forzosa",
-        "Compensación, cooperación y agente urbanizador",
-        "Reparcelación voluntaria, cooperación y expropiación"],
-    c: 0, exp: "Art. 157: privados = compensación, reparcelación voluntaria y agente urbanizador; públicos = cooperación, ejecución forzosa y expropiación. La cooperación es pública aunque los propietarios costeen la urbanización." },
-  { id: "E31-08", tema: "E31",
-    q: "Si el Plan no establece el sistema de actuación, se podrá entender que el sistema elegido es (art. 158.2 TRLFOTU):",
-    o: ["El del agente urbanizador",
-        "El de expropiación",
-        "El de compensación o el de reparcelación voluntaria",
-        "El de cooperación"],
-    c: 2, exp: "Art. 158.2: en defecto de previsión, compensación o reparcelación voluntaria, sin perjuicio de su modificación por el procedimiento de delimitación de unidades de ejecución." },
-  { id: "E31-09", tema: "E31",
-    q: "Solicitada la entrega de las obras de urbanización, si la Administración no resuelve expresamente, los particulares podrán entender recibidas las obras transcurridos (art. 160.3 TRLFOTU):",
-    o: ["Un mes desde la solicitud",
-        "Dos meses desde la solicitud",
-        "Tres meses desde la solicitud",
-        "Seis meses desde la solicitud"],
-    c: 2, exp: "Art. 160.3: la recepción formal debe producirse dentro del mes siguiente a la solicitud, pero el silencio que permite entender recibidas las obras es de 3 meses. Garantía posterior ≥1 año y responsabilidad por vicios ocultos de 15 años." },
-  { id: "E31-10", tema: "E31",
-    q: "En el sistema de compensación, el proyecto de Estatutos de la Junta debe ser presentado ante el Ayuntamiento por propietarios que representen más del (art. 162.1 TRLFOTU):",
-    o: ["50% de la superficie de la unidad de ejecución",
-        "25% de la superficie de la unidad de ejecución",
-        "35% de la superficie de la unidad de ejecución",
-        "60% del aprovechamiento de la unidad de ejecución"],
-    c: 2, exp: "Art. 162.1: más del 35% de la superficie. Tras la aprobación definitiva de los Estatutos (que incorpora automáticamente a todos los propietarios), hay 3 meses para constituir la Junta en escritura pública; el Proyecto de Reparcelación exige quórum >50% (art. 164)." },
-  { id: "E31-11", tema: "E31",
-    q: "Contra los acuerdos de la Junta de Compensación cabe interponer (art. 165.4 TRLFOTU):",
-    o: ["Reclamación civil ante los tribunales ordinarios",
-        "Recurso de alzada ante la Administración actuante",
-        "Recurso de reposición ante la propia Junta",
-        "Recurso contencioso-administrativo directo"],
-    c: 1, exp: "Art. 165.4: recurso de alzada ante la Administración actuante, coherente con la naturaleza administrativa de la Junta (art. 165.1). En su órgano rector se integra en todo caso un representante de la Administración." },
-  { id: "E31-12", tema: "E31",
-    q: "En el sistema del Agente Urbanizador, el propietario disconforme con la retribución en terrenos puede solicitar el pago en metálico mediante (art. 173.2.b TRLFOTU):",
-    o: ["Escrito presentado al Ayuntamiento en el plazo de un mes desde la aprobación del PAU",
-        "Comparecencia ante la Junta de Compensación en 15 días",
-        "Recurso de alzada dentro de los 20 días siguientes",
-        "Conducto notarial dirigido al Agente Urbanizador y al Municipio dentro de los 10 días siguientes a la aprobación del PAU"],
-    c: 3, exp: "Art. 173.2.b: solicitud por conducto notarial dirigida al Agente Urbanizador y al Municipio en los 10 días siguientes a la aprobación del Programa, asegurando el pago con garantía proporcional a la del urbanizador." },
-  { id: "E31-13", tema: "E31",
-    q: "En la tramitación de los Programas de Actuación Urbanizadora, el período de concurrencia pública y el plazo del Ayuntamiento para resolver sobre la aprobación y adjudicación son, respectivamente (art. 174 TRLFOTU):",
-    o: ["30 días y 40 días desde el fin del plazo de presentación de propuestas",
-        "20 días y un mes",
-        "15 días y 30 días",
-        "Un mes y dos meses"],
-    c: 0, exp: "Art. 174.2 y 174.8: concurrencia pública de 30 días (anuncio en BON y periódicos de la Comunidad Foral) y resolución en 40 días desde la finalización del plazo de presentación. La garantía provisional es del 2% del importe previsto de las obras." },
-  { id: "E31-14", tema: "E31",
-    q: "El sistema de ejecución forzosa puede acordarse a instancia de propietarios que representen al menos el 25% de la superficie, entre otros supuestos, cuando la Junta de Compensación no presente el Proyecto de Reparcelación en el plazo de (art. 178.2 TRLFOTU):",
-    o: ["Un año desde su constitución",
-        "Tres meses desde su constitución",
-        "Seis meses desde su constitución",
-        "Seis meses desde la aprobación del planeamiento"],
-    c: 2, exp: "Art. 178.2: los tres supuestos son no presentar Estatutos en 6 meses desde la aprobación definitiva del Plan, no constituirse la Junta en 3 meses desde la aprobación de los Estatutos, y no presentar el Proyecto de Reparcelación en 6 meses desde la constitución de la Junta (regla 6-3-6)." },
-  { id: "E31-15", tema: "E31",
-    q: "En la ocupación directa de terrenos dotacionales, transcurrido cierto plazo desde la ocupación sin aprobarse definitivamente el instrumento de redistribución, los propietarios pueden solicitar el inicio del expediente de justiprecio. Ese plazo es (art. 189.4 TRLFOTU):",
-    o: ["Tres años", "Cuatro años", "Dos años", "Cinco años"],
-    c: 1, exp: "Art. 189.4: 4 años desde la ocupación; solicitado el justiprecio, se lleva a cabo por ministerio de la ley una vez transcurridos 6 meses desde la solicitud. La ocupación requiere previamente 1 mes desde la notificación de la relación de afectados." },
-
+  {
+    "id": "E31-01",
+    "tema": "E31",
+    "q": "Según el artículo 131 del texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué instrumento es suficiente para ejecutar el planeamiento en suelo urbanizable cuando el Plan General Municipal contiene la ordenación pormenorizada propia de un Plan Parcial?",
+    "o": [
+      "El Plan General Municipal, sin necesidad de otro instrumento.",
+      "El Plan Parcial del respectivo Sector, en todo caso.",
+      "Un Plan Especial de Actuación Urbana que desarrolle el Sector.",
+      "Un Estudio de Detalle que complete la ordenación pormenorizada."
+    ],
+    "c": 0,
+    "exp": "El artículo 131.3 establece que en suelo urbanizable será suficiente la aprobación del Plan General Municipal si este contuviera la ordenación pormenorizada propia de un Plan Parcial. En defecto de dicha ordenación, se precisará la aprobación del correspondiente Plan Parcial del respectivo Sector. Las alternativas que exigen Plan Parcial, Plan Especial de Actuación Urbana o Estudio de Detalle no son correctas cuando el Plan General ya contiene la ordenación pormenorizada."
+  },
+  {
+    "id": "E31-02",
+    "tema": "E31",
+    "q": "En relación con la competencia para tramitar y aprobar documentos de gestión urbanística en actuaciones públicas promovidas por la Administración de la Comunidad Foral de Navarra, ¿a quién corresponde según el artículo 132.2?",
+    "o": [
+      "Al Ayuntamiento del término municipal donde se ubique la actuación.",
+      "Al titular del Departamento competente en materia de ordenación del territorio y urbanismo.",
+      "A la Junta de Compensación que se constituya al efecto.",
+      "Al organismo o sociedad instrumental que designe el Ayuntamiento."
+    ],
+    "c": 1,
+    "exp": "El artículo 132.2 atribuye al titular del Departamento competente en materia de ordenación del territorio y urbanismo, salvo que reglamentariamente se otorgue a otro órgano, la competencia para tramitar y, en su caso, aprobar los documentos de gestión urbanística cuando se trate de actuaciones públicas promovidas por la Administración de la Comunidad Foral de Navarra o sus organismos o sociedades instrumentales. Las demás alternativas atribuyen la competencia a órganos distintos de los previstos en dicho precepto."
+  },
+  {
+    "id": "E31-03",
+    "tema": "E31",
+    "q": "¿En qué municipios las unidades de ejecución deben establecer necesariamente plazos para su ejecución en la programación del plan, según el artículo 142.4?",
+    "o": [
+      "En todos los municipios de Navarra, sin excepción.",
+      "Solo en los municipios de más de 10.000 habitantes.",
+      "En municipios de más de 3.000 habitantes o que prevean alcanzar dicha población, y en municipios de más de 1.000 habitantes de la Comarca de Pamplona.",
+      "Únicamente en los municipios que cuenten con Plan General Municipal adaptado a la ley foral."
+    ],
+    "c": 2,
+    "exp": "El artículo 142.4 exige que las unidades de ejecución delimitadas en municipios de más de 3.000 habitantes o cuyo planeamiento prevea alcanzar dicha población, así como en los municipios de más de 1.000 habitantes de la Comarca de Pamplona, establezcan en el ámbito de la programación del plan los plazos para su ejecución. En el resto de municipios esta programación es potestativa. Las otras opciones no coinciden con los umbrales demográficos previstos."
+  },
+  {
+    "id": "E31-04",
+    "tema": "E31",
+    "q": "Cuando se justifica la inviabilidad económica de una unidad de ejecución por resultar excesivas las cargas de urbanización en comparación con otras unidades similares, ¿qué debe hacer el Ayuntamiento según el artículo 144.2?",
+    "o": [
+      "Modificarla o, alternativamente, autorizar una reducción de la contribución de los propietarios o una compensación a cargo de la Administración.",
+      "Expropiar los terrenos de la unidad de ejecución para eliminar las cargas excesivas.",
+      "Rebajar automáticamente el aprovechamiento urbanístico de la unidad hasta equipararlo a las unidades viables.",
+      "Declarar la caducidad del planeamiento y exigir la redacción de un nuevo Plan Parcial."
+    ],
+    "c": 0,
+    "exp": "El artículo 144.2 dispone que, si con posterioridad a la delimitación se justificara la inviabilidad económica de las unidades de ejecución, el Ayuntamiento deberá modificarlas o, alternativamente, autorizar, sin modificar las determinaciones del planeamiento, una reducción de la contribución de los propietarios a las mismas o una compensación a cargo de la Administración, procurando equiparar los costes de la actuación a los de otras análogas que hayan resultado viables. Las demás opciones no se corresponden con las medidas previstas en dicho artículo."
+  },
+  {
+    "id": "E31-05",
+    "tema": "E31",
+    "q": "Según el artículo 148.4, ¿qué régimen de silencio administrativo se aplica a las licencias de parcelación y a las declaraciones de innecesariedad de licencia de parcelación rústica?",
+    "o": [
+      "Silencio positivo, conforme a la regla general de las licencias urbanísticas.",
+      "Silencio negativo, entendiéndose denegada la solicitud.",
+      "Silencio positivo si la parcelación es conforme al planeamiento, y negativo en caso contrario.",
+      "No se aplica el silencio administrativo a estas solicitudes."
+    ],
+    "c": 1,
+    "exp": "El artículo 148.4 establece que las licencias de parcelación y las declaraciones de su innecesariedad se someten al régimen de las licencias urbanísticas establecido en esta ley foral, salvo que en estos casos el silencio administrativo siempre se entenderá denegatorio de la solicitud de licencia de parcelación o de la declaración de su innecesariedad. Las alternativas que mencionan silencio positivo o la inaplicación del silencio no son correctas."
+  },
+  {
+    "id": "E31-06",
+    "tema": "E31",
+    "q": "En el Proyecto de Reparcelación, ¿qué ocurre cuando la cuantía de los derechos de algunos propietarios no alcanza el 15 por 100 de la parcela mínima edificable, según el artículo 150.6?",
+    "o": [
+      "Se les adjudica necesariamente una parcela independiente de superficie inferior a la mínima.",
+      "La adjudicación podrá sustituirse por una indemnización en metálico.",
+      "Se les adjudica pro indiviso con otros propietarios en todo caso.",
+      "Sus derechos se transmiten obligatoriamente a la Administración actuante."
+    ],
+    "c": 1,
+    "exp": "El artículo 150.6 prevé que, cuando la escasa cuantía de los derechos de algunos propietarios no permita que se adjudiquen fincas independientes a todos ellos, los solares resultantes podrán adjudicarse pro indiviso a tales propietarios. No obstante, si la cuantía de esos derechos no alcanzase el 15 por 100 de la parcela mínima edificable, la adjudicación podrá sustituirse por una indemnización en metálico. Las demás alternativas no reflejan la posibilidad de sustitución por indemnización que contempla el precepto."
+  },
+  {
+    "id": "E31-07",
+    "tema": "E31",
+    "q": "Según el artículo 151, en unidades de ejecución de gran magnitud, ¿bajo qué condición los proyectos de reparcelación y de urbanización pueden establecer la ejecución de la urbanización por fases?",
+    "o": [
+      "Cuando no exista un porcentaje de propietarios superior al 50 por 100 del aprovechamiento favorable a la ejecución en una sola fase.",
+      "Cuando lo solicite expresamente la Junta de Compensación al Ayuntamiento.",
+      "Cuando la unidad de ejecución supere las 10 hectáreas de superficie.",
+      "Cuando exista un acuerdo unánime de todos los propietarios afectados."
+    ],
+    "c": 0,
+    "exp": "El artículo 151.1 permite que en unidades de ejecución de gran magnitud en las que no exista un porcentaje de propietarios superior al 50 por 100 del aprovechamiento favorable a la ejecución de la urbanización en una sola fase, los proyectos de reparcelación y de urbanización puedan establecer la ejecución de la urbanización por fases. Las otras alternativas introducen condiciones no previstas en el artículo."
+  },
+  {
+    "id": "E31-08",
+    "tema": "E31",
+    "q": "En el sistema de compensación, ¿qué porcentaje de la superficie de la unidad de ejecución deben representar los propietarios que presentan el proyecto de Estatutos de la Junta de Compensación, según el artículo 162.1?",
+    "o": [
+      "Más del 25 por 100.",
+      "Más del 35 por 100.",
+      "Más del 50 por 100.",
+      "Más del 75 por 100."
+    ],
+    "c": 1,
+    "exp": "El artículo 162.1 exige que el propietario o propietarios que representen más del 35 por 100 de la superficie de la unidad de ejecución presenten, en los plazos previstos en la delimitación de la unidad de ejecución, el proyecto de Estatutos de la Junta de Compensación ante el Ayuntamiento respectivo. Los otros porcentajes no coinciden con el umbral establecido."
+  },
+  {
+    "id": "E31-09",
+    "tema": "E31",
+    "q": "¿Qué carácter tiene la Junta de Compensación según el artículo 165.1?",
+    "o": [
+      "Naturaleza mercantil, con personalidad jurídica privada.",
+      "Naturaleza administrativa, con personalidad jurídica y plena capacidad para el cumplimiento de sus fines.",
+      "Naturaleza mixta, con personalidad jurídica pública y privada simultáneamente.",
+      "Naturaleza asociativa, sin personalidad jurídica hasta la aprobación del Proyecto de Reparcelación."
+    ],
+    "c": 1,
+    "exp": "El artículo 165.1 establece que la Junta de Compensación tendrá naturaleza administrativa, personalidad jurídica y plena capacidad para el cumplimiento de sus fines. Las demás opciones atribuyen una naturaleza o capacidad que no se corresponde con la calificación legal de la Junta."
+  },
+  {
+    "id": "E31-10",
+    "tema": "E31",
+    "q": "En el sistema del Agente Urbanizador, ¿qué documento determina y organiza la actividad de ejecución, según el artículo 172.1?",
+    "o": [
+      "El Proyecto de Reparcelación.",
+      "El Programa de Actuación Urbanizadora.",
+      "El Plan Parcial del Sector.",
+      "El convenio urbanístico suscrito con los propietarios."
+    ],
+    "c": 1,
+    "exp": "El artículo 172.1 dispone que los Programas de Actuación Urbanizadora determinan y organizan la actividad de ejecución en el sistema del Agente Urbanizador. Los demás instrumentos mencionados pueden estar relacionados, pero no son el documento que específicamente cumple esa función en el sistema del Agente Urbanizador."
+  },
+  {
+    "id": "E31-11",
+    "tema": "E31",
+    "q": "Según el artículo 174.2, ¿qué garantía provisional deben presentar quienes tengan interés en competir y ser seleccionados como adjudicatarios de un Programa de Actuación Urbanizadora?",
+    "o": [
+      "El 1 por 100 del importe previsto de las obras de urbanización.",
+      "El 2 por 100 del importe previsto de las obras de urbanización.",
+      "El 5 por 100 del importe previsto de las obras de urbanización.",
+      "El 10 por 100 del importe previsto de las obras de urbanización."
+    ],
+    "c": 1,
+    "exp": "El artículo 174.2 exige, en el período de concurrencia pública para ser seleccionados como adjudicatarios del correspondiente Programa de Actuación Urbanizadora, la presentación de garantía provisional del 2 por 100 del importe previsto de las obras de urbanización. Los otros porcentajes no se ajustan a la cifra establecida en el precepto."
+  },
+  {
+    "id": "E31-12",
+    "tema": "E31",
+    "q": "En el sistema de cooperación, ¿cómo se formulará el Proyecto de Reparcelación según el artículo 177?",
+    "o": [
+      "Únicamente por el Ayuntamiento, de oficio.",
+      "Por el Ayuntamiento, de oficio o a instancia de algún propietario afectado, o por los propietarios que representen más del 35 por 100 de la superficie reparcelable.",
+      "Exclusivamente por los propietarios que representen más del 50 por 100 de la superficie.",
+      "Por la Comisión gestora que se constituya al efecto."
+    ],
+    "c": 1,
+    "exp": "El artículo 177 establece que el Proyecto de Reparcelación se formulará por el Ayuntamiento, de oficio o a instancia de alguno de los propietarios afectados, o por los propietarios que representen más del 35 por 100 de la superficie reparcelable. Las demás alternativas limitan indebidamente la iniciativa o introducen umbrales distintos."
+  },
+  {
+    "id": "E31-13",
+    "tema": "E31",
+    "q": "¿Qué mayoría de propietarios pueden instar el sistema de ejecución forzosa según el artículo 178.2?",
+    "o": [
+      "Los propietarios que representen, al menos, el 15 por 100 de la superficie total de la unidad de ejecución.",
+      "Los propietarios que representen, al menos, el 25 por 100 de la superficie total de la unidad de ejecución.",
+      "Los propietarios que representen, al menos, el 35 por 100 de la superficie total de la unidad de ejecución.",
+      "Los propietarios que representen, al menos, el 50 por 100 de la superficie total de la unidad de ejecución."
+    ],
+    "c": 1,
+    "exp": "El artículo 178.2 permite que el sistema de ejecución forzosa se acuerde a instancia de los propietarios de terrenos enclavados en la unidad de ejecución que representen, al menos, el 25 por 100 de la superficie total. Los demás porcentajes no coinciden con el umbral legalmente previsto."
+  },
+  {
+    "id": "E31-14",
+    "tema": "E31",
+    "q": "En el sistema de expropiación, ¿cómo se aplica la expropiación según el artículo 185.2?",
+    "o": [
+      "Parcela a parcela, según las necesidades de la urbanización.",
+      "Por unidades de ejecución completas, comprendiendo todos los bienes y derechos incluidos en las mismas.",
+      "Solo respecto de los terrenos destinados a sistemas generales.",
+      "Únicamente sobre las fincas no edificadas conforme al planeamiento."
+    ],
+    "c": 1,
+    "exp": "El artículo 185.2 establece que la expropiación se aplicará por unidades de ejecución completas y comprenderá todos los bienes y derechos incluidos en las mismas. Las demás alternativas limitan indebidamente el ámbito de la expropiación en este sistema."
+  },
+  {
+    "id": "E31-15",
+    "tema": "E31",
+    "q": "¿Qué derecho otorga el artículo 189.4 a los propietarios afectados por una ocupación directa cuando transcurren cuatro años sin que se haya producido la aprobación definitiva del instrumento de redistribución de la unidad de ejecución destinada a acogerlos?",
+    "o": [
+      "Derecho a recuperar la propiedad de los terrenos ocupados de forma automática.",
+      "Derecho a solicitar al Ayuntamiento el inicio del expediente de justiprecio, que se llevará a cabo por ministerio de la Ley una vez transcurridos seis meses desde dicha solicitud.",
+      "Derecho a una indemnización equivalente al doble del valor de los terrenos ocupados.",
+      "Derecho a ser realojados en viviendas de protección pública en el mismo municipio."
+    ],
+    "c": 1,
+    "exp": "El artículo 189.4 prevé que, transcurridos cuatro años desde la ocupación sin que se hubiera producido la aprobación definitiva del instrumento de redistribución de la unidad de ejecución destinada a acoger a los propietarios afectados por la ocupación directa, estos podrán solicitar al Ayuntamiento el inicio del expediente de justiprecio, que se llevará a cabo por ministerio de la Ley, una vez transcurridos seis meses desde dicha solicitud. Las demás alternativas no recogen el mecanismo previsto en dicho artículo."
+  },
+   
   // ---------- TEMA 32 ESPECÍFICO · TRLFOTU V — LICENCIAS Y DISCIPLINA (E32) ----------
   { id: "E32-01", tema: "E32",
     q: "El art. 190.1 TRLFOTU define la licencia urbanística como acto administrativo de control:",
