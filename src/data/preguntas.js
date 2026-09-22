@@ -7329,7 +7329,7 @@ export const PREGUNTAS = [
     ],
     "c": 1,
     "exp": "La Disposición Adicional Única del Decreto Foral 253/2019 establece que los ayuntamientos podrán, de manera voluntaria, remitir los instrumentos de gestión y de urbanización cuya aprobación definitiva les corresponda para su inscripción directa en el Registro de Planeamiento. Esta previsión es específica para estos instrumentos y no debe confundirse con la obligación de inscripción que el artículo 5.1 impone a los instrumentos de ordenación territorial, de gestión y de urbanización que desarrollen planes y proyectos sectoriales de incidencia supramunicipal, así como a los instrumentos de planeamiento urbanístico municipal."
-  }
+  },
 
   // ---------- TEMA 35 ESPECÍFICO · LICENCIAS URBANÍSTICAS (E35) ----------
   { id: "E35-03", tema: "E35",
