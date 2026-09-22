@@ -400,21 +400,201 @@ export const PREGUNTAS = [
   c: 1, exp: "Art. 32.1. La Sección Primera comprende las empresas que organizan espectáculos o actividades recreativas sin realizar su actividad en un local determinado. La Sección Segunda comprende los locales incluidos en el Catálogo de establecimientos públicos." },
    
     // ---------- RDL 7/2015 (E28) ----------
-  { id: "E28-01", tema: "E28",
-    q: "Según el RDL 7/2015, las edificaciones ajustadas a la legalidad en suelo en situación de urbanizado se valoran por:",
-    o: ["Método de comparación en todo caso",
-        "Capitalización de la renta real o potencial",
-        "Método de coste de reposición según estado y antigüedad",
-        "Método residual con independencia del suelo"],
-    c: 2, exp: "El valor de la edificación conforme a legalidad en suelo urbanizado se obtiene por coste de reposición, corregido por antigüedad y estado, sumándose al valor del suelo." },
-  { id: "E28-02", tema: "E28",
-    q: "El suelo en situación básica de rural se valora, con carácter general, por:",
-    o: ["Capitalización de la renta anual real o potencial",
-        "Comparación con suelo urbanizable",
-        "Valor catastral incrementado",
-        "Método residual dinámico"],
-    c: 0, exp: "El suelo rural se valora capitalizando la renta anual, real o potencial, de la explotación, sin considerar expectativas urbanísticas." },
-
+  {
+    "id": "E28-01",
+    "tema": "E28",
+    "q": "De conformidad con el Real Decreto Legislativo 7/2015, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, ¿cuál de las siguientes afirmaciones describe correctamente una actuación de dotación?",
+    "o": [
+      "Las que tienen por objeto realizar obras de rehabilitación edificatoria cuando existan situaciones de insuficiencia o degradación de los requisitos básicos de funcionalidad, seguridad y habitabilidad de las edificaciones, incluyendo obras de nueva edificación en sustitución de edificios demolidos.",
+      "Las que tienen por objeto incrementar las dotaciones públicas de un ámbito de suelo urbanizado para reajustar su proporción con la mayor edificabilidad o densidad o con los nuevos usos asignados en la ordenación urbanística a una o más parcelas del ámbito, sin requerir la reforma o renovación de la urbanización.",
+      "Las que suponen el paso de un ámbito de suelo de la situación de suelo rural a la de urbanizado para crear, junto con las correspondientes infraestructuras y dotaciones públicas, una o más parcelas aptas para la edificación o uso independiente.",
+      "Las que tienen por objeto reformar o renovar la urbanización de un ámbito de suelo urbanizado para crear, junto con las correspondientes infraestructuras y dotaciones públicas, una o más parcelas aptas para la edificación o uso independiente."
+    ],
+    "c": 1,
+    "exp": "El artículo 7.1.b) del RDL 7/2015 define las actuaciones de dotación como aquellas que incrementan las dotaciones públicas de un ámbito de suelo urbanizado para reajustar su proporción con la mayor edificabilidad o densidad o nuevos usos, sin requerir reforma o renovación de la urbanización. La alternativa que describe rehabilitación edificatoria con posible sustitución de edificios corresponde a las actuaciones sobre el medio urbano del art. 2.1; la que describe el paso de rural a urbanizado es una actuación de nueva urbanización (art. 7.1.a).1); y la que describe reforma o renovación de la urbanización es una actuación de urbanización del art. 7.1.a).2)."
+  },
+  {
+    "id": "E28-02",
+    "tema": "E28",
+    "q": "Según el artículo 18 del RDL 7/2015, en las actuaciones de urbanización, el deber de entregar a la Administración competente el suelo libre de cargas de urbanización con destino a patrimonio público de suelo se calcula sobre el porcentaje de la edificabilidad media ponderada de la actuación. ¿Cuál es el porcentaje general que fija la ley, y cuál es el máximo excepcional que puede alcanzar?",
+    "o": [
+      "El porcentaje general no puede ser inferior al 5 % ni superior al 15 %; excepcionalmente puede incrementarse hasta un máximo del 20 %.",
+      "El porcentaje general no puede ser inferior al 10 % ni superior al 20 %; excepcionalmente puede incrementarse hasta un máximo del 30 %.",
+      "El porcentaje general no puede ser inferior al 5 % ni superior al 10 %; excepcionalmente puede incrementarse hasta un máximo del 15 %.",
+      "El porcentaje general no puede ser inferior al 15 % ni superior al 20 %; excepcionalmente puede reducirse hasta un mínimo del 5 %."
+    ],
+    "c": 0,
+    "exp": "El artículo 18.1.b) del RDL 7/2015 establece que, con carácter general, el porcentaje de edificabilidad media ponderada que debe entregarse al patrimonio público de suelo no podrá ser inferior al 5 % ni superior al 15 %. La legislación sobre ordenación territorial y urbanística podrá permitir excepcionalmente reducir o incrementar este porcentaje de forma proporcionada y motivada, hasta alcanzar un máximo del 20 % en el caso de su incremento. Las demás alternativas alteran los umbrales legales."
+  },
+  {
+    "id": "E28-03",
+    "tema": "E28",
+    "q": "En relación con el derecho de superficie regulado en los artículos 53 y 54 del RDL 7/2015, ¿cuál de las siguientes afirmaciones es correcta?",
+    "o": [
+      "El derecho de superficie puede constituirse por el propietario del suelo, sea público o privado, y su plazo de duración no podrá exceder de 75 años, debiendo formalizarse en escritura pública e inscribirse en el Registro de la Propiedad.",
+      "El derecho de superficie atribuye al superficiario la propiedad definitiva de lo edificado, y se extingue únicamente por el transcurso del plazo pactado, sin que quepa la extinción por incumplimiento del deber de edificar.",
+      "El derecho de superficie atribuye al superficiario la facultad de realizar construcciones o edificaciones en la rasante y en el vuelo y el subsuelo de finca ajena, manteniendo la propiedad temporal de lo edificado, y su plazo no podrá exceder de 99 años, debiendo formalizarse en escritura pública e inscribirse en el Registro.",
+      "El derecho de superficie solo puede constituirse a título oneroso, y la contraprestación del superficiario debe consistir necesariamente en el pago de una suma alzada, sin que quepa la adjudicación de viviendas o locales al propietario del suelo."
+    ],
+    "c": 2,
+    "exp": "El artículo 53.1 del RDL 7/2015 define el derecho de superficie como aquel que atribuye al superficiario la facultad de realizar construcciones o edificaciones en la rasante y en el vuelo y el subsuelo de una finca ajena, manteniendo la propiedad temporal de las construcciones o edificaciones realizadas. El artículo 53.2 exige su formalización en escritura pública e inscripción en el Registro de la Propiedad, y fija que el plazo de duración no podrá exceder de noventa y nueve años. El derecho puede constituirse a título oneroso o gratuito (art. 53.3), y se extingue si no se edifica conforme a la ordenación en el plazo previsto en el título (art. 54.5). La alternativa que cita 75 años y propiedad definitiva es incorrecta; la que limita la constitución a título oneroso con suma alzada también es incorrecta."
+  },
+  {
+    "id": "E28-04",
+    "tema": "E28",
+    "q": "Según el artículo 15 del RDL 7/2015, el deber legal de conservación constituye el límite de las obras que deban ejecutarse a costa de los propietarios. ¿En qué cuantía se establece dicho límite con carácter general, y en qué supuesto excepcional puede elevarse, y hasta qué cuantía?",
+    "o": [
+      "El límite general es el 50 % del valor actual de construcción de un inmueble de nueva planta equivalente al original; excepcionalmente, en casos de inejecución injustificada de obras ordenadas, puede elevarse hasta el 75 % del coste de reposición si lo dispone la legislación autonómica.",
+      "El límite general es el 75 % del valor actual de construcción de un inmueble de nueva planta equivalente al original; excepcionalmente, en casos de ejecución subsidiaria, puede reducirse hasta el 50 % del coste de reposición si lo dispone la legislación autonómica.",
+      "El límite general es el 50 % del coste de reposición de la construcción o edificio; excepcionalmente, cuando las obras se ordenen por motivos turísticos o culturales, puede elevarse hasta el 100 % del valor actual de construcción.",
+      "El límite general es el 30 % del valor actual de construcción de un inmueble de nueva planta equivalente al original; excepcionalmente, en casos de ruina inminente, puede elevarse hasta el 75 % del valor de mercado."
+    ],
+    "c": 0,
+    "exp": "El artículo 15.3 del RDL 7/2015 establece que el límite de las obras a costa de los propietarios en cumplimiento del deber legal de conservación se fija en la mitad del valor actual de construcción de un inmueble de nueva planta equivalente al original. El artículo 15.4 añade que, en los casos de inejecución injustificada de las obras ordenadas, la Administración puede actuar subsidiariamente y el límite máximo del deber de conservación podrá elevarse, si así lo dispone la legislación autonómica, hasta el 75 % del coste de reposición de la construcción o edificio correspondiente. Las demás alternativas confunden los porcentajes y los conceptos de valor y coste."
+  },
+  {
+    "id": "E28-05",
+    "tema": "E28",
+    "q": "El artículo 20.1.b) del RDL 7/2015, modificado por la Ley 12/2023, establece la reserva mínima de suelo destinado a vivienda sujeta a régimen de protección pública. ¿Cuáles son los porcentajes mínimos exigidos en suelo rural para actuaciones de nueva urbanización y en suelo urbanizado para actuaciones de reforma o renovación, respectivamente?",
+    "o": [
+      "30 % en suelo rural y 10 % en suelo urbanizado.",
+      "50 % en suelo rural y 25 % en suelo urbanizado.",
+      "40 % en suelo rural y 20 % en suelo urbanizado.",
+      "20 % en suelo rural y 40 % en suelo urbanizado."
+    ],
+    "c": 2,
+    "exp": "El artículo 20.1.b) del RDL 7/2015, en la redacción dada por la disposición final cuarta de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda, incrementó los porcentajes de reserva de suelo destinado a vivienda protegida. La reserva comprende, como mínimo, los terrenos necesarios para realizar el 40 % de la edificabilidad residencial prevista por la ordenación urbanística en el suelo rural que vaya a ser incluido en actuaciones de nueva urbanización, y el 20 % en el suelo urbanizado que deba someterse a actuaciones de reforma o renovación de la urbanización. Los porcentajes anteriores (30 % y 10 %) fueron los vigentes antes de la reforma."
+  },
+  {
+    "id": "E28-06",
+    "tema": "E28",
+    "q": "Respecto a los derechos de realojamiento y de retorno regulados en el artículo 19 del RDL 7/2015, ¿cuál de las siguientes afirmaciones es correcta?",
+    "o": [
+      "El derecho de realojamiento es transmisible por actos inter vivos y mortis causa sin limitación alguna, y su reconocimiento excluye la indemnización por extinción de derechos preexistentes.",
+      "En la expropiación, si se entrega al expropiado una vivienda de reemplazo en el mismo régimen en que venía ocupando la expropiada, esa entrega equivale al abono del justiprecio expropiatorio, salvo que el expropiado opte por percibirlo en metálico, en cuyo caso no tendrá derecho de realojo.",
+      "El derecho de retorno solo procede cuando se actúe mediante expropiación, y consiste en el derecho a percibir una indemnización equivalente al valor de la vivienda demolida, sin posibilidad de alojamiento provisional.",
+      "El derecho de realojamiento se reconoce exclusivamente a los propietarios de las viviendas afectadas, quedando excluidos los arrendatarios y ocupantes legales que constituyan su residencia habitual."
+    ],
+    "c": 1,
+    "exp": "El artículo 19.1.a) del RDL 7/2015 establece que, en la expropiación, la entrega de la vivienda de reemplazo en el régimen en que se viniera ocupando la expropiada equivale al abono del justiprecio expropiatorio, salvo que el expropiado opte por percibirlo en metálico, en cuyo caso no tendrá derecho de realojo. El artículo 19.3 precisa que el derecho de realojamiento es personal e intransferible, salvo para herederos forzosos o cónyuge supérstite que acrediten compartir residencia habitual. El artículo 19.6 señala que el reconocimiento del realojamiento es independiente del derecho a indemnización, salvo la excepción indicada. El derecho de retorno se regula en el art. 19.2 para arrendatarios en actuaciones aisladas, no solo en expropiación."
+  },
+  {
+    "id": "E28-07",
+    "tema": "E28",
+    "q": "Según el artículo 11.5 del RDL 7/2015, cuando la legislación urbanística sujete la primera ocupación o utilización de las edificaciones a un régimen de comunicación previa o declaración responsable, y de dichos procedimientos no resulte que la edificación cumple los requisitos necesarios para el destino al uso previsto, ¿qué plazo tiene la Administración para adoptar las medidas necesarias para el cese de la ocupación o utilización, y qué consecuencia tiene su inactividad?",
+    "o": [
+      "La Administración debe adoptar las medidas en el plazo de tres meses; si no lo hace, la ocupación se entiende legalizada por silencio positivo.",
+      "La Administración debe adoptar las medidas en el plazo de seis meses; si no las adopta, será responsable de los perjuicios que puedan ocasionarse a terceros de buena fe por la omisión de tales medidas.",
+      "La Administración debe adoptar las medidas en el plazo de un año; si no las adopta, el particular puede solicitar la indemnización de daños y perjuicios sin necesidad de reclamación previa.",
+      "La Administración debe adoptar las medidas en el plazo de dos meses; si no las adopta, el acto de comunicación previa deviene nulo de pleno derecho."
+    ],
+    "c": 1,
+    "exp": "El artículo 11.5 del RDL 7/2015 dispone que, si la Administración a la que se realiza la comunicación previa o declaración responsable no adopta las medidas necesarias para el cese de la ocupación o utilización en el plazo de seis meses, será responsable de los perjuicios que puedan ocasionarse a terceros de buena fe por la omisión de tales medidas. La Administración podrá repercutir en el sujeto obligado a la presentación de la comunicación previa o declaración responsable el importe de tales perjuicios. Las demás alternativas fijan plazos o consecuencias que no se corresponden con el precepto."
+  },
+  {
+    "id": "E28-08",
+    "tema": "E28",
+    "q": "En relación con la valoración del suelo rural conforme al artículo 36 del RDL 7/2015, ¿cuál de las siguientes afirmaciones es correcta?",
+    "o": [
+      "Los terrenos se tasan mediante la capitalización de la renta anual real o potencial, la que sea superior, de la explotación según su estado en el momento de la valoración, pudiendo corregirse al alza por factores objetivos de localización.",
+      "Los terrenos se tasan exclusivamente por el método residual estático, considerando las expectativas urbanísticas derivadas de la ordenación territorial y urbanística.",
+      "Los terrenos se tasan por el valor de mercado fijado por la Administración, sin posibilidad de corrección por factores de localización ni de consideración de rentas potenciales.",
+      "Los terrenos se tasan mediante la capitalización de la renta anual real, excluyendo la renta potencial, y no pueden incluirse subvenciones estables como ingresos en su cálculo."
+    ],
+    "c": 0,
+    "exp": "El artículo 36.1.a) del RDL 7/2015 establece que los terrenos rurales se tasan mediante la capitalización de la renta anual real o potencial, la que sea superior, de la explotación según su estado en el momento al que deba entenderse referida la valoración. La renta potencial se calcula atendiendo al rendimiento del uso conforme a la legislación aplicable, e incluye como ingresos las subvenciones estables. El valor así obtenido puede corregirse al alza por factores objetivos de localización. El artículo 36.2 prohíbe considerar expectativas derivadas de edificabilidades no plenamente realizadas."
+  },
+  {
+    "id": "E28-09",
+    "tema": "E28",
+    "q": "Según el artículo 47.2.a) del RDL 7/2015, en los casos en que el suelo haya sido expropiado para ejecutar una actuación de urbanización, ¿en qué plazo procede la reversión si la urbanización no se ha concluido?",
+    "o": [
+      "Procede la reversión cuando hayan transcurrido cinco años desde la expropiación sin que la urbanización se haya concluido.",
+      "Procede la reversión cuando hayan transcurrido ocho años desde la expropiación sin que la urbanización se haya concluido.",
+      "Procede la reversión cuando hayan transcurrido diez años desde la expropiación sin que la urbanización se haya concluido.",
+      "Procede la reversión cuando hayan transcurrido quince años desde la expropiación sin que la urbanización se haya concluido."
+    ],
+    "c": 2,
+    "exp": "El artículo 47.2.a) del RDL 7/2015 dispone que, en los casos en que el suelo haya sido expropiado para ejecutar una actuación de urbanización, procede la reversión cuando hayan transcurrido diez años desde la expropiación sin que la urbanización se haya concluido. El apartado 1 del mismo artículo regula los supuestos generales de reversión por alteración del uso, con las excepciones del apartado 1.a) a e)."
+  },
+  {
+    "id": "E28-10",
+    "tema": "E28",
+    "q": "Conforme al artículo 68 del RDL 7/2015, la nota marginal que se practica en el Registro de la Propiedad por la iniciación del expediente de distribución de beneficios y cargas, o por la afección de los terrenos al cumplimiento de obligaciones inherentes a la forma de gestión, tiene una duración inicial de tres años. ¿Puede prorrogarse, y en su caso, por cuánto tiempo y a instancia de quién?",
+    "o": [
+      "No puede prorrogarse; transcurridos tres años, la nota marginal caduca automáticamente y debe cancelarse de oficio.",
+      "Puede prorrogarse por otros tres años a instancia del órgano o agrupación de interés urbanístico que hubiera solicitado su práctica.",
+      "Puede prorrogarse por cinco años a instancia exclusiva del Registrador de la Propiedad, previa audiencia a los titulares registrales.",
+      "Puede prorrogarse indefinidamente por acuerdo del Ayuntamiento, sin necesidad de solicitud de ningún órgano urbanístico."
+    ],
+    "c": 1,
+    "exp": "El artículo 68.2 del RDL 7/2015 establece que la nota marginal tendrá una duración de tres años y podrá ser prorrogada por otros tres años a instancia del órgano o agrupación de interés urbanístico que hubiera solicitado su práctica. El artículo 68.1 regula el supuesto de la iniciación del expediente de distribución de beneficios y cargas o la afección de los terrenos. Las demás alternativas modifican el plazo, la legitimación o el régimen de caducidad."
+  },
+  {
+    "id": "E28-11",
+    "tema": "E28",
+    "q": "El artículo 22.4 del RDL 7/2015 exige que la documentación de los instrumentos de ordenación de las actuaciones de transformación urbanística incluya un informe o memoria de sostenibilidad económica. ¿Qué debe ponderar, en particular, dicho informe?",
+    "o": [
+      "El impacto de la actuación en las Haciendas Públicas afectadas por la implantación y el mantenimiento de las infraestructuras necesarias o la puesta en marcha y la prestación de los servicios resultantes, así como la suficiencia y adecuación del suelo destinado a usos productivos.",
+      "Exclusivamente el impacto ambiental de la actuación sobre la atmósfera, el agua y el suelo, sin considerar aspectos económicos ni de Haciendas Públicas.",
+      "El número de viviendas protegidas que se van a construir y su distribución por tipologías, sin referencia a infraestructuras ni servicios.",
+      "El coste de expropiación de los terrenos y el justiprecio que correspondería a los propietarios afectados, sin analizar la sostenibilidad económica de la actuación."
+    ],
+    "c": 0,
+    "exp": "El artículo 22.4 del RDL 7/2015 dispone que la documentación de los instrumentos de ordenación de las actuaciones de transformación urbanística deberá incluir un informe o memoria de sostenibilidad económica, en el que se ponderará, en particular, el impacto de la actuación en las Haciendas Públicas afectadas por la implantación y el mantenimiento de las infraestructuras necesarias o la puesta en marcha y la prestación de los servicios resultantes, así como la suficiencia y adecuación del suelo destinado a usos productivos. Las demás alternativas reducen o desvirtúan el contenido del precepto."
+  },
+  {
+    "id": "E28-12",
+    "tema": "E28",
+    "q": "Según el artículo 24.5 del RDL 7/2015, ¿en qué supuesto pueden ocuparse superficies de espacios libres o de dominio público para la realización de obras en edificios existentes, sin necesidad de acudir a la expropiación?",
+    "o": [
+      "Cuando las obras consistan en la instalación de ascensores u otros elementos que garanticen la accesibilidad universal, siempre que no resulte viable técnica o económicamente ninguna otra solución y quede asegurada la funcionalidad de los espacios libres, dotaciones y demás elementos del dominio público.",
+      "Cuando las obras tengan por objeto exclusivamente la mejora de la eficiencia energética del edificio, con independencia de que exista o no otra solución técnica o económicamente viable.",
+      "Cuando las obras consistan en la demolición total del edificio y la construcción de uno nuevo con mayor edificabilidad, siempre que se incremente el número de viviendas.",
+      "Cuando las obras se realicen en edificios declarados de interés cultural, sin necesidad de informe favorable del órgano competente para la gestión del régimen de protección."
+    ],
+    "c": 0,
+    "exp": "El artículo 24.4 del RDL 7/2015 permite ocupar superficies de espacios libres o de dominio público que resulten indispensables para la instalación de ascensores u otros elementos que garanticen la accesibilidad universal, así como superficies comunes de uso privativo, cuando no resulte viable técnica o económicamente ninguna otra solución y siempre que quede asegurada la funcionalidad de los espacios libres, dotaciones y demás elementos del dominio público. El artículo 24.5 extiende esta posibilidad a los espacios que requieran obras que reduzcan al menos un 30 % la demanda energética anual de calefacción o refrigeración del edificio, entre otros supuestos. La alternativa que cita la mejora energética sin exigir viabilidad alternativa es incompleta; las otras dos introducen supuestos no previstos o excluyen requisitos."
+  },
+  {
+    "id": "E28-13",
+    "tema": "E28",
+    "q": "Respecto a los actos inscribibles en el Registro de la Propiedad conforme al artículo 65 del RDL 7/2015, ¿cuál de las siguientes afirmaciones es correcta?",
+    "o": [
+      "Solo son inscribibles los actos firmes de aprobación de expedientes de ejecución de la ordenación urbanística, quedando excluidas las cesiones de terrenos con carácter obligatorio.",
+      "Son inscribibles, entre otros, los actos firmes de aprobación de expedientes de ejecución de la ordenación urbanística, las cesiones de terrenos con carácter obligatorio, la incoación de expediente sobre disciplina urbanística y las condiciones especiales a que se sujeten los actos de conformidad, aprobación o autorización administrativa.",
+      "La inscripción se practica exclusivamente mediante certificación administrativa, sin que quepa la inscripción de actos de transferencia y gravamen del aprovechamiento urbanístico.",
+      "No son inscribibles los actos administrativos que modifiquen el dominio o cualquier otro derecho real sobre fincas determinadas, aunque se dicten en desarrollo de los instrumentos de ordenación."
+    ],
+    "c": 1,
+    "exp": "El artículo 65.1 del RDL 7/2015 enumera los actos inscribibles en el Registro de la Propiedad, que incluyen: los actos firmes de aprobación de expedientes de ejecución de la ordenación urbanística (letra a); las cesiones de terrenos con carácter obligatorio (letra b); la incoación de expediente sobre disciplina urbanística o restauración de la legalidad urbanística (letra c); las condiciones especiales a que se sujeten los actos de conformidad, aprobación o autorización administrativa (letra d); los actos de transferencia y gravamen del aprovechamiento urbanístico (letra e); y cualquier otro acto administrativo que, en desarrollo de los instrumentos de ordenación o ejecución urbanísticos, modifique el dominio o cualquier otro derecho real sobre fincas determinadas o su descripción (letra h). El artículo 66 permite la inscripción mediante certificación administrativa, pero no excluye otras formas."
+  },
+  {
+    "id": "E28-14",
+    "tema": "E28",
+    "q": "El artículo 28.4 del RDL 7/2015 regula la constancia registral de la terminación de obra nueva cuando ya no procede adoptar medidas de restablecimiento de la legalidad urbanística por haber transcurrido los plazos de prescripción. ¿Qué documentación es suficiente para practicar la inscripción en este supuesto?",
+    "o": [
+      "Certificación expedida por el Ayuntamiento o por técnico competente, acta notarial descriptiva de la finca o certificación catastral descriptiva y gráfica en las que conste la terminación de la obra en fecha determinada y su descripción coincidente con el título, acompañada de la comprobación registral de inexistencia de anotación preventiva por disciplina urbanística y de que el suelo no es demanial.",
+      "Certificación expedida exclusivamente por el Colegio Oficial de Arquitectos, sin necesidad de que conste la fecha de terminación de la obra ni la descripción coincidente con el título.",
+      "Certificación del Registrador de la Propiedad sobre la inexistencia de cargas, sin necesidad de aportar documentación técnica ni catastral alguna.",
+      "Declaración responsable del propietario ante el Ayuntamiento, sin necesidad de certificación técnica ni catastral, siempre que hayan transcurrido más de diez años desde la terminación."
+    ],
+    "c": 0,
+    "exp": "El artículo 28.4.a) del RDL 7/2015 establece que, en el caso de construcciones, edificaciones e instalaciones respecto de las cuales ya no proceda adoptar medidas de restablecimiento de la legalidad urbanística que impliquen su demolición, por haber transcurrido los plazos de prescripción correspondientes, se inscribirán las escrituras de declaración de obra nueva que se acompañen de certificación expedida por el Ayuntamiento o por técnico competente, acta notarial descriptiva de la finca o certificación catastral descriptiva y gráfica de la finca, en las que conste la terminación de la obra en fecha determinada y su descripción coincidente con el título. A tales efectos, el Registrador comprobará la inexistencia de anotación preventiva por incoación de expediente de disciplina urbanística sobre la finca y que el suelo no tiene carácter demanial o está afectado por servidumbres de uso público general."
+  },
+  {
+    "id": "E28-15",
+    "tema": "E28",
+    "q": "En relación con los supuestos indemnizatorios del artículo 48 del RDL 7/2015, ¿cuál de las siguientes afirmaciones es correcta?",
+    "o": [
+      "La alteración de las condiciones de ejercicio de la ejecución de la urbanización por cambio de la ordenación territorial o urbanística da lugar a indemnización siempre que se produzca antes de transcurrir los plazos previstos para su desarrollo o, transcurridos éstos, si la ejecución no se hubiere llevado a efecto por causas imputables a la Administración.",
+      "Las situaciones de fuera de ordenación producidas por cambios en la ordenación territorial o urbanística son siempre indemnizables, incluyendo el valor total de la edificación afectada.",
+      "La anulación de títulos administrativos habilitantes de obras y actividades nunca da lugar a indemnización, aunque exista demora injustificada en su otorgamiento.",
+      "La ocupación de terrenos destinados por la ordenación a dotaciones públicas no genera derecho a indemnización en ningún caso, ni siquiera por el período que medie hasta la aprobación definitiva del instrumento que adjudique otros terrenos."
+    ],
+    "c": 0,
+    "exp": "El artículo 48.a) del RDL 7/2015 establece que dan lugar a derecho de indemnización las lesiones en los bienes y derechos que resulten de la alteración de las condiciones de ejercicio de la ejecución de la urbanización, o de las condiciones de participación de los propietarios en ella, por cambio de la ordenación territorial o urbanística o del acto o negocio de la adjudicación de dicha actividad, siempre que se produzca antes de transcurrir los plazos previstos para su desarrollo o, transcurridos éstos, si la ejecución no se hubiere llevado a efecto por causas imputables a la Administración. El mismo artículo precisa que las situaciones de fuera de ordenación producidas por los cambios en la ordenación no serán indemnizables, sin perjuicio de que pueda serlo la imposibilidad de usar y disfrutar lícitamente durante su vida útil. El artículo 48.d) contempla la indemnización por anulación de títulos habilitantes, demora injustificada en su otorgamiento y denegación improcedente, salvo dolo, culpa o negligencia graves del perjudicado. El artículo 48.e) regula la indemnización por ocupación de terrenos destinados a dotaciones públicas, con un régimen específico de advertencia y plazos."
+  },
   // ---------- DFL 1/2017 (E29) ----------
   { id: "E29-01", tema: "E29",
     q: "Según el DFL 1/2017, las determinaciones de los Planes de Ordenación Territorial (POT):",
@@ -6272,114 +6452,7 @@ export const PREGUNTAS = [
     "exp": "El Anejo 1, punto 1, establece que si los almacenamientos se realizan en naves abiertas o al descubierto, la instalación deberá contar con una cuneta o sistema equivalente de manera que la totalidad de las aguas de escorrentía del recinto se recojan y se conduzcan a una balsa para su decantación previa a su vertido en cauce público. Las demás alternativas describen finalidades distintas (infiltración directa, riego, vertido a saneamiento sin tratamiento) que no se corresponden con el requisito técnico establecido."
   },
    
-  // ---------- TEMA 28 ESPECÍFICO · RDL 7/2015 TRLSRU (E28) ----------
-  { id: "E28-03", tema: "E28",
-    q: "Conforme al art. 2.5 del TRLSRU, en los edificios constituidos en régimen de propiedad horizontal se entenderá que la carga derivada de unas obras de accesibilidad es desproporcionada cuando su coste repercutido anualmente, descontadas las ayudas públicas:",
-    o: ["Supere el 50 % del presupuesto anual de la comunidad",
-        "Supere la mitad del valor actual de construcción del inmueble",
-        "Exceda de seis mensualidades ordinarias de gastos comunes",
-        "Exceda de doce mensualidades ordinarias de gastos comunes"],
-    c: 3, exp: "Art. 2.5. Es un criterio tasado que evita discutir caso por caso. La última opción confunde el concepto con el límite del deber legal de conservación del art. 15.3." },
-  { id: "E28-04", tema: "E28",
-    q: "Una modificación del planeamiento incrementa la edificabilidad de varias parcelas de suelo urbanizado y obliga a aumentar las dotaciones públicas para reajustar su proporción, sin que sea necesario reformar la urbanización existente. Conforme al art. 7 se trata de:",
-    o: ["Una actuación de dotación",
-        "Una actuación de nueva urbanización",
-        "Una actuación edificatoria",
-        "Una actuación de reforma o renovación de la urbanización"],
-    c: 0, exp: "Art. 7.1.b. La actuación de dotación se define en negativo: incrementa dotaciones para reajustar la proporción con la mayor edificabilidad o los nuevos usos y NO requiere la reforma o renovación de la urbanización. Si la requiriese, sería actuación de urbanización." },
-  { id: "E28-05", tema: "E28",
-    q: "Según el art. 11.2 del TRLSRU, la previsión de edificabilidad por la ordenación territorial y urbanística:",
-    o: ["Se integra en el derecho de propiedad desde la obtención de la licencia de obras",
-        "Por sí misma no la integra en el contenido del derecho de propiedad: la patrimonialización se produce únicamente con su realización efectiva",
-        "Se integra en el derecho de propiedad desde la aprobación del proyecto de reparcelación",
-        "Se integra en el contenido del derecho de propiedad del suelo desde la aprobación definitiva del plan"],
-    c: 1, exp: "Art. 11.2. La patrimonialización está además condicionada al cumplimiento de los deberes y el levantamiento de las cargas propias del régimen que corresponda. Es el fundamento de que los cambios de planeamiento no sean, con carácter general, indemnizables." },
-  { id: "E28-06", tema: "E28",
-    q: "El límite de las obras que deben ejecutarse a costa de los propietarios en cumplimiento del deber legal de conservación de las edificaciones se establece, con carácter general, en:",
-    o: ["El valor catastral de la construcción",
-        "La totalidad del valor actual de construcción del inmueble",
-        "El 75 % del coste de reposición de la construcción",
-        "La mitad del valor actual de construcción de un inmueble de nueva planta equivalente al original"],
-    c: 3, exp: "Art. 15.3. El 75 % del coste de reposición es el límite máximo al que puede elevarse, si así lo dispone la legislación autonómica, en los casos de inejecución injustificada de las obras ordenadas dentro del plazo conferido (art. 15.4)." },
-  { id: "E28-07", tema: "E28",
-    q: "El porcentaje de la edificabilidad media ponderada que debe entregarse a la Administración con destino a patrimonio público de suelo (art. 18.1.b) se sitúa, con carácter general, entre:",
-    o: ["El 5 % y el 15 %, ampliable excepcionalmente hasta el 20 %",
-        "El 10 % y el 15 %, sin posibilidad de ampliación",
-        "El 10 % y el 20 %, ampliable excepcionalmente hasta el 25 %",
-        "El 5 % y el 10 %, ampliable excepcionalmente hasta el 15 %"],
-    c: 0, exp: "Art. 18.1.b. La ampliación hasta el 20 % o la reducción deben ser proporcionadas y motivadas, y se reservan a actuaciones o ámbitos en que el valor de las parcelas resultantes sea sensiblemente superior o inferior al medio de su misma categoría de suelo." },
-  { id: "E28-08", tema: "E28",
-    q: "Para hacer efectivo el derecho de retorno del art. 19.2, el propietario de la finca deberá proporcionar una nueva vivienda cuya superficie:",
-    o: ["No sea inferior al cincuenta por ciento de la anterior siempre que tenga, al menos, noventa metros cuadrados, o no inferior a la que tuviere si no alcanzaba dicha superficie",
-        "No sea inferior a noventa metros cuadrados en todo caso",
-        "No sea inferior al setenta y cinco por ciento de la anterior",
-        "Sea igual o superior a la anterior en todo caso"],
-    c: 0, exp: "Art. 19.2. La vivienda debe además ser de características análogas y estar ubicada en el mismo solar o en el entorno del edificio demolido o rehabilitado. El derecho es ejercitable frente al dueño de la nueva edificación por el tiempo que reste hasta la finalización del contrato." },
-  { id: "E28-09", tema: "E28",
-    q: "Un sector de suelo urbanizable cuenta con Plan Parcial aprobado y proyecto de urbanización en tramitación, pero las obras no han concluido. A efectos del TRLSRU, dicho suelo se encuentra:",
-    o: ["En una situación intermedia de suelo urbanizable, con reglas propias de valoración",
-        "En situación básica de suelo rural, hasta que termine la correspondiente actuación de urbanización",
-        "En situación básica de suelo urbanizado desde el inicio material de las obras",
-        "En situación básica de suelo urbanizado, por contar con planeamiento de desarrollo aprobado"],
-    c: 1, exp: "Art. 21.2.b. Solo existen dos situaciones básicas. Esta es la regla que impide valorar expectativas urbanísticas: el suelo se tasa por capitalización de rentas (art. 36) hasta que la actuación de urbanización termine." },
-  { id: "E28-10", tema: "E28",
-    q: "Conforme al art. 21.3 del TRLSRU, el hecho de que un suelo sea colindante con carreteras de circunvalación o con vías de comunicación interurbanas:",
-    o: ["No comporta, por sí mismo, su consideración como suelo urbanizado",
-        "Determina su consideración como urbanizado si la vía cuenta con acceso rodado directo",
-        "Determina automáticamente su consideración como suelo urbanizado",
-        "Es irrelevante, porque la situación básica la fija en todo caso la legislación autonómica"],
-    c: 0, exp: "Art. 21.3.b. Es una regla antielusión frente a la práctica de considerar urbanizado cualquier terreno con acceso desde una vía. La condición previa e ineludible es estar legalmente integrado en una malla urbana." },
-  { id: "E28-11", tema: "E28",
-    q: "En la valoración del suelo en situación rural, los terrenos se tasan (art. 36.1.a) mediante la capitalización de:",
-    o: ["La renta anual potencial en todo caso",
-        "La renta anual real de la explotación en todo caso",
-        "La renta anual real o potencial, la que sea superior, según el estado del terreno en el momento de la valoración",
-        "El valor catastral de la finca, corregido por factores de localización"],
-    c: 2, exp: "Art. 36.1.a. La renta potencial se calcula con los medios técnicos normales de producción, incluyendo como ingresos las subvenciones estables y descontando los costes de explotación. El valor así obtenido puede corregirse al alza por factores objetivos de localización, justificados en el expediente." },
-  { id: "E28-12", tema: "E28",
-    q: "Al valorar suelo rural conforme al TRLSRU:",
-    o: ["Podrán considerarse las expectativas derivadas de la edificabilidad prevista por el planeamiento, aunque no se haya ejecutado",
-        "En ningún caso podrán considerarse expectativas derivadas de la asignación de edificabilidades y usos por la ordenación que no hayan sido aún plenamente realizados",
-        "Las expectativas se computan solo si el plan tiene más de cuatro años de vigencia",
-        "Las expectativas se computan con una reducción del 50 %"],
-    c: 1, exp: "Art. 36.2. Es la regla que rompió con el sistema anterior de valoración por aprovechamiento urbanístico y la que explica la caída de los justiprecios en suelo urbanizable no ejecutado." },
-  { id: "E28-13", tema: "E28",
-    q: "Tratándose de suelo urbanizado edificado o en curso de edificación, el valor de tasación será (art. 37.2):",
-    o: ["El resultante del método de comparación aplicado conjuntamente a suelo y edificación",
-        "El superior entre la tasación conjunta de suelo y edificación por comparación, y el método residual aplicado exclusivamente al suelo",
-        "El resultante del método residual aplicado exclusivamente al suelo",
-        "La media aritmética de ambos métodos"],
-    c: 1, exp: "Art. 37.2. El método de comparación se aplica exclusivamente a los usos de la edificación existente; el residual, sin consideración de esa edificación. Se toma el mayor de los dos resultados." },
-  { id: "E28-14", tema: "E28",
-    q: "Un suelo fue expropiado para ejecutar una actuación de urbanización. Conforme al art. 47.2, procede la reversión:",
-    o: ["Nunca, por tratarse de un supuesto expresamente excluido de reversión",
-        "Cuando hayan transcurrido cinco años desde la expropiación sin que la urbanización se haya concluido",
-        "Cuando hayan transcurrido ocho años desde la expropiación sin que la urbanización se haya concluido",
-        "Cuando hayan transcurrido diez años desde la expropiación sin que la urbanización se haya concluido"],
-    c: 3, exp: "Art. 47.2.a. Los ocho años son el plazo de mantenimiento del uso dotacional público que excluye la reversión (art. 47.1.a). Si en lugar de no concluirse la urbanización se alteran los usos o la edificabilidad con incremento de valor, lo que procede es la RETASACIÓN (47.2.b)." },
-  { id: "E28-15", tema: "E28",
-    q: "Según el art. 48.a) del TRLSRU, las situaciones de fuera de ordenación producidas por los cambios en la ordenación territorial o urbanística:",
-    o: ["Son siempre indemnizables por el valor de la edificación afectada",
-        "Son indemnizables únicamente cuando el plan prevea su demolición inmediata",
-        "No serán indemnizables, sin perjuicio de que pueda serlo la imposibilidad de usar y disfrutar lícitamente de la construcción durante su vida útil",
-        "Son indemnizables solo si el edificio tiene menos de veinticinco años"],
-    c: 2, exp: "Art. 48.a. Coherente con el art. 11.2: lo que no se ha patrimonializado no se indemniza. Lo indemnizable no es la situación en sí, sino la privación del uso lícito durante la vida útil restante." },
-  { id: "E28-16", tema: "E28",
-    q: "Para que el derecho de superficie quede válidamente constituido (art. 53.2) se requiere:",
-    o: ["Únicamente documento privado con firmas legitimadas, sin plazo máximo",
-        "Escritura pública, sin que la inscripción registral sea constitutiva, con plazo máximo de setenta y cinco años",
-        "Escritura pública e inscripción registral, con un plazo máximo de setenta y cinco años prorrogable",
-        "Formalización en escritura pública e inscripción en el Registro de la Propiedad, con un plazo de duración que no podrá exceder de noventa y nueve años"],
-    c: 3, exp: "Art. 53.2. La inscripción es constitutiva y el plazo debe fijarse necesariamente en la escritura. Solo puede constituirlo el propietario del suelo, sea público o privado, y al extinguirse por transcurso del plazo lo edificado revierte sin indemnización alguna (art. 54.5)." },
-  { id: "E28-17", tema: "E28",
-    q: "Conforme al art. 67 del TRLSRU, la incoación de un expediente de disciplina urbanística sobre una finca se hará constar en el Registro de la Propiedad mediante:",
-    o: ["Inscripción, con vigencia indefinida",
-        "Certificación administrativa sin asiento registral",
-        "Anotación preventiva, que caducará a los cuatro años y podrá ser prorrogada",
-        "Nota marginal, con vigencia indefinida"],
-    c: 2, exp: "Art. 67.2, que abarca las letras c) y f) del art. 65.1. Por inscripción se hacen constar los actos de las letras a), b), g) y h); por nota marginal, los demás, con vigencia indefinida pero sin más efecto que dar a conocer la situación urbanística." },
-
-  // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) (E29) ----------
+    // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) (E29) ----------
   { id: "E29-02", tema: "E29",
     q: "Conforme al art. 7.2 del DFL 1/2017, cualquier instrumento de ordenación territorial o urbanístico será sometido, previamente a su aprobación definitiva, a un período de participación ciudadana no menor de:",
     o: ["Dos meses", "Veinte días", "Quince días", "Un mes"],
