@@ -10040,5 +10040,96 @@ export const RESUMENES = {
       "Aprobación definitiva del PGM: 3 MESES para notificar; el silencio es POSITIVO. Texto refundido en 3 MESES si se incorporan determinaciones",
       "Fuera de ordenación: caben reparaciones de seguridad e higiene y consolidaciones parciales, no aumento de volumen ni modernización",
     ],
+  "memorizacion": {
+  "tablas": [
+    {
+      "titulo": "Estándares mínimos de reserva de vivienda protegida según población (art. 54 LFOTU)",
+      "columnas": ["Población del municipio", "Porcentaje mínimo de nueva capacidad residencial", "Reducción o exención por número de viviendas", "Posibilidad de reducción por inviabilidad"],
+      "filas": [
+        ["Comarca de Pamplona o ≥ 10.000 habitantes", "50 %", "Si el incremento de viviendas es ≤ 3, el Pleno puede reducir o eliminar la exigencia por mayoría simple", "Tras 4 años desde la publicación de la aprobación definitiva del Plan Municipal, el Pleno puede solicitar reducir hasta el 30 %, previo informe del departamento de vivienda"],
+        ["≥ 2.000 y < 10.000 habitantes", "35 %", "Si el incremento de viviendas es ≤ 10, el Pleno puede reducir o eliminar la exigencia por mayoría simple", "Tras 4 años desde la publicación de la aprobación definitiva del Plan Municipal, el Pleno puede solicitar reducir hasta el 10 %, previo informe del departamento de vivienda"],
+        ["< 2.000 habitantes", "20 %", "Si el incremento de viviendas es ≤ 25, el Pleno puede reducir o eliminar la exigencia por mayoría simple", "No se prevé reducción adicional por inviabilidad"]
+      ],
+      "nota": "Fuente: art. 54.1 del texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo (Decreto Foral Legislativo 1/2017). Los porcentajes se aplican sobre la nueva capacidad residencial prevista en actuaciones de nueva urbanización, dotación, sustitución y renovación o reforma de la urbanización. La reducción o eliminación por número de viviendas requiere acuerdo del Pleno por mayoría simple. La reducción por inviabilidad requiere justificación objetiva y ha transcurrido al menos cuatro años desde la publicación en el BON de la aprobación definitiva del Plan Municipal; el departamento competente en vivienda emite informe estimando o desestimando y fija el nuevo porcentaje."
+    },
+    {
+      "titulo": "Plazos de información pública y participación ciudadana en instrumentos de ordenación territorial y urbanística",
+      "columnas": ["Instrumento", "Plazo mínimo de información pública o participación", "Órgano que aprueba", "Referencia"],
+      "filas": [
+        ["Cualquier instrumento de ordenación territorial o urbanístico (regla general)", "20 días de participación ciudadana mediante exposición pública y, en su caso, audiencia a entidades locales", "Según el instrumento", "Art. 7.2"],
+        ["Estrategia Territorial de Navarra", "2 meses de información pública y audiencia a entidades locales, mancomunidades y federaciones", "Parlamento de Navarra", "Art. 33.2 y 33.5"],
+        ["Planes de Ordenación Territorial", "1 mes para el avance y 1 mes para el proyecto, información pública y audiencia a entidades locales", "Gobierno de Navarra mediante decreto foral", "Art. 36.2 y 36.6"],
+        ["Planes Directores de Acción Territorial", "2 meses de información pública y audiencia a entidades locales", "Gobierno de Navarra mediante decreto foral", "Art. 40.2 y 40.5"],
+        ["Planes y Proyectos Sectoriales de Incidencia Supramunicipal", "1 mes de información pública y audiencia a ayuntamientos afectados (tras declaración de incidencia supramunicipal)", "Gobierno de Navarra", "Art. 45.2.d y 45.2.f"],
+        ["Planes Parciales, Planes Especiales de desarrollo y Planes Especiales de Actuación Urbana", "1 mes de información pública", "Ayuntamiento (aprobación definitiva)", "Art. 72.1.a"],
+        ["Convenios de gestión urbanística", "20 días hábiles de información pública desde su publicación en el BON", "Administración actuante", "Art. 25.5"],
+        ["Estudios de Detalle", "20 días de información pública", "Ayuntamiento", "Art. 74.b"]
+      ],
+      "nota": "Fuente: arts. 7, 25, 33, 36, 40, 45, 72 y 74 del texto refundido. La regla general del art. 7.2 exige un período no menor de 20 días para cualquier instrumento. En los convenios de gestión el plazo se expresa en días hábiles; en los demás casos el TXT no especifica si son naturales o hábiles, por lo que no se deduce."
+    },
+    {
+      "titulo": "Competencias en ordenación del territorio y urbanismo (arts. 10-12 LFOTU)",
+      "columnas": ["Materia o función", "Administración de la Comunidad Foral de Navarra", "Municipios", "Referencia"],
+      "filas": [
+        ["Función pública de ordenación del territorio (formulación, aprobación y ejecución de instrumentos)", "Corresponde a la Administración de la Comunidad Foral, sin perjuicio de participación de otras Administraciones y ciudadanos", "No se atribuye con carácter general", "Art. 10.1"],
+        ["Dirección e impulso de la actividad urbanística", "Sí", "No", "Art. 10.2.a"],
+        ["Coordinación y control de legalidad del planeamiento urbanístico (aprobación definitiva de Planes Generales Municipales)", "Sí", "No", "Art. 10.2.b"],
+        ["Formulación de Planes urbanísticos de conjunto y aprobación definitiva de Planes Parciales y Especiales que afecten a varios municipios, en defecto de acuerdo", "Sí", "No", "Art. 10.2.c"],
+        ["Cooperación y asistencia económica, técnica y administrativa a los Municipios", "Sí", "No", "Art. 10.2.d"],
+        ["Actividad urbanística pública con carácter general", "No", "Sí, ejercen cuantas competencias no estén expresamente atribuidas a otras Administraciones", "Art. 11"],
+        ["Subrogación por incumplimiento de obligaciones impuestas directamente por la ley foral", "Sí, el titular del Departamento competente puede adoptar medidas a cuenta y en sustitución de la Entidad Local", "No", "Art. 12.1"],
+        ["Subrogación en potestad expropiatoria por inactividad municipal ante incumplimiento de deberes urbanísticos", "Sí, el titular del Departamento competente", "No", "Art. 12.2"]
+      ],
+      "nota": "Fuente: arts. 10, 11 y 12 del texto refundido. La competencia municipal en urbanismo es residual: todo lo no atribuido expresamente a otras Administraciones. La subrogación foral procede ante incumplimiento de obligaciones impuestas directamente por la ley foral o inactividad municipal en deberes urbanísticos."
+    },
+    {
+      "titulo": "Órganos de la Administración de la Comunidad Foral en ordenación del territorio y urbanismo (arts. 13-15 LFOTU)",
+      "columnas": ["Órgano", "Naturaleza", "Funciones principales", "Referencia"],
+      "filas": [
+        ["Gobierno de Navarra", "Órgano superior", "Aprobación de Planes de Ordenación Territorial, Planes Directores de Acción Territorial y Planes/Proyectos Sectoriales de Incidencia Supramunicipal, mediante decreto foral", "Art. 13.1.a; arts. 36.6, 40.5, 45.2.f"],
+        ["Departamento competente en ordenación del territorio y urbanismo", "Órgano de la Administración Foral", "Elaboración de instrumentos, propuesta de aprobación al Gobierno, aprobación de modificaciones de determinaciones pormenorizadas de Planes Sectoriales, autorización de adaptaciones de Proyectos Sectoriales, actualización de Planes de Ordenación Territorial y Planes de Acción Territorial", "Art. 13.1.b; arts. 36.5, 37.7, 41.5, 45.5"],
+        ["Comisión de Ordenación del Territorio", "Órgano consultivo y de coordinación", "Informar Estrategia Territorial, Planes de Ordenación Territorial, Planes y Proyectos Sectoriales, Planes con Incidencia en la Ordenación del Territorio y emitir informe consultivo no vinculante cuando sea requerido", "Art. 14.1 y 14.3"],
+        ["Consejo Social de Política Territorial", "Órgano participativo y deliberante", "Emitir informes preceptivos y no vinculantes sobre disposiciones generales de ordenación del territorio, Estrategia Territorial, Planes de Ordenación Territorial y Planes de Acción Territorial; seguimiento anual de la Estrategia; memoria cuatrienal al Gobierno y Parlamento", "Art. 15.1, 15.2 y 15.4; art. 33.6 y 33.7"]
+      ],
+      "nota": "Fuente: arts. 13, 14 y 15 del texto refundido. La Comisión de Ordenación del Territorio está presidida por el titular del Departamento competente e incluye cuatro representantes de los Ayuntamientos a propuesta de la Federación Navarra de Municipios y Concejos, pudiendo también formar parte un representante de la Administración del Estado y representantes de organizaciones y asociaciones que se determinen reglamentariamente (art. 14.2)."
+    },
+    {
+      "titulo": "Sistemas de actuación y convenios urbanísticos: gestión y equidistribución",
+      "columnas": ["Figura", "Objeto", "Aprobación", "Efectos o condiciones"],
+      "filas": [
+        ["Convenios sobre planeamiento (art. 24)", "Aprobación o modificación del planeamiento urbanístico", "Ayuntamiento, previa información pública mínimo 20 días", "El Ayuntamiento está obligado a tramitar la aprobación o alteración, pero conserva la potestad de planeamiento por razones de interés público; si no se aprueba definitivamente, el convenio se entiende resuelto automáticamente"],
+        ["Convenios de gestión (art. 25)", "Términos y condiciones de la ejecución del planeamiento, sin alterarlo", "Administración actuante, previa información pública 20 días hábiles desde publicación en BON", "Pueden sustituir excepcionalmente la adjudicación de aprovechamiento al ayuntamiento por cantidad sustitutoria en metálico, previa valoración técnica. Si los particulares asumen la completa responsabilidad de la urbanización en una unidad de ejecución, pueden definir su ejecución apartándose de los sistemas de actuación regulados en la ley foral; el convenio tendrá consideración de instrumento de equidistribución"],
+        ["Convenios de gestión para reasignación de parcelas (art. 25.6)", "Permuta o sustitución de adjudicaciones entre propietarios de parcelas resultantes de reparcelación no edificadas", "Administración actuante, a solicitud de interesados y cumpliendo requisitos", "Las operaciones civiles y registrales tendrán el tratamiento fiscal y registral de actos de reparcelación"],
+        ["Consorcios urbanísticos (art. 22)", "Ejercicio en común de competencias urbanísticas, realización de obras o prestación de servicios públicos de incidencia territorial o urbanística", "Constitución por la Administración Foral y uno o varios municipios", "Pueden incorporarse particulares y entidades de Derecho privado, pero su participación nunca será mayoritaria ni les permitirá controlar o tener posición decisiva"]
+      ],
+      "nota": "Fuente: arts. 22, 24 y 25 del texto refundido. Los convenios urbanísticos tienen carácter jurídico-administrativo y se rigen por los principios de transparencia y publicidad (art. 23.2 y 23.5). Son nulas de pleno derecho las estipulaciones que contravengan normas imperativas legales o reglamentarias, incluidas las del planeamiento (art. 23.4)."
+    }
+  ],
+  "datos": [
+    "La aprobación definitiva de los instrumentos de ordenación territorial se publica en el Boletín Oficial de Navarra y su ejecutividad comienza a partir de esa publicación, que recogerá las normas contenidas en ellos (art. 29.2 LFOTU).",
+    "La Estrategia Territorial de Navarra se aprueba por el Parlamento de Navarra, a propuesta del Gobierno de Navarra, previo informe de la Comisión de Ordenación del Territorio y del Consejo Social de Política Territorial (art. 33.4 y 33.5).",
+    "Los Planes de Ordenación Territorial se aprueban por el Gobierno de Navarra mediante decreto foral, a propuesta del titular del Departamento competente, previo informe de la Comisión de Ordenación del Territorio y del Consejo Social de Política Territorial (art. 36.4, 36.5 y 36.6).",
+    "Los Planes Directores de Acción Territorial contienen una programación de las actuaciones a ocho años y pueden establecer reservas de suelo para preservar suelos de acciones que dificulten su desarrollo o para adquirirlos con antelación a su urbanización (art. 39.1.b y 38.2).",
+    "La declaración de incidencia supramunicipal de un Plan o Proyecto Sectorial corresponde al Gobierno de Navarra, a propuesta del titular del Departamento competente en ordenación del territorio, previo informe de la Comisión de Ordenación del Territorio (art. 45.2.b y 45.2.c).",
+    "Los Planes Sectoriales de Incidencia Supramunicipal de iniciativa particular deben garantizar el cumplimiento de sus obligaciones con una garantía total no inferior al 6 % del coste de implantación de servicios y ejecución de obras de urbanización, según la evaluación económica del propio Plan (art. 43.3.b).",
+    "Los Proyectos Sectoriales de Incidencia Supramunicipal de iniciativa particular también exigen una garantía mínima del 6 % del coste de implantación de servicios y ejecución de obras de urbanización (art. 44.3.b).",
+    "La aprobación de un Plan o Proyecto Sectorial de Incidencia Supramunicipal puede llevar aparejada la declaración de utilidad pública o interés social, así como la urgencia a efectos expropiatorios (art. 45.4).",
+    "Los Planes Sectoriales de Incidencia Supramunicipal se extinguen, entre otros supuestos, si transcurren dos años desde su aprobación definitiva sin iniciar la ejecución de las obras de urbanización o si, iniciadas, se interrumpen más de dos años sin causa justificada de fuerza mayor (art. 46.1.a).",
+    "Los Proyectos Sectoriales de Incidencia Supramunicipal se extinguen si transcurren dos años desde su aprobación definitiva sin iniciar su ejecución o si, iniciada, se interrumpe más de dos años sin causa justificada de fuerza mayor (art. 46.2.a).",
+    "La reserva de suelo con carácter de dotación supramunicipal en sectores de suelo urbanizable de uso residencial debe ser no inferior a 3 metros cuadrados por cada 100 metros cuadrados construidos de uso residencial, con condición de solar, para viviendas protegidas y alojamientos dotacionales (art. 55.6).",
+    "En polígonos industriales o de servicios, al menos el 10 % del total del sector se destina a grandes zonas verdes (art. 55.3.c).",
+    "La previsión mínima de aparcamientos en suelo urbanizable y/o urbano no consolidado de uso residencial es de dos plazas por cada 100 metros cuadrados de edificación sobre rasante en edificación colectiva, o de tres plazas por vivienda en sectores de edificación unifamiliar, con al menos 0,5 plazas de aparcamiento en espacio público por vivienda y 0,5 por cada 100 metros cuadrados de usos comerciales y terciarios (art. 55.4).",
+    "Las Instrucciones Técnicas de Planeamiento se aprueban por orden foral del titular del Departamento competente en ordenación del territorio y urbanismo, previo período de participación e información no inferior a un mes (art. 83)."
+  ],
+  "excepciones": [
+    "En los Planes Sectoriales de Incidencia Supramunicipal, la cesión a los Ayuntamientos afectados es del 10 % del aprovechamiento lucrativo susceptible de tráfico inmobiliario, libre de cargas de urbanización; no se computan como aprovechamiento lucrativo los equipamientos y dotaciones públicas destinados al uso o servicio públicos (art. 43.2).",
+    "La modificación de determinaciones pormenorizadas de los Planes Sectoriales de Incidencia Supramunicipal puede ser aprobada por el Departamento competente en ordenación del territorio, previa exposición pública de un mes y audiencia a los Municipios afectados, o bien por el Ayuntamiento correspondiente si así lo autoriza el citado Departamento y con sujeción a sus directrices (art. 45.5).",
+    "En los Estudios de Detalle, el plazo máximo para acordar o denegar la aprobación inicial es de dos meses desde la presentación de la documentación completa en el Registro Municipal; en caso de no producirse alegaciones en el período de información pública, el documento se eleva directamente para su aprobación definitiva (art. 74.c).",
+    "En los Planes Parciales y Planes Especiales de desarrollo, si el ayuntamiento no adopta resolución sobre la aprobación inicial en el plazo de dos meses desde la presentación de la documentación completa en el registro municipal, se entiende aprobado inicialmente el plan (art. 72.1.a).",
+    "En los Planes Parciales y Planes Especiales de desarrollo, si transcurre el plazo máximo de dos meses desde la finalización del período de información pública sin que se haya adoptado resolución sobre la aprobación definitiva, se entiende aprobado el plan; en este supuesto, el promotor puede cumplir directamente las obligaciones de publicidad y comunicación del artículo 79.1 (art. 72.1.c).",
+    "La aprobación definitiva por silencio administrativo de determinaciones del planeamiento no puede vulnerar lo dispuesto en las leyes, en los instrumentos de ordenación territorial ni en los planes urbanísticos de rango superior; tampoco pueden adquirirse por silencio facultades o derechos que contravengan la legislación y la ordenación territorial o urbanística (art. 77.5).",
+    "En los Planes Generales Municipales de municipios de población igual o inferior a tres mil habitantes, la Estrategia y Modelo de Ordenación del Territorio consiste en una memoria con los contenidos del artículo 58.2 expuestos de forma simplificada, y el Plan Urbanístico Municipal contiene la documentación del artículo 58.5 también de forma simplificada (art. 59.1, 59.2 y 59.3)."
+  ]
+},
   },
 };
