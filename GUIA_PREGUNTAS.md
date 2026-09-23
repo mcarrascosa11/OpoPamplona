@@ -44,7 +44,7 @@ Si una norma contiene muchos incisos, **no** metas todos en la respuesta correct
 
 **BIEN (modelo de paralelismo, no para repetirlo en cada tanda):**
 
-«En una finca rural, la renta anual real asciende a 12.000 € y la potencial a 15.000 €. Conforme al artículo 36.1.a) del RDL 7/2015, ¿qué renta se capitaliza y qué corrección por localización admite el valor obtenido?»
+«Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, en una finca rural la renta anual real asciende a 12.000 € y la potencial a 15.000 €. ¿Qué renta se capitaliza y qué corrección por localización admite el valor obtenido conforme a su artículo 36.1.a)?»
 
 - A. La real (12.000 €), con posible corrección al alza por factores objetivos de localización.
 - B. La potencial (15.000 €), con posible corrección al alza por factores objetivos de localización. **CORRECTA**
@@ -59,7 +59,7 @@ Si una norma contiene muchos incisos, **no** metas todos en la respuesta correct
 
 **BIEN (la condición común va en el enunciado):**
 
-«Vencido el plazo previsto para ejecutar una urbanización, un cambio de ordenación altera sus condiciones de ejecución. Según el artículo 48.a) del RDL 7/2015, ¿qué circunstancia determina que concurra el supuesto indemnizatorio?»
+«Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, vencido el plazo previsto para ejecutar una urbanización, un cambio de ordenación altera sus condiciones de ejecución. ¿Qué circunstancia determina el supuesto indemnizatorio previsto en su artículo 48.a)?»
 
 - A. Que la falta de ejecución sea imputable a los propietarios.
 - B. Que la falta de ejecución sea imputable al agente urbanizador.
