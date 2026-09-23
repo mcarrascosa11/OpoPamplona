@@ -399,11 +399,11 @@ export const PREGUNTAS = [
       "Sección Primera: establecimientos públicos; Sección Segunda: actividades recreativas"],
   c: 1, exp: "Art. 32.1. La Sección Primera comprende las empresas que organizan espectáculos o actividades recreativas sin realizar su actividad en un local determinado. La Sección Segunda comprende los locales incluidos en el Catálogo de establecimientos públicos." },
    
-    // ---------- RDL 7/2015 (E28) · 15 preguntas originales revisadas ----------
+    // ---------- RDL 7/2015 (E28) · 15 preguntas originales: norma completa y artículo en cada enunciado ----------
   {
     "id": "E28-01",
     "tema": "E28",
-    "q": "En un edificio constituido en régimen de propiedad horizontal se estudian obras para realizar ajustes razonables de accesibilidad. Según el artículo 2.5, ¿en qué supuesto se considera desproporcionada la carga económica?",
+    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, en un edificio constituido en régimen de propiedad horizontal se proyectan obras para realizar ajustes razonables de accesibilidad. ¿Cuándo se considera desproporcionada la carga económica conforme a su artículo 2.5?",
     "o": [
       "El coste anual antes de ayudas excede de doce mensualidades ordinarias de gastos comunes.",
       "El coste anual descontadas las ayudas excede de doce mensualidades ordinarias de gastos comunes.",
@@ -416,7 +416,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-02",
     "tema": "E28",
-    "q": "En un ámbito de suelo urbanizado se pretende aumentar las dotaciones públicas. ¿Qué circunstancia impediría considerar la intervención una actuación de dotación según el artículo 7.1.b?",
+    "q": "De conformidad con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se pretende incrementar las dotaciones públicas de un ámbito de suelo urbanizado. ¿Qué circunstancia impide calificar la intervención como actuación de dotación según el artículo 7.1.b)?",
     "o": [
       "Que las nuevas dotaciones respondan a un aumento de edificabilidad.",
       "Que las nuevas dotaciones respondan a un incremento de densidad.",
@@ -429,7 +429,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-03",
     "tema": "E28",
-    "q": "Una actuación de dotación incrementa la edificabilidad media ponderada tras modificar el planeamiento. Según el artículo 18.2.a, ¿sobre qué base se calcula el deber de cesión de aprovechamiento?",
+    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, una actuación de dotación incrementa la edificabilidad media ponderada mediante una modificación del planeamiento. ¿Sobre qué base se calcula el deber de cesión de aprovechamiento conforme al artículo 18.2.a)?",
     "o": [
       "La edificabilidad media ponderada previa de la actuación.",
       "El incremento de edificabilidad total en las parcelas afectadas.",
@@ -442,7 +442,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-04",
     "tema": "E28",
-    "q": "Un sector no integrado en la malla urbana, y carente de los servicios propios del suelo urbanizado, cuenta con planeamiento aprobado que prevé su urbanización. Las obras han comenzado, pero aún no han terminado. A efectos del artículo 21, ¿cuál es su situación básica?",
+    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, un sector sin integrar en la malla urbana ni disponer de los servicios propios del suelo urbanizado tiene aprobada la ordenación que prevé su urbanización. Las obras han empezado, pero siguen sin terminar. ¿Cuál es su situación básica conforme al artículo 21?",
     "o": [
       "Rural, hasta que termine la correspondiente actuación de urbanización.",
       "Urbanizado, desde que se aprueba el instrumento de ordenación.",
@@ -455,7 +455,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-05",
     "tema": "E28",
-    "q": "Se modifica un complejo inmobiliario privado y no concurre el supuesto de licencia previsto en el artículo 26.6.a. ¿Cuál de estos requisitos, por sí mismo, permite acogerse a la excepción de autorización administrativa del artículo 26.6.b?",
+    "q": "De acuerdo con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se modifica un complejo inmobiliario privado y no concurre el supuesto previsto en el artículo 26.6.a). ¿Cuál de los siguientes requisitos permite prescindir de autorización administrativa conforme al artículo 26.6.b)?",
     "o": [
       "Que no aumente la superficie privativa del conjunto.",
       "Que no aumente el volumen edificado del conjunto.",
@@ -468,7 +468,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-06",
     "tema": "E28",
-    "q": "En una explotación rural, la renta anual real es de 19.000 €, incluidas las subvenciones. La renta potencial es de 18.000 € antes de incorporar 3.000 € de subvenciones estables aplicables al aprovechamiento. Ambos importes están calculados descontando sus costes. ¿Qué renta anual se capitaliza según el artículo 36.1.a?",
+    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se valora una explotación en suelo rural cuya renta anual real, incluidas las subvenciones, asciende a 19.000 €. La renta potencial es de 18.000 € antes de incorporar 3.000 € de subvenciones estables aplicables al aprovechamiento. Ambas rentas están calculadas una vez descontados sus costes. ¿Qué renta anual debe capitalizarse conforme al artículo 36.1.a)?",
     "o": [
       "21.000 €/año.",
       "19.000 €/año.",
@@ -481,7 +481,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-07",
     "tema": "E28",
-    "q": "Una parcela de suelo urbanizado no está edificada y la ordenación urbanística no le asigna edificabilidad ni uso privado. Conforme al artículo 37.1.a, ¿qué parámetros se toman como referencia para valorarla?",
+    "q": "Conforme al Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se valora una parcela de suelo urbanizado sin edificar a la que la ordenación no asigna edificabilidad ni uso privado. ¿Qué parámetros de referencia establece el artículo 37.1.a)?",
     "o": [
       "La edificabilidad máxima y el uso mayoritario del ámbito espacial homogéneo.",
       "La edificabilidad media y el uso mayoritario del ámbito espacial homogéneo.",
@@ -494,7 +494,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-08",
     "tema": "E28",
-    "q": "Un suelo expropiado para urbanizar cambia de uso por una modificación del planeamiento que no constituye un nuevo ejercicio pleno de la potestad de ordenación. El cambio incrementa su valor: 260.000 € aplicando los mismos criterios de valoración. El justiprecio original fue de 150.000 €, actualizado a 180.000 €. ¿Qué diferencia corresponde por retasación?",
+    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, un suelo expropiado para ejecutar una actuación de urbanización cambia de uso por una modificación del planeamiento que no supone un nuevo ejercicio pleno de la potestad de ordenación. El nuevo uso incrementa su valor hasta 260.000 €, calculados con los mismos criterios que el justiprecio original, de 150.000 €, actualizado a 180.000 €. ¿Qué cantidad corresponde por retasación conforme al artículo 47.2.b)?",
     "o": [
       "260.000 €.",
       "110.000 €.",
@@ -507,7 +507,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-09",
     "tema": "E28",
-    "q": "Extinguido un derecho de superficie por el transcurso de su plazo, y a falta de pacto sobre la liquidación, ¿qué sucede con la propiedad de lo edificado y los derechos impuestos por el superficiario, según el artículo 54.5?",
+    "q": "De acuerdo con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se extingue un derecho de superficie por el transcurso de su plazo, sin pacto de liquidación. ¿Qué sucede con la propiedad de lo edificado y con los derechos impuestos por el superficiario, conforme al artículo 54.5?",
     "o": [
       "El propietario recibe lo edificado sin indemnizar y se extinguen esos derechos.",
       "El propietario recibe lo edificado con indemnización y se extinguen esos derechos.",
@@ -520,7 +520,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-10",
     "tema": "E28",
-    "q": "Conforme a los artículos 65 y 67, ¿qué clase de asiento corresponde, respectivamente, al acto firme de aprobación de un expediente de ejecución urbanística que modifica fincas registrales y a la incoación de un expediente de disciplina urbanística?",
+    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se pretende inscribir un acto firme de aprobación de un expediente de ejecución urbanística que modifica fincas registrales y hacer constar la incoación de un expediente de disciplina urbanística. ¿Qué asientos corresponden, respectivamente, de acuerdo con los artículos 65 y 67?",
     "o": [
       "Aprobación: nota marginal; incoación: anotación preventiva.",
       "Aprobación: anotación preventiva; incoación: inscripción.",
@@ -533,7 +533,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-11",
     "tema": "E28",
-    "q": "Un arrendatario con derecho de retorno ocupaba una vivienda de 120 m². En una actuación aislada no expropiatoria, ¿qué superficie mínima debe tener la nueva vivienda que le proporcione el propietario, conforme al artículo 19.2?",
+    "q": "Conforme al Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, un arrendatario con derecho de retorno ocupaba una vivienda de 120 m² y debe abandonarla por una actuación aislada no expropiatoria. ¿Qué superficie mínima debe tener la vivienda que ha de proporcionarle el propietario según el artículo 19.2?",
     "o": [
       "60 m².",
       "90 m².",
@@ -546,7 +546,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-12",
     "tema": "E28",
-    "q": "La ordenación prevé actuaciones de nueva urbanización de suelo rural y de reforma o renovación de suelo urbanizado. Según el artículo 20.1.b, ¿qué reservas mínimas de edificabilidad residencial para vivienda protegida corresponden, respectivamente, a ambos supuestos?",
+    "q": "De acuerdo con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, la ordenación prevé una nueva urbanización de suelo rural y una reforma o renovación de suelo urbanizado. ¿Qué porcentajes mínimos de edificabilidad residencial deben reservarse para vivienda protegida, respectivamente, conforme a la regla general del artículo 20.1.b)?",
     "o": [
       "30 % y 10 %.",
       "30 % y 20 %.",
@@ -559,7 +559,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-13",
     "tema": "E28",
-    "q": "Se valora por el método residual suelo urbanizado sometido a una actuación de reforma o renovación. El planeamiento atribuye expresamente unos usos y edificabilidades en origen y otros tras la reforma. Según el artículo 37.3, ¿cuáles se toman como referencia?",
+    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se valora mediante el método residual suelo urbanizado sometido a una actuación de reforma o renovación. El planeamiento establece expresamente usos y edificabilidades tanto para su situación de origen como para la resultante de la reforma. ¿Cuáles se toman como referencia conforme al artículo 37.3?",
     "o": [
       "Los usos y edificabilidades de su situación de origen.",
       "Los usos y edificabilidades de su situación reformada.",
@@ -572,7 +572,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-14",
     "tema": "E28",
-    "q": "La Administración ocupa terrenos destinados a dotaciones públicas y no aprueba el instrumento que adjudicará otros equivalentes al propietario. Según el artículo 48.e, ¿cuánto debe transcurrir desde la ocupación para advertir del inicio del expediente de justiprecio y cuánto desde esa advertencia para presentar la hoja de aprecio?",
+    "q": "De conformidad con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, la Administración ha ocupado terrenos destinados a dotaciones públicas sin aprobar el instrumento que debe adjudicar al propietario otros terrenos de valor equivalente. Según el artículo 48.e), ¿cuánto tiempo debe transcurrir desde la ocupación para advertir a la Administración del inicio del expediente de justiprecio y cuánto desde la advertencia para presentar la hoja de aprecio?",
     "o": [
       "Tres años y seis meses, respectivamente.",
       "Cuatro años y tres meses, respectivamente.",
@@ -585,7 +585,7 @@ export const PREGUNTAS = [
   {
     "id": "E28-15",
     "tema": "E28",
-    "q": "En el Registro se practica nota marginal de iniciación de un expediente de distribución de beneficios y cargas. Conforme al artículo 68.2, ¿cuál es su duración y posible prórroga?",
+    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se practica en el Registro de la Propiedad una nota marginal por la iniciación de un expediente de distribución de beneficios y cargas. ¿Cuál es su duración y posible prórroga conforme al artículo 68.2?",
     "o": [
       "Tres años, prorrogables por otros dos a instancia del solicitante.",
       "Tres años, prorrogables por otros tres a instancia del solicitante.",
