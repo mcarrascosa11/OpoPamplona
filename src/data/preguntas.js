@@ -6728,202 +6728,201 @@ export const PREGUNTAS = [
     "exp": "El Anejo 1, punto 1, establece que si los almacenamientos se realizan en naves abiertas o al descubierto, la instalación deberá contar con una cuneta o sistema equivalente de manera que la totalidad de las aguas de escorrentía del recinto se recojan y se conduzcan a una balsa para su decantación previa a su vertido en cauce público. Las demás alternativas describen finalidades distintas (infiltración directa, riego, vertido a saneamiento sin tratamiento) que no se corresponden con el requisito técnico establecido."
   },
    
-    // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) (E29) ----------
-  
+    // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) (E29) · 15 preguntas originales revisadas ----------
   {
     "id": "E29-01",
     "tema": "E29",
-    "q": "¿Cuál de los siguientes instrumentos de ordenación territorial de Navarra se aprueba por el Parlamento de Navarra, a propuesta del Gobierno de Navarra?",
+    "q": "Conforme al artículo 7.2 del DFL 1/2017, ¿cuál es el período mínimo de participación ciudadana mediante exposición pública al que debe someterse cualquier instrumento de ordenación territorial o urbanística antes de su aprobación definitiva?",
     "o": [
-      "El Plan de Ordenación Territorial",
-      "La Estrategia Territorial de Navarra",
-      "El Plan Director de Acción Territorial",
-      "El Plan Sectorial de Incidencia Supramunicipal"
+      "Un período mínimo de quince días.",
+      "Un período mínimo de veinte días.",
+      "Un período mínimo de un mes.",
+      "Un período mínimo de dos meses."
     ],
     "c": 1,
-    "exp": "La Estrategia Territorial de Navarra se aprueba por el Parlamento de Navarra, a propuesta del Gobierno de Navarra, previo informe de la Comisión de Ordenación del Territorio y del Consejo Social de Política Territorial (art. 33.5 LFOTU). Los Planes de Ordenación Territorial, los Planes Directores de Acción Territorial y los Planes Sectoriales de Incidencia Supramunicipal se aprueban por el Gobierno de Navarra mediante decreto foral (arts. 36.6, 40.5 y 45.2.f)."
+    "exp": "Art. 7.2 DFL 1/2017: cualquier instrumento de ordenación territorial o urbanística debe someterse a un período no menor de veinte días de participación ciudadana mediante exposición pública y, en su caso, audiencia a las entidades locales, antes de su aprobación definitiva."
   },
   {
     "id": "E29-02",
     "tema": "E29",
-    "q": "En un municipio de Navarra con una población prevista en el planeamiento de 8.000 habitantes, ¿qué porcentaje mínimo de la nueva capacidad residencial debe reservarse a viviendas sujetas a algún régimen de protección pública en actuaciones de nueva urbanización?",
+    "q": "Una persona solicita información territorial y urbanística a la Administración competente. Si la ordenanza reguladora de la cédula urbanística no establece un plazo menor, ¿cuál es el plazo máximo para resolver la solicitud?",
     "o": [
-      "El 20 %",
-      "El 35 %",
-      "El 50 %",
-      "El 30 %"
+      "Un plazo máximo de quince días.",
+      "Un plazo máximo de un mes.",
+      "Un plazo máximo de dos meses.",
+      "Un plazo máximo de tres meses."
     ],
-    "c": 1,
-    "exp": "Para municipios con población igual o superior a 2.000 e inferior a 10.000 habitantes, el estándar mínimo de reserva de vivienda protegida es del 35 % de la nueva capacidad residencial prevista en actuaciones de nueva urbanización, dotación y renovación o reforma de la urbanización (art. 54.1.b LFOTU). El 50 % se aplica a la Comarca de Pamplona o municipios de 10.000 o más habitantes; el 20 % a municipios de menos de 2.000 habitantes."
+    "c": 2,
+    "exp": "Art. 8.3 DFL 1/2017: las solicitudes de información territorial y urbanística deben resolverse en el plazo máximo de dos meses, salvo que la Ordenanza reguladora de la cédula urbanística establezca uno menor."
   },
   {
     "id": "E29-03",
     "tema": "E29",
-    "q": "¿Cuál es el plazo mínimo de información pública y audiencia a las entidades locales para el proyecto de un Plan de Ordenación Territorial?",
+    "q": "Según el artículo 14.2, además de los representantes de la Administración de la Comunidad Foral que se designen, ¿cuántos representantes de los Ayuntamientos de Navarra forman parte de la Comisión de Ordenación del Territorio a propuesta de la Federación Navarra de Municipios y Concejos?",
     "o": [
-      "Veinte días",
-      "Un mes",
-      "Dos meses",
-      "Tres meses"
+      "Cuatro representantes.",
+      "Tres representantes.",
+      "Cinco representantes.",
+      "Seis representantes."
     ],
-    "c": 2,
-    "exp": "El proyecto de Plan de Ordenación Territorial se somete a información pública anunciada en el Boletín Oficial de Navarra y a audiencia de las entidades locales incluidas en su ámbito de incidencia por plazo mínimo de dos meses (art. 36.2 LFOTU). El avance también se somete a información pública por plazo mínimo de un mes."
+    "c": 0,
+    "exp": "Art. 14.2 DFL 1/2017: forman parte de la Comisión cuatro representantes de los Ayuntamientos de Navarra, a propuesta de la Federación Navarra de Municipios y Concejos, además de los representantes de la Administración de la Comunidad Foral que se designen."
   },
   {
     "id": "E29-04",
     "tema": "E29",
-    "q": "¿A quién corresponde la aprobación definitiva de los Planes Generales Municipales en Navarra?",
+    "q": "¿Qué carácter tienen los informes que emite el Consejo Social de Política Territorial sobre la Estrategia Territorial de Navarra, los Planes de Ordenación Territorial y los Planes de Acción Territorial?",
     "o": [
-      "Al Ayuntamiento respectivo",
-      "Al Gobierno de Navarra",
-      "Al titular del Departamento competente en ordenación del territorio y urbanismo",
-      "A la Comisión de Ordenación del Territorio"
+      "Potestativos y vinculantes.",
+      "Potestativos y no vinculantes.",
+      "Preceptivos y vinculantes.",
+      "Preceptivos y no vinculantes."
     ],
-    "c": 2,
-    "exp": "La aprobación definitiva de los Planes Generales Municipales corresponde al titular del Departamento competente en materia de ordenación del territorio y urbanismo de la Administración de la Comunidad Foral de Navarra (art. 71.12 y 71.16 LFOTU). El Ayuntamiento aprueba inicial y provisionalmente, pero la aprobación definitiva es foral."
+    "c": 3,
+    "exp": "Art. 15.2 DFL 1/2017: el Consejo Social de Política Territorial emite informes preceptivos y no vinculantes sobre, entre otros instrumentos, la Estrategia Territorial de Navarra, los Planes de Ordenación Territorial y los Planes de Acción Territorial."
   },
   {
     "id": "E29-05",
     "tema": "E29",
-    "q": "En los Planes Sectoriales de Incidencia Supramunicipal promovidos por iniciativa particular, ¿cuál es el importe mínimo de la garantía total que debe constituirse para responder del cumplimiento de las obligaciones derivadas del plan?",
+    "q": "Una determinación de un instrumento de ordenación territorial modifica directamente el régimen jurídico aplicable a unos terrenos y prevalece sobre una previsión contraria del planeamiento local. ¿Cómo la clasifica el artículo 29.1?",
     "o": [
-      "El 4 % del coste de implantación de servicios y ejecución de obras de urbanización",
-      "El 6 % del coste de implantación de servicios y ejecución de obras de urbanización",
-      "El 10 % del aprovechamiento lucrativo susceptible de tráfico inmobiliario",
-      "El 2 % del presupuesto total de las obras de urbanización"
+      "Determinación orientativa de actuación pública.",
+      "Determinación vinculante sobre el territorio.",
+      "Determinación vinculante para la planificación.",
+      "Determinación urbanística de carácter pormenorizado."
     ],
     "c": 1,
-    "exp": "Los Planes Sectoriales de Incidencia Supramunicipal de iniciativa particular deben garantizar el cumplimiento de las obligaciones derivadas del plan con una garantía total no inferior al 6 % del coste de implantación de los servicios y ejecución de las obras de urbanización, según la evaluación económica del propio Plan Sectorial (art. 43.3.b LFOTU). El 10 % se refiere a la cesión de aprovechamiento lucrativo a los Ayuntamientos, no a la garantía."
+    "exp": "Art. 29.1.a DFL 1/2017: las determinaciones vinculantes sobre el territorio tienen aplicación directa e inmediata sobre los terrenos y, como determinaciones de ordenación territorial, prevalecen sobre las previsiones contrarias del planeamiento local."
   },
   {
     "id": "E29-06",
     "tema": "E29",
-    "q": "¿Qué órgano de la Administración de la Comunidad Foral de Navarra tiene la consideración de órgano consultivo y de coordinación en materia de ordenación del territorio?",
+    "q": "Tras la elaboración, información pública e informes previstos en el artículo 33, ¿qué órgano aprueba la Estrategia Territorial de Navarra?",
     "o": [
-      "El Consejo Social de Política Territorial",
-      "La Comisión de Ordenación del Territorio",
-      "El Departamento competente en ordenación del territorio y urbanismo",
-      "El Gobierno de Navarra"
+      "El Gobierno de Navarra, mediante decreto foral.",
+      "El titular del Departamento competente, mediante orden foral.",
+      "El Parlamento de Navarra, tras la remisión del proyecto.",
+      "La Comisión de Ordenación del Territorio, mediante acuerdo."
     ],
-    "c": 1,
-    "exp": "La Comisión de Ordenación del Territorio es el órgano consultivo y de coordinación de la Administración de la Comunidad Foral de Navarra en materia de ordenación del territorio (art. 14.1 LFOTU). El Consejo Social de Política Territorial es un órgano participativo y deliberante (art. 15.1)."
+    "c": 2,
+    "exp": "Art. 33.5 DFL 1/2017: la Estrategia Territorial de Navarra se aprueba por el Parlamento de Navarra. El titular del Departamento competente propone al Gobierno su remisión al Parlamento, pero la aprobación corresponde a este último."
   },
   {
     "id": "E29-07",
     "tema": "E29",
-    "q": "En un municipio de la Comarca de Pamplona, el planeamiento urbanístico prevé un sector de nueva urbanización con un incremento de 2 viviendas. ¿Puede el Ayuntamiento reducir o eliminar la exigencia del estándar mínimo de vivienda protegida?",
+    "q": "En la elaboración de un Plan de Ordenación Territorial, ¿qué plazo mínimo de información pública y audiencia a las entidades locales establece el artículo 36.2 para el avance y para el proyecto?",
     "o": [
-      "No, en ningún caso, porque la Comarca de Pamplona está sujeta al estándar del 50 % sin excepciones",
-      "Sí, mediante acuerdo del Pleno adoptado por mayoría simple, sin perjuicio de cumplir lo dispuesto en el artículo 54.4.c",
-      "Sí, pero solo mediante acuerdo del Pleno adoptado por mayoría absoluta",
-      "No, porque la reducción o eliminación solo es posible en municipios de menos de 2.000 habitantes"
+      "Dos meses para el avance y un mes para el proyecto.",
+      "Un mes para el avance y dos meses para el proyecto.",
+      "Dos meses tanto para el avance como para el proyecto.",
+      "Un mes tanto para el avance como para el proyecto."
     ],
-    "c": 1,
-    "exp": "En los municipios incluidos en el ámbito del planeamiento supramunicipal de la Comarca de Pamplona, si el incremento en el número de viviendas es igual o inferior a 3, los Ayuntamientos pueden reducir o eliminar la exigencia del estándar mínimo de vivienda protegida mediante acuerdo adoptado por mayoría simple del Pleno, sin perjuicio de cumplir lo dispuesto en el apartado 4.c del artículo 54 LFOTU (art. 54.1.a)."
+    "c": 3,
+    "exp": "Art. 36.2 DFL 1/2017: tanto el avance como el proyecto del Plan de Ordenación Territorial se someten a información pública y a audiencia de las entidades locales incluidas en su ámbito por un plazo mínimo de un mes."
   },
   {
     "id": "E29-08",
     "tema": "E29",
-    "q": "¿Cuál es el plazo máximo para que el titular del Departamento competente en ordenación del territorio y urbanismo notifique su resolución sobre la aprobación definitiva de un Plan General Municipal, transcurrido el cual se entiende aprobado por silencio administrativo?",
+    "q": "Se pretende alterar un Plan de Ordenación Territorial sin adoptar un modelo territorial sustancialmente distinto y sin limitarse a incorporar contenidos de actualización. ¿Qué tramitación corresponde según el artículo 37?",
     "o": [
-      "Un mes",
-      "Dos meses",
-      "Tres meses",
-      "Seis meses"
+      "Modificación, sin que sea necesaria la fase de avance.",
+      "Revisión, con las mismas fases de elaboración y aprobación.",
+      "Actualización, aprobada por el Gobierno mediante decreto foral.",
+      "Modificación, con avance previo sometido a información pública."
     ],
-    "c": 2,
-    "exp": "El titular del Departamento competente notifica sus resoluciones al ayuntamiento afectado en el plazo de tres meses desde el ingreso del expediente completo en el Registro de la Administración de la Comunidad Foral. Transcurrido dicho plazo sin notificación, se entiende aprobado el Plan General Municipal (art. 71.17 LFOTU)."
+    "c": 0,
+    "exp": "Art. 37.4 y 37.6 DFL 1/2017: fuera de los supuestos de revisión y actualización, la alteración se considera modificación; se tramita conforme al procedimiento del artículo 36, pero no es necesaria la fase de avance."
   },
   {
     "id": "E29-09",
     "tema": "E29",
-    "q": "En los Planes Sectoriales de Incidencia Supramunicipal, ¿qué porcentaje del aprovechamiento lucrativo susceptible de tráfico inmobiliario debe cederse a los Ayuntamientos afectados, libre de cargas de urbanización?",
+    "q": "Los Planes de Acción Territorial concretan y programan actuaciones sectoriales derivadas de un Plan de Ordenación Territorial. ¿Qué horizonte de programación establece el artículo 39.1.b para dichas actuaciones?",
     "o": [
-      "El 5 %",
-      "El 10 %",
-      "El 15 %",
-      "El 20 %"
+      "Un horizonte de cuatro años.",
+      "Un horizonte de seis años.",
+      "Un horizonte de ocho años.",
+      "Un horizonte de diez años."
     ],
-    "c": 1,
-    "exp": "El desarrollo de un Plan Sectorial de Incidencia Supramunicipal debe prever la cesión a los Ayuntamientos afectados del 10 % del aprovechamiento lucrativo susceptible de tráfico inmobiliario, libre de cargas de urbanización y de cualesquiera otras (art. 43.2 LFOTU). No se computan como aprovechamiento lucrativo los equipamientos y dotaciones públicas destinados al uso o servicio públicos."
+    "c": 2,
+    "exp": "Art. 39.1.b DFL 1/2017: los Planes de Acción Territorial deben incluir la descripción individualizada de las actuaciones, instrucciones para su diseño, estimación de costes, fórmulas de desarrollo, coordinación y su programación a ocho años."
   },
   {
     "id": "E29-10",
     "tema": "E29",
-    "q": "¿Qué instrumento de ordenación urbanística tiene por objeto establecer, modificar o reajustar alineaciones y rasantes de las edificaciones y viarios, salvo las de los elementos viarios que tengan el carácter de sistemas generales?",
+    "q": "En un Plan Sectorial de Incidencia Supramunicipal de iniciativa particular, ¿qué garantía mínima exige el artículo 43.3.b respecto del coste de implantación de servicios y ejecución de las obras de urbanización?",
     "o": [
-      "El Plan Parcial",
-      "El Plan Especial de Actuación Urbana",
-      "El Estudio de Detalle",
-      "El Plan General Municipal"
+      "El 4 % del coste evaluado.",
+      "El 6 % del coste evaluado.",
+      "El 8 % del coste evaluado.",
+      "El 10 % del coste evaluado."
     ],
-    "c": 2,
-    "exp": "Los Estudios de Detalle tienen por objeto establecer, modificar o reajustar el señalamiento de alineaciones y rasantes de las edificaciones y viarios, salvo las de los elementos viarios que tengan el carácter de sistemas generales (art. 63.1.a LFOTU). También pueden regular el tipo de obras admisibles y condiciones de las edificaciones, y determinaciones de accesibilidad."
+    "c": 1,
+    "exp": "Art. 43.3.b DFL 1/2017: la garantía total no puede ser inferior al 6 % del coste resultante para la implantación de los servicios y la ejecución de las obras de urbanización, según la evaluación económica del propio Plan Sectorial."
   },
   {
     "id": "E29-11",
     "tema": "E29",
-    "q": "¿Cuál es el plazo mínimo de participación ciudadana mediante exposición pública al que debe someterse cualquier instrumento de ordenación territorial o urbanístico previamente a su aprobación definitiva, según la regla general del artículo 7.2 de la LFOTU?",
+    "q": "Un municipio de 8.000 habitantes prevé una actuación con incremento de 9 viviendas. Según el artículo 54.1.b, ¿qué regla resulta aplicable al estándar de vivienda protegida?",
     "o": [
-      "Diez días",
-      "Quince días",
-      "Veinte días",
-      "Un mes"
+      "Reserva del 20 %, reducible o eliminable por mayoría simple si el incremento no supera 25 viviendas.",
+      "Reserva del 50 %, reducible o eliminable por mayoría simple si el incremento no supera 3 viviendas.",
+      "Reserva del 35 %, reducible o eliminable por mayoría absoluta si el incremento no supera 10 viviendas.",
+      "Reserva del 35 %, reducible o eliminable por mayoría simple si el incremento no supera 10 viviendas."
     ],
-    "c": 2,
-    "exp": "Cualquiera de los instrumentos de ordenación territorial o urbanísticos contemplados en la ley foral será sometido a un período no menor de veinte días de participación ciudadana, mediante la exposición pública y, en su caso, audiencia a las entidades locales, previamente a su aprobación definitiva (art. 7.2 LFOTU)."
+    "c": 3,
+    "exp": "Art. 54.1.b DFL 1/2017: en municipios con población igual o superior a 2.000 e inferior a 10.000 habitantes, el estándar mínimo es el 35 % de la nueva capacidad residencial; si el incremento es igual o inferior a 10 viviendas, el Ayuntamiento puede reducir o eliminar la exigencia mediante acuerdo por mayoría simple del Pleno."
   },
   {
     "id": "E29-12",
     "tema": "E29",
-    "q": "En los municipios de Navarra con población inferior a 2.000 habitantes, ¿qué porcentaje de la nueva capacidad residencial debe reservarse a viviendas protegidas en actuaciones de nueva urbanización, salvo que el incremento de viviendas sea igual o inferior a 25, en cuyo caso el Pleno puede reducir o eliminar la exigencia?",
+    "q": "Con carácter de sistema general, ¿qué reserva mínima para espacios libres públicos establece el artículo 55.3.a respecto de la capacidad total máxima de los suelos urbanos y urbanizables?",
     "o": [
-      "El 10 %",
-      "El 20 %",
-      "El 35 %",
-      "El 50 %"
+      "5 m² por habitante o 15 m² por cada 100 m² construidos de uso residencial.",
+      "5 m² por habitante o 20 m² por cada 100 m² construidos de uso residencial.",
+      "10 m² por habitante o 15 m² por cada 100 m² construidos de uso residencial.",
+      "10 m² por habitante o 20 m² por cada 100 m² construidos de uso residencial."
     ],
-    "c": 1,
-    "exp": "En municipios con población inferior a 2.000 habitantes, el estándar mínimo de reserva de vivienda protegida es del 20 % de la nueva capacidad residencial prevista en actuaciones de nueva urbanización y renovación o reforma de la urbanización (art. 54.1.c LFOTU). Si el incremento de viviendas es igual o inferior a 25, el Pleno puede reducir o eliminar la exigencia por mayoría simple."
+    "c": 0,
+    "exp": "Art. 55.3.a DFL 1/2017: con carácter de sistema general deben definirse reservas para espacios libres públicos con superficie conjunta útil no inferior a 5 m² por habitante o 15 m² por cada 100 m² construidos de uso residencial, referidos a la capacidad total máxima de los suelos urbanos y urbanizables."
   },
   {
     "id": "E29-13",
     "tema": "E29",
-    "q": "¿Qué Administración es competente para la aprobación definitiva de un Plan Parcial que afecta a un único municipio de Navarra?",
+    "q": "Un Plan Parcial necesita ajustar la delimitación del sector para mejorar su ordenación y ejecución. Sin alterar otras determinaciones estructurantes, ¿qué margen máximo admite el artículo 60.3?",
     "o": [
-      "El Gobierno de Navarra",
-      "El Departamento competente en ordenación del territorio y urbanismo",
-      "El Ayuntamiento respectivo",
-      "La Comisión de Ordenación del Territorio"
+      "Una diferencia de superficie de hasta el 2 % del ámbito.",
+      "Una diferencia de superficie de hasta el 3 % del ámbito.",
+      "Una diferencia de superficie de hasta el 5 % del ámbito.",
+      "Una diferencia de superficie de hasta el 10 % del ámbito."
     ],
-    "c": 2,
-    "exp": "Los Planes Parciales que no afecten a varios municipios se aprueban definitivamente por el Ayuntamiento correspondiente (art. 72.1.b LFOTU). La aprobación definitiva de Planes Parciales que afecten a varios municipios, en defecto de acuerdo, corresponde al Departamento competente en ordenación del territorio y urbanismo (art. 10.2.c)."
+    "c": 1,
+    "exp": "Art. 60.3 DFL 1/2017: el Plan Parcial no puede modificar determinaciones estructurantes del Plan General, salvo el ajuste de la delimitación del sector que mejore su ordenación y ejecución y no suponga una diferencia de superficie superior o inferior al 3 % del ámbito, con la modificación de clasificación que, en su caso, corresponda."
   },
   {
     "id": "E29-14",
     "tema": "E29",
-    "q": "¿Cuál es el plazo máximo para que el Ayuntamiento apruebe definitivamente un Plan Parcial o un Plan Especial de desarrollo, contado desde la finalización del período de información pública, transcurrido el cual se entiende aprobado por silencio administrativo?",
+    "q": "Un Plan Especial de Actuación Urbana plantea una actuación integrada de regeneración o renovación y necesita suelo no urbanizable para ubicar dotaciones públicas e infraestructuras. ¿Qué límite establece el artículo 61.3 para la nueva urbanización mediante reclasificación?",
     "o": [
-      "Un mes",
-      "Dos meses",
-      "Tres meses",
-      "Seis meses"
+      "Hasta el 5 % de la superficie total del ámbito.",
+      "Hasta el 8 % de la superficie total del ámbito.",
+      "Hasta el 10 % de la superficie total del ámbito.",
+      "Hasta el 15 % de la superficie total del ámbito."
     ],
-    "c": 1,
-    "exp": "El plazo máximo para aprobar definitivamente un Plan Parcial o un Plan Especial de desarrollo es de dos meses contados a partir de la finalización del período de información pública. Transcurrido este plazo sin resolución, se entiende aprobado el plan, y el promotor puede cumplir directamente las obligaciones de publicidad y comunicación del artículo 79.1 (art. 72.1.c LFOTU)."
+    "c": 2,
+    "exp": "Art. 61.3 DFL 1/2017: en actuaciones integradas de regeneración o renovación, el Plan Especial de Actuación Urbana puede regular nueva urbanización mediante reclasificación de suelo no urbanizable necesario para dotaciones públicas e infraestructuras, con un máximo del 10 % de la superficie total del ámbito."
   },
   {
     "id": "E29-15",
     "tema": "E29",
-    "q": "¿Qué carácter tienen las determinaciones de la Estrategia Territorial de Navarra según la Ley Foral de Ordenación del Territorio y Urbanismo?",
+    "q": "¿Qué plazo de información pública establece el artículo 74.b para la tramitación de un Estudio de Detalle desde la publicación del anuncio de su aprobación inicial en el Boletín Oficial de Navarra?",
     "o": [
-      "Vinculantes sobre el territorio, prevaleciendo sobre el planeamiento local",
-      "Vinculantes para la planificación, obligando a atenerse a su contenido al elaborar el planeamiento urbanístico local",
-      "Orientativas, constituyendo criterios, directrices y guías de actuación no vinculantes",
-      "Pormenorizadas, precisando las determinaciones de los Planes de Ordenación Territorial"
+      "Un período de diez días.",
+      "Un período de quince días.",
+      "Un período de un mes.",
+      "Un período de veinte días."
     ],
-    "c": 2,
-    "exp": "Las determinaciones de la Estrategia Territorial de Navarra tienen carácter orientativo (art. 31.3 LFOTU). Constituyen criterios, directrices y guías de actuación de carácter no vinculante, informadores de las pautas que el Gobierno de Navarra considera adecuadas para la actuación territorial y urbanística de los poderes públicos (art. 29.1.c)."
+    "c": 3,
+    "exp": "Art. 74.b DFL 1/2017: el período de información pública de los Estudios de Detalle es de veinte días desde la publicación del anuncio de la aprobación inicial en el Boletín Oficial de Navarra."
   },
    
   // ---------- TEMA 33 ESPECÍFICO · LFOTU VI, MERCADO DEL SUELO (E33) ----------
