@@ -1,5 +1,5 @@
 # GUÍA DE PREGUNTAS · Arquitecto/a A1, Ayuntamiento de Pamplona
-**Versión 2.0 · 23/09/2026 · Instrucciones obligatorias para generar, revisar y ampliar el banco**
+**Versión 2.1 · 23/09/2026 · Instrucciones obligatorias para generar, revisar y ampliar el banco**
 
 > Objetivo: preguntas que exijan conocer la norma o aplicar un criterio técnico, no detectar la respuesta por longitud, tono, precisión, absolutos o descarte de tres disparates. «Difícil» significa discriminación conceptual, nunca redacción enrevesada.
 
@@ -12,6 +12,10 @@ Para cada pregunta, selecciona **un único hecho examinable**: plazo, porcentaje
 **Separa dos colecciones.** Las preguntas de exámenes oficiales se incorporan literalmente (enunciado, cuatro opciones y clave de la plantilla oficial; identificación de convocatoria) y NO se reescriben para satisfacer reglas estilísticas. Estas reglas son para **preguntas originales generadas**, identificadas como tales. Las preguntas oficiales solo se incluyen si coinciden materialmente con el temario de Pamplona y la norma territorial aplicable.
 
 ## 2. Regla principal: las cuatro opciones deben parecer candidatas reales
+
+**Regla previa obligatoria: cita normativa completa en cada enunciado original.** Redacta las preguntas con el estilo de un examen oficial: en el propio campo `q` debe figurar la **denominación oficial completa de la norma aplicable** (tipo, número, fecha y título), seguida del supuesto o de la cuestión que se pregunta. Si el artículo o apartado facilita la precisión, cítalo también en el enunciado; en todo caso, inclúyelo en `exp`. No basta con que la norma aparezca en el título del tema, en la explicación, en la pantalla de la web o solo en la primera pregunta del lote. Si el tema contiene varias normas, cita en cada pregunta la que realmente sustenta la respuesta. Para preguntas procedentes de exámenes oficiales, conserva íntegramente el enunciado literal sin añadir citas.
+
+**Plantilla para E28:** «Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, [...supuesto...]. ¿[pregunta...] conforme al artículo X?» La cita legal debe integrarse con naturalidad en el enunciado, sin repetirse después en la misma frase de forma innecesaria.
 
 1. **Misma familia jurídica/técnica y misma estructura.** Las cuatro respuestas contestan exactamente a la misma cuestión; no contrapongas una formulación detallada de la ley a tres métodos o instituciones completamente ajenos. Cuando resulte adecuado, usa el mismo comienzo y cambia solamente el supuesto, sujeto, porcentaje, plazo o excepción.
 2. **Longitudes visualmente equivalentes.** Para opciones redactadas en frases, procura que la más larga no supere en más del 30 % a la más corta y que la correcta no destaque por ser más de un 10–15 % más larga que la siguiente. Si resulta antinatural, traslada las condiciones comunes al enunciado y deja opciones breves y paralelas. No añadas relleno a las falsas.
@@ -81,6 +85,7 @@ Los dos ejemplos son patrones de corrección de la forma. No generes diez pregun
 ## 6. Comprobaciones mecánicas mínimas por pregunta
 
 - **Estructura:** enunciado no vacío, cuatro opciones no duplicadas, exactamente una correcta, explicación con referencia precisa, ID único y tema correcto.
+- **Cita normativa en el enunciado:** comprobar en cada pregunta original tipo de norma, número, fecha y denominación completa. Incluir artículo/apartado cuando corresponda. No validar el lote si falta la cita en alguno de los enunciados.
 - **Longitud:** calcula palabras/caracteres de las cuatro opciones. Señala y rehace si la correcta es la más larga con ventaja visual >10–15 % respecto de la segunda; o si entre las cuatro existe una disparidad de longitud >30 % en respuestas de tipo frase. No soluciones el aviso rellenando las falsas.
 - **Absolutos y estilo:** marca asimetría entre alternativas (especialmente cuando los términos absolutos aparecen solo en las falsas); diferencias de precisión, longitud del inciso, citas legales y categorías semánticas.
 - **Plausibilidad:** el revisor debe poder describir para cada falsa una confusión realista y el dato que la refuta. Si la falsa se descarta por sentido común sin conocer el tema, rehacer.
@@ -114,7 +119,7 @@ Revisa el informe `auditoria_preguntas.csv` y cada aviso del tema. Los scripts a
 
 ## 8. PROMPT MAESTRO (copiar y pegar a Claude Code u otro generador con acceso a los archivos)
 
-«Lee ÍNTEGRAMENTE `GUIA_PREGUNTAS.md` y aplícala como criterio obligatorio, no como sugerencia. Lee la fuente original del tema [TEMA] y las preguntas existentes del mismo tema. Genera [N] preguntas ORIGINALES de nivel A1 para Arquitecto/a, verificadas con la fuente primaria y sin repetir conceptos ya preguntados.
+«Lee ÍNTEGRAMENTE `GUIA_PREGUNTAS.md` y aplícala como criterio obligatorio, no como sugerencia. En el ENUNCIADO DE CADA PREGUNTA original (`q`) escribe la denominación oficial completa de la norma (tipo, número, fecha y título), con el estilo de una pregunta real de oposición; no la relegues a `exp` ni al título del tema. Lee la fuente original del tema [TEMA] y las preguntas existentes del mismo tema. Genera [N] preguntas ORIGINALES de nivel A1 para Arquitecto/a, verificadas con la fuente primaria y sin repetir conceptos ya preguntados.
 
 Primero identifica internamente [N] o más puntos examinables distintos y sus artículos. Genera candidatas, comprueba que las cuatro alternativas tienen longitud, gramática, precisión y plausibilidad semejantes; la correcta NUNCA puede delatarse por ser la única larga, matizada o sin absolutos. Si la respuesta legal requiere mucho contexto, trasládalo al enunciado; todos los distractores deben ser cercanos y refutables, no disparates.
 
