@@ -1,76 +1,23 @@
-# Cómo llenar la app de contenido (Claude Code)
+# Cómo generar preguntas para OpoPamplona
 
-La terminal da miedo de lejos, pero para esto la usas en modo conversación:
-escribes frases en español, no comandos. Aquí tienes el camino corto.
+**Guía obligatoria actualizada:** [GUIA_PREGUNTAS.md](GUIA_PREGUNTAS.md). Sustituye las antiguas instrucciones genéricas de «4 opciones plausibles y sin absolutos»: ahora exige opciones equiparables en longitud y estructura, distractores jurídicamente cercanos, verificación de las cuatro opciones y auditoría adversarial ciega antes de publicar.
 
----
+## Preparación
 
-## La idea en una frase
+Instala Node.js (18 o superior) y Claude Code siguiendo su documentación oficial. Los documentos de cada tema se guardan en la carpeta del proyecto, identificados con su código oficial. Para generar preguntas nuevas, lee primero `GUIA_PREGUNTAS.md` y comprueba la redacción vigente de la normativa en sus fuentes oficiales.
 
-Claude Code es solo el "obrero" que escribe el contenido en tus archivos.
-Tú estudias en la web (Vercel), no en la terminal. La terminal la abres un
-rato, le hablas, y la cierras.
+## Instrucción para Claude Code (sustituye la del archivo anterior)
 
----
+> Lee íntegramente GUIA_PREGUNTAS.md. Trabaja con el tema E35 y su documento original: revisa antes las preguntas ya existentes en src/data/preguntas.js y genera 25 preguntas originales, distintas y verificadas, siguiendo todas las fases y filtros de la guía. No publiques candidatas que delaten su respuesta por longitud, absolutos, precisión o alternativas absurdas. Realiza una revisión jurídica y otra adversarial ciega, con un revisor independiente si está disponible. Conserva solo las preguntas APTAS; si no reúnes 25, entrega menos. Añádelas al final del tema respetando IDs y formato, sin modificar otras preguntas, y ejecuta node scripts/auditar_preguntas.cjs y node scripts/calidad-preguntas.mjs E35. Comunica los avisos y revisa el diff antes de hacer commit.
 
-## Preparación (una sola vez)
+Cambia E35 y 25 por el tema y la cantidad que necesites. El formato está especificado en la sección 7 de la guía; los criterios y ejemplos de las preguntas E28-08 y E28-15 están en las secciones 2, 4 y 6.
 
-1. **Instala Node.js** (versión 18 o superior) desde https://nodejs.org
-   (instalador LTS para Windows; marca "Add to PATH").
+## Separación de preguntas
 
-2. **Instala Claude Code.** En Windows va sobre WSL; sigue la guía oficial:
-   https://docs.claude.com/en/docs/claude-code/overview
-   (Necesitas una suscripción Claude Pro o Max: el plan gratuito no incluye Claude Code.)
+Las preguntas extraídas de exámenes oficiales se copian **literalmente** con sus opciones, respuestas de plantilla, fuente y convocatoria; no se reescriben para darles una longitud pareja. Se incluyen solo si son pertinentes para los 72 temas y para el marco normativo aplicable. La guía de generación se aplica exclusivamente a las preguntas sintéticas.
 
-3. **Pon los PDFs de los temas** en una carpeta `temas/` dentro del proyecto.
-   Nómbralos claro: `G01.pdf`, `E29.pdf`, etc.
+## Importante
 
----
+La guía y este archivo no corrigen el banco existente. Para el tema que ya está generado, utiliza el «Prompt de auditoría retrospectiva» de la sección 9 de GUIA_PREGUNTAS.md. Los scripts existentes detectan ciertos problemas de forma, **no** validan interpretación jurídica ni sustituyen la auditoría ciega.
 
-## El día a día (esto es lo único que repites)
-
-1. Abre la carpeta del proyecto en la terminal y escribe:  `claude`
-2. Cuando Claude Code arranque, pégale una frase como esta (cámbiale el tema):
-
-> Lee temas/E35.pdf. Añade 25 preguntas del tema E35 al final del array de
-> src/data/preguntas.js, respetando EXACTAMENTE el formato y las reglas de
-> calidad del comentario de cabecera del archivo: 4 opciones plausibles, sin
-> absolutos delatores (únicamente/todos/solo), la dificultad en el matiz
-> técnico, y citando el artículo concreto en 'exp'. No toques ninguna otra
-> pregunta. Después, añade un resumen del tema E35 a src/data/resumenes.js
-> con el mismo formato que el resumen G1 (intro, bloques, claves).
-
-3. Revisa lo que ha hecho (te lo enseña), y si te gusta, dile:
-
-> Súbelo a GitHub con un commit que diga "tema E35".
-
-   Vercel redesplega solo. En unos minutos la web tiene el tema nuevo.
-
-Eso es todo. No memorizas comandos: le hablas.
-
----
-
-## Regla de oro de calidad
-
-Cuando revises las preguntas que genere, aplica este filtro: si puedes
-descartar una opción sin pensar, es una opción de relleno → dile que la
-rehaga. Una buena pregunta de oposición te hace dudar aunque sepas el tema.
-
----
-
-## Reparto de trabajo recomendado
-
-- **Claude Code (local):** el grueso del temario. Generales y específicos
-  jurídicos estándar, donde el texto legal es claro y verificable.
-- **Claude (chat):** los temas espinosos — forales con cifras delicadas y los
-  9 de Pamplona (51–59), que no están en bases de datos y piden criterio fino.
-  Para esos, tráeme el PDF al chat y los montamos juntos.
-
----
-
-## Códigos de tema
-
-- Generales: `G1`–`G13`
-- Específicos: `E1`–`E59`
-
-(El índice completo y oficial está en `src/data/temas.js`.)
+El endpoint de la web `api/generar-preguntas.js` tiene instrucciones independientes; su prompt también debe sincronizarse con esta guía para que la generación desde la web cambie.
