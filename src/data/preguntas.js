@@ -3,11 +3,13 @@
    Formato por pregunta:
      { id, tema, q, o:[4 opciones], c: índice correcto (0-3), exp }
    Reglas de calidad (para ampliar con Claude Code o a mano):
-     · 4 opciones plausibles. PROHIBIDOS los absolutos delatores
-       ("únicamente", "todos sin excepción", "solo…") salvo que sean
-       parte legítima de una trampa en el distractor incorrecto.
+     · Lee GUIA_PREGUNTAS.md íntegramente antes de generar preguntas.
+     · Cita el nombre oficial COMPLETO de la norma, con número y
+       fecha, en el enunciado 'q' de CADA pregunta original.
+     · 4 opciones plausibles, de longitud y estructura semejantes,
+       sin absolutos que permitan descartar las incorrectas.
      · La dificultad vive en el matiz técnico, no en la redacción.
-     · Cita SIEMPRE el artículo/norma en 'exp' (examen sin textos).
+     · En 'exp', cita SIEMPRE norma, artículo y apartado aplicables.
    ================================================================== */
 
 export const PREGUNTAS = [
