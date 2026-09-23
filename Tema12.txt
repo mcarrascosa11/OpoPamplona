@@ -1,0 +1,671 @@
+================================================================
+TEMA 12 — ESTRATEGIA DE TRANSICIÓN ENERGÉTICA Y CAMBIO CLIMÁTICO
+2030 DEL AYUNTAMIENTO DE PAMPLONA: PLAN DE ACCIÓN Y DIAGNÓSTICO
+================================================================
+
+FUENTE: Documento de síntesis de la Estrategia de Transición Energética
+y Cambio Climático 2030 de Pamplona (ETEyCC 2030), Ayuntamiento de
+Pamplona (proyecto cofinanciado por el Gobierno de Navarra). Contenido
+extraído del documento de síntesis oficial (43 págs.), que condensa el
+Plan de Acción (257 págs.) y el Balance Energético y Diagnóstico de
+Riesgo Climático (158 págs.). Estrategia aprobada por Junta de Gobierno
+Local y ratificada en Pleno (2021).
+
+ABREVIATURA OFICIAL: ETEyCC 2030 (también ETyCC2030).
+
+El documento se ESTRUCTURA EN 3 BLOQUES:
+  1) ¿Qué es la Estrategia?
+  2) Diagnóstico: balance energético + riesgos y vulnerabilidades.
+  3) Desarrollo de la Estrategia (objetivos, plan de acción, resultados
+     esperados, gobernanza, seguimiento y evaluación, cronograma e
+     inversiones).
+
+================================================================
+BLOQUE 1 — ¿QUÉ ES LA ETEyCC 2030?
+================================================================
+
+- Define los objetivos, líneas y acciones para dar respuesta a nivel
+  LOCAL a la amenaza del cambio climático en un contexto de desarrollo
+  sostenible. Estrategia a MEDIO PLAZO, con enfoque común de ciudad
+  basado en la TRANSVERSALIDAD.
+
+- Finalidad: contribuir a limitar el aumento de temperatura a 1,5 ºC
+  respecto a niveles preindustriales; aumentar la capacidad de
+  adaptación; promover el desarrollo resiliente y bajo en emisiones;
+  impulsar la TRANSICIÓN JUSTA y la SOBERANÍA ENERGÉTICA mediante
+  renovables, nuevas tecnologías y nuevos roles de ciudadanía, empresas
+  e industria.
+
+- Se enmarca en el PLAN GoGreen de la ciudad de Pamplona.
+
+- Horizonte de modelo de ciudad: ADAPTADA, INNOVADORA, MODERNA y
+  DESCARBONIZADA.
+
+- DOS GRANDES IDEAS: MITIGACIÓN (reducir la contribución al cambio
+  climático) y ADAPTACIÓN (responder a sus impactos), más el eje de
+  TRANSICIÓN JUSTA.
+
+TRABAJOS REALIZADOS PARA SU ELABORACIÓN:
+  - Balance energético de Pamplona 2005-2018.
+  - Análisis de riesgo y vulnerabilidad frente a impactos climáticos.
+  - Vinculación con los ODS 2030 y la Agenda Urbana Española.
+  - Alineamiento con compromisos del municipio y con la AGENDA URBANA
+    PAMPLONA-IRUÑA 2030 (marco de referencia principal).
+  - Plan de Participación y Comunicación (plantilla municipal, agentes
+    y ciudadanía).
+
+ANTECEDENTES:
+  - PAES (Plan de Acción para la Energía Sostenible), 2010-2015.
+  - Plan de Acción para la Transición Energética 2018-2019.
+  - Estudio previo de Preparación, Caracterización y Calibración.
+  - Diagnóstico Energético de Ciudad.
+  - Compromiso (marzo 2020): reducir emisiones un 40% para 2030 respecto
+    a 2005 (Pacto de Alcaldías).
+
+================================================================
+BLOQUE 2 — DIAGNÓSTICO (A): BALANCE ENERGÉTICO
+================================================================
+
+ÁMBITO CIUDAD (periodo 2005-2018):
+  - Consumo de energía: -8,7%.
+  - Emisiones de CO2eq: -15,6%.
+  - Datos 2018: consumo 4.551.325 MWh; emisiones 1.128.937 tCO2eq;
+    coste energético 488 M€.
+  - La reducción se asocia en parte a la crisis económica, a medidas de
+    eficiencia/ahorro (sector residencial) y a la mejora del factor de
+    emisión eléctrico (más renovables en el mix nacional).
+  - AVISO: en 2016-2018 la tendencia del consumo es CRECIENTE -> hay que
+    desacoplar actividad económica, consumo y emisiones.
+
+RENOVABLES (ciudad):
+  - Solo el 9,5% del consumo energético final procede de renovables
+    (inferior a las medias nacional y de Navarra).
+  - De esa renovable, solo el 18% es de producción LOCAL (= 2% del
+    consumo final del municipio).
+
+MIX POR FUENTES (ciudad):
+  - Consumo: productos petrolíferos 54%, gas natural 27%, electricidad 15%.
+  - Emisiones: productos petrolíferos 60%, gas natural 22%, electricidad 15%.
+
+MIX POR SECTORES (ciudad):
+  - Consumo: transporte 51%, doméstico 20%, industrial 13%,
+    comercio y servicios 12%, administración pública 4%.
+  - Emisiones: transporte 55%, doméstico 19%, industrial 13%,
+    comercio y servicios 9%, administración pública 4%.
+  - Sector primario insignificante (0,1% del consumo).
+
+ÁMBITO AYUNTAMIENTO (periodo 2005-2019):
+  - Consumo energético: +24% (por mayor prestación de servicios).
+  - Emisiones de CO2eq: -22% (sustitución gasoil->gas natural y mejora
+    del factor de emisión eléctrico).
+  - Datos 2019: 57.618 MWh; 11.549 tCO2eq.
+  - Las emisiones del Ayuntamiento son el 1,15% del total municipal (2018).
+  - Mix consumo del Ayto: electricidad 52%, gas natural 43%, resto
+    (biomasa, gasoil, gasolina) minoritario.
+  - Mix por servicios: edificios/equipamientos/instalaciones 68% del
+    consumo (67% de emisiones), alumbrado público 30%, flota municipal
+    2-3%.
+  - Renovables municipales: 9 instalaciones solar térmica, 30 fotovoltaicas,
+    1 geotérmica, 11 de biomasa (≈ 2% del consumo del Ayuntamiento).
+
+INDICADORES POR HABITANTE (2005-2018/2019):
+  - Consumo: -11,2%; en 2018 = 22,58 MWh/hab. Gasto = 2.421 €/hab (2018).
+  - Emisiones: -17,9%; en 2018 = 5,60 tCO2eq/hab.
+
+ESCENARIO TENDENCIAL 2030 (BAU, "Business as usual"):
+  - -16% de consumo, -28% de emisiones, 16% de renovables sobre consumo
+    final. INSUFICIENTE: queda lejos del "Marco 2030" europeo y del
+    Pacto de Alcaldías.
+  - "Marco 2030" europeo (referencia): 55% menos emisiones GEI respecto
+    a 1990; 32% renovables; 32,5% mejora de eficiencia respecto a BAU.
+
+CONCLUSIONES DEL BALANCE (líneas prioritarias que se derivan):
+  - Rehabilitación y eficiencia energética (parque de edificios e
+    instalaciones municipales; el residencial es 2º consumidor tras el
+    transporte; el Ayto como sector ejemplarizante).
+  - Descarbonización del modelo energético local (reducción de demanda,
+    electrificación, generación renovable, comunidades energéticas
+    renovables; electrificar parte de la demanda térmica residencial).
+  - Movilidad sostenible (bicicleta, peatonalización, transporte público,
+    electrificación y renovación de flota).
+  - Cultura climática.
+
+================================================================
+BLOQUE 2 — DIAGNÓSTICO (B): POBREZA ENERGÉTICA
+================================================================
+
+- Definición: hogares que no pueden hacer frente al pago de los
+  suministros energéticos para mantener condiciones de vida digna /
+  confort térmico / actividades cotidianas (cocinar, higienizarse), o
+  que destinan una parte excesiva de sus ingresos.
+  (Gasto desproporcionado: gasto energético sobre ingresos superior al
+  doble de la mediana nacional.)
+- Factores determinantes: renta de los hogares, precio de los
+  suministros y baja eficiencia energética de viviendas y equipos.
+- Situación en Pamplona (única aproximación disponible = ayudas de
+  emergencia). En 2019: 330 ayudas al pago de suministros; 76.000 € de
+  presupuesto asociado.
+- Necesidad: caracterizar mejor el problema; se agravará por el cambio
+  climático.
+
+================================================================
+BLOQUE 2 — DIAGNÓSTICO (C): RIESGOS Y VULNERABILIDADES CLIMÁTICAS
+================================================================
+
+BASE: proyecto LIFE-IP NAdapta-CC (Estudio de Variabilidad Climática;
+datos publicados nov. 2020).
+  - Temperatura media anual en Navarra: +0,23 ºC/década (1991-2019
+    respecto a 1961-1990), por incremento de mínimas y máximas.
+
+PROYECCIONES (histórico 1961-1990 -> futuro 2051-2080):
+  - Noches tropicales (mín. > 20 ºC): 5 -> 13 días/año.
+  - Días de verano (máx. > 25 ºC): 73 -> 96 días/año.
+  - Días cálidos (máx. supera el percentil 90): 9% -> 22%.
+  - Olas de calor/año (mayo-septiembre): 1,65 -> 6,95.
+  - Duración de las olas de calor: 12 -> 28 días.
+  - Días de helada (mín. < 0 ºC): 33 -> 13 días/año (bajan).
+  - Precipitación: se concentra en otoño/invierno/primavera (más meses
+    superarán 80 l/mes); en verano baja (julio -63%, agosto -53%).
+  - Cambio de clasificación climática: de Marítimo de costa occidental
+    (Cfb) a Mediterráneo de veranos frescos a corto plazo (2021-2050) y
+    puramente Mediterráneo a mediados de siglo (2051-2080).
+    IMPLICACIÓN: habría que revisar el Código Técnico de la Edificación
+    para que las viviendas que se construyen ahora estén preparadas para
+    el clima de dentro de 30 años. También cambios en flora, fauna y
+    paisaje.
+
+DOS CADENAS DE IMPACTO PRINCIPALES:
+  (1) INCREMENTO DE TEMPERATURAS sobre la SALUD de las personas: el
+      riesgo pasa de MEDIO a MUY ELEVADO en 30 años y máximo a mediados
+      de siglo. Barrios más sensibles: San Juan, Iturrama, Casco Antiguo,
+      San Jorge y Azpilagaña. Barrios más vulnerables (combinando
+      componentes): San Juan, San Jorge, Azpilagaña, Rochapea, Casco
+      Antiguo, Iturrama.
+  (2) LLUVIAS INTENSAS sobre el MEDIO CONSTRUIDO: riesgo ya ALTO, se
+      incrementará ligeramente. Barrios más expuestos: Rochapea,
+      Txantrea, San Jorge y Etxabakoitz, seguidos de Milagrosa-Arrosadia
+      y San Juan. Sensibilidad alta en Etxabakoitz y San Jorge (empresas
+      en zonas inundables). Mayor potencial de adaptación: Rochapea,
+      San Jorge y Etxabakoitz.
+IMPACTOS SECUNDARIOS: incremento de sequías y cambios en el paisaje
+(afectan a los servicios ecosistémicos).
+
+CONCLUSIONES DEL DIAGNÓSTICO CLIMÁTICO -> necesidad de líneas sobre:
+  - Naturalización del espacio público y rehabilitación de edificios.
+  - Optimización del ciclo del agua (uso eficiente de recursos).
+  - Nuevo modelo de producción y consumo basado en Economía Circular.
+  - Planes de respuesta a emergencias por cambio climático.
+  - Gestión de ecosistemas.
+  - Cultura climática.
+
+================================================================
+BLOQUE 3 — OBJETIVOS A 2030 (LAS CIFRAS CLAVE)
+================================================================
+
+MITIGACIÓN:
+  - REDUCCIÓN DE EMISIONES: 64% respecto a 2005.
+  - EFICIENCIA ENERGÉTICA: 39% de mejora respecto al escenario futuro (BAU).
+  - ENERGÍAS RENOVABLES: 37% del consumo final de energía.
+
+ADAPTACIÓN (cualitativos):
+  - Reducción del impacto del incremento de temperaturas sobre la salud.
+  - Reducción del impacto de lluvias intensas sobre el medio construido.
+  - Reducción del impacto del incremento de las sequías.
+
+TRANSICIÓN JUSTA:
+  - POBREZA ENERGÉTICA: 0 en 2030.
+
+(En total, 7 objetivos: 3 de mitigación, 3 de adaptación, 1 de
+transición justa.)
+
+REFERENCIAS TENIDAS EN CUENTA PARA FIJAR LOS OBJETIVOS:
+  - "Marco 2030" europeo (55% / 32% / 32,5%).
+  - PNIEC 2021-2030 y Ley de Cambio Climático y Transición Energética.
+  - Plan Energético de Navarra 2020-2030.
+  - Hoja de Ruta de Cambio Climático de Navarra.
+  - Pacto de Alcaldías.
+  - Voluntad propia del Ayuntamiento.
+
+OJO / TRAMPAS DE EXAMEN:
+  - Objetivo PROPIO de la Estrategia = 64% de reducción de emisiones; el
+    40% era el compromiso previo del Pacto de Alcaldías (no confundir).
+  - El Marco 2030 europeo (55/32/32,5) es referencia, no objetivo municipal.
+  - Ciudad Cero Emisiones se plantea en 2050 (no 2030).
+
+================================================================
+BLOQUE 3 — PLAN DE ACCIÓN: ESTRUCTURA
+================================================================
+
+CIFRAS GLOBALES:
+  - 5 OBJETIVOS ESTRATÉGICOS (OE).
+  - 24 LÍNEAS DE ACCIÓN (LE).
+  - 74 ACCIONES concretas (cada una con presupuesto, cronograma y
+    responsable municipal).
+  - Inversión movilizada hasta 2030: 860.223.800 € (≈ 860 M€).
+  - Vinculadas a los 10 objetivos de la Agenda Urbana Española y a los ODS.
+
+PROCESO DE PARTICIPACIÓN PARA SU ELABORACIÓN:
+  - 3 sesiones de participación grupal con personal técnico municipal.
+  - Sesiones técnicas con las distintas áreas.
+  - 1 sesión de participación ciudadana.
+  - 1 foro político.
+  - 1 foro de agentes.
+  - 1 sesión de devolución para agentes y ciudadanía.
+  - Revisión por los servicios municipales.
+
+¿CÓMO SE CUMPLIRÁN LOS OBJETIVOS? Con las acciones del Plan + políticas
+estatales/autonómicas clave (PNIEC2030, Plan Nacional de Adaptación al
+Cambio Climático 2021-2030, Estrategia de Descarbonización a Largo Plazo
+2050) + avances ya conseguidos.
+
+----------------------------------------------------------------
+OE1 — REHABILITAR Y RENATURALIZAR EL ENTORNO URBANO
+----------------------------------------------------------------
+
+LE1. NATURALIZACIÓN DEL ESPACIO URBANO  (presupuesto ≈ 83.000 €)
+  METAS:
+    - Limitar la artificialización del suelo municipal.
+    - Incrementar el área verde y permeable hasta 30 m2/habitante.
+    - Asegurar una distancia máxima de 300 m a zonas verdes.
+  ACCIONES:
+    1. Plan de Infraestructura Verde de Pamplona (criterios de adaptación
+       y soluciones basadas en la naturaleza, integrado en la
+       planificación municipal).
+    2. Estudio de riesgo del arbolado y plan de gestión del riesgo.
+    3. Localizar y caracterizar zonas de riesgo por calor y frío extremo.
+    4. Acondicionar el espacio público a las nuevas condiciones climáticas.
+
+LE2. ACTUACIONES EN EDIFICIOS  (presupuesto ≈ 534.728.000 €; la mayor partida)
+  METAS:
+    - Rehabilitar fachadas y cubiertas del 60% de las viviendas
+      anteriores a 1979 (30.274 viviendas).
+    - Cubiertas verdes en el 10% de los edificios posteriores a 1979
+      (261 edificios).
+    - 100% de los edificios municipales con auditoría y plan de acción.
+  ACCIONES:
+    5. Plan de rehabilitación de edificios en el ámbito privado.
+    6. Planes de rehabilitación de instalaciones municipales (auditorías
+       y planes de inversión).
+
+LE3. GESTIÓN DE ECOSISTEMAS, FLORA Y FAUNA  (≈ 130.000 €)
+  META: gestión sostenible de la flora y fauna de Pamplona.
+  ACCIONES:
+    7. Programas de mejora de hábitats urbanos (fauna autóctona y flora
+       silvestre vulnerable).
+    8. Recuperación del ecosistema autóctono del monte Ezkaba (gestión
+       forestal sostenible y economía circular).
+    9. Soluciones frente a especies exóticas o invasoras.
+
+LE4. OPTIMIZACIÓN DEL CICLO DEL AGUA  (≈ 129.000 €)
+  METAS:
+    - Incrementar la superficie permeable del municipio.
+    - Reducir el consumo de agua potable por debajo de 100 l/hab·día.
+  ACCIONES:
+    10. Actuaciones y control de caudal en fuertes lluvias.
+    11. Sistemas frente a inundaciones (diques, barreras fijas,
+        temporales y desmontables anti-inundación).
+    12. Estrategia de drenaje urbano sostenible (SUDS).
+    13. Concluir la instalación de redes separativas.
+    14. Ahorro de agua municipal (riego sistematizado y telecontrol,
+        control de fugas, aprovechamiento de pluviales).
+    15. Uso de aguas grises en nuevos desarrollos y rehabilitaciones.
+
+----------------------------------------------------------------
+OE2 — DESCARBONIZAR EL MODELO ENERGÉTICO LOCAL
+----------------------------------------------------------------
+
+LE5. GENERACIÓN RENOVABLE  (≈ 261.105.400 €)
+  METAS (fotovoltaica):
+    - 5.338 kWp en edificios municipales (62% del consumo eléctrico del
+      Ayuntamiento).
+    - 68.437 kWp en edificios residenciales (40% del consumo doméstico).
+    - 36.751 kWp en edificios industriales (40% del consumo industrial).
+    - 47.437 kWp en edificios comerciales (25% del consumo de servicios).
+  ACCIONES:
+    1. Plan Municipal de Autosuficiencia y EERR.
+    2. Plan de autoconsumo y comunidades energéticas (residencial,
+       instalaciones deportivas, industria y servicios).
+
+LE6. EFICIENCIA ENERGÉTICA  (≈ 11.363.400 €)
+  METAS:
+    - Renovar 28.000 puntos de luz de alumbrado público (84% del total).
+    - 100% de edificios municipales con SGEM (Sistema de Gestión
+      Energética Municipal).
+  ACCIONES:
+    3. Plan de eficiencia energética en el alumbrado público.
+    4. SGEM integrado con la visión de Smart City y Plataforma Ciudad.
+
+LE7. TRANSVERSAL  (≈ 2.425.000 €)
+  META: disponer de una Oficina de la Energía y el Clima en Pamplona.
+  ACCIÓN:
+    5. Creación de la Oficina de la Energía y el Clima.
+
+----------------------------------------------------------------
+OE3 — IMPLEMENTAR UN MODELO DE MOVILIDAD SALUDABLE, EFICIENTE Y SOSTENIBLE
+(en una de las tablas el documento lo titula "modelo de transporte
+responsable, eficiente y sostenible": misma idea)
+----------------------------------------------------------------
+
+LE8. MOVILIDAD SOSTENIBLE, INCLUSIVA Y SEGURA  (≈ 6.665.000 €)
+  METAS:
+    - Ciudad con movilidad sostenible y reducción de emisiones del sector.
+    - Favorecer la electrificación de la flota de vehículos.
+  ACCIONES:
+    1. Estrategia de movilidad de Pamplona coordinada con el PMUS comarcal.
+    2. Plan de Accesibilidad Universal para la Ciudad.
+    3. Desarrollo de infraestructura de recarga de vehículo eléctrico.
+    4. Cumplimiento de la ordenanza municipal de movilidad.
+    5. Flota municipal sostenible (actualización a vehículos sostenibles).
+
+LE9. CAMBIOS MODALES  (≈ 18.690.000 €)
+  METAS:
+    - Fomentar la movilidad activa (bici, caminos escolares seguros).
+    - Reducir el uso del vehículo privado (planes de movilidad,
+      transporte público comarcal).
+    - Ampliar la red de aparcamientos públicos para bicicletas.
+  ACCIONES:
+    6. Fomento de la movilidad activa y no motorizada.
+    7. Incentivar el transporte público comarcal.
+    8. Planificación y gestión de la movilidad laboral.
+    9. Red de carriles bici.
+    10. Servicio de bicicleta eléctrica compartida.
+    11. Ampliar aparcamientos seguros para bicicletas (centros de
+        movilidad ciclista compartida).
+    12. Caminos Escolares Seguros a todos los centros escolares.
+    13. Movilidad sostenible en eventos turísticos.
+
+LE10. GESTIÓN DE LA MOVILIDAD MOTORIZADA Y CALIDAD DEL AIRE  (≈ 1.816.000 €)
+  METAS:
+    - Flota de 500 vehículos eléctricos compartidos.
+    - Electrificación de aparcamientos privados de edificios plurifamiliares.
+    - 1.000 plazas de aparcamiento disuasorio.
+  ACCIONES:
+    14. Servicio de coche compartido eléctrico.
+    15. Electrificación de aparcamientos y producción renovable en
+        edificios plurifamiliares (carga eléctrica).
+    16. Modificar los criterios de regulación del aparcamiento en superficie.
+    17. Red de aparcamientos disuasorios.
+
+LE11. ZONA DE BAJAS EMISIONES (ZBE)  (≈ 500.000 €)
+  META: implantar la ZBE en Pamplona.
+  ACCIÓN:
+    18. Zona de Bajas Emisiones.
+
+----------------------------------------------------------------
+OE4 — DISPONER DE UNOS SERVICIOS MUNICIPALES SOSTENIBLES, PREPARADOS,
+       ACTIVOS Y RESPONSABLES
+----------------------------------------------------------------
+
+LE12. GESTIÓN DE RIESGOS Y VULNERABILIDADES  (≈ 516.000 €)
+  META: conocer los riesgos del municipio; planes de emergencia
+        actualizados; sistemas de alerta temprana.
+  ACCIONES:
+    1. Análisis de la distribución de lluvias y gestión de inundaciones
+       fluviales a nivel de cuenca (con el Organismo de Cuenca y Gobierno
+       de Navarra).
+    2. Actualizar el Plan de Emergencias y el Plan de Actuación Local al
+       nuevo diagnóstico.
+    3. Sistemas de alerta temprana (olas de calor, lluvia intensa,
+       inundación fluvial, plagas, calidad del aire...).
+    4. Evaluar la tendencia de peticiones de indemnización por inundaciones.
+    5. Prevención de riesgos laborales ligados al cambio climático
+       (dotaciones para frío/calor/insolación, reubicación de puestos,
+       sombras).
+    6. Sistematizar el uso de información climática y los SIG.
+
+LE13. CAMBIO DE MODELO DE CONSUMO  (≈ 18.265.000 €)
+  META: potenciar el comercio local y la producción agrícola de proximidad.
+  ACCIONES:
+    7. Dinámicas de comercio local y sostenible.
+    8. Proyecto de economía circular basado en la alimentación (huertas
+       urbanas y entorno hortícola de los meandros del Arga).
+
+LE14. FINANZAS SOSTENIBLES  (≈ 165.000 €)
+  METAS:
+    - Mecanismos innovadores de financiación para la acción climática.
+    - Fondo climático para implementar las acciones de la ETEyCC.
+    - Bonificar fiscalmente las actuaciones contra el cambio climático.
+  ACCIONES:
+    9. Modelos de financiación innovadores.
+    10. Presupuesto/Fondo Climático (aprobar por pleno un % del
+        presupuesto municipal para la ETEyCC).
+    11. Bonificaciones fiscales que fomenten la energía renovable (en el
+        marco de la ley foral de haciendas locales).
+    12. Criterios de sostenibilidad en subvenciones y bonificaciones.
+
+LE15. LUCHA CONTRA LA POBREZA ENERGÉTICA  (≈ 60.000 €)
+  META: garantizar el acceso a la energía a toda la ciudadanía.
+  ACCIÓN:
+    13. Plan municipal de lucha contra la pobreza energética con
+        perspectiva de género.
+
+LE16. CIUDAD DE EMPRENDIMIENTO E INNOVACIÓN SOSTENIBLE  (≈ 610.000 €)
+  META: crear proyectos innovadores ligados al cambio climático y la
+        transición energética.
+  ACCIONES:
+    14. Programa de empresas y empleo verde + fondo para innovación
+        sostenible.
+    15. Mecanismos de compensación de emisiones (registro de proyectos de
+        absorción de carbono).
+    16. Digitalización de los servicios públicos de transporte municipal.
+
+LE17. LEGAL Y REGULACIÓN  (≈ 645.000 €)
+  METAS:
+    - Marco normativo que fomente mitigación y adaptación.
+    - Nuevo Plan Municipal de Ordenación Urbana (PMOU).
+  ACCIONES:
+    17. Nuevo Plan Municipal de Ordenación Urbana (PMOU).
+    18. Adaptar criterios de protocolos de proyectos y obras y
+        prescripciones técnicas del espacio urbano (visión transversal,
+        sostenibilidad y resiliencia en la transformación urbana).
+    19. Adaptar las normas urbanísticas vigentes a los objetivos de
+        adaptación y mitigación.
+    20. Criterios de compra ambiental para contratación pública baja en
+        carbono.
+    21. Revisión de las competencias municipales del CTE. Nueva ordenanza
+        de edificación.
+
+LE18. TURISMO SOSTENIBLE  (≈ 90.000 €)
+  META: sistema de medición e indicadores del sector turístico.
+  ACCIÓN:
+    22. Mejorar el conocimiento del sector turístico y el impacto del
+        cambio climático en él.
+
+LE19. ECONOMÍA CIRCULAR  (≈ 100.000 €)
+  METAS:
+    - Reducir residuos mediante reciclaje y reutilización.
+    - Diseñar una estrategia municipal/comarcal de economía verde y circular.
+  ACCIONES:
+    23. Reciclaje adecuado en edificios municipales y eventos festivos.
+    24. Estrategia de economía verde y circular.
+
+----------------------------------------------------------------
+OE5 — INSTAURAR UNA CULTURA CLIMÁTICA EN LA SOCIEDAD DE PAMPLONA
+----------------------------------------------------------------
+
+LE20. CULTURA CLIMÁTICA CIUDADANA  (≈ 1.355.000 €)
+  META: promover la cultura climática vía Plan Estratégico de Educación
+        Ambiental, participación y sensibilización.
+  ACCIONES:
+    1. Nuevo Plan Estratégico de Educación Ambiental (con objetivos
+       ETEyCC y análisis de impacto de género).
+    2. Mecanismos y procesos de participación ciudadana continuados.
+    3. Órgano de participación juvenil sobre cambio climático.
+    4. Campañas de comunicación, sensibilización y formación.
+    5. Campaña de promoción de la movilidad sostenible (con incentivos).
+
+LE21. CULTURA CLIMÁTICA ESCOLAR  (≈ 405.000 €)
+  META: formación del alumnado en cambio climático y transición energética.
+  ACCIONES:
+    6. Integrar la cultura climática en los proyectos de centros educativos.
+    7. Programa formativo para personal de escuelas (directivos y
+       profesorado).
+
+LE22. CULTURA CLIMÁTICA MUNICIPAL  (≈ 155.000 €)
+  META: formación del personal municipal.
+  ACCIONES:
+    8. Perspectiva de cambio climático en eventos culturales y deportivos.
+    9. Plan de formación interna (responsables políticos y puestos
+       implicados en la acción climática).
+
+LE23. COMUNICACIÓN  (≈ 218.000 €)
+  META: mejorar la comunicación en cambio climático y transición energética.
+  ACCIONES:
+    10. Ejemplaridad institucional incorporada a la marca de ciudad.
+    11. Mejora de los sistemas de comunicación a la ciudadanía (riesgos,
+        impactos, residuos, movilidad...).
+
+LE24. GESTIÓN PÚBLICA COORDINADA, INNOVADORA E INTEGRAL  (≈ 5.000 €)
+  META: mecanismos de coordinación y comunicación entre áreas municipales.
+  ACCIÓN:
+    12. Coordinación entre áreas para desarrollar los planes sectoriales
+        vinculados a la estrategia.
+
+================================================================
+BLOQUE 3 — RESULTADOS ESPERADOS (2030)
+================================================================
+
+CONSUMO ENERGÉTICO:
+  - Escenario BAU 2030 (sin medidas): 4.186.486 MWh/año.
+  - Con la ETEyCC 2030: 2.570.348 MWh/año (-39% respecto al BAU).
+EMISIONES:
+  - 859.605 tCO2eq/año en 2030 (-64% respecto a 2005).
+RENOVABLES:
+  - 37% del consumo final de energía de fuentes renovables.
+  - De la electricidad consumida, el 24% será de generación LOCAL renovable.
+MATRIZ ENERGÉTICA 2030 (con ETEyCC):
+  - Electricidad 34%, gas natural 32%, productos petrolíferos 21%,
+    biodiesel 10%, EERR 3%. (Aumenta electricidad y biodiesel; bajan
+    petrolíferos y gas natural.)
+ADAPTACIÓN: las medidas aumentan la resiliencia (disminuyen exposición y
+sensibilidad o aumentan la capacidad adaptativa) frente a los riesgos
+prioritarios (salud por temperaturas, medio construido por lluvias,
+sequías).
+
+================================================================
+BLOQUE 3 — MODELO DE GOBERNANZA
+================================================================
+
+Fundamentado en transversalidad, transparencia y participación.
+Aspectos clave: liderazgo y compromiso político; integración en las
+estructuras de gobernanza local; coordinación y comunicación
+intersectorial; transparencia del proceso; involucración de agentes
+locales.
+
+ÓRGANOS (estructura propuesta):
+  COORDINACIÓN INTERNA:
+    - Dirección de la ETEyCC: responsabilidad, impulso y compromiso
+      político.
+    - Comisión municipal de trabajo: liderazgo, responsabilidad técnica
+      y seguimiento.
+    - Comisiones de coordinación interdepartamental temporales:
+      coordinación, ejecución y seguimiento de proyectos intersectoriales.
+  COORDINACIÓN EXTERNA:
+    - Órgano de participación sectorial: implicación de agentes locales.
+    - Observatorio de Medio Ambiente y Cambio Climático: asesoramiento,
+      valoración y aporte de datos.
+
+================================================================
+BLOQUE 3 — SISTEMA DE SEGUIMIENTO Y EVALUACIÓN
+================================================================
+
+Propósito: evaluar la ejecución de las acciones y el logro de objetivos y
+metas, y adoptar medidas correctivas.
+DOS COMPONENTES:
+  - Medición: recopilación, análisis y seguimiento de información.
+    Dos tipos de indicadores: (a) indicadores de ejecución; (b)
+    indicadores de seguimiento y resultados.
+  - Reporte: comunicación regular (anual) según la audiencia.
+Reportes a cargo de la Comisión municipal de trabajo.
+Seguimiento liderado por: la Comisión municipal de trabajo, el/la
+director/a de la ETEyCC y el personal técnico municipal clave de las
+distintas áreas.
+
+================================================================
+BLOQUE 3 — CRONOGRAMA E INVERSIONES
+================================================================
+
+PLAZOS:
+  - Corto plazo: 2021-2023.
+  - Medio plazo: 2024-2026.
+  - Largo plazo: 2027-2030.
+
+INVERSIÓN POR ORIGEN (total hasta 2030):
+  - Ayuntamiento de Pamplona: 72.921.600 €.
+  - Fondos públicos (ayudas locales, regionales, nacionales y europeas):
+    210.645.920 €.
+  - Inversión privada: 576.656.280 €.
+  - TOTAL: 860.223.800 €.
+
+INVERSIÓN POR PLAZO:
+  - Corto (2021-2023): 237.023.967 €.
+  - Medio (2024-2026): 267.220.214 €.
+  - Largo (2027-2030): 355.979.619 €.
+
+NOTA: la línea con mayor presupuesto es, con diferencia, LE2 "Actuaciones
+en edificios" (≈ 534,7 M€), seguida de LE5 "Generación renovable"
+(≈ 261 M€); entre ambas suman la gran mayoría del total. La mayor parte de
+la inversión es PRIVADA.
+
+================================================================
+BLOQUE 3 — RELACIÓN CON ODS Y AGENDA URBANA ESPAÑOLA
+================================================================
+
+Los 5 OE de la ETEyCC se vinculan con los ODS de la Agenda 2030 y con los
+10 objetivos estratégicos de la AGENDA URBANA ESPAÑOLA (AUE):
+  OE1 AUE: Ordenar el territorio y hacer un uso racional del suelo,
+           conservarlo y protegerlo.
+  OE2 AUE: Evitar la dispersión urbana y revitalizar la ciudad existente.
+  OE3 AUE: Prevenir y reducir los impactos del cambio climático y mejorar
+           la resiliencia.
+  OE4 AUE: Hacer una gestión sostenible de los recursos y favorecer la
+           economía circular.
+  OE5 AUE: Favorecer la proximidad y la movilidad sostenible.
+  OE6 AUE: Fomentar la cohesión social y buscar la equidad.
+  OE7 AUE: Impulsar y favorecer la economía urbana.
+  OE8 AUE: Garantizar el acceso a la vivienda.
+  OE9 AUE: Liderar y fomentar la innovación digital.
+  OE10 AUE: Mejorar los instrumentos de intervención y la gobernanza.
+
+ODS más recurrentes en la Estrategia: ODS7 (energía asequible y no
+contaminante), ODS11 (ciudades y comunidades sostenibles), ODS13 (acción
+por el clima), ODS5 (igualdad de género) y ODS10 (reducción de las
+desigualdades), presentes en casi todos los OE.
+
+================================================================
+CLAVES RÁPIDAS PARA TEST (memorizar)
+================================================================
+- Marco: Plan GoGreen + Agenda Urbana Pamplona-Iruña 2030 (Dimensión 1:
+  Pamplona verde, ecológica y resiliente).
+- 2 ejes: mitigación y adaptación (+ transición justa). 7 objetivos.
+- Estructura del plan: 5 OE / 24 LE / 74 acciones / 860.223.800 €.
+- Objetivos 2030: emisiones -64% (vs 2005); renovables 37%;
+  eficiencia +39% (vs BAU); pobreza energética 0.
+- Cero emisiones: 2050.
+- Diagnóstico ciudad 2005-2018: consumo -8,7%, emisiones -15,6%
+  (2018: 4.551.325 MWh; 1.128.937 tCO2eq; 488 M€).
+- Diagnóstico Ayto 2005-2019: consumo +24%, emisiones -22%;
+  emisiones Ayto = 1,15% del total.
+- Renovables ciudad: 9,5% del consumo (18% local).
+- Pobreza energética 2019: 330 ayudas; 76.000 €.
+- 2 cadenas de impacto: temperaturas sobre la salud (riesgo medio -> muy
+  elevado); lluvias intensas sobre el medio construido (riesgo ya alto).
+- Proyecto de referencia climática: LIFE-IP NAdapta-CC (+0,23 ºC/década).
+- Clima: de Cfb (marítimo) a Mediterráneo.
+- Resultados 2030: 2.570.348 MWh/año (-39% BAU); 859.605 tCO2eq/año;
+  matriz: electricidad 34% / gas natural 32% / petrolíferos 21% /
+  biodiesel 10% / EERR 3%.
+- Gobernanza: Dirección ETEyCC + Comisión municipal de trabajo +
+  comisiones interdepartamentales + Órgano de participación sectorial +
+  Observatorio de Medio Ambiente y Cambio Climático.
+- Inversión: privada 576,7 M€ / fondos públicos 210,6 M€ / Ayto 72,9 M€.
+- Líneas con más presupuesto: LE2 edificios (534,7 M€) y LE5 renovable
+  (261 M€).
+- Metas estrella de edificación: rehabilitar fachadas/cubiertas del 60%
+  de viviendas anteriores a 1979 (30.274 viviendas); cubiertas verdes en
+  10% de edificios posteriores a 1979 (261); 100% edificios municipales
+  auditados; fotovoltaica 5.338 kWp municipal; 28.000 puntos de luz
+  renovados (84%).
+- LE17 (clave para arquitecto): nuevo PMOU, revisión de competencias
+  municipales del CTE y nueva ordenanza de edificación.
+================================================================

@@ -1,0 +1,287 @@
+================================================================================
+TEMA 58 — MOVILIDAD EN LA PLANIFICACIÓN URBANA DE PAMPLONA
+  · Planeamiento Municipal: Memoria Cap. 6 "El Sistema de comunicaciones" y
+    Anexo V "Sistema de comunicaciones" (5.1 y 5.2).
+  · Plan de Ciclabilidad del Ayuntamiento de Pamplona.
+  · Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona.
+  · Plan de Movilidad Urbana Sostenible de la Comarca de Pamplona (PMUSCP).
+================================================================================
+Oposición Arquitecto/a — Ayuntamiento de Pamplona (examen enero 2027)
+
+Fecha de verificación: 19/06/2026
+Fuentes: documentos oficiales del Plan Municipal (pamplona.es, Anexo V Sistema de
+Comunicaciones 5.1 y 5.2, Texto Refundido, Acuerdo C.O.T. 18/12/2002); Plan de
+Ciclabilidad (pamplona.es / movilidadpamplona.es); I Plan Estratégico de Accesibilidad
+Integral (pamplona.es, SUMA USC); PMUSCP (Mancomunidad de la Comarca de Pamplona,
+mcp.es / participartepmus.es / pamplona2030.es).
+
+>>> AVISOS PREVIOS:
+  - DISCREPANCIA DE FECHAS: el enunciado del tema cita el Plan de Accesibilidad
+    "(2022-2036)". La denominación OFICIAL del documento aprobado es "(2022-2026)"
+    (horizonte de implantación 2023-2026; alguna nota municipal menciona 2028). Lo más
+    probable es que "2036" sea una errata del temario por "2026". Estudiar como 2022-2026
+    y, si el examen escribe 2036, no dejarse llevar.
+  - El Anexo V del Plan Municipal es de redacción ANTIGUA (diagnóstico basado en la
+    Encuesta Domiciliaria de 1996 y datos de 1991/1996); sus cifras de reparto modal y
+    motorización son de los años 90. Para datos ACTUALES de reparto modal rige el
+    objetivo del PMUSCP. No mezclar las cifras de los 90 (Plan Municipal) con las metas
+    del PMUSCP.
+  - Marco legal urbanístico vigente: TRLFOTU-2017 (DFLeg 1/2017). Marco de movilidad:
+    Ordenanza de Movilidad de Pamplona (2019) y, en accesibilidad, LF 12/2018 de
+    Accesibilidad Universal y RDL 1/2013 (Ley General de Derechos de las Personas con
+    Discapacidad).
+
+================================================================================
+PARTE A — IDEA TRANSVERSAL: DE LA MOVILIDAD A LA ACCESIBILIDAD
+================================================================================
+El hilo conductor de los cuatro documentos es el cambio de paradigma en la movilidad
+urbana: pasar de planificar para el vehículo privado a planificar para las personas,
+priorizando los modos sostenibles. Dos ideas clave que se repiten:
+
+- Distinción ACCESIBILIDAD vs MOVILIDAD: la movilidad (desplazarse) no es un fin en sí
+  misma, sino el medio para lograr ACCESIBILIDAD (poder llegar a los usos y servicios).
+  El acento se pone en la accesibilidad, lo que abre el juego a todos los modos.
+- PIRÁMIDE INVERTIDA DE LA MOVILIDAD: prioridad al peatón, después la bicicleta, después
+  el transporte público y, solo de manera subsidiaria, el vehículo privado.
+
+Estos principios, esbozados ya en el Plan Municipal (2002), se desarrollan en el Plan de
+Ciclabilidad (bici), el PMUSCP (reparto modal comarcal) y el Plan de Accesibilidad
+(accesibilidad universal), y se apoyan en la Ordenanza de Movilidad (2019) y en la
+Agenda Urbana Pamplona 2030.
+
+================================================================================
+PARTE B — PLAN MUNICIPAL: EL SISTEMA DE COMUNICACIONES
+(Memoria Cap. 6 + Anexo V, partes 5.1 análisis y 5.2 propuesta)
+================================================================================
+El tratamiento de la movilidad en el Plan Municipal se reparte entre la MEMORIA
+(Capítulo 6 "El Sistema de comunicaciones", que sintetiza diagnóstico y propuesta) y el
+ANEXO V "El Sistema de Comunicaciones", documento técnico extenso dividido en dos partes:
+  · Anexo V-1 (5.1): ANÁLISIS DE LA SITUACIÓN ACTUAL.
+  · Anexo V-2 (5.2): DESCRIPCIÓN DE LA PROPUESTA.
+
+ESTRUCTURA DEL ANEXO V (índice):
+  PARTE 5.1 — 1. ANÁLISIS DE LA SITUACIÓN ACTUAL:
+    1.1 La movilidad en la Comarca de Pamplona (consideraciones generales; distribución
+        espacial; encuesta domiciliaria y sectores; motorización).
+    1.2 El sistema viario: morfología, uso y funcionamiento (red comarcal; red urbana;
+        aparcamiento; conclusiones).
+    1.3 El transporte colectivo (COTUP; líneas de La Montañesa; evolución).
+    1.4 La marcha a pie: las dificultades para desplazarse.
+    1.5 La estación de autobuses.   1.6 La infraestructura ferroviaria.
+    1.7 El aeropuerto.   1.8 Las propuestas viarias del P.G.O.U. de 1984 y su realización.
+  PARTE 5.2 — 2. EL SISTEMA DE COMUNICACIONES. DESCRIPCIÓN DE LA PROPUESTA:
+    2.1 Criterios generales.   2.2 El sistema viario propuesto (estructura general; barrios
+        del noroeste; valle del Arga; valle del Sadar/Elorz/sur).
+    2.3 La estación de autobuses.   2.4 Comentarios sobre las actuaciones ferroviarias.
+    2.5 Peatones y ciclistas en el Plan Municipal (síntesis del plan de actuación; las
+        propuestas).
+    Anejos: 1 Nudo de San Jorge; 2 Peatones y ciclistas: criterios de actuación;
+    3 Glorieta de los Tres Reyes.
+
+--- B.1 DIAGNÓSTICO (Anexo V 5.1) — datos clave (base: Encuesta Domiciliaria 1996) ---
+- La movilidad se analizó con el Estudio de Movilidad del Gobierno de Navarra (1996/97),
+  apoyado en la Encuesta Domiciliaria de noviembre de 1996 (2.350 hogares, 7.537 personas),
+  e intensidades medias diarias (IMD) de tráfico.
+- Los 277.345 habitantes de la Comarca generaban del orden de 766.351 desplazamientos en
+  día laborable: tasa de 2,76 viajes/habitante. El 95,3% son viajes "basados en casa".
+- MOTIVOS de viaje: Trabajo 32,3%, Estudios 22,8%, Compras 12,8%, Ocio-Recreo 11,5%,
+  Asuntos personales 10,8%.
+- REPARTO MODAL (años 90): a pie 43,7%, vehículo privado 36,8%, transporte colectivo
+  14,4% (la cifra de viajes a pie está minusvalorada porque la encuesta no contabiliza los
+  trayectos a pie de menos de 5-10 minutos). El reparto depende fuertemente de la
+  motorización familiar (sin coche, ~66% a pie; con 3+ coches, ~60% en privado).
+- ZONIFICACIÓN EN TRES CORONAS: Corona 1 (Centro) = Casco Viejo + Ensanches; Corona 2
+  (resto de Pamplona, "corona urbana o interior") = San Juan, Iturrama, Milagrosa,
+  Chantrea, San Jorge-Rochapea, Mendillorri; Corona 3 (resto de la Comarca, "metropolitana
+  o exterior") = Burlada, Villava, Huarte, Barañáin, Cizur, Berriozar, Ansoáin, Noáin, etc.
+  La CORONA URBANA concentra la mayoría de los desplazamientos motorizados (genera/atrae
+  ~79%) y la mayor parte de la población; es donde se sitúan los mayores problemas de
+  transporte.
+- MOTORIZACIÓN (1996): índice medio en el municipio de Pamplona = 469 vehículos/1.000 hab,
+  de ellos 399 turismos/1.000 hab (cifras altas para una ciudad española de su tamaño).
+- SISTEMA VIARIO: las deficiencias se concretan en problemas de estructura, ausencia de
+  jerarquización y ordenación viaria y estrangulamientos puntuales. La red comarcal
+  (Rondas Oeste, Este y Norte) responde al concepto de "variante de carretera" sumadas, no
+  a una idea global de red; de ahí sus discontinuidades. El sistema de Rondas se ha
+  convertido, de hecho, en el sistema básico de la "ciudad real" (la Comarca).
+- Otros bloques del diagnóstico: transporte colectivo (la entonces COTUP y las líneas de
+  La Montañesa); la marcha a pie y sus dificultades; la estación de autobuses; la
+  infraestructura ferroviaria; el aeropuerto (de Noáin); y el balance de las propuestas
+  viarias del PGOU de 1984.
+
+--- B.2 LA PROPUESTA (Anexo V 5.2 / Memoria Cap. 6) ---
+CRITERIOS GENERALES (2.1):
+- El sistema de comunicaciones es UN ELEMENTO DEL PROYECTO DE CIUDAD del Plan, no una mera
+  infraestructura sectorial: la red viaria ordena las actividades y usos urbanos.
+- Cambio de orientación de la MOVILIDAD a la ACCESIBILIDAD (la movilidad como apoyo, no
+  como fin); coexistencia e integración de todos los modos en el espacio público;
+  cualificar la calle como espacio urbano de relación.
+- Objetivo estructural: REESTRUCTURAR Y ORDENAR el municipio incorporando "la ciudad de
+  los valles" (desarrollos periféricos desarticulados: Milagrosa, Arrosadía, Txantrea,
+  Rochapea, San Jorge, Mendillorri, valles del Sadar y Elorz) a "la ciudad de la meseta"
+  (la trama reticular tradicional: Ensanches, San Juan, Iturrama).
+
+SISTEMA VIARIO PROPUESTO (2.2):
+- Crear una RED VIARIA URBANA DE PRIMER RANGO que "suelde" y dé continuidad a las tramas
+  periféricas, transformando la morfología RADIAL heredada en una MALLA que conecte mejor
+  los barrios entre sí y con las áreas centrales.
+- Enfoque SUPRAMUNICIPAL/COMARCAL: la red básica de la aglomeración es el SISTEMA DE
+  RONDAS (Oeste, Este y Norte), que conecta las carreteras radiales y organiza los flujos.
+  Propuestas sobre las Rondas: prolongar la Ronda Norte hasta enlazar con la A-15/Ronda
+  Oeste; ampliar capacidad y remodelar los nudos de la Ronda Este; mejorar la conectividad
+  de las Rondas Este y Oeste; homogeneizar su tratamiento (la Oeste/A-15 tiene estándares
+  casi de autopista frente a la Este, de un carril por sentido con intersecciones). La red
+  resultante se asemeja a un ANILLO orbital con un quiebro en el arco noreste, resuelto
+  mediante el TÚNEL DE EZKABA para salvar Burlada/Villava alejándose de lo urbanizado.
+- Propuestas por sectores: barrios del noroeste (Cuatro Vientos-San Jorge-Berichitos-San
+  Macario; el NUDO DE SAN JORGE, glorieta semaforizada, presenta funcionamiento crítico en
+  hora punta), valle del Arga, y valle del Sadar/Elorz/sur.
+
+OTROS COMPONENTES DE LA PROPUESTA:
+- La ESTACIÓN DE AUTOBUSES (2.3): reforma/sustitución (la nueva estación subterránea se
+  construyó posteriormente).
+- ACTUACIONES FERROVIARIAS (2.4).
+- PEATONES Y CICLISTAS EN EL PLAN MUNICIPAL (2.5): síntesis del plan de actuación y
+  propuestas, con "las nuevas reglas de juego" para repartir el espacio público (anejo 2).
+
+================================================================================
+PARTE C — PLAN DE CICLABILIDAD DEL AYUNTAMIENTO DE PAMPLONA
+================================================================================
+- ANTECEDENTES: primer Plan de Ciclabilidad aprobado en 2005 (en el marco del Pacto Local
+  por la Movilidad Sostenible, 2005). Posteriormente, Plan de Ciclabilidad 2017-2022
+  (Fase II), que actualiza y desarrolla el anterior con un proceso participativo y con los
+  colectivos ciclistas.
+- OBJETIVO GENERAL: conseguir que la bicicleta sea un verdadero medio de transporte urbano
+  ALTERNATIVO al resto de medios, en especial a los motorizados.
+- OBJETIVOS (formulación 2005): crear una red ciclable FUNCIONAL; diseñar una red SEGURA;
+  programar una IMPLANTACIÓN PROGRESIVA; y POTENCIAR LA INTERMODALIDAD.
+- RED PROPUESTA: red mallada con el criterio de que NINGÚN PUNTO DE LA CIUDAD quede a más
+  de 200 metros de una vía ciclista. La propuesta de 2005 fijaba ~116 km; el Plan
+  2017-2022 elevó la previsión a ~127,4 km de infraestructuras ciclistas.
+- FASES DE IMPLANTACIÓN: (1ª) cuatro CORREDORES PRINCIPALES que unen tramos ciclables
+  existentes y vertebran/unen los barrios; (2ª) MALLADO INTERIOR de cada barrio (recorridos
+  internos) dentro de la retícula definida por los corredores. (Etapas posteriores: unir
+  ejes —Trinitarios-Guipúzcoa, Monjardín, Sancho el Fuerte— y conectar con UPNA/UNED,
+  zona hospitalaria de Irunlarrea, avda. de Navarra, Yanguas y Miranda, etc.)
+- TIPOS DE VÍA CICLABLE: carril bici (en calzada), pista bici, acera bici, y sendas
+  ciclables; además vías ciclables de uso compartido (con peatones en calles residenciales
+  o con vehículos en espacios singulares, p. ej. caminos de Aranzadi).
+- MARCO NORMATIVO: la circulación de bicicletas se regula en la ORDENANZA DE MOVILIDAD de
+  Pamplona (2019), Capítulo V "De la circulación y uso de bicicletas". La red ciclable
+  puede consultarse en el VISOR CIUDAD (SIG municipal), actualizado anualmente.
+
+================================================================================
+PARTE D — PLAN ESTRATÉGICO DE ACCESIBILIDAD INTEGRAL DE LA CIUDAD DE PAMPLONA
+================================================================================
+[OJO denominación: I Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona
+"2022-2026" (el enunciado dice 2036; ver aviso inicial).]
+
+- NATURALEZA: primer plan estratégico municipal de accesibilidad de Pamplona. Licitado en
+  2021 (inversión inicial de redacción 55.000 €), redactado por SUMA USC (con participación
+  de arbuleku/arbuniés-lekumberri) y APROBADO por la Junta de Gobierno Local en diciembre
+  de 2023. Documento estratégico, programado y presupuestado, de implantación PROGRESIVA
+  mediante PLANES OPERATIVOS ANUALES (periodo 2023-2026).
+- ENFOQUE — ACCESIBILIDAD UNIVERSAL: condición que deben cumplir entornos, procesos,
+  bienes, productos y servicios para ser comprensibles, utilizables y practicables por
+  TODAS las personas en condiciones de seguridad, comodidad y autonomía (definición del
+  RDL 1/2013, Ley General de Derechos de las Personas con Discapacidad). Presupone el
+  DISEÑO UNIVERSAL ("diseño para todas las personas") y los AJUSTES RAZONABLES. No se
+  limita a las barreras físicas: integra también la accesibilidad SENSORIAL, COGNITIVA y
+  TECNOLÓGICA. Incorpora la perspectiva de género y de edad.
+- MARCO: normativa y convenios internacionales, estatales (RDL 1/2013), autonómicos (LF
+  12/2018 de Accesibilidad Universal de Navarra) y municipales; alineado con la AGENDA
+  URBANA PAMPLONA 2030 y los ODS.
+- METODOLOGÍA: diagnóstico exhaustivo del estado de la accesibilidad municipal →
+  formulación de actuaciones programadas y presupuestadas → planes operativos anuales.
+  Proceso participativo con más de 34 colectivos del ámbito de la discapacidad y la
+  ciudadanía.
+- CONTENIDO: 65 PROPUESTAS/ACTUACIONES de actuación, organizadas en CINCO LÍNEAS
+  ESTRATÉGICAS:
+    1) Accesibilidad en el ESPACIO PÚBLICO.
+    2) Accesibilidad en los EDIFICIOS de uso público y titularidad municipal.
+    3) Accesibilidad en los elementos de TRANSPORTE PÚBLICO.
+    4) Accesibilidad en las HERRAMIENTAS MUNICIPALES DE COMUNICACIÓN.
+    5) Accesibilidad en los SERVICIOS MUNICIPALES.
+
+================================================================================
+PARTE E — PLAN DE MOVILIDAD URBANA SOSTENIBLE DE LA COMARCA DE PAMPLONA (PMUSCP)
+================================================================================
+- PROMOTORES Y ÁMBITO: lo elaboran la MANCOMUNIDAD DE LA COMARCA DE PAMPLONA (MCP, a
+  través de su área de Transporte Urbano Comarcal), el GOBIERNO DE NAVARRA y los 18
+  AYUNTAMIENTOS integrados en el servicio de Transporte Urbano Comarcal (TUC). Se enmarca
+  en la red europea ENDURANCE y se firmó un convenio de colaboración entre las tres partes.
+- FINALIDAD: obtener un plan INTEGRAL y COORDINADO de actuación sobre todos los modos y
+  elementos de la movilidad comarcal (transporte público, vehículo privado y aparcamiento,
+  bicicleta, peatón), consensuado entre las administraciones competentes.
+- PRINCIPIO RECTOR: apuesta decidida por una movilidad sostenible que PRIORIZA al peatón,
+  la bicicleta y el transporte público, relegando el vehículo privado a un papel
+  subsidiario.
+- OBJETIVO CUANTITATIVO CLAVE (muy preguntable): cambiar el reparto modal hasta alcanzar
+  el "20 / 30 / 50", es decir:
+    · 20% transporte colectivo (TUC),
+    · 30% vehículo privado (reducirlo desde su cuota actual),
+    · 50% desplazamientos no motorizados (peatón + bicicleta).
+  En conjunto, que el 70% de la movilidad se desarrolle en modos sostenibles.
+- CARACTERÍSTICAS: documento elaborado con un amplio PROCESO PARTICIPATIVO; proyecto
+  ambicioso pero con medidas de ejecución ágil, flexible y económicamente factible para
+  vencer las reticencias al cambio. El TUC (las "villavesas") es gestionado por la MCP. Se
+  imbrica con la movilidad interna de la ciudad de Pamplona y con la Agenda Urbana
+  Pamplona 2030.
+
+================================================================================
+PARTE F — DATOS CLAVE PARA TEST
+================================================================================
+- Idea transversal: ACCESIBILIDAD > MOVILIDAD; pirámide peatón > bici > transporte público
+  > vehículo privado (subsidiario).
+- PLAN MUNICIPAL (Sistema de Comunicaciones): Memoria Cap. 6 (síntesis) + Anexo V (5.1
+  análisis + 5.2 propuesta). Diagnóstico basado en la Encuesta Domiciliaria de 1996.
+  · Reparto modal años 90: a pie 43,7% / privado 36,8% / colectivo 14,4%.
+  · Motivos: trabajo 32,3%, estudios 22,8%. Tres coronas (Centro / urbana / metropolitana).
+    Motorización Pamplona: 469 veh/1.000 hab (399 turismos).
+  · Propuesta: transformar la red RADIAL en MALLA; red viaria urbana de primer rango que
+    "suelda" la ciudad de los valles con la de la meseta; sistema de RONDAS como red básica
+    (prolongación Ronda Norte, túnel de Ezkaba, anillo orbital con quiebro NE); nudo de San
+    Jorge crítico; estación de autobuses; ferroviario; peatones y ciclistas.
+- PLAN DE CICLABILIDAD: 2005 (origen) y 2017-2022. Objetivo: la bici como medio de
+  transporte alternativo al motorizado. Criterio: ningún punto a más de 200 m de vía
+  ciclista. Red ~116 km (2005) → ~127,4 km (2017-2022). Fases: corredores principales +
+  mallado interior. Objetivos: red funcional, segura, progresiva, intermodal. Ordenanza de
+  Movilidad 2019, Cap. V (bicicletas).
+- PLAN DE ACCESIBILIDAD: I Plan Estratégico de Accesibilidad Integral (2022-2026), aprobado
+  2023. Accesibilidad UNIVERSAL (RDL 1/2013, diseño universal + ajustes razonables; física,
+  sensorial, cognitiva, tecnológica). 65 actuaciones en 5 LÍNEAS: espacio público,
+  edificios, transporte público, comunicación, servicios. Agenda Urbana 2030.
+- PMUSCP: MCP + Gobierno de Navarra + 18 ayuntamientos del TUC. Objetivo de reparto modal
+  20/30/50 (TP / vehículo privado / peatón+bici) = 70% en modos sostenibles. Red ENDURANCE.
+
+>>> POSIBLES TRAMPAS:
+  - Las cifras de reparto modal del PLAN MUNICIPAL (43,7/36,8/14,4, años 90) NO son las
+    metas del PMUSCP (20/30/50). Son cosas distintas: diagnóstico antiguo vs objetivo
+    comarcal.
+  - El reparto 20/30/50 del PMUSCP: el 50% es peatón+bici, el 30% vehículo privado, el 20%
+    transporte público (no confundir el orden de los porcentajes).
+  - Accesibilidad: 5 líneas estratégicas y 65 actuaciones; el enunciado dice "2036" pero el
+    plan oficial es "2022-2026".
+  - El Anexo V se divide en 5.1 (análisis) y 5.2 (propuesta); la Memoria Cap. 6 es la
+    síntesis de ambos.
+  - El PMUSCP es COMARCAL (Mancomunidad, 18 ayuntamientos del TUC), no municipal; no
+    confundir con la Estrategia de Movilidad de la ciudad de Pamplona.
+
+================================================================================
+FUENTES (verificación 19/06/2026)
+================================================================================
+- Plan Municipal de Pamplona, Anexo V "El Sistema de Comunicaciones", partes 5.1 (análisis)
+  y 5.2 (propuesta), Texto Refundido, Acuerdo C.O.T. 18/12/2002, Gerencia de Urbanismo
+  (pamplona.es). La Memoria Cap. 6 sintetiza este anexo.
+- Plan de Ciclabilidad de Pamplona (2005; Plan 2017-2022): pamplona.es y
+  movilidadpamplona.es; Ordenanza de Movilidad (2019).
+- I Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026):
+  pamplona.es; redacción SUMA USC; aprobado por la Junta de Gobierno Local (diciembre 2023).
+- Plan de Movilidad Urbana Sostenible de la Comarca de Pamplona (PMUSCP): Mancomunidad de
+  la Comarca de Pamplona (mcp.es), participartepmus.es y pamplona2030.es.
+- Marco: TRLFOTU-2017; RDL 1/2013; LF 12/2018 de Accesibilidad Universal; Agenda Urbana
+  Pamplona 2030.
+- NOTA: este tema reúne documentos de planificación (memorias y planes), no articulado;
+  el contenido se ha sintetizado fielmente. Las tablas de datos del Anexo V (motorización
+  por subzonas, aforos IMD, etc.) no se reproducen por ser dato de consulta.
+================================================================================

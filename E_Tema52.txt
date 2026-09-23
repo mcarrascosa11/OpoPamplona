@@ -1,0 +1,371 @@
+================================================================================
+TEMA 52 — HISTORIA DE LA EVOLUCIÓN URBANÍSTICA DE PAMPLONA.
+EL DESARROLLO DE LA FORMA URBANA.
+================================================================================
+Oposición Arquitecto/a — Ayuntamiento de Pamplona (examen enero 2027)
+
+Fecha de elaboración/verificación: 18/06/2026
+
+Bibliografía oficial del temario:
+  - Guía de arquitectura de Pamplona y su comarca. ISBN 84-611-3284-X.
+  - Plan Municipal de Pamplona, Memoria — Capítulo 7 "La ciudad actual".
+  - Anexo VI "La ciudad actual" del Plan Municipal de Pamplona.
+
+NOTA DE MÉTODO: este es un tema histórico-urbanístico, no de articulado legal. El
+contenido está redactado con datos contrastados en fuentes fiables (Ayuntamiento
+de Pamplona — web de murallas e historia; Gran Enciclopedia de Navarra; artículo
+de J. C. Alli Aranguren sobre las Ordenanzas del Plan de 1957, Vasconia 36/2009;
+memoria del propio Plan Municipal). No se reproduce el texto de la Guía de
+arquitectura (obra con derechos) ni literalmente la memoria del Plan: se exponen
+los hechos con redacción propia. Los datos testeables (fechas, planes, autores)
+van señalados en el apartado final "DATOS CLAVE PARA TEST".
+
+ESQUEMA (orden del temario):
+  0. Marco: el emplazamiento y el factor condicionante de la muralla
+  1. Origen
+  2. Ciudad romana
+  3. Ciudad medieval
+  4. Ciudad fortificada
+  5. Expansión y ensanches
+  6. Plan General de Alineaciones de 1957
+  7. Desarrollo urbano desde la segunda mitad del siglo XX
+  8. Plan General de Ordenación Urbana de 1984
+  9. La ciudad actual (Plan Municipal vigente)
+
+================================================================================
+0. MARCO: EMPLAZAMIENTO Y EL FACTOR CONDICIONANTE DE LA MURALLA
+================================================================================
+Pamplona se asienta en el centro de la Cuenca de Pamplona, una depresión rodeada
+de montañas, sobre una terraza elevada en la margen del río Arga (que la rodea por
+el norte y el este), con los ríos Elorz y Sadar al sur. El emplazamiento original
+es una colina defensiva sobre el Arga, separada del entorno por barrancos.
+
+La clave para entender TODA la evolución urbana de Pamplona es que durante siglos
+fue una PLAZA FUERTE militar: el recinto amurallado y la condición de plaza de
+guerra impidieron el crecimiento extramuros y comprimieron a la población dentro
+del corsé de las murallas hasta finales del siglo XIX. La forma urbana actual es,
+en buena medida, el resultado de la liberación progresiva de esa servidumbre
+militar (los ensanches) y de la planificación del siglo XX.
+
+================================================================================
+1. ORIGEN
+================================================================================
+El asentamiento más antiguo es un poblado vascón de la Edad del Hierro situado bajo
+la ciudad actual, en las terrazas del Arga, del que procede el nombre vasco IRUÑA
+("la ciudad"). Las raíces del lugar son, por tanto, prerromanas y vasconas.
+
+La ciudad histórica nace con la presencia romana: hacia el 75-74 a.C. (las fuentes
+oscilan entre ambos años), durante las guerras sertorianas, el general romano Cneo
+Pompeyo Magno estableció o reorganizó el asentamiento, al que dio su nombre,
+POMPAELO (de donde derivan Pamplona / Iruña). Es el momento en que la ciudad entra
+en la historiografía clásica (Estrabón atribuye su fundación a Pompeyo).
+
+================================================================================
+2. CIUDAD ROMANA
+================================================================================
+Pompaelo se organizó conforme al modelo urbanístico romano (civitas), sobre la
+colina que después será la Navarrería. Su valor era estratégico: punto de enlace
+entre la Península y el otro lado de los Pirineos (Aquitania), en la red viaria
+romana. Se considera probable que la trama heredada de la ciudad romana pervivió a
+lo largo del primer milenio y condicionó el núcleo primitivo (la futura Navarrería,
+en torno al solar de la catedral). Entre los siglos IV y IX la ciudad pasó por
+dominio visigodo y musulmán, y en el siglo X se consolidó como capital del Reino de
+Pamplona (después Reino de Navarra).
+
+================================================================================
+3. CIUDAD MEDIEVAL
+================================================================================
+La Pamplona medieval es el caso paradigmático de "ciudad de los burgos": NO fue un
+núcleo único, sino tres núcleos independientes, amurallados y enfrentados entre sí,
+cada uno con su jurisdicción, fueros y fortificación propios, separados por fosos y
+espacios neutrales:
+
+  - LA NAVARRERÍA: el núcleo primitivo, sobre el solar romano, en torno a la
+    catedral; poblado mayoritariamente por navarros (labradores), bajo señorío del
+    obispo. Junto a ella existieron apéndices como el burgo de San Miguel y la
+    Judería.
+  - EL BURGO DE SAN CERNIN (o San Saturnino): surgido hacia 1090 al oeste, poblado
+    por francos del Mediodía francés (occitanos) atraídos por el Camino de Santiago;
+    dedicados al comercio y la artesanía. Recibieron privilegios reales en 1129
+    (Alfonso I el Batallador).
+  - LA POBLACIÓN DE SAN NICOLÁS: surgida en el siglo XII en torno a su parroquia,
+    con pobladores navarros y extranjeros.
+
+El IMPULSO del Camino de Santiago explica la aparición de los burgos francos fuera
+de la Navarrería. Las iglesias de cada burgo funcionaban como bastiones defensivos.
+Las rivalidades fueron constantes; San Cernin y San Nicolás llegaron a unirse
+municipalmente hacia 1287. El conflicto culminó en la GUERRA DE LA NAVARRERÍA
+(1276), en la que San Cernin y San Nicolás, con apoyo de tropas francesas, arrasaron
+la Navarrería, que quedó casi medio siglo despoblada.
+
+EL PRIVILEGIO DE LA UNIÓN (8 de septiembre de 1423): el rey CARLOS III EL NOBLE
+puso fin a los enfrentamientos uniendo jurídicamente los tres burgos en una única
+entidad municipal ("una sola universidad, un concejo y una comunidad indivisible"),
+con un solo ayuntamiento, un escudo y unas únicas rentas. Es el documento fundacional
+de la Pamplona moderna. Urbanísticamente, mandó construir la Casa Consistorial en la
+antigua "tierra de nadie" donde confluían los tres burgos, como símbolo de la unión,
+y ordenó eliminar los límites físicos internos (aunque las murallas interiores
+tardaron en desaparecer y muchos fosos se convirtieron con el tiempo en calles).
+El espacio intermedio entre los burgos (el Chapitel / explanada) se materializó en
+las actuales plazas del Castillo, Consistorial (antes de la Fruta o del Chapitel) y
+Santo Domingo.
+
+================================================================================
+4. CIUDAD FORTIFICADA
+================================================================================
+Tras la conquista de Navarra por Fernando el Católico (1512), Pamplona quedó
+integrada en la Monarquía Hispánica y adquirió un papel militar de primer orden:
+plaza fronteriza frente a Francia. Durante el siglo XVI se reforzaron las viejas
+murallas medievales (engrosado de muros en talud, casamatas, parapetos, derribo de
+torres medievales, eliminación de padrastros).
+
+LA CIUDADELA (1571): el ingeniero Juan Bautista Antonelli emitió en 1569 un informe
+muy negativo sobre la capacidad defensiva de la plaza. Atendiéndolo, FELIPE II
+encargó una nueva gran fortaleza al ingeniero militar italiano GIACOMO PALEARO,
+"EL FRATÍN"; en la elección del emplazamiento y el proyecto intervino también el
+virrey VESPASIANO GONZAGA. En 1571 estaban listas las trazas. Características:
+  - Fortificación renacentista "a la moderna" (escuela italiana, sistema abaluartado).
+  - Planta de PENTÁGONO ESTRELLADO con un BALUARTE en cada uno de los cinco ángulos
+    (Santa María, Santiago, San Antón, La Victoria, Santa Tecla).
+  - Inspirada en las ciudadelas pentagonales de AMBERES (Paciotto) y TURÍN.
+  - Situada al suroeste, el punto más expuesto; se enlazó con el recinto existente
+    mediante nuevos lienzos de muralla, generando el espacio de la Taconera.
+Las obras se prolongaron durante décadas (núcleo principal dado por terminado hacia
+1646). En el siglo XVIII, con los Borbones y la ingeniería militar franco-flamenca,
+JORGE PRÓSPERO DE VERBOOM redactó en 1726 un proyecto general para la Ciudadela y el
+recinto que marcó las obras del siglo XVIII (refuerzo del frente de Francia con
+baluartes bajos y fortines; contraguardias y medias lunas tipo Vauban, 1685).
+
+El conjunto Ciudadela + recinto abaluartado convirtió a Pamplona en PLAZA FUERTE y
+en uno de los recintos abaluartados mejor conservados de Europa. Pero esa misma
+condición la "encorsetó": el crecimiento extramuros estaba prohibido por las
+servidumbres militares, lo que en el siglo XIX, con el aumento demográfico, produjo
+hacinamiento e insalubridad dentro de los muros.
+
+================================================================================
+5. EXPANSIÓN Y ENSANCHES
+================================================================================
+La presión por crecer choca durante todo el siglo XIX con el Ramo de Guerra. Ya en
+1854 el Ayuntamiento solicitó a Isabel II la modificación de las murallas. La
+liberación se produjo por fases, cada una autorizada por una norma estatal:
+
+PRIMER ENSANCHE:
+  - LEY DE 22 DE AGOSTO DE 1888: autorizó la demolición parcial de la Ciudadela —los
+    baluartes de LA VICTORIA y SAN ANTÓN (los dos orientados hacia la ciudad) y el
+    revellín intermedio— para permitir el ensanche y nuevos cuarteles. Esto hizo
+    perder a la Ciudadela su forma estrellada completa.
+  - Sobre ese suelo se edificó el PRIMER ENSANCHE, con vivienda burguesa de estilo
+    MODERNISTA y ECLÉCTICO, obra de los mejores arquitectos locales del momento.
+  - En 1905-1906 (Real Orden de 14 de junio de 1905) se derribaron portales
+    (Taconera, Portal Nuevo, San Nicolás) para facilitar el tráfico; el de la
+    Rochapea, en 1914.
+
+SEGUNDO ENSANCHE:
+  - El Primer Ensanche resultó insuficiente. La LEY DE 7 DE ENERO DE 1915 autorizó el
+    derribo de las murallas del FRENTE SUR (frentes de San Nicolás y de la Tejería),
+    entre la Ciudadela y el baluarte de Labrit.
+  - El derribo, iniciado de forma simbólica el 25 de julio de 1915, se ejecutó
+    fundamentalmente entre 1918 y 1921; sus cimientos quedaron bajo las calles y
+    manzanas del nuevo barrio.
+  - Sobre ese frente liberado se trazó el SEGUNDO ENSANCHE, proyectado por el
+    arquitecto SERAPIO ESPARZA. Es el ensanche de trama regular en cuadrícula que
+    estructura el centro actual (con la Av. Carlos III como eje y la Plaza de los
+    Fueros / Av. de Roncesvalles).
+  - El Casco Viejo (los antiguos burgos) siguió siendo el centro terciario hasta
+    finales de los años 50, iniciándose después un proceso de sustitución social y
+    envejecimiento.
+
+Idea fuerza: I y II Ensanche son la "salida" de la ciudad de su recinto militar; a
+partir de aquí Pamplona crece ya sin la servidumbre de la muralla.
+
+================================================================================
+6. PLAN GENERAL DE ALINEACIONES DE 1957
+================================================================================
+CONTEXTO PREVIO: tras la Guerra Civil se plantean reformas interiores del casco
+(p. ej. proyecto de Víctor Eusa, 1940). En 1945 el Ayuntamiento encargó a los
+arquitectos BLEIN y BIDAGOR y al Colegio Vasco-Navarro de Arquitectos los "Informes
+sobre la ordenación urbanística de Pamplona en sus barrios", que recomendaron seguir
+ocupando la meseta hacia el NOROESTE (San Juan, Iturrama, Abejeras: el futuro III
+Ensanche) y ordenar la periferia con usos industriales y de servicios. El geógrafo
+Leoncio Urabayen discrepó y defendió crecer por el llano bajo, hacia el norte, entre
+el Arga y el monte Ezkaba (San Cristóbal).
+
+EL PLAN: el PLAN GENERAL DE ALINEACIONES DE PAMPLONA DE 1957 es el primer
+instrumento de ordenación de conjunto de la ciudad en el siglo XX. Su naturaleza es
+la de un documento INTERMEDIO entre los planes de ensanche del siglo XIX y los
+Planes Generales de Ordenación propios de la Ley del Suelo estatal de 1956. Sus
+Ordenanzas regulaban:
+  - ZONIFICACIÓN (especialización de zonas por usos).
+  - RÉGIMEN DE LA EDIFICACIÓN y de las actividades industriales.
+  - CONDICIONES VOLUMÉTRICAS (alturas, salientes, vuelos, patios) y ESTÉTICAS.
+Estructura de las Ordenanzas: Título I, la "ordenación" del suelo para la edificación
+(régimen de zonas y condiciones particulares de la zonificación, usos y volumen);
+Título II, las "condiciones generales" (higiénicas, constructivas e instalaciones).
+Aparecen tipos como la edificación semiabierta.
+
+Su consecuencia urbana directa fue el TERCER ENSANCHE (San Juan e Iturrama), que se
+desarrolla a partir de él.
+
+================================================================================
+7. DESARROLLO URBANO DESDE LA SEGUNDA MITAD DEL SIGLO XX
+================================================================================
+A partir de los años 50-60 Pamplona vive una fuerte expansión demográfica e
+industrial (inmigración rural; Grupo Huarte; industria del automóvil que llevaría a
+AUTHI; conservas, electrodomésticos). Esto dispara la construcción de vivienda y la
+extensión de la ciudad por la meseta y los llanos. Rasgos del periodo:
+
+TERCER ENSANCHE (resultado del Plan de 1957):
+  - Se consolida primero en SAN JUAN (y circunvalación) y después en ITURRAMA.
+  - La Primera Zona del Tercer Ensanche (terrenos entre Abejeras y el Arga, zona del
+    molino de la Biurdana) fue aprobada por el Pleno en sesiones de 27 de diciembre
+    de 1962 y 21 de mayo de 1963.
+  - Ejes: Avenida de Pío XII (acceso a la ciudad) y, paralela, Avenida de Bayona;
+    arterias transversales Sancho el Fuerte (sobre el trazado del antiguo ferrocarril
+    del Irati) y la que vertebra Iturrama.
+  - Morfología: mezcla de ciudad cerrada y abierta, PREDOMINIO DEL BLOQUE ABIERTO
+    sobre la manzana cerrada, y altísima densidad.
+
+BARRIOS DE PROMOCIÓN SOCIAL Y PERIFERIA (años 50-70): crecimiento de barrios obreros
+y de promoción pública/asociada, a menudo con alta densidad y déficit dotacional
+inicial:
+  - LA TXANTREA (Chantrea): promovida desde principios de los años 50 (vinculada al
+    Patronato Francisco Franco / promoción social del hogar); iglesia de San José
+    inaugurada en 1953; crecimiento posterior con Orvina.
+  - ROCHAPEA (Rotxapea), SAN JORGE, ETXABAKOITZ, MILAGROSA, AZPILAGAÑA,
+    ERMITAGAÑA-MENDEBALDEA: desarrollos de la segunda mitad del siglo (algunos
+    completados o reordenados ya en los años 80-90).
+
+SUELO INDUSTRIAL: el "zoning" industrial espontáneo se dio a lo largo de las
+carreteras principales (Gipuzkoa, Francia, Zaragoza, Logroño). La política de
+POLÍGONOS INDUSTRIALES fue iniciada por la Diputación en 1964; en Pamplona, el
+POLÍGONO DE LANDABEN (170 Ha), creado para descongestionar la industria central y
+alojar nuevas factorías.
+
+================================================================================
+8. PLAN GENERAL DE ORDENACIÓN URBANA DE 1984
+================================================================================
+El PLAN GENERAL DE ORDENACIÓN URBANA DE PAMPLONA DE 1984 es el primer Plan General
+moderno e integral de la ciudad, redactado al amparo de la legislación estatal del
+suelo. Sustituye al Plan de Alineaciones de 1957 y supone un CAMBIO DE CULTURA
+URBANÍSTICA respecto a los desarrollos de los años 50-60-70 (densos y con escasa
+atención al entorno): los desarrollos posteriores buscan mayor calidad de diseño y
+atención al espacio público.
+
+Aportaciones y desarrollo del Plan de 1984:
+  - Clasifica y ordena el suelo del término municipal y fija el modelo de crecimiento
+    de la ciudad para las dos décadas siguientes (sus previsiones se fueron
+    ejecutando mediante planeamiento pormenorizado, que en ocasiones obligó a
+    modificarlo puntualmente).
+  - Atención al CASCO HISTÓRICO: estímulo de la rehabilitación. En octubre de 1984 se
+    crea la OFICINA DE REHABILITACIÓN DE VIVIENDAS del Ayuntamiento (convenio
+    MOPU–Gobierno de Navarra–Ayuntamiento), para rehabilitar edificios del centro
+    histórico conforme a las exigencias del Plan; se apoya en PERI (Planes Especiales
+    de Reforma Interior).
+  - Sobre su marco se desarrollan o reordenan, en los años 80-90, zonas como
+    Rochapea, Etxabakoitz Norte, San Jorge, Iturrama (PERI), y la gran actuación de
+    MENDILLORRI, además de la construcción de las "rondas" del continuo urbano.
+
+Marco legal posterior: la competencia urbanística pasa a regularse en Navarra por la
+Ley Foral 10/1994, de 4 de julio, de Ordenación del Territorio y Urbanismo, que
+introduce la figura del PLAN MUNICIPAL (sustituye conceptualmente al "Plan General de
+Ordenación Urbana"). Por ello el planeamiento de 1984 fue finalmente revisado y
+sustituido por el vigente Plan Municipal (ver apartado 9).
+
+================================================================================
+9. LA CIUDAD ACTUAL (PLAN MUNICIPAL VIGENTE)
+================================================================================
+El instrumento vigente es el PLAN MUNICIPAL DE PAMPLONA, cuyo Texto Refundido fue
+aprobado definitivamente por Acuerdo de la Comisión de Ordenación del Territorio
+(C.O.T.) de 18 de diciembre de 2002, posteriormente HOMOLOGADO a la Ley Foral
+35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo.
+
+Es el documento al que remite la bibliografía del temario:
+  - "Memoria — Capítulo 7. La ciudad actual": describe el estado y la dinámica
+    urbana de Pamplona al redactarse el Plan (estructura por barrios/Unidades
+    Integradas U.I., desarrollos recientes, diagnóstico).
+  - "Anexo VI. La ciudad actual": anexo de análisis del mismo bloque.
+
+El Plan organiza el suelo urbano en UNIDADES INTEGRADAS (U.I.) que se corresponden
+con los barrios (Santa Lucía, Rochapea, Aranzadi, Chantrea-Magdalena, San Jorge,
+Trinitarios, Casco Antiguo, Beloso, Landaben, Mendebaldea, San Juan, Ensanche
+—I y II—, Arrosadía-Lezkairu, Iturrama, Milagrosa, Etxabakoitz, etc.). Los grandes
+crecimientos del cambio de siglo son LEZKAIRU y la consolidación de Mendillorri,
+junto a operaciones supramunicipales (PSIS) que han implantado las dos universidades
+(Universidad de Navarra y Universidad Pública de Navarra), el polígono Comarca-I y
+suelos ferroviarios en Etxabakoitz.
+
+Forma urbana resultante (síntesis): núcleo histórico de los tres burgos (Casco
+Antiguo) → ensanches regulares decimonónicos/principios del XX al sur (I y II) →
+III Ensanche y barrios densos de bloque abierto de los años 50-70 sobre la meseta y
+los llanos → desarrollos planificados de mayor calidad desde 1984 → ciudad
+metropolitana actual integrada en la Cuenca/Comarca de Pamplona (hoy encuadrada,
+a escala territorial, en el POT 3 "Área Central").
+
+================================================================================
+DATOS CLAVE PARA TEST
+================================================================================
+- Poblado vascón: IRUÑA ("la ciudad"). Fundación romana: POMPAELO, por CNEO POMPEYO
+  MAGNO, h. 75-74 a.C. (guerras sertorianas).
+- Tres burgos medievales: NAVARRERÍA (núcleo romano/episcopal), BURGO DE SAN CERNIN
+  (francos occitanos, h. 1090, privilegios 1129), POBLACIÓN DE SAN NICOLÁS (s. XII).
+  Apéndices: San Miguel, Judería.
+- GUERRA DE LA NAVARRERÍA: 1276 (San Cernin + San Nicolás arrasan la Navarrería).
+- PRIVILEGIO DE LA UNIÓN: 8 de septiembre de 1423, CARLOS III EL NOBLE. Documento
+  fundacional; Casa Consistorial en "tierra de nadie".
+- Conquista de Navarra por Castilla (Fernando el Católico): 1512.
+- CIUDADELA: encargo de FELIPE II en 1571; ingeniero GIACOMO PALEARO "EL FRATÍN";
+  virrey Vespasiano Gonzaga; PLANTA PENTAGONAL (5 baluartes); modelo Amberes/Turín.
+  Informe previo de Antonelli (1569). Verboom: proyecto general 1726.
+- Pamplona = PLAZA FUERTE; las murallas impidieron el crecimiento → hacinamiento s.XIX.
+- PRIMER ENSANCHE: Ley de 22 de agosto de 1888 (derribo baluartes Victoria y San
+  Antón). Estilo modernista/ecléctico.
+- SEGUNDO ENSANCHE: Ley de 7 de enero de 1915 (derribo frente sur S. Nicolás-Tejería);
+  derribo 1915 (simbólico, 25 julio) y 1918-1921; arquitecto SERAPIO ESPARZA; trama
+  en cuadrícula.
+- PLAN GENERAL DE ALINEACIONES DE 1957: documento intermedio entre ensanches del XIX
+  y planes generales de la Ley del Suelo (1956); Ordenanzas de zonificación, régimen
+  de edificación, condiciones volumétricas y estéticas. Da lugar al III ENSANCHE.
+- TERCER ENSANCHE: SAN JUAN e ITURRAMA (también Abejeras). 1ª Zona aprobada por el
+  Pleno 27/12/1962 y 21/05/1963. Ejes: Pío XII, Bayona, Sancho el Fuerte. Bloque
+  abierto, alta densidad.
+- Barrios 2ª mitad s.XX: TXANTREA (años 50, iglesia San José 1953), Rochapea, San
+  Jorge, Etxabakoitz, Milagrosa. Polígono industrial de LANDABEN (170 Ha); política
+  de polígonos desde 1964.
+- PGOU DE 1984: primer plan general integral moderno; sustituye al de 1957; cambio de
+  cultura urbanística; Oficina de Rehabilitación (oct. 1984); PERI en casco; Mendillorri
+  y rondas. Sustituido por el Plan Municipal vigente.
+- PLAN MUNICIPAL VIGENTE: Texto Refundido, aprob. def. C.O.T. 18/12/2002; homologado a
+  la LF 35/2002. (Marco previo: LF 10/1994 introduce el "Plan Municipal".)
+
+>>> POSIBLES TRAMPAS:
+  - No confundir el PLAN DE ALINEACIONES de 1957 (instrumento de alineaciones y
+    ordenanzas, anterior/contemporáneo a la Ley del Suelo de 1956) con el PGOU de 1984
+    (primer plan general integral) ni con el Plan Municipal de 2002 (el vigente).
+  - "Ciudad de los burgos": eran TRES núcleos independientes y amurallados ENTRE SÍ;
+    la unión es de 1423, no antes.
+  - La Ciudadela la ordena FELIPE II (1571), no Fernando el Católico (a este se debe
+    el castillo de Santiago, anterior, sustituido por la Ciudadela).
+  - Primer Ensanche = derribo de baluartes de la Ciudadela (1888); Segundo Ensanche =
+    derribo del frente sur de murallas (1915-1921). No mezclar las dos leyes/fechas.
+
+================================================================================
+FUENTES (verificación 18/06/2026)
+================================================================================
+- Ayuntamiento de Pamplona: "Historia de Pamplona" y "Historia de las murallas"
+  (pamplona.es/turismo/murallas); programa "Pompelo/Pamplona/Iruña 2100".
+- Gran Enciclopedia de Navarra, voz "Pamplona" (enciclopedianavarra.com); navarchivo.com.
+- Alli Aranguren, J. C., "Las Ordenanzas del Plan General de Alineaciones de Pamplona
+  de 1957", Vasconia 36 (2009), pp. 291-307.
+- Plan Municipal de Pamplona (Texto Refundido 2002): Memoria de análisis y anexos
+  (pamplona.es) — desarrollo del Plan General de 1984 y Unidades Integradas.
+- Wikipedia (es): "Ciudadela de Pamplona", "Fortificaciones de Pamplona", "Burgos de
+  Pamplona" (contrastadas con las fuentes oficiales anteriores).
+- CyTET II/99 (1994): "El planeamiento urbano en el A.M. de Pamplona en los años 80 y 90".
+- Bibliografía del temario: Guía de arquitectura de Pamplona y su comarca
+  (ISBN 84-611-3284-X); Plan Municipal, Memoria cap. 7 y Anexo VI "La ciudad actual".
+
+NOTA: no se han verificado de forma independiente el redactor ni la fecha exacta de
+aprobación del PGOU de 1984; se describe por su contenido y su papel, contrastados en
+la memoria del Plan Municipal. Si el temario exige fecha/autor concretos, confirmar en
+el Capítulo 7 de la Memoria del Plan Municipal (bibliografía oficial).
+================================================================================

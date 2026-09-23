@@ -1,0 +1,596 @@
+Tema 5.-Reglamento de seguridad contra incendios en los establecimientos industriales (Real Decreto
+164/2025, de 4 de marzo). Capítulo I: Disposiciones generales. Capítulo II: Requisitos que deben cumplir los
+establecimientos industriales. Capítulo III: Construcción, puesta en servicio, funcionamiento y
+mantenimiento. Anexo I: Caracterización de los establecimientos industriales (excluidas las tablas 1.3.3,
+1.3.4 y 1.3.5)
+
+REGLAMENTO DE SEGURIDAD CONTRA INCENDIOS EN LOS ESTABLECIMIENTOS INDUSTRIALES
+CAPÍTULO I
+Disposiciones generales
+Artículo 1. Objeto.
+1. Este reglamento tiene por objeto establecer los requisitos que deben cumplir los establecimientos industriales en lo relativo a su seguridad en caso de incendio, para prevenir la aparición de incendios y para dar una respuesta adecuada en caso de producirse, estableciendo medidas para facilitar su rápida detección, limitar su propagación y posibilitar su extinción, con el objetivo de minimizar el riesgo de daños a personas, bienes y medioambiente.
+
+2. Las medidas de protección contra incendios establecidas en las disposiciones vigentes que regulan actividades o instalaciones industriales, sectoriales o específicas, prevalecerán sobre las establecidas en este reglamento, el cual en estos casos solo se aplicará con carácter complementario y para aquellos aspectos no previstos en ellas.
+
+Artículo 2. Ámbito de aplicación.
+1. El ámbito de aplicación de este Reglamento son los establecimientos industriales, entendiendo como tales a aquellos cuyo uso principal es industrial.
+
+Se considerará uso industrial a efectos de este Reglamento a:
+
+a) Las actividades industriales, tal como se definen en el artículo 3.1 de la Ley 21/1992, de 16 de julio, de Industria.
+
+b) Los almacenes industriales, tal como se definen en el artículo 3 del presente reglamento.
+
+c) Los talleres de reparación de vehículos.
+
+d) Los servicios auxiliares o complementarios de las actividades comprendidas en los párrafos anteriores.
+
+2. Quedan excluidas del ámbito de aplicación de este reglamento las siguientes actividades:
+
+a) Las desarrolladas en establecimientos o instalaciones nucleares y radiactivas,
+
+b) las de extracción de minerales,
+
+c) las actividades agrarias y ganaderas,
+
+d) las instalaciones para usos militares,
+
+e) las instalaciones de servicio definidas en el artículo 42.1 de la Ley 38/2015, de 29 de septiembre, del sector ferroviario.
+
+Artículo 3. Definiciones.
+A los efectos del presente reglamento, se establecen las siguientes definiciones:
+
+a) Establecimiento industrial: Se entiende por establecimiento industrial aquel destinado a ser utilizado bajo una titularidad diferenciada y bajo un régimen no subsidiario, y cuyo uso principal es industrial, según lo indicado en el artículo 2.1. Los establecimientos industriales pueden estar formados por un conjunto de uno o varios edificios, partes de los mismos y espacios abiertos.
+
+b) Almacén industrial: Se entiende por almacén industrial a cualquier recinto, cubierto o no, destinado principalmente a almacenar productos y que:
+
+1.º Esté localizado en un establecimiento industrial donde se realicen actividades incluidas en las letras a), c) o d) del artículo 2.1, o sea auxiliar a él, o bien,
+
+2.º Aquellos cuyo uso se derive de una actividad industrial relacionada con el transporte, prevista en el artículo 3.4, letra f), de la Ley 21/1992, de 16 de julio, de Industria, así como los almacenes logísticos, cuando su carga de fuego total ponderada y corregida (QT) calculada según el anexo I, en ambos casos, sea igual o superior a tres millones de megajulios.
+
+El concepto de almacén logístico comprende actividades cuyo objeto es la recepción, depósito, guarda, custodia, clasificación y distribución de bienes, productos y mercancías.
+
+A efectos de este reglamento, únicamente se considerarán logísticos a aquellos almacenes de establecimientos dedicados principalmente a dicha actividad. En concreto, no se considerarán logísticos a aquellos almacenes situados en establecimientos cuya actividad principal sea la venta física (uso comercial, según CTE DB-SI), ni a los almacenes de documentos (entendidos como archivos, bibliotecas o similares), ni a almacenes de herramientas o equipos que den soporte a empresas de servicios para el desarrollo de su actividad.
+
+Los almacenes industriales no deben ser abiertos al público y solo deben poder tener acceso a ellos personas autorizadas y que estén familiarizadas con las medidas de seguridad generales del establecimiento.
+
+Por otra parte, no es de aplicación el presente reglamento a los almacenes de las actividades excluidas en el artículo 2.2.
+
+c) Protección pasiva contra incendios: Se refiere a aquella protección derivada de los requisitos constructivos de los establecimientos. Su finalidad es la de prevenir la aparición de un incendio, impedir o retrasar su propagación y facilitar tanto la extinción del incendio como la evacuación.
+
+d) Protección activa contra incendios: Se refiere al conjunto de medios, equipos y sistemas, ya sean manuales o automáticos, cuyas funciones específicas son las de actuar de forma activa y directa en la protección contra los incendios, por medio de la detección, control o extinción de los mismos, facilitando la evacuación de los ocupantes e impidiendo que el incendio se propague.
+
+e) Técnicas de seguridad equivalente: Se refiere a la adopción de soluciones técnicas que difieren total o parcialmente de las prescripciones técnicas indicadas en el presente reglamento, pero que ofrecen un nivel de seguridad igual o mayor que estas.
+
+f) Diseño prestacional: Se refiere a la adopción de un conjunto de soluciones técnicas que difieren total o parcialmente de las prescripciones técnicas indicadas en el presente reglamento, y que han sido diseñadas específicamente para un emplazamiento concreto teniendo en consideración todos los factores relativos al mismo (tales como las condiciones de funcionamiento y uso previsto). El conjunto de soluciones técnicas propuestas debe garantizar que el nivel de seguridad ofrecido sea igual o mayor al que se obtendría al aplicar las prescripciones indicadas en el presente reglamento.
+
+g) Persona técnica titulada competente: La persona técnica titulada universitaria con competencias específicas en la materia objeto del presente reglamento.
+
+h) Modificaciones significativas: Son las ampliaciones o reformas de un establecimiento industrial que impliquen un aumento de la superficie o del nivel de riesgo intrínseco de sus sectores o áreas de incendio (conforme a los ocho niveles establecidos en la tabla 1.3.1 del anexo I) para el que fue diseñado, así como cualquier otro cambio que pueda comprometer el cumplimiento de las exigencias básicas de seguridad en caso de incendio o que provoque una exigencia superior de requisitos según lo establecido en los anexos del presente reglamento. Por el contrario, se consideran modificaciones no significativas a aquellas que no impliquen nada de lo anterior (tales como cambios en la distribución en planta, maquinaria o localización de las estanterías, reformas menores o reparaciones, siempre que no supongan un aumento del nivel de riesgo intrínseco para el que fue diseñado, ni se comprometa el cumplimiento del resto de requisitos como la evacuación, la sectorización o cualquier otro).
+
+Artículo 4. Compatibilidad reglamentaria.
+1. Cuando en un mismo edificio coexistan con el uso o actividad industrial otros usos con distinta titularidad, para los que sea de aplicación el Documento Básico «Seguridad en Caso de Incendios» (DB-SI) del Código Técnico de la Edificación (CTE), aprobado por el Real Decreto 314/2006, de 17 de marzo, o una normativa equivalente, los requisitos que deberán satisfacer los espacios de uso no industrial serán los exigidos por dicha normativa.
+
+2. Cuando dentro de un establecimiento industrial coexistan con el uso o actividad industrial otras actividades subsidiarias que se identifiquen con los usos definidos en el CTE DB-SI, las zonas en las que se desarrollen éstas deberán satisfacer lo establecido en dicha normativa cuando superen las superficies indicadas a continuación:
+
+a) Administrativo: superficie construida superior a 250 m2.
+
+b) Comercial: superficie construida superior a 250 m2.
+
+c) Docente: superficie construida superior a 250 m2.
+
+d) Pública Concurrencia: superficie construida superior a 250 m2.
+
+e) Residencial Vivienda y Residencial Público: siempre.
+
+f) Zonas de alojamiento: superficie construida superior a 250 m2.
+
+g) Aparcamiento: superficie construida superior a 100 m2.
+
+h) Varios usos a), b), c), d), f) o g) adyacentes o superpuestos: superficie construida superior a 250 m2 entre todos ellos.
+
+Estos espacios, cuando superen las superficies indicadas, deberán constituir un sector de incendio independiente al de las zonas con uso industrial, conforme con los requisitos fijados en el CTE DB-SI, no obstante, dichas zonas se seguirán considerando parte del establecimiento industrial.
+
+Las zonas donde se realicen usos complementarios de los citados anteriormente en las letras a) a h), tales como vestuarios, lavabos, archivos o zonas de descanso, se considerarán parte de la superficie de uso industrial salvo que sean adyacentes a las zonas contempladas en las letras anteriores o estén destinados exclusivamente a personal cuyo puesto de trabajo se ejerce mayoritariamente en dichas zonas, en cuyo caso, la superficie será computada en dichas zonas a los efectos de lo señalado en este artículo.
+
+CAPÍTULO II
+Requisitos que deben satisfacer los establecimientos industriales
+Artículo 5. Cumplimiento de las prescripciones.
+1. Lo dispuesto en este reglamento tendrá la condición de mínimo exigible según lo indicado en el artículo 12.5 de la Ley 21/1992, de 16 de julio. Estos mínimos se considerarán cumplidos por alguna de las siguientes vías:
+
+a) Por el cumplimiento de las prescripciones indicadas en este reglamento en su totalidad.
+
+b) Por aplicación, para casos particulares, de técnicas de seguridad equivalente o de diseño prestacional que se aparten total o parcialmente de lo recogido en los artículos 7 y 8. Esta aplicación se realizará bajo responsabilidad del proyectista y previa conformidad del titular del establecimiento, justificando documentalmente la aplicación de dichas técnicas, que las soluciones adoptadas cumplen con las exigencias básicas del artículo 6.1 y que el nivel de seguridad obtenido es, al menos, equivalente al que se obtendría por la aplicación de las prescripciones indicadas en los artículos 7 y 8 de este reglamento.
+
+2. Se exceptúan de la obligación del cumplimiento de las prescripciones del reglamento a los establecimientos industriales cuya densidad de carga de fuego ponderada y corregida (Qs), calculada según el anexo I, no supere 42 MJ/m2, siempre que su superficie construida sea inferior o igual a 120 m2, y debiendo estar ubicados en un recinto propio, separados físicamente de otros establecimientos que puedan existir en el mismo edificio. En estos casos será suficiente con cumplir con lo dispuesto en el artículo 12 sobre funcionamiento, mantenimiento y modificaciones, y los apartados del anexo III referentes a extintores y alumbrado de emergencia. Además, se deberá disponer de una memoria técnica redactada y firmada por una persona técnica titulada competente, donde se justifique el cumplimiento de lo citado aquí, la cual estará a disposición de la Administración competente.
+
+3. Cuando la implantación, ampliación o reforma de un establecimiento industrial se realice en naves ya construidas de polígonos industriales con planeamiento urbanístico aprobado antes de la entrada en vigor de este reglamento, o bien, en un edificio ya existente, en donde, en ambos casos, por sus características no pueda cumplirse íntegramente lo indicado en el apartado 1.a) ni 1.b) del presente artículo, se podrán usar excepcionalmente adaptaciones razonables que difieran de lo indicado en los artículos 7 y 8, bajo responsabilidad del proyectista y previa conformidad del titular del establecimiento, siempre que se justifique su necesidad y que se cumplen las exigencias básicas del artículo 6.1. Estas adaptaciones deberán ser documentadas en el proyecto y presentadas, según lo indicado en los artículos 10 y 11, junto a un informe previo de un organismo de control habilitado para dichas tareas conforme al Reglamento de la Infraestructura para la Calidad y la Seguridad Industrial, aprobado por el Real Decreto 2200/1995, de 28 de diciembre, donde se valide positivamente el cumplimiento de los requisitos citados y la eficacia y adecuación de las soluciones técnicas adoptadas.
+
+En el supuesto de que a través de la correspondiente inspección de la documentación presentada o del establecimiento in situ se detecte justificación insuficiente del cumplimiento reglamentario, el órgano competente de la correspondiente comunidad autónoma o de las ciudades de Ceuta y Melilla requerirá las justificaciones adicionales que estime necesarias, y en el caso de considerarlas insuficientes o considerar que el nivel de seguridad del establecimiento es deficiente, podrá requerir la aplicación de las medidas adicionales que sean oportunas, incluido el cese temporal de la actividad en tanto en cuanto estas no se implementen.
+
+Artículo 6. Exigencias básicas de seguridad en caso de incendio.
+1. Para cumplir con los objetivos del presente reglamento, los establecimientos industriales se proyectarán, construirán, mantendrán y utilizarán de forma que se cumplan las siguientes exigencias básicas:
+
+a) Propagación interior: Se limitará el riesgo de propagación del incendio por el interior de los establecimientos.
+
+b) Propagación exterior: Se limitará el riesgo de propagación del incendio por el exterior, tanto en el propio establecimiento considerado como a otros establecimientos y edificios.
+
+c) Evacuación de ocupantes: El establecimiento dispondrá de los medios de evacuación adecuados para que los ocupantes puedan abandonarlo o alcanzar un lugar seguro dentro del mismo en condiciones de seguridad.
+
+d) Instalaciones de protección contra incendios: El establecimiento dispondrá de los equipos e instalaciones adecuados para hacer posible la detección, el control y la extinción del incendio, así como la transmisión de la alarma a los ocupantes.
+
+e) Intervención de los Servicios de Extinción de Incendios y Salvamento: Se facilitará la intervención de los equipos de rescate y de extinción de incendios.
+
+f) Resistencia estructural al incendio: La estructura portante mantendrá su resistencia al fuego durante el tiempo necesario para que puedan cumplirse las anteriores exigencias básicas.
+
+2. Estas exigencias se desarrollan por medio de lo indicado en los siguientes artículos y anexos.
+
+Artículo 7. Caracterización.
+Los requisitos constructivos y de instalaciones que deberán cumplir los establecimientos industriales, en relación con su seguridad frente a incendios, estarán determinados por la configuración de sus edificios y espacios abiertos, así como por el nivel de riesgo intrínseco de sus sectores y áreas de incendio, sus superficies y el tipo de actividad que se realiza en el lugar (fabricación y otros procesos similares, o bien, almacenamiento). Todo ello se evaluará realizando una caracterización de los establecimientos según se establece en el anexo I.
+
+Artículo 8. Requisitos constructivos y determinación de las instalaciones de protección contra incendios necesarias.
+1. Los requisitos constructivos que deberán cumplir los establecimientos industriales, en relación con su seguridad frente a incendios, serán los establecidos en el anexo II, de acuerdo con la caracterización que resulte del artículo anterior.
+
+2. Las dotaciones de instalaciones de protección activa contra incendios que deben disponer los establecimientos industriales serán las establecidas en el anexo III, de acuerdo con la caracterización que resulte del artículo anterior.
+
+3. Adicionalmente a lo indicado en los párrafos anteriores, en el anexo IV se recogen requisitos aplicables para casos singulares de zonas o partes de establecimientos que, por sus características, pueden diferir parcialmente de la caracterización del anexo I, o de los requisitos de los anexos II y III, o bien, que necesitan consideraciones específicas.
+
+Artículo 9. Requisitos de los productos de construcción y de las instalaciones de protección contra incendios.
+1. Los productos de construcción que se incorporen a los establecimientos industriales deberán disponer de marcado CE conforme al Reglamento (UE) 2024/3110 del Parlamento Europeo y del Consejo, de 27 de noviembre de 2024, por el que se establecen reglas armonizadas para la comercialización de productos de construcción y se deroga el Reglamento (UE) n.º 305/2011, o, en su caso, conforme al Reglamento (UE) n° 305/2011 del Parlamento Europeo y del Consejo, de 9 de marzo de 2011, cuando así se prevea en dicha reglamentación, así como conforme al resto de reglamentos y directivas europeas que les sean aplicables.
+
+2. Los productos de construcción no cubiertos por marcado CE deberán cumplir con lo que se disponga en el presente reglamento para cada caso, así como con lo que se requiera en el resto de reglamentación específica que sea aplicable, y debiendo disponer, si el producto tiene incidencia en la seguridad del establecimiento, de los informes de ensayo, certificaciones u otra documentación técnica que sea necesaria para avalar sus características. El operador económico responsable de poner el producto en el mercado, así como los distribuidores, deberán proporcionar al destinatario del producto la información pertinente sobre este, aportando la documentación donde se recoja su uso previsto, sus características y prestaciones, la referencia a los informes, certificaciones u otra documentación que posea, así como las instrucciones e información sobre seguridad para su correcta instalación y utilización.
+
+3. Los equipos, sistemas y componentes que conforman las instalaciones de protección activa contra incendios cumplirán con lo dispuesto en el Reglamento de instalaciones de protección contra incendios, aprobado por el Real Decreto 513/2017, de 22 de mayo.
+
+4. Para los productos que deban poseer unas características determinadas o unas prestaciones mínimas (tales como una clase de resistencia o reacción al fuego), en función de su uso previsto, dicha información deberá incluirse en el proyecto o memoria técnica. Posteriormente, durante la fase de construcción, deberá comprobarse que los productos utilizados cumplen con dichas características y prestaciones, así como que se han instalado correctamente. En el certificado del artículo 11.1.b) se deberá hacer constar expresamente que se han realizado dichas comprobaciones.
+
+De este modo, para los productos con marcado CE conforme al Reglamento (UE) 2024/3110 del Parlamento Europeo y del Consejo, de 27 de noviembre de 2024, por el que se establecen reglas armonizadas para la comercialización de productos de construcción y se deroga el Reglamento (UE) n.º 305/2011, o, en su caso, conforme al Reglamento (UE) n.º 305/2011 del Parlamento Europeo y del Consejo, de 9 de marzo de 2011, así como conforme al resto de disposiciones europeas que puedan ser de aplicación, se revisará la información y documentación del producto antes de proceder a su instalación o uso, comprobando el contenido de la Declaración de Prestaciones y de Conformidad (o bien, Declaración de Prestaciones o Declaración de Conformidad, según se requiera en cada caso) emitida por el fabricante, así como la información general sobre el producto, instrucciones de uso e información sobre seguridad, y el resto de documentación que fuera necesaria. Al revisar dicha documentación, se comprobará que el uso previsto del producto, sus características esenciales y sus prestaciones declaradas son las adecuadas.
+
+Para los productos a los que no aplique el marcado CE se procederá de forma equivalente comprobando su información y documentación correspondiente.
+
+CAPÍTULO III
+Construcción, puesta en servicio, funcionamiento y mantenimiento
+Artículo 10. Proyectos de construcción e implantación.
+1. Los establecimientos industriales recogidos en el artículo 2, así como los que sufran modificaciones significativas según el artículo 12.4, requerirán la elaboración de un proyecto. Este proyecto formará parte, en su caso, del proyecto definido en el artículo 4 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación, o bien de la memoria exigida por la legislación vigente para la obtención de las licencias o autorizaciones preceptivas.
+
+2. El citado proyecto será redactado y firmado por una persona técnica titulada competente y deberá contener la información y documentación necesaria que justifique el cumplimiento de los requisitos que deben cumplir los establecimientos industriales en lo relativo a su seguridad en caso de incendio, de acuerdo con el presente reglamento. Además, dentro de este contenido se incluirá la información solicitada en el artículo 9.4, así como lo dispuesto en el artículo 19.1 del Reglamento de instalaciones de protección contra incendios, respectivo a los equipos y sistemas para los que sea de aplicación.
+
+3. Para los casos particulares donde se opte por usar técnicas de seguridad equivalente o diseño prestacional, según lo recogido en el artículo 5.1.b), el proyecto deberá justificar documentalmente el uso de dichas técnicas, así como que las soluciones adoptadas cumplen con las exigencias básicas del artículo 6.1 y que el nivel de seguridad obtenido es, al menos, equivalente al que se obtendría por la aplicación de las prescripciones indicadas en este reglamento. Junto al proyecto deberá anexarse un informe de tercera parte independiente donde se valide positivamente la eficacia y adecuación de las soluciones técnicas, emitido por un organismo de control habilitado para dichas tareas conforme al Reglamento de la Infraestructura para la Calidad y la Seguridad Industrial.
+
+Estas técnicas podrán usarse para casos particulares donde concurran circunstancias que así lo justifiquen y por ello se pretenda sustituir por soluciones equivalentes algunas de las prescripciones de los anexos I, II, III o IV del reglamento (incluidas las ubicaciones no permitidas recogidas en el epígrafe III del anexo II), apartándose de lo recogido en los artículos 7 y 8. En el proyecto se deberán listar los apartados que no se cumplen de dichos anexos y documentar las soluciones escogidas.
+
+En el caso de usar técnicas de seguridad equivalente, las soluciones técnicas adoptadas deberán justificarse con base en normas o guías de diseño de reconocido prestigio, quedando esto detallado en el proyecto.
+
+En el caso de usar diseño prestacional, el proyecto basado en prestaciones deberá seguir la metodología establecida en las normas UNE-ISO 23932 y UNE-ISO 16733-1, u otras normas equivalentes o guías de reconocido prestigio. Si fuera necesaria la utilización de métodos de cálculo para predecir fenómenos relacionados con el incendio, estos deberán estar verificados y validados conforme a la norma UNE-ISO 16730-1 u otra especificación equivalente. En el proyecto deberán quedar detalladas todas las consideraciones que fuera necesario conocer respecto al diseño prestacional realizado (objetivos de seguridad, condiciones de uso de las instalaciones y el resto de consideraciones que existan). Asimismo, se deberá realizar un control y seguimiento específico del desempeño de los objetivos de seguridad en la fase de ejecución material del proyecto y se deberá contar con un plan de validación o de prueba de la obra ejecutada que permita validar las prestaciones de seguridad finalmente logradas.
+
+4. A los efectos de la aplicación de este reglamento se podrá sustituir el proyecto por una memoria técnica firmada por una persona técnica titulada competente si los establecimientos industriales cumplen las siguientes tres condiciones: Que su superficie construida sea inferior a 300 m2, que todos sus sectores de incendio y áreas de incendio sean de riesgo intrínseco bajo y que no se les aplique lo indicado en los artículos 10.3 ni 5.3.
+
+Artículo 11. Puesta en servicio.
+1. Para la puesta en servicio de los establecimientos industriales a los que se refiere el artículo anterior, se requiere la presentación por medio de una comunicación, ante el órgano competente en materia de industria de la correspondiente comunidad autónoma o de las ciudades de Ceuta y Melilla, de los siguientes documentos para su registro:
+
+a) El proyecto o memoria técnica, con el contenido que se recoge en el artículo 10.
+
+b) Un certificado emitido por una persona técnica titulada competente en el que se ponga de manifiesto la adecuación de las instalaciones al proyecto (o memoria técnica) y el cumplimiento de las condiciones técnicas y prescripciones reglamentarias que correspondan. En dicho certificado deberá figurar el número de sectores y áreas de incendio, el riesgo intrínseco de cada uno de ellos, manifestar que se han realizado las comprobaciones recogidas en el artículo 9.4 e indicar, en su caso, si se han usado técnicas de seguridad equivalente o diseño prestacional (artículo 10.3) o adaptaciones razonables (artículo 5.3). En el caso de que el proyecto pueda sustituirse por una memoria técnica según el artículo 10.4, el certificado y la memoria técnica podrán juntarse en un mismo documento.
+
+c) Para los establecimientos cuya superficie construida de sus sectores y áreas de incendio de nivel de riesgo intrínseco medio y alto sume un total de 1.000 m2 o más, o bien, para aquellos a los que les apliquen los artículos 10.3 o 5.3, se deberá presentar un acta de inspección inicial, emitida por un organismo de control habilitado para dichas tareas conforme al Reglamento de la Infraestructura para la Calidad y la Seguridad Industrial, aprobado por el Real Decreto 2200/1995, de 28 de diciembre, donde se refleje que el establecimiento es conforme con el proyecto y con lo dispuesto en el presente reglamento.
+
+d) Finalmente, se incluirá la documentación indicada en el artículo 20 del Reglamento de instalaciones de protección contra incendios, aprobado por el Real Decreto 513/2017, de 22 de mayo.
+
+2. Alternativamente a la comunicación recogida en el apartado 1, la puesta en servicio se realizará mediante la presentación de una declaración responsable cuando así lo establezca el órgano competente en materia de industria de la correspondiente comunidad autónoma o de las ciudades de Ceuta y Melilla. En este caso no será necesario presentar la documentación mencionada anteriormente, sino que será suficiente con tener la misma a disposición de la administración competente.
+
+3. El titular deberá conservar una copia de la documentación citada en el apartado 1 (y en su caso, también del justificante de haber presentado la declaración responsable del apartado 2), e integrarla en su caso en el Libro del Edificio, recogido en la legislación vigente.
+
+4. Si en el desarrollo de las comprobaciones posteriores a la puesta en servicio que realice el órgano competente de la Administración se detectara que un establecimiento industrial no cumple con los requisitos exigibles, o que las soluciones adoptadas conforme al artículo 5.1.b) no están correctamente documentadas y justificadas o no aportan el nivel de seguridad equivalente requerido, o cualquier otra situación que suponga considerar que el nivel de seguridad del establecimiento es deficiente, el órgano competente podrá requerir la aplicación de las medidas adicionales que sean oportunas para resolver las deficiencias encontradas.
+
+Artículo 12. Funcionamiento, mantenimiento y modificaciones.
+1. Los titulares de los establecimientos industriales serán los responsables de asegurar que estos se utilizan y mantienen en las condiciones adecuadas, con la finalidad de que se puedan cumplir en todo momento con las exigencias básicas de seguridad en caso de incendio para las que fueron diseñados.
+
+2. Los equipos, sistemas y componentes que conforman las instalaciones de protección contra incendios de los establecimientos industriales, sujetos a lo dispuesto en el Reglamento de instalaciones de protección contra incendios, se someterán a las revisiones de mantenimiento establecidas en dicho reglamento.
+
+3. Los ocupantes habituales de los establecimientos industriales deberán tener conocimiento de las principales características de estos (tales como los sistemas de protección contra incendios existentes, sectorización, recorridos de evacuación y demás aspectos relacionados con la seguridad en caso de incendio) y de cómo actuar en caso de incendio. Todo ello sin perjuicio de que deba existir un plan de autoprotección cuando la normativa específica así lo establezca, atendiendo al Real Decreto 393/2007, de 23 de marzo, por el que se aprueba la Norma Básica de Autoprotección de los centros, establecimientos y dependencias dedicados a actividades que puedan dar origen a situaciones de emergencia, y sin perjuicio de lo que pueda establecer otra legislación específica.
+
+4. Si una vez puesto en servicio el establecimiento se realizaran modificaciones significativas en el mismo, deberán volverse a presentar los documentos requeridos en los artículos 10 y 11 para la parte afectada. Por el contrario, no será necesario presentar dichos documentos si las modificaciones realizadas no son significativas, en cuyo caso será suficiente con que el titular documente y justifique dicha situación, manteniendo la información a disposición de las autoridades competentes y de los organismos de control que realicen las inspecciones periódicas.
+
+ANEXO I
+Caracterización de los establecimientos industriales
+El presente anexo detalla la forma de caracterizar los establecimientos industriales en relación con la seguridad en caso de incendio. Para ello, primeramente, se deberán clasificar los edificios y espacios abiertos que forman el establecimiento según su configuración. Posteriormente se deberán identificar los sectores de incendio (en edificios) y áreas de incendio (en espacios abiertos) y, por último, se deberá calcular el nivel de riesgo intrínseco de cada sector y área.
+
+Los requisitos definidos en los anexos II y III del presente reglamento se determinarán para cada sector o área de incendio en función de la configuración a la que pertenezcan, de su nivel de riesgo intrínseco y de su superficie.
+
+1. Clasificación de los edificios y espacios abiertos según su configuración.
+
+Los establecimientos industriales pueden estar formados por un conjunto de uno o varios edificios, partes de los mismos y espacios abiertos. Estos se clasificarán en función de su configuración teniendo en cuenta factores relativos a su situación, ubicación y entorno.
+
+De esta forma cada edificio y cada espacio abierto pertenecerá a uno de los siguientes tipos de configuración:
+
+1.1 Configuraciones de edificios.
+
+1.1.1 Edificio tipo A: El establecimiento considerado ocupa parcialmente un edificio que tiene, además, otros establecimientos, ya sean estos de uso industrial o de otros usos.
+
+Dentro de la configuración tipo A, en función de la parte del edificio que esté ocupada por el establecimiento considerado, se diferenciará entre tipo AV o AH, según si la separación de dicho establecimiento con los otros establecimientos del edificio se hace en vertical o en horizontal, tal y como se muestra en las figuras.
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_1.png
+
+Figura 1.1: Configuración tipo AV (estructura común con otros establecimientos, separados en vertical)
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_2.png
+
+Figura 1.2: Configuración tipo AH (estructura común con otros establecimientos, separados en horizontal)
+
+En el caso de que la separación entre el establecimiento industrial considerado y los otros establecimientos mezcle simultáneamente características de los tipos AV y AH, se considerará tipo AV.
+
+En el caso de que el establecimiento considerado ocupe todo el edificio, con estructura portante y cerramiento independiente, se clasificará como tipo B o C según corresponda en función de lo indicado en los siguientes párrafos.
+
+1.1.2 Edificio tipo B: El establecimiento considerado ocupa totalmente un edificio, con estructura portante y cerramiento independiente, que es adyacente a otro, u otros, edificios de otro establecimiento; o bien, está a una distancia de separación igual o inferior a tres metros de otro, u otros, edificios de otro establecimiento, ya sean estos de uso industrial o de otros usos.
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_3.png
+
+Figura 1.3: Configuración tipo B (estructura independiente, adyacente o a ≤ 3 m. de edificios de otros establecimientos)
+
+1.1.3 Edificio tipo C: El establecimiento considerado ocupa totalmente uno o varios edificios, que están a una distancia de separación superior a tres metros del edificio más próximo de otros establecimientos. Dicha distancia debe estar libre de mercancías combustibles o elementos intermedios susceptibles de propagar el incendio.
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_4.png
+
+Figura 1.4: Configuración tipo C (a más de 3 m. de edificios de otros establecimientos)
+
+Para establecimientos con varios edificios, estos se considerarán edificios independientes de un mismo establecimiento cuando la distancia de separación entre ellos sea superior a tres metros, o bien, cuando sus paredes colindantes cumplan con los requisitos de muro separador entre sectores de incendio, teniendo además estructura portante y cerramiento independiente. De lo contrario, dichos edificios se considerarán como un sólo edificio a los efectos de la presente clasificación.
+
+En el caso de existir comunicaciones ente distintos establecimientos o edificios, tales como túneles, pasarelas o cintas transportadoras, necesarias por motivos de producción, podrán seguir considerándose edificios tipo C siempre y cuando dichas comunicaciones dispongan de elementos de compartimentación respecto a ambos edificios, se garanticen las condiciones de evacuación y el posible colapso de su estructura no afecte a la de los edificios.
+
+1.2 Configuraciones de espacios abiertos.
+
+Espacio tipo D: El establecimiento considerado ocupa un espacio abierto.
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_5.png
+
+Figura 1.5: Configuración tipo D (espacio abierto)
+
+El espacio abierto puede estar descubierto, o bien, cubierto por estructuras que carecen total o parcialmente de cerramientos laterales.
+
+En el caso de que el espacio tenga zonas cubiertas, se deberá disponer de aberturas laterales dimensionadas según los siguientes criterios:
+
+Tabla 1.1.1
+
+Área lateral abierta (L), en función de la superficie cubierta (A) y la altura (H)
+
+H < 5 metros	H ≥ 5 metros
+A < 500 m2	L ≥ 25 %	L ≥ 25 %
+A entre 500 y 1.500 m2	No admitido	L ≥ 50 %
+A > 1.500 m2	No admitido	L ≥ 70 %
+Donde:
+
+A: Área de la superficie cubierta.
+
+H: Altura interior desde el suelo hasta la cubrición.
+
+L: Área lateral permanentemente abierta al exterior (huecos) de la envolvente perimetral. Se expresa en porcentaje respecto al área lateral total (paredes cerradas + huecos).
+
+El área lateral abierta indicada debe estar distribuida de tal forma que se permita la rápida disipación del calor y humo. Cuando no se cumpla con los requisitos de la tabla, la zona cubierta se debe considerar como configuración tipo A, B o C, según corresponda.
+
+Los espacios tipo D pueden tener algunas zonas puntuales cerradas, tales como aseos o vestuarios, siempre que no alberguen la actividad principal del establecimiento y que no aumenten el riesgo de incendio.
+
+1.3 Otras consideraciones.
+
+Cuando un edificio o espacio abierto no coincida exactamente con alguno de los tipos de configuraciones definidos en los apartados 1.1 y 1.2, se considerará que pertenece al tipo con que mejor se pueda equiparar o asimilar justificadamente.
+
+Cuando un establecimiento esté formado por varios edificios, partes de edificios o espacios abiertos con configuraciones diferentes, cada uno se deberá clasificar por separado con respecto a otros establecimientos, y los requisitos de los anexos II, III y IV del reglamento se aplicarán a cada uno de ellos según dicha clasificación.
+
+2. Identificación de los sectores y áreas de incendio.
+
+2.1 Los edificios, partes de edificios y espacios abiertos que forman los establecimientos industriales se pueden dividir en una o varias zonas, las cuales constituirán sectores de incendio o áreas de incendio, según los siguientes criterios:
+
+a) Sector de incendio: Zona de un edificio en el interior de la cual se puede confinar (o excluir) el incendio durante un periodo de tiempo determinado, para que este no se pueda propagar a (o desde) otros sectores o áreas de incendio, ya sea mediante elementos constructivos delimitadores resistentes al fuego o por medio de espacios perimetrales al edificio.
+
+b) Área de incendio: Espacio abierto separado de otras zonas y definido por su perímetro. La disposición de los elementos en las áreas de incendio deberá ser tal que se limite la propagación del incendio a (o desde) edificios u otras áreas de incendio colindantes, ya sea mediante elementos resistentes al fuego o por medio de espacios perimetrales.
+
+2.2 A la hora de planificar cómo va a sectorizarse un establecimiento se debe tener en cuenta la naturaleza de las actividades que se vayan a realizar en él, sus riesgos inherentes, así como el resto de factores que puedan influir en la seguridad. En respuesta a todo ello, se podrá optar por establecer un único sector (o área) de incendio, o separar los procesos y almacenamientos en sectores diferenciados, o sectorizar el establecimiento en función del riesgo de cada actividad, o bien, utilizar otros criterios distintos a los anteriores. Todo ello sin perjuicio de las sectorizaciones mínimas que se puedan exigir en este reglamento o en otra reglamentación especifica.
+
+3. Caracterización de los sectores y áreas de incendio según su nivel de riesgo intrínseco.
+
+3.1 El nivel de riesgo intrínseco (NRI) de un sector o área de incendio refleja cual es el riesgo en este ante un posible incendio, derivado de la cantidad de materiales combustibles presentes, de su facilidad de inflamación, distribución y de la naturaleza de las actividades que se realizan en el lugar.
+
+El nivel de riesgo intrínseco será clasificado como bajo, medio o alto, y a su vez, se subclasificará entre los valores de 1 a 8 en función de la densidad de carga de fuego ponderada y corregida (Qs) presente en el sector o área de incendio referido, atendiendo a la tabla 1.3.1.
+
+Tabla 1.3.1
+
+Nivel de riesgo intrínseco (NRI) en función de la densidad de carga de fuego ponderada y corregida (Qs)
+
+Nivel de riesgo intrínseco	Qs (MJ/m2)
+BAJO.	1	QS ≤ 425
+2	425 < QS ≤ 850
+MEDIO.	3	850 < QS ≤ 1.275
+4	1.275 < QS ≤ 1.700
+5	1.700 < QS ≤ 3.400
+ALTO.	6	3.400 < QS ≤ 6.800
+7	6.800 < QS ≤ 13.600
+8	QS > 13.600
+3.2 La densidad de carga de fuego ponderada y corregida (Qs) de cada sector o área de incendio se calculará usando alguno de los siguientes métodos posibles:
+
+a) Cálculo de Qs a partir de los datos de combustibilidad de los materiales presentes (apartado 3.2.1).
+
+b) Cálculo de Qs a partir de los datos de densidad de carga de fuego de las zonas con actividades de fabricación y otros procesos similares (apartado 3.2.2).
+
+c) Cálculo de Qs a partir de los datos de densidad de carga de fuego de las zonas de almacenamiento (apartado 3.2.3).
+
+d) Cálculo de Qs combinando varios de los métodos anteriores (apartado 3.2.4).
+
+A continuación, se desarrolla cada uno de los métodos:
+
+3.2.1 Cálculo de Qs a partir de los datos de combustibilidad de los materiales presentes.
+
+Se aplicará la siguiente expresión:
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_6.png
+
+Donde:
+
+Qs: densidad de carga de fuego ponderada y corregida del sector o área de incendio, en MJ/m2.
+
+qi: poder calorífico, en MJ/kg, de cada uno de los materiales combustibles (i) que existen en el sector o área de incendio.
+
+Gi: masa, en kilogramos, de cada uno de los materiales combustibles (i) que existen en el sector o área de incendio.
+
+Ci: coeficiente adimensional que pondera el grado de peligrosidad por la combustibilidad de cada uno de los materiales combustibles (i) que existen en el sector o área de incendio.
+
+R: coeficiente adimensional que corrige el grado de peligrosidad inherente a la actividad que se desarrolla en el sector o área de incendio (tal como producción, montaje, transformación, reparación o almacenamiento).
+
+A: superficie construida del sector de incendio o superficie del área de incendio, en metros cuadrados.
+
+Detalles a considerar:
+
+i. Respecto al valor de Gi de los materiales combustibles, debe considerarse la cantidad de los diferentes materiales combustibles que vaya a contener el sector o área de incendio, en condiciones máximas de producción o almacenamiento, considerando también los materiales de embalaje y transporte, tales como plásticos protectores encapsulados, cartón o palets de madera o de plástico, así como el mobiliario combustible. En estos casos, se debe calcular la cantidad de cada uno.
+
+ii. En el caso de almacenamientos, debe indicarse el número máximo de palets o unidades de almacenamiento previstos y debe acompañarse de planos de la distribución en planta de las zonas y superficies de almacenamiento y de las secciones que reflejen las alturas máximas de almacenamiento.
+
+iii. Los valores del poder calorífico, qi, de cada material combustible, pueden deducirse de la tabla 1.3.3, o ser obtenidos de otras fuentes de información, cuyo uso debe justificarse.
+
+iv. Los elementos y productos constructivos que forman parte del sector o área de incendio (tales como los presentes en las paredes o techos) también deben considerarse materiales combustibles e incluirse en el cálculo. El cálculo de su poder calorífico se puede realizar según la sistemática recogida en la norma UNE-EN ISO 1716, o bien, usando otras fuentes de referencia de reconocido prestigio, de forma justificada. Como excepción, en el caso de que el elemento constructivo esté separado del interior del sector por una capa resistente al fuego al menos EI 30, este puede no contabilizarse en el cálculo. Además, no es necesario considerar los materiales de construcción incombustibles (por ejemplo, hormigón o acero) ni aquellos cuya carga de fuego no sea relevante en comparación con la carga total del sector.
+
+v. Los valores del coeficiente de peligrosidad por combustibilidad, Ci, de cada material combustible pueden deducirse de la tabla 1.3.2, o de otras fuentes de información de reconocido prestigio cuyo uso debe justificarse. Alternativamente, también se puede usar la tabla 1.3.3, donde se incluyen valores de Ci de algunos materiales.
+
+vi. El valor del coeficiente R puede deducirse de la tabla 1.3.4.
+
+vii. El cálculo de Qs puede simplificarse descartando de la fórmula los materiales no representativos por su escaso aporte a dicho valor. En el caso de aplicar dichas simplificaciones, en ningún caso el valor calculado de Qs deberá desviarse más del 10 % del total que se obtendría si se hubieran tomado en consideración todos los materiales descartados. Además, en el caso de no conocer los valores exactos de un determinado material (Gi, qi) podrán usarse estimaciones aproximadas y coeficientes de seguridad, siempre que se justifique su utilización y procedencia, y que el cálculo obtenido de Qs es igual o superior al que se obtendría si se usaran los valores exactos.
+
+3.2.2 Cálculo de Qs a partir de los datos de densidad de carga de fuego de las zonas con actividades de fabricación.
+
+De forma alternativa al método de cálculo de Qs del apartado 3.2.1, para sectores o áreas de incendio con actividades específicas de fabricación y otros procesos similares, tales como producción, transformación, reparación o cualquier otra actividad distinta al almacenamiento, puede usarse la siguiente expresión:
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_7.png
+
+Donde:
+
+Qs, Ci, R y A tienen el mismo significado que en el apartado 3.2.1.
+
+qsi: densidad de carga de fuego de cada zona con actividad (i) diferente según los distintos procesos que se realizan en el sector de incendio, en MJ/m2.
+
+Si: superficie construida de cada zona con actividad (i) diferente, en metros cuadrados.
+
+Detalles a considerar:
+
+i. Los valores de la densidad de carga de fuego media, qsi, pueden obtenerse tomando como referencia la tabla 1.3.5, donde se muestran valores medios para ciertas actividades comunes. Cuando no aparezca el valor de qsi de una actividad, o el valor que aparece no se ajuste al caso concreto, se deberá usar el valor de la actividad más asimilable, o en su defecto, calcular su valor basándose en los materiales existentes. En todo caso, será responsabilidad del proyectista asegurarse de que los valores de qsi utilizados son correctos y se ajustan a cada situación concreta, y en su caso, incrementar dichos valores o añadir los coeficientes de seguridad que sean precisos para garantizar que el cálculo obtenido no va a ser inferior a la situación real del establecimiento.
+
+ii. En esta expresión, el coeficiente de ponderación Ci se aplicará a cada zona con actividad diferente, obteniéndose su valor de la tabla 1.3.5.
+
+iii. Para el valor de superficie Si de las actividades, debe considerarse la extensión de los diferentes materiales combustibles, maquinaria, equipos, acopios, mobiliario y demás, que vaya a contener el sector o área de incendio, en condiciones máximas de producción. Deberá acompañarse de planos de la distribución en planta de las zonas y superficies de las actividades. Por otra parte, no se contabilizarán por separado los acopios, depósitos de materiales o productos reunidos para la manutención de los procesos productivos de montaje, transformación o de reparación, o resultantes de los mismos, cuyo consumo o producción sea diario y constituyan el llamado «almacén de día». Estos materiales o productos se considerarán incorporados a la actividad a la que deban ser aplicados o de donde procedan.
+
+iv. En total, considerando todas las zonas, el sumatorio de superficies de cada zona (ΣSi) debe ser igual a A. Si existieran grandes zonas diáfanas (vacías, sin actividad y sin carga de fuego), dichas zonas se podrán contemplar por separado en el sumatorio como zonas sin carga de fuego (qsi=0). (Zonas de preparación de pedidos, muelles de carga o zonas similares donde pueda existir carga de fuego de forma habitual, han de considerarse como zonas con actividad).
+
+v. Al valor de Qs obtenido hay que sumarle además la carga de fuego proveniente de los elementos y productos constructivos, aplicando la expresión del apartado 3.2.1 y las consideraciones citadas allí. En el caso de que el elemento constructivo esté separado del interior del sector por una capa resistente al fuego al menos EI 30, este puede no contabilizarse en el cálculo. Además, podrá optarse por descartar la carga de fuego de los elementos de construcción en su totalidad si se justifica que el Qs obtenido se desvía menos del 10 % del total que se obtendría si estos se hubieran tomado en consideración.
+
+3.2.3 Cálculo de Qs a partir de los datos de densidad de carga de fuego de las zonas de almacenamiento.
+
+Para sectores o áreas de incendio dedicadas al almacenamiento, puede usarse la siguiente expresión:
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_8.png
+
+Donde:
+
+Qs, Ci, R y A tienen el mismo significado que en el apartado anterior.
+
+qvi: carga de fuego, aportada por cada metro cúbico de cada zona con diferente tipo de almacenamiento de materiales (i) existente en el sector o área de incendio, en MJ/m3.
+
+hi: altura de cada uno de los almacenamientos de materiales (i), en metros.
+
+Si: superficie construida de cada uno de los almacenamientos de materiales (i), en metros cuadrados.
+
+Detalles a considerar:
+
+i. Los valores de la carga de fuego por metro cúbico, qvi, aportada por cada uno de los combustibles, pueden obtenerse tomando como referencia la tabla 1.3.5. Cuando no aparezca el valor de qvi, o el valor que aparece no se ajuste al caso concreto, se deberá usar el valor más asimilable, o en su defecto, calcular su valor basándose en los materiales existentes. En todo caso, será responsabilidad del proyectista asegurarse de que los valores de qvi utilizados son correctos y se ajustan a cada situación concreta, y en su caso, incrementar dichos valores o añadir los coeficientes de seguridad que sean precisos para garantizar que el cálculo obtenido no va a ser inferior a la situación real del establecimiento. Además, deberá indicarse el número máximo de unidades de almacenamiento previstas (por ejemplo, palets) y acompañarse de planos de la distribución en planta de las zonas y superficies de almacenamiento y de las secciones que reflejen las alturas máximas de almacenamiento.
+
+ii. En esta expresión, el coeficiente de ponderación Ci se aplicará a cada zona con diferente tipo de almacenamiento, obteniéndose su valor de la tabla 1.3.5.
+
+iii. La superficie Si corresponde a la superficie del almacén, incluyendo el espacio donde estén físicamente los productos almacenados (tales como estanterías). En función de si la superficie Si incluye o no la superficie de los pasillos adyacentes que pudieran existir, necesarios para la realización de la actividad de almacenamiento, en la tabla 1.3.5 se deberá escoger el valor de qvi correspondiente: qvi de «almacenamiento bruto» si Si incluye los pasillos adyacentes, o qvi de «almacenamiento neto» si Si no incluye los pasillos adyacentes.
+
+iv. En total, considerando todas las zonas, el sumatorio de superficies de cada zona (ΣSi) debe ser igual a A. Si existieran grandes zonas diáfanas (vacías, sin actividad y sin carga de fuego), dichas zonas se podrán contemplar por separado en el sumatorio como zonas sin carga de fuego (qvi=0). (Debe tenerse en cuenta si las superficies Si se han calculado con valores qvi de almacenamiento bruto o neto. En el caso de haber usado los valores de almacenamiento neto, las superficies de los pasillos adyacentes se deben sumar por separado como zonas sin carga de fuego).
+
+v. Al valor de Qs obtenido hay que sumarle además la carga de fuego proveniente de los elementos y productos constructivos, aplicando la expresión del apartado 3.2.1 y las consideraciones citadas allí. En el caso de que el elemento constructivo esté separado del interior del sector por una capa resistente al fuego al menos EI 30, este puede no contabilizarse en el cálculo. Además, podrá optarse por descartar la carga de fuego de los elementos de construcción en su totalidad si se justifica que el Qs obtenido se desvía menos del 10 % del total que se obtendría si estos se hubieran tomado en consideración.
+
+3.2.4 Cálculo de Qs combinando varios de los métodos anteriores.
+
+3.2.4.1 Para sectores o áreas de incendio que tengan tanto zonas de fabricación como también zonas de almacenamiento: Si en un mismo sector o área coexisten zonas de producción y de almacenamiento, para calcular Qs, se puede aplicar una combinación de las dos expresiones de los apartados 3.2.2 y 3.2.3:
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_9.png
+
+Donde el primer sumatorio incluye las zonas con actividades de fabricación y el segundo sumatorio las de almacenamiento. Las consideraciones a tener en cuenta son las mismas que las indicadas en los apartados 3.2.2 y 3.2.3. En total, considerando todas las zonas, el sumatorio de superficies (ΣSi) debe ser igual a A.
+
+3.2.4.2 En el caso de ser necesario, también se puede usar una combinación de las tres expresiones de los apartados 3.2.1, 3.2.2 y 3.2.3, por zonas:
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_10.png
+
+Donde el primer sumatorio incluye zonas con actividades de fabricación, el segundo sumatorio zonas de almacenamiento y el tercero incluye el resto de zonas que no se hayan considerado en los sumatorios anteriores.
+
+3.2.4.3 De forma alternativa a los métodos anteriores, para el cálculo del riesgo intrínseco se puede recurrir también al uso de otros métodos de evaluación de reconocido prestigio. En tales casos, deberá justificarse en el proyecto el método empleado.
+
+3.3 Cálculo de la carga de fuego total ponderada y corregida (QT).
+
+Cuando sea necesario conocer la carga de fuego total ponderada y corregida (QT), esta se puede calcular aplicando cualquiera de las expresiones de Qs (medida en MJ/m2) de los apartados anteriores, omitiendo la división por la superficie A (medida en m2), lo que obtiene el resultado en megajulios. Alternativamente, el mismo resultado se obtiene multiplicando Qs por A.
+
+Por ejemplo, para el apartado 3.2.1, la expresión de QT sería la siguiente:
+
+Imagen: /datos/imagenes/disp/2025/87/7190_15401209_11.png
+
+Tabla 1.3.2
+
+Grado de peligrosidad de los materiales combustibles: Valores del coeficiente de peligrosidad por combustibilidad (Ci)
+
+Grado de peligro (1) (2) (3)	
+1
+
+2
+
+3
+
+4
+
+5
+
+Valor de Ci	
+Ci= 1,60
+
+o bien, Ci= 1,92 si es fumígeno (4)
+
+Ci= 1,40
+
+o bien, Ci= 1,68 si es fumígeno
+
+Ci= 1,20
+
+o bien, Ci= 1,44 si es fumígeno
+
+Ci= 1,00
+
+o bien, Ci= 1,20 si es fumígeno
+
+Ci= 1,00
+
+o bien, Ci= 1,20 si es fumígeno
+
+Explosivos.	
+H200.
+
+[Ejemplos: nitrato de etilo, hidroxilamina, nitroglicerina].
+
+H201 div.1.1.
+
+[Ejemplos: trinitotolueno TNT].
+
+H202 div.1.2.
+
+[Ejemplos: cartuchos, cerillas de Bengala].
+
+H203 div.1.3.	H204 div.1.4.	
+H205 div.1.5.
+
+H206 div.1.6.
+
+Sólidos.	
+Se inflaman muy fácilmente y se consumen muy rápido.
+
+H228 cat.1.
+
+[Ejemplos: fósforo rojo, polvo o virutas de magnesio, pentaclorobenceno].
+
+H250 sólidos pirofóricos.
+
+[Ejemplos: cadmio, polvo de aluminio, magnesio, circonio o cinc].
+
+Se inflaman y se consumen rápidamente.
+
+H228 cat.2.
+
+[Ejemplos: películas de celuloide, alcanfor].
+
+Fácilmente combustibles.
+
+[Ejemplos: algodón, azufre, benzol, café, carbono, cartón (sin compactar), celulosa, cereales, fibras de coco, harina, madera en fibras o madera o corcho en pequeños trozos, papel en hojas, poliestireno espumado (EPS y XPS), resinas epoxi, telas de lino, textiles].
+
+Medianamente combustibles.
+
+[Ejemplos: acetato de polivinilo (PVAC), almidón, antraceno, antracita, azúcar, cartón (compactado), caucho, cuero, ebonita, grasas vegetales, hulla, lana, leche en polvo, madera o corcho en grandes trozos, mantequilla, papel comprimido, poliamida (PA), policarbonato (PC), poliestireno (PS), polietileno (PE), poliuretano (PU), rayón, sisal, tabaco, té, turba].
+
+Difícilmente combustibles (solo en contacto con el fuego).
+
+[Ejemplos: acetamida, cloruro de polivinilo (PVC), resinas fenólicas (PF), resinas de urea-formol (UF)].
+
+Líquidos.	
+Líquidos y vapores extremadamente inflamables.
+
+H224 cat.1.
+
+[Ejemplos: acetaldehído, dietil éter, furano, gasolina].
+
+H225 cat.2.
+
+[Ejemplos: acroleína, alcohol etílico (>70 %) o metílico, ciclohexano, ciclopentano, dietilamina, dietilacetona, hexano, octano, pentano, sulfuro de carbono, tolueno].
+
+H250 líquidos pirofóricos.
+
+[Ejemplos: dimetilcinc, triclorosilano].
+
+Líquidos y vapores muy inflamables.
+
+H226 cat.3 con punto de inflamación inferior a 55°C.
+
+[Ejemplos: acetato de amilo, ácido acético, aguarrás, alcohol butílico, dipenteno, xileno].
+
+Líquidos y vapores inflamables.
+
+Punto de inflamación comprendido entre 55°C y 100°C.
+
+[Ejemplos: aceite de creosota, anilina, benzaldehído, gasoil, tetralina].
+
+Punto de inflamación superior a 100°C.
+
+[Ejemplos: aceites de algodón, lino u oliva, ácido benzoico, glicerina].
+
+Difícilmente combustibles (sin punto de inflamación, solo en contacto con el fuego).
+
+[Ejemplos: cloroformo, dioxina, fosfamida].
+
+Gases.	
+Gas extremadamente inflamable.
+
+H220 cat.1.
+
+[Ejemplos: acetileno, butano, cloruro de vinilo, hidrógeno, metano, monóxido de carbono, propano].
+
+Gas inflamable.
+
+H221 cat.2.
+
+[Ejemplos: amoniaco anhidro].
+
+Difícilmente combustibles.
+
+[Ejemplos: bromometano].
+
+Aerosoles.	H222 cat.1.	H223 cat.2.			Difícilmente combustibles.
+Peróxidos orgánicos y Reacción espontánea.	
+H240 Tipo A.
+
+H241 Tipo B.	
+H242 Tipo C.
+
+H242 Tipo D.
+
+H242 Tipo E.
+
+H242 Tipo F.
+
+H242 Tipo G.
+Combustión espontánea.	
+H251 cat.1.
+
+[Ejemplos: Hiposulfito de sodio, etanolato o metanolato de sodio o de potasio].
+
+H252 cat.2.			
+Notas de la tabla:
+
+Nota 1: En las casillas de la tabla se indican las Frases H según el Reglamento (CE) n.º 1272/2008 del Parlamento Europeo y del Consejo, de 16 de diciembre de 2008, sobre clasificación, etiquetado y envasado de sustancias y mezclas, y por el que se modifican y derogan las Directivas 67/548/CEE y 1999/45/CE y se modifica el Reglamento (CE) n.º 1907/2006 (Reglamento CLP).
+
+Nota 2: Si un material presenta diferentes grados de peligro en función de sus características (por ejemplo, si es inflamable y autorreactivo) se adoptará la que determine el mayor grado de coeficiente Ci.
+
+Nota 3: Alternativamente, para la clasificación en alguna de las cinco columnas de la tabla también puede utilizarse la «Clasificación de materias y mercancías» del Catálogo CEA, en donde el coeficiente «GG» del catálogo corresponde al «grado de peligro» de la tabla. También pueden emplearse justificadamente otras tablas similares de reconocido prestigio. En caso de discrepancia con la clasificación según Frases H se adoptará la del Reglamento CLP.
+
+Nota 4: Se consideran «fumígenos» aquellos materiales que, en caso de incendio, desprenden una gran cantidad de humo tal que puede dificultarse la evacuación y los trabajos de extinción. La existencia de productos fumígenos supone incrementar el coeficiente Ci en un 20 %, tal y como se indica en la tabla. Puede justificarse la característica fumígena de los materiales utilizando la «Clasificación de materias y mercancías» del Catálogo CEA (propiedad complementaria «Fu») o tablas similares de reconocido prestigio. Algunos ejemplos de elementos fumígenos son: aceites lubricantes, acetileno, anilina, asfalto, benzol, caucho, fibras de poliéster, gasolina, neumáticos, petróleo, plásticos espumados, resinas o tolueno.

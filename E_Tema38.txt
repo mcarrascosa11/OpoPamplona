@@ -1,0 +1,1036 @@
+Tema 38.-Orden ECO/805/2003, de 27 de marzo, sobre normas de valoración de bienes inmuebles y de
+determinados derechos para ciertas finalidades financieras. Título I. Disposiciones generales. Capítulo I.
+Ámbito, principios y definiciones. Título II. Cálculo del valor de tasación.
+
+TÍTULO I
+Disposiciones generales
+CAPÍTULO I
+Ámbito, principios y definiciones
+Artículo 1. Objeto.
+La presente Orden tiene por objeto la regulación del régimen jurídico al que ha de ajustarse el cálculo del valor de tasación de bienes inmuebles y determinados derechos, así como la elaboración de los informes y certificados en los que se formalice, siempre que dicho cálculo se realice para alguna de las finalidades integrantes de su ámbito de aplicación.
+
+Artículo 2. Ámbito de aplicación.
+La presente orden será de aplicación siempre que el valor de tasación se utilice para alguna de las finalidades siguientes:
+
+a) Garantía hipotecaria de créditos o préstamos que formen o vayan a formar parte de la cartera de cobertura de títulos hipotecarios emitidos por las entidades de crédito con sujeción a lo dispuesto en el Real Decreto-ley 24/2021, de 2 de noviembre, de transposición de directivas de la Unión Europea en las materias de bonos garantizados, distribución transfronteriza de organismos de inversión colectiva, datos abiertos y reutilización de la información del sector público, ejercicio de derechos de autor y derechos afines aplicables a determinadas transmisiones en línea y a las retransmisiones de programas de radio y televisión, exenciones temporales a determinadas importaciones y suministros, de personas consumidoras y para la promoción de vehículos de transporte por carretera limpios y energéticamente eficientes.
+
+b) Determinación del valor razonable a efectos del apartado 4 de la norma de registro y valoración segunda de la segunda parte del Plan de contabilidad de las entidades aseguradoras y reaseguradoras y normas sobre la formulación de las cuentas anuales consolidadas de los grupos de entidades aseguradoras y reaseguradoras, aprobado por el Real Decreto 1317/2008, de 24 de julio, y determinación de la valoración de activos a efectos del artículo 68 de la Ley 20/2015, de 14 de julio, de ordenación, supervisión y solvencia de entidades aseguradoras y reaseguradoras.
+
+c) Determinación del patrimonio de las instituciones de inversión colectiva inmobiliarias reguladas en el Reglamento de desarrollo de la Ley 35/2003, de 4 de noviembre, de instituciones de inversión colectiva, aprobado por Real Decreto 1082/2012, de 13 de julio.
+
+d) Determinación del patrimonio inmobiliario de los fondos de pensiones regulados en el Reglamento de Planes y Fondos de Pensiones, aprobado por el Real Decreto 304/2004, de 20 de febrero.
+
+Artículo 3. Principios.
+1. Las entidades de crédito que dispongan de servicios de tasación y las sociedades de tasación homologadas cuando valoren para cualesquiera de las finalidades integradas en el ámbito de aplicación de la presente Orden deberán hacerlo aplicando, en los términos establecidos en la misma, los siguientes principios:
+
+a) Principio de anticipación, según el cual el valor de un inmueble que se encuentre en explotación económica es función de las expectativas de renta que previsiblemente proporcionará en el futuro.
+
+b) Principio de finalidad según el cual la finalidad de la valoración condiciona el método y las técnicas de valoración a seguir. Los criterios y métodos de valoración utilizados serán coherentes con la finalidad de la valoración.
+
+c) Principio de mayor y mejor uso, según el cual el valor de un inmueble susceptible de ser dedicado a diferentes usos será el que resulte de destinarlo, dentro de las posibilidades legales y físicas, al económicamente más aconsejable, o si es susceptible de ser construido con distintas intensidades edificatorias, será el que resulte de construirlo, dentro de las posibilidades legales y físicas, con la intensidad que permita obtener su mayor valor.
+
+d) Principio de probabilidad, según el cual ante varios escenarios o posibilidades de elección razonables se elegirán aquellos que se estimen más probables.
+
+e) Principio de proporcionalidad, según el cual los informes de tasación se elaborarán con la amplitud adecuada teniendo en cuenta la importancia y uso del objeto de valoración, así como su singularidad en el mercado.
+
+f) Principio de prudencia, según el cual, ante varios escenarios o posibilidades de elección igualmente probables se elegirá el que dé como resultado un menor valor de tasación.
+
+Este principio será de aplicación obligatoria cuando el valor de tasación se utilice para alguna de las finalidades señaladas en el artículo 2.a), b) y d) de esta Orden.
+
+g) Principio de sustitución, según el cual el valor de un inmueble es equivalente al de otros activos de similares características sustitutivos de aquél.
+
+h) Principio de temporalidad, según el cual el valor de un inmueble es variable a lo largo del tiempo.
+
+i) Principio de transparencia, según el cual el informe de valoración de un inmueble deberá contener la información necesaria y suficiente para su fácil comprensión y detallar las hipótesis y documentación utilizadas.
+
+j) Principio del valor residual, según el cual el valor atribuible a cada uno de los factores de producción de un inmueble será la diferencia entre el valor total de dicho activo y los valores atribuibles al resto de los factores.
+
+k) Principio de sostenibilidad, según el cual los métodos de cálculo del valor del inmueble deben considerar, cuando corresponda, indicadores del efecto que tienen sobre éste los factores de carácter medioambiental.
+
+En la aplicación del principio de sostenibilidad, se tendrán en cuenta, entre otros factores, los riesgos medioambientales y climáticos por los que pudiera verse afectado el inmueble.
+
+2. Los principios recogidos en el apartado anterior se utilizarán como criterios de interpretación y, en su caso, de integración de las normas de la presente Orden.
+
+Artículo 4. Definiciones.
+A los efectos de la presente Orden se utilizarán las siguientes definiciones:
+
+Actualización de una tasación. Es toda revisión de una tasación anterior, emitida por la misma entidad tasadora antes de transcurrir dos años desde su fecha de emisión, en la que, con referencia a la tasación anterior, se modifiquen las advertencias, los condicionantes o cualquiera de los valores que figuren en ella.
+
+Antigüedad. Es el número de años transcurridos entre la fecha de construcción de un inmueble o la de la última rehabilitación integral del mismo, y la fecha de la valoración.
+
+Comparables. Son inmuebles que se consideran similares al inmueble objeto de valoración o adecuados para aplicar la homogeneización, teniendo en cuenta su localización, uso, tipología, superficie, antigüedad, estado de conservación, u otra característica física relevante a dicho fin.
+
+Compromiso de compra a plazo de inmuebles. Es un contrato en virtud del cual los contratantes se comprometen a la compraventa de un inmueble, a un precio predeterminado, y en una fecha concreta.
+
+Depreciación física. Es la pérdida que experimenta el valor de reemplazamiento bruto (VRB) de un bien en función de su antigüedad, estado de conservación y duración de sus componentes.
+
+Depreciación funcional. Es la pérdida que experimenta el valor de reemplazamiento bruto (VRB) de un bien atendiendo a su defectuosa adaptación a la función a que se destina. Comprende las pérdidas producidas en el inmueble por obsolescencia, diseño, falta de adaptación a su uso, etc.
+
+Edificio. Es cualquier tipo de construcción, sólida, durable y apta para albergar uno o varios espacios destinados al desarrollo de cualquier actividad.
+
+Edificio destinado a uso determinado (residencial, de oficinas, etcétera). Es todo edificio en el que la superficie sobre rasante destinada a un uso determinado es igual o superior a dos tercios de la superficie total sobre rasante del mismo.
+
+Edificio en construcción. Es toda obra de nueva edificación iniciada y no terminada que cuente con la correspondiente licencia y se realice de acuerdo con un proyecto visado por el colegio profesional correspondiente.
+
+Edificio en proyecto. Es cualquier tipo de construcción (obra nueva o rehabilitación) que se realizará sobre un terreno o finca determinada con arreglo a un proyecto visado por el colegio profesional correspondiente. A estos efectos, se entenderán como obras de rehabilitación las que cumplan los requisitos señalados en la definición de inmueble en rehabilitación.
+
+Elementos comunes de un edificio. Son todos aquellos espacios que, no siendo de uso privativo, deban ser tenidos en cuenta a efectos de cómputo de superficie.
+
+Elemento de un edificio. Es toda unidad física, funcional o registral, que forme parte de un edificio compuesto por más unidades destinadas al mismo u otros usos y que sea susceptible de venta individualizada.
+
+Elementos especulativos. Son aquellos datos, ofertas o escenarios que aun siendo relevantes para la determinación del valor de mercado traigan causa, bien de un comportamiento ligado a la intención de un operador de beneficiarse a corto plazo con las fluctuaciones en los precios de los activos inmobiliarios, bien de expectativas de cambio de uso o edificabilidad, bien de otros factores extraordinarios (tales como nuevas infraestructuras o inversiones que impliquen una revalorización de los inmuebles) cuya presencia futura no esté asegurada.
+
+Entidad tasadora. Las sociedades de tasación homologadas e inscritas en el Registro Especial del Banco de España, así como, respecto a las valoraciones que tengan como finalidad la mencionada en la letra a) del artículo 2, los servicios de tasación de entidades de crédito homologados e inscritos en el Registro Especial del Banco de España.
+
+Entorno. Es el espacio de adecuada amplitud y con características homogéneas tanto físicas como estructurales en el cual se ubica el inmueble objeto de valoración.
+
+Finca rústica. Aquel terreno de nivel urbanístico II que se dedique o pueda dedicarse al desarrollo de una actividad agraria.
+
+Homogeneización de precios de inmuebles comparables. Es un procedimiento por el cual se analizan las características del inmueble que se tasa en relación con otros comparables, con el objeto de deducir, por comparación entre sus similitudes y diferencias, un precio de compraventa o una renta homogeneizada para aquél.
+
+Infraestructuras exteriores del terreno. Son las necesarias para dotar al terreno de los servicios urbanísticos exigidos para su consideración como suelo urbano de acuerdo con la legislación sobre régimen del suelo y ordenación urbana.
+
+Inmueble en rehabilitación. Es todo edificio o elemento de edificio en el que se hayan iniciado obras que reúnan los siguientes requisitos:
+
+a) Que cuenten con la correspondiente licencia.
+
+b) Que se realicen de acuerdo con un proyecto visado por el colegio profesional correspondiente.
+
+c) Que alterando o no sus elementos estructurales impliquen el acondicionamiento de al menos el 50 por 100 de su superficie edificada antes del inicio de las obras.
+
+A estos efectos se considerarán como obras de acondicionamiento las destinadas a mejorar las condiciones de habitabilidad de un edificio mediante la sustitución, restauración o modernización de sus diferentes elementos constructivos e instalaciones, y las que tengan por objeto alterar sustancialmente la morfología de la edificación, amplíen o no la superficie edificada.
+
+d) Que el coste presupuestado de las obras alcance al menos el 50 por 100 del valor de reemplazamiento bruto de la edificación (excluido el valor del terreno).
+
+Cuando la valoración se refiera a un edificio completo y se esté procediendo a su reforma parcial, la definición precedente podrá aplicarse a la parte afectada por las obras cuando éstas alcancen al menos una planta completa.
+
+Inmueble ligado a una actividad económica. Es todo edificio, o elemento de edificio, de uso monovalente que está o puede estar vinculado a una explotación económica. Entre otros se incluirán los siguientes tipos:
+
+a) Edificios e instalaciones industriales, fabriles y de producción agraria.
+
+b) Centros de transporte, aparcamientos y edificaciones o instalaciones ligadas al servicio de transporte.
+
+c) Inmuebles hoteleros, en sus diversas categorías y tipologías.
+
+d) Hospitales y otras instalaciones de carácter sanitario.
+
+e) Instalaciones recreativas, deportivas y de espectáculos.
+
+f) Centros de enseñanza y otras instalaciones culturales.
+
+g) Centros de equipamiento social.
+
+h) Residencias estudiantiles, para la tercera edad o similares.
+
+Instalaciones polivalentes. Son las instalaciones que, habiendo sido concebidas o instaladas para un uso concreto, permitan, a juicio del tasador, su utilización para otros permitidos.
+
+En ningún caso se entenderán como instalaciones polivalentes aquéllas con características y elementos constructivos que limiten o dificulten usos distintos a los existentes, como son las cámaras acorazadas; cámaras frigoríficas; instalaciones de lavandería, cocina y de servicios específicos en establecimientos de hostelería.
+
+Localidad. Es el núcleo urbano en el que se encuentra el inmueble objeto de valoración.
+
+Mercado local. El inmobiliario del entorno urbano o rural homogéneo (barrio, pedanía, localidad, comarca) donde se encuentre el inmueble (edificio, elemento de edificio, finca rústica o terreno), o, cuando su uso o características no permitan disponer de comparables en dicha área, el mercado inmobiliario sectorial (oficinas, centros comerciales, hoteles, explotación agraria del cultivo dominantes correspondiente) siempre que resulte representativo para su comparación dentro del territorio nacional.
+
+Niveles urbanísticos del terreno. A efectos de su tasación los terrenos se clasificaran en los siguientes niveles:
+
+Nivel I. Incluirá todos los terrenos que no pertenezcan al Nivel II.
+
+Nivel II. Incluirá los terrenos clasificados como no urbanizables en los que no se permita edificar para usos diferentes a su naturaleza agrícola, forestal, ganadera o que estén ligados a una explotación económica permitida por la normativa vigente.
+
+También se incluirán los terrenos clasificados como urbanizables que no estén incluidos en un ámbito de desarrollo del planeamiento urbanístico o que estándolo, no se hayan definido en él las condiciones para su desarrollo.
+
+Opción de compra. Es un contrato en virtud del cual un vendedor otorga el derecho a comprar un inmueble, a un precio predeterminado, y en una fecha o plazo concreto.
+
+Protección pública. Es cualquier régimen legal que limite el precio de venta o alquiler del inmueble objeto de valoración.
+
+Suelo urbano, suelo no urbanizable, suelo urbanizable. Se utilizarán las definiciones establecidas en la legislación vigente sobre régimen del suelo y ordenación urbanística.
+
+Superficie comprobada. Es el área medida por el tasador teniendo en cuenta las definiciones de superficie útil o construida y el correspondiente plano acotado.
+
+Superficie construida con partes comunes. Es la superficie construida sin partes comunes más la parte proporcional que le corresponda según su cuota en la superficie de los elementos comunes del edificio.
+
+Superficie construida sin partes comunes. Es la superficie útil, sin excluir la superficie ocupada por los elementos interiores mencionados en dicha definición e incluyendo los cerramientos exteriores al 100 por 100 o al 50 por 100, según se trate, respectivamente, de cerramientos de fachada o medianeros, o de cerramientos compartidos con otros elementos del mismo edificio.
+
+Superficie útil. Es la superficie del suelo delimitado por el perímetro definido por la cara interior de los cerramientos externos de un edificio o de un elemento de un edificio. No se considerará superficie útil la superficie ocupada en planta por cerramientos interiores fijos, por los elementos estructurales verticales, y por las canalizaciones o conductos con sección horizontal superior a los 100 centímetros cuadrados y la superficie del suelo cuya altura libre sea inferior a 1,5 metros.
+
+En concreto, no se considerará superficie útil la ocupada por los espacios exteriores.
+
+Superficie utilizable o computable. Es la superficie utilizada en las tasaciones para determinar los valores técnicos.
+
+Tasador. El profesional que, de conformidad con lo previsto en las normas aplicables a cada tipo de tasación debe suscribir necesariamente el informe de tasación.
+
+Valor de mercado o venal de un inmueble (VM). Es el precio al que podría venderse el inmueble, mediante contrato privado entre un vendedor voluntario y un comprador independiente en la fecha de la tasación en el supuesto de que el bien se hubiere ofrecido públicamente en el mercado, que las condiciones del mercado permitieren disponer del mismo de manera ordenada y que se dispusiere de un plazo normal, habida cuenta de la naturaleza del inmueble, para negociar la venta.
+
+A tal efecto se considerará:
+
+a) Que entre vendedor y comprador no debe existir vinculación previa alguna, y que ninguno de los dos tiene un interés personal o profesional en la transacción ajeno a la causa del contrato.
+
+b) Que la oferta pública al mercado conlleva tanto la realización de una comercialización adecuada al tipo de bien de que se trate, como la ausencia de información privilegiada en cualquiera de las partes intervinientes.
+
+c) Que el precio del inmueble es consecuente con la oferta pública citada y que refleja en una estimación razonable el precio (más probable) que se obtendría en las condiciones del mercado existentes en la fecha de la tasación.
+
+d) Los impuestos no se incluirán en el precio. Tampoco se incluirán los gastos de comercialización.
+
+Valor del inmueble para la hipótesis de edificio terminado. Es el valor que previsiblemente podrá alcanzar un edificio en proyecto, construcción o rehabilitación en la fecha de su terminación, si se construye en los plazos estimados y con las características técnicas contenidas en su proyecto de edificación o rehabilitación.
+
+Valor de reemplazamiento (VR) o coste de reemplazamiento o de reposición puede ser: bruto o a nuevo y neto o actual.
+
+El valor de reemplazamiento bruto o a nuevo (VRB) de un inmueble es la suma de las inversiones que serían necesarias para construir, en la fecha de la valoración, otro inmueble de las mismas características (capacidad, uso, calidad, etc.) pero utilizando tecnología y materiales de construcción actuales.
+
+El valor de reemplazamiento neto o actual (VRN) es el resultado de deducir del VRB la depreciación física y funcional del inmueble en la fecha de la valoración.
+
+Valor de tasación (VT). Es el valor que la presente Orden establece como tal para cada tipo de inmueble o derecho a valorar. Dicho valor será el valor jurídico o con efectos jurídicos para las finalidades integrantes del ámbito de aplicación de la misma.
+
+Valor hipotecario o valor a efecto de crédito hipotecario (VH). Es el valor del inmueble determinado por una tasación prudente de la posibilidad futura de comerciar con el inmueble, teniendo en cuenta los aspectos duraderos a largo plazo de la misma, las condiciones del mercado normales y locales, su uso en el momento de la tasación y sus usos alternativos correspondientes.
+
+En la determinación a que se refiere el apartado anterior no se incluirán los elementos especulativos.
+
+Valor máximo legal (VML). Es el precio máximo de venta de un inmueble o vivienda, en su caso, sujeto a protección pública, establecido en la normativa específica que le sea aplicable.
+
+Valor por comparación, valor por actualización, valor residual. Es el valor obtenido mediante la aplicación de los métodos técnicos de comparación, actualización de rentas y residual respectivamente.
+
+Valoración intermedia de obra. Es cualquiera de las valoraciones que se emiten con posterioridad a la tasación inicial y durante la construcción o rehabilitación de un elemento o edificio, en los que se refleja el avance de las obras y el porcentaje de la obra ejecutada y cualquiera otra circunstancia de la construcción que pueda afectar al valor de tasación. Su emisión no implica la actualización de los valores contenidos en la valoración inicial.
+
+Vivienda para primera residencia. Es aquélla que por sus características y ubicación tenga como destino más probable su uso como vivienda habitual, independientemente de su destino actual.
+
+Vivienda para segunda residencia. Es aquélla que por sus características y ubicación tenga como destino más probable su uso como residencia temporal, independientemente de su destino actual.
+
+Vida útil. Es el plazo durante el cual un inmueble estará en condiciones de ser usado para el fin a que se destina. Será total si se calcula desde el momento de la construcción o última rehabilitación integral y será residual si se calcula desde la fecha de la tasación.
+
+Artículo 5. Superficie utilizable o computable.
+1. Para calcular el valor de un edificio o de un elemento de un edificio se utilizará siempre la superficie comprobada por el tasador. Además se deberán tener en cuenta las especificaciones siguientes:
+
+a) Cuando no sea posible comprobar la superficie del edificio o elemento del edificio, se utilizará la menor entre las superficies catastral y registral.
+
+b) En el caso de elementos de edificios en los que se haya podido comprobar la superficie útil o la construida sin partes comunes, podrá también utilizarse la menor entre las superficies catastral y registral con partes comunes, aun cuando dichas superficies con partes comunes no hayan podido ser comprobadas, siempre que exista una dificultad operativa especial para la comprobación debidamente justificada por el tasador, no exista duda razonable sobre la magnitud expresada por la superficie registral, si se utilizara esta, y la relación entre la superficie utilizada y la comprobada sea razonable a juicio del tasador.
+
+c) Cuando la superficie comprobada sea superior en más de un 5% a la registral o a la catastral o cuando se trate de un edificio que carezca de declaración de obra nueva inscrita en el registro de la propiedad, su adopción requerirá que se verifique su adecuación a la normativa urbanística aplicable. En el caso de elementos de edificios se requerirá tal verificación de su adecuación a la normativa urbanística aplicable cuando la diferencia sea superior en más de un 10%.
+
+d) Deberán valorarse de forma independiente los espacios que, por su uso características constructivas y funcionales, se considere que tienen valores independientes. La valoración de cada espacio diferenciado deberá ser objeto de justificación, indicando los criterios seguidos.
+
+El informe de valoración deberá contener una tabla en la que se desglose la superficie adoptada de cada uno de los distintos espacios valorados, así como, en su caso, las áreas de los cuerpos de edificación independientes, las zonas comunes y los distintos espacios exteriores de uso privativo a disposición del inmueble valorado, tanto cubiertos como descubiertos, así como cualesquiera otras que puedan resultar relevantes en función del tipo de edificación de que se trate.
+
+e) A los efectos del cálculo de su valor máximo legal, en las viviendas sujetas a protección pública, se tomará como superficie la consignada en la cédula de calificación correspondiente.
+
+2. Para calcular el valor de un terreno o de una finca rústica se utilizará como superficie la comprobada por el tasador. Cuando dicha comprobación no sea viable se utilizará la menor entre la superficie registral y la catastral.
+
+Sin perjuicio de lo señalado en el párrafo anterior, se podrá utilizar la mayor entre la superficie registral y la catastral siempre que, una vez hechas las estimaciones oportunas, se justifique expresa y razonadamente de una manera destacada.
+
+Artículo 6. Expresión de los valores.
+1. Los valores de los bienes inmuebles y derechos objeto de valoración se reflejarán en un informe y en su caso en un certificado de tasación para cuya elaboración se estará a lo previsto en el Título III de esta Orden.
+
+2. Dichos valores se expresarán en la moneda de curso legal del país donde se localicen los bienes o el objeto de los derechos. Si dicha moneda no fuera el euro, los valores a los que se refiere el apartado anterior se expresarán también en euros utilizando como tipo de cambio los publicados oficialmente en la fecha de la tasación o, en su caso, en el día anterior más próximo.
+
+TÍTULO II
+Cálculo del valor de tasación
+CAPÍTULO I
+Métodos técnicos de valoración
+Sección 1.ª Disposiciones generales
+Artículo 15. Métodos.
+1. Los métodos técnicos de valoración utilizables a efectos de esta Orden son:
+
+a) El Método del coste.
+
+b) El Método de comparación.
+
+c) El Método de actualización de rentas.
+
+d) El Método residual.
+
+2. Dichos métodos permiten obtener el valor de mercado, el valor hipotecario y el valor de reemplazamiento.
+
+Artículo 15 bis. Modelos automatizados de valoración.
+1. Para la obtención de valoraciones mediante modelos automatizados de valoración para las finalidades del artículo 18 del Real Decreto-ley 24/2021, de 2 de noviembre, de transposición de directivas de la Unión Europea en las materias de bonos garantizados, distribución transfronteriza de organismos de inversión colectiva, datos abiertos y reutilización de la información del sector público, ejercicio de derechos de autor y derechos afines aplicables a determinadas transmisiones en línea y a las retransmisiones de programas de radio y televisión, exenciones temporales a determinadas importaciones y suministros, de personas consumidoras y para la promoción de vehículos de transporte por carretera limpios y energéticamente eficientes, las sociedades de tasación deberán aplicar las siguientes reglas:
+
+a) Solo serán susceptibles de valoración mediante modelos automatizados aquellos inmuebles que cuenten con un cierto grado de homogeneidad, por presentar características susceptibles de producción repetida, y que se ubiquen en un mercado activo en transacciones. Las sociedades de tasación no podrán aceptar un encargo de valoración sin haberse cerciorado de la suficiencia y calidad de los datos disponibles sobre las características de los inmuebles.
+
+b) Las valoraciones mediante modelos automatizados deberán estimar tanto el valor de mercado como el valor hipotecario.
+
+c) Las sociedades de tasación contarán con una metodología sólida, regular y apropiadamente contrastada que permita estimar con rigor los precios actuales de los inmuebles en sus respectivos mercados locales. Además, deberán seguir prácticas de valoración generalmente aceptadas.
+
+d) Las sociedades de tasación deberán mantener debidamente actualizada y a disposición del Banco de España, documentación sobre, entre otros extremos:
+
+1.º El proceso de calibración y ajustes seguido hasta la obtención del modelo definitivo.
+
+2.º La metodología y el proceso de contraste realizado para valorar el rigor de las estimaciones del modelo.
+
+2. El Banco de España desarrollará, mediante circular y de acuerdo a los principios recogidos en este artículo, los requisitos que deberán cumplir las valoraciones mediante modelos automatizados de valoración.
+
+Artículo 16. Aplicabilidad y procedimientos.
+1. El ámbito de aplicabilidad de los métodos señalados en el artículo anterior así como los requisitos y procedimientos para su aplicación se ajustará a lo establecido en las secciones siguientes de este capítulo.
+
+2. En todo caso, en la aplicación de dichos métodos para la finalidad prevista en el artículo 2.a) (Ámbito de aplicación) se eliminarán los elementos especulativos.
+
+Sección 2.ª Método del coste
+Artículo 17. Aplicabilidad del método del coste.
+1. El Método del coste será aplicable en la valoración de toda clase de edificios y elementos de edificios, en proyecto, en construcción o rehabilitación o terminados.
+
+2. Mediante este método se calcula un valor técnico que se denominará valor de reemplazamiento. Dicho valor podrá ser bruto o neto.
+
+Artículo 18. Procedimiento de cálculo del valor de reemplazamiento bruto.
+1. Para calcular el valor de reemplazamiento bruto se sumarán las siguientes inversiones:
+
+a) El valor del terreno en el que se encuentra el edificio o el del edificio a rehabilitar.
+
+b) El coste de la edificación o de las obras de rehabilitación.
+
+c) Los gastos necesarios para realizar el reemplazamiento.
+
+Para determinar los valores o importes a que se refiere el párrafo anterior se tendrá en cuenta lo señalado en los números siguientes.
+
+2. Para determinar el valor del terreno o del edificio a rehabilitar se utilizará bien el método de comparación, bien el método residual de acuerdo con lo previsto en la presente Orden.
+
+3. El coste de la edificación o de las obras de rehabilitación será el coste de la construcción por contrata.
+
+Se considerará como coste de la construcción por contrata, la suma de los costes de ejecución material de la obra, sus gastos generales, en su caso, y el beneficio industrial del constructor. No se incluirán en dicho coste el de los elementos no esenciales de la edificación que sean fácilmente desmontables ni, excepto para los inmuebles ligados a una explotación económica, los costes de los acabados e instalaciones no polivalentes.
+
+En el caso de edificios de carácter histórico o artístico se tendrá en cuenta, además, el valor particular de los elementos de la edificación que le confieran ese carácter.
+
+4. Los gastos necesarios serán los medios del mercado según las características del inmueble objeto de valoración, con independencia de quien pueda acometer el reemplazamiento. Dichos gastos se calcularán con los precios existentes en la fecha de la valoración.
+
+Se incluirán como gastos necesarios, entre otros, los siguientes:
+
+Los impuestos no recuperables y aranceles necesarios para la formalización de la declaración de obra nueva del inmueble.
+
+Los honorarios técnicos por proyectos y dirección de las obras u otros necesarios.
+
+Los costes de licencias y tasas de la construcción.
+
+El importe de las primas de los seguros obligatorios de la edificación y de los honorarios de la inspección técnica para calcular dichas primas.
+
+Los gastos de administración del promotor.
+
+Los debidos a otros estudios necesarios.
+
+No se considerarán como gastos necesarios el beneficio del promotor, ni cualquier clase de gastos financieros o de comercialización.
+
+5. En la determinación del valor de reemplazamiento bruto de los inmuebles en construcción o en rehabilitación se atenderá a la situación de la obra ejecutada en la fecha de la valoración, sin incluir acopios ni mobiliario.
+
+6. Cuando se calcule el valor de reemplazamiento bruto de inmuebles en proyecto, en construcción o en rehabilitación, para la hipótesis de edificio terminado, los precios de las unidades de obra existentes en el momento de la tasación podrán corregirse, en su caso, con la evolución del mercado hasta la fecha de la actualización. La modificación del valor del suelo no podrá realizarse hasta que la obra esté terminada y exigirá la actualización de la tasación.
+
+Artículo 19. Procedimiento de cálculo del valor de reemplazamiento neto.
+1. Para calcular el valor de reemplazamiento neto se restará del valor de reemplazamiento bruto la depreciación física y funcional del edificio terminado.
+
+2. La depreciación física de la edificación se calculará por alguno de estos tres procedimientos:
+
+a) Atendiendo a la vida útil total y residual estimadas por el tasador el cual deberá justificar adecuadamente el procedimiento utilizado en dicha estimación.
+
+En el caso de que atribuyera diferentes vidas útiles a las diferentes instalaciones o elementos de la construcción de edificio la justificación desglosará cada una de ellas.
+
+b) Mediante la técnica de amortización lineal, a cuyos efectos se multiplicará el VRB, excluido el valor de mercado del terreno, por el cociente que resulte de dividir la antigüedad del inmueble entre su vida útil total. Esta última será la estimada por el tasador y, como máximo:
+
+Para edificios de uso residencial: 100 años.
+
+Para edificios de oficinas: 75 años.
+
+Para edificios comerciales: 50 años.
+
+Para edificios de uso industrial e inmuebles ligados a una explotación económica: 35 años.
+
+En el caso de edificios no destinados a un uso determinado, la vida útil máxima se obtendrá ponderando los plazos máximos señalados anteriormente en función de la superficie destinada a cada uno de los usos.
+
+c) Sumando los costes y gastos necesarios para transformar el edificio actual en uno nuevo de similares características
+
+3. Los elementos de un edificio seguirán el régimen de depreciación correspondiente al edificio en que se encuentren.
+
+4. La depreciación funcional se calculará como el valor de los costes y gastos necesarios para adaptar el edificio a los usos a los que se destina, o para corregir errores de diseño u obsolescencia.
+
+Sección 3.ª Método de comparación
+Artículo 20. Aplicabilidad del método de comparación.
+1. El Método de comparación será aplicable a la valoración de toda clase de inmuebles siempre que se cumplan los requisitos que se establecen en el artículo siguiente.
+
+2. En los términos previstos en los artículos 53 (Valoración de inmuebles sobre los que existe derecho de superficie) y 54 (Valoración de concesiones administrativas) de esta Orden podrá ser aplicado igualmente a la valoración del derecho de superficie y de las concesiones administrativas.
+
+3. Mediante este método se determinan dos valores técnicos que se denominarán valor por comparación, que permite determinar el valor de mercado de un determinado bien, y valor por comparación ajustado, que permite determinar su valor hipotecario.
+
+Artículo 21. Requisitos para la utilización del método de comparación.
+1. Para la utilización del Método de comparación a efectos de esta Orden será necesario que se cumplan los siguientes requisitos:
+
+a) La existencia de un mercado representativo de los inmuebles comparables.
+
+b) Disponer de suficientes datos sobre transacciones u ofertas que permitan, en la zona de que se trate, identificar parámetros adecuados para realizar la homogeneización de comparables.
+
+c) Disponer de información suficiente sobre al menos seis transacciones u ofertas de comparables que reflejen adecuadamente la situación actual de dicho mercado.
+
+2. Adicionalmente, para la utilización del método de comparación a efectos de lo previsto en el artículo 2.a) (Ámbito de aplicación) de la presente Orden serán necesarios, los siguientes requisitos:
+
+a) Disponer de datos adecuados (transacciones, ofertas, etc.) para estimar la evolución de los precios de compraventa en el mercado local de comparables durante al menos los 2 años anteriores a la fecha de la valoración.
+
+b) Disponer de información adecuada (datos propios, publicaciones oficiales o privadas, índices sobre evolución de precios, etc.) sobre el comportamiento histórico de las variables determinantes en la evolución de los precios del mercado inmobiliario de los inmuebles de usos análogos al que se valore y sobre el comportamiento de esos precios en el ciclo relevante al efecto y sobre el estado actual de la coyuntura inmobiliaria.
+
+c) Contar con procedimientos adecuados que, a través de la detección de las ofertas o transacciones con datos anormales en el mercado local, posibiliten la identificación y eliminación de elementos especulativos.
+
+Artículo 22. Procedimiento de cálculo del valor por comparación.
+1. Para calcular el valor por comparación se seguirán las siguientes reglas generales:
+
+a) Se establecerán las cualidades y características del inmueble tasado que influyan en su valor.
+
+En el caso de edificios de carácter histórico o artístico, para establecer dichas cualidades y características, se tendrá en cuenta, además, el valor particular de los elementos de la edificación que le confiere ese carácter.
+
+b) Se analizará el segmento del mercado inmobiliario de comparables y, basándose en informaciones concretas sobre transacciones reales y ofertas firmes apropiadamente corregidas en su caso, se obtendrán precios actuales de compraventa al contado de dichos inmuebles.
+
+c) Se seleccionará entre los precios obtenidos tras el análisis previsto en la letra anterior, una muestra representativa de los que correspondan a los comparables, a la que se aplicará el procedimiento de homogeneización necesario.
+
+En la selección indicada se deberá, previamente, contrastar aquellos precios que resulten anormales a fin de identificar y eliminar tanto los procedentes de transacciones y ofertas que no cumplan las condiciones exigidas en la definición de valor de mercado de los bienes afectados como, cuando se trate de una valoración para la finalidad prevista en el artículo 2.a), los que puedan incluir elementos especulativos.
+
+La sociedad de tasación deberá poder acreditar las fuentes de las características relevantes de los comparables, así como justificar la trazabilidad y consistencia de las características relevantes de los comparables utilizados en el proceso de valoración.
+
+d) Se realizará la homogeneización de comparables con los criterios, coeficientes y/o ponderaciones que resulten adecuados para el inmueble de que se trate.
+
+Se indicará si se ha homogeneizado el valor unitario o el valor total del inmueble, y se justificarán los fundamentos de dicha elección.
+
+También se deberá justificar razonadamente que las variables elegidas para realizar la homogeneización valorativa son las que determinan fundamentalmente el valor del activo a valorar, así como la metodología y métricas utilizadas para la determinación de los coeficientes de homogeneización aplicados.
+
+Cuando se decida atribuir una ponderación a los testigos, se deberá justificar razonada y explícitamente el fundamento o necesidad de su uso y la ponderación atribuida a cada uno de los testigos.
+
+Cuando en la homogeneización valorativa se utilice una superficie distinta a la útil comprobada, se deberá incluir en la homogeneización un coeficiente que incorpore el efecto que tendría sobre la valoración la existencia de una relación distinta entre la superficie adoptada y la útil en los inmuebles comparables y en el inmueble valorado.
+
+e) Se asignará el valor del inmueble, neto de gastos de comercialización, en función de los precios homogeneizados, previa deducción de las servidumbres y limitaciones del dominio que recaigan sobre aquél y que no hayan sido tenidas en cuenta en la aplicación de las reglas precedentes.
+
+2. Además de las reglas generales señaladas en el apartado anterior, para determinar el valor a que se refiere dicho número se tendrán en cuenta, cuando proceda, las siguientes reglas especiales:
+
+a) En el caso de edificios en proyecto, construcción o rehabilitación, cuando se determine el valor por comparación para la hipótesis de edificio terminado, se utilizarán los precios existentes en el mercado en la fecha de la tasación para la venta de inmuebles terminados similares. Este valor se podrá corregir razonadamente de acuerdo con la tendencia del mercado para el plazo previsto de terminación de la obra.
+
+b) En el caso de valoración de fincas rústicas, al utilizar el método de comparación, la homogeneización prevista en el mismo se basará en los valores unitarios por hectárea existentes en el mercado para las distintas clases de tierra, o tipos de cultivos y/o aprovechamiento.
+
+Artículo 23. Ajuste del valor por comparación.
+1. El valor por comparación obtenido de acuerdo con el artículo anterior será ajustado por la entidad tasadora para obtener un valor por comparación ajustado cuando concurran los requisitos para incluir la advertencia específica que se menciona en el apartado 3 del artículo 12.
+
+2. Para corregir los efectos de la probabilidad a que se refiere dicho artículo 12.3, la entidad tasadora, en base a su capacidad técnica, aplicará al valor por comparación la reducción que considere necesaria.
+
+Cuando los datos disponibles sobre el comportamiento del mercado no permitan, en opinión de la entidad tasadora, estimar la reducción indicada en el párrafo anterior, se aplicará un porcentaje de reducción del 10 por 100 en todo caso, y del 15 por 100 si aprecia una gran volatilidad en los precios considerados para determinar el valor por comparación.
+
+3. Sin perjuicio de la información exigible en el cálculo del valor de tasación, la mención al ajuste realizado y su justificación se incluirán en la advertencia específica a que se refiere el artículo 12.3.
+
+Sección 4.ª Método de actualización de rentas
+Artículo 24. Aplicabilidad del método de actualización.
+1. El método de actualización de rentas será aplicable, siempre que se cumplan los requisitos establecidos en el artículo siguiente, a la valoración de toda clase de inmuebles susceptibles de producir rentas y a la de los derechos reales señalados en el artículo 52.2 (Aplicación), salvo las opciones de compra.
+
+2. Mediante este método se calculará un valor técnico que se denominará valor por actualización, que permite determinar tanto el valor de mercado de un determinado bien como su valor hipotecario.
+
+Artículo 25. Requisitos para la utilización del método de actualización.
+1. Para la utilización del método de actualización a efectos de esta Orden será necesario que se cumpla al menos uno de los siguientes requisitos:
+
+a) La existencia de un mercado de alquileres representativo de los comparables. Para presumir tal existencia, será necesario disponer, como mínimo, de seis datos de rentas de alquiler sobre comparables que reflejen adecuadamente la situación actual de este mercado y disponer de suficientes datos sobre transacciones en alquiler u ofertas que permitan identificar parámetros adecuados para realizar la homogeneización de rentas en comparables.
+
+b) La existencia de un contrato de arrendamiento sobre el inmueble objeto de valoración.
+
+c) Que el inmueble valorado esté produciendo o pueda producir ingresos como inmueble ligado a una actividad económica y que además existan suficientes datos contables de la explotación o información adecuada sobre ratios estructurales medias de la rama de actividad correspondiente.
+
+2. Para utilizar el método de actualización de rentas a efectos de lo previsto en el artículo 2.a) (Ámbito de aplicación) de la presente Orden será necesario, cuando concurra alguno de los supuestos previstos en las letras a) o b) del apartado 1, que la entidad de tasación disponga de:
+
+a) Datos adecuados (transacciones u ofertas, etc.), sobre la evolución de las rentas de alquiler en el mercado local de inmuebles comparables durante al menos los 2 años anteriores a la fecha de la valoración, y su estado actual.
+
+b) Información adecuada (datos propios, publicaciones oficiales, índices de precios) sobre el comportamiento histórico de las variables determinantes en la evolución de los precios del mercado inmobiliario de los inmuebles de usos análogos al que se valore y sobre el propio comportamiento de esos precios en el ciclo relevante al efecto y el estado actual de la coyuntura inmobiliaria.
+
+c) Procedimientos adecuados que, a través de la detección de las ofertas o transacciones con datos anormales en el mercado local, posibiliten la identificación y eliminación de elementos especulativos.
+
+Artículo 26. Procedimiento de cálculo del valor por actualización.
+El cálculo del valor de actualización exigirá:
+
+a) Estimar los flujos de caja.
+
+b) Estimar el valor de reversión.
+
+c) Elegir el tipo de actualización.
+
+d) Aplicar la fórmula de cálculo.
+
+Artículo 27. Flujos de caja en el método de actualización.
+1. A efectos de lo señalado en el artículo anterior los flujos de caja pueden ser inmobiliarios y operativos.
+
+2. Se entenderá por flujos de caja inmobiliarios, los cobros y pagos futuros que traigan causa del inmueble objeto de valoración.
+
+3. Se entenderá por flujos de caja operativos los de la explotación que utilice el inmueble objeto de valoración. Estos flujos se calcularán sumando al beneficio de la explotación en el ejercicio después de impuestos las dotaciones a amortizaciones realizadas en el mismo y restando de esta suma las inversiones efectuadas en dicho ejercicio en inmovilizado y, en su caso, las variaciones del fondo de maniobra.
+
+Cuando se vaya a calcular el valor de tasación para la finalidad prevista en el artículo 2.a) (Ámbito de aplicación), los beneficios a considerar serán, en exclusiva, los ordinarios del correspondiente ejercicio.
+
+Se entenderá por fondo de maniobra la diferencia entre el saldo del activo circulante y el de acreedores a corto plazo del balance.
+
+El inmovilizado, el activo circulante y los acreedores a corto plazo abarcarán las cuentas que se señalan en la normativa contable vigente.
+
+4. Los flujos de caja se estimarán teniendo en cuenta el régimen del inmueble objeto de valoración y, en todo caso, se utilizarán las hipótesis más probables para determinar sus cuantías y las fechas en que se realizarán los cobros y los pagos.
+
+Dichos flujos de caja se calcularán en unidades monetarias del año a que se refiera el valor de la tasación, sin tener en cuenta, por tanto, el efecto inflacionista.
+
+Artículo 28. Flujos de caja de los inmuebles con mercado de alquileres.
+1. Lo establecido en este artículo podrá aplicarse siempre que exista, en la fecha de la tasación, un mercado de alquileres en los términos establecidos en el artículo 25.1.a) (Requisitos para la utilización del método de actualización) de esta Orden, con independencia de que el inmueble esté alquilado, vacío o explotado directamente por su propietario.
+
+2. Los flujos de caja del inmueble objeto de valoración se estimarán, a lo largo de su vida útil, teniendo en cuenta todos los factores que puedan afectar a su cuantía y a su obtención efectiva, entre ellos:
+
+Los cobros que normalmente se obtengan en inmuebles comparables.
+
+La ocupación actual y la probabilidad de ocupación futura del inmueble.
+
+Las disposiciones legales o cláusulas contractuales (renta, revisiones, plazo, etc.) que afecten exclusivamente a los flujos de caja del inmueble. Se excluirán aquellas disposiciones o cláusulas que afecten a flujos atribuibles a elementos vinculados a dicho inmueble pero ajenos a él tales como mobiliario, enseres, etc.
+
+La morosidad actual o previsible de los cobros.
+
+La evolución previsible del mercado, teniendo en cuenta solamente, cuando la valoración se realice para la finalidad prevista en el artículo 2.a) (Ámbito de aplicación) de esta Orden, aquellas situaciones o circunstancias que presumiblemente puedan permanecer en el medio y largo plazo.
+
+3. Sin perjuicio de lo señalado en el apartado anterior, durante el período de vigencia de los contratos de arrendamiento las cuantías de los cobros integrantes de los flujos de caja serán las derivadas de las cláusulas contractuales. No obstante, si dichas cuantías fuesen superiores a las de otros inmuebles comparables, sólo podrán utilizarse si se considera y justifica que no es previsible la modificación de dichas cuantías y, cuando se pretenda calcular el valor de tasación para la finalidad prevista en el artículo 2.a) (Ámbito de aplicación), siempre que las mismas no puedan atribuirse a elementos especulativos.
+
+4. En el cálculo de los pagos se incluirá cualquier tipo de gasto necesario actual o previsible, incluso recuperable, que deba soportar la propiedad, ya sea imputable directamente al inmueble (mantenimiento, conservación administración, impuestos, tasas, etc.), ya sea consecuencia de su destino o necesario para su alquiler (administración de los alquileres, comercialización, etcétera).
+
+En los pagos recuperables se tendrá también en cuenta el plazo previsible en que vayan a ser efectivamente recuperados.
+
+Artículo 29. Flujos de caja de otros inmuebles en arrendamiento.
+1. Lo establecido en este artículo podrá aplicarse cuando el inmueble objeto de valoración se encuentre arrendado en la fecha de la tasación.
+
+2. Los flujos de caja del inmueble objeto de valoración se estimarán, mientras esté en vigor el contrato de arrendamiento, teniendo en cuenta las cláusulas contractuales del mismo.
+
+Cuando la finalidad de la valoración sea la prevista en el artículo 2.a) (Ámbito de aplicación), los flujos de caja del inmueble objeto de valoración que sean superiores a los de otros inmuebles comparables se sustituirán por los de éstos siempre que la diferencia pueda atribuirse a la presencia de elementos especulativos.
+
+Artículo 30. Flujos de caja de otros inmuebles en explotación económica.
+1. Lo establecido en este artículo podrá aplicarse cuando el inmueble objeto de valoración se encuentre en la fecha de la tasación ligado a una actividad económica.
+
+2. Se estimarán los flujos de caja de la explotación durante el período de tiempo en que previsiblemente vaya a continuar la misma y se tomarán los que son imputables al inmueble.
+
+3. Los flujos de caja a que se refiere el apartado anterior serán las cuantías medias del sector de actividad en el que se integre dicha explotación. Dichas cuantías medias se corregirán razonadamente cuando:
+
+a) La localización o las características particulares del inmueble influyan o puedan influir claramente en que la explotación económica obtenga ingresos superiores o inferiores a la media del sector de actividad en el que se integra.
+
+Cuando la finalidad de la valoración sea la prevista en el artículo 2.a) (Ámbito de aplicación) sólo se llevará a cabo corrección si se prevé que los ingresos a que se refiere el apartado anterior, cuando sean superiores a las cuantías medias citadas, vayan a ser obtenidos de modo duradero al menos durante los cinco años siguientes a la fecha de la tasación.
+
+b) Las perspectivas económicas de dicho sector modifiquen la probabilidad de obtener los ingresos netos previstos por dicha explotación.
+
+Para realizar la corrección a que se refiere el primer párrafo de este número no se podrán utilizar los datos actuales o previsibles de la explotación que utiliza el inmueble objeto de valoración que, según opinión razonada del tasador, traigan causa de factores vinculados fundamentalmente a la gestión de dicha explotación u otros ajenos al inmueble.
+
+4. Para realizar la imputación a que se refiere el apartado 2 de este artículo se tomarán los flujos de caja operativos determinados según el apartado anterior y se tendrá en cuenta el valor relativo del mobiliario y equipo no inmobiliario.
+
+5. Cuando no existan las cuantías medias a que se refiere el apartado 3 de este artículo, se utilizarán las propias de la explotación de que se trate siempre que se disponga de datos de al menos, los dos últimos años. En el caso de tratarse de una explotación en proyecto, se tendrán en cuenta las cuantías previsionales aportadas por los titulares de la futura explotación, siempre que sean completas y alcancen al menos tres ejercicios.
+
+En el caso de que la finalidad de la valoración sea la prevista en el artículo 2.a) (Ámbito de aplicación) las cuantías a que se refiere el párrafo anterior se reducirán al menos en un 10 por 100.
+
+Artículo 31. Valor de reversión.
+1. Cuando los flujos de caja se calculan de conformidad con lo previsto en el artículo 28 (Flujos de caja de los inmuebles con mercado de alquileres) de esta Orden, el valor de reversión al final de su vida útil será el valor en esa fecha del terreno en el que está edificado. Para ello:
+
+a) Se calculará el valor del terreno en la fecha de la tasación de acuerdo con los métodos previstos en esta Orden.
+
+b) Dicho valor se ajustará con la plusvalía o la minusvalía que resulte razonable y sea debidamente justificada, teniendo en cuenta la localización, uso y evolución del mercado de inmuebles comparables.
+
+2. Cuando los flujos de caja se calculan de acuerdo con lo previsto en el artículo 29 (Flujos de caja de otros inmuebles en arrendamiento) de esta Orden, el valor de reversión será el valor previsible del inmueble al final del contrato. Para ello se calculará el valor del inmueble libre de inquilinos en la fecha de la tasación aplicando el método de valoración correspondiente y se ajustará el valor del suelo de acuerdo con la letra b) del apartado 1 anterior y se restará la depreciación física y funcional de la edificación, calculada de acuerdo con el método del coste.
+
+3. Cuando los flujos de caja se calculen de acuerdo con lo previsto en el artículo 30 (Flujos de caja de otros inmuebles en explotación económica) de esta Orden, para estimar el valor de reversión al final del período de tiempo en que previsiblemente vaya a continuar la explotación, se tomará su valor de reemplazamiento neto en dicho momento. Para ello se tendrá en cuenta lo señalado en las letras siguientes:
+
+a) Se calculará el valor del suelo en la fecha de la tasación y se ajustará en los términos establecidos en las letras a) y b) del apartado 1 de este artículo.
+
+b) La depreciación de las edificaciones se corresponderá con el período citado.
+
+Artículo 32. Tipo de actualización en el método de actualización.
+1. Para determinar el tipo de actualización se seguirá el siguiente procedimiento:
+
+Se adoptará un tipo de interés nominal adecuado al riesgo del proyecto de inversión y que atienda, en particular, a su volumen y grado de liquidez, a la tipología (industrial, comercial, etc.) del inmueble, a sus características y ubicación física, al tipo de contrato de arrendamiento (existente o previsto) y al riesgo previsible en la obtención de rentas.
+
+El tipo de actualización elegido conforme a los criterios anteriores debe ser similar al que está utilizando el mercado respecto a operaciones comparables.
+
+Dicho tipo de interés se convertirá en real corrigiéndose del efecto inflacionista mediante la aplicación de un índice de precios que refleje adecuadamente la inflación esperada durante el período para el que se prevea la existencia de flujos de caja.
+
+2. El tipo de interés nominal a que se refiere el primer guión del apartado anterior no podrá ser inferior a la rentabilidad media anual del tipo medio de la Deuda del Estado con vencimiento superior a dos años. Este plazo de vencimiento será igual o superior a cinco años si la finalidad de la valoración es la prevista en el artículo 2.a).
+
+Para determinar la rentabilidad media anual:
+
+Se tomará el tipo medio durante un período continuado no inferior a tres meses ni superior a un año contados antes de la fecha de la tasación.
+
+El tipo medio deberá haber sido publicado por un organismo público o por un mercado organizado.
+
+3. La entidad tasadora justificará debidamente el tipo de interés elegido, destacando el diferencial positivo aplicado respecto a la rentabilidad media mencionada en el párrafo anterior, y en especial, la inflación esperada y demás medios de corrección utilizados para obtener un tipo real.
+
+Artículo 33. Fórmula de cálculo del valor por actualización.
+1. El valor de actualización del inmueble objeto de valoración será el valor actual (VA) de los flujos de caja y del valor de reversión esperados para el tipo de actualización elegido.
+
+2. El VA a que se refiere el apartado anterior se calculará de acuerdo con la siguiente fórmula matemática:
+
+Imagen: /datos/imagenes/disp/2003/85/07253_001.png
+
+En donde:
+
+VA = Valor actual.
+
+Ej = Importe de los cobros imputables al inmueble en el momento J.
+
+Sk = Importe de los pagos previstos en el momento K.
+
+tj = Número de períodos de tiempo que debe transcurrir desde el momento de la valoración hasta que se produzca el correspondiente Ej.
+
+tk = Número de períodos de tiempo desde el momento de la valoración hasta que se produzca el correspondiente Sk.
+
+i = Tipo de actualización elegido correspondiente a la duración de cada uno de los períodos de tiempo considerados.
+
+n = Número de períodos de tiempo desde la tasación hasta el final del período de estimación de los ingresos esperados.
+
+3. Los períodos transcurridos (tiempo), y el tipo de actualización a utilizar, se expresarán en las unidades correspondientes a la duración de cada uno de los períodos de tiempo considerados.
+
+Sección 5.ª Método residual
+Artículo 34. Aplicabilidad del método residual.
+1. El valor por el método residual se calculará siguiendo uno de los procedimientos siguientes:
+
+a) Procedimiento de análisis de inversiones con valores esperados (Procedimiento de cálculo «dinámico»).
+
+b) Procedimiento de análisis de inversiones con valores actuales (Procedimiento de cálculo «estático»).
+
+2. El método residual podrá aplicarse mediante el procedimiento dinámico a los siguientes inmuebles:
+
+a) Terrenos urbanos o urbanizables, estén o no edificados.
+
+b) Edificios en proyecto, construcción o rehabilitación, incluso en el caso de que las obras estén paralizadas.
+
+3. El método residual sólo se podrá aplicar mediante el procedimiento estático, a los solares e inmuebles en rehabilitación en los que se pueda comenzar la edificación o rehabilitación en un plazo no superior a un año, así como a los solares edificados.
+
+4. Mediante este método se calculará un valor técnico que se denominará valor residual, que permite determinar tanto el valor de mercado de un determinado bien como su valor hipotecario.
+
+Artículo 35. Requisitos para la utilización del método residual.
+1. Para la utilización del método residual a efectos de esta Orden será necesario el cumplimiento de los siguientes requisitos:
+
+a) La existencia de información adecuada para determinar la promoción inmobiliaria más probable a desarrollar con arreglo al régimen urbanístico aplicable o, en el caso de terrenos con edificios terminados, para comprobar si cumplen con dicho régimen.
+
+b) La existencia de información suficiente sobre costes de construcción, gastos necesarios de promoción, financieros, en su caso, y de comercialización que permita estimar los costes y gastos normales para un promotor de tipo medio y para una promoción de características semejantes a la que se va a desarrollar.
+
+c) La existencia de información de mercado que permita calcular los precios de venta más probables de los elementos que se incluyen en la promoción o en el edificio en las fechas previstas para su comercialización.
+
+d) La existencia de información suficiente sobre los rendimientos de promociones semejantes.
+
+2. Para poder aplicar el método residual por el procedimiento dinámico será necesario además de los requisitos señalados en el apartado anterior, la existencia de información sobre los plazos de construcción o rehabilitación, de comercialización del inmueble y, en su caso, de gestión urbanística y de ejecución de la urbanización.
+
+Artículo 36. Procedimiento de cálculo «dinámico».
+1. Para el cálculo del valor residual por el procedimiento de cálculo dinámico se seguirán los siguientes pasos:
+
+a) Se estimarán los flujos de caja.
+
+b) Se elegirá el tipo de actualización.
+
+c) Se aplicará la fórmula de cálculo.
+
+2. Se deberán justificar razonada y explícitamente las hipótesis y parámetros de cálculo adoptados.
+
+Artículo 37. Flujos de caja en el método residual dinámico.
+1. Se tomarán como flujos de caja: los cobros y, en su caso, las entregas de crédito que se estime obtener por la venta del inmueble a promover; y los pagos que se estime realizar por los diversos costes y gastos durante la construcción o rehabilitación, incluso los pagos por los créditos concedidos.
+
+Dichos cobros y pagos se aplicarán en las fechas previstas para la comercialización y construcción del inmueble.
+
+2. Para estimar los cobros a obtener se partirá de los valores en venta previstos en las fechas de comercialización en la hipótesis de edificio terminado, los cuales se calcularán atendiendo a los valores obtenidos por los métodos de comparación y/o por actualización de rentas en la fecha de tasación, y a la evolución esperada de los precios de mercado.
+
+3. Para estimar los pagos a realizar se tendrá en cuenta los costes de construcción, los gastos necesarios a que se refiere el artículo 18.3 y 4 de esta Orden, los de comercialización y, en su caso, los financieros normales para un promotor de tipo medio y para una promoción de las características similares a la que se estime más probable promover.
+
+En el caso de inmuebles en rehabilitación y en aquellos terrenos que cuenten con proyecto de obra nueva también se tendrán en cuenta los costes de construcción presupuestados en el correspondiente proyecto.
+
+4. Para determinar las fechas y plazos previstos a que se refiere el apartado 1 de este artículo se tendrán en cuenta, además de los sistemas de pagos a proveedores, las hipótesis más probables atendiendo a las características del inmueble proyectado y, en su caso, al grado de desarrollo del planeamiento, de la gestión urbanística y de la urbanización.
+
+5. Para determinar el inmueble a promover sobre el objeto a valorar se tendrá en cuenta el principio de mayor y mejor uso. No obstante, cuando sea conocido el destino decidido por la propiedad del inmueble y no se oponga a la normativa urbanística se atenderá al mismo.
+
+En todo caso, cuando se trate de solares edificados de acuerdo con el régimen urbanístico aplicable, y salvo que exista la posibilidad de materializar el principio de mayor y mejor uso, se atenderá a la edificación existente.
+
+Artículo 38. Tipo de actualización en el método residual dinámico.
+1. A los efectos del cálculo del valor residual por el procedimiento dinámico previsto en el artículo 36 (Procedimiento de cálculo «dinámico») de esta Orden se utilizará como tipo de actualización aquel que represente la rentabilidad media anual del proyecto sin tener en cuenta financiación ajena que obtendría un promotor medio en una promoción de las características de la analizada.
+
+Se calculará sumando al tipo libre de riesgo, la prima de riesgo.
+
+2. El tipo libre de riesgo será el establecido en el artículo 32, tomándolo como real o nominal según sea constante o nominal la estimación de los flujos de caja.
+
+3. La prima de riesgo se determinará por la entidad tasadora, a partir de la información sobre promociones inmobiliarias de que disponga, mediante la evaluación del riesgo de la promoción teniendo en cuenta el tipo de activo inmobiliario a construir, su ubicación, liquidez, plazo de ejecución, así como el volumen de la inversión necesaria.
+
+4. Cuando en la determinación de los flujos de caja se tenga en cuenta la financiación ajena, las primas de riesgo señaladas en el apartado anterior deberán ser incrementadas en función del porcentaje de dicha financiación (grado de apalancamiento) atribuida al proyecto y de los tipos de interés habituales del mercado hipotecario. En todo caso, dicho incremento deberá ser debidamente justificado.
+
+Artículo 39. Fórmula de cálculo del valor residual por el procedimiento dinámico.
+El valor residual del inmueble objeto de la valoración calculado por el procedimiento dinámico será la diferencia entre el valor actual de los cobros obtenidos por la venta del inmueble terminado y el valor actual de los pagos realizados por los diversos costes y gastos, para el tipo de actualización fijado, utilizando la siguiente fórmula:
+
+Imagen: /datos/imagenes/disp/2003/85/07253_002.png
+
+En donde:
+
+F = Valor del terreno o inmueble a rehabilitar.
+
+Ej = Importe de los cobros previstos en el momento J.
+
+Sk = Importe de los pagos previstos en el momento K.
+
+tj = Número de períodos de tiempo previsto desde el momento de la valoración hasta que se produce cada uno de los cobros.
+
+tk = Número de períodos de tiempo previsto desde el momento de la valoración hasta que se produce cada uno de los pagos.
+
+i = Tipo de actualización elegido correspondiente a la duración de cada uno de los períodos de tiempo considerados.
+
+Artículo 40. Procedimiento de cálculo «estático».
+1. Para el cálculo del valor residual por el procedimiento estático se seguirán los siguientes pasos:
+
+a) Se estimarán los costes de construcción, los gastos necesarios a que se refiere el artículo 18.3 y 4 de la presente Orden, los de comercialización y, en su caso, los financieros normales para un promotor de tipo medio y para una promoción de características similares a la analizada. En el caso de inmuebles en rehabilitación y en aquellos terrenos que cuenten con proyecto de obra nueva también se tendrán en cuenta los costes de construcción presupuestados en el correspondiente proyecto.
+
+b) Se estimará el valor en venta del inmueble a promover para la hipótesis de edificio terminado en la fecha de la tasación. Dicho valor será el obtenido por alguno de los métodos establecidos en los artículos precedentes.
+
+c) Se Fijará el margen de beneficio del promotor.
+
+d) Se Aplicará la fórmula de cálculo.
+
+2. Se deberá justificar razonada y explícitamente las hipótesis y parámetros de cálculo adoptados.
+
+Artículo 41. Margen de beneficio del promotor.
+1. El margen de beneficio del promotor se fijará por la entidad tasadora, a partir de la información de que disponga sobre promociones de semejante naturaleza, y atendiendo al más habitual en las promociones de similares características y emplazamiento, así como los gastos financieros y de comercialización más frecuentes.
+
+Artículo 42. Fórmula de cálculo del valor residual por el procedimiento estático.
+El valor residual por el procedimiento estático del objeto de valoración se calculará aplicando la siguiente fórmula:
+
+F = VM ∙ (1 – b) – Σ Ci
+
+En donde:
+
+F = Valor del terreno o inmueble a rehabilitar.
+
+VM = Valor del inmueble en la hipótesis de edificio terminado.
+
+b = Margen o beneficio neto del promotor en tanto por uno.
+
+Ci = Cada uno de los pagos necesarios considerados.
+
+CAPÍTULO II
+Valoración de bienes inmuebles y derechos
+Sección 1.ª Disposiciones generales
+Artículo 43. Valoración de inmuebles.
+1. Las valoraciones se expresarán por fincas registrales independientes.
+
+2. Para valorar un inmueble integrado por varios elementos se procederá a valorar cada uno de ellos según lo previsto en esta Orden, obteniéndose el valor total del inmueble como suma de los valores calculados para dichos elementos.
+
+3. Aquellos inmuebles que sean objeto de alguno de los derechos contemplados en la sección quinta de este capítulo se valorarán teniendo en cuenta la existencia de dichos derechos.
+
+4. Cuando no fuera posible la utilización de ninguno de los métodos técnicos señalados en el artículo 15, se podrá calcular el valor correspondiente utilizando un procedimiento admitido en la práctica profesional a tal fin. Además de la advertencia a que se refiere la letra d) del artículo 11, dicho procedimiento deberá ser explicado con el debido detalle en el informe, y su utilización justificada adecuadamente en el mismo, especificando además, cuando se trate de calcular el valor de tasación para la finalidad prevista en el artículo 2.a) (Ámbito de aplicación) el procedimiento empleado para descartar los elementos especulativos del cálculo.
+
+Sección 2.ª Valoración de edificios y elementos de un edificio
+Artículo 44. Aplicación.
+1. Lo establecido en esta sección será de aplicación a la valoración de edificios y elementos de edificios, estén o no terminados. Se aplicará igualmente a los edificios o elementos de edificios en proyecto, en construcción o rehabilitación para la hipótesis de edificio terminado.
+
+2. No obstante lo señalado en el apartado anterior, los edificios en demolición, y los declarados legalmente en ruina, se valorarán con arreglo a lo establecido para la valoración de terrenos en la sección cuarta de este mismo capítulo II, salvo que sean calificados como fincas rústicas.
+
+Artículo 45. Valor de tasación de edificios y elementos de edificios para el mercado hipotecario.
+El valor de tasación de edificios y elementos de edificios para finalidades comprendidas en la letra a) del artículo 2 de esta Orden será el valor hipotecario; para su determinación se seguirán las siguientes reglas:
+
+1. En los inmuebles en construcción o en rehabilitación:
+
+a) El valor de tasación será el valor de reemplazamiento neto; no obstante, si las obras estuvieran paralizadas y no se prevé su reanudación a corto plazo, se tomará como valor de tasación el menor entre el valor de reemplazamiento y el residual del terreno y de la edificación realizada.
+
+b) La valoración de los inmuebles en proyecto, construcción o rehabilitación para la hipótesis de edificio terminado se realizará, para la fecha prevista de terminación de las obras, siguiendo las reglas previstas en las letras a), b), c) siguientes.
+
+2. En los inmuebles terminados:
+
+a) En los inmuebles ligados a una actividad económica se calcularán el valor por comparación, en su caso ajustado y, cuando sea posible, el valor por actualización, y el valor de reemplazamiento neto, y se tomará, como valor de tasación, el menor de ellos. En el cálculo del valor por actualización se tendrá en cuenta lo previsto en el artículo 30 de esta Orden, salvo cuando el inmueble esté arrendado en la fecha de la tasación en cuyo caso podrá seguirse lo previsto en el artículo 28 o, si no existiera un mercado de alquileres que cumpla los requisitos previstos en el artículo 25.1.a) de esta Orden, lo previsto en su artículo 29.
+
+b) En los inmuebles arrendados o que estando vacíos su destino sea el alquiler, con la excepción de las viviendas, se calcularán el valor por actualización y el valor por comparación, en su caso ajustado, para el supuesto que estuviera libre de inquilinos, y se tomará, como valor de tasación, el menor de ellos. En el cálculo del valor por actualización se tendrá en cuenta lo previsto en el artículo 28 de esta Orden, salvo cuando se trate de un inmueble que carezca de un mercado de alquileres que cumpla los requisitos previstos en el artículo 25.1.a) de esta Orden, en cuyo caso, de estar arrendado en la fecha de la tasación, se seguirá el régimen previsto en el artículo 29.
+
+Las reglas anteriores se aplicarán igualmente al conjunto de elementos de un edificio que constituyan una unidad funcional destinada por su propietario al alquiler.
+
+En el caso de viviendas que estén arrendadas en la fecha de la tasación se calcularán el valor por actualización, teniendo en cuenta lo previsto en el artículo 29, y el valor por comparación, en su caso ajustado, para el supuesto que se halle libre de inquilino, y se tomará, como valor de tasación, el menor de ellos.
+
+Cuando no puedan calcularse los valores citados, el valor de tasación será, como máximo, el valor de reemplazamiento neto del inmueble.
+
+c) En los restantes inmuebles no mencionados en las letras anteriores, es decir los edificios o elementos de edificios destinados a uso propio o vacíos y no ligados a una explotación, el valor de tasación será el valor por comparación, en su caso ajustado; cuando su cálculo no fuera posible se tomará el valor por actualización teniendo en cuenta lo previsto en el artículo 28, y si el cálculo de éste tampoco fuera posible, el valor de tasación será, como máximo, el valor de reemplazamiento neto.
+
+3. En los inmuebles acogidos a un sistema de protección pública, el valor de tasación, en ningún caso, será superior al valor máximo legal.
+
+Artículo 46. Valor de tasación de edificios y elementos de edificios para Entidades aseguradoras y fondos de pensiones.
+El valor de tasación de edificios y elementos de edificios para las finalidades contempladas en las letras b) y d) del artículo 2 de esta Orden se determinará siguiendo las reglas que se citan a continuación:
+
+1. En los inmuebles en construcción o en rehabilitación:
+
+– El valor de tasación será el valor inicial más el importe de las certificaciones de obra en la medida en que se vayan abonando y respondan a una efectiva realización de las mismas.
+
+– El valor inicial a que se refiere el párrafo anterior será el valor de tasación del terreno en el caso de obras de nueva construcción o el valor de tasación del edificio o elemento de edificio antes del comienzo de las obras en el caso de edificios o elementos de edificios en rehabilitación.
+
+2. En los inmuebles terminados:
+
+a) En los inmuebles ligados a una actividad económica se calcularán el valor por comparación, el valor por actualización, y el valor de reemplazamiento neto, y se tomará, como valor de tasación, el menor de ellos. En el cálculo del valor por actualización se tendrá en cuenta lo previsto en el artículo 30 de esta Orden, salvo cuando el inmueble esté arrendado en la fecha de la tasación en cuyo caso podrá seguirse lo previsto en el artículo 28 o, si no existiera un mercado de alquileres que cumpla los requisitos previstos en el 25.1.a) de esta Orden, lo previsto en su artículo 29.
+
+b) En los inmuebles arrendados, el valor por actualización calculado según el procedimiento previsto en el artículo 29. El valor de tasación así hallado no podrá superar el valor por comparación del inmueble en el supuesto de que estuviera libre de inquilinos.
+
+Cuando no puedan calcularse los valores citados, el valor de tasación será, como máximo, el valor de reemplazamiento neto del inmueble.
+
+c) En los restantes inmuebles no mencionados en las letras anteriores, es decir los edificios o elementos de edificios destinados a uso propio o vacíos y no ligados una explotación económica, el valor de tasación será el valor por comparación; cuando su cálculo no fuera posible se tomará el valor por actualización teniendo en cuenta lo previsto en el artículo 28, y si el cálculo de éste tampoco fuera posible, el valor de tasación será, como máximo, el valor de reemplazamiento neto.
+
+3. En los inmuebles acogidos a un sistema de protección pública, el valor de tasación, en ningún caso, será superior al valor máximo legal.
+
+Artículo 47. Valor de tasación de edificios y elementos de edificios para instituciones de inversión colectiva inmobiliarias.
+El valor de tasación de edificios y elementos de edificios para la finalidad contemplada en el artículo 2.c) (Ámbito de aplicación) de esta Orden se determinará siguiendo las reglas que se citan a continuación:
+
+1. En los inmuebles en proyecto, en construcción o en rehabilitación:
+
+El valor de tasación será el valor que tendría el inmueble en la fecha de la tasación para la hipótesis de edificio terminado, calculado según las reglas del apartado siguiente. Dicho valor no podrá incorporar correcciones al alza para reflejar la tendencia del mercado en el plazo que reste hasta la finalización de las obras.
+
+2. En los inmuebles terminados, en caso de encontrarse arrendados en la fecha de tasación, se calculará el valor por comparación para el supuesto de que se halle libre de inquilinos y el valor por actualización según lo previsto en el artículo 29. El valor de tasación se corresponderá con el menor de ellos. Si no estuviesen arrendados el valor de tasación será el valor por comparación para el supuesto que se halle libre de inquilinos.
+
+3. Cuando no fuera posible el cálculo de ninguno de los valores señalados en el apartado anterior, el valor se corresponderá con el del método de actualización según lo previsto en el artículo 28, y en caso de no poder calcularse este último, se corresponderá con el método de actualización previsto en el artículo 30. De no ser posible la aplicación de ninguno de los métodos anteriores, será de aplicación lo establecido en el artículo 43.4 de esta Orden, utilizando un procedimiento que esté admitido en la práctica profesional para el cálculo del valor de mercado del inmueble en cuestión.
+
+En caso de hacer uso de lo establecido en el artículo 30 y 43.4, el valor de tasación no podrá ser superior:
+
+a) Al valor de reemplazamiento neto, si se está realizando una tasación previa.
+
+b) Al valor de adquisición del inmueble por la institución de inversión colectiva, si se está realizando la primera tasación con efectos en el cálculo del valor liquidativo, o
+
+c) Al último valor de tasación asignado al inmueble, cuando se hubiese podido calcular por otros procedimientos de acuerdo a lo previsto en este artículo, si se está realizando el resto de tasaciones periódicas.
+
+4. Cuando exista un valor máximo legal para el inmueble objeto de tasación, el valor de tasación no podrá ser superior a dicho valor máximo legal, excepto en el caso de viviendas de protección oficial en las que el fin del período de afección que reste sea inferior a cinco años desde la fecha de tasación. En este último caso, el valor de tasación no podrá ser superior al que resulte de la siguiente ecuación:
+
+VML + máximo [0,‹((60 – Tr)/60)*(VTL–VML)›]
+
+Donde:
+
+VML: es el valor máximo legal para venta.
+
+VTL: valor por comparación para el supuesto de que se halle libre de inquilinos.
+
+Tr= Número de meses restantes hasta la expiración del régimen de protección.
+
+Sección 3.ª Valoración de fincas rústicas
+Artículo 48. Aplicación.
+Lo establecido en esta sección será de aplicación a la valoración de fincas rústicas incluidas aquellas con mejoras, instalaciones o edificios.
+
+Artículo 49. Valor de tasación de fincas rústicas para todas las finalidades.
+El valor de tasación de fincas rústicas se obtendrá sumando los siguientes valores:
+
+a) El valor de tasación de la tierra, incluidos los distintos edificios e instalaciones no desmontables vinculados y necesarios para su explotación. Dicho valor será el menor entre el valor por comparación, en su caso ajustado, de las distintas clases de tierra, y el valor por actualización de la explotación.
+
+b) El valor de tasación de los edificios o instalaciones destinados a explotaciones distintas de aquellas a las que se dedican los diferentes tipos de tierra. Dicho valor se obtendrá como si fueran inmuebles ligados a una explotación económica y será, como máximo, el valor de reemplazamiento neto.
+
+c) El valor de tasación de otros edificios o instalaciones (residencias, recreativas, etc.). Dicho valor será el valor de tasación calculado de acuerdo con los artículos 45 (Valor de tasación de edificios y elementos de edificios para el mercado hipotecario), 46 (Valor de tasación de edificios y elementos de edificios para Entidades aseguradoras y fondos de pensiones) y 47 (Valor de tasación de edificios y elementos de edificios para instituciones de inversión colectiva inmobiliarias) de esta Orden según la finalidad de tasación.
+
+Sección 4.ª Valoración de solares y terrenos
+Artículo 50. Aplicación.
+1. Lo establecido en esta sección será de aplicación a la valoración de terrenos clasificados como urbanos y urbanizables y no urbanizables que no se valoren como fincas rústicas.
+
+2. También se aplicará, justificándolo debidamente, a aquellos inmuebles construidos en los que no exista impedimento legal para su demolición y cuyo mayor y mejor uso sea el de terreno.
+
+Artículo 51. Valor de tasación de terrenos para todas las finalidades.
+1. El valor de tasación de los terrenos de nivel urbanístico I será el valor por comparación, en su caso, ajustado. Cuando su cálculo no fuera posible, el valor de tasación será el valor residual. En ambos casos se descontarán, cuando proceda, los gastos de demolición.
+
+La existencia de un proyecto de construcción sobre un determinado terreno no permite valorar éste de manera diferente a la prevista en esta sección.
+
+2. El valor de tasación de los terrenos sujetos a explotación económica distinta de la agropecuaria será el valor por actualización calculado por el procedimiento previsto en el artículo 30.
+
+3. El valor de tasación en los restantes casos de terrenos catalogados como nivel urbanístico II será el valor por comparación sin consideración alguna a su posible utilización urbanística. Cuando el cálculo de dicho valor no fuera posible el valor de tasación será como máximo, el valor catastral del terreno.
+
+4. Los valores a que se refiere el apartado 1 anterior se calcularán teniendo en cuenta el aprovechamiento urbanístico susceptible de apropiación por su propietario en la fecha de la tasación.
+
+Sección 5.ª Valoración de determinados derechos y de los bienes objeto de los mismos
+Artículo 52. Aplicación.
+1. Lo establecido en esta sección será de aplicación a la valoración de determinados derechos reales o limitaciones que recaigan sobre un bien objeto de valoración de acuerdo con la presente Orden.
+
+2. Los derechos y limitaciones a que se refiere el apartado anterior son:
+
+a) El derecho de superficie.
+
+b) La concesión administrativa.
+
+c) La servidumbre.
+
+d) La nuda propiedad, el usufructo, el uso y la habitación.
+
+e) Limitaciones de dominio.
+
+f) Las opciones de compra.
+
+g) Tiempo compartido sobre inmuebles.
+
+h) Compromisos de compra a plazos.
+
+Artículo 53. Valoración de inmuebles sobre los que existe derecho de superficie.
+1. Para valorar un edificio o elemento de edificio construido o a construir para la hipótesis de edificio terminado en ejercicio de un derecho de superficie sobre un terreno propiedad de un tercero, se podrá elegir cualquiera de los procedimientos indicados en las letras siguientes:
+
+a) Se aplicarán, en función de la finalidad de tasación, los artículos 45 (Valor de tasación de edificios y elementos de edificios para el mercado hipotecario), 46 (Valor de tasación de edificios y elementos de edificios para Entidades aseguradoras y fondos de pensiones) y 47 (Valor de tasación de edificios y elementos de edificios para instituciones de inversión colectiva inmobiliarias) de esta Orden como si fueran inmuebles en pleno dominio.
+
+Del valor así obtenido se restarán:
+
+i) El valor actual de los pagos a efectuar al concedente.
+
+ii) El valor actual del valor de reversión calculado de acuerdo con el artículo 31.3 en la fecha de extinción del derecho de superficie.
+
+b) Calculando el valor por actualización a que se refiere el artículo 24.2 de esta Orden. Para el cálculo de dicho valor se tendrán en cuenta además las precisiones siguientes:
+
+i) Los pagos a efectuar al concedente por cualquier concepto.
+
+ii) Las inversiones a efectuar por el concesionario en edificios o instalaciones.
+
+iii) El período en que se generarán rentas o ingresos.
+
+iv) La inexistencia de un valor de reversión para el concesionario.
+
+2. Para valorar un derecho de superficie sobre un determinado terreno se aplicará el método residual por el procedimiento dinámico previsto en el artículo 36 (Procedimiento de cálculo «dinámico») de esta Orden teniendo en cuenta, en particular las cantidades a pagar por el superficiario durante la construcción y, en su caso, resto de duración del derecho, así como los cobros y pagos generados por la actividad económica asociada al derecho de superficie.
+
+3. Para valorar la propiedad de un terreno sobre el que está constituido un derecho de superficie se sumará:
+
+a) El valor actual de los pagos a efectuar al concedente.
+
+b) El valor actual del valor de reversión calculado de acuerdo con el artículo 31.3 (Valor de reversión), en la fecha de extinción del derecho de superficie.
+
+4. Las tasas de capitalización que se utilizan para calcular los valores citados en este artículo se determinarán de acuerdo con los artículos 32 y 38, según corresponda y deberán tomar en consideración, adicionalmente, las condiciones del derecho de superficie, especialmente en cuanto a las causas y plazo de extinción o resolución.
+
+5. Sin perjuicio de lo señalado en los números anteriores, cuando existan datos suficientes sobre transacciones de inmuebles en derecho de superficie, o de derechos de superficie o de terrenos afectados por derechos de superficie en condiciones similares al que se valora, se podrá utilizar el método de comparación, siempre que se cumplan los requisitos del artículo 22 (Procedimiento de cálculo del valor por comparación) de esta Orden.
+
+Artículo 54. Valoración de concesiones administrativas.
+1. Para valorar un edificio o elemento de edificio construido o a construir para la hipótesis de edificio terminado sobre los que está constituida una concesión administrativa, se podrá elegir cualquiera de los procedimientos indicados en las letras siguientes:
+
+a) Se aplicarán, en función del tipo de inmueble y de la finalidad de tasación, los artículos 45 (Valor de tasación de edificios y elementos de edificios para el mercado hipotecario), 46 (Valor de tasación de edificios y elementos de edificios para Entidades aseguradoras y fondos de pensiones), 47 (Valor de tasación de edificios y elementos de edificios para instituciones de inversión colectiva inmobiliarias) y 49 (Valor de tasación de fincas rústicas) de esta Orden como si fueran inmuebles en pleno dominio.
+
+Del valor así obtenido se restará:
+
+i) El valor actual de los pagos a efectuar al concedente.
+
+ii) El valor actual de reversión calculado de acuerdo con el artículo 31.3 en la fecha de extinción de la concesión administrativa.
+
+b) Calculando el valor por actualización a que se refiere el artículo 24.2 de esta Orden. Para el cálculo de dicho valor se tendrán en cuenta además las precisiones siguientes:
+
+i) Los pagos a efectuar al concedente por canon u otro concepto.
+
+ii) Las inversiones a efectuar por el concesionario en edificios o instalaciones.
+
+iii) Las tarifas del servicio público de la concesión y su previsible evolución.
+
+iv) El período en que se generarán rentas o ingresos.
+
+v) La inexistencia de un valor de reversión para el concesionario.
+
+2. Para valorar una concesión administrativa sobre un determinado terreno se aplicará el método residual por el procedimiento dinámico previsto en el artículo 36 (procedimiento de cálculo dinámico) de esta orden teniendo en cuenta, en particular:
+
+a) Las cantidades a pagar por el beneficiario de la concesión durante la construcción y en su caso durante el resto de la duración de la concesión.
+
+b) Los cobros y pagos generados por la actividad económica asociada a la concesión.
+
+3. Para valorar la propiedad de un terreno sobre el que está constituido una concesión administrativa se sumará:
+
+a) El valor actual de los pagos a efectuar al concedente.
+
+b) El valor actual de reversión calculado de acuerdo con el artículo 31.3 en la fecha de extinción de la concesión administrativa.
+
+4. Las tasas de actualización que se utilicen para calcular los valores actuales citados en este artículo se determinarán de acuerdo con los artículos 32 y 38, según corresponda y deberán tomar en consideración adicionalmente las condiciones de la concesión administrativa sobre causas y plazos de extinción o resolución, así como de las tarifas del servicio público de la concesión y su posible evolución.
+
+5. Sin perjuicio de lo señalado en los números anteriores cuando existan datos suficientes sobre transacciones de inmuebles en concesión administrativa, o de concesiones administrativas o de terrenos afectados por concesiones administrativas, en condiciones similares al que se valora, se podrá utilizar el método de comparación, siempre que se cumplan los requisitos del artículo 22 (procedimiento de cálculo del valor por comparación) de esta Orden.
+
+Artículo 55. Valoración de la servidumbre.
+1. Las servidumbres contempladas en el Título VII del libro segundo del Código Civil, se valorarán restando del valor del inmueble, supuesto libre de la carga impuesta por la servidumbre, el valor de dicho inmueble teniendo en cuenta el efecto de la servidumbre que lo grava.
+
+2. Los valores a que se refiere el apartado anterior se calcularán aplicando el método correspondiente contemplado en la presente Orden.
+
+Artículo 56. Valoración de la nuda propiedad, del usufructo, del uso y la habitación.
+El valor de la nuda propiedad, del usufructo, del uso y de la habitación se determinará conforme a las siguientes reglas:
+
+1.º) Se calculará la base para el prorrateo que será el valor por actualización según el procedimiento previsto en el artículo 28 (Flujos de caja de los inmuebles con mercado de alquileres) de esta Orden.
+
+2.º) La distribución de la base de prorrateo entre el usufructo y la nuda propiedad será la siguiente:
+
+Usufructo: valor actual actuarial de los flujos de caja durante el período que se mantiene el derecho.
+
+Nuda propiedad: diferencia entre la base de prorrateo y el valor actual anterior.
+
+Consideraciones para el cálculo del usufructo:
+
+a) usufructo constituido a favor de una sola persona:
+
+a.1) si el usufructo es temporal: se calculará el valor actual actuarial de una renta cuya duración sea la temporalidad no transcurrida, para una cabeza de la edad del usufructuario
+
+a.2) si el usufructo es vitalicio: se calculará el valor actual actuarial de una renta vitalicia para una cabeza de la edad del usufructuario.
+
+b) usufructo constituido a favor de más de una persona:
+
+b.1) si el usufructo es temporal: se calculará el valor actual actuarial de una renta cuya duración sea la temporalidad no transcurrida, considerando las probabilidades de supervivencia del grupo y su casuística de extinción según los órdenes de fallecimiento.
+
+b.2) si el usufructo es vitalicio: se calculará el valor actual actuarial de una renta vitalicia, considerando las probabilidades de supervivencia del grupo y su casuística de extinción según los órdenes de fallecimiento.
+
+ 
+
+c) las fórmulas a aplicar en cada caso serán las siguientes:
+
+A. Valor actual actuarial de una renta para una sola cabeza:
+
+A.a Renta temporal:
+
+Imagen: img/disp/2007/249/18140_001.png
+
+Ct: flujo de caja con vencimiento en el momento t.
+
+i: tipo de interés según el art. 32 de esta Orden.
+
+tp2: probabilidad de que una cabeza de edad x viva t años más.
+
+x: edad del usufructuario en el momento del cálculo.
+
+n: temporalidad no transcurrida del usufructo.
+
+A.b Renta vitalicia:
+
+Imagen: img/disp/2007/249/18140_002.png
+
+w: edad límite de la tabla de mortalidad utilizada.
+
+B. Valor actual actuarial de una renta para más de una cabeza: Fórmulas aplicables para el caso en que el grupo de usufructuarios esté formado por dos cabezas:
+
+B.a Extinción al primer fallecimiento:
+
+Renta temporal:
+
+Imagen: img/disp/2007/249/18140_003.png
+
+tpxy: probabilidad de que la cabeza (x) y la cabeza(y) estén vivas las dos dentro de t años.
+
+tpxy = tpx • tpy
+
+Renta vitalicia:
+
+Imagen: img/disp/2007/249/18140_004.png
+
+t pxy: probabilidad de que la cabeza (x) y la cabeza (y) estén vivas dentro de t años.
+
+t pxy = tpx • tpy
+
+B.b Extinción al segundo (último fallecimiento):
+
+Renta temporal:
+
+Imagen: img/disp/2007/249/18140_005.png
+
+t pxy = t probabilidad de que la cabeza (x), o bien la cabeza(y), o las dos estén vivas dentro de t años.
+
+t pxy = tpx + tpy – t pxy
+
+Renta vitalicia:
+
+Imagen: img/disp/2007/249/18140_006.png
+
+d) los cálculos anteriores se realizarán con las tablas de supervivencia que cumplan los requisitos establecidos en el artículo 133.1.a), b), c), e), y último inciso del Real Decreto 1060/2015, de 20 de noviembre, de ordenación, supervisión y solvencia de las entidades aseguradoras y reaseguradoras.
+
+Hallados los valores actuales del usufructo y de la nuda propiedad, cuya suma tiene que ser igual a la base de prorrateo, se determina la proporción que estos valores tienen.
+
+3.º) El valor del usufructo y de la nuda propiedad será la resultante de aplicar al valor de tasación del inmueble conforme a esta Orden ministerial la proporción correspondiente determinada en el párrafo anterior.
+
+4.º) El valor del derecho de uso y habitación se obtendrá dividiendo el valor del derecho de usufructo, calculado conforme a las reglas anteriores, por 1,12.
+
+Artículo 57. Valoración de las limitaciones del dominio.
+1. Las prohibiciones y las limitaciones generales o particulares de la plena propiedad o de la libre utilización de los inmuebles, diferentes a las señaladas en los artículos 53 (Valoración de inmuebles sobre los que existe derecho de superficie), 54 (Valoración de concesiones administrativas), 55 (Valoración de la servidumbre) y 56 (Valoración de la nuda propiedad, del usufructo, del uso y la habitación) de esta Orden, se tendrán en cuenta en la valoración de éstos.
+
+2. La valoración de las limitaciones se determinará aplicando los métodos previstos en el capítulo I de este Título, que correspondan al contenido jurídico de la limitación del dominio, aplicados a la cuantía en la que la propiedad quede afectada.
+
+3. El valor del inmueble vendrá determinado por la diferencia entre el obtenido como si no existiera la limitación del dominio, y el valor de ésta.
+
+Artículo 58. Valoración de opciones de compra.
+Las opciones de compra sobre inmuebles que se valoren a los efectos del artículo 2.c) (Ámbito de aplicación) de esta Orden, lo harán considerando el valor del inmueble, los plazos y las condiciones de la ejecución de la opción que figuren en la documentación que regule el derecho de opción.
+
+El valor de la opción se determinará conforme a las siguientes reglas:
+
+a) Si la diferencia entre el valor del inmueble en la fecha de tasación calculado según lo previsto en el artículo 47 (valor de tasación de edificios y elementos de edificios para instituciones de inversión colectiva inmobiliarias) de esta Orden y el precio de ejercicio de la opción sobre el inmueble actualizado, es positiva, el valor de la opción será equivalente a esa diferencia. Para la actualización se utilizará como tasa de descuento el tipo de interés cotizado en el mercado secundario de Deuda Pública con vencimiento más próximo al plazo restante para el ejercicio del derecho.
+
+b) Si la mencionada diferencia fuera negativa o nula el valor de la opción será nulo.
+
+c) En cualquiera de los casos en los que la opción, su plazo de ejecución o el importe por el que se puede ejecutar, estén condicionados a situaciones o plazos que hagan improbable su ejercicio, en opinión de la entidad tasadora, su valor será nulo.
+
+Artículo 59. Valoración de inmuebles con tiempo compartido.
+1. Los inmuebles que sean total o parcialmente objeto del derecho previsto en la Ley 42/1998, de 15 de diciembre, sobre derechos de aprovechamiento por turno de bienes inmuebles de uso turístico y normas tributarias, se valorarán en la parte sujeta a este derecho de acuerdo con las siguientes reglas:
+
+a) Se determinará el valor de todos los periodos susceptibles de cesión del inmueble sujeto total o parcialmente a este derecho, estén cedidos o no, por el método de actualización de rentas, utilizando como interés el de la deuda pública de duración más próxima al número de años restantes para la finalización del régimen.
+
+b) Se determinará el valor de cada período cedido de cada elemento de edificio sujeto a este derecho por el método de actualización de rentas, sin considerar el valor de reversión y utilizando como interés el de deuda pública de duración más próxima al número de años restantes para la finalización del contrato.
+
+c) En ambos casos los flujos de caja se calcularán según lo previsto en el artículo 28 teniendo en cuenta las rentas medias de inmuebles arrendados comparables, considerando la época del año a que se refieran que deberá de ser la misma que la del periodo cuyo valor se pretende obtener.
+
+2. Para la obtención del valor del inmueble sujeto total o parcialmente a este derecho y del que se han cedido determinados periodos se restará del valor obtenido en el punto 1.a) la suma de valores obtenidos en el punto 1.b) y se calculará la proporción que representa sobre el valor obtenido en el punto 1.a).
+
+Para la obtención del valor de uno o más periodos cedidos se determinará la proporción que representa sobre el valor obtenido en el punto 1.a).
+
+3. Se multiplicará, según el caso, la proporción así hallada por el menor entre el valor por comparación, el valor por actualización calculado según el procedimiento del artículo 28 y el valor de reemplazamiento neto del inmueble, en el supuesto de que no existiera este derecho.
+
+Artículo 60. Valoración de compromisos de compra a plazos.
+1. Los compromisos de compra a plazo sobre inmuebles que se valoren a los efectos del artículo 2.c) (Ámbito de aplicación) de esta Orden, se valorarán considerando el valor del inmueble, el plazo y las condiciones del contrato que figuren en la documentación que regule dicho compromiso.
+
+2. El valor del compromiso se determinará como diferencia entre el valor del inmueble en el momento de la tasación, calculado conforme a lo previsto en el artículo 47 (Valor de tasación de edificios y elementos de edificios para instituciones de inversión colectiva inmobiliaria) de esta Orden, y el precio pactado en el contrato de compra a plazo actualizado, utilizando como tasa de actualización el tipo de interés de la deuda pública con duración más próxima al plazo restante para el ejercicio del compromiso.

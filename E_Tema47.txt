@@ -1,0 +1,870 @@
+Tema 47.-Ley Foral 2/2018, de 13 de abril, de Contratos Públicos (I): Título preliminar: Objeto de la Ley
+Foral, Principios de la contratación pública; Disposiciones generales (Título I): Poderes adjudicadores
+(Capítulo I); Contratistas (Capítulo II); Tipología de los contratos y régimen jurídico (Capítulo III); Principios
+y reglas de la gestión contractual de los contratos públicos (Título I, Capítulo IV).
+
+TÍTULO PRELIMINAR
+
+Artículo 1. Objeto de la Ley Foral.
+
+Esta ley foral tiene por objeto la regulación de los contratos públicos celebrados por las personas y entidades señaladas en los artículos siguientes dentro del ámbito de competencias de la Comunidad Foral de Navarra.
+
+Artículo 2. Principios de la contratación pública.
+
+1. Las entidades sometidas a esta ley foral la aplicarán respetando los principios de igualdad de trato, no discriminación, reconocimiento mutuo, proporcionalidad, transparencia e integridad, interpretados a la luz de las Directivas y la jurisprudencia europea. Igualmente actuarán de acuerdo con los principios de eficacia y eficiencia.
+
+2. En la aplicación de esta ley foral se excluirá cualquier tipo de acuerdo, práctica restrictiva o abusiva que produzca o pueda producir el efecto de obstaculizar, impedir, restringir o falsear la competencia en los términos previstos en la legislación de defensa de la competencia.
+
+3. En la contratación pública se incorporarán de manera transversal y preceptiva criterios sociales y medioambientales siempre que guarden relación con el objeto del contrato, en la convicción de que su inclusión proporciona una mejor relación calidad-precio en la prestación contractual, así como una mayor y mejor eficiencia en la utilización de los fondos públicos. Igualmente se facilitará el acceso a la contratación pública de las pequeñas y medianas empresas, así como de las empresas de economía social.
+
+Para materializar dicho principio de manera efectiva, los contratos públicos deberán incluir de manera preceptiva criterios de adjudicación, así como requerimientos de ejecución de carácter social o medioambiental.
+
+4. Las entidades sometidas a esta ley foral tomarán las medidas pertinentes para garantizar que se cumplan las obligaciones aplicables en materia de igualdad de género, medioambiental, social o laboral establecidas en la normativa vigente.
+
+5. Las entidades sometidas a esta ley foral programarán la actividad de contratación pública, que desarrollarán en un ejercicio presupuestario o períodos plurianuales y darán a conocer su plan de contratación anticipadamente, junto con la aprobación de sus presupuestos, y ello con independencia del anuncio de información previa previsto en el artículo 90.
+
+Artículo 3. Ámbito de aplicación objetivo.
+
+Son contratos públicos, a efectos de esta ley foral, los contratos onerosos celebrados por escrito entre una o varias empresas o profesionales y una o varias entidades sometidas a esta ley foral, cuyo objeto sea la ejecución de obras, el suministro de productos, la prestación de servicios o las concesiones de obras y servicios, así como los contemplados en el artículo 5 de esta ley foral.
+
+Se entenderá que concurre el carácter oneroso cuando el contratista obtenga algún beneficio de tipo económico, ya sea forma directa o indirecta.
+
+Artículo 4. Ámbito de aplicación subjetivo.
+
+1. Esta ley foral se aplicará a los contratos públicos celebrados por las siguientes entidades:
+
+a) El Parlamento de Navarra, la Cámara de Comptos y el Defensor del Pueblo de Navarra.
+
+b) La Administración de la Comunidad Foral de Navarra y sus Organismos Autónomos.
+
+c) Las Entidades Locales de Navarra y sus Organismos Autónomos con las particularidades que resulten de la legislación foral de Administración Local.
+
+d) La Universidad Pública de Navarra.
+
+e) Las entidades públicas empresariales y entidades de derecho público, consorcios, sociedades mercantiles y laborales, fundaciones u otros entes, o asociaciones de cualesquiera de ellos, dotados de personalidad jurídica, pública o privada, vinculados o dependientes de las entidades mencionadas en los apartados anteriores, en los que concurran conjuntamente estos requisitos:
+
+1.º Que en su actividad satisfagan, al menos parcialmente, fines de interés público que no tengan carácter industrial o mercantil y no asuman riesgo empresarial.
+
+2.º Que las Administraciones Públicas financien, directa o indirectamente, más de la mitad de su actividad, o bien tengan influencia dominante sobre las mismas a través de mecanismos que controlen su gestión, o bien permitan designar a más de la mitad de los miembros de sus órganos de administración, de dirección o de vigilancia.
+
+2. A los efectos de aplicación de esta ley foral se entiende por Administraciones Públicas de Navarra las entidades contempladas en las letras a), b), c) y d) del apartado anterior.
+
+3. Quedan sujetos a esta ley foral las organizaciones sometidas a la Ley Orgánica 8/2007, de Financiación de los Partidos Políticos, las organizaciones sindicales reguladas en la Ley Orgánica 11/1985 de 2 de agosto, de Libertad Sindical, las organizaciones empresariales y las fundaciones y asociaciones vinculadas a cualquiera de ellos, cuando concurran los requisitos establecidos en la letra e) del apartado 1 de este artículo.
+
+Artículo 5. Extensión a contratos celebrados por otras entidades.
+
+Se encuentran igualmente sometidos a esta ley foral por su objeto los siguientes contratos de entidades no incluidas dentro del ámbito subjetivo de esta ley foral:
+
+a) Los contratos de obras que tengan por objeto prestaciones de ingeniería civil de las contempladas en el Anexo I de esta ley foral y los contratos de obras de construcción de hospitales, centros deportivos, culturales, recreativos y de ocio, edificios escolares y universitarios y edificios de uso administrativo celebrados por personas o entidades privadas cuando hayan sido subvencionados directamente en más de un 50% por las entidades sometidas a obligaciones de contratación pública.
+
+b) Los contratos de servicios suscritos por personas o entidades privadas vinculados a los contratos de obras señalados en la letra anterior cuando hayan sido objeto de subvención directa en más de un 50% por las entidades sometidas a obligaciones de contratación pública.
+
+c) Los contratos y subcontratos de obras de los concesionarios de obras públicas.
+
+d) Los contratos de juntas de compensación y entidades análogas cuando ejecuten sistemas generales u obras públicas de urbanización.
+
+Artículo 6. Contratos con Sociedades de Capital Mixto.
+
+1. Los contratos públicos podrán adjudicarse directamente a una sociedad de capital mixto en la que concurra capital público y privado, siempre que la elección del socio privado se haya efectuado de conformidad con las normas establecidas en el título I de esta ley foral para la adjudicación del contrato cuya ejecución constituya su objeto y siempre que no se introduzcan modificaciones en el objeto y las condiciones del contrato que se tuvieron en cuenta en la selección del socio privado.
+
+2. Los pliegos que regulen el procedimiento de selección del socio privado contendrán todos los elementos definitorios de la relación entre este y el poder adjudicador, así como los relativos a la relación contractual entre el poder adjudicador y la sociedad de capital mixto, y, en particular, el contrato público o la concesión que se ha de adjudicar a la sociedad, así como los estatutos de ésta y los pactos de accionista que, en su caso, deban suscribirse. Igualmente deberán expresarse con claridad y precisión las posibilidades de prórroga o modificación del contrato público o de la concesión adjudicada a la sociedad de capital mixto.
+
+3. Los contratos que celebre posteriormente esa Sociedad, si tiene condición de poder adjudicador, deberán someterse a las disposiciones de esta ley foral.
+
+Artículo 7. Negocios jurídicos excluidos.
+
+1. Quedan excluidos de la aplicación de esta ley foral por razón de su propia naturaleza y de la existencia de normativa específica:
+
+a) Los encargos realizados a un ente instrumental de conformidad a lo dispuesto en el artículo 8 de esta ley foral.
+
+b) Las relaciones jurídicas que se establecen entre la Administración o el contratista que presta un servicio público y los usuarios que deben abonar para su utilización una tarifa, tasa o precio público de aplicación general Nota de Vigencia.
+
+c) Los contratos relativos a servicios de arbitraje y conciliación.
+
+d) Los contratos que tengan por objeto servicios relacionados con campañas políticas, incluidos en los códigos CPV 79341400-0, (servicios de investigación, estudios y encuestas de opinión pública) 92111230-3 y 92111240-6 (producción de películas y videocintas de propaganda), cuando sean adjudicados por un partido político en el contexto de una campaña electoral.
+
+e) Los contratos relativos a servicios financieros relacionados con la emisión, compra, venta o transferencia de valores o de otros instrumentos financieros en el sentido de la normativa europea vigente relativa a los mercados de instrumentos financieros. Asimismo quedan excluidos los servicios prestados por el Banco de España y las operaciones realizadas con la Facilidad Europea de Estabilización Financiera y el Mecanismo Europeo de Estabilidad y los contratos de préstamo y operaciones de tesorería, estén o no relacionados con la emisión, venta, compra o transferencia de valores o de otros instrumentos financieros.
+
+f) Los contratos de servicios y suministros celebrados por los Organismos Públicos de Investigación que tengan por objeto prestaciones o productos necesarios para la ejecución de proyectos de investigación, desarrollo e innovación tecnológica o servicios técnicos, cuando la presentación y obtención de resultados derivados de los mismos esté ligada a retornos científicos, tecnológicos o industriales susceptibles de incorporarse al tráfico jurídico y su realización haya sido encomendada a equipos de investigación del Organismo mediante procesos de concurrencia competitiva.
+
+g) Los contratos de servicios de naturaleza precomercial. A tal efecto estarán incluidos los CPV 73000000-2 a 73120000-9, 73300000-5, 73420000-2 y 73430000-5, salvo que se cumplan las dos condiciones siguientes:
+
+1.ª Que los beneficios pertenezcan exclusivamente al órgano de contratación para su utilización en el ejercicio de su propia actividad.
+
+2.ª Que el servicio prestado sea remunerado íntegramente por el órgano de contratación Nota de Vigencia.
+
+h) Los convenios de colaboración que celebren los poderes adjudicadores públicos, entre sí o con otras Administraciones, Organismos y Entidades Públicas, así como los convenios de colaboración que, con arreglo a las normas específicas que los regulan, celebre la Administración de la Comunidad Foral con personas físicas o jurídicas sujetas al Derecho Privado, siempre que su objeto y causa no esté comprendido en los contratos regulados en esta ley foral o en normas administrativas especiales.
+
+i) La cooperación horizontal para gestión competencial conjunta en actividades no industriales o mercantiles con fines de eficacia y eficiencia, que se deberán articular mediante convenio. La exclusión requerirá que:
+
+1.º El convenio establezca una auténtica cooperación entre los poderes adjudicadores participantes para la ejecución conjunta de obligaciones de servicio público, con fijación de derechos y deberes recíprocos más allá de la remuneración o retribución.
+
+2.º El convenio se rija exclusivamente por consideraciones de interés público.
+
+3.º Los poderes adjudicadores participantes no realicen en el mercado más de un 20% del volumen de negocios obtenido merced a las actividades pertinentes en el marco del acuerdo.
+
+4.º El convenio no conlleve transferencias financieras entre los poderes adjudicadores participantes, excepto las correspondientes al reembolso del coste real de las obras, los servicios o los suministros.
+
+5.º En ninguno de los poderes adjudicadores exista participación privada.
+
+j) Los conciertos que celebren las Administraciones Públicas de Navarra con entidades sin ánimo de lucro para gestionar de forma indirecta la prestación de servicios sociales, culturales, educativos y sanitarios a las personas y los convenios de vinculación, en los términos regulados por el artículo 66 y siguientes de la Ley 14/1986, de 25 de abril, General de Sanidad y en el artículo 77 de la Ley Foral 10/1990, de 23 de noviembre, de Salud, la simple financiación de estos servicios o la concesión de licencias o autorizaciones a todas las entidades que cumplan las condiciones previamente fijadas por el poder adjudicador, sin límites ni cuotas, que se regirán por su normativa específica, siempre que la misma garantice una publicidad suficiente y se ajuste a los principios de transparencia y no discriminación.
+
+k) La participación de entidades y asociaciones de carácter cultural, deportivo u otras de similar naturaleza sin ánimo de lucro del respectivo municipio, tales como bandas de música, grupos de danza, charangas, clubes deportivos y similares, defensa del medio ambiente, caza, pesca, en actividades culturales, festivas, artísticas, deportivas y de difusión del folclore organizadas o promovidas por las entidades locales de Navarra, cuando aquella participación, que no tendrá naturaleza de contraprestación, se realice al amparo de convenios de colaboración suscritos al efecto, que podrán formalizarse de conformidad con lo dispuesto en la legislación en materia de subvenciones públicas.
+
+l) Los siguientes servicios jurídicos:
+
+1.º Representación legal de un cliente por un abogado, en el sentido del artículo 1 de la Directiva 77/249/CEE del Consejo en un arbitraje o una conciliación celebrada en un Estado miembro, un tercer país o ante una instancia internacional de conciliación o arbitraje, o un procedimiento judicial ante los órganos jurisdiccionales o las autoridades públicas de un Estado miembro, un tercer país o ante órganos jurisdiccionales o instituciones internacionales.
+
+2.º Asesoramiento jurídico prestado como preparación de uno de los procedimientos mencionados en el apartado anterior o cuando haya una indicación concreta y una alta probabilidad de que el asunto sobre el que se asesora será objeto de dichos procedimientos, siempre que el asesoramiento lo preste un abogado en el sentido del artículo 1 de la Directiva 77/249/CEE.
+
+3.º Servicios de certificación y autenticación de documentos que deban ser prestados por un notario Nota de Vigencia.
+
+m) Los acuerdos de adquisición pública de medicamentos, conforme a la disposición adicional vigesimoprimera de esta ley foral Nota de Vigencia.
+
+n) Los contratos celebrados por alguna de las entidades relacionadas en las letras b), c), d) o e) del artículo 4.1, para atender obligaciones contraídas en el marco de un contrato público al que hubiese concurrido con la condición de operador económico o contratista Nota de Vigencia.
+
+2. Esta ley foral no será de aplicación a los contratos derivados de un acuerdo internacional, celebrados de conformidad con el Tratado de la Unión Europea, relativos a obras o suministros destinados a la realización o explotación en común de una obra o relativos a servicios destinados a la realización o explotación conjunta de un proyecto.
+
+3. Esta ley foral no se aplicará a los contratos públicos cuando sean declarados secretos o cuando su ejecución deba ir acompañada de especiales medidas de seguridad de acuerdo con las disposiciones legales, reglamentarias o administrativas vigentes, siempre que se haya justificado que los intereses esenciales que se protegen no pueden garantizarse con medidas que supongan una menor injerencia.
+
+Artículo 8. Encargos a entes instrumentales.
+
+1. Esta ley foral no será de aplicación a los encargos de prestaciones propias de los contratos de obras, suministros, servicios y concesiones de obras y servicios que los poderes adjudicadores sometidos a la misma decidan realizar a sus entes instrumentales.
+
+2. A los efectos de este artículo se entiende por entes instrumentales a aquellas entidades que, dotadas de personalidad jurídica propia, reúnan los siguientes requisitos:
+
+a) Ausencia de autonomía decisoria respecto de la entidad que realiza el encargo, al ejercer ésta un control análogo al que ejerce sobre sus propios servicios o unidades. Para ello debe acreditarse una influencia decisiva sobre objetivos estratégicos y decisiones significativas de la persona jurídica controlada.
+
+b) Que no exista participación directa de capital privado.
+
+c) Que más del 80% de sus actividades se lleven a cabo en el ejercicio de los cometidos que le han sido confiados por el poder adjudicador que la controla o por otras personas jurídicas controladas por dicho poder adjudicador.
+
+Para calcular dicho porcentaje se considerará el promedio del volumen global de negocios, los gastos soportados por los servicios prestados al poder adjudicador en relación con la totalidad de los gastos en que haya incurrido el ente instrumental por razón de las prestaciones que haya realizado a cualquier entidad, u otro indicador alternativo de actividad que sea fiable, y todo ello referido a los tres ejercicios anteriores al de formalización del encargo.
+
+Cuando debido a la fecha de creación o de inicio de actividad del ente instrumental, o debido a la reorganización de las actividades de este, el volumen global de negocios, u otro indicador alternativo de actividad, de acuerdo con lo establecido en el párrafo anterior, no estuvieran disponibles respecto de los tres ejercicios anteriores a la formalización del encargo o hubieran perdido su vigencia, será suficiente con demostrar que el cálculo del nivel de actividad se corresponde con la realidad, en especial mediante proyecciones de negocio.
+
+El cumplimiento efectivo del requisito establecido en la presente letra deberá quedar reflejado en la Memoria integrante de las Cuentas Anuales del ente destinatario del encargo y, en consecuencia, ser objeto de verificación en la auditoría de las Cuentas Anuales.
+
+d) Declaración expresa de ente instrumental, que se anunciará en el Portal de Contratación con expresión del ámbito al que se pueden circunscribir los encargos.
+
+3. También quedarán excluidos de la aplicación de esta ley foral los encargos que realicen los propios entes instrumentales en su condición de poderes adjudicadores, al poder adjudicador que los controla o a otros entes instrumentales del mismo poder adjudicador.
+
+4. Del mismo modo, quedarán excluidos de la aplicación de esta ley foral los contratos entre personas jurídicas controladas por un mismo poder adjudicador, siempre que no exista participación directa de capital privado en la persona jurídica a la que se adjudique el contrato Nota de Vigencia.
+
+5. Un ente instrumental podrá serlo al mismo tiempo de varios poderes adjudicadores.
+
+En tal caso, se entenderá cumplido el requisito de ausencia de autonomía decisoria del ente instrumental cuando los poderes adjudicadores ejerzan conjuntamente el control sobre la persona jurídica.
+
+Para ello deben cumplirse todas y cada una de las siguientes condiciones:
+
+a) Que los órganos decisorios de la persona jurídica controlada estén compuestos por representantes de todos los poderes adjudicadores participantes. Cada representante podrá representar a varios de estos últimos o a la totalidad de ellos.
+
+b) Que esos poderes adjudicadores puedan ejercer conjuntamente una influencia decisiva sobre los objetivos estratégicos y las decisiones significativas de la persona jurídica controlada.
+
+c) Que la persona jurídica controlada no persiga intereses contrarios a los de los poderes adjudicadores que influyen en ella.
+
+6. Los encargos se instrumentarán a través de órdenes de realización obligatoria y, en todo caso, la supervisión de su correcta ejecución corresponderá al poder adjudicador.
+
+El importe a abonar por el poder adjudicador que realiza el encargo no podrá superar el reembolso de los costes reales necesarios para su ejecución.
+
+La orden de realización de los encargos cuyo valor estimado exceda del establecido para el régimen especial para contratos de menor cuantía, se publicará en el Portal de Contratación con expresión sucinta de las circunstancias de hecho y fundamentos de derecho que la justifican, y no podrá comenzar su ejecución hasta que transcurran diez días naturales desde la publicación del anuncio.
+
+Cuando el encargo supere los umbrales europeos la orden de realización deberá ser igualmente objeto de publicación en el Diario Oficial de la Unión Europea, conforme a los modelos oficiales, en el plazo máximo de cuarenta y ocho días desde su aprobación Nota de Vigencia.
+
+7. Los entes instrumentales deberán disponer de los medios materiales y técnicos para ejecutar la mayor parte de la prestación objeto del encargo. Cuando para la efectividad del mismo se requiera la ejecución de prestaciones por parte de terceros, la adjudicación de dichos contratos se someterá a las normas de esta ley foral.
+
+El importe de las prestaciones contratadas con terceros necesarias para llevar a cabo el objeto del encargo no podrá exceder del 50% del importe del mismo.
+
+Excepcionalmente podrá superarse el porcentaje de contratación siempre que se justifique exhaustivamente la existencia de una justa causa tendente a la economía, eficacia o eficiencia en la ejecución del encargo como el especial conocimiento del mercado, la mejor organización empresarial para la ejecución del conjunto de la prestación o actividad, u otras que justifiquen que el encargo conllevará un valor añadido a la prestación final. La justificación se acompañará en el documento de formalización del encargo y se publicará en el Portal de contratación de Navarra conjuntamente con este.
+
+8. Los entes instrumentales no podrán participar en los procedimientos de adjudicación que convoque la entidad de la que dependen.
+
+9. En el marco de los convenios de colaboración citados en la letra h) del apartado 1 del artículo 7 de esta ley foral, los entes instrumentales podrán ser aportados por la entidad de la que dependan con objeto de ser empleadas en las relaciones de cooperación establecidas en esos acuerdos. Cada convenio de colaboración deberá especificar el interés público común que justifique la suscripción del mismo, las actuaciones a desarrollar y la aportación que corresponde a cada una de las partes.
+
+10. Los encargos a entes instrumentales con infracción de lo dispuesto en este artículo serán sancionados con nulidad de pleno derecho.
+
+TÍTULO I. DISPOSICIONES GENERALES
+
+CAPÍTULO I. De los poderes adjudicadores
+
+Artículo 9. Poderes adjudicadores.
+
+1. Se denominarán poderes adjudicadores a las entidades incluidas dentro del ámbito de aplicación subjetivo de esta ley foral.
+
+2. Los órganos que, en virtud de norma legal, reglamentaria o disposición estatutaria, tengan atribuida la facultad de celebrar contratos en representación de los poderes adjudicadores se denominan, a los efectos de aplicación de esta ley foral, órganos de contratación.
+
+Artículo 10. Centrales de compras.
+
+1. Los poderes adjudicadores podrán celebrar contratos de obras, suministros y/o servicios por medio de una central de compras creada exclusivamente para tal fin, teniendo ésta en todo caso la condición de órgano de contratación.
+
+2. Los poderes adjudicadores podrán adherirse a las centrales de compras que se creen conforme a esta ley foral respetando las siguientes reglas:
+
+a) Mediante un acto expreso el poder adjudicador manifestará su voluntad de participar en la central de compras y la aceptación de las concretas condiciones de adhesión.
+
+b) Mediante un acto expreso el órgano competente de la central de compras aceptará la adhesión.
+
+3. La creación de una central de compras deberá ser publicada en el Portal de Contratación, con expresa mención de su objeto y de los poderes adjudicadores que forman parte de la misma.
+
+Artículo 11. Contratación conjunta.
+
+1. Dos o más poderes adjudicadores podrán acordar la tramitación conjunta de determinadas contrataciones específicas.
+
+2. Cuando un procedimiento de contratación se desarrolle en su totalidad de forma conjunta en nombre y por cuenta de todos los poderes adjudicadores interesados, estos tendrán la responsabilidad conjunta del cumplimiento de sus obligaciones en virtud de esta ley foral. Ello se aplicará también en aquellos casos en que un solo poder adjudicador administre el procedimiento, por cuenta propia y por cuenta de los demás poderes adjudicadores interesados.
+
+Cuando un procedimiento de contratación no se desarrolle en su totalidad en nombre y por cuenta de los poderes adjudicadores interesados, estos solo tendrán la responsabilidad conjunta por aquellas partes que se hayan llevado a cabo conjuntamente. Cada poder adjudicador será único responsable del cumplimiento de sus obligaciones derivadas de esta ley foral con respecto a las partes que lleve a cabo en su propio nombre y por cuenta propia.
+
+CAPÍTULO II. De los contratistas
+
+Sección 1.ª. De la capacidad y solvencia
+
+Artículo 12. Los contratistas.
+
+1. Podrán celebrar contratos sometidos a esta ley foral las personas naturales o jurídicas, españolas o extranjeras, que tengan plena capacidad de obrar, no estén incursas en alguna de las prohibiciones o incompatibilidades para contratar, no se hallen en una situación de conflicto de intereses y acrediten una solvencia económica, financiera y técnica o profesional suficiente para ejecutar la prestación contractual demandada.
+
+2. Quien licite deberá contar, asimismo, con la habilitación empresarial o profesional que, en su caso, sea exigible para la realización de la actividad o prestación que constituya el objeto del contrato.
+
+Artículo 13. Licitación en participación conjunta.
+
+1. Los órganos de contratación podrán contratar con Uniones Temporales de Empresas o con personas que participen conjuntamente. Dicha participación se instrumentará mediante la aportación de un documento privado en el que se manifieste la voluntad de concurrencia conjunta, se indique el porcentaje de participación de cada una de las personas licitadoras y se designe una representación o apoderamiento único con facultades para ejercer los derechos y cumplir las obligaciones derivadas del contrato hasta la extinción del mismo, sin perjuicio de la existencia de facultades mancomunadas para cobros y pagos Nota de Vigencia.
+
+2. En cualquier caso, los contratistas responderán solidariamente de las obligaciones contraídas.
+
+3. No será necesaria la constitución en escritura pública de la Unión Temporal de Empresas hasta que se haya efectuado la adjudicación del contrato a su favor.
+
+4. Durante la licitación del contrato, la modificación de la composición en la Unión Temporal de Empresas o en las empresas que han participado conjuntamente será considerada una modificación de la oferta y dará lugar a la exclusión de la misma.
+
+Tras la adjudicación del contrato, la modificación en la composición de una Unión Temporal de Empresas podrá ser autorizada por el órgano de contratación, con carácter expreso, y previa comprobación de los siguientes requisitos:
+
+a) Que se haya ejecutado al menos un 20 % de la prestación inicial y haya transcurrido un año desde el inicio de la ejecución. En el caso de contratos de concesión de obras o de servicios, este requisito se entenderá cumplido si se ha explotado al menos la quinta parte del plazo concedido.
+
+b) Mantenimiento de la solvencia exigida para la adjudicación.
+
+c) Los nuevos participantes en la Unión Temporal de Empresas, si los hubiera, deberán acreditar su capacidad de obrar y no estar incursos en causa de prohibición para contratar.
+
+La modificación subjetiva, en el caso de las participaciones conjuntas sin constitución de Unión Temporal de Empresas, será considerada una cesión de contrato, y deberá respetar lo establecido para las mismas en esta ley foral Nota de Vigencia.
+
+Artículo 14. Acreditación de la capacidad de obrar Nota de Vigencia.
+
+1. La persona que vaya a resultar propuesta adjudicataria deberá acreditar su capacidad de obrar y su representación conforme a lo establecido en esta ley foral Nota de Vigencia.
+
+2. En los casos en que así lo establezca la legislación específica, podrá exigirse a quien licite que acredite su inscripción en un registro profesional o mercantil o cualquier otro requisito que les habilite para el ejercicio de la actividad en que consista la prestación del contrato, de acuerdo con la normativa del Estado en la que se encuentre establecida la persona Nota de Vigencia.
+
+3. En el caso de las empresas no españolas de Estados miembros de la Unión Europea o de los Estados signatarios del Acuerdo sobre el Espacio Económico Europeo, deberán acreditar que, con arreglo a la legislación del Estado en que estén establecidas, se encuentran habilitadas para realizar la prestación de que se trate.
+
+Cuando la legislación del Estado en que se encuentren establecidas estas empresas exija una autorización especial o la pertenencia a una determinada organización para poder llevar a cabo en él la prestación del contrato, deberán acreditar que cumplen este requisito.
+
+4. En los procedimientos de adjudicación de contratos de servicios, cuando quien licite necesite una autorización especial o pertenecer a una determinada organización para poder prestar en su país de origen el servicio de que se trate, podrá exigírsele que demuestre estar en posesión de dicha autorización o que pertenece a dicha organización Nota de Vigencia.
+
+Artículo 15. Empresas no pertenecientes a la Unión Europea y principio de reciprocidad Nota de Vigencia.
+
+Las empresas de Estados no pertenecientes a la Unión Europea o al Espacio Económico Europeo deberán acreditar su capacidad de obrar conforme a la legislación de su Estado de origen y su solvencia económica y financiera, técnica o profesional, de la misma forma que el resto de las licitadoras.
+
+En el caso de empresas procedentes de terceros Estados en contratos que no estén cubiertos por un acuerdo internacional con la Unión Europea que garantice el acceso igual y recíproco a los contratos públicos, el órgano de contratación decidirá, caso por caso, su admisión o inadmisión.
+
+En caso de admitir la participación de alguna de estas empresas, podrá establecer un trato diferenciado, consistente en ajustes de puntuación u otras modalidades objetivas, que deberán constar en los pliegos.
+
+En todo caso, las condiciones de admisión, exclusión, o trato diferenciado a que se refieren los apartados anteriores deberán expresarse de forma clara en los pliegos de cláusulas administrativas particulares respetando en todo caso los principios de seguridad jurídica y de protección de la confianza legítima.
+
+En los contratos de obras será necesario, además, que estas empresas tengan abierta sucursal en España, con designación de apoderados o representantes para sus operaciones y que estén inscritas en el Registro Mercantil.
+
+Artículo 16. Solvencia económica y financiera Nota de Vigencia.
+
+1. La persona que vaya a resultar propuesta adjudicataria deberá acreditar la solvencia económica y financiera para la ejecución del contrato. Se entiende por solvencia económica y financiera la adecuada situación económica y financiera de la empresa para que la correcta ejecución del contrato no corra peligro de ser alterada por incidencias de esa naturaleza. El nivel de solvencia económica y financiera será específico para cada contrato y su exigencia será adecuada y proporcionada al importe de licitación del mismo.
+
+2. La solvencia económica y financiera podrá acreditarse por uno o varios de los siguientes medios:
+
+a) Declaraciones formuladas por entidades financieras y, en el caso de profesionales, un justificante de la existencia de un seguro de indemnización por riesgos profesionales.
+
+b) La presentación de balances o de extractos de balances, en el supuesto de que la publicación de los mismos sea obligatoria en la legislación del país en el que la persona física o jurídica esté establecida.
+
+c) Una declaración sobre el volumen global de negocios y, en su caso, sobre el volumen de negocios en el ámbito de actividades similares a la del objeto del contrato, referida como máximo a los tres últimos ejercicios disponibles en función de la fecha de creación o de inicio de las actividades de quien vaya a licitar, en la medida en que se disponga de las referencias de dicho volumen de negocios.
+
+El volumen de negocios mínimo anual exigido no excederá de una vez y media del valor estimado del contrato. En particular, en los contratos de prestación continuada en los que el cálculo del valor estimado contemple varias anualidades, el volumen de negocio exigible se calculará teniendo en cuenta el valor medio anual de la prestación.
+
+No obstante lo dispuesto en el párrafo anterior, en casos debidamente justificados, como los relacionados con los riesgos especiales vinculados a la naturaleza de las obras, los servicios o los suministros, estos límites podrán ser superados. En este caso se indicarán en el informe de necesidades al que hace referencia el artículo 138.3 las principales razones para la imposición de dicho requisito.
+
+Cuando un contrato se divida en lotes, el presente criterio se aplicará en relación con cada uno de los lotes. No obstante, el órgano de contratación podrá establecer el volumen de negocios mínimo anual exigido a los licitadores por referencia a grupos de lotes en caso de que al adjudicatario se le adjudiquen varios lotes que deban ejecutarse al mismo tiempo Nota de Vigencia.
+
+d) Patrimonio neto, o bien ratio entre activos y pasivos, al cierre del último ejercicio económico para el que esté vencida la obligación de aprobación de cuentas anuales por importe igual o superior al exigido en el anuncio de licitación o en la invitación a participar en el procedimiento y en los pliegos del contrato. La ratio entre activo y pasivo podrá tenerse en cuenta si el poder adjudicador especifica en los pliegos de la contratación los métodos y criterios que se utilizarán para valorar este dato. Estos métodos y criterios deberán ser transparentes, objetivos y no discriminatorios.
+
+e) Una declaración jurada del cumplimiento de la normativa vigente en materia de lucha contra la morosidad en las operaciones comerciales.
+
+f) Como medio adicional a los previstos en las letras anteriores de este apartado, el órgano de contratación podrá exigir que el periodo medio de pago a proveedores del empresario, siempre que se trate de una sociedad que no pueda presentar cuenta de pérdidas y ganancias abreviada, no supere el límite que a estos efectos se establezca teniendo en cuenta la normativa sobre morosidad.
+
+3. En los anuncios de contratos, en los pliegos o en las invitaciones de los procedimientos negociados se señalarán los medios de acreditación de la solvencia que se utilizarán de entre los reseñados en el apartado anterior .
+
+4. Si por una razón justificada quien vaya a licitar no se encuentra en condiciones de presentar las referencias solicitadas, podrá acreditar su solvencia económica y financiera por medio de cualquier otro documento que el órgano de contratación considere adecuado.
+
+Artículo 17. Solvencia técnica o profesional Nota de Vigencia.
+
+1. La persona que vaya a resultar propuesta adjudicataria deberá acreditar la solvencia técnica o profesional para la ejecución del contrato. Se entiende por solvencia técnica o profesional la capacitación técnica o profesional para la adecuada ejecución del mismo, bien por disponer de experiencia anterior en contratos similares o por disponer del personal y medios técnicos suficientes. El nivel de solvencia técnica o profesional será específico para cada contrato y su exigencia será adecuada y proporcionada a las características de la prestación contratada Nota de Vigencia.
+
+2. La solvencia técnica o profesional de quien vaya a licitar podrá acreditarse por uno o más de los siguientes medios:
+
+a) Relación de las obras ejecutadas como máximo en el curso de los cinco últimos años, avalada por certificados de buena ejecución de las más importantes donde conste el importe, la fecha y el lugar de ejecución de las obras, con indicación de si se realizaron según las reglas por las que se rige la profesión y si se llevaron normalmente a buen término. Los poderes adjudicadores podrán, previa justificación de las circunstancias que así lo aconsejen, tener en cuenta las pruebas de las obras efectuadas en periodos anteriores Nota de Vigencia.
+
+b) Relación de los principales suministros o de los principales servicios efectuados durante como máximo los tres últimos años en la que se indique el importe, la fecha y el destinatario, público o privado, avalada por cualquier prueba admisible en Derecho. Los poderes adjudicadores podrán, previa justificación de las circunstancias que así lo aconsejen, tener en cuenta las pruebas de los servicios efectuados en periodos anteriores.
+
+c) Indicación del personal técnico u organismos técnicos, estén o no integrados en la empresa, y especialmente los responsables del control de la calidad y, cuando se trate de contratos de obras, aquellos de los que disponga la empresa para la ejecución de las obras.
+
+d) Descripción de las instalaciones técnicas, de las medidas empleadas por el proveedor o por el prestador de servicios para garantizar la calidad y de los medios de estudio e investigación de su empresa.
+
+e) Indicación de los sistemas de gestión de la cadena de suministro y de seguimiento que quien licite podrá aplicar al ejecutar el contrato.
+
+f) Control efectuado por las entidades sometidas a esta ley foral o, en su nombre, por un organismo oficial competente del Estado donde se encuentre establecida la persona física o jurídica, siempre que medie el acuerdo de dicho organismo, cuando se trate de productos o servicios complejos o que excepcionalmente deban responder a un fin particular. Dicho control versará sobre la capacidad de producción del proveedor o sobre la capacidad técnica del prestador de servicios y, si fuera necesario, sobre los medios de estudio e investigación de que dispone, así como sobre las medidas de control de la calidad.
+
+g) Aportación de las titulaciones académicas y profesionales del personal responsable de la ejecución del contrato siempre que no se evalúe como criterio de adjudicación.
+
+h) Indicación de las medidas de gestión medioambiental que quien vaya a licitar es capaz de ejecutar, en los casos en que sea procedente, para la adjudicación de contratos de obras, servicios y suministros.
+
+i) Declaración que indique la plantilla media anual de la empresa o profesional y la descripción del personal directivo durante los tres últimos años.
+
+j) Declaración sobre la maquinaria, el material y el equipo técnico del que dispondrá la empresa o profesional para ejecutar el contrato.
+
+k) Indicación de la parte del contrato que quien licita vaya a subcontratar expresando los subcontratistas que vayan a intervenir de acuerdo con lo dispuesto en esta ley foral.
+
+l) Aportación de muestras, descripciones o fotografías de los productos que se vayan a suministrar, cuya autenticidad pueda certificarse a solicitud de la entidad contratante, o presentación de certificados expedidos por institutos o servicios oficiales encargados del control de calidad, con competencia reconocida, que acrediten detalladamente la conformidad de los productos mediante referencias a especificaciones o normas.
+
+m) En los contratos de suministro se podrá requerir de las empresas una solvencia técnica específica, mediante la que se asegure la trazabilidad de los sistemas de gestión de la cadena de suministro, con el objetivo de garantizar el cumplimiento de las Convenciones fundamentales de la Organización Internacional del Trabajo y los Derechos Humanos. Dicha acreditación será exigible en la adquisición de productos tecnológicos y de productos para los que exista una alternativa en el mercado de comercio justo.
+
+3. En los anuncios de contratos, en los pliegos o en las invitaciones de los procedimientos negociados, se señalarán los medios de acreditación de la solvencia que se utilizarán de entre los reseñados en el apartado anterior Nota de Vigencia.
+
+Artículo 18. Valoración de la solvencia económica y técnica de quien licite, por referencia a otras empresas Nota de Vigencia.
+
+Para acreditar su solvencia, quien licite podrá basarse en la solvencia de otras empresas, independientemente de la naturaleza jurídica de los vínculos que tengan con ellas.
+
+En el supuesto de personas jurídicas dominantes de un grupo de sociedades se podrán tener en cuenta las sociedades pertenecientes al grupo, siempre y cuando aquellas acrediten que tienen efectivamente a su disposición los medios, pertenecientes a dichas sociedades, necesarios para la ejecución de los contratos.
+
+En el supuesto de contratos reservados por motivos sociales regulados en el artículo 36, si quien licita es una Empresa de Inserción Sociolaboral, esta podrá aportar como solvencia la que hubiera tenido como Centro de Inserción Sociolaboral constituido al amparo del Decreto Foral 130/1999, de 26 de abril, por el que se regulan las ayudas económicas para el desarrollo de los programas de incorporación sociolaboral destinados a personas en situación de exclusión social, o al amparo de las normas correspondientes de aplicación en otras comunidades autónomas. A tal efecto la licitadora deberá incorporar un certificado del Servicio Navarro de Empleo-Nafar Lansare o del órgano correspondiente de la Administración que clasifique y registre los centros, haciendo constar que la Empresa de Inserción Sociolaboral continúa con la actividad desarrollada por el Centro de Inserción Sociolaboral Nota de Vigencia.
+
+En el caso de que la solvencia se acredite mediante la subcontratación, quien licita deberá aportar un documento que demuestre la existencia de un compromiso formal con los subcontratistas para la ejecución del contrato, sumándose en este caso la solvencia de todos ellos. Asimismo deberá acreditar, en la forma y condiciones establecidas en los artículos 16 y 17, que los subcontratistas disponen de los medios necesarios para la ejecución del contrato.
+
+Artículo 18 bis. Reutilización de la documentación acreditativa de la aptitud para contratar Nota de Vigencia.
+
+La documentación acreditativa de la capacidad, representación, solvencia y habilitación empresarial o profesional de la que ya dispusiera el órgano de contratación, porque hubiera sido presentada por quien licita en el marco de un procedimiento anterior del que hubiera resultado adjudicatario, podrá ser reutilizada, siempre y cuando no hubiesen variado las circunstancias acreditadas y no hubieran transcurrido tres años desde la adjudicación del procedimiento anterior.
+
+La reutilización de documentación será aplicable dentro del ámbito de cada órgano de contratación. Será solicitada por quien licita en el momento de presentación de la oferta o de la solicitud de participación, indicando el procedimiento anterior del que hubiera resultado adjudicatario y cuya documentación pretenda reutilizar, manifestando que las condiciones acreditadas siguen vigentes.
+
+Una vez examinada la documentación a reutilizar, si se considerase incorrecta o insuficiente, se le requerirá para que la subsane, conforme a lo establecido en el artículo 51.2 de esta ley foral.
+
+Artículo 19. Condiciones especiales de compatibilidad.
+
+1. La persona física o jurídica que hubiera participado en la elaboración de documentos preparatorios del contrato sólo será excluida del procedimiento cuando no haya otro medio para garantizar el cumplimiento del principio de igualdad de trato y de libre concurrencia.
+
+Antes de proceder a la exclusión de la persona que participó en la preparación del contrato, deberá dársele audiencia.
+
+2. El órgano de contratación comunicará a las demás personas interesadas la participación de otro licitador o licitadora en la elaboración de los documentos preparatorios así como la misma información a la que tuvo acceso aquella persona que participó en la fase preparatoria y establecerá plazos adecuados para la presentación de ofertas.
+
+3. Los contratos que tengan por objeto la vigilancia, supervisión, control y dirección de la ejecución de cualesquiera contratos, no podrán adjudicarse a las empresas o profesionales adjudicatarios de los mismos, ni a las empresas a éstas vinculadas.
+
+Artículo 20. Empresas vinculadas.
+
+1. A los efectos de esta ley foral se entiende por empresa vinculada cualquier empresa en la que el contratista ejerza, directa o indirectamente, una influencia dominante por razón de su propiedad, participación financiera o de las normas que la regulan, o la empresa que a su vez ejerza influencia dominante en el contratista.
+
+2. Se presumirá que existe influencia dominante cuando una empresa, directa o indirectamente, disponga de la mayoría del capital social suscrito de otra, de la mayoría de los votos correspondientes a las participaciones emitidas por la empresa o bien, pueda designar a más de la mitad de los miembros del órgano de administración, dirección o de vigilancia de la misma.
+
+Artículo 21. Certificados de garantía de calidad Nota de Vigencia.
+
+1. Cuando se exija la presentación de certificados expedidos por organismos independientes que acrediten que la persona interesada cumple determinadas normas de aseguramiento de la calidad, deberán hacer referencia a los sistemas de aseguramiento de la calidad basados en las normas europeas relativas a certificación que se encuentren en vigor en cada momento.
+
+2. En todo caso, se reconocerán los certificados equivalentes expedidos por organismos autorizados establecidos en otros Estados miembros de la Unión Europea. También se aceptarán otras pruebas de medidas equivalentes de aseguramiento de la calidad que presenten las personas que vayan a licitar que no tengan acceso a dichos certificados o no tengan ninguna posibilidad de obtenerlos en el plazo fijado.
+
+Sección 2.ª. De las causas de exclusión de quien licita
+
+Artículo 22. Prohibiciones de contratar.
+
+1. En ningún caso podrán contratar con las entidades sometidas a esta ley foral, quedando excluidas de la participación en los procedimientos de licitación, las personas o entidades en quienes concurra alguna de las circunstancias siguientes:
+
+a) Haber sido condenadas mediante sentencia firme por delitos de terrorismo, constitución o integración de una organización o grupo criminal, asociación ilícita, financiación ilegal de los partidos políticos, trata de seres humanos, corrupción en los negocios, tráfico de influencias, cohecho, fraudes, delitos contra la Hacienda Pública y la Seguridad Social, delitos contra los derechos de los trabajadores, violencia de género, prevaricación, malversación, negociaciones prohibidas a los funcionarios, blanqueo de capitales, delitos relativos a la ordenación del territorio y el urbanismo, la protección del patrimonio histórico y el medio ambiente, o a la pena de inhabilitación especial para el ejercicio de profesión, oficio, industria o comercio.
+
+La prohibición de contratar alcanzará a las personas jurídicas que sean declaradas penalmente responsables, y a aquellas cuyos administradores o representantes, lo sean de hecho o de derecho, vigente su cargo o representación y hasta su cese, se encontraran en la situación mencionada en este apartado.
+
+b) Haber sido sancionadas con carácter firme por infracción grave en materia profesional que ponga en entredicho su integridad, de disciplina de mercado, de falseamiento de la competencia, de integración laboral y de igualdad de oportunidades y no discriminación de las personas con discapacidad, o de extranjería, o por infracción muy grave en materia medioambiental, social, laboral, o por acoso sexual o acoso por razón de sexo, de conformidad con lo establecido en la normativa vigente, o por no solicitar la afiliación inicial o el alta de los trabajadores que ingresen a su servicio, o solicitar la misma, como consecuencia de actuación inspectora, fuera del plazo establecido. A estos efectos se considerará una infracción por cada uno de los trabajadores afectados, o por las infracciones muy graves previstas en la Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción, o por infracción grave o muy grave en materia de igualdad de trato y no discriminación por razón de orientación e identidad sexual, expresión de género o características sexuales, cuando se acuerde la prohibición en los términos previstos en la Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI Nota de Vigencia.
+
+c) Constar en el registro de sanciones por infracciones muy graves en materia de prevención de riesgos laborales regulado por la Orden Foral 156/2008, de 15 de mayo, del Consejero de Innovación, Empresa y Empleo, por la que se regula la publicación de las sanciones por infracciones muy graves en materia de prevención de riesgos laborales y se crea el correspondiente Registro.
+
+d) Haber solicitado la declaración de concurso voluntario, haber sido declaradas insolventes en cualquier procedimiento, hallarse declaradas en concurso, salvo que en este haya adquirido la eficacia un convenio, estar sujetos a intervención judicial o haber sido inhabilitados conforme a la Ley 22/2003, de 9 de julio, Concursal, sin que haya concluido el período de inhabilitación fijado en la sentencia de calificación del concurso.
+
+e) Estar afectado por una prohibición de contratar impuesta en virtud de sanción administrativa, con arreglo a lo previsto en la Ley Foral 11/2005, de 9 de noviembre, de Subvenciones, o en la Ley Foral 13/2000, de 14 de diciembre, General Tributaria o normativa estatal equivalente.
+
+f) No hallarse al corriente en el cumplimiento de las obligaciones tributarias o de Seguridad Social impuestas por las disposiciones vigentes, en los términos que reglamentariamente se determinen; o en el caso de empresas de 50 o más trabajadores, no cumplir el requisito de que al menos el 2% de sus empleados sean trabajadores con discapacidad, de conformidad con el artículo 42 del Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, en las condiciones que reglamentariamente se determinen; o en el caso de empresas de 50 trabajadores o más, no cumplir con la obligación de contar con un plan de igualdad conforme a lo dispuesto en la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad de mujeres y hombres y que se deberá inscribir en el Registro correspondiente Nota de Vigencia.
+
+g) Estar incursa la persona física o los administradores de la persona jurídica en alguno de los supuestos de la Ley Foral 19/1996, de 4 de noviembre, de incompatibilidades de los miembros del Gobierno de Navarra y de los altos cargos de la Administración de la Comunidad Foral de Navarra, o del Texto Refundido del Personal al Servicio de las Administraciones Públicas de Navarra o tratarse de cualquiera de los cargos electivos regulados en la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, en los términos establecidos en la misma.
+
+La prohibición alcanzará a las personas jurídicas en cuyo capital participen, en los términos y cuantías establecidas en la legislación citada, el personal y los altos cargos de cualquier Administración Pública, así como los cargos electos al servicio de las mismas.
+
+La prohibición se extiende igualmente, en ambos casos, a los cónyuges, personas vinculadas con análoga relación de convivencia afectiva, ascendientes y descendientes, así como a parientes en segundo grado por consanguinidad o afinidad de las personas a que se refieren los párrafos anteriores, cuando se produzca conflicto de intereses con el titular del órgano de contratación o los titulares de los órganos en que se hubiere delegado la facultad para contratar o los que ejerzan la sustitución del primero. La prohibición se extenderá a los descendientes menores de edad en el caso de que las personas citadas ostenten su representación legal.
+
+h) Haber contratado a personas respecto de las que se haya publicado en el “Boletín Oficial del Estado” el incumplimiento a que se refiere el artículo 15.1 la Ley 3/2015, de 30 de marzo, de Reguladora del Ejercicio del Alto Cargo de la Administración General del Estado o en las respectivas normas de las Comunidades Autónomas, por haber pasado a prestar servicios en empresas o sociedades privadas directamente relacionadas con las competencias del cargo desempeñado durante los dos años siguientes a la fecha de cese en el mismo. La prohibición de contratar se mantendrá durante el tiempo que permanezca dentro de la organización de la empresa la persona contratada con el límite máximo de dos años a contar desde el cese como alto cargo.
+
+i) Haber incurrido en falsedad al efectuar la declaración responsable a que se refiere el artículo 55 de esta ley foral o al facilitar cualesquiera otros datos relativos a su capacidad y solvencia, o haber incumplido, por causa que le sea imputable, la obligación de comunicar la información que limite la validez del certificado acreditativo de la personalidad y representación de la empresa inscrita en el Registro Voluntario de Licitadores de Navarra, autorizado por la Junta de Contratación Pública.
+
+j) Haber retirado indebidamente su proposición en un procedimiento de adjudicación, o haber imposibilitado la adjudicación del contrato a su favor por no cumplimentar la documentación exigible para realizar la propuesta de adjudicación a su favor dentro del plazo señalado mediando dolo, culpa o negligencia.
+
+k) Haber dejado de formalizar el contrato, que ha sido adjudicado a su favor, en los plazos previstos en esta ley foral por causa imputable al adjudicatario.
+
+l) Haber incumplido cláusulas de algún contrato anterior, sujeto a esta ley foral, incluyendo las condiciones especiales de ejecución establecidas en los pliegos, cuando dicho incumplimiento hubiese sido definido en los pliegos o en el contrato como infracción grave o muy grave, y siempre que haya dado lugar a la imposición de penalidades o a la indemnización de daños y perjuicios.
+
+m) Haber dado lugar, por causa de la que hubiesen sido declarados culpables, a la resolución firme de un contrato celebrado por cualquiera de los poderes adjudicadores citados en esta ley foral.
+
+2. Las prohibiciones de contratar afectarán también a aquellas empresas de las que, por razón de las personas que las rigen o de otras circunstancias, pueda presumirse que son continuación o que derivan, por transformación, fusión o sucesión, de otras empresas en las que hubiesen concurrido aquellas.
+
+3. Será prueba suficiente de la no concurrencia de la causa de prohibición de contratar establecida en la letra a) del apartado 1 un certificado de antecedentes penales o, en su caso, un documento equivalente expedido por la autoridad judicial o administrativa competente del país de procedencia de la persona física o jurídica que vaya a licitar. En los demás casos será prueba suficiente la presentación de un certificado administrativo o judicial expedido por la autoridad competente del correspondiente Estado miembro de la Unión Europea.
+
+Quien licite podrá sustituir dicho documento por una declaración responsable dirigida a la entidad contratante, en la que manifieste que no concurren en su persona dichas causas de prohibición de contratar.
+
+4. Cuando existan dudas sobre la situación personal de quien licita respecto a la concurrencia de las causas de prohibición de contratar, se le requerirá para que presente los documentos señalados en el apartado anterior y los poderes adjudicadores podrán dirigirse a las autoridades competentes para obtener la información necesaria. Cuando la información se refiera a una persona establecida en otro Estado se podrá solicitar cooperación de este.
+
+Artículo 23. Apreciación de la prohibición de contratar.
+
+1. Las prohibiciones de contratar establecidas en las letras a) y b) del apartado 1 del artículo anterior se ajustarán en su aplicación y alcance a lo previsto en la legislación estatal.
+
+2. Las prohibiciones de contratar establecidas en las letras c), d), e), f), g) y h) del mismo apartado se apreciarán de forma automática por los órganos de contratación y subsistirán mientras concurran las circunstancias que en cada caso las determinan Nota de Vigencia.
+
+3. En los supuestos de las letras i), j), k), l) y m) del artículo anterior, la prohibición de contratar deberá ser declarada de forma expresa por el órgano competente y afectará únicamente a su ámbito de actuación.
+
+4. Las declaraciones de prohibición de contratar señaladas en el apartado anterior se comunicarán a la Junta de Contratación Pública para que, a la vista del daño causado a los intereses públicos y si así procede, proponga al titular del Departamento del Gobierno de Navarra competente en materia de contratación pública su extensión a todos los poderes adjudicadores sometidos a esta ley foral.
+
+5. No obstante lo dispuesto en los apartados anteriores, toda persona que esté incursa en causa de prohibición de contratar, excepto las previstas en la letra a) del apartado 1 del artículo anterior, podrá presentar pruebas de que ha adoptado medidas suficientes para demostrar su fiabilidad. Si dichas pruebas se consideran suficientes, quien licite no quedará excluido del procedimiento de contratación.
+
+A tal efecto, quien vaya a licitar deberá demostrar que ha pagado la indemnización correspondiente por cualquier daño causado y que ha adoptado medidas apropiadas para evitar nuevas infracciones penales o faltas. En todo caso, en relación con lo previsto por la letra f) del apartado 1 del artículo anterior se entenderá que una persona o entidad ha demostrado su fiabilidad si cumple sus obligaciones de pago o celebra un acuerdo vinculante con vistas al pago antes de la propuesta de adjudicación cuando la cuantía adeudada sea inferior al 4% del valor estimado del contrato.
+
+Cuando las medidas se consideren insuficientes, la persona afectada recibirá una motivación de dicha decisión.
+
+Artículo 24. Competencia y Procedimiento para su declaración.
+
+1. En la Administración de la Comunidad Foral, sus Organismos Autónomos y sus entidades vinculadas la competencia para declarar la prohibición de contratar corresponderá al titular del Departamento afectado.
+
+En el resto de Administraciones públicas sometidas a esta ley foral, la competencia para declarar la prohibición de contratar se regirá por lo establecido en su normativa reguladora.
+
+La competencia para la declaración de la prohibición de contratar en los casos en que el poder adjudicador no tenga el carácter de Administración Pública corresponderá al titular del Departamento u organismo al que esté adscrito el poder adjudicador o al que corresponda su tutela. Si el poder adjudicador estuviera vinculado a más de una Administración, será competente el titular del órgano correspondiente de aquella Administración que ostente el control o participación mayoritaria.
+
+2. En el caso de haber incumplido por causa que le sea imputable la obligación de comunicar los datos que afecten a la validez del certificado del Registro Voluntario de Licitadores de Navarra, la competencia para la declaración de la prohibición de contratar corresponderá al Titular del Departamento competente en materia de contratación pública previa propuesta vinculante de la Junta de Contratación Pública.
+
+3. En los casos en que sea necesaria una declaración de prohibición, el alcance y duración de ésta se determinarán siguiendo el procedimiento que en las normas de desarrollo de esta ley foral se establezca, atendiendo, en su caso, a la existencia de dolo o manifiesta mala fe y a la entidad del daño causado a los intereses públicos, sin que su duración pueda exceder de cinco años.
+
+4. El procedimiento para la declaración de la prohibición de contratar no podrá iniciarse si hubiesen transcurrido más de tres años contados a partir de las siguientes fechas:
+
+a) Desde la fecha en que el órgano de contratación hubiera conocido la falsedad, por reconocimiento de la licitadora o porque así hubiera sido declarado de forma definitiva por una autoridad competente, o desde aquella en que hubiera debido comunicarse la correspondiente información al Registro Voluntario de Licitadores, en el caso de la letra i) del artículo 22.1 Nota de Vigencia.
+
+b) En los casos previstos en la letra j) del artículo 22.1, desde la fecha en que se hubiese procedido a la adjudicación del contrato, si la causa es la retirada indebida de proposiciones; o desde la fecha en que hubiese debido procederse a la adjudicación.
+
+c) En el caso previsto en la letra k) del artículo 22.1, desde la fecha en que hubiera debido procederse a la formalización del contrato.
+
+d) En el caso previsto en la letra l) del artículo 22.1, desde que la entidad contratante tuvo conocimiento del incumplimiento de las condiciones esenciales del contrato, incluyéndose el incumplimiento de las condiciones especiales de ejecución del contrato, cuando así se hubiera establecido en el Pliego.
+
+e) Desde la fecha en que fuese firme la resolución del contrato en el caso previsto en la letra m) del artículo 22.1.
+
+5. En los procedimientos que sigan las Administraciones Públicas sometidas a esta ley foral para declarar la prohibición de contratar la Junta de Contratación Pública formulará propuesta de resolución vinculante, previa iniciación del procedimiento por el órgano de contratación.
+
+En aquellos casos en que la Junta de Contratación tenga conocimiento, por cualquier medio, de la posible existencia de causas de prohibición de contratar, podrá iniciar el expediente de oficio y requerir a la entidad o entidades afectadas la colaboración necesaria para instruir el expedienteNota de Vigencia.
+
+6. Serán igualmente aplicables en la Comunidad Foral las declaraciones de prohibición de contratar que sean acordadas por la Administración General del Estado o, si el ámbito de la prohibición declarada fuese autonómico o local no navarro, dotadas de eficacia general por aquella Administración.
+
+Artículo 25. Extensión de efectos de la prohibición de contratar e inscripción en el Registro Voluntario de Licitadores.
+
+1. Se notificarán a la Junta de Contratación Pública, todas las sentencias, sanciones y resoluciones firmes recaídas en los procedimientos correspondientes, a fin de que se puedan instruir los expedientes de extensión de la prohibición de contratar, inscribir dicha prohibición en el Registro Voluntario de Licitadores o adoptar la decisión que proceda.
+
+De igual forma, la Junta de Contratación Pública comunicará a la Junta Consultiva de Contratación Administrativa del Estado y a los órganos competentes de las Comunidades Autónomas las sanciones y resoluciones firmes adoptadas en el ámbito de la Comunidad Foral que puedan implicar una prohibición de contratar.
+
+Asimismo, la Junta Consultiva de Contratación Administrativa de la Administración General del Estado podrá recabar cuantos datos y antecedentes sean precisos para la instrucción de los expedientes de prohibición de contratar.
+
+En la forma y plazos que se determinen reglamentariamente, la Junta de Contratación Pública remitirá a las Administraciones incluidas en el ámbito de aplicación de esta ley foral relación de las personas físicas o jurídicas incursas en prohibición de contratar.
+
+2. Las prohibiciones de contratar, se inscribirán en el Registro Voluntario de Licitadores de Navarra, cuando el ámbito de la prohibición de contratar y el órgano que la haya declarado esté dentro de las entidades sujetas a esta la Ley Foral de Contratos. Dicha inscripción caducará pasados tres meses desde que termine su duración, debiendo procederse de oficio a su cancelación en el Registro una vez transcurrido el plazo indicado.
+
+Artículo 26. Especialidades de incompatibilidades en la Administración Local.
+
+En las Entidades Locales de Navarra cuya población sea inferior a 2.000 habitantes, en aquellos procedimientos de contratación en los que los únicos trámites exigibles sean la previa reserva de crédito, conforme a la legislación presupuestaria aplicable, y la presentación de la correspondiente factura, la existencia de incompatibilidad en los cargos electivos locales determinará únicamente la concurrencia de una causa de abstención.
+
+CAPÍTULO III. Tipología de los contratos y régimen jurídico
+
+Artículo 27. Calificación de los contratos.
+
+El régimen jurídico de los contratos públicos y su calificación como obras, concesión de obras, concesión de servicios, suministros o servicios se determinarán de acuerdo con las normas contenidas en este capítulo.
+
+Sección 1.ª. Definición de los contratos sometidos a esta Ley Foral
+
+Artículo 28. Definición del contrato de obras.
+
+1. El contrato de obras es aquel cuyo objeto sea:
+
+a) La ejecución, o bien conjuntamente el proyecto y la ejecución, de obras relativas a una de las actividades mencionadas en el Anexo I de esta ley foral.
+
+b) La realización, por cualquier medio, de una obra que responda a las necesidades especificadas por el sujeto contratante.
+
+2. Por “obra” se entenderá el resultado de un conjunto de trabajos de construcción o de ingeniería civil, destinado a cumplir por sí mismo una función económica o técnica.
+
+Artículo 29. Definición del contrato de suministros.
+
+1. El contrato de suministros es aquel cuyo objeto sea la compra de productos, su arrendamiento financiero, su arrendamiento o su venta a plazos, con o sin opción de compra. Igualmente, se considerará un contrato de suministros aquel cuyo objeto sea el suministro de productos y, de forma accesoria, obras de colocación e instalación.
+
+2. En todo caso, se considerarán contratos de suministros los siguientes:
+
+a) Los que tengan por objeto la adquisición y el arrendamiento de equipos y sistemas de telecomunicaciones o para el tratamiento de la información, sus dispositivos y programas, y la cesión del derecho de uso de estos últimos, a excepción de los contratos de adquisición de programas de ordenador desarrollados a medida, que se considerarán contratos de servicios.
+
+b) Los de fabricación, por los que la cosa o cosas que hayan de ser entregadas por la empresa deban ser elaboradas con arreglo a características peculiares fijadas previamente por la entidad contratante, aun cuando ésta se obligue a aportar, total o parcialmente, los materiales precisos.
+
+c) Aquellos en los que el empresario se obligue a entregar una pluralidad de bienes de forma sucesiva y por precio unitario sin que la cuantía total se defina con exactitud al tiempo de celebrar el contrato, por estar subordinadas las entregas a las necesidades del adquirente.
+
+3. Se regirán por su legislación específica las adquisiciones de bienes que integran el Patrimonio Histórico Español.
+
+Artículo 30. Definición del contrato de servicios.
+
+1. El contrato de servicios es aquel cuyo objeto sea distinto del contrato de obras o de suministros, mediante el que se encarga por un precio a una empresa o profesional la prestación de un servicio, incluyendo aquellos en los que el adjudicatario se obligue a ejecutar el servicio de forma sucesiva y por precio unitario.
+
+2. Los servicios se prestarán al contratante o bien, por cuenta del contratante, a un tercero o al público en general.
+
+3. No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos.
+
+Artículo 31. Definición del contrato de concesión de obras públicas.
+
+El contrato de concesión de obras públicas es aquel cuyo objeto sea el mismo que el del contrato de obras, en el que la retribución consiste, o bien únicamente en el derecho a explotar la obra, o bien en dicho derecho acompañado de un precio, transfiriendo al concesionario el riesgo operacional.
+
+Artículo 32. Definición del contrato de concesión de servicios.
+
+El contrato de concesión de servicios es aquel cuyo objeto sea la prestación de un servicio en el que la retribución consiste, o bien únicamente en el derecho a explotar el servicio, o bien en dicho derecho acompañado de un precio, transfiriendo al concesionario el riesgo operacional.
+
+Artículo 33. Contratos mixtos.
+
+1. Se entenderá por contrato mixto aquel que contenga prestaciones correspondientes a otro u otros de distinta clase. La determinación de las normas que regirán su adjudicación se hará de la siguiente manera:
+
+a) Cuando el contrato contenga prestaciones propias de dos o más de los contratos siguientes: obras, servicios o suministros que estén sujetos a esta ley foral, se atenderá al carácter de la prestación principal.
+
+b) Cuando el contrato mixto contenga prestaciones de los contratos de obras, suministros o servicios, por una parte, y contratos de concesiones de obras o concesiones de servicios, de otra, se actuará del siguiente modo:
+
+1.º Si las distintas prestaciones no son separables se atenderá al carácter de la prestación principal.
+
+2.º Si las distintas prestaciones son separables y se decide adjudicar un contrato único, se aplicarán las normas relativas a los contratos de obras, suministros o servicios cuando el valor estimado de las prestaciones correspondientes a estos contratos sea igual o superior al umbral europeo. En otro caso, se aplicarán las normas relativas a los contratos de concesión de obras y servicios.
+
+2. Cuando el contrato mixto contemple prestaciones de contratos regulados en esta ley foral con prestaciones de otros contratos distintos de los regulados en la misma, para determinar las normas aplicables a su adjudicación se atenderá a las siguientes reglas:
+
+a) Si las distintas prestaciones no son separables se atenderá al carácter de la prestación principal.
+
+b) Si las prestaciones son separables y se decide celebrar un único contrato se aplicarán las normas contenidas en esta ley foral.
+
+3. En los contratos mixtos se aplicará el régimen jurídico de cada prestación en la medida que sea compatible con la prestación principal.
+
+4. Solo podrá celebrarse un contrato mixto cuando las prestaciones que lo componen se encuentren directamente vinculadas entre sí y exijan su consideración como una unidad funcional dirigida a la satisfacción de una determinada necesidad.
+
+Sección 2.ª. Régimen jurídico de los contratos públicos
+
+Artículo 34. Régimen jurídico de los contratos Nota de Vigencia.
+
+1. El régimen jurídico de los contratos que celebren las Administraciones Públicas tendrá carácter administrativo salvo que la ley disponga otra cosa.
+
+Estos contratos se regirán en cuanto a su preparación, adjudicación, efectos y extinción, por esta ley foral y sus disposiciones reglamentarias. Supletoriamente se aplicarán las restantes normas de derecho administrativo y, en su defecto, las normas de derecho privado.
+
+El órgano de contratación ostenta la prerrogativa de interpretar los contratos, resolver las dudas que ofrezca su cumplimiento, acordar su resolución y determinar los efectos de ésta. Los acuerdos adoptados en el uso de estas prerrogativas podrán ser objeto de reclamación o recurso de conformidad con lo dispuesto en esta ley foral y las restantes normas de derecho administrativo.
+
+Los contratos privados de la Administración se regirán, en cuanto a su preparación y adjudicación, en defecto de normas administrativas específicas, por la presente ley foral y sus disposiciones de desarrollo y en lo que respecta a sus efectos y extinción, por las normas de derecho privado.
+
+Las autorizaciones y concesiones sobre bienes de dominio público, los contratos de explotación de bienes patrimoniales así como los contratos de compraventa, donación, arrendamiento, permuta y demás negocios jurídicos análogos sobre bienes inmuebles, propiedades incorporales y valores negociables se regirán por la legislación patrimonial. Igualmente se regirán por la legislación patrimonial las adquisiciones de bienes que integran el Patrimonio Histórico Español.
+
+2. El régimen jurídico de los contratos que celebren los poderes adjudicadores que no reúnan la condición de Administración Pública será el siguiente:
+
+a) En cuanto a su preparación y adjudicación, los contratos se regirán por esta ley foral.
+
+b) En lo relativo a efectos y extinción les serán de aplicación las normas de Derecho Privado, salvo lo establecido en esta ley foral sobre condiciones especiales de ejecución, modificación y subcontratación.
+
+3. El régimen jurídico de los contratos celebrados por entidades que no son poderes adjudicadores que, de conformidad a lo dispuesto en el artículo 5 de esta ley foral, están sometidos a la misma por razón de su objeto, se regirán por lo dispuesto en el apartado 2 de este artículo.
+
+4. Los contratos que celebren el resto de entidades públicas que no tengan la consideración de poder adjudicador, deberán respetar en su adjudicación los principios de igualdad, no discriminación, transparencia, publicidad y libre concurrencia.
+
+5. En el caso de actuaciones, sometidas a las disposiciones de esta ley foral, realizadas por entidades vinculadas o dependientes de las Administraciones Públicas en el sentido del artículo 4.1.e), se impugnarán en vía administrativa de conformidad con lo dispuesto en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, ante el titular del departamento, órgano, ente u organismo al que esté adscrita la entidad contratante o al que corresponda su tutela. Si la entidad contratante estuviera vinculada a más de una Administración, será competente el órgano correspondiente de la que ostente el control o participación mayoritaria.
+
+Artículo 35. Jurisdicción competente.
+
+1. Conforme a lo dispuesto en la Ley reguladora de la Jurisdicción Contencioso-Administrativa, se podrá interponer recurso contencioso-administrativo contra los acuerdos que poniendo fin a la vía administrativa versen sobre las siguientes cuestiones:
+
+a) La preparación y adjudicación de los contratos sometidos a esta ley foral.
+
+b) Los efectos y extinción de los contratos públicos realizados por poderes adjudicadores con la consideración de Administración Pública.
+
+c) Las controversias que surjan en los contratos públicos celebrados por poderes adjudicadores que no tengan la consideración de Administración Pública relativas a modificaciones contractuales, subcontratación y condiciones especiales de ejecución.
+
+d) Las modificaciones contractuales, subcontratación y condiciones especiales de ejecución en aquellos contratos contemplados en el artículo 5 de esta ley foral.
+
+e) Los recursos interpuestos contra las resoluciones que se dicten por el Tribunal Administrativo de Contratos Públicos de Navarra resolviendo las reclamaciones especiales en materia de contratación reguladas en esta ley foral.
+
+2. El orden jurisdiccional civil, de acuerdo con su normativa reguladora, será el competente para resolver las controversias que surjan en relación con la ejecución y extinción de los contratos públicos realizados por poderes adjudicadores que no tengan la consideración de Administración Pública, con las excepciones previstas en el apartado 1 de este artículo.
+
+3. El orden jurisdiccional civil, de acuerdo con su normativa reguladora, será el competente para resolver las controversias que surjan en relación con la ejecución y extinción de los contratos públicos realizados por entidades que no son poderes adjudicadores que, de conformidad a lo dispuesto en el artículo 5 de esta ley foral, están sometidos a la misma por razón de su objeto, con las excepciones previstas en el apartado 1 de este artículo.
+
+4. El orden jurisdiccional civil, de acuerdo con su normativa reguladora, será el competente para resolver las controversias que surjan en relación con los contratos celebrados por entidades públicas que no tengan la consideración de poder adjudicador.
+
+5. En el caso de actuaciones realizadas por entidades vinculadas o dependientes de las Administraciones Públicas en el sentido del artículo 4.1 e) aquellas se impugnarán en vía administrativa de conformidad con lo dispuesto en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, ante el titular del departamento, órgano, ente u organismo al que esté adscrita la entidad contratante o al que corresponda su tutela. Si la entidad contratante estuviera vinculada a más de una Administración, será competente el órgano correspondiente de la que ostente el control o participación mayoritaria.
+
+Sección 3.ª. De los contratos con régimen especial
+
+Artículo 36. Contratos reservados por motivos sociales.
+
+1. Los poderes adjudicadores deberán reservar la participación en los correspondientes procedimientos de adjudicación de contratos de servicios, obras, suministros y concesión de servicios a Centros Especiales de Empleo sin ánimo de lucro o Centros Especiales de Empleo de Iniciativa social, Empresas de Inserción o a entidades sin ánimo de lucro, promotoras al 100% de Empresas de Inserción, que hubieran sido calificadas con anterioridad como Centro de Inserción Sociolaboral Nota de Vigencia.
+
+2. La reserva podrá afectar al objeto íntegro del contrato o sólo a uno o varios de los lotes del mismo. En todo caso, será necesario que las prestaciones se adecuen a las peculiaridades de tales entidades.
+
+La reserva podrá realizarse para todas o alguna de las tipologías de entidades del apartado 1.
+
+3. En el ámbito de sectores objeto de contratación centralizada, los órganos de contratación podrán contratar al margen de la misma si optan por reservar el contrato, siempre que los pliegos del correspondiente procedimiento de contratación centralizada hayan previsto esta excepción.
+
+4. El importe de los contratos reservados será de un 6% como mínimo del importe de los contratos adjudicados en el ejercicio presupuestario inmediatamente anterior.
+
+5. Todas las entidades sometidas a esta ley foral deberán fijar y publicar las condiciones para alcanzar el cumplimiento del 6% de reserva con los contratos que prevean adjudicar cada ejercicio y previo análisis de la posibilidad de reservar dividiendo en lotes. En el caso en que se prevea no poder alcanzarlo, deberán establecer las alternativas para conseguir los fines propios de estas reservas.
+
+Entre las alternativas, podrá acordarse exigir una de las siguientes condiciones al contratista principal en aquellos contratos en que no quepa la reserva:
+
+- Que subcontrate con un CEE sin ánimo de lucro, un CEE de iniciativa social o una Empresa de Inserción aquellos servicios accesorios que sí presten este tipo de empresas.
+
+- Que en caso de necesitar sustituir o contratar más personal, acredite haber remitido a los servicios de empleo y/o agencias de colocación o al Departamento de Derechos Sociales la oferta de empleo para cubrir dichos puestos con personas con discapacidad o en situación de exclusión social.
+
+- Que organice prácticas laborales para personas con discapacidad o en situación de exclusión social.
+
+6. En el anuncio de licitación deberá hacerse referencia a la reserva del contrato por motivos sociales prevista en este artículo.
+
+7. Cuando, tras haberse seguido un procedimiento de un contrato reservado, no se haya presentado ninguna oferta o las ofertas no sean adecuadas, se podrá licitar de nuevo el contrato sin efectuar la reserva inicialmente prevista, siempre que no se modifiquen sustancialmente las condiciones iniciales del mismo. No obstante, el importe de dicho contrato computará a efectos de integrar el porcentaje establecido en el apartado 4 de este artículo.
+
+8. En los contratos reservados no se exigirá la constitución de garantías, sean provisionales o definitivas, salvo que, de forma excepcional, se motive su necesidad en el expediente.
+
+9. El porcentaje máximo de contratación que se permitirá en los contratos reservados será del 20% del precio del contrato, salvo que la subcontratación se realice con otro Centro Especial de Empleo o Empresa de Inserción, o con la entidad promotora de la Empresa de Inserción adjudicataria del contrato, siempre que la entidad hubiera sido calificada con anterioridad como Centro de Inserción Sociolaboral y el porcentaje de trabajadores de la misma que hayan estado sometidos a procesos de inserción sea como mínimo del 50 por 100, en cuyo caso se aplicará el régimen general de subcontratación previsto en esta Ley Foral Nota de Vigencia.
+
+10. Todas las entidades que forman parte del sector público foral deberán publicar con carácter anual el listado y el importe total de los contratos reservados a Centros Especiales de Empleo y Empresas de Inserción.
+
+Artículo 37. Reglas especiales para los contratos en los ámbitos sanitarios, sociales, culturales y educativos.
+
+La adjudicación de contratos en los ámbitos sanitario, social, cultural o educativo comprendidos en el Anexo II.A) de esta ley foral se realizará mediante las reglas siguientes:
+
+a) El anuncio de licitación se publicará conforme a lo establecido en el artículo 89 de esta ley foral.
+
+b) Se podrá exigir una cualificación subjetiva especial que acredite la experiencia, calidad y disponibilidad de medios adecuados para cumplir con la prestación.
+
+c) En los supuestos de prestaciones de atención directa a personas en situaciones de exclusión social, violencia de género o de aquellas prestaciones que en cada momento la normativa foral de servicios sociales incluya dentro del sistema público de servicios sociales de Navarra, se podrá exigir como requisito de admisión que las empresas o profesionales acrediten la posesión efectiva de medios y experiencia para la satisfacción de las necesidades específicas de las distintas categorías de usuarios, incluidos los grupos desfavorecidos y vulnerables, la implicación y la corresponsabilización de los usuarios, así como las soluciones de innovación que aporten mayor valor añadido al servicio.
+
+d) Se atenderá como criterio de adjudicación para determinar la oferta con la mejor relación calidad precio, al mayor valor añadido de la oferta desde la perspectiva de calidad y de garantía de continuidad, accesibilidad, asequibilidad, disponibilidad y exhaustividad de los servicios.
+
+Artículo 38. Contratos reservados en los ámbitos sanitarios, sociales, culturales y educativos.
+
+1. Los poderes adjudicadores podrán reservar aquellos contratos previstos en el Anexo II.B de esta ley foral, en los ámbitos sanitarios, sociales, culturales y educativos a las organizaciones que cumplan todas las condiciones siguientes:
+
+a) Que entre sus objetivos o fines esté la prestación de servicios de los contemplados en el Anexo II.B de esta ley foral.
+
+b) Que los beneficios se reinviertan con el fin de alcanzar el objetivo de la organización; en caso de que se distribuyan o redistribuyan beneficios, la distribución o redistribución deberá basarse en consideraciones de participación.
+
+c) Que las estructuras de dirección o propiedad de la organización que ejecute el contrato se basen en la propiedad de los empleados o en principios de participación o exijan la participación activa de los empleados, los usuarios o las partes interesadas.
+
+2. En los contratos de más de 750.000 euros además deberán cumplirse las siguientes condiciones:
+
+a) La duración máxima del contrato, incluidas sus posibles prórrogas, no excederá de tres años.
+
+b) Que el poder adjudicador de que se trate no haya adjudicado a la organización un contrato para los mismos servicios con arreglo al presente artículo en los tres años precedentes con un importe superior a 750.000 euros.
+
+3. La adjudicación de estos contratos se llevará a cabo de acuerdo con lo previsto en el artículo 37 de esta ley foral. En los anuncios de licitación correspondientes deberá hacerse referencia a la reserva en el ámbito sanitario, social, cultural o educativo prevista en este artículo.
+
+4. El importe de los contratos reservados en los ámbitos sanitarios, sociales, culturales y educativos será de un 1% como mínimo del importe de los contratos adjudicados en el ejercicio presupuestario inmediatamente anterior.
+
+5. Deberán resultar beneficiarias de contratos reservados conforme a este artículo las entidades de economía social, de economía solidaria y sin ánimo de lucro.
+
+CAPÍTULO IV. Principios y reglas de la gestión contractual de los contratos públicos
+
+Artículo 39. Objeto del contrato.
+
+1. El objeto del contrato celebrado al amparo de esta Ley Foral deberá ser determinado.
+
+2. Cuando una o varias prestaciones relacionadas entre sí sean susceptibles de utilización o aprovechamiento separado, o lo exija la naturaleza del objeto, podrá preverse la contratación independiente de cada una de ellas, mediante la articulación de lotes dentro del mismo procedimiento, siempre que cada una de ellas constituya una unidad funcional Nota de Vigencia.
+
+3. No podrá fraccionarse el objeto de un contrato para disminuir la cuantía del mismo y eludir así los requisitos de publicidad o el procedimiento de adjudicación que corresponda Nota de Vigencia.
+
+Artículo 40. Estudios de viabilidad.
+
+Antes de comenzar la tramitación del contrato se realizará un estudio de viabilidad para aquellas contrataciones cuyo valor estimado sea superior a 5.000.000 euros y sean susceptibles de explotación posterior. En los contratos de concesión de obras y servicios el estudio de viabilidad será obligatorio en todo caso. El estudio de viabilidad valorará, entre otros aspectos, la sostenibilidad y rentabilidad económica, financiera y social de la inversión y en particular el impacto de género. En los casos necesarios, el estudio de viabilidad incorporará un estudio de gastos de explotación por un período mínimo de diez años.
+
+Artículo 41. El diseño de lotes.
+
+1. Con carácter general los contratos se dividirán en lotes y alguno de ellos deberá reservarse a la participación de las entidades previstas en el artículo 36 de esta ley foral. Cuando el órgano de contratación decida no dividir en lotes el objeto del contrato, o decida no calificar como reservado ninguno de los lotes, deberá justificarlo.
+
+2. Cuando se proceda a la división en lotes, las normas procedimentales y de publicidad que deben aplicarse en la adjudicación de cada lote o prestación diferenciada se determinarán en función del valor acumulado del conjunto, salvo que se dé alguna de las excepciones contempladas en el artículo 7 Nota de Vigencia.
+
+3. En los contratos adjudicados por lotes cada lote constituirá un contrato salvo que se establezca otra previsión en el pliego. En los casos en que se presenten ofertas integradoras de más de un lote, éstos constituirán un único contrato.
+
+4. Son motivos válidos a efectos de justificar la no división en lotes del objeto del contrato, entre otros, los siguientes:
+
+a) Que la división pudiera conllevar el riesgo de restringir la competencia.
+
+A los efectos de aplicar este criterio, el órgano de contratación deberá solicitar informe previo a la autoridad de defensa de la competencia correspondiente de la Comunidad Foral para que se pronuncie sobre la apreciación de dicha circunstancia.
+
+b) Que la realización independiente de las diversas prestaciones comprendidas en el objeto del contrato pudiera dificultar la correcta ejecución del mismo desde el punto de vista técnico; o que la naturaleza del objeto implique la necesidad de coordinar la ejecución de las diferentes prestaciones.
+
+A los efectos de aplicar este criterio y en el caso de que el poder adjudicador sea una entidad de las recogidas en el artículo 4.1 e), deberá solicitar informe previo a la Administración Pública de la que dependa Nota de Vigencia.
+
+5. El pliego podrá establecer las siguientes limitaciones:
+
+a) El número de lotes para los que una misma persona física o jurídica puede presentar oferta.
+
+b) El número de lotes que pueden adjudicarse a cada persona licitadora.
+
+6. Cuando el órgano de contratación considere oportuno introducir alguna de las dos limitaciones a que se refieren las letras a) y b) del apartado anterior, deberá indicarlo expresamente en el pliego.
+
+Cuando se introduzca la limitación a que se refiere la letra b) del apartado anterior, además deberán incluirse los criterios o normas que se aplicarán en el supuesto de que una persona realice la oferta con la mejor relación calidad precio para un número de lotes que exceda el máximo indicado.
+
+7. Cuando el órgano de contratación permita que pueda adjudicarse más de un lote a la misma persona, podrá adjudicar combinaciones de lotes, siempre y cuando se cumplan todos y cada uno de los requisitos siguientes:
+
+a) Que esta posibilidad se hubiere establecido en el pliego que rija el contrato. Dicha previsión deberá concretar la combinación o combinaciones que se admitirán, en su caso, así como la solvencia y capacidad exigida en cada una de ellas.
+
+b) Que previamente se lleve a cabo una evaluación comparativa para determinar si las ofertas presentadas por una persona concreta para una combinación particular de lotes cumpliría mejor, en conjunto, los criterios de adjudicación establecidos en el pliego con respecto a dichos lotes, que las ofertas presentadas para los lotes separados de que se trate, considerados aisladamente.
+
+Artículo 42. Método para calcular el valor estimado de los contratos públicos, de los acuerdos marco y de los sistemas dinámicos de adquisición.
+
+1. A todos los efectos previstos en esta ley foral, el valor estimado de los contratos vendrá determinado por su importe total, sin incluir el IVA.
+
+La elección del método para calcular el valor estimado no podrá efectuarse con la intención de sustraer el contrato a la aplicación de las normas de publicidad y adjudicación que correspondan.
+
+2. En el cálculo del valor estimado deberán tenerse en cuenta:
+
+a) El importe de la licitación, que comprenderá como mínimo los costes derivados de la aplicación de los convenios colectivos sectoriales de aplicación y normativa laboral vigente, otros costes que se deriven de la ejecución material del contrato, los gastos generales de estructura y el beneficio industrial.
+
+b) Cualquier forma de opción eventual y las eventuales prórrogas del contrato.
+
+c) Las primas o pagos a participantes.
+
+d) La totalidad de las modificaciones al alza previstas calculadas sobre el importe de la licitación.
+
+3. Cuando un poder adjudicador esté compuesto por unidades funcionales separadas, se tendrá en cuenta el valor total estimado para todas las unidades funcionales individuales.
+
+No obstante lo anterior, cuando una unidad funcional separada sea responsable de manera autónoma respecto de su contratación o de determinadas categorías de ella, los valores pueden estimarse al nivel de la unidad de que se trate.
+
+Se entenderá que se da la circunstancia aludida en el párrafo anterior cuando dicha unidad funcional separada cuente con financiación específica y con competencias respecto a la adjudicación del contrato.
+
+4. El cálculo del valor estimado deberá hacerse teniendo en cuenta los precios habituales en el mercado, y será válida al momento del envío del anuncio de licitación o, en caso de que no se requiera un anuncio de este tipo, al momento en que el órgano de contratación inicie el procedimiento de adjudicación del contrato.
+
+En los contratos en que el coste de los salarios de las personas empleadas para su ejecución formen parte del precio total del contrato, el presupuesto base de licitación indicará de forma desglosada y con desagregación por categoría profesional los costes salariales estimados a partir del convenio laboral de referencia.
+
+5. En los contratos de obras y de concesión de obras públicas, el cálculo del valor estimado debe tener en cuenta el importe de las mismas así como el valor total estimado de los suministros y servicios necesarios para su ejecución que hayan sido puestos a disposición del contratista por el poder adjudicador.
+
+6. Adicionalmente a lo previsto en el apartado anterior, en el cálculo del valor estimado de los contratos de concesión de obras y de concesión de servicios se tendrán en cuenta, cuando proceda, los siguientes conceptos:
+
+a) La renta procedente del pago de tasas y multas por los usuarios de las obras o servicios, distintas de las recaudadas en nombre del poder adjudicador.
+
+b) Los pagos o ventajas financieras, cualquiera que sea su forma, concedidos al concesionario por el poder adjudicador o por cualquier otra autoridad pública, incluida la compensación por el cumplimiento de una obligación de servicio público y subvenciones a la inversión pública.
+
+c) El valor de los subsidios o ventajas financieras, cualquiera que sea su forma, procedentes de terceros a cambio de la ejecución de la concesión.
+
+d) El precio de la venta de cualquier activo que forme parte de la concesión.
+
+e) El valor de todos los suministros y servicios que el poder adjudicador ponga a disposición del concesionario, siempre que sean necesarios para la ejecución de las obras o la prestación de servicios.
+
+7. En los contratos de suministros que tengan por objeto el arrendamiento financiero, el arrendamiento o la venta a plazos de productos, el valor que se tomará como base para calcular el valor estimado del contrato será el siguiente:
+
+a) En el caso de contratos de duración determinada, cuando su duración sea igual o inferior a doce meses, el valor total estimado para la duración del contrato; cuando su duración sea superior a doce meses, su valor total, incluido el importe estimado del valor residual.
+
+b) En el caso de contratos de duración indeterminada, el valor mensual multiplicado por 48.
+
+8. En los contratos de suministros o de servicios que tengan un carácter periódico, o en contratos que se deban renovar en un período de tiempo determinado, se tomará como base para el cálculo del valor estimado del contrato alguna de las siguientes cantidades:
+
+a) El valor real total de los contratos sucesivos similares adjudicados durante el ejercicio precedente o durante los doce meses previos, ajustado, cuando sea posible, en función de los cambios de cantidad o valor previstos para los doce meses posteriores al contrato inicial.
+
+b) El valor estimado total de los contratos sucesivos adjudicados durante los doce meses siguientes a la primera entrega o en el transcurso del ejercicio, si éste fuera superior a doce meses.
+
+9. En los contratos de servicios, a los efectos del cálculo de su valor estimado, se tomarán como base, las siguientes cantidades:
+
+a) En los servicios de seguros, la prima pagadera y otras formas de remuneración.
+
+b) En servicios bancarios y otros servicios financieros, los honorarios, las comisiones, los intereses y otras formas de remuneración.
+
+c) En los contratos relativos a un proyecto, los honorarios, las comisiones pagaderas y otras formas de remuneración, así como las primas o contraprestaciones que, en su caso, se fijen para los participantes en el concurso.
+
+d) En los contratos de servicios en que no se especifique un importe total, si tienen una duración determinada igual o inferior a cuarenta y ocho meses, el valor total estimado correspondiente a toda su duración. Si la duración es superior a cuarenta y ocho meses o indeterminada, el importe mensual multiplicado por 48.
+
+10. En la adjudicación simultánea de contratos por lotes separados, se deberá tener en cuenta el valor estimado de la totalidad de dichos lotes.
+
+No obstante lo dispuesto en los apartados 7 y 8 los poderes adjudicadores podrán adjudicar contratos por lotes individuales sin aplicar las normas de publicidad previstas para los contratos de valor estimado igual o superior al umbral europeo siempre que el valor estimado, IVA excluido, del lote de que se trate sea inferior a 80.000 euros, para los suministros o servicios, o a 1.000.000 euros para las obras. Sin embargo, el valor acumulado de los lotes adjudicados de este modo, sin aplicar las normas de publicidad previstas para los contratos de valor estimado igual o superior al umbral europeo, no superará el 20% del valor acumulado de la totalidad de los lotes en que se haya dividido la obra propuesta, la adquisición de suministros similares prevista o el proyecto de prestación de servicios.
+
+11. Para los acuerdos marco y para los sistemas dinámicos de adquisición se tendrá en cuenta el valor máximo estimado del conjunto de contratos contemplados durante la duración total del acuerdo marco o del sistema dinámico de compra.
+
+12. En el procedimiento de asociación para la innovación se tendrá en cuenta el valor máximo estimado de las actividades de investigación y desarrollo que esté previsto que se realicen a lo largo de la duración total de la asociación, y de los suministros, servicios u obras que esté previsto que se ejecuten o adquieran al final de la asociación prevista.
+
+Artículo 43. Precio y financiación de los contratos.
+
+1. Los contratos tendrán un precio cierto y adecuado al mercado, que se abonará al contratista en función de la prestación realmente ejecutada y de acuerdo con lo pactado.
+
+2. En los contratos podrá preverse que la totalidad o parte del precio sea satisfecho en moneda distinta del euro. En este supuesto se expresará en la correspondiente divisa el importe que deba satisfacerse en esa moneda, y se incluirá una estimación en euros del importe total del contrato.
+
+3. Siempre que en el texto de esta ley foral se haga alusión al importe de los contratos, se entenderá que en los mismos no está incluido el Impuesto sobre el Valor Añadido, salvo indicación expresa en contrario.
+
+En los contratos que se celebren por precios unitarios, sin que la cuantía total se defina con exactitud al tiempo de la licitación, el importe de licitación será el resultante de multiplicar el precio máximo por unidad por el número de unidades estimadas para el periodo inicial del contrato, excluidas modificaciones, opciones y prórrogas. En este caso, se considerará importe de adjudicación el resultado de multiplicar el precio unitario ofertado, por el número de unidades estimadas de consumo, calculadas a efectos de determinar el valor estimado del contrato, excluidas las posibles prórrogas y modificaciones u opciones del contrato Nota de Vigencia.
+
+4. Los precios fijados en el contrato podrán ser revisados o actualizados al alza o a la baja, en los términos previstos en esta ley foral si se trata de contratos de las Administraciones Públicas, o en la forma pactada en el contrato, en otro caso, para tener en cuenta las variaciones económicas que acaezcan durante la ejecución del contrato.
+
+5. Los órganos de contratación cuidarán de que el precio sea el adecuado para el efectivo cumplimiento del contrato mediante la correcta estimación de su importe, atendiendo al precio general del mercado, en el momento de fijar el presupuesto base de licitación y la aplicación, en su caso, de las normas sobre ofertas con valores anormales o desproporcionados.
+
+En aquellas adjudicaciones en los que se deba calcular los costes laborales, deberán considerarse los términos económicos del convenio colectivo sectorial del ámbito más inferior existente de aplicación en el sector en el que se encuadre la actividad a contratar.
+
+6. Cuando su naturaleza y objeto lo permitan, los contratos podrán incluir cláusulas de variación de precios en función del cumplimiento de determinados objetivos de plazos o de rendimiento, así como penalizaciones por incumplimiento de cláusulas contractuales, debiendo determinar con precisión los supuestos en que se producirán estas variaciones y las reglas para su determinación.
+
+7. Excepcionalmente pueden celebrarse contratos con precios provisionales cuando, tras la tramitación de un procedimiento negociado o de un diálogo competitivo, se ponga de manifiesto que la ejecución del contrato debe comenzar antes de que la determinación del precio sea posible por la complejidad de las prestaciones o la necesidad de utilizar una técnica nueva, o que no existe información sobre los costes de prestaciones análogas y sobre los elementos técnicos o contables que permitan negociar con precisión un precio cierto.
+
+8. En los contratos celebrados con precios provisionales el precio se determinará, sin rebasar el importe de la licitación, en función de los costes en que realmente incurra el contratista y del beneficio que se haya acordado, para lo que, en todo caso, se detallarán en el contrato los siguientes extremos:
+
+a) El procedimiento para determinar el precio definitivo, con referencia a los costes efectivos y a la fórmula de cálculo del beneficio.
+
+b) Las reglas contables que el adjudicatario deberá aplicar para determinar el coste de las prestaciones.
+
+c) Los controles documentales y sobre el proceso de producción que el adjudicador podrá efectuar sobre los elementos técnicos y contables del coste de producción.
+
+9. Se prohíbe el pago aplazado del precio en los contratos, excepto en los supuestos en que el sistema de pago se establezca mediante la modalidad de arrendamiento financiero o de arrendamiento con opción de compra, así como en los casos en que ésta u otra Ley lo autorice expresamente.
+
+Artículo 44. Contenido mínimo del contrato.
+
+1. Salvo que ya se encuentren recogidas en los pliegos los contratos deben incluir, necesariamente, las siguientes menciones:
+
+a) La identificación de las partes.
+
+b) La acreditación de la capacidad de los firmantes para suscribir el contrato.
+
+c) Definición del objeto y tipo del contrato teniendo en cuenta las consideraciones sociales, ambientales y de innovación.
+
+d) Referencia a la legislación aplicable al contrato.
+
+e) La enumeración de los documentos que integran el contrato.
+
+f) El precio cierto, o el modo de determinarlo.
+
+g) La duración del contrato o las fechas estimadas para el comienzo de su ejecución y para su finalización, así como la de la prórroga o prórrogas, si estuviesen previstas.
+
+h) Las condiciones de recepción, entrega o admisión de las prestaciones.
+
+i) Las condiciones de pago.
+
+j) Los supuestos en que procede la resolución.
+
+k) El crédito presupuestario o el programa o rúbrica contable con cargo al que se abonará el precio, en su caso.
+
+l) La extensión objetiva y temporal del deber de confidencialidad que, en su caso, se imponga al contratista.
+
+m) La obligación de la empresa contratista de cumplir durante todo el periodo de ejecución de contrato las normas y condiciones fijadas en el convenio colectivo de aplicación que será como mínimo el último convenio sectorial del ámbito más inferior y cercano, en vigencia o en ultraactividad, de aplicación en el sector en el que se encuadre la actividad a contratar.
+
+n) En los contratos de servicios y de concesión de servicios, la obligación de la empresa contratista de mantener una plantilla mínima y un número de jornadas garantizadas durante toda la duración de la contrata.
+
+ñ) La persona adjudicataria cumplirá con los principios, las normas y los cánones éticos propios de las actividades, los oficios y las profesiones correspondientes a las prestaciones objeto del contrato, actuando en todo momento con imparcialidad, de buena fe y con arreglo al código deontológico de su profesión o gremio. No utilizará la información confidencial conocida en cualquier fase del procedimiento contractual para obtener, directamente o indirectamente, una ventaja o beneficio de cualquier tipo en interés propio ni en el de terceras personas. Velará especialmente por el adecuado cumplimiento de las cláusulas sociales o medioambientales que, como condiciones especiales de ejecución, se hubiesen incluido en los pliegos y ejecutará el contrato con el compromiso de que su trabajo contribuya a la satisfacción del interés general, evitando provocar de modificación del contrato, que solo podrá llevarse a cabo en los supuestos previstos legalmente Nota de Vigencia.
+
+2. El contrato podrá incluir estipulaciones adicionales a las contenidas en los pliegos o la oferta de la adjudicataria siempre que ambas partes estén de acuerdo y que dichas estipulaciones no contengan derechos adicionales para la adjudicataria, ni modifiquen las condiciones del contrato de manera que de haberse conocido por el resto de personas interesadas hubieran podido conllevar una modificación de su oferta o de su interés en el procedimiento. En caso de no cumplirse estas condiciones, la cláusula se entenderá nula de pleno derecho y se tendrá por no puesta, sin derecho a compensación alguna para el contratista Nota de Vigencia.
+
+Artículo 45. Plazo de duración de los contratos.
+
+1. La duración de los contratos públicos deberá establecerse teniendo en cuenta la naturaleza de las prestaciones, las características de su financiación y la necesidad de someter periódicamente a concurrencia la realización de las mismas.
+
+El contrato podrá prever una o varias prórrogas siempre que sus características permanezcan inalterables durante el período de duración de éstas y que la concurrencia para su adjudicación haya sido realizada teniendo en cuenta la duración máxima del contrato, incluidos los períodos de prórroga.
+
+La prórroga se acordará de forma expresa, previo acuerdo de ambas partes, excepto que el pliego regulador establezca la posibilidad de que el órgano de contratación apruebe la prórroga obligatoria Nota de Vigencia.
+
+2. La duración máxima de los contratos de suministros y servicios será de cinco años incluidas todas sus prórrogas, salvo que por circunstancias excepcionales que deberán justificarse expresamente, relativas al objeto de la prestación, fuese necesario un plazo mayor.
+
+La duración de un acuerdo marco o de un sistema dinámico de compra no podrá superar los cuatro años, salvo casos excepcionales debidamente justificados en la documentación del contrato.
+
+3. Cuando al vencimiento de un contrato, como consecuencia de incidencias resultantes de acontecimientos imprevisibles, no se hubiera formalizado el nuevo contrato que garantice la continuidad de la prestación y existan razones de interés público para no interrumpirla, se podrá aprobar la prórroga obligatoria el contrato originario por un periodo máximo de nueve meses, o veinticuatro meses cuando se trate de contratos cuya prestación sea necesaria para garantizar un derecho fundamental, sin modificar las restantes condiciones, hasta que comience la ejecución del nuevo contrato, siempre que el anuncio de licitación de este último se haya publicado con una antelación mínima de tres meses respecto de la fecha de finalización del contrato originario, o tratándose de procedimientos con invitación, esta se haya enviado con quince días de antelación Nota de Vigencia.
+
+4. En los contratos de asistencia jurídica y de defensa judicial no regirá el límite establecido en el apartado 2 de este artículo, pudiendo tener el contrato la duración que exija la terminación definitiva de los procedimientos administrativos o judiciales de que se trate Nota de Vigencia.
+
+5. El plazo máximo de duración de las concesiones de obras públicas será de treinta años salvo que por circunstancias excepcionales fuese necesario un plazo mayor.
+
+6. Para las concesiones con plazo superior a cinco años, la duración no podrá exceder el tiempo que se calcule razonable para que el concesionario amortice las inversiones realizadas junto con un rendimiento sobre el capital invertido, teniendo en cuenta todas las inversiones necesarias para alcanzar los objetivos contractuales específicos. Las inversiones que se tengan en cuenta a efectos del cálculo incluirán tanto las iniciales como las realizadas durante la vida de la concesión.
+
+Los contratos de concesión no podrán ser prorrogados.

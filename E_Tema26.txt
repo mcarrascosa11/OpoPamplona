@@ -1,0 +1,682 @@
+Tema 26.-Decreto Foral 108/2014, de 12 de noviembre, por el que se regula el informe de evaluación de
+los edificios. Decreto Foral 322/2000, de 2 de octubre, del Gobierno de Navarra, por el que se regula el libro
+del edificio.
+
+Preámbulo
+
+1
+
+La Comunidad Foral de Navarra cuenta con un parque de viviendas que supera las 320.000 unidades, de las que más del 28% tienen una antigüedad superior a los cincuenta años.
+
+La rehabilitación y mantenimiento del parque de viviendas en Navarra ha sido uno de los principales objetivos de la política de vivienda del Gobierno de Navarra que, atendiendo a ese objetivo, tiene establecidas una serie de ayudas a la rehabilitación que varían en función de la antigüedad del edificio, la naturaleza de las obras que efectuar y la renta de los perceptores de la subvención, según lo establecido en la Ley Foral 10/2010, de 10 de mayo, del Derecho a la Vivienda en Navarra , y reglamentos concordantes.
+
+A pesar de la notable actividad rehabilitadora de los últimos años, sigue existiendo gran cantidad de edificios de vivienda que no se han sometido nunca a una rehabilitación, por lo que pueden presentar serias deficiencias debidas al deterioro producido por el transcurso del tiempo, la deficiente calidad de su construcción o el mal uso o falta del mantenimiento necesario para que los edificios tengan un mínimo de seguridad o salubridad.
+
+La obligación de mantenimiento de los edificios corresponde a sus propietarios y usuarios, tal como contemplan el artículo 16 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación; el artículo 9 del Real Decreto Legislativo 2/2008, de 20 de junio, por el que se aprueba el Texto Refundido de la Ley de Suelo; y el artículo 87.1.b de la Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo, que exige mantener los terrenos y construcciones en condiciones de seguridad, salubridad, ornato público y habitabilidad según su destino, realizando los trabajos precisos para conservar o reponer dichas condiciones y para dotarles de los servicios que resulten necesarios y exigibles conforme al uso y características del bien.
+
+Por otro lado, la obligatoriedad de inspecciones técnicas de los edificios en la Comunidad Foral de Navarra partió de la establecida en los artículos 21 y 22 del Real Decreto-Ley 8/2011, de 1 de julio, de medidas de apoyo a los deudores hipotecarios, de control del gasto público y cancelación de deudas con empresas y autónomos contraídas por las entidades locales, de fomento de la actividad empresarial e impulso de la rehabilitación y de simplificación administrativa, habiéndose transformado en la actualidad en la obligación de contar con un informe de evaluación de los edificios, por exigencia de la Ley 8/2013, de 26 de junio, de rehabilitación, regeneración y renovación urbanas .
+
+2
+
+En los años 60 y 70 del pasado siglo se produjo en Navarra un importante desarrollo industrial que motivó el desplazamiento de un gran número de ciudadanos, tanto dentro de la Comunidad Foral como desde otras comunidades autónomas. Esa circunstancia requirió la construcción de un elevado número de viviendas en poco tiempo y sin las exigencias de calidad, accesibilidad y eficiencia energética que la normativa actual impone a las edificaciones actuales.
+
+Aquellas viviendas cumplen ahora, o cumplirán en breve plazo, los cincuenta años de antigüedad, lo que hace especialmente conveniente el establecimiento del informe de evaluación de edificios que, si bien no exige per se su rehabilitación, asegura que todos ellos reúnen unos requisitos mínimos de seguridad y salubridad, a la vez que puede alertar a los propietarios o usuarios sobre situaciones que provocan el acelerado deterioro de las edificaciones.
+
+El informe de evaluación de edificios pondrá de manifiesto, en algunos casos, la necesidad de una reparación o rehabilitación de el edificio, por lo que este Decreto Foral vincula en determinados aspectos la evaluación con la rehabilitación protegida.
+
+Se impide que los edificios o viviendas que, teniendo la obligación de contar con el informe de evaluación, no la hayan efectuado, puedan obtener la calificación provisional como rehabilitación protegida sin la presentación del informe y, si éste exigiera determinadas reparaciones, deberán incluirse en el proyecto de rehabilitación para poder ser calificado.
+
+El motivo es evidente: no resultaría comprensible que en un edificio al que en la evaluación se ha detectado una reparación obligatoria para mantener su buen uso, se acometieran obras de rehabilitación distintas de las detectadas en la evaluación y, con mayor motivo, con ayudas públicas.
+
+La obligación de realizar el informe de evaluación de edificios se extiende a todos los edificios residenciales con más de una vivienda y una antigüedad de cincuenta o más años, asimilándose a dicha tipología los edificios destinados a ser ocupados o habitados por un grupo de personas que, sin constituir núcleo familiar, compartan servicios y se sometan a un régimen común, tales como hoteles o residencias. Por tanto, el objeto del informe de evaluación de los edificios es muy amplio. De este modo, ante las dificultades que se pudieran presentar por la concurrencia temporal de las evaluaciones, se establece en este decreto foral un programa para la implantación gradual de aquella obligación de forma que no presente dificultades a los técnicos evaluadores y a las administraciones implicadas.
+
+El informe correspondiente a la evaluación de edificios calificará básicamente los edificios como “aptos” o “no aptos”. Los primeros recibirán esa calificación cuando no se hayan apreciado deficiencias que deban ser subsanadas, aunque se admite la variante de “apto con deficiencias leves” en aquellos casos en que, sin tener que acometer de manera inmediata actuaciones de reparación, advierten a los propietarios de que en el periodo de vigencia del informe de la evaluación -diez años- deberán acometerse determinadas operaciones de mantenimiento del edificio. De esa forma, aunque el informe tiene los mismos efectos que el calificado como “apto”, sirve de aviso y recordatorio del mantenimiento a realizar, lo que resulta especialmente indicado para todos aquellos edificios que, por haberse construido con anterioridad a la entrada en vigor de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación , carecen de un manual de uso y mantenimiento.
+
+Los edificios serán calificados como “no aptos” cuando cuenten con deficiencias muy graves -que se definen en el propio decreto foral- o con deficiencias que, siendo graves, su subsanación requiera actuaciones y obras que precisen un plazo superior a un año. Efectuadas la rehabilitación o reparación, el edificio deberá someterse a un nuevo informe de evaluación de edificios para obtener la calificación de “apto”. Si las deficiencias observadas son graves o generalizadas, pero no suponen riesgo para los usuarios o peatones, y para su subsanación se requieren actuaciones u obras ejecutables en un plazo inferior a un año, se podra calificar como “no apto provisionalmente”. Finalizadas las obras, la nueva evaluación puede limitarse a los elementos en los que se actúa, certificándose su correcta ejecución sin necesidad de un nuevo informe de evaluación de edificios completo.
+
+El artículo 87.2 de la Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo, establece que los municipios y, en su caso, los demás organismos competentes, ordenarán, de oficio o a instancia de cualquier interesado, la ejecución de las obras necesarias para conservar las condiciones de seguridad, salubridad, ornato público y habitabilidad, con indicación del plazo para su realización, por lo que, una vez que el informe sea accesible a los propietarios del edificio lo remitirán al ayuntamiento correspondiente para acreditar el cumplimiento de esas obligaciones de conservación. El Departamento competente en materia de vivienda creará y mantendrá un registro general de evaluación de edificios que servirá de base a todos los registros municipales y permitirá a los ayuntamientos controlar las evaluaciones efectuadas en su término municipal, así como requerir a los propietarios que se realicen en aquellos edificios a los que les resulte exigible. La inscripción de los informes de evaluación en el registro general se realizará exclusivamente por medios telemáticos habida cuenta de la dedicación y capacidad profesional que se debe presumir de los ayuntamientos para poder utilizarla de conformidad con la Ley Foral 11/2007, de 4 de abril, para la implantación de la Administración Electrónica en la Administración de la Comunidad Foral de Navarra . Las mismas razones motivan la exigencia a los técnicos competentes de realizar el informe en la aplicación informática que al efecto se elabore.
+
+Los adquirentes o arrendatarios de viviendas podrán exigir al vendedor o arrendador copia del informe de la evaluación, si el edificio estuviera obligado a contar con él. En caso de que se negara la copia, el solicitante podrá informarse en el ayuntamiento correspondiente o en el Departamento competente en materia de vivienda.
+
+3
+
+Para instrumentar todo cuanto antecede, el presente decreto foral se desarrolla a lo largo de cuatro capítulos y consta de trece artículos, dos disposiciones adicionales, dos disposiciones transitorias y tres disposiciones finales.
+
+En su virtud, a propuesta del Consejero de Fomento, de acuerdo con el Consejo de Navarra, y de conformidad con la decisión adoptada por el Gobierno de Navarra en sesión celebrada el día doce de noviembre de dos mil catorce, decreto:
+
+CAPÍTULO I. Disposiciones generales
+
+Artículo 1. Objeto.
+
+El presente decreto foral tiene por objeto:
+
+1. Regular el informe de evaluación de los edificios que se redactará como consecuencia de la obligación establecida en la Ley 8/2013, de 26 de junio, de rehabilitación, regeneración y renovación urbana .
+
+2. Favorecer la conservación y rehabilitación del parque de edificios de viviendas y la regeneración y renovación de los tejidos urbanos existentes, asegurando su seguridad, salubridad y accesibilidad de forma que no supongan riesgos para sus usuarios, no se produzca un deterioro evitable de los edificios y se conozca la eficiencia energética de los edificios.
+
+3. Aprobar el programa de evaluaciones obligatorias en la Comunidad Foral de Navarra.
+
+Artículo 2. Ámbito de aplicación.
+
+1. Será de aplicación el presente decreto foral a los edificios de tipología residencial colectiva, entendiendo como tal los que cuenten con más de una vivienda, independientemente de que el edificio contenga simultáneamente otros usos. Se asimilarán a esa tipología los edificios destinados a ser ocupados o habitados por un grupo de personas que, sin constituir núcleo familiar, compartan servicios y se sometan a un régimen común, tales como hoteles o residencias.
+
+A los efectos del presente decreto foral, además del número de cédulas de habitabilidad vigentes correspondientes al edificio, se considerará el número de viviendas incluidas en el catastro.
+
+2. Quedan excluidas las viviendas unifamiliares, entendiendo por tales las aisladas o adosadas horizontalmente, aun cuando estas últimas pudieran compartir en planta bajo rasante garajes o trasteros mancomunados. En ningún caso se considerarán como viviendas unifamiliares las superpuestas verticalmente, aunque cuenten con accesos independientes.
+
+Artículo 3. Obligatoriedad del informe de evaluación de los edificios.
+
+1. Deben someterse a evaluación los edificios de tipología residencial colectiva que cuenten con una antigüedad igual o superior a 50 años. A estos efectos, la antigüedad de un edificio se acreditará por su fecha de calificación definitiva como vivienda protegida, inscripción en el catastro, en el Registro de la Propiedad, expedición de cédula de habitabilidad, certificado de final de obra o por cualquier otro documento válido en derecho. Si existieran varios documentos acreditativos y no fuera coincidente la antigüedad del edificio, el orden de prelación entre ellos para la determinación de la antigüedad válida a los efectos del presente decreto foral, coincidirá con el de su enumeración en el presente apartado.
+
+2. Todos los proyectos de rehabilitación que se pretendan calificar como rehabilitación protegida y tengan como objetivos la consolidación estructural, la adaptación completa del edificio a la normativa específica sobre accesibilidad universal y diseño para todas las personas o la mejora de la envolvente térmica del edificio, deberán incorporar el informe de evaluación del edificio previa o simultáneamente a la redacción del proyecto.
+
+3. Los ayuntamientos o el departamento competente en materia de vivienda podrán establecer la obligación de efectuar el informe de evaluación de los edificios a aquellos que, aun no habiendo alcanzado la antigüedad, plazo de vigencia de una evaluación previamente efectuada o las condiciones exigidas en el presente decreto foral para haber adquirido la obligación de efectuar el informe de evaluación, presenten evidentes deficiencias estructurales, constructivas o en sus instalaciones que puedan suponer riesgo para las personas, tanto en el interior del edificio como en la vía pública.
+
+4. Quedan exentos de la obligación de evaluación aquellos edificios declarados en ruina, sin perjuicio de las obligaciones que se deriven de dicha declaración.
+
+5. La obligación de someter un edificio a evaluación corresponde a sus propietarios, independientemente del régimen de propiedad al que se sujete el edificio, debiendo encomendar la evaluación a técnicos competentes así como facilitarles el acceso al edificio y a las viviendas y locales en él incluidos.
+
+6. Los propietarios de edificios que no estén obligados a efectuar la evaluación mantienen el deber de su mantenimiento y conservación establecidos en la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación , en la Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo , disposiciones técnicas, urbanísticas, sobre patrimonio arquitectónico y cualesquiera otras que así lo exijan.
+
+7. El Departamento competente en materia de vivienda creará una base de datos en la que se registrarán la totalidad de los edificios de la Comunidad Foral, su fecha de construcción y fecha de adquisición de la obligación de efectuar el primer informe de evaluación del edificio o los sucesivos a realizar vencido el periodo de vigencia de las anteriores. Dicha base de datos podrá ser consultada por los ayuntamientos para el cumplimiento de las obligaciones establecidas en la legislación básica estatal y las reguladas por el presente decreto foral.
+
+Artículo 4. Alcance del informe de evaluación.
+
+1. La evaluación comprenderá al edificio completo, tanto a sus elementos comunes como a las viviendas o locales incluidos en el mismo. En el caso de edificios sometidos al régimen de propiedad horizontal y que cuenten con varios portales para los que se hayan constituido comunidades de propietarios independientes, podrá efectuarse una evaluación por cada comunidad o portal.
+
+En todos los casos se incluirán todas las plantas, desde la cimentación a la cubierta del edificio, independientemente de que alguna de ellas supere el ámbito del edificio como garajes mancomunados o plantas de uso distinto al residencial.
+
+2. Si el técnico evaluador en su inspección no pudiera acceder a la totalidad de las viviendas o locales, deberá reflejar tal circunstancia en el informe, indicando si supone alguna limitación al contenido técnico del informe y, en su caso, la validez del informe para el conjunto del edificio.
+
+3. La evaluación del edificio contemplará los siguientes aspectos:
+
+a) El estado general del edificio, de sus elementos estructurales, constructivos y de las instalaciones que no requieran, por su normativa sectorial, inspecciones técnicas específicas, constatando las patologías o deficiencias se que puedan apreciar con los sentidos.
+
+Para el caso de las instalaciones que requieran inspección técnica específica, el técnico que efectúe la evaluación del edificio se limitará a requerir a los propietarios o administradores la presentación de los correspondientes contratos de mantenimiento, boletines, informes u otros documentos que acrediten el cumplimiento las exigencias propias de cada instalación.
+
+No es objeto de la evaluación la detección de vicios o daños ocultos, ni la determinación precisa del origen de las patologías observadas, aunque sí la formulación de un prediagnóstico de sus posibles causas. Si el evaluador, para determinar la gravedad de una o más patologías detectadas, lo considerara necesario, propondrá a los propietarios la elaboración, por el propio evaluador o por técnico distinto, de un informe pericial o técnico que establezca un diagnóstico preciso de los daños, su origen, la forma de subsanarlos y la necesidad, en su caso, de redacción de un proyecto de rehabilitación.
+
+b) El grado de accesibilidad del edificio y enumeración de los elementos que incumplen lo dispuesto en el código técnico de la edificación, DB SUA, y normativa de accesibilidad y no discriminación de las personas con discapacidad. Si el edificio fuera técnicamente inaccesible, se determinará si el edificio puede mejorar sus condiciones de accesibilidad mediante ajustes razonables que no supongan una carga desproporcionada en los términos establecidos en la Ley 8/2013, de 26 de junio, de rehabilitación, regeneración y renovación urbanas . Si el edificio es susceptible de realizar ajustes razonables, se indicarán éstos en el informe.
+
+c) La certificación de la eficiencia energética del edificio, con el contenido y mediante el procedimiento establecido para la misma por la normativa vigente. Si el edificio ya cuenta con un certificado de eficiencia energética válido sin que haya habido variaciones en las características energéticas del edificio o sus instalaciones, bastará con adjuntar dicho certificado; en caso contrario, deberá efectuarse nueva certificación.
+
+CAPÍTULO II. Técnicos evaluadores y contenido del informe
+
+Artículo 5. Técnicos evaluadores.
+
+Al tratarse de edificios de viviendas considerados en su conjunto, excluidas las instalaciones que requieren inspección técnica específica, el informe de evaluación de los edificios lo redactará técnico con la titulación de arquitecto, o titulados que ejerzan la profesión de arquitecto técnico, sin perjuicio de lo que pudiera determinar la normativa básica del Estado en materia de competencias profesionales, y que garantice la independencia, imparcialidad y objetividad del informe. Estos requisitos se exigirán igualmente a las entidades de control de calidad de la edificación u otras sociedades que pudieran redactar el informe que en todos los casos irá firmado por un técnico competente.
+
+Artículo 6. Informe de evaluación de los edificios.
+
+1. El resultado de la evaluación se reflejará en el correspondiente informe emitido por el técnico competente que la ha efectuado, y en él se identificarán y describirán las características generales del edificio, su estado general según lo dispuesto en el artículo 4.3 del presente decreto foral, las deficiencias observadas, su calificación así como su carácter local o general, el plazo para subsanarlas y la calificación final del edificio según las deficiencias observadas, en los términos que contiene el presente decreto foral.
+
+2. El informe de evaluación del edificio se elaborará mediante la aplicación informática creada por el departamento competente en materia de vivienda, según el modelo normalizado que se determine.
+
+Artículo 7. Calificación de deficiencias y patologías.
+
+Las deficiencias observadas en la evaluación y las patologías que se aprecien como consecuencia del transcurso del tiempo u otras causas y que se reflejan en el informe, se calificarán en función de su importancia y extensión, según los siguientes criterios:
+
+1. Por la importancia de la patología o deficiencia:
+
+a) Deficiencias muy graves. Son las que, por su importancia, comprometen la estabilidad del elemento constructivo que las presenta y suponen la inestabilidad del edificio en su conjunto o un peligro para sus moradores o viandantes y deben subsanarse de manera inmediata.
+
+El informe deberá incluir las medidas a adoptar para la subsanación definitiva de las deficiencias y plazo para acometerlas, y, en su caso, las medidas provisionales y urgentes que permitan garantizar la estabilidad del elemento en el tiempo de elaboración del informe detallado de las patologías, sus orígenes, el proyecto correspondiente de reparación, y la ejecución de las obras necesarias.
+
+b) Deficiencias graves. Son las que, sin representar un peligro inmediato para la estabilidad del edificio ni riesgo para la seguridad de moradores o viandantes, deben subsanarse en el plazo que el propio informe establece. La necesidad de su subsanación se derivará de la importancia de la deficiencia en sí misma, porque su previsible evolución, aun no siendo grave, se estime que derivará en muy grave en un plazo inferior a un año o bien porque se prevea que su permanencia provocaría un deterioro progresivo del elemento que la soporta, conduciéndole a una situación de grave inestabilidad o salubridad, dentro del periodo de vigencia de la evaluación.
+
+En relación con las instalaciones que requieran por su normativa específica inspección y/o mantenimiento, se considerará como deficiencia grave la ausencia de dichos controles obligatorios dentro de los plazos que la normativa sectorial imponga.
+
+Se entenderán igualmente como deficiencias graves las que provocan que la circulación por los elementos comunes del edificio suponga riesgo para los usuarios del edificio sufran o no discapacidad.
+
+c) Deficiencias leves. Son aquellas cuya importancia o evolución prevista no permiten calificarlas como graves o muy graves, pero cuya resolución resulta necesaria para un adecuado mantenimiento del edificio evitando su progresivo deterioro.
+
+2. Por la extensión de las patologías o deficiencias, se calificarán como:
+
+a) Generalizadas. Independientemente de su gravedad, se considerarán como generalizadas las deficiencias que afecten a más del 50 % de la superficie del elemento constructivo considerado: fachada, cubierta, escalera, carpinterías, etc. excepto si dicho elemento es singular y de escasa relevancia en el conjunto del edificio.
+
+b) Localizadas. Serán las deficiencias que afectan a menos del 50 % de la superficie del elemento que las soporta o que, aun afectando a un porcentaje mayor o incluso a la totalidad del elemento, la relevancia de éste sobre el conjunto del edificio es escasa.
+
+Artículo 8. Calificación del edificio.
+
+Según el número, gravedad y extensión de las deficiencias reflejadas en el informe, el conjunto del edificio se calificará como apto, apto con deficiencias leves, no apto provisionalmente o no apto:
+
+a) Se calificará el edificio como “apto” si no presenta ninguna deficiencia que deba ser reseñada en el informe.
+
+b) El edificio será “apto con deficiencias leves” aquel que presente ese tipo de deficiencias y, por afectar exclusivamente al mantenimiento del edificio, puedan ser subsanadas a lo largo del periodo de vigencia del informe de evaluación del edificio.
+
+c) Será “no apto provisionalmente” el edificio en cuyo informe de evaluación se incluyan deficiencias graves para cuya subsanación se haya establecido un plazo improrrogable inferior a un año en el propio informe y dichas deficiencias no representen peligro para los usuarios del edificio o los viandantes.
+
+La condición de apto o apto con deficiencias leves se alcanzará cuando, subsanadas las deficiencias en el plazo establecido y tras nueva evaluación limitada a las deficiencias recogidas en el informe inicial, se certifique que se han efectuado las reparaciones exigidas.
+
+d) Se calificará como “no apto” el edificio con deficiencias muy graves. Igualmente resultará no apto el que cuente con deficiencias graves para cuya subsanación sea preciso un plazo superior a un año. Transcurrido el plazo establecido en el informe para la subsanación de las deficiencias, deberá someterse a nuevo informe de evaluación.
+
+CAPÍTULO III. Efectos del informe de evaluación del edificio
+
+Artículo 9. Vigencia y renovación del informe de evaluación del edificio.
+
+1. El informe de evaluación de los edificios tendrá una vigencia de diez años desde su entrada en el registro, excepto cuando entre la firma del informe y dicha entrada hubieran transcurrido más de 6 meses, caso en el que el plazo se contará desde la firma del informe por el técnico. Este plazo de 10 años podrá reducirse cuando circunstancias sobrevenidas tras la evaluación modifiquen y empeoren sustancialmente las condiciones de seguridad, salubridad, accesibilidad, eficiencia energética y ornato existentes en el momento de emitir el informe vigente, en cuyo caso los propietarios del edificio estarán obligados a subsanar las nuevas deficiencias o someterse a nueva evaluación.
+
+Los ayuntamientos, de oficio o a instancia de parte, podrán declarar la pérdida anticipada de la vigencia del informe de evaluación del edificio si circunstancias sobrevenidas así lo requieren.
+
+2. Todos los edificios obligados a efectuar la evaluación deberán contar con un informe vigente que califique el edificio como apto o apto con deficiencias leves.
+
+En los casos de renovación del informe, se entenderá prorrogada la vigencia del anterior en el tiempo empleado para realizar la nueva evaluación, siempre que no transcurra más de un año desde la fecha de pérdida de vigencia.
+
+3. Los propietarios que cuenten con un informe favorable de aptitud de su edificio mantienen íntegramente los deberes de mantenimiento y conservación establecidos legalmente.
+
+Artículo 10. Destino del informe de evaluación de los edificios.
+
+1. El técnico evaluador realizará el informe mediante la aplicación informática creada a tal fin por el departamento competente en materia de vivienda, debiendo, una vez finalizado, contar con su firma digital válida, de acuerdo con lo dispuesto en la Ley Foral 11/2007, de 4 de abril, para la Implantación de la Administración Electrónica en la Administración de la Comunidad Foral de Navarra . A tal efecto, el departamento competente en materia de vivienda pondrá a disposición de los técnicos evaluadores un acceso a la aplicación informática que se elabore, en el apartado dedicado a los profesionales del sitio web informativo en materia de vivienda, ubicado en la dirección electrónica www.vivienda.navarra.es.
+
+Una vez firmado el correspondiente informe, el técnico entregará al propietario o representante de los propietarios los códigos de acceso que permitan hacer uso del informe firmado, así como una copia del mismo si así se solicita.
+
+Si el informe indicara la presencia de patologías o deficiencias muy graves que puedan suponer riesgo inminente para las personas, además de prever las medidas definitivas o provisionales exigidas en el artículo 7 del presente decreto foral, el informe deberá ser remitido al ayuntamiento por el técnico que lo firma en el plazo más breve posible. Si la inminencia del riesgo exigiera la adopción de medidas inmediatas y no se pudiera comunicar al ayuntamiento correspondiente, se pondrá la situación en conocimiento del Departamento competente en materia de extinción de incendios.
+
+2. El informe de evaluación del edificio se incorporará al libro del edificio, cuando exista o, si no existiera, constituirá el primer documento que lo integre, añadiéndose, en su caso, los informes y proyectos que resulten necesarios para la subsanación de deficiencias.
+
+3. En las transmisiones de viviendas incluidas en un edificio obligado a contar con un informe de evaluación, el adquirente o el arrendatario podrá exigir, junto con la cédula de habitabilidad, copia del informe.
+
+4. El propietario o su representante remitirán al ayuntamiento en el que esté situado el edificio las claves de acceso al original digital válido del informe de evaluación, solicitando su inclusión en el registro, sin perjuicio de que el ayuntamiento competente habilite otras vías de presentación.
+
+El ayuntamiento, una vez recibida la solicitud de inclusión del informe de evaluación en el registro, y en el plazo máximo de dos meses, incorporará el informe en el registro creado al efecto.
+
+Artículo 11. Cumplimiento de las exigencias relativas al informe de evaluación de los edificios.
+
+1. El cumplimiento de las exigencias del presente Decreto Foral para aquellos propietarios que obtengan en el plazo exigido el informe de evaluación del edificio con calificación de apto o apto con deficiencias leves, conllevará las siguientes consecuencias:
+
+a) Acreditarán con el informe el cumplimiento de las obligaciones que, como propietarios del edificio, le exige la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación , y Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo , conservando la obligación de acometer las operaciones de mantenimiento del edificio que sean precisas durante el periodo de vigencia del informe de la evaluación.
+
+b) Podrán acometer obras de rehabilitación acogiéndose a la correspondiente actuación protegible mediante su calificación como rehabilitación protegida, de acuerdo con los supuestos contemplados en la normativa que la regula.
+
+2. Las consecuencias para los propietarios de los edificios que, estando obligados a ello, incumplan las determinaciones del presente decreto foral, se derivarán de la naturaleza de la infracción cometida:
+
+2.1. Carecer del informe de evaluación del edificio estando obligado a ello, tendrá, al margen de las que pudieran corresponder por aplicación de la legislación civil o penal, las siguientes consecuencias:
+
+a) Las que puedan derivarse del incumplimiento del artículo 16 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación, en el que se establecen las obligaciones de los propietarios y usuarios.
+
+b) Si los propietarios del edificio hubieran sido requeridos para la realización de la evaluación por el ayuntamiento o por el departamento competente en materia de vivienda y desoyeran el requerimiento, se considerará que están incumpliendo con los deberes de uso, conservación y rehabilitación establecidos en el artículo 87 de la Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo, y podrán ser declarados responsables de la infracción grave prevista en el apartado 12 del artículo 212 de dicha Ley Foral, sin perjuicio de que además se pueda declarar la ruina de la construcción de acuerdo con lo dispuesto en su artículo 196, si se cumplen los requisitos exigidos.
+
+c) No podrá solicitarse la calificación provisional de rehabilitación protegida.
+
+d) La ejecución forzosa del ayuntamiento, previo apercibimiento a las personas interesadas, mediante la imposición de multas coercitivas y/o la ejecución subsidiaria, de acuerdo con lo dispuesto en la Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo .
+
+e) Si el edificio responde a la tipología residencial de vivienda colectiva contemplado en el presente decreto foral pero no tuviera como uso característico el de vivienda propiamente dicha, como hoteles y residencias, el departamento competente en la regulación de esos usos podrá adoptar las medidas que correspondan atendiendo a su propia normativa.
+
+f) Cuantas otras medidas establezca la normativa general y sectorial aplicable.
+
+2.2. Habiendo obtenido tras la evaluación un informe en el que se califica el edificio como no apto o no apto provisionalmente, no haber ejecutado las acciones y obras destinadas a la reparación de las deficiencias en los plazos, en su caso, establecidos, tendrá como consecuencias, al margen de las que pudieran corresponder por aplicación de la legislación civil o penal, las siguientes:
+
+a) Las que puedan derivarse del incumplimiento del artículo 16 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación, en el que se establecen las obligaciones de los propietarios y usuarios.
+
+b) Constituirá una infracción grave prevista en el apartado 12 del artículo 212 de la Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo, o, subsidiariamente, una infracción muy grave prevista en el artículo 66.3 de la Ley Foral 10/2010, de 10 de mayo, del Derecho a la Vivienda en Navarra.
+
+c) La ejecución forzosa del ayuntamiento, previo apercibimiento a las personas interesadas, mediante la imposición de multas coercitivas y/o la ejecución subsidiaria, de acuerdo con lo dispuesto en la Ley Foral 35/2002, de 20 de diciembre, de Ordenación del Territorio y Urbanismo .
+
+d) El departamento competente en materia de vivienda, en función de la gravedad, peligrosidad o insalubridad apreciadas en el informe, podrá abrir un expediente sobre la posible pérdida anticipada de vigencia de las cédulas de habitabilidad de las viviendas incluidas en el edificio, según lo dispuesto en el artículo 12 del Decreto Foral 142/2004, de 22 de marzo, por el que se regulan las condiciones mínimas de habitabilidad de las viviendas en la Comunidad Foral de Navarra.
+
+e) Los departamentos competentes en otros usos distintos de vivienda e incluidos en el ámbito de aplicación del presente decreto foral podrán iniciar los expedientes que correspondan que podrán conducir a la orden de cese de la actividad.
+
+f) Cuantas otras medidas establezca la normativa general y sectorial aplicable.
+
+CAPÍTULO IV. Registro General de Evaluación de Edificios de Navarra
+
+Artículo 12. Registro general de evaluación de edificios de Navarra.
+
+1. El departamento competente en materia de vivienda creará el registro general de evaluación de edificios de Navarra, que servirá de base para todos los registros municipales que tengan por objeto esta materia.
+
+2. El registro general de evaluación de edificios de Navarra tendrá por objeto:
+
+a) Proporcionar a los ayuntamientos la misma información que dispone el Gobierno de Navarra, de modo que tengan acceso a los datos de su competencia y puedan realizar el mantenimiento de las evaluaciones de edificios que deban incluirse en su ámbito territorial.
+
+b) Servir de base de datos para el departamento competente en materia de vivienda. A tal fin, dicho departamento podrá acceder a la información que conste en el registro y que guarde relación con todas las inspecciones realizadas y los resultados de las mismas, con el objeto de disponer de información relacionada con el estado del parque de viviendas de Navarra para la posterior elaboración de planes o para el desarrollo de actuaciones de su competencia.
+
+c) Facilitar a los profesionales, y de modo indirecto a los ciudadanos, la elaboración de los informes de evaluación de los edificios.
+
+d) Nutrir los censos de construcciones, edificios, viviendas y locales precisados de rehabilitación, a los que se refiere la disposición adicional primera de la Ley 8/2013, de 26 de junio, de rehabilitación, regeneración y renovación urbanas. Asimismo, el registro general de evaluación de edificios se integrará en el registro general de viviendas de Navarra cuando éste se establezca.
+
+3. Para el cumplimiento de lo establecido en este artículo el departamento competente en materia de vivienda deberá poner a disposición de los ayuntamientos, ciudadanos y profesionales, una aplicación informática que posibilite la elaboración y posterior presentación y registro de los informes de evaluación de los edificios, que constituirán el registro general de evaluaciones de edificios de Navarra. A tal efecto, el departamento competente en materia de vivienda facilitará un acceso a dicha aplicación informática y al registro en el sitio web informativo en materia de vivienda, ubicado en la dirección electrónica www.vivienda.navarra.es.
+
+Artículo 13. Inscripción del informe de evaluación de edificios en el registro general.
+
+1. De acuerdo con lo dispuesto en el artículo 10.1 de este decreto foral, una vez el propietario o representante de los propietarios, disponga de los códigos de acceso que permitan hacer uso del Informe firmado por el técnico evaluador, deberá solicitar del ayuntamiento correspondiente la formalización de la inscripción del informe de evaluación en el registro.
+
+2. Posteriormente, el ayuntamiento deberá introducir el código facilitado por los propietarios del edificio o su representante y realizar la inscripción del informe de evaluación del edifico en el registro general, utilizando para ello la aplicación informática que al efecto se habilite.
+
+Disposición Adicional Primera. Condición aplicable a las solicitudes de calificación provisional de rehabilitación protegida.
+
+Las solicitudes de calificación provisional de rehabilitación protegida de edificios de viviendas con una antigüedad igual o superior a 50 años que se presenten a partir del 1 de julio de 2015 deberán aportar copia del informe de evaluación del edificio.
+
+Los edificios o viviendas de antigüedad inferior a 50 años que pretendan acogerse a las ayudas a la rehabilitación protegida, atenderán a lo dispuesto en el artículo 3 y en la disposición transitoria primera del presente decreto foral.
+
+Disposición Adicional Segunda. Informes técnicos de las oficinas de rehabilitación de viviendas y edificios (ORVE).
+
+En ámbitos definidos por el ayuntamiento correspondiente y de acuerdo con las directrices señaladas por éste, las oficinas de rehabilitación de viviendas y edificios (ORVE) podrán realizar informes técnicos que, en tal caso, servirán de orientación para el desarrollo de las actuaciones sobre el medio urbano definidas en la legislación estatal sobre suelo y edificación, y en la legislación de ordenación territorial y urbanística, así como para la elaboración de los informes de evaluación de edificios establecidos en este decreto foral.
+
+Disposición Transitoria Primera. Programa de implantación gradual de la obligatoriedad del informe de evaluación de los edificios.
+
+1. La antigüedad de un edificio se acreditará de la forma establecida en el artículo 3 de este decreto foral.
+
+2. Obligación de disponer del informe de evaluación del edificio.
+
+Los propietarios o comunidades de propietarios de edificios deberán disponer del informe de evaluación, en las siguientes situaciones y plazos:
+
+a) Los de edificios de tipología residencial colectiva que el 31 de diciembre de 2013 tengan una antigüedad de 100 ó más años deberán efectuar la evaluación del edificio de forma que dispongan del correspondiente informe antes del primer día del año 2017.
+
+b) Los de edificios de tipología residencial colectiva que el 31 de diciembre de 2013 tengan una antigüedad de 50 ó más años deberán efectuar la evaluación del edificio de forma que dispongan del correspondiente informe antes del primer día del año 2018.
+
+c) Los de edificios de tipología residencial colectiva que entre el 1 de enero de 2014 y el 31 de diciembre de 2016 adquieran una antigüedad de 50 años deberán efectuar la evaluación del edificio de forma que dispongan del correspondiente informe antes del primer día del año 2019.
+
+d) Los de edificios de tipología residencial colectiva que entre el 1 de enero de 2017 y el 31 de diciembre de 2018 adquieran una antigüedad de 50 años deberán efectuar la evaluación del edificio de forma que dispongan del correspondiente informe antes del primer día del año 2020.
+
+e) Los de edificios de tipología residencial colectiva que entre el 1 de enero de 2019 y el 31 de diciembre de 2019 adquieran una antigüedad de 50 años deberán efectuar la evaluación del edificio de forma que dispongan del correspondiente informe antes del primer día del año 2021.
+
+f) Los de edificios de tipología residencial colectiva que adquieran una antigüedad de 50 años a partir del 1 de enero de 2020, deberán efectuar la evaluación del edificio de forma que dispongan del correspondiente informe antes de que transcurra un año desde la fecha en que hubieran adquirido dicha antigüedad, según lo establecido en el artículo 9 del presente decreto foral.
+
+g) Los edificios de cualquier tipología residencial que soliciten la calificación provisional como rehabilitación protegida a partir del 1 de julio de 2015 para obras que tengan por finalidad su consolidación estructural, la adaptación completa del edificio a la normativa específica sobre accesibilidad universal y diseño para todas las personas o la mejora de su envolvente térmica, deberán efectuar la evaluación del edificio previa o simultáneamente a la redacción del proyecto de rehabilitación.
+
+Disposición Transitoria Segunda. Validez de las inspecciones técnicas de los edificios y de los informes de evaluación de edificios.
+
+Aquellos edificios en los que se hubiera efectuado la inspección técnica de acuerdo con lo dispuesto en el Real Decreto-Ley 8/2011, de 1 de julio, de medidas de apoyo a los deudores hipotecarios, de control de gasto público y cancelación de deudas con empresas y autónomos contraídas por las entidades locales, de fomento de la actividad empresarial e impulso de la rehabilitación y de simplificación administrativa , no estarán obligados a contar con el informe de evaluación del edificio durante el periodo de vigencia de la inspección, siempre que dicho plazo fuera igual o inferior a diez años.
+
+Igualmente no deberán efectuar un nuevo informe de evaluación del edificio los que contaran con él antes de la entrada en vigor del presente decreto foral y, hallándose dentro de su periodo de vigencia, lo presenten para su inscripción en el registro general en el plazo máximo de 1 año contado desde su entrada en vigor. En el caso de que no se realizara la solicitud de inscripción en el plazo señalado, el informe de evaluación del edificio se entenderá como no efectuado.
+
+Disposición Final Primera. Modificación del Decreto Foral 61/2013, de 18 de septiembre, por el que se regulan las actuaciones protegibles en materia de vivienda.
+
+El Decreto Foral 61/2013, de 18 de septiembre, por el que se regulan las actuaciones protegibles en materia de vivienda , queda redactado en los siguientes términos:
+
+Uno. El párrafo tercero del apartado 3 del artículo 27 , queda redactado del siguiente modo:
+
+“Los adjudicatarios de las viviendas protegidas que sean propiedad de la Administración de la Comunidad Foral de Navarra o de una sociedad instrumental de éste podrán obtener las ayudas previstas en el presente artículo si cumplen las condiciones requeridas a los adquirentes en primera transmisión. En el caso de que estas viviendas, ya sean libres o protegidas, se destinen al arrendamiento, los arrendatarios podrán obtener las ayudas previstas en el siguiente artículo. Igualmente podrán acceder a estas ayudas los arrendatarios de las viviendas que sean puestas en alquiler a través de la Administración de la Comunidad Foral de Navarra o de una sociedad instrumental de ésta, cuando así se decida, o del fondo foral de vivienda social si así se dispusiera en la orden foral que lo regule”.
+
+Dos. La disposición transitoria séptima del Decreto Foral 61/2013, de 18 de septiembre, por el que se regulan las actuaciones protegibles en materia de vivienda, queda redactada del siguiente modo:
+
+“Disposición Transitoria Séptima.-Fondo foral de vivienda social.
+
+1. Mediante orden foral del Consejero competente en materia de vivienda se creará el fondo foral de vivienda social que se podrá regir por lo previsto en este decreto foral para las viviendas de integración social en arrendamiento.
+
+2. Dicha orden foral establecerá, como mínimo, los siguientes aspectos:
+
+a) Determinación de las viviendas que pueden componer el fondo foral de vivienda social.
+
+b) Determinación de la garantía del cumplimiento por el arrendatario de sus obligaciones arrendaticias adicional a la fianza en metálico, mediante presentación de aval bancario o cualquier otra forma permitida por la Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos.
+
+c) Régimen de permanencia de las personas beneficiarias como arrendatarias de las viviendas acogidas al fondo.
+
+d) Determinación de la renta a abonar en concepto de pago del arrendamiento de la vivienda.
+
+3. El proyecto de orden foral será remitido para su consideración a la Comisión de Atención en Materia de Desahucios creada por el Gobierno de Navarra”.
+
+Tres. Se añade una disposición transitoria octava al Decreto Foral 61/2013, de 18 de septiembre, por el que se regulan las actuaciones protegibles en materia de vivienda, que quedará redactada de la siguiente forma:
+
+“Disposición transitoria octava.-Plazo máximo para terminar las obras de expedientes calificados provisionalmente como viviendas protegidas.
+
+Los expedientes para la calificación de viviendas protegidas que a la entrada en vigor del decreto foral por el que se regula el informe de evaluación de edificios no hubieran obtenido la calificación definitiva y cuyos plazos máximos de terminación de las obras no hubieran vencido, podrán tramitarse de acuerdo con los plazos establecidos en el artículo 24.1 del presente decreto foral. El incumplimiento de estos plazos, que se computarán de acuerdo con lo dispuesto en dicho artículo 24.1, dará lugar, en su caso, a la denegación de la correspondiente subvención”.
+
+Cuatro. Se añade una disposición transitoria novena al Decreto Foral 61/2013, de 18 de septiembre, por el que se regulan las actuaciones protegibles en materia de vivienda, que quedará redactada de la siguiente forma:
+
+“Disposición transitoria novena.-Ingresos mínimos para el acceso a subvención por arrendamiento y Renta de alquiler de inclusión social.
+
+1. Desde la entrada en vigor del decreto foral por el que se regula el informe de evaluación de edificios y hasta el 31 de diciembre de 2017, en la renovación o prórroga de los contratos de arrendamiento de viviendas de protección oficial y viviendas adscritas a la bolsa de alquiler, no se exigirán ingresos mínimos para el acceso a la correspondiente subvención.
+
+2. Del mismo modo, durante el periodo señalado en el apartado anterior, en la renovación o prórroga de los contratos de arrendamiento de viviendas de protección oficial y viviendas adscritas a la bolsa de alquiler en los que sus arrendatarios estén en riesgo de exclusión social por haber visto empeorada de forma sobrevenida su situación personal, laboral o económica, y siempre que dicho empeoramiento no tuviera reflejo en la última declaración del Impuesto sobre la Renta de las Personas Físicas que resultara exigible para acreditar su capacidad económica, se podrá acceder a una subvención del 75% de la renta para la nueva anualidad.
+
+Para ello, los inquilinos deberán presentar ante la empresa arrendadora un informe social del servicio social de base correspondiente al ámbito territorial donde se ubique la vivienda arrendada, junto con la documentación que justifique su situación actual de ingresos. El informe social emitido valorará la existencia de factores generadores de exclusión social de la unidad familiar del arrendatario y convivientes. En el caso de ser perceptor de la Renta de Inclusión Social, únicamente se requerirá la presentación ante la empresa arrendadora de la resolución de su concesión. La subvención así obtenida solo podrá solicitarse para una única anualidad.
+
+3. Los plazos de los apartados 1 y 2 de esta disposición transitoria podrán ser modificados mediante orden foral del Consejero competente en materia de vivienda”.
+
+Disposición Final Segunda. Desarrollo normativo.
+
+Se faculta al Consejero competente en materia de vivienda para dictar cuantas disposiciones se precisen para el desarrollo y ejecución de lo dispuesto en el presente decreto foral.
+
+Disposición Final Tercera. Entrada en vigor.
+
+El presente decreto foral entrará en vigor el mismo día de su publicación en el Boletín Oficial de Navarra.
+
+
+DECRETO FORAL 322/2000, DE 2 DE OCTUBRE, DEL GOBIERNO DE NAVARRA, POR EL QUE SE REGULA EL LIBRO DEL EDIFICIO
+
+BON N.º 129 - 25/10/2000
+
+Preámbulo
+
+El sector de la edificación, y en particular el de la vivienda, está sometido a una creciente exigencia de calidad por los usuarios, lo que lleva, por una parte, a un mayor compromiso de los sectores implicados y la propia Administración en la satisfacción de esa demanda, y por otra, a un incremento en el número de reclamaciones relacionadas con la vivienda.
+
+El estudio de esas reclamaciones manifiesta que un porcentaje no despreciable de ellas se hubieran evitado con operaciones de simple mantenimiento, y que no se han llevado a cabo por desconocimiento de los usuarios sobre la necesidad o el modo de efectuarlas.
+
+Por otra parte, un problema con el que se enfrentan las comunidades de propietarios de viviendas a la hora de acometer obras de reparación, reforma o rehabilitación de los edificios, es la inexistencia o la gran dificultad para obtener la documentación técnica que refleje la forma en que se ejecutaron las obras de edificación o instalaciones, y que resulta necesaria para posteriores actuaciones.
+
+Del mismo modo, parte de la documentación jurídico-administrativa que afecta al solar, al propio edificio, o a su proceso de edificación, queda dispersa o ilocalizable cuando resulta necesaria para los usuarios.
+
+La Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación , incorpora a los propietarios y usuarios a la lista de agentes de la edificación, estableciendo como obligatoria la entrega a los usuarios finales del edificio de diversa documentación técnica agrupada en un Libro del Edificio. Este libro supondrá para los usuarios una inestimable ayuda para cumplir las obligaciones de conservación, buen uso y mantenimiento del edificio que la misma ley les impone.
+
+El presente Decreto Foral regula el contenido del Libro del Edificio que estará a cargo de las comunidades de propietarios, dándole un carácter de archivo completo de la documentación relativa a la edificación, no sólo en su aspecto físico o técnico, sino también en el jurídico-administrativo, comprendiendo, además de la correspondiente al proceso de su construcción, la que se derive de su uso, mantenimiento, o modificaciones que puedan efectuarse a lo largo de su vida útil.
+
+La existencia de un libro así estructurado permitirá a los usuarios del edificio conocer las condiciones de uso del propio edificio y de sus elementos o instalaciones, emprender las necesarias operaciones de mantenimiento, prolongando su vida útil y evitando el deterioro irreversible de sus elementos, o emprender obras de reforma o rehabilitación con el conocimiento cierto de las condiciones en que se encuentra el edificio o se efectuó su construcción.
+
+Asimismo podrán conocer la identidad de profesionales y empresas que intervinieron en el proceso edificatorio y las garantías que se establecieron en su intervención.
+
+Habiéndose solicitado informe preceptivo al Consejo de Navarra en relación a lo dispuesto en el presente Decreto Foral, tal y como establece el artículo 17.1.a) de la Ley Foral 8/1995, de 16 de marzo, se ha obtenido informe favorable al mismo en cuanto a su adecuación jurídica global, y se han corregido las observaciones aducidas en el mismo.
+
+En su virtud, a propuesta del Consejero de Medio Ambiente, Ordenación del Territorio y Vivienda, y de conformidad con el Acuerdo adoptado por el Gobierno de Navarra en sesión celebrada el día dos de octubre de dos mil, Decreto;
+
+Artículo 1. Supuestos de obligatoriedad del Libro del Edificio.
+
+En todos los edificios destinados a vivienda que se construyan en el ámbito de la Comunidad Foral de Navarra a partir de la entrada en vigor del presente Decreto Foral, será obligatoria la existencia del Libro del Edificio de acuerdo con los requisitos y en la forma que se indica en el presente Decreto Foral.
+
+1. En las obras de rehabilitación que afecten a la totalidad del edificio destinado a viviendas, sus instalaciones generales o elementos comunes, o en los casos de rehabilitaciones beneficiarias de ayudas públicas, será obligatoria la formalización de un Libro del Edificio, aunque deberán figurar en él exclusivamente los datos y documentos que se deriven de la propia actividad rehabilitadora.
+
+2. Será asimismo de aplicación en cualquier otro supuesto en que resulte obligatoria la existencia del Libro del Edificio por aplicación de lo dispuesto en la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación .
+
+Artículo 2. Obligación de custodia, actualización y transmisión del Libro.
+
+1. El propietario del edificio o persona en quien delegue de acuerdo con la normativa de aplicación, estará obligado a la custodia y actualización del Libro del Edificio efectuando las oportunas inscripciones o archivo de la documentación que corresponda.
+
+En los edificios en los que se haya establecido el régimen de propiedad horizontal, la persona que venga obligada a la custodia de documentación del edificio por la legislación en materia de propiedad horizontal asumirá las funciones a que se refiere el párrafo anterior;
+
+2. En todas las inscripciones o incorporación de documentos al Libro del Edificio deberá constar la fecha y la firma de la persona que tenga atribuida la custodia del Libro del Edificio según el apartado 2.1 de este artículo.
+
+3. Las operaciones de mantenimiento, reforma, rehabilitación o cualquier otra que modifique los datos existentes en el Libro deberán registrarse en el Libro del Edificio en el plazo de un mes desde que se produzcan o hayan finalizado.
+
+Los documentos que deban incluirse en el archivo se incorporarán al mismo en el plazo de un mes desde que se obtuvieran.
+
+4. La existencia del Libro del Edificio debidamente actualizado, y en el que consten las operaciones de mantenimiento y reparación, surtirá efectos en orden a la justificación del cumplimiento de las obligaciones que para los propietarios y usuarios establece la Ley 38/1.999, de 5 de noviembre, de Ordenación de la Edificación , así como de cualquier otra obligación de mantenimiento que para elementos o instalaciones especiales establezca la normativa sectorial correspondiente.
+
+Artículo 3. Acceso al Libro del Edificio.
+
+El Libro del Edificio estará a disposición de todos los copropietarios, así como de los representantes de la Administración que procedan a la inspección del cumplimiento de las obligaciones derivadas del presente Decreto Foral, o de la ejecución de las operaciones de control o mantenimiento que resulten obligatorias en el edificio o sus instalaciones. En ambos casos se podrá exigir efectuar copias de todo o parte del contenido del Libro del Edificio a costa del solicitante.
+
+Artículo 4. Contenido del Libro del Edificio.
+
+El Libro del Edificio incluirá en primer lugar una copia del presente Decreto Foral que regula su contenido, y constituirá la guía para su actualización. El resto del contenido se agrupará en los siguientes apartados:
+
+- Datos Generales del Edificio.
+
+- Archivo de Documentos.
+
+- Proyecto y otros Documentos Técnicos.
+
+- Registro de Incidencias.
+
+- Registro de Operaciones de Mantenimiento y Rehabilitación.
+
+Artículo 5. Datos Generales del Edificio.
+
+Los datos generales del edificio se anotarán agrupados en los siguientes apartados:
+
+- Identificación del Edificio.
+
+- Datos Jurídico-Administrativos.
+
+- Intervinientes en el proceso edificatorio.
+
+- Garantías y Seguros.
+
+- Otros Datos u Observaciones.
+
+Artículo 6. Identificación del Edificio.
+
+a) Nombre: Se indicará en el caso de existir denominación del edificio.
+
+b) Dirección: Dirección postal completa y referencia catastral.
+
+c) Datos registrales de la escritura de la Declaración de Obra Nueva y División en Propiedad Horizontal, en su caso, número de finca, Tomo, Libro y Hoja.
+
+d) Plano de emplazamiento; A escala suficiente, en el que pueda apreciarse claramente su relación con las calles o elementos próximos, de forma que resulte fácilmente identificable.
+
+e) Cédula parcelaria.
+
+f) Fotografía de la fachada principal del edificio terminado, en tamaño mínimo de 9 por 13 centímetros.
+
+Artículo 7. Datos JurídicoAdministrativos.
+
+a) Fecha del acta de recepción del Libro del Edificio y número de archivo en el que se encuentra.
+
+b) Fecha del acta de recepción de la obra.
+
+c) Fecha de la Licencia Municipal de Obras y número de archivo en el que se encuentra.
+
+d) Fecha del Certificado Final de Obras y número de archivo en el que se encuentra.
+
+e) Fecha de la Licencia Municipal de primera utilización y número de archivo en el que se encuentra.
+
+f) Fecha(s) de la(s) licencias de apertura, en su caso, y número de archivo en el que se encuentran.
+
+g) Fecha de otras licencias o autorizaciones de uso: Elevadores, instalaciones comunes, etc., y número de archivo en el que se encuentran.
+
+h) Fecha de obtención de las Cédulas de Habitabilidad.
+
+i) Declaración de Obra Nueva: nombre del notario, número de protocolo, fecha y número de archivo en el que se encuentra la escritura.
+
+j) Cargas Reales: Descripción, documento que las contiene y número de archivo en que se encuentra.
+
+k) Régimen de propiedad (Vertical, Horizontal, Multipropiedad).
+
+l) Escritura de División del edificio en régimen de propiedad horizontal, en su caso: nombre del notario, número de protocolo, fecha, relación de unidades registrales independientes indicando: número de finca, situación, superficie, destino, cuota de participación y número de archivo en el que se encuentra la escritura.
+
+m) Regímenes especiales, en su caso, (protección, ayudas públicas, etc.): Fecha de la Calificación Definitiva o del documento en el que se determina la concesión de las ayudas, número de archivo en el que se encuentra el documento.
+
+Artículo 8. Intervinientes en el proceso edificatorio.
+
+a) Promotor: Denominación, Número de Identificación Fiscal (en adelante N.I.F.) y domicilio. En el caso de agrupaciones o cooperativas de vivienda, se indicarán además, la fecha de constitución y la fecha del acuerdo de disolución, en su caso, así como los números de archivo donde se encuentran los documentos.
+
+En el caso de las cooperativas en la que hubiera existido un promotor o gestor de la cooperativa, se indicará su denominación, N.I.F. y domicilio, así como la fecha del contrato y número de archivo en que se encuentra.
+
+b) Autores del proyecto o proyectos con los que se ejecutó la obra: proyecto arquitectónico, de estructura, de instalaciones, etc., indicando en cada caso: Nombre, titulación y N.I.F.
+
+c) Dirección facultativa: Nombre, titulación y N.I.F. de los facultativos que dirigieron la obra, la ejecución de la obra y, en su caso, las partes de la obra o instalaciones que hubieran sido dirigidas por profesional distinto de los anteriores.
+
+d) Constructor: Denominación, N.I.F. y domicilio.
+
+e) Subcontratistas e industriales instaladores: Denominación y N.I.F. de las empresas ajenas al constructor que intervinieron en la ejecución de la obra, debiendo constar expresamente, al menos, los datos de los ejecutores de las instalaciones de fontanería, calefacción, electricidad, gas, elevadores, telecomunicaciones, contraincendios y climatización, en todos los casos en que el edificio las contenga.
+
+Artículo 9. Garantías y Seguros.
+
+1. Se harán constar los períodos correspondientes a las siguientes garantías por daños materiales ocasionados por vicios o defectos de construcción:
+
+a) Garantía por un periodo de diez años para el resarcimiento de los daños materiales causados en el edificio por vicios o defectos que tengan su origen o afecten a la cimentación, los soportes, las vigas, los forjados u otros elementos estructurales y que comprometan directamente la resistencia mecánica o estabilidad del edificio.
+
+Se indicará la fecha de finalización del período de garantía, así como denominación de la compañía aseguradora, tomador del seguro, vencimiento, cuantía de la póliza, y número de archivo donde se encuentra.
+
+b) Garantía por un período de tres años para el resarcimiento de los daños causados por vicios o defectos de los elementos constructivos o de las instalaciones.
+
+Se indicará la fecha de finalización del período de garantía, así como, en el caso de existir seguro que la cubra, denominación de la compañía aseguradora, tomador del seguro, vencimiento, cuantía de la póliza, y archivo donde se encuentra. Si la garantía de una instalación fuera ofrecida por el industrial instalador, se indicará la denominación del garante, N.I.F., instalación garantizada, fecha de vencimiento y número de archivo en que se encuentra.
+
+c) Garantía por un período de un año para el resarcimiento de los daños materiales por vicios o defectos que afecten a los elementos de terminación o acabado de las obras.
+
+Se indicará la fecha de finalización del período de garantía, así como, en el caso de existir seguro que la cubra, denominación de la compañía aseguradora, tomador del seguro, vencimiento, cuantía de la póliza, y archivo donde se encuentra.
+
+2. Otros seguros o garantías que afecten al edificio, sus instalaciones o elementos comunes. Se indicarán los datos correspondientes a los seguros contratados: Objeto del seguro, denominación de la compañía aseguradora, tomador del seguro, vencimiento, cuantía de la póliza, y número de archivo en que se encuentra.
+
+En el caso de garantías se indicarán los bienes garantizados, así como la denominación del garante, N.I.F., fecha de vencimiento de la garantía y número de archivo en que se encuentra.
+
+Artículo 10. Otros datos u observaciones.
+
+Se indicarán en este apartado cuantos datos, no incluidos entre los anteriores, el promotor considere oportuno incluir en la entrega del libro.
+
+Artículo 11. Archivo de documentos.
+
+El archivo de documentos estará formado por un archivador de hojas formato DIN A4 en cuyo interior deberá figurar una nota con instrucciones sobre la forma de archivar la documentación y un índice enumerativo de los documentos que incluye, con indicación de los apartados de que consta y documentos que contiene cada apartado. En el archivo constarán los siguientes documentos:
+
+a) Actas.
+
+b) Escrituras.
+
+c) Licencias.
+
+d) Autorizaciones de uso de las instalaciones que lo precisen.
+
+e) Certificado final de obras.
+
+f) Calificación Definitiva o documentos de concesión de ayudas.
+
+g) Pólizas de seguros.
+
+h) Garantías de suministradores.
+
+i) Acta de recepción del Libro del Edificio.
+
+j) Estatutos de la Agrupación o cooperativa de viviendas.
+
+k) Estatutos de la Comunidad de Propietarios.
+
+l) Otros.
+
+Todos los documentos que se incluyan en el archivo deberán ser originales o copias autenticadas o compulsadas. En caso de no ser originales, se hará constar la situación del documento original.
+
+Artículo 12. Proyectos y otros documentos técnicos.
+
+Asimismo, el Libro del Edificio contendrá:
+
+1.º Una copia visada y completa del proyecto arquitectónico del edificio, si se hubiera construido sin modificación alguna sobre el proyecto y así constara expresamente en el certificado final de obras.
+
+Si las obras se hubieran ejecutado con modificaciones sobre el proyecto inicial, se sustituirá el proyecto por documentación final de obras igualmente completa y visada que contenga, al menos, la misma documentación y especificaciones que el proyecto inicial.
+
+2.º Las copias, en los mismos términos que en el apartado anterior, de cuantos proyectos o expedientes hubieran sido precisos para la ejecución de las obras de construcción del edificio, sus instalaciones o elementos comunes, así como para su tramitación administrativa (Actividades clasificadas, autorizaciones de uso, etc.).
+
+3.º Las Instrucciones de uso y mantenimiento del edificio y de sus instalaciones o elementos comunes (Las de las instalaciones propias de cada vivienda se suministrarán a sus adquirientes).
+
+Las instrucciones de uso y mantenimiento comprenderán todas las unidades de obra, elementos o instalaciones incluidas en el edificio y contendrán, al menos, los apartados siguientes:
+
+a) Descripción de cada unidad, elemento, o instalación.
+
+b) Precauciones y recomendaciones.
+
+c) Prohibiciones.
+
+d) Mantenimiento, en su caso, por el usuario y/o por personal cualificado.
+
+e) Calendario de operaciones recomendables y obligatorias de la unidad.
+
+4.º Calendario de las acciones de mantenimiento obligatorio y recomendable incluidas en las instrucciones de cada unidad, agrupadas por su frecuencia en períodos: mensual, trimestral, anual, etc. e inferiores a veinte años.
+
+5.º Modificaciones efectuadas durante la vida del edificio. Se archivará la documentación de los proyectos correspondientes a las reformas o modificaciones que se efectúen y que figuren en el registro de incidencias, incluyendo la documentación que sustituya o complemente a la de los apartados 1, 2, 3 y 4, del presente artículo, correspondiente al proyecto inicial.
+
+Artículo 13. Registro de incidencias.
+
+En este registro, el propietario o comunidad de propietarios anotará cuantas incidencias durante la vida útil del edificio considere necesario que figuren en el Libro, debiendo figurar al menos:
+
+1.º Reformas o cambios de uso. De las modificaciones y reformas que afecten al conjunto del edificio, sus instalaciones o elementos comunes, así como de los cambios de uso que se efectúen, se registrará:
+
+a) Descripción de la modificación
+
+b) Datos del proyecto, en su caso, indicando autor, titulación, domicilio. El proyecto deberá incorporarse con el resto de la documentación técnica.
+
+c) Fecha de la licencia de obras y número de archivo en que se encuentra.
+
+d) Ayudas públicas, en su caso, indicando los datos del documento en el que se conceden y número de archivo en que se encuentra.
+
+2.º Otras incidencias. Se dejará constancia de cualquier otra incidencia que modifique los datos iniciales del edificio o que afecte al conjunto, sus instalaciones o elementos comunes.
+
+Artículo 14. Registro de Operaciones de Mantenimiento y Rehabilitación.
+
+1. Se incluirá en el Libro del Edificio un archivador para hojas formato DIN A4, en el que consten los siguientes apartados:
+
+a) Contratos de mantenimiento.
+
+b) Registro de operaciones de mantenimiento.
+
+c) Registro de operaciones de reparación.
+
+d) Registro de operaciones de rehabilitación.
+
+El archivador contendrá para todos los apartados, al menos un ejemplar de hoja según modelo oficial, que servirá de original para la obtención de las copias que vayan resultando necesarias.
+
+2. Contratos de Mantenimiento. Se indicarán de cada contrato de mantenimiento efectuado por la comunidad de propietarios y que afecte al conjunto del edificio, sus elementos comunes o sus instalaciones generales, los siguientes datos:
+
+a) Finalidad del contrato.
+
+b) Fecha, duración y número de archivo en que se encuentra.
+
+c) Empresa o profesional contratado: Nombre, N.I.F., domicilio y teléfono.
+
+3. Registro de Operaciones de Mantenimiento. De cada operación de mantenimiento se dejará constancia indicando al menos:
+
+a) Descripción de la operación, indicando si está incluida en el calendario de mantenimiento y su carácter obligatorio o voluntario.
+
+b) Fecha.
+
+c) Empresa o profesional que la efectúa: Nombre, N.I.F. y domicilio.
+
+d) Fecha del contrato, en su caso, y número de archivo en que se encuentra.
+
+4. Registro de Operaciones de Reparación. De cada operación de reparación efectuada, no incluida en las de mantenimiento, y que sea debida a defectos de la construcción o de las instalaciones, a su natural deterioro por envejecimiento o a cualquier otra causa, se dejará constancia indicando al menos:
+
+a) Descripción de la operación, indicando el defecto que origina la reparación y si está cubierta por garantía.
+
+b) Fecha en que se ha efectuado.
+
+c) Empresa o profesional que la efectúa: Nombre, N.I.F. y domicilio.
+
+d) Fecha del contrato, en su caso, y número de archivo en que se encuentra.
+
+e) Garantías de la propia reparación.
+
+5. Registro de Operaciones de Rehabilitación. Cuando se acometan operaciones de rehabilitación de todo o parte del edificio que no quepa incluirlas entre las operaciones de mantenimiento por su envergadura o por no estar incluidas en el calendario de mantenimiento con una periodicidad inferior a veinte años, o cuando se trate de operaciones de rehabilitación acogidas a algún tipo de ayuda pública, se dejará constancia en el libro, indicando al menos:
+
+a) Proyecto: Autor, titulación y N.I.F. (El proyecto se incluirá en el archivo de documentación técnica).
+
+b) Fecha de la licencia de obras y número de archivo en que se encuentra.
+
+c) Fecha del Certificado final de obras y número de archivo en que se encuentra.
+
+d) Empresa que la efectúa: Denominación, N.I.F., domicilio y teléfono.
+
+e) Fechas de los contratos, en su caso, de la empresa que efectuará las obras y de los técnicos que redactan el proyecto y dirigen las obras, y número de archivo en que se encuentran.
+
+f) Garantías de la rehabilitación.
+
+g) Ayudas públicas, en su caso, descripción y cuantía de las ayudas, documento en el que se conceden y número de archivo en que se encuentran.
+
+Artículo 15. Formalización del Libro del Edificio.
+
+Acabada la obra, el promotor del edificio deberá formalizar el Libro del Edificio cumplimentando los datos del apartado de Datos Generales del Edificio completo, con excepción de aquellos seguros que corresponda formalizar a la comunidad de propietarios y que se describen el artículo 9.2 .
+
+En el Archivo de Documentos se incorporarán todos aquellos que correspondan a los Datos Generales.
+
+Asimismo agrupará los proyectos y resto de documentación técnica establecida en el artículo 12 , con excepción de los indicados en el punto 12.5.
+
+Los Registros de Incidencias y de Operaciones de Mantenimiento y Rehabilitación, se suministrarán sin cumplimentar con hojas preparadas para su formalización según modelo oficial, para su cumplimentación por los propietarios atendiendo a lo dispuesto en los artículos 13 y 14 del presente Decreto Foral.
+
+Artículo 16. Entrega del Libro del Edificio.
+
+1. El promotor deberá entregar el Libro del Edificio al adquiriente del edificio en el acto de transmisión de la propiedad, cuando se trate de un único propietario. Si el edificio está sometido al régimen de propiedad horizontal, se entregará a la comunidad de propietarios, una vez que se haya constituido y se haya producido la designación de sus representantes.
+
+Al formalizar la entrega del libro se firmarán dos copias de un acta de recepción en la que constará la fecha de la entrega del libro, así como declaración de que el contenido del libro entregado se ajusta a las determinaciones de este Decreto Foral. Una de ellas se incorporará al propio Libro del Edificio y la otra servirá al promotor como justificante de la entrega.
+
+Corresponderá al promotor del edificio el deber de custodiar el Libro del Edificio hasta la fecha de la firma del acta de recepción.
+
+2. En el caso de promociones que comprendan varios edificios o portales en los que se constituyan comunidades de propietarios independientes, se entregará un ejemplar del Libro del Edificio para cada comunidad.
+
+3. A los adquirientes de las viviendas en régimen de propiedad horizontal, en el acto de transmisión de la propiedad se les entregará copias de las hojas correspondientes a los Datos Generales del Edificio, según modelo oficial.
+
+En todo caso, las citadas copias irán firmadas por el promotor y en ellas figurará de forma apreciable la siguiente nota: “Una vez constituida la comunidad de propietarios y elegidos sus representantes, deberán solicitar al promotor de manera fehaciente, la entrega del Libro del Edificio completo según lo dispuesto en el Decreto Foral debiendo efectuarse la firma del acta de recepción del libro en el plazo de dos meses desde la fecha de recepción de la solicitud”.
+
+Asimismo se entregará en el mismo acto a los adquirientes de las diferentes viviendas, la documentación técnica, garantías e instrucciones de uso y mantenimiento de las instalaciones particulares de cada vivienda, que no estén incluidas dentro del Libro del Edificio.
+
+4. En edificios en régimen de propiedad horizontal en los que no se hubiera constituido la comunidad de propietarios y el Libro del Edificio permanezca en posesión del promotor, deberá éste garantizar que se cumplan los requisitos de accesibilidad del libro establecidos en el artículo 3.
+
+5. Si constituida la comunidad de propietarios no se solicitara al promotor la entrega del libro, podrá éste efectuarla a los representantes de la comunidad por su propia iniciativa.
+
+Si el representante de la comunidad se negara a recibir el libro o a la firma de la correspondiente acta de recepción, repetirá el promotor fehacientemente la solicitud de su depósito y, en caso de persistir la negativa a la recepción o firma del acta, lo comunicará al Departamento de Medio Ambiente, Ordenación del Territorio y Vivienda, para el inicio de las acciones oportunas.
+
+6. Cuando el edificio quede como propiedad del promotor, la formalización del Libro del Edificio deberá efectuarse en el plazo de dos meses desde la obtención de la licencia de primera utilización.
+
+7. En caso de transmisión de la propiedad del edificio en régimen de propiedad vertical, deberá transmitirse simultáneamente el Libro del Edificio completo.
+
+Artículo 17. Espacio para el depósito del Libro del Edificio.
+
+En edificios de viviendas de nueva planta en régimen de propiedad horizontal, en los que no exista un local para uso exclusivo de los representantes de la comunidad, deberá preverse un espacio accesible desde elemento común, en el que pueda instalarse un armario con capacidad para contener el Libro del Edificio. La comunidad de propietarios podrá decidir otra ubicación distinta para el Libro del Edificio.
+
+Artículo 18. El Libro del Edificio en la tramitación final de las viviendas.
+
+El promotor del edificio, al solicitar las Cédulas de Habitabilidad como viviendas libres o la Calificación Definitiva de viviendas acogidas a algún tipo de protección pública, deberá aportar copias firmadas de las hojas correspondientes a los Datos Generales del Edificio.
+
+Disposición Adicional Única
+
+Los modelos de documentos a incluir en el Libro del Edificio serán aprobados por Orden Foral del Consejero de Medio Ambiente, Ordenación del Territorio y Vivienda. Asimismo se faculta al referido Consejero para dictar cuantas normas sean necesarias para la ejecución del presente Decreto Foral.
+
+Disposición Final Única
+
+El presente Decreto Foral, con excepción de lo dispuesto en el artículo 17, será de aplicación a los edificios de nueva planta que contengan viviendas y que soliciten las Cédulas de Habitabilidad o de Calificación Definitiva con posterioridad al primer día de enero del año 2001.
+
+Lo dispuesto en el artículo 17 del presente Decreto Foral será de aplicación a los edificios para los que se solicite Licencia Municipal de Obras con posterioridad al primer día de enero del año 2001.

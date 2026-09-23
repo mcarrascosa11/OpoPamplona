@@ -1,0 +1,278 @@
+================================================================
+TEMA 35 — LAS LICENCIAS URBANÍSTICAS: OBRAS, PRIMERA UTILIZACIÓN
+U OCUPACIÓN, APERTURA. CONCEPTO, PROCEDIMIENTO, RESOLUCIÓN Y
+EFECTOS. RÉGIMEN DE LOS ACTOS PROMOVIDOS POR LAS AAPP. LAS
+DECLARACIONES RESPONSABLES Y LAS COMUNICACIONES DE OBRAS.
+================================================================
+
+ALCANCE: tema temático, sin norma citada en el enunciado. En Navarra la
+fuente troncal es el DECRETO FORAL LEGISLATIVO 1/2017, de 26 de julio,
+Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo
+(TRLFOTU), BON nº 168 de 31/08/2017, en vigor al día siguiente de su
+publicación. El núcleo del tema es el TÍTULO V "Intervención
+administrativa en la edificación y usos del suelo y disciplina
+urbanística", CAPÍTULO I "Intervención en la edificación y uso del
+suelo", SECCIÓN 1ª "Licencias urbanísticas" = ARTÍCULOS 190 A 197.
+(La Sección 2ª, arts. 198-199, órdenes de ejecución y declaración de
+ruina, NO entra en este tema.)
+
+AVISO DE VERSIÓN: usar la versión consolidada vigente. El art. 192 fue
+modificado por la Ley Foral 4/2021, de 22 de abril.
+
+NOTA DE FIABILIDAD (para Claude Code): las rúbricas de los arts. 190-197,
+el concepto del 190.1, el art. 47, los apartados de silencio (72.5 y
+77.5) y la modificación del 192 están verificados contra fuente oficial
+(lexnavarra / BOE). El texto literal íntegro de los arts. 191-197 debe
+completarse desde el TRLFOTU consolidado
+(https://www.lexnavarra.navarra.es/detalle.asp?r=39197): aquí se recoge
+su rúbrica y función, no su articulado palabra por palabra. NO generar
+preguntas sobre apartados numéricos concretos de esos artículos que no
+figuren expresamente abajo.
+
+================================================================
+1. CONCEPTO DE LICENCIA URBANÍSTICA
+================================================================
+
+Art. 190.1 TRLFOTU (literal): la licencia urbanística es un ACTO
+ADMINISTRATIVO DE CONTROL PREVIO, de carácter REGLADO y DECLARATIVO,
+mediante el cual la Administración correspondiente autoriza las
+actuaciones urbanísticas proyectadas previa comprobación de su
+conformidad al ordenamiento urbanístico vigente.
+
+Notas del concepto:
+- Control PREVIO: se comprueba antes de actuar; no se puede iniciar la
+  obra/uso sin obtenerla.
+- REGLADO: no es discrecional; si el proyecto se ajusta al ordenamiento,
+  debe otorgarse (y si no, debe denegarse). No caben dispensas.
+- DECLARATIVO: no otorga derechos nuevos, sino que constata que el
+  derecho preexistente (a edificar/usar) puede ejercerse conforme a la
+  ordenación.
+- Competencia MUNICIPAL (actividad urbanística pública corresponde con
+  carácter general a los municipios, art. 11 TRLFOTU).
+
+================================================================
+2. ARTICULADO DE LA SECCIÓN 1ª (arts. 190-197): MAPA DEL TEMA
+================================================================
+
+ART. 190 — ACTOS SUJETOS A LICENCIA.
+  Enumera los actos de transformación, construcción, edificación y uso
+  del suelo y subsuelo que requieren licencia urbanística municipal.
+  Entre ellos: obras de edificación de nueva planta y de ampliación;
+  obras en edificios existentes; la PRIMERA UTILIZACIÓN U OCUPACIÓN de
+  los edificios e instalaciones; parcelaciones; demoliciones;
+  movimientos de tierra; etc.
+  -> "Obras" y "primera utilización u ocupación" del enunciado del tema
+     se encuadran aquí, como actos sujetos a licencia.
+  [Completar la lista literal desde el TRLFOTU consolidado.]
+
+ART. 191 — OBRAS ORDINARIAS PROMOVIDAS POR LA ADMINISTRACIÓN MUNICIPAL.
+  Régimen de las obras que promueve el propio Ayuntamiento (no se somete
+  a sí mismo a licencia, pero sigue un procedimiento de aprobación que
+  cumple la función de control de legalidad urbanística). Es la primera
+  pata del "régimen de los actos promovidos por las AAPP".
+
+ART. 192 — ACTOS SUJETOS A DECLARACIÓN RESPONSABLE O COMUNICACIÓN PREVIA.
+  Enumera los actos que NO requieren licencia y se sujetan a declaración
+  responsable o a comunicación previa (obras y actuaciones de menor
+  entidad / sin proyecto, entre otras).
+  MODIFICACIÓN POR LEY FORAL 4/2021, de 22 de abril (verificado):
+   - Añadió la letra g): instalaciones de aprovechamiento de ENERGÍA
+     SOLAR PARA AUTOCONSUMO (con sus excepciones).
+   - Añadió la letra h): los PUNTOS DE RECARGA DE VEHÍCULOS ELÉCTRICOS
+     situados en el interior de edificaciones, salvo que pudieran
+     suponer impacto sobre bienes declarados de interés cultural o
+     sujetos a otro régimen de protección.
+   - Finalidad expresa: dejar claro que este tipo de instalaciones NO
+     precisan licencia de obras municipal.
+  [Completar la lista literal completa de letras desde el consolidado.]
+
+ART. 193 — PLAZOS PARA LA SOLICITUD DE LICENCIAS.
+  Fija los plazos en que debe solicitarse la licencia.
+  [Completar contenido literal desde el consolidado.]
+
+ART. 194 — COMPETENCIA Y PROCEDIMIENTO PARA EL OTORGAMIENTO DE LAS
+  LICENCIAS.
+  Órgano competente municipal y trámites del procedimiento de
+  otorgamiento (solicitud + documentación/proyecto, informes técnicos y
+  jurídicos, resolución). Procedimiento del lado "licencia" (control
+  previo). Supletoriedad de la Ley 39/2015 en lo no previsto.
+  [Completar contenido literal desde el consolidado.]
+
+ART. 195 — PROCEDIMIENTO GENERAL PARA LOS ACTOS SUJETOS A DECLARACIÓN
+  RESPONSABLE O COMUNICACIÓN.
+  Procedimiento del lado "declaración responsable / comunicación"
+  (control posterior): presentación con la documentación exigida,
+  habilitación para actuar desde ese momento, y comprobación municipal
+  a posteriori.
+  [Completar contenido literal desde el consolidado.]
+
+ART. 196 — RESOLUCIÓN DEL PROCEDIMIENTO DE SOLICITUD DE LICENCIAS.
+  Resolución (expresa) del procedimiento de licencia y régimen del
+  silencio administrativo. Principio aplicable (ver punto 4): el silencio
+  nunca puede otorgar facultades contra la ordenación urbanística.
+  [Completar contenido literal y sentido del silencio desde el
+  consolidado / ordenanza municipal.]
+
+ART. 197 — EFICACIA DE LAS LICENCIAS.
+  Eficacia, condiciones, plazos de iniciación/ejecución/caducidad y
+  transmisión de las licencias.
+  [Completar contenido literal desde el consolidado.]
+
+================================================================
+3. "APERTURA" / ACTIVIDAD: NO ES LICENCIA URBANÍSTICA EN NAVARRA
+================================================================
+
+TRAMPA CENTRAL DEL TEMA. El enunciado mete "apertura" junto a las
+licencias, pero en Navarra el control de la implantación y apertura de
+ACTIVIDADES NO se rige por el TRLFOTU, sino por:
+  - LEY FORAL 4/2005, de 22 de marzo, de intervención para la protección
+    ambiental.
+  - DECRETO FORAL 93/2006, de 28 de diciembre, reglamento de desarrollo
+    de la LF 4/2005.
+Por esa vía se canalizan la licencia de actividad clasificada y los
+regímenes de declaración responsable / comunicación para actividades
+(según su incidencia ambiental).
+Hay que distinguir: URBANISMO (obras y usos del suelo -> TRLFOTU) frente
+a ACTIVIDAD / apertura (incidencia ambiental -> LF 4/2005 + DF 93/2006).
+En la práctica una implantación suele necesitar AMBOS títulos: el de
+obra (TRLFOTU) y el de actividad (LF 4/2005), y la primera utilización /
+licencia de apertura se vincula a la comprobación del fin de obra.
+
+================================================================
+4. RÉGIMEN DE LOS ACTOS PROMOVIDOS POR LAS ADMINISTRACIONES PÚBLICAS
+================================================================
+
+DOS CAPAS:
+(a) Obras ordinarias de la propia Administración MUNICIPAL: art. 191
+    TRLFOTU (procedimiento interno de aprobación en sustitución de la
+    licencia a sí misma).
+(b) Obras de otras AAPP amparadas en PLANES O PROYECTOS SECTORIALES DE
+    INCIDENCIA SUPRAMUNICIPAL (PSIS): EXENCIÓN DE CONTROL LOCAL.
+
+Art. 47 TRLFOTU — Exención de controles locales (literal, resumido de su
+texto vigente): las obras previstas en un Plan o Proyecto Sectorial de
+Incidencia Supramunicipal, sin perjuicio de las obligaciones tributarias
+ante las entidades locales, NO estarán sujetas a licencia ni a cualquier
+otro control preventivo local cuando se cumplan, entre otros, estos
+requisitos:
+  1. Que se trate de construcción y reparación de infraestructuras,
+     dotaciones e instalaciones (y su puesta en funcionamiento)
+     DECLARADAS DE INTERÉS GENERAL por el Gobierno de Navarra. La
+     declaración de interés general puede hacerse a la vez que la
+     aprobación definitiva del PSIS o después por decreto foral.
+  2. Que el Departamento competente comunique dicha declaración a las
+     entidades locales afectadas.
+  3. Que, antes del inicio, el promotor acredite ante el Departamento la
+     sujeción del proyecto de ejecución al PSIS y a la normativa
+     ambiental.
+  4. Que el Departamento, previa audiencia de las entidades locales,
+     autorice la ejecución.
+  5. Que se comunique el cumplimiento de los requisitos a las entidades
+     locales; desde esa notificación el promotor puede iniciar las obras.
+  6. Finalizadas, el promotor presenta certificación de técnico
+     competente de que se ajustan al proyecto, de la que se da traslado
+     a las entidades locales.
+  7. Verificado el cumplimiento, el Departamento autoriza el inicio de la
+     actividad.
+
+================================================================
+5. DECLARACIÓN RESPONSABLE Y COMUNICACIÓN FRENTE A LA LICENCIA
+================================================================
+
+CUADRO DE DIFERENCIAS:
+
+LICENCIA (control PREVIO):
+  - La Administración autoriza ANTES de actuar, tras comprobar la
+    conformidad del proyecto con el ordenamiento (acto reglado).
+  - No se puede iniciar la obra/uso sin el acto de otorgamiento.
+  - Procedimiento: arts. 194 y 196 TRLFOTU.
+
+DECLARACIÓN RESPONSABLE (control POSTERIOR):
+  - Documento en el que el interesado manifiesta, bajo su
+    responsabilidad, que cumple los requisitos y que dispone de la
+    documentación que lo acredita.
+  - HABILITA para actuar DESDE SU PRESENTACIÓN con la documentación
+    completa; el Ayuntamiento comprueba después.
+  - En Pamplona la DR se presenta siempre con anterioridad al inicio de
+    las obras y se comprueba en ese mismo momento por técnico municipal.
+
+COMUNICACIÓN (PREVIA) (control POSTERIOR):
+  - Puesta en conocimiento de la Administración de la intención de
+    realizar una actuación; habilita igualmente desde su presentación.
+  - Régimen de comprobación posterior por la Administración.
+  - Procedimiento de DR/comunicación: art. 195 TRLFOTU.
+
+PRINCIPIO COMÚN — NO SE LEGITIMA LO CONTRARIO A LA ORDENACIÓN:
+  Ni el silencio ni una declaración responsable/comunicación legitiman
+  obras o usos contra la ordenación. Verificado en el TRLFOTU:
+  - Art. 72.5 (literal): "No podrán adquirirse por silencio
+    administrativo facultades o derechos que contravengan la ordenación
+    territorial o urbanística y que culminan determinando la nulidad de
+    pleno derecho de estos actos. Por ello la Administración municipal
+    deberá iniciar el correspondiente procedimiento de revisión de
+    oficio (...)".
+  - Art. 77.5 (literal, en lo esencial): la aprobación por silencio no
+    puede vulnerar leyes ni planeamiento de rango superior; "tampoco
+    podrán adquirirse por silencio administrativo facultades o derechos
+    que contravengan la legislación y la ordenación territorial o
+    urbanística"; serán NULOS de pleno derecho e INEFICACES los así
+    obtenidos.
+  - (Coherente con el art. 11 del TR de la Ley de Suelo estatal,
+    RDLeg 7/2015.)
+  SUPLETORIEDAD: en lo no previsto, rige la Ley 39/2015 (procedimiento,
+  silencio, revisión).
+
+================================================================
+6. ORDENANZAS MUNICIPALES DE PAMPLONA APLICABLES (verificado)
+================================================================
+
+Pamplona NO tiene una ordenanza única de licencias; el régimen está
+disperso:
+  - Ordenanza Municipal Reguladora de las Licencias Urbanísticas de
+    OBRAS MENORES (BON de 23/05/2007).
+  - Ordenanza Municipal Reguladora del Procedimiento de Control de
+    DECLARACIÓN RESPONSABLE / Control Posterior (BON de 12/05/2014).
+  - Texto Refundido del Plan Municipal de Pamplona (BON de 18/02/2008)
+    (planeamiento).
+  - Ordenanza General de Edificación.
+
+DATOS DE GESTIÓN (verificado en sede electrónica del Ayuntamiento):
+  - Área de Gobierno Estratégico, Urbanismo, Vivienda y Agenda 2030.
+    Resuelve la Concejalía Delegada del Área.
+  - ICIO: 5% del presupuesto de la obra (autoliquidación previa).
+  - Obras comunicadas: tramitación inmediata; la declaración responsable
+    se presenta antes del inicio y se comprueba en ese momento por
+    técnico municipal (control posterior inmediato).
+  - Las licencias/declaraciones de actividad, apertura y PRIMERA
+    UTILIZACIÓN se gestionan de forma diferenciada de las de obra y se
+    declaran/solicitan previamente al inicio de la actividad o uso del
+    edificio.
+
+================================================================
+CLAVES RÁPIDAS PARA TEST
+================================================================
+- Fuente: TRLFOTU (DFL 1/2017), Título V, Cap. I, Sección 1ª, arts.
+  190-197.
+- Licencia = acto de control PREVIO, REGLADO y DECLARATIVO (art. 190.1).
+- Mapa: 190 actos sujetos a licencia (incluye primera utilización u
+  ocupación) / 191 obras de la Admón. municipal / 192 actos sujetos a
+  DR o comunicación / 193 plazos / 194 competencia y procedimiento de
+  otorgamiento / 195 procedimiento de DR-comunicación / 196 resolución
+  y silencio / 197 eficacia.
+- "Apertura" NO es licencia urbanística: va por la LF 4/2005 + DF 93/2006
+  (intervención ambiental / actividad). Distinguir urbanismo vs actividad.
+- Actos de AAPP: art. 191 (municipal) + art. 47 (PSIS de interés general
+  declarados por el Gobierno de Navarra = exentos de licencia/control
+  local).
+- Art. 192 modificado por LF 4/2021: autoconsumo solar (g) y recarga de
+  vehículo eléctrico en interior de edificaciones (h) NO precisan
+  licencia de obras.
+- Licencia (control previo) vs DR/comunicación (control posterior, habilita
+  desde la presentación con documentación completa).
+- El silencio NUNCA otorga facultades contra la ordenación (arts. 72.5 y
+  77.5: nulidad de pleno derecho). Supletoriedad de la Ley 39/2015.
+- Pamplona: ordenanzas dispersas (obras menores BON 23/05/2007; control
+  posterior de DR BON 12/05/2014) + Plan Municipal (BON 18/02/2008) +
+  Ordenanza General de Edificación. ICIO 5%. Resuelve la Concejalía
+  Delegada del Área.
+================================================================

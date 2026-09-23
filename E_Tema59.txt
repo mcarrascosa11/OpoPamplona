@@ -1,0 +1,278 @@
+================================================================================
+TEMA 59 — CICLO DEL AGUA EN LA PLANIFICACIÓN URBANA DE PAMPLONA
+  · Planeamiento Municipal: Memoria, Capítulo 10.7 "Infraestructuras urbanas".
+  · Plan de Infraestructura Verde y Azul y Estrategia de Drenaje Sostenible Urbano
+    del Ayuntamiento de Pamplona.
+  · Sistemas Urbanos de Drenaje Sostenible (SUDS): "Recomendaciones básicas. Diseño
+    de SUDS en Navarra" (guía publicada por NILSA).
+================================================================================
+Oposición Arquitecto/a — Ayuntamiento de Pamplona (examen enero 2027)
+
+Fecha de verificación: 19/06/2026
+Fuentes: Plan Municipal de Pamplona (Memoria; Texto Refundido, Acuerdo C.O.T.
+18/12/2002) y Mancomunidad de la Comarca de Pamplona (sedeelectronica.pamplona.es,
+mcp.es); Plan de Infraestructura Verde y Azul y Estrategia de Drenaje Sostenible Urbano
+(pamplona.es, aprobado en Pleno 5/06/2025); "Recomendaciones básicas. Diseño de SUDS en
+Navarra", NILSA, febrero 2023 (adaptecca.es).
+
+>>> AVISO DE FIABILIDAD (importante por tu responsabilidad profesional):
+  - PARTE A (Memoria Cap. 10.7): NO se ha podido aislar el texto literal del Capítulo
+    10.7 de la Memoria del Plan Municipal de Pamplona en fuente pública. Por tanto, esta
+    parte recoge SOLO lo verificado de Pamplona (la gestión del ciclo integral del agua
+    por la Mancomunidad de la Comarca de Pamplona) y el papel del capítulo, redactado de
+    forma genérica y correcta. Los diámetros/esquemas concretos de las redes NO se
+    incluyen porque la información que circulaba ("anillos de tres niveles") procedía de
+    la memoria de OTRO municipio (El Ejido), no de Pamplona. Para el detalle literal de
+    Cap. 10.7, contrastar con el documento "Planteamiento" de la Memoria del Plan
+    Municipal (pamplona.es) o el visor GeoPamplona.
+  - PARTES B y C: completas y verificadas contra fuente oficial.
+
+================================================================================
+PARTE A — EL CICLO DEL AGUA EN EL PLANEAMIENTO MUNICIPAL
+(Memoria, Cap. 10.7 "Infraestructuras urbanas")
+================================================================================
+El Capítulo 10 de la Memoria del Plan Municipal describe el modelo de ciudad y sus
+soportes; el apartado 10.7 "Infraestructuras urbanas" trata los servicios urbanos
+básicos —entre ellos el CICLO DEL AGUA (abastecimiento, saneamiento y depuración),
+junto con energía, telecomunicaciones y residuos—, reservando suelo y definiendo los
+trazados y elementos necesarios para estos servicios. El Plan no ejecuta las redes:
+fija el marco urbanístico (reservas de suelo de sistemas, condiciones de los nuevos
+desarrollos) dentro del cual operan las entidades gestoras.
+
+GESTOR DEL CICLO INTEGRAL DEL AGUA (verificado): en Pamplona y su comarca, la entidad
+que gestiona el CICLO INTEGRAL DEL AGUA es la MANCOMUNIDAD DE LA COMARCA DE PAMPLONA
+(MCP). Sus servicios en este ámbito son:
+  · Abastecimiento de agua potable (captación, potabilización y distribución).
+  · Alcantarillado.
+  · Saneamiento y depuración de aguas residuales (conducción a las EDAR).
+La MCP gestiona además los residuos sólidos urbanos y el Transporte Urbano Comarcal.
+
+EL CICLO INTEGRAL DEL AGUA (esquema conceptual): captación → potabilización (ETAP) →
+distribución (red de abastecimiento) → uso → recogida de residuales (alcantarillado) →
+saneamiento (colectores) → depuración (EDAR) → vertido al medio receptor. A este ciclo
+se añade hoy la gestión de las AGUAS PLUVIALES (escorrentía), que es donde entran el
+drenaje sostenible y los SUDS (Partes B y C).
+
+MARCO FORAL DEL AGUA: la planificación del agua urbana en Navarra se articula a través
+del PLAN DIRECTOR DEL CICLO INTEGRAL DEL AGUA DE USO URBANO DE NAVARRA 2019-2030
+(aprobado en mayo de 2019, al amparo de la LF 10/1988 de Saneamiento de las Aguas
+Residuales), cuyos principios son la economía circular y la lucha contra el cambio
+climático. Sus bases de planificación: extender el SANEAMIENTO SEPARATIVO en todo el
+territorio; redes de saneamiento eficientes que incorporen el menor volumen posible de
+aguas limpias; reducir alivios y desbordamientos del sistema (DSU); y ordenar el sistema
+de pluviales reduciendo su volumen de vertido (entre otros, con drenaje sostenible).
+
+[NOTA: el resto del contenido literal del Cap. 10.7 —esquemas y dimensionado de las redes
+de abastecimiento y saneamiento previstas por el Plan— debe consultarse directamente en
+la Memoria del Plan Municipal; ver aviso de fiabilidad inicial.]
+
+================================================================================
+PARTE B — PLAN DE INFRAESTRUCTURA VERDE Y AZUL Y ESTRATEGIA DE DRENAJE SOSTENIBLE
+URBANO DEL AYUNTAMIENTO DE PAMPLONA
+================================================================================
+- NATURALEZA Y APROBACIÓN: herramienta de planificación urbana del Ayuntamiento de
+  Pamplona, aprobada por el Pleno municipal el 5 de JUNIO de 2025 (entrada en vigor). Ya
+  se venía aplicando en los nuevos desarrollos de la legislatura. Redactores: Atalaya
+  Territorio y Green Blue Management (con el área de Medio Ambiente municipal).
+- ENCAJE / FINANCIACIÓN: se enmarca en las acciones A1 y A2 del proyecto RUNA 2025, que
+  obtuvo 2,7 millones de euros de la Fundación Biodiversidad del MITECO, dentro del Plan
+  de Recuperación, Transformación y Resiliencia (financiado por la Unión Europea –
+  NextGenerationEU). Alineado con la Agenda Urbana Pamplona 2030 y los ODS.
+- OBJETO: mejorar la CALIDAD AMBIENTAL de la ciudad estableciendo los PROCEDIMIENTOS Y
+  NORMAS BÁSICAS para las actuaciones futuras con criterios de sostenibilidad, protección
+  de la biodiversidad y RESILIENCIA frente al cambio climático.
+- CONTENIDO / LÍNEAS:
+  · Genera un MODELO DE INFRAESTRUCTURA VERDE Y AZUL que mejora la resiliencia urbana
+    frente a los nuevos escenarios climáticos, usando los RÍOS (Arga, Sadar, Elorz) como
+    EJES VERTEBRADORES y conectando los entornos fluviales con la trama urbana.
+  · Define una ESTRATEGIA DE DRENAJE URBANO SOSTENIBLE (SUDS) para aumentar la
+    permeabilidad del suelo, reducir la inundabilidad y reaprovechar el agua de lluvia
+    para el riego urbano.
+  · Propone un MODELO DE ORDENANZA MUNICIPAL (normas básicas para futuras intervenciones).
+  · Plantea un TRATAMIENTO DIFERENCIADO DEL ESPACIO FLUVIAL, que combina la protección de
+    la biodiversidad con el uso público.
+  · Incluye 25 MEMORIAS VALORADAS (propuestas de actuación surgidas de un proceso
+    participativo): nuevas zonas verdes y jardines, renaturalización de espacios,
+    corredores sostenibles, renaturalización de patios escolares, etc.
+- IDEA CLAVE: incorporar a la planificación municipal los criterios de ADAPTACIÓN AL
+  CAMBIO CLIMÁTICO y las SOLUCIONES BASADAS EN LA NATURALEZA (SbN), de las que los SUDS
+  son la herramienta principal en la gestión del agua de lluvia (ver Parte C).
+
+================================================================================
+PARTE C — SISTEMAS URBANOS DE DRENAJE SOSTENIBLE (SUDS).
+GUÍA NILSA: "RECOMENDACIONES BÁSICAS. DISEÑO DE SUDS EN NAVARRA" (febrero 2023)
+================================================================================
+
+C.1 ORIGEN Y NATURALEZA DE LA GUÍA
+- Editada por NILSA (empresa pública del Gobierno de Navarra, Departamento de Cohesión
+  Territorial). Redacción y diseño: Green Blue Management S.L. (Sara Perales Momparler y
+  Alberto Gay Garrigues, ingenieros de Caminos). Colaboración: Universidad Pública de
+  Navarra (UPNA) y Ahora Clima S.L.
+- Es el resultado de la ACCIÓN C2.3 (drenaje sostenible urbano) del proyecto europeo
+  LIFE-IP NAdapta-CC (LIFE16 IPC/ES/000001), proyecto integrado de adaptación al cambio
+  climático de Navarra (2017-2025, 15,6 M€). Navarra fue la primera región de la UE con
+  un proyecto integrado de adaptación al cambio climático.
+- Es una GUÍA VIVA (sujeta a actualizaciones), con propósito técnico-didáctico, dirigida
+  a responsables políticos, profesionales del sector y público general.
+
+C.2 QUÉ SON LOS SUDS (definición clave)
+- Los SUDS son sistemas de drenaje que IMITAN EL MODELO DE LA NATURALEZA: gestionan el
+  agua de lluvia mediante RETENCIÓN, FILTRACIÓN e INFILTRACIÓN en el suelo allí donde
+  cae, EN ORIGEN, sin canalizarla de forma artificial y rápida como hace el drenaje
+  convencional. Buscan reproducir/restituir el CICLO HIDROLÓGICO PREVIO A LA URBANIZACIÓN.
+- TRIPLE OBJETIVO (muy preguntable):
+    1) LAMINAR CAUDALES (reducir el caudal punta).
+    2) REDUCIR VOLÚMENES de escorrentía.
+    3) MEJORAR LA CALIDAD del agua.
+  Fin último: tratar el agua como un RECURSO y no como un residuo → economía circular.
+- Son SOLUCIONES BASADAS EN LA NATURALEZA (SbN) y forman parte de la INFRAESTRUCTURA
+  VERDE. Beneficios añadidos: reducen el efecto ISLA DE CALOR, crean hábitats para flora
+  y fauna, mejoran la calidad del aire y la habitabilidad urbana.
+- Responden a un problema del drenaje convencional: el aumento de superficie impermeable
+  incrementa volúmenes y caudales punta, sobredimensiona los colectores y, en redes
+  UNITARIAS, provoca DESCARGAS DEL SISTEMA UNITARIO (DSU/DSS) que contaminan el medio.
+- FILOSOFÍA: "tren de tratamiento" (treatment train) → encadenar varias técnicas SUDS en
+  serie para tratar la escorrentía progresivamente. Prioridad: gestionar la escorrentía
+  lo más cerca posible del origen.
+
+C.3 TIPOS DE SUDS
+- MEDIDAS NO ESTRUCTURALES (de gestión/prevención: limpieza de calles, control de
+  vertidos, educación...) y MEDIDAS ESTRUCTURALES (infraestructuras físicas).
+- DOCE TIPOS DE SUDS ESTRUCTURALES (lista de la guía — clave de examen):
+    1. Aljibes.
+    2. Cubiertas vegetadas (cubiertas verdes).
+    3. Pavimentos permeables.
+    4. Alcorques estructurales.
+    5. Parterres inundables (jardines de lluvia).
+    6. Zanjas y pozos de infiltración.
+    7. Depósitos reticulares.
+    8. Drenes filtrantes.
+    9. Franjas filtrantes.
+   10. Cunetas vegetadas.
+   11. Balsas de detención y/o infiltración.
+   12. Humedales artificiales y estanques.
+
+C.4 MARCO REGULATORIO (clave de examen — estructura europeo / nacional / foral / local)
+EUROPEO — cinco Directivas principales:
+  · Directiva 91/271/CEE, tratamiento de aguas residuales urbanas (tratar los vertidos de
+    la red unitaria; reducir las descargas del sistema unitario).
+  · Directiva Marco del Agua 2000/60/CE (reducir presiones e impactos sobre las masas de
+    agua; buena calidad del agua).
+  · Directiva 2006/7/CE, aguas de baño, y Directiva 2006/118/CE, contaminación de
+    acuíferos (impactos de las descargas de colectores al medio receptor).
+  · Directiva 2007/60/CE, evaluación y gestión de los riesgos de INUNDACIÓN (retención de
+    aguas e inundación controlada de determinadas zonas).
+NACIONAL:
+  · Ley de Aguas (TR): regula el dominio público hidráulico; NO regula el agua de lluvia
+    ni el drenaje urbano.
+  · RD 903/2010: evaluación preliminar del riesgo de inundación (se centra en inundación
+    fluvial/costera, no pluvial urbana).
+  · RD 1290/2012 (modifica el Reglamento del DPH y el RD 509/1996): gestión de los
+    DESBORDAMIENTOS DEL SISTEMA UNITARIO (DSU). Su art. 259 ter exige que los proyectos de
+    NUEVOS DESARROLLOS justifiquen la conveniencia de redes SEPARATIVAS o unitarias y
+    planteen medidas que limiten la aportación de pluviales a los colectores.
+  · RD 638/2016 (clave): art. 126 ter, punto 7 → "las nuevas urbanizaciones, polígonos
+    industriales y desarrollos urbanísticos en general DEBERÁN INTRODUCIR SISTEMAS DE
+    DRENAJE SOSTENIBLE... de forma que el eventual incremento del riesgo de inundación se
+    mitigue", con un ESTUDIO HIDROLÓGICO-HIDRÁULICO que lo justifique. Introduce el
+    concepto de INVARIANCIA HIDROLÓGICA (compensar/restituir los procesos hidrológicos
+    previos a la urbanización mediante SUDS).
+FORAL:
+  · PLAN DIRECTOR DEL CICLO INTEGRAL DEL AGUA DE USO URBANO DE NAVARRA 2019-2030 (aprobado
+    mayo 2019; figura de la LF 10/1988 de Saneamiento). Principios: economía circular y
+    lucha contra el cambio climático. Bases: extender el saneamiento SEPARATIVO; redes
+    eficientes; reducir alivios/DSU; ordenar pluviales. La LÍNEA 6 (saneamiento) incluye
+    como subacción el DRENAJE URBANO SOSTENIBLE.
+  · POT3 (Plan de Ordenación Territorial del Área Central), DF 45/2011, art. 72
+    (saneamiento, aguas pluviales): en NUEVOS DESARROLLOS de extensión > 10 HECTÁREAS o
+    población equivalente > 2.000 HABITANTES-EQUIVALENTES es PRECEPTIVO un ESTUDIO DE
+    DRENAJE SOSTENIBLE que reproduzca el ciclo hidrológico preexistente en tres
+    parámetros: volumen de escorrentía, caudal punta de vertido y calidad de las aguas;
+    con informe favorable del órgano ambiental del Gobierno de Navarra.
+  · LF 4/2022, de 22 de marzo, de Cambio Climático y Transición Energética: su art. 64
+    (adaptación al cambio climático en el medio urbano) menciona EXPLÍCITAMENTE los SUDS.
+    (Marco regional asociado: hoja de ruta HCCN-KLINa.)
+LOCAL:
+  · Mancomunidad de la Comarca de Pamplona: ORDENANZA DE REDES DE SANEAMIENTO (abril
+    2020): características y disposición de las redes, bases de cálculo y criterios de
+    diseño, materiales aceptados, detalles constructivos, acometidas y pruebas.
+
+C.5 PARÁMETROS PLUVIOMÉTRICOS Y DISEÑO (resumen)
+- La guía hace un ANÁLISIS REGIONAL de Navarra (estaciones representativas por comarca,
+  entre ellas Pamplona GN, Doneztebe, Isaba, Tafalla, Estella, Sartaguda, Tudela-Montes
+  del Cierzo) y ofrece valores de diseño para EVENTOS EXTREMALES (intensidad de lluvia
+  por duración y periodo de retorno) y valores basados en PERCENTILES VOLUMÉTRICOS.
+- RECOMENDACIONES DE DISEÑO (cap. 7):
+  · Estrategia de implementación (según tipo de proyecto y medio receptor; prioridad:
+    gestionar la escorrentía en origen).
+  · Condicionantes por TIPO DE UNIDAD URBANA: urbanización densa, edificación abierta,
+    casas unifamiliares, zonas industriales, sector terciario, calles, aparcamientos, y
+    parques y zonas verdes (cada una con su tipología de SUDS recomendada).
+  · Criterios de ELECCIÓN (funciones de cada SUDS) y de DIMENSIONAMIENTO: tratamiento de
+    la escorrentía, reducción del volumen y control de caudales; con la pluviometría, las
+    características de la cuenca, la geología del terreno, la calidad de la escorrentía, la
+    definición geométrica, el tiempo de vaciado y el dimensionamiento de vertederos.
+  · Selección de la vegetación.
+- MANTENIMIENTO Y MONITORIZACIÓN (cap. 8): imprescindible considerarlo desde el DISEÑO.
+  Plan de mantenimiento estructurado en QUÉ (tareas), CÓMO, CUÁNDO (periodicidad) y QUIÉN
+  (responsables).
+- Caso de éxito de referencia: PROTOTIPO DE SUDS en el aparcamiento de la UPNA en Tudela.
+
+================================================================================
+PARTE D — DATOS CLAVE Y TRAMPAS
+================================================================================
+- El ciclo integral del agua en Pamplona lo gestiona la MANCOMUNIDAD DE LA COMARCA DE
+  PAMPLONA (abastecimiento potable, alcantarillado, saneamiento y depuración); el Plan
+  Municipal (Memoria 10.7 Infraestructuras urbanas) fija el marco urbanístico.
+- Marco foral del agua: Plan Director del Ciclo Integral del Agua de Uso Urbano de Navarra
+  2019-2030 (saneamiento SEPARATIVO, reducir DSU, ordenar pluviales).
+- PLAN DE INFRAESTRUCTURA VERDE Y AZUL Y DRENAJE SOSTENIBLE: Ayuntamiento de Pamplona,
+  Pleno 5/06/2025, proyecto RUNA 2025 (2,7 M€, Fundación Biodiversidad/MITECO, Next
+  Generation EU). Ríos como ejes vertebradores; estrategia SUDS; modelo de ordenanza;
+  tratamiento diferenciado del espacio fluvial; 25 memorias valoradas.
+- SUDS (guía NILSA, feb. 2023; proyecto LIFE-IP NAdapta-CC; redactó Green Blue Management
+  para NILSA): imitan la naturaleza, gestionan la lluvia en ORIGEN. TRIPLE OBJETIVO:
+  laminar caudales, reducir volúmenes, mejorar la calidad. Agua como recurso (economía
+  circular). Son SbN / infraestructura verde.
+- 12 tipologías estructurales (aljibes, cubiertas vegetadas, pavimentos permeables,
+  alcorques estructurales, parterres inundables, zanjas/pozos de infiltración, depósitos
+  reticulares, drenes filtrantes, franjas filtrantes, cunetas vegetadas, balsas de
+  detención/infiltración, humedales/estanques).
+- OBLIGACIÓN LEGAL DE SUDS: RD 638/2016, art. 126 ter.7 (nuevas urbanizaciones DEBEN
+  introducir SUDS + estudio hidrológico-hidráulico; INVARIANCIA HIDROLÓGICA). En Navarra,
+  POT3 art. 72: Estudio de Drenaje Sostenible obligatorio en desarrollos > 10 ha o > 2.000
+  hab-equivalentes (reproducir volumen, caudal punta y calidad). LF 4/2022, art. 64,
+  menciona los SUDS.
+
+>>> POSIBLES TRAMPAS:
+  - Triple objetivo de los SUDS: laminar CAUDALES + reducir VOLÚMENES + mejorar CALIDAD
+    (no confundir caudal con volumen: son dos objetivos distintos).
+  - Umbrales del POT3 (art. 72) para el Estudio de Drenaje Sostenible: > 10 ha O > 2.000
+    hab-equivalentes (cualquiera de los dos). Parámetros a reproducir: volumen, caudal
+    punta y calidad.
+  - El RD que OBLIGA a los SUDS en nuevas urbanizaciones es el 638/2016 (art. 126 ter.7),
+    no el 1290/2012 (este último va de redes separativas/unitarias y DSU).
+  - SUDS = Soluciones basadas en la Naturaleza (SbN) / infraestructura verde; gestión EN
+    ORIGEN (no canalización rápida).
+  - El Plan de Infraestructura Verde y Azul es MUNICIPAL (Ayuntamiento de Pamplona, 2025);
+    la guía de SUDS es FORAL (NILSA / Gobierno de Navarra, 2023). No confundir autores.
+  - Saneamiento SEPARATIVO (lo que promueve el Plan Director) ≠ unitario. El problema de
+    contaminación son las descargas del sistema unitario (DSU).
+
+================================================================================
+FUENTES (verificación 19/06/2026)
+================================================================================
+- Plan Municipal de Pamplona, Memoria (Cap. 10 "Infraestructuras urbanas"), Texto
+  Refundido, Acuerdo C.O.T. 18/12/2002 (pamplona.es). Gestión del ciclo integral del
+  agua: Mancomunidad de la Comarca de Pamplona (sedeelectronica.pamplona.es, mcp.es).
+  [El texto literal del Cap. 10.7 no se reprodujo: ver aviso de fiabilidad inicial.]
+- Plan de Infraestructura Verde y Azul y Estrategia de Drenaje Sostenible Urbano del
+  Ayuntamiento de Pamplona (pamplona.es; aprobación Pleno 5/06/2025; proyecto RUNA 2025).
+- "Recomendaciones básicas. Diseño de SUDS en Navarra", NILSA, febrero 2023, redacción
+  Green Blue Management (adaptecca.es/sites/default/files/documentos/guia_suds.pdf);
+  resultado de la acción C2.3 del proyecto LIFE-IP NAdapta-CC.
+- Marco normativo: Directivas 91/271/CEE, 2000/60/CE, 2006/7/CE, 2006/118/CE, 2007/60/CE;
+  RD 1290/2012; RD 638/2016 (art. 126 ter.7); Plan Director del Ciclo Integral del Agua de
+  Uso Urbano de Navarra 2019-2030 (LF 10/1988); POT3 (DF 45/2011, art. 72); LF 4/2022
+  (art. 64); Ordenanza de Redes de Saneamiento de la MCP (abril 2020).
+================================================================================

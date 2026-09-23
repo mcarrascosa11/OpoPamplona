@@ -1,0 +1,477 @@
+================================================================================
+TEMA 53 — PLAN MUNICIPAL DE PAMPLONA: ESTRUCTURA, DOCUMENTOS.
+NORMATIVA URBANÍSTICA GENERAL.
+================================================================================
+Oposición Arquitecto/a — Ayuntamiento de Pamplona (examen enero 2027)
+
+Fecha de verificación: 18/06/2026
+Fuente del texto: documento oficial "NORMATIVA URBANÍSTICA GENERAL. TEXTO
+REFUNDIDO" del Plan Municipal de Pamplona (Homologación a la L.F. 35/2002),
+Gerencia de Urbanismo (pamplona.es). Contrastado con la web del Plan Municipal.
+
+>>> ALCANCE DE ESTE ARCHIVO: estudio completo. Los artículos conceptuales y de
+    régimen van en texto literal o muy fiel; las TABLAS NUMÉRICAS de
+    aprovechamiento (arts. 45-49 y 57-61: cálculos de unidades de aprovechamiento
+    área por área) van RESUMIDAS en sus datos esenciales, no reproducidas íntegras,
+    por ser dato de consulta y no de examen. Donde se ha resumido, se indica. El
+    texto completo con todas las tablas está en el PDF oficial de la NUG.
+
+>>> AVISOS DE VIGENCIA (importantes, mismo patrón que temas 51 y 52):
+  - El Plan Municipal está HOMOLOGADO a la LEY FORAL 35/2002 (LFOTU-2002). Esa ley
+    está DEROGADA, hoy sustituida por el TEXTO REFUNDIDO del DECRETO FORAL
+    LEGISLATIVO 1/2017 (TRLFOTU-2017). El Plan sigue vigente, pero sus remisiones
+    legales (arts. 72, 95.2.b, 110, 111… de la LF 35/2002, y a la LF 10/1994) deben
+    leerse trasladadas al TRLFOTU-2017. Trampa de examen.
+  - Es un "documento cambiante en el tiempo" por las sucesivas modificaciones y
+    desarrollos. Los documentos publicados en la web municipal tienen utilidad pero
+    "carecen de valor oficial".
+  - Re-verificar a finales de 2026 por posibles modificaciones.
+
+================================================================================
+PARTE A — MARCO: QUÉ ES EL PLAN MUNICIPAL Y SU TRAMITACIÓN
+================================================================================
+El Plan Municipal es el instrumento de ordenación urbanística de todo el término
+municipal (figura que la legislación foral navarra emplea en lugar del "Plan General
+de Ordenación Urbana" estatal). El de Pamplona tiene esta trayectoria:
+
+  - ORIGEN: P.G.O.U. de Pamplona aprobado por Resoluciones Ministeriales de 7 y 16
+    de noviembre de 1984 (el art. 3 NUG fija como referencia temporal el 23 de
+    noviembre de 1984).
+  - HOMOLOGACIÓN Y ADAPTACIÓN a la LF 35/2002: aprobada definitivamente por ORDEN
+    FORAL 181/2007, de 12 de abril (BON nº 67, de 30/05/2007).
+  - TEXTO REFUNDIDO del documento de homologación: aprobado por ACUERDO DEL
+    AYUNTAMIENTO DE PAMPLONA de 18 de enero de 2008 (BON nº 22, de 18/02/2008).
+    Esta es la fecha que el Ayuntamiento da como "fecha de aprobación del Plan
+    Municipal".
+  (Nota: en muchos documentos figura también "Aprobación Definitiva: Acuerdo C.O.T.
+   18/12/2002", que corresponde al acuerdo de la Comisión de Ordenación del
+   Territorio sobre el texto del Plan; la homologación a la LF 35/2002 culmina con la
+   OF 181/2007 y el Texto Refundido de 2008.)
+
+================================================================================
+PARTE B — ESTRUCTURA Y DOCUMENTOS DEL PLAN MUNICIPAL (art. 5 NUG, literal)
+================================================================================
+Artículo 5º. Documentos del Plan Municipal. (carácter general)
+1. A los efectos de la aplicación y desarrollo del Plan Municipal sus documentos
+   tienen el alcance y contenido que a continuación se explicitan.
+2. La MEMORIA establece los objetivos del Plan y contiene básicamente la
+   justificación del modelo elegido y gestión del mismo.
+3. Los PLANOS DE INFORMACIÓN reflejan la realidad urbanística de la que parte el
+   Plan al establecer sus determinaciones y por tanto NO tienen carácter normativo
+   alguno.
+4. Los PLANOS DE PROPUESTA recogen la ordenación y la gestión del territorio:
+   1) Planos de ORDENACIÓN: contienen y expresan de forma gráfica las
+      determinaciones de ordenación, complementarios de las Normas Urbanísticas
+      Generales y Particulares; constituyen preceptos jurídicos gráficamente
+      expresados, con el mismo valor que las Normas. Son vinculantes (con carácter
+      estructurante o pormenorizado según los casos): (a) las delimitaciones de
+      división espacial (Unidades Integradas, Básicas, Zonas, Sectores, Áreas,
+      Unidades de Ejecución…); (b) las alineaciones y alturas y los aprovechamientos
+      rentables asignados (sin perjuicio de las tablas de compatibilidad de usos);
+      (c) las delimitaciones de espacios para equipamientos públicos.
+   2) Planos de GESTIÓN: recogen las primeras determinaciones para la ejecución.
+5. Las NORMAS URBANÍSTICAS GENERALES Y PARTICULARES: documentos donde se establecen
+   las condiciones a que han de ajustarse las actuaciones urbanísticas (planeamiento,
+   gestión, edificación, implantación de usos) y que delimitan el contenido
+   urbanístico del derecho de propiedad.
+6. El CATÁLOGO: establece el régimen de protección de espacios, edificios,
+   monumentos, etc. que relaciona.
+7. El PROGRAMA DE ACTUACIÓN: determinaciones para el desarrollo y ejecución del Plan
+   en toda clase de suelo, con previsión de los sistemas generales.
+8. El ESTUDIO ECONÓMICO FINANCIERO: evalúa las inversiones públicas precisas para la
+   ejecución del Plan.
+
+JERARQUÍA INTERPRETATIVA (art. 4 NUG): las Normas Urbanísticas Generales y
+Particulares y los Planos de Propuesta PREVALECEN sobre los demás documentos del
+Plan. Ante contradicción gráfica/escrita, prevalece la determinación más coherente
+con los objetivos del Plan; en aprovechamientos/cesiones, interpretación más
+extensiva para cesiones y cargas y más restrictiva para aprovechamientos privativos.
+
+DOCUMENTOS PUBLICADOS (conjunto documental del Plan en la web municipal): Memoria;
+Normativa Urbanística General (NUG); Normativa Urbanística Particular (NUP, por
+Unidades Integradas y por las cuatro unidades de suelo no urbanizable A-1 a A-4);
+Catálogo; Ordenanza General de Edificación (OGE); Ordenanza General de Urbanización;
+Ordenanza General de Accesibilidad; Ordenanza de Actividades Molestas, Insalubres,
+Nocivas y Peligrosas; Ordenanza sobre Procedimiento Urbanístico; Normas de Diseño y
+Calidad; documentación gráfica (planos). [El art. 3 NUG mantiene vigentes las
+Ordenanzas y la NUP del PGOU-84 en lo no sustituido.]
+
+================================================================================
+PARTE C — DIVISIÓN TERRITORIAL DEL PLAN (Título Primero, arts. 8-15, literal)
+================================================================================
+Artículo 8º. División territorial. (carácter general)
+El Plan establece una división espacial del término municipal en estos niveles:
+ 1.- UNIDAD INTEGRADA: medida territorial que define la estructura general y
+     orgánica del término municipal.
+ 2.- UNIDADES BÁSICAS y PARCELAS INDIVIDUALES: último grado de pormenorización
+     referente a la edificación.
+ 3.- Según clase de suelo, el ámbito que configura la ordenación:
+     - Suelo Urbano: las ZONAS.
+     - Suelo Urbanizable: los SECTORES.
+     - Suelo No Urbanizable: las ÁREAS.
+ 4.- ÁREA DE REPARTO: ámbito con un mismo aprovechamiento tipo.
+ 5.- POLÍGONO y UNIDAD DE EJECUCIÓN: ámbito de la gestión.
+
+Artículo 9º. Unidades Integradas. (carácter estructurante)
+Delimitadas en el Plano general nº 5. Son el ámbito de referencia inmediato para la
+estructura orgánica de la ordenación (infraestructuras, comunicaciones, áreas libres,
+estructuras básicas). Se conforman por: a) constituir núcleos con entidad propia
+(Buztintxuri, Rochapea, Chantrea, San Jorge, Casco Viejo, Beloso,
+Ermitagaña-Mendebaldea, San Juan, Ensanches, Lezkairu, Iturrama, Milagrosa,
+Etxabakoitz, Mendillorri); o b) ámbitos homogéneos o relacionados entre sí (Santa
+Lucía, Arantzadi, Trinitarios, Landaben, Ciudadela-Taconera, Irunlarrea, Berichitos,
+Donapea, Acella, Arrosadía).
+
+Artículo 10º. Unidades Básicas. (delimitación = carácter pormenorizado)
+Ámbitos soporte de la ordenación históricamente estructurada; nivel de desagregación
+propio de los Planes Parciales y ámbito mínimo para Estudios de Detalle. Tipos:
+manzana o agrupaciones de parcelas (edificación compacta o con patio); agrupaciones
+básicas de parcelas (edificación abierta, bloques aislados); parcelas singulares.
+
+Artículo 11º. Parcelas. (delimitación = carácter pormenorizado)
+Ámbito donde se desarrolla la actuación edificatoria. La parcela mínima se establece
+en el planeamiento pormenorizado o en los proyectos de los Sistemas de Actuación; en
+su defecto, la parcela existente tiene el carácter de mínima.
+
+Artículo 12º. Zonas, Sectores y Áreas. (delimitación = carácter estructurante)
+Ámbitos sobre los que actúa la ordenación, según sea suelo urbano (Zonas),
+urbanizable (Sectores) o no urbanizable (Áreas). Cada uno es una parte, con normativa
+de ordenación diferenciada, de la Unidad Integrada. Los sectores son referencia para
+el cálculo de la densidad residencial.
+
+Artículo 13º. Áreas de Reparto. (delimitación = carácter estructurante)
+Ámbitos de suelo urbano o urbanizable y sistemas generales (plano general nº 7) cuya
+finalidad es la obtención del aprovechamiento tipo. Constituyen el ámbito del uso
+característico (arts. 46 y 58).
+
+Artículo 14º. Polígonos y Unidades de Ejecución. (delimitación de U.E. = pormenorizado)
+Ámbitos de la gestión urbanística en suelo urbano o urbanizable. La ejecución se
+realiza por Unidades de Ejecución o Polígonos completos; pueden ser continuos o
+discontinuos. En suelo urbano son referencia para el cálculo de la densidad.
+
+Artículo 15º. Sistemas Generales. (definición = carácter estructurante)
+Elementos fundamentales de la estructura orgánica y funcional del territorio:
+infraestructuras de la red general; equipamiento comunitario (sanitario, salubridad,
+asistencial/bienestar social, protección civil, educativo, cultural, administrativo,
+seguridad ciudadana, deportivo, recreativo, abastos); espacios libres públicos. Su
+superficie computa, en su caso, para el cálculo del aprovechamiento tipo.
+
+>>> CONCEPTO TRANSVERSAL CLAVE (equivalente a los VT/VP/O del POT): cada
+    determinación del Plan se etiqueta como de CARÁCTER GENERAL, ESTRUCTURANTE o
+    PORMENORIZADO. Las ESTRUCTURANTES definen el modelo (clasificación del suelo,
+    usos globales, áreas de reparto, aprovechamiento tipo, sistemas generales,
+    delimitación de zonas/sectores/áreas, % de vivienda protegida); su alteración
+    exige modificación estructurante. Las PORMENORIZADAS (delimitación de unidades
+    básicas, parcelas y unidades de ejecución, usos pormenorizados y detallados,
+    plazos…) se modifican por planeamiento de desarrollo. Saber clasificar una
+    determinación por su carácter es típico de test.
+
+================================================================================
+PARTE D — NORMATIVA URBANÍSTICA GENERAL: ESTRUCTURA (índice íntegro, 79 arts.)
+================================================================================
+TÍTULO PRELIMINAR. DISPOSICIONES (DE CARÁCTER) GENERAL(ES)
+  Art. 1. Objeto de las Normas.           Art. 2. Ámbito de aplicación.
+  Art. 3. Ejecutividad y vigencia.        Art. 4. Interpretación.
+  Art. 5. Documentos del Plan Municipal.  Art. 6. Revisión y Modificación del Plan.
+  Art. 7. Expedientes de Modificación del Plan Municipal.
+TÍTULO PRIMERO. DIVISIÓN TERRITORIAL DEL PLAN MUNICIPAL
+  Art. 8. División territorial.           Art. 9. Unidades Integradas.
+  Art. 10. Unidades Básicas.              Art. 11. Parcelas.
+  Art. 12. Zonas, Sectores y Áreas.       Art. 13. Áreas de Reparto.
+  Art. 14. Polígonos y Unidades de Ejecución.  Art. 15. Sistemas Generales.
+TÍTULO SEGUNDO. RÉGIMEN URBANÍSTICO DEL SUELO
+  Sección 1ª. Disposiciones Generales
+    Art. 16. Tipo de núcleo. · Art. 17. Carácter de titularidad/uso de terrenos y
+    dotaciones. · Art. 18. Densidad residencial. · Art. 19. Viviendas de Protección
+    Oficial. · Art. 20. Edificios Fuera de Ordenación.
+  Sección 2ª. Clasificación del Suelo
+    Art. 21. Clases de Suelo. · Art. 22. Suelo Urbano. · Art. 23. Suelo Urbanizable.
+    · Art. 24. Suelo No Urbanizable.
+  Sección 3ª. Calificación del Suelo
+    Art. 25. Definición de "uso". · Art. 26. Finalidad de la asignación de usos. ·
+    Art. 27. Tipos de "usos". · Art. 28. Régimen y Tablas de compatibilidades.
+  Sección 4ª. Régimen específico para determinados usos
+    Art. 29. Dotaciones. · Art. 30. Actividad económica. · Art. 31. Garajes. ·
+    Art. 32. Trasteros e Instalaciones del Edificio.
+  Sección 5ª. Aprovechamientos
+    Art. 33. Aprovechamiento tipo. · Art. 34. Aprovechamiento de proyecto. ·
+    Art. 35. Forma de medir el Aprovechamiento de proyecto. · Art. 36. Asignaciones
+    especiales de Aprovechamiento. · Art. 37. Exención de cesión del aprovechamiento
+    tipo. · Art. 38. Coeficientes de Homogeneización. · Art. 39. Número de piezas
+    habitables.
+  Sección 6ª. Suelo Urbano
+    Art. 40. Delimitación. · Art. 41. Calificación. · Art. 42. Categorías y tipos de
+    situaciones en Suelo Urbano. · Art. 43. Régimen de Gestión. · Art. 44.
+    Condiciones de la edificación. · Art. 45. Áreas de Reparto en SU No Consolidado.
+    · Art. 46. Usos y tipologías característicos. · Art. 47. Coeficientes de uso. ·
+    Art. 48. Aprovechamiento lucrativo total. · Art. 49. Aprovechamiento tipo. ·
+    Art. 50. Módulos de reserva para dotaciones. · Art. 51. Plazos para obtención de
+    Sistemas Generales.
+  Sección 7ª. Suelo Urbanizable
+    Art. 52. Delimitación. · Art. 53. Calificación. · Art. 54. Categorías y tipos de
+    situaciones. · Art. 55. Plazos para aprobación del planeamiento de desarrollo. ·
+    Art. 56. Plazos para obtención de Sistemas Generales. · Art. 57. Áreas de
+    Reparto. · Art. 58. Usos y tipologías característicos. · Art. 59. Coeficientes de
+    uso. · Art. 60. Aprovechamiento lucrativo total. · Art. 61. Aprovechamiento tipo.
+  Sección 8ª. Suelo No Urbanizable
+    Art. 62. Concepto, delimitación, objetivos y categorización. · Art. 63.
+    Subcategorías: ámbito y objetivos. · Art. 64. Régimen de protección: criterio
+    general. · Arts. 65-72. Regímenes de protección por subcategorías (forestal;
+    alta y mediana productividad; infraestructuras existentes y previstas; cauces
+    fluviales; entorno de bienes de interés cultural; itinerarios de interés). ·
+    Art. 73. Condiciones generales para actividades no constructivas. · Art. 74.
+    Condiciones generales para actividades constructivas. · Art. 75. Régimen de obras
+    en edificios en SNU.
+  Sección 9ª. Normas de Diseño y Calidad
+    Art. 76. Cuestiones generales. · Art. 77. Normas referentes a los usos
+    pormenorizados. · Art. 78. Áreas de actividad económica. · Art. 79. Equipamientos.
+
+================================================================================
+PARTE E — NUG: CONTENIDO SUSTANTIVO POR BLOQUES
+================================================================================
+
+--- DISPOSICIONES GENERALES (arts. 1-7) ---
+Art. 1 Objeto: establecer y regular el régimen urbanístico de los suelos y
+edificaciones del término municipal (sin perjuicio de normas de rango superior).
+Art. 2 Ámbito: el término municipal de Pamplona.
+Art. 3 Ejecutividad y vigencia: ejecutivo desde su publicación; VIGENCIA INDEFINIDA;
+aplicación obligatoria a particulares y Administración. Sustituye y deroga el PGOU-84
+(Resoluciones Ministeriales de 7 y 16/11/1984) y sus modificaciones, salvo la NUP del
+Plan Municipal y varias Ordenanzas del PGOU-84 que mantiene.
+Art. 6 Revisión: el Ayuntamiento debe valorar la "Revisión" del Plan, entre otros,
+cuando: a) la población alcance 200.000 habitantes de derecho; b) se haya concedido
+licencia al 75% de las viviendas planificadas en suelo urbanizable; c) se haya
+ocupado el 75% del suelo de uso comercial/actividad económica en urbanizable.
+Art. 7 Modificación: los expedientes se titulan "Modificación del Plan Municipal de
+Pamplona…" y deben incluir la refundición de los documentos afectados.
+
+--- DISPOSICIONES GENERALES DEL RÉGIMEN DEL SUELO (arts. 16-20) ---
+Art. 16 Tipo de núcleo: Pamplona es un núcleo urbano de tipología compleja.
+Art. 17 Titularidad/uso de terrenos y dotaciones (remite al art. 72 LF 10/1994).
+Art. 18 Densidad residencial: recogida en la NUP, por m² construidos/ha o por
+viviendas/ha (con el art. 39).
+Art. 19 Viviendas de Protección Oficial: al menos el 15% de la nueva capacidad
+residencial prevista en los 8 años siguientes a la aprobación definitiva se destina a
+VPO (excluida la vivienda a precio tasado). La fijación del % es ESTRUCTURANTE.
+Art. 20 Edificios Fuera de Ordenación: no caben obras de consolidación (la ejecución
+del plan conlleva su demolición/expropiación en 15 años desde la aprobación
+definitiva); régimen específico de obras para edificios en sistemas generales no
+adscritos (residenciales: habitabilidad/accesibilidad sin aumento de volumen; no
+residenciales: adaptación/modernización/seguridad sin aumento de volumen). PORMENORIZADO.
+
+--- CLASIFICACIÓN DEL SUELO (arts. 21-24, literal) ---
+Art. 21 Clases de Suelo (general): el Plan clasifica el término en SUELO URBANO,
+SUELO URBANIZABLE y SUELO NO URBANIZABLE; dentro de cada clase, las categorías de ley.
+Art. 22 Suelo Urbano (estructurante): categorías de suelo urbano CONSOLIDADO por la
+urbanización (zonas "Z", "Z.O." y "Z.O.R.") y NO CONSOLIDADO (zonas "Z.N." y "Z.N.O.").
+Art. 23 Suelo Urbanizable (estructurante): SECTORIZADO ("S") y NO SECTORIZADO ("S.N.").
+Art. 24 Suelo No Urbanizable (estructurante): Áreas "A", adscritas a las categorías de
+PROTECCIÓN o PRESERVACIÓN, y dentro de ellas a las subcategorías de ley.
+
+[Nomenclatura de zonas en suelo urbano — art. 42:
+  Consolidado:  Z   = se regula directamente por la NUP (no precisa pormenorizado).
+                Z.O.= Zona Ordenada por planeamiento del PGOU-84 que el Plan incorpora.
+                Z.O.R.= Zona de Ordenación Remitida (reforma interior vía pormenorizado;
+                        entretanto se regula como "Z").
+  No consolidado: Z.N.  = Zona de Nuevo Desarrollo (precisa pormenorizado).
+                  Z.N.O.= Zona de Nuevo Desarrollo Ordenado (planeamiento ya incorporado).]
+[Suelo urbanizable — art. 54: S.N. Sector No Ordenado (no sectorizado, art. 95.2.b LF
+ 35/2002); S.O. Sector Ordenado (asume Plan Parcial existente); S Sector (delimitado,
+ a desarrollar por Plan Parcial).]
+
+--- CALIFICACIÓN DEL SUELO Y USOS (arts. 25-28) ---
+Calificación = asignación de uso(s). El Plan distingue (art. 27):
+  a) Por NIVEL DE ASIGNACIÓN TERRITORIAL:
+     - GLOBAL: se asigna a la Zona, Sector o Área (a veces a una Unidad Integrada).
+       Asignación ESTRUCTURANTE (plano general nº 3).
+     - PORMENORIZADO: se asigna a la Unidad Básica o parcelas. PORMENORIZADO
+       (plano general nº 4 y particular nº 1). El paso de global a pormenorizado no
+       puede superar el % de usos tolerados (ese límite es estructurante).
+     - DETALLADO: se asigna a las edificaciones. PORMENORIZADO.
+  b) Por COMPATIBILIDAD ENTRE SÍ (se identifican con un número):
+     - PRINCIPAL: el más adecuado. · PERMITIDO (nº 1): idéntica idoneidad que el
+       principal. · NECESARIO (nº 2): complementa al principal/permitido. · TOLERADO
+       (nº 3): coexiste si no supera un % (máx. 25% de la superficie construida). ·
+       PROHIBIDO (nº 4): no puede coexistir.
+  c) Por FUNCIONALIDAD: Residencial (colectivo/unifamiliar); Productivo (industria,
+     actividad económica, comercio, oficinas, agrícola); Dotacional (sanitario,
+     asistencial, docente, cultural, deportivo, recreativo, administrativo, religioso,
+     residencia comunitaria, mercado); Espacios libres.
+Art. 28: tres TABLAS de compatibilidad (no aplicables a SNU): Tabla 1 usos
+pormenorizados respecto de globales (ESTRUCTURANTE); Tabla 2 usos pormenorizados de
+parcela respecto de los de unidad básica (PORMENORIZADO); Tabla 3 usos detallados
+respecto de los pormenorizados de parcela (PORMENORIZADO). Reglas: % máx. de tolerados
+25%; las actividades consolidadas anteriores al 23/11/1984 se mantienen; en el Casco
+Viejo (VIII/ZO1) los usos detallados se regulan por su NUP; "Residencia eventual" =
+hoteles, hostales, aparta-hoteles, pensiones; "Residencia comunitaria" = ancianos,
+estudiantes o religiosos.
+[Tablas numéricas completas de compatibilidad: ver PDF (art. 28). Aquí se resume su
+estructura y reglas, que es lo testeable.]
+
+--- RÉGIMEN ESPECÍFICO DE DETERMINADOS USOS (arts. 29-32) ---
+Art. 29 Dotaciones: estructurantes (uso global de un ámbito) y pormenorizadas; reglas
+de uso, supresión (exige modificación de Plan y dotación compensatoria) y cesión
+obligatoria y gratuita de nuevos equipamientos públicos.
+Art. 30 Actividad económica (general): uso terciario amplio (desde dotacional —campus,
+hospitales, ferias— hasta el límite industrial —I+D, centros tecnológicos, parques
+empresariales—), excluido el industrial estricto. Solo se asigna como uso GLOBAL.
+Art. 31 Garajes: estándares de plazas. En planeamiento incorporado: 1 plaza/vivienda
++ 1 por cada 100 m² de uso no residencial. En el resto de actuaciones: 1,3
+plazas/vivienda; comercial/oficinas 1 plaza/75 m²; industrial 1/200 m². Reglas de
+ubicación (sótano; unifamiliar también en PB) y de cómputo.
+Art. 32 Trasteros e instalaciones (pormenorizado): en bajo-cubierta o sótano.
+
+--- APROVECHAMIENTOS (arts. 33-39) ---
+Art. 33 APROVECHAMIENTO TIPO (general): coeficiente de edificabilidad en m² de techo
+construible del uso característico por m² de suelo; aplicado a un terreno da las
+unidades de aprovechamiento (U.A.). Solo donde existan/se delimiten áreas de reparto.
+Art. 34 Aprovechamiento de proyecto: la edificación posible según ordenación y diseño.
+Art. 35 Forma de medir (estructurante): reglas de cómputo (no computan, en sótano,
+garajes ≤2/vivienda o ≤2/100 m² de otros usos, trasteros <15 m² ≤1/vivienda, cuartos
+de instalaciones y accesos; reglas para planta baja, plantas elevadas, bajocubierta).
+Art. 36 Asignaciones especiales. Art. 37 Exención de cesión (dotaciones públicas).
+Art. 38 Coeficientes de homogeneización (remite a arts. 47 y 59).
+Art. 39 Número de piezas habitables (estructurante): módulo = 110 m² construidos
+residenciales = 4 piezas habitables + servicios y accesos; máx. 40% de viviendas de
+dos piezas por promoción. "Pieza habitable" = todo ámbito funcional que no sea acceso,
+vestíbulo, cocina, aseo o baño.
+
+--- SUELO URBANO (arts. 40-51) ---
+Art. 42 Categorías y situaciones: ver nomenclatura Z/ZO/ZOR (consolidado) y ZN/ZNO
+(no consolidado) arriba.
+Art. 43 Régimen de gestión: Sistema de Actuación general = COOPERACIÓN. Plazos: 1 año
+para presentar el planeamiento pormenorizado; 1 año para el Proyecto del Sistema de
+Actuación y de Urbanización en "Z.N." y "Z.O.R."; 1 año desde el Proyecto del Sistema
+para solicitar licencia. Urbanización antes de edificar (o simultánea, terminando
+antes de la licencia de primera utilización).
+Art. 44 Condiciones de la edificación (general): volumen, altura, alineaciones,
+rasantes, ocupación, estética; se recogen en la NUP y Ordenanzas; supletoriamente,
+Normas de Diseño y Calidad.
+Art. 45 ÁREAS DE REPARTO en SU No Consolidado (estructurante; la delimitación de
+U.E. es pormenorizada): se delimitan DIECINUEVE áreas, ARZ1 a ARZ19 (la ARZ12 quedó
+ELIMINADA). Cada una coincide con una unidad de ejecución. [Superficies y cálculos
+área por área: ver PDF, arts. 45-49.]
+Arts. 46-48: uso/tipología característicos (mayoría residencial colectivo; algunas
+comercial o dotación deportiva/docente privada), coeficientes de uso y aprovechamiento
+lucrativo total por área. [Datos numéricos: ver PDF.]
+Art. 49 APROVECHAMIENTO TIPO de cada ARZ (estructurante) — valores (U.A./m²), resumen:
+ARZ1 0,68181 · ARZ2 0,70675 · ARZ3 0,67787 · ARZ4 0,73748 · ARZ5 1,17524 ·
+ARZ6 0,64533 · ARZ7 1,66463 · ARZ8 1,84032 · ARZ9 2,21391 · ARZ10 2,29503 ·
+ARZ11 4,56410 · ARZ12 (eliminada) · ARZ13 0,37236 · ARZ14 0,65177 · ARZ15 0,43175 ·
+ARZ16 2,78505 · ARZ17 1,18175 · ARZ18 0,71100 · ARZ19 0,38411.
+Art. 50 Módulos de reserva para dotaciones: en la NUP (pueden superar los de la LF 10/94).
+Art. 51 Plazos para obtención de Sistemas Generales (pormenorizado): 3 años con cargo
+a U.E.; 15 años los no obtenidos con cargo a U.E. (desde la entrada en vigor del Plan).
+
+--- SUELO URBANIZABLE (arts. 52-61) ---
+Art. 54 Categorías: no sectorizado (Sector No Ordenado "S.N.", art. 95.2.b LF 35/2002);
+sectorizado (Sector Ordenado "S.O." que asume Plan Parcial existente; y Sector "S" a
+desarrollar por Plan Parcial).
+Art. 55 Plazos (pormenorizado): 2 años para la aprobación definitiva del Plan Parcial
+del Sector (desde la entrada en vigor del Plan), salvo previsión distinta en la NUP.
+Art. 56 Plazos Sistemas Generales (pormenorizado): 4 años con cargo a U.E.; 15 años
+los demás.
+Art. 57 ÁREAS DE REPARTO en urbanizable (estructurante; delimitación U.E.
+pormenorizada): SIETE áreas, ARS1 a ARS7. Superficies: ARS1 107.453 m²; ARS2
+159.651 m²; ARS3 1.545.376 m² (la gran área de Lezkairu-Arrosadía y entorno);
+ARS4 57.039 m²; ARS5 49.416 m²; ARS6 14.555 m²; ARS7 82.004 m².
+Art. 58 Usos característicos: ARS1 residencial colectivo · ARS2 actividad económica ·
+ARS3 residencial colectivo · ARS4 comercial · ARS5 residencial colectivo · ARS6
+actividad económica · ARS7 comercial.
+Arts. 59-60: coeficientes de uso y aprovechamiento lucrativo total. [Ver PDF.]
+Art. 61 APROVECHAMIENTO TIPO de cada ARS (estructurante): ARS1 0,58833 · ARS2 0,60268
+· ARS3 0,57975 · ARS4 0,55479 · ARS5 0,56548 · ARS6 0,60657 · ARS7 0,60527 U.A./m².
+
+--- SUELO NO URBANIZABLE (arts. 62-75) ---
+Art. 62 Concepto y CATEGORIZACIÓN (estructurante): es SNU el suelo (1) con régimen
+especial de protección sectorial; (2) excluido del proceso urbanizador por
+instrumentos de ordenación territorial; (3) amenazado por riesgos naturales; (4)
+clasificado por su valor agrícola/forestal/naturalístico/paisajístico/cultural/
+ecológico; (5) que el planeamiento preserva por infraestructuras/equipamientos.
+  → Los supuestos 1, 2 y 3 pertenecen a la CATEGORÍA DE PROTECCIÓN; los 4 y 5 a la
+    CATEGORÍA DE PRESERVACIÓN.
+Art. 63 SUBCATEGORÍAS (estructurante): 1) Valor ambiental [1.a forestal: 1.a.1 natural,
+1.a.2 de especial protección; 1.b cauce fluvial]; 2) Explotación natural [2.a alto
+valor para el cultivo, 2.b mediano valor]; 3) Suelo destinado a infraestructuras [3.a
+existentes, 3.b previstas]; 4) Valor cultural [4.a entorno de bienes inmuebles de
+interés cultural, 4.b itinerarios de interés —cañadas, Camino de Santiago—]; 5)
+Prevención de riesgos.
+Art. 64 Régimen de protección, criterio general (estructurante): remite a los arts.
+110-111 y ss. de la LF 35/2002 (limitaciones mínimas y básicas, ampliables); el
+régimen se resume en dos cuadros anexos con VALOR NORMATIVO (uno de actividades no
+constructivas y otro de constructivas).
+Arts. 65-72: régimen de cada subcategoría (qué se PROHÍBE / es AUTORIZABLE / se
+PERMITE), tanto en actividades no constructivas como constructivas. El régimen de cada
+una se compendia en los dos cuadros (A: autorizado, S: autorizable, P: prohibido).
+[En todas las subcategorías de SNU la VIVIENDA está PROHIBIDA.]
+Arts. 73-75: condiciones generales de las actividades no constructivas (73) y
+constructivas (74), y régimen de obras en edificios existentes en SNU (75).
+[Texto literal de arts. 73-79 no incluido aquí: corresponde a las condiciones de
+detalle y a las Normas de Diseño y Calidad; consultar el PDF oficial de la NUG si se
+necesita el literal. La estructura y el régimen general sí están recogidos arriba.]
+
+--- NORMAS DE DISEÑO Y CALIDAD (arts. 76-79) ---
+Art. 76 Cuestiones generales · Art. 77 Normas referentes a los usos pormenorizados ·
+Art. 78 Áreas de actividad económica · Art. 79 Equipamientos. Son las condiciones
+supletorias de diseño/calidad de la edificación a falta de previsión en la NUP (art. 44).
+
+================================================================================
+PARTE F — DATOS CLAVE PARA TEST
+================================================================================
+- Plan Municipal = instrumento de ordenación urbanística del término municipal (Navarra
+  usa "Plan Municipal", no "PGOU"). Origen Pamplona: PGOU de 1984 (RRMM 7 y 16/11/1984).
+- Homologación a LF 35/2002: OF 181/2007, de 12 de abril (BON 67, 30/05/2007). Texto
+  Refundido: Acuerdo Ayuntamiento 18/01/2008 (BON 22, 18/02/2008).
+- Documentos (art. 5): Memoria; Planos de información (sin valor normativo); Planos de
+  propuesta (ordenación + gestión, con valor normativo); Normas Urbanísticas Generales
+  y Particulares; Catálogo; Programa de Actuación; Estudio Económico Financiero.
+- Prevalecen (art. 4): Normas (Generales y Particulares) y Planos de Propuesta sobre el
+  resto de documentos.
+- División territorial (art. 8): Unidad Integrada > Unidad Básica/Parcela; Zona (urbano)
+  / Sector (urbanizable) / Área (no urbanizable); Área de Reparto; Polígono/Unidad de
+  Ejecución; Sistemas Generales.
+- Carácter de las determinaciones: GENERAL / ESTRUCTURANTE / PORMENORIZADO (saber
+  clasificar).
+- Clases de suelo (art. 21): Urbano, Urbanizable, No Urbanizable.
+  · Urbano: consolidado Z / Z.O. / Z.O.R.; no consolidado Z.N. / Z.N.O. (art. 22, 42).
+  · Urbanizable: sectorizado S / S.O.; no sectorizado S.N. (art. 23, 54).
+  · No Urbanizable: Áreas "A"; categorías PROTECCIÓN (supuestos 1-3) y PRESERVACIÓN
+    (supuestos 4-5) (arts. 24, 62).
+- Usos (art. 27): por asignación = global (estructurante) / pormenorizado / detallado;
+  por compatibilidad = principal / permitido (1) / necesario (2) / tolerado (3, máx.
+  25%) / prohibido (4); por funcionalidad = residencial / productivo / dotacional /
+  espacios libres.
+- Aprovechamiento tipo (art. 33): m² techo del uso característico por m² suelo → U.A.;
+  solo donde hay áreas de reparto. Módulo de piezas habitables (art. 39): 110 m² = 4
+  piezas; máx. 40% viviendas de dos piezas.
+- Áreas de reparto: 19 en suelo urbano no consolidado (ARZ1-ARZ19, ARZ12 eliminada) y
+  7 en urbanizable (ARS1-ARS7). Sistema de actuación general en SU: COOPERACIÓN (art. 43).
+- VPO (art. 19): mínimo 15% de la nueva capacidad residencial de los 8 primeros años.
+- Revisión del Plan (art. 6): a los 200.000 hab. de derecho; al 75% de licencias de
+  vivienda en urbanizable; al 75% de ocupación de suelo comercial/actividad económica.
+- Fecha de referencia de actividades consolidadas: 23 de noviembre de 1984.
+
+>>> POSIBLES TRAMPAS:
+  - No confundir CLASIFICACIÓN (urbano/urbanizable/no urbanizable, art. 21) con
+    CALIFICACIÓN (asignación de usos, art. 25 y ss.).
+  - Los Planos de INFORMACIÓN no tienen valor normativo; los de PROPUESTA sí.
+  - "Estructurante" vs "pormenorizado": los usos globales y las áreas de reparto y su
+    aprovechamiento tipo son estructurantes; los usos pormenorizados/detallados y la
+    delimitación de unidades de ejecución son pormenorizados.
+  - El Plan está homologado a la LF 35/2002 (hoy TRLFOTU-2017); ojo a las remisiones.
+  - En SNU la vivienda está prohibida en todas las subcategorías.
+
+================================================================================
+FUENTES (verificación 18/06/2026)
+================================================================================
+- Normativa Urbanística General (Texto Refundido), Plan Municipal de Pamplona,
+  Gerencia de Urbanismo (pamplona.es) — texto literal de arts. 1-72 y régimen del SNU.
+- Web del Plan Municipal (pamplona.es): tramitación, homologación (OF 181/2007; Texto
+  Refundido 18/01/2008, BON 22 de 18/02/2008), conjunto documental y disclaimer de
+  "carencia de valor oficial" de los documentos web.
+- Marco legal vigente: TRLFOTU-2017 (DFLeg 1/2017), que derogó la LF 35/2002 a la que
+  está homologado el Plan (que a su vez sucede al PGOU-84 y cita la LF 10/1994).
+- NOTA: las tablas numéricas de aprovechamiento (arts. 45-49 y 57-61) y el texto literal
+  de los arts. 73-79 (condiciones de actividades en SNU y Normas de Diseño y Calidad)
+  no se reproducen íntegros; están en el PDF oficial de la NUG.
+================================================================================

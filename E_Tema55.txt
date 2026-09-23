@@ -1,0 +1,1184 @@
+================================================================================
+TEMA 55 — PLAN ESPECIAL DE PROTECCIÓN Y REFORMA INTERIOR (PEPRI) DEL CASCO
+ANTIGUO DE PAMPLONA. NORMATIVA.
+  · Título III, Cap. I: Desarrollo y ejecución del Plan Especial.
+  · Título V, Cap. II: Edificios, elementos y usos fuera de ordenación, supuestos
+    de declaración de ruina y demolición de edificaciones.
+  · Título VI: Normas generales de la edificación.
+================================================================================
+Oposición Arquitecto/a — Ayuntamiento de Pamplona (examen enero 2027)
+
+Fecha de verificación: 19/06/2026
+Fuente del texto base: TEXTO REFUNDIDO del PEPRI del Casco Antiguo, aprobación
+definitiva por Acuerdo del Pleno de 7/06/2001 (BON nº 109, de 7/09/2001), articulado
+literal extraído del propio BON. Actualización de usos (arts. 87-88) verificada
+contra la modificación de la Gerencia de Urbanismo de 09/2024 (aprob. definitiva
+BON 16, de 24/01/2025) y la de 2019 (BON 249, de 20/12/2019).
+
+>>> ESTADO POR BLOQUE:
+  - T-III Cap. I (arts. 11-17): texto literal de 2001 y, para los arts. 12 y 15,
+    REDACCIÓN VIGENTE de 2007 ya integrada (modificación Z.I.P./P.I.G., BON 154 de
+    12/12/2007). Bloque cerrado.
+  - T-V Cap. II (arts. 35-40): texto literal de 2001 — SIN modificaciones conocidas.
+    Bloque cerrado y fiable.
+  - T-VI (arts. 53-96): texto literal de 2001, salvo los arts. 87 y 88 (usos), que
+    se dan en su VERSIÓN VIGENTE (2025). El art. 89 (hostelería y aledañas) está
+    modificado y con una nueva modificación EN EXPOSICIÓN PÚBLICA (BON 77 de
+    21/04/2026, aún sin aprobación definitiva): usar con cautela.
+
+>>> AVISOS DE VIGENCIA (marco legal):
+  - El PEPRI se aprobó bajo la LEY FORAL 35/2002 (LFOTU-2002) y cita también la LF
+    10/1994 y el DF 287/1998. La LFOTU-2002 está DEROGADA, hoy TRLFOTU-2017 (DFLeg
+    1/2017). El plan sigue vigente; las remisiones legales (arts. 92, 134, 225.1
+    LFOTU, art. 72 DF 287/1998, etc.) se trasladan al TRLFOTU-2017. Trampa de examen.
+  - El Casco Antiguo es BIEN DE INTERÉS CULTURAL con categoría de Conjunto Histórico
+    (Decreto 6/04/1968, BOE 29/04/1968); el PEPRI es Plan Especial de Protección del
+    Título II de la LPHE 16/1985. Es además Área de Rehabilitación Preferente.
+  - El PEPRI desarrolla el Plan Municipal en la UNIDAD INTEGRADA VIII (Casco Viejo),
+    que por ello tiene la condición de Zona de Ordenación Remitida (Z.O.R.-1). En lo
+    no regulado por el PEPRI se aplica subsidiariamente la Normativa del Plan Municipal.
+
+================================================================================
+PARTE A — MARCO (Título I-II: arts. 1-10, esencia)
+================================================================================
+Art. 1 NATURALEZA: el PEPRI es un Plan Especial de Protección y Reforma Interior del
+ámbito conocido como Casco Antiguo de Pamplona, que desarrolla el Plan Municipal
+(Resoluciones Ministeriales de 7 y 16/11/1984) en la U.I. VIII. Delimita el contenido
+urbanístico del derecho de propiedad y las condiciones de las actuaciones. Se redacta
+al amparo del art. 92 LFOTU (Plan Especial) y, por el carácter BIC del Casco, conforme
+a la LPHE 16/1985 (Título II) y a los criterios de sus arts. 20 y 21 y del art. 71 LFOTU.
+Documentos: Memoria, Normativa (General y Particular), Catálogo y documentación
+gráfica de Ordenación. Vigencia indefinida. Ámbito: los tres burgos históricos
+(Navarrería, San Cernin y San Nicolás), unos 442.000 m².
+
+================================================================================
+PARTE B — TÍTULO III, CAP. I: DESARROLLO Y EJECUCIÓN DEL PLAN ESPECIAL (arts. 11-17)
+================================================================================
+TITULO III
+Desarrollo, ejecución y gestión del Plan Especial
+CAPITULO I
+Desarrollo y ejecución del Plan Especial
+Art. 11. Competencias.
+1. Corresponde al Ayuntamiento de Pamplona, como Administración actuante, el desarrollo y ejecución del Plan Especial, sin perjuicio de la participación de los particulares conforme a lo establecido
+en la legislación urbanística y Normativa del presente Plan.
+2. La Administración Foral y, en su caso los organismos de la
+Administración Central o de la Unión Europea, dentro de sus respectivas atribuciones y obligaciones y atendiendo a la condición del Casco
+de Bien de Interés Cultural y Area de Rehabilitación Preferente, cooperarán con el Ayuntamiento para la consecución de los objetivos
+propuestos por el Plan.
+Art. 12. Instrumentos de Ejecución del Plan.
+1. La ejecución del Plan se realizará:
+a) Ejerciendo directamente el derecho que atribuye el Plan a una
+o varias parcelas mediante la correspondiente licencia de obras, que
+deberá respetar las previsiones específicas del planeamiento para esa
+parcela.
+b) Mediante el desarrollo y gestión de las Zonas de Intervención
+Preferente (ZIP) y Unidades de Ejecución (UE) previstas en el Plan, con
+el objeto mejorar las condiciones de habitabilidad de una manzana, de
+obtener mejoras en la vialidad, sistema de espacios libres, condiciones
+higiénico-sanitarias y de habitabilidad de los edificios, etc.
+2. Para el desarrollo y ejecución de las determinaciones del Plan
+Especial se redactarán cuando sea preciso y así lo establezca el Plan
+los correspondientes Estudios de Detalle, Proyectos de Urbanización,
+Proyectos de Obras Ordinarias, Proyectos de Intervención Global y
+Proyectos de Edificación.
+Art. 13. De los Estudios de Detalle.
+1. En el ámbito de las Unidades de Ejecución propuestas en el
+Plan o en aquellas que se determinen en su momento conforme al artículo 146 LFOTU, podrán formularse Estudios de Detalle en el caso
+que se considere necesaria la adaptación o reajuste de alineaciones y
+rasantes o con otras finalidades previstas por el artículo 98 LFOTU.
+2. El contenido y tramitación de estos instrumentos será el previsto
+en los artículo 98 y 119 LFOTU.
+Art. 14. De los Proyectos de Urbanización y Obras Ordinarias.
+1. La ejecución material de las determinaciones del Plan Especial
+−o Estudio de Detalle que lo desarrolle en su caso− en lo relativo a
+obras de urbanización se realizará mediante proyectos técnicos, los
+cuales según su objeto se incluirán en alguna de las siguientes clases:
+a) De urbanización: Si desarrollan integralmente todas las determinaciones que el planeamiento prevé en cuanto a obras de urbanización, tales como vialidad, abastecimiento de aguas, alcantarillado,
+energía eléctrica, alumbrado y otras análogas, conforme a los artículos
+99 LFOTU y 49 de su reglamento.
+b) De Obras ordinarias: Si desarrollan tan solo parcialmente las
+obras de urbanización o se refieren a obras menores, tales como pavimentación, embellecimiento, peatonalización, etc.
+2. El contenido del Proyecto y su tramitación será conforme al artículo 99 y 119 LFOTU, limitando su contenido en los Proyectos de
+Obras ordinarias a la finalidad que persigan.
+Art. 15. De los Proyectos de Intervención Global.
+1. Para el desarrollo de las Zonas de Intervención Preferente establecidas en el Plan, o en aquellas otras que posteriormente se determinen conforme al procedimiento establecido en el artículo 146 LFOTU,
+se redactarán Proyectos de Intervención Global que deberán atenerse
+a las prescripciones establecidas en el presente Plan en cuanto a los
+niveles de protección de las edificaciones, espacios libres, niveles de
+intervención y régimen urbanístico.
+2. Los proyectos de Intervención Global desarrollarán las determinaciones básicas del Plan Especial y su contenido será, en su caso,
+el correspondiente a un Estudio de Detalle en cuanto a la definición
+pormenorizada de la ordenación, un Proyecto de obras ordinarias en
+cuanto a la concreción de las actuaciones de urbanización del espacio
+interior y exterior, un Proyecto de Reparcelación o Expropiación en
+cuanto a la gestión de la actuación; y, un Proyecto de Edificación en
+cuanto a las intervenciones propuestas sobre fachadas y demás elementos comunes de los edificios.
+3. Los Proyectos contendrán un Estudio Sociológico y Económico
+de la Intervención donde se garantice la viabilidad social de la misma
+y una programación detallada de las actuaciones.
+4. La tramitación del Proyecto será la prevista en el artículo 117
+LFOTU para los Planes Parciales y Planes Especiales de desarrollo del
+planeamiento.
+Art. 16. Proyectos de Reforma del Espacio Urbano.
+1. Con objeto de hacer posible la mejora ambiental del Casco
+Antiguo el Ayuntamiento podrá redactar proyectos de reforma del espacio urbano.
+2. Este tipo de proyectos tiene por finalidad la adecuación de espacios libres públicos, las fachadas y elementos exteriores de la edificación que los configuran.
+Tendrán el contenido de un proyecto de urbanización o de obras
+ordinarias, en función del alcance de las intervenciones sobre el espacio público y, en su caso, el contenido de un proyecto de edificación
+
+en función de las intervenciones sobre fachadas y elementos exteriores
+de la edificación.
+3. Una vez aprobado el proyecto de reforma de un espacio urbano
+y con independencia de si contempla o no intervenciones de adecuación urbanística o ambiental de los edificios que lo configuran, el
+Ayuntamiento podrá exigir a los propietarios, la ejecución de las acciones necesarias en orden a esa adecuación mediante la emisión de
+las correspondientes órdenes de ejecución.
+4. El presente Plan Especial establece ámbitos de reforma y diseño unitario en que se tramitarán proyectos de reforma del espacio
+urbano.
+Art. 17. De los Proyectos de Edificación.
+A los efectos de su regulación, las obras de edificación en el ámbito
+del Plan se integrarán en alguno de los grupos siguientes:
+−Obras en los edificios existentes.
+−Obras de demolición.
+−Obras de nueva edificación.
+
+################################################################################
+T-III CAP. I — VERSIÓN VIGENTE DE LOS ARTS. 12 Y 15 (modificación BON 154 de
+12/12/2007, relativa a Z.I.P. y P.I.G.). SUSTITUYE al texto de 2001 reproducido arriba.
+################################################################################
+>>> QUÉ CAMBIÓ (clave de examen): la reforma de 2007 SIMPLIFICÓ el art. 12 (suprime la
+    vía de "desarrollo y gestión de Z.I.P. y U.E." del apartado 1 y quita los Proyectos
+    de Intervención Global de su lista de instrumentos) y CONCENTRÓ/AMPLIÓ en el art. 15
+    el régimen de los P.I.G. (ahora pueden plantear modificaciones normativas y la
+    delimitación de Z.I.P. puede hacerse de oficio o a petición de particulares).
+
+Art. 12 del PEPRI.- Instrumentos de Ejecución del Plan. (REDACCIÓN VIGENTE 2007)
+1. La ejecución del Plan se realizará ejerciendo directamente el derecho que atribuye
+el Plan a una o varias parcelas mediante la correspondiente licencia de obras, que
+deberá respetar las previsiones específicas del planeamiento para esa parcela.
+2. Para el desarrollo y ejecución de las determinaciones del Plan Especial se redactarán
+cuando sea preciso y así lo establezca el Plan los correspondientes Estudios de Detalle,
+Proyectos de Urbanización, Proyectos de Obras Ordinarias, y Proyectos de Edificación.
+
+Art. 15 del PEPRI.- De los Proyectos de Intervención Global. (REDACCIÓN VIGENTE 2007)
+1. Para posibilitar el desarrollo de las Zonas de Intervención Preferente establecidas
+en el Plan, o en aquellas otras que puedan delimitarse, se redactarán Proyectos de
+Intervención Global que deberán atenerse a las prescripciones establecidas en el
+presente Plan en cuanto a los niveles de protección de las edificaciones, espacios
+libres, niveles de intervención y régimen urbanístico, pudiendo de forma justificada en
+base al análisis de detalle de las zonas de intervención plantear las modificaciones
+normativas necesarias que posibiliten el desarrollo de las propuestas en ellos contenidas.
+La delimitación de zonas de intervención preferente ZIP podrá estar contenida en el
+planeamiento o realizarse de oficio o a petición de los particulares interesados mediante
+acuerdo del ayuntamiento, previo trámite de aprobación inicial, información pública
+durante quince días y aprobación definitiva por el órgano competente.
+2. Los proyectos de Intervención Global desarrollarán las determinaciones básicas del
+presente Plan Especial y su contenido será, en su caso, el correspondiente a: 1) un
+Estudio de Detalle en cuanto a la definición pormenorizada de la ordenación; 2) un
+Proyecto de obras ordinarias de urbanización en cuanto a la concreción de las actuaciones
+de urbanización del espacio interior y espacios libres; 3) un anteproyecto en cuanto a la
+definición de las intervenciones propuestas sobre la edificación que permita valorar
+económicamente las mismas; 4) un análisis de la normativa vigente y las propuestas de
+modificación que den cobertura a las intervenciones planteadas.
+3. Los Proyectos contendrán un Estudio Sociológico y Económico de la Intervención donde
+se garantice la viabilidad de la misma y una programación detallada de las actuaciones.
+4. La tramitación del Proyecto será la prevista en la legislación urbanística vigente
+para los Estudios de Detalle.
+
+(Nota: la misma modificación de 2007 retocó también el art. 26.2 —admite obras de
+renovación/ampliación en actuaciones aisladas cuando exista P.I.G. aprobado en una Z.I.P.—
+y el art. 28, ambos fuera de los bloques de este tema.)
+
+================================================================================
+PARTE C — TÍTULO V, CAP. II: EDIFICIOS, ELEMENTOS Y USOS FUERA DE ORDENACIÓN,
+RUINA Y DEMOLICIÓN (arts. 35-40)
+================================================================================
+(TITULO V — Condiciones de protección del Patrimonio Histórico y Ambiental)
+
+CAPITULO II
+Edificios, elementos y usos fuera de ordenación,
+supuestos de declaración de ruina y demolición de edificaciones
+Art. 35. Edificaciones y construcciones declaradas inadecuadas o
+impropias.
+1. Los edificios y elementos existentes que resulten inadecuados
+o impropios, en relación con las determinaciones del Plan, en particular
+aquellos a los que se hubiera asignado el régimen de renovación o renovación preferente, se entenderán integrados a la ordenación del Plan
+Especial en tanto subsistan y no sean objeto de intervención, no debiéndose considerar por tanto como edificio o instalaciones fuera de
+ordenación, a los efectos establecidos en el artículo 134 LFOTU. En
+tanto no se proceda a actuaciones que requieran el ajuste a las alineaciones exteriores, interiores o alturas previstas por el Plan o la eliminación de elementos declarados impropios, podrán autorizarse en
+ellos las necesarias obras de conservación, mantenimiento y reparación
+durante la vida útil del edificio.
+2. A los efectos previstos por el artículo 72 del Decreto Foral
+287/1998, de 28 de septiembre, se considerará que los edificios o
+construcciones accesorias declarados inadecuados o impropios tendrán
+la consideración de "fuera de ordenación" cuando se vaya a producir
+su derribo y demolición para adaptarse a lo previsto por el Plan.
+Art. 36. Actuaciones y obras en las edificaciones declaradas inadecuadas o impropias.
+1. Con carácter general, se permiten las siguientes obras en la
+parte afectada por la declaración:
+a) Intervención en edificio:
+−Las generales de consolidación.
+−Las parciales de sustitución de acabados o instalaciones.
+−Las puntuales de sustitución estructural.
+−En los elementos inadecuados por exceder del fondo máximo se
+permiten las intervenciones parciales de sustitución de la estructura
+horizontal siempre que éstas se deriven del traslado de escaleras, ascensores, patios y/o columnas de baños a la parte no afectada por la
+declaración, adecuando el edificio a las condiciones fijadas desde la
+normativa general y particular para la parte no afectada.
+−En los elementos inadecuados por exceder de la altura máxima
+se permiten las intervenciones integrales de consolidación. Si el estado
+constructivo del elemento sólo exige la ejecución de obras parciales de
+consolidación estructural se permite la implantación en él de nuevas
+instalaciones generales del edificio. En todo caso, estas intervenciones
+exigen la adecuación de los elementos de fachada y alero a la ordenanza de aplicación.
+b) Intervención en vivienda o local:
+−Las parciales.
+−Las generales, cuando se precisen por adecuación a habitabilidad
+o actividad de viviendas o locales existentes.
+−En caso de edificios parcialmente declarados se permiten, además
+de las obras privativas señaladas con carácter general, las integrales
+sin limitación de grado, cuando se trate de trasladar escaleras o cuartos
+húmedos o de instalaciones desde el elemento inadecuado al restante.
+−En los elementos inadecuados por exceder de la altura máxima
+en los que se sitúan usos permitidos, se permiten las intervenciones
+integrales si el estado constructivo del elemento sólo exige la ejecución
+de obras parciales de consolidación estructural.
+En todo caso, cualquier intervención de ampliación exige la adecuación del edificio a las determinaciones del plan.
+c) Usos:
+No es posible la implantación de nuevos usos, salvo que se trate
+de sustituir usos prohibidos por permitidos, ni la división o ampliación
+de las viviendas existentes en edificios o elementos inadecuados.
+Los usos prohibidos se consideran como inadecuados por lo que las
+obras a realizar en los locales en que se emplazan quedan limitadas
+de acuerdo con las condiciones establecidas en este apartado.
+d) En función del estado de conservación del inmueble y de los
+elementos inadecuados que forman parte del mismo se podrá vincular
+la concesión de ayudas municipales a la efectiva ejecución de las determinaciones del planeamiento, incluyéndose entre ellas el realojo definitivo de los usuarios de viviendas o locales que desaparezcan con la
+intervención.
+Art. 37. Edificios e instalaciones "fuera de ordenación".
+1. Los edificios o elementos declarados expresamente por el presente Plan Especial como "fuera de ordenación" por ser disconformes
+con sus determinaciones y relacionados en la normativa particular, deberán ser objeto de la actuación prevista en los mismos durante la vigencia del Plan Especial.
+La declaración de "fuera de ordenación" podrá abarcar la totalidad
+del inmueble, o parte del mismo. Que sin dejar fuera de ordenación todo
+el edificio, requiera la supresión o alteración de añadidos o elementos
+inadecuados, en este caso se tratará de situaciones de "fuera de ordenación parcial".
+2. En tanto no se produzca la acomodación a las condiciones de
+la ordenación, no se permitirán en el marco del artículo 134, 3 y 4
+LFOTU, otras obras que las siguientes:
+Con carácter general, y si no está prevista una intervención pública
+en plazo inferior a 1 año, se permiten las siguientes obras en la parte
+afectada por la declaración:
+a) Intervención en edificio:
+−Las generales de conservación.
+−Las parciales de consolidación.
+−Las puntuales de consolidación estructural.
+−En caso de edificios parcialmente fuera de ordenación se permiten
+las intervenciones generales de consolidación siempre que la intervención se derive del traslado de escaleras, ascensores, patios y/o columnas de baños a la parte no afectada por la declaración, adecuando
+el edificio a las condiciones fijadas desde la normativa general y particular para dicha parte.
+b) Intervención en vivienda o local:
+−Las puntuales.
+−Las parciales, cuando se precisen por adecuación a habitabilidad
+o actividad de viviendas o locales existentes.
+−Con carácter específico debe considerarse lo siguiente:
+a) En caso de tratarse de edificios declarados exclusivamente por
+su carácter de interiores, se permiten las obras mínimas de adecuación
+a habitabilidad o actividad de viviendas o locales ya existentes, incluso
+las integrales.
+b) En caso de edificios parcialmente fuera de ordenación se permiten, además de las obras privativas señaladas con carácter general,
+las integrales sin limitación de grado, cuando se trate de trasladar escaleras o cuartos húmedos o de instalaciones desde la zona fuera de
+ordenación a la restante.
+En todo caso, cualquier intervención de ampliación exige la adecuación del edificio a las determinaciones del plan.
+c) Usos:
+No es posible la implantación de nuevos usos ni la división o ampliación de las viviendas existentes en edificios o elementos que estén
+declarados fuera de ordenación.
+d) La concesión de ayudas municipales queda vinculada a la
+efectiva ejecución de las determinaciones del planeamiento. En caso
+de edificios con parte de planta baja y, en su caso, entreplanta fuera
+de ordenación, la concesión de ayudas municipales queda vinculada a
+la renuncia sobre el derecho de participación de los propietarios, a excepción del titular de la planta baja afectada, en los elementos comunes
+del elemento a demoler.
+Art. 38. Ruina.
+1. Los supuestos y el procedimiento de declaración de ruina de las
+construcciones en el ámbito del Plan Especial serán las establecidas
+con carácter general por el artículo 226 LFOTU y con carácter especial
+en el artículo 24 de la Ley del Patrimonio Histórico Español.
+2. La declaración de ruina de un inmueble afectado por normativa
+de protección en cualquiera de sus grados, no supondrá la procedencia
+de su demolición sin la previa autorización de la Administración competente de conformidad con lo dispuesto en el artículo 24 LPHE. Todo
+ello sin perjuicio de la adopción de las medidas necesarias, en orden
+a la seguridad del inmueble y sus ocupantes.
+3. El desalojo provisional y las medidas a adoptar respecto de los
+habitantes no lleva implícita, por sí solos, en modo alguno la declaración de ruina.
+4. La declaración administrativa de ruina o la adopción de medidas
+de urgencia por la Administración, no exime a los propietarios de sus
+responsabilidades de todo orden que pudieran serles exigidas por negligencia en los deberes de conservación que les corresponden.
+5. La resolución administrativa que declare el estado de ruina de
+un edificio podrá imponer la obligación de rehabilitación, para cuya
+efectividad podrá utilizarse alguno de los siguientes procedimientos:
+a) Convenio administrativo entre el Ayuntamiento y la propiedad
+del inmueble, en el que se reflejarán los compromisos que asume cada
+parte para ejecutar y sufragará la rehabilitación, el plazo para llevarla
+a cabo y el régimen posterior de uso y disfrute del inmueble.
+
+b) Expropiación del inmueble o venta forzosa como incumplimiento del deber de conservación legalmente previsto si no se solicita
+en los plazos establecidos la licencia de rehabilitación o no se ejecuta
+la obra; y, por razón del incumplimiento de las obligaciones previstas
+en el artículo 36.4 LPHE.
+Art. 39. Derribo.
+1. Los derribos que se puedan efectuar en el ámbito del Plan Especial deberán contar con la preceptiva licencia municipal conforme al
+artículo 221.1.i) LFOTU y no ser impedido por la Administración competente en materia de Patrimonio Histórico conforme al artículo
+37 LPHE.
+2. En caso de que se produjeran derribos o demoliciones totales
+o parciales en un edificio o construcción que fuesen ilegales por no
+contar con la preceptiva licencia, orden de ejecución o por no ajustarse
+a estas, la propiedad del inmueble y quien ejecutasen materialmente
+el derribo además de incurrir en las infracciones urbanísticas que
+prevén el artículo 248.10 y 249.12 LFOTU, podrán ser obligados, en
+caso de ser inmuebles catalogados o de especial valor, a la reconstrucción de lo demolido, sin perjuicio de las sanciones económicas que
+procedan.
+3. En el supuesto de enajenación de fincas, el adquirente soportaría las responsabilidades en que hubiera incurrido el anterior propietario, en virtud del principio de subrogación real previsto en el artículo
+21 de la Ley 6/98.
+Art. 40. Usos prohibidos.
+Se consideran usos prohibidos aquellos que no cumplen las determinaciones establecidas al efecto en el capítulo III (Normas Generales
+de Usos), del Título VI, (Normas Generales de la Edificación), de la
+presente Normativa. En los edificios y locales en que existiesen, con
+anterioridad a la aprobación inicial del Plan, usos prohibidos, solo podrán realizarse obras de adaptación y adecuación de la actividad a
+Normativas vigentes.
+
+================================================================================
+PARTE D — TÍTULO VI: NORMAS GENERALES DE LA EDIFICACIÓN (arts. 53-96)
+================================================================================
+Estructura del Título VI: Cap. I Normas generales de volumen (arts. 53-69);
+Cap. II Normas generales de estética (arts. 70-86); Cap. III Normas generales de
+uso (arts. 87-91); Cap. IV Normas higiénico sanitarias y de habitabilidad (arts.
+92-93); Cap. V Soluciones tipológicas (arts. 94-96).
+
+TITULO VI
+Normas generales de la edificación
+Contenido.
+Las presentes normas serán de aplicación en todo el ámbito del
+Plan Especial.
+Sus determinaciones se establecen con carácter general sin perjuicio de las que en cada caso se precisen en las normas particulares
+correspondientes a cada parcela o Unidad de Ejecución.
+En cuanto no aparezca previsto en ellas, se estará a lo dispuesto
+en el Plan Municipal.
+CAPITULO I
+Normas generales de volumen
+Art. 53. Parcelario.
+Se permiten agregaciones y segregaciones de parcelas, sin más limitación que en caso de segregación ninguno de los frentes de las
+parcelas resultantes sea inferior a 6 metros.
+Todo ello con independencia de la conservación o modulación de
+fachadas que resulte de aplicación con los criterios propios de la legislación del Patrimonio Histórico.
+Art. 54. Alineaciones.
+Se definen gráficamente en plano de ordenación.
+1. Alineación oficial.
+Se entiende por alineación oficial la línea límite de la parcela que
+separa el espacio privado del espacio libre público.
+Salvo que el Plan Especial, o instrumentos que lo desarrollen, señalaran otras, las alineaciones actuales se mantienen y tendrán el carácter de alineaciones oficiales.
+2. Alineaciones de la edificación.
+−Exteriores. Respetarán con carácter general las alineaciones oficiales.
+
+No se admiten retranqueos de la edificación en relación con su alineación exterior, excepción hecha de la Plaza del Castillo en que, si se
+produjeran sustituciones de la edificación, resultaría obligada la construcción a nivel de planta baja de un porche de uso público cuya anchura será igual a la existente en el frente afectado.
+−Interiores. Tienen el carácter de envolvente máxima de la edificación en plantas superiores.
+Art. 55. Rasantes.
+Se establecen gráficamente en el plano de ordenación. Allí donde
+no se definen se mantendrán las rasantes actuales.
+Art. 56. Número de plantas y altura de la edificación.
+Se entiende por altura la dimensión vertical de un edificio expresada, indistintamente, como distancia vertical desde la rasante de la
+acera hasta su línea de cornisa, o como número total de plantas de la
+edificación sobre rasante.
+En la edificación existente, y salvo que en la documentación gráfica
+o normativa particular se determine otra cosa, se consolida la altura de
+la edificación en cuanto se refiere a número de plantas existentes hasta
+la altura de cornisa actual. Ese valor tendrá el carácter de máximo, en
+supuestos de conservación.
+La consolidación de la altura de un edificio no conlleva necesariamente la consolidación de su altura actual de cumbrera o punto más
+alto de su cubierta, ni de las construcciones y elementos inadecuados
+urbanística o ambientalmente que en su caso pudieran existir sobre la
+línea de cornisa o plano de cubrición tal como éstos aparecen definidos
+en la presente Normativa.
+Todo volumen habitable o elemento impropio que exceda la altura
+de la línea de cornisa o el plano de la cubierta queda en situación de
+inadecuación urbanística.
+En intervenciones de nueva planta, sustitución o ampliación de la
+edificación podrá autorizarse, justificadamente, que éstas sean iguales
+a la de la menor contigua o incluso a la media de las contiguas, no
+superándose en ningún caso la altura de PB+4.
+En caso de parcelas en esquina, la altura y número de plantas serán
+las que resulten de aplicar las anteriores exigencias a la fachada de
+mayor longitud.
+En el resto de los casos de parcelas con frente a dos calles, se
+entenderá que aquéllas afectan a la mitad del fondo edificable.
+Queda prohibida la ejecución de nuevos sótanos excepto para implantar instalaciones comunes del edificio, o cuando se trate de obras
+de sustitución.
+Art. 57. Medición de alturas. Altura de cornisa y número de
+plantas.
+A los efectos de este Plan Especial la altura de cornisa o altura
+máxima expresada en metros es la distancia desde la rasante de la
+acera hasta la línea inferior del alero o, en su defecto, hasta la cara
+inferior del forjado que forma el techo de la última planta, en su encuentro con la línea de fachada. Dicha altura se medirá en la vertical
+del punto medio de la línea de fachada.
+Por lo que se refiere a la altura expresada en número de plantas,
+se contabilizarán las plantas baja y de pisos sin incluir la correspondiente al espacio situado bajo cubierta.
+Art. 58. Cubierta y construcciones por encima de la altura máxima
+de cornisa.
+En obras de nueva edificación sustitución o ampliación de edificios
+existentes, ningún elemento podrá emerger del plano de la cubierta,
+excepción hecha de chimeneas, y conductos de ventilación, y elementos análogos quedando expresamente prohibidos áticos y buhardas.
+Bajo cubierta sólo se autoriza el uso residencial si aparece vinculado al piso inmediatamente inferior, no pudiendo, por tanto, tener relación con el núcleo de comunicaciones comunes, −escaleras y
+ascensor− del edificio.
+Se permitirán también usos complementarios tales como trasteros
+e instalaciones.
+La pendiente de los planos inclinados de la cubierta no será superior
+a 40° ni inferior a 30°.
+En edificios existentes, objeto de conservación sólo se admiten viviendas autónomas, esto es, no vinculadas al piso inmediatamente inferior y con acceso al núcleo comunitario de comunicaciones, cuando
+ya existan.
+Si el espacio bajo cubierta no estuviera utilizado o estuviera aprovechado para otro uso y se pretendiera destinarlo a uso residencial, se
+respetarán las condiciones establecidas para nuevas edificaciones o
+ampliaciones, vinculando dicho espacio al piso inferior sin proporcionarle acceso desde el núcleo común de comunicaciones del edificio.
+Se procurará, en cualquier caso, adecuar ese espacio a las condiciones de volumen y uso establecidas para nuevas edificaciones, en
+particular si se procede a una reestructuración interna del edificio y/o a
+la instalación de ascensor.
+
+Art. 59. Planta baja.
+Se entiende por planta baja la planta inferior del edificio.
+En actuaciones de nueva edificación, la altura libre de planta baja
+estará comprendida entre 3 y 3,50 metros.
+El nivel del suelo en esta planta no excederá de 15 centímetros
+sobre la rasante exterior medida en el punto medio de la fachada ni se
+situará por debajo de dicha rasante, excepción hecha de edificios singulares o existentes.
+En el caso de adecuación a la normativa vigente de locales de
+planta baja en edificios existentes puede admitirse que el nivel de la
+planta se sitúe hasta 30 centímetros por debajo de la rasante exterior.
+Excepcionalmente pueden justificarse alturas superiores si ello
+queda justificado en razón de la altura de edificios colindantes,
+−especialmente si se encuentran catalogados− o, por tratarse de edificios institucionales o dotaciones públicas.
+Art. 60. Planta de piso.
+Se entiende por planta de piso toda aquella cuyo suelo se encuentra
+por encima del forjado de planta baja.
+En actuaciones de nueva edificación la altura libre no será inferior
+a 2,50 ni superior a 2,80 metros.
+Art. 61. Planta bajo cubierta.
+Se entiende por planta bajo cubierta la situada entre el nivel superior
+del último forjado horizontal y el plano inferior de la cubierta. No tiene
+la consideración de planta de piso.
+Se permite su aprovechamiento, tanto en edificios existentes como
+en obras de nueva edificación o ampliación, en las condiciones establecidas en artículos anteriores.
+En su caso, la altura interior de la planta bajo cubierta, bajo la línea
+de cumbrera, no excederá en ningún punto de 4,50 metros.
+Art. 62. Planta ático bajo cubierta.
+Se entiende por ático bajo cubierta la planta comprendida entre la
+cara superior del último forjado horizontal y el plano inferior de la cubierta, que dispone de fachada retranqueada respecto de la alineación
+general anterior o posterior del edificio, en la que se abren huecos de
+iluminación y, en su caso, acceso a terraza.
+Con carácter general, y, salvo determinación particular expresa, se
+prohibe la construcción de áticos en todo el Casco Antiguo.
+En los edificios en que existan, los áticos y sus terrazas correspondientes se consideran elementos inadecuados urbanísticamente y habrán de adecuarse a las normas que regulan la construcción de cubiertas, particularmente cuando se trate de edificios situados en recintos
+catalogados o entornos monumentales o, que por su situación, sean
+percibidos desde el espacio público.
+Dicha adecuación podrá hacerse progresivamente, y en ese sentido,
+se admiten obras parciales de adecuación que, en su caso, repongan
+el alero y restituyan cuando menos el borde exterior del tejado en un
+tramo que oculte cualquier pretil interior inadecuado.
+Art. 63. Planta bajo rasante.
+En obras de nueva edificación o sustitución se establece como altura libre mínima en cualquier punto 2,20 metros.
+Art. 64. Vuelos de la edificación.
+1. Se entiende por vuelo de la edificación la superficie o volumen
+construido y utilizable de planta piso que sobresale del plano de fachada o alineación de la edificación.
+A los efectos del presente artículo no tienen, pues, la consideración
+de vuelos, cornisas y aleros cuya construcción se regula en el capítulo
+correspondiente a Normas Generales de Estética.
+2. Según las características volumétricas de los vuelos se distinguen balcones y cuerpos volados.
+3. Se entiende por balcón la superficie exterior, en vuelo, que sobresale del plano de fachada.
+Se permiten balcones en todas las plantas piso de la edificación.
+Su vuelo no será superior a 1/10 de la anchura de la calle, con un
+máximo de 0,60 centímetros, y la altura de su cerramiento no excederá
+de 1,20 metros sobre el nivel del suelo de la planta a la que corresponda.
+Su borde exterior será paralelo a fachada.
+Podrán construirse ante cualquier hueco de fachada y extenderse
+ante varios huecos, pero no se aproximarán a menos de 0,60 metros
+de la línea medianera con el edificio contiguo.
+Los materiales y soluciones aplicables a su construcción aparecen
+regulados en las Normas Generales de Estética.
+4. Se entiende por cuerpo volado todo volumen habitable cerrado
+que sobresalga del plano de fachada.
+Con carácter general, en el Casco Antiguo únicamente se permite
+la construcción de miradores.
+Se entiende por mirador un cuerpo volado acristalado en toda su
+extensión, exento y adosado al muro de fachada con una estructura
+independiente de la del resto de la planta del piso correspondiente.
+
+Se permiten miradores en todas las plantas piso de la edificación.
+Su vuelo no podrá exceder de 0,60 metros. Su parámetro exterior
+será paralelo a fachada y su plano lateral no se aproximará a menos
+de 0,60 metros de la línea medianera con el edificio contiguo.
+Podrán corresponder a una o varias habitaciones.
+En cualquier caso, la dimensión de los huecos de paso a su ámbito
+será la que con carácter general se establece en la regulación de
+huecos de fachada.
+La carpintería utilizada en su construcción se regula en las Condiciones Generales de Estética.
+Los vuelos de cuerpos cerrados de obra de fábrica y, en general,
+no acristalados que existan en la edificación, quedan en situación de
+inadecuación urbanística y deberán ser eliminados, sustituidos o reformados, particularmente si se encuentran en un recinto catalogado o
+entorno monumental.
+Art. 65. Elementos salientes.
+Además de cornisas y aleros, cuya construcción y condiciones de
+ejecución aparecen reguladas en Normas Generales de Estética, se
+admiten impostas, molduras y elementos análogos que aparezcan integrados a la construcción, siempre que no sobresalgan más de 15
+centímetros del plano de fachada.
+Por lo que se refiere a elementos decorativos o comerciales situados en planta baja aparecerán integrados a la composición y decoración general del edificio o local correspondiente y no sobresaldrán del
+plano de fachada más de 15 centímetros hasta 2,20 metros de altura
+y de 40 centímetros a partir de esa altura.
+Art. 66. Fondo máximo edificable.
+En edificios existentes, el fondo máximo será el actual, salvo que
+el Plan determine otra cosa o existan elementos inadecuados en su
+fachada posterior.
+En intervenciones de nueva planta, sustitución o ampliación de la
+edificación podrá autorizarse, justificadamente, que el fondo edificado
+sea igual al de la menor contigua o incluso a la media de las contiguas,
+no superando, con carácter general 20 metros.
+Art. 67. Ocupación.
+Salvo que se determine otra cosa, la ocupación máxima de parcela
+es la obtenida por aplicación del fondo máximo edificable desde la alineación exterior.
+Art. 68. Superficie máxima edificable.
+La superficie máxima edificable por parcela es la obtenida por la
+aplicación a la superficie ocupable del número de plantas permitido.
+Art. 69. Patios de parcela.
+1. Patio interior de Parcela.
+Se entiende por patio interior de parcela o patio de luces el patio
+interior a la edificación practicado para proporcionar iluminación y ventilación a sus viviendas y/o elementos comunes.
+Sus dimensiones, superficie y configuración mínimas respetarán las
+exigidas en las Normas de Habitabilidad vigentes.
+Se permite su cubrición con cubierta plana a nivel del forjado de
+techo de planta baja.
+En la edificación existente, queda prohibida la reducción de la superficie de patios interiores, con independencia de que en su caso, sea
+necesario además eliminar cuerpos o elementos añadidos.
+2. Patio de fondo de Parcela.
+Se entiende por patio exterior de parcela el espacio existente entre
+la alineación interior de la edificación y el límite o alineación interior de
+la parcela.
+Salvo que el Plan Especial determine expresamente otra cosa, no
+podrá ser edificado.
+CAPITULO II
+Normas generales de estética
+Art. 70. Composición y carácter unitario de las fachadas.
+La composición de las fachadas de los edificios será unitaria. Estas
+tendrán un tratamiento de idéntica textura y calidad en toda su extensión, de suerte que la construcción aparezca cuidada desde la cubierta
+hasta su encuentro con la calle, salvo que quiera subrayarse la condición de zócalo de la edificación que caracteriza a las plantas bajas, en
+cuyo caso, y al margen de que su tratamiento deba aparecer integrado
+al de plantas superiores, puede acudirse en sus fachadas a soluciones
+materiales distintas a las empleadas en el resto del edificio.
+Art. 71. Forma y dimensión de los huecos de fachada.
+Los huecos serán análogos en forma y dimensión a las características de la edificación común existente que, en virtud de la lógica
+constructiva tradicional, resultan siempre de componente vertical en
+plantas superiores, excepción hecha de la última planta, donde puede
+ser cuadrados e, incluso de componente horizontal.
+Los huecos dispondrán de una mocheta mínima de 15 centímetros.
+
+Art. 72. Composición de huecos.
+Los huecos se dispondrán en ejes verticales de composición, que
+en cuanto sea posible, se extenderán a planta baja; tanto la entrada del
+portal como el hueco o huecos correspondientes a otros locales de la
+bajera se inscribirán en lo posible en la composición aplicada a las
+plantas bajas.
+La norma anterior, como por lo demás las relativas a forma y dimensión de los huecos, se entiende referida a la edificación común
+destinada básicamente a uso residencial.
+Los edificios singulares o aquellos que resulten globalmente impropios en relación con los valores ambientales del Casco, no habrán de
+ajustarse en idéntica medida que los edificios comunes a las exigencias
+recogidas en este y en el anterior artículo.
+Art. 73. Composición de planta baja.
+Se admite el retranqueo de la alineación de los locales de planta
+baja en orden a no comprometer su uso comercial siempre que en la
+alineación exterior del edificio se sitúe la persiana o elemento de cerramiento.
+Portal y locales de planta baja contarán con entradas independientes. El acceso al portal se situará en el plano de fachada del edificio
+de suerte que no se produzcan en ningún caso servidumbres o dependencias de paso al portal a través de espacios vinculados al uso comercial.
+Los locales comerciales no tendrán, por lo mismo, acceso desde el
+portal a otros elementos comunes del edificio, con independencia de
+que ese no sea su único acceso.
+La independencia de entradas de portal y locales se establecerá en
+todo caso, al margen de que un edificio existente pueda aparecer destinado en todas sus plantas a usos no residenciales.
+Art. 74. Decoración de planta baja.
+El proyecto de decoración de planta baja se inscribirá en la solución
+compositiva unitaria que se exige a la fachada.
+La decoración aplicada a la fachada en esa planta no excederá en
+ningún caso del nivel inferior del forjado que constituye su techo.
+La solución material en la constitución y acabado exterior del cerramiento será en todo caso análoga a las tradicionales, no pudiendo
+quedar enmarcadas por la decoración, materiales y elementos que
+participen del valor arquitectónico del edificio. Se podrán utilizar como
+materiales de decoración preferentemente aquellos que constituyan el
+resto de la fachada: sillar de piedra o fábrica de ladrillo revocado y lucido.
+En el caso de que se pretenda dar a la planta baja un tratamiento
+de zócalo de la edificación, podrá utilizarse aplacado de piedra tipo
+Tafalla, madera o chapa metálica. Puede emplearse en lugar de la
+piedra tipo Tafalla cualquier material pétreo siempre que su imagen y
+color sea compatible con el de ésta y previa justificación de su idoneidad por razón de mantenimiento y limpieza.
+En aquellos locales que den frente a calle incluida dentro del recorrido del encierro, se colocará un cierre que sirva de protección al
+mismo.
+Dicho cierre presentará un diseño coherente con lo señalado en
+este artículo prohibiéndose soluciones provisionales estéticamente
+contrarias al mismo.
+Art. 75. Rótulos.
+Se podrán instalar rótulos en las siguientes partes de los edificios.
+−En planta baja:
+Se tenderá a colocarlos en el propio hueco de iluminación de los
+locales en ella situados. No obstante, cuando a juicio del órgano municipal competente se estime que no queda afectada la composición general del inmueble, puede autorizarse la colocación de rótulos sobre los
+muros de fachada.
+−En plantas elevadas:
+Se podrán instalar rótulos dentro de los huecos de iluminación.
+Las condiciones a cumplir por los rótulos son las siguientes:
+−Salvo los situados en plantas elevadas y las placas en planta baja
+indicadoras de actividades profesionales de tamaño inferior a 0,15 metros cuadrados, se configurarán a base de letras sueltas, quedando
+expresamente prohibidos los rótulos compactos.
+−Las letras sueltas se ubicarán prioritariamente sobre elementos
+transparentes o bastidores metálicos al objeto de no dañar la fachada
+salvo que se estime por parte del Organo Municipal competente que
+no existe inconveniente en colocar las letras individualmente.
+−No se autorizará la instalación de rótulos que no reúnan las condiciones señaladas anteriormente, salvo en los casos en los que éstos
+formen parte del diseño de la fachada, entendida en su conjunto.
+Para la iluminación de los rótulos pueden aplicarse las siguientes
+soluciones:
+−Rótulo iluminado desde el exterior.
+−Rótulo luminoso mediante letra cajeada con iluminación en su interior.
+
+−Quedan expresamente prohibidos los rótulos en banderola, salvo
+casos muy concretos en que se trate de mantener o recuperar motivos
+tradicionales, siendo su vuelo máximo el autorizado para balcones en
+función de la anchura de la calle y altura mínima libre bajo el mismo
+de 2,20 metros, sin exceder su cota superior de la correspondiente a la
+planta baja del edificio.
+Art. 76. Muros.
+Los muros de fachada pueden presentar cualquiera de los siguientes acabados:
+−Fábrica revocada y pintada en tonos preferentemente claros, excepción hecha del color blanco.
+−Fábrica revestida por tendido con materiales coloreados en masa.
+−Aplacado de piedra tipo Tafalla, en piezas cortadas ortogonalmente.
+−Fábrica de ladrillo caravista, en caso de proyectos singulares en
+cuanto a tratamiento compositivo y aparejo del material.
+Los muros medianeros vistos quedarán integrados dentro de la
+composición general con la utilización un material con calidad similar
+al empleado en fachadas.
+En ningún caso está justificado picar los revocos o acabados superficiales de los muros y descubrir la fábrica interior si se aprecia que
+ésta no había sido concebida como fachada vista.
+El acabado en planta baja se realizará de acuerdo a lo señalado en
+el artículo correspondiente a "Decoración en planta baja".
+Art. 77. Cubiertas.
+La cubierta se resolverá con un tejado de faldones continuos, que
+recogerá el agua de lluvia en las líneas de cornisa del edificio. Las
+aguas serán recogidas en canalones vistos, en ningún caso de plástico,
+situados en el borde del alero, y conducidas mediante bajantes del
+mismo material a la red de alcantarillado. En los dos metros inferiores,
+esas bajantes serán de material resistente al impacto. La pendiente de
+los faldones estará comprendida entre un 30% y un 40%.
+Quedan prohibidas las cubiertas planas o azoteas en la edificación
+común salvo las edificaciones de planta baja que ocupen el interior de
+las parcelas a partir del fondo máximo edificable. Se utilizará como
+elemento de cubrición la teja cerámica curva o mixta en su color natural,
+dentro de una gama que va del rojo al ocre pálido.
+Se utilizará preferentemente el cinc para remates, encuentros de
+elementos emergentes o bordes de cubierta, quedando expresamente
+prohibida la utilización de láminas asfálticas o sintéticas vistas.
+Igualmente se prohibe el forrado de paredes medianeras con láminas impermeables, aislamientos vistos o aplacados de fibrocemento.
+Art. 78. Aleros.
+El alero es un elemento de obligada construcción en la edificación
+común y no será en ningún caso simple prolongación del forjado. Su
+vuelo queda regulado de la misma forma que los balcones.
+El alero será de directriz longitudinal horizontal y continua, y construido preferentemente en madera con molduración de los canes.
+Pueden admitirse en casos especiales, previo informe de los Servicios
+Municipales competentes, materiales o composiciones alternativas
+como encasetonados y aleros planos o curvos.
+En el caso de intervenciones de nueva planta o de ampliación del
+número de plantas, la cara inferior del alero podrá estar hasta 25 centímetros por encima del último forjado. En ningún caso la altura en entrecubierta en ese punto más bajo podrá exceder de 75 centímetros.
+Art. 79. Balcones.
+Serán de piedra natural o artificial, o adoptarán la solución tradicional de entramado de hierro relleno de cerámica. Su canto no excederá de 18 centímetros ni será inferior a 12 centímetros, cuando no
+adopte la solución tradicional a que se hace referencia en el párrafo
+anterior.
+El perfil será moldurado y se resolverá adecuadamente la caída del
+agua.
+Su protección estará formada por elementos metálicos macizos
+dispuestos verticalmente, rematados en su zona superior por una pletina que puede llevar o no un pasamanos, asimismo metálico e inferiormente por un perfil del atado anclado puntualmente a la losa.
+Excepcionalmente se podrá acudir a soluciones ornamentales distintas en hierro fundido.
+Art. 80. Miradores.
+El material a emplear en la carpintería cumplirá con la ordenanza
+general correspondiente a huecos. No se permitirá ampliación de los
+huecos existentes para integrar la habitación con la superficie del mirador.
+Art. 81. Acceso a portales.
+Su diseño se integrará tanto con el de la fachada comercial de
+planta baja, como con el resto de las plantas.
+
+Art. 82. Ascensores.
+La instalación de ascensores es posible siempre y cuando el cuarto
+de máquinas quede englobado dentro del volumen general del edificio
+y no emerja sobre el plano de cubierta.
+Será de obligada instalación en todo edificio de nueva planta de
+más de cuatro plantas.
+Art. 83. Escaleras.
+El diseño de la escalera de los edificios responderá a las condiciones establecidas en el artículo correspondiente a condiciones de
+habitabilidad de viviendas o, de ser más exigentes, a las correspondientes al uso distinto del de vivienda a que se destine el edificio.
+Con carácter general, la escalera dispondrá de iluminación y ventilación a patio.
+En situaciones consolidadas, la escalera puede iluminarse y ventilarse cenitalmente. Siempre que lo permita la anchura de la parcela, y
+en cualquier caso, cuando ésta sea resultado de una agregación de
+parcelas, dispondrá de un hueco central que permita la llegada de luz
+a plantas inferiores.
+Para asegurar la ventilación de la caja de escaleras se colocarán
+junto al lucernario rejillas de superficie suficiente para asegurar el tiro.
+Por el mismo motivo, en el acceso al portal se asegurará la entrada de
+aire.
+Art. 84. Carpinterías.
+Las carpinterías de un edificio serán del mismo diseño, color y material, al menos, en todas sus plantas superiores. Se prohiben las carpinterías metálicas que no sean para pintar o lacar. Se prohiben las
+carpinterías de aluminio anodizadas en su color, bronce u oro, así como
+cualquier carpintería metálica o plástica en color imitación a madera.
+Se admite el uso de la madera barnizada cuando se trate de colores
+y texturas tradicionalmente empleados como vistos. Quedan prohibidos
+el empleo de carpinterías de hojas correderas en las fachadas exteriores de las edificaciones.
+Se permite en plantas bajas de edificios no catalogados y tratándose de decoración de locales, la instalación de carpinterías metálicas con acabados naturales (acero inoxidable, cor-ten, o similar, excepto anodizados de aluminio en su color, bronce u oro). En edificios
+catalogados, podrían autorizarse, con el visto bueno de los Servicios
+Técnicos Municipales, o Informe de Príncipe de Viana en su caso."
+Art. 85. Persianas.
+Serán de librillo y se recogerán plegadas en la mocheta del hueco.
+En casos justificados pueden admitirse las persianas enrollables accionadas desde el interior, siempre que el rollo no se manifieste anteriormente.
+
+PLANTA
+
+Plantas
+Superiores
+
+Planta Baja
+
+PRINCIPAL
+
+O
+
+Las persianas de un edificio serán del mismo diseño, color y material al menos en todas sus plantas superiores, salvo empleo de persianas ligeras colgantes desmontables que podrán emplearse individualmente en cada vivienda del edificio.
+Los materiales y colores a emplear son los recogidos en el artículo
+correspondiente a carpinterías, quedando expresamente prohibido el
+empleo de materiales que imiten madera.
+En locales de planta baja se permiten las persianas cuyo diseño
+permita, en posición cerrada, la visión interior del local desde la calle
+salvo que, por causa justificada puedan admitirse soluciones alternativas que garanticen la privacidad y seguridad de los mismos.
+En locales que den frente a calles incluidas en el recorrido del encierro pueden admitirse también soluciones distintas cuando con la
+aplicación de lo señalado en este artículo no se garantice la seguridad
+del propio local y/o los corredores, todo ello bajo la supervisión de los
+Servicios Técnicos Municipales.
+Art. 86. Instalación de Servicios.
+Con carácter general, queda prohibida la implantación de instalaciones propias del edificio en las fachadas, salvo bajantes de pluviales. Excepcionalmente, el Ayuntamiento podrá autorizar la instalación de acometidas de gas natural previa aprobación del correspondiente proyecto técnico de implantación de gas en el Casco Antiguo,
+presentado por la Compañía Suministradora y debidamente autorizado
+por la Institución Príncipe de Viana.
+En cualquier caso, los armarios de regulación, si los hubiera, deberá
+ubicarse en el suelo, las canalizaciones deberán discurrir por fachadas
+traseras a patio y no se admitirán conducciones vistas por cubierta.
+El Ayuntamiento podrá instalar, suprimir o modificar a su cargo, en
+las fincas privadas, y los propietarios vendrán obligados a consentirlos,
+señales, sus soportes, y cualquier otro elemento al servicio del Ayuntamiento.
+Los Servicios Técnicos Municipales procurarán evitar molestias y
+avisarán a los afectados con la mayor antelación que en cada caso
+permita.
+CAPITULO III
+Normas generales de uso
+Art. 87. Uso principal y característico.
+Residencial colectivo en manzana.
+Art. 88. Usos detallados. Cuadro de Compatibilidad.
+Se permiten otros usos distintos al principal de acuerdo con la siguiente tabla de compatibilidades.
+
+EQUIVALENTE
+
+TOLERADO
+
+PROHIBIDO
+
+Bajo Cubierta
+
+−Residencial vinculado a planta inferior.**
+−Trastero.
+−Servicios comunes de las viviendas del propio edificio.
+
+Otras Plantas
+
+−Residencial Colectivo.
+−Residencial Unifamiliar.
+
+−Oficinas, despachos profesionales
+e industriales de tipo familiar(*)
+integrados dentro de la vivienda
+de sus titulares.
+
+Primera Planta
+
+−Residencial Colectivo.
+−Residencial Unifamiliar.
+
+−Oficinas y despachos profesionales. −Resto.
+−Industria de tipo familiar(*).
+−Comercio vinculado a P. baja(**).
+−Equipo privado vinculado físicamente a P. baja(**).
+
+−Entreplanta
+
+−Los mismos usos que en planta baja con único y exclusivo acceso por ésta.
+
+−Resto.
+
+−Comercio
+−Industria
+−Talleres
+−Oficinas y despachos profesionales.
+−Equipo privado.
+
+−Residencial.
+−Almacén no vinculado a comercio.
+−Resto.
+
+−Espacio no ocu- −Usos vinculados a edificio, comunes o privados,
+pado de parcela
+sin construcciones y exclusión de
+comerciales o almacén.
+Sótano
+
+−Usos comunes de viviendas del propio edificio que
+pueden ampliarse a colindantes.
+−Almacén vinculado a comercio local con acceso por P.
+baja o vía pública.
+
+−Resto.
+
+−Almacén vinculado al comercio
+o actividad de hostelería de la
+Zona I-VIII.
+−Garajes.
+
+−Resto.
+
+−Resto.
+−Los principales, equivalentes o tole- −Residencial.
+rados de P. baja vinculados a ésta −Resto.
+y con único acceso desde P. baja.
+
+(*) Industria de tipo familiar. Taller de sastre, taller de modista, peluquería o similares.
+(**) A estos efectos se entiende como "vinculación física "la unión con el local donde se ejerce el uso principal, con un único acceso a través
+de éste. En ningún caso estarán unidos a elementos comunes del edificio. En el caso de locales de Planta Baja, la superficie de este será al menos
+el 50% de la vinculada a ella. Debe diferenciarse de la vinculación no física (vinculación al uso), que aparece en otras casillas.
+
+Art. 89. Usos Detallados. Otras determinaciones.
+1. Prohibición especial.
+Queda expresamente prohibida la comunicación interna de los locales en planta baja con planta primera, excepto cuando los locales y
+plantas correspondientes se destinen a la misma actividad.
+2. Autorizaciones particulares.
+2.1. Se consideran como usos "tolerados" en cualquier situación
+los usos alternativos de interés cultural, deportivo, público o social correspondientes a instalaciones sin ánimo de lucro, que no incluyan
+servicios de bar, cocina, restaurante o similar.
+2.2. Se consideran como usos "tolerados" los locales públicos
+como pastelerías y heladerías o actividades mixtas de éstos con una
+pequeña cafetera en las condiciones que al efecto se prevean en las
+Ordenanzas Municipales de Sanidad, con especial referencia a limitaciones horarias.
+2.3. Se consideran usos tolerados lo edificios completos destinados a uno cualquiera de los siguientes usos:
+−Residencia comunitaria (estudiantes, ancianos, religiosos).
+−Residencia eventual (hoteles, pensiones, hostales).
+−Comercio minorista abierto al público.
+−Servicios y dotaciones de la Administración pública.
+Las condiciones a cumplir serán las siguientes:
+A) Residencias eventuales:
+−La superficie destinada a almacén y oficinas sin acceso a público,
+será inferior al 25% del total.
+−No dispondrán de servicios de Bar-cafetería o Restaurante abierto
+al público, salvo en el caso de establecimientos hosteleros denominados "Hoteles" u "Hoteles-Apartamentos" de categoría mínima de tres
+estrellas, según las denominaciones y calificaciones establecidas en el
+Decreto Foral 48/94, de 21 de febrero, de ordenación de los establecimientos hosteleros de Navarra, que cuenten con un número mínimo de
+35 habitaciones, los cuales podrán disponer de dichos servicios siempre
+que cumplan con las condiciones siguientes:
+* Emisión musical máxima 80 dbA.
+* Estar unida físicamente con otras dependencias del hotel.
+B) Servicios y dotaciones de la Administración Pública, cualquiera
+que sea la forma de gestión:
+−Podrán disponer de servicios de bar, cafetería y/o restaurante
+siempre que cumplan las siguientes condiciones:
+* Estar físicamente unidos con otras dependencias del servicio.
+* Emisión musical máxima 55 dB(A).
+* Horario adaptado al del propio servicio o dotación.
+C) Residencias comunitarias y comercios minoristas:
+−La superficie destinada a almacén y oficinas sin acceso al público,
+será inferior al 25% del total.
+−No dispondrán de Bar, Cafetería o Restaurante abierto al público
+ajeno a la actividad principal autorizada.
+3. Usos prohibidos.
+3.1. Son usos prohibidos: Los restaurantes, sociedades gastronómicas, tabernas, bares, cafeterías, pubs, cafés-teatro, salas de fiestas,
+discotecas, sex-shops, y similares establecimientos públicos o privados,
+en cualquier situación de plantas, sótanos o espacios libres. Se exceptúan de esta prohibición las actividades de hostelería en servicios y
+espacios públicos de interés general, siempre que la forma de gestión
+del uso exceptuado (concesión, arrendamiento, etc.), garantice el control público de la instalación y su funcionamiento.
+3.2. Las actividades de hostelería a las que se refiere el apartado
+anterior se clasifican, según las molestias que pueden generar, ordenadas de mayor a menor, de la siguiente manera:
+1.−Salas de fiestas, cafés-teatro, discoteca.
+2.−Cafeterías, bares, tabernas, pubs.
+3.−Restaurantes.
+4.−Sociedades gastronómicas.
+Las actividades cuyas licencias estén en vigor y existieran con anterioridad al 19 de junio de 1.989 y prohibidas en este apartado 3:
+−En general, podrán ser objeto de reformas conforme a ordenanzas
+teniendo en cuenta las siguientes condiciones:
+* Podrán ampliar su superficie global, únicamente con espacios
+destinados a almacén, que podrán estar ubicados en un local distinto
+al actual pero que tenga acceso directo desde vía pública o, en su caso,
+desde el propio local y nunca desde espacios comunes del edificio en
+el que esté situado. Estas superficies de almacén se incluirán como
+tales en las correspondiente licencia de actividad, previa la tramitación
+del correspondiente expediente.
+* Será posible la instalación de equipos musicales en aquellas actividades existentes, aún cuando en su licencia en vigor no se refleje
+
+expresamente la posibilidad de utilización de los mismos. La emisión
+musical máxima será de 55 dB(A).
+* Sólo se permitirán cambios de actividad a otras de categoría
+menos molesta.
+* Los locales destinados a las actividades incluidas en las categorías 1 y 2 no podrán realizar reformas que supongan ampliación de las
+superficies con acceso al público, ni aumento de la longitud de la barra.
+* Las actividades mixtas de Hostelería (Bar-Restaurante, Cafetería-Restaurante, etc.) solamente podrán incrementar la superficie de la
+actividad menos molesta, según la anterior clasificación.
+* Su funcionamiento se atendrá a las condiciones, medidas correctoras, horarios, que se determinen en la normativa de actividades clasificadas o la que resulte de aplicación para evitar molestias a los residentes.
+−Puntualmente, podrá modificarse la ubicación de las siguientes
+actividades actuales de usos prohibidos:
+* Las ubicadas en edificios en los que existan otras plantas destinadas a uso residencial, y tuvieran acceso de público a través de los
+elementos comunes del mismo.
+* Las ubicadas en edificios que sean objeto de una intervención de
+promoción pública de la cual se derive la conveniencia de dicho traslado.
+Las condiciones exigibles para ello serán:
+* El traslado se realizará a locales de planta baja y/o planta sótano
+unidos físicamente entre sí pero no a elementos comunes del edificio.
+* El nuevo local se encontrará en un recorrido inferior a 150 metros
+respecto del inicial.
+* No supondrán incremento de su superficie en más de un 50%
+respecto de la actual.
+* Previamente se tramitará el correspondiente expediente de actividad clasificada.
+* El local en el que se emplaza la actividad antes del traslado se
+destinará a usos permitidos por el planeamiento vigente.
+4. Limitación de Usos Tolerados.
+−La regulación contenida en la tabla de usos detallados garantiza
+el equilibrio entre usos tolerados y principales o equivalentes dentro del
+ámbito del Casco Antiguo.
+−Esta limitación de usos puede modificarse mediante la tramitación
+del correspondiente Plan Especial.
+5. Contradicción con Normativa de zonas saturadas.
+Lo dispuesto en esta regulación de usos prevalecerá ante lo expresado en la normativa de zonas saturadas en todo lo que suponga contradicción (Acuerdos plenarios de fecha 28-8-86 y 7-5-87).
+Art. 90. Regulación del uso Vivienda.
+Se entiende por vivienda todo espacio destinado al alojamiento de
+una familia o unidad asimilable. Quedan asociados a este uso los despachos profesionales o actividades análogas en las condiciones fijadas
+en el cuadro de compatibilidad de usos.
+1. Condiciones generales de uso.
+Toda vivienda de nueva construcción deberá ser exterior entendiéndose por tal aquélla que cuente, cuando menos, con una habitación
+de uso común y un frente mínimo de 6 metros, o la anchura total de la
+parcela, si fuera inferior a dicha dimensión, dando a calle, plaza o patio
+de manzana de uso público.
+Si dicha anchura fuera superior a 5 metros, la vivienda contará
+cuando menos con dos huecos a fachada.
+En el supuesto de que dé frente a patio de manzana, no bastará con
+que en el Plan Especial esté considerado como espacio público; será
+preciso que participe ya de esa condición y se encuentre debidamente
+urbanizado.
+2. Número de viviendas.
+Con carácter general, las actuaciones de rehabilitación no incrementarán el número de viviendas existentes salvo en los supuestos siguientes:
+−División de viviendas, siempre que se produzca en un edificio que
+reúna condiciones suficientes de adecuación estructural, funcional y no
+se altere la estructura y organización básica de éste, o en el marco de
+una actuación general e integral sobre el mismo. En todos los casos,
+se dará cumplimiento a la regulación general del PGOU para reconversión de usos residenciales, y todas las viviendas resultantes serán
+exteriores.
+Como consecuencia de la segregación de viviendas, podrán resultar
+dependencias destinadas a oficinas, despachos profesionales o industrias de tipo familiar dando frente a patio interior siempre que la superficie útil total de esas dependencias no exceda del 50% de la total de
+la vivienda inicial.
+
+−Reconversión de usos no residenciales que existieran en alguna
+de las plantas del edificio.
+−Utilización del espacio existente bajo cubierta.
+−División de viviendas en alforja
+En edificios sometidos al régimen de renovación el número de viviendas no será superior al del edificio sustituido, salvo que en la Normativa Urbanística Particular correspondiente se determine otra cosa.
+3. Superficie y Programa.
+Se estará a lo dispuesto por la Normativa vigente en la materia.
+4. Dotación de aparcamientos.
+En general no se exige dotación de aparcamientos en ninguno de
+los regímenes previstos para la edificación.
+
+En supuestos de Renovación se estudiará la posibilidad de dotar al
+nuevo edificio de aparcamientos al servicio de viviendas siempre que
+fuera posible su habilitación en sótano.
+Art. 91. Usos Dotacionales.
+El sistema general de equipamientos, representado gráficamente
+en el plano de ordenación Equipamientos y Espacios libres, comprende
+el conjunto de dotaciones existentes o propuestas más significativas del
+Casco Antiguo.
+Salvo determinaciones específicas del Plan Especial recogidas en
+dicho plano y en los cuadros adjuntos a este artículo, la implantación
+de usos dotacionales se regulará de acuerdo con las normas establecidas al efecto por el Plan Municipal.
+
+EQUIPAMIENTOS
+
+[Los "cuadros adjuntos" del art. 91 (tabla de EQUIPAMIENTOS: relación de dotaciones del Casco Antiguo por manzana/parcela/calle, con clave DOCENTE, DEPORTIVO, SANITARIO, ASISTENCIAL, CULTURAL, ADMINISTRATIVO, RELIGIOSO, MERCADO, BAÑOS PÚBLICOS, etc., y su carácter B-Barrio/C-Ciudad, E-Existente/P-Propuesta) NO se reproducen aquí por ser dato de consulta; están en el documento oficial. Lo esencial: los usos dotacionales se rigen por el Plan Municipal salvo las determinaciones específicas del PEPRI recogidas en el plano de Equipamientos y en esos cuadros.]
+
+CAPITULO IV
+Normas higiénico sanitarias y de habitabilidad
+
+Art. 92. Condiciones generales.
+Salvo determinaciones particulares del Plan Especial se cumplirán
+las condiciones establecidas con carácter general por el Plan Municipal.
+Art. 93. Condiciones particulares.
+Para asegurar la ventilación de las alcobas y de las cocinas integradas a través de la estancia de uso común se dispondrá, cuando
+menos, de un hueco de 2 metros de altura por 1,25 metros de ancho.
+En casos especiales, por razón de garantizar una correcta distribución
+de las piezas, podrán admitirse soluciones alternativas siempre que la
+superficie de ventilación sea como mínimo equivalente a la señalada.
+En habitaciones abuhardilladas sólo se computa como útil la superficie de cada pieza cuya altura libre sea al menos de 1,80 metros,
+siempre que la media sea como mínimo de 2,20 metros.
+Debe ser posible la circulación entre todos los espacios de la vivienda sin necesidad de salir de ésta. Excepcionalmente, en viviendas
+existentes, cuando se justifique la imposibilidad de cumplir esa condición, podrá permitirse que la vivienda esté dividida en dos zonas ubicadas en la misma planta y unidas por elemento común: La zona de
+día compuesta al menos por cocina, estancia y aseo con lavabo e inodoro y la zona de noche, compuesta al menos por un dormitorio y un
+aseo completo. Toda vivienda de nueva creación será exterior, de
+acuerdo con las condiciones establecidas al efecto en esta Normativa.
+
+Art. 94. Esquemas tipológicos.
+Con objeto de proporcionar pautas de intervención sobre la edificación común construida sobre parcela de origen gótico en orden a
+garantizar las condiciones de habitabilidad de las viviendas, en los términos en que aparecen establecidas en esta Normativa, se definen
+distintos esquemas tipológicos.
+En virtud de condición de soluciones genéricas admiten en cada
+caso cuantas variantes impongan a su aplicación las características
+particulares de cada parcela.
+Art. 95. Carácter indicativo de las soluciones propuestas.
+Las soluciones propuestas tienen carácter indicativo y se establecen
+a modo de guía de diseño tanto para las propuestas de nueva edificación, como de rehabilitación sobre edificación existente cuando
+comprenda obras de reestructuración de cierta entidad.
+Art. 96. Supuestos de intervención.
+Se trata de soluciones que se refieren a los supuestos de intervención más frecuentes, esto es, edificios de una, dos o tres crujías, vanos
+estructurales, transversales, cuyo frente varía aproximadamente, entre
+4 y 12 metros, dimensión ésta que constituye el límite establecido para
+la fusión de parcelas en supuestos de renovación de la edificación
+existente.
+Afectan, por tanto, exclusivamente a los edificios que en la Normativa Urbanística Particular aparecen identificados como tipos CI, CII
+y CIII.
+
+Aunque no resulten vinculantes, cualquier proyecto de nueva edificación o rehabilitación respetará, salvo justificación fundada del proyectista por los esquemas adjuntos, cuando menos lo que se refiere a
+posición relativa de núcleos de escaleras y patios en la estructura general del edificio. Dicha posición varía en cada esquema en función de
+la profundidad o fondo edificable de la edificación, que en supuestos
+de renovación y sustitución de un edificio no excederá, en ningún caso,
+de 20 metros.
+
+################################################################################
+T-VI CAP. III — VERSIÓN VIGENTE DE LOS ARTS. 87 Y 88 (usos)
+(tras modificación BON 249 de 20/12/2019 y BON 16 de 24/01/2025; sustituye al
+texto de 2001, que regulaba los usos por cuadro de compatibilidades)
+################################################################################
+
+CONTEXTO: el uso principal del Casco Antiguo es RESIDENCIAL COLECTIVO EN MANZANA. La
+regulación de usos del PEPRI se remite a las Tablas 2 y 3 de compatibilidad de la
+Normativa Urbanística General del Plan Municipal, con modificaciones. El gran cambio
+de 2025: las VIVIENDAS, APARTAMENTOS Y ALOJAMIENTOS TURÍSTICOS (los regulados por el
+Decreto Foral 230/2011, de 26 de octubre) pasan a ser USO PROHIBIDO en parcela de uso
+Residencial Colectivo (antes la residencia eventual era tolerada), salvo los ya
+inscritos en el Registro de Turismo y con licencia a la entrada en vigor (régimen
+transitorio del art. 88.15).
+
+Art. 87 (vigente). Usos pormenorizados. Residencial Colectivo y Dotacional.
+Aplica la Tabla 2 del Plan Municipal con estas modificaciones:
+En Unidades Básicas de uso RESIDENCIAL COLECTIVO:
+ 1. Es uso PROHIBIDO la oficina, el residencial colectivo con vivienda en planta baja,
+    el taller y el almacén en parcela completa (salvo que la normativa particular de
+    parcela lo recoja expresamente).
+ 2. Comercial y recreativo: usos PERMITIDOS en edificio completo, con matices:
+    hostelería y aledañas permitidas según el art. 89; bingo, casas de apuestas,
+    salones de juego y salones deportivos PROHIBIDOS.
+ 3. RESIDENCIA EVENTUAL sobre parcela con uso Residencial Colectivo: uso TOLERADO,
+    EXCEPTO viviendas/apartamentos/alojamientos turísticos del DF 230/2011, que son
+    uso PROHIBIDO (salvo régimen transitorio del art. 88.15). Para implantar/ampliar
+    el residencial eventual tolerado debe garantizarse:
+    3.1. que las parcelas de la unidad básica con uso Residencial (principal/permitido)
+         sumen ≥ 75% de la superficie construida total de la unidad básica;
+    3.2. que las de uso Residencial Colectivo implantado sumen ≥ 75% de las previstas
+         por el plan para tal uso;
+    3.3. si hay bar/cafetería/restaurante, sus accesos y salidas habituales NO pueden
+         dar directamente al espacio público (deben hacerlo desde espacio común cerrado);
+    3.4. la superficie construida se mide según el art. 35 de la NUG del Plan Municipal;
+    3.5. las superficies fuera de ordenación no cuentan como Residencial Colectivo.
+En Unidades Básicas de uso DOTACIONAL: la residencia eventual es uso PERMITIDO (art. 91).
+Los edificios completos con usos hoy prohibidos pero con licencia previa (o consolidados
+ex art. 28.3 NUG) pueden reformarse e incluso renovarse manteniendo el uso.
+
+Art. 88 (vigente). Usos detallados.
+Aplica la Tabla 3 del Plan Municipal con estas modificaciones (resumen de las clave):
+ 1. En entrecubierta, mismos usos que en plantas elevadas si está vinculada a la planta
+    inferior.
+ 2-3. RESIDENCIA EVENTUAL en viviendas de edificios residenciales: uso TOLERADO, EXCEPTO
+    viviendas/apartamentos/alojamientos turísticos DF 230/2011 (PROHIBIDO, salvo nº 15).
+    Reglas del tolerado: ubicación SÓLO en planta primera (excepción: albergues del
+    Camino de Santiago en planta baja, y conversión de viviendas existentes en planta
+    baja); se tolera el alquiler de habitaciones con fines turísticos anejo a vivienda
+    habitual (límite del art. 28 NUG y máx. 50% de la superficie útil de la vivienda);
+    deben garantizarse los umbrales del 75% (locales/viviendas de uso principal/permitido
+    ≥ 75%, y viviendas ≥ 75% de las plantas de piso) y reglas de medición de superficie.
+ 4. Almacén: vinculado a comercio u hostelería de la propia U.I. VIII.
+ 7. Recreativas: permitidas en planta baja (o baja+sótano y/o primera) en vivienda
+    colectiva, y en cualquier ubicación en equipamiento/comercio/residencia eventual;
+    bingo, apuestas, juego y salones deportivos PROHIBIDOS.
+ 8. El garaje no queda vinculado a la exigencia del apartado 14 de la Tabla 3 del art. 28
+    NUG.
+ 11. BANCOS Y CAJAS en plantas bajas de edificios de viviendas: distancia mínima de 100 m
+    respecto de otra actividad bancaria (también para ampliaciones); traslados dentro del
+    Casco/Ensanches permitidos sin esa distancia si se renuncia a la licencia de origen y
+    el nuevo local queda más lejos de otras bancarias.
+ 13. Sociedades gastronómicas, culturales, recreativas, peñas y similares sin concurrencia
+    pública: mismas medidas correctoras y horarios que las recreativas de uso público; sin
+    distancias ni superficies máximas.
+ 15. (Régimen transitorio) las viviendas/apartamentos/alojamientos turísticos DF 230/2011
+    que a la entrada en vigor estuvieran inscritos en el Registro de Turismo Y con licencia
+    de apertura o uso, pueden mantener el uso.
+
+Art. 89 (usos): regula las ACTIVIDADES HOSTELERAS Y ALEDAÑAS (bares, cafeterías,
+restaurantes, etc.). Modificado en varias ocasiones; con una nueva modificación EN
+EXPOSICIÓN PÚBLICA (BON 77, de 21/04/2026) todavía sin aprobación definitiva. Para la
+redacción vigente exacta, contrastar con el Texto Refundido consolidado.
+
+================================================================================
+PARTE E — DATOS CLAVE Y TRAMPAS
+================================================================================
+- El PEPRI es Plan Especial de Protección (LPHE 16/1985, Título II) y de Reforma
+  Interior (art. 92 LFOTU) del Casco Antiguo, BIC-Conjunto Histórico (D. 6/04/1968).
+- Desarrolla el Plan Municipal en la U.I. VIII → Z.O.R.-1; en lo no regulado, rige
+  subsidiariamente la Normativa del Plan Municipal.
+- Estructura de la Normativa: nueve Títulos (I-IX), arts. 1-108.
+- T-III "Desarrollo, ejecución y gestión": Cap. I (desarrollo y ejecución, arts. 11-17)
+  → ejecución por licencia directa sobre parcela o por Z.I.P. y U.E.; P.I.G. como
+  programación (arts. 12 y 15 modificados en 2007).
+- T-V Cap. II (arts. 35-40): edificios/elementos/usos FUERA DE ORDENACIÓN, declaración
+  de RUINA y DEMOLICIÓN. Distinguir "inadecuados/impropios" (integrados en la ordenación
+  mientras subsistan; NO son fuera de ordenación a efectos del art. 134 LFOTU) de los
+  fuera de ordenación propiamente dichos. Régimen de ruina conforme a la LFOTU.
+- T-VI "Normas generales de la edificación": Cap. I volumen (53-69), Cap. II estética
+  (70-86), Cap. III uso (87-91), Cap. IV higiénico-sanitarias y habitabilidad (92-93),
+  Cap. V soluciones tipológicas (94-96).
+- Uso principal del Casco: RESIDENCIAL COLECTIVO EN MANZANA. Se prohíben los áticos en
+  todo el Casco Antiguo. Fondo máximo de renovación ≤ 20 m.
+- ACTUALIDAD (muy preguntable): desde 2025 los apartamentos/viviendas turísticos (DF
+  230/2011) son USO PROHIBIDO en residencial colectivo (antes residencia eventual
+  tolerada); pervivencia sólo de los ya inscritos con licencia (art. 88.15). Bancos:
+  distancia 100 m. Residencia eventual: sólo planta primera (salvo albergues del Camino).
+
+>>> TRAMPAS:
+  - "Inadecuado/impropio" ≠ "fuera de ordenación": los primeros se entienden integrados
+    en la ordenación mientras subsistan (art. 35), no se les aplica el art. 134 LFOTU.
+  - Versión: arts. 12, 15 (2007) y 87, 88 (2019/2025) y 89 (pendiente 2026) NO coinciden
+    con el texto de 2001. El examen sigue la versión consolidada.
+  - El PEPRI cita la LF 35/2002 (y la 10/1994): hoy TRLFOTU-2017.
+  - El Casco es BIC: las obras requieren además autorización de la Institución Príncipe
+    de Viana.
+
+================================================================================
+FUENTES (verificación 19/06/2026)
+================================================================================
+- Texto base: BON nº 109, de 7/09/2001 — Texto Refundido del PEPRI del Casco Antiguo,
+  articulado íntegro (Títulos I-IX, arts. 1-108). Extracción literal de los arts. 11-17,
+  35-40 y 53-96.
+- Arts. 87-88 vigentes: modificación de la Gerencia de Urbanismo de 09/2024 (normativa
+  vigente 2019 + propuesta aprobada por BON 16, de 24/01/2025), pamplona.es.
+- Modificaciones relevantes: BON 154/2007 (arts. 12, 15, 26, 28 — Z.I.P./P.I.G.); BON
+  249/2019 (arts. 87-88, residencia eventual); BON 16/2025 (arts. 87-88, viviendas
+  turísticas); BON 77/2026 (art. 89, en exposición pública).
+- Marco legal vigente: TRLFOTU-2017 (DFLeg 1/2017), que derogó la LFOTU-2002; LPHE
+  16/1985; el Casco es BIC-Conjunto Histórico (D. 6/04/1968, BOE 29/04/1968).
+- Arts. 12 y 15 vigentes: BON nº 154, de 12/12/2007 (modificación del PEPRI relativa a
+  Z.I.P. y P.I.G., arts. 12, 15, 26 y 28), texto extraído literalmente.
+- NOTA: la tabla de equipamientos del art. 91 y el texto literal vigente del art. 89 no
+  se reproducen íntegros; el art. 89 (hostelería) está además en modificación (BON 77 de
+  21/04/2026, en exposición pública). Para el art. 89, la referencia exacta es el Texto
+  Refundido consolidado / la modificación cuando se apruebe.
+================================================================================

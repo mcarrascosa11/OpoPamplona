@@ -1,0 +1,478 @@
+Tema 34.-Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de
+Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de
+Navarra.
+
+Preámbulo
+
+El artículo 8 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo establece que “Todas las personas tienen derecho a acceder a la información territorial y urbanística que esté en poder de las Administraciones públicas competentes, sin obligación de acreditar un interés determinado”.
+
+A efectos de garantizar la publicidad de los instrumentos de ordenación del territorio y de planeamiento urbanístico y de su normativa, se creó el Registro de Planeamiento (actualmente regulado en el artículo 79 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo). Este Registro es público y en él “se centralizan los instrumentos de ordenación del territorio y planes urbanísticos aprobados definitivamente por la Administración de la Comunidad Foral de Navarra y por los Municipios”.
+
+Y el apartado 4 del citado artículo 79 añade que: “El Registro de planeamiento es público. La publicidad se hará efectiva por certificación del contenido del planeamiento concreto expedida por funcionario habilitado al efecto, o por simple nota informativa o copia de los documentos obrantes en el Registro, sin que su importe exceda del coste administrativo”.
+
+La Ley Foral 5/2018, de 17 de mayo, de transparencia, acceso a la información pública y buen gobierno, obliga a mantener a disposición permanente de los ciudadanos y ciudadanas la información que se considera más relevante de sus ámbitos básicos de actuación, como son entre otros, la ordenación del territorio y el urbanismo.
+
+Por su parte, el Texto Refundido de la Ley de Suelo y Rehabilitación Urbana (RDL 7/2015), establece en su artículo 5, entre los derechos de los ciudadanos, el acceso a la información de que dispongan las Administraciones Públicas sobre la ordenación del territorio, la ordenación urbanística y su evaluación ambiental, así como a obtener copia o certificación de las disposiciones o actos administrativos adoptados, en los términos dispuestos por su legislación reguladora. Y en su artículo 25.4 indica que “Las Administraciones Públicas competentes impulsarán la publicidad telemática del contenido de los instrumentos de ordenación territorial y urbanística en vigor, así como del anuncio de su sometimiento a información pública”.
+
+Con anterioridad, la Ley 8/2007, de 28 de mayo, de suelo, introdujo en su disposición adicional novena ciertas modificaciones en la Ley 7/1985, de 2 de abril, reguladora de las Bases del Régimen Local. Destaca la adición de un nuevo artículo 70 ter, que contempla, por una parte, que las Administraciones públicas con competencias de ordenación territorial y urbanística deberán tener a disposición de los ciudadanos o ciudadanas que lo soliciten, copias completas de los instrumentos de ordenación territorial y urbanística vigentes en su ámbito territorial, de los documentos de gestión y de los convenios urbanísticos, y por otra, que publicarán por medios telemáticos el contenido actualizado de los instrumentos de ordenación territorial y urbanística en vigor, del anuncio de su sometimiento a información pública y de cualesquiera actos de tramitación que sean relevantes para su aprobación o alteración.
+
+Para facilitar la debida publicidad, desde el año 2007, la Comunidad Foral ha ofrecido el acceso a la información territorial y urbanística en red, a través del Sistema de Información Urbanística de Navarra (SIUN). Desde el año 2016, se puede acceder a esta información también a través de los enlaces dispuestos en el visor de IDENA (Infraestructura de Datos Espaciales de Navarra).
+
+Sin embargo, a lo largo de los años se ha constatado la gran heterogeneidad de los instrumentos de ordenación del territorio y de los planes urbanísticos, en los que se han utilizado criterios muy dispares para su elaboración. En este sentido, se considera necesario minimizar dicha heterogeneidad normalizando la presentación de los documentos técnicos y estableciendo unas condiciones mínimas y unificadas en su formato de presentación, tanto para su tramitación y aprobación como para su posterior acceso al Registro de Planeamiento. En este sentido, se persigue por un lado facilitar el análisis y tratamiento de los citados instrumentos por parte de las Administraciones públicas competentes. Por otro lado, se pretende que su posterior acceso al Registro y al Sistema de Información Urbanística de Navarra se produzca de forma más automatizada, mediante un método más eficaz y eficiente, cuyo resultado derivará en la implementación más económica de los datos y superior calidad en la información telemática ofrecida por el sistema.
+
+Por otro lado, se considera obligada la articulación de un procedimiento para la inscripción en el Registro de Planeamiento de los instrumentos correspondientes, carente en la actualidad de regulación específica.
+
+La disposición final primera del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, autoriza al Gobierno de Navarra para dictar cuantas disposiciones reglamentarias sean precisas para el desarrollo y ejecución del decreto foral Legislativo.
+
+En su virtud, a propuesta del Consejero de Ordenación del Territorio, Vivienda, Paisaje y Proyectos Estratégicos, oído el Consejo de Navarra y de conformidad con la decisión adoptada por el Gobierno de Navarra en sesión celebrada el día dieciséis de octubre de dos mil diecinueve,
+
+decreto:
+
+TÍTULO I. OBJETO, NATURALEZA Y ÁMBITO DE APLICACIÓN
+
+Artículo 1. Objeto.
+
+El presente decreto foral tiene por objeto la regulación del Registro de Planeamiento de Navarra, y en particular:
+
+a) El contenido documental y formato de presentación de los instrumentos de ordenación territorial y de planeamiento urbanístico municipal, para su tramitación y posterior acceso al Registro de Planeamiento de Navarra.
+
+b) El procedimiento de inscripción en el Registro de Planeamiento de Navarra de los instrumentos de ordenación territorial y de planeamiento urbanístico municipal aprobados definitivamente, así como de los instrumentos de gestión y de urbanización, en los términos establecidos en el presente decreto foral.
+
+c) El régimen de consulta del Registro de Planeamiento de Navarra.
+
+Artículo 2. Ámbito de aplicación.
+
+Este decreto foral es de aplicación a todos los instrumentos de ordenación territorial y de planeamiento urbanístico municipal regulados por la legislación foral vigente en materia de ordenación del territorio y urbanismo que se tramiten en el ámbito de la Comunidad Foral de Navarra, así como a los instrumentos de gestión y de urbanización que desarrollen los Planes y Proyectos Sectoriales de Incidencia Supramunicipal aprobados por el Departamento competente en materia de ordenación del territorio y urbanismo.
+
+Artículo 3. Naturaleza jurídica.
+
+1. El Registro de Planeamiento de Navarra es un registro público, de carácter administrativo, custodiado y gestionado por el Departamento competente en materia de ordenación del territorio y urbanismo, que tiene por objeto garantizar la transparencia y la publicidad en el ejercicio de la función pública urbanística, mediante la inscripción de los instrumentos de ordenación del territorio y de planeamiento urbanístico municipal. Deberá ser igualmente objeto de inscripción cualquier resolución posterior, administrativa o judicial, que afecte a su contenido.
+
+2. Cualquier persona o entidad, pública o privada, podrá acceder al Registro de Planeamiento mediante consulta presencial en las oficinas de la unidad orgánica competente en materia de ordenación del territorio y urbanismo, o de forma telemática a través de Internet. Los certificados que se expidan de los asientos del registro estarán autorizados por el funcionario o funcionaria habilitados al efecto. Asimismo, podrán emitirse notas informativas y obtenerse copia de los documentos obrantes en el Registro, sin que su importe exceda del coste administrativo.
+
+Artículo 4. Contenido del Registro.
+
+El Registro de Planeamiento de Navarra constará de:
+
+1. Una base de datos informatizada en la que se recogerán las fichas de inscripción de cada instrumento previstas en el artículo 7.
+
+2. Un archivo documental formado por una copia de los documentos que conforman cada instrumento, en soporte digital, conforme a las determinaciones contenidas en el presente decreto foral.
+
+TÍTULO II. PROCEDIMIENTO DE INSCRIPCIÓN
+
+Artículo 5. Iniciación.
+
+1. Los instrumentos de ordenación territorial, de gestión y de urbanización que los desarrollen, así como los instrumentos de planeamiento urbanístico municipal, una vez aprobados definitivamente, deberán inscribirse en el Registro de Planeamiento de Navarra. Deberán ser objeto de inscripción asimismo las modificaciones introducidas en cualquiera de los citados instrumentos.
+
+2. La inscripción en el registro será obligatoria y podrá producirse:
+
+a) De oficio, por el Departamento competente en materia de ordenación del territorio y urbanismo, respecto de los instrumentos de ordenación del territorio, de gestión y de urbanización que los desarrollen, así como de los instrumentos de planeamiento urbanístico municipal cuya aprobación definitiva competa a la Administración de la Comunidad Foral.
+
+b) A instancia del ayuntamiento correspondiente, respecto a los instrumentos de ordenación del territorio y de planeamiento municipal cuya aprobación definitiva le corresponda. A tal efecto, deberá remitirse al Departamento competente en materia de ordenación del territorio y urbanismo la documentación señalada en el artículo 9 del presente decreto foral, en los diez días siguientes a la aprobación definitiva del correspondiente instrumento.
+
+c) A instancia de las personas promotoras de instrumentos promovidos por la iniciativa particular que hayan sido aprobados por silencio administrativo. En tal caso, la persona responsable del registro requerirá al ayuntamiento correspondiente para que remita, en el plazo máximo de 10 días, la documentación señalada en el artículo 9 del presente decreto foral.
+
+Artículo 6. Práctica del asiento de inscripción.
+
+1. El Departamento competente en materia de ordenación del territorio y urbanismo practicará de oficio el asiento de inscripción en el Registro de Planeamiento de los instrumentos cuya aprobación definitiva competa a la Administración de la Comunidad Foral, en atención a lo dispuesto en el artículo 5.2.a).
+
+Para ello, creará una ficha de inscripción y depositará la documentación correspondiente en el archivo documental. Realizada la inscripción, la unidad responsable del Registro emitirá certificación registral donde constará el número de registro asignado y se indicará que se ha procedido al depósito del instrumento. Se dará traslado de dicha certificación a los ayuntamientos sobre los que incida el instrumento correspondiente. Asimismo, la ficha de inscripción se incluirá en la base de datos a la que se refiere el artículo 4.
+
+2. Los instrumentos cuya aprobación definitiva corresponda a los ayuntamientos deberán ser remitidos por éstos al Departamento competente en materia de ordenación del territorio y urbanismo de conformidad con las determinaciones fijadas en el presente decreto foral.
+
+a) Si del examen de la documentación se dedujera la ausencia o deficiencia de la misma, la unidad responsable del registro requerirá al ayuntamiento correspondiente para que aporte cuantos datos o documentos considere necesarios en un plazo máximo de diez días, pudiendo denegar, en caso de incumplimiento, la práctica del asiento de inscripción correspondiente.
+
+b) Cuando la documentación remitida se encuentre completa, la unidad responsable del Registro de Planeamiento de Navarra practicará el asiento de inscripción en el plazo máximo de 30 días, creando para ello una ficha de inscripción, y depositará la documentación. Transcurrido dicho plazo sin que se haya practicado el asiento, se entenderá estimada la solicitud de inscripción.
+
+c) Realizada la inscripción, la unidad responsable del Registro emitirá certificación registral donde constará el número de registro asignado y se indicará que se ha procedido al depósito del instrumento. Dicha certificación será comunicada a los ayuntamientos afectados.
+
+La ficha de inscripción se incluirá en la base de datos a la que se refiere el artículo 4.
+
+d) Lo establecido en los apartados anteriores se realizará sin perjuicio del control de los instrumentos que el Departamento desarrolla en el ámbito de su competencia, de acuerdo con lo dispuesto en la legislación foral vigente en materia de ordenación del territorio y urbanismo y en la Ley Foral de Administración Local de Navarra.
+
+Del resultado del informe de control se dejará constancia en la correspondiente ficha de inscripción.
+
+Artículo 7. Fichas de inscripción.
+
+Las fichas de inscripción contendrán los siguientes datos:
+
+1. Identificación del instrumento:
+
+a) Tipo de instrumento.
+
+b) Carácter estructurante o pormenorizado de las determinaciones contenidas.
+
+c) Descripción: Objeto del instrumento.
+
+2. Localización:
+
+a) Municipio o Municipios.
+
+b) Concejo.
+
+c) Entidad de población, en su caso.
+
+d) Ámbito: territorial, urbanístico o normativo al que se refiera.
+
+e) Emplazamiento: toponímico, catastral o postal al que se refiera.
+
+3. Personas promotoras:
+
+a) Iniciativa: pública o privada.
+
+b) Personas promotoras: nombre o razón social de las personas promotoras o administración.
+
+4. Tramitación:
+
+a) Fecha de declaración del Plan Sectorial de Incidencia Supramunicipal o de aprobación inicial del instrumento, de su publicación en el Boletín Oficial de Navarra y en su caso, en prensa. Con señalamiento de la Administración actuante.
+
+b) Fecha de aprobación provisional. Con señalamiento de la Administración actuante.
+
+c) Fecha de aprobación definitiva y de su publicación en el Boletín Oficial de Navarra. Con señalamiento de la Administración actuante.
+
+d) Fecha de publicación en el Boletín Oficial de Navarra de la normativa escrita y de la documentación gráfica aprobadas, así como la referencia al anuncio correspondiente y su enlace web.
+
+e) Conclusiones del informe sobre control de los instrumentos previsto en el artículo 6.2.d).
+
+5. Vigencia del instrumento:
+
+a) Vigencia:
+
+- Vigente.
+
+- No vigente (pendiente de publicación o perdida su vigencia por sentencias, resoluciones administrativas u otros actos).
+
+b) Observaciones: acuerdo, sentencia o resolución que afecte a la vigencia o al contenido del instrumento (con datos suficientes para acceder a su contenido o enlace mediante hipervínculo en la versión telemática).
+
+6. Fecha y número de registro.
+
+a) Fecha de inscripción.
+
+b) Número de registro.
+
+Artículo 8. Modificación de los datos inscritos.
+
+El Departamento competente en materia de ordenación del territorio y urbanismo mantendrá actualizado el Registro de Planeamiento de Navarra.
+
+Los datos de la ficha de inscripción podrán ser objeto de modificación, cuando concurra alguna de las siguientes circunstancias:
+
+a) Por la efectiva publicación en el Boletín Oficial de Navarra del acuerdo de aprobación y de la normativa correspondiente.
+
+b) Por subsanación de errores materiales advertidos en la propia inscripción.
+
+c) Por sentencias judiciales o resoluciones administrativas que recaigan sobre los instrumentos inscritos, tras adquirir firmeza administrativa.
+
+d) Por medidas cautelares, que afecten a la aplicación de los instrumentos, adoptadas por jueces y tribunales.
+
+e) Por cualesquiera otros actos, acuerdos y resoluciones que, a juicio de la unidad orgánica responsable del Registro, afecten a los instrumentos.
+
+Dichas modificaciones se realizarán, de oficio o a instancia de parte, por la unidad responsable del registro. A tal efecto, los ayuntamientos deberán comunicar al Registro de planeamiento la concurrencia de cualquiera de dichas circunstancias.
+
+Asimismo, los ayuntamientos tienen la obligación de comunicar al Registro cualquier acto o resolución, administrativa o judicial, posterior a la aprobación definitiva del instrumento, con trascendencia registral, en la que hubieren intervenido en razón de su competencia y que afectase al contenido del documento aprobado.
+
+La unidad responsable del Registro de planeamiento dará cuenta a los ayuntamientos afectados de cualquier rectificación en la ficha de inscripción.
+
+TÍTULO III. CONTENIDO DE LOS EXPEDIENTES URBANÍSTICOS
+
+Artículo 9. Documentación a presentar.
+
+1. Los ayuntamientos remitirán al Departamento competente en materia de ordenación del territorio y urbanismo una copia del expediente completo, en formato digital, que contenga, en función de las exigencias que legalmente sean exigibles a cada instrumento, el conjunto de documentación, tanto escrita como gráfica, señalada en el presente artículo. Dicha documentación se organizará en los siguientes apartados:
+
+a) Índice de documentos: contendrá un archivo en formato pdf con un listado de los documentos que se presentan, según se especifica en los apartados siguientes.
+
+b) Documentación administrativa:
+
+- Certificados de aprobación inicial, provisional y definitiva.
+
+- Justificante de la publicación en prensa y en el Boletín Oficial de Navarra del acuerdo de aprobación inicial.
+
+- Informes municipales, de contenido jurídico y técnico, emitidos por profesionales pertenecientes a la administración local actuante o a alguno de los órganos previstos en los artículos 16 y 18.2 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo.
+
+- Informes emitidos por otros órganos en materia de su competencia.
+
+- Alegaciones presentadas, informes y resoluciones producidas sobre las mismas.
+
+c) Documento técnico completo, con las diligencias oportunas que garanticen su autenticidad y fecha de aprobación del instrumento.
+
+- Documentación informativa y justificativa. Conteniendo, en su caso: memoria informativa y justificativa, planos de información, plan de participación, resumen ejecutivo, estudio ambiental estratégico, memoria de viabilidad y de sostenibilidad económica, estudio de movilidad generada, estudio sobre la adecuación de vivienda protegida, sistema de indicadores de gestión, sostenibilidad y resultado; plan de atracción y ordenación comercial, programa de desarrollo y ejecución, así como el resto de documentación que pueda ser exigida por la legislación vigente.
+
+- Documentación normativa. Conteniendo, en su caso, planos de ordenación, normas urbanísticas, catálogo de protecciones, así como el resto de documentación que pueda ser exigida por la legislación vigente.
+
+d) Documentación vectorial, en los supuestos y condiciones recogidos en artículo 10 y en el Anexo.
+
+e) Texto de la sentencia o auto judicial, o cualquier otra resolución administrativa posterior que afecte a su contenido.
+
+2. La documentación, a excepción de la indicada en el artículo 10, se entregará en formato pdf. Las páginas de los documentos de texto vendrán numeradas con referencia al total de páginas del documento. Cada archivo del documento técnico vendrá diligenciado convenientemente mediante firma digital de manera que se certifique que el contenido del archivo coincide fielmente con el documento aprobado.
+
+Sus propiedades deben permitir su impresión, copia, extracción y firma.
+
+Los archivos digitales estarán contenidos en un directorio principal cuya denominación incluirá el nombre del municipio (en el caso de afección supramunicipal, el nombre del primer municipio de la relación alfabética, seguido del símbolo #), la abreviatura o acrónimo del tipo del instrumento y una referencia al ámbito, cuando éste sea distinto del término municipal. Los datos estarán separados por un guión bajo.
+
+Dentro de este directorio se incluirán las siguientes carpetas:
+
+a) Documentación Administrativa, en formato pdf, con una resolución mínima de 200 ppp (puntos por pulgada).
+
+b) Documento Técnico, en formato pdf, distribuidos en las siguientes carpetas:
+
+- Documentación Escrita, con una resolución mínima de 200 ppp.
+
+- Documentación Gráfica, con una resolución mínima de 300 ppp. La totalidad de las hojas que integren la documentación técnica gráfica, incorporarán cuando proceda, las coordenadas geográficas de sus 4 esquinas, en el sistema geodésico de referencia que se especifica en el Anexo de este decreto foral.
+
+c) Información Geográfica Vectorial: Contendrá, en archivos digitales, la información vectorial correspondiente a los conjuntos de datos señalados en el artículo 10 y en el Anexo.
+
+3. Los instrumentos de ordenación del territorio y de planeamiento urbanístico municipal cuya aprobación corresponda a la Administración de la Comunidad Foral deberán asimismo presentarse en formato digital y contener el conjunto de documentación señalada en el presente artículo para su inscripción en el Registro de Planeamiento.
+
+Artículo 10. Particularidades del formato vectorial.
+
+La documentación de los instrumentos de ordenación territorial y urbanística que afecten a determinaciones de ordenación estructurante, incluirá en la carpeta denominada Información Geográfica Vectorial los conjuntos de datos de información geográfica vectorial, según los modelos de datos, formatos y sistema geodésico de referencia que se especifican en el Anexo de este decreto foral.
+
+TÍTULO IV. PUBLICIDAD Y ACCESO A LOS INSTRUMENTOS INSCRITOS EN EL REGISTRO DE PLANEAMIENTO
+
+Artículo 11. Publicidad y acceso.
+
+1. La publicidad registral de los instrumentos inscritos en el Registro de Planeamiento se hará efectiva mediante su consulta directa en las dependencias que a tal efecto designe la Administración titular, así como mediante la emisión de copias expedidas de los documentos obrantes en el Registro, u otras formas dispuestas en la legislación vigente en materia de ordenación del territorio y urbanismo.
+
+2. El derecho de acceso y de obtención de copias de los documentos se ejercerá en la forma establecida en la legislación general de procedimiento administrativo común de las administraciones públicas.
+
+3. Asimismo, deberá facilitarse el acceso y consulta por medios telemáticos de la documentación técnica que integran los instrumentos, a través de los portales que el Gobierno de Navarra disponga a tal fin.
+
+Artículo 12. Protección de datos de carácter personal.
+
+Lo dispuesto en este decreto se aplicará, en todo caso, de conformidad con lo previsto en la normativa reguladora de la protección de datos de carácter personal.
+
+A tal efecto, los ayuntamientos y las personas promotoras deberán indicar, de forma expresa, aquella parte de la información suministrada que tiene carácter confidencial, al amparo de la legislación vigente en materia de protección de datos.
+
+La unidad responsable del Registro verificará el cumplimiento de lo dispuesto en el presente artículo.
+
+Disposición Transitoria Única. Instrumentos en tramitación y aprobados.
+
+Aquellos instrumentos que a la fecha de entrada en vigor del presente decreto foral se encuentren en tramitación, deberán adaptarse con carácter previo a su aprobación definitiva a las prescripciones contenidas en el mismo.
+
+Lo dispuesto en el presente decreto foral no será de aplicación a los instrumentos que a la entrada en vigor del mismo se encuentren aprobados definitivamente, que mantendrán las inscripciones en el Registro de Planeamiento en las condiciones en que fueron practicadas.
+
+Disposición Adicional Única. Inscripción de instrumentos de gestión y de urbanización.
+
+Los ayuntamientos podrán, de manera voluntaria, remitir los instrumentos de gestión y de urbanización cuya aprobación definitiva les corresponda para su inscripción directa en el Registro de Planeamiento.
+
+Disposición Final Primera. Habilitación para la modificación del Anexo.
+
+Se faculta al titular del Departamento competente en materia de ordenación del territorio y urbanismo a modificar las especificaciones del Anexo, con el objeto de adaptarlas a nuevas necesidades, tecnologías disponibles o disposiciones sobre estándares que dicte el Open Geospatial Consortium a nivel internacional, o bien a disposiciones generales de rango superior.
+
+Disposición Final Segunda. Entrada en vigor Nota de Vigencia.
+
+El presente decreto foral entrará en vigor a los dos meses contados desde el día en que finalice la vigencia del Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19, o, en su caso, las prórrogas del mismo.
+
+ANEXO. Formatos de archivo
+
+ANEXO
+
+La información geográfica vectorial señalada en el artículo 10 se entregará en formato shapefile.
+
+Cada uno de los seis conjuntos de datos constituirá un fichero independiente. El nombre de todos los ficheros irá precedido del atributo CODSIUN del conjunto de datos 1.-Ámbito de la actuación y se completará con el texto que se indica en la siguiente tabla:
+
+CONJUNTO DE DATOS	NOMBRE DE FICHERO
+1.-Ámbito de la actuación	CODSIUN_ambito
+2.-Unidades espaciales	CODSIUN_udespacial
+3.-Clase de suelo	CODSIUN_clase
+4.-Categorías y subcategorías de suelo no urbanizable	CODSIUN_snu
+5.-Sectores de suelo urbanizable	CODSIUN_sector
+6.-Sistemas generales	CODSIUN_sg
+Sistema geodésico de referencia
+
+El sistema geodésico de referencia de las entidades gráficas será el establecido por el Real Decreto 1071/2007, de 27 de julio, por el que se regula el sistema geodésico oficial en España, coordenadas basadas en el Sistema Geodésico de Referencia ETRS89, proyección UTM huso 30 norte (ETRS89 UTM 30N, codificado como EPSG: 25830) o el que, en su momento, se encuentre en vigor en España.
+
+Contenido y datos asociados a la información geográfica vectorial
+
+Los conjuntos de datos de información geográfica vectorial serán numerados y denominados como sigue:
+
+Conjunto de datos 1: Ámbito de la actuación.
+
+Conjunto de datos 2: Unidades espaciales.
+
+Conjunto de datos 3: Clase de suelo.
+
+Conjunto de datos 4: Categorías y subcategorías de suelo no urbanizable.
+
+Conjunto de datos 5: Sectores de suelo urbanizable.
+
+Conjunto de datos 6: Sistemas generales.
+
+1. Ámbito de la actuación.
+
+Representará el espacio geográfico afectado por el instrumento. Dicho espacio o ámbito puede ser discontinuo e incluirá, en su caso, los suelos afectados por las infraestructuras de conexión con los sistemas generales existentes (redes y servicios) y previstas en el mismo.
+
+La geometría será de tipo poligonal aceptando elementos multiparte y polígonos isla si procede y tendrá una tabla de atributos asociada con la siguiente estructura:
+
+NOMBRE DEL ATRIBUTO	TIPO	TAMAÑO	DESCRIPCIÓN DEL CONTENIDO
+CODSIUN	Número entero	6	Código identificativo del Instrumento en el Sistema de Información Urbanística de Navarra (SIUN)
+MUNICIPIOS	Texto	255	Nombre del municipio o municipios afectados, separados por comas
+CODTIP	Texto	10	Acrónimo del tipo del instrumento
+TIPINSTRUM	Texto	255	Tipo de Instrumento
+FECHAPROB	Texto	8	Fecha en formato AAAAMMDD
+Atributo CODSIUN: El Departamento competente en materia de ordenación del territorio y urbanismo entregará un identificador único para cada instrumento de ordenación territorial o urbanística.
+
+Lista controlada de valores:
+
+CODTIP	TIPINSTRUM
+PSIS	Plan y Proyecto Sectorial de Incidencia Supramunicipal
+MPSIS	Modificación de Plan y Proyecto Sectorial de Incidencia Supramunicipal
+PGM	Plan General Municipal
+MPGM	Modificación de Plan General Municipal
+MPM	Modificación de Plan Municipal
+MPGOU	Modificación de Plan General de Ordenación Urbana
+MNS	Modificación de Normas Subsidiarias
+PC	Plan de Conjunto
+MPC	Modificación de Plan de Conjunto
+PE	Plan Especial
+MPE	Modificación de Plan Especial
+Criterios específicos:
+
+-Cuando el ámbito del instrumento tenga establecida una delimitación gráfica oficial (municipio, concejo, polígono o parcelas catastrales...), o dichas referencias gráficas sean necesarias para ajustar el límite del ámbito, se utilizará la delimitación oficial que para esa fecha tenga establecido el Departamento del Gobierno de Navarra competente.
+
+-El planeamiento a desarrollar deberá ajustarse a la delimitación del ámbito oficial. Sólo podrá haber desajuste en caso de que la nueva ordenación requiera la modificación del ámbito, y sólo en las parcelas que requieran ser segregadas o anexionadas.
+
+2. Unidades espaciales.
+
+En este conjunto de datos se recogen (cuando el instrumento de planeamiento las contenga) las unidades espaciales delimitadas de acuerdo a criterios de coherencia urbanística, tanto internos como respecto al conjunto del núcleo urbano y del territorio municipal. A tales efectos, se procurará que las divisiones entre ellos coincidan con elementos estructurantes, de la realidad territorial o de la ordenación.
+
+La geometría será de tipo poligonal aceptando elementos multiparte y polígonos isla si procede. La tabla de atributos asociada tendrá la siguiente estructura:
+
+NOMBRE DEL ATRIBUTO	TIPO	TAMAÑO	DESCRIPCIÓN DEL CONTENIDO
+UESPACIAL	Texto	6	Formado por la concatenación de los tres caracteres “SE-” y un número correlativo entre 001 y 999, incluyendo los ceros a la izquierda
+Se garantizará la consistencia geométrica entre este conjunto de datos con respecto al conjunto de datos 1, de forma que no existirán unidades espaciales que sobrepasen los límites definidos por el ámbito de actuación.
+
+3. Clase de suelo.
+
+Contendrá las clases de suelo establecidas por el artículo 88 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo.
+
+La geometría será de tipo poligonal aceptando elementos multiparte y polígonos isla si procede y tendrá una tabla de atributos asociada con la siguiente estructura:
+
+NOMBRE DEL ATRIBUTO	TIPO	TAMAÑO	DESCRIPCIÓN DEL CONTENIDO
+CLASESUELO	Texto	50	Clase de suelo: un ítem de la lista controlada de valores CLASESUELO
+CODCLASE	Texto	10	Acrónimo de clase de suelo: un ítem de la lista controlada de valores CODCLASE
+Lista controlada de valores:
+
+CLASESUELO	CODCLASE
+Suelo urbano	SU
+Suelo urbanizable	SUBLE
+Suelo no urbanizable	SNU
+Se garantizará la consistencia geométrica entre este conjunto de datos con respecto al conjunto de datos 1, de forma que será ocupado en su totalidad y no existirán categorías de suelo que sobrepasen los límites definidos por el ámbito de actuación.
+
+4. Categorías y subcategorías de suelo.
+
+Recogerá las categorías y subcategorías de suelo no urbanizable definidas en el artículo 92 del Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, aprobado por Decreto Foral Legislativo 1/2017.
+
+La geometría será de tipo poligonal aceptando elementos multiparte y polígonos isla si procede. La tabla de atributos asociada tendrá la siguiente estructura:
+
+NOMBRE DEL ATRIBUTO	TIPO	TAMAÑO	DESCRIPCIÓN DEL CONTENIDO
+CATEGSNU	Texto	50	Categoría de suelo no urbanizable: un ítem único o concatenado# de la lista controlada de valores CATEGSUELO (vacío si no procede)
+SBCATEGSNU	Texto	255	Subcategoría de suelo no urbanizable. Valor único o concatenado# del atributo según la lista de valores SBCATEGSNU
+COD_CS	Texto	10	Código de síntesis de categoría y subcategoría de suelo no urbanizable: un ítem único o concatenado# de la lista controlada de valores CODIGO_CS
+Lista controlada de valores, de la que se elige un ítem único o concatenado#:
+
+CATEGSNU	SBCATEGSNU	COD_CS
+Protección	Valor paisajístico	PROT.VP
+ 	Valor ambiental	PROT.VA
+ 	Valor para su explotación natural	PROT.EN
+ 	Valor cultural	PROT.VC
+ 	Salvaguarda del modelo de desarrollo	PROT.MD
+ 	Prevención de riesgos	PROT.PR
+ 	Destinado a infraestructuras	PROT.DI
+ 	Actividades especiales	PROT.AE
+Preservación	Valor paisajístico	PRES.VP
+ 	Valor ambiental	PRES.VA
+ 	Valor para su explotación natural	PRES.EN
+ 	Valor cultural	PRES.VC
+ 	Salvaguarda del modelo de desarrollo	PRES.MD
+ 	Prevención de riesgos	PRES.PR
+ 	Destinado a infraestructuras	PRES.DI
+ 	Actividades especiales	PRES.AE
+Concatenado#: Una misma parte del territorio puede pertenecer a una o varias categorías y subcategorías de Suelo No Urbanizable, atendiendo a la legislación sectorial de afección en el ámbito y/o los instrumentos de planificación sectorial o territorial, así como al planeamiento urbanístico municipal correspondiente. Así, los valores de CATEGSNU, SBCATEGSNU y COD_CS pueden superponerse. Para su reflejo, deberán estar incluidos bajo la forma valor 1 + valor 2 (signo más, separado por un espacio a cada lado).
+
+Se garantizará la consistencia geométrica entre este conjunto de datos con respecto al conjunto de datos 3, de forma que se ocupará en su totalidad el suelo no urbanizable y no existirán categorías y subcategorías contenidas en este conjunto que sobrepasen los límites definidos en aquel.
+
+5. Sectores del suelo urbanizable.
+
+Recoge los ámbitos en los que el instrumento divide el suelo urbanizable para el desarrollo de la ordenación pormenorizada con reflejo de las determinaciones de ordenación estructurante del artículo 49.2.d) del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo.
+
+La geometría será de tipo poligonal aceptando elementos multiparte y polígonos isla si procede y tendrá una tabla de atributos asociada con la siguiente estructura:
+
+NOMBRE DEL ATRIBUTO	TIPO	TAMAÑO	DESCRIPCIÓN DEL CONTENIDO
+SECTORSU	Texto	6	Formado por la concatenación de los dos caracteres “S-” y un número correlativo entre 001 y 999, incluyendo los ceros a la izquierda
+USOGLOBAL	Texto	50	Uso global: un ítem de la lista controlada de valores USOGLOBAL
+EDIF_MAX	Doble, precisión 2	19	Edificabilidad máxima expresada como la cuantía en metros cuadrados de superficie construida máxima
+P_VIV_PROT	Doble, precisión 2	19	% de viviendas sujetas a protección pública
+USOGLOBAL: lista controlada de valores:
+
+Residencial
+Terciario
+Industrial
+Terciario-industrial
+Dotacional
+Se garantizará la consistencia geométrica del conjunto de datos de forma que no existirán recintos que sobrepasen o sean distintos a aquellos con valor CLASESUELO= “Suelo urbanizable” en el conjunto de datos 3. Clase de suelo.
+
+6. Sistemas generales.
+
+Representan los sistemas generales, entendidos como la red de dotaciones públicas al servicio de toda la población (artículos 49.2.c y 55.3 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo).
+
+La geometría será de tipo poligonal aceptando elementos multiparte y polígonos isla si procede. La tabla de atributos asociada tendrá la siguiente estructura:
+
+NOMBRE DEL ATRIBUTO	TIPO	TAMAÑO	DESCRIPCIÓN DEL CONTENIDO
+SIST_GEN	Texto	6	Formado por la concatenación de los tres caracteres “SG-” y un número correlativo entre 001 y 999, incluyendo los ceros a la izquierda
+SG_DESTINO	Texto	50	Los posibles destinos a los que se podrá adscribir el sistema general serán los indicados en el artículo 49.2.c) del DFL 1/2017 TRLFOTU: un ítem de la lista controlada de valores SG_DESTINO
+SG_DESTINO: lista controlada de valores:
+
+Vía pública
+Servicio urbano
+Espacio libre
+Equipamiento público
+Equipamiento privado
+Normas de elaboración
+
+Los seis conjuntos de datos de información geográfica vectorial deberán cumplir los siguientes criterios gráficos y técnicos:
+
+Coherencia entre el contenido de la documentación escrita y los planos:
+
+La información relativa a aspectos geográficos descrita en la documentación escrita, deberá coincidir exactamente con el contenido gráfico de los planos.
+
+En el caso concreto del conjunto de datos 1, denominado Ámbito de la actuación, los límites gráficos definidos en la documentación escrita (Municipio, zona, linderos, parcelas que incluye total o parcialmente y porcentaje) deberán concordar con la línea grafiada.
+
+Coherencia topológica con los recintos definidos en planeamiento de nivel superior:
+
+Los ámbitos geográficos que se presenten en un Instrumento de Planeamiento y hagan referencia a otro/s aprobado/s anteriormente en Instrumentos de Planeamiento de nivel superior, deberán ser idénticos.
+
+Coherencia topológica con las líneas de catastro:
+
+Los recintos, o partes de recinto que, conforme a la planificación, deban ajustarse a las líneas del catastro oficial de Navarra, deberán emplear la línea exacta de dicha capa de información y no volverá a digitalizarse.
+
+Cuando haya parcelas que deban segregarse, porque así lo exija el planeamiento proyectado, se podrán utilizar líneas no coincidentes con catastro en el lugar geográfico que se produzca la segregación.
+
+Coherencia topológica de cada conjunto de datos consigo mismo:
+
+-Continuidad lineal: Las líneas deberán estar interconectadas unas con otras, sin espacios entre ellas.
+
+-Sin tramos lineales sueltos: Todo vértice lineal tendrá que estar interconectado con otro vértice lineal.
+
+-Inexistencia de líneas duplicadas: Cada línea debe ser única.
+
+-Inexistencia de líneas similares: No existirán recintos residuales provocados por líneas próximas y similares entre sí.
+
+-Inexistencia de puntos dobles: Cada punto insertado de una línea deberá ser único.
+
+-Inexistencia de lazos: El elemento tendrá uniformidad lineal.
+
+-Polígonos isla: Una isla se define como el polígono cuyos límites quedan dentro de un polígono mayor. Se trata de polígonos completamente rodeados por otro polígono, debiéndose informar al polígono contenedor de la existencia del polígono isla para tenerlo en cuenta al calcular su área.
+
+-Recintos vecinos: Las líneas comunes a dos recintos contiguos serán idénticas. En ningún caso aparecerán huecos o solapes.
+
+Coherencia topológica de cada conjunto de datos con los demás:
+
+Los recintos o partes de recinto que coincidan en diferentes conjuntos de datos deberán ser idénticos, es decir que topológicamente será la misma línea. Para ello, la línea de una capa se copiará en otra y nunca volverá a digitalizarse.
+
+El objetivo de esta regla es que al superponer los seis conjuntos de datos que deben entregarse, las líneas coincidentes sean idénticas.
+
+Coherencia topológica entre recintos de conjuntos de datos con contenidos complementarios:
+
+-Cada uno tiene que ser gráficamente coherente con aquellos que sean complementarios.
+
+-El conjunto de datos 3.-Clase de suelo deberá completar la totalidad del ámbito del instrumento.
