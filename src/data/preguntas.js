@@ -6730,7 +6730,7 @@ export const PREGUNTAS = [
     "exp": "El Anejo 1, punto 1, establece que si los almacenamientos se realizan en naves abiertas o al descubierto, la instalación deberá contar con una cuneta o sistema equivalente de manera que la totalidad de las aguas de escorrentía del recinto se recojan y se conduzcan a una balsa para su decantación previa a su vertido en cauce público. Las demás alternativas describen finalidades distintas (infiltración directa, riego, vertido a saneamiento sin tratamiento) que no se corresponden con el requisito técnico establecido."
   },
    
-    // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) · revisión en curso ----------
+    // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) · 15 preguntas revisadas y publicadas, 24/09/2026 ----------
   {
     "id": "E29-01",
     "tema": "E29",
@@ -6838,93 +6838,93 @@ export const PREGUNTAS = [
   {
     "id": "E29-09",
     "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los Planes de Acción Territorial concretan y programan actuaciones sectoriales derivadas de un Plan de Ordenación Territorial. ¿Qué horizonte de programación establece el artículo 39.1.b para dichas actuaciones?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Plan Sectorial de Incidencia Supramunicipal de iniciativa particular prevé obras de urbanización y aprovechamiento lucrativo. Conforme a los artículos 43.2 y 43.3.b, ¿cuáles son, respectivamente, la garantía total mínima exigible al promotor y la cesión prevista para los Ayuntamientos afectados?",
     "o": [
-      "Un horizonte de cuatro años.",
-      "Un horizonte de seis años.",
-      "Un horizonte de ocho años.",
-      "Un horizonte de diez años."
+      "Garantía del 6 % de los costes de servicios y urbanización; cesión del 15 % del aprovechamiento lucrativo.",
+      "Garantía del 6 % de los costes de servicios y urbanización; cesión del 10 % del aprovechamiento lucrativo.",
+      "Garantía del 10 % de los costes de servicios y urbanización; cesión del 6 % del aprovechamiento lucrativo.",
+      "Garantía del 4 % de los costes de servicios y urbanización; cesión del 10 % del aprovechamiento lucrativo."
     ],
-    "c": 2,
-    "exp": "Art. 39.1.b DFL 1/2017: los Planes de Acción Territorial deben incluir la descripción individualizada de las actuaciones, instrucciones para su diseño, estimación de costes, fórmulas de desarrollo, coordinación y su programación a ocho años."
+    "c": 1,
+    "exp": "Arts. 43.2 y 43.3.b del DFL 1/2017: los Planes Sectoriales de iniciativa particular exigen una garantía total mínima del 6 % del coste de implantar los servicios y ejecutar las obras de urbanización. El desarrollo del Plan debe prever la cesión a los Ayuntamientos del 10 % del aprovechamiento lucrativo susceptible de tráfico inmobiliario, libre de cargas; garantía y cesión tienen bases de cálculo distintas."
   },
   {
     "id": "E29-10",
     "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en un Plan Sectorial de Incidencia Supramunicipal de iniciativa particular, ¿qué garantía mínima exige el artículo 43.3.b respecto del coste de implantación de servicios y ejecución de las obras de urbanización?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el Plan General Municipal establece la edificabilidad máxima y los usos globales de un sector urbanizable y delimita también sus unidades de ejecución. Conforme al artículo 49, ¿cómo se clasifican ambas determinaciones?",
     "o": [
-      "El 4 % del coste evaluado.",
-      "El 6 % del coste evaluado.",
-      "El 8 % del coste evaluado.",
-      "El 10 % del coste evaluado."
+      "La edificabilidad y los usos son pormenorizados; las unidades de ejecución son estructurantes.",
+      "Tanto la edificabilidad y los usos como las unidades de ejecución son estructurantes.",
+      "Tanto la edificabilidad y los usos como las unidades de ejecución son pormenorizados.",
+      "La edificabilidad y los usos son estructurantes; las unidades de ejecución son pormenorizadas."
     ],
-    "c": 1,
-    "exp": "Art. 43.3.b DFL 1/2017: la garantía total no puede ser inferior al 6 % del coste resultante para la implantación de los servicios y la ejecución de las obras de urbanización, según la evaluación económica del propio Plan Sectorial."
+    "c": 3,
+    "exp": "Arts. 49.2.d y 49.3.g del DFL 1/2017: la edificabilidad máxima y los usos globales de cada sector urbanizable son determinaciones estructurantes. La delimitación de unidades de ejecución y la fijación de los sistemas de actuación son determinaciones pormenorizadas."
   },
   {
     "id": "E29-11",
     "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un municipio de 8.000 habitantes prevé una actuación con incremento de 9 viviendas. Según el artículo 54.1.b, ¿qué regla resulta aplicable al estándar de vivienda protegida?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, fuera del ámbito de planeamiento supramunicipal de la Comarca de Pamplona, un municipio cuya población prevista es de 8.000 habitantes ordena una actuación de nueva urbanización que incrementa en nueve el número de viviendas. ¿Qué régimen de reserva de vivienda protegida resulta aplicable conforme al artículo 54.1.b?",
     "o": [
-      "Reserva del 20 %, reducible o eliminable por mayoría simple si el incremento no supera 25 viviendas.",
-      "Reserva del 50 %, reducible o eliminable por mayoría simple si el incremento no supera 3 viviendas.",
-      "Reserva del 35 %, reducible o eliminable por mayoría absoluta si el incremento no supera 10 viviendas.",
-      "Reserva del 35 %, reducible o eliminable por mayoría simple si el incremento no supera 10 viviendas."
+      "Reserva general del 50 %, reducible por acuerdo de mayoría simple del Pleno.",
+      "Reserva general del 35 %, reducible por acuerdo de mayoría absoluta del Pleno.",
+      "Reserva general del 35 %, reducible o eliminable por mayoría simple del Pleno.",
+      "Reserva general del 20 %, reducible o eliminable por mayoría simple del Pleno."
     ],
-    "c": 3,
-    "exp": "Art. 54.1.b DFL 1/2017: en municipios con población igual o superior a 2.000 e inferior a 10.000 habitantes, el estándar mínimo es el 35 % de la nueva capacidad residencial; si el incremento es igual o inferior a 10 viviendas, el Ayuntamiento puede reducir o eliminar la exigencia mediante acuerdo por mayoría simple del Pleno."
+    "c": 2,
+    "exp": "Art. 54.1.b del DFL 1/2017: en municipios con población prevista igual o superior a 2.000 e inferior a 10.000 habitantes, el estándar general es el 35 % de la nueva capacidad residencial. Con un incremento igual o inferior a diez viviendas, el Pleno puede reducir o eliminar el estándar mediante acuerdo por mayoría simple; no es una exención automática. Los porcentajes del 50 % y 20 % corresponden a otros grupos municipales."
   },
   {
     "id": "E29-12",
     "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, con carácter de sistema general, ¿qué reserva mínima para espacios libres públicos establece el artículo 55.3.a respecto de la capacidad total máxima de los suelos urbanos y urbanizables?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en un municipio con población prevista de 8.000 habitantes, la aplicación del estándar de vivienda protegida da lugar a doce viviendas de protección oficial (VPO). Conforme al artículo 54.4.b, ¿cuántas de esas viviendas deberán destinarse como mínimo al arrendamiento?",
     "o": [
-      "5 m² por habitante o 15 m² por cada 100 m² construidos de uso residencial.",
-      "5 m² por habitante o 20 m² por cada 100 m² construidos de uso residencial.",
-      "10 m² por habitante o 15 m² por cada 100 m² construidos de uso residencial.",
-      "10 m² por habitante o 20 m² por cada 100 m² construidos de uso residencial."
+      "Tres viviendas, para cubrir un mínimo del 20 % de las doce VPO.",
+      "Cuatro viviendas, para alcanzar como mínimo el 30 % de las doce VPO.",
+      "Seis viviendas, para alcanzar como mínimo el 50 % de las doce VPO.",
+      "Ocho viviendas, al aplicar el porcentaje del 60 % sobre las doce VPO."
     ],
-    "c": 0,
-    "exp": "Art. 55.3.a DFL 1/2017: con carácter de sistema general deben definirse reservas para espacios libres públicos con superficie conjunta útil no inferior a 5 m² por habitante o 15 m² por cada 100 m² construidos de uso residencial, referidos a la capacidad total máxima de los suelos urbanos y urbanizables."
+    "c": 1,
+    "exp": "Art. 54.4.b del DFL 1/2017: en municipios de los apartados 54.1.a y 54.1.b, si resultan diez o más VPO, al menos el 30 % de ellas debe destinarse a arrendamiento. El 30 % de doce es 3,6; se requieren como mínimo cuatro viviendas completas. El 60 % regulado en el art. 54.4.a fija la proporción de VPO dentro del total de viviendas protegidas, no la proporción de alquiler."
   },
   {
     "id": "E29-13",
     "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Plan Parcial necesita ajustar la delimitación del sector para mejorar su ordenación y ejecución. Sin alterar otras determinaciones estructurantes, ¿qué margen máximo admite el artículo 60.3?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un sector de suelo urbanizable residencial en un núcleo de más de 500 habitantes tiene 30.000 m² de superficie total y 10.000 m² construidos de uso residencial. Sin computar los sistemas generales incluidos, ¿cuál es la reserva mínima específicamente destinada a zonas verdes y espacios libres conforme al artículo 55.3.b?",
     "o": [
-      "Una diferencia de superficie de hasta el 2 % del ámbito.",
-      "Una diferencia de superficie de hasta el 3 % del ámbito.",
-      "Una diferencia de superficie de hasta el 5 % del ámbito.",
-      "Una diferencia de superficie de hasta el 10 % del ámbito."
+      "2.000 m², al aplicar el mínimo de 20 m² por cada 100 m² construidos.",
+      "4.348 m², al aplicar la reserva global de dotaciones locales del sector.",
+      "3.000 m², por alcanzar el 10 % de la superficie total del sector.",
+      "5.000 m², por equivaler a la mitad de la superficie construida residencial."
     ],
-    "c": 1,
-    "exp": "Art. 60.3 DFL 1/2017: el Plan Parcial no puede modificar determinaciones estructurantes del Plan General, salvo el ajuste de la delimitación del sector que mejore su ordenación y ejecución y no suponga una diferencia de superficie superior o inferior al 3 % del ámbito, con la modificación de clasificación que, en su caso, corresponda."
+    "c": 2,
+    "exp": "Art. 55.3.b del DFL 1/2017: la reserva específica de zonas verdes y espacios libres debe cumplir simultáneamente dos umbrales: 20 m² por cada 100 m² residenciales construidos (2.000 m²) y el 10 % de la superficie del sector (3.000 m²). Prevalece el mayor. La reserva global de dotaciones locales de 50 m² por cada 115 m² residenciales construidos constituye una exigencia adicional distinta."
   },
   {
     "id": "E29-14",
     "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Plan Especial de Actuación Urbana plantea una actuación integrada de regeneración o renovación y necesita suelo no urbanizable para ubicar dotaciones públicas e infraestructuras. ¿Qué límite establece el artículo 61.3 para la nueva urbanización mediante reclasificación?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Plan Especial de Actuación Urbana regula una actuación integrada de regeneración o renovación que necesita incorporar suelo no urbanizable. Conforme al artículo 61.3, ¿en qué supuesto puede regular nueva urbanización mediante reclasificación?",
     "o": [
-      "Hasta el 5 % de la superficie total del ámbito.",
-      "Hasta el 8 % de la superficie total del ámbito.",
-      "Hasta el 10 % de la superficie total del ámbito.",
-      "Hasta el 15 % de la superficie total del ámbito."
+      "Hasta el 10 % del ámbito, si es necesario para dotaciones urbanísticas públicas e infraestructuras.",
+      "Hasta el 15 % del ámbito, si es necesario para dotaciones urbanísticas públicas e infraestructuras.",
+      "Hasta el 10 % del ámbito, para nuevas promociones residenciales privadas ajenas a las dotaciones.",
+      "Hasta el 15 % del ámbito, para nuevas promociones residenciales privadas ajenas a las dotaciones."
     ],
-    "c": 2,
-    "exp": "Art. 61.3 DFL 1/2017: en actuaciones integradas de regeneración o renovación, el Plan Especial de Actuación Urbana puede regular nueva urbanización mediante reclasificación de suelo no urbanizable necesario para dotaciones públicas e infraestructuras, con un máximo del 10 % de la superficie total del ámbito."
+    "c": 0,
+    "exp": "Art. 61.3 del DFL 1/2017: en actuaciones INTEGRADAS de regeneración o renovación, el PEAU puede regular nueva urbanización mediante reclasificación de suelo no urbanizable si resulta necesario para ubicar dotaciones públicas e infraestructuras, con un máximo del 10 % de la superficie total del ámbito. No habilita con esta excepción expansiones residenciales privadas sin ese requisito."
   },
   {
     "id": "E29-15",
     "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿Qué plazo de información pública establece el artículo 74.b para la tramitación de un Estudio de Detalle desde la publicación del anuncio de su aprobación inicial en el Boletín Oficial de Navarra?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un particular presenta al Ayuntamiento una propuesta de ordenación con el contenido de avance de un Plan Parcial; otro particular solicita tramitar una modificación de las determinaciones estructurantes del Plan General Municipal. Si no se responde a ninguna solicitud, ¿qué plazo y sentido del silencio corresponden, respectivamente, según los artículos 67.3 y 78.2?",
     "o": [
-      "Un período de diez días.",
-      "Un período de quince días.",
-      "Un período de un mes.",
-      "Un período de veinte días."
+      "Avance: tres meses y silencio positivo; modificación: dos meses y silencio desestimatorio.",
+      "Avance: dos meses y silencio positivo; modificación: tres meses y silencio desestimatorio.",
+      "Avance: dos meses y silencio desestimatorio; modificación: tres meses y silencio positivo.",
+      "Avance: tres meses y silencio desestimatorio; modificación: dos meses y silencio positivo."
     ],
-    "c": 3,
-    "exp": "Art. 74.b DFL 1/2017: el período de información pública de los Estudios de Detalle es de veinte días desde la publicación del anuncio de la aprobación inicial en el Boletín Oficial de Navarra."
+    "c": 1,
+    "exp": "Arts. 67.3 y 78.2 del DFL 1/2017: para una propuesta privada con contenido de avance de plan de desarrollo, el plazo de pronunciamiento es de DOS MESES y el silencio es positivo respecto de esa propuesta; no equivale a la aprobación del plan. En una solicitud privada de tramitación y aprobación de una modificación estructurante del PGM, el plazo es de TRES MESES desde el expediente completo y el silencio es desestimatorio, con posibilidad de solicitar la subrogación del Departamento para su tramitación y resolución expresa."
   },
 
   // ---------- TEMA 33 ESPECÍFICO · LFOTU VI, MERCADO DEL SUELO (E33) ----------
