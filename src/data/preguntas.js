@@ -4671,201 +4671,201 @@ export const PREGUNTAS = [
         "La entidad local, y los departamentos del GN con informe previo"],
     c: 3, exp: "El art. 56.4 de la LF 17/2020 establece que la inspección de las actividades sometidas a LAC corresponde a las entidades locales en cuyo ámbito estén ubicadas y que otorgaron la licencia, y también a los departamentos del GN que hubieran emitido informe previo a la concesión." },
 
-  // ---------- TEMA 30 ESPECÍFICO · TRLFOTU III — RÉGIMEN DEL SUELO (E30) ----------
-   {
+  // ---------- TEMA 30 ESPECÍFICO · TRLFOTU III — 15 preguntas originales revisadas, cinco capítulos ----------
+  {
     "id": "E30-01",
     "tema": "E30",
-    "q": "Según el artículo 87 del Título III del TRLFOTU, mientras no exista plan que lo autorice, ¿cuál es la altura máxima a la que puede edificarse, medida en cada punto del terreno?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una modificación del planeamiento reduce el aprovechamiento que correspondía a los propietarios. Conforme al artículo 84.2.a), ¿en cuál de las siguientes combinaciones de plazo y causa puede surgir el derecho a indemnización?",
     "o": [
-      "Dos plantas, sin perjuicio de las demás limitaciones aplicables.",
-      "Tres plantas, sin perjuicio de las demás limitaciones aplicables.",
-      "Cuatro plantas, siempre que la parcela tenga frente a dos calles.",
-      "La media de las alturas de los edificios ya construidos en la manzana."
+      "Antes del vencimiento del plazo para cumplir deberes, o después si el incumplimiento es imputable a los propietarios.",
+      "Después del vencimiento del plazo para cumplir deberes, aunque el incumplimiento sea imputable a los propietarios.",
+      "Antes del vencimiento del plazo para cumplir deberes, o después si el incumplimiento es imputable a la Administración.",
+      "Después del vencimiento del plazo para cumplir deberes, únicamente si se hubiera solicitado previamente su ampliación."
     ],
-    "c": 1,
-    "exp": "El artículo 87 LFOTU establece que, mientras no exista plan que lo autorice, no podrá edificarse con una altura superior a tres plantas medidas en cada punto del terreno, sin perjuicio de las demás limitaciones aplicables. La opción que menciona la media de alturas corresponde a la regla especial para solares enclavados en núcleos o manzanas edificados en más de dos terceras partes, que requiere autorización municipal."
+    "c": 2,
+    "exp": "Art. 84.2.a) DFL 1/2017: la revisión o modificación puede generar indemnización si se aprueba antes de vencer los plazos para cumplir los deberes urbanísticos, o después cuando la falta de cumplimiento sea imputable a la Administración. Se resarce la reducción del aprovechamiento anterior y, en su caso, los gastos realizados para cumplir esos deberes que queden inservibles."
   },
   {
     "id": "E30-02",
     "tema": "E30",
-    "q": "De acuerdo con el artículo 89 del Título III del TRLFOTU, en los municipios que carezcan de planeamiento que clasifique suelo, ¿qué consideración tienen los terrenos que no tengan la condición de urbanos conforme a los criterios del artículo 90?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un edificio incluido en un catálogo necesita obras de conservación por 150.000 €. Su coste de reposición, excluido el suelo, es de 280.000 €. ¿Qué régimen de cooperación administrativa resulta del artículo 85.3?",
     "o": [
-      "Tendrán la consideración de suelo urbanizable, a la espera de su ordenación pormenorizada.",
-      "Tendrán la consideración de suelo no urbanizable.",
-      "Tendrán la consideración de suelo urbano no consolidado, si cuentan con acceso rodado.",
-      "Quedarán como suelo rústico común hasta la aprobación del Plan General Municipal."
+      "El límite del deber de conservación es de 140.000 €; el propietario puede recabar cooperación y la Administración competente deberá prestarla al superarse ese límite.",
+      "El límite del deber de conservación es de 280.000 €; el propietario podrá recabar cooperación cuando las obras alcancen ese importe.",
+      "El límite del deber de conservación es de 140.000 €; la cooperación será exigible cuando las obras superen el coste total de reposición.",
+      "El límite del deber de conservación es de 150.000 €; la Administración debe prestar cooperación únicamente si se supera esa cantidad."
     ],
-    "c": 1,
-    "exp": "El artículo 89 LFOTU dispone que, en los municipios que carezcan de planeamiento que clasifique suelo, los terrenos que no tengan la condición de urbano de conformidad con los criterios del artículo siguiente tendrán la consideración de suelo no urbanizable. Las demás alternativas introducen categorías o consecuencias no previstas en el precepto."
+    "c": 0,
+    "exp": "Art. 85.3 DFL 1/2017: el límite del deber de conservación se fija en la mitad del coste de reposición del bien, excluido el valor del suelo. La mitad de 280.000 € son 140.000 € y los 150.000 € de obras lo superan; al estar el bien catalogado, el propietario puede recabar cooperación, que las Administraciones competentes han de prestar. La norma no establece que se financie automáticamente la totalidad de las obras."
   },
   {
     "id": "E30-03",
     "tema": "E30",
-    "q": "Según el artículo 94 del Título III del TRLFOTU, ¿a partir de qué umbral de población están obligados los Ayuntamientos a dictar ordenanza reguladora de la Cédula urbanística?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un ámbito legalmente integrado en la malla urbana dispone de los servicios necesarios. El planeamiento incrementa su edificabilidad y reajusta las dotaciones, sin que deba reformarse ni renovarse su urbanización. ¿Qué categoría de suelo y actuación corresponden conforme al artículo 90?",
     "o": [
-      "Municipios de más de 2.000 habitantes.",
-      "Municipios de más de 5.000 habitantes.",
-      "Municipios de más de 10.000 habitantes.",
-      "Todos los municipios, con independencia de su población."
+      "Suelo urbano no consolidado y actuación de dotación.",
+      "Suelo urbano consolidado y actuación de reforma de la urbanización.",
+      "Suelo urbano no consolidado y actuación de renovación de la urbanización.",
+      "Suelo urbano consolidado y actuación de dotación."
     ],
-    "c": 1,
-    "exp": "El artículo 94 LFOTU señala que los Ayuntamientos podrán crear en la correspondiente ordenanza un documento acreditativo del régimen y las condiciones urbanísticas que concurran en las fincas, denominado Cédula urbanística. En todo caso, la ordenanza deberá ser dictada por los Ayuntamientos de municipios de más de cinco mil habitantes. Las demás opciones modifican el umbral."
+    "c": 3,
+    "exp": "Arts. 90.3.a y 90.5 DFL 1/2017: el suelo urbano consolidado incluye los terrenos para los que se prevean actuaciones edificatorias o de dotación. El incremento de edificabilidad o densidad o el cambio de uso constituye actuación de dotación si no exige reformar o renovar la urbanización; cuando sí se requiere esa reforma o renovación, se trata de suelo urbano no consolidado."
   },
   {
     "id": "E30-04",
     "tema": "E30",
-    "q": "Conforme al artículo 96.2.a del Título III del TRLFOTU, en las actuaciones de dotación en suelo urbano consolidado, el deber de entrega del 10 % del incremento de aprovechamiento puede cumplirse mediante sustitución por su valor en metálico. ¿Con qué finalidad se prevé esta sustitución?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el planeamiento de un municipio no concreta las normas mínimas de urbanización de los solares. Una parcela urbana tiene acceso rodado, abastecimiento, saneamiento, suministro eléctrico, calzada pavimentada y alineaciones y rasantes señaladas; el reparto de cargas, cuando fue necesario, ya se practicó. La vía carece de encintado de aceras. ¿Cuál es su condición conforme al artículo 91?",
     "o": [
-      "Únicamente para costear la parte de financiación pública prevista en la actuación.",
-      "Únicamente para integrarse en el patrimonio público de suelo, con destino preferente a actuaciones de rehabilitación o regeneración y renovación urbanas.",
-      "Para costear la parte de financiación pública que pudiera estar prevista en la actuación o para integrarse en el patrimonio público de suelo, con destino preferente a actuaciones de rehabilitación o de regeneración y renovación urbanas.",
-      "Para compensar económicamente a los propietarios de las parcelas colindantes afectadas por la nueva ordenación."
+      "Es solar, porque dispone de las redes de suministro y evacuación necesarias para edificar.",
+      "No es solar, porque falta el encintado de aceras exigido en defecto de previsión específica del plan.",
+      "Es solar, porque basta la pavimentación de la calzada cuando las alineaciones están señaladas.",
+      "No es solar, porque se exige ejecutar de nuevo el reparto de cargas antes de cada licencia."
     ],
-    "c": 2,
-    "exp": "El artículo 96.2.a LFOTU permite cumplir el deber de entrega del 10 % del incremento de aprovechamiento en actuaciones de dotación mediante sustitución por su valor en metálico, con la finalidad de costear la parte de financiación pública que pudiera estar prevista en la propia actuación o de integrarse en el patrimonio público de suelo, con destino preferente a actuaciones de rehabilitación o de regeneración y renovación urbanas. Las opciones que limitan la finalidad a uno solo de esos destinos son incompletas."
+    "c": 1,
+    "exp": "Art. 91.1 a 91.3 DFL 1/2017: si el planeamiento no concreta los mínimos, además de acceso rodado, agua, evacuación de aguas y electricidad, la vía de frente debe tener calzada pavimentada y aceras encintadas. También se requieren alineaciones y rasantes y, cuando sea preciso, el reparto de cargas. Aquí la única carencia indicada es el encintado de aceras."
   },
   {
     "id": "E30-05",
     "tema": "E30",
-    "q": "Según el artículo 98 del Título III del TRLFOTU, entre los deberes de los propietarios de suelo urbanizable se incluye ceder obligatoria y gratuitamente el suelo necesario para la ejecución de los sistemas generales que el planeamiento general incluya o adscriba al ámbito. ¿Qué otro destino específico menciona el precepto para esa cesión de suelo?",
+    "q": "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el planeamiento clasifica dos terrenos como suelo no urbanizable: el primero está protegido por legislación sectorial debido a valores ambientales incompatibles con su transformación; el segundo es preservado motivadamente por el planeamiento municipal debido a su valor agrícola. ¿Qué categorías resultan del artículo 92.2?",
     "o": [
-      "Los terrenos destinados a dotación supramunicipal para la construcción de viviendas sometidas a algún régimen de protección pública, así como a los alojamientos dotacionales regulados por la normativa vigente en materia de vivienda.",
-      "Los terrenos destinados a la ampliación del patrimonio municipal del suelo para usos industriales o terciarios.",
-      "Los terrenos destinados a equipamientos deportivos y culturales de carácter supramunicipal.",
-      "Los terrenos destinados a la construcción de infraestructuras de conexión con carreteras de titularidad foral."
+      "El primero, preservación; el segundo, protección.",
+      "Ambos terrenos, protección.",
+      "El primero, protección; el segundo, preservación.",
+      "Ambos terrenos, preservación."
     ],
-    "c": 0,
-    "exp": "El artículo 98.b LFOTU establece que los propietarios de suelo urbanizable deben ceder obligatoria y gratuitamente el suelo necesario para la ejecución de los sistemas generales que el planeamiento general incluya o adscriba al ámbito, así como los terrenos destinados a dotación supramunicipal para la construcción de viviendas sometidas a algún régimen de protección pública, así como a los alojamientos dotacionales regulados por la normativa vigente en materia de vivienda. Las demás opciones no figuran en el precepto."
+    "c": 2,
+    "exp": "Art. 92.1.a, 92.1.d y 92.2 DFL 1/2017: la protección comprende los terrenos sujetos a regímenes sectoriales especiales incompatibles con la transformación, excluidos por ordenación territorial o afectados por determinados riesgos; la preservación comprende los terrenos que el planeamiento municipal decide justificadamente mantener por sus valores o por otras razones de conservación e infraestructuras. Si concurren regímenes, se aplica el más restrictivo (art. 92.5)."
   },
   {
     "id": "E30-06",
     "tema": "E30",
-    "q": "El artículo 99.1 del Título III del TRLFOTU establece un límite a la diferencia de aprovechamiento tipo entre las diferentes áreas de reparto del mismo uso global en suelo urbano no consolidado. ¿Cuál es ese límite?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una actuación de dotación en suelo urbano consolidado eleva el aprovechamiento del ámbito de 20.000 a 27.000 m² homogeneizados. Aplicando el porcentaje ordinario del artículo 96.2.a), sin ajuste excepcional, ¿qué cesión corresponde y cuándo cabe sustituir la entrega por metálico?",
     "o": [
-      "No podrá ser inferior en un 10 % del más alto de las mismas.",
-      "No podrá ser inferior en un 15 % del más alto de las mismas.",
-      "No podrá ser inferior en un 20 % del más alto de las mismas.",
-      "No podrá ser inferior en un 25 % del más alto de las mismas."
+      "2.700 m²; el valor en metálico puede destinarse a financiación pública de la actuación o al patrimonio público de suelo.",
+      "700 m²; su valor en metálico puede costear la financiación pública prevista o integrarse en el patrimonio público de suelo.",
+      "1.050 m²; su valor en metálico puede costear la financiación pública prevista o integrarse en el patrimonio público de suelo.",
+      "700 m²; la sustitución por metálico exige que se destine exclusivamente a compensar a los propietarios afectados."
     ],
     "c": 1,
-    "exp": "El artículo 99.1 LFOTU dispone que el aprovechamiento tipo de las diferentes áreas de reparto del mismo uso global no podrá ser inferior en un 15 % del más alto de las mismas. Las otras opciones modifican el porcentaje."
+    "exp": "Art. 96.2.a) DFL 1/2017: la entrega ordinaria equivale al 10 % del incremento de aprovechamiento, no del total. El incremento es 7.000 m² y el 10 % son 700 m². Puede sustituirse por su valor en dinero para costear la parte de financiación pública prevista en la actuación o integrarse en el patrimonio público de suelo, con destino preferente a rehabilitación, regeneración y renovación urbanas. La horquilla excepcional del 5 % al 15 % no se aplica al supuesto planteado."
   },
   {
     "id": "E30-07",
     "tema": "E30",
-    "q": "Según el artículo 102 del Título III del TRLFOTU, el aprovechamiento de proyecto de edificación residencial se define como el producto de la superficie útil por un coeficiente. ¿Cuál es ese coeficiente?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un área de reparto tiene 18.000 m² construibles de aprovechamiento lucrativo ordinario y 2.000 m² construibles de dotacional privado, todos ya homogeneizados. Su superficie total es de 14.000 m², de los cuales 4.000 m² corresponden a sistemas generales o locales ya existentes. ¿Cuál es el aprovechamiento tipo conforme al artículo 100.1?",
     "o": [
-      "1,00",
-      "1,10",
-      "1,15",
-      "1,20"
+      "2,00 m² construibles por m² de suelo.",
+      "1,80 m² construibles por m² de suelo.",
+      "1,43 m² construibles por m² de suelo.",
+      "1,29 m² construibles por m² de suelo."
     ],
-    "c": 2,
-    "exp": "El artículo 102 LFOTU define el aprovechamiento de proyecto de edificación residencial o edificabilidad residencial asignado a una parcela como el producto de la superficie útil por el coeficiente de 1,15, siendo este el coeficiente de conversión de la superficie útil calculada antes y después de la utilización de técnicas constructivas encaminadas a mejorar los niveles de aislamiento termo-acústicos y de salubridad. Las demás opciones no corresponden al coeficiente legal."
+    "c": 0,
+    "exp": "Art. 100.1 DFL 1/2017: se incluye el dotacional privado en el numerador y se excluyen los sistemas generales o locales preexistentes del denominador. Aprovechamiento tipo = (18.000 + 2.000) / (14.000 − 4.000) = 2,00 m² construibles por m² de suelo. Los otros resultados proceden de omitir el dotacional privado, no excluir la superficie de sistemas existentes o cometer ambas omisiones."
   },
   {
     "id": "E30-08",
     "tema": "E30",
-    "q": "De acuerdo con el artículo 104.2 del Título III del TRLFOTU, si el instrumento de planeamiento urbanístico que establece la ordenación pormenorizada no señala plazos para el cumplimiento de los deberes de cesión, equidistribución y urbanización, ¿cuál es el plazo máximo legal y desde cuándo se computa?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el instrumento de ordenación pormenorizada no fija plazos de cesión, equidistribución y urbanización. La Administración, además, autoriza urbanización y edificación simultáneas. ¿Qué combinación de plazo supletorio y límite de garantía resulta de los artículos 104.2 y 105?",
     "o": [
-      "Cuatro años, contados desde la aprobación definitiva del instrumento de planeamiento.",
-      "Seis años, contados desde la publicación del acuerdo de aprobación en el Boletín Oficial de Navarra.",
-      "Ocho años, contados desde la publicación en el Boletín Oficial de Navarra.",
-      "Diez años, contados desde la entrada en vigor del Plan General Municipal."
+      "Seis años desde la publicación en el BON y garantía máxima del 30 % de la carga urbanística.",
+      "Ocho años desde la aprobación definitiva y garantía máxima del 30 % de la carga urbanística.",
+      "Ocho años desde la publicación en el BON y garantía máxima del 50 % de la carga urbanística.",
+      "Ocho años desde la publicación en el BON y garantía máxima del 30 % de la carga urbanística."
     ],
-    "c": 2,
-    "exp": "El artículo 104.2 LFOTU establece que, si no se establecieran estos plazos por el plan, el plazo máximo para el cumplimiento de los deberes de cesión, equidistribución y urbanización será de ocho años, contados desde su publicación en el Boletín Oficial de Navarra. Las otras opciones alteran el plazo o el hecho que inicia el cómputo."
+    "c": 3,
+    "exp": "Arts. 104.2 y 105 DFL 1/2017: si el plan no fija plazos, el máximo para cumplir los deberes es de ocho años desde su publicación en el Boletín Oficial de Navarra. Para autorizar urbanización y edificación simultáneas deben exigirse garantías pertinentes y proporcionadas que no excedan del 30 % de la carga urbanística de la parcela o ámbito."
   },
   {
     "id": "E30-09",
     "tema": "E30",
-    "q": "Según el artículo 110.2 del Título III del TRLFOTU, entre las actuaciones consideradas permitidas en suelo no urbanizable se encuentran las ampliaciones de instalaciones agrícolas o ganaderas preexistentes que, en su conjunto, no impliquen un aumento de un determinado porcentaje de la superficie construida, con autorización del Departamento competente en materia de ordenación del territorio y urbanismo y sin requerir nueva demanda de servicios. ¿Cuál es ese porcentaje máximo?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se propone ampliar un 18 % la superficie construida de una instalación agrícola legalmente preexistente en suelo no urbanizable. La intervención es compatible con sus valores, cuenta con autorización del Departamento competente y no requiere nuevos servicios. ¿Cómo se clasifica según el artículo 110.2.d y qué autorización de actividad requiere?",
     "o": [
-      "10 %",
-      "15 %",
-      "20 %",
-      "25 %"
+      "Es actuación permitida, pero exige también la autorización de actividad autorizable del artículo 117.",
+      "Es actuación permitida y no precisa la autorización de actividad autorizable del artículo 117, sin perjuicio de otras licencias.",
+      "Es actuación autorizable por superar el límite del 15 % fijado para las instalaciones agrícolas preexistentes.",
+      "Es actuación autorizable por requerir autorización departamental, aunque la ampliación sea inferior al 20 %."
     ],
-    "c": 2,
-    "exp": "El artículo 110.2.d LFOTU considera actuación permitida la ampliación de instalaciones agrícolas o ganaderas preexistentes que, en su conjunto, no impliquen un aumento del 20 % de la superficie construida, con autorización del Departamento competente en materia de ordenación del territorio y urbanismo y sin requerir nueva demanda de servicios. Las demás opciones modifican el porcentaje."
+    "c": 1,
+    "exp": "Art. 110.2.d DFL 1/2017: son actuaciones permitidas las ampliaciones de instalaciones agrícolas o ganaderas preexistentes que no impliquen aumento del 20 % de la superficie construida, dispongan de la autorización departamental indicada y no generen nueva demanda de servicios. Las permitidas no precisan la autorización de actividad autorizable del art. 117, sin perjuicio de las demás licencias o autorizaciones que correspondan. El umbral del 15 m² se refiere a construcciones menores para aperos o animales, no al porcentaje de ampliación."
   },
   {
     "id": "E30-10",
     "tema": "E30",
-    "q": "Conforme al artículo 111.2 del Título III del TRLFOTU, para los caminos públicos y para los itinerarios de interés, como las vías pecuarias o el Camino de Santiago, que no tengan delimitada zona de servidumbre en su normativa específica, se establece una zona de servidumbre de una determinada anchura medida desde el borde exterior de dichos caminos. ¿Cuál es esa anchura?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se autoriza una actividad terciaria que debe emplazarse en suelo no urbanizable de preservación. ¿Sobre qué magnitud y en qué momento se cumple el deber de adjudicación al Ayuntamiento previsto en el artículo 113.2?",
     "o": [
-      "Dos metros.",
-      "Tres metros.",
-      "Cinco metros.",
-      "Diez metros."
+      "El 10 % del valor total de los terrenos afectados, tras la autorización y antes del inicio de cualquier actuación.",
+      "El 5 % del incremento de valor de los terrenos afectados, tras la autorización y antes del inicio de cualquier actuación.",
+      "El 10 % del incremento de valor de los terrenos afectados, tras la autorización y antes del inicio de cualquier actuación.",
+      "El 10 % del incremento de valor de los terrenos afectados, una vez iniciada la actuación y antes de la puesta en funcionamiento."
     ],
-    "c": 1,
-    "exp": "El artículo 111.2 LFOTU establece una zona de servidumbre de tres metros medidos desde el borde exterior de dichos caminos para los caminos públicos y para los itinerarios de interés, como las vías pecuarias o el Camino de Santiago, que no tengan delimitada zona de servidumbre en su normativa específica. Las otras opciones no corresponden a la anchura legal."
+    "c": 2,
+    "exp": "Art. 113.2 DFL 1/2017: las actividades industriales o terciarias autorizables que deban emplazarse en suelo no urbanizable de preservación están sujetas a la adjudicación al ayuntamiento del aprovechamiento equivalente al 10 % del incremento del valor de los terrenos afectados, una vez concedida la autorización y antes de iniciar cualquier actuación; no se calcula sobre el valor total ni puede diferirse hasta después del inicio."
   },
   {
     "id": "E30-11",
     "tema": "E30",
-    "q": "Según el artículo 115.2 del Título III del TRLFOTU, la superficie mínima de la parcela para construir viviendas unifamiliares aisladas en suelo no urbanizable de preservación no será inferior a 10.000 metros cuadrados y deberá utilizarse, en el porcentaje que se fije reglamentariamente o por el planeamiento municipal, para actividades o usos agrarios, pecuarios o forestales no constructivos. ¿Cuál es el porcentaje mínimo que no podrá ser inferior?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en un municipio cuyo planeamiento permite vivienda aislada en suelo no urbanizable de preservación, se solicita autorización para una vivienda habitual en una parcela de 10.000 m², sin afección de protección, de la que el 55 % se destina a usos agrarios no constructivos. El titular obtuvo hace cuatro años autorización para construir otra vivienda en suelo no urbanizable. ¿Qué consecuencia establece el artículo 115?",
     "o": [
-      "25 %",
-      "40 %",
-      "50 %",
-      "60 %"
+      "No puede promoverla, porque obtuvo otra autorización de vivienda en suelo no urbanizable dentro de los cinco años anteriores.",
+      "No puede promoverla, porque la superficie mínima ha de superar los 10.000 m² aunque el uso agrario alcance el 55 %.",
+      "Puede promoverla, porque una autorización anterior solo impide otra vivienda en la misma parcela.",
+      "Puede promoverla, porque el destino agrario superior al 50 % elimina el límite de autorizaciones anteriores."
     ],
-    "c": 2,
-    "exp": "El artículo 115.2 LFOTU establece que la superficie mínima de la parcela para construir viviendas aisladas en suelo no urbanizable no será inferior a 10.000 metros cuadrados y deberá utilizarse, en el porcentaje que se fije reglamentariamente o por el planeamiento municipal, que no será inferior al 50 %, para actividades o usos agrarios, pecuarios o forestales no constructivos. Las demás opciones modifican el porcentaje mínimo."
+    "c": 0,
+    "exp": "Art. 115.1, 115.2 y 115.6 DFL 1/2017: la parcela iguala la superficie mínima legal de 10.000 m² y supera el mínimo agrario del 50 %, suponiendo que el planeamiento no haya elevado esos umbrales. Sin embargo, quien obtuvo autorización para otra vivienda en suelo no urbanizable en los cinco años anteriores no puede promover una nueva. La restricción alcanza asimismo a miembros de su unidad familiar y no depende de que sea la misma parcela."
   },
   {
     "id": "E30-12",
     "tema": "E30",
-    "q": "El artículo 117.4 del Título III del TRLFOTU establece que la ejecución o puesta en marcha de la actividad autorizada en suelo no urbanizable deberá realizarse en el plazo máximo de dos años desde que se otorgara la autorización. ¿Qué efecto tiene el transcurso de ese plazo sin ejecución?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, transcurren dos meses desde la solicitud de una actividad autorizable en suelo no urbanizable sin que el Ayuntamiento remita el expediente al Departamento competente. El promotor presenta directamente su solicitud ante ese Departamento, que tampoco comunica acto alguno al Ayuntamiento durante los dos meses siguientes. ¿Qué efectos prevé el artículo 117.1?",
     "o": [
-      "La autorización queda prorrogada automáticamente por un año más.",
-      "La autorización agota automáticamente sus efectos y deviene ineficaz.",
-      "Se impone una multa coercitiva del 10 % del presupuesto de la actividad.",
-      "El ayuntamiento debe iniciar el procedimiento de expropiación forzosa."
+      "El promotor puede acudir directamente al Departamento; el silencio posterior de este supone autorización estimada.",
+      "El promotor debe reiterar su petición al Ayuntamiento; el silencio posterior del Departamento supone autorización denegada.",
+      "El promotor debe reiterar su petición al Ayuntamiento; el silencio posterior del Departamento supone autorización estimada.",
+      "El promotor puede acudir directamente al Departamento; el silencio posterior de este supone autorización denegada."
     ],
-    "c": 1,
-    "exp": "El artículo 117.4 LFOTU dispone que la ejecución o puesta en marcha de la actividad deberá realizarse en el plazo máximo de dos años desde que se otorgara la autorización, transcurrido el cual esta agotará automáticamente sus efectos y devendrá ineficaz. Las demás opciones no corresponden al efecto legal previsto."
+    "c": 3,
+    "exp": "Art. 117.1.b y 117.1.c DFL 1/2017: si el Ayuntamiento no remite el expediente en dos meses, el interesado puede solicitar directamente la autorización ante el Departamento competente en ordenación del territorio y urbanismo. Transcurridos dos meses sin que el Departamento comunique acto alguno al Ayuntamiento, la autorización se entiende denegada."
   },
   {
     "id": "E30-13",
     "tema": "E30",
-    "q": "Según el artículo 128 del Título III del TRLFOTU, en el procedimiento previo a la expropiación por incumplimiento de deberes urbanísticos, tras las alegaciones, la Administración concederá un plazo para subsanar las causas que motivaron el expediente. ¿Cuál es la duración de ese plazo?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la Administración ofrece a un expropiado un precio de 200.000 € y este lo acepta dentro del plazo concedido en el expediente de justiprecio. En una expropiación distinta se acuerda, antes de la fijación administrativa definitiva, satisfacer el justiprecio mediante terrenos de valor equivalente. ¿Qué tratamiento corresponde conforme al artículo 125.3 y 125.4?",
     "o": [
-      "No inferior a quince días ni superior a un mes.",
-      "No inferior a un mes ni superior a dos meses.",
-      "No inferior a un mes ni superior a tres meses.",
-      "No inferior a dos meses ni superior a cuatro meses."
+      "Pago de 200.000 € en la aceptación del precio; en el pago mediante terrenos se añade un 5 % del valor.",
+      "Pago de 210.000 € en la aceptación del precio; en el pago mediante terrenos se añade un 5 % del valor.",
+      "Pago de 210.000 € en la aceptación del precio; en el pago mediante terrenos no se aplica el incremento del 5 %.",
+      "Pago de 200.000 € en la aceptación del precio; en el pago mediante terrenos no se aplica el incremento del 5 %."
     ],
     "c": 2,
-    "exp": "El artículo 128.2 LFOTU establece que, a la vista de las alegaciones formuladas, la Administración concederá un plazo no inferior a un mes ni superior a tres para subsanar las causas que motivaron el expediente en las condiciones que se señalen. Las otras opciones alteran los límites del plazo."
+    "exp": "Art. 125.3 y 125.4 DFL 1/2017: la aceptación del precio ofrecido por la Administración dentro del plazo concedido en el expediente da derecho a cobrarlo incrementado en un 5 %, por lo que 200.000 € pasan a 210.000 €. Cuando, por acuerdo con el expropiado, el justiprecio se paga mediante terrenos o aprovechamiento de valor equivalente, no se aplica ese incremento."
   },
   {
     "id": "E30-14",
     "tema": "E30",
-    "q": "Conforme al artículo 126.5 del Título III del TRLFOTU, el Jurado de Expropiación de Navarra decidirá ejecutoriamente sobre el justo precio en el plazo máximo de cuatro meses. ¿Qué consecuencia tiene el transcurso de ese plazo sin resolución y notificación?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el Jurado de Expropiación de Navarra está integrado por cinco miembros. Según el artículo 126.3, ¿qué asistencia se exige para constituirse válidamente y adoptar acuerdos en primera y segunda convocatoria?",
     "o": [
-      "Se entenderá estimada la solicitud contenida en las hojas de aprecio de los propietarios.",
-      "Se entenderá desestimada la solicitud contenida en las hojas de aprecio formuladas por los propietarios.",
-      "El expediente se remitirá automáticamente al Tribunal Superior de Justicia de Navarra.",
-      "El justiprecio se fijará definitivamente por el valor catastral del inmueble."
+      "En primera convocatoria, todos sus miembros; en segunda, el Presidente y dos Vocales.",
+      "En primera convocatoria, cuatro de sus miembros; en segunda, el Presidente y dos Vocales.",
+      "En primera convocatoria, todos sus miembros; en segunda, el Presidente y un Vocal.",
+      "En primera convocatoria, cuatro de sus miembros; en segunda, el Presidente y tres Vocales."
     ],
-    "c": 1,
-    "exp": "El artículo 126.5 LFOTU dispone que el Jurado de Expropiación de Navarra decidirá ejecutoriamente sobre el justo precio que corresponda a los bienes y derechos objeto de la expropiación en el plazo máximo de cuatro meses. Transcurrido este plazo sin resolución y notificación, se entenderá desestimada la solicitud contenida en las hojas de aprecio formuladas por los propietarios. Las demás opciones no se ajustan al precepto."
+    "c": 0,
+    "exp": "Art. 126.2 y 126.3 DFL 1/2017: el Jurado está formado por cinco miembros; para su válida constitución y adopción de acuerdos se exige que asistan todos en primera convocatoria y el Presidente más dos Vocales en segunda. No basta un Vocal en la segunda ni cuatro miembros en la primera."
   },
   {
     "id": "E30-15",
     "tema": "E30",
-    "q": "Según el artículo 113.2 del Título III del TRLFOTU, las actividades industriales o terciarias autorizables en suelo no urbanizable de preservación están sujetas al deber de adjudicación al ayuntamiento del aprovechamiento correspondiente al 10 % del incremento de valor de los terrenos afectados. ¿En qué momento debe cumplirse este deber?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la Administración inicia la fase previa a una expropiación por incumplimiento de deberes urbanísticos. ¿Cuál es la secuencia de audiencia, subsanación y efectos del cumplimiento que establece el artículo 128?",
     "o": [
-      "Con carácter previo a la solicitud de autorización ante el Departamento competente.",
-      "Una vez concedida la autorización y previo al inicio de cualquier actuación.",
-      "Simultáneamente a la finalización de las obras de urbanización.",
-      "En el momento de la inscripción de la edificación en el Registro de la Propiedad."
+      "Quince días para alegar y entre uno y tres meses para subsanar; si se subsana, continúa igualmente la expropiación.",
+      "Quince días para alegar y entre uno y tres meses para subsanar; si se subsana, se incoa expediente sancionador en sustitución de la expropiación.",
+      "Treinta días para alegar y entre uno y tres meses para subsanar; si se subsana, se incoa expediente sancionador en sustitución de la expropiación.",
+      "Quince días para alegar y entre dos y cuatro meses para subsanar; si se subsana, se incoa expediente sancionador en sustitución de la expropiación."
     ],
     "c": 1,
-    "exp": "El artículo 113.2 LFOTU establece que estas actuaciones estarán sujetas al deber de adjudicación al ayuntamiento del aprovechamiento correspondiente al 10 % del incremento de valor de los terrenos afectados, una vez concedida la autorización y previo al inicio de cualquier actuación. Las demás opciones sitúan el cumplimiento del deber en momentos no previstos en el precepto."
+    "exp": "Art. 128.1 a 128.4 DFL 1/2017: se notifican al propietario y, en su caso, al promotor los hechos de incumplimiento con quince días para alegaciones. A la vista de estas, se concede entre uno y tres meses para subsanar. Si no se subsana, comienza el expediente expropiatorio; si se cumple lo requerido, se incoa expediente sancionador, sustitutorio de la expropiación."
   },
 
   // ---------- TEMA 31 ESPECÍFICO · TRLFOTU IV — EJECUCIÓN DEL PLANEAMIENTO (E31) ----------
