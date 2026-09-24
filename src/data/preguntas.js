@@ -6730,115 +6730,115 @@ export const PREGUNTAS = [
     "exp": "El Anejo 1, punto 1, establece que si los almacenamientos se realizan en naves abiertas o al descubierto, la instalación deberá contar con una cuneta o sistema equivalente de manera que la totalidad de las aguas de escorrentía del recinto se recojan y se conduzcan a una balsa para su decantación previa a su vertido en cauce público. Las demás alternativas describen finalidades distintas (infiltración directa, riego, vertido a saneamiento sin tratamiento) que no se corresponden con el requisito técnico establecido."
   },
    
-    // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) (E29) · 15 preguntas originales revisadas ----------
+    // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) · revisión en curso ----------
   {
     "id": "E29-01",
     "tema": "E29",
-    "q": "Conforme al artículo 7.2 del DFL 1/2017, ¿cuál es el período mínimo de participación ciudadana mediante exposición pública al que debe someterse cualquier instrumento de ordenación territorial o urbanística antes de su aprobación definitiva?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una modificación de planeamiento plantea una actuación de nueva urbanización. Conforme al artículo 7.3, ¿en qué momento debe realizarse el proceso de participación ciudadana de carácter consultivo?",
     "o": [
-      "Un período mínimo de quince días.",
-      "Un período mínimo de veinte días.",
-      "Un período mínimo de un mes.",
-      "Un período mínimo de dos meses."
+      "Después de la aprobación inicial y antes de abrir la información pública.",
+      "Tras la información pública y antes de la aprobación provisional.",
+      "Con carácter previo a la aprobación inicial del instrumento.",
+      "Después de la aprobación provisional y antes de la definitiva."
     ],
-    "c": 1,
-    "exp": "Art. 7.2 DFL 1/2017: cualquier instrumento de ordenación territorial o urbanística debe someterse a un período no menor de veinte días de participación ciudadana mediante exposición pública y, en su caso, audiencia a las entidades locales, antes de su aprobación definitiva."
+    "c": 2,
+    "exp": "Art. 7.3 del DFL 1/2017: las modificaciones de planeamiento que plantean nueva urbanización requieren un proceso de participación consultivo ANTERIOR a la aprobación inicial. El mínimo general de participación antes de la aprobación definitiva del art. 7.2 no sustituye aquel trámite."
   },
   {
     "id": "E29-02",
     "tema": "E29",
-    "q": "Una persona solicita información territorial y urbanística a la Administración competente. Si la ordenanza reguladora de la cédula urbanística no establece un plazo menor, ¿cuál es el plazo máximo para resolver la solicitud?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se solicita información territorial y urbanística a la Administración competente. Conforme al artículo 8, ¿cuál de las siguientes circunstancias NO constituye, por sí misma, causa legal para denegar la información?",
     "o": [
-      "Un plazo máximo de quince días.",
-      "Un plazo máximo de un mes.",
-      "Un plazo máximo de dos meses.",
-      "Un plazo máximo de tres meses."
+      "Que quien la solicita no acredite un interés particular en el expediente.",
+      "Que el contenido solicitado incluya datos personales confidenciales.",
+      "Que la petición se refiera a documentos o datos todavía inconclusos.",
+      "Que la solicitud formulada tenga carácter manifiestamente abusivo."
     ],
-    "c": 2,
-    "exp": "Art. 8.3 DFL 1/2017: las solicitudes de información territorial y urbanística deben resolverse en el plazo máximo de dos meses, salvo que la Ordenanza reguladora de la cédula urbanística establezca uno menor."
+    "c": 0,
+    "exp": "Arts. 8.1, 8.2.b, 8.2.c y 8.4 del DFL 1/2017: el derecho de acceso no exige acreditar interés determinado. La confidencialidad de datos personales, los documentos inconclusos y las solicitudes manifiestamente abusivas sí son supuestos de denegación; la resolución denegatoria ha de motivarse."
   },
   {
     "id": "E29-03",
     "tema": "E29",
-    "q": "Según el artículo 14.2, además de los representantes de la Administración de la Comunidad Foral que se designen, ¿cuántos representantes de los Ayuntamientos de Navarra forman parte de la Comisión de Ordenación del Territorio a propuesta de la Federación Navarra de Municipios y Concejos?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se comparan las funciones y la naturaleza de los órganos de ordenación territorial regulados en los artículos 14 y 15. ¿Qué correspondencia resulta correcta?",
     "o": [
-      "Cuatro representantes.",
-      "Tres representantes.",
-      "Cinco representantes.",
-      "Seis representantes."
+      "La Comisión es participativa y deliberante; el Consejo Social es consultivo y coordinador.",
+      "La Comisión es consultiva y coordinadora; el Consejo Social tiene funciones ejecutivas.",
+      "La Comisión tiene funciones ejecutivas; el Consejo Social es consultivo y coordinador.",
+      "La Comisión es consultiva y coordinadora; el Consejo Social es participativo y deliberante."
     ],
-    "c": 0,
-    "exp": "Art. 14.2 DFL 1/2017: forman parte de la Comisión cuatro representantes de los Ayuntamientos de Navarra, a propuesta de la Federación Navarra de Municipios y Concejos, además de los representantes de la Administración de la Comunidad Foral que se designen."
+    "c": 3,
+    "exp": "Arts. 14.1 y 15.1 del DFL 1/2017: la Comisión de Ordenación del Territorio es el órgano consultivo y de coordinación de la Administración foral. El Consejo Social de Política Territorial es participativo y deliberante; no se atribuye carácter ejecutivo a ninguno."
   },
   {
     "id": "E29-04",
     "tema": "E29",
-    "q": "¿Qué carácter tienen los informes que emite el Consejo Social de Política Territorial sobre la Estrategia Territorial de Navarra, los Planes de Ordenación Territorial y los Planes de Acción Territorial?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, unos particulares pretenden definir mediante convenio de gestión todos los detalles de la urbanización de una unidad de ejecución, apartándose de los sistemas de actuación legales. Según el artículo 25.3, ¿qué requisitos deben concurrir?",
     "o": [
-      "Potestativos y vinculantes.",
-      "Potestativos y no vinculantes.",
-      "Preceptivos y vinculantes.",
-      "Preceptivos y no vinculantes."
+      "Responsabilidad parcial de la urbanización y conformidad de todos los propietarios afectados.",
+      "Responsabilidad completa de la urbanización y conformidad de todos los propietarios afectados.",
+      "Responsabilidad completa de la urbanización y conformidad de la mayoría de propietarios.",
+      "Responsabilidad parcial de la urbanización y conformidad de la mayoría de propietarios."
     ],
-    "c": 3,
-    "exp": "Art. 15.2 DFL 1/2017: el Consejo Social de Política Territorial emite informes preceptivos y no vinculantes sobre, entre otros instrumentos, la Estrategia Territorial de Navarra, los Planes de Ordenación Territorial y los Planes de Acción Territorial."
+    "c": 1,
+    "exp": "Art. 25.3 del DFL 1/2017: los particulares deben asumir la completa responsabilidad de la urbanización y contar con la conformidad de TODOS los propietarios afectados para definir íntegramente su ejecución, apartándose incluso de los sistemas de actuación legalmente regulados."
   },
   {
     "id": "E29-05",
     "tema": "E29",
-    "q": "Una determinación de un instrumento de ordenación territorial modifica directamente el régimen jurídico aplicable a unos terrenos y prevalece sobre una previsión contraria del planeamiento local. ¿Cómo la clasifica el artículo 29.1?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un instrumento territorial contiene una determinación calificada como vinculante para la planificación. ¿Qué efectos establece el artículo 29.1.b?",
     "o": [
-      "Determinación orientativa de actuación pública.",
-      "Determinación vinculante sobre el territorio.",
-      "Determinación vinculante para la planificación.",
-      "Determinación urbanística de carácter pormenorizado."
+      "No se aplica de inmediato al terreno, pero obliga al elaborar y modificar la planificación local.",
+      "Se aplica de inmediato al terreno y desplaza las previsiones municipales incompatibles.",
+      "Orienta la planificación municipal, que puede apartarse de ella por su carácter no vinculante.",
+      "Produce efectos al ejecutar los planes vigentes, pero no obliga durante su elaboración."
     ],
-    "c": 1,
-    "exp": "Art. 29.1.a DFL 1/2017: las determinaciones vinculantes sobre el territorio tienen aplicación directa e inmediata sobre los terrenos y, como determinaciones de ordenación territorial, prevalecen sobre las previsiones contrarias del planeamiento local."
+    "c": 0,
+    "exp": "Art. 29.1.b del DFL 1/2017: las determinaciones vinculantes PARA LA PLANIFICACIÓN carecen de aplicación directa e inmediata, pero obligan al elaborar, aprobar y modificar el planeamiento local. La aplicación directa y la prevalencia sobre el planeamiento contrario corresponden a las vinculantes SOBRE EL TERRITORIO; las orientativas no vinculan."
   },
   {
     "id": "E29-06",
     "tema": "E29",
-    "q": "Tras la elaboración, información pública e informes previstos en el artículo 33, ¿qué órgano aprueba la Estrategia Territorial de Navarra?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se tramita la Estrategia Territorial de Navarra. De acuerdo con el artículo 33, ¿qué combinación de órgano aprobatorio y responsable de la memoria cuatrienal de seguimiento es correcta?",
     "o": [
-      "El Gobierno de Navarra, mediante decreto foral.",
-      "El titular del Departamento competente, mediante orden foral.",
-      "El Parlamento de Navarra, tras la remisión del proyecto.",
-      "La Comisión de Ordenación del Territorio, mediante acuerdo."
+      "Aprobación por el Gobierno de Navarra; memoria por el Consejo Social de Política Territorial.",
+      "Aprobación por el Parlamento de Navarra; memoria por la Comisión de Ordenación del Territorio.",
+      "Aprobación por el Parlamento de Navarra; memoria por el Consejo Social de Política Territorial.",
+      "Aprobación por el Gobierno de Navarra; memoria por la Comisión de Ordenación del Territorio."
     ],
     "c": 2,
-    "exp": "Art. 33.5 DFL 1/2017: la Estrategia Territorial de Navarra se aprueba por el Parlamento de Navarra. El titular del Departamento competente propone al Gobierno su remisión al Parlamento, pero la aprobación corresponde a este último."
+    "exp": "Arts. 33.5, 33.6 y 33.7 del DFL 1/2017: el Parlamento de Navarra aprueba la Estrategia; el Consejo Social realiza un seguimiento anual y remite cada cuatro años al Gobierno y al Parlamento la memoria sobre su aplicación y vigencia."
   },
   {
     "id": "E29-07",
     "tema": "E29",
-    "q": "En la elaboración de un Plan de Ordenación Territorial, ¿qué plazo mínimo de información pública y audiencia a las entidades locales establece el artículo 36.2 para el avance y para el proyecto?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se tramitan simultáneamente el avance de un Plan de Ordenación Territorial (POT) y el proyecto de un Plan de Acción Territorial (PAT). Según los artículos 36.2 y 40.2, ¿qué plazos mínimos de información pública y audiencia les corresponden, respectivamente?",
     "o": [
-      "Dos meses para el avance y un mes para el proyecto.",
-      "Un mes para el avance y dos meses para el proyecto.",
-      "Dos meses tanto para el avance como para el proyecto.",
-      "Un mes tanto para el avance como para el proyecto."
+      "Un mes para el avance del POT y un mes para el proyecto del PAT.",
+      "Dos meses para el avance del POT y un mes para el proyecto del PAT.",
+      "Dos meses para el avance del POT y dos meses para el proyecto del PAT.",
+      "Un mes para el avance del POT y dos meses para el proyecto del PAT."
     ],
     "c": 3,
-    "exp": "Art. 36.2 DFL 1/2017: tanto el avance como el proyecto del Plan de Ordenación Territorial se someten a información pública y a audiencia de las entidades locales incluidas en su ámbito por un plazo mínimo de un mes."
+    "exp": "Arts. 36.2 y 40.2 del DFL 1/2017: el avance y el proyecto del POT requieren cada uno un mínimo de un mes de información pública y audiencia; el proyecto del PAT requiere dos meses como mínimo."
   },
   {
     "id": "E29-08",
     "tema": "E29",
-    "q": "Se pretende alterar un Plan de Ordenación Territorial sin adoptar un modelo territorial sustancialmente distinto y sin limitarse a incorporar contenidos de actualización. ¿Qué tramitación corresponde según el artículo 37?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se alteran determinaciones de un Plan de Ordenación Territorial sin sustituir su modelo territorial ni limitarse a incorporar contenidos de actualización. Según el artículo 37, ¿qué figura y procedimiento corresponden?",
     "o": [
-      "Modificación, sin que sea necesaria la fase de avance.",
-      "Revisión, con las mismas fases de elaboración y aprobación.",
-      "Actualización, aprobada por el Gobierno mediante decreto foral.",
-      "Modificación, con avance previo sometido a información pública."
+      "Una revisión, siguiendo la tramitación ordinaria pero prescindiendo de la fase de avance.",
+      "Una actualización, que debe aprobar el Gobierno mediante decreto foral.",
+      "Una modificación, siguiendo la tramitación ordinaria sin necesidad de fase de avance.",
+      "Una revisión, que exige las fases de avance y proyecto de la elaboración inicial."
     ],
-    "c": 0,
-    "exp": "Art. 37.4 y 37.6 DFL 1/2017: fuera de los supuestos de revisión y actualización, la alteración se considera modificación; se tramita conforme al procedimiento del artículo 36, pero no es necesaria la fase de avance."
+    "c": 2,
+    "exp": "Arts. 37.2 a 37.7 del DFL 1/2017: la sustitución sustancial de modelo determina revisión; completar información o análisis es actualización; las demás alteraciones son modificaciones. La modificación sigue el art. 36 SIN fase de avance."
   },
   {
     "id": "E29-09",
     "tema": "E29",
-    "q": "Los Planes de Acción Territorial concretan y programan actuaciones sectoriales derivadas de un Plan de Ordenación Territorial. ¿Qué horizonte de programación establece el artículo 39.1.b para dichas actuaciones?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los Planes de Acción Territorial concretan y programan actuaciones sectoriales derivadas de un Plan de Ordenación Territorial. ¿Qué horizonte de programación establece el artículo 39.1.b para dichas actuaciones?",
     "o": [
       "Un horizonte de cuatro años.",
       "Un horizonte de seis años.",
@@ -6851,7 +6851,7 @@ export const PREGUNTAS = [
   {
     "id": "E29-10",
     "tema": "E29",
-    "q": "En un Plan Sectorial de Incidencia Supramunicipal de iniciativa particular, ¿qué garantía mínima exige el artículo 43.3.b respecto del coste de implantación de servicios y ejecución de las obras de urbanización?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en un Plan Sectorial de Incidencia Supramunicipal de iniciativa particular, ¿qué garantía mínima exige el artículo 43.3.b respecto del coste de implantación de servicios y ejecución de las obras de urbanización?",
     "o": [
       "El 4 % del coste evaluado.",
       "El 6 % del coste evaluado.",
@@ -6864,7 +6864,7 @@ export const PREGUNTAS = [
   {
     "id": "E29-11",
     "tema": "E29",
-    "q": "Un municipio de 8.000 habitantes prevé una actuación con incremento de 9 viviendas. Según el artículo 54.1.b, ¿qué regla resulta aplicable al estándar de vivienda protegida?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un municipio de 8.000 habitantes prevé una actuación con incremento de 9 viviendas. Según el artículo 54.1.b, ¿qué regla resulta aplicable al estándar de vivienda protegida?",
     "o": [
       "Reserva del 20 %, reducible o eliminable por mayoría simple si el incremento no supera 25 viviendas.",
       "Reserva del 50 %, reducible o eliminable por mayoría simple si el incremento no supera 3 viviendas.",
@@ -6877,7 +6877,7 @@ export const PREGUNTAS = [
   {
     "id": "E29-12",
     "tema": "E29",
-    "q": "Con carácter de sistema general, ¿qué reserva mínima para espacios libres públicos establece el artículo 55.3.a respecto de la capacidad total máxima de los suelos urbanos y urbanizables?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, con carácter de sistema general, ¿qué reserva mínima para espacios libres públicos establece el artículo 55.3.a respecto de la capacidad total máxima de los suelos urbanos y urbanizables?",
     "o": [
       "5 m² por habitante o 15 m² por cada 100 m² construidos de uso residencial.",
       "5 m² por habitante o 20 m² por cada 100 m² construidos de uso residencial.",
@@ -6890,7 +6890,7 @@ export const PREGUNTAS = [
   {
     "id": "E29-13",
     "tema": "E29",
-    "q": "Un Plan Parcial necesita ajustar la delimitación del sector para mejorar su ordenación y ejecución. Sin alterar otras determinaciones estructurantes, ¿qué margen máximo admite el artículo 60.3?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Plan Parcial necesita ajustar la delimitación del sector para mejorar su ordenación y ejecución. Sin alterar otras determinaciones estructurantes, ¿qué margen máximo admite el artículo 60.3?",
     "o": [
       "Una diferencia de superficie de hasta el 2 % del ámbito.",
       "Una diferencia de superficie de hasta el 3 % del ámbito.",
@@ -6903,7 +6903,7 @@ export const PREGUNTAS = [
   {
     "id": "E29-14",
     "tema": "E29",
-    "q": "Un Plan Especial de Actuación Urbana plantea una actuación integrada de regeneración o renovación y necesita suelo no urbanizable para ubicar dotaciones públicas e infraestructuras. ¿Qué límite establece el artículo 61.3 para la nueva urbanización mediante reclasificación?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Plan Especial de Actuación Urbana plantea una actuación integrada de regeneración o renovación y necesita suelo no urbanizable para ubicar dotaciones públicas e infraestructuras. ¿Qué límite establece el artículo 61.3 para la nueva urbanización mediante reclasificación?",
     "o": [
       "Hasta el 5 % de la superficie total del ámbito.",
       "Hasta el 8 % de la superficie total del ámbito.",
@@ -6916,7 +6916,7 @@ export const PREGUNTAS = [
   {
     "id": "E29-15",
     "tema": "E29",
-    "q": "¿Qué plazo de información pública establece el artículo 74.b para la tramitación de un Estudio de Detalle desde la publicación del anuncio de su aprobación inicial en el Boletín Oficial de Navarra?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿Qué plazo de información pública establece el artículo 74.b para la tramitación de un Estudio de Detalle desde la publicación del anuncio de su aprobación inicial en el Boletín Oficial de Navarra?",
     "o": [
       "Un período de diez días.",
       "Un período de quince días.",
@@ -6926,7 +6926,7 @@ export const PREGUNTAS = [
     "c": 3,
     "exp": "Art. 74.b DFL 1/2017: el período de información pública de los Estudios de Detalle es de veinte días desde la publicación del anuncio de la aprobación inicial en el Boletín Oficial de Navarra."
   },
-   
+
   // ---------- TEMA 33 ESPECÍFICO · LFOTU VI, MERCADO DEL SUELO (E33) ----------
    {
     "id": "E33-01",
