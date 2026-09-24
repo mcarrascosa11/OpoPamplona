@@ -6749,10 +6749,10 @@ export const PREGUNTAS = [
     "tema": "E29",
     "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una persona solicita información territorial y urbanística a la Administración competente. Conforme al artículo 8, ¿qué combinación reproduce correctamente el régimen general de acceso y resolución?",
     "o": [
-      "Debe acreditar un interés legítimo y la solicitud se resolverá en un plazo máximo de un mes.",
+      "No debe acreditar un interés determinado y la solicitud se resolverá en un plazo máximo de un mes, salvo que la ordenanza establezca uno menor.",
       "No debe acreditar un interés determinado y la solicitud se resolverá en un plazo máximo de dos meses, salvo que la ordenanza de la cédula urbanística establezca uno menor.",
-      "No debe acreditar un interés determinado y la solicitud se resolverá en un plazo máximo de tres meses, salvo ampliación motivada.",
-      "Debe acreditar interés cuando solicite expedientes urbanísticos y la resolución denegatoria no agota la vía administrativa."
+      "Debe acreditar un interés legítimo y la solicitud se resolverá en un plazo máximo de dos meses, salvo que la ordenanza establezca uno menor.",
+      "No debe acreditar un interés determinado y la solicitud se resolverá en un plazo máximo de dos meses, salvo que la ordenanza establezca uno mayor."
     ],
     "c": 1,
     "exp": "Art. 8.1, 8.3 y 8.5 DFL 1/2017: todas las personas pueden acceder a la información territorial y urbanística sin acreditar un interés determinado; el plazo máximo de resolución es de dos meses salvo que la ordenanza reguladora de la cédula urbanística establezca uno menor, y las resoluciones denegatorias agotan la vía administrativa."
@@ -6905,10 +6905,10 @@ export const PREGUNTAS = [
     "tema": "E29",
     "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Plan Parcial pretende introducir cambios respecto del Plan General Municipal. ¿Cuál de las siguientes actuaciones permite el artículo 60.3?",
     "o": [
-      "Modificar cualquier determinación estructurante cuando el ajuste mejore la ordenación del sector.",
+      "Ajustar la delimitación del sector hasta un 3 % si mejora su ordenación y ejecución, pero mantener sin cambios todas las determinaciones pormenorizadas.",
       "Ajustar la delimitación del sector hasta un 3 % si mejora su ordenación y ejecución, y modificar determinaciones pormenorizadas justificando su congruencia con la ordenación estructurante.",
-      "Ajustar la delimitación del sector hasta un 5 % y modificar las determinaciones estructurantes vinculadas al aprovechamiento.",
-      "Modificar la clasificación del suelo sin límite de superficie siempre que no se alteren las determinaciones pormenorizadas."
+      "Ajustar la delimitación del sector hasta un 5 % si mejora su ordenación y ejecución, y modificar determinaciones pormenorizadas justificando su congruencia con la ordenación estructurante.",
+      "Ajustar la delimitación del sector hasta un 3 % y modificar otras determinaciones estructurantes siempre que se mantenga el aprovechamiento global."
     ],
     "c": 1,
     "exp": "Art. 60.3 DFL 1/2017: los Planes Parciales no pueden modificar determinaciones estructurantes, salvo el ajuste de delimitación del sector que mejore su ordenación y ejecución y no suponga una diferencia superior o inferior al 3 % del ámbito, con la modificación de clasificación que proceda. Sí pueden modificar determinaciones pormenorizadas si justifican su congruencia con la ordenación estructurante."
@@ -6918,10 +6918,10 @@ export const PREGUNTAS = [
     "tema": "E29",
     "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué combinación describe correctamente una especialidad de los Planes Especiales de Actuación Urbana y una regla de tramitación de los Estudios de Detalle, conforme a los artículos 61.3 y 74?",
     "o": [
-      "El PEAU integrado puede reclasificar suelo no urbanizable hasta el 10 % del ámbito para dotaciones e infraestructuras; el Estudio de Detalle tiene veinte días de información pública desde el anuncio de la aprobación inicial.",
-      "El PEAU integrado puede reclasificar suelo no urbanizable hasta el 15 % del ámbito para dotaciones e infraestructuras; el Estudio de Detalle tiene un mes de información pública.",
-      "El PEAU integrado puede reclasificar suelo no urbanizable hasta el 10 % del ámbito para cualquier uso lucrativo; el Estudio de Detalle tiene dos meses de información pública.",
-      "El PEAU integrado no puede reclasificar suelo no urbanizable; el Estudio de Detalle se somete a información pública durante veinte días desde su aprobación definitiva."
+      "El PEAU integrado puede reclasificar hasta el 10 % del ámbito para dotaciones e infraestructuras; el Estudio de Detalle tiene veinte días de información pública desde el anuncio de la aprobación inicial.",
+      "El PEAU integrado puede reclasificar hasta el 15 % del ámbito para dotaciones e infraestructuras; el Estudio de Detalle tiene veinte días de información pública desde el anuncio de la aprobación inicial.",
+      "El PEAU integrado puede reclasificar hasta el 10 % del ámbito para dotaciones e infraestructuras; el Estudio de Detalle tiene un mes de información pública desde el anuncio de la aprobación inicial.",
+      "El PEAU integrado puede reclasificar hasta el 10 % del ámbito para cualquier uso lucrativo; el Estudio de Detalle tiene veinte días de información pública desde el anuncio de la aprobación inicial."
     ],
     "c": 0,
     "exp": "Arts. 61.3 y 74.b DFL 1/2017: un PEAU de regeneración o renovación integrada puede regular nueva urbanización mediante reclasificación de suelo no urbanizable necesario para dotaciones públicas e infraestructuras, hasta un máximo del 10 % de la superficie del ámbito. El Estudio de Detalle tiene veinte días de información pública desde la publicación del anuncio de su aprobación inicial en el BON."
