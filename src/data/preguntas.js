@@ -5056,10 +5056,10 @@ export const PREGUNTAS = [
     "tema": "E31",
     "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Ayuntamiento obtiene terrenos dotacionales mediante ocupación directa. Sigue sin aprobarse definitivamente el instrumento de redistribución de la unidad de ejecución donde deben materializarse los derechos de los afectados. ¿Qué combinación de plazos establece el artículo 189 para ocupar tras la notificación y para iniciar el expediente de justiprecio por ministerio de la Ley?",
     "o": [
-      "La ocupación requiere un mes desde la notificación; tras tres años desde ella sin redistribución aprobada, puede solicitarse el justiprecio, que se inicia seis meses después de la solicitud.",
-      "La ocupación requiere un mes desde la notificación; tras cuatro años desde ella sin redistribución aprobada, puede solicitarse el justiprecio, que se inicia seis meses después de la solicitud.",
-      "La ocupación requiere quince días desde la notificación; tras cuatro años desde ella sin redistribución aprobada, puede solicitarse el justiprecio, que se inicia seis meses después de la solicitud.",
-      "La ocupación requiere un mes desde la notificación; tras cuatro años desde ella sin redistribución aprobada, puede solicitarse el justiprecio, que se inicia tres meses después de la solicitud."
+      "La ocupación requiere un mes desde la notificación; tras tres años desde la ocupación sin redistribución aprobada, puede solicitarse el justiprecio, que se inicia seis meses después de la solicitud.",
+      "La ocupación requiere un mes desde la notificación; tras cuatro años desde la ocupación sin redistribución aprobada, puede solicitarse el justiprecio, que se inicia seis meses después de la solicitud.",
+      "La ocupación requiere quince días desde la notificación; tras cuatro años desde la ocupación sin redistribución aprobada, puede solicitarse el justiprecio, que se inicia seis meses después de la solicitud.",
+      "La ocupación requiere un mes desde la notificación; tras cuatro años desde la ocupación sin redistribución aprobada, puede solicitarse el justiprecio, que se inicia tres meses después de la solicitud."
     ],
     "c": 1,
     "exp": "Art. 189.2.b) y 189.4 del DFL 1/2017: la ocupación directa solo puede practicarse una vez transcurrido un mes desde la notificación a los interesados. Si transcurren cuatro años DESDE LA OCUPACIÓN sin aprobación definitiva del instrumento de redistribución, los afectados pueden pedir al Ayuntamiento el inicio del expediente de justiprecio; este se lleva a cabo por ministerio de la Ley una vez transcurridos seis meses desde esa solicitud."
