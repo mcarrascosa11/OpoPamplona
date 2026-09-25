@@ -10690,6 +10690,9 @@ export const RESUMENES = {
           "RESERVA DOTACIONAL SUPRAMUNICIPAL (art. 55.6): en sectores de suelo urbanizable de uso predominante residencial, reserva de suelo no inferior a 3 M² POR CADA 100 M² CONSTRUIDOS de uso residencial, con CONDICIÓN DE SOLAR, calificada para vivienda protegida y alojamientos dotacionales, con edificabilidad no inferior al 7 % DE LA EDIFICABILIDAD TOTAL DEL SECTOR. Esta edificabilidad NO computa para la adjudicación de aprovechamiento al ayuntamiento, ni se suma para el aprovechamiento máximo del sector, ni genera reservas dotacionales",
           "Si la parcela resultante de esa reserva tuviera superficie IGUAL O INFERIOR A 300 M², pasa a formar parte del PATRIMONIO DEL MUNICIPIO, que deberá destinarla a dotaciones públicas (art. 55.6)",
           "La superficie de equipamiento EDUCATIVO O DE SALUD se concreta en función de las necesidades de la política educativa o sanitaria foral, mediante informe PREVIO A LA APROBACIÓN PROVISIONAL del Plan General Municipal (art. 55.5)",
+          "MENOS DE 500 HABITANTES (art. 55.3): el Departamento puede exceptuar la reserva de espacios libres de sistema general; las dotaciones locales residenciales pueden reducirse MOTIVADAMENTE. No son exenciones automáticas",
+          "APARCAMIENTO EN USO INDUSTRIAL O SERVICIOS: no existe módulo general fijo en el art. 55.4; se determina por actividad, tipología y planes de movilidad. Las parcelas o edificabilidad destinadas a aparcamiento NO GENERAN nuevas reservas dotacionales",
+          "SUELO URBANO en actuaciones de dotación o renovación/reforma (art. 55.7): los módulos son REFERENCIA OBLIGADA, pero el planeamiento puede ajustarlos razonadamente según necesidades colectivas y calidad urbana funcional",
         ],
       },
       {
@@ -10759,11 +10762,11 @@ export const RESUMENES = {
       "PORMENORIZADA: alineaciones y rasantes, condiciones de parcela y edificación, usos pormenorizados, sistemas locales, fuera de ordenación, unidades de ejecución y sistemas de actuación, plazos, catálogo, áreas de reparto",
       "Vivienda protegida: 50 % Comarca de Pamplona y municipios ≥ 10.000 hab · 35 % entre 2.000 y 10.000 · 20 % por debajo de 2.000",
       "Dispensa por número de viviendas: ≤ 3 (tramo 50 %) · ≤ 10 (tramo 35 %) · ≤ 25 (tramo 20 %)",
-      "Al menos el 60 % de las protegidas deben ser VPO (el 100 % si son 3 o menos); con 10 o más VPO, el 30 % en alquiler",
-      "Espacios libres: 5 m²/habitante o 15 m²/100 m² construidos como SISTEMA GENERAL · 20 m²/100 m² y mínimo 10 % del sector como DOTACIÓN LOCAL",
-      "Dotaciones locales en urbanizable residencial: 50 m² por cada 115 m² construidos · Polígonos industriales: 10 % a grandes zonas verdes",
-      "Aparcamiento: 2 plazas/100 m² en colectiva o 3 plazas/vivienda en unifamiliar; 0,5 plazas por vivienda en espacio público",
-      "Reserva dotacional supramunicipal: 3 m²/100 m² construidos, con edificabilidad ≥ 7 % del sector; si la parcela ≤ 300 m², pasa al patrimonio municipal",
+      "VPO: al menos 60 % del total de protegidas (100 % si son ≤ 3); si resultan ≥ 10 VPO en municipios de los tramos 50 % y 35 %, al menos el 30 % de dichas VPO serán de ALQUILER (art. 54.4)",
+      "Art. 55.3: SISTEMA GENERAL 5 m²/HABITANTE o 15 m²/100 m² residenciales · DOTACIÓN LOCAL 50 m²/115 m² residenciales, con zona verde ≥ 20 m²/100 m² residenciales Y ≥ 10 % del sector (AMBOS)",
+      "Art. 55.3: industrial/servicios ≥ 10 % DEL SECTOR para GRANDES ZONAS VERDES · núcleos < 500 hab.: excepción potestativa SG y reducción MOTIVADA de dotaciones locales",
+      "Art. 55.4: COLECTIVA ≥ 2 plazas/100 m² edificados sobre rasante (cualquier uso, sin garajes) · UNIFAMILIAR ≥ 3 plazas/vivienda · USO PÚBLICO ≥ 0,5 plazas/vivienda Y ≥ 0,5 plazas/100 m² de COMERCIAL/TERCIARIO · ajustes de plazas públicas EXIGEN estudio de movilidad",
+      "Art. 55.6: SUPRAMUNICIPAL residencial ≥ 3 m² suelo/100 m² edificados residenciales y edificabilidad ≥ 7 % DEL SECTOR; su edificabilidad no computa en aprovechamiento ni genera dotaciones; parcela resultante ≤ 300 m² → patrimonio municipal para dotaciones públicas",
       "El PGM ordena pormenorizadamente SOLO el urbano consolidado; criterios generales para el resto",
       "El Plan Parcial no toca lo estructurante, salvo ajuste del sector de hasta el 3 %",
       "El Estudio de Detalle no incrementa el aprovechamiento ni altera las condiciones de los PREDIOS COLINDANTES",
@@ -10775,14 +10778,491 @@ export const RESUMENES = {
   "memorizacion": {
   "tablas": [
     {
-      "titulo": "Estándares mínimos de reserva de vivienda protegida según población (art. 54 LFOTU)",
-      "columnas": ["Población del municipio", "Porcentaje mínimo de nueva capacidad residencial", "Reducción o exención por número de viviendas", "Posibilidad de reducción por inviabilidad"],
-      "filas": [
-        ["Comarca de Pamplona o ≥ 10.000 habitantes", "50 %", "Si el incremento de viviendas es ≤ 3, el Pleno puede reducir o eliminar la exigencia por mayoría simple", "Tras 4 años desde la publicación de la aprobación definitiva del Plan Municipal, el Pleno puede solicitar reducir hasta el 30 %, previo informe del departamento de vivienda"],
-        ["≥ 2.000 y < 10.000 habitantes", "35 %", "Si el incremento de viviendas es ≤ 10, el Pleno puede reducir o eliminar la exigencia por mayoría simple", "Tras 4 años desde la publicación de la aprobación definitiva del Plan Municipal, el Pleno puede solicitar reducir hasta el 10 %, previo informe del departamento de vivienda"],
-        ["< 2.000 habitantes", "20 %", "Si el incremento de viviendas es ≤ 25, el Pleno puede reducir o eliminar la exigencia por mayoría simple", "No se prevé reducción adicional por inviabilidad"]
+      "titulo": "ART. 54 · Vivienda protegida: porcentaje, ámbito, actuaciones y excepciones",
+      "columnas": [
+        "Ámbito municipal",
+        "Reserva mínima",
+        "Actuaciones incluidas",
+        "Reducción o eliminación por pocas viviendas",
+        "Reducción por inviabilidad"
       ],
-      "nota": "Fuente: art. 54.1 del texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo (Decreto Foral Legislativo 1/2017). Los porcentajes se aplican sobre la nueva capacidad residencial prevista en actuaciones de nueva urbanización, dotación, sustitución y renovación o reforma de la urbanización. La reducción o eliminación por número de viviendas requiere acuerdo del Pleno por mayoría simple. La reducción por inviabilidad requiere justificación objetiva y ha transcurrido al menos cuatro años desde la publicación en el BON de la aprobación definitiva del Plan Municipal; el departamento competente en vivienda emite informe estimando o desestimando y fija el nuevo porcentaje."
+      "filas": [
+        [
+          "Comarca de Pamplona (con independencia de su población)",
+          "50 % del incremento de viviendas",
+          "Nueva urbanización · dotación · sustitución · reforma o renovación de urbanización",
+          "Si el incremento es ≤ 3 viviendas: acuerdo del Pleno por mayoría simple",
+          "NO cabe la reducción por inviabilidad hasta el 30 % prevista para otros municipios"
+        ],
+        [
+          "Resto de municipios con población prevista ≥ 10.000 hab.",
+          "50 % del incremento de viviendas",
+          "Nueva urbanización · dotación · sustitución · reforma o renovación de urbanización",
+          "Si el incremento es ≤ 3 viviendas: acuerdo del Pleno por mayoría simple",
+          "Puede solicitarse llegar hasta el 30 % si se acredita inviabilidad objetiva y han transcurrido ≥ 4 años desde la publicación de la aprobación definitiva del Plan Municipal"
+        ],
+        [
+          "Municipios de 2.000 a 9.999 hab. fuera de la Comarca de Pamplona",
+          "35 % del incremento de viviendas",
+          "Nueva urbanización · dotación · reforma o renovación de urbanización; NO incluye sustitución",
+          "Si el incremento es ≤ 10 viviendas: acuerdo del Pleno por mayoría simple",
+          "Puede solicitarse llegar hasta el 10 % si se acredita inviabilidad objetiva y han transcurrido ≥ 4 años desde la publicación de la aprobación definitiva del Plan Municipal"
+        ],
+        [
+          "Municipios de < 2.000 hab. fuera de la Comarca de Pamplona",
+          "20 % del incremento de viviendas",
+          "Nueva urbanización · reforma o renovación de urbanización; NO incluye dotación ni sustitución",
+          "Si el incremento es ≤ 25 viviendas: acuerdo del Pleno por mayoría simple",
+          "El artículo 54.1.c no contempla esta reducción adicional"
+        ]
+      ],
+      "nota": "Art. 54.1 LFOTU. La población se determina teniendo en cuenta las previsiones del planeamiento y los municipios de la Comarca de Pamplona se incluyen expresamente en el régimen del 50 %. La reducción por inviabilidad de los tramos del 50 % (excepto Comarca) y 35 % requiere solicitud por mayoría simple del Pleno al departamento competente en vivienda, informe favorable de este y fijación del porcentaje según el estudio; no es automática. En todos los tramos, la dispensa por número de viviendas requiere acuerdo del Pleno por mayoría simple. En actuaciones de dotación/sustitución, respetar también la regla del art. 54.4.c."
+    },
+    {
+      "titulo": "ART. 54 · Distribución interna de vivienda protegida y regla de localización",
+      "columnas": [
+        "Supuesto",
+        "Dato o condición",
+        "Precisión"
+      ],
+      "filas": [
+        [
+          "Distribución ordinaria VPO",
+          "≥ 60 % del total de viviendas protegidas",
+          "No es el 60 % de todas las viviendas libres y protegidas del sector (54.4.a)"
+        ],
+        [
+          "Número de viviendas protegidas ≤ 3",
+          "100 % deben ser VPO",
+          "Sustituye la proporción ordinaria del 60 % (54.4.a)"
+        ],
+        [
+          "En tramos 50 % y 35 %, si resultan ≥ 10 VPO",
+          "≥ 30 % de esas VPO deben destinarse a ARRENDAMIENTO",
+          "No se establece este deber numérico para el tramo < 2.000 hab. del 20 % (54.4.b)"
+        ],
+        [
+          "Ubicación de la vivienda protegida",
+          "Regla general: misma zona o área de reparto",
+          "Fuera de ella, justificación socio-urbanística y aprobación de sus determinaciones PREVIA o SIMULTÁNEA a las de vivienda libre (54.3)"
+        ],
+        [
+          "Sustitución edificatoria",
+          "Incremento = nuevas cédulas de habitabilidad – cédulas anteriores",
+          "Se aplica aunque se mantenga el uso urbanístico preexistente (54.2)"
+        ],
+        [
+          "Dotación o sustitución en edificios con mayoría de viviendas protegidas",
+          "Las viviendas nuevas deben ser del mismo tipo de protección mayoritario",
+          "Mientras la mayoría preexistente esté sujeta a la limitación de precios de venta y renta (54.4.c)"
+        ]
+      ],
+      "nota": "Complementa la tabla de porcentajes poblacionales: reservar 50/35/20 % no equivale a que todas esas viviendas sean VPO. El 60 % (o el 100 % en promociones de ≤ 3 protegidas) se aplica DENTRO del conjunto protegido; el 30 % de alquiler se aplica a las VPO resultantes bajo las condiciones de los apartados 1.a y 1.b."
+    },
+    {
+      "titulo": "ART. 55.3 Y 55.6 · Módulos de espacios libres, dotaciones y reserva supramunicipal",
+      "columnas": [
+        "Ámbito y reserva",
+        "Módulo mínimo",
+        "Base del cálculo y aplicación",
+        "Matiz imprescindible"
+      ],
+      "filas": [
+        [
+          "Sistema general de espacios libres públicos",
+          "5 m²/habitante O 15 m²/100 m² construidos de uso residencial",
+          "Superficie útil conjunta; capacidad total máxima de los suelos urbanos y urbanizables",
+          "El Departamento puede exceptuar núcleos de < 500 habitantes (55.3.a)"
+        ],
+        [
+          "Dotaciones públicas LOCALES en sectores con urbanizable residencial",
+          "50 m²/115 m² construidos de uso residencial",
+          "Independientes de los sistemas generales que estén dentro del sector",
+          "Las cesiones pueden reducirse motivadamente en núcleos de < 500 habitantes (55.3.b)"
+        ],
+        [
+          "Zonas verdes y espacios libres DENTRO de la dotación local residencial",
+          "≥ 20 m²/100 m² construidos de uso residencial Y ≥ 10 % de la superficie total del sector",
+          "Deben cumplirse AMBOS mínimos simultáneamente; no computar los sistemas generales incluidos",
+          "Forman parte de los 50 m²/115 m² de dotación local; no son una reserva adicional independiente (55.3.b)"
+        ],
+        [
+          "Polígonos INDUSTRIALES o de SERVICIOS: grandes zonas verdes",
+          "≥ 10 % de la superficie total del sector",
+          "Reservar grandes zonas verdes integradas en la ordenación",
+          "Evitar localizarlas acumuladas en espacios residuales o marginales (55.3.c)"
+        ],
+        [
+          "Dotación SUPRAMUNICIPAL en sectores urbanizables predominantemente residenciales",
+          "≥ 3 m² de suelo/100 m² construidos de uso residencial",
+          "Terrenos con condición de solar para vivienda protegida y alojamientos dotacionales",
+          "Reserva diferenciada de los sistemas generales y de las dotaciones locales (55.6)"
+        ],
+        [
+          "Edificabilidad de la dotación supramunicipal",
+          "≥ 7 % de la edificabilidad TOTAL del sector",
+          "La suma de edificabilidades de estas parcelas debe alcanzar este mínimo",
+          "NO computa en la cesión obligatoria de aprovechamiento al Ayuntamiento, aprovechamiento máximo del sector ni nuevas reservas dotacionales (55.6)"
+        ],
+        [
+          "Parcela resultante de reserva supramunicipal ≤ 300 m²",
+          "Pasa al patrimonio del municipio",
+          "El Ayuntamiento debe destinarla a DOTACIONES PÚBLICAS",
+          "El umbral incluye exactamente 300 m²; no se aplica automáticamente a una parcela mayor (55.6)"
+        ]
+      ],
+      "nota": "Fuente: art. 55.3.a–c y 55.6 del TXT E29, contrastados con el texto consolidado del DFL 1/2017. No confundir el 10 % del sector de zonas verdes locales residenciales con el 10 % de grandes zonas verdes de los polígonos industriales: la base coincide, pero el ámbito y las otras condiciones son distintos."
+    },
+    {
+      "titulo": "ART. 55.4 · Aparcamientos: módulos de residencial, espacio público, comercial e industrial",
+      "columnas": [
+        "Ámbito o supuesto",
+        "Módulo / criterio",
+        "Base exacta",
+        "Condiciones y excepciones"
+      ],
+      "filas": [
+        [
+          "Suelo urbanizable o urbano no consolidado, residencial COLECTIVA",
+          "≥ 2 plazas/100 m²",
+          "Edificación de CUALQUIER USO sobre rasante; descontar superficies destinadas a garajes",
+          "Mínimo general de la previsión de aparcamientos en edificación colectiva"
+        ],
+        [
+          "Sectores residenciales de edificación UNIFAMILIAR",
+          "≥ 3 plazas/VIVIENDA",
+          "Por número de viviendas; descontar los espacios destinados a garajes en los términos del art. 55.4",
+          "No confundir con las 2 plazas/100 m² de edificación colectiva"
+        ],
+        [
+          "Espacios o edificios de USO PÚBLICO: componente residencial",
+          "≥ 0,5 plazas/VIVIENDA",
+          "Por el número de viviendas",
+          "Es un mínimo de ubicación pública; no sustituye por sí solo al módulo general"
+        ],
+        [
+          "Espacios o edificios de USO PÚBLICO: usos comercial y terciario",
+          "≥ 0,5 plazas/100 m²",
+          "Superficie de usos comerciales y terciarios",
+          "Debe contemplarse además del componente por viviendas cuando concurran ambos usos"
+        ],
+        [
+          "Posible ajuste del aparcamiento de uso público",
+          "Dotación MAYOR O MENOR que la fijada",
+          "Administración que aprueba definitivamente la ordenación pormenorizada, atendiendo al contexto, movilidad sostenible y transporte público",
+          "Requiere INDISPENSABLEMENTE un estudio de movilidad conforme a los criterios de la Administración competente"
+        ],
+        [
+          "Suelo urbanizable o urbano no consolidado INDUSTRIAL o de SERVICIOS",
+          "Sin cifra general fija en el art. 55.4",
+          "Según tipología de parcelas y actividades y los planes de movilidad sostenible",
+          "El Gobierno de Navarra puede fijar módulos por decreto foral; grandes establecimientos comerciales: máxima intensidad de uso simultáneo"
+        ],
+        [
+          "Parcelas o edificabilidad específicamente destinadas a APARCAMIENTO",
+          "NO generan reservas de dotaciones públicas",
+          "Aparcamiento en superficie o edificabilidad para aparcamiento dentro de edificios",
+          "No añadir ese uso a la base para exigir nuevas reservas dotacionales"
+        ]
+      ],
+      "nota": "Fuente: art. 55.4 LFOTU. Los mínimos en espacios o edificios de uso público son dos componentes distintos: 0,5 plazas/vivienda y 0,5 plazas/100 m² de usos comerciales y terciarios. La posibilidad de adaptar el aparcamiento público requiere estudio de movilidad; el artículo no fija una cifra uniforme para usos industriales."
+    },
+    {
+      "titulo": "ART. 55 · Ámbitos, excepciones y reglas de cómputo que cambian el resultado",
+      "columnas": [
+        "Supuesto",
+        "Regla a memorizar",
+        "Artículo"
+      ],
+      "filas": [
+        [
+          "Núcleo de población < 500 habitantes; espacios libres como sistema general",
+          "El Departamento competente PUEDE exceptuar el mínimo general de 5 m²/hab. o 15 m²/100 m²; no es exención automática.",
+          "55.3.a"
+        ],
+        [
+          "Núcleo de población < 500 habitantes; dotaciones locales residenciales",
+          "Las cesiones locales PUEDEN reducirse MOTIVADAMENTE; no desaparecen de oficio.",
+          "55.3.b"
+        ],
+        [
+          "Sistemas generales ubicados dentro de un sector urbanizable residencial",
+          "No se computan para satisfacer el mínimo LOCAL de 50 m²/115 m² ni el 10 % de zonas verdes locales.",
+          "55.3.b"
+        ],
+        [
+          "Ampliaciones de suelo posteriores a la aprobación del PGM",
+          "Deben mantener la proporción mínima de reservas de dotaciones locales prevista para el sector.",
+          "55.3.b"
+        ],
+        [
+          "Equipamiento polivalente en suelo urbanizable o urbano no consolidado industrial/de servicios",
+          "El planeamiento de ordenación pormenorizada fija y justifica la superficie; el artículo NO establece un módulo numérico.",
+          "55.3.c"
+        ],
+        [
+          "Equipamiento EDUCATIVO o SANITARIO",
+          "La superficie se concreta según política educativa o sanitaria foral mediante informe previo a la aprobación PROVISIONAL del PGM.",
+          "55.5"
+        ],
+        [
+          "Reserva supramunicipal: condiciones urbanísticas y cómputo",
+          "Edificación con condiciones similares a las parcelas del entorno; su edificabilidad NO computa en cesión de aprovechamiento, máximo del sector ni otras reservas dotacionales.",
+          "55.6"
+        ],
+        [
+          "Suelo URBANO con actuaciones de DOTACIÓN o de REFORMA/RENOVACIÓN",
+          "Los módulos del artículo son referencia obligada, pero el planeamiento de desarrollo puede ajustarlos razonada y ponderadamente a las necesidades colectivas y calidad urbana funcional.",
+          "55.7"
+        ]
+      ],
+      "nota": "Separar las excepciones por población del art. 55.3 de la flexibilidad para actuaciones en suelo urbano del art. 55.7. En urbanizable residencial, distinguir dotación LOCAL (50/115 y zonas verdes 20/100 + 10 %) y SUPRAMUNICIPAL (3/100 + 7 %)."
+    },
+    {
+      "titulo": "E29 · Otros porcentajes y umbrales fundamentales del Título II",
+      "columnas": [
+        "Instrumento o figura",
+        "Dato",
+        "Supuesto y matiz",
+        "Artículo"
+      ],
+      "filas": [
+        [
+          "Comisión de Ordenación del Territorio",
+          "4 representantes municipales",
+          "A propuesta de la Federación Navarra de Municipios y Concejos",
+          "14.2"
+        ],
+        [
+          "Apoyo económico, técnico y administrativo autonómico",
+          "Municipios de < 2.000 hab.",
+          "Entre los supuestos de cooperación reforzada establecidos",
+          "20"
+        ],
+        [
+          "Estrategia Territorial de Navarra",
+          "Seguimiento ANUAL y memoria cada 4 AÑOS",
+          "Consejo Social al Gobierno y al Parlamento sobre aplicación, cumplimiento y revisión",
+          "33.6–7"
+        ],
+        [
+          "Plan de Acción Territorial",
+          "Programación a 8 AÑOS",
+          "Actuaciones individualizadas, costes y coordinación",
+          "39.1.b"
+        ],
+        [
+          "PSIS: cesión de aprovechamiento",
+          "10 % del aprovechamiento lucrativo susceptible de tráfico inmobiliario",
+          "A los Ayuntamientos en proporción a superficie incluida, libre de cargas; no cuenta dotación/equipamiento público",
+          "43.2"
+        ],
+        [
+          "PSIS de iniciativa PARTICULAR",
+          "Garantía ≥ 6 %",
+          "Coste de implantación de servicios y ejecución de urbanización",
+          "43.3.b"
+        ],
+        [
+          "Proyecto Sectorial de iniciativa PARTICULAR",
+          "Garantía ≥ 6 %",
+          "Coste de implantación de servicios y ejecución de urbanización, conforme al TXT",
+          "44.3.b"
+        ],
+        [
+          "Plan Parcial: ajuste de la delimitación de un sector",
+          "Hasta ± 3 % de su superficie",
+          "Solo si mejora su ordenación y ejecución; puede modificar ordenación pormenorizada sin alterar otras determinaciones estructurantes",
+          "60.3"
+        ],
+        [
+          "PEAU de regeneración/renovación integrada",
+          "Hasta 10 % de superficie total del ámbito",
+          "Nueva urbanización mediante reclasificación de suelo no urbanizable NECESARIO para dotaciones públicas e infraestructuras",
+          "61.3"
+        ],
+        [
+          "Obras con demanda energética reducida",
+          "≥ 30 % de DEMANDA ANUAL de calefacción o refrigeración",
+          "Determinados efectos de ocupación/aprovechamiento de espacios del PEAU; comprobar clase de obra",
+          "62.7.b"
+        ],
+        [
+          "Centralización/instalaciones comunes y renovables",
+          "≥ 30 % de CONSUMO ANUAL de energía PRIMARIA NO RENOVABLE",
+          "Obras e instalaciones comprendidas en el apartado b.3",
+          "62.7.b.3"
+        ],
+        [
+          "Obras en zonas comunes o viviendas",
+          "≥ 30 % del CONSUMO DE AGUA del conjunto del edificio",
+          "Supuesto del apartado b.4, en el contexto del 62.7.b",
+          "62.7.b.4"
+        ],
+        [
+          "PGM en municipios de población ≤ 3.000 hab.",
+          "Documentación de Estrategia/Modelo y Plan Urbanístico SIMPLIFICADA",
+          "No supone ausencia de estos instrumentos",
+          "59.1–3"
+        ]
+      ],
+      "nota": "Estos umbrales se han contrastado con el TXT E29. El 3 % del Plan Parcial se refiere al AJUSTE de superficie del sector, y el 10 % del PEAU integrado se refiere a suelo no urbanizable reclasificable para dotaciones/infraestructuras; no son porcentajes intercambiables."
+    },
+    {
+      "titulo": "E29 · Plazos de tramitación, suspensión y vigencia que conviene memorizar",
+      "columnas": [
+        "Trámite",
+        "Plazo o duración",
+        "Desde cuándo / condición",
+        "Artículo"
+      ],
+      "filas": [
+        [
+          "Participación genérica de cualquier instrumento",
+          "≥ 20 DÍAS",
+          "Exposición pública antes de su aprobación definitiva",
+          "7.2"
+        ],
+        [
+          "Acceso a información urbanística",
+          "≤ 2 MESES",
+          "Solicitud; la ordenanza de cédula urbanística puede prever uno menor",
+          "8.3"
+        ],
+        [
+          "Comunicaciones forales a otras Administraciones afectadas",
+          "10 DÍAS",
+          "Desde la adopción de acuerdos",
+          "19.a"
+        ],
+        [
+          "Estrategia Territorial: información pública y audiencia",
+          "≥ 2 MESES",
+          "Proyecto antes de aprobación por el Parlamento",
+          "33.2"
+        ],
+        [
+          "POT: información pública y audiencia del AVANCE y del PROYECTO",
+          "≥ 1 MES CADA UNO",
+          "Dos fases diferenciadas; aprobación del POT por Gobierno mediante decreto foral",
+          "36.2 y 36.6"
+        ],
+        [
+          "Plan de Acción Territorial: información pública y audiencia",
+          "≥ 2 MESES",
+          "Proyecto; aprobación por Gobierno mediante decreto foral",
+          "40.2 y 40.5"
+        ],
+        [
+          "PSIS: información pública tras declaración de incidencia",
+          "≥ 1 MES",
+          "Con audiencia simultánea a Ayuntamientos afectados",
+          "45.2.d"
+        ],
+        [
+          "PSIS privado: silencio por falta de resolución",
+          "4 MESES, DENEGATORIO",
+          "Desde entrada del expediente COMPLETO en registro",
+          "45.3"
+        ],
+        [
+          "PSIS: falta de inicio o interrupción sin fuerza mayor",
+          "2 AÑOS",
+          "Desde aprobación definitiva sin iniciar; o interrupción > 2 años tras inicio",
+          "46.1–2"
+        ],
+        [
+          "Suspensión POT/PGM de licencias antes de aprobación inicial",
+          "Máximo 1 AÑO",
+          "Desde acuerdo previo de suspensión; si la inicial llega después, puede haber otro año",
+          "70.3"
+        ],
+        [
+          "Suspensión de licencias por aprobación inicial SIN suspensión previa",
+          "Máximo 2 AÑOS",
+          "Desde aprobación inicial; finaliza antes si se aprueba definitivamente el plan",
+          "70.3"
+        ],
+        [
+          "Nueva suspensión de licencias por idéntica finalidad",
+          "Prohibida durante 3 AÑOS",
+          "Tras extinguirse la anterior suspensión",
+          "70.4"
+        ],
+        [
+          "PGM: exposición pública de Estrategia/Modelo y después de Plan Urbanístico",
+          "≥ 1 MES CADA FASE",
+          "El Plan Urbanístico se tramita una vez aprobada la Estrategia/Modelo",
+          "71.4 y 71.8"
+        ],
+        [
+          "PGM: aprobación provisional municipal",
+          "Máximo 6 MESES",
+          "Tras información pública y audiencia; requiere Declaración Ambiental Estratégica",
+          "71.11"
+        ],
+        [
+          "PGM: notificación de aprobación definitiva por Departamento",
+          "3 MESES; silencio APROBATORIO",
+          "Desde ingreso del expediente COMPLETO en registro foral",
+          "71.17"
+        ],
+        [
+          "PGM: texto refundido cuando la aprobación impone determinaciones",
+          "Máximo 3 MESES",
+          "Para incorporar correcciones acordadas por Departamento",
+          "71.16.b"
+        ],
+        [
+          "Planes Parciales y Especiales: información pública",
+          "≥ 1 MES",
+          "Tras aprobación inicial y participación ciudadana exigible",
+          "72.1.a"
+        ],
+        [
+          "Planes Parciales y Especiales privados: aprobación inicial",
+          "2 MESES; silencio APROBATORIO",
+          "Desde documentación completa en registro municipal",
+          "72.1.a"
+        ],
+        [
+          "Planes Parciales y Especiales: aprobación definitiva",
+          "2 MESES; silencio APROBATORIO",
+          "Desde FINALIZACIÓN de la información pública",
+          "72.1.c"
+        ],
+        [
+          "Remisión municipal del Plan Parcial o Especial aprobado",
+          "Máximo 10 DÍAS",
+          "Desde la aprobación definitiva; al Departamento competente",
+          "72.4"
+        ],
+        [
+          "Estudios de Detalle: información pública",
+          "20 DÍAS",
+          "Desde publicación del anuncio de aprobación inicial en BON",
+          "74.b"
+        ],
+        [
+          "Estudios de Detalle: aprobación inicial",
+          "2 MESES",
+          "Desde presentación de documentación completa en registro municipal",
+          "74.c"
+        ],
+        [
+          "Modificación estructurante del PGM",
+          "1 MES información pública; 2 MESES aprobación definitiva foral",
+          "Art. 77.2; sin Estrategia/Modelo preceptivos para esa modificación",
+          "77.2.b,d,e"
+        ],
+        [
+          "Instrucciones Técnicas de Planeamiento",
+          "≥ 1 MES de participación e información",
+          "Antes de su aprobación por orden foral",
+          "83"
+        ]
+      ],
+      "nota": "Fuente: artículos indicados del TXT E29. No convertir los plazos expresados en días en 'hábiles' o 'naturales' si el apartado no lo precisa. La suspensión previa más la derivada de aprobación inicial tiene un máximo conjunto de 2 años desde el acuerdo previo cuando este desemboca en aprobación inicial dentro del primer año (art. 70.3)."
     },
     {
       "titulo": "Plazos de información pública y participación ciudadana en instrumentos de ordenación territorial y urbanística",
