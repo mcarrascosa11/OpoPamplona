@@ -5069,197 +5069,197 @@ export const PREGUNTAS = [
    {
     "id": "E32-01",
     "tema": "E32",
-    "q": "Conforme al artículo 190.2 del Decreto Foral Legislativo 1/2017, ¿cuál de las siguientes actuaciones está sujeta a previa licencia urbanística?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de las siguientes actuaciones está exceptuada de licencia urbanística por estar ya detallada y programada en un proyecto aprobado?",
     "o": [
-      "La corta de arbolado que constituya masa arbórea, espacio boscoso, arbolado o parque, salvo las labores autorizadas por la legislación agraria.",
-      "La demolición de construcciones cuando se haya declarado la situación de ruina inminente.",
-      "Los movimientos de tierra que estén detallados y programados como obras a ejecutar en un proyecto de urbanización aprobado.",
-      "La primera utilización u ocupación de edificios e instalaciones, siempre que se trate de edificios de titularidad municipal."
+      "La demolición de un edificio que no haya sido declarado en ruina inminente.",
+      "La corta de una masa arbórea no autorizada por la legislación agraria.",
+      "Los movimientos de tierra incluidos en un proyecto de urbanización.",
+      "La extracción de áridos prevista en un proyecto de explotación minera."
     ],
-    "c": 0,
-    "exp": "El artículo 190.2.k) sujeta a licencia la corta de arbolado que constituya masa arbórea, espacio boscoso, arbolado o parque, exista o no planeamiento aprobado, con excepción de las labores autorizadas por la legislación agraria. La demolición de construcciones está sujeta a licencia salvo en casos declarados de ruina inminente (art. 190.2.i). Los movimientos de tierra están sujetos a licencia salvo que estén detallados en un proyecto de urbanización o edificación aprobado (art. 190.2.g). La primera utilización u ocupación de edificios está sujeta a licencia con carácter general (art. 190.2.h)."
+    "c": 2,
+    "exp": "El art. 190.2.g exceptúa los movimientos de tierra detallados y programados como obras a ejecutar en un proyecto de urbanización o edificación aprobado. La demolición exige licencia salvo ruina inminente (190.2.i); la excepción para talas se refiere a labores autorizadas por la legislación agraria (190.2.k). La extracción de áridos está sujeta a licencia (190.2.m)."
   },
   {
     "id": "E32-02",
     "tema": "E32",
-    "q": "En un municipio de 3.000 habitantes, ¿cuál es el plazo para solicitar licencia de edificación en actuaciones asistemáticas, en defecto de previsión en el planeamiento, conforme al artículo 193 del Decreto Foral Legislativo 1/2017?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en un municipio de 3.000 habitantes se adquiere el derecho a edificar mediante una actuación asistemática. En defecto de previsión expresa en el planeamiento y sin ampliación justificada, ¿en qué plazo debe solicitarse la licencia de edificación desde que la parcela esté urbanizada conforme al artículo 104?",
     "o": [
-      "Cuatro años desde que se hubiera procedido a la urbanización conforme al artículo 104 de la ley foral.",
-      "Dos años desde que se hubiera procedido a la urbanización conforme al artículo 104 de la ley foral.",
-      "Un año desde que se hubiera procedido a la urbanización conforme al artículo 104 de la ley foral.",
-      "Dos años desde la aprobación definitiva del planeamiento que habilita la actuación."
+      "Un año.",
+      "Dos años.",
+      "Tres años.",
+      "Cuatro años."
     ],
-    "c": 0,
-    "exp": "Según el artículo 193, en defecto de previsión en el planeamiento, el plazo para solicitud de licencia de edificación en actuaciones sistemáticas es de un año en entidades locales de más de cinco mil habitantes y de dos años en entidades de menos de esa población, desde que se hubiera procedido a la urbanización conforme al artículo 104. Los plazos se duplican en el caso de solicitud de licencia de edificación en actuaciones asistemáticas. Por tanto, en un municipio de 3.000 habitantes (menos de 5.000), el plazo para actuaciones asistemáticas es de cuatro años (2 años x 2)."
+    "c": 3,
+    "exp": "El art. 193 duplica, para las actuaciones asistemáticas, los plazos previstos para las sistemáticas en defecto de previsión expresa en el planeamiento. En municipios de menos de 5.000 habitantes el plazo de referencia es de dos años; por tanto, en este caso son cuatro. El cómputo parte de que la parcela esté urbanizada conforme al art. 104, no de la adquisición del terreno."
   },
   {
     "id": "E32-03",
     "tema": "E32",
-    "q": "De acuerdo con el artículo 194.7 del Decreto Foral Legislativo 1/2017, ¿cuál es el plazo máximo para resolver el procedimiento de concesión de licencias urbanísticas y qué efecto tiene el silencio administrativo?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el plazo máximo de dos meses para resolver una licencia urbanística comienza:",
     "o": [
-      "El plazo es de dos meses desde la presentación de la documentación completa en el registro general. Transcurrido dicho plazo sin comunicación, se entiende otorgada la licencia por silencio administrativo, salvo cuando la normativa básica estatal disponga lo contrario.",
-      "El plazo es de tres meses desde la presentación de la solicitud en el registro general. Transcurrido dicho plazo sin comunicación, se entiende denegada la licencia por silencio administrativo negativo.",
-      "El plazo es de dos meses desde la presentación de la documentación completa en el registro general. Transcurrido dicho plazo sin comunicación, se entiende otorgada la licencia por silencio administrativo, sin excepciones.",
-      "El plazo es de un mes desde la presentación de la documentación completa en el registro general. Transcurrido dicho plazo sin comunicación, se entiende otorgada la licencia por silencio administrativo, salvo cuando se disponga lo contrario en la normativa básica estatal."
+      "Con la presentación de la documentación completa en el registro general.",
+      "Con la presentación de la solicitud inicial, aunque deba subsanarse.",
+      "Con la emisión del informe municipal favorable sobre el proyecto.",
+      "Con la recepción del informe de habitabilidad del departamento competente."
     ],
     "c": 0,
-    "exp": "El artículo 194.7 establece que las licencias se resolverán en el plazo máximo de dos meses desde que se presente la documentación completa en el registro general. Transcurrido dicho plazo sin haberse comunicado acto alguno, se entenderá otorgada la licencia por silencio administrativo, salvo cuando se dispusiera lo contrario en la normativa básica estatal. Además, la obtención de licencia por silencio administrativo no podrá vulnerar lo dispuesto en las leyes, los instrumentos de ordenación territorial y los planes urbanísticos de rango superior. Las otras opciones alteran el plazo o el sentido del silencio."
+    "exp": "El art. 194.7 sitúa el inicio del plazo en la presentación de la documentación completa en el registro general. La solicitud incompleta y la emisión de informes no son el momento inicial que fija este precepto. El informe de habitabilidad tiene su propio plazo en el art. 194.4.a."
   },
   {
     "id": "E32-04",
     "tema": "E32",
-    "q": "Según el artículo 197.6 del Decreto Foral Legislativo 1/2017, en el caso de que las licencias no especificaran un plazo de caducidad, ¿cuáles son los plazos mínimos para la ejecución de los actos de edificación y uso del suelo, salvo que el planeamiento prevea otros distintos?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, además de cumplir los requisitos temporales de solicitud, para obtener la prórroga del plazo de finalización de las obras es necesario haber ejecutado, según el proyecto técnico:",
     "o": [
-      "Un año para comenzar las obras y tres años para finalizarlas.",
-      "Dos años para comenzar las obras y cuatro años para finalizarlas.",
-      "Un año para comenzar las obras y dos años para finalizarlas.",
-      "Seis meses para comenzar las obras y dos años para finalizarlas."
+      "La cimentación y la estructura portante.",
+      "La cobertura de aguas del edificio.",
+      "Los cerramientos exteriores y sus carpinterías.",
+      "Las instalaciones generales del edificio."
     ],
-    "c": 0,
-    "exp": "El artículo 197.6 establece que, en el caso de que las licencias no especificaran un plazo de caducidad, los plazos mínimos para la ejecución de los actos de edificación y uso del suelo, salvo que el planeamiento prevea otros distintos, serán: un año para comenzar las obras (letra a) y tres años para finalizar las obras (letra b). Las demás opciones modifican estos plazos sin fundamento en el texto."
+    "c": 1,
+    "exp": "El art. 197.8 exige que se haya hecho la cobertura de aguas del edificio para solicitar y obtener la prórroga de finalización. El hito legal no es la terminación de la estructura, las carpinterías ni las instalaciones. La prórroga para comenzar las obras comporta por sí misma la del plazo para acabarlas."
   },
   {
     "id": "E32-05",
     "tema": "E32",
-    "q": "Conforme al artículo 198.3 del Decreto Foral Legislativo 1/2017, ¿cuál es el número máximo de multas coercitivas que puede imponer el Ayuntamiento para la ejecución de órdenes de ejecución, y cuál es su cuantía?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, incumplida una orden de ejecución y transcurrido el plazo de cumplimiento voluntario de la última multa coercitiva impuesta, el Ayuntamiento estará obligado a:",
     "o": [
-      "Hasta doce multas sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, hasta el límite del deber legal de conservación.",
-      "Hasta diez multas sucesivas por períodos de quince días y en cuantía de 300 a 3.000 euros, sin límite alguno.",
-      "Hasta doce multas sucesivas por períodos de dos meses y en cuantía de 1.000 a 10.000 euros, hasta el límite del deber legal de conservación.",
-      "Hasta quince multas sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, sin límite alguno."
+      "Reiterar la orden, abriendo una nueva serie de multas coercitivas.",
+      "Iniciar la expropiación del inmueble por incumplimiento de su función social.",
+      "Sustituir la orden de ejecución por una sanción de importe equivalente.",
+      "Ejecutar subsidiariamente las obras ordenadas con cargo al obligado."
     ],
-    "c": 0,
-    "exp": "El artículo 198.3 dispone que el incumplimiento de una orden de ejecución faculta al Ayuntamiento para proceder a su ejecución subsidiaria, o para imponer multas coercitivas, hasta doce sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, hasta el límite del deber legal de conservación. Además, transcurrido el plazo de cumplimiento voluntario derivado de la última multa coercitiva impuesta, la Administración actuante estará obligada a ejecutar subsidiariamente las obras ordenadas, con cargo al obligado."
+    "c": 3,
+    "exp": "El art. 198.3 obliga a la ejecución subsidiaria con cargo al obligado una vez transcurrido el plazo de cumplimiento voluntario de la última multa coercitiva. La alternativa inicial entre multas y ejecución subsidiaria no permite prolongar indefinidamente la coerción ni sustituir las obras por una sanción. Este supuesto tampoco impone la expropiación."
   },
   {
     "id": "E32-06",
     "tema": "E32",
-    "q": "Según el artículo 199.2 del Decreto Foral Legislativo 1/2017, ¿en cuál de los siguientes supuestos se declarará el estado ruinoso de una construcción?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, constituye por sí solo uno de los supuestos de declaración de ruina de un edificio:",
     "o": [
-      "Cuando el coste de las obras necesarias sea superior al 50 por 100 del valor actual del edificio o plantas afectadas, excluido el valor del terreno.",
-      "Cuando el coste de las obras necesarias sea superior al 30 por 100 del valor actual del edificio o plantas afectadas, incluido el valor del terreno.",
-      "Cuando el edificio presente un agotamiento generalizado de sus elementos estructurales, siempre que el coste de las obras sea superior al 50 por 100 del valor actual, incluido el terreno.",
-      "Cuando se requiera la realización de obras que pudieran ser autorizadas por encontrarse el edificio en situación de fuera de ordenación."
+      "Que las obras necesarias cuesten exactamente el 50 % de su valor actual, excluido el terreno.",
+      "Que precise obras de conservación estando declarado fuera de ordenación.",
+      "Que presente un agotamiento generalizado de sus elementos estructurales o fundamentales.",
+      "Que incumpla las condiciones de habitabilidad exigidas a los edificios de nueva planta."
     ],
-    "c": 0,
-    "exp": "El artículo 199.2 establece que se declarará el estado ruinoso en los siguientes supuestos: a) cuando el coste de las obras necesarias sea superior al 50 por 100 del valor actual del edificio o plantas afectadas, excluido el valor del terreno; b) cuando el edificio presente un agotamiento generalizado de sus elementos estructurales o fundamentales; y c) cuando se requiera la realización de obras que no pudieran ser autorizadas por encontrarse el edificio en situación de fuera de ordenación. La opción que menciona el 30 % incluye el terreno es incorrecta. La que exige agotamiento generalizado con coste superior al 50 % incluyendo terreno añade un requisito no previsto. La que menciona obras autorizables en fuera de ordenación invierte la condición de la letra c)."
+    "c": 2,
+    "exp": "El art. 199.2.b contempla el agotamiento generalizado de los elementos estructurales o fundamentales. El supuesto económico exige superar el 50 %, no igualarlo. En un edificio fuera de ordenación deben requerirse obras que no puedan autorizarse; la mera necesidad de conservación no basta. El incumplimiento de condiciones propias de nueva planta no es, por sí solo, una causa de ruina del art. 199.2."
   },
   {
     "id": "E32-07",
     "tema": "E32",
-    "q": "De acuerdo con el artículo 202 del Decreto Foral Legislativo 1/2017, cuando se estuvieran ejecutando obras o usos sin licencia o contraviniendo sus condiciones, y las obras fueran compatibles con la ordenación vigente, ¿qué debe hacer la Entidad Local?",
+    "q": "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se paralizan unas obras en curso sin licencia que podrían ser compatibles con la ordenación vigente. Si el requerimiento no fija otro plazo, el interesado deberá solicitar la licencia para legalizarlas en:",
     "o": [
-      "Requerir al interesado para que en el plazo señalado en el requerimiento, o en su defecto de dos meses, solicite la preceptiva licencia o su modificación.",
-      "Decretar inmediatamente la demolición de las obras por su carácter ilegal, sin posibilidad de legalización.",
-      "Requerir al interesado para que en el plazo de un mes solicite la licencia, y si no lo hace, proceder a la expropiación de los terrenos.",
-      "Suspender las obras y dar traslado al Departamento competente en ordenación del territorio para que este resuelva sobre la legalización."
+      "Un mes.",
+      "Dos meses.",
+      "Tres meses.",
+      "Seis meses."
     ],
-    "c": 0,
-    "exp": "El artículo 202.b) establece que si las obras o usos fueran compatibles con la ordenación vigente, se requerirá al interesado para que en el plazo señalado en el requerimiento, o en su defecto, de dos meses, solicite la preceptiva licencia o su modificación. En caso de no proceder la legalización, se decretará la demolición, reconstrucción o cesación definitiva de la obra o del uso en la parte pertinente a costa del interesado. Las otras opciones alteran el plazo, el procedimiento o el órgano competente."
+    "c": 1,
+    "exp": "El art. 202.b establece el plazo señalado en el requerimiento y, en su defecto, dos meses para solicitar la licencia o su modificación. La suspensión inmediata de las obras prevista en el mismo artículo no equivale a una orden automática de demolición: esta dependerá de la incompatibilidad o de que no se obtenga la legalización."
   },
   {
     "id": "E32-08",
     "tema": "E32",
-    "q": "Según el artículo 205 del Decreto Foral Legislativo 1/2017, ¿cuál es el plazo de prescripción de la acción de la Administración para restaurar el orden infringido cuando se trata de actuaciones ilegales sobre bienes de titularidad privada en suelo no urbanizable de protección?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál es el plazo para ejercer las facultades de restauración de la legalidad urbanística sobre terrenos de titularidad privada clasificados como suelo no urbanizable de protección?",
     "o": [
       "Diez años.",
       "Cuatro años.",
-      "No está sujeta a plazo alguno de prescripción.",
-      "Cinco años."
+      "Ocho años.",
+      "Quince años."
     ],
     "c": 0,
-    "exp": "El artículo 205.2 establece que cuando se trate de actuaciones contrarias a la ley foral que se realicen sobre los bienes de titularidad privada en suelo no urbanizable de protección, la acción prescribirá a los diez años. La acción no está sujeta a plazo cuando se trata de bienes de dominio público, viales, zonas verdes, espacios libres o bienes de interés cultural de titularidad pública (art. 205.1). Las otras opciones no se corresponden con el supuesto preguntado."
+    "exp": "El art. 205.2 fija diez años para los terrenos de titularidad privada clasificados como suelo no urbanizable de protección. Debe distinguirse del plazo general de cuatro años para obras terminadas del art. 203 y de la ausencia de plazo del art. 205.1 para los bienes y espacios allí enumerados de titularidad pública. Los ocho años del art. 225 corresponden a la prescripción de infracciones graves."
   },
   {
     "id": "E32-09",
     "tema": "E32",
-    "q": "Conforme al artículo 207 del Decreto Foral Legislativo 1/2017, en relación con la reposición de la realidad física alterada, ¿cuál es el plazo máximo de ampliación que puede solicitar la persona obligada antes de la ejecución forzosa?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una edificación declarada ilegal, con orden administrativa de demolición, obtiene la autorización provisional del artículo 207 durante la tramitación de un nuevo planeamiento. Mientras esa autorización despliegue efectos, se le aplica el régimen de:",
     "o": [
-      "Un período máximo de seis meses, sin que dicho plazo pueda ser objeto de nueva ampliación.",
-      "Un período máximo de tres meses, prorrogable por otros tres meses más.",
-      "Un período máximo de un año, sin posibilidad de nueva ampliación.",
-      "Un período máximo de seis meses, prorrogable por otros seis meses si concurren motivos justificados."
+      "Los edificios conformes con el planeamiento vigente.",
+      "Las actuaciones sujetas a declaración responsable.",
+      "Los edificios fuera de ordenación.",
+      "Los inmuebles sujetos a edificación forzosa."
     ],
-    "c": 0,
-    "exp": "El artículo 207.5 dispone que, en cualquier momento anterior a la ejecución forzosa de una medida de restauración adoptada, la persona obligada podrá instar la ampliación del plazo concedido, por un período máximo de seis meses, para su ejecución con indicación expresa de los motivos que la hacen necesaria. Dicho plazo no podrá ser objeto de nueva ampliación y facultará a la Administración a ordenar la ejecución forzosa de la medida de restauración. Las otras opciones modifican el plazo o añaden prórrogas no previstas."
+    "c": 2,
+    "exp": "El art. 207.7 somete estas edificaciones al régimen de fuera de ordenación mientras despliega efectos la autorización provisional. Esta mantiene la situación existente en las condiciones del art. 207.6; no convierte la construcción en conforme con el planeamiento vigente ni sustituye la legalización por una declaración responsable."
   },
   {
     "id": "E32-10",
     "tema": "E32",
-    "q": "Según el artículo 215.20 del Decreto Foral Legislativo 1/2017, la no paralización de obras en el plazo de setenta y dos horas desde que se reciba el requerimiento suspensivo de la Administración es una infracción grave. ¿Qué consecuencia adicional se prevé a partir del tercer requerimiento incumplido?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de las siguientes conductas está tipificada como infracción urbanística grave?",
     "o": [
-      "La sanción se impondrá en su grado máximo, y el cuarto requerimiento dará lugar al traslado de la conducta del desobediente al Ministerio Fiscal.",
-      "Se procederá a la expropiación forzosa de los terrenos y las obras realizadas.",
-      "Se impondrá una multa coercitiva adicional de 6.000 euros por cada día de retraso.",
-      "Se ordenará la demolición inmediata de las obras sin posibilidad de legalización posterior."
+      "La tala de árboles sin licencia cuando esta sea preceptiva.",
+      "La obstaculización de la labor inspectora urbanística.",
+      "La ejecución de obras de urbanización sin el proyecto exigible.",
+      "La edificación en parcelas inferiores a la mínima edificable."
     ],
-    "c": 0,
-    "exp": "El artículo 215.20, en su párrafo segundo, establece que a partir del tercer requerimiento incumplido, la sanción se impondrá en su grado máximo. El cuarto requerimiento dará lugar al traslado de la conducta del desobediente al Ministerio Fiscal, por si tal actitud fuera constitutiva de delito. Las otras opciones mencionan medidas no previstas específicamente para este supuesto en el precepto."
+    "c": 3,
+    "exp": "El art. 215.9 tipifica como grave la edificación en parcelas inferiores a la mínima establecida. La tala sin licencia, la obstaculización de la inspección y las obras de urbanización sin proyecto se incluyen entre las infracciones leves del art. 214. La clasificación depende del tipo legal, no de la impresión de gravedad que produzca la conducta."
   },
   {
     "id": "E32-11",
     "tema": "E32",
-    "q": "De acuerdo con el artículo 218 del Decreto Foral Legislativo 1/2017, ¿cuál es la cuantía de las multas para las infracciones urbanísticas graves y muy graves?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, caduca un procedimiento sancionador urbanístico y se archivan las actuaciones. Si la infracción todavía no ha prescrito, al incoar un nuevo procedimiento deberá:",
     "o": [
-      "Las graves, de 6.000 a 60.000 euros; las muy graves, de 60.000 a 300.000 euros.",
-      "Las graves, de 3.000 a 30.000 euros; las muy graves, de 30.000 a 150.000 euros.",
-      "Las graves, de 6.000 a 60.000 euros; las muy graves, de 60.000 a 600.000 euros.",
-      "Las graves, de 10.000 a 100.000 euros; las muy graves, de 100.000 a 500.000 euros."
+      "Nombrarse un instructor distinto.",
+      "Mantenerse el instructor del expediente archivado.",
+      "Sustituirse el órgano competente para resolver.",
+      "Solicitarse autorización judicial para la nueva incoación."
     ],
     "c": 0,
-    "exp": "El artículo 218.1 establece las siguientes cuantías: a) las leves, con multa desde 300 hasta 6.000 euros; b) las graves, con multa desde 6.000 hasta 60.000 euros; c) las muy graves, con multa desde 60.000 hasta 300.000 euros. Las otras opciones alteran los límites de las multas."
+    "exp": "El art. 224.3 permite incoar un nuevo procedimiento si la infracción no ha prescrito, pero exige nombrar un instructor distinto. No ordena cambiar el órgano resolutor ni obtener autorización judicial. La caducidad del procedimiento y la prescripción de la infracción son instituciones diferentes."
   },
   {
     "id": "E32-12",
     "tema": "E32",
-    "q": "Según el artículo 221 del Decreto Foral Legislativo 1/2017, en los supuestos de infracción por realización de actividades, construcciones o usos no legalizables, ¿en qué porcentaje se reduce la sanción y qué garantía se exige?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, para obtener la reducción de la sanción por una actuación no legalizable, el compromiso de restaurar el orden infringido debe garantizarse mediante aval. ¿Qué porcentaje del importe de las obras o actuaciones necesarias debe cubrir?",
     "o": [
-      "Se reduce en un 50 por 100 si se abona el resto en un mes, se muestra conformidad renunciando a impugnar y se garantiza la restauración con un aval del 100 por 100 del importe de las obras.",
-      "Se reduce en un 30 por 100 si se abona el resto en dos meses, se muestra conformidad y se garantiza con una fianza del 50 por 100.",
-      "Se reduce en un 50 por 100 si se abona el resto en dos meses, se muestra conformidad renunciando a impugnar y se garantiza con un aval del 50 por 100.",
-      "Se reduce en un 75 por 100 si se abona el resto en un mes, se muestra conformidad y se garantiza con un aval del 100 por 100."
+      "El 30 %.",
+      "El 50 %.",
+      "El 75 %.",
+      "El 100 %."
     ],
-    "c": 0,
-    "exp": "El artículo 221.2 establece que, en los supuestos de infracción por realización de actividades, construcciones o usos no legalizables, la sanción se reducirá en un 50 por 100 de su cuantía cuando se cumplan los siguientes requisitos: a) se abone el resto de la multa en el plazo máximo de un mes contado a partir de la notificación de la sanción; b) el infractor muestre por escrito su conformidad con la sanción impuesta y renuncie expresamente al ejercicio de toda acción de impugnación en el referido plazo; c) el infractor se comprometa a restaurar el orden infringido a su situación inicial en los plazos que le señale la Administración y garantice este compromiso mediante aval por el 100 por 100 del importe de las obras o actuaciones necesarias. Las otras opciones confunden porcentajes, plazos o tipos de garantía con los del apartado 1 (actividades legalizables)."
+    "c": 3,
+    "exp": "El art. 221.2.c exige aval por el 100 % del importe de las obras o actuaciones necesarias. El 50 % es la reducción de la sanción en este supuesto, no la cobertura del aval. Para actuaciones legalizables, el art. 221.1 prevé una reducción del 30 % y una fianza del 50 %, de ahí la necesidad de distinguir ambos regímenes."
   },
   {
     "id": "E32-13",
     "tema": "E32",
-    "q": "Conforme al artículo 225 del Decreto Foral Legislativo 1/2017, ¿cuál es el plazo de prescripción de las infracciones urbanísticas graves y de las sanciones impuestas por infracciones muy graves?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando un acto administrativo haya autorizado una actividad constitutiva de infracción urbanística, el plazo de prescripción comienza a contar:",
     "o": [
-      "Las infracciones graves prescriben a los ocho años; las sanciones por infracciones muy graves prescriben a los cuatro años.",
-      "Las infracciones graves prescriben a los cinco años; las sanciones por infracciones muy graves prescriben a los tres años.",
-      "Las infracciones graves prescriben a los cuatro años; las sanciones por infracciones muy graves prescriben a los dos años.",
-      "Las infracciones graves prescriben a los diez años; las sanciones por infracciones muy graves prescriben a los cinco años."
+      "Desde la terminación material de las obras autorizadas.",
+      "Desde la anulación del acto administrativo que la autorizó.",
+      "Desde la primera inspección que constate la infracción.",
+      "Desde la notificación de la incoación del expediente sancionador."
     ],
-    "c": 0,
-    "exp": "El artículo 225.1 establece que las infracciones urbanísticas muy graves prescribirán a los diez años, las graves a los ocho y las leves a los cuatro años. El artículo 225.5 dispone que las sanciones impuestas por infracciones muy graves prescribirán a los cuatro años, las impuestas por infracciones graves a los dos y por infracciones leves a los seis meses. Las otras opciones confunden los plazos de prescripción de infracciones y sanciones."
+    "c": 1,
+    "exp": "El art. 225.6 establece como inicio la anulación de los actos administrativos que autorizaron las actividades infractoras. Esta regla especial desplaza en ese supuesto el cómputo desde la terminación de las obras del art. 225.4. La inspección y la incoación del expediente no son el momento inicial señalado por el apartado 6."
   },
   {
     "id": "E32-14",
     "tema": "E32",
-    "q": "Según el artículo 251 del Decreto Foral Legislativo 1/2017, ¿qué requisito de acreditación y seguro debe cumplir una entidad privada colaboradora urbanística para poder inscribirse en el Registro de la Comunidad Foral de Navarra?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, si el informe de los servicios técnicos municipales discrepa del emitido por una entidad privada colaboradora urbanística:",
     "o": [
-      "Contar con acreditación de ENAC conforme a la norma UNE-EN ISO/IEC 17020 (entidades de tipo A) y suscribir un seguro de responsabilidad civil por cuantía mínima de 1.000.000 de euros.",
-      "Contar con acreditación de ENAC conforme a la norma UNE-EN ISO 9001 y suscribir un seguro de responsabilidad civil por cuantía mínima de 500.000 de euros.",
-      "Contar con acreditación del Departamento competente en ordenación del territorio y suscribir un seguro de responsabilidad civil por cuantía mínima de 2.000.000 de euros.",
-      "Contar con acreditación de ENAC conforme a la norma UNE-EN ISO/IEC 17020 (entidades de tipo B) y suscribir un seguro de responsabilidad civil por cuantía mínima de 1.000.000 de euros."
+      "Prevalece el informe de la entidad colaboradora por su acreditación técnica.",
+      "Debe resolver la discrepancia la entidad que concedió la acreditación.",
+      "Prevalece el informe de los servicios técnicos municipales.",
+      "Debe emitirse un tercer informe por otra entidad colaboradora."
     ],
-    "c": 0,
-    "exp": "El artículo 251 exige que las entidades privadas colaboradoras urbanísticas cuenten con una acreditación concedida por ENAC en cumplimiento de la norma UNE-EN ISO/IEC 17020 (entidades de tipo A) y que tengan suscrito un seguro de responsabilidad civil por cuantía mínima de 1.000.000 de euros. Las otras opciones modifican la norma de acreditación, el tipo de entidad o la cuantía del seguro."
+    "c": 2,
+    "exp": "El art. 249.6 establece que los informes de los servicios técnicos municipales prevalecen sobre los de las entidades privadas colaboradoras. El carácter equiparable de los efectos de sus certificados no les atribuye autoridad ni permite desplazar el criterio municipal. La ley no remite la discrepancia al acreditador ni exige un tercer informe."
   },
   {
     "id": "E32-15",
     "tema": "E32",
-    "q": "De acuerdo con el artículo 254.3 del Decreto Foral Legislativo 1/2017, ¿cuál de las siguientes conductas constituye una infracción grave de las entidades privadas colaboradoras urbanísticas?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de estas infracciones de una entidad privada colaboradora urbanística está tipificada como grave, sin que concurran perjuicios irreparables ni peligro inminente para personas, bienes o medio ambiente?",
     "o": [
-      "La expedición negligente de actas de comprobación, certificados e informes que contengan datos falsos o inexactos.",
-      "La realización de actividades y funciones sin estar previamente acreditadas e inscritas en el Registro.",
-      "La expedición dolosa de actas de comprobación, certificados e informes que no se ajusten a la realidad de los hechos.",
-      "No comunicar al ayuntamiento las infracciones urbanísticas que pudieran detectar durante sus labores de inspección."
+      "Expedir negligentemente certificados con datos falsos o inexactos.",
+      "Ejercer sus funciones mediante personal técnico no habilitado o no cualificado.",
+      "Obstaculizar las actuaciones de supervisión del órgano administrativo competente.",
+      "Omitir la comunicación al Ayuntamiento de infracciones urbanísticas detectadas."
     ],
     "c": 0,
-    "exp": "El artículo 254.3 tipifica como infracciones graves de las entidades privadas colaboradoras, entre otras, la expedición negligente de actas de comprobación, certificados e informes que contengan datos falsos o inexactos (letra a). La realización de actividades sin acreditación e inscripción (letra a del apartado 2) y la expedición dolosa de actas que no se ajusten a la realidad (letra e del apartado 2) y la no comunicación de infracciones urbanísticas (letra f del apartado 2) están tipificadas como infracciones muy graves."
+    "exp": "El art. 254.3.a califica como grave la expedición negligente de certificados con datos falsos o inexactos. Las otras conductas están tipificadas como muy graves en el art. 254.2. También es muy grave la expedición dolosa de documentos que no se ajusten a la realidad. La salvedad del enunciado excluye la agravación del art. 254.2.g."
   },
 
   // ---------- TEMA 52 ESPECÍFICO · HISTORIA URBANÍSTICA DE PAMPLONA (E52) ----------
@@ -6931,197 +6931,197 @@ export const PREGUNTAS = [
    {
     "id": "E33-01",
     "tema": "E33",
-    "q": "El patrimonio municipal del suelo se configura como un patrimonio separado de los demás bienes de titularidad municipal. ¿A cuál de las siguientes finalidades está vinculado según el artículo 226 del Decreto Foral Legislativo 1/2017?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el patrimonio municipal del suelo tiene la consideración de:",
     "o": [
-      "Regular el mercado de terrenos, obtener reservas de suelo para actuaciones de iniciativa pública y facilitar la ejecución del planeamiento.",
-      "Financiar exclusivamente la construcción de viviendas de protección oficial y equipamientos deportivos municipales.",
-      "Garantizar la reserva de suelo para usos industriales y comerciales que impulsen el desarrollo económico local.",
-      "Constituir una reserva patrimonial para hacer frente a expropiaciones urbanísticas derivadas de sistemas generales."
+      "Un conjunto de bienes demaniales afectos al uso público.",
+      "Un patrimonio separado de los demás bienes de titularidad municipal.",
+      "Una sección del Banco Foral de Suelo Público gestionada por cada Ayuntamiento.",
+      "Un conjunto de bienes patrimoniales de libre disposición municipal."
     ],
-    "c": 0,
-    "exp": "El artículo 226 vincula el patrimonio municipal del suelo a regular el mercado de terrenos, obtener reservas de suelo para actuaciones de iniciativa pública y facilitar la ejecución del planeamiento. Las demás alternativas limitan o desvían esa finalidad a otros destinos no previstos en dicho precepto."
+    "c": 1,
+    "exp": "El art. 226 lo configura como patrimonio separado de los demás bienes municipales, vinculado a regular el mercado de terrenos, obtener reservas para actuaciones públicas y facilitar la ejecución del planeamiento. No es una sección del Banco Foral ni un conjunto de bienes de libre disposición. Su condición de patrimonio separado no equivale a una afectación general al dominio público."
   },
   {
     "id": "E33-02",
     "tema": "E33",
-    "q": "¿Qué bienes integran automáticamente el patrimonio municipal del suelo en todos los municipios, conforme al artículo 227.1?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué bienes se integran automáticamente en el patrimonio municipal del suelo en todos los municipios?",
     "o": [
-      "Los bienes obtenidos por cesiones en terrenos o metálico, las expropiaciones urbanísticas de cualquier clase y los procedentes del ejercicio del derecho de tanteo y retracto.",
-      "Los bienes patrimoniales clasificados por el planeamiento como suelo urbano o urbanizable y los adquiridos por compraventa directa.",
-      "Los terrenos adquiridos mediante expropiación para sistemas generales y los procedentes de la disolución de juntas de compensación.",
-      "Los bienes inmuebles de titularidad municipal no afectados a uso público y los ingresos por multas urbanísticas."
+      "Los terrenos adquiridos mediante expropiaciones urbanísticas de cualquier clase.",
+      "Los bienes patrimoniales municipales clasificados como suelo urbano.",
+      "Los bienes patrimoniales municipales clasificados como suelo urbanizable.",
+      "Los terrenos municipales incluidos en una reserva de posible adquisición."
     ],
     "c": 0,
-    "exp": "El artículo 227.1 establece la integración automática de los bienes por cesiones (terrenos o metálico), expropiaciones urbanísticas de cualquier clase y los procedentes del ejercicio de tanteo y retracto. Las demás opciones no se corresponden con la integración automática regulada en dicho precepto."
+    "exp": "El art. 227.1 incluye automáticamente los bienes obtenidos por cesiones, expropiaciones urbanísticas de cualquier clase y tanteo o retracto. La clasificación urbana o urbanizable de otros bienes patrimoniales no basta: su incorporación requiere acuerdo plenario conforme al art. 227.2. La delimitación de una reserva tampoco es, por sí sola, uno de los títulos de incorporación automática."
   },
   {
     "id": "E33-03",
     "tema": "E33",
-    "q": "En relación con la incorporación de bienes al patrimonio municipal del suelo, ¿qué obligación específica impone el artículo 227.3 a los Ayuntamientos de más de cinco mil habitantes?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la incorporación potestativa al patrimonio municipal del suelo de bienes patrimoniales clasificados como suelo urbano o urbanizable se determina mediante:",
     "o": [
-      "Deberán incluir en su patrimonio público de suelo los terrenos que se adquieran con dicha finalidad, de conformidad con los artículos siguientes.",
-      "Deberán destinar al menos el 30 % de los ingresos municipales ordinarios a la adquisición de suelo para vivienda protegida.",
-      "Deberán constituir un registro contable separado exclusivamente para los bienes adquiridos por expropiación urbanística.",
-      "Deberán ceder obligatoriamente al Banco Foral de Suelo Público los terrenos no urbanizables de preservación."
+      "Resolución de Alcaldía, previo informe de la Intervención municipal.",
+      "Aprobación definitiva del planeamiento que les atribuya esa clasificación.",
+      "Acuerdo de adscripción del departamento foral competente en urbanismo.",
+      "Acuerdo plenario de la entidad local titular de los bienes."
     ],
-    "c": 0,
-    "exp": "El artículo 227.3 impone a los Ayuntamientos de más de 5.000 habitantes la obligación de incluir en su patrimonio público de suelo los terrenos adquiridos con dicha finalidad. Las demás alternativas añaden obligaciones no previstas en dicho apartado."
+    "c": 3,
+    "exp": "El art. 227.2 exige acuerdo plenario de la entidad local titular. Esta incorporación potestativa debe distinguirse de la automática por los títulos del art. 227.1. La clasificación urbanística es un requisito del bien, pero la aprobación del plan no sustituye el acuerdo de incorporación."
   },
   {
     "id": "E33-04",
     "tema": "E33",
-    "q": "El artículo 229.2 establece que el establecimiento o delimitación de reservas de suelo para su incorporación al patrimonio público de suelo implica:",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los Planes Generales Municipales pueden establecer reservas de terrenos de posible adquisición para incorporarlos al patrimonio público de suelo sobre:",
     "o": [
-      "La declaración de utilidad pública y la necesidad de expropiación a efectos expropiatorios.",
-      "La declaración de interés social y la autorización previa del Gobierno de Navarra para cualquier adquisición.",
-      "La sujeción al derecho de tanteo y retracto a favor de la Administración de la Comunidad Foral.",
-      "La desafectación automática del suelo no urbanizable de preservación y su clasificación como urbanizable."
+      "Suelo urbano no consolidado.",
+      "Suelo urbanizable.",
+      "Suelo no urbanizable de preservación.",
+      "Suelo no urbanizable de protección."
     ],
-    "c": 0,
-    "exp": "El artículo 229.2 dispone que el establecimiento o delimitación de estas reservas implica la declaración de utilidad pública y la necesidad de expropiación a efectos expropiatorios. Las demás alternativas no se corresponden con el efecto jurídico señalado en dicho precepto."
+    "c": 2,
+    "exp": "El art. 229.1 sitúa estas reservas municipales en suelo no urbanizable de preservación. No debe confundirse con el art. 235.2, que permite a la Administración Foral establecer reservas para el Banco Foral en suelo no urbanizable sin limitar ese precepto a la categoría de preservación."
   },
   {
     "id": "E33-05",
     "tema": "E33",
-    "q": "Según el artículo 230.1, los bienes del patrimonio municipal del suelo, una vez incorporados al proceso de urbanización y edificación, deberán ser destinados a:",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, señale cuál de los siguientes gastos NO figura entre los destinos de los ingresos por enajenación de terrenos del patrimonio municipal del suelo previstos en el artículo 230.2:",
     "o": [
-      "La construcción de viviendas sujetas a algún régimen de protección pública o a otros usos de interés social.",
-      "La construcción de viviendas de lujo y equipamientos comerciales que garanticen la rentabilidad municipal.",
-      "La creación de reservas de suelo para futuras ampliaciones del cementerio y zonas verdes.",
-      "La edificación de sedes administrativas municipales y aparcamientos de rotación."
+      "La ejecución de sistemas generales previstos en el planeamiento.",
+      "Las ayudas a iniciativas privadas de regeneración urbana.",
+      "Los gastos de realojo y de retorno derivados de actuaciones urbanísticas.",
+      "La conservación ordinaria de edificios administrativos municipales."
     ],
-    "c": 0,
-    "exp": "El artículo 230.1 destina los bienes del patrimonio municipal del suelo, una vez incorporados al proceso de urbanización y edificación, a la construcción de viviendas sujetas a algún régimen de protección pública o a otros usos de interés social. Las demás alternativas no coinciden con el destino legalmente previsto."
+    "c": 3,
+    "exp": "El art. 230.2 contempla la obtención y ejecución de sistemas generales, las ayudas a la iniciativa privada de rehabilitación, renovación o regeneración urbanas y los gastos de realojo y retorno. No habilita el gasto ordinario de conservación de edificios administrativos por su mera titularidad municipal. La conservación del propio patrimonio municipal del suelo y la compra o rehabilitación de edificios para equipamiento público son destinos distintos y sí están previstos."
   },
   {
     "id": "E33-06",
     "tema": "E33",
-    "q": "El artículo 230.2 enumera los destinos de los ingresos obtenidos mediante enajenación de terrenos y sustitución del aprovechamiento. ¿Cuál de los siguientes NO se incluye entre las finalidades de dichos ingresos?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en el Registro del Patrimonio Municipal del Suelo deben constar:",
     "o": [
-      "La construcción de viviendas libres para su venta en el mercado.",
-      "Las obras de urbanización.",
-      "La obtención y ejecución de sistemas generales.",
-      "La compra y/o rehabilitación de edificios para vivienda protegida o equipamiento público."
+      "Las entradas de terrenos o metálico y sus salidas justificadas conforme a sus fines.",
+      "Las adquisiciones de terrenos, reservándose las operaciones en metálico a la contabilidad general.",
+      "Los bienes inmuebles disponibles para enajenar, excluyéndose los destinados a cesión gratuita.",
+      "Las transmisiones patrimoniales autorizadas, reservándose las adquisiciones al inventario general."
     ],
     "c": 0,
-    "exp": "El artículo 230.2 no incluye entre las finalidades de los ingresos la construcción de viviendas libres para su venta. Sí incluye obras de urbanización, obtención y ejecución de sistemas generales, y compra y/o rehabilitación de edificios para vivienda protegida o equipamiento público."
+    "exp": "El art. 232.2 exige registrar tanto las entradas de terrenos o metálico como sus salidas justificadas con destino a los fines del art. 230. El registro no se limita a inmuebles en venta ni a transmisiones onerosas. Además, el art. 232 exige inventario separado y documentación contable expresa y diferenciada, que no sustituyen al registro."
   },
   {
     "id": "E33-07",
     "tema": "E33",
-    "q": "En relación con la enajenación de bienes del patrimonio municipal del suelo, el artículo 231.2.a establece que cuando el destino de los bienes sea el de usos comerciales o residenciales de vivienda libre, la enajenación se realizará:",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la enajenación de bienes del patrimonio municipal del suelo destinados a usos comerciales se realizará mediante:",
     "o": [
-      "Por subasta pública.",
-      "Por concurso público.",
-      "Mediante enajenación directa a entidades sin ánimo de lucro.",
-      "Mediante cesión gratuita a otras Administraciones Públicas."
+      "Concurso público.",
+      "Subasta pública.",
+      "Adjudicación directa por su valor urbanístico.",
+      "Concurso o subasta, a elección del Ayuntamiento."
     ],
-    "c": 0,
-    "exp": "El artículo 231.2.a establece que cuando el destino de los bienes sea usos comerciales o residenciales de vivienda libre, la enajenación se realizará por subasta pública. Las demás alternativas corresponden a otros supuestos o modos de transmisión regulados en el mismo precepto."
+    "c": 1,
+    "exp": "El art. 231.2.a exige subasta pública para bienes destinados a usos comerciales o residenciales de vivienda libre. El concurso o subasta es la regla ordinaria para otros destinos y la subasta es preferente para usos industriales. La adjudicación directa responde a supuestos específicos; no es la regla por el solo hecho de tener uso comercial."
   },
   {
     "id": "E33-08",
     "tema": "E33",
-    "q": "El Banco Foral de Suelo Público se configura como un patrimonio separado dentro del Patrimonio de Navarra. ¿Cuál de las siguientes afirmaciones sobre su constitución es correcta según el artículo 233?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de los siguientes bienes o recursos NO integra el Banco Foral de Suelo Público por el título indicado?",
     "o": [
-      "La Administración de la Comunidad Foral deberá constituir, mantener y gestionar su propio patrimonio de suelo con la finalidad de intervenir en el mercado del suelo.",
-      "La constitución del Banco Foral es potestativa para la Administración Foral y solo obligatoria si lo aprueba el Parlamento de Navarra.",
-      "El Banco Foral se integra en el patrimonio municipal del suelo de Pamplona como entidad gestora única.",
-      "El Banco Foral solo podrá constituirse cuando exista un convenio previo con todos los municipios afectados."
+      "Los terrenos obtenidos por cesión para la dotación supramunicipal.",
+      "Los bienes patrimoniales de Navarra adscritos al Banco Foral.",
+      "Los bienes patrimoniales municipales por su clasificación como suelo urbanizable.",
+      "Los ingresos por actos de gravamen oneroso sobre bienes del Banco Foral."
     ],
-    "c": 0,
-    "exp": "El artículo 233.1 establece que la Administración de la Comunidad Foral deberá constituir, mantener y gestionar su propio patrimonio de suelo, denominado Banco Foral de Suelo Público, con la finalidad de intervenir en el mercado del suelo. Las demás alternativas contradicen el carácter obligatorio y la titularidad foral del Banco."
+    "c": 2,
+    "exp": "El art. 234 enumera los terrenos adquiridos por la Administración Foral para el Banco, los bienes patrimoniales de Navarra adscritos, las cesiones para dotación supramunicipal y los ingresos de gestión, enajenación o gravamen oneroso. La mera clasificación urbanizable de un bien municipal no lo incorpora al Banco Foral ni transmite su titularidad."
   },
   {
     "id": "E33-09",
     "tema": "E33",
-    "q": "El artículo 234 enumera los bienes y recursos que integran el Banco Foral de Suelo Público. ¿Cuál de los siguientes NO se incluye en dicha enumeración?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿a favor de qué entidad prevé expresamente el artículo 237.1 la adjudicación del derecho de superficie por concurso público u otro procedimiento de selección que garantice la igualdad entre ellas?",
     "o": [
-      "Los terrenos de titularidad privada adquiridos por los municipios para su incorporación al Banco Foral.",
-      "Los terrenos de titularidad pública de la Administración de la Comunidad Foral adquiridos por expropiación o cualquier otro procedimiento.",
-      "Los bienes patrimoniales del Patrimonio de Navarra que se adscriban al Banco Foral.",
-      "Los ingresos obtenidos por la gestión, enajenación o actos de gravamen a título oneroso sobre los bienes del Banco."
+      "Una sociedad pública dedicada a la gestión de viviendas protegidas.",
+      "Un ente instrumental de otra Administración pública.",
+      "Una sociedad de capital mixto dedicada a la gestión de viviendas protegidas.",
+      "Una cooperativa de viviendas."
     ],
-    "c": 0,
-    "exp": "El artículo 234 no incluye los terrenos de titularidad privada adquiridos por los municipios. Sí incluye los terrenos de titularidad pública de la Administración Foral, los bienes patrimoniales del Patrimonio de Navarra que se adscriban y los ingresos por gestión, enajenación o gravamen."
+    "c": 3,
+    "exp": "El art. 237.1.e establece ese procedimiento para las cooperativas de vivienda. El apartado d prevé la adjudicación directa a otras Administraciones, entes instrumentales, sociedades públicas o sociedades de capital mixto dedicadas a la gestión de viviendas protegidas. La pregunta distingue las modalidades expresamente previstas para cada destinatario."
   },
   {
     "id": "E33-10",
     "tema": "E33",
-    "q": "Según el artículo 236.2, los bienes obtenidos en concepto de dotación supramunicipal prevista en el artículo 55.6 se destinarán únicamente a:",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un terreno del Banco Foral procede de una cesión para dotación supramunicipal del artículo 55.6. ¿Cuál de los siguientes destinos admite específicamente el artículo 236.2?",
     "o": [
-      "La construcción de viviendas sometidas a algún régimen de protección pública o alojamientos dotacionales regulados por la normativa vigente en materia de vivienda.",
-      "La construcción de equipamientos comunitarios de carácter cultural y deportivo.",
-      "La ampliación del patrimonio municipal del suelo del municipio donde se ubiquen.",
-      "La financiación de obras de urbanización de sistemas generales de interés supramunicipal."
+      "Un equipamiento deportivo municipal.",
+      "Un alojamiento dotacional.",
+      "Un centro público de servicios sociales.",
+      "Un equipamiento docente de ámbito supramunicipal."
     ],
-    "c": 0,
-    "exp": "El artículo 236.2 limita el destino de los bienes obtenidos como dotación supramunicipal a la construcción de viviendas sometidas a algún régimen de protección pública o alojamientos dotacionales. Las demás alternativas amplían o desvían ese destino específico."
+    "c": 1,
+    "exp": "El art. 236.2 limita los bienes obtenidos como dotación supramunicipal a viviendas sujetas a protección pública o alojamientos dotacionales regulados por la normativa de vivienda. No basta el interés social o el carácter público de otros equipamientos: esos bienes tienen un destino más restringido que el régimen general del art. 236.1."
   },
   {
     "id": "E33-11",
     "tema": "E33",
-    "q": "El artículo 237.2 establece que los bienes integrantes del Banco Foral de Suelo Público calificados como equipamientos comunitarios con destino a alojamientos dotacionales se gestionarán:",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la duración máxima de una concesión administrativa sobre bienes del Banco Foral de Suelo Público destinados a alojamientos dotacionales no podrá superar:",
     "o": [
-      "De forma directa por la Administración de la Comunidad Foral de Navarra, pudiendo ser objeto de concesión administrativa a favor de terceros para su construcción y explotación.",
-      "Mediante enajenación directa a entidades de carácter asistencial sin ánimo de lucro.",
-      "A través de sociedades de capital mixto dedicadas a la gestión de viviendas protegidas.",
-      "Por adscripción a los organismos o entes instrumentales dependientes de la Administración Foral."
+      "75 años.",
+      "90 años.",
+      "99 años.",
+      "50 años."
     ],
-    "c": 0,
-    "exp": "El artículo 237.2 dispone que estos bienes se gestionan de forma directa por la Administración de la Comunidad Foral, pudiendo ser objeto de concesión administrativa a favor de terceros para su construcción y explotación en los términos del artículo 237 ter. Las demás alternativas corresponden a otros modos de gestión regulados en el artículo 237.1."
+    "c": 2,
+    "exp": "El art. 237 ter.c fija un límite de 99 años para esta concesión administrativa. No debe confundirse con el plazo del derecho de superficie del art. 240.2, cuyo límite es de 75 años, sin perjuicio de la prórroga especial prevista en el art. 237 bis."
   },
   {
     "id": "E33-12",
     "tema": "E33",
-    "q": "Conforme al artículo 237 bis.1, el acto de constitución del derecho de superficie sobre bienes del Banco Foral de Suelo Público destinados a la construcción de viviendas protegidas deberá contener, entre otros aspectos, la duración máxima del derecho. ¿Cuál es el plazo máximo previsto y su posible prórroga?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál es el plazo máximo del derecho de superficie sobre bienes del Banco Foral destinados a viviendas protegidas, sin computar la posible prórroga especial del artículo 237 bis?",
     "o": [
-      "Hasta 99 años, prorrogable previa solicitud de los ocupantes legales vinculada al compromiso de realizar mejoras en la edificación.",
-      "Hasta 75 años, prorrogable automáticamente por periodos de 10 años hasta un máximo de 120 años.",
-      "Hasta 50 años, prorrogable por acuerdo del Gobierno de Navarra sin intervención de los ocupantes.",
-      "Hasta 99 años, sin posibilidad de prórroga alguna una vez transcurrido dicho plazo."
+      "75 años.",
+      "99 años.",
+      "50 años.",
+      "90 años."
     ],
     "c": 0,
-    "exp": "El artículo 237 bis.1.b prevé una duración máxima de 99 años, prorrogable previa solicitud de los ocupantes legales formulada antes del vencimiento y vinculada al compromiso de realizar mejoras que justifiquen la prolongación de la vida útil. Las demás alternativas modifican el plazo o las condiciones de prórroga."
+    "exp": "El art. 237 bis.1.b remite al plazo máximo de 75 años del art. 240.2. Permite prorrogarlo hasta los 99 años, previa solicitud de los ocupantes legales antes del vencimiento y vinculada a mejoras que justifiquen prolongar la vida útil. Los 99 años no son el plazo inicial ni un plazo prorrogable por encima de ese límite."
   },
   {
     "id": "E33-13",
     "tema": "E33",
-    "q": "El artículo 240.3 regula el efecto de la extinción del derecho de superficie por haber transcurrido el plazo. Según dicho precepto, la entidad superficiante:",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, si los derechos de propiedad del suelo y del superficiario se reúnen en una misma persona por una causa distinta del transcurso del plazo del derecho de superficie, las cargas que recaían sobre ambos derechos:",
     "o": [
-      "Hará suya la propiedad de lo edificado, sin que deba satisfacer indemnización alguna cualquiera que sea el título en virtud del cual se hubiere constituido el derecho.",
-      "Deberá abonar al superficiario el valor residual de lo edificado según tasación pericial contradictoria.",
-      "Perderá la propiedad del suelo a favor del superficiario, que la consolidará sin contraprestación.",
-      "Deberá sacar a subasta pública la edificación resultante antes de incorporarla a su patrimonio."
+      "Se extinguen al desaparecer la separación entre suelo y edificación.",
+      "Se trasladan íntegramente a la propiedad del suelo.",
+      "Continúan gravándolos separadamente.",
+      "Se sustituyen por créditos frente al titular de la propiedad reunida."
     ],
-    "c": 0,
-    "exp": "El artículo 240.3 establece que, cuando se extinga el derecho de superficie por haber transcurrido el plazo, la entidad superficiante hará suya la propiedad de lo edificado, sin que deba satisfacer indemnización alguna cualquiera que sea el título en virtud del cual se hubiere constituido aquel derecho. Las demás alternativas contradicen el efecto legal previsto."
+    "c": 2,
+    "exp": "El art. 240.5 dispone que, si la reunión de ambos derechos se produce por una causa distinta del vencimiento, sus cargas continúan gravándolos separadamente. Es diferente de la extinción por transcurso del plazo: en ese caso el art. 240.4 extingue los derechos reales o personales impuestos por el superficiario."
   },
   {
     "id": "E33-14",
     "tema": "E33",
-    "q": "En relación con la delimitación de zonas para el ejercicio del derecho de tanteo y retracto, el artículo 242.2 establece un procedimiento alternativo al planeamiento. ¿Cuál es la secuencia correcta de dicho procedimiento?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando se delimita una zona sometida a tanteo y retracto mediante el procedimiento específico del artículo 242.2, fuera de la tramitación de un instrumento de planeamiento, ¿a quién corresponde la aprobación definitiva?",
     "o": [
-      "Aprobación inicial por orden foral, información pública durante un mes y audiencia de las entidades locales afectadas, informe de la Comisión de Ordenación del Territorio y aprobación mediante decreto foral del Gobierno de Navarra.",
-      "Aprobación inicial por acuerdo plenario municipal, información pública durante dos meses, informe del Consejo de Urbanismo y aprobación por orden foral.",
-      "Aprobación definitiva por decreto foral, información pública durante un mes y audiencia a los propietarios afectados, con informe preceptivo del Parlamento de Navarra.",
-      "Aprobación inicial por la Comisión de Ordenación del Territorio, audiencia municipal durante quince días, información pública durante dos meses y aprobación por ley foral."
+      "Al titular del departamento competente, mediante orden foral.",
+      "Al Gobierno de Navarra, mediante decreto foral.",
+      "Al Pleno de cada Ayuntamiento afectado, mediante acuerdo.",
+      "A la Comisión de Ordenación del Territorio, mediante resolución."
     ],
-    "c": 0,
-    "exp": "El artículo 242.2 establece la secuencia: aprobación inicial por orden foral del titular del Departamento competente, información pública durante un mes y audiencia de las entidades locales afectadas, informe de la Comisión de Ordenación del Territorio sobre las alegaciones presentadas y aprobación mediante decreto foral del Gobierno de Navarra. Las demás alternativas alteran el orden, los plazos o los órganos competentes."
+    "c": 1,
+    "exp": "El art. 242.2.d atribuye la aprobación al Gobierno de Navarra mediante decreto foral. La orden foral corresponde a la aprobación inicial; las entidades locales afectadas reciben audiencia y la Comisión de Ordenación del Territorio informa sobre las alegaciones. Ninguna de estas intervenciones sustituye la aprobación definitiva."
   },
   {
     "id": "E33-15",
     "tema": "E33",
-    "q": "El artículo 245 regula el modo de ejercicio de los derechos de tanteo y retracto. ¿Cuál de las siguientes afirmaciones es INCORRECTA según dicho precepto?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una finca situada en una zona delimitada de tanteo y retracto se vende por un precio distinto del comunicado a la Administración. ¿Desde qué momento se computa el mes para ejercitar el retracto?",
     "o": [
-      "El plazo para el ejercicio del retracto, cuando la enajenación se hubiese realizado sin ajustarse a los precios y condiciones notificados, es de tres meses desde el conocimiento de la enajenación.",
-      "Todo propietario de terrenos no edificados o de edificaciones con intención de transmitir está obligado a comunicar fehacientemente a la Administración autora de la delimitación el precio, las condiciones de pago y la identidad del adquirente.",
-      "El plazo para el ejercicio del tanteo es de un mes desde la notificación en forma fehaciente de la intención de enajenar con indicación del precio y demás condiciones.",
-      "La Administración dispone de un plazo de tres meses desde el ejercicio del derecho de tanteo o retracto para hacer efectiva la liquidación de la cantidad a satisfacer."
+      "Desde la notificación de la intención inicial de vender.",
+      "Desde la fecha de inscripción de la compraventa en el Registro.",
+      "Desde el otorgamiento de la escritura de compraventa.",
+      "Desde que la Administración conoce la enajenación."
     ],
-    "c": 0,
-    "exp": "El artículo 245.3 establece que el retracto se podrá ejercitar en el plazo de un mes, no de tres meses, desde que la Administración tuvo conocimiento de la enajenación, incluso cuando la enajenación no se ajustó a los precios y condiciones notificados. Las demás afirmaciones son correctas conforme al artículo 245: la obligación de comunicación fehaciente (art. 245.1), el plazo de un mes para el tanteo (art. 245.2) y el plazo de tres meses para la liquidación (art. 245.4)."
+    "c": 3,
+    "exp": "El art. 245.3 permite el retracto cuando la transmisión no se ajusta a los precios o condiciones notificados y cuenta el mes desde que la Administración tuvo conocimiento de la enajenación. La notificación de la intención de vender inicia el plazo del tanteo del art. 245.2. Ni la escritura ni la inscripción son por sí solas el inicio que establece el apartado 3."
   },
 
   // ---------- TEMA 34 ESPECÍFICO · DF 253/2019 REGISTRO DE PLANEAMIENTO (E34) ----------
