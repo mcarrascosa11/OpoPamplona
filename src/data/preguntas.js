@@ -7326,197 +7326,197 @@ export const PREGUNTAS = [
     {
     "id": "E35-01",
     "tema": "E35",
-    "q": "Según el TRLFOTU, ¿cómo se define la licencia urbanística en su artículo 190.1?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se dicta una orden de ejecución para una actuación que requiere proyecto técnico. ¿Qué circunstancia permite aplicar la no sujeción a licencia urbanística prevista en el artículo 190.4.d)?",
     "o": [
-      "Un acto administrativo de control previo, de carácter reglado y declarativo, mediante el cual la Administración autoriza las actuaciones urbanísticas proyectadas previa comprobación de su conformidad al ordenamiento urbanístico vigente.",
-      "Un acto administrativo de control posterior, de carácter discrecional y constitutivo, mediante el cual la Administración autoriza las actuaciones urbanísticas una vez ejecutadas.",
-      "Un acto administrativo de control previo, de carácter discrecional y constitutivo, que otorga nuevos derechos de edificación al solicitante.",
-      "Un acto administrativo de control posterior, de carácter reglado y declarativo, que constata que la obra ejecutada se ajusta al ordenamiento urbanístico."
+      "Que el promotor aporte el proyecto después de recibir la orden de ejecución.",
+      "Que la orden de ejecución incorpore el proyecto técnico que resulta exigible.",
+      "Que la orden de ejecución establezca un plazo concreto para terminar la obra.",
+      "Que el técnico municipal informe el proyecto tras comenzar su ejecución."
     ],
-    "c": 0,
-    "exp": "El art. 190.1 TRLFOTU define la licencia urbanística como un acto administrativo de control previo, de carácter reglado y declarativo. La alternativa que la describe como un acto de control posterior es incorrecta porque la licencia se comprueba antes de actuar. La alternativa que la califica de discrecional es incorrecta porque el carácter reglado implica que, si el proyecto se ajusta al ordenamiento, debe otorgarse. La alternativa que la define como constitutiva de nuevos derechos es incorrecta porque su carácter declarativo constata un derecho preexistente."
+    "c": 1,
+    "exp": "Art. 190.4.d TRLFOTU: se excluyen de licencia las actuaciones objeto de órdenes de ejecución que no necesiten proyecto técnico o cuando la propia orden incorpore el proyecto exigible. El supuesto necesita proyecto, por lo que este debe incorporarse a la orden. Aportarlo después, fijar un plazo o informar tras el inicio no sustituye ese requisito de la exención."
   },
   {
     "id": "E35-02",
     "tema": "E35",
-    "q": "¿Qué característica de la licencia urbanística implica que la Administración no puede denegarla si el proyecto se ajusta al ordenamiento urbanístico vigente?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una sociedad dependiente del Ayuntamiento promueve un proyecto de obras locales ordinarias dentro del término municipal. ¿Cómo se realiza el control urbanístico previsto en el artículo 191 antes de la ejecución material?",
     "o": [
-      "Su carácter reglado.",
-      "Su carácter declarativo.",
-      "Su carácter previo.",
-      "Su carácter municipal."
+      "Mediante el otorgamiento de licencia municipal, tras la aprobación del proyecto.",
+      "Mediante una declaración responsable, tras la aprobación del proyecto de obras.",
+      "Mediante la autorización urbanística foral, tras aprobar el proyecto municipal.",
+      "Mediante la aprobación del proyecto, conforme a la legislación de régimen local."
     ],
-    "c": 0,
-    "exp": "El carácter reglado de la licencia urbanística (art. 190.1 TRLFOTU) significa que no es discrecional: si el proyecto se ajusta al ordenamiento, debe otorgarse, y si no, debe denegarse. El carácter declarativo se refiere a que la licencia no otorga derechos nuevos, sino que constata que el derecho preexistente puede ejercerse conforme a la ordenación. El carácter previo alude al momento del control, y el carácter municipal a la competencia para otorgarla."
+    "c": 3,
+    "exp": "Art. 191 TRLFOTU: la aprobación del proyecto incorpora el control de adecuación urbanística y no se necesita licencia antes de la ejecución material. El artículo incluye a las administraciones municipales, sus organismos autónomos, sociedades y otros entes dependientes. No exige añadir licencia, declaración responsable ni autorización foral como sustitutos de ese control."
   },
   {
     "id": "E35-03",
     "tema": "E35",
-    "q": "De acuerdo con el TRLFOTU, ¿cuál de los siguientes actos está sujeto a licencia urbanística municipal por estar incluido en el artículo 190?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se proyecta autoconsumo solar sobre una edificación no protegida, sin evaluación de impacto ambiental. La instalación exige intervenir en la estructura del edificio. ¿Cómo incide este último dato en el supuesto de declaración o comunicación del artículo 192.1.g)?",
     "o": [
-      "La primera utilización u ocupación de los edificios e instalaciones.",
-      "La instalación de puntos de recarga de vehículos eléctricos en el interior de edificaciones.",
-      "La instalación de aprovechamiento de energía solar para autoconsumo sobre edificaciones.",
-      "Las obras de extrema sencillez que se tramitan por el régimen de comunicación."
+      "Lo excluye de ese supuesto por la afección a la estructura del edificio.",
+      "Lo mantiene en ese supuesto si no aumenta el volumen de la edificación.",
+      "Lo mantiene en ese supuesto si el destino energético sigue siendo autoconsumo.",
+      "Lo mantiene en ese supuesto si la afección estructural no alcanza los cimientos."
     ],
     "c": 0,
-    "exp": "El art. 190 TRLFOTU enumera entre los actos sujetos a licencia urbanística municipal la primera utilización u ocupación de los edificios e instalaciones. Las instalaciones de energía solar para autoconsumo y los puntos de recarga de vehículos eléctricos en interior de edificaciones fueron añadidos al art. 192 por la Ley Foral 4/2021, por lo que se sujetan a declaración responsable o comunicación previa, no a licencia. Las obras de extrema sencillez se tramitan por el régimen de comunicación previsto en la ordenanza municipal de obras menores."
+    "exp": "Art. 192.1.g TRLFOTU: la afección a los cimientos o a la estructura es una excepción expresa; no exige que concurran ambas. Mantener el volumen o el destino de autoconsumo no elimina esa excepción. La regla general no fija límite de potencia, pero conserva las excepciones estructurales, patrimoniales y de evaluación ambiental."
   },
   {
     "id": "E35-04",
     "tema": "E35",
-    "q": "La Ley Foral 4/2021, de 22 de abril, modificó el artículo 192 del TRLFOTU añadiendo dos nuevas letras. ¿Qué actos pasaron a estar sujetos a declaración responsable o comunicación previa en lugar de a licencia de obras municipal?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en una entidad local de más de 5.000 habitantes el planeamiento no ha fijado plazos expresos para solicitar licencia de edificación ni se ha acordado ampliación. ¿Qué plazos establece el artículo 193 para actuaciones sistemáticas y asistemáticas, respectivamente?",
     "o": [
-      "Las instalaciones de aprovechamiento de energía solar para autoconsumo y los puntos de recarga de vehículos eléctricos situados en el interior de edificaciones.",
-      "Las obras de nueva planta de edificios residenciales y las de ampliación de viviendas unifamiliares.",
-      "Las demoliciones de edificaciones en suelo urbano consolidado y los movimientos de tierra superiores a 1.000 m³.",
-      "Las parcelaciones urbanísticas y las obras de urbanización de nueva creación."
+      "Dos años para las sistemáticas y cuatro años para las asistemáticas.",
+      "Un año para las sistemáticas y tres años para las asistemáticas.",
+      "Un año para las sistemáticas y dos años para las asistemáticas.",
+      "Dos años para las sistemáticas y dos años para las asistemáticas."
     ],
-    "c": 0,
-    "exp": "La Ley Foral 4/2021 añadió al art. 192 TRLFOTU las letras g) y h), referidas a instalaciones de aprovechamiento de energía solar para autoconsumo y a puntos de recarga de vehículos eléctricos en el interior de edificaciones, con el fin de que no precisen licencia de obras municipal. Las obras de nueva planta, ampliaciones, demoliciones y parcelaciones permanecen sujetas a licencia conforme al art. 190."
+    "c": 2,
+    "exp": "Art. 193 TRLFOTU: en entidades locales de más de 5.000 habitantes, un año para solicitar licencia en actuaciones sistemáticas, duplicado en asistemáticas. Dos y cuatro años corresponden a entidades de menos de esa población; tres años no es el plazo de solicitud asistemática del supuesto. La regla de duplicación impide igualar ambos plazos en dos años. No confundir solicitud con plazos de ejecución del art. 197."
   },
   {
     "id": "E35-05",
     "tema": "E35",
-    "q": "Según el artículo 47 del TRLFOTU, las obras previstas en un Plan o Proyecto Sectorial de Incidencia Supramunicipal (PSIS) no están sujetas a licencia ni a cualquier otro control preventivo local cuando, entre otros requisitos, concurra alguna de las siguientes circunstancias. Indique la correcta.",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, para una licencia de primera utilización se presenta certificación del facultativo director que acredita fecha de finalización, conformidad con proyecto y condiciones y aptitud del edificio para ser utilizado. ¿Qué extremo adicional exige acreditar el artículo 194.2?",
     "o": [
-      "Que las obras hayan sido declaradas de interés general por el Gobierno de Navarra.",
-      "Que el PSIS haya sido aprobado definitivamente por el Ayuntamiento afectado.",
-      "Que las obras se ejecuten en suelo urbano consolidado.",
-      "Que el promotor sea una Administración Pública."
+      "Que se ha practicado la recepción contractual de las obras de edificación.",
+      "Que se ha inscrito la declaración de obra nueva en el Registro de la Propiedad.",
+      "Que se ha contratado el suministro definitivo de los servicios urbanos.",
+      "Que la parcela en la que se ubica la edificación se encuentra urbanizada."
     ],
-    "c": 0,
-    "exp": "El art. 47 TRLFOTU exige, entre otros requisitos, que las obras previstas en el PSIS hayan sido declaradas de interés general por el Gobierno de Navarra. La aprobación definitiva del PSIS corresponde a la Administración de la Comunidad Foral, no al Ayuntamiento. La exención no depende de que las obras se ejecuten en suelo urbano consolidado ni de que el promotor sea una Administración Pública, sino del cumplimiento de los requisitos del artículo."
+    "c": 3,
+    "exp": "Art. 194.2 TRLFOTU: el certificado debe acreditar también que la parcela se encuentra urbanizada. Recepción contractual, inscripción registral y contratación de suministros son cuestiones distintas y no sustituyen ese extremo urbanístico. La certificación del director reemplaza los documentos de las letras b y c del art. 194.1, pero no es por sí sola la licencia de primera utilización."
   },
   {
     "id": "E35-06",
     "tema": "E35",
-    "q": "¿Cómo se controla la legalidad urbanística de las obras ordinarias promovidas por la propia Administración municipal?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se concede licencia con la condición de eficacia relativa al proyecto de edificación. Una vez presentado este, ¿qué actuación y plazo máximo corresponden a la entidad local según el artículo 194.6?",
     "o": [
-      "Mediante un procedimiento interno de aprobación que cumple la función de control de legalidad urbanística, sin sujeción a licencia.",
-      "Mediante la solicitud de licencia urbanística a la Comunidad Foral de Navarra.",
-      "Mediante una declaración responsable presentada ante el Departamento competente en ordenación del territorio.",
-      "Mediante una comunicación previa al Pleno del Ayuntamiento, que la aprueba por mayoría absoluta."
+      "Resolver y notificar en quince días su conformidad o disconformidad con la licencia.",
+      "Resolver y notificar en dos meses su conformidad o disconformidad con la licencia.",
+      "Emitir en quince días el informe previo de habitabilidad de las viviendas proyectadas.",
+      "Emitir en dos meses el informe previo de habitabilidad de las viviendas proyectadas."
     ],
     "c": 0,
-    "exp": "El art. 191 TRLFOTU regula las obras ordinarias promovidas por la Administración municipal, que no se somete a sí misma a licencia, pero sigue un procedimiento interno de aprobación que cumple la función de control de legalidad urbanística. No interviene la Comunidad Foral ni se requiere declaración responsable o comunicación previa al Pleno."
+    "exp": "Art. 194.6 TRLFOTU: la entidad local dispone de un máximo de quince días desde la presentación para resolver sobre conformidad o no con la licencia y notificarlo. Dos meses es el plazo general de resolución del art. 194.7 y también el del informe previo foral de habitabilidad de su art. 194.4.a, trámites diferentes. El apartado 6 no configura expresamente una segunda licencia por silencio positivo."
   },
   {
     "id": "E35-07",
     "tema": "E35",
-    "q": "En el procedimiento de otorgamiento de licencias urbanísticas regulado en el TRLFOTU, ¿qué norma resulta supletoria en lo no previsto?",
+    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una solicitud de licencia urbanística cumple el ordenamiento y no está afectada por una excepción estatal al silencio estimatorio. Sin suspensión ni ampliación del procedimiento, ¿qué regla de plazo y cómputo establece el artículo 194.7?",
     "o": [
-      "La Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
-      "La Ley 7/1985, Reguladora de las Bases del Régimen Local.",
-      "La Ley 5/2015, de 30 de junio, de Derechos Civiles de Navarra.",
-      "La Ley Foral 4/2005, de intervención para la protección ambiental."
+      "Dos meses desde la primera instancia registrada, aunque falte documentación preceptiva.",
+      "Dos meses desde que se presenta la documentación completa en el registro general.",
+      "Tres meses desde que se presenta la documentación completa en el registro general.",
+      "Tres meses desde la primera instancia registrada, aunque falte documentación preceptiva."
     ],
-    "c": 0,
-    "exp": "El art. 194 TRLFOTU regula el procedimiento de otorgamiento de licencias y establece la supletoriedad de la Ley 39/2015 en lo no previsto. La Ley 7/1985 regula el régimen local, pero no es la norma supletoria específica en materia de procedimiento. La Ley Foral 4/2005 regula la intervención ambiental, no el procedimiento urbanístico. La Ley 5/2015 es de derechos civis forales y no resulta aplicable a este procedimiento."
+    "c": 1,
+    "exp": "Art. 194.7 TRLFOTU: máximo de dos meses desde documentación completa en el registro general. En las condiciones del enunciado, transcurrido sin comunicar acto, opera la regla estimatoria. Una instancia incompleta no es el hito definido por el precepto y tres meses no es su plazo. La estimación no se extiende a facultades ilegales ni a supuestos de silencio negativo básico estatal."
   },
   {
     "id": "E35-08",
     "tema": "E35",
-    "q": "Respecto de la resolución del procedimiento de solicitud de licencias urbanísticas y el silencio administrativo, ¿cuál de las siguientes afirmaciones es correcta conforme al TRLFOTU?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se inicia expediente de caducidad por incumplimiento de los plazos de una licencia urbanística. ¿Qué audiencia debe darse al interesado conforme al artículo 197.7?",
     "o": [
-      "El silencio administrativo nunca puede otorgar facultades o derechos que contravengan la ordenación territorial o urbanística.",
-      "El silencio administrativo tiene siempre carácter positivo en materia de licencias urbanísticas.",
-      "El silencio administrativo solo se aplica cuando la licencia se refiere a obras menores.",
-      "El silencio administrativo se regula exclusivamente por la Ley 39/2015, sin limitaciones urbanísticas."
+      "Un período de diez días hábiles, como mínimo.",
+      "Un período de quince días naturales, como mínimo.",
+      "Un período de quince días hábiles, como mínimo.",
+      "Un período de diez días naturales, como mínimo."
     ],
-    "c": 0,
-    "exp": "Los arts. 72.5 y 77.5 TRLFOTU establecen que no podrán adquirirse por silencio administrativo facultades o derechos que contravengan la ordenación territorial o urbanística, siendo nulos de pleno derecho los así obtenidos. El silencio no es siempre positivo, no se limita a obras menores y la Ley 39/2015 se aplica supletoriamente, pero con las limitaciones sustantivas del TRLFOTU."
+    "c": 2,
+    "exp": "Art. 197.7 TRLFOTU: audiencia por período mínimo de quince días hábiles, tras iniciar expediente. No son diez días ni días naturales. La declaración corresponde a la Administración competente para conceder la licencia; el mero vencimiento no sustituye expediente, audiencia y declaración."
   },
   {
     "id": "E35-09",
     "tema": "E35",
-    "q": "¿Cuál es el efecto de las facultades o derechos adquiridos por silencio administrativo cuando contravienen la ordenación territorial o urbanística, según el TRLFOTU?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el titular solicita prórroga del plazo para finalizar una obra cuya cobertura de aguas ya se ha realizado según proyecto. ¿Qué condiciones temporales acumulativas exige el artículo 197.8 para formular la solicitud?",
     "o": [
-      "Son nulos de pleno derecho e ineficaces, y la Administración debe iniciar el correspondiente procedimiento de revisión de oficio.",
-      "Son anulables, debiendo la Administración declarar su lesión mediante el procedimiento de lesividad.",
-      "Son válidos y eficaces, sin perjuicio de la posterior expropiación de los derechos adquiridos.",
-      "Son convalidables por el transcurso del tiempo, consolidándose a los cuatro años."
+      "Que haya transcurrido al menos la mitad del plazo y falten más de dos meses para su conclusión.",
+      "Que no haya transcurrido la mitad del plazo y falten más de dos meses para su conclusión.",
+      "Que haya transcurrido al menos la mitad del plazo y resten menos de dos meses para concluir.",
+      "Que no haya transcurrido la mitad del plazo y resten menos de dos meses para concluir."
     ],
     "c": 0,
-    "exp": "Los arts. 72.5 y 77.5 TRLFOTU disponen que los derechos o facultades adquiridos por silencio que contravengan la ordenación territorial o urbanística son nulos de pleno derecho e ineficaces, y la Administración municipal deberá iniciar el procedimiento de revisión de oficio. No se trata de anulabilidad ni de convalidación por el tiempo."
+    "exp": "Art. 197.8 TRLFOTU: solicitud expresa antes de dos meses de la conclusión y después de transcurrir al menos la mitad del plazo. Pedir antes de alcanzar esa mitad o dentro de los dos meses finales incumple las condiciones. La cobertura de aguas es además requisito para prorrogar la finalización y ya se cumple en el supuesto. La mitad transcurrida no fija la duración de la prórroga."
   },
   {
     "id": "E35-10",
     "tema": "E35",
-    "q": "El artículo 197 del TRLFOTU regula la eficacia de las licencias. ¿Cuál de los siguientes aspectos es objeto de dicha regulación?",
+    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, unas obras de un proyecto sectorial de incidencia supramunicipal han seguido los requisitos del artículo 47. ¿Desde qué actuación permite su apartado 5 el inicio directo de las obras?",
     "o": [
-      "La eficacia, las condiciones, los plazos de iniciación y ejecución, la caducidad y la transmisión de las licencias.",
-      "Exclusivamente el plazo de caducidad de las licencias de primera ocupación.",
-      "Únicamente la transmisión de licencias entre titulares, sin regular plazos.",
-      "La eficacia de las licencias solo en relación con el silencio administrativo."
+      "Desde la aprobación definitiva del proyecto sectorial por el Gobierno de Navarra.",
+      "Desde la declaración de interés general y su traslado a las entidades locales afectadas.",
+      "Desde la aportación por el promotor del proyecto de ejecución al departamento competente.",
+      "Desde la notificación a las entidades locales de la comunicación departamental de cumplimiento."
     ],
-    "c": 0,
-    "exp": "El art. 197 TRLFOTU regula la eficacia de las licencias, incluyendo las condiciones, los plazos de iniciación y ejecución, la caducidad y la transmisión. No se limita a un solo aspecto, como la transmisión o el silencio, ni exclusivamente a las licencias de primera ocupación."
+    "c": 3,
+    "exp": "Art. 47.5 TRLFOTU: el inicio directo se vincula a la notificación local de la comunicación departamental sobre cumplimiento de requisitos. La aprobación del instrumento, la declaración de interés general y la aportación del proyecto son hitos anteriores que no sustituyen la autorización de ejecución, la audiencia local y esa comunicación. Subsisten las obligaciones tributarias y la autorización final de actividad de los apartados posteriores."
   },
   {
     "id": "E35-11",
     "tema": "E35",
-    "q": "En el régimen de declaración responsable o comunicación previa regulado en el artículo 195 del TRLFOTU, ¿desde qué momento queda habilitado el interesado para actuar?",
+    "q": "De acuerdo con la Ley Foral 17/2020, de 16 de diciembre, reguladora de las Actividades con Incidencia Ambiental, se tramita una nueva licencia de actividad clasificada con documentación completa y sin suspensión del cómputo. ¿Qué combinación de plazo máximo para resolver y notificar y sentido del silencio establece su artículo 42?",
     "o": [
-      "Desde su presentación con la documentación completa, sin perjuicio de la comprobación posterior por la Administración.",
-      "Desde que la Administración dicta resolución expresa de conformidad.",
-      "Desde que transcurren tres meses sin que la Administración se pronuncie.",
-      "Desde que se publica la declaración en el Boletín Oficial de Navarra."
+      "Dos meses desde la documentación completa; silencio estimatorio.",
+      "Cuatro meses desde la documentación completa; silencio desestimatorio.",
+      "Tres meses desde la documentación completa; silencio desestimatorio.",
+      "Cuatro meses desde la documentación completa; silencio estimatorio."
     ],
-    "c": 0,
-    "exp": "El art. 195 TRLFOTU establece que la declaración responsable o comunicación previa habilita para actuar desde su presentación con la documentación completa, sin perjuicio de la comprobación posterior por la Administración. No se requiere resolución expresa ni plazo alguno para que despliegue efectos habilitantes."
+    "c": 1,
+    "exp": "Art. 42 LF 17/2020, desarrollado por art. 53 DF 26/2022: cuatro meses para resolver y notificar y silencio desestimatorio. Dos meses estimatorios remiten al régimen urbanístico general, no a esta LAC. Tres meses corresponden al procedimiento reglamentario de modificación sustancial, no a la implantación inicial. Mantener cuatro meses pero atribuir estimación también contradice la regla especial."
   },
   {
     "id": "E35-12",
     "tema": "E35",
-    "q": "En Navarra, el control de la implantación y apertura de actividades se rige por una normativa distinta de la licencia urbanística del TRLFOTU. Indique cuál.",
+    "q": "Conforme al Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las Actividades con Incidencia Ambiental, señale la afirmación INCORRECTA sobre el inicio y la caducidad de una actividad sometida a licencia de actividad clasificada, según su artículo 56.",
     "o": [
-      "La Ley Foral 4/2005, de 22 de marzo, de intervención para la protección ambiental, y su reglamento de desarrollo (Decreto Foral 93/2006).",
-      "La Ley Foral 5/2015, de 30 de junio, de Derechos Civiles de Navarra.",
-      "El Real Decreto Legislativo 7/2015, por el que se aprueba el Texto Refundido de la Ley de Suelo y Rehabilitación Urbana.",
-      "La Ley 39/2015, del Procedimiento Administrativo Común, exclusivamente."
+      "La declaración de puesta en marcha debe manifestar la fecha de inicio y el cumplimiento de las condiciones de la licencia.",
+      "La caducidad por falta de puesta en funcionamiento requiere resolución expresa, previa audiencia a la persona titular.",
+      "Si hay vertido al dominio público hidráulico sujeto a autorización, se acompaña la solicitud de autorización al organismo de cuenca.",
+      "La actividad puede ponerse en marcha tras presentar la declaración responsable en los términos legales y reglamentarios."
     ],
-    "c": 0,
-    "exp": "La apertura de actividades en Navarra se rige por la Ley Foral 4/2005, de intervención para la protección ambiental, y su reglamento (Decreto Foral 93/2006), que canalizan la licencia de actividad clasificada y los regímenes de declaración responsable o comunicación según la incidencia ambiental. El TRLFOTU regula la licencia urbanística de obras y usos del suelo, pero no la apertura de actividades."
+    "c": 2,
+    "exp": "Art. 56.3 DF 26/2022: debe acompañarse la autorización de vertido, no la solicitud de autorización. El apartado 1 permite la puesta en marcha tras la declaración en los términos legales y exige manifestar fecha de inicio y cumplimiento de condiciones. El apartado 2 exige resolución expresa de caducidad total o parcial, previa audiencia, si vence el plazo sin puesta en funcionamiento."
   },
   {
     "id": "E35-13",
     "tema": "E35",
-    "q": "En relación con las licencias urbanísticas de obras menores en el municipio de Pamplona, ¿qué plazo de expedición se establece en la ordenanza municipal reguladora?",
+    "q": "Según la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, la Administración tiene constancia de una falsedad esencial incorporada a una declaración responsable de una actividad ya iniciada. ¿Qué efecto establece directamente el artículo 69.4, sin perjuicio de las responsabilidades procedentes?",
     "o": [
-      "1 mes, mediante procedimiento abreviado.",
-      "2 meses, mediante procedimiento ordinario.",
-      "15 días hábiles, mediante procedimiento de urgencia.",
-      "3 meses, mediante procedimiento simplificado."
+      "La imposibilidad de continuar la actividad desde que se tenga constancia de la falsedad esencial.",
+      "La suspensión del plazo para resolver la declaración desde que se requiera subsanar la falsedad.",
+      "La conversión de la declaración en solicitud de licencia desde que se compruebe la falsedad.",
+      "La imposibilidad de continuar la actividad desde que adquiera firmeza la sanción por la falsedad."
     ],
     "c": 0,
-    "exp": "La Ordenanza Municipal Reguladora de las Licencias Urbanísticas de Obras Menores de Pamplona (BON 23/05/2007) establece un procedimiento abreviado en el que los plazos para la expedición de la licencia se reducen a 1 mes. No se contemplan los plazos de 15 días hábiles, 2 o 3 meses para este tipo de licencias."
+    "exp": "Art. 69.4 LPAC: la falsedad esencial determina imposibilidad de continuar desde que se tenga constancia de los hechos, sin esperar a una sanción firme. La norma no convierte la declaración en solicitud de licencia ni establece como consecuencia la suspensión de un plazo para concederla. La resolución puede incorporar restitución y otras consecuencias en los términos legales; no toda errata tiene carácter esencial."
   },
   {
     "id": "E35-14",
     "tema": "E35",
-    "q": "Según la Ordenanza Municipal de Pamplona reguladora del procedimiento de control posterior (BON 12/05/2014), ¿cuándo se presenta la declaración responsable para obras y se comprueba por técnico municipal?",
+    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se ejecuta una actuación sujeta a declaración responsable sin haberla presentado, siendo preceptiva. ¿Qué tratamiento establece expresamente el artículo 195.8?",
     "o": [
-      "Siempre con anterioridad al inicio de las obras, comprobándose en ese mismo momento por técnico municipal.",
-      "Dentro de los diez días siguientes a la finalización de las obras.",
-      "Al mes de iniciar las obras, mediante inspección posterior programada.",
-      "Solo si el Ayuntamiento lo requiere expresamente tras la comunicación."
+      "Se trata como una actuación con licencia ineficaz, sometida al procedimiento de caducidad del título.",
+      "Se trata como una declaración incompleta, pendiente de un requerimiento que suspenda su eficacia.",
+      "Se trata como una solicitud de licencia no resuelta, sometida al régimen de silencio administrativo.",
+      "Se trata como una actuación sin licencia, con el mismo régimen de protección de legalidad y sanción."
     ],
-    "c": 0,
-    "exp": "En Pamplona, conforme a la ordenanza de control posterior (BON 12/05/2014), la declaración responsable se presenta siempre con anterioridad al inicio de las obras y se comprueba en ese mismo momento por técnico municipal. No se difiere a un momento posterior ni queda condicionada a un requerimiento expreso."
+    "c": 3,
+    "exp": "Art. 195.8 TRLFOTU: las actuaciones sujetas a declaración responsable realizadas sin presentarla se consideran sin licencia a todos los efectos y reciben el mismo régimen de protección de legalidad y sancionador. No hay una licencia cuya caducidad declarar, una declaración presentada que completar ni una solicitud pendiente que genere silencio. La literalidad del apartado se refiere a declaración responsable."
   },
   {
     "id": "E35-15",
     "tema": "E35",
-    "q": "¿A qué Administración corresponde con carácter general la competencia para otorgar las licencias urbanísticas a las que se refiere el TRLFOTU?",
+    "q": "Según la Ordenanza municipal reguladora del procedimiento de control posterior de las actividades y obras de adecuación iniciadas por comunicación previa o declaración responsable en el término municipal de Pamplona, publicada en el BON de 12 de mayo de 2014, un establecimiento mantiene su actividad en funcionamiento y sus condiciones, cambiando únicamente de titular. ¿Qué instrumento prevé su artículo 3 para este supuesto?",
     "o": [
-      "A los municipios.",
-      "A la Comunidad Foral de Navarra, a través del Departamento competente en ordenación del territorio.",
-      "A las entidades locales supramunicipales, como mancomunidades y comarcas.",
-      "A la Administración General del Estado, a través de las Delegaciones del Gobierno."
+      "Una declaración responsable de inicio de actividad suscrita por el nuevo titular.",
+      "Una comunicación previa del cambio de titularidad de la actividad en funcionamiento.",
+      "Una solicitud de nueva licencia de actividad por sustitución del titular del establecimiento.",
+      "Una solicitud de revisión de la licencia de primera utilización por cambio de titular."
     ],
-    "c": 0,
-    "exp": "El art. 11 TRLFOTU atribuye con carácter general a los municipios la actividad urbanística pública, incluida la competencia para otorgar licencias urbanísticas. La Comunidad Foral interviene en supuestos específicos, como la autorización en suelo no urbanizable, pero la competencia general es municipal. No corresponde a mancomunidades ni al Estado."
+    "c": 1,
+    "exp": "Art. 3 de la ordenanza de control posterior de Pamplona: comunicación previa para cambio de titularidad de actividad en funcionamiento. La declaración del art. 4 corresponde al inicio de actividad y/o a las obras comprendidas en su ámbito; no se exige por este mero cambio una nueva licencia de actividad ni revisar primera utilización. Si cambian uso, actividad o condiciones materiales, debe examinarse el título adicional que proceda."
   },
 
   // ---------- TEMA 36 ESPECÍFICO · DECLARACIONES RESPONSABLES Y COMUNICACIONES (E36) ----------
