@@ -1,278 +1,1792 @@
-================================================================
-TEMA 35 — LAS LICENCIAS URBANÍSTICAS: OBRAS, PRIMERA UTILIZACIÓN
-U OCUPACIÓN, APERTURA. CONCEPTO, PROCEDIMIENTO, RESOLUCIÓN Y
-EFECTOS. RÉGIMEN DE LOS ACTOS PROMOVIDOS POR LAS AAPP. LAS
-DECLARACIONES RESPONSABLES Y LAS COMUNICACIONES DE OBRAS.
-================================================================
+﻿TEMA 35. LICENCIAS URBANÍSTICAS, APERTURA, DECLARACIONES RESPONSABLES Y COMUNICACIONES
+OPOSICIÓN DE ARQUITECTO/A — NIVEL A — AYUNTAMIENTO DE PAMPLONA
+Fecha de referencia normativa: 29 de septiembre de 2026
 
-ALCANCE: tema temático, sin norma citada en el enunciado. En Navarra la
-fuente troncal es el DECRETO FORAL LEGISLATIVO 1/2017, de 26 de julio,
-Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo
-(TRLFOTU), BON nº 168 de 31/08/2017, en vigor al día siguiente de su
-publicación. El núcleo del tema es el TÍTULO V "Intervención
-administrativa en la edificación y usos del suelo y disciplina
-urbanística", CAPÍTULO I "Intervención en la edificación y uso del
-suelo", SECCIÓN 1ª "Licencias urbanísticas" = ARTÍCULOS 190 A 197.
-(La Sección 2ª, arts. 198-199, órdenes de ejecución y declaración de
-ruina, NO entra en este tema.)
+ENUNCIADO
+«Las licencias urbanísticas: obras, primera utilización u ocupación, apertura. Concepto, procedimiento, resolución y efectos. Régimen de los actos promovidos por las administraciones públicas. Las declaraciones responsables y las comunicaciones de obras: características específicas y diferencias respecto a las licencias.»
 
-AVISO DE VERSIÓN: usar la versión consolidada vigente. El art. 192 fue
-modificado por la Ley Foral 4/2021, de 22 de abril.
+ÍNDICE
+1. Delimitación del tema y sistema de fuentes.
+2. Concepto, naturaleza y alcance de la licencia urbanística.
+3. Actos sujetos y no sujetos a licencia: artículo 190 TRLFOTU.
+4. Plazos para solicitar licencia: artículo 193.
+5. Competencia y organización administrativa.
+6. Procedimiento de licencia de obras: artículo 194 y Ley 39/2015.
+7. Resolución, silencio y control de legalidad: artículos 194.7 y 196.
+8. Eficacia, plazos, prórrogas, caducidad y transmisión.
+9. Primera utilización u ocupación y cambio de uso.
+10. Actos promovidos por administraciones públicas.
+11. Apertura y actividades con incidencia ambiental.
+12. Declaración responsable y comunicación: artículo 69 LPAC.
+13. Actos y procedimiento urbanísticos de declaración o comunicación: artículos 192 y 195.
+14. Aplicación municipal en Pamplona y conexión con el Tema 36.
+15. Comparaciones, cifras y reglas de cómputo.
+16. Trampas de test y supuestos de aplicación.
+17. Límites de certeza y lectura de fuentes municipales antiguas.
+18. Fuentes oficiales.
+ANEXO. Texto de los artículos 190 a 197 y 47 TRLFOTU y 69 LPAC.
 
-NOTA DE FIABILIDAD (para Claude Code): las rúbricas de los arts. 190-197,
-el concepto del 190.1, el art. 47, los apartados de silencio (72.5 y
-77.5) y la modificación del 192 están verificados contra fuente oficial
-(lexnavarra / BOE). El texto literal íntegro de los arts. 191-197 debe
-completarse desde el TRLFOTU consolidado
-(https://www.lexnavarra.navarra.es/detalle.asp?r=39197): aquí se recoge
-su rúbrica y función, no su articulado palabra por palabra. NO generar
-preguntas sobre apartados numéricos concretos de esos artículos que no
-figuren expresamente abajo.
+Las referencias [N...] identifican normas o resoluciones oficiales; [M...], documentos municipales. Los textos entrecomillados se distinguen de las explicaciones de estudio. El anexo reproduce el articulado nuclear para facilitar preguntas sobre literalidad.
 
-================================================================
-1. CONCEPTO DE LICENCIA URBANÍSTICA
-================================================================
+======================================================================
+1. DELIMITACIÓN DEL TEMA Y SISTEMA DE FUENTES
+======================================================================
 
-Art. 190.1 TRLFOTU (literal): la licencia urbanística es un ACTO
-ADMINISTRATIVO DE CONTROL PREVIO, de carácter REGLADO y DECLARATIVO,
-mediante el cual la Administración correspondiente autoriza las
-actuaciones urbanísticas proyectadas previa comprobación de su
-conformidad al ordenamiento urbanístico vigente.
+1.1. Qué se estudia en el Tema 35
 
-Notas del concepto:
-- Control PREVIO: se comprueba antes de actuar; no se puede iniciar la
-  obra/uso sin obtenerla.
-- REGLADO: no es discrecional; si el proyecto se ajusta al ordenamiento,
-  debe otorgarse (y si no, debe denegarse). No caben dispensas.
-- DECLARATIVO: no otorga derechos nuevos, sino que constata que el
-  derecho preexistente (a edificar/usar) puede ejercerse conforme a la
-  ordenación.
-- Competencia MUNICIPAL (actividad urbanística pública corresponde con
-  carácter general a los municipios, art. 11 TRLFOTU).
+El enunciado exige comprender el sistema de intervención administrativa sobre las obras, los usos, la ocupación de los edificios y la puesta en funcionamiento de actividades. No remite a una única ley.
 
-================================================================
-2. ARTICULADO DE LA SECCIÓN 1ª (arts. 190-197): MAPA DEL TEMA
-================================================================
+El núcleo es el Decreto Foral Legislativo 1/2017, de 26 de julio, que aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, denominado en este tema TRLFOTU: título V, capítulo I, sección 1.ª, artículos 190 a 197. [N1]
 
-ART. 190 — ACTOS SUJETOS A LICENCIA.
-  Enumera los actos de transformación, construcción, edificación y uso
-  del suelo y subsuelo que requieren licencia urbanística municipal.
-  Entre ellos: obras de edificación de nueva planta y de ampliación;
-  obras en edificios existentes; la PRIMERA UTILIZACIÓN U OCUPACIÓN de
-  los edificios e instalaciones; parcelaciones; demoliciones;
-  movimientos de tierra; etc.
-  -> "Obras" y "primera utilización u ocupación" del enunciado del tema
-     se encuadran aquí, como actos sujetos a licencia.
-  [Completar la lista literal desde el TRLFOTU consolidado.]
+Mapa del articulado:
+- 190: concepto, actos sujetos y actos no sujetos a licencia.
+- 191: obras ordinarias promovidas por la Administración municipal.
+- 192: actos sujetos a declaración responsable o comunicación previa.
+- 193: plazos para SOLICITAR licencia de edificación.
+- 194: competencia, documentación, procedimiento, plazo de resolución y silencio.
+- 195: procedimiento de declaración responsable o comunicación.
+- 196: resolución y límites a las licencias expresas y presuntas.
+- 197: eficacia, suministros, cambio de planeamiento, plazos, prórrogas y caducidad.
 
-ART. 191 — OBRAS ORDINARIAS PROMOVIDAS POR LA ADMINISTRACIÓN MUNICIPAL.
-  Régimen de las obras que promueve el propio Ayuntamiento (no se somete
-  a sí mismo a licencia, pero sigue un procedimiento de aprobación que
-  cumple la función de control de legalidad urbanística). Es la primera
-  pata del "régimen de los actos promovidos por las AAPP".
+Conexiones imprescindibles:
+a) Artículo 47 y disposición adicional quinta TRLFOTU: exención de controles locales en determinados planes o proyectos sectoriales de incidencia supramunicipal.
+b) Artículo 70 TRLFOTU: suspensión del otorgamiento de licencias por elaboración o reforma del planeamiento.
+c) Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas —LPAC—: especialmente artículos 21 a 24, 30, 66, 68, 69, 80, 82 y 88. [N2]
+d) Real Decreto Legislativo 7/2015 —TRLSRU—: artículo 11 y disposición adicional décima, interpretados conforme a la jurisprudencia constitucional. [N3, N4]
+e) Régimen local: Ley Foral 6/1990, Ley 7/1985 y, como complemento compatible con la normativa posterior, Reglamento de Servicios de las Corporaciones Locales. [N5 a N7]
+f) Ley Foral 17/2020 y Decreto Foral 26/2022 para la actividad clasificada y su puesta en marcha. [N8, N9]
+g) Normativa y procedimientos de Pamplona. [M2 a M9]
 
-ART. 192 — ACTOS SUJETOS A DECLARACIÓN RESPONSABLE O COMUNICACIÓN PREVIA.
-  Enumera los actos que NO requieren licencia y se sujetan a declaración
-  responsable o a comunicación previa (obras y actuaciones de menor
-  entidad / sin proyecto, entre otras).
-  MODIFICACIÓN POR LEY FORAL 4/2021, de 22 de abril (verificado):
-   - Añadió la letra g): instalaciones de aprovechamiento de ENERGÍA
-     SOLAR PARA AUTOCONSUMO (con sus excepciones).
-   - Añadió la letra h): los PUNTOS DE RECARGA DE VEHÍCULOS ELÉCTRICOS
-     situados en el interior de edificaciones, salvo que pudieran
-     suponer impacto sobre bienes declarados de interés cultural o
-     sujetos a otro régimen de protección.
-   - Finalidad expresa: dejar claro que este tipo de instalaciones NO
-     precisan licencia de obras municipal.
-  [Completar la lista literal completa de letras desde el consolidado.]
+1.2. Frontera con los demás temas del programa
 
-ART. 193 — PLAZOS PARA LA SOLICITUD DE LICENCIAS.
-  Fija los plazos en que debe solicitarse la licencia.
-  [Completar contenido literal desde el consolidado.]
+El programa oficial de la convocatoria de 2026 incluye: [M1]
+- Tema 32: título V del TRLFOTU y título VII sobre colaboración público privada.
+- Tema 35: exposición general y comparada de los títulos de intervención, con obras, primera utilización, apertura y actuaciones públicas.
+- Tema 36: tramitación de obras por declaraciones responsables y comunicaciones; artículo 192 TRLFOTU; título I de la Ley 12/2012; ordenanza de obras menores y ordenanza municipal de control posterior.
+- Temas 20 y 21: desarrollo específico de la Ley Foral 17/2020 y del Decreto Foral 26/2022.
 
-ART. 194 — COMPETENCIA Y PROCEDIMIENTO PARA EL OTORGAMIENTO DE LAS
-  LICENCIAS.
-  Órgano competente municipal y trámites del procedimiento de
-  otorgamiento (solicitud + documentación/proyecto, informes técnicos y
-  jurídicos, resolución). Procedimiento del lado "licencia" (control
-  previo). Supletoriedad de la Ley 39/2015 en lo no previsto.
-  [Completar contenido literal desde el consolidado.]
+Por ello, el artículo 192 y las ordenanzas también aparecen aquí: son indispensables para explicar la diferencia respecto de la licencia. Su catálogo detallado y la mecánica de control posterior son materia central del Tema 36. La clasificación ambiental exhaustiva, todos los umbrales de los anejos y el régimen sancionador ambiental pertenecen principalmente a los temas 20 y 21.
 
-ART. 195 — PROCEDIMIENTO GENERAL PARA LOS ACTOS SUJETOS A DECLARACIÓN
-  RESPONSABLE O COMUNICACIÓN.
-  Procedimiento del lado "declaración responsable / comunicación"
-  (control posterior): presentación con la documentación exigida,
-  habilitación para actuar desde ese momento, y comprobación municipal
-  a posteriori.
-  [Completar contenido literal desde el consolidado.]
+Las órdenes de ejecución y la ruina no constituyen el núcleo de este tema, pero sus conexiones con las exenciones de licencia sí deben conocerse. No es correcto afirmar que carecen de toda relación con el Tema 35.
 
-ART. 196 — RESOLUCIÓN DEL PROCEDIMIENTO DE SOLICITUD DE LICENCIAS.
-  Resolución (expresa) del procedimiento de licencia y régimen del
-  silencio administrativo. Principio aplicable (ver punto 4): el silencio
-  nunca puede otorgar facultades contra la ordenación urbanística.
-  [Completar contenido literal y sentido del silencio desde el
-  consolidado / ordenanza municipal.]
+1.3. Jerarquía, especialidad y vigencia
 
-ART. 197 — EFICACIA DE LAS LICENCIAS.
-  Eficacia, condiciones, plazos de iniciación/ejecución/caducidad y
-  transmisión de las licencias.
-  [Completar contenido literal desde el consolidado.]
+Una ordenanza no puede exigir licencia donde una ley la sustituye por declaración responsable o comunicación. Tampoco puede convertir una declaración en una autorización previa encubierta ni dispensar del cumplimiento del planeamiento.
 
-================================================================
-3. "APERTURA" / ACTIVIDAD: NO ES LICENCIA URBANÍSTICA EN NAVARRA
-================================================================
+La sede informa del trámite y aporta formularios; no modifica las leyes. Una ficha puede emplear denominaciones administrativas amplias o conservar referencias antiguas. La denominación del formulario no determina por sí sola el régimen jurídico.
 
-TRAMPA CENTRAL DEL TEMA. El enunciado mete "apertura" junto a las
-licencias, pero en Navarra el control de la implantación y apertura de
-ACTIVIDADES NO se rige por el TRLFOTU, sino por:
-  - LEY FORAL 4/2005, de 22 de marzo, de intervención para la protección
-    ambiental.
-  - DECRETO FORAL 93/2006, de 28 de diciembre, reglamento de desarrollo
-    de la LF 4/2005.
-Por esa vía se canalizan la licencia de actividad clasificada y los
-regímenes de declaración responsable / comunicación para actividades
-(según su incidencia ambiental).
-Hay que distinguir: URBANISMO (obras y usos del suelo -> TRLFOTU) frente
-a ACTIVIDAD / apertura (incidencia ambiental -> LF 4/2005 + DF 93/2006).
-En la práctica una implantación suele necesitar AMBOS títulos: el de
-obra (TRLFOTU) y el de actividad (LF 4/2005), y la primera utilización /
-licencia de apertura se vincula a la comprobación del fin de obra.
+La LF 4/2005 fue derogada por la LF 17/2020, cuya entrada en vigor se produjo el 22/06/2021. El DF 93/2006 fue expresamente derogado por el DF 26/2022, publicado en el BON de 09/05/2022, con corrección de errores de 13/05/2022 y entrada en vigor al día siguiente de su publicación. Debe atenderse a las disposiciones transitorias para expedientes antiguos; no utilizarlas como régimen ordinario de solicitudes nuevas. [N8, N9]
 
-================================================================
-4. RÉGIMEN DE LOS ACTOS PROMOVIDOS POR LAS ADMINISTRACIONES PÚBLICAS
-================================================================
+La versión de la LF 17/2020 incorpora la LF 14/2025, de 7 de noviembre. Esta añadió una disposición adicional octava sobre revisión temporal de proyectos de biometanización; no sustituyó el procedimiento ordinario de licencia de actividad clasificada de los artículos 38 a 52. Su régimen temporal no debe trasladarse a cualquier actividad municipal. [N10]
 
-DOS CAPAS:
-(a) Obras ordinarias de la propia Administración MUNICIPAL: art. 191
-    TRLFOTU (procedimiento interno de aprobación en sustitución de la
-    licencia a sí misma).
-(b) Obras de otras AAPP amparadas en PLANES O PROYECTOS SECTORIALES DE
-    INCIDENCIA SUPRAMUNICIPAL (PSIS): EXENCIÓN DE CONTROL LOCAL.
+El TRLFOTU incorpora, además de otras modificaciones, la ampliación del artículo 192 por la LF 4/2021 y el título VII sobre entidades colaboradoras. No debe estudiarse como si su versión vigente terminara en el título VI. [N1]
 
-Art. 47 TRLFOTU — Exención de controles locales (literal, resumido de su
-texto vigente): las obras previstas en un Plan o Proyecto Sectorial de
-Incidencia Supramunicipal, sin perjuicio de las obligaciones tributarias
-ante las entidades locales, NO estarán sujetas a licencia ni a cualquier
-otro control preventivo local cuando se cumplan, entre otros, estos
-requisitos:
-  1. Que se trate de construcción y reparación de infraestructuras,
-     dotaciones e instalaciones (y su puesta en funcionamiento)
-     DECLARADAS DE INTERÉS GENERAL por el Gobierno de Navarra. La
-     declaración de interés general puede hacerse a la vez que la
-     aprobación definitiva del PSIS o después por decreto foral.
-  2. Que el Departamento competente comunique dicha declaración a las
-     entidades locales afectadas.
-  3. Que, antes del inicio, el promotor acredite ante el Departamento la
-     sujeción del proyecto de ejecución al PSIS y a la normativa
-     ambiental.
-  4. Que el Departamento, previa audiencia de las entidades locales,
-     autorice la ejecución.
-  5. Que se comunique el cumplimiento de los requisitos a las entidades
-     locales; desde esa notificación el promotor puede iniciar las obras.
-  6. Finalizadas, el promotor presenta certificación de técnico
-     competente de que se ajustan al proyecto, de la que se da traslado
-     a las entidades locales.
-  7. Verificado el cumplimiento, el Departamento autoriza el inicio de la
-     actividad.
+======================================================================
+2. CONCEPTO, NATURALEZA Y ALCANCE DE LA LICENCIA URBANÍSTICA
+======================================================================
 
-================================================================
-5. DECLARACIÓN RESPONSABLE Y COMUNICACIÓN FRENTE A LA LICENCIA
-================================================================
+2.1. Concepto legal exacto
 
-CUADRO DE DIFERENCIAS:
+Artículo 190.1 TRLFOTU:
+«La licencia urbanística es el acto administrativo de control previo, de carácter reglado y declarativo, mediante el cual la entidad local correspondiente autoriza las actuaciones urbanísticas proyectadas de uso, aprovechamiento, transformación, segregación y edificación del suelo, subsuelo y vuelo, previa comprobación de su conformidad al ordenamiento urbanístico vigente.»
 
-LICENCIA (control PREVIO):
-  - La Administración autoriza ANTES de actuar, tras comprobar la
-    conformidad del proyecto con el ordenamiento (acto reglado).
-  - No se puede iniciar la obra/uso sin el acto de otorgamiento.
-  - Procedimiento: arts. 194 y 196 TRLFOTU.
+Palabras de examen:
+- ACTO ADMINISTRATIVO, no mera declaración del particular.
+- CONTROL PREVIO, aunque después subsistan inspección y disciplina.
+- REGLADO, no una elección de oportunidad municipal.
+- DECLARATIVO, sin que ello signifique que cualquier propietario pueda edificar sin cumplir deberes y cargas.
+- ENTIDAD LOCAL CORRESPONDIENTE, no exclusivamente «alcalde» ni «Gobierno de Navarra».
+- SUELO, SUBSUELO Y VUELO.
+- Conformidad con el ORDENAMIENTO URBANÍSTICO VIGENTE, no solamente con el proyecto del promotor.
 
-DECLARACIÓN RESPONSABLE (control POSTERIOR):
-  - Documento en el que el interesado manifiesta, bajo su
-    responsabilidad, que cumple los requisitos y que dispone de la
-    documentación que lo acredita.
-  - HABILITA para actuar DESDE SU PRESENTACIÓN con la documentación
-    completa; el Ayuntamiento comprueba después.
-  - En Pamplona la DR se presenta siempre con anterioridad al inicio de
-    las obras y se comprueba en ese mismo momento por técnico municipal.
+2.2. Carácter reglado
 
-COMUNICACIÓN (PREVIA) (control POSTERIOR):
-  - Puesta en conocimiento de la Administración de la intención de
-    realizar una actuación; habilita igualmente desde su presentación.
-  - Régimen de comprobación posterior por la Administración.
-  - Procedimiento de DR/comunicación: art. 195 TRLFOTU.
+Si concurren los requisitos exigibles, debe concederse; si el proyecto es incompatible, debe denegarse. La motivación ha de identificar las normas aplicables. No cabe conceder una dispensa singular del plan por conveniencia económica, acuerdo privado o decisión política.
 
-PRINCIPIO COMÚN — NO SE LEGITIMA LO CONTRARIO A LA ORDENACIÓN:
-  Ni el silencio ni una declaración responsable/comunicación legitiman
-  obras o usos contra la ordenación. Verificado en el TRLFOTU:
-  - Art. 72.5 (literal): "No podrán adquirirse por silencio
-    administrativo facultades o derechos que contravengan la ordenación
-    territorial o urbanística y que culminan determinando la nulidad de
-    pleno derecho de estos actos. Por ello la Administración municipal
-    deberá iniciar el correspondiente procedimiento de revisión de
-    oficio (...)".
-  - Art. 77.5 (literal, en lo esencial): la aprobación por silencio no
-    puede vulnerar leyes ni planeamiento de rango superior; "tampoco
-    podrán adquirirse por silencio administrativo facultades o derechos
-    que contravengan la legislación y la ordenación territorial o
-    urbanística"; serán NULOS de pleno derecho e INEFICACES los así
-    obtenidos.
-  - (Coherente con el art. 11 del TR de la Ley de Suelo estatal,
-    RDLeg 7/2015.)
-  SUPLETORIEDAD: en lo no previsto, rige la Ley 39/2015 (procedimiento,
-  silencio, revisión).
+El carácter reglado no impide condiciones que concreten los requisitos legales de ejecución. Sí impide introducir condiciones arbitrarias o utilizar una condición para permitir una actuación esencialmente incompatible con la ordenación. [N1, arts. 194.5 y 196; N2, art. 37]
 
-================================================================
-6. ORDENANZAS MUNICIPALES DE PAMPLONA APLICABLES (verificado)
-================================================================
+2.3. Carácter declarativo y derecho de propiedad
 
-Pamplona NO tiene una ordenanza única de licencias; el régimen está
-disperso:
-  - Ordenanza Municipal Reguladora de las Licencias Urbanísticas de
-    OBRAS MENORES (BON de 23/05/2007).
-  - Ordenanza Municipal Reguladora del Procedimiento de Control de
-    DECLARACIÓN RESPONSABLE / Control Posterior (BON de 12/05/2014).
-  - Texto Refundido del Plan Municipal de Pamplona (BON de 18/02/2008)
-    (planeamiento).
-  - Ordenanza General de Edificación.
+La licencia comprueba que puede realizarse la actuación proyectada en las condiciones del ordenamiento. No aprueba un plan ni modifica la clasificación del suelo. El artículo 11.2 TRLSRU precisa que la mera previsión de edificabilidad no la integra por sí misma en el contenido del derecho de propiedad: su patrimonialización exige realización efectiva y cumplimiento de deberes y cargas.
 
-DATOS DE GESTIÓN (verificado en sede electrónica del Ayuntamiento):
-  - Área de Gobierno Estratégico, Urbanismo, Vivienda y Agenda 2030.
-    Resuelve la Concejalía Delegada del Área.
-  - ICIO: 5% del presupuesto de la obra (autoliquidación previa).
-  - Obras comunicadas: tramitación inmediata; la declaración responsable
-    se presenta antes del inicio y se comprueba en ese momento por
-    técnico municipal (control posterior inmediato).
-  - Las licencias/declaraciones de actividad, apertura y PRIMERA
-    UTILIZACIÓN se gestionan de forma diferenciada de las de obra y se
-    declaran/solicitan previamente al inicio de la actividad o uso del
-    edificio.
+La licencia no decide controversias civiles sobre propiedad, arrendamientos, servidumbres o acuerdos de una comunidad de propietarios. Se entiende otorgada salvo el derecho de propiedad y sin perjuicio de tercero. Tampoco exonera de responsabilidad civil o penal. [N7, arts. 10 y 12]
 
-================================================================
-CLAVES RÁPIDAS PARA TEST
-================================================================
-- Fuente: TRLFOTU (DFL 1/2017), Título V, Cap. I, Sección 1ª, arts.
-  190-197.
-- Licencia = acto de control PREVIO, REGLADO y DECLARATIVO (art. 190.1).
-- Mapa: 190 actos sujetos a licencia (incluye primera utilización u
-  ocupación) / 191 obras de la Admón. municipal / 192 actos sujetos a
-  DR o comunicación / 193 plazos / 194 competencia y procedimiento de
-  otorgamiento / 195 procedimiento de DR-comunicación / 196 resolución
-  y silencio / 197 eficacia.
-- "Apertura" NO es licencia urbanística: va por la LF 4/2005 + DF 93/2006
-  (intervención ambiental / actividad). Distinguir urbanismo vs actividad.
-- Actos de AAPP: art. 191 (municipal) + art. 47 (PSIS de interés general
-  declarados por el Gobierno de Navarra = exentos de licencia/control
-  local).
-- Art. 192 modificado por LF 4/2021: autoconsumo solar (g) y recarga de
-  vehículo eléctrico en interior de edificaciones (h) NO precisan
-  licencia de obras.
-- Licencia (control previo) vs DR/comunicación (control posterior, habilita
-  desde la presentación con documentación completa).
-- El silencio NUNCA otorga facultades contra la ordenación (arts. 72.5 y
-  77.5: nulidad de pleno derecho). Supletoriedad de la Ley 39/2015.
-- Pamplona: ordenanzas dispersas (obras menores BON 23/05/2007; control
-  posterior de DR BON 12/05/2014) + Plan Municipal (BON 18/02/2008) +
-  Ordenanza General de Edificación. ICIO 5%. Resuelve la Concejalía
-  Delegada del Área.
-================================================================
+EXCEPCIÓN IMPORTANTE: no puede utilizarse esta reserva de derechos privados para autorizar la ocupación ilegal de bienes públicos. Los artículos 194.5 y 196.3 TRLFOTU obligan a denegar las licencias cuyo otorgamiento permita esa ocupación.
+
+2.4. Pluralidad de controles
+
+Una implantación puede exigir varios títulos, con objetos distintos:
+- Urbanístico de obras: autoriza ejecutar la intervención material.
+- Urbanístico de uso o primera utilización: controla el destino y la aptitud urbanística del edificio o local terminado.
+- Ambiental de actividad clasificada: fija las condiciones de instalación, funcionamiento y modificación de la actividad.
+- Declaración de puesta en marcha: permite iniciar el funcionamiento tras cumplir las condiciones de la licencia ambiental.
+- Dominial: permite ocupar un bien de dominio público, cuando proceda.
+- Sectoriales: patrimonio cultural, carreteras, aguas, industria, salud, espectáculos, turismo u otros.
+
+El artículo 190.3 permite autorizar simultáneamente en un mismo acto varios supuestos de licencia urbanística y otras autorizaciones locales. La integración documental o una resolución conjunta no elimina los presupuestos, informes o requisitos de cada control.
+
+Una licencia de obras no autoriza automáticamente la apertura; una declaración de apertura no legaliza obras incompatibles; el pago de tributos no sustituye a ninguno de esos títulos.
+
+2.5. Intervención local y proporcionalidad
+
+El artículo 84 LRBRL enumera ordenanzas y bandos, licencias y otros controles preventivos, comunicación/declaración, control posterior y órdenes individuales. La intervención se ajusta a IGUALDAD DE TRATO, NECESIDAD y PROPORCIONALIDAD. Las autorizaciones de otra Administración no eximen por sí mismas de las locales, respetando las leyes sectoriales. [N6]
+
+El artículo 84 bis establece como regla que el ejercicio de actividades no se somete a licencia o control preventivo, con excepciones justificadas por orden público, seguridad pública, salud pública o protección ambiental que no puedan salvaguardarse mediante declaración/comunicación, y por los supuestos de limitación de operadores que enumera. Para instalaciones o infraestructuras económicas, la autorización exige previsión legal, riesgo y proporcionalidad; considera potencia, aforo, ruido, vertidos, materiales y patrimonio, entre otros factores.
+
+Si concurren licencias de varias administraciones, la entidad local debe motivar el interés general concreto que protege y que no esté cubierto por otra autorización. El artículo 84 ter obliga a establecer los procedimientos de comunicación y verificación posterior cuando no se exija autorización previa. Estas reglas no permiten ignorar las licencias urbanísticas y ambientales exigidas válidamente por sus leyes.
+
+======================================================================
+3. ACTOS SUJETOS Y NO SUJETOS A LICENCIA: ARTÍCULO 190
+======================================================================
+
+3.1. Catálogo completo de actos sujetos, con sus excepciones
+
+El artículo 190.2 exige previa licencia, sin perjuicio de las demás autorizaciones urbanísticas y sectoriales procedentes. Enumera:
+
+a) Construcción de edificaciones e instalaciones de todas clases de nueva planta.
+b) Ampliación de edificios e instalaciones de todas clases existentes.
+c) Modificación o reforma que afecte a la estructura o al aspecto exterior de edificios e instalaciones.
+d) Obras que modifiquen la disposición interior de los edificios, cualquiera que sea su uso.
+e) Obras y usos que hayan de realizarse con carácter provisional.
+f) Parcelaciones urbanísticas y segregaciones y divisiones de fincas rústicas.
+g) Movimientos de tierra: desmontes, explanaciones, excavaciones y terraplenados. EXCEPCIÓN: actos detallados y programados como obras a ejecutar en un proyecto de urbanización o de edificación aprobado.
+h) Primera utilización u ocupación de edificios e instalaciones, en general, y modificación de su uso.
+i) Demolición de construcciones. EXCEPCIÓN: casos declarados de ruina inminente.
+j) Instalaciones que afecten al subsuelo.
+k) Corta de arbolado y vegetación arbustiva que constituyan masa arbórea, espacio boscoso, arbolado o parque, exista o no planeamiento aprobado. EXCEPCIÓN: labores autorizadas por la legislación agraria.
+l) Construcción de presas, balsas, obras de defensa y corrección de cauces públicos, siempre que no constituyan obras públicas de interés general.
+m) Extracción de áridos y explotación de canteras, incluso en dominio público y sujetas a concesión administrativa.
+n) Otros actos señalados reglamentariamente por implicar obras, mayor intensidad del uso del suelo o subsuelo, uso privativo de estos o utilización anormal o distinta del destino agrícola o forestal.
+
+El catálogo debe leerse junto con los artículos 190.4.e y 192. Por ejemplo, no toda modificación interior sigue hoy una licencia: si reúne los requisitos legales de obra menor o de otro supuesto de declaración/comunicación, se aplica ese régimen específico. «Interior», «pequeña» o «barata» no son por sí solos una clasificación jurídica suficiente.
+
+El artículo 190.2 no menciona «apertura» como una letra autónoma. El enunciado del tema utiliza esa denominación para el control de utilización y funcionamiento de establecimientos, que debe conectarse con el uso urbanístico, la normativa ambiental y la municipal.
+
+3.2. Actos no sujetos a licencia urbanística: cinco grupos
+
+Artículo 190.4:
+
+A) Actos de uso del suelo, construcción y edificación promovidos por los municipios EN SU PROPIO TÉRMINO MUNICIPAL; obras públicas municipales, incluidas las de urbanización realizadas por particulares en cumplimiento de la normativa y el planeamiento.
+Se entienden autorizados por el acuerdo de aprobación del proyecto, previa acreditación en el expediente del respeto al planeamiento y a la normativa territorial y urbanística.
+
+B) Parcelaciones o divisiones de fincas incluidas en un proyecto de reparcelación.
+No confundir con cualquier parcelación privada ni con la mera intención de redactar una reparcelación.
+
+C) Actos de uso del suelo, edificación y subsuelo expresamente eximidos de licencia por la legislación sectorial aplicable.
+La excepción debe tener base normativa; no se presume por ser la obra «importante», pública o subvencionada.
+
+D) Obras en cumplimiento de una orden de ejecución dictada por la Administración competente, sin perjuicio de determinaciones específicas, SIEMPRE QUE:
+- No requieran proyecto técnico; O
+- La propia orden o el acto que ordene su ejecución subsidiaria incorpore el proyecto técnico requerido.
+Una orden genérica de conservación que no incorpore el proyecto necesario no permite prescindir automáticamente de cualquier control adicional.
+
+E) Actos de uso del suelo y edificación sujetos a declaración responsable o comunicación.
+No sujetos a LICENCIA no equivale a no sujetos a INTERVENCIÓN, normativa, inspección o tributos.
+
+3.3. Particulares en dominio público
+
+Artículo 190.5: también se exige licencia para actos de edificación y uso del suelo de particulares en dominio público, sin perjuicio de las autorizaciones o concesiones del ente titular.
+
+La concesión demanial y el título urbanístico atienden a controles diferentes. La extracción de áridos del artículo 190.2.m es un ejemplo expreso. Deben respetarse las excepciones sectoriales y los regímenes legales de declaración/comunicación que realmente sean aplicables al acto concreto.
+
+======================================================================
+4. PLAZOS PARA SOLICITAR LICENCIA: ARTÍCULO 193
+======================================================================
+
+Este artículo regula el tiempo para SOLICITAR la licencia de edificación; no el tiempo del Ayuntamiento para resolver, ni el plazo de ejecución de la obra.
+
+En defecto de previsión expresa del planeamiento y desde que se haya procedido a la urbanización conforme al artículo 104:
+
+ACTUACIONES SISTEMÁTICAS
+- Entidades locales de MÁS DE 5.000 habitantes: 1 año.
+- Entidades locales de MENOS de esa población: 2 años.
+
+ACTUACIONES ASISTEMÁTICAS
+- Se duplican los plazos anteriores: 2 y 4 años, respectivamente.
+
+Los plazos pueden ampliarse por circunstancias económicas, financieras y de mercado que lo justifiquen suficientemente.
+
+Para Pamplona, a falta de previsión específica del planeamiento, las referencias son 1 año en actuaciones sistemáticas y 2 años en asistemáticas.
+
+Literalidad de examen: el precepto dice «más de cinco mil» y «menos de esa población». No utiliza «igual o superior» y no resuelve expresamente el caso exacto de 5.000 habitantes. No corregir ese límite inventando una respuesta literal. Es una imprecisión del texto, irrelevante para la población de Pamplona.
+
+======================================================================
+5. COMPETENCIA Y ORGANIZACIÓN ADMINISTRATIVA
+======================================================================
+
+5.1. Regla local y especialidades
+
+La licencia corresponde a la entidad local competente. El artículo 194 no atribuye nominalmente todas las licencias al alcalde. Para el órgano hay que acudir al régimen local y a las delegaciones.
+
+El artículo 319.1.ª de la LF 6/1990 establece como regla la competencia del presidente de la entidad local, salvo atribución diferente de la legislación sectorial. Su regla 3.ª remite las licencias de edificación y uso del suelo y las de actividad clasificada a su legislación específica. [N5]
+
+En el régimen común municipal, el artículo 21.1.q de la Ley 7/1985 atribuye al alcalde el otorgamiento de licencias, salvo atribución expresa al Pleno o a la Junta de Gobierno Local por las leyes sectoriales. En los municipios del título X, el artículo 127.1.e atribuye a la Junta de Gobierno Local cualquier licencia, salvo atribución sectorial expresa a otro órgano; es delegable conforme al artículo 127.2. [N6]
+
+Pamplona se organiza conforme al régimen de municipios de gran población. Es necesario distinguir la atribución legal a la Junta de Gobierno Local del ejercicio por un órgano delegado. En la documentación municipal la gestión se sitúa en el Departamento de Licencias y el área competente en urbanismo; las resoluciones pueden corresponder a la Concejalía Delegada. No debe confundirse el órgano gestor que informa con el órgano que resuelve.
+
+PRECISIÓN SOBRE DELEGACIONES: la denominación del área que figura en las fichas consultadas es «Gobierno Estratégico, Urbanismo, Vivienda y Agenda 2030». No se fija aquí como regla universal el alcance de una delegación concreta ni su número de acuerdo, al no disponer de un texto íntegro y consolidado de todas las delegaciones vigente a la fecha de referencia. Para una pregunta referida a una resolución específica, debe comprobarse su pie competencial. [M6 a M9]
+
+5.2. Concejos navarros
+
+El artículo 194.3 dispone que las peticiones cuyo otorgamiento competa a los concejos se presentan ante ellos y se tramitan y resuelven conforme a la LF de Administración Local.
+
+El artículo 39.1.c de la LF 6/1990 contempla licencias urbanísticas de los concejos conforme al planeamiento, previo informe preceptivo y vinculante del ayuntamiento. Esta estructura no debe trasladarse al Ayuntamiento de Pamplona.
+
+Advertencia de actualización: el antiguo apartado 4 del artículo 319 LF 6/1990, con reglas específicas de silencio concejil, fue suprimido por la LF 7/2010. No memorizarlo como derecho vigente a partir de una nota histórica o una versión antigua. Subsisten los controles y las excepciones de silencio de las normas vigentes. [N5]
+
+5.3. Colaboración técnica privada
+
+Los artículos 247 a 249 TRLFOTU permiten colaboración de entidades privadas acreditadas e inscritas para comprobación, certificados, verificación e inspección. Conexión con el Tema 32:
+- Su intervención no es preceptiva.
+- No tienen carácter de autoridad.
+- No impiden las funciones de verificación, inspección y control de la Administración.
+- El Ayuntamiento incorpora los documentos y asume su contenido o expresa oposición motivada.
+- Los informes municipales prevalecen.
+- Los certificados de conformidad producen efectos equiparables a los de los servicios técnicos municipales.
+- El certificado no es, por sí mismo, una licencia municipal otorgada por una entidad privada.
+
+La existencia del título VII no acredita por sí sola que un procedimiento concreto de Pamplona esté implantado con todos sus desarrollos organizativos. Tampoco cualquier preinforme profesional equivale a una actuación de una entidad colaboradora acreditada. [N1]
+
+======================================================================
+6. PROCEDIMIENTO DE LICENCIA DE OBRAS
+======================================================================
+
+6.1. Paso previo: identificar el acto y sus condicionantes
+
+Antes de tramitar deben comprobarse el uso, las obras realmente proyectadas, el planeamiento aplicable a la parcela, la catalogación, la situación de fuera de ordenación si existe, los títulos ambientales y las afecciones sectoriales. También si hay suspensión de licencias.
+
+La consulta urbanística ayuda a conocer la viabilidad, pero no autoriza obras. El artículo 195.5 reconoce expresamente su utilización antes de una declaración responsable, con carácter facultativo.
+
+6.2. Solicitud y documentación del artículo 194.1
+
+El procedimiento se inicia A INSTANCIA DE PARTE. Deben aportarse:
+a) Instancia con los datos exigidos por la normativa de procedimiento común.
+b) Proyecto básico definido en el CTE, suscrito por facultativo competente. Este responde legalmente de la exactitud y veracidad de los datos técnicos.
+c) Declaración del técnico redactor sobre cumplimiento de normativa urbanística y de requisitos básicos de calidad y seguridad de la edificación.
+d) Previamente al inicio de las obras, el proyecto de edificación definido en el CTE ante la entidad local que haya concedido la licencia.
+
+El artículo 66 LPAC exige identificación, representación si procede, medio electrónico o lugar para notificación, hechos, razones y petición clara, lugar y fecha, firma o acreditación de voluntad y órgano o unidad destinataria. Los formularios específicos obligatorios deben utilizarse en los términos del artículo 66.6.
+
+La documentación debe corresponder a la clase de acto. No tiene sentido exigir un proyecto de edificación como si toda parcelación o actuación urbanística fuera la construcción de un edificio. La documentación municipal y sectorial concreta el expediente. La primera ocupación tiene su sustitución documental expresa en el artículo 194.2.
+
+6.3. Proyecto básico y proyecto de ejecución: diferencia esencial
+
+Según el artículo 6.1.3 CTE, el proyecto básico define características generales y prestaciones mediante soluciones concretas; su contenido permite solicitar licencia y otras autorizaciones, pero es insuficiente para iniciar la construcción. El proyecto de ejecución desarrolla el básico y define la obra en su totalidad. [N11]
+
+El acuerdo de concesión incluirá, como condición de EFICACIA, la presentación del proyecto de edificación. La entidad local dispone de un máximo de 15 días desde su presentación para resolver sobre su conformidad o no con la licencia y notificarlo. [N1, art. 194.6]
+
+No confundir:
+- Obtener la licencia con proyecto básico.
+- Cumplir la condición para hacerla eficaz y poder ejecutar.
+- Obtener la licencia de primera utilización al finalizar.
+
+Los 15 días del artículo 194.6 no llevan la indicación «naturales»: se computan conforme a la regla general de días hábiles de la LPAC. El precepto no configura expresamente un segundo silencio positivo autónomo de 15 días. No inventarlo.
+
+El proyecto de ejecución no permite alterar unilateralmente la licencia obtenida. Las modificaciones que cambien lo autorizado necesitan el control correspondiente.
+
+La obligación de proyecto técnico y la de visado colegial son cuestiones distintas. No todo documento técnico debe ir visado por el mero hecho de presentarse al Ayuntamiento; rige el sistema de visado obligatorio del RD 1000/2010 y la normativa profesional, sin perjuicio de los supuestos legalmente exigibles. [N12]
+
+En edificación, el artículo 2 RD 1000/2010 comprende proyecto de EJECUCIÓN y certificado FINAL de las obras sometidas a proyecto LOE, documentación equivalente de legalización y proyecto de demolición sin explosivos, además de los demás trabajos tasados. El proyecto BÁSICO no figura por sí solo en esa lista. El artículo 4 prevé excepciones en contratación pública mediante supervisión de proyectos o comprobación equivalente en sus condiciones. El visado no acredita la compatibilidad urbanística ni sustituye la licencia.
+
+6.4. Presentación y relación electrónica
+
+La LPAC determina los sujetos obligados a relacionarse electrónicamente: personas jurídicas, entidades sin personalidad y profesionales colegiados en actuaciones realizadas en ejercicio de su actividad profesional, entre otros del artículo 14.2. Las personas físicas no obligadas conservan sus opciones legales.
+
+Si un obligado presenta presencialmente, se requiere subsanación electrónica y la fecha de presentación relevante es la de esta subsanación —artículo 68.4—.
+
+Las fichas municipales exigen documentación en formato digital y registro electrónico para los obligados. Descargar un impreso o calcular una autoliquidación en la web no equivale a presentarlo en registro. [M6 a M8]
+
+6.5. Revisión documental y subsanación
+
+Si faltan requisitos o documentos preceptivos, artículo 68.1 LPAC:
+- Requerimiento de subsanación.
+- Plazo de 10 días, hábiles por regla general.
+- Advertencia de desistimiento si no se atiende.
+- Resolución expresa que declare el desistimiento: no basta con «archivar sin más».
+
+Fuera de procedimientos selectivos o competitivos, puede ampliarse prudencialmente hasta 5 días cuando aportar la documentación presente dificultades especiales, de oficio o a petición del interesado.
+
+No confundir desistimiento por falta de subsanación con denegación por incompatibilidad material ni con caducidad de una licencia ya concedida.
+
+6.6. Informes e instrucción
+
+Artículo 194.4:
+a) Comunicación a las administraciones afectadas para que informen sobre sus competencias en el plazo previsto por su normativa.
+b) Incorporación de informe o informes técnicos de personal titulado competente que valoren conformidad con el planeamiento vigente.
+
+INFORME PREVIO DE HABITABILIDAD:
+- Para licencia de construcción de edificios de viviendas de NUEVA PLANTA.
+- Lo requiere la entidad local al departamento competente en vivienda.
+- Se limita a comprobar condiciones de habitabilidad y normativa básica de edificación.
+- Plazo máximo: 2 meses.
+- Si no se emite, se tiene por evacuado.
+
+Tener por evacuado un informe no equivale a otorgar una licencia ni permite incumplir las condiciones de habitabilidad.
+
+Conexión sectorial: el artículo 2.2.d DF 142/2004 incluye también proyectos de REFORMAS que afecten a las condiciones de habitabilidad. Por tanto, el ámbito literal del artículo 194.4.a TRLFOTU —nueva planta— no agota por sí solo todos los supuestos de informe previo derivados de la normativa de vivienda. [N14]
+
+El artículo 194.4 exige expresamente informes técnicos; no formula literalmente una exigencia general de «informe técnico y jurídico» para todos los supuestos. La Ordenanza sobre Procedimiento Urbanístico de Pamplona, en el texto municipal de consulta, artículo 52, contempla informe de técnico y letrado. Debe diferenciarse la fuente foral de la municipal y el alcance de esta última. [M2]
+
+Como regla común del artículo 80 LPAC, los informes son facultativos y no vinculantes salvo disposición expresa, y se emiten en 10 días salvo plazo distinto. Los informes sectoriales pueden ser preceptivos y vinculantes; no se les aplica indiscriminadamente la regla de informe favorable por falta de emisión.
+
+No toda licencia de obras requiere información pública o notificación a todos los vecinos. Esos trámites se exigen cuando lo establece el procedimiento aplicable; sí son característicos de la actividad clasificada.
+
+6.7. Audiencia
+
+Artículo 82 LPAC: antes de la propuesta de resolución, una vez instruido el procedimiento, se pone de manifiesto el expediente a los interesados por un plazo no inferior a 10 días ni superior a 15. Puede prescindirse si no figuran ni se consideran otros hechos, alegaciones y pruebas que los aportados por el interesado.
+
+No confundir esta audiencia general con los 15 días HÁBILES MÍNIMOS de audiencia en la caducidad del artículo 197.7 ni con los 15 días propios del procedimiento ambiental.
+
+6.8. Resolución y notificación
+
+La resolución debe:
+- Conceder o denegar, resolviendo las cuestiones del procedimiento.
+- Expresar las normas que justifican la decisión.
+- Concretar el acto y proyecto autorizados.
+- Establecer condiciones y plazos aplicables.
+- Incorporar la condición de eficacia relativa al proyecto de edificación cuando proceda.
+- Informar de los recursos, órgano y plazo.
+
+Se exige motivación TANTO para el otorgamiento COMO para la denegación. [N1, arts. 194.5 y 196.3]
+
+La notificación tiene su régimen propio: artículo 40 LPAC, cursarla en 10 días desde que se dicta el acto y con el contenido legal. En notificación electrónica obligatoria o expresamente elegida, el transcurso de 10 días NATURALES desde la puesta a disposición sin acceder determina su rechazo en los términos del artículo 43.2.
+
+La firma interna de una resolución no debe confundirse con la notificación o el intento acreditado de notificación relevante para el cumplimiento del plazo máximo conforme al artículo 40.4.
+
+6.9. Duración: dos meses y causas de suspensión
+
+Artículo 194.7 TRLFOTU: máximo de 2 meses desde que se presenta la DOCUMENTACIÓN COMPLETA en el registro general.
+
+No comienza automáticamente el cómputo material del precepto foral con un formulario carente de los documentos indispensables. La Administración debe tramitar y requerir adecuadamente la subsanación, sin ampararse en una indefinición permanente de lo que falta.
+
+El artículo 22 LPAC regula causas de suspensión: subsanación y aportación de documentos; determinados pronunciamientos e informes; pruebas y análisis; negociaciones para terminación convencional y otras legalmente previstas. La suspensión por informe preceptivo se comunica y tiene, con carácter general en ese supuesto, un límite de 3 meses. No toda petición interna de informe paraliza automáticamente el plazo.
+
+El artículo 23 permite excepcionalmente ampliar motivadamente el plazo máximo cuando se han agotado medios personales y materiales, sin superar el plazo establecido para tramitar el procedimiento. No equivale a una prórroga ordinaria a voluntad del órgano.
+
+======================================================================
+7. RESOLUCIÓN, SILENCIO Y CONTROL DE LEGALIDAD
+======================================================================
+
+7.1. Regla foral, excepción estatal y límite material
+
+La respuesta correcta exige TRES operaciones:
+1) Identificar el procedimiento y su plazo.
+2) Determinar el sentido del silencio aplicable al supuesto.
+3) Comprobar si la actuación es legalmente admisible.
+
+Artículo 194.7 TRLFOTU: pasados 2 meses desde documentación completa sin haberse comunicado acto alguno, se entiende otorgada la licencia, SALVO que la normativa básica estatal disponga lo contrario.
+
+El propio artículo 194.7 impide adquirir facultades contrarias a las leyes, la ordenación territorial y el planeamiento. El artículo 196.4 reitera que nunca se entienden otorgadas por silencio licencias contra la legislación o el planeamiento urbanísticos.
+
+NO SON EQUIVALENTES:
+- Silencio negativo: el ordenamiento atribuye desestimación a la inactividad.
+- Límite al silencio positivo: no se adquiere una facultad urbanística ilegal aunque el régimen general del procedimiento sea estimatorio.
+
+7.2. Artículo 11.4 TRLSRU y Sentencia del TC 143/2017
+
+La lectura del artículo 11.4 debe incorporar la STC 143/2017, FJ 23 y fallo, y la STC 75/2018. El BOE conserva notas de inconstitucionalidad e interpretación conforme. No estudiar como vigente sin matices toda la redacción originaria. [N3, N4]
+
+A) Movimientos de tierras y explanaciones: subsiste su previsión estatal de autorización expresa y silencio negativo. La sentencia diferencia los independientes de proyectos de urbanización, edificación o construcción; si están integrados, siguen el régimen del proyecto. Su fundamento ambiental no permite trasladar automáticamente esta regla a una mera división de fincas.
+
+B) Parcelaciones, segregaciones y demás divisiones de fincas: se declaró inconstitucional el inciso estatal que les imponía indiscriminadamente silencio negativo. Ello NO elimina la licencia que pueda exigir la legislación foral. Significa que no puede fundamentarse su silencio negativo únicamente en aquel inciso anulado.
+
+C) Obras de edificación de nueva planta: subsiste el silencio negativo estatal para la edificación comprendida en la Ley de Ordenación de la Edificación. No puede darse por concedida la licencia de un edificio nuevo por el simple transcurso de los dos meses del artículo 194.7.
+
+D) Otras construcciones e implantación de instalaciones de nueva planta que NO tengan carácter de edificación: la interpretación conforme mantiene la regla estatal de silencio negativo cuando se realizan en suelo rural CUYA TRANSFORMACIÓN URBANÍSTICA NO ESTÉ PREVISTA O PERMITIDA. No basta decir «en cualquier suelo» ni extenderla sin distinción a todo suelo urbanizable.
+
+E) Ubicación de casas prefabricadas e instalaciones similares, provisionales o permanentes: misma interpretación conforme del apartado c), referida al suelo rural cuya transformación no esté prevista o permitida. Si por sus características la actuación constituye además edificación en sentido legal, debe analizarse también ese título; llamarla «móvil» no resuelve el régimen aplicable.
+
+F) Tala de masas arbóreas o vegetación arbustiva: fue anulado el inciso referido a terrenos incorporados a procesos de transformación urbanística. Subsiste la regla cuando la tala derive de la legislación de protección del dominio público.
+
+La situación básica de suelo rural del TRLSRU y las clases de suelo del TRLFOTU no deben confundirse mecánicamente. La sentencia añade expresamente la condición relativa a la transformación prevista o permitida.
+
+7.3. Otros supuestos de silencio negativo
+
+El artículo 24.1 LPAC contempla, entre otros, procedimientos cuya estimación transfiera al solicitante o a terceros facultades relativas al dominio público o al servicio público, y los que impliquen actividades que puedan dañar el medio ambiente.
+
+La licencia de actividad clasificada tiene una regla especial inequívoca: 4 meses y silencio DESESTIMATORIO —artículo 42 LF 17/2020 y artículo 53 DF 26/2022—. No aplicarle los 2 meses estimatorios del régimen urbanístico general.
+
+La primera utilización, por su objeto propio, no aparece entre los supuestos del artículo 11.4 TRLSRU. En Navarra parte de la regla del artículo 194.7, con los límites de legalidad y las excepciones que correspondan al concreto expediente. No confundirla con la licencia para construir el edificio nuevo.
+
+7.4. Efectos del silencio según el artículo 24 LPAC
+
+- La estimación por silencio tiene consideración de acto administrativo finalizador del procedimiento.
+- La desestimación por silencio permite interponer el recurso procedente; no libera de resolver.
+- Tras silencio estimatorio, la resolución expresa posterior solo puede ser confirmatoria, sin perjuicio de los mecanismos legales de revisión de un acto inválido.
+- Tras silencio desestimatorio, la resolución expresa posterior no está vinculada al sentido negativo: puede conceder si procede.
+- El silencio puede acreditarse por cualquier medio de prueba admitido en Derecho, incluido certificado.
+- El certificado se expide de oficio en 15 días desde que vence el plazo máximo; el interesado puede pedirlo en cualquier momento, con el cómputo previsto en el artículo 24.4.
+
+El certificado no crea la licencia ni sana su ilegalidad. Tampoco la mera falta de certificado elimina un silencio válidamente producido.
+
+7.5. Nulidad y anulabilidad
+
+Artículo 196.5: son nulas de pleno derecho las licencias expresas o presuntas contrarias a la legislación o al planeamiento CUANDO SE CAREZCA DE LOS REQUISITOS ESENCIALES para obtenerlas.
+
+Artículo 194.7 contiene además su específica regla de nulidad de licencias e ineficacia de facultades obtenidas por silencio contra el ordenamiento urbanístico.
+
+No convertir cualquier defecto menor de una licencia expresa en nulidad de pleno derecho: deben distinguirse los supuestos del artículo 47 LPAC y la anulabilidad del artículo 48. La revisión de actos favorables sigue los procedimientos correspondientes; no se sustituye sin más por una nueva denegación informal.
+
+7.6. Recursos: conexión necesaria
+
+Contra resoluciones locales de Navarra que pongan fin a la vía administrativa deben distinguirse las alternativas legalmente previstas: recurso potestativo de reposición, recurso potestativo de alzada ante el Tribunal Administrativo de Navarra o impugnación contencioso-administrativa, según los artículos 333 y siguientes LF 6/1990 y la normativa procesal. No deben interponerse como si fueran recursos simultáneos e independientes contra el mismo acto.
+
+Referencias para actos expresos: reposición, 1 mes; alzada ante el TAN, 1 mes; contencioso, ordinariamente 2 meses. Frente al silencio deben aplicarse las reglas específicas, sin trasladar mecánicamente esos plazos del acto notificado. El órgano judicial competente no se identifica siempre con el Tribunal Superior de Justicia: se determina por la LJCA. [N2, N5, N16]
+
+======================================================================
+8. EFICACIA, PLAZOS, PRÓRROGAS, CADUCIDAD Y TRANSMISIÓN
+======================================================================
+
+8.1. Alcance de la autorización
+
+La licencia habilita únicamente para los actos solicitados, conforme a la legislación, el planeamiento y sus propias condiciones —artículo 197.1—. No es una autorización general para cualquier intervención posterior.
+
+Los actos deben ejecutarse dentro de los plazos de inicio y finalización establecidos por el planeamiento o determinados en la licencia. Todas las licencias deben incluirlos e indicar que su transcurso produce caducidad, que ha de declararse mediante el procedimiento correspondiente.
+
+8.2. Suministros: artículo 197.3
+
+Las suministradoras de electricidad, agua, gas, telefonía y demás servicios urbanos exigirán y conservarán copia de la licencia urbanística de los edificios e instalaciones generales sujetos a ella.
+
+Durante las obras la contratación es PROVISIONAL y no puede superar el plazo máximo de finalización de la licencia o de su prórroga. Un suministro de obra no acredita una primera ocupación autorizada.
+
+La regla está formulada para edificios e instalaciones sujetos a licencia: no permite exigir una licencia inexistente cuando una ley ha establecido válidamente otro título.
+
+8.3. Cambio del planeamiento: artículo 197.4
+
+Si entra en vigor una modificación o revisión y existe licencia:
+- SIN INICIAR los actos: se declarará extinguida su eficacia en cuanto sea disconforme con las nuevas determinaciones, previa fijación de la indemnización procedente por reducción o extinción de aprovechamiento, en su caso, y por los perjuicios causados.
+- CON EJECUCIÓN INICIADA: el Ayuntamiento PODRÁ modificarla o revocarla, previa fijación de la indemnización correspondiente.
+
+Trampa: no intercambiar «se declarará» y «podrá», ni identificar esta extinción por cambio de planeamiento con la caducidad por incumplimiento de plazos. Tampoco afirmar que todo cambio del plan anula automáticamente cualquier licencia.
+
+8.4. Plazos en defecto de determinación: artículo 197.6
+
+Si la licencia no especifica plazo de caducidad y el planeamiento no prevé otros, el precepto establece como PLAZOS MÍNIMOS:
+- 1 año para comenzar.
+- 3 años para finalizar.
+
+La literalidad dice «mínimos». No presentarlos como plazos máximos universales ni añadir que los tres años se cuentan necesariamente «desde el comienzo» si el precepto no lo establece así. La licencia debe concretar los hitos temporales.
+
+8.5. Declaración de caducidad: artículo 197.7
+
+Incumplidos los plazos, se inicia expediente y se da audiencia durante un período MÍNIMO DE 15 DÍAS HÁBILES. Declara la caducidad la Administración competente para conceder la licencia.
+
+El mero vencimiento no sustituye la declaración administrativa y la notificación exigidas por el sistema del artículo 197. La caducidad no es una sanción, aunque puedan concurrir infracciones por continuar obras sin título eficaz.
+
+8.6. Prórrogas: artículo 197.8
+
+Las entidades locales PODRÁN concederlas, previa solicitud expresa del titular:
+- No puede solicitarse válidamente antes de transcurrir al menos la MITAD del plazo.
+- Debe solicitarse «ANTES DE DOS MESES DE LA CONCLUSIÓN» del plazo de inicio o finalización: no basta pedirla el último día.
+- La referencia urbanística es la ordenación vigente cuando se concedió la licencia.
+
+La prórroga para COMENZAR comporta por sí misma la del plazo para ACABAR; este último debe indicarse expresamente.
+
+La prórroga para ACABAR solo puede solicitarse y obtenerse si se ha hecho la COBERTURA DE AGUAS del edificio conforme al proyecto técnico.
+
+El artículo 197.8 no fija una duración universal de toda prórroga igual a la mitad del plazo original. No confundir la mitad ya transcurrida necesaria para solicitarla con su duración.
+
+Ejemplo de estudio: en un plazo de inicio de 12 meses, no cabe solicitar válidamente la prórroga antes de haber transcurrido 6; además, debe respetarse la antelación de dos meses a su conclusión. No es una solicitud libre durante los 12 meses.
+
+8.7. Efectos posteriores a la caducidad
+
+Artículo 197.9: declarada y notificada, para comenzar o terminar las obras es necesaria NUEVA LICENCIA ajustada a la ordenación EN VIGOR, salvo la situación de suspensión de la concesión de licencias.
+
+Artículo 197.10: si no se pide la nueva licencia antes de 6 meses desde la notificación de caducidad —o desde el levantamiento de la suspensión—, o si, solicitada, debe denegarse, el Ayuntamiento PODRÁ acordar la expropiación de terrenos y obras por incumplimiento de la función social de la propiedad.
+
+No es una expropiación automática ni una multa; el texto prevé una potestad y exige el procedimiento que corresponda.
+
+8.8. Transmisión
+
+El artículo 197 no contiene una regulación específica de transmisión. La regla general complementaria se encuentra en el artículo 13 del Reglamento de Servicios: las licencias relativas a condiciones de una obra, instalación o servicio son transmisibles, pero antiguo y nuevo constructor o empresario deben comunicarlo por escrito; sin comunicación quedan ambos sujetos a las responsabilidades derivadas de la actuación amparada. [N7]
+
+La transmisión:
+- Cambia el titular; no modifica el objeto autorizado.
+- No reinicia por sí sola los plazos.
+- No sana defectos ni convierte una licencia caducada en eficaz.
+- No sustituye los permisos civiles o sectoriales que procedan.
+
+Las licencias vinculadas a condiciones personales y las limitadas en número tienen reglas especiales en el artículo 13; no universalizar la transmisión de todo permiso administrativo.
+
+En Pamplona, el artículo 10.3.i de la ordenanza de obras menores recoge comunicación escrita de antiguo y nuevo titular. Para actividades clasificadas rige además el artículo 51.3 LF 17/2020. [M3, N8]
+
+8.9. Suspensión del otorgamiento por planeamiento: artículo 70
+
+La Administración competente para la aprobación inicial puede suspender previamente el otorgamiento de licencias de parcelación, edificación y demolición en áreas o usos definidos, para estudiar la formación o reforma del plan. Debe publicarse en BON y, al menos, en los diarios editados en Navarra.
+
+La aprobación inicial produce por sí sola suspensión en las áreas expresamente señaladas cuyas nuevas determinaciones alteren el régimen vigente.
+
+Duraciones:
+- Suspensión previa de estudio: máximo 1 año.
+- Si dentro de ese año se aprueba inicialmente: hasta un máximo total de 2 años desde el acuerdo previo, en áreas afectadas.
+- Si la aprobación inicial es posterior a aquel año: su suspensión tiene máximo de 1 año.
+- Sin suspensión previa: la derivada de aprobación inicial tiene máximo de 2 años.
+- En todo caso termina con la aprobación definitiva.
+- Tras extinguirse, no puede acordarse otra por idéntica finalidad en 3 años.
+
+La Administración ordena la interrupción de procedimientos y lo notifica a los solicitantes anteriores. El artículo 70.6 reconoce a quienes solicitaron antes de publicarse la suspensión indemnización del coste oficial de los proyectos y devolución, en su caso, de tasas municipales.
+
+No confundir suspensión del otorgamiento, suspensión de la ejecución de una obra ilegal, suspensión del plazo procedimental y caducidad. Son instituciones distintas.
+
+======================================================================
+9. PRIMERA UTILIZACIÓN U OCUPACIÓN Y CAMBIO DE USO
+======================================================================
+
+9.1. Fundamento y finalidad
+
+Artículo 190.2.h: primera utilización u ocupación de edificios e instalaciones, en general, y modificación de su uso.
+
+La primera utilización comprueba que lo ejecutado se ajusta al proyecto autorizado y sus condiciones, que la parcela está urbanizada y que el edificio puede destinarse al uso previsto. No equivale a conceder nuevamente la licencia de obras ni es una legalización automática de desviaciones.
+
+Su objeto alcanza edificios e instalaciones EN GENERAL, no exclusivamente viviendas. No confundir «primera ocupación» con el primer contrato de compraventa ni con el empadronamiento.
+
+9.2. Documentación específica: artículo 194.2
+
+Los documentos de los apartados b) y c) del artículo 194.1 se sustituyen por CERTIFICACIÓN DEL FACULTATIVO DIRECTOR DE LA OBRA que acredite:
+1) Fecha de finalización de las obras.
+2) Ejecución conforme al proyecto aprobado.
+3) Cumplimiento de las condiciones impuestas en la licencia de obras, si existen.
+4) Que la parcela se encuentra urbanizada.
+5) Que la edificación está en condiciones de ser utilizada.
+
+No sustituye indiscriminadamente toda la solicitud ni las autorizaciones adicionales que resulten necesarias. La identidad del firmante es relevante: el precepto se refiere al facultativo director de la obra, no simplemente a cualquier persona que declare la terminación.
+
+9.3. Procedimiento y silencio
+
+Se solicita después de terminar la actuación y antes de ocupar o utilizar sin el título exigible. Se comprueba la documentación y la conformidad material, se recaban los informes necesarios y se resuelve motivadamente.
+
+Le resulta aplicable el artículo 194.7, sin perjuicio de especialidades legales: 2 meses desde documentación completa y regla estimatoria con las excepciones y límites ya expuestos. No deducir de esta regla que un edificio ilegal obtiene título de ocupación por inactividad.
+
+El artículo 11.5 TRLSRU prevé qué sucede CUANDO la legislación urbanística sustituye primera ocupación por declaración/comunicación: si no resulta el cumplimiento de requisitos, la Administración debe adoptar medidas de cese; si no lo hace en 6 meses, responde de perjuicios a terceros de buena fe y puede repetir contra el obligado. También prevé constancia registral.
+
+Ese artículo estatal NO sustituye por sí solo la licencia navarra de primera utilización ni concede a todo interesado la opción de elegir declaración responsable.
+
+9.4. Pamplona: documentación y alcance
+
+La sede utiliza el trámite «Utilización de construcciones y locales», que reúne apertura, modificación de uso, primera utilización y revisión de fin de obra. El que los reúna en una ficha no los hace jurídicamente idénticos. [M7]
+
+Para primera utilización, actividad clasificada o revisión fin de obra indica el certificado técnico municipal MODELO FIN OBRA. La documentación debe ajustarse al caso, al formulario y a las condiciones de la licencia. La guía municipal diferencia expresamente «solicitar licencia de primera utilización» de «declarar una apertura». [M9]
+
+Los artículos 71 y 72 del texto municipal de la Ordenanza sobre Procedimiento Urbanístico describen comprobación final, adecuación al proyecto y condiciones de urbanización y suministros. El documento disponible lleva la advertencia de refundición para uso interno sin tramitación oficial; no pueden trasladarse como vigentes sus referencias a órganos desaparecidos o formatos en papel. [M2]
+
+La existencia de tarifas para licencias parciales no establece por sí misma un derecho incondicionado a ocupar cualquier parte de una obra inacabada. Debe acreditarse la aptitud de la parte, las condiciones urbanísticas y de seguridad y el régimen aplicable al expediente. Los artículos 190 a 197 no contienen un procedimiento general detallado de ocupación parcial que permita inventar porcentajes o condiciones universales.
+
+9.5. Diferencia con habitabilidad y recepción de obra
+
+- Informe previo de habitabilidad: control foral anterior a la licencia de obra de vivienda nueva, artículo 194.4.a.
+- Licencia de primera utilización: control municipal de la edificación terminada y su uso.
+- Cédula de habitabilidad: documento del régimen foral de vivienda, con objeto propio; no sustituye automáticamente el título urbanístico.
+- Certificado final de obra: documento técnico; no es por sí solo una licencia.
+- Recepción de obra: acto entre los agentes que reciben y entregan la obra, con efectos de la LOE; no equivale a licencia municipal.
+- Recepción de urbanización: control de las obras de urbanización, distinto aunque pueda ser presupuesto para ocupar.
+
+No usar como prueba suficiente de legalidad urbanística el alta catastral, el suministro, el pago del IBI o la inscripción de un uso en otro registro. [N1, N13, N14]
+
+El DF 142/2004, artículos 2 y 5, regula la cédula como documento administrativo que acredita la habitabilidad para considerar una construcción vivienda apta para uso residencial habitual. El cumplimiento de las condiciones mínimas de habitabilidad NO presupone el cumplimiento urbanístico. La calificación definitiva de vivienda protegida tiene la equivalencia prevista por esa regulación; no confundirla con una licencia municipal. La publicación de un proyecto de nuevo decreto en participación pública no equivale a su aprobación y entrada en vigor.
+
+9.6. Modificación de uso
+
+El cambio de uso está expresamente sujeto a control en el artículo 190.2.h aunque no se ejecute obra. Convertir un local en vivienda, una vivienda en un uso turístico sujeto a licencia o implantar un uso diferente no se resuelve únicamente con la entidad material de las obras.
+
+Deben comprobarse compatibilidad del uso, determinaciones del plan, dotaciones, accesibilidad, seguridad, habitabilidad cuando proceda, catalogación y eventuales suspensiones. Una declaración de actividad inocua no sustituye una licencia de cambio de uso exigible.
+
+======================================================================
+10. ACTOS PROMOVIDOS POR ADMINISTRACIONES PÚBLICAS
+======================================================================
+
+10.1. No hay exención universal por titularidad pública
+
+La identidad pública del promotor no basta para excluir licencia o control urbanístico. Hay que identificar la Administración promotora, el municipio afectado, el tipo de obra y la norma de excepción.
+
+Tampoco la adjudicación de un contrato de obras ni la aprobación de un gasto sustituyen siempre el título urbanístico. Es distinto el acuerdo de aprobación de un proyecto al que la ley atribuye expresamente esa función.
+
+10.2. Obras del propio municipio y sus entes: artículos 190.4.a y 191
+
+El artículo 190.4.a exime los actos promovidos por el municipio EN SU PROPIO TÉRMINO y las obras públicas municipales, incluidas urbanizaciones ejecutadas por particulares en cumplimiento del planeamiento. El acuerdo de aprobación del proyecto debe ir precedido de acreditación de legalidad urbanística.
+
+El artículo 191 incluye proyectos de obras locales ordinarias promovidos por:
+- Administraciones municipales.
+- Organismos autónomos dependientes.
+- Sociedades dependientes.
+- Otros entes dependientes.
+
+Se tramitan y aprueban conforme al régimen local. Mediante la aprobación, el órgano competente controla su adecuación urbanística y no necesitan licencia previa a su ejecución material.
+
+El control subsiste, incorporado a la aprobación del proyecto. No debe extenderse esta regla, sin fundamento adicional, a la obra de un ayuntamiento en el término de otro ni a cualquier sociedad privada contratista de la Administración.
+
+10.3. Otras administraciones y exenciones sectoriales
+
+Las actuaciones del Estado, de Navarra o de otras entidades públicas deben examinarse con la normativa urbanística y sectorial. Pueden existir exenciones expresas para infraestructuras o procedimientos especiales de coordinación; la base general de reconocimiento de esas exenciones es el artículo 190.4.c.
+
+Los ejemplos del artículo 190.2.l —obras públicas de interés general relativas a presas, balsas, defensas y cauces— no autorizan a llamar «interés general» a cualquier construcción para eliminar la licencia.
+
+10.4. Artículo 47 TRLFOTU: planes y proyectos sectoriales
+
+Las obras previstas en un Plan o Proyecto Sectorial de Incidencia Supramunicipal pueden quedar exentas de licencia y de cualquier otro control PREVENTIVO local si se cumplen los requisitos legales. Subsisten las obligaciones tributarias ante las entidades locales.
+
+Secuencia completa:
+1) Construcción o reparación de infraestructuras, dotaciones e instalaciones y su puesta en funcionamiento, declaradas de INTERÉS GENERAL por el GOBIERNO DE NAVARRA. La declaración puede coincidir con la aprobación definitiva del plan/proyecto o realizarse después mediante decreto foral.
+2) Comunicación de la declaración a las entidades locales afectadas por el departamento competente en ordenación del territorio y urbanismo.
+3) Antes de iniciar obras o poner en funcionamiento, acreditación por el promotor ante ese departamento de adecuación del proyecto de ejecución al instrumento sectorial y a la normativa ambiental.
+4) Autorización departamental de ejecución, PREVIA AUDIENCIA a las entidades locales, con las determinaciones necesarias.
+5) Comunicación departamental del cumplimiento de requisitos a las entidades locales; desde esa notificación, el apartado 5 permite iniciar directamente obras o puesta en funcionamiento.
+6) Certificación de técnico competente al finalizar, acreditando el extremo y la ejecución conforme al proyecto; traslado a las entidades locales.
+7) Verificadas las condiciones, el departamento autoriza el inicio de la actividad.
+
+Los apartados 5, 6 y 7 contienen menciones sucesivas a puesta en funcionamiento e inicio. Deben conservarse para preguntas literales: no simplificar el artículo suprimiendo la autorización final del apartado 7 ni afirmar que basta la declaración inicial de interés general.
+
+No todo PSIS está automáticamente exento. La mera incidencia supramunicipal, la declaración de interés general y la autorización de ejecución son decisiones distintas. La norma habla del PROMOTOR, sin limitar todo su régimen a promotores que sean administraciones públicas.
+
+10.5. Disposición adicional quinta TRLFOTU
+
+En planes de usos mayoritariamente residenciales, la declaración de incidencia supramunicipal puede incluir la de interés general de obras y trabajos de tramitación, aprobación, ejecución y actuaciones derivadas. También puede hacerse en la aprobación definitiva.
+
+Puede incluir ejecución de viviendas protegidas. Antes de la calificación provisional, el departamento de vivienda solicita a la entidad local informe NO VINCULANTE sobre las obras, a emitir en máximo de 30 DÍAS NATURALES.
+
+La declaración posterior prevista en esta disposición puede adoptarse mediante ACUERDO del Gobierno de Navarra. No confundir esta previsión especial con la mención al decreto foral en el artículo 47.1.
+
+10.6. Administración General del Estado: disposición adicional décima TRLSRU
+
+Cuando el Estado o sus organismos públicos promueven actos sujetos a intervención municipal previa y concurren URGENCIA o EXCEPCIONAL INTERÉS PÚBLICO:
+a) El ministro competente puede remitir el proyecto al Ayuntamiento para que en 1 MES notifique conformidad o disconformidad con la ordenación urbanística.
+b) Si hay disconformidad, el departamento interesado lo remite al titular del ministerio competente en suelo y vivienda, que lo eleva al Consejo de Ministros, previo informe autonómico en 1 MES.
+c) El Consejo de Ministros decide si procede ejecutar; en caso afirmativo ordena iniciar la alteración de la ordenación urbanística por su procedimiento legal.
+d) El Ayuntamiento puede suspender en los supuestos del apartado 2 antes de esa decisión, con las comunicaciones exigidas.
+e) Para suspender obras que afecten directamente a la DEFENSA NACIONAL se requiere acuerdo del Consejo de Ministros, a propuesta del ministerio competente en suelo y vivienda, previa solicitud municipal e informe de Defensa.
+
+Si además concurren los requisitos de emergencia del artículo 120 de la Ley 9/2017 y se declara conjuntamente en la orden ministerial correspondiente:
+- Plazo municipal: 5 DÍAS NATURALES.
+- Informe autonómico: 5 DÍAS NATURALES.
+- La falta de pronunciamiento permite continuar el procedimiento.
+
+No se trata de una autorización automática por silencio del Ayuntamiento ni de una exención general de legalidad. El procedimiento especial tiene órganos y presupuestos tasados. [N3]
+
+======================================================================
+11. APERTURA Y ACTIVIDADES CON INCIDENCIA AMBIENTAL
+======================================================================
+
+11.1. Qué significa «apertura»
+
+La apertura es la puesta en funcionamiento de un establecimiento para un uso o actividad determinados. Su control puede comprender compatibilidad urbanística, seguridad, salubridad, accesibilidad, protección ambiental y requisitos sectoriales. No existe una única «licencia de apertura» que deba exigirse de igual manera a cualquier establecimiento.
+
+Hay que identificar por separado:
+1) Si el uso es urbanísticamente admisible y si se modifica el uso autorizado.
+2) Si las obras exigen licencia o declaración/comunicación.
+3) Si la actividad está sometida a autorización ambiental integrada —AAI—, autorización ambiental unificada —AAU— o licencia de actividad clasificada —LAC—.
+4) Qué título permite la primera utilización y la puesta en funcionamiento.
+5) Qué autorizaciones sectoriales adicionales corresponden.
+
+«Inocua» es una denominación municipal que debe emplearse una vez descartada la sujeción a los títulos de intervención ambiental previa que correspondan; no significa exenta de toda regulación. No llamar inocua a una instalación sometida a AAI por el solo hecho de que no precise una LAC adicional. Una actividad comercial no es necesariamente inocua ni toda actividad de servicios está incluida en la Ley 12/2012.
+
+11.2. Normativa ambiental aplicable
+
+La referencia vigente es la LF 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, desarrollada por el DF 26/2022, de 30 de marzo. Para este tema interesan especialmente los artículos 38 a 52 de la ley y 45 a 63 del reglamento. [N8, N9]
+
+El régimen ambiental se determina por el tipo y las características de la actividad, los anejos y los umbrales correspondientes. No lo elige el interesado. No deben sumarse automáticamente LAC, AAU y AAI para una misma instalación: la ley distribuye los regímenes y regula su transición en los artículos 53 y 54. Los títulos urbanísticos y sectoriales que procedan conservan su objeto propio.
+
+La antigua secuencia general «licencia de actividad clasificada + licencia de apertura de la LF 4/2005» no es la exposición correcta del régimen nuevo. La LF 17/2020 exige licencia de actividad clasificada y, para su puesta en marcha, DECLARACIÓN RESPONSABLE, sin perjuicio de los restantes controles.
+
+11.3. Actos sujetos a licencia de actividad clasificada
+
+Artículo 38 LF 17/2020: implantación, funcionamiento y modificación de instalaciones de titularidad PÚBLICA O PRIVADA incluidas en el ANEJO 3. La licencia precede a su construcción, montaje o traslado y se adapta a sus modificaciones. Las modificaciones se someten al régimen diferenciado de sustanciales y no sustanciales explicado más adelante.
+
+La licencia debe obtenerse antes de la construcción, montaje o traslado, con las excepciones legalmente previstas para anticipar determinadas obras. No se limita a actividades privadas: la titularidad pública no elimina su incidencia ambiental.
+
+Se presenta la solicitud a la entidad local del término municipal donde se ubique la actividad, acompañada de proyecto técnico. El titular es la persona física o jurídica que explote total o parcialmente, o posea, la instalación. [N9, art. 45]
+
+El artículo 38.4 remite la competencia de la entidad local a la legislación local. El artículo 39 exige coordinar los controles: otorgamiento, modificación y revisión no pueden hacerse efectivos sin disponer, cuando proceda, de autorizaciones sustantivas y otros medios de intervención exigibles por seguridad, salud o medio ambiente. La LAC se otorga sin perjuicio de los títulos necesarios para ocupación, utilización o vertido al dominio público hidráulico.
+
+11.4. Procedimiento completo de nueva licencia de actividad clasificada
+
+PASO 1. Solicitud y proyecto técnico.
+El cómputo parte de la solicitud acompañada del proyecto exigible. El proyecto del artículo 46 DF 26/2022 desarrolla actividad, instalaciones, superficies, procesos, materias primas, maquinaria, productos o servicios; emisiones a aire, agua y suelo; ruido y vibraciones; residuos y códigos LER; medidas correctoras, depuración, eficiencia de agua y energía; control y vigilancia; incendios; aspectos de salud y protección civil; documentación territorial y ambiental si se ubica en suelo no urbanizable; y documentación sectorial, fianzas o seguros cuando proceda.
+
+Consta de memoria, diagrama de flujo del proceso, documentación gráfica y presupuesto de las medidas de protección ambiental. No confundirlo con un simple presupuesto de obras menores. La justificación de si requiere informe de salud o protección civil debe ser expresa; los anejos correspondientes incorporan su documentación específica.
+
+PASO 2. Admisión.
+El órgano competente puede inadmitir de forma expresa y motivada en 15 días por razones de competencia municipal basadas en el planeamiento o las ordenanzas. Este plazo no es el de concesión de la licencia. [N9, art. 47]
+
+PASO 3. Información pública y comunicación a colindantes.
+Completada la documentación, información pública por un período NO INFERIOR A 20 DÍAS, con publicación en el BON, anuncio en el tablón municipal y notificación personal a propietarios Y ocupantes de fincas inmediatas. En municipios compuestos, también a los concejos.
+
+Puede ser común con la información pública de la autorización administrativa sustantiva. Se excluyen los datos declarados confidenciales conforme al ordenamiento, previa solicitud del promotor; no todo el expediente por decisión unilateral de este.
+
+Las alegaciones y observaciones se trasladan al promotor para manifestarse en 15 días. [N9, art. 48]
+
+PASO 4. Informes.
+Concluida la información pública, informes de los servicios técnicos locales y remisión del expediente y alegaciones a las administraciones competentes.
+- Si requiere autorización de actividad en suelo no urbanizable, debe tramitarse antes de conceder la licencia. Su denegación determina resolución motivada de terminación y archivo.
+- Anejo I del DF: supuestos de protección civil.
+- Anejo II del DF: supuestos de salud.
+- También interviene protección civil en los supuestos de accidentes graves con sustancias peligrosas previstos por la normativa correspondiente.
+- Los informes del artículo 49 son PRECEPTIVOS Y VINCULANTES para la entidad local.
+- Plazo general de estos informes: 1 MES desde la recepción del resultado de la información pública, salvo plazo mayor permitido por su normativa. Si no se emiten y notifican, continúa la tramitación.
+
+Continuar la tramitación no convierte un proyecto contrario a la normativa en autorizable ni equivale a tener por favorable cualquier autorización distinta. [N9, art. 49]
+
+PASO 5. Vertidos y servicios.
+La licencia incorpora, cuando proceda, condiciones de vertido a red pública de saneamiento. Se recaba informe de las mancomunidades competentes sobre aceptación de vertidos o residuos cuando corresponda. No confundir vertido a colector con vertido directo al dominio público hidráulico. [N9, arts. 51 y 54]
+
+PASO 6. Propuesta y audiencia.
+La propuesta contesta alegaciones, se pronuncia sobre cumplimiento urbanístico y ambiental e incorpora, en su caso, aceptación de vertidos o residuos. Audiencia al solicitante y demás interesados por 15 días. Las alegaciones sobre materias objeto de informe vinculante se remiten al órgano que lo emitió, para su pronunciamiento vinculante en su ámbito. [N9, art. 52]
+
+PASO 7. Resolución, notificación y publicidad.
+Máximo de 4 MESES desde documentación completa para dictar Y notificar. SILENCIO DESESTIMATORIO.
+La resolución debe motivarse, valorar las alegaciones y contener las condiciones legales. Se notifica al titular, órganos que hayan emitido informe vinculante, quienes hayan alegado y demás interesados. Se publica en el BON.
+En municipios compuestos se traslada la concesión a los concejos en 5 días. [N8, art. 42; N9, art. 53]
+
+Los días de este procedimiento que no se califican como naturales se rigen por el cómputo común de días hábiles.
+
+11.5. Contenido, deberes y responsabilidad
+
+Artículo 43 LF 17/2020: valores límite de emisión y medidas equivalentes; procedimientos y métodos de gestión de residuos; medidas correctoras; condiciones de control; fianza o seguro cuando proceda; y otras condiciones necesarias. Las exigencias de calidad ambiental pueden justificar condiciones más rigurosas que las alcanzables mediante las mejores técnicas disponibles en los términos de la ley.
+
+El titular debe disponer del título, cumplir sus condiciones, realizar los controles y suministrar la información exigida, comunicar modificaciones y transmisión, comunicar sin demora incidentes o accidentes relevantes y colaborar con inspección. Los titulares responden de las medidas, condiciones y efectos ambientales del funcionamiento. El cumplimiento formal de la licencia no excluye otras responsabilidades legales. [N8, arts. 40 y 49]
+
+11.6. Relación con la licencia de obras
+
+REGLA: no se conceden licencias de obras de actividades clasificadas sin la LAC correspondiente. La coordinación no se satisface diciendo que ambos expedientes «se presentaron a la vez». [N8, art. 51.2]
+
+EXCEPCIÓN: ciertas actividades de baja incidencia ambiental que no deban ser objeto de informe previo de protección civil, en los términos y condiciones de la ordenanza local. El artículo 55 DF 26/2022 concreta que deben concurrir:
+a) No necesitar autorización de actividades en suelo no urbanizable.
+b) No presentar riesgos para la seguridad de las personas.
+c) No presentar riesgos para la salud de las personas.
+d) No requerir autorización ganadera.
+
+La ejecución anticipada queda bajo exclusiva responsabilidad del titular. No condiciona el otorgamiento o denegación de la LAC ni evita adaptar las obras a las condiciones finalmente impuestas. Deben leerse conjuntamente la ley, el reglamento y la regulación municipal aplicable. No se presume una habilitación general para anticipar obras en Pamplona sin comprobar esos presupuestos.
+
+Regla específica sobre MODIFICACIÓN SUSTANCIAL: el artículo 61.4 DF 26/2022 prohíbe conceder licencias de obras mientras no se resuelva el correspondiente procedimiento de modificación sustancial. No trasladar sin examen la excepción de instalaciones nuevas a este supuesto especial.
+
+11.7. Puesta en marcha: declaración responsable ambiental
+
+Concedida la LAC, el plazo de puesta en marcha es de 2 AÑOS, salvo que la licencia establezca otro. Antes de iniciar debe presentarse declaración responsable del promotor, con la documentación y manifestaciones exigidas, acreditando el cumplimiento de las condiciones y el compromiso de mantenerlo. El reglamento exige manifestar también la fecha de inicio. [N8, art. 44; N9, art. 56]
+
+La presentación permite comenzar el funcionamiento en los términos legales, sin esperar una «licencia ambiental de apertura» adicional del régimen derogado. No constituye pronunciamiento favorable municipal sobre toda la documentación ni dispensa de títulos urbanísticos o sectoriales independientes.
+
+Si se realizan vertidos al dominio público hidráulico sujetos a autorización del organismo de cuenca, debe acompañarse la AUTORIZACIÓN DE VERTIDO a la declaración de puesta en marcha. Una mera solicitud de esa autorización no equivale a tenerla. [N9, art. 56.3]
+
+Si vence el plazo sin presentar la declaración, la ley contempla pérdida de eficacia. En proyectos no ejecutados en su totalidad, caduca la parte de licencia relativa a instalaciones o procesos NO INCLUIDOS en la declaración de puesta en marcha parcial. El reglamento exige resolución expresa de caducidad, total o parcial, previa audiencia. No confundir con la caducidad de la licencia urbanística ni aplicar automáticamente sus plazos de uno y tres años. [N8, art. 45; N9, art. 56]
+
+11.8. Modificación de la actividad
+
+A) Modificación NO sustancial.
+Debe comunicarse, razonando su consideración como no sustancial y aportando documentación justificativa. Puede realizarse si en 1 MES el órgano competente no manifiesta lo contrario. No afirmar que todas las comunicaciones ambientales producen efectos inmediatos por aplicación aislada del artículo 69 LPAC. [N8, art. 48; N9, arts. 57 y 62]
+
+El artículo 57 DF 26/2022 exige pronunciamiento sobre el tipo de modificación en un mes. La resolución que determina ese tipo tiene vigencia de 4 MESES: si no se inicia el procedimiento correspondiente dentro de ese plazo, pierde eficacia y debe notificarse de nuevo la modificación pretendida. Este plazo no es el de resolución de una nueva LAC.
+
+B) Modificación SUSTANCIAL.
+No puede ejecutarse antes de modificar la licencia. Se atiende a características, procesos, funcionamiento, extensión e incremento de incidencia ambiental y a los criterios reglamentarios; no se decide solo por el coste de las obras. Las sucesivas modificaciones no sustanciales se valoran acumuladamente cuando alcanzan los criterios del artículo 58.
+
+El procedimiento del artículo 59 DF 26/2022 presenta diferencias respecto de la implantación inicial:
+- Solicitud y proyecto de modificación.
+- Subsanación: 10 días.
+- Información pública: NO INFERIOR A 15 DÍAS, no 20.
+- Traslado al titular de alegaciones: 15 días.
+- Informes vinculantes sobre condiciones afectadas: máximo 1 mes.
+- Audiencia sobre propuesta: 15 días.
+- Nueva consulta sobre alegaciones a materias vinculantes: máximo 15 días.
+- Resolución y notificación: 3 MESES, no 4; el artículo 59.7 no establece por sí mismo una regla de silencio positivo. La incidencia ambiental impide deducir de esa omisión una autorización por silencio.
+- Notificación a los destinatarios legales y publicación en BON.
+
+La puesta en funcionamiento de la modificación dispone de 2 AÑOS salvo plazo distinto y exige declaración responsable previa. Sus condiciones se aplican desde la presentación de esa declaración. Vencido el plazo sin puesta en funcionamiento, caducidad y resolución expresa previa audiencia. [N9, arts. 60 y 61]
+
+C) Modificación de condiciones y de oficio.
+No confundir modificación material de la instalación con modificación de condiciones de la licencia a solicitud del titular o por la Administración. Los artículos 46 y 47 LF 17/2020 regulan estas últimas. La evolución de la contaminación, la seguridad, las técnicas o la normativa puede exigir revisar condiciones en los supuestos legales.
+
+11.9. Transmisión, cierre y otros títulos
+
+La LAC se otorga salvo derecho de propiedad y sin perjuicio de tercero. Es transmisible: la transmisión debe comunicarse a la entidad local. El artículo 51.3 LF 17/2020 no fija un plazo general de quince días para comunicarla; no importarlo sin base desde una norma derogada.
+
+El artículo 52 regula el cierre. La mera baja fiscal no sustituye la comunicación ambiental ni las obligaciones de dejar el emplazamiento en las condiciones exigibles. La inspección y el restablecimiento de la legalidad son compatibles con el régimen de declaración de puesta en marcha.
+
+Para actividades sometidas a AAI o AAU deben seguirse sus procedimientos y controles específicos. La exención de licencia urbanística de una obra pública tampoco implica automáticamente exención de intervención ambiental. Por ejemplo, la LF 17/2020 contiene previsiones propias sobre actividades promovidas por el Gobierno de Navarra; no se deduce su tratamiento solo del artículo 191 TRLFOTU.
+
+======================================================================
+12. DECLARACIÓN RESPONSABLE Y COMUNICACIÓN: ARTÍCULO 69 LPAC
+======================================================================
+
+12.1. Declaración responsable: cuatro elementos
+
+Documento suscrito por un interesado en el que manifiesta, bajo su responsabilidad:
+1) Que cumple los requisitos establecidos en la normativa vigente para obtener el reconocimiento de un derecho o facultad o para su ejercicio.
+2) Que dispone de la documentación que lo acredita.
+3) Que la pondrá a disposición de la Administración cuando le sea requerida.
+4) Que se compromete a mantener el cumplimiento de esas obligaciones durante el período inherente al reconocimiento o ejercicio.
+
+Los requisitos deben estar recogidos de manera expresa, clara y precisa en la declaración. La Administración puede requerir en cualquier momento la documentación acreditativa; el interesado debe aportarla. [N2, art. 69.1]
+
+No es una solicitud de licencia, un permiso provisional concedido por silencio ni una simple afirmación de intenciones. Debe existir cumplimiento real en el momento exigible. No basta declarar que «se cumplirá cuando el Ayuntamiento revise».
+
+12.2. Comunicación: concepto
+
+Documento mediante el cual los interesados ponen en conocimiento de la Administración pública competente sus datos identificativos o cualquier otro dato relevante para iniciar una actividad o ejercer un derecho. [N2, art. 69.2]
+
+La ley utiliza «comunicación»; el TRLFOTU y algunas ordenanzas emplean «comunicación previa». La diferencia conceptual es que la declaración incorpora manifestación responsable de cumplimiento y disponibilidad documental, mientras la comunicación transmite datos relevantes. Las concretas exigencias documentales dependen de la regulación aplicable.
+
+12.3. Efectos desde la presentación
+
+Como regla del artículo 69.3, permiten el reconocimiento o ejercicio de un derecho o el inicio de una actividad DESDE EL DÍA DE SU PRESENTACIÓN, sin perjuicio de comprobación, control e inspección.
+
+EXCEPCIÓN EXPRESA: la comunicación puede presentarse dentro de un plazo posterior al inicio cuando la legislación correspondiente lo prevea expresamente. No cabe decidir libremente comunicar después.
+
+Los títulos sectoriales independientes deben haberse obtenido cuando sean necesarios. El efecto inmediato no salva la falta de compatibilidad urbanística, la falta de autorización patrimonial o demanial ni el empleo de declaración para un supuesto sometido a licencia.
+
+No se «concede por silencio» una declaración: la habilitación procede de la ley y de una presentación válida y veraz. Que no exista autorización previa no elimina la posibilidad de revisión posterior.
+
+12.4. Inexactitud, falsedad, omisión y falta de presentación
+
+Artículo 69.4: inexactitud, falsedad u omisión ESENCIAL de datos o información incorporados a una declaración o comunicación; no presentación de la declaración; no presentación de documentación requerida para acreditar lo declarado; o no presentación de comunicación.
+
+Consecuencia: imposibilidad de CONTINUAR el ejercicio del derecho o actividad afectada desde que se tenga constancia de los hechos, sin perjuicio de responsabilidades penales, civiles o administrativas.
+
+La resolución puede imponer restitución de la situación jurídica al momento previo y determinar imposibilidad de instar nuevo procedimiento con el mismo objeto durante un período establecido POR LA LEY, en los términos de la normativa sectorial. El artículo 69 no fija por sí mismo un período universal de uno, dos o tres años.
+
+No toda errata equivale a falsedad esencial. Debe distinguirse defecto subsanable, incumplimiento material y ausencia de un título imprescindible; la decisión y sus medidas deben ajustarse al procedimiento y motivación correspondientes.
+
+12.5. Modelos y prohibición de duplicidad
+
+Las administraciones deben tener permanentemente publicados y actualizados los modelos de declaración y comunicación, accesibles de forma fácil a los interesados. [N2, art. 69.5]
+
+Únicamente puede exigirse UNA de ambas figuras para iniciar una misma actividad u obtener reconocimiento de un mismo derecho o facultad; no pueden exigirse acumulativamente declaración Y comunicación para lo mismo. [N2, art. 69.6]
+
+Esto no impide títulos distintos para objetos distintos: obras, uso, actividad ambiental y ocupación del dominio público. La coordinación debe evitar cargas duplicadas sin suprimir controles legalmente necesarios.
+
+======================================================================
+13. ARTÍCULOS 192 Y 195 TRLFOTU: RÉGIMEN URBANÍSTICO
+======================================================================
+
+13.1. Catálogo completo del artículo 192.1
+
+A) Obras ligadas al acondicionamiento de locales para actividades comerciales minoristas y prestación de determinados servicios, en los términos de la normativa sectorial aplicable.
+La remisión no convierte toda reforma comercial, cualquiera que sea su entidad, en una declaración. Deben comprobarse Ley 12/2012, proyecto exigible y demás requisitos.
+
+B) Actuaciones de pequeña entidad que determinen las ordenanzas municipales.
+No hay una cifra económica universal fijada por esta letra.
+
+C) Cerramientos y vallados.
+
+D) Carteles publicitarios visibles desde la vía pública.
+Puede subsistir normativa de publicidad, paisaje, patrimonio y dominio público. «Visible desde» no significa necesariamente colocado «sobre» dominio público.
+
+E) Obras menores.
+
+F) Trabajos previos a la construcción: sondeos, prospecciones, catas y ensayos.
+No autorizan por sí mismos la posterior construcción ni cualquier movimiento de tierras ajeno a su objeto.
+
+G) Instalaciones de aprovechamiento de energía solar para autoconsumo sobre edificaciones o construcciones y pérgolas de aparcamientos, SIN LIMITACIÓN DE POTENCIA.
+Excepciones expresas:
+- En edificios declarados bienes de interés cultural o catalogados, con la remisión al artículo 62.7.c: preservación de valores protegidos y previo informe favorable o autorización, según proceda, del órgano competente del régimen de protección.
+- Cuando afecten a la estructura o cimentación.
+- Cuando requieran evaluación de impacto ambiental conforme a la normativa aplicable.
+No extender automáticamente esta letra a cualquier planta solar sobre terreno libre. Ni inventar un máximo de kilovatios que el artículo no contiene.
+
+H) Puntos de recarga de vehículos eléctricos situados en el INTERIOR de edificaciones, salvo que pudieran suponer impacto sobre bienes declarados de interés cultural o sujetos a CUALQUIER OTRO RÉGIMEN DE PROTECCIÓN.
+
+13.2. Conexión sectorial imprescindible: puntos de recarga
+
+El artículo 192.1.h describe literalmente su supuesto foral, pero no agota la normativa aplicable. El artículo 48.5 de la Ley 24/2013, del Sector Eléctrico, establece para la instalación de puntos de recarga la sustitución de licencias o autorizaciones previas de obras, instalaciones, funcionamiento o actividad, ambientales o análogas, por declaración responsable; exceptúa edificaciones del patrimonio histórico-artístico con categoría de BIC. Permite instalar e iniciar el servicio desde la presentación, con controles posteriores. [N17]
+
+Por tanto, de que la letra h diga «interior» NO se deduce que todo punto exterior requiera licencia urbanística. Debe aplicarse también la legislación sectorial. Hay que diferenciar el punto de recarga de sus infraestructuras eléctricas de alimentación y de las condiciones de acceso y conexión, seguridad industrial o utilización del dominio público que correspondan.
+
+Para una pregunta literal sobre el artículo 192, responder su redacción; para un supuesto práctico, integrar las normas aplicables y las protecciones patrimoniales. No equiparar sin más la categoría municipal «catalogado» con la categoría legal BIC del precepto estatal.
+
+13.3. Obra menor: artículo 192.1.e y definición municipal
+
+El artículo 192.1.e incluye las obras menores, pero NO contiene su definición. El artículo 192.2 preserva las facultades locales de inspección, control y sanción de obras que no se ajusten a legislación, planeamiento o declaración. No atribuir a ese apartado la definición de una ordenanza.
+
+En Pamplona, el artículo 2 de la ordenanza de obras menores caracteriza conjuntamente esta categoría por:
+
+Caracterizada por:
+- Sencillez técnica.
+- Escasa entidad constructiva y económica.
+- Normalmente, pequeñas obras de reparación, decoración, ornato o cerramiento.
+- No precisar proyecto técnico ni presupuestos elevados.
+
+El texto municipal excluye alteración de volumen o superficie construida, del uso objetivo, reestructuración, redistribución o modificación sustancial de elementos estructurales o comunes, modificación sustancial del diseño exterior, alteración del número de viviendas y afección a la estructura o condiciones de habitabilidad o seguridad. Debe leerse junto con las categorías concretas admitidas y las exclusiones de la propia ordenanza. [M3]
+
+No existe en el artículo 192 un importe exacto universal de «obra menor». Tampoco se obtiene esa condición por fraccionar artificialmente una intervención. Un cambio de uso o una división de vivienda no se transforma en obra menor porque sus materiales cuesten poco.
+
+13.4. Artículo 195: documentación y efectos
+
+La entidad local puede concretar por ordenanza la documentación y el procedimiento de control, respetando la ley. No puede ampliar sin respaldo legal los supuestos sujetos a licencia.
+
+El artículo 195.2 establece presentación dirigida a la entidad local competente, SUSCRITA POR EL PROMOTOR, con este contenido mínimo, ampliable por normativa municipal:
+a) Instancia con los datos del procedimiento administrativo común.
+b) Manifestación expresa del cumplimiento de requisitos, incluido estar en posesión de la documentación que lo acredita.
+c) Documentación exigida por la normativa específica y, como mínimo:
+  c.1) Documentación GRÁFICA de ubicación del inmueble y descripción suficiente de la actuación.
+  c.2) PRESUPUESTO y justificante de pago de TASAS E IMPUESTOS correspondientes.
+  c.3) PERMISOS Y AUTORIZACIONES exigidos por la normativa aplicable.
+
+La documentación técnica adicional depende de la actuación y de la normativa correspondiente. No confundir simplificación del control con dispensa de documentación. El artículo 195.3 exige requerir subsanación si la comunicación presenta deficiencias, incumplimiento o falta de concreción de requisitos, o información imprecisa para valorar la legalidad; no fija en ese apartado un número específico de días.
+
+Las declaraciones y comunicaciones permiten realizar la actuación desde su presentación, sin perjuicio de las facultades municipales de comprobación, control e inspección. No hay que esperar por sistema una resolución de conformidad para que nazca la habilitación legal.
+
+El artículo 195.4 vincula la inexactitud, falsedad u omisión esencial en datos, manifestaciones o documentos de la declaración, su no presentación y la inobservancia de requisitos a la imposibilidad de INICIAR la actividad urbanística, desde que se conozcan los hechos, sin perjuicio de responsabilidades. El artículo 69.4 LPAC habla de imposibilidad de CONTINUAR. Las fórmulas son complementarias en su aplicación: una declaración defectuosa en elementos esenciales no ampara iniciar ni continuar una actuación ilegal.
+
+El titular puede comprobar previamente la VIABILIDAD URBANÍSTICA de la actividad mediante una consulta urbanística, si lo estima conveniente. Es facultativa, no requisito general para declarar. [N1, art. 195.5]
+
+El artículo 195.6 impide adquirir por DECLARACIÓN RESPONSABLE facultades contrarias a la legislación o al planeamiento. El apartado 7 declara nulas de pleno derecho las declaraciones responsables contrarias a esas normas cuando falten requisitos esenciales para su eficacia. Es una formulación expresa de la ley foral; no significa que la declaración del particular sea una resolución municipal de concesión. Las comunicaciones tampoco dispensan del cumplimiento normativo, pero no debe alterarse la figura citada literalmente por esos apartados.
+
+El artículo 195.8 se refiere literalmente a actuaciones sujetas a DECLARACIÓN RESPONSABLE realizadas sin presentarla cuando es preceptiva: las considera actuaciones sin licencia a todos los efectos y aplica su mismo régimen de protección de legalidad y sancionador. No añadir «comunicación» a una pregunta de literalidad de ese apartado. Para incumplimientos de comunicación deben aplicarse las disposiciones que correspondan, incluido el artículo 69 LPAC. Presentar el documento después no borra automáticamente una infracción ya cometida.
+
+13.5. Secuencia práctica correcta
+
+1) Clasificar la actuación conforme a la ley y comprobar planeamiento y afecciones.
+2) Obtener antes los títulos independientes exigibles.
+3) Preparar formulario, documentación técnica y justificantes legalmente necesarios.
+4) Presentar en el registro competente.
+5) Ejecutar únicamente lo declarado, dentro de los límites y plazos aplicables.
+6) Conservar y facilitar documentos, atender inspección y subsanar lo procedente.
+7) Tramitar el título de utilización o puesta en funcionamiento cuando corresponda.
+
+La autoliquidación tributaria, la cita con un técnico, el informe profesional previo o la mera descarga del formulario no sustituyen la presentación.
+
+======================================================================
+14. APLICACIÓN EN PAMPLONA Y CONEXIÓN CON EL TEMA 36
+======================================================================
+
+14.1. Mapa de documentos municipales
+
+A) Ordenanza sobre Procedimiento Urbanístico. [M2]
+El Ayuntamiento publica un texto refundido de consulta con advertencia expresa: «Texto Refundido para uso interno. Documento sin tramitación oficial». Contiene regulación de licencias, informes, plazos, terminación y utilización, pero conserva referencias y órganos antiguos. No es correcto tratar ese PDF como una nueva ordenanza aprobada en septiembre de 2025 por la fecha de su carpeta web.
+
+B) Ordenanza reguladora de las licencias urbanísticas de obras menores. [M3]
+Publicada en BON de 23/05/2007; regula actuaciones comunicadas y procedimiento abreviado, con sus documentos y plazos. Su texto debe leerse conforme a las leyes posteriores que han sustituido licencias por declaraciones/comunicaciones. El programa del Tema 36 la cita expresamente.
+
+C) Ordenanza reguladora del procedimiento de control posterior al inicio de actividades sometidas a declaración responsable o comunicación previa. [M4]
+Publicada en BON de 12/05/2014. Regula comprobación, inspección, subsanación e ineficacia. Es fuente central del Tema 36 y necesaria aquí para los efectos de la declaración.
+
+D) Sede municipal y guía «Licencias de urbanismo». [M6 a M9]
+Permiten identificar formularios y práctica administrativa actual. Deben interpretarse con las leyes y ordenanzas, no como sustitución de ellas.
+
+14.2. Obras menores: ámbito y exclusiones de la ordenanza de 2007
+
+La ordenanza diferencia comunicación de obras menores simples y procedimiento abreviado. Define obra menor por sencillez técnica y escasa entidad constructiva y económica. Entre sus exclusiones figuran las actuaciones de nueva edificación o intervención sujetas a proyecto de la LOE, alteraciones estructurales o de elementos comunes en los términos del texto, determinadas intervenciones en edificios fuera de ordenación y la implantación o modificación sustancial de actividades clasificadas.
+
+El ámbito de proyecto LOE se refiere, entre otros, a:
+- Nueva construcción, con la excepción legal de construcciones de escasa entidad y sencillez técnica, de una sola planta, sin carácter residencial ni público.
+- Intervenciones que alteren la configuración arquitectónica en los términos del artículo 2.2.b: intervención total o parciales que produzcan variación esencial de composición general exterior, volumetría o sistema estructural, o cambien los usos característicos.
+- Intervención total en edificaciones catalogadas o protegidas e intervenciones parciales que afecten a los elementos protegidos. [N13]
+
+Esta delimitación es importante para Ley 12/2012; no equivale a decir que cualquier documento técnico, por pequeño que sea, tiene el carácter del proyecto de edificación del artículo 2.2 LOE.
+
+14.3. Comunicación de obras menores simples
+
+En síntesis, el artículo 3 de la ordenanza comprende:
+- Interiores de viviendas: revestimientos, carpintería, aparatos sanitarios y reparación o renovación de instalaciones existentes, dentro de sus límites.
+- Fachadas y cubiertas FUERA DEL CASCO ANTIGUO: conservación o reparación que mantenga materiales, colores y diseño, como determinadas reparaciones de cubierta, bajantes, pintura, barandillas, molduras y carpintería exterior.
+
+Excluye edificios catalogados y actuaciones que requieran los medios auxiliares u ocupaciones de vía pública expresamente excluidos, con la salvedad del régimen de contenedores autorizado. No confundir pequeña reparación de cubierta con cualquier trabajo en altura: los medios auxiliares pueden modificar el trámite.
+
+Documentación del artículo 4: instancia, descripción breve, presupuesto por partidas de materiales y mano de obra y justificación tributaria; fotografías en fachadas y cubiertas.
+
+El artículo 5 contempla revisión inmediata y conformidad, subsanación en 10 días hábiles y, si excepcionalmente no pudiera comprobarse de inmediato, un máximo de 15 días hábiles para advertir la improcedencia en los términos de ese texto.
+
+LECTURA ACTUAL: la ficha municipal de «Comunicación de obras menores simples. Tipos 1 y 2» indica presentar una DECLARACIÓN RESPONSABLE. Los artículos 69 LPAC y 195 TRLFOTU atribuyen efectos a la presentación válida. No convertir los antiguos quince días de la ordenanza en espera previa obligatoria general para toda declaración actual. [M8]
+
+14.4. Procedimiento abreviado del texto de 2007
+
+Incluye determinadas redistribuciones interiores, obras de adaptación de locales, cierres de balcones o toldos sujetos al modelo de conjunto, rótulos, intervenciones de fachada, instalaciones comunes, catas y trabajos de jardines, con las condiciones y exclusiones de los artículos 6 y 7. No debe memorizarse esta lista sin sus límites: una categoría descriptiva no prevalece sobre la exigencia legal de proyecto, el patrimonio o el régimen ambiental.
+
+El texto excluye edificios catalogados de grados 1 y 2; en grado 3 condiciona la intervención a no afectar los elementos de interés, con la previsión de obras de restauración. Documentación según actuación: descripción, presupuesto, planos de estado actual y reformado y dirección técnica cuando corresponda.
+
+Plazos literales del artículo 9:
+- Resolución: máximo 1 MES desde el día siguiente a la presentación de documentación completa.
+- Subsanación: 10 DÍAS HÁBILES.
+- Previsión de recogida de licencia en 4 días en ese procedimiento histórico.
+
+Estos datos permiten contestar una pregunta expresamente formulada «según la ordenanza». No justifican someter hoy a licencia abreviada lo que una ley posterior ha sometido a declaración. La sede actual permite declarar «otras obras menores» en el formulario general. Las remisiones de la ordenanza a la Ley 30/1992 deben entenderse sustituidas por la legislación vigente de procedimiento.
+
+14.5. Plazos y efectos del artículo 10 de la ordenanza de obras menores
+
+- Solo ampara las obras descritas.
+- Salvo propiedad y derechos de terceros.
+- Debe conservarse la copia de la comunicación o licencia para su comprobación.
+- Inicio: 3 MESES.
+- Terminación: 6 MESES.
+- El título puede establecer plazos mayores en los términos de la ordenanza.
+- Prórroga prevista por el texto: no superior a la mitad de los plazos indicados.
+- Transmisión: comunicación escrita; sin ella, responsabilidades del antiguo y del nuevo titular en los términos del precepto.
+- La autorización de obras no legaliza por sí sola el uso.
+- Subsisten obligaciones tributarias y facultades de inspección.
+
+No confundir estos datos municipales de obras menores con los mínimos supletorios 1 AÑO/3 AÑOS del artículo 197.6 ni con la mitad del plazo ya transcurrida para solicitar prórroga del artículo 197.8. Las exigencias forales prevalecen cuando resulten aplicables; una regla antigua de ordenanza no puede derogarlas.
+
+14.6. Ordenanza de control posterior de 2014
+
+Ámbito: actividades sometidas a declaración o comunicación y obras de adaptación de locales que no precisen proyecto de edificación según LOE, sin perjuicio de otros controles.
+
+COMUNICACIÓN PREVIA: el artículo 3 la vincula al cambio de titularidad de una actividad en funcionamiento.
+DECLARACIÓN RESPONSABLE: artículo 4, inicio de actividad y/o obras comprendidas en su ámbito; efectos desde presentación.
+
+Presentación según artículo 5:
+- Modelo normalizado y registro.
+- Certificación técnica cuando proceda.
+- Justificación tributaria y alta en IAE en los términos del texto.
+- Conservación de copia registrada, certificaciones y documentos necesarios en el local.
+- Deficiencias: requerimiento de subsanación de 10 días; consecuencias de ineficacia y cese si no se subsana, conforme al procedimiento.
+
+El artículo 5.4 prevé suspensión de eficacia hasta subsanar los datos omitidos en los términos del artículo 7. No equiparar una declaración completa y válida a otra a la que faltan requisitos documentales esenciales.
+
+El artículo 6 somete TODAS las actividades de su ámbito al control posterior. No significa que todas deban recibir necesariamente una visita física:
+- En comunicación: comprobación de identidad, ubicación, actividad y titularidad anterior.
+- En declaración: encaje en el régimen, certificados, uso urbanístico y condiciones.
+- Posibilidad de requerir documentación técnica adicional.
+- Posibilidad de inspección in situ y acta con el valor probatorio legal, sin impedir prueba en contrario.
+- Falta de documentación requerida: puede determinar orden de cese en los términos del texto y de la ley.
+
+Resultado del control, artículo 7:
+A) Favorable: resolución y notificación; conservar la documentación en el establecimiento.
+B) Régimen improcedente: audiencia de 10 días, declaración de ineficacia y requerimiento del título adecuado, con suspensión de la actividad en los términos aplicables.
+C) Incumplimiento no legalizable: procedimiento de cese, con audiencia de 10 días.
+D) Defectos subsanables: plazo adecuado para corregir y comprobación de cumplimiento.
+E) Defectos esenciales: posibilidad de suspensión cautelar, con valoración técnica y jurídica y garantías procedimentales; no es una multa automática.
+F) Incumplimiento de subsanación o falsedad esencial: ineficacia, cese y demás consecuencias legales.
+
+La resolución favorable posterior no convierte retroactivamente la declaración en licencia previa. La ordenanza regula el control del ejercicio ya habilitado por la presentación válida.
+
+Actualizaciones imprescindibles de lectura:
+- Las referencias al artículo 71 bis de la Ley 30/1992 se sustituyen por el artículo 69 LPAC.
+- El límite de 300 m² que aparece en antecedentes no es el umbral estatal vigente de la Ley 12/2012: es 750 m².
+- La anterior ordenanza de actividades inocuas de 2012 quedó derogada por la de control posterior de 2014.
+
+14.7. Ley 12/2012: conexión mínima completa con el Tema 36
+
+Su título I elimina determinadas licencias y autorizaciones previas para actividades comerciales minoristas y servicios incluidos en su ANEXO, desarrollados en establecimientos permanentes situados en territorio nacional, cuya SUPERFICIE ÚTIL DE EXPOSICIÓN Y VENTA AL PÚBLICO no sea SUPERIOR A 750 m². Exactamente 750 m² queda dentro del límite. No es superficie construida total ni el antiguo umbral de 300 m². [N15, art. 2]
+
+Exclusiones de su régimen: actividades desarrolladas en esos establecimientos que tengan impacto en el patrimonio histórico-artístico o en el uso privativo y ocupación del dominio público.
+
+Artículo 3:
+- No cabe exigir licencia previa de instalaciones, funcionamiento, actividad u otras similares que sujeten a previa autorización el ejercicio o apertura de las actividades comprendidas.
+- No se exige licencia para cambio de titularidad; basta comunicación a efectos informativos.
+- Tampoco licencia para obras ligadas al acondicionamiento de locales que NO requieran proyecto de obra conforme al artículo 2.2 LOE.
+- La inexigibilidad de licencia no alcanza a las obras de edificación a las que se refiere el artículo 3.4: mantienen el régimen de licencia previa, requisitos generales y competencia de su normativa correspondiente. En particular, no queda dispensada una obra que requiera proyecto LOE por el mero hecho de acondicionar un comercio.
+
+Artículo 4: sustitución por declaración responsable o comunicación conforme al régimen legal; manifestación de cumplimiento y disponibilidad de documentación; posesión del justificante del pago del tributo cuando sea preceptivo; proyecto cuando corresponda, firmado por técnico competente. Si hay diversas actuaciones relacionadas con la MISMA ACTIVIDAD O EN EL MISMO LOCAL, las declaraciones o comunicaciones se tramitan conjuntamente. No reducir esa regla a una sola de las dos alternativas. La remisión literal que conserva la ley al artículo 71 bis de la Ley 30/1992 debe leerse hoy con el artículo 69 LPAC.
+
+Artículo 5: subsisten potestades de comprobación, control, inspección y sanción. La presentación no prejuzga la adecuación del establecimiento ni limita esas potestades.
+
+No extender el título I a cualquier negocio, cualquier superficie o cualquier obra. La actividad debe estar en el anexo; otras leyes pueden establecer sus propios regímenes de simplificación fuera de este ámbito. El estudio exhaustivo de epígrafes del anexo y del procedimiento municipal corresponde especialmente al Tema 36.
+
+14.8. Trámites municipales de obras y actividad
+
+Ficha «Ejecución de obras, implantación y modificación de actividades…», identificador 203404TA. [M6]
+
+El formulario publicado diferencia:
+- Declaración para acondicionamiento de local dentro de Ley 12/2012 y/o obras menores.
+- Declaración de otras obras menores.
+- Solicitud de licencia para el resto de obras.
+- Solicitud de licencia de implantación o modificación sustancial de actividad clasificada.
+- Aprobación de modelos comunes de fachada y ocupación de vía pública en los casos correspondientes.
+
+Para adaptación de locales, la documentación incluye los modelos técnicos específicos; para otras obras menores, memoria técnica cuando proceda o presupuesto suficientemente descriptivo según la actuación. No toda declaración admite únicamente una hoja sin soporte documental. [M10]
+
+Una solicitud conjunta puede integrar proyecto de obras y de actividad, pero deben cumplirse las condiciones de ambos regímenes y su orden de autorización.
+
+14.9. Medios auxiliares y vía pública
+
+Debe comprobarse separadamente la ocupación de la vía pública por andamios, vallados, maquinaria o acopios. La autorización urbanística del edificio no concede por sí sola el uso del dominio público.
+
+El formulario municipal contempla determinados supuestos MÍNIMOS de ocupación vinculados a obras declaradas, con duración máxima de 45 días y condiciones concretas: ciertos vallados de frente de local, pasos protegidos o vallados justificados en una o dos plazas de estacionamiento. No equivale a permitir por declaración cualquier ocupación durante 45 días. Quedan sujetos a sus límites de paso peatonal, dimensiones, localización y exclusiones; para el resto se solicita el título correspondiente. [M10]
+
+Los contenedores de empresas con autorización general y la maquinaria móvil tienen sus procedimientos propios. No confundir permiso policial para un vehículo o una maniobra con autorización urbanística de la obra.
+
+14.10. Utilización, primera ocupación y apertura en la sede
+
+La ficha 203373TA agrupa utilización de construcciones y locales, apertura de actividades inocuas y clasificadas, modificación de uso, primera utilización y revisión. El formulario sirve a distintos regímenes: no todos pasan por idéntica licencia ni todos por declaración. [M7]
+
+Documentos técnicos identificados en la sede:
+- FINOBRA: certificado final y documentación correspondiente para actuaciones terminadas, incluidas las de actividad clasificada y primera utilización en los casos previstos.
+- APTITUDLOCAL: aptitud de local para determinados supuestos sin obras o sin proyecto/memoria técnica previos.
+- APTITUDMODIFICACIONESMENORES: para las modificaciones menores a las que se refiere el modelo.
+- Justificación tributaria y demás autorizaciones o documentos exigibles.
+
+La guía municipal de licencias diferencia la solicitud de licencia de primera utilización y de usos de la declaración de apertura. Para actividad inocua sin obras, indica declaración con certificado de aptitud del local; para obras o actividad clasificada previas exige completar antes los trámites correspondientes y aportar la documentación final. Advierte de tratamientos específicos de usos como vivienda turística o local de ocio. [M9]
+
+Por ello:
+1) «Apertura» es una etiqueta administrativa amplia.
+2) FINOBRA no es por sí mismo una licencia ni sustituye su presentación cuando sea exigible.
+3) La declaración ambiental de puesta en marcha exige haber obtenido la LAC, cuando corresponda.
+4) El cambio de uso urbanístico puede requerir licencia aunque no haya obras.
+5) Que una ficha agrupe varios trámites no altera el artículo 190.2.h ni las excepciones legales aplicables.
+
+14.11. Transmisión de establecimientos
+
+En una actividad en funcionamiento que mantiene las condiciones autorizadas, el cambio de titular puede estar sometido a comunicación; Ley 12/2012 y ordenanza de control posterior lo contemplan en sus respectivos ámbitos. La LAC es igualmente transmisible con comunicación a la entidad local.
+
+Hay que comprobar que el supuesto es realmente una transmisión, sin nuevo uso, nueva actividad sustancialmente distinta u obras no amparadas. Comunicar un nuevo titular no legaliza modificaciones clandestinas ni reactiva por sí solo títulos caducados.
+
+14.12. Fiscalidad: separación de planos
+
+Licencias, declaraciones y comunicaciones pueden generar tasas e ICIO cuando concurra el hecho imponible de cada tributo. El régimen de declaración no implica gratuidad ni exención fiscal. El ICIO puede gravar obras sujetas a declaración/comunicación, no solo obras con licencia expresa.
+
+Debe consultarse la ordenanza fiscal del ejercicio y el hecho imponible concreto. No utilizar como cifra permanente del tema una tarifa de una ficha antigua. Una liquidación o justificante de pago no acredita conformidad urbanística ni constituye título habilitante.
+
+14.13. Acuerdos de suspensión de licencias adoptados en 2026
+
+Conexión práctica del artículo 70 TRLFOTU con Pamplona. No son nuevas exenciones ni cambios automáticos del régimen general licencia/declaración.
+
+A) Acuerdo plenario de 02/07/2026, 7/CU. [M11]
+Suspende el otorgamiento de licencias para transformar determinadas plantas bajas terciarias a vivienda, residencia comunitaria o residencia eventual y para las obras, segregaciones, divisiones o actuaciones preparatorias necesarias. Se vincula al estudio de modificación del artículo 28 de la Normativa Urbanística General.
+
+Su ámbito es el definido en anexos escritos y gráficos para ejes comerciales prioritarios y áreas libres. Incluye determinadas zonas de relevancia comercial y ejes/áreas fuera de las zonas comercial de centralidad y de relevancia. El acuerdo aclara que NO afecta por esta suspensión a la zona comercial de centralidad del Casco Antiguo y Ensanches, que mantiene su regulación; tampoco transforma toda la ciudad en un ámbito uniforme de prohibición.
+
+El acuerdo establece en los espacios afectados un fondo mínimo de 10 metros en la parte de planta con frente a los ejes o áreas indicados. Ordena interrumpir procedimientos incluidos en su ámbito y notificar a solicitantes anteriores. Prevé máximo de un año desde su adopción y las reglas de continuidad por aprobación inicial del artículo 70.
+
+B) Acuerdo plenario de 02/07/2026, 8/CU. [M12]
+Se refiere a comercios centenarios y singulares inventariados de la U.I.-VIII Casco Antiguo y a los elementos de interés de las fichas individualizadas. Suspende licencias de obras y, en su caso, declaraciones y comunicaciones que afecten a los elementos identificados: rótulos, fachadas, carpinterías, escaparates, pavimentos, decoración, mobiliario original y otros valores descritos.
+
+No quedan afectadas las actuaciones de conservación, restauración, reparación y mantenimiento dirigidas a preservar, recuperar o poner en valor esos elementos, ni las necesarias por seguridad, salubridad, accesibilidad o deber de conservación, SIEMPRE compatibles con los valores identificados. En caso de duda razonable sobre afección, prevé informe técnico municipal previo. Duración máxima inicial de un año y reglas del artículo 70 si se aprueba inicialmente la modificación.
+
+PRECISIÓN DE ALCANCE A LA FECHA DE CORTE: estos resúmenes identifican el contenido de los acuerdos adoptados. Para aplicarlos a una parcela es imprescindible consultar sus anexos, publicación oficial y resoluciones posteriores de recursos o modificaciones. El buscador municipal registra recursos resueltos en septiembre de 2026 sobre el acuerdo de plantas bajas; no se presenta aquí una delimitación consolidada de todas sus incidencias posteriores ni una lista cerrada de calles. No deducir del acuerdo inicial que todos los expedientes individuales mantienen idéntica situación a 29/09/2026.
+
+======================================================================
+15. COMPARACIONES, CIFRAS Y REGLAS DE CÓMPUTO
+======================================================================
+
+15.1. Comparación de figuras
+
+LICENCIA URBANÍSTICA
+Autor de la decisión: Administración competente.
+Naturaleza: acto administrativo reglado, declarativo y de control previo.
+Momento de habilitación: otorgamiento eficaz o silencio válidamente estimatorio, cuando proceda.
+Objeto: actuación concreta autorizada.
+Control: previo y también posterior.
+Silencio: sí existe procedimiento con plazo; sentido según normas aplicables.
+Ilegalidad: no permite adquirir facultades contra el ordenamiento.
+
+DECLARACIÓN RESPONSABLE
+Autor: interesado, bajo su responsabilidad.
+Naturaleza: documento y manifestación responsable de cumplimiento, documentación y mantenimiento.
+Momento de habilitación: presentación válida, como regla.
+Control: comprobación, inspección y reacción posterior, sin perjuicio de otros títulos previos.
+Silencio: no se espera una concesión por silencio.
+Ilegalidad esencial: ineficacia, imposibilidad de iniciar/continuar y responsabilidades.
+
+COMUNICACIÓN
+Autor: interesado.
+Naturaleza: puesta en conocimiento de datos identificativos u otros relevantes.
+Momento de habilitación: presentación, como regla; comunicación posterior solo si la legislación lo prevé; atender a regímenes sectoriales especiales.
+Control e ilegalidad: potestades posteriores y efectos del artículo 69.
+No es una «licencia más sencilla» ni tiene siempre idéntico contenido a una declaración.
+
+15.2. Diferencia entre controles de un establecimiento
+
+OBRAS: ejecución material conforme a proyecto y ordenación.
+ACTIVIDAD CLASIFICADA: condiciones ambientales y de funcionamiento de la instalación.
+PRIMERA UTILIZACIÓN: aptitud y correspondencia del edificio o instalación terminado con lo autorizado.
+CAMBIO DE USO: admisibilidad del nuevo destino urbanístico, aunque no haya obras.
+PUESTA EN MARCHA AMBIENTAL: declaración posterior a la LAC y al cumplimiento de sus condiciones.
+OCUPACIÓN DE DOMINIO PÚBLICO: título de uso del bien público, independiente en su objeto.
+CÉDULA DE HABITABILIDAD: documento propio de vivienda; no sustituye universalmente los anteriores.
+
+15.3. Cuadro de plazos forales y comunes
+
+SOLICITAR licencia tras urbanización, art. 193:
+  Sistemáticas: 1 año (>5.000 habitantes) / 2 años (<5.000).
+  Asistemáticas: 2 años / 4 años.
+  Salvo planeamiento; posible ampliación justificada.
+
+RESOLVER licencia urbanística, art. 194.7:
+  2 meses desde documentación completa.
+  Regla estimatoria con excepciones estatales y límites de legalidad.
+
+INFORME de habitabilidad nueva planta residencial, art. 194.4:
+  2 meses; sin emisión, se tiene por evacuado.
+
+CONFORMIDAD del proyecto de edificación, art. 194.6:
+  Máximo 15 días; no fija expresamente un silencio propio.
+
+EJECUCIÓN sin otros plazos en plan/licencia, art. 197.6:
+  Mínimos de 1 año para empezar y 3 años para terminar.
+
+AUDIENCIA para caducidad, art. 197.7:
+  Mínimo 15 días HÁBILES.
+
+PRÓRROGA, art. 197.8:
+  Al menos mitad del plazo transcurrida y solicitud antes de dos meses de su conclusión.
+  Para terminar: cobertura de aguas.
+
+NUEVA solicitud tras caducidad, art. 197.10:
+  6 meses antes de que pueda operar la potestad expropiatoria prevista.
+
+SUBSANACIÓN general, art. 68 LPAC:
+  10 días; posible ampliación hasta 5 adicionales en las condiciones legales.
+
+AUDIENCIA general, art. 82 LPAC:
+  Entre 10 y 15 días.
+
+CERTIFICADO de silencio, art. 24.4 LPAC:
+  15 días en los términos del precepto.
+
+NOTIFICACIÓN electrónica, art. 43.2 LPAC:
+  Rechazo tras 10 días NATURALES sin acceso, cuando resulte aplicable.
+
+15.4. Cuadro ambiental
+
+Nueva LAC:
+  Inadmisión urbanística motivada: 15 días.
+  Información pública: no inferior a 20 días.
+  Alegaciones del promotor: 15 días.
+  Informes forales: 1 mes salvo previsión sectorial de mayor plazo.
+  Audiencia propuesta: 15 días.
+  Resolver y notificar: 4 meses; silencio negativo.
+  Puesta en marcha: 2 años salvo plazo distinto + declaración previa.
+
+Modificación no sustancial:
+  Comunicación motivada; puede realizarse si en 1 mes no hay oposición del órgano.
+
+Modificación sustancial:
+  Información pública: no inferior a 15 días.
+  Resolver y notificar: 3 meses.
+  Puesta en funcionamiento: 2 años salvo plazo distinto + declaración previa.
+
+15.5. Cuadro municipal de lectura literal
+
+Ordenanza obras menores 2007:
+  Subsanación: 10 días hábiles.
+  Comprobación excepcional del procedimiento comunicado: 15 días hábiles, con la necesaria lectura conforme a leyes posteriores.
+  Licencia abreviada del texto: 1 mes desde el día siguiente a documentación completa.
+  Inicio/terminación: 3 meses / 6 meses, con sus condiciones y relación con la ley foral.
+  Prórroga del texto: hasta mitad de los plazos indicados.
+
+Ordenanza control posterior 2014:
+  Subsanación: 10 días.
+  Audiencias de los supuestos de ineficacia/cese descritos: 10 días.
+  Inicio por declaración válida: presentación, no concesión posterior.
+
+Ley 12/2012:
+  Superficie útil de exposición y venta: hasta 750 m² inclusive.
+  Comprobar siempre actividad del anexo y exclusiones.
+
+15.6. Cómo contar correctamente
+
+Artículo 30 LPAC:
+- Por días: hábiles, excluidos sábados, domingos y festivos, salvo que una ley o el Derecho de la Unión disponga otro cómputo; cuando sean naturales debe hacerse constar en las notificaciones.
+- El cómputo de días comienza al siguiente de la notificación/publicación o al siguiente del silencio, según proceda.
+- Meses y años: vencimiento en el día correspondiente; si no existe equivalente, último día del mes.
+- Si el último día es inhábil, pasa al primer hábil siguiente.
+- Si es inhábil en la sede del órgano o en el municipio/comunidad de residencia del interesado, se considera inhábil en los términos del artículo 30.6.
+- El registro electrónico tiene sus reglas del artículo 31, incluida presentación en día inhábil a efectos del cómputo del interesado.
+
+Dos meses no son sesenta días; un mes no son treinta. Los plazos especiales que comienzan desde documentación completa no se sustituyen por la fecha de una consulta previa. Deben distinguirse suspensión del plazo de resolución, ampliación de ese plazo y prórroga para ejecutar una obra ya autorizada.
+
+======================================================================
+16. TRAMPAS DE TEST Y SUPUESTOS DE APLICACIÓN
+======================================================================
+
+16.1. Afirmaciones que deben poder corregirse
+
+01. «La licencia es discrecional». FALSO: reglada y declarativa, art. 190.1.
+02. «Solo controla el suelo». FALSO: suelo, subsuelo y vuelo.
+03. «El ayuntamiento decide definitivamente quién es propietario». FALSO: reserva de derechos privados.
+04. «Esa reserva permite ocupar ilegalmente bienes públicos». FALSO: denegación obligada.
+05. «Toda reforma interior exige licencia». FALSO: integrar art. 192 y régimen sectorial.
+06. «Toda obra barata es menor». FALSO: límites técnicos, de uso, estructura, habitabilidad y seguridad.
+07. «Los movimientos incluidos en proyecto aprobado necesitan siempre licencia separada». FALSO: excepción del art. 190.2.g.
+08. «Toda demolición está exceptuada de licencia». FALSO: excepción de ruina inminente.
+09. «Una concesión de dominio público sustituye la licencia urbanística». FALSO, sin perjuicio de exenciones legales concretas.
+10. «Toda orden de ejecución dispensa de proyecto». FALSO: art. 190.4.d.
+11. «Una reparcelación incluye cualquier parcelación futura». FALSO: solo las divisiones incluidas en el proyecto aprobado en los términos legales.
+12. «El artículo 193 da dos meses para resolver». FALSO: plazos para solicitar.
+13. «En Pamplona son dos años para solicitar en sistemáticas». FALSO como regla supletoria: un año.
+14. «El proyecto básico basta para comenzar la construcción». FALSO.
+15. «Todo proyecto básico exige visado por el RD 1000/2010». FALSO: no confundir básico y ejecución ni los supuestos del RD.
+16. «El informe previo de habitabilidad se exige para cualquier pintura de vivienda». FALSO: art. 194.4 se refiere a construcción de viviendas de nueva planta.
+17. «El informe de habitabilidad tiene quince días». FALSO: dos meses.
+18. «No emitido el informe de habitabilidad, se concede la licencia». FALSO: se tiene por evacuado el informe.
+19. «Solo hay que motivar la denegación». FALSO: también la concesión.
+20. «Toda licencia urbanística tiene silencio positivo». FALSO: excepciones estatales y límites materiales.
+21. «Un edificio nuevo queda autorizado a los dos meses». FALSO: silencio negativo estatal para nueva edificación LOE.
+22. «La anulación constitucional del silencio negativo de parcelaciones elimina su licencia». FALSO.
+23. «La regla estatal sobre casas prefabricadas puede citarse sin la interpretación del TC». FALSO.
+24. «El silencio negativo impide una concesión expresa posterior». FALSO.
+25. «El certificado de silencio crea el derecho». FALSO: es medio acreditativo.
+26. «Una licencia expresa con cualquier defecto es nula de pleno derecho». FALSO: distinguir esencialidad, nulidad y anulabilidad.
+27. «La licencia autoriza cualquier ampliación posterior del proyecto». FALSO.
+28. «La contratación provisional de suministros puede durar indefinidamente». FALSO: límite vinculado a plazo de obra/prórroga.
+29. «Los plazos del art. 197.6 son máximos de seis meses». FALSO: mínimos supletorios de uno y tres años.
+30. «La caducidad se declara sin oír al titular». FALSO: mínimo quince días hábiles.
+31. «Toda prórroga dura la mitad del plazo original por el art. 197.8». FALSO: confunde requisito de solicitud con duración.
+32. «Puede pedirse prórroga el último día». FALSO: respetar antelación y mitad transcurrida.
+33. «Prorrogar el inicio no afecta al final». FALSO: comporta prórroga del final, que debe indicarse.
+34. «Para prorrogar el final basta pagar una tasa». FALSO: exige cobertura de aguas conforme al proyecto y demás presupuestos.
+35. «La nueva licencia tras caducidad se ajusta siempre al plan antiguo». FALSO: ordenación vigente, art. 197.9.
+36. «A los seis meses la expropiación es automática». FALSO: el Ayuntamiento podrá acordarla.
+37. «Todo cambio del plan produce la misma consecuencia en obras iniciadas y no iniciadas». FALSO: art. 197.4.
+38. «La licencia de obras equivale a la de primera utilización». FALSO.
+39. «Sin obras no puede haber licencia de cambio de uso». FALSO: el uso tiene control propio.
+40. «La cédula sustituye siempre la primera ocupación». FALSO.
+41. «Toda obra pública está exenta de licencia». FALSO: identificar administración promotora y régimen especial.
+42. «La exención municipal opera en cualquier término municipal». FALSO: art. 190.4.a se refiere al propio término.
+43. «Cualquier PSIS queda exento por su aprobación». FALSO: requisitos del art. 47.
+44. «Interés general e incidencia supramunicipal son lo mismo». FALSO.
+45. «La apertura se estudia con LF 4/2005 y DF 93/2006 como normas ordinarias vigentes». FALSO.
+46. «La LAC tiene dos meses y silencio positivo». FALSO: cuatro meses y negativo.
+47. «La LAC solo afecta a instalaciones privadas». FALSO: también públicas.
+48. «Puede darse siempre licencia de obras mientras se tramita la actividad». FALSO: excepción tasada.
+49. «Tras LAC siempre hay que obtener otra licencia ambiental de apertura de la ley antigua». FALSO: declaración de puesta en marcha del régimen vigente.
+50. «La LAC habilita indefinidamente para no iniciar nunca». FALSO: dos años salvo plazo distinto y régimen de caducidad.
+51. «Para declarar puesta en marcha con vertido al dominio público hidráulico basta solicitar autorización». FALSO: art. 56.3 exige acompañar autorización.
+52. «Nueva actividad y modificación sustancial tienen igual información pública». FALSO: mínimo veinte frente a quince días.
+53. «Toda modificación no sustancial puede ejecutarse al instante». FALSO: regla ambiental del mes sin oposición.
+54. «El titular decide de modo vinculante si su modificación es sustancial». FALSO.
+55. «Una declaración es una autorización concedida por el técnico». FALSO.
+56. «Puede declararse hoy que los requisitos se cumplirán el mes próximo». FALSO como habilitación inmediata si aún faltan requisitos exigibles.
+57. «Declaración y comunicación se exigen juntas para un mismo derecho». FALSO: art. 69.6.
+58. «La comunicación puede presentarse después siempre». FALSO: requiere previsión legal expresa.
+59. «Toda falsedad no esencial produce exactamente el mismo efecto del art. 69.4». FALSO: el precepto exige esencialidad en los supuestos correspondientes.
+60. «El art. 69 fija dos años de prohibición de volver a solicitar». FALSO: remite al período determinado por ley.
+61. «No recibir inspección legaliza una declaración contraria al plan». FALSO.
+62. «Una declaración tardía borra las obras ejecutadas sin título». FALSO.
+63. «La energía solar del art. 192 tiene un máximo universal de potencia». FALSO: sin limitación de potencia en su ámbito.
+64. «Cualquier panel solar sobre cualquier terreno entra en esa letra». FALSO.
+65. «Toda recarga exterior requiere licencia porque el art. 192.h solo dice interior». FALSO: integrar Ley 24/2013.
+66. «La Ley 12/2012 mide superficie construida total y fija 300 m²». FALSO: útil de exposición y venta, hasta 750 m².
+67. «La Ley 12/2012 dispensa de licencia cualquier obra que necesite proyecto LOE». FALSO.
+68. «La ordenanza de 2014 hace obligatoria una inspección presencial de cada local». FALSO: control posterior no equivale necesariamente a visita universal.
+69. «El cambio de titular legaliza también una nueva actividad». FALSO.
+70. «Pagar ICIO equivale a obtener licencia». FALSO.
+71. «Una ficha web puede derogar el TRLFOTU». FALSO.
+72. «El PDF municipal subido en 2025 es una ordenanza nueva aprobada ese año». FALSO: distinguir publicación web y aprobación normativa.
+
+16.2. Supuestos razonados
+
+SUPUESTO 1. Proyecto de edificio residencial nuevo; expediente completo, transcurren dos meses sin notificación.
+No puede empezar fundándose únicamente en silencio positivo foral. Debe aplicar art. 11.4 TRLSRU para edificación LOE y cumplir condición de proyecto de ejecución, además de los demás requisitos. El informe de habitabilidad no sustituye la licencia.
+
+SUPUESTO 2. Reforma interior que divide una vivienda en dos, de presupuesto reducido.
+No es obra menor conforme a la delimitación municipal: altera número de viviendas y puede afectar habitabilidad y configuración. Debe clasificarse y tramitarse conforme a sus características y al planeamiento.
+
+SUPUESTO 3. Pintura interior de vivienda sin otros cambios.
+Puede encajar en obra menor simple y declaración municipal. Debe presentarse el título correspondiente con documentación, sin convertir un presupuesto o el pago de tasa en presentación válida.
+
+SUPUESTO 4. Reparación exterior en edificio catalogado del Casco Antiguo.
+No trasladar automáticamente el régimen de fachadas fuera del Casco Antiguo. Comprobar protección, elemento afectado, autorización patrimonial, documentación y medios auxiliares.
+
+SUPUESTO 5. Apertura de comercio del anexo Ley 12/2012, 750 m² útiles de exposición y venta, sin impacto patrimonial ni ocupación del dominio público.
+El límite superficial se cumple. Analizar el resto de presupuestos y las obras; si requieren proyecto LOE, la inexigibilidad de licencia de actividad no elimina la licencia de esas obras.
+
+SUPUESTO 6. Nuevo titular de local, misma actividad y condiciones.
+Puede corresponder comunicación de transmisión. Si cambia materialmente actividad o uso, ya no basta resolverlo como simple cambio de titularidad.
+
+SUPUESTO 7. Actividad clasificada nueva; se quiere empezar a funcionar al obtener la licencia de obras.
+Incorrecto: debe tener LAC, ejecutar instalaciones y condiciones, cumplir los títulos de utilización que procedan y presentar declaración de puesta en marcha con documentación exigible.
+
+SUPUESTO 8. Actividad comunica modificación considerada no sustancial y la ejecuta el mismo día.
+No basta la regla general de efectos inmediatos: el régimen ambiental establece un mes sin oposición. También puede revisarse la calificación de no sustancial.
+
+SUPUESTO 9. Obras municipales en Pamplona promovidas por el propio Ayuntamiento.
+Control urbanístico mediante aprobación del proyecto en los términos de los arts. 190.4.a y 191; la exención de licencia no elimina la justificación de cumplimiento ni los controles sectoriales.
+
+SUPUESTO 10. Obra estatal urgente.
+La urgencia no autoriza a ignorar al Ayuntamiento: aplicar el procedimiento especial de la DA décima TRLSRU, con los plazos y órganos correspondientes. Solo en el supuesto legal de emergencia operan los cinco días naturales.
+
+SUPUESTO 11. Prórroga de terminación sin haber cubierto aguas.
+No reúne el requisito específico del art. 197.8 para solicitar y obtener esa prórroga.
+
+SUPUESTO 12. Licencia caducada y notificada; el plan permite ahora menor volumen.
+La nueva licencia debe ajustarse a la ordenación vigente. No se revive el volumen anterior presentando una comunicación ni pagando otra tasa.
+
+SUPUESTO 13. Declaración de obras que invaden una parcela pública.
+La declaración no concede el uso del dominio público ni adquiere facultades contra el ordenamiento. Procede la reacción administrativa correspondiente; no hay legalización por falta de respuesta.
+
+SUPUESTO 14. Edificio terminado pero urbanización necesaria sin concluir.
+La certificación de final de edificio no resuelve por sí sola los requisitos de primera utilización. Comprobar el cumplimiento de la licencia, las obligaciones de urbanización, los servicios y la regulación aplicable, sin inventar un derecho automático a ocupación parcial.
+
+SUPUESTO 15. El Ayuntamiento archiva sin resolución una solicitud no subsanada.
+La regla general del art. 68 LPAC exige resolución que declare el desistimiento, tras el requerimiento con advertencia. No confundir falta de subsanación con desestimación sobre el fondo.
+
+======================================================================
+17. LÍMITES DE CERTEZA Y LECTURA DE FUENTES MUNICIPALES
+======================================================================
+
+17.1. Qué puede afirmarse con seguridad
+
+Los artículos 190 a 197 TRLFOTU, el artículo 69 LPAC y el régimen de LAC de LF 17/2020/DF 26/2022 constituyen la base normativa. La sede municipal conserva las ordenanzas de obras menores y control posterior y publica formularios que distinguen licencia y declaración. Las referencias antiguas de los textos municipales no desplazan las leyes posteriores.
+
+17.2. Aspectos municipales que no deben darse por supuestos
+
+A) Ordenanza sobre Procedimiento Urbanístico.
+El texto refundido publicado advierte que carece de tramitación oficial como refundición. Contiene, entre otros, menciones a Comisión Municipal Permanente, reglas históricas de subsanación, visado y trámites en papel. Debe identificarse la norma aprobada y su modificación concreta si una cuestión depende exclusivamente de esa literalidad.
+
+Su antiguo plazo de seis meses para inicio/paralización no debe presentarse como sustitución universal de los arts. 197.5 a 197.8 vigentes. La ordenanza específica de obras menores contiene otros plazos. Es imprescindible saber qué procedimiento y qué título se examinan.
+
+B) Órgano delegado.
+Se distingue competencia legal y delegación. No se atribuye a una persona concreta ni a una concejalía inmutable la resolución de todas las licencias; las delegaciones deben comprobarse en el acuerdo vigente y en la resolución.
+
+C) Primera utilización parcial y garantías de urbanización.
+No se afirma un régimen municipal universal de ocupación parcial ni porcentajes de garantías sin disposición verificada aplicable al supuesto. El expediente, el plan y las condiciones de licencia pueden ser determinantes.
+
+D) Denominación «apertura».
+La ficha conjunta no acredita que todos los usos se hayan sustituido por declaración. Deben distinguirse licencia de uso/primera utilización, apertura de actividad inocua y declaración ambiental tras LAC.
+
+E) Modificaciones no sustanciales.
+Una guía simplificada que sugiera comienzo inmediato no permite omitir el mes previsto por el art. 48 LF 17/2020 cuando el supuesto sea una modificación ambiental no sustancial.
+
+F) Licencia de obras anterior a LAC.
+La excepción exige los presupuestos de la ley, del reglamento y de la regulación municipal. No se da por existente una habilitación municipal general más amplia.
+
+G) Planeamiento, suspensiones y ámbito territorial.
+La posibilidad de una licencia depende también de las normas particulares de la parcela, los catálogos y los acuerdos de suspensión aplicables. Una guía general no certifica por sí sola que un cambio de uso concreto sea admisible a 29/09/2026. Los acuerdos temporales o referidos a calles, ámbitos o usos determinados requieren comprobar delimitación, publicación y vigencia. Este tema no sustituye esa comprobación individual.
+
+H) Tipos y tarifas fiscales.
+Consultar la ordenanza del ejercicio; no elevar a regla perpetua un dato económico de un formulario.
+
+17.3. Método para responder preguntas difíciles
+
+Primero identificar qué fuente pide el enunciado: artículo foral, norma básica estatal, norma ambiental u ordenanza concreta. Después separar texto literal, modificación posterior y aplicación al caso. Si la pregunta transcribe una regla municipal histórica incompatible con una ley vigente, no debe tratarse como una excepción creada por la sede electrónica.
+
+Las diferencias entre plazos —uno, dos, tres o cuatro meses; quince o veinte días— se resuelven identificando el procedimiento. Las diferencias entre títulos se resuelven identificando el objeto: obra, uso, actividad, puesta en marcha o dominio público.
+
+======================================================================
+18. FUENTES OFICIALES
+======================================================================
+
+Fecha de corte del tema: 29/09/2026. Las normas se citan por su texto consolidado y sus modificaciones aplicables. La fecha de subida de un PDF municipal no equivale a la de aprobación o entrada en vigor de la ordenanza. Las fuentes informativas de la sede se utilizan para formularios y procedimientos, con las reservas de jerarquía normativa indicadas en el tema.
+
+NORMAS Y JURISPRUDENCIA
+
+[N1] Decreto Foral Legislativo 1/2017, de 26 de julio. Texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo. Artículos 47, 62.7.c, 70, 190-197, 247-249 y disposición adicional quinta.
+LexNavarra: https://www.lexnavarra.navarra.es/detalle.asp?r=39197
+BOE: https://www.boe.es/buscar/act.php?id=BOE-A-2017-12907
+
+[N2] Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Especialmente artículos 14, 21-24, 30-31, 37, 40, 43, 47-48, 66, 68-69, 80, 82, 88 y 123-124.
+https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
+
+[N3] Real Decreto Legislativo 7/2015, de 30 de octubre. Texto refundido de la Ley de Suelo y Rehabilitación Urbana. Artículo 11 y disposición adicional décima.
+https://www.boe.es/buscar/act.php?id=BOE-A-2015-11723
+
+[N4] STC 143/2017, de 14 de diciembre. Fundamento jurídico 23 y fallo: silencio en actuaciones urbanísticas.
+https://www.boe.es/buscar/doc.php?id=BOE-A-2018-605
+STC 75/2018, de 5 de julio, sobre el TRLSRU; conexión con los efectos de la sentencia anterior.
+https://www.boe.es/buscar/doc.php?id=BOE-A-2018-11273
+
+[N5] Ley Foral 6/1990, de 2 de julio, de la Administración Local de Navarra. Especialmente artículos 39, 319 y 333 y siguientes.
+https://www.boe.es/buscar/act.php?id=BOE-A-1990-19817
+https://www.lexnavarra.navarra.es/detalle.asp?r=538
+
+[N6] Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local. Artículos 21, 84, 84 bis, 84 ter, 121 y 127.
+https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392
+
+[N7] Decreto de 17 de junio de 1955. Reglamento de Servicios de las Corporaciones Locales. Especialmente artículos 10, 12 y 13, como complemento compatible con la normativa posterior.
+https://www.boe.es/buscar/act.php?id=BOE-A-1955-10057
+
+[N8] Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental. Especialmente artículos 38-54 y régimen transitorio y derogatorio.
+https://www.boe.es/eli/es-nc/lf/2020/12/16/17/con
+Identificador BOE-A-2021-526.
+
+[N9] Decreto Foral 26/2022, de 30 de marzo. Reglamento de desarrollo de la LF 17/2020. Especialmente artículos 45-63 y anejos I y II; disposición derogatoria y corrección de errores.
+https://www.lexnavarra.navarra.es/detalle.asp?r=54772
+
+[N10] Ley Foral 14/2025, de 7 de noviembre, de modificación de la LF 17/2020. Disposición adicional octava sobre proyectos de biometanización. Régimen especial temporal, no procedimiento general de apertura.
+https://www.lexnavarra.navarra.es/detalle.asp?r=58219
+
+[N11] Real Decreto 314/2006, de 17 de marzo. Código Técnico de la Edificación, parte I, artículo 6 y anejos sobre proyecto y documentación de la obra.
+https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515
+
+[N12] Real Decreto 1000/2010, de 5 de agosto, sobre visado colegial obligatorio. Artículos 2-6.
+https://www.boe.es/buscar/act.php?id=BOE-A-2010-12618
+
+[N13] Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación. Artículos 2, 4 y 6, entre otros.
+https://www.boe.es/buscar/act.php?id=BOE-A-1999-21567
+
+[N14] Decreto Foral 142/2004, de 22 de marzo, sobre condiciones mínimas de habitabilidad de viviendas en Navarra, con sus modificaciones. Especialmente artículos 2 y 5.
+https://www.lexnavarra.navarra.es/detalle.asp?r=16273
+Ficha municipal informativa sobre cédula de vivienda nueva, competencia del Gobierno de Navarra:
+https://sedeelectronica.pamplona.es/FichaTramite.aspx?id=117832TA
+
+[N15] Ley 12/2012, de 26 de diciembre, de medidas urgentes de liberalización del comercio y de determinados servicios. Título I y anexo.
+https://www.boe.es/buscar/act.php?id=BOE-A-2012-15595
+
+[N16] Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa. Competencia judicial y artículo 46, con la interpretación aplicable a la impugnación del silencio.
+https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718
+
+[N17] Ley 24/2013, de 26 de diciembre, del Sector Eléctrico. Artículo 48.5 sobre puntos de recarga y conexión con artículo 53 para infraestructuras eléctricas.
+https://www.boe.es/buscar/act.php?id=BOE-A-2013-13645
+
+DOCUMENTOS Y PROCEDIMIENTOS MUNICIPALES
+
+[M1] Convocatoria de siete plazas de arquitecto/a del Ayuntamiento de Pamplona, 2026. Bases y programa oficial. BON núm. 98, de 21/05/2026. Referencia para delimitar temas 20, 21, 32, 35 y 36.
+https://sedeelectronica.pamplona.es/VerDocumento/VerDocumento.aspx?IDdoc=1459202
+
+[M2] Ordenanza sobre Procedimiento Urbanístico. Texto refundido municipal publicado con advertencia «para uso interno» y «Documento sin tramitación oficial». Utilizar con las reservas de vigencia y consolidación explicadas.
+https://www.pamplona.es/sites/default/files/2025-09/Ordenanza%20de%20Procedimiento%20Urban%C3%ADstico.pdf
+
+[M3] Ordenanza municipal reguladora de las licencias urbanísticas de obras menores. Publicación BON de 23/05/2007. Lectura conforme a la legislación posterior.
+https://www.pamplona.es/sites/default/files/2022-01/licencia_obras_menores.pdf
+
+[M4] Ordenanza reguladora del procedimiento de control posterior al inicio de actividades sometidas a declaración responsable o comunicación previa. Publicación BON de 12/05/2014. Lectura actualizada de remisiones legales.
+https://www.pamplona.es/sites/default/files/2022-01/control%20de%20actividades.pdf
+
+[M5] Directorio municipal de ordenanzas urbanísticas y normativa.
+https://www.pamplona.es/en/node/53347
+
+[M6] Sede electrónica: ejecución de obras e implantación/modificación de actividades. Ficha 203404TA.
+https://sedeelectronica.pamplona.es/FichaTramite.aspx?id=203404TA&idioma=1
+
+[M7] Sede electrónica: utilización de construcciones y locales; apertura, modificación de uso, primera utilización y revisión. Ficha 203373TA.
+https://sedeelectronica.pamplona.es/FichaTramite.aspx?id=203373TA&idioma=1
+
+[M8] Sede electrónica: comunicación de obras menores simples, tipos 1 y 2; presentación de declaración responsable según la ficha.
+https://sedeelectronica.pamplona.es/FichaTramite.aspx?id=58472TA&idioma=1
+
+[M9] Guía municipal «Licencias de urbanismo». Formularios, primera utilización, apertura y consultas prácticas. Fuente informativa que no prevalece sobre la ley.
+https://www.pamplona.es/en/node/67067
+
+[M10] Formulario municipal de ejecución de obras, implantación o modificación de actividades, aprobación de modelos y ocupación de vía pública. Documento publicado en la sede, versión identificada V2024.
+https://sedeelectronica.pamplona.es/VerDocumento/VerDocumento.aspx?IDdoc=1428090
+
+[M11] Acuerdo plenario PLE 02-JUL-26 (7/CU), suspensión de licencias vinculadas a la transformación de plantas bajas terciarias en usos residenciales o asimilados, previo estudio de modificación del Plan Municipal.
+https://actas.pamplona.es/actas/WWW_26/PLE_26/PLE_07.jul/a02JUL26.010/007_CU.htm
+
+[M12] Acuerdo plenario PLE 02-JUL-26 (8/CU), suspensión de licencias de obras en comercios centenarios y singulares.
+https://actas.pamplona.es/actas/WWW_26/PLE_26/PLE_07.jul/a02JUL26.010/008_CU.htm
+
+Buscador oficial de plenos y acuerdos para comprobar resoluciones posteriores y recursos:
+https://www.pamplona.es/ayuntamiento/el-pleno/plenos-y-acuerdos-municipales
+
+Los textos legales y resoluciones del anexo son material normativo. Las explicaciones, ejemplos y trampas de test del cuerpo del tema son elaboración de estudio y no forman parte del articulado oficial.
+
+======================================================================
+ANEXO. ARTICULADO NUCLEAR PARA PREGUNTAS LITERALES
+======================================================================
+
+Se reproduce el texto de las fuentes oficiales consolidadas [N1] y [N2], con normalización de espacios y sin los iconos o notas de navegación de las páginas. Para interpretar su aplicación deben tenerse en cuenta las conexiones estatales, sectoriales y municipales desarrolladas en el tema.
+
+A. TRLFOTU: ARTÍCULOS 190 A 197
+
+Artículo 190. Actos sujetos a licencia.
+
+1. La licencia urbanística es el acto administrativo de control previo, de carácter reglado y declarativo, mediante el cual la entidad local correspondiente autoriza las actuaciones urbanísticas proyectadas de uso, aprovechamiento, transformación, segregación y edificación del suelo, subsuelo y vuelo, previa comprobación de su conformidad al ordenamiento urbanístico vigente.
+
+2. Estarán sujetos a previa licencia, sin perjuicio de las demás autorizaciones urbanísticas que fueran procedentes con arreglo a esta ley foral y de aquellas otras autorizaciones que procedan con arreglo a la legislación específica aplicable, los siguientes actos:
+
+a) Las obras de construcción de edificaciones e instalaciones de todas clases de nueva planta.
+
+b) Las obras de ampliación de edificios e instalaciones de todas clases existentes.
+
+c) Las obras de modificación o reforma que afecten a la estructura o al aspecto exterior de los edificios e instalaciones de otras clases.
+
+d) Las obras que modifiquen la disposición interior de los edificios, cualquiera que sea su uso.
+
+e) Las obras y los usos que hayan de realizarse con carácter provisional.
+
+f) Las parcelaciones urbanísticas y las segregaciones y divisiones de fincas rústicas.
+
+g) Los movimientos de tierra, tales como desmontes, explanaciones, excavaciones y terraplenados, salvo que tales actos estén detallados y programados como obras a ejecutar en un proyecto de urbanización o de edificación aprobado.
+
+h) La primera utilización u ocupación de los edificios e instalaciones, en general, y la modificación del uso de los mismos.
+
+i) La demolición de las construcciones, salvo en los casos declarados de ruina inminente.
+
+j) Las instalaciones que afecten al subsuelo.
+
+k) La corta de arbolado y de vegetación arbustiva que constituyan masa arbórea, espacio boscoso, arbolado o parque, exista o no planeamiento aprobado, con excepción de las labores autorizadas por la legislación agraria.
+
+l) La construcción de presas, balsas, obras de defensa y corrección de cauces públicos, siempre que no constituyan obras públicas de interés general.
+
+m) La extracción de áridos y la explotación de canteras, aunque se produzcan en terrenos de dominio público y estén sujetas a concesión administrativa.
+
+n) Y, en general, los actos que reglamentariamente se señalen, por implicar obras o por suponer una mayor intensidad del uso del suelo o del subsuelo, un uso privativo de estos o una utilización anormal o diferente del destino agrícola o forestal de los terrenos.
+
+3. Pueden autorizarse simultáneamente en un mismo acto administrativo diversos supuestos sujetos a licencia urbanística, así como con otras autorizaciones locales.
+
+4. Se consideran actos no sujetos a licencia urbanística los siguientes:
+
+a) Los actos de uso del suelo, construcción y edificación que sean promovidos por los municipios en su propio término municipal, las obras públicas municipales, incluidas las de urbanización realizadas por los particulares en cumplimiento de la normativa y el planeamiento urbanístico, entendiéndose autorizadas por el acuerdo de aprobación del proyecto, previa acreditación en el expediente del respeto al planeamiento en vigor y a la normativa de ordenación territorial y urbanística.
+
+b) Las parcelaciones o divisiones de fincas incluidas en un proyecto de reparcelación.
+
+c) Los actos de uso del suelo, edificación y del subsuelo que resulten expresamente eximidos de licencia urbanística por la legislación sectorial que resulte aplicable.
+
+d) Las obras que han de llevarse a cabo en cumplimiento de una orden de ejecución, dictadas por la Administración competente, y sin perjuicio de la imposición de determinaciones específicas para su ejecución, siempre y cuando no requieran proyecto técnico o cuando la misma orden o el acto que ordene su ejecución subsidiaria incorpore el proyecto técnico requerido.
+
+e) Los actos de uso del suelo y de la edificación sujetos al régimen de declaración responsable o comunicación.
+
+5. Cuando los actos de edificación y uso del suelo se realicen por particulares en terrenos de dominio público, se exigirá también licencia, sin perjuicio de las autorizaciones o concesiones que sea pertinente otorgar por parte del ente titular del dominio público.
+
+Artículo 191. Obras ordinarias promovidas por la Administración municipal.
+
+Los proyectos de obras locales ordinarias que promuevan las administraciones municipales y los organismos autónomos, las sociedades y otros entes que dependen de ellas se tramitarán y se aprobarán de conformidad con la legislación sobre régimen local. Mediante la aprobación de estos proyectos, el órgano competente controla la adecuación de las obras proyectadas a las determinaciones del ordenamiento jurídico urbanístico y no necesitan licencia urbanística previa a su ejecución material.
+
+Artículo 192. Actos sujetos a declaración responsable o comunicación previa.
+
+1. Quedan sujetos al régimen de declaración responsable o comunicación, a los efectos de su constancia, realización y control posterior, las siguientes actuaciones:
+
+a) La realización de las obras ligadas al acondicionamiento de los locales para desempeñar la actividad comercial de conformidad con la normativa sectorial que resulte aplicable.
+
+b) Aquellas obras de escasa entidad o dimensión que se determinen en las ordenanzas municipales correspondientes.
+
+c) Cerramientos y vallados.
+
+d) Carteles publicitarios visibles desde la vía pública.
+
+e) Obras menores.
+
+f) Trabajos previos a la construcción, tales como sondeos, prospecciones, catas y ensayos.
+
+g) Instalaciones de aprovechamiento de energía solar para autoconsumo sobre edificaciones o construcciones y pérgolas de aparcamiento, sin limitación de potencia. No estarán sujetas a este régimen las instalaciones:
+
+- Que se hagan en edificios declarados como bienes de interés cultural o catalogado en cuyo caso será de aplicación lo recogido en el artículo 62.7. c) de la presente ley foral.
+
+- Que afecten a los cimientos o la estructura del edificio.
+
+- Que necesiten evaluación de impacto ambiental de acuerdo con la normativa ambiental de aplicación .
+
+h) Los puntos de recarga de vehículos eléctricos situados en el interior de edificaciones, salvo que pudieran suponer un impacto sobre los bienes declarados de interés cultural o sujetos a cualquier otro régimen de protección .
+
+2. El régimen de declaración responsable no exime ni condiciona las facultades de inspección, control y sanción de la entidad local sobre las obras que no se ajusten a la legislación, al planeamiento o a la propia declaración responsable.
+
+Artículo 193. Plazos para la solicitud de licencias.
+
+En defecto de previsión expresa en el planeamiento, el plazo para la solicitud de licencia de edificación en actuaciones sistemáticas será de un año en entidades locales de más de cinco mil habitantes, y de dos años en entidades locales de menos de esa población, desde que se hubiera procedido a la urbanización conforme a lo establecido en el artículo 104  de esta ley foral. Los plazos se duplicarán en el caso de solicitud de licencia de edificación en actuaciones asistemáticas. Estos plazos podrán ampliarse atendiendo a circunstancias económicas financieras y de mercado que justifiquen suficientemente su ampliación.
+
+Artículo 194. Competencia y procedimiento para el otorgamiento de las licencias.
+
+1. El procedimiento para la concesión de licencias urbanísticas se iniciará a instancia de parte mediante solicitud a la que se acompañará la siguiente documentación:
+
+a) Instancia con los datos indicados en la normativa reguladora del Procedimiento Administrativo Común.
+
+b) Proyecto básico definido en el Código Técnico de la Edificación suscrito por facultativo competente, el cual responderá a los efectos que proceda legalmente de la exactitud y veracidad de los datos de carácter técnico consignados en el mismo.
+
+c) Declaración suscrita por el técnico redactor del proyecto de cumplimiento de la normativa urbanística vigente y de los requisitos básicos de calidad y seguridad de la edificación.
+
+d) Previamente al inicio de las obras se presentará ante la entidad local que hubiera concedido la licencia el Proyecto de Edificación definido en el Código Técnico de la Edificación.
+
+2. En el supuesto de licencia de primera utilización u ocupación, los apartados b) y c) serán sustituidos por la certificación del facultativo director de la obra que acredite la fecha de finalización de las obras y que estas se han efectuado de acuerdo con el proyecto aprobado y con las condiciones impuestas en la licencia de obra en su caso, que la parcela se encuentra urbanizada y, finalmente, que la edificación se encuentra en condiciones de ser utilizada.
+
+3. Las peticiones de licencias para actos de edificación y uso del suelo cuyo otorgamiento competa a los concejos se formularán ante estos, y en su tramitación y resolución se estará a lo previsto en la Ley Foral de la Administración Local de Navarra.
+
+4. En la instrucción del procedimiento para la concesión de licencias urbanísticas de obras, deberán cumplimentarse los siguientes trámites:
+
+a) Comunicación a las Administraciones afectadas para que en el plazo que disponga su normativa emitan informes sobre los aspectos de su competencia. En particular con carácter previo a la concesión de licencias de construcción de edificios de viviendas de nueva planta, las entidades locales requerirán del Departamento competente en materia de vivienda, informe previo de habitabilidad, cuyo contenido se referirá exclusivamente a si las viviendas cumplen las condiciones de habitabilidad y normativa básica de edificación, que deberá ser evacuado en el plazo máximo de dos meses, transcurrido el cual sin que se hubiera emitido, se tendrá por evacuado.
+
+b) Incorporación del informe o informes técnicos, redactados por personal titulado competente, en los que se valorará la conformidad del proyecto con el planeamiento urbanístico vigente.
+
+5. La resolución de otorgamiento o denegación de licencia deberá ser motivada, con indicación de las normas que lo justifiquen, conforme a las previsiones de la legislación y el planeamiento urbanístico, pudiendo introducir las determinaciones o condiciones precisas para su ejecución. Sin perjuicio del carácter reglado de las licencias urbanísticas, las entidades locales denegarán, en ejercicio de su potestad de defensa y recuperación de los bienes públicos, las licencias cuyo otorgamiento permita la ocupación ilegal de los mismos.
+
+6. El acuerdo de concesión de licencia urbanística incluirá, como condición para su eficacia, la presentación del proyecto de edificación, definido en el Código Técnico de la Edificación. La entidad local que hubiera concedido la licencia dispondrá de un plazo máximo de 15 días desde su presentación para resolver sobre su conformidad o no con la licencia concedida, y así lo notificará al solicitante.
+
+7. Las licencias se resolverán en el plazo máximo de dos meses desde que se presente la documentación completa en el registro general. Transcurrido dicho plazo sin haberse comunicado acto alguno, se entenderá otorgada la licencia por silencio administrativo, salvo cuando se dispusiera lo contrario en la normativa básica estatal.
+
+La obtención de licencia por silencio administrativo no podrá vulnerar lo dispuesto en las leyes, en los instrumentos de ordenación territorial y en los planes urbanísticos de rango superior. Tampoco podrán adquirirse por silencio administrativo facultades o derechos que contravengan la legislación y la ordenación territorial o urbanística. Serán nulas de pleno derecho las licencias que se concedan, así como ineficaces las facultades y derechos que se obtengan, por silencio administrativo en contra de lo dispuesto en las leyes y en el resto de disposiciones que integran el ordenamiento jurídico urbanístico.
+
+8. Las licencias se otorgarán sin perjuicio de las demás autorizaciones que sean preceptivas de acuerdo con la legislación de régimen local o sectorial.
+
+Artículo 195. Procedimiento general para los actos sujetos a declaración responsable o comunicación.
+
+1. La declaración responsable facultará al titular de la actividad para realizar la actuación urbanística pretendida y declarada en su solicitud, siempre que vaya acompañada de la documentación necesaria e imprescindible, y sin perjuicio de las facultades de comprobación, control e inspección que correspondan.
+
+2. El procedimiento se iniciará mediante su presentación dirigida a la entidad local competente, suscrita por el promotor y con el siguiente contenido mínimo que podrá ser completado por la normativa municipal:
+
+a) Instancia con los datos indicados en la normativa reguladora del Procedimiento Administrativo Común.
+
+b) Manifestación expresa del cumplimiento de los requisitos exigidos por la normativa vigente, incluido el de estar en posesión de la documentación que así lo acredite.
+
+c) La documentación exigida por la normativa específica, y como mínimo la siguiente:
+
+c.1) Documentación gráfica expresiva de la ubicación del inmueble objeto de la actuación a realizar y descripción suficiente de esta.
+
+c.2) Presupuesto de la actuación y justificante del pago de las tasas e impuestos correspondientes.
+
+c.3) Los permisos y autorizaciones que requiera el acto, la operación o la actividad de que se trate y que vengan exigidos por la normativa en cada caso aplicable.
+
+3. En el supuesto de que la Administración municipal detecte que la comunicación previa formulada presenta deficiencias derivadas del incumplimiento o falta de concreción de alguno de los requisitos establecidos en los preceptos anteriores, o bien resulte imprecisa la información aportada para la valoración de la legalidad del acto comunicado, se requerirá al promotor la subsanación de aquella.
+
+4. La inexactitud, falsedad u omisión de carácter esencial en cualquier dato, manifestación o documento que se acompañe o incorpore a una declaración responsable, o su no presentación, así como la inobservancia de los requisitos impuestos por la normativa aplicable, determinará la imposibilidad de iniciar la actividad urbanística solicitada desde el momento en que se tenga constancia de tales hechos, sin perjuicio de las responsabilidades penales, civiles o administrativas a que hubiere lugar.
+
+5. El titular de la actividad, si así lo estimase conveniente, podrá comprobar previamente a la presentación de la declaración responsable, la viabilidad urbanística de la actividad, a través de la formulación de una consulta urbanística.
+
+6. En ningún caso se entenderán adquiridas por la declaración responsable facultades en contra de la legislación o el planeamiento urbanístico.
+
+7. Serán nulas de pleno derecho las declaraciones responsables que sean contrarias a la legislación o al planeamiento urbanístico cuando carezcan de los requisitos esenciales para su eficacia.
+
+8. Las actuaciones sujetas a declaración responsable que se realicen sin haberse presentado la misma cuando sea preceptiva se considerarán como actuaciones sin licencia a todos los efectos, aplicándoseles el mismo régimen de protección de la legalidad y sancionador que a las obras y usos sin licencia.
+
+Artículo 196. Resolución del procedimiento de solicitud de licencias.
+
+1. La resolución decidirá sobre la concesión o denegación de la licencia que permita realizar los usos del suelo para los que se solicita, en las condiciones establecidas en la legislación, en el planeamiento y en la propia licencia.
+
+2. Las licencias se otorgarán de acuerdo con las previsiones de la legislación y del planeamiento.
+
+3. El otorgamiento o la denegación de las licencias urbanísticas deberá ser motivado, con indicación de las normas que lo justifiquen. Sin perjuicio del carácter reglado de las licencias urbanísticas, las Entidades Locales denegarán, en ejercicio de su potestad de defensa y recuperación de los bienes públicos, las licencias cuyo otorgamiento permita la ocupación ilegal de los mismos.
+
+4. En ningún caso se entenderán otorgadas por silencio administrativo licencias en contra de la legislación o el planeamiento urbanísticos.
+
+5. Serán nulas de pleno derecho las licencias obtenidas por acto expreso o presunto que sean contrarias a la legislación o planeamiento urbanístico, cuando se carezca de los requisitos esenciales para su obtención.
+
+Artículo 197. Eficacia de las licencias.
+
+1. La licencia permite al solicitante la realización de los actos de uso del suelo solicitados, en las condiciones establecidas en la legislación, en el planeamiento y en la propia licencia.
+
+2. Los actos de uso de suelo amparados por la licencia urbanística deberán realizarse dentro de los plazos de inicio y finalización que vengan establecidos en el planeamiento urbanístico o que sean determinados por la propia licencia.
+
+3. Las empresas o entidades suministradoras de energía eléctrica, agua, gas y telefonía y demás servicios urbanos exigirán y conservarán para la contratación de los respectivos servicios copia de la licencia urbanística de los edificios e instalaciones generales sujetos a la obtención de las mismas. Durante la ejecución de la obra la contratación será provisional por un plazo que no podrá ser superior al plazo máximo establecido en la licencia para la finalización de las obras o, en su caso, de su prórroga.
+
+4. Si a la entrada en vigor de una modificación o revisión del planeamiento se hubiera obtenido licencia urbanística, pero aún no se hubiera iniciado la realización de los actos que ampare, se declarará extinguida su eficacia en cuanto sea disconforme con las nuevas determinaciones, previa fijación de la indemnización que proceda por la reducción o extinción de aprovechamiento, en su caso, así como por los perjuicios causados.
+
+Si se hubiera iniciado la ejecución de los actos amparados por la licencia, el ayuntamiento podrá modificarla o revocarla, previa fijación de la indemnización correspondiente.
+
+5. Todas las licencias habrán de contener, de acuerdo con lo previsto en el artículo anterior, los plazos de inicio y finalización de las obras, indicando que su caducidad se producirá por el transcurso de dichos plazos.
+
+6. En el caso de que las licencias no especificaran un plazo de caducidad, los plazos mínimos para la ejecución de los actos de edificación y uso del suelo, salvo que el planeamiento prevea otros distintos, serán los siguientes:
+
+a) Un año para comenzar las obras.
+
+b) Tres años para finalizar las obras.
+
+7. Incumplidos los plazos señalados en el apartado anterior se iniciará expediente de caducidad de la licencia, en el que se dará audiencia al interesado por período mínimo de quince días hábiles.
+
+La caducidad de la licencia será declarada por la Administración competente para concederla.
+
+8. Las entidades locales podrán conceder prórrogas de los plazos de la licencia, previa solicitud expresa de su titular antes de dos meses de la conclusión de los plazos previstos para el comienzo y finalización de las obras, siendo válida la ordenación vigente en el momento en que la licencia fue concedida. La prórroga de las licencias no podrá ser válidamente solicitada si no ha transcurrido al menos la mitad del plazo.
+
+La obtención de la prórroga del plazo para comenzar las obras comportará por sí misma la prórroga del plazo para acabarlas, debiendo señalarse expresamente la indicación de este último. La prórroga para acabar las obras solo podrá ser solicitada y obtenida si se ha hecho la cobertura de aguas del edificio, según el proyecto técnico.
+
+9. Declarada la caducidad y notificada al titular de la licencia, para comenzar o acabar las obras será preciso solicitar y obtener una nueva licencia, ajustada a la ordenación en vigor, salvo en los casos en que se hubiera acordado la suspensión de la concesión de licencias.
+
+10. Si no se solicita nueva licencia antes de seis meses desde la notificación de caducidad de la anterior, o en su caso desde el levantamiento de la suspensión de licencias, e igualmente si solicitada nueva licencia hubiera de ser denegada, el ayuntamiento podrá acordar la expropiación de los terrenos y obras realizadas por incumplimiento de la función social de la propiedad.
+
+B. TRLFOTU: ARTÍCULO 47
+
+Artículo 47. Exención de controles locales.
+
+Las obras previstas en un Plan o Proyecto Sectorial de Incidencia Supramunicipal, sin perjuicio de las obligaciones tributarias que correspondan ante las entidades locales, no estarán sujetas a licencia o cualquier otro control preventivo local cuando se cumplan los siguientes requisitos:
+
+1. Se trate de la construcción y reparación de infraestructuras, dotaciones e instalaciones, así como su puesta en funcionamiento, que sean declaradas de interés general por el Gobierno de Navarra. La declaración de interés general podrá efectuarse de forma simultánea con la aprobación definitiva del Plan o Proyecto Sectorial de Incidencia Supramunicipal o con posterioridad mediante decreto foral del Gobierno de Navarra.
+
+2. Se comunique por el Departamento competente en materia de ordenación del territorio y urbanismo dicha declaración a las entidades locales afectadas.
+
+3. Con carácter previo al inicio de las obras o a su puesta en funcionamiento el promotor deberá acreditar ante el Departamento competente en materia de ordenación del territorio y urbanismo la sujeción del proyecto de ejecución a las determinaciones del Plan o Proyecto Sectorial y a la normativa protectora del medio ambiente.
+
+4. El Departamento competente en materia de ordenación del territorio y urbanismo, previa audiencia de las entidades locales afectadas, autorizará la ejecución de las obras, con las determinaciones que resultaran necesarias.
+
+5. Por el Departamento competente en materia de ordenación del territorio y urbanismo, se comunique el cumplimiento de todos estos requisitos a las entidades locales afectadas, pudiendo, a partir de dicha notificación, el promotor iniciar directamente las obras o la puesta en funcionamiento de la actividad.
+
+6. Una vez finalizadas la ejecución de las obras o instalaciones o la puesta en funcionamiento de la actividad, el promotor presentará ante el Departamento competente en materia de ordenación del territorio y urbanismo certificación, expedida por técnico competente, acreditativa de tal extremo, así como de que las mismas se han llevado a cabo conforme al proyecto de ejecución, de la cual el citado Departamento dará traslado a las Entidades Locales afectadas.
+
+7. Una vez verificado el cumplimiento de las condiciones de la autorización, el Departamento competente en materia de ordenación del territorio y urbanismo, autorizará el inicio de la actividad.
+
+C. LEY 39/2015: ARTÍCULO 69
+
+Artículo 69. Declaración responsable y comunicación.
+
+1. A los efectos de esta Ley, se entenderá por declaración responsable el documento suscrito por un interesado en el que éste manifiesta, bajo su responsabilidad, que cumple con los requisitos establecidos en la normativa vigente para obtener el reconocimiento de un derecho o facultad o para su ejercicio, que dispone de la documentación que así lo acredita, que la pondrá a disposición de la Administración cuando le sea requerida, y que se compromete a mantener el cumplimiento de las anteriores obligaciones durante el período de tiempo inherente a dicho reconocimiento o ejercicio.
+
+Los requisitos a los que se refiere el párrafo anterior deberán estar recogidos de manera expresa, clara y precisa en la correspondiente declaración responsable. Las Administraciones podrán requerir en cualquier momento que se aporte la documentación que acredite el cumplimiento de los mencionados requisitos y el interesado deberá aportarla.
+
+2. A los efectos de esta Ley, se entenderá por comunicación aquel documento mediante el que los interesados ponen en conocimiento de la Administración Pública competente sus datos identificativos o cualquier otro dato relevante para el inicio de una actividad o el ejercicio de un derecho.
+
+3. Las declaraciones responsables y las comunicaciones permitirán, el reconocimiento o ejercicio de un derecho o bien el inicio de una actividad, desde el día de su presentación, sin perjuicio de las facultades de comprobación, control e inspección que tengan atribuidas las Administraciones Públicas.
+
+No obstante lo dispuesto en el párrafo anterior, la comunicación podrá presentarse dentro de un plazo posterior al inicio de la actividad cuando la legislación correspondiente lo prevea expresamente.
+
+4. La inexactitud, falsedad u omisión, de carácter esencial, de cualquier dato o información que se incorpore a una declaración responsable o a una comunicación, o la no presentación ante la Administración competente de la declaración responsable, la documentación que sea en su caso requerida para acreditar el cumplimiento de lo declarado, o la comunicación, determinará la imposibilidad de continuar con el ejercicio del derecho o actividad afectada desde el momento en que se tenga constancia de tales hechos, sin perjuicio de las responsabilidades penales, civiles o administrativas a que hubiera lugar.
+
+Asimismo, la resolución de la Administración Pública que declare tales circunstancias podrá determinar la obligación del interesado de restituir la situación jurídica al momento previo al reconocimiento o al ejercicio del derecho o al inicio de la actividad correspondiente, así como la imposibilidad de instar un nuevo procedimiento con el mismo objeto durante un período de tiempo determinado por la ley, todo ello conforme a los términos establecidos en las normas sectoriales de aplicación.
+
+5. Las Administraciones Públicas tendrán permanentemente publicados y actualizados modelos de declaración responsable y de comunicación, fácilmente accesibles a los interesados.
+
+6. Únicamente será exigible, bien una declaración responsable, bien una comunicación para iniciar una misma actividad u obtener el reconocimiento de un mismo derecho o facultad para su ejercicio, sin que sea posible la exigencia de ambas acumulativamente.

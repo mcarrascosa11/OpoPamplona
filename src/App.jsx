@@ -5,6 +5,9 @@ import { RESUMENES } from "./data/resumenes.js";
 import { SUPUESTOS } from "./data/supuestos.js";
 import { loadState, saveState, syncDisponible, getCodigo, setCodigo, codigoSeguro, generarCodigoSeguro } from "./lib/storage.js";
 import { supabase } from "./lib/supabase.js";
+import tema35Texto from "../temas/E_Tema35.txt?raw";
+
+const TEMA_35_ACTUALIZADO = tema35Texto.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
 
 // El historial conserva todas las preguntas contestadas. El banco de estudio,
 // en cambio, excluye las retiradas tras una auditoría editorial.
@@ -314,7 +317,7 @@ const COLORES_SUB = { amarillo: "#FDE068", verde: "#86EFAC", rosa: "#F9A8D4" };
 
 // Detecta el formato dominante del texto
 function detectarFormato(texto) {
-  const primeras = texto.split("\n").slice(0, 15).join("\n");
+  const primeras = texto.split("\n").slice(0, texto.startsWith("TEMA 35.") ? 55 : 15).join("\n");
   if (/^={5,}/m.test(primeras) || /^#{5,}/m.test(primeras)) return "A";
   if (/^Tema\s+\d+\.\-/m.test(primeras) || /^(CAPÍTULO|TÍTULO|Artículo\s+\d+)/m.test(primeras)) return "B";
   return "plain";
@@ -331,6 +334,7 @@ function tipificarLinea(linea, formato) {
   if (/^-{5,}/.test(t)) return { tipo: "hrC", texto: "" };
   if (/^>>>\s?/.test(t)) return { tipo: "aviso", texto: t.replace(/^>>>\s?/, "") };
   if (/^(BLOQUE|PARTE)\s+\S+\s*[—\-]/.test(t)) return { tipo: "seccionA", texto: t };
+  if (/^\d+\.\s+[A-ZÁÉÍÓÚÜÑ0-9 ,:;()—\-]+$/.test(t)) return { tipo: "seccionA", texto: t };
   if (/^(DATOS CLAVE|TRAMPAS DE EXAMEN|TRAMPAS|FUENTES)(\s*[:–—]|\s*$)/i.test(t))
     return { tipo: "seccionFinal", texto: t };
 
@@ -469,7 +473,7 @@ function VistaLectura({ state, persist }) {
   useEffect(() => {
     if (!supabase) return;
     supabase.from("temas").select("codigo").then(({ data }) => {
-      if (data) setDisponibles(new Set(data.map((r) => r.codigo)));
+      if (data) setDisponibles(new Set([...data.map((r) => r.codigo), "E35"]));
     });
   }, []);
 
@@ -514,21 +518,25 @@ function VistaLectura({ state, persist }) {
     setPopup(null);
     setAnclaSub(null);
     if (contenedorRef.current) contenedorRef.current.scrollTop = 0;
-    if (!supabase) {
+    if (!supabase && tema.codigo !== "E35") {
       setError("Supabase no está configurado (faltan la URL o la clave publicable).");
       setCargando(false);
       return;
     }
     try {
-      const { data, error: err } = await supabase
-        .from("temas").select("contenido").eq("codigo", tema.codigo).maybeSingle();
-      if (err) throw err;
-      if (!data) {
+      let texto = tema.codigo === "E35" ? TEMA_35_ACTUALIZADO : null;
+      if (!texto) {
+        const { data, error: err } = await supabase
+          .from("temas").select("contenido").eq("codigo", tema.codigo).maybeSingle();
+        if (err) throw err;
+        texto = data?.contenido;
+      }
+      if (!texto) {
         setError(`El tema ${tema.codigo} no tiene texto disponible todavía.`);
       } else {
-        setContenido(data.contenido);
+        setContenido(texto);
         const codigo = getCodigo();
-        if (codigo) {
+        if (codigo && supabase) {
           const { data: subs } = await supabase
             .from("subrayados").select("id, inicio, fin, color")
             .eq("codigo", codigo).eq("tema_codigo", tema.codigo);
