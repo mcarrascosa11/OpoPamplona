@@ -113,11 +113,10 @@ PUBLICACIÓN: BOE nº 311, de 27/12/2012. ENTRADA EN VIGOR: 28/12/2012.
 ESTADO: VIGENTE. Última consolidación verificada con validez desde 19/10/2022.
 TÍTULO I = "De las medidas urgentes de impulso del comercio" = arts. 1 a 5.
 VIGENCIA / MODIFICACIONES RELEVANTES DEL TÍTULO I:
-  - Art. 2.1 (umbral de superficie): redacción vigente fijada por la Ley 14/2013,
-    de 27 de septiembre (emprendedores), en vigor desde 29/09/2013, que elevó el
-    umbral a 750 m². También afectado por la Ley 20/2013, de 9 de diciembre, de
-    garantía de la unidad de mercado (en vigor desde 11/12/2013).
-    Evolución del umbral: 300 m² (texto inicial/RDL 19/2012) -> 500 m² -> 750 m² (vigente).
+  - Art. 2.1 (umbral de superficie): la Ley 14/2013, de 27 de septiembre,
+    elevó el umbral inicial de 300 a 500 m². La Ley 20/2013, de 9 de diciembre,
+    lo elevó a los 750 m² vigentes, con efectos desde 11/12/2013.
+    Evolución: 300 m² (texto inicial/RDL 19/2012) -> 500 m² -> 750 m² (vigente).
   - Arts. 1, 3, 4 y 5: redacción original de 2012, vigente.
 
 --------------------------------------------------------------------------------
@@ -598,12 +597,16 @@ ENTRADA EN VIGOR: 1 de junio de 2007.
 --------------------------------------------------------------------------------
 
 CLAVE DE EXAMEN / OJO (BLOQUE 3):
-  - DOS regímenes: (i) Régimen de Comunicación (Título I, actuaciones comunicadas:
-    se resuelven en el acto; silencio positivo a los 15 días hábiles si no hay
-    comunicación) y (ii) Procedimiento Abreviado (Título II: licencia en plazo
-    máximo de 1 MES).
+  - DOS regímenes en la ordenanza de 2007: (i) actuaciones comunicadas del
+    Título I, con diligencia de conformidad si la documentación se examina de
+    inmediato; si excepcionalmente no puede analizarse, el art. 5.3 permite
+    iniciar las obras a los 15 días hábiles sin aviso de deficiencias; (ii)
+    licencia por procedimiento abreviado del Título II, plazo máximo de 1 MES.
+    No convertir el art. 5.3 en silencio estimatorio de licencia ni en una
+    espera previa general de las declaraciones actuales (arts. 69 LPAC y 195
+    TRLFOTU).
   - Plazos memorizables: subsanación 10 días hábiles; análisis excepcional de
-    comunicadas 15 días hábiles (con efecto de conformidad por silencio); resolución
+    comunicadas 15 días hábiles (regla literal excepcional del art. 5.3); resolución
     del abreviado 1 mes; inicio de obras 3 meses; finalización 6 meses; prórroga
     máxima = mitad de esos plazos; retirada de licencia 4 días.
   - Casco Antiguo y elementos catalogados: las comunicadas NO valen; grados de
@@ -891,8 +894,8 @@ FUENTES (verificación 17/06/2026)
 - Art. 192 TRLFOTU: DFLeg 1/2017 (BON 168, 31/08/2017); mod. LF 4/2021 (BON
   28/04/2021). Texto consolidado: Iberley (artículo 192) y BOE-A-2017-12907.
 - Ley 12/2012: BOE-A-2012-15595 (BOE 311, 27/12/2012); arts. 1-5 verificados en
-  texto consolidado (Iberley), validez desde 19/10/2022; umbral 750 m² por Ley
-  14/2013 y Ley 20/2013.
+  texto consolidado del BOE; umbral de 500 m² por Ley 14/2013 y de 750 m² por
+  Ley 20/2013.
 - Ordenanza obras menores Pamplona: PDF oficial pamplona.es; aprob. def. BON 64
   (23/05/2007); en vigor 01/06/2007. Texto íntegro verificado.
 - Ordenanza control posterior Pamplona: PDF oficial pamplona.es

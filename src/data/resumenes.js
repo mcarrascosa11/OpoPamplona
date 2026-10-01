@@ -8990,6 +8990,19 @@ export const RESUMENES = {
           "nota": "Ordenanzas publicadas en BON 23/05/2007 y 12/05/2014. No mezclar sus datos con mínimos forales de ejecución, audiencia de caducidad o reglas de la LAC."
         },
         {
+          "titulo": "Pamplona: qué norma consultar antes de tramitar",
+          "columnas": ["Pregunta", "Fuente municipal", "Regla de examen"],
+          "filas": [
+            ["¿Cabe el uso en esa parcela o local?", "Plan Municipal y, si procede, planeamiento especial como el PEPRI", "La elección entre licencia y declaración no legaliza un uso incompatible"],
+            ["¿Cómo se configura la obra o el local?", "Ordenanzas generales de edificación, accesibilidad y urbanización", "Son condiciones materiales; no sustituyen el procedimiento del TRLFOTU"],
+            ["¿Qué trámite corresponde a la obra menor?", "Ordenanza de obras menores de 2007, leída con los arts. 192 y 195 TRLFOTU", "Las categorías antiguas no pueden imponer licencia a un supuesto legal de declaración"],
+            ["¿Cómo se controla la apertura declarada?", "Ordenanza de control posterior de 2014 y ficha municipal de utilización", "La presentación válida y el control posterior son momentos distintos"],
+            ["¿Hay afecciones especiales?", "Catálogo patrimonial, ruido, zonas saturadas y ordenanzas sectoriales según actividad", "Comprobar caso concreto; esas normas no son un bloque único de licencias"],
+            ["¿Quién firma y cómo se presenta?", "Acuerdo de delegación aplicable y ordenanza municipal de administración electrónica", "No inferir el órgano decisor de la unidad que tramita ni de un formulario"]
+          ],
+          "nota": "Mapa de consulta, no inventario exhaustivo de ordenanzas. El núcleo procedimental de E35 son los arts. 190–197 TRLFOTU; la aplicación material exige revisar planeamiento y normas sectoriales vigentes para cada caso."
+        },
+        {
           "titulo": "Ley 12/2012 y energía: condiciones que delimitan la simplificación",
           "columnas": [
             "Régimen",
@@ -9038,6 +9051,7 @@ export const RESUMENES = {
         "La comunicación puede ser posterior al inicio solo por previsión legislativa expresa; no por decisión del particular (art. 69.3 LPAC).",
         "Fuera del Casco Antiguo y sin catalogación son condiciones relevantes para la categoría municipal de reparaciones simples de fachadas y cubiertas, además de materiales, diseño y medios auxiliares (art. 3 de la ordenanza de 2007).",
         "La transmisión urbanística se apoya en art. 13 del Reglamento de Servicios y art. 10.3.i de la ordenanza de obras menores; no en una supuesta regla de transmisión del art. 197 TRLFOTU.",
+        "Pamplona, secuencia de examen: uso permitido por el Plan/PEPRI → condiciones de edificación y actividad → título exigible → órgano competente → documentación y efectos → control posterior. No confundir viabilidad material con trámite.",
         "Cómputo LPAC: días hábiles salvo ley o Derecho de la UE con otro cómputo; excluir sábados, domingos y festivos. Meses y años, de fecha a fecha, con las reglas del art. 30."
       ],
       "excepciones": [
@@ -9068,7 +9082,7 @@ export const RESUMENES = {
         items: [
           "Art. 192.1 — quedan sujetas al régimen de declaración responsable o comunicación, A LOS EFECTOS DE SU CONSTANCIA, REALIZACIÓN Y CONTROL POSTERIOR: a) las obras ligadas al ACONDICIONAMIENTO DE LOCALES para desempeñar la actividad comercial conforme a la normativa sectorial · b) las obras de ESCASA ENTIDAD O DIMENSIÓN que se determinen en las ORDENANZAS MUNICIPALES · c) CERRAMIENTOS Y VALLADOS · d) CARTELES PUBLICITARIOS visibles desde la vía pública · e) OBRAS MENORES · f) TRABAJOS PREVIOS a la construcción, tales como sondeos, prospecciones, catas y ensayos",
           "Letra g) — INSTALACIONES DE APROVECHAMIENTO DE ENERGÍA SOLAR PARA AUTOCONSUMO sobre edificaciones o construcciones y PÉRGOLAS DE APARCAMIENTO, SIN LIMITACIÓN DE POTENCIA",
-          "TRES excepciones tasadas de la letra g), que sí requieren licencia: las instalaciones en edificios declarados BIEN DE INTERÉS CULTURAL o CATALOGADOS —con aplicación del art. 62.7.c— · las que afecten a los CIMIENTOS O LA ESTRUCTURA del edificio · y las que necesiten EVALUACIÓN DE IMPACTO AMBIENTAL",
+          "TRES excepciones tasadas que quedan fuera de la letra g): instalaciones en edificios declarados BIEN DE INTERÉS CULTURAL o CATALOGADOS —con aplicación del art. 62.7.c— · las que afecten a los CIMIENTOS O LA ESTRUCTURA del edificio · y las que necesiten EVALUACIÓN DE IMPACTO AMBIENTAL. El título exigible se determina con la normativa aplicable",
           "Letra h) — PUNTOS DE RECARGA DE VEHÍCULOS ELÉCTRICOS situados EN EL INTERIOR DE EDIFICACIONES, salvo que pudieran suponer impacto sobre bienes declarados de interés cultural o sujetos a cualquier otro régimen de protección",
           "Art. 192.2 (literal): el régimen de declaración responsable NO EXIME NI CONDICIONA las facultades de INSPECCIÓN, CONTROL Y SANCIÓN de la entidad local sobre las obras que no se ajusten a la legislación, al planeamiento o a la propia declaración responsable",
           "Redacción vigente fijada por la LEY FORAL 4/2021, de 22 de abril, que añadió las letras g) y h). Su finalidad expresa fue aclarar que las instalaciones de autoconsumo solar quedan sujetas a declaración responsable y NO a licencia de obras",
@@ -9078,11 +9092,11 @@ export const RESUMENES = {
       {
         h: "Ley 12/2012, Título I — supresión de licencias en el comercio (arts. 1-5)",
         nota:
-          "Norma estatal nacida para eliminar la licencia previa de apertura en el pequeño comercio, y cuyo dato más preguntado es el UMBRAL DE SUPERFICIE, porque ha cambiado dos veces: nació en 300 m², pasó a 500 y hoy está en 750 M² de superficie útil de exposición y venta al público, fijados por la Ley 14/2013. Las cifras antiguas son distractores clásicos. Retén también que el art. 3.2 trata el CAMBIO DE TITULARIDAD como comunicación previa «a los solos efectos informativos», y que la exención de licencia para obras solo opera cuando NO se requiere proyecto conforme al art. 2.2 de la LOE — si hace falta proyecto, seguimos en el terreno de la licencia.",
+          "Norma estatal nacida para eliminar la licencia previa de apertura en el pequeño comercio. El UMBRAL DE SUPERFICIE cambió dos veces: nació en 300 m², pasó a 500 m² por la Ley 14/2013 y hoy está en 750 m² de superficie útil de exposición y venta al público por la Ley 20/2013. Las cifras antiguas son distractores clásicos. El art. 3.2 trata el CAMBIO DE TITULARIDAD como comunicación previa «a los solos efectos informativos». La dispensa de licencia de obras del art. 3.3 solo opera cuando NO se requiere proyecto conforme al art. 2.2 de la LOE; si se requiere, hay que aplicar la normativa de obras de edificación.",
         items: [
           "Art. 1 — OBJETO: impulso y dinamización de la actividad comercial minorista y de determinados servicios mediante la eliminación de cargas y restricciones, en particular la SUPRESIÓN DE LAS LICENCIAS DE ÁMBITO MUNICIPAL vinculadas con los establecimientos comerciales, sus instalaciones y determinadas obras previas",
           "Art. 2.1 — ÁMBITO: actividades comerciales minoristas y determinados servicios previstos en el ANEXO de la ley, realizados en establecimientos PERMANENTES situados en cualquier parte del territorio nacional, cuya superficie útil de EXPOSICIÓN Y VENTA AL PÚBLICO NO SEA SUPERIOR A 750 METROS CUADRADOS",
-          "Evolución del umbral: 300 m² en el RDL 19/2012 → 500 m² → 750 M² vigentes, fijados por la Ley 14/2013 de emprendedores",
+          "Evolución del umbral: 300 m² iniciales → 500 m² por Ley 14/2013 → 750 m² vigentes por Ley 20/2013",
           "Art. 2.2 — quedan AL MARGEN del Título I las actividades que tengan impacto en el PATRIMONIO HISTÓRICO-ARTÍSTICO o en el USO PRIVATIVO Y OCUPACIÓN DE BIENES DE DOMINIO PÚBLICO",
           "Art. 3.1 — INEXIGIBILIDAD DE LICENCIA: no podrá exigirse licencia previa de instalaciones, de funcionamiento o de actividad, ni otras análogas que sujeten a previa autorización el ejercicio de la actividad o la apertura del establecimiento",
           "Art. 3.2 — CAMBIO DE TITULARIDAD: tampoco está sujeto a licencia; será exigible COMUNICACIÓN PREVIA a la administración competente A LOS SOLOS EFECTOS INFORMATIVOS",
@@ -9115,7 +9129,7 @@ export const RESUMENES = {
           "El bloque con más cifras del tema, y conviene fijarlas por parejas para no cruzarlas: DIEZ DÍAS HÁBILES de subsanación · QUINCE DÍAS HÁBILES para el análisis excepcional de una comunicada, con efecto de conformidad si el Ayuntamiento no dice nada · UN MES para resolver el abreviado · CUATRO DÍAS para retirar la licencia · y TRES MESES para iniciar y SEIS para terminar las obras, prorrogables como máximo por la mitad. Y una regla clásica que cae mucho, el art. 10.4: la licencia ampara las OBRAS pero NO los USOS, de modo que si el uso no está legalizado ni es legalizable, la ejecución de la obra no da derecho a la licencia de uso.",
         items: [
           "Art. 5 — procedimiento de las COMUNICADAS: la documentación se analiza DE INMEDIATO por el personal encargado del enterado, con tres salidas — si está INCOMPLETA se informa al solicitante, que puede dejarla en registro y completarla en DIEZ DÍAS HÁBILES o retirarla para completarla antes; si no subsana en plazo, se ARCHIVAN las actuaciones sin más trámite · si la actuación NO corresponde a este procedimiento, se notifica la necesidad de ajustarse al tipo de licencia que proceda · si es CORRECTA, se completa con DILIGENCIA DE «CONFORME» firmada por el encargado, se registra junto con el justificante de pago y se estima concluso el procedimiento",
-          "Art. 5.3 — SILENCIO POSITIVO EXCEPCIONAL: cuando por causas excepcionales la documentación no pueda analizarse de inmediato, en el plazo máximo de QUINCE DÍAS HÁBILES se comunicarán las deficiencias o la inadecuación del procedimiento. Transcurrido ese plazo SIN COMUNICACIÓN ALGUNA, se entenderá que la actuación es CONFORME y el interesado podrá iniciar las obras",
+          "Art. 5.3 — REGLA LITERAL DE LA ORDENANZA DE 2007: cuando por causas excepcionales la documentación no pueda analizarse de inmediato, en el plazo máximo de QUINCE DÍAS HÁBILES se comunicarán las deficiencias o la inadecuación del procedimiento. Transcurrido ese plazo SIN COMUNICACIÓN ALGUNA, se entenderá que la actuación es CONFORME y el interesado podrá iniciar las obras. No convertir esta previsión antigua en un silencio estimatorio de licencia ni en una espera previa general de las declaraciones actuales",
           "Art. 8 — OCUPACIÓN DE VÍA PÚBLICA y medios auxiliares: se solicita PREFERENTEMENTE a la vez que la licencia abreviada; si se pide por separado, solo se autoriza SI PREVIAMENTE SE HA OTORGADO la licencia de obras. Exige plano de ubicación y, si hay andamios, montacargas, vehículos grúa o trabajos en altura, certificado de contratación de director de obra o de ejecución o, en su defecto, de que la instalación y retirada se harán bajo dirección de técnico competente, con documentos VISADOS",
           "Art. 9 — procedimiento ABREVIADO: se inicia por solicitud normalizada; a efectos de cómputo, el expediente se considera iniciado en la fecha de entrada de la DOCUMENTACIÓN COMPLETA. Si falta documentación se requiere subsanación en DIEZ DÍAS HÁBILES con advertencia de tenerle por DESISTIDO",
           "Art. 9.3 — la resolución deberá producirse en plazo NO SUPERIOR A UN MES, contado desde el día siguiente a aquel en que la documentación esté completa y subsanadas las deficiencias. El informe municipal puede proponer DENEGACIÓN si no cumple la normativa urbanística, u OTORGAMIENTO con requisitos o medidas correctoras, dándose cuenta periódicamente al órgano competente de las licencias otorgadas",
@@ -9159,10 +9173,10 @@ export const RESUMENES = {
       "La exención de licencia para obras solo opera si NO se requiere proyecto ex art. 2.2 LOE (art. 3.3)",
       "Las remisiones al art. 71 bis de la Ley 30/1992 deben leerse hechas al ART. 69 DE LA LEY 39/2015",
       "Obra menor: sencillez técnica + escasa entidad constructiva + escasa entidad económica, CONJUNTAMENTE",
-      "Comunicadas: NO valen con andamios, ocupación de vía pública, trabajos en altura o grúa, ni en edificios catalogados",
-      "Casco Antiguo: las obras de fachada y cubierta salen del régimen de comunicación y van al abreviado",
+      "Ordenanza de 2007, art. 3: excluye de sus actuaciones comunicadas andamios, ocupación de vía pública —salvo contenedores—, trabajos en altura o grúa y edificios catalogados; contrastar con los arts. 192 y 195 TRLFOTU actuales",
+      "Ordenanza de 2007: obras de fachada y cubierta en Casco Antiguo fuera de su categoría comunicada; el título actual se decide con la ley vigente y la protección aplicable",
       "Catalogados grados 1 y 2: excluidos del abreviado. Grado 3: admite abreviado con límites",
-      "Plazos de la ordenanza: 10 DÍAS HÁBILES subsanación · 15 DÍAS HÁBILES análisis excepcional con conformidad por silencio · 1 MES resolución del abreviado · 4 DÍAS para retirar la licencia",
+      "Plazos literales de la ordenanza de 2007: 10 DÍAS HÁBILES subsanación · 15 DÍAS HÁBILES análisis excepcional · 1 MES resolución del abreviado · 4 DÍAS para retirar la licencia; no trasladar la espera de 15 días a toda declaración actual",
       "Obras: iniciar en 3 MESES y terminar en 6 MESES; prórroga máxima igual a LA MITAD de esos plazos",
       "Art. 10.4: la licencia ampara las OBRAS pero NO LOS USOS",
       "Ordenanza de 2014: COMUNICACIÓN PREVIA = cambio de titularidad · DECLARACIÓN RESPONSABLE = puesta en marcha y obras sin proyecto",
@@ -9170,6 +9184,35 @@ export const RESUMENES = {
       "El acta de inspección es DOCUMENTO PÚBLICO con valor probatorio (art. 6.5)",
       "La suspensión cautelar es ACTO DE TRÁMITE CUALIFICADO y por tanto recurrible (art. 7.3)",
     ],
+    memorizacion: {
+      tablas: [
+        {
+          titulo: "E36: cifras y efectos que no se deben cruzar",
+          columnas: ["Fuente y supuesto", "Dato", "Cautela"],
+          filas: [
+            ["Ley 12/2012, art. 2.1", "750 m²", "Superficie útil de exposición y venta al público; umbral de la Ley 20/2013"],
+            ["Ordenanza de obras menores de 2007, art. 5.2.a", "10 días hábiles", "Subsanación documental en su procedimiento"],
+            ["Ordenanza de obras menores de 2007, art. 5.3", "15 días hábiles", "Análisis excepcional según su tenor; no es espera general actual"],
+            ["Ordenanza de obras menores de 2007, art. 9.3", "1 mes", "Resolución del abreviado si todavía procede licencia"],
+            ["Ordenanza de obras menores de 2007, art. 10.3.e", "3 meses / 6 meses", "Inicio / fin de obras según la ordenanza; cotejar título y ley posteriores"],
+            ["Ordenanza de control posterior de 2014, art. 5.4", "10 días", "Subsanación; eficacia suspendida hasta completarla"]
+          ],
+          nota: "El art. 69 LPAC y el art. 195 TRLFOTU atribuyen efectos a la presentación válida de la declaración. Los plazos de la ordenanza de 2007 no crean licencia previa donde la ley posterior impone declaración."
+        }
+      ],
+      datos: [
+        "Art. 192.1 TRLFOTU: ocho letras a–h; g) autoconsumo solar sin limitación de potencia y h) puntos de recarga en el interior de edificaciones, con las excepciones de protección aplicables.",
+        "Ley 12/2012: 300 m² iniciales → 500 m² por Ley 14/2013 → 750 m² por Ley 20/2013; el límite vigente es de superficie útil de exposición y venta.",
+        "Pamplona 2007: obra menor exige conjuntamente sencillez técnica y escasa entidad constructiva y económica; no equivale sin más a ausencia de proyecto en cualquier actuación.",
+        "Pamplona 2014: comunicación previa de cambio de titular; declaración responsable de inicio de actividad y, en su ámbito, obras de adecuación; control posterior e inspección posible, no visita presencial universal."
+      ],
+      excepciones: [
+        "Solar del art. 192.1.g: BIC o catalogado, afección a cimientos o estructura y necesidad de evaluación de impacto ambiental quedan fuera de esa letra.",
+        "Art. 192.2: declaración responsable no elimina inspección, control ni sanción local.",
+        "Art. 3.3 Ley 12/2012: dispensa de licencia de obras de acondicionamiento solo si no precisan proyecto según art. 2.2 LOE; art. 3.4 conserva el régimen de las obras de edificación.",
+        "Las reglas procedimentales de 2007 y 2014 se leen con la legislación posterior; una pregunta sobre el tenor de la ordenanza no equivale a afirmar su aplicación íntegra hoy."
+      ]
+    },
   },
 
   E37: {
