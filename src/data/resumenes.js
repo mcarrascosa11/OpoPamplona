@@ -9217,7 +9217,7 @@ export const RESUMENES = {
 
   E37: {
     intro:
-      "La Ley Foral 14/2005 organiza el Patrimonio Cultural de Navarra en TRES ESCALONES DE PROTECCIÓN que gobiernan todo el tema: Bienes de INTERÉS CULTURAL —los más relevantes—, Bienes INVENTARIADOS y Bienes de RELEVANCIA LOCAL. De ese escalón depende quién protege, quién autoriza y con qué norma: los dos primeros exigen autorización del Departamento de Cultura y sus declaraciones PREVALECEN sobre el planeamiento; el tercero se remite íntegramente a la legislación y al planeamiento urbanístico municipal, es decir, a ti. Para un arquitecto municipal el tema tiene tres puntos de contacto diarios: la autorización previa de intervenciones, los Planes Especiales de Protección que la entidad local debe redactar, y el hallazgo arqueológico casual durante una obra, con su deber de paralización inmediata. Cierra el tema el Decreto Foral 290/1988, que delimita el Camino de Santiago y fija sus dos bandas de protección.",
+      "La Ley Foral 14/2005 distingue tres clases de protección especial: Bienes de INTERÉS CULTURAL —los más relevantes—, Bienes INVENTARIADOS y Bienes de RELEVANCIA LOCAL; además contempla los demás bienes culturales. De la clase depende el régimen de protección: las intervenciones en inmuebles de las dos primeras pueden exigir autorización de Cultura, mientras que la protección específica de los Bienes de Relevancia Local se establece en la legislación urbanística y el planeamiento municipal. Para un arquitecto municipal son decisivos la autorización previa de intervenciones, los Planes Especiales de Protección, los expedientes de ruina y el hallazgo arqueológico durante una obra. El Decreto Foral 290/1988 añade el régimen del Camino de Santiago.",
     bloques: [
       {
         h: "Objeto, principios y competencias (arts. 1-6)",
@@ -9268,11 +9268,11 @@ export const RESUMENES = {
       {
         h: "Bienes Inventariados y de Relevancia Local (arts. 42-44)",
         nota:
-          "El escalón intermedio replica el régimen del BIC en lo esencial —prevalencia sobre el planeamiento, subordinación de las normativas sectoriales y autorización previa del Departamento en dos meses con silencio negativo—, con una diferencia: su régimen de protección concreto es el que fije SU PROPIA DECLARACIÓN. El tercer escalón, en cambio, se remite por entero al urbanismo municipal, y por eso es el que gestionas tú directamente a través del catálogo del Plan.",
+          "En los inmuebles Inventariados, la declaración fija la protección concreta, que prevalece sobre el planeamiento; la intervención requiere autorización del Departamento en dos meses, con posible desestimación por silencio. En los Bienes de Relevancia Local, el art. 44 remite la protección específica a la legislación urbanística y al planeamiento municipal. Su declaración e inscripción siguen sujetas a la ley foral.",
         items: [
           "Art. 42 — BIENES INMUEBLES INVENTARIADOS: su régimen de protección es EL FIJADO EN SU DECLARACIÓN, que establecerá de forma expresa las medidas más convenientes para su conservación. Las determinaciones de la declaración PREVALECEN sobre las de los planes urbanísticos, y las normativas sectoriales de edificación y habitabilidad se SUBORDINAN a la conservación de los valores culturales",
           "Art. 43 — AUTORIZACIÓN de intervenciones sobre Bienes inmuebles Inventariados: previa autorización del Departamento competente, solicitud presentada por LA ENTIDAD LOCAL que tramite la licencia, resolución en DOS MESES y silencio DESESTIMATORIO — mismo régimen que el art. 36",
-          "Art. 44 — BIENES DE RELEVANCIA LOCAL: su régimen específico de protección será el establecido en la LEGISLACIÓN URBANÍSTICA y en el PLANEAMIENTO URBANÍSTICO MUNICIPAL. Es el escalón que se gestiona íntegramente desde el catálogo municipal",
+          "Art. 44 — BIENES DE RELEVANCIA LOCAL: su régimen específico de protección será el establecido en la LEGISLACIÓN URBANÍSTICA y en el PLANEAMIENTO URBANÍSTICO MUNICIPAL; son bienes de la clase del art. 13, con declaración e inscripción conforme a la ley foral",
         ],
       },
       {
@@ -9340,6 +9340,61 @@ export const RESUMENES = {
       "En servidumbre y franja: prohibidas nuevas alineaciones, aumentos de edificabilidad, parcelaciones y agregaciones, salvo concentración parcelaria",
       "El planeamiento local DEBE incorporar la delimitación física del Camino y su régimen de protección (art. 6)",
     ],
+    memorizacion: {
+      tablas: [
+        {
+          titulo: "LF 14/2005, art. 13: clases y protección especial",
+          columnas: ["Clase", "Bienes que abarca", "Protección especial e inscripción"],
+          filas: [
+            ["Bien de Interés Cultural", "Inmuebles, muebles e inmateriales más relevantes", "Sí; Registro de Bienes del Patrimonio Cultural de Navarra"],
+            ["Bien Inventariado", "Inmuebles, muebles e inmateriales de notable relevancia", "Sí; Registro de Bienes del Patrimonio Cultural de Navarra"],
+            ["Bien de Relevancia Local", "Inmuebles de significación cultural local", "Sí; Registro de Bienes del Patrimonio Cultural de Navarra"],
+            ["Demás bienes culturales", "Bienes culturales no incluidos en las tres clases anteriores", "No por el solo art. 13.2"]
+          ],
+          nota: "LF 14/2005, arts. 13–17. El art. 15 enumera siete categorías de inmuebles BIC; categoría no equivale a clase."
+        },
+        {
+          titulo: "LF 14/2005: plazos de protección, autorización y hallazgo",
+          columnas: ["Actuación", "Plazo y punto de partida", "Efecto de la falta de actuación"],
+          filas: [
+            ["Medidas cautelares previas, art. 30", "Máximo 2 meses de duración", "En ese plazo debe incoarse, en su caso, la declaración"],
+            ["Autorización de intervención en inmueble BIC, art. 36.1", "2 meses para resolver la solicitud local", "Puede entenderse desestimada"],
+            ["Informe cultural sobre Plan Especial, art. 37.1", "3 meses desde recepción de documentación completa", "Se entiende favorable"],
+            ["Hallazgo casual durante obra, art. 59.1", "Máximo 2 meses para resolver; sin dies a quo expreso en el apartado", "La norma exige resolución; no atribuir silencio positivo"],
+            ["Comunicación de descubrimiento arqueológico, art. 63.1", "A la mayor brevedad y máximo 48 horas", "El incumplimiento puede privar del premio conforme al art. 64.2"]
+          ],
+          nota: "LF 14/2005, arts. 30, 36.1, 37.1, 59.1, 63.1 y 64.2. No confundir el silencio desestimatorio de la intervención con el informe favorable presunto del Plan Especial."
+        },
+        {
+          titulo: "DF 290/1988: bandas del Camino de Santiago",
+          columnas: ["Ámbito", "Medida", "Actuaciones constructivas"],
+          filas: [
+            ["Camino delimitado, art. 1.2", "Franja de 3 m de ancho que integra terrenos y elementos funcionales", "Destino de sendero peatonal y ecuestre; art. 2.1"],
+            ["Servidumbre, art. 2.2–3", "3 m desde cada borde exterior del Camino", "Solo pueden autorizarse infraestructuras"],
+            ["Entorno, art. 2.4–5", "30 m desde borde exterior, en tanto no lo delimite el planeamiento", "Infraestructuras e instalaciones vinculadas a conservación, mejora y disfrute"],
+            ["Licencia municipal, art. 4.1", "Autorización del Consejero notificada a entidad local antes de licencia", "La solicitud o un informe aún no permiten otorgar la licencia"]
+          ],
+          nota: "DF 290/1988, arts. 1, 2 y 4. El régimen provisional del art. 2 se formula para suelo no urbanizable y urbanizable no programado; si el Camino va tangente a carretera, la servidumbre se fija en el borde opuesto."
+        }
+      ],
+      datos: [
+        "LF 14/2005, art. 5: las entidades locales conservan inmuebles culturales de su territorio, gestionan catálogos y Planes Especiales y pueden adoptar medidas cautelares y expropiar Bienes de Relevancia Local.",
+        "LF 14/2005, art. 15: siete categorías de inmuebles BIC: Monumento, Conjunto Histórico, Sitio Histórico, Zona Arqueológica, Paisaje Cultural, Vía Histórica y Jardín Histórico.",
+        "LF 14/2005, art. 14.2: obra de autor vivo no puede declararse BIC ni Inventariada, salvo autorización expresa de propietario o adquisición por Administración.",
+        "LF 14/2005, art. 31: entidad local notifica a Cultura incoación y resoluciones de ruina de inmueble protegido; si se declara ruina, prevalece protección y debe repararse y rehabilitarse.",
+        "LF 14/2005, art. 37.1: Plan Especial de Protección para Conjunto Histórico, Sitio Histórico y Zona Arqueológica; informe cultural previo a aprobación definitiva.",
+        "LF 14/2005, art. 64.1: cuando hay premio por hallazgo casual, descubridor y propietario reciben en conjunto la mitad del valor, por partes iguales y sin derecho de retención.",
+        "DF 290/1988, art. 4.2: en servidumbre y entorno no se permiten nuevas alineaciones, aumentos de edificabilidad, parcelaciones ni agregaciones, salvo procesos de concentración parcelaria."
+      ],
+      excepciones: [
+        "LF 14/2005, art. 36.3: una intervención en Conjunto Histórico, Sitio Histórico o Zona Arqueológica que desarrolle planeamiento aprobado conforme al art. 37 no precisa la autorización del art. 36 si solo afecta a inmuebles que no sean Monumentos ni estén en su entorno.",
+        "LF 14/2005, art. 37.2: hasta aprobar definitivamente el Plan Especial, las licencias o la ejecución de las ya otorgadas antes de incoar la declaración necesitan resolución favorable de Cultura; no se permiten nuevas alineaciones, alteraciones de edificabilidad, parcelaciones ni agregaciones.",
+        "LF 14/2005, arts. 59 y 63: en obra se paraliza lo que pueda dañar el hallazgo y se comunica a Cultura Y autoridad local; la comunicación general del descubrimiento puede dirigirse a Cultura, entidad local O Fuerzas y Cuerpos de Seguridad.",
+        "LF 14/2005, art. 64.3: no todo hallazgo casual genera premio; se excluyen, entre otros, hallazgos en áreas arqueológicas de cautela y en obras promovidas por Administraciones públicas.",
+        "DF 290/1988, arts. 1.2 y 2.2: la franja de 3 m de ancho que constituye el Camino no es la servidumbre adicional de 3 m desde cada borde exterior.",
+        "LF 14/2005, arts. 36.1 y 37.1: dos meses con posible desestimación de la autorización de intervención frente a tres meses con informe favorable presunto del Plan Especial."
+      ]
+    },
   },
 
   E38: {
