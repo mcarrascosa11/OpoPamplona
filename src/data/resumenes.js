@@ -9289,16 +9289,6 @@ export const RESUMENES = {
         ],
       },
       {
-        h: "Otros patrimonios específicos (Título V, Caps. II-V)",
-        nota:
-          "Bloque de encuadre: el Título V desgaja del régimen general cinco patrimonios con reglas propias. Para el examen basta con saber ubicarlos y retener sus definiciones y sus inventarios o censos, que es lo que se pregunta. El patrimonio ETNOLÓGICO e INDUSTRIAL son los más próximos a la arquitectura, y el DOCUMENTAL trae un concepto —el ciclo vital de los documentos— que se pregunta por su nombre.",
-        items: [
-          "Cap. II — PATRIMONIO ETNOLÓGICO (art. 65) y PATRIMONIO INDUSTRIAL (art. 66), con su INVENTARIO ETNOLÓGICO DE NAVARRA (art. 68) y reglas específicas de protección de los bienes etnológicos INMATERIALES (art. 69) y del patrimonio industrial (art. 70)",
-          "Cap. III — PATRIMONIO DOCUMENTAL (arts. 71-80): concepto de DOCUMENTO (art. 72), deber de conservación (art. 74), CICLO VITAL DE LOS DOCUMENTOS (art. 75), deberes de los poseedores (art. 76), concepto de ARCHIVO y fondo documental (art. 77), SISTEMA ARCHIVÍSTICO DE NAVARRA (art. 78), CENSO DE ARCHIVOS (art. 79) y régimen de ACCESO a la documentación (art. 80)",
-          "Cap. IV — PATRIMONIO BIBLIOGRÁFICO (art. 81) y PATRIMONIO AUDIOVISUAL DE NAVARRA (art. 82)",
-        ],
-      },
-      {
         h: "DF 290/1988 — Camino de Santiago",
         nota:
           "La segunda norma del tema y la más operativa, porque fija distancias concretas que hay que comprobar al informar una licencia. Son DOS BANDAS que no deben confundirse: la ZONA DE SERVIDUMBRE de TRES METROS desde cada borde exterior del Camino, y la FRANJA DE PROTECCIÓN DEL ENTORNO de TREINTA METROS desde el borde exterior. Y una regla de procedimiento tajante: el Ayuntamiento NO PUEDE OTORGAR licencia que afecte al Camino, a su servidumbre o a su entorno hasta que la autorización del Departamento haya sido notificada a la entidad local. El régimen se aplica en suelo NO URBANIZABLE y URBANIZABLE NO PROGRAMADO.",

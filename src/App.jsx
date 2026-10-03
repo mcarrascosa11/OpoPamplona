@@ -7,9 +7,11 @@ import { loadState, saveState, syncDisponible, getCodigo, setCodigo, codigoSegur
 import { supabase } from "./lib/supabase.js";
 import tema35Texto from "../temas/E_Tema35.txt?raw";
 import tema36Texto from "../temas/E_Tema36.txt?raw";
+import tema37Texto from "../temas/E_Tema37.txt?raw";
 
 const TEMA_35_ACTUALIZADO = tema35Texto.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
 const TEMA_36_ACTUALIZADO = tema36Texto.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
+const TEMA_37_ACTUALIZADO = tema37Texto.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
 
 // El historial conserva todas las preguntas contestadas. El banco de estudio,
 // en cambio, excluye las retiradas tras una auditoría editorial.
@@ -520,13 +522,13 @@ function VistaLectura({ state, persist }) {
     setPopup(null);
     setAnclaSub(null);
     if (contenedorRef.current) contenedorRef.current.scrollTop = 0;
-    if (!supabase && tema.codigo !== "E35" && tema.codigo !== "E36") {
+    if (!supabase && tema.codigo !== "E35" && tema.codigo !== "E36" && tema.codigo !== "E37") {
       setError("Supabase no está configurado (faltan la URL o la clave publicable).");
       setCargando(false);
       return;
     }
     try {
-      let texto = tema.codigo === "E35" ? TEMA_35_ACTUALIZADO : tema.codigo === "E36" ? TEMA_36_ACTUALIZADO : null;
+      let texto = tema.codigo === "E35" ? TEMA_35_ACTUALIZADO : tema.codigo === "E36" ? TEMA_36_ACTUALIZADO : tema.codigo === "E37" ? TEMA_37_ACTUALIZADO : null;
       if (!texto) {
         const { data, error: err } = await supabase
           .from("temas").select("contenido").eq("codigo", tema.codigo).maybeSingle();

@@ -7709,7 +7709,7 @@ export const PREGUNTAS = [
         "Declaración del Departamento competente en cultura",
         "Registro de Bienes del Patrimonio Cultural",
         "Régimen foral de los Bienes Inventariados"],
-    c: 0, exp: "Art. 44: el régimen específico de protección de los Bienes de Relevancia Local es el de la legislación urbanística y el planeamiento municipal. Es una clase de la Ley Foral 14/2005, sujeta a declaración e inscripción conforme a sus arts. 13 y 22; por eso no debe confundirse la fuente de su protección específica con todo su régimen jurídico." },
+    c: 0, exp: "Art. 44: el régimen específico de protección de los Bienes de Relevancia Local es el de la legislación urbanística y el planeamiento municipal. El art. 13 los incluye entre las clases de bienes de especial protección que deben inscribirse en el Registro; por eso no debe confundirse la fuente de su protección específica con todo su régimen jurídico." },
   { id: "E37-12", tema: "E37",
     q: "Según el art. 59 de la Ley Foral 14/2005, de 22 de noviembre, del Patrimonio Cultural de Navarra, si durante una obra se hallan casualmente bienes de valor arqueológico, ¿qué debe hacer el promotor o la dirección facultativa?",
     o: ["Paralizar y avisar solo a la entidad local",
