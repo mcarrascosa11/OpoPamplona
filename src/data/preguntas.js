@@ -8109,41 +8109,41 @@ export const PREGUNTAS = [
   {
     "id": "E40-V2-07",
     "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, dos captaciones subterráneas situadas en un mismo predio se pretenden utilizar por disposición legal. ¿Cómo se aplica el límite del artículo 87.1?",
+    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, conforme al artículo 2, ¿qué conjunto está formado por bienes que integran el dominio público hidráulico del Estado, con las salvedades legales?",
     "o": [
-      "7.000 m³ anuales al conjunto de las captaciones.",
-      "7.000 m³ anuales a cada una de las captaciones.",
-      "10.000 m³ anuales al conjunto de las captaciones.",
-      "10.000 m³ anuales a cada una de las captaciones."
+      "Aguas superficiales continentales y subterráneas renovables, cauces naturales discontinuos y aguas procedentes de la desalación del mar.",
+      "Aguas superficiales continentales y subterráneas renovables, cauces artificiales de riego y aguas procedentes de la desalación del mar.",
+      "Aguas superficiales continentales y subterráneas renovables, cauces naturales discontinuos y lechos de embalses superficiales en cauces privados.",
+      "Aguas superficiales continentales y subterráneas renovables, cauces artificiales de riego y lechos de embalses superficiales en cauces privados."
     ],
     "c": 0,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 87.1: máximo anual de 7.000 m³ aunque sean varios los puntos de derivación o extracción del mismo predio. Aplicarlo a cada captación multiplica indebidamente el límite; sustituirlo por 10.000 m³ altera la cifra. La disposición legal exige además los requisitos del artículo 84 y las limitaciones aplicables."
+    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 2.a), b), c) y e): incluye las aguas continentales superficiales y las subterráneas renovables, los cauces naturales continuos o discontinuos y las aguas desaladas del mar. Los cauces artificiales de riego no son el supuesto de la letra b); la letra c) se refiere a embalses superficiales en cauces públicos, no privados. Las restantes opciones introducen uno o ambos errores."
   },
   {
     "id": "E40-V2-08",
     "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, ¿qué duración máxima, incluidas las prórrogas, y qué inicio del cómputo establece el artículo 97 para las concesiones?",
+    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en zona de flujo preferente, en suelo urbanizado a 30 de diciembre de 2016, se proyectan nuevos usos residenciales cumpliendo los demás requisitos del artículo 9 ter.1. ¿Qué avenida determina la cota a la que no deben verse afectados?",
     "o": [
-      "50 años; desde el día siguiente a la notificación.",
-      "75 años; desde el día siguiente a la publicación.",
-      "75 años; desde el día siguiente a la notificación.",
-      "50 años; desde el día siguiente a la publicación."
+      "La avenida con un periodo de retorno de diez años.",
+      "La avenida con un periodo de retorno de cien años.",
+      "La avenida con un periodo de retorno de quinientos años.",
+      "La avenida con un periodo de retorno de mil años."
     ],
     "c": 2,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 97: plazo máximo de 75 años incluidas las prórrogas, computado desde el día siguiente al de la notificación de la resolución concesional. Las otras combinaciones cambian la duración, el acto inicial o ambos. Las concesiones son temporales y se otorgan según los planes hidrológicos."
+    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 9 ter.1.f): los nuevos usos residenciales deben situarse a una cota tal que no los afecte la avenida de 500 años. Los 100 años se utilizan para delimitar la zona de flujo preferente, no esta cota residencial; diez y mil años tampoco son el umbral del precepto. Esta condición no sustituye los demás requisitos para edificar."
   },
   {
     "id": "E40-V2-09",
     "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, un aprovechamiento de aguas subterráneas dentro del mismo predio, de 6.000 m³ al año y acogido al artículo 54 de la Ley de Aguas, debe anotarse conforme al artículo 189.3 en:",
+    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en una zona inundable situada fuera de la zona de policía se solicita una nueva actividad. El planeamiento no ha sido informado por la administración hidráulica ni recoge sus previsiones. ¿Qué régimen establece el artículo 14 bis.5?",
     "o": [
-      "La sección C del Registro de Aguas.",
-      "El Catálogo de Aguas Privadas.",
-      "La sección A del Registro de Aguas.",
-      "La sección B del Registro de Aguas."
+      "Autoriza la administración competente, con las limitaciones de uso y previo informe de la administración hidráulica.",
+      "Autoriza el organismo de cuenca, con las limitaciones de uso y previo informe de la administración urbanística.",
+      "Autoriza la administración competente, con las limitaciones de uso y posterior comunicación a la administración hidráulica.",
+      "Autoriza el organismo de cuenca, con las limitaciones de uso y posterior comunicación a la administración urbanística."
     ],
-    "c": 3,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 189.3.b): sección B para estos aprovechamientos dentro del mismo predio que no sobrepasen 7.000 m³ anuales. La sección A comprende concesiones y otros títulos enumerados en su letra a); la C, aprovechamientos temporales de aguas privadas de las disposiciones transitorias segunda y tercera. El Catálogo de Aguas Privadas del artículo 196 es una institución distinta."
+    "c": 0,
+    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 14 bis.5: fuera de la zona de policía autoriza la administración competente, sujeta a las limitaciones de uso y al informe previo de la administración hidráulica. No atribuye por esa sola ubicación la autorización al organismo de cuenca, ni sustituye el informe previo por una comunicación posterior. La excepción relativa al planeamiento informado no concurre en el supuesto."
   },
   {
     "id": "E40-V2-10",
@@ -8174,41 +8174,41 @@ export const PREGUNTAS = [
   {
     "id": "E40-V2-12",
     "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, una autorización de vertido se otorgó por dos años. Si se cumplen las condiciones ambientales de renovación del artículo 249.4 y no procede una revisión, ¿por qué duración se entiende renovada?",
+    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en la zona de servidumbre el propietario proyecta sembrar especies no arbóreas y plantar especies arbóreas, sin deteriorar el ecosistema fluvial ni impedir el paso público. ¿Qué régimen corresponde respectivamente conforme al artículo 7.2?",
     "o": [
-      "Por cinco años.",
-      "Por dos años.",
-      "Por cuatro años.",
-      "Por tres años."
+      "La siembra es libre para el propietario y la plantación requiere autorización del organismo de cuenca.",
+      "La siembra requiere autorización del organismo de cuenca y la plantación es libre para el propietario.",
+      "La siembra y la plantación son libres para el propietario, sin autorización del organismo de cuenca.",
+      "La siembra y la plantación requieren autorización del organismo de cuenca para su realización por el propietario."
     ],
-    "c": 1,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 249.4: renovación por plazos sucesivos de igual duración al autorizado, aquí dos años. Cinco años es el máximo de vigencia, no la duración uniforme de las renovaciones; cuatro y tres no conservan la duración autorizada. La renovación exige que el vertido no cause incumplimiento de los objetivos medioambientales y no impide su revisión cuando proceda."
+    "c": 0,
+    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 7.2: el propietario puede sembrar especies no arbóreas libremente bajo las condiciones del enunciado; la plantación de especies arbóreas requiere autorización del organismo de cuenca. La segunda opción invierte ambos regímenes; la tercera dispensa indebidamente la autorización de la plantación arbórea; la cuarta somete indebidamente a autorización la siembra no arbórea."
   },
   {
     "id": "E40-V2-13",
     "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, una autorización de vertido requiere ejecutar obras de depuración y no está en el supuesto de documentación sustitutiva del artículo 253. ¿Cuándo produce plenos efectos jurídicos conforme al artículo 249.3?",
+    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, según el artículo 14.1, ¿qué efecto tiene la calificación de un terreno como zona inundable sobre su titularidad y calificación jurídica?",
     "o": [
-      "Al notificarse la autorización de vertido.",
-      "Al certificarse la obra por su dirección facultativa.",
-      "Al aprobarse el acta de reconocimiento final favorable.",
-      "Al ponerse en servicio las instalaciones de depuración."
+      "Modifica su titularidad, pero conserva su calificación jurídica.",
+      "Conserva su titularidad, pero modifica su calificación jurídica.",
+      "Conserva tanto su titularidad como su calificación jurídica.",
+      "Modifica tanto su titularidad como su calificación jurídica."
     ],
     "c": 2,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 249.3: plenos efectos al aprobar el organismo de cuenca el acta de reconocimiento final favorable de las obras o instalaciones. La notificación previa de la autorización, la certificación por dirección facultativa o la puesta en servicio no sustituyen esa aprobación. El caso excluye la posibilidad de documentación sustitutiva prevista para los vertidos del artículo 253."
+    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 14.1: la calificación como zona inundable no modifica la titularidad dominical ni la calificación jurídica de los terrenos. Las otras tres opciones atribuyen un cambio que el precepto excluye; las restricciones de uso no convierten por sí solas el terreno en dominio público."
   },
   {
     "id": "E40-V2-14",
     "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, ¿qué títulos establece el artículo 51.1 para la navegación recreativa particular y para el establecimiento de barcas de paso con sus embarcaderos, respectivamente?",
+    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, se solicita una autorización previa para construir en zona de policía al amparo del artículo 78 ter. No concurre la excepción de planeamiento informado. ¿Qué plazo y efecto del silencio establece su apartado 2.b)?",
     "o": [
-      "Autorización y declaración responsable.",
-      "Declaración responsable y declaración responsable.",
-      "Declaración responsable y autorización.",
-      "Autorización y autorización."
+      "Cuatro meses desde el inicio del procedimiento, con silencio desestimatorio.",
+      "Cuatro meses desde el inicio del procedimiento, con silencio estimatorio.",
+      "Seis meses desde el inicio del procedimiento, con silencio estimatorio.",
+      "Seis meses desde el inicio del procedimiento, con silencio desestimatorio."
     ],
-    "c": 1,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 51.1.a) y b): ambos usos comunes especiales se sujetan a declaración responsable, con las condiciones y documentación aplicables. Las combinaciones que exigen autorización como título de este precepto para uno o los dos usos cambian el régimen. No debe confundirse la regla con otras instalaciones o actividades reguladas separadamente."
+    "c": 3,
+    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 78 ter.2.b): seis meses desde el inicio del procedimiento y silencio desestimatorio. Cuatro meses corresponde en el apartado 3 a la conformidad con la propuesta autonómica cuando la tramitación ha sido encomendada, no al plazo de esta autorización. Ninguna opción de silencio estimatorio reproduce el apartado 2.b)."
   },
   {
     "id": "E40-V2-15",
