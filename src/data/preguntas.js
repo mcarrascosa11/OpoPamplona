@@ -8225,87 +8225,201 @@ export const PREGUNTAS = [
   },
 
   // ---------- TEMA 41 ESPECÍFICO · RD 1367/2007 RUIDO + DF 135/1989 (E41) ----------
-  { id: "E41-01", tema: "E41",
-    q: "En los índices acústicos LKeq,T y LK,x del RD 1367/2007, la letra K indica que el valor incorpora:",
-    o: ["El promedio ponderado de los índices Ld, Le y Ln",
-        "La corrección por el periodo temporal de evaluación",
-        "La corrección por distancia a la fuente",
-        "Correcciones de nivel por componentes tonales emergentes, por componentes de baja frecuencia o por ruido de carácter impulsivo"],
-    c: 3, exp: "Art. 3.1.a. LAeq,T evalúa niveles sonoros en un intervalo temporal T sin esas correcciones, y LAmax los niveles máximos durante el periodo de evaluación. Para vibraciones el índice es Law, aplicable al espacio interior de edificios." },
-  { id: "E41-02", tema: "E41",
-    q: "Conforme al art. 5 del RD 1367/2007, las áreas acústicas se clasifican en atención a:",
-    o: ["La intensidad del tráfico rodado que soportan",
-        "El nivel de ruido de fondo medido",
-        "El uso predominante del suelo",
-        "La densidad de población del sector"],
-    c: 2, exp: "Art. 5.1. Las comunidades autónomas determinan los tipos, pero han de prever al menos siete: residencial, industrial, recreativo y de espectáculos, terciario distinto del anterior, sanitario-docente-cultural con especial protección, sistemas generales de infraestructuras de transporte, y espacios naturales que requieran especial protección." },
-  { id: "E41-03", tema: "E41",
-    q: "En los sectores del territorio gravados por servidumbres acústicas, el art. 7.3 establece que las inmisiones:",
-    o: ["Quedan exentas de evaluación",
-        "Se reducirán en 5 decibelios respecto de los objetivos generales",
-        "No podrán superar en ningún caso los objetivos de calidad acústica del área",
-        "Podrán superar los objetivos de calidad acústica aplicables a las correspondientes áreas acústicas"],
-    c: 3, exp: "Art. 7.3. A cambio, el art. 7.4 permite establecer limitaciones a determinados usos del suelo, actividades, instalaciones o edificaciones, con la finalidad de cumplir al menos los valores límite de inmisión establecidos para aquéllos." },
-  { id: "E41-04", tema: "E41",
-    q: "Los instrumentos de planeamiento territorial y urbanístico que ordenen ámbitos afectados por servidumbres acústicas deberán remitirse al órgano sustantivo competente de la infraestructura para informe preceptivo (art. 11.2):",
-    o: ["Con anterioridad a su aprobación inicial, revisión o modificación sustancial",
-        "Solo si el ayuntamiento lo estima conveniente",
-        "Con posterioridad a su aprobación definitiva",
-        "Únicamente cuando se trate de instrumentos de nueva redacción"],
-    c: 0, exp: "Art. 11.2. La regla es aplicable tanto a los nuevos instrumentos como a las modificaciones y revisiones de los ya existentes. Si el planeamiento incorpora medidas correctoras eficaces, la zona de servidumbre puede ser modificada por el órgano que la delimitó (art. 11.1)." },
-  { id: "E41-05", tema: "E41",
-    q: "Conforme al art. 13.2 del RD 1367/2007, las modificaciones, revisiones y adaptaciones del planeamiento general que contengan modificaciones en los usos del suelo:",
-    o: ["Requieren un nuevo mapa de ruido de todo el municipio",
-        "Solo obligan a revisar la zonificación si aumentan la edificabilidad",
-        "Conllevarán la necesidad de revisar la zonificación acústica en el correspondiente ámbito territorial",
-        "No afectan a la zonificación acústica ya aprobada"],
-    c: 2, exp: "Art. 13.2. Además, todas las figuras de planeamiento deben incluir de forma explícita la delimitación de la zonificación acústica (13.1), y al tramitar planes de desarrollo que fijen usos pormenorizados hay que delimitar de nuevo las áreas acústicas (13.3)." },
-  { id: "E41-06", tema: "E41",
-    q: "Para las áreas urbanizadas distintas de las existentes —es decir, los nuevos desarrollos—, el objetivo de calidad acústica para ruido es (art. 14.2):",
-    o: ["La no superación del valor de la tabla A incrementado en 3 decibelios",
-        "La no superación del valor de la tabla A del anexo II disminuido en 5 decibelios",
-        "La no superación del valor de la tabla A del anexo II",
-        "El que determine en cada caso el ayuntamiento"],
-    c: 1, exp: "Art. 14.2. El mismo criterio de los 5 decibelios de reducción se aplica a las zonas tranquilas en aglomeraciones y en campo abierto (art. 14.4). En áreas urbanizadas existentes, si ya se supera el valor de la tabla A, el objetivo es alcanzarlo mediante planes zonales específicos." },
-  { id: "E41-07", tema: "E41",
-    q: "Se considera que se respetan los objetivos de calidad acústica de un área cuando, en el periodo de un año (art. 15):",
-    o: ["Ningún valor supera los fijados en la tabla A y el 97 % de todos los valores diarios no los supera en 3 dB",
-        "El 90 % de los valores diarios no supera los de la tabla A",
-        "La media anual no supera los valores de la tabla A",
-        "Ningún valor supera en más de 5 dB los de la tabla A"],
-    c: 0, exp: "Art. 15: son dos condiciones acumulativas. La misma regla del 97 % y los 3 dB se aplica al espacio interior respecto de la tabla B (art. 17)." },
-  { id: "E41-08", tema: "E41",
-    q: "Los valores de los índices de inmisión de ruido y vibraciones de las tablas B y C del anexo II, aplicables al espacio interior de viviendas y usos residenciales, hospitalarios, educativos o culturales:",
-    o: ["Tendrán la consideración de valores límite",
-        "Son meramente orientativos",
-        "Se aplican únicamente en horario nocturno",
-        "Solo se aplican a edificios de nueva construcción"],
-    c: 0, exp: "Art. 16.1. Cuando en edificaciones localizadas en áreas urbanizadas existentes se superen esos valores límite, se les aplicará como objetivo de calidad alcanzar los valores de las tablas B y C (art. 16.2)." },
-  { id: "E41-09", tema: "E41",
-    q: "Conforme al art. 10.1 del Decreto Foral 135/1989, el proyecto acústico es exigible en los expedientes de actividades nuevas o de ampliación cuando:",
-    o: ["Solo si el ayuntamiento lo requiere expresamente",
-        "Estén situadas en las proximidades de viviendas, instalaciones sanitarias o actividades docentes, o cuando se presuma que los niveles sonoros puedan suponer incrementos apreciables del ruido de fondo en zonas sanitarias, docentes o residenciales",
-        "En todo caso, cualquiera que sea la ubicación de la actividad",
-        "Únicamente cuando se trate de actividades clasificadas como discotecas"],
-    c: 1, exp: "Art. 10.1. El proyecto acústico comprende memoria técnica y planos, con planos de aislamiento a escala 1/50 y detalles a 1/5 de materiales, espesores y juntas (art. 10.2)." },
-  { id: "E41-10", tema: "E41",
-    q: "Al calcular el aislamiento acústico necesario, el art. 10.3 del DF 135/1989 obliga a suponer que las transmisiones indirectas incrementan los niveles de inmisión sonora, como mínimo, en:",
-    o: ["5 dBA", "10 dBA", "3 dBA", "1 dBA"],
-    c: 2, exp: "Art. 10.3, salvo que la solución técnica propuesta garantice suficientemente la inexistencia de esas transmisiones indirectas. Es una regla de seguridad del cálculo que el proyectista no puede omitir sin justificación." },
-  { id: "E41-11", tema: "E41",
-    q: "Cuando sea necesario desarrollar la actividad con puertas y ventanas cerradas para garantizar un aislamiento acústico adecuado, el DF 135/1989 exige:",
-    o: ["Duplicar el aislamiento de fachada",
-        "Disponer de sistema de ventilación forzada",
-        "Instalar un limitador acústico",
-        "Reducir el horario de funcionamiento"],
-    c: 1, exp: "Art. 10.4. Es una exigencia habitual en locales de hostelería y ocio, y conecta con el DF 202/2002 del tema 24, que impone vestíbulo estanco con doble puerta en bares especiales y cafés-espectáculo." },
-  { id: "E41-12", tema: "E41",
-    q: "Entre los efectos indirectos que el proyecto debe considerar (art. 10.5 DF 135/1989) figura de forma expresa:",
-    o: ["El ruido generado por las obras de construcción del local",
-        "El impacto visual de las instalaciones de climatización",
-        "La emisión de olores procedente de la actividad",
-        "Las actividades que generen tráfico elevado de vehículos en sus inmediaciones, como almacenes, locales públicos y especialmente discotecas, en zonas de elevada densidad o con calles estrechas"],
-    c: 3, exp: "Art. 10.5.a. El precepto cita además las actividades que requieran operaciones de carga o descarga en horario nocturno y las que exijan funcionamiento nocturno de las instalaciones." },
+  {
+    "id": "E41-01",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, una modificación del planeamiento general cambia los usos del suelo de un sector. ¿Qué consecuencia establece el artículo 13.2 para la zonificación acústica?",
+    "o": [
+      "Revisar la zonificación acústica en el ámbito territorial afectado por el cambio.",
+      "Revisar la zonificación acústica en la totalidad del término municipal afectado.",
+      "Revisar la zonificación acústica cuando el cambio aumente la edificabilidad del sector.",
+      "Revisar la zonificación acústica cuando el cambio aumente el nivel sonoro del sector."
+    ],
+    "c": 0,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Art. 13.2: el cambio de usos obliga a revisar la zonificación en el correspondiente ámbito territorial. No exige extenderla a todo el municipio ni condiciona la revisión al aumento de edificabilidad o del nivel sonoro."
+  },
+  {
+    "id": "E41-02",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, un plan ordena un ámbito afectado por una servidumbre acústica de una infraestructura. ¿En qué momento debe remitirse al órgano sustantivo competente para el informe preceptivo del artículo 11.2?",
+    "o": [
+      "Antes de la aprobación definitiva del instrumento de planeamiento.",
+      "Antes de la aprobación provisional del instrumento de planeamiento.",
+      "Antes de la aprobación inicial del instrumento de planeamiento.",
+      "Antes de la publicación del acuerdo definitivo del planeamiento."
+    ],
+    "c": 2,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Art. 11.2: remisión anterior a la aprobación inicial, revisión o modificación sustancial; se aplica también a modificaciones y revisiones. Aprobación provisional, definitiva y publicación son momentos posteriores al exigido."
+  },
+  {
+    "id": "E41-03",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, un área residencial urbanizada después de la entrada en vigor del real decreto no es un área urbanizada existente. ¿Qué objetivos Ld, Le y Ln resultan del artículo 14.2 y del anexo II, tabla A?",
+    "o": [
+      "65, 65 y 55 dB, respectivamente.",
+      "60, 60 y 55 dB, respectivamente.",
+      "55, 55 y 45 dB, respectivamente.",
+      "60, 60 y 50 dB, respectivamente."
+    ],
+    "c": 3,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Art. 14.2 y anexo II, tabla A: a los 65/65/55 del área residencial existente se restan 5 dB, dando 60/60/50. Mantener 65/65/55 omite la reducción; 55/55/45 corresponde a límites exteriores de actividades de la tabla B1; 60/60/55 no reduce el índice nocturno."
+  },
+  {
+    "id": "E41-04",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, una nueva actividad transmite ruido al exterior de un área acústica residencial. ¿Qué valores límite LK,d, LK,e y LK,n establece el anexo III, tabla B1?",
+    "o": [
+      "65, 65 y 55 dB, respectivamente.",
+      "60, 60 y 50 dB, respectivamente.",
+      "55, 55 y 45 dB, respectivamente.",
+      "50, 50 y 40 dB, respectivamente."
+    ],
+    "c": 2,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Art. 24.1 y anexo III, tabla B1: 55/55/45 para uso residencial. 65/65/55 son objetivos de áreas residenciales existentes; 60/60/50 son límites de nuevas infraestructuras en área residencial; 50/50/40 es B1 para uso sanitario, docente y cultural especialmente protegido."
+  },
+  {
+    "id": "E41-05",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, una actividad transmite ruido a un dormitorio de la vivienda colindante sin propagación a través del ambiente exterior. ¿Qué límite nocturno LK,n establece el anexo III, tabla B2?",
+    "o": [
+      "25 dB.",
+      "30 dB.",
+      "35 dB.",
+      "40 dB."
+    ],
+    "c": 0,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Art. 24.3 y anexo III, tabla B2: dormitorio residencial, LK,n = 25 dB. Los 30 dB corresponden a estancias residenciales nocturnas de B2 y al objetivo nocturno de dormitorios del anexo II, tabla B; 35 y 40 dB no son el límite nocturno de este dormitorio."
+  },
+  {
+    "id": "E41-06",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, al inspeccionar una actividad en funcionamiento, ¿qué dos condiciones cuantitativas deben cumplir los índices evaluados según el artículo 25.2, en relación con el apartado 1.b)?",
+    "o": [
+      "Ningún valor diario supera el límite en 3 dB ni ningún LKeq,Ti medido lo supera en 5 dB.",
+      "Ningún valor diario supera el límite en 5 dB ni ningún LKeq,Ti medido lo supera en 3 dB.",
+      "El 97 % de valores diarios no supera el límite en 3 dB ni ningún LKeq,Ti medido lo supera en 5 dB.",
+      "El 97 % de valores diarios no supera el límite en 5 dB ni ningún LKeq,Ti medido lo supera en 3 dB."
+    ],
+    "c": 0,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Art. 25.2 remite a 25.1.b).ii) y iii): ningún valor diario puede superar en 3 dB el límite y ningún LKeq,Ti medido puede superarlo en 5 dB. La combinación 5/3 invierte márgenes; el 97 % pertenece a otros criterios y no sustituye aquí la condición sobre todos los valores diarios."
+  },
+  {
+    "id": "E41-07",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, durante el periodo diurno se registran cuatro eventos de vibración transitoria que superan el objetivo aplicable en 4 dB cada uno, y no hay excesos nocturnos. ¿Qué resultado da el criterio del artículo 17.1.b).ii)?",
+    "o": [
+      "Cumple: se contabilizan cuatro unidades y no se supera el máximo de nueve.",
+      "Cumple: se contabilizan ocho unidades y no se supera el máximo de nueve.",
+      "Incumple: se contabilizan doce unidades y se supera el máximo de nueve.",
+      "Incumple: se contabilizan dieciséis unidades y se supera el máximo de nueve."
+    ],
+    "c": 2,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Art. 17.1.b).ii): cada exceso superior a 3 dB cuenta como 3; cuatro eventos suman 12 y exceden 9. Contar cada evento como 1 o 2, o sumar sus decibelios como unidades, no reproduce la regla. Que no se supere 5 dB por evento no basta para cumplir."
+  },
+  {
+    "id": "E41-08",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, al determinar LKeq,T se obtienen correcciones Kt = 6 dB, Kf = 3 dB y Ki = 3 dB. Si LAeq,T es 50 dB, ¿qué valor corregido resulta con el máximo del anexo IV, apartado A.3.3?",
+    "o": [
+      "56 dB.",
+      "53 dB.",
+      "62 dB.",
+      "59 dB."
+    ],
+    "c": 3,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Anexo I.A.2.c) y anexo IV.A.3.3: se suman las correcciones, pero su conjunto está limitado a 9 dB; 50 + 9 = 59. Usar solo la mayor da 56, sumar sin tope da 62 y añadir una sola corrección de 3 da 53."
+  },
+  {
+    "id": "E41-09",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, para evaluar los índices acústicos a efectos de una inspección administrativa de actividades, ¿qué procedimiento establece el anexo IV, apartado A.1?",
+    "o": [
+      "Cálculos predictivos de los niveles acústicos de la actividad.",
+      "Mediciones de los niveles acústicos en el punto de evaluación.",
+      "Cálculos a partir de las potencias acústicas de los equipos.",
+      "Estimaciones a partir del mapa estratégico de ruido del entorno."
+    ],
+    "c": 1,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Anexo IV.A.1: a efectos de inspección de actividades la valoración se determina únicamente mediante mediciones. Los cálculos pueden servir para otros fines, incluidas predicciones, pero no sustituyen las mediciones de inspección; tampoco lo hace una estimación del mapa."
+  },
+  {
+    "id": "E41-10",
+    "tema": "E41",
+    "q": "Según el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas, ¿qué combinación describe correctamente la revisión de las áreas acústicas y la vigencia de las servidumbres acústicas según los artículos 6 y 12.1?",
+    "o": [
+      "Áreas: máximo cada cinco años; servidumbres: vigencia indefinida.",
+      "Áreas: máximo cada diez años; servidumbres: vigencia de diez años.",
+      "Áreas: máximo cada cinco años; servidumbres: vigencia de diez años.",
+      "Áreas: máximo cada diez años; servidumbres: vigencia indefinida."
+    ],
+    "c": 3,
+    "exp": "Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas. Arts. 6 y 12.1: áreas acústicas revisadas como máximo cada diez años desde su aprobación; servidumbres con vigencia indefinida. Cinco años no es esa periodicidad y diez años no es la duración de las servidumbres, cuya revisión tiene los supuestos del art. 12.2."
+  },
+  {
+    "id": "E41-11",
+    "tema": "E41",
+    "q": "Según el Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones, en un proyecto acústico, ¿qué escalas exige el artículo 10.2.b) para los planos de aislamiento y sus detalles de materiales, espesores y juntas, respectivamente?",
+    "o": [
+      "1/100 y 1/10.",
+      "1/50 y 1/10.",
+      "1/50 y 1/5.",
+      "1/100 y 1/5."
+    ],
+    "c": 2,
+    "exp": "Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones. Art. 10.2.b): planos de aislamiento 1/50 y detalles 1/5, además del plano de situación. Las demás combinaciones alteran una o ambas escalas. El precepto especifica estas escalas, no las sustituye por las generales de los planos urbanísticos."
+  },
+  {
+    "id": "E41-12",
+    "tema": "E41",
+    "q": "Según el Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones, se calcula el aislamiento de un local sin que la solución garantice suficientemente la inexistencia de transmisiones indirectas. ¿Qué incremento mínimo de inmisión debe suponerse según el artículo 10.3?",
+    "o": [
+      "1 dBA.",
+      "3 dBA.",
+      "5 dBA.",
+      "10 dBA."
+    ],
+    "c": 1,
+    "exp": "Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones. Art. 10.3: incremento mínimo de 3 dBA por transmisiones indirectas. No es 1, 5 ni 10 dBA. La excepción exige que la solución técnica garantice suficientemente su inexistencia; no basta omitirlas del cálculo."
+  },
+  {
+    "id": "E41-13",
+    "tema": "E41",
+    "q": "Según el Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones, un bar tiene nivel sonoro interior de 78 dBA, procedente fundamentalmente de los usuarios, y carece de equipo musical. Funciona de 10:00 a 23:00. ¿Qué aislamiento acústico bruto mínimo respecto de la vivienda más afectada exige el artículo 12.1?",
+    "o": [
+      "50 dBA.",
+      "55 dBA.",
+      "60 dBA.",
+      "65 dBA."
+    ],
+    "c": 1,
+    "exp": "Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones. Art. 12.1: con nivel interior no superior a 80 dBA y las condiciones indicadas, al funcionar parcialmente fuera del horario exclusivamente diurno 8–22 se exige 55 dBA. Los 50 corresponden a funcionamiento íntegramente diurno; 60 y 65 son los aislamientos de los supuestos musicales de 85 y 90 dBA del apartado 2."
+  },
+  {
+    "id": "E41-14",
+    "tema": "E41",
+    "q": "Según el Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones, un establecimiento de los contemplados en el artículo 12.2 tiene nivel sonoro máximo interior de 90 dBA debido primordialmente a equipos musicales. ¿Qué aislamiento acústico bruto exige la tabla respecto de la vivienda más afectada?",
+    "o": [
+      "55 dBA.",
+      "60 dBA.",
+      "65 dBA.",
+      "70 dBA."
+    ],
+    "c": 2,
+    "exp": "Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones. Art. 12.2: a nivel interior máximo de 90 dBA corresponde aislamiento bruto de 65 dBA. Los 60 corresponden a 85 dBA; 55 no es la pareja de esta tabla y 70 no es el valor señalado para 90 dBA."
+  },
+  {
+    "id": "E41-15",
+    "tema": "E41",
+    "q": "Según el Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones, ¿qué documento exige el Ayuntamiento antes de conceder la licencia de apertura de los establecimientos del artículo 12.5, sin perjuicio de sus comprobaciones?",
+    "o": [
+      "Certificado de mediciones del aislamiento conseguido, firmado por titulado técnico competente.",
+      "Certificado de cálculo del aislamiento proyectado, firmado por titulado técnico competente.",
+      "Certificado de homologación de los equipos musicales, firmado por titulado técnico competente.",
+      "Certificado de ensayo de los materiales aislantes, firmado por titulado técnico competente."
+    ],
+    "c": 0,
+    "exp": "Decreto Foral 135/1989, de 8 de junio, por el que se establecen las condiciones técnicas que deberán cumplir las actividades emisoras de ruidos o vibraciones. Art. 12.5: certificado de las mediciones del aislamiento acústico conseguido. No equivale a un cálculo del aislamiento proyectado, homologación de equipos musicales o ensayo de materiales; se acredita el resultado ejecutado."
+  },
 
   // ---------- TEMA 42 ESPECÍFICO · LF 29/2018 LUGARES DE LA MEMORIA (E42) ----------
   { id: "E42-01", tema: "E42",
