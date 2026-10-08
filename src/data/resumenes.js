@@ -12109,6 +12109,121 @@ export const RESUMENES = {
       "La autorización CADUCA si transcurre UN AÑO sin iniciar las actuaciones",
       "Informe sobre instrumentos de planificación: SEIS MESES y, de no emitirse, se entiende FAVORABLE",
     ],
+    memorizacion: {
+      tablas: [
+        {
+          titulo: "LF 29/2018, arts. 2 y 4: categorías de lugar de la memoria",
+          columnas: ["Categoría", "Supuesto", "Alcance cronológico"],
+          filas: [
+            ["Histórica, art. 2.1.a)", "Fosas o enterramientos individuales o colectivos de personas fusiladas y desaparecidas tras el golpe militar de 1936", "Julio de 1936 – 29/12/1978 (art. 4.1)"],
+            ["Histórica, art. 2.1.b)", "Lugares de detención y asesinato de personas que sufrieron la violencia y represión franquista", "Julio de 1936 – 29/12/1978 (art. 4.1)"],
+            ["Histórica, art. 2.1.c)", "Obras públicas construidas con trabajos forzados de personas presas durante el franquismo", "Julio de 1936 – 29/12/1978 (art. 4.1)"],
+            ["Memorial, art. 2.2", "Espacio sin vínculo directo e histórico con los hechos, erigido después por familias de víctimas, asociaciones memorialistas, instituciones o administraciones públicas", "No se aplican esas fechas (art. 4.2)"]
+          ],
+          nota: "Ambas categorías exigen que el espacio esté DECLARADO E INSCRITO; el art. 2.1 añade que sea un espacio físico ubicado en Navarra, y presenta sus letras a)–c) como supuestos que «podrán ser declarados». El final del periodo es la ENTRADA EN VIGOR de la Constitución (29/12/1978), no el referéndum (6/12/1978) ni la muerte de Franco (20/11/1975). Art. 2.3: las medidas se gradúan según ubicación, trascendencia de los hechos, estado de conservación, adecuación urbanística e impacto económico y social."
+        },
+        {
+          titulo: "LF 29/2018, art. 7: plazos del procedimiento de declaración",
+          columnas: ["Trámite", "Plazo y cómputo", "Consecuencia o carácter"],
+          filas: [
+            ["Resolución de inicio a petición motivada, art. 7.a)", "Máximo 3 meses para adoptarla y notificarla", "Silencio DESESTIMATORIO de la solicitud"],
+            ["Audiencia, art. 7.d)", "Mínimo 1 mes desde la notificación", "Preceptiva; a particulares directamente afectados y entidad local"],
+            ["Información pública, art. 7.d)", "Mínimo 1 mes desde el anuncio en el BON", "Preceptiva"],
+            ["Informe de la Comisión Técnica, art. 7.e)", "Máximo 3 meses, tras audiencia e información pública", "PRECEPTIVO Y VINCULANTE"],
+            ["Caducidad, art. 7.i)", "12 meses desde la incoación sin resolución dictada y notificada", "Sin nuevo procedimiento sobre el bien en 3 años, salvo a instancia del titular"]
+          ],
+          nota: "Orden de la secuencia: inicio (y publicación en el BON) → audiencia e información pública → informe de la Comisión → Acuerdo del Gobierno de Navarra → notificación, publicación en el BON e inscripción. Los dos trámites de un mes son plazos MÍNIMOS; los tres meses del inicio y del informe son MÁXIMOS."
+        },
+        {
+          titulo: "LF 29/2018, arts. 7 y 8: quién hace cada cosa",
+          columnas: ["Fase", "Sujeto u órgano", "Forma o efecto"],
+          filas: [
+            ["Inicio de oficio", "Órgano competente", "Resolución con contenido mínimo, publicada en el BON"],
+            ["Inicio a instancia", "Cualquier persona física o jurídica", "Petición motivada"],
+            ["Informe", "Comisión Técnica de Coordinación en materia de Memoria Histórica (LF 33/2013)", "Preceptivo y vinculante"],
+            ["Propuesta de resolución", "Persona titular del departamento de memoria histórica", "Propone, no resuelve"],
+            ["Resolución", "Gobierno de Navarra", "ACUERDO notificado y publicado en el BON; inscripción en el Registro"],
+            ["No procede declarar", "Órgano iniciador", "Resuelve la finalización y retira la anotación preventiva (art. 7.h)"],
+            ["Modificación o cancelación", "La propone el departamento", "Mismo procedimiento del art. 7 (art. 8.2)"]
+          ],
+          nota: "Arts. 5.2–5.3, 7 y 8. Trampa habitual: atribuir la declaración al departamento o a la Comisión. La Comisión informa con carácter vinculante y el departamento propone, pero quien declara es el Gobierno de Navarra."
+        },
+        {
+          titulo: "LF 29/2018, art. 7.b): efectos de la resolución de inicio",
+          columnas: ["Efecto", "Alcance", "Hasta cuándo o salvedad"],
+          filas: [
+            ["Registro", "ANOTACIÓN PREVENTIVA del bien", "Se retira si no procede la declaración (art. 7.h)"],
+            ["Régimen de protección", "Aplicación PROVISIONAL, con efecto inmediato y directo", "Arts. 13.5 y 14.1: también rigen autorizaciones y planeamiento"],
+            ["Licencias municipales", "Suspensión de las de PARCELACIÓN, EDIFICACIÓN O DEMOLICIÓN y de los EFECTOS DE LAS YA OTORGADAS", "Cesa al resolverse el procedimiento; el departamento puede permitir actuaciones si no peligra el valor del bien"],
+            ["Otras intervenciones", "Suspensión de toda intervención que ponga en peligro los valores del bien", "El departamento puede acordarlas durante la tramitación si no peligra el valor del bien"]
+          ],
+          nota: "Art. 7.b). Esta suspensión dura hasta la resolución del procedimiento, que caduca a los 12 meses. No confundir con las medidas cautelares PREVIAS a la incoación del art. 13.1, que duran como máximo 3 meses."
+        },
+        {
+          titulo: "LF 29/2018, arts. 10–12: titulares y Administración",
+          columnas: ["Bloque", "Contenido", "Reacción ante el incumplimiento"],
+          filas: [
+            ["Deberes, art. 10.1 (titulares)", "Facilitar la conservación, protección y mantenimiento · uso compatible con sus valores · facilitar actuaciones contra destrucción y deterioro", "Intervención DIRECTA (12.1) · expropiación (12.2) · multas coercitivas (12.3)"],
+            ["Obligaciones, art. 11.1 (propietarios, titulares de derechos o simples poseedores)", "Comunicar transmisiones, actuaciones y daños · permitir la señalización · visita pública AL MENOS 4 DÍAS AL MES · inspección e información", "Expropiación (12.2) · multas coercitivas (12.3); no intervención directa"],
+            ["Cualquier persona, art. 11.2", "Restos humanos, dentro o fuera del mapa de fosas: comunicación INMEDIATA al departamento de memoria histórica", "—"],
+            ["Derechos, art. 11.3", "Asistencia técnica del departamento · solicitar subvenciones u otras medidas de fomento", "—"],
+            ["Administración, art. 10.3–4", "El departamento ASESORA sobre las obras de conservación y SUFRAGA sus gastos; colabora mediante partidas presupuestarias", "—"]
+          ],
+          nota: "Art. 11.1.c): la dispensa de la visita pública puede ser TOTAL O PARCIAL, por causa justificada, y la acuerda el departamento. Art. 9.2: la inscripción lleva implícita la declaración de utilidad pública o interés social, incluidas la expropiación forzosa y la servidumbre de paso."
+        },
+        {
+          titulo: "LF 29/2018, arts. 13–14: el ayuntamiento ante un lugar de la memoria",
+          columnas: ["Situación", "Regla", "Plazo y silencio"],
+          filas: [
+            ["Solicitud de licencia de derribo, obra o intervención que afecte al lugar", "Comunicarla a la Administración foral CON CARÁCTER PREVIO A SU TRAMITACIÓN (13.2)", "—"],
+            ["Obra o intervención en un bien aún no inscrito", "La Administración foral puede suspenderla con medidas cautelares (13.1)", "Máximo 3 MESES; dentro de ellos se incoa, en su caso, la declaración"],
+            ["Cambio que pueda afectar a la conservación", "Autorización del departamento, con proyecto de conservación e informe de la Comisión (13.3)", "3 MESES desde la solicitud; silencio ESTIMATORIO"],
+            ["Autorización obtenida", "Caduca sin iniciar las actuaciones (13.3.c)", "1 AÑO"],
+            ["Obra sin autorización", "El departamento puede impedir el derribo o suspender la obra (13.4)", "—"],
+            ["Plan territorial o urbanístico que afecte al lugar", "Determinaciones de ordenación acordes y CONFORMIDAD preceptiva del departamento (14.1–2)", "6 MESES desde la solicitud; si no se emite, FAVORABLE"],
+            ["Actuación sometida a prevención y control ambiental", "Medidas protectoras y cautelares para conservar el bien (14.4)", "—"]
+          ],
+          nota: "Arts. 13 y 14. Todo el régimen del art. 13 se aplica también a los lugares con anotación preventiva (13.5), y el art. 14.1 se refiere expresamente a ellos. El proyecto de conservación (13.3.a) contiene estudio histórico, diagnóstico del estado actual, propuesta de actuación y presupuesto, y lo suscribe personal técnico competente."
+        },
+        {
+          titulo: "Plazos que se cruzan: LF 29/2018 frente a LF 14/2005",
+          columnas: ["Supuesto", "Memoria histórica (LF 29/2018)", "Patrimonio cultural (LF 14/2005)"],
+          filas: [
+            ["Medidas cautelares previas a la declaración", "Máximo 3 meses (art. 13.1)", "Máximo 2 meses (art. 30)"],
+            ["Autorización de intervenciones", "Departamento de memoria; 3 meses desde la solicitud; silencio ESTIMATORIO (art. 13.3.b)", "BIC inmuebles y sus entornos: departamento de cultura, a solicitud de la entidad local; 2 meses; puede entenderse DESESTIMADA (art. 36.1)"],
+            ["Informe sobre planeamiento", "Conformidad sobre instrumentos de planificación: 6 meses; FAVORABLE si no se emite (art. 14.3)", "Plan Especial de Protección: 3 meses desde la recepción de la documentación completa; FAVORABLE si no se emite (art. 37.1)"],
+            ["Hallazgo", "Restos humanos: comunicación INMEDIATA al departamento de memoria (art. 11.2)", "Hallazgo arqueológico: a la mayor brevedad y máximo 48 HORAS (art. 63.1)"],
+            ["Deber de conservación", "El titular FACILITA las actuaciones; el departamento asesora y SUFRAGA los gastos (arts. 10.1.a y 10.3)", "El titular debe CONSERVAR, PROTEGER Y MANTENER el bien (art. 27.1)"],
+            ["Reacción ante el incumplimiento", "Intervención directa, sin regla expresa sobre quién paga (art. 12.1)", "Ejecución subsidiaria, previo requerimiento, A CARGO DEL TITULAR (art. 29.1), o intervención directa (art. 29.2)"]
+          ],
+          nota: "Las dos leyes comparten estructura (registro, anotación, deberes, autorización, planeamiento), pero sus cifras no coinciden. Estudiarlas a la vez y preguntarse siempre de qué ley es cada plazo."
+        }
+      ],
+      datos: [
+        "Denominación completa: Ley Foral 29/2018, de 26 de diciembre, de Lugares de la Memoria Histórica de Navarra. Para la convocatoria entran los Títulos I a III (arts. 1–14).",
+        "Art. 1: objeto, regular la declaración, protección, conservación y difusión de los lugares, como espacios de transmisión de la memoria que promuevan una cultura de paz y convivencia.",
+        "Art. 3: siete principios. Carácter general de la protección (deber de poderes públicos Y ciudadanía), colaboración institucional (con la AGE y las entidades locales), colaboración con los titulares, fomento, accesibilidad, divulgación (forma parte del sistema educativo) e igualdad de género.",
+        "Art. 5.1: competencias forales. Conservación y protección, medidas cautelares o expropiación forzosa, fomento y divulgación, potestad sancionadora y gestión del Registro. Las ejerce el departamento de memoria histórica, asesorado por la Comisión Técnica de Coordinación creada por la LF 33/2013, de 26 de noviembre.",
+        "Art. 6: el Registro es instrumento de PUBLICIDAD Y CONTROL. Cada lugar tiene su folio o ficha registral. Es público y su consulta, telemática o presencial, es GRATUITA. Lo gestiona el departamento de memoria histórica.",
+        "Art. 6.2: en el Registro constan la resolución de inicio, la de declaración e inscripción y las que modifiquen el contenido registral. También las medidas provisionales, cautelares y definitivas, las transmisiones e intervenciones y cuantos actos afecten a los bienes.",
+        "Art. 7.a): contenido mínimo de la resolución de inicio. Identificación del lugar · valores materiales, históricos o simbólicos · partes del bien objeto de declaración · delimitación cartográfica con coordenadas geográficas · propiedad y personas afectadas · medidas de conservación, señalización y divulgación · medidas cautelares necesarias.",
+        "Art. 7.d): la notificación y el anuncio indican el objeto de la declaración, su justificación, los datos de identificación del lugar y la unidad administrativa donde se tramita y exhibe el expediente.",
+        "Art. 9.1: la declaración y la inscripción, o la anotación preventiva, suponen un reconocimiento singular y la aplicación del régimen de protección.",
+        "Art. 13.3.b): la resolución de autorización valora el proyecto y fija condiciones especiales y recomendaciones técnicas y correctoras. Indica además las obras que no necesitan procedimiento por no afectar al valor del bien."
+      ],
+      excepciones: [
+        "Arts. 7.a), 13.3.b) y 14.3: tres silencios distintos. Petición de inicio: DESESTIMATORIO · autorización de intervención: ESTIMATORIO · conformidad sobre planeamiento: FAVORABLE.",
+        "Art. 4.2: el periodo 1936–1978 no se aplica a los espacios memoriales del art. 2.2. Un monolito erigido en 1995 puede declararse lugar de la memoria.",
+        "Art. 7.b): la suspensión alcanza también los EFECTOS de las licencias YA OTORGADAS, no solo las solicitudes pendientes.",
+        "Art. 7.i): tras la caducidad, la veda de 3 años no opera si el nuevo procedimiento lo insta la persona TITULAR del bien. Sí opera frente a asociaciones, entidades locales o cualquier otro solicitante.",
+        "Art. 11.2: el deber de comunicar restos humanos recae sobre CUALQUIERA y rige también fuera del mapa de fosas. No tiene un plazo en horas: es inmediato.",
+        "Art. 12: la intervención directa (12.1) solo procede por incumplir los deberes del art. 10. La expropiación (12.2) procede por los arts. 10.1 y 11.1, y las multas coercitivas (12.3) por los arts. 10 y 11.",
+        "Las multas coercitivas del art. 12.3 son un medio de ejecución forzosa, no una sanción. El régimen sancionador (Título V, arts. 18–25) queda fuera del alcance de la convocatoria.",
+        "Art. 13.3.b): los 3 meses se cuentan desde la fecha de la SOLICITUD, no desde el informe de la Comisión Técnica.",
+        "Art. 13.2: la comunicación del ayuntamiento es PREVIA A LA TRAMITACIÓN de la licencia, no previa a la resolución ni posterior al otorgamiento.",
+        "El art. 15 (señalización) y el resto del Título IV (mapa digital y sensibilización, arts. 15–17) no entran en la convocatoria. El art. 11.1.b) solo obliga a permitir la señalización."
+      ]
+    },
   },
 
   E24: {
