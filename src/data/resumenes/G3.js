@@ -1,0 +1,111 @@
+// Resumen del tema G3. Formato: cabecera de src/data/resumenes.js.
+export default {
+    intro:
+      "El Capítulo II del Título X de la LRBRL, introducido por la Ley 57/2003 «de medidas para la modernización del gobierno local», y aplicable al Ayuntamiento de Pamplona por remisión del art. 9 bis de la Ley Foral 6/1990. Es el tema que describe tu propio sitio de trabajo, así que conviene estudiarlo funcionalmente y no como lista de artículos. La idea que lo organiza es la SEPARACIÓN entre función de gobierno y función ejecutiva, copiada del modelo parlamentario: el Pleno deja de administrar y pasa a legislar y controlar; el Alcalde dirige la política; la Junta de Gobierno Local se convierte en el verdadero órgano ejecutivo colegiado; y aparece un nivel DIRECTIVO profesional —coordinadores y directores generales— que en el régimen común no existe. Para un arquitecto municipal hay un dato que vale por todo el tema: en este régimen las LICENCIAS las concede la Junta de Gobierno Local (art. 127.1.e), no el Alcalde.",
+    bloques: [
+      {
+        h: "El Pleno (arts. 122-123 LRBRL)",
+        nota:
+          "El Pleno de gran población es un órgano de control y de normas, no de gestión. Por eso puede dotarse de reglamento propio de naturaleza orgánica y tiene SECRETARIO GENERAL PROPIO, distinto del secretario de la corporación, reservado a habilitado nacional y equiparado a órgano directivo. Del art. 123 lo que se pregunta son las dos listas cerradas de letras: las que exigen MAYORÍA ABSOLUTA —c, e, f, j y o, más los acuerdos plenarios en la tramitación del planeamiento general— y las cuatro únicas DELEGABLES en comisiones —d, k, m y ñ—. Fíjate en que la aprobación inicial del planeamiento general y la que pone fin a la tramitación municipal son competencia del Pleno y van por mayoría absoluta: es el punto donde este tema se cruza con la LFOTU.",
+        items: [
+          "Art. 122.1: el Pleno = Alcalde + Concejales; órgano de máxima representación política.",
+          "Art. 122.2: el Pleno es convocado y presidido por el Alcalde; éste decide los empates con voto de calidad. Puede delegar la convocatoria y presidencia en un concejal.",
+          "Art. 122.3: comisiones formadas por miembros designados por los grupos políticos en proporción al número de concejales.",
+          "Art. 122.5: el Secretario general del Pleno (habilitado nacional) presta asesoramiento legal. Es preceptivo: si lo pide el Presidente o 1/3 de miembros (con antelación); en asuntos con mayoría especial; para control/fiscalización si lo pide el Presidente o 1/4 de concejales.",
+          "Art. 123.2: mayoría ABSOLUTA del número legal para: párrafos c), e), f), j) y o) y planeamiento general urbanístico. Demás acuerdos: mayoría SIMPLE.",
+          "Art. 123.3: solo son delegables a las comisiones los párrafos d), k), m) y ñ).",
+          "Art. 122.4: funciones de las comisiones — estudio, informe o consulta de los asuntos que vayan al Pleno · SEGUIMIENTO DE LA GESTIÓN del Alcalde y su equipo de gobierno · y las que el Pleno les delegue",
+          "Art. 122.3: el Pleno se dota de su propio REGLAMENTO, de naturaleza ORGÁNICA, aunque su organización y funcionamiento pueden contenerse también en el reglamento orgánico municipal",
+          "Art. 122.5: el secretario general del Pleno lo es también de las comisiones; redacta y custodia las actas, expide certificaciones con el visto bueno del Presidente, asiste a la convocatoria y al orden de los debates, comunica y ejecuta los acuerdos, y presta el asesoramiento legal",
+          "Atribuciones plenarias de mayor calado (art. 123.1): control y fiscalización de los órganos de gobierno · votación de la MOCIÓN DE CENSURA y de la CUESTIÓN DE CONFIANZA, que es pública y por llamamiento nominal en todo caso · reglamentos orgánicos · ordenanzas y reglamentos municipales · alteración del término, capitalidad, denominación, bandera, enseña o escudo · recursos propios de carácter tributario · PRESUPUESTOS, plantilla de personal y cuenta general · PLANEAMIENTO GENERAL · formas de gestión de los servicios y creación de organismos autónomos, entidades públicas empresariales y sociedades mercantiles · revisión de oficio de sus propios actos y disposiciones generales · y el RÉGIMEN RETRIBUTIVO de los miembros del Pleno, del Alcalde, de la Junta y de los órganos directivos",
+          "Tienen en todo caso NATURALEZA ORGÁNICA (art. 123.1.c): la regulación del Pleno · la del Consejo Social de la Ciudad · la de la Comisión Especial de Sugerencias y Reclamaciones · la de los órganos complementarios y los procedimientos de participación ciudadana · la DIVISIÓN DEL MUNICIPIO EN DISTRITOS · la determinación de los NIVELES ESENCIALES de la organización municipal · y la regulación del órgano para las reclamaciones económico-administrativas",
+        ],
+      },
+      {
+        h: "El Alcalde y Tenientes de Alcalde (arts. 124-125 LRBRL)",
+        nota:
+          "El Alcalde de gran población pierde competencias de gestión y gana dirección política: ya no concede licencias ni aprueba la relación de puestos de trabajo, pero establece las directrices de la acción de gobierno y organiza la Administración ejecutiva. La pregunta segura es la de las delegaciones del art. 124.5, y conviene fijarla como dos grupos: lo INDELEGABLE en absoluto —dirección política, nombrar tenientes de alcalde, medidas de urgencia, jefatura de la Policía Municipal, convocar y presidir la Junta, voto de calidad y dictar bandos— y lo delegable SOLO en la Junta de Gobierno Local, que son las directrices generales y la organización de la Administración ejecutiva.",
+        items: [
+          "Art. 124.1-3: máxima representación del municipio; responsable ante el Pleno; tratamiento de Excelencia.",
+          "Art. 124.5: NO delegables: b) dirección política, e) nombramiento de Tenientes de Alcalde, h) medidas de urgencia, j) Jefatura de la Policía Municipal; y tampoco: convocar/presidir la JGL, decidir empates, dictar bandos. Los párrafos c) y k) son delegables solo en la JGL.",
+          "Art. 125.1: Tenientes de Alcalde nombrados por el Alcalde entre concejales miembros de la JGL; sustituyen al Alcalde por orden de nombramiento en vacante, ausencia o enfermedad.",
+          "Art. 125.2: tratamiento de los Tenientes de Alcalde: Ilustrísima.",
+          "Funciones del Alcalde (art. 124.4): representar al ayuntamiento · DIRIGIR la política, el gobierno y la administración municipal · establecer las DIRECTRICES GENERALES de la acción de gobierno y asegurar su continuidad · convocar y presidir Pleno y Junta y decidir los empates con voto de calidad · nombrar y cesar a los Tenientes de Alcalde y a los Presidentes de los Distritos · ordenar publicación, ejecución y cumplimiento de los acuerdos · DICTAR BANDOS, DECRETOS E INSTRUCCIONES · adoptar medidas en casos de EXTRAORDINARIA Y URGENTE NECESIDAD dando cuenta inmediata al Pleno · superior dirección del personal · JEFATURA DE LA POLICÍA MUNICIPAL · y establecer la organización y estructura de la Administración municipal ejecutiva",
+          "Cláusula residual (art. 124.4.ñ): corresponden al Alcalde las competencias que la legislación del Estado o de las comunidades autónomas asignen al MUNICIPIO y no se atribuyan a otros órganos municipales",
+          "Delegación (art. 124.5): el Alcalde delega MEDIANTE DECRETO en la Junta de Gobierno Local, en sus miembros, en los demás concejales y en coordinadores y directores generales. NO son delegables las letras b), e), h) y j), ni convocar y presidir la Junta, ni decidir los empates con voto de calidad, ni dictar bandos. Las letras c) y k) SOLO son delegables en la Junta de Gobierno Local",
+        ],
+      },
+      {
+        h: "Junta de Gobierno Local (arts. 126-127 LRBRL)",
+        nota:
+          "El órgano ejecutivo por excelencia del régimen de gran población y el que más te afecta: aquí se conceden las licencias, se aprueban los instrumentos de planeamiento de desarrollo y los proyectos de urbanización, y se ejerce la potestad sancionadora. Dos datos con historia: el Alcalde podía nombrar miembros no concejales hasta que la STC 103/2013 anuló ese inciso, de modo que hoy todos los miembros han de ser concejales; y sus deliberaciones son SECRETAS, algo excepcional en un órgano colegiado local. Del art. 127.2 lo examinable es que la delegación de la letra h) va acompañada de excepciones tasadas —relación de puestos de trabajo, retribuciones, oferta de empleo, personal eventual y separación del servicio— que no pueden delegarse.",
+        items: [
+          "Art. 126.2: miembros nombrados y cesados libremente por el Alcalde; número máximo = 1/3 del número legal del Pleno, además del Alcalde.",
+          "Art. 126.3: la JGL responde solidariamente ante el Pleno.",
+          "Art. 126.4: Secretaría de la JGL: concejal miembro designado por el Alcalde.",
+          "Art. 126.5: deliberaciones SECRETAS; concejales no miembros y titulares de órganos directivos solo pueden asistir si son convocados expresamente por el Alcalde.",
+          "Art. 127.1.e: la concesión de licencias corresponde a la JGL, salvo atribución expresa por ley sectorial a otro órgano.",
+          "Art. 127.2: la JGL puede delegar en Tenientes de Alcalde u otros concejales los párrafos e), g), h) (con excepciones) y l).",
+          "Art. 126.1-2: colabora de forma COLEGIADA en la función de dirección política del Alcalde y ejerce las funciones ejecutivas y administrativas del art. 127. Tras la STC 103/2013, que anuló el inciso que permitía nombrar miembros no concejales, todos sus miembros deben ostentar la condición de CONCEJAL",
+          "Atribuciones de la JGL (art. 127.1) — normativas y de planeamiento: aprobación de los PROYECTOS de ordenanzas y reglamentos, incluidos los orgánicos, salvo las normas reguladoras del Pleno y sus comisiones · el PROYECTO DE PRESUPUESTO · los proyectos de instrumentos de ordenación urbanística cuya aprobación definitiva o provisional corresponda al Pleno · y las aprobaciones de los instrumentos de PLANEAMIENTO DE DESARROLLO no atribuidas al Pleno, de los instrumentos de GESTIÓN urbanística y de los PROYECTOS DE URBANIZACIÓN",
+          "Atribuciones de la JGL — ejecutivas: LA CONCESIÓN DE CUALQUIER TIPO DE LICENCIA, salvo que la legislación sectorial la atribuya expresamente a otro órgano · gestión económica y del personal · relación de puestos de trabajo, retribuciones, oferta de empleo público, bases de las convocatorias, personal eventual, separación del servicio y régimen disciplinario · NOMBRAMIENTO Y CESE de los titulares de los ÓRGANOS DIRECTIVOS · acciones judiciales y administrativas de su competencia · revisión de oficio de sus propios actos · POTESTAD SANCIONADORA salvo atribución legal a otro órgano · y designación de representantes municipales en entes participados",
+          "Tribunales de oposiciones (art. 127.1.h): composición PREDOMINANTEMENTE TÉCNICA, con todos sus miembros en posesión de titulación igual o superior a la exigida para las plazas convocadas; el presidente puede nombrarse entre miembros de la Corporación o entre personal al servicio de las Administraciones públicas",
+          "Órgano de apoyo (art. 126.4): existe un órgano de apoyo a la Junta y al concejal-secretario, cuyo titular es HABILITADO NACIONAL, encargado de asistir al concejal-secretario, remitir convocatorias, archivar y custodiar convocatorias, órdenes del día y actas, y velar por la fiel comunicación de los acuerdos",
+        ],
+      },
+      {
+        h: "Otros órganos (arts. 128-132 LRBRL)",
+        nota:
+          "Bloque de órganos obligatorios que completan el modelo. Los DISTRITOS son de creación obligada en estos municipios, y el Pleno debe fijar por norma orgánica el porcentaje mínimo de presupuesto que gestionarán en su conjunto — un dato numérico sin cifra fija en la ley, que es justo lo que se pregunta. Distingue bien el CONSEJO SOCIAL DE LA CIUDAD, de composición social y económica y funciones consultivas sobre desarrollo económico, planificación estratégica y GRANDES PROYECTOS URBANOS, de la COMISIÓN ESPECIAL DE SUGERENCIAS Y RECLAMACIONES, que se forma con los grupos del Pleno de manera proporcional y defiende los derechos de los vecinos.",
+        items: [
+          "Art. 128.3: la presidencia del distrito corresponde en todo caso a un concejal.",
+          "Art. 130.1.A: órganos SUPERIORES = Alcalde + miembros de la JGL.",
+          "Art. 130.1.B: órganos DIRECTIVOS = coordinadores generales, directores generales, titular del órgano de apoyo a la JGL, titular de la asesoría jurídica, Secretario general del Pleno, Interventor general, titular del órgano de gestión tributaria.",
+          "Art. 130.3: coordinadores y directores generales deben ser funcionarios de carrera subgrupo A1.",
+          "Art. 131: Consejo Social de la Ciudad — integrado por representantes de organizaciones económicas, sociales, profesionales y de vecinos más representativas; emite informes sobre desarrollo económico, planificación estratégica y grandes proyectos urbanos.",
+          "Art. 132: Comisión especial de Sugerencias y Reclamaciones — creada por el Pleno; formada por representantes de todos los grupos en proporción; informe anual al Pleno + informes extraordinarios si la gravedad o urgencia lo aconsejan.",
+          "Art. 128.1-2: los ayuntamientos DEBEN crear DISTRITOS como divisiones territoriales propias dotadas de órganos de gestión DESCONCENTRADA, para impulsar la participación ciudadana sin perjuicio de la unidad de gobierno y gestión. Corresponde al PLENO su creación y regulación y determinar, en norma ORGÁNICA, el PORCENTAJE MÍNIMO de recursos presupuestarios que gestionarán en su conjunto",
+          "Art. 129 — ASESORÍA JURÍDICA: órgano administrativo responsable de la asistencia jurídica al Alcalde, a la Junta y a los órganos directivos, comprensiva del asesoramiento y de la representación y defensa en juicio. Su titular lo nombra y separa la JUNTA DE GOBIERNO LOCAL entre licenciados en Derecho que sean habilitados nacionales o funcionarios de carrera del Estado, comunidades autónomas o entidades locales de titulación superior",
+          "Art. 130.4: los órganos superiores y directivos quedan sometidos al régimen de INCOMPATIBILIDADES de la Ley 53/1984",
+          "Art. 130.2: también son órganos directivos los titulares de los máximos órganos de dirección de los ORGANISMOS AUTÓNOMOS y de las ENTIDADES PÚBLICAS EMPRESARIALES locales",
+        ],
+      },
+      {
+        h: "Decreto de Organización Municipal de Pamplona",
+        nota:
+          "El Decreto traduce el reparto legal a la estructura concreta del Ayuntamiento: el Pleno fija los NIVELES ESENCIALES —grandes áreas y órganos directivos— por norma orgánica, y el Alcalde, dentro de ellos, determina el número de órganos y los niveles inferiores. Estudia esa lógica de reparto, que es lo estable; el número y el nombre de las áreas cambian con cada decreto de organización y con cada mandato, así que compruébalos en el vigente antes del examen en lugar de fiarte de esta lista.",
+        items: [
+          "Estructura: 11 grandes áreas de gobierno. Dependen directamente del Alcalde: Área de Alcaldía y Área de Igualdad.",
+          "Área de Transparencia, Innovación y Política Lingüística: ANIMSA adscrita.",
+          "Área de Ciudad Habitable y Vivienda: Gerencia de Urbanismo + Pamplona Centro Histórico adscritos.",
+          "Área de Cultura y Educación: OA Escuelas Infantiles + Fundación Teatro Gayarre adscritos.",
+          "Área de Economía Local Sostenible: integra los órganos de gestión económico-financiera, presupuestaria e Intervención; Mercairuña y Comiruña adscritas.",
+          "Art. 2 Decreto: todas las áreas dispondrán de, al menos, una dirección y una secretaría técnica.",
+          "Base jurídica del Decreto: el art. 124.4.k LRBRL atribuye al ALCALDE establecer la organización y estructura de la Administración municipal ejecutiva, respetando los NIVELES ESENCIALES cuya definición corresponde al PLENO por el art. 123.1.c — las grandes áreas de gobierno, los coordinadores generales y las direcciones generales—, sin perjuicio de las atribuciones del Alcalde para fijar el NÚMERO de cada uno de esos órganos y establecer niveles complementarios inferiores",
+          "El art. 9 bis de la Ley Foral 6/1990 de la Administración Local de Navarra es el precepto que determina la aplicación al Ayuntamiento de Pamplona del régimen del Título X de la LRBRL",
+        ],
+      },
+    ],
+    claves: [
+      "Pleno = Alcalde + Concejales; máxima representación política — art. 122.1",
+      "Alcalde: tratamiento Excelencia; Tenientes de Alcalde: Ilustrísima — arts. 124.3 y 125.2",
+      "Mayoría absoluta en Pleno: párrafos c), e), f), j), o) y planeamiento — art. 123.2",
+      "Delegables a comisiones del Pleno: solo párrafos d), k), m) y ñ) — art. 123.3",
+      "No delegables del Alcalde: b), e), h), j) + convocar JGL, empates, bandos — art. 124.5",
+      "Tenientes de Alcalde: nombrados por Alcalde entre concejales miembros de la JGL — art. 125.1",
+      "JGL: máximo 1/3 del número legal del Pleno + Alcalde — art. 126.2",
+      "Deliberaciones JGL: secretas; no miembros asisten solo si convocados por el Alcalde — art. 126.5",
+      "Licencias: corresponden a la JGL salvo ley sectorial — art. 127.1.e",
+      "Órganos superiores: Alcalde + miembros JGL. Directivos: el resto — art. 130.1",
+      "Tras la STC 103/2013 todos los miembros de la JGL deben ser CONCEJALES",
+      "Asesoría jurídica: su titular lo nombra la JGL; ha de ser licenciado en Derecho — art. 129",
+      "Distritos: creación OBLIGATORIA; el Pleno fija por norma orgánica el % mínimo de presupuesto que gestionan — art. 128",
+      "Consejo Social de la Ciudad: informes sobre desarrollo económico, planificación estratégica y GRANDES PROYECTOS URBANOS — art. 131",
+      "La JGL aprueba el planeamiento de DESARROLLO, los instrumentos de gestión y los proyectos de urbanización — art. 127.1.d",
+      "El Pleno aprueba inicialmente el planeamiento GENERAL, por mayoría absoluta — arts. 123.1.i y 123.2",
+      "Cláusula residual a favor del ALCALDE: lo asignado al municipio y no atribuido a otro órgano — art. 124.4.ñ",
+      "Consejo Social: representantes de organizaciones económicas, sociales, profesionales y de vecinos — art. 131",
+      "Comisión Sugerencias: informe anual al Pleno + informes extraordinarios posibles — art. 132.3",
+      "ANIMSA → Área de Transparencia; Gerencia Urbanismo → Área Ciudad Habitable — Decreto Pamplona",
+    ],
+  };

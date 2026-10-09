@@ -1,0 +1,187 @@
+// Resumen del tema E4. Formato: cabecera de src/data/resumenes.js.
+export default {
+    intro:
+      "El RD 513/2017 aprueba el Reglamento de Instalaciones de Protección Contra Incendios (RIPCI). Regula el diseño, instalación, mantenimiento e inspección de los equipos y sistemas de protección activa contra incendios. Es de aplicación supletoria cuando otra legislación específica no regule estos aspectos, con la excepción de los túneles de carreteras del Estado (RD 635/2006).",
+    bloques: [
+      {
+        h: "Disposiciones generales (Arts. 1–3)",
+        nota:
+          "El art. 1 define el objeto del reglamento: no es una norma de prevención de incendios en sí, sino de los equipos y sistemas de protección activa. El ámbito subjetivo (art. 2) alcanza a instaladoras, mantenedoras, fabricantes, importadores y organismos de evaluación técnica. En el examen se confunde a menudo con el DB-SI del CTE: el DB-SI exige QUE haya protección (qué sectores, qué resistencias); el RIPCI define CÓMO deben ser los equipos (marcado CE, normas UNE, mantenimiento).",
+        items: [
+          "Objeto (art. 1): condiciones y requisitos de diseño, instalación/aplicación, mantenimiento e inspección de equipos, sistemas y componentes de protección activa",
+          "Aplicación supletoria (art. 1.2): cuando otra legislación específica no regule la protección activa; excepción: túneles de carreteras del Estado → RD 635/2006",
+          "Ámbito subjetivo (art. 2): empresas instaladoras, mantenedoras, fabricantes, importadores, distribuidores y organismos de evaluación técnica",
+          "Protección activa (art. 3.a): medios, equipos y sistemas manuales o automáticos para detección, control y/o extinción, facilitando evacuación e impidiendo propagación",
+          "Evaluación técnica (art. 3.d): valoración de requisitos básicos del producto, control en fábrica y seguimiento anual; los organismos deben ser imparciales, con experiencia contrastada y procedimientos validados por la CCAA",
+          "Empresa instaladora (art. 3.f): ubica/instala equipos y sistemas; coloca señales, balizamientos y planos de evacuación de señalización luminiscente",
+          "Empresa mantenedora (art. 3.g): realiza operaciones de mantenimiento de equipos y sistemas",
+        ],
+      },
+      {
+        h: "Sistemas de detección y alarma de incendios",
+        nota:
+          "Este apartado es un festival de normas UNE. En el examen suelen preguntar cuál corresponde a qué componente. La clave es agrupar: UNE 23007-XX para diseño/instalación, UNE-EN 54-XX para producto/marcado CE. Ojo: los detectores con alimentación autónoma no van por UNE-EN 54 sino por UNE-EN 14604. Los dispositivos visuales son obligatorios cuando el ruido supere 60 dB(A), haya personas sordas o se use protección auditiva.",
+        items: [
+          "Norma de componentes: UNE-EN 54-1; diseño/instalación/puesta en servicio: UNE 23007-14; compatibilidad: UNE-EN 54-13; alarma por voz: UNE 23007-32",
+          "Equipo de suministro de alimentación (e.s.a.): marcado CE conforme EN 54-4 (UNE 23007-4)",
+          "Detectores automáticos (calor, humo, llama, lineales, aspiración): marcado CE conforme UNE-EN 54-5, 54-7, 54-10, 54-12, 54-20",
+          "Detectores con fuente autónoma: marcado CE conforme UNE-EN 14604 (no UNE-EN 54)",
+          "Pulsadores de alarma (activación manual): marcado CE conforme EN 54-11; distancia máxima desde origen de evacuación: 25 m; altura parte superior: 80–120 cm",
+          "Equipo de control e indicación (e.c.i.): marcado CE conforme EN 54-2 (UNE 23007-2); debe identificar la zona de activación",
+          "Dispositivos acústicos: marcado CE UNE-EN 54-3; dispositivos visuales: UNE-EN 54-23 (obligatorios si ruido >60 dB(A), ocupantes sordos o protección auditiva)",
+          "Alarma por voz: controladores UNE-EN 54-16, altavoces UNE-EN 54-24",
+          "Transmisión de alarmas: marcado CE conforme EN 54-21; los sistemas de protección contra incendios tienen prioridad máxima en sistemas integrados",
+          "Resto de componentes: marcado CE conforme serie UNE-EN 54 cuando entre en vigor; hasta entonces, certificado o marca de conformidad (art. 5.2)",
+        ],
+      },
+      {
+        h: "Sistemas de abastecimiento de agua contra incendios",
+        nota:
+          "Poco preguntado directamente, pero es la base de hidrantes, BIE y rociadores. La norma clave es UNE 23500. Si un sistema de extinción tiene evaluación técnica favorable (art. 5.3), su abastecimiento de agua se considera conforme. Para BIE, las tuberías cumplen UNE 23500 salvo que el propio epígrafe de BIE o rociadores diga lo contrario.",
+        items: [
+          "Compuesto por fuentes de agua, equipos de impulsión y red general de incendios",
+          "Norma de referencia: UNE 23500",
+          "Sistemas con evaluación técnica favorable (art. 5.3): su abastecimiento se considera conforme",
+          "Tuberías de BIE: requisitos de UNE 23500, salvo que el epígrafe específico establezca otros (como en rociadores)",
+        ],
+      },
+      {
+        h: "Hidrantes contra incendios",
+        nota:
+          "Uno de los apartados más técnicos y con más cifras del reglamento. Se pregunta mucho la distancia máxima de recorrido (100 m urbanas / 40 m resto), el caudal mínimo (500 l/min) y las presiones (100 kPa solo llenado camiones en urbanas / 500 kPa resto). Los hidrantes municipales cumplen los requisitos de producto e instalación del RIPCI, pero su mantenimiento e inspección lo fija el municipio. Ojo a la llave de cuadradillo: 25×25 mm para bajo tierra, 30×30 mm para columna.",
+        items: [
+          "Tipos: columna (UNE-EN 14384) y bajo tierra (UNE-EN 14339); solo admitidos rango de par «2», tipos «B» o «C»; si heladas → solo tipo «C» (mST 250 N·m)",
+          "Hidrantes bajo tierra: PFA 1600 kPa (16 kg/cm²); tapas rojas RAL 3001 o inscripción «incendios»",
+          "Zona protegida: distancia recorrido real <100 m (urbanas) o <40 m (resto); distancia perpendicular a fachada: 5–15 m",
+          "Al menos un hidrante en entrada del edificio con salida de 100 mm, perpendicular a fachada y de espaldas a ella",
+          "Caudal mínimo ininterrumpido por boca: 500 l/min",
+          "Presión mínima: 100 kPa (1 kg/cm²) en urbanas si solo llenado de camiones; 500 kPa (5 kg/cm²) en el resto (impulsión directa)",
+          "Hidrantes solo llenado camiones: pueden conectarse a red pública sin depósitos ni bombas; si hay depósitos → autonomía ≥60 min",
+          "Llave cuadradillo: 25×25 mm (bajo tierra), 30×30 mm (columna); cierre en sentido agujas del reloj",
+          "Hidrantes municipales: producto e instalación → RIPCI; puesta en servicio, mantenimiento e inspección → municipio",
+        ],
+      },
+      {
+        h: "Extintores de incendio",
+        nota:
+          "Clásico de examen: clases de fuego (A, B, C, D, F), tipos de extintor (portátil ≤20 kg, móvil >20 kg) y distancias de recorrido (15 m máximo). Los extintores portátiles necesitan certificación conforme UNE-EN 3-7 y 3-10; los móviles conforme UNE-EN 1866-1. Los generadores de aerosoles pueden usarse como extintores si tienen evaluación técnica favorable y equivalen a un portátil convencional. La señalización va junto al armario, no sobre él.",
+        items: [
+          "Portátil: ≤20 kg en condiciones de funcionamiento; móvil: >20 kg, sobre ruedas",
+          "Portátiles: certificación UNE-EN 3-7 y UNE-EN 3-10; móviles: UNE-EN 1866-1",
+          "También sujetos al RD 709/2015 (equipos a presión)",
+          "Emplazamiento: visibles, accesibles, próximos a riesgo y salidas; parte superior a 80–120 cm del suelo; recorrido máximo horizontal: 15 m",
+          "Clases de fuego (UNE-EN 2): A (sólidos/orgánicos con brasas) · B (líquidos) · C (gases) · D (metales) · F (cocina: aceites/grasas)",
+          "Generadores de aerosoles como extintores: evaluación técnica favorable (art. 5.3), equivalencia con portátil convencional, mantenimiento igual que portátil",
+          "Señalización: junto al armario, no sobre la superficie del mismo",
+        ],
+      },
+      {
+        h: "Bocas de incendio equipadas (BIE)",
+        nota:
+          "Apartado muy denso en cifras y con alta probabilidad de pregunta. Las BIE semirrígidas (25 mm) son para personas no especializadas; las planas (45 mm) requieren más formación. Factor K: 42 (semirrígida) vs 85 (plana). Presión mínima: 4 bar (400 kPa) semirrígida, 3,5 bar (350 kPa) plana. Presión máxima: 9 bar (900 kPa) para ambas. La prueba de estanquidad es a 980 kPa (10 kg/cm²) durante 2 h. La separación máxima entre BIE es 50 m. El radio de acción = longitud manguera + 5 m. Longitudes máximas: 20 m (plana), 30 m (semirrígida y alta presión).",
+        items: [
+          "Tipos: manguera semirrígida (UNE-EN 671-1, marcado CE) o plana (UNE-EN 671-2); solo admitidos 25 mm (semirrígida) y 45 mm (plana)",
+          "Racores: aprobados conforme UNE 23400 (art. 5.2)",
+          "Factor K mínimo: 42 (semirrígida), 85 (plana)",
+          "BIE alta presión: evaluación técnica favorable (art. 5.3); manguera ≤12 mm (salvo justificación de manejabilidad)",
+          "Altura máxima boquilla/válvula/apertura armario: 1,50 m sobre suelo",
+          "Ubicación: preferentemente cerca de puertas/salidas; siempre una BIE a ≤5 m de cada salida de sector (salvo que otra la cubra o legislación específica diga otra cosa)",
+          "Cobertura: toda la superficie del sector debe quedar cubierta por al menos una BIE; radio de acción = longitud manguera + 5 m",
+          "Separación máxima entre BIE: 50 m (semirrígida/plana); para alta presión: el doble del radio de acción",
+          "Longitud máxima manguera: 20 m (plana), 30 m (semirrígida), 30 m (alta presión)",
+          "Caudal mínimo semirrígida (25 mm): 85 l/min → presión mínima 4 bar (400 kPa); plana (45 mm): 160 l/min → 3,5 bar (350 kPa)",
+          "Presión máxima semirrígida/plana: 9 bar (900 kPa)",
+          "Autonomía red: 1 h mínimo para las 2 BIE hidráulicamente más desfavorables (o la única si solo hay una)",
+          "BIE alta presión: presión dinámica mínima 3.450 kPa (35 kg/cm²) en salida, funcionando las 2 más desfavorables, durante 1 h",
+          "Prueba estanquidad semirrígida/plana: presión estática = máxima de servicio, mínimo 980 kPa (10 kg/cm²), durante 2 h",
+          "Prueba estanquidad alta presión: 1,5 × presión trabajo máxima, durante 2 h",
+          "Señalización: junto al armario, no sobre el mismo",
+        ],
+      },
+      {
+        h: "Columna seca",
+        nota:
+          "Distinguir bien columna seca ascendente vs descendente. Ascendente: salidas en plantas pares hasta la 8.ª y en todas a partir de ésta; válvula de seccionamiento cada 4 plantas. Descendente: válvula y salida en CADA planta. Recorrido máximo hasta columna: 60 m. Prueba de estanquidad: 1.470 kPa (15 kg/cm²) si ≤30 m de altura; 2.450 kPa (25 kg/cm²) si >30 m. Señalización con texto «USO EXCLUSIVO SERVICIOS DE EXTINCIÓN DE INCENDIOS».",
+        items: [
+          "Componentes: toma en fachada (conexión siamesa, llaves, racores 70 mm, tapa, purga 25 mm) + columna acero galvanizado DN80",
+          "Ascendente: salidas en plantas pares hasta la 8.ª y en todas a partir de ésta; racores 45 mm; válvula seccionamiento cada 4 plantas (por encima de la salida)",
+          "Descendente: válvula y salida en cada planta; llave justo por debajo de la salida; racores 45 mm en todas las plantas",
+          "Salidas en recintos de escaleras o vestíbulos previos; centro de bocas a 0,90 m del suelo; válvulas de bola con palanca",
+          "Recorrido máximo hasta columna: <60 m por recorridos de evacuación",
+          "Cada columna (ascendente o descendente) tiene toma independiente en fachada",
+          "Zona de toma libre de obstáculos, señalizada, con espacio para camión de bombeo",
+          "Prueba estanquidad: presión estática = máxima de servicio, mínimo 1.470 kPa (15 kg/cm²) si ≤30 m; 2.450 kPa (25 kg/cm²) si >30 m; durante 2 h",
+          "Señalización: «USO EXCLUSIVO SERVICIOS DE EXTINCIÓN DE INCENDIOS»; junto al armario o inscrita en la puerta; en tomas de entrada se identifican plantas/zonas servidas y presión máxima de servicio",
+        ],
+      },
+      {
+        h: "Sistemas fijos de extinción",
+        nota:
+          "Todos los sistemas fijos comparten dos requisitos comunes: marcado CE (o certificado/marca de conformidad según art. 5.2 mientras no haya norma armonizada) y señalización de mecanismos de disparo/paro manual conforme anexo I sección 2.ª. Los sistemas con riesgo para el personal (polvo, gases, aerosoles) deben incluir retardo y prealarma para evacuación. En el examen se pregunta mucho qué norma corresponde a cada sistema.",
+        items: [
+          "Rociadores automáticos y agua pulverizada: componentes serie UNE-EN 12259 (marcado CE); diseño/instalación UNE-EN 12845; diluvio/inundación UNE 23501 a 23507",
+          "Agua nebulizada: UNE-CEN/TS 14972",
+          "Espuma física: diseño/instalación UNE-EN 13565-2; componentes UNE-EN 13565-1; espumógenos UNE-EN 1568-1 a 1568-4",
+          "Polvo: diseño/instalación UNE-EN 12416-2; componentes UNE-EN 12416-1; polvo UNE-EN 615; requiere retardo + prealarma (evacuación obligatoria)",
+          "Gases: UNE-EN 15004-1 (o UNE ISO 6183 según agente); componentes serie UNE-EN 12094; requiere retardo + prealarma",
+          "Aerosoles condensados: UNE-EN 15276-2; componentes marca conformidad UNE-EN 15276-1 (art. 5.2)",
+          "Cocinas comerciales: certificación UNE-EN 17446 (art. 5.2); instalación/mantenimiento por empresa habilitada del sistema base; mantenimiento según anexo II de sistemas fijos",
+          "Todos los mecanismos de disparo/paro manuales señalizados conforme anexo I sección 2.ª",
+        ],
+      },
+      {
+        h: "Control de humos y de calor",
+        nota:
+          "Cuatro estrategias de movimiento de gases: flotabilidad (techos altos), presurización diferencial (vías de evacuación, especialmente escaleras), ventilación horizontal (túneles/aparcamientos de poca esbeltez) y extracción de humos (durante y/o tras el incendio, cuando hay sistemas de supresión incompatibles con otros tipos). Las barreras de humo llevan marcado CE UNE-EN 12101-1; aireadores naturales UNE-EN 12101-2; extractores mecánicos UNE-EN 12101-3.",
+        items: [
+          "Estrategias: flotabilidad (techos altos) · presurización diferencial (vías evacuación, escaleras) · ventilación horizontal (túneles/aparcamientos) · extracción de humos (durante/tras incendio)",
+          "Flotabilidad: UNE 23585 (proyecto); UNE 23584 (instalación, puesta en marcha, mantenimiento) para edificios de 1 planta, multiplanta con atrios/escaleras o subterráneos",
+          "Presurización diferencial: UNE-EN 12101-6 + UNE 23584 (aspectos no previstos)",
+          "Ventilación horizontal: otras normas/documentos reconocidos por el Ministerio hasta entrada en vigor de UNE-EN específicas",
+          "Extracción de humos: diseño según renovaciones/hora u otros parámetros; usado también tras supresión del incendio cuando otros sistemas son incompatibles",
+          "Barreras de humo: marcado CE UNE-EN 12101-1; aireadores naturales: UNE-EN 12101-2; extractores mecánicos: UNE-EN 12101-3",
+          "Resto de componentes: marcado CE serie UNE-EN 12101 cuando entre en vigor; hasta entonces certificado/marca de conformidad (art. 5.2)",
+        ],
+      },
+      {
+        h: "Mantas ignífugas, alumbrado de emergencia y señalización luminiscente",
+        nota:
+          "Tres elementos auxiliares que suelen aparecer en preguntas de detalle. Mantas ignífugas: caducidad máxima 20 años, aprobadas conforme UNE-EN 1869. Alumbrado de emergencia: no lo regula el RIPCI en sí, sino que remite al REBT (RD 842/2002) e ITC-BT-28. Señalización luminiscente: fotoluminiscente (UNE 23035-4, categoría A en centros de autoprotección RD 393/2007) o eléctrica (requisitos análogos a alumbrado de emergencia). Las señales no luminiscentes dentro de edificios deben estar iluminadas exteriormente. Planos de evacuación conforme UNE 23032.",
+        items: [
+          "Mantas ignífugas: láminas flexibles para sofocación; aprobadas UNE-EN 1869 (art. 5.2); caducidad ≤20 años; envasadas hasta uso; visibles y accesibles",
+          "Alumbrado de emergencia: conforme al REBT (RD 842/2002) e ITC-BT-28; asegura iluminación en locales y accesos hasta salidas",
+          "Señalización luminiscente: función → informar situación de equipos de protección manual, aun con fallo de alumbrado normal",
+          "Tipos: fotoluminiscentes o eléctricas (fluorescencia, LED, electroluminiscencia); señales no luminiscentes permitidas si no se pierde visibilidad o en exterior/vía pública; en interior deben estar iluminadas exteriormente",
+          "Diseño de señales: UNE 23033-1 (medios manuales y alerta/alarma); señales no definidas → criterios UNE 23033-1, UNE 23032, UNE-EN ISO 7010",
+          "Planos de evacuación: UNE 23032; visibles aun con fallo de alumbrado; representan medios manuales con señales UNE 23033-1",
+          "Fotoluminiscentes: UNE 23035-4; categorías A y B; identificación con número de lote visible una vez instalada; justificación mediante informe de laboratorio acreditado",
+          "Categoría A obligatoria en centros de autoprotección (RD 393/2007)",
+          "Eléctricas: requisitos análogos a alumbrado de emergencia en funcionamiento + diseño UNE 23033-1",
+          "Señales no deben contener símbolos ajenos al mensaje; identificación en márgenes, ≤3% de la superficie total",
+        ],
+      },
+    ],
+    claves: [
+      "RIPCI = protección ACTIVA (equipos); DB-SI = protección PASIVA (compartimentación, evacuación)",
+      "RIPCI supletorio; excepción: túneles carreteras Estado → RD 635/2006",
+      "Detectores autónomos: UNE-EN 14604 (no UNE-EN 54)",
+      "Pulsadores: 25 m máx desde origen evacuación; 80–120 cm altura",
+      "Dispositivos visuales obligatorios si ruido >60 dB(A), sordos o protección auditiva",
+      "Hidrantes urbanas: recorrido <100 m; resto <40 m; caudal 500 l/min",
+      "Hidrantes presión mínima: 100 kPa (solo llenado camiones urbanas) / 500 kPa (resto)",
+      "Llave hidrantes: 25×25 mm (bajo tierra), 30×30 mm (columna); cierra sentido agujas reloj",
+      "Extintor portátil ≤20 kg; móvil >20 kg; recorrido máximo 15 m; parte superior 80–120 cm",
+      "Clases fuego: A sólidos / B líquidos / C gases / D metales / F cocina",
+      "BIE semirrígida 25 mm (K=42, 85 l/min, 4 bar) vs plana 45 mm (K=85, 160 l/min, 3,5 bar)",
+      "BIE presión máxima: 9 bar (900 kPa); prueba estanquidad: 10 kg/cm² (980 kPa) durante 2 h",
+      "BIE separación máxima: 50 m; radio acción = longitud manguera + 5 m; longitudes 20 m (plana), 30 m (semirrígida)",
+      "Columna seca ascendente: salidas pares hasta 8.ª y todas después; seccionamiento cada 4 plantas",
+      "Columna seca descendente: válvula y salida en CADA planta",
+      "Columna seca prueba: 15 kg/cm² (≤30 m) / 25 kg/cm² (>30 m) durante 2 h",
+      "Rociadores: UNE-EN 12845; agua nebulizada: UNE-CEN/TS 14972; espuma: UNE-EN 13565-2",
+      "Polvo y gases: requieren retardo + prealarma (evacuación antes de descarga)",
+      "Mantas ignífugas: caducidad máxima 20 años",
+      "Alumbrado emergencia: REBT (RD 842/2002) e ITC-BT-28",
+      "Señalización fotoluminiscente: UNE 23035-4; categoría A en autoprotección (RD 393/2007)",
+    ],
+  };
