@@ -5,13 +5,7 @@ import { RESUMENES } from "./data/resumenes.js";
 import { SUPUESTOS } from "./data/supuestos.js";
 import { loadState, saveState, syncDisponible, getCodigo, setCodigo, codigoSeguro, generarCodigoSeguro } from "./lib/storage.js";
 import { supabase } from "./lib/supabase.js";
-import tema35Texto from "../temas/E_Tema35.txt?raw";
-import tema36Texto from "../temas/E_Tema36.txt?raw";
-import tema37Texto from "../temas/E_Tema37.txt?raw";
-
-const TEMA_35_ACTUALIZADO = tema35Texto.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
-const TEMA_36_ACTUALIZADO = tema36Texto.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
-const TEMA_37_ACTUALIZADO = tema37Texto.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
+import { TEXTOS_TEMAS } from "./data/textosTemas.js";
 
 // El historial conserva todas las preguntas contestadas. El banco de estudio,
 // en cambio, excluye las retiradas tras una auditoría editorial.
@@ -477,7 +471,7 @@ function VistaLectura({ state, persist }) {
   useEffect(() => {
     if (!supabase) return;
     supabase.from("temas").select("codigo").then(({ data }) => {
-      if (data) setDisponibles(new Set([...data.map((r) => r.codigo), "E35", "E36"]));
+      if (data) setDisponibles(new Set([...data.map((r) => r.codigo), ...Object.keys(TEXTOS_TEMAS)]));
     });
   }, []);
 
@@ -522,13 +516,13 @@ function VistaLectura({ state, persist }) {
     setPopup(null);
     setAnclaSub(null);
     if (contenedorRef.current) contenedorRef.current.scrollTop = 0;
-    if (!supabase && tema.codigo !== "E35" && tema.codigo !== "E36" && tema.codigo !== "E37") {
+    if (!supabase && !TEXTOS_TEMAS[tema.codigo]) {
       setError("Supabase no está configurado (faltan la URL o la clave publicable).");
       setCargando(false);
       return;
     }
     try {
-      let texto = tema.codigo === "E35" ? TEMA_35_ACTUALIZADO : tema.codigo === "E36" ? TEMA_36_ACTUALIZADO : tema.codigo === "E37" ? TEMA_37_ACTUALIZADO : null;
+      let texto = TEXTOS_TEMAS[tema.codigo] || null;
       if (!texto) {
         const { data, error: err } = await supabase
           .from("temas").select("contenido").eq("codigo", tema.codigo).maybeSingle();
