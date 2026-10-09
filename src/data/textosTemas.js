@@ -7,7 +7,7 @@ import e36 from "../../temas/E_Tema36.txt?raw";
 import e37 from "../../temas/E_Tema37.txt?raw";
 import e43 from "../../temas/E_Tema43.txt?raw";
 
-const limpiar = (texto) => texto.replace(/^﻿/, "").replace(/\r\n/g, "\n");
+const limpiar = (texto) => (texto.charCodeAt(0) === 0xfeff ? texto.slice(1) : texto).replace(/\r\n/g, "\n");
 
 const corregir = (texto, cambios) =>
   cambios.reduce((acc, [buscar, poner]) => acc.split(buscar).join(poner), texto);

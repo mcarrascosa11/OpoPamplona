@@ -12,6 +12,7 @@ Este protocolo es obligatorio para cualquier IA que revise contenido de esta opo
 
 Antes de usarlo para el resumen o para preguntas, verificar:
 
+- Que el texto es el VIGENTE a finales de mayo de 2026 (convocatoria publicada en el BON el 21-05-2026), contrastado con el texto consolidado oficial: sin artículos o capítulos derogados presentados como vigentes, con las modificaciones posteriores incorporadas y sin «Notas de vigencia» sin resolver. Lo derogado no se resume ni se pregunta, y se marca como tal en «Leer temas» mediante `src/data/textosTemas.js`.
 - Que títulos, capítulos y artículos conservan el orden.
 - Que todas las tablas, cuadros, columnas, porcentajes, fechas y notas al pie se han extraído completos y sin filas o columnas desplazadas.
 - Que no hay saltos de línea que cambien una condición, una excepción o una cifra. Si una tabla está dañada, reconstruirla desde la fuente oficial antes de usar sus datos.
@@ -20,7 +21,7 @@ Si el TXT no trae tablas, dejar constancia de ello en la revisión: no se debe i
 
 ## 3. Mejorar el resumen
 
-Editar `src/data/resumenes.js` para que el resumen:
+Editar `src/data/resumenes/<TEMA>.js` para que el resumen:
 
 - Explique la lógica del tema y sus relaciones, no sea una copia abreviada.
 - Destaque los requisitos acumulativos, excepciones, órganos competentes, efectos, plazos y consecuencias.

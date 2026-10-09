@@ -30,3 +30,13 @@ Marcos no trabaja desde Claude Code: pide los cambios en conversaciones normales
 código. Los cambios se suben con el conector de GitHub (`push_files`), en un solo commit por tarea y
 solo con los archivos del tema tocado más los índices si cambian. Por eso los datos están divididos por
 tema: no vuelvas a juntarlos en un único archivo grande, porque el conector no puede subirlo.
+Los archivos grandes que no se pueden dividir (como `src/App.jsx`) se cambian desde el editor web de
+GitHub en el navegador, con el permiso de Marcos, comprobando el diff antes de confirmar.
+
+## Vigencia de las normas
+
+Antes de hacer el resumen o las preguntas de un tema, comprueba que el TXT de `temas/` refleja la
+redacción vigente a finales de mayo de 2026, cuando se publicó la convocatoria (BON, 21-05-2026): artículos
+o capítulos derogados, modificaciones posteriores y «Notas de vigencia» sin resolver. Contrasta con el texto
+consolidado oficial (BOE o LexNavarra). Si el TXT está desfasado, no estudies lo derogado y corrige lo que
+se muestra en «Leer temas» desde `src/data/textosTemas.js`.
