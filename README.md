@@ -80,15 +80,19 @@ No pongas ninguna de esas variables con prefijo `VITE_`.
 
 ## Cómo crece el contenido
 
-Todo el contenido vive en `src/data/`, separado de la lógica:
+Todo el contenido vive en `src/data/`, separado de la lógica, con un archivo por tema:
 
-- `preguntas.js` — banco de test. Añade objetos `{ id, tema, q, o, c, exp }`.
-  Para retirar una pregunta auditada sin borrar su historial, añade
-  `estado: "retirada"` y, si existe, `sustituidaPor: "E3-XX"`. Las retiradas
-  no salen en test ni en repaso de fallos; sus datos históricos se conservan.
-- `resumenes.js` — resúmenes por tema.
+- `preguntas/<TEMA>.js` — banco de test de cada tema. Cada archivo exporta una lista de
+  objetos `{ id, tema, q, o, c, exp }`. `preguntas.js` conserva las reglas de calidad en su
+  cabecera y solo une los temas. Para retirar una pregunta auditada sin borrar su historial,
+  añade `estado: "retirada"` y, si existe, `sustituidaPor: "E3-XX"`. Las retiradas no salen en
+  test ni en repaso de fallos; sus datos históricos se conservan.
+- `resumenes/<TEMA>.js` — resumen de cada tema. `resumenes.js` explica el formato y une los temas.
 - `supuestos.js` — supuestos prácticos de la 2ª prueba.
 - `temas.js` — índice oficial (no tocar salvo erratas).
+
+Para un tema nuevo se crean sus dos archivos y se añaden el `import` y la entrada en
+`preguntas.js` y `resumenes.js`, en el orden G1–G13, E1–E59.
 
 Los `tema` usan código: `G1`–`G13` (generales) y `E1`–`E59` (específicos).
 
@@ -96,7 +100,7 @@ Los `tema` usan código: `G1`–`G13` (generales) y `E1`–`E59` (específicos).
 
 En la carpeta del proyecto, con los PDFs de los temas a mano:
 
-> "Lee tema7.pdf y añade 25 preguntas del tema E31 a src/data/preguntas.js
+> "Lee tema7.pdf y añade 25 preguntas del tema E31 a src/data/preguntas/E31.js
 > siguiendo el formato y las reglas de calidad del comentario de cabecera:
 > 4 opciones plausibles, sin absolutos delatores (únicamente/todos/solo),
 > la dificultad en el matiz técnico, y citar el artículo en 'exp'."
