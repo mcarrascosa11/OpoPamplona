@@ -97,7 +97,7 @@ export default {
       "Un surtidor de carga eléctrica por cada 2.500 m² de superficie útil de venta",
       "PSIS: vigencia INDEFINIDA; extinción por el Gobierno de Navarra tras MÁS DE TRES AÑOS sin iniciar la actividad",
       "Tasa: 4 € por m² de superficie útil de exposición y venta, abonada con la solicitud",
-      "Arts. 30 y 31 (mediana superficie y descuento duro): DEROGADOS por la LF 6/2010",
+      "Capítulo III (arts. 30 y 31): DEROGADO por la LF 6/2010; no se estudia",
     ],
     memorizacion: {
       tablas: [
@@ -131,7 +131,7 @@ export default {
             ["Extinción del PSIS", "Más de 3 años sin iniciar la actividad, por causa imputable", "27.1"],
             ["Tasa", "4 € por m² útil de exposición y venta", "29.1"]
           ],
-          nota: "No mezclar los 2.500 m² del gran establecimiento (art. 19.3) con los 2.500 m² que sirven de módulo para los surtidores de recarga (art. 25.2.a). Los 1.500 m² y los 500 m² de los derogados arts. 30 y 31 ya no rigen."
+          nota: "No mezclar los 2.500 m² del gran establecimiento (art. 19.3) con los 2.500 m² que sirven de módulo para los surtidores de recarga (art. 25.2.a). Las cifras del Capítulo III (arts. 30 y 31) no se estudian: está derogado."
         },
         {
           titulo: "LF 17/2001, art. 19.4-5: qué cuenta como superficie y qué queda fuera",
@@ -194,8 +194,7 @@ export default {
         "Art. 28: la transmisión se COMUNICA al Departamento competente en comercio con la documentación de defensa de la competencia; la ley solo exige esa comunicación."
       ],
       excepciones: [
-        "Los arts. 30 (mediana superficie: 1.500-2.500 m² en Pamplona y su Comarca o municipios de más de 12.000 habitantes) y 31 («descuento duro») están DEROGADOS por la LF 6/2010 junto con todo el Capítulo III. Aparecen en el texto del tema, pero no son derecho vigente.",
-        "Un comercio de 2.000 m² en Pamplona no necesita autorización comercial ni PSIS (art. 19.1); el estudio de incidencia urbanística y de tráfico del antiguo art. 30 ya no se exige por esta ley.",
+        "El Capítulo III del Título II (arts. 30 y 31) está DEROGADO por la LF 6/2010. Aunque siga apareciendo en el texto del tema, no es derecho vigente y no debe estudiarse como tal. El régimen vigente es la libertad de instalación (art. 19.1) y el Plan Sectorial solo para grandes establecimientos.",
         "Art. 22.3: si el interesado no subsana, la ley prevé DENEGAR la autorización, no tenerle por desistido como en el régimen general.",
         "Art. 15.1: basta UNA de las cuatro circunstancias para que haya mismo espacio comercial; no son acumulativas.",
         "Art. 15.4: el polígono o concentración comercial solo se da FUERA del suelo urbano o urbanizable con uso residencial dominante.",
