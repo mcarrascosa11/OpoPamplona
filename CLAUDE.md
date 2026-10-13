@@ -35,8 +35,11 @@ GitHub en el navegador, con el permiso de Marcos, comprobando el diff antes de c
 
 ## Vigencia de las normas
 
-Antes de hacer el resumen o las preguntas de un tema, comprueba que el TXT de `temas/` refleja la
-redacción vigente a finales de mayo de 2026, cuando se publicó la convocatoria (BON, 21-05-2026): artículos
-o capítulos derogados, modificaciones posteriores y «Notas de vigencia» sin resolver. Contrasta con el texto
-consolidado oficial (BOE o LexNavarra). Si el TXT está desfasado, no estudies lo derogado y corrige lo que
-se muestra en «Leer temas» desde `src/data/textosTemas.js`.
+Se estudia la normativa vigente el 21-05-2026, fecha de publicación de la convocatoria en el BON. Lo dice la
+base 6.6: «todas las materias se exigirán conforme a la normativa vigente a la fecha de publicación de la
+presente convocatoria». Lo publicado o en vigor después de esa fecha no se estudia, aunque sea anterior al examen.
+
+Antes de hacer el resumen o las preguntas de un tema, comprueba que el TXT de `temas/` refleja la redacción
+vigente en esa fecha: artículos o capítulos derogados, modificaciones posteriores y «Notas de vigencia» sin
+resolver. Contrasta con el texto consolidado oficial (BOE o LexNavarra). Si el TXT está desfasado, no estudies
+lo derogado y corrige lo que se muestra en «Leer temas» desde `src/data/textosTemas.js`.
