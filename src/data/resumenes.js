@@ -68,6 +68,7 @@ import E40 from "./resumenes/E40.js";
 import E41 from "./resumenes/E41.js";
 import E42 from "./resumenes/E42.js";
 import E43 from "./resumenes/E43.js";
+import E44 from "./resumenes/E44.js";
 import E52 from "./resumenes/E52.js";
 import E53 from "./resumenes/E53.js";
 import E54 from "./resumenes/E54.js";
@@ -129,6 +130,7 @@ export const RESUMENES = {
   E41,
   E42,
   E43,
+  E44,
   E52,
   E53,
   E54,
