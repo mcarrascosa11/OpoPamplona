@@ -2,7 +2,7 @@
 export default [
   // ---------- TEMA 44 ESPECÍFICO · LEY 21/2013 EVALUACIÓN AMBIENTAL (E44) ----------
   // Rehechas en octubre de 2026 sobre temas/E_Tema44.txt (consolidado BOE, última
-  // modificación RD 997/2025, sin cambios hasta el 31-05-2026).
+  // modificación RD 997/2025, sin cambios hasta la convocatoria, BON 21-05-2026).
   { id: "E44-01", tema: "E44",
     q: "Según la Ley 21/2013, de 9 de diciembre, de evaluación ambiental, un Ayuntamiento tramita una modificación de su Plan General que no altera de forma fundamental sus estrategias ni su cronología, pero sí cambia los efectos previstos en un sector. ¿A qué evaluación se somete con carácter general conforme a su artículo 6?",
     o: ["A evaluación ambiental estratégica ordinaria.",
