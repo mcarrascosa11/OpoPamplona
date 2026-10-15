@@ -71,6 +71,7 @@ import E41 from "./preguntas/E41.js";
 import E42 from "./preguntas/E42.js";
 import E43 from "./preguntas/E43.js";
 import E44 from "./preguntas/E44.js";
+import E45 from "./preguntas/E45.js";
 import E47 from "./preguntas/E47.js";
 import E48 from "./preguntas/E48.js";
 import E49 from "./preguntas/E49.js";
@@ -137,6 +138,7 @@ export const PREGUNTAS = [
   ...E42,
   ...E43,
   ...E44,
+  ...E45,
   ...E47,
   ...E48,
   ...E49,
