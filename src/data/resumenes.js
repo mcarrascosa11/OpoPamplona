@@ -70,9 +70,20 @@ import E42 from "./resumenes/E42.js";
 import E43 from "./resumenes/E43.js";
 import E44 from "./resumenes/E44.js";
 import E45 from "./resumenes/E45.js";
+import E46 from "./resumenes/E46.js";
+import E47 from "./resumenes/E47.js";
+import E48 from "./resumenes/E48.js";
+import E49 from "./resumenes/E49.js";
+import E50 from "./resumenes/E50.js";
+import E51 from "./resumenes/E51.js";
 import E52 from "./resumenes/E52.js";
 import E53 from "./resumenes/E53.js";
 import E54 from "./resumenes/E54.js";
+import E55 from "./resumenes/E55.js";
+import E56 from "./resumenes/E56.js";
+import E57 from "./resumenes/E57.js";
+import E58 from "./resumenes/E58.js";
+import E59 from "./resumenes/E59.js";
 
 export const RESUMENES = {
   G1,
@@ -133,7 +144,18 @@ export const RESUMENES = {
   E43,
   E44,
   E45,
+  E46,
+  E47,
+  E48,
+  E49,
+  E50,
+  E51,
   E52,
   E53,
   E54,
+  E55,
+  E56,
+  E57,
+  E58,
+  E59,
 };

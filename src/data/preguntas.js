@@ -72,13 +72,20 @@ import E42 from "./preguntas/E42.js";
 import E43 from "./preguntas/E43.js";
 import E44 from "./preguntas/E44.js";
 import E45 from "./preguntas/E45.js";
+import E46 from "./preguntas/E46.js";
 import E47 from "./preguntas/E47.js";
 import E48 from "./preguntas/E48.js";
 import E49 from "./preguntas/E49.js";
 import E50 from "./preguntas/E50.js";
+import E51 from "./preguntas/E51.js";
 import E52 from "./preguntas/E52.js";
 import E53 from "./preguntas/E53.js";
 import E54 from "./preguntas/E54.js";
+import E55 from "./preguntas/E55.js";
+import E56 from "./preguntas/E56.js";
+import E57 from "./preguntas/E57.js";
+import E58 from "./preguntas/E58.js";
+import E59 from "./preguntas/E59.js";
 
 export const PREGUNTAS = [
   ...G1,
@@ -139,11 +146,18 @@ export const PREGUNTAS = [
   ...E43,
   ...E44,
   ...E45,
+  ...E46,
   ...E47,
   ...E48,
   ...E49,
   ...E50,
+  ...E51,
   ...E52,
   ...E53,
   ...E54,
+  ...E55,
+  ...E56,
+  ...E57,
+  ...E58,
+  ...E59,
 ];
