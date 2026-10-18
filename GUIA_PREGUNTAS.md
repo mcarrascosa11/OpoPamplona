@@ -32,24 +32,35 @@ Para cada pregunta, selecciona **un único hecho examinable**: plazo, porcentaje
 
 ## 2 bis. Mezcla de formatos: como en el examen real
 
-Las preguntas tienen que parecerse a las de los tribunales, no salir todas del mismo molde. La referencia es el test de Arquitecto del Gobierno de Navarra del 7-3-2026, analizado pregunta a pregunta en `temario/TIPOLOGIA_PREGUNTAS_REALES.md`, que trae ejemplos reales de cada tipo. Úsalos como molde de forma.
+Las preguntas tienen que parecerse a las de los tribunales navarros, no salir todas del mismo molde. Hay dos referencias, analizadas pregunta a pregunta con su plantilla en `temario/TIPOLOGIA_PREGUNTAS_REALES.md`, con ejemplos reales de cada tipo que sirven de molde de forma:
 
-En cada bloque de 15 preguntas de un tema:
+- **principal (⅔):** el test de Arquitecto municipal del Ayuntamiento de Zizur Mayor del 31-01-2026, un ayuntamiento navarro como Pamplona;
+- **secundaria (⅓):** el test de Arquitecto del Gobierno de Navarra del 7-3-2026.
 
-- **3 negativas** («Señale la respuesta INCORRECTA», «¿cuál NO…?», «Señálese la que NO proceda»), con NO e INCORRECTA en mayúsculas. Las tres verdaderas son literales de la norma; la falsa lleva un solo cambio.
-- **3 de dato corto**: plazo, cifra, porcentaje, órgano o método, con opciones de una a seis palabras. Distractores: valores de la misma norma para otro caso o escalones vecinos, sin que la correcta sea siempre la del medio.
-- **2 con metarrespuesta en la d)**: «Todas son correctas», «Ninguna de las anteriores es correcta» o «Las respuestas b) y c) son correctas». La meta es la correcta más o menos en 1 de cada 3: «Todas» suele serlo, y «Ninguna» y «b) y c)» casi nunca. Con «b) y c)», la correcta suele ser una de las dos.
-- **2 de literalidad**: la misma frase de la norma en las cuatro opciones, con una sola pieza cambiada en cada distractor (un inciso, «o» por «y», «pública» frente a «pública o privada», «incrementada» frente a «incrementada o reducida»).
-- **1 afirmación verdadera** entre proposiciones distintas sobre la misma figura («Señale la respuesta CORRECTA»).
+Cada bloque de 15 preguntas de un tema lleva:
+
+- **3 con metarrespuesta en la d)**: «Todas las respuestas anteriores son correctas», «Las respuestas a) y c) son correctas», «Ninguna de las respuestas anteriores es correcta». La meta es la correcta en 1 o 2 de las 3. «Todas» y «a) y c)» suelen ser la buena. «Ninguna» casi nunca lo es. Si «a) y c)» es falsa, la correcta es una de las dos que nombra.
+- **3 de dato corto**: plazo, cifra, porcentaje, órgano o método, con opciones de una a seis palabras. Las cifras van en escalera y, casi siempre, en orden creciente (5 / 10 / 15 / 20 %). La correcta puede estar en cualquier posición. Si el texto da un umbral con «más de», pregunta por el umbral, para que una cifra mayor no resulte también verdadera.
+- **2 negativas**: una con «Señale la respuesta INCORRECTA» y otra con «no es», «no corresponde» o «NO procede». Las tres verdaderas son literales de la norma. La falsa lleva un solo cambio.
+- **1 de lista** de varios elementos.
+- **1 de literalidad**: la misma frase de la norma en las cuatro opciones, con una sola pieza cambiada en cada distractor.
+- **1 afirmación verdadera** («Señale la respuesta CORRECTA»).
 - **1 de pertenencia** («Una de las siguientes es…», «son, entre otras:»).
-- **1 de definición o concepto.**
-- **1 de combinación de dos datos** (plazo y efecto del silencio, porcentaje y base), con las cuatro combinaciones. Como mucho una por bloque.
-- **1 de lista** de varios elementos, o de regla y excepción («siempre», «exclusivamente», «salvo que…»).
-- **Supuesto práctico**: como mucho uno cada tres temas; en Pamplona lo práctico va a la segunda prueba.
+- **1 de definición o fórmula.**
+- **1 de regla y excepción** («en todo caso», «siempre que», «salvo que», «exclusivamente»).
+- **1 de combinación de dos datos o, uno de cada tres temas, un supuesto breve de ventanilla.**
 
-Enunciados: unos 3 de cada 4 citan la norma completa y 1 de cada 6 el artículo. Alterna la forma: frase incompleta que acaba en «:» (45 %), imperativo «Señale / Indique» (30 %) y pregunta directa (25 %). Varía el arranque: «Según», «De acuerdo con», «De conformidad con», «Conforme a».
+**Enunciados.**
 
-Los absolutos («exclusivamente», «en todo caso», «siempre») suelen estar en los distractores, como en el examen real, pero de vez en cuando el absoluto es el correcto. La correcta no debe ser la más larga en más de 1 de cada 4 preguntas. Reparte la letra correcta.
+- Unos 7 de cada 10 citan la norma completa.
+- Más o menos la mitad citan el artículo, con el arranque de Zizur: «Conforme a lo establecido en el artículo X de…».
+- Forma: frase incompleta que acaba en «:» en unos 6 de cada 10; el resto, a partes iguales, pregunta directa e imperativo («Señale / Indique»).
+
+**Opciones.**
+
+- Los absolutos («exclusivamente», «sólo», «en ningún caso») suelen marcar distractores, pero de vez en cuando el absoluto es el correcto («En todo caso.»).
+- La correcta no debe ser la más larga en más de 4 de cada 10 preguntas sin meta.
+- Reparte la letra correcta. La d) puede salir algo más por las metas correctas.
 
 ## 3. Cómo fabricar distractores de verdad
 
