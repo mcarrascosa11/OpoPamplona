@@ -1,5 +1,5 @@
 # GUÍA DE PREGUNTAS · Arquitecto/a A1, Ayuntamiento de Pamplona
-**Versión 2.1 · 23/09/2026 · Instrucciones obligatorias para generar, revisar y ampliar el banco**
+**Versión 2.2 · 18/10/2026 · Instrucciones obligatorias para generar, revisar y ampliar el banco**
 
 > Objetivo: preguntas que exijan conocer la norma o aplicar un criterio técnico, no detectar la respuesta por longitud, tono, precisión, absolutos o descarte de tres disparates. «Difícil» significa discriminación conceptual, nunca redacción enrevesada.
 
@@ -8,6 +8,8 @@
 Trabaja exclusivamente con el tema solicitado, sus documentos originales y la normativa comprobada en fuentes oficiales (BOE, BON, documentos oficiales de CTE y administraciones competentes). Identifica la redacción aplicable y la fecha; no mezcles versiones, normas autonómicas ni ámbitos territoriales. Si la fuente no permite confirmar un extremo, **no generes esa pregunta**. No deduzcas plazos, porcentajes, excepciones ni requisitos.
 
 Para cada pregunta, selecciona **un único hecho examinable**: plazo, porcentaje, supuesto, excepción, órgano competente, definición, procedimiento, requisito acumulativo, jerarquía normativa o aplicación a un caso. Registra internamente el artículo/apartado y el fragmento que respalda la respuesta. Prioriza conocimiento exigible para el temario oficial, no curiosidades marginales.
+
+**Cada pregunta se apoya solo en el texto de su propio tema.** Todo lo que necesite el enunciado, las opciones o la explicación (cifras, plazos, umbrales, órganos, definiciones) tiene que estar en el texto del tema tal como se ve en «Leer temas» (el TXT de `temas/` con sus correcciones). Si una regla del tema remite a un dato que está en otro tema (por ejemplo, el art. 33 de la LF 2/2018 habla del «umbral europeo», pero la cifra está en el art. 89, que es de E48), no lo preguntes: o la pregunta da ese dato en el enunciado, o se pregunta en su tema. Tampoco se pregunta lo que el tema marca como derogado, anulado o no verificado.
 
 **Separa dos colecciones.** Las preguntas de exámenes oficiales se incorporan literalmente (enunciado, cuatro opciones y clave de la plantilla oficial; identificación de convocatoria) y NO se reescriben para satisfacer reglas estilísticas. Estas reglas son para **preguntas originales generadas**, identificadas como tales. Las preguntas oficiales solo se incluyen si coinciden materialmente con el temario de Pamplona y la norma territorial aplicable.
 
@@ -23,16 +25,37 @@ Para cada pregunta, selecciona **un único hecho examinable**: plazo, porcentaje
 4. **No delatar distractores con absolutos.** Evita que tres alternativas contengan «siempre», «nunca», «exclusivamente», «en ningún caso», «sin excepción», «solo», «automáticamente» o «con independencia de» mientras la verdadera está prudentemente matizada. Los absolutos pueden emplearse si son imprescindibles para el precepto, pero nunca como patrón para identificar las falsas. Tampoco conviertas «siempre que» en palabra prohibida: puede ser literal y correcta.
 5. **Cada distractor debe ser verosímil.** Construye errores próximos y verificables: cifra de un régimen parecido, inversión de una condición, órgano de una fase distinta, confusión entre conceptos limítrofes, regla general aplicada a su excepción o plazo legal de otro trámite. No inventes instituciones absurdas ni combines tres falsedades en una sola opción.
 6. **Una sola correcta indiscutible.** Comprueba la pregunta con su norma exacta y prueba por separado por qué cada distractor es falso. Si una alternativa podría ser cierta bajo una interpretación razonable del enunciado, delimita el supuesto o descarta la pregunta.
-7. **Nada de pistas entre alternativas.** No hagas que tres opciones incluyan un concepto negado y una lo afirme, ni una opción que abarque a otra. Evita «todas/ninguna de las anteriores», negaciones dobles, sinónimos de la correcta y opciones de distinta categoría.
+7. **Nada de pistas entre alternativas.** No hagas que tres opciones incluyan un concepto negado y una lo afirme, ni una opción que abarque a otra. Evita negaciones dobles, sinónimos de la correcta y opciones de distinta categoría. «Todas son correctas», «Ninguna de las anteriores» y «b) y c) son correctas» sí se usan, como en el examen real (sección 2 bis).
 8. **La dificultad reside en el contenido.** No reproduzcas un artículo entero en la opción correcta frente a resúmenes erróneos de una línea. Pregunta por el matiz decisivo y sitúa el contexto compartido en el enunciado.
 
 **Prueba de descarte:** leyendo solo el enunciado y las cuatro opciones, sin saber la norma, ¿se puede elegir la correcta por longitud, prudencia, ausencia de absolutos, mayor detalle o porque las otras tres suenan disparatadas? Si sí, RECHAZA y REESCRIBE el bloque completo, no solo cambies un adverbio.
+
+## 2 bis. Mezcla de formatos: como en el examen real
+
+Las preguntas tienen que parecerse a las de los tribunales, no salir todas del mismo molde. La referencia es el test de Arquitecto del Gobierno de Navarra del 7-3-2026, analizado pregunta a pregunta en `temario/TIPOLOGIA_PREGUNTAS_REALES.md`, que trae ejemplos reales de cada tipo. Úsalos como molde de forma.
+
+En cada bloque de 15 preguntas de un tema:
+
+- **3 negativas** («Señale la respuesta INCORRECTA», «¿cuál NO…?», «Señálese la que NO proceda»), con NO e INCORRECTA en mayúsculas. Las tres verdaderas son literales de la norma; la falsa lleva un solo cambio.
+- **3 de dato corto**: plazo, cifra, porcentaje, órgano o método, con opciones de una a seis palabras. Distractores: valores de la misma norma para otro caso o escalones vecinos, sin que la correcta sea siempre la del medio.
+- **2 con metarrespuesta en la d)**: «Todas son correctas», «Ninguna de las anteriores es correcta» o «Las respuestas b) y c) son correctas». La meta es la correcta más o menos en 1 de cada 3: «Todas» suele serlo, y «Ninguna» y «b) y c)» casi nunca. Con «b) y c)», la correcta suele ser una de las dos.
+- **2 de literalidad**: la misma frase de la norma en las cuatro opciones, con una sola pieza cambiada en cada distractor (un inciso, «o» por «y», «pública» frente a «pública o privada», «incrementada» frente a «incrementada o reducida»).
+- **1 afirmación verdadera** entre proposiciones distintas sobre la misma figura («Señale la respuesta CORRECTA»).
+- **1 de pertenencia** («Una de las siguientes es…», «son, entre otras:»).
+- **1 de definición o concepto.**
+- **1 de combinación de dos datos** (plazo y efecto del silencio, porcentaje y base), con las cuatro combinaciones. Como mucho una por bloque.
+- **1 de lista** de varios elementos, o de regla y excepción («siempre», «exclusivamente», «salvo que…»).
+- **Supuesto práctico**: como mucho uno cada tres temas; en Pamplona lo práctico va a la segunda prueba.
+
+Enunciados: unos 3 de cada 4 citan la norma completa y 1 de cada 6 el artículo. Alterna la forma: frase incompleta que acaba en «:» (45 %), imperativo «Señale / Indique» (30 %) y pregunta directa (25 %). Varía el arranque: «Según», «De acuerdo con», «De conformidad con», «Conforme a».
+
+Los absolutos («exclusivamente», «en todo caso», «siempre») suelen estar en los distractores, como en el examen real, pero de vez en cuando el absoluto es el correcto. La correcta no debe ser la más larga en más de 1 de cada 4 preguntas. Reparte la letra correcta.
 
 ## 3. Cómo fabricar distractores de verdad
 
 Antes de redactar, anota internamente: «dato exacto que evalúo», «confusión habitual» y «por qué son falsas B, C y D». Genera las cuatro alternativas a partir de **la misma plantilla semántica**, con una o dos variaciones relevantes como máximo. Las tres incorrectas han de ser jurídicamente plausibles a primera vista, pero refutables con el artículo/apartado citado. No utilices información no contenida en la fuente para justificar que sean falsas.
 
-Para evitar preguntas mecánicas, alterna de forma razonada: elección de régimen o procedimiento; cifras y plazos próximos; diferencias entre institutos; excepciones; identificación del órgano; supuestos breves de aplicación; cálculo cuando proceda. No fabriques una matriz 2×2 en todas las preguntas; úsala cuando haya de verdad dos variables independientes verificadas.
+Para evitar preguntas mecánicas, alterna de forma razonada: elección de régimen o procedimiento; cifras y plazos próximos; diferencias entre institutos; excepciones; identificación del órgano; supuestos breves de aplicación; cálculo cuando proceda. No fabriques una matriz 2×2 en todas las preguntas: como mucho una por bloque (sección 2 bis).
 
 Si una norma contiene muchos incisos, **no** metas todos en la respuesta correcta. Pregunta sobre uno y reparte las restantes condiciones comunes en el enunciado. Si para dar una respuesta cierta necesitas tres salvedades y las falsas requieren ninguna, replantea el enunciado.
 
