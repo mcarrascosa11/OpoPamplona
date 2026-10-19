@@ -33,13 +33,9 @@ const normalizarEstado = (s) => {
   };
 };
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-// Las preguntas con «Todas son correctas», «Ninguna de las anteriores» o «b) y c) son correctas»
-// en la d) se muestran en su orden original, como en el examen, para que las letras cuadren.
-const esMeta = (o) => {
-  const t = String(o || "").trim().toLowerCase();
-  return ["todas son", "todas las respuestas", "todas las anteriores", "todas las opciones", "ninguna de las", "las respuestas", "las opciones"].some((x) => t.startsWith(x));
-};
-const ordenOpciones = (q) => (esMeta(q.o[3]) ? [0, 1, 2, 3] : shuffle([0, 1, 2, 3]));
+// Las opciones se muestran siempre en su orden original, como en el examen: así cuadran las letras
+// que citan las explicaciones y las opciones «Todas son correctas», «Ninguna…» o «b) y c)».
+const ordenOpciones = () => [0, 1, 2, 3];
 
 // No modifica el historial: solamente decide qué preguntas merecen volver a
 // aparecer hoy. La prioridad combina el fallo aún pendiente, el rendimiento
