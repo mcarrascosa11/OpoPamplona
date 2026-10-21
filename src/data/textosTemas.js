@@ -12,6 +12,12 @@ import e48 from "../../temas/E_Tema48.txt?raw";
 import e49 from "../../temas/E_Tema49.txt?raw";
 import e50 from "../../temas/E_Tema50.txt?raw";
 import e51 from "../../temas/E_Tema51.txt?raw";
+import e51pn3 from "../../temas/E_Tema51_PN3.txt?raw";
+import e51pn4 from "../../temas/E_Tema51_PN4.txt?raw";
+import e51pn5 from "../../temas/E_Tema51_PN5.txt?raw";
+import e51pn7 from "../../temas/E_Tema51_PN7.txt?raw";
+import e51pn8 from "../../temas/E_Tema51_PN8.txt?raw";
+import e51pn9 from "../../temas/E_Tema51_PN9.txt?raw";
 import e52 from "../../temas/E_Tema52.txt?raw";
 import e53 from "../../temas/E_Tema53.txt?raw";
 import e54 from "../../temas/E_Tema54.txt?raw";
@@ -41,6 +47,13 @@ const corregir = (texto, cambios) =>
   cambios.reduce((acc, [buscar, poner]) => acc.split(buscar).join(poner), texto);
 
 const SALTO = String.fromCharCode(10);
+
+// Los anexos PN del POT 3 (E51) van en archivos aparte, uno por anexo, detrás del articulado.
+const CABECERA_ANEXOS_E51 = [
+  "ANEXOS DE LA NORMATIVA (III) DEL POT 3 ÁREA CENTRAL",
+  "PN3, PN4, PN5, PN7, PN8 y PN9, en la versión del SIUN que incorpora la 1.ª Actualización (Orden Foral 69/2014, de 10 de noviembre, BON n.º 229, de 21-11-2014).",
+  "No se incluyen el PN1 (fuentes de la documentación gráfica), el PN2 (unidades ambientales) ni el PN6 (suelo protegido por legislación sectorial, que el POT recoge a efectos informativos).",
+].join(SALTO);
 
 // Aplica a un tema sus correcciones y antepone sus avisos (líneas «>>>»).
 const aplicar = (texto, { avisos = [], cambios = [] }) => {
@@ -81,7 +94,7 @@ export const TEXTOS_TEMAS = {
   E48: aplicar(e48, c48),
   E49: aplicar(e49, c49),
   E50: aplicar(e50, c50),
-  E51: aplicar(e51, c51),
+  E51: [aplicar(e51, c51), CABECERA_ANEXOS_E51, e51pn3, e51pn4, e51pn5, e51pn7, e51pn8, e51pn9].map(limpiar).join(SALTO + SALTO),
   E52: aplicar(e52, c52),
   E53: aplicar(e53, c53),
   E54: aplicar(e54, c54),
