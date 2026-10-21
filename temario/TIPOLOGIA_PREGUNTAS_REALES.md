@@ -505,7 +505,7 @@ En los temas de normativa municipal de Pamplona (E52-E59), el bloque debe parece
 
 ### Clasificación de Navarra 2026, pregunta a pregunta (letra correcta entre paréntesis)
 - **NEG (18):** 20(B) 28(C) 37(D) 55(A) 58(C) 62(D) 66(B) 68(D) 70(A) 73(C) 82(C) 83(A) 84(A) 88(C) 91(C) 95(C) 98(B) 100(B)
-- **DATO (16):** 7(D) 12(A) 17(B) 24(B) 32(C) 33(C) 39(C) 43(B) 59(C) 60(B) 63(B) 72(B) 75(B) 79(C) 93(A) 99(C)
+- **DATO (16):** 7(D, anulada) 12(A) 17(B) 24(B) 32(C) 33(C) 39(C) 43(B) 59(C) 60(B) 63(B) 72(B) 75(B) 79(C) 93(A) 99(C)
 - **META (13):** 2(B) 25(D) 26(B) 27(D) 30(B) 35(B) 41(A) 48(A) 81(D) 86(A) 89(B) 92(B) 96(D)
 - **LIT (13):** 5(A) 9(A) 14(A) 19(A) 22(B) 23(B) 47(D) 54(D) 65(A) 76(A) 80(B) 87(B) 90(A)
 - **AFIRM (9):** 11(A) 13(A) 15(C) 18(B) 36(B) 64(C) 69(C) 77(D) 78(C)
@@ -930,7 +930,7 @@ No de forma fiable: lo es en el 35 % de los casos y es la más corta en el 24 %.
 - **La negación camuflada dentro de una pregunta positiva:** «¿qué tipo de instalación nueva NO se permitirá…?» combinada con «a) y c) son correctas» (P41).
 - **Las listas con un intruso:** P29, «sistemas de actuación privada» = agente urbanizador, reparcelación voluntaria y compensación. Cada distractor mete uno público (cooperación, ejecución forzosa o expropiación).
 - **Enunciados con erratas** que no afectan a la respuesta («Planes Parcialees», «Siempre y cuando que»). El tribunal no pule el texto, y un banco con alguna imperfección parecida resulta más realista.
-- **Preguntas de «anexo» y cartografía muy concretas** (POT 1-4, P7; subcategorías PN3, P6; usos PN8, P23; municipios de un POT en Noáin P19 y P20). El tribunal navarro pregunta detalle de los anexos de los POT.
+- **Preguntas de «anexo» y cartografía muy concretas** (POT 1-4, P7, que el Tribunal anuló el 9-4-2026 porque la sub-subcategoría de movimientos en masa solo existe en el POT 5 y ninguna opción era válida; subcategorías PN3, P6; usos PN8, P23; municipios de un POT en Noáin P19 y P20). El tribunal navarro pregunta detalle de los anexos de los POT.
 - **El bloque general cierra el examen** (P83-100): CE, UE, LORAFNA, 39/2015 y 40/2015, siempre con la norma completa y a menudo con el artículo.
 - **Noáin y Andalucía** usan además «Todas las respuestas anteriores son falsas» y opciones de tipo «La afirmación es correcta / No es correcta. …» (Noáin P7).
 
