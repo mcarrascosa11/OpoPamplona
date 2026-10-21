@@ -1,0 +1,548 @@
+ANEXO PN7. SUELO DE PRESERVACIÓN (POT 3 Área Central, mayo de 2011)
+
+ANEXO PN 7 SUELO NO URBANIZABLE DE PRESERVACIÓN
+
+1.- SUELO NO URBANIZABLE DE PRESERVACIÓN
+
+Tal como se ha recogido en el apartado 3.1.1.2. de la memoria justificativa, según el art. 94 de la LFOTU, se incluirán en la categoría de suelo no urbanizable de preservación los terrenos:
+
+e) Que el planeamiento municipal justificadamente considere necesario garantizar el mantenimiento de sus características, por sus valores paisajísticos, históricos, arqueológicos, científicos, culturales, ambientales, o por su valor agrícola, ganadero o forestal.
+
+f) Que el planeamiento municipal justificadamente considere necesario preservar del desarrollo urbanístico por razones de conservación, capacidad y funcionalidad de infraestructuras, equipamientos, servicios e instalaciones públicas o de interés público, o para la instalación de actividades especiales, de acuerdo con lo que se establezca reglamentariamente.
+
+El suelo no urbanizable de preservación en el ámbito del POT está conformado mayoritariamente por sub-subcategorías equiparables a las unidades ambientales (incluso con la misma nomenclatura) descritas en el ANEXO PN2 – Unidades Ambientales.
+
+A las sub-subcategorías de preservación relacionadas con las unidades ambientales, hay que añadir otras sub-subcategorías de suelo de preservación por sus valores paisajísticos, faunísticos, culturales, geológicos,... valores que se considera pueden superponerse sin problemas sobre las unidades ya descritas anteriormente.
+
+Algunas de las unidades ambientales, como Cultivos de regadío permanente y Sistema de cauces y riberas, no tienen un reflejo en la categoría de preservación porque, debido a su interés supramunicipal, se incluyen como suelo de protección por Legislación Sectorial y por considerarse Áreas de Especial Protección respectivamente.
+
+Por lo tanto, dentro del suelo no urbanizable de preservación se proponen, a nivel orientativo, las subcategorías y sub-subcategorías que se relacionan a continuación, distinguiendo:
+
+- Relacionadas con las Unidades Ambientales (UA).
+Derivan directamente de las Unidades Ambientales previamente definidas y cartografiadas según la leyenda del mapa de Cultivos y Aprovechamientos de Navarra del Gobierno de Navarra, que se han utilizado para el análisis inicial del medio. Las unidades ambientales están identificadas en el Mapa 3.4. Patrimonio Natural. Unidades Ambientales y se encuentra información complementaria en el ANEXO PN2: Unidades Ambientales.
+
+- No relacionadas con las Unidades Ambientales (UA).
+Obedecen a valores de expresión cartográfica más limitada y específica en su contenido y expresión espacial.
+
+CUADRO: CATEGORÍA: SUELO NO URBANIZABLE DE PRESERVACIÓN (SNUprs)
+Fuente: Elaboración Propia
+Título del cuadro: CATEGORÍA: SUELO NO URBANIZABLE DE PRESERVACIÓN (SNUPrs) (ART. 94.1.E,F LFOTU) (ANEXO PN7)
+Columnas: CÓDIGO; DENOMINACIÓN SUB-SUBCATEGORÍA (EN BLANCO); POT 1; POT 2; POT 3; POT 4; POT 5. Para cada fila se indican los POT en cuya columna figura marca (■). Entre corchetes, si la fila va en negrita (relacionada con UA) o sin negrita (no relacionada con UA), según la leyenda del cuadro.
+
+SNUPrsA. SUBCATEGORÍA: SUELO DE VALOR AMBIENTAL
+- SNUPrsA: FAVAP. FORMACIONES ARBOLADAS CON VALOR AMBIENTAL Y PROTECTOR. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [negrita]
+- SNUPrsA: MMC. MOSAICO MONTE Y CULTIVO. Marcada en: POT 3, POT 4, POT 5. [negrita]
+- SNUPrsA: FAH. FORMACIONES ARBUSTIVAS Y HERBÁCEAS. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [negrita]
+- SNUPrsA: ZH. ZONAS HÚMEDAS. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [negrita]
+- SNUPrsA: MRP. MOSAICO DE ROBLEDALES Y PRADERAS DE FONDO DE VALLE. Marcada en: POT 3. [negrita]
+- SNUPrsA: AIE. ÁREAS DE INTERÉS ESTEPARIO. Marcada en: POT 4, POT 5. [sin negrita]
+- SNUPrsA: EIAM. ELEMENTOS DE INTERÉS AMBIENTAL MUNICIPAL. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [sin negrita]
+- SNUPrsA: CT. CONECTIVIDAD TERRITORIAL. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [sin negrita]
+
+SNUPrsEN. SUBCATEGORÍA: SUELO DE VALOR PARA SU EXPLOTACIÓN NATURAL
+EXPLOTACIÓN NATURAL- AGROPECUARIO
+- SNUPrsEN: C. CULTIVOS. Marcada en: POT 1, POT 3, POT 4, POT 5. [negrita]
+- SNUPrsEN: R. REGADÍO. Marcada en: POT 3, POT 4. [negrita]
+- SNUPrsEN: RE. REGADÍO EVENTUAL. Marcada en: POT 5. [negrita]
+- SNUPrsEN: PCFV. PRADERAS Y CULTIVOS DE FONDO DE VALLE. Marcada en: POT 1, POT 2, POT 3. [negrita]
+- SNUPrsEN: PM. PASTOS DE MONTAÑA. Marcada en: POT 1, POT 2. [negrita]
+EXPLOTACIÓN NATURAL- FORESTAL
+- SNUPrsEN: FP. FORESTAL PRODUCTIVO. Marcada en: POT 1, POT 2, POT 3, POT 4. [negrita]
+- SNUPrsEN: BAP. BOSQUES CON VALOR AMBIENTAL Y PRODUCTOR. Marcada en: POT 1, POT 2, POT 3. [negrita]
+
+SNUPrsCu. SUBCATEGORÍA: SUELO DE VALOR CULTURAL
+- SNUPrsCu: CT. CAMINOS TRADICIONALES. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [sin negrita]
+
+SNUPrsP. SUBCATEGORÍA: SUELO DE VALOR PAISAJÍSTICO
+- SNUPrsP: PCA. PAISAJES CULTURALES AGROPECUARIOS. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [sin negrita]
+- SNUPrsP: PIM. PAISAJES DE INTERÉS MUNICIPAL. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [sin negrita]
+- SNUPrsP: PD. PAISAJES DETERIORADOS. Marcada en: POT 1, POT 2, POT 3, POT 4, POT 5. [sin negrita]
+- SNUPrsP: PM/RP. PARQUES METROPOLITANOS Y RESERVAS PAISAJÍSTICAS. Marcada en: POT 3. [sin negrita]
+
+Leyenda del cuadro: SUB-SUBCATEGORÍAS CON NEGRITA: RELACIONADAS CON UNIDADES AMBIENTALES (UA). SUB-SUBCATEGORÍAS SIN NEGRITA: NO RELACIONADAS CON UNIDADES AMBIENTALES (UA).
+
+Los suelos no urbanizables de preservación propuestos a nivel orientativo (Art. 24 Normativa), en el ámbito del POT 3 Área Central son:
+
+CUADRO: SUELO NO URBANIZABLE DE PRESERVACIÓN. POT 3 ÁREA CENTRAL
+Fuente: Elaboración Propia
+Título del cuadro: Suelo No Urbanizable de Preservación. (SNUPrs). POT 3 Área Central
+Columnas: Subcategorías de SNU; Sub-subcategorías de suelo de preservación. Entre corchetes, negrita o sin negrita según la leyenda del cuadro.
+
+Subcategoría de SNU: Suelo de valor Ambiental
+- SNUPrsA: FAVAP. FORMACIONES ARBOLADAS CON VALOR AMBIENTAL Y PROTECTOR [negrita]
+- SNUPrsA: MMC. MOSAICO MONTE Y CULTIVO [negrita]
+- SNUPrsA: FAH. FORMACIONES ARBUSTIVAS Y HERBÁCEAS [negrita]
+- SNUPrsA: ZH. ZONAS HÚMEDAS [negrita]
+- SNUPrsA: MRP. MOSAICO DE ROBLEDALES Y PRADERAS DE FONDO DE VALLE [negrita]
+- SNUPrsA: EIAM. ELEMENTOS DE INTERÉS AMBIENTAL MUNICIPAL [sin negrita]
+- SNUPrsA: CT. CONECTIVIDAD TERRITORIAL [sin negrita]
+
+Subcategoría de SNU: Suelo de valor para su Explotación Natural (Agropecuario)
+- SNUPrsEN: C. CULTIVOS [negrita]
+- SNUPrsEN: R. REGADÍO [negrita]
+- SNUPrsEN: PCFV. PRADERAS Y CULTIVOS DE FONDO DE VALLE [negrita]
+
+Subcategoría de SNU: Suelo de valor para su Explotación Natural (Forestal)
+- SNUPrsEN: FP. FORESTAL PRODUCTIVO [negrita]
+- SNUPrsEN: BAP. BOSQUES CON VALOR AMBIENTAL Y PRODUCTOR [negrita]
+
+Subcategoría de SNU: Suelo de valor Cultural
+- SNUPrsCu: CT. CAMINOS TRADICIONALES [sin negrita]
+
+Subcategoría de SNU: Suelo de valor Paisajístico
+- SNUPrsP: PCA. PAISAJES CULTURALES AGROPECUARIOS [sin negrita]
+- SNUPrsP: PIM. PAISAJES DE INTERÉS MUNICIPAL [sin negrita]
+- SNUPrsP: PD. PAISAJES DETERIORADOS [sin negrita]
+- SNUPrsP: PM/RP. PARQUES METROPOLITANOS Y RESERVAS PAISAJÍSTICAS [sin negrita]
+
+Leyenda del cuadro: SUB-SUBCATEGORÍAS CON NEGRITA: RELACIONADAS CON UNIDADES AMBIENTALES (UA). SUB-SUBCATEGORÍAS SIN NEGRITA: NO RELACIONADAS CON UNIDADES AMBIENTALES (UA).
+
+El POT no incluye mapa alguno en el que se refleje el Suelo No Urbanizable de Preservación, ya que la definición de esta clase de suelo compete al Plan Municipal. No obstante, a tales efectos cabe considerar como una representación gráfica orientativa del mismo, el mapa 3.4 Patrimonio Natural. Unidades Ambientales, así como la documentación y fichas contenidas en el ANEXO PN2 – Unidades Ambientales.
+
+En el caso de los Paisajes culturales agropecuarios (SNUPrsP: PCA), se aporta un mapa que indica de forma gráfica los ámbitos de reparto de estos suelos, aunque esta delimitación sólo tiene un carácter orientativo.
+
+Los criterios de uso para las diferentes sub-subcategorías se recogen con carácter meramente orientativo en el anexo de patrimonio natural ANEXO PN7: Suelo de Preservación, en donde a modo de fichas se recogen los usos actuales de estos suelos y criterios generales y específicos para la autorización de usos. Dichos criterios se complementan con los señalados en el ANEXO PN8: Criterios de autorización de determinados usos y actividades.
+
+A continuación se describen las diferentes sub-subcategorías, agrupadas por subcategorías, propuestas a nivel orientativo. (Para las relacionadas con las UA, ver el apartado 3.1.4).
+
+- SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR AMBIENTAL.
+
+RELACIONADAS CON UNIDADES AMBIENTALES (UA):
+
+- Formaciones arboladas con valor ambiental y protector. (SNUPrsA: FAVAP)
+Se incluyen formaciones arboladas que tienen una importante función protectora, siendo su vocación claramente ambiental. Los usos actuales predominantes son: bosques de borrascas, cultivos de secano, construcciones ganaderas, canteras y parques eólicos.
+
+- Mosaico monte y cultivo. (SNUPrsA: MMC)
+Se incluyen suelos de cultivo y mosaico de pastos con formaciones arbustivas bajas. Los usos actuales mayoritarios son la agricultura y ganadería extensiva, con presencia de otras actividades de carácter puntual como construcciones asociadas a la agricultura y a la ganadería.
+
+- Formaciones arbustivas y herbáceas. (SNUPrsA: FAH)
+Se incluyen suelos como: pastizales, praderas o matorrales. Son suelos con múltiples usos: ganadería extensiva, valor natural, caza, actividades de ocio tipo senderismo, interpretación,… Como criterio general se deberían evitar los usos constructivos.
+
+- Zonas húmedas. (SNUPrsA: ZH)
+Dentro de este tipo de suelo se recogen todos los pequeños embalses, lagunas naturales o artificiales, a menudo ligados a usos que requieren frecuentemente su persistencia como son las de riego o las de abrevadero para ganado y poseen frecuentemente un valor relevante como hábitats. Ciertos tipos como los manantíos y las turberas son sistemas raros y frágiles.
+
+- Mosaico de robledales y praderas de fondo de valle. (SNUPrsA: MRP)
+Se incluyen suelos de robledales de Roble Común (Quercus robar), agrícolas (praderas de siega), forestal (leñas), y ganaderos. El uso que mayor relevancia tiene en estas zonas es el ganadero, que aprovecha las praderas de siega y los pastos para el mantenimiento del ganado. En las zonas con robledales de Quercus robur, aún se mantienen formas de aprovechamiento integral del robledal. Se considera que tiene una vocación mixta de explotación natural, paisajística y ambiental.
+
+NO RELACIONADAS CON UNIDADES AMBIENTALES (UA):
+
+- Elementos de interés ambiental municipal. (SNUPrsA: EIAM)
+Zonas que no cuentan con valores para su protección a nivel supramunicipal pero que debieran ser reconocidas a nivel municipal por sus valores ambientales: geológicos, de flora, elementos singulares,....
+
+- Conectividad territorial. (SNUPrsA: CT)
+Se corresponden con zonas de cultivo o zonas de vegetación continuas que permiten dar continuidad y conectividad a zonas de interés ambiental del municipio o de otros municipios conectándolas entre sí o con las grandes vías de circulación de biodiversidad.
+
+- SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR PARA SU EXPLOTACIÓN NATURAL (AGROPECUARIO).
+
+RELACIONADAS CON UNIDADES AMBIENTALES (UA):
+
+- Cultivos. (SNUPrsEN: C)
+Se caracteriza por la agricultura y ganadería extensivas, con presencia de actividades energéticas, extractivas y zonas degradadas con puntos de vertido. Las construcciones habituales son los corrales y almacenes ligados a la actividad agrícola y ganadera.
+
+- Regadío (SNUPrsEN: R)
+Se incluyen los regadíos tradicionales junto a los principales ríos que principalmente se localizan en las zonas situadas al sur del ámbito POT o en los entornos de los núcleos urbanos en los que los cultivos de huerta tienen una relevancia no muy destacada siendo destinadas a agricultura de autoconsumo.
+A considerar que la mayoría de parcelas de regadío están incluidas en los planes de regadío de Navarra (Suelo de protección por legislación sectorial: Subcategoría SNUPrtEN: R - Regadíos; Anexo PN6).
+
+- Praderas y cultivos de fondo de valle (SNUPrsEN: PCFV)
+Se incluyen suelos de cultivo y praderas sembradas anualmente o con cierta periodicidad, con usos de pasto de ganado, cultivos para henificar, frutales, etc. Tienen el riesgo de ocupación por construcciones e infraestructuras por ser terrenos próximos a los núcleos de población y a las vías de comunicación y relativamente llanos.
+
+- SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR PARA SU EXPLOTACIÓN NATURAL (FORESTAL).
+
+RELACIONADAS CON UNIDADES AMBIENTALES (UA):
+
+- Forestal productivo. (SNUPrsEN: FP)
+Suelos de repoblaciones forestales, con usos de producción de madera, caza, recogida de setas y pastoreo extensivo.
+
+- Bosques con valor ambiental y productor. (SNUPrsEN: BAP)
+Constituida por masas boscosas de hayedos, pinares de pino silvestre, robledales pedunculados, masas forestales mixtas con especies nobles, repoblaciones de pino Laricio, y repoblaciones de chopo y roble americano.
+El uso predominante es el forestal extrayendo principalmente madera de haya y de pino silvestre, y cumpliendo una función forestal productiva y ambiental simultáneamente muy importante.
+
+- SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR CULTURAL.
+
+NO RELACIONADAS CON UNIDADES AMBIENTALES (UA):
+
+- Caminos tradicionales. (SNUPrsCu: CT)
+Se trata de los caminos de interés municipal que tengan alguna importancia cultural o histórica, y para los que se propone la denominación de “caminos tradicionales”. Quedan excluidos de esta categoría los caminos rurales antiguos -de los que los más importantes han pasado a constituir vías principales, como carreteras y caminos con suficiente anchura-, así como los caminos con valores históricos a nivel supramunicipal -como son las “vías verdes” y antiguos ferrocarriles, las calzadas romanas, los caminos reales-, todos los cuales quedan incluidos en la categoría de suelo no urbanizable de protección.
+
+- SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR PAISAJÍSTICO.
+
+NO RELACIONADAS CON UNIDADES AMBIENTALES (UA)
+
+A definir por el planeamiento municipal según los criterios específicos recogidos en el apartado 3.2. Ordenación del Paisaje. Procedería la inclusión al menos de los siguientes paisajes:
+
+- Paisajes culturales agropecuarios (SNUPrsP: PCA)
+Constituidos por elementos de paisaje testimonio de los modos de ocupación del espacio, de los modos de vida o de modos de producción ligados a éste, y que pueden estar sujetos a desaparición por cambios en la dinámica económica o poblacional de la zona. Se aporta una representación gráfica orientativa.
+En este POT se han seleccionado como prioritarios los que se señalan a continuación, aunque podrían seleccionarse otros de análogo interés pero de menor extensión. Deben considerarse como un listado indicativo y abierto:
+- Mosaico monte - cultivo.
+- Robledales y praderas.
+- Cultivos de la Cuenca.
+
+- Paisajes de interés municipal (SNUPrsP: PIM)
+Lo componen otros tipos de paisajes (hitos, naturales, simbólicos, de interés escénico, etc) excepcionales o con valor a nivel municipal.
+Se podrán incluir los paisajes cotidianos más reconocidos y visitados como son los miradores del paisaje, puntos de observación y paisajes con valor simbólico (lugares de culto, ermitas, sendas de romería, monumentos y lugares de batallas u otros hechos históricos), etnográfico (lavaderos, majadas, zonas de agrupamiento de rebaños con fines concretos o análogos), y los itinerarios naturalísticos y de disfrute del paisaje. Su definición y delimitación deberá hacerse siempre que sea posible con participación de los vecinos e interesados.
+
+- Paisajes deteriorados (SNUPrsP: PD)
+A nivel de Plan Municipal se deberá realizar un listado de paisajes deteriorados o degradados, siempre que sea posible con previo proceso de participación, para incorporarlos a una lista, clasificándolos por su urgencia en la recuperación o restauración y por la dificultad técnica y/o económica para su ejecución.
+
+- Parques metropolitanos y reservas paisajísticas (SNUPrsP: PM/RP)
+Se recogen como Parques Metropolitanos y Reservas Paisajísticas y que conforman el fondo escénico de Pamplona y su cuenca. Se incluyen los suelos que se incluían en las Normas Urbanísticas Comarcales (NUC) de la Cuenca de Pamplona ampliando en algunos casos sus ámbitos. Esta categoría tienen como finalidad intentar evitar la localización de espacios que puedan conllevar un deterioro paisajístico y estético de las sierras que rodean el entorno de la cuenca o los propios espacios urbanos.
+
+1. FICHAS DE SUELO NO URBANIZABLE DE PRESERVACIÓN
+
+El presente apartado aporta una ficha para cada sub-subcategoría de suelo no urbanizable de preservación. Los apartados de estas fichas y los contenidos que recogen los mismos son los siguientes:
+
+- CATEGORÍA: Según lo establecido en el artículo 94 de la LFOTU.
+- SUBCATEGORÍA: Según lo establecido en el artículo 94 de la LFOTU.
+- SUB-SUBCATEGORÍA: Establecida por el POT en función del valor concreto que se preserva.
+- CÓDIGO: Se establece un código como fórmula de referencia de los suelos de forma sintética.
+- USOS ACTUALES: Descripción de usos predominantes.
+- CRITERIOS DE AUTORIZACIÓN DE USOS: Se estructura en los apartados siguientes:
+  - Criterios generales de uso.
+  - Movimiento de tierras.
+  - Infraestructuras, equipamientos y dotaciones de interés público.
+  - Energéticos.
+  - Extractivos.
+  - Actividades económicas.
+  - Ocio y turismo.
+  - Agropecuarios.
+  - Forestal.
+
+SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR AMBIENTAL.
+
+FICHA: SNUPrsA: FAVAP - Formaciones arboladas con valor ambiental y protector
+Categoría: SNU de Preservación
+Subcategoría: Por valor Ambiental
+Sub-subcategoría: Formaciones arboladas con valor ambiental y protector
+Código: SNUPrsA: FAVAP
+USOS ACTUALES:
+- Bosques de carrascas
+- Cultivos de secano
+- Construcciones ganaderas
+- Canteras.
+- Parques eólicos
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Estos suelos tienen una importante función protectora, siendo su vocación claramente ambiental. La roturación de las masas forestales debe impedirse como criterio general, buscando evitar el deterioro del suelo y de los hábitats de estos espacios. Los usos en estas zonas deberán ir orientados a la mejora de estas masas, y potenciar los aprovechamientos secundarios, como el pastoreo extensivo, la caza, el uso micológico (setas, truficultura),...
+Estos aprovechamientos permitirán a su vez el mantenimiento del monte, y control de incendios. Los usos secundarios permitirán conformar, en los encinares, un bosque más abierto y adehesado, de una mejor calidad ambiental y paisajística.
+Movimientos de tierra: Aquellas actividades que supongan un movimientos de tierras no deberían realizarse en este suelo, salvo de forma justificada y cuando no existan otras alternativas.
+Infraestructuras, equipamientos y dotaciones de interés público: Podrán ser autorizables justificando la necesidad de localización sobre este suelo.
+Energéticos: Se permitirá el aprovechamiento energético de la biomasa de estas formaciones previa presentación de un plan de aprovechamiento de la misma.
+La instalación de sistemas de producción de energía renovable en la zona deberá evitar la remodelación topográfica de grandes superficies llanas (huertas solares). Las instalaciones eólicas podrán ser autorizables.
+Extractivos: Podría ser autorizable en función del proyecto de explotación. En todo caso deberán realizarse según los criterios estratégicos para la ordenación en el territorio de las actividades extractivas.
+Actividades económicas: Estos suelos no se consideran buenos para albergar construcciones para actividades económicas especiales que deban emplazarse en suelo no urbanizable, por lo que debería ser prohibido.
+Ocio y turismo: Se regirán en función de los criterios estratégicos para la ordenación de los recursos turísticos en el territorio.
+Las actividades de ocio y turismo irán orientadas a actividades que no conlleven riesgo para estas formaciones, en este sentido se permitirán actividades de senderismo, grandes recorridos, cicloturismo, recolección de setas, caza,…
+Se evitarán actividades que puedan incrementar el riesgo de incendios en las zonas, evitando la localización de campamentos, camping, etc…
+Agropecuarios: Se permitirán usos ganaderos en los que se realice un aprovechamiento sostenible del monte. Debe evitarse el sobrepastoreo.
+Los cultivos que se encuentren enclavados dentro de estas formaciones boscosas permanecerán hasta su abandono. El uso agrícola será autorizable.
+Forestal: Se podrá hacer un aprovechamiento sostenible los recursos forestales tales como leña, setas, caza etc.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsA: MMC - Mosaico monte y cultivo
+Categoría: SNU de Preservación
+Subcategoría: Por valor Ambiental
+Sub-subcategoría: Mosaico monte y cultivo
+Código: SNUPrsA: MMC
+USOS ACTUALES:
+- Cultivos
+- Mosaico de pastos con formaciones arbustivas bajas
+- Granjas
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Los mosaicos se consideran elementos paisajísticos de interés. En este apartado se deben diferenciar también aquellos espacios con mosaico de cultivos y monte o matorral, que se han definido como paisajes culturales. Presentan valor ambiental al ofrecer refugio a flora y fauna. Son buenas zonas de caza menor.
+La vocación de estas zonas, aún siendo principalmente de explotación natural en extensivo tienen un componente paisajístico y ambiental apreciable. Las actuaciones que se produzcan en estas zonas tendrán que evitar la simplificación del paisaje y la roturación de las masas de vegetación situadas entre los cultivos.
+Movimientos de tierra: Como criterio general, aquellas actividades que supongan un movimientos de tierras no deberían realizarse en este suelo, salvo de forma justificada y cuando no existan otras alternativas. En caso de realizarse, la alteración de la estructura del mosaico monte y cultivo deberá ser mínima.
+Infraestructuras, equipamientos y dotaciones de interés público: Podrán ser autorizables justificando la necesidad de localización sobre este suelo.
+Energéticos: Estos suelos cuentan con un elevado valor paisajístico intrínseco por lo que debido a su escasa superficie dentro del ámbito POT del Área Central, deberían evitar la instalación de aprovechamientos energéticos que conlleven la ocupación de superficies extensas de terreno llano (huertas solares).
+Extractivos: Estarán a lo establecido en los criterios estratégicos para la ordenación en el territorio de las actividades extractivas. No obstante, en estos suelos deberá limitarse la instalación de extracciones que requiera gran superficie y deberá presentar de forma previa un estudio de integración paisajística de la explotación.
+Actividades económicas: La instalación de construcciones para actividades económicas, debería estar prohibido en estos suelos, salvo que justificadamente se demuestre la necesidad de ocupar estos suelos.
+Ocio y turismo: Se permitirán actividades de ocio ligadas al territorio que permitan el conocimiento y disfrute de estas zonas. El acondicionamiento de senderos y rutas permitirá un correcto uso del territorio por parte de actividades como el senderismo, la bicicleta y los paseos a caballo. La caza y otras formas de uso tradicional y sostenible.
+Agropecuarios: Se debe mantener la actividad agropecuaria, evitando la simplificación del paisaje y la eliminación de los matorrales que se intercalan entre los cultivos. Las zonas con superficies en pendiente fuerte o muy fuerte con erosión del suelo se tenderán a naturalizar.
+En los procesos de concentración parcelaria los mosaicos y las masas de matorral se deben mantener.
+Los usos ganaderos sostenibles son adecuados. El pastoreo, correctamente dimensionado, estará permitido. La construcción de corralizas estará condicionada a la integración paisajística de las mismas, de forma que se respete la tipología constructiva tradicional de la zona.
+Forestal: Debe evitarse la roturación de masas forestales en todo el ámbito, de forma que las formaciones en mosaico se mantengan.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsA: FAH - Formaciones arbustivas y herbáceas
+Categoría: SNU de Preservación
+Subcategoría: Por valor ambiental
+Sub-subcategoría: Formaciones arbustivas y herbáceas
+Código: SNUPrsA: FAH
+USOS ACTUALES:
+- Pastizales
+- Praderas
+- Matorrales
+- Ganadería extensiva
+- Aprovechamiento de recursos del bosque como leñas, hongos, frutos, caza
+- Actividades de ocio tipo senderismo, interpretación,…
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Su gran diversidad y la potencialidad de muchas de estas zonas para usos productivos en el futuro (madera de calidad, hongos,…), valores ambientales, función de fijación de CO2 ante el cambio climático, etc. les hacen merecedores de medidas de conservación activa, mediante la ordenación de los montes sin criterios productivos inmediatos, pero sí de maduración de las masas con criterios de multifuncionalidad. Los criterios de uso van orientados a: evitar la pérdida de biodiversidad del ámbito evitando actuaciones muy extensas en estos suelos con diseños homogéneos, favorecer la evolución natural en las condiciones de orientación, pendiente, suelos,…. más desfavorables, y controlar riesgos de erosión e incendios.
+Movimientos de tierras: Las actividades que supongan movimiento de tierras, van en contra de los valores que se quieren preservar, por lo que deberían ser prohibidas.
+Infraestructuras, equipamientos y dotaciones de interés público: Podrán ser autorizables justificando la necesidad de localización sobre este suelo, cuando no existan otras alternativas.
+Energéticos: No suelen ser los lugares más adecuados, por lo que debería justificarse en cualquier caso su utilización con esos fines.
+Extractivos: Habría que considerar que estos usos cuenten con el correspondiente proyecto de restauración, siguiendo los criterios estratégicos para la ordenación en el territorio de las actividades extractivas.
+Actividades económicas: Las construcciones para actividades económicas, deberían estar prohibidas. Además del valor de las formaciones hay que señalar que estos suelos se corresponden las zonas de mayor pendiente del ámbito, que no han sido roturadas para uso agrícola, ocupando principalmente las laderas.
+Ocio y turismo: Muchas de las masas existentes en el ámbito tienen potencial para este tipo de actividades, pero no todas Las actividades serán permitidas siempre y cuando no vayan acompañadas de construcciones ni infraestructuras que supongan movimientos de tierras.
+Agropecuarios: El pastoreo extensivo puede ser una actividad autorizable en función del estado de la masa y de los planes y objetivos concretos existentes a nivel municipal.
+Forestal: La actividad forestal tendrá como objetivo la mejora de la biodiversidad y la madurez del ecosistema y protección contra incendios.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsA: ZH - Zonas húmedas
+Categoría: SNU de Preservación
+Subcategoría: Por su valor Ambiental
+Sub-subcategoría: Zonas húmedas
+Código: SNUPrsA: ZH
+USOS ACTUALES:
+- Agricultura y ganadería en extensivo
+- Granjas en extensivo
+- Escombreras
+- Construcciones agrícolas (pequeños almacenes)
+- Construcciones agrícolas (Bodegas,…)
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Dentro de este tipo de suelo se recogen todos los pequeños embalses, lagunas naturales o artificiales, a menudo ligados a usos que requieren frecuentemente su persistencia como son las de riego o las de abrevadero para ganado y poseen frecuentemente un valor relevante como hábitats. Ciertos tipos como los manantíos y las turberas son sistemas raros y frágiles.
+Las pequeñas balsas para el ganado suelen ser importantes para anfibios, entre otros animales amenazados. No corresponde a este nivel de planificación, recoger todo el listado de estos pequeños humedales y su uso principal (para el que fueron creados), pero deberán ser tenidas en consideración en el planeamiento municipal.
+Estos humedales deben ser tratados como elementos multifuncionales y las medidas de conservación y gestión deben contemplar medidas para evitar los riesgos de caídas y ahogamientos de personas y animales y no solo con el sistema del vallado que demuestra ser claramente ineficaz.
+Movimientos de tierra: Se considera contrario a los valores de estos espacios.
+Infraestructuras, equipamientos y dotaciones de interés público: Autorizable, cuando de manera justificada se deban ocupar estos suelos.
+Energéticos: Se considera contrario a los valores de estos espacios.
+Extractivos: Se trata de una actividad contraria a los valores de estos espacios.
+Actividades económicas: Este tipo de actividades deberían estar prohibidas en el entorno inmediato.
+Ocio y turismo: Algunos ámbitos cuentan con un gran potencial paisajístico y turístico debido a sus valores estéticos y a la fauna asociada, se trata de zonas interés para realizar birding, etc.
+Agropecuarios: La vocación de estas zonas es la de abastecimiento de ganado y el riego eventual de algunas zonas. Por lo que se debe tener en cuenta el pastoreo extensivo en estos entornos.
+Deberán tenerse en cuenta los requerimientos ecológicos de las especies de interés presentes en estas zonas. En algunas se deberá evitar la desecación en época que pueda afectar a estas especies, sin que las balsas pierdan utilidad para el cometido que fueron creadas.
+Forestal: Conservación de vegetación, evitando acciones que pongan en riesgo el humedal y su entorno de recarga.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsA: MRP - Mosaico de robledales y praderas de fondo de valle
+Categoría: SNU de Preservación
+Subcategoría: Por valor Ambiental
+Sub-subcategoría: Mosaico de robledales y praderas de fondo de valle
+Código: SNUPrsA: MRP
+USOS ACTUALES:
+- Robledales de Roble Común (Quercus robur)
+- Agrícolas (praderas de siega).
+- Forestal (Leñas)
+- Ganaderos
+- Construcciones ganaderas
+- Caza
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: El planeamiento municipal deberá incluir en este suelo las zonas con mosaico de pradera y roble.
+El uso que mayor relevancia tiene en estas zonas es el ganadero, que aprovecha las praderas de siega y los pastos para el mantenimiento del ganado. En las zonas con robledales de Quercus robur, aún se mantienen formas de aprovechamiento integral del robledal. Los robledales ahuecados se prestan al aprovechamiento de los pastos por el ganado, y los árboles actúan como cobijo ante el sol para los animales en las horas de mayor calor. Estos bosques cuentan con árboles trasmochos de los cuales se extraían leñas y otros recursos. Este sistema de explotación, multifuncional y equilibrado, corre riesgo de desaparecer si no se mantienen las actividades tradicionales. Los escasos pastos existentes en la zona los mantienen solo el ganado y suelen ser comunales y salen a subasta. Las praderas presentes en la zona se suele corresponder a zonas mantenidas por el hombre para y por su ganado, en parcelas particulares.
+Por ello, se considera que esta unidad tiene una vocación mixta de explotación natural, paisajística y ambiental, siendo la primera clave para el mantenimiento de las otras dos siempre y cuando se haga manteniendo los usos que en estas zonas se vienen desempeñando y se fomente el aprovechamiento de los recursos primarios, asegurando que los sistemas empleados sigan siendo los que mantengan el paisaje de la zona como hasta ahora viene haciendo. Así mismo deberá fomentarse este tipo de paisaje y de usos recuperando los setos entre parcelas y manteniendo el mosaico, evitando roturaciones de estas masas.
+Los usos constructivos en este suelo deberán tener en cuenta los materiales en los que se asientan de forma específica. Los problemas geotécnicos y den encharcamiento que ocasionan los suelos de tipo Gley y Pseudogley, especialmente en el Valle de Ulzama, deberán ser tenidos en cuenta a la hora de localizar actividades constructivas, evitando su ubicación sobre estos suelos.
+Movimientos de tierras: Deberían evitarse como criterio general. En caso de ser necesarios para la ubicación de alguna infraestructura orientada al correcto aprovechamiento de los recursos, se requerirá un estudio de restauración paisajística y ambiental del entorno que permita la aplicación de medidas de integración de la actuación en el paisaje de la zona,
+Infraestructuras, equipamientos y dotaciones de interés público: Solo aquellos que de forma justificada vayan orientados al mantenimiento o mejora del paisaje y de los usos productivos tradicionales o compatibles con el mantenimiento del paisaje y de los recursos naturales.
+Energéticos: El gran valor paisajístico de estos suelos hace que el aprovechamiento energético en estos ámbitos sea desaconsejable sobre todo con tecnologías como la eólica y solar fotovoltaica, en forma de huertas solares.
+No obstante las construcciones exentas situadas en este suelo deberán contar con abastecimiento energético autónomo de forma que se eviten la creación de tendidos eléctricos a estas edificaciones.
+Los aprovechamientos energéticos derivados de la biomasa presente en las zonas forestales deberán contar con un adecuado plan de forma que no suponga una afección ambiental.
+Extractivos: Los usos extractivos deberán contar con el plan de ordenación forestal y en su caso con el consiguiente estudio de impacto ambiental y el debido estudio de integración paisajística.
+Actividades económicas: Se permitirán las acciones tradicionales que suponen el mantenimiento y la sostenibilidad del paisaje de la zona. Así mismo podrán ser autorizables actividades económicas que de forma justificada sean compatibles con los valores paisajisticos, naturales y tradicionales de la zona.
+Ocio y turismo: Las actividades relacionadas con el ocio y turismo deberán ser fomentadas en estos suelos. La localización de infraestructuras turísticas deberá fomentarse en estas zonas pero adecuándose al entorno en el que se ubican. De esta forma, todos los proyectos que se desarrollen en estos suelos deberán contar con un informe específico de integración paisajística.
+Las actividades de ocio deberán así mismo ser compatibles y respetuosas con la actividad ganadera presente en estos suelos.
+Agropecuarios: El mantenimiento de los usos agropecuarios que han conformado el paisaje es el principal criterio de gestión de estas zonas. Se fomentará el mantenimiento de praderas separadas por setos y en las que se interdigitan masas de robledal que aporta sombra y alimento al ganado. Serán permitidas e incluso deberían fomentarse las instalaciones que den servicio a la ganadería extensiva: fuentes, parideras, cerramientos con setos, etc. Estas infraestructuras deberán estar integradas en el paisaje, buscando materiales y diseños que respeten las formas constructivas y usos de la zona.
+Forestal: Se evitará roturar las masas de robledal. Estas masas forestales deberán mantener su función como zonas ganaderas y de conservación de especies de flora y fauna silvestres. Estas masas podrán tener aprovechamientos terciarios de leña, caza, recolección de setas y otras que no conlleven una destrucción del hábitat y siempre que se realicen con las cautelas ambientales oportunas.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsA: EIAM - Elementos de interés ambiental municipal
+Categoría: SNU de Preservación
+Subcategoría: Por Valor Ambiental
+Sub-subcategoría: Elementos de Interés ambiental municipal
+Código: SNUPrsA: EIAM
+USOS ACTUALES: Zonas generalmente pequeñas que no aúnan suficientes valores para su protección a nivel supramunicipal pero que debieran ser reconocidas a nivel municipal por sus valores ambientales: geológicos, de flora, elementos singulares,… Los usos actuales son diversos en función del elemento que se trate.
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Preservar estas pequeñas zonas evitando construcciones y actuaciones que pudieran alterar sus valores y los de su entorno más inmediato. Son patrimonio natural y algunos elementos pueden ponerse en valor como recurso turístico.
+Con criterio general se evitarán todos los usos que puedan conllevar la alteración del valor. Los movimientos de tierra, o usos que alteren la estructura, el acceso o la percepción del elemento de interés quedarán prohibidos mientras que se autorizarán aquellos que vayan orientados a la preservación y el conocimiento del elemento en sí.
+Movimientos de tierras: Se consideran prohibidos, siendo solo autorizables en aquellos casos que sean necesarios para actuaciones que vayan orientadas a la conservación del punto de interés
+Infraestructuras, equipamientos y dotaciones de interés público: Quedan prohibidas salvo aquellas de interés publico y social, con justificación técnica y cuando no exista otra alternativa.
+Energéticos, Extractivos, Actividades económicas: Prohibidos
+Ocio y turismo: Se permitirán usos orientados al conocimiento de los valores del enclave. Se permitirán la instalación de paneles explicativos que deberán estar integrados perfectamente en el entorno.
+Agropecuarios: Se permitirán con carácter general en aquellos lugares en los que este uso ya se venga desempeñando. No obstante los usos agropecuarios podrán prohibirse en aquellas zonas o puntos donde la actividad agrícola o ganadera pueda suponer una alteración que ponga en riesgo el elemento o aceleren su deterioro a causa de la erosión u otros factores.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsA: CT - Conectividad territorial
+Categoría: SNU de Preservación
+Subcategoría: Por valor Ambiental
+Sub-subcategoría: Conectividad territorial
+Código: SNUPrsA: CT
+USOS ACTUALES: Se corresponden con zonas de cultivo o zonas de vegetación continuas que permiten dar continuidad y conectividad a zonas de interés ambiental del municipio o de otros municipios conectándolas entre si o con las grandes vías de circulación de biodiversidad.
+También se incluyen los pasos de reconocido uso de fauna sobre o bajo infraestructuras lineales
+CRITERIOS GENERALES DE USO: Se considera que es un suelo cuya normativa es superponible al suelo de preservación que subyace según las unidades ambientales.
+Los usos que se plantean dentro de estos suelos deberán realizarse asegurando la continuidad territorial de los mismos. Aquellos usos que planteen una fragmentación territorial a priori deberán plantear medidas que aseguren la continuidad del territorio.
+Dentro de estos suelos se incluirá el entorno de espacios en los que ya existan pasos de fauna definidos o los que claramente se conoce que la fauna emplea para evitar las infraestructuras, donde deberá evitarse el desarrollo de usos que afecten a la circulación de estas especies.
+Así mismo estos suelos pueden conectar zonas de interés natural del municipio con otras zonas de interés del mismo o de otros municipios y con zonas verdes urbanas, aportando de forma conjunta un espacio de circulación de la biodiversidad y una alternativa de circulación peatonal y ciclista de los ciudadanos del municipio.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR PARA SU EXPLOTACIÓN NATURAL. (AGROPECUARIO)
+
+FICHA: SNUPrsEN: C - Cultivos
+Categoría: SNU de Preservación
+Subcategoría: Para explotación natural
+Sub-subcategoría: Cultivos
+Código: SNUPrsEN: C
+USOS ACTUALES:
+- Agricultura y ganadería en extensivo
+- Granjas en intensivo
+- Graveras
+- Canteras
+- Energías Renovables
+- Construcciones agrícolas (Bodegas, pequeños almacenes…)
+- Escombreras
+- Vertederos
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Son suelos con valor estratégico y de futuro con una pérdida temporal de interés en razón de la economía globalizada. Debe conservar una parte sustancial del capital productivo. Tiene un valor estético y paisajístico. Tiende a aparecer efectos barrera y fragmentación de los hábitats (red fluvial) a causa de las infraestructuras lineales que cuentan con un valor clave en caso de que fuera necesario aprovechar los recursos agrícolas de la zona para abastecer a la población en casos de mayor necesidad. En la actualidad, la globalización de la economía y de la alimentación está conllevando que el valor de estos suelos se esté relativizando y que se primen más otros usos como los urbanísticos. Se están eliminando suelos de gran valor productivo y complementariamente se modifica el paisaje de la cuenca de Pamplona, que cuenta con interesantes valores estéticos y paisajísticos.
+En la subárea 10.4 definida por la ETN entorno al núcleo metropolitano de Pamplona, deberá conservarse estos suelos en pendientes moderadas junto con los valores paisajísticos que ostentan.
+Movimientos de tierra: Como criterio general, aquellas actividades que supongan un movimientos de tierras podrán ser autorizables
+Infraestructuras, equipamientos y dotaciones de interés público: Como criterio general podrán ser autorizables.
+Energéticos: Criterios generas para autorización usos Anexo PN8
+Extractivos: Criterios generas para autorización usos Anexo PN8
+Actividades económicas: Construcciones para actividades económicas especiales que deban emplazarse en suelo no urbanizable podrán ser autorizables con justificación.
+Ocio y turismo: Caza, senderismo, paisaje.
+Agropecuarios: Pese a contar con una calidad media en los suelos, la vocación de estas zonas es agrícola y también ganadera, aunque se deberían tener en cuenta medidas especiales en las zonas de pendiente media y alta.
+Las infraestructuras ligadas a la economía agraria y ganadera tienen cabida aquí atendiendo a la normativa sectorial.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsEN: R - Regadío
+Categoría: SNU de Preservación
+Subcategoría: Para explotación natural
+Sub-subcategoría: Regadío
+Código: SNUPrsEN: R
+USOS ACTUALES: En estos suelos se incluyen los regadíos tradicionales junto a los principales ríos que principalmente se localizan en las zonas situadas al sur del ámbito POT o en los entornos de los núcleos urbanos en los que los cultivos de huerta tienen una relevancia no muy destacada siendo destinadas a agricultura de autoconsumo.
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Estos suelos cuentan con un interés etnográfico destacado ya que han sido en muchos casos las zonas en las que se cultivaban muchos productos que complementaban la dieta familiar con hortalizas y verduras. Estas zonas deberían intentar preservarse como elementos patrimoniales del municipio, intentando conservar el valor productivo del suelo que en la actualidad pueda actuar como elemento recreativo de personas que disfruten con el cultivo y que a futuro permita mantener estas zonas que puedan ser empleadas como zonas de producción en caso de necesidad.
+Movimientos de tierra: En estos suelos debería evitarse los movimientos de tierras.
+Infraestructuras, equipamientos y dotaciones de interés público: Podrán ser autorizables infraestructuras de apoyo a la agricultura y al disfrute del ocio relacionado con el cultivo de la tierra.
+Energéticos: Con criterio general se evitarán la instalación en estos suelos de proyectos de producción energética que no vayan orientados al autoconsumo de las actividades que se desarrollen en estos suelos y que no estén relacionados con el disfrute de las zonas agrícolas.
+Extractivos: Se primara los usos extractivos en terrazas, siguiendo los criterios estratégicos para la ordenación en el territorio de las actividades extractivas.
+Actividades económicas: Debería evitarse la instalación de actividades económicas en estas zonas que no estén relacionadas con el aprovechamiento agrícola.
+Ocio y turismo: Se mantendrá el uso de las huertas tradicionales y huertas de ocio, siempre y cuando se ajusten a los criterios generales, y cumplan con una serie de condiciones mínimas en cuanto a dimensiones, disponibilidad de servicios, etc. evitando así que se la creación de huertas urbanizadas.
+Agropecuarios: En estos suelos se debería evitar localizar construcciones ligadas a la actividad ganadera, teniendo en cuenta que son suelos con una muy alta vulnerabilidad a la contaminación de acuíferos. En estos suelos también se encuentra huertas tradicionales, se trata de huertas asociadas a la llanura de inundación. Los valores a preservar son la estructura parcelaria, el valor productivo del suelo y la presencia de infraestructuras de riego viables, siguiendo los criterios estratégicos para la ordenación en el territorio.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsEN: PCFV - Praderas y cultivos de fondo de valle
+Categoría: SNU de Preservación
+Subcategoría: Para explotación natural
+Sub-subcategoría: Praderas y cultivos de fondo de valle
+Código: SNUPrsEN: PCFV
+USOS ACTUALES:
+- Praderas sembradas anualmente o con cierta periodicidad,
+- Pasto de ganado
+- Cultivos para henificar
+- Frutales, …
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Preservar el valor suelo en su sentido edafológico y su capacidad productiva.
+Preservar el valor paisajístico de esta unidad manteniendo y favoreciendo al máximo sus componentes más esenciales: uso agropecuario, parcelación, setos de diferentes tipos según las zonas, …
+Movimientos de tierra: En estos suelos debería evitarse los movimientos de tierras. Las actividades que impliquen importantes movimientos de tierra, el sellado y/o impermeabilización del suelo (soleras de hormigón, asfaltados, etc…), la construcción de naves o edificios en una proporción importante de las parcelas no deberían permitirse
+Infraestructuras, equipamientos y dotaciones de interés público: Autorizables cuando no existan otras alternativas, teniendo en cuanta un mínimo consumo de suelo.
+Energéticos: No tienen sentido en este ámbito, aunque en cualquier caso deberán adaptarse a los criterios generales de uso Anexo PN8.
+Extractivos: Deberían prohibirse salvo si se trata de un recurso que no se pueda localizar en otro sitio.
+Actividades económicas: Autorizables cuando no existan otras alternativas de localización, con justificación y ocupación mínima de suelo. Al tratarse de las zonas más llanas en los municipios situados al norte del ámbito POT, existe una competencia de ocupación de estos suelos por diversos usos. Sin embargo hay que priorizar el uso agrícola de estos suelos por ser valiosos desde el punto edafológico para el desarrollo de la agricultura.
+Ocio y turismo: Algunas actividades de ocio y turismo que no impliquen la destrucción de mucho “edafos” por pisoteo, caminos, construcciones, etc., podrían realizarse en este tipo de suelo. El diseño debe ser tal que permita una reversión al estado inicial con un mínimo coste en perdida de suelo útil para la producción. Serían en principio: campings, golf, clubs hípicos, ocio organizado (tirolinas, tiro con arco, ….)..
+Agropecuarios: Autorizados. En caso de reparcelación, puesta en regadío u otras acciones a realizar de forma extensiva en estas unidades, controlar la eliminación innecesaria de setos, la realización de parcelas excesivamente grandes en pendiente, …
+Forestal: No se deberían favorecer actuaciones o ayudas tendentes a reforestar estas parcelas, especialmente si se realizan con especies alóctonas. Sin embrago, no se pueden limitar acciones a nivel particular que vayan en contra de los criterios generales de uso.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR PARA SU EXPLOTACIÓN NATURAL. (FORESTAL)
+
+FICHA: SNUPrsEN: FP - Forestal Productivo
+Categoría: SNU de Preservación
+Subcategoría: Para explotación natural
+Sub-subcategoría: Forestal productivo
+Código: SNUPrsEN: FP
+USOS ACTUALES:
+- Repoblaciones
+- Caza
+- Recogida de setas
+- Pastoreo extensivo
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Seleccionar las zonas más productivas que generen menos impactos, limitando, incluso prohibiendo las especies alóctonas en aquellas zonas en los que los rendimientos no sean los adecuados o que generen problemas de erosión.
+Movimientos de tierra: Autorizables con justificación
+Infraestructuras, equipamientos y dotaciones de interés público: Estos suelos pueden ser receptores de estas actividades que deberán contar con las correspondientes medidas y justificación
+Energéticos: El aprovechamiento de la biomasa sobrante en el momento del aprovechamiento maderero debiera ser obligatorio.
+Extractivos: Criterios generas para autorización usos Anexo PN8
+Actividades económicas: Prohibido
+Ocio y turismo: Paseo, Caza.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsEN: BAP - Bosques con valor ambiental y productor
+Categoría: SNU de Preservación
+Subcategoría: Para Explotación Natural
+Sub-subcategoría: Bosques con valor ambiental y productor
+Código: SNUPrsEN: BAP
+USOS ACTUALES:
+- Hayedos
+- Pinares de Pino Silvestre
+- Robledales pedunculados
+- Masas Forestales mixtas con especies nobles
+- Repoblaciones de pino Laricio
+- Usos Forestales Ganadería extensiva
+- Repoblaciones de Chopo
+- Repoblaciones de Roble americano
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Esta zona por tanto cumple una función forestal productiva y ambiental simultáneamente muy importante en la zona. La elevada pendiente predominante en la unidad, junto con la fragilidad del equilibrio productivo-ambiental desaconseja la instalación de infraestructuras que no den servicio a las actividades que en la actualidad se desempeñan.
+El uso que se realiza en esta unidad es principalmente el forestal extrayendo madera de haya y de pino silvestre. Las elevadas pendientes con las que cuenta esta zona hacen que la presión que se ha ejercido en estas zonas sea escasa y que esta unidad presente una buena calidad ambiental. No obstante existen algunas zonas de pastizal mantenidas por la presión ganadera de la zona.
+Movimientos de tierra: Podrán ser autorizables con justificación y cuando no existan otras alternativas.
+Infraestructuras, equipamientos y dotaciones de interés público: Autorizables cuando no existan otras alternativas
+Energéticos: El aprovechamiento de la biomasa será otra actividad forestal de estos suelos.
+Extractivos: Según los criterios estratégicos para la ordenación en el territorio de las actividades extractivas.
+Actividades económicas: Prohibido
+Ocio y turismo: Criterios estratégicos para la ordenación de los recursos turísticos en el territorio.
+Agropecuarios: Se mantendrán las actividades ganaderas que permitan el aprovechamiento de los pastos existentes y colaboren en el mantenimiento del bosque.
+Forestal: Dentro de estos suelos se autorizarán los usos que permitan un adecuado aprovechamiento del valor productivo del monte, si bien se tendrá en cuenta el valor ambiental de los mismos.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR CULTURAL
+
+FICHA: SNUPrsCu: CT - Caminos tradicionales
+Categoría: SNU de Preservación
+Subcategoría: Por valor cultural
+Sub-subcategoría: Caminos tradicionales
+Código: SNUPrsCu: CT
+USOS ACTUALES: La red de caminos tiene como principal función dar servicio a los diversos usos que se dan en el territorio.
+CRITERIOS GENERALES DE USO: Los caminos tradiciones deben considerarse como un valor a preservar dentro del territorio en primer lugar por dar servicio a los usos que en el se desarrollan: agrícolas, ganaderos, forestales, .... además de ser elementos que en cierta manera reflejan la estructura histórica de los municipios.
+Ocio y turismo: Actualmente los caminos cuentan con un importante potencial tanto de ocio como de turismo (senderismo, rutas, ...), quedando patente en muchos casos la necesidad de un sistema de compatibilidad de usos.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+SUBCATEGORÍA: SNU DE PRESERVACIÓN. SUELO DE VALOR PAISAJÍSTICO
+
+FICHA: SNUPrsP: PCA - Paisajes culturales agropecuarios
+Categoría: SNU de Preservación
+Subcategoría: Por su valor paisajístico
+Sub-subcategoría: Paisajes culturales agropecuarios
+Código: SNUPrsP: PCA
+[Figura: mapa del ámbito del POT 3 sin título. Leyenda: «Mosaico de montes - cultivos»; «Mosaico Robledal praderas de fondo de valle»; «Cultivos de secano de la Cuenca»]
+USOS ACTUALES: Se incluyen los usos que en determinadas zonas del territorio conforman un testimonio de los modos de ocupación del espacio, de los modos de vida o de modos de producción ligados a este, y que pueden estar sujetos a desaparición por cambios en la dinámica económica o poblacional de la zona. Son diversos en función de la riqueza de comarcas que integran el patrimonio de Navarra.
+CRITERIOS GENERALES DE USO: Crear ayudas y fomentar los usos que han permitido el mantenimiento de estas estructuras: ganadería de montaña, trashumancia,…
+Evitar el deterioro de los componentes del paisaje, tanto en actuaciones privadas como en actuaciones públicas. Mantener setos en prados de fondos de valle y su reposición total o parcial en caso de concentración parcelaria, evitar pistas que erosionan los pastos de alta montaña o corregir sus efectos de forma activa,….
+En estas zonas la regulación de los suelos de protección y preservación que subyacen a estos suelos deberán contar con criterios paisajísticos específicos que permita integrar los usos al paisaje a proteger.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
+
+FICHA: SNUPrsP: PIM - Paisajes de interés municipal
+Categoría: SNU de Preservación
+Subcategoría: Por valor paisajístico
+Sub-subcategoría: Paisajes de interés municipal
+Código: SNUPrsP: PIM
+CRITERIOS DE DELIMITACIÓN: Se deberán incluir paisajes cotidianos, paisajes con valor simbólico (caminos, lugares de romería), etnográfico (lavaderos, majadas, zonas de agrupamiento de rebaños con fines concretos,…), siempre que sea posible con intervención de los vecinos.
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Se considera que es un suelo cuya normativa es superponible al suelo de preservación (o protección) que subyace según las unidades ambientales.
+Se deberán potenciar los usos que han dado lugar a estos paisajes y el estudio de sus elementos y componentes para poder adecuar de forma adecuada las nuevas actuaciones autorizables a los valores paisajísticos del área.
+
+FICHA: SNUPrsP: PD - Paisajes deteriorados
+Categoría: SNU de Preservación
+Subcategoría: Por valor paisajístico
+Sub-subcategoría: Paisajes deteriorados
+Código: SNUPrsP: PD
+CRITERIOS DE DELIMITACIÓN: El Plan Municipal deberá realizar un listado de paisajes deteriorados o degradados, siempre que sea posible con previo proceso de participación, para incorporarlos a una lista, clasificándolos por urgencia en la restauración y dificultad técnica y/o económica para su ejecución.
+CRITERIOS DE AUTORIZACIÓN DE USOS
+CRITERIOS GENERALES DE USO: Conocer las causas de su deterioro y evitar los efectos sobre los valores de la zona y el valor paisajístico del entorno, restaurándolo.
+
+FICHA: SNUPrsP: PM/RP – Parques metropolitanos y reservas paisajísticas
+Categoría: SNU de Preservación
+Subcategoría: Por su valor paisajístico
+Sub-subcategoría: Parques metropolitanos y reservas paisajísticas
+Código: SNUPrsP: PM/RP
+[Figura: mapa del ámbito del POT 3 sin título. Leyenda: «Paisaje de las Sierras de la Cuenca»; «Reservas paisajísticas de las NUC de Pamplona»]
+DESCRIPCIÓN Y VALORES A PROTEGER: Se incluyen en este suelo de preservación los suelos que se incluían en las Normas Urbanísticas Comarcales (NUC) de la Cuenca de Pamplona ampliando en algunos casos sus ámbitos. Esta categoría tienen como finalidad intentar evitar la localización de espacios que puedan conllevar un deterioro paisajístico y estético de las sierras que rodean el entorno de la cuenca o los propios espacios urbanos.
+USOS ACTUALES:
+- Parques metropolitanos (- Sierras de la cuenca): Se incluyen las sierras de la cuenca, que tienen una incidencia paisajística directa sobre el paisaje de la misma, ampliando las zonas que se contemplaban en las NUC como parques metropolitanos
+- Reservas paisajísticas: Son las zonas que recogían las NUC, pero podrían ser ampliadas por los propios planes municipales en caso de que estos las consideren oportunas. Estas zonas deberán ser definidas de forma más concreta en los instrumentos de ordenación del territorio de detalle
+CRITERIOS GENERALES DE USO: Deberá intentar preservar la calidad paisajística de estas zonas e incluso mejorarla, en este sentido todas las actuaciones, usos e instalaciones que se localicen e estos suelos deberán tener en cuenta el criterio paisajístico y adecuar medidas de integración paisajística que minimicen e incluso puedan mimetizarse en el entorno de cara a preservar el paisaje de la cuenca.
+Se deberán tener en cuenta las indicaciones que las NUC establecían para estas zonas.
+Para más información ver Anexo PN8 Criterios de autorización de usos para actividades concretas
