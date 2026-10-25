@@ -4,7 +4,8 @@ export default [
   // Rehechas en octubre de 2026 con la mezcla de formatos del examen real (GUIA_PREGUNTAS.md, 2 bis)
   // y apoyadas solo en temas/E_Tema56.txt con las correcciones de src/data/textosTemas/E56.js
   // (texto refundido municipal revisado a 16-08-2016, sin modificaciones hasta la convocatoria,
-  // BON 21-05-2026). No se pregunta el preámbulo ni la estructura, que el TXT no reproduce.
+  // BON 21-05-2026). El TXT reproduce literales el índice y el preámbulo (25-10-2026); las preguntas
+  // actuales no los tratan, y del Título Preliminar (arts. 1-6) no hay articulado en el TXT.
   { id: "E56-01", tema: "E56", subtema: "Construcciones por encima de la altura", tipo: "NEG",
     q: "De conformidad con la Ordenanza General de Edificación del Ayuntamiento de Pamplona, en relación con las construcciones permitidas por encima de la altura de la edificación, señale la respuesta INCORRECTA:",
     o: ["Las edificaciones podrán cubrirse con tejado inclinado o azotea horizontal.",

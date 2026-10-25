@@ -3,7 +3,10 @@ export default [
   // ---------- TEMA 54 ESPECÍFICO · CATÁLOGO DEL PLAN MUNICIPAL (E54) ----------
   // Rehechas in situ el 18-10-2026 con la mezcla de tipos de los exámenes reales (GUIA_PREGUNTAS.md, 2 bis),
   // conservando los ids. Fuente única: temas/E_Tema54.txt con las correcciones de src/data/textosTemas/E54.js
-  // (articulado sin cambios a la convocatoria, BON 21-05-2026). No se preguntan la estadística de la Memoria,
+  // (Normativa literal; arts. 32 y 36 en la redacción de la modificación aprobada por el Pleno el 03-07-2025,
+  // BON n.º 155, de 05-08-2025, vigente a la convocatoria, BON 21-05-2026). 25-10-2026: retirada E54-08
+  // (el art. 35 literal admite el traslado excepcional justificado y el cambio de emplazamiento en fachada);
+  // la sustituye E54-16. No se preguntan la estadística de la Memoria,
   // el marco legal derogado (LF 10/1994, DF 85/1995) ni la fecha límite de selección (Memoria, fuera del alcance).
   { id: "E54-01", tema: "E54", subtema: "Elementos no vinculados", tipo: "NEG",
     q: "Señale la respuesta INCORRECTA en relación con lo dispuesto en el artículo 39 de la Normativa General del Catálogo del Plan Municipal de Pamplona (Texto Refundido aprobado por Acuerdo de la Comisión de Ordenación del Territorio de 18 de diciembre de 2002) sobre las normas de protección de los elementos no vinculados a la edificación:",
@@ -54,7 +57,7 @@ export default [
         "Constituyen un hito en la trama urbana.",
         "Todas las respuestas anteriores son correctas."],
     c: 3, exp: "Catálogo del Plan Municipal, Normativa General, art. 20.1: el grado 1 comprende los edificios más emblemáticos de la ciudad; reciben una protección GLOBAL para mantener sus características arquitectónicas, constructivas, volúmenes, formas y elementos decorativos; pueden considerarse, en todo o en parte, elementos relevantes de la historia de la ciudad y constituyen un HITO en la trama urbana. Las tres afirmaciones son literales, así que la correcta es la d). Recuérdese que los grados 1 y 2 protegen el edificio en su conjunto y el 3, en su mayoría, solo la fachada (art. 20)." },
-  { id: "E54-08", tema: "E54", subtema: "Elementos vinculados a la edificación", tipo: "META",
+  { id: "E54-08", tema: "E54", estado: "retirada", subtema: "Elementos vinculados a la edificación", tipo: "META",
     q: "Conforme a la Normativa General del Catálogo del Plan Municipal de Pamplona (Texto Refundido aprobado por Acuerdo de la Comisión de Ordenación del Territorio de 18 de diciembre de 2002), ¿cuándo puede modificarse el emplazamiento de un elemento vinculado a la edificación, como un escudo de armas?",
     o: ["Para devolverlo a su emplazamiento original.",
         "Cuando lo exija la rehabilitación de la fachada del edificio.",
@@ -88,7 +91,7 @@ export default [
         "Las alineaciones arboladas.",
         "Las askas.",
         "Los patios de manzana del Casco Viejo."],
-    c: 2, exp: "Catálogo del Plan Municipal, Normativa General, art. 32: los elementos NO vinculados a la edificación son puentes, cruceros, fuentes, monumentos, mobiliario urbano, ASKAS, pabellones y panteones. Los escudos de armas son elementos VINCULADOS a la edificación (art. 32.A); las alineaciones arboladas son una categoría del patrimonio natural (art. 5 de su Normativa), y los patios de manzana del Casco Viejo forman parte del Área A de las zonas arqueológicas (art. 10)." },
+    c: 2, exp: "Catálogo del Plan Municipal, Normativa General, art. 32.B (redacción dada por la modificación aprobada definitivamente por el Pleno el 03-07-2025, BON n.º 155, de 05-08-2025): los elementos NO vinculados a la edificación son 1. Puentes, 2. Cruceros, 3. Fuentes, 4. Monumentos, 5. Mobiliario urbano, 6. ASKAS/abrevaderos, 7. Pabellones, 8. Panteones/Cementerio y 9. Elementos de la urbanización. Los escudos de armas son elementos VINCULADOS a la edificación (art. 32.A); las alineaciones arboladas son una categoría del patrimonio natural (art. 5 de su Normativa), y los patios de manzana del Casco Viejo forman parte del Área A de las zonas arqueológicas (art. 10)." },
   { id: "E54-13", tema: "E54", subtema: "Glosario de obras", tipo: "DEF",
     q: "De acuerdo con el glosario de tipos de obras del Catálogo del Plan Municipal de Pamplona, la recuperación tipológica consiste en:",
     o: ["Devolver el edificio, total o parcialmente, a su estado primitivo, incluidos los elementos de interés aportados a lo largo de su historia.",
@@ -110,4 +113,11 @@ export default [
         "Monumentos naturales, jardines y alineaciones arboladas.",
         "Árboles aislados, espacios libres y alineaciones arboladas."],
     c: 1, exp: "Catálogo del Plan Municipal, Normativa del patrimonio natural, artículo 5: tres categorías: 1) árboles aislados, 2) parques y jardines y 3) alineaciones arboladas (las que conectan parques y jardines entre sí y con los espacios no urbanos). Los espacios naturales y los monumentos naturales remiten a la protección complementaria de la Ley Foral 9/1996, de Espacios Naturales de Navarra (art. 2; la Sequoia del INAP está clasificada como Monumento Natural MN-25), y los espacios libres son la red que el Catálogo quiere reconocer, no una categoría." },
+  { id: "E54-16", tema: "E54", subtema: "Elementos vinculados a la edificación", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 35 de la Normativa General del Catálogo del Plan Municipal de Pamplona (Texto Refundido aprobado por Acuerdo de la Comisión de Ordenación del Territorio de 18 de diciembre de 2002), en los elementos catalogados vinculados a la edificación, como los escudos de armas:",
+    o: ["Podrá autorizarse excepcionalmente su traslado cuando se considere debidamente justificado.",
+        "Las intervenciones deberán ajustarse a las técnicas específicas de rehabilitación.",
+        "La rehabilitación o sustitución de la fachada se supeditará a su puesta en valor.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Catálogo del Plan Municipal, Normativa General, art. 35 (normas de protección de los elementos vinculados a la edificación): 35.1, no se permite modificar su emplazamiento salvo para volver a su posición original u otra anterior documentada, cuando sea necesario desmontarlos por razón de obras u otros motivos, y «podrá autorizarse excepcionalmente su traslado cuando se considere debidamente justificado» (la a) es literal); 35.5, «la rehabilitación o sustitución de una fachada que contenga elementos catalogados se supeditará a su puesta en valor, evitando el deterioro de los mismos» (la c) es literal). Por eso la correcta es la d). La b) es falsa: según el art. 35.4 las intervenciones deben ajustarse a las técnicas específicas de RESTAURACIÓN, no de rehabilitación. El art. 35.2 permite además modificar el emplazamiento en la fachada cuando sea necesario desmontarlo, siempre que no se alteren sus características ni su función." },
 ];

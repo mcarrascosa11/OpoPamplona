@@ -46,7 +46,7 @@ export default [
         "50 m.",
         "300 m.",
         "100 m."],
-    c: 3, exp: "PEPRI del Casco Antiguo, art. 88.12 (redacción vigente; en el extracto del tema figura como apartado 11): los bancos y cajas en plantas bajas de edificios de viviendas deben guardar una distancia mínima de 100 m respecto de otra actividad bancaria, también en las ampliaciones; los traslados dentro del Casco y los Ensanches se permiten sin esa distancia si se renuncia a la licencia de origen y el nuevo local queda más lejos de otras actividades bancarias. Las distancias de 50, 200 y 300 m no figuran en la norma." },
+    c: 3, exp: "PEPRI del Casco Antiguo, art. 88.12 (redacción vigente, BON nº 16, de 24-01-2025): los bancos y cajas en plantas bajas de edificios de viviendas deben guardar una distancia mínima de 100 m respecto de otra actividad bancaria, también en las ampliaciones; los traslados dentro del Casco y los Ensanches se permiten sin esa distancia si se renuncia a la licencia de origen y el nuevo local queda más lejos de otras actividades bancarias. Las distancias de 50, 200 y 300 m no figuran en la norma." },
   { id: "E55-07", tema: "E55", subtema: "Proyectos de reforma del espacio urbano", tipo: "META",
     q: "De acuerdo con el Texto Refundido del Plan Especial de Protección y Reforma Interior del Casco Antiguo de Pamplona (Acuerdo del Pleno de 7 de junio de 2001, BON nº 109, de 7 de septiembre de 2001), los proyectos de reforma del espacio urbano podrán tener, según el alcance de sus intervenciones, el contenido de:",
     o: ["Un proyecto de urbanización.",

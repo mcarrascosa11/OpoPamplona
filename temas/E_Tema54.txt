@@ -5,14 +5,17 @@ PATRIMONIO NATURAL: NORMATIVA.
 ================================================================================
 Oposición Arquitecto/a — Ayuntamiento de Pamplona (examen enero 2027)
 
-Fecha de verificación: 18/06/2026
+Fecha de verificación: 18/06/2026. Revisión de vigencia: 25/10/2026.
 Fuente del texto: documento oficial "CATÁLOGO 1" del Plan Municipal de Pamplona
 (Texto Refundido, Acuerdo C.O.T. 18/12/2002), Gerencia de Urbanismo (pamplona.es).
 Comprende I. Patrimonio edificado (Memoria + Normativa General, Caps. 1-6, arts.
 1-49) y II. Patrimonio natural: arbolado, parques y jardines (Memoria + Normativa,
-arts. 1-15). Texto íntegro de toda la Normativa verificado y reproducido.
+arts. 1-15). La Normativa de ambos apartados va LITERAL, copiada del PDF oficial, con
+la redacción vigente a 21-05-2026 de los arts. 32 y 36 del edificado (BON n.º 155, de
+05-08-2025).
 
->>> ALCANCE: estudio completo. La NORMATIVA (edificado y natural) va LITERAL. De la
+>>> ALCANCE: estudio completo. La NORMATIVA (edificado, arts. 1-49, y natural, arts.
+    1-15) va LITERAL e íntegra, con la redacción vigente de los arts. 32 y 36. De la
     Memoria se recogen los conceptos y datos clave (marco legal, tipos de bienes,
     grados, estadística, fecha límite). Los listados nominales largos (los 488
     edificios uno a uno, fichas) NO se reproducen: para el examen importa la
@@ -27,10 +30,19 @@ arts. 1-15). Texto íntegro de toda la Normativa verificado y reproducido.
     es anterior a la homologación de 2007).
   - Marco estatal: LEY 16/1985 del Patrimonio Histórico Español (LPHE), art. 21
     (Conjuntos Históricos). Sigue vigente.
+  - Marco autonómico vigente: LEY FORAL 14/2005, de 22 de noviembre, del Patrimonio
+    Cultural de Navarra.
   - Patrimonio natural: protección complementaria de la LEY FORAL 9/1996, de 17 de
     junio, de Espacios Naturales de Navarra.
-  - Documento "cambiante": múltiples modificaciones puntuales del Catálogo posteriores.
-    Re-verificar a finales de 2026.
+  - Documento "cambiante": múltiples modificaciones pormenorizadas del Catálogo
+    posteriores, casi todas de fichas. La única que cambia la Normativa General es la
+    «Modificación puntual del Plan Municipal de Pamplona de determinaciones
+    pormenorizadas-Catálogo» (barandilla del entorno de la Media Luna; aprobación
+    definitiva por el Pleno el 03-07-2025, BON n.º 155, de 05-08-2025): nueva
+    redacción de los arts. 32 y 36 (elementos de la urbanización; ficha 9.1, «Modelo
+    Barandilla Media Luna», V. Eusa, 1938). En 2025 se modificaron además fichas sin tocar el
+    articulado: Monumento a los Caídos (BON n.º 208 de 2025) y estatuas de los Reyes
+    de Navarra (BON n.º 239, de 28-11-2025).
 
 ================================================================================
 PARTE A — QUÉ ES EL CATÁLOGO Y SU MARCO LEGAL
@@ -119,7 +131,9 @@ CATEGORÍAS (art. 5 de la Normativa General):
      - EVE — Elementos Vinculados a la Edificación: escudos de armas; varios. (Su
        catalogación NO implica catalogar el edificio.)
      - ENVE — Elementos No Vinculados a la Edificación: puentes, cruceros, fuentes,
-       monumentos, mobiliario urbano, askas, pabellones, panteones, varios.
+       monumentos, mobiliario urbano, askas/abrevaderos, pabellones,
+       panteones/cementerio y elementos de la urbanización (art. 32 en la redacción
+       de 2025).
 
 RESUMEN ESTADÍSTICO (Memoria I.10) — datos preguntables:
   - Recintos: 5.
@@ -128,9 +142,11 @@ RESUMEN ESTADÍSTICO (Memoria I.10) — datos preguntables:
     316 (64,75%); I y II Ensanches (U.I. XV) 129 (26,43%); resto 43 (8,81%).
   - Elementos vinculados (EVE): 114 (95 escudos de armas + 19 varios).
   - Elementos no vinculados (ENVE): 54 (8 puentes, 4 cruceros, 5 fuentes, 13
-    monumentos, 7 varios, 17 panteones).
-  - Fichas individualizadas: 552 (5 recintos + 488 edificios + 54 elementos; los 114
-    EVE no tienen ficha propia, van en la ficha del edificio).
+    monumentos, 7 varios, 17 panteones). [Estadística de 2002. La modificación de
+    2025 (BON n.º 155) añadió el apartado 9, «Elementos de la urbanización», con el
+    elemento 9.1 «Modelo Barandilla Media Luna».]
+  - Fichas individualizadas: 552 [sic: la suma da 547] (5 recintos + 488 edificios +
+    54 elementos; los 114 EVE no tienen ficha propia, van en la ficha del edificio).
 
 BIC con categoría de MONUMENTO en el término municipal (Memoria I.3) — los más
 citables: Edificio General Chinchilla 7; Casco Antiguo (Conjunto, D. 6-4-68); Cámara
@@ -144,215 +160,388 @@ escudos en fachadas, emblemas y cruces de términos.
 PARTE C — PATRIMONIO EDIFICADO: NORMATIVA GENERAL (Caps. 1-6, arts. 1-49, literal)
 ================================================================================
 
------ CAPÍTULO 1. DISPOSICIONES GENERALES (arts. 1-8) -----
+Texto literal del Catálogo 1 (Texto Refundido, Acuerdo C.O.T. 18/12/2002), con la redacción
+vigente de los arts. 32 y 36 (BON n.º 155, de 05-08-2025).
 
-Art. 1. Contenido del Catálogo. Las Normas, junto con los planos, fichas y listados
-adjuntos, forman el Catálogo de patrimonio edificado del Plan Municipal.
+NORMATIVA GENERAL
 
-Art. 2. Marco legal. [LPHE 16/1985 art. 21; LF 10/1994; DF 85/1995 arts. 83 y 29;
-contenido en el art. 33 del Reglamento. Los BIC se rigen por su normativa específica.]
+CAPÍTULO 1. DISPOSICIONES GENERALES
 
-Art. 3. Interpretación.
-1. En concurrencia de dos o más determinaciones o en contradicción, es vinculante la
-   MÁS RESTRICTIVA, dando prioridad a la interpretación que dé MAYOR PROTECCIÓN.
-2. Si la ficha particular contradice las normas generales, prevalece la FICHA PARTICULAR.
-3. Las intervenciones no previstas se asimilan a las definidas que produzcan efectos
-   semejantes.
+Artículo 1. Contenido del Catálogo
+Las determinaciones contenidas en estas Normas, junto con los planos, fichas y listados adjuntos, forman el Catálogo de patrimonio edificado del Plan Municipal.
 
-Art. 4. Elementos de interés. La descripción de las fichas no es definitiva; el régimen
-se aplica también a los elementos de interés que aparezcan después, incluso si forman
-parte de edificios, recintos, zonas o elementos NO incluidos en el Catálogo.
+Artículo 2. Marco legal
+El marco legal superior de referencia lo constituyen la Ley del Patrimonio Histórico Español 16/1985 -artículo 21, que prevé la realización de catalogación en el ámbito de los Conjuntos Históricos-, la Ley Foral 10/1994 de Ordenación del Territorio y Urbanismo y el Decreto Foral 85/1995, por el que se aprueba el Reglamento de desarrollo de la Ley Foral 10/1994 -artículos 83 y 29, respectivamente, que determinan la inclusión del Catálogo como documento del Plan-. Su contenido viene especificado en el artículo 33 del Reglamento.
+Las declaraciones de Bienes de Interés Cultural se rigen a su vez por su normativa específica. La Memoria del Catálogo –apartado 3- contiene una relación de los existentes.
 
-Art. 5. Clasificación. Categorías. Cuatro: 1 Zonas arqueológicas, 2 Recintos, 3
-Edificios, 4 Elementos.
+Artículo 3. Interpretación
+1. En la concurrencia de dos o más determinaciones sobre los bienes catalogados o en caso de contradicción, será vinculante la más restrictiva, dando prioridad, en todo caso, a la interpretación que proporcione mayor protección a los bienes catalogados.
+2. En caso de contradicción entre las determinaciones de las fichas particulares y las normas generales de aplicación, se impondrán las determinaciones particulares de la ficha correspondiente.
+3. Las intervenciones no previstas de forma expresa en la normativa general o particular de este Catálogo se asimilarán a las ya definidas que produzcan efectos semejantes.
 
-Art. 6. Documentación. Instrumentos de protección: a) las Normas de protección
-(generales, según grado); b) los listados; c) los planos; d) las fichas (descripción
-pormenorizada + determinaciones particulares).
+Artículo 4. Elementos de interés
+1. La descripción de los elementos de interés y los valores de un bien catalogado que figuran en las fichas de Catálogo, no se considera definitiva, por cuanto pueden existir otros. Su determinación definitiva incluirá los nuevos valores o elementos de interés que puedan aparecer posteriormente en las diversas fases de aplicación de la normativa: consulta previa, proyecto, obra etc.
+2. Las determinaciones de protección previstas en esta normativa se aplicarán a todos los elementos de interés que pudieran ponerse de manifiesto con posterioridad a la elaboración de este Catálogo, incluso en el caso de que formen parte de edificios, recintos, zonas arqueológicas o elementos no incluidos en el Catálogo.
 
-Art. 7. Actuaciones permitidas, autorizables y prohibidas. Tres tipos:
-  - PERMITIDAS: obtienen licencia, salvo informe técnico desfavorable en consulta previa
-    por incompatibilidad con la protección.
-  - AUTORIZABLES: la licencia depende, caso a caso, de que en la consulta previa se
-    consideren compatibles con la conservación de los valores.
-  - PROHIBIDAS: no se concede licencia.
+Artículo 5. Clasificación. Categorías
+El patrimonio de interés contenido en esta parte del Catálogo se clasifica, con el fin de regular su intervención, en las siguientes categorías:
+1. Zonas arqueológicas
+2. Recintos
+3. Edificios
+4. Elementos
 
-Art. 8. Tipos de obras: GLOSARIO (clave de examen — definiciones literales):
-  - Conservación: mantenimiento en adecuadas condiciones de estado y utilización.
-  - Acondicionamiento: adecuación a un uso sin variar sustancialmente estructura ni
-    características formales/ornamentales.
-  - Rehabilitación: adecuación a un uso pudiendo variar elementos estructurales,
-    espaciales, formales u ornamentales, pero MANTENIENDO LA TRAZA Y ESTRUCTURA GENERAL.
-  - Consolidación: asegurar/reforzar elementos estructurales (incl. reponerlos).
-  - Restauración: técnicas para devolver el edificio/elemento a su estado original.
-  - Restitución: devolverlo, total o parcialmente, a su estado primitivo (incluidos
-    elementos de interés aportados a lo largo de su historia).
-  - Recuperación tipológica: restituir la traza u organización espacial parcialmente
-    perdidas.
-  - Reconstrucción: volver a levantar un edificio/parte desaparecido cuyas
-    características se conocen, fiel a su origen.
-  - Reedificación: sustituir un edificio/parte cuando el volumen resultante es similar.
-  - Reposición: sustituir partes/elementos por otros de características similares.
-  - Sustitución: cambiar un edificio/parte por otro de características diferentes.
-  - Ampliación: aumento de superficie construida. Tres casos: a) sin aumento de
-    volumen; b) aumento de volumen sin más ocupación en planta; c) aumento de volumen
-    con más ocupación en planta.
-  - Reestructuración: alteración total o parcial del trazado u organización espacial.
-  - Vaciado: derribo de estructuras internas (horizontales y, en su caso, verticales)
-    MANTENIENDO LAS FACHADAS. Se considera vaciado cuando el derribo supera el 50% de la
-    superficie interior.
-  - Demolición: derribo de todo o parte de un edificio (acción humana; excluye el
-    hundimiento accidental).
+Artículo 6. Documentación
+Son instrumentos de protección de los bienes catalogados:
+a) Las Normas de protección del patrimonio, de carácter general, según su grado de protección.
+b) Los listados de edificios o elementos catalogados en los que se identifica el objeto de protección mediante un número, dirección postal, denominación y nivel de catalogación.
+c) Los planos, donde se delimitan los recintos, y se sitúan los edificios y elementos catalogados.
+d) Las fichas, donde, junto con la descripción pormenorizada, se incluyen las determinaciones normativas particulares.
 
------ CAPÍTULO 2. ZONAS ARQUEOLÓGICAS (arts. 9-10) -----
-Art. 9. Definición y ámbito: lugar en cuyo subsuelo existan o se presuman restos
-arquitectónicos, mobiliario u objetos de interés histórico/artístico que requieran
-excavación y técnicas específicas. Protección vía procedimiento del Cap. 6 (art. 42).
-Art. 10. Clasificación: Área A (restos de importancia con documentación + patios de
-manzana del Casco Viejo + castillo de Luis el Hutín) y Área B (restos probados o
-presumidos sin documentación suficiente).
+Artículo 7. Actuaciones permitidas, autorizables y prohibidas
+1. Tanto en las normas generales que afectan a las diversas categorías y grados como en las determinaciones particulares contenidas en las fichas, se contemplan tres tipos de actuaciones: permitidas, autorizables y prohibidas.
+2. Las actuaciones permitidas obtendrán licencia, salvo que, excepcionalmente, en el trámite de consulta previa reciban un informe técnico municipal desfavorable, justificado por su incompatibilidad con el régimen de protección señalado en este Catálogo o con la conservación de los valores del edificio.
+3. La concesión de licencia para las actuaciones autorizables dependerá, en cada caso, de que en el trámite de consulta previa se consideren compatibles con la conservación de los valores del edificio.
+4. No se concederá licencia a las actuaciones definidas como prohibidas en la normativa general o particular, por resultar incompatibles con la protección de los valores catalogados.
 
------ CAPÍTULO 3. RECINTOS (arts. 11-15) -----
-Art. 11. Definición: áreas o espacios urbanos con edificaciones, de origen histórico
-unitario, delimitación clara y carácter cerrado, con valores arquitectónicos, urbanos o
-paisajísticos. Lo relevante no es su extensión sino el carácter que imprime al conjunto.
-Art. 12. Clasificación: R1 a R5 (ver Parte B).
-Art. 13. Instrumentos de protección: a) Planes Especiales (LF 10/1994 art. 90); b)
-Normas Generales (este capítulo); c) Normas Particulares (ficha de cada recinto).
-Art. 14. Edificios/elementos contenidos en recintos: sujetos a su propia normativa si
-están catalogados.
-Art. 15. Normas Generales (resumen): se conserva el trazado del recinto; se permite
-reforma/ampliación de lo existente supeditada a la calidad ambiental; se PROHÍBE con
-carácter general construir nuevas edificaciones (solo pequeños pabellones que no impidan
-el uso y disfrute); las actuaciones que afecten al carácter exigen Plan Especial de todo
-el ámbito; se busca restituir elementos originales perdidos; mobiliario e instalaciones
-supeditados al carácter unitario; se prohíben actividades que pongan en peligro los
-valores.
+Artículo 8. Tipos de obras: definiciones
+Para la mejor interpretación de estas normas se establece el siguiente glosario:
+Conservación: Mantenimiento de un edificio o elemento en las adecuadas condiciones de estado y utilización.
+Acondicionamiento. Adecuación de un edificio a un uso existente o nuevo sin variar sustancialmente su estructura o sus características formales u ornamentales.
+Rehabilitación: Adecuación de un edificio a un uso existente o nuevo pudiendo variar elementos estructurales, espaciales, formales u ornamentales pero manteniendo su traza y estructura general.
+Consolidación: Intervención en un edificio para asegurar o reforzar sus elementos estructurales. La consolidación comprende, cuando sea preciso, reponer elementos estructurales.
+Restauración: Técnicas específicas que tienen por objeto devolver un edificio o elemento a su estado original.
+Restitución: Intervención en un edificio para devolverlo, en todo o en parte, a su estado primitivo, incluyendo en esta denominación, los elementos de interés aportados a lo largo de su historia.
+Recuperación tipológica: Intervención en un edificio para restituir la traza o la organización espacial parcialmente perdidas.
+Reconstrucción: Intervención que pretende volver a levantar un edificio o parte de él, desaparecido pero cuyas características se conocen, de manera fiel a su situación original.
+Reedificación: Sustitución de un edificio o parte de él cuando el volumen resultante es similar al primitivo.
+Reposición: Sustitución de partes o elementos de un edificio por otros que tengan características similares a los originales. Podrán autorizarse variantes actuales de los materiales y técnicas primitivos.
+Sustitución: Cambio de un edificio o parte de él por otro cuyas características pueden ser diferentes del original.
+Ampliación: Realización de obras que supongan un aumento de la superficie construida. Pueden darse tres casos:
+a) Aumento de la superficie construida sin aumento de volumen.
+b) Aumento de volumen sin incremento de la ocupación en planta.
+c) Aumento de volumen con incremento de la ocupación en planta.
+Reestructuración: Alteración, total o parcial, del trazado o la organización espacial de un edificio o elemento.
+Vaciado: Derribo de las estructuras internas horizontales y en su caso verticales de un edificio manteniendo las fachadas. Se considera vaciado, a los efectos de esta normativa, cuando el derribo supera el 50% de la superficie interior.
+Demolición: Derribo de todo o parte de un edificio. Supone la acción humana sobre el edificio y excluye el hundimiento accidental del mismo.
 
------ CAPÍTULO 4. EDIFICIOS (arts. 16-30) — NÚCLEO DEL TEMA -----
+CAPÍTULO 2. ZONAS ARQUEOLÓGICAS
 
-Sección 1. Generalidades (arts. 16-24)
-Art. 16. Definición: edificios seleccionados, en todo o en parte, por su interés como
-depósito de la historia de la ciudad (valores históricos, culturales, arquitectónicos,
-urbanos, ornamentales u otros).
-Art. 17. Clasificación: se agrupan por unidades integradas.
-Art. 18. Instrumentos de protección: Planes Especiales; normas generales (este
-capítulo); normas particulares (ficha de cada edificio).
-Art. 19. Contenido del Catálogo de Edificios: listado, planos y fichas + normas de
-protección (este Cap. 4).
+Artículo 9. Definición y ámbito
+Se entiende por zona arqueológica todo lugar en cuyo subsuelo existan o se presuma la existencia de restos arquitectónicos, mobiliario u objetos de interés histórico o artístico de épocas pasadas, cuyo estudio requiere la aplicación de métodos de investigación y labores específicas de excavación, clasificación y restauración por parte de técnicos y personal especializado.
+Las zonas arqueológicas catalogadas aparecen delimitadas en el plano correspondiente. Su protección se establece a través de las normas específicas de procedimiento recogidas en la sección 1 del capítulo 6 de esta normativa general.
 
-Art. 20. GRADOS DE PROTECCIÓN (literal — clave de examen). Tres grados, según extensión
-e intensidad. Los grados 1 y 2 protegen el edificio EN SU CONJUNTO; el grado 3 protege
-solo determinados elementos (generalmente la FACHADA), descritos en la ficha.
-  1. GRADO 1: los edificios más emblemáticos de la ciudad. Protección GLOBAL para
-     mantener características arquitectónicas, constructivas, volúmenes, formas y
-     elementos decorativos. Pueden considerarse, en todo o en parte, elementos
-     relevantes de la historia de la ciudad y constituyen un HITO en la trama urbana.
-  2. GRADO 2: edificios con valores arquitectónicos, urbanos o históricos NOTABLES,
-     cuya permanencia debe quedar asegurada. Sin ser de primer orden, destacan del
-     conjunto. La existencia de zonas interiores de menor valor o transformadas permite
-     un RÉGIMEN DE OBRAS MÁS AMPLIO que en el grado 1.
-  3. GRADO 3: el resto de edificios catalogados. Su valor: ser piezas permanentes de la
-     historia de la ciudad y los mejores ejemplos de su tipo. En su mayoría se protege
-     ÚNICAMENTE LA FACHADA como elemento configurador de la escena urbana.
+Artículo 10. Clasificación
+Los criterios de clasificación agrupan las diversas zonas en dos áreas:
+Área A: Incluye las zonas donde existen restos arqueológicos de importancia y documentación descriptiva que lo refrende, y además todos los patios de manzana existentes o de nueva creación, que se piensan liberar en el Casco Viejo, así como el área ocupada por los restos del castillo de Luis el Hutín en el entorno de la calle Chapitela.
+Área B: Comprende las zonas en donde está probada o se presume la existencia de restos arqueológicos aunque no exista documentación suficiente.
 
-Art. 21. Parcela de edificios catalogados: en parcela con edificio grado 1 ó 2, las
-obras en el resto de la parcela se supeditan a proteger el edificio catalogado; las
-segregaciones/agregaciones solo si no afectan negativamente al catalogado.
-Art. 22. Declaración de ruina y demoliciones: un edificio catalogado declarado en ruina
-DEBE SER REHABILITADO a cargo de su propietario, manteniendo sus elementos de valor.
-Art. 23. Uso: sin restricciones generales de uso, salvo que un uso impida conservar los
-valores que motivaron la catalogación.
-Art. 24. Normas comunes a los tres grados (resumen): toda intervención respeta los
-valores; se permiten obras de instalaciones, conservación, consolidación y restitución;
-en materiales de fachada protegidos solo se permite reposición; obras de protección
-contra incendios autorizables; los bienes muebles de interés integrados permanecen en
-su sitio. En FACHADAS PROTEGIDAS SE PROHÍBE: cerrar balcones y terrazas; instalar las
-instalaciones del edificio en fachada (salvo bajantes de pluviales); antenas en fachada;
-marquesinas.
+CAPÍTULO 3. RECINTOS
 
-Sección 2. Grado 1 (arts. 25-26)
-Art. 25. Criterios: intervenciones orientadas a la CONSERVACIÓN de características
-estructurales, espaciales, formales y ornamentales; las exigencias del uso se subordinan
-a la conservación y recuperación tipológica.
-Art. 26. Normas de actuación (resumen): solo excepcionalmente reestructuración parcial
-(incendios, evacuación, ascensores…); SE PROHÍBE EL VACIADO; se mantienen alineaciones,
-composición de fachadas y huecos; carpinterías/rejerías repuestas similares a las
-originales; se mantiene la volumetría de cubiertas (prohibidos nuevos volúmenes);
-SE PROHÍBEN LAS AMPLIACIONES EN ALTURA (las ampliaciones en planta, excepcionalmente).
+Artículo 11. Definiciones
+Se denominan Recintos protegidos las áreas o espacios urbanos que, conteniendo edificaciones, tienen su origen histórico en un uso unitario y aparecen con una delimitación clara, con carácter cerrado, donde además de valores arquitectónicos, incluyen importantes valores urbanos o paisajísticos. Lo relevante para su inclusión en este Catálogo no es su extensión, sino el carácter que el recinto imprime a las construcciones y espacios libres situados en su ámbito.
 
-Sección 3. Grado 2 (arts. 27-28)
-Art. 27. Criterios: puede autorizarse modificación/transformación para un uso distinto,
-conservando todos los elementos de valor.
-Art. 28. Normas de actuación (resumen): lo permitido/autorizable en grado 1 también lo
-es en grado 2; SE AUTORIZA REESTRUCTURACIÓN PARCIAL, SE PROHÍBE LA TOTAL; se prohíbe el
-vaciado interior (derribos parciales autorizables); ampliaciones en planta y en altura
-autorizables (prohibidas las que afecten negativamente a los valores); se permite
-sustituir elementos estructurales y cambiar distribución interior.
+Artículo 12. Clasificación
+R1: Recinto amurallado. Comprende el perímetro amurallado de la ciudad en los lados N-E-W y los baluartes y fuertes del lado sur.
+R2: Ciudadela. Comprende la Ciudadela, baluartes, glacis y parque de la Vuelta del Castillo.
+R3: Catedral y Palacio Arzobispal. Comprende la plaza de San José, la Catedral, atrio, claustro, patio de Arcedianato, huerta y palacio Arzobispal.
+R4: Palacio de Navarra. Comprende el Palacio de Navarra, Archivo General y jardines.
+R5: Plaza de las Recoletas. Presidida por el convento de clausura de las Agustinas Recoletas.
 
-Sección 4. Grado 3 (arts. 29-30)
-Art. 29. Criterios: asegurar la conservación de los elementos de valor; las fachadas a
-espacio público se consideran elementos de interés.
-Art. 30. Normas de actuación (resumen): lo permitido/autorizable en grados 1 y 2 lo es
-también aquí; SON AUTORIZABLES LA REESTRUCTURACIÓN TOTAL Y EL VACIADO; ampliaciones en
-planta y en altura autorizables; se mantiene composición de fachadas y huecos; régimen
-específico para LOCALES COMERCIALES CATALOGADOS (conservar características arquitectónicas
-y decorativas, mobiliario y rotulación originales).
+Artículo 13. Instrumentos de protección
+Los instrumentos para la protección de los recintos son:
+a) Planes Especiales que pudieran redactarse como desarrollo del Plan Municipal -LF 10/1994 art.90-, en cuyo ámbito se incluya alguno de los recintos catalogados y contengan medidas para la protección individualizada de los mismos.
+b) Normas Generales. Constituyen criterios contenidos en este capítulo para la redacción de los planes especiales o de aplicación en ausencia de éstos.
+c) Normas Particulares. Determinaciones aplicables a cada recinto contenidas en su ficha particular.
 
-[SÍNTESIS DEL RÉGIMEN DE OBRAS POR GRADO — muy preguntable:
-   Grado 1: protección global. Vaciado PROHIBIDO. Reestructuración total PROHIBIDA.
-            Ampliación en altura PROHIBIDA.
-   Grado 2: protección global con más margen. Reestructuración PARCIAL sí, TOTAL no.
-            Vaciado interior PROHIBIDO. Ampliaciones en planta y altura autorizables.
-   Grado 3: protección normalmente solo de fachada. Reestructuración TOTAL y VACIADO
-            AUTORIZABLES.]
+Artículo 14. Edificios o elementos contenidos en Recintos
+Los edificios o elementos contenidos en el ámbito de los Recintos quedarán sujetos a su propia normativa general y particular si aparecen catalogados como tales en los listados, planos y fichas correspondientes.
 
------ CAPÍTULO 5. ELEMENTOS (arts. 31-39) -----
-Art. 31. Definición: construcciones y piezas de ornato público que, sin ser edificios,
-integran la escena urbana.
-Art. 32. Clasificación: A) EVE — vinculados a la edificación: 1 escudos de armas, 2
-varios. B) ENVE — no vinculados: 1 puentes, 2 cruceros, 3 fuentes, 4 monumentos, 5
-mobiliario urbano, 6 askas, 7 pabellones, 8 panteones.
-Art. 33. Contenido: listado, plano y fichas (los EVE van en la ficha del edificio).
-Art. 34 (EVE). La catalogación de un elemento NO supone catalogar la edificación.
-Art. 35 (EVE) — normas: no se modifica el emplazamiento salvo para volver al original;
-restauración con técnicas específicas; la rehabilitación de la fachada se supedita a
-poner en valor el elemento.
-Art. 36 (ENVE). Definición y clasificación detallada: puentes (5 medievales + Portal
-Nuevo + 2 sobre Sadar y Elorz), fuentes (5 monumentales del centro histórico), cruceros
-(9), monumentos, mobiliario urbano, elementos de urbanización, askas (3), panteones
-(Cementerio de San José), varios.
-Art. 37. Elementos incluidos en recintos: además sujetos a la normativa del Cap. 3.
-Art. 38. Fichas de catalogación.
-Art. 39 (ENVE) — normas de protección (literal clave): las actuaciones PERMITIDAS son
-CONSERVACIÓN, RESTAURACIÓN Y CONSOLIDACIÓN; NO se autorizan REESTRUCTURACIÓN NI
-DEMOLICIÓN (sí restitución si hay documentación); no se modifica el emplazamiento
-original salvo justificación excepcional; se prohíben cables/antenas/publicidad que
-afecten al monumento o su entorno.
+Artículo 15. Normas Generales
+1. El trazado actual del recinto, entendido como las líneas maestras de su organización en el plano, será conservado sin merma de sus valores urbanos y paisajísticos. Podrán autorizarse modificaciones, cuando se busque la recuperación del trazado original en aquellas partes donde hubiera sido alterado o, si así se justifica en el Plan Especial correspondiente (vid. artículo 13), la mejora de las condiciones de accesibilidad, habitabilidad o uso.
+2. Se permite la reforma y ampliación de las construcciones existentes en estas áreas, siempre que dichas actuaciones queden supeditadas a la conservación y mejora de la calidad ambiental y el entorno urbano en que se hallen.
+3. Salvo en las zonas en que la normativa particular o, en su caso, un Plan Especial, lo autorice, se prohíbe con carácter general la construcción de nuevas edificaciones en los recintos y áreas libres catalogadas. Únicamente podrán autorizarse pequeñas construcciones del tipo pabellón, que no impidan el mejor uso y disfrute de dichas áreas y sólo en aquellos casos en que se garantice la conservación de los valores arquitectónicos, urbanos y paisajísticos del entorno donde se pretendiera su ubicación.
+4. Las actuaciones parciales de intervención en los recintos y áreas libres catalogados que pudieran afectar al carácter o integridad de los mismos, deberán sujetarse a los criterios emanados de un plan especial de todo el ámbito, sin cuya aprobación, sólo se autorizarán las que contemple este Catálogo y las tareas ordinarias de mantenimiento y mejora de las instalaciones existentes.
+5. Tanto los planes especiales como las actuaciones aisladas deberán buscar la restitución de los elementos originales perdidos que resulten coherentes con los valores de dichas áreas.
+6. La implantación de instalaciones urbanas, elementos de mobiliario urbano o nuevos tratamientos superficiales y paisajísticos deberán supeditarse al carácter unitario y a los valores existentes, buscando la adecuación con el entorno.
+7. Se prohíben cuantas actividades supongan un peligro para la conservación y la integridad de todos los valores y elementos de interés contenidos en estas áreas.
 
------ CAPÍTULO 6. PROCEDIMIENTO, PLANES ESPECIALES E INFRACCIONES (arts. 40-49) -----
-Art. 40. Información específica: toda solicitud de licencia sobre bienes catalogados
-añade una MEMORIA DE PROTECCIÓN (análisis y descripción escrita, gráfica y fotográfica).
-Art. 41. B.I.C.: las obras en BIC (o con expediente incoado) o en su entorno se atienen
-a la LPHE 16/1985 y precisan AUTORIZACIÓN PREVIA de la Institución Príncipe de Viana.
-Art. 42. Zonas arqueológicas: en Área A puede exigirse EXCAVACIÓN o CATAS antes de
-licencia que afecte al subsuelo (en ámbitos BIC se exige); en Área B, catas (en BIC,
-catas + seguimiento intensivo). Dirección por técnico competente, autorización del
-Gobierno de Navarra; en BIC la gestión se canaliza por la Dirección General de Cultura -
-Institución Príncipe de Viana (informe preceptivo en 2 meses).
-Art. 43. Edificios: en grados 1 y 2 es PRECEPTIVA LA CONSULTA PREVIA; en grado 3 solo si
-las obras afectan a elementos de interés o a la cubierta. La consulta previa aprobada es
-vinculante. En BIC, autorización previa de la Institución Príncipe de Viana.
-Art. 44. Elementos no vinculados: procedimiento como el de edificios grado 1 y 2
-(consulta previa incluida).
-Art. 45. Elementos de interés no considerados: si aparecen durante consulta/licencia/obra,
-deben protegerse; el titular debe comunicar los hallazgos al Ayuntamiento.
-Art. 46-48. Planes especiales de protección: desarrollan el Plan en materia de
-patrimonio; solo pueden modificar el régimen de obras si se justifica que se logra igual
-protección; regulan régimen de obras y usos y posibles ampliaciones.
-Art. 49. Infracciones: todo atentado contra la integridad de un bien catalogado
-(demolición total/parcial, desmontaje, traslado, sustitución, o pérdida de los valores
-que motivaron la catalogación) y el incumplimiento de las obligaciones del art. 45.
+CAPÍTULO 4. EDIFICIOS
+
+Sección 1. Generalidades
+
+Artículo 16. Definición
+1. Se denominan Edificios protegidos los que en todo o en parte se seleccionan en los listados, planos y fichas de este Catálogo.
+2. Se trata de edificios seleccionados en todo o en parte por su interés relevante como depósito de la historia de la ciudad en diversos aspectos. Todos ellos participan, en mayor o menor medida según su grado, de valores diversos: históricos, culturales, arquitectónicos, urbanos, ornamentales u otros significativos para su preservación.
+
+Artículo 17. Clasificación
+1. Para facilitar la identificación de los edificios catalogados, se agrupan de acuerdo con la división urbanística del término municipal dividida en unidades integradas.
+2. La numeración correlativa de las unidades VIII y XV-Centro Histórico y Ensanches- se ordena con criterios propios en cada caso, de forma coherente con su estructura urbana y nomenclatura histórica.
+3. Los edificios incluidos en el ámbito de los recintos catalogados aparecen clasificados dentro de su unidad correspondiente.
+
+Artículo 18. Instrumentos de protección
+Para la protección de la edificación catalogada se prevén los siguientes instrumentos:
+1. Planes Especiales u otros planes que puedan aprobarse en desarrollo del Plan Municipal.
+2. Las normas generales contenidas en este documento.
+3. Las normas particulares contenidas en la ficha de cada edificio.
+
+Artículo 19. Contenido del Catálogo de Edificios
+Este documento incluye los edificios catalogados dentro del término municipal de Pamplona. Se compone de:
+1. Listado de Edificios Catalogados, con expresión de su dirección postal, denominación, autor, grado de protección y número de Catálogo.
+2. Planos de Catálogo, en los que se señala la situación y grado de protección de cada uno de los edificios.
+3. Fichas de Catálogo, donde, además de los datos de identificación, una descripción escrita y gráfica de los edificios, se especifican las determinaciones particulares que la catalogación impone en aquellos casos en que se considera necesario matizar la aplicación de la normativa, limitar el régimen de obras autorizado de forma general o destacar los elementos a proteger del edificio.
+4. Normas de protección de los edificios. Contenidas en este capítulo 4, son las determinaciones de carácter general aplicables a los edificios catalogados en sus diferentes grados.
+
+Artículo 20. Grados de protección
+La protección de los edificios catalogados se establece en tres grados atendiendo a su extensión e intensidad. Los grados 1 y 2 protegen al edificio en su conjunto mientras que el grado 3 asigna la protección sólo a determinados elementos arquitectónicos relevantes, generalmente la fachada, descritos en la ficha particular.
+1. Grado 1 de protección
+Están incluidos en esta categoría los edificios más emblemáticos de la ciudad. Se protegen de forma global para mantener sus características arquitectónicas, constructivas, volúmenes, formas y elementos decorativos. Los edificios incluidos en este grado pueden ser considerados, en todo o en parte, elementos relevantes de la historia de la ciudad y constituyen un hito en la trama urbana.
+2. Grado 2 de protección
+Se incluyen en esta categoría aquellos edificios en los que se reconocen valores arquitectónicos, urbanos o históricos notables y cuya permanencia debe quedar asegurada.
+Esos valores, sin ser de primer orden, destacan del conjunto de forma clara, por lo que son dignos de conservación.
+La existencia en su interior, de zonas de menor valor arquitectónico o que han sufrido transformaciones importantes, permite la autorización de un régimen de obras más amplio que en el primer grado.
+3. Grado 3 de protección
+Dentro de esta categoría se incluyen el resto de los edificios catalogados. Su principal valor es el de constituir las piezas permanentes de la historia de la ciudad hasta tiempos recientes. Son los mejores ejemplos de los edificios que integran las partes que definen la ciudad reconocible: el centro histórico y los ensanches. A ello se añaden los ejemplares dispersos de la mejor arquitectura de los nuevos barrios. Se catalogan por su carácter único o por constituir los mejores ejemplos entre los de su tipo.
+En su mayoría se trata de edificios en los que se protege únicamente la fachada como elemento configurador de la escena urbana cuya permanencia se quiere asegurar.
+
+Artículo 21. Parcela de edificios catalogados
+1. Cuando en una parcela exista algún edificio catalogado en grado 1 ó 2, la autorización de obras en cualquier otro edificio de la parcela o en la parcela misma, se supeditará a la protección de los valores y elementos de interés del edificio catalogado.
+2. Las licencias de segregación o agregación de parcelas que contengan edificios catalogados en los grados 1 y 2, sólo se concederán si la segregación o agregación no implican la ejecución de obras que afecten negativamente a los edificios catalogados.
+
+Artículo 22. Declaración de ruina y demoliciones
+Las edificaciones catalogadas en cualquiera de sus grados y que fueran declaradas en ruina, de acuerdo con el procedimiento establecido por la Ley, deberán ser rehabilitadas a cargo de su propietario, manteniendo los elementos de valor existentes en el edificio, conforme a las previsiones del planeamiento.
+
+Artículo 23. Uso de los edificios catalogados
+No se establecen, con carácter general, restricciones de uso en los edificios catalogados, pero podrán limitarse o excluirse, cuando, por su naturaleza y exigencias funcionales, hagan imposible la conservación de los valores que han llevado a su catalogación y puedan provocar su deterioro o la desaparición de algún elemento protegido.
+
+Artículo 24. Normas comunes a los tres grados de protección
+1. Todas las intervenciones respetarán los valores del edificio y la integridad de sus elementos de interés.
+2. Se permiten las obras necesarias para la implantación y el mantenimiento de las instalaciones e infraestructuras.
+3. Se permiten las obras necesarias para la conservación de los edificios y su consolidación.
+4. Se permiten las obras de restitución, incluyendo el derribo de aquellos añadidos sin valor que se especifiquen en las fichas particulares y la reconstrucción de partes o elementos de valor desaparecidos.
+5. En los materiales de acabado de fachadas, cierres de parcela y paramentos interiores, protegidos o que tengan interés, aparte de las obras de conservación, sólo se permite su reposición.
+6. El tratamiento de los muros de planta será acorde con los criterios de composición y materiales del resto de la fachada del edificio existente, o en caso de que hubieran sido alterados, del edificio en su estado original.
+7. Podrán autorizarse las obras necesarias para el cumplimiento de la normativa vigente sobre evacuación y protección contra incendios.
+8. Podrá autorizarse la colocación de elementos de mobiliario urbano e instalaciones de servicio público fijados a las fachadas.
+9. La protección de los edificios incluye aquellos bienes muebles de interés que se consideren integrados en los mismos, aparezcan o no recogidos en las fichas particulares. Deberán permanecer en su situación original y en ningún caso podrán ser trasladados fuera del edificio sin autorización expresa.
+10. En las fachadas protegidas se prohíbe:
+• El cierre de balcones y terrazas.
+• La implantación de las instalaciones propias del edificio en las fachadas, salvo bajantes de pluviales.
+• La instalación de antenas en las fachadas.
+• La instalación de marquesinas.
+
+Sección 2: Edificios protegidos en grado 1
+
+Artículo 25. Criterios generales de protección
+1. Las intervenciones en estos edificios se orientarán a la conservación de sus características estructurales, espaciales, formales y ornamentales, reponiendo aquellas partes o elementos que lo precisen.
+2. Las exigencias funcionales derivadas de su uso actual o nuevo se subordinarán a los criterios de conservación y recuperación tipológica.
+3. Las fichas particulares destacan los valores del edificio y sus elementos de interés, a cuya protección debe orientarse la aplicación de la normativa; no obstante, el régimen de protección no afecta sólo a esos elementos, sino al edificio en su conjunto, sin perjuicio de que su aplicación se concrete en el trámite de consulta previa. (ver artículo 43).
+
+Artículo 26. Normas de actuación
+1. Todas las intervenciones respetaran los valores del edificio y la integridad de sus elementos de interés.
+2. Sólo con carácter excepcional podrán autorizarse obras de reestructuración parcial para la adaptación del edificio a la normativa vigente de protección de incendios, evacuación, introducción de aparatos elevadores u otras circunstancias similares. En las intervenciones profundas se procurará llevar a cabo la recuperación tipológica de los elementos de interés de la parte afectada.
+3. Se prohíbe el vaciado del edificio. Podrán autorizarse derribos parciales con el fin de eliminar añadidos impropios o situaciones incoherentes con los valores del conjunto.
+4. Se mantendrán las alineaciones actuales de la edificación excepto en aquellas situaciones en que estén constituidas por partes o elementos sin interés.
+5. Se mantendrá la composición de las fachadas y la disposición y tamaño de sus huecos. Podrá autorizarse su recuperación tipológica.
+6. La introducción de elementos originales desaparecidos y la recuperación de huecos no existentes deberá quedar adecuadamente documentada y justificada.
+7. En el caso de que sea necesario, las carpinterías y rejerías serán repuestas por otras similares a las originales. Excepcionalmente podrá autorizarse la sustitución de alguno de esos elementos cuando no suponga merma de los valores catalogados.
+8. Se conservarán o repondrán los revestimientos, elementos constructivos y ornamentales de interés y se aplicará sobre ellos técnicas específicas de restauración. Los materiales a emplear se ajustarán a los existentes en el edificio y la textura y color de sus acabados exteriores serán, en lo posible, similares a los originales.
+9. En la consolidación de elementos estructurales deberán utilizarse soluciones constructivas funcionalmente similares a las existentes.
+10. Cuando no sea técnicamente posible la ejecución de obras autorizadas manteniendo un elemento catalogado se podrá solicitar permiso para su desmontaje y posterior recolocación con el mismo material, forma y dimensiones que tenía en su origen. Este tipo de obra será siempre excepcional y se exigirán las garantías convenientes para la recuperación de dicho elemento. Cuando se considere imposible su recolocación, primará la conservación del elemento catalogado sobre el régimen de obras autorizado.
+11. Se mantendrá la volumetría actual de las cubiertas, y se prohíbe la aparición de nuevos volúmenes.
+Se mantendrán las pendientes. Se conservarán o repondrán los materiales de la cubierta original. Se conservarán las partes o elementos de interés de la cubierta original. Podrá autorizarse la sustitución de los elementos estructurales de la cubierta sin variar su expresión exterior.
+12. Podrán autorizarse cambios en la distribución interior del edificio cuando no afecten a su organización espacial y tipológica.
+13. Podrán autorizarse las obras necesarias para mejorar la accesibilidad.
+14. Se prohíben las ampliaciones en altura. Podrán autorizarse, de manera excepcional, las ampliaciones en planta.
+15. La renovación de las instalaciones y la introducción de nuevas tecnologías será cuidadosa en extremo, evitando la sumisión del edificio a su implantación.
+
+Sección 3. Edificios protegidos en grado 2
+
+Artículo 27. Criterios generales de protección
+1. En las intervenciones en estos edificios, podrá autorizarse su modificación o transformación para un uso distinto o para adecuarlos a nuevas necesidades de su uso actual, siempre que se conserven todos los elementos de valor, tanto los reseñados en las fichas particulares como aquéllos que queden de manifiesto durante el estudio o ejecución de las obras.
+2. Las intervenciones sobre elementos de interés sólo se permitirán si aseguran su conservación o, en su caso, la reposición de aquellas partes que lo precisen.
+3. Las fichas particulares destacan los valores del edificio y sus elementos de interés, a cuya protección debe orientarse la aplicación de la normativa; no obstante, el régimen de protección no afecta sólo a esos elementos, sino al edificio en su conjunto, sin perjuicio de que su aplicación se concrete en el trámite de consulta previa. (ver artículo 43).
+
+Artículo 28. Normas de actuación
+1. Todas las intervenciones respetarán los valores del edificio y la integridad de sus elementos de interés.
+2. Las intervenciones permitidas y autorizables en los edificios protegidos en grado 1 se consideran también permitidas y autorizables en los protegidos en grado 2.
+3. Podrán autorizarse las obras de reestructuración parcial. Se prohíbe la reestructuración total.
+4. Se prohíbe el vaciado interior del edificio. Podrán autorizarse derribos parciales.
+5. Se mantendrán las alineaciones actuales excepto en las partes afectadas por reestructuraciones parciales o ampliaciones autorizadas y en los casos en que fuera necesario el derribo de elementos sin interés o añadidos impropios.
+6. En las reestructuraciones parciales se tenderá a mantener el trazado y la organización espacial igual a las originales del edificio.
+7. Se mantendrá la composición de las fachadas y la disposición y tamaño de sus huecos. Podrán autorizarse pequeñas modificaciones en la disposición y tamaño de los huecos que no desvirtúen la composición general.
+8. Podrá autorizarse la sustitución de las carpinterías y rejerías cuando resulten acordes con las fachadas catalogadas y no resulten incompatibles por su diseño, material, textura o color.
+9. Se conservarán o repondrán los revestimientos y elementos constructivos u ornamentales de interés y se integrarán en la rehabilitación general del edificio. Podrá autorizarse su sustitución.
+10. Podrán autorizarse las ampliaciones tanto en planta como en altura. Se prohíben las ampliaciones en altura que afecten negativamente a los valores y elementos de interés del edificio.
+11. Se mantendrá la configuración y volumetría actual de las cubiertas, pudiendo autorizarse, de manera excepcional, la aparición de nuevos volúmenes.
+12. Se conservarán o repondrán los materiales de la cubierta. Podrá autorizarse su sustitución.
+13. Se permite la sustitución de elementos estructurales del edificio.
+14. Se permiten los cambios de distribución interior.
+15. La renovación de las instalaciones, la introducción de nuevas tecnologías y la mejora de la accesibilidad y evacuación del edificio se someterá a la conservación de los valores del edificio y la integridad de sus elementos de interés.
+
+Sección 4. Edificios protegidos en grado 3
+
+Artículo 29. Criterios generales de protección
+1. En las intervenciones en estos edificios se establecen las condiciones necesarias a fin de asegurar la conservación de todos los elementos de valor y la reposición de las partes perdidas o deterioradas.
+2. Las fichas particulares identifican las partes y elementos de interés del edificio y señalan las determinaciones en orden a su conservación. Además de otros elementos que se mencionen en cada ficha, las fachadas que den a espacio público se consideran elementos de interés.
+
+Artículo 30. Normas de actuación
+1. Todas las intervenciones respetarán los valores del edificio y la integridad de sus elementos de interés.
+2. Las intervenciones permitidas y autorizables en los edificios protegidos en los grados 1 y 2 se consideran también permitidos y autorizables en los protegidos en grado 3.
+3. Son autorizables las obras de reestructuración total. Podrá autorizarse el vaciado del edificio.
+4. Cuando se planteen obras de rehabilitación o reestructuración, podrá condicionarse su autorización a la ejecución de las obras o demoliciones necesarias para la conservación de los elementos catalogados.
+5. Se permiten las ampliaciones en planta siempre que no afecten negativamente a las fachadas catalogadas y a otros elementos de interés. Podrán autorizarse las ampliaciones en altura.
+6. Se mantendrá la composición de sus fachadas y la disposición y tamaño de sus huecos. Podrán autorizarse pequeñas modificaciones cuando no afecten a los elementos de interés.
+7. En los edificios donde se catalogan elementos interiores: escaleras, portales, locales de planta baja, sótanos, etc., la intervención los integrará en el conjunto.
+8. El tratamiento exterior de la planta baja será acorde con los criterios de composición y materiales del resto de la fachada, pudiendo autorizarse el uso de otros materiales y diseños que no afecten a los valores que en cada caso motiven la catalogación: composición, decoración, diseño u otros.
+9. Los locales comerciales catalogados deberán conservar sus características arquitectónicas y decorativas de valor. Cuando exista documentación suficiente se recuperarán aquellos elementos o partes alteradas que resulten esenciales en la conservación de dichas características.
+10.Cualquier intervención en los locales catalogados conservará y pondrá en valor los elementos decorativos y mobiliario originales, supeditando lo nuevo a los valores existentes.
+11. La protección de un local comercial catalogado se extiende a todos los elementos del mobiliario y la rotulación originales que aparecen formando parte del diseño del conjunto.
+
+CAPÍTULO 5: ELEMENTOS
+
+Sección 1: Generalidades
+
+Artículo 31. Definición
+Son aquellas construcciones y piezas de ornato público que sin tener carácter de edificios constituyen parte integrante de la escena urbana cuya conservación se pretende.
+
+Artículo 32. Clasificación
+Los elementos catalogados se clasifican en:
+A. Elementos vinculados a la edificación -EVE-
+1. Escudos de armas
+2. Varios
+B. Elementos no vinculados a la edificación -ENVE-
+1. Puentes
+2. Cruceros
+3. Fuentes
+4. Monumentos
+5. Mobiliario urbano
+6. Askas/abrevaderos
+7. Pabellones
+8. Panteones/Cementerio
+9. Elementos de la urbanización
+[Redacción dada por la «Modificación puntual del Plan Municipal de Pamplona de determinaciones pormenorizadas-Catálogo» (barandilla del entorno de la Media Luna), aprobada definitivamente por el Pleno el 03-07-2025, BON n.º 155, de 05-08-2025. Antes, en el apartado B: «6. Askas» y «8. Panteones», sin el epígrafe 9.]
+
+Artículo 33. Contenido del Catálogo de elementos
+El Catálogo de elementos se compone de:
+1. Listado de elementos en sus diferentes apartados.
+2. Plano donde se sitúan los elementos.
+3. Fichas donde se identifican los elementos y se incluyen sus datos más relevantes. Contienen fotografías, una descripción y evaluación del elemento y eventualmente planos. Los elementos vinculados a la edificación -EVE- aparecen recogidos en las fichas correspondientes de los edificios en los que se encuentran.
+
+Sección 2: Elementos vinculados a la edificación -EVE-
+
+Artículo 34. Definición
+1. Los elementos catalogados que se consideran vinculados a la edificación, forman parte inseparable de la misma, aunque como en el caso de los escudos, puedan provenir de otras edificaciones.
+2. La catalogación de un elemento no supone la catalogación de la edificación en que se integra.
+
+Artículo 35. Normas de protección de los elementos vinculados a la edificación
+1. No se permite modificar el emplazamiento de los elementos catalogados salvo para volver a su posición original u otra anterior documentada, cuando sea necesario desmontarlos por razón de obras u otros motivos. Podrá autorizarse excepcionalmente su traslado cuando se considere debidamente justificado.
+2. Podrá autorizarse la modificación del emplazamiento de un elemento catalogado en la fachada del edificio, cuando sea necesario desmontarlo en razón de obras u otros motivos siempre que ello no suponga alterar sus características ni su función.
+3. Cuando exista documentación suficiente, se deberán recuperar las partes alteradas que supongan una merma de sus valores.
+4. Las intervenciones en estos elementos deberán ajustarse a las técnicas específicas de restauración.
+5. La rehabilitación o sustitución de una fachada que contenga elementos catalogados se supeditará a su puesta en valor, evitando el deterioro de los mismos.
+
+Sección 3. Elementos no vinculados a la edificación -ENVE-
+
+Artículo 36. Definición y clasificación.
+1. El catálogo de elementos no vinculados a la edificación es el instrumento de protección individualizada de aquellos elementos considerados como monumentos conmemorativos o de ornato público, así como de las construcciones de interés que no tienen carácter de edificio.
+2. Son elementos catalogados los que aparecen en los listados de Catálogo encada uno de sus apartados.
+3. Algunos elementos están declarados B.I.C. por lo que quedarán, además, sujetos a la normativa derivada de la legislación específica – Ley de Patrimonio Histórico Español 16/1985 – que establece una protección complementaria en el entorno delimitado en cada caso.
+4. En razón de sus características específicas, los elementos se clasifican en:
+1) Puentes. Se incluyen en este apartado los cinco puentes medievales, el Portal Nuevo y dos puentes sobre el Sadar y Elorz situados dentro del término municipal.
+2) Fuentes. Se recogen las cinco fuentes monumentales situadas en el centro histórico.
+3) Cruceros. Se incluyen los nueve cruceros de diverso valor existentes en la ciudad.
+4) Monumentos. De variada tipología: portales de murallas, monumentos públicos en plaza, paseos y jardines, etc.
+5) Mobiliario urbano. Algunas piezas de mobiliario de jardines y recintos históricos.
+6) Askas/Abrevaderos. Se recogen las tres que quedan.
+7) Pabellones
+8) Panteones/Cementerio. Se incluyen los panteones más valiosos del Cementerio de San José.
+9) Elementos de urbanización. Algunos elementos significativos de urbanización: escaleras, barandillas, farola monumental, pavimentación, etc.
+[Redacción dada por la «Modificación puntual del Plan Municipal de Pamplona de determinaciones pormenorizadas-Catálogo» (barandilla del entorno de la Media Luna), aprobada definitivamente por el Pleno el 03-07-2025, BON n.º 155, de 05-08-2025. Antes, el apartado 4 decía: «1) Puentes. Se incluyen en este apartado los cinco puentes medievales, el Portal Nuevo y dos puentes sobre el Sadar y Elorz situados dentro del término municipal. 2) Fuentes. Se recogen las cinco fuentes monumentales situadas en el centro histórico. 3) Cruceros. Se incluyen los nueve cruceros de diverso valor existentes en la ciudad. 4) Monumentos. De variada tipología: portales de murallas, monumentos públicos en plazas, paseos y jardines etc. 5) Mobiliario urbano. Algunas piezas de mobiliario de jardines y recintos históricos. 6) Elementos de urbanización. Algunos elementos significativos de urbanización: escaleras, farola monumental, pavimentación etc. 7) Askas. Se recogen las tres que quedan. 8) Panteones. Se incluyen los panteones más valiosos del Cementerio de San José. 9) Varios.»]
+
+Artículo 37. Elementos incluidos en Recintos
+Muchos de los elementos catalogados no vinculados a la edificación se encuentran, debido a su carácter de ornamento público, situados en parques, plazas y paseos, formando parte de los Recintos catalogados. En este caso, además de su protección específica como elementos, se ajustarán, a las determinaciones generales y particulares de los recintos definidas en el capítulo 3.
+
+Artículo 38. Fichas de catalogación
+1. Cada elemento aparece recogido en una ficha de Catálogo propia donde se reflejan las circunstancias relevantes de su carácter y todos los datos de interés: datación, autoría, características, entorno, traslados, etc.
+2. Además de los datos de interés se incluyen las determinaciones particulares previstas para la conservación y mejora del elemento en su entorno.
+
+Artículo 39. Normas de protección de los elementos no vinculados a la edificación
+Dada la heterogeneidad de los elementos incluidos en este capítulo se establecen normas de protección comunes para todos ellos. Su aplicación tendrá en cuenta el valor intrínseco de cada elemento y las circunstancias propias de su entorno.
+1. Las actuaciones permitidas en los elementos no vinculados catalogados serán las de conservación, restauración y consolidación.
+2. No se autorizarán actuaciones de reestructuración ni demolición. Cuando exista documentación original: bocetos, reproducciones o imágenes que permitan conocer la disposición de partes perdidas o alteradas, se permitirá su restitución.
+3. Cuando el emplazamiento del elemento sea el original, o, no siendo el original, forme parte de la historia de la ciudad debido a su integración en el entorno, no se permitirá en general su modificación. No obstante, podrá autorizarse excepcionalmente cambiar el emplazamiento si se considera justificado; para ello, deberá realizarse un estudio razonado en ese sentido, que deberá presentarse junto a la solicitud de licencia.
+4. Podrá autorizarse la sustitución de elementos complementarios o la reposición de partes originales cuando se considere necesario para lograr la unidad formal y artística del monumento y su coherencia histórica.
+5. Se prohíbe la colocación de cables, antenas o conducciones vistas en los elementos catalogados que pudieran afectar negativamente al monumento o a su entorno.
+6. Los equipos de alumbrado que se coloquen en los elementos catalogados deberán estar en consonancia con sus características formales, históricas y artísticas. Se podrá autorizar la colocación de piezas de mobiliario urbano y alumbrado adosados a los monumentos catalogados cuando, por emplazamiento, diseño o características, no produzcan un impacto negativo en el monumento o en su entorno.
+7. Se prohíbe la fijación permanente de cualquier tipo de publicidad fijada al monumento o situada en su entorno inmediato.
+8. Podrán autorizarse instalaciones provisionales en las proximidades del monumento cuando no afecten negativamente a su integridad ni comprometan su mantenimiento, y se cumplan las siguientes condiciones:
+• Se solicitará licencia previamente, adjuntando a la solicitud un proyecto de la instalación que incluirá fotografías recientes de los elementos catalogados afectados. Para la concesión de la licencia será preciso un informe favorable que se refiera específicamente a la repercusión de la instalación en los elementos catalogados.
+• La reparación del deterioro que pueda producirse en el elemento catalogado como consecuencia de la instalación será responsabilidad del solicitante, que deberá realizar a su costa las obras precisas en el plazo que el Ayuntamiento fije para ello. Si el solicitante no cumpliera esta obligación, el Ayuntamiento ejecutará dichas obras, pasando al obligado el cargo correspondiente, sin perjuicio de la instrucción del correspondiente expediente sancionador, en su caso.
+[Aplicación en 2025: con base en el art. 39.3 se trasladaron las estatuas de los Reyes de Navarra (ficha 4.4) del Paseo de Sarasate al Parque de la Taconera, BON n.º 239, de 28-11-2025. No cambió el artículo.]
+
+CAPÍTULO 6. PROCEDIMIENTO, PLANES ESPECIALES E INFRACCIONES.
+
+Sección 1. Normas de procedimiento
+
+Artículo 40. Información específica
+1. A las solicitudes de licencia para cualquier intervención en los recintos, edificios y elementos catalogados se añadirá, en todos los casos, una memoria de protección que contendrá un análisis y descripción pormenorizada escrita, gráfica y fotográfica del objeto catalogado, cuya extensión y detalle será proporcional a las características y alcance de la intervención propuesta.
+2. En todos los casos de intervención en el patrimonio protegido, los servicios técnicos municipales estarán facultados para inspeccionar el edificio, elemento o terreno en cuestión, tanto previamente a la concesión de la licencia como durante la ejecución de las obras.
+3. Cuando existan motivos que lo justifiquen, y se considere necesario para la protección del patrimonio, se podrá exigir la realización de obras de inspección, excavación o examen del edificio, elemento o terreno.
+
+Artículo 41. Bienes de interés cultural (B.I.C.)
+La tramitación de las solicitudes de obras que afecten a bienes inmuebles declarados o cuyo expediente haya sido incoado como Bien de Interés Cultural, en cualquiera de sus clases, o a su entorno delimitado, se atendrá a lo dispuesto en la Ley 16/1985 del Patrimonio Histórico y la correspondiente legislación que la desarrolle. Se precisará autorización previa de la Institución Príncipe de Viana.
+
+Artículo 42. Zonas arqueológicas
+1. El procedimiento regulado en este artículo se establece sin perjuicio de lo establecido al respecto en la Ley 16/1985, de Patrimonio Histórico Español, o de cualquier otra disposición legal que se dicte al respecto.
+2. En el área A, antes de la concesión de licencia de obras que afecten al subsuelo, se podrá exigir al solicitante la realización de una excavación arqueológica o de catas arqueológicas en toda la superficie afectada. En los ámbitos delimitados como B.I.C. se exigirá dicha excavación o catas.
+3. En el área B, antes de la concesión de licencia de obras que afecten al subsuelo, se podrá exigir al solicitante la realización de catas arqueológicas en toda la superficie afectada. En los ámbitos delimitados como B.I.C. se exigirá al solicitante la realización de catas arqueológicas en toda la superficie afectada completadas con un seguimiento arqueológico intensivo.
+4. La ejecución de la excavación o de las catas será dirigida por un técnico competente, y para ella se deberá obtener la licencia municipal correspondiente, previa autorización expresa del órgano competente del Gobierno de Navarra en los términos señalados por la Ley 16/1985 de Patrimonio Histórico.
+5. Una vez realizada la excavación o las catas, el técnico que las haya dirigido realizará un estudio técnico que se adjuntará a la documentación de la solicitud de licencia. A los efectos de lo señalado en la Ley 16/1985 de Patrimonio Histórico, se remitirá un ejemplar del estudio técnico al órgano competente del Gobierno de Navarra. En el caso de que se realicen catas y las conclusiones del estudio así lo aconsejen, se podrá exigir la realización de una excavación arqueológica completa en la superficie afectada.
+6. En función de las conclusiones del estudio final, y para garantizar la pervivencia de los restos y objetos de interés, se podrá denegar la licencia o, en el caso de que se conceda, señalar condiciones para la ejecución de las obras.
+7. Las medidas y obligaciones señaladas en los puntos 2 y 3 del presente artículo, serán aplicables siempre que se eliminen los niveles actuales de pavimento y sus preparaciones. En aras de la operatividad, esta consideración no será aplicable a la excavación de zanjas, salvo que existan indicios concluyentes de la presencia de restos arqueológicos, su anchura exceda 1 m. y su desarrollo supere la longitud de una manzana de casas. En cualquier caso será de aplicación lo dispuesto en el artículo 45 de este Catálogo.
+8. En previsión del descubrimiento de restos arqueológicos de singular importancia y para asegurar el cumplimiento del punto 6 del presente artículo, será necesaria, en los ámbitos delimitados como B.I.C., la autorización expresa, mediante resolución del Director General de Cultura-Institución Príncipe de Viana, para destruir o alterar los elementos del Patrimonio Arqueológico que eventualmente pudieran aparecer en el transcurso de una obra.
+9. Como procedimiento para la ejecución de las medidas de protección y en tanto no se produzca la creación de un Servicio Municipal de Arqueología encargado de la gestión de intervenciones arqueológicas y cuantas cuestiones relativas al Patrimonio Arqueológico puedan surgir, la gestión de los proyectos en los ámbitos delimitados como B.I.C., se realizará a través de la Dirección General de Cultura Institución Príncipe de Viana. A tal efecto, previamente a la concesión de cualquier licencia que pueda afectar al subsuelo, el Ayuntamiento deberá presentar ante la Dirección General de Cultura la siguiente documentación:
+- Descripción gráfica y escrita de la intervención que se propone.
+- Plano en planta de la zona afectada con superposición de la intervención arquitectónica propuesta.
+- Sección en la que se defina la intervención propuesta y las cotas de excavación en relación al pavimento actual.
+- Fotografía del espacio en que se interviene y de sus elementos más significativos en tamaño 18 x 24.
+A la vista de dicha documentación la Dirección General de Cultura Institución Príncipe de Viana emitirá un informe, con carácter preceptivo, sobre la conveniencia de las medidas a desarrollar. Dicho informe deberá ser emitido en el plazo de dos meses, computados a partir de su fecha de entrada en el registro del Gobierno de Navarra.
+
+Artículo 43. Edificios
+1. En la tramitación de expedientes de obras que afecten a edificios incluidos en los grados 1 y 2 será preceptiva una consulta previa en la que el promotor presente, junto con la memoria de protección definida en el artículo 40, la documentación necesaria para describir la intervención propuesta en la que se defina su estado actual y una descripción gráfica y escrita de las modificaciones previstas y su justificación. Cualquier actuación constructiva en inmuebles catalogados en grado 1 y 2, dentro de un ámbito delimitado como B.I.C., deberá contar con autorización previa de la Institución Príncipe de Viana.
+2. En los edificios incluidos en el grado 3, esa consulta previa sólo será preceptiva si las obras previstas afectan a partes o elementos del edificio considerados de interés en la ficha correspondiente, o si incluyen instalaciones u obras que afecten a la cubierta. La solicitud de licencia para obras que no afecten a elementos de interés no precisará del trámite de consulta previa.
+3. Para continuar el trámite de obtención de la licencia de obras, la consulta previa deberá obtener la aprobación del órgano municipal competente. Las condiciones que pudieran establecerse en esa aprobación serán vinculantes y deberán cumplirse para poder obtener la licencia.
+4. Una vez aprobada la consulta previa se podrá solicitar la licencia, siguiendo el trámite general.
+5. La aprobación de la consulta previa eximirá de la obligación de adjuntar a la solicitud de licencia la memoria de protección mencionada en el artículo 40, salvo que los servicios técnicos municipales la exijan porque alguna circunstancia que afecte al edificio haya cambiado.
+
+Artículo 44. Elementos no vinculados a la edificación
+Para las intervenciones en elementos no vinculados a la edificación incluidos en este Catálogo se deberá seguir el procedimiento señalado en el artículo 43 para los edificios del grado 1 y 2, incluida la consulta previa.
+
+Artículo 45. Elementos de interés no considerados en el Catálogo
+1. Además de los valores y elementos de interés mencionados expresamente en los edificios o en la normativa de este Catálogo, durante el trámite de consulta previa o en el de licencia, los servicios técnicos municipales podrán considerar justificadamente la existencia de otros y tenerlos en cuenta a la hora de aplicar el régimen de protección establecido.
+2. Si durante el proceso de concesión de una licencia de obras en un edificio, recinto, zona o elemento no incluido en este Catálogo la administración municipal tuviera conocimiento de la existencia en el mismo de algún elemento de interés histórico, artístico o cultural digno de protección, se podrán incluir en la licencia condiciones para garantizar su conservación.
+3. Si durante la ejecución de una obra se apreciase la existencia de algún elemento que pueda ser considerado de interés histórico, artístico o cultural, y de cuya existencia no hubiera constancia en la documentación presentada para la concesión de la licencia, será responsabilidad del titular de la licencia tomar las medidas precisas para evitar cualquier daño a dicho elemento, y poner inmediatamente el hallazgo en conocimiento del Ayuntamiento, adjuntando documentación fotográfica al respecto. Cumplido este trámite, el Ayuntamiento se pronunciará sobre la exigencia o no de conservación de dicho elemento, y, en su caso, sobre las condiciones para la misma. Si como consecuencia de este pronunciamiento fueran precisos cambios en las obras amparadas por la licencia concedida, deberá solicitarse la correspondiente modificación de la misma.
+4. El apartado anterior se aplicará a todos los elementos de interés que puedan aparecer, tanto en obras realizadas en los ámbitos, edificios o elementos relacionados en este Catálogo como en cualquier otra obra.
+
+Sección 2. Planes especiales de protección
+
+Artículo 46. Justificación
+Los planes especiales que desarrollen el Plan Municipal en materia de protección del patrimonio y que afecten a recintos, edificios o elementos catalogados se justifican por la necesidad de aplicar soluciones particulares a casos complejos y como respuesta al mandato de la legislación sobre patrimonio histórico en el Conjunto Histórico, Zonas Arqueológicas u otros declarados Bien de Interés Cultural (B.I.C.).
+
+Artículo 47. Régimen de obras.
+Los planes especiales de protección sólo podrán modificar el régimen de autorización de obras cuando se justifique que es posible conseguir la protección y puesta en valor del edificio o elemento, con otro régimen distinto del recogido en este Catálogo.
+
+Artículo 48. Alcance de los planes especiales de protección.
+Los planes especiales de protección podrán regular:
+a) El régimen de obras y usos autorizados en los edificios catalogados en cada caso particular.
+b) Las posibles ampliaciones en edificios catalogados.
+
+Sección 3. Infracciones
+
+Artículo 49. Definición
+Se considera infracción urbanística en el ámbito del Catálogo, aparte de lo especificado en la legislación aplicable:
+a) Todo atentado contra la integridad de un edificio o elemento catalogado, ya sea demolición total o parcial, desmontaje, traslado, sustitución y, en general, toda intervención que suponga una pérdida en los valores que han motivado su catalogación.
+b) El incumplimiento por parte del titular de una licencia de las obligaciones señaladas en el artículo 45, apartados 2 y 3 de este Catálogo.
 
 ================================================================================
 PARTE D — PATRIMONIO NATURAL: NORMATIVA (Sección II; Normativa arts. 1-15, literal)
@@ -371,95 +560,166 @@ ELEMENTO SINGULAR: la SEQUOIA de la Escuela de Magisterio (hoy INAP), clasificad
 MONUMENTO NATURAL (MN-25, O.F. 926/1996, de 6 de septiembre); su protección como Espacio
 Natural PREVALECE sobre la del Catálogo en caso de contradicción.
 
-NORMATIVA DEL PATRIMONIO NATURAL (literal):
+NORMATIVA DEL PATRIMONIO NATURAL (texto literal del Catálogo 1):
 
-Art. 1. Contenido: las Normas, planos y listados forman el Catálogo de patrimonio
-natural del Plan Municipal.
-Art. 2. Marco legal: LPHE 16/1985, LF 10/1994 y DF 85/1995 (arts. 83 y 29; contenido en
-el art. 33); protección complementaria de la LF 9/1996 de Espacios Naturales de Navarra
-para los elementos del Primer Inventario de Espacios Naturales, Hábitats y Montes de
-Utilidad Pública de Navarra.
-Art. 3. Interpretación: vinculante la MÁS RESTRICTIVA / mayor protección; las no
-previstas se asimilan a las definidas semejantes.
-Art. 4. Elementos de interés: el régimen se aplica también a los que aparezcan después,
-aunque no figuren en el Catálogo.
+Artículo 1. Contenido del Catálogo
+Las determinaciones contenidas en estas Normas, junto con los planos y listados adjuntos, forman el Catálogo de patrimonio natural del Plan Municipal.
 
-Art. 5. Clasificación. Categorías (tipología del patrimonio natural):
-  1. ÁRBOLES AISLADOS: ejemplares con valores especiales (singularidad, rareza, belleza
-     o consideraciones históricas/culturales). Se protege la parte aérea, la subterránea
-     (proyección ortogonal de la copa, profundidad 1,5 m) y la superficie de suelo bajo
-     la copa.
-  2. PARQUES Y JARDINES: espacios abiertos, arbolados y con escasa pavimentación, de la
-     red de espacios verdes. Se protege su configuración general y sus características de
-     ajardinamiento y arbolado.
-  3. ALINEACIONES ARBOLADAS: alineaciones de arbolado de gran porte que conectan parques
-     y jardines entre sí y con los espacios no urbanos.
+Artículo 2. Marco legal
+El marco legal superior de referencia lo constituyen la ley de Patrimonio Histórico Español (LPHE, ley 16 de 25 de junio de 1985), la Ley Foral 10/1994 de Ordenación del Territorio y Urbanismo y el Decreto Foral 85/1995, por el que se aprueba el Reglamento de desarrollo de la Ley Foral 10/1994 -artículos 83 y 29, respectivamente, que determinan la inclusión del Catálogo como documento del Plan-. Su contenido viene especificado en el artículo 33 del Reglamento.
+También hay que tener en cuanta a efectos de protección complementaria la que pueda derivarse de la aplicación de la Ley Foral 9/1996 de 17 de junio, de Espacios Naturales de Navarra o la vigente en su caso, en cuanto existan elementos incluidos en el ahora vigente Primer Inventario de Espacios Naturales, Hábitats y Montes de Utilidad Pública de Navarra.
 
-Art. 6. Actuaciones permitidas, autorizables y prohibidas: mismo esquema que en el
-patrimonio edificado (permitidas → licencia salvo informe desfavorable; autorizables →
-según compatibilidad con la conservación; prohibidas → sin licencia).
+Artículo 3. Interpretación
+1. En la concurrencia de dos o más determinaciones sobre los bienes catalogados o en caso de contradicción, será vinculante la más restrictiva, dando prioridad, en todo caso, a la interpretación que proporcione mayor protección a los bienes catalogados.
+2. Las intervenciones no previstas de forma expresa en la normativa general o particular de este Catálogo se asimilarán a las ya definidas que produzcan efectos semejantes.
 
-Art. 7. Régimen general de protección: toda actuación respeta los valores. PROHIBIDA toda
-actuación sobre arbolado público sin autorización. Las que impliquen nuevas
-pavimentaciones, alteración del suelo, eliminación de ejemplares o modificación
-sustancial del arbolado (podas importantes, etc.) solo se autorizan excepcionalmente y
-con informe técnico favorable. Se permiten labores de mantenimiento (control
-fitosanitario, cirugía de partes secas, aumento de superficies de aireación).
+Artículo 4. Elementos de interés
+Las determinaciones de protección previstas en esta normativa se aplicarán a todos los elementos de interés que pudieran ponerse de manifiesto con posterioridad a la elaboración de este Catálogo, incluso en el caso de que no figuren en el mismo.
 
-Art. 8. GRADOS Y CRITERIOS (clave — el patrimonio natural tiene DOS grados, no tres):
-  - GRADO 1: ejemplares de ALTO VALOR y elementos/espacios de importante interés natural,
-    histórico u otro. Actuaciones orientadas al MANTENIMIENTO O MEJORA de los valores
-    actuales y a la RECUPERACIÓN de las características originales.
-  - GRADO 2: ejemplares DE INTERÉS y elementos/espacios importantes por su posición en la
-    red de espacios libres. Además del mantenimiento/mejora/recuperación, se contemplan
-    actuaciones de REHABILITACIÓN Y/O ADAPTACIÓN (manteniendo el espíritu original).
+Artículo 5. Clasificación. Categorías.
+Los elementos que constituyen el patrimonio natural se clasifican, de acuerdo con su tipología, en varios grupos:
+1. Árboles aislados:
+Son ejemplares que presentan valores especiales, bien por su singularidad, rareza o belleza, o bien por consideraciones históricas o culturales. Se incluye toda la parte aérea (tronco y copa), la parte subterránea (delimitada por la proyección ortogonal de la copa sobre el suelo, con una profundidad de 1,5 m.), así como la superficie de suelo que contiene dicha proyección.
+2. Parques y jardines:
+Son espacios abiertos, generalmente arbolados y con escasa pavimentación, que conforman la red de espacios verdes de la ciudad y deben preservarse como elementos naturales, considerados tanto por sus valores intrínsecos como por el valor de la presencia del sustrato suelo y de estructuras vegetales. Se incluye su configuración general, así como sus características básicas en cuanto a ajardinamiento y arbolado.
+3. Alineaciones arboladas:
+Son las alineaciones de arbolado de gran porte. Su función es la de conectar a los jardines y parques urbanos entre sí, y a éstos con los espacios “naturales” no urbanos y los situados en el entorno comarcal. Se incluye la estructura general de las alineaciones, considerada en cuanto a su capacidad para poder mantener vegetación arbórea y herbácea, así como el conjunto de elementos que la integran.
 
-Art. 9. Elementos protegidos en GRADO 1 — normas:
-  1. Árboles aislados: solo mantenimiento y recuperación de valores; se prohíbe ocupar
-     el espacio de proyección de la copa (pavimentos, aparcamiento, construcciones) y
-     nuevas plantaciones que compitan. Son: (1) Sequoia de Diputación; (2) Sequoia del
-     patio del INAP/antigua Escuela de Magisterio (protección complementaria MN-25, O.F.
-     926/1996); (3) Sophora de la Plaza de Recoletas.
-  2. Parques y jardines: se conserva el trazado; las actuaciones que afecten al carácter
-     exigen Plan Especial. Son: Jardines de la Taconera, Parque de la Media Luna (con
-     pérgolas, estanque central y arquerías), Jardín de la Diputación.
+Artículo 6. Actuaciones permitidas, autorizables y prohibidas
+En esta normativa se contemplan tres tipos de actuaciones: permitidas, autorizables y prohibidas.
+Las actuaciones permitidas obtendrán licencia, salvo que, excepcionalmente, reciban un informe técnico municipal desfavorable, justificado por su incompatibilidad con el régimen de protección señalado en este Catálogo.
+La concesión de licencia para las actuaciones autorizables dependerá, en cada caso, de que se consideren compatibles con la conservación de los valores del bien catalogado.
+No se concederá licencia a las actuaciones definidas como prohibidas en la normativa general o particular, por resultar incompatibles con la protección de los valores catalogados.
 
-Art. 10. Elementos protegidos en GRADO 2 — normas:
-  1. Árboles aislados (notables): se permite mantenimiento; autorizable la ocupación de
-     la proyección de la copa y nuevas plantaciones sin perjuicio; tala solo con informe
-     que acredite precariedad/riesgo. Son (14 ejemplares): tejo junto al monumento a
-     Navarro Villoslada (Hotel Tres Reyes); magnolio del patio de la Mancomunidad de
-     Aguas (Gral. Chinchilla 7); magnolio en Avda. de Zaragoza 11-13; fresno en Vuelta
-     del Castillo 5; cedro en C/ Serafín Olave 9; cedro en Antoniutti; dos cedros de
-     Aranzadi; castaño y tejo de Teresianas; tilo de Oscus.
-  2. Parques y jardines (resumen): conservar su carácter de espacios verdes y arbolados;
-     las talas se compensan con plantación de nº similar; no se permite que las
-     superficies pavimentadas pasen a predominar. Son: Ciudadela-Vuelta del Castillo,
-     Pza. de los Fueros, campus de la Universidad de Navarra, campus de la UPNA, Parque
-     de Antoniutti, Jardines de Larraina, Parque de Tejería, zonas ajardinadas de las
-     Murallas, Parque de Yamaguchi, Parque del Mundo, La Vaguada, Parque de la Biurdana,
-     El Bosquecillo, Parque Fluvial del Arga, Hospital de Navarra, jardín central de
-     Mendillorri.
-  3. Alineaciones arboladas: mantenimiento y mejora; autorizables apeos/cambios de
-     especie y talas justificadas por obras en subsuelo; no se reduce el tamaño de los
-     alcorques. Son ~30 calles y avenidas (Juan de Labrit, Pza. Toros, Pº de Sarasate,
-     Ciudadela, Taconera, Navas de Tolosa, San Ignacio, Roncesvalles, Carlos III, Baja
-     Navarra, Pza. Príncipe de Viana, Yanguas y Miranda, Pza. de la Cruz, San Fermín,
-     Conde Rodezno, Fuente del Hierro, Sancho el Fuerte, Pío XII, Barañáin, Bayona, Pza.
-     de Europa, Miluce, Medialuna, Galicia, Iturrama, Esquíroz, etc.).
+Artículo 7. Régimen general de protección.
+Todas las actuaciones que afecten a bienes catalogados respetarán sus valores y la integridad de sus elementos de interés.
+Queda prohibida toda actuación sobre el arbolado público a las personas o entidades que no cuenten con la debida autorización. Aquellas acciones que provoquen daños o atenten contra la seguridad, salubridad u ornato del arbolado se sancionarán de acuerdo con las Ordenanzas Municipales.
+Las actuaciones sobre bienes naturales catalogados, sean de dominio público o privado, que impliquen nuevas pavimentaciones o alteraciones del suelo, así como las que impliquen eliminar ejemplares arbóreos o modificar sustancialmente las condiciones del arbolado (podas importantes, actuaciones en el terreno de proyección de las copas, nuevas plantaciones, etc...), sólo podrán autorizarse excepcionalmente por causa justificada y contando con un informe técnico favorable de los servicios municipales competentes.
+En las actuaciones parciales en parques y jardines (incluidas la sustitución y nueva instalación de mobiliario urbano, cambios de pavimentación y sustitución de especies vegetales) que por su entidad puedan afectar al carácter de los mismos deberá tenerse en cuenta la relación con el conjunto y justificar su adecuación en el ámbito de cada uno de los parques o jardines.
+Se permitirán las labores de mantenimiento y conservación del patrimonio arbóreo o vegetal, que consistirán en:
+- control fitosanitario, en previsión o tratamiento de enfermedades.
+- cirugía de las partes secas de cada ejemplar.
+- aumento de las superficies de aireación, en los casos de debilidad.
 
-Art. 11. Instalaciones temporales: autorizables cerca de árboles/alineaciones o en
-parques si no afectan a su integridad, con licencia e informe favorable; el solicitante
-repara a su costa los daños.
-Art. 12. Edificios: en bienes de grado 1 (iniciativa no municipal) es preceptiva la
-consulta previa (memoria de protección + descripción de la intervención); aprobación
-vinculante.
-Art. 13. Elementos de interés no considerados: si aparecen, se protegen; obligación de
-comunicar hallazgos al Ayuntamiento.
-Art. 14. Planes especiales de protección: para parques y jardines; solo modifican el
-régimen de obras si se logra igual protección.
-Art. 15. Valoración de infracciones: conforme a las NORMAS GRANADA (UNESCO 1990), sin
-perjuicio de la LF 9/1996 de Espacios Naturales de Navarra.
+Artículo 8. Grados y criterios generales de protección.
+Para lograr la protección de los elementos singulares de mayor interés, se establecen dos categorías o grados de protección:
+1. Grado 1 de protección
+Se aplica a los ejemplares considerados de alto valor y a elementos y espacios con importante interés natural, histórico o de otro tipo.
+Las actuaciones sobre estos bienes se orientarán al mantenimiento o mejora de sus valores actuales y a la recuperación de sus características originales.
+2. Grado 2 de protección
+Se aplica a los ejemplares de interés y a los elementos y espacios de importancia por su posición en la red de espacios libres y naturales.
+Además del mantenimiento, mejora y recuperación se contemplan actuaciones de rehabilitación y/o adaptación de los elementos o espacios, manteniendo el espíritu original y de acuerdo con la función que se les asigna, desde el punto de vista urbano y de la red de espacios verdes.
+
+Artículo 9. Elementos protegidos en Grado 1. Normas de actuación.
+1. Árboles aislados
+Se incluyen aquellos ejemplares singulares que, por la singularidad de la especie, por su porte o por su valor intrínseco o cultural, deben conservarse en su total integridad, procurándose su mantenimiento y mejora por todos los medios de la técnica.
+Únicamente se permiten el mantenimiento y la recuperación de los valores originales, así como aquellas labores que supongan una mejora en las condiciones de vida del ejemplar. Se prohíbe la ocupación del espacio de proyección de su copa sobre el suelo por pavimentaciones, zonas de aparcamiento, construcciones o cualquier otra ocupación que pueda suponer daño real o potencial al ejemplar. También se prohíbe la ejecución de nuevas plantaciones en las proximidades del mismo, que puedan suponer competencia o alteración de la singularidad del ejemplar.
+Son:
+1.- Sequoia de Diputación.
+2.- Sequoia del patio del INAP (antigua Escuela de Magisterio). Protección complementaria: MN-25 (O.F.926/1996, de 6 de septiembre).
+3.- Sophora de la Plaza de Recoletas.
+2. Parques y jardines
+Se incluyen aquellos jardines con alto interés natural e histórico-artístico, que además son elementos claves en la trama urbana de la ciudad.
+Se mantendrá y conservará su trazado, entendido como las líneas maestras de su organización en el plano, incluida la delimitación actual de los parterres. Se podrán autorizar correcciones debidamente justificadas.
+Las actuaciones parciales de intervención en los parques y jardines catalogados con Grado 1 que pudieran afectar al carácter e integridad de los mismos deberán sujetarse a los criterios emanados de un Plan Especial de todo el ámbito, sin cuya aprobación sólo se autorizarán las actuaciones contempladas en este artículo y las tareas ordinarias de mantenimiento y mejora de las instalaciones existentes.
+Son:
+- Jardines de la Taconera: Se permiten instalaciones permanentes de juegos infantiles, con las limitaciones recogidas en este artículo sobre conservación del trazado. Se protegen todos los elementos recogidos en el apartado de patrimonio edificado de este Catálogo.
+- Parque de la Media Luna: Se permiten instalaciones permanentes de juegos infantiles, con las limitaciones recogidas en este artículo sobre conservación del trazado. Además de todos los elementos recogidos en el apartado de patrimonio edificado de este Catálogo, deberán conservarse las pérgolas, el estanque central y las arquerías.
+- Jardín de la Diputación.
+
+Artículo 10. Elementos protegidos en Grado 2
+1. Árboles aislados
+Se incluyen aquellos ejemplares notables que por sus valores naturales, su valor como hito urbano, su porte, o su valor intrínseco, deben preservarse.
+Se permite su mantenimiento, así como aquellas labores que supongan una mejora en las condiciones de vida del ejemplar. Podrán autorizarse la ocupación del espacio de proyección de la copa sobre el suelo por pavimentaciones, zonas de aparcamiento, construcciones, etc..., así como la ejecución de nuevas plantaciones en las proximidades del ejemplar, siempre que no supongan perjuicio para el mismo.
+Únicamente se podrá autorizar su tala en aquellos casos en que mediante un informe técnico queden establecidas sus condiciones de precariedad o riesgo a corto plazo.
+Son:
+4.- Tejo junto al monumento a Navarro Villoslada (Hotel Tres Reyes).
+5.- Magnolio en patio de la Mancomunidad de Aguas (General Chinchilla n 7).
+6.- Magnolio en Avda. de Zaragoza n 11-13.
+7.- Fresno en Vuelta del Castillo n 5.
+8.- Cedro en la calle Serafín Olave n 9.
+9.- Cedro en Antoniutti.
+10 y 11.- Cedros de Aranzadi (2 ejemplares).
+12 y 13.- Castaño y Tejo de Teresianas.
+14.- Tilo de Oscus
+2. Parques y jardines
+Se incluyen espacios generalmente abiertos, frecuentemente arbolados y con escasa pavimentación, que forman parte de la red de espacios libres naturales. Debe conservarse su función como espacios verdes, fundamentalmente en cuanto a la presencia del sustrato suelo y de la estructura vegetal fundamental.
+Se permitirán aquellas intervenciones ya contempladas con carácter general para los jardines protegidos con grado de protección 1.
+Deberán mantenerse en todo caso sus características básicas de espacios verdes y arbolados. Para ello se establecen las siguientes normas:
+-Para mantener la densidad actual de árboles en el ámbito de cada parque, las posibles talas deberán ir acompañadas por la plantación de un número similar de ejemplares. No se exigirá este requisito en el caso de talas motivadas por el mal estado de los ejemplares o el riesgo a corto plazo.
+-En los espacios en los que actualmente predominen las plantaciones vegetales, no se permitirá que como consecuencia de cambios en la urbanización las superficies pavimentadas pasen a ser predominantes.
+En los ámbitos del Hospital de Navarra y los campus de las dos universidades, se permitirá la construcción de los edificios permanentes que sean precisos para sus usos respectivos. Las condiciones de este artículo afectarán a los campus de las universidades sin perjuicio de lo que establecen sus instrumentos propios de planeamiento.
+Son:
+- Conjunto Ciudadela-Vuelta del Castillo.
+- Pza. Fueros.
+- Campus de la Universidad de Navarra
+- Campus de la Universidad Pública de Navarra.
+- Parque de Antoniutti.
+- Jardines de Larraina.
+- Parque de Tejería.
+- Zonas ajardinadas de las Murallas.
+- Parque de Yamaguchi.
+- Parque del Mundo.
+- La Vaguada.
+- Parque de la Biurdana.
+- El Bosquecillo.
+- Parque Fluvial del Arga.
+- Hospital de Navarra.
+- Jardín central de Mendillorri.
+3. Alineaciones arboladas
+Se incluyen alineaciones arboladas y vegetales que, además de mejorar la calidad del ambiente urbano, posibilitan la conexión natural entre los diferentes elementos de la red de espacios verdes.
+Se permiten las labores de mantenimiento y mejora de las plantaciones y siembras. Serán autorizables los apeos y cambios de especies, así como la tala de algunos de los elementos que las componen si se justifica su necesidad por obras en el subsuelo. No se permite la disminución del tamaño de los alcorques, ni aquellas acciones que supongan una merma en la posibilidad de desarrollo de las especies arbóreas de mediano y gran porte.
+Son:
+- C/ Juan de Labrit.
+- Pza. Toros.
+- Paseo de Sarasate.
+- C/ Ciudadela.
+- C/ Taconera.
+- C/ Navas de Tolosa.
+- Av. San Ignacio.
+- Av. Roncesvalles.
+- Av. Carlos III de Pza. del Castillo a Pza. Merindades.
+- Av. Baja Navarra.
+- Plaza Príncipe de Viana.
+- Yanguas y Miranda
+- Plaza de la Cruz.
+- C/ San Fermín.
+- Plaza Conde Rodezno y traseras del Monumento a los Caídos.
+- C/ Fuente del Hierro.
+- Av. Sancho el Fuerte.
+- Av. Pío XII.
+- Av. Barañáin.
+- Av. de Bayona.
+- Plaza de Europa.
+- Camino de Miluze.
+- C/ Medialuna.
+- Av. Galicia.
+- C/ Iturrama.
+- C/ Esquíroz.
+
+Artículo 11. Instalaciones temporales
+Podrán autorizarse instalaciones provisionales en las proximidades de árboles aislados o alineaciones, o en el ámbito de parques y jardines, cuando no afecten negativamente a su integridad ni comprometan su mantenimiento, y se cumplan las siguientes condiciones:
+- Se solicitará licencia previamente, adjuntando a la solicitud información detallada sobre la instalación que, si afectan a árboles aislados, incluirá fotografías recientes de los mismos. Para la concesión de la licencia será preciso un informe favorable que se refiera específicamente a la repercusión de la instalación en los elementos catalogados.
+- La reparación del deterioro que pueda producirse en el elemento catalogado como consecuencia de la instalación será responsabilidad del solicitante, que deberá realizar a su costa las obras precisas en el plazo que el Ayuntamiento fije para ello. Si el solicitante no cumpliera esta obligación, el Ayuntamiento ejecutará dichas obras, pasando al obligado el cargo correspondiente, sin perjuicio de la instrucción del correspondiente expediente sancionador, en su caso.
+
+Artículo 12. Edificios
+1.- En la tramitación de expedientes de obras de iniciativa no municipal que afecten a bienes incluidos en el grado 1 será preceptiva una consulta previa en la que el promotor presente:
+- Una memoria de protección que contendrá un análisis y descripción pormenorizada escrita, gráfica y fotográfica del objeto catalogado, cuya extensión y detalle será proporcional a las características y alcance de la intervención propuesta
+- La documentación necesaria para describir la intervención propuesta, con una descripción gráfica y escrita de las modificaciones previstas y su justificación.
+2.- Para continuar el trámite de obtención de la licencia de obras, la consulta previa deberá obtener la aprobación del órgano municipal competente. Las condiciones que pudieran establecerse en esa aprobación serán vinculantes y deberán cumplirse para poder obtener la licencia.
+3.- Una vez aprobada la consulta previa se podrá solicitar la licencia, siguiendo el trámite general.
+
+Artículo 13. Elementos de interés no considerados en el Catálogo
+1.- Si durante el proceso de concesión de una licencia de obras la administración municipal tuviera conocimiento de la existencia de algún elemento natural de interés digno de protección, se podrán incluir en la licencia condiciones para garantizar su conservación.
+2.- Si durante la ejecución de una obra se apreciase la existencia de algún elemento que pueda ser considerado de interés dentro del patrimonio natural, y de cuya existencia no hubiera constancia en la documentación presentada para la concesión de la licencia, será responsabilidad del titular de la licencia tomar las medidas precisas para evitar cualquier daño a dicho elemento, y poner inmediatamente el hallazgo en conocimiento del Ayuntamiento, adjuntando documentación fotográfica al respecto. Cumplido este trámite, el Ayuntamiento se pronunciará sobre la exigencia o no de conservación de dicho elemento, y, en su caso, sobre las condiciones para la misma. Si como consecuencia de este pronunciamiento fueran precisos cambios en las obras amparadas por la licencia concedida, deberá solicitarse la correspondiente modificación de la misma.
+3.- El apartado anterior se aplicará a todos los elementos de interés que puedan aparecer, tanto en obras que afecten a bienes relacionados en este Catálogo como en cualquier otra obra.
+
+Artículo 14. Planes especiales de protección
+Los planes especiales que desarrollen el Plan Municipal en materia de protección del patrimonio y que afecten a parques y jardines se justifican por la necesidad de aplicar soluciones particulares a casos complejos.
+Sólo podrán modificar el régimen de autorización de obras cuando se justifique que es posible conseguir la protección y puesta en valor del edificio o elemento, con otro régimen distinto del recogido en este Catálogo.
+
+Artículo 15. Valoración de las infracciones en el patrimonio natural protegido
+Las valoraciones que se realicen como consecuencia de las infracciones cometidas contra los bienes del patrimonio natural protegido se valorarán conforme a las determinaciones fijadas por las Normas Granada -UNESCO 1990-, sin perjuicio de la que proceda aplicar en el caso de patrimonio natural protegido por la legislación autonómica (L.F. 9/1.996 de Espacios Naturales de Navarra y disposiciones que la desarrollan).
 
 ================================================================================
 PARTE E — DATOS CLAVE PARA TEST
@@ -475,6 +735,10 @@ PARTE E — DATOS CLAVE PARA TEST
 - PATRIMONIO EDIFICADO — 4 categorías de bienes (art. 5): zonas arqueológicas (Áreas A y
   B), recintos (R1-R5), edificios (488; grados 1/2/3), elementos (EVE 114 / ENVE 54).
   552 fichas.
+- Elementos (art. 32, redacción de 2025): EVE = escudos de armas y varios; ENVE =
+  puentes, cruceros, fuentes, monumentos, mobiliario urbano, askas/abrevaderos,
+  pabellones, panteones/cementerio y elementos de la urbanización (nuevo epígrafe 9,
+  con la barandilla Media Luna de Víctor Eusa).
 - Grados de edificios (art. 20): G1 emblemáticos, protección global, hito urbano; G2
   valores notables, permanencia asegurada, más margen de obra; G3 el resto, normalmente
   solo fachada. Régimen: G1 prohíbe vaciado, reestructuración total y ampliación en
@@ -510,7 +774,17 @@ FUENTES (verificación 18/06/2026)
 - "CATÁLOGO 1" del Plan Municipal de Pamplona (Texto Refundido, Acuerdo C.O.T.
   18/12/2002), Gerencia de Urbanismo (pamplona.es): Memoria y Normativa General del
   patrimonio edificado (Caps. 1-6, arts. 1-49) y Memoria y Normativa del patrimonio
-  natural (arts. 1-15), reproducidos literalmente.
+  natural (arts. 1-15), reproducidas literalmente con pdftotext.
+- Modificación puntual del Plan Municipal de Pamplona de determinaciones
+  pormenorizadas-Catálogo (documento de junio de 2025, «2. Normativa modificada»):
+  aprobación inicial por el Pleno el 06-03-2025 (BON n.º 67, de 03-04-2025) y
+  definitiva el 03-07-2025, BON n.º 155, de 05-08-2025: arts. 32 y 36.
+- Modificaciones de 2015-2016 (Taconera 2, BON n.º 86, de 06-05-2015; Estafeta 1,
+  BON n.º 233, de 20-11-2015; correcciones de errores en el BON n.º 34, de
+  19-02-2016): solo fichas de elementos de interés, sin tocar el articulado.
+- Modificaciones de fichas de 2025: Monumento a los Caídos (BON n.º 208 de 2025) y
+  estatuas de los Reyes de Navarra (BON n.º 239, de 28-11-2025); sus documentos dicen
+  que no requieren modificar ningún artículo de la normativa del catálogo.
 - Marco legal citado por el propio Catálogo: Ley 16/1985 LPHE; LF 10/1994 LFOTU; DF
   85/1995; LF 9/1996 de Espacios Naturales de Navarra; O.F. 926/1996 (MN-25 Sequoia).
 - Vigencia: LF 10/1994 y DF 85/1995 derogados; marco urbanístico vigente TRLFOTU-2017
