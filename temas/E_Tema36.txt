@@ -232,11 +232,12 @@ BLOQUE 3 — ORDENANZA MUNICIPAL DE PAMPLONA REGULADORA DE LAS LICENCIAS
 URBANÍSTICAS DE OBRAS MENORES
 ================================================================================
 TIPO DE DOCUMENTO: Ordenanza municipal (norma reglamentaria local).
-APROBACIÓN INICIAL: Pleno; BON nº 36, de 23/03/2007.
+APROBACIÓN INICIAL: Pleno de 15/03/2007; BON nº 36, de 23/03/2007.
 APROBACIÓN DEFINITIVA: BON nº 64, de 23/05/2007.
 ENTRADA EN VIGOR: 1 de junio de 2007.
-ESTADO: VIGENTE (verificado 17/06/2026; la sede electrónica de Pamplona la sigue
-       citando como normativa aplicable en sus trámites de obras menores).
+ESTADO: VIGENTE (verificado en octubre de 2026; sin modificaciones publicadas
+       hasta el 21/05/2026; la sede electrónica de Pamplona la sigue citando como
+       normativa aplicable en sus trámites de obras menores).
 ESTRUCTURA: Título Preliminar (arts. 1-2) + Título I "Obras menores simples
        sujetas al régimen de comunicación" (arts. 3-5) + Título II "Obras menores
        sujetas al régimen de tramitación de licencia por procedimiento abreviado"
@@ -249,351 +250,202 @@ ESTRUCTURA: Título Preliminar (arts. 1-2) + Título I "Obras menores simples
     actualizadas a la Ley 39/2015.
 
 --------------------------------------------------------------------------------
-TEXTO LITERAL VIGENTE
+TEXTO LITERAL VIGENTE (BON)
 --------------------------------------------------------------------------------
-EXPOSICIÓN DE MOTIVOS (síntesis del propio texto, conservada por su valor
-interpretativo): la licencia urbanística es una autorización municipal de
-carácter reglado que, sin perjuicio de tercero, permite la ejecución de obras y
-la implantación de usos previstos por los instrumentos urbanísticos. Es
-tradicional la distinción entre obras mayores y menores; estas últimas se
-caracterizan por su sencillez técnica y escasa entidad constructiva y económica.
-La ordenanza diferencia dos vías para las obras menores: un "Régimen de
-Comunicación" para las de extrema sencillez (Título I) y un "Régimen de
-Tramitación Abreviado" (licencia en plazo no superior a 1 mes) para el resto
-(Título II). Se excluyen expresamente las obras en edificios o elementos
-protegidos, fuera de ordenación, o que excedan de obra menor. Deroga los
-artículos de la Ordenanza de Procedimiento Urbanístico que regulaban el
-procedimiento abreviado.
+[Texto literal publicado en el BON n.º 64, de 23-05-2007 (aprobación definitiva; código del anuncio L0707447). Aprobación inicial: Pleno de 15-03-2007, BON n.º 36, de 23-03-2007. Sin modificaciones publicadas hasta el 21-05-2026. El BON marca las enumeraciones con un guion bajo; aquí van con guion. Cita normas hoy derogadas (Ley 30/1992): ver el aviso de desfase.]
 
-TÍTULO PRELIMINAR
+ORDENANZA MUNICIPAL REGULADORA DE LAS LICENCIAS URBANISTICAS DE OBRAS MENORES
+
+EXPOSICION DE MOTIVOS
+La intervención en el ámbito urbanístico de la Administración municipal en la actividad de los particulares supone la previa verificación de su adecuación a la ordenación urbanística y normativa sectorial vigente en la materia y la consiguiente concesión de licencia.
+La licencia urbanística es una autorización municipal de carácter reglado que, sin perjuicio de tercero, permite la ejecución de obras y la implantación de usos que los instrumentos urbanísticos hayan previsto.
+Esta técnica de intervención administrativa se basa en el control de los actos de edificación y otros usos del suelo, para garantizar su adecuación y sometimiento a la legalidad y al planeamiento urbanístico.
+En el ámbito urbanístico es tradicional la distinción entre las denominadas obras mayores y menores, cuyos contornos ha dibujado la jurisprudencia utilizando conceptos genéricos. En este sentido, se han venido definiendo como menores aquellas obras que se caracterizan por su sencillez técnica y escasa entidad constructiva y económica.
+En el caso de obras menores el Ayuntamiento de Pamplona en su Ordenanza de Procedimiento tiene establecido un procedimiento de tramite abreviado para su otorgamiento, en el que los plazos para la expedición de la licencia se reducen a 1 mes.
+El análisis continuado de los procedimientos administrativos que se siguen ante la administración urbanística municipal en orden a la concesión de una licencia para estas obras, calificadas como menores, pone de manifiesto que es posible establecer una diferenciación en las mismas, ya que hay algunas que por su sencillez especial y simplicidad no requieren mayores comprobaciones previas ni ulteriores actuaciones administrativas, y otras que, pese a ser sencillas, requieren, no obstante, una comprobación previa y la adopción de algunas cautelas (imposición de condiciones u otras) que aconsejan tramitar su otorgamiento de forma expresa.
+En este sentido, la presente Ordenanza pretende diferenciar las obras menores e instaurar una línea de simplificación y reducción de los trámites para aquellas de extrema sencillez en orden a agilizar los procedimientos, disminuir las comprobaciones y los controles apriorísticos innecesarios. Para ello, se prevé, junto con el procedimiento abreviado, ya establecido desde hace muchos años, implantar un nuevo procedimiento especial denominado "Régimen de Comunicación" para esas obras de extrema sencillez y simplicidad que son las que se identifican en el articulado del Título I de la Ordenanza, quedando sujetas al "Régimen de Tramitación Abreviado" las obras menores recogidas en el Titulo II de la Ordenanza
+Con esta regulación que se favorece la agilización en la tramitación de licencias para obras menores, ya que todas las obras que se tramiten como actuaciones comunicadas se resuelven en el acto, al presentar la solicitud con la documentación completa.
+Se han excluido expresamente de la tramitación como obras menores, tanto en el Régimen de Comunicación como en el de tramitación abreviada, aquellas obras que por sus características específicas requieren un mayor análisis tales como actuaciones en edificios o elementos protegidos, declarados fuera de ordenación o cuyas obras excedan de la consideración de obra menor.
+Si bien el Régimen de Tramitación Abreviado ya venía recogido en diversos artículos a lo largo de la Ordenanza de Procedimiento Urbanístico, se ha considerado preferible recoger en una única Ordenanza toda la regulación de las obras menores y derogar los artículos de la Ordenanza de Procedimiento Urbanístico que regulaban hasta ahora el procedimiento abreviado.
+Así mismo se ha establecido una disposición transitoria para regular los procedimientos que se encuentren en tramitación en el momento de la entrada en vigor de la nueva Ordenanza.
+
+TITULO PRELIMINAR
 
 Artículo 1.º Objeto.
-Es objeto de la presente Ordenanza la regulación del procedimiento de concesión
-de las licencias urbanísticas para obras menores, cuya tramitación responde a
-procedimientos simplificados de régimen de comunicación y régimen abreviado.
+Es objeto de la presente Ordenanza la regulación del procedimiento de concesión de las licencias urbanísticas para obras menores, cuya tramitación responde a procedimientos simplificados de régimen de comunicación y régimen abreviado.
 
-Artículo 2.º Ámbito material.
-La obra menor, como categoría diferenciable de la obra mayor, se caracteriza por
-ser de sencillez técnica y escasa entidad constructiva y económica, consistiendo
-normalmente en pequeñas obras de simple reparación, decoración, ornato o
-cerramiento, que no precisan de proyecto técnico, ni de presupuestos elevados;
-circunstancias cuya conjunta concurrencia definen el concepto de obra menor.
-En ningún caso suponen alteración de volumen o superficie construida, del uso
-objetivo, reestructuración, redistribución o modificación sustancial de elementos
-estructurales o comunes de un inmueble, modificación sustancial de su diseño
-exterior, alteración del número de viviendas; tampoco afectan a la estructura
-(pilares, vigas, etc.), ni a las condiciones de habitabilidad o seguridad en el
-edificio o instalación, sino que se presentan como obras interiores o exteriores
-de pequeña importancia.
+Artículo 2.º Ambito material.
+La obra menor, como categoría diferenciable de la obra mayor, se caracteriza por ser de sencillez técnica y escasa entidad constructiva y económica, consistiendo normalmente en pequeñas obras de simple reparación, decoración, ornato o cerramiento, que no precisan de proyecto técnico, ni de presupuestos elevados; circunstancias cuya conjunta concurrencia definen el concepto de obra menor.
+En ningún caso suponen alteración de volumen o superficie construida, del uso objetivo, reestructuración, redistribución o modificación sustancial de elementos estructurales o comunes de un inmueble, modificación sustancial de su diseño exterior, alteración del número de viviendas; tampoco afectan a la estructura (pilares, vigas, etc.), ni a las condiciones de habitabilidad o seguridad en el edificio o instalación, sino que se presentan como obras interiores o exteriores de pequeña importancia.
 Están excluidas de este concepto:
-- Las obras recogidas en el artículo 2.2 de la Ley 38/1999, de 5 de noviembre, de
-  Ordenación de la Edificación, o en la legislación que la sustituya, por tratarse
-  de obras mayores de edificación que requieren proyecto técnico.
-- Obras en edificios que no se ajusten a la ordenación prevista en el planeamiento
-  urbanístico.
-- Obras que afecten a la estructura portante de los edificios, incluida la afección
-  a escaleras y la construcción de entreplantas, o a los elementos comunes de los
-  mismos (salvo las obras en fachadas, cubiertas e instalaciones mencionadas en
-  esta ordenanza).
-- Obras que supongan la implantación de una actividad en un local no utilizado
-  anteriormente o la implantación de una actividad sustancialmente diferente a la
-  autorizada.
-- Obras que supongan la implantación de actividades clasificadas o la modificación
-  sustancial de las mismas.
+- Las obras recogidas en el artículo 2.2 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación, o en la legislación que la sustituya, por tratarse de obras mayores de edificación que requieren proyecto técnico.
+- Obras en edificios que no se ajusten a la ordenación prevista en el planeamiento urbanístico.
+- Obras que afecten a la estructura portante de los edificios, incluida la afección a escaleras y la construcción de entreplantas, o a los elementos comunes de los mismos (salvo las obras en fachadas, cubiertas e instalaciones mencionadas en esta ordenanza).
+- Obras que supongan la implantación de una actividad en un local no utilizado anteriormente o la implantación de una actividad sustancialmente diferente a la autorizada.
+- Obras que supongan la implantación de actividades clasificadas o la modificación sustancial de las mismas.
 
-TÍTULO PRIMERO: OBRAS MENORES SIMPLES SUJETAS AL RÉGIMEN DE COMUNICACIÓN
+TITULO PRIMERO
+Obras menores simples sujetas al régimen de comunicación
 
 Artículo 3.º Tipología.
-Se consideran obras menores simples, objeto de tramitación simplificada como
-actuaciones comunicadas, las siguientes:
-1. Obras interiores en viviendas, siempre que no afecten al cumplimiento de las
-condiciones de habitabilidad, que no supongan cambio de uso o del número de
-viviendas y que no afecten a elementos comunes del edificio, tales como:
-   - Reforma, reparación, renovación o modificación de revestimientos.
-   - Cambio o sustitución de carpintería interior.
-   - Cambio o sustitución de aparatos sanitarios.
-   - Reparación, renovación o modificación de las instalaciones o infraestructuras.
-2. Obras en fachadas y cubiertas, salvo edificios situados en Casco Antiguo y
-siempre que se mantengan los materiales, colores y diseño existentes:
-   - Reparación de cubiertas y retejado.
-   - Limpieza y sustitución de bajantes.
-   - Pintura de fachadas, reparación de paramentos, reparación y sustitución de
-     elementos de fachada (barandillas, molduras y similares).
-   - Sustitución de carpintería exterior.
-En ningún caso podrán tramitarse como actuaciones comunicadas las obras que exijan
-la colocación de andamios, la ocupación de la vía pública por cualquier medio
-(salvo contenedores cuya autorización se remite a la Ordenanza de Contenedores) o
-el uso de procedimientos de trabajos temporales en altura o vehículos grúa.
-Tampoco podrán tramitarse como actuaciones comunicadas las obras en edificios o
-elementos catalogados.
+Se consideran obras menores simples, objeto de tramitación simplificada como actuaciones comunicadas, las siguientes:
+1. Obras interiores en viviendas, siempre que no afecten al cumplimiento de las condiciones de habitabilidad, que no supongan cambio de uso o del número de viviendas y que no afecten a elementos comunes del edificio, tales como:
+- Reforma, reparación, renovación o modificación de revestimientos.
+- Cambio o sustitución de carpintería interior.
+- Cambio o sustitución de aparatos sanitarios.
+- Reparación, renovación o modificación de las instalaciones o infraestructuras.
+2. Obras en fachadas y cubiertas, salvo edificios situados en Casco Antiguo y siempre que se mantengan los materiales, colores y diseño existentes:
+- Reparación de cubiertas y retejado.
+- Limpieza y sustitución de bajantes.
+- Pintura de fachadas, reparación de paramentos, reparación y sustitución de elementos de fachada (barandillas, molduras y similares).
+- Sustitución de carpintería exterior.
+En ningún caso podrán tramitarse como actuaciones comunicadas las obras que exijan la colocación de andamios, la ocupación de la vía pública por cualquier medio (salvo contenedores cuya autorización se remite a lo establecido en la Ordenanza de Contenedores) o el uso de procedimientos de trabajos temporales en altura o vehículos grúa. Tampoco podrán tramitarse como actuaciones comunicadas las obras en edificios o elementos catalogados.
 
 Artículo 4.º Requisitos documentales y técnicos.
-4.1. Con carácter general, para todos los supuestos, deberán presentar en el
-Registro del Área de Urbanismo y Vivienda:
-1. Instancia en impreso normalizado por el Ayuntamiento para obras de actuaciones
-   comunicadas con los datos personales de identificación y dirección a efectos de
-   notificaciones, en la que deberán hacer constar necesariamente la ubicación de
-   la obra a realizar (dirección de la misma). La instancia deberá reflejar que ha
-   sido revisada previamente por el personal encargado de tramitar el enterado de
-   las actuaciones comunicadas.
-2. Acreditación de representación, en su caso, tanto a título particular, legal o
-   profesional.
+4.1. Con carácter general, para todos los supuestos, deberán presentar en el Registro del Area de Urbanismo y Vivienda.
+1. Instancia impreso normalizado por el Ayuntamiento para obras de actuaciones comunicadas con los datos personales de identificación y dirección a efectos de notificaciones, en la que deberán hacer constar necesariamente la ubicación de la obra a realizar (dirección de la misma). La instancia deberá reflejar que ha sido revisada previamente por el personal encargado de tramitar el enterado de las actuaciones comunicadas.
+2. Acreditación de representación, en su caso, tanto a título particular, legal o profesional.
 3. Memoria descriptiva de los trabajos.
 4. Presupuesto detallado por partidas, incluyendo materiales y mano de obra.
-4.2. Documentación específica en función del tipo de obras a realizar: en el caso
-de actuaciones en fachadas y/o cubiertas de edificios deberán presentar
-fotografías de los elementos sobre los que se vaya a actuar.
-4.3. Autoliquidación de tributos, según modelo normalizado con justificación de su
-pago.
+4.2. Documentación específica en función del tipo de obras a realizar: En el caso de actuaciones en fachadas y/o cubiertas de edificios deberán presentar fotografías de los elementos sobre los que se vaya a actuar.
+4.3. Autoliquidación de tributos, según modelo normalizado con justificación de su pago.
 
 Artículo 5.º Procedimiento especial de actuaciones comunicadas.
-1. La comunicación deberá efectuarse en el impreso normalizado por la
-Administración municipal y ser presentada en el Área de Urbanismo. Deberá
-presentarse convenientemente cumplimentado el citado impreso, en el que, además de
-los datos de identificación y domicilio del interesado y datos del inmueble, se
-acompañará la documentación específica de cada supuesto.
-2. La documentación presentada será analizada de inmediato por el personal
-municipal encargado de tramitar el enterado de las actuaciones comunicadas,
-pudiendo suceder que:
-   a) Del examen de la documentación resulta que está incompleta: se informará al
-   solicitante de la documentación que debe completar. El solicitante puede optar
-   por dejar en registro su solicitud y completar la documentación en los 10 días
-   hábiles siguientes o no entregar en registro la solicitud a fin de completarla
-   previamente. Si decide dejarla en el Registro sin completar, previamente a su
-   registro se le entregará un requerimiento de documentación para que la subsane
-   en el plazo de 10 días hábiles (a tenor del art. 71 de la Ley 30/1992 [hoy art.
-   68 Ley 39/2015]). Si transcurrido el plazo de subsanación no se hubiera
-   completado la solicitud, se archivarán las actuaciones sin más trámite.
-   b) Del examen se estima que la actuación no ha de regirse por el procedimiento
-   de actuaciones comunicadas: se notificará al interesado la necesidad de que
-   ajuste su actuación a las normas del tipo de licencia que corresponda,
-   facilitándole el modelo de impreso a utilizar.
-   c) Del examen se deduce que la documentación es correcta: se completará la
-   comunicación con una diligencia de "conforme", firmada por la persona encargada
-   de tramitar el enterado. Estas comunicaciones, junto con el justificante de pago
-   de la autoliquidación, se registrarán en el Registro del Área de Urbanismo,
-   estimándose concluso el procedimiento y archivándose sin más trámites.
-3. Cuando por causas excepcionales o extraordinarias la documentación no pueda ser
-analizada de inmediato, en el plazo máximo de 15 días hábiles se deberá comunicar
-al interesado las deficiencias existentes, o que las obras no se adecuan al
-procedimiento de actuaciones comunicadas. Si transcurrido el plazo de 15 días
-hábiles el interesado no hubiera recibido comunicación alguna, se entenderá que la
-actuación es conforme y el interesado podrá iniciar las obras.
+1. La comunicación deberá efectuarse en el impreso normalizado por la Administración municipal y ser presentada en el Area de Urbanismo.
+Deberá presentarse convenientemente cumplimentado el citado impreso, en el que, además de los datos de identificación y domicilio del interesado y datos del inmueble, se acompañará la documentación específica de cada supuesto.
+2. La documentación presentada será analizada de inmediato por el personal municipal encargado de tramitar el enterado de las actuaciones comunicadas, pudiendo suceder que:
+a) Del examen de la documentación resulta que está incompleta: En este caso se informará al solicitante de la documentación que debe completar. El solicitante puede optar por dejar en registro su solicitud y completar la documentación en los 10 días hábiles siguientes o no entregar en registro la solicitud a fin de completarla previamente. En el caso de que el solicitante decida dejar su solicitud en el Registro del Area de Urbanismo y Vivienda sin completar la documentación, previamente a su registro se le entregará un requerimiento de documentación para que la subsane en el plazo de 10 días hábiles, a tenor de lo dispuesto en el artículo 71 de la Ley 30 de 1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común. Al presentar la documentación requerida será revisada previamente por el personal encargado de tramitar el enterado y cuando la documentación sea correcta se diligenciará el conforme tal y como se indica que el apartado c del presente artículo. Si transcurrido el plazo de subsanación de documentación no se hubiera completado la solicitud, se archivarán las actuaciones sin más trámite.
+b) Del examen de la documentación se estima que la actuación no ha de regirse por el procedimiento de actuaciones comunicadas. En este caso se notificará al interesado la necesidad de que ajuste su actuación a las normas establecidas para el tipo de licencias de que se trate, facilitándole el modelo de impreso a utilizar en función del tipo de obras que se pretenda realizar.
+c) Del examen de la documentación se deduce que la misma es correcta: En este caso se completará la comunicación con una diligencia de «conforme», firmada por la persona encargada de tramitar el enterado de las actuaciones comunicadas que haya revisado la documentación. Estas comunicaciones, junto con el justificante de pago de la autoliquidación de tributos, serán registradas en el Registro del Area de Urbanismo estimándose concluso el procedimiento y archivándose sin más trámites la comunicación.
+3. Cuando por causas excepcionales o extraordinarias la documentación no pueda ser analizada de inmediato por personal municipal encargado de tramitar el enterado de las actuaciones comunicadas, en el plazo máximo de 15 días hábiles se deberá comunicar al interesado las deficiencias que existan en la documentación, o que las obras a realizar no se adecuan al procedimiento de actuaciones comunicadas. Si transcurrido el plazo de 15 días hábiles el interesado no hubiera recibido comunicación alguna, se entenderá que la actuación es conforme y el interesado podrá iniciar las obras.
 
-TÍTULO SEGUNDO: OBRAS MENORES SUJETAS AL RÉGIMEN DE TRAMITACIÓN DE LICENCIA POR
-PROCEDIMIENTO ABREVIADO
+TITULO SEGUNDO
+Obras menores sujetas al régimen de tramitación de licencia por procedimiento abreviado
 
 Artículo 6.º Tipología.
-Se consideran obras menores simples, objeto de tramitación simplificada por
-procedimiento abreviado, las siguientes:
+Se consideran obras menores simples, objeto de tramitación simplificada por procedimiento abreviado, las siguientes:
 1. Obras interiores en viviendas:
-   1.1. Obras de albañilería y tabiquería que superen los supuestos de actuaciones
-        comunicadas y no supongan modificación de uso ni cambios sustanciales en la
-        distribución de la vivienda, ni afecten al cumplimiento de las condiciones
-        de habitabilidad.
-   1.2. Nueva implantación de instalaciones o infraestructuras en viviendas.
+1.1. Obras de albañilería y tabiquería que superen los supuestos de actuaciones comunicadas y no supongan modificación de uso ni cambios sustanciales en la distribución de la vivienda, ni afecten al cumplimiento de las condiciones de habitabilidad.
+1.2. Nueva implantación de instalaciones o infraestructuras en viviendas.
 2. Obras en locales:
-   - Reformas de fachadas.
-   - Reforma, reparación, renovación o modificación de revestimientos.
-   - Reparación, renovación, modificación o implantación de instalaciones o
-     infraestructuras.
+- Reformas de fachadas.
+- Reforma, reparación, renovación o modificación de revestimientos.
+- Reparación, renovación, modificación o implantación de instalaciones o infraestructuras.
 3. Obras en fachadas y cubiertas:
-   - Cerramientos de balcones y colocación de toldos en plantas elevadas, previa
-     aprobación municipal de modelo común para la comunidad de propietarios a
-     solicitud de la misma.
-   - Colocación de toldos en locales.
-   - Colocación de rótulos en fachadas de locales y edificios.
-   - Apertura de huecos en planta baja de locales con licencia de apertura, siempre
-     que no supongan modificación de la configuración general de la fachada.
-   - Obras en fachadas y cubiertas que no puedan ser actuaciones comunicadas bien
-     por modificar los materiales, colores y diseño o bien por tratarse de edificios
-     del Casco Antiguo, así como rehabilitaciones integrales de fachadas. En estos
-     supuestos la actuación deberá mantener un diseño unitario para el conjunto de
-     la fachada o cubierta del edificio.
+- Cerramientos de balcones y colocación de toldos en plantas elevadas, previa aprobación municipal de modelo común para la comunidad de propietarios a solicitud de la misma.
+- Colocación de toldos en locales.
+- Colocación de rótulos en fachadas de locales y edificios.
+- Apertura de huecos en planta baja de locales con licencia de apertura, siempre que no supongan modificación de la configuración general de la fachada.
+- Obras en fachadas y cubiertas que no puedan ser actuaciones comunicadas bien por modificar los materiales, colores y diseño o bien por tratarse de edificios del Casco Antiguo, así como rehabilitaciones integrales de fachadas. En estos supuestos la actuación deberá mantener un diseño unitario para el conjunto de la fachada o cubierta del edificio.
 4. Obras en instalaciones o infraestructuras comunes de edificios:
-   - Reparaciones, sustituciones parciales o renovaciones completas.
-   - Implantación de nuevas instalaciones o infraestructuras.
-5. Otras actuaciones:
-   - Apertura de catas o derribos puntuales previos a la redacción de un proyecto
-     de reforma de viviendas o locales, siempre que se justifique su necesidad.
-   - Pequeñas reformas en zonas ajardinadas.
-   - Obras menores de características análogas a las señaladas en el presente
-     artículo.
-6. Obras que pudiendo ser objeto de tramitación como actuaciones comunicadas, no
-   se haya seguido el procedimiento establecido en el art. 5.º (presentación en el
-   Registro del Área de Urbanismo previa revisión por el personal encargado del
-   enterado de las actuaciones comunicadas).
-No podrán tramitarse por procedimiento abreviado obras en edificios y elementos
-catalogados con grados de protección 1 y 2.
-En edificios y elementos protegidos con grado 3 se seguirá el procedimiento
-abreviado tanto para los tipos de obras de este artículo como para los del artículo
-de actuaciones comunicadas, siempre que no afecten a elementos de interés reseñados
-en el catálogo; igualmente se seguirá el procedimiento abreviado en obras de
-restauración, reparación y mantenimiento de dichos elementos.
+- Reparaciones, sustituciones parciales o renovaciones completas.
+- Implantación de nuevas instalaciones o infraestructuras.
+5. Otras actuaciones.
+- Apertura de catas o derribos puntuales previos a la redacción de un proyecto de reforma de viviendas o locales, siempre que se justifique su necesidad.
+- Pequeñas reformas en zonas ajardinadas.
+- Obras menores de características análogas a las señaladas en el presente artículo.
+6. Obras que pudiendo ser objeto de tramitación como actuaciones comunicadas, no se haya seguido el procedimiento establecido en el artículo 5.º, en lo relativo a su presentación en el Registro del Area de Urbanismo, previa revisión por el personal municipal encargado de tramitar el enterado de las actuaciones comunicadas.
+No podrán tramitarse por procedimiento abreviado obras en edificios y elementos catalogados con grados de protección 1 y 2.
+En edificios y elementos protegidos con grado 3 se seguirá el procedimiento abreviado tanto para los tipos de obras incluidos los supuestos de este artículo como para los incluidos en el articulo de actuaciones comunicadas, siempre que no afecten a elementos de interés reseñados en el catálogo; igualmente se seguirá el procedimiento abreviado cuando se trate de obras de restauración, reparación y mantenimiento de dichos elementos.
 
 Artículo 7.º Requisitos documentales y técnicos.
 7.1. Con carácter general, para todos los supuestos, deberán presentar:
-1. Instancia en impreso normalizado por el Ayuntamiento para licencias de obras
-   sujetas al procedimiento abreviado, con datos de identificación y dirección a
-   efectos de notificaciones, haciendo constar la situación de la obra.
-2. Acreditación de representación, en su caso.
+1. Instancia impreso normalizado por el Ayuntamiento para licencias de obras sujetas al procedimiento abreviado con los datos personales de identificación y dirección a efectos de notificaciones, en la que deberán hacer constar necesariamente la situación de la obra a realizar (dirección de la misma),
+2. Acreditación de representación, en su caso, tanto a título particular, legal o profesional.
 3. Memoria descriptiva de los trabajos.
 4. Presupuesto detallado por partidas, incluyendo materiales y mano de obra.
-5. Justificante de la contratación de técnico competente para la dirección de las
-   obras, en los casos en que afecten puntualmente a elementos estructurales
-   menores (aleros, losas de balcones, correas de cubierta o similares) o a
-   elementos de interés en edificios catalogados.
-7.2. Documentación específica según el tipo de obras:
-1. Obras en viviendas:
-   1.1. Interiores (albañilería y tabiquería): planos de estado actual y reformado;
-        justificante de contratación de técnico competente para la dirección en
-        obras en viviendas del Casco Antiguo que incluyan derribos de tabiquería o
-        cambios de distribución que afecten a cocinas, baños o aseos.
-   1.2. Interiores (nueva implantación de infraestructuras/instalaciones): plano de
-        la vivienda con las instalaciones que se implantan.
+5. Justificante de la contratación de técnico competente para la dirección de las obras, en los casos en que las obras afecten puntualmente a elementos estructurales menores (como aleros, losas de balcones, correas de cubierta o similares), o a elementos de interés en edificios catalogados.
+7.2. Documentación específica en función del tipo de obras a realizar:
+1. Obras en viviendas.
+1.1. Obras interiores en viviendas (albañilería y tabiquería):
+- Planos de estado actual y reformado.
+- Justificante de la contratación de técnico competente para la dirección de las obras, en los casos de obras en viviendas del Casco Antiguo que incluyan derribos de tabiquería o cambios de distribución que afecten a cocinas, baños o aseos.
+1.2. Obras interiores en viviendas (nueva implantación de infraestructuras o instalaciones):
+- Plano de la vivienda con las instalaciones que se implantan
 2. Obras en locales:
-   2.1. Reforma de fachadas: planos de estado actual y reformado; fotografías del
-        estado actual.
-   2.2. Revestimientos: planos de estado actual y reformado.
-   2.3. Instalaciones o infraestructuras: planos de estado actual y reformado.
-3. Obras en fachadas y cubiertas:
-   3.1. Cierre de balcones: justificante de la aprobación municipal del modelo de
-        cierre o referencia de la fecha de aprobación.
-   3.2. Toldos y rótulos: documentación que defina el diseño (planos, fotografías);
-        fotografía y/o croquis de fachada que defina su ubicación.
-   3.3. Apertura de huecos de fachada en planta baja: planos de estado actual y
-        reformado.
-   3.4. Fachadas y cubiertas (en general): planos de estado actual y reformado;
-        fotografías de la fachada; justificación gráfica y/o escrita de que las
-        obras mantienen el diseño del conjunto.
+2.1. Obras de reforma de fachadas.
+- Planos de estado actual y reformado.
+- Fotografías del estado actual de la fachada.
+2.2. Reforma, reparación, renovación o modificación de revestimientos.
+- Planos de estado actual y reformado.
+2.3. Reparación, renovación, modificación o implantación de instalaciones o infraestructuras.
+- Planos de estado actual y reformado.
+3. Obras en fachadas y cubiertas.
+3.1. Cierre de balcones.
+- Justificante de la aprobación municipal del modelo de cierre de balcón o referencia de la fecha en que se aprobó.
+3.2. Colocación de toldos y rótulos.
+- Documentación que defina el diseño de los mismos (planos, fotografías).
+- Fotografía y/o croquis de fachada que defina su ubicación.
+3.3. Apertura de huecos de fachada en planta baja:
+- Planos de estado actual y reformado.
+3.4. Obras en fachadas y cubiertas (en general):
+- Planos de estado actual y reformado.
+- Fotografías de la fachada.
+- Justificación gráfica y/o escrita de que las obras mantienen el diseño del conjunto de la fachada o cubierta.
 4. Obras en instalaciones o infraestructuras comunes de edificios:
-   4.1. Cambios de trazado o implantación de instalaciones nuevas: planos de estado
-        actual y reformado.
-   4.2. Que afecten a fachadas: fotografías de las fachadas afectadas y croquis de
-        la solución; estudio técnico visado justificando el cumplimiento de la
-        Ordenanza General de Edificación.
-   4.3. Instalaciones de gas: estudio técnico visado por el Colegio profesional
-        correspondiente y sellado por la empresa suministradora.
-5. Apertura de catas o derribos puntuales previos a proyecto: informe visado
-   redactado por técnico competente para la redacción del proyecto justificando la
-   necesidad.
-Esta documentación tiene carácter de mínima. El Ayuntamiento podrá exigir
-documentación adicional, incluido en su caso proyecto de obras suscrito por técnico
-competente y visado.
-7.3. Autoliquidación de tributos, según modelo normalizado con justificación de su
-pago, conforme a las Ordenanzas Fiscales.
+4.1. Obras que supongan cambios de trazado de las instalaciones existentes o implantación de instalaciones nuevas:
+- Planos de estado actual y reformado.
+4.2. Obras que afecten a fachadas:
+- Fotografías de las fachadas afectadas y croquis de la solución planteada.
+- Estudio técnico visado justificando el cumplimiento de la Ordenanza General de Edificación en lo que le afecte.
+4.3. Instalaciones de gas:
+- Estudio técnico, visado por el Colegio Profesional correspondiente y sellado por la empresa suministradora, en el que se describa la instalación y se justifique el cumplimiento de la Ordenanza General de Edificación en lo que le afecte.
+5. Apertura de catas o derribos puntuales previos a la redacción de un proyecto:
+- Informe visado redactado por técnico competente para la redacción del proyecto en el que se justifique la necesidad de las catas o derribos.
+Esta documentación tiene carácter de mínima. El Ayuntamiento de Pamplona podrá exigir la documentación adicional, incluido en su caso proyecto de obras suscrito por técnico competente y visado, que sea necesaria para la correcta y completa definición de las obras para las que se solicite licencia o para garantizar su adecuación a normativa.
+7.3. Autoliquidación de tributos, según modelo normalizado con justificación de su pago de conformidad con lo establecido en las correspondientes Ordenanzas Fiscales.
 
 Artículo 8.º Ocupación de vía pública y utilización de medios auxiliares.
-La autorización de la ocupación de vía pública y/o la instalación de andamios,
-montacargas, vallados y similares se solicitará preferentemente a la vez que la
-licencia de obras de trámite abreviado. También podrá solicitarse de forma separada,
-pero únicamente se autorizará si previamente se ha otorgado la licencia de obras
-(en cuyo caso deberá hacerse referencia al expediente de la licencia o a la orden
-de ejecución). Tanto en solicitud conjunta como separada deberá presentarse:
+La autorización de la ocupación de vía pública y/o la instalación de andamios, montacargas, vallados y similares se solicitará preferentemente a la vez que la licencia de obras de trámite abreviado. No obstante, también podrá solicitarse de forma separada pero únicamente se autorizará si previamente se ha otorgado la licencia de obras. En el caso de solicitud separada, se deberá hacer referencia en la solicitud al expediente de la licencia de obra o, en su caso, a la orden de ejecución de obras.
+Tanto para la solicitud conjunta con la licencia de obras como para la solicitud separada, deberá presentarse:
 - Plano de ubicación con la ocupación que se pretenda.
-- Si se van a utilizar andamios, montacargas o medios auxiliares similares:
-  certificado de contratación de director de obra o director de ejecución; en su
-  defecto, certificado de que la instalación y retirada se desarrollará bajo la
-  dirección y supervisión de técnico competente. Documentos visados por el Colegio
-  Oficial correspondiente.
-En caso de utilizar vehículos grúa o realizar trabajos temporales en altura, se
-presentará igualmente certificado de contratación de director de obra o de
-ejecución o, en su defecto, certificado de dirección/supervisión por técnico
-competente.
+- Si se van a utilizar andamios, montacargas o medios auxiliares similares se presentará certificado de contratación de director de obra o director de ejecución de la obra; en su defecto, se presentará certificado de que la instalación y retirada de los medios auxiliares se desarrollará bajo la dirección y supervisión de técnico competente. Estos documentos estarán visados por el Colegio Oficial correspondiente.
+En caso de utilizar como medios auxiliares vehículos grua o se realicen trabajos temporales en altura, se presentará igualmente certificado de contratación de director de obra o director de ejecución de la obra o, en su defecto, certificado de que la instalación y retirada de los medios auxiliares se desarrollará bajo la dirección y supervisión de técnico competente
 
 Artículo 9.º Procedimiento.
-1. El procedimiento se iniciará mediante solicitud en impreso normalizado que
-contendrá al menos los datos señalados en el art. 4, y se presentará en el Registro
-del Área de Urbanismo, en los restantes registros municipales o en cualquiera de
-los registros del art. 38.4 de la Ley 30/1992 [hoy art. 16 Ley 39/2015]. A efectos
-del cómputo de plazos se considerará iniciado el expediente en la fecha de entrada
-de la documentación completa. Si la documentación no se presenta en el registro del
-Área de Urbanismo, deberá avisarse de su presentación mediante fax o correo
-electrónico.
-2. Los servicios competentes examinarán la solicitud y la documentación aportada.
-Si no reúne los requisitos o está incompleta, se requerirá al interesado para que
-en 10 días hábiles subsane, con indicación de que, en otro caso, se le tendrá por
-desistido (art. 42.1 Ley 30/1992 [hoy art. 68 Ley 39/2015]). Si las obras no se
-corresponden con el art. 6 y procede tramitación normal, se comunicará la
-improcedencia de iniciar el expediente por este procedimiento.
-3. Una vez completa la documentación, se emitirá informe municipal:
-   a) Propuesta de denegación, cuando la actuación no cumpla la normativa
-   urbanística (dará lugar a resolución denegatoria del órgano competente).
-   b) Otorgamiento de la licencia, indicando, en su caso, requisitos o medidas
-   correctoras. Periódicamente se dará cuenta al órgano competente de las licencias
-   otorgadas por trámite abreviado.
-La resolución deberá producirse en plazo no superior a UN MES, contado desde el día
-siguiente a la fecha en que la documentación esté completa y subsanadas las
-deficiencias.
-4. El plazo máximo se interrumpe mediante requerimiento de subsanación, que deberá
-precisar las deficiencias y el plazo para subsanar.
-5. Los titulares podrán retirar la licencia en los 4 días siguientes a su
-tramitación; si no se retira, se comunicará al solicitante en su domicilio.
+1. El procedimiento se iniciará mediante solicitud en impreso normalizado que contendrá al menos los datos señalados en el artículo 4 de la presente ordenanza y se presentará en el Registro del Area de Urbanismo del Ayuntamiento, en los restantes registros establecidos por el Ayuntamiento en cada momento o en cualquiera de los registros establecidos en el artículo 38.4 de la Ley 30/1992 de 26 de noviembre, modificada por la Ley 4/1999 de 13 de enero.
+A los efectos del cómputo de los plazos de tramitación se considerará iniciado el expediente en la fecha de entrada de la documentación completa. En caso de que la documentación no se presente en el registro del Area de Urbanismo, deben avisar de su presentación al Area de Urbanismo mediante remisión de fax o correo electrónico
+2. Los servicios competentes en el acto de presentación examinarán la solicitud y la documentación aportada.
+Si la solicitud de iniciación no reúne los requisitos señalados por la legislación vigente o si la documentación está incompleta, se requerirá al interesado para que en el plazo de diez días hábiles subsane la falta o acompañe la documentación preceptiva con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición, con los efectos previstos en el artículo 42.1 de la Ley 30/1992.
+Si las obras no se corresponden con las señaladas en el artículo 6 y el procedimiento que debe seguirse es el de tramitación normal, se comunicará al interesado la improcedencia de iniciar el expediente por este procedimiento, continuando los tramites por el procedimiento de tramitación normal.
+3. Una vez completa la documentación, se emitirá informe municipal en alguno de los siguientes sentidos:
+a) Propuesta de denegación de la licencia, cuando la actuación proyectada no cumpla con la normativa urbanística aplicable, lo que dará lugar a la resolución denegatoria del órgano competente.
+b) Otorgamiento de la licencia, indicando, en su caso, los requisitos o las medidas correctoras que la actuación proyectada deberá cumplir para ajustarse al ordenamiento en vigor. Periódicamente se dará cuenta al órgano competente para otorgar las licencias de todas las otorgadas por el tramite abreviado.
+La resolución del expediente deberá producirse en un plazo no superior a un mes, contado desde el día siguiente a la fecha en que la documentación esté completa y se hayan subsanado todas las deficiencias.
+4. El transcurso del plazo máximo fijado en el número anterior se interrumpirá mediante requerimiento para subsanación de deficiencias, el cual deberá precisar las deficiencias y el plazo para su subsanación.
+5. Los titulares de la licencia podrán retirarla de las oficinas que gestionan estos tipos de expedientes, en los 4 días siguientes a su tramitación. Si la licencia no fuera retirada en este plazo, se comunicará al solicitante en su domicilio.
 
-TÍTULO TERCERO: CONDICIONES GENERALES Y EFECTOS DE LAS LICENCIAS PARA OBRAS
-MENORES OTORGADAS POR PROCEDIMIENTOS SIMPLIFICADOS
+TITULO TERCERO
+Condiciones generales y efectos de las licencias para obras menores otorgadas por procedimientos simplificados de esta ordenanza
 
 Artículo 10.º Condiciones generales y efectos de las licencias.
-1. En ningún caso se entenderán adquiridas por silencio administrativo las
-licencias tramitadas que vayan en contra de la legislación o del planeamiento
-urbanístico, o cuando por falseamiento, error u omisión de datos en la solicitud no
-fuera posible la notificación de subsanación, de inadecuación de procedimiento o
-cualquier otra comunicación.
-2. El régimen procedimental no exonera de las obligaciones fiscales, que se regirán
-por las Ordenanzas correspondientes.
-3. La licencia está sujeta a las siguientes condiciones:
-   a) Producen efectos entre el Ayuntamiento y el sujeto a cuya actuación se
-   refieran, pero no alteran las situaciones jurídicas privadas entre éste y demás
-   personas.
-   b) Se entienden otorgadas salvo el derecho de propiedad y sin perjuicio de
-   terceros.
-   c) Únicamente se podrán ejecutar las obras descritas; otras obras requieren
-   autorización previa, sin perjuicio de sanciones.
-   d) El interesado deberá tener a disposición de los servicios municipales la
-   licencia o el impreso de comunicación diligenciado, facilitando el acceso a la
-   obra para inspecciones y comprobaciones.
-   e) Las obras deberán comenzar a los TRES MESES desde la concesión de la licencia
-   por trámite abreviado o la comunicación de actuaciones comunicadas, y finalizarse
-   en SEIS MESES desde la fecha de concesión o comunicación, salvo plazo de
-   ejecución superior señalado en la licencia; transcurrido el plazo podrá
-   declararse la caducidad, salvo prórroga o aplazamiento por un plazo que, como
-   máximo, equivaldrá a la mitad de los anteriores.
-   f) En ningún caso pueden realizarse obras en contra de la legislación o del
-   planeamiento.
-   g) Se dará cumplimiento a las disposiciones vigentes en materia de edificación y
-   de seguridad y salud en el trabajo.
-   h) No podrán invocarse para excluir o disminuir la responsabilidad civil o penal.
-   i) Las autorizaciones son transmisibles, pero el antiguo y el nuevo titular
-   deberán comunicarlo por escrito al Ayuntamiento, sin lo cual quedarán ambos
-   sujetos a las responsabilidades derivadas.
-   j) Obligación de reparar los desperfectos en vías públicas y espacios colindantes
-   y de mantenerlos en condiciones de seguridad, salubridad y limpieza.
-   k) Prohibición de colocar en calles, plazas y paseos andamios, escaleras,
-   máquinas, herramientas u objetos y materiales que entorpezcan el tránsito público
-   sin autorización específica.
-4. La licencia de obras ampara las obras pero NO los usos urbanísticos: si no
-estuviesen legalizados y no fueran legalizables, la ejecución de las obras no otorga
-derecho a la licencia que ampare el uso. En consecuencia, las diligencias de
-conformidad y las licencias de procedimiento abreviado se otorgan en el
-entendimiento de que los usos están legalizados; si no lo estuvieren, no resulta
-amparada obra alguna.
+1. En ningún caso se entenderán adquiridas por silencio administrativo las licencias tramitadas que vayan en contra de la legislación o del planeamiento urbanístico, o cuando por causa de falseamiento, error u omisión de datos en la solicitud no fuera posible la notificación de subsanación de deficiencias, de inadecuación de procedimiento como actuación comunicada o abreviada, o cualquier otra comunicación en relación con la tramitación y resolución del expediente.
+2. El régimen procedimental recogido en los apartados anteriores no exonera a los titulares de dichas actuaciones de sus obligaciones de carácter fiscal que se regirán por las Ordenanzas correspondientes.
+3. La licencia está sujeta al cumplimiento de las siguientes condiciones:
+a) Producirán efectos entre el Ayuntamiento y el sujeto a cuya actuación se refieran, pero no alterarán las situaciones jurídicas privadas entre éste y las demás personas.
+b) Se entenderán otorgadas salvo el derecho de propiedad y sin perjuicio de terceros.
+c) Unicamente se podrán ejecutar las obras descritas. Si se realizan otro tipo de obras que no son las expresamente contempladas se deberá solicitar previamente su correspondiente autorización, sin perjuicio, en caso contrario, de las sanciones oportunas que puedan imponerse.
+d) El interesado deberá tener a disposición de los servicios municipales la licencia concedida o el impreso conteniendo la comunicación diligenciada facilitando el acceso a la obra al personal de dichos servicios, para inspecciones y comprobaciones.
+e) Las obras deberá comenzar a los tres meses desde la concesión de la licencia por tramite abreviado o la comunicación de actuaciones comunicadas y deberán finalizarse en el plazo de seis meses desde la fecha de la concesión de la licencia o de la comunicación, salvo que en la licencia se señale un plazo de ejecución superior; transcurrido este plazo podrá declararse la caducidad de la licencia o comunicación, salvo que el interesado solicite prórroga o aplazamiento para la ejecución de las obras por un plazo que, como máximo, equivaldrá a la mitad de los anteriores.
+f) En ningún caso pueden realizarse obras en contra de la legislación o del planeamiento urbanístico.
+g) Se dará cumplimiento a cuantas disposiciones estén vigentes en materia de edificación, seguridad y salud en el trabajo que deban contemplarse en la ejecución de la obra.
+h) No podrán ser invocadas para excluir o disminuir la responsabilidad civil o penal en que hubieran incurrido los titulares en el ejercicio de las actuaciones autorizadas.
+i) Las autorizaciones serán transmisibles, pero el antiguo y el nuevo titular deberán comunicarlo por escrito al Ayuntamiento, sin lo cual quedarán ambos sujetos a las responsabilidades derivadas de la actuación amparada por la licencia.
+j) En la realización de los trabajos se estará obligado a reparar los desperfectos que como consecuencia de las obras se originen en las vías públicas y demás espacios colindantes, y a mantener éstos en condiciones de seguridad, salubridad y limpieza.
+k) Quedará prohibido colocar en las calles, plazas y paseos, andamios, escaleras, máquinas, herramientas, útiles o instrumentos, así como cualquier clase de objetos y materiales de construcción que puedan entorpecer el tránsito público y no dispongan de autorización específica.
+4. La licencia de obras ampara las obras pero no los usos urbanísticos, de modo que, si no estuviesen legalizados y no fueran legalizables, en modo alguno la ejecución de las obras otorga derecho a la correspondiente licencia que ampare el uso.
+En consecuencia, las diligencias de conformidad y las licencias de procedimiento abreviado se extienden y otorgan en el entendimiento de que los usos en cuestión están legalizados, de modo que, si no lo estuvieren, no resulta amparada obra alguna.
 
 Artículo 11. Régimen de control e inspección municipal.
-Los servicios técnicos municipales llevarán a cabo las funciones inspectoras que
-les otorga la legislación vigente, a fin de comprobar e investigar el cumplimiento
-de la legislación urbanística.
+Los servicios técnicos municipales llevarán a cabo las funciones inspectoras que les otorga la legislación vigente, a fin de comprobar e investigar el cumplimiento de la legislación urbanística.
 
-Disposición Transitoria única.
-Los procedimientos iniciados con anterioridad a la entrada en vigor de la Ordenanza,
-relativos a obras que pudieran estar sujetas al régimen de comunicación, se
-resolverán aplicando la normativa existente en el momento de su inicio.
+DISPOSICION TRANSITORIA UNICA
+Los procedimientos iniciados con anterioridad a la entrada en vigor de la presente Ordenanza, relativos a obras que pudieran estar sujetas al régimen de comunicación regulado en la misma, se resolverán aplicando la normativa existente en el momento en que los mismos hubieran sido iniciado.
 
-Disposición derogatoria.
-Quedan derogadas las disposiciones de la Ordenanza de Procedimiento Urbanístico en
-lo relativo a actuaciones de trámite abreviado, que pasan a regularse por la
-presente Ordenanza.
+DISPOSICION DEROGATORIA
+Quedan derogados las disposiciones de Ordenanza de Procedimiento Urbanístico en lo relativo a actuaciones de tramite abreviado, y que a partir de este momento quedan reguladas por la presente Ordenanza.
 
-ENTRADA EN VIGOR: 1 de junio de 2007.
+[Nota: el PDF municipal añade al final «ESTA ORDENANZA ENTRÓ EN VIGOR EL DÍA 1 DE JUNIO DE 2007».]
 --------------------------------------------------------------------------------
 
 CLAVE DE EXAMEN / OJO (BLOQUE 3):
@@ -618,16 +470,18 @@ BLOQUE 4 — ORDENANZA MUNICIPAL REGULADORA DEL PROCEDIMIENTO DE CONTROL POSTERI
 DE LAS ACTIVIDADES Y OBRAS DE ADECUACIÓN INICIADAS POR COMUNICACIÓN PREVIA O
 DECLARACIÓN RESPONSABLE EN EL TÉRMINO MUNICIPAL DE PAMPLONA
 ================================================================================
->>> NOTA DE IDENTIFICACIÓN: el título oficial del PDF municipal COINCIDE
-    EXACTAMENTE con el del temario. (La ficha de la sede electrónica la abrevia como
+>>> NOTA DE IDENTIFICACIÓN: el título oficial (BON y PDF municipal) COINCIDE
+    con el del temario. (La ficha de la sede electrónica la abrevia como
     "Ordenanza Municipal Reguladora del Procedimiento de Control Posterior, BON
     12/5/2014"; es la misma norma.)
 
 TIPO DE DOCUMENTO: Ordenanza municipal (norma reglamentaria local).
-APROBACIÓN: Pleno del Ayuntamiento de Pamplona de 28 de abril de 2014.
-PUBLICACIÓN: BON nº 90, de 12/05/2014.
-ESTADO: VIGENTE (verificado 17/06/2026; citada como normativa aplicable en los
-       trámites de la sede electrónica).
+APROBACIÓN DEFINITIVA: Pleno del Ayuntamiento de Pamplona de 28 de abril de 2014.
+PUBLICACIÓN: BON nº 90, de 12/05/2014 (anuncio «Aprobación Ordenanza control posterior»).
+ENTRADA EN VIGOR: 1 de junio de 2014 (lo dice el propio anuncio del BON).
+ESTADO: VIGENTE (verificado en octubre de 2026; sin modificaciones publicadas
+       hasta el 21/05/2026; citada como normativa aplicable en los trámites de la sede
+       electrónica).
 ESTRUCTURA: Exposición de motivos + Título I "Disposiciones generales" (arts. 1-4)
        + Título II "Procedimiento para la puesta en funcionamiento de actividades
        mediante la comunicación previa o la declaración responsable" (arts. 5-7) +
@@ -648,189 +502,79 @@ HABILITACIÓN LEGAL (de su exposición de motivos): art. 84 de la Ley 7/1985, de
     es el dato de origen (2012), HOY el umbral de la Ley 12/2012 es 750 m².
 
 --------------------------------------------------------------------------------
-TEXTO LITERAL VIGENTE
+TEXTO LITERAL VIGENTE (BON)
 --------------------------------------------------------------------------------
-EXPOSICIÓN DE MOTIVOS (síntesis conservada por su valor interpretativo): la Ley
-17/2009 (libre acceso a actividades de servicios) traspuso la Directiva 2006/123/CE;
-la Ley 25/2009 modificó, entre otros, el art. 84 de la Ley 7/1985 (LBRL),
-introduciendo la comunicación previa, la declaración responsable y el control
-posterior como mecanismo ordinario de intervención local. En Navarra incidieron las
-LF 15/2009, 6/2010 y 7/2010. En esa línea se promulgó el RDL 19/2012 y después la
-Ley 12/2012, que eliminó los supuestos de autorización/licencia municipal previa
-para establecimientos del anexo (con el umbral de superficie entonces vigente),
-sustituyendo el control previo por un control ex post basado en declaración
-responsable, y extendiéndolo a las obras de acondicionamiento que no requieran
-proyecto ex LOE. La finalidad de la ordenanza es definir el procedimiento de control
-posterior de dichas actividades y obras, dando cobertura jurídica a la actuación
-municipal y seguridad jurídica a los titulares. Las DD.FF. 9 y 10 de la Ley 12/2012
-habilitan al Gobierno y a las CC.AA. para ampliar el umbral de superficie y el
-catálogo de actividades y servicios, y con ello el ámbito del control posterior.
+[Texto literal publicado en el BON n.º 90, de 12-05-2014 (código del anuncio L1406478): aprobado definitivamente por el Pleno el 28-04-2014; entrada en vigor el 1-06-2014. Sin modificaciones publicadas hasta el 21-05-2026. Cita normas hoy derogadas (RDL 19/2012, Ley 30/1992): ver el aviso de desfase.]
 
-TÍTULO I. DISPOSICIONES GENERALES
+ORDENANZA MUNICIPAL REGULADORA DEL PROCEDIMIENTO DE CONTROL POSTERIOR DE LAS ACTIVIDADES Y OBRAS DE ADECUACIÓN INICIADAS POR COMUNICACIÓN PREVIA O DECLARACIÓN RESPONSABLE EN EL TÉRMINO MUNICIPAL DE PAMPLONA
+
+Exposición de motivos
+La Ley 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio, ha traspuesto la Directiva 2006/123/CE, de 12 de diciembre, del Parlamento Europeo y del Consejo, de servicios en el mercado interior. A su vez, la Ley 25/2009 ha modificado diferentes disposiciones legales como consecuencia, también de la incorporación de la norma europea. Entre tales modificaciones, resulta significativa la nueva redacción del artículo 84 de la Ley 7/1985, de 2 de abril, reguladora de las Bases del Régimen Local, que, ha introducido la Comunicación previa, la Declaración responsable y el Control posterior como un mecanismo ordinario de intervención en el ámbito local.
+De igual manera, han sido promulgadas varias Leyes Forales que inciden en la materia que nos ocupa. Es el caso de la Ley foral 15/2009, de medidas de simplificación administrativa para la puesta en marcha de actividades empresariales o profesionales, la Ley Foral 6/2010, de modificación de diversas leyes forales para su adaptación a la Directiva 2006/123/CE y la Ley Foral 7/2010, de modificación de la Ley Foral de Administración Local para su adaptación a la Directiva 2006/123/CE.
+Siguiendo con la línea marcada por la mencionada normativa se promulgó del Real Decreto Legislativo 19/2012 y posteriormente la Ley 12/2012 de medidas urgentes de liberalización del comercio y de determinados servicios con el objetivo –según su exposición de motivos– de “avanzar un paso más eliminando todos los supuestos de autorización o licencia municipal previa, motivados en la protección del medio ambiente, de la seguridad o de la salud públicas, ligados a establecimientos comerciales y otros que se detallan en el anexo con una superficie de hasta 300 metros cuadrados. Se considera, tras realizar el juicio de necesidad y proporcionalidad, que no son necesarios controles previos por tratarse de actividades que, por su naturaleza, por las instalaciones que requieren y por la dimensión del establecimiento, no tienen un impacto susceptible de control a través de la técnica autorizatoria, la cual se sustituye por un régimen de control ex post basado en una declaración responsable. La flexibilización se extiende también más allá del ámbito de aplicación de la reforma de la Ley 2/2011, de 4 de marzo, y afecta también a todas las obras ligadas al acondicionamiento de estos locales que no requieran de la redacción de un proyecto de obra de conformidad con la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación. De esta manera, se podrá iniciar la ejecución de obras e instalaciones y el ejercicio de la actividad comercial y de servicios con la presentación de una declaración responsable o comunicación previa, según el caso, en la que el empresario declara cumplir los requisitos exigidos por la normativa vigente y disponer de los documentos que se exijan, además de estar en posesión del justificante del pago del tributo correspondiente cuando sea preceptivo”.
+Desde la entrada en vigor del Real Decreto Legislativo 19/2012, el Ayuntamiento de Pamplona está tramitando las declaraciones responsables en los casos de actividades y obras que no requieren previa autorización municipal por encontrarse incluidas en el anexo de dicho texto normativo, pero hasta este momento carecíamos del instrumento normativo.
+La finalidad de este texto reglamentario no es otra que definir el procedimiento administrativo de control posterior de dichas actividades y obras, dando así una cobertura jurídica a la actuación municipal y seguridad jurídica a los titulares de los establecimientos en los que se han realizado las obras o iniciado la actividad en virtud de una declaración responsable o comunicación previa.
+Cabría por último señalar que las actividades sujetas a este régimen de sustitución de la autorización previa administrativa por una declaración responsable serán las que en cada caso determinen la legislación estatal y foral, ya que las disposiciones finales 9 y 10 de la Ley 12/2012 habilitan tanto al Gobierno como a las Comunidades Autónomas para ampliar el umbral de la superficie y el catálogo de actividades y de servicios a los que sería de aplicación el régimen de declaración responsable y por lo tanto, también el régimen de control posterior que establece la presente Ordenanza.
+
+Título I
+Disposiciones Generales
 
 Artículo 1. Objeto.
-1. Constituye el objeto de esta disposición reglamentaria la regulación del
-procedimiento de control posterior a realizar por el Ayuntamiento de Pamplona en
-relación con el establecimiento de actividades iniciadas mediante el procedimiento
-de comunicación previa o declaración responsable en los términos legalmente
-previstos. Este régimen de control posterior también será aplicable a las obras de
-acondicionamiento de los locales en los que vayan a realizarse las antedichas
-actividades cuando no requieran de la redacción de un proyecto de obra de
-conformidad con el artículo 2.2 de la Ley 38/1999, de 5 de noviembre, de Ordenación
-de la Edificación.
-2. Este procedimiento de control se limita a la implantación de las actividades
-iniciadas mediante declaración responsable o comunicación previa y no excluye ni
-afecta a los demás procedimientos de control que, en relación con el funcionamiento
-de las mismas, lleve a cabo el Ayuntamiento de Pamplona en el ámbito de sus
-competencias.
+1.–Constituye el objeto de esta disposición reglamentaria la regulación del procedimiento de control posterior a realizar por el Ayuntamiento de Pamplona en relación con el establecimiento de actividades iniciadas mediante el procedimiento de comunicación previa o declaración responsable en los términos legalmente previstos.
+Este régimen de control posterior también será aplicable a las obras de acondicionamiento de los locales en los que vayan a realizarse las antedichas actividades cuando no requieran de la redacción de un proyecto de obra de conformidad con el artículo 2.2 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación.
+2.–Este procedimiento de control se limita a la implantación de las actividades iniciadas mediante declaración responsable o comunicación previa y no excluye ni afecta a los demás procedimientos de control que, en relación con el funcionamiento de las mismas, lleve a cabo el Ayuntamiento de Pamplona en el ámbito de sus competencias.
 
 Artículo 2. Títulos habilitantes.
-1. La intervención municipal en relación con la puesta en funcionamiento de estas
-actividades y obras podrá ser ejercida a través de los siguientes medios:
-   a) Sometimiento a comunicación previa.
-   b) Sometimiento a declaración responsable.
-2. El Ayuntamiento ejercerá sus facultades de control posterior con el fin de
-verificar los datos puestos de manifiesto por el interesado a través de la
-declaración responsable o comunicación previa, al amparo de lo dispuesto en el
-artículo 5 de la Ley 12/2012, de medidas urgentes de liberalización del comercio y
-de determinados servicios, y el artículo 71 bis de la Ley 30/1992 [hoy art. 69 Ley
-39/2015].
+1.–La intervención municipal en relación con la puesta en funcionamiento de estas actividades y obras podrá ser ejercida a través de los siguientes medios:
+a) Sometimiento a comunicación previa.
+b) Sometimiento a declaración responsable.
+2.–El Ayuntamiento ejercerá sus facultades de control posterior con el fin de verificar los datos puestos de manifiesto por el interesado a través de la declaración responsable o comunicación previa, al amparo de los dispuesto en el artículo 5 de la Ley 12/2012 de medidas urgentes de liberación del comercio y de determinados servicios y el artículo 71.bis de la Ley 30/1992, de régimen jurídico de las administraciones públicas y del procedimiento administrativo común.
 
 Artículo 3. La comunicación previa.
-1. La comunicación previa es el acto por el que el interesado pone en conocimiento
-del Ayuntamiento el cambio de titularidad de las actividades que ya se encuentran en
-funcionamiento.
-2. La presentación del documento de comunicación previa según instancia modelo
-habilita al interesado a comenzar el ejercicio de su actividad.
+1.–La comunicación previa es el acto por el que el interesado pone en conocimiento del Ayuntamiento el cambio de titularidad de las actividades que ya se encuentran en funcionamiento.
+2.–La presentación del documento de comunicación previa según instancia modelo, habilita al interesado a comenzar el ejercicio de su actividad.
 
 Artículo 4. La declaración responsable.
-1. La declaración responsable es el acto en virtud del cual la persona que pretenda
-poner en marcha una actividad manifiesta, bajo su responsabilidad y mediante un
-documento modelo, que cumple con los requisitos establecidos en la normativa vigente
-para iniciar la actividad empresarial o profesional correspondiente, que dispone de
-la documentación que lo acredita y que se compromete a mantener su cumplimiento
-durante la duración de la misma. Además, puede manifestar la intención de realizar
-obras ligadas al acondicionamiento del local para desempeñar la actividad cuando no
-requieran la redacción de un proyecto de obra ex art. 2.2 de la Ley 38/1999. Por
-último, la declaración responsable puede tener por objeto exclusivo manifestar la
-intención de realizar las obras antes referidas en actividades ya en funcionamiento,
-en los términos recogidos en la instancia modelo municipal. La presentación de la
-declaración responsable habilita al declarante para iniciar la actividad o la
-realización de las obras pretendidas.
-2. El régimen de declaración responsable se aplicará en los casos legalmente
-previstos para la implantación de actividades, así como a la realización de obras
-ligadas al acondicionamiento de los locales para las citadas actividades cuando no
-requieran de la redacción de un proyecto de obra ex Ley 38/1999.
+1.–La declaración responsable es el acto en virtud del cual la persona que pretenda poner en marcha una actividad manifiesta, bajo su responsabilidad y mediante un documento modelo, que cumple con los requisitos establecidos en la normativa vigente para iniciar la actividad empresarial o profesional correspondiente, que dispone de la documentación que lo acredita y que se compromete a mantener su cumplimiento durante la duración de la misma. Además, puede manifestar la intención de realizar obras ligadas con el acondicionamiento del local para desempeñar la actividad cuando no requieran la redacción de un proyecto de obra de conformidad con el artículo 2.2 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación. Por último la declaración responsable puede tener por objeto exclusivo manifestar la intención de realizar las obras antes referidas en actividades ya en funcionamiento en los términos recogidos en la instancia modelo municipal.
+La presentación de la declaración responsable habilita al declarante para iniciar la actividad o la realización de las obras pretendidas.
+2.–El régimen de declaración responsable se aplicará en los casos legalmente previstos para la implantación de actividades, así como a la realización de obras ligadas al acondicionamiento de los locales para las citadas actividades cuando no requieran de la redacciónde un proyecto de obra de conformidad con la ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación.
 
-TÍTULO II. PROCEDIMIENTO PARA LA PUESTA EN FUNCIONAMIENTO DE ACTIVIDADES MEDIANTE LA
-COMUNICACIÓN PREVIA O LA DECLARACIÓN RESPONSABLE
+TÍTULO II
+Procedimiento para la puesta en funcionamiento de actividades mediante la comunicación previa o la declaración responsable
 
 Artículo 5. Presentación de instancias.
-1. La comunicación previa o la declaración responsable se realizará mediante la
-presentación de instancia normalizada para cada supuesto en el registro municipal
-del Ayuntamiento de Pamplona. Junto a la declaración responsable se adjuntará, en su
-caso, el certificado técnico que corresponda según los modelos facilitados por el
-Ayuntamiento.
-2. Asimismo se aportará el documento acreditativo de haber efectuado el pago de la
-tasa municipal correspondiente y estar dado de alta en el epígrafe o epígrafes
-correspondientes del Impuesto de Actividades Económicas.
-3. Estarán en el lugar donde se desarrolle la actividad, a disposición del
-Ayuntamiento y demás administraciones públicas para el ejercicio de sus competencias:
-   - Una copia del documento de la comunicación previa y/o la declaración
-     responsable, debidamente diligenciadas con su entrada en el Registro Municipal.
-   - Una copia del certificado técnico y de la documentación complementaria
-     presentados, en su caso.
-   - La documentación adicional que corresponda en cada caso, según los modelos de
-     declaración responsable y certificado técnico facilitados por el Ayuntamiento.
-4. La comunicación o declaración será supervisada y, en el caso de que la
-documentación fuera inexacta o insuficiente, se requerirá al interesado para que, en
-el plazo de 10 días, subsane la falta o acompañe los documentos preceptivos, con
-aviso de que, si así no lo hiciera, se dictará resolución por el órgano competente en
-la que se hará constar dicha circunstancia, se declarará la ineficacia de la
-declaración responsable y, en su caso, el cese en el ejercicio de la actividad. La
-eficacia de la comunicación previa o la declaración responsable quedará en suspenso
-hasta la subsanación de los datos omitidos en los términos del artículo 7.
+1.–La comunicación previa o la declaración responsable se realizará mediante la presentación de instancia normalizada para cada supuesto en el registro municipal del Ayuntamiento de Pamplona. Junto a la declaración responsable se adjuntará en su caso el certificado técnico que corresponda según los modelos facilitados por el Ayuntamiento.
+2.–Así mismo se aportará el documento acreditativo de haber efectuado el pago de la tasa municipal correspondiente y estar dado de alta en el epígrafe o epígrafes correspondientes del Impuesto de Actividades Económicas.
+3.–Estarán en el lugar donde se desarrolle la actividad, a disposición del Ayuntamiento y demás administraciones públicas para el ejercicio de sus competencias:
+- Una copia del documento de la comunicación previa y/o la declaración responsable, debidamente diligenciadas con su entrada en el Registro Municipal.
+- Una copia del certificado técnico y de la documentación complementaria presentados, en su caso.
+- La documentación adicional que corresponda en cada caso, según consta en los modelos de declaración responsable y certificado técnico facilitados por el Ayuntamiento.
+4.–La comunicación o declaración será supervisada y, en el caso de la documentación fuera inexacta o insuficiente, se requerirá al interesado para que, en el plazo de 10 días, subsane la falta o acompañe los documentos preceptivos, con aviso de que, si así no lo hiciera, se dictará resolución por el órgano competente en la que se hará constar dicha circunstancia, se declarará la ineficacia de la declaración responsable y, en su caso, el cese en el ejercicio de la actividad.
+La eficacia de la comunicación previa o la declaración responsable quedará en suspenso hasta la subsanación de los datos omitidos en los términos señalados en el artículo 7 de la presente ordenanza.
 
 Artículo 6. Fase de comprobación.
-1. Toda actividad cuya puesta en funcionamiento se efectúe mediante el acto de
-declaración responsable será objeto de control posterior en relación con las
-condiciones de apertura o ejecución de obras —si las hubiere— por parte de los
-servicios municipales. Asimismo se someterán a control posterior las actividades que
-se transmitan y sean comunicadas al Ayuntamiento.
-2. En el régimen de comunicación previa, el control se centrará en comprobar la
-correspondencia entre los datos de la comunicación y los datos obrantes en el
-Ayuntamiento en cuanto a ubicación del local, actividad desarrollada y titular
-anterior.
-3. En el régimen de declaración responsable, el control se centrará en verificar si
-la actividad puede acogerse a este trámite y en comprobar el certificado técnico, el
-uso urbanístico y las condiciones básicas del local conforme a la normativa vigente
-(superficie mínima, entreplantas, etc.).
-4. Durante el procedimiento de control posterior el Ayuntamiento podrá requerir la
-documentación técnica que se estime necesaria para realizar la oportuna comprobación.
-5. El control administrativo posterior a la presentación de la declaración
-responsable podrá completarse con la inspección in situ del local. En tal caso,
-previamente a la inspección se requerirá al titular para que aporte la documentación
-técnica que acredita el cumplimiento de los requisitos. De las actuaciones de
-inspección se levantará acta, que tendrá en todo caso la consideración de documento
-público y el valor probatorio correspondiente en los procedimientos sancionadores,
-sin perjuicio de las pruebas que en su defensa puedan aportar los administrados.
-6. El incumplimiento del requerimiento de aportación en plazo de la documentación
-señalada en el artículo 5.3 conllevará el cese de la actividad mediante orden
-adoptada por el órgano competente en materia de urbanismo.
+1.–Toda actividad cuya puesta en funcionamiento se efectúe mediante el acto de declaración responsable será objeto de control posterior en relación con las condiciones de apertura o ejecución de obras –si las hubiere– por parte de los servicios municipales. Así mismo se someterán a control posterior las actividades que se transmitan y sean comunicadas al Ayuntamiento.
+2.–En el régimen de comunicación previa, el control se centrará en comprobar la correspondencia entre los datos de la comunicación y los datos obrantes en el Ayuntamiento en cuanto a ubicación del local, actividad desarrollada y titular anterior.
+3.–En el régimen de declaración responsable, el control se centrará en verificar si la actividad puede acogerse a este trámite y en comprobar el certificado técnico, el uso urbanístico y las condiciones básicas del local conforme a la normativa vigente (superficie mínima, entreplantas, etc.).
+4.–Durante el procedimiento de control posterior el Ayuntamiento podrá requerir la documentación técnica que se estime necesaria para realizar la oportuna comprobación.
+5.–El control administrativo posterior a la presentación de la declaración responsable podrá completarse con la inspección in situ del local. En tal caso, previamente a la inspección se requerirá al titular de la actividad para que aporte la documentación técnica que acredita que se cumplen los requisitos establecidos en la normativa vigente, con el fin de realizar la oportuna comprobación.
+De las actuaciones de inspección se levantará acta, la cual tendrá, en todo caso, la consideración de documento público y el valor probatorio correspondiente en los procedimientos sancionadores, sin perjuicio de las pruebas que en defensa de los respectivos derechos o intereses puedan aportar los administrados.
+6.–El incumplimiento del requerimiento de aportación en plazo de la documentación señalada en el artículo 5.3 conllevará el cese de la actividad mediante orden adoptada por el órgano compentente en materia de urbanismo.
 
 Artículo 7. Finalización del procedimiento.
-1. Efectuado el control por los servicios municipales, cuando se valore que en el
-local se dan las circunstancias adecuadas para el desarrollo de la actividad
-declarada, se dará por concluido el procedimiento de control mediante Resolución del
-órgano competente en materia de urbanismo, notificándolo al interesado; la
-notificación deberá estar en el local a disposición del Ayuntamiento y demás
-administraciones públicas.
-2. Si se apreciara el inicio de una actividad ajena al ámbito de aplicación de la Ley
-12/2012, o la ejecución de obras no amparadas por la comunicación previa o
-declaración responsable, se requerirá al interesado para que en el plazo de 10 días
-alegue o presente documentos; a la vista de ello se dictará resolución declarando la
-ineficacia de la declaración responsable o comunicación previa y concediendo plazo
-para solicitar la correspondiente licencia, ordenando la suspensión de la actividad.
-Si la actividad no fuera legalizable se decretará el cierre del establecimiento. Del
-mismo modo se decretará el cierre cuando se detecten deficiencias técnicas no
-subsanables (previo período de 10 días de audiencia).
-3. Si de la comprobación resultase la concurrencia de deficiencias técnicas
-subsanables, se requerirá al interesado para que las corrija en el plazo que se
-considere oportuno. Si las deficiencias fueran esenciales, previa valoración
-técnico-jurídica, se acordará la suspensión cautelar de la actividad y se concederá
-plazo para subsanar (con posibilidad de alegaciones). La suspensión de la actividad,
-como acto de trámite cualificado, es recurrible en vía administrativa y judicial.
-Corregidas las deficiencias, se actuará conforme al punto 1; en caso contrario, se
-decretará la ineficacia y el cierre definitivo del establecimiento.
-4. Si la comunicación previa se hubiera presentado sin hacer constar los datos
-requeridos, se solicitará su subsanación conforme al artículo 71 de la Ley 30/1992
-[hoy art. 68 Ley 39/2015]. La eficacia de la comunicación previa quedará en suspenso
-hasta la subsanación; transcurrido el plazo sin subsanar, se dictará resolución
-declarando la ineficacia de la comunicación previa.
-5. (incumplimiento esencial) La inexactitud, falsedad u omisión de carácter esencial
-en cualquier dato, manifestación o documento que se acompañe o incorpore a una
-declaración responsable o comunicación previa, o la no presentación de éstas,
-determinará la imposibilidad de continuar con el ejercicio del derecho o actividad
-afectada desde el momento en que se tenga constancia de tales hechos, sin perjuicio
-de las responsabilidades penales, civiles o administrativas. La resolución que lo
-declare podrá determinar la obligación de restituir la situación jurídica al momento
-previo, así como la imposibilidad de instar un nuevo procedimiento con el mismo
-objeto durante un periodo determinado, conforme a la normativa sectorial.
-[Nota: la ordenanza numera dos apartados como "5"; el texto recoge un segundo "5" y
-un "6" finales:]
-5 (bis). Los plazos concedidos para la adopción de medidas correctoras o de
-subsanación de deficiencias o requisitos de la fase de comprobación se consideran
-plazos de audiencia previa a la resolución que resuelva sobre el cese cautelar o
-definitivo de la actividad.
-6. Las medidas anteriores se entenderán sin perjuicio de la tramitación, en su caso,
-del oportuno expediente sancionador.
+1.–Efectuado el control por parte de los servicios municipales, cuando se valore que en el local se dan la circunstancias adecuadas para el desarrollo de la actividad declarada, se dará por concluído el procedimiento de control mediante Resolución del órgano competente en materia de urbanismo, poniéndolo en conocimiento del interesado mediante la oportuna notificación la cual deberá estar en el local a disposición del Ayuntamiento y demás administraciones públicas para el ejercicio de sus competencias.
+2.–Si se apreciara el inicio del ejercicio de una actividad ajena al ámbito de aplicación de la ley 12/2012 o la ejecución de obras no amparadas por el procedimiento de comunicación previa o declaración responsable, se requerirá al interesado para que en el plazo de diez días alegue o presente los documentos que estime oportunos, a la vista de lo cual, se dictará resolución declarando la ineficacia de la declaración responsable o comunicación previa, y concediendo un plazo para la solicitud de la correspondiente licencia, al tiempo que se ordenará la suspensión de la actividad. Si la actividad no fuera legalizable se decretará el cierre del establecimiento. Del mismo modo se decretará el cierre del establecimiento cuando se detecten deficiencias técnicas no subsanables. A tal efecto se le concederá al interesado un previo período de diez días para que alegue lo que a su derecho convenga.
+3.–Si de la comprobación resultase la concurrencia de deficiencias técnicas subsanables, se requerirá al interesado para que proceda a su corrección en el plazo que se considere oportuno. Si las deficiencias fueran esenciales, previa valoración técnico-jurídica, se acordará la suspensión cautelar de la actividad y se concederá un plazo para subsanar los mismos. En dicho plazo, el interesado podrá formular las alegaciones que a su derecho convenga las cuales se atenderán o denegarán en la resolución que ponga fin al procedimiento. La suspensión de la actividad, en tanto que acto de trámite cualificado, será objeto de recurso tanto en vía administrativa como judicial.
+Corregidas las deficiencias detectadas, cuando se valore que en el local se dan la circunstancias adecuadas para el desarrollo de la actividad declarada, se actuará de acuerdo con lo establecido en el punto 1. de este artículo. En caso contrario, transcurrido el plazo concedido al efecto, se decretará la ineficacia de la declaración responsable o comunicación previa, ordenando el cierre definitivo del establecimiento.
+4.–En el supuesto de que la comunicación previa se hubiera presentado sin hacer constar los datos requeridos, se solicitará su subsanación de conformidad con lo dispuesto en el artículo 71 de la Ley 30/1992 de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común. La eficacia de la comunicación previa quedará en suspenso hasta el momento en que se hayan subsanado los datos omitidos. En el caso de que transcurra el plazo otorgado para la subsanación sin que ésta se haya producido, se dictará resolución por el órgano compentente en materia de urbanismo en la que se hará constar dicha circunstancia y se declarará la ineficacia de la comunicación previa.
+5.–La inexactitud, falsedad u omisión, de carácter esencial, en cualquier dato, manifestación o documento que se acompañe o incorpore a una declaración responsable o a una comunicación previa, o la no presentación ante la Administración competente de la declaración responsable o comunicación previa, determinará la imposibilidad de continuar con el ejercicio del derecho o actividad afectada desde el momento en que se tenga constancia de tales hechos, sin perjuicio de las responsabilidades penales, civiles o administrativas a que hubiera lugar.
+Asimismo, la resolución que declare tales circunstancias podrá determinar la obligación del interesado de restituir la situación jurídica al momento previo al reconocimiento o al ejercicio del derecho o al inicio de la actividad correspondiente, así como la imposibilidad de instar un nuevo procedimiento con el mismo objeto durante un periodo de tiempo determinado, todo ello conforme a los términos establecidos en las normas sectoriales de aplicación.
+6.–Los plazos concedidos tanto para la adopción de medidas correctoras como de subsanación de deficiencias o requisitos derivados de la fase de comprobación, se consideran plazos de audiencia previa a la resolución que resuelva sobre el cese cautelar o definitivo de la actividad.
+7.–Las medidas señaladas en los apartados anteriores del presente artículo se entenderán sin perjuicio de la tramitación, en su caso, del oportuno expediente sancionador.
 
-DISPOSICIÓN DEROGATORIA ÚNICA.
-Quedan derogadas cuantas disposiciones municipales de igual o inferior rango se
-opongan a lo establecido en esta Ordenanza. En concreto, queda derogada la
-"Ordenanza reguladora del procedimiento para la puesta en funcionamiento de
-actividades inocuas en el término municipal de Pamplona", aprobada por Acuerdo de
-Pleno de 18 de mayo de 2012 (PLE 18-MAY-12, 8/CU).
+DISPOSICIÓN DEROGATORIA ÚNICA
+Quedan derogadas cuantas disposiciones municipales de igual o inferior rango se opongan a lo establecido en esta Ordenanza.
+En concreto, queda derogada la “Ordenanza reguladora del procedimiento para la puesta en funcionamiento de actividades inocuas en el término municipal de Pamplona”, aprobada por Acuerdo de Pleno del Excelentísimo Ayuntamiento de Pamplona de fecha 18 de mayo de 2012, PLE 18-MAY-12 (8/CU).
 --------------------------------------------------------------------------------
 
 CLAVE DE EXAMEN / OJO (BLOQUE 4):
@@ -849,9 +593,10 @@ CLAVE DE EXAMEN / OJO (BLOQUE 4):
   - Inexactitud/falsedad/omisión ESENCIAL: imposibilidad de continuar desde que se
     constata, posible restitución y prohibición temporal de nuevo procedimiento
     (art. 7.5) — regla equivalente al art. 69.4 Ley 39/2015.
-  - DEFECTO DE TÉCNICA NORMATIVA (dato real, útil para no equivocarse): el art. 7
-    repite el ordinal "5" en dos apartados distintos. En el .txt se han marcado como
-    "5" y "5 (bis)".
+  - NUMERACIÓN DEL ART. 7: en el BON (texto oficial) el art. 7 tiene SIETE apartados,
+    del 1 al 7: el 7.6 dice que los plazos de medidas correctoras y subsanación son
+    plazos de audiencia previa y el 7.7 deja a salvo el expediente sancionador. El PDF
+    de pamplona.es repite el «5» y termina en «6»: manda el BON.
 
 ================================================================================
 AVISOS TRANSVERSALES Y ÁNGULOS DE RIESGO (para todo el Tema 36)
@@ -881,8 +626,9 @@ AVISOS TRANSVERSALES Y ÁNGULOS DE RIESGO (para todo el Tema 36)
    (D.F. 11ª): comprobar si Navarra ha ampliado el umbral/catálogo aplicable en su
    territorio antes del examen.
 
-5. TEMA COMPLETO: las cuatro normas están verificadas con texto íntegro (a fecha
-   17/06/2026). No quedan lagunas de articulado.
+5. TEMA COMPLETO: las cuatro normas están verificadas con texto íntegro. Las dos
+   ordenanzas de Pamplona se han sustituido en octubre de 2026 por su texto literal
+   del BON (antes eran un extracto con la exposición de motivos resumida).
 
 6. RE-VERIFICAR a finales de 2026: art. 192 TRLFOTU (estable desde LF 4/2021, pero
    el TR se modifica con frecuencia), umbral y anexo de la Ley 12/2012, y vigencia
@@ -896,9 +642,11 @@ FUENTES (verificación 17/06/2026)
 - Ley 12/2012: BOE-A-2012-15595 (BOE 311, 27/12/2012); arts. 1-5 verificados en
   texto consolidado del BOE; umbral de 500 m² por Ley 14/2013 y de 750 m² por
   Ley 20/2013.
-- Ordenanza obras menores Pamplona: PDF oficial pamplona.es; aprob. def. BON 64
-  (23/05/2007); en vigor 01/06/2007. Texto íntegro verificado.
-- Ordenanza control posterior Pamplona: PDF oficial pamplona.es
-  (sites/default/files/2022-01/control de actividades.pdf); aprob. Pleno
-  28/04/2014; BON 90 (12/05/2014). Texto íntegro verificado (arts. 1-7 + D.D. única).
+- Ordenanza obras menores Pamplona: texto literal del BON 64 (23/05/2007), anuncio
+  2007/64/48; cotejado con el PDF de pamplona.es (sites/default/files/2022-01/
+  licencia_obras_menores.pdf), que solo difiere en erratas; en vigor 01/06/2007.
+- Ordenanza control posterior Pamplona: texto literal del BON 90 (12/05/2014),
+  anuncio 2014/90/65; aprob. def. Pleno 28/04/2014; en vigor 01/06/2014. El PDF de
+  pamplona.es (sites/default/files/2022-01/control de actividades.pdf) numera mal
+  el art. 7 (5, 5, 6 en vez de 5, 6, 7).
 ================================================================================
