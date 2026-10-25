@@ -1,4 +1,4 @@
-NORMATIVA URBANÍSTICA GENERAL DEL PLAN MUNICIPAL DE PAMPLONA (Texto Refundido, 2008). Parte 1: Título Preliminar a Título Segundo, Sección Quinta (arts. 1 a 39).
+NORMATIVA URBANÍSTICA GENERAL DEL PLAN MUNICIPAL DE PAMPLONA (Texto Refundido, 2008, con sus modificaciones hasta mayo de 2026). Parte 1: Título Preliminar a Título Segundo, Sección Quinta (arts. 1 a 39).
 
 NORMATIVA URBANÍSTICA GENERAL
 
@@ -32,7 +32,7 @@ Por lo tanto dichas determinaciones constituyen preceptos jurídicos gráficamen
 A nivel general, y salvo las indicaciones establecidas en las Normas Urbanísticas Particulares u otras de aplicación, las determinaciones grafiadas comportan las consecuencias siguientes:
 a) Son vinculantes, con carácter estructurante o pormenorizado, según los casos, todas las delimitaciones establecidas a efectos de división espacial (Unidades Integradas, Unidades Básicas, Zonas, Sectores, Áreas, Unidades de Ejecución, etc).
 b) Así mismo son vinculantes, con carácter estructurante o pormenorizado, según los casos, las alineaciones y alturas fijadas y los aprovechamientos rentables asignados sin perjuicio de la aplicación de las “tablas de compatibilidades de los usos” y coeficientes de uso.
-No obstante y, respecto exclusivamente a las alineaciones, éstas podrán ser modificadas cuando tal modificación venga determinada por la ampliación de un edificio para la instalación de un ascensor, bastando con la aprobación del correspondiente Estudio de Detalle, siempre que se cumplan los requisitos que al efecto señala el artículo 9 de la Ordenanza General de Edificación. Corresponde a los servicios técnicos municipales la valoración del cumplimiento de dichos requisitos.
+[Párrafo suprimido por la modificación de la NUG sobre instalación de ascensores en edificios existentes, BON n.º 66, de 09-04-2013. Decía: «No obstante y, respecto exclusivamente a las alineaciones, éstas podrán ser modificadas cuando tal modificación venga determinada por la ampliación de un edificio para la instalación de un ascensor, bastando con la aprobación del correspondiente Estudio de Detalle (…)». Ahora rige la Sección Décima, arts. 80 a 85, al final de la NUG.]
 c) Son también vinculantes, con carácter estructurante o pormenorizado, según los casos, las delimitaciones de los espacios para equipamientos públicos, con independencia del destino específico que se les asigne en función de las necesidades de cada momento.
 2) Los Planos de gestión recogen las primeras determinaciones para la ejecución del planeamiento.
 5. Las Normas Urbanísticas Generales y Particulares constituyen los documentos en los que se establecen las condiciones a que han de ajustarse las actuaciones de carácter urbanístico (planeamiento, gestión de aquel, actuaciones edificatorias o de implantación de actividades y usos) y delimitan el contenido urbanístico del derecho de propiedad y proyecto.
@@ -171,7 +171,7 @@ Pretende una organización equilibrada de las diferentes actividades, regulándo
 En cuanto se identifiquen con un coeficiente intervienen en la determinación del aprovechamiento.
 
 Artículo 27º. Tipos de “usos”.
-[Artículo modificado después de 2008 (24-05-2012). Abajo, la redacción de 2008; la vigente no está incorporada.]
+[Modificado por la modificación pormenorizada de 03-05-2012 (BON n.º 98, de 24-05-2012), que amplía el listado de dotaciones con el uso «Dotacional Complejo». Ya incorporado abajo.]
 Atendiendo a los criterios que se señalan se establecen los siguientes:
 a) Criterio de “nivel de asignación territorial”:
 Global: el que se asigna a la Zona, Sector, o Área. En algún caso también se asigna un uso global a una unidad integrada completa.
@@ -197,13 +197,16 @@ c) Criterio de “funcionalidad”: ( carácter general )
 Residencial: colectivo o unifamiliar.
 Productivo: industria, actividad económica, comercio, oficinas, agrícola.
 Dotacional: sanitario, asistencial, docente, cultural, deportivo, recreativo, administrativo, religioso, residencia comunitaria, mercado.
+[Texto añadido en 2012:] Se entiende por Dotacional Complejo el formado por una dotación principal que sea cultural, recreativa, mercado, estación de autobuses o estación del ferrocarril, y por usos de comercio, oficina, bar-restaurante y discoteca-sala de baile. La superficie construida de la dotación principal no debe ser inferior al 70% de la superficie construida del conjunto del Dotacional Complejo.
+No computará, a estos efectos, la superficie destinada a usos auxiliares de la dotación principal. En cada caso, la aplicación de esta normativa se hará al conjunto de la dotación.
+Con carácter general, las condiciones de actuación en la edificación serán las que deban aplicarse al uso principal.
 Espacios libres.
 
 Artículo 28º. Régimen y Tablas de compatibilidades de los usos.
-[Artículo modificado después de 2008 (2010; 08-10-2014, BON 197; residencia eventual, BON 249, 20-12-2019; nuevo apartado 21 sobre locales de juego, BON 125/2021). Abajo, la redacción de 2008; la vigente no está incorporada.]
+[Redacción vigente: texto refundido del artículo que acompaña a la modificación pormenorizada de 06-05-2021 sobre establecimientos de apuestas (BON n.º 125, de 28-05-2021; SIUN 109995), que solo añade el apartado 21. Incorpora las modificaciones anteriores del art. 28: régimen de compatibilidad de usos de 07-10-2010 (BON n.º 137, de 10-11-2010), régimen de compatibilidad de usos de 19-09-2014 (BON n.º 197, de 08-10-2014) y residencia eventual de 14-11-2019 (BON n.º 249, de 20-12-2019).]
 Las siguientes tablas no son de aplicación cuando se trate de suelo clasificado como no urbanizable.
 
-TABLA Nº 1: DE COMPATIBILIDAD DE LOS USOS PORMENORIZADOS RESPECTO DE LOS USOS GLOBALES. ( determinación de carácter estructurante).
+TABLA Nº 1: DE COMPATIBILIDAD DE LOS USOS PORMENORIZADOS RESPECTO DE LOS USOS GLOBALES. (determinación de carácter estructurante).
 TABLA: Tabla nº 1. Compatibilidad de los usos pormenorizados (filas: USO PORMENORIZADO) respecto de los usos globales (columnas). Claves: 1 = permitido; 2 = necesario; 3 = tolerado; 4 = prohibido.
 Columnas: USO GLOBAL RESIDENCIAL COLECTIVO; RESIDENCIAL UNIFAMILIAR; INDUSTRIAL; COMERCIAL; OFICINAS; ACTIVIDAD ECONÓMICA.
 - RESIDENCIAL COLECTIVO CON LOCALES EN PB: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4; Actividad económica = 4
@@ -214,7 +217,7 @@ Columnas: USO GLOBAL RESIDENCIAL COLECTIVO; RESIDENCIAL UNIFAMILIAR; INDUSTRIAL;
 - OFICINAS: Residencial colectivo = 3; Residencial unifamiliar = 3; Industrial = 3; Comercial = 3; Oficinas = 1; Actividad económica = 1
 - DOTACIONAL: Residencial colectivo = 1; Residencial unifamiliar = 1; Industrial = 1; Comercial = 1; Oficinas = 1; Actividad económica = 1
 
-TABLA Nº 2: DE COMPATIBILIDAD DE LOS USOS PORMENORIZADOS DE PARCELA RESPECTO DE LOS USOS PORMENORIZADOS DE UNIDAD BÁSICA. ( determinación de carácter pormenorizado).
+TABLA Nº 2: DE COMPATIBILIDAD DE LOS USOS PORMENORIZADOS DE PARCELA RESPECTO DE LOS USOS PORMENORIZADOS DE UNIDAD BÁSICA. (determinación de carácter pormenorizado).
 TABLA: Tabla nº 2. Compatibilidad de los usos pormenorizados de parcela (filas: USO PORMENORIZADO DE PARCELA) respecto de los usos pormenorizados de unidad básica (columnas). Claves: 1 = permitido; 2 = necesario; 3 = tolerado; 4 = prohibido.
 Columnas: USO PORMENORIZADO DE UNIDAD BÁSICA RESIDENCIAL COLECTIVO; RESIDENCIAL UNIFAMILIAR; INDUSTRIAL; COMERCIAL; OFICINAS.
 - RESIDENCIAL COLECTIVO CON LOCALES EN PB: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
@@ -224,59 +227,64 @@ Columnas: USO PORMENORIZADO DE UNIDAD BÁSICA RESIDENCIAL COLECTIVO; RESIDENCIAL
 - RESIDENCIA EVENTUAL: Residencial colectivo = 1; Residencial unifamiliar = 1; Industrial = 3; Comercial = 1; Oficinas = 1
 - INDUSTRIAL ≤ B+2: Residencial colectivo = 4; Residencial unifamiliar = 4; Industrial = 1; Comercial = 3; Oficinas = 3
 - TALLER O ALMACÉN: ≤ B+2: Residencial colectivo = 3; Residencial unifamiliar = 4; Industrial = 1; Comercial = 3; Oficinas = 3
-- COMERCIAL: Residencial colectivo = 3; Residencial unifamiliar = 3; Industrial = 3; Comercial = 1; Oficinas = 3
+- COMERCIAL: Residencial colectivo = 1; Residencial unifamiliar = 1; Industrial = 3; Comercial = 1; Oficinas = 3
 - OFICINAS: Residencial colectivo = 3; Residencial unifamiliar = 3; Industrial = 3; Comercial = 1; Oficinas = 1
-- BAR Y/O RESTAURANTE: ≤ B+2: Residencial colectivo = 3; Residencial unifamiliar = 3 (+); Industrial = 3; Comercial = 1; Oficinas = 3
-- DISCOTECAS, SALAS BAILE: ≤ B+2: Residencial colectivo = 4; Residencial unifamiliar = 4; Industrial = 3; Comercial = 3; Oficinas = 3
-- DOTACIONES: (EXCEPTO RESIDENCIA COMUNITARIA Y ASISTENCIAL): Residencial colectivo = 1; Residencial unifamiliar = 1; Industrial = 1; Comercial = 1; Oficinas = 1
+- BAR Y/O RESTAURANTE: Residencial colectivo = 3; Residencial unifamiliar = 3 (+); Industrial = 3; Comercial = 1; Oficinas = 3
+- DISCOTECAS, SALAS BAILE: Residencial colectivo = 4; Residencial unifamiliar = 4; Industrial = 3; Comercial = 3; Oficinas = 3
+- DOTACIONES: Residencial colectivo = 1; Residencial unifamiliar = 1; Industrial = 1; Comercial = 1; Oficinas = 1
 Los “usos pormenorizados de parcela” que aparecen en esta tabla -algunos de los cuales no tienen este carácter conforme a la tabla nº 3- son de aplicación cuando dicho uso pretende instalarse en la totalidad de una parcela o edificación con referencia al “uso pormenorizado de Unidad Básica”.
 
-TABLA Nº 3: DE COMPATIBILIDAD DE LOS USOS DETALLADOS RESPECTO DE LOS USOS PORMENORIZADOS DE PARCELA. ( determinación de carácter pormenorizado).
+TABLA Nº 3: DE COMPATIBILIDAD DE LOS USOS DETALLADOS RESPECTO DE LOS USOS PORMENORIZADOS DE PARCELA. (determinación de carácter pormenorizado).
 TABLA: Tabla nº 3. Compatibilidad de los usos detallados (filas: USO DETALLADO) respecto de los usos pormenorizados de parcela (columnas). Claves: 1 = permitido; 2 = necesario; 3 = tolerado; 4 = prohibido; «-» = sin valor en el original.
-Columnas: USO PORMENORIZADO DE PARCELA RESIDENCIAL COLECTIVO LOCALES EN PB; RESIDENCIAL COLECTIVO TODAS LAS PLANTAS; RESIDENCIAL UNIFAMILIAR; INDUSTRIAL; COMERCIAL; OFICINAS.
-- VIVIENDA: Colectiva PE: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
-- VIVIENDA: Colectiva PB: Res. colectivo locales en PB = 4; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
-- VIVIENDA: Unifamiliar: Res. colectivo locales en PB = 4; Res. colectivo todas las plantas = 4; Res. unifamiliar = 1; Industrial = 4; Comercial = 4; Oficinas = 4
-- RESIDENCIA COMUNITARIA: PB: Res. colectivo locales en PB = 4; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
-- RESIDENCIA COMUNITARIA: P1ª: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
-- RESIDENCIA EVENTUAL: PB: Res. colectivo locales en PB = 4; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- RESIDENCIA EVENTUAL: P1ª: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- TALLER O ALMACÉN: En PB <1.000 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
-- TALLER O ALMACÉN: En PB con sótano <1.000 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
-- COMERCIO: En PB <1.500 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- COMERCIO: En PB con sótano <1.500 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- COMERCIO: En PB con 1ª <1.500 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- COMERCIO: En PB con sótano y con 1ª <1.500 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- COMERCIO: Comercio anexo a vivienda <100 m2: Res. colectivo locales en PB = 4; Res. colectivo todas las plantas = 4; Res. unifamiliar = 1; Industrial = -; Comercial = -; Oficinas = -
-- OFICINA: En PB: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- OFICINA: En PB con sótano: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- OFICINA: En PB con 1ª: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- OFICINA: En PB con sótano y con 1ª: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- OFICINA: En 1ª: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- OFICINA: Oficina anexa a vivienda habitual <100 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 1; Res. unifamiliar = 1; Industrial = -; Comercial = -; Oficinas = -
-- BAR Y/O RESTAURANTE: En PB <1.000 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- BAR Y/O RESTAURANTE: En PB con sótano < 1.000 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- RESTAURANTE: En PB con 1ª < 1.000 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- RESTAURANTE: En PB con sótano y con 1ª < 1.000 m2: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- DISCOTECAS, SALAS BAILE: En PB < 1.000 m2: Res. colectivo locales en PB = 4; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- DISCOTECAS, SALAS BAILE: En PB con sótano < 1.000 m2: Res. colectivo locales en PB = 4; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
-- DOTACIONES: En PB: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
-- DOTACIONES: En PB con sótano: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
-- DOTACIONES: En PB con 1ª: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
-- DOTACIONES: En PB con sótano y con 1ª: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
-- GARAJE VINCULADO AL USO DETALLADO: En sótano: Res. colectivo locales en PB = 2; Res. colectivo todas las plantas = 2; Res. unifamiliar = 2; Industrial = 2; Comercial = 2; Oficinas = 2
-- GARAJE VINCULADO AL USO DETALLADO: En PB: Res. colectivo locales en PB = 1(*); Res. colectivo todas las plantas = 4; Res. unifamiliar = 2; Industrial = 2; Comercial = 4; Oficinas = 4
-- GARAJE DE GUARDA: En sótano: Res. colectivo locales en PB = 1; Res. colectivo todas las plantas = 1; Res. unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
-- GARAJE DE GUARDA: En PB: Res. colectivo locales en PB = 1(*); Res. colectivo todas las plantas = 4; Res. unifamiliar = 4; Industrial = 1; Comercial = 4; Oficinas = 4
+Columnas: USO PORMENORIZADO DE PARCELA RESIDENCIAL COLECTIVO; RESIDENCIAL UNIFAMILIAR; INDUSTRIAL; COMERCIAL; OFICINAS.
+- VIVIENDA: Colectiva PE: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
+- VIVIENDA: Colectiva PB: Residencial colectivo = 1(**); Residencial unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
+- VIVIENDA: Unifamiliar: Residencial colectivo = 4; Residencial unifamiliar = 1; Industrial = 4; Comercial = 4; Oficinas = 4
+- RESIDENCIA COMUNITARIA: PB: Residencial colectivo = 1(**); Residencial unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
+- RESIDENCIA COMUNITARIA: P1ª: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 4; Oficinas = 4
+- RESIDENCIA EVENTUAL: PB: Residencial colectivo = 1(**); Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- RESIDENCIA EVENTUAL: P1ª: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- Alquiler de habitaciones con fines turísticos anexo a vivienda habitual <50 m2: Residencial colectivo = 1; Residencial unifamiliar = -; Industrial = -; Comercial = -; Oficinas = -
+- TALLER O ALMACÉN: En PB <1.000 m2: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
+- TALLER O ALMACÉN: En PB con sótano <1.000 m2: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
+- COMERCIO: En PB: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- COMERCIO: En PB con sótano y/o con plantas elevadas: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- COMERCIO: Comercio anexo a vivienda <100 m2: Residencial colectivo = 4; Residencial unifamiliar = 1; Industrial = -; Comercial = -; Oficinas = -
+- OFICINA: En PB: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- OFICINA: En PB con sótano: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- OFICINA: En PB con 1ª: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- OFICINA: En PB con sótano y con 1ª: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- OFICINA: En 1ª: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- OFICINA: Oficina anexa a vivienda habitual <100 m2: Residencial colectivo = 1; Residencial unifamiliar = 1; Industrial = -; Comercial = -; Oficinas = -
+- BAR Y/O RESTAURANTE: En PB <1.000 m2: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- BAR Y/O RESTAURANTE: En PB con sótano < 1.000 m2: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- RESTAURANTE: En PB con 1ª < 1.000 m2: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- RESTAURANTE: En PB con sótano y con 1ª < 1.000 m2: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- DISCOTECAS, SALAS BAILE: En PB < 1.000 m2: Residencial colectivo = 4; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- DISCOTECAS, SALAS BAILE: En PB con sótano < 1.000 m2: Residencial colectivo = 4; Residencial unifamiliar = 4; Industrial = 4; Comercial = 1; Oficinas = 1
+- DOTACIONES: En PB: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
+- DOTACIONES: En PB con sótano: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
+- DOTACIONES: En PB con 1ª: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
+- DOTACIONES: En PB con sótano y con 1ª: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
+- GARAJE VINCULADO AL USO DETALLADO: En sótano: Residencial colectivo = 2; Residencial unifamiliar = 2; Industrial = 2; Comercial = 2; Oficinas = 2
+- GARAJE VINCULADO AL USO DETALLADO: En PB: Residencial colectivo = 1(*); Residencial unifamiliar = 2; Industrial = 2; Comercial = 4; Oficinas = 4
+- GARAJE DE GUARDA: En sótano: Residencial colectivo = 1; Residencial unifamiliar = 4; Industrial = 1; Comercial = 1; Oficinas = 1
+- GARAJE DE GUARDA: En PB: Residencial colectivo = 1(*); Residencial unifamiliar = 4; Industrial = 1; Comercial = 4; Oficinas = 4
+[Nota sobre la fila «Alquiler de habitaciones con fines turísticos»: en el texto aprobado en 2019 (BON n.º 249) la columna Residencial unifamiliar vale 1; en el texto refundido de 2021 figura «-». La modificación de 2021 declara que solo añade el apartado 21.]
+Criterio de compatibilidad: 1= PERMITIDO; 2=NECESARIO; 3=TOLERADO (25%); 4=PROHIBIDO
 
 APLICACIÓN DE LA TABLA
-Cuestiones de carácter general :
+Cuestiones de carácter general:
 1.- El porcentaje máximo que se establece para la implantación de los usos tolerados es el de un 25% de la superficie construida.
 3.- Las actividades consolidadas que hayan adquirido tal naturaleza por el desarrollo urbanístico anterior y sean usos prohibidos, según la regulación de las tablas precedentes, se mantienen en tanto se mantenga la actividad que desarrollan en la actualidad y podrán transformarse en usos equivalentes, necesarios o tolerados justificando el cumplimiento de la tabla de reconversión de usos; podrá también, aunque se modifique la actividad, implantarse otra que mantenga el mismo uso detallado de la actual.
 Dichas actividades deberán en todo caso adoptar las medidas correctoras exigibles por la normativa, mediante la tramitación de la correspondiente licencia, debiendo ser revisadas en los mismos supuestos que el resto de actividades.
 A este respecto, se entenderán como actividades consolidadas aquellas de las que se pueda justificar su existencia, anterior al 23 de noviembre de 1984, mediante cualquier tipo de documentación fehaciente, tales como documentación catastral, licencia de obra, licencia fiscal o cualquier otro tipo de documento que se pueda estimar suficiente.
 4.- Los usos no expresamente recogidos en las anteriores tablas se asimilarán, a los efectos de su compatibilidad, con los que resulten por su naturaleza o destino más semejantes a los en ella señalados.
 9.- Se entiende por Residencia eventual los hoteles, hostales, aparta-hoteles, pensiones y similares.
+9 bis.- La implantación y la ampliación del uso detallado Residencia Eventual, compartiendo acceso (portal, ascensor o escaleras) con las viviendas, en un edificio de uso Residencial Colectivo y del alquiler de habitaciones con fines turísticos anejo a vivienda habitual estarán sometidas a que se cumplan las siguientes condiciones:
+- No podrá haber más de un establecimiento de uso detallado Residencia Eventual en esas mismas circunstancias.
+- La suma de las superficies construidas destinadas a uso detallado Residencia Eventual que comparten acceso con las viviendas y las de las partes de las viviendas destinadas al alquiler de habitaciones con fines turísticos no podrá superar los 200 m2.
+Este apartado será de aplicación en el ámbito del PEPRI del Casco Antiguo en lo que sea más restrictivo que la normativa específica.
 10.- Se entiende por Residencia Comunitaria la destinada a alojamiento de ancianos, estudiantes o religiosos. Este tipo de residencias deberá incluir para su funcionamiento servicios comunes de cocina, comedor, estancias, etc.
 16.- Además de cumplir con los requisitos de compatibilidad de usos establecidos en la anterior tabla, la instalación y el funcionamiento de Actividades Clasificadas (o actividades M.I.N.P.), deberán cumplir con las exigencias recogidas en la ordenanza de Actividades Molestas, Insalubres, Nocivas y Peligrosas del vigente Plan.
 - Cuestiones de carácter pormenorizado:
@@ -285,26 +293,18 @@ A este respecto, se entenderán como actividades consolidadas aquellas de las qu
 6.- Tampoco es de aplicación el régimen de compatibilidad de usos al planeamiento existente y que se incorpora al Plan Municipal, siempre que en dicho planeamiento se proponga otro régimen de usos y sólo en aquello que se contradiga; ni, consecuentemente, a la edificación que se haya de ejecutar conforme al mismo.
 7.- No obstante, una vez concluidas las edificaciones y obtenida la licencia de primera ocupación de los edificios, le será de aplicación la regulación contenida en relación con las modificaciones de cualquier índole que en esta sección se pretendan realizar.
 8.- No se altera el “uso pormenorizado de parcela” porque en la misma se desarrolle un uso específicamente auxiliar y necesario del que se plantea como principal.
-11.- La “Residencia eventual” y la “Residencia Comunitaria” podrá instalar en las plantas bajas del uso pormenorizado de parcela “Residencial Colectivo locales en planta baja” los usos auxiliares y complementarios del que se plantee como principal siempre que la planta baja y la planta 1ª estén comunicadas directamente.
-12.- Cuando se trate de usos de los que en el cuadro aparecen como en P.B. con sótano, P.B. con 1ª o P.B. con sótano y con 1ª, la P.B. deberá suponer al menos el 50% de la superficie total destinada al uso correspondiente sin que en este porcentaje se incluya la superficie de una posible entreplanta.
+11.- En todo caso, la “Residencia Eventual” y la “Residencia Comunitaria” podrán instalar en las plantas bajas del uso pormenorizado de parcela “Residencial Colectivo locales en planta baja” los usos auxiliares y complementarios del que se plantee como principal siempre que la planta baja y la planta 1ª estén comunicadas directamente.
+12.- Las viviendas inscritas en el Registro de Turismo de Gobierno de Navarra con anterioridad a la aprobación inicial de esta modificación como apartamentos y viviendas turísticos, dispondrán de un plazo de 6 meses desde la aprobación definitiva de esta modificación para presentar a trámite la correspondiente apertura o licencia de uso, según proceda, que avale el uso Residencia Eventual, debiendo adoptar las medidas correctoras exigibles por la normativa. Estos casos, se reconocerán como usos consolidados, independientemente de cuál sea la planta del edificio en la que se sitúan. En caso de no presentarse en el plazo señalado, se considerarán uso Vivienda y el uso Residencia Eventual deberá cesar.
 13.- El signo (+) significa que el uso bar y/o restaurante, en este supuesto, sólo se tolera en edificio exento.
-14.- El asterisco (*) significa que los garajes, en ese supuesto, estarán permitidos siempre que se mantenga una franja perimetral de una profundidad mínima de 10 m. destinada a otros usos posibles.
+14.- El asterisco (*) significa que los garajes, en ese supuesto, estarán permitidos sin limitaciones.
 15.- La actividad específica de gasolinera se entiende incluida solamente en el uso comercial.
-[MODIFICACIONES POSTERIORES DEL ART. 28 — según la web municipal y la información de su aprobación:
- - Residencia eventual (BON n.º 249, de 20-12-2019): si comparte acceso con las viviendas, no más de
-   un establecimiento por edificio y no más de 200 m² en suma; usos auxiliares en planta baja si
-   comunica directamente con la primera; no se admite en planta baja en las zonas «comerciales de
-   centralidad» (salvo planes especiales) y en las de «relevancia comercial» hasta el 50% de ocupación.
- - Apartado 21 (BON n.º 125 de 2021): casas de apuestas, salones de juego, bingos y casinos a 400 m
-   como mínimo de centros educativos, culturales, sanitarios, deportivos y recreativos y a 400 m
-   entre sí, medidos por la línea quebrada mínima que une los dos puntos de fachada más próximos por
-   espacio de uso público.
- - Antecedente: en noviembre de 2019 la Junta de Gobierno Local suspendió las licencias de estos
-   locales (art. 70 del DFL 1/2017); la suspensión se prorrogó hasta el 4-2-2021 (web municipal).
- - En el texto de 2008 el apartado «Aplicación de la tabla» tiene 16 reglas numeradas; las
-   modificaciones posteriores añaden más (al menos hasta la 21).
- - Régimen de compatibilidad de usos modificado en 2010 y el 08-10-2014 (BON n.º 197): texto no
-   incorporado.]
+17.- En parcelas con usos pormenorizado Residencial Colectivo, la adopción de medidas adicionales de protección que sean necesarias como consecuencia de la implantación de los usos Vivienda, Residencia Eventual y Residencia Comunitaria, respecto a actividades MINP existentes en el edificio donde se solicite licencia, correrán a cargo del solicitante.
+18.- En las ZONAS COMERCIALES DE CENTRALIDAD definidas en el plano 22 no se permiten en planta baja los siguientes usos: Vivienda, Residencia Comunitaria y Residencia Eventual, salvo en los lugares previstos en los planes especiales vigentes. Igualmente, dichos planes podrán establecer nuevos ámbitos en los que estos usos sean admisibles en planta baja. Sí se permiten los usos auxiliares y complementarios que se planteen de acuerdo a lo dispuesto en el apartado 11. Aquellas viviendas colectivas en planta baja existentes con anterioridad a esta aprobación o previstas en los planes citados podrán transformarse en usos Residencia Comunitaria y Residencia Eventual.
+19.- (**) En las ZONAS DE RELEVANCIA COMERCIAL definidas en el plano 22 quedan permitidos en planta baja los usos Vivienda, Residencia Comunitaria y Residencia Eventual en tanto no se supere la ocupación con la suma de dichos usos en cuantía superior al 50%. La ocupación del 50% se cuantificará en función de la longitud acumulada de los frentes de fachada en planta baja de la unidad básica en la que pretenda ubicarse el nuevo uso, incluyéndose en dicha longitud total los locales ocupados, los desocupados, las residencias comunitarias y eventuales y las viviendas que ya existieran. No se contabilizarán los frentes de los portales y de los accesos a los sótanos. Los frentes correspondientes a usos auxiliares y complementarios que se planteen de acuerdo a lo dispuesto en el apartado 11 no se cuantificarán a efectos de la ocupación del 50%.
+20.- En las parcelas donde no se haya materializado el aprovechamiento urbanístico asignado en el planeamiento de desarrollo y en la Reparcelación correspondientes, y tengan asignado el uso terciario en planta baja, no cabe el uso de vivienda ni la transformación del aprovechamiento asignado a dicha planta en vivienda en tanto no se obtenga licencia de primera ocupación.
+21.- Los locales destinados a las actividades específicas de: establecimientos de apuestas, locales de juego con dinero, bingos y casinos, o la ampliación de los ya existentes, deberán mantener una distancia mínima de 400 m. respecto de centros educativos, culturales, deportivos y recreativos.
+Esta distancia mínima se mantendrá también entre los propios locales de apuestas, juego con dinero, bingos y/o casinos.
+La medición de dicha distancia se realizará mediante la línea quebrada mínima resultante de unir los dos puntos de fachada más próximos entre el local y cualquiera de las dotaciones citadas, a través de espacio de uso público, conforme al siguiente esquema: [esquema gráfico no reproducido]
 
 Sección Cuarta: Régimen específico para determinados usos.
 
@@ -380,8 +380,25 @@ No se computarán las entreplantas en la forma que vienen definida en la Ordenan
 5.- En plantas elevadas la superficie queda definida por la cara exterior del cierre del edificio, quedando excluidos los patios de manzana, patios abiertos a fachadas, terrazas abiertas, balcones y tendederos abiertos al exterior.
 6.- Sin embargo, sí se computará la superficie de los patios de parcela, patinillos de instalaciones, huecos del ascensor y cajas de escalera.
 7.- El espacio bajocubierta sí computa aprovechamiento salvo que se deje libre o se ejecuten trasteros de menos de 15 m2 y su número no sea superior a uno por vivienda. Tampoco se computará la superficie de los cuartos de instalaciones.
-8.- En edificios existentes no computará el volumen de edificación estrictamente necesario para la construcción de un cuerpo saliente que permita la instalación de ascensor en los supuestos regulados en el artículo 9 de la Ordenanza General de Edificación.
-[El 12-04-2010 se añadió un art. 35 bis, cuyo texto no está incorporado.]
+[Apartado 8 suprimido por la modificación sobre instalación de ascensores, BON n.º 66, de 09-04-2013. Decía: «8.- En edificios existentes no computará el volumen de edificación estrictamente necesario para la construcción de un cuerpo saliente que permita la instalación de ascensor (…)». Ahora lo regula el art. 80.]
+
+Artículo 35.bis. Forma de medir el aprovechamiento en los Sectores y Unidades acogidos a la Disposición Transitoria Primera Apartado 2.º de la Ley Foral 6/2009. (carácter estructurante)
+[Artículo añadido por la modificación estructurante aprobada por el Pleno el 04-03-2010, BON n.º 45, de 12-04-2010, en aplicación de la disposición transitoria 1.ª de la Ley Foral 6/2009, de Medidas Urgentes en materia de Urbanismo y Vivienda.]
+A efectos de cómputo y medición del aprovechamiento de proyecto serán de aplicación las siguientes reglas:
+1.a) Con carácter general, excepto para el uso residencial, se efectuará por superficie construida del uso correspondiente.
+1.b) Aprovechamiento de proyecto residencial:
+Se define como aprovechamiento de proyecto residencial asignado a una parcela el calculado del modo siguiente:
+Aprovechamiento de proyecto residencial (establecido por el planeamiento) = 1,13 x Superficie Útil.
+Esta superficie útil máxima será la limitada por el perímetro interior del cierre de todas las fachadas y paredes medianeras o elementos de separación de cada vivienda o elementos comunes deduciendo muros, tabiques, elementos estructurales verticales y conductos exentos o que sobresalgan de cierres o tabiques con una sección horizontal superior a 100 cm² y la superficie que tenga una altura libre inferior a 1,50 m.
+2. En sótanos no se computará como superficie que consume aprovechamiento la de los garajes, siempre que su número no sea superior a dos por vivienda, tampoco la de los garajes siempre que su número no sea superior a dos por cada 100 metros cuadrados construidos de uso distinto al residencial, trasteros menores de 15 metros cuadrados siempre que su número no sea superior a uno por vivienda, cuartos de instalaciones y accesos.
+En los nuevos suelos urbanizables y unidades de ejecución de suelo urbano no consolidado, los garajes en sótanos que superen las dos plazas por vivienda o por cada 100 m² construidos de otros usos, computan a efectos de aprovechamiento urbanístico, salvo que el Ayuntamiento justifique documentalmente, que en el entorno de la actuación el grado de consolidación de la urbanización y edificación impide resolver la demanda del estándar legal de aparcamientos.
+3. En planta baja la superficie resultará de medir el espacio comprendido entre la alineación de fachada y el fondo que realmente se proyecte. Los portales, garajes y sus accesos, trasteros e instalaciones computarán con el mismo coeficiente que el resto de planta baja. No se descontarán en dicha medición los retranqueos del portal, de las puertas de garaje ni otros espacios similares que pudieran plantearse en el proyecto correspondiente.
+No se computarán las entreplantas en la forma que vienen definida en la Ordenanza General de Edificación.
+4. Para aplicar el coeficiente correspondiente al suelo de parcela privada no se computará la parte de dicha Parcela que esté afectada por servidumbre de uso público en superficie.
+5. En plantas elevadas no residenciales, la superficie queda definida por la cara exterior del cierre del edificio, quedando excluidos los patios de manzana, patios abiertos a fachadas, terrazas abiertas, balcones y tendederos abiertos al exterior.
+6. En usos no residenciales, sí se computará la superficie de los patios de parcela, patinillos de instalaciones, huecos del ascensor y cajas de escalera.
+7. El espacio bajocubierta sí computa aprovechamiento salvo que se deje libre o se ejecuten trasteros de menos de 15 metros cuadrados y su número no sea superior a uno por vivienda. Tampoco se computará la superficie de los cuartos de instalaciones.
+8. La aplicación de artículo a los Sectores o Unidades correspondientes se regulará mediante modificación del planeamiento de desarrollo en los plazos previstos en la Disposición Transitoria 1.ª 2 de la LF 6/2009, a través del cual se reordenará en ocupación y/o en altura el incremento de superficie construida.
 
 Artículo 36º. Asignaciones especiales de Aprovechamiento de Proyecto.
 carácter general: Las parcelas destinadas a dotaciones de uso y dominio público sólo quedan limitadas por las condiciones establecidas por las Normas de diseño y calidad de la Normativa General y por la Normativa Urbanística Particular.
@@ -401,4 +418,12 @@ Para las nuevas edificaciones en las que la densidad residencial queda limitada 
 - Cualquier modulación del uso residencial en suelo urbano o urbanizable, para la obtención del número máximo de piezas habitables, podrá ser autorizada, siempre que el resultado no supere la cantidad que se obtiene de dividir la superficie construible de uso residencial por 110 m2 y multiplicar por 4 piezas habitables.
 - Se entiende por pieza habitable todo ámbito funcional que no sea acceso, vestíbulo, cocina, aseo, baño, etc... Las agregaciones físicas de ámbitos funcionales distintos (por ejemplo, estar dormitorio), se contarán como piezas diferentes.
 - Se debe cumplir además, con la siguiente condición dentro de cada promoción: Número máximo de viviendas de dos piezas: 40% de la promoción.
-[El 12-04-2010 se añadió un art. 39 bis, cuyo texto no está incorporado.]
+
+Artículo 39.bis. Número de piezas habitables en los Sectores y Unidades acogidos a la Disposición Transitoria 1.ª apartado 2.º de la Ley Foral 6/2009. (carácter estructurante)
+[Artículo añadido por la misma modificación de 2010, BON n.º 45, de 12-04-2010.]
+Para las nuevas edificaciones en las que la densidad residencial queda limitada por el aprovechamiento de proyecto definido en el artículo 35-bis no podrá superarse el número máximo de piezas habitables definido por los siguientes parámetros:
+- Para el cálculo del número de piezas máximas habitables se tomará como módulo la unidad construida por 110 m² de aprovechamiento de proyecto de uso residencial.
+- La referida unidad equivale, a su vez, a 5 piezas habitables mas los servicios y accesos necesarios para tal número de piezas.
+- Cualquier modulación del uso residencial para la obtención del número máximo de piezas habitables, podrá ser autorizada, siempre que el resultado no supere la cantidad que se obtiene de dividir el aprovechamiento de proyecto de uso residencial por 110 m² y multiplicar por 5 piezas habitables.
+- Se entiende por pieza habitable todo ámbito funcional que no sea acceso, vestíbulo, cocina, aseo, baño, etc. Las agregaciones físicas de ámbitos funcionales distintos (por ejemplo, estar dormitorio), se contarán como piezas diferentes.
+- Número máximo de viviendas de dos piezas: 40% de la promoción.
