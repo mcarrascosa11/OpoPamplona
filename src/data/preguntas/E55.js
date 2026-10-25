@@ -3,8 +3,11 @@ export default [
   // ---------- TEMA 55 ESPECÍFICO · PEPRI DEL CASCO ANTIGUO DE PAMPLONA (E55) ----------
   // Rehechas in situ el 18-10-2026 con la mezcla de tipos de los exámenes reales (GUIA_PREGUNTAS.md, 2 bis),
   // conservando los ids. Fuente única: temas/E_Tema55.txt con las correcciones de src/data/textosTemas/E55.js:
-  // TR BON 109/2001, arts. 12 y 15 de 2007 y arts. 87-88 de 2019 y 2025. No se preguntan el art. 89 (el de 2001
-  // está superado y el de 2017 solo se conoce en parte), el cuadro de usos de 2001 ni las modificaciones de 2026.
+  // TR BON 109/2001, arts. 12 y 15 de 2007, arts. 87-88 de 2025 (BON 16/2025) y art. 89 de 2017 (BON 9/2017).
+  // Arts. 90 y 91 en la redacción de 2006 (BON 68/2006). No se preguntan los arts. 87 a 91 de 2001, el cuadro de
+  // usos de 2001, la definición del grupo 0.1 anulada en 2018 ni las modificaciones de 2026.
+  // 25-10-2026: E55-10 retirada (preguntaba la lista de supuestos del art. 90.2 de 2001, sustituida en 2006 por la
+  // remisión al Plan Municipal) y sustituida por E55-16 (art. 89, misma tipología LISTA).
   { id: "E55-01", tema: "E55", subtema: "Normas de volumen: cubierta y bajo cubierta", tipo: "NEG",
     q: "Señale la respuesta INCORRECTA en relación con lo dispuesto en el artículo 58 del Texto Refundido del Plan Especial de Protección y Reforma Interior del Casco Antiguo de Pamplona (Acuerdo del Pleno de 7 de junio de 2001, BON nº 109, de 7 de septiembre de 2001) para las obras de nueva edificación, sustitución o ampliación de edificios existentes:",
     o: ["Ningún elemento puede emerger del plano de la cubierta, salvo chimeneas, conductos de ventilación y elementos análogos.",
@@ -68,7 +71,7 @@ export default [
         "Se entenderán fuera de ordenación en tanto subsistan y no sean objeto de intervención, sin perjuicio de las obras de conservación y mantenimiento.",
         "Se entenderán integrados en la ordenación del Plan Especial hasta que se delimite una Zona de Intervención Preferente que los incluya en su ámbito."],
     c: 0, exp: "PEPRI del Casco Antiguo, art. 35.1: los edificios y elementos inadecuados o impropios, en particular los de régimen de renovación o renovación preferente, se entienden INTEGRADOS en la ordenación del Plan Especial EN TANTO SUBSISTAN Y NO SEAN OBJETO DE INTERVENCIÓN, sin considerarse fuera de ordenación (art. 134 LFOTU, hoy TRLFOTU); mientras tanto pueden autorizarse obras de conservación, mantenimiento y reparación. La b) cambia «y no sean objeto» por «aunque sean objeto» de intervención; la c) los declara fuera de ordenación, cuando solo tienen esa consideración si se va a producir su derribo para adaptarse al Plan (35.2), y la d) introduce como límite la delimitación de una ZIP, que el artículo no menciona." },
-  { id: "E55-10", tema: "E55", subtema: "Uso vivienda: número de viviendas", tipo: "LISTA",
+  { id: "E55-10", tema: "E55", subtema: "Uso vivienda: número de viviendas", tipo: "LISTA", estado: "retirada",
     q: "Conforme a lo establecido en el artículo 90 del Texto Refundido del Plan Especial de Protección y Reforma Interior del Casco Antiguo de Pamplona (Acuerdo del Pleno de 7 de junio de 2001, BON nº 109, de 7 de septiembre de 2001), con carácter general las actuaciones de rehabilitación no incrementarán el número de viviendas existentes, salvo en los supuestos siguientes:",
     o: ["División de viviendas, reconversión de usos no residenciales existentes, construcción de áticos y división de viviendas en alforja.",
         "División de viviendas, reconversión de usos no residenciales existentes, utilización del espacio existente bajo cubierta y división de viviendas en alforja.",
@@ -88,7 +91,7 @@ export default [
         "Los usos comerciales en edificio completo.",
         "Los apartamentos turísticos regulados por el Decreto Foral 230/2011.",
         "El alquiler de habitaciones con fines turísticos anejo a la vivienda habitual."],
-    c: 2, exp: "PEPRI del Casco Antiguo, arts. 87 y 88 (redacción vigente tras la modificación del BON nº 16/2025): las viviendas, apartamentos y alojamientos turísticos del Decreto Foral 230/2011 son USO PROHIBIDO en parcela y en edificios de uso residencial colectivo, salvo el régimen transitorio del art. 88.15 (inscritos en el Registro de Turismo y con licencia de apertura o de uso a la entrada en vigor). En cambio, el resto de la residencia eventual es uso TOLERADO, con sus condiciones (planta primera, umbrales del 75 %); el uso comercial y recreativo es PERMITIDO en edificio completo (art. 87), y se tolera el alquiler de habitaciones con fines turísticos anejo a la vivienda habitual, con un máximo del 50 % de su superficie útil (art. 88)." },
+    c: 2, exp: "PEPRI del Casco Antiguo, arts. 87 y 88 (redacción vigente tras la modificación del BON nº 16/2025): las viviendas, apartamentos y alojamientos turísticos del Decreto Foral 230/2011 son USO PROHIBIDO en parcela y en edificios de uso residencial colectivo, salvo el régimen transitorio del art. 88.15 (los que a la entrada en vigor de ese número contaran con licencia de obras otorgada específicamente para este uso, licencia de apertura o licencia de uso pueden mantenerlo o iniciarlo, cumpliendo la normativa turística y su inscripción en el Registro de Turismo). En cambio, el resto de la residencia eventual es uso TOLERADO, con sus condiciones (planta primera, umbrales del 75 %); el uso comercial y recreativo es PERMITIDO en edificio completo (art. 87), y se tolera el alquiler de habitaciones con fines turísticos anejo a la vivienda habitual, con un máximo del 50 % de su superficie útil (art. 88)." },
   { id: "E55-13", tema: "E55", subtema: "Normas de volumen: vuelos", tipo: "DEF",
     q: "Según el PEPRI del Casco Antiguo de Pamplona, la definición «todo volumen habitable cerrado que sobresalga del plano de fachada» corresponde a:",
     o: ["Mirador.",
@@ -110,4 +113,11 @@ export default [
         "No se supera la altura de PB+4, salvo en parcelas en esquina, donde rige la fachada de mayor longitud.",
         "No se supera en ningún caso la altura de PB+3."],
     c: 0, exp: "PEPRI del Casco Antiguo, art. 56: en nueva planta, sustitución o ampliación puede autorizarse justificadamente una altura igual a la de la menor contigua o incluso a la media de las contiguas, NO SUPERÁNDOSE EN NINGÚN CASO la altura de PB+4. En parcelas en esquina las reglas se aplican a la fachada de mayor longitud, pero eso no excepciona el tope (por eso es falsa la c)); la excepción de los edificios institucionales o dotaciones públicas es la que permite alturas superiores en la planta baja (art. 59), no la del número de plantas; y el tope que fija el artículo es PB+4, no PB+3." },
+  { id: "E55-16", tema: "E55", subtema: "Usos: hostelería y aledañas (art. 89)", tipo: "LISTA",
+    q: "Conforme a lo establecido en el artículo 89 del Plan Especial de Protección y Reforma Interior del Casco Antiguo de Pamplona, en la redacción aprobada definitivamente por el Pleno el 3 de noviembre de 2016 (BON nº 9, de 13 de enero de 2017), son usos prohibidos, en cualquier situación de plantas, sótanos o espacios libres, las actividades correspondientes a los grupos:",
+    o: ["1.1, 1.2, 2 y 3.",
+        "1.2, 2 y 3.",
+        "0.2, 1.2, 2 y 3.",
+        "0.2, 2 y 3."],
+    c: 1, exp: "PEPRI del Casco Antiguo, art. 89.4 (redacción del BON nº 9/2017): son usos prohibidos, en cualquier situación de plantas, sótanos o espacios libres, las actividades de los grupos 1.2 (bares), 2 (bares especiales y cafés espectáculos) y 3 (discotecas y salas de fiestas). Según el art. 89.1, son toleradas las de los grupos 0.1, 0.2 (degustaciones de café) y 1.1 (cafeterías y restaurantes); por eso fallan la a), que incluye el grupo 1.1, y la c) y la d), que incluyen el 0.2 (la d omite además los bares del grupo 1.2). Tampoco son prohibidos los bares en los casos en que cafeterías y restaurantes están exentos de las distancias de implantación." },
 ];
