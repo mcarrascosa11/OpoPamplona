@@ -1,0 +1,549 @@
+PLAN MUNICIPAL DE PAMPLONA (Texto Refundido; aprobación definitiva por Acuerdo de la C.O.T. de 18-12-2002). MEMORIA II - PROPUESTA. Apartado 10.7 «LAS INFRAESTRUCTURAS URBANAS», texto literal (pp. 266-291).
+
+[Fuente: PDF de la Memoria II en pamplona.es, https://www.pamplona.es/sites/default/files/2019-01/Plan%20Municipal%20Memoria%20II%20Propuesta%20.pdf . Se han quitado las cabeceras, los pies y los números de página y se han unido los párrafos cortados por el salto de línea o de página; las tablas van en formato TABLA y las notas al pie, entre corchetes. El resto es texto literal.]
+
+10.7.- LAS INFRAESTRUCTURAS URBANAS
+
+10.7.1.- El agua
+
+10.7.1.1.- Introducción
+
+La sociedad pública SERVICIOS DE LA COMARCA DE PAMPLONA, S.A. es la empresa encargada de la explotación, gestión y mantenimiento del abastecimiento y saneamiento del agua de Pamplona y su comarca.
+
+El desarrollo de este apartado sobre el ciclo del agua se desglosa en dos secciones claramente diferenciadas: el Abastecimiento de Aguas y el Saneamiento (Recogida de aguas pluviales y fecales).
+
+Todos los servicios relacionados con el Abastecimiento de agua y con el Saneamiento tienen el carácter de Servicio Público.
+
+10.7.1.2.- Abastecimiento
+
+10.7.1.2.1.- Estado actual
+
+Fuentes de Suministro y Tratamiento
+
+El agua que abastece a Pamplona y comarca proviene desde 4 captaciones independientes, con los siguientes caudales:
+
+TABLA: Captaciones (filas: CAPTACIÓN)
+Columnas: CAUDAL MAX.; CAUDAL MIN.
+- Manantial Arteta: CAUDAL MAX. = 20.000 l/s; CAUDAL MIN. = 250 l/s
+- Manantial de Subiza: CAUDAL MAX. = 12 l/s; CAUDAL MIN. = 3,5 l/s
+- Concesión Río Araquil: CAUDAL MAX. = 300 l/s; CAUDAL MIN. = (en blanco)
+- Embalse de Eugui: Capacidad máxima 18,53 Hm3
+
+Como se observa, las dos fuentes principales de abastecimiento son el Manantial de Arteta y el Embalse de Eugui.
+
+Las aguas recogidas en Eugui son tratadas en la Estación de Tratamiento de Urtasun, con una capacidad de 1.030 l/s.
+
+Las aguas provenientes del Manantial de Arteta y de la captación del río Araquil son tratadas en la Estación de Tratamiento de Eguillor, con una capacidad de 900 l/s.
+
+Con ello tenemos que el caudal total máximo de abastecimiento de agua tratada en los distintos depósitos es de 1.930 l/s.
+
+En 1.999 la producción media total de agua ha sido de 1.050 l/s.
+
+Arterias de Distribución y Depósitos
+
+Desde Urtasun llegan las aguas a la Comarca de Pamplona por una canalización de 800 mm. de diámetro hasta Huarte, y desde Eguillor, mediante 3 canalizaciones paralelas de 350, 450 y 600 mm. de diámetro, hasta el Polígono Industrial de Agustinos.
+
+Desde estos dos puntos se subdividen las canalizaciones a las arterias de distribución de abastecimiento que conforma un anillo a la comarca de Pamplona con varios depósitos de almacenamiento. Además hay dos arterias que atraviesan el casco urbano de Pamplona uniendo el Polígono de Agustinos con los depósitos de Mendillorri.
+
+Los depósitos existentes relacionados con el abastecimiento de agua a Pamplona, con indicación de sus alturas y capacidades respectivas son los siguientes:
+
+TABLA: Depósitos (filas: DEPÓSITO)
+Columnas: CAPACIDAD; ALTITUD
+- Santa Lucía: CAPACIDAD = 7.870 m3; ALTITUD = 460 m.
+- Mendillorri: CAPACIDAD = 68.000 m3; ALTITUD = 490 m.
+- Miravalles: CAPACIDAD = 15.000 m3; ALTITUD = 480 m.
+- Polvorín San Cristóbal: CAPACIDAD = 12.000 m3; ALTITUD = 480 m.
+
+Redes de Distribución y Consumos
+
+Desde las arterias y depósitos antes señalados, mediante redes canalizadas de distintas secciones y a través de la trama urbana, se distribuye el agua hasta las diversas acometidas de los abonados.
+
+En la siguiente tabla se observa la evolución de los consumos durante estos últimos años.
+
+TABLA: Evolución de los consumos (filas: concepto; columnas: AÑO)
+Columnas: 1991; 1994; 1997; 2000
+- Población Abastecida en la Comarca (hab.): 1991 = 260.052; 1994 = 270.145; 1997 = 273.571; 2000 = 283.814
+- Dotación media (1/hab/día): 1991 = 296; 1994 = 285; 1997 = 280; 2000 = 283
+- Consumo medio mes de máximo consumo (l/s): 1991 = 1.308; 1994 = 1.324; 1997 = 1.192; 2000 = 1.324
+- Consumo día punta de máximo consumo (l/s): 1991 = 1.504; 1994 = 1.588; 1997 = 1.430; 2000 = 1.721
+- Consumo medio anual (l/s): 1991 = 867; 1994 = 879; 1997 = 889; 2000 = 930
+
+En plano de información nº 15 -Abastecimiento de Agua- se señalan las arterias y redes de distribución principales, así como la ubicación de los Depósitos.
+
+10.7.1.2.2.- Actuaciones previstas
+
+- Respecto a las captaciones debe señalarse:
+* De acuerdo con el desarrollo del Canal de Navarra existe concedida a la sociedad pública Servicios de la Comarca de Pamplona S.A. una reserva de caudal. Su punto de suministro se sitúa en Tiebas, según el "Plan Sectorial de Incidencia Supramunicipal del Abastecimiento a la Comarca de Pamplona desde el Canal de Navarra", y llega hasta Mendillorri, habiéndose definido ya la reserva de espacio correspondiente, al amparo del mismo documento sectorial.
+- Respecto a Estaciones de Tratamiento y Arterias de Distribución, según el desarrollo antes señalado del Canal de Navarra, la Sociedad Servicios de la Comarca de Pamplona ejecutará, según el proyecto constructivo de la 1ª fase del Abastecimiento a Pamplona, las siguientes conducciones:
+* Tramo Noáin – Ronda Este (Urb. Mendillorri) Tubería 1.000 mm. Ø.
+* Tramo Ronda Este – Depósito Mendillorri Tubería 1.400 mm. Ø.
+* Tramo Depósito Mendillorri – Depósito Irigaray - Depósito Noáin Tubería 800 mm. Ø. Tubería 600 mm. Ø.
+
+También está previsto construir una Estación de Tratamiento de agua potable en Tiebas, dimensionada en dos fases de 500 l/s cada una.
+
+- En redes generales de abastecimiento las principales actuaciones en Pamplona se producen actualmente en las zonas de desarrollo urbano en ejecución, fundamentalmente en Rochapea, San Jorge y muy recientemente en Euntzetxiki.
+
+10.7.1.2.3.- Conclusiones y Propuesta
+
+- En la captación de agua se produce una excesiva dependencia de las condiciones climáticas en el suministro de agua a Pamplona y Comarca. Si el estiaje es prolongado la diferencia entre agua "producida" y "demandada" puede dar lugar a problemas de abastecimiento debido a la gran variabilidad del caudal de Arteta y a la limitada capacidad del Pantano de Eugui.
+- Con la entrada en servicio del nuevo abastecimiento previsto proveniente del Canal de Navarra (Estación de Tratamiento de Agua Potable de Tiebas) quedará en gran parte solventada la dependencia señalada en el punto anterior.
+- Hay aproximadamente un 12% de pérdidas de agua "producida" respecto a la facturada, ya sea por su utilización por servicios públicos (limpieza, incendios...), como por fugas, etc., cuya resolución, en gran parte, es técnica y económicamente inviable.
+- La capacidad de las Estaciones de Tratamiento, con el nuevo abastecimiento, es suficiente a corto y medio plazo, incluso para los días puntas de máximo consumo.
+- El trazado de la red básica de Abastecimiento de agua proyectada por el Plan Municipal para el conjunto de la ciudad, que incluye las previsiones necesarias para los nuevos desarrollos previstos, está reflejado en el plano nº 11 de propuesta.
+
+10.7.1.3.- Saneamiento
+
+En este apartado se contempla el saneamiento tanto desde el punto de vista de recogida de aguas fecales como de pluviales.
+
+10.7.1.3.1.- Estado actual
+
+Recogida de Aguas
+
+En la ciudad actual coexisten dos tipos de sistemas de evacuación de aguas:
+
+a) Recogida de pluviales y fecales de forma conjunta en un colector único o Recogida Unitaria.
+b) Recogida de aguas pluviales y fecales mediante colectores independientes o Recogida Separativa.
+
+Los planos de información nos 16 y 17 del Plan grafían respectivamente las cuencas de recogida y colectores pluviales, y los colectores unitarios y separativos. Esta información permite observar la tipología de cada cuenca con su sistema de evacuación.
+
+Excepto las cuencas de Lezkairu, Milagrosa, Iturrama y Universidades, que vierten al colector situado junto al río Sadar, todos los demás colectores de recogida unitaria y de fecales en la recogida separativa, convergen en el Colector Principal denominado C-2, que discurre desde Villava, con un trazado prácticamente paralelo al río Arga, hasta la Estación Depuradora de Arazuri.
+
+Esta situación de gran concentración, unida al desarrollo de importantes asentamientos urbanos que se están implantando en el este de la Comarca, y que necesariamente vierten al citado colector, está provocando que la capacidad del colector actual se vea seriamente comprometida.
+
+Los diversos colectores del sistema de recogida de aguas pluviales vierten directamente a los tres ríos que atraviesan el término municipal.
+
+Depuración
+
+La práctica totalidad de aguas fecales producidas en Pamplona y Comarca (un 97,4%) vierten en la Estación Depuradora de Arazuri, en donde se realiza su depuración, tanto físico-química, como biológica. Sus caudales de tratamiento son:
+
+Caudal medio tratado: 1.500 l/s
+Caudal máximo tratado: 4.000 l/s
+
+Una vez depuradas, estas aguas son devueltas al río Arga.
+
+10.7.1.3.2.- Actuaciones previstas
+
+- Entre las actuaciones ya previstas o en ejecución figuran las relativas a los desarrollos urbanos de Rochapea, San Jorge, Alemanes y Casco Antiguo, donde el proceso urbanizador previsto conlleva el reconvertir la recogida unitaria actualmente existente en Recogida Separativa.
+- También se hallan entre las actuaciones previstas las de reforma y desdoblamiento del colector C-2, entre Burlada y San Jorge.
+
+10.7.1.3.3.- Conclusiones y Propuesta
+
+- La práctica totalidad de aguas residuales de Pamplona y Comarca se depuran, quedando a modo residual, un 2,5% de los vertidos que van a parar a fosas sépticas y un 0,1% a otras cisternas o bien se hallan sin control.
+- La implementación de sistema de recogida separativas sólo se deben llevar a cabo cuando se ejecutan nuevas urbanizaciones o remodelación de las existentes de gran envergadura. Esta recogida separativa no está técnica ni económicamente justificada en zonas urbanas de gran densidad edificatoria. En cualquier caso se deben seguir las conclusiones del Estudio de la Evolución Temporal y Espacial de la Calidad del Río Arga en la Comarca de Pamplona (gobierno de Navarra/2001).
+- Resulta de crucial importancia el colector denominado C-2, al que vierten gran parte de las aguas residuales de Pamplona y Comarca: debido a su trazado paralelo al río Arga da lugar a problemas puntuales de saturación en su capacidad, con diluciones parciales sobre el río, y sufre asimismo su anegación cuando existen crecidas.
+- Con el fin de mejorar, desde el punto de vista medioambiental, la situación actual del río Arga, la sociedad pública encargada del servicio proyecta la ejecución de las siguientes acciones:
+- Desdoblamientos o reformas en profundidad del colector C-2 entre Burlada y San Jorge (en fase actual de ejecución por tramos).
+- Construcción de depósitos de retención soterrados (Tanques de Tormenta) en los colectores de Chantrea y Biurdana; el primero de ellos a situar en el parque sur proyectado por el Plan Municipal en Chantrea, y el segundo en el espacio libre proyectado por el Plan junto al cementerio.
+- Los crecimientos proyectados por el Plan Municipal en el sureste y suroeste de Pamplona, así como los previstos en otros núcleos de población con cuencas que vierten en el río Sadar (Mutilvas, Tajonar,...) obligan a considerar la ampliación del colector paralelo al citado afluente del Arga para determinar las actuaciones a llevar a cabo en él, así como proceder a la regulación parcial de aquel mediante un depósito de retención soterrado (Tanque de Tormenta), que se proyecta instalar contiguo a la calle Fuente del Hierro, junto a la Avenida de Navarra.
+
+Relacionados con los diversos servicios asignados a la Mancomunidad de la Comarca de Pamplona, entre los que se encuentra la recogida y tratamiento de los Residuos Sólidos Urbanos, el Plan Municipal realiza una reserva de espacio en Trinitarios con destino a la central de recogida neumática de residuos del Casco Antiguo, con una superficie de 1.200 m2.
+
+- El trazado de la red básica de evacuación necesaria para el conjunto de la ciudad proyectada por el Plan Municipal, que incluye los nuevos desarrollos previstos, está reflejado en los planos nos 12 y 13 de propuesta.
+
+10.7.2.- Electricidad
+
+10.7.2.1.- Introducción
+
+La distribución de energía eléctrica en todo el territorio nacional corre a cargo de la empresa Red Eléctrica de España, S.A. (REDESA) a través de Líneas Aéreas de Muy Alta Tensión. Su misión es transportar la energía desde los centros de producción (Centrales Térmicas, Hidroeléctricas, Nucleares, Eólicas...) hasta las distintas subestaciones de las compañías eléctricas que se dedican a suministrar la energía a los distintos abonados.
+
+En Pamplona y Comarca, la propiedad, mantenimiento, gestión y explotación del suministro de energía eléctrica corre a cargo, actualmente, de la empresa IBERDROLA, S.A.
+
+Al igual que en otros tipos de servicios está previsto que en un futuro inmediato se liberalice su comercialización.
+
+10.7.2.2.- Estado actual
+
+10.7.2.2.1- Líneas de muy alta tensión
+
+Las líneas de REDESA transportan la energía a 220 Kvoltios desde Itxaso (Guipúzcoa) hasta las Subestaciones Eléctricas de Orcoyen y Cordovilla, donde realizan el aporte de la energía eléctrica demandada por Pamplona y Comarca.
+
+Desde estas subestaciones continúan sendas líneas hasta Tafalla y Sangüesa respectivamente.
+
+El tendido de las líneas de 220 Kv de muy alta tensión, es aéreo mediante torres metálicas, su trazado viene reflejado en el plano de información nº 18.
+
+10.7.2.2.2.- Subestaciones
+
+Las subestaciones de Orcoyen y Cordovilla, propiedad de Iberdrola, se encuentran interconexionadas entre sí. En ellas se procede, mediante transformadores, a reducir la tensión a 66 Kvoltios.
+
+La potencia nominal de energía eléctrica de la que disponen es la siguiente:
+
+- Subestación Orcoyen: 290 MVA
+- Subestación de Cordovilla: 215 MVA
+
+Desde las subestaciones, principalmente de forma aérea,, se procede a distribuir a las distintas Subestaciones Transformadoras de Reparto (S.T.R.) ubicadas en distintos puntos de Pamplona y Comarca.
+
+Las S.T.R. actualmente existentes, con la potencia de cada una de ellas son las siguientes:
+
+- S.T.R. de Santa Lucía: 40 MVA
+- S.T.R. de San Cristóbal: 40 MVA
+- S.T.R. de Huarte: 40 MVA
+- S.T.R. de Magdalena: 60 MVA
+- S.T.R. de Cordovilla: 40 MVA
+- S.T.R. de Sadar: 40 MVA
+- S.T.R. de Esquíroz: 20 MVA
+- S.T.R. de Landaben: 40 MVA
+- S.T.R. de Orcoyen: 20 MVA
+
+En el siguiente esquema se indica el interconexionado de la red de 66 Kvoltios entre las distintas subestaciones y S.T.R.
+
+[Figura: esquema del interconexionado de la red de 66 Kv. Rótulos de los nudos: SANTA LUCIA, SAN CRISTÓBAL, HUARTE, MAGDALENA, ORCOYEN, LANDABEN, SADAR, CORDOVILLA (dos veces) y ESQUIROZ. Leyenda: Red 66 Kv; Subestación; S.T.R. Las líneas de conexión del dibujo no se pueden reproducir en texto.]
+
+10.7.2.2.3.- Suministro en alta / media tensión
+
+En las S.T.R. señaladas se transforma la tensión de 66 Kvoltios a 13,2 Kvoltios.
+
+En algún caso puntual se alimentan a ciertos abonados de índole industrial directamente a 66 Kv. mediante líneas aéreas sobre torres.
+
+Lo más habitual es distribuir la energía a 13,2 Kv. hasta los centros de transformación, ya sean propiedad de la propia compañía eléctrica como de particulares.
+
+Las redes de distribución están canalizadas, salvo excepciones que se dan en zonas periféricas no consolidadas o en polígonos industriales.
+
+En plano de información nº 18 (Red Eléctrica) se señalan tanto las Líneas de Muy Alta Tensión, las Subestaciones, las S.T.R. y las líneas de suministro en Alta / Media Tensión.
+
+10.7.2.2.4.- Centros de transformación y redes de baja tensión
+
+En los centros de transformación distribuidos por toda la trama urbana se reduce la tensión de 13,2 Kv. a la de uso en baja tensión, que es 380 voltios entre fases (220 v. entre fase y neutro).
+
+En zonas de la ciudad con instalaciones de más de veinte años de antigüedad, llegan a coexistir las anteriores líneas con otras de 220 v. entre fases más viejas, que se van eliminando progresivamente conforme se llevan a cabo rehabilitaciones o reformas en las instalaciones eléctricas de los abonados.
+
+El reparto de las líneas de baja tensión a los distintos usuarios se realiza tanto de forma canalizada como grapeada a fachada; en algunos casos los pasos entre fachadas se realizan de forma aérea, si bien este último tipo de tendido tiende a desaparecer.
+
+Las líneas en Baja Tensión llegan hasta las instalaciones de Acometida y Caja General de Protección, donde comienza la propiedad de las instalaciones de los usuarios.
+
+10.7.2.3.- Actuaciones previstas
+
+De forma inmediata se va a instalar una nueva S.T.R. en Berichitos, junto al cementerio, para mejorar el servicio del suministro eléctrico a la zona oeste de la ciudad y para poder disminuir la carga de la S.T.R. de Landaben, que se encuentra prácticamente saturada.
+
+Otras dos S.T.R. a implantar a corto plazo son las de Rochapea y Mendillorri, que permitirán consolidar este servicio en los nuevos desarrollos urbanos; en el primero de los casos, para atender a los procesos en ejecución en Rochapea y San Jorge, además de los próximos en Euntzetxiki y en Ezkaba; en el segundo, para el servicio de los nuevos crecimientos proyectados por el Plan en el sureste de la ciudad, entre ellos el principal crecimiento urbano propuesto, en Lezkairu-Mochuelo.
+
+Según las necesidades que pueda requerir el polígono comercial y de oficinas previsto en Etxabakoitz sur, al que se añadirá a medio plazo el desarrollo del ámbito de la nueva estación ferroviaria, será necesario implantar en este lugar una nueva S.T.R.
+
+En función del desarrollo de la ciudad y de la mejora experimentada en el aislamiento de los conductores y transformadores, se tenderá a sustituir aquellas líneas aéreas de alta tensión (66 Kv. y 13,2 Kv.) que afecten al proceso urbanístico o medioambiental, por otras subterráneas. De forma análoga se contempla la posibilidad de cambiar el emplazamiento de la S.T.R. de Magdalena por otra en las inmediaciones, de forma que se minimice el impacto visual y la afección en el entorno del parque fluvial del Arga.
+
+En líneas de baja tensión, se seguirán eliminando de forma paulatina las redes aéreas de 220 voltios, especialmente en II Ensanche, Casco Antiguo, Chantrea y Milagrosa.
+
+10.7.2.4.- Conclusiones y Propuesta
+
+Como ya se ha mencionado anteriormente, la potencia que son capaces de suministrar las subestaciones de Orcoyen y Cordovilla es de 290 y 215 MVA respectivamente, lo que supone un total de 505 MVA. Sus potencias de uso en momentos puntas han sido en el año 2.001 de 210 y 206 Mwatios, es decir, un total de 416 Mw. Con esta potencia punta suministrada se ha dado energía eléctrica a Pamplona y Comarca, Sangüesa, Tafalla y sus municipios colindantes. Esto supone que las instalaciones de las subestaciones están con un grado máximo de saturación del orden del 82%.
+
+Respecto a las Subestaciones Transformadoras de Reparto (S.T.R.) la potencia punta demandada por Pamplona y Comarca fue del orden de 230 Mw. para 2.001. Como la total instalada es de 340 MVA, la saturación es del orden del 68%. Si bien las instalaciones actuales son suficientes para el consumo susceptible de producirse en los próximos años, se verifica un reparto de cargas desigual, lo que conlleva reforzar las instalaciones, incorporando sendas S.T.R. en el oeste y norte de la ciudad, ya mencionadas. Este incremento de S.T.R., además de reducir el grado de saturación, provoca una mayor estabilidad en las características de la corriente eléctrica, en especial en la tensión de la misma.
+
+Gran parte de los transformadores y redes de distribución están preparadas para el cambio del voltaje previsto, que pasa de 13,2 Kv. a 14 Kv. en Alta Tensión y de 380 v. a 400 v. en Baja Tensión.
+
+A la vista de lo señalado en este apartado, se considera que con las actuaciones previstas, se garantiza una estabilidad y seguridad en el suministro eléctrico de la ciudad a largo plazo, sin comprometer su desarrollo futuro.
+
+El plano de propuesta nº 13 expresa las características generales de la red eléctrica que debe servir a la ciudad proyectada por el Plan Municipal, incluyendo los nuevos desarrollos urbanos previstos.
+
+10.7.3.- Alumbrado público
+
+10.7.3.1.- Introducción
+
+El alumbrado público es un servicio público cuya prestación es de obligado cumplimiento para las entidades locales.
+
+Su ejecución puede realizarse de oficio, en las áreas consolidadas, o mediante su incorporación en los documentos y ejecuciones de los planes urbanísticos de desarrollo que se redactan, siguiendo el Reglamento Electrotécnico de Baja Tensión y los criterios establecidos por los servicios técnicos municipales.
+
+En aquellas instalaciones ejecutadas en las urbanizaciones de Polígonos promovidos por iniciativa privada, hasta que no se verifica la Recepción de la urbanización, la gestión y mantenimiento del Alumbrado Público es a cargo de los promotores. Una vez efectuada la Recepción, la propiedad, gestión y mantenimiento de la instalación pasa a ser del Ayuntamiento.
+
+10.7.3.2.- Estado actual
+
+Existen tres tipos de alumbrado público:
+
+10.7.3.2.1.- Alumbrado Viario
+
+Es el destinado a iluminar viales y zonas de tránsito en las que se verifica un tráfico simultáneo, tanto rodado como peatonal. El objetivo básico de este tipo de alumbrado es dotar de un nivel suficiente de luz, con una distribución homogénea para garantizar la seguridad del tráfico antes señalado.
+
+Los criterios generales de este tipo de alumbrado, según las distintas configuraciones de las vías son:
+
+- Altura de los puntos de luz: entre 9 y 12 m.
+- Luminarias: asimétricas dotadas de lámparas de V.S.A.P. con potencias comprendidas entre 150 w y 400 w.
+- Nivel medio de iluminación en servicio: 30 lux .
+- Uniformidad media: 60%.
+- Uniformidad general: 30%.
+
+10.7.3.2.2.- Alumbrado Peatonal
+
+Es el destinado a iluminar zonas donde esencialmente se da un tráfico peatonal. Su misión es iluminar el entorno y señalizar las vías de forma que se favorezca el uso y la actividad de la ciudad, de una forma confortable y segura, en horas en que la luz solar sea insuficiente para la actividad ciudadana. Quedan englobados en este apartado, los caminos de parques y jardines, zonas de paso peatonal, así como porches de uso público.
+
+Los criterios generales en este tipo de alumbrado son :
+
+- Altura de los puntos de luz: de 3,5 a 5 m.
+- Luminarias: con carácter antivandálico, dotadas con lámparas de V.S.A.P.-70 a 150 w y de V.M.C.C. de 80 a 125 w en porches.
+- Nivel medio de iluminación: 20 lux.
+- Uniformidad media: 30%.
+- Uniformidad general: 20%.
+
+10.7.3.2.3.- Alumbrado ornamental
+
+Es el destinado a iluminar viales, parques o superficies públicas significativas o de especial relevancia.
+
+En este tipo de alumbrado, además de cumplir las funciones señaladas en los apartados anteriores, se concede una importancia primordial al diseño estético del punto de luz, sin deterioro de los requisitos luminotécnicos y eléctricos exigibles a una buena instalación.
+
+10.7.3.2.4.- Características del servicio
+
+Las instalaciones de Alumbrado Público se regulan desde los Centros de Mando que son los dispositivos de accionamiento de encendido-apagado, de protecciones y donde se distribuyen los distintos circuitos que suministran energía eléctrica a las redes de las zonas que ilumina cada Centro de Mando. En estos centros se instalan así mismo los contadores de consumo para la facturación eléctrica.
+
+En el plano de información nº 19 (Centros de Mando y áreas de Alumbrado Público) se señalan las zonas dependientes de cada Centro de Mando y la ubicación de éstos.
+
+Para conseguir una mejor relación de coste/servicio, a esas instalaciones se les dota de una configuración que permita, a horas en que el tráfico nocturno se aminora (a partir de las 22 h. en invierno y de las 23 h. en verano) de unos dispositivos de ahorro energético basados en el apagado parcial de puntos de luz o de reducción del flujo luminoso en los mismos.
+
+10.7.3.3.- Actuaciones previstas
+
+En las labores que el Ayuntamiento viene llevando a cabo en las instalaciones de Alumbrado Público y que se proyectan desarrollar a corto y medio plazo, deben destacarse las siguientes:
+
+- Adecuación de las instalaciones en función de los criterios señalados en los apartados 10.7.3.2.1, 10.7.3.2.2 y 10.7.3.2.3 según programas anuales y principalmente en áreas consolidadas.
+- Reposición de instalaciones obsoletas, tanto en materiales, como equipo y actualización al R.E.B.T., según programas anuales y principalmente en áreas consolidadas.
+- Implantación de nuevas instalaciones en zonas urbanas sin alumbrado y en viales o caminos de entidad en zonas no urbanas.
+
+10.7.3.4.- Conclusiones y Propuesta
+
+- La práctica totalidad de la trama urbana consolidada dispone de Servicio de Alumbrado Público.
+- Para homogeneizar las calidades y niveles luminotécnicos del servicio es conveniente actuar principalmente en zonas consolidadas enclavadas en el interior o de forma anexa a urbanizaciones recientemente desarrolladas, así como en zonas puntuales del casco urbano. (p. ej. C/ Artica, Barrio de la Chantrea, Avda. del Ejército, Avda. de Pío XII, parte de la Avda. de Carlos III, ...) y también en zonas consolidadas periféricas con una antigüedad de más de 20 años. Estas actuaciones se deben encaminar a la renovación de materiales ya obsoletos, y de líneas fuera de normativa y/o saturadas. Esto supone un notable esfuerzo presupuestario a cargo del Ayuntamiento.
+- El criterio de racionalización de las instalaciones de Alumbrado Público aconseja que los centros de mando y líneas principales sean suficientes para absorber una potencia de 30 a 50 Kw. en función de los sectores que deben iluminar. Se debe huir de aquellas centrales de mando de tamaño minúsculo o de suministro monofásicos que conllevan una relación de costo mantenimiento/servicio dado excesivamente alta.
+- La definición de centros de mando y áreas de influencia para los nuevos desarrollos proyectados está reflejado en el plano nº 14 de propuesta.
+- Se prevé la instalación gradual, en las zonas en las que todavía no existen, de sistemas de ahorro de energía formados por sistemas reductores estabilizadores de la tensión y, por lo tanto, del flujo luminoso.
+- Siempre que sea factible y no comprometa la calidad y parámetros económicos de la instalación, se colocarán luminarias cuyas curvas fotométricas sean tales que el flujo luminoso emitido quede por debajo del nivel horizontal de proyección.
+- También se pretende proceder a la implantación progresiva de sistemas telemandados de control de las instalaciones, de manera que se pueda conocer el estado de funcionamiento de las instalaciones de Alumbrado Público así como poder introducir parámetros de funcionamiento desde uno o varios pupitres de control.
+
+10.7.4.- Gas natural
+
+10.7.4.1.- Introducción
+
+Desde 1988 se encuentra operativo el Servicio Público de Gas Natural para Pamplona y su Comarca.
+
+La propiedad, gestión, explotación y mantenimiento de la red gasista en la Comarca de Pamplona, corre a cargo de las empresas GAS NAVARRA, S.A. y
+
+GAS NATURAL SDG, S.A.
+
+GAS NATURAL SDG, S.A. distribuye en Alta Presión (desde 4 hasta 16 bares) y suministra gas a algunos abonados industriales singulares.
+
+GAS NAVARRA, S.A., es la empresa concesionaria para el suministro de gas a Media Presión y Alta Presión (entre 4 y 16 bares) con destino a usuarios domésticos, comerciales e industriales, siendo GAS NAVARRA, S.A. una filial del grupo internacional “GAS NATURAL”.
+
+10.7.4.2.- Estado actual
+
+10.7.4.2.1- Redes generales
+
+El transporte de gas natural a Pamplona y Comarca se realiza desde el gasoducto Eje del Ebro, propiedad de ENAGAS, a través del ramal Calahorra-Pamplona y desde el gasoducto internacional Larrau-Villar de Arnedo, a través del ramal Sansoain-Egüés, siendo la presión de diseño de ambos ramales de 45 bares.
+
+El ramal Calahorra-Pamplona finaliza en una posición de regulación ubicada en Beriáin, a partir de la cual el gasoducto describe un semianillo que bordea Pamplona desde la Estación de Medida ubicada en la meseta de Donapea, y discurre por el sur, el oeste y norte de Pamplona hasta el barrio de Sta. Engracia, desde donde se dirige hacia Alsasua. En Pamplona continúa por la zona norte de San Jorge, Rochapea, Ansoáin, Villava, Arre y Huarte para cerrarse con el ramal Sansoain-Egüés, anteriormente mencionado. El trazado queda reflejado en el plano nº 20 de información.
+
+Esta red básica descrita está ejecutada de forma subterránea, con tubos de acero y siguiendo la Instrucción Técnica Complementaria (ITC) M.I.G.-5.1 del Reglamento de Acometidas de Combustibles Gaseosos.
+
+10.7.4.2.2.- Estaciones de regulación y/o medida
+
+La red general señalada que rodea Pamplona, actualmente de GAS NATURAL SDG, S.A., confluye con las redes de GAS NAVARRA en las Estaciones de Regulación y/o Medida.
+
+En estas instalaciones se reduce la presión a un valor máximo de 4 bares, que es en la que distribuye GAS NAVARRA. Así mismo, se encuentran equipos de medida de consumo y caudal que pasan a través de la estación.
+
+Las instalaciones deben cumplir la instrucción M.I.G.-R.7.1 del Reglamento indicado en el anterior apartado.
+
+Las estaciones que afectan tanto a Pamplona como a la comarca son las siguientes:
+
+- Estación de Medida Esquíroz:
+Ubicación: Alto Donapea
+Término Municipal: Pamplona
+Nota: No regula la presión.
+- Estación de Regulación Pamplonica:
+Ubicación: Avda. Zaragoza, frente a Pamplonica
+Término Municipal: Pamplona
+Capacidad Regulación: 9.000 m3/h
+- Estación de Regulación Sadar:
+Ubicación: Cruce C/ Aranguren con C/ Labiano
+Término Municipal: Pamplona
+Capacidad Regulación: 6.000 m3/h
+- Estación de Regulación y Medida Barañáin:
+Ubicación: Rotonda C/ Concepción Benítez con Avda. Barañáin
+Término Municipal: Pamplona
+Capacidad Regulación: 9.000 m3/h
+- Estación de Regulación y Medida Orcoyen:
+Ubicación: Polígono Agustinos junto a Cárnicas Artesa
+Término Municipal: Orcoyen
+Capacidad Regulación: 9.000 m3/h
+- Estación de Regulación y Medida Rochapea:
+Ubicación: Cruce C/ Bernardino Tirapu con C/ Carriquiri
+Término Municipal: Pamplona
+Capacidad Regulación: 9.000 m3/h
+- Estación de Regulación y Medida Villava:
+Ubicación: C/ Las Eras
+Término Municipal: Villava
+Capacidad Regulación: 9.000 m3/h
+- Estación de Regulación y Medida Beriáin:
+Ubicación: Al norte del pueblo de Beriáin
+Término Municipal: Beriáin
+Capacidad Regulación: 6.000 m3/h
+- Estación de Regulación y Medida Egüés:
+Ubicación: Polígono Industrial de Egüés
+Término Municipal: Egüés
+Capacidad Regulación: 2.500 m3/h
+- Estación de Regulación y Medida Landaben:
+Ubicación: C/ A del Polígono Industrial Landaben, junto a Transportes Ochoa.
+Término Municipal: Pamplona
+Capacidad Regulación: 2.000 m3/h
+- Estación de Regulación y Medida Ororbia:
+Ubicación: C/ Zabalgaña
+Término Municipal: Olza
+Capacidad Regulación: 5.000 m3/h
+
+10.7.4.2.3- Redes urbanas de distribución
+
+Llamamos Redes Urbanas de Distribución en este documento a aquellas cuya presión máxima de uso es de 4 bares, que son propiedad de GAS NAVARRA y son construidas con tubería de polietileno.
+
+En el plano de información nº 20 (Canalización de Gas) se señalan las canalizaciones principales que, por el caudal que discurre por el tubo, constituyen las arterias fundamentales de distribución al conjunto de la trama urbana.
+
+Los diámetros de los tubos que se señalan son de 160 y 110 milímetros, con un caudal máximo de 3.500 m3/h. y 2.500 m3/h. respectivamente.
+
+Esto supone dar cobertura de gas a 4.600 y 3.300 usuarios respectivamente, en función del diámetro de los tubos, ya que la demanda media (consumo total dividido por el total de usuarios) en momentos punta se sitúa en un consumo de 0,9 m3/h. por usuario.
+
+Las redes de media presión canalizadas están realizadas con tubos de polietileno y deben cumplir la ITC MIG-5.3 del Reglamento de Redes y Acometidas Gaseosas.
+
+Las Redes Urbanas de Distribución a su vez se ramifican en otras de menor índole desde las que se acomete las instalaciones receptoras (armarios de regulación) que suministran el gas a los usuarios.
+
+La evolución de usuarios en Pamplona de gas natural ha sido en estos últimos años la siguiente:
+
+TABLA: Evolución de usuarios de gas natural en Pamplona (filas: Fecha)
+Columnas: Nº Usuarios
+- 31-12-94: Nº Usuarios = 19.284
+- 31-12-95: Nº Usuarios = 21.500
+- 30-09-96: Nº Usuarios = 23.004
+- 31-12-97: Nº Usuarios = 27.547
+- 30-10-98: Nº Usuarios = 33.060
+- 31-12-99: Nº Usuarios = 49.916
+- 31-12-00: Nº Usuarios = 58.241
+- 31-12-01: Nº Usuarios = 66.383
+
+10.7.4.3.- Actuaciones previstas
+
+10.7.4.3.1- Redes generales
+
+El Gasoducto Barcelona-Bilbao se alimenta de depósitos metaneros ubicados en Barcelona, previa regasificación del gas natural licuado, así como del gasoducto Argelia-Andalucía y del gasoducto Europeo que atraviesa Navarra desde el Puerto de Larrau hasta Villar de Arnedo (La Rioja).
+
+La Comarca de Pamplona cuenta con dos suministros de distinta procedencia que podrán ser alternativos o simultáneos en función de las necesidades de consumo: el gasoducto procedente de Barcelona y el gasoducto procedente de Europa.
+
+10.7.4.3.2- Estaciones de regulación y/o medida
+
+En los próximos años, en función de la demanda de gas natural de urbanizaciones y polígonos que se vayan construyendo en la Comarca de Pamplona, GAS NAVARRA, S.A., tiene prevista la construcción de 3 nuevas ERM:
+
+- Estación de Regulación y Medida Comarca-II:
+Ubicación: Polígono Industrial Comarca-II
+Término Municipal: Galar
+Capacidad Regulación: 9.000 m3/h
+- Estación de Regulación y Medida Huarte:
+Ubicación: Por determinar
+Término Municipal: Huarte
+Capacidad Regulación: 9.000 m3/h
+- Estación de Regulación y Medida Ezcaba:
+Ubicación: Urbanización Ezcaba
+Término Municipal: Pamplona
+Capacidad Regulación: 6.000 m3/h
+
+10.7.4.3.3- Redes urbanas de distribución
+
+Estas redes se siguen instalando, tanto en Pamplona como en su Comarca, para incrementar el grado de cobertura del gas, ya sea en zonas consolidadas como en zonas en proceso urbanizador, en las que se incorpora en sus proyectos de urbanización, por lo que no presenta incidencias a reseñar en el desarrollo urbano.
+
+10.7.4.4.- Conclusiones y Propuesta
+
+En virtud de lo hasta aquí expuesto se pueden extraer las siguientes consideraciones:
+
+- Con la red general alimentada desde dos puntos independientes, queda garantizada la capacidad de suministro a largo plazo, sin limitaciones para el futuro desarrollo de Pamplona y Comarca.
+- Las Estaciones de Regulación y Medida actuales tienen una capacidad suficiente para la demanda prevista a medio plazo.
+- Las principales redes de distribución que recorren la trama urbana están suficientemente dimensionadas por lo que se estima que el servicio puede estar cubierto para los próximos 10 años.
+- El trazado de la red básica necesaria para los nuevos desarrollos proyectados está reflejado en el plano nº 15 de propuesta.
+
+10.7.5.- Telefonía
+
+10.7.5.1.- Introducción
+
+El Servicio de Telefonía actualmente se encuentra liberalizado, tanto en su aspecto básico como en la telefonía móvil. Existen varios operadores que actúan sobre estos servicios.
+
+No obstante, debido a la figura de monopolio que ha existido durante años en favor de la empresa Telefónica de España, hoy en día la práctica totalidad de las instalaciones e infraestructuras que conlleva este apartado son de su propiedad; los gestiona y mantiene, teniendo por ello una posición predominante dentro del sector de operadores de telecomunicación. Habiéndose, tal y como se ha señalado, liberalizado el sector de las telecomunicaciones, actualmente existe normativa al respecto emanada del Gobierno Central, por lo que la regulación de estos aspectos queda sujeta a la legislación vigente en cada momento.
+
+10.7.5.2.- Estado actual
+
+10.7.5.2.1- Red Básica
+
+La interconexión telefónica de Pamplona con el exterior se realiza desde las Centrales existentes, ya sea por pares de cables, fibra óptica o mediante repetidores en antenas.
+
+La Centrales citadas se encuentran interconexionadas entre ellas y con las redes existentes en la trama urbana de forma mallada.
+
+La distribución urbana del servicio telefónico se realiza principalmente por canalizaciones subterráneas, que interrelacionan las Arquetas y Cámaras de Registro existentes, que son los centros de ramificación de los sistemas de comunicación.
+
+Los sistemas de comunicación ubicados en las canalizaciones señaladas son, indistintamente, cables de fibra óptica y/o "cables de pares" convencionales de cobre.
+
+En el plano de información nº 21 (Red Telefónica) se señalan las canalizaciones más importantes.
+
+Desde las cámaras de registro, mediante canalizaciones de menor importancia, en algunos casos de forma grapeada a fachada, y excepcionalmente de forma aérea, se tienden los cables conductores de señal hasta las cajas repartidoras ubicadas en las distintas fincas o manzanas y desde estas cajas se da servicio directamente a los distintos usuarios.
+
+10.7.5.2.2.- Centrales telefónicas
+
+Son los núcleos receptores y distribuidores de todas las líneas existentes. Hacen una labor de reparto y control de las comunicaciones; en ellas se encuentran los contadores del servicio.
+
+A Pamplona le afectan directamente seis Centrales telefónicas cuyas ubicaciones se señalan a continuación:
+
+- Central C/ Aoiz.
+Ubicación: C/ Aoiz (Junto al Conservatorio P. Sarasate)
+Término Municipal: Pamplona
+- Central de Rochapea.
+Ubicación: Cruce C/ Urzainqui con C/ Artica
+Término Municipal: Pamplona
+- Central de Cortes.
+Ubicación: Cruce C/ Cortes de Navarra con C/ Amaya
+Término Municipal: Pamplona
+- Central de San Juan.
+Ubicación: Avda. Bayona, 38
+Término Municipal: Pamplona
+- Central de Mendillorri.
+Ubicación: Urbanización Mendillorri
+Término Municipal: Valle de Egüés
+- Central de Barañáin.
+Ubicación: Avda. Rascacielos
+Término Municipal: Barañáin
+- Central de Cordovilla (Retevisión).
+Ubicación: Polígono Industrial
+Término Municipal: Cordovilla
+- Central de Cordovilla (Airtel)
+Ubicación: Polígono Industrial
+Término Municipal: Cordovilla Actualmente se tiende a implantar pequeñas minicentrales automáticas (para dar servicio a unos 300 abonados), conectadas por fibra óptica a las centrales ya existentes.
+
+10.7.5.3.- Actuaciones previstas
+
+En lo que respecta a Redes Básicas se están ejecutando pequeñas ampliaciones en las redes de Rochapea y San Juan, debido a su proceso urbanizador, no estando en principio previsto acometer obras de envergadura.
+
+10.7.5.4.- Conclusiones y Propuesta
+
+En vista de lo hasta aquí expresado y trasponiendo los criterios de técnicos de las compañías, se pueden extraer las siguientes consideraciones.
+
+- Con las redes generales de infraestructuras existentes no hay problemas de ampliación en los servicios debidos al futuro desarrollo urbano.
+- El grado de saturación de las infraestructuras no es significativo.
+- Las nuevas zonas urbanas que se crean por el presente Plan Municipal, no van a conllevar reservas de espacio para la implantación de Centrales Telefónicas, sino que tal como se ha señalado anteriormente, por medio de minicentrales se podrá dotar de servicio a los nuevos asentamientos.
+- La línea de actuación descrita llevará a prever en los edificios una reserva de “Cuarto de Comunicaciones”,definida por una normativa sectorial específica, análogamente a lo que ocurre en la actualidad con los cuartos de contadores, ya sean de electricidad, aguas o gas.
+- La tecnología en este aspecto es altamente cambiante en la actualidad; asimismo las instalaciones de fibra óptica se han abaratado de manera notable, por lo que es previsible que en la ejecución de redes, tanto en vía pública como en edificios, se sustituyan los cables de cobre convencionales, por los de fibra óptica y cables coaxiales respectivamente, que poseen un ancho de banda superior a los de cobre.
+
+10.7.6.- Telecomunicaciones por cable
+
+10.7.6.1.- Introducción
+
+La Ley 11/98 de "Comunicaciones por Cable" establece el marco legal aplicable al servicio público de telecomunicaciones por cable y las redes que le sirven de soporte. Se entiende por servicio de telecomunicaciones por cable el conjunto de servicios de telecomunicación consistente en el suministro o intercambio de información en forma de imágenes, sonido, textos, gráficos o combinaciones de ellos, que se prestan al público en sus domicilios o dependencias de forma integrada mediante redes de cable.
+
+Esta ley modifica sustancialmente lo establecido por el marco regulador legislativo anterior, estando pendiente de publicación de un texto refundido que encuadre todo lo establecido para las Redes de Telecomunicación.
+
+10.7.6.2.- Estado actual
+
+En Pamplona se está comenzando a desarrollar este servicio.
+
+La demarcación para la televisión por cable queda limitada a aquellas entidades que pueda aprobar la autoridad competente en la materia.
+
+En algunos proyectos de urbanización se ha contemplado entre las infraestructuras de obra, la ejecución de canalización específica para telecomunicaciones por cable.
+
+10.7.6.3.- Instalación de una red de telecomunicaciones:
+
+Los distintos sistemas y elementos que componen una red de telecomunicaciones son los siguientes
+
+a) Cabecera: Es el elemento de captación de las señales de distinta naturaleza (TV terrestre, TV satélite, voz, datos...) que se van a suministrar por medio de la red. Lo más usual es que haya una por demarcación.
+b) Red Troncal: Es la destinada fundamentalmente al transporte de la señal a través de la demarcación. Se basa habitualmente en cable de fibra óptica y en la trama urbana deberá ir canalizado.
+c) Red de Distribución: Su misión consiste en llevar la señal de la red troncal hasta los distintos puntos de concentración del servicio. Se utiliza la fibra óptica, aunque también es admisible el cable coaxial en pequeños recorridos y protegidos contra interferencias. Deberá estar canalizada.
+d) Red de Acceso: Transporta la señal hasta los sistemas de distribución de cada edificio, pudiendo utilizarse igualmente las técnicas de fibra óptica o de cable coaxial.
+e) Cableado del edificio: Habitualmente realizado en cable coaxial, es el que se encarga de llevar la señal hasta el hogar del abonado.
+f) Una serie de elementos activos y pasivos de repetición, amplificación, distribución, ...
+
+10.7.6.4.- Conclusiones y Propuesta
+
+- El desarrollo de infraestructuras ya existente, especialmente en canalizaciones en Pamplona permitirán una rápida accesibilidad a estos servicios de gran parte de la población que lo desee.
+- En su aspecto constructivo, y debido principalmente a su incidencia en la ocupación del suelo público, el Ayuntamiento de Pamplona ha establecido un “Plan Especial de Implantación de las Redes de Telecomunicaciones en Pamplona”. Este Plan contempla que prioritariamente se deberán usar galerías o canalizaciones existentes de otras infraestructuras siempre que técnicamente sea posible, antes que tener que construir una nueva canalización específica. Así mismo se señalan criterio de ubicación de los distintos elementos de la red y de otros aspecto de los que las entidades locales disponen de competencias.
