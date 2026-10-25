@@ -19,7 +19,10 @@ import e51pn7 from "../../temas/E_Tema51_PN7.txt?raw";
 import e51pn8 from "../../temas/E_Tema51_PN8.txt?raw";
 import e51pn9 from "../../temas/E_Tema51_PN9.txt?raw";
 import e52 from "../../temas/E_Tema52.txt?raw";
-import e53 from "../../temas/E_Tema53.txt?raw";
+import e53marco from "../../temas/E_Tema53_marco.txt?raw";
+import e53nug1 from "../../temas/E_Tema53_NUG_1.txt?raw";
+import e53nug2 from "../../temas/E_Tema53_NUG_2.txt?raw";
+import e53nug3 from "../../temas/E_Tema53_NUG_3.txt?raw";
 import e54 from "../../temas/E_Tema54.txt?raw";
 import e55 from "../../temas/E_Tema55.txt?raw";
 import e56 from "../../temas/E_Tema56.txt?raw";
@@ -96,7 +99,7 @@ export const TEXTOS_TEMAS = {
   E50: aplicar(e50, c50),
   E51: [aplicar(e51, c51), CABECERA_ANEXOS_E51, e51pn3, e51pn4, e51pn5, e51pn7, e51pn8, e51pn9].map(limpiar).join(SALTO + SALTO),
   E52: aplicar(e52, c52),
-  E53: aplicar(e53, c53),
+  E53: [aplicar(e53marco, c53), e53nug1, e53nug2, e53nug3].map(limpiar).join(SALTO + SALTO),
   E54: aplicar(e54, c54),
   E55: aplicar(e55, c55),
   E56: aplicar(e56, c56),
