@@ -8,11 +8,15 @@ export default [
   // Reparto: estructura y documentos (arts. 3, 4 y 5 y tramitación del marco), revisión (art. 6),
   // división territorial (arts. 8 a 15), régimen del suelo (arts. 19, 42 y 54), gestión y plazos
   // (arts. 33, 43, 51 y 55), suelo no urbanizable (arts. 62 y 74), garajes (art. 31) y diseño (art. 77).
-  // Fuente: texto literal de la NUG (Texto Refundido aprobado por Acuerdo del Ayuntamiento de
-  // 18-01-2008, BON 22) en temas/E_Tema53_NUG_1-3.txt, y el marco de temas/E_Tema53_marco.txt.
-  // No se pregunta nada que dependa de lo modificado después de 2008 sin texto vigente (avisos de
-  // src/data/textosTemas/E53.js): arts. 27, 28, 35 bis, 39 bis, 66 y la columna «Alta prod.», 79,
-  // ni ascensores y accesibilidad en edificios existentes (arts. 5.4.1.b, 20.b, 35.8 y 75.2).
+  // Fuente: texto literal de la NUG vigente el 21-05-2026 (Texto Refundido aprobado por Acuerdo del
+  // Ayuntamiento de 18-01-2008, BON 22, con sus modificaciones de 2010 a 2021 incorporadas y marcadas en
+  // cada artículo) en temas/E_Tema53_NUG_1-3.txt, y el marco de temas/E_Tema53_marco.txt.
+  // 25-10-2026, puesta al día con la NUG vigente: revisadas las 15 activas contra el texto actualizado
+  // (ninguna se apoyaba en el párrafo suprimido del art. 5 ni en el art. 35.8); se retiran E53-31 (DEF,
+  // art. 8), E53-36 (AFIRM, mezcla de los arts. 33, 43, 51 y 55; el art. 43 sigue en E53-35), E53-38 (NEG, art. 74 general) y
+  // E53-40 (DATO, art. 77), y se añaden con el mismo tipo E53-41 (DATO, art. 28.21, locales de apuestas),
+  // E53-42 (NEG, art. 74, almacenes agrícolas), E53-43 (DEF, art. 39 bis) y E53-44 (AFIRM, arts. 80-85,
+  // ascensores). La mezcla de Zizur se mantiene y la letra correcta queda en 4/4/4/3.
   // ---------- Retiradas el 25-10-2026 (E53-01 a E53-25) ----------
   { id: "E53-01", tema: "E53", estado: "retirada", subtema: "Documentos del Plan", tipo: "META",
     q: "Conforme a lo establecido en el artículo 5 de la Normativa Urbanística General del Plan Municipal de Pamplona (texto refundido aprobado por Acuerdo del Ayuntamiento de Pamplona de 18 de enero de 2008), en cuanto al alcance y contenido de los documentos del Plan:",
@@ -225,7 +229,7 @@ export default [
         "La delimitación de las Áreas de Reparto.",
         "La definición de los Sistemas Generales."],
     c: 1, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 14: «La delimitación de Unidades de Ejecución es una determinación de carácter pormenorizado»; los arts. 45 y 57 la exceptúan expresamente del carácter estructurante de las Áreas de Reparto. Las otras tres son estructurantes: de las Zonas, Sectores y Áreas, «Su delimitación es una determinación de carácter estructurante» (art. 12.1); «La delimitación de las Áreas de Reparto es una determinación de carácter estructurante» (art. 13); y «La definición de los Sistemas Generales es una determinación de carácter estructurante» (art. 15). En la división territorial son también pormenorizadas la delimitación de las Unidades Básicas (art. 10.3) y la de las Parcelas (art. 11)." },
-  { id: "E53-31", tema: "E53", subtema: "División territorial", tipo: "DEF",
+  { id: "E53-31", tema: "E53", estado: "retirada", subtema: "División territorial", tipo: "DEF",
     q: "Según la Normativa Urbanística General del Plan Municipal de Pamplona, ¿qué es la Unidad Integrada en la división espacial que el Plan establece para el territorio municipal?",
     o: ["La medida territorial que define la estructura general y orgánica.",
         "La medida territorial que define y aclara el ámbito de la gestión.",
@@ -260,7 +264,7 @@ export default [
         "Se podrá urbanizar y edificar simultáneamente, si bien las obras de urbanización deberán ser acabadas antes del otorgamiento de la licencia de primera utilización de los edificios.",
         "Se podrá urbanizar y edificar simultáneamente, si bien las obras de urbanización deberán ser acabadas en el plazo de un año desde el otorgamiento de la licencia de primera utilización."],
     c: 2, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 43: en el régimen de gestión del suelo urbano, como cuestión de carácter general, «las obras de urbanización se ejecutarán con anterioridad al otorgamiento de las licencias de edificación. No obstante se podrá urbanizar y edificar simultáneamente, si bien las obras de urbanización deberán ser acabadas antes del otorgamiento de la licencia de primera utilización de los edificios». La a) cambia la licencia de primera utilización por el certificado final de obra, que el artículo no menciona. La b) y la d) sustituyen ese momento por un plazo de un año, que en el art. 43 es el de otros trámites: presentar el planeamiento pormenorizado desde la entrada en vigor del Plan, presentar los Proyectos del Sistema de Actuación y de Urbanización desde la aprobación de aquel, y solicitar licencia de edificación desde la aprobación del Proyecto del Sistema de Actuación." },
-  { id: "E53-36", tema: "E53", subtema: "Gestión y plazos", tipo: "AFIRM",
+  { id: "E53-36", tema: "E53", estado: "retirada", subtema: "Gestión y plazos", tipo: "AFIRM",
     q: "Según la Normativa Urbanística General del Plan Municipal de Pamplona, señale la respuesta CORRECTA sobre la gestión y los plazos de ejecución del Plan.",
     o: ["En suelo urbano, el Sistema de Actuación que se establece con carácter general es el de compensación.",
         "El Plan Parcial de cada Sector debe aprobarse definitivamente en el plazo de un año desde la entrada en vigor del Plan.",
@@ -274,7 +278,7 @@ export default [
         "Que estén amenazados por riesgos naturales o de otro tipo que sean incompatibles con su urbanización.",
         "Todas las respuestas anteriores son correctas."],
     c: 3, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 62: son suelo no urbanizable, entre otros, los terrenos que, «de acuerdo con la legislación sectorial, estén sometidos a algún régimen especial de protección incompatible con su transformación» (punto 1), los que «estén excluídos del proceso urbanizador por los instrumentos de ordenación del territorio» (punto 2) y los que «estén amenazados por sus riesgos naturales o de otro tipo que sean incompatibles con su urbanización» (punto 3); y «Los suelos incluidos en los supuestos de los puntos 1, 2, y 3 pertenecen a la Categoría de Protección. Los incluidos en los puntos 4 y 5 a la Categoría de Preservación». Las tres son ciertas, así que la correcta es la d). Son de Preservación los terrenos que el Plan clasifica por su valor agrícola, forestal, ganadero, paisajístico, cultural o ecológico (punto 4) y los que el planeamiento preserva por razones de infraestructuras, equipamientos e instalaciones públicas o de interés público (punto 5)." },
-  { id: "E53-38", tema: "E53", subtema: "Suelo no urbanizable", tipo: "NEG",
+  { id: "E53-38", tema: "E53", estado: "retirada", subtema: "Suelo no urbanizable", tipo: "NEG",
     q: "Según la Normativa Urbanística General del Plan Municipal de Pamplona, señale la respuesta INCORRECTA sobre las condiciones generales de obligado cumplimiento para las actividades constructivas en suelo no urbanizable:",
     o: ["La separación de la edificación a los caminos será como mínimo de 3 m desde su eje.",
         "Se podrá edificar hasta un 5 % de la superficie de la parcela, con un máximo de 200 m².",
@@ -288,11 +292,41 @@ export default [
         "Será de aplicación a las dotaciones privadas, salvo que la licencia las exima de ella.",
         "No será de aplicación en ningún caso, aunque la Normativa Urbanística Particular lo prevea."],
     c: 1, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 31: según su apartado C), «En las dotaciones públicas o privadas solamente se pueden instalar garajes en la planta de sótano bajo la edificación siempre que la instalación del garaje no impida la actividad dotacional de acuerdo con su normativa. [...] La exigencia de previsión del número de plazas de aparcamiento no será de aplicación a las dotaciones, salvo que la Normativa Urbanística Particular prevea lo contrario». La a) invierte la regla y la excepción. La c) distingue entre dotaciones públicas y privadas, cuando el apartado trata igual a unas y a otras, y toma la exención por licencia del art. 31.E), que se refiere a los suelos urbanos con especialísima dificultad técnica para construir garajes. La d) niega la salvedad: la Normativa Urbanística Particular sí puede exigir plazas a las dotaciones." },
-  { id: "E53-40", tema: "E53", subtema: "Normas de diseño y calidad", tipo: "DATO",
+  { id: "E53-40", tema: "E53", estado: "retirada", subtema: "Normas de diseño y calidad", tipo: "DATO",
     q: "Conforme a lo establecido en el artículo 77 de la Normativa Urbanística General del Plan Municipal de Pamplona, en el uso residencial colectivo, la altura máxima de la edificación será de planta baja y cinco alturas (B+5) y siempre menor o igual a:",
     o: ["12 metros.",
         "15 metros.",
         "18 metros.",
         "20 metros."],
     c: 3, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 77: en las tres modalidades del residencial colectivo (manzana compacta, manzana con patio y bloques aislados, art. 77.1), «La altura máxima de la edificación será de planta baja y cinco alturas (B+5) y siempre menor o igual a 20 metros». Las demás cifras: 12 m es la dimensión máxima de los usos comercial y de oficinas, con B+2 (arts. 77.4 y 77.5); 15 m es la profundidad máxima de edificación en plantas elevadas de la manzana con patio (art. 77.1.b); y 18 m no figura en el artículo. Las Normas de Diseño y Calidad se aplican en suelo urbano y urbanizable en defecto de regulación en la Normativa Urbanística Particular, el planeamiento pormenorizado y las Ordenanzas." },
+  // ---------- Activas desde el 25-10-2026, sobre lo modificado después de 2008 (E53-41 a E53-44) ----------
+  // Sustituyen a E53-40 (DATO), E53-38 (NEG), E53-31 (DEF) y E53-36 (AFIRM), con el mismo tipo.
+  { id: "E53-41", tema: "E53", subtema: "Compatibilidad de usos", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 28 de la Normativa Urbanística General del Plan Municipal de Pamplona, los locales destinados a establecimientos de apuestas, locales de juego con dinero, bingos y casinos deberán mantener, respecto de los centros educativos, culturales, deportivos y recreativos, una distancia mínima de:",
+    o: ["200 m.",
+        "300 m.",
+        "400 m.",
+        "500 m."],
+    c: 2, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 28: su apartado 21, añadido por la modificación pormenorizada de 2021 (BON n.º 125, de 28-05-2021), dispone que «Los locales destinados a las actividades específicas de: establecimientos de apuestas, locales de juego con dinero, bingos y casinos, o la ampliación de los ya existentes, deberán mantener una distancia mínima de 400 m. respecto de centros educativos, culturales, deportivos y recreativos». Añade que «Esta distancia mínima se mantendrá también entre los propios locales de apuestas, juego con dinero, bingos y/o casinos», y que se mide «mediante la línea quebrada mínima resultante de unir los dos puntos de fachada más próximos entre el local y cualquiera de las dotaciones citadas, a través de espacio de uso público». La a), la b) y la d) no son la cifra del apartado, que fija una sola distancia, 400 m, frente a los centros y entre locales: 200 m y 300 m quedan por debajo del mínimo y 500 m no figura en el artículo (el 200 que sí aparece en el art. 28 son los 200 m² de la residencia eventual que comparte acceso con las viviendas, apartado 9 bis). Ojo: la lista de centros no incluye los sanitarios." },
+  { id: "E53-42", tema: "E53", subtema: "Suelo no urbanizable", tipo: "NEG",
+    q: "Conforme a lo establecido en el artículo 74 de la Normativa Urbanística General del Plan Municipal de Pamplona, señale la respuesta INCORRECTA sobre las condiciones que deben cumplir obligatoriamente los almacenes destinados a cubrir las necesidades propias de las explotaciones agrarias:",
+    o: ["La altura máxima de la edificación hasta la cumbrera será de 8 m.",
+        "Se podrá edificar hasta el 3 % de la parcela, con un máximo de 400 m².",
+        "Se situarán a una distancia mínima de 45 m del borde del río.",
+        "La explotación agraria tendrá, en el mismo ámbito, más de 10.000 m²."],
+    c: 0, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 74: en la redacción de 2013 (modificación de suelo no urbanizable de alta productividad, OF 46E/2013), los almacenes destinados a cubrir las necesidades propias de las explotaciones agrarias deben cumplir, entre otras, esta condición: «Altura máxima de la edificación: máximo 6 m hasta cumbrera. Se prohíben los sótanos». Por eso la a) es la INCORRECTA: los 8 m son la altura de las condiciones generales de las actividades constructivas del mismo artículo («Altura de edificación a cumbrera: máximo de 8 metros»). Las demás son literales: «Se podrá edificar hasta un 3% de superficie de parcela, con un máximo de 400 m²» (b); los almacenes «Deberán situarse a una distancia mínima del borde del río de 45 metros» (c); y «La posibilidad de construir almacenes estará vinculada a la existencia de una explotación agraria que, dentro del mismo ámbito, tenga una superficie superior a 10.000 m²» (d). En el esquema de actividades constructivas, los almacenes agrícolas solo son autorizables en el suelo de alto valor para el cultivo, con la nota 8: «Autorizables sólo los almacenes vinculados a explotaciones agrarias de más de 1 Ha»." },
+  { id: "E53-43", tema: "E53", subtema: "Aprovechamientos", tipo: "DEF",
+    q: "Conforme a lo establecido en el artículo 39 bis de la Normativa Urbanística General del Plan Municipal de Pamplona, en las nuevas edificaciones de los Sectores y Unidades acogidos a la Disposición Transitoria 1.ª, apartado 2.º, de la Ley Foral 6/2009, el número máximo de piezas habitables no podrá superar la cantidad que resulta de:",
+    o: ["Dividir la superficie construible de uso residencial por 110 m² y multiplicar por 4.",
+        "Dividir el aprovechamiento de proyecto de uso residencial por 100 m² y multiplicar por 4.",
+        "Dividir la superficie construible de uso residencial por 100 m² y multiplicar por 5.",
+        "Dividir el aprovechamiento de proyecto de uso residencial por 110 m² y multiplicar por 5."],
+    c: 3, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 39 bis: añadido en 2010 (BON n.º 45, de 12-04-2010) para las nuevas edificaciones «en las que la densidad residencial queda limitada por el aprovechamiento de proyecto definido en el artículo 35-bis», toma como módulo «la unidad construida por 110 m² de aprovechamiento de proyecto de uso residencial», que «equivale, a su vez, a 5 piezas habitables», y admite cualquier modulación «siempre que el resultado no supere la cantidad que se obtiene de dividir el aprovechamiento de proyecto de uso residencial por 110 m² y multiplicar por 5 piezas habitables». La a) es la regla general del art. 39, que no rige en estos Sectores y Unidades: el resultado no puede superar «la cantidad que se obtiene de dividir la superficie construible de uso residencial por 110 m2 y multiplicar por 4 piezas habitables». La b) conserva el aprovechamiento de proyecto, pero cambia el módulo de 110 m² por 100 m² y las 5 piezas por 4. La c) toma la superficie construible del art. 39 con un módulo de 100 m² que no figura en ninguno de los dos artículos. En ambos, el número máximo de viviendas de dos piezas es el 40 % de la promoción." },
+  { id: "E53-44", tema: "E53", subtema: "Ascensores en edificios existentes", tipo: "AFIRM",
+    q: "Conforme a lo establecido en la Sección Décima de la Normativa Urbanística General del Plan Municipal de Pamplona, sobre la instalación de ascensores en edificios existentes, señale la respuesta CORRECTA:",
+    o: ["Excluye de su aplicación a los edificios catalogados en grado 1 y 2.",
+        "Se aplica en el suelo urbano consolidado, incluido el Casco Antiguo.",
+        "Requiere Estudio de Detalle si hay que ocupar espacio de uso público.",
+        "En fachadas interiores, el fondo puede prolongarse hasta 1,50 m."],
+    c: 0, exp: "Normativa Urbanística General del Plan Municipal de Pamplona, art. 85: «En los edificios catalogados en grado 1 y 2 no será de aplicación la sección 10 de la Normativa Urbanística General». La b) es falsa: la sección «es de aplicación en el suelo urbano consolidado, incluso en los ámbitos en los que el Plan Municipal remita al planeamiento de desarrollo o en los que se hubiesen aprobado instrumentos de planeamiento tras la entrada en vigor del Plan Municipal, excepto en el Casco Antiguo» (art. 80). La c) es falsa: el Estudio de Detalle se exige cuando la nueva caja de escalera se manifieste en forma de cuerpo saliente «que vuele sobre el espacio de uso público» más allá de las condiciones de la actuación directa (art. 82); si la instalación «requiera de la ocupación de espacio de uso público», debe tramitarse un Plan Especial (art. 83). La d) es falsa: en fachadas interiores o secundarias «se admitirá que el fondo de la edificación pueda prolongarse en una profundidad de 1,30 m» (art. 80); 1,5 m es el vuelo máximo del cuerpo saliente sobre el espacio de uso público en la actuación directa en calles de anchura superior a 9 m (art. 81). Las fachadas protegidas con grado 3 por el Catálogo requieren Consulta Previa (art. 84)." },
 ];
