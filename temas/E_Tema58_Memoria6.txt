@@ -1,0 +1,643 @@
+PLAN MUNICIPAL DE PAMPLONA (Texto Refundido; aprobación definitiva por Acuerdo de la C.O.T. de 18-12-2002). MEMORIA I - ANÁLISIS. CAPÍTULO VI «EL SISTEMA DE COMUNICACIONES», texto literal (pp. 169-208).
+
+[Fuente: PDF de la Memoria I en pamplona.es, https://www.pamplona.es/sites/default/files/2019-01/Anexos%20Plan%20Municipal%20Memoria%20I%20An%C3%A1lisis%20.pdf . Se han quitado las cabeceras, los pies y los números de página y se han unido los párrafos cortados por el salto de línea o de página; las tablas van en formato TABLA y las notas al pie, entre corchetes. El resto es texto literal.]
+
+CAPITULO VI
+
+EL SISTEMA DE COMUNICACIONES
+
+El presente Análisis del Sistema de Comunicaciones resume la información contenida en el Anexo V -Sistema de Comunicaciones- del Plan Municipal. El Anexo perteneciente al documento aprobado inicialmente, fue elaborado básicamente con información disponible hasta los años 1.996-97, aunque incorpora información de aforos de tráfico del año 1.998
+
+El Análisis se actualiza ahora, para el documento de aprobación provisional del Plan Municipal, con nuevos datos sobre la infraestructura de aparcamiento en el año 1.999, con la evolución del transporte colectivo urbano a partir de su comarcalización en Julio de 1.999, así como con las actuaciones previstas en relación con las nuevas infraestructuras ferroviarias -nuevo trazado y nueva estación -.
+
+Se estima conveniente mantener el Anexo original y las actualizaciones, que se identifican convenientemente, porque en conjunto constituyen la historia del sistema de comunicaciones de la ciudad en los años de redacción del Plan Municipal.
+
+6.1.- LA MOVILIDAD EN LA COMARCA DE PAMPLONA
+
+6.1.1.- Consideraciones generales
+
+El análisis de la movilidad en el municipio y en la comarca de Pamplona se ha realizado a partir de dos bases de datos: el Estudio de Movilidad en relación con el transporte urbano en la Comarca de Pamplona encargado por el Departamento de Obras Públicas y Transportes del Gobierno de Navarra en 1996/97 y la relación de Intensidades Medias diarias de Tráfico canalizadas por las principales vías de la Comarca y del Municipio. Esta última información ha sido facilitada igualmente por el Gobierno de Navarra y en lo referente a las vías municipales por el Ayuntamiento de Pamplona.
+
+El Estudio de Movilidad se apoya, básicamente, en la Encuesta Domiciliaria, realizada en noviembre de 1996, sobre una muestra de 2.350 hogares localizados en la Comarca de Pamplona, en los que residían 7.537 personas. La selección de la muestra se realizó por el método de rutas aleatorias y la encuesta se expansionó a la población de derecho residente en la Comarca de Pamplona a 1 de enero de 1996.
+
+6.1.2.- La movilidad global
+
+Los resultados de la encuesta muestran que los 277.345 habitantes de la Comarca de Pamplona, realizan en un día laborable medio del orden de 766.351 desplazamientos. Este volumen de viaje supone una tasa de generación de 2,76 viajes por habitante.
+
+El 95,3% de los desplazamientos realizados por los residentes en la Comarca de Pamplona son viajes basados en casa, lo que significa que tienen un extremo del viaje (el origen o el destino) en el domicilio. Si bien se ha comprobado que este tipo de encuestas tienden a minusvalorar el volumen de los viajes no basados en casa, esta cifra indica la preponderancia en la Comarca de Pamplona de los desplazamientos que tienen uno de sus extremos en el domicilio.
+
+Si se considera el total de los desplazamientos realizados, basados y no basados en casa, se observa que el motivo principal de viaje es el de Trabajo que significa el 32,3% de los viajes. El siguiente motivo en importancia es el de Estudios (22,8% de los viajes), seguido de Compras (12,8%), Asuntos Personales (10,8%) y Ocio-Recreo (11,5%). El resto de los motivos (Médico, Llevar a un pasajero y Otros) agrupados no alcanzan el 10%.
+
+En Pamplona, ciudad de tamaño medio, tienen poca importancia los transbordos entre medios de transporte. El 98,9% de los desplazamientos realizados por residentes en la Comarca de Pamplona son de una etapa. De ellos el 44,6% se realiza Andando, el 29,3% en coche como conductor y el 8,3% como acompañante. El resto se realiza en transporte colectivo. Los viajes de dos etapas se realizan mayoritariamente en autobús, en medio de transporte colectivo.
+
+El reparto modal de los desplazamientos diarios indica que una mayoría de los mismos se realiza andando (43,7% del total). En vehículo privado se realiza el 36,8% del total de viajes y el 14,4% restante utiliza el transporte colectivo. La cifra de viajes andando debe considerarse minusvalorada, dado que estas encuestas no contabilizan los viajes andando de menos de 5/10 minutos de duración.
+
+En las pautas de reparto modal influyen directamente las condiciones socioeconómicas de la población. Así por ejemplo la distribución modal varía sensiblemente según sea el nivel de motorización de las familias.
+
+En las familias que no poseen coche los viajes andando suponen del orden del 66% de los viajes totales, mientras que el transporte colectivo capta alrededor del 20% de los desplazamientos. En familias con tres o más coches, la participación de los viajes andando es del 25,8%, la cuota del transporte público no llega al 10 % y el resto de los viajes, algo más del 60%, se realiza en vehículo privado.
+
+Los viajes al exterior de la comarca, es decir los que tienen uno de sus extremos fuera de las zonas de la comarca, se reflejan en el siguiente cuadro
+
+TABLA: SALEN DE LA COMARCA HACIA EL EXTERIOR
+Columnas: Viajes
+- DESDE EL CENTRO: Viajes = 2.548
+- DESDE EL RESTO DE PAMPLONA: Viajes = 15.494
+- DESDE EL RESTO DE LA COMARCA: Viajes = 9.729
+- TOTAL: Viajes = 27.681
+
+TABLA: ENTRAN A LA COMARCA DESDE EL EXTERIOR
+Columnas: Viajes
+- HACIA EL CENTRO: Viajes = 252
+- HACIA EL RESTO DE PAMPLONA: Viajes = 801
+- HACIA EL RESTO DE LA COMARCA: Viajes = 210
+- TOTAL: Viajes = 1.263
+
+Estas cifras muestran la reducida importancia de los desplazamientos exteriores. Así los desplazamientos generados en la Comarca y dirigidos al exterior suponen el 3,8% del total de los viajes generados en la Comarca.
+
+Para la realización del análisis de las características de los desplazamientos se ha zonificado la comarca de Pamplona en tres coronas.
+
+La corona 1 es el centro de la comarca y está compuesta por las macrozonas 1 (Casco Viejo) y 2 (Ensanches).
+
+La corona 2 es el resto del municipio de Pamplona, denominada corona urbana o interior, y está integrada por las siguientes macrozonas: San Juan (3), Iturrama (4), Milagrosa (5), Chantrea (6), San Jorge-Rochapea (7) y Mendillorri (12).
+
+Finalmente la corona 3 es el resto de la comarca (corona metropolitana o exterior) e incluye las macrozonas de Burlada (9), Villava (10), Huarte (16), Arre-Oricáin (20), Olaz (22), Cizur Mayor (11), Cizur Menor (21), Berriozar (13), Ansoáin (14), Artica-Aizoáin (23), Noáin(15), Beriáin (17), Cordovilla (24), Barañáin (12), Mutilvas (13) y Orcoyen (14).
+
+Descontada la importancia de los viajes andando, y cuya implicación en las políticas urbanas se desarrolla en otro apartado de este trabajo, se ha realizado un análisis pormenorizado de los desplazamientos en medios motorizados.
+
+Los desplazamientos en medios motorizados tienen una influencia directa en la utilización y en la generación de problemas de las redes de transporte. Sus características, las actuales y las futuras, inciden en la ordenación viaria existente y en la proyectada. Desde la perspectiva de la ordenación viaria las conclusiones más significativas que se deducen del análisis espacial de los desplazamientos en medios motorizados, son las siguientes:
+
+1. La mayoría de los desplazamientos en medios motorizados (el 93,29%) tienen lugar en el interior de la comarca. Apenas un 6,71% de los desplazamientos en medios motorizados (originados y/o destinados en el exterior) se corresponden a relaciones del exterior con la comarca de Pamplona.
+2. En el interior de la comarca las relaciones más significativas tienen lugar entre las coronas urbana y metropolitana (28,98% del total ) y en el interior de la corona urbana (28,14%). Este análisis continúa siendo válido si se consideran únicamente los viajes en vehículo privado. En este caso las relaciones entre estas dos coronas suponen el 29,6% del total de los viajes y las interiores a la corona urbana el 27,0%.
+3. Las relaciones de la corona urbana con las otras dos son las de mayor importancia cuantitativa. La corona urbana genera y/o atrae el 79,20% de los desplazamientos en medios motorizados. Por lo tanto la corona urbana es el espacio donde se produce la mayoría de los desplazamientos motorizados.
+4. El poder generador y/o atractivo de las otras dos coronas es considerablemente menor. La corona metropolitana genera y/o atrae el 48,68% de los desplazamientos motorizados, mientras que el centro (corona 1) genera y/o atrae el 33,93% de los viajes motorizados. Por lo tanto, es en la corona urbana donde se sitúan los mayores problemas de transporte de la comarca de Pamplona. Tanto en las relaciones interiores a esta corona como en sus relaciones con la corona metropolitana y con el centro.
+5. Si se considera por separado el poder generador de cada una de las coronas se vuelve a constatar el mayor potencial de la corona urbana. La corona urbana genera el 57,17% de los desplazamientos en medios motorizados. La corona metropolitana genera el 33,30% y el centro 9,53%.
+
+Este mayor poder generador de la corona urbana se corresponde con la distribución espacial de la población. La corona urbana acoge al 58,05% de la población residente en la comarca, mientras que en la corona metropolitana reside el 29,09% de la población y en el centro el 12,86%. Es decir el municipio de Pamplona acoge del orden de los dos tercios de la población de la comarca.
+
+6. La capacidad de atracción de desplazamientos en medios motorizados de cada uno de las tres coronas arroja resultados algo diferentes. La corona urbana es, una vez más, el espacio con mayor poder de atracción de desplazamientos. El 50,16% de los desplazamientos en medios motorizados es atraído por la corona urbana. El centro atrae el 25,5% de los desplazamientos y la corona metropolitana atrae el 24,33% restante.
+
+Este diferente potencial de atracción se explica por las pautas de localización del empleo y de los equipamientos. El municipio de Pamplona concentra del orden del 66% de los puestos de trabajo existentes en la comarca. Las mayores concentraciones de empleo se producen en los Ensanches, en San Juan y en Rochapea-San Jorge.
+
+Los centros escolares se concentran también en el municipio de Pamplona que alberga el 80,2% de los puestos escolares utilizados por residentes en la Comarca.
+
+7. Si se realiza un análisis algo más desagregado se observa que la zona con mayor poder de generación de viajes es la de San Juan. Ella sola genera el 15,51% de los viajes en medios motorizados. Las siguientes zonas con mayor poder generador son Iturrama (12,23%), Burlada-Villava-Huarte-Arre-Oricáin-Olaz (11,46%), San Jorge (11,05%) y Casco Viejo-Ensanche (9,53%). Entre estas cinco zonas generan el 59,78% de los viajes en medios motorizados de la Comarca. De estas cinco zonas tres se localizan en la corona urbana, en el sur y en el oeste del municipio.
+
+Estos datos se corresponden, una vez más, con la distribución de la población. Así San Juan e Iturrama acogen el 30,76% de la población de la comarca. Por otra parte si se considera el área situada al norte del río Arga y compuesta por San Jorge-Rochapea-Chantrea-Burlada-Villava-Huarte-Arre-Oricáin y Olaz se observa que alberga al 28,12% de la población. En todo caso la mayor concentración de población se sitúa en el sector sur y oeste (San Juan, Iturrama, Barañáin) en donde reside el 38,47% de la población de la comarca.
+
+8. En cuanto a los viajes atraídos son las zonas de Casco Viejo/Ensanche (24,39%) y San Juan (12,16%) las que mayor número de desplazamientos atraen. A continuación se sitúan Iturrama, Milagrosa y Rochapea-San Jorge.
+
+De estas seis zonas, que atraen el 63,2% del total de viajes, cuatro se localizan en la corona urbana en el sur, este y norte del municipio de Pamplona.
+
+9. Todos estos resultados extraídos del análisis de la encuesta domiciliaria son coherentes con los que se deducen de la observación de las intensidades medias diarias de tráfico que se analizan pormenorizadamente más adelante.
+
+Por una parte se comprueba la mayor intensidad de tráfico de las vías municipales en particular en las principales vías de la corona urbana y de los ensanches. En todas ellas las intensidades medias diarias se sitúan por encima de los 15.000 vehículos diarios. En aquellas zonas donde existe un mayor poder de atracción y generación de desplazamientos las vías canalizan unas mayores intensidades de tráfico. Esto sucede particularmente en el sur y oeste del municipio donde las principales vías (Avenida de Bayona, Pío XII, Avenida Navarra,..) canalizan intensidades superiores a los 20.000 vehículos diarios y, en algún caso próximas, o incluso superiores a los 30.000 vehículos diarios.
+
+Las intensidades de tráfico descienden notoriamente en la corona metropolitana.
+
+Las Rondas Este y Oeste tienen intensidades siempre inferiores a los 15.000 vehículos diarios. El sistema de Rondas solamente se carga en aquellos tramos en que su trazado se aproxima o se introduce de lleno en la corona urbana. Esto sucede, como ya se ha reseñado, con la Variante o Avenida de Navarra. Pero también con la Ronda Norte que en su trazado se aproxima a las zonas de Chantrea, San Jorge, etc. La intensidad media diaria de la Ronda Norte es del orden de los 20.000 vehículos.
+
+6.1.3.- Análisis de la encuesta domiciliaria y sectores espaciales
+
+GENERACIÓN DE VIAJES POR PERSONA
+
+Viajes a pie
+
+En el conjunto del área en estudio, Pamplona y su comarca, la tasa de generación de viajes a pie es de 1'2 viajes por persona.
+
+Las mayores producciones de viajes a pie por persona se producen en núcleo urbano de Pamplona, destacando las zonas 1 y 3, correspondientes al Casco Viejo y el Ensanche y a Iturrama, con 1'65 y 1'54 viajes diarios por persona.
+
+Por contra, en algunos municipios de la comarca no se superan siquiera los 0'5 viajes a pie por persona. Son los casos de Cizur Mayor, Cizur Menor, Orcoyen y las Mutilvas. La característica dominante de estas zonas es el predominio de urbanizaciones residenciales de tipología unifamiliar, con gran dependencia del automóvil en la movilidad debido a la dispersión y a las distancias entre los hogares y los puntos de atracción de viajes. En las Mutilvas existe, además, un polígono industrial, zonas de tradicional baja producción/atracción de viajes a pie.
+
+Transporte privado
+
+La tasa de generación de viajes en vehículo privado se sitúa, para el conjunto del ámbito en estudio, en 0'92 viajes por persona y día.
+
+El análisis por zonas revela una correspondencia recíproca entre los viajes generados a pie y en automóvil, siendo las zonas con menor número de viajes peatonales las que presentan mayores tasas de viajes en vehículo privado.
+
+Destacan con tasas muy superiores a la media la zona 13 (Mutilvas), con 3'39 viajes por persona y día, la zona 14 (Orcoyen), con 2'87 y la zona 11 (Noáin, Cordovilla y Beriáin), con 2'31.
+
+En el otro extremo se sitúan la zona 1 (Casco Viejo y Ensanche), con 0'64 viajes en vehículo privado por persona y día, y la zona 10 (Ansoáin, Artica, Berriozar y Aizoáin), con tan sólo 0'54 viajes por persona y día.
+
+En conjunto, se producen más viajes en vehículo privado por persona en los pueblos de la comarca que en la capital, con excepción de Barañáin, y el caso ya comentado de Ansoáin, Artica, Berriozar y Aizoáin, con índices inferiores a la media.
+
+Transporte Público
+
+El índice de producción de viajes en Transporte Público es bajo comparado con el vehículo privado. Para el conjunto del ámbito, la media se sitúa en 0'39 viajes por persona y día.
+
+Destacan por su elevada tasa, respecto al conjunto de la comarca, los barrios de la capital de San Jorge, Rochapea, Chantrea y Mendillorri, y algunas áreas periféricas, como la zona 9 (Cizur Mayor y Cizur Menor), la zona 10 (Ansoáin, Artica, Berriozar y Aizoáin) y la zona 11 (Noáin, Cordovilla y Beriáin). Todas estas zonas superan los 0'5 viajes en transporte público por persona y día.
+
+Viajes totales
+
+La tasa de generación de viajes en Pamplona y su comarca es de 2'66 viajes por persona y día.
+
+Las mayores desviaciones por encima de la media se producen en la zona 13 (Mutilvas), con una tasa de 4'45 viajes, zona 14 (Orcoyen), 3'97 viajes, y zona 10 (Noáin, Cordovilla y Beriáin), con 3'77 viajes por persona y día.
+
+La zona con menor producción de viajes es la zona 10 (Ansoáin, Artica, Berriozar y Aizoáin), con 1'82 viajes por persona. El resto de zonas no presentan desviaciones significativas.
+
+ATRACCIÓN Y GENERACIÓN DE VIAJES MOTORIZADOS
+
+En términos absolutos, la zona que atrae más viajes motorizados es la zona 1, Casco Viejo y Ensanche. Esta zona atrae el 25'5% de los viajes del ámbito. La zona 2, San Juan Barañáin, atrae un 17'3% de los viajes que se producen en Pamplona y su comarca.
+
+En cuanto a la generación de viajes, la zona 2, San Juan y Barañáin, es la más importante con el 23'9% de los viajes generados en toda la comarca.
+
+Le siguen las zonas 3 (Iturrama), 6 (San Jorge y Rochapea), y 8 (Burlada, Villava, Huarte, Olaz y Arre-Oricáin) con participaciones entre el 11'6 y el 12'2% de los viajes generados.
+
+6.1.4.- La motorización en Pamplona y la Comarca
+
+La motorización en Pamplona
+
+El cálculo de la motorización por habitante para las diferentes zonas y subzonas de Pamplona se ha efectuado con los datos de estadísticas de vehículos por Distrito-Sección, suministrados por el Ayuntamiento de Pamplona.
+
+El índice de motorización medio en el término municipal de Pamplona es de 469 vehículos por 1.000 habitantes. De estos vehículos, 399 son turismos. Estas cifras son altas si las comparamos con otras ciudades españolas de tamaño parecido. De todas formas, este índice puede dar unos valores un poco más altos de los reales debido a que se ha trabajado con datos de población del 1 de Enero de 1.992, ya que son los últimos datos de que se dispone que estén divididos por Distrito-Sección. Globalmente, la diferencia no es muy acusada, ya que en ese año la población total de Pamplona sumaba 180.319 habitantes, y en 1.995 se alcanzó la cifra de 181.776 habitantes. En casos concretos, como por ejemplo los barrios de construcción muy reciente, es en donde se puede notar más esta diferencia.
+
+Por zonas, sólo la de Aranzadi, zona T, tiene un índice inferior a 300 turismos por 1.000 habitantes. La mayoría se encuentra entre 300 y 400. Las zonas con un índice mayor de 400 turismos son, de menos o más:
+
+TABLA: Zonas con un índice mayor de 400 turismos (filas: zona)
+Columnas: TURISMOS/1.000 HAB.
+- C - San Juan: TURISMOS/1.000 HAB. = 404
+- H - Iturrama: TURISMOS/1.000 HAB. = 410
+- K - Azpilagaña: TURISMOS/1.000 HAB. = 431
+- B - Ensanches: TURISMOS/1.000 HAB. = 460
+- P - Beloso: TURISMOS/1.000 HAB. = 490
+- Ñ - Soto de Lezkairu: TURISMOS/1.000 HAB. = 491
+- F - Mendebaldea: TURISMOS/1.000 HAB. = 552
+
+Esta última, Mendebaldea, es la zona con mayor índice de turismos: 552 por 1.000 habitantes y la única que sobrepasa los 500.
+
+En algunas subzonas se dan índices de motorización cuyo valor sobrepasa los 500 turismos por 1.000 habitantes. Algunas coinciden con Organismos Oficiales, como la 9, Gobierno de Navarra, o con barrios nuevos como las zonas 25, 27 y 29, que coinciden con Mendebaldea y zona cercana al Planetario.
+
+A continuación se va a comentar la evolución de la motorización en Pamplona entre 1991 y 1996: se ve que el total ha aumentado en 4.348 turismos en todo Pamplona. El índice de motorización medio era de 374 turismos por 1.000 habitantes en 1991 y de 399 en 1996.
+
+Por zonas, las únicas que han disminuido el número de turismos han sido la A, Casco Viejo, que ha disminuido considerablemente, y la Ñ y P, Soto de Lezkairu y Beloso, que lo han hecho en menor medida.
+
+El resto de las zonas han visto aumentar el número de turismos en estos cinco años. Según el índice de motorización, las que más destacan han sido, de menos a más, las zonas V, K, S, y F , Sta. Engracia-Avda. Guipúzcoa, Azpilagaña, Magdalena y Mendebaldea, respectivamente.
+
+Por subzonas, de un total de 81:
+
+- 12 han disminuido el número de turismos, las 4 del Casco Viejo, otras 4 en el Ensanche, 2 en la Milagrosa, una en Soto de Lezkairu y la otra en Beloso.
+- 43 han aumentado su número.
+- 2 se han mantenido igual.
+- 24 son subzonas sin población.
+
+Cabe señalar las subzonas 25, 27 y 29, Mendebaldea y zona Yamaguchi, en donde el aumento ha sido considerable con respecto a 1991. Este aumento del índice puede estar falseado, ya que se trata de una zona de nueva construcción, en donde la población ha aumentado considerablemente en estos cinco años, población no reflejada, ya que se tratan los turismos actuales con la población de Enero de 1992.
+
+El índice medio de motorización, en cuanto a turismos se refiere, 370 por 1.000 habitantes, es más bajo en los principales municipios de la Comarca de Pamplona que en el propio municipio de Pamplona, que tiene un índice medio de 399 turismos. Analizando las cifras anteriores, se pueden ordenar los municipios según el índice de turismos, de mayor a menor:
+
+TABLA: [sin título en el original] (filas: MUNICIPIO)
+Columnas: POBL. 1-1-95; VEHÍCULOS; TURISMOS; TURISMOS /1.000 HAB.
+- Barañáin: POBL. 1-1-95 = 19.759; VEHÍCULOS = 7.600; TURISMOS = 6.293; TURISMOS /1.000 HAB. = 318
+- Burlada: POBL. 1-1-95 = 15.833; VEHÍCULOS = 8.100; TURISMOS = 6.706; TURISMOS /1.000 HAB. = 424
+- Villava: POBL. 1-1-95 = 8.710; VEHÍCULOS = 3.869; TURISMOS = 3.204; TURISMOS /1.000 HAB. = 368
+- Cizur Mayor: POBL. 1-1-95 = 7.152; VEHÍCULOS = 3.269; TURISMOS = 2.707; TURISMOS /1.000 HAB. = 378
+- Berriozar: POBL. 1-1-95 = 5.507; VEHÍCULOS = 2.646; TURISMOS = 2.191; TURISMOS /1.000 HAB. = 398
+- TOTALES: POBL. 1-1-95 = 56.961; VEHÍCULOS = 25.484; TURISMOS = 21.101; TURISMOS /1.000 HAB. = 370
+
+6.2.- EL SISTEMA VIARIO. MORFOLOGÍA, USO Y FUNCIONAMIENTO
+
+Las oportunidades y debilidades del sistema viario se deducen de su morfología actual, de su relación con la ciudad existente y proyectada y de la estructura del sistema de desplazamientos de la comarca de Pamplona, analizada con anterioridad.
+
+En síntesis puede decirse que las deficiencias del sistema viario de Pamplona se concretan en: 1) problemas de estructura, 2) en una ausencia de jerarquización y ordenación viaria y 3) en la presencia de estrangulamientos en puntos singulares de la red comarcal.
+
+6.2.1.- La red comarcal
+
+Los problemas de estructura se aprecian en el sistema comarcal pero sobre todo en el sistema viario urbano. La morfología del sistema comarcal se encuentra muy condicionada por la génesis de sus principales elementos. El trazado de la mayor parte de ellos, es decir de las rondas (oeste, este y norte) responde al concepto de variante de carreteras pero no se aprecia una idea global de red comarcal.
+
+Esta concepción de la red como suma de variantes resulta eficaz en poblaciones de tamaño menor en donde la importancia y cuantía del tráfico de paso, es muy superior al tránsito propiamente urbano o comarcal. En esta situación el uso que del sistema de variantes realiza el tráfico urbano no siempre justifica que la forma de la red se encuentre condicionada por las características de la ciudad. El sistema de variantes siempre será un elemento principal de la organización de la ciudad pero el reducido tamaño de ésta última minora la importancia estructural de aquella.
+
+Probablemente, hasta hace poco, ésta era la realidad de Pamplona. Sin embargo la situación actual es diferente. Tal como demuestra la encuesta domiciliaria y los propios aforos de tránsito la relación de Pamplona con los municipios de su comarca sigue una tendencia creciente.
+
+El análisis de los tráficos muestra que en todas las carreteras radiales la intensidad de vehículos sube significativamente en las proximidades de la ciudad de Pamplona y que esa tendencia se ha acentuado en los últimos años. Estos datos indican que la importancia del tráfico de paso, aún siendo todavía relevante, es progresivamente decreciente en relación al tráfico comarcal.
+
+Todos los datos demuestran el mayor peso de los tráficos comarcales en comparación con el tránsito de paso de vehículos y con el tráfico exterior a la comarca. Esto no significa que en Pamplona los problemas derivados del tráfico de paso sean menores, ni mucho menos, pero si que la organización y la forma de la red comarcal debe responder a las necesidades de los desplazamientos que se generan en la comarca.
+
+También manifiestan la creciente importancia de las relaciones comarcales tanto interiores como con la ciudad de Pamplona, hasta el punto de convertir el sistema de Rondas en el sistema básico de la ciudad real. La importancia cuantitativa de los tráficos relacionados con Pamplona, o totalmente generados por ella, se muestra al comprobar la mayor carga de las rondas cuando su trazado se aproxima a la ciudad central. Esta realidad es patente en el caso de la Ronda Norte que contiene el tramo de mayor carga de tráfico de las rondas debido a su posición y cercanía a la ciudad central. Y ello a pesar de que el norte de la ciudad alberga un menor volumen de población que otras zonas.
+
+Este sistema de rondas tiene no obstante, algunas disfunciones concretadas particularmente en su falta de continuidad clara en algunas zonas y tal como muestra con claridad su grafo.
+
+La composición del sistema comarcal como una suma de variantes entendidas individualizadamente explica las discontinuidades que se producen en el sistema de rondas que por este motivo debe complementarse con algunos tramos de las carreteras radiales a fin de constituir el distribuidor comarcal que conecta, en el exterior de la ciudad central, las diferentes vías que acceden a Pamplona.
+
+Así la unión de las Rondas Norte y Este debe apoyarse en las carreteras N- 121 y N-135 ante la inexistencia y dificultad de una conexión más directa y céntrica. La unión de las Rondas Oeste y Este se realiza a través de un tramo de la carretera N-121. La Ronda Oeste se conecta con la Ronda Norte a través de los polígonos industriales de Landaben y Arazuri, y posteriormente a través de un tramo de la avenida de Navarra. Todas estas discontinuidades y la falta de claridad que generan en la organización de la red y en su relación con la ciudad motivan el principal problema estructural del sistema comarcal.
+
+6.2.2.- La red urbana
+
+Los problemas anteriormente mencionados referidos a la estructura y organización de la red y a sus problemas puntuales se manifiestan de forma diferente en la corona urbana: en el espacio donde tiene lugar el mayor número de desplazamientos en medios motorizados de la Comarca de Pamplona.
+
+En este caso los principales problemas y debilidades del sistema viario de la Comarca se concretan en la necesidad de urbanización, es decir, de creación de vías urbanas de primer orden que conecten los distintos barrios y en la necesidad de mejorar su conexión con el sistema básico, o sea, con las Rondas.
+
+El análisis de la morfología y de la utilización de la red confirma esta idea. La red urbana principal de Pamplona tiene una disparidad de tipos de red según la zona de la ciudad que se analice. El sur- suroeste tiene una tipología reticulada, resultado de la propia ordenación de los distintos barrios más que de la imposición de una forma de red viaria básica.
+
+En el este la forma de la red es radial casi en estado puro. En el norte el carácter radial sólo se amortigua ligeramente por la presencia de un eje transversal de cierta continuidad como es el constituido por la unión Avenida de San Jorge-Marcelo Celayeta.
+
+La continuidad de la avenida de Navarra, antigua variante de carreteras, hacia el noroeste permite la continuidad de la red entre el sur, el oeste y el norte. La traza diagonal de esta variante ha permitido que en esta zona la ruptura de la red no sea total al significar un cierto elemento de unión, de “cosido” entre los distintos tipos de red que existen en la corona urbana de Pamplona. Sin la avenida de Navarra la forma de la red en el oeste sería también puramente radial.
+
+Es decir, la red de la corona urbana de Pamplona es una suma de tipos parciales de redes, donde predomina el carácter radial, y donde se aprecian disfunciones en las vías de conexión entre barrios y entre el sistema urbano y las Rondas. Los problemas que este tipo de red provoca se manifiestan con claridad en su utilización y en los problemas de tráfico existentes.
+
+La desigual distribución de la población y de las actividades también tiene su reflejo en la carga de los distintos elementos de la red. Si se analiza el plano de aforos de tráfico correspondiente a un día medio de 1998 se observa que es en el sur-suroeste del municipio -el borde sur de la meseta central- donde se producen las mayores cargas de la red.
+
+En esta zona de la ciudad es donde se concentra los mayores volúmenes de población tal y como ya se ha mencionado con anterioridad. El hecho de que la tipología de la red sea mallada facilita dentro de una jerarquización existente un reparto de los tráficos entre las distintas calles principales lo que atenúa los posibles problemas de congestión.
+
+En todos estos ejes la carga proviene fundamentalmente de los barrios de Pamplona. Así por ejemplo si se observan las intensidades de circulación de las vías locales de Iturrama se comprueba que en todas ellas los flujos medios son altos superando en varios puntos los 10.000 vehículos diarios. Esto sucede en Fuente del Hierro, en Iturrama, en Esquíroz y en Serafín Olave, denotando ya el carácter central de alguna de sus calles. En este sentido puede mencionarse la avenida de Sancho el Fuerte, vía transversal en la retícula del sur que es utilizada por una media de 16.000/18.000 vehículos diarios.
+
+La malla viaria, la retícula, del sur-suroeste de Pamplona permite un mejor reparto de los tráficos que evita una mayor saturación consecuencia de ser la zona de la ciudad con mayor presión de tráfico.
+
+La retícula se pierde en el oeste de la ciudad, donde no obstante existe una cierta continuidad de la red gracias a la presencia de la avenida de Navarra.
+
+El primer problema que plantea el nuevo tipo de red es la existencia de itinerarios obligados para la realización de los desplazamientos. En el oeste, la plaza de San Jorge es punto de paso obligado para los desplazamientos de la corona urbana y, en particular para aquellos incluidos en las relaciones norte-oeste-sur de la ciudad de Pamplona.
+
+Esta circunstancia explica que el nudo de San Jorge sea probablemente el cruce de Pamplona que padece mayores índices de congestión. Su ordenación actual es de glorieta regulada por semáforos. Los tráficos peatonales tienen también la opción de un paso subterráneo que comunica las calles que confluyen en la intersección con una plaza central a cota inferior.
+
+En el cruce de San Jorge conectan las avenidas de San Jorge y de Navarra. Se trata de dos ejes urbanos principales. La avenida de Navarra tiene una IMD de 29.843 vehículos en el lado de San Juan y de 23.424 vehículos en el costado de la carretera de San Sebastián.
+
+Por su parte la avenida de San Jorge canaliza en el tramo próximo a Landaben del orden de 13.515 vehículos diarios y de 15.204 vehículos diarios en el lado de Cuatro Vientos.
+
+Como conclusión del análisis detallado de los movimientos que en él se producen cabe decir que en esta zona de la ciudad la avenida de Navarra desarrolla la función de distribuidora de los tráficos urbanos. La importancia de los giros existentes en San Jorge muestra por otra parte su importancia como nudo repartidor de los flujos de vehículos en esta zona de la ciudad.
+
+En el norte de la ciudad la orografía del territorio selecciona fuertemente los ejes radiales exteriores a la ciudad. Se aprecian dos ejes en cada uno de sus extremos: En el oeste el formado por la doble entrada de San Sebastián (N-240 y la continuación de la A-15) y en el este las dos carreteras de Francia (N-121 y N-135).
+
+A estas vías radiales hay que sumar las propiamente urbanas que son además de la avenida de Guipúzcoa y la variante y carretera de Burlada, las calles principales de la Chantrea (San Cristóbal con cerca de 10.000 vehículos diarios) y de Rochapea.
+
+El eje constituido por avenida de San Jorge- Marcelo Celayeta conecta todas estas vías radiales y complementa con un trazado más interior el papel que desarrolla la Ronda Norte. De esta forma se rompe ligeramente el carácter radial de la red. Esta función se refleja en la magnitud y características de los tráficos canalizados.
+
+Ya se han visto los volúmenes de vehículos en las proximidades del nudo de San Jorge. El nudo de Cuatro Vientos, cruce de la avenida de Guipúzcoa con el eje avenida de San Jorge-Marcelo Celayeta, es el segundo nudo distribuidor en importancia después del de San Jorge. El análisis de los aforos de tráfico recabados en un día laborable muestra unas características similares al de San Jorge.
+
+El nudo de Cuatro Vientos tiene sin embargo una singularidad. El movimiento de mayor intensidad es el giro a izquierdas de avenida de Guipúzcoa (centro) hacia San Jorge. Los siguientes movimientos principales son los que canaliza el eje avenida de San Jorge-Marcelo Celayeta y, en menor medida los del eje de la avenida de Guipúzcoa. Pero, mientras que el nudo de San Jorge distribuye los tráficos hacia el exterior y hacia el interior de la ciudad, el nudo de Cuatro Vientos distribuye preferentemente los vehículos hacia el interior de la ciudad.
+
+A pesar de la existencia de estos dos ejes transversales, de la Ronda Norte y de San Jorge-Marcelo Celayeta-Avenida de Villava, en el norte se observa un deficiente mallado de la red lo que origina también itinerarios obligados de circulación. Así se explican la excesiva carga de vías centrales que se relacionan con el norte, como las calles Labrit y Arrieta.
+
+La forma de la red continúa siendo radial en el este de la ciudad. Con la excepción de la Ronda Este, demasiado exterior a la ciudad como para ser considerada en el análisis de los tráficos urbanos, las restantes vías principales tienen una geometría radial sin vía alguna que las conecte entre el II Ensanche y la Ronda Este.
+
+En el este de la ciudad, en el norte del este, la forma de la red es arborescente con un único tronco, Cuesta de Beloso-Baja Navarra, al que se van sumando las distintas ramas radiales configuradas por cada uno de las vías básicas de los barrios y de conexión con el sistema comarcal exterior.
+
+En el sur de Mendillorri, en la zona de las Mutilvas y Universidad Pública la red tiene una forma radial pura que sólo aumenta su conectividad, su capacidad de reparto y mallado al llegar a la ciudad consolidada y encontrarse con la trama del II Ensanche y, en menor medida de Milagrosa.
+
+6.2.3.- El aparcamiento y la infraestructura de estacionamiento
+
+La realización en 1996 de un estudio sobre el estacionamiento aporta una información excepcional para elaborar este apartado.
+
+En este trabajo y como paso previo al análisis de la demanda de aparcamiento en la vía pública pamplonesa se ha realizado un inventario de la oferta, es decir, se ha evaluado, a través de un exhaustivo trabajo de campo, el número de plazas existentes en las calles de Pamplona y, en su caso, las diferentes restricciones al aparcamiento.
+
+La infraestructura de estacionamiento
+
+Los datos del estudio sobre el estacionamiento, actualizados a fecha del año 1999, dan las siguientes cifras:
+
+Los espacios destinados al estacionamiento de vehículos privados, distintos de las plazas de aparcamiento situadas en la calzada ascienden a un total de 6.958 plazas: 3.911 para residentes y 3.047 que se destinan a rotación.
+
+Hay 1 aparcamiento en superficie, cuyas plazas son de rotación, situado en el recinto ferial de la C/ Yanguas y Miranda, con 530 plazas.
+
+Hay 7 aparcamientos mixtos con plazas de rotación y plazas para residentes
+
+TABLA: Aparcamientos mixtos [sin título en el original] (filas: aparcamiento)
+Columnas: ROTACIÓN; RESIDENTES; TOTAL
+- Plaza de Toros: ROTACIÓN = 447; RESIDENTES = 253; TOTAL = 700
+- Blanca de Navarra: ROTACIÓN = 304; RESIDENTES = 86; TOTAL = 390
+- Virgen del Puy: ROTACIÓN = 363; RESIDENTES = 74; TOTAL = 437
+- Iruña Park: ROTACIÓN = 60; RESIDENTES = 40; TOTAL = 100
+- Frontón de López: ROTACIÓN = 137; RESIDENTES = 113; TOTAL = 250
+- Rincón de Aduana: ROTACIÓN = 216; RESIDENTES = 215; TOTAL = 431
+- Carlos III (previsto): ROTACIÓN = 265; RESIDENTES = 374; TOTAL = 649
+
+Finalmente el número de aparcamientos para residentes es de 14:
+
+- Orvina (2ª agrupación): 196 plazas
+- Conde de Rodezno: 350 plazas
+- San Jorge: 332 plazas
+- Hermanos Imaz: 272 plazas
+- Monasterio de Fitero: 50 plazas
+- Monasterio de Iranzu: 100 plazas
+- Plaza Félix Huarte: 159 plazas
+- Plaza de San Francisco: 290 plazas
+- Virgen de las Nieves: 258 plazas
+- Vidángoz: 97 plazas
+- San Jorge: 98 plazas
+- Plaza del Vínculo: 234 plazas
+- Orvina (Fermín Daoiz): 250 plazas
+- Dr. Gortari / Avda San Jorge: 70 plazas
+
+Además existen 14.471 plazas en garajes privados distribuidas así:
+
+- Casco Antiguo: 277
+- I y II Ensanches: 3.414
+- S. Juan: 4.560
+- Iturrama: 6.220
+
+6.2.4.- Conclusiones
+
+Del análisis de la red urbana principal de Pamplona, de su morfología y de los tráficos por ella encauzados se deduce que la red canaliza más fluidamente los tráficos allí donde su morfología tiene un mejor índice de conectividad. Esto sucede en el sur-suroeste del municipio donde la malla viaria de los distintos barrios facilita la existencia de itinerarios alternativos e integra con mayor facilidad a elementos de la red principal exteriores tal como sucede con la avenida de Navarra.
+
+Este mejor funcionamiento de la red se demuestra al considerar que es precisamente en esta zona de la ciudad donde se produce la mayor presión de tráfico y donde se registran las mayores intensidades de vehículos del municipio y, por lo tanto, de la comarca.
+
+En las restantes zonas de la corona urbana de Pamplona la forma de la red es inadecuada para atender las demandas tanto del tránsito municipal como comarcal, bien por ser arborescente o radial pura (este de Pamplona), bien por encontrarse insuficientemente mallada (norte de la ciudad), bien por tener obligados puntos de paso (San Jorge), bien por las carencias del sistema de rondas.
+
+En consecuencia la red de Pamplona tiene problemas de estructura y de estrangulamientos. La solución de estos problemas requiere cambiar la estructura de la red, principalmente en la corona urbana y proyectar un sistema unitario basado en las rondas y en sus elementos de unión con la red de vías urbanas principales.
+
+Los problemas de estructura y de forma de la red también se manifiestan en la necesidad de cambiar y/o mejorar la forma de la red en cada una de las zonas y también en resolver las, en ocasiones, inadecuadas conexiones entre barrios.
+
+Esto último sucede especialmente en el sur (falta de continuidad hacia el este de la Avenida Navarra, antigua Variante) y en el este.
+
+La red también se caracteriza por la insuficiente capacidad de algunos elementos que por su continuidad y por su posición dentro de la ciudad constituyen elementos principales del sistema viario. Este es el caso de las avenidas de San Jorge y Marcelo Celayeta en el norte. No obstante, a pesar de su importancia local, no deja de ser un problema puntual si se analiza desde la óptica comarcal.
+
+Los estrangulamientos afectan a algunos de los nudos principales de la red. El caso de la intersección de San Jorge es el más significativo de todos ellos.
+
+En esta situación el sistema de Rondas resulta demasiado exterior a la corona urbana como para poder resolver estos problemas y desempeñar el papel de distribuidor interior.
+
+Aunque las Rondas pueden cumplir, en razón de su capacidad y posición en la ciudad, el papel de canales de tránsito y de distribuidor metropolitano, tampoco están exentas de problemas. Tal como ya se ha comentado el más importante de ellos, desde una perspectiva estructural, es su falta de continuidad en el norte donde existe un estrangulamiento al resultar insuficiente la conexión con la Ronda Este que se produce a la altura de Villava-Huarte.
+
+En estas circunstancias la ordenación y la jerarquización viaria resultan insuficientes para organizar adecuadamente los flujos de vehículos en la Comarca de Pamplona y, muy especialmente, en la corona urbana del municipio central. Esta ausencia de jerarquía de la red dificulta en ocasiones entender el papel principal que para la ordenación de los flujos de circulación deben desempeñar determinadas vías.
+
+6.3.- EL TRANSPORTE COLECTIVO
+
+El transporte colectivo urbano del municipio de Pamplona lo realizaba la empresa COTUP. De Pamplona partían también otras líneas de transporte colectivo que conectaban con los principales municipios de la Comarca. Cada vez más había que referirse a un sistema de transporte colectivo de carácter comarcal.
+
+Bastaba pensar en municipios como Barañáin, Burlada y Villava, que formaban un continuo urbano con Pamplona, para entender la función supramunicipal que tiene el transporte colectivo. Sin embargo, las disposiciones reglamentarias y administrativas establecían divisiones y límites en las concesiones que condicionaban el grado de servicio que prestaban al usuario que, no conociendo de límites municipales, deseaba desplazarse entre orígenes y destinos variopintos, que se localizaban en municipios distintos y, además, deseaba hacerlo con el mismo billete o abono de transporte. A ello se añadía el hecho, incomprensible para el usuario, de paradas de transporte público localizadas en muchas calles de Pamplona (especialmente en las vías de acceso a la capital) en donde se detenían unos autobuses de los que descendían y subían viajeros (los autobuses de COTUP) y otros (los de Montañesa) que o no paraban o si se detenían era para que descendieran viajeros (o subieran, según sea de entrada o salida de Pamplona el itinerario) pero donde no podían subir viajeros (o bajar, en el caso del sentido de salida de la ciudad de Pamplona).
+
+A continuación se comentan los aspectos más sobresalientes de la situación en aquel momento, anterior a julio de 1.999, de los transportes colectivos.
+
+6.3.1.- La evolución de la demanda y de la oferta de la COTUP
+
+En 1987 y 1989 se realizaron sendos estudios sobre el transporte colectivo urbano en la Comarca de Pamplona con motivo de los cuales se efectuaron encuestas origen-destino, conteos de viajeros y encuestas de opinión, etc. [5]
+
+[Nota al pie 5: "El transporte colectivo urbano en Pamplona". A. Soria. Ch. Orcoyen, F. Nebot. Ayuntamiento de Pamplona. 1987. - "El transporte colectivo urbano en la Comarca de Pamplona". F. Nebot, J. Azpeitia. Mancomunidad de la Comarca de Pamplona. 1989.]
+
+Ello permitió efectuar un diagnóstico general sobre el transporte en la Comarca y empezar a conocer la opinión y los deseos de los ciudadanos sobre el tema.
+
+Se remite a esos estudios para todos los aspectos de detalle y a continuación se extractan las principales consideraciones relativas al diagnóstico.
+
+Cuatro son los aspectos principales que caracterizaban los transportes colectivos en la Comarca de Pamplona en aquél momento:
+
+1. Un número decreciente de viajeros de la COTUP con tendencia a estabilizarse.
+2. Un público que, ante todo, pide más frecuencia, más comodidad y más puntualidad.
+3. La situación económica de las empresas que, en el caso de COTUP, es particularmente difícil.
+4. Un territorio donde coexisten asentamientos de muy diversa índole y al que se sobreponen competencias administrativas distintas que condicionan cualquier servicio posible de transporte colectivo.
+
+COTUP pierde viajeros ininterrumpidamente desde 1976 hasta 1989, con la excepción de 1987. Pero si entre 1977 y 1982 las pérdidas oscilaron entre el 2,4% y el 9,4%, en los años siguientes, de 1983 a 1986, las pérdidas fueron mucho menores y oscilaron entre 1,1% y 2,2%. Es más, en esos últimos años las pérdidas hubieran sido aún menores de no mediar circunstancias completamente ajenas al servicio (huelga general y supresión de abonos en 1985, obras en el viario de Pamplona en 1986...).
+
+A partir de 1990 se invierte la tendencia iniciándose un proceso de recuperación de viajeros que, con ligeras oscilaciones, llega hasta 1995. Como luego se comentará, la consolidación de la Universidad Pública y de las diferentes fases de Mendillorri han contribuido a esta recuperación.
+
+Puede apreciarse que en el inicio de la recuperación de viajeros (años 1990, 1991 y 1992) el porcentaje de incremento de los kilómetros anuales recorridos es inferior al de los viajeros, lo que es indicador -junto a otros parámetros- de un buen ajuste de la oferta a la demanda. En los años siguientes (1993, 1994 y 1995) el porcentaje de incremento de los kilómetros recorridos es muy superior al de los viajeros, lo que indica una sobreoferta creciente.
+
+6.3.2.- Datos de tráfico de las líneas de la Montañesa
+
+Con motivo de la realización del Estudio ya citado sobre las líneas de la Comarca de Pamplona fue posible acceder a las hojas de ruta correspondientes al mes de febrero de 1987 y 1988.
+
+A partir de estos datos muy provisionales, era posible efectuar algunas constataciones. El número de viajeros se había reducido ligeramente al comparar los meses de febrero de 1987 y 1988. El comportamiento de las líneas había sido distinto entre unas y otras. Una de ellas había perdido muchos viajeros mientras que las otras tres habían aumentado el número de sus usuarios.
+
+Correspondiente al momento presente, el Gobierno de Navarra ha facilitado los viajeros anuales en 1995 de las diferentes líneas de Montañesa.
+
+No es posible efectuar comparaciones directas entre los datos de 1988 y 1995, dado que los primeros corresponden a los viajeros diarios en el día laborable medio del mes de febrero y los segundos recogen el agregado anual. No obstante, se aprecia un significativo aumento del peso de la línea Cizur Mayor - Pamplona que supera a la de Potasas - Pamplona y se aproxima a la de Berriozar - Pamplona.
+
+Si se compara en 1988 y 1995 el número de viajeros de cada línea con los que transporta la línea Huarte - Villava - Pamplona, se aprecia en 1995 el importante crecimiento relativo de la línea Cizur - Pamplona y el descenso relativo de la línea Potasas - Pamplona. Las líneas de Barañáin y de Berriozar descienden, pero de forma muy ligera.
+
+6.3.3.- Evolución posterior del transporte colectivo urbano
+
+Después de la aprobación inicial del Plan Municipal de Pamplona, la situación del transporte público ha sufrido unos cambios considerables, que se exponen de manera resumida.
+
+A partir de Julio de 1.999, la Mancomunidad de la Comarca de Pamplona (organismo que asume la organización del servicio de transporte colectivo en la comarca), aprueba la comarcalización de este servicio. Para ello, tanto COTUP como La Montañesa rediseñan sus líneas de autobuses, adaptándolas a un servicio de carácter comarcal unitario y repartiéndose los diferentes recorridos, eliminando las restricciones anteriores. Esta nueva situación de mayor racionalidad en el servicio provoca un aumento de usuarios. Si en el año 1.998 el número de viajeros transportados fue de 29.000.000 (correspondiendo 22.000.000 a COTUP y 7.000.00 a La Montañesa), en 2.001 la cifra conjunta fue de 34.000.000 de usuarios, tendiendo a estabilizarse desde ese momento.
+
+El proceso de racionalización del sistema comarcal de transporte colectivo continúa, y está prevista la adjudicación de este servicio a una sola entidad explotadora. Dentro del año 2.002 se llevará a cabo esta adjudicación. A partir de ese momento las previsiones de la MCP son las siguientes:
+
+• Renovación de la flota.
+• Incorporación de combustibles ecológicos (biodiesel).
+• Gestión de ayudas públicas para la explotación del servicio.
+• Futura reordenación de las líneas, de acuerdo con la evolución de la demanda y las nuevas implantaciones residenciales de la comarca.
+• Incorporación de una nueva línea de viajeros entre el Casco Viejo y la Rochapea, en cumplimiento de las previsiones del programa URBAN.
+
+6.4.- LA MARCHA A PIE: LAS DIFICULTADES PARA DESPLAZARSE
+
+Los factores que condicionan la circulación de los peatones y ciclistas se derivan unas veces del medio físico en el que se realizan los desplazamientos (factores geográficos) y otras de las opciones sociales, económicas, urbanísticas e incluso culturales que se hayan adoptado históricamente en una comunidad particular.
+
+Las mencionadas opciones suelen traducirse o bien en prácticas ampliamente extendidas y sobre las que no se reflexiona por constituir hábitos sociales perfectamente cristalizados, o bien en normativas reguladoras tanto de la actividad individual privada como de la actividad colectiva pública.
+
+Condicionantes geográficos
+
+Dado que los desplazamientos andando y en bicicleta tienen una componente física esencial, las variables también físicas del espacio urbano son determinantes de las posibilidades de desplazamiento no motorizado. El clima, la topografía y la existencia o no de barreras naturales en una ciudad definen unas distancias teóricas para los recorridos andando y en bicicleta.
+
+La topografía
+
+La velocidad peatonal, cuya media se sitúa en condiciones normales en 4.400 metros por hora, no parece verse significativamente afectada por las pendientes hasta un 6% de desnivel. Con pendientes del 10% la velocidad media decrece en un 11,5% y, con inclinaciones del 20%, la disminución de velocidad es del 25%.
+
+La topografía accidentada agrava los desplazamientos de las personas con discapacidades. Si la pendiente es superior al 8% la circulación por estas calles constituye un problema grave para las personas con movilidad reducida, e incluso casi insalvable para el usuario de la silla de ruedas.
+
+En el caso de las bicicletas la penalización es incluso superior a la que experimentan los peatones llegando a ser poco útil esta máquina en ciudades en las que predominen pendientes superiores al 5% que, sin embargo, son viables andando.
+
+La topografía en Pamplona es bastante clara: una gran meseta en lo alto, en donde se ubica el Casco Antiguo y los Ensanches, rodeada de barrios, de los que está separada por un gran desnivel, más acusado en la zona Norte.
+
+Las cuestas son uno de los aspectos disuasorios, junto con el clima y la peligrosidad, que más aparece en las encuestas sobre la utilización de la bicicleta.
+
+A este aspecto, como ya se ha dicho, Pamplona está organizada en dos niveles principales: la meseta y los barrios de la margen derecha del río Arga, por el Norte. Por el Sureste, en un plano también bajo, se extiende la superficie que vierte hacia los ríos Sadar y Elorz.
+
+Así, la circulación en bicicleta en la meseta, entre Casco Viejo, Ensanches, San Juan, Iturrama y zona hospitalaria, apenas presenta desniveles, por lo que es muy cómodo, desde este punto de vista.
+
+Igualmente es fácil el tránsito en bici por el lado Norte entre Chantrea, San Pedro, Rochapea y San Jorge; como por el lado Sur, entre Santa Mª la Real, Universidades y Etxabakoitz.
+
+El problema, que será mayor o menor en función de la forma física del ciclista, se presenta el enlazar los barrios bajos con la meseta.
+
+A fin de estudiar posibles soluciones alternativas que en algún caso puedan paliar esta dificultad, se han estudiado las principales cuestas existentes.
+
+A este efecto, se han considerado dos cuestas tipo, en función de su longitud y pendiente, que nos delimitan tres categorías de cuestas.
+
+Para ello, se piensa en el ciclista tipo, que utiliza habitualmente la bicicleta, ya que, de otro modo, una persona que no se haya montado en bicicleta en años, encontrará incómoda la más mínima tachuela. Únicamente las cuestas consideradas Deportivas exigen cierta forma física, por lo que será conveniente el buscarles itinerarios alternativos o darles alguna solución mecánica.
+
+En general, las pendientes pronunciadas sólo resultan soportables en tramos cortos, por lo que para salvar un desnivel es en ocasiones más cómodo el recurrir a itinerarios más largos de menor pendiente.
+
+El clima
+
+Las condiciones climáticas extremas penalizan igualmente los desplazamientos peatonales y ciclistas y modifican sus comportamientos. La lluvia, la nieve o el calor alimentan los medios de transporte motorizado con viajeros que en condiciones normales utilizarían sus propias piernas para desplazarse.
+
+El clima, sobre todo el invierno, es un condicionante importante de los desplazamientos peatonales o ciclistas en Pamplona. Al tratarse de un clima con inviernos fríos, durante el mes de Enero es casi normal que hiele, registrándose de 30 a 40 días de heladas en invierno, y el período frío puede comenzar a finales de Octubre y alargarse hasta Abril. La temperatura media anual está en 12,5º C.
+
+Por otro lado, los días de lluvia al año sobrepasan los 100. La precipitación media anual registrada en el período que va de 1.961 a 1.990 es de 850,39 mm., precipitaciones que se reparten entre invierno, otoño y primavera (244,35 mm. - 238,19 mm. - 226,16 mm., respectivamente) y en menor medida en verano (140,69 mm.)
+
+En el período que va de 1.931 a 1.960 se registraron en Pamplona unas medias de:
+
+- 53 días despejados.
+- 194 días nublados.
+- 118 días totalmente cubiertos.
+
+Otro factor negativo es la nieve, pero son pocos los días que nieva en Pamplona, 6 días de media, generalmente en Enero o Febrero.
+
+Al situarse Pamplona dentro de una cuenca, los vientos no suelen tener mucha importancia, siendo los más frecuentes los cierzos del Noroeste, que algunos días soplan con fuerza en los lugares más expuestos.
+
+Durante los días más calurosos del año, Julio y Agosto (superan los 20º C de media), los vecinos de Pamplona procuran no caminar grandes distancias en las horas de mayor temperatura y, en caso de hacerlo, seleccionan los itinerarios más frescos o incluso las aceras más umbrías.
+
+En estudios efectuados en otras ciudades [6], los aforos realizados en determinadas calles muestran cómo los flujos peatonales de cada acera se modifican radicalmente en función de las sombras que arroja la edificación en cada momento del día.
+
+[Nota al pie 6: "Reordenación de la Puerta del Sol". A.Soria, F.Nebot, A.Sanz. 1984. Gerencia Municipal de Urbanismo. Ayuntamiento de Madrid.]
+
+En conclusión, el clima de Pamplona en abstracto, condiciona los desplazamientos peatonales y ciclistas, pero lo hace sobre todo los días de lluvia o nieve en período invernal.
+
+Condicionantes derivados del modelo urbano
+
+El modelo de ciudad, consecuencia de su crecimiento histórico y de las funciones que han ido absorbiendo cada una de sus zonas y barrios, define, en primer lugar, una variable esencial para los desplazamientos andando y en bicicleta: las distancias a recorrer para acceder a los distintos barrios y actividades urbanas.
+
+En el caso del municipio de Pamplona, la alta densidad de la urbanización tradicional ha desembocado en una extensión relativamente reducida de la ciudad, o lo que es lo mismo, en unas distancias relativamente pequeñas. A ello se une la limitada extensión superficial del municipio.
+
+Pero para hablar de Pamplona hay que hablar de la Comarca, como ya se ha indicado en los apartados anteriores de este trabajo. La Comarca no es objeto de este trabajo, pero la mayoría de los carriles de bicicleta unirían los diferentes núcleos entre sí y con Pamplona.
+
+La otra gran componente de las distancias urbanas es la integración de los usos o funciones en la ciudad. En Pamplona, el fenómeno de la segregación de actividades tiene una escala comarcal, aunque la monofuncionalidad ha ido creciendo también en la escala municipal.
+
+Otra componente del modelo urbano interrelacionado con la anterior es la morfología edificatoria y de la urbanización. La escala y disposición de los edificios, la forma en que éstos se relacionan con el viario, la tipología de éste y los parámetros del espacio público, determinan el atractivo para la realización de los desplazamientos peatonales y ciclistas.
+
+Condicionantes derivados del modelo de transporte
+
+Sobrepuesto al modelo urbano e interrelacionado con él se encuentra el modelo de transporte por el que se haya optado en cada ciudad y momento histórico. Indudablemente, el predominio de unos medios de transporte sobre otros se traduce en diferentes necesidades de ocupación del espacio público y en distintos impactos ambientales. Los peatones y los ciclistas se ven afectados por la elección del modelo de transporte en la medida en que su espacio de circulación se ve limitado por el del resto de los medios y, además, en el espacio que se les concede se ven afectados por las consecuencias ambientales del funcionamiento del resto de los vehículos: seguridad, contaminación, ruido y deterioro del paisaje urbano.
+
+En Pamplona, la adaptación de grandes zonas de la ciudad a un modelo de transporte que fomenta, con escasas restricciones, el uso de los vehículos motorizados y, especialmente, del automóvil privado, se ha traducido en esas zonas en una supeditación del espacio peatonal al espacio de la circulación motorizada.
+
+Otra consecuencia de esa supeditación es la aparición de barreras artificiales creadas por la construcción de grandes infraestructuras de transporte que consisten en vías urbanas de alta capacidad y velocidad con escasa permeabilidad transversal para el tráfico no motorizado.
+
+Entre las consecuencias ambientales del modelo de transporte se puede incluir la accidentabilidad de la que son víctimas los peatones y los ciclistas. Accidentabilidad cuyas causas más primarias son el número y la velocidad de los vehículos.
+
+El riesgo al caminar es una factor que disuade los desplazamientos, sobre todo de ciertos grupos de edad -niños, ancianos-, hasta el punto de reducir la movilidad peatonal progresiva y significativamente. Por otra parte, el riesgo al pedalear se considera el factor disuasivo número uno para la circulación ciclista; la inseguridad e indefensión ante el tráfico motorizado es una de las causas principales del bajo número de desplazamientos que se realizan en bicicleta. Así, por ejemplo, la población menor de edad, imposibilitada legalmente para conducir vehículos de motor, tendría con la bici un alto grado de movilidad que, sin embargo, se ve cercenado por el alto nivel de riesgo sentido por los usuarios o por sus tutores.
+
+Según los datos facilitados por la Policía Municipal de Pamplona [7] sobre Estadística de Atestados de Tráfico, se han confeccionado unos listados en donde se indican las calles y puntos concretos de Pamplona en donde más accidentes se registran, tanto por colisiones como por atropellos (ver Anexo).
+
+[Nota al pie 7: Se trata de un excelente trabajo efectuado pro el suboficial E. Piqueras que permite un conocimiento detallado de los accidentes y atropellos en el municipio.]
+
+En cuanto a la contaminación atmosférica, la circulación peatonal se ve afectada por los niveles de sustancias nocivas en el aire.
+
+A los ciclistas la proximidad a las fuentes emisoras de contaminantes les hace incluso más vulnerables que los peatones a los ambientes más contaminados. También son especialmente sensibles los ciclistas a la proximidad a los focos de calor del aire acondicionado de los vehículos junto a los que pedalean, lo que supone una molestia en el período estival.
+
+En principio puede afirmarse, de acuerdo con la opinión de los Servicios correspondientes del Ayuntamiento de Pamplona, que la contaminación atmosférica en Pamplona es debida fundamentalmente a la circulación de vehículos motorizados. Por otra parte, cabe resaltar que la concentración de anhídrido sulfuroso no ha alcanzado nunca valores medios importantes.
+
+En relación al ruido, es éste un aspecto cada vez más valorado negativamente por la población. No es de extrañar que afecte y disuada a la circulación peatonal y ciclista.
+
+El tema del ruido es para muchos la principal contaminación que sufren los habitantes de las ciudades. Aunque se encuentre reglamentado, como es el caso de Navarra, no siempre el seguimiento y control de las emisiones acústicas y especialmente las sanciones por infracción se realizan con suficiente empeño ni tienen el efecto corrector que se pretende.
+
+Hay una coincidencia general en que el ruido producido por los vehículos motorizados es el que más afecta y deteriora la calidad de vida de los ciudadanos. Para los viandantes este efecto perjudicial es mucho más acusado.
+
+Por debajo de 50 ó 60 km/h los ruidos del motor enmascaran el ruido de la rodadura (contacto neumático-pavimento). Por encima a 60 km/h ocurre lo contrario. Para velocidades medias superiores a 60 km/h, una reducción de las velocidades puede provocar una reducción de los niveles sonoros (alrededor de 1 dBA) por cada 10 km/h de disminución. Por debajo de 60 km/h, una limitación de la velocidad no poseerá una eficacia sensible a efectos acústicos, dado que predominará el ruido del motor.
+
+Para un 85% de los habitantes de Pamplona, el ruido es uno de los factores más importantes para la calidad de vida en nuestra ciudad. Las medidas que mayoritariamente tomarían los residentes de Pamplona para reducir la contaminación sonora en la ciudad son: controlar y penalizar a los vehículos ruidosos (especialmente motocicletas), en un 54% de las respuestas; adelantar el horario de cierre de bares, pubs y discotecas (17%), limitar la circulación de vehículos pesados en horario nocturno y cerrar algunas calles al tráfico (17%) y recoger las basuras antes de las 11 de la noche (8%).
+
+El último elemento ambiental que se ve afectado por el modelo de transporte es la calidad del paisaje urbano. La presencia de vehículos en el espacio público y la adaptación de éste a las infraestructuras de circulación y aparcamiento motorizado modifican la configuración del paisaje urbano tradicional y crean nuevos paisajes dominados por los vehículos de motor en áreas de nueva construcción. Estos últimos paisajes son mucho menos atractivos para la circulación peatonal y ciclista que los tradicionales, estando en estrecha relación con el modelo de urbanización y la amenidad que se deriva del mismo.
+
+Condicionantes derivados del diseño viario y de la gestión del espacio público
+
+La concepción del sistema de transportes y las prioridades establecidas en el uso de la ciudad se traducen en decisiones acerca de las características básicas del viario: integración/segregación del espacio para vehículos motorizados, relación de ancho entre calzada y acera, tipología de las intersecciones e integración/segregación de espacio para las bicicletas.
+
+Ante la evidente heterogeneidad entre el tránsito de viandantes y el motorizado, la ingeniería ha desarrollado dos caminos para adecuar el viario a cada uno de ellos. El primer camino es el de la segregación y consiste en separar la circulación de los peatones de la del resto de los vehículos. En su versión más extrema el viario se hace exclusivo bien de los vehículos de motor -autovías urbanas-, bien de los peatones -áreas peatonales-.
+
+El segundo camino que está desarrollando cada vez con más fuerza la ingeniería es el de la integración o coexistencia de tráficos, que busca métodos y medidas que hagan posible la mezcla de peatones y vehículos motorizados en el mismo espacio. Las técnicas de la integración de tráficos se fundamentan en el control del número y de la velocidad de los vehículos, control sin el cual no es posible acompasar la circulación de elementos tan heterogéneos.
+
+Pero las vías públicas son algo más que eso, algo más que lugares de paso o canales del transporte; también sirven de soporte a un sinfín de actividades y propósitos urbanos que pueden condicionar los desplazamientos de viandantes y ciclistas. Y sobre esas vías se aplican múltiples instrumentos de gestión que comprenden desde los dirigidos a su conservación, hasta los que regulan sus posibilidades de ocupación, pasando por los que establecen los criterios para el mobiliario, la señalización, la iluminación, etc. que han de facilitar su uso, tanto para desplazarse como, simplemente, para disfrutar de la estancia en ellas.
+
+Para cerrar este apartado de condicionantes del caminar y del pedalear es conveniente no olvidar aspectos menos materiales y más superestructurales o ideológicos que influyen decisivamente en la elección del modo de transporte que los ciudadanos realizan en cada situación.
+
+Dicha elección no es puramente un cálculo material; no está basada sólo en criterios de rapidez, economía, conveniencia, seguridad, comodidad o atractivo, sino que además se deriva de las formas culturales y las escalas de valores que caracterizan a la sociedad y a sus individuos.
+
+6.5.- LA ESTACIÓN DE AUTOBUSES
+
+La actual estación de autobuses posee una localización céntrica. Se sitúa en una manzana del Segundo Ensanche de la ciudad y ocupa la práctica totalidad de la planta baja de un edificio construido en los años treinta. Este edificio está delimitado por las calles Yanguas y Miranda, Conde Oliveto, Tudela y García Ximénez.
+
+Según la información facilitada por el Gobierno de Navarra la estación acoge principalmente servicios de líneas regulares de transporte de viajeros de ámbito navarro y nacional.
+
+La estación también acoge líneas regulares de transporte internacional pero resultan de menor importancia debido a su baja frecuencia anual y al reducido número de viajeros transportados.
+
+Se observa la importancia cuantitativa de las líneas concesionarias del Gobierno de Navarra (40) frente a las concesiones de otras administraciones. Estas últimas suman un total de quince líneas de las que cinco corresponden a transporte internacional.
+
+Tres líneas, las de Beriain-Potasas (de carácter comarcal), Vitoria-Gasteiz y Donostia-San Sebastián llevan el 46,88% de los pasajeros. Dado que las líneas concesionarias del Gobierno navarro son 40, estas tres suponen el 7,5% de las líneas presentes.
+
+Si se consideran aquellas líneas que transportan más de 100.000 viajeros anuales se sigue observando una concentración. Un total de ocho líneas (20% del total) transportan 2.286.585 viajeros (67,88% del total de pasajeros). Estas líneas son las de Donostia-San Sebastián, Soria, Gasteiz-Vitoria, Olite, Logroño, Zaragoza y Beriain-Potasas.
+
+Solamente tres líneas comarcales utilizan la estación de autobuses. Se trata de la línea de Añorbe, de La Montañesa, de la línea Munárriz-Etxauri-Orcoyen-Pamplona (La Pamplonesa) y de la línea Clínica Elcano-Pamplona (Río Irati).
+
+Funcionamiento de la estación
+
+La estación de autobuses de Pamplona consta de tres andenes paralelos y dos calzadas de circulación todos ellos paralelos al eje de la calle García Ximénez.
+
+El andén central tiene una longitud de 49 metros y una anchura de 5 metros. El andén próximo al vestíbulo tiene una longitud de 51,5 metros y una anchura inferior. Apenas 2,70 metros. Finalmente, el tercer andén, el más próximo a la calle García Ximénez tiene una longitud de 59,5 metros y una anchura de 3,75 metros.
+
+Las dos calzadas de circulación y parada de autobuses interiores a la estación tienen unas dimensiones similares con una anchura de 12 metros.
+
+En el proyecto inicial la estación disponía de una tercera calzada, la más próxima a García Ximénez, que se utilizaba como depósito de mercancías y albergaba la báscula de pesaje y los muelles de carga y descarga.
+
+Esta calzada se encontraba ocupada por la Cruz Roja, si bien existe el proyecto de liberarla de este uso y destinarla al transporte de viajeros.
+
+Durante los períodos punta la estación tiene problemas de capacidad no siendo suficiente para albergar a los autobuses que a ella acceden. Por esta razón los autobuses no sólo estacionan en línea en el borde de los andenes existentes sino que también lo hacen en el centro de las calzadas, colapsando las circulaciones y el propio funcionamiento de la estación.
+
+Esta situación da lugar a que durante estos “períodos de desbordamiento” de la estación los viajeros no dispongan de los servicios de acogida adecuados en cuanto a dimensiones y comodidad, resultándoles incluso problemático el acceso a los autobuses, al no existir itinerarios peatonales separados siendo este un segundo problema principal de la actual estación.
+
+Los períodos de mayor circulación se producen entre las 15,30 y las 15,45 horas. En estos quince minutos entran 12 autobuses y salen 16 autobuses. En el período punta de la mañana, entre las 8,45 y las 9,00 horas, entran 17 autobuses (más de uno por minuto) y salen 6 autobuses. Pero en general, se observa que es por la tarde cuando mayor número de movimientos se produce. Además del cuarto de hora punta del día ya indicado, existen otros seis períodos donde los movimientos de entrada y salida suponen o están en torno a 20.
+
+El tiempo de permanencia de un autobús en la estación es uno de los factores principales, junto a la intensidad de tráfico y el número de líneas o de concesiones, para la determinación de la capacidad actual de la estación y, por lo tanto de la estimación del programa futuro de necesidades.
+
+De las observaciones realizadas, que se indican a continuación, se deduce que en torno a 43 autobuses tienen un tiempo de permanencia superior a los 30 minutos, lo que interfiere negativamente en el funcionamiento de la estación.
+
+Localización, tamaño y tipología de la estación
+
+La estación de autobuses de Pamplona es una instalación que acoge servicios de transporte comarcal, interurbano e internacional de viajeros. La coexistencia de estas diferentes clases de tráfico requiere una estación con capacidad de albergar los servicios propios de cada uno de estos desplazamientos.
+
+Así el transporte comarcal, que suele estar formado por desplazamientos con un cierto grado de recurrencia, puede ser homologable a los desplazamientos característicos entre una ciudad central y su hinterland. Por lo tanto se trata de un transporte que no requiere especiales servicios de acogida (equipajes, consigna, etc.), pero que sí necesitan una información eficaz sobre el funcionamiento de la estación y unos itinerarios peatonales en su interior cómodos y funcionales.
+
+Es decir, predomina la facilidad y la agilidad sobre cualesquiera otros factores. Por lo tanto el autobús debe efectuar el menor número de maniobras posibles y su estancia en la dársena puede ser tan corta como lo requiera la frecuencia del servicio que está ofertando.
+
+El transporte interurbano y el internacional tienen otros requerimientos. En este tipo de transporte la duración del viaje en autobús es muy superior a los posibles desplazamientos del viajero en el interior de Pamplona. Es habitual que en este tipo de transporte la ordenación prime fundamentalmente la menor superficie de ocupación, no siendo preciso la realización de maniobras extremadamente sencillas.
+
+La estación de autobuses de Pamplona acoge los dos tipos de tráfico por lo que su ordenación y diseño debe considerar las necesidades de las dos clase de viajeros y de transportes presentes.
+
+La actual estación ocupa una manzana trapezoidal de aproximadamente 72 x 67 metros. Sin embargo, el aprovechamiento de esta superficie se encuentra muy condicionado por la propia estructura del edificio en cuyos bajos se aloja y, fundamentalmente por la disposición de sus pilares, tanto del edificio como de la marquesina de la estación de autobuses. Por este motivo la superficie que pudiera denominarse como útil, resulta muy inferior a la que se deduciría del espacio anteriormente indicado.
+
+De cara a la estimación de las necesidades de la estación de autobuses de Pamplona se ha supuesto una duración del estacionamiento de los autobuses del orden de los veinte minutos.
+
+Con este supuesto y considerando los movimientos de entradas y salidas que tienen lugar en la estación de Pamplona las necesidades actuales se situarían en torno a las 20 dársenas. Esto significa que en la situación actual la capacidad de la estación es claramente insuficiente pues en el mejor de los casos la estación puede acoger en unas condiciones razonables, aunque incómodas para el viajero, del orden de 12-15 autobuses.
+
+Es decir, dispone en torno a 12-15 dársenas. Estas dársenas se disponen en línea, lo que como ya se ha mencionado es una disposición que tienen algunas dificultades en cuanto a las circulaciones, movimientos e independencia de cada uno de los autobuses presentes.
+
+Las necesidades futuras de la estación se obtienen a partir de las actuales y considerando un coeficiente de mayoración que suele situarse entre 1,1 y 1,3. Con este supuesto las necesidades futuras de la estación se sitúan entre 22 y 26 dársenas.
+
+Otros estudios sobre la idoneidad de la Estación de Autobuses.
+
+De forma simultánea a las últimas fases del proceso de redacción del Plan Municipal, se han elaborado análisis sobre el transporte interurbano en autobús y sobre la propia capacidad de la actual estación, así como sobre posibles localizaciones alternativas.
+
+Este es el caso del estudio realizado en febrero de 2.000 por la empresa “CONSULTRANS, S.A.”,a raíz de un encargo de la Dirección General de Transportes y Comunicaciones del Gobierno de Navarra.
+
+En el Anexo V-1 se transcribe parcialmente este estudio, en lo referente a sus conclusiones y cálculo de necesidades de la estación de autobuses.
+
+Conclusiones
+
+Tanto de los propios análisis efectuados por el Plan Municipal como en el estudio encargado por el Gobierno de Navarra, coincidentes en diversos aspectos, se deducen las siguientes conclusiones:
+
+* Adecuada localización de la Estación de Autobuses en la ciudad, valorándose especialmente su centralidad y accesibilidad frente a localizaciones alternativas. Estos valores son extensibles a su entorno más próximo.
+
+* Insuficiente capacidad para resolver las necesidades actuales (aproximadamente de 20 á 23 dársenas), las futuras y los servicios necesarios para el viajero en el solar actual.
+* Mal estado de conservación, que aconseja una reforma inmediata del edificio, aunque tenga carácter provisional, hasta que se opte por una solución definitiva capaz de resolver los problemas del servicio de estación con un horizonte temporal amplio.
+
+6.6.- LA INFRAESTRUCTURA FERROVIARIA
+
+El Plan Director de Infraestructuras 1993-2007 contempla la posible ejecución de un trazado de alta velocidad que, atravesando Navarra, enlace Zaragoza (línea Madrid-Barcelona) con la Y vasca. Esta conexión se conoce como Corredor Navarro de Alta Velocidad.
+
+El Plan de Infraestructuras Ferroviarias 1995-2000 evalúa el coste de esta actuación en 200.000 millones de pesetas de 1995, no previendo el inicio de su realización para antes el año 2010 y siempre que se hallen concluidas las líneas Madrid-Barcelona y la Y vasca.
+
+Con carácter previo, se ha previsto la conexión en ancho Renfe al AVE Madrid-Zaragoza en 2003 y posteriormente la conexión en ancho internacional hasta Pamplona
+
+El Gobierno de Navarra ha convenido con el Ministerio de Fomento la promoción a corto plazo de la eliminación del bucle ferroviario de Pamplona mediante la construcción de un nuevo trazado entre Oriz y Zuasti. Este nuevo trazado seguirá el definido para el de Alta Velocidad a lo largo de la Comarca de Pamplona, si bien se realizará con vías de ancho Renfe y se preparará la plataforma del futuro trazado de ancho internacional.
+
+En enero de 1997 fue aprobado definitivamente un Plan Sectorial para la reserva de terrenos destinados a infraestructura ferroviaria en el Área de Pamplona, que define con precisión la nueva traza del ferrocarril y reserva un espacio destinado a albergar la futura estación de pasajeros en Etxabakoitz.
+
+Se prevé que la estación de mercancías siga ubicada en Noáin-Esquíroz.
+
+Cabe preguntarse si va a resultar perjudicado el servicio ferroviario por el cambio de localización de la estación. Hay que responder a esto que la ubicación actual, sin ser mala, no es excelente; por otra parte, una ubicación más central a la ciudad resulta muy compleja para el ferrocarril al tener que salvar la diferencia de cota hasta la meseta; los requisitos funcionales de los trazados de alta velocidad son además de muy difícil resolución en ámbitos urbanos, salvo con soluciones muy complejas -soterramiento generalizado- y de muy elevado coste. La modificación del emplazamiento de la estación no solo no va a empeorar la accesibilidad a la misma en relación a la situación actual, sino que ésta va a mejorar notablemente, al ubicarse en un ámbito muy bien comunicado con la ciudad -Avda de Aróstegui-, con la Comarca y con el conjunto de Navarra – Ronda Oeste-.
+
+Otro aspecto a considerar es la remodelación urbana que puede permitir la supresión de la estación y el levantamiento de las vías actuales en gran parte del bucle, concretamente en Rochapea, en San Jorge y Santa Lucía, y probablemente en Etxabakoitz. En otros documentos del Plan Municipal se expone este aspecto más ampliamente.
+
+No obstante las consideraciones anteriores, y aún cuando las reservas de suelo previstas por el Plan Sectorial son operativas, el plazo de ejecución de la nueva infraestructura ferroviaria obliga al Plan Municipal a mantener los actuales trazados y estación.
+
+El actual trazado ferroviario es de vía única electrificada, carril de 54 kg/ml, traviesas RS y monobloque, bloqueo telefónico y señalización mecánica. La capacidad entre Castejón y Alsasua oscila, según los tramos, entre 57 y 81 circulaciones/día y el grado de ocupación en día medio entre el 51 y el 61%.
+
+6.7.- EL AEROPUERTO
+
+El aeropuerto de Pamplona se encuentra situado fuera de este municipio. Por ello el Plan Municipal de Pamplona no tiene capacidad normativa sobre el mismo. No obstante, hay que señalar dos aspectos al respecto. Por una parte, que sus conexiones por carretera con la capital son buenas. Por otra, que la infraestructura aeroportuaria es correcta y suficiente para absorber la demanda actual y la que pueda preverse a medio y largo plazo.
+
+Con la incorporación al transporte aéreo de la compañía de la Air Nostrum y la permanencia de Iberia, la oferta de servicios desde el aeropuerto de Noáin es muy adecuada.
+
+En 1995 utilizaron el aeropuerto algo menos de 200.000 viajeros, lo que debe considerarse como una cifra modesta. No obstante, la introducción de nuevos servicios se tradujo en un fuerte incremento de la demanda entre 1994 y 1995.
+
+6.8.- LAS PROPUESTAS VIARIAS DEL P.G.O.U. DE 1984 Y SU REALIZACIÓN
+
+La principal variación que se ha producido respecto al esquema viario que planteaba el P.G.O.U. 84 ha sido la construcción de las Rondas (Norte, Este y nueva ronda Oeste). Independientemente de que el P.G.O.U. no incluyera la realización de estas vías por la razón obvia de que en su práctica totalidad discurrían por fuera del término municipal de Pamplona, el hecho es que el estudio de transportes tampoco las contemplaba en su esquema funcional, planteando soluciones para el tránsito de paso que se apoyaban en la adecuación del viario existente convenientemente completado donde resultaba necesario.
+
+La construcción de las Rondas es la principal modificación que se ha producido, siendo una alteración de gran trascendencia tanto desde el punto de vista del transporte, como urbanístico. Asimismo, su incidencia en el funcionamiento de la circulación motorizada comarcal y urbana es muy considerable.
+
+Otras alteraciones observadas son de menor envergadura y trascendencia. En unos casos obedecen a la no realización de algunas propuestas, en otras a modificaciones de trazado introducidas con posterioridad, por último hay actuaciones que se plantearon después de la aprobación del P.G.O.U.
+
+Pero podría decirse que las actuaciones más importantes que se han producido en estos últimos años y que no se consideraban, o al menos no se contemplaban con la dimensión que finalmente adquirieron, han sido el desarrollo de la operación de Mendillorri y la implantación de centros equipamentales y comerciales de ámbito comarcal. Ambos tipos de actuación se han localizado fuera del término municipal de Pamplona -aunque Mendillorri se haya incorporado posteriormente a la capital-, y aunque no constituyen intervenciones en infraestructura de transporte, sus efectos sobre el volumen de circulación motorizada en Pamplona ha sido muy considerable, suponiendo un nuevo elemento a tener muy presente en el trazado y diseño de las nuevas infraestructuras de transporte, y condicionando, cuando no obligando a modificar, la realización de actuaciones viarias previstas en el P.G.O.U. de 1984.

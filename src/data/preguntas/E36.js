@@ -103,7 +103,7 @@ export default [
         "Cierre definitivo sin plazo de subsanación",
         "Archivo del expediente con nueva declaración",
         "Conversión inmediata en solicitud de licencia"],
-    c: 0, exp: "Art. 7.3. Corregidas las deficiencias se concluye favorablemente conforme al art. 7.1; en caso contrario se declara la ineficacia y el cierre definitivo. El cierre inmediato procede cuando las deficiencias son NO subsanables o la actividad no es legalizable (art. 7.2)." },
+    c: 0, exp: "Art. 7.3. Corregidas las deficiencias se concluye favorablemente conforme al art. 7.1; en caso contrario se declara la ineficacia y el cierre definitivo. El cierre procede, previo período de diez días para alegar, cuando las deficiencias son NO subsanables o la actividad no es legalizable (art. 7.2). Según el art. 7.6, los plazos de subsanación son plazos de audiencia previa a la resolución sobre el cese cautelar o definitivo." },
   { id: "E36-17", tema: "E36",
     q: "Según el art. 6.5 de la Ordenanza municipal reguladora del procedimiento de control posterior de las actividades y obras de adecuación iniciadas por comunicación previa o declaración responsable en el término municipal de Pamplona, publicada el 12 de mayo de 2014, el acta de inspección in situ tiene carácter de:",
     o: ["Documento público solo si firma el titular",
@@ -117,5 +117,5 @@ export default [
         "Suspensión temporal por un plazo de un mes",
         "Imposibilidad de continuar desde su constatación",
         "Conversión en licencia de actividad provisional"],
-    c: 2, exp: "Art. 7.5, regla equivalente al art. 69.4 de la Ley 39/2015. Todo ello sin perjuicio de las responsabilidades penales, civiles o administrativas y de la tramitación del oportuno expediente sancionador." },
+    c: 2, exp: "Art. 7.5, regla equivalente al art. 69.4 de la Ley 39/2015. Todo ello sin perjuicio de las responsabilidades penales, civiles o administrativas y de la tramitación, en su caso, del oportuno expediente sancionador (art. 7.7)." },
 ];

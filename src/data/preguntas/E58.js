@@ -2,9 +2,10 @@
 export default [
   // ---------- TEMA 58 ESPECÍFICO · MOVILIDAD EN LA PLANIFICACIÓN URBANA DE PAMPLONA (E58) ----------
   // Rehechas en octubre de 2026 con la mezcla de formatos de GUIA_PREGUNTAS.md (2 bis), solo sobre
-  // temas/E_Tema58.txt con las correcciones de src/data/textosTemas/E58.js. No se preguntan las cifras
-  // de la encuesta domiciliaria de 1996 ni los datos del Plan de Ciclabilidad de 2005, que los avisos
-  // del tema dan por no verificados.
+  // temas/E_Tema58.txt con las correcciones y avisos de src/data/textosTemas/E58.js. No se preguntan los
+  // datos del Plan de Ciclabilidad de 2005, que los avisos dan por no verificados. 25-10-2026: ajustadas
+  // E58-02, E58-04 y E58-06 a los avisos (reparto 20/30/50, partida de la EDM 2013, línea 0 del Plan de
+  // Accesibilidad).
   { id: "E58-01", tema: "E58", subtema: "Plan de Accesibilidad: aprobación", tipo: "DATO",
     q: "Según el I Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026), ¿qué órgano aprobó el plan en diciembre de 2023?",
     o: ["El Pleno del Ayuntamiento.",
@@ -18,7 +19,7 @@ export default [
         "12,7 %.",
         "30 %.",
         "42,1 %."],
-    c: 0, exp: "Plan de Movilidad Urbana Sostenible de la Comarca de Pamplona, Parte E del tema, «Objetivo cuantitativo clave» y aviso inicial: reparto objetivo de 20 % transporte colectivo (TUC), 30 % vehículo privado y 45-50 % peatón y bicicleta. El 12,7 % es la cuota de PARTIDA del transporte público (datos de 2016), no el objetivo. El 30 % es el objetivo del vehículo privado. El 42,1 % es la cuota de partida de los desplazamientos a pie en 2016." },
+    c: 0, exp: "Plan de Movilidad Urbana Sostenible de la Comarca de Pamplona, Parte E del tema, «Objetivo cuantitativo clave» y aviso inicial: reparto objetivo «20/30/50»: 20 % transporte colectivo (TUC), 30 % vehículo privado y 50 % desplazamientos a pie y en bicicleta (el 70 % de la movilidad en modos sostenibles). El 12,7 % es la cuota de PARTIDA del transporte público (Encuesta Domiciliaria de Movilidad de 2013, que el Observatorio Urbano municipal fecha en 2016), no el objetivo. El 30 % es el objetivo del vehículo privado. El 42,1 % es la cuota de partida de los desplazamientos a pie." },
   { id: "E58-03", tema: "E58", subtema: "Plan de Ciclabilidad: red propuesta", tipo: "DATO",
     q: "Según el Plan de Ciclabilidad 2017-2022 del Ayuntamiento de Pamplona (Documento de Síntesis, mayo de 2019), ¿cuántos kilómetros de infraestructuras ciclistas de la red propuesta son de nueva creación?",
     o: ["82,6 km.",
@@ -27,12 +28,12 @@ export default [
         "64,3 km."],
     c: 3, exp: "Plan de Ciclabilidad 2017-2022, Documento de Síntesis (SUMA, mayo de 2019), Parte C del tema y aviso inicial: la red mide 124,4 km, de los que 64,3 km son de nueva creación. 124,4 km es la longitud TOTAL de la red, no la parte nueva. 82,6 km son los carriles de proximidad (13 zonas) y 41,8 km los de conexión metropolitana (11 itinerarios): son los dos niveles de la red, no los tramos nuevos." },
   { id: "E58-04", tema: "E58", subtema: "Plan de Accesibilidad: líneas estratégicas", tipo: "META",
-    q: "Conforme al I Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026), entre las cinco líneas estratégicas en que se organizan sus 65 actuaciones figura la accesibilidad:",
+    q: "Conforme al I Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026), entre las cinco líneas estratégicas sectoriales en que se organizan sus propuestas de actuación figura la accesibilidad:",
     o: ["En los elementos de transporte público.",
         "En las herramientas municipales de planificación.",
         "En los servicios municipales.",
         "Las respuestas a) y c) son correctas."],
-    c: 3, exp: "I Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026), Parte D del tema, «Contenido»: 65 actuaciones en cinco líneas: 1) espacio público; 2) edificios de uso público y titularidad municipal; 3) elementos de transporte público; 4) herramientas municipales de COMUNICACIÓN; 5) servicios municipales. La a) es literal de la línea 3 y la c) de la línea 5. La b) es falsa: cambia «comunicación» por «planificación». Como la a) y la c) son ciertas y la b) no, la correcta es la d)." },
+    c: 3, exp: "I Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026), Parte D del tema, «Contenido», y aviso inicial: «Las 65 propuestas de actuación» se ordenan en una LÍNEA 0 transversal («Transversalidad y corresponsabilidad de la Accesibilidad») y cinco líneas sectoriales: 1) espacio público; 2) edificios de uso público y titularidad municipal; 3) elementos de transporte público; 4) herramientas municipales de COMUNICACIÓN; 5) servicios municipales. La a) es literal de la línea 3 y la c) de la línea 5. La b) es falsa: cambia «comunicación» por «planificación». Como la a) y la c) son ciertas y la b) no, la correcta es la d). Por códigos salen 8 + 16 + 12 + 7 + 7 + 16 = 66 propuestas, aunque la cifra oficial del título es 65." },
   { id: "E58-05", tema: "E58", subtema: "Plan Municipal: sistema de Rondas", tipo: "NEG",
     q: "Señale la respuesta INCORRECTA en relación con las propuestas sobre el sistema de Rondas que recoge el apartado 2.2 del Anexo V del Plan Municipal de Pamplona (Texto Refundido aprobado por Acuerdo de la C.O.T. de 18 de diciembre de 2002):",
     o: ["Prolongar la Ronda Norte hasta enlazar con la A-15/Ronda Oeste.",
@@ -40,13 +41,13 @@ export default [
         "Salvar el quiebro del arco noroeste con el túnel de Ezkaba.",
         "Mejorar la conectividad de las Rondas Este y Oeste."],
     c: 2, exp: "Plan Municipal de Pamplona, Anexo V, parte 5.2, apartado 2.2 «El sistema viario propuesto» (Parte B.2 del tema): se propone prolongar la Ronda Norte hasta enlazar con la A-15/Ronda Oeste, ampliar la capacidad y remodelar los nudos de la Ronda Este y mejorar la conectividad de las Rondas Este y Oeste. La red resultante se asemeja a un anillo orbital con un quiebro en el arco NORESTE, resuelto con el túnel de Ezkaba para salvar Burlada y Villava. La c) es la falsa: cambia «noreste» por «noroeste»." },
-  { id: "E58-06", tema: "E58", subtema: "PMUSCP: promotores y periodo", tipo: "NEG",
+  { id: "E58-06", tema: "E58", subtema: "PMUSCP: promotores y finalidad", tipo: "NEG",
     q: "Conforme al Plan de Movilidad Urbana Sostenible de la Comarca de Pamplona (PMUSCP), ¿cuál de los siguientes datos no corresponde al plan?",
     o: ["Lo elaboran la Mancomunidad, el Gobierno de Navarra y los 18 ayuntamientos del TUC.",
         "Se enmarca en la red europea ENDURANCE y prioriza los modos sostenibles.",
-        "Comprende el periodo 2018-2026, con datos de partida de 2016.",
+        "Busca un plan integral y coordinado sobre todos los modos de la movilidad comarcal.",
         "El convenio de colaboración entre las tres partes se firmó el 22 de septiembre de 2018."],
-    c: 3, exp: "Plan de Movilidad Urbana Sostenible de la Comarca de Pamplona, Parte E del tema y aviso inicial: lo elaboran la Mancomunidad de la Comarca de Pamplona, el Gobierno de Navarra y los 18 ayuntamientos del Transporte Urbano Comarcal; se enmarca en la red europea ENDURANCE; su principio rector prioriza al peatón, la bici y el transporte público; el periodo del plan es 2018-2026 y el reparto de partida es de 2016. El convenio entre las tres partes se firmó el 22 de septiembre de 2016: la d) es la falsa porque cambia el año a 2018." },
+    c: 3, exp: "Plan de Movilidad Urbana Sostenible de la Comarca de Pamplona, Parte E del tema y aviso inicial: lo elaboran la Mancomunidad de la Comarca de Pamplona, el Gobierno de Navarra y los 18 ayuntamientos del Transporte Urbano Comarcal; se enmarca en la red europea ENDURANCE; su principio rector prioriza al peatón, la bici y el transporte público, y su finalidad es obtener un plan integral y coordinado de actuación sobre todos los modos y elementos de la movilidad comarcal. El convenio entre las tres partes se firmó el 22 de septiembre de 2016: la d) es la falsa porque cambia el año a 2018." },
   { id: "E58-07", tema: "E58", subtema: "Plan de Accesibilidad: naturaleza y enfoque", tipo: "META",
     q: "De acuerdo con el I Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026), es cierto que el plan:",
     o: ["Se implanta de forma progresiva mediante planes operativos anuales.",
