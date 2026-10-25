@@ -19,6 +19,7 @@ import e51pn7 from "../../temas/E_Tema51_PN7.txt?raw";
 import e51pn8 from "../../temas/E_Tema51_PN8.txt?raw";
 import e51pn9 from "../../temas/E_Tema51_PN9.txt?raw";
 import e52 from "../../temas/E_Tema52.txt?raw";
+import e52mem7 from "../../temas/E_Tema52_Memoria7.txt?raw";
 import e53marco from "../../temas/E_Tema53_marco.txt?raw";
 import e53nug1 from "../../temas/E_Tema53_NUG_1.txt?raw";
 import e53nug2 from "../../temas/E_Tema53_NUG_2.txt?raw";
@@ -28,7 +29,10 @@ import e55 from "../../temas/E_Tema55.txt?raw";
 import e56 from "../../temas/E_Tema56.txt?raw";
 import e57 from "../../temas/E_Tema57.txt?raw";
 import e58 from "../../temas/E_Tema58.txt?raw";
+import e58mem6 from "../../temas/E_Tema58_Memoria6.txt?raw";
+import e58an52 from "../../temas/E_Tema58_Anexo5_2.txt?raw";
 import e59 from "../../temas/E_Tema59.txt?raw";
+import e59mem107 from "../../temas/E_Tema59_Memoria10_7.txt?raw";
 import c46 from "./textosTemas/E46.js";
 import c47 from "./textosTemas/E47.js";
 import c48 from "./textosTemas/E48.js";
@@ -98,12 +102,12 @@ export const TEXTOS_TEMAS = {
   E49: aplicar(e49, c49),
   E50: aplicar(e50, c50),
   E51: [aplicar(e51, c51), CABECERA_ANEXOS_E51, e51pn3, e51pn4, e51pn5, e51pn7, e51pn8, e51pn9].map(limpiar).join(SALTO + SALTO),
-  E52: aplicar(e52, c52),
+  E52: [aplicar(e52, c52), e52mem7].map(limpiar).join(SALTO + SALTO),
   E53: [aplicar(e53marco, c53), e53nug1, e53nug2, e53nug3].map(limpiar).join(SALTO + SALTO),
   E54: aplicar(e54, c54),
   E55: aplicar(e55, c55),
   E56: aplicar(e56, c56),
   E57: aplicar(e57, c57),
-  E58: aplicar(e58, c58),
-  E59: aplicar(e59, c59),
+  E58: [aplicar(e58, c58), e58mem6, e58an52].map(limpiar).join(SALTO + SALTO),
+  E59: [aplicar(e59, c59), e59mem107].map(limpiar).join(SALTO + SALTO),
 };

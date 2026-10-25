@@ -5,6 +5,71 @@ Capítulo II Sección Segunda: Locales comerciales, y Sección Tercera: Oficinas
 Instalaciones de estacionamientos, garajes, aparcamientos y servicios del automóvil. Título I Capítulo VIII
 Sección Tercera: Instalaciones propias de los edificios.
 
+Estructura: títulos, capítulos y secciones.
+
+ÍNDICE
+PREÁMBULO
+TÍTULO PRELIMINAR – DISPOSICIONES DE CARÁCTER GENERAL
+TÍTULO I – CONDICIONES DE LA EDIFICACIÓN
+Capítulo I – Condiciones de Volumen
+Sección Primera – Condiciones Generales
+Sección Segunda – Manzana Compacta
+Sección Tercera – Manzana con Patio
+Sección Cuarta – Edificación Aislada
+Sección Quinta – Condiciones Particulares de Volumen Casco Antiguo
+Sección Sexta – Condiciones Particulares de Volumen en el Ensanche
+Capítulo II – Condiciones de Habitabilidad
+Sección Primera – Vivienda
+Sección Segunda – Locales Comerciales
+Sección Tercera – Oficinas
+Sección Cuarta – Edificación Industrial
+Sección Quinta – Hoteles y Otros Usos
+Capítulo III – Condiciones Constructivas de la Edificación
+Capítulo IV – Características Estéticas de la Edificación
+Sección Primera – Condiciones Estéticas de la Edificación
+Sección Segunda – Condiciones del Casco Antiguo
+Sección Tercera – Condiciones del I Ensanche
+Capítulo V – Instalaciones de Estacionamientos, Garajes, Aparcamientos y Servicios del Automóvil
+Capítulo VI – Seguridad en la Construcción
+Sección Primera – Disposiciones Generales
+Sección Segunda – Edificios Ruinosos y Derribos
+Capítulo VII – Prevención de Incendios
+Capítulo VIII – Régimen de Servicios
+Sección Primera – Terrenos No Edificables de Propiedad Privada
+Sección Segunda – Aparatos Elevadores
+Capítulo IX – Protección del Arbolado
+DISPOSICIÓN TRANSITORIA
+[Índice del texto refundido municipal «Revisado 16/08/2016» (pamplona.es, OGErevisado16-08-2016.pdf), transcrito sin los números de página. Ese índice no recoge la Sección Tercera del Capítulo VIII, «Instalaciones propias de los edificios» (art. 204 bis), añadida por la modificación de 04/07/02 (B.O.N. 19/08/02), que sí figura en el articulado. Artículos de cada parte según el articulado: Título Preliminar, arts. 1 a 6; Título I, Capítulo I: sección 1.ª, arts. 7 a 11; 2.ª, arts. 12 a 20; 3.ª, arts. 21 a 30; 4.ª, arts. 31 a 42; 5.ª, desde el art. 43; 6.ª, desde el art. 48; Capítulo II: sección 1.ª, desde el art. 54; 2.ª, arts. 98 a 106; 3.ª, arts. 107 a 108 bis; Capítulo V, arts. 139 a 174; Capítulo VIII, sección 3.ª, art. 204 bis.]
+
+Preámbulo.
+
+PREÁMBULO
+ Las Ordenanzas de edificación pretenden regular los aspectos constructivos, técnicos, sanitarios, de seguridad y de régimen de servicios que de un modo u otro afectan a la construcción de edificios.
+ Por un lado se hace preciso determinar las condiciones que han de cumplir éstos en relación al solar y unidad en que se sitúan, así como al uso o actividad a que fueran destinados (aunque ello se haga fundamentalmente desde la normativa urbanística, estableciendo en cada caso variables distintas de edificabilidad, altura, ocupación de parcela...) y por otro fijar las condiciones exigibles a la construcción propiamente dicha en función de aquellos aspectos, constructivos, técnicos, sanitarios, que en cualquier caso se pretende asegurar.
+ Resulta pues claro el objetivo regulador de las Ordenanzas, que constituyen el instrumento que, de una manera directa, ejerce el control de una actividad tan trascendente en el medio urbano como es la construcción de edificios.
+ Cuál haya de ser el carácter del documento Ordenanzas en cuanto a contenido y extensión, sería un primer motivo de reflexión. Otro, distinto, aunque afectará sin duda al anterior, la fijación del ámbito estricto al que deben alcanzar las Ordenanzas.
+ La necesidad de lograr un documento claro y comprensible podría interpretarse, en una visión, a nuestro juicio apresurada, como conveniencia de una Ordenanza de formulación breve.
+ En este punto conviene recordar que, además de claro y comprensible, ha de tratarse de un documento completo, capaz de atender todos los casos que puedan presentarse, una interpretación literal de lo cual podía conducir por el contrario a un documento prolijo. El problema de las Ordenanzas en cuanto texto normativo, estará en cumplir ambas condiciones sólo aparentemente contradictorias.
+ La dificultad de llegar a aplicar la ordenanza no deberá ser un argumento sustancial que incida en su redacción, pues, en último término, esa dificultad no sería imputable al documento mismo sino a circunstancias ajenas a su contenido.
+ Por otra parte, un texto que no regule precisamente cada situación estará abierto a interpretaciones amplias por parte de la Administración Local, lo que puede significar un notable grado de indefensión de cuantos puedan venir afectados por la Ordenanza.
+ Ello no significa que la Ordenanza no participe en algunos de sus contenidos de ese carácter abierto que confiere al Ayuntamiento la capacidad decisoria última de conceder o denegar licencia a determinados proyectos.
+ El ejercicio de esa capacidad resultara tanto menos arbitrario en cuanto el marco en el que se ejerce aparezca suficientemente definido.
+ El segundo aspecto que conviene analizar es el relativo a cuál haya de ser el ámbito de la Ordenanza. Es claro que no nos estamos refiriendo a su ámbito físico, que se extiende a todo el término municipal de Pamplona, sino al marco de situaciones que debe atender.
+ Las Ordenanzas de Construcción regularán básicamente, desarrollando variables establecidas en las Normas Urbanísticas, el modo en que los edificios conforman el espacio no edificado, así como, mediante determinaciones propias, su arquitectura y construcción misma.
+ Si hubiera que establecer una prioridad en cuanto a la atención que ambos temas encontrarán en las Ordenanzas diríamos que resultará primaria, en cualquier caso, toda normativa que afecte a la definición de los espacios exteriores, particularmente los de uso público, en cuanto su dimensión y carácter resulta patrimonio colectivo, en tanto cabría considerar secundarias aquellas determinaciones que persiguen la calidad intrínseca de la construcción, seguridad, del alojamiento, comercio, industria...
+ No hará falta insistir en la imagen de la ciudad como soporte físico de actividades. Regular la calidad de ese soporte pasa tanto por asegurar la configuración última del espacio de uso público, como la calidad de las infraestructuras al servicio de la edificación.
+ En lo que afecta a la edificación misma, la Ordenanza atenderá expresamente sus aspectos estructurales, en la medida en que resultan también componente del soporte urbano a que se ha hecho referencia.
+ Estaríamos hablando de cuanto puede considerarse permanente en la edificación, esto es, cimiento, estructura, muros y cubiertas, acometidas o infraestructura.
+ Regular la calidad de lo que se conviene en denominar soporte de la edificación podrá inscribirse desde esta perspectiva, entre los objetivos fundamentales de las Ordenanzas, por cuanto al margen de garantizar la habitabilidad de la construcción, contribuye a definir el espacio público (piénsese en la importancia de la composición y textura de las fachadas), y el diseño y características de las redes de servicios (que garantizarán dotaciones mínimas a la edificación).
+ La calidad constructiva de la edificación, así en su cimentación y estructura como en la composición de sus cerramientos, además de hacer posible el alojamiento mismo, asegura la permanencia de la ciudad construida.
+ Por lo que afecta a condiciones exigibles a la vivienda considerada en sí misma, podría discutirse si el Ayuntamiento debe controlar necesariamente su proyecto y construcción, en la medida en que se trata de un ámbito privado (sometido por otra parte en muchos casos a disposiciones normativas específicas), y desde luego no parece lógico que haya de hacerlo en cuanto afecta a la definición de programas funcionales u ordenación del espacio interior.
+ No obstante lo cual, habitualmente, las Ordenanzas municipales recogen determinaciones relativas a este tema.
+ En la regulación de las condiciones de alojamiento, se considerarían prioritarios aquellos aspectos higiénicos cuya solución significa en último término, actuaciones vinculadas a la definición del espacio no edificado (condiciones a los patios, dimensión de los huecos...)
+ Resulta también determinante la exigencia de dotaciones mínimas de servicios, pues afectarán finalmente al diseño de la infraestructura general, objeto de proyectos de urbanización.
+ Parece lógico entender como competencia, o aprovechar como capacidad, de la Administración Local la determinación de cuantas prescripciones puedan contribuir a garantizar la habitabilidad de la edificación. Y a ello apunta entre otros objetivos la redacción de las Ordenanzas de Edificación.
+ Conviene señalar finalmente que aunque las presentes Ordenanzas vengan a sustituir a las anteriores de 1974, y modificaciones de 13 de Octubre de 1977 y 29 de Mayo de 1979, en buena medida resultan una actualización o adecuación de las mismas, cuando no su traslado literal, en el marco de un nuevo índice de contenidos.
+[Texto literal del Preámbulo del texto refundido municipal «Revisado 16/08/2016» (pamplona.es, OGErevisado16-08-2016.pdf).]
+
 TITULO I - CONDICIONES DE LA EDIFICACION
 CAPITULO I - CONDICIONES DE VOLUMEN
 SECCION PRIMERA - CONDICIONES GENERALES.
@@ -63,6 +128,7 @@ Anchura de la calle a que de frente la fachada:
  No podrán disponerse cuerpos salientes sino a partir de la primera planta de la edificación.
  En la Normativa Urbanística y otras secciones de este capítulo se determinan las condiciones
 particulares de volumen para sectores o unidades características de la ciudad.
+[Arts. 8 y 9: redacción resultante de la modificación aprobada definitivamente por el Pleno el 07-03-2013 (BON n.º 66, de 09-04-2013; ascensores en edificios existentes), que suprimió de estos artículos los párrafos sobre cuerpos salientes para eliminar barreras arquitectónicas e incorporó a la Normativa Urbanística General la sección décima, «Normas sobre instalación de ascensores» (arts. 80 a 85). Su disposición transitoria añade: «En el ámbito del PEPRI del Casco Antiguo no es de aplicación la presente normativa. En tanto dicho plan no se adapte a las intenciones de esta modificación, seguirán estando en vigor en su ámbito el artículo 9 de la Ordenanza General de Edificación y el artículo 35 de la Normativa Urbanística General vigentes en el momento de la aprobación de esta normativa.»]
 Art. 10.- Entrantes.
  La profundidad admisible para entrantes en plantas superiores no excederá la longitud de vuelo
 permitida a la edificación de que se trate y no habrá de superar en ningún caso la proporción 1:3 en
@@ -588,6 +654,7 @@ la zona de uso común.
 –No podrá ubicarse exclusivamente en planta sótano.
  La tipología de oficina tipo Loft no excluye la posibilidad de que en el resto de las oficinas exista
 algún espacio destinado a descanso. 
+[Art. 108 bis: aprobado inicialmente por el Pleno el 3 de julio de 2014 (BON n.º 144, de 24-07-2014) y definitivamente, al no presentarse alegaciones, con publicación de su texto íntegro en el BON n.º 178, de 11-09-2014 (anuncio L1412152); entró en vigor a los 15 días de esa publicación. El texto del BON coincide con el de arriba. La fecha «03/06/14» de la anotación del texto refundido no coincide con la del Pleno, que fue el 3 de julio de 2014.]
 
 Título I Capítulo V:
 Instalaciones de estacionamientos, garajes, aparcamientos y servicios del automóvil.
