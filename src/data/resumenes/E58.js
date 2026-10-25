@@ -64,12 +64,12 @@ export default {
       {
         h: "Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026)",
         nota:
-          "Es el PRIMER plan estratégico municipal de accesibilidad. Lo aprobó la JUNTA DE GOBIERNO LOCAL el 18-12-2023. Tiene 65 actuaciones en 5 líneas y se aplica poco a poco mediante PLANES OPERATIVOS ANUALES. No se limita a las barreras físicas: también abarca la accesibilidad sensorial, cognitiva y tecnológica.",
+          "Es el PRIMER plan estratégico municipal de accesibilidad. Lo aprobó la JUNTA DE GOBIERNO LOCAL el 18-12-2023. Tiene 65 propuestas de actuación, ordenadas en una LÍNEA 0 transversal y 5 líneas sectoriales, y se aplica poco a poco mediante PLANES OPERATIVOS ANUALES. No se limita a las barreras físicas: también abarca la accesibilidad sensorial, cognitiva y tecnológica.",
         items: [
           "Denominación oficial: «Plan Estratégico de Accesibilidad Integral de la ciudad de Pamplona (2022-2026)»; las notas municipales lo llaman «I Plan». Implantación prevista 2023-2026 (la nota de aprobación habla de un horizonte de 2028)",
           "Enfoque: ACCESIBILIDAD UNIVERSAL según el RDL 1/2013, de 29 de noviembre (entornos, procesos, bienes, productos y servicios comprensibles, utilizables y practicables por todas las personas con seguridad, comodidad y autonomía), con diseño universal y ajustes razonables",
           "Cuatro tipos de accesibilidad: FÍSICA, SENSORIAL, COGNITIVA y TECNOLÓGICA",
-          "65 propuestas de actuación en CINCO LÍNEAS: espacio público; edificios de uso público y titularidad municipal; elementos de transporte público; herramientas municipales de comunicación; servicios municipales. La de espacio público tiene 8 objetivos y 16 actuaciones",
+          "«Las 65 propuestas de actuación» (documento de mayo de 2023) se ordenan en una LÍNEA 0, «Transversalidad y corresponsabilidad de la Accesibilidad», y CINCO LÍNEAS sectoriales: espacio público; edificios de uso público y titularidad municipal; elementos de transporte público; herramientas municipales de comunicación; servicios municipales. Por códigos salen 8 + 16 + 12 + 7 + 7 + 16 = 66 propuestas (línea 0 a línea 5), una más de las que anuncia el título: la cifra oficial es 65",
           "Participación: más de 34 colectivos del ámbito de la discapacidad, áreas municipales, entidades supramunicipales y ciudadanía (137 personas hicieron aportaciones, según la nota de mayo de 2023)",
           "Gobernanza: se prevé un CONSEJO DE ACCESIBILIDAD INTEGRAL DE PAMPLONA que liderará la planificación mediante planes operativos anuales, con su dotación presupuestaria, y su seguimiento",
           "Transporte público: la responsabilidad es de la MANCOMUNIDAD DE LA COMARCA DE PAMPLONA, que gestiona el servicio; el Ayuntamiento se coordina con ella",
@@ -79,15 +79,15 @@ export default {
       {
         h: "PMUS de la Comarca de Pamplona (PMUSCP)",
         nota:
-          "Es COMARCAL, no municipal. Lo promueven el Gobierno de Navarra, la Mancomunidad de la Comarca de Pamplona (MCP) y los 18 ayuntamientos del Transporte Urbano Comarcal (TUC), por convenio de 22-09-2016. Objetivo de reparto: 20 % transporte público, 30 % vehículo privado y 45-50 % a pie y en bici.",
+          "Es COMARCAL, no municipal. Lo promueven el Gobierno de Navarra, la Mancomunidad de la Comarca de Pamplona (MCP) y los 18 ayuntamientos del Transporte Urbano Comarcal (TUC), por convenio de 22-09-2016. Objetivo de reparto «20/30/50»: 20 % transporte público, 30 % vehículo privado y 50 % a pie y en bici.",
         items: [
           "Ámbito: la Comarca de Pamplona delimitada por el servicio de Transporte Urbano Comarcal. Lo dirige la MCP bajo la supervisión del Gobierno de Navarra, que asumió el 65 % del coste de elaboración",
           "Finalidad: un plan integral y coordinado sobre todos los modos de desplazamiento (transporte público, coche y aparcamiento, bici, peatón), para mejorar la calidad de vida y reducir los impactos ambientales y el consumo energético",
           "Principio rector: prioridad para el peatón, la bici y el transporte público; el vehículo privado queda en un papel subsidiario",
-          "Reparto de partida (datos de 2016, todos los motivos): a pie 42,1 %, transporte público 12,7 %, vehículo privado 41,1 %, otros 4,1 %",
-          "Objetivo: transporte público 20 % (uno de cada cinco viajes), vehículo privado 30 %, a pie y en bici 45-50 %",
+          "Reparto de partida (todos los motivos): a pie 42,1 %, transporte público 12,7 %, vehículo privado 41,1 %, otros 4,1 %; procede de la Encuesta Domiciliaria de Movilidad de 2013 (así lo toma el Pacto por la Movilidad), aunque el Observatorio Urbano municipal lo fecha en 2016 porque lo cita a través del diagnóstico del PMUS",
+          "Objetivo «20/30/50» (Pacto por la Movilidad de 20-02-2017, aprobado por unanimidad, y Resumen del PMUS de junio de 2019): transporte público 20 % (uno de cada cinco viajes), vehículo privado 30 %, a pie y en bici 50 %; en conjunto, el 70 % en modos sostenibles",
           "Líneas del borrador (noviembre de 2017): itinerarios metropolitanos para peatones y ciclistas; redes troncales de altas prestaciones para la villavesa; «células urbanas» que limitan el coche; aparcamientos disuasorios; reducción gradual de la oferta de aparcamiento. Seis objetivos y 19 estrategias",
-          "Proceso participativo amplio; la propuesta se aprobó en febrero de 2019 y el Ayuntamiento lo considera APROBADO para el periodo 2018-2026",
+          "Proceso participativo amplio. Periodo: el Observatorio Urbano municipal lo da por «Aprobado» para 2018-2026; el Resumen de junio de 2019 habla de un horizonte de unos 10 años con una Fase Programada 2019-2021, y la ficha de la Agenda Urbana Pamplona 2030, de 2019-2030. No consta ninguna revisión del plan hasta el 21-05-2026",
           "Tras la comisión de seguimiento, el plan debía pasar por los plenos municipales, la Asamblea General de la MCP y el Gobierno de Navarra (nota de la firma del convenio, 2016)"
         ]
       }
@@ -100,11 +100,11 @@ export default {
       "Red de cobertura: sin infraestructura propia, calzada compartida a 30 km/h como máximo",
       "Ciclocarril: carril a 30 km/h en vías con más de un carril por sentido; ciclocalle: calzada a 30 km/h o menos",
       "Anchuras: unidireccional metropolitano 1,80 m (2,00 recomendado); bidireccional de proximidad 2,50 m (3,00 recomendado); protección 0,50 m junto al tráfico y 0,80 m junto al aparcamiento",
-      "Accesibilidad: Junta de Gobierno Local, 18-12-2023; 65 actuaciones; 5 líneas; planes operativos anuales; Consejo de Accesibilidad Integral",
+      "Accesibilidad: Junta de Gobierno Local, 18-12-2023; 65 propuestas; línea 0 transversal + 5 líneas sectoriales; planes operativos anuales; Consejo de Accesibilidad Integral",
       "Accesibilidad integral = física + sensorial + cognitiva + tecnológica",
       "PMUSCP: Gobierno de Navarra + MCP + 18 ayuntamientos del TUC; convenio de 22-09-2016",
-      "PMUSCP: de 42,1 % a pie / 12,7 % TP / 41,1 % coche (2016) a 20 % TP / 30 % coche / 45-50 % a pie y en bici",
-      "No confundir el reparto de 1996 del Plan Municipal (43,7 / 36,8 / 14,4) con el de partida del PMUSCP (2016) ni con su objetivo"
+      "PMUSCP: de 42,1 % a pie / 12,7 % TP / 41,1 % coche (EDM 2013; el Observatorio lo fecha en 2016) al 20/30/50: 20 % TP / 30 % coche / 50 % a pie y en bici",
+      "No confundir el reparto de 1996 del Plan Municipal (43,7 / 36,8 / 14,4) con el de partida del PMUSCP (EDM 2013) ni con su objetivo"
     ],
     memorizacion: {
       tablas: [
@@ -144,22 +144,23 @@ export default {
           columnas: ["Fuente", "A pie (y bici)", "Transporte público", "Vehículo privado"],
           filas: [
             ["Plan Municipal, encuesta de 1996", "43,7 % a pie", "14,4 %", "36,8 %"],
-            ["PMUSCP, partida (2016)", "42,1 % a pie (+ 4,1 % otros)", "12,7 %", "41,1 %"],
-            ["PMUSCP, OBJETIVO", "45-50 % a pie y en bici", "20 %", "30 %"]
+            ["PMUSCP, partida (EDM 2013; 2016 según el Observatorio)", "42,1 % a pie (+ 4,1 % otros)", "12,7 %", "41,1 %"],
+            ["PMUSCP, OBJETIVO (20/30/50)", "50 % a pie y en bici", "20 %", "30 %"]
           ],
-          nota: "Las cifras de 1996 proceden del texto del tema (Anexo V) y no se han cotejado con el original. Las de 2016 son del PMUS, recogidas por el Ayuntamiento."
+          nota: "Las cifras de 1996 proceden del Anexo 5.1 del Plan Municipal y se han cotejado con él. Las de partida del PMUSCP son de la Encuesta Domiciliaria de Movilidad de 2013 (el Observatorio Urbano municipal las fecha en 2016)."
         },
         {
-          titulo: "Plan Estratégico de Accesibilidad Integral: las cinco líneas",
+          titulo: "Plan Estratégico de Accesibilidad Integral: línea 0 y cinco líneas sectoriales",
           columnas: ["Línea", "Ámbito"],
           filas: [
-            ["1", "Espacio público (8 objetivos y 16 actuaciones)"],
+            ["0", "Transversalidad y corresponsabilidad de la Accesibilidad (8 propuestas)"],
+            ["1", "Espacio público (16 propuestas)"],
             ["2", "Edificios de uso público y titularidad municipal"],
             ["3", "Elementos de transporte público (coordinación con la MCP)"],
             ["4", "Herramientas municipales de comunicación"],
             ["5", "Servicios municipales"]
           ],
-          nota: "65 actuaciones en total. Aprobado por la Junta de Gobierno Local el 18-12-2023; se aplica mediante planes operativos anuales."
+          nota: "65 propuestas según el título (por códigos, 8 + 16 + 12 + 7 + 7 + 16 = 66). Aprobado por la Junta de Gobierno Local el 18-12-2023; se aplica mediante planes operativos anuales."
         },
         {
           titulo: "Los cuatro documentos de un vistazo",
@@ -168,7 +169,7 @@ export default {
             ["Plan Municipal (sistema de comunicaciones)", "Municipal", "Aprobación definitiva por la C.O.T.", "18-12-2002"],
             ["Plan de Ciclabilidad 2017-2022", "Municipal", "Redacción: SUMA Urban Sustainability Consultants", "Síntesis de mayo de 2019"],
             ["Plan Estratégico de Accesibilidad Integral (2022-2026)", "Municipal", "Junta de Gobierno Local", "18-12-2023"],
-            ["PMUS de la Comarca de Pamplona", "Comarcal (18 municipios del TUC)", "Gobierno de Navarra, MCP y ayuntamientos", "Convenio 22-09-2016; propuesta de febrero de 2019; periodo 2018-2026"]
+            ["PMUS de la Comarca de Pamplona", "Comarcal (18 municipios del TUC)", "Gobierno de Navarra, MCP y ayuntamientos", "Convenio 22-09-2016; «Aprobado» 2018-2026 según el Observatorio Urbano municipal"]
           ],
           nota: "El PMUSCP es el único comarcal: no lo confundas con la Ordenanza de Movilidad de Pamplona (2019)."
         }

@@ -69,11 +69,11 @@ export default {
         ],
       },
       {
-        h: "PGOU de 1984: encargo, idea de ciudad y ejecución (Anexo VI, cap. 2)",
+        h: "PGOU de 1984: adjudicación de la redacción, idea de ciudad y ejecución (Anexo VI, cap. 2)",
         nota:
-          "Datos oficiales del Anexo VI, capítulo 2 «La transformación de Pamplona con el P.G.O.U.-84»: encargo en 1979, aprobación en noviembre de 1984, dos objetivos (HOMOGENEIDAD y AUSTERIDAD) y tres principios de actuación. Un plan pensado para una época de crisis que tuvo que adaptarse al auge inmobiliario desde 1986.",
+          "Datos oficiales del Anexo VI, capítulo 2 «La transformación de Pamplona con el P.G.O.U.-84»: adjudicación del concurso para su redacción en 1979, aprobación en noviembre de 1984, dos objetivos (HOMOGENEIDAD y AUSTERIDAD) y tres principios de actuación. Un plan pensado para una época de crisis que tuvo que adaptarse al auge inmobiliario desde 1986.",
         items: [
-          "Encargo de la redacción: sesión plenaria municipal de 20 DE DICIEMBRE DE 1979",
+          "El proceso se inicia con la ADJUDICACIÓN DEL CONCURSO para la redacción del Plan General, acordada en sesión plenaria municipal de 20 DE DICIEMBRE DE 1979",
           "Aprobación definitiva: RESOLUCIONES MINISTERIALES DE 7 Y 16 DE NOVIEMBRE DE 1984, publicadas en el BOE de 23 DE NOVIEMBRE DE 1984 (fecha de referencia que usa la NUG para las actividades consolidadas). Sustituye al Plan de Alineaciones de 1957",
           "Idea de ciudad: DOS CIUDADES YUXTAPUESTAS con estructuras distintas: la ciudad ALTA de la meseta y la ciudad BAJA del valle del Arga",
           "Dos objetivos: «HOMOGENEIDAD de las diferentes zonas de Pamplona, corrigiendo las tendencias urbanas» y «AUSTERIDAD en las propuestas» (conservar el patrimonio edificado), condicionada por la crisis",
@@ -109,7 +109,7 @@ export default {
       "1966: el Ministerio de la Vivienda autoriza la revisión anticipada del Plan de 1957; el Plan Comarcal no llegó a redactarse",
       "Comarca delimitada el 18-3-1967: 93 Ayuntamientos y Concejos",
       "Normas Subsidiarias y Complementarias comarcales: OM 28-1-1977; Normas Urbanísticas Comarcales: definitiva 22-3-1999 (BON 74, 14-6-1999)",
-      "PGOU-84: encargo 20-12-1979; RRMM 7 y 16-11-1984; BOE 23-11-1984",
+      "PGOU-84: adjudicación del concurso de redacción 20-12-1979; RRMM 7 y 16-11-1984; BOE 23-11-1984",
       "PGOU-84: objetivos homogeneidad y austeridad; ciudad alta (meseta) y ciudad baja (Arga); revisión 1988-1990 interrumpida en julio de 1990",
       "Plan Municipal: C.O.T. 18-12-2002; homologación OF 181/2007; texto refundido 18-1-2008",
       "TRAMPA: la Ciudadela es de Felipe II, no de Fernando el Católico (suyo fue el castillo de Santiago previo)",
@@ -128,7 +128,7 @@ export default {
             ["18-3-1967", "Delimitación de la comarca: 93 Ayuntamientos y Concejos", "Memoria I, 1.8.3"],
             ["1974", "Delimitación de sectores de planeamiento (plano de información n.º 23)", "Memoria I, 1.9 (relación de planos)"],
             ["28-1-1977", "Normas Subsidiarias y Complementarias de la Comarca (Orden Ministerial)", "Memoria I, 1.8.3"],
-            ["20-12-1979", "El Pleno adjudica la redacción del nuevo Plan General", "Anexo VI, cap. 2"],
+            ["20-12-1979", "El Pleno acuerda la adjudicación del concurso para la redacción del Plan General", "Anexo VI, cap. 2"],
             ["7 y 16-11-1984", "PGOU aprobado por resoluciones ministeriales (BOE 23-11-1984)", "Anexo VI, cap. 2"],
             ["1988-1990", "Revisión del PGOU-84 (Programa de Actuación); se interrumpe en julio de 1990", "Anexo VI, 2.2 y 2.5"],
             ["28-3-1988", "Decreto Foral 103/1988: formación de las Normas Urbanísticas Comarcales", "Memoria I, 1.8.3"],
@@ -152,7 +152,7 @@ export default {
           titulo: "PGOU de 1984 en cifras y fórmulas (Anexo VI, cap. 2)",
           columnas: ["Dato", "Contenido"],
           filas: [
-            ["Encargo", "Sesión plenaria de 20-12-1979"],
+            ["Adjudicación del concurso de redacción", "Sesión plenaria de 20-12-1979"],
             ["Aprobación definitiva", "Resoluciones ministeriales de 7 y 16-11-1984; BOE 23-11-1984"],
             ["Idea de ciudad", "Dos ciudades yuxtapuestas: alta (meseta) y baja (valle del Arga)"],
             ["Objetivos", "Homogeneidad de las zonas · Austeridad en las propuestas"],
