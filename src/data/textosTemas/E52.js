@@ -3,6 +3,7 @@
 export default {
   avisos: [
     `>>> AVISO: tema no normativo. Este TXT es una síntesis propia; se han añadido (marcados [AÑADIDO]) los hitos de la Memoria I y del Anexo VI del Plan Municipal que faltaban: revisión anticipada del Plan de 1957 (1966), comarca de 1967, sectores de 1974, Normas Subsidiarias de 1977, Normas Comarcales de 1999 y datos del PGOU-84. Corregido el quinto baluarte de la Ciudadela: San Felipe el Real (no «Santa Tecla»), según el Catálogo del Plan.`,
+    `>>> AVISO: al final de este tema va el TEXTO LITERAL del capítulo VII «La ciudad actual» de la MEMORIA I-ANÁLISIS del Plan Municipal (pp. 209-240; apdos. 7.1 Antecedentes. Formación de la ciudad, 7.2 La transformación de Pamplona con el P.G.O.U.-84 y 7.3 La ciudad actual). El Anexo VI no se incorpora: sus caps. 1, 2 y 6 repiten esos apartados y el resto son unas 180 páginas de planeamiento desarrollado, gestión y urbanizaciones. La Guía de arquitectura de Pamplona y su comarca es una obra con derechos y no se reproduce. Lo que va antes del texto literal es una síntesis propia: si hay diferencias, manda el literal.`,
   ],
   cambios: [
     [`La Victoria, Santa Tecla)`, `La Victoria y San Felipe el Real, según la ficha «Recintos» del Catálogo del Plan Municipal)`],
@@ -19,8 +20,8 @@ COMPLEMENTARIAS de la Comarca se aprobaron definitivamente por Orden Ministerial
 1977 (correcciones por OM de 16-12-1977). Mucho después, el Decreto Foral 103/1988, de 28 de marzo,
 ordenó formar las NORMAS URBANÍSTICAS COMARCALES, aprobadas definitivamente el 22 de marzo de 1999
 (BON n.º 74, de 14-06-1999).`],
-    [`Aportaciones y desarrollo del Plan de 1984:`, `[AÑADIDO — Anexo VI «La ciudad actual» del Plan Municipal, cap. 2] Encargo de la redacción: sesión
-plenaria municipal de 20 de diciembre de 1979. Aprobación definitiva: resoluciones ministeriales de
+    [`Aportaciones y desarrollo del Plan de 1984:`, `[AÑADIDO — Anexo VI «La ciudad actual» del Plan Municipal, cap. 2] Adjudicación del concurso para la
+redacción del Plan General: sesión plenaria municipal de 20 de diciembre de 1979. Aprobación definitiva: resoluciones ministeriales de
 7 y 16 de noviembre de 1984 (BOE de 23-11-1984). Idea de ciudad: «dos ciudades yuxtapuestas», la
 alta de la meseta y la baja del valle del Arga. Objetivos: «Homogeneidad de las diferentes zonas de
 Pamplona» y «Austeridad en las propuestas». Principios de actuación: se acepta la ciudad existente;
@@ -37,8 +38,8 @@ Decreto Foral Legislativo 1/2017).`],
 aprobación del PGOU de 1984; se describe por su contenido y su papel, contrastados en
 la memoria del Plan Municipal. Si el temario exige fecha/autor concretos, confirmar en
 el Capítulo 7 de la Memoria del Plan Municipal (bibliografía oficial).`, `NOTA (revisión de octubre de 2026): las fechas del PGOU de 1984 se han verificado en el
-Anexo VI «La ciudad actual» del Plan Municipal (cap. 2): encargo de la redacción en sesión
-plenaria de 20-12-1979; aprobación definitiva por resoluciones ministeriales de 7 y 16 de
+Anexo VI «La ciudad actual» del Plan Municipal (cap. 2): adjudicación del concurso para la
+redacción, acordada en sesión plenaria de 20-12-1979; aprobación definitiva por resoluciones ministeriales de 7 y 16 de
 noviembre de 1984, publicadas en el BOE de 23-11-1984. El Anexo VI no da el equipo redactor.
 Fuentes añadidas: Memoria I (Análisis), apdos. 1.1 y 1.8.3; Anexo VI, caps. 1 y 2; Catálogo,
 ficha «Recintos» (pamplona.es, Plan Municipal).`],

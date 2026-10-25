@@ -1055,78 +1055,311 @@ de renovación y sustitución de un edificio no excederá, en ningún caso,
 de 20 metros.
 
 ################################################################################
-T-VI CAP. III — VERSIÓN VIGENTE DE LOS ARTS. 87 Y 88 (usos)
-(tras modificación BON 249 de 20/12/2019 y BON 16 de 24/01/2025; sustituye al
-texto de 2001, que regulaba los usos por cuadro de compatibilidades)
+T-VI CAP. III — VERSIÓN VIGENTE DE LOS ARTS. 87 Y 88 (usos), TEXTO LITERAL
+(modificación BON nº 196, de 26/09/2024, aprobación inicial; BON nº 16, de 24/01/2025,
+aprobación definitiva). SUSTITUYE al texto de 2001 (cuadro de compatibilidades) y al
+de 2019 (BON nº 249, de 20/12/2019).
 ################################################################################
+[Nota de procedencia: texto de la «Normativa propuesta» (apartado 2.2) del documento
+«Modificación Puntual del Plan Especial Protección y Reforma Interior del Casco Antiguo de
+Pamplona», Gerencia de Urbanismo, septiembre de 2024, es decir, el texto de la
+modificación APROBADA INICIALMENTE. El aprobado definitivamente es un «Texto Refundido»
+tras alegaciones (Pleno de 12/12/2024, BON nº 16, de 24/01/2025), cuyo texto no se ha
+podido obtener; no se ha podido comprobar si las alegaciones cambiaron algo. Se suprimen
+los encabezados y pies de página del documento y se señalan entre corchetes sus erratas.]
 
-CONTEXTO: el uso principal del Casco Antiguo es RESIDENCIAL COLECTIVO EN MANZANA. La
-regulación de usos del PEPRI se remite a las Tablas 2 y 3 de compatibilidad de la
-Normativa Urbanística General del Plan Municipal, con modificaciones. El gran cambio
-de 2025: las VIVIENDAS, APARTAMENTOS Y ALOJAMIENTOS TURÍSTICOS (los regulados por el
-Decreto Foral 230/2011, de 26 de octubre) pasan a ser USO PROHIBIDO en parcela de uso
-Residencial Colectivo (antes la residencia eventual era tolerada), salvo los ya
-inscritos en el Registro de Turismo y con licencia a la entrada en vigor (régimen
-transitorio del art. 88.15).
+CAPITULO III.- NORMAS GENERALES DE USO
+Artículo 87. – Usos pormenorizados.
+Residencial Colectivo y Dotacional.
+La Tabla 2 de compatibilidad de los usos pormenorizados de parcela respecto de los usos
+pormenorizados de la unidad básica recogida en la Normativa Urbanística General del Plan
+Municipal es de aplicación en el Casco Antiguo, con las siguientes modificaciones:
+En Unidades Básicas de uso Residencial Colectivo:
+1. El uso de oficina, residencial colectivo con vivienda en planta baja, taller y almacén en
+parcela completa es uso prohibido, salvo que venga expresamente recogido en la
+normativa particular por parcela.
+2. Las actividades comerciales y las recreativas son usos permitidos en edificio completo, con
+los siguientes matices o excepciones:
+- Las actividades hosteleras y las aledañas son usos permitidos en edificio [el documento de 2024
+corta aquí la frase con un pie de página; la redacción de 2019 que el mismo documento reproduce
+como vigente dice: «en edificio completo de acuerdo a lo señalado en el artículo 89».]
+- Las actividades de salas de bingo, tiendas de apuestas, salones de juego y salones
+deportivos son usos prohibidos.
+3. El uso pormenorizado Residencia Eventual en parcelas con uso previsto Residencial
+Colectivo se considera uso tolerado, excepto para viviendas, apartamentos y alojamientos
+turísticos regulados por el Decreto Foral 230/2011, de 26 de octubre, o norma que lo sustituya
+en el futuro. que se considera uso prohibido, sin perjuicio de lo previsto en el número 15 del
+artículo 88.
+4. La implantación o ampliación de un uso residencial eventual pormenorizado requerirá que
+quede garantizado lo siguiente:
+4.1. La suma de las superficies construidas correspondientes a las parcelas de la unidad
+básica con uso pormenorizado implantado Residencial, en calidad de principal o
+permitido, sea igual o superior al 75% de la superficie construida total de la unidad
+básica.
+4.2. La suma de superficies construidas correspondientes a las parcelas de la unidad
+básica con uso pormenorizado implantado Residencial Colectivo sea igual o superior
+al 75% de la suma de las superficies construidas correspondientes a las parcelas de la
+unidad básica que el plan prevea para tal uso.
+4.3. En caso de que el nuevo uso cuente con actividad de bar, cafetería y/o restaurante, los
+accesos y salidas habituales de éstas (excluidas las salidas que sólo son utilizables en
+caso de emergencia o servicio) no podrán dar directamente al espacio público, sino
+que deberán producirse desde el espacio común cerrado del conjunto del
+establecimiento.
+4.4. La superficie construida de las parcelas se medirá conforme a las reglas que, de
+manera general, el art. 35 de la Normativa urbanística General del Plan Municipal prevé
+para medir aprovechamiento.
+4.5. Las superficies construidas de edificios o partes de edificios fuera de ordenación no se
+contarán entre las superficies construidas correspondientes a los usos Residencial
+Colectivo, principal y permitidos.
+En Unidades Básicas de Uso Dotacional:
+El uso residencial eventual se considera uso permitido, de acuerdo con lo señalado en el
+artículo 91.
+Con carácter general, los edificios completos que estén destinados a usos prohibidos en virtud
+de esta regulación que dispongan de licencia de actividad, obra o primera utilización en el
+momento de entrada en vigor de esta modificación puntual, o que puedan considerarse
+consolidadas en aplicación del artículo 28.3 de la Normativa Urbanística General del Plan
+Municipal, podrán realizar reformas de cualquier tipo pudiéndose incluso proceder a la
+renovación del edificio, manteniendo dichos usos.
+Artículo 88. – Usos detallados.
+La Tabla 3 de compatibilidad de los usos detallados respecto de los usos pormenorizados de
+parcela en la Normativa Urbanística General del Plan Municipal es de aplicación en el Casco
+Antiguo, con las siguientes modificaciones:
+1. En entrecubierta se permiten los mismos usos que en el resto de plantas elevadas, siempre
+que esté físicamente vinculada a la planta inferior.
+2. El uso detallado Residencia Eventual en viviendas de edificios con uso pormenorizado
+Residencial se considera uso tolerado, excepto para viviendas, apartamentos y
+alojamientos turísticos regulados por el Decreto Foral 230/2011, de 26 de octubre, o norma
+que lo sustituya en el futuro, que se considera uso prohibido, sin perjuicio de lo previsto en el
+número 15 del presente artículo.
+3. Dicho uso tolerado Residencial Eventual se regirá por las siguientes reglas:
+3.1. Se tolera su ubicación en planta primera exclusivamente. No obstante, se tolera
+también implantar albergues del Camino de Santiago en planta baja y transformar las
+viviendas ya existentes en planta baja en residencia eventual.
+3.2. Se tolera también, en plantas de piso y en viviendas existentes en planta baja, el
+alquiler de habitaciones con fines turísticos, anejo al uso como vivienda habitual.
+A tal objeto:
+a) Deberá respetarse en todo caso el límite máximo de superficie destinada a alquiler
+de habitaciones con fines turísticos tal fin que prevé el artículo 28 de la Normativa
+Urbanístico General del Plan Municipal.
+b) Además de lo anterior, dado que el fin turístico ha de ser anejo al de vivienda y no a
+la inversa, la superficie útil afectada por el uso turístico no podrá ser superior al 50 % de
+la superficie útil total de la vivienda.
+A los efectos previstos en las letras a) y b) anteriores, se considerará superficie útil
+afecta a uso turístico:
+- tanto la correspondiente a la habitación o las habitaciones directamente
+destinadas a fines turísticos,
+- como, asimismo, una parte proporcional del resto de la superficie útil de la
+vivienda, en la misma proporción que cl [sic: el] número de habitaciones dedicadas a
+fines turísticos con respecto al número total de habitaciones.
+3.3. En todos los casos, requerirá que tras la implantación o ampliación quede garantizado
+que:
+3.3.1. La suma de las superficies construidas correspondientes a los locales y viviendas
+de la parcela destinados a usos principal y/o permitidos sea igual o superior al 75%
+de la suma de las superficies construidas de todos los locales y viviendas de la
+parcela.
+3.3.2. La suma de las superficies construidas correspondientes a las viviendas de la
+parcela sea igual o superior al 75% de la suma de las superficies construidas de
+todos los locales y viviendas situados en las plantas de piso de la parcela
+3.3.3. La superficie construida de cada uno de los locales y viviendas se medirá
+conforme a las siguientes reglas:
+a) Corresponderá a la superficie limitada por el perímetro exterior del cierre de
+las fachadas y los ejes de paredes medianeras o elementos de separación
+con otras viviendas, locales o espacios comunes y no se contarán las
+superficies construidas correspondientes a:
+- Bajo cubiertas ni áticos ni zonas con altura libre inferior a 1,50 m.
+- Zonas comunes del edificio ni locales de la comunidad ni garajes y trasteros
+situados en sótano.
+- Las entreplantas de los locales de planta baja
+b) Las superficies construidas de partes fuera de ordenación no se contarán
+entre las correspondientes a viviendas ni locales dedicados a usos principal o
+permitidos.
+c) En los locales destinados parcialmente a usos tolerados o prohibidos, se
+contarán como superficies construidas correspondientes a usos tolerados o
+prohibidos, respectivamente, las específicas del uso más las de utilización
+común con el resto de los usos que conviven en el local. El mismo criterio se
+seguirá para el alquiler de habitaciones con fines turísticos
+4. El uso de almacén necesariamente ha de estar vinculado a comercio o actividades de
+hostelería de la propia Unidad Integrada VIII.
+5. En el concepto “oficina aneja a vivienda habitual” se incluyen usos tales como peluquerías,
+taller de sastre, modista y similares.
+6. No se establecen limitaciones de superficie para ningún uso, salvo las recogidas en el art.
+89.
+7. Las actividades recreativas son usos permitidos, en edificios de uso vivienda colectiva, en
+planta baja o en planta baja vinculada a sótano y/o planta primera y en edificios
+destinados a equipamiento, comercio o residencia eventual, en cualquier ubicación, con
+los siguientes matices o excepciones:
+–Las actividades hosteleras son usos permitidos de acuerdo a lo señalado en el artículo 89.
+–Las actividades de salas de bingo, tiendas de apuestas, salones de juego y salones
+deportivos son usos prohibidos.
+8. El uso de garaje no queda vinculado a la exigencia establecida en el apartado 14 de la
+Tabla 3 del artículo 28 de la Normativa General del Plan Municipal.
+9. En edificios completos destinados a uso comercial, residencia eventual, equipamiento o
+actividades recreativas los usos de almacén, oficina o taller se consideran como usos
+tolerados y sólo son admisibles como usos vinculados al principal.
+10. Se consideran como usos permitidos en cualquier situación los usos alternativos de interés
+cultural, deportivo, público o social correspondientes a instalaciones sin ánimo de lucro,
+que no incluyan servicios de bar, cocina, restaurante o similar.
+11. Los establecimientos destinados a usos prohibidos en virtud de esta regulación que
+dispongan de licencia de actividad, obra o apertura en el momento de entrada en vigor de
+esta modificación puntual, o que puedan considerarse consolidadas en aplicación del
+artículo 28.3 de la Normativa Urbanística General del Plan Municipal, podrán realizar
+reformas de cualquier tipo siempre que no den lugar a incremento de su superficie global.
+12. En relación con la implantación o ampliación de las actividades de bancos y cajas de
+ahorros en el ámbito del Casco Antiguo, se establece la siguiente condición:
+Las nuevas sucursales u oficinas destinadas a las actividades de bancos y/o cajas de
+ahorros que pretendan implantarse en plantas bajas de edificios de viviendas en el ámbito
+del Casco Antiguo, deberán guardar una distancia mínima de 100 metros en relación con
+cualquier otro local o establecimiento destinado a alguna de estas actividades. Esta
+misma condición deberá cumplirse cuando se pretenda una ampliación de la actividad.
+Las sucursales u oficinas bancarias ubicadas en el Casco Antiguo o los Ensanches que
+pretendan trasladarse a otros locales dentro de estos ámbitos podrán hacerlo, aun
+cuando no guarden la distancia referida en el párrafo anterior, siempre que se cumplan las
+siguientes condiciones:
+–Que se renuncie a la licencia para actividad bancaria en el local de origen.
+–Que el nuevo local se encuentre a mayor distancia de otras actividades bancarias que el
+local de origen.
+13. Las actividades hosteleras y aledañas se regulan de acuerdo a lo señalado en el artículo
+89.
+14. Las Sociedades Gastronómicas, Sociedades Culturales, Sociedades Recreativas, Peñas, y
+similares actividades sin concurrencia pública quedan sometidas a las mismas medidas
+correctoras y régimen de horarios que las actividades recreativas de uso público, no
+siéndoles de aplicación distancias para su implantación ni superficies máximas.
+15. Las viviendas, apartamentos y alojamientos turísticos regulados por el Decreto Foral
+230/2011, de 26 de octubre, o norma que lo sustituya en el futuro, que, a la entrada en vigor
+del presente número 15, cumplan simultáneamente los requisitos de estar inscritos en el
+Registro de Turismo del Gobierno de Navarra y contar con licencia de apertura o de uso,
+podrán mantener dicho uso.
 
-Art. 87 (vigente). Usos pormenorizados. Residencial Colectivo y Dotacional.
-Aplica la Tabla 2 del Plan Municipal con estas modificaciones:
-En Unidades Básicas de uso RESIDENCIAL COLECTIVO:
- 1. Es uso PROHIBIDO la oficina, el residencial colectivo con vivienda en planta baja,
-    el taller y el almacén en parcela completa (salvo que la normativa particular de
-    parcela lo recoja expresamente).
- 2. Comercial y recreativo: usos PERMITIDOS en edificio completo, con matices:
-    hostelería y aledañas permitidas según el art. 89; bingo, casas de apuestas,
-    salones de juego y salones deportivos PROHIBIDOS.
- 3. RESIDENCIA EVENTUAL sobre parcela con uso Residencial Colectivo: uso TOLERADO,
-    EXCEPTO viviendas/apartamentos/alojamientos turísticos del DF 230/2011, que son
-    uso PROHIBIDO (salvo régimen transitorio del art. 88.15). Para implantar/ampliar
-    el residencial eventual tolerado debe garantizarse:
-    3.1. que las parcelas de la unidad básica con uso Residencial (principal/permitido)
-         sumen ≥ 75% de la superficie construida total de la unidad básica;
-    3.2. que las de uso Residencial Colectivo implantado sumen ≥ 75% de las previstas
-         por el plan para tal uso;
-    3.3. si hay bar/cafetería/restaurante, sus accesos y salidas habituales NO pueden
-         dar directamente al espacio público (deben hacerlo desde espacio común cerrado);
-    3.4. la superficie construida se mide según el art. 35 de la NUG del Plan Municipal;
-    3.5. las superficies fuera de ordenación no cuentan como Residencial Colectivo.
-En Unidades Básicas de uso DOTACIONAL: la residencia eventual es uso PERMITIDO (art. 91).
-Los edificios completos con usos hoy prohibidos pero con licencia previa (o consolidados
-ex art. 28.3 NUG) pueden reformarse e incluso renovarse manteniendo el uso.
+################################################################################
+T-VI CAP. III — ART. 89 (actividades hosteleras y aledañas)
+################################################################################
+[Nota de procedencia: el art. 89 vigente a 21/05/2026 es el de la modificación de los
+arts. 87, 88 y 89 aprobada definitivamente por el Pleno el 3/11/2016 (BON nº 9, de
+13/01/2017), con la anulación de 2018 que se reproduce más abajo. Su texto íntegro NO se
+ha podido obtener (el anexo del BON nº 9/2017 no se ha podido descargar): faltan el
+cuerpo del artículo (apartados 1, 2 y 3, con los grupos de actividades y las distancias)
+y la disposición interpretativa. Lo que sigue son sus disposiciones transitoria y final,
+literales tal como las reproduce como «Normativa vigente» (apartado 2.1) el documento
+«Modificación puntual del PEPRI del Casco Antiguo» de la Gerencia de Urbanismo, marzo de
+2026. Las viñetas del documento se representan con «-», «o» y «·».]
 
-Art. 88 (vigente). Usos detallados.
-Aplica la Tabla 3 del Plan Municipal con estas modificaciones (resumen de las clave):
- 1. En entrecubierta, mismos usos que en plantas elevadas si está vinculada a la planta
-    inferior.
- 2-3. RESIDENCIA EVENTUAL en viviendas de edificios residenciales: uso TOLERADO, EXCEPTO
-    viviendas/apartamentos/alojamientos turísticos DF 230/2011 (PROHIBIDO, salvo nº 15).
-    Reglas del tolerado: ubicación SÓLO en planta primera (excepción: albergues del
-    Camino de Santiago en planta baja, y conversión de viviendas existentes en planta
-    baja); se tolera el alquiler de habitaciones con fines turísticos anejo a vivienda
-    habitual (límite del art. 28 NUG y máx. 50% de la superficie útil de la vivienda);
-    deben garantizarse los umbrales del 75% (locales/viviendas de uso principal/permitido
-    ≥ 75%, y viviendas ≥ 75% de las plantas de piso) y reglas de medición de superficie.
- 4. Almacén: vinculado a comercio u hostelería de la propia U.I. VIII.
- 7. Recreativas: permitidas en planta baja (o baja+sótano y/o primera) en vivienda
-    colectiva, y en cualquier ubicación en equipamiento/comercio/residencia eventual;
-    bingo, apuestas, juego y salones deportivos PROHIBIDOS.
- 8. El garaje no queda vinculado a la exigencia del apartado 14 de la Tabla 3 del art. 28
-    NUG.
- 11. BANCOS Y CAJAS en plantas bajas de edificios de viviendas: distancia mínima de 100 m
-    respecto de otra actividad bancaria (también para ampliaciones); traslados dentro del
-    Casco/Ensanches permitidos sin esa distancia si se renuncia a la licencia de origen y
-    el nuevo local queda más lejos de otras bancarias.
- 13. Sociedades gastronómicas, culturales, recreativas, peñas y similares sin concurrencia
-    pública: mismas medidas correctoras y horarios que las recreativas de uso público; sin
-    distancias ni superficies máximas.
- 15. (Régimen transitorio) las viviendas/apartamentos/alojamientos turísticos DF 230/2011
-    que a la entrada en vigor estuvieran inscritos en el Registro de Turismo Y con licencia
-    de apertura o uso, pueden mantener el uso.
+artículo 89, Disposición transitoria
+En las cafeterías, antes del 1 de enero de 2020, al menos el 50% de la
+superficie útil de público, excluidos los aseos, será destinada de manera
+permanente a zona de mesas y sillas.
+Las actividades correspondientes a los grupos 1.2, 2 y 3 y las cafeterías
+contarán, con anterioridad al 1 de enero de 2025, con departamento estanco,
+para el acceso de público, con absorción acústica y dos puertas, que, salvo
+casos justificados, no podrán colocarse enfrentadas.
+Cuando la construcción del departamento estanco sea incompatible con el grado
+de protección del local o edificio o este ayuntamiento reconozca,
+excepcionalmente, una especial dificultad, se considerarán otras soluciones,
+como puedan ser las relativas al horario de funcionamiento o a la ausencia de
+instalación musical, que permitan el mayor grado posible de adecuación efectiva
+y que, en su caso, quedarán recogidas en el cartel informativo.
+Cuando por la configuración de la cafetería el porcentaje de mesas y sillas
+resulte especialmente difícil de conseguir, se admitirán soluciones singulares
+como las que puedan lograrse mediante mesas y sillas altas, la utilización de
+una parte de la barra exclusivamente para mesa, etc.
+artículo 89, Disposición final
+Este Ayuntamiento, mediante el procedimiento oportuno y pasados 3 meses desde
+la entrada en vigor de la presente modificación, iniciará la expedición de los
+carteles informativos correspondientes a todas las actividades de hostelería y
+aledañas legalmente existentes en Casco Antiguo. En ellos se indicarán las
+condiciones básicas del local conforme a lo recogido en el apartado 3 del
+artículo 89.
+Las citadas condiciones se registrarán en un plano que se mantendrá
+actualizado. Con dicho motivo, en cada caso, se realizará una inspección con el
+objeto de verificar que la actividad se encuentra en funcionamiento y que, en
+su caso, cuenta con limitador- registrador musical.
+Con motivo de las futuras ordenanzas constructivas este Ayuntamiento, tomando
+como ámbito toda la ciudad, discernirá entre aquellas condiciones constructivas
+de los locales y aquellas exclusivas de funcionamiento de las actividades y
+reflexionará sobre la conveniencia de aprobar una norma que regule el
+funcionamiento de la hostelería desde un punto de vista más amplio que la
+higiene alimentaria.
+Todas las actividades de hostelería y aledañas de Casco Antiguo, sin perjuicio
+de que las existentes vayan alcanzando las medidas constructivas exigidas para
+los locales nuevos, en el plazo de 3 meses desde la entrada en vigor, deberán
+funcionar de manera coherente a las nuevas previsiones, de manera que:
+- Cada actividad funcione de acuerdo al grupo al que corresponde y se
+respeten los horarios correspondientes. Las cafeterías y restaurantes que
+tengan legalmente reconocida una superficie destinada, de manera
+permanente a zona de mesas y sillas, inferior al 50% de la superficie
+útil de público, excluidos los aseos, y los restaurantes con barra
+superior a 3 mts de longitud o para servicio a clientes distintos a los
+comensales podrán mantener dichas condiciones en tanto no sufran una
+modificación sustancial de su actividad o las cafeterías alcancen la
+fecha abajo indicada.
+- Las dotadas de equipo musical, cuenten con limitador-registrador musical,
+que no pueda manipularse. Su colocación y características se someterán al
+visto bueno del Ayuntamiento, debiendo quedar a su disposición.
+- Limiten la emisión musical a 70 dBA, sin perjuicio del cumplimiento de
+los valores límite de inmisión de ruido aplicable a los emisores
+acústicos, en tanto no dispongan de departamento estanco con absorción
+acústica y doble puerta en el acceso.
+- Durante el horario nocturno en los locales destinados a actividades de
+hostelería y aledañas:
+o Los espacios abiertos, cubiertos o no, recayentes a la vía pública,
+funcionarán de manera coherente con los horarios previstos en la
+ordenanza de reguladora de la instalación de terrazas y otros
+elementos asociados al comercio y a la hostelería en la vía
+pública. Así, fuera de los horarios de funcionamiento que en cada
+momento se determinen para las terrazas de mesas y sillas bajas en
+vía pública, no podrán ser esas zonas utilizadas como estancia
+debiendo ser utilizadas exclusivamente para el paso y, si hubiese,
+toldos y sombrillas deberán replegarse.
+o Los toldos que se extienden sobre la vía pública y no corresponden
+a una terraza autorizada por este ayuntamiento estarán plegados.
+o Los patios no podrán ser utilizados por el público, con las
+siguientes excepciones:
+· Que, estando destinados a espacio libre de uso público por el
+planeamiento, dicho espacio se haya ejecutado. En todo caso,
+la utilización estará afectada por los horarios y el resto de
+normas que en su caso limiten y/o condicionen el uso público.
+· Que se trate de actividades de cafetería o restaurante
+exentas de cumplir las exigencias de distancias, de acuerdo
+con el apartado 2.2, por responder a las mismas
+características en él recogidas y no se trate de patios a los
+que recaigan viviendas o habitaciones.
+o Todos los huecos y puertas de fachada deberán permanecer cerrados
+dejando operativas exclusivamente las puertas necesarias para la
+evacuación en caso de incendios. En caso de que el establecimiento
+cuente con terraza en vía pública o espacio abierto privado
+destinado a mesas bajas y sillas, podrá mantener operativos, dentro
+de sus horarios de servicio, también los huecos necesarios para
+tal. En tanto dichos huecos se encuentren operativos, no se emitirá
+música en el local.
+o Las ventanas y huecos practicables que permitan el servicio directo
+al exterior se regularán por el horario de terrazas. Durante el
+horario nocturno permanecerán cerrados si se emite música en el
+interior.
 
-Art. 89 (usos): regula las ACTIVIDADES HOSTELERAS Y ALEDAÑAS (bares, cafeterías,
-restaurantes, etc.). Modificado en varias ocasiones; con una nueva modificación EN
-EXPOSICIÓN PÚBLICA (BON 77, de 21/04/2026) todavía sin aprobación definitiva. Para la
-redacción vigente exacta, contrastar con el Texto Refundido consolidado.
+[Modificación posterior, NO exigible: la modificación de estas disposiciones transitoria y
+final (aprobación inicial por la Junta de Gobierno Local el 1/04/2026, información pública
+en el BON nº 77, de 21/04/2026, y aprobación definitiva por el Pleno el 10/09/2026, BON
+nº 193, de 29/09/2026) es posterior a la convocatoria.]
+
+ANULACIÓN JUDICIAL DE LA DEFINICIÓN DE ACTIVIDADES ALEDAÑAS (BON nº 186, de 25/09/2018),
+texto literal del anuncio:
+Anulación de definición de actividades aledañas del PEPRI de Casco Antiguo
+El Pleno del Excelentísimo Ayuntamiento de Pamplona, con fecha 6 de septiembre de 2018, adoptó el siguiente acuerdo:
+PLE 06-SEP-18 (23–1/CU).
+Vista la sentencia dictada por la Sala de lo Contencioso Administrativo del Tribunal Superior de Justicia de Navarra, en el recurso contencioso administrativo número 103/2017 y acumulado 234/2017, interpuesto por M.ª Lourdes Nagore Soravilla y Giacobbe Berardi contra Acuerdo de Pleno 8/CU, de fecha 3 de noviembre de 2017 [sic: la aprobación definitiva fue el 3 de noviembre de 2016], por el que se aprobaba una modificación del Plan Especial de Protección y Reforma Interior del Casco Antiguo (PEPRI), en lo relativo a actividades de hostelería y aledañas, y RCV 2/CV, de fecha 14 de marzo de 2017, por la que se desestimaba el recurso de reposición interpuesto contra el mencionado acuerdo de Pleno y, visto asimismo el informe de la Letrada Municipal,
+SE ACUERDA:
+1.–Quedar enterado de la citada sentencia estimatoria, por la que se anula el “Artículo 89.2.2.1 Definición GR. 0.1 Actividades Aledañas” de la modificación del Plan Especial de Protección y Reforma Interior del Casco Antiguo (PEPRI), aprobado por acuerdo de Pleno de fecha 3 de noviembre de 2017 [sic: 2016].
+2.–Publicar este acuerdo en el Boletín Oficial de Navarra y tablón de anuncios del Ayuntamiento de Pamplona.
+Pamplona, 12 de septiembre de 2018.–El Alcalde, Joseba Asirón Saez.
+
+ANTECEDENTE: MODIFICACIÓN DEL APARTADO 2.1 DEL ART. 89 (BON nº 98, de 24/05/2012).
+Acuerdo del Pleno de 3/05/2012 (PLE 03-MAY-12, 8/CU), que aprobó definitivamente la
+modificación «añadiéndose al apartado 2.1 del artículo 89 de su Normativa el siguiente
+texto» (literal del anuncio):
+'La prohibición de establecimiento de los usos referidos en este apartado no es de aplicación cuando dichos usos se ubiquen en una edificación destinada a "Dotacional Complejo', conforme a la N.U.G. del Plan Municipal.
+[Nota: ese apartado 2.1 es el de la redacción del art. 89 vigente en 2012 (ya modificada en
+2006, BON nº 68), no el 2.1 de 2001 que se reproduce arriba, que trata de usos tolerados.
+El art. 89 se rehízo en 2017 y no se ha podido comprobar si este párrafo se mantuvo en esa
+redacción: no se estudia como vigente mientras no se disponga del texto de 2017.]
 
 ================================================================================
 PARTE E — DATOS CLAVE Y TRAMPAS
@@ -1168,8 +1401,13 @@ FUENTES (verificación 19/06/2026)
 - Texto base: BON nº 109, de 7/09/2001 — Texto Refundido del PEPRI del Casco Antiguo,
   articulado íntegro (Títulos I-IX, arts. 1-108). Extracción literal de los arts. 11-17,
   35-40 y 53-96.
-- Arts. 87-88 vigentes: modificación de la Gerencia de Urbanismo de 09/2024 (normativa
-  vigente 2019 + propuesta aprobada por BON 16, de 24/01/2025), pamplona.es.
+- Arts. 87-88 vigentes: texto literal de la «Normativa propuesta» del documento de
+  modificación de la Gerencia de Urbanismo de 09/2024 (aprobación inicial, BON 196, de
+  26/09/2024); la aprobación definitiva (BON 16, de 24/01/2025) fue de un «Texto
+  Refundido» tras alegaciones, no obtenido.
+- Art. 89: disposiciones transitoria y final vigentes, literales del apartado 2.1 del
+  documento de modificación de la Gerencia de Urbanismo de marzo de 2026; anuncios del
+  BON 98/2012 (art. 89.2.1) y BON 186/2018 (anulación de las actividades aledañas).
 - Modificaciones relevantes: BON 154/2007 (arts. 12, 15, 26, 28 — Z.I.P./P.I.G.); BON
   249/2019 (arts. 87-88, residencia eventual); BON 16/2025 (arts. 87-88, viviendas
   turísticas); BON 77/2026 (art. 89, en exposición pública).
@@ -1177,8 +1415,27 @@ FUENTES (verificación 19/06/2026)
   16/1985; el Casco es BIC-Conjunto Histórico (D. 6/04/1968, BOE 29/04/1968).
 - Arts. 12 y 15 vigentes: BON nº 154, de 12/12/2007 (modificación del PEPRI relativa a
   Z.I.P. y P.I.G., arts. 12, 15, 26 y 28), texto extraído literalmente.
-- NOTA: la tabla de equipamientos del art. 91 y el texto literal vigente del art. 89 no
-  se reproducen íntegros; el art. 89 (hostelería) está además en modificación (BON 77 de
-  21/04/2026, en exposición pública). Para el art. 89, la referencia exacta es el Texto
-  Refundido consolidado / la modificación cuando se apruebe.
+- NOTA: no se reproducen la tabla de equipamientos del art. 91 ni el cuerpo del art. 89
+  de 2017 (apartados 1 a 3 y disposición interpretativa), pendiente del anexo del BON nº
+  9, de 13/01/2017. La modificación del art. 89 de 2026 (BON 77, de 21/04/2026; BON 193,
+  de 29/09/2026) es posterior a la convocatoria y no se estudia.
+- RELACIÓN OFICIAL DE MODIFICACIONES (página del PEPRI en pamplona.es, consultada el
+  25/10/2026) que tocan artículos de los bloques del tema: BON 68, de 7/06/2006
+  (regulación de usos); BON 154, de 12/12/2007 (arts. 12, 15, 26 y 28); BON 136, de
+  4/11/2009 (art. 88.12, plan de actuación comercial); BON 98, de 24/05/2012 (art.
+  89.2.1, uso dotacional complejo); BON 142, de 19/07/2012 (arts. 87 y 88, locales
+  comerciales en varias plantas); BON 114, de 14/06/2016 (aprobación inicial) y BON 9,
+  de 13/01/2017 (aprobación definitiva; arts. 87, 88 y 89); BON 186, de 25/09/2018
+  (anulación de la definición de actividades aledañas); BON 249, de 20/12/2019 (texto
+  refundido de los arts. 87 y 88); una modificación del art. 89.2 (hostelería y
+  aledañas) que la página cita sin BON ni fecha; BON 196, de 26/09/2024 (aprobación
+  inicial) y BON 16, de 24/01/2025 (aprobación definitiva; arts. 87 y 88). En los arts.
+  87 y 88, las de 2006, 2009 y 2012 quedan absorbidas por el texto refundido de 2019; no
+  se ha podido comprobar cómo quedó en 2017 lo modificado en 2006 y 2012 en el art. 89.
+  Posteriores al 21/05/2026 y no exigibles: aprobación definitiva de una
+  modificación puntual del PEPRI en el BON nº 193, de 29/09/2026 (disposiciones
+  transitoria y final del art. 89, aprobada por el Pleno el 10/09/2026), y aprobación inicial de los arts. 29
+  y 36 (BON 200, de 8/10/2026). Las demás modificaciones de la relación son de parcelas
+  concretas o del Catálogo, o del art. 103 (estatuas de los Reyes, BON 239/2025), fuera
+  de los bloques del tema.
 ================================================================================

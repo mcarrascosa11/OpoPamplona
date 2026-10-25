@@ -1,7 +1,7 @@
 // Resumen del tema E54. Formato: cabecera de src/data/resumenes.js.
 export default {
     intro:
-      "El Catálogo del Plan Municipal de Pamplona (Texto Refundido, Acuerdo C.O.T. 18/12/2002) es el documento del Plan que fija la protección INDIVIDUALIZADA del patrimonio. Patrimonio EDIFICADO: 4 categorías de bienes (zonas arqueológicas, recintos, edificios y elementos), 3 grados de protección de edificios y un glosario de obras (Normativa General, arts. 1-49). Patrimonio NATURAL: 3 categorías (árboles aislados, parques y jardines, alineaciones arboladas) y solo 2 grados (Normativa, arts. 1-15). Se redactó bajo la LF 10/1994 y el DF 85/1995, hoy derogados: sus remisiones se leen en clave del TRLFOTU (DFLeg 1/2017). El marco patrimonial vigente es la Ley 16/1985 del Patrimonio Histórico Español y la Ley Foral 14/2005, de 22 de noviembre, del Patrimonio Cultural de Navarra, que el Catálogo no cita por ser anterior. Vigencia a la fecha de la convocatoria (BON 21-05-2026): el articulado de ambas normativas está SIN CAMBIOS; lo que cambió en 2025 son FICHAS (Monumento a los Caídos, BON 208/2025; estatuas de los Reyes de Navarra, BON 239/2025), sin modificar ningún artículo.",
+      "El Catálogo del Plan Municipal de Pamplona (Texto Refundido, Acuerdo C.O.T. 18/12/2002) es el documento del Plan que fija la protección INDIVIDUALIZADA del patrimonio. Patrimonio EDIFICADO: 4 categorías de bienes (zonas arqueológicas, recintos, edificios y elementos), 3 grados de protección de edificios y un glosario de obras (Normativa General, arts. 1-49). Patrimonio NATURAL: 3 categorías (árboles aislados, parques y jardines, alineaciones arboladas) y solo 2 grados (Normativa, arts. 1-15). Se redactó bajo la LF 10/1994 y el DF 85/1995, hoy derogados: sus remisiones se leen en clave del TRLFOTU (DFLeg 1/2017). El marco patrimonial vigente es la Ley 16/1985 del Patrimonio Histórico Español y la Ley Foral 14/2005, de 22 de noviembre, del Patrimonio Cultural de Navarra, que el Catálogo no cita por ser anterior. Vigencia a la fecha de la convocatoria (BON 21-05-2026): la única modificación que toca el articulado es la «Modificación puntual del Plan Municipal de Pamplona de determinaciones pormenorizadas-Catálogo» (barandilla del entorno de la Media Luna; aprobación definitiva por el Pleno el 03-07-2025, BON nº 155, de 05-08-2025), que da nueva redacción a los arts. 32 y 36 del edificado (askas/abrevaderos, panteones/cementerio y nuevo epígrafe 9, «Elementos de la urbanización»); el resto de cambios de 2025 son de FICHAS (Monumento a los Caídos, BON 208/2025; estatuas de los Reyes de Navarra, BON 239/2025), sin modificar ningún artículo. La normativa del patrimonio natural no ha cambiado.",
     bloques: [
       {
         h: "Marco y conceptos previos",
@@ -28,7 +28,7 @@ export default {
           "2) RECINTOS (arts. 11-15): espacios de origen histórico unitario, delimitación clara y carácter cerrado; importa el carácter, no la extensión. Cinco: R1 Recinto amurallado, R2 Ciudadela (con glacis y Vuelta del Castillo), R3 Catedral y Palacio Arzobispal, R4 Palacio de Navarra, R5 Plaza de las Recoletas",
           "Art. 15 — En recintos se conserva el trazado; se PROHÍBE con carácter general construir nuevas edificaciones (solo pequeños pabellones que no impidan el uso y disfrute); lo que afecte al carácter exige PLAN ESPECIAL de todo el ámbito",
           "3) EDIFICIOS (arts. 16-30): 488 en tres grados (estadística de 2002: grado 1 = 29; grado 2 = 61; grado 3 = 392; grados 1 y 2 = 2; grados 2 y 3 = 4). Casco Viejo 316 (64,75 %), I y II Ensanches 129 (26,43 %), resto 43",
-          "4) ELEMENTOS (arts. 31-39): EVE, vinculados a la edificación (escudos de armas y varios; 114: 95 escudos + 19 varios; su catalogación NO cataloga el edificio, art. 34; van en la ficha del edificio, art. 33). ENVE, no vinculados (puentes, cruceros, fuentes, monumentos, mobiliario urbano, askas, pabellones, panteones; 54 en la estadística)",
+          "4) ELEMENTOS (arts. 31-39): EVE, vinculados a la edificación (escudos de armas y varios; 114: 95 escudos + 19 varios; su catalogación NO cataloga el edificio, art. 34; van en la ficha del edificio, art. 33). ENVE, no vinculados (art. 32 en la redacción de 2025: puentes, cruceros, fuentes, monumentos, mobiliario urbano, askas/abrevaderos, pabellones, panteones/cementerio y elementos de la urbanización; 54 en la estadística de 2002, anterior al epígrafe 9)",
           "BIC de la Memoria: el Casco Antiguo es Conjunto Histórico (D. 6-4-1968); BIC monumento, entre otros, Cámara de Comptos, Museo de Navarra, Ciudadela, murallas, puentes románicos de San Pedro, Miluce y la Magdalena, Catedral, San Saturnino, Casa del Condestable"
         ]
       },
@@ -63,8 +63,8 @@ export default {
         nota:
           "Consulta previa: preceptiva en grados 1 y 2 y en elementos no vinculados; en grado 3, solo si la obra afecta a elementos de interés o a la cubierta. En BIC, además, autorización previa de la Institución Príncipe de Viana.",
         items: [
-          "Art. 35 (EVE) — No se cambia su emplazamiento salvo para volver al original; la rehabilitación de la fachada se supedita a poner en valor el elemento",
-          "Art. 39 (ENVE) — Permitidas conservación, restauración y consolidación (y restitución con documentación); NO se autorizan reestructuración ni demolición; el emplazamiento original no se modifica en general y solo cambia EXCEPCIONALMENTE, si se considera justificado (art. 39.3; según la transcripción del documento de modificación de septiembre de 2025, con un estudio razonado presentado junto a la solicitud de licencia); prohibidos cables, antenas o publicidad que afecten al monumento o a su entorno",
+          "Art. 35 (EVE) — No se cambia su emplazamiento salvo para volver a su posición original u otra anterior documentada cuando haya que desmontarlos por obras u otros motivos; EXCEPCIONALMENTE puede autorizarse su traslado si se considera debidamente justificado (35.1); puede autorizarse cambiar su emplazamiento en la fachada cuando haya que desmontarlo por obras u otros motivos, sin alterar sus características ni su función (35.2); intervenciones con técnicas específicas de restauración (35.4); la rehabilitación o sustitución de la fachada se supedita a su puesta en valor (35.5)",
+          "Art. 39 (ENVE) — Permitidas conservación, restauración y consolidación (y restitución con documentación); NO se autorizan reestructuración ni demolición; el emplazamiento original no se modifica en general y solo cambia EXCEPCIONALMENTE, si se considera justificado (art. 39.3, texto de 2002: con un estudio razonado presentado junto a la solicitud de licencia); prohibidos cables, antenas o publicidad que afecten al monumento o a su entorno",
           "Art. 40 — Toda licencia sobre bienes catalogados añade una MEMORIA DE PROTECCIÓN (análisis y descripción escrita, gráfica y fotográfica)",
           "Art. 41 — Obras en BIC (o con expediente incoado) o en su entorno: LPHE y AUTORIZACIÓN PREVIA de la Institución Príncipe de Viana",
           "Art. 42 — Zonas arqueológicas: en Área A puede exigirse EXCAVACIÓN o CATAS antes de la licencia que afecte al subsuelo (en ámbitos BIC se exige); en Área B, catas (en BIC, catas y seguimiento intensivo). Dirección por técnico competente y autorización del Gobierno de Navarra; en BIC, informe preceptivo de Príncipe de Viana en 2 MESES",
@@ -74,13 +74,13 @@ export default {
         ]
       },
       {
-        h: "Modificaciones de fichas en 2025 (vigentes a 21-05-2026)",
+        h: "Modificaciones de 2025 (vigentes a 21-05-2026)",
         nota:
-          "Ninguna toca el articulado: cambian fichas, listados y planos, y aplican la normativa general existente (arts. 20 y 39.3). Son de actualidad y exigibles porque se publicaron antes de la convocatoria.",
+          "La de la barandilla de la Media Luna (BON nº 155/2025) es la única que cambia el articulado (arts. 32 y 36); las otras dos cambian fichas, listados y planos y aplican la normativa general existente (arts. 20 y 39.3). Son de actualidad y exigibles porque se publicaron antes de la convocatoria.",
         items: [
           "MONUMENTO A LOS CAÍDOS — Aprobación inicial por el Pleno el 5-6-2025 y definitiva el 2-10-2025 (BON nº 208 de 2025; fechas según la noticia municipal de 24-11-2025). Según el documento de la modificación (mayo de 2025), la ficha anterior catalogaba en GRADO 2 «el monumento, incluido el espacio interior, la cripta y la cubierta», y la nueva cataloga en GRADO 3 «el monumento en superficie», con el mural interior de la cúpula y la cubierta. Se elimina la protección de todo el sótano (cripta, galerías, escaleras) y de las arquerías laterales",
           "ESTATUAS DE LOS REYES DE NAVARRA — Ficha 4.4, elemento NO vinculado a la edificación (monumentos). Aprobación definitiva BON nº 239 de 28-11-2025: se trasladan del Paseo de Sarasate (que, según el documento de la modificación, está dentro del ámbito del PEPRI) al Parque de la Taconera (Recinto R1), con base en el art. 39.3 (cambio excepcional y justificado del emplazamiento). Cambian la ficha 4.4 y el plano nº 19",
-          "Otra modificación pormenorizada del Catálogo publicada en el BON nº 155 de 2025: contenido no comprobado"
+          "BARANDILLA DEL ENTORNO DE LA MEDIA LUNA — «Modificación puntual del Plan Municipal de Pamplona de determinaciones pormenorizadas-Catálogo»: aprobación inicial por el Pleno el 06-03-2025 (BON nº 67, de 03-04-2025) y definitiva el 03-07-2025 (BON nº 155, de 05-08-2025). Nueva redacción de los arts. 32 y 36: «Askas/abrevaderos», «Panteones/Cementerio» y nuevo epígrafe 9, «Elementos de la urbanización» (escaleras, barandillas, farola monumental, pavimentación…), con el elemento 9.1 «Modelo Barandilla Media Luna» (V. Eusa, 1938)"
         ]
       },
       {
@@ -100,7 +100,7 @@ export default {
       }
     ],
     claves: [
-      "Catálogo = documento del Plan (art. 5.6 NUG); TR Acuerdo C.O.T. 18-12-2002; articulado sin cambios a 21-05-2026",
+      "Catálogo = documento del Plan (art. 5.6 NUG); TR Acuerdo C.O.T. 18-12-2002; a 21-05-2026 solo cambian los arts. 32 y 36 (barandilla Media Luna, BON 155/2025)",
       "Marco: LPHE 16/1985 (art. 21) + LF 14/2005 de Patrimonio Cultural de Navarra; la LF 10/1994 y el DF 85/1995 que cita están derogados (hoy TRLFOTU-2017)",
       "El grado NO mide el valor: es el régimen de obras adecuado; la ficha prima sobre la norma general (art. 3)",
       "4 categorías del edificado: zonas arqueológicas (A/B), recintos (R1-R5), edificios (3 grados), elementos (EVE / ENVE)",
@@ -112,7 +112,7 @@ export default {
       "Catalogado en ruina → DEBE rehabilitarse a cargo del propietario (art. 22)",
       "Consulta previa preceptiva en G1-G2 y ENVE; en G3 solo si afecta a elementos de interés o cubierta; vinculante (arts. 43-44)",
       "BIC: autorización previa de la Institución Príncipe de Viana (art. 41)",
-      "2025: Caídos, cuerpo central de grado 2 a grado 3 (BON 208/2025); estatuas de los Reyes a la Taconera por el art. 39.3 (BON 239/2025)",
+      "2025: arts. 32 y 36 con el nuevo epígrafe 9 «Elementos de la urbanización» (barandilla Media Luna, BON 155/2025); Caídos, cuerpo central de grado 2 a grado 3 (BON 208/2025); estatuas de los Reyes a la Taconera por el art. 39.3 (BON 239/2025)",
       "Patrimonio natural: 3 categorías y DOS grados; G2 añade rehabilitación y/o adaptación",
       "Árbol aislado: proyección de la copa y 1,5 m de profundidad",
       "Sequoia del INAP = Monumento Natural MN-25 (OF 926/1996); infracciones: Normas Granada (UNESCO 1990) + LF 9/1996"
@@ -140,7 +140,7 @@ export default {
             ["Zonas arqueológicas", "Área A (documentada) y Área B (probada o presumida)", "A: excavación o catas antes de la licencia; B: catas; en BIC, exigibles", "9-10 y 42"],
             ["Recintos", "R1 Recinto amurallado, R2 Ciudadela, R3 Catedral y Palacio Arzobispal, R4 Palacio de Navarra, R5 Recoletas", "Prohibida con carácter general la nueva edificación; Plan Especial si se afecta al carácter", "11-15"],
             ["Edificios", "Grados 1, 2 y 3", "Régimen de obras por grado", "16-30 y 43"],
-            ["Elementos", "EVE (escudos, varios) y ENVE (puentes, cruceros, fuentes, monumentos, mobiliario, askas, pabellones, panteones)", "EVE: no cataloga el edificio. ENVE: sin reestructuración ni demolición; traslado excepcional justificado", "31-39 y 44"]
+            ["Elementos", "EVE (escudos, varios) y ENVE (puentes, cruceros, fuentes, monumentos, mobiliario, askas/abrevaderos, pabellones, panteones/cementerio, elementos de la urbanización)", "EVE: no cataloga el edificio. ENVE: sin reestructuración ni demolición; traslado excepcional justificado", "31-39 y 44"]
           ],
           nota: "Estadística de la Memoria (2002): 5 recintos, 488 edificios (29 / 61 / 392), 114 EVE y 54 ENVE."
         },
@@ -159,13 +159,14 @@ export default {
           nota: "Ambas normativas distinguen actuaciones permitidas, autorizables y prohibidas (art. 7 del edificado y art. 6 del natural)."
         },
         {
-          titulo: "Catálogo: modificaciones de fichas de 2025",
+          titulo: "Catálogo: modificaciones de 2025",
           columnas: ["Bien", "Antes", "Después", "Publicación"],
           filas: [
+            ["Arts. 32 y 36 (barandilla del entorno de la Media Luna)", "ENVE: «Askas», «Panteones»; sin epígrafe de elementos de la urbanización en el art. 32", "«Askas/abrevaderos», «Panteones/Cementerio» y nuevo 9, «Elementos de la urbanización» (ficha 9.1, Modelo Barandilla Media Luna)", "Pleno 03-07-2025; BON nº 155, de 05-08-2025"],
             ["Monumento a los Caídos (cuerpo central)", "Grado 2: el monumento, incluidos espacio interior, cripta y cubierta", "Grado 3: monumento en superficie, mural interior de la cúpula y cubierta; sin protección del sótano ni de las arquerías", "Pleno 2-10-2025; BON nº 208/2025"],
             ["Estatuas de los Reyes de Navarra (ficha 4.4, ENVE)", "Paseo de Sarasate (ámbito del PEPRI)", "Parque de la Taconera (Recinto R1), por el art. 39.3", "BON nº 239, de 28-11-2025"]
           ],
-          nota: "Ninguna modifica el articulado del Catálogo. Hay además otra modificación pormenorizada en el BON nº 155/2025 cuyo contenido no se ha comprobado."
+          nota: "Solo la de la barandilla de la Media Luna modifica el articulado (arts. 32 y 36); las de los Caídos y las estatuas de los Reyes cambian fichas sin tocar ningún artículo."
         }
       ],
       datos: [
@@ -180,7 +181,7 @@ export default {
         "Grado 1: la reestructuración parcial cabe solo excepcionalmente (incendios, evacuación, ascensores) y la ampliación en planta, también excepcional (art. 26).",
         "Grado 2: el vaciado está prohibido, pero los derribos parciales son autorizables (art. 28).",
         "Fachadas protegidas: las instalaciones no pueden ir en fachada SALVO las bajantes de pluviales (art. 24).",
-        "EVE: el emplazamiento solo cambia para volver al original (art. 35); ENVE: excepcionalmente, si se considera justificado (art. 39.3).",
+        "EVE: el emplazamiento solo cambia para volver a la posición original u otra anterior documentada, salvo traslado excepcional debidamente justificado (art. 35.1) o cambio de emplazamiento en la fachada sin alterar características ni función (art. 35.2); ENVE: excepcionalmente, si se considera justificado y con estudio razonado (art. 39.3).",
         "Elementos de interés aparecidos después: se protegen aunque el bien no esté catalogado (arts. 4 y 45).",
         "Sequoia del INAP: si el régimen de Monumento Natural contradice el del Catálogo, prevalece el de espacio natural (Memoria II).",
         "La cifra de 552 fichas que da la Memoria no cuadra con su propia suma (5 + 488 + 54 = 547): no usarla como dato seguro."
