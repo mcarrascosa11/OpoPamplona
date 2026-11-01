@@ -1,8 +1,20 @@
 // Resumen del tema E9. Formato: cabecera de src/data/resumenes.js.
 export default {
-  intro: "El RITE (Real Decreto 1027/2007 y modificaciones) establece las exigencias de eficiencia energética, energías renovables y residuales, bienestar e higiene y seguridad que deben cumplir las instalaciones térmicas de los edificios durante su diseño, ejecución, mantenimiento y uso. El tema comprende la Parte I del RITE, las IT 1, IT 2 e IT 3 y el Apéndice 1 de términos y definiciones.",
+  intro: "El tema une la exigencia básica HE 2 del Código Técnico de la Edificación, que remite al RITE, y el propio RITE (Real Decreto 1027/2007 y modificaciones), que establece las exigencias de eficiencia energética, energías renovables y residuales, bienestar e higiene y seguridad que deben cumplir las instalaciones térmicas de los edificios durante su diseño, ejecución, mantenimiento y uso. Alcance: DB-HE2; Parte I del RITE, capítulos I a VI (arts. 1 a 28); IT 1, IT 2 e IT 3 y Apéndice 1 de términos y definiciones. Versión vigente el 21-05-2026: la del RD 178/2021 (BOE consolidado actualizado a 02-08-2022, sin cambios posteriores).",
 
   bloques: [
+
+    {
+      h: "0. CTE DB-HE2 — Condiciones de las instalaciones térmicas",
+      nota: "El TXT del tema no trae el texto de HE 2 y su cabecera usa el nombre antiguo («Rendimiento de las instalaciones térmicas»). Desde el RD 732/2019 la exigencia se llama «Condiciones de las instalaciones térmicas». Texto tomado del CTE consolidado del BOE (Parte I, art. 15.3).",
+      items: [
+        "Art. 15.3 de la Parte I del CTE, exigencia básica HE 2 «Condiciones de las instalaciones térmicas»: «Las instalaciones térmicas de las que dispongan los edificios serán apropiadas para lograr el bienestar térmico de sus ocupantes».",
+        "«Esta exigencia se desarrolla actualmente en el vigente Reglamento de Instalaciones Térmicas en los Edificios (RITE), y su aplicación quedará definida en el proyecto del edificio».",
+        "Es decir: el CTE no fija cifras propias para las instalaciones térmicas; todo el contenido técnico está en el RITE.",
+        "Orden de las exigencias del ahorro de energía (art. 15 CTE): HE 0 Limitación del consumo energético; HE 1 Condiciones para el control de la demanda energética; HE 2 Condiciones de las instalaciones térmicas.",
+        "El RITE remite a su vez al CTE: contribución renovable mínima para ACS y piscinas cubiertas de HE 4 y límites de energía primaria no renovable de HE 0 (IT 1.2.4.6.1); calidad del aire de viviendas, garajes, trasteros y almacenes de residuos según HS 3 (IT 1.1.4.2.1); ruido según DB-HR (IT 1.1.4.4)."
+      ]
+    },
 
     {
       h: "1. Objeto, ámbito y estructura del RITE",
@@ -381,9 +393,10 @@ export default {
       ],
       items2: [
         "Si el recorrido exterior de una tubería frigorífica supera 25 m → aumentar el espesor hasta el espesor comercial inmediatamente superior, con aumento mínimo de 5 mm.",
-        "Con materiales de λ distinta de 0,04 W/(m·K) se puede calcular el espesor mediante las ecuaciones del RITE.",
-        "El TXT de origen ha perdido esas ecuaciones: NO se deben reconstruir de memoria; deben recuperarse del PDF original.",
-        "Debe evitarse la condensación superficial e intersticial en instalaciones de frío y redes de ACS."
+        "Con materiales de λ distinta de λref = 0,04 W/(m·K) a 10 °C se puede calcular el espesor mediante las ecuaciones del RITE (IT 1.2.4.2.1.2.8).",
+        "Superficies planas: d = dref · (λ / λref).",
+        "Superficies de sección circular: d = (D/2) · [EXP((λ/λref) · ln((D + 2·dref)/D)) − 1], con D = diámetro interior del aislante, igual al exterior de la tubería, en mm.",
+        "Debe evitarse la formación de condensaciones superficiales e intersticiales en instalaciones de frío y redes de agua fría sanitaria (IT 1.2.4.2.1.2.9)."
       ]
     },
 
@@ -673,7 +686,7 @@ export default {
             ["ACS gas Pn ≤24,4 kW", "5 años", "2 años"],
             ["ACS gas 24,4<Pn≤70 kW", "2 años", "Anual"],
             ["Calderas murales gas Pn≤70 kW", "2 años", "Anual"],
-            ["Resto calefacción Pn≥70 kW", "Anual", "Anual"],
+            ["Resto calefacción Pn≥70 kW (sic: así figura en el BOE)", "Anual", "Anual"],
             ["Aire acondicionado Pn≤12 kW", "4 años", "2 años"],
             ["Aire acondicionado 12<Pn≤70 kW", "2 años", "Anual"],
             ["Bomba de calor ACS Pn≤12 kW", "4 años", "2 años"],
@@ -701,7 +714,7 @@ export default {
       items: [
         "La empresa mantenedora realiza evaluación periódica del rendimiento de generadores de calor y frío.",
         "Para generadores de calor se miden temperatura/presión del fluido, temperatura ambiente, gases de combustión, CO/CO₂, opacidad/partículas y tiro.",
-        "Generadores de calor: ≤70 kW → cada 2 años; >70 kW y ≤1.000 kW → cada 3 meses; >1.000 kW → mensual.",
+        "Generadores de calor: de 20 a 70 kW → cada 2 años; >70 kW y ≤1.000 kW → cada 3 meses; >1.000 kW → mensual. Ojo: en el TXT la cabecera de esta tabla está dañada («20 kW | 70 kW | P > 1.000 kW»); los tramos se leen por analogía con la tabla de frío y no se preguntan.",
         "Generadores de frío >70 y ≤1.000 kW → mediciones cada 3 meses.",
         "Generadores de frío >1.000 kW → mediciones mensuales.",
         "En frío se controlan temperaturas de evaporador y condensador, pérdidas de presión, temperaturas/presiones de evaporación y condensación, potencia eléctrica, potencia térmica, EER y caudales.",
@@ -734,6 +747,8 @@ export default {
         }
       ],
       items2: [
+        "Usos afectados (IT 3.8.1): administrativo; comercial; pública concurrencia (culturales, espectáculos y actividades recreativas, restauración, transporte de personas). Se aplica a edificios nuevos y existentes.",
+        "Vigencia: el RDL 14/2022 endureció temporalmente estos límites a 19 °C y 27 °C solo hasta el 1-11-2023. El 21-05-2026 rige el texto del RITE: 21 °C y 26 °C.",
         "La limitación se aplica durante uso, explotación y mantenimiento cuando se requiera energía convencional.",
         "Si no se necesita energía para calentar/enfriar, se aplican los criterios de confort de IT 1.1.",
         "Se exceptúan recintos con condiciones ambientales especiales justificadas o normativa específica, con separación física respecto a recintos sujetos a los límites.",
@@ -838,6 +853,132 @@ export default {
     "IT 3.8: calefacción ≤21 °C · refrigeración ≥26 °C · HR 30–70 %.",
     "Verificación IT 3.8 → verano + invierno · medición cada 100 m² · altura 1,7 m · exactitud ±0,5 °C.",
     "Zona ocupada: 5 cm–180 cm desde suelo; 100 cm ventanas/puertas exteriores; 50 cm paredes interiores/sin huecos; 100 cm puertas/tránsito.",
-    "1 clo=0,155 m²·°C/W · 1 met=58,2 W/m² · COP=capacidad calorífica/potencia absorbida · EER=capacidad frigorífica/potencia absorbida."
-  ]
+    "1 clo=0,155 m²·°C/W · 1 met=58,2 W/m² · COP=capacidad calorífica/potencia absorbida · EER=capacidad frigorífica/potencia absorbida.",
+    "HE 2 (CTE) = «Condiciones de las instalaciones térmicas»: bienestar térmico de los ocupantes, desarrollada en el RITE."
+  ],
+
+  memorizacion: {
+    tablas: [
+      {
+        titulo: "Escalera de umbrales de potencia del RITE",
+        columnas: ["Umbral", "Qué se exige", "Precepto"],
+        filas: [
+          ["< 5 kW", "No es preceptiva documentación técnica para acreditar el cumplimiento ante la Comunidad Autónoma ni registro", "Arts. 15.1.c y 24.2"],
+          ["≥ 5 y ≤ 70 kW", "Memoria técnica (instalador habilitado o técnico titulado competente); mantenimiento por empresa mantenedora, sin contrato obligatorio", "Arts. 15.1.b, 17.2 y 26.6.a"],
+          ["> 70 kW", "Proyecto (técnico titulado competente) y director de la instalación; contrato de mantenimiento; sala de máquinas; mantenimiento preventivo mensual", "Arts. 15.1.a, 16.1, 19.2 y 26.6.b; IT 1.3.4.1.2.1; tabla 3.1"],
+          ["> 70 kW (IT 1.2)", "Método alternativo para el aislamiento de tuberías; enfriamiento gratuito en sistemas todo aire (refrigeración); medición de consumos, horas de funcionamiento y arrancadas; 4 escalones en centrales de frío", "IT 1.2.4.2.1.1, 1.2.4.5.1, 1.2.4.4 y 1.2.4.1.3.2"],
+          ["≤ 70 kW con variación ≤ 25 %", "Sustitución de generador sin registro del certificado (el nuevo tampoco puede superar 70 kW)", "Art. 24.11"],
+          ["> 290 kW", "Sistemas de automatización y control en edificios no residenciales, si es técnica y económicamente viable", "IT 1.2.4.3.5"],
+          ["> 400 kW", "Dos o más generadores (combustible líquido o gaseoso); conducto de evacuación propio por generador", "IT 1.2.4.1.2.2 y 1.3.4.1.3.2"],
+          ["> 1.000 kW", "Mediciones de rendimiento de generadores de calor y frío una vez al mes", "IT 3.4.1 y 3.4.2"],
+          ["> 5.000 kW calor y/o > 1.000 kW frío; solar > 400 kW", "Director de mantenimiento (técnico titulado competente) además del contrato", "Art. 26.6.c"]
+        ],
+        nota: "Otros umbrales sueltos: solar térmica > 14 kW → medida de la energía (IT 1.2.4.4) y mantenimiento semestral; bombas y ventiladores > 20 kW → registro de horas; salida directa por fachada de aparatos estancos ≤ 70 kW o de tiro natural para ACS ≤ 24,4 kW."
+      },
+      {
+        titulo: "Calidad del aire interior por categoría (IT 1.1.4.2)",
+        columnas: ["IDA", "Usos (mínimo exigible)", "dm³/s·persona", "Decipol", "CO₂ ppm sobre exterior", "dm³/(s·m²)"],
+        filas: [
+          ["IDA 1 (óptima)", "Hospitales, clínicas, laboratorios y guarderías", "20", "0,8", "350", "No aplicable"],
+          ["IDA 2 (buena)", "Oficinas, residencias, salas de lectura, museos, salas de tribunales, aulas y piscinas", "12,5", "1,2", "500", "0,83"],
+          ["IDA 3 (media)", "Comerciales, cines, teatros, salones de actos, habitaciones de hotel, restaurantes, bares, gimnasios, deporte (salvo piscinas), salas de ordenadores", "8", "2,0", "800", "0,55"],
+          ["IDA 4 (baja)", "—", "5", "3,0", "1.200", "0,28"]
+        ],
+        nota: "Si se permite fumar, el caudal por persona se duplica. El apéndice 1 llama a las categorías «calidad alta / media / mediocre / baja»; la IT 1.1.4.2.2, «óptima / buena / media / baja»."
+      },
+      {
+        titulo: "Aire de extracción: categoría y destino posible (IT 1.1.4.2.5)",
+        columnas: ["Categoría", "Ejemplos", "Qué se puede hacer con él"],
+        filas: [
+          ["AE 1 (bajo)", "Oficinas, aulas, salas de reuniones, locales comerciales sin emisiones específicas, escaleras y pasillos", "Puede retornarse a los locales si está exento de humo de tabaco"],
+          ["AE 2 (moderado)", "Restaurantes, habitaciones de hotel, vestuarios, aseos, cocinas domésticas (salvo campana), bares, almacenes", "Solo como aire de transferencia hacia locales de servicio, aseos y garajes"],
+          ["AE 3 (alto)", "Saunas, cocinas industriales, imprentas, habitaciones para fumadores", "Ni recirculación ni transferencia"],
+          ["AE 4 (muy alto)", "Campanas de humos, aparcamientos, pinturas y solventes, lencería sucia, residuos de comida, fumadores de uso continuo, laboratorios químicos", "Ni recirculación ni transferencia; expulsión separada de AE 1 y AE 2"]
+        ],
+        nota: "Mezcla de categorías → la más desfavorable. Extracción de locales de servicio: mínimo 2 dm³/s por m² de planta."
+      },
+      {
+        titulo: "Condiciones interiores, piscinas y límites de uso",
+        columnas: ["Parámetro", "Valor", "Precepto"],
+        filas: [
+          ["Verano (1,2 met, 0,5 clo, PPD < 10 %)", "23–25 °C; HR 45–60 %", "IT 1.1.4.1.2, tabla 1.4.1.1"],
+          ["Invierno (1,2 met, 1 clo)", "21–23 °C; HR 40–50 %", "IT 1.1.4.1.2, tabla 1.4.1.1"],
+          ["Temperatura de cálculo", "Calefacción 21 °C; refrigeración 25 °C", "IT 1.1.4.1.2"],
+          ["Agua de piscina climatizada", "24–30 °C (medida en el centro a unos 20 cm); tolerancia ± 1,5 °C", "IT 1.1.4.3.2"],
+          ["Aire del local de piscina", "1–2 °C por encima del agua, máximo 30 °C; HR < 65 %; presión −20 a −40 Pa", "IT 1.1.4.1.2.3 y 1.1.4.2.3.2"],
+          ["Ventilación de piscina", "2,5 dm³/s por m² de lámina de agua y playa (sin espectadores)", "IT 1.1.4.2.3.2"],
+          ["Límites de explotación (IT 3.8)", "Calefactados ≤ 21 °C; refrigerados ≥ 26 °C; HR 30–70 %", "IT 3.8.2"],
+          ["Velocidad del aire (20–27 °C)", "Mezcla: v = t/100 − 0,07 m/s; desplazamiento: v = t/100 − 0,10 m/s", "IT 1.1.4.1.3"]
+        ]
+      },
+      {
+        titulo: "Salas de máquinas: cifras",
+        columnas: ["Elemento", "Valor", "Precepto"],
+        filas: [
+          ["Concepto", "Local técnico con equipos de frío o calor de potencia > 70 kW", "IT 1.3.4.1.2.1"],
+          ["Puertas", "Permeabilidad ≤ 1 l/(s·m²) a 100 Pa (salvo contacto directo con el exterior)", "IT 1.3.4.1.2.2.b"],
+          ["Iluminación", "≥ 200 lux, uniformidad media 0,5", "IT 1.3.4.1.2.2.k"],
+          ["Altura", "≥ 2,50 m; 0,5 m libres sobre la caldera", "IT 1.3.4.1.2.6.2"],
+          ["Riesgo alto", "Edificios institucionales o de pública concurrencia, o agua > 110 °C", "IT 1.3.4.1.2.4"],
+          ["Gas: superficie de baja resistencia", "Volumen/100 en m², mínimo 1 m², a patio de 2 × 2 m (existentes: 3 m², lado ≥ 1 m)", "IT 1.3.4.1.2.3 y 1.3.4.1.2.8"],
+          ["Ventilación natural directa", "5 cm²/kW; por conducto vertical 7,5 cm²/kW y horizontal 10 cm²/kW", "IT 1.3.4.1.2.7"],
+          ["Ventilación forzada", "Q = 1,8·PN + 10·A m³/h; evacuación 10·A cm², mínimo 250 cm², sobrepresión ≤ 20 Pa", "IT 1.3.4.1.2.7.4"],
+          ["Extracción gases más pesados que el aire", "Q = 10·A m³/h, mínimo 100 m³/h", "IT 1.3.4.1.2.7.5"],
+          ["Biocombustible sólido", "Almacenamiento ≥ 15 días en edificios nuevos; en reformas sin separación, depósito a > 0,7 m de la caldera", "IT 1.3.4.1.4"]
+        ]
+      },
+      {
+        titulo: "Pruebas y mantenimiento: cifras",
+        columnas: ["Concepto", "Valor", "Precepto"],
+        filas: [
+          ["Resistencia mecánica, agua refrigerada o caliente ≤ 100 °C", "1,5 × presión máxima efectiva de trabajo, mínimo 6 bar", "IT 2.2.2.4.1"],
+          ["Resistencia mecánica, primario solar", "1,5 × presión máxima de trabajo, mínimo 3 bar", "IT 2.2.2.4.2"],
+          ["Limpieza de redes cerradas < 100 °C", "Repetir si el pH < 7,5", "IT 2.2.2.2.6"],
+          ["Prueba de estancamiento solar", "Radiación > 80 % de la máxima durante al menos una hora", "IT 2.2.7.3"],
+          ["Rendimiento del generador en pruebas", "No inferior en más de 5 unidades al límite inferior de su clase energética", "IT 2.4.b"],
+          ["Registro de mantenimiento", "Conservar ≥ 5 años", "Art. 27.2"],
+          ["Certificado de mantenimiento", "Anual (si hay contrato); validez máxima 1 año", "Art. 28.1"],
+          ["Información de consumos (> 70 kW)", "Se conserva ≥ 5 años; se publica cada año con los últimos 5 años", "IT 3.4.4 y 3.4.5"]
+        ]
+      }
+    ],
+    datos: [
+      "HE 2 (CTE, Parte I, art. 15.3): «Condiciones de las instalaciones térmicas»; se desarrolla en el RITE y su aplicación se define en el proyecto del edificio.",
+      "Art. 2.3: son reforma la incorporación o modificación de subsistemas, la sustitución de un generador por otro de diferentes características o la interconexión con una red urbana, la ampliación del número de generadores, el cambio de energía o la incorporación de renovables y el cambio de uso; el art. 2.4 añade la sustitución por un generador de similares características.",
+      "Art. 15.2-15.3: con varios generadores se suman sus potencias (sin la solar térmica); la solar se clasifica por su equipo de apoyo o, si no lo hay, a 0,7 kW/m² de superficie de apertura.",
+      "Art. 24.1: para registrar el certificado, la empresa instaladora presenta proyecto o memoria técnica de lo realmente ejecutado, certificado de la instalación y, si es preceptivo, certificado de inspección inicial con calificación aceptable.",
+      "Art. 24.8: tras el registro se entrega al titular, para el Libro del Edificio, proyecto o memoria, Manual de Uso y Mantenimiento, relación de equipos, resultados de las pruebas, certificado registrado y, en su caso, certificado de inspección inicial.",
+      "Art. 25.1: el titular o usuario responde del uso y mantenimiento desde la recepción provisional, y el mantenimiento no puede sustituirse por la garantía.",
+      "Art. 25.5: el titular responde del mantenimiento por empresa habilitada, de las inspecciones obligatorias y de conservar la documentación en el Libro del Edificio.",
+      "IT 1.2.4.1.1: cargas de invierno con TS 99 % y de verano con TS 1 %; en usos especiales justificados (hospitales, museos), TS 99,6 % y TS 0,4 %.",
+      "IT 1.2.4.1.2.3: quemadores de gas siempre modulantes; de combustible líquido ≤ 70 kW, una o dos marchas si se justifica.",
+      "IT 1.2.4.1.2.1 e IT 1.2.4.2.9: emisores de calefacción calculados para una entrada máxima de 60 °C; en refrigeración, entrada superior a 7 °C.",
+      "IT 1.2.4.2.1: pérdidas globales de las conducciones ≤ 4 % de la potencia transportada; conductos de impulsión, igual; ACS: espesor de tablas + 5 mm.",
+      "IT 1.2.4.2.2: conductos de impulsión con ≤ 70 kW: 30 mm en interiores y 50 mm en exteriores (λ = 0,040); ramales finales < 5 m, 13 mm si hay impedimento.",
+      "IT 1.2.4.2.3-1.2.4.2.4: estanquidad ATC 4 o superior; caídas de presión 40/60/120/60/40/20 Pa (batería de calor, frío seco, frío con deshumectación, atenuador, unidad terminal, rejilla de retorno).",
+      "IT 1.2.4.3.1: válvulas de control con pérdida de 0,6 a 1,3 veces la del elemento controlado; ventiladores > 5 m³/s con medición indirecta del caudal.",
+      "IT 1.2.4.5: enfriamiento gratuito con compuertas a ≤ 6 m/s y eficiencia de mezcla > 75 %; recuperación de calor si el aire expulsado mecánicamente supera 0,28 m³/s.",
+      "IT 1.2.4.7.1: efecto Joule en calefacción centralizada solo con bomba de calor (resistencias/compresor ≤ 1,2), renovable o residual con cobertura > 2/3, o acumulación en horas valle.",
+      "IT 1.3.4.1.3.3: salida directa al exterior a ≥ 2,20 m del suelo; 60 cm entre salidas (30 cm con deflectores); 1 m o 30 cm a pared lateral con o sin huecos; 3 m o 2 m a pared frontal con o sin huecos.",
+      "IT 1.3.4.2: conexiones flexibles para motores > 3 kW; filtro de 1 mm en cada circuito y de 0,25 mm en válvulas automáticas > DN 15; superficies accesibles ≤ 60 °C (salvo emisores) y unidades terminales < 80 °C.",
+      "IT 3.3: 2t = dos veces por temporada, una al inicio y otra a mitad, con al menos dos meses entre ambas; hasta 70 kW con supervisión remota en continuo la periodicidad puede llegar a 2 años.",
+      "Apéndice 1: zona ocupada de 5 a 180 cm del suelo, a 100 cm de paredes exteriores con huecos y de puertas, y a 50 cm de paredes interiores o sin huecos; 1 met = 58,2 W/m²; 1 clo = 0,155 m²·°C/W."
+    ],
+    excepciones: [
+      "Exactamente 70 kW → memoria técnica, no proyecto: el proyecto se exige solo si la potencia es «mayor que 70 kW» (art. 15.1).",
+      "Los calentadores instantáneos, acumuladores y termos eléctricos ≤ 70 kW (cada uno o su suma) y los sistemas solares de un único elemento prefabricado tampoco necesitan documentación ante la Comunidad Autónoma (art. 15.1.c).",
+      "El registro del certificado no supone aprobación técnica del proyecto ni pronunciamiento favorable sobre la idoneidad de la instalación (art. 24.6); las preinstalaciones no se registran (art. 24.7).",
+      "El titular puede mantener con personal de su plantilla si presenta declaración responsable de cumplir los requisitos del art. 37 (art. 26.8).",
+      "Viviendas, garajes, aparcamientos, trasteros y almacenes de residuos: la calidad del aire interior se cumple con la HS 3 del CTE, no con la IT 1.1.4.2 (IT 1.1.4.2.1).",
+      "Calderas y aparatos de calefacción local con combustibles de recuperación, residuos, biomasa no leñosa o gases residuales quedan fuera de los rendimientos mínimos; con hueso de aceituna o cáscaras, mínimo 80 % a plena carga (65 % en aparatos cerrados y cocinas).",
+      "Prohibidas las calderas y calentadores a gas tipo B de hasta 70 kW, salvo en locales que cumplan como sala de máquinas o, los calentadores, en zona exterior; no afecta a los tipo B3x (IT 1.2.4.1.2.1.3).",
+      "Fraccionamiento: un solo generador con ≤ 400 kW si da calefacción y ACS y la demanda de ACS ≥ escalón mínimo; los generadores modulares a gas cuentan como uno salvo que un sistema automático independice el circuito (IT 1.2.4.1.2.2).",
+      "Centrales de frío con máquinas geotérmicas: excluidas del escalonamiento salvo que superen 70 kW, en cuyo caso necesitan al menos 2 escalones (IT 1.2.4.1.3.2).",
+      "Acción simultánea de fluidos con temperatura opuesta: prohibida salvo energía gratuita o recuperada, control de humedad, presión positiva, caudal mínimo de ventilación o mezcla en dos zonas distintas (IT 1.2.4.7.3).",
+      "Climatización de espacios abiertos y calentamiento de piscinas al aire libre: solo con renovables o residuales; locales no habitables, sin climatizar salvo con renovables o residuales (IT 1.2.4.6 y 1.2.4.7.2).",
+      "No son sala de máquinas los locales con generadores ≤ 70 kW, los equipos autónomos de exterior de cualquier potencia ni los locales calefactados con generadores de aire caliente o tubos radiantes a gas (IT 1.3.4.1.2.1.2).",
+      "Salas de máquinas con calderas a gas: nunca por debajo del semisótano o primer sótano; en reformas, nuevo local (IT 1.3.4.1.2.8.4). Reposición del gas tras actuar la detección: siempre manual.",
+      "IT 3.8: no se aplica a recintos que justifiquen condiciones ambientales especiales o tengan normativa específica, con separación física respecto a los locales sujetos a los límites."
+    ]
+  }
 };
