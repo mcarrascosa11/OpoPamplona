@@ -313,835 +313,451 @@ Administración municipal están obligados a colaborar con la Comisión de Suger
 Reclamaciones.
 
 DECRETO DE ORGANIZACIÓN MUNICIPAL
---------- TEXTO PROPUESTO ------------------------------------------------------------------------------------------------------------------
-«EL ARTÍCULO 124.4.k de la Ley Reguladora de las Bases del Régimen Local, introducido por
-la Ley 57/2003, junto con todo el Título X, atribuye al Alcalde el establecimiento de la “organización y
-estructura de la Administración municipal ejecutiva, sin perjuicio del respeto a los niveles esenciales de la
-organización municipal” cuya definición corresponde al Pleno, según el artículo 123.1.c de la misma
-disposición legislativa. Estos niveles esenciales quedan constituidos, según este último precepto, por las
-grandes áreas de gobierno y los órganos directivos, “sin perjuicio de las atribuciones del Alcalde para
-determinar el número de cada uno de tales órganos y establecer niveles complementarios inferiores”.
-A su vez, el artículo 9 bis de la Ley Foral 6/1990, de la Administración Local de Navarra
-determinó la aplicación al Ayuntamiento de Pamplona del régimen establecido en el Título X de la citada
-disposición legislativa de régimen común.
-Coherentemente con esta construcción jurídica, el Alcalde, mediante este Decreto, dicta la
-“organización y estructura de la Administración municipal ejecutiva” respetando el contenido esencial del
-Reglamento de Organización Administrativa Municipal, esto es, la existencia de un Gabinete de Alcaldía,
-una Gerencia (aunque se agrupen en una única Área), direcciones, secretarías técnicas y una distribución
-competencial por áreas de gobierno. Además, regula conforme a la Ley el número de áreas y los niveles
-inferiores. Además, se incorporan los órganos que, conforme a la Ley Reguladora de las Bases del
-Régimen Local, son de obligatorio establecimiento en el Ayuntamiento.
-En relación con la organización aprobada por el Decreto de Alcaldía de 15 de septiembre de 2015
-y que posteriormente se modificó dentro del esquema general de distribución en grandes áreas por
-Decreto de Alcaldía de 30 de octubre de 2017.
+[Nota de procedencia: texto literal del Decreto de Organización Municipal del Ayuntamiento de Pamplona, DAL 15-ENE-24 (3/AL), de 15 de enero de 2024, en vigor desde el 22 de enero de 2024 y publicado en el BON n.º 31, de 12 de febrero de 2024, con sus modificaciones de 2024 (DAL 22-ENE-24 (2/AL), DAL 19-FEB-24 (A/AL) y DAL 23-OCT-24 (1/AL)) y la de septiembre de 2025, en vigor el 15 de septiembre de 2025, que creó la Concejalía Delegada de Educación, Participación Ciudadana y Euskera. Versión publicada en pamplona.es en septiembre de 2025 (https://www.pamplona.es/sites/default/files/2025-09/DAL3AL.pdf); su encabezado solo enumera las modificaciones de 2024, pero el texto ya recoge la de 2025. Es la redacción vigente el 21-05-2026: no consta ninguna modificación posterior. Sustituye al decreto de 2017 que figuraba antes en este tema.]
+La ALCALDÍA del Excmo. Ayuntamiento de Pamplona, con fecha 15 de enero de 2024 adoptó el siguiente decreto (incluye modificaciones aprobadas por DAL 22-ENE-24 (2/AL), DAL 19-FEB-24 (A/AL) y DAL 23-OCT-24 (1/AL)):
+DAL 15-ENE-24 (3/AL)
+«EL ARTÍCULO 124.4.k de la Ley Reguladora de las Bases del Régimen Local, introducido por la Ley 57/2003, junto con todo el Título X, atribuye al Alcalde el establecimiento de la “organización y estructura de la Administración municipal ejecutiva, sin perjuicio del respeto a los niveles esenciales de la organización municipal” cuya definición corresponde al Pleno, según el artículo 123.1.c de la misma disposición legislativa. Estos niveles esenciales quedan constituidos, según este último precepto, por las grandes áreas de gobierno y los órganos directivos, “sin perjuicio de las atribuciones del Alcalde para determinar el número de cada uno de tales órganos y establecer niveles complementarios inferiores”.
+A su vez, el artículo 9 bis de la Ley Foral 6/1990, de la Administración Local de Navarra determinó la aplicación al Ayuntamiento de Pamplona del régimen establecido en el Título X de la citada disposición legislativa de régimen común.
+Coherentemente con esta construcción jurídica, el Alcalde, mediante este Decreto, establece la “organización y estructura de la Administración municipal ejecutiva” respetando el contenido esencial del Reglamento de Organización Administrativa Municipal, esto es, la existencia de un Gabinete de Alcaldía, una Gerencia, direcciones, secretarías técnicas y una distribución competencial por áreas de gobierno. Además, regula conforme a la Ley el número de áreas y los niveles inferiores e incorpora los órganos que, conforme a la Ley Reguladora de las Bases del Régimen Local, son de obligatorio establecimiento en el Ayuntamiento.
 En su virtud, DISPONGO:
 Artículo 1. Estructura.
-La organización de la administración del Ayuntamiento de Pamplona se estructura en las siguientes
-grandes unidades orgánicas:
+La organización de la administración del Ayuntamiento de Pamplona se estructura en las siguientes grandes unidades orgánicas:
+1.1.- ADMINISTRACIÓN EJECUTIVA DEL PLENO
+Dependiendo directamente de la Presidencia del Pleno:
+Secretaría General del Pleno. Ejercerá las funciones que la LRBRL, y el resto del ordenamiento jurídico, le atribuyen.
+1.2.- ADMINISTRACIÓN EJECUTIVA DEL GOBIERNO DE LA CIUDAD
+A) Dependiendo directamente del Alcalde:
+a) El Gabinete de Alcaldía, que tendrá adscrita la Dirección de Comunicación Institucional y Transparencia.
+b) La Gerencia Municipal. A ella se adscribe la gestión relativa a la Asociación Navarra de Informática Municipal, S.A. (ANIMSA).
+c) La Asesoría jurídica.
+B) Dependiendo de las Concejalías Delegadas, de acuerdo con las competencias que tengan atribuidas, se establecen las siguientes Áreas:
+1. Concejalía Delegada de Hacienda, Contratación Pública Responsable y Recursos Humanos.
+- Área de Hacienda y Contratación Pública Responsable. En ella se integran los órganos de gestión económico-financiera y presupuestaria, así como la Intervención. Incorporará la Oficina de Contratación Pública responsable cuando se constituya.
+- Área Recursos Humanos.
+2. Concejalía Delegada de Gobierno Estratégico, Urbanismo, Vivienda y Agenda 2030.
+- Área de Gobierno Estratégico, Urbanismo, Vivienda y Agenda 2030. En ella se integran las Oficinas de Vivienda y de Rehabilitación, el organismo autónomo “Gerencia de Urbanismo”, la sociedad mercantil “Pamplona Centro Histórico, Iruña Biziberritzen S.A.”, la Oficina Estratégica, la Agencia Energética, la Agenda 21 y el Museo de Medioambiente.
+3. Concejalía Delegada de Cultura, Fiestas, y Deporte.
+- Área de Cultura, Fiestas, y Deporte. A ella se adscribe la “Fundación Teatro Gayarre”.
+4. Concejalía Delegada de Seguridad y Convivencia Ciudadana.
+- Área de Seguridad y Convivencia Ciudadana.
+5. Concejalía Delegada de Igualdad, Acción Comunitaria, Barrios, y Diversidad Cultural.
+- Área de Igualdad, Acción Comunitaria, Barrios y Diversidad Cultural.
+6. Concejalía Delegada de Acción Social.
+- Área de Acción Social. A ella se adscribe sociedad mercantil Servicio de Atención Domiciliaria Pamplona S.A. hasta su liquidación.
+7. Concejalía Delegada de Ciudad Habitable y Sostenible.
+- Área de Proyectos Estratégicos y Movilidad.
+- Área de Conservación Urbana y Sanidad
+8. Concejalía Delegada de Promoción Económica, Proyección Europea, Innovación, Juventud y Cooperación al Desarrollo.
+- Área de Promoción Económica, Proyección Europea, Innovación, Juventud y Cooperación al Desarrollo. A ella se adscriben Comiruña S.A, Mercairuña S.A, y la gestión del edificio de calle Mayor 59.
+9. Concejalía Delegada de Educación, Participación Ciudadana, y Euskera.
+- Área de Educación, Participación Ciudadana y Euskera. A ella se adscribe el organismo autónomo de Escuelas Infantiles.
+Artículo 2.- Régimen de las Direcciones y Secretarías Técnicas
+Tanto las Áreas, como el Gabinete de Alcaldía y la Asesoría Jurídica dispondrán de, al menos, una Dirección y una Secretaría Técnica. No obstante, varias unidades orgánicas podrán compartir una misma Dirección y/o una misma Secretaría Técnica. Se establece también la figura del Gerente. Corresponde a tales órganos el ejercicio de las competencias que les deleguen los órganos de gobierno, la propuesta a los órganos de gobierno de los asuntos que les correspondan en el ámbito de sus competencias, la propuesta a la Junta de Gobierno Local de la aprobación de los proyectos de disposiciones de carácter general y las demás propuestas que correspondan en el ámbito de sus competencias y en todo caso, las funciones generales siguientes:
+- Direcciones:
+− La dirección y gestión de los servicios de su competencia.
+− La dirección y coordinación de las correspondientes unidades orgánicas.
+− La elaboración de proyectos de disposiciones, acuerdos y convenios respecto de las materias de su ámbito de funciones.
+− La elaboración, seguimiento y control del presupuesto anual que se les asigne.
+− La evaluación de los servicios de su competencia.
+− La responsabilidad sobre el personal adscrito al área o unidad orgánica.
+- Secretarías Técnicas:
+− La gestión de los servicios comunes del área.
+− La asistencia técnica en materia administrativa al titular del área o unidad orgánica.
+− Las funciones tendentes a la eficiente utilización de los medios y recursos materiales, económicos y personales que tenga asignados el área o unidad orgánica, impartiendo las instrucciones necesarias al personal adscrito.
+− La tramitación y custodia de los expedientes, asegurando su adecuación al ordenamiento jurídico y exponiendo sus antecedentes.
+Para el ejercicio de las funciones señaladas, las Secretarías Técnicas podrán recabar de las direcciones del área o unidad orgánica, de los letrados-as o licenciados-as en derecho adscritos y del resto del personal, así como de los organismos y entidades dependientes de la respectiva área o unidad orgánica cuantos informes, datos, documentos y actuaciones consideren precisos.
+En los expedientes tramitados por la Gerencia de Urbanismo que sean trasladados a las Áreas Municipales para su resolución final, será necesaria la firma de la Secretaría Técnica cuando haya aprobación de gasto con cargo al presupuesto gestionado por la correspondiente Área. En los demás casos, la firma de la Secretaría Técnica será sustituida por la de un/a Letrado/a de la Asesoría Jurídica de la Gerencia de Urbanismo.
+Artículo 3.- Distribución de competencias por unidades orgánicas.
+Corresponden a las siguientes unidades orgánicas la misión y las funciones que a continuación se relacionan, en los términos que se establezcan en las disposiciones de delegación de atribuciones del Alcalde y de la Junta de Gobierno, cuando corresponda:
+3.1 ALCALDÍA.
 Dependiendo directamente del Alcalde.
-- Área de Alcaldía
-- Área de Igualdad
-- Resto de áreas de gobierno:
-Dependiendo de los Concejales y Concejalas-delegadas, de acuerdo con las competencias a ellos
-atribuidas, se establecen las siguientes áreas:
-- Área de Transparencia, Innovación y Política Lingüística. A ella se adscribe Asociación Navarra
-de Informática Municipal, S.A. (ANIMSA).
-- Área de Participación ciudadana, y Empoderamiento Social.
-- Área de Igualdad.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Área de Acción Social. A ella se adscribe la sociedad mercantil “Asistencia Municipal en casa,
-S.A. en liquidación” (ASIMEC).
-- Área de Desarrollo Comunitario.
-- Área de Cultura y Educación. A ella se adscribe el organismo autónomo “Escuelas Infantiles de
-Pamplona” y la “Fundación Teatro Gayarre”.
-- Área de Ciudad Habitable y Vivienda. En ella se integra las Oficinas de Vivienda y de
-Rehabilitación. A ella se adscriben el organismo autónomo “Gerencia de Urbanismo” y la
-sociedad mercantil “Pamplona Centro Histórico, Iruña Biziberritzen S.A.”.
-- Área de Ecología Urbana y Movilidad. A ella se adscribe la “Agencia Energética”.
-- Área de Economía Local Sostenible. En ella se integran los órganos de gestión económicofinanciera y presupuestaria, así como la Intervención. Y a ella están adscritas Mercairuña, S.A. y
-Comiruña, S.A.
-- Área de Seguridad Ciudadana y Convivencia.
-Artículo 2.- Régimen de las direcciones y secretarías.
-Todas las áreas dispondrán de, al menos, una dirección y una secretaría técnica. No obstante, varias áreas
-podrán compartir una misma dirección y una misma secretaría técnica.
-El área Alcaldía y el área de Transparencia, Innovación y Política Lingüística dispondrán indistintamente
-de las Secretarías Técnicas asignadas al Área de Economía Local Sostenible.
-Corresponde a tales órganos el ejercicio de las competencias que les deleguen los órganos de gobierno, la
-propuesta a los órganos de gobierno de los asuntos que les correspondan en el ámbito de sus
-competencias, la propuesta a la Junta de Gobierno de la aprobación de los proyectos de disposiciones de
-carácter general y las demás propuestas que correspondan en el ámbito de sus competencias y en todo
-caso, las funciones generales siguientes:
-- Dirección del área:
-- La dirección y gestión de los servicios de su competencia.
-- La dirección y coordinación de las unidades orgánicas adscritas al área.
-- La elaboración de proyectos de disposiciones, acuerdos y convenios respecto de las materias de
-su ámbito de funciones.
-- La elaboración, seguimiento y control del presupuesto anual que se les asigne.
-- La evaluación de los servicios de su competencia.
-- La responsabilidad sobre el personal adscrito al área.
-- Secretaría técnica:
-- La gestión de los servicios comunes del área.
-- La asistencia técnica en materia administrativa al titular del área.
-- Las funciones tendentes a la eficiente utilización de los medios y recursos materiales, económicos
-y
-- personales que tenga asignados el área, impartiendo las instrucciones necesarias al personal
-adscrito al
-- área.
-- La tramitación y custodia de los expedientes, asegurando su adecuación al ordenamiento jurídico
-y exponiendo sus antecedentes.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-Para el ejercicio de las funciones señaladas, las secretarías técnicas podrán recabar de las
-direcciones del área, los letrados-as o licenciados-as en derecho adscritos y del resto del personal, así
-como de los organismos y entidades dependientes de la respectiva área cuantos informes, datos,
-documentos y actuaciones consideren preciso.
-Artículo 3.- Distribución de competencias por áreas.
-Corresponden a las siguientes unidades orgánicas la misión y las funciones que a continuación se
-relacionan, en los términos que se establezcan en las disposiciones de delegación de atribuciones del
-Alcalde y de la Junta de Gobierno, cuando corresponda:
-1. ÁREA DE ALCALDÍA
-En este área se agrupan, fundamentalmente, las funciones y competencias que hasta ahora
-desarrollaban el Gabinete de Alcaldía y la Gerencia Municipal, a las que se suman otras nuevas
-funciones. Es un área que depende directamente del Alcalde. Este Área se dividirá en tres ámbitos de
-trabajo:
-a) Gabinete de Alcaldía, Protocolo y Comunicación.
-- Asesoría, asistencia y secretaría del Alcalde.
-- Relaciones institucionales y exteriores.
-- Protocolo.
-- Coordinación y supervisión de actuaciones de proyección externa.
-- Dirección de los actos oficiales y conmemorativos de la ciudad.
-- Promover las relaciones del Ayuntamiento con las ciudades hermanas.
-- Cuentas de Alcaldía
-- Trasladar a la ciudadanía, a través de medios propios o de los medios de comunicación
-existentes, la actividad municipal.
-- Coordinar y dinamizar las diferentes herramientas de comunicación de las que
-disponemos o podemos llegar a disponer, así como el personal municipal dedicado a esta
-labor.
-b) Coordinación técnica de la Administración-Gerencia Municipal.
-- Realizar una coordinación técnica del funcionamiento de las áreas de gobierno mediante
-la Mesa de Coordinación Técnica con participación de las direcciones de todas las áreas
-con carácter periódico y propondrá espacios de encuentro entre las áreas si no existiesen.
-En esa mesa participarán, con carácter permanente, los servicios de Igualdad y de Política
-Lingüística para asegurar una correcta implantación transversal de sus planes de
-actuación, así como las acciones destinadas a garantizar la accesibilidad universal.
-- Las Memorias municipales
-- Proposición de los planes de actuación y ejecución de los objetivos del Ayuntamiento, y
-asignar los recursos necesarios para su ejecución, de acuerdo con las normas
-presupuestarias correspondientes.
-- Relaciones con el Defensor del Pueblo y la Cámara de Comptos.
-- Seguimiento del cumplimiento de los compromisos e indicadores que ha asumido el
-Ayuntamiento, trabajando con todas las áreas y definiendo un cuadro de mandos integral.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Promoción y supervisión del cumplimiento de todas las actuaciones de búsqueda de la
-calidad de los servicios municipales.
-- Evaluación de los programas de actuaciones, formulando las propuestas de reforma o
-supresión que fueran necesarias.
-- Propuesta de asignación de recursos anuales, en los presupuestos, a cada una de las áreas.
-- Emisión, en su caso, de informe sobre las modificaciones organizativas, incluidos los
-proyectos de organización y estructura de cada departamento o área.
-c) Oficina Estratégica.
-- Diseño, elaboración, gestión, seguimiento, evaluación y coordinación de un plan
-estratégico municipal a largo plazo, que contemple un Plan de Ciudad y un Plan de
-Barrios. Elaboración de estudios y análisis estratégicos.
-- Captación de financiación regional, estatal y europea para el desarrollo y puesta en
-marcha de proyectos vinculados al plan estratégico municipal y al resto de planes y
-estrategias sectoriales municipales.
-- Preparación de candidaturas y asesoramiento técnico para concurrir a las convocatorias
-de ayudas, y coordinación, gestión y control de los proyectos municipales cofinanciados
-por la Unión Europea.
-- Impulso, gestión y coordinación de estrategias, planes, programas y proyectos
-municipales transversales, cuyo ámbito afecte a varias áreas municipales como: el
-Observatorio de Ciudad, el plan de gestión municipal, el Sistema de Información
-Geográfico Municipal, el desarrollo de la política agroalimentaria, la política de
-mitigación y adaptación al cambio climático…
-- Realizar análisis de prospección sociológica sobre la realidad social de la Ciudad y sus
-transformaciones como forma de mejora en la toma de decisiones.
-- Diseño, gestión y desarrollo de proyectos de innovación en la ciudad y en la gestión
-municipal.
-- Gestión y coordinación de la participación del Ayuntamiento de Pamplona en redes y
-asociaciones de municipios.
-- Prestar apoyo técnico a otras áreas municipales para definir proyectos y para la
-realización de estudios o análisis aportando una visión integral y un enfoque transversal y
-estratégico.
-2. ÁREA DE IGUALDAD
-Área central de la acción municipal. Promueve la igualdad entre mujeres y hombres, la búsqueda de la
-equidad, y el apoyo al colectivo LGTBQI. Esta área lleva el impulso y coordinación de las políticas de
-Igualdad, que, en todo caso, deberán implementarse con carácter transversal en todas las vertientes de la
-acción del Ayuntamiento. La actuación del área se desarrollará a través del III Plan De Igualdad de
-Pamplona (2016-2022), sus objetivos, sus ámbitos de intervención líneas estratégicas, objetivos
-específicos y actuaciones.
-a) Igualdad:
-- Diseño e impulso de medidas específicas de acción positiva.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Impulso de la incorporación de la perspectiva de género en todas las políticas, programas
-y acciones de su respectiva Administración, a todos los niveles y en todas sus fases.
-- Asesoramiento y colaboración con los departamentos y demás entes y órganos
-dependientes de la respectiva Administración en materia de igualdad de mujeres y
-hombres.
-- Sensibilización a la ciudadanía residente en su ámbito territorial sobre la situación de
-desigualdad entre mujeres y hombres y sobre las medidas necesarias para promover la
-igualdad.
-- Impulso y propuesta para la adaptación y creación por parte de su respectiva
-Administración de programas y servicios específicos dirigidos a garantizar el acceso a los
-derechos sociales básicos de las mujeres que sufren discriminación múltiple.
-- Impulso y propuesta para la creación y adecuación de recursos y servicios sociocomunitarios tendentes a favorecer la conciliación de la vida personal, laboral y familiar
-de mujeres y hombres.
-- Detección de las posibles situaciones de discriminación existentes en el ámbito territorial
-y diseño e impulso de medidas para su erradicación.
-- Establecimiento de relaciones y cauces de participación y colaboración con entidades
-públicas y privadas que en razón de sus fines o funciones contribuyan a la consecución de
-la igualdad de mujeres y hombres.
-- Diagnóstico de las necesidades de formación en materia de igualdad de mujeres y
-hombres del personal adscrito a la Administración y propuesta del tipo de formación
-requerido en cada caso, así como los criterios y prioridades de acceso a aquélla.
-- Interlocución con entidades, órganos y unidades competentes en materia de Igualdad de
-mujeres y hombres, y en especial con el Instituto Navarro para la Igualdad.
-- Gestión y dinamización del Centro Compañía.
-- Reparto de ayudas a entidades que fomenten la Igualdad para garantizar su pervivencia y
-buen funcionamiento como, por ejemplo, la Biblioteca de la Mujer.
-b) LGTBQI
-- Desarrollo de programas dirigidos al colectivo LGTBQI (Lesbo, Gay, Transexual,
-Bisexual, Queer, Intersexual) con especial énfasis en aquellos que pueden promover su
-empoderamiento.
-Establecer sinergias con los procesos participativos puntuales y territoriales.
-3.- ÁREA DE TRANSPARENCIA, INNOVACIÓN Y POLÍTICA LINGÜÍSTICA.
-El objetivo de esta área es promover la transparencia y accesibilidad a la información y a la
-gestión administrativa municipal, en cumplimiento del derecho a la buena administración, y nuevas
-formas de gobierno abierto; fomentar la innovación tecnológica y la implantación y mejora de la
-administración electrónica, el diseño y desarrollo de la estrategia Smart City, así como todo lo
-relacionado con la política general de contratación pública del Ayuntamiento y de todo el Sector Público
-Municipal, compuesto por los organismos autónomos y las empresas públicas y fundaciones dependientes
-del Ayuntamiento. Además adscriben a esta área los Servicios Jurídicos del Ayuntamiento, sin perjuicio
-de lo dispuesto en los artículos 122, 129 y concomitantes de la Ley 7/1985, de 2 de abril, Reguladora de
-las Bases de Régimen Local. A ella se encomiendan las relaciones del Ayuntamiento con la sociedad
-mercantil “Asociación Navarra de informática municipal, S.A.” (ANIMSA).
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-Por otro lado se ocupa de la Política Lingüística en lo que es competencia del Ayuntamiento, y,
-en este sentido, tiene como objetivo la promoción, difusión e impulso al Euskera en la Ciudad.
-a) Transparencia:
-- Promoción e impulso de las políticas de transparencia y acceso a la información pública.
-- Coordinar y supervisar las tareas relativas a la gestión de la información y estructura de la
-Intranet, la web municipal y la sede electrónica. Definir los contenidos mínimos que
-deben estar publicados, con especial mención a los indicadores de transparencia.
-Resolver las solicitudes de transparencia que se formulen al Ayuntamiento de Pamplona.
-- Coordinar y supervisar el modelo de transparencia del Ayuntamiento, protección de datos
-y derecho de acceso a la información, en cumplimiento de la Ley Foral 11/2012, de 21 de
-Junio, de la Transparencia y del Gobierno Abierto, de la Ley 19/2013, de 9 de diciembre,
-de Transparencia, Acceso a la Información Pública y Buen Gobierno, y demás normativa
-de aplicación.
-b) Innovación:
-- Ordenar y tutorizar la implantación mejora de la administración electrónica y las
-relaciones del Ayuntamiento con ANIMSA. Implementación de nuevas aplicaciones
-informáticas que mejoren la relación con la ciudadanía.
-- Coordinación y desarrollo de la estrategia Smart City para la innovación tecnológica
-aplicada, junto con el resto de áreas del Ayuntamiento y fomentando la colaboración con
-el Instituto SmartCities de la Universidad Pública de Navarra y otros centros
-universitarios, así como instituciones públicas y empresas del sector.
-c) Política General del sector público institucional municipal
-- Fijar la política general en relación al sector público institucional municipal en materias,
-entre otras, sobre contratación, transparencia, cumplimiento de la legislación de
-protección de datos e implementación del plan director del documento electrónico
-aprobado por el Ayuntamiento de Pamplona.
-- Dar las instrucciones generales que se requieran para que el sector público institucional
-municipal cumpla con toda la legislación que le resulte aplicable.
-d) Contratación Pública.
-- Diseñar y coordinar la política general de Contratación Pública del Ayuntamiento, sus
-Organismos Autónomos y el Sector Público Local de él dependiente (Sociedades
-Públicas, fundaciones y otras entidades).
-- Adaptación de los pliegos generales de contratación al nuevo marco jurídico derivado del
-cuarto paquete de Directivas del 2014, especial de la Directiva 2014/24/UE, de Contratos
-del Sector Público, y los que en el futuro se aprueben.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Orientación de la contratación pública con carácter estratégico para coadyuvar al logro de
-los objetivos de desarrollo socialmente responsable, ambientalmente sostenible e
-innovador, establecidos por la Estrategia Europa 2020.
-- Fomento de la compra pública verde, socialmente responsable e innovadora mediante la
-incorporación de cláusulas sociales, ambientales y de innovación a los pliegos de
-contratación.
-- Apoyo a las áreas municipales, a través de la asesoría jurídica, para la elaboración de los
-pliegos de contratación, y en las diferentes fases de ejecución de los contratos.
-- Estudio de la puesta en marcha de una Unidad Central de Contratación Pública Municipal
-y, en su caso, implantación.
-- Iniciativas para facilitar el acceso a la contratación pública a las pequeñas y medianas
-empresas, a trabajadores autónomos, a entidades de economía social y organizaciones sin
-ánimo de lucro, como el proyecto Trebatu.
-e) Servicios Jurídicos.
-Asesoría Jurídica.
-- Su Titular (Director/a) ejercerá las funciones atribuidas por la LRBRL: asistencia y
-asesoramiento jurídico al Alcalde, a la Junta de Gobierno Local y a los órganos
-directivos, dirección de la defensa y representación en juicio, contratación.
-- En el ejercicio de sus funciones, su Titular (Director/a) emitirá las instrucciones y
-órdenes de servicio que fueran necesarias.
-- Dependiendo directamente de la Dirección de la Asesoría Jurídica, quien ostente la
-Titularidad del órgano de apoyo a la Junta de Gobierno ejercerá las funciones atribuidas
-por la LRBRL, así como las de coordinación de los servicios jurídicos.
-Secretaría General.
-- Secretaría General del Pleno.
-f) Administración General.
-- Padrón.
-- Registros.
-- Registro de parejas de hecho, matrimonios civiles.
-- Servicio de Atención a la Ciudadanía.
-- Archivo Municipal
-- Cumplimiento de la legislación de protección de datos
-g) Política Lingüística
-- Promover actuaciones para la normalización del uso y fomento del euskara.
-- Colaborar y trabajar con los distintos colectivos que trabajan con el euskera.
-- Establecer los medios materiales y humanos para garantizar los derechos lingüísticos de
-todas las personas vasco-parlantes.
-- Fomentar actuaciones para visibilizar el euskara.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Vigilar el cumplimiento de la Ordenanza del Euskara y demás normativa relacionada de
-aplicación.
-4. ÁREA DE PARTICIPACIÓN CIUDADANA Y EMPODERAMIENTO SOCIAL.
-Impulsa una línea capital de la acción de gobierno: la Participación y, a través de esta, el Empoderamiento
-de la ciudadanía. Establecimiento de canales de comunicación y puentes de relación entre el
-Ayuntamiento y la ciudadanía. Planificación y coordinación de las actuaciones relacionadas con la
-Participación Ciudadana y el Empoderamiento Social.
-- Registro de asociaciones y entidades ciudadanas.
-- Gestión de subvenciones a entidades ciudadanas.
-- Gestión de las salas de Centro, de la Sala de Usos Múltiples de Calderería y de la red de
-espacios co-gestionados y autogestionados de participación.
-- Impulsar espacios internos de participación transversal a las Áreas Municipales, tanto con
-mecanismos puntuales ad hoc como con la constitución de una Mesa Técnica de
-Coordinación, para todos el personal técnico municipal y supramunicipal que trabajan en
-aspectos que tienen que ver con la participación ciudadana.
-- Impulsar y dinamizar procesos de participación concretos y puntuales tanto de ámbito
-territorial como sectorial, convirtiéndolos en una oportunidad para impulsar la
-constitución desde abajo de los órganos de participación previstos en el Reglamento de
-Participación Ciudadana del Ayuntamiento de Pamplona: Consejos de barrio, sectoriales
-y Consejo Social de la Ciudad.
-- Crear Consejos Municipales, para tratar de manera específica los problemas que afectan a
-sectores sociales, así como impulsar, apoyar o coordinar cualesquiera otros consejos
-temáticos que pudieran crearse (diversidad funcional, auditoria ciudadana, medio
-ambiente y movilidad, cultura, euskara, etc.)
-- Facilitar la creación de Foros y Consejos de barrio atendiendo a la realidad específica de
-cada barrio, desarrollando planes específicos de dinamización en aquellas partes del
-territorio más átonas.
-- Constituir el Consejo Social de la Ciudad.
-- Promover los Presupuestos participativos.
-- Proponer los adecuados cambios normativos que posibiliten un despliegue flexible de la
-participación a todos los niveles.
-- Promover y coordinar la participación online y las consultas ciudadanas.
-- Apoyar a las asociaciones que realizan actividades dirigidas a todos los públicos que
-promueven la participación ciudadana.
-- Impulsar y fomentar los programas de promoción del voluntariado.
-- Formar a las asociaciones mediante cursos de nuevas tecnologías, contabilidad, búsqueda
-de subvenciones, etc.
-- Impulsar un Observatorio Local de la Participación, o Consejo Sectorial, como espacio
-deliberativo, coordinador y técnico de la Participación, con presencia de la institución, la
-sociedad civil y el ámbito del conocimiento.
-- Impulsar una Escuela de Empoderamiento y Participación, que dote de recursos y
-capacite a personal político, funcionario, sociedad civil, colectivos y entidades
-ciudadanas, y profesionales del sector sociocomunitario.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-5. ÁREA DE ACCIÓN SOCIAL
-- Facilita el acceso de la ciudadanía al sistema público de servicios sociales municipales,
-ofreciendo una respuesta a sus necesidades con el fin de lograr una comunidad más
-solidaria, equilibrada e integrada socialmente.
-- Promoción de la sensibilización y la solidaridad ciudadanas como instrumentos para
-objetivar una mayor cohesión social.
-- Prevención y detección de situaciones de necesidad social que sufra o pueda sufrir la
-ciudadanía, así como su acogida al sistema de servicios sociales y orientación social, a
-través de las unidades de barrio.
-- Prevención de situaciones de dependencia, promoción de la autonomía personal y
-atención de personas con dificultades de autovalimiento o dependientes a través del
-Servicio de atención a domicilio y/o del acceso a otras prestaciones dirigidas a las
-personas dependientes.
-- Acciones encaminadas a la incorporación social y laboral de las personas en situación de
-riesgo o exclusión social mediante el diseño itinerarios personalizados. Desarrollo de
-programas de formación y empleo que mejoren su empleabilidad y formalización de
-propuestas de empleo social protegido para su promoción sociolaboral.
-- Acciones encaminadas a luchar contra la pobreza y la exclusión social, especialmente
-aquellas dirigidas a afrontar situaciones de emergencia social.
-- Recursos habitacionales para personas que se encuentren en situación de vulnerabilidad
-social ya sea por emergencia social o por sus circunstancias socio-personales
-(Apartamentos para personas mayores, pisos para mujeres y sus hijos/as, servicio
-municipal de personas sin hogar,…) y viviendas de emergencia social.
-- Programas de apoyo a la infancia y familia. Prevención, detección e intervención en las
-situaciones de riesgo o desprotección de los/as menores, así como de conflicto social.
-- Atención intensiva, especializada y personalizada a mujeres y sus hijos/as, que sufren o
-se encuentran en riesgo de sufrir violencia de género y/o que se encuentran en situación
-de dificultad social para afrontar su autonomía en condiciones de igualdad.
-- Desarrollo de la política municipal de cooperación al desarrollo y solidaridad
-internacional.
-- Convenios de colaboración con el Gobierno de Navarra para el desarrollo de programas
-de servicios sociales.
-- Captación de fuentes de financiación externa para el desarrollo de programas de servicios
-sociales.
-- Desarrollo de sistemas de información orientados al conocimiento de la realidad social y
-a la planificación y evaluación de los servicios prestados.
-6.- ÁREA DE DESARROLLO COMUNITARIO
-Se le encomienda la dinamización y la gestión compartida con el resto de áreas implicadas del Proyecto
-de Acción Comunitaria en los barrios de Pamplona, la gestión de los Centros Comunitarios de Iniciativa
-Social, el Programa de Prevención Comunitaria y las políticas de juventud. Además desarrolla las
-políticas públicas municipales en materia de Deporte.
-a) Desarrollo Comunitario:
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Elaboración de Plan Director de Desarrollo Comunitario en colaboración con el resto de
-áreas implicadas, fundamentalmente las de Acción Social, Participación Ciudadana y
-Empoderamiento Social, Cultura y Educación, Seguridad Ciudadana y Ciudad Habitable
-y Vivienda.
-- Coordinación y dinamización del Proyecto de Acción Comunitaria en los diferentes
-barrios de la ciudad. Para ello trabajará, de manera transversal, junto con el resto de áreas
-municipales implicadas, así como con el tejido asociativo de los barrios.
-- Programar, organizar, apoyar y evaluar actuaciones de desarrollo comunitario en
-colaboración con agentes sociales e instituciones que articulen procesos comunitarios, en
-colaboración con el resto de las áreas municipales que puedan resultar implicadas.
-- Gestión y mantenimiento de los Centros Comunitarios de Iniciativa Social (CCIS).
-- Gestión del Programa de Prevención Comunitaria, que contiene, entre otras, las
-siguientes funciones: Prevención a nivel primario y secundario con la población infanto
-juvenil y promoción de este sector, la atención a la infancia y adolescencia mediante la
-realización de procesos participativos, en coordinación con el Área de Acción Social.
-Detección y notificación de situaciones que pueden impedir el desarrollo adecuado de
-niños/as y adolescentes. Trabajo en red con instituciones públicas y no formales de los
-barrios.
-- Ampliación de los Equipos Preventivos de Acción Comunitaria a todos los barrios de
-Pamplona y ampliación de las funciones de dichos equipos.
-- Creación y mantenimiento de espacios de encuentro para la participación y la implicación
-de las personas, grupos y asociaciones en la mejora de las condiciones de vida de los
-vecinos/as en los barrios.
-b) Juventud:
-- Mantenimiento y promoción de la Casa de la Juventud (cursos, asesoría, ciberaula, etc.).
-- Elaboración y desarrollo del III Plan Pamplona Joven.
-- Desarrollo de programas dirigidos a jóvenes, con especial énfasis en aquellos que pueden
-promover su empoderamiento.
-- Apoyo a las iniciativas desarrolladas por la gente joven.
-- Promoción de actividades desarrolladas por entidades y asociaciones para la gente joven
-(subvenciones).
-- Establecer sinergias con los procesos participativos puntuales y sectoriales.
-- Crear un Consejo Local de la Juventud.
-c) Deporte:
-- Mantenimiento y promoción de instalaciones deportivas municipales.
-- Promoción y puesta en marcha de proyectos que favorezcan la actividad física de los
-diversos sectores de población.
-- Desarrollo de programas deportivos y espectáculos.
-- Colaboraciones con entidades deportivas.
-- Fomento de eventos deportivos.
-d) Mayores:
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Desarrollo de programas dirigidos a personas mayores, con especial énfasis en aquellos
-que pueden promover su empoderamiento.
-- Establecer sinergias con los procesos participativos puntuales y territoriales, y revitalizar
-el Consejo del Mayor
-7. ÁREA DE CULTURA, Y EDUCACIÓN
-Promoción educativa en los distintos niveles de su competencia. Impulso y gestión de todas aquellas
-actividades de promoción de la cultura.
-a) Cultura
-- Crear e impulsar un nuevo Plan Estratégico de Cultura que asuma toda la riqueza cultural
-de la Ciudad.
-- Fomentar la vitalidad cultural de Pamplona creando infraestructuras y programando
-producciones de calidad.
-- Promover y difundir la cultura, trabajando en los idiomas de la Ciudad.
-- Crear equipamientos culturales y dinamizar la participación social.
-- Abrir y potenciar el espacio urbano con fines culturales.
-- Promocionar las bibliotecas públicas y fomentar la lectura.
-- Editar publicaciones municipales de carácter científico y divulgativo.
-- Potenciar e impulsar la actividad cultural de colectivos profesionales.
-- Potenciar las iniciativas, el funcionamiento y la participación de organismos y entidades
-culturales ciudadanas.
-- Desarrollar las actividades socioculturales propias de la ciudad, como los Sanfermines y
-sus actos tradicionales.
-- Promover y desarrollar los programas de actividades en la red de Civivox con el objetivo
-de configurar espacios de cogestión.
-- Fomentar la creatividad y difundir las expresiones contemporáneas de las artes plásticas,
-escénicas y musicales.
-- Coordinar la programación artística a través de la Fundación Teatro Gayarre.
-- Promover el incremento del patrimonio artístico del Ayuntamiento.
-- Fomentar la promoción profesional de jóvenes artistas mediante la convocatoria de
-certámenes específicos.
-b) Educación
-- Mantenimiento y promoción de las instalaciones educativas: colegios públicos, escuela
-de música, etc.
-- Conservación, mantenimiento y vigilancia de los edificios destinados a colegios públicos.
-- Coordinación del uso de estas instalaciones fuera del horario escolar.
-- Desarrollo y promoción de programas educativos destinados a toda la población.
-- Promoción de actividades desarrolladas por los centros educativos y apoyo a la labor de
-las asociaciones de padres y madres (apymas) a través de las subvenciones o programas
-específicos.
-- Colaboración con las universidades.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Promoción de enseñanzas de música de régimen especial y gestión de la Escuela de
-Música Joaquín Maya.
-- Funciones derivadas de la adscripción a esta área del Organismo Autónomo de Escuelas
-Infantiles de Pamplona.
-c) Diversidad cultural:
-- Desarrollo de programas dirigidos a personas migrantes y no migrantes, con especial
-énfasis en aquellos que pueden promover su empoderamiento.
-- Establecer sinergias con los procesos participativos puntuales y territoriales.
-- Constituir el correspondiente Consejo Sectorial.
-8. ÁREA DE CIUDAD HABITABLE Y VIVIENDA
-Creación de la ciudad sobre el territorio, planificando y gestionando la ordenación urbana, de tal manera
-que se preserven los espacios naturales y los bienes del patrimonio histórico, cultural y artístico, se
-mejore la calidad del entorno urbano y se promueva una economía sostenible y la cohesión social.
-Contribución a garantizar la disposición de una vivienda digna y adecuada por toda la ciudadanía.
-Contratación y ejecución de las obras correspondientes a los proyectos de todas las áreas del
-Ayuntamiento con el fin de conseguir la máxima eficiencia en la utilización de los fondos públicos.
-Conservar y mantener adecuadamente el patrimonio e infraestructuras de la ciudad, de tal manera que los
-ciudadanos puedan disfrutar de los bienes públicos.
-a) Urbanismo, Vivienda y Rehabilitación:
-a.1. Urbanismo:
-- Servicio de planeamiento y gestión.
-- Planeamiento y ordenación urbana.
-- Desarrollo y gestión del planeamiento.
-- Servicio de disciplina urbanística.
-- Licencias urbanísticas.
-- Licencias de actividad.
-- Licencias de apertura.
-- Licencias de ocupación de vía pública relacionadas con obras.
-- Ruinas y patologías de la construcción.
-- Órdenes de ejecución y ejecuciones sustitutorias en materias propias de su competencia.
-- Control de legalidad de las materias anteriores.
-- Seguimiento y supervisión de las funciones asignadas anteriormente a este área y que se
-gestionen a través de organismos autónomos y empresas municipales.
-a.2. Vivienda y Rehabilitación:
-- Crear la futura oficina de vivienda y fomentar una política de vivienda social en alquiler.
-- Procurar la mediación en los casos de desahucios.
-- Gestionar las viviendas de propiedad municipal al servicio de la ciudadanía.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Rehabilitación, mantenimiento y conservación de las viviendas municipales.
-- Coordinar todas las actuaciones en materia relacionada con la vivienda y la
-rehabilitación.
-- La enajenación de bienes municipales y el desarrollo de las expropiaciones necesarias
-para la instalación de ascensores en edificios residenciales.
-- Crear y actualizar el censo municipal de vivienda vacía.
-- Fomentar actuaciones para la puesta en alquiler de las viviendas vacías.
-- Colaborar en la Oficina de Mediación hipotecaria para familias afectadas en Iruña, en
-colaboración con su equivalente del Gobierno de Navarra.
-b) Proyectos, Obras y Conservación Urbana:
-b.1. Proyectos y Obras:
-- Realización de estudios y redacción de proyectos.
-- Ejecución de obras tanto de edificación como de urbanización.
-- Promoción para la concesión y seguimiento de la ejecución de aparcamientos hasta su
-entrada en funcionamiento.
-- Ejecución de obras y proyectos de rehabilitación y restauración del patrimonio e
-infraestructuras de la ciudad, de tal manera que la ciudadanía pueda disfrutar de los
-bienes públicos.
-- Colaborar con las Áreas de Ecología Urbana y Movilidad y el Área de Seguridad
-Ciudadana y Convivencia en el diseño y ejecución de las transformaciones físicas
-derivadas de una política de movilidad sostenible (carriles bus, carriles bici, itinerarios
-peatonales…).
-- Eliminación de barreras arquitectónicas mejorando la accesibilidad de los diferentes
-modos de transporte.
-- Impulsar un “Plan de Paisaje de Pamplona”, priorizando la intervención en el entorno del
-conjunto amurallado.
-b.2. Conservación urbana:
-- Ejecución de obras de conservación y mantenimiento (vías públicas, jardines, murallas,
-mobiliario urbano, edificios, ascensores y calefacción). Se realizará un plan de
-publificación de servicios.
-- Control de las contrataciones de mantenimiento.
-- Parque móvil.
-- Alumbrado público (conservación y mantenimiento).
-- Limpieza urbana.
-- Parque almacén.
-- Gastos de consumo de agua, tasas de basuras, agua de riego y acometidas y consumo de
-electricidad.
-- Seguimiento de la concesión y control de la explotación de aparcamientos.
-- Ejecución y mantenimiento de zanjas.
-- Vados.
-- Seguimiento y control previo y posterior a la adjudicación de las cesiones de uso de
-plazas de aparcamientos en régimen de concesión administrativa y seguimiento de la
-concesión administrativa de la Estación de Autobuses.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-9. ÁREA DE ECOLOGÍA URBANA Y MOVILIDAD
-Mantenimiento de un entorno saludable para la población de la ciudad, utilizando los recursos sanitarios,
-de higiene y de inspección. Impulso de un modelo de ciudad sostenible que tenga su reflejo tanto en las
-actuaciones, patrimonio y recursos del ayuntamiento como en la propia ciudad en su conjunto. Creación e
-impulso de un departamento específico de movilidad sostenible que facilite, tanto desde una perspectiva
-normativa como de intervención urbana, el desplazamiento sostenible y eficaz de la ciudadanía,
-priorizando los desplazamientos a pie, en transporte urbano o en bici frente al transporte privado
-motorizado. Fomento de la autosuficiencia energética a nivel municipal con criterios de eficiencia y
-sostenibilidad.
-a) Servicios sanitarios y de promoción de la salud:
-- Inspección de medio ambiente (agua, contaminación atmosférica, ruido...).
-- Inspección alimentaria (elaboración, venta y consumo).
-- Zoonosis (control de población de animales y sus enfermedades).
-- Epidemiología (encuestas de salud, toxiinfecciones alimentarias, educación para la
-salud).
-- Parque de desinfección, desinsectación y desratización.
-- Aseos públicos.
-- Casas de baños.
-- Recogida específica.
-- Laboratorio (análisis químico y microbiológico).
-- Cementerio.
-b) Servicio de Ecología Urbana:
-- Promover la sostenibilidad en la ciudad y en el Ayuntamiento.
-- Crear una red de pasillos ecológicos que integren la naturaleza dentro de la ciudad
-existente.
-- Proteger la biodiversidad urbana y contribuir a conservar el patrimonio natural de la
-ciudad, así como velar por los derechos de los animales.
-- Iniciar un proceso de inmersión en la sostenibilidad a través de una Agenda 21
-participativa y accesible que influya en todas las normas y presupuestos municipales.
-- Incorporar criterios de sostenibilidad en todos los contratos municipales y en la gestión
-de los servicios públicos.
-- Luchar contra la pobreza energética.
-- Impulsar y apoyar el desarrollo de la red de puntos de compostaje comunitario.
-- Desarrollar y gestionar una red de huertos urbanos comunitarios.
-- Impulsar y realizar programas de educación ambiental dirigidos a toda la ciudadanía,
-tanto a menores a través de los centros escolares como a personas adultas, utilizando el
-Museo de Medio Ambiente u otras herramientas.
-d) Movilidad:
-- Hacer el seguimiento de la movilidad en la ciudad, elaborar o encargar estudios
-específicos y diseñar propuestas de actuación.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Diseñar la movilidad, en colaboración con el Área de Ciudad Habitable y Vivienda, el
-Área de Seguridad Ciudadana y Convivencia, y con la MCP, y planificar la formación y
-difusión de este nuevo modelo.
-- Liderar las modificaciones normativas necesarias (Ordenanza de Tráfico) e impulsar las
-que no sean de competencia municipal exclusiva (PMUS).
-- Promover la capacidad de decisión de los consejos ciudadanos, del consejo de ciudad y
-del Observatorio de la Movilidad Sostenible sobre intervenciones que afecten a la
-movilidad.
-- Promover la pacificación del tráfico rodado y el uso de la bicicleta, usando para ello las
-herramientas normativas, patrimoniales y tributarias del ayuntamiento.
-- Extender el plan de educación ambiental del Servicio de Ecología Urbana para que
-incorpore la movilidad sostenible.
-- Estudiar la viabilidad del servicio EnBici y reformular el proyecto integrándolo en un
-plan de movilidad urbana más amplio.
-- Promover la creación de Caminos Escolares Seguros en colaboración con los centros
-escolares.
-- Estudiar la red actual de carriles bici y promover modificaciones en coordinación con la
-MCP y las Áreas de Ciudad Habitable y Vivienda, y de Seguridad Ciudadana y
-Convivencia.
-- Paseos peatonales que enlacen de manera segura y agradable los distintos barrios de
-Iruña, enlazando con los pueblos colindantes.
-- La concesión del dominio público de los soportes de información y publicidad.
-- Promover la eficiencia energética tanto a nivel municipal y como a nivel ciudadano.
-Controlar los consumos energéticos municipales y participar en todas las iniciativas del
-Ayuntamiento que estén relacionadas (contratos de suministro energético, mantenimiento
-de edificios, proyectos de nuevos edificios...). En coordinación con el Área de Ciudad
-Habitable y Vivienda.
-- Modificar la normativa municipal -y promoverlo a escala autonómica- de cara a permitir
-la autoproducción energética, facilitando (fiscal y financieramente) los modelos de
-autoconsumo energético.
-- Iniciar el estudio para la contratación de la energía con cooperativas de productores de
-renovables.
-- Objetivo específico: crear una Comercializadora Municipal de la Energía con las
-siguientes funciones:
-- Gestionar la instalación fotovoltaica actual y procurar su extensión, usando el patrimonio
-a disposición del Ayuntamiento.
-- Facilitar la instalación de energía verde por parte de ciudadanos y agentes sociales
-(asesoría energética).
-- Promover activamente la vinculación en red de los nuevos productores, propiciando la
-creación de una cooperativa de pequeños productores amparada jurídicamente por el
-Ayuntamiento.
-- Reinvertir parte los ingresos generados por la futura comercializadora en programas para
-paliar la pobreza energética.
-10. ÁREA DE ECONOMÍA LOCAL SOSTENIBLE
-Gestiona el adecuado desarrollo de la función pública, dirigiendo además los instrumentos de población y
-de tramitación de procedimientos. Además, desde este Área se articulará la búsqueda de la mayor eficacia
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-en la gestión de los recursos municipales. Impulso de la economía local desde una perspectiva sostenible
-con especial incidencia en el sector de la economía social y solidaria y el comercio local, así como la
-potenciación del turismo.
-a) Recursos humanos:
-- Plantilla orgánica.
-- Contratos laborales y administrativos.
-- Relaciones con los órganos de representación sindical.
-- Prevención de riesgos laborales.
-- Inspección médica laboral.
-- Nóminas.
-- Conserjería.
-- Actas.
-- Ejecución de las labores que la Ley Electoral asigna a los ayuntamientos en los procesos
-electorales.
-b) Hacienda, Economía Social, Empleo, Comercio y Turismo:
-b.1. Hacienda:
-- Proyectos y estudios presupuestarios.
-- Estudios tributarios.
-- Análisis de inversiones.
-- Recursos económicos.
-- Tesorería.
-- Arrendamientos.
-- Seguros.
-- Financiación.
-- Intervención.
-- Liquidación de tributos.
-- Recaudación.
-- Contabilidad.
-- Patrimonio.
-- Inventario.
-- Compras.
-- Gestión de subvenciones.
-b.2. Economía Social, Empleo, Comercio y Turismo:
-- Impulso a la economía social y solidaria.
-- Apoyo a proyectos de creación de nuevos empleos o empresas, programa de formación
-para la creación de nuevos empleos, plan de marketing de los mercados municipales.
-- Desarrollo de un plan de atractividad comercial que fomente la actividad comercial en
-todos los barrios.
-- Impulso, coordinación y ejecución de proyectos de colaboración con instituciones
-públicas y privadas a favor de la promoción del sector.
-- Campañas de dinamización, coordinación del comercio y el turismo, mejora de la
-información, promoción de la artesanía.
-- Desarrollo del Pacto Local por el empleo en el comercio urbano.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Impulsar un plan de dinamización del recinto fortificado.
-- Planificación e impulso de medidas para el fomento del turismo.
-- Coordinación de infraestructuras turísticas (centros de atracción turística, albergues, etc.).
-- Actuaciones promocionales de la oferta turística de Pamplona.
-- Fomento y promoción de la actividad ferial y congresual.
-- Abrir y potenciar el espacio urbano con fines turísticos.
-- Promoción del recinto fortificado como producto para el turismo cultural.
-- Organización de actividades y eventos cuya finalidad sea la promoción de la ciudad tanto
-en foros nacionales como internacionales.
-- Generar y apoyar eventos relacionados con la gastronomía a lo largo del año.
-- Ofrecer acogida a los peregrinos-as y generar actividad cultural y de ocio para captar la
-atracción del Camino de Santiago.
-11. ÁREA DE SEGURIDAD CIUDADANA Y CONVIVENCIA
-Protege el ejercicio de derechos y libertades y garantiza la seguridad ciudadana, velando por la
-convivencia pacífica y protegiendo a las personas y sus bienes de acuerdo con la Ley. De igual manera,
-persigue la prevención y minimización de las consecuencias de posibles situaciones de emergencia.
-a) Seguridad Ciudadana.
-- Colaborar con el Área de Ciudad Habitable y Vivienda en hacer un “Estudio sobre la
-Seguridad Ciudadana en Iruña” en el que se analicen las áreas seguras e inseguras, y se
-propongan medidas para mejorar éstas, bajo el principio de autoseguridad vecinal, en vez
-de necesitar más presencia policial y más “cámaras espías”, como es la tónica hasta la
-fecha.
-- Gestionar la disciplina de tráfico.
-- Gestionar la disciplina de espectáculos y actividades recreativas.
-- Gestionar la disciplina de civismo y otras ordenanzas.
-- Zona de estacionamiento limitado y restringido.
-- Hacer cumplir las ordenanzas y bandos.
-- Comprobación de licencias.
-- Inspecciones y apoyo al resto de áreas.
-- Gestionar el uso de la vía pública, incluso instalaciones como carpas e instalaciones
-eventuales, así como la autorización para su funcionamiento.
-- Ejecutar la regulación y control del tráfico.
-- Realizar las tareas relacionadas con la seguridad vial.
-- Controlar eventos y concentraciones.
-- Gestionar el servicio de grúa de retirada de vehículos.
-- Ejecutar atestados y auxilio de accidentes.
-- Realizar funciones de policía judicial.
-- Realizar tareas propias protección civil.
-- Apoyar a los servicios de ambulancias y bomberos.
-- Prevenir la delincuencia.
-- Tramitar las denuncias.
-- Atender la oficina de objetos perdidos.
-- Ejecutar la protección social en el ámbito policial.
-- Proteger a las autoridades municipales.
- Pza Consistorial s/n, 2º 31001 Pamplona● T 948 420110● F 948 420107● www.pamplona.es
- Udaletxe Plaza z/g, 2º 31001 Iruña
-
-Área de Alcaldía
-Administración de Alcaldía
-Alkatetzako Alorra
-Alkatetzako Administrazioa
-- Proteger los edificios municipales.
-- Mantener el retén.
-- Controlar las ferias, mercadillos y similares.
-- Planificar y ejecutar los planes de seguridad para la ciudad.
-- Cualquier otra competencia similar a las anteriores relacionada con la seguridad
-ciudadana y la protección civil.
-b) Mediación
-- Crear una oficina de mediación que ayude a resolver de forma no traumática problemas
-entre particulares o con la Administración.
-- Fomentar una nueva cultura menos penalista y más preventiva de la actuación policial.
-c) Movilidad
-- Ordenar y regular el uso del espacio público para garantizar la movilidad tanto de
-vehículos como de peatones.
-- Elaborar disposiciones y normas que regulen la circulación de vehículos, la señalización
-de tráfico y el estacionamiento y transporte de viajeros y mercancías en coordinación con
-el Área de Ecología Urbana y Movilidad.
-- Gestionar la regulación semafórica.
-- Dirigir y regular las actuaciones de ordenación del tráfico.
-- Señalización de la ciudad.
-- Conceder las autorizaciones especiales de estacionamiento para personas con movilidad
-reducida y cualesquiera otras en materia de movilidad cuya competencia no esté asignada
-a otros órganos.
-El presente Decreto surtirá efecto a partir del día siguiente a su aprobación, sin perjuicio de su
-publicación en el Boletín Oficial de Navarra. 
+A.- DIRECCIÓN DEL GABINETE DE ALCALDÍA.
+a.1) Gabinete de alcaldía:
+− Asesoría y asistencia al Alcalde.
+− Secretaría y agenda del Alcalde.
+− Dirección de los actos oficiales y conmemorativos de la ciudad.
+− Coordinación y supervisión de actuaciones de proyección externa.
+− Atención de las actividades desarrolladas por los órganos de gobierno, efectuando convocatorias.
+− Cuentas de Alcaldía.
+− Relaciones con otras instituciones.
+− Coordinación y supervisión del servicio de Protocolo.
+a.2) Servicio de protocolo:
+− Preparación y coordinación de los actos oficiales y conmemorativos de la ciudad.
+− Promover las relaciones del ayuntamiento con las ciudades hermanas e impulsar nuevos hermanamientos de interés para la ciudad.
+B.- DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL Y TRANSPARENCIA.
+b.1) Servicio de Comunicación y relación con los medios:
+− Traslación a la ciudadanía de la actividad municipal a través de medios propios o de los medios de comunicación existentes.
+− Coordinación y dinamización de las diferentes herramientas de comunicación de las que disponga el Ayuntamiento, así como el personal municipal dedicado a esta labor.
+b.2) Proyección Institucional:
+− Elaboración y seguimiento del Plan de Comunicación Institucional Estratégica.
+− Creación de la Marca Pamplona-Iruña como identidad propia de la ciudad.
+− Diseño general de los soportes de publicidad institucional.
+− En colaboración con el servicio de protocolo organización de actividades y eventos cuya finalidad sea la promoción de la ciudad tanto en foros nacionales como internacionales.
+− En colaboración con el servicio de protocolo organización, impulso y puesta en valor del Privilegio de la Unión como hecho identificativo de la ciudad, de su idiosincrasia y de su identidad basada en la superación de conflicto y el impulso del entendimiento.
+b.3) Transparencia:
+− Promoción e impulso de las políticas de transparencia y acceso a la información pública.
+− Coordinar y supervisar las tareas relativas a la gestión de la información y estructura de la Intranet, la web municipal y la sede electrónica. Definir los contenidos mínimos que deben estar publicados, con especial mención a los indicadores de resultados y transparencia.
+C.- GERENCIA MUNICIPAL.
+c.1) Coordinación técnica de la administración:
+− Relaciones del Ayuntamiento con ANIMSA.
+− Relaciones con el Defensor del Pueblo y con la Cámara de Comptos.
+− Coordinación del funcionamiento de las distintas Áreas municipales, incrementando la eficiencia y la capacidad real de gestión municipal.
+− Proposición de los planes de actuación y ejecución de los objetivos del Ayuntamiento, y asignar los recursos necesarios para su ejecución, de acuerdo con las normas presupuestarias correspondientes.
+− Seguimiento del cumplimiento de los compromisos e indicadores que ha asumido el Ayuntamiento.
+− Promoción y supervisión del cumplimiento de todas las actuaciones de búsqueda de la calidad de los servicios municipales.
+− Evaluación de los programas de actuaciones, formulando las propuestas de reforma o supresión que fueran necesarias.
+− Propuesta de asignación de recursos anuales, en los presupuestos, a cada una de las Áreas.
+− Propuesta a los órganos de gobierno de los asuntos que les correspondan en el ámbito de sus competencias.
+− Propuesta a la Junta de Gobierno de la aprobación de los proyectos de disposiciones de carácter general y las demás propuestas que correspondan en el ámbito de sus competencias.
+− Propuesta al Alcalde de la aprobación de los proyectos de organización y estructura de la Gerencia.
+− Emisión, en su caso, de informe sobre las modificaciones organizativas, incluidos los proyectos de organización y estructura de cada departamento o Área.
+− Implementación de nuevas aplicaciones informáticas que mejoren la relación con la ciudadanía.
+− Impulso de la administración electrónica.
+− Las Memorias municipales.
+c.2) Administración electrónica y atención ciudadana.:
+− Ordenar y tutorizar la implantación mejora de la administración electrónica y las relaciones del Ayuntamiento con ANIMSA. Implementación de nuevas aplicaciones informáticas que mejoren la relación con la ciudadanía.
+− Coordinación y desarrollo de la estrategia Smart City para la innovación tecnológica aplicada, junto con el resto de áreas del Ayuntamiento y fomentando la colaboración con el Instituto SmartCities de la Universidad Pública de Navarra y otros centros universitarios, así como instituciones públicas y empresas del sector.
+− ANIMSA (empresa pública de informática).
+− Relaciones con la ciudadanía (010).
+− Registro general y oficinas de asistencia en materia de registro.
+− Padrón.
+− Oficina de enlaces civiles.
+− Servicio de atención a la ciudadanía.
+c.3) Política general del ayuntamiento y del sector público institucional municipal:
+− Fijar la política general en relación al ayuntamiento y al sector público institucional municipal en materias, entre otras y en coordinación con las áreas municipales, sobre contratación, transparencia, cumplimiento de la legislación de protección de datos e implementación del plan director del documento electrónico aprobado por el Ayuntamiento de Pamplona.
+− Dar las instrucciones generales que se requieran para que el sector público institucional municipal cumpla con toda la legislación que le resulte aplicable.
+c.4) Dirección y coordinación del servicio de Transparencia.
+− Coordinar y supervisar el modelo de transparencia del Ayuntamiento, protección de datos y derecho de acceso a la información, en cumplimiento de la Ley Foral 5/2018, de 17 de mayo, de transparencia, acceso a la información pública y buen gobierno, de la Ley 19/2013, de 9 de diciembre, de Transparencia, Acceso a la Información Pública y Buen Gobierno, y demás normativa de aplicación.
+c.5) Archivo municipal.
+D.- DIRECCIÓN DE LA ASESORIA JURIDICA.
+d.1) Asesoría jurídica.
+Ejercerá las funciones atribuidas por la Ley Reguladora de las Bases de Régimen Local: asistencia y asesoramiento jurídico al Alcalde, a la Junta de Gobierno Local y a los órganos directivos. En el ejercicio de sus funciones emitirá las instrucciones y órdenes de servicio que fueran necesarias. Dependiendo directamente de la Dirección de la Asesoría Jurídica, el Titular del Órgano de Apoyo a la Junta de Gobierno ejercerá las funciones atribuidas por la Ley Reguladora de las Bases de Régimen Local y las de asesoramiento legal y defensa en juicio que se le encomienden.
+3.2 CONCEJALÍA DELEGADA DE HACIENDA, CONTRATACIÓN PÚBLICA RESPONSABLE Y RECURSOS HUMANOS.
+Gestión del adecuado desarrollo de la función pública, dirigiendo además los instrumentos de población y de tramitación de procedimientos. Desde esta concejalía se articulará la búsqueda de la mayor eficacia en la gestión de los recursos municipales.
+ÁREA DE HACIENDA Y CONTRATACIÓN PÚBLICA RESPONSABLE.
+A.- HACIENDA:
+− Proyectos y estudios presupuestarios.
+− Estudios tributarios.
+− Análisis de inversiones.
+− Recursos económicos.
+− Tesorería.
+− Arrendamientos.
+− Seguros.
+− Financiación.
+− Intervención.
+− Liquidación de tributos.
+− Recaudación.
+− Contabilidad.
+− Patrimonio.
+− Inventario.
+− Compras.
+− Gestión de subvenciones.
+B.- CONTRATACIÓN PÚBLICA:
+− En colaboración con Gerencia, diseño y coordinación de la política general de Contratación Pública del Ayuntamiento y del sector público institucional municipal.
+− Adaptación de los pliegos generales de contratación al nuevo marco jurídico derivado del cuarto paquete de Directivas del 2014, especial de la Directiva 2014/24/UE, de Contratos del Sector Público, y los que en el futuro se aprueben.
+− Orientación de la contratación pública con carácter estratégico para coadyuvar al logro de los objetivos de desarrollo socialmente responsable, ambientalmente sostenible e innovador, establecidos por la Estrategia Europa 2020.
+− Fomento de la compra pública verde, socialmente responsable e innovadora mediante la incorporación de cláusulas sociales, ambientales y de innovación a los pliegos de contratación. Encargada de la Oficina de Contratación Pública Responsable.
+ÁREA DE RECURSOS HUMANOS.
+RECURSOS HUMANOS:
+− Plantilla orgánica.
+− Empleo público.
+− Desarrollo de los Recursos Humanos.
+− Relaciones con los órganos de representación sindical.
+− Prevención de riesgos laborales.
+− Inspección médica laboral.
+− Contratos laborales y administrativos.
+− Nóminas.
+− Conserjería.
+− Actas.
+− Ejecución de las labores que la Ley Electoral asigna a los ayuntamientos en los procesos electorales.
+3.3 CONCEJALÍA DELEGADA DE GOBIERNO ESTRATÉGICO, URBANISMO, VIVIENDA Y AGENDA 2030.
+Creación de la ciudad sobre el territorio, planificando y gestionando la ordenación urbana, facilitando el acceso a la vivienda digna, mejorando los espacios naturales, preservando el patrimonio histórico y procurando un entorno urbano y social saludable mediante los recursos sanitarios, de higiene y de inspección.
+ÁREA DE GOBIERNO ESTRATÉGICO, URBANISMO, VIVIENDA Y AGENDA 2030.
+A.- PLANIFICACIÓN ESTRATÉGICA/AGENDA 2030:
+− Diseño de un planeamiento estratégico de ciudad.
+− Dirección de la Oficina Estratégica
+− Desarrollo del Plan Estratégico 20-30.
+− Coordinar la implementación de la Agenda urbana 2030.
+− Diseño, elaboración, gestión, seguimiento, evaluación y coordinación de un plan estratégico municipal a largo plazo, que contemple un Plan de Ciudad y un Plan de Barrios. Elaboración de estudios y análisis estratégicos.
+− Captación de financiación regional, estatal y europea para el desarrollo y puesta en marcha de proyectos vinculados al plan estratégico municipal y al resto de planes y estrategias sectoriales municipales.
+− Preparación de candidaturas y asesoramiento técnico para concurrir a las convocatorias de ayudas, y coordinación, gestión y control de los proyectos municipales cofinanciados por la Unión Europea.
+− Impulso, gestión y coordinación de estrategias, planes, programas y proyectos municipales transversales, cuyo ámbito afecte a varias áreas municipales y no corresponda a la competencia atribuida a una de ellas, como el Observatorio de Ciudad, el plan de gestión municipal, el Sistema de Información Geográfico Municipal, el desarrollo de la política agroalimentaria, la política de mitigación o la adaptación al cambio climático.
+− Realizar análisis de prospección sociológica sobre la realidad social de la Ciudad y sus transformaciones como forma de mejora en la toma de decisiones.
+− Diseño, gestión y desarrollo de proyectos de innovación en la ciudad y en la gestión municipal.
+− Gestión y coordinación de la participación del Ayuntamiento de Pamplona en redes y asociaciones de municipios.
+− Prestar apoyo técnico a otras áreas municipales para definir proyectos y para la realización de estudios o análisis aportando una visión integral y un enfoque transversal y estratégico.
+− Responsabilidad en la ejecución de los proyectos que inciden sobre varias áreas.
+− Sociología.
+B.- PLANEAMIENTO URBANÍSTICO Y VIVIENDA:
+− Funciones derivadas de la adscripción a esta área del Organismo Autónomo de la Gerencia de Urbanismo.
+− Servicio de planeamiento y gestión urbanísticas.
+− Planeamiento y ordenación urbana.
+− Desarrollo y gestión del planeamiento.
+− Gestión del suelo municipal y la política de vivienda.
+C.- REGENERACIÓN URBANA Y REHABILITACIÓN DE VIVIENDAS:
+− Fomentar una política de rehabilitación de viviendas y edificios.
+− Coordinar todas las actuaciones en materia relacionada con la rehabilitación
+− Gestionar las viviendas de propiedad municipal al servicio de la ciudadanía.
+− Rehabilitación, mantenimiento y conservación de las viviendas municipales.
+− Desarrollo de las expropiaciones necesarias para la instalación de ascensores en edificios residenciales.
+− Fomentar actuaciones para la puesta en alquiler de las viviendas vacías.
+− Funciones derivadas de la adscripción a esta área de Pamplona Centro Histórico, Iruña Biziberritzen S.A.
+D.- LICENCIAS Y DISCIPLINA URBANÍSTICA:
+− Licencias urbanísticas.
+− Licencias de actividad.
+− Licencias de apertura.
+− Licencias de ocupación de vía pública relacionadas con obras.
+− Recepción, gestión y control de actos sujetos a declaración responsable o comunicación previa urbanísticos.
+− Ruinas y patologías de la construcción.
+− Órdenes de ejecución y ejecuciones sustitutorias en materias propias de su competencia.
+− Servicio de disciplina urbanística y control de la legalidad de las materias anteriores.
+E.- AGENCIA ENERGÉTICA:
+− Promover la eficiencia energética tanto a nivel municipal y como a nivel ciudadano.
+− Controlar los consumos energéticos municipales y participar en todas las iniciativas del Ayuntamiento que estén relacionadas, como contratos de suministro energético, mantenimiento de edificios o proyectos de nuevos edificios.
+− Facilitar la instalación de energía verde por parte de la ciudadanía y agentes sociales (asesoría energética).
+− Funciones derivadas de la adscripción a esta área de la Agencia Energética.
+F.- MEDIOAMBIENTE:
+− Promover una conciencia medioambiental activa entre la ciudadanía y en la propia administración municipal.
+− Fomentar el conocimiento de la riqueza medioambiental de Pamplona y su diversidad.
+− Crear una red de pasillos ecológicos que integren la naturaleza dentro de la ciudad existente.
+− Proteger la biodiversidad urbana y contribuir a conservar el patrimonio natural de la ciudad.
+− Incorporar criterios de sostenibilidad en los contratos municipales y en la gestión de los servicios públicos.
+− Impulsar y apoyar el desarrollo de la red de puntos de compostaje comunitario.
+− Desarrollar y gestionar una red de huertos urbanos comunitarios.
+− Impulsar y realizar programas de educación ambiental dirigidos a toda la ciudadanía, tanto a menores a través de los centros escolares como a personas adultas, utilizando el Museo de Medio Ambiente u otras herramientas.
+3.4 CONCEJALÍA DELEGADA DE CULTURA, FIESTAS Y DEPORTE.
+ÁREA DE CULTURA, FIESTAS Y DEPORTE.
+A.- CULTURA Y FIESTAS:
+− Fomentar la vitalidad cultural de Pamplona creando infraestructuras y programando producciones de calidad.
+− Promover y difundir la cultura.
+− Crear equipamientos culturales y dinamizar la participación social.
+− Abrir y potenciar el espacio urbano con fines culturales.
+− Promocionar las bibliotecas públicas y fomentar la lectura.
+− Editar publicaciones municipales de carácter científico y divulgativo.
+− Potenciar e impulsar la actividad cultural de colectivos profesionales.
+− Potenciar las iniciativas, el funcionamiento y la participación de organismos y entidades culturales ciudadanas.
+− Desarrollar las actividades socioculturales propias de la ciudad, como los Sanfermines y sus actos tradicionales.
+− Promover la actividad cultural en la lengua vasca.
+− Promover y desarrollar los programas de actividades en la red de Civivox.
+− Fomentar la creatividad y difundir las expresiones contemporáneas de las artes plásticas, escénicas y musicales.
+− Coordinar la programación artística a través de la Fundación Teatro Gayarre y las funciones derivadas de la adscripción a esta área de esta fundación.
+− Promover el incremento del patrimonio artístico del Ayuntamiento.
+− Fomentar la promoción profesional de jóvenes artistas mediante la convocatoria de certámenes específicos.
+B.- DEPORTE:
+− Mantenimiento y promoción de instalaciones deportivas municipales.
+− Promoción y puesta en marcha de proyectos que favorezcan la actividad física de los diversos sectores de población.
+− Desarrollo de programas deportivos y espectáculos.
+− Colaboraciones con entidades deportivas.
+− Fomento de eventos deportivos
+3.5 CONCEJALIA DELEGADA DE SEGURIDAD Y CONVIVENCIA CIUDADANA.
+Protección del ejercicio de derechos y libertades, garantizando la seguridad ciudadana, velando por la convivencia pacífica y protegiendo a las personas y sus bienes de acuerdo con la Ley. De igual manera, prevención y minimización de las consecuencias de posibles situaciones de emergencia.
+ÁREA DE SEGURIDAD Y CONVIVENCIA CIUDADANA.
+A.- SEGURIDAD CIUDADANA.
+− Gestionar la disciplina de tráfico.
+− Gestionar la disciplina de espectáculos y actividades recreativas.
+− Gestionar la disciplina de civismo y otras ordenanzas.
+− Zona de estacionamiento limitado y restringido.
+− Hacer cumplir las ordenanzas y bandos.
+− Comprobación de licencias.
+− Inspecciones y apoyo al resto de áreas.
+− Gestionar el uso de la vía pública, incluso instalaciones como carpas e instalaciones eventuales, así como la autorización para su funcionamiento.
+− Ejecutar la regulación y control del tráfico.
+− Realizar las tareas relacionadas con la seguridad vial.
+− Controlar eventos y concentraciones.
+− Gestionar el servicio de grúa de retirada de vehículos.
+− Ejecutar atestados y auxilio de accidentes.
+− Realizar funciones de policía judicial.
+− Realizar tareas propias protección civil.
+− Apoyar a los servicios de ambulancias y bomberos.
+− Prevenir la delincuencia.
+− Tramitar las denuncias.
+− Atender la oficina de objetos perdidos.
+− Ejecutar la protección social en el ámbito policial.
+− Proteger a las autoridades municipales.
+− Proteger los edificios municipales.
+− Mantener el retén.
+− Controlar las ferias, mercadillos y similares.
+− Planificar y ejecutar los planes de seguridad para la ciudad.
+− Cualquier otra competencia similar a las anteriores relacionada con la seguridad ciudadana y la protección civil.
+− Ordenar y regular el uso del espacio público para garantizar la movilidad tanto de vehículos como de peatones.
+− Elaborar disposiciones y normas que regulen la circulación de vehículos, la señalización de tráfico y el estacionamiento y transporte de viajeros y mercancías.
+− Gestionar la regulación semafórica.
+− Dirigir y regular las actuaciones de ordenación del tráfico.
+− Señalización de la ciudad.
+− Conceder las autorizaciones especiales de estacionamiento para personas con movilidad reducida y cualesquiera otras en materia de movilidad cuya competencia no esté asignada a otros órganos.
+B.- OFICINA DE MEDIACION Y CONVIVENCIA:
+− Se pondrá en funcionamiento con el objetivo de ejercer como instrumento de mediación y favorecedor de la convivencia vecinal ante conflictos. La gestión de esta oficina estará vinculada a los y las agentes asignadas a la policía comunitaria de base y la filosofía con la que se trabajará estará vinculada al concepto de policía de prevención frente a la de intervención. En cuanto al funcionamiento práctico de esta oficina, estará vinculada a los recursos del área de seguridad y convivencia ciudadana con apoyo externo en los casos en los que la realidad así lo exija.
+3.6 CONCEJALÍA DELEGADA DE IGUALDAD, ACCIÓN COMUNITARIA, BARRIOS, Y DIVERSIDAD CULTURAL.
+ÁREA DE IGUALDAD, ACCIÓN COMUNITARIA, BARRIOS Y DIVERSIDAD CULTURAL.
+A.- IGUALDAD:
+− Implantación y desarrollo de la Ordenanza de Igualdad.
+− Sensibilización a la ciudadanía residente en su ámbito territorial sobre la situación de desigualdad entre mujeres y hombres y sobre las medidas necesarias para promover la igualdad.
+− Impulso y propuesta para la adaptación y creación por parte de su respectiva Administración de programas y servicios específicos dirigidos a garantizar el acceso a los derechos sociales básicos de las mujeres que sufren discriminación múltiple.
+− Impulso y propuesta para la creación y adecuación de recursos tendentes a favorecer la corresponsabilidad.
+− Detección de las posibles situaciones de discriminación existentes en el ámbito territorial y diseño e impulso de medidas para su erradicación.
+− Establecimiento de relaciones y cauces de participación y colaboración con entidades públicas y privadas que en razón de sus fines o funciones contribuyan a la consecución de la igualdad de mujeres y hombres.
+− Interlocución con entidades, órganos y unidades competentes en materia de Igualdad de mujeres y hombres, y en especial con el Instituto Navarro para la Igualdad.
+− Gestión y dinamización del Centro Compañía.
+− Casa de las Mujeres de Pamplona.
+− Reparto de ayudas a entidades que fomenten la Igualdad.
+− Actividades de divulgación y sensibilización: programas de actos en torno al 8 de marzo, Día Internacional de la Mujer, y el 25 de noviembre, Día Internacional para la Eliminación de la violencia contra las Mujeres.
+− Servicio de información, asesoramiento y apoyo en materia LGTBI.
+− Desarrollo de programas dirigidos a la población LGTBI.
+B.- ACCIÓN COMUNITARIA:
+− Coordinación y dinamización del Proyecto de Acción Comunitaria en los diferentes barrios de la ciudad.
+− Desarrollar actuaciones comunitarias en colaboración con agentes sociales e instituciones,
+− Gestión y mantenimiento de los Centros Comunitarios de Iniciativa Social (CCIS).
+− Gestión del Servicio de Acción Preventiva Comunitaria que se desarrolla en los barrios.
+− Programas de apoyo a la infancia y familia. Prevención, detección e intervención en las situaciones de riesgo o desprotección de los/as menores, así como de conflicto social.
+C.- PERSONAS MAYORES:
+− Desarrollar estrategias para impulsar a la ciudad como referente en “economía del envejecimiento” como un ámbito en el que Pamplona puede ser competitiva.
+− Favorecer la independencia y autonomía personal, para que las personas mayores permanezcan en su entorno habitual.
+− Proponer medidas para mejorar el cuidado de personas mayores y su participación activa en interés de Pamplona.
+− Favorecer la participación activa de todas las personas mayores actuando como interlocutor ante las distintas administraciones, fomentando el asociacionismo y prestando la ayuda técnica que precisen.
+− Impulsar y fomentar el voluntariado dirigido a los mayores y la solidaridad intergeneracional.
+− Desarrollar, promover y mejorar el programa municipal “Pamplona te Cuida” con prestaciones y servicios municipales para mayores de 65 años.
+− Impulsar proyectos dentro del marco del programa “Ciudad Amigable con las Personas Mayores”.
+− Gestión de las redes y o pactos de mayores de cada barrio de la ciudad.
+− Realizar acciones de apoyo y cuidado a las personas que cuidan.
+− Desarrollar acciones que repercutan en el bienestar físico, mental y psicosocial de las personas mayores.
+D.- DIVERSIDAD CULTURAL:
+− Desarrollo e impulso del primer Plan de diversidad cultural y ciudadanía inclusiva.
+− Fomento y realización de la diversidad cultural existente en nuestra ciudad.
+− Realización de acciones de visibilización de la diversidad cultural y promoción de la convivencia entre valores culturales diferentes.
+E.- BARRIOS:
+− Trabajar por la cohesión entre barrios, así como el equilibrio dotacional entre los mismos.
+F.- INFANCIA.
+− Servicio de Infancia, adolescencia y familia.
+− Acción preventiva de situaciones de vulnerabilidad y conflicto social de infancia y adolescencia.
+− Seguimiento y desarrollo del Plan de infancia.
+− Desarrollo de la capacidad de decisión y la participación crítica de la infancia y adolescencia.
+− Impulso y mejora del acceso a servicios integrales y equitativos.
+− Pamplona “Ciudad amiga de la infancia”.
+− Impulso de parentalidad positiva.
+3.7 CONCEJALÍA DELEGADA DE CIUDAD HABITABLE Y SOSTENIBLE.
+ÁREA DE PROYECTOS ESTRATEGICOS Y MOVILIDAD.
+A.- PROYECTOS ESTRATÉGICOS:
+− Realización de estudios y redacción de proyectos.
+− Ejecución de obras tanto de edificación como de urbanización.
+− Promoción para la concesión y seguimiento de la ejecución de aparcamientos hasta su entrada en funcionamiento.
+− Ejecución de obras y proyectos de rehabilitación y restauración del patrimonio e infraestructuras de la ciudad.
+− Eliminación de barreras arquitectónicas mejorando la accesibilidad de los diferentes modos de transporte.
+− Impulsar un plan de infraestructuras estratégicas para el futuro de Pamplona.
+− Ejecución de obras de conservación y mantenimiento de las murallas.
+B.- MOVILIDAD:
+− A través de la Unidad Responsable de Accesibilidad y del Servicio de Movilidad, liderar con el resto de áreas implicadas, la adopción de las medidas necesarias para asegurar la accesibilidad universal e integral en la ciudad de Pamplona, así como el diseño y ejecución de las transformaciones físicas derivadas de una política de movilidad sostenible.
+− Desarrollar un plan de recorridos peatonales entre los barrios y con la Comarca, con especial atención en la eliminación de barreras arquitectónicas y favoreciendo la interrelación de los diferentes modos de transporte.
+− Seguir desarrollando el Pacto de Movilidad Sostenible
+− Evaluar la movilidad en la ciudad, desarrollando o encargando estudios específicos y diseñando propuestas de actuación.
+− Promover el uso de modos de movilidad urbana sostenible.
+− Promover la creación de Caminos Escolares Seguros en colaboración con los centros escolares.
+− Analizar y ampliar la red actual de carriles bici.
+− Impulsar una red de carga de vehículos eléctricos.
+− Impulsar y colaborar en todos los trabajos relacionados con la movilidad y en concreto la concesión del dominio público de los soportes de información y publicidad.
+ÁREA DE CONSERVACION URBANA Y SANIDAD.
+A.- CONSERVACIÓN URBANA:
+− Ejecución de obras de conservación y mantenimiento (vías públicas, jardines, mobiliario urbano, edificios y ascensores).
+− Control de las contrataciones de mantenimiento.
+− Parque móvil.
+− Alumbrado público (conservación y mantenimiento).
+− Limpieza urbana.
+− Parque almacén.
+− Gastos de consumo de agua, tasas de basuras, agua de riego y acometidas y consumo de electricidad.
+− Seguimiento de la concesión y control de la explotación de aparcamientos.
+− Vados.
+− Seguimiento y control previo y posterior a la adjudicación de las cesiones de uso de plazas de aparcamientos en régimen de concesión administrativa y seguimiento de la concesión administrativa de la Estación de Autobuses.
+B.- SANIDAD:
+− Inspección de medio ambiente (agua, contaminación atmosférica, ruido...).
+− Inspección alimentaria (elaboración, venta y consumo).
+− Zoonosis (control de población de animales y sus enfermedades).
+− Epidemiología (encuestas de salud, toxiinfecciones alimentarias, educación para la salud).
+− Parque de desinfección, desinsectación y desratización.
+− Aseos públicos.
+− Casas de baños.
+− Recogida específica.
+− Laboratorio (análisis químico y microbiológico).
+− Cementerio.
+3.8 CONCEJALÍA DELEGADA DE ACCIÓN SOCIAL.
+Facilitar el acceso de la ciudadanía al sistema de servicios sociales municipales, ofreciendo una respuesta a sus necesidades con el fin de lograr una comunidad más solidaria, equilibrada e integrada socialmente.
+ÁREA DE ACCIÓN SOCIAL.
+- SERVICIOS SOCIALES:
+− Gestionar el acceso de la ciudadanía al sistema público de servicios sociales municipales,
+− Prevención y detección de situaciones de necesidad social que sufra o pueda sufrir la ciudadanía, así como su acogida al sistema de servicios sociales y orientación social, a través de las unidades de barrio.
+− Prevención de situaciones de dependencia, promoción de la autonomía personal y atención de personas con dificultades de autovalimiento o dependientes
+− Gestión del Servicio de atención domiciliaria (S.A.D.).
+− Acciones encaminadas a la incorporación social y laboral de las personas en situación de riesgo o exclusión social mediante el diseño itinerarios personalizados. Desarrollo de programas de formación y empleo que mejoren su empleabilidad y formalización de propuestas de empleo social protegido para su promoción sociolaboral.
+− Acciones encaminadas a luchar contra la pobreza y la exclusión social, especialmente aquellas dirigidas a afrontar situaciones de emergencia social.
+− Gestión de recursos habitacionales para personas que se encuentren en situación de vulnerabilidad social ya sea por emergencia social o por sus circunstancias socio-personales (Apartamentos para personas mayores, pisos para mujeres y sus hijos/as, servicio municipal de personas sin hogar…) y viviendas de emergencia social.
+− Convenios de colaboración con el Gobierno de Navarra para el desarrollo de programas de servicios sociales.
+− Captación de fuentes de financiación externa para el desarrollo de programas de servicios sociales.
+− Desarrollo de sistemas de información orientados al conocimiento de la realidad social y a la planificación y evaluación de los servicios prestados.
+− Lucha contra la pobreza energética.
+3.9 CONCEJALÍA DELEGADA DE PROMOCIÓN ECONÓMICA, PROYECCIÓN EUROPEA, INNOVACIÓN, JUVENTUD Y COOPERACIÓN AL DESARROLLO.
+ÁREA DE PROMOCIÓN ECONÓMICA, PROYECCIÓN EUROPEA, INNOVACIÓN, JUVENTUD Y COOPERACIÓN AL DESARROLLO.
+A.- COOPERACIÓN AL DESARROLLO:
+− Desarrollo de las políticas encaminadas a apoyar el desarrollo humano en comunidades de los países desfavorecidos.
+− Desarrollo de programas de cooperación al desarrollo y solidaridad internacional
+− Acciones humanitarias y de emergencia.
+− Promoción de actividades de educación y sensibilización en pro de la ciudadanía global y la solidaridad.
+B.- INNOVACIÓN:
+− Colaboración con Gerencia y Oficina Estratégica en la definición y ejecución de la política de innovación, de la estrategia Smart City para la innovación tecnológica aplicada y de la cooperación con agentes externos para el desarrollo de proyectos de innovación en los ámbitos propios de intervención del área.
+C.- JUVENTUD:
+− Mantenimiento y promoción de la Casa de la Juventud (cursos, asesoría, ciberaula, etc.).
+− Elaboración y desarrollo del III Plan Pamplona Joven.
+− Desarrollo de programas dirigidos a jóvenes.
+− Empleo joven: habilitar cauces para la incorporación al mundo laboral.
+− Apoyo a las iniciativas desarrolladas por la gente joven.
+− Promoción de actividades desarrolladas por entidades y asociaciones para la gente joven (subvenciones).
+D.- TURISMO:
+− Impulsar un plan de dinamización del recinto fortificado.
+− Planificación e impulso de medidas para el fomento del turismo.
+− Coordinación de infraestructuras turísticas (centros de atracción turística, albergues, etc.).
+− Actuaciones promocionales de la oferta turística de Pamplona.
+− Fomento y promoción de la actividad ferial y congresual.
+− Abrir y potenciar el espacio urbano con fines turísticos.
+− Promoción del recinto fortificado como producto para el turismo cultural.
+− Generar y apoyar eventos relacionados con la gastronomía a lo largo del año.
+− Ofrecer acogida a los peregrinos-as y generar actividad cultural y de ocio para captar la atracción del Camino de Santiago.
+E.- COMERCIO:
+− Apoyo a proyectos de creación de nuevos empleos o empresas, programa de formación para la creación de nuevos empleos, plan de marketing de los mercados municipales.
+− Desarrollo de un plan que fomente la actividad comercial en todos los barrios.
+− Impulso, coordinación y ejecución de proyectos de colaboración con instituciones públicas y privadas a favor de la promoción del sector.
+− Campañas de dinamización, coordinación del comercio y el turismo, mejora de la información, promoción de la artesanía.
+− Desarrollo del Pacto Local por el empleo en el comercio urbano.
+− Funciones derivadas de la adscripción a esta área de Mercairuña, S.A. y Comiruña.
+F- PROYECCIÓN EUROPEA
+− Relaciones nacionales e internacionales de carácter turístico y promocional.
+− Colaborar con Gabinete de Alcaldía en el establecimiento de relaciones con otras entidades y administraciones.
+− Colaborar en la coordinación y supervisión de actuaciones de proyección externa.
+− Colaboración en la promoción de las relaciones del ayuntamiento con las ciudades hermanas e impulsar nuevos hermanamientos de interés para la ciudad.
+3.10 CONCEJALÍA DELEGADA DE EDUCACIÓN, PARTICIPACIÓN CIUDADANA, Y EUSKERA
+ÁREA DE EDUCACIÓN, PARTICIPACIÓN CIUDADANA Y EUSKERA
+A.- EDUCACIÓN Y ESCUELAS INFANTILES:
+− Mantenimiento y promoción de las instalaciones educativas: colegios públicos, escuela de música, etc.
+− Conservación, mantenimiento y vigilancia de los edificios destinados a colegios públicos.
+− Coordinación del uso de estas instalaciones fuera del horario escolar.
+− Desarrollo y promoción de programas educativos destinados a toda la población.
+− Promoción de actividades desarrolladas por los centros educativos y apoyo a la labor de las asociaciones de padres y madres (apymas) a través de las subvenciones o programas específicos.
+− Fomento del conocimiento de la ciudad en la población escolar.
+− Colaboración con las universidades.
+− Promoción de enseñanzas de música de régimen especial y gestión de la Escuela de Música Joaquín Maya.
+− Funciones derivadas de la adscripción a esta área del Organismo Autónomo de Escuelas Infantiles de Pamplona.
+− Promoción de enseñanzas artísticas y gestión de la Escuela de Arte Catalina de Oscáriz.
+B.- PARTICIPACIÓN CIUDADANA:
+− Registro de asociaciones y entidades ciudadanas.
+− Gestión de subvenciones a entidades ciudadanas.
+− Resolución de solicitudes de participación en los órganos colegiados del Ayuntamiento.
+− Gestión del Centro de Asociaciones y de la Sala de Usos Múltiples de Calderería.
+− Desarrollo de los objetivos del Reglamento de Participación Ciudadana.
+− Constituir el Consejo Social de la Ciudad.
+− Apoyar a las asociaciones que realizan actividades dirigidas a todos los públicos que promueven la participación ciudadana.
+− Impulsar y fomentar los programas de promoción del voluntariado.
+− Formar a las asociaciones mediante cursos de nuevas tecnologías, contabilidad, búsqueda de subvenciones, etc.
+− Facilitar la creación de Foros y Consejos de barrio atendiendo a la realidad específica de cada barrio.
+− Promover y coordinar la participación online y las consultas ciudadanas.
+C.- EUSKERA:
+− Fomento del uso y aprendizaje del euskera.
+− Impulsar y fomentar los programas de promoción de matriculación del uso y el aprendizaje del euskera.
+− Servicio de euskera-traducción.
+El presente Decreto entrará en vigor el día 22 de enero de 2024 sin perjuicio de su publicación en el Boletín Oficial de Navarra.»
+Pamplona, 22 de enero de 2024. La Alcaldesa en funciones, Garbiñe Bueno Zabalza
