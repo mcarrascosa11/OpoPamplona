@@ -65,12 +65,12 @@ export default {
         "Art. 19: libertad de residencia y circulación por España; salida y entrada libre (límites por ley)",
         "Art. 20: expresión, producción y creación; información; PROHIBIDA la censura previa (20.2); secuestro de publicaciones SOLO por resolución judicial (20.5); límites: honor, intimidad, propia imagen, protección de juventud e infancia (20.4)",
         "Art. 21: reunión pacífica y sin armas; en lugares de tránsito público y manifestaciones: comunicación previa; solo prohibibles por razones fundadas de alteración del orden público con peligro para personas o bienes",
-        "Art. 22: asociación; ilícitas las secretas y de carácter paramilitar; disolución/suspensión SOLO por resolución judicial motivada",
+        "Art. 22: asociación; ILEGALES las que persigan fines o utilicen medios tipificados como delito; inscripción en registro a los solos efectos de publicidad; disolución/suspensión SOLO por resolución judicial motivada; PROHIBIDAS las secretas y las de carácter paramilitar",
         "Art. 23: participación en asuntos públicos directamente o por representantes; acceso en igualdad a funciones y cargos públicos",
         "Art. 24: tutela judicial efectiva; juez ordinario predeterminado por la ley; defensa y abogado; ser informado de la acusación; proceso público sin dilaciones indebidas; pruebas; no declarar contra sí mismo ni confesarse culpable; presunción de inocencia",
         "Art. 25: principio de legalidad penal y sancionador (nadie puede ser condenado o sancionado por acciones u omisiones que no fueran delito, falta o infracción administrativa según la legislación vigente en ese momento); las penas privativas de libertad se orientan a la reeducación y reinserción social; la Administración CIVIL no puede imponer sanciones que impliquen privación de libertad (25.3)",
         "Art. 26: prohibidos los Tribunales de Honor en el ámbito civil y profesional",
-        "Art. 27: educación; libertad de enseñanza; enseñanza BÁSICA obligatoria y gratuita; libertad de creación de centros; participación de profesores, padres y alumnos; autonomía universitaria",
+        "Art. 27: educación; libertad de enseñanza; enseñanza BÁSICA obligatoria y gratuita; libertad de creación de centros (personas físicas y jurídicas); profesores, padres y, en su caso, alumnos intervienen en el control y gestión de los centros sostenidos con fondos públicos; autonomía universitaria",
         "Art. 28: sindicación libre (nadie obligado a sindicarse); derecho de huelga; ley de servicios esenciales",
         "Art. 29: petición individual Y colectiva por escrito; miembros de FFAA/Institutos armados o cuerpos con disciplina militar: solo individualmente y conforme a su legislación específica",
       ],
@@ -82,8 +82,8 @@ export default {
       items: [
         "Art. 30: derecho y deber de defender España; la ley fija obligaciones militares, objeción de conciencia y causas de exención, pudiendo imponer prestación social sustitutoria",
         "Art. 31: sistema tributario justo inspirado en igualdad y progresividad; nunca alcance confiscatorio",
-        "Art. 32: matrimonio con igualdad de derechos y deberes de los cónyuges",
-        "Art. 33: propiedad privada y herencia; nadie privado de sus bienes sino por expropiación por utilidad pública o interés social MEDIANTE COMPENSACIÓN y conforme a leyes",
+        "Art. 32: el hombre y la mujer tienen derecho a contraer matrimonio con plena igualdad jurídica; la ley regula formas, edad y capacidad, derechos y deberes de los cónyuges, separación y disolución",
+        "Art. 33: propiedad privada y herencia; su función social delimita su contenido; nadie privado de sus bienes y derechos sino por causa justificada de utilidad pública o interés social, MEDIANTE LA CORRESPONDIENTE INDEMNIZACIÓN y de conformidad con las leyes",
         "Art. 34: fundación para fines de interés general con arreglo a la ley",
         "Art. 35: deber de trabajar y derecho al trabajo; libre elección de profesión u oficio; promoción a través del trabajo",
         "Art. 36: colegios profesionales (estructura democrática)",
@@ -236,7 +236,7 @@ export default {
         "Art. 139: igualdad de todos los españoles; libre circulación",
         "Art. 140: autonomía municipal; Alcaldes elegidos por los Concejales o por los vecinos",
         "Art. 141: provincia = entidad local con personalidad jurídica propia, agrupación de municipios y división territorial para actividades del Estado; alteración de límites por ley ORGÁNICA de las Cortes",
-        "Art. 141.2: gobierno y administración autónoma de provincias por Diputaciones u otras corporaciones representativas; las islas tienen Cabildos o Consejos",
+        "Art. 141.2-4: gobierno y administración autónoma de provincias por Diputaciones u otras Corporaciones de carácter representativo; se podrán crear agrupaciones de municipios diferentes de la provincia; en los archipiélagos, las islas tienen además administración propia (Cabildos o Consejos)",
         "Art. 142: haciendas locales con medios suficientes; tributos propios + participación en tributos del Estado y de las CCAA",
       ],
       tablas: [
@@ -296,4 +296,130 @@ export default {
     "Alcalde: elegido por concejales o vecinos (140)",
     "Hacienda local: tributos propios + participación estatal y autonómica (142)",
   ],
+  memorizacion: {
+    tablas: [
+      {
+        titulo: "Estructura de la Constitución (texto consolidado del BOE)",
+        columnas: ["Parte", "Rúbrica", "Artículos"],
+        filas: [
+          ["Preámbulo", "—", "—"],
+          ["Título Preliminar", "Sin rúbrica propia", "1-9"],
+          ["Título I", "De los derechos y deberes fundamentales", "10-55"],
+          ["Título II", "De la Corona", "56-65"],
+          ["Título III", "De las Cortes Generales", "66-96"],
+          ["Título IV", "Del Gobierno y de la Administración", "97-107"],
+          ["Título V", "De las relaciones entre el Gobierno y las Cortes Generales", "108-116"],
+          ["Título VI", "Del Poder Judicial", "117-127"],
+          ["Título VII", "Economía y Hacienda", "128-136"],
+          ["Título VIII", "De la Organización Territorial del Estado (cap. I principios generales 137-139; cap. II Administración Local 140-142; cap. III Comunidades Autónomas 143-158)", "137-158"],
+          ["Título IX", "Del Tribunal Constitucional", "159-165"],
+          ["Título X", "De la reforma constitucional", "166-169"],
+          ["Disposiciones", "4 adicionales, 9 transitorias, 1 derogatoria y 1 final", "—"]
+        ],
+        nota: "169 artículos en 11 títulos (Preliminar + I a X). Del programa entran solo el Preliminar, el Título I y los capítulos I y II del Título VIII. Reformas vigentes el 21-05-2026: art. 13.2 (1992), art. 135 (2011), art. 49 (2024) y art. 69.3 (Reforma de 19-05-2026, BOE de 20-05-2026, en vigor ese día). Las dos que tocan el programa (13.2 y 49) ya están en el texto del tema."
+      },
+      {
+        titulo: "Título I · capítulos, secciones y nivel de protección",
+        columnas: ["Capítulo / sección", "Artículos", "Protección (art. 53)"],
+        filas: [
+          ["Pórtico (sin capítulo)", "10", "Fundamento del orden político; interpretación conforme a la Declaración Universal y tratados ratificados"],
+          ["Cap. I · De los españoles y los extranjeros", "11-13", "—"],
+          ["Cap. II · Derechos y libertades (art. 14, sin sección)", "14", "Vincula a todos los poderes; reserva de ley con contenido esencial; procedimiento preferente y sumario; amparo"],
+          ["Cap. II · Sección 1.ª De los derechos fundamentales y de las libertades públicas", "15-29", "Igual que el art. 14: preferencia y sumariedad + amparo"],
+          ["Cap. II · Sección 2.ª De los derechos y deberes de los ciudadanos", "30-38", "Vincula a todos los poderes; reserva de ley con contenido esencial; sin amparo, salvo la objeción de conciencia del art. 30"],
+          ["Cap. III · Principios rectores de la política social y económica", "39-52", "Informan legislación, práctica judicial y actuación de los poderes públicos; solo alegables ante la jurisdicción ordinaria según sus leyes de desarrollo"],
+          ["Cap. IV · Garantías de las libertades y derechos fundamentales", "53-54", "Art. 53 (niveles de tutela) y art. 54 (Defensor del Pueblo)"],
+          ["Cap. V · Suspensión de los derechos y libertades", "55", "General (excepción o sitio) e individual (bandas armadas o elementos terroristas)"]
+        ],
+        nota: "Trampa de ubicación: el art. 14 encabeza el Capítulo II pero no está en la Sección 1.ª; aun así tiene amparo. La objeción de conciencia (art. 30) está en la Sección 2.ª y también tiene amparo."
+      },
+      {
+        titulo: "Suspensión de derechos (art. 55)",
+        columnas: ["Derecho", "Estado de excepción", "Estado de sitio", "Suspensión individual (55.2)"],
+        filas: [
+          ["17.2 Detención preventiva (72 horas)", "Sí", "Sí", "Sí"],
+          ["17.3 Derechos del detenido (información, no declarar, abogado)", "No (exceptuado)", "Sí", "No"],
+          ["17.1 y 17.4 Libertad y habeas corpus", "Sí (el art. 17 entero, salvo el 17.3)", "Sí", "No"],
+          ["18.1 Honor, intimidad y propia imagen", "No", "No", "No"],
+          ["18.2 Inviolabilidad del domicilio", "Sí", "Sí", "Sí"],
+          ["18.3 Secreto de las comunicaciones", "Sí", "Sí", "Sí"],
+          ["19 Residencia y circulación", "Sí", "Sí", "No"],
+          ["20.1.a) expresión, 20.1.d) información y 20.5 secuestro de publicaciones", "Sí", "Sí", "No"],
+          ["21 Reunión", "Sí", "Sí", "No"],
+          ["28.2 Huelga", "Sí", "Sí", "No"],
+          ["37.2 Medidas de conflicto colectivo", "Sí", "Sí", "No"]
+        ],
+        nota: "La suspensión individual del 55.2 la regula una ley orgánica, para personas determinadas, en investigaciones sobre bandas armadas o elementos terroristas, con la necesaria intervención judicial y el adecuado control parlamentario; su uso injustificado o abusivo produce responsabilidad penal."
+      },
+      {
+        titulo: "Lo que solo puede hacer un juez (o la ley)",
+        columnas: ["Materia", "Artículo", "Regla"],
+        filas: [
+          ["Entrada o registro en el domicilio", "18.2", "Consentimiento del titular o resolución judicial, salvo flagrante delito"],
+          ["Secreto de las comunicaciones", "18.3", "Salvo resolución judicial"],
+          ["Secuestro de publicaciones, grabaciones y otros medios", "20.5", "Solo en virtud de resolución judicial"],
+          ["Disolución o suspensión de asociaciones", "22.4", "Solo por resolución judicial motivada"],
+          ["Sanciones con privación de libertad", "25.3", "La Administración civil no puede imponerlas, ni directa ni subsidiariamente"],
+          ["Extradición", "13.3", "Solo por tratado o ley, con reciprocidad; excluidos los delitos políticos (el terrorismo no lo es)"],
+          ["Prestaciones personales o patrimoniales públicas", "31.3", "Solo con arreglo a la ley"],
+          ["Privación de bienes y derechos", "33.3", "Causa justificada de utilidad pública o interés social, indemnización y conforme a las leyes"]
+        ]
+      },
+      {
+        titulo: "Entidades locales en la Constitución (arts. 137 y 140-142)",
+        columnas: ["Entidad", "Naturaleza", "Gobierno y administración", "Regla clave"],
+        filas: [
+          ["Municipio", "Autonomía garantizada; personalidad jurídica plena", "Ayuntamiento: Alcaldes y Concejales", "Concejales por sufragio universal, igual, libre, directo y secreto de los vecinos; Alcaldes por los Concejales o por los vecinos; la ley regula el concejo abierto"],
+          ["Provincia", "Entidad local con personalidad jurídica propia; agrupación de municipios y división territorial para las actividades del Estado", "Diputaciones u otras Corporaciones de carácter representativo", "Alteración de límites: Cortes Generales mediante ley orgánica"],
+          ["Agrupaciones de municipios", "Diferentes de la provincia", "—", "«Se podrán crear» (141.3)"],
+          ["Islas (archipiélagos)", "Administración propia, además", "Cabildos o Consejos", "141.4"],
+          ["Haciendas locales", "Medios suficientes para sus funciones", "—", "Fundamentalmente tributos propios + participación en los del Estado y de las CCAA (142)"]
+        ],
+        nota: "Art. 137: el Estado se organiza en municipios, provincias y Comunidades Autónomas; todas gozan de autonomía para la gestión de sus respectivos intereses. No aparecen comarcas ni regiones."
+      }
+    ],
+    datos: [
+      "Art. 1.1: cuatro valores superiores: libertad, justicia, igualdad y pluralismo político. Art. 1.2: soberanía nacional en el pueblo español. Art. 1.3: forma política, Monarquía parlamentaria.",
+      "Art. 3.1: el castellano es la lengua española oficial del Estado; todos los españoles tienen el deber de conocerla y el derecho a usarla.",
+      "Art. 4.1: bandera de tres franjas horizontales, roja, amarilla y roja; la amarilla, de doble anchura que cada una de las rojas.",
+      "Art. 5: capital, la villa de Madrid.",
+      "Estructura interna y funcionamiento democráticos: partidos políticos (6), sindicatos y asociaciones empresariales (7), Colegios Profesionales (36) y organizaciones profesionales (52).",
+      "Art. 8.1: Fuerzas Armadas = Ejército de Tierra, Armada y Ejército del Aire; una ley orgánica regula las bases de la organización militar.",
+      "Art. 9.3, siete principios: legalidad, jerarquía normativa, publicidad de las normas, irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, seguridad jurídica, responsabilidad e interdicción de la arbitrariedad de los poderes públicos.",
+      "Art. 10.2: los derechos fundamentales se interpretan conforme a la Declaración Universal de Derechos Humanos y a los tratados ratificados por España.",
+      "Art. 12: mayoría de edad a los dieciocho años.",
+      "Art. 14: causas de discriminación citadas: nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+      "Art. 17.2: detención preventiva, máximo 72 horas; art. 17.4: habeas corpus y plazo máximo de la prisión provisional fijado por ley.",
+      "Art. 20.1: cuatro derechos: expresión, producción y creación literaria, artística, científica y técnica, libertad de cátedra e información veraz; la ley regula la cláusula de conciencia y el secreto profesional.",
+      "Art. 21.1: reunión pacífica y sin armas, sin autorización previa; 21.2: en lugares de tránsito público y manifestaciones, comunicación previa a la autoridad.",
+      "Art. 27.4: la enseñanza básica es obligatoria y gratuita; 27.10: autonomía de las Universidades.",
+      "Art. 30: derecho y deber de defender a España; objeción de conciencia y prestación social sustitutoria; servicio civil; deberes en caso de grave riesgo, catástrofe o calamidad pública.",
+      "Art. 31.1: sistema tributario justo, inspirado en igualdad y progresividad, nunca confiscatorio; 31.2: gasto público con asignación equitativa, eficiencia y economía.",
+      "Art. 34.2: a las fundaciones se aplican los apartados 2 y 4 del art. 22 (ilegalidad por fines delictivos y disolución solo judicial).",
+      "Art. 45.3: quien viole el deber de conservar el medio ambiente: sanciones penales o, en su caso, administrativas y obligación de reparar el daño.",
+      "Art. 47: vivienda digna y adecuada; regulación del suelo según el interés general para impedir la especulación; la comunidad participa en las plusvalías de la acción urbanística de los entes públicos.",
+      "Art. 49 (reforma de 2024): las personas con discapacidad ejercen los derechos del Título I en condiciones de libertad e igualdad reales y efectivas; entornos universalmente accesibles; atención particular a mujeres y menores con discapacidad.",
+      "Art. 50: pensiones adecuadas y periódicamente actualizadas para la tercera edad.",
+      "Art. 54: Defensor del Pueblo, alto comisionado de las Cortes Generales, designado por éstas y regulado por ley orgánica.",
+      "Art. 140: concejales por sufragio universal, igual, libre, directo y secreto; alcaldes por los concejales o por los vecinos.",
+      "Art. 141.1: alteración de límites provinciales, por las Cortes Generales mediante ley orgánica."
+    ],
+    excepciones: [
+      "Art. 13.2: los derechos del art. 23 son solo de los españoles, salvo el sufragio activo y pasivo en las elecciones municipales, que puede reconocerse a extranjeros por tratado o ley, con reciprocidad (reforma de 1992).",
+      "Art. 11.3: en los países con tratado de doble nacionalidad, los españoles pueden naturalizarse sin perder su nacionalidad de origen aunque esos países no reconozcan un derecho recíproco. Art. 11.2: ningún español de origen puede ser privado de su nacionalidad.",
+      "Art. 13.3: excluidos de la extradición los delitos políticos, pero el terrorismo no se considera delito político.",
+      "Art. 15: pena de muerte abolida, salvo lo que dispongan las leyes penales militares para tiempos de guerra.",
+      "Art. 18.2: sin consentimiento ni resolución judicial, solo cabe entrar en un domicilio en caso de flagrante delito.",
+      "Art. 19: el derecho a entrar y salir de España no puede limitarse por motivos políticos o ideológicos.",
+      "Art. 21.2: la autoridad solo puede prohibir reuniones y manifestaciones si hay razones fundadas de alteración del orden público, con peligro para personas o bienes.",
+      "Art. 24.2: la ley regula cuándo, por parentesco o secreto profesional, no hay obligación de declarar sobre hechos presuntamente delictivos.",
+      "Art. 25.2: el condenado a prisión conserva los derechos fundamentales, salvo los limitados por el fallo, el sentido de la pena y la ley penitenciaria; en todo caso, trabajo remunerado, Seguridad Social y acceso a la cultura.",
+      "Art. 28.1: la ley puede limitar o exceptuar la sindicación de las Fuerzas o Institutos armados y cuerpos con disciplina militar, y regula sus peculiaridades para los funcionarios públicos.",
+      "Art. 29.2: los miembros de las Fuerzas o Institutos armados o cuerpos con disciplina militar solo pueden ejercer el derecho de petición individualmente.",
+      "Art. 41: la asistencia y las prestaciones complementarias de la Seguridad Social serán libres.",
+      "Art. 53.2: el art. 14 no está en la Sección 1.ª pero tiene amparo; la objeción de conciencia del art. 30 está en la Sección 2.ª y también tiene amparo.",
+      "Art. 55.1: el 17.3 (derechos del detenido) se exceptúa en el estado de excepción, pero no en el de sitio; el 18.1 nunca figura entre los suspendibles.",
+      "Art. 138.2: las diferencias entre Estatutos no pueden implicar, en ningún caso, privilegios económicos o sociales."
+    ]
+  },
 };
