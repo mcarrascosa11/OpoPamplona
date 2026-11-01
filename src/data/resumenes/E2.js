@@ -14,7 +14,9 @@ export default {
           "Excepción a obra nueva: construcción de sencillez técnica Y escasa entidad constructiva Y sin uso residencial o público, ni eventual ni permanente, Y de una sola planta Y que no afecte a la seguridad de las personas",
           "Edificios existentes: cumplimiento justificado en proyecto o memoria técnica; con declaración responsable/comunicación previa debe manifestarse que se posee ese proyecto o memoria",
           "Si el cumplimiento no es urbanística, técnica o económicamente viable, o es incompatible con intervención/protección: mayor grado posible de adecuación efectiva, siempre justificado; documentación final = prestación alcanzada + condicionantes de uso/mantenimiento",
-          "Intervenciones: no pueden rebajar condiciones preexistentes inferiores al DB; las superiores solo pueden reducirse hasta el mínimo del DB. Todo cambio de uso característico debe cumplir el CTE",
+          "Intervenciones: no pueden rebajar condiciones preexistentes inferiores al DB, salvo que el propio DB establezca un criterio distinto; las superiores solo pueden reducirse hasta el nivel del DB",
+          "Art. 2.4: en intervenciones en existentes el proyectista indica si hay actuaciones en la estructura preexistente; si no las hay, se entiende que las obras no implican el riesgo de daño del art. 17.1.a) LOE",
+          "Cambio de uso (art. 2.6 en el BOE; 2.5 en la edición del Ministerio): todo cambio de uso característico debe cumplir el CTE; si afecta solo a parte del edificio o establecimiento, en los términos de los DB",
           "Dos partes: Parte I = disposiciones/condiciones generales + exigencias básicas; Parte II = DB, reglamentarios, actualizables y con caracterización/cuantificación + procedimientos de verificación",
         ],
       },
@@ -98,7 +100,9 @@ export default {
           "Los plazos transitorios aparecen en el texto fuente del RD de aprobación y son material histórico: sirven para identificar qué régimen se aplicaba a expedientes en el arranque del CTE, no para proyectar hoy con las versiones ya actualizadas. Precisamente por eso conviene separar estas reglas de las exigencias vigentes del bloque anterior.",
         items: [
           "Disposición transitoria primera: el CTE no se aplicaba a obras de nueva construcción o intervenciones con licencia solicitada a la entrada en vigor del RD 314/2006",
-          "Régimen de aplicación voluntaria inicial: 6 meses para NBE-CT-79 y CPI-96; 12 meses para NBE-AE-88, NBE-FL-90, NBE-EA-95 y normas sobre instalaciones de agua",
+          "Disposición transitoria segunda (normativa anterior que podía seguir aplicándose): 6 meses para NBE-CT-79 y NBE-CPI-96; 12 meses para NBE-AE-88, NBE-FL-90, NBE-EA-95 y Normas básicas de instalaciones interiores de suministro de agua (1975)",
+          "Disposición transitoria tercera (DB que podían aplicarse ya): 6 meses para DB SI, DB SU y DB HE; 12 meses para DB SE, SE-AE, SE-C, SE-A, SE-F, SE-M y DB HS. Acabados esos periodos, el CTE pasaba a ser obligatorio",
+          "Disposición transitoria cuarta: las obras con licencia concedida al amparo de ese régimen debían comenzar en 3 meses desde la concesión; si no, el proyecto se adaptaba a las nuevas exigencias",
           "Las disposiciones transitorias específicas de los DB fijaron plazos de adaptación; no deben confundirse con el contenido actual de cada DB",
         ],
       },
@@ -115,5 +119,85 @@ export default {
       "Anejo II: Órdenes y Asistencias + Incidencias + proyecto/modificaciones + licencia/autorizaciones + certificado final",
       "SUA tiene 9 exigencias (incluida accesibilidad); HS llega a HS6 (radón); HE va de HE0 a HE6 (recarga VE)",
       "Transitoria 1ª original: CTE no se aplicaba a obras con licencia ya solicitada a su entrada en vigor; es régimen histórico",
+      "Vigencia: la Parte I vigente es la del BOE con su última modificación por el RD 450/2022 (HE 6); no hay cambios posteriores hasta el 21-05-2026. La primera mitad del TXT reproduce la Parte I ORIGINAL de 2006 (SU 1-8, HE 1-5, antiguo art. 2.4-2.7): no se estudia esa redacción",
     ],
+    memorizacion: {
+      tablas: [
+        {
+          titulo: "Requisitos básicos y exigencias básicas de la Parte I (arts. 10-15)",
+          columnas: ["Requisito (art.)", "Exigencias básicas", "Documento Básico"],
+          filas: [
+            ["Seguridad estructural (10)", "SE 1 Resistencia y estabilidad · SE 2 Aptitud al servicio", "DB SE, SE-AE, SE-C, SE-A, SE-F y SE-M; el hormigón, por la Instrucción de Hormigón Estructural vigente"],
+            ["Seguridad en caso de incendio (11)", "SI 1 Propagación interior · SI 2 Propagación exterior · SI 3 Evacuación de ocupantes · SI 4 Instalaciones de protección contra incendios · SI 5 Intervención de bomberos · SI 6 Resistencia estructural al incendio", "DB-SI, salvo uso industrial sujeto al Reglamento de seguridad contra incendios en los establecimientos industriales"],
+            ["Seguridad de utilización y accesibilidad (12)", "SUA 1 Caídas · SUA 2 Impacto o atrapamiento · SUA 3 Aprisionamiento · SUA 4 Iluminación inadecuada · SUA 5 Alta ocupación · SUA 6 Ahogamiento · SUA 7 Vehículos en movimiento · SUA 8 Acción del rayo · SUA 9 Accesibilidad", "DB-SUA"],
+            ["Salubridad: higiene, salud y protección del medio ambiente (13)", "HS 1 Protección frente a la humedad · HS 2 Recogida y evacuación de residuos · HS 3 Calidad del aire interior · HS 4 Suministro de agua · HS 5 Evacuación de aguas · HS 6 Protección frente a la exposición al radón", "DB-HS"],
+            ["Protección frente al ruido (14)", "Sin numerar: reducir la transmisión del ruido aéreo, de impactos y del ruido y vibraciones de las instalaciones, y limitar el ruido reverberante", "DB HR"],
+            ["Ahorro de energía (15)", "HE 0 Limitación del consumo energético · HE 1 Control de la demanda energética · HE 2 Instalaciones térmicas · HE 3 Instalaciones de iluminación · HE 4 Renovables para ACS (y piscina cubierta) · HE 5 Generación eléctrica renovable · HE 6 Infraestructura de recarga de vehículos eléctricos", "DB-HE; la HE 2 se desarrolla en el RITE"]
+          ],
+          nota: "Trampas: SE solo tiene dos exigencias (no hay SE 3 de durabilidad); SI 2 es la propagación EXTERIOR y SI 5 la intervención de bomberos; SUA 8 es el rayo y SUA 9 la accesibilidad; el ruido de impactos es HR, no HS. La redacción original de 2006 (SU 1-8, HE 1-5) está superada."
+        },
+        {
+          titulo: "Proyecto básico y proyecto de ejecución (art. 6.3, Anejos I y III)",
+          columnas: ["Fase", "Qué define", "Para qué sirve", "Límite"],
+          filas: [
+            ["Proyecto básico", "Características generales de la obra y sus prestaciones, con soluciones concretas justificadas", "Suficiente para solicitar la licencia municipal, concesiones u otras autorizaciones", "Insuficiente para iniciar la construcción; no puede impedir el cumplimiento del CTE"],
+            ["Proyecto de ejecución", "Desarrolla el básico y define la obra en su totalidad; integra los proyectos parciales como documentos diferenciados", "Realizar las obras", "No puede rebajar las prestaciones del básico ni alterar usos y condiciones de la licencia, salvo aspectos legalizables"]
+          ],
+          nota: "Anejo I: lo marcado con asterisco (*) es el contenido mínimo del básico. Llevan asterisco: agentes, información previa, descripción del proyecto, prestaciones del edificio, sustentación del edificio (2.1), justificación de seguridad en caso de incendio (3.2), planos de situación, emplazamiento, urbanización, plantas generales, cubiertas, alzados y secciones, y presupuesto aproximado. No lo llevan: SE, SUA, HS, HR y HE (3.1, 3.3-3.6), planos de estructura e instalaciones, pliego, mediciones y presupuesto detallado."
+        },
+        {
+          titulo: "Los tres controles durante la obra (art. 7) y la documentación (Anejo II)",
+          columnas: ["Control", "Objeto", "Cómo / quién"],
+          filas: [
+            ["Recepción de productos, equipos y sistemas (7.2)", "Comprobar que lo suministrado satisface lo exigido en el proyecto", "Documentación de suministro (el suministrador la entrega al constructor y este al director de ejecución); distintivos de calidad o evaluaciones de idoneidad técnica; ensayos"],
+            ["Ejecución de la obra (7.3)", "Cada unidad de obra: replanteo, materiales, ejecución y disposición de elementos e instalaciones, compatibilidad entre sistemas", "Director de la ejecución de la obra"],
+            ["Obra terminada (7.4)", "Comprobaciones y pruebas de servicio", "Las previstas en el proyecto, las ordenadas por la dirección facultativa y las exigidas por la legislación, además de las voluntarias"],
+            ["Depósito de la documentación del seguimiento (II.1.4)", "Libro de Órdenes y Asistencias, Libro de Incidencias, proyecto y modificaciones, licencia y autorizaciones, certificado final", "Director de OBRA, en el Colegio Profesional o la Administración competente"],
+            ["Depósito de la documentación del control (II.2.2)", "Control de recepción, de ejecución y de obra terminada", "Director de la EJECUCIÓN de la obra, en el Colegio Profesional o la Administración competente"]
+          ],
+          nota: "Certificado final (II.3): el director de la ejecución certifica haber dirigido la ejecución material y controlado cuantitativa y cualitativamente lo edificado; el director de obra, que se ha hecho conforme al proyecto objeto de licencia y está dispuesto para su uso. Se le anejan las modificaciones (con conformidad del promotor) y la relación de controles y sus resultados."
+        },
+        {
+          titulo: "Régimen del Real Decreto 314/2006",
+          columnas: ["Disposición", "Contenido", "Dato clave"],
+          filas: [
+            ["Transitoria 1.ª", "No se aplica el CTE a obras nuevas ni en existentes con licencia solicitada a su entrada en vigor", "Licencia ya solicitada"],
+            ["Transitoria 2.ª", "Normativa anterior que podía seguir aplicándose", "6 meses: NBE-CT-79 y NBE-CPI-96 · 12 meses: NBE-AE-88, NBE-FL-90, NBE-EA-95 y normas de agua de 1975"],
+            ["Transitoria 3.ª", "DB que podían aplicarse ya, voluntariamente", "6 meses: DB SI, SU y HE · 12 meses: DB SE (y SE-AE, C, A, F, M) y HS"],
+            ["Transitoria 4.ª", "Comienzo de las obras con licencia del régimen transitorio", "3 meses desde la concesión; si no, adaptar el proyecto"],
+            ["Derogatoria única", "RD 1650/1977 y las NBE (CT-79, AE-88, QB-90, FL-90, EA-95, CPI-96), normas de agua de 1975 y preceptos del Reglamento de Policía de Espectáculos de 1982", "Derogación desde su entrada en vigor"],
+            ["Finales 1.ª a 4.ª", "Carácter básico (art. 149.1.16.ª, 23.ª y 25.ª CE); sin perjuicio de la prevención de riesgos laborales; habilitación a la Ministra de Vivienda para modificar los DB por Orden; entrada en vigor", "Al día siguiente de su publicación en el BOE"]
+          ],
+          nota: "Es un régimen agotado: sirve para preguntas de dato (3 meses, 6 y 12 meses), no para proyectar hoy."
+        }
+      ],
+      datos: [
+        "RD 314/2006, de 17 de marzo; el CTE desarrolla la disposición FINAL segunda de la LOE (art. 1.1).",
+        "Art. 1.4: las exigencias se cumplen en el proyecto, la construcción, el mantenimiento, la conservación y el uso, y en las intervenciones en edificios existentes.",
+        "Art. 2.1: se aplica a edificaciones públicas y privadas cuyos proyectos precisen licencia o autorización legalmente exigible.",
+        "Art. 3: Parte I = disposiciones y condiciones generales + exigencias básicas; Parte II = Documentos Básicos (DB), que se aprueban reglamentariamente.",
+        "Art. 4.3: Registro General del CTE, en el Ministerio de Vivienda, adscrito a la Dirección General de Arquitectura y Política de Vivienda; carácter público e informativo.",
+        "Art. 4.4: además de los Documentos Reconocidos, se inscriben distintivos de calidad voluntarios, certificaciones de prestaciones, de gestión de calidad y medioambientales, organismos de evaluación de la idoneidad, y entidades de control y laboratorios de ensayos.",
+        "Art. 5.1.1: responsables de aplicar el CTE: los agentes de la edificación del capítulo III de la LOE.",
+        "Art. 5.2: productos incorporados con carácter permanente, con marcado CE; productos innovadores, conformes con evaluación técnica FAVORABLE de su idoneidad por entidad autorizada.",
+        "Art. 7.2.1: documentación de suministro mínima: documentos de origen, hoja de suministro y etiquetado; certificado de garantía del fabricante firmado por persona física; documentos de conformidad o autorizaciones, incluido el marcado CE.",
+        "Art. 8.2.2: conservar = cumplir el plan de mantenimiento encargando a técnico competente las operaciones programadas, pasar las inspecciones reglamentarias y documentar todas las intervenciones en el Libro del Edificio.",
+        "Art. 9.2: los niveles o valores límite de los DB son obligatorios cuando el propio DB lo establezca expresamente; los procedimientos de los DB son no excluyentes.",
+        "Art. 9.1: el CTE también desarrolla la funcionalidad en lo relativo a la accesibilidad (Ley 51/2003 y RD 505/2007).",
+        "Art. 13.3.2 (HS 3): la evacuación de productos de combustión de las instalaciones térmicas se hará, con carácter general, por la cubierta del edificio.",
+        "Anejo III: dirección facultativa = director de obra + director de la ejecución; intervenciones en existentes = ampliación, reforma y cambio de uso.",
+        "Anejo III: son recintos no habitables los garajes, trasteros, cámaras técnicas y desvanes no acondicionados, y sus zonas comunes; son en todo caso recintos protegidos los habitables de las letras a) a d) (residencial, docente, sanitario y administrativo)."
+      ],
+      excepciones: [
+        "Obra nueva sin CTE solo si se cumplen a la vez: sencillez técnica, escasa entidad constructiva, sin carácter residencial ni público (eventual o permanente), una sola planta y sin afectar a la seguridad de las personas (art. 2.2).",
+        "Funcionalidad: se rige por su normativa específica, SALVO la accesibilidad de personas con movilidad o comunicación reducida, que desarrolla el CTE (art. 1.3).",
+        "Edificios existentes: si aplicar el CTE no es urbanística, técnica o económicamente viable, o es incompatible con la intervención o la protección, se aplican las soluciones de mayor grado posible de adecuación efectiva, bajo responsabilidad del proyectista o del técnico de la memoria (art. 2.3).",
+        "Condiciones preexistentes menos exigentes que los DB: no pueden reducirse, salvo que el DB fije otro criterio; las más exigentes, solo hasta el nivel del DB (art. 2.3).",
+        "DB-SI: no rige en edificios, establecimientos y zonas de uso industrial sujetos al Reglamento de seguridad contra incendios en los establecimientos industriales (art. 11.3).",
+        "Documentos Reconocidos: no pueden referirse a la utilización de un producto o sistema constructivo particular o bajo patente (art. 4.2.d).",
+        "Soluciones alternativas: exigen responsabilidad del proyectista o del director de obra, conformidad previa del promotor y prestaciones al menos equivalentes, justificadas documentalmente (art. 5.1.3.b).",
+        "Residuos ordinarios: excluyen animales domésticos muertos, muebles y enseres, y los escombros de obras menores de construcción y reparación domiciliaria (Anejo III).",
+        "No se estudian: la definición de obras de rehabilitación del antiguo art. 2.4 y 2.5 (suprimida por la Ley 8/2013) ni el art. 2.7 sobre clasificación de edificios y análisis de riesgo (anulado por el Tribunal Supremo el 4-5-2010); el TXT los reproduce en el texto original de 2006."
+      ]
+    }
   };
