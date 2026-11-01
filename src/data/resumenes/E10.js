@@ -1,6 +1,6 @@
 // Resumen del tema E10. Formato: cabecera de src/data/resumenes.js.
 export default {
-  intro: "El Documento Basico HS Salubridad del CTE, aprobado por RD 314/2006 y modificado posteriormente, establece las reglas y procedimientos para cumplir las exigencias basicas HS 1 a HS 6. La correcta aplicacion del conjunto del DB satisface el requisito basico Higiene, salud y proteccion del medio ambiente. El texto consolidado del DB no tiene valor juridico.",
+  intro: "El Documento Basico HS Salubridad del CTE, aprobado por RD 314/2006 y modificado posteriormente, establece las reglas y procedimientos para cumplir las exigencias basicas HS 1 a HS 6. La correcta aplicacion del conjunto del DB satisface el requisito basico Higiene, salud y proteccion del medio ambiente. El texto consolidado del DB no tiene valor juridico. Alcance oficial de la convocatoria: Introduccion y secciones HS 1 a HS 5, con el apendice A (Terminologia) de cada una y sin los demas apendices; la seccion HS 6 (radon) queda fuera. Texto vigente a 21-05-2026: el consolidado de 14-06-2022 (RD 450/2022); no hay modificaciones posteriores del DB HS hasta esa fecha.",
   bloques: [
     {
       h: "Marco general y exigencias basicas",
@@ -134,7 +134,8 @@ export default {
         "Para 500<qvt<=750 l/s: T1/T2/T3/T4 = 625/900/(900+625)/3x900 cm2",
         "Para 750<qvt<=1.000 l/s: T1/T2/T3/T4 = 900/(900+625)/2x900/(3x900+625) cm2",
         "La clase de tiro T1-T4 depende del numero de plantas y de la zona termica",
-        "Tabla 4.4 zonas termicas por provincia: Navarra X hasta 800 m y W por encima de 800 m; Zaragoza Y hasta 800 m y X por encima; Huesca X/W; Teruel W/W; Soria W/W",
+        "Tabla 4.4 zonas termicas por provincia: Navarra X hasta 800 m y W por encima de 800 m; Zaragoza Y hasta 800 m y X por encima; Huesca X/W; Teruel W/W; Soria W/W (ojo: la tabla 4.4 sale descolocada en el TXT del tema y estos valores no se han podido contrastar con el)",
+        "Apendice A de HS 3: zona termica W con Tm hasta 14 ºC; X entre 14 y 16 ºC; Y entre 16 y 18 ºC; Z por encima de 18 ºC (Tm = temperatura media anual)",
         "Conductos mecanicos contiguos a local habitable: S >=2,5·qvt",
         "Conductos mecanicos en cubierta: S >=1,5·qvt",
         "La seccion de cada ramal de un conducto colectivo debe ser como minimo la mitad de la del conducto colectivo al que vierte",
@@ -163,7 +164,8 @@ export default {
         "Presion minima: 100 kPa en grifos comunes; 150 kPa en fluxores y calentadores",
         "Presion maxima en cualquier punto de consumo: 500 kPa",
         "ACS en puntos de consumo: 50-65 ºC",
-        "En edificios de publica concurrencia deben disponerse dispositivos de ahorro de agua en grifos",
+        "En las zonas de publica concurrencia de los edificios, los grifos de los lavabos y las cisternas deben tener dispositivos de ahorro de agua",
+        "Debe disponerse un sistema de contabilizacion de agua fria y de agua caliente para cada unidad de consumo individualizable",
         "Tabla 4.1 – Armario/camara de contador general: diametros nominales 15,20,25,32,40,50,65,80,100,125,150 mm",
         "Para esos diametros, longitudes del armario/camara: 600,600,900,900,1300,2100,2100,2200,2500,3000,3000 mm",
         "Anchuras correspondientes: 500,500,500,500,600,700,700,800,800,800,800 mm",
@@ -249,8 +251,8 @@ export default {
       ]
     },
     {
-      h: "HS 6 – Proteccion frente a la exposicion al radon",
-      nota: "Memorizar el nivel de referencia de 300 Bq/m3, la diferencia entre zona I y zona II y las soluciones exigidas.",
+      h: "HS 6 – Proteccion frente a la exposicion al radon (FUERA DEL ALCANCE OFICIAL)",
+      nota: "Fuera del alcance de la convocatoria: el tema E10 comprende la Introduccion y HS 1 a HS 5; se conserva solo como referencia y no se pregunta. Memorizar el nivel de referencia de 300 Bq/m3, la diferencia entre zona I y zona II y las soluciones exigidas.",
       items: [
         "Aplicacion: edificios de nueva construccion situados en municipios del apendice B y determinadas intervenciones en edificios existentes",
         "En ampliaciones se aplica a la parte nueva",
@@ -300,8 +302,8 @@ export default {
     "HS5 pluviales: f=i/100; sumideros 2/3/4/1 cada 150 m2 para S<100/100-200/200-500/>500",
     "HS5 bajantes pluviales: DN50/63/75/90/110/125/160/200 ->65/113/177/318/580/805/1544/2700 m2 a 100 mm/h",
     "HS5 mixtos: <=250 UD equivalen a 90 m2; >250 UD equivalen a 0,36·UD m2",
-    "HS6 nivel de referencia 300 Bq/m3; zona I = barrera o camara; zona II = barrera + ventilacion/despresurizacion",
-    "HS6 barrera tipo lamina valida sin calculo: difusion <10^-11 m2/s y espesor >=2 mm"
+    "(Fuera del alcance) HS6 nivel de referencia 300 Bq/m3; zona I = barrera o camara; zona II = barrera + ventilacion/despresurizacion",
+    "(Fuera del alcance) HS6 barrera tipo lamina valida sin calculo: difusion <10^-11 m2/s y espesor >=2 mm"
   ],
   memorizacion: {
     tablas: [
@@ -335,7 +337,7 @@ export default {
           ["Vidrio", "0,48", "1"],
           ["Varios", "1,50", "4"]
         ],
-        nota: "Fórmula: S = 0,8 · P · Σ(Tf · Gf · Cf · Mf). P = dormitorios sencillos + 2 · dormitorios dobles; el principal cuenta como doble."
+        nota: "Fórmula: S = 0,8 · P · Σ(Tf · Gf · Cf · Mf). P = dormitorios sencillos + 2 · dormitorios dobles. Espacio de reserva: SR = P · Σ(Ff · Mf)."
       },
       {
         titulo: "HS3 · Ventilación constante en viviendas",
@@ -373,25 +375,95 @@ export default {
         nota: "No confundir 7/11/14/15 plantas: cada cifra responde a un subsistema distinto."
       },
       {
-        titulo: "HS6 · Radón: decisión de protección",
-        columnas: ["Situación", "Respuesta exigible"],
+        titulo: "HS1 · Fachadas: grado mínimo de impermeabilidad (tabla 2.5)",
+        columnas: ["Exposición al viento", "Zona I", "Zona II", "Zona III", "Zona IV", "Zona V"],
         filas: [
-          ["Nivel de referencia", "Promedio anual interior: 300 Bq/m³"],
-          ["Municipio zona I", "Barrera o cámara de aire mitigadora"],
-          ["Municipio zona II", "Barrera + espacio ventilado o despresurización del terreno"],
-          ["Existente: entre 1 y 2 × referencia", "Soluciones de zona I"],
-          ["Existente: >2 × referencia", "Soluciones de zona II"]
+          ["V1", "5", "5", "4", "3", "2"],
+          ["V2", "5", "4", "3", "3", "2"],
+          ["V3", "5", "4", "3", "2", "1"]
         ],
-        nota: "Si ninguna zona de muestreo supera el nivel de referencia, no se exige implantar soluciones de protección."
+        nota: "Zonas pluviométricas de promedios I a V. El grado baja al pasar de la zona I a la V y, a igual zona, al pasar de V1 a V3."
+      },
+      {
+        titulo: "HS2 · Factor de contenedor (tabla 2.1 y apéndice A, tabla A.1)",
+        columnas: ["Capacidad del contenedor (l)", "SC (m²)", "Cf (m²/l)"],
+        filas: [
+          ["120", "0,6", "0,0050"],
+          ["240", "1,0", "0,0042"],
+          ["330", "1,2", "0,0036"],
+          ["600", "2,0", "0,0033"],
+          ["800", "2,4", "0,0030"],
+          ["1.100", "3,0", "0,0027"]
+        ],
+        nota: "Cf = SC / CC (apéndice A): superficie de almacenamiento y maniobra del contenedor dividida por su capacidad."
+      },
+      {
+        titulo: "HS2 · Factor de fracción y almacenamiento inmediato",
+        columnas: ["Fracción", "Ff (m²/persona)", "CA (dm³/persona)"],
+        filas: [
+          ["Papel / cartón", "0,039", "10,85"],
+          ["Envases ligeros", "0,060", "7,80"],
+          ["Materia orgánica", "0,005", "3,00"],
+          ["Vidrio", "0,012", "3,36"],
+          ["Varios", "0,038", "10,50"]
+        ],
+        nota: "Ff sirve para el espacio de reserva (SR = P · Σ(Ff · Mf)); CA para el almacenamiento inmediato en la vivienda (C = CA · Pv), con un mínimo de 30 × 30 cm en planta y 45 dm³ por fracción."
+      },
+      {
+        titulo: "HS3 · Locales no habitables (tabla 2.2)",
+        columnas: ["Local", "Caudal mínimo"],
+        filas: [
+          ["Trasteros y sus zonas comunes", "0,7 l/s por m² útil"],
+          ["Aparcamientos y garajes", "120 l/s por plaza"],
+          ["Almacenes de residuos", "10 l/s por m² útil"]
+        ],
+        nota: "Caudal constante o variable controlado (detectores de presencia o de contaminantes, programación temporal u otro sistema)."
+      },
+      {
+        titulo: "HS5 · Ventilación primaria: prolongación y salida",
+        columnas: ["Caso", "Regla"],
+        filas: [
+          ["Cubierta no transitable", "Bajante prolongada ≥ 1,30 m sobre la cubierta"],
+          ["Cubierta transitable", "≥ 2,00 m sobre el pavimento"],
+          ["Tomas de aire exterior", "Salida a 6 m o más y por encima de ellas"],
+          ["Huecos de recintos habitables a < 6 m", "Salida ≥ 50 cm por encima de su cota máxima"]
+        ],
+        nota: "No confundir con las bajantes de residuos de HS 2, cuyo tramo exterior sobre la cubierta tiene 1 m como mínimo."
       }
     ],
     datos: [
       "Fuente contrastada: DB-HS con comentarios del Ministerio, articulado de 14-06-2022 y comentarios de 12-02-2025.",
-      "Estrategia: domina primero las siete tablas de arriba; las tablas extensas de dimensionado se consultan por sección cuando el supuesto lo exija."
+      "Estrategia: domina primero las tablas de arriba; las tablas extensas de dimensionado se consultan por sección cuando el supuesto lo exija.",
+      "Alcance: Introducción y HS 1 a HS 5, con el apéndice A (Terminología) de cada sección. No entran HS 6 (radón) ni los demás apéndices (notación, cálculo del caudal de drenaje, condiciones de diseño del caudal de ventilación, normas de referencia, simbología ni mapa de intensidad pluviométrica).",
+      "Introducción: otras soluciones distintas de las del DB → procedimiento del artículo 5 del CTE y cumplimiento documentado en el proyecto. Catálogo de Elementos Constructivos: valores de soluciones hechas en obra = garantía legal; de productos industriales = carácter genérico y orientativo.",
+      "Art. 13.3 CTE: productos de combustión de las instalaciones térmicas, con carácter general, por la cubierta del edificio, con independencia del tipo de combustible y del aparato.",
+      "HS1 presencia de agua: baja = cara inferior del suelo por encima del nivel freático; media = a la misma profundidad o a menos de 2 m por debajo; alta = a 2 m o más por debajo.",
+      "HS2 situación: almacén o espacio de reserva fuera del edificio a menos de 25 m de su acceso; recorrido hasta el punto de recogida ≥ 1,20 m (estrechamientos ≥ 1 m y ≤ 45 cm de longitud), pendiente ≤ 12 % y sin escalones.",
+      "HS2 almacén: temperatura interior ≤ 30º; toma de agua con válvula de cierre y sumidero sifónico antimúridos; 100 lux a 1 m del suelo y enchufe 16A 2p+T; tolva intermedia con punto de luz de 1.000 lúmenes.",
+      "HS2 bajantes: Ø ≥ 450 mm; metálicas o de clase A1; muros EI-120; desvío ≤ 30º; cada 10 m, acodadura con 4 codos de 15º como máximo; neumáticas con conducto de ventilación ≥ 350 cm²; extremo superior ≥ 1 m sobre la cubierta.",
+      "HS2 compuertas de vertido: en zonas comunes y a menos de 30 m de las viviendas; EI-60; circulares de 300 a 350 mm; rectangulares de 300×300 a 350×350 mm; cierre hermético y enclavamiento.",
+      "HS2 almacenamiento inmediato: espacio en cada vivienda para las 5 fracciones; punto más alto ≤ 1,20 m; orgánica y envases en la cocina o zonas anejas.",
+      "HS3 ámbito: en edificios de viviendas, el interior de las viviendas, almacenes de residuos, trasteros, aparcamientos y garajes; en los de cualquier otro uso, aparcamientos y garajes.",
+      "HS3: CO2 medio anual < 900 ppm y acumulado por encima de 1.600 ppm < 500.000 ppm·h; 1,5 l/s por local habitable sin ocupación; cocción 50 l/s; aireadores a más de 1,80 m del suelo; extracción a menos de 200 mm del techo y a más de 100 mm de rincones.",
+      "HS3 apéndice A: dos locales unidos por un hueco libre forman un solo local si el hueco mide 1,5 m² o más y al menos un veinteavo de la suma de sus áreas. Son locales habitables las habitaciones y estancias, y las cocinas, baños, aseos, pasillos y distribuidores interiores de las viviendas.",
+      "HS4 antirretornos: después de los contadores, en la base de las ascendentes, antes del equipo de tratamiento de agua, en los tubos de alimentación no domésticos y antes de los aparatos de refrigeración o climatización.",
+      "HS4: presión mínima 100 kPa en grifos comunes y 150 kPa en fluxores y calentadores; máxima 500 kPa; ACS 50-65 ºC; retorno si la ida mide 15 m o más; tramo recto > 25 m sin conexiones: medidas contra dilataciones.",
+      "HS5 cierres hidráulicos: 50 mm (usos continuos) / 70 mm (discontinuos) / máximo 100 mm; corona ≤ 60 cm bajo la válvula; sifón individual en fregaderos, lavaderos, lavadoras y lavavajillas.",
+      "HS5 ventilación: secundaria con conexiones en plantas alternas si hay menos de 15 plantas y en cada planta con 15 o más; conexión superior ≥ 1 m sobre el último aparato; terciaria con ramales > 5 m o más de 14 plantas, conectada a 2-20 diámetros del cierre; válvulas de aireación: una en edificios de 5 plantas o menos y una cada 4 plantas en los más altos."
     ],
     excepciones: [
       "HS1: condensaciones superficiales e intersticiales se comprueban por DB-HE1, no por la tabla de impermeabilidad.",
-      "HS6: las soluciones de zona I/II para edificios existentes se activan a partir de mediciones conformes al apéndice C."
+      "HS1: los suelos elevados cuentan como suelos en contacto con el terreno; las medianerías que vayan a quedar descubiertas, como fachadas; los suelos de terrazas y balcones, como cubiertas.",
+      "HS2: solo se aplica a edificios de viviendas de nueva construcción; para otros usos, estudio específico con criterios análogos.",
+      "HS2: en viviendas aisladas o agrupadas horizontalmente, el almacén y el espacio de reserva pueden servir a varias viviendas, y el almacén de contenedores puede hacer de almacenamiento inmediato de papel/cartón y vidrio.",
+      "HS2: el vidrio no se traslada nunca por bajantes.",
+      "HS3: para locales de cualquier otro tipo, las exigencias se cumplen observando el RITE.",
+      "HS3: las juntas de apertura pueden ser aberturas de admisión cuando las carpinterías exteriores son de clase 1 de permeabilidad al aire; con ventilación híbrida, las aberturas de admisión comunican directamente con el exterior.",
+      "HS4: ACS entre 50 y 65 ºC, excepto en edificios de uso exclusivo de vivienda siempre que las instalaciones no afecten al ambiente exterior.",
+      "HS4: los equipos que lo requieran van en locales con espacio para su mantenimiento, excepto en viviendas aisladas y adosadas; bomba de recirculación doble salvo en viviendas unifamiliares o instalaciones pequeñas.",
+      "HS5: si se instala bote sifónico para un grupo de aparatos, estos no llevan sifón individual (no en serie), y el bote no sirve a aparatos de otro cuarto húmedo.",
+      "HS5: una desviación de bajante de más de 45º se considera tramo horizontal: se ventila de forma independiente y se dimensiona como colector con pendiente del 4 %.",
+      "HS 6 (radón) queda fuera del alcance oficial: no se estudia ni se pregunta."
     ]
   },
 };
