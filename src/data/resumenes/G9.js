@@ -1,7 +1,7 @@
 // Resumen del tema G9. Formato: cabecera de src/data/resumenes.js.
 export default {
     intro:
-      "La LF 5/2018, de 17 de mayo, de Transparencia, acceso a la información pública y buen gobierno de Navarra regula la publicidad activa, el derecho de acceso a la información pública y el Consejo de Transparencia de Navarra (CTN) como órgano de control independiente.",
+      "La LF 5/2018, de 17 de mayo, de Transparencia, acceso a la información pública y buen gobierno de Navarra regula la publicidad activa, el derecho de acceso a la información pública y el Consejo de Transparencia de Navarra (CTN) como órgano de control independiente. Texto vigente el 21-05-2026: incluye la reforma de la Ley Foral 3/2026, de 23 de marzo (BON n.º 66, de 07-04-2026, en vigor el 08-04-2026), que suprimió los arts. 6 y 53, añadió los arts. 29 bis y 65 bis y rehízo, entre otros, los arts. 32, 39 y 65. El Título IV (grupos de interés) no entra en el alcance oficial del tema.",
     bloques: [
       {
         h: "Ámbito subjetivo (arts. 2-3)",
@@ -13,7 +13,7 @@ export default {
         ],
       },
       {
-        h: "Publicidad activa — obligaciones de información (arts. 11-18)",
+        h: "Publicidad activa — obligaciones de información (arts. 11-29 bis)",
         nota:
           "Publicidad ACTIVA y derecho de ACCESO son las dos mitades de la ley y no deben mezclarse: la primera es lo que la Administración publica por iniciativa propia y sin que nadie lo pida; el segundo es lo que un ciudadano solicita. De la publicidad activa se preguntan los plazos de actualización y permanencia, que son distintos entre sí, y la multa coercitiva a los adjudicatarios incumplidores, reiterable cada QUINCE días — no confundir con la del Consejo de Transparencia del art. 69, que es cada diez.",
         items: [
@@ -27,7 +27,7 @@ export default {
       {
         h: "Derecho de acceso — ejercicio (arts. 30-33)",
         nota:
-          "El principio rector del bloque es que el acceso es la regla y la denegación la excepción: NO hay que motivar la solicitud ni acreditar interés alguno, y la falta de motivación no puede ser por sí sola causa de rechazo. Los límites existen, pero se aplican de forma restrictiva, motivada y proporcionada, atendiendo al caso concreto y ponderando el interés público en la divulgación. Cuando la información contenga datos personales especialmente protegidos, la regla se endurece: hace falta consentimiento EXPRESO Y POR ESCRITO o una norma con rango de ley que lo ampare.",
+          "El principio rector del bloque es que el acceso es la regla y la denegación la excepción: NO hay que motivar la solicitud ni acreditar interés alguno; el solicitante puede exponer sus razones, pero «en ningún caso podrá exigirse dicha motivación» (art. 34.3). Los límites existen, pero se aplican de forma restrictiva, motivada y proporcionada, atendiendo al caso concreto y ponderando el interés público en la divulgación. Cuando la información contenga datos personales especialmente protegidos, la regla se endurece: hace falta consentimiento EXPRESO Y POR ESCRITO o una norma con rango de ley que lo ampare.",
         items: [
           "Titular: cualquier persona física o jurídica; no es necesario motivar ni acreditar interés alguno (art. 30.2)",
           "Limitaciones tasadas (art. 31.1): seguridad pública, secreto en toma de decisiones, investigación penal/administrativa, tutela judicial, vigilancia e inspección, intereses económicos y comerciales, secreto profesional/PI, medio ambiente, información protegida por ley",
@@ -44,11 +44,11 @@ export default {
           "Solicitudes imprecisas: 10 días hábiles para concretar; suspende plazo para resolver (art. 35.1)",
           "Causas de inadmisión (art. 37): información inexistente, competencia desconocida, petición de elaboración de informes/dictámenes, solicitudes abusivas, documentación preparatoria inconclusa, información auxiliar interna, reelaboración necesaria",
           "Derivación a órgano competente: 10 días naturales (art. 38.1)",
-          "Intervención de terceros: audiencia 10-15 días; suspende plazo para resolver (art. 39.1)",
+          "Intervención de terceros: audiencia no inferior a 10 ni superior a 15 días (15 días cuando procede por datos personales del art. 32); suspende el plazo para resolver (art. 39)",
           "Plazo resolución: 1 mes + prórroga de 1 mes adicional (comunicar en 10 días) (art. 41.1)",
           "Silencio: ESTIMATORIO (regla general); excepto cuando la denegación venga impuesta por norma con rango de ley (art. 41.2)",
           "Resoluciones ponen fin a la vía administrativa → recurso contencioso o reclamación potestativa ante CTN (art. 42.5)",
-          "Gratuito: acceso in situ, entrega por correo electrónico, publicidad activa; copias y transposición de formato: precio máximo igual a coste (art. 44)",
+          "Gratuito: acceso in situ, entrega por correo electrónico, publicidad activa y entrega en otra forma o formato cuando el órgano lo considere más razonable (art. 44.1.d, añadido en 2026); copias y transposición de formato: precio máximo igual a coste (art. 44.3)",
         ],
       },
       {
@@ -94,7 +94,7 @@ export default {
       "No hay que motivar ni acreditar interés para solicitar acceso",
       "Datos especiales: consentimiento expreso y escrito O norma con rango de ley",
       "Solicitudes imprecisas: 10 días hábiles para concretar; suspende plazo",
-      "Inadmisión: no incluye solicitudes a órgano incompetente (→ derivación en 10 días naturales)",
+      "Información que no obra en poder del órgano: se inadmite solo si se desconoce el competente; si se conoce, derivación en 10 días naturales (arts. 37.b y 38.1)",
       "Plazo resolución: 1 mes (+ prórroga 1 mes; avisar en 10 días)",
       "Silencio = estimatorio (salvo denegación impuesta por ley)",
       "Resoluciones de acceso: fin de vía administrativa",
@@ -110,4 +110,97 @@ export default {
       "Multa coercitiva del CTN: 500 a 5.000 €, reiterable CADA DIEZ DÍAS, más publicación de la actitud incumplidora",
       "Equilibrio de sexos: ni más del 60 % ni menos del 40 % (art. 4.1.f LF 17/2019)",
     ],
+    memorizacion: {
+      tablas: [
+        {
+          titulo: "Plazos del procedimiento de acceso y de la reclamación (arts. 35-45)",
+          columnas: ["Trámite", "Plazo", "Efecto o detalle"],
+          filas: [
+            ["Concretar una solicitud imprecisa (art. 35.1)", "10 días HÁBILES", "Suspende el plazo para resolver; si no se concreta, desistimiento por resolución"],
+            ["Derivar la solicitud al órgano que tiene la información (art. 38.1)", "10 días NATURALES", "Se comunica al solicitante a qué órgano se ha derivado"],
+            ["Audiencia a terceros afectados (art. 39.1)", "No inferior a 10 ni superior a 15 días", "Suspende el plazo para resolver; si el tercero no se opone, se entiende que no se opone"],
+            ["Audiencia por datos personales del art. 32 (art. 39.2)", "15 días", "Se pueden recabar datos identificativos y de domicilio de los afectados"],
+            ["Audiencia al solicitante (art. 40.2)", "No inferior a 10 ni superior a 15 días", "Cuando concurran limitaciones o hayan intervenido terceros; suspende el plazo"],
+            ["Resolver la solicitud (art. 41.1.a)", "1 MES desde la entrada en el registro del órgano competente", "Salvo plazo específico en norma con rango de ley"],
+            ["Ampliación (art. 41.1.b)", "Otro mes más", "Por volumen y complejidad; se informa al solicitante en 10 días"],
+            ["Silencio en la solicitud (art. 41.2)", "Al vencer el plazo", "ESTIMATORIO, salvo denegación impuesta expresamente por norma con rango de ley; hay que dictar resolución expresa igualmente (art. 41.3)"],
+            ["Reclamación ante el Consejo (art. 45.3)", "1 MES desde el día siguiente a la notificación", "Con silencio, en cualquier momento desde que se producen sus efectos"],
+            ["Audiencia a terceros en la reclamación (art. 45.4)", "No inferior a 10 ni superior a 15 días", "Si la denegación se basó en derechos de terceros; suspende el plazo"],
+            ["Resolver la reclamación (art. 45.5)", "3 MESES", "Silencio DESESTIMATORIO"]
+          ],
+          nota: "Dos silencios de signo contrario en la misma ley: la solicitud se estima por silencio (art. 41.2) y la reclamación ante el Consejo se desestima (art. 45.5)."
+        },
+        {
+          titulo: "Permanencia mínima de la información publicada (art. 11.2)",
+          columnas: ["Información", "Permanece publicada"],
+          filas: [
+            ["Situaciones de hecho", "Al menos mientras subsistan"],
+            ["Normas", "Al menos mientras mantengan su vigencia"],
+            ["Contratos, convenios y subvenciones", "Mientras persistan sus obligaciones y, al menos, 10 años después de que cesen"],
+            ["Información económica", "Al menos 10 años desde que fue generada"],
+            ["Información medioambiental y urbanística", "Mientras permanezca su vigencia y, al menos, 10 años después de que cese"]
+          ],
+          nota: "La actualización es, al menos, trimestral (art. 11.1.a), igual que el inventario de la información publicada (art. 11.1.b). En las entidades locales, la periodicidad la fijan sus disposiciones específicas."
+        },
+        {
+          titulo: "Las dos multas coercitivas de la ley",
+          columnas: ["", "Art. 12.5", "Art. 69.4.a)"],
+          filas: [
+            ["A quién", "Sujetos del art. 12 (prestadores de servicios públicos, adjudicatarios, beneficiarios de subvenciones) que no atienden el requerimiento", "Administraciones, entidades, autoridades, empleados públicos o particulares que incumplen actos o resoluciones del Consejo"],
+            ["Quién la impone", "Las Administraciones Públicas de Navarra, previo apercibimiento y audiencia", "El Consejo de Transparencia de Navarra"],
+            ["Importe", "500 a 5.000 euros", "500 a 5.000 euros"],
+            ["Reiteración", "Cada QUINCE días hasta el cumplimiento", "Cada DIEZ días hasta el cumplimiento íntegro"],
+            ["Tope y otras medidas", "El total no puede exceder del 5 % del contrato, subvención o instrumento", "Además, puede hacer pública la actitud incumplidora y dar traslado al Parlamento (art. 69.4.b)"]
+          ],
+          nota: "El requerimiento a los adjudicatarios se atiende en 10 días (art. 12.3)."
+        },
+        {
+          titulo: "Consejo de Transparencia de Navarra: presidencia y vocales (art. 65)",
+          columnas: ["", "Presidencia", "Vocales (7)"],
+          filas: [
+            ["Quién la elige o propone", "Parlamento de Navarra, por MAYORÍA ABSOLUTA, entre candidaturas de los grupos parlamentarios", "Departamento de transparencia, FNMC, Consejo de Navarra, Cámara de Comptos, Defensor del Pueblo, UPNA y Parlamento"],
+            ["Quién nombra", "Gobierno de Navarra, por decreto foral", "Gobierno de Navarra, a propuesta de la presidencia del Consejo y previa designación de cada entidad"],
+            ["Mandato", "6 AÑOS NO renovable; cese automático al expirar", "4 AÑOS; siguen en funciones hasta la nueva designación"],
+            ["Perfil", "Reconocido prestigio y competencia profesional", "Personal técnico con experiencia; cabe suplente"],
+            ["Incompatibilidades", "Alto cargo de la Administración foral y pertenencia a un partido político", "No se exige dedicación exclusiva"],
+            ["Cese a petición", "Del Parlamento, por mayoría absoluta", "De la entidad que lo propuso"]
+          ],
+          nota: "La presidencia tiene voto de calidad; en vacante, ausencia o enfermedad la sustituye el miembro de MAYOR EDAD que cumpla las incompatibilidades del art. 65.4 (art. 66). Equilibrio de sexos: entre el 40 % y el 60 % (art. 65.5)."
+        }
+      ],
+      datos: [
+        "Art. 2.4: son Administraciones Públicas de Navarra las letras a) a d) del art. 2.1: Administración de la Comunidad Foral y sus organismos, sociedades, fundaciones y entidades de Derecho público vinculadas, entidades locales y sus entes instrumentales, y la UPNA.",
+        "Art. 2.1.f) y g): sociedades mercantiles con participación superior al 50 % o influencia dominante; fundaciones con aportación mayoritaria o patrimonio aportado en más del 50 %.",
+        "Art. 2.2 y 2.bis: Cámara de Comptos, Defensor del Pueblo, Consejo de Navarra y Oficina de Buenas Prácticas y Anticorrupción, solo en su actividad administrativa de personal y contratación.",
+        "Art. 3.c): entidades privadas con ayudas de más de 20.000 euros al año, o que supongan al menos el 20 % de sus ingresos anuales con un mínimo de 5.000 euros.",
+        "Art. 5: doce principios, de la a) a la l); el último, de interpretación favorable a la transparencia (añadido en 2026).",
+        "Art. 14.2: cualquier excepción a la transparencia exige norma con rango de ley y se interpreta de forma restrictiva.",
+        "Art. 18: once bloques de publicidad activa, de la a) a la k); el j) es ordenación del territorio, urbanismo, medio ambiente y vivienda (desarrollado en el art. 28).",
+        "Art. 19.3 y 19.4: la información de recursos humanos se actualiza mensualmente; los empleados protegidos tienen 15 días para pedir su exclusión.",
+        "Art. 20.1.e): órganos y entidades en que el alto cargo participe o haya participado en los últimos 4 años.",
+        "Art. 21.2.b): el grado de cumplimiento del programa de legislatura se informa semestralmente.",
+        "Art. 23.1.g): relación al menos trimestral de contratos menores. Art. 26.1.c): concesiones de subvenciones, dentro del mes siguiente a la notificación o publicación.",
+        "Art. 28.1: el planeamiento se publica con, como mínimo, estructura general del municipio, clasificación y calificación del suelo, ordenación prevista, infraestructuras planteadas y normativa urbanística.",
+        "Art. 29 bis: denuncia por incumplimientos de publicidad activa ante el Consejo; respuesta motivada en 2 meses y confidencialidad del denunciante.",
+        "Art. 31.1: nueve límites al acceso, de la a) a la i), entre ellos la seguridad pública, el secreto profesional y la propiedad intelectual e industrial y la protección del medio ambiente.",
+        "Art. 36.4: las entidades locales determinan, en el marco de su autonomía, el órgano competente para resolver las solicitudes.",
+        "Art. 44.1: gratuitos el acceso a la información del Título II, el examen in situ, la entrega por correo electrónico y la entrega en otra forma o formato cuando el órgano lo considere más razonable; las copias y la transposición de formato, como máximo su coste.",
+        "Art. 64: trece funciones del Consejo, de la a) a la m); memoria anual al Parlamento con apartado de Cuentas Abiertas (LF 16/2016).",
+        "Arts. 6 y 53: suprimidos por la Ley Foral 3/2026 (BON n.º 66, de 07-04-2026, en vigor el 08-04-2026)."
+      ],
+      excepciones: [
+        "El silencio en la solicitud de acceso es estimatorio, salvo que la denegación venga impuesta expresamente por una norma con rango de ley (art. 41.2).",
+        "Los límites no pueden alegarse para impedir el acceso a documentos que afecten al solicitante de modo personal, particular y directo (art. 31.3).",
+        "Datos especiales, penales o de infracciones sin amonestación pública: solo con consentimiento expreso y por escrito del afectado o si lo ampara una norma con rango de ley (art. 32.1 y 32.2). Nada de esto se aplica si se disocian los datos (art. 32.5).",
+        "Los datos meramente identificativos de quien firma los documentos se facilitan; los de las Fuerzas y Cuerpos de Seguridad se sustituyen por su código profesional (art. 32.4).",
+        "Se inadmite la solicitud de información que no obra en poder del órgano solo si se desconoce el competente; si se conoce, se deriva (arts. 37.b y 38.1).",
+        "No son información auxiliar los informes jurídicos, técnicos o económicos que formen parte del expediente (art. 37.f), y no es reelaboración el tratamiento informatizado de uso corriente ni aglutinar información dispersa (art. 37.g).",
+        "Contra las resoluciones del Defensor del Pueblo de Navarra, la Cámara de Comptos y el Consejo de Navarra solo cabe recurso contencioso-administrativo, sin reclamación ante el Consejo (art. 42.6).",
+        "Si se concede el acceso con oposición de un tercero, el acceso solo se hace efectivo cuando ha pasado el plazo del recurso contencioso sin interponerse o se ha confirmado el derecho (art. 42.2).",
+        "No se publican los datos de contratos declarados secretos o reservados (art. 23.2), ni los datos personales de beneficiarios de ayudas sociales, salvo que una ley disponga lo contrario (art. 26.3).",
+        "Representantes locales: retribuciones y declaraciones de bienes según la Ley 7/1985, omitiendo la localización concreta de los inmuebles (art. 20.3).",
+        "Las resoluciones del Consejo son vinculantes, salvo para las instituciones públicas forales no sujetas a su conocimiento (art. 69.1).",
+        "Las adaptaciones para solicitantes con discapacidad nunca suponen un sobrecoste para ellos (art. 44.4)."
+      ]
+    },
   };
