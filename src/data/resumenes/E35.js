@@ -1,6 +1,16 @@
 // Resumen del tema E35. Formato: cabecera de src/data/resumenes.js.
+// Revisado el 02-11-2026 (chequeo del tema) contra la redacción vigente el 21-05-2026. Vigencia comprobada en el BOE
+// (pestaña «Análisis»): DFL 1/2017 (BOE-A-2017-12907, última actualización 31-12-2025), arts. 47, 70, 190, 191 y
+// 193-197 y DA 5.ª sin cambios desde 2017 y art. 192 modificado solo por la LF 4/2021 (letras g y h, en vigor el
+// 29-04-2021); Ley 39/2015, art. 69 sin cambios; LF 17/2020, arts. 38-54 sin cambios (la LF 14/2025 solo añadió la
+// DA 8.ª y la LF 15/2026 es posterior); RDL 7/2015, art. 11.4 con las SSTC 143/2017 y 75/2018 y DA 10.ª en la
+// redacción del RDL 35/2020. El TXT trae fecha de corte 29-09-2026: se ha quitado del resumen lo posterior al
+// 21-05-2026 (acuerdos plenarios de 2-7-2026). Correcciones: art. 194.2 («parcela urbanizada», no «totalmente»),
+// art. 193 (cómputo desde la urbanización conforme al art. 104 y ampliación por circunstancias económicas) y
+// art. 194.1.d y 6 («proyecto de edificación» definido en el CTE). Añadidos: tabla del art. 190, filas del
+// art. 197.4 y datos y excepciones de alto rendimiento (arts. 69.3 LPAC y 44 LF 17/2020).
 export default {
-    "intro": "Licencias de obras y de primera utilización, apertura de actividades y técnicas de declaración responsable o comunicación: régimen del DFL 1/2017 (TRLFOTU), procedimiento común y aplicación en Pamplona, con referencia normativa a 29/09/2026.",
+    "intro": "Licencias de obras y de primera utilización, apertura de actividades y técnicas de declaración responsable o comunicación: régimen del DFL 1/2017 (TRLFOTU), procedimiento común y aplicación en Pamplona, según la normativa vigente el 21-05-2026, fecha de publicación de la convocatoria (base 6.6). El TXT del tema tiene fecha de corte 29-09-2026: lo posterior al 21-05-2026 (apartado 14.13, acuerdos plenarios de 2-7-2026) no se estudia.",
     "bloques": [
       {
         "h": "1. Alcance del tema y normativa vigente",
@@ -57,17 +67,17 @@ export default {
         "items": [
           "La competencia corresponde a la entidad local según la legislación de régimen local; cuando intervienen concejos deben atenderse las reglas específicas de la LF 6/1990. No se atribuye universalmente toda licencia al alcalde.",
           "Pamplona: municipio de gran población; atribución originaria a la Junta de Gobierno Local de la concesión de licencias, salvo atribución sectorial expresa a otro órgano (art. 127.1.e LRBRL). Es delegable conforme al art. 127.2; debe comprobarse la delegación vigente para identificar al órgano firmante concreto.",
-          "Art. 193: plazos supletorios de solicitud de licencia de edificación, salvo determinación distinta del planeamiento: en actuaciones sistemáticas, un año desde la terminación de la urbanización para municipios de más de 5.000 habitantes y dos años para los de menos de 5.000.",
+          "Art. 193: plazos supletorios de solicitud de licencia de edificación, salvo previsión expresa del planeamiento: en actuaciones sistemáticas, un año en entidades locales de más de 5.000 habitantes y dos años en las de menos de esa población, desde que se hubiera procedido a la urbanización conforme al art. 104.",
           "En actuaciones asistemáticas, los plazos anteriores se duplican. El art. 193 refiere el cómputo a la urbanización conforme al art. 104 y no establece un inicio distinto en la aprobación del planeamiento para las asistemáticas.",
-          "El Ayuntamiento puede ampliar justificadamente esos plazos. Las expresiones poblacionales del artículo son más de/menos de 5.000: no añadir una regla no escrita para el supuesto exactamente igual a 5.000."
+          "Los plazos pueden ampliarse atendiendo a circunstancias económicas, financieras y de mercado que justifiquen suficientemente su ampliación. Las expresiones poblacionales del artículo son más de/menos de 5.000: no añadir una regla no escrita para el supuesto exactamente igual a 5.000."
         ]
       },
       {
         "h": "6. Solicitud de licencia de obras y documentación",
-        "nota": "El proyecto básico permite tramitar y conceder licencia, pero la eficacia para ejecutar las obras queda condicionada al proyecto de ejecución y al plazo legal de comprobación.",
+        "nota": "El proyecto básico permite tramitar y conceder licencia, pero la eficacia para ejecutar las obras queda condicionada a la presentación del proyecto de edificación definido en el CTE (el de ejecución) y al plazo legal de comprobación.",
         "items": [
           "Art. 194.1: solicitud con los datos del procedimiento común, proyecto básico según CTE suscrito por facultativo competente y declaración del técnico redactor de cumplimiento urbanístico y de requisitos básicos de calidad y seguridad. El facultativo responde de exactitud y veracidad de los datos técnicos del proyecto.",
-          "Antes del comienzo debe presentarse el proyecto de ejecución correspondiente. El proyecto básico no habilita por sí solo para ejecutar las obras.",
+          "Previamente al inicio de las obras se presenta, ante la entidad local que concedió la licencia, el proyecto de edificación definido en el CTE (art. 194.1.d). El proyecto básico no habilita por sí solo para ejecutar las obras.",
           "Art. 194.6: el acuerdo de concesión condiciona su eficacia a presentar el proyecto de edificación. La entidad local dispone de un máximo de quince días desde su presentación para resolver sobre conformidad o disconformidad y notificarlo; no se establece expresamente un segundo silencio positivo autónomo.",
           "Antes de registrar: comprobar planeamiento, patrimonio, dominio público y autorizaciones sectoriales; determinar si la actividad necesita control ambiental y su relación temporal con las obras.",
           "Art. 68 LPAC: subsanación ordinaria de diez días; si no se cumple, desistimiento previa resolución. La petición de documentos debe concretar las deficiencias, sin dejar indefinidamente incierto el expediente.",
@@ -78,7 +88,7 @@ export default {
         "h": "7. Instrucción, informes y resolución",
         "nota": "No deben confundirse el silencio en un informe, el vencimiento del plazo de resolución y la eficacia para comenzar una obra. Cada uno tiene presupuesto y efecto propios.",
         "items": [
-          "Art. 194.4: instrucción con informes técnicos de los servicios de la entidad local. El precepto foral no enuncia una exigencia literal universal de informe técnico y jurídico; el texto municipal de procedimiento urbanístico contempla técnico y letrado en su art. 52.",
+          "Art. 194.4: comunicación a las Administraciones afectadas para que informen en el plazo de su normativa e incorporación del informe o informes técnicos, de personal titulado competente, sobre la conformidad del proyecto con el planeamiento vigente. El precepto foral no enuncia una exigencia literal universal de informe técnico y jurídico; el texto municipal de procedimiento urbanístico contempla técnico y letrado en su art. 52.",
           "Edificios de viviendas de nueva planta: informe previo del departamento competente sobre habitabilidad, máximo dos meses; si no se emite, se tiene por evacuado, sin que ello equivalga a conceder licencia (art. 194.4.a).",
           "El DF 142/2004 extiende su control sectorial a reformas que afecten a condiciones de habitabilidad; la mención a nueva planta del art. 194 no agota el régimen de vivienda.",
           "Art. 80 LPAC: informes normalmente facultativos y no vinculantes, salvo disposición expresa; diez días salvo plazo distinto. No atribuir esos caracteres a informes sectoriales que sean preceptivos o vinculantes.",
@@ -143,7 +153,7 @@ export default {
           "Si la aprobación inicial llega después del año de suspensión previa, su suspensión tiene máximo de un año; en todo caso termina con aprobación definitiva. No cabe nueva suspensión por idéntica finalidad durante tres años desde la extinción.",
           "La suspensión debe delimitar ámbitos o usos y publicarse según la ley; los solicitantes anteriores a su publicación tienen los derechos indemnizatorios y de devolución de tasas del art. 70.6.",
           "Resoluciones locales de Navarra: alternativas de reposición potestativa, alzada potestativa ante TAN o vía contenciosa según régimen aplicable. Para actos expresos: un mes, un mes y ordinariamente dos meses, respectivamente; no son recursos simultáneos ni se trasladan esos plazos sin matices al silencio.",
-          "En Pamplona constan acuerdos de 02/07/2026 sobre ámbitos y usos concretos de plantas bajas y comercio: comprobar publicación, delimitación y situación del expediente antes de aplicar una suspensión a un local. No se infiere una prohibición general para toda la ciudad."
+          "Fuera de fecha: los acuerdos plenarios de Pamplona de 2-7-2026 (suspensión de licencias en plantas bajas terciarias y en comercios centenarios) que recoge el TXT en su apartado 14.13 son posteriores al 21-05-2026 y no se estudian. Para el examen basta el régimen general de suspensión del art. 70."
         ]
       },
       {
@@ -151,7 +161,7 @@ export default {
         "nota": "La comprobación de la obra terminada y su aptitud para el uso tiene objeto distinto de autorizar su construcción. Un certificado técnico es documentación del título, no el título municipal.",
         "items": [
           "Art. 190.2.h: primera utilización u ocupación de edificios e instalaciones y cambio de uso sujetos a licencia, sin perjuicio de excepciones legales específicas.",
-          "Art. 194.2: en lugar de los documentos de las letras b y c del apartado 1, certificado del técnico director con fecha de terminación y acreditación de ajuste al proyecto aprobado y condiciones de la licencia, parcela totalmente urbanizada y edificio apto para su utilización.",
+          "Art. 194.2: en lugar de los documentos de las letras b y c del apartado 1, certificación del facultativo director de la obra que acredite la fecha de finalización, la ejecución conforme al proyecto aprobado y a las condiciones de la licencia de obra, que la parcela se encuentra urbanizada y que la edificación está en condiciones de ser utilizada.",
           "No basta certificar final físico de la edificación si faltan condiciones de licencia, urbanización o aptitud para el destino. Las desviaciones relevantes deben tramitarse y no quedan legalizadas por la primera utilización.",
           "La cédula de habitabilidad del régimen foral de vivienda, el informe previo de habitabilidad, el certificado final de obra y la recepción contractual de la obra tienen funciones distintas; ninguno sustituye automáticamente la licencia de primera utilización.",
           "El cambio de uso se examina aunque no haya obras: compatibilidad urbanística, dotaciones, accesibilidad, seguridad y, en vivienda, habitabilidad. Una declaración de actividad inocua no dispensa de licencia de cambio de uso exigible.",
@@ -283,7 +293,7 @@ export default {
       },
       {
         "h": "24. Fuentes de consulta del resumen",
-        "nota": "Las referencias abreviadas remiten a estos textos oficiales y al Tema 35 completo con fecha normativa 29/09/2026. Las reglas de ordenanzas antiguas se conservan con su ámbito y límites de lectura.",
+        "nota": "Las referencias abreviadas remiten a estos textos oficiales y al Tema 35 completo, con la normativa vigente el 21-05-2026 (el TXT trae fecha de corte 29-09-2026; lo posterior no se estudia). Vigencia comprobada en el BOE (pestaña «Análisis»): arts. 47, 70, 190, 191 y 193-197 del DFL 1/2017 sin cambios; art. 192 modificado solo por la LF 4/2021 (letras g y h); art. 69 LPAC sin cambios; arts. 38-54 de la LF 17/2020 sin cambios. Las reglas de ordenanzas antiguas se conservan con su ámbito y límites de lectura.",
         "items": [
           "TRLFOTU consolidado, LexNavarra: https://www.lexnavarra.navarra.es/detalle.asp?r=39197",
           "LPAC consolidada, BOE: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
@@ -301,7 +311,7 @@ export default {
       "Silencio estimatorio no significa adquisición de facultades ilegales; silencio desestimatorio no elimina la obligación de resolver.",
       "Motivación tanto de la concesión como de la denegación; reserva de propiedad privada no permite ocupación ilegal de bienes públicos.",
       "El art. 197 no contiene la regla específica de transmisión; su complemento general es el art. 13 del Reglamento de Servicios.",
-      "El proyecto básico permite solicitar; el proyecto de ejecución condiciona el comienzo; el certificado final sirve al control de terminación.",
+      "El proyecto básico permite solicitar; el proyecto de edificación (de ejecución) condiciona el comienzo; el certificado final sirve al control de terminación.",
       "Aprobación de proyecto municipal: control urbanístico integrado; PSIS: exención condicionada al cumplimiento completo del art. 47.",
       "Declaración responsable: cumplir, disponer de documentos, aportarlos a requerimiento y mantener el cumplimiento.",
       "El art. 195.8 equipara a actuación sin licencia la realizada sin declaración preceptiva; cita literalmente declaración responsable.",
@@ -354,6 +364,77 @@ export default {
           "nota": "Arts. 190, 194–197 TRLFOTU y 69 LPAC. La regla común de presentación no elimina regímenes sectoriales especiales ni títulos independientes exigibles."
         },
         {
+          "titulo": "Art. 190: actos sujetos con salvedad y actos no sujetos",
+          "columnas": [
+            "Acto",
+            "Régimen",
+            "Salvedad o matiz literal"
+          ],
+          "filas": [
+            [
+              "Movimientos de tierra: desmontes, explanaciones, excavaciones y terraplenados",
+              "Sujetos (190.2.g)",
+              "Salvo que estén detallados y programados como obras en un proyecto de urbanización o de edificación aprobado"
+            ],
+            [
+              "Primera utilización u ocupación y modificación del uso",
+              "Sujetas (190.2.h)",
+              "De los edificios e instalaciones «en general», no solo viviendas"
+            ],
+            [
+              "Demolición de construcciones",
+              "Sujeta (190.2.i)",
+              "Salvo en los casos declarados de ruina inminente"
+            ],
+            [
+              "Corta de arbolado y vegetación arbustiva (masa arbórea, espacio boscoso, arbolado o parque)",
+              "Sujeta (190.2.k), exista o no planeamiento aprobado",
+              "Con excepción de las labores autorizadas por la legislación agraria"
+            ],
+            [
+              "Presas, balsas, obras de defensa y corrección de cauces públicos",
+              "Sujetas (190.2.l)",
+              "Siempre que no constituyan obras públicas de interés general"
+            ],
+            [
+              "Extracción de áridos y explotación de canteras",
+              "Sujetas (190.2.m)",
+              "Aunque se produzcan en dominio público y estén sujetas a concesión"
+            ],
+            [
+              "Edificación y uso del suelo por particulares en dominio público",
+              "También licencia (190.5)",
+              "Sin perjuicio de la autorización o concesión del ente titular"
+            ],
+            [
+              "Actos del municipio en su propio término y obras públicas municipales",
+              "No sujetos (190.4.a)",
+              "Autorizados por el acuerdo de aprobación del proyecto, previa acreditación del respeto al planeamiento"
+            ],
+            [
+              "Parcelaciones o divisiones de fincas incluidas en un proyecto de reparcelación",
+              "No sujetas (190.4.b)",
+              "Las parcelaciones urbanísticas y las segregaciones o divisiones de fincas rústicas sí lo están (190.2.f)"
+            ],
+            [
+              "Actos eximidos expresamente por la legislación sectorial",
+              "No sujetos (190.4.c)",
+              "Hace falta la norma sectorial de exención"
+            ],
+            [
+              "Obras en cumplimiento de una orden de ejecución",
+              "No sujetas (190.4.d)",
+              "Si no requieren proyecto técnico o la orden, o el acto de ejecución subsidiaria, lo incorpora"
+            ],
+            [
+              "Actos sujetos a declaración responsable o comunicación",
+              "No sujetos a licencia (190.4.e)",
+              "Catálogo del art. 192 (Tema 36)"
+            ]
+          ],
+          "nota": "DFL 1/2017, art. 190 (sin cambios desde 2017). Preguntas reales: Zizur 2026 P43 (no sujetas: las divisiones incluidas en un proyecto de reparcelación) y Navarra 2026 P34 (sujeta: la primera utilización). Fíjate en los conectores: «salvo», «con excepción de», «siempre que no» y «aunque»."
+        },
+        {
           "titulo": "Licencias urbanísticas: plazos de solicitud y tramitación",
           "columnas": [
             "Supuesto",
@@ -365,13 +446,13 @@ export default {
             [
               "Solicitud: sistemática, municipio >5.000 habitantes",
               "1 año",
-              "Terminación de urbanización; salvo plazo del plan",
+              "Desde que se haya procedido a la urbanización (art. 104); salvo plazo del plan",
               "Art. 193 TRLFOTU"
             ],
             [
               "Solicitud: sistemática, municipio <5.000 habitantes",
               "2 años",
-              "Terminación de urbanización; salvo plazo del plan",
+              "Desde que se haya procedido a la urbanización (art. 104); salvo plazo del plan",
               "Art. 193 TRLFOTU"
             ],
             [
@@ -393,7 +474,7 @@ export default {
               "Sin emisión se tiene por evacuado; no es licencia"
             ],
             [
-              "Conformidad del proyecto de ejecución con la licencia",
+              "Conformidad del proyecto de edificación (CTE) con la licencia",
               "Máximo 15 días",
               "Desde presentación del proyecto",
               "Art. 194.6: resolver y notificar; no segundo silencio autónomo expreso"
@@ -414,13 +495,23 @@ export default {
           "nota": "No confundir plazos para solicitar y para resolver. Art. 193 permite ampliación justificada; su literalidad >5.000/<5.000 no resuelve expresamente igualdad. Las suspensiones procedimentales se rigen por art. 22 LPAC."
         },
         {
-          "titulo": "Art. 197: ejecución, prórroga y caducidad",
+          "titulo": "Art. 197: cambio de planeamiento, ejecución, prórroga y caducidad",
           "columnas": [
             "Supuesto",
             "Dato exacto",
             "Condición / consecuencia"
           ],
           "filas": [
+            [
+              "Nuevo planeamiento con la licencia sin iniciar",
+              "Se declarará extinguida su eficacia",
+              "En lo disconforme y previa fijación de la indemnización que proceda; apartado 4, párrafo primero (Zizur 2026 P44)"
+            ],
+            [
+              "Nuevo planeamiento con la ejecución iniciada",
+              "El ayuntamiento podrá modificarla o revocarla",
+              "Previa fijación de la indemnización correspondiente; apartado 4, párrafo segundo"
+            ],
             [
               "Inicio supletorio",
               "Mínimo 1 año",
@@ -749,7 +840,9 @@ export default {
         }
       ],
       "datos": [
-        "Primera utilización: certificado del técnico director con fecha final, conformidad al proyecto y condiciones, parcela totalmente urbanizada y edificio apto (art. 194.2 TRLFOTU).",
+        "Primera utilización: certificación del facultativo director de la obra con fecha de finalización, ejecución conforme al proyecto aprobado y a las condiciones de la licencia, parcela urbanizada y edificación en condiciones de ser utilizada (art. 194.2 TRLFOTU). Sustituye al proyecto básico y a la declaración del técnico redactor.",
+        "Art. 69.3 LPAC: la declaración responsable y la comunicación surten efecto «desde el día de su presentación», no desde el día siguiente ni desde la comprobación municipal; la comunicación solo puede ser posterior al inicio si la legislación lo prevé expresamente.",
+        "Art. 44 LF 17/2020 (Zizur 2026 P67): otorgada la licencia de actividad clasificada, plazo máximo de dos años para iniciar la actividad, salvo plazo distinto; la puesta en marcha se hace con declaración responsable del promotor, no con la antigua «licencia de apertura» de la LF 4/2005. Sin declaración en plazo, la licencia agota sus efectos (art. 45.1).",
         "Art. 195.2 TRLFOTU: firma del promotor; ubicación gráfica y descripción, presupuesto, tasas/impuestos y autorizaciones exigibles constituyen el mínimo documental.",
         "La Junta de Gobierno Local tiene la atribución originaria de licencias en Pamplona, salvo atribución sectorial expresa; la delegación es posible y debe verificarse para identificar firmante (art. 127 LRBRL).",
         "Art. 47 TRLFOTU: interés general → acreditación del proyecto → autorización departamental con audiencia local → comunicación local → ejecución y certificación → autorización final de actividad.",
@@ -775,7 +868,9 @@ export default {
         "El umbral estatal de comercio es 750 m², incluido el valor exacto; 300 m² en antecedentes municipales es dato antiguo y la magnitud relevante es superficie útil de exposición y venta (art. 2 Ley 12/2012).",
         "Control posterior para todas las actividades del ámbito no equivale a visita física obligatoria para cada expediente (art. 6 de la ordenanza de 2014).",
         "Una declaración válida no espera comprobación municipal inicial; una declaración con omisiones puede ver suspendida su eficacia conforme al régimen aplicable (arts. 69 LPAC, 195 TRLFOTU y 5.4 de la ordenanza de 2014).",
-        "La nueva licencia tras caducidad se ajusta al planeamiento vigente; la prórroga del art. 197.8 toma como referencia la ordenación del otorgamiento original."
+        "La nueva licencia tras caducidad se ajusta al planeamiento vigente; la prórroga del art. 197.8 toma como referencia la ordenación del otorgamiento original.",
+        "La extracción de áridos y la explotación de canteras exigen licencia aunque se hagan en dominio público y con concesión (art. 190.2.m); y los particulares que edifican o usan el suelo en dominio público necesitan también licencia, sin perjuicio de la concesión (art. 190.5).",
+        "Parcelaciones: las urbanísticas y las segregaciones o divisiones de fincas rústicas exigen licencia (art. 190.2.f), pero no las incluidas en un proyecto de reparcelación (art. 190.4.b; Zizur 2026 P43)."
       ]
     }
   };
