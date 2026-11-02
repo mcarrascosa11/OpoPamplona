@@ -1,7 +1,18 @@
 // Resumen del tema E27. Formato: cabecera de src/data/resumenes.js.
+// Revisado el 02-11-2026 (chequeo del tema) contra la redacción vigente el 21-05-2026: LexNavarra (r=29960,
+// BON n.º 69, de 08-04-2011) y BOE. El Decreto Foral no tiene modificaciones salvo el art. 11 (fondo para la
+// recuperación de zonas degradadas), DEROGADO por la disposición derogatoria única de la Ley Foral 14/2018, de
+// 18 de junio, de Residuos y su Fiscalidad (BON n.º 120, de 22-06-2018; BOE-A-2018-8953, pestaña «Análisis»):
+// el TXT lo sigue mostrando con una «Nota de Vigencia» sin resolver. Se marca como derogado en el bloque, en las
+// claves y en la memorización. Se señalan también las remisiones a normas derogadas: Ley 10/1998 (por la Ley
+// 22/2011, 30-07-2011), LF 4/2005 (por la LF 17/2020, 22-06-2021), RD 1481/2001 (por el RD 646/2020,
+// 09-07-2020) y TR de la Ley de Evaluación de Impacto Ambiental de Proyectos, RDL 1/2008 (por la Ley 21/2013,
+// 12-12-2014). Otras correcciones: la nota del plan del poseedor (su circuito no es el del plan de seguridad y
+// salud) y la de la DA 2.ª (no consta ninguna actualización por Orden Foral de fianzas ni ratios). Se añaden las
+// tablas de vigencia, de plazos y de quién hace qué, dos datos y dos excepciones.
 export default {
     intro:
-      "El Decreto Foral 23/2011 desarrolla y adapta a Navarra el RD 105/2008 sobre producción y gestión de residuos de construcción y demolición. Es un tema de cifras: umbrales de separación por fracciones, cuantías de fianza, ratios de generación y plazos. El esquema conceptual es sencillo y conviene fijarlo antes de memorizar números — hay tres sujetos (PRODUCTOR, POSEEDOR y GESTOR) y a cada uno le corresponde un documento: el productor redacta el ESTUDIO de gestión dentro del proyecto, el poseedor redacta el PLAN que aprueba la dirección facultativa, y el gestor lleva el REGISTRO de entradas y salidas y emite los certificados. Para el técnico municipal el punto crítico es la fianza: se deposita con la solicitud de licencia y se devuelve contra certificado de gestor autorizado.",
+      "El Decreto Foral 23/2011 desarrolla y adapta a Navarra el RD 105/2008 sobre producción y gestión de residuos de construcción y demolición. Es un tema de cifras: umbrales de separación por fracciones, cuantías de fianza, ratios de generación y plazos. El esquema conceptual es sencillo y conviene fijarlo antes de memorizar números — hay tres sujetos (PRODUCTOR, POSEEDOR y GESTOR) y a cada uno le corresponde un documento: el productor redacta el ESTUDIO de gestión dentro del proyecto, el poseedor redacta el PLAN que aprueba la dirección facultativa, y el gestor lleva el REGISTRO de entradas y salidas y emite los certificados. Para el técnico municipal el punto crítico es la fianza: se deposita con la solicitud de licencia y se devuelve contra certificado de gestor autorizado. Vigencia a 21-05-2026: el texto no se ha modificado desde 2011, salvo el ART. 11 (fondo para la recuperación de zonas degradadas), DEROGADO por la Ley Foral 14/2018, de 18 de junio, de Residuos y su Fiscalidad, que no se estudia. Ojo también con sus remisiones: la Ley 10/1998, la LF 4/2005, el RD 1481/2001 y el texto refundido de evaluación de impacto ambiental de 2008 que cita el decreto están hoy derogados.",
     bloques: [
       {
         h: "Objeto y ámbito (arts. 1-2)",
@@ -44,7 +55,7 @@ export default {
       {
         h: "Obligaciones del poseedor: el plan y la separación (art. 5)",
         nota:
-          "El plan del poseedor sigue el mismo circuito que el plan de seguridad y salud: lo redacta quien ejecuta, lo aprueba la dirección facultativa, lo acepta la propiedad y desde ese momento es documento contractual. Los siete umbrales de separación del apartado 4 son el dato numérico más preguntado del tema; conviene fijarlos como una escala descendente y recordar que se miden por fracción individualizada sobre el total de la obra, no sobre lo generado en un momento dado.",
+          "El plan del poseedor recuerda al plan de seguridad y salud porque lo redacta quien ejecuta la obra, pero su circuito es propio: lo aprueba la DIRECCIÓN FACULTATIVA, lo acepta la PROPIEDAD y desde ese momento es documento contractual de la obra. Los siete umbrales de separación del apartado 4 son el dato numérico más preguntado del tema; conviene fijarlos como una escala descendente y recordar que se miden por fracción individualizada sobre el total de la obra, no sobre lo generado en un momento dado.",
         items: [
           "PLAN (art. 5.1): quien ejecuta la obra debe presentar a la propiedad un plan que refleje cómo cumplirá sus obligaciones sobre los RCDs. Una vez APROBADO POR LA DIRECCIÓN FACULTATIVA y ACEPTADO POR LA PROPIEDAD, pasa a formar parte de los documentos contractuales de la obra",
           "Entrega (art. 5.2): cuando no los gestione por sí mismo, el poseedor debe entregarlos a gestor autorizado o participar en un acuerdo voluntario o convenio de colaboración. Destino preferente y por este orden: REUTILIZACIÓN, RECICLADO u otras formas de VALORIZACIÓN; solo se destinan a eliminación cumpliendo las condiciones del art. 10",
@@ -57,7 +68,7 @@ export default {
       {
         h: "Fianzas y Registro de Constructor-Poseedor (art. 6)",
         nota:
-          "Hay dos sistemas alternativos para garantizar la correcta gestión, y esa alternativa es la clave del artículo. O bien el productor deposita fianza obra por obra con la solicitud de licencia, o bien contrata a un constructor-poseedor inscrito en el Registro foral, que ya tiene depositada una fianza general por su actividad. Las obras de escasa entidad solo pueden usar la segunda vía; las demás pueden elegir. Los tres importes —11 €/t, 17 €/m³, mínimo 1.000 € y máximo 3 %— y el plazo de devolución de 15 días son datos de examen seguro.",
+          "Hay dos sistemas alternativos para garantizar la correcta gestión, y esa alternativa es la clave del artículo. O bien el productor deposita fianza obra por obra con la solicitud de licencia, o bien contrata a un constructor-poseedor inscrito en el Registro foral, que ya tiene depositada una fianza general por su actividad. Las obras de escasa entidad solo pueden usar la segunda vía; las demás pueden elegir. Las cifras —11 €/t o 17 €/m³, mínimo 1.000 € y máximo 3 %— y el plazo de devolución de 15 días son datos de examen seguro.",
         items: [
           "Obras de ESCASA ENTIDAD (art. 6.1): el productor cumple contratando a un CONSTRUCTOR-POSEEDOR inscrito en el Registro de Constructor-Poseedor de RCDs que mantiene el departamento competente en medio ambiente",
           "Obras que precisan licencia y NO son de escasa entidad (art. 6.2.a): depositar JUNTO CON LA SOLICITUD DE LICENCIA fianza o aval bancario de 11 EUROS/T o 17 EUROS/M³ de RCDs que no sean tierras de excavación, con un MÍNIMO DE 1.000 EUROS y un MÁXIMO DEL 3 % DEL PRESUPUESTO del proyecto",
@@ -96,17 +107,17 @@ export default {
         ],
       },
       {
-        h: "Restauración, relleno y vertedero (arts. 9-11)",
+        h: "Restauración, relleno y vertedero (arts. 9-12; el art. 11, derogado)",
         nota:
-          "El art. 9 impide que el relleno de huecos se use como vertido encubierto: exige autorización ambiental que declare EXPRESAMENTE que se trata de valorización, tratamiento previo para aprovechar los pétreos y una impermeabilización del emplazamiento con valores concretos. El art. 10 impone tratamiento previo antes de cualquier vertedero, con tres excepciones tasadas. Y el art. 11 cierra el círculo económico: las fianzas no devueltas acaban financiando la recuperación de zonas degradadas.",
+          "El art. 9 impide que el relleno de huecos se use como vertido encubierto: exige autorización ambiental que declare EXPRESAMENTE que se trata de valorización, tratamiento previo para aprovechar los pétreos y una impermeabilización del emplazamiento con valores concretos. El art. 10 impone tratamiento previo antes de cualquier vertedero, con tres excepciones tasadas. El art. 11 (fondo para la recuperación de zonas degradadas) está DEROGADO por la Ley Foral 14/2018, de Residuos y su Fiscalidad: no se estudia ni se pregunta.",
         items: [
-          "Requisitos para valorizar residuos inertes en restauración, acondicionamiento o relleno (art. 9): autorización ambiental de la LF 4/2005 que DECLARE EXPRESAMENTE que se trata de actividad de valorización · autorización de gestor indicando las operaciones · cumplir los requisitos del art. 7 EXCEPTO SU PUNTO 2 · que el resultado sea la SUSTITUCIÓN DE RECURSOS NATURALES que habrían debido emplearse",
+          "Requisitos para valorizar residuos inertes en restauración, acondicionamiento o relleno (art. 9): autorización ambiental de la LF 4/2005 (ley foral hoy derogada por la LF 17/2020) que DECLARE EXPRESAMENTE que se trata de actividad de valorización · autorización de gestor indicando las operaciones · cumplir los requisitos del art. 7 EXCEPTO SU PUNTO 2 · que el resultado sea la SUSTITUCIÓN DE RECURSOS NATURALES que habrían debido emplearse",
           "Tratamiento previo (art. 9.5): los RCDs destinados a restauración o relleno deben haber sido tratados para aprovechar como mínimo los materiales PÉTREOS (hormigón, cerámica…) y haberles sido retirada la TOTALIDAD de los residuos peligrosos y de los no peligrosos no inertes, salvo que el proyecto de restauración aprobado especifique los tipos admisibles",
           "Criterios de admisión de los inertes: los del apartado 2.1 de la Decisión 2003/33/CE (art. 9.6)",
           "IMPERMEABILIZACIÓN (art. 9.7): salvo que lo desaconsejen razones técnicas, los emplazamientos alcanzarán una impermeabilización natural o artificial equivalente a K = 1 × 10⁻⁷ M/S EN UN ESPESOR DE 1 M; la capa de impermeabilización geológica ARTIFICIAL tendrá un espesor MÍNIMO DE 0,5 M",
           "VERTEDERO (art. 10.1): los RCDs que vayan a depositarse en vertedero autorizado deben haber sido tratados para aprovechar como mínimo los materiales pétreos y con retirada total de los peligrosos y de los no inertes",
           "Tres EXCEPCIONES a esa exigencia (art. 10.2-3): los residuos inertes cuyo tratamiento sea TÉCNICAMENTE INVIABLE · los RCDs cuyo tratamiento no contribuya a los objetivos del art. 1 ni a reducir los peligros para la salud o el medio ambiente · y los vertederos ubicados en POBLACIONES AISLADAS que reciban exclusivamente RCDs inertes generados en dichas poblaciones",
-          "FONDO PARA LA RECUPERACIÓN DE ZONAS DEGRADADAS (art. 11): transcurridos SEIS MESES desde la finalización de las obras sin que el titular haya presentado justificante de entrega a gestor autorizado, y previa notificación del Ayuntamiento, las fianzas no devueltas pueden incorporarse a un fondo destinado a la rehabilitación, restauración o recuperación de zonas degradadas o con vertidos incontrolados",
+          "Art. 11, FONDO PARA LA RECUPERACIÓN DE ZONAS DEGRADADAS: DEROGADO por la disposición derogatoria única de la Ley Foral 14/2018, de 18 de junio, de Residuos y su Fiscalidad (BON n.º 120, de 22-06-2018). El TXT lo sigue mostrando con una «Nota de Vigencia»: no se estudia",
           "Régimen sancionador (art. 12): el establecido en la normativa vigente en materia de residuos, sin regulación propia en este decreto",
         ],
       },
@@ -128,9 +139,9 @@ export default {
       {
         h: "Disposiciones adicionales y transitoria",
         nota:
-          "Tres disposiciones cortas que resuelven casos concretos y por eso se preguntan. La adicional primera es la más útil en la práctica municipal, porque saca del régimen general los excedentes de excavación de la obra pública sometida a evaluación de impacto ambiental — pero solo parcialmente: el estudio de gestión del art. 4.1.a se sigue exigiendo. La adicional segunda explica por qué las cifras del decreto (ratios del Anejo 3 y fianzas del art. 6) pueden estar desactualizadas respecto del texto de 2011: son actualizables por Orden Foral.",
+          "Tres disposiciones cortas que resuelven casos concretos y por eso se preguntan. La adicional primera es la más útil en la práctica municipal, porque saca del régimen general los excedentes de excavación de la obra pública sometida a evaluación de impacto ambiental — pero solo parcialmente: el estudio de gestión del art. 4.1.a se sigue exigiendo. La adicional segunda permite actualizar por Orden Foral las cifras del decreto (ratios del Anejo 3 y fianzas del art. 6); el texto consolidado de LexNavarra no recoge ninguna actualización, así que se estudian las cifras de 2011.",
         items: [
-          "DA PRIMERA — excedentes de excavación en obra pública: las medidas del decreto, SALVO LO REFERIDO EN EL ARTÍCULO 4.1.a (el estudio de gestión), NO son aplicables a los excedentes generados en excavaciones y demoliciones de obras de TITULARIDAD PÚBLICA sometidas a evaluación de impacto ambiental, a los que se aplica la legislación de evaluación de impacto ambiental de proyectos. Si esos excedentes estuvieran CONTAMINADOS por sustancias peligrosas, se aplica la normativa específica de residuos",
+          "DA PRIMERA — excedentes de excavación en obra pública: las medidas del decreto, SALVO LO REFERIDO EN EL ARTÍCULO 4.1.a (el estudio de gestión), NO son aplicables a los excedentes generados en excavaciones y demoliciones de obras de TITULARIDAD PÚBLICA sometidas a evaluación de impacto ambiental, a los que se aplica la legislación de evaluación de impacto ambiental de proyectos (el decreto cita el Texto Refundido aprobado por el RDL 1/2008, hoy derogado por la Ley 21/2013). Si esos excedentes estuvieran CONTAMINADOS por sustancias peligrosas, se aplica la normativa específica de residuos",
           "DA SEGUNDA — actualización de cifras: los valores de los RATIOS de generación de residuos de los distintos tipos de obra y la cuantía de las FIANZAS del art. 6 y del Anexo III pueden actualizarse mediante ORDEN FORAL del departamento competente, en función de la evolución que sufra el sector",
           "DT ÚNICA — plazos de adaptación, todos de SEIS MESES: las instalaciones de tratamiento de RCDs con autorización vigente antes de la entrada en vigor debían adaptarse al Anejo I en 6 meses desde ésta · los titulares de emplazamientos con actividades autorizadas del art. 9 (restauración, acondicionamiento o relleno), en 6 meses desde el día siguiente a la publicación en el BON · y los titulares de ACTIVIDADES EXTRACTIVAS en ejecución con planes de restauración aprobados que incluyan RCDs debían adaptar dichos planes en el mismo plazo de 6 meses",
         ],
@@ -157,7 +168,7 @@ export default {
       "Valorización en la propia obra: RCDs del Anejo 2 B con menos del 1 % de impropios y medios de planta salvo la BÁSCULA",
       "Listado municipal anual de valorizaciones en obra: antes del 1 DE MARZO del año siguiente",
       "Relleno y restauración: impermeabilización k = 1 × 10⁻⁷ m/s en 1 m de espesor; capa artificial mínimo 0,5 m",
-      "Fianzas no devueltas tras SEIS MESES sin justificante: al fondo de recuperación de zonas degradadas",
+      "Art. 11 (fondo para la recuperación de zonas degradadas): DEROGADO por la LF 14/2018, de Residuos y su Fiscalidad. No se estudia",
       "Ratio de obra nueva: 0,146 m³/m² para residencial, no residencial e industrial. Excavación: 1,6 t/m²",
       "Excedentes de excavación de obra PÚBLICA con EIA: fuera del decreto SALVO el estudio de gestión del art. 4.1.a (DA 1ª)",
       "Ratios y fianzas son actualizables por ORDEN FORAL (DA 2ª)",
@@ -166,11 +177,24 @@ export default {
       "memorizacion": {
   "tablas": [
     {
+      "titulo": "Vigencia del Decreto Foral 23/2011 a 21-05-2026",
+      "columnas": ["Precepto o remisión", "Situación a 21-05-2026", "Fuente"],
+      "filas": [
+        ["Arts. 1-10, 12 y 13, disposiciones adicionales, transitoria y final, y anejos", "Vigentes en su redacción original (BON n.º 69, de 08-04-2011; en vigor desde el día siguiente). El texto consolidado no recoge ninguna modificación", "LexNavarra, r=29960"],
+        ["Art. 11, fondo para la recuperación de zonas degradadas", "DEROGADO por la disposición derogatoria única de la Ley Foral 14/2018, de 18 de junio, de Residuos y su Fiscalidad (BON n.º 120, de 22-06-2018). No se estudia", "BOE-A-2018-8953, pestaña «Análisis»"],
+        ["Remisión a la Ley 10/1998, de 21 de abril, de Residuos (arts. 3.a y 9.3)", "Ley derogada por la Ley 22/2011, con efectos de 30-07-2011", "BOE-A-1998-9478"],
+        ["Remisión a la Ley Foral 4/2005, de intervención para la protección ambiental (art. 9.1)", "Ley foral derogada por la Ley Foral 17/2020, con efectos desde el 22-06-2021", "BOE-A-2021-526, pestaña «Análisis»"],
+        ["Remisión al Real Decreto 1481/2001, de vertederos (art. 10.3)", "Derogado por el Real Decreto 646/2020, con efectos de 09-07-2020", "BOE, consolidado del RD 1481/2001"],
+        ["Remisión al Texto Refundido de la Ley de Evaluación de Impacto Ambiental de Proyectos, RDL 1/2008 (DA 1.ª)", "Derogado por la Ley 21/2013, con efectos desde el 12-12-2014", "BOE-A-2008-1405"]
+      ],
+      "nota": "El Decreto Foral no se ha adaptado: sus remisiones siguen nombrando esas normas. Se estudia su texto, pero no se pregunta por las remisiones a normas derogadas. Las cuantías de las fianzas y los ratios pueden actualizarse por Orden Foral (art. 6.6 y DA 2.ª); el texto consolidado no recoge ninguna actualización."
+    },
+    {
       "titulo": "Fianzas y garantías en el Decreto Foral 23/2011 (art. 6)",
       "columnas": ["Supuesto", "Sistema", "Cuantía o plazo", "Condición"],
       "filas": [
         ["Obras de escasa entidad (RCDs ≤ 50 m³)", "Contratar constructor-poseedor inscrito en el Registro de Constructor-Poseedor de RCDs", "Fianza del constructor-poseedor: 1.000 euros", "No se exige fianza individual del productor; el constructor-poseedor responde de la correcta gestión"],
-        ["Obras con licencia no escasa entidad", "Fianza o aval bancario ante el Ayuntamiento junto con la solicitud de licencia", "11 euros/t o 17 euros/m³ de RCDs que no sean tierras de excavación de residuos previstos; mínimo 1.000 euros; máximo 3% del presupuesto del proyecto para obras de construcción", "Debe depositarse junto con la solicitud de licencia"],
+        ["Obras con licencia no escasa entidad", "Fianza o aval bancario depositado junto con la solicitud de licencia", "11 euros/t o 17 euros/m³ de RCDs que no sean tierras de excavación de residuos previstos; mínimo 1.000 euros; máximo 3% del presupuesto del proyecto para obras de construcción", "Debe depositarse junto con la solicitud de licencia"],
         ["Devolución de fianza en obras con licencia", "Solicitud de devolución ante el Ayuntamiento tras terminar las obras", "Plazo máximo de 15 días desde la presentación de certificado o factura de entrega", "Puede ser total o parcial; se admiten certificados parciales o facturas de entrega"],
         ["Constructor-poseedor para obras > 50 m³", "Inscripción en Registro de Constructor-Poseedor con fianza ante Hacienda de Navarra", "50.000 euros", "Responde de obligaciones de correcta gestión, daños, sanciones o ejecución subsidiaria de recogida, transporte y tratamiento"],
         ["Contrato con Administración Pública con fianza de correcta ejecución", "No se entiende finalizado el contrato ni se devuelve totalmente la fianza", "Hasta que el adjudicatario presente certificado o factura de entrega que acredite la correcta gestión de los residuos", "La fianza de correcta ejecución del contrato queda retenida total o parcialmente"]
@@ -273,13 +297,43 @@ export default {
         ["170508", "Balasto de vías férreas distinto del especificado en el código 17 05 07", "R5", "No contener más de 1% de materiales impropios"]
       ],
       "nota": "Decreto Foral 23/2011, Anejo II.B. La valorización en la misma obra exige adecuarse al proyecto, no poner en peligro la salud ni el medio ambiente, no provocar molestias por ruido u olores y no dañar paisaje o espacios naturales protegidos (art. 8.1)."
+    },
+    {
+      "titulo": "Plazos, periodicidades y conservación de documentos",
+      "columnas": ["Qué", "Plazo o periodicidad", "Precepto"],
+      "filas": [
+        ["Almacenamiento de RCDs (depósito temporal previo a su valorización o eliminación)", "Inferior a dos años, a menos que reglamentariamente se establezcan plazos inferiores", "Art. 3.k"],
+        ["Documentación de cada año natural del productor, del poseedor y del gestor", "Se conserva durante los cinco años siguientes", "Arts. 4.1.c, 5.5 y 7.4"],
+        ["Devolución de la fianza por el Ayuntamiento", "No superior a 15 días desde la presentación del certificado o factura de entrega", "Art. 6.2.c"],
+        ["Copia del registro de entradas y salidas del gestor al Departamento", "Periodicidad mínima semestral, en formato electrónico (la autorización puede fijar otra)", "Art. 7.9"],
+        ["Listado de los Ayuntamientos con las obras que valorizan RCDs en la propia obra", "Anual, antes del 1 de marzo del año siguiente, a la Dirección General de Medio Ambiente y Agua", "Art. 8.5"],
+        ["Adaptación de las instalaciones de tratamiento ya autorizadas, de los emplazamientos del art. 9 y de los planes de restauración de actividades extractivas con RCDs", "6 meses", "DT única"],
+        ["Entrada en vigor", "Día siguiente al de su publicación en el BON (BON n.º 69, de 08-04-2011)", "DF única"]
+      ],
+      "nota": "Trampas: 15 días (devolución de la fianza) frente a semestral (registro del gestor) y anual antes del 1 de marzo (listado municipal). El art. 11 está derogado: su plazo ya no rige y no se estudia."
+    },
+    {
+      "titulo": "Quién hace qué: sujetos, documentos y órganos",
+      "columnas": ["Sujeto u órgano", "Qué le corresponde", "Precepto"],
+      "filas": [
+        ["Productor: titular de la licencia urbanística; sin licencia, titular del inmueble", "Estudio de gestión de RCDs en el proyecto; inventario de residuos peligrosos en demolición, rehabilitación, reparación o reforma; documentación de la gestión; fianza", "Arts. 3.f y 4"],
+        ["Poseedor: quien ejecuta la obra (constructor, subcontratistas, autónomos), nunca los trabajadores por cuenta ajena", "Plan sobre los RCDs, que aprueba la dirección facultativa y acepta la propiedad; separación en fracciones; entrega a gestor; costes de gestión y certificados al productor", "Arts. 3.h y 5"],
+        ["Gestor", "Autorización de gestor de residuos no peligrosos; registro de entradas y salidas; certificados o facturas de entrega; fianza según la capacidad máxima de almacenamiento", "Arts. 3.g y 7"],
+        ["Ayuntamiento", "Ante él se solicita la devolución de la fianza, que devuelve en 15 días como máximo; recibe la comunicación de valorización en obra no prevista en el proyecto y puede denegarla motivadamente; registra esas valorizaciones y envía el listado anual", "Arts. 6.2 y 8"],
+        ["Departamento de Desarrollo Rural y Medio Ambiente", "Registro de Constructor-poseedor; fija la fianza del gestor; recibe la copia semestral del registro del gestor", "Arts. 6.3, 7.9 y 7.12"],
+        ["Dirección General de Medio Ambiente y Agua", "Recibe la comunicación de valorización en obra cuando la obra no requiere licencia municipal, la registra y recibe el listado anual de los Ayuntamientos", "Art. 8.2, 8.4 y 8.5"],
+        ["Hacienda de Navarra", "Depósito de la fianza en metálico o aval del constructor-poseedor (1.000 o 50.000 euros)", "Art. 6.3.b"],
+        ["Orden Foral (Consejera o Departamento de Desarrollo Rural y Medio Ambiente)", "Medidas técnicas y obligaciones de los inscritos en el Registro; actualización de fianzas y ratios; listado de poblaciones aisladas", "Arts. 6.5, 6.6, 10.3 y DA 2.ª"]
+      ],
+      "nota": "Regla rápida: Ayuntamiento = fianza de la licencia y valorización en obra con licencia; Departamento = Registro de Constructor-poseedor y gestores; Hacienda de Navarra = depósito de la fianza del constructor-poseedor."
     }
   ],
   "datos": [
     "El Decreto Foral 23/2011, de 28 de marzo, desarrolla y adapta en Navarra el Real Decreto 105/2008, de 1 de febrero, que regula la producción y gestión de los RCDs (preámbulo).",
     "Ámbito territorial del Decreto Foral 23/2011: Comunidad Foral de Navarra (art. 2.1.a).",
     "Ámbito objetivo: producción, posesión y gestión de los RCDs en Navarra (art. 2.1.b).",
-    "RCDs: cualquier sustancia u objeto que, cumpliendo la definición de residuo del art. 3.a) de la Ley 10/1998, se genere en una obra de construcción o demolición (art. 3.a).",
+    "Vigencia: el art. 11 (fondo para la recuperación de zonas degradadas) está DEROGADO por la disposición derogatoria única de la Ley Foral 14/2018, de 18 de junio, de Residuos y su Fiscalidad (BON n.º 120, de 22-06-2018); el resto del Decreto Foral sigue en su redacción de 2011.",
+    "RCDs: cualquier sustancia u objeto que, cumpliendo la definición de residuo del art. 3.a) de la Ley 10/1998 (ley hoy derogada), se genere en una obra de construcción o demolición (art. 3.a).",
     "Obra de construcción y demolición: construcción, rehabilitación, reparación, reforma o demolición de un bien inmueble, y trabajos que modifiquen la forma o sustancia del terreno o subsuelo, como excavaciones, inyecciones o urbanizaciones (art. 3.b).",
     "Parte integrante de la obra: instalaciones de servicio exclusivo cuyo montaje y desmontaje tenga lugar durante la ejecución de la obra o al final; incluye plantas de machaqueo, hormigón, grava-cemento, suelo-cemento, prefabricados, mezclas bituminosas, talleres de encofrados y ferralla, almacenes de materiales y residuos, y plantas de tratamiento de RCDs de la obra (art. 3.b).",
     "Obra de escasa entidad: no es obra menor; los RCDs generados no superan 50 m³; en general no precisa proyecto firmado por profesionales titulados, aunque puede precisar licencia de obra o declaración responsable (art. 3.c).",
@@ -296,6 +350,7 @@ export default {
     "El poseedor que no gestione los RCDs por sí mismo debe entregarlos a un gestor autorizado o participar en un acuerdo voluntario o convenio; los RCDs se destinarán preferentemente, por este orden, a reutilización, reciclado u otras formas de valorización; solo se eliminarán conforme al art. 10 (art. 5.2).",
     "El poseedor debe mantener los RCDs en condiciones adecuadas de higiene y seguridad y evitar la mezcla de fracciones ya seleccionadas que impida o dificulte su posterior valorización o eliminación (art. 5.3).",
     "El poseedor debe sufragar los costes de gestión y entregar al productor los certificados o facturas de entrega de RCDs; debe mantener la documentación de cada año natural durante los cinco años siguientes (art. 5.5).",
+    "Mediante Orden Foral de la Consejera de Desarrollo Rural y Medio Ambiente se aprobarán las medidas técnicas, registros de producción de RCDs, formatos de dichos registros, controles y obligaciones de comunicación que deberán cumplir los inscritos en el Registro de Constructor-poseedor (art. 6.5), y podrán actualizarse las cuantías de las fianzas y demás garantías financieras del Decreto Foral (art. 6.6).",
     "El gestor de RCDs debe obtener autorización de gestor de residuos no peligrosos para almacenamiento y transferencia, tratamiento previo, valorización y eliminación (art. 7.1).",
     "Las plantas móviles de tratamiento en centros fijos deben preverse en la autorización del centro fijo y cumplir sus requisitos; las plantas móviles en obras distintas a las de generación y que no sean centros fijos requieren autorización de gestor (art. 7.1).",
     "El gestor debe llevar un registro de entradas y salidas según el Anejo 2 C, codificado conforme al Anejo 2 A, que garantice la trazabilidad total; la información de cada año natural se conserva cinco años (art. 7.3 y 7.4).",
@@ -311,18 +366,18 @@ export default {
     "Las cantidades de RCDs eximidas de autorización por valorización en la misma obra son las generadas en la propia obra, que deben figurar en el proyecto y en el estudio de gestión, y se utilizarán en la propia obra (art. 8.3).",
     "La valorización de RCDs en la misma obra queda registrada en el Ayuntamiento que otorgó la licencia o en la Dirección General de Medio Ambiente y Agua si la obra no requiere licencia municipal (art. 8.4).",
     "Los Ayuntamientos que registren valorización en la misma obra enviarán a la Dirección General de Medio Ambiente y Agua, anualmente antes del 1 de marzo del siguiente año, un listado con las obras inscritas, su destino final, número y ubicación, poseedor-productor, códigos LER, cantidades valorizadas y descripción de la gestión (art. 8.5).",
-    "Utilización de residuos inertes en restauración, acondicionamiento o relleno: requiere autorización ambiental de la Ley Foral 4/2005 que declare expresamente que se trata de una actividad de valorización, y autorización de gestor que indique las operaciones de valorización (art. 9.1 y 9.2).",
+    "Utilización de residuos inertes en restauración, acondicionamiento o relleno: requiere autorización ambiental de la Ley Foral 4/2005 (hoy derogada por la LF 17/2020) que declare expresamente que se trata de una actividad de valorización, y autorización de gestor que indique las operaciones de valorización (art. 9.1 y 9.2).",
     "En restauración, acondicionamiento o relleno, los RCDs deben someterse a tratamiento para aprovechar como mínimo los materiales pétreos y retirar todos los residuos peligrosos y los no peligrosos no inertes, salvo que el proyecto de restauración aprobado especifique los tipos y características de los residuos inertes utilizables (art. 9.5).",
     "En restauración, acondicionamiento o relleno, los residuos inertes deben cumplir los criterios de admisión del apartado 2.1 de la Decisión 2003/33/CE (art. 9.6).",
     "En restauración, acondicionamiento o relleno, salvo razones técnicas, los emplazamientos deben alcanzar una impermeabilización natural o artificial equivalente a k = 1 x 10-7 m/seg en un espesor de 1 m; la capa de impermeabilización geológica artificial tendrá un espesor mínimo de 0,5 m (art. 9.7).",
     "Eliminación mediante depósito en vertedero: los RCDs que vayan a vertedero autorizado deben someterse a tratamiento para aprovechar como mínimo los materiales pétreos y retirar todos los residuos peligrosos y los no inertes (art. 10.1).",
     "La exigencia de tratamiento previo a vertedero no se aplica a los residuos inertes cuyo tratamiento sea técnicamente inviable, ni a los RCDs cuyo tratamiento no contribuya a los objetivos del art. 1 ni reduzca los peligros para la salud humana o el medio ambiente (art. 10.2).",
-    "La exigencia de tratamiento previo a vertedero no se aplica a los vertederos ubicados en poblaciones aisladas del art. 2 del Real Decreto 1481/2001 cuando reciban exclusivamente RCDs inertes generados en dichas poblaciones; el listado de poblaciones aisladas de Navarra se publica por Orden Foral (art. 10.3).",
+    "La exigencia de tratamiento previo a vertedero no se aplica a los vertederos ubicados en poblaciones aisladas del art. 2 del Real Decreto 1481/2001 (hoy derogado por el RD 646/2020) cuando reciban exclusivamente RCDs inertes generados en dichas poblaciones; el listado de poblaciones aisladas de Navarra se publica por Orden Foral (art. 10.3).",
     "Régimen sancionador: el establecido en la normativa vigente en materia de residuos (art. 12).",
     "Las administraciones públicas, como promotoras, velarán por aplicar medidas de prevención de RCDs y por que en la fase de proyecto se tengan en cuenta alternativas de diseño y constructivas que generen menos residuos en construcción y explotación y favorezcan el desmantelamiento ambientalmente correcto al final de la vida útil (art. 13.1).",
     "Las administraciones públicas fomentarán que en las obras públicas se contemplen alternativas que contribuyan al ahorro de recursos naturales, en particular mediante el empleo de áridos y otros productos procedentes de valorización de residuos (art. 13.2).",
     "En la contratación pública se fomentará la menor generación de RCDs y la utilización en las unidades de obra de áridos y otros productos procedentes de valorización de residuos (art. 13.3).",
-    "Disposición Adicional Primera: las medidas del Decreto Foral, salvo el art. 4.1.a), no se aplican a los excedentes de excavación y demolición de obras de titularidad pública sometidas a evaluación de impacto ambiental; se aplica el Texto Refundido de la Ley de Evaluación de Impacto Ambiental de Proyectos; si están contaminados por sustancias peligrosas, se aplica la normativa específica de residuos.",
+    "Disposición Adicional Primera: las medidas del Decreto Foral, salvo el art. 4.1.a), no se aplican a los excedentes de excavación y demolición de obras de titularidad pública sometidas a evaluación de impacto ambiental; se aplica el Texto Refundido de la Ley de Evaluación de Impacto Ambiental de Proyectos (RDL 1/2008, hoy derogado por la Ley 21/2013); si están contaminados por sustancias peligrosas, se aplica la normativa específica de residuos.",
     "Disposición Adicional Segunda: los valores de los ratios de generación de residuos y las cuantías de las fianzas del art. 6 y del Anexo III podrán actualizarse mediante Orden Foral de la Consejera de Desarrollo Rural y Medio Ambiente.",
     "Disposición Transitoria Única: las instalaciones de tratamiento de RCDs con autorización vigente antes de la entrada en vigor deben adaptarse al Anejo I en el plazo de 6 meses desde la entrada en vigor; los titulares de emplazamientos del art. 9 y los de actividades extractivas con planes de restauración que incluyan RCDs deben adaptarse en 6 meses desde la publicación en el BON.",
     "Disposición Final Única: el Decreto Foral 23/2011 entra en vigor el día siguiente al de su publicación en el Boletín Oficial de Navarra.",
@@ -353,17 +408,19 @@ export default {
     "Plantas móviles: las ubicadas en centros fijos deben preverse en la autorización del centro fijo; las realizadas en obras distintas a las de generación y que no sean centros fijos requieren autorización de gestor (art. 7.1).",
     "Gestor: si carece de autorización para residuos peligrosos, no puede gestionarlos, pero debe disponer de un procedimiento de admisión que asegure su detección y segregación previa, almacenarlos adecuadamente y derivarlos a gestores autorizados (art. 7.7).",
     "Gestor: los residuos recibidos en instalaciones de almacenamiento y transferencia o de tratamiento previo no pueden utilizarse en obras de construcción o restauración sin un tratamiento complementario conforme al Anejo 1 puntos 2 o 3 (art. 7.6).",
-    "Restauración, acondicionamiento o relleno: no basta la autorización de gestor; se requiere además autorización ambiental de la Ley Foral 4/2005 que declare expresamente que se trata de una actividad de valorización (art. 9.1 y 9.2).",
+    "Restauración, acondicionamiento o relleno: no basta la autorización de gestor; se requiere además autorización ambiental de la Ley Foral 4/2005 (hoy derogada por la LF 17/2020) que declare expresamente que se trata de una actividad de valorización (art. 9.1 y 9.2).",
     "Restauración, acondicionamiento o relleno: la impermeabilización exigida es equivalente a k = 1 x 10-7 m/seg en un espesor de 1 m; la capa geológica artificial tiene un espesor mínimo de 0,5 m, salvo que razones técnicas lo desaconsejen (art. 9.7).",
     "Eliminación en vertedero: el tratamiento previo para aprovechar pétreos y retirar peligrosos y no inertes no se aplica a residuos inertes cuyo tratamiento sea técnicamente inviable, ni a RCDs cuyo tratamiento no contribuya a los objetivos del art. 1 ni reduzca peligros (art. 10.2).",
-    "Eliminación en vertedero: la excepción de poblaciones aisladas solo opera para vertederos del art. 2 del Real Decreto 1481/2001 que reciban exclusivamente RCDs inertes generados en dichas poblaciones, no para otros vertederos ni para residuos no inertes (art. 10.3).",
+    "Eliminación en vertedero: la excepción de poblaciones aisladas solo opera para vertederos del art. 2 del Real Decreto 1481/2001 (hoy derogado por el RD 646/2020) que reciban exclusivamente RCDs inertes generados en dichas poblaciones, no para otros vertederos ni para residuos no inertes (art. 10.3).",
     "Disposición Adicional Primera: la excepción para excedentes de excavación de obras públicas sometidas a evaluación de impacto ambiental no es total, pues sigue siendo aplicable el art. 4.1.a) sobre el estudio de gestión de RCDs en el proyecto (DA1).",
     "Disposición Adicional Primera: si los excedentes de excavación de obras públicas sometidas a evaluación de impacto ambiental están contaminados por sustancias peligrosas, se aplica la normativa específica de residuos, no la excepción (DA1).",
     "Plazos de adaptación: las instalaciones de tratamiento con autorización vigente antes de la entrada en vigor se adaptan al Anejo I en 6 meses desde la entrada en vigor; los titulares del art. 9 y de actividades extractivas con planes de restauración que incluyan RCDs se adaptan en 6 meses desde la publicación en el BON (DT Única).",
     "Actualización: los ratios de generación y las cuantías de fianzas del art. 6 y Anexo III se actualizan por Orden Foral de la Consejera de Desarrollo Rural y Medio Ambiente, no por modificación del Decreto Foral (DA2).",
     "Registro de entradas y salidas: en la entrada, el número de licencia de la obra de procedencia no se exige cuando los residuos procedan de un gestor intermedio y sean de código 191209; en ese caso sí se identifica al gestor que entrega (Anejo II.C.5).",
     "Certificado/factura de entrega: puede emitirse como documento específico o incluirse dentro de la factura que se emita al poseedor o gestor que ha entregado los residuos (Anejo II.D).",
-    "Fianzas: la cuantía de la fianza del gestor se fija por el Departamento de Desarrollo Rural y Medio Ambiente en función de la capacidad máxima de almacenamiento de RCDs de la instalación, y es requisito previo para la autorización, a diferencia de las fianzas de los productores (art. 7.12)."
+    "Fianzas: la cuantía de la fianza del gestor se fija por el Departamento de Desarrollo Rural y Medio Ambiente en función de la capacidad máxima de almacenamiento de RCDs de la instalación, y es requisito previo para la autorización, a diferencia de las fianzas de los productores (art. 7.12).",
+    "Productor y poseedor: el titular de la licencia urbanística es el productor (sin licencia, el titular del inmueble); tiene en todo caso la consideración de poseedor quien ejecuta la obra (constructor, subcontratistas o trabajadores autónomos), y en ningún caso los trabajadores por cuenta ajena (art. 3.f y 3.h).",
+    "Art. 11 (fondo para la recuperación de zonas degradadas): derogado por la disposición derogatoria única de la Ley Foral 14/2018, de Residuos y su Fiscalidad. Aunque el TXT lo siga mostrando, no se estudia ni se pregunta."
   ]
 },
   };
