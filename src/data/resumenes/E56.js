@@ -1,24 +1,32 @@
 // Resumen del tema E56. Formato: cabecera de src/data/resumenes.js.
+// Revisado el 02-11-2026 (chequeo del tema) contra temas/E_Tema56.txt con las correcciones de
+// src/data/textosTemas/E56.js (redacción vigente el 21-05-2026): preámbulo precisado (primaria y
+// secundaria, soporte, vivienda), art. 9 con la modificación de 2013 y su régimen transitorio en el
+// PEPRI, art. 11.2.4 y 11.7, y seis tablas nuevas de memorización (estructura; vuelos y salientes;
+// alturas libres; superficies; porcentajes y proporciones; instalaciones propias), con más datos y
+// excepciones. Sin cambios de fondo en lo que ya había: no se ha encontrado ningún error.
 export default {
     intro:
-      "La Ordenanza General de Edificación (OGE) del Ayuntamiento de Pamplona regula los aspectos constructivos, técnicos, sanitarios, de seguridad y de régimen de servicios de los edificios, como complemento de las normas urbanísticas del Plan Municipal, que son las que fijan alturas, edificabilidad, usos y alineaciones de cada unidad. La OGE no repite esas determinaciones: las remite a la Normativa Urbanística y añade las reglas de detalle (patios, vuelos, construcciones sobre la altura, dimensiones de bloques, condiciones de locales y oficinas, garajes e instalaciones). El temario exige la ESTRUCTURA y el PREÁMBULO, las condiciones de volumen generales y de las tres tipologías (manzana compacta, manzana con patio y edificación aislada; Título I, cap. I, secciones 1.ª a 4.ª), los locales comerciales y las oficinas (cap. II, secciones 2.ª y 3.ª), los garajes y servicios del automóvil (cap. V) y las instalaciones propias de los edificios (cap. VIII, sección 3.ª). El texto de trabajo es el refundido para uso interno del Ayuntamiento («documento sin tramitación oficial», revisado a 16-08-2016), que integra las modificaciones de 2002 a 2014; no consta ninguna modificación aprobada definitivamente desde entonces hasta la fecha de la convocatoria (BON 21-05-2026), que es la que fija la normativa exigible (base 6.6). Las iniciativas posteriores (art. 123, arts. 9 y 128, adaptación a la futura norma foral de habitabilidad) no estaban aprobadas en esa fecha y no se estudian.",
+      "La Ordenanza General de Edificación (OGE) del Ayuntamiento de Pamplona regula los aspectos constructivos, técnicos, sanitarios, de seguridad y de régimen de servicios de los edificios, como complemento de las normas urbanísticas del Plan Municipal, que son las que fijan alturas, edificabilidad, usos y alineaciones de cada unidad. La OGE no repite esas determinaciones: las remite a la Normativa Urbanística y añade las reglas de detalle (patios, vuelos, construcciones sobre la altura, dimensiones de bloques, condiciones de locales y oficinas, garajes e instalaciones). El temario exige la ESTRUCTURA y el PREÁMBULO, las condiciones de volumen generales y de las tres tipologías (manzana compacta, manzana con patio y edificación aislada; Título I, cap. I, secciones 1.ª a 4.ª), los locales comerciales y las oficinas (cap. II, secciones 2.ª y 3.ª), los garajes y servicios del automóvil (cap. V) y las instalaciones propias de los edificios (cap. VIII, sección 3.ª). El texto de trabajo es el refundido para uso interno del Ayuntamiento («documento sin tramitación oficial», revisado a 16-08-2016), que integra las modificaciones de 2002 a 2014 (entre ellas la de ascensores en edificios existentes de 2013, BON n.º 66, que suprimió párrafos de los arts. 8 y 9); no consta ninguna modificación aprobada definitivamente desde entonces hasta la fecha de la convocatoria (BON 21-05-2026), que es la que fija la normativa exigible (base 6.6). Las iniciativas posteriores (la modificación de los arts. 9 y 128 que prevé el Plan Normativo y la adaptación a la futura norma foral de habitabilidad) no estaban aprobadas en esa fecha y no se estudian.",
     bloques: [
       {
         h: "Estructura y preámbulo",
         nota:
-          "El TXT del tema trae LITERALES el índice y el preámbulo del texto refundido municipal «Revisado 16/08/2016»; los artículos de cada parte salen del propio articulado (el del Título Preliminar, arts. 1-6, no se reproduce). Ese índice no recoge la sección 3.ª del Capítulo VIII, «Instalaciones propias de los edificios» (art. 204 bis, añadida por la modificación de 04-07-2002, BON 19-08-2002), que sí figura en el articulado. Idea que conviene retener: la OGE es el instrumento DIRECTO de control de la construcción en el medio urbano; da PRIORIDAD a lo que define el espacio exterior, sobre todo el de uso público (soporte del edificio y fachadas), y en la vivienda interior se ciñe a lo higiénico (patios, huecos) y a las dotaciones mínimas. Sustituye a las Ordenanzas de 1974 y a sus modificaciones de 13-10-1977 y 29-05-1979.",
+          "El TXT del tema trae LITERALES el índice y el preámbulo del texto refundido municipal «Revisado 16/08/2016»; los artículos de cada parte salen del propio articulado (el del Título Preliminar, arts. 1-6, no se reproduce). Ese índice no recoge la sección 3.ª del Capítulo VIII, «Instalaciones propias de los edificios» (art. 204 bis, añadida por la modificación de 04-07-2002, BON 19-08-2002), que sí figura en el articulado. Idea que conviene retener: la OGE es «el instrumento que, de una manera directa, ejerce el control» de la construcción de edificios; considera PRIMARIA la normativa que define los espacios exteriores, sobre todo los de uso público, y SECUNDARIAS las determinaciones de calidad intrínseca de la construcción, seguridad, alojamiento, comercio o industria; atiende expresamente el SOPORTE de la edificación (lo permanente: cimiento, estructura, muros y cubiertas, acometidas o infraestructura); y en la vivienda no ve lógico regular programas funcionales ni el espacio interior, sino lo higiénico ligado al espacio no edificado (patios, huecos) y las dotaciones mínimas. Sustituye a las Ordenanzas de 1974 y a sus modificaciones de 13-10-1977 y 29-05-1979.",
         items: [
-          "Título Preliminar, Disposiciones de carácter general (arts. 1-6; su articulado no se reproduce en el TXT, y lo que sigue procede del documento municipal): objeto (aspectos constructivos, técnicos, sanitarios, de seguridad y de régimen de servicios de la edificación), ámbito (TODO el término municipal de Pamplona), vigencia, interpretación (subordinada a las normas urbanísticas y al espíritu del Plan), actualización y remisión de la tramitación de proyectos, actividades, ruinas y derribos a la Ordenanza de procedimiento urbanístico",
-          "Título I, Condiciones de la edificación, desde el art. 7, en NUEVE capítulos",
+          "Título Preliminar, Disposiciones de carácter general (arts. 1-6): entra en el tema solo como parte de la estructura; su articulado no está en el alcance ni en el TXT, y lo que sigue procede del documento municipal: objeto (aspectos constructivos, técnicos, sanitarios, de seguridad y de régimen de servicios de la edificación), ámbito (TODO el término municipal de Pamplona), vigencia, interpretación (subordinada a las normas urbanísticas y al espíritu del Plan), actualización y remisión de la tramitación de proyectos, actividades, ruinas y derribos a la Ordenanza de procedimiento urbanístico",
+          "Título I, Condiciones de la edificación, desde el art. 7, en NUEVE capítulos (del I al IX); después, una disposición transitoria",
           "Cap. I, Condiciones de volumen: sección 1.ª Condiciones generales (arts. 7-11); 2.ª Manzana compacta (arts. 12-20); 3.ª Manzana con patio (arts. 21-30); 4.ª Edificación aislada (arts. 31-42); 5.ª Condiciones particulares de volumen del Casco Antiguo (desde el art. 43); 6.ª Condiciones particulares de volumen en el Ensanche (desde el art. 48)",
           "Cap. II, Condiciones de habitabilidad: sección 1.ª Vivienda (desde el art. 54); 2.ª Locales comerciales (arts. 98-106); 3.ª Oficinas (arts. 107-108 bis); 4.ª Edificación industrial; 5.ª Hoteles y otros usos",
           "Cap. III, Condiciones constructivas de la edificación. Cap. IV, Características estéticas (secciones: condiciones generales, Casco Antiguo y I Ensanche)",
           "Cap. V, Instalaciones de estacionamientos, garajes, aparcamientos y servicios del automóvil (arts. 139-174; redacción aprobada por el Pleno el 4-09-2008, BON 19-09-2008)",
           "Cap. VI, Seguridad en la construcción (disposiciones generales; edificios ruinosos y derribos). Cap. VII, Prevención de incendios. Cap. VIII, Régimen de servicios (sección 1.ª Terrenos no edificables de propiedad privada; 2.ª Aparatos elevadores; y 3.ª Instalaciones propias de los edificios, art. 204 bis, añadida en 2002 y que el índice no recoge). Cap. IX, Protección del arbolado. Disposición transitoria",
-          "Preámbulo — 1) La OGE regula los aspectos constructivos, técnicos, sanitarios, de seguridad y de servicios; las condiciones de cada edificio dependen del solar, de la unidad y del uso, que fijan sobre todo las normas urbanísticas",
+          "Preámbulo — 1) La OGE regula los aspectos constructivos, técnicos, sanitarios, de seguridad y de régimen de servicios que afectan a la construcción de edificios; las condiciones de cada edificio en relación con el solar, la unidad y el uso se fijan «fundamentalmente desde la normativa urbanística» (edificabilidad, altura, ocupación de parcela). Las Ordenanzas «constituyen el instrumento que, de una manera directa, ejerce el control de una actividad tan trascendente en el medio urbano como es la construcción de edificios»",
           "Preámbulo — 2) Hay que equilibrar un texto CLARO y comprensible con uno COMPLETO, condiciones «sólo aparentemente contradictorias»; la dificultad de aplicarla no debe condicionar su redacción; un texto impreciso deja a la Administración un margen de interpretación que puede causar indefensión; algunas partes se dejan abiertas para que el Ayuntamiento decida sobre las licencias, pero dentro de un marco definido",
-          "Preámbulo — 3) Prioridades: los espacios exteriores, sobre todo los de uso público; el SOPORTE de la edificación (cimentación, estructura, muros, cubiertas, acometidas e infraestructuras) y las FACHADAS. El control de la vivienda interior se limita a lo higiénico (patios, huecos) y a las dotaciones mínimas de servicios",
-          "Preámbulo — 4) Sustituye a las Ordenanzas de 1974 y a sus modificaciones de 13-10-1977 y 29-05-1979, que en buena parte actualiza"
+          "Preámbulo — 3) Ámbito: el físico es TODO el término municipal de Pamplona; el que importa es el de las situaciones que atiende: desarrollando las Normas Urbanísticas, cómo los edificios conforman el espacio no edificado y, con determinaciones propias, su arquitectura y construcción. Prioridad: «resultará primaria, en cualquier caso, toda normativa que afecte a la definición de los espacios exteriores, particularmente los de uso público» (su dimensión y carácter son patrimonio colectivo); serían SECUNDARIAS las determinaciones que persiguen la calidad intrínseca de la construcción, seguridad, del alojamiento, comercio, industria",
+          "Preámbulo — 4) SOPORTE de la edificación: lo que puede considerarse permanente en ella, «cimiento, estructura, muros y cubiertas, acometidas o infraestructura»; regular su calidad es uno de los objetivos fundamentales, porque además de garantizar la habitabilidad contribuye a definir el espacio público (composición y textura de las fachadas) y las redes de servicios (dotaciones mínimas)",
+          "Preámbulo — 5) Vivienda: es un ámbito privado y «no parece lógico» controlar sus programas funcionales ni la ordenación del espacio interior, aunque las ordenanzas municipales suelen regularla; son prioritarios los aspectos higiénicos ligados al espacio no edificado (condiciones de los patios, dimensión de los huecos) y la exigencia de dotaciones mínimas de servicios, que condiciona la infraestructura general",
+          "Preámbulo — 6) Sustituye a las Ordenanzas de 1974 y a sus modificaciones de 13-10-1977 y 29-05-1979, que en buena parte actualiza «cuando no su traslado literal», con un nuevo índice"
         ]
       },
       {
@@ -30,17 +38,18 @@ export default {
           "Art. 8 — Obra nueva dentro de los límites máximos y mínimos de las Normas y la OGE; ampliación posible si el edificio resultante no supera los límites de obra nueva. Edificaciones que sobrepasan la edificabilidad (altura, profundidad, ocupación): admiten consolidación, reparación, modernización, mejora estética e higiénica y modificación de uso, pero NO aumento de volumen",
           "Art. 9 — CUERPOS salientes: sobresalen del plano del volumen y son habitables u ocupables (cerrados, semicerrados o abiertos). ELEMENTOS salientes: constructivos u ornamentales no habitables (zócalos, aleros, gárgolas, marquesinas, parasoles, toldos)",
           "Art. 9 — Sin entrantes ni salientes respecto a la alineación oficial en sótanos, semisótanos o plantas bajas, salvo previsión expresa. Cuerpos salientes solo a partir de la PRIMERA PLANTA",
-          "Art. 9 — U.I. VII Casco Viejo: prohibido el saliente de cuerpos habitables cerrados sobre la alineación, salvo MIRADORES acristalados en toda su extensión; se admiten vuelos cerrados en fachadas retranqueadas de la alineación. Vuelo máximo de balcones, miradores y cuerpos cerrados: calle de menos de 15 m → 0,80 m; de más de 15 m → 1,00 m",
+          "Art. 9 — U.I. VII «Casco Viejo»: prohibido el saliente de cuerpos habitables cerrados sobre las alineaciones del Plan, salvo MIRADORES acristalados en toda su extensión; se admiten esos vuelos cerrados en fachadas retranqueadas de la alineación oficial. En el mismo párrafo, dimensión máxima de balcones, miradores y, en su caso, cuerpos salientes cerrados, según el ancho de la calle a la que da frente la fachada: menos de 15 m → 0,80 m; más de 15 m → 1,00 m",
+          "Arts. 8 y 9 — Redacción de la modificación de ascensores en edificios existentes (Pleno 07-03-2013, BON n.º 66, de 09-04-2013): suprimió los párrafos sobre cuerpos salientes para eliminar barreras arquitectónicas y llevó la instalación de ascensores a la sección décima de la Normativa Urbanística General (arts. 80-85). En el ámbito del PEPRI del Casco Antiguo siguen en vigor el art. 9 anterior y el art. 35 de la NUG mientras ese plan no se adapte (disposición transitoria). Lo suprimido no se estudia",
           "Art. 10 — Entrantes en plantas superiores: profundidad no mayor que el vuelo permitido y proporción máxima 1:3 respecto al frente de fachada",
           "Art. 11.1 — Por encima de la altura SOLO: trasteros, torreones de escalera o ascensor, instalaciones propias, estaciones base de telefonía, otras instalaciones de telecomunicación análogas, sus construcciones, chimeneas y antepechos de fábrica. Trastero: local no habitable con ventilación pero SIN iluminación natural, sin acceso a terrazas y sin comunicación directa entre sí o con vivienda. Materiales similares al resto del edificio; prohibidos colores llamativos y propaganda",
           "Art. 11.2.1 — Cubierta inclinada y trasteros: dentro de una ENVOLVENTE de planos al 40 % desde el vuelo máximo de las fachadas interiores y exteriores, con altura máxima de 3 m sobre la altura de la edificación. No son fachadas interiores las que dan a patios cerrados de parcela",
           "Art. 11.2.2-2.3 — Instalaciones propias y estaciones base: pueden superar la envolvente si se separan al menos 3 m de las fachadas y no superan 4 m sobre la altura máxima. Escaleras y torreones de ascensor: pueden superarla si lo exige la normativa o por implantación de ascensor en edificio existente, con 4 m como máximo",
-          "Art. 11.2.4 — Equipamientos y edificios industriales: envolvente del 40 % con altura máxima de 4 m",
+          "Art. 11.2.4 — Edificios de equipamientos y de uso industrial: la cubierta, las instalaciones propias, las estaciones base, los cuerpos de escaleras y los torreones de ascensor quedan TODOS dentro de una envolvente de planos al 40 % desde el vuelo máximo y con altura máxima de 4 m (la salida de la envolvente con 3 m de separación de fachadas del art. 11.2.2 se refiere a la del 11.2.1); no son fachadas interiores las que dan a patios cerrados de parcela",
           "Art. 11.2.5-2.7 — Chimeneas: solo en lo necesario para cumplir su normativa o funcionar. Captadores solares y antenas propias: pueden sobrepasar la envolvente por razones técnicas justificadas, con integración estética; para los solares, el proyecto aporta alternativas",
           "Art. 11.2.8 — Antenas y mástiles de estaciones base: en cubierta, en edificios de MÁS DE 12 m de altura en fachada; ningún elemento a más de 8 m sobre la altura máxima; si son visibles desde la vía pública, separados de fachada una distancia igual a su altura sobre el edificio. Excepción por imposibilidad técnica e interés general, con análisis de alternativas",
           "Art. 11.2.9 — Antepechos de fábrica: hasta 1,5 m sobre la altura de la edificación, como prolongación de los planos de fachada",
           "Art. 11.3 — Ático retranqueado: las reglas se aplican desde el techo del ático; en el retranqueo nada, salvo separaciones entre terrazas (de obra hasta 1 m; mamparas o desmontables hasta 2 m), chimeneas, antepechos de hasta 1,5 m y, excepcionalmente, escaleras y ascensores de hasta 4 m sobre el forjado de suelo del ático",
-          "Art. 11.4-8 — Proyecto visado por técnico competente; edificios protegidos, a su normativa; el artículo rige si el planeamiento de desarrollo no fija otra cosa; lo existente que no cumple NO queda fuera de ordenación, pero puede exigirse su adaptación al intervenir, si es proporcionada"
+          "Art. 11.4-8 — Proyecto visado por técnico competente (seguridad, salubridad, funcionamiento, normativa y mejor tecnología posible para minimizar el impacto visual y ambiental); edificios protegidos, a su normativa; el artículo rige si el planeamiento de desarrollo no fija otra cosa; los patios interiores cumplen estrictamente la anchura mínima y las luces rectas de sus ordenanzas particulares en función de la altura total; lo existente que no cumple NO queda fuera de ordenación, pero puede exigirse su adaptación al intervenir, si es proporcionada"
         ]
       },
       {
@@ -201,12 +210,12 @@ export default {
     ],
     claves: [
       "La OGE regula lo constructivo, técnico, sanitario, de seguridad y de servicios; alturas, edificabilidad y usos los fija la Normativa Urbanística del Plan",
-      "Estructura: Título Preliminar (arts. 1-6), Título I en nueve capítulos (volumen, habitabilidad, constructivas, estéticas, garajes, seguridad, incendios, régimen de servicios, arbolado) y disposición transitoria",
-      "Preámbulo: sustituye a las Ordenanzas de 1974 y a sus modificaciones de 13-10-1977 y 29-05-1979; prioridad a espacios exteriores, soporte y fachadas",
+      "Estructura: Preámbulo, Título Preliminar (arts. 1-6), Título I en NUEVE capítulos (volumen, habitabilidad, constructivas, estéticas, garajes, seguridad, incendios, régimen de servicios, arbolado) y disposición transitoria; el cap. I tiene seis secciones y el II cinco",
+      "Preámbulo: la Ordenanza es el instrumento que ejerce de manera DIRECTA el control de la construcción; PRIMARIA la normativa de los espacios exteriores, sobre todo de uso público; SECUNDARIA la de calidad intrínseca, seguridad, alojamiento, comercio e industria; soporte = cimiento, estructura, muros y cubiertas, acometidas o infraestructura; sustituye a las Ordenanzas de 1974 (modificadas el 13-10-1977 y el 29-05-1979)",
       "Edificio catalogado: no se altera en altura aunque la norma lo permita (art. 7)",
       "Fuera de edificabilidad: consolidación, mejora y cambio de uso sí; aumento de volumen no (art. 8)",
       "Cuerpos salientes (habitables) solo desde la primera planta; elementos salientes = no habitables (art. 9)",
-      "Casco Viejo: vuelo máximo 0,80 m en calles de menos de 15 m y 1,00 m en las de más de 15 m (art. 9)",
+      "U.I. VII Casco Viejo: sin cuerpos cerrados volados salvo miradores acristalados o fachadas retranqueadas; balcones, miradores y, en su caso, cuerpos cerrados: 0,80 m en calles de menos de 15 m y 1,00 m en las de más de 15 m (art. 9); entrantes, como máximo el vuelo permitido y 1:3 del frente (art. 10)",
       "Envolvente sobre la altura: planos al 40 % y 3 m (4 m en equipamientos e industrial); instalaciones a 3 m de fachada y hasta 4 m; antenas de telefonía hasta 8 m en edificios de más de 12 m (art. 11)",
       "Patio cerrado con dormitorios: 0,30 H y H²/8, mínimo 3 m y 12 m²; con cocinas: 0,20 H y H²/10; resto: 0,15 H y H²/20, mínimo 3 m y 9 m² (art. 16)",
       "Vivienda exterior: dos piezas vivideras (una estancia común) a espacio exterior y frente mínimo de 6 m (arts. 17 y 29)",
@@ -224,6 +233,25 @@ export default {
     ],
     memorizacion: {
       tablas: [
+        {
+          titulo: "OGE de Pamplona: estructura (índice del texto refundido)",
+          columnas: ["Parte", "Contenido", "En el alcance"],
+          filas: [
+            ["Preámbulo", "Objeto, carácter y ámbito de la Ordenanza y sus prioridades; sustituye a las Ordenanzas de 1974", "Sí"],
+            ["Título Preliminar (arts. 1-6)", "Disposiciones de carácter general", "Solo su lugar en la estructura"],
+            ["Título I, cap. I (arts. 7-53)", "Condiciones de volumen. Secciones: 1.ª Condiciones generales; 2.ª Manzana compacta; 3.ª Manzana con patio; 4.ª Edificación aislada; 5.ª Condiciones particulares de volumen Casco Antiguo; 6.ª Condiciones particulares de volumen en el Ensanche", "Secciones 1.ª a 4.ª (arts. 7-42)"],
+            ["Título I, cap. II (desde el art. 54)", "Condiciones de habitabilidad. Secciones: 1.ª Vivienda; 2.ª Locales comerciales; 3.ª Oficinas; 4.ª Edificación industrial; 5.ª Hoteles y otros usos", "Secciones 2.ª (arts. 98-106) y 3.ª (arts. 107-108 bis)"],
+            ["Título I, cap. III", "Condiciones constructivas de la edificación", "No"],
+            ["Título I, cap. IV", "Características estéticas. Secciones: 1.ª Condiciones estéticas de la edificación; 2.ª Condiciones del Casco Antiguo; 3.ª Condiciones del I Ensanche", "No"],
+            ["Título I, cap. V (arts. 139-174)", "Instalaciones de estacionamientos, garajes, aparcamientos y servicios del automóvil (redacción de 2008)", "Entero"],
+            ["Título I, cap. VI", "Seguridad en la construcción. Secciones: 1.ª Disposiciones generales; 2.ª Edificios ruinosos y derribos", "No"],
+            ["Título I, cap. VII", "Prevención de incendios", "No"],
+            ["Título I, cap. VIII", "Régimen de servicios. Secciones: 1.ª Terrenos no edificables de propiedad privada; 2.ª Aparatos elevadores; 3.ª Instalaciones propias de los edificios (art. 204 bis, de 2002, que el índice no recoge)", "Sección 3.ª"],
+            ["Título I, cap. IX", "Protección del arbolado", "No"],
+            ["Disposición transitoria", "—", "No"]
+          ],
+          nota: "Título I = NUEVE capítulos. Secciones: seis en el cap. I, cinco en el II, tres en el IV, dos en el VI y dos en el VIII según el índice (tres en el articulado). Los caps. III, V, VII y IX no se dividen en secciones."
+        },
         {
           titulo: "OGE de Pamplona: patios cerrados de parcela (art. 16.a)",
           columnas: ["Piezas que abren al patio", "Círculo inscrito", "Superficie", "Mínimos"],
@@ -325,11 +353,106 @@ export default {
             ["Estación de mercancías", "1 plaza por cada 150 m² construidos, con carga y descarga interior"]
           ],
           nota: "Ejemplo: taller de 90 m² anexo a una estación de servicio → 90/25 = 3,6 → 4 plazas (cuenta la fracción, que además supera la mitad, art. 143.2)."
+        },
+        {
+          titulo: "OGE de Pamplona: vuelos, salientes y entrantes",
+          columnas: ["Elemento", "Regla", "Art."],
+          filas: [
+            ["Cuerpos salientes", "Sobresalen del plano del volumen y son habitables u ocupables; cerrados, semicerrados o abiertos", "9"],
+            ["Elementos salientes", "Constructivos u ornamentales no habitables ni ocupables: zócalos, aleros, gárgolas, marquesinas, parasoles, toldos...", "9"],
+            ["Sótanos, semisótanos y plantas bajas", "Ni entrantes ni salientes respecto a la alineación oficial, salvo que la Normativa Urbanística o la Ordenanza lo contemplen expresamente", "9"],
+            ["Desde qué planta", "Cuerpos salientes solo a partir de la primera planta", "9"],
+            ["U.I. VII Casco Viejo", "Prohibidos los cuerpos habitables cerrados volados sobre la alineación, salvo miradores acristalados en toda su extensión; sí en fachadas retranqueadas de la alineación", "9"],
+            ["Balcones, miradores y, en su caso, cuerpos cerrados", "Calle de menos de 15 m → 0,80 m; de más de 15 m → 1,00 m", "9"],
+            ["Entrantes en plantas superiores", "Profundidad no mayor que el vuelo permitido y nunca más de 1:3 del frente de fachada", "10"],
+            ["Galerías voladas de almacenamiento (dentro del local)", "Vuelo de 0,80 m como máximo desde los muros de fachada; 2,20 m libres debajo y 2,00 m encima", "100.8"],
+            ["Instalaciones vistas en fachada", "Saliente máximo de 15 cm", "204 bis.d"]
+          ],
+          nota: "La regla de 0,80/1,00 m está en el mismo párrafo que la del Casco Viejo. Arts. 8 y 9 en la redacción de 2013: se suprimieron los párrafos sobre cuerpos salientes para eliminar barreras arquitectónicas (los ascensores pasaron a los arts. 80-85 de la NUG); en el ámbito del PEPRI del Casco Antiguo sigue en vigor el art. 9 anterior mientras ese plan no se adapte."
+        },
+        {
+          titulo: "OGE de Pamplona: alturas libres y accesos bajo rasante",
+          columnas: ["Elemento", "Medida", "Art."],
+          filas: [
+            ["Local comercial", "2,50 m libres; 2,10 m en almacén, servicios sanitarios y piezas sin uso permanente de personal o público", "100.2"],
+            ["Oficina", "2,50 m; 2,10 m en almacén, servicios sanitarios y piezas sin uso permanente de personal", "107.3"],
+            ["Entreplanta de local comercial", "2,20 m libres por debajo y 2,20 m por encima", "100.8"],
+            ["Galería volada de almacenamiento", "2,20 m libres debajo y 2,00 m encima", "100.8"],
+            ["Entreplanta de aparcamiento en planta baja", "2,20 m libres en cualquier punto, por debajo y por encima", "156.5.a"],
+            ["Entrada a local, oficina o garaje bajo la rasante", "2 m libres entre el dintel y la rasante de la acera", "100.9, 107.6 y 156.5.c"],
+            ["Escalera de esa entrada (local u oficina)", "Peldaños mínimos de 28 × 17 cm y meseta de 1 m a nivel del batiente", "100.9 y 107.6"],
+            ["Hueco que sustituye la iluminación de la zona de descanso del loft", "2 m de alto × 1,30 m de ancho", "108 bis"]
+          ],
+          nota: "La altura de la edificación no la fija la OGE: está en la Normativa Urbanística de cada unidad (arts. 7, 18 y 28). Las alturas sobre la cubierta (3 m, 4 m, 8 m, 1,5 m) están en la tabla del art. 11."
+        },
+        {
+          titulo: "OGE de Pamplona: superficies mínimas y máximas",
+          columnas: ["Elemento", "Superficie", "Art."],
+          filas: [
+            ["Zona de venta al público de un local", "≥ 10 m²", "100.1"],
+            ["Local de oficinas", "≥ 10 m² construidos", "107.1"],
+            ["Dependencia de oficina de uso permanente", "≥ 6 m²", "107.1"],
+            ["Oficina tipo loft: el local", "≥ 40 m² construidos", "108 bis"],
+            ["Loft: zona de uso común", "≥ 9 m² útiles, con frente ≥ 2,5 m", "108 bis"],
+            ["Loft: zona de descanso", "≥ 6 m² útiles", "108 bis"],
+            ["Vestuario y sanitarios del personal (más de 10 trabajadores)", "2 m² por persona", "100.5 y 108.1.b"],
+            ["Cuarto de aseo (local con menos de 10 trabajadores)", "≥ 1,50 m²", "100.5"],
+            ["Patio cerrado con dormitorios", "≥ 12 m² (8 m² en vivienda unifamiliar de una planta)", "16.a"],
+            ["Patio cerrado con cocinas y sin dormitorios", "Los mínimos de los de dormitorios", "16.a"],
+            ["Patio cerrado sin dormitorios ni cocinas", "≥ 9 m²", "16.a"],
+            ["Entreplanta de local comercial", "≤ 50 % de la superficie construida del local, con su escalera", "100.8"],
+            ["Locales de 1.ª y de 2.ª categoría", "Hasta 500 m² / más de 500 m² construidos", "99"],
+            ["Taller anexo a una estación de servicio", "≤ 100 m²", "169.b"],
+            ["Trasteros en una entreplanta de aparcamiento", "≤ 10 % del local", "156.5.d"]
+          ],
+          nota: "No confundir: 10 m² = zona de venta y local de oficinas (construidos); 9 m² = zona común del loft (útiles) y patio sin dormitorios ni cocinas; 6 m² = dependencia de oficina de uso permanente y zona de descanso del loft (útiles)."
+        },
+        {
+          titulo: "OGE de Pamplona: porcentajes y proporciones",
+          columnas: ["Proporción", "Qué regula", "Art."],
+          filas: [
+            ["40 %", "Pendiente de los planos de la envolvente por encima de la altura", "11.2.1 y 11.2.4"],
+            ["1:3", "Profundidad máxima de los entrantes respecto al frente de fachada", "10"],
+            ["0,30 H · 0,20 H · 0,15 H", "Círculo inscrito en patios cerrados: con dormitorios · con cocinas · sin ninguno de ellos", "16.a"],
+            ["H²/8 · H²/10 · H²/20", "Superficie mínima de esos mismos patios", "16.a"],
+            ["1,5 y 2 veces el frente", "Profundidad máxima del patio abierto: con dormitorios o estancias · con otras piezas", "16.b"],
+            ["1/4 de la altura del más alto", "Distancia menor entre bloques, con un mínimo de 4 m", "35.a"],
+            ["1 y 1,5 veces la altura del más alto", "Separación entre bloques sin y con patios cerrados; la mitad si la proyección es menor de 12 m", "35.b y 35.c"],
+            ["1/8", "Huecos de ventilación natural de locales y oficinas, por dependencia", "100.6 y 108.1.c"],
+            ["50 %", "Superficie máxima de la entreplanta de un local comercial", "100.8"],
+            ["15 %", "Superficie de contacto mínima del sótano comercial (incluida la escalera)", "100.10"],
+            ["7 % (mínimo 4 m)", "Anchura de la galería comercial respecto a su longitud", "102.3"],
+            ["10 %", "Trasteros en las entreplantas de aparcamiento", "156.5.d"],
+            ["Más de la mitad", "Fracción de plaza que obliga a computar una plaza más", "143.2"]
+          ],
+          nota: "Ejemplo de galería comercial: con 80 m de longitud, el 7 % da 5,60 m de anchura; con 40 m, el 7 % da 2,80 m y rige el mínimo de 4 m."
+        },
+        {
+          titulo: "OGE de Pamplona: instalaciones propias de los edificios (art. 204 bis)",
+          columnas: ["Supuesto", "Régimen"],
+          filas: [
+            ["Regla general (c)", "Conducciones y equipos en el INTERIOR del edificio, si sus características lo permiten"],
+            ["Previstas desde la concepción del edificio (c)", "Bajantes de pluviales en los paramentos; en edificios no residenciales, el trazado como elemento expresivo de la composición exterior, si lo admite el Ayuntamiento"],
+            ["Edificio existente sin esas instalaciones y sin rehabilitación integral (c)", "Conducciones generales por fachadas de patios interiores o zonas no visibles desde la vía pública, sin reducir las dimensiones mínimas de los patios"],
+            ["Licencia de nueva construcción o de rehabilitación integral (c)", "El edificio dispone de los servicios de interés municipal o prevé espacios para implantarlos en el futuro por el interior"],
+            ["Fachadas visibles desde espacios públicos (d)", "Cuando se dé alguna de estas circunstancias: imposibilidad física y técnica justificada fehacientemente; servicios de interés municipal con dificultad manifiesta; o exigencia de las características técnicas o normativas de la instalación"],
+            ["Requisitos en fachada visible (d)", "Estudio de conjunto de técnico competente, visado, aprobado previamente por la comunidad y con informe favorable de los servicios técnicos municipales; instalación integrada, saliente máximo de 15 cm, acometida única por vivienda o local y servicio, del menor tamaño posible, del color del paramento y con trazado paralelo a cornisas, bajantes o juntas"],
+            ["Línea de interconexión con la red general (d)", "Por fachada si ir por la vía pública supone una obra civil de magnitud y hay imposibilidad física y técnica o ningún perjuicio añadido a la fachada; o por especial interés municipal, con estudio de conjunto exclusivo. Cajas y contadores en espacios interiores. Provisional y a precario: la compañía la soterra o integra a su costa cuando lo ordene el Ayuntamiento"],
+            ["Servicios de interés municipal (e)", "Telecomunicaciones por cable, energía solar y gas natural"]
+          ],
+          nota: "Ámbito: edificios de zonas en las que el planeamiento de desarrollo no fije condiciones específicas; los protegidos, por su normativa (art. 204 bis.b). Las obras de reforma de fachada incluyen el ajuste de las instalaciones existentes al modelo aprobado."
         }
       ],
       datos: [
         "Texto de trabajo: refundido para uso interno, revisado a 16-08-2016. Modificaciones integradas: arts. 8 y 9 (2002 y 2013), 9 (2007), 11 (BON 17-01-2003 y 28-04-2004), cap. V (Pleno 4-09-2008, BON 19-09-2008), sección 3.ª del cap. VIII (BON 19-08-2002) y art. 108 bis (2014).",
         "Preámbulo: el ámbito físico de la Ordenanza se extiende a todo el término municipal de Pamplona.",
+        "Preámbulo: las Ordenanzas son «el instrumento que, de una manera directa, ejerce el control de una actividad tan trascendente en el medio urbano como es la construcción de edificios».",
+        "Preámbulo: «resultará primaria, en cualquier caso, toda normativa que afecte a la definición de los espacios exteriores, particularmente los de uso público»; secundarias, las determinaciones de calidad intrínseca de la construcción, seguridad, alojamiento, comercio e industria.",
+        "Preámbulo: soporte de la edificación = lo permanente: «cimiento, estructura, muros y cubiertas, acometidas o infraestructura».",
+        "Estructura: Título I en nueve capítulos; el cap. I tiene seis secciones (en el tema, de la 1.ª a la 4.ª) y el cap. II cinco (en el tema, la 2.ª y la 3.ª).",
+        "Art. 11.2.8: los 12 m del edificio se miden en fachada desde la rasante en su punto más alto hasta el arranque de la estructura de la cubierta o, en su caso, la cara inferior del forjado de techo de la última planta.",
+        "Art. 16.b: la altura del patio abierto se mide desde el piso de las viviendas más bajas que ventilan a él hasta la línea de coronación de la fábrica.",
+        "Art. 102.2: en locales de 2.ª categoría, al menos un aseo con puerta de 0,85 m y espacio delante para inscribir un círculo de 1,50 m de diámetro.",
         "Art. 11.1: el trastero sobre la altura tiene ventilación pero no iluminación natural, ni acceso a terrazas, ni comunicación directa entre sí o con vivienda.",
         "Art. 16.b: no es patio abierto el retranqueo de fachada de hasta 1,50 m sin huecos laterales; profundidad del patio abierto, 1,5 veces el frente con dormitorios o estancias y 2 veces con otras piezas.",
         "Art. 20: la rectificación de alineaciones en un Estudio de Detalle no puede estrechar la vía pública por debajo de 6 m y no puede tomar más superficie de la que cede.",
@@ -343,14 +466,24 @@ export default {
       ],
       excepciones: [
         "Art. 7: el catálogo de protección prevalece sobre la altura que permita la norma de la unidad.",
+        "Arts. 8 y 9: rige la redacción de 2013 (BON n.º 66, de 09-04-2013), que suprimió los párrafos sobre cuerpos salientes para eliminar barreras arquitectónicas; en el ámbito del PEPRI del Casco Antiguo sigue en vigor el art. 9 anterior mientras ese plan no se adapte.",
         "Art. 9: en el Casco Viejo se prohíben los cuerpos cerrados volados, salvo miradores totalmente acristalados y fachadas retranqueadas.",
+        "Art. 9: en sótanos, semisótanos y plantas bajas no hay entrantes ni salientes respecto a la alineación oficial, salvo que la Normativa Urbanística o la Ordenanza lo contemplen expresamente.",
+        "Art. 11.2.4: en equipamientos y edificios industriales también las instalaciones, las escaleras y los ascensores quedan dentro de la envolvente (40 % y 4 m).",
+        "Art. 11.8: las construcciones existentes sobre la altura que no cumplen no quedan fuera de ordenación; al intervenir puede exigirse su adaptación si es proporcionada.",
+        "Art. 13: las unidades ya edificadas asimilables a la manzana compacta no se descalifican y admiten mejoras interiores sin aumento de aprovechamiento; las obras que afecten al soporte o a las fachadas exteriores o a patio deben adaptarse a estas normas.",
+        "Arts. 14 y 17: las sustituciones en el Casco Histórico no se rigen por las normas de manzana compacta ni por la exigencia de vivienda exterior, salvo que el carácter de la actuación lo permita (frente suficiente, dos calles o agregación de parcelas).",
         "Art. 16.a: en la vivienda unifamiliar de una planta los mínimos del patio con dormitorios bajan a 2 m y 8 m².",
         "Art. 26: el II Ensanche puede regular de otro modo las construcciones en patio de manzana.",
         "Art. 37.c: los bloques de uso exclusivo no residencial pueden superar 100 m de longitud y 20/30 m de ancho.",
         "Art. 100.1: la zona de venta puede comunicar con la vivienda del titular, no con otras.",
         "Art. 100.10: el sótano comercial puede tener acceso independiente si lo permite el desnivel de las calles.",
+        "Arts. 100.6 y 108.1.c: los locales destinados exclusivamente a almacenes, trasteros y pasillos no necesitan los huecos de 1/8.",
         "Art. 108 bis: la oficina tipo loft no puede estar exclusivamente en sótano; el hueco de 2 × 1,30 m puede sustituir la iluminación natural de la zona de descanso.",
         "Art. 140: el Ayuntamiento puede, excepcionalmente y con informe motivado, no aplicar las normas de garajes en un caso concreto.",
+        "Art. 143.2: la fracción de plaza igual o menor que la mitad puede descontarse.",
+        "Art. 159.A.2: el aparcamiento interior en planta baja también puede ventilar por huecos en fachada a calle, a 4 m de las fincas colindantes.",
+        "Aparcamientos robotizados: no admiten carga de baterías (art. 166) ni talleres del automóvil (art. 170).",
         "Art. 204 bis.c: bajantes de pluviales previstas desde el proyecto y trazados expresivos en edificios no residenciales pueden ir por fachada.",
         "Art. 204 bis.d: las líneas de interconexión por fachada son provisionales y a precario.",
         "Remisiones antiguas que conserva el texto: «artículos 73 y 74 de la Ley del Suelo» (arts. 19 y 30), «Ordenanza General de Seguridad e Higiene en el Trabajo» (arts. 100.5 y 108.1.b), «Diputación Foral de Navarra» (art. 34) y «minusvalía» (art. 144). Hoy rigen las normas que las sustituyen; no se pregunta por ellas.",
