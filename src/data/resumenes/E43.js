@@ -1,7 +1,7 @@
 // Resumen del tema E43. Formato: cabecera de src/data/resumenes.js.
 export default {
     intro:
-      "El Título II de la Ley Foral 17/2001, de 12 de julio, reguladora del comercio en Navarra, responde a tres preguntas: QUÉ es un establecimiento comercial y cómo se clasifica (arts. 13-15), con qué PRINCIPIOS y determinaciones de planeamiento se ordena el uso comercial (arts. 16-18) y CUÁNDO hace falta una autorización, que hoy se canaliza a través de un PLAN SECTORIAL DE INCIDENCIA SUPRAMUNICIPAL (arts. 19-29). La regla de partida es la LIBERTAD: instalar un comercio no está sujeto, con carácter general, a autorización (art. 19.1). La excepción son los GRANDES ESTABLECIMIENTOS COMERCIALES, de más de 2.500 m² de superficie útil de venta y exposición, y las ampliaciones de los ya instalados en más de 500 m². Para un arquitecto municipal hay tres puntos de contacto: el Plan General debe fijar una dotación comercial mínima de 3 m² por vivienda en los bajos de la vivienda colectiva, el Ayuntamiento emite el informe de conformidad urbanística que acompaña a la solicitud, y los grandes establecimientos solo caben en suelo con uso residencial dominante. Ojo: el Capítulo III (arts. 30 y 31, mediana superficie y «descuento duro») fue DEROGADO por la Ley Foral 6/2010, aunque siga apareciendo en el texto del tema.",
+      "El Título II de la Ley Foral 17/2001, de 12 de julio, reguladora del comercio en Navarra, responde a tres preguntas: QUÉ es un establecimiento comercial y cómo se clasifica (arts. 13-15), con qué PRINCIPIOS y determinaciones de planeamiento se ordena el uso comercial (arts. 16-18) y CUÁNDO hace falta una autorización, que hoy se canaliza a través de un PLAN SECTORIAL DE INCIDENCIA SUPRAMUNICIPAL (arts. 19-29). La regla de partida es la LIBERTAD: instalar un comercio no está sujeto, con carácter general, a autorización (art. 19.1). La excepción son los GRANDES ESTABLECIMIENTOS COMERCIALES, de más de 2.500 m² de superficie útil de venta y exposición, y las ampliaciones de los ya instalados en más de 500 m². Para un arquitecto municipal hay tres puntos de contacto: el Plan General debe fijar una dotación comercial mínima de 3 m² por vivienda en los bajos de la vivienda colectiva, el Ayuntamiento emite el informe de conformidad urbanística que acompaña a la solicitud, y los grandes establecimientos solo caben en suelo con uso residencial dominante. Ojo: el Capítulo III (arts. 30 y 31, mediana superficie y «descuento duro») fue DEROGADO por la Ley Foral 6/2010 (disposición derogatoria única, letra a); en «Leer temas» aparece marcado como derogado y no se estudia.",
     bloques: [
       {
         h: "Concepto y clases de establecimiento comercial (arts. 13-15)",
@@ -68,7 +68,7 @@ export default {
           "Art. 23 — CONTENIDO: el mínimo de los planes sectoriales de la legislación foral de ordenación del territorio y urbanismo, más la valoración de los criterios del art. 25. El ESTUDIO DE VIABILIDAD ECONÓMICA se refiere a la actuación de URBANIZACIÓN y nunca a la viabilidad económica del gran establecimiento",
           "Art. 24 — los PSIS se elaboran y aprueban en la forma que establece la legislación foral de ordenación del territorio y urbanismo",
           "Art. 25.1 — CRITERIOS de aprobación: a) conformidad con esta ley foral y con los POT · b) incidencia en el entorno y el medio urbano · c) EQUILIBRIO INTERTERRITORIAL · d) IMPACTO AMBIENTAL, con emisiones de CO2 de la movilidad INFERIORES EN UN 20 % a la media del ámbito (salvo imposibilidad por circunstancias especiales) y, en todo caso, las emisiones de la movilidad y del funcionamiento del establecimiento un 20 % inferiores a la media estimada una vez contemplado el desarrollo urbanístico · e) RED VIARIA Y ACCESIBILIDAD: sin medios públicos colectivos suficientes y proporcionales (30 % DEL AFORO previsto en el estudio de movilidad) NO PUEDE APROBARSE el PSIS, salvo justificación de la imposibilidad y circunstancias excepcionales · f) residuos, incidencia acústica y consumo energético · g) localización comercial y DIVERSIDAD DE FORMATOS",
-          "Art. 25.2 — REQUERIMIENTOS de los grandes establecimientos: a) un SURTIDOR DE CARGA de vehículos eléctricos por cada 2.500 m² de superficie útil de venta, cuando tecnológicamente estén disponibles · b) la calificación de EFICIENCIA ENERGÉTICA que determine el Departamento competente",
+          "Art. 25.2 — REQUERIMIENTOS de los grandes establecimientos: a) un SURTIDOR DE CARGA de vehículos eléctricos por cada 2.500 m² de superficie útil de venta, cuando tecnológicamente estén disponibles · b) la calificación de EFICIENCIA ENERGÉTICA que determine el Departamento de Innovación, Empresa y Empleo (denominación de 2010; hoy, el departamento competente)",
           "Art. 26 — el PSIS que autoriza un gran establecimiento tiene VIGENCIA INDEFINIDA, con la única excepción del art. 27",
           "Art. 27 — EXTINCIÓN: la puede acordar el GOBIERNO DE NAVARRA si transcurren MÁS DE TRES AÑOS sin que el interesado inicie la actividad por CAUSA IMPUTABLE a él. Debe ser EXPRESA, PREVIA AUDIENCIA, y se notifica al interesado y al AYUNTAMIENTO",
           "Art. 28 — TRANSMISIÓN de establecimientos que requirieron autorización: COMUNICACIÓN al Departamento competente en comercio, acompañada de la documentación que acredite el cumplimiento de la normativa de DEFENSA DE LA COMPETENCIA",
@@ -181,11 +181,45 @@ export default {
             ["Plan Sectorial de Incidencia Supramunicipal", "Contenido de la legislación urbanística, valoración del art. 25 y estudio de movilidad", "19.7 y 23"]
           ],
           nota: "La dotación de 3 m² por vivienda no puede ocuparse con establecimientos que deban tramitarse por PSIS (art. 18.2.b)."
+        },
+        {
+          titulo: "LF 17/2001, art. 16: los diez principios de la implantación de minoristas",
+          columnas: ["Letra", "Principio", "Palabra clave"],
+          filas: [
+            ["a", "Libertad de establecimiento de los prestadores de servicios y libertad de empresa en el marco de la economía de mercado", "LIBERTAD"],
+            ["b", "Simplicidad de los trámites en el acceso a una actividad de servicios y en su ejercicio", "SIMPLICIDAD"],
+            ["c", "Proporcionalidad en el otorgamiento de autorizaciones, en consideración al interés general", "PROPORCIONALIDAD"],
+            ["d", "Favorecimiento del comercio dentro del núcleo urbano de los municipios y de la renovación y regeneración urbana", "NÚCLEO URBANO"],
+            ["e", "Modelo de ciudad con armonía entre los usos residenciales y las actividades comerciales", "ARMONÍA DE USOS"],
+            ["f", "Crecimiento armonioso y equilibrado, con desarrollo sostenible del entorno urbano y el menor impacto sobre el territorio", "SOSTENIBILIDAD"],
+            ["g", "Reducción de la movilidad para evitar desplazamientos innecesarios, congestión y contaminación atmosférica", "MOVILIDAD"],
+            ["h", "Diversidad de oferta y de operadores, con atención especial a quienes estén en situación de dependencia", "DIVERSIDAD"],
+            ["i", "Ahorro y eficiencia en el consumo de energía y potenciación de las energías renovables", "ENERGÍA"],
+            ["j", "Gestión adecuada de los residuos, con su reducción y el aprovechamiento de los residuos alimenticios", "RESIDUOS (LF 7/2013)"]
+          ],
+          nota: "Los tres primeros son principios de liberalización (libertad, simplicidad de trámites y proporcionalidad de las autorizaciones); los demás orientan el comercio hacia el núcleo urbano, la mezcla de usos y la menor movilidad. La letra j) la añadió la LF 7/2013."
+        },
+        {
+          titulo: "LF 17/2001, art. 25: criterios para aprobar el Plan Sectorial y requerimientos del gran establecimiento",
+          columnas: ["Letra", "Criterio o requerimiento", "Cifra o matiz"],
+          filas: [
+            ["25.1.a", "Conformidad con los criterios de la ley foral y de los Planes de Ordenación Territorial", "—"],
+            ["25.1.b", "Incidencia del proyecto en el entorno urbano y sobre el medio urbano", "—"],
+            ["25.1.c", "Equilibrio interterritorial", "—"],
+            ["25.1.d", "Impacto ambiental: conformidad con la normativa sectorial y emisiones de CO2 de la movilidad", "20 % por debajo de la media del ámbito (salvo especiales circunstancias); en todo caso, movilidad y funcionamiento 20 % por debajo de la media estimada con el desarrollo urbanístico"],
+            ["25.1.e", "Red viaria y accesibilidad, en especial por medios públicos colectivos", "Sin transporte colectivo que cubra el 30 % del aforo NO se aprueba, salvo imposibilidad justificada y circunstancias excepcionales"],
+            ["25.1.f", "Gestión de residuos, incidencia acústica y estimación del consumo energético", "—"],
+            ["25.1.g", "Localización comercial y diversidad de formatos", "Máximas posibilidades para los ciudadanos"],
+            ["25.2.a", "Surtidor de carga de vehículos eléctricos", "1 por cada 2.500 m² útiles de venta, cuando tecnológicamente estén disponibles"],
+            ["25.2.b", "Calificación de eficiencia energética", "La que determine el departamento competente"]
+          ],
+          nota: "Dos porcentajes que no hay que cruzar: 20 % (reducción de CO2, letra d) y 30 % (aforo cubierto por transporte público, letra e). Y dos veces 2.500 m²: umbral del gran establecimiento (art. 19.3) y módulo de los surtidores (art. 25.2.a)."
         }
       ],
       datos: [
-        "Denominación: Ley Foral 17/2001, de 12 de julio, reguladora del comercio en Navarra. El temario de la convocatoria incluye el Título II (establecimientos comerciales).",
-        "La redacción actual de los arts. 19 a 29 y la división en secciones del Capítulo II proceden de la Ley Foral 6/2010, que introdujo la tramitación de los grandes establecimientos mediante Plan Sectorial de Incidencia Supramunicipal y derogó el Capítulo III. La Ley Foral 7/2013 añadió el principio de gestión de residuos (art. 16.j) y el plan de residuos (art. 21.3.e bis).",
+        "Denominación: Ley Foral 17/2001, de 12 de julio, reguladora del comercio en Navarra (BON n.º 86, de 16-07-2001). El temario de la convocatoria incluye el Título II (establecimientos comerciales).",
+        "Todo el Título II (arts. 13 a 29), con su división del Capítulo II en tres secciones, tiene la redacción dada por el art. 7, apartado Cinco, de la Ley Foral 6/2010, de 6 de abril, que adaptó la ley a la Directiva de servicios 2006/123/CE (en vigor el 15-04-2010). Esa ley introdujo la tramitación de los grandes establecimientos mediante Plan Sectorial de Incidencia Supramunicipal y derogó el Capítulo III. La Ley Foral 7/2013, de 25 de febrero, añadió el principio de gestión de residuos (art. 16.j) y el plan de residuos (art. 21.3.e bis).",
+        "Vigencia a 21-05-2026, fecha de la convocatoria: no hay modificaciones del Título II posteriores a la LF 7/2013. Lo confirman el texto consolidado del BOE (BOE-A-2001-15779, última actualización 22-04-2016, sin referencias posteriores al Título II en su análisis) y LexNavarra (sin notas de vigencia en los arts. 13 a 29 salvo las de 2010 y 2013).",
         "Art. 19.2: el PSIS lo promueve el OPERADOR o el PROMOTOR, no el Ayuntamiento.",
         "Art. 19.6: excepcionalmente caben grandes establecimientos en zonas industriales recuperadas que formen parte de la ciudad o de su continuo.",
         "Art. 23.2: el estudio de viabilidad económica del PSIS se refiere a la urbanización, nunca a la rentabilidad del gran establecimiento.",
@@ -202,6 +236,9 @@ export default {
         "Art. 19.2: la ampliación exige PSIS si supera 500 m² de incremento, y por una sola vez; una ampliación de 500 m² exactos no lo supera.",
         "Art. 19.4: la superficie de pasillos, cajas y dispensación SÍ computa; la de almacén no visitable, oficinas y aparcamiento NO.",
         "Las zonas transfronterizas aparecen dos veces: no forman establecimiento colectivo (15.5.a) y no son gran establecimiento (19.5).",
+        "Art. 25.1.d: la reducción del 20 % de las emisiones de CO2 de la movilidad respecto de la media del ámbito cede si las especiales circunstancias del ámbito lo imposibilitan; pero «en todo caso» las emisiones de la movilidad y del funcionamiento del establecimiento deben quedar un 20 % por debajo de la media estimada una vez contemplado el desarrollo urbanístico.",
+        "Art. 25.2.a: el surtidor de carga de vehículos eléctricos (uno por cada 2.500 m² de superficie útil de venta) solo es exigible «cuando tecnológicamente estén disponibles».",
+        "Art. 29.3: la ley solo prevé devolver la tasa cuando la solicitud se inadmite por vulneración manifiesta (art. 22.4), no cuando se deniega por no subsanar (art. 22.3).",
         "La ley remite a normas ya sustituidas: la LF 35/2002 de Ordenación del Territorio y Urbanismo (hoy DFL 1/2017), la Ley 30/1992 (hoy Leyes 39/2015 y 40/2015) y la LF 4/2005 de intervención ambiental (hoy LF 17/2020)."
       ]
     },
