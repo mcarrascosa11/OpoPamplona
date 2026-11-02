@@ -1,4 +1,12 @@
 // Resumen del tema E57. Formato: cabecera de src/data/resumenes.js.
+// Revisado el 02-11-2026 contra temas/E_Tema57.txt con los avisos de src/data/textosTemas/E57.js
+// (vigencia revisada el 25-10-2026: sin modificaciones posteriores a la de 2014 y sin incluir lo
+// derogado, 15.2, 20.1 y 44.13). Se corrigen cuatro imprecisiones (el 3.1 no se atribuye a la
+// modificación de 2014; «al menos» taquillas en A y B; deber del art. 4 de la básica; lista exacta del
+// art. 36.2) y se completa la memorización: preparados de carne en la tabla de temperaturas y dos
+// tablas nuevas (frecuencias; órganos y títulos habilitantes), con más datos y excepciones. La
+// estructura de títulos y capítulos fuera del alcance se ha comprobado en los textos que publica el
+// Ayuntamiento (alimentaria: título V, arts. 54-57, y VI, arts. 58-63; básica: cap. VII, art. 34).
 export default {
     intro:
       "El tema reúne dos ordenanzas sanitarias municipales de Pamplona. La ORDENANZA MUNICIPAL DE HIGIENE ALIMENTARIA (aprobación definitiva publicada en el BON n.º 25, de 27-02-2006, y modificada en 2014, BON n.º 159, de 14-08-2014) fija las condiciones técnicas, higiénicas y sanitarias de cualquier actividad del sector alimentario: se estudian sus títulos I (objeto y definiciones), II (condiciones generales: autorización, adecuación, reformas y cambios de titularidad), III (actividades de alimentación: comercio minorista, carnicerías, pescaderías, mayoristas, mercados de abastos, almacenes, comercio no permanente y máquinas expendedoras) y IV (hostelería permanente y no permanente); quedan fuera el V (transporte) y el VI (régimen inspector y sancionador). La ORDENANZA BÁSICA DE HIGIENE Y SALUBRIDAD (aprobación inicial BON n.º 182, de 17-09-2014; definitiva BON n.º 22, de 03-02-2015) fija las condiciones básicas de viviendas y solares, centros docentes, centros deportivos y de baño, almacenes y comercios de bienes usados y pieles no curtidas y otros establecimientos comerciales (capítulos I a IV y VI; quedan fuera el V, vehículos de transporte, y el VII, infracciones). La lógica de las dos es la misma: cada actividad tiene unas dependencias mínimas, unas condiciones técnicas (materiales, agua, ventilación, frío), unas condiciones higiénico-sanitarias de funcionamiento y unas prohibiciones. Para el arquitecto interesan sobre todo las dependencias y las condiciones técnicas de los locales. Ambas están vigentes en la redacción del TXT a la fecha de la convocatoria (BON 21-05-2026), que es la que fija la normativa exigible (base 6.6): la de higiene alimentaria no tiene más modificación que la de 2014 y la básica no se ha modificado (su revisión figura solo como previsión en el Plan Normativo 2026).",
@@ -6,7 +14,7 @@ export default {
       {
         h: "Higiene alimentaria. Títulos I y II: objeto, definiciones y condiciones generales (arts. 1-6)",
         nota:
-          "Las definiciones del art. 2 distinguen ALIMENTO (destinado a ser ingerido, con o sin transformación) de PRODUCTO ALIMENTARIO (materia no nociva SIN valor nutritivo utilizable en la alimentación). Desde la modificación de 2014, el ejercicio de la actividad requiere autorización, declaración responsable o comunicación previa según el procedimiento que corresponda. Simultanear actividades: un comercio no alimentario solo puede vender alimentos ENVASADOS; dos actividades alimentarias pueden convivir si cada una cumple lo suyo y, en los espacios comunes, lo más restrictivo.",
+          "Las definiciones del art. 2 distinguen ALIMENTO (destinado a ser ingerido, con o sin transformación) de PRODUCTO ALIMENTARIO (materia no nociva SIN valor nutritivo utilizable en la alimentación). El art. 3.1 exige autorización, declaración responsable o comunicación previa ante el Ayuntamiento, según el procedimiento que corresponda. Simultanear actividades: un comercio no alimentario solo puede vender alimentos ENVASADOS; dos actividades alimentarias pueden convivir si cada una cumple lo suyo y, en los espacios comunes, lo más restrictivo.",
         items: [
           "Art. 1 — Objeto: condiciones técnicas, higiénicas y sanitarias de cualquier actividad relacionada con el sector alimentario en la ciudad de Pamplona",
           "Art. 2.1-2.2 — Alimento: sustancia o producto destinado a ser ingerido por los seres humanos, o con probabilidad razonable de serlo, transformado o no. Producto alimentario: materia no nociva que, SIN valor nutritivo, puede utilizarse en la alimentación humana",
@@ -59,7 +67,7 @@ export default {
       {
         h: "Mayoristas, mercados de abastos, almacenes, comercio no permanente y máquinas expendedoras (arts. 23-39)",
         nota:
-          "Rasgos propios: el mayorista y el mercado de abastos cargan y descargan por accesos DISTINTOS de los del público; el mercado tiene un recinto cerrado y exclusivo de basuras con comunicación directa a la vía pública y al mercado; en el comercio no permanente se prohíbe con carácter general vender carnes, pescados, lácteos frescos, pastelería rellena, pastas frescas rellenas y semiconservas, salvo autorización previa; en las máquinas expendedoras, los helados de máquina a -12 °C o menos y los productos calientes a 65 °C o más.",
+          "Rasgos propios: el mayorista y el mercado de abastos cargan y descargan por accesos DISTINTOS de los del público; el mercado tiene un recinto cerrado y exclusivo de basuras con comunicación directa a la vía pública y al mercado; en el comercio no permanente se prohíbe con carácter general vender carnes, pescados, lácteos frescos, pastelería y bollería rellena o guarnecida, pastas frescas y rellenas y semiconservas, salvo autorización previa; en las máquinas expendedoras, los helados de máquina a -12 °C o menos y los productos calientes a 65 °C o más.",
         items: [
           "Art. 23 — Comercio mayorista: almacenamiento, distribución o venta de alimentos con destino al comercio minorista y la hostelería",
           "Art. 24 — Lejos de focos de contaminación; superficie acorde con el volumen para evitar estiba incorrecta; paredes, suelos, ventilación e iluminación como el minorista; cámaras suficientes y colgadores de acero inoxidable; agua fría y caliente, fregaderos y vertederos; lavamanos no manuales si se manipula producto sin envasar; aseos con anteaseo, diferenciados de los del público y con ventilación MECÁNICA; vestuarios con taquillas",
@@ -78,7 +86,7 @@ export default {
       {
         h: "Hostelería permanente: definiciones, grupos y dependencias (arts. 40-47)",
         nota:
-          "La clave del título IV es la clasificación por RIESGO SANITARIO del art. 41: A no elabora (no tiene cocina); B elabora para consumo inmediato sin comidas completas (pinchos, platos combinados, pizzas, hamburguesas, bocadillos); C elabora menús o comidas completas; D lo mismo en grandes cantidades (en torno a 100 comensales). Las exigencias crecen con el grupo: cocina de al menos el 10 % del local en C y D con más de 100 m² de uso público; zonas separadas de crudos y cocinados en C y D; dos accesos y zona exclusiva de materias primas en D; aseos y vestuarios del personal en C y D, y solo taquillas en A y B.",
+          "La clave del título IV es la clasificación por RIESGO SANITARIO del art. 41: A no elabora (no tiene cocina); B elabora para consumo inmediato sin comidas completas (pinchos, platos combinados, pizzas, hamburguesas, bocadillos); C elabora menús o comidas completas; D lo mismo en grandes cantidades (en torno a 100 comensales). Las exigencias crecen con el grupo: cocina de al menos el 10 % del local en C y D con más de 100 m² de uso público; zonas separadas de crudos y cocinados en C y D; dos accesos y zona exclusiva de materias primas en D; aseos y vestuarios del personal en C y D, y al menos taquillas en A y B.",
         items: [
           "Art. 40.1-40.5 — Degustación de café (café, infusiones, refrescos, bollería y envasados industriales; NO alcohol ni elaboración); bar (en barra, bebidas, tapas, raciones y bocadillos, sin actividad de restaurante); cafetería (además platos simples o combinados de comida rápida); restaurante (comidas elaboradas en el local para servicio de mesa); bar-restaurante (ambas actividades diferenciadas). Cervecerías, tabernas, mesones, pubs, pizzerías o hamburgueserías se asimilan a uno de estos tipos a efectos de licencia",
           "Art. 40.6-40.8 — Comedor colectivo (comidas para grupos determinados, con o sin cocina propia, independiente o accesorio de empresas, centros o instituciones); COCINA (recinto independizado para elaborar comidas, con o sin calor); OFICIO (espacio independizado para manipular y conservar alimentos, SIN instrumentos de fritura o cocinado)",
@@ -117,7 +125,7 @@ export default {
       {
         h: "Ordenanza básica de higiene y salubridad: viviendas, solares y centros docentes (caps. I y II, arts. 1-12)",
         nota:
-          "El capítulo I impone un deber general de mantenimiento a los propietarios (de solares, inmuebles, viviendas, locales y bajeras) y a la comunidad en los elementos comunes; el Ayuntamiento puede INTERVENIR si la falta de mantenimiento supone un riesgo potencial para la salud pública. El capítulo II fija las dependencias mínimas de los centros docentes y dos reglas muy concretas: renovación total del aire de las aulas en 5 minutos como máximo (ventilación NATURAL obligatoria en enseñanza obligatoria) y desinsectación preventiva una vez al año.",
+          "El capítulo I impone un deber general de mantenimiento a los propietarios (de solares, urbanizaciones, inmuebles, viviendas, locales comerciales y bajeras), que, según la propiedad horizontal, alcanza también a portales, escaleras, ascensores, garajes y demás espacios comunes; el Ayuntamiento puede INTERVENIR si la falta de mantenimiento supone un riesgo potencial para la salud pública. El capítulo II fija las dependencias mínimas de los centros docentes y dos reglas muy concretas: renovación total del aire de las aulas en 5 minutos como máximo (ventilación NATURAL obligatoria en enseñanza obligatoria) y desinsectación preventiva una vez al año.",
         items: [
           "Arts. 1-3 — Cap. I: condiciones de higiene y salubridad de viviendas y solares del término municipal. Ámbito: solares, urbanizaciones, inmuebles, viviendas, locales comerciales y bajeras. Los propietarios deben mantenerlos en adecuadas condiciones de higiene y salubridad",
           "Art. 4 — Según la propiedad horizontal, los propietarios mantienen portales, cajas de escalera, ascensores, garajes y demás espacios comunes; el Ayuntamiento puede intervenir si hay riesgo potencial para la salud pública",
@@ -179,10 +187,10 @@ export default {
       "Lavamanos de pedal u otro sistema no manual; nunca de codo (arts. 9.5, 15.4, 24.6, 43.4 y 44.7)",
       "Refrigeración 0/+8 °C; congelación -18 °C o menos (art. 10)",
       "Frutas y verduras fuera de la sala: a más de 80 cm del suelo (art. 10 bis)",
-      "Carnicería: cuchillos a 82 °C o más; sin madera salvo tajos; carne picada 0/+2 °C, aves 0/+4 °C, resto 0/+7 °C, despojos 0/+3 °C y congelados a -12 °C (arts. 15-16)",
+      "Carnicería: cuchillos a 82 °C o más; sin madera salvo tajos y superficies de curado y secado; carne picada 0/+2 °C, aves 0/+4 °C, resto 0/+7 °C, despojos refrigerados 0/+3 °C y congelados a -12 °C o menos (arts. 15-16)",
       "Pescadería: frescos 0/+7 °C en el centro de la pieza; cocidos 0/+4 °C; no descongelar para vender como fresco ni aun indicándolo (arts. 21-22)",
       "Mayoristas y mercados: carga y descarga por accesos distintos de los del público (arts. 25.1 y 28.7)",
-      "Comercio no permanente: carnes, pescados, lácteos frescos, pastelería rellena, pastas frescas y semiconservas prohibidas salvo autorización previa (art. 36)",
+      "Comercio no permanente: carnes, pescados, lácteos frescos, pastelería y bollería rellena o guarnecida, pastas frescas y rellenas y semiconservas prohibidas salvo autorización previa de la autoridad sanitaria municipal (art. 36)",
       "Máquinas expendedoras: comunicación previa del emplazamiento; helados -12 °C, calientes +65 °C (arts. 38-39)",
       "Hostelería: grupos A (no elabora), B (consumo inmediato), C (comidas completas) y D (en torno a 100 comensales) (art. 41)",
       "Plancha en barra: humos sobre cubierta (art. 42.8)",
@@ -202,8 +210,9 @@ export default {
           columnas: ["Producto", "Temperatura", "Artículo"],
           filas: [
             ["Alimentos refrigerados (regla general del minorista)", "0 a +8 °C", "10.5"],
-            ["Alimentos congelados (regla general)", "-18 °C o menos", "10.6"],
+            ["Alimentos congelados (regla general; también venta de congelados, carnicería, máquinas y comidas)", "-18 °C o menos", "8.13, 10.6, 16.7, 39.2 y 48.11"],
             ["Carnes picadas y preparados de carne picada", "0 a +2 °C", "16.6"],
+            ["Preparados de carne (según la materia prima y la especie)", "De 0/+2 °C a 0/+7 °C", "16.6"],
             ["Despojos refrigerados", "0 a +3 °C", "16.6"],
             ["Carnes frescas de aves y conejos", "0 a +4 °C", "16.6"],
             ["Carnes frescas de bovino, porcino, ovino, caprino, solípedos y silvestres", "0 a +7 °C", "16.6"],
@@ -216,7 +225,7 @@ export default {
             ["Productos o comidas calientes", "+65 °C o más", "39.2 y 48.11"],
             ["Desinfección de cuchillos en carnicería (agua o vapor)", "No menos de 82 °C", "15.5"]
           ],
-          nota: "Los dos «-12 °C» del tema: despojos congelados y helados de máquina. Los dos «0/+4 °C»: aves y conejos, y cocidos de pescado y comidas de más de 24 h."
+          nota: "Los dos «-12 °C» del tema: despojos congelados y helados de máquina. Los «0/+4 °C»: aves y conejos, pescado cocido y refrigerados o comidas de duración superior a 24 h. Los «0/+7 °C»: carnes frescas de mamíferos y pescado fresco (en el centro de la pieza). Los «0/+8 °C»: refrigeración general del minorista y refrigerados o comidas de menos de 24 h."
         },
         {
           titulo: "Higiene alimentaria: grupos de hostelería permanente (arts. 41, 44 y 47)",
@@ -254,11 +263,29 @@ export default {
             ["Pescadería", "Descongelar para vender como fresco, ni aun indicándolo; reinmersión de bivalvos vivos", "22.1 y 22.7"],
             ["Mayorista", "Animales en las dependencias; personas ajenas sin acompañar", "26.1-26.2"],
             ["Mercado de abastos", "Personal ajeno en los puestos; productos ajenos al puesto", "30.1-30.2"],
-            ["Comercio no permanente", "Carnes, pescados, lácteos frescos, pastelería rellena, pastas frescas y semiconservas (salvo autorización)", "36.2"],
+            ["Comercio no permanente", "Carnes, aves y caza; pescados y mariscos; lácteos frescos; pastelería y bollería rellena o guarnecida; pastas frescas y rellenas; anchoas, ahumados y semiconservas (salvo autorización)", "36.2"],
             ["Hostelería permanente", "Tapar comidas con paños; usar la cocina como comedor del personal", "49.3 y 49.9"],
             ["Hostelería no permanente", "Venta ambulante en carritos o vehículos fuera de la forma prevista", "53.7"]
           ],
           nota: "Comunes a casi todas: serrín, sal, cartones o papeles en el suelo; fumar; alimentos en el suelo; verter aceites o grasas al alcantarillado."
+        },
+        {
+          titulo: "Higiene alimentaria: frecuencias de limpieza, vaciado y control",
+          columnas: ["Operación", "Frecuencia o momento", "Artículo"],
+          filas: [
+            ["Limpieza de suelos y mostradores del comercio minorista", "La necesaria y, como mínimo, una vez al día, sin levantar polvo", "10.2"],
+            ["Lavado con desinfectante de los recipientes de basura (minorista y mercados de abastos)", "Al menos una vez al día", "10.13 y 28.8"],
+            ["Desinsectación y desratización del comercio minorista", "Cuantas veces sea necesario y siempre que lo requieran los servicios sanitarios", "10.4"],
+            ["Alimentos de las máquinas expendedoras", "Renovación con la frecuencia necesaria según su vida comercial", "39.1"],
+            ["Máquinas expendedoras de helados", "Vaciado cada día al acabar la venta; limpieza y desinfección registradas por escrito (fechas, productos y persona)", "39.7"],
+            ["Aprovisionamiento de perecederos en el grupo B de hostelería", "Ajustado al consumo diario, de forma estable toda la semana y en cualquier época del año", "41.2"],
+            ["Recipientes de residuos sólidos en hostelería permanente", "Evacuación, limpieza y desinfección con la mayor frecuencia posible y al menos una vez al día", "42.6"],
+            ["Suelos y paredes en hostelería permanente", "Limpieza y desinfección al menos diaria y siempre que sea necesario; nunca mientras se preparan alimentos", "48.1"],
+            ["Útiles y superficies en contacto con alimentos (hostelería permanente)", "Después de cada jornada de trabajo, o antes si fuera necesario", "48.2"],
+            ["Útiles y maquinaria que no se emplean a diario", "Lavado y desinfección antes de volver a utilizarlos", "48.2"],
+            ["Recinto y útiles de la hostelería no permanente", "Al final de la jornada de trabajo", "52.6"]
+          ],
+          nota: "«Una vez al día» como mínimo: suelos y mostradores del minorista, recipientes de basura y, en hostelería permanente, suelos, paredes y recipientes de residuos. En la Ordenanza básica solo hay una periodicidad fija: la desinsectación, una vez al año como mínimo, de centros docentes y de establecimientos de bienes usados (arts. 12 y 23); las toallas de los centros deportivos y de baño se lavan después de cada uso (art. 17)."
         },
         {
           titulo: "Ordenanza básica de higiene y salubridad: dependencias mínimas",
@@ -282,14 +309,37 @@ export default {
             ["Ropa no lavable con agua", "Desinfección", "25.b"],
             ["Prendas de peletería", "Desinfección y desinsectación", "25.c"],
             ["Mobiliario (muebles, sofás, colchones)", "Desinsectación", "25.d"],
-            ["Toallas en centros deportivos y de baño", "Lavado automático después de cada uso", "17"]
+            ["Toallas en centros deportivos y de baño", "Lavado automático después de cada uso y antes de entregarlas al nuevo usuario", "17"]
           ],
-          nota: "Siempre empresa aplicadora autorizada para la desinsectación y desratización. Hay que documentar los tratamientos b), c) y d) del art. 25, no el lavado de la ropa lavable."
+          nota: "En la Ordenanza básica, la desinsectación y la desratización las hace siempre una empresa aplicadora autorizada (en hostelería, en cambio, el propio personal puede aplicar la desinfección y los tratamientos no químicos: art. 48.4 de la alimentaria). Hay que documentar los tratamientos b), c) y d) del art. 25, no el lavado de la ropa lavable."
+        },
+        {
+          titulo: "Órganos, sujetos y títulos habilitantes de las dos ordenanzas",
+          columnas: ["Supuesto", "Quién o qué", "Artículo"],
+          filas: [
+            ["Ejercer cualquier actividad de la Ordenanza de higiene alimentaria", "Autorización, declaración responsable o comunicación previa ante el Ayuntamiento; si son varias actividades, deben constar en la licencia", "Alim. 3.1"],
+            ["Condiciones de locales e instalaciones", "Las exigen los servicios municipales competentes antes de la licencia de apertura", "Alim. 3.4"],
+            ["Reformas para adecuarse a la normativa vigente", "Puede requerirlas el Ayuntamiento, con base en informes técnicos de los servicios municipales", "Alim. 4"],
+            ["Modificación o reforma posterior del establecimiento", "Autorización municipal, previo informe de los servicios municipales competentes", "Alim. 5"],
+            ["Cambio de titularidad", "Comunicación al Ayuntamiento", "Alim. 6"],
+            ["Productos de procedencia no acreditada o ilegal", "Si los encuentran los servicios de inspección, se dictamina su inmovilización y, en su caso, decomiso", "Alim. 11.5"],
+            ["Venta de los productos prohibidos en el comercio no permanente", "Previa solicitud, si se cumplen los requisitos y así lo considera la autoridad sanitaria municipal", "Alim. 36.2"],
+            ["Emplazamiento de una máquina expendedora", "Comunicación previa al Ayuntamiento, acreditando el registro de la máquina en los servicios sanitarios", "Alim. 38.3"],
+            ["Terraza de un establecimiento de hostelería", "Autorización previa del Ayuntamiento", "Alim. 42.2"],
+            ["Servir alimentos o bebidas por ventanas a la vía pública", "Comunicación previa, declaración responsable o licencia", "Alim. 48.6"],
+            ["Hostelería no permanente", "Autorización municipal previa al funcionamiento, con planos o croquis y memoria descriptiva", "Alim. 50 y 51.9"],
+            ["Depósitos de aguas residuales en hostelería no permanente", "Autorización municipal previa, solo si no es posible conectar a la red de saneamiento", "Alim. 51.4"],
+            ["Tratamientos químicos de plagas; retirada de aceites y grasas", "Empresas autorizadas, con certificados o documentación a disposición de la inspección", "Alim. 10.4, 48.4, 48.16 y 52.5"],
+            ["Falta de mantenimiento de elementos comunes o viviendas", "El Ayuntamiento puede intervenir si supone un riesgo potencial para la salud pública", "Básica 4 y 6"],
+            ["Tratamientos complementarios en centros docentes", "Pueden requerirlos las autoridades sanitarias al titular del centro", "Básica 12"],
+            ["Locales no abiertos al público o sin actividad comercial", "Propietarios o arrendatarios deben permitir el acceso de los inspectores sanitarios", "Básica 32"]
+          ],
+          nota: "No confundir: la reforma posterior necesita AUTORIZACIÓN (art. 5), el cambio de titularidad solo se COMUNICA (art. 6) y el emplazamiento de una máquina expendedora requiere COMUNICACIÓN PREVIA (art. 38.3); la terraza y la hostelería no permanente, autorización previa."
         }
       ],
       datos: [
         "Higiene alimentaria: seis títulos (I objeto y definiciones; II condiciones generales; III actividades de alimentación, caps. 1 a 8; IV hostelería, caps. 1 y 2; V transporte de alimentos, arts. 54-57; VI régimen inspector y sancionador, arts. 58-63). Se estudian los títulos I a IV.",
-        "Ordenanza básica: siete capítulos (I viviendas y solares; II centros docentes; III centros deportivos y de baño; IV almacenes y comercios de bienes usados y pieles; V vehículos de transporte, arts. 26-28; VI otros establecimientos comerciales; VII infracciones). Se estudian los caps. I a IV y VI.",
+        "Ordenanza básica: siete capítulos (I viviendas y solares; II centros docentes; III centros deportivos y de baño; IV almacenes y comercios de bienes usados y pieles; V vehículos de transporte de personas o mercancías, arts. 26-28; VI otros establecimientos comerciales, arts. 29-33, que se cierra con el art. 33, «General de Higiene y Salubridad»; VII infracciones, art. 34). Se estudian los caps. I a IV y VI.",
         "Art. 2.4 (alimentaria): el manipulador puede serlo por su actividad laboral o de forma ocasional, siempre con repercusión pública.",
         "Art. 8.2-8.3 (alimentaria): los productos elaborados en carnicerías-salchicherías y charcuterías solo se venden en sus propias dependencias y en las de sus sucursales.",
         "Art. 10.15, 48.19 y 52.7 (alimentaria): la formación del personal se acredita documentalmente.",
@@ -299,12 +349,20 @@ export default {
         "Art. 48.14 (alimentaria): autocontrol según los principios del análisis de peligros y puntos de control crítico (APPCC).",
         "Art. 4 (básica): el Ayuntamiento puede intervenir en los elementos comunes si la falta de mantenimiento es un riesgo potencial para la salud pública.",
         "Art. 10 (básica): la recogida selectiva de los centros docentes sigue la de la Mancomunidad de la Comarca de Pamplona.",
-        "Art. 11 y 16 (básica): productos de limpieza sin compuestos clorados; barrido en seco prohibido en centros docentes."
+        "Art. 11 y 16 (básica): productos de limpieza sin compuestos clorados; barrido en seco prohibido en centros docentes.",
+        "Ventilación de los aseos: en el minorista, natural o mecánica (alimentaria 9.12); en mayoristas y mercados de abastos, MECÁNICA (24.7 y 28.9); en los aseos para el público de hostelería, natural o forzada (46.4).",
+        "Art. 44.2 (alimentaria): en los recintos de elaboración, paredes y pilares revestidos HASTA EL TECHO con materiales lavables e impermeables.",
+        "Art. 42.5 (alimentaria): las salas de alimentos de la hostelería, separadas de cualquier actividad de vivienda y sin comunicación directa con los aseos.",
+        "Art. 48.20 y 52.8 (alimentaria): ropa de color claro y de uso exclusivo; cubrecabellos al elaborar alimentos y calzado adecuado (48.20).",
+        "Art. 14 y 18 (básica): el ámbito del capítulo III incluye las aguas superficiales de los ríos, y el art. 18 solo RECOMIENDA, con carácter permanente, abstenerse del baño en ellas.",
+        "Art. 15 (básica): en las dependencias destinadas al baño, la ventilación debe permitir, en caso de necesidad, una rápida renovación del aire y la eliminación del vapor de agua.",
+        "Art. 17 (básica): jabón en dosis individuales; toallas usadas guardadas en un punto preestablecido fuera del circuito de los usuarios.",
+        "Arts. 21.2 y 31.1 (básica): las puertas de acceso no computan como ventilación de la zona de atención al público (en bienes usados, ventilación DIRECTA en cada dependencia)."
       ],
       excepciones: [
         "Art. 11.1 y 10 bis (alimentaria): las frutas y verduras son la única excepción a la prohibición de exponer fuera de la sala de ventas, y deben estar a más de 80 cm del suelo.",
         "Art. 15.7 y 17.2 (alimentaria): la madera se admite en tajos y en superficies de curado y secado.",
-        "Art. 26.3 y 30.5 (alimentaria): en mayoristas y mercados puede fumarse en zonas habilitadas y señaladas; en minoristas y carnicerías, nunca (art. 11.8).",
+        "Art. 26.3 y 30.5 (alimentaria): en mayoristas y mercados puede fumarse en zonas habilitadas y señaladas; en el comercio minorista (y, por remisión, en carnicerías y pescaderías), en ninguna dependencia (art. 11.8).",
         "Art. 36.2 (alimentaria): los productos prohibidos en el comercio no permanente pueden autorizarse previa solicitud, con los requisitos y si lo considera la autoridad sanitaria municipal.",
         "Art. 44.8 (alimentaria): los grupos A y B pueden tener un solo fregadero para manos, alimentos y útiles.",
         "Art. 48.4 (alimentaria): la desinfección y los tratamientos no químicos puede aplicarlos el propio personal; los químicos, empresas autorizadas.",
@@ -313,6 +371,12 @@ export default {
         "Art. 9.1.b (básica): la ventilación forzada solo complementa a la natural en los centros de enseñanza obligatoria.",
         "Art. 20 (básica): CD, libros, tebeos y vehículos usados no van al capítulo IV sino al VI.",
         "Arts. 21.3 y 31 (básica): no se exigen aseos en almacenes sin personal trabajador.",
+        "Art. 31 (básica): la zona de atención al público u oficina no se exige si el local es exclusivamente almacén.",
+        "Vestuarios y duchas (básica): en los centros docentes, solo si lo precisan las materias impartidas (art. 9); en los de bienes usados, si lo aconsejan los objetos (art. 21); en los deportivos y de baño, siempre (art. 15).",
+        "Art. 13 (alimentaria): las carnicerías solo venden precocinados y comidas preparadas de establecimientos con registro sanitario; la carnicería-charcutería puede elaborar los suyos con autorización sanitaria.",
+        "Art. 26.1 (alimentaria): en los mayoristas se admiten animales de guarda, pero sin acceso a las zonas donde se almacenen, manipulen o expendan alimentos.",
+        "Art. 34.1 y 34.3 (alimentaria): en el comercio no permanente no necesitan techado las frutas, verduras y productos envasados, y las frutas y verduras sin envasar pueden estar al alcance del público.",
+        "Art. 51.4 (alimentaria): en hostelería no permanente, depósitos de aguas residuales solo con autorización municipal previa y si no es posible conectar a la red de saneamiento.",
         "Apartados 15.2, 20.1 y 44.13 de la Ordenanza de higiene alimentaria: figuran como «Derogado» en el texto municipal; no se estudian.",
         "La revisión de la Ordenanza básica de higiene y salubridad figura solo como previsión en el Plan Normativo 2026; no consta aprobada a la fecha de la convocatoria."
       ]
