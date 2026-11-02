@@ -37,7 +37,7 @@ Artículo 3
 Ámbito territorial
 1. El presente Reglamento se aplica al tratamiento de datos personales en el contexto de las actividades de un establecimiento del responsable o del encargado en la Unión, independientemente de que el tratamiento tenga lugar en la
 Unión o no. 
-2. El presente Reglamento se aplica al tratamiento de datos personales de interesados que residan en la Unión por
+2. El presente Reglamento se aplica al tratamiento de datos personales de interesados que se encuentren en la Unión por
 parte de un responsable o encargado no establecido en la Unión, cuando las actividades de tratamiento estén
 relacionadas con:
 a) la oferta de bienes o servicios a dichos interesados en la Unión, independientemente de si a estos se les requiere su
@@ -138,11 +138,10 @@ responsable o el encargado del tratamiento, que demuestre claramente la importan
 proyecto de decisión para los derechos y libertades fundamentales de los interesados y, en su caso, para la libre
 circulación de datos personales dentro de la Unión;
 25) «servicio de la sociedad de la información»: todo servicio conforme a la definición del artículo 1, apartado 1,
-letra b), de la Directiva (UE) 2015/1535 del Parlamento Europeo y del Consejo (
-1
-);
+letra b), de la Directiva (UE) 2015/1535 del Parlamento Europeo y del Consejo (1);
 26) «organización internacional»: una organización internacional y sus entes subordinados de Derecho internacional
 público o cualquier otro organismo creado mediante un acuerdo entre dos o más países o en virtud de tal acuerdo.
+(1) Directiva (UE) 2015/1535 del Parlamento Europeo y del Consejo, de 9 de septiembre de 2015, por la que se establece un procedimiento de información en materia de reglamentaciones técnicas y de reglas relativas a los servicios de la sociedad de la información (DO L 241 de 17.9.2015, p. 1).
 CAPÍTULO II
 Principios
 Artículo 5
@@ -158,12 +157,6 @@ de datos»);
 d) exactos y, si fuera necesario, actualizados; se adoptarán todas las medidas razonables para que se supriman o
 rectifiquen sin dilación los datos personales que sean inexactos con respecto a los fines para los que se tratan
 («exactitud»);
-4.5.2016 ES Diario Oficial de la Unión Europea L 119/35
-(
-1
-) Directiva (UE) 2015/1535 del Parlamento Europeo y del Consejo, de 9 de septiembre de 2015, por la que se establece un procedimiento
-de información en materia de reglamentaciones técnicas y de reglas relativas a los servicios de la sociedad de la información (DO L 241
-de 17.9.2015, p. 1).
 e) mantenidos de forma que se permita la identificación de los interesados durante no más tiempo del necesario para
 los fines del tratamiento de los datos personales; los datos personales podrán conservarse durante períodos más
 largos siempre que se traten exclusivamente con fines de archivo en interés público, fines de investigación científica o
@@ -254,14 +247,14 @@ Tratamiento de categorías especiales de datos personales
 1. Quedan prohibidos el tratamiento de datos personales que revelen el origen étnico o racial, las opiniones políticas,
 las convicciones religiosas o filosóficas, o la afiliación sindical, y el tratamiento de datos genéticos, datos biométricos
 dirigidos a identificar de manera unívoca a una persona física, datos relativos a la salud o datos relativos a la vida sexual
-o las orientación sexuales de una persona física.
+o la orientación sexual de una persona física.
 2. El apartado 1 no será de aplicación cuando concurra una de las circunstancias siguientes:
 a) el interesado dio su consentimiento explícito para el tratamiento de dichos datos personales con uno o más de los
 fines especificados, excepto cuando el Derecho de la Unión o de los Estados miembros establezca que la prohibición
 mencionada en el apartado 1 no puede ser levantada por el interesado;
 b) el tratamiento es necesario para el cumplimiento de obligaciones y el ejercicio de derechos específicos del responsable
 del tratamiento o del interesado en el ámbito del Derecho laboral y de la seguridad y protección social, en la medida
-en que así lo autorice el Derecho de la Unión de los Estados miembros o un convenio colectivo con arreglo al
+en que así lo autorice el Derecho de la Unión o de los Estados miembros o un convenio colectivo con arreglo al
 Derecho de los Estados miembros que establezca garantías adecuadas del respeto de los derechos fundamentales y de
 los intereses del interesado;
 c) el tratamiento es necesario para proteger intereses vitales del interesado o de otra persona física, en el supuesto de
@@ -334,7 +327,7 @@ En los casos a que se refiere el artículo 11, apartado 2, el responsable no se 
 con el fin de ejercer sus derechos en virtud de los artículos 15 a 22, salvo que pueda demostrar que no está en
 condiciones de identificar al interesado.
 3. El responsable del tratamiento facilitará al interesado información relativa a sus actuaciones sobre la base de una
-solicitud con arreglo a los artículos 15 a 22, y, en cualquier caso, en el plazo de un mes a partir de la recepción de la
+solicitud con arreglo a los artículos 15 a 22, sin dilación indebida y, en cualquier caso, en el plazo de un mes a partir de la recepción de la
 solicitud. Dicho plazo podrá prorrogarse otros dos meses en caso necesario, teniendo en cuenta la complejidad y el
 número de solicitudes. El responsable informará al interesado de cualquiera de dichas prórrogas en el plazo de un mes a
 partir de la recepción de la solicitud, indicando los motivos de la dilación. Cuando el interesado presente la solicitud por
@@ -375,7 +368,7 @@ e) los destinatarios o las categorías de destinatarios de los datos personales,
 f) en su caso, la intención del responsable de transferir datos personales a un tercer país u organización internacional y
 la existencia o ausencia de una decisión de adecuación de la Comisión, o, en el caso de las transferencias indicadas en
 los artículos 46 o 47 o el artículo 49, apartado 1, párrafo segundo, referencia a las garantías adecuadas o apropiadas
-y a los medios para obtener una copia de estas o al hecho de que se hayan prestado.
+y a los medios para obtener una copia de estas o al lugar en que se hayan puesto a disposición.
 2. Además de la información mencionada en el apartado 1, el responsable del tratamiento facilitará al interesado, en
 el momento en que se obtengan los datos personales, la siguiente información necesaria para garantizar un tratamiento
 de datos leal y transparente:
@@ -390,8 +383,8 @@ tratamiento basado en el consentimiento previo a su retirada;
 d) el derecho a presentar una reclamación ante una autoridad de control;
 e) si la comunicación de datos personales es un requisito legal o contractual, o un requisito necesario para suscribir un
 contrato, y si el interesado está obligado a facilitar los datos personales y está informado de las posibles consecuencias
-de que no facilitar tales datos;
-f) la existencia de decisiones automatizas, incluida la elaboración de perfiles, a que se refiere el artículo 22, apartados 1
+de no facilitar tales datos;
+f) la existencia de decisiones automatizadas, incluida la elaboración de perfiles, a que se refiere el artículo 22, apartados 1
 y 4, y, al menos en tales casos, información significativa sobre la lógica aplicada, así como la importancia y las
 consecuencias previstas de dicho tratamiento para el interesado.
 3. Cuando el responsable del tratamiento proyecte el tratamiento ulterior de datos personales para un fin que no sea
@@ -412,8 +405,8 @@ e) los destinatarios o las categorías de destinatarios de los datos personales,
 f) en su caso, la intención del responsable de transferir datos personales a un destinatario en un tercer país u
 organización internacional y la existencia o ausencia de una decisión de adecuación de la Comisión, o, en el caso de
 las transferencias indicadas en los artículos 46 o 47 o el artículo 49, apartado 1, párrafo segundo, referencia a las
-garantías adecuadas o apropiadas y a los medios para obtener una copia de ellas o al hecho de que se hayan
-prestado.
+garantías adecuadas o apropiadas y a los medios para obtener una copia de estas o al lugar en que se hayan
+puesto a disposición.
 2. Además de la información mencionada en el apartado 1, el responsable del tratamiento facilitará al interesado la
 siguiente información necesaria para garantizar un tratamiento de datos leal y transparente respecto del interesado:
 a) el plazo durante el cual se conservarán los datos personales o, cuando eso no sea posible, los criterios utilizados para
@@ -454,7 +447,7 @@ que se aplique al responsable del tratamiento y que establezca medidas adecuadas
 legítimos del interesado, o
 d) cuando los datos personales deban seguir teniendo carácter confidencial sobre la base de una obligación de secreto
 profesional regulada por el Derecho de la Unión o de los Estados miembros, incluida una obligación de secreto de
-naturaleza estatutaria. 
+naturaleza legal. 
 Artículo 15
 Derecho de acceso del interesado
 1. El interesado tendrá derecho a obtener del responsable del tratamiento confirmación de si se están tratando o no
@@ -462,7 +455,7 @@ datos personales que le conciernen y, en tal caso, derecho de acceso a los datos
 a) los fines del tratamiento;
 b) las categorías de datos personales de que se trate;
 c) los destinatarios o las categorías de destinatarios a los que se comunicaron o serán comunicados los datos personales,
-en particular destinatarios en terceros u organizaciones internacionales;
+en particular destinatarios en terceros países u organizaciones internacionales;
 d) de ser posible, el plazo previsto de conservación de los datos personales o, de no ser posible, los criterios utilizados
 para determinar este plazo;
 e) la existencia del derecho a solicitar del responsable la rectificación o supresión de datos personales o la limitación del
@@ -522,7 +515,7 @@ Artículo 18
 Derecho a la limitación del tratamiento
 1. El interesado tendrá derecho a obtener del responsable del tratamiento la limitación del tratamiento de los datos
 cuando se cumpla alguna de las condiciones siguientes:
-a) el interesado impugne la exactitud de los datos personales, durante un plazo que permita al responsable verificar la
+a) el interesado impugne la exactitud de los datos personales en un plazo que permita al responsable verificar la
 exactitud de los mismos;
 b) el tratamiento sea ilícito y el interesado se oponga a la supresión de los datos personales y solicite en su lugar la
 limitación de su uso;
@@ -533,7 +526,7 @@ legítimos del responsable prevalecen sobre los del interesado.
 2. Cuando el tratamiento de datos personales se haya limitado en virtud del apartado 1, dichos datos solo podrán ser
 objeto de tratamiento, con excepción de su conservación, con el consentimiento del interesado o para la formulación, el
 ejercicio o la defensa de reclamaciones, o con miras a la protección de los derechos de otra persona física o jurídica o
-por razones de interés público importante de la Unión o de un determinado Estado miembro
+por razones de interés público importante de la Unión o de un determinado Estado miembro.
 3. Todo interesado que haya obtenido la limitación del tratamiento con arreglo al apartado 1 será informado por el
 responsable antes del levantamiento de dicha limitación.
 Artículo 19
@@ -597,7 +590,7 @@ obtener intervención humana por parte del responsable, a expresar su punto de v
 contempladas en el artículo 9, apartado 1, salvo que se aplique el artículo 9, apartado 2, letra a) o g), y se hayan tomado
 medidas adecuadas para salvaguardar los derechos y libertades y los intereses legítimos del interesado.
 Sección 5
-Limit aciones
+Limitaciones
 Artículo 23
 Limitaciones
 1. El Derecho de la Unión o de los Estados miembros que se aplique al responsable o el encargado del tratamiento
@@ -627,7 +620,7 @@ b) las categorías de datos personales de que se trate;
 c) el alcance de las limitaciones establecidas;
 d) las garantías para evitar accesos o transferencias ilícitos o abusivos;
 e) la determinación del responsable o de categorías de responsables;
-f) los plazos de conservación y las garantías aplicables habida cuenta de la naturaleza alcance y objetivos del
+f) los plazos de conservación y las garantías aplicables habida cuenta de la naturaleza, alcance y objetivos del
 tratamiento o las categorías de tratamiento;
 g) los riesgos para los derechos y libertades de los interesados, y
 h) el derecho de los interesados a ser informados sobre la limitación, salvo si puede ser perjudicial a los fines de esta. 

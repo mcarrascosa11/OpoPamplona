@@ -855,23 +855,23 @@ Sección 1.ª. Disposiciones generales
 
 Artículo 332
 
-De conformidad con lo establecido en el número 2 del artículo 46 de la Ley Orgánica 13/1982, de 10 de agosto, de Reintegración y Amejoramiento del Régimen Foral de Navarra, la Administración de la Comunidad Foral, sin perjuicio de la jurisdicción de los tribunales de justicia, ejercerá el control de legalidad y del interés general de las actuaciones de todas las entidades locales de Navarra reconocidas como tales por esta Ley Foral.
+De conformidad con lo establecido en el número 2 del artículo 46 de la Ley Orgánica 13/1982, de 10 de agosto, de Reintegración y Amejoramiento del Régimen Foral de Navarra, la Administración de la Comunidad Foral, sin perjuicio de la jurisdicción de los Tribunales de Justicia, ejercerá el control de legalidad y del interés general, de las actuaciones de todas las Entidades locales de Navarra reconocidas como tales por esta Ley Foral.
 
-Artículo 333 Nota de Vigencia
+Artículo 333
 
 1. La actividad administrativa de las entidades locales de Navarra sujeta al control de la jurisdicción contencioso-administrativa podrá ser impugnada por alguna de las siguientes vías:
 
 a) Mediante la interposición ante los órganos competentes de los recursos jurisdiccionales o administrativos establecidos en la legislación general.
 
-b) Mediante la interposición ante el Tribunal Administrativo de Navarra del recurso de alzada establecido en la sección segunda de este capítulo. Las resoluciones, expresas o presuntas, de dicho tribunal, pondrán fin a la vía administrativa foral y serán impugnables ante los órganos competentes de la jurisdicción contencioso-administrativa Nota de Vigencia.
+b) Mediante la interposición ante el Tribunal Administrativo de Navarra del recurso de alzada establecido en la sección segunda de este capítulo. Las resoluciones, expresas o presuntas, de dicho tribunal, pondrán fin a la vía administrativa foral y serán impugnables ante los órganos competentes de la jurisdicción contencioso-administrativa.
 
-2. Lo dispuesto en el número 1 b) y en la Sección Segunda de este Capítulo se entiende sin perjuicio de los recursos que procedan contra los actos y acuerdos de las entidades locales dictados en ejercicio de competencias delegadas por la Administración del Estado o de la Comunidad Foral y de la resolución de los mismos por la Administración delegante.
+2. Lo dispuesto en el número 1.b) y en la Sección Segunda de este capítulo se entiende sin perjuicio de los recursos que procedan contra los actos y acuerdos de las entidades locales dictados en ejercicio de competencias delegadas por la Administración del Estado o de la Comunidad Foral y de la resolución de los mismos por la Administración delegante.
 
 Artículo 334
 
 Contra los actos y acuerdos de las entidades locales de Navarra no sujetos al control de la jurisdicción contencioso-administrativa podrán ejercerse o interponerse las acciones o recursos pertinentes ante los órganos jurisdiccionales competentes, con sujeción a la legislación general.
 
-Artículo 335 Nota de Vigencia
+Artículo 335
 
 1. La Administración de la Comunidad Foral podrá impugnar ante la jurisdicción contencioso-administrativa los actos y acuerdos, expresos o presuntos, la inactividad y las actuaciones materiales que constituyan vía de hecho, de las entidades locales de Navarra:
 
@@ -891,7 +891,7 @@ Artículo 337
 
 1. El recurso de alzada a que se refiere el párrafo b) del número 1 del artículo 333 tendrá carácter potestativo y gratuito y deberá interponerse, en su caso, ante el Tribunal Administrativo de Navarra.
 
-El plazo para la interposición del recurso de alzada será de un mes si el acto fuera expreso. Si no lo fuera, se podrá interponer el recurso en cualquier momento a partir del día siguiente a aquel en que, de acuerdo con su normativa específica, se produzcan los efectos del silencio administrativo. En los demás casos de actividad administrativa impugnable conforme a la legislación de la jurisdicción contencioso-administrativa, se podrá interponer el recurso en cualquier momento a partir del día en que sea posible interponer recurso ante dicha jurisdicción Nota de Vigencia.
+El plazo para la interposición del recurso de alzada será de un mes si el acto fuera expreso. Si no lo fuera, se podrá interponer el recurso en cualquier momento a partir del día siguiente a aquel en que, de acuerdo con su normativa específica, se produzcan los efectos del silencio administrativo. En los demás casos de actividad administrativa impugnable conforme a la legislación de la jurisdicción contencioso-administrativa, se podrá interponer el recurso en cualquier momento a partir del día en que sea posible interponer recurso ante dicha jurisdicción.
 
 2. El recurso de alzada podrá fundarse en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder.
 
@@ -899,13 +899,13 @@ El plazo para la interposición del recurso de alzada será de un mes si el acto
 
 Artículo 338
 
-1. El recurso de alzada se tramitará y resolverá por el tribunal Administrativo de Navarra por el procedimiento que se determine reglamentariamente.
+1. El recurso de alzada se tramitará y resolverá por el Tribunal Administrativo de Navarra por el procedimiento que se determine reglamentariamente.
 
-2. Los recursos de alzada deberán resolverse en el plazo de seis meses. Transcurrido dicho plazo sin que recayera resolución expresa, se podrán entender desestimados Nota de Vigencia.
+2. Los recursos de alzada deberán resolverse en el plazo de seis meses. Transcurrido dicho plazo sin que recayera resolución expresa, se podrán entender desestimados.
 
-3. La resolución de los recursos de alzada relativos a la nivelación de los presupuestos de las entidades locales se efectuarán previo dictamen de la Cámara de Comptos, que se emitirá en el plazo de dos meses, conforme a lo dispuesto en su Ley Foral reguladora.
+3. La resolución de los recursos de alzada relativos a la nivelación de los presupuestos de las entidades locales se efectuará previo dictamen de la Cámara de Comptos, que se emitirá en el plazo de dos meses, conforme a lo dispuesto en su Ley Foral reguladora.
 
-4. El Tribunal Administrativo de Navarra, observando las normas de protección de datos, publicará las resoluciones que resuelvan los recursos de alzada que tramite en el plazo máximo de una semana a partir de la notificación a todos los interesados en los recursos Nota de Vigencia.
+4. El Tribunal Administrativo de Navarra, observando las normas de protección de datos, publicará las resoluciones que resuelvan los recursos de alzada que tramite en el plazo máximo de una semana a partir de la notificación a todos los interesados en los recursos.
 
 Artículo 339
 
@@ -913,7 +913,7 @@ Artículo 339
 
 2. Durante la tramitación del recurso de alzada, el Tribunal Administrativo no podrá suspender dicha ejecución.
 
-Artículo 340 Nota de Vigencia
+Artículo 340
 
 1. La ejecución de las resoluciones del Tribunal Administrativo de Navarra corresponderá al órgano de la entidad local autora de la actuación objeto del recurso.
 
