@@ -1,6 +1,15 @@
 // Resumen del tema E41. Formato: cabecera de src/data/resumenes.js.
+// Chequeo del 02-11-2026. Vigencia a 21-05-2026 contrastada con el BOE (RD 1367/2007, BOE-A-2007-18397, pestaña
+// «Análisis»; LF 17/2020, BOE-A-2021-526, pestaña «Análisis») y con LexNavarra (DF 135/1989, detalle.asp?r=28772).
+// El RD solo ha cambiado en la tabla A del anexo II: la STS de 20-7-2010 anuló «Sin determinar» del tipo f) y el
+// RD 1038/2012 sustituyó la tabla (el TXT conserva la versión inicial; aquí va la vigente). Del DF 135/1989 solo sigue
+// vigente el capítulo III (LF 17/2020, con efectos desde el 22-6-2021); su art. 12.3 lleva en LexNavarra una nota de
+// vigencia que no se ha podido leer. Corregido: art. 6 (revisión como máximo cada diez años), «reflexión estática»
+// (art. 10.2.a del DF), la atribución del art. 12.3 al DF 193/1991 (no verificada; ese decreto modificó el DF 131/1989)
+// y la nota sobre la Orden ITC/2845/2007. Añadidos: bloque de emisores y valores límite (arts. 18-26), arts. 5.3-5.5,
+// 8, 10 y 11-14 del DF, la fila del tipo f) en la tabla A y nuevos datos, claves y excepciones.
 export default {
-    "intro": "Dos normas de nivel distinto que se complementan. El RD 1367/2007 desarrolla la Ley 37/2003 del Ruido y establece el andamiaje conceptual: ÍNDICES acústicos, ÁREAS ACÚSTICAS, OBJETIVOS DE CALIDAD y SERVIDUMBRES acústicas. El DF 135/1989 baja al detalle práctico y regula qué debe contener el PROYECTO ACÚSTICO que acompaña al expediente de una actividad. Para un arquitecto municipal la conexión decisiva son los arts. 11 y 13 del real decreto: toda figura de planeamiento debe incluir explícitamente la ZONIFICACIÓN ACÚSTICA, cualquier modificación del planeamiento que cambie usos del suelo obliga a REVISAR esa zonificación, y los planes que ordenen ámbitos afectados por servidumbres acústicas deben remitirse ANTES DE SU APROBACIÓN INICIAL al órgano competente de la infraestructura para informe preceptivo. La lógica de fondo del sistema es que el objetivo de calidad no es un valor único: depende del TIPO DE ÁREA ACÚSTICA y de si el área está ya urbanizada o es de nuevo desarrollo.",
+    "intro": "Dos normas de nivel distinto que se complementan. El RD 1367/2007 desarrolla la Ley 37/2003 del Ruido y establece el andamiaje conceptual: ÍNDICES acústicos, ÁREAS ACÚSTICAS, OBJETIVOS DE CALIDAD y SERVIDUMBRES acústicas. El DF 135/1989 baja al detalle práctico y regula qué debe contener el PROYECTO ACÚSTICO que acompaña al expediente de una actividad. Para un arquitecto municipal la conexión decisiva son los arts. 11 y 13 del real decreto: toda figura de planeamiento debe incluir explícitamente la ZONIFICACIÓN ACÚSTICA, cualquier modificación del planeamiento que cambie usos del suelo obliga a REVISAR esa zonificación, y los planes que ordenen ámbitos afectados por servidumbres acústicas deben remitirse ANTES DE SU APROBACIÓN INICIAL al órgano competente de la infraestructura para informe preceptivo. La lógica de fondo del sistema es que el objetivo de calidad no es un valor único: depende del TIPO DE ÁREA ACÚSTICA y de si el área está ya urbanizada o es de nuevo desarrollo. VIGENCIA a 21-05-2026: el real decreto solo ha cambiado en la tabla A del anexo II (la STS de 20-7-2010 anuló el «Sin determinar» del tipo f y el RD 1038/2012 sustituyó la tabla), y del DF 135/1989 solo sigue vigente el capítulo III, porque la LF 17/2020 derogó el resto con efectos desde el 22-6-2021.",
     "bloques": [
       {
         "h": "Índices acústicos y de vibración (arts. 3-4)",
@@ -8,7 +17,7 @@ export default {
         "items": [
           "Art. 3.1.a — índices para la evaluación del RUIDO, además de los del RD 1513/2005: LAmax para niveles sonoros MÁXIMOS durante el periodo temporal de evaluación · LAeq,T para niveles sonoros en un INTERVALO TEMPORAL T · LKeq,T para niveles en un intervalo T CON CORRECCIONES por componentes tonales emergentes, de baja frecuencia o ruido impulsivo · LK,x para evaluar la molestia y los niveles sonoros con esas mismas correcciones, PROMEDIADOS A LARGO PLAZO en el periodo temporal de evaluación «x»",
           "Art. 3.1.b — índice de VIBRACIÓN: Law, para evaluar la molestia y los niveles de vibración máximos durante el periodo temporal de evaluación, EN EL ESPACIO INTERIOR DE EDIFICIOS",
-          "Art. 4 — los índices Ld, Le y Ln, definidos en el anexo I del RD 1513/2005, se aplican para verificar el cumplimiento de los OBJETIVOS DE CALIDAD ACÚSTICA aplicables a las áreas acústicas y al espacio interior de los edificios"
+          "Art. 4 — los índices Ld, Le y Ln, definidos en el anexo I del RD 1513/2005, se aplican para verificar el cumplimiento de los OBJETIVOS DE CALIDAD ACÚSTICA aplicables a las áreas acústicas y al espacio interior de los edificios, y para evaluar el ruido de las infraestructuras a efectos de delimitar las SERVIDUMBRES ACÚSTICAS. Para los valores límite de los emisores (arts. 23 y 24) se usan los índices de las tablas del anexo III, y para las vibraciones, el Law"
         ]
       },
       {
@@ -18,7 +27,9 @@ export default {
           "Art. 5.1 — en la planificación territorial y en los instrumentos de planeamiento urbanístico, TANTO GENERAL COMO DE DESARROLLO, se incluirá la ZONIFICACIÓN ACÚSTICA del territorio en áreas acústicas",
           "SIETE TIPOS mínimos de área acústica, en atención al USO PREDOMINANTE del suelo: a) sectores con predominio de uso RESIDENCIAL · b) uso INDUSTRIAL · c) uso RECREATIVO Y DE ESPECTÁCULOS · d) uso TERCIARIO distinto del anterior · e) uso SANITARIO, DOCENTE Y CULTURAL que requiera especial protección contra la contaminación acústica · f) sectores afectados a SISTEMAS GENERALES DE INFRAESTRUCTURAS DE TRANSPORTE u otros equipamientos públicos que lo reclamen · g) ESPACIOS NATURALES que requieran especial protección",
           "Al zonificar debe tenerse en cuenta la existencia de ZONAS DE SERVIDUMBRE ACÚSTICA y de RESERVAS DE SONIDO DE ORIGEN NATURAL",
-          "Art. 6 — REVISIÓN de las áreas acústicas conforme a los criterios del propio real decreto"
+          "Art. 5.1, último párrafo — la delimitación se basa en los usos ACTUALES O PREVISTOS del suelo, y la zonificación acústica de un término municipal únicamente afecta, excepto en las áreas de los tipos f) y g), a las ÁREAS URBANIZADAS y a los NUEVOS DESARROLLOS URBANÍSTICOS",
+          "Arts. 5.3 a 5.5 — NINGÚN PUNTO del territorio puede pertenecer simultáneamente a dos tipos de área acústica · si concurren varios usos, el área se clasifica por el USO PREDOMINANTE (criterios del anexo V) · la delimitación se representa en un plano a escala mínima 1/5.000 o por las coordenadas geográficas o UTM de todos los vértices, en formato geocodificado · mientras no se apruebe la zonificación de un término municipal, las áreas vienen delimitadas por el USO CARACTERÍSTICO de la zona",
+          "Art. 6 — la delimitación de las áreas acústicas queda sujeta a REVISIÓN PERIÓDICA, como máximo CADA DIEZ AÑOS desde la fecha de su aprobación"
         ]
       },
       {
@@ -28,6 +39,8 @@ export default {
           "Art. 7.1 — CONCEPTO: servidumbres destinadas a conseguir la compatibilidad del funcionamiento o desarrollo de las infraestructuras de transporte VIARIO, FERROVIARIO, AÉREO Y PORTUARIO con los usos del suelo, actividades, instalaciones o edificaciones implantadas o que puedan implantarse en la zona de afección por el ruido",
           "Art. 7.3 — en los sectores gravados por servidumbres acústicas las inmisiones PODRÁN SUPERAR los objetivos de calidad acústica aplicables a las correspondientes áreas acústicas",
           "Art. 7.4 — en esos sectores PODRÁN ESTABLECERSE LIMITACIONES para determinados usos del suelo, actividades, instalaciones o edificaciones, con la finalidad de cumplir al menos los valores límite de inmisión establecidos para aquéllos",
+          "Art. 8 — las zonas de servidumbre las delimita la ADMINISTRACIÓN COMPETENTE PARA APROBAR LOS MAPAS DE RUIDO de la infraestructura: se calculan Ld, Le y Ln en la situación de mayor afección, con carácter general a 4 m de altura, y la zona llega hasta la curva más alejada que corresponde al valor límite del área RESIDENCIAL de la tabla A1 del anexo III. Art. 9 — se delimitan en los mapas de ruido y se incluyen en el planeamiento de los nuevos desarrollos",
+          "Art. 10 — si se delimita una servidumbre en un ÁREA URBANIZADA EXISTENTE, se elabora SIMULTÁNEAMENTE el plan de acción en materia de contaminación acústica (medidas correctoras, responsables, cuantificación económica y, cuando sea posible, proyecto de financiación)",
           "Art. 11.1 — el planeamiento territorial y urbanístico incluirá las determinaciones necesarias para conseguir la EFECTIVIDAD de las servidumbres acústicas. Si el planeamiento incluye MEDIDAS CORRECTORAS EFICACES que disminuyan los niveles sonoros, la zona de servidumbre PODRÁ SER MODIFICADA por el órgano que la delimitó; si esas medidas pierden eficacia o desaparecen, la zona se RESTITUYE a su estado inicial",
           "Art. 11.2 — REGLA CLAVE PARA EL TÉCNICO MUNICIPAL: los instrumentos de planeamiento territorial y urbanístico que ordenen ámbitos afectados por servidumbres acústicas deberán remitirse, CON ANTERIORIDAD A SU APROBACIÓN INICIAL, revisión o modificación sustancial, al ÓRGANO SUSTANTIVO COMPETENTE DE LA INFRAESTRUCTURA para que emita INFORME PRECEPTIVO. Es aplicable tanto a los nuevos instrumentos como a las modificaciones y revisiones de los existentes",
           "Art. 12.1 — las zonas de servidumbre acústica mantienen su vigencia POR TIEMPO INDEFINIDO",
@@ -46,7 +59,7 @@ export default {
       },
       {
         "h": "Objetivos de calidad acústica (arts. 14-17)",
-        "nota": "El sistema distingue tres situaciones y conviene fijarlas por contraste. En ÁREAS URBANIZADAS EXISTENTES, si ya se supera el valor de la tabla A el objetivo es ALCANZARLO, mediante planes zonales específicos; si no se supera, el objetivo es NO SUPERARLO. En el RESTO DE ÁREAS URBANIZADAS —las de nuevo desarrollo— el objetivo es más exigente: no superar ese valor DISMINUIDO EN 5 DECIBELIOS. Y la regla de cumplimiento del art. 15 tiene dos condiciones acumulativas que se preguntan con sus cifras: ningún valor supera el de la tabla, y el 97 % de los valores diarios no lo supera EN MÁS DE 3 dB.",
+        "nota": "El sistema distingue tres situaciones y conviene fijarlas por contraste. En ÁREAS URBANIZADAS EXISTENTES, si ya se supera el valor de la tabla A el objetivo es ALCANZARLO, mediante planes zonales específicos; si no se supera, el objetivo es NO SUPERARLO. En el RESTO DE ÁREAS URBANIZADAS —las que no eran área urbanizada cuando entró en vigor el real decreto; en la práctica, los nuevos desarrollos— el objetivo es más exigente: no superar ese valor DISMINUIDO EN 5 DECIBELIOS. Y la regla de cumplimiento del art. 15 tiene dos condiciones acumulativas que se preguntan con sus cifras: ningún valor supera el de la tabla, y el 97 % de los valores diarios no lo supera EN MÁS DE 3 dB.",
         "items": [
           "Art. 14.1 — ÁREAS URBANIZADAS EXISTENTES: a) si se supera el valor de alguno de los índices de la TABLA A del anexo II, el objetivo de calidad será ALCANZAR DICHO VALOR, debiendo adoptarse las medidas para la mejora acústica progresiva mediante PLANES ZONALES ESPECÍFICOS del art. 25.3 de la Ley 37/2003 · b) en caso contrario, el objetivo será la NO SUPERACIÓN de ese valor",
           "Art. 14.2 — RESTO DE ÁREAS URBANIZADAS: el objetivo es la no superación del valor de la tabla A DISMINUIDO EN 5 DECIBELIOS",
@@ -54,31 +67,53 @@ export default {
           "Art. 14.4 — ZONAS TRANQUILAS en aglomeraciones y en campo abierto: mantener los niveles por debajo del valor de la tabla A DISMINUIDO EN 5 DECIBELIOS, preservando la mejor calidad acústica compatible con el desarrollo sostenible",
           "Art. 15 — CUMPLIMIENTO, dos condiciones acumulativas en el periodo de UN AÑO: a) NINGÚN valor supera los fijados en la tabla A · b) el 97 % DE TODOS LOS VALORES DIARIOS no supera EN 3 dB los valores fijados",
           "Art. 16 — ESPACIO INTERIOR: se establece como objetivo la no superación, en el interior de las edificaciones destinadas a VIVIENDA y usos RESIDENCIALES, HOSPITALARIOS, EDUCATIVOS O CULTURALES, de los valores de las TABLAS B (ruido) y C (vibraciones) del anexo II. Estos valores tienen la consideración de VALORES LÍMITE",
-          "Art. 17 — el cumplimiento en el espacio interior se verifica con la misma regla del 97 % y los 3 dB, referida a la tabla B"
+          "Art. 17 — el cumplimiento en el espacio interior se verifica con la misma regla del 97 % y los 3 dB, referida a la tabla B. Para las VIBRACIONES (tabla C), las estacionarias no pueden superar ningún valor; las transitorias admiten excesos solo de día (07:00-23:00), nunca de más de 5 dB y con un máximo de 9 «unidades»: 1 por evento de hasta 3 dB y 3 por evento de más de 3 dB",
+          "Art. 17.2 — una edificación es conforme con las exigencias acústicas del espacio interior cuando, con el sistema de verificación de la Ley 37/2003, cumple las EXIGENCIAS ACÚSTICAS BÁSICAS DEL CTE"
         ]
       },
       {
-        "h": "Emisiones, evaluación y mapas de ruido (arts. 21-32)",
+        "h": "Emisores acústicos y valores límite (arts. 18-26 y disposiciones adicionales)",
+        "nota": "Es la parte que se aplica en la ventanilla de actividades. Distingue las tablas del anexo III: A1 y A2 para las NUEVAS INFRAESTRUCTURAS de transporte (la A2, en LAmax, solo para las ferroviarias y aeroportuarias), B1 para lo que una NUEVA ACTIVIDAD transmite al EXTERIOR y B2 para lo que transmite a los LOCALES COLINDANTES. No confundas el anexo III, que limita lo que aporta cada emisor, con el anexo II, que fija la calidad acústica del área o del interior por el conjunto de emisores.",
+        "items": [
+          "Art. 18 — los vehículos de motor y ciclomotores en circulación deben corresponder a tipos HOMOLOGADOS en cuanto a niveles sonoros; el valor límite de emisión de un vehículo en circulación se obtiene SUMANDO 4 dB(A) al nivel de emisión de su ficha de homologación (ensayo a vehículo parado). Si la ficha no lo indica, un ciclomotor se toma con 87 dB(A) (DA primera). Los conductores están obligados a colaborar en las pruebas de control",
+          "Art. 19 — los vehículos de URGENCIAS deben poder reducir sus dispositivos acústicos a entre 70 y 90 dB(A), medidos a TRES METROS en la dirección de máxima emisión, durante el periodo nocturno cuando circulen por zonas habitadas; tuvieron UN AÑO para instalar el mecanismo",
+          "Arts. 20 a 22 — embarcaciones de recreo y motos náuticas (RD 2127/2004); AVIONES de reacción subsónicos civiles de masa máxima al despegue igual o superior a 34.000 kg o de más de 19 pasajeros: certificación acústica previa para usar los aeropuertos civiles españoles; MAQUINARIA DE USO AL AIRE LIBRE, incluidas las obras y la construcción (RD 212/2002)",
+          "Art. 23 — las NUEVAS infraestructuras viarias, ferroviarias o aeroportuarias no transmitirán niveles superiores a la tabla A1 del anexo III (Ld, Le, Ln), y las ferroviarias y aeroportuarias tampoco a la tabla A2 (LAmax); además deben evitar que, por efectos aditivos, se superen los objetivos de los arts. 14 y 16. Se aplica ÚNICAMENTE FUERA de las zonas de servidumbre acústica",
+          "Art. 24 — toda NUEVA instalación, establecimiento o actividad portuaria, industrial, comercial, de almacenamiento, deportivo-recreativa o de ocio no transmitirá al exterior niveles superiores a la tabla B1; al tráfico portuario y al rodado y ferroviario dentro de los puertos se le aplican los límites del ART. 23. A los LOCALES COLINDANTES no se pueden transmitir niveles superiores a la tabla B2: son colindantes cuando en ningún momento la transmisión se produce a través del medio ambiente exterior. Estos niveles se extienden por ANALOGÍA FUNCIONAL a otros establecimientos abiertos al público, y en los edificios de uso exclusivo comercial, de oficinas o industrial los límites entre locales de distintos titulares son los del uso del edificio",
+          "Art. 25 — cumplimiento, en el periodo de un año: infraestructuras, ningún promedio anual supera A1, ningún valor diario la supera en 3 dB y el 97 % de los valores diarios no supera A2; actividades y puertos, ningún promedio anual supera B1 o B2, ningún valor diario las supera en 3 dB y ningún LKeq,Ti medido las supera en 5 dB. En la INSPECCIÓN de una actividad en funcionamiento bastan estas dos últimas condiciones (art. 25.2)",
+          "Art. 26 — los nuevos emisores acústicos no transmitirán al interior de viviendas y de edificios de uso residencial, hospitalario, educativo o cultural vibraciones que contribuyan a superar los objetivos del art. 16",
+          "DA segunda — son actividades NUEVAS las que inician la tramitación de la intervención administrativa del art. 18.1.a), b) y c) de la Ley 37/2003 después de la entrada en vigor del real decreto; las actividades e infraestructuras nuevas se someten a los valores límite del anexo III. DA cuarta — en las infraestructuras de competencia autonómica o local, las comunidades autónomas fijan los plazos y condiciones de aplicación de los objetivos (art. 14.1) y de los límites del art. 23"
+        ]
+      },
+      {
+        "h": "Evaluación, mapas de ruido y título competencial (arts. 27-33)",
         "nota": "Bloque de encuadre. Del capítulo de evaluación interesa retener que los métodos, los instrumentos de medida y las entidades que realizan la evaluación están regulados, y que los MAPAS DE RUIDO son el instrumento de diagnóstico sobre el que después se apoyan los planes de acción. El título competencial del real decreto también se pregunta: se dicta al amparo del art. 149.1.16.ª y 23.ª de la Constitución —bases y coordinación general de la sanidad y legislación básica sobre protección del medio ambiente—.",
         "items": [
-          "Art. 21 — emisión de ruido de las AERONAVES SUBSÓNICAS CIVILES. Art. 22 — emisión de ruido de las MÁQUINAS DE USO AL AIRE LIBRE",
+          "Anexo IV.A.1 — los índices pueden determinarse mediante cálculos o mediciones, y las predicciones solo mediante cálculos; pero a efectos de la INSPECCIÓN DE ACTIVIDADES por las administraciones competentes, la valoración se determina ÚNICAMENTE MEDIANTE MEDICIONES",
           "Arts. 27-31 — MÉTODOS DE EVALUACIÓN de los índices acústicos, métodos de cálculo de Ld, Le y Ln, métodos de evaluación de los EFECTOS NOCIVOS, INSTRUMENTOS DE MEDIDA y ENTIDADES que realizan la evaluación",
-          "Art. 32 — elaboración de MAPAS DE RUIDO",
+          "Art. 32 — MAPAS DE RUIDO: ESTRATÉGICOS, para los grandes ejes viarios y ferroviarios, los grandes aeropuertos y las aglomeraciones; y NO ESTRATÉGICOS, al menos para las áreas acústicas en las que se compruebe el incumplimiento de los objetivos de calidad acústica (art. 33: criterios de la administración competente o, en su defecto, los del RD 1513/2005)",
           "Art. 29 y anexo III del RD 1513/2005 — las RELACIONES DOSIS-EFECTO se utilizan para evaluar el efecto del ruido sobre la población, en particular la relación entre las MOLESTIAS y los valores de Lden, y entre las ALTERACIONES DEL SUEÑO y los valores de Ln",
           "Título competencial: art. 149.1.16.ª y 23.ª de la Constitución —bases y coordinación general de la sanidad y legislación básica sobre protección del medio ambiente—"
         ]
       },
       {
-        "h": "DF 135/1989 — el proyecto acústico (Cap. III, arts. 10 y ss.)",
-        "nota": "La parte que aplicarás al informar el expediente de una actividad. El proyecto acústico no se exige siempre: solo cuando la actividad esté PRÓXIMA a viviendas, instalaciones sanitarias o centros docentes, o cuando se presuma que los niveles sonoros puedan suponer incrementos apreciables del ruido de fondo en zonas sanitarias, docentes o residenciales. Su contenido está tasado —MEMORIA y PLANOS— y hay dos reglas de cálculo que conviene retener: las TRANSMISIONES INDIRECTAS se suponen, como mínimo, un incremento de 3 dBA salvo que la solución técnica garantice su inexistencia; y si la actividad necesita puertas y ventanas cerradas para garantizar el aislamiento, hay que disponer VENTILACIÓN FORZADA.",
+        "h": "DF 135/1989, capítulo III — proyecto acústico y condiciones de instalación (arts. 10-14)",
+        "nota": "Solo sigue vigente este capítulo: la LF 17/2020 derogó el DF 135/1989 «salvo el capítulo III», con efectos desde el 22-6-2021. Es la parte que aplicarás al informar el expediente de una actividad. El proyecto acústico no se exige siempre: solo cuando la actividad esté PRÓXIMA a viviendas, instalaciones sanitarias o centros docentes, o cuando se presuma que los niveles sonoros puedan suponer incrementos apreciables del ruido de fondo en zonas sanitarias, docentes o residenciales. Su contenido está tasado —MEMORIA y PLANOS— y hay dos reglas de cálculo que conviene retener: las TRANSMISIONES INDIRECTAS se suponen, como mínimo, un incremento de 3 dBA salvo que la solución técnica garantice su inexistencia; y si la actividad necesita puertas y ventanas cerradas para garantizar el aislamiento, hay que disponer VENTILACIÓN FORZADA.",
         "items": [
           "Art. 10.1 — CUÁNDO se exige: en los expedientes de actividades referentes a nuevas actividades o AMPLIACIÓN de las existentes, los proyectos técnicos deberán incluir un PROYECTO ACÚSTICO cuando las actividades estén situadas EN LAS PROXIMIDADES de viviendas, instalaciones sanitarias o actividades docentes, así como cuando se presuma que los niveles sonoros exterior o interior puedan suponer INCREMENTOS APRECIABLES del nivel sonoro del ruido de fondo en zonas sanitarias, docentes o residenciales",
           "Art. 10.2 — el proyecto acústico comprende MEMORIA TÉCNICA Y PLANOS",
-          "Contenido de la MEMORIA: definición del TIPO DE ACTIVIDAD · HORARIO previsto · NIVELES SONOROS DE EMISIÓN A 1 METRO o nivel sonoro reverberado · descripción de los AISLAMIENTOS ACÚSTICOS Y SILENCIADORES proyectados, con expresión de su aislamiento bruto en dBA y del tipo de AMORTIGUADORES DE VIBRACIONES previstos, indicando flexión estática en mm y frecuencia propia en Hz · JUSTIFICACIÓN de que se cumplen los niveles de inmisión en función de los de emisión y las atenuaciones conseguidas · y medidas correctoras para el aislamiento de RUIDOS DE IMPACTO cuando el aislamiento general se prevea insuficiente",
+          "Contenido de la MEMORIA: definición del TIPO DE ACTIVIDAD · HORARIO previsto · NIVELES SONOROS DE EMISIÓN A 1 METRO o nivel sonoro reverberado · descripción de los AISLAMIENTOS ACÚSTICOS Y SILENCIADORES proyectados, con expresión de su aislamiento bruto en dBA, y/o del tipo de AMORTIGUADORES DE VIBRACIONES previstos, indicando «reflexión estática» en mm (así dice el texto) y/o frecuencia propia en Hz · JUSTIFICACIÓN de que se cumplen los niveles de inmisión en función de los de emisión y las atenuaciones conseguidas · y medidas correctoras para el aislamiento de RUIDOS DE IMPACTO cuando el aislamiento general se prevea insuficiente",
           "PLANOS mínimos: plano de SITUACIÓN de la actividad en relación con viviendas, instalaciones sanitarias o edificios docentes · planos de AISLAMIENTO ACÚSTICO a escala 1/50, con DETALLES A 1/5 de materiales, espesores y juntas",
           "Art. 10.3 — al calcular el aislamiento necesario se supondrá que las TRANSMISIONES INDIRECTAS incrementan los niveles de inmisión, COMO MÍNIMO, EN 3 dBA, salvo que la solución técnica propuesta garantice suficientemente su inexistencia",
           "Art. 10.4 — cuando sea necesario desarrollar la actividad con PUERTAS Y VENTANAS CERRADAS para garantizar el aislamiento, se dispondrá de sistema de VENTILACIÓN FORZADA",
-          "Art. 10.5 — deben considerarse las molestias por EFECTOS INDIRECTOS, con especial atención a: actividades que generen TRÁFICO ELEVADO en sus inmediaciones —almacenes, locales públicos y especialmente DISCOTECAS— en zonas de elevada densidad o con calles estrechas y escasos aparcamientos · actividades con operaciones de CARGA O DESCARGA en horario nocturno · y actividades con FUNCIONAMIENTO NOCTURNO de las instalaciones"
+          "Art. 10.5 — deben considerarse las molestias por EFECTOS INDIRECTOS, con especial atención a: actividades que generen TRÁFICO ELEVADO en sus inmediaciones —almacenes, locales públicos y especialmente DISCOTECAS— en zonas de elevada densidad o con calles estrechas y escasos aparcamientos · actividades con operaciones de CARGA O DESCARGA en horario nocturno · y actividades con FUNCIONAMIENTO NOCTURNO de las instalaciones",
+          "Art. 11 — en los EDIFICIOS DE USO MIXTO de vivienda y otras actividades y en los locales LINDANTES con viviendas se acentuarán las medidas preventivas (amortiguadores de vibración, ruidos de impacto, tuberías, conductos de aire y transporte interior), sobre todo si el suelo del local emisor es un FORJADO con dependencias debajo, como sótanos o garajes",
+          "Art. 12.1 — bares y establecimientos hosteleros con nivel sonoro interior NO SUPERIOR A 80 dBA (ruido de los usuarios, sin equipo musical o con su nivel limitado): aislamiento acústico bruto mínimo respecto de la vivienda más afectada de 55 dBA si funcionan al menos parcialmente de noche, y de 50 dBA si funcionan íntegramente de día, EXCLUSIVAMENTE ENTRE LAS 8 Y LAS 22 HORAS",
+          "Art. 12.2 — bares, pubs, discotecas y similares cuyo ruido se debe primordialmente a equipos musicales: nivel máximo interior de 85 dBA, aislamiento bruto de 60 dBA; de 90 dBA, 65 dBA. El Ayuntamiento PODRÁ exigir aparatos de control permanente que interrumpan los equipos; son obligatorios la ventilación forzada y el acceso del público por un DEPARTAMENTO ESTANCO con absorción acústica y DOBLE PUERTA; las ventanas, si existen, permanecen cerradas durante la actividad y llevan DOS VIDRIOS de espesor mínimo unitario de 6 mm, separados al menos 50 mm, con absorción en la cámara",
+          "Art. 12.3 — las discotecas, salas de baile y similares cuya licencia se solicite tras la entrada en vigor del decreto foral se instalarán necesariamente en EDIFICIOS AISLADOS o en SÓTANOS de edificaciones cuya planta baja esté exenta de viviendas (LexNavarra marca este apartado con una nota de vigencia cuyo contenido no figura en el TXT)",
+          "Arts. 12.4 y 12.5 — el aislamiento se mide IN SITU mediante emisión de RUIDO ROSA; antes de la licencia de apertura, el Ayuntamiento exige a la propiedad un CERTIFICADO DE LAS MEDICIONES del aislamiento conseguido, firmado por titulado técnico competente, sin perjuicio de sus propias comprobaciones",
+          "Art. 13 — máquinas sin anclajes ni apoyos directos al suelo, con amortiguadores o bancadas flotantes de 1,5 a 2,5 veces su peso. Salvo que la actividad ocupe todo un edificio de estructura independiente, está prohibido anclarlas o apoyarlas en paredes o pilares (distancia mínima, 0,70 m); en techos solo se admite suspender equipos de ventilación en cabina insonorizada de MENOS DE 2 kW; y en plantas elevadas, entreplantas, sobrepisos o voladizos no se instalan máquinas de MÁS DE 2 kW ni que sumen más de 5 kW. Quedan exceptuadas las instalaciones de habitabilidad: ventilación y aire acondicionado, ascensores, escaleras mecánicas y montacargas",
+          "Art. 14 — conexiones a conductos y tuberías siempre con juntas o dispositivos ELÁSTICOS; primeros tramos (o toda la red, si es preciso) sobre soportes elásticos; paso de paredes sin empotramientos y con montaje elástico; PROHIBIDO llevar conductos entre el aislamiento del techo y la planta superior o dentro de una doble pared, y usar esas cámaras como plenums de impulsión o retorno"
         ]
       }
     ],
@@ -102,7 +137,14 @@ export default {
       "El proyecto acústico comprende MEMORIA y PLANOS; aislamiento a 1/50 con detalles a 1/5",
       "Transmisiones indirectas: se suponen un incremento MÍNIMO de 3 dBA salvo garantía técnica en contra",
       "Si hace falta trabajar con puertas y ventanas cerradas: VENTILACIÓN FORZADA obligatoria",
-      "Efectos indirectos a considerar: tráfico elevado (discotecas), carga y descarga nocturna y funcionamiento nocturno"
+      "Efectos indirectos a considerar: tráfico elevado (discotecas), carga y descarga nocturna y funcionamiento nocturno",
+      "Revisión de las áreas acústicas: como máximo CADA DIEZ AÑOS desde su aprobación (art. 6)",
+      "Anexo III: A1 y A2 para nuevas infraestructuras (solo FUERA de las servidumbres, art. 23.4); B1, actividad al exterior; B2, actividad a locales colindantes",
+      "Tráfico portuario, y rodado y ferroviario dentro de los puertos: límites del art. 23, no la tabla B1 (art. 24.1)",
+      "Inspección de actividades: ÚNICAMENTE mediciones; cumple si ningún valor diario supera el límite en 3 dB y ningún LKeq,Ti medido lo supera en 5 dB (art. 25.2)",
+      "Tipo f): sin valores propios en la tabla A; en su límite perimetral no se superan los objetivos de las áreas colindantes (RD 1038/2012, tras la STS de 2010)",
+      "DF 135/1989: solo sigue vigente el capítulo III (LF 17/2020, con efectos desde el 22-6-2021)",
+      "Bares sin música (hasta 80 dBA): 55 dBA de aislamiento bruto si abren algo de noche y 50 dBA si solo de 8 a 22 h; con música: 85 dBA → 60 dBA y 90 dBA → 65 dBA"
     ],
     "memorizacion": {
       "tablas": [
@@ -219,7 +261,7 @@ export default {
             [
               "f",
               "Sistemas generales de transporte u otros equipamientos públicos que lo reclamen",
-              "En su perímetro se respetan objetivos de áreas acústicas colindantes"
+              "En su límite perimetral no se superan los objetivos de las áreas acústicas colindantes (anexo II, tabla A, nota 2)"
             ],
             [
               "g",
@@ -364,9 +406,15 @@ export default {
               "75",
               "75",
               "65"
+            ],
+            [
+              "f: sistemas generales de infraestructuras de transporte u otros equipamientos públicos que los reclamen",
+              "(2)",
+              "(2)",
+              "(2)"
             ]
           ],
-          "nota": "Anexo II, tabla A, redacción vigente tras RD 1038/2012. Referencia: 4 m. En tipo f no hay una terna fija: su perímetro no supera objetivos de áreas colindantes y se adoptan tecnologías de menor incidencia entre mejores técnicas disponibles. En g los objetivos son específicos. En áreas existentes con exceso: alcanzar tabla mediante mejora progresiva/planes zonales; sin exceso: no superarla. Resto de áreas urbanizadas: tabla menos 5 dB. Zonas tranquilas: niveles por debajo de tabla menos 5 dB (art. 14)."
+          "nota": "Anexo II, tabla A, en la redacción del RD 1038/2012 (BOE 26-7-2012, en vigor el 27-7-2012), dictado tras la STS de 20-7-2010 que anuló la expresión «Sin determinar» del tipo f), que todavía figura en el TXT. Tipo f, sin terna propia: nota (1), medidas de prevención con las tecnologías de menor incidencia acústica de entre las mejores técnicas disponibles (art. 18.2.a de la Ley 37/2003); nota (2), «En el límite perimetral de estos sectores del territorio no se superarán los objetivos de calidad acústica para ruido aplicables al resto de áreas acústicas colindantes con ellos». Referencia: 4 m. En g los objetivos son específicos. En áreas existentes con exceso: alcanzar tabla mediante mejora progresiva/planes zonales; sin exceso: no superarla. Resto de áreas urbanizadas: tabla menos 5 dB. Zonas tranquilas: niveles por debajo de tabla menos 5 dB (art. 14)."
         },
         {
           "titulo": "RD 1367/2007: objetivos de ruido en interior",
@@ -718,7 +766,7 @@ export default {
               "Art. 30.2; transición de 7 años para clase 2 agotada"
             ]
           ],
-          "nota": "Arts. 27–31; anexos I.A y IV.A.1, 3.4 y 3.5. Frente a fachada se excluye efecto reflejado (sonido incidente). La referencia literal del art. 30 a la Orden de 25/09/2007 no equivale a afirmar su vigencia actual: el control metrológico se regula por Orden ICT/155/2020, anexo XIV, con disposiciones transitorias; la orden de 2007 fue derogada."
+          "nota": "Arts. 27–31; anexos I.A y IV.A.1, 3.4 y 3.5. Frente a fachada se excluye efecto reflejado (sonido incidente). El art. 30 sigue citando la Orden de 25-9-2007 (Orden ITC/2845/2007), derogada con efectos de 24-10-2020 por la Orden ICT/155/2020, que regula ahora el control metrológico de estos instrumentos; el art. 30 no se ha modificado. Lo examinable es la exigencia de tipo 1/clase 1, no la orden."
         },
         {
           "titulo": "DF 135/1989: contenido del proyecto acústico",
@@ -769,7 +817,7 @@ export default {
               "Art. 11; especial atención a emisor sobre forjado con dependencias inferiores"
             ]
           ],
-          "nota": "DF 135/1989, de 8 de junio, capítulo III, arts. 10–11. Vigente por excepción de la derogación establecida en LF 17/2020. Aplicar sus requisitos de proyecto junto con los límites de inmisión vigentes, sin recuperar los antiguos capítulos derogados."
+          "nota": "DF 135/1989, de 8 de junio, capítulo III, arts. 10–11. Es lo único vigente del decreto foral: la LF 17/2020 (disposición derogatoria) lo derogó «salvo el capítulo III», con efectos desde el 22-6-2021. Aplicar sus requisitos de proyecto junto con los límites de inmisión vigentes, sin recuperar los antiguos capítulos derogados."
         },
         {
           "titulo": "DF 135/1989: aislamiento bruto de hostelería y música",
@@ -813,7 +861,7 @@ export default {
             [
               "Discotecas/salas de baile/similares; licencia solicitada tras entrada en vigor del DF",
               "Edificio aislado o sótano de edificio con planta baja exenta de viviendas",
-              "Art. 12.3, redacción DF 193/1991"
+              "Art. 12.3; LexNavarra lo marca con una nota de vigencia (el texto que muestra coincide con el TXT)"
             ],
             [
               "Establecimientos del art. 12: antes de licencia de apertura",
@@ -890,11 +938,18 @@ export default {
         "Vehículos a motor/ciclomotores: límite a vehículo parado = homologación +4 dB(A). Sin dato, ciclomotor: referencia 87 dB(A), a la que se aplica +4 (art. 18.2 y DA primera).",
         "Urgencias nocturnas en zonas habitadas: regulación sonora 70–90 dB(A), medida a 3 m en dirección de máxima emisión (art. 19.1).",
         "Maquinaria al aire libre, incluidas obras y construcción: ajustarse a legislación de emisiones y, cuando aplicable, RD 212/2002 (art. 22).",
-        "Cumplimiento de exigencias interiores de edificación: sistema de verificación conforme a Ley del Ruido y exigencias acústicas básicas del CTE (art. 17.2)."
+        "Cumplimiento de exigencias interiores de edificación: sistema de verificación conforme a Ley del Ruido y exigencias acústicas básicas del CTE (art. 17.2).",
+        "Vigencia a 21-05-2026 (BOE, pestaña «Análisis»): el RD 1367/2007 (BOE 23-10-2007, en vigor el 24-10-2007) solo tiene dos cambios, ambos en la tabla A del anexo II: la STS de 20-7-2010 (BOE 26-10-2010) anuló «Sin determinar» del tipo f) y el RD 1038/2012 sustituyó la tabla (en vigor el 27-7-2012).",
+        "DF 135/1989 (BON 19-6-1989): derogado por la LF 17/2020 «salvo el capítulo III», con efectos desde el 22-6-2021; sus capítulos I, II y IV a VI ya no se estudian.",
+        "Aviones de reacción subsónicos civiles de masa máxima al despegue igual o superior a 34.000 kg o de más de 19 pasajeros (sin contar la tripulación): certificación acústica previa para usar los aeropuertos civiles españoles (art. 21).",
+        "Vehículos de urgencias: un año desde la entrada en vigor del real decreto para instalar el regulador de intensidad sonora (art. 19.2).",
+        "Instrumentos tipo 2/clase 2: admitidos durante siete años desde la publicación del real decreto, salvo en las mediciones para sanciones o procesos judiciales, que exigen tipo 1/clase 1 (DT segunda).",
+        "Altura de evaluación: nunca inferior a 1,5 m sobre el suelo; en interiores, al menos a 1 m de las paredes, entre 1,2 y 1,5 m sobre el piso y a unos 1,5 m de las ventanas (anexo I.A.3); curvas de las servidumbres, con carácter general a 4 m (art. 8).",
+        "Servidumbre de una nueva infraestructura con edificaciones preexistentes dentro: la declaración de impacto ambiental fija medidas económicamente proporcionadas para que en su interior se alcancen niveles compatibles con su uso (art. 10.3)."
       ],
       "excepciones": [
         "No confundir anexo II (calidad del ambiente/conjunto de emisores) con anexo III (inmisión atribuida a emisores): dormitorio, objetivo nocturno 30 dB frente a límite nocturno de actividad colindante 25 dB.",
-        "La tabla A del anexo II del TXT reproduce el texto inicial con tipo f sin determinar. La redacción vigente incorpora el respeto de objetivos de áreas colindantes en su perímetro (RD 1038/2012).",
+        "La tabla A del anexo II del TXT reproduce el texto inicial, con el tipo f «Sin determinar». Esa expresión la anuló la STS de 20-7-2010, y la tabla vigente (RD 1038/2012) remite a la nota (2): en el límite perimetral de los sectores de tipo f no se superan los objetivos de calidad acústica de las áreas colindantes.",
         "En el tipo d, objetivo existente nocturno 65 dB; no deducirlo restando 10 a su valor diurno 70 dB. Las tablas deben leerse fila a fila.",
         "Los 3 dB y 5 dB del art. 25 son criterios de cumplimiento, no incremento permanente de los límites de las tablas ni ampliación de objetivos de calidad.",
         "Para vibraciones transitorias: los excesos exactamente de 3 dB cuentan 1; los superiores a 3 y hasta 5 cuentan 3; por la noche no se admite exceso (art. 17.1.b).",
@@ -904,7 +959,12 @@ export default {
         "Los mínimos de aislamiento bruto del art. 12 del DF no sustituyen la justificación de cumplimiento de inmisiones ni equivalen a los parámetros de aislamiento del CTE.",
         "El certificado previo a apertura exige mediciones del aislamiento conseguido; la mera memoria de cálculo del proyecto no acredita ese resultado (DF art. 12.5).",
         "La referencia a relaciones dosis-efecto del art. 29 y DF primera se dirige al anexo III del RD 1513/2005; el anexo III del RD 1367/2007 contiene tablas de límites de inmisión.",
-        "Los intervalos intermedios de corrección Kf/Ki del anexo IV.A.3.3 aparecen con desigualdad incongruente en el TXT y HTML oficial consultado. No se convierten en una regla memorizable sin aclaración documental; sí se conserva el máximo total de correcciones de 9 dB."
+        "Los intervalos intermedios de corrección Kf/Ki del anexo IV.A.3.3 aparecen con desigualdad incongruente en el TXT y HTML oficial consultado. No se convierten en una regla memorizable sin aclaración documental; sí se conserva el máximo total de correcciones de 9 dB.",
+        "Los límites de las nuevas infraestructuras del art. 23 se aplican ÚNICAMENTE FUERA de las zonas de servidumbre acústica (art. 23.4); dentro de ellas, las inmisiones pueden superar los objetivos de calidad del área (art. 7.3).",
+        "La tabla A2 (LAmax) solo se aplica a las nuevas infraestructuras FERROVIARIAS Y AEROPORTUARIAS, no a las viarias (art. 23.2).",
+        "La actividad portuaria está en el art. 24.1 (tabla B1), pero al tráfico portuario y al rodado y ferroviario que circula por los puertos se le aplican los valores límite del art. 23.",
+        "DT segunda: los instrumentos tipo 2/clase 2 nunca valían para las mediciones que sirven de base a sanciones administrativas o a procesos judiciales; ahí siempre tipo 1/clase 1.",
+        "DF art. 12.3 (discotecas en edificios aislados o en sótanos con la planta baja sin viviendas): LexNavarra lo acompaña de una nota de vigencia que no figura en el TXT y que no se ha podido leer; estúdialo con esa reserva."
       ]
     }
   };
