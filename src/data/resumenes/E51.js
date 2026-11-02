@@ -235,7 +235,7 @@ export default {
           "Común a los cinco POT. Es la BASE CONCEPTUAL Y METODOLÓGICA del Plan del Paisaje de Navarra, y da pautas para los estudios sobre la incidencia en el paisaje y criterios generales de integración paisajística, con carácter ORIENTATIVO (art. 30). Escala del Atlas de los Paisajes de España, de mayor a menor: TIPO, UNIDAD, ELEMENTO y COMPONENTE. Grupos de paisaje: singulares, naturales, humanizados (agropecuarios, forestales, urbanos y mixtos) y del agua.",
         items: [
           "PN9, ap. 2 — Antecedentes: primer análisis del paisaje de Navarra en 1985 (Instituto Navarro del Suelo); figuras de las Normas Urbanísticas Regionales de 1987 y de las NUC de la Comarca de Pamplona (Áreas Recreativas, Reservas Paisajísticas); valoración por calidad y fragilidad en 1999",
-          "PN9, ap. 2.2 — Marco: la LFOTU (contenido de la ETN y de los POT); la ETN, directriz n.º 72; la LF 14/2005 del Patrimonio Cultural, que hace del «Paisaje Cultural» una categoría de BIC (por eso los POT llaman «paisajes humanizados» a los intervenidos por las personas); la LF 9/1996 de Espacios Naturales, con la figura de Paisaje Protegido (Montes de Valdorba, POT 4; Robledales de Ultzama y Basaburua, POT 2); el CONVENIO EUROPEO DEL PAISAJE (Florencia, 2000) y el Atlas de los Paisajes de España (2003)",
+          "PN9, ap. 2.2 — Marco: la LFOTU (contenido de la ETN y de los POT); la ETN, directriz n.º 72; la LF 14/2005 del Patrimonio Cultural, que hace del «Paisaje Cultural» una categoría de BIC (por eso los POT llaman «paisajes humanizados» a los intervenidos por las personas); la LF 9/1996 de Espacios Naturales, con la figura de Paisaje Protegido (Montes de Valdorba, DF 360/2004, en el POT 4; Robledales de Ultzama y Basaburua, DF 88/2006, que el anexo, común a los cinco POT, sitúa en el POT 2, aunque Ultzama y Basaburua forman parte de la subárea 10.1 del POT 3 según el art. 3); el CONVENIO EUROPEO DEL PAISAJE (Florencia, 2000) y el Atlas de los Paisajes de España (2003)",
           "PN9, ap. 3 — Objetivos: el paisaje como recurso económico ligado a valores culturales, ecológicos y ambientales; diversidad y multifuncionalidad; protección de los valores sobresalientes y de los paisajes identitarios y cotidianos, con CONSERVACIÓN ACTIVA. Líneas: identificar enclaves que proteger, protección extensiva y no reduccionista e identificar lugares que restaurar",
           "PN9, ap. 5.1 — TIPO: grandes unidades geográficas peninsulares (conjuntos geológico-geomorfológicos extensos). UNIDAD: fragmento de notable magnitud con una combinación específica de elementos y dinámicas que le da fisonomía e idiosincrasia propias, célula de tipo «subregional» (en el POT 3, la Cuenca de Pamplona, Urbasa y Andía o la Sierra del Perdón). ELEMENTO: estructura territorial funcional dentro de la unidad, cartografiable a escala intermedia. COMPONENTE: cada una de las partes en que puede dividirse un elemento; estructura concreta, abiótica o biótica, identificable y medible",
           "PN9, ap. 5.2 — Paisajes singulares (valor identitario excepcional), naturales (inalterados o poco intervenidos de forma reversible: cortados, foces, gargantas), humanizados (testimonio de los modos de ocupación, de vida y de producción) y del agua (ríos, zonas húmedas, lagunas, embalses, balsas). El paisaje urbano es la expresión límite del paisaje humanizado",
@@ -252,9 +252,10 @@ export default {
           "Es una ACTUALIZACIÓN en el sentido del art. 8: no altera el articulado ni el MDT. Según su preámbulo, afecta a anexos de la Normativa. El texto de esos anexos con la redacción de 2014 ya está en el tema: su contenido se estudia en los bloques de cada anexo; aquí solo se resume qué cambió.",
         items: [
           "Orden Foral 69/2014, de 10 de noviembre, del Consejero de Fomento, por la que se aprueba la 1.ª Actualización de los Planes de Ordenación del Territorio (BON n.º 229, de 21-11-2014)",
-          "Anexo PN3 (Áreas de Especial Protección) — Complementa y ajusta la regulación de los USOS Y ACTIVIDADES EXISTENTES LEGALES en las AEP, permitiendo su rehabilitación y ampliación con ciertos criterios",
-          "Ficha de «Zona Fluvial. Sistema de cauces y riberas» — Se revisa por información obsoleta o poco clara, incoherencias entre criterios y normas y restricciones excesivas al sector primario. La sustitución de la ficha de «Suelos de elevada capacidad agrológica» se refería expresamente a los POT 4 y 5, no al POT 3 (en el PN3 del POT 3 la ficha SECA figura con la redacción de 2014, pero dice que en el POT 3 estos suelos no se protegen por razón del MDT)",
-          "Anexos PN4 y PN5 (riesgos e inundabilidad) — Nuevos criterios para delimitar la zona de RIESGO ALTO por inundación, que el preámbulo de la Orden Foral (LexNavarra, detalle.asp?r=57735) califica de excesivamente restrictiva, a la vista de los estudios de inundabilidad más recientes"
+          "PRIMERA, Anexo PN3 — Añade el apartado 3, USOS Y ACTIVIDADES EXISTENTES: la rehabilitación o ampliación de los usos legales existentes en las AEP, sin cambio de uso, es en principio autorizable si cumple cuatro criterios",
+          "SEGUNDA, Anexo PN3 — La ficha SNUPrtEN: SECA (Suelos de elevada capacidad agrológica) se SUSTITUYE en los POT 4 y 5 y se INCORPORA a los POT 1, 2 y 3. En estos tres la propia ficha dice que estos suelos no se protegen por razón del MDT: el planeamiento municipal los recoge como preservación de valor para su explotación natural",
+          "TERCERA, Anexo PN3, en todos los POT — Nueva ficha SNUPrtA: ZF (Zona Fluvial. Sistema de cauces y riberas), por información obsoleta o poco clara, incoherencias entre criterios y normas y restricciones excesivas al sector primario",
+          "CUARTA y QUINTA, en todos los POT — Nuevos «Criterios para la delimitación» de la ficha ZI del Anexo PN4 y nuevo punto 1.2.3 «Zona inundable» del Anexo PN5: zonas de riesgo bajo, medio y alto según el periodo de retorno y el calado. El preámbulo consideraba excesivamente restrictiva la delimitación anterior de la zona de RIESGO ALTO, a la vista de los estudios de inundabilidad más recientes"
         ]
       }
     ],
@@ -298,10 +299,10 @@ export default {
           columnas: ["Tipo", "Efecto", "Ejemplos de artículos"],
           filas: [
             ["VT · Vinculante sobre el territorio", "Aplicación directa e inmediata; prevalece sobre el planeamiento local contrario", "18, 20, 21, 22, 27 (vivienda unifamiliar aislada)"],
-            ["VP · Vinculante para la planificación", "Sin aplicación directa; obliga al elaborar, aprobar o modificar el planeamiento local", "17 (MDT), 19, 28 (Barrio Rural Tradicional), 29-30, 34-36, 39-43, 49.1, 52-56, 58-63, 71-74, 80"],
-            ["O · Orientativa", "Criterios y guías no vinculantes", "16, 23, 24-26, 33, 37-38, 44-48, 50-51, 57, 64, 67-70, 75, 77-79, 81-84"]
+            ["VP · Vinculante para la planificación", "Sin aplicación directa; obliga al elaborar, aprobar o modificar el planeamiento local", "17 (MDT), 19, 28 (Barrio Rural Tradicional), 29-30, 32, 34-36, 39-43 (salvo 41.1), 49.1, 52-53, 55-56, 58-63 (salvo 60.3), 65.3, 66, 71-74, 76, 80"],
+            ["O · Orientativa", "Criterios y guías no vinculantes", "16, 23, 24-26, 33, 37-38, 41.1, 44-48, 49.2, 50-51, 57, 60.3, 64, 65.1-2, 67-70, 75, 77-79, 81-84"]
           ],
-          nota: "Trampas: el art. 27 es VT y el 28 VP; el art. 22 es VT y el 23 O; las previsiones de población del art. 41.1 son O y los objetivos de suelo y vivienda del 41.2-3, VP; el art. 49 es VP en su apartado 1 y O en el 2. Algunos artículos mezclan etiquetas por apartados (54, 60, 65)."
+          nota: "Trampas: el art. 27 es VT y el 28 VP; el art. 22 es VT y el 23 O; las previsiones de población del art. 41.1 son O y los objetivos de suelo y vivienda del 41.2-3, VP; el art. 49 es VP en su apartado 1 y O en el 2. El art. 54 reparte etiquetas por letras: en el 54.1, O la a) y de la e) a la i), VP de la b) a la d); los apartados 2 a 4, VP. El art. 65: telecomunicaciones O (65.1-2) y redes en los nuevos sectores urbanizables VP (65.3). Los arts. 1 a 15 (Título I, salvo el 16) y el art. 31 no llevan etiqueta."
         },
         {
           titulo: "POT 3: subáreas funcionales (art. 3)",
@@ -325,6 +326,26 @@ export default {
             ["Actualización", "Incorporar contenidos que complementan, interpretan o concretan (delimitaciones, afecciones de leyes sectoriales, planes generales, sentencias, indicadores, proyectos ejecutados)", "La realiza periódicamente el Departamento (ejemplo: Orden Foral 69/2014)"]
           ],
           nota: "La aprobación de un Plan General Municipal no modifica el POT: sus afecciones se incorporan por ACTUALIZACIÓN (art. 8.1)."
+        },
+        {
+          titulo: "POT 3: listas cerradas del articulado",
+          columnas: ["Artículo", "Lista", "Elementos"],
+          filas: [
+            ["Art. 4", "Documentos del POT (6)", "I Memoria Informativa; II Memoria Justificativa; III Normativa; IV Documentación gráfica. Mapas; V Fichas de subáreas; Anexos"],
+            ["Art. 9.2", "Prelación en caso de conflicto (4)", "1.º Normativa (con la expresión gráfica de las determinaciones VT y sus Anexos); 2.º Memoria Justificativa (con los demás Anexos y la documentación gráfica que no sea VT); 3.º Memoria Informativa; 4.º Fichas de subárea"],
+            ["Art. 10.2", "Contenido mínimo del Informe de Seguimiento (5)", "Actuaciones con incidencia territorial y su adecuación al Plan; planeamiento en tramitación y aprobado; evolución del MDT; evolución de los indicadores; propuestas de mejora, modificación o revisión"],
+            ["Art. 11.2", "Escalas de los indicadores (4)", "Unión Europea, España, Navarra y subáreas ETN (otras unidades, si se justifica)"],
+            ["Art. 13.1", "Principios rectores de la Gobernanza del Territorio (5)", "Publicidad; participación; responsabilidad de las Administraciones actuantes; eficacia; coherencia y facilidad de comprensión"],
+            ["Art. 13.4", "Acciones para el gobierno del territorio (3)", "De competitividad, de protección y de mejora del territorio"],
+            ["Art. 14.2", "Claves Territoriales (4)", "CT1 confluencia, diversidad y encuentro; CT2 relación y articulación territorial; CT3 región-ciudad paradigma de un territorio sostenible; CT4 cooperación, coordinación y solidaridad"],
+            ["Arts. 15.1 y 17.5", "Ejes estratégicos (4)", "Patrimonio natural y cultural; Sistema urbano; Comunicaciones, transporte e infraestructuras (Títulos III, IV y V); Cooperación y coordinación (transversal, sin título propio)"],
+            ["Art. 17.3", "Escalas del Modelo de Desarrollo Territorial (2)", "MDTR, regional y común a los cinco POT; MDT del POT 3, ceñido a su ámbito subregional"],
+            ["Art. 57.7", "Itinerarios estructurantes de transporte público en el AMP (3)", "Eje Norte-Sur; doble eje «X» Este-Oeste; Eje Colector Circular"],
+            ["Art. 71.1", "Tuberías con área de defensa (2)", "Eugui-Urtasun-Pamplona (diámetro 800, embalse de Eugui) y Eguillor-Iza-Pamplona (manantial de Arteta)"],
+            ["Art. 84.1", "Instrumentos de ordenación territorial de desarrollo (3)", "Planes Directores de Acción Territorial (PDAT); Planes y Proyectos Sectoriales de Incidencia Supramunicipal (PSIS y PrSIS); Planes con Incidencia en la Ordenación del Territorio así declarados"],
+            ["Art. 84.2", "Instrumentos previstos sin ese carácter (2)", "Estudio de Riesgos Naturales de la Comunidad Foral de Navarra; Plan de Paisaje de Navarra (VP)"]
+          ],
+          nota: "Cuatro listas de cuatro que se cruzan: claves territoriales (CT1-CT4), ejes estratégicos, documentos de la prelación (los Anexos de la Normativa van con ella; los demás Anexos y la documentación gráfica que no sea VT, con la Memoria Justificativa) y escalas de los indicadores. Las siglas CT significan Clave Territorial en el art. 14 y Conectividad Territorial en el art. 20 y en los anexos PN3 y PN7."
         },
         {
           titulo: "POT 3: vivienda nueva en suelo no urbanizable (arts. 27 y 28)",
@@ -478,7 +499,7 @@ export default {
         "Denominación: Decreto Foral 45/2011, de 16 de mayo, por el que se aprueba el Plan de Ordenación Territorial del Área Central (BON n.º 145, de 21-7-2011). Normativa: 84 artículos en ocho títulos.",
         "Los cinco POT se aprobaron por los Decretos Forales 43/2011 a 47/2011; el POT 3 es el 45/2011.",
         "Anexos de la Normativa: PN1 fuentes de la documentación gráfica; PN2 unidades ambientales; PN3 Áreas de Especial Protección; PN4 suelo de protección por riesgos naturales; PN5 zonificación de áreas inundables; PN6 suelo protegido por legislación sectorial; PN7 suelo de preservación; PN8 criterios de autorización de usos en SNU; PN9 paisaje; PC1 catálogos; PC2 BIC y otros bienes.",
-        "Mapas citados: 3.1 Áreas de Especial Protección y 3.2 suelo de protección por riesgos naturales (escala 1/100.000); 3.5 paisaje urbano; 4.2 sistema económico y equipamientos; 4.3 Área Metropolitana; 5.3 tuberías.",
+        "Mapas citados: 3.1 Áreas de Especial Protección y 3.2 suelo de protección por riesgos naturales (escala 1/100.000); 3.4 unidades ambientales (referencia orientativa del SNU de preservación); 3.5 paisaje urbano; 4.2 sistema económico y equipamientos; 4.3 Área Metropolitana; 5.3 tuberías.",
         "Art. 2.2: Urbasa-Andía y las Bardenas Reales no están adscritas a ningún POT.",
         "Art. 16: las Líneas de Acción son comunes a los cinco POT; los Proyectos Estratégicos son propios de cada uno.",
         "Art. 62: Modelo Territorial para el desarrollo de la Red de Áreas Logísticas de Navarra, aprobado por el Gobierno de Navarra el 2 de julio de 2009 (desarrolla el PEALIN).",
@@ -488,7 +509,7 @@ export default {
         "Art. 9.2: el primer documento en el orden de prelación es la Normativa (III), «incluida la expresión gráfica de las determinaciones vinculantes sobre el territorio y los Anexos incluidos en la misma». Los anexos PN son, por tanto, Normativa y prevalecen sobre la Memoria Justificativa.",
         "Carácter de los anexos: PN3 y PN4, de directa e inmediata aplicación y régimen mínimo y básico, que el planeamiento puede hacer más restrictivo (art. 18.3); PN5, criterios que se aplican cautelarmente a los estudios de inundabilidad y a los usos (PN4, ap. 1) y que son directamente aplicables en las zonas potencialmente inundables mientras no haya cartografía y limitaciones oficiales (PN5, ap. 1.1); PN7 y PN8, orientativos (art. 18.4 y 18.5); PN9, criterios orientativos (art. 30.2); PN6, a efectos informativos (art. 18.2.a).",
         "PN5, PN8 y PN9 son comunes a los cinco POT (lo dice la primera línea de cada uno).",
-        "En el POT 3 la SECA no se protege por razón del MDT: «En el POT1, POT2 y POT 3 estos suelos no se protegen por razón de los MDT adoptados» (PN3, ficha SECA). Por eso el cuadro del PN3 del POT 3 solo tiene tres subcategorías.",
+        "En el POT 3 la SECA no se protege por razón del MDT: «En el POT1, POT2 y POT 3 estos suelos no se protegen por razón de los MDT adoptados» (PN3, ficha SECA, que la Orden Foral 69/2014 incorporó a los POT 1, 2 y 3 y sustituyó en los POT 4 y 5). Por eso el cuadro del PN3 del POT 3 solo tiene tres subcategorías.",
         "Códigos de la SECA: la ficha del PN3 escribe «SNUPrtEN: SECA»; el PN8 (y la pregunta 70 de Zizur 2026), casi siempre «SNUPrtPEN: SECA» (en el ap. 2.2.A, «SNUPrtEN: SECA»). Es la misma sub-subcategoría.",
         "PN4, ap. 1: la sub-subcategoría Zonas Inundables (SNUPrtR: ZI) está en los cinco POT; la de Riesgo de Movimiento en Masas. Caídas de bloques y deslizamientos (SNUPrtR: MM), solo en el POT 5. El riesgo de avalancha solo se observa en el POT 1 (ap. 2.2).",
         "Exclusivas del POT 3 en el cuadro de preservación de los cinco POT: Mosaico de robledales y praderas de fondo de valle (SNUPrsA: MRP) y Parques metropolitanos y reservas paisajísticas (SNUPrsP: PM/RP); el PN9 (ap. 7.2) dice de esta última «solamente en el POT 3. Área Central».",

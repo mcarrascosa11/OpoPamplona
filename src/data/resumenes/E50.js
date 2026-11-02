@@ -1,12 +1,18 @@
 // Resumen del tema E50. Formato: cabecera de src/data/resumenes.js.
+// Revisado el 2-11-2026 (vigencia a 21-05-2026: pestaña «Análisis» del BOE y texto de las Leyes Forales
+// 15/2019 y 17/2021). En los arts. 162-175 y 226-234 solo se han modificado el art. 169.3 (LF 15/2019) y
+// el art. 229.1 (LF 17/2021); los dos están ya en su redacción vigente en el TXT. Corregido: la intro y
+// los datos decían que la única modificación era la del art. 229.1; la nota de la tabla de plazos decía
+// que la certificación final era el único plazo en meses. Añadidas las tablas de órganos y de listas
+// cerradas, y más datos y excepciones.
 export default {
     intro:
-      "La Ley Foral 2/2018, de 13 de abril, de Contratos Públicos, regula en su Título III el régimen jurídico de los contratos de las Administraciones Públicas. Este tema abarca dos capítulos: el I, CONTRATO DE OBRAS (arts. 162-175), y el V, CONTRATO DE SERVICIOS (arts. 226-234). La lógica es la del ciclo de vida de una obra pública: PROYECTO previo (elaboración, supervisión, aprobación y replanteo), contratación excepcional de proyecto y obra a la vez, COMPROBACIÓN DEL REPLANTEO, CERTIFICACIONES como pagos a cuenta, fuerza mayor, nuevas unidades con crédito global, RECEPCIÓN, plazo de garantía, LIQUIDACIÓN y responsabilidad por vicios. En servicios destacan la forma de fijar el precio, la responsabilidad del REDACTOR DEL PROYECTO (subsanación, indemnizaciones por desviación del presupuesto y responsabilidad por daños) y la adjudicación conjunta de proyecto y dirección facultativa, que interesa de lleno a un arquitecto municipal. Vigencia a la fecha de la convocatoria (BON 21-05-2026): el texto del TXT coincide con el vigente; en estos capítulos la única modificación es la del art. 229.1 por la Ley Foral 17/2021, de 21 de octubre (desviación de más del 20 % y minoración de hasta el 30 %).",
+      "La Ley Foral 2/2018, de 13 de abril, de Contratos Públicos, regula en su Título III el régimen jurídico de los contratos de las Administraciones Públicas. Este tema abarca dos capítulos: el I, CONTRATO DE OBRAS (arts. 162-175), y el V, CONTRATO DE SERVICIOS (arts. 226-234). La lógica es la del ciclo de vida de una obra pública: PROYECTO previo (elaboración, supervisión, aprobación y replanteo), contratación excepcional de proyecto y obra a la vez, COMPROBACIÓN DEL REPLANTEO, CERTIFICACIONES como pagos a cuenta, fuerza mayor, nuevas unidades con crédito global, RECEPCIÓN, plazo de garantía, LIQUIDACIÓN y responsabilidad por vicios. En servicios destacan la forma de fijar el precio, la responsabilidad del REDACTOR DEL PROYECTO (subsanación, indemnizaciones por desviación del presupuesto y responsabilidad por daños) y la adjudicación conjunta de proyecto y dirección facultativa, que interesa de lleno a un arquitecto municipal. Vigencia a la fecha de la convocatoria (BON 21-05-2026): en estos dos capítulos solo se han modificado el art. 169.3, por la Ley Foral 15/2019, de 26 de marzo (el contratista responde de los defectos hasta que se cumpla el plazo de garantía), y el art. 229.1, por la Ley Foral 17/2021, de 21 de octubre (minoración del precio del proyecto de hasta el 30 % por desviaciones de más del 20 %); las dos redacciones vigentes ya están en el texto. Las demás leyes que han tocado la Ley Foral 2/2018 hasta esa fecha no afectan a los arts. 162-175 ni 226-234.",
     bloques: [
       {
         h: "Proyecto de obras (arts. 162-166)",
         nota:
-          "Regla de partida: no hay contrato de obras sin PROYECTO previamente elaborado, supervisado, aprobado y replanteado (art. 162). El proyecto puede aprobarse a la vez que el expediente de contratación (art. 165.3). La contratación conjunta de proyecto y obra es EXCEPCIONAL, solo en dos supuestos tasados y justificados, y exige al menos un anteproyecto (art. 166).",
+          "Regla de partida: no hay contrato de obras sin PROYECTO previamente elaborado, supervisado, aprobado y replanteado (art. 162). El proyecto puede aprobarse a la vez que el expediente de contratación (art. 165.3). La contratación conjunta de proyecto y obra es EXCEPCIONAL, solo en dos supuestos tasados y justificados, y exige que el órgano de contratación redacte antes un ANTEPROYECTO o documento similar (o solo unas bases técnicas, por causas justificadas de interés público) (art. 166).",
         items: [
           "Art. 162 — La adjudicación de un contrato de obras requiere, salvo las excepciones de la ley foral, la previa ELABORACIÓN, SUPERVISIÓN, APROBACIÓN Y REPLANTEO del proyecto, que define con precisión el objeto del contrato. En la adjudicación conjunta de proyecto y obra, la ejecución queda condicionada a la aprobación y replanteo del proyecto por el órgano de contratación",
           "Art. 163.1 — Contenido mínimo: a) memoria (antecedentes, situación previa, necesidades y justificación de la solución); b) planos de conjunto y de detalle, de ocupación de terrenos, restitución de servidumbres y servicios afectados; c) pliego de prescripciones técnicas particulares (ejecución, medición, control de calidad y obligaciones técnicas del contratista); d) presupuesto con precios unitarios y descompuestos, en su caso, y estado de mediciones; e) programa de trabajos o plan de obras de carácter INDICATIVO, con previsión, en su caso, del tiempo y coste; f) referencias para el replanteo; g) la documentación que exijan normas legales o reglamentarias; h) estudio de seguridad y salud o estudio básico; i) CERTIFICADO DE EFICIENCIA ENERGÉTICA",
@@ -30,17 +36,17 @@ export default {
           "Art. 167 — COMPROBACIÓN DEL REPLANTEO en el plazo del pliego, que NO PUEDE EXCEDER DE UN MES desde la FORMALIZACIÓN del contrato, entre los servicios técnicos y el contratista, con acta. El plazo de ejecución empieza al DÍA SIGUIENTE de formalizar el ACTA DE COMPROBACIÓN DEL REPLANTEO",
           "Art. 168.1 — Las certificaciones son PAGOS A CUENTA a expensas de la medición final; no suponen aprobación ni recepción de las unidades",
           "Art. 168.2 — Solo son EMBARGABLES para pagar salarios devengados por el contrato de obras y las cuotas sociales derivadas",
-          "Art. 168.3 — Expedición MENSUAL o con la periodicidad del pliego, en los QUINCE DÍAS siguientes a recibir la relación valorada de la dirección facultativa (si hay disconformidad, se suspende el plazo hasta recibir la nueva relación). La dirección facultativa presenta la relación valorada en los CINCO DÍAS siguientes al vencimiento del periodo y la remite a la vez al contratista, que tiene QUINCE DÍAS NATURALES para dar su conformidad o reparos. Si calla, se considera otorgada la CONFORMIDAD; las alegaciones aceptadas se tienen en cuenta en la siguiente certificación, en la final o en la liquidación",
+          "Art. 168.3 — Expedición MENSUAL o con la periodicidad del pliego, en los QUINCE DÍAS siguientes a recibir la relación valorada de la dirección facultativa (si hay disconformidad, se suspende el plazo hasta recibir la nueva relación). La dirección facultativa presenta la relación valorada a la UNIDAD GESTORA del contrato en los CINCO DÍAS siguientes al vencimiento del periodo y la remite a la vez al contratista, que tiene QUINCE DÍAS NATURALES para dar su conformidad o reparos. Si calla, se considera otorgada la CONFORMIDAD; las alegaciones aceptadas se tienen en cuenta en la siguiente certificación, en la final o en la liquidación",
           "Art. 169.1-2 — Ejecución con estricta sujeción al pliego, al proyecto y a las instrucciones de interpretación técnica del DIRECTOR FACULTATIVO y, en su caso, del responsable del contrato. Las instrucciones VERBALES se ratifican por escrito",
-          "Art. 169.3 — Durante la obra y HASTA QUE SE CUMPLA EL PLAZO DE GARANTÍA, el contratista responde de todos los defectos que puedan advertirse en la construcción",
+          "Art. 169.3 (redacción de la Ley Foral 15/2019, de 26 de marzo) — Durante la obra y HASTA QUE SE CUMPLA EL PLAZO DE GARANTÍA, el contratista responde de todos los defectos que puedan advertirse en la construcción",
           "Art. 170 — FUERZA MAYOR: si no hay actuación imprudente del contratista, derecho a indemnización por daños y perjuicios. Solo tres casos: a) incendios causados por la ELECTRICIDAD ATMOSFÉRICA; b) fenómenos naturales de efectos CATASTRÓFICOS (terremotos, movimientos del terreno, inundaciones u otros semejantes); c) destrozos violentos en tiempo de GUERRA, ROBOS TUMULTUOSOS o alteraciones graves del orden público",
-          "Art. 171 — NUEVAS UNIDADES sin expediente de modificación: si la resolución de adjudicación dispone un CRÉDITO GLOBAL a favor de la unidad gestora de hasta el 10 % del importe de adjudicación, previsto en el pliego e incluido en el valor estimado (art. 42). Requiere informe de la dirección facultativa con conformidad del contratista (ratificado, si procede, por la Intervención y el responsable de la unidad gestora) y se incluye en las certificaciones y en la certificación final sin más trámite. Si después hay que tramitar una modificación, se incorporan estas variaciones. Tope conjunto: variaciones del número de unidades más estas modificaciones, no más del 50 % del importe de adjudicación"
+          "Art. 171 — NUEVAS UNIDADES sin expediente de modificación: si la resolución de adjudicación dispone un CRÉDITO GLOBAL a favor de la unidad gestora de hasta el 10 % del importe de adjudicación, previsto en el pliego e incluido en el valor estimado (art. 42). Requiere informe de la dirección facultativa con conformidad del contratista (ratificado, si procede, por la Intervención y el responsable del que dependa la unidad gestora) y se incluye en las certificaciones y en la certificación final sin más trámite. Si después hay que tramitar una modificación, se incorporan estas variaciones. Tope conjunto: variaciones del número de unidades más estas modificaciones, no más del 50 % del importe de adjudicación"
         ]
       },
       {
         h: "Extinción del contrato de obras: recepción, garantía, liquidación, vicios y resolución (arts. 172-175)",
         nota:
-          "Secuencia temporal que hay que tener clara: fin de obra → RECEPCIÓN en 15 días → CERTIFICACIÓN FINAL en 2 meses → PLAZO DE GARANTÍA (informe en los 15 días anteriores a su fin) → LIQUIDACIÓN (propuesta en 10 días y liquidación en 30) → responsabilidad por VICIOS OCULTOS durante 15 años desde el fin de la garantía (10 años para daños estructurales, desde la recepción).",
+          "Secuencia temporal que hay que tener clara: fin de obra → RECEPCIÓN en 15 días → CERTIFICACIÓN FINAL en 2 meses → PLAZO DE GARANTÍA (informe en los 15 días anteriores a su fin) → LIQUIDACIÓN (propuesta en 10 días y liquidación en 30) → responsabilidad por VICIOS OCULTOS durante 15 años desde el fin de la garantía (10 años para daños estructurales, desde la recepción). Conexión con el tema E49 (Título II, arts. 158.2 y 159.2): el pliego puede ampliar el plazo de recepción de las obras hasta 30 días después de su finalización, y en las obras de «Construcción general de inmuebles y obras de ingeniería civil» el plazo de garantía no puede ser inferior a tres años desde la recepción.",
         items: [
           "Art. 172.1 — Concluida la obra, ACTO FORMAL DE RECEPCIÓN en el plazo de 15 DÍAS, con un facultativo designado por la unidad gestora (en representación del órgano de contratación), el director de obra y el contratista, documentado en un ACTA DE FIN DE OBRA",
           "Art. 172.2 — Si la obra está bien ejecutada, el PLAZO DE GARANTÍA empieza al día siguiente de formalizar el acta. En DOS MESES desde el acta de recepción se acuerda y notifica la CERTIFICACIÓN FINAL y se abona el saldo. Si no está bien ejecutada, el director señala los defectos y fija plazo de subsanación; si no se subsanan, se puede dar un NUEVO PLAZO IMPRORROGABLE o declarar RESUELTO el contrato",
@@ -102,13 +108,13 @@ export default {
       "Proyecto y obra conjuntos: excepcional, dos supuestos tasados, anteproyecto previo; renuncia o silencio de 3 meses = precio del proyecto + 6 % (art. 166)",
       "Comprobación del replanteo: como máximo un mes desde la formalización; el plazo de ejecución corre desde el día siguiente al acta (art. 167)",
       "Certificaciones: pagos a cuenta; embargables solo por salarios y cuotas sociales; relación valorada en 5 días, conformidad del contratista en 15 días naturales, expedición en 15 días (art. 168)",
-      "Fuerza mayor: rayo, catástrofe natural y guerra, robos tumultuosos o alteraciones graves del orden público, sin imprudencia del contratista (art. 170)",
+      "Fuerza mayor, solo tres casos y sin imprudencia del contratista: incendios causados por la electricidad atmosférica; fenómenos naturales catastróficos; destrozos violentos en guerra, robos tumultuosos o alteraciones graves del orden público (art. 170)",
       "Crédito global para nuevas unidades: hasta el 10 % de la adjudicación; tope conjunto con las variaciones de unidades, 50 % (art. 171)",
       "Recepción en 15 días; certificación final en 2 meses desde el acta; informe sobre la obra en los 15 días anteriores al fin de la garantía (art. 172)",
       "Ocupación sin recepción formal por interés público: se tienen por recibidas a efectos de la garantía (art. 172.4)",
       "Liquidación: propuesta en 10 días y liquidación en 30; discrepancias al arbitraje de la Junta de Contratación (art. 173)",
       "Vicios ocultos: 15 años desde el fin de la garantía; daños estructurales: 10 años desde la recepción sin reservas (art. 174)",
-      "Resolución de obras: inicio suspendido más de 6 meses, obras suspendidas más de 8 meses, errores materiales del proyecto de al menos un 20 % (art. 175)",
+      "Resolución de obras: demora injustificada en la comprobación del replanteo, inicio suspendido más de 6 meses, desistimiento o suspensión de las obras más de 8 meses, errores materiales del proyecto de al menos un 20 % (art. 175)",
       "Resolución de servicios: inicio suspendido más de 6 meses, suspensión o desistimiento de más de 1 año, no subsanación del proyecto (art. 232)",
       "Servicios por unidades de ejecución: exceso de hasta el 10 % del precio en la liquidación, sin modificación (art. 226.3)",
       "Proyecto defectuoso: subsanación en 2 meses como máximo; luego resolución (20 %) o nuevo plazo de 1 mes improrrogable (penalidad del 20 %); segundo incumplimiento: indemnización igual al precio (art. 228)",
@@ -134,7 +140,7 @@ export default {
             ["Propuesta de liquidación", "Máximo 10 días", "Finalizado el plazo de garantía", "173"],
             ["Liquidación", "Máximo 30 días", "Desde la conformidad del contratista", "173"]
           ],
-          nota: "Dos «15 días» seguidos en las certificaciones (contratista y Administración) y otros dos en la recepción y en el informe final de garantía. La certificación final es la única que va en meses (2)."
+          nota: "Dos «15 días» seguidos en las certificaciones (contratista y Administración) y otros dos en la recepción y en el informe final de garantía. Solo tres plazos van en meses: la comprobación del replanteo (1), la certificación final (2) y el pronunciamiento sobre el proyecto en la contratación conjunta (3); los demás, en días."
         },
         {
           titulo: "Ley Foral 2/2018: responsabilidades y sus plazos",
@@ -196,20 +202,55 @@ export default {
             ["Más del 15 % y menos del 20 %", "15 %"],
             ["Más del 20 %", "30 %"]
           ],
-          nota: "Desde la Ley Foral 17/2021 el art. 229.1 solo prevé el sistema para desviaciones de MÁS DEL 20 %, con un máximo del 30 %; el apartado 2 conserva los tramos inferiores, que no se modificaron."
+          nota: "En su redacción vigente (Ley Foral 17/2021), el art. 229.1 habla de desviaciones de MÁS DEL 20 % y de una minoración de hasta el 30 %; el apartado 2, que no se modificó, mantiene además los tramos de más del 10 % (5 %) y de más del 15 % (15 %). En el examen, el baremo se contesta tal como lo dice el apartado 2. La indemnización se paga en un mes desde la notificación de la resolución, adoptada previo expediente con audiencia del interesado (art. 229.3)."
+        },
+        {
+          titulo: "Ley Foral 2/2018: quién hace qué en los contratos de obras y de servicios",
+          columnas: ["Órgano o sujeto", "Qué hace", "Artículo"],
+          filas: [
+            ["Órgano de contratación", "Supervisa, aprueba y replantea el proyecto en la contratación conjunta de proyecto y obra; dispone el crédito global en la resolución de adjudicación; exige al proyectista la subsanación del proyecto", "162, 166.3, 171, 228.1"],
+            ["Unidad administrativa competente en la materia", "Informe de disponibilidad de los terrenos", "165.2"],
+            ["Servicios técnicos de la Administración y contratista", "Comprobación del replanteo, con acta", "167"],
+            ["Dirección facultativa", "Relación valorada a la unidad gestora; instrucciones de interpretación técnica; informe para aplicar el crédito global; señala los defectos en la recepción y fija plazo; informe en los 15 días anteriores al fin de la garantía; propuesta de liquidación", "168.3, 169.1, 171, 172.2, 172.5, 173"],
+            ["Unidad gestora del contrato", "Recibe la relación valorada; el crédito global se dispone a su favor; designa al facultativo que representa al órgano de contratación en la recepción", "168.3, 171, 172.1"],
+            ["Intervención y responsable del que dependa la unidad gestora", "Ratifican, si procede, el informe de la dirección facultativa sobre el crédito global", "171"],
+            ["Responsable del contrato", "Instrucciones en la ejecución de las obras (en su caso y en su ámbito) y de los servicios", "169.1, 231.1"],
+            ["Junta de Contratación", "Arbitraje de las discrepancias en la liquidación de las obras", "173"]
+          ],
+          nota: "Al acto formal de recepción concurren solo tres: el facultativo designado por la unidad gestora (en representación del órgano de contratación), el director de la obra y el contratista, asistido del personal que considere oportuno (art. 172.1). Ni la Intervención ni la Junta de Contratación ni el responsable del contrato figuran en la recepción."
+        },
+        {
+          titulo: "Ley Foral 2/2018: listas cerradas del tema",
+          columnas: ["Lista", "Elementos", "Artículo"],
+          filas: [
+            ["Documentos mínimos del proyecto (9)", "Memoria; planos de conjunto y de detalle; pliego de prescripciones técnicas particulares; presupuesto; programa de trabajos o plan de obras indicativo; referencias del replanteo; documentación exigida por normas legales o reglamentarias; estudio o estudio básico de seguridad y salud; certificado de eficiencia energética", "163.1"],
+            ["Contratación conjunta de proyecto y obra (2 supuestos)", "Motivos de orden técnico ligados al destino o a las técnicas de ejecución de la obra; dimensión excepcional o dificultades técnicas singulares que requieran medios y capacidad técnica propios de las empresas", "166.1"],
+            ["Fuerza mayor (3 casos)", "Incendios causados por la electricidad atmosférica; fenómenos naturales de efectos catastróficos (terremotos, movimientos del terreno, inundaciones u otros semejantes); destrozos violentos en tiempo de guerra, robos tumultuosos o alteraciones graves del orden público", "170.2"],
+            ["Elementos estructurales (responsabilidad de 10 años)", "Cimentación, soportes, vigas, forjados, muros de carga u otros elementos estructurales que comprometan la resistencia mecánica y la estabilidad", "174"],
+            ["Causas específicas de resolución de las obras (4)", "Demora injustificada en la comprobación del replanteo; suspensión de la iniciación de más de 6 meses; desistimiento o suspensión de las obras de más de 8 meses; errores materiales del proyecto de al menos un 20 % del presupuesto", "175"],
+            ["Sistemas de precio de los servicios", "Componentes de la prestación, unidades de ejecución o unidades de tiempo; tanto alzado; honorarios por tarifas; combinación de varias modalidades", "226.3"],
+            ["Obligaciones que el pliego puede imponer en servicios con prestaciones directas a los ciudadanos (4)", "Continuidad del servicio y derecho de uso de los particulares; buen orden del servicio; indemnizar los daños a terceros (salvo los imputables a la Administración); entregar obras e instalaciones en estado adecuado", "227.2"],
+            ["Defectos del proyecto que el proyectista debe subsanar", "Defectos, insuficiencias técnicas, errores materiales, omisiones e infracciones de preceptos legales o reglamentarios que le sean imputables", "228.1"],
+            ["Causas específicas de resolución de los servicios (3)", "Suspensión del inicio por causa imputable a la Administración de más de 6 meses; desistimiento o suspensión de más de 1 año; en proyectos de obras, no subsanación de los defectos en plazo", "232.1"]
+          ],
+          nota: "Matices de la fuerza mayor: no vale cualquier incendio (solo los causados por la electricidad atmosférica) ni cualquier robo (solo los tumultuosos). En el proyecto, el plan de obras es «de carácter indicativo»."
         }
       ],
       datos: [
         "Denominación: Ley Foral 2/2018, de 13 de abril, de Contratos Públicos. Título III, capítulo I (contrato de obras, arts. 162-175) y capítulo V (contrato de servicios, arts. 226-234).",
-        "Única modificación en estos capítulos vigente a la fecha de la convocatoria: art. 229.1, por la Ley Foral 17/2021, de 21 de octubre (BON n.º 251, de 2-11-2021; en vigor el 3-11-2021).",
+        "Modificaciones de estos capítulos vigentes a la fecha de la convocatoria: art. 169.3, por la Ley Foral 15/2019, de 26 de marzo (BON n.º 62, de 1-4-2019; en vigor el 2-4-2019), y art. 229.1, por la Ley Foral 17/2021, de 21 de octubre (BON n.º 251, de 2-11-2021; en vigor el 3-11-2021). Ninguna otra modificación de la Ley Foral 2/2018 anterior al 21-05-2026 toca los arts. 162-175 ni 226-234.",
         "Art. 163.3: las herramientas electrónicas de diseño de edificios se pueden exigir a partir de los umbrales del art. 4 de la Directiva 2014/24/UE.",
+        "Art. 164: el sistema a tanto alzado, sin precios unitarios, es EXCEPCIONAL y solo cabe cuando la naturaleza de las obras lo permita, en las condiciones del pliego.",
         "Art. 165.3: el proyecto puede aprobarse en el mismo acto que el expediente de contratación.",
+        "Art. 168.3: si el contratista no formula alegaciones a la relación valorada en 15 días naturales, se considera otorgada su conformidad.",
         "Art. 169.2: las instrucciones verbales de la dirección facultativa se ratifican por escrito.",
+        "Art. 172.2: si la obra no está bien ejecutada, el director de obra señala los defectos y fija plazo para subsanarlos; si no se subsanan, cabe un nuevo plazo improrrogable o la resolución del contrato.",
         "Art. 172.6: no se exige plazo de garantía en obras sin finalidad práctica posterior ni en las que exigen un mantenimiento que excede de la mera conservación, como los dragados.",
         "Art. 173: las discrepancias en la liquidación se someten al arbitraje de la Junta de Contratación.",
         "Art. 226.1: prohibidos los contratos de servicios con empresas de trabajo temporal.",
         "Art. 227.1: en los servicios con prestaciones directas a los ciudadanos la Administración conserva los poderes de policía.",
-        "Art. 233: la resolución de un contrato de servicios da derecho, en todo caso, al precio de los trabajos realizados y recibidos."
+        "Art. 233: la resolución de un contrato de servicios da derecho, en todo caso, al precio de los trabajos realizados y recibidos.",
+        "Art. 234: en la adjudicación conjunta de proyecto y dirección facultativa, la dirección queda condicionada a la adjudicación del contrato de obras (debe constar en el pliego); su gasto se fiscaliza después y hasta entonces el proyectista no tiene derecho alguno."
       ],
       excepciones: [
         "Informe de disponibilidad de los terrenos: no se exige en obras de infraestructuras hidráulicas y viarias, aunque la ocupación efectiva espera al acta de ocupación (art. 165.2).",
@@ -221,7 +262,11 @@ export default {
         "Las deficiencias que resulten del uso de las obras no prolongan el plazo de garantía (art. 172.5).",
         "Los derechos de explotación de lo creado en un contrato de servicios corresponden íntegros al órgano de contratación salvo que el pliego disponga otra cosa (art. 226.2).",
         "En los servicios con prestaciones directas a los ciudadanos, el adjudicatario no indemniza los daños causados por causas imputables a la Administración (art. 227.2).",
-        "En el art. 229, el sistema de minoración solo existe si lo establece el pliego y se adopta previo expediente con audiencia del interesado (arts. 229.1 y 229.3)."
+        "En el art. 229, el sistema de minoración solo existe si lo establece el pliego y se adopta previo expediente con audiencia del interesado (arts. 229.1 y 229.3).",
+        "El pliego solo puede ALARGAR los 3 meses de pronunciamiento en la contratación conjunta de proyecto y obra («salvo que el pliego de cláusulas estableciera otro mayor», art. 166.4); en cambio, en servicios solo puede ACORTAR los 6 meses y el año de las causas de resolución («salvo que en el pliego se señale otro menor», art. 232.1.a y b).",
+        "La responsabilidad de 15 años por vicios ocultos solo rige en las obras del epígrafe «Construcción general de inmuebles y obras de ingeniería civil» del Anexo I (art. 174).",
+        "Si hay disconformidad con la relación valorada, se suspende el plazo de quince días para expedir la certificación hasta recibir la nueva relación (art. 168.3).",
+        "Si, pese al crédito global, luego hay que tramitar una modificación del contrato, esas variaciones se incluyen en el expediente de modificación (art. 171)."
       ]
     }
   };
