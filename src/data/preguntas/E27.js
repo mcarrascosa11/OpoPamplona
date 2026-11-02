@@ -1,177 +1,102 @@
 // Banco de preguntas del tema E27. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 27 ESPECÍFICO · DF 23/2011 RESIDUOS DE CONSTRUCCIÓN Y DEMOLICIÓN (E27) ----------
-  {    "id": "E27-01",
-    "tema": "E27",
-    "q": "El Decreto Foral 23/2011, de 28 de marzo, tiene como objeto, entre otros, establecer el régimen jurídico de la producción y gestión de los RCDs con el fin de fomentar, por este orden, su prevención, preparación para la reutilización, reciclado y otras formas de valorización. ¿Cuál de las siguientes afirmaciones describe correctamente otro de los objetos de este Decreto Foral?",
-    "o": [
-      "Concretar la cantidad mínima de RCDs a los que se exige una gestión específica diferenciada de la que se aplica a las pequeñas cantidades.",
-      "Determinar los criterios de valoración económica de las fianzas depositadas por los gestores de residuos peligrosos.",
-      "Regular la composición y el funcionamiento del Consejo Navarro de Medio Ambiente en materia de residuos de construcción.",
-      "Fijar los precios públicos por la prestación de servicios de recogida de residuos sólidos urbanos en obras menores."
-    ],
-    "c": 0,
-    "exp": "El artículo 1.c) del Decreto Foral 23/2011 establece como objeto concretar cuál es la cantidad mínima de RCDs a los que se les exige una gestión específica diferenciada de la que se aplica a las pequeñas cantidades y que, en su caso, puedan tener la consideración de residuos sólidos urbanos. Las demás alternativas describen objetos ajenos al artículo 1: la valoración económica de fianzas de gestores de residuos peligrosos no se regula en este Decreto; el Consejo Navarro de Medio Ambiente es un órgano de participación pero no es el objeto de la norma; y el régimen de precios públicos de residuos sólidos urbanos corresponde a la normativa de haciendas locales."
-  },
-  {
-    "id": "E27-02",
-    "tema": "E27",
-    "q": "En relación con el ámbito de aplicación del Decreto Foral 23/2011, ¿cuál de las siguientes categorías de residuos NO tiene la consideración de RCD a efectos de la aplicación de esta norma?",
-    "o": [
-      "Los materiales de aislamiento distintos de los especificados en los códigos 17 06 01 y 17 06 03.",
-      "Los residuos de industrias extractivas regulados por la Directiva 2006/21/CE del Parlamento Europeo y del Consejo, de 15 de marzo.",
-      "Las mezclas bituminosas distintas de las especificadas en el código 17 03 01 generadas en una obra de construcción.",
-      "Los residuos de hormigón, ladrillos y tejas generados en la demolición de un edificio residencial."
-    ],
-    "c": 1,
-    "exp": "El artículo 2.2.b) del Decreto Foral 23/2011 excluye expresamente del ámbito de aplicación los residuos de industrias extractivas regulados por la Directiva 2006/21/CE. Las mezclas bituminosas (código LER 170302), los residuos de hormigón, ladrillos y tejas (códigos 170101, 170102, 170103) y los materiales de aislamiento (código 170604) están incluidos en el Anejo 2 A como RCDs y, por tanto, sujetos al Decreto."
-  },
-  {
-    "id": "E27-03",
-    "tema": "E27",
-    "q": "Según el artículo 3 del Decreto Foral 23/2011, se consideran obras de construcción y demolición de escasa entidad aquellas que, sin tener la consideración de obra menor de construcción o reparación domiciliaria, generan residuos que no superan un determinado volumen. ¿Cuál es ese volumen y qué otra característica las define?",
-    "o": [
-      "Los residuos generados no superan 10 m³ y están exentas de cualquier tipo de comunicación previa o licencia municipal.",
-      "Los residuos generados no superan 50 m³ y, en general, no precisan de proyecto firmado por profesionales titulados aunque pueden precisar de licencia de obra o declaración responsable.",
-      "Los residuos generados no superan 25 m³ y requieren siempre proyecto firmado por profesional titulado y licencia urbanística.",
-      "Los residuos generados no superan 100 m³ y se limitan a obras de reparación domiciliaria en viviendas unifamiliares."
-    ],
-    "c": 1,
-    "exp": "El artículo 3.c) define las obras de construcción y demolición de escasa entidad como aquellas que, sin tener la consideración de obra menor de construcción o reparación domiciliaria, los residuos que genera no superan 50 m³ y que, en general, no precisan de proyecto firmado por profesionales titulados aunque puede precisar de licencia de obra o declaración responsable. Las demás alternativas alteran el umbral de 50 m³ o añaden requisitos que no figuran en la definición."
-  },
-  {
-    "id": "E27-04",
-    "tema": "E27",
-    "q": "El artículo 3 del Decreto Foral 23/2011 define el residuo inerte como aquel residuo no peligroso que no experimenta transformaciones físicas, químicas o biológicas significativas. ¿Cuál de las siguientes características NO forma parte de esta definición?",
-    "o": [
-      "Ser soluble y combustible.",
-      "No ser biodegradable.",
-      "No reaccionar física ni químicamente ni de ninguna otra manera.",
-      "No afectar negativamente a otras materias con las cuales entra en contacto."
-    ],
-    "c": 0,
-    "exp": "El artículo 3.e) establece que el residuo inerte no es soluble ni combustible, ni reacciona física ni químicamente ni de ninguna otra manera. Por tanto, la característica 'ser soluble y combustible' es contraria a la definición y no forma parte de ella. Las otras tres alternativas recogen rasgos que sí integran la definición legal."
-  },
-  {
-    "id": "E27-05",
-    "tema": "E27",
-    "q": "Entre las obligaciones del productor de RCDs establecidas en el artículo 4.1 del Decreto Foral 23/2011 se encuentra incluir en el proyecto de la obra un estudio de gestión de RCDs. ¿Cuál de los siguientes contenidos NO forma parte del contenido mínimo de dicho estudio?",
-    "o": [
-      "Las medidas para la prevención de generación de residuos en la obra objeto del proyecto.",
-      "Una valoración del coste previsto de la gestión de los RCDs que formará parte del presupuesto del proyecto en capítulo independiente.",
-      "Un estudio geotécnico del terreno para determinar la capacidad portante del suelo.",
-      "Una estimación de la cantidad, expresada en toneladas y/o m³, de los RCDs que se generarán en la obra."
-    ],
-    "c": 2,
-    "exp": "El artículo 4.1.a) enumera el contenido mínimo del estudio de gestión de RCDs, que incluye la estimación de la cantidad de residuos, las medidas de prevención, las operaciones de reutilización, valorización o eliminación, las medidas de separación, los planos de las instalaciones, las prescripciones del pliego y la valoración del coste. Un estudio geotécnico del terreno no figura entre esos contenidos; es un documento técnico distinto que puede ser exigible por otra normativa pero no forma parte del estudio de gestión de RCDs."
-  },
-  {
-    "id": "E27-06",
-    "tema": "E27",
-    "q": "El artículo 5.4 del Decreto Foral 23/2011 establece los umbrales a partir de los cuales los RCDs deben separarse en fracciones cuando, de forma individualizada para cada fracción, la cantidad prevista de generación para el total de la obra supere determinadas cantidades. ¿Cuál de las siguientes parejas fracción/cantidad es INCORRECTA según el texto?",
-    "o": [
-      "Hormigón: 80 t.",
-      "Ladrillos, tejas, cerámicos: 40 t.",
-      "Metal: 2 t.",
-      "Vidrio: 0,5 t."
-    ],
-    "c": 3,
-    "exp": "El artículo 5.4 establece los umbrales de separación: hormigón 80 t, ladrillos/tejas/cerámicos 40 t, metal 2 t, madera 1 t, vidrio 1 t, plástico 0,5 t y papel/cartón 0,5 t. La alternativa que asigna 0,5 t al vidrio es incorrecta porque el umbral para el vidrio es de 1 t; 0,5 t corresponde al plástico y al papel/cartón."
-  },
-  {
-    "id": "E27-07",
-    "tema": "E27",
-    "q": "En el caso de productores de residuos procedentes de obras de construcción o demolición de escasa entidad, el artículo 6.1 del Decreto Foral 23/2011 establece que, para cumplir con la obligación de constituir la fianza, deberán contratar para la realización de las mismas a un constructor-poseedor inscrito en el Registro de Constructor-Poseedor de RCDs. ¿Qué cuantía de fianza debe depositar dicho constructor-poseedor para responder de sus obligaciones cuando los RCDs generados no superan los 50 m³?",
-    "o": [
-      "50.000 euros.",
-      "11 euros por tonelada.",
-      "El 3% del presupuesto del proyecto.",
-      "1.000 euros."
-    ],
-    "c": 3,
-    "exp": "El artículo 6.3.b.1) establece que la fianza para responder del cumplimiento de las obligaciones derivadas de la correcta gestión de los residuos procedentes de obras de construcción y demolición de escasa entidad, es decir, cuando los RCDs generados no superan los 50 m³, será de 1.000 euros. La cuantía de 50.000 euros corresponde a obras cuyos residuos superan los 50 m³; las otras dos alternativas se refieren a la fianza que deben depositar los productores de obras que precisen licencia y no sean de escasa entidad."
-  },
-  {
-    "id": "E27-08",
-    "tema": "E27",
-    "q": "El artículo 6.2 del Decreto Foral 23/2011 regula las fianzas para los productores de residuos procedentes de obras de construcción o demolición que precisen licencia de obras y que no sean de escasa entidad. ¿Cuál es la cuantía máxima de dicha fianza?",
-    "o": [
-      "El 5% del presupuesto del proyecto para obras de construcción.",
-      "El 10% del presupuesto del proyecto para obras de construcción.",
-      "No existe un máximo; la fianza se calcula exclusivamente a razón de 11 euros por tonelada.",
-      "El 3% del presupuesto del proyecto para obras de construcción."
-    ],
-    "c": 3,
-    "exp": "El artículo 6.2.a) fija la cuantía de la fianza en 11 euros/t o 17 euros/m³ de RCDs que no sean tierras de excavación de residuos previstos, con un mínimo de 1.000 euros y un máximo del 3% del presupuesto del proyecto para obras de construcción. Las demás alternativas modifican el porcentaje máximo o niegan su existencia."
-  },
-  {
-    "id": "E27-09",
-    "tema": "E27",
-    "q": "El artículo 6.3 del Decreto Foral 23/2011 regula el Registro de Constructor-Poseedor de RCDs. ¿Cuál de los siguientes documentos NO se exige para la inscripción en dicho Registro?",
-    "o": [
-      "Identificación y domicilio del Constructor, que deberá tener personalidad jurídica propia, mediante copia simple de la tarjeta de identificación fiscal.",
-      "Resguardo de depósito ante Hacienda de Navarra de una fianza en metálico o aval bancario.",
-      "Resguardo de depósito de una fianza de 1.000 euros para obras de construcción y demolición de escasa entidad, es decir si los RCDs generados no superan los 50 m³.",
-      "Certificado de eficiencia energética del edificio donde el constructor tiene su sede social."
-    ],
-    "c": 3,
-    "exp": "El artículo 6.3 enumera la documentación exigida para la inscripción: identificación y domicilio del constructor mediante copia de la tarjeta de identificación fiscal, resguardo del depósito de la fianza ante Hacienda de Navarra (1.000 euros para obras de escasa entidad y 50.000 euros para obras que superen los 50 m³). Un certificado de eficiencia energética de la sede social del constructor no figura entre los documentos exigidos."
-  },
-  {
-    "id": "E27-10",
-    "tema": "E27",
-    "q": "Entre las obligaciones del gestor de RCDs establecidas en el artículo 7 del Decreto Foral 23/2011 se encuentra llevar un registro de entradas y salidas de los RCDs de la instalación, codificados de acuerdo con lo establecido en el Anejo 2 A. ¿Con qué periodicidad mínima debe el gestor intermedio o final que reciba residuos procedentes de obras de construcción y demolición enviar una copia de dicho registro al Departamento de Desarrollo Rural y Medio Ambiente?",
-    "o": [
-      "Mensual.",
-      "Semestral.",
-      "Anual.",
-      "Trimestral."
-    ],
-    "c": 1,
-    "exp": "El artículo 7.9 establece que, con una periodicidad mínima semestral, el gestor intermedio o gestor final que reciba residuos que provengan de obras de construcción y demolición deberá enviar al Departamento de Desarrollo Rural y Medio Ambiente, en formato electrónico, una copia del registro de entradas y salidas. Las demás alternativas indican periodicidades distintas a la semestral."
-  },
-  {
-    "id": "E27-11",
-    "tema": "E27",
-    "q": "El artículo 8 del Decreto Foral 23/2011 regula la valorización de RCDs en la obra en la que se han producido y exime de autorización de gestión de residuos a los poseedores-productores de los RCDs listados en el Anejo 2 B. ¿Qué condición deben cumplir dichos residuos para poder acogerse a esta exención?",
-    "o": [
-      "No contener más de un 1% de materiales impropios.",
-      "No contener más de un 5% de materiales impropios.",
-      "Estar libres de cualquier material impropio, sin tolerancia alguna.",
-      "No superar el 10% de materiales impropios en peso."
-    ],
-    "c": 0,
-    "exp": "El Anejo 2 B del Decreto Foral 23/2011 establece que los RCDs que pueden ser valorizados en la misma obra en la que se han producido son los que se citan en la lista siempre y cuando no contengan más de 1% de materiales impropios. Las demás alternativas fijan umbrales de impropios distintos (5%, 0% o 10%) que no coinciden con el 1% legalmente establecido."
-  },
-  {
-    "id": "E27-12",
-    "tema": "E27",
-    "q": "El artículo 10 del Decreto Foral 23/2011 regula las actividades de eliminación de RCDs mediante depósito en vertedero. Según este artículo, ¿en cuál de los siguientes supuestos NO se aplicará la exigencia de someter los RCDs a un tratamiento previo para aprovechar los materiales pétreos y retirar los residuos peligrosos y no inertes?",
-    "o": [
-      "En los vertederos privados autorizados que reciban exclusivamente residuos de hormigón y ladrillos.",
-      "En los vertederos que reciban RCDs procedentes de obras de construcción de infraestructuras lineales.",
-      "En los vertederos ubicados en poblaciones aisladas, según la definición del artículo 2 del Real Decreto 1481/2001, cuando reciban exclusivamente RCDs inertes generados en dichas poblaciones.",
-      "En los vertederos de titularidad pública que reciban RCDs procedentes de obras de demolición de edificios residenciales."
-    ],
-    "c": 2,
-    "exp": "El artículo 10.3 establece que la disposición sobre tratamiento previo no se aplicará a los vertederos ubicados en poblaciones aisladas, según la definición del artículo 2 del Real Decreto 1481/2001, cuando reciban exclusivamente RCDs inertes generados en dichas poblaciones. Las demás alternativas describen supuestos en los que sí se aplica la exigencia de tratamiento previo."
-  },
-  {
-    "id": "E27-13",
-    "tema": "E27",
-    "q": "La Disposición Adicional Primera del Decreto Foral 23/2011 establece un régimen especial para los excedentes de excavación generados en obras de titularidad pública sometidas a evaluación de impacto ambiental. ¿Cuál es el alcance de este régimen especial?",
-    "o": [
-      "Únicamente estarán exentos del pago de la fianza, pero deberán cumplir todas las demás obligaciones del Decreto Foral.",
-      "No serán aplicables las medidas previstas en este Decreto Foral, salvo lo referido en el artículo 4.1.a), siendo de aplicación lo previsto en el Texto Refundido de la Ley de Evaluación de Impacto Ambiental de Proyectos.",
-      "Quedan excluidos de la aplicación del Decreto Foral en su totalidad, incluyendo la obligación de incluir el estudio de gestión de RCDs en el proyecto.",
-      "Se les aplicará el Decreto Foral con las mismas exigencias que a las obras privadas, sin ninguna salvedad."
-    ],
-    "c": 1,
-    "exp": "La Disposición Adicional Primera dispone que las medidas previstas en este Decreto Foral, salvo lo referido en el artículo 4.1.a) (la obligación de incluir el estudio de gestión de RCDs en el proyecto), no serán aplicables a los excedentes generados en excavaciones y demoliciones de obras de titularidad pública sometidas a evaluación de impacto ambiental, a los que será de aplicación lo previsto en el Texto Refundido de la Ley de Evaluación de Impacto Ambiental de Proyectos. Las demás alternativas amplían o reducen indebidamente el alcance de esta excepción."
-  },
+  // ── E27 · DF 23/2011, de 28 de marzo, residuos de construcción y demolición (RCDs) en Navarra ─────────
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección
+  // 2 bis): 3 META (E27-01, E27-02, E27-11), 3 DATO (E27-03, E27-07, E27-10), 2 NEG (E27-06, E27-12),
+  // 1 LISTA (E27-05), 1 LIT (E27-16), 1 AFIRM (E27-09), 1 SEL (E27-17), 1 DEF (E27-04), 1 ALCANCE (E27-13)
+  // y 1 COMB2 (E27-08). Reescritas in situ, con su id y su tipo: E27-01 a E27-13. E27-02 es la pregunta 91
+  // del examen de Zizur Mayor de 2026, copiada literalmente con su clave (A). Nuevas: E27-16 (art. 5.1, plan
+  // del poseedor) y E27-17 (art. 3.h, poseedor). Retiradas (no se borran: el historial va por id): E27-14
+  // (ratios del anejo 3; quedan en el resumen) y E27-15 (cuneta de los centros de almacenamiento del anejo 1).
+  // Vigencia: LexNavarra (r=29960) y BOE. El texto no tiene modificaciones salvo el art. 11, derogado por la
+  // disposición derogatoria única de la LF 14/2018, de 18 de junio, de Residuos y su Fiscalidad (BON n.º 120,
+  // 22-06-2018; BOE-A-2018-8953, pestaña «Análisis»): no se pregunta. Tampoco se preguntan las remisiones a
+  // normas derogadas (Ley 10/1998, LF 4/2005, RD 1481/2001 y TR de evaluación de impacto ambiental de 2008).
+  // Letra correcta: A 4, B 4, C 3, D 4. Metas en la d): correctas en E27-01 («Todas») y E27-11 («a) y c)»);
+  // «Ninguna» es falsa en E27-02.
+  { id: "E27-01", tema: "E27", subtema: "Objeto (art. 1)", tipo: "META",
+    q: "Según el Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, constituye objeto de dicho Decreto Foral:",
+    o: ["Establecer las fianzas exigibles por parte de las Administraciones Públicas a los productores, poseedores y/o gestores de RCDs, para garantizar su correcta gestión.",
+      "Concretar cuál es la cantidad mínima de RCDs a los que se les exige una gestión específica diferenciada de la que se aplica a las pequeñas cantidades.",
+      "Establecer los requisitos técnicos mínimos de las plantas de tratamiento de RCDs para garantizar su adecuada gestión.",
+      "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Decreto Foral 23/2011, art. 1: el Decreto Foral tiene como objeto «a) Establecer el régimen jurídico de la producción y gestión de los Residuos de Construcción y Demolición [...]», «b) Establecer las fianzas exigibles por parte de las Administraciones Públicas a los productores, poseedores y/o gestores de residuos de construcción y demolición, para garantizar su correcta gestión», «c) Concretar cuál es la cantidad mínima de RCDs a los que se les exige una gestión específica diferenciada de la que se aplica a las pequeñas cantidades de este tipo de residuos [...]» y «d) Establecer los requisitos técnicos mínimos de las plantas de tratamiento de RCDs para garantizar su adecuada gestión». Las opciones a), b) y c) reproducen las letras b), c) y d) del artículo, así que las tres son verdaderas y la correcta es la d). De la letra a) conviene retener el orden: prevención, preparación para la reutilización, reciclado y otras formas de valorización." },
+  { id: "E27-02", tema: "E27", subtema: "Ámbito: residuos que no son RCDs (art. 2.2)", tipo: "META",
+    q: "De conformidad con lo establecido en el artículo 2 del Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, no tendrán consideración de Residuos de Construcción y Demolición a efectos de la aplicación del Decreto Foral:",
+    o: ["Los residuos provenientes de obras menores de construcción o reparación domiciliaria, cuando no superen los 50 kg de peso.",
+      "Los residuos provenientes de obras menores de construcción o reparación domiciliaria, cuando no superen los 100 kg de peso.",
+      "Los residuos provenientes de obras menores de construcción o reparación domiciliaria, cuando no superen los 30 kg de peso.",
+      "Ninguna de las respuestas anteriores es correcta."],
+    c: 0, exp: "Decreto Foral 23/2011, art. 2.2.d): no tendrán la consideración de RCDs «Los residuos provenientes de obras menores de construcción o reparación domiciliaria, cuando no superen los 50 kg de peso». b) y c) cambian el umbral (100 kg y 30 kg), y la d) es falsa porque la a) es literal. No confundas estos 50 kg de la obra menor domiciliaria con los 50 m³ que definen la obra de escasa entidad (art. 3.c). Las otras exclusiones del art. 2.2 son las tierras y piedras no contaminadas reutilizadas cuyo destino se acredite de forma fehaciente, los residuos de industrias extractivas de la Directiva 2006/21/CE y los lodos de dragado no peligrosos reubicados en el interior de las aguas superficiales. Es la pregunta 91 del examen de Zizur Mayor de 2026, copiada literalmente (clave A)." },
+  { id: "E27-03", tema: "E27", subtema: "Obras de escasa entidad (art. 3.c)", tipo: "DATO",
+    q: "Según el Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, ¿qué volumen de residuos no deben superar las obras de construcción o demolición que, sin tener la consideración de obra menor de construcción o reparación domiciliaria, se consideran de escasa entidad?",
+    o: ["10 m³.", "25 m³.", "50 m³.", "100 m³."],
+    c: 2, exp: "Decreto Foral 23/2011, art. 3.c): obras de construcción y demolición de escasa entidad «Son las obras de construcción o demolición, que sin tener la consideración de obra menor de construcción o reparación domiciliaria, los residuos que genera no superan 50 m³ y que, en general no precisan de proyecto firmado por profesionales titulados aunque puede precisar de licencia de obra o declaración responsable». 10, 25 y 100 m³ no son el umbral del Decreto Foral. Los mismos 50 m³ separan las dos fianzas del Registro de Constructor-poseedor (1.000 o 50.000 euros, art. 6.3.b); no los confundas con los 50 kg de la obra menor domiciliaria, que la dejan fuera del Decreto Foral (art. 2.2.d)." },
+  { id: "E27-04", tema: "E27", subtema: "Residuo inerte (art. 3.e)", tipo: "DEF",
+    q: "Según el Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, residuo inerte es aquel residuo no peligroso que no experimenta transformaciones físicas, químicas o biológicas significativas, no es soluble ni combustible, no reacciona, no es biodegradable y no afecta negativamente a otras materias con las que entra en contacto. ¿Qué añade la propia definición sobre su lixiviabilidad total, su contenido de contaminantes y la ecotoxicidad de su lixiviado?",
+    o: ["Que cumplan los criterios de admisión del apartado 2.1 de la Decisión 2003/33/CE para su uso en restauración o relleno.",
+      "Que no superen los valores límite fijados en la autorización de gestor de residuos no peligrosos de la instalación.",
+      "Que sean insignificantes y, en particular, que no supongan un riesgo para la calidad de las aguas superficiales o subterráneas.",
+      "Que se acrediten mediante su caracterización por un laboratorio homologado, conforme a la normativa técnica aplicable a su uso final."],
+    c: 2, exp: "Decreto Foral 23/2011, art. 3.e): tras definir el residuo inerte como «aquel residuo no peligroso que no experimenta transformaciones físicas, químicas o biológicas significativas, no es soluble ni combustible, ni reacciona física ni químicamente ni de ninguna otra manera, no es biodegradable, no afecta negativamente a otras materias con las cuales entra en contacto [...]», añade: «La lixiviabilidad total, el contenido de contaminantes del residuo y la ecotoxicidad del lixiviado deberán ser insignificantes, y en particular no deberán suponer un riesgo para la calidad de las aguas superficiales o subterráneas». Las demás opciones traen requisitos de otros preceptos: los criterios de admisión del apartado 2.1 de la Decisión 2003/33/CE (a) se exigen a los residuos inertes que se usen en restauración, acondicionamiento o relleno (art. 9.6); la caracterización por un laboratorio homologado (d) es una obligación del gestor sobre los áridos y materiales reciclados (art. 7.13); y la definición no remite a valores límite de la autorización del gestor (b)." },
+  { id: "E27-05", tema: "E27", subtema: "Proyecto básico y estudio de gestión (art. 4.2)", tipo: "LISTA",
+    q: "De acuerdo con el Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, en las obras de edificación, el proyecto básico que se presente para la obtención de la licencia urbanística contendrá, al menos, los siguientes documentos del estudio de gestión de RCDs:",
+    o: ["La estimación de la cantidad de RCDs, las medidas de prevención, las operaciones de reutilización, valorización o eliminación, las medidas de separación, la valoración del coste y el inventario de residuos peligrosos.",
+      "La estimación de la cantidad de RCDs, las medidas de prevención, las operaciones de reutilización, valorización o eliminación, los planos de las instalaciones, la valoración del coste y el inventario de residuos peligrosos.",
+      "La estimación de la cantidad de RCDs, las medidas de prevención, las operaciones de reutilización, valorización o eliminación, las medidas de separación, las prescripciones del pliego y el inventario de residuos peligrosos.",
+      "La estimación de la cantidad de RCDs, las operaciones de reutilización, valorización o eliminación, las medidas de separación, los planos de las instalaciones, la valoración del coste y el inventario de residuos peligrosos."],
+    c: 0, exp: "Decreto Foral 23/2011, art. 4.2: «En el caso de obras de edificación, cuando se presente un proyecto básico para la obtención de la licencia urbanística, dicho proyecto contendrá, al menos, los documentos referidos en los números 1, 2, 3, 4 y 7 de la letra a) y en la letra b) del apartado 1». Son la estimación de la cantidad (1), las medidas de prevención (2), las operaciones de reutilización, valorización o eliminación (3), las medidas de separación (4), la valoración del coste (7) y el inventario de residuos peligrosos de la letra b). En el básico no se exigen los planos de las instalaciones (5) ni las prescripciones del pliego (6): b) pone los planos en lugar de la separación, c) el pliego en lugar de la valoración del coste y d) los planos en lugar de las medidas de prevención." },
+  { id: "E27-06", tema: "E27", subtema: "Separación en fracciones (art. 5.4)", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA en relación con lo establecido en el artículo 5.4 del Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, sobre las cantidades previstas para el total de la obra a partir de las cuales los RCDs deberán separarse en fracciones:",
+    o: ["Hormigón: 80 t.", "Ladrillos, tejas, cerámicos: 40 t.", "Metal: 2 t.", "Vidrio: 0,5 t."],
+    c: 3, exp: "Decreto Foral 23/2011, art. 5.4: los RCDs deberán separarse en fracciones cuando, de forma individualizada para cada una de ellas, la cantidad prevista de generación para el total de la obra supere: «a) Hormigón: 80 t. b) Ladrillos, tejas, cerámicos: 40 t. c) Metal: 2 t. d) Madera: 1 t. e) Vidrio: 1 t. f) Plástico: 0,5 t. g) Papel y cartón: 0,5 t». a), b) y c) son literales; la d) es la incorrecta porque el umbral del vidrio es 1 t, igual que el de la madera, y 0,5 t es el del plástico y el del papel y cartón. La separación se hace preferentemente en la propia obra; si por falta de espacio físico no es técnicamente viable, puede encomendarse a un gestor en una instalación externa." },
+  { id: "E27-07", tema: "E27", subtema: "Registro de Constructor-poseedor: fianza (art. 6.3)", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 6.3 del Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, ¿por qué valor debe depositarse la fianza en metálico o aval bancario que acompaña a la solicitud de inscripción en el Registro de Constructor-poseedor de RCDs, para obras de construcción y demolición cuyos residuos superen los 50 m³?",
+    o: ["1.000 euros.", "5.000 euros.", "50.000 euros.", "500.000 euros."],
+    c: 2, exp: "Decreto Foral 23/2011, art. 6.3.b): la solicitud de inscripción se acompaña del resguardo de depósito ante Hacienda de Navarra de una fianza en metálico o aval bancario «por valor de: b.1) 1.000 euros para obras de construcción y demolición de escasa entidad, es decir si los RCDs generados no superan los 50 m³. b.2) 50.000 euros para obras de construcción y demolición cuyos residuos de construcción y demolición superen los 50 m³». 1.000 euros (a) es la cuantía de las obras de escasa entidad y coincide con el mínimo de la fianza del art. 6.2.a); 5.000 y 500.000 euros no figuran en el Decreto Foral. Esa fianza responde de todas las obligaciones derivadas de la correcta gestión de los residuos de las obras que ejecute el constructor, incluidos daños, sanciones y ejecución subsidiaria." },
+  { id: "E27-08", tema: "E27", subtema: "Fianza de las obras con licencia (art. 6.2.a)", tipo: "COMB2",
+    q: "Conforme a lo establecido en el artículo 6.2.a) del Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, ¿cuál será la cuantía de la fianza o aval bancario que deben depositar, junto con la solicitud de licencia, los productores de residuos procedentes de obras que precisen licencia de obras y no sean de escasa entidad?",
+    o: ["17 euros/t o 11 euros/m³ de RCDs que no sean tierras de excavación, con un mínimo de 1.000 euros y un máximo del 3 % del presupuesto del proyecto.",
+      "11 euros/t o 17 euros/m³ de RCDs que no sean tierras de excavación, con un mínimo de 1.000 euros y un máximo del 3 % del presupuesto del proyecto.",
+      "17 euros/t o 11 euros/m³ de RCDs que no sean tierras de excavación, con un mínimo de 3.000 euros y un máximo del 1 % del presupuesto del proyecto.",
+      "11 euros/t o 17 euros/m³ de RCDs que no sean tierras de excavación, con un mínimo de 3.000 euros y un máximo del 1 % del presupuesto del proyecto."],
+    c: 1, exp: "Decreto Foral 23/2011, art. 6.2.a): deberán depositar, junto con la solicitud de licencia, «una fianza o aval bancario cuya cuantía será de 11 euros/t o 17 euros/m³ de RCDs que no sean tierras de excavación de residuos previstos, con un mínimo de 1000 euros y un máximo del 3% del presupuesto del proyecto para obras de construcción». a) y c) invierten los importes por tonelada y por metro cúbico, y c) y d) intercambian las cifras del mínimo y del máximo (3.000 euros y 1 %). Terminadas las obras, el Ayuntamiento devuelve la fianza en un plazo no superior a 15 días desde la presentación del certificado o factura de entrega (art. 6.2.c), y las cuantías pueden actualizarse por Orden Foral (art. 6.6 y disposición adicional segunda)." },
+  { id: "E27-09", tema: "E27", subtema: "Fianzas y Registro de Constructor-poseedor (art. 6)", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA en relación con las fianzas y el Registro de Constructor-poseedor de RCDs regulados en el Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra:",
+    o: ["La inscripción en el Registro de Constructor-poseedor de RCDs se formalizará preferentemente mediante registro electrónico, ante el Departamento de Desarrollo Rural y Medio Ambiente.",
+      "El constructor que solicite la inscripción en el Registro de Constructor-poseedor de RCDs podrá ser persona física, identificándose mediante copia simple del documento nacional de identidad.",
+      "El Ayuntamiento devolverá la fianza en un plazo no superior a un mes desde la presentación del certificado o factura de entrega que acredite la correcta gestión de los RCDs.",
+      "Las medidas técnicas, los registros de producción y las obligaciones de comunicación de los inscritos en el Registro de Constructor-poseedor se aprobarán por Decreto Foral."],
+    c: 0, exp: "Decreto Foral 23/2011, art. 6.3: «La inscripción en el Registro de Constructor-poseedor de RCDs se formalizará preferentemente mediante registro electrónico, ante el Departamento de Desarrollo Rural y Medio Ambiente». b) es falsa: el constructor «deberá tener personalidad jurídica propia» y se identifica «mediante copia simple de la tarjeta de identificación fiscal» (art. 6.3.a). c) es falsa: el Ayuntamiento devolverá la fianza «en un plazo no superior a 15 días» desde la presentación del certificado o factura de entrega (art. 6.2.c). d) es falsa: esas medidas se aprueban «Mediante Orden Foral de la Consejera de Desarrollo Rural y Medio Ambiente» (art. 6.5), igual que la actualización de las cuantías de las fianzas (art. 6.6)." },
+  { id: "E27-10", tema: "E27", subtema: "Obligaciones del gestor (art. 7.9)", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 7.9 del Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, ¿con qué periodicidad mínima debe el gestor intermedio o final que reciba residuos de obras de construcción y demolición enviar al Departamento de Desarrollo Rural y Medio Ambiente, en formato electrónico, una copia del registro de entradas y salidas?",
+    o: ["Trimestral.", "Semestral.", "Anual.", "Bienal."],
+    c: 1, exp: "Decreto Foral 23/2011, art. 7.9: «Con una periodicidad mínima semestral, el gestor intermedio o gestor final que reciba residuos que provengan de obras de construcción y demolición, deberá enviar al Departamento de Desarrollo Rural y Medio Ambiente, en formato electrónico, una copia del registro de entradas y salidas». Las autorizaciones pueden fijar periodicidades diferentes según la actividad, pero el mínimo del Decreto Foral es semestral; la periodicidad trimestral y la bienal no figuran en él. Lo anual es el listado que los Ayuntamientos envían a la Dirección General de Medio Ambiente y Agua antes del 1 de marzo (art. 8.5), no la copia del registro del gestor." },
+  { id: "E27-11", tema: "E27", subtema: "Valorización en la propia obra (art. 8 y anejo II.B)", tipo: "META",
+    q: "De conformidad con el Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, para que los poseedores-productores queden eximidos de la autorización de gestión de residuos al valorizar los RCDs en la misma obra en la que se han producido:",
+    o: ["Los RCDs deberán estar listados en el Anejo 2 B y no contener más de un 1 % de materiales impropios.",
+      "Deberán utilizarse los medios de los puntos 2 o 3 del Anejo 1, incluida la báscula, con una eficacia de separación similar a la de una planta.",
+      "Deberán comunicarlo al Ayuntamiento, si no estuviese contemplado en el proyecto de obra, o a la Dirección General de Medio Ambiente y Agua si la obra no requiere licencia municipal.",
+      "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Decreto Foral 23/2011, art. 8.1: se eximirá de autorización de gestión de residuos a los poseedores-productores de los RCDs «listados en el Anejo 2 B», y el anejo II.B solo admite los que no contengan «más de 1% de materiales impropios»: a) es verdadera. Para ello «se deberán utilizar los medios suficientes de acuerdo los puntos 2 ó 3 del Anejo 1, excepto en lo referente a la báscula»: b) es falsa. Art. 8.2: deberán comunicarlo expresamente al Ayuntamiento, si no estuviese contemplado en el proyecto de obra, o a la Dirección General de Medio Ambiente y Agua si la obra no requiere licencia municipal, «quienes lo podrán denegar motivadamente»: c) es verdadera. Por tanto, la correcta es la d)." },
+  { id: "E27-12", tema: "E27", subtema: "Eliminación en vertedero (art. 10)", tipo: "NEG",
+    q: "De conformidad con lo establecido en el artículo 10 del Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, no es un supuesto exceptuado de la obligación de someter a tratamiento previo los RCDs que vayan a ser depositados en vertedero autorizado:",
+    o: ["Los residuos inertes cuyo tratamiento sea técnicamente inviable.",
+      "Los RCDs cuyo tratamiento suponga un coste superior al de su depósito en vertedero.",
+      "Los RCDs cuyo tratamiento no contribuya a los objetivos del artículo 1 ni a reducir los peligros para la salud humana o el medio ambiente.",
+      "Los vertederos ubicados en poblaciones aisladas, cuando reciban exclusivamente RCDs inertes generados en dichas poblaciones."],
+    c: 1, exp: "Decreto Foral 23/2011, art. 10: los RCDs que vayan a depositarse en vertedero autorizado deben haber sido tratados para aprovechar como mínimo los materiales pétreos y retirar la totalidad de los peligrosos y de los no inertes (apartado 1). La regla no se aplica «a los residuos inertes cuyo tratamiento sea técnicamente inviable ni a los RCDs cuyo tratamiento no contribuya a los objetivos establecidos en el artículo 1 ni a reducir los peligros para la salud humana o el medio ambiente» (apartado 2: opciones a y c), y «Tampoco se aplicará esta disposición a los vertederos ubicados en poblaciones aisladas [...] cuando reciban exclusivamente RCDs inertes generados en dichas poblaciones» (apartado 3: opción d). Que el tratamiento cueste más que el vertido (b) no es una excepción del Decreto Foral." },
+  { id: "E27-13", tema: "E27", subtema: "Excedentes de excavación de obra pública (DA 1.ª)", tipo: "ALCANCE",
+    q: "Según el Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, respecto de los excedentes generados en excavaciones y demoliciones de obras de titularidad pública sometidas a evaluación de impacto ambiental, las medidas previstas en dicho Decreto Foral:",
+    o: ["No serán aplicables, salvo lo referido en el artículo 4.1.a) sobre el estudio de gestión de RCDs.",
+      "No serán aplicables, salvo la obligación de constituir la fianza prevista en el artículo 6.",
+      "Serán aplicables en todo caso, aunque con exención de la fianza prevista en el artículo 6.",
+      "Serán aplicables siempre que dichos excedentes no estén contaminados por sustancias peligrosas."],
+    c: 0, exp: "Decreto Foral 23/2011, disposición adicional primera: «Las medidas previstas en este Decreto Foral, salvo lo referido en el artículo 4.1.a, no serán aplicables a los excedentes generados en excavaciones y demoliciones de obras de titularidad pública», a los que se aplica la legislación de evaluación de impacto ambiental, y «Cuando dichos excedentes estuvieran contaminados por sustancias peligrosas será de aplicación la normativa específica de residuos». b) es falsa porque lo que se mantiene es el estudio de gestión del art. 4.1.a), no la fianza; c) invierte la regla, que es la inaplicación del Decreto Foral; y d) también: si no están contaminados, el Decreto Foral sigue sin aplicarse (salvo el art. 4.1.a), y si lo están, se aplica la normativa específica de residuos. La disposición remite al Texto Refundido de la Ley de Evaluación de Impacto Ambiental de Proyectos de 2008, hoy derogado, y por eso la pregunta no entra en esa remisión." },
   {
     "id": "E27-14",
     "tema": "E27",
+    "estado": "retirada",
     "q": "El Anejo 3 del Decreto Foral 23/2011 establece ratios de generación de RCDs para distintos tipos de obras. Según este Anejo, ¿cuál es el ratio de generación aplicable a obras nuevas de tipo residencial, no residencial e industrial?",
     "o": [
       "0,146 m³/m² construido.",
@@ -185,6 +110,7 @@ export default [
   {
     "id": "E27-15",
     "tema": "E27",
+    "estado": "retirada",
     "q": "El Anejo 1 del Decreto Foral 23/2011 establece los requisitos técnicos de las plantas de transferencia y tratamiento de RCDs. Entre los requisitos aplicables a los centros de almacenamiento y transferencia (R13), cuando los almacenamientos se realicen en naves abiertas o al descubierto, la instalación deberá contar con un cercado perimetral del recinto con puerta de acceso dotada de cerradura inviolable y con una cuneta o sistema equivalente. ¿Cuál es la finalidad de esta cuneta o sistema equivalente?",
     "o": [
       "Que las aguas de escorrentía se almacenen para su uso en el riego de las zonas ajardinadas de la instalación.",
@@ -195,4 +121,18 @@ export default [
     "c": 2,
     "exp": "El Anejo 1, punto 1, establece que si los almacenamientos se realizan en naves abiertas o al descubierto, la instalación deberá contar con una cuneta o sistema equivalente de manera que la totalidad de las aguas de escorrentía del recinto se recojan y se conduzcan a una balsa para su decantación previa a su vertido en cauce público. Las demás alternativas describen finalidades distintas (infiltración directa, riego, vertido a saneamiento sin tratamiento) que no se corresponden con el requisito técnico establecido."
   },
+  { id: "E27-16", tema: "E27", subtema: "Plan del poseedor (art. 5.1)", tipo: "LIT",
+    q: "De acuerdo con lo dispuesto en el artículo 5.1 del Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, la persona física o jurídica que ejecute la obra estará obligada a presentar a la propiedad de la misma un plan que refleje cómo llevará a cabo las obligaciones que le incumban en relación con los RCDs que se vayan a producir en la obra:",
+    o: ["El plan, una vez aprobado por la propiedad y aceptado por la dirección facultativa, pasará a formar parte de los documentos contractuales de la obra.",
+      "El plan, una vez aprobado por el coordinador de seguridad y salud y aceptado por la dirección facultativa, pasará a formar parte de los documentos contractuales de la obra.",
+      "El plan, una vez aprobado por el Ayuntamiento y aceptado por la propiedad, pasará a formar parte de los documentos contractuales de la obra.",
+      "El plan, una vez aprobado por la dirección facultativa y aceptado por la propiedad, pasará a formar parte de los documentos contractuales de la obra."],
+    c: 3, exp: "Decreto Foral 23/2011, art. 5.1: «El plan, una vez aprobado por la dirección facultativa y aceptado por la propiedad, pasará a formar parte de los documentos contractuales de la obra». a) invierte los papeles: aprueba la dirección facultativa y acepta la propiedad. b) atribuye la aprobación a un coordinador de seguridad y salud, figura que el art. 5.1 no menciona. c) pone al Ayuntamiento, que no interviene en la aprobación del plan. No confundas este plan, que presenta quien ejecuta la obra, con el estudio de gestión de RCDs, que es un documento del proyecto a cargo del productor (art. 4.1.a)." },
+  { id: "E27-17", tema: "E27", subtema: "Poseedor de RCDs (art. 3.h)", tipo: "SEL",
+    q: "Conforme a las definiciones del Decreto Foral 23/2011, de 28 de marzo, por el que se regula la producción y gestión de los residuos de construcción y demolición en el ámbito territorial de la Comunidad Foral de Navarra, ¿quiénes de los siguientes tienen en todo caso la consideración de poseedor de RCDs?",
+    o: ["Los trabajadores por cuenta ajena que intervengan en la ejecución de la obra.",
+      "Los subcontratistas que ejecuten la obra de construcción o demolición.",
+      "Los titulares de la licencia urbanística de la obra de construcción o demolición.",
+      "Los negociantes o agentes que intervengan en la gestión de los RCDs."],
+    c: 1, exp: "Decreto Foral 23/2011, art. 3.h): poseedor es «la persona física o jurídica que tenga en su poder los RCDs y que no ostente la condición de gestor de residuos. En todo caso, tendrá la consideración de poseedor la persona física o jurídica que ejecute la obra de construcción o demolición, tales como el constructor, los subcontratistas o los trabajadores autónomos. En todo caso, no tendrán la consideración de poseedor de RCDs los trabajadores por cuenta ajena». a) está excluida expresamente; c) es el productor (art. 3.f.1: «La persona física o jurídica titular de la licencia urbanística en una obra de construcción o demolición»); y d) forma parte de la definición de gestor, que incluye «las actuaciones realizadas en calidad de negociante o agente» (art. 3.g)." },
 ];
