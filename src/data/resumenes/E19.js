@@ -1,267 +1,502 @@
 // Resumen del tema E19. Formato: cabecera de src/data/resumenes.js.
+// Rehecho el 02-11-2026 a partir de temas/E_Tema19.txt. El resumen anterior no era de este tema: desde el
+// commit 32a8f99 (22-08-2026) contenía la LF 17/2020 (tema E20) y tablas del DFL 1/2017, Título IV (tema E31),
+// que siguen en sus propios resúmenes. Vigencia contrastada con LexNavarra (detalle.asp?r=16273): el anexo II
+// tiene la redacción del Decreto Foral 5/2006, de 16 de enero (BON de 30-01-2006), la misma del texto del tema,
+// sin modificaciones posteriores hasta el 21-05-2026.
 export default {
-  intro: "La Ley Foral 17/2020, de 16 de diciembre, regula las actividades con incidencia ambiental en Navarra, estableciendo un sistema de intervención administrativa previa —licencias, autorizaciones y evaluaciones— que articula la competencia del departamento de medio ambiente, las entidades locales y los órganos sustantivos, con énfasis en la licencia de actividad clasificada y en los mecanismos de inspección y seguimiento.",
-  bloques: [
-    {
-      h: "Objeto, principios y disposiciones generales (arts. 1-6)",
-      nota: "Este bloque fija el marco conceptual de toda la ley. La trampa habitual es confundir los principios inspiradores (art. 2) con las finalidades concretas (art. 1): los primeros son prevención, precaución, quien contamina paga, economía circular, reparación en origen y participación; las segundas incluyen control previo, coordinación interadministrativa, simplificación, transparencia, inspección y régimen sancionador. El art. 6 vincula expresamente esta ley con la Ley 26/2007 de responsabilidad medioambiental.",
-      items: [
-        "Art. 1: objeto = regular las formas de intervención de las administraciones públicas de Navarra para prevenir y reducir la contaminación y el impacto ambiental sobre atmósfera, agua, suelo, paisaje y medio natural",
-        "Art. 1, finalidades: control administrativo previo y posterior; coordinación interadministrativa; simplificación de trámites; difusión de información ambiental; transparencia y participación ciudadana; inspección; restauración de la legalidad; régimen sancionador",
-        "Art. 2.1: principios inspiradores = prevención, precaución o cautela, quien contamina paga, economía circular, reparación o corrección preferentemente en la fuente, participación",
-        "Art. 2.2: integración ambiental en la planificación exige análisis previo justificativo de necesidades e integración de condicionamientos ambientales desde el planteamiento inicial",
-        "Art. 3: cooperación interadministrativa con información mutua, cooperación y colaboración, especialmente en autorización ambiental integrada, evaluación ambiental, autorización ambiental unificada y licencia de actividad clasificada",
-        "Art. 4: derecho a participación real y efectiva; los planes y programas deben incluir un plan de participación con perspectiva de género; el departamento competente mantiene un sistema de información pública sobre inventarios, autorizaciones, calidad ambiental, emisiones y normas de calidad",
-        "Art. 5: acción pública para exigir cumplimiento y para solicitar medidas de restauración de la legalidad ambiental o denunciar infracciones",
-        "Art. 6: el cumplimiento de esta ley no exonera de la Ley 26/2007 de responsabilidad medioambiental; los operadores del Anejo III de dicha ley deberán disponer de garantía financiera cuando así se indique en la autorización o licencia"
-      ]
-    },
-    {
-      h: "Instrumentos de intervención ambiental (arts. 7-11)",
-      nota: "Este bloque ordena las seis formas de intervención y aclara qué competencia corresponde a Navarra. La pregunta clásica distingue entre evaluación ambiental (básica estatal, infracciones forales) y evaluación de afecciones ambientales (foral, para proyectos de menor entidad no contemplados en la legislación básica). La autorización ambiental integrada se rige por normativa básica salvo infracciones y sanciones.",
-      items: [
-        "Art. 7: ámbito = planes, programas, instalaciones, proyectos y actividades públicas o privadas susceptibles de producir molestias, alterar el medio ambiente o riesgo de afecciones; sin perjuicio de competencias estatales",
-        "Art. 8.3: seis formas de intervención para actividades con incidencia ambiental: evaluación ambiental estratégica e impacto ambiental; autorización ambiental integrada; autorización ambiental unificada; evaluación de afecciones ambientales; licencia de actividad clasificada; declaración responsable previa",
-        "Art. 9: autorizaciones otorgadas por el departamento de medio ambiente de Navarra = evaluación ambiental estratégica e impacto ambiental; autorización ambiental integrada; autorización ambiental unificada; evaluación de afecciones ambientales",
-        "Art. 10.1: evaluación ambiental se rige por normativa básica, salvo infracciones y sanciones que son forales",
-        "Art. 10.2: evaluación de afecciones ambientales = actividades de menor entidad o umbrales inferiores no contemplados en legislación básica; recogidas en Anejo 2; tramitación en Capítulo IV del Título I",
-        "Art. 10.3: entidades locales con competencia en planificación territorial actúan como órgano ambiental; en municipios de menos de 5.000 habitantes el departamento puede asumirlo por convenio",
-        "Art. 11: autorización ambiental integrada regida por normativa básica salvo infracciones y sanciones; competencia del departamento de medio ambiente; modificación no sustancial puede considerarse significativa si afecta condiciones de funcionamiento; el titular puede solicitar cambio de valores límite o condiciones si justifica cumplimiento de MTD, tramitándose por procedimiento simplificado"
-      ]
-    },
-    {
-      h: "Licencia de actividad clasificada: ámbito, finalidad y obligaciones (arts. 38-40)",
-      nota: "La licencia de actividad clasificada es la figura central para el arquitecto municipal: la concede la entidad local y precede a la construcción. La trampa frecuente es olvidar que la licencia de obras solo puede adelantarse en actividades de baja incidencia y sin informe de protección civil, siempre bajo responsabilidad exclusiva del titular. La finalidad es doble: prevención/control por la entidad local y coordinación interadministrativa para agilizar trámites.",
-      items: [
-        "Art. 38.1: la licencia afecta a implantación, funcionamiento y modificación de instalaciones incluidas en el Anejo 3; precede en todo caso a la construcción, montaje o traslado",
-        "Art. 38.2: reglamentariamente se podrá conceder licencia de obras mientras se tramita la licencia de actividad clasificada, salvo para actividades con informe de protección civil por seguridad de personas",
-        "Art. 38.3: en esos casos la ejecución de obras queda bajo exclusiva responsabilidad del titular, sin condicionar la futura licencia de actividad clasificada",
-        "Art. 38.4: la entidad local competente es la que tenga atribuida la competencia para otorgamiento de licencias en la legislación local",
-        "Art. 39.1: finalidad = sistema de prevención y control por acto de intervención administrativa local; coordinación de unidades administrativas para agilizar trámites",
-        "Art. 39.2: el otorgamiento no será efectivo hasta disponer de otros medios de intervención administrativa previos (autorizaciones sustantivas, actuaciones de seguridad, salud o medio ambiente)",
-        "Art. 39.3: la licencia se otorga sin perjuicio de autorizaciones o concesiones para ocupación, utilización o vertido de aguas residuales del dominio público hidráulico",
-        "Art. 40: obligaciones del titular = disponer de licencia y cumplir condiciones; control e información sectorial; comunicar modificaciones sustanciales o no; comunicar transmisión de titularidad; informar inmediatamente de incidentes o accidentes ambientales; prestar asistencia a inspección; cumplir demás obligaciones legales"
-      ]
-    },
-    {
-      h: "Tramitación, resolución y contenido de la licencia (arts. 41-43)",
-      nota: "Este bloque contiene los plazos más preguntables del tema. El plazo máximo de resolución es de cuatro meses desde la solicitud completa; el silencio es desestimatorio. La resolución debe publicarse en el BON. El contenido de la licencia se fija en función de las mejores técnicas disponibles, pero puede exigir condiciones complementarias más rigurosas si la normativa de calidad ambiental lo requiere.",
-      items: [
-        "Art. 41.1: trámites mínimos del procedimiento reglamentario = solicitud ante la entidad local; información pública y notificación a colindantes; informe vinculante del departamento de salud o protección civil para actividades que afecten a salud o seguridad de personas; informes de otros departamentos; remisión de documentación técnica para autorizaciones sustantivas, en particular explotaciones ganaderas; propuesta de resolución y audiencia al promotor; resolución motivada",
-        "Art. 41.2: en suelo no urbanizable, las licencias municipales solo se otorgan con posterioridad a la autorización de actividad en suelo no urbanizable",
-        "Art. 42.1: plazo máximo de resolución = cuatro meses desde la presentación de la solicitud completa",
-        "Art. 42.2: la resolución se notifica al titular, órganos con informe vinculante, alegantes y resto de interesados; debe publicarse en el Boletín Oficial de Navarra",
-        "Art. 42.3: silencio administrativo = desestimación de la solicitud tras cuatro meses sin resolución",
-        "Art. 42.4: en municipios compuestos, traslado de concesiones a los concejos en cinco días",
-        "Art. 43.1: contenido de la licencia = valores límite de emisión y medidas técnicas equivalentes para atmósfera, aguas, suelo, ruidos y vibraciones; procedimientos de producción, control y gestión de residuos; medidas correctoras y prescripciones técnicas; fianza o seguro para restauración; demás condiciones de la normativa ambiental sectorial",
-        "Art. 43.2: los valores límite se fijan según niveles de emisión asociados a las mejores técnicas disponibles en condiciones normales de funcionamiento",
-        "Art. 43.3: si la normativa de calidad ambiental exige condiciones más rigurosas que las MTD, la licencia exigirá condiciones complementarias"
-      ]
-    },
-    {
-      h: "Inicio, caducidad y modificaciones de la licencia (arts. 44-48)",
-      nota: "Aquí se regulan los efectos temporales y dinámicos de la licencia. La puesta en marcha requiere declaración responsable, que habilita el ejercicio efectivo pero no prejuzga el acomodo real a la normativa. La caducidad opera por no presentar dicha declaración en el plazo de dos años. La distinción entre modificación sustancial y no sustancial es clave: la no sustancial puede ejecutarse salvo que la entidad local manifieste lo contrario en un mes.",
-      items: [
-        "Art. 44.1: plazo máximo de dos años para iniciar la actividad desde la concesión de la licencia, salvo plazo distinto",
-        "Art. 44.2: puesta en marcha mediante declaración responsable del promotor en la que manifiesta cumplimiento de condiciones, posesión de documentación acreditativa y compromiso de mantenimiento",
-        "Art. 44.3: la declaración responsable habilita para el ejercicio efectivo de la actividad, pero no prejuzga la situación real ni limita potestades de vigilancia, control y sanción",
-        "Art. 45.1: si transcurren los dos años sin declaración responsable, la licencia agota sus efectos y deviene ineficaz",
-        "Art. 45.2: en proyectos no ejecutados en su totalidad, caduca la parte no incluida en la declaración responsable de puesta en marcha parcial",
-        "Art. 46: modificación de oficio cuando la contaminación lo haga conveniente, cambien las MTD, sea necesario por seguridad, cambien normas sectoriales, existan circunstancias sobrevenidas o lo exija la legislación vigente",
-        "Art. 47: modificación a solicitud del titular cuando justifique nivel de protección ambiental similar y acorde con MTD, sin modificaciones de la instalación",
-        "Art. 48.1-2: la modificación a iniciativa del titular puede ser sustancial o no sustancial; debe comunicarse a la entidad local con justificación y documentos",
-        "Art. 48.3: si el titular la califica como no sustancial, puede ejecutarla salvo que la entidad local manifieste lo contrario en el plazo máximo de un mes",
-        "Art. 48.4: si es sustancial, no podrá llevarse a cabo hasta modificar la licencia por el procedimiento reglamentario",
-        "Art. 48.5: modificación sustancial = cambio no previsto que afecte características, procesos, funcionamiento o extensión, con mayor incidencia ambiental y criterios reglamentarios",
-        "Art. 48.6: modificaciones en suelo no urbanizable con cambio de actividad, uso, aumento de volumen o nueva demanda de servicios requieren nueva autorización de actividades en suelo no urbanizable"
-      ]
-    },
-    {
-      h: "Eficacia, cierre y responsabilidad de la licencia (arts. 49-52)",
-      nota: "Este bloque cierra el régimen de la licencia de actividad clasificada con reglas de eficacia, transmisión y cierre. La licencia es trasmisible con notificación a la entidad local. El cierre en suelo no urbanizable impone la reposición del terreno en cinco años. La equivalencia con autorización de vertido indirecto simplifica la tramitación para el titular, pero no exime de otras autorizaciones.",
-      items: [
-        "Art. 49: el titular es responsable del cumplimiento de medidas y condiciones de la licencia y de los efectos ambientales derivados del funcionamiento",
-        "Art. 50.1: la licencia de actividad clasificada equivale a autorización de vertido indirecto a aguas superficiales",
-        "Art. 50.2-3: las solicitudes de licencia para actividades potencialmente contaminadoras de la atmósfera o de gestión de residuos deben ponerse en conocimiento del departamento de medio ambiente",
-        "Art. 51.1: la licencia se entiende otorgada salvo derecho de propiedad y sin perjuicio de tercero; no exime de responsabilidades civiles o penales",
-        "Art. 51.2: no se conceden licencias de obras para actividades clasificadas sin licencia de actividad previa, salvo actividades de baja incidencia sin informe de protección civil, bajo responsabilidad exclusiva del promotor",
-        "Art. 51.3: las licencias son trasmisibles; la transmisión debe notificarse a la entidad local para determinar titular y responsabilidades",
-        "Art. 52: cese definitivo en suelo no urbanizable obliga a reponer terrenos a estado original en plazo máximo de cinco años; para actividades potencialmente contaminantes del suelo (RD 9/2005) se exige informe de situación del suelo ante el departamento de medio ambiente"
-      ]
-    },
-    {
-      h: "Inspección: finalidad, competencias y facultades (arts. 55-60)",
-      nota: "La inspección ambiental es competencia del Gobierno de Navarra para actividades con autorización o declaración de impacto/afecciones, y de las entidades locales para licencias de actividad clasificada. El personal inspector tiene consideración de agente de autoridad, puede acceder sin previo aviso y sus actas son documentos públicos. La confidencialidad de secretos industriales tiene un tratamiento específico en las fotografías y el expediente.",
-      items: [
-        "Art. 55.1: finalidad = garantizar adecuación a la legalidad ambiental y verificar cumplimiento y eficacia de condiciones de autorizaciones y licencias",
-        "Art. 55.2: objetivos específicos = comprobar condiciones de autorización; eficacia de medidas correctoras; información actualizada; identificación de no legalizadas; gestión de quejas; reducción de impacto; propuesta de revisiones; evaluación de riesgos ambientales según Directiva 2010/75/UE",
-        "Art. 56.1: competencia inspector del Gobierno de Navarra sobre actividades con declaración de impacto, autorización de puesta en marcha o informe de afecciones ambientales",
-        "Art. 56.2: las competencias se ejercen por el departamento de medio ambiente y los departamentos con informes vinculantes",
-        "Art. 56.3: para planes y proyectos sujetos a evaluación ambiental estratégica, impacto o afecciones, la inspección corresponde al órgano sustantivo; el departamento de medio ambiente puede recabar información y realizar comprobaciones",
-        "Art. 56.4: inspección de licencias de actividad clasificada = entidades locales que otorgaron la licencia y departamentos del Gobierno de Navarra que emitieron informe previo",
-        "Art. 56.5: las administraciones pueden otorgar facultades de vigilancia a entidades de inspección acreditadas por la Entidad Nacional de Acreditación",
-        "Art. 57: planificación de inspecciones en el primer trimestre del año mediante programas con área geográfica, tipo de instalaciones, frecuencia de visitas y periodo de vigencia",
-        "Art. 58.1: el personal inspector goza de consideración de agente de autoridad",
-        "Art. 59.1: facultades = recabar documentación; acceder y permanecer sin previo aviso en instalaciones; para domicilios se requiere autorización judicial",
-        "Art. 59.2: facultad de tomar fotografías; si hay información sensible designada como confidencial, no se dará acceso a terceros ni se divulgará; el órgano de inspección determina motivadamente qué fotografías o partes no afectan a secretos técnicos o comerciales",
-        "Art. 59.3: actas e informes del personal inspector tienen naturaleza de documentos públicos y valor probatorio",
-        "Art. 59.4: facultades = requerir medidas correctoras; proponer medidas provisionales y definitivas de protección y restauración; poner en conocimiento infracciones y proponer sanciones; proponer modificación, revisión o revocación de autorizaciones",
-        "Art. 60: los titulares deben prestar colaboración necesaria; el incumplimiento es obstrucción a la inspección; pueden invocar confidencialidad en procesos industriales y aspectos legalmente reconocidos"
-      ]
-    },
-    {
-      h: "Seguimiento de autorizaciones y declaraciones ambientales (arts. 63-66)",
-      nota: "El seguimiento diferencia claramente quién controla cada instrumento: el departamento de medio ambiente para autorizaciones ambientales integradas y unificadas; el órgano sustantivo para declaraciones de impacto e informes de afecciones ambientales, con posibilidad de que el departamento de medio ambiente realice comprobaciones. Los resultados de inspección son públicos salvo limitaciones legales y deben desagregarse por sexo.",
-      items: [
-        "Art. 63: seguimiento de autorizaciones ambiental integrada = departamento de medio ambiente; puede designar entidades con capacidad técnica para actuaciones materiales no reservadas a funcionarios públicos; los programas de inspección determinan área geográfica, tipo de instalaciones, frecuencia y vigencia; resultados públicos",
-        "Art. 64: seguimiento de declaración ambiental estratégica = promotor remite informe de seguimiento al órgano sustantivo con listado de comprobación del programa de vigilancia ambiental; el programa y el listado se publican en la sede electrónica; el departamento de medio ambiente participa y puede recabar información; para planes estatales, el seguimiento de determinadas condiciones puede asumirlo Navarra con acuerdo expreso",
-        "Art. 65: seguimiento de declaraciones de impacto e informes de afecciones ambientales = órgano sustantivo; el promotor remite informe de seguimiento si así se determina, con listado de comprobación del programa de vigilancia ambiental; el departamento de medio ambiente puede recabar información y comprobaciones; el promotor debe permitir acceso a empleados públicos con autoridad y prestar colaboración; para proyectos estatales, salvo energía nuclear y explosivos, el seguimiento puede asumirlo Navarra con acuerdo expreso",
-        "Art. 66: seguimiento de autorización ambiental unificada = departamento de medio ambiente; misma regulación que la integrada en cuanto a designación de entidades, programas de inspección y publicidad de resultados",
-        "Art. 62: los resultados de inspección se ponen a disposición del público con las limitaciones de la Ley 27/2006; la información en registros debe desagregarse por sexo"
-      ]
-    },
-    {
-      h: "Anejo 3: Actividades sometidas a licencia de actividad clasificada",
-      nota: "El Anejo 3 contiene 15 grupos de actividades con umbrales concretos que determinan su sujeción a licencia de actividad clasificada. La pregunta típica exige identificar el grupo y el umbral correcto. Las cifras más recurrentes son 300 m² de superficie construida en industrias diversas, 300 habitantes-equivalentes en tratamiento de aguas, 50 t/año en residuos y disolventes, y los rangos de plazas en explotaciones ganaderas. No es necesario memorizar todos los grupos, pero sí los umbrales representativos y la estructura del anejo.",
-      items: [
-        "Grupo 1: instalaciones de combustión con potencia nominal inferior a 5 MW y superior o igual a 250 kW, excepto generación o cogeneración eléctrica",
-        "Grupo 2: tratamiento de superficie de metales y plásticos por vía electrolítica o química con volumen de cubetas o líneas menor o igual a 1 m³; talleres de transformación de metales con superficie construida inferior o igual a 2.000 m²",
-        "Grupo 3: compostaje a escala; valorización de residuos no peligrosos inferior a 50 t/año; puntos limpios fijos de entidades locales hasta 50 t peligrosos y 100 t no peligrosos; almacenamiento temporal no peligroso inferior a 100 t en nave industrial; almacenamiento temporal de RAEE hasta 50 t",
-        "Grupo 4: transformación de madera; laminación de madera y plástico con disolventes menor o igual a 5 t/año; otras industrias de papel, cartón o madera no sometidas a declaración responsable con superficie superior a 300 m²",
-        "Grupo 5: industria textil y calzado no sometida a declaración responsable con superficie superior a 300 m²",
-        "Grupo 6: fabricación de artículos de cuero no sometida a declaración responsable con superficie superior a 300 m²; recubrimiento de cuero con disolventes menor o igual a 10 t/año",
-        "Grupo 7: mataderos hasta 10 t/día; transformación de materia prima animal hasta 30 t/día; transformación de materia prima vegetal hasta 100 t/día o hasta 200 t/día si funciona máximo 90 días consecutivos al año; leche hasta 50 t/día; grasas, aceites, cerveza, confituras, féculas, harina y aceite de pescado en polígono o a más de 500 m de residencial o menos de 1 ha, con capacidades de 75 a 100 t/día según caso",
-        "Grupo 8: explotaciones ganaderas con rangos de plazas según especie; acuicultura intensiva hasta 500 t/año",
-        "Grupo 9: consumo de disolventes orgánicos con umbrales de 1 a 25 t/año según actividad específica",
-        "Grupo 10: conservación de madera con productos químicos hasta 50 m³/día",
-        "Grupo 11: tratamiento de aguas residuales independiente, no independiente o urbanas, hasta 300 habitantes-equivalentes",
-        "Grupo 12: reproducción de textos e imágenes con superficie útil de exposición y venta superior a 750 m²; impresión offset, rotograbado, flexografía y serigrafía con consumos de disolvente de 15 a 30 t/año según caso",
-        "Grupo 13: fabricación de plásticos por inyección, moldeo o extrusión; conversión de caucho con disolventes hasta 15 t/año; talleres de cantería, albañilería, electricidad, prefabricados de hormigón, reparación de vehículos; lavanderías industriales con vertido diario hasta 50 m³; I+D con cualquier capacidad; otras industriales sin autorización de emisiones",
-        "Grupo 14: almacenes de productos agrícolas y de objetos desde 500 m²; almacenamiento de productos químicos, petróleo, petroquímicos, gas natural, combustibles líquidos y licuados con capacidades de 1.000 litros a 500 m³ según caso; estiércoles líquidos hasta 5.000 m³ y sólidos hasta 5.000 t",
-        "Grupo 15: espectáculos y actividades recreativas; cementerios, tanatorios y velatorios; estaciones de servicio de 1.000 litros a 500 m³; lavaderos de vehículos; alojamiento turístico no sometido a declaración responsable; otras actividades comerciales y servicios de más de 300 m² o potencia mecánica superior a 10 kW; tatuaje y piercing sin límite de superficie ni potencia; actividades con incidencia en seguridad de personas de carácter sanitario, residencial, aparcamiento, docente, administrativo, cultural/religioso e infraestructuras de transporte"
+    intro:
+      "Anexo II del Decreto Foral 142/2004, de 22 de marzo, por el que se regulan las condiciones mínimas de habitabilidad de las viviendas en la Comunidad Foral de Navarra: las condiciones de los edificios y viviendas de nueva planta, de las viviendas de nueva creación en edificio existente y de las rehabilitaciones equiparables a obra nueva, que además deben cumplir el anexo 1 (viviendas existentes, tema E18). Redacción vigente el 21-05-2026: la del Decreto Foral 5/2006, de 16 de enero (BON de 30-01-2006), que sustituyó el anexo entero; es la del texto del tema y la que recoge LexNavarra, sin cambios posteriores (el Decreto Foral 2/2016 solo tocó los arts. 6 y 9 del decreto, que son del E18). Tres capítulos y 21 artículos: I, ámbito de aplicación (art. 1); II, condiciones del edificio (arts. 2-10: servicios, seguridad, accesos y ascensores, circulaciones, escaleras, patios, garajes, trasteros y otras); III, condiciones de las viviendas (arts. 11-21: programa, alturas, estancias, baños, tendederos, circulación, iluminación y ventilación, instalaciones y medición de superficies). Es un tema de cifras: superficies, figuras inscribibles, alturas, anchuras y porcentajes.",
+    bloques: [
+      {
+        h: "Capítulo I. Ámbito de aplicación (art. 1)",
+        nota:
+          "La clave es saber cuándo una rehabilitación cuenta como obra nueva. Hay tres vías: la económica (la intervención afecta a la totalidad de las viviendas y el PEM por m² construido afectado supera el 70 % del módulo ponderado), el vaciado total del edificio y la demolición y reposición de más del 60 % de la superficie de los forjados, sin contar la cubierta. Las dos últimas valen con independencia del presupuesto. Trampa: confundir el 70 % (presupuesto) con el 60 % (forjados).",
+        items: [
+          "Art. 1.1: cumplen este anexo Y el anexo 1 las viviendas de nueva planta, las de nueva creación en edificio existente y las rehabilitadas cuyas obras sean equiparables a obras de nueva planta",
+          "Art. 1.2: la rehabilitación es equiparable a obra de nueva planta cuando la intervención vincula a la TOTALIDAD de las viviendas del edificio y su presupuesto de ejecución material, dividido por los m² CONSTRUIDOS afectados, supera el 70 % del módulo ponderado que se fija cada año para las actuaciones protegibles en materia de vivienda",
+          "Art. 1.3: al pedir licencia de rehabilitación, para ver si se equipara a obra nueva, se acumulan los presupuestos de las obras del edificio terminadas en los CINCO AÑOS anteriores a la solicitud",
+          "Art. 1.4: también se equipara, independientemente del presupuesto, el VACIADO TOTAL del edificio preexistente o la demolición y reposición de MÁS DEL 60 % de la superficie de los forjados, excluida la cubierta",
+          "Art. 1.5: en rehabilitaciones parciales de edificios o viviendas, solo las condiciones del anexo compatibles con la naturaleza de la intervención",
+          "Art. 1.6: en ampliaciones, las condiciones del anexo en la zona ampliada; la ampliación no puede deteriorar la habitabilidad de las viviendas existentes ni de sus elementos comunes",
+        ],
+      },
+      {
+        h: "Capítulo II. Servicios, instalaciones y seguridad del edificio (arts. 2-3)",
+        nota:
+          "Dos parejas de cifras que se cruzan: 40 cm (desnivel en elementos comunes o locales vinculados) y 60 cm (desnivel dentro de la vivienda y caída entre peldaños sin tabica); y 95 cm de altura de la protección con la esfera de 12 cm. En la ventilación colectiva: 8 plantas por colector (las dos últimas, con conducto propio), 400 cm² el colector y 150 cm² y 2 m las acometidas.",
+        items: [
+          "Art. 2.1-2.3: instalaciones de telecomunicaciones según su normativa; casilleros postales en los portales; bajantes de saneamiento ventiladas",
+          "Art. 2.4.a: un colector sirve a un máximo de OCHO plantas y las DOS ÚLTIMAS llevan conducto independiente; sección mínima del colector, 400 cm²; rematado por aspirador estático o dinámico",
+          "Art. 2.4.b: cada acometida sirve a un solo local, con longitud mínima de 2 m y sección mínima de 150 cm², protegida por rejilla; no se le conectan impulsores de aire ni campanas extractoras",
+          "Art. 2.4.c: a un mismo colector no pueden conectarse conductos de ventilación y salidas de humos o gases",
+          "Art. 3.1: protección, antepecho o barandado en desniveles de MÁS DE 40 cm en elementos comunes o locales vinculados a las viviendas, o de MÁS DE 60 cm dentro de ellas: resiste las acciones de la normativa de acciones en la edificación; altura mínima de 95 cm desde el pavimento terminado; por debajo de esa altura no pasa una esfera de 12 cm; si los huecos se cierran con elementos frágiles (vidrio, cerámica), armado u otro sistema justificado para que su rotura no los haga desaparecer",
+          "Art. 3.2: en escaleras sin tabica, si el hueco entre peldaños permite una caída de más de 60 cm, tampoco pasa la esfera de 12 cm",
+          "Art. 3.3: en edificios de más de una vivienda, puerta de portal con apertura accionable desde el exterior y desde el interior de cada vivienda, y dispositivo de comunicación oral entre viviendas y portal",
+          "Art. 3.4: puerta de cada vivienda con cerradura de llave y mirilla",
+        ],
+      },
+      {
+        h: "Accesos y ascensores (art. 4)",
+        nota:
+          "Ascensor obligatorio cuando alguna vivienda tiene su acceso en la planta TERCERA sin contar la baja. Si no es obligatorio, la obra nueva de vivienda colectiva deja el hueco. Dos exenciones distintas: rehabilitación equiparable en edificios de menos de baja más seis plantas si es imposible instalarlo (4.4) y división de una vivienda si concurren a la vez las dos circunstancias del 4.5. Cabina: 1,20 x 1 m hasta 16 viviendas; 1,40 x 1,10 m con más de 16, salvo que haya más de un ascensor de 1 x 1,20 m. Máximo, 24 viviendas por ascensor.",
+        items: [
+          "Art. 4.1: los accesos al edificio y a las viviendas cumplen el art. 5 (circulaciones)",
+          "Art. 4.2: ascensor obligatorio para CADA NÚCLEO de comunicaciones verticales en los edificios de vivienda colectiva con alguna vivienda cuyo acceso esté en la PLANTA TERCERA, sin contar la baja",
+          "Art. 4.3: edificios de nueva planta de vivienda colectiva sin ascensor obligatorio: hueco para instalarlo después y espacios para sus accesos, maquinaria e instalaciones, con las mismas dimensiones que si estuviera instalado",
+          "Art. 4.4: rehabilitaciones equiparables a obra nueva en edificios con menos de BAJA MÁS SEIS plantas: eximidas del ascensor o del hueco si su instalación es imposible",
+          "Art. 4.5: división de una vivienda existente en otras más pequeñas: se puede no exigir ascensor ni hueco si concurren SIMULTÁNEAMENTE a) que no aumente la superficie destinada a vivienda y b) que el ascensor no pueda colocarse sin que cedan superficie propietarios de otras fincas del edificio distintos de los de la vivienda que se divide",
+          "Art. 4.6: cabina: a) hasta 16 viviendas, 1,20 m de fondo y 1 m de anchura; b) más de 16, fondo mínimo de 1,40 m y anchura mínima de 1,10 m, salvo que exista más de un ascensor de 1 x 1,20 m. El fondo mínimo se mide perpendicularmente a todas las puertas de la cabina",
+          "Art. 4.7: número de ascensores: no más de 24 viviendas por ascensor",
+          "Art. 4.8: si hay plantas de garaje o trasteros de las viviendas, los ascensores llegan a ellas en las mismas condiciones de accesibilidad que al resto",
+        ],
+      },
+      {
+        h: "Circulaciones comunes y escaleras de uso común (arts. 5-6)",
+        nota:
+          "Alturas libres de los elementos comunes: 2,40 m en pasillos y rampas (2,20 m con falso techo si la zona no tiene más de 2,50 m de ancho; 2,10 m bajo vigas o conductos de no más de 0,80 m de fondo) y 2,10 m en escaleras. Anchuras: 1 m en pasillos, rampas y escaleras; 1,20 m en las mesetas a las que abren puertas. Iluminación de la escalera: 1 m² por planta y rosca, con 0,3 m² practicables; la cenital es una alternativa con sus propias cifras.",
+        items: [
+          "Art. 5.1: puerta del portal de 0,90 x 2,00 m como mínimo",
+          "Art. 5.2: pasillos y rampas hasta las viviendas y sus dependencias: anchura mínima de 1 m y altura libre de 2,40 m; en zonas de anchura no mayor de 2,50 m, falso techo que deje 2,20 m; bajo vigas, conductos e instalaciones colgadas, 2,10 m si el elemento no tiene más de 0,80 m de fondo",
+          "Art. 6.1: la escalera comunica todas las plantas con acceso a viviendas con la de acceso al edificio; si no baja a los sótanos de garaje, las salidas de emergencia de estos van directamente al exterior",
+          "Art. 6.2.a: anchura mínima del peldañeado y de las mesetas intermedias, 1 m; altura libre mínima de 2,10 m en cualquier punto de la escalera y de los rellanos, hasta una distancia igual a la anchura de la escalera",
+          "Art. 6.2.b: mesetas sin puertas, al menos la anchura de la escalera; mesetas a las que abren viviendas, locales o ascensor, 1,20 m, con el hueco de las puertas a 25 cm como mínimo del peldaño más próximo",
+          "Art. 6.3.1: iluminación y ventilación directas a espacio exterior con al menos las condiciones de patio de fachada, o a patio interior: 1 m² por planta y rosca completa, con 0,3 m² practicables para ventilar; nunca a través de terrazas privadas, tendederos o terrazas comunes cubiertas",
+          "Art. 6.3.2-6.3.3: la apertura no invade el recorrido de evacuación en 2 m de altura; el hueco, salvo en planta baja, ilumina directamente el recorrido de evacuación, a 3 m como máximo del punto más cercano de su eje",
+          "Art. 6.3.4: iluminación cenital: hueco central de 1 m² en el que quepa un cilindro de 0,5 m de diámetro (no central: 1,3 m², cilindro de 0,8 m y 1,3 m de lado de contacto con la escalera), que llega siempre hasta la planta del portal; lucernario de 2 m² si forma menos de 45° con la horizontal o de 3 m² si más, con su punto más alto a menos de 17 m de la cota del portal, 0,80 m² de ventilación y situado verticalmente sobre el hueco",
+          "Art. 6.3.5: distribuidor de planta sin iluminación ni ventilación propias e independizado de la escalera: conducto de ventilación hasta cubierta como el de cocinas y baños",
+        ],
+      },
+      {
+        h: "Patios (art. 7)",
+        nota:
+          "Los patios a los que abren estar, cocinas, dormitorios o escaleras son siempre descubiertos. Tres clases: de manzana (espacio exterior si cabe un cilindro de 12 m), interior o de parcela (ø 3 m y 0,25 H; 12 m² y H²/10; luces rectas de 3 m) y de fachada (entrante de más de 1,5 m, frente de 3 m, fondo no mayor de vez y media el frente; 6 m de luces rectas para los huecos de estar de sus laterales). H se mide desde el pavimento de la primera planta que se ilumina por el patio.",
+        items: [
+          "Patio de manzana: lo regula el planeamiento (dimensiones, alineaciones…), con independencia del número de parcelas que lo formen; si se puede inscribir un cilindro recto de 12 m de diámetro en la base, es espacio exterior a efectos de habitabilidad; si no, patio interior",
+          "Patio interior o de parcela: en una sola parcela, o en varias si es mancomunado; si hay que sumar dimensiones para llegar a los mínimos, se inscribe su carácter mancomunado en el Registro de la Propiedad",
+          "Dimensiones mínimas del patio de parcela: cilindro inscrito de ø 3 m y 0,25 H; superficie de 12 m² y H²/10; luces rectas de 3 m",
+          "Luces rectas de un hueco: la mínima perpendicular libre de obstáculos que pueda aplicarse a cualquier punto de la superficie del hueco",
+          "Altura H: desde la cota del pavimento de la primera planta que se ilumina por el patio hasta la coronación del edificio (punto más alto del cierre, antepecho o elemento de cubierta del perímetro del patio, del edificio de la misma parcela); si no es uniforme, media ponderada en la finca propia, sin contar chimeneas u otros elementos cuyo lado de contacto con el patio no pase de 60 cm. Por encima de la coronación caben elementos o plantas retranqueados que no sobresalgan de planos de 45°",
+          "Patios de una sola planta de viviendas unifamiliares: condiciones básicas del art. 7.1 del anexo 1, salvo las luces rectas, que serán de al menos 3 m",
+          "Entrantes de patios de parcela o de manzana: solo pueden abrirse en ellos huecos necesarios para iluminación y ventilación si tienen al menos las dimensiones de los patios de fachada",
+          "Patio exterior o de fachada: entrantes de más de 1,5 m de profundidad en la fachada exterior o de patio de manzana, con frente abierto de al menos 3 m y profundidad (perpendicular a la fachada) no mayor de vez y media su anchura; si en sus paredes laterales abren huecos de salas de estar necesarios para la iluminación mínima, sus luces rectas serán de 6 m",
+        ],
+      },
+      {
+        h: "Garajes de nueva creación en edificios de vivienda (art. 8)",
+        nota:
+          "Artículo de muchas cifras. Ejes: altura libre de 2,10 m, puerta incluida; zaguán de 5 m de fondo al 6 % y 3,5 m de ancho con puerta de 3 m (en unifamiliar, 2,5 / 3 / 2,5 m); rampas de 3 m al 20 % en recta y de 3,5 m al 15 % en curva de radio inferior a 20 m, con radio mínimo de 6 m; pasillos de 3,5 m (4,5 m si las plazas forman más de 45°); plazas de 2,3 x 4,7 m (en línea, 2,2 x 5; con pared lateral, 2,8 x 4,7; para minusválidos, 3,20 x 4,70).",
+        items: [
+          "Art. 8.1.1-8.1.2: garaje es el local destinado al estacionamiento regular de vehículos; el artículo no se aplica a los garajes de uso público; en los de uso simultáneo público y privado, sí en el área de las plazas vinculadas a viviendas y en sus accesos",
+          "Art. 8.1.3: en un garaje mancomunado no son salidas de emergencia las que atraviesan fincas o portales privados, salvo que se haya constituido la servidumbre",
+          "Art. 8.1.4: altura libre mínima de 2,10 m en cualquier punto de plazas, rampas y circulación de vehículos o personas, incluido el espacio de la puerta de acceso",
+          "Art. 8.2.1: rampa descendente que salve más de 1 m: zaguán con pendiente máxima del 6 % y 5 m de fondo mínimo antes de la rampa (sin contar acera ni calzada), 3,5 m de anchura y puerta de 3 m; en viviendas unifamiliares, 2,5 m de fondo, 3 m de anchura y puerta de 2,5 m, salvo que el garaje sea común a varias viviendas",
+          "Art. 8.2.2: garajes de 100 o más plazas: acceso y salida de vehículos diferenciados, o rampa y acceso dobles; la rampa doble tendrá 5,40 m de anchura mínima",
+          "Art. 8.2.3: rampas: en tramos rectos, 3 m de anchura y pendiente máxima del 20 %; en tramos curvos con radio inferior a 20 m, 3,5 m y 15 % (medidos en el eje de cada dirección); radio mínimo de curvatura en el eje, 6 m",
+          "Art. 8.2.4: rampa de doble sentido sin visibilidad entre sus extremos o de más de 30 m: dispositivo que indique el sentido prioritario",
+          "Art. 8.2.5: el garaje puede tener como acceso ascensor de vehículos o elevacoches: si es el único acceso de vehículos, un aparato por cada 20 plazas o fracción; si el garaje tiene 6 o más plazas, zaguán de 5 m de anchura por 10 m de fondo",
+          "Art. 8.3: pasillos de vehículos de 3,5 m libres (4,5 m en todo el frente de las plazas que formen más de 45°), sin pilares ni otros elementos que reduzcan la anchura; en los giros, carril de 3 m con radio mínimo de 5 m en su eje; pasillos de personas de 1 m que no invaden las plazas; a través de una plaza solo se accede al trastero vinculado a esa plaza",
+          "Art. 8.4.1-8.4.3: plaza plana con pendiente máxima del 6 %: 2,3 x 4,7 m con acceso frontal y 2,2 x 5 m en línea; limitada por pared lateral (salvo en línea), 2,8 x 4,7 m, con elementos que pueden reducir la anchura eficaz a 2,5 m en los 2,5 m del fondo; un elemento lateral de más de 1,2 m de largo se asimila a pared",
+          "Art. 8.4.4-8.4.5: acceso a la plaza sin obstáculos en la prolongación de sus lados, con recorrido máximo de 5 m (si se supera, condiciones de pasillo); en los planos del proyecto, todas las plazas, rampas y pasillos representados, acotados y numerados, justificando los radios de giro",
+          "Art. 8.4.6: plazas vinculadas a viviendas para minusválidos: 3,20 m de frente por 4,70 m de fondo; 2,30 m de anchura si tienen un lateral completo libre de obstáculos lindando con el pasillo",
+        ],
+      },
+      {
+        h: "Trasteros y otras condiciones del edificio (arts. 9-10)",
+        nota:
+          "Trastero: vinculado registralmente a la vivienda y destinado en exclusiva a sus enseres; puerta de 80 x 200 cm y ventilación de 0,5 volúmenes/hora. En planta baja, forjado separado 0,5 m del terreno si hay piezas vivideras; pendiente máxima del pavimento interior, 0,5 %.",
+        items: [
+          "Art. 9.1: trasteros = locales vinculados registralmente a la vivienda y destinados en exclusiva al almacenamiento de enseres de la propia vivienda",
+          "Art. 9.2-9.3: accesos con las condiciones de circulación de los arts. 4 y 5; puerta con paso libre de 80 x 200 cm; ventilación que garantice una renovación mínima de 0,5 volúmenes por hora",
+          "Art. 10: además del CTE, el reglamento de baja tensión, telecomunicaciones y demás normativa sectorial, la calidad de materiales y ejecución garantiza las condiciones básicas del anexo 1 y estas mínimas",
+          "Art. 10.a: si hay dormitorio, cocina, comedor o sala de estar en planta baja, forjado separado 0,5 m del terreno formando cámara ventilada, u otra solución justificada en proyecto que aísle eficazmente de la humedad del terreno",
+          "Art. 10.b: pendiente máxima del pavimento dentro de la vivienda, 0,5 %",
+          "Art. 10.c: patios de parcela accesibles para su limpieza, salvo los de uso privativo con acceso desde la vivienda; siempre con desagüe sifónico para las pluviales",
+        ],
+      },
+      {
+        h: "Capítulo III. Programa, superficie mínima y alturas (arts. 11-12)",
+        nota:
+          "30 m² útiles y cuatro piezas: estar, dormitorio, baño y cocina. Alturas: 2,40 m general; 2,20 m con falso techo en distribuidores, aseos, cocinas y tendederos cubiertos; 2,20 m en rehabilitación sin sustituir forjados; 2 m en huecos de paso. Con techo inclinado de más del 30 %, lo que no supere 2,20 m no cuenta.",
+        items: [
+          "Art. 11.1: superficie útil total mínima de 30 m²; como mínimo, sala de estar, un dormitorio, un baño y una cocina",
+          "Art. 11.2: la vivienda no sirve de paso obligado a otro uso o local; toda habitación a la que solo se accede desde la vivienda forma parte de ella a todos los efectos",
+          "Art. 12.1: altura libre mínima de 2,40 m en techos horizontales o con pendiente inferior al 30 %; falsos techos que dejen 2,20 m en elementos de distribución, aseos, cocinas y tendederos cubiertos",
+          "Art. 12.2: en rehabilitación de viviendas existentes sin sustituir forjados, 2,20 m",
+          "Art. 12.3: techos inclinados de más del 30 %: la superficie que no supere 2,20 m de altura libre no computa para las superficies mínimas ni para inscribir figuras",
+          "Art. 12.4-12.5: 2 m en huecos de paso y elementos singulares (puertas, arcos, vigas); en escaleras interiores, la altura que el art. 6 fija para las comunes (2,10 m)",
+        ],
+      },
+      {
+        h: "Sala de estar, cocina y dormitorios (arts. 13-15)",
+        nota:
+          "Cuadro del estar: con 1 o 2 dormitorios, 12 m² y rectángulo de 2,7 x 3,5 m; con más de 2, «+2 m²/D°» y rectángulo de 3 x 4 m; si estar y cocina son un solo espacio, +4 m² y comunicación de 3,50 m² sin obstáculos. Cocina: 5 m² (un dormitorio) o 7 m²; rectángulo de 3 x 1,60 m o cuadrado de 2,20 m. Dormitorios: uno de 10 m² con cuadrado de 2,50 m; los demás, 8 m² con cuadrado de 2,40 m o rectángulo de 4 x 2 m. Toda habitación de más de 4 m² con hueco de iluminación es dormitorio secundario.",
+        items: [
+          "Art. 13.1: sala de estar según el número de dormitorios: 1 o 2, 12 m² y rectángulo inscribible de 2,7 x 3,5 m; más de 2, «+2 m²/D°» y rectángulo de 3 x 4 m",
+          "Art. 13.2: estar y cocina integrados en un solo espacio: a la superficie del cuadro se suman 4 m², con el mismo rectángulo mínimo en la zona de estar",
+          "Art. 13.3: estar y cocina forman un mismo espacio si no pueden independizarse sin obra y su comunicación tiene al menos 3,50 m² sin obra, elemento fijo ni puerta que la interfiera",
+          "Art. 14.1: cocina de 5 m² en viviendas de un solo dormitorio y de 7 m² en las demás; en ella se puede inscribir un rectángulo de 3 x 1,60 m o un cuadrado de 2,20 m de lado",
+          "Art. 14.2: la cocina integrada en la sala de estar permite inscribir una de esas figuras, sin solaparse con la del estar",
+          "Art. 14.3: la cocina independiente no es paso obligado a ninguna dependencia, salvo despensa, oficio o tendedero, ni da acceso directo a dormitorio o aseo",
+          "Art. 15.1: al menos un dormitorio de 10 m² o más con cuadrado inscribible de 2,50 m de lado; los demás, 8 m² con cuadrado de 2,40 m o rectángulo de 4 x 2 m",
+          "Art. 15.2: ningún dormitorio sirve de paso a otra habitación independiente, salvo baños o vestidores vinculados al propio dormitorio",
+          "Art. 15.3: toda habitación independiente de más de 4 m² con hueco de iluminación cumple las condiciones de dormitorio secundario y se considera tal a todos los efectos (se excluyen aseos, cocina y oficios o despensas con acceso exclusivo desde la cocina); en rehabilitación, los dormitorios afectados solo en acabados cumplen el anexo I",
+        ],
+      },
+      {
+        h: "Baño, aseo y cuarto inodoro (art. 16)",
+        nota:
+          "Tres piezas con su superficie: baño de 2,50 m² (ducha, inodoro y lavabo, con reserva para bañera de 1,40 x 0,70 m), aseo de 1,70 m² (ducha o bañera, inodoro y lavabo) y cuarto inodoro de 1,50 m² y 0,9 m de ancho (inodoro y lavabo). Dotación: hasta 3 dormitorios, 1 baño; 4 o más, 1 baño + 1 aseo. Es la redacción del DF 5/2006 y la preguntó Zizur Mayor en 2026 (reserva 5).",
+        items: [
+          "Art. 16.1: baño de 2,50 m² como mínimo con ducha, inodoro y lavabo; reserva de espacio para cambiar el plato de ducha por una bañera de 1,40 x 0,70 m",
+          "Art. 16.2: aseo de 1,70 m² como mínimo con ducha o bañera, inodoro y lavabo",
+          "Art. 16.3: equipamiento mínimo: hasta 3 dormitorios, 1 baño; 4 o más dormitorios, 1 baño + 1 aseo",
+          "Art. 16.4: al menos en un baño se puede inscribir un cilindro de 120 cm de diámetro y 70 cm de altura sin más reformas que quitar el bidé y cambiar el giro de la puerta",
+          "Art. 16.5: un baño o un aseo accesible desde los espacios de circulación; si todos los dormitorios tienen baño privativo, basta un cuarto inodoro con acceso desde la circulación; el espacio del inodoro solo abre a anteaseo, circulación o dormitorio",
+          "Art. 16.6-16.7: separación entre paramentos de 1,20 m sin aparatos enfrentados y de 1,60 m con aparatos enfrentados; anchura mínima de 0,90 m donde haya aparatos; 60 cm libres no solapables para lavabo, inodoro y bidé",
+          "Art. 16.8: cuarto inodoro con inodoro y lavabo como mínimo, 1,50 m² y anchura no inferior a 0,9 m",
+          "Art. 16.9-16.10: con techo inclinado de más del 30 %, 2 m libres sobre los aparatos y en la circulación entre ellos y con la puerta; suelos y paredes revestidos de azulejo o material impermeable hasta 2 m",
+        ],
+      },
+      {
+        h: "Tendederos y espacios de circulación interior (arts. 17-18)",
+        nota:
+          "Tendedero: 6 m de cuerda en tramos de al menos 1 m, separados 20 cm, con 150 cm libres debajo y protección de vistas (salvo a patio interior o de manzana sin acceso público). Cerrado: 2,4 m² y hueco practicable de 1,20 m². Circulación interior: vestíbulo de 1,10 m, pasillos de 90 cm (80 cm en estrechamientos), puertas de 80 cm y escaleras de 90 cm con huella de 27 cm y contrahuella de 19 cm.",
+        items: [
+          "Art. 17.1: en toda vivienda se puede tender ropa al exterior con protección de vistas desde la calle: 6 m de cuerda en tramos de 1 m o más, separados entre sí o de otros elementos 20 cm como mínimo, con 150 cm libres bajo las cuerdas (sin obstáculos ni barrido de puertas); sin protección de vistas si se tiende a patio interior o a patio de manzana sin acceso público",
+          "Art. 17.2-17.3: el tendedero abierto, sus cuerdas y celosías no interfieren las luces rectas de huecos necesarios para la iluminación mínima; el cerrado se separa de la vivienda con cierres y huecos como los exigidos frente al exterior (normativa térmica, acústica o sectorial)",
+          "Art. 17.4-17.5: tendedero cerrado de 2,4 m² como mínimo, con cuerdas en las condiciones del 17.1, hueco practicable al exterior de al menos 1,20 m² y evacuación de agua; no puede abrir a él ningún hueco necesario para iluminar o ventilar la vivienda",
+          "Art. 17.6-17.7: en las rehabilitaciones a las que se aplica el anexo se admiten patios destinados solo a tender, de 2 x 2 m en planta como mínimo, para un máximo de dos viviendas por planta; pueden estar cubiertos, con 2 m² de ventilación permanente en la coronación, toma de aire exterior de 0,10 m² en la planta más baja y sumidero",
+          "Art. 18.1-18.3: vestíbulo con cuadrado inscribible de 1,10 m tras la puerta de entrada; pasillos de 90 cm, con estrechamientos hasta 80 cm si el elemento que los produce no tiene más fondo que la anchura libre que deja; puertas de paso interiores de 80 cm",
+          "Art. 18.4-18.5: escaleras interiores de 90 cm de anchura, huella mínima de 27 cm y contrahuella máxima de 19 cm (no se aplica a las de acceso a espacios no habitables, como altillos); peldaños compensados con huella de 27 cm medida a 45 cm del borde interior",
+        ],
+      },
+      {
+        h: "Iluminación y ventilación (art. 19)",
+        nota:
+          "El estar abre a espacio libre exterior o patio de manzana (salvo en unifamiliar); cocina, comedor y dormitorios pueden abrir también a patio de parcela; siempre con 3 m de luces rectas. Hueco: 1 m² y 10 % de la superficie útil (solo cuentan los primeros 20 m²; +50 % si abre a espacio cubierto o mirador), con al menos un 70 % de vidrio transparente y a no más de 2 m del rectángulo mínimo. Ventilación directa: un tercio de la iluminación mínima. Conductos de tiro forzado en cocinas y baños, campana de 10 cm, rejilla de 70 cm² en aseos y 300 m³/h si estar y cocina son un mismo espacio.",
+        items: [
+          "Art. 19.1: sala de estar con iluminación y ventilación de espacio libre exterior o patio de manzana, excepto en vivienda unifamiliar; cocina, comedor y dormitorios pueden abrir también a patio de parcela; luces rectas mínimas de 3 m en todos los casos",
+          "Art. 19.2: hueco de iluminación de 1 m² y el 10 % de la superficie útil en planta de cada habitación; si abre a espacio cubierto o mirador, la superficie se incrementa un 50 %, y el hueco exterior del mirador tendrá al menos el 10 % de la superficie útil del mirador más la de las habitaciones que abren a él",
+          "Art. 19.3-19.5: solo cuentan los primeros 20 m² de cada habitación; el hueco cuenta entero si tiene al menos un 70 % de vidrio transparente (si no, solo la parte transparente); los huecos necesarios, a no más de 2 m en planta del rectángulo mínimo inscribible",
+          "Art. 19.6-19.7: estar y dormitorios no se iluminan a través de galerías de uso común; en rehabilitaciones con fachada mantenida por imposición administrativa basta el punto 19.4 del anexo 1",
+          "Art. 19.8-19.9: en estar, cocina y dormitorio principal, un hueco practicable de 70 x 70 cm libres en la banda de 95 a 180 cm sobre el pavimento; huecos de ventilación directa de al menos un tercio de la superficie mínima de iluminación, con el mecanismo de apertura a 1,50 m de altura como máximo",
+          "Art. 19.10: cocina y baños, aseos o cuartos inodoros con conducto de ventilación por tiro forzado permanente hasta cubierta, independiente de los de campanas, calderas u otros fines y rematado con pieza aspiradora; también las despensas sin ventilación directa; la cocina, además, con conducto independiente para la campana de 10 cm de diámetro mínimo",
+          "Art. 19.11-19.12: puertas de aseos con rejilla o hueco inferior de 70 cm² como mínimo; si estar y cocina forman un mismo espacio, además de la ventilación permanente, ventilación mecánica hasta cubierta de 300 m³/h",
+        ],
+      },
+      {
+        h: "Instalaciones mínimas de las viviendas (art. 20)",
+        nota:
+          "Agua: presión entre 1 y 4,5 kg/cm² y velocidad de 1,5 m/s como máximo; agua caliente de 13 l/min a 40 °C o 75 l acumulados. Calefacción capaz de llegar a 20 °C. Persiana o contraventana exterior en todos los huecos con vidrio.",
+        items: [
+          "Art. 20.1: la vivienda tiene los servicios del art. 2, canalizados por su interior según los reglamentos técnicos de cada instalación",
+          "Art. 20.2: redes de agua fría y caliente en cocina y aseos con presión entre 1 y 4,5 kg/cm² y velocidad máxima de 1,5 m/s; agua caliente instantánea de 13 l/min a 40 °C o acumulada de 75 l",
+          "Art. 20.3-20.4: llaves de corte en cada dependencia con fontanería; en la cocina, tomas de agua y desagüe para fregadero, lavadora y lavavajillas, con llave de corte independiente para lavadora y lavavajillas; red eléctrica empotrada y toma de tierra según el Reglamento Electrotécnico de Baja Tensión",
+          "Art. 20.5: tomas de TV, radio, telefonía y demás telecomunicaciones según su normativa",
+          "Art. 20.6: todos los huecos exteriores con vidrio llevan persiana o contraventana exterior para oscurecer y proteger del sol; se admite oscurecimiento interior si otros elementos exteriores protegen de la radiación solar",
+          "Art. 20.7: sistema de calefacción que permita alcanzar 20 °C en todo el interior",
+        ],
+      },
+      {
+        h: "Medición de superficies (art. 21)",
+        nota:
+          "Construida = cierre exterior y ejes de medianeras + 50 % de terrazas y balcones privativos (100 % de miradores y tendederos cerrados) + parte proporcional de comunes. Útil = apartados a) y b) menos muros, tabiques, antepechos, estructura vertical, conductos de más de 100 cm² y lo que tenga menos de 1,50 m de altura libre. Las cifras deben figurar en todo documento y en la publicidad de venta o alquiler. El DF 61/2013 (tema E15) mide la superficie útil con este artículo.",
+        items: [
+          "Art. 21.1: superficies útiles y construidas medidas con estos criterios; las cifras deben figurar en todo documento que se refiera a ellas y en la publicidad de venta o alquiler",
+          "Art. 21.2.a y c: superficie construida = la limitada por el perímetro exterior del cierre de las fachadas y los ejes de medianeras o separaciones con otras viviendas, locales o elementos comunes, más la parte proporcional de los elementos comunes",
+          "Art. 21.2.b: más el 50 % de las superficies exteriores de uso privativo (terrazas, balcones…); miradores y tendederos cerrados, el 100 %; tendederos accesibles y abiertos, con el mismo criterio que las terrazas",
+          "Art. 21.2.b: no computan las terrazas formadas por la cubierta plana de otro elemento si el edificio está en división horizontal y esa cubierta es elemento común, ni los espacios exteriores descubiertos de las viviendas en planta baja, aunque estén pavimentados",
+          "Art. 21.3: superficie útil = apartados a) y b) menos muros, tabiques, antepechos de terrazas, elementos estructurales verticales, conductos exentos o que sobresalgan con sección horizontal de más de 100 cm² y la superficie con altura libre inferior a 1,50 m",
+          "Art. 21.4: superficie útil de cada recinto o trastero: la comprendida en el perímetro de la cara interior de sus cerramientos, con las mismas deducciones",
+          "Art. 21.5-21.6: garaje: superficie construida dentro del perímetro exterior de los cierres de la superficie cubierta y del eje de los que lo separan de otros usos o medianeras; superficie útil de una plaza: la del rectángulo que la delimita, libre de obstáculos, sin rampas, pasillos ni espacios residuales",
+        ],
+      },
+    ],
+    claves: [
+      "Ámbito: obra nueva, viviendas nuevas en edificio existente y rehabilitaciones equiparables, que cumplen el anexo II y el anexo 1 (art. 1.1)",
+      "Rehabilitación = obra nueva: totalidad de viviendas + PEM por m² construido > 70 % del módulo ponderado; o vaciado total; o demolición y reposición de más del 60 % de los forjados sin la cubierta (arts. 1.2 y 1.4); se acumulan las obras de los 5 años anteriores (art. 1.3)",
+      "Protección de desniveles: más de 40 cm en elementos comunes, más de 60 cm dentro de la vivienda; 95 cm de altura; esfera de 12 cm (art. 3)",
+      "Ascensor obligatorio con acceso a alguna vivienda en planta 3.ª sin contar la baja; cabina de 1,20 x 1 m (hasta 16 viviendas) o 1,40 x 1,10 m (más de 16, salvo más de un ascensor de 1 x 1,20 m); máximo 24 viviendas por ascensor (art. 4)",
+      "Escalera común: 1 m de ancho; mesetas con puertas, 1,20 m (puertas a 25 cm del peldaño); altura libre de 2,10 m; hueco de 1 m² por planta con 0,3 m² practicables (art. 6)",
+      "Patio de parcela: ø 3 m y 0,25 H; 12 m² y H²/10; luces rectas de 3 m. Patio de manzana = espacio exterior si cabe un cilindro de 12 m. Patio de fachada: más de 1,5 m de fondo, frente de 3 m, fondo no mayor de vez y media el frente (art. 7)",
+      "Garaje: altura de 2,10 m; plaza de 2,3 x 4,7 m (en línea 2,2 x 5; con pared 2,8 x 4,7; minusválidos 3,20 x 4,70); rampa recta de 3 m al 20 %, curva de 3,5 m al 15 %; pasillo de 3,5 m (4,5 m con plazas a más de 45°) (art. 8)",
+      "Vivienda: 30 m² útiles; estar + dormitorio + baño + cocina (art. 11.1)",
+      "Altura libre: 2,40 m; 2,20 m con falso techo en distribuidores, aseos, cocinas y tendederos cubiertos y en rehabilitación sin sustituir forjados; 2 m en huecos de paso (art. 12)",
+      "Estar de 12 m² con 1 o 2 dormitorios (rectángulo 2,7 x 3,5 m), +4 m² si es estar-cocina; cocina de 5 m² (un dormitorio) o 7 m² (rectángulo 3 x 1,60 o cuadrado de 2,20 m); dormitorio principal de 10 m² (cuadrado de 2,50 m), resto de 8 m² (cuadrado de 2,40 m o 4 x 2 m) (arts. 13-15)",
+      "Baño 2,50 m², aseo 1,70 m², cuarto inodoro 1,50 m²; hasta 3 dormitorios, 1 baño; 4 o más, 1 baño + 1 aseo (art. 16)",
+      "Tendedero: 6 m de cuerda en tramos de 1 m, separados 20 cm, 150 cm libres debajo; cerrado, 2,4 m² y hueco de 1,20 m² (art. 17)",
+      "Circulación interior: vestíbulo de 1,10 m; pasillo de 90 cm (80 cm en estrechamientos); puertas de 80 cm; escalera de 90 cm, huella de 27 cm y contrahuella de 19 cm (art. 18)",
+      "Iluminación: 1 m² y 10 % de la superficie útil (solo los primeros 20 m²; +50 % si abre a espacio cubierto o mirador); vidrio transparente de al menos el 70 %; ventilación de un tercio; luces rectas de 3 m (art. 19)",
+      "Agua entre 1 y 4,5 kg/cm² y hasta 1,5 m/s; agua caliente de 13 l/min a 40 °C o 75 l; calefacción para 20 °C (art. 20)",
+      "Superficie construida: 50 % de terrazas y balcones, 100 % de miradores y tendederos cerrados; útil: sin conductos de más de 100 cm² ni zonas de menos de 1,50 m de altura (art. 21)",
+    ],
+    memorizacion: {
+      tablas: [
+        {
+          titulo: "Rehabilitación equiparable a obra de nueva planta (art. 1)",
+          columnas: ["Vía", "Requisito", "¿Depende del presupuesto?"],
+          filas: [
+            ["Económica (1.2)", "La intervención vincula a la TOTALIDAD de las viviendas y el PEM dividido por los m² construidos afectados supera el 70 % del módulo ponderado anual de las actuaciones protegibles", "Sí: se acumulan las obras terminadas en el edificio en los 5 años anteriores a la solicitud de licencia (1.3)"],
+            ["Vaciado (1.4)", "Vaciado total del edificio preexistente", "No: «independientemente de su presupuesto»"],
+            ["Forjados (1.4)", "Demolición y reposición de más del 60 % de la superficie de los forjados, excluida la cubierta", "No: «independientemente de su presupuesto»"]
+          ],
+          nota: "Si no se llega por ninguna vía: rehabilitación parcial, con las condiciones del anexo compatibles con la intervención (1.5). Ampliación: condiciones del anexo en la zona ampliada, sin deteriorar lo existente (1.6). Trampa: el 70 % es del presupuesto; el 60 %, de los forjados."
+        },
+        {
+          titulo: "Ascensores (art. 4)",
+          columnas: ["Supuesto", "Regla", "Apartado"],
+          filas: [
+            ["Vivienda colectiva con alguna vivienda con acceso en planta 3.ª (sin contar la baja)", "Ascensor obligatorio en cada núcleo de comunicaciones verticales", "4.2"],
+            ["Nueva planta de vivienda colectiva sin ascensor obligatorio", "Hueco y espacios para instalarlo después, con las dimensiones reales", "4.3"],
+            ["Rehabilitación equiparable a obra nueva, edificio de menos de baja más seis plantas", "Exenta de ascensor o de hueco si su instalación es imposible", "4.4"],
+            ["División de una vivienda en otras menores", "Puede no exigirse si concurren a la vez: no aumenta la superficie de vivienda y el ascensor exige que cedan superficie propietarios de otras fincas del edificio", "4.5"],
+            ["Ascensor que sirve a 16 viviendas o menos", "Cabina de 1,20 m de fondo x 1 m de anchura", "4.6.a"],
+            ["Ascensor que sirve a más de 16 viviendas", "Cabina de 1,40 m de fondo x 1,10 m de anchura como mínimo, salvo que exista más de un ascensor de 1 x 1,20 m", "4.6.b"],
+            ["Número de ascensores", "No más de 24 viviendas por ascensor", "4.7"],
+            ["Plantas de garaje o trasteros de las viviendas", "Los ascensores llegan en las mismas condiciones de accesibilidad", "4.8"]
+          ],
+          nota: "El fondo mínimo de la cabina se mide perpendicularmente a todas sus puertas. Trampa: «baja más seis» es la exención del 4.4, no la planta que obliga a poner ascensor."
+        },
+        {
+          titulo: "Superficies y figuras mínimas de la vivienda y sus piezas (arts. 11-18)",
+          columnas: ["Pieza", "Superficie mínima", "Figura inscribible o dotación", "Artículo"],
+          filas: [
+            ["Vivienda", "30 m² útiles", "Sala de estar, un dormitorio, un baño y una cocina", "11.1"],
+            ["Sala de estar (1 o 2 dormitorios)", "12 m²", "Rectángulo de 2,7 x 3,5 m", "13.1"],
+            ["Sala de estar (más de 2 dormitorios)", "«+2 m²/D°»", "Rectángulo de 3 x 4 m", "13.1"],
+            ["Estar y cocina en un solo espacio", "Superficie del cuadro + 4 m²", "Mismo rectángulo en la zona de estar; comunicación de 3,50 m² sin obra, elemento fijo ni puerta", "13.2-13.3"],
+            ["Cocina (vivienda de un dormitorio)", "5 m²", "Rectángulo de 3 x 1,60 m o cuadrado de 2,20 m", "14.1"],
+            ["Cocina (resto de viviendas)", "7 m²", "Rectángulo de 3 x 1,60 m o cuadrado de 2,20 m", "14.1"],
+            ["Dormitorio principal (al menos uno)", "10 m²", "Cuadrado de 2,50 m", "15.1"],
+            ["Resto de dormitorios", "8 m²", "Cuadrado de 2,40 m o rectángulo de 4 x 2 m", "15.1"],
+            ["Baño", "2,50 m²", "Ducha, inodoro y lavabo; reserva para bañera de 1,40 x 0,70 m", "16.1"],
+            ["Aseo", "1,70 m²", "Ducha o bañera, inodoro y lavabo", "16.2"],
+            ["Cuarto inodoro", "1,50 m² y 0,9 m de anchura", "Inodoro y lavabo", "16.8"],
+            ["Tendedero cerrado", "2,4 m²", "Hueco practicable al exterior de 1,20 m²", "17.4"],
+            ["Patio tendedero (solo en rehabilitación)", "2 x 2 m en planta", "Para un máximo de dos viviendas por planta", "17.6"],
+            ["Vestíbulo", "—", "Cuadrado de 1,10 m tras la puerta de entrada", "18.1"]
+          ],
+          nota: "Toda habitación independiente de más de 4 m² con hueco de iluminación es dormitorio secundario (15.3). Con techo inclinado de más del 30 %, lo que no supere 2,20 m de altura libre no cuenta para estas superficies ni figuras (12.3)."
+        },
+        {
+          titulo: "Dotación de baños y aseos (art. 16.3, redacción del DF 5/2006)",
+          columnas: ["Dormitorios", "Equipamiento mínimo"],
+          filas: [
+            ["Hasta 3", "1 baño"],
+            ["4 o más", "1 baño + 1 aseo"]
+          ],
+          nota: "Pregunta de reserva 5 de Zizur Mayor (2026): las opciones trampa bajaban el umbral a 2 dormitorios o cambiaban el aseo por un segundo baño. Si todos los dormitorios tienen baño privativo, basta un cuarto inodoro con acceso desde la circulación (16.5)."
+        },
+        {
+          titulo: "Alturas libres mínimas",
+          columnas: ["Lugar", "Altura", "Artículo"],
+          filas: [
+            ["Vivienda: techos horizontales o con pendiente inferior al 30 %", "2,40 m", "12.1"],
+            ["Vivienda: falso techo en elementos de distribución, aseos, cocinas y tendederos cubiertos", "2,20 m", "12.1"],
+            ["Vivienda rehabilitada sin sustituir forjados", "2,20 m", "12.2"],
+            ["Techo inclinado de más del 30 %: no computa la superficie que no supere", "2,20 m", "12.3"],
+            ["Huecos de paso y elementos singulares (puertas, arcos, vigas)", "2 m", "12.4"],
+            ["Baños, aseos o cuartos inodoros con techo inclinado de más del 30 %: zona de aparatos y circulación", "2 m", "16.9"],
+            ["Pasillos y rampas comunes hasta las viviendas", "2,40 m", "5.2"],
+            ["Zona común de anchura no mayor de 2,50 m, con falso techo", "2,20 m", "5.2"],
+            ["Bajo vigas o conductos comunes de no más de 0,80 m de fondo", "2,10 m", "5.2"],
+            ["Escaleras comunes y rellanos; también las escaleras interiores (12.5)", "2,10 m", "6.2.a"],
+            ["Garajes: plazas, rampas y circulación, puerta incluida", "2,10 m", "8.1.4"],
+            ["Superficie útil: se deduce la que tenga una altura libre inferior a", "1,50 m", "21.3"],
+            ["Tendedero: espacio libre bajo las cuerdas", "150 cm", "17.1"],
+            ["Revestimiento impermeable en cuartos con aparatos sanitarios", "Hasta 2 m", "16.10"]
+          ],
+          nota: "Regla rápida: 2,40 de pie, 2,20 con falso techo o en rehabilitación, 2,10 en escaleras y garajes, 2 en puertas y 1,50 para contar superficie útil."
+        },
+        {
+          titulo: "Anchuras y dimensiones de circulación",
+          columnas: ["Elemento", "Medida", "Artículo"],
+          filas: [
+            ["Puerta del portal", "0,90 x 2,00 m", "5.1"],
+            ["Pasillos y rampas comunes", "1 m", "5.2"],
+            ["Escalera común (peldañeado y mesetas intermedias)", "1 m", "6.2.a"],
+            ["Meseta a la que abren viviendas, locales o ascensor", "1,20 m; puertas a 25 cm del peldaño más próximo", "6.2.b"],
+            ["Pasillo de la vivienda", "90 cm (estrechamientos hasta 80 cm)", "18.2"],
+            ["Puertas de paso interiores", "80 cm", "18.3"],
+            ["Escalera interior", "90 cm de anchura; huella de 27 cm como mínimo; contrahuella de 19 cm como máximo", "18.4"],
+            ["Peldaños compensados", "Huella de 27 cm medida a 45 cm del borde interior", "18.5"],
+            ["Puerta del trastero", "Paso de 80 x 200 cm", "9.2"],
+            ["Pasillo de personas del garaje", "1 m", "8.3.3"]
+          ],
+          nota: "Fuera de la vivienda manda el metro (pasillos, rampas, escalera); dentro, los 90 cm (pasillo y escalera) y los 80 cm (puertas y estrechamientos)."
+        },
+        {
+          titulo: "Escalera común: iluminación y ventilación (art. 6.3)",
+          columnas: ["Solución", "Condiciones"],
+          filas: [
+            ["Iluminación directa (6.3.1-6.3.3)", "A espacio exterior con al menos condiciones de patio de fachada, o a patio interior; 1 m² por planta y rosca, con 0,3 m² practicables; nunca por terrazas privadas, tendederos ni terrazas comunes cubiertas; a 3 m como máximo del eje del recorrido (salvo en planta baja); la apertura respeta 2 m de altura del recorrido"],
+            ["Cenital: hueco central (6.3.4.a)", "1 m² y cilindro de 0,5 m de diámetro; llega siempre hasta la planta del portal"],
+            ["Cenital: hueco no central (6.3.4.a)", "1,3 m², cilindro de 0,8 m y 1,3 m de lado de contacto con la escalera"],
+            ["Cenital: lucernario (6.3.4.b)", "2 m² si forma menos de 45° con la horizontal y 3 m² si más; punto más alto a menos de 17 m de la cota del portal; 0,80 m² de ventilación; vertical sobre el hueco"],
+            ["Distribuidor de planta sin luz ni ventilación propias e independizado (6.3.5)", "Conducto de ventilación hasta cubierta como el de cocinas y baños"]
+          ],
+          nota: "La escalera comunica todas las plantas con acceso a viviendas con la de acceso al edificio (6.1)."
+        },
+        {
+          titulo: "Patios (art. 7)",
+          columnas: ["Clase", "Condición", "Dimensiones"],
+          filas: [
+            ["De manzana", "Regulado por el planeamiento; espacio exterior si cabe un cilindro recto de 12 m de diámetro en la base; si no, patio interior", "Cilindro de 12 m"],
+            ["Interior o de parcela", "En una parcela o mancomunado (inscrito en el Registro de la Propiedad si se suman dimensiones para cumplir)", "Cilindro de ø 3 m y 0,25 H; superficie de 12 m² y H²/10; luces rectas de 3 m"],
+            ["De una sola planta en vivienda unifamiliar", "Condiciones básicas del art. 7.1 del anexo 1", "Luces rectas de al menos 3 m"],
+            ["Exterior o de fachada", "Entrante de más de 1,5 m de profundidad en fachada exterior o de patio de manzana", "Frente abierto de al menos 3 m; profundidad no mayor de vez y media la anchura; 6 m de luces rectas para huecos de estar en las paredes laterales"]
+          ],
+          nota: "H: desde el pavimento de la primera planta que se ilumina por el patio hasta la coronación (media ponderada si no es uniforme; no cuentan chimeneas u otros elementos de hasta 60 cm de contacto). Por encima de la coronación, retranqueos dentro de planos de 45°. Luces rectas: la mínima perpendicular libre de obstáculos aplicable a cualquier punto del hueco. Los patios a los que abren estar, cocinas, dormitorios o escaleras son siempre descubiertos."
+        },
+        {
+          titulo: "Garajes (art. 8)",
+          columnas: ["Elemento", "Medida", "Apartado"],
+          filas: [
+            ["Altura libre (puerta incluida)", "2,10 m", "8.1.4"],
+            ["Zaguán antes de una rampa que salve más de 1 m", "Pendiente máxima del 6 %; fondo de 5 m; anchura de 3,5 m; puerta de 3 m", "8.2.1"],
+            ["Zaguán en vivienda unifamiliar (garaje no común)", "Fondo de 2,5 m; anchura de 3 m; puerta de 2,5 m", "8.2.1"],
+            ["Garaje de 100 o más plazas", "Acceso y salida diferenciados o rampa y acceso dobles; rampa doble de 5,40 m", "8.2.2"],
+            ["Rampa en tramo recto", "3 m de anchura; pendiente máxima del 20 %", "8.2.3"],
+            ["Rampa en curva de radio inferior a 20 m", "3,5 m de anchura; pendiente máxima del 15 %; radio mínimo en el eje de 6 m", "8.2.3"],
+            ["Rampa de doble sentido sin visibilidad o de más de 30 m", "Dispositivo de sentido prioritario", "8.2.4"],
+            ["Ascensor de vehículos o elevacoches", "Si es el único acceso, un aparato por cada 20 plazas o fracción; si el garaje tiene 6 o más plazas, zaguán de 5 m de anchura x 10 m de fondo", "8.2.5"],
+            ["Pasillo de vehículos", "3,5 m; 4,5 m si las plazas forman más de 45°", "8.3.1"],
+            ["Giros", "Carril de 3 m con radio de 5 m en su eje", "8.3.2"],
+            ["Plaza con acceso frontal / en línea", "2,3 x 4,7 m / 2,2 x 5 m; pendiente máxima del 6 %", "8.4.1"],
+            ["Plaza limitada por pared lateral", "2,8 x 4,7 m (reducible a 2,5 m de anchura en los 2,5 m del fondo)", "8.4.2"],
+            ["Elemento lateral que se asimila a pared", "Más de 1,2 m de longitud", "8.4.3"],
+            ["Recorrido de acceso a la plaza", "Máximo de 5 m sin obstáculos; si es mayor, condiciones de pasillo", "8.4.4"],
+            ["Plaza para vivienda de minusválidos", "3,20 x 4,70 m; 2,30 m de ancho con un lateral libre junto al pasillo", "8.4.6"]
+          ],
+          nota: "No se aplica a los garajes de uso público (en los mixtos, sí en la zona de plazas vinculadas a viviendas). En los planos del proyecto, todas las plazas, rampas y pasillos representados, acotados y numerados (8.4.5)."
+        },
+        {
+          titulo: "Iluminación y ventilación de la vivienda (art. 19)",
+          columnas: ["Concepto", "Valor", "Apartado"],
+          filas: [
+            ["Sala de estar", "A espacio libre exterior o patio de manzana (salvo vivienda unifamiliar)", "19.1"],
+            ["Cocina, comedor y dormitorios", "También a patio de parcela", "19.1"],
+            ["Luces rectas mínimas", "3 m", "19.1"],
+            ["Hueco de iluminación", "1 m² y el 10 % de la superficie útil en planta", "19.2"],
+            ["Hueco a espacio cubierto o mirador", "+50 %; el hueco exterior del mirador, el 10 % de su superficie más la de las piezas que abren a él", "19.2"],
+            ["Superficie computable de cada habitación", "Los primeros 20 m²", "19.3"],
+            ["Vidrio transparente", "Al menos el 70 % del hueco (si no, solo cuenta la parte transparente)", "19.4"],
+            ["Distancia del hueco al rectángulo mínimo", "2 m en planta como máximo", "19.5"],
+            ["Hueco practicable en estar, cocina y dormitorio principal", "70 x 70 cm libres entre 95 y 180 cm de altura", "19.8"],
+            ["Ventilación directa", "Un tercio de la superficie mínima de iluminación; mecanismo a 1,50 m como máximo", "19.9"],
+            ["Conducto de la campana", "Independiente, de 10 cm de diámetro como mínimo", "19.10"],
+            ["Rejilla en puertas de aseos", "70 cm²", "19.11"],
+            ["Estar y cocina en un mismo espacio", "Ventilación mecánica hasta cubierta de 300 m³/h", "19.12"]
+          ],
+          nota: "Cocina y baños, aseos o cuartos inodoros llevan conducto de ventilación por tiro forzado permanente hasta cubierta, también las despensas sin ventilación directa (19.10)."
+        },
+        {
+          titulo: "Instalaciones y ventilación colectiva (arts. 2, 9 y 20)",
+          columnas: ["Elemento", "Valor", "Artículo"],
+          filas: [
+            ["Colector de ventilación", "Máximo 8 plantas (las 2 últimas con conducto propio); sección de 400 cm²; aspirador estático o dinámico", "2.4.a"],
+            ["Acometida individual", "Un solo local; longitud de 2 m; sección de 150 cm²; rejilla; sin impulsores ni campanas", "2.4.b"],
+            ["Trasteros", "Renovación de 0,5 volúmenes por hora", "9.3"],
+            ["Presión del agua en cocina y aseos", "Entre 1 y 4,5 kg/cm²", "20.2"],
+            ["Velocidad del agua", "1,5 m/s como máximo", "20.2"],
+            ["Agua caliente", "13 l/min a 40 °C (instantánea) o 75 l (acumulada)", "20.2"],
+            ["Tomas de la cocina", "Fregadero, lavadora y lavavajillas (llave de corte propia para lavadora y lavavajillas)", "20.4"],
+            ["Calefacción", "20 °C en todo el interior", "20.7"]
+          ],
+          nota: "A un mismo colector no se conectan conductos de ventilación y salidas de humos o gases (2.4.c). Todos los huecos exteriores con vidrio llevan persiana o contraventana exterior (20.6)."
+        },
+        {
+          titulo: "Seguridad (art. 3) y otras condiciones (art. 10)",
+          columnas: ["Condición", "Valor", "Artículo"],
+          filas: [
+            ["Desnivel que exige protección en elementos comunes o locales vinculados", "Más de 40 cm", "3.1"],
+            ["Desnivel que exige protección dentro de la vivienda", "Más de 60 cm", "3.1"],
+            ["Altura del antepecho o barandado", "95 cm desde el pavimento terminado", "3.1.b"],
+            ["Hueco que no debe atravesarse bajo esa altura", "Esfera de 12 cm de diámetro", "3.1.b"],
+            ["Escalera sin tabica", "Si la caída entre peldaños supera 60 cm, esfera de 12 cm", "3.2"],
+            ["Forjado en planta baja con piezas vivideras", "Separado 0,5 m del terreno, cámara ventilada", "10.a"],
+            ["Pendiente máxima del pavimento interior", "0,5 %", "10.b"]
+          ],
+          nota: "Edificios de más de una vivienda: portal con apertura desde el exterior y desde cada vivienda y comunicación oral (3.3). Puerta de la vivienda con cerradura de llave y mirilla (3.4)."
+        },
+        {
+          titulo: "Medición de superficies (art. 21)",
+          columnas: ["Concepto", "Cómo se mide", "Apartado"],
+          filas: [
+            ["Superficie construida", "Perímetro exterior del cierre de fachadas y ejes de medianeras o separaciones + exteriores privativos + parte proporcional de comunes", "21.2"],
+            ["Terrazas y balcones de uso privativo", "50 %", "21.2.b"],
+            ["Miradores y tendederos cerrados", "100 %", "21.2.b"],
+            ["Tendederos accesibles y abiertos", "Como las terrazas (50 %)", "21.2.b"],
+            ["Terraza sobre cubierta plana común (división horizontal)", "No computa", "21.2.b"],
+            ["Espacios exteriores descubiertos de viviendas en planta baja", "No computan, aunque estén pavimentados", "21.2.b"],
+            ["Superficie útil de la vivienda", "Apartados a) y b) menos muros, tabiques, antepechos, estructura vertical, conductos de más de 100 cm² y zonas de menos de 1,50 m de altura libre", "21.3"],
+            ["Superficie útil de un recinto o trastero", "Cara interior de sus cerramientos, con las mismas deducciones", "21.4"],
+            ["Superficie útil de una plaza de garaje", "Rectángulo que la delimita, libre de obstáculos, sin rampas, pasillos ni espacios residuales", "21.6"]
+          ],
+          nota: "Las cifras deben figurar en todo documento que se refiera a ellas y en la publicidad de venta o alquiler (21.1)."
+        }
+      ],
+      datos: [
+        "Art. 1.1: la vivienda nueva cumple el anexo II y también el anexo 1 (condiciones de las viviendas existentes).",
+        "Art. 1.3: para equiparar una rehabilitación a obra nueva se acumulan los presupuestos de las obras terminadas en el edificio en los cinco años anteriores a la solicitud de licencia.",
+        "Art. 2.4.a: un colector de ventilación sirve a 8 plantas como máximo; las dos últimas llevan conducto independiente.",
+        "Art. 3.3: en edificios de más de una vivienda, el portal se abre desde el exterior y desde cada vivienda, con comunicación oral entre viviendas y portal.",
+        "Art. 4.2: el ascensor es obligatorio en cada núcleo de comunicaciones verticales, no uno por edificio.",
+        "Art. 4.6: el fondo mínimo de la cabina se mide perpendicularmente a todas las puertas con que cuente.",
+        "Art. 5.1: puerta del portal de 0,90 x 2,00 m.",
+        "Art. 6.3.4.b: el punto más alto del lucernario, a menos de 17 m de la cota del portal.",
+        "Art. 7: los patios a los que abren salas de estar, cocinas, dormitorios o escaleras son siempre descubiertos.",
+        "Art. 7.b: el patio mancomunado que necesita sumar dimensiones para cumplir inscribe su carácter mancomunado en el Registro de la Propiedad.",
+        "Art. 7.b: en la altura H del patio no cuentan las chimeneas u otros elementos cuyo lado de contacto con el patio no supere 60 cm.",
+        "Art. 8.1.3: en un garaje mancomunado no valen como salidas de emergencia las que atraviesan fincas o portales privados, salvo servidumbre constituida.",
+        "Art. 8.2.5: si el ascensor de vehículos o elevacoches es el único acceso de vehículos, un aparato por cada 20 plazas o fracción.",
+        "Art. 8.3.3: a través de una plaza de aparcamiento solo se accede al trastero vinculado a esa misma plaza.",
+        "Art. 9.1: el trastero está vinculado registralmente a la vivienda y destinado en exclusiva a los enseres de la propia vivienda.",
+        "Art. 11.2: toda habitación a la que solo se accede desde la vivienda forma parte de ella a todos los efectos.",
+        "Art. 12.5: en las escaleras interiores, la altura libre es la de las escaleras comunes (2,10 m).",
+        "Art. 13.3: estar y cocina son un mismo espacio si no pueden independizarse sin obra y su comunicación tiene 3,50 m² sin obra, elemento fijo ni puerta.",
+        "Art. 14.2: en la cocina integrada, su figura no puede solaparse con la de la sala de estar.",
+        "Art. 16.4: al menos un baño admite un cilindro de 120 cm de diámetro y 70 cm de altura quitando el bidé y cambiando el giro de la puerta.",
+        "Art. 16.6-16.7: 1,20 m entre paramentos sin aparatos enfrentados, 1,60 m con aparatos enfrentados, 0,90 m de anchura donde haya aparatos y 60 cm libres por lavabo, inodoro y bidé.",
+        "Art. 17.7: el patio tendedero puede estar cubierto, con 2 m² de ventilación permanente en la coronación, toma de aire de 0,10 m² en la planta más baja y sumidero.",
+        "Art. 19.2: si el hueco abre a espacio cubierto o mirador, la superficie mínima de iluminación sube un 50 %.",
+        "Art. 19.8: en estar, cocina y dormitorio principal, hueco practicable de 70 x 70 cm libres entre 95 y 180 cm de altura.",
+        "Art. 19.10: conducto de ventilación por tiro forzado permanente hasta cubierta en la cocina y en baños, aseos o cuartos inodoros, y en las despensas sin ventilación directa.",
+        "Art. 20.6: persiana o contraventana exterior en todos los huecos exteriores con vidrio.",
+        "Art. 21.1: las superficies útiles y construidas figuran en todo documento y en la publicidad de venta o alquiler.",
+        "Vigencia: anexo II en la redacción del Decreto Foral 5/2006, de 16 de enero (BON de 30-01-2006); sin cambios hasta el 21-05-2026."
+      ],
+      excepciones: [
+        "Rehabilitación parcial: solo las condiciones del anexo compatibles con la naturaleza de la intervención (art. 1.5).",
+        "Ampliación: el anexo solo se exige en la zona ampliada, pero sin deteriorar las viviendas existentes ni sus elementos comunes (art. 1.6).",
+        "Vaciado total o demolición y reposición de más del 60 % de los forjados: obra nueva aunque el presupuesto no llegue al 70 % (art. 1.4).",
+        "Ascensor: exentas las rehabilitaciones equiparables de edificios de menos de baja más seis plantas si es imposible instalarlo (art. 4.4).",
+        "Ascensor: puede no exigirse al dividir una vivienda si no aumenta la superficie de vivienda y el ascensor obliga a que cedan superficie propietarios de otras fincas del edificio; las dos condiciones a la vez (art. 4.5).",
+        "Cabina para más de 16 viviendas: no hace falta 1,40 x 1,10 m si existe más de un ascensor de 1 x 1,20 m (art. 4.6.b).",
+        "Escalera: el hueco ilumina directamente el recorrido de evacuación excepto en planta baja (art. 6.3.3).",
+        "Si la escalera no llega a los sótanos de garaje, las salidas de emergencia de estos van directamente al exterior (art. 6.1).",
+        "Patio de manzana: solo es espacio exterior si cabe un cilindro de 12 m; si no, es patio interior (art. 7.a).",
+        "Patio de una sola planta en vivienda unifamiliar: basta el art. 7.1 del anexo 1, pero con luces rectas de al menos 3 m (art. 7.b).",
+        "Entrantes de patios de parcela o de manzana: solo reciben huecos de iluminación y ventilación si tienen las dimensiones de patio de fachada (art. 7.b).",
+        "Garajes de uso público: fuera del art. 8, salvo la zona de plazas vinculadas a viviendas de los garajes mixtos (art. 8.1.2).",
+        "Zaguán reducido (2,5 / 3 / 2,5 m) en viviendas unifamiliares, salvo garaje común a varias viviendas (art. 8.2.1).",
+        "Plaza junto a pared: 2,8 x 4,7 m, salvo en aparcamientos en línea (art. 8.4.2); plaza para minusválidos de 2,30 m de anchura si tiene un lateral libre junto al pasillo (art. 8.4.6).",
+        "Planta baja: cabe otra solución distinta del forjado separado 0,5 m si el proyecto justifica el aislamiento eficaz de la humedad del terreno (art. 10.a).",
+        "Patios de parcela accesibles para limpieza, salvo los privativos con acceso desde la vivienda (art. 10.c).",
+        "Altura de 2,20 m: con falso techo solo en distribuidores, aseos, cocinas y tendederos cubiertos, y en rehabilitación si no se sustituyen forjados (art. 12).",
+        "Cocina independiente: puede ser paso a despensa, oficio o tendedero, pero no da acceso directo a dormitorio o aseo (art. 14.3).",
+        "Dormitorio: solo puede ser paso a baños o vestidores vinculados a él (art. 15.2).",
+        "Habitación de más de 4 m² con hueco = dormitorio secundario, salvo aseos, cocina y oficios o despensas con acceso exclusivo desde la cocina; en rehabilitación, los dormitorios afectados solo en acabados cumplen el anexo I (art. 15.3).",
+        "Si todos los dormitorios tienen baño privativo, basta un cuarto inodoro accesible desde la circulación (art. 16.5).",
+        "Tendido sin protección de vistas: a patio interior o a patio de manzana sin acceso público (art. 17.1).",
+        "Escaleras interiores: sus mínimos no se aplican a las que dan acceso a espacios no habitables, como altillos (art. 18.4).",
+        "Pasillos: estrechamientos hasta 80 cm si el elemento que los produce no tiene más fondo que la anchura libre que deja (art. 18.2).",
+        "Sala de estar: en vivienda unifamiliar no tiene que abrir a espacio libre exterior o patio de manzana (art. 19.1).",
+        "Rehabilitación con fachada mantenida por imposición administrativa: basta el punto 19.4 del anexo 1 (art. 19.7).",
+        "Oscurecimiento interior admitido si otros elementos exteriores protegen de la radiación solar (art. 20.6).",
+        "Superficie construida: no computan las terrazas sobre cubierta común en división horizontal ni los espacios exteriores descubiertos de planta baja (art. 21.2.b).",
+        "No exigible: lo que se publique después del 21-05-2026, aunque modifique o sustituya este anexo."
       ]
     }
-  ],
-  claves: [
-    "Ley Foral 17/2020, de 16 de diciembre: actividades con incidencia ambiental en Navarra",
-    "Seis formas de intervención: evaluación ambiental e impacto; autorización ambiental integrada; autorización ambiental unificada; evaluación de afecciones ambientales; licencia de actividad clasificada; declaración responsable previa (art. 8.3)",
-    "Plazo de resolución de licencia de actividad clasificada: cuatro meses desde solicitud completa; silencio = desestimación (art. 42)",
-    "Plazo para iniciar actividad tras licencia: dos años; caducidad si no se presenta declaración responsable (arts. 44.1 y 45.1)",
-    "Plazo para que la entidad local manifieste lo contrario sobre modificación no sustancial: un mes (art. 48.3)",
-    "Plazo para reponer terrenos en suelo no urbanizable tras cese definitivo: cinco años (art. 52)",
-    "Municipios de menos de 5.000 habitantes: el departamento de medio ambiente puede asumir la competencia de órgano ambiental por convenio (art. 10.3)",
-    "La licencia de actividad clasificada equivale a autorización de vertido indirecto a aguas superficiales (art. 50.1)",
-    "Umbrales recurrentes en Anejo 3: 300 m² de superficie construida en industrias diversas; 300 habitantes-equivalentes en aguas residuales; 50 t/año en residuos y disolventes; 250 kW a 5 MW en instalaciones de combustión",
-    "El personal inspector tiene consideración de agente de autoridad y puede acceder sin previo aviso a instalaciones; para domicilios se requiere autorización judicial (art. 59.1)",
-    "Los resultados de inspección son públicos y la información en registros debe desagregarse por sexo (art. 62)"
-  ],
-      "memorizacion": {
-  "tablas": [
-    {
-      "titulo": "Instrumento exigible para la ejecución según clase de suelo (Título IV, Cap. I)",
-      "columnas": ["Clase de suelo", "Instrumento mínimo exigible", "Condición"],
-      "filas": [
-        ["Suelo urbano", "Plan General Municipal", "Si contiene ordenación pormenorizada"],
-        ["Suelo urbano", "Plan Especial de Actuación Urbana o Estudio de Detalle", "En defecto de ordenación pormenorizada en el Plan General"],
-        ["Suelo urbanizable", "Plan General Municipal", "Si contiene ordenación pormenorizada propia de un Plan Parcial"],
-        ["Suelo urbanizable", "Plan Parcial del respectivo Sector", "En defecto de ordenación pormenorizada en el Plan General"],
-        ["Sistemas generales", "Ejecución directa o Plan Especial", "No requiere instrumento de desarrollo previo"]
-      ],
-      "nota": "Art. 131 del Decreto Foral Legislativo 1/2017. La ejecución requiere la aprobación definitiva del instrumento más detallado exigible según la clase de suelo."
-    },
-    {
-      "titulo": "Sistemas de actuación: clasificación y caracteres (Título IV, Cap. II)",
-      "columnas": ["Tipo", "Sistema", "Quién ejecuta", "Instrumento clave"],
-      "filas": [
-        ["Privado", "Compensación", "Propietarios (Junta de Compensación)", "Estatutos + Proyecto de Reparcelación"],
-        ["Privado", "Reparcelación voluntaria", "Todos los propietarios de común acuerdo", "Proyecto de Reparcelación (por unanimidad)"],
-        ["Privado", "Agente Urbanizador", "Agente seleccionado en concurrencia", "Programa de Actuación Urbanizadora"],
-        ["Público", "Cooperación", "Administración (con aportación de suelo por propietarios)", "Proyecto de Reparcelación formulado por Ayuntamiento o >35% propietarios"],
-        ["Público", "Ejecución forzosa", "Comisión Gestora", "Acuerdo de aplicación + Proyecto de Reparcelación"],
-        ["Público", "Expropiación", "Administración actuante", "Relación de propietarios + tasación conjunta o individualizada"]
-      ],
-      "nota": "Arts. 157 a 186. Los sistemas privados exigen garantías ante la Administración. En los públicos, la Administración asume la ejecución con cargo a los propietarios."
-    },
-    {
-      "titulo": "Plazos en el sistema de ejecución forzosa (Título IV, Cap. II, Sección 3ª, Subsección 2ª)",
-      "columnas": ["Supuesto", "Plazo", "Hecho que inicia el cómputo", "Consecuencia"],
-      "filas": [
-        ["No presentar proyecto de Estatutos de la Junta de Compensación", "6 meses", "Aprobación definitiva del Plan o plazo que este establezca", "Puede acordarse ejecución forzosa a instancia de propietarios con ≥25% de superficie"],
-        ["No constituirse la Junta de Compensación", "3 meses", "Aprobación definitiva de los Estatutos", "Puede acordarse ejecución forzosa a instancia de propietarios con ≥25% de superficie"],
-        ["No presentar el Proyecto de Reparcelación", "6 meses", "Constitución de la Junta de Compensación", "Puede acordarse ejecución forzosa a instancia de propietarios con ≥25% de superficie"],
-        ["Notificación a propietarios para adhesión a la gestión", "15 días (prorrogable por otro igual)", "Notificación del acuerdo de iniciación del sistema", "Manifestación de voluntad de incorporarse a la gestión"]
-      ],
-      "nota": "Art. 178. La ejecución forzosa se acuerda a instancia de propietarios que representen al menos el 25% de la superficie total de la unidad de ejecución."
-    },
-    {
-      "titulo": "Derechos de realojo y retorno según tipo de actuación (Art. 140)",
-      "columnas": ["Tipo de actuación", "Titular del derecho", "Obligado", "Condición"],
-      "filas": [
-        ["Expropiación", "Ocupantes legales con residencia habitual", "Administración expropiante o beneficiario", "Viviendas conforme a necesidades y normativa de VPO; gastos de traslado a cargo del obligado"],
-        ["Sistemas distintos de expropiación", "Ocupantes legales con residencia habitual", "Administración actuante", "No tienen derecho si, en correspondencia con su aportación de terrenos, resultan adjudicatarios de aprovechamientos residenciales superiores a los fijados para VPO"],
-        ["Actuaciones asistemáticas sin expropiación", "Ocupantes legales en régimen de alquiler con residencia habitual", "Propietario de las viviendas", "Derecho de retorno regulado en legislación de arrendamientos y alojamiento provisional en condiciones adecuadas"]
-      ],
-      "nota": "Art. 140. Los gastos de traslado y accesorios se computan como gastos de la actuación urbanística en los sistemas distintos de expropiación."
-    },
-    {
-      "titulo": "Exenciones fiscales en transmisiones derivadas de la ejecución (Art. 159)",
-      "columnas": ["Impuesto", "Exención", "Condición"],
-      "filas": [
-        ["Transmisiones Patrimoniales y Actos Jurídicos Documentados", "Exención con carácter permanente", "Transmisiones o adjudicaciones en favor de propietarios de la unidad de ejecución, en proporción a sus derechos, y cumpliendo requisitos urbanísticos"],
-        ["Incremento del Valor de los Terrenos de Naturaleza Urbana", "No se consideran transmisiones de dominio", "Mismas condiciones que la exención anterior"]
-      ],
-      "nota": "Art. 159. Si el valor de los solares adjudicados excede del que proporcionalmente corresponde a los terrenos aportados, se giran liquidaciones por el exceso."
-    },
-    {
-      "titulo": "Garantías exigidas en distintos sistemas de actuación (Título IV, Cap. II)",
-      "columnas": ["Supuesto", "Garantía", "Cuantía / Condición"],
-      "filas": [
-        ["Proyecto de Urbanización ejecutado antes de aprobar instrumentos de gestión", "Fianza reglamentaria", "20% del costo de la urbanización + conformidad expresa de propietarios registrales"],
-        ["Programa de Actuación Urbanizadora (Agente Urbanizador)", "Garantía provisional", "2% del importe previsto de las obras de urbanización"],
-        ["Sistema de compensación", "Garantías ante la Administración", "Las que establezca el Ayuntamiento en la aprobación inicial del Proyecto de Reparcelación"],
-        ["Sistema de reparcelación voluntaria", "Garantías ante la Administración", "Las que establezca el Ayuntamiento en la aprobación inicial del Proyecto de Reparcelación"]
-      ],
-      "nota": "Arts. 134.6, 167.1, 168.1 y 174.2. Las garantías buscan asegurar la correcta ejecución de la actuación."
-    }
-  ],
-  "datos": [
-    "La ejecución del planeamiento requiere la aprobación definitiva del instrumento más detallado exigible según la clase de suelo (Art. 131.1).",
-    "En suelo urbano, si el Plan General contiene ordenación pormenorizada, es suficiente para ejecutar; en su defecto, se precisa Plan Especial de Actuación Urbana o Estudio de Detalle (Art. 131.2).",
-    "En suelo urbanizable, si el Plan General contiene ordenación pormenorizada propia de un Plan Parcial, es suficiente; en su defecto, se precisa Plan Parcial del Sector (Art. 131.3).",
-    "La ejecución de sistemas generales se lleva a cabo directamente o mediante Planes Especiales (Art. 131.4).",
-    "La competencia para ejecutar los planes corresponde a los Ayuntamientos, sin perjuicio de organismos o sociedades instrumentales y de la participación de particulares (Art. 132.1).",
-    "Corresponde al titular del Departamento competente en ordenación del territorio y urbanismo tramitar y, en su caso, aprobar documentos de gestión urbanística cuando se trate de actuaciones públicas promovidas por la Administración de la Comunidad Foral de Navarra o sus organismos o sociedades instrumentales (Art. 132.2).",
-    "Las unidades de ejecución en municipios de más de 3.000 habitantes (o que prevean alcanzar dicha población) y en municipios de más de 1.000 habitantes de la Comarca de Pamplona deben establecer plazos para su ejecución en la programación del plan; en el resto de municipios es potestativo (Art. 142.4).",
-    "La modificación de las unidades de ejecución delimitadas por el planeamiento se acuerda por el Ayuntamiento conforme al procedimiento del artículo 74 para Estudios de Detalle (Art. 143.2).",
-    "Si tras delimitar una unidad de ejecución se justifica su inviabilidad económica por cargas excesivas, el Ayuntamiento debe modificarla o autorizar una reducción de la contribución de los propietarios o una compensación a cargo de la Administración (Art. 144.2).",
-    "Se considera parcelación urbanística toda división o segregación de terrenos en dos o más lotes cuando tenga por finalidad permitir o facilitar actos de edificación o uso del suelo sometidos a licencia urbanística (Art. 145.2).",
-    "En ningún caso se consideran solares ni se permite edificar en los lotes resultantes de una parcelación ilegal (Art. 148.2).",
-    "Las licencias de parcelación y las declaraciones de innecesariedad se someten al régimen de licencias urbanísticas, pero el silencio administrativo siempre se entiende denegatorio (Art. 148.4).",
-    "La reparcelación exige la aplicación de los sistemas de actuación, salvo que resulte suficientemente equitativa la distribución de beneficios y cargas (Art. 149.3).",
-    "En la reparcelación, si la cuantía de los derechos de algunos propietarios no alcanza el 15% de la parcela mínima edificable, la adjudicación puede sustituirse por una indemnización en metálico (Art. 150.6).",
-    "No serán objeto de nueva adjudicación los terrenos edificados conforme al planeamiento, conservándose las propiedades primitivas (Art. 150.8.a).",
-    "En unidades de ejecución de gran magnitud sin mayoría de propietarios favorable a urbanizar en una sola fase, los proyectos de reparcelación y urbanización pueden establecer fases (Art. 151.1).",
-    "La aprobación definitiva del Proyecto de Reparcelación faculta a la Administración para la ocupación directa de terrenos necesarios para la ejecución de la urbanización y servicios comunes de cesión obligatoria y gratuita (Art. 133.4).",
-    "En el sistema de compensación, los propietarios que representen más del 35% de la superficie de la unidad de ejecución deben presentar el proyecto de Estatutos de la Junta de Compensación (Art. 162.1).",
-    "La aprobación definitiva de los Estatutos implica la incorporación automática de todos los propietarios al sistema de compensación (Art. 162.3).",
-    "En la Junta de Compensación, un representante de la Administración actuante forma parte del órgano rector en todo caso (Art. 165.3).",
-    "En el sistema del Agente Urbanizador, el Programa de Actuación Urbanizadora debe abarcar una o varias unidades de ejecución completas (Art. 172.2).",
-    "En el sistema de cooperación, la Administración puede exigir a los propietarios el pago de cantidades a cuenta de los gastos de urbanización por el importe correspondiente a las inversiones a realizar en los seis meses siguientes (Art. 176.1).",
-    "En el sistema de ejecución forzosa, la Comisión gestora se compone por representantes, a partes iguales, de los propietarios y de la Administración (Art. 179.2).",
-    "En el sistema de expropiación, la expropiación se aplica por unidades de ejecución completas y comprende todos los bienes y derechos incluidos en las mismas (Art. 185.2).",
-    "La ocupación directa para obtener terrenos dotacionales requiere la previa determinación por el Ayuntamiento del aprovechamiento subjetivo del titular y de la unidad de ejecución excedentaria donde se hará efectivo (Art. 189.1).",
-    "Transcurridos cuatro años desde la ocupación directa sin que se apruebe definitivamente el instrumento de redistribución de la unidad de ejecución, los propietarios afectados pueden solicitar al Ayuntamiento el inicio del expediente de justiprecio (Art. 189.4)."
-  ],
-  "excepciones": [
-    "Regla general: en suelo urbano consolidado, las obras aisladas previstas por el planeamiento se realizan mediante Proyectos de Obras Ordinarias. Excepción: las actuaciones asistemáticas pueden ser realizadas directamente por los propietarios previa licencia urbanística que recoja las condiciones del artículo 96.1 (Arts. 135.1 y 138.2).",
-    "Regla general: la aprobación definitiva del Proyecto de Reparcelación conlleva el levantamiento de la suspensión de licencias. Excepción: la suspensión se mantiene si no se ha producido dicha aprobación definitiva; los peticionarios de licencias suspendidas tienen derecho a indemnización por el coste oficial de los proyectos y devolución de tasas (Art. 152.2 y 152.3).",
-    "Regla general: en la reparcelación, el derecho de los propietarios es proporcional a la superficie de las parcelas. Excepción: los propietarios pueden adoptar por unanimidad otros criterios diferentes (Art. 150, párrafo introductorio).",
-    "Regla general: los terrenos con edificación no ajustada al planeamiento no se adjudican de nuevo. Excepción: cuando la diferencia entre el aprovechamiento que le corresponde conforme al plan y el que le correspondería en proporción a su derecho sea inferior al 15%, se conserva la propiedad primitiva (Art. 150.8.b).",
-    "Regla general: en la parcelación urbanística se exige licencia o aprobación de Proyecto de Reparcelación. Excepción: las parcelaciones rústicas solo requieren declaración previa de innecesariedad de licencia, y las operaciones de concentración parcelaria están exceptuadas de tal declaración (Art. 148.3).",
-    "Regla general: el silencio administrativo en licencias urbanísticas se rige por la ley foral. Excepción: en licencias de parcelación y declaraciones de innecesariedad, el silencio siempre se entiende denegatorio (Art. 148.4).",
-    "Regla general: en el sistema de compensación, todos los propietarios se incorporan automáticamente a la Junta tras la aprobación definitiva de los Estatutos. Excepción: los propietarios que no deseen participar pueden solicitar la expropiación de sus bienes y derechos antes de la aprobación inicial del Proyecto de Reparcelación, quedando excluidos (Art. 163).",
-    "Regla general: el Agente Urbanizador es responsable de los daños causados a propietarios o terceros por su actividad. Excepción: no será responsable cuando los daños tengan su origen en una orden directa de la Administración actuante o en el cumplimiento de una condición impuesta por ella (Art. 173.7).",
-    "Regla general: en el sistema de expropiación, la Administración obtiene todos los terrenos y ejecuta las obras. Excepción: los órganos expropiantes pueden liberar de la expropiación determinados bienes, imponiendo condiciones y garantías, quedando el liberado sujeto a los deberes urbanísticos básicos (Art. 186.1 y 186.2)."
-  ]
-},
-};
+  };
