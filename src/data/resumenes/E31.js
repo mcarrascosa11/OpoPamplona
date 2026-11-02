@@ -1,7 +1,14 @@
 // Resumen del tema E31. Formato: cabecera de src/data/resumenes.js.
+// Chequeo del 02-11-2026: vigencia a 21-05-2026 comprobada con el texto consolidado del BOE (BOE-A-2017-12907,
+// última actualización publicada el 31-12-2025: LF 16/2025, que solo añade el Título VII). En el Título IV la única
+// nota de vigencia del TXT es la del art. 187.3 (dotación supramunicipal), ya incorporada. Corregidos el representante
+// de la Administración actuante en la Junta (art. 165.3), la cooperación «con cargo a los propietarios» (art. 175.1) y los
+// umbrales «más del 35 %» y «al menos el 25 % de la superficie» de las claves. Añadidas dos tablas (reparcelación en
+// cada sistema; documentos del Programa de Actuación Urbanizadora) y datos y excepciones de los arts. 133, 152, 153,
+// 156, 159, 171, 173, 174, 179, 181 y 186.
 export default {
     intro:
-      "Título IV del TRLFOTU (DFL 1/2017), arts. 130-189: ejecución del planeamiento. Unidades de ejecución, parcelación y reparcelación, y los 6 sistemas de actuación (3 privados: compensación, reparcelación voluntaria y agente urbanizador; 3 públicos: cooperación, ejecución forzosa y expropiación). Tema de plazos y quórums.",
+      "Título IV del TRLFOTU (DFL 1/2017), arts. 130-189: ejecución del planeamiento. Unidades de ejecución, parcelación y reparcelación, y los 6 sistemas de actuación (3 privados: compensación, reparcelación voluntaria y agente urbanizador; 3 públicos: cooperación, ejecución forzosa y expropiación). Tema de plazos y quórums. Redacción vigente el 21-05-2026: en este título solo el art. 187.3 (dotación supramunicipal) procede de una modificación posterior a 2017, y ya está incorporado.",
     bloques: [
       {
         h: "Disposiciones generales (arts. 130-141)",
@@ -11,7 +18,7 @@ export default {
           "Obras antes de aprobar los instrumentos de gestión: solo con fianza del 20% del coste de urbanización + conformidad expresa de los propietarios registrales (art. 134.6)",
           "En SUC: Proyectos de Obras Ordinarias, por la LF de Administración Local (art. 135)",
           "Actuaciones asistemáticas: SUC (completar parcelas hasta solar); sistemáticas: SUNC y urbanizable mediante unidades de ejecución (arts. 137-138)",
-          "Realojo y retorno (art. 140): en expropiación, obligación de la expropiante/beneficiario; en asistemáticas de alquiler, del propietario",
+          "Realojo y retorno (art. 140): en expropiación, obligación de la expropiante/beneficiario; en los demás sistemas, de la Administración actuante (sin realojo para quien reciba aprovechamiento residencial superior a la superficie de vivienda protegida); en asistemáticas sin expropiación, retorno y alojamiento provisional de los inquilinos a cargo del propietario",
         ],
       },
       {
@@ -21,7 +28,7 @@ export default {
           "Programación de plazos obligatoria: municipios >3.000 hab (o que prevean alcanzarlos) y >1.000 hab en la Comarca de Pamplona (art. 142.4)",
           "Parcelación rústica = finalidad exclusiva explotación agraria; urbanística = facilitar edificación o uso sujeto a licencia (art. 145)",
           "Silencio en licencias de parcelación y declaración de innecesariedad: SIEMPRE DENEGATORIO (art. 148.4)",
-          "Reparcelación (art. 150): derechos <15% de la parcela mínima → indemnización en metálico; no se readjudican terrenos edificados conforme al plan ni los de diferencia <15%",
+          "Reparcelación (art. 150): derechos que no alcanzan el 15% de la parcela mínima → la adjudicación PUEDE sustituirse por indemnización en metálico; el exceso de aprovechamiento privado sobre los aprovechamientos subjetivos se adjudica a la Administración para el Patrimonio Municipal del Suelo; no se readjudican terrenos edificados conforme al plan ni los de diferencia <15%",
           "Reparcelación económica (art. 154): cuando la material no sea posible en más del 50% de la superficie",
           "Normalización de fincas (art. 155): solo linderos; no puede afectar al valor en más del 15%; audiencia de 15 días",
         ],
@@ -32,7 +39,7 @@ export default {
           "Recepción de obras de urbanización (art. 160.3): acto formal en 1 MES desde solicitud; silencio de 3 MESES = recibidas; garantía ≥1 año; vicios ocultos 15 AÑOS",
           "COMPENSACIÓN: estatutos presentados por >35% de la superficie; constitución de la Junta en 3 meses por escritura pública; la aprobación definitiva de estatutos incorpora automáticamente a todos los propietarios (art. 162)",
           "Exclusión (art. 163): solicitar expropiación ANTES de la aprobación inicial del proyecto de reparcelación; el Ayto. inicia la expropiación en 3 meses",
-          "Proyecto de Reparcelación: quórum >50% de la superficie (art. 164). Junta: naturaleza administrativa; recurso de ALZADA ante la Administración; representante municipal en el órgano rector; poder adjudicador si ejecuta obra pública (art. 165)",
+          "Proyecto de Reparcelación: quórum >50% de la superficie (art. 164). Junta: naturaleza administrativa; recurso de ALZADA ante la Administración actuante; un representante de la Administración actuante en el órgano rector, EN TODO CASO; cargos del órgano rector, necesariamente personas físicas; poder adjudicador si ejecuta obra pública (art. 165)",
           "REPARCELACIÓN VOLUNTARIA: unanimidad de propietarios o propietario único; Junta de Reparcelación por escritura (art. 168)",
           "AGENTE URBANIZADOR: seleccionado en pública competencia con un Programa de Actuación Urbanizadora (alternativa técnica + convenio + proposición jurídico-económica, art. 172); garantía provisional 2% de las obras; concurrencia pública 30 días; resolución en 40 días (art. 174)",
           "Propietario disconforme con retribución en terrenos: pago en metálico por conducto notarial en 10 días desde la aprobación del PAU (art. 173.2.b)",
@@ -41,7 +48,7 @@ export default {
       {
         h: "Sistemas públicos (arts. 175-186)",
         items: [
-          "COOPERACIÓN: propietarios aportan suelo, la Administración urbaniza a su costa; pagos a cuenta de inversiones de los 6 meses siguientes, plazo de pago ≥1 mes (art. 176); reparcelación formulada por el Ayto. o por >35% de la superficie (art. 177)",
+          "COOPERACIÓN: los propietarios aportan el suelo de cesión obligatoria y la Administración ejecuta la urbanización CON CARGO A LOS PROPIETARIOS (art. 175.1); pagos a cuenta de inversiones de los 6 meses siguientes, plazo de pago ≥1 mes (art. 176); reparcelación formulada por el Ayto. o por >35% de la superficie (art. 177)",
           "EJECUCIÓN FORZOSA: a instancia de ≥25% de la superficie, por: no presentar estatutos en 6 meses / no constituir Junta en 3 meses / no presentar reparcelación en 6 meses (art. 178.2); adhesión de propietarios: 15 días prorrogables",
           "Comisión Gestora: paritaria propietarios-Administración; presidente elegido ENTRE los representantes de la Administración, con voto de calidad (art. 179.2)",
           "Pago de obras en terrenos: requiere asentimiento de propietarios >40% (art. 182.3)",
@@ -64,10 +71,10 @@ export default {
       "Programación de plazos: >3.000 hab o >1.000 Comarca Pamplona (art. 142.4)",
       "Silencio parcelación: SIEMPRE negativo (art. 148.4)",
       "Recepción obras: 1 mes acto formal; silencio 3 meses = recibidas; garantía ≥1 año; vicios ocultos 15 años (art. 160.3)",
-      "Compensación: 35% presenta estatutos → 3 meses constituir Junta → >50% aprueba reparcelación",
+      "Compensación: >35% de la superficie presenta estatutos → 3 meses para constituir la Junta → >50% de la superficie aprueba la reparcelación",
       "Junta de Compensación: recurso de alzada; fiduciaria; poder adjudicador",
       "Agente urbanizador: garantía 2%; concurrencia 30 días; resolución 40 días; metálico por conducto notarial 10 días",
-      "Ejecución forzosa: 25% propietarios; 6/3/6 meses; Comisión paritaria con presidente de la Administración",
+      "Ejecución forzosa: propietarios con ≥25% de la superficie; 6/3/6 meses; Comisión paritaria con presidente de la Administración",
       "Cooperación: reparcelación por Ayto. o >35%; pagos a cuenta 6 meses",
       "SUC: dotaciones por expropiación (art. 188)",
       "Ocupación directa: 4 años sin redistribución → justiprecio a los 6 meses (art. 189.4)",
@@ -187,6 +194,28 @@ export default {
             ["Solicitud de inicio del expediente", "6 meses desde la solicitud", "Inicio por ministerio de la ley"]
           ],
           nota: "DFL 1/2017, art. 189.2.b y 189.4. Los cuatro años se cuentan desde la ocupación; los seis meses, desde la solicitud. Existe además derecho a indemnización por ocupación temporal (art. 189.3)."
+        },
+        {
+          titulo: "TRLFOTU · el Proyecto de Reparcelación en cada sistema",
+          columnas: ["Sistema", "Quién lo formula o aprueba", "Regla que lo distingue"],
+          filas: [
+            ["Compensación", "La Junta de Compensación lo formula y aprueba con el quórum de propietarios que representen más del 50% de la superficie de la unidad (art. 164)", "Quien no quiera participar pide la expropiación antes de la aprobación inicial del proyecto (art. 163)"],
+            ["Reparcelación voluntaria", "La totalidad de los propietarios afectados, con un único representante ante la Administración actuante (art. 169.a)", "Si el Ayuntamiento lo acuerda en la aprobación inicial y no hay alegaciones, no hace falta aprobación definitiva expresa (art. 169.c)"],
+            ["Agente Urbanizador", "El Agente somete a aprobación, a falta de acuerdo con los afectados, uno o varios proyectos de reparcelación, y es oído antes de aprobarlos (art. 173.4.a)", "Puede oponerse a la parcelación y a la edificación hasta el pleno cumplimiento del Programa (art. 173.4.b)"],
+            ["Cooperación", "El Ayuntamiento, de oficio o a instancia de alguno de los propietarios, o los propietarios con más del 35% de la superficie reparcelable (art. 177)", "La Administración puede exigir anticipos por las inversiones de los 6 meses siguientes, con plazo de pago no inferior a 1 mes (art. 176.1)"],
+            ["Ejecución forzosa", "La Comisión gestora acuerda su iniciación en su primera sesión (art. 181.1)", "Puede incluir suelo para sufragar los costes y para cubrir rectificaciones y desajustes en la liquidación (art. 181.1.a y b)"]
+          ],
+          nota: "DFL 1/2017, arts. 152 y 163-181. Común a todos: se tramita por el procedimiento del art. 74 (Estudios de Detalle), con la iniciativa en el marco del sistema de actuación (art. 152.1); con la aprobación inicial puede suspenderse el otorgamiento de licencias de parcelación y edificación (art. 152.2); es ejecutivo desde la aprobación definitiva, que se publica en el BON, y después se inscribe en el Registro de la Propiedad (art. 152.3-4). En expropiación se aprueba además la relación de propietarios y bienes tras 15 días de información pública (art. 185.3)."
+        },
+        {
+          titulo: "TRLFOTU · documentos del Programa de Actuación Urbanizadora (art. 172.3)",
+          columnas: ["Documento", "Contenido"],
+          filas: [
+            ["a) Alternativa técnica", "a.1) Asunción de la ordenación detallada del Plan General Municipal, o propuesta de Plan Parcial o de Plan Especial de Actuación Urbana que ordene detalladamente el sector o modifique la del Plan; a.2) anteproyecto de urbanización con las características básicas de las obras"],
+            ["b) Propuesta de convenio urbanístico", "Entre el adjudicatario, la Administración actuante y los propietarios afectados: compromisos, plazos, garantías y penalizaciones"],
+            ["c) Proposición jurídico-económica", "c.1) Relaciones entre urbanizador y propietarios (disponibilidad de los terrenos, acuerdos alcanzados y modo de retribución); c.2) estimación de la totalidad de los gastos de urbanización; c.3) proporción de solares que retribuye al urbanizador, o cuotas si se paga en metálico, con el posible recargo por beneficio o gestión; c.4) incidencia económica de los compromisos de edificar con fines de interés social"]
+          ],
+          nota: "DFL 1/2017, arts. 172 y 174. El Programa abarca una o varias unidades de ejecución completas y puede promoverlo cualquier persona física o jurídica, propietaria o no (art. 172.1-2). Concurrencia pública de 30 días con anuncio en el BON y en los periódicos editados en Navarra; garantía provisional del 2% del importe previsto de las obras; resolución en 40 días desde el fin del plazo de presentación de propuestas (art. 174)."
         }
       ],
       datos: [
@@ -200,7 +229,15 @@ export default {
         "La Junta actúa como fiduciaria con poder dispositivo sobre las fincas; las cesiones obligatorias se transmiten por ley al aprobar definitivamente la reparcelación (art. 166).",
         "Programa de Actuación Urbanizadora: una o varias unidades completas; alternativa técnica, propuesta de convenio y proposición jurídico-económica (art. 172).",
         "Comisión Gestora: igual representación de propietarios y Administración; todos sus miembros eligen presidente entre los representantes administrativos, con voto de calidad (art. 179.2).",
-        "En ejecución forzosa, la Comisión inicia la reparcelación en su primera sesión; todos los propietarios integran la comunidad de reparto, aunque no se adhieran a la gestión (arts. 178.4 y 181.1)."
+        "En ejecución forzosa, la Comisión inicia la reparcelación en su primera sesión; todos los propietarios integran la comunidad de reparto, aunque no se adhieran a la gestión (arts. 178.4 y 181.1).",
+        "Proyecto de distribución de costes comunes (art. 133): exposición pública de 15 días y notificación de la aprobación inicial a cada propietario; puede basarse en un proyecto constructivo básico, que forma parte inseparable de él; reparto proporcional al aprovechamiento de cada unidad; coeficiente temporal con previsión de desarrollo por cuatrienios; cada parcela resultante queda gravada con dos saldos (obras comunes y urbanización de la unidad) de igual categoría jurídica; su aprobación definitiva faculta para la ocupación directa de los terrenos de cesión necesarios, y cada unidad abona su cuota cuando se emite el certificado final de las obras comunes.",
+        "Transmisiones de terrenos y adjudicaciones de solares a los propietarios de la unidad en proporción a sus derechos: exentas con carácter permanente del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados si cumplen todos los requisitos urbanísticos, y no son transmisiones de dominio a efectos del Impuesto sobre el Incremento del Valor de los Terrenos de Naturaleza Urbana; el exceso sobre lo que corresponde a lo aportado sí tributa (art. 159).",
+        "Suspensión de licencias acordada con la aprobación inicial de la reparcelación: los peticionarios afectados tienen derecho a la indemnización del coste oficial de los proyectos y a la devolución, en su caso, de las tasas (art. 152.2).",
+        "Liquidación definitiva de la reparcelación: al concluir la urbanización y, en todo caso, antes de que venzan los plazos del proyecto; la redacta la entidad urbanística colaboradora en los sistemas privados o la Administración actuante en los públicos, y se tramita y aprueba como el proyecto (art. 153.2).",
+        "Vías públicas de la unidad: las no urbanas se entienden de propiedad municipal, salvo prueba en contrario; las urbanas que deben desaparecer se sustituyen por las nuevas y se transmiten de pleno derecho a la Administración actuante (art. 156).",
+        "Agente Urbanizador (art. 171): se acude a él cuando lo determine el planeamiento o la delimitación de la unidad; cuando, incumplidos los plazos por los propietarios o la Administración, lo solicite un Agente presentando un Programa; o cuando la Administración lo juzgue conveniente. En su actuación tiene la consideración jurídica de la Junta de Compensación.",
+        "Comisión gestora (art. 179.4): además del control que la ley da sobre las Juntas de Compensación, la Administración actuante resuelve los recursos contra sus acuerdos, puede inspeccionarla en cualquier momento y aprueba la cuenta de liquidación final.",
+        "Ejecución forzosa: si los terrenos ocupados son la única o predominante fuente de ingresos del propietario, tiene derecho a una indemnización equivalente a la rentabilidad demostrada entre la ocupación efectiva y la adjudicación o la expropiación de su derecho (art. 181.3)."
       ],
       excepciones: [
         "Tramitar juntos planeamiento y gestión no permite ejecutar sin aprobar el primero; anticipar obras a la aprobación definitiva de la gestión exige conjuntamente fianza del 20% y consentimiento registral expreso (arts. 134.6 y 141).",
@@ -211,7 +248,10 @@ export default {
         "Salir de compensación exige pedir expropiación antes de aprobar inicialmente la reparcelación; con Agente Urbanizador, la renuncia a cooperar se formaliza en documento público antes de aprobar el Programa (arts. 163 y 173.3).",
         "La reparcelación voluntaria puede pasar de aprobación inicial a definitiva sin acuerdo expreso posterior solo si el Ayuntamiento lo previó en la inicial y no hubo alegaciones (art. 169.c).",
         "Las Juntas de Compensación y Reparcelación son poderes adjudicadores en cuanto ejecutan obra pública de urbanización; esa condición no depende de que el sistema sea público (art. 165.6).",
-        "La liberación de expropiación mantiene los deberes urbanísticos y las garantías; si ya hubo pago y ocupación, exige previa reversión del bien (art. 186)."
+        "La liberación de expropiación mantiene los deberes urbanísticos y las garantías; si ya hubo pago y ocupación, exige previa reversión del bien (art. 186).",
+        "El Agente Urbanizador responde de los daños causados a los propietarios o a otras personas por su actividad o por falta de diligencia, salvo que tengan su origen en una orden directa de la Administración actuante o en el cumplimiento de una condición impuesta por ella (art. 173.7).",
+        "El Ayuntamiento puede rechazar razonadamente todas las iniciativas de Programa y resolver la no programación del terreno, convocar concurso o acudir a la gestión directa (art. 174.5). El adjudicatario puede renunciar a la adjudicación si esta supone compromisos distintos de los que él ofreció; la renuncia por otras causas, no justificadas, conlleva, en su caso, la pérdida de las garantías provisionales y la selección de un nuevo adjudicatario (art. 174.7).",
+        "En la liberación de expropiaciones, si el expropiante no es el Ayuntamiento, se oirá a éste; el incumplimiento de los deberes fijados en la resolución liberatoria lleva a la expropiación por incumplimiento de la función social de la propiedad o a la vía de apremio (art. 186.4-5)."
       ]
     },
   };

@@ -18,11 +18,11 @@ export default {
         ],
       },
       {
-        h: "Título I — Competencias y organización (arts. 10-22)",
+        h: "Título I — Competencias, organización y convenios (arts. 10-26)",
         nota:
           "La regla de reparto es una cláusula residual a favor del municipio: la actividad urbanística corresponde con carácter general a los Municipios, que ejercen cuantas competencias no estén expresamente atribuidas a otras Administraciones. A la Comunidad Foral le quedan la ordenación territorial completa y, en urbanismo, esencialmente el control de legalidad mediante la aprobación definitiva de los Planes Generales.",
         items: [
-          "COMUNIDAD FORAL (art. 10): le corresponde íntegramente la función pública de ordenación del territorio —formulación, aprobación y ejecución de los instrumentos territoriales—. En materia urbanística: la dirección e impulso de la actividad · la COORDINACIÓN Y EL CONTROL DE LEGALIDAD del planeamiento, especialmente mediante la APROBACIÓN DEFINITIVA DE LOS PLANES GENERALES MUNICIPALES · la formulación de Planes urbanísticos de conjunto y la aprobación definitiva de Planes Parciales y Especiales que afecten a varios municipios en defecto de acuerdo · y la cooperación y asistencia a los Municipios",
+          "COMUNIDAD FORAL (art. 10): le corresponde la función pública de ordenación del territorio —y en particular la formulación, aprobación y ejecución de los instrumentos territoriales—, sin perjuicio de la participación y colaboración de otras Administraciones públicas y de los ciudadanos. En materia urbanística: la dirección e impulso de la actividad · la COORDINACIÓN Y EL CONTROL DE LEGALIDAD del planeamiento, especialmente mediante la APROBACIÓN DEFINITIVA DE LOS PLANES GENERALES MUNICIPALES · la formulación de Planes urbanísticos de conjunto y la aprobación definitiva de Planes Parciales y Especiales que afecten a varios municipios en defecto de acuerdo · y la cooperación y asistencia a los Municipios",
           "MUNICIPIOS (art. 11): la actividad urbanística pública les corresponde CON CARÁCTER GENERAL, ejerciendo cuantas competencias no estén expresamente atribuidas a otras Administraciones",
           "SUBROGACIÓN (art. 12): el incumplimiento por una Entidad Local de las obligaciones impuestas directamente por la ley foral faculta al titular del Departamento para adoptar las medidas necesarias A CUENTA Y EN SUSTITUCIÓN de aquélla. También le corresponde subrogarse en el ejercicio de la POTESTAD EXPROPIATORIA ante la inactividad municipal frente al incumplimiento de deberes urbanísticos",
           "Cuatro ÓRGANOS forales (art. 13.1): el Gobierno de Navarra · el Departamento competente · la COMISIÓN DE ORDENACIÓN DEL TERRITORIO · el CONSEJO SOCIAL DE POLÍTICA TERRITORIAL",
@@ -55,7 +55,7 @@ export default {
         items: [
           "PLANES Sectoriales (art. 42.1): actuaciones RESIDENCIALES, de ACTIVIDAD ECONÓMICA o el desarrollo de planes y políticas públicas cuya incidencia trascienda del municipio o municipios sobre los que se asienten. PROYECTOS Sectoriales (art. 42.2): implantación de INFRAESTRUCTURAS O INSTALACIONES del sistema de transportes, hidráulicas, de gestión ambiental, energéticas, de telecomunicación y análogas",
           "Sus determinaciones VINCULAN al planeamiento de los entes locales afectados, que además deberán adaptar su planeamiento con ocasión de su revisión o modificación cuando el objeto de ésta se vea directamente afectado (art. 42.3)",
-          "Corresponde al GOBIERNO DE NAVARRA declarar un Plan o Proyecto como de Incidencia Supramunicipal, motivando y justificando en el expediente que afecta a la ordenación en ámbito supramunicipal con función vertebradora, que la declaración es necesaria para su adecuada inserción territorial, y que se ha sometido previamente a un PLAN DE PARTICIPACIÓN pública (art. 42.4)",
+          "Corresponde al GOBIERNO DE NAVARRA declarar un Plan o Proyecto como de Incidencia Supramunicipal, motivando y justificando en el expediente: que afecta a la ordenación del territorio en un ámbito supramunicipal y, o bien tiene función vertebradora y estructurante, o bien desarrolla políticas sectoriales públicas, o bien responde a legislación foral sectorial · que la declaración es necesaria para su adecuada inserción en el territorio · y que antes se ha sometido a un PLAN DE PARTICIPACIÓN pública con los agentes sociales y territoriales afectados (art. 42.4)",
           "CESIÓN DEL 10 POR 100 (art. 43.2): el desarrollo de un Plan Sectorial debe prever la cesión a los Ayuntamientos afectados del 10 % DEL APROVECHAMIENTO LUCRATIVO susceptible de tráfico inmobiliario, LIBRE DE CARGAS de urbanización y cualesquiera otras, en proporción a la superficie de su término incluida en el área de actuación. No computan como aprovechamiento lucrativo los equipamientos y dotaciones públicas de uso o servicio públicos",
           "INICIATIVA PARTICULAR (arts. 43.3 y 44.3): deben contener además estudio de viabilidad y sostenibilidad económica y duración estimada, y los compromisos del promotor, que es OBLIGATORIO GARANTIZAR. La garantía total NO PODRÁ SER INFERIOR AL 6 POR CIENTO del coste de implantación de los servicios y ejecución de las obras de urbanización",
           "Procedimiento (art. 45.2): el promotor lo somete a consideración del Gobierno · el Departamento, previo informe de la Comisión de Ordenación del Territorio, eleva propuesta de aprobación o desestimación de la DECLARACIÓN · el Gobierno declara la incidencia supramunicipal · se publica en el BON y se somete el expediente por plazo mínimo de UN MES a información pública y audiencia a los Ayuntamientos · informadas las alegaciones, nuevo informe de la Comisión · el Gobierno acuerda la aprobación",
@@ -67,7 +67,7 @@ export default {
       {
         h: "Determinaciones estructurantes y pormenorizadas (arts. 48-50)",
         nota:
-          "Esta es la distinción capital del tema, porque decide el instrumento y la Administración competente: lo estructurante lo aprueba definitivamente el Gobierno de Navarra y lo pormenorizado el Ayuntamiento. Regla mental: estructurante es lo que define el MODELO —clases de suelo, sectores, sistemas generales, edificabilidad y usos globales del urbanizable, normas de protección del no urbanizable, áreas de patrimonio municipal—; pormenorizado es todo lo que permite ejecutar materialmente —alineaciones, condiciones de parcela y edificación, usos pormenorizados, sistemas locales, fuera de ordenación, unidades de ejecución y sistemas de actuación, plazos, catálogo y áreas de reparto—.",
+          "Esta es la distinción capital del tema, porque decide el instrumento y la Administración competente: lo estructurante lo aprueba definitivamente la Administración foral —el titular del Departamento competente, arts. 71.16 y 77.2.e— y lo pormenorizado, el Ayuntamiento (arts. 72 y 77.3). Regla mental: estructurante es lo que define el MODELO —clases de suelo, sectores, sistemas generales, edificabilidad y usos globales del urbanizable, normas de protección del no urbanizable, áreas de patrimonio municipal—; pormenorizado es todo lo que permite ejecutar materialmente —alineaciones, condiciones de parcela y edificación, usos pormenorizados, sistemas locales, fuera de ordenación, unidades de ejecución y sistemas de actuación, plazos, catálogo y áreas de reparto—.",
         items: [
           "Instrumentos de planeamiento urbanístico municipal (art. 48.2): el PLAN GENERAL MUNICIPAL sobre la extensión completa del término, y los planes de desarrollo —PLANES PARCIALES, PLANES ESPECIALES, PLANES ESPECIALES DE ACTUACIÓN URBANA y ESTUDIOS DE DETALLE—. Pueden formularse además PLANES ESPECIALES INDEPENDIENTES sin desarrollar el Plan General. También son instrumentos de ordenación los CATÁLOGOS y las ORDENANZAS de Edificación y de Urbanización (art. 48.3)",
           "ESTRUCTURANTES (art. 49.2): el señalamiento de las CLASES de suelo y, en no urbanizable, de sus categorías y subcategorías · la delimitación de los SECTORES con sus criterios y condiciones básicas · la definición de los SISTEMAS GENERALES de vías públicas, servicios urbanos, espacios libres y equipamientos al servicio de toda la población · en suelo urbanizable, la EDIFICABILIDAD MÁXIMA y los USOS GLOBALES de cada sector y el porcentaje obligatorio de VIVIENDA PROTEGIDA · las NORMAS DE PROTECCIÓN del suelo no urbanizable · y la delimitación de áreas de reserva para PATRIMONIO MUNICIPAL DE SUELO",
@@ -78,7 +78,7 @@ export default {
       {
         h: "Estándares de vivienda protegida (art. 54)",
         nota:
-          "El artículo más numérico del tema y de aplicación directa en Pamplona, que queda en el tramo del 50 % por estar en el ámbito del planeamiento supramunicipal de la Comarca. Fíjate en que los tres tramos no solo cambian de porcentaje, sino también de tipos de actuación computables: solo el tramo del 50 % incluye las actuaciones de SUSTITUCIÓN, y el tramo del 20 % excluye además las de dotación.",
+          "El artículo más numérico del tema y de aplicación directa en Pamplona, que queda en el tramo del 50 % por estar en el ámbito del planeamiento supramunicipal de la Comarca. Fíjate en que los tres tramos no solo cambian de porcentaje, sino también de tipos de actuación computables: solo el tramo del 50 % incluye las actuaciones de SUSTITUCIÓN, y el tramo del 20 % excluye además las de dotación. Vigencia: el art. 54 se rige por la redacción que le dio la Ley Foral 20/2022, de 1 de julio, con efectos desde el 29-07-2022 (comprobado en el BOE), que es la que aquí se resume; la redacción original de 2017 era muy distinta y no se estudia.",
         items: [
           "TRAMO DEL 50 %: municipios incluidos en el ámbito del planeamiento supramunicipal de la COMARCA DE PAMPLONA y municipios de población igual o superior a 10.000 habitantes — el 50 % de la nueva capacidad residencial en actuaciones de nueva urbanización, DOTACIÓN, SUSTITUCIÓN y renovación o reforma de la urbanización. Si el incremento de viviendas es IGUAL O INFERIOR A 3, el Ayuntamiento puede reducir o eliminar el estándar por acuerdo de mayoría simple del Pleno",
           "TRAMO DEL 35 %: municipios de población igual o superior a 2.000 e inferior a 10.000 habitantes — el 35 % de la nueva capacidad residencial en actuaciones de nueva urbanización, dotación y renovación o reforma. Umbral de dispensa: incremento IGUAL O INFERIOR A 10 viviendas",
@@ -92,7 +92,7 @@ export default {
       {
         h: "Estándares dotacionales y de aparcamiento (art. 55)",
         nota:
-          "Los módulos del art. 55 son de aplicación diaria al informar un plan parcial, y hay que tenerlos memorizados con su unidad, porque el examen juega con cambiarla. Observa que los espacios libres aparecen dos veces con criterios distintos: como SISTEMA GENERAL, 5 m²/habitante o 15 m² por cada 100 m² construidos; y como DOTACIÓN LOCAL dentro del sector, 20 m² por cada 100 m² construidos con un mínimo del 10 % de la superficie del sector.",
+          "Los módulos del art. 55 son de aplicación diaria al informar un plan parcial, y hay que tenerlos memorizados con su unidad, porque el examen juega con cambiarla. Observa que los espacios libres aparecen dos veces con criterios distintos: como SISTEMA GENERAL, 5 m²/habitante o 15 m² por cada 100 m² construidos; y como DOTACIÓN LOCAL dentro del sector, 20 m² por cada 100 m² construidos con un mínimo del 10 % de la superficie del sector. Vigencia: el art. 55 se estudia en su redacción vigente, tras las modificaciones de la Ley Foral 5/2020 (apartado 6) y de la Ley Foral 9/2025, de 30 de junio, en vigor desde el 12-07-2025; el texto del tema ya la recoge (por ejemplo, la reserva supramunicipal se califica para viviendas protegidas y alojamientos dotacionales, y no para «otros usos residenciales» como en 2017).",
         items: [
           "SISTEMA GENERAL de espacios libres públicos (art. 55.3.a): superficie conjunta útil NO INFERIOR A 5 M² POR HABITANTE o de 15 M² POR CADA 100 M² CONSTRUIDOS de uso residencial, referido a la capacidad total máxima de los suelos urbanos y urbanizables. Pueden exceptuarse los núcleos de población INFERIORES A 500 HABITANTES a criterio del Departamento",
           "DOTACIONES LOCALES en sectores de suelo urbanizable residencial (art. 55.3.b): reservas no inferiores a 50 M² POR CADA 115 M² CONSTRUIDOS de uso residencial, con independencia de los sistemas generales interiores. De esa reserva, la destinada específicamente a ZONAS VERDES Y ESPACIOS LIBRES no será inferior a 20 M² POR CADA 100 M² CONSTRUIDOS NI AL 10 % DE LA SUPERFICIE TOTAL DEL SECTOR, sin computar los sistemas generales incluidos",
@@ -160,7 +160,7 @@ export default {
       },
     ],
     claves: [
-      "Participación: mínimo 20 DÍAS de exposición pública para cualquier instrumento; proceso consultivo PREVIO A LA APROBACIÓN INICIAL en POT, PGM, Parciales, Especiales, PEAU y modificaciones con nueva urbanización",
+      "Participación: mínimo 20 DÍAS de exposición pública para cualquier instrumento; proceso consultivo PREVIO A LA APROBACIÓN INICIAL en los instrumentos territoriales del art. 28.1, PGM, Parciales, Especiales, PEAU y modificaciones con nueva urbanización",
       "Información urbanística: se resuelve en DOS MESES y la denegación motivada AGOTA la vía administrativa",
       "Cláusula residual: la actividad urbanística corresponde a los MUNICIPIOS salvo atribución expresa a otra Administración",
       "Comisión de Ordenación del Territorio: consultiva y de coordinación, con CUATRO representantes de los Ayuntamientos (FNMC)",
@@ -168,7 +168,7 @@ export default {
       "Determinaciones territoriales: vinculantes SOBRE EL TERRITORIO (aplicación directa, prevalecen sobre el plan local) · vinculantes PARA LA PLANIFICACIÓN · orientativas",
       "Estrategia Territorial: ORIENTATIVA y la aprueba el PARLAMENTO · POT: VINCULANTE salvo declaración expresa en contra y lo aprueba el GOBIERNO por decreto foral",
       "POT: vigencia indefinida; la modificación no necesita fase de AVANCE; revisión/modificación a instancia de UN TERCIO de las entidades locales",
-      "PSIS: cesión del 10 % del aprovechamiento lucrativo a los Ayuntamientos · garantía del 6 % en iniciativa particular · silencio NEGATIVO a los 4 MESES · extinción si pasan 2 AÑOS sin iniciar",
+      "PSIS: cesión del 10 % del aprovechamiento lucrativo a los Ayuntamientos · garantía del 6 % en iniciativa particular · silencio NEGATIVO a los 4 MESES si son de iniciativa privada · extinción si pasan 2 AÑOS sin iniciar",
       "PSIS declarados de interés general: EXENTOS de licencia municipal, pero no de las obligaciones tributarias",
       "ESTRUCTURANTE: clases de suelo, sectores, sistemas generales, edificabilidad y usos globales del urbanizable, protección del no urbanizable, patrimonio municipal de suelo",
       "PORMENORIZADA: alineaciones y rasantes, condiciones de parcela y edificación, usos pormenorizados, sistemas locales, fuera de ordenación, unidades de ejecución y sistemas de actuación, plazos, catálogo, áreas de reparto",
@@ -244,9 +244,9 @@ export default {
           "No es el 60 % de todas las viviendas libres y protegidas del sector (54.4.a)"
         ],
         [
-          "Número de viviendas protegidas ≤ 3",
+          "Número de viviendas igual o inferior a 3",
           "100 % deben ser VPO",
-          "Sustituye la proporción ordinaria del 60 % (54.4.a)"
+          "Sustituye la proporción ordinaria del 60 % (54.4.a: «salvo si el número de viviendas es igual o inferior a 3»)"
         ],
         [
           "En tramos 50 % y 35 %, si resultan ≥ 10 VPO",
@@ -323,7 +323,7 @@ export default {
           "El umbral incluye exactamente 300 m²; no se aplica automáticamente a una parcela mayor (55.6)"
         ]
       ],
-      "nota": "Fuente: art. 55.3.a–c y 55.6 del TXT E29, contrastados con el texto consolidado del DFL 1/2017. No confundir el 10 % del sector de zonas verdes locales residenciales con el 10 % de grandes zonas verdes de los polígonos industriales: la base coincide, pero el ámbito y las otras condiciones son distintos."
+      "nota": "Fuente: art. 55.3.a–c y 55.6 del texto del tema, que coincide con la redacción vigente del DFL 1/2017 (tras la LF 9/2025). No confundir el 10 % del sector de zonas verdes locales residenciales con el 10 % de grandes zonas verdes de los polígonos industriales: la base coincide, pero el ámbito y las otras condiciones son distintos."
     },
     {
       "titulo": "ART. 55.4 · Aparcamientos: módulos de residencial, espacio público, comercial e industrial",
@@ -478,7 +478,7 @@ export default {
         [
           "Proyecto Sectorial de iniciativa PARTICULAR",
           "Garantía ≥ 6 %",
-          "Coste de implantación de servicios y ejecución de urbanización, conforme al TXT",
+          "Coste de implantación de los servicios y ejecución de las obras de urbanización, según la evaluación económica del propio Proyecto",
           "44.3.b"
         ],
         [
@@ -494,9 +494,9 @@ export default {
           "61.3"
         ],
         [
-          "Obras con demanda energética reducida",
-          "≥ 30 % de DEMANDA ANUAL de calefacción o refrigeración",
-          "Determinados efectos de ocupación/aprovechamiento de espacios del PEAU; comprobar clase de obra",
+          "PEAU: obras de mejora energética del edificio",
+          "Reducir al menos un 30 % la DEMANDA ANUAL de calefacción o refrigeración",
+          "Se les extiende la regla del 62.7.a: ocupación de los espacios libres o de dominio público indispensables cuando no haya otra solución viable, y el Plan Especial garantiza que esas superficies no computen a efectos de volumen ni de distancias, o aplica otra técnica con la misma finalidad",
           "62.7.b"
         ],
         [
@@ -518,7 +518,7 @@ export default {
           "59.1–3"
         ]
       ],
-      "nota": "Estos umbrales se han contrastado con el TXT E29. El 3 % del Plan Parcial se refiere al AJUSTE de superficie del sector, y el 10 % del PEAU integrado se refiere a suelo no urbanizable reclasificable para dotaciones/infraestructuras; no son porcentajes intercambiables."
+      "nota": "Estos umbrales están en el texto del tema (Título II). El 3 % del Plan Parcial se refiere al AJUSTE de superficie del sector, y el 10 % del PEAU integrado se refiere a suelo no urbanizable reclasificable para dotaciones/infraestructuras; no son porcentajes intercambiables."
     },
     {
       "titulo": "E29 · Plazos de tramitación, suspensión y vigencia que conviene memorizar",
@@ -584,9 +584,9 @@ export default {
           "46.1–2"
         ],
         [
-          "Suspensión POT/PGM de licencias antes de aprobación inicial",
+          "Suspensión potestativa de licencias antes de la aprobación inicial de un plan urbanístico",
           "Máximo 1 AÑO",
-          "Desde acuerdo previo de suspensión; si la inicial llega después, puede haber otro año",
+          "Se extingue en todo caso al año; si la aprobación inicial llega después de ese año, la suspensión que deriva de ella dura también un máximo de un año",
           "70.3"
         ],
         [
@@ -674,7 +674,7 @@ export default {
           "83"
         ]
       ],
-      "nota": "Fuente: artículos indicados del TXT E29. No convertir los plazos expresados en días en 'hábiles' o 'naturales' si el apartado no lo precisa. La suspensión previa más la derivada de aprobación inicial tiene un máximo conjunto de 2 años desde el acuerdo previo cuando este desemboca en aprobación inicial dentro del primer año (art. 70.3)."
+      "nota": "Fuente: artículos indicados del texto del tema. No convertir los plazos expresados en días en 'hábiles' o 'naturales' si el apartado no lo precisa. La suspensión previa más la derivada de aprobación inicial tiene un máximo conjunto de 2 años desde el acuerdo previo cuando este desemboca en aprobación inicial dentro del primer año (art. 70.3)."
     },
     {
       "titulo": "Plazos de información pública y participación ciudadana en instrumentos de ordenación territorial y urbanística",
@@ -689,7 +689,7 @@ export default {
         ["Convenios de gestión urbanística", "20 días hábiles de información pública desde su publicación en el BON", "Administración actuante", "Art. 25.5"],
         ["Estudios de Detalle", "20 días de información pública", "Ayuntamiento", "Art. 74.b"]
       ],
-      "nota": "Fuente: arts. 7, 25, 33, 36, 40, 45, 72 y 74 del texto refundido. La regla general del art. 7.2 exige un período no menor de 20 días para cualquier instrumento. En los convenios de gestión el plazo se expresa en días hábiles; en los demás casos el TXT no especifica si son naturales o hábiles, por lo que no se deduce."
+      "nota": "Fuente: arts. 7, 25, 33, 36, 40, 45, 72 y 74 del texto refundido. La regla general del art. 7.2 exige un período no menor de 20 días para cualquier instrumento. En los convenios de gestión el plazo se expresa en días hábiles; en los demás casos el texto no especifica si son naturales o hábiles, por lo que no se deduce."
     },
     {
       "titulo": "Competencias en ordenación del territorio y urbanismo (arts. 10-12 LFOTU)",
@@ -710,7 +710,7 @@ export default {
       "titulo": "Órganos de la Administración de la Comunidad Foral en ordenación del territorio y urbanismo (arts. 13-15 LFOTU)",
       "columnas": ["Órgano", "Naturaleza", "Funciones principales", "Referencia"],
       "filas": [
-        ["Gobierno de Navarra", "Órgano superior", "Aprobación de Planes de Ordenación Territorial, Planes Directores de Acción Territorial y Planes/Proyectos Sectoriales de Incidencia Supramunicipal, mediante decreto foral", "Art. 13.1.a; arts. 36.6, 40.5, 45.2.f"],
+        ["Gobierno de Navarra", "Órgano superior", "Aprueba mediante decreto foral los Planes de Ordenación Territorial y los Planes Directores de Acción Territorial; declara la incidencia supramunicipal y aprueba los Planes y Proyectos Sectoriales; actualiza la Estrategia Territorial (que aprueba el Parlamento)", "Art. 13.1.a; arts. 33.9, 36.6, 40.5, 45.2.c y f"],
         ["Departamento competente en ordenación del territorio y urbanismo", "Órgano de la Administración Foral", "Elaboración de instrumentos, propuesta de aprobación al Gobierno, aprobación de modificaciones de determinaciones pormenorizadas de Planes Sectoriales, autorización de adaptaciones de Proyectos Sectoriales, actualización de Planes de Ordenación Territorial y Planes de Acción Territorial", "Art. 13.1.b; arts. 36.5, 37.7, 41.5, 45.5"],
         ["Comisión de Ordenación del Territorio", "Órgano consultivo y de coordinación", "Informar Estrategia Territorial, Planes de Ordenación Territorial, Planes y Proyectos Sectoriales, Planes con Incidencia en la Ordenación del Territorio y emitir informe consultivo no vinculante cuando sea requerido", "Art. 14.1 y 14.3"],
         ["Consejo Social de Política Territorial", "Órgano participativo y deliberante", "Emitir informes preceptivos y no vinculantes sobre disposiciones generales de ordenación del territorio, Estrategia Territorial, Planes de Ordenación Territorial y Planes de Acción Territorial; seguimiento anual de la Estrategia; memoria cuatrienal al Gobierno y Parlamento", "Art. 15.1, 15.2 y 15.4; art. 33.6 y 33.7"]
@@ -727,6 +727,47 @@ export default {
         ["Consorcios urbanísticos (art. 22)", "Ejercicio en común de competencias urbanísticas, realización de obras o prestación de servicios públicos de incidencia territorial o urbanística", "Constitución por la Administración Foral y uno o varios municipios", "Pueden incorporarse particulares y entidades de Derecho privado, pero su participación nunca será mayoritaria ni les permitirá controlar o tener posición decisiva"]
       ],
       "nota": "Fuente: arts. 22, 24 y 25 del texto refundido. Los convenios urbanísticos tienen carácter jurídico-administrativo y se rigen por los principios de transparencia y publicidad (art. 23.2 y 23.5). Son nulas de pleno derecho las estipulaciones que contravengan normas imperativas legales o reglamentarias, incluidas las del planeamiento (art. 23.4)."
+    },
+    {
+      "titulo": "ART. 49 · Determinaciones estructurantes frente a pormenorizadas",
+      "columnas": ["Materia", "Estructurante (art. 49.2)", "Pormenorizada (art. 49.3)"],
+      "filas": [
+        ["Clasificación y usos", "Clases de suelo y, en el no urbanizable, sus categorías y subcategorías (a)", "Régimen de usos pormenorizados e intervenciones admisibles y prohibidas (d)"],
+        ["Ámbitos", "Delimitación de los sectores, con sus criterios y condiciones básicas de ordenación (b)", "Unidades de ejecución y sistemas de actuación (g); áreas de reparto, aprovechamiento tipo y coeficientes de homogeneización (k)"],
+        ["Dotaciones", "Sistemas generales de vías públicas, servicios urbanos, espacios libres y equipamientos al servicio de toda la población (c)", "Sistemas locales que completan los servicios de los sistemas generales, sin tener ese carácter (e)"],
+        ["Intensidad y edificación", "En suelo urbanizable: edificabilidad máxima y usos globales de cada sector y porcentaje obligatorio de vivienda protegida (d)", "Condiciones de las parcelas (b); tipo de obras admisibles, condiciones, morfología y tipología de las edificaciones (c)"],
+        ["Protección", "Normas de protección del suelo no urbanizable según su categoría (e)", "Catálogo de elementos con valores naturales o culturales que deban conservarse o recuperarse (i)"],
+        ["Mercado de suelo", "Áreas de reserva para el patrimonio municipal de suelo (f)", "—"],
+        ["Trama urbana", "—", "Definición detallada de las tramas urbanas: alineaciones y rasantes (a)"],
+        ["Otras pormenorizadas", "—", "Fuera de ordenación (f); plazos de los deberes urbanísticos (h); accesibilidad (j); eficiencia energética (l); áreas de renovación, regeneración y rehabilitación (m)"]
+      ],
+      "nota": "Seis estructurantes y trece pormenorizadas (letras a-m). La clase decide quién aprueba: lo estructurante, el titular del Departamento foral (Plan General y sus modificaciones estructurantes, arts. 71.16 y 77.2); lo pormenorizado, el Ayuntamiento (arts. 72 y 77.3). Preguntas reales: Zizur Mayor 2026, P37 (estructurante: normas de protección del no urbanizable) y Navarra 2026, P8 (pormenorizada: áreas de reparto)."
+    },
+    {
+      "titulo": "Instrumentos de ordenación territorial (arts. 28-47): carácter, aprobación y vigencia",
+      "columnas": ["Instrumento", "Carácter o efectos", "Quién lo aprueba", "Información pública", "Vigencia y cambios"],
+      "filas": [
+        ["Estrategia Territorial de Navarra", "ORIENTATIVO (31.3)", "PARLAMENTO de Navarra (33.5)", "Al menos 2 MESES, con audiencia a las entidades locales (33.2)", "Seguimiento anual y memoria cada 4 años del Consejo Social; actualización por el GOBIERNO a propuesta del Consejo Social (33.6, 33.7 y 33.9)"],
+        ["Planes de Ordenación Territorial", "VINCULANTE salvo que el plan diga expresamente que es orientativo (34.4)", "GOBIERNO de Navarra, por decreto foral (36.6)", "Avance y proyecto: mínimo 1 MES cada uno (36.2)", "Indefinida; la modificación no exige fase de avance; revisión, modificación y actualización de oficio o a instancia de al menos 1/3 de las entidades locales del ámbito; la actualización, el Departamento (37)"],
+        ["Planes Directores de Acción Territorial", "Programan a 8 AÑOS las actuaciones del POT; sus reservas de suelo vinculan al planeamiento local (38.2 y 39.1.b)", "GOBIERNO de Navarra, por decreto foral; puede declarar la utilidad pública y la urgencia (40.5)", "Mínimo 2 MESES (40.2)", "Indefinida; la revisión del POT puede llevar a revisarlo o modificarlo; la actualización, el Departamento (41)"],
+        ["Planes y Proyectos Sectoriales de Incidencia Supramunicipal", "Vinculan al planeamiento de los entes locales afectados (42.3)", "GOBIERNO de Navarra: declara la incidencia supramunicipal y aprueba (45.2.c y f)", "Mínimo 1 MES tras la declaración, con audiencia a los Ayuntamientos (45.2.d)", "Indefinida, con supuestos de extinción (46); iniciativa privada: desestimados si en 4 MESES no hay resolución (45.3)"]
+      ],
+      "nota": "La Comisión de Ordenación del Territorio informa los cuatro (arts. 33.3, 36.4, 40.3 y 45.2); el Consejo Social de Política Territorial emite informes preceptivos y no vinculantes sobre la Estrategia, los POT y los Planes de Acción Territorial (art. 15.2). La ejecutividad empieza con la publicación de la aprobación definitiva en el BON (art. 29.2). Pregunta real: Navarra 2026, P4 (POT: vinculante salvo que se diga orientativo)."
+    },
+    {
+      "titulo": "Tramitación del planeamiento urbanístico: quién aprueba, plazo y silencio",
+      "columnas": ["Instrumento o trámite", "Aprobación definitiva", "Plazo", "Si no se resuelve"],
+      "filas": [
+        ["Plan General Municipal (art. 71)", "Titular del Departamento competente (71.16)", "3 MESES desde el ingreso del expediente completo (71.17)", "Se entiende APROBADO (71.17)"],
+        ["Estrategia y Modelo de Ordenación del Territorio (art. 71.5-6)", "Ayuntamiento, previo Concierto con el Departamento; después, Comisión de Ordenación del Territorio", "El Departamento la eleva a la Comisión en un máximo de 2 MESES", "—"],
+        ["Modificación estructurante del Plan General (arts. 77.2 y 78)", "Titular del Departamento competente", "2 MESES (77.2.e)", "Iniciativa particular: se entiende DESESTIMADA a los 3 MESES; el promotor puede pedir la subrogación del Departamento (78.2)"],
+        ["Planes Parciales, Planes Especiales de desarrollo y PEAU (art. 72)", "Ayuntamiento (72.1.b)", "Inicial (iniciativa particular): 2 MESES; definitiva: 2 MESES desde el fin de la información pública", "Se entienden aprobados inicialmente o definitivamente (72.1.a y c)"],
+        ["Modificación pormenorizada del Plan General (art. 77.3)", "Ayuntamiento", "Procedimiento del art. 72", "Reglas del art. 72"],
+        ["Estudios de Detalle (art. 74)", "Ayuntamiento", "Inicial: 2 MESES; información pública de 20 DÍAS", "Reglas del art. 72"],
+        ["Propuesta de ordenación particular con contenido de avance (art. 67.3)", "Pronunciamiento del Ayuntamiento", "2 MESES desde su presentación", "Silencio POSITIVO"],
+        ["Planes y Proyectos Sectoriales de iniciativa privada (art. 45.3)", "Gobierno de Navarra", "4 MESES desde el ingreso del expediente completo", "Se entienden DESESTIMADOS"]
+      ],
+      "nota": "No se adquieren por silencio facultades o derechos contrarios a la ordenación territorial o urbanística, y son nulos de pleno derecho los planes aprobados por silencio en contra de las leyes (arts. 72.5 y 77.5). La modificación de determinaciones de cualquier tipo relativas al suelo urbano se tramita mediante Plan Especial de Actuación Urbana (art. 77.6). Pregunta real: Navarra 2026, P18 (Plan Parcial sin resolución sobre la aprobación inicial en dos meses: se considera aprobado inicialmente)."
     }
   ],
   "datos": [
@@ -743,16 +784,24 @@ export default {
     "La reserva de suelo con carácter de dotación supramunicipal en sectores de suelo urbanizable de uso residencial debe ser no inferior a 3 metros cuadrados por cada 100 metros cuadrados construidos de uso residencial, con condición de solar, para viviendas protegidas y alojamientos dotacionales (art. 55.6).",
     "En polígonos industriales o de servicios, al menos el 10 % del total del sector se destina a grandes zonas verdes (art. 55.3.c).",
     "La previsión mínima de aparcamientos en suelo urbanizable y/o urbano no consolidado de uso residencial es de dos plazas por cada 100 metros cuadrados de edificación sobre rasante en edificación colectiva, o de tres plazas por vivienda en sectores de edificación unifamiliar, con al menos 0,5 plazas de aparcamiento en espacio público por vivienda y 0,5 por cada 100 metros cuadrados de usos comerciales y terciarios (art. 55.4).",
-    "Las Instrucciones Técnicas de Planeamiento se aprueban por orden foral del titular del Departamento competente en ordenación del territorio y urbanismo, previo período de participación e información no inferior a un mes (art. 83)."
+    "Las Instrucciones Técnicas de Planeamiento se aprueban por orden foral del titular del Departamento competente en ordenación del territorio y urbanismo, previo período de participación e información no inferior a un mes (art. 83).",
+    "Vigencia a 21-05-2026: dentro del alcance del tema solo se han modificado el art. 54 (Ley Foral 20/2022, de 1 de julio, con efectos desde el 29-07-2022) y el art. 55 (Ley Foral 5/2020 en el apartado 6 y Ley Foral 9/2025, de 30 de junio, en vigor desde el 12-07-2025). El resto de los arts. 1 a 83 conserva la redacción de 2017.",
+    "Instrumentos de ordenación urbanística (art. 48): el Plan General Municipal, sobre todo el término, y los planes que lo desarrollan —Planes Parciales, Planes Especiales, Planes Especiales de Actuación Urbana y Estudios de Detalle—, además de los Planes Especiales independientes; también tienen esa consideración los Catálogos y las Ordenanzas de Edificación y de Urbanización.",
+    "Plan General Municipal (art. 66): la iniciativa es, en todo caso, pública y corresponde al municipio; la Comisión de Seguimiento tiene entre 3 y 5 representantes de la entidad local y entre 2 y 3 del Departamento, y la preside uno de estos.",
+    "Fuera de ordenación (art. 82.3): salvo que el plan disponga otro régimen o que la expropiación o demolición no esté programada en el plazo de diez años, no caben obras de consolidación, aumento de volumen, modernización o incremento de su valor de expropiación, pero sí las reparaciones que exijan la seguridad e higiene y las obras necesarias y parciales de consolidación."
   ],
   "excepciones": [
     "En los Planes Sectoriales de Incidencia Supramunicipal, la cesión a los Ayuntamientos afectados es del 10 % del aprovechamiento lucrativo susceptible de tráfico inmobiliario, libre de cargas de urbanización; no se computan como aprovechamiento lucrativo los equipamientos y dotaciones públicas destinados al uso o servicio públicos (art. 43.2).",
     "La modificación de determinaciones pormenorizadas de los Planes Sectoriales de Incidencia Supramunicipal puede ser aprobada por el Departamento competente en ordenación del territorio, previa exposición pública de un mes y audiencia a los Municipios afectados, o bien por el Ayuntamiento correspondiente si así lo autoriza el citado Departamento y con sujeción a sus directrices (art. 45.5).",
-    "En los Estudios de Detalle, el plazo máximo para acordar o denegar la aprobación inicial es de dos meses desde la presentación de la documentación completa en el Registro Municipal; en caso de no producirse alegaciones en el período de información pública, el documento se eleva directamente para su aprobación definitiva (art. 74.c).",
+    "En los Estudios de Detalle, el plazo máximo para acordar o denegar la aprobación inicial es de dos meses desde la presentación de la documentación completa en el Registro Municipal (art. 74.c); si no se producen alegaciones en el período de información pública, el documento se eleva para su aprobación definitiva, si procede (art. 74, último párrafo).",
     "En los Planes Parciales y Planes Especiales de desarrollo, si el ayuntamiento no adopta resolución sobre la aprobación inicial en el plazo de dos meses desde la presentación de la documentación completa en el registro municipal, se entiende aprobado inicialmente el plan (art. 72.1.a).",
     "En los Planes Parciales y Planes Especiales de desarrollo, si transcurre el plazo máximo de dos meses desde la finalización del período de información pública sin que se haya adoptado resolución sobre la aprobación definitiva, se entiende aprobado el plan; en este supuesto, el promotor puede cumplir directamente las obligaciones de publicidad y comunicación del artículo 79.1 (art. 72.1.c).",
     "La aprobación definitiva por silencio administrativo de determinaciones del planeamiento no puede vulnerar lo dispuesto en las leyes, en los instrumentos de ordenación territorial ni en los planes urbanísticos de rango superior; tampoco pueden adquirirse por silencio facultades o derechos que contravengan la legislación y la ordenación territorial o urbanística (art. 77.5).",
-    "En los Planes Generales Municipales de municipios de población igual o inferior a tres mil habitantes, la Estrategia y Modelo de Ordenación del Territorio consiste en una memoria con los contenidos del artículo 58.2 expuestos de forma simplificada, y el Plan Urbanístico Municipal contiene la documentación del artículo 58.5 también de forma simplificada (art. 59.1, 59.2 y 59.3)."
+    "En los Planes Generales Municipales de municipios de población igual o inferior a tres mil habitantes, la Estrategia y Modelo de Ordenación del Territorio consiste en una memoria con los contenidos del artículo 58.2 expuestos de forma simplificada, y el Plan Urbanístico Municipal contiene la documentación del artículo 58.5 también de forma simplificada (art. 59.1, 59.2 y 59.3).",
+    "Plan General en municipios de menos de 500 habitantes: puede establecer la ordenación pormenorizada de todo el suelo urbano o urbanizable si así se ha establecido en la Estrategia y Modelo de Ordenación del Territorio; la regla general es que solo ordena pormenorizadamente el suelo urbano consolidado (art. 57.3).",
+    "Planes Especiales de Actuación Urbana de regeneración o renovación de carácter integrado: pueden regular actuaciones de nueva urbanización reclasificando suelo no urbanizable necesario para dotaciones públicas e infraestructuras, con un máximo del 10 por ciento de la superficie total del ámbito (art. 61.3).",
+    "Revisión y modificación del Plan General: la revisión sigue las mismas disposiciones que su tramitación y aprobación (art. 77.1); la modificación estructurante empieza directamente por la aprobación inicial, no necesita Estrategia y Modelo, recaba solo los informes sectoriales afectados, tiene un mes de información pública y dos meses para la aprobación definitiva (art. 77.2).",
+    "La Estrategia y Modelo de Ordenación del Territorio, una vez aprobada por la Comisión de Ordenación del Territorio, puede ir ajustándose a lo largo de la tramitación del Plan General Municipal en función de la información pública y de los informes sectoriales (art. 71.6)."
   ]
 },
   };
