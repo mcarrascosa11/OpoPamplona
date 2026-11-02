@@ -1,22 +1,30 @@
 // Banco de preguntas del tema E34. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 34 ESPECÍFICO · DF 253/2019 REGISTRO DE PLANEAMIENTO (E34) ----------
-  {
-    "id": "E34-01",
-    "tema": "E34",
-    "q": "El Decreto Foral 253/2019, de 16 de octubre, regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial. Según su artículo 1, ¿cuál de los siguientes extremos NO constituye su objeto?",
-    "o": [
-      "El contenido documental y formato de presentación de los instrumentos de ordenación territorial y de planeamiento urbanístico municipal.",
-      "El procedimiento de inscripción en el Registro de Planeamiento de Navarra de los instrumentos aprobados definitivamente.",
+  // ── E34 · DF 253/2019, de 16 de octubre, Registro de Planeamiento de Navarra y formato de presentación ─────
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección
+  // 2 bis): 3 META (E34-01, E34-04, E34-07), 3 DATO (E34-05, E34-08, E34-10), 2 NEG (E34-13, E34-17),
+  // 1 LISTA (E34-18), 1 LIT (E34-14), 1 AFIRM (E34-09), 1 SEL (E34-16), 1 DEF (E34-03), 1 ALCANCE (E34-15)
+  // y 1 COMB2 (E34-06). Reescritas in situ, con su id y su tipo: E34-01, E34-03 a E34-10 y E34-13 a E34-15.
+  // Nuevas: E34-16 (art. 9.1.c, documentación informativa y normativa), E34-17 (arts. 3.2 y 11, acceso y
+  // publicidad) y E34-18 (art. 5.2, vías de inscripción). Retiradas (no se borran: el historial va por id):
+  // E34-02 (art. 2, con distractores de otras comunidades autónomas), E34-11 (atributo CODSIUN) y E34-12
+  // (formato del atributo UESPACIAL); estos dos datos del Anexo quedan en el resumen.
+  // Vigencia: LexNavarra (r=52066), BON n.º 216, de 31-10-2019. Sin más modificación que la de la disposición
+  // final segunda (entrada en vigor), en la redacción de la disposición adicional primera del Decreto-ley
+  // Foral 2/2020, de 25 de marzo (LexNavarra r=52539), que ya recoge el TXT. Nada posterior al 21-05-2026.
+  // Letra correcta: A 4, B 4, C 3, D 4. Metas en la d): correctas en E34-01 («Todas») y E34-04 («a) y c)»);
+  // «Ninguna» es falsa en E34-07.
+  { id: "E34-01", tema: "E34", subtema: "Objeto (art. 1)", tipo: "META",
+    q: "De conformidad con el Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, el decreto foral tiene por objeto la regulación del Registro de Planeamiento de Navarra, y en particular:",
+    o: ["El contenido documental y formato de presentación de los instrumentos de ordenación territorial y de planeamiento urbanístico municipal.",
+      "El procedimiento de inscripción en el Registro de los instrumentos aprobados definitivamente, así como de los de gestión y de urbanización.",
       "El régimen de consulta del Registro de Planeamiento de Navarra.",
-      "La regulación del procedimiento de aprobación de los instrumentos de ordenación territorial y de planeamiento urbanístico municipal."
-    ],
-    "c": 3,
-    "exp": "El artículo 1 del Decreto Foral 253/2019 delimita el objeto del decreto a: a) el contenido documental y formato de presentación; b) el procedimiento de inscripción en el Registro; y c) el régimen de consulta del Registro. La regulación del procedimiento de aprobación de los instrumentos no forma parte del objeto de este decreto, sino de la legislación foral vigente en materia de ordenación del territorio y urbanismo."
-  },
+      "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Decreto Foral 253/2019, art. 1: el decreto foral tiene por objeto la regulación del Registro de Planeamiento de Navarra, «y en particular: a) El contenido documental y formato de presentación de los instrumentos de ordenación territorial y de planeamiento urbanístico municipal, para su tramitación y posterior acceso al Registro de Planeamiento de Navarra. b) El procedimiento de inscripción en el Registro de Planeamiento de Navarra de los instrumentos de ordenación territorial y de planeamiento urbanístico municipal aprobados definitivamente, así como de los instrumentos de gestión y de urbanización, en los términos establecidos en el presente decreto foral. c) El régimen de consulta del Registro de Planeamiento de Navarra». Las opciones a), b) y c) reproducen las tres letras del artículo, así que las tres son verdaderas y la correcta es la d). Retén la tríada formato, inscripción y consulta: el decreto no regula cómo se aprueban los instrumentos, sino cómo se presentan, cómo se inscriben una vez aprobados definitivamente y cómo se consulta el Registro." },
   {
     "id": "E34-02",
     "tema": "E34",
+    "estado": "retirada",
     "q": "Según el artículo 2 del Decreto Foral 253/2019, ¿a cuál de los siguientes instrumentos es de aplicación el decreto?",
     "o": [
       "A los instrumentos de planeamiento urbanístico de municipios de otras comunidades autónomas.",
@@ -27,113 +35,57 @@ export default [
     "c": 1,
     "exp": "El artículo 2 del Decreto Foral 253/2019 establece que el decreto es de aplicación a todos los instrumentos de ordenación territorial y de planeamiento urbanístico municipal regulados por la legislación foral vigente que se tramiten en el ámbito de la Comunidad Foral de Navarra, así como a los instrumentos de gestión y de urbanización que desarrollen los Planes y Proyectos Sectoriales de Incidencia Supramunicipal aprobados por el Departamento competente en materia de ordenación del territorio y urbanismo."
   },
-  {
-    "id": "E34-03",
-    "tema": "E34",
-    "q": "Según el artículo 3 del Decreto Foral 253/2019, el Registro de Planeamiento de Navarra es un registro público, de carácter administrativo, custodiado y gestionado por el Departamento competente en materia de ordenación del territorio y urbanismo. ¿Cuál es su finalidad?",
-    "o": [
-      "Controlar la legalidad de los instrumentos de ordenación territorial y de planeamiento urbanístico municipal antes de su aprobación definitiva.",
-      "Almacenar exclusivamente los instrumentos de planeamiento urbanístico municipal aprobados por los ayuntamientos.",
-      "Gestionar el procedimiento sancionador en materia de disciplina urbanística.",
-      "Garantizar la transparencia y la publicidad en el ejercicio de la función pública urbanística, mediante la inscripción de los instrumentos de ordenación del territorio y de planeamiento urbanístico municipal."
-    ],
-    "c": 3,
-    "exp": "El artículo 3.1 del Decreto Foral 253/2019 dispone que el Registro de Planeamiento de Navarra es un registro público, de carácter administrativo, custodiado y gestionado por el Departamento competente en materia de ordenación del territorio y urbanismo, que tiene por objeto garantizar la transparencia y la publicidad en el ejercicio de la función pública urbanística, mediante la inscripción de los instrumentos de ordenación del territorio y de planeamiento urbanístico municipal."
-  },
-  {
-    "id": "E34-04",
-    "tema": "E34",
-    "q": "Según el artículo 4 del Decreto Foral 253/2019, ¿de qué consta el Registro de Planeamiento de Navarra?",
-    "o": [
-      "De una base de datos informatizada con las fichas de inscripción de cada instrumento y de un archivo documental con copia de los documentos en soporte digital.",
-      "Únicamente de un archivo documental en papel con copia de los documentos.",
-      "De un archivo documental en soporte digital y de un registro de licencias urbanísticas.",
-      "Únicamente de una base de datos informatizada con las fichas de inscripción."
-    ],
-    "c": 0,
-    "exp": "El artículo 4 del Decreto Foral 253/2019 establece que el Registro de Planeamiento de Navarra consta de: 1. Una base de datos informatizada en la que se recogerán las fichas de inscripción de cada instrumento previstas en el artículo 7. 2. Un archivo documental formado por una copia de los documentos que conforman cada instrumento, en soporte digital, conforme a las determinaciones contenidas en el presente decreto foral."
-  },
-  {
-    "id": "E34-05",
-    "tema": "E34",
-    "q": "Según el artículo 5.2.b) del Decreto Foral 253/2019, cuando la aprobación definitiva de un instrumento de planeamiento urbanístico municipal corresponde al ayuntamiento, ¿en qué plazo debe este remitir la documentación al Departamento competente?",
-    "o": [
-      "En el plazo de 30 días siguientes a la aprobación definitiva.",
-      "En el plazo de 10 días siguientes a la aprobación definitiva.",
-      "En el plazo de 20 días siguientes a la aprobación definitiva.",
-      "En el plazo de 15 días siguientes a la aprobación definitiva."
-    ],
-    "c": 1,
-    "exp": "El artículo 5.2.b) del Decreto Foral 253/2019 dispone que, a instancia del ayuntamiento correspondiente, respecto a los instrumentos de ordenación del territorio y de planeamiento municipal cuya aprobación definitiva le corresponda, deberá remitirse al Departamento competente en materia de ordenación del territorio y urbanismo la documentación señalada en el artículo 9 del presente decreto foral, en los diez días siguientes a la aprobación definitiva del correspondiente instrumento."
-  },
-  {
-    "id": "E34-06",
-    "tema": "E34",
-    "q": "Según el artículo 6.2.b) del Decreto Foral 253/2019, cuando la documentación remitida por el ayuntamiento se encuentre completa, ¿en qué plazo máximo debe la unidad responsable del Registro practicar el asiento de inscripción?",
-    "o": [
-      "En el plazo máximo de 30 días, entendiéndose estimada la solicitud si no se practica.",
-      "En el plazo máximo de 20 días, entendiéndose estimada la solicitud si no se practica.",
-      "En el plazo máximo de 10 días, entendiéndose desestimada la solicitud si no se practica.",
-      "En el plazo máximo de 15 días, entendiéndose desestimada la solicitud si no se practica."
-    ],
-    "c": 0,
-    "exp": "El artículo 6.2.b) del Decreto Foral 253/2019 establece que cuando la documentación remitida se encuentre completa, la unidad responsable del Registro de Planeamiento de Navarra practicará el asiento de inscripción en el plazo máximo de 30 días, creando para ello una ficha de inscripción, y depositará la documentación. Transcurrido dicho plazo sin que se haya practicado el asiento, se entenderá estimada la solicitud de inscripción."
-  },
-  {
-    "id": "E34-07",
-    "tema": "E34",
-    "q": "Según el artículo 6.2.a) del Decreto Foral 253/2019, si del examen de la documentación remitida por el ayuntamiento se deduce la ausencia o deficiencia de la misma, ¿qué plazo tiene el ayuntamiento para aportar los datos o documentos necesarios?",
-    "o": [
-      "Un plazo máximo de 10 días, pudiendo denegarse la inscripción en caso de incumplimiento.",
-      "Un plazo máximo de 20 días, sin posibilidad de denegación.",
-      "Un plazo máximo de 30 días, pudiendo denegarse la inscripción en caso de incumplimiento.",
-      "Un plazo máximo de 15 días, pudiendo denegarse la inscripción en caso de incumplimiento."
-    ],
-    "c": 0,
-    "exp": "El artículo 6.2.a) del Decreto Foral 253/2019 dispone que si del examen de la documentación se dedujera la ausencia o deficiencia de la misma, la unidad responsable del registro requerirá al ayuntamiento correspondiente para que aporte cuantos datos o documentos considere necesarios en un plazo máximo de diez días, pudiendo denegar, en caso de incumplimiento, la práctica del asiento de inscripción correspondiente."
-  },
-  {
-    "id": "E34-08",
-    "tema": "E34",
-    "q": "Según el artículo 9.2 del Decreto Foral 253/2019, ¿qué resolución mínima deben tener los archivos de la documentación gráfica del documento técnico?",
-    "o": [
-      "200 ppp (puntos por pulgada).",
-      "150 ppp (puntos por pulgada).",
-      "300 ppp (puntos por pulgada).",
-      "250 ppp (puntos por pulgada)."
-    ],
-    "c": 2,
-    "exp": "El artículo 9.2 del Decreto Foral 253/2019 establece que, dentro del directorio principal, se incluirá la carpeta 'Documento Técnico' en formato pdf, distribuida en 'Documentación Escrita', con una resolución mínima de 200 ppp, y 'Documentación Gráfica', con una resolución mínima de 300 ppp. La totalidad de las hojas que integren la documentación técnica gráfica incorporarán, cuando proceda, las coordenadas geográficas de sus 4 esquinas."
-  },
-  {
-    "id": "E34-09",
-    "tema": "E34",
-    "q": "Según el Anexo del Decreto Foral 253/2019, ¿en qué formato se debe entregar la información geográfica vectorial señalada en el artículo 10?",
-    "o": [
-      "En formato DWG.",
-      "En formato PDF.",
-      "En formato shapefile.",
-      "En formato GeoJSON."
-    ],
-    "c": 2,
-    "exp": "El Anexo del Decreto Foral 253/2019 dispone que la información geográfica vectorial señalada en el artículo 10 se entregará en formato shapefile. Cada uno de los seis conjuntos de datos constituirá un fichero independiente. El nombre de todos los ficheros irá precedido del atributo CODSIUN del conjunto de datos 1.-Ámbito de la actuación."
-  },
-  {
-    "id": "E34-10",
-    "tema": "E34",
-    "q": "Según el Anexo del Decreto Foral 253/2019, ¿cuál es el sistema geodésico de referencia de las entidades gráficas?",
-    "o": [
-      "El sistema geodésico de referencia ED50, proyección UTM huso 30 norte (EPSG:23030).",
-      "El sistema geodésico de referencia WGS84, proyección UTM huso 30 norte (EPSG:32630).",
-      "El sistema geodésico de referencia ETRS89, proyección UTM huso 31 norte (EPSG:25831).",
-      "El sistema geodésico de referencia ETRS89, proyección UTM huso 30 norte (EPSG:25830)."
-    ],
-    "c": 3,
-    "exp": "El Anexo del Decreto Foral 253/2019 establece que el sistema geodésico de referencia de las entidades gráficas será el establecido por el Real Decreto 1071/2007, de 27 de julio, por el que se regula el sistema geodésico oficial en España, coordenadas basadas en el Sistema Geodésico de Referencia ETRS89, proyección UTM huso 30 norte (ETRS89 UTM 30N, codificado como EPSG: 25830) o el que, en su momento, se encuentre en vigor en España."
-  },
+  { id: "E34-03", tema: "E34", subtema: "Naturaleza y objeto del Registro (art. 3.1)", tipo: "DEF",
+    q: "Conforme a lo establecido en el artículo 3.1 del Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, el Registro de Planeamiento de Navarra, custodiado y gestionado por el Departamento competente en materia de ordenación del territorio y urbanismo, tiene por objeto, mediante la inscripción de los instrumentos de ordenación del territorio y de planeamiento urbanístico municipal, garantizar:",
+    o: ["La legalidad y el control de la actividad urbanística de las entidades locales de Navarra.",
+      "La seguridad jurídica del tráfico inmobiliario y la fe pública de los asientos registrales.",
+      "La transparencia y la publicidad en el ejercicio de la función pública urbanística.",
+      "La coordinación interadministrativa en la elaboración y tramitación de los instrumentos."],
+    c: 2, exp: "Decreto Foral 253/2019, art. 3.1: el Registro de Planeamiento de Navarra es un registro público, de carácter administrativo, custodiado y gestionado por el Departamento competente en materia de ordenación del territorio y urbanismo, «que tiene por objeto garantizar la transparencia y la publicidad en el ejercicio de la función pública urbanística, mediante la inscripción de los instrumentos de ordenación del territorio y de planeamiento urbanístico municipal». La a) es falsa: el control de los instrumentos lo desarrolla el Departamento conforme a la legislación urbanística y a la Ley Foral de Administración Local de Navarra, y la inscripción se hace «sin perjuicio» de ese control (art. 6.2.d); no es la finalidad del Registro. La b) y la d) atribuyen al Registro fines que el art. 3.1 no recoge: el decreto no regula la elaboración ni la tramitación de los instrumentos, sino su formato, su inscripción y la consulta del Registro (art. 1). El mismo apartado añade que deberá inscribirse también cualquier resolución posterior, administrativa o judicial, que afecte a su contenido." },
+  { id: "E34-04", tema: "E34", subtema: "Contenido del Registro (art. 4)", tipo: "META",
+    q: "De acuerdo con el Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, el Registro de Planeamiento de Navarra constará de:",
+    o: ["Una base de datos informatizada en la que se recogerán las fichas de inscripción de cada instrumento.",
+      "Un libro registro en soporte papel en el que se extenderán los asientos, firmados por el funcionario habilitado.",
+      "Un archivo documental formado por una copia de los documentos que conforman cada instrumento, en soporte digital.",
+      "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Decreto Foral 253/2019, art. 4: «El Registro de Planeamiento de Navarra constará de: 1. Una base de datos informatizada en la que se recogerán las fichas de inscripción de cada instrumento previstas en el artículo 7. 2. Un archivo documental formado por una copia de los documentos que conforman cada instrumento, en soporte digital, conforme a las determinaciones contenidas en el presente decreto foral». La a) y la c) son los dos elementos del artículo, por lo que la correcta es la d). La b) es falsa: el decreto no prevé ningún libro en papel, el archivo documental es digital, y lo que autoriza el funcionario o funcionaria habilitados son los certificados que se expidan de los asientos (art. 3.2)." },
+  { id: "E34-05", tema: "E34", subtema: "Plazo de remisión del ayuntamiento (art. 5.2.b)", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 5.2.b) del Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, cuando la aprobación definitiva de un instrumento de planeamiento municipal corresponda al ayuntamiento, ¿dentro de qué plazo siguiente a dicha aprobación deberá remitirse al Departamento competente en materia de ordenación del territorio y urbanismo la documentación señalada en el artículo 9?",
+    o: ["Cinco días.", "Diez días.", "Quince días.", "Treinta días."],
+    c: 1, exp: "Decreto Foral 253/2019, art. 5.2.b): la inscripción podrá producirse «A instancia del ayuntamiento correspondiente, respecto a los instrumentos de ordenación del territorio y de planeamiento municipal cuya aprobación definitiva le corresponda. A tal efecto, deberá remitirse al Departamento competente en materia de ordenación del territorio y urbanismo la documentación señalada en el artículo 9 del presente decreto foral, en los diez días siguientes a la aprobación definitiva del correspondiente instrumento». Cinco y quince días no figuran en el decreto. Treinta días es el plazo máximo que tiene la unidad responsable para practicar el asiento cuando la documentación está completa (art. 6.2.b), no el de remisión. Los otros dos plazos de diez días del decreto son el del ayuntamiento requerido cuando el instrumento particular se aprobó por silencio (art. 5.2.c) y el de subsanación de la documentación (art. 6.2.a)." },
+  { id: "E34-06", tema: "E34", subtema: "Plazo del asiento y silencio (art. 6.2.b)", tipo: "COMB2",
+    q: "Conforme a lo dispuesto en el artículo 6.2.b) del Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, cuando la documentación remitida por el ayuntamiento se encuentre completa, ¿en qué plazo máximo practicará el asiento de inscripción la unidad responsable del Registro y qué efecto tiene que dicho plazo transcurra sin haberlo practicado?",
+    o: ["En 10 días; transcurrido sin practicarse el asiento, se entenderá estimada la solicitud de inscripción.",
+      "En 10 días; transcurrido sin practicarse el asiento, se entenderá desestimada la solicitud de inscripción.",
+      "En 30 días; transcurrido sin practicarse el asiento, se entenderá estimada la solicitud de inscripción.",
+      "En 30 días; transcurrido sin practicarse el asiento, se entenderá desestimada la solicitud de inscripción."],
+    c: 2, exp: "Decreto Foral 253/2019, art. 6.2.b): «Cuando la documentación remitida se encuentre completa, la unidad responsable del Registro de Planeamiento de Navarra practicará el asiento de inscripción en el plazo máximo de 30 días, creando para ello una ficha de inscripción, y depositará la documentación. Transcurrido dicho plazo sin que se haya practicado el asiento, se entenderá estimada la solicitud de inscripción». El silencio es positivo, así que la b) y la d) son falsas; y 10 días (a y b) es el plazo de remisión del ayuntamiento (art. 5.2.b) y el de subsanación (art. 6.2.a), no el del asiento. Realizada la inscripción, la unidad responsable emite certificación registral con el número de registro asignado, que se comunica a los ayuntamientos afectados (art. 6.2.c)." },
+  { id: "E34-07", tema: "E34", subtema: "Documentación incompleta (art. 6.2.a)", tipo: "META",
+    q: "Según el artículo 6.2.a) del Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, si del examen de la documentación remitida por el ayuntamiento se dedujera la ausencia o deficiencia de la misma, la unidad responsable del registro le requerirá para que aporte cuantos datos o documentos considere necesarios en un plazo máximo de diez días. En caso de incumplimiento, la unidad responsable:",
+    o: ["Podrá denegar la práctica del asiento de inscripción correspondiente.",
+      "Tendrá al ayuntamiento por desistido de su solicitud de inscripción.",
+      "Practicará el asiento con la documentación que ya obre en el Registro.",
+      "Ninguna de las respuestas anteriores es correcta."],
+    c: 0, exp: "Decreto Foral 253/2019, art. 6.2.a): «Si del examen de la documentación se dedujera la ausencia o deficiencia de la misma, la unidad responsable del registro requerirá al ayuntamiento correspondiente para que aporte cuantos datos o documentos considere necesarios en un plazo máximo de diez días, pudiendo denegar, en caso de incumplimiento, la práctica del asiento de inscripción correspondiente». La a) es literal, así que la d) es falsa. La b) no está en el precepto, que no prevé el desistimiento sino la posible denegación del asiento. La c) tampoco: con la documentación incompleta no se practica el asiento; el plazo máximo de 30 días, con silencio positivo, solo corre cuando la documentación está completa (art. 6.2.b)." },
+  { id: "E34-08", tema: "E34", subtema: "Resolución de la documentación gráfica (art. 9.2)", tipo: "DATO",
+    q: "Conforme a lo señalado en el artículo 9.2 del Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, ¿qué resolución mínima debe tener la Documentación Gráfica del Documento Técnico, que se entrega en formato pdf?",
+    o: ["150 ppp.", "200 ppp.", "300 ppp.", "400 ppp."],
+    c: 2, exp: "Decreto Foral 253/2019, art. 9.2: dentro del directorio principal, el Documento Técnico se entrega en pdf, distribuido en dos carpetas: «Documentación Escrita, con una resolución mínima de 200 ppp» y «Documentación Gráfica, con una resolución mínima de 300 ppp». La Documentación Administrativa va también en pdf, «con una resolución mínima de 200 ppp (puntos por pulgada)». 200 ppp es, por tanto, el mínimo de lo escrito y de lo administrativo, no de lo gráfico; 150 y 400 ppp no figuran en el decreto. Además, «La totalidad de las hojas que integren la documentación técnica gráfica, incorporarán cuando proceda, las coordenadas geográficas de sus 4 esquinas» en el sistema geodésico de referencia del Anexo." },
+  { id: "E34-09", tema: "E34", subtema: "Información geográfica vectorial (art. 10 y Anexo)", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA en relación con la información geográfica vectorial que regula el Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra:",
+    o: ["Se incluirá en los instrumentos que afecten a la ordenación pormenorizada, aunque no alteren la estructurante.",
+      "Se entregará en formato shapefile, y cada uno de los seis conjuntos de datos constituirá un fichero independiente.",
+      "El nombre de todos sus ficheros irá precedido del atributo CODTIP, que es el acrónimo del tipo de instrumento.",
+      "Se entregará en formato pdf, con una resolución mínima de 300 ppp y las coordenadas de sus cuatro esquinas."],
+    c: 1, exp: "Decreto Foral 253/2019, Anexo: «La información geográfica vectorial señalada en el artículo 10 se entregará en formato shapefile. Cada uno de los seis conjuntos de datos constituirá un fichero independiente». La a) es falsa porque el art. 10 la exige a los instrumentos «que afecten a determinaciones de ordenación estructurante», no a los que solo tocan la pormenorizada. La c) también: el nombre de todos los ficheros «irá precedido del atributo CODSIUN del conjunto de datos 1.-Ámbito de la actuación»; CODTIP es otro atributo de ese conjunto, el acrónimo del tipo de instrumento. Y la d) confunde la información vectorial con la Documentación Gráfica: según el art. 9.2, la documentación se entrega en pdf «a excepción de la indicada en el artículo 10», y son las hojas gráficas en pdf las que piden 300 ppp y, cuando proceda, las coordenadas de sus 4 esquinas." },
+  { id: "E34-10", tema: "E34", subtema: "Sistema geodésico de referencia (Anexo)", tipo: "DATO",
+    q: "Según el Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, ¿en qué sistema geodésico de referencia y proyección se basan las coordenadas de las entidades gráficas?",
+    o: ["ED50, UTM huso 30 norte.", "ETRS89, UTM huso 30 norte.", "ETRS89, UTM huso 31 norte.", "WGS84, UTM huso 31 norte."],
+    c: 1, exp: "Decreto Foral 253/2019, Anexo: «El sistema geodésico de referencia de las entidades gráficas será el establecido por el Real Decreto 1071/2007, de 27 de julio, por el que se regula el sistema geodésico oficial en España, coordenadas basadas en el Sistema Geodésico de Referencia ETRS89, proyección UTM huso 30 norte (ETRS89 UTM 30N, codificado como EPSG: 25830) o el que, en su momento, se encuentre en vigor en España». La a) y la d) cambian el sistema de referencia (ED50 y WGS84; la d, además, el huso) y la c) cambia el huso: el Anexo fija el 30 norte, no el 31. En ese mismo sistema se incorporan, cuando proceda, las coordenadas de las 4 esquinas de las hojas de la documentación técnica gráfica." },
   {
     "id": "E34-11",
     "tema": "E34",
+    "estado": "retirada",
     "q": "Según el Anexo del Decreto Foral 253/2019, en el conjunto de datos 1 (Ámbito de la actuación), ¿qué atributo contiene el código identificativo del instrumento en el Sistema de Información Urbanística de Navarra (SIUN)?",
     "o": [
       "CODTIP.",
@@ -147,6 +99,7 @@ export default [
   {
     "id": "E34-12",
     "tema": "E34",
+    "estado": "retirada",
     "q": "Según el Anexo del Decreto Foral 253/2019, en el conjunto de datos 2 (Unidades espaciales), ¿cuál es el formato del atributo UESPACIAL?",
     "o": [
       "Formado por la concatenación de los tres caracteres 'SE-' y un número correlativo entre 001 y 999, incluyendo los ceros a la izquierda.",
@@ -157,43 +110,43 @@ export default [
     "c": 0,
     "exp": "El Anexo del Decreto Foral 253/2019 establece que en el conjunto de datos 2 (Unidades espaciales), el atributo UESPACIAL es de tipo texto, tamaño 6, formado por la concatenación de los tres caracteres 'SE-' y un número correlativo entre 001 y 999, incluyendo los ceros a la izquierda. Este formato es específico de las unidades espaciales y no debe confundirse con el de sectores de suelo urbanizable (S-001 a S-999) ni con el de sistemas generales (SG-001 a SG-999)."
   },
-  {
-    "id": "E34-13",
-    "tema": "E34",
-    "q": "Según el artículo 8 del Decreto Foral 253/2019, ¿cuál de las siguientes circunstancias NO es causa de modificación de los datos de la ficha de inscripción?",
-    "o": [
-      "La efectiva publicación en el Boletín Oficial de Navarra del acuerdo de aprobación y de la normativa correspondiente.",
-      "La subsanación de errores materiales advertidos en la propia inscripción.",
-      "Sentencias judiciales o resoluciones administrativas que recaigan sobre los instrumentos inscritos, tras adquirir firmeza administrativa.",
-      "La aprobación inicial de una modificación del instrumento inscrito."
-    ],
-    "c": 3,
-    "exp": "El artículo 8 del Decreto Foral 253/2019 establece que los datos de la ficha de inscripción podrán ser objeto de modificación cuando concurra alguna de las siguientes circunstancias: a) Por la efectiva publicación en el Boletín Oficial de Navarra del acuerdo de aprobación y de la normativa correspondiente; b) Por subsanación de errores materiales advertidos en la propia inscripción; c) Por sentencias judiciales o resoluciones administrativas que recaigan sobre los instrumentos inscritos, tras adquirir firmeza administrativa; d) Por medidas cautelares que afecten a la aplicación de los instrumentos, adoptadas por jueces y tribunales; e) Por cualesquiera otros actos, acuerdos y resoluciones que, a juicio de la unidad orgánica responsable del Registro, afecten a los instrumentos. La aprobación inicial de una modificación del instrumento no es una causa de modificación de la ficha de inscripción."
-  },
-  {
-    "id": "E34-14",
-    "tema": "E34",
-    "q": "Según la Disposición Transitoria Única del Decreto Foral 253/2019, ¿qué sucede con los instrumentos que a la fecha de entrada en vigor del decreto se encuentren aprobados definitivamente?",
-    "o": [
-      "Deben adaptarse al decreto en el plazo de un año desde su entrada en vigor.",
-      "Mantienen las inscripciones en el Registro de Planeamiento en las condiciones en que fueron practicadas, no siendo de aplicación el decreto.",
-      "Deben volver a inscribirse en el Registro de Planeamiento conforme a las nuevas prescripciones.",
-      "Quedan suspendidos hasta que se adapten a las prescripciones del decreto."
-    ],
-    "c": 1,
-    "exp": "La Disposición Transitoria Única del Decreto Foral 253/2019 establece que lo dispuesto en el presente decreto foral no será de aplicación a los instrumentos que a la entrada en vigor del mismo se encuentren aprobados definitivamente, que mantendrán las inscripciones en el Registro de Planeamiento en las condiciones en que fueron practicadas. Esta regla es distinta de la aplicable a los instrumentos que se encuentren en tramitación a la entrada en vigor, que deberán adaptarse con carácter previo a su aprobación definitiva a las prescripciones del decreto."
-  },
-  {
-    "id": "E34-15",
-    "tema": "E34",
-    "q": "Según la Disposición Adicional Única del Decreto Foral 253/2019, ¿con qué carácter pueden los ayuntamientos remitir los instrumentos de gestión y de urbanización cuya aprobación definitiva les corresponda para su inscripción directa en el Registro de Planeamiento?",
-    "o": [
-      "Con carácter voluntario, pero solo si el instrumento afecta a más de un municipio.",
-      "Con carácter obligatorio, en el plazo de 10 días desde su aprobación definitiva.",
-      "Con carácter voluntario.",
-      "Con carácter obligatorio, en el plazo de 30 días desde su aprobación definitiva."
-    ],
-    "c": 2,
-    "exp": "La Disposición Adicional Única del Decreto Foral 253/2019 establece que los ayuntamientos podrán, de manera voluntaria, remitir los instrumentos de gestión y de urbanización cuya aprobación definitiva les corresponda para su inscripción directa en el Registro de Planeamiento. Esta previsión es específica para estos instrumentos y no debe confundirse con la obligación de inscripción que el artículo 5.1 impone a los instrumentos de ordenación territorial, de gestión y de urbanización que desarrollen planes y proyectos sectoriales de incidencia supramunicipal, así como a los instrumentos de planeamiento urbanístico municipal."
-  },
+  { id: "E34-13", tema: "E34", subtema: "Modificación de los datos inscritos (art. 8)", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA de conformidad con lo establecido en el artículo 8 del Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, sobre la modificación de los datos inscritos:",
+    o: ["Los datos de la ficha podrán modificarse por sentencias judiciales que recaigan sobre los instrumentos inscritos, tras adquirir firmeza administrativa.",
+      "Las modificaciones de los datos de la ficha se realizarán, de oficio o a instancia de parte, por la unidad responsable del registro.",
+      "La unidad responsable del Registro de planeamiento dará cuenta a los ayuntamientos afectados de cualquier rectificación en la ficha de inscripción.",
+      "Los ayuntamientos podrán comunicar al Registro, de manera voluntaria, los actos o resoluciones posteriores con trascendencia registral."],
+    c: 3, exp: "Decreto Foral 253/2019, art. 8: «los ayuntamientos tienen la obligación de comunicar al Registro cualquier acto o resolución, administrativa o judicial, posterior a la aprobación definitiva del instrumento, con trascendencia registral, en la que hubieren intervenido en razón de su competencia y que afectase al contenido del documento aprobado», y también «deberán comunicar» la concurrencia de las causas de modificación de la ficha. Es una obligación, no una facultad voluntaria, así que la d) es la incorrecta. Las demás son literales: la ficha puede modificarse «Por sentencias judiciales o resoluciones administrativas que recaigan sobre los instrumentos inscritos, tras adquirir firmeza administrativa» (a); «Dichas modificaciones se realizarán, de oficio o a instancia de parte, por la unidad responsable del registro» (b), y «La unidad responsable del Registro de planeamiento dará cuenta a los ayuntamientos afectados de cualquier rectificación en la ficha de inscripción» (c). Lo voluntario es otra cosa: que los ayuntamientos remitan sus instrumentos de gestión y de urbanización para su inscripción directa (disposición adicional única)." },
+  { id: "E34-14", tema: "E34", subtema: "Instrumentos en tramitación (disp. transitoria única)", tipo: "LIT",
+    q: "Según el Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, aquellos instrumentos que a la fecha de entrada en vigor del decreto foral se encuentren en tramitación:",
+    o: ["Deberán adaptarse con carácter previo a su aprobación definitiva a las prescripciones contenidas en el mismo.",
+      "Deberán adaptarse con carácter previo a su aprobación provisional a las prescripciones contenidas en el mismo.",
+      "Deberán adaptarse con carácter previo a su sometimiento a información pública a las prescripciones contenidas en el mismo.",
+      "Deberán adaptarse con carácter previo a su aprobación inicial a las prescripciones contenidas en el mismo."],
+    c: 0, exp: "Decreto Foral 253/2019, disposición transitoria única: «Aquellos instrumentos que a la fecha de entrada en vigor del presente decreto foral se encuentren en tramitación, deberán adaptarse con carácter previo a su aprobación definitiva a las prescripciones contenidas en el mismo». La b), la c) y la d) adelantan ese momento a la aprobación provisional, al sometimiento a información pública o a la aprobación inicial; el decreto solo exige que la adaptación esté hecha antes de la aprobación definitiva. El segundo párrafo de la misma disposición completa la regla: lo dispuesto en el decreto foral «no será de aplicación a los instrumentos que a la entrada en vigor del mismo se encuentren aprobados definitivamente, que mantendrán las inscripciones en el Registro de Planeamiento en las condiciones en que fueron practicadas»." },
+  { id: "E34-15", tema: "E34", subtema: "Gestión y urbanización municipales (disp. adicional única)", tipo: "ALCANCE",
+    q: "De acuerdo con el Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, los instrumentos de gestión y de urbanización cuya aprobación definitiva corresponda a los ayuntamientos:",
+    o: ["Podrán remitirse por los ayuntamientos, de manera voluntaria, para su inscripción directa en el Registro.",
+      "Deberán remitirse en todo caso para su inscripción, en los diez días siguientes a su aprobación definitiva.",
+      "Deberán remitirse para su inscripción siempre que afecten a determinaciones de ordenación estructurante.",
+      "No podrán inscribirse en ningún caso, al no tratarse de instrumentos de planeamiento urbanístico."],
+    c: 0, exp: "Decreto Foral 253/2019, disposición adicional única: «Los ayuntamientos podrán, de manera voluntaria, remitir los instrumentos de gestión y de urbanización cuya aprobación definitiva les corresponda para su inscripción directa en el Registro de Planeamiento». No hay obligación (b), ni una condición ligada a la ordenación estructurante (c), que es el criterio del art. 10 para exigir información vectorial, ni una prohibición (d). Lo obligatorio es inscribir los instrumentos de gestión y de urbanización que desarrollen los de ordenación territorial (art. 5.1), cuya inscripción practica de oficio el Departamento (art. 5.2.a)." },
+  { id: "E34-16", tema: "E34", subtema: "Documento técnico: informativa y normativa (art. 9.1.c)", tipo: "SEL",
+    q: "De conformidad con el Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, ¿cuál de los siguientes documentos forma parte, en su caso, de la documentación informativa y justificativa del documento técnico que debe remitirse?",
+    o: ["El catálogo de protecciones.", "Los informes municipales jurídicos y técnicos.", "Los planos de ordenación.", "El programa de desarrollo y ejecución."],
+    c: 3, exp: "Decreto Foral 253/2019, art. 9.1.c): el documento técnico completo comprende la «Documentación informativa y justificativa. Conteniendo, en su caso: memoria informativa y justificativa, planos de información, plan de participación, resumen ejecutivo, estudio ambiental estratégico, memoria de viabilidad y de sostenibilidad económica, estudio de movilidad generada, estudio sobre la adecuación de vivienda protegida, sistema de indicadores de gestión, sostenibilidad y resultado; plan de atracción y ordenación comercial, programa de desarrollo y ejecución, así como el resto de documentación que pueda ser exigida por la legislación vigente» y la «Documentación normativa. Conteniendo, en su caso, planos de ordenación, normas urbanísticas, catálogo de protecciones [...]». El programa de desarrollo y ejecución es, por tanto, documentación informativa y justificativa. El catálogo de protecciones (a) y los planos de ordenación (c) son documentación normativa, y los informes municipales de contenido jurídico y técnico (b) ni siquiera forman parte del documento técnico: son documentación administrativa (art. 9.1.b). No confundas los planos de información (informativos) con los de ordenación (normativos)." },
+  { id: "E34-17", tema: "E34", subtema: "Acceso y publicidad del Registro (arts. 3.2 y 11)", tipo: "NEG",
+    q: "Conforme a lo establecido en los artículos 3.2 y 11 del Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, ¿cuál de las siguientes afirmaciones no corresponde al régimen de acceso y publicidad del Registro de Planeamiento?",
+    o: ["Cualquier persona o entidad podrá acceder al Registro siempre que acredite un interés legítimo en el instrumento consultado.",
+      "Los certificados que se expidan de los asientos del registro estarán autorizados por el funcionario o funcionaria habilitados al efecto.",
+      "Podrán emitirse notas informativas y obtenerse copia de los documentos, sin que su importe exceda del coste administrativo.",
+      "Deberá facilitarse el acceso y consulta por medios telemáticos de la documentación técnica que integra los instrumentos."],
+    c: 0, exp: "Decreto Foral 253/2019, art. 3.2: «Cualquier persona o entidad, pública o privada, podrá acceder al Registro de Planeamiento mediante consulta presencial en las oficinas de la unidad orgánica competente en materia de ordenación del territorio y urbanismo, o de forma telemática a través de Internet». No exige acreditar ningún interés, así que la a) es la que no corresponde; el preámbulo recuerda, con el art. 8 del DFL 1/2017, que el acceso a la información urbanística no obliga a acreditar un interés determinado. Las demás son literales: «Los certificados que se expidan de los asientos del registro estarán autorizados por el funcionario o funcionaria habilitados al efecto» (b); «podrán emitirse notas informativas y obtenerse copia de los documentos obrantes en el Registro, sin que su importe exceda del coste administrativo» (c), y, según el art. 11.3, «deberá facilitarse el acceso y consulta por medios telemáticos de la documentación técnica que integran los instrumentos, a través de los portales que el Gobierno de Navarra disponga a tal fin» (d)." },
+  { id: "E34-18", tema: "E34", subtema: "Vías de inscripción (art. 5.2)", tipo: "LISTA",
+    q: "De acuerdo con lo dispuesto en el Decreto Foral 253/2019, de 16 de octubre, por el que se regula el Registro de Planeamiento de Navarra y el formato de presentación de los instrumentos de planificación urbanística y territorial de Navarra, la inscripción en el Registro de Planeamiento de Navarra será obligatoria y podrá producirse:",
+    o: ["De oficio, por el Departamento; a instancia del ayuntamiento correspondiente; y a instancia de las personas propietarias de los terrenos incluidos en el ámbito.",
+      "De oficio, por el Departamento; a instancia del ayuntamiento correspondiente; y a instancia de las personas promotoras de instrumentos particulares aprobados por silencio.",
+      "De oficio, por el ayuntamiento correspondiente; a instancia del Departamento; y a instancia de las personas promotoras de instrumentos particulares aprobados por silencio.",
+      "De oficio, por el Departamento; a instancia del concejo correspondiente; y a instancia de las personas propietarias de los terrenos incluidos en el ámbito."],
+    c: 1, exp: "Decreto Foral 253/2019, art. 5.2: «La inscripción en el registro será obligatoria y podrá producirse: a) De oficio, por el Departamento competente en materia de ordenación del territorio y urbanismo [...] b) A instancia del ayuntamiento correspondiente [...] c) A instancia de las personas promotoras de instrumentos promovidos por la iniciativa particular que hayan sido aprobados por silencio administrativo». De oficio inscribe el Departamento los instrumentos de ordenación del territorio, los de gestión y de urbanización que los desarrollen y los de planeamiento municipal cuya aprobación definitiva competa a la Comunidad Foral; a instancia del ayuntamiento, los que este aprueba definitivamente; y a instancia de las personas promotoras, los de iniciativa particular aprobados por silencio, en cuyo caso la persona responsable del registro requiere al ayuntamiento la documentación en un plazo máximo de 10 días. La c) invierte los papeles del Departamento y del ayuntamiento; la a) y la d) dan la tercera vía a los propietarios de los terrenos del ámbito, que el precepto no prevé, y la d) pone además al concejo en lugar del ayuntamiento." },
 ];

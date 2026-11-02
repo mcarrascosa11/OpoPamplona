@@ -1,35 +1,41 @@
 // Banco de preguntas del tema E33. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 33 ESPECÍFICO · LFOTU VI, MERCADO DEL SUELO (E33) ----------
-  {
-    "id": "E33-01",
-    "tema": "E33",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el patrimonio municipal del suelo tiene la consideración de:",
-    "o": [
-      "Un conjunto de bienes demaniales afectos al uso público.",
-      "Un patrimonio separado de los demás bienes de titularidad municipal.",
-      "Una sección del Banco Foral de Suelo Público gestionada por cada Ayuntamiento.",
-      "Un conjunto de bienes patrimoniales de libre disposición municipal."
-    ],
-    "c": 1,
-    "exp": "El art. 226 lo configura como patrimonio separado de los demás bienes municipales, vinculado a regular el mercado de terrenos, obtener reservas para actuaciones públicas y facilitar la ejecución del planeamiento. No es una sección del Banco Foral ni un conjunto de bienes de libre disposición. Su condición de patrimonio separado no equivale a una afectación general al dominio público."
-  },
-  {
-    "id": "E33-02",
-    "tema": "E33",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué bienes se integran automáticamente en el patrimonio municipal del suelo en todos los municipios?",
-    "o": [
-      "Los terrenos adquiridos mediante expropiaciones urbanísticas de cualquier clase.",
-      "Los bienes patrimoniales municipales clasificados como suelo urbano.",
-      "Los bienes patrimoniales municipales clasificados como suelo urbanizable.",
-      "Los terrenos municipales incluidos en una reserva de posible adquisición."
-    ],
-    "c": 0,
-    "exp": "El art. 227.1 incluye automáticamente los bienes obtenidos por cesiones, expropiaciones urbanísticas de cualquier clase y tanteo o retracto. La clasificación urbana o urbanizable de otros bienes patrimoniales no basta: su incorporación requiere acuerdo plenario conforme al art. 227.2. La delimitación de una reserva tampoco es, por sí sola, uno de los títulos de incorporación automática."
-  },
+  // ── E33 · DFL 1/2017 (TRLFOTU), Título VI: instrumentos de intervención en el mercado del suelo ──────────
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección
+  // 2 bis): 3 META (E33-02, E33-10, E33-12), 3 DATO (E33-04, E33-15, E33-17), 2 NEG (E33-01, E33-05),
+  // 1 LISTA (E33-14), 1 LIT (E33-06), 1 AFIRM (E33-13), 1 SEL (E33-08), 1 DEF (E33-16), 1 ALCANCE (E33-07)
+  // y 1 COMB2 (E33-11). Reescritas in situ, con su id y su tipo: E33-01, 02, 04 a 08 y 10 a 15. E33-01 es la
+  // pregunta 46 del examen de Zizur Mayor de 2026 y E33-05, la 37 del examen de Arquitectos del Gobierno de
+  // Navarra de 7-3-2026; las dos van copiadas literalmente, con su clave (C y D). Nuevas: E33-16 (art. 233.1,
+  // concepto del Banco Foral) y E33-17 (art. 242.3.b, plazo de la zona de tanteo y retracto). Retiradas (no se
+  // borran: el historial va por id): E33-03 (art. 227.2, acuerdo plenario; queda en la explicación de la E33-02,
+  // como distractor de la E33-08 y en el resumen) y E33-09 (art. 237.1.e, cooperativas; queda en el resumen).
+  // Vigencia: consolidado del BOE (BOE-A-2017-12907, última actualización publicada el 31-12-2025; pestaña
+  // «Análisis»). En el Título VI han cambiado los arts. 234 y 236.2 (LF 5/2020), 231.2, 237 y 239.1 (LF 21/2020),
+  // 231.2.c, 239 y 240.3 (LF 20/2022) y, por último, los arts. 231, 234, 236, 237, 239 y 240, con los nuevos
+  // arts. 237 bis y 237 ter, por la LF 9/2025, de 30 de junio, para el Derecho a la Vivienda Asequible en Navarra
+  // (BON n.º 138, 11-07-2025). temas/E_Tema33.txt ya trae esa redacción; no hay cambios posteriores hasta el
+  // 21-05-2026 ni sentencias del TC sobre el título.
+  // Letra correcta: A 4, B 4, C 4, D 3. Metas en la d): correctas en E33-02 («Todas») y E33-10 («a) y c)»);
+  // «Ninguna» es falsa en E33-12.
+  { id: "E33-01", tema: "E33", subtema: "Patrimonio municipal del suelo: concepto (art. 226)", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA en relación con lo dispuesto en el artículo 226 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo. El patrimonio municipal del suelo:",
+    o: ["Constituye un patrimonio separado de los demás bienes de titularidad municipal.",
+        "Es un patrimonio vinculado al cumplimiento de la finalidad de regular el mercado de terrenos.",
+        "Obtiene reservas de suelo para actuaciones de iniciativa privada.",
+        "Facilita la ejecución del planeamiento."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 226: «El patrimonio municipal del suelo constituye un patrimonio separado de los demás bienes de titularidad municipal, estando vinculado al cumplimiento de la finalidad de regular el mercado de terrenos, obtener reservas de suelo para actuaciones de iniciativa pública y facilitar la ejecución del planeamiento». La c) es la incorrecta: las reservas son para actuaciones de iniciativa pública, no privada. La a), la b) y la d) reproducen el artículo. De ese carácter separado derivan los controles del art. 232: gestión separada con indicación en el inventario de su carácter vinculado y separado, Registro del Patrimonio Municipal del Suelo y contabilidad expresa y diferenciada. Es la pregunta 46 del examen de Zizur Mayor de 2026, copiada literalmente (clave C)." },
+  { id: "E33-02", tema: "E33", subtema: "Patrimonio municipal del suelo: bienes integrantes (art. 227)", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 227.1 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en todos los municipios integrarán automáticamente el patrimonio municipal del suelo los bienes:",
+    o: ["Obtenidos como consecuencia de cesiones, ya sea en terrenos o en metálico.",
+        "Obtenidos como consecuencia de expropiaciones urbanísticas de cualquier clase.",
+        "Procedentes del ejercicio del derecho de tanteo y retracto conforme a esta ley foral.",
+        "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 227.1: «En todos los municipios integrarán automáticamente el patrimonio municipal del suelo los bienes obtenidos como consecuencia de cesiones, ya sea en terrenos o en metálico, o de expropiaciones urbanísticas de cualquier clase, así como los procedentes del ejercicio del derecho de tanteo y retracto conforme a esta ley foral». Las tres opciones son literales, así que la correcta es la d). No confundas esta integración automática con las otras dos vías del artículo: la potestativa, por la que los Ayuntamientos «podrán incorporar» los bienes patrimoniales clasificados como suelo urbano o urbanizable «cuya inclusión así se determine por acuerdo plenario de la entidad local titular de los mismos» (227.2), y la obligatoria de los Ayuntamientos de más de cinco mil habitantes, que «deberán incluir» los terrenos que se adquieran con dicha finalidad (227.3)." },
   {
     "id": "E33-03",
     "tema": "E33",
+    "estado": "retirada",
     "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la incorporación potestativa al patrimonio municipal del suelo de bienes patrimoniales clasificados como suelo urbano o urbanizable se determina mediante:",
     "o": [
       "Resolución de Alcaldía, previo informe de la Intervención municipal.",
@@ -40,74 +46,45 @@ export default [
     "c": 3,
     "exp": "El art. 227.2 exige acuerdo plenario de la entidad local titular. Esta incorporación potestativa debe distinguirse de la automática por los títulos del art. 227.1. La clasificación urbanística es un requisito del bien, pero la aprobación del plan no sustituye el acuerdo de incorporación."
   },
-  {
-    "id": "E33-04",
-    "tema": "E33",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los Planes Generales Municipales pueden establecer reservas de terrenos de posible adquisición para incorporarlos al patrimonio público de suelo sobre:",
-    "o": [
-      "Suelo urbano no consolidado.",
-      "Suelo urbanizable.",
-      "Suelo no urbanizable de preservación.",
-      "Suelo no urbanizable de protección."
-    ],
-    "c": 2,
-    "exp": "El art. 229.1 sitúa estas reservas municipales en suelo no urbanizable de preservación. No debe confundirse con el art. 235.2, que permite a la Administración Foral establecer reservas para el Banco Foral en suelo no urbanizable sin limitar ese precepto a la categoría de preservación."
-  },
-  {
-    "id": "E33-05",
-    "tema": "E33",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, señale cuál de los siguientes gastos NO figura entre los destinos de los ingresos por enajenación de terrenos del patrimonio municipal del suelo previstos en el artículo 230.2:",
-    "o": [
-      "La ejecución de sistemas generales previstos en el planeamiento.",
-      "Las ayudas a iniciativas privadas de regeneración urbana.",
-      "Los gastos de realojo y de retorno derivados de actuaciones urbanísticas.",
-      "La conservación ordinaria de edificios administrativos municipales."
-    ],
-    "c": 3,
-    "exp": "El art. 230.2 contempla la obtención y ejecución de sistemas generales, las ayudas a la iniciativa privada de rehabilitación, renovación o regeneración urbanas y los gastos de realojo y retorno. No habilita el gasto ordinario de conservación de edificios administrativos por su mera titularidad municipal. La conservación del propio patrimonio municipal del suelo y la compra o rehabilitación de edificios para equipamiento público son destinos distintos y sí están previstos."
-  },
-  {
-    "id": "E33-06",
-    "tema": "E33",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en el Registro del Patrimonio Municipal del Suelo deben constar:",
-    "o": [
-      "Las entradas de terrenos o metálico y sus salidas justificadas conforme a sus fines.",
-      "Las adquisiciones de terrenos, reservándose las operaciones en metálico a la contabilidad general.",
-      "Los bienes inmuebles disponibles para enajenar, excluyéndose los destinados a cesión gratuita.",
-      "Las transmisiones patrimoniales autorizadas, reservándose las adquisiciones al inventario general."
-    ],
-    "c": 0,
-    "exp": "El art. 232.2 exige registrar tanto las entradas de terrenos o metálico como sus salidas justificadas con destino a los fines del art. 230. El registro no se limita a inmuebles en venta ni a transmisiones onerosas. Además, el art. 232 exige inventario separado y documentación contable expresa y diferenciada, que no sustituyen al registro."
-  },
-  {
-    "id": "E33-07",
-    "tema": "E33",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la enajenación de bienes del patrimonio municipal del suelo destinados a usos comerciales se realizará mediante:",
-    "o": [
-      "Concurso público.",
-      "Subasta pública.",
-      "Adjudicación directa por su valor urbanístico.",
-      "Concurso o subasta, a elección del Ayuntamiento."
-    ],
-    "c": 1,
-    "exp": "El art. 231.2.a exige subasta pública para bienes destinados a usos comerciales o residenciales de vivienda libre. El concurso o subasta es la regla ordinaria para otros destinos y la subasta es preferente para usos industriales. La adjudicación directa responde a supuestos específicos; no es la regla por el solo hecho de tener uso comercial."
-  },
-  {
-    "id": "E33-08",
-    "tema": "E33",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de los siguientes bienes o recursos NO integra el Banco Foral de Suelo Público por el título indicado?",
-    "o": [
-      "Los terrenos obtenidos por cesión para la dotación supramunicipal.",
-      "Los bienes patrimoniales de Navarra adscritos al Banco Foral.",
-      "Los bienes patrimoniales municipales por su clasificación como suelo urbanizable.",
-      "Los ingresos por actos de gravamen oneroso sobre bienes del Banco Foral."
-    ],
-    "c": 2,
-    "exp": "El art. 234 enumera los terrenos adquiridos por la Administración Foral para el Banco, los bienes patrimoniales de Navarra adscritos, las cesiones para dotación supramunicipal y los ingresos de gestión, enajenación o gravamen oneroso. La mera clasificación urbanizable de un bien municipal no lo incorpora al Banco Foral ni transmite su titularidad."
-  },
+  { id: "E33-04", tema: "E33", subtema: "Patrimonio municipal del suelo: reservas de suelo (art. 229)", tipo: "DATO",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿sobre qué suelo pueden establecer los Planes Generales Municipales reservas de terreno de posible adquisición para su incorporación al patrimonio público de suelo?",
+    o: ["Suelo urbano no consolidado.",
+        "Suelo urbanizable.",
+        "Suelo no urbanizable de preservación.",
+        "Suelo no urbanizable de protección."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 229.1: «Los Planes Generales Municipales podrán establecer sobre suelo clasificado como no urbanizable de preservación, reservas de terreno de posible adquisición para su incorporación al patrimonio público de suelo». La d) cambia la categoría: el precepto dice preservación, no protección. La a) y la b) no son el suelo de estas reservas: el suelo urbano o urbanizable es el de los bienes patrimoniales que se incorporan por acuerdo plenario (227.2). En defecto o insuficiencia del plan, los Ayuntamientos pueden establecer las reservas por el procedimiento de delimitación de unidades de ejecución, y su establecimiento implica la declaración de utilidad pública y la necesidad de expropiación (229.2). Las reservas del Banco Foral se establecen en suelo no urbanizable, especialmente por medio de los instrumentos de planeamiento territorial (235.2)." },
+  { id: "E33-05", tema: "E33", subtema: "Patrimonio municipal del suelo: destino de los ingresos (art. 230.2)", tipo: "NEG",
+    q: "Según el régimen de destino de los bienes del Patrimonio Municipal del Suelo, cuando el deber de cesión del aprovechamiento correspondiente a la Administración se sustituye por su equivalente metálico, ¿cuál de las siguientes finalidades NO figura expresamente entre los posibles destinos de dichos ingresos?",
+    o: ["La financiación de los gastos de realojo y de retorno.",
+        "El pago de las obras de urbanización.",
+        "La financiación de la construcción de equipamientos colectivos u otras instalaciones de uso público municipal.",
+        "El abono de indemnizaciones a propietarios de edificios fuera de ordenación por extinción de licencias."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 230.2: «Los ingresos obtenidos mediante enajenación de terrenos y sustitución del aprovechamiento correspondiente a la Administración por su equivalente metálico, se destinarán a la conservación y ampliación del patrimonio municipal del suelo o a las siguientes finalidades»: a) obras de urbanización; b) obtención y ejecución de sistemas generales; c) construcción de equipamientos colectivos u otras instalaciones de uso público municipal, «siempre que sean promovidos por las Administraciones públicas o sus sociedades instrumentales»; d) operaciones de iniciativa pública de rehabilitación, renovación o regeneración urbanas, así como ayudas a la iniciativa privada con la misma finalidad; e) gastos de realojo y de retorno, y f) compra y/o rehabilitación de edificios para vivienda protegida o equipamiento público. Las indemnizaciones a propietarios de edificios fuera de ordenación no están en la lista; la a), la b) y la c) son las letras e), a) y c) del precepto. Es la pregunta 37 del examen de Arquitectos del Gobierno de Navarra de 7-3-2026, copiada literalmente (clave D)." },
+  { id: "E33-06", tema: "E33", subtema: "Patrimonio municipal del suelo: control (art. 232)", tipo: "LIT",
+    q: "De conformidad con lo establecido en el artículo 232.2 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en relación con el control del patrimonio municipal del suelo:",
+    o: ["El Ayuntamiento creará un Registro del Patrimonio Municipal del Suelo en el que constarán la entrada de los terrenos o metálico que se ingrese en el mismo, así como su salida de forma justificada con destino a las finalidades establecidas en el artículo 230.",
+        "El Ayuntamiento podrá crear un Registro del Patrimonio Municipal del Suelo en el que constarán la entrada de los terrenos o metálico que se ingrese en el mismo, así como su salida de forma justificada con destino a las finalidades establecidas en el artículo 230.",
+        "El Ayuntamiento, si así lo acuerda el Pleno, creará un Registro del Patrimonio Municipal del Suelo en el que constarán la entrada de los terrenos o metálico que se ingrese en el mismo, así como su salida de forma justificada con destino a las finalidades establecidas en el artículo 230.",
+        "El Ayuntamiento, cuando lo exija el planeamiento, creará un Registro del Patrimonio Municipal del Suelo en el que constarán la entrada de los terrenos o metálico que se ingrese en el mismo, así como su salida de forma justificada con destino a las finalidades establecidas en el artículo 230."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 232.2: «Asimismo, el Ayuntamiento creará un Registro del Patrimonio Municipal del Suelo en el que constarán la entrada de los terrenos o metálico que se ingrese en el mismo, así como su salida de forma justificada con destino a las finalidades establecidas en el artículo 230». Es un deber de todo Ayuntamiento, sin condiciones: la b) lo convierte en potestativo, la c) lo deja a lo que acuerde el Pleno (el acuerdo plenario es el de la incorporación potestativa de bienes patrimoniales del art. 227.2) y la d) lo hace depender del planeamiento. Además del Registro, la entidad local indica en su inventario de bienes el carácter vinculado y separado del patrimonio, que tiene una gestión separada del resto de sus bienes (232.1). En el Registro consta también el metálico, porque las cesiones en metálico integran el patrimonio (227.1). El control se completa con la documentación contable expresa y diferenciada de los bienes, su movimiento patrimonial, sus enajenaciones y su destino final (232.3)." },
+  { id: "E33-07", tema: "E33", subtema: "Patrimonio municipal del suelo: enajenación (art. 231.2.a)", tipo: "ALCANCE",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando el destino de los bienes del patrimonio municipal del suelo que se enajenan sea el de usos comerciales, la enajenación se realizará:",
+    o: ["Ordinariamente por concurso o subasta.",
+        "Por subasta pública.",
+        "Preferentemente por subasta pública.",
+        "Por concurso público."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 231.2.a): «La enajenación se realizará ordinariamente por los procedimientos de concurso o subasta. No obstante, cuando el destino de los bienes sea el de usos comerciales o residenciales de vivienda libre la enajenación se realizará por subasta pública. Asimismo, se aplicará preferentemente el procedimiento de subasta pública cuando los bienes se destinen a usos industriales». La a) es la regla general, que no rige para los usos comerciales; la c) es la regla de los usos industriales, y la d) no está prevista para los usos comerciales ni para la vivienda libre. En la subasta, el tipo de licitación es como mínimo el valor urbanístico, con los costes proporcionales de planeamiento, urbanización y gestión y minorado en la depreciación que corresponda; si no hay adjudicación en la subasta o el concurso queda desierto, cabe «excepcionalmente» la enajenación directa en las mismas condiciones y por precio no inferior al de licitación." },
+  { id: "E33-08", tema: "E33", subtema: "Banco Foral de Suelo Público: bienes integrantes (art. 234)", tipo: "SEL",
+    q: "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de los siguientes bienes o recursos integra el Banco Foral de Suelo Público?",
+    o: ["Los terrenos obtenidos por cesión para la dotación supramunicipal.",
+        "Los bienes patrimoniales urbanos o urbanizables incorporados por acuerdo plenario.",
+        "Los bienes de dominio público de la Comunidad Foral adscritos a la vivienda.",
+        "Los ingresos por la sustitución del aprovechamiento por su equivalente metálico."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 234: el Banco Foral de Suelo Público está integrado por «a) Los terrenos de titularidad pública de la administración de la Comunidad Foral adquiridos por expropiación o por cualquier otro procedimiento para su incorporación al Banco Foral de Suelo Público. b) Los bienes patrimoniales del Patrimonio de Navarra que se adscriban al Banco Foral de Suelo Público. c) Los terrenos obtenidos por cesión para la dotación supramunicipal. d) Los ingresos obtenidos por la gestión de los bienes, enajenación u actos de gravamen a título oneroso sobre los bienes que componen el Banco Foral de Suelo Público». La b) y la d) son del patrimonio municipal del suelo: los Ayuntamientos pueden incorporar por acuerdo plenario los bienes patrimoniales clasificados como suelo urbano o urbanizable (227.2), y los ingresos por la sustitución del aprovechamiento correspondiente a la Administración por su equivalente metálico son ingresos de ese patrimonio (230.2). La c) cambia la naturaleza de los bienes: lo que se adscribe al Banco son los bienes patrimoniales del Patrimonio de Navarra, no los de dominio público. Los bienes de la dotación supramunicipal tienen además un destino restringido (236.2)." },
   {
     "id": "E33-09",
     "tema": "E33",
+    "estado": "retirada",
     "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿a favor de qué entidad prevé expresamente el artículo 237.1 la adjudicación del derecho de superficie por concurso público u otro procedimiento de selección que garantice la igualdad entre ellas?",
     "o": [
       "Una sociedad pública dedicada a la gestión de viviendas protegidas.",
@@ -118,82 +95,57 @@ export default [
     "c": 3,
     "exp": "El art. 237.1.e establece ese procedimiento para las cooperativas de vivienda. El apartado d prevé la adjudicación directa a otras Administraciones, entes instrumentales, sociedades públicas o sociedades de capital mixto dedicadas a la gestión de viviendas protegidas. La pregunta distingue las modalidades expresamente previstas para cada destinatario."
   },
-  {
-    "id": "E33-10",
-    "tema": "E33",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un terreno del Banco Foral procede de una cesión para dotación supramunicipal del artículo 55.6. ¿Cuál de los siguientes destinos admite específicamente el artículo 236.2?",
-    "o": [
-      "Un equipamiento deportivo municipal.",
-      "Un alojamiento dotacional.",
-      "Un centro público de servicios sociales.",
-      "Un equipamiento docente de ámbito supramunicipal."
-    ],
-    "c": 1,
-    "exp": "El art. 236.2 limita los bienes obtenidos como dotación supramunicipal a viviendas sujetas a protección pública o alojamientos dotacionales regulados por la normativa de vivienda. No basta el interés social o el carácter público de otros equipamientos: esos bienes tienen un destino más restringido que el régimen general del art. 236.1."
-  },
-  {
-    "id": "E33-11",
-    "tema": "E33",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la duración máxima de una concesión administrativa sobre bienes del Banco Foral de Suelo Público destinados a alojamientos dotacionales no podrá superar:",
-    "o": [
-      "75 años.",
-      "90 años.",
-      "99 años.",
-      "50 años."
-    ],
-    "c": 2,
-    "exp": "El art. 237 ter.c fija un límite de 99 años para esta concesión administrativa. No debe confundirse con el plazo del derecho de superficie del art. 240.2, cuyo límite es de 75 años, sin perjuicio de la prórroga especial prevista en el art. 237 bis."
-  },
-  {
-    "id": "E33-12",
-    "tema": "E33",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál es el plazo máximo del derecho de superficie sobre bienes del Banco Foral destinados a viviendas protegidas, sin computar la posible prórroga especial del artículo 237 bis?",
-    "o": [
-      "75 años.",
-      "99 años.",
-      "50 años.",
-      "90 años."
-    ],
-    "c": 0,
-    "exp": "El art. 237 bis.1.b remite al plazo máximo de 75 años del art. 240.2. Permite prorrogarlo hasta los 99 años, previa solicitud de los ocupantes legales antes del vencimiento y vinculada a mejoras que justifiquen prolongar la vida útil. Los 99 años no son el plazo inicial ni un plazo prorrogable por encima de ese límite."
-  },
-  {
-    "id": "E33-13",
-    "tema": "E33",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, si los derechos de propiedad del suelo y del superficiario se reúnen en una misma persona por una causa distinta del transcurso del plazo del derecho de superficie, las cargas que recaían sobre ambos derechos:",
-    "o": [
-      "Se extinguen al desaparecer la separación entre suelo y edificación.",
-      "Se trasladan íntegramente a la propiedad del suelo.",
-      "Continúan gravándolos separadamente.",
-      "Se sustituyen por créditos frente al titular de la propiedad reunida."
-    ],
-    "c": 2,
-    "exp": "El art. 240.5 dispone que, si la reunión de ambos derechos se produce por una causa distinta del vencimiento, sus cargas continúan gravándolos separadamente. Es diferente de la extinción por transcurso del plazo: en ese caso el art. 240.4 extingue los derechos reales o personales impuestos por el superficiario."
-  },
-  {
-    "id": "E33-14",
-    "tema": "E33",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando se delimita una zona sometida a tanteo y retracto mediante el procedimiento específico del artículo 242.2, fuera de la tramitación de un instrumento de planeamiento, ¿a quién corresponde la aprobación definitiva?",
-    "o": [
-      "Al titular del departamento competente, mediante orden foral.",
-      "Al Gobierno de Navarra, mediante decreto foral.",
-      "Al Pleno de cada Ayuntamiento afectado, mediante acuerdo.",
-      "A la Comisión de Ordenación del Territorio, mediante resolución."
-    ],
-    "c": 1,
-    "exp": "El art. 242.2.d atribuye la aprobación al Gobierno de Navarra mediante decreto foral. La orden foral corresponde a la aprobación inicial; las entidades locales afectadas reciben audiencia y la Comisión de Ordenación del Territorio informa sobre las alegaciones. Ninguna de estas intervenciones sustituye la aprobación definitiva."
-  },
-  {
-    "id": "E33-15",
-    "tema": "E33",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una finca situada en una zona delimitada de tanteo y retracto se vende por un precio distinto del comunicado a la Administración. ¿Desde qué momento se computa el mes para ejercitar el retracto?",
-    "o": [
-      "Desde la notificación de la intención inicial de vender.",
-      "Desde la fecha de inscripción de la compraventa en el Registro.",
-      "Desde el otorgamiento de la escritura de compraventa.",
-      "Desde que la Administración conoce la enajenación."
-    ],
-    "c": 3,
-    "exp": "El art. 245.3 permite el retracto cuando la transmisión no se ajusta a los precios o condiciones notificados y cuenta el mes desde que la Administración tuvo conocimiento de la enajenación. La notificación de la intención de vender inicia el plazo del tanteo del art. 245.2. Ni la escritura ni la inscripción son por sí solas el inicio que establece el apartado 3."
-  },
+  { id: "E33-10", tema: "E33", subtema: "Banco Foral de Suelo Público: destino (art. 236)", tipo: "META",
+    q: "Señale la respuesta CORRECTA en relación con el destino de los bienes del Banco Foral de Suelo Público obtenidos en concepto de dotación supramunicipal, de acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo:",
+    o: ["Podrán destinarse a la construcción de viviendas sometidas a algún régimen de protección pública.",
+        "Podrán destinarse a la construcción de equipamientos colectivos u otras instalaciones de uso público.",
+        "Podrán destinarse a alojamientos dotacionales regulados por la normativa vigente en materia de vivienda.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 236.2: «Los bienes obtenidos en concepto de dotación supramunicipal prevista en el artículo 55.6 de esta ley foral se destinarán únicamente a la construcción de viviendas sometidas a algún régimen de protección pública o alojamientos dotacionales regulados por la normativa vigente en materia de vivienda». La a) y la c) son literales, así que la correcta es la d). La b) es falsa: los equipamientos colectivos u otras instalaciones de uso público municipal son un destino de los ingresos del patrimonio municipal del suelo (230.2.c), y por el «únicamente» del apartado 2 a estos bienes no les alcanza la cláusula de «otros usos de interés social» con la que el art. 236.1 cierra el destino general del Banco Foral." },
+  { id: "E33-11", tema: "E33", subtema: "Derecho de superficie y concesión: duración máxima (arts. 240.2 y 237 ter)", tipo: "COMB2",
+    q: "¿Qué duración máxima fijan, respectivamente, los artículos 240.2 y 237 ter del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, para el derecho de superficie y para la concesión administrativa sobre los bienes del Banco Foral de Suelo Público destinados a alojamientos dotacionales?",
+    o: ["99 años el derecho de superficie y 75 años la concesión.",
+        "75 años el derecho de superficie y 99 años la concesión.",
+        "75 años tanto el derecho de superficie como la concesión.",
+        "99 años tanto el derecho de superficie como la concesión."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 240.2: «El plazo del derecho de superficie no podrá exceder de setenta y cinco años, sin perjuicio de lo previsto en el artículo 237 bis»; art. 237 ter.c): el pliego de la concesión debe incluir «La duración máxima de la concesión, que no podrá superar el límite de 99 años, y las causas de extinción». La a) invierte los dos plazos, y la c) y la d) aplican el mismo a las dos figuras. El derecho de superficie solo llega a 99 años por la prórroga del art. 237 bis.1.b), que solicitan los ocupantes legales de las viviendas antes del vencimiento y que va vinculada al compromiso de realizar mejoras en la edificación." },
+  { id: "E33-12", tema: "E33", subtema: "Banco Foral: derecho de superficie (art. 237 bis)", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 237 bis del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la duración máxima del derecho de superficie sobre bienes del Banco Foral de Suelo Público destinados a la construcción de viviendas protegidas podrá ser prorrogada hasta los 99 años:",
+    o: ["Previa solicitud de la persona superficiaria, formulada con anterioridad al vencimiento del plazo y vinculada al compromiso de realizar mejoras en la edificación.",
+        "Previa solicitud de los ocupantes legales, formulada con anterioridad al vencimiento del plazo y vinculada al compromiso de realizar mejoras en la edificación.",
+        "Previa solicitud de la persona superficiaria, formulada con anterioridad al vencimiento del plazo y vinculada al compromiso de adquirir la propiedad del suelo.",
+        "Ninguna de las respuestas anteriores es correcta."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 237 bis.1.b): el acto de constitución debe contener «La duración máxima del derecho de superficie prevista en el apartado 2 del artículo 240 de la presente ley foral, que podrá ser prorrogada hasta los 99 años, previa solicitud de los ocupantes legales de las viviendas formulada con anterioridad al vencimiento del plazo, vinculada en todo caso al compromiso de estos de realizar mejoras en la edificación que justifiquen la prolongación de la vida útil de la misma». La a) cambia quién la pide: a la persona superficiaria el apartado 2 le exige acreditar solvencia económica y técnica y presentar programas de conservación, mantenimiento y gestión, pero la prórroga la solicitan los ocupantes. La c) cambia además el compromiso, que choca con el apartado 4: «deberá quedar garantizada la conservación de la titularidad pública del suelo». Como la b) es correcta, la d) es falsa. El plazo de partida es el del art. 240.2, setenta y cinco años." },
+  { id: "E33-13", tema: "E33", subtema: "Derecho de superficie: extinción (art. 240)", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA en relación con lo establecido en el artículo 240 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, sobre la extinción del derecho de superficie:",
+    o: ["El derecho de superficie se extinguirá si no se edifica en el plazo previsto en el planeamiento urbanístico aplicable.",
+        "La extinción del derecho por decurso del término no afectará a los derechos reales o personales impuestos por el superficiario.",
+        "Extinguido por haber transcurrido el plazo, la entidad superficiante hará suya la propiedad de lo edificado sin satisfacer indemnización.",
+        "Si por otra causa se reúnen en una misma persona la propiedad del suelo y el derecho del superficiario, se extinguirán las cargas de ambos."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 240.3: «Cuando se extinga el derecho de superficie por haber transcurrido el plazo, la entidad superficiante hará suya la propiedad de lo edificado, sin que deba satisfacer indemnización alguna cualquiera que sea el título en virtud del cual se hubiere constituido aquel derecho». La a) es falsa porque el derecho se extingue si no se edifica «en el plazo previsto en el acuerdo de constitución» (240.1), no en el del planeamiento. La b) invierte el apartado 4: la extinción por decurso del término «provocará la de toda clase de derechos reales o personales impuestos por el superficiario». La d) contradice el apartado 5: si los dos derechos se reúnen en la misma persona por cualquier otra causa, «las cargas que recayeren sobre uno y otro derecho continuarán gravándolos separadamente». El plazo no puede exceder de setenta y cinco años, sin perjuicio del art. 237 bis (240.2)." },
+  { id: "E33-14", tema: "E33", subtema: "Tanteo y retracto: delimitación de zonas (art. 242.2)", tipo: "LISTA",
+    q: "Conforme a lo establecido en el artículo 242.2 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la delimitación de zonas sometidas a los derechos de tanteo y retracto podrá efectuarse con arreglo a un procedimiento que comprende, por este orden:",
+    o: ["Aprobación inicial por orden foral, información pública y audiencia de las entidades locales afectadas, informe de la Comisión de Ordenación del Territorio y aprobación por decreto foral.",
+        "Aprobación inicial por decreto foral, información pública y audiencia de las entidades locales afectadas, informe de la Comisión de Ordenación del Territorio y aprobación por orden foral.",
+        "Aprobación inicial por orden foral, información pública y audiencia de las entidades locales afectadas, informe del Departamento competente en urbanismo y aprobación por decreto foral.",
+        "Aprobación inicial por decreto foral, información pública y audiencia de las entidades locales afectadas, informe del Departamento competente en urbanismo y aprobación por orden foral."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 242.2: la delimitación de las zonas podrá efectuarse con arreglo al siguiente procedimiento: «a) Aprobación inicial por orden foral del titular del Departamento competente en materia de ordenación del territorio y urbanismo. b) Información pública durante un mes y audiencia de las entidades locales afectadas. c) Informe de la Comisión de Ordenación del Territorio sobre las alegaciones presentadas. d) Aprobación mediante decreto foral del Gobierno de Navarra». La b) y la d) invierten los instrumentos: la orden foral del titular del Departamento es la aprobación inicial y el decreto foral del Gobierno de Navarra, la definitiva. La c) y la d) cambian el órgano que informa las alegaciones: no es el Departamento, que es el que aprueba inicialmente, sino la Comisión de Ordenación del Territorio. Es una vía alternativa («Asimismo») a la delimitación en el planeamiento territorial y urbanístico por el Gobierno de Navarra y los Ayuntamientos (242.1), y la aprobación implica la declaración de utilidad pública a efectos expropiatorios (242.5)." },
+  { id: "E33-15", tema: "E33", subtema: "Tanteo y retracto: plazo del retracto (art. 245.3)", tipo: "DATO",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una finca situada en una zona delimitada de tanteo y retracto se vende por un precio distinto del comunicado a la Administración. ¿Desde qué momento se computa el mes de que esta dispone para ejercitar el retracto?",
+    o: ["Desde la notificación de la intención de enajenar.",
+        "Desde que la Administración conoce la enajenación.",
+        "Desde el otorgamiento de la escritura de compraventa.",
+        "Desde la inscripción de la compraventa en el Registro."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 245.3: «En el caso de falta de comunicación, el derecho de retracto se podrá ejercitar en el plazo de un mes a partir de que hubiese tenido conocimiento de la enajenación. También podrá ejercitarse el derecho de retracto en los mismos plazos cuando la enajenación se hubiese realizado sin ajustarse a los precios y condiciones notificados». La a) es el inicio del plazo del tanteo: un mes desde la notificación fehaciente de la intención de enajenar, con el precio y las demás condiciones (245.2). La escritura y la inscripción no son el día inicial que fija la ley; lo que la ley exige es acreditar la comunicación, sin la cual los notarios deniegan la escritura y las escrituras de compraventa o permuta no tienen acceso al Registro de la Propiedad (245.7). Ejercitado el derecho, la Administración dispone de tres meses para hacer efectiva la liquidación; si no lo hace, caduca (245.4)." },
+  { id: "E33-16", tema: "E33", subtema: "Banco Foral de Suelo Público: concepto (art. 233)", tipo: "DEF",
+    q: "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el Banco Foral de Suelo Público es:",
+    o: ["El patrimonio de suelo propio que la Administración de la Comunidad Foral debe constituir para intervenir en el mercado del suelo, como patrimonio separado dentro del Patrimonio de Navarra.",
+        "El patrimonio separado que forman los terrenos cedidos por los municipios para regular el mercado de terrenos, obtener reservas de suelo y facilitar la ejecución del planeamiento.",
+        "El conjunto de equipamientos comunitarios destinados a alojamientos dotacionales que la Administración de la Comunidad Foral gestiona de forma directa o mediante concesión.",
+        "El fondo de la Administración de la Comunidad Foral con el que se financia a los municipios la adquisición de terrenos para sus patrimonios municipales del suelo."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 233.1: «La Administración de la Comunidad Foral deberá constituir, mantener y gestionar su propio patrimonio de suelo, que se denominará Banco Foral de Suelo Público, con la finalidad de intervenir en el mercado del suelo. El Banco Foral de Suelo Público constituirá un patrimonio separado dentro del Patrimonio de Navarra». La b) mezcla el Banco con el patrimonio municipal del suelo, que es el vinculado a regular el mercado de terrenos, obtener reservas de suelo para actuaciones de iniciativa pública y facilitar la ejecución del planeamiento (226). La c) toma la parte por el todo: los bienes calificados como equipamientos comunitarios con destino a alojamientos dotacionales son solo una parte del Banco, la que se gestiona de forma directa, con posible concesión administrativa (237.2). La d) es falsa: el Banco es un patrimonio de suelo, no un fondo, y con los municipios solo puede colaborar para facilitarles la adquisición o disponibilidad de terrenos y otros bienes inmuebles (233.2). Su carácter separado se traduce en una gestión separada del resto de bienes del Patrimonio de Navarra, con indicación en el inventario de su carácter vinculado y separado (238.1)." },
+  { id: "E33-17", tema: "E33", subtema: "Tanteo y retracto: contenido de la delimitación (art. 242.3)", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 242.3 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la delimitación de una zona sometida a los derechos de tanteo y retracto deberá especificar el plazo durante el que podrán ejercitarse, que no podrá ser superior, a contar desde la delimitación de la zona, a:",
+    o: ["Dos años.", "Cuatro años.", "Ocho años.", "Diez años."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 242.3.b): la delimitación deberá especificar al menos el «Plazo durante el que podrá ejercitarse el derecho de tanteo o retracto, que no podrá ser superior a ocho años a contar desde la delimitación de la zona correspondiente». Debe especificar también la delimitación geográfica de la zona, con referencia a calles, sectores o parcelas catastrales, y la finalidad a la que vayan a destinarse los suelos o edificaciones (242.3.a y c). Dos años es otro plazo del capítulo: el que tiene la Administración para cumplir la finalidad que motivó la adquisición, contado desde el ejercicio del derecho (245.6). Cuatro y diez años no aparecen en el capítulo." },
 ];

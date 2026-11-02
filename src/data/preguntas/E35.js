@@ -1,35 +1,44 @@
 // Banco de preguntas del tema E35. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 35 ESPECÍFICO · LICENCIAS URBANÍSTICAS (E35) ----------
-  {
-    "id": "E35-01",
-    "tema": "E35",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se dicta una orden de ejecución para una actuación que requiere proyecto técnico. ¿Qué circunstancia permite aplicar la no sujeción a licencia urbanística prevista en el artículo 190.4.d)?",
-    "o": [
-      "Que el promotor aporte el proyecto después de recibir la orden de ejecución.",
-      "Que la orden de ejecución incorpore el proyecto técnico que resulta exigible.",
-      "Que la orden de ejecución establezca un plazo concreto para terminar la obra.",
-      "Que el técnico municipal informe el proyecto tras comenzar su ejecución."
-    ],
-    "c": 1,
-    "exp": "Art. 190.4.d TRLFOTU: se excluyen de licencia las actuaciones objeto de órdenes de ejecución que no necesiten proyecto técnico o cuando la propia orden incorpore el proyecto exigible. El supuesto necesita proyecto, por lo que este debe incorporarse a la orden. Aportarlo después, fijar un plazo o informar tras el inicio no sustituye ese requisito de la exención."
-  },
-  {
-    "id": "E35-02",
-    "tema": "E35",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una sociedad dependiente del Ayuntamiento promueve un proyecto de obras locales ordinarias dentro del término municipal. ¿Cómo se realiza el control urbanístico previsto en el artículo 191 antes de la ejecución material?",
-    "o": [
-      "Mediante el otorgamiento de licencia municipal, tras la aprobación del proyecto.",
-      "Mediante una declaración responsable, tras la aprobación del proyecto de obras.",
-      "Mediante la autorización urbanística foral, tras aprobar el proyecto municipal.",
-      "Mediante la aprobación del proyecto, conforme a la legislación de régimen local."
-    ],
-    "c": 3,
-    "exp": "Art. 191 TRLFOTU: la aprobación del proyecto incorpora el control de adecuación urbanística y no se necesita licencia antes de la ejecución material. El artículo incluye a las administraciones municipales, sus organismos autónomos, sociedades y otros entes dependientes. No exige añadir licencia, declaración responsable ni autorización foral como sustitutos de ese control."
-  },
+  // ── E35 · Licencias urbanísticas: obras, primera utilización y apertura; actos de las AAPP; declaraciones ──
+  // ── responsables y comunicaciones (arts. 190-197 y 47 del DFL 1/2017, art. 69 LPAC y art. 44 LF 17/2020) ──
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección 2 bis):
+  // 3 META (E35-07, E35-08, E35-19), 3 DATO (E35-02, E35-04, E35-06), 2 NEG (E35-16, E35-17), 1 LISTA (E35-05),
+  // 1 LIT (E35-18), 1 AFIRM (E35-13), 1 SEL (E35-10), 1 DEF (E35-14), 1 ALCANCE (E35-01) y 1 COMB2 (E35-12).
+  // Reescritas in situ, con su id, su subtema y su tipo: E35-01, 02, 04, 05, 06, 07, 08, 10, 12, 13 y 14.
+  // Nuevas: E35-16 (art. 190, actos no sujetos), E35-17 (art. 190.1, caracteres de la licencia), E35-18
+  // (art. 69.1 LPAC, contenido de la declaración responsable) y E35-19 (art. 197.4, cambio de planeamiento).
+  // Retiradas (no se borran: el historial va por id): E35-03 (art. 192.1.g, duplicaba E36-02), E35-09
+  // (art. 197.8, la prórroga ya se pregunta en E32-04), E35-11 (art. 42 LF 17/2020, duplicaba E20-06 y E21-08)
+  // y E35-15 (ordenanza de control posterior de Pamplona, duplicaba E36-15). Sus datos quedan en el resumen.
+  // Recicladas de exámenes reales, en versión casi literal: E35-16 = Zizur 2026 P43; E35-19 = Zizur 2026 P44;
+  // E35-17 = Zizur 2026 P45; E35-12 = Zizur 2026 P67; E35-18 sigue Zizur 2026 P99.
+  // Vigencia a 21-05-2026 (BOE, pestaña «Análisis»): arts. 47, 70, 190, 191 y 193-197 y DA 5.ª del DFL 1/2017
+  // sin cambios desde 2017; el art. 192 solo cambió por la LF 4/2021 (letras g y h, en vigor el 29-4-2021).
+  // Art. 69 LPAC sin cambios. LF 17/2020, arts. 38-54 sin cambios (la LF 14/2025 solo añadió la DA 8.ª).
+  // El TXT tiene fecha de corte 29-09-2026: su apartado 14.13 (acuerdos plenarios de 2-7-2026) es posterior y
+  // no se pregunta.
+  // Letra correcta: A 4, B 4, C 3, D 4. Metas en la d): correctas en E35-07 («a) y c)») y E35-08 («Todas»);
+  // «Ninguna» es falsa en E35-19.
+  { id: "E35-01", tema: "E35", subtema: "Actos no sujetos: obras en cumplimiento de una orden de ejecución", tipo: "ALCANCE",
+    q: "Conforme a lo establecido en el artículo 190.4.d) del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, las obras que han de llevarse a cabo en cumplimiento de una orden de ejecución dictada por la Administración competente no están sujetas a licencia urbanística:",
+    o: ["En todo caso, por tratarse de obras impuestas por la propia Administración competente.",
+        "Siempre y cuando no requieran proyecto técnico o el propietario presente el proyecto antes de iniciar las obras.",
+        "Siempre y cuando no requieran proyecto técnico o la orden, o el acto de ejecución subsidiaria, lo incorpore.",
+        "En ningún caso: su ejecución exige la previa obtención de la correspondiente licencia urbanística de obras."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 190.4.d): no están sujetas a licencia «Las obras que han de llevarse a cabo en cumplimiento de una orden de ejecución, dictadas por la Administración competente, y sin perjuicio de la imposición de determinaciones específicas para su ejecución, siempre y cuando no requieran proyecto técnico o cuando la misma orden o el acto que ordene su ejecución subsidiaria incorpore el proyecto técnico requerido». La a) prescinde de esa condición: una orden que no incorpora el proyecto exigible no basta. La b) cambia quién aporta el proyecto: no sirve que lo presente después el propietario; tiene que incorporarlo la propia orden o el acto que ordene su ejecución subsidiaria. La d) contradice el precepto, que excluye estas obras de licencia cuando se cumple la condición." },
+  { id: "E35-02", tema: "E35", subtema: "Obras municipales ordinarias: control mediante la aprobación del proyecto (art. 191)", tipo: "DATO",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los proyectos de obras locales ordinarias que promueve una sociedad dependiente del Ayuntamiento no necesitan licencia urbanística previa a su ejecución material. ¿Mediante qué actuación controla el órgano competente su adecuación al ordenamiento urbanístico?",
+    o: ["Mediante una declaración responsable.",
+        "Mediante una comunicación previa.",
+        "Mediante la aprobación del proyecto.",
+        "Mediante un informe técnico municipal."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 191: los proyectos de obras locales ordinarias que promuevan las administraciones municipales «y los organismos autónomos, las sociedades y otros entes que dependen de ellas se tramitarán y se aprobarán de conformidad con la legislación sobre régimen local. Mediante la aprobación de estos proyectos, el órgano competente controla la adecuación de las obras proyectadas a las determinaciones del ordenamiento jurídico urbanístico y no necesitan licencia urbanística previa a su ejecución material». La declaración responsable y la comunicación previa son los títulos de los arts. 192 y 195 para las actuaciones que la ley somete a ese régimen, no el control de las obras municipales; y un informe técnico no sustituye al acuerdo que aprueba el proyecto. En la misma línea, el art. 190.4.a) entiende autorizadas las obras municipales «por el acuerdo de aprobación del proyecto, previa acreditación en el expediente del respeto al planeamiento en vigor y a la normativa de ordenación territorial y urbanística»." },
   {
     "id": "E35-03",
     "tema": "E35",
+    "subtema": "Declaración responsable: autoconsumo solar (art. 192.1.g)",
+    "estado": "retirada",
     "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se proyecta autoconsumo solar sobre una edificación no protegida, sin evaluación de impacto ambiental. La instalación exige intervenir en la estructura del edificio. ¿Cómo incide este último dato en el supuesto de declaración o comunicación del artículo 192.1.g)?",
     "o": [
       "Lo excluye de ese supuesto por la afección a la estructura del edificio.",
@@ -38,76 +47,42 @@ export default [
       "Lo mantiene en ese supuesto si la afección estructural no alcanza los cimientos."
     ],
     "c": 0,
-    "exp": "Art. 192.1.g TRLFOTU: la afección a los cimientos o a la estructura es una excepción expresa; no exige que concurran ambas. Mantener el volumen o el destino de autoconsumo no elimina esa excepción. La regla general no fija límite de potencia, pero conserva las excepciones estructurales, patrimoniales y de evaluación ambiental."
+    "exp": "Retirada el 02-11-2026 al ajustar el bloque a la mezcla de Zizur Mayor 2026: duplicaba E36-02, y el catálogo del art. 192 es materia del Tema 36. El dato era correcto y sigue en el resumen. Art. 192.1.g TRLFOTU: la afección a los cimientos o a la estructura es una excepción expresa; no exige que concurran ambas. Mantener el volumen o el destino de autoconsumo no elimina esa excepción. La regla general no fija límite de potencia, pero conserva las excepciones estructurales, patrimoniales y de evaluación ambiental."
   },
-  {
-    "id": "E35-04",
-    "tema": "E35",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en una entidad local de más de 5.000 habitantes el planeamiento no ha fijado plazos expresos para solicitar licencia de edificación ni se ha acordado ampliación. ¿Qué plazos establece el artículo 193 para actuaciones sistemáticas y asistemáticas, respectivamente?",
-    "o": [
-      "Dos años para las sistemáticas y cuatro años para las asistemáticas.",
-      "Un año para las sistemáticas y tres años para las asistemáticas.",
-      "Un año para las sistemáticas y dos años para las asistemáticas.",
-      "Dos años para las sistemáticas y dos años para las asistemáticas."
-    ],
-    "c": 2,
-    "exp": "Art. 193 TRLFOTU: en entidades locales de más de 5.000 habitantes, un año para solicitar licencia en actuaciones sistemáticas, duplicado en asistemáticas. Dos y cuatro años corresponden a entidades de menos de esa población; tres años no es el plazo de solicitud asistemática del supuesto. La regla de duplicación impide igualar ambos plazos en dos años. No confundir solicitud con plazos de ejecución del art. 197."
-  },
-  {
-    "id": "E35-05",
-    "tema": "E35",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, para una licencia de primera utilización se presenta certificación del facultativo director que acredita fecha de finalización, conformidad con proyecto y condiciones y aptitud del edificio para ser utilizado. ¿Qué extremo adicional exige acreditar el artículo 194.2?",
-    "o": [
-      "Que se ha practicado la recepción contractual de las obras de edificación.",
-      "Que se ha inscrito la declaración de obra nueva en el Registro de la Propiedad.",
-      "Que se ha contratado el suministro definitivo de los servicios urbanos.",
-      "Que la parcela en la que se ubica la edificación se encuentra urbanizada."
-    ],
-    "c": 3,
-    "exp": "Art. 194.2 TRLFOTU: el certificado debe acreditar también que la parcela se encuentra urbanizada. Recepción contractual, inscripción registral y contratación de suministros son cuestiones distintas y no sustituyen ese extremo urbanístico. La certificación del director reemplaza los documentos de las letras b y c del art. 194.1, pero no es por sí sola la licencia de primera utilización."
-  },
-  {
-    "id": "E35-06",
-    "tema": "E35",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se concede licencia con la condición de eficacia relativa al proyecto de edificación. Una vez presentado este, ¿qué actuación y plazo máximo corresponden a la entidad local según el artículo 194.6?",
-    "o": [
-      "Resolver y notificar en quince días su conformidad o disconformidad con la licencia.",
-      "Resolver y notificar en dos meses su conformidad o disconformidad con la licencia.",
-      "Emitir en quince días el informe previo de habitabilidad de las viviendas proyectadas.",
-      "Emitir en dos meses el informe previo de habitabilidad de las viviendas proyectadas."
-    ],
-    "c": 0,
-    "exp": "Art. 194.6 TRLFOTU: la entidad local dispone de un máximo de quince días desde la presentación para resolver sobre conformidad o no con la licencia y notificarlo. Dos meses es el plazo general de resolución del art. 194.7 y también el del informe previo foral de habitabilidad de su art. 194.4.a, trámites diferentes. El apartado 6 no configura expresamente una segunda licencia por silencio positivo."
-  },
-  {
-    "id": "E35-07",
-    "tema": "E35",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una solicitud de licencia urbanística cumple el ordenamiento y no está afectada por una excepción estatal al silencio estimatorio. Sin suspensión ni ampliación del procedimiento, ¿qué regla de plazo y cómputo establece el artículo 194.7?",
-    "o": [
-      "Dos meses desde la primera instancia registrada, aunque falte documentación preceptiva.",
-      "Dos meses desde que se presenta la documentación completa en el registro general.",
-      "Tres meses desde que se presenta la documentación completa en el registro general.",
-      "Tres meses desde la primera instancia registrada, aunque falte documentación preceptiva."
-    ],
-    "c": 1,
-    "exp": "Art. 194.7 TRLFOTU: máximo de dos meses desde documentación completa en el registro general. En las condiciones del enunciado, transcurrido sin comunicar acto, opera la regla estimatoria. Una instancia incompleta no es el hito definido por el precepto y tres meses no es su plazo. La estimación no se extiende a facultades ilegales ni a supuestos de silencio negativo básico estatal."
-  },
-  {
-    "id": "E35-08",
-    "tema": "E35",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se inicia expediente de caducidad por incumplimiento de los plazos de una licencia urbanística. ¿Qué audiencia debe darse al interesado conforme al artículo 197.7?",
-    "o": [
-      "Un período de diez días hábiles, como mínimo.",
-      "Un período de quince días naturales, como mínimo.",
-      "Un período de quince días hábiles, como mínimo.",
-      "Un período de diez días naturales, como mínimo."
-    ],
-    "c": 2,
-    "exp": "Art. 197.7 TRLFOTU: audiencia por período mínimo de quince días hábiles, tras iniciar expediente. No son diez días ni días naturales. La declaración corresponde a la Administración competente para conceder la licencia; el mero vencimiento no sustituye expediente, audiencia y declaración."
-  },
+  { id: "E35-04", tema: "E35", subtema: "Plazos para solicitar licencia de edificación (art. 193)", tipo: "DATO",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en una entidad local de más de cinco mil habitantes y en defecto de previsión expresa en el planeamiento, ¿cuál es el plazo para solicitar la licencia de edificación en una actuación asistemática, desde que se hubiera procedido a la urbanización?",
+    o: ["Un año.", "Dos años.", "Tres años.", "Cuatro años."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 193: «En defecto de previsión expresa en el planeamiento, el plazo para la solicitud de licencia de edificación en actuaciones sistemáticas será de un año en entidades locales de más de cinco mil habitantes, y de dos años en entidades locales de menos de esa población, desde que se hubiera procedido a la urbanización conforme a lo establecido en el artículo 104 de esta ley foral. Los plazos se duplicarán en el caso de solicitud de licencia de edificación en actuaciones asistemáticas». En una entidad de más de 5.000 habitantes son un año en las sistemáticas y, duplicado, dos en las asistemáticas. Un año es el plazo de las sistemáticas; cuatro años, el de las asistemáticas en entidades de menos de 5.000 habitantes; tres años no aparece en el artículo. Estos plazos «podrán ampliarse atendiendo a circunstancias económicas financieras y de mercado que justifiquen suficientemente su ampliación». No confundir con el plazo para resolver (dos meses, art. 194.7) ni con los plazos mínimos de ejecución (uno y tres años, art. 197.6)." },
+  { id: "E35-05", tema: "E35", subtema: "Primera utilización u ocupación: certificación del director de la obra (art. 194.2)", tipo: "LISTA",
+    q: "Conforme a lo establecido en el artículo 194.2 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en la licencia de primera utilización u ocupación, la certificación del facultativo director de la obra que sustituye al proyecto básico y a la declaración del técnico redactor debe acreditar:",
+    o: ["La fecha de finalización de las obras, su ejecución conforme al proyecto aprobado y a las condiciones de la licencia de obra, y que la edificación está en condiciones de ser utilizada.",
+        "La fecha de finalización de las obras, su ejecución conforme al proyecto aprobado y a las condiciones de la licencia de obra, que la parcela está urbanizada y que la edificación puede ser utilizada.",
+        "La fecha de recepción de las obras, su ejecución conforme al proyecto aprobado y a las condiciones de la licencia de obra, que la parcela está urbanizada y que la edificación puede ser utilizada.",
+        "La fecha de recepción de las obras, su ejecución conforme al proyecto aprobado y a las condiciones de la licencia de obra, que la parcela está urbanizada y que la obra nueva está inscrita."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 194.2: «En el supuesto de licencia de primera utilización u ocupación, los apartados b) y c) serán sustituidos por la certificación del facultativo director de la obra que acredite la fecha de finalización de las obras y que estas se han efectuado de acuerdo con el proyecto aprobado y con las condiciones impuestas en la licencia de obra en su caso, que la parcela se encuentra urbanizada y, finalmente, que la edificación se encuentra en condiciones de ser utilizada». La a) omite que la parcela se encuentra urbanizada. La c) pone la fecha de recepción de las obras, acto entre los agentes de la edificación, en lugar de la fecha de finalización. La d) repite ese error y, además, cambia la aptitud para el uso por la inscripción registral de la obra nueva, que el precepto no exige. Los apartados b) y c) que se sustituyen son el proyecto básico y la declaración del técnico redactor (art. 194.1)." },
+  { id: "E35-06", tema: "E35", subtema: "Proyecto de edificación como condición de eficacia de la licencia (art. 194.6)", tipo: "DATO",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el acuerdo de concesión de licencia urbanística incluye, como condición para su eficacia, la presentación del proyecto de edificación definido en el Código Técnico de la Edificación. ¿De qué plazo máximo dispone la entidad local, desde esa presentación, para resolver sobre su conformidad o no con la licencia concedida?",
+    o: ["Diez días.", "Quince días.", "Veinte días.", "Dos meses."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 194.6: «El acuerdo de concesión de licencia urbanística incluirá, como condición para su eficacia, la presentación del proyecto de edificación, definido en el Código Técnico de la Edificación. La entidad local que hubiera concedido la licencia dispondrá de un plazo máximo de 15 días desde su presentación para resolver sobre su conformidad o no con la licencia concedida, y así lo notificará al solicitante». Dos meses es el plazo para resolver la licencia (art. 194.7) y también el del informe previo de habitabilidad de las viviendas de nueva planta (art. 194.4.a); diez y veinte días no figuran en este precepto (veinte días es la información pública mínima de la licencia de actividad clasificada). El apartado 6 no establece un silencio propio: no debe inventarse una segunda licencia por silencio a los quince días." },
+  { id: "E35-07", tema: "E35", subtema: "Plazo para resolver la licencia y silencio administrativo (art. 194.7)", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 194.7 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en relación con el plazo para resolver las licencias urbanísticas y el silencio administrativo:",
+    o: ["Las licencias se resolverán en el plazo máximo de dos meses desde que se presente la documentación completa en el registro general.",
+        "Transcurrido el plazo sin haberse comunicado acto alguno, se entenderá desestimada la solicitud de licencia por silencio administrativo.",
+        "No podrán adquirirse por silencio administrativo facultades o derechos que contravengan la legislación y la ordenación territorial o urbanística.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 194.7: «Las licencias se resolverán en el plazo máximo de dos meses desde que se presente la documentación completa en el registro general. Transcurrido dicho plazo sin haberse comunicado acto alguno, se entenderá otorgada la licencia por silencio administrativo, salvo cuando se dispusiera lo contrario en la normativa básica estatal». Y en su párrafo segundo: «Tampoco podrán adquirirse por silencio administrativo facultades o derechos que contravengan la legislación y la ordenación territorial o urbanística». La a) y la c) son literales, así que la correcta es la d). La b) invierte la regla: el silencio es estimatorio, salvo que la normativa básica estatal disponga lo contrario (así, el art. 11.4.b) del Real Decreto Legislativo 7/2015 exige acto expreso, con silencio negativo, para las obras de edificación de nueva planta). Además, «En ningún caso se entenderán otorgadas por silencio administrativo licencias en contra de la legislación o el planeamiento urbanísticos» (art. 196.4)." },
+  { id: "E35-08", tema: "E35", subtema: "Plazos de ejecución y caducidad de la licencia (art. 197.6 y 7)", tipo: "META",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en relación con los plazos y la caducidad de las licencias urbanísticas:",
+    o: ["Si la licencia no especifica plazo de caducidad y el planeamiento no prevé otros, son plazos mínimos un año para comenzar las obras y tres años para finalizarlas.",
+        "Incumplidos los plazos, se iniciará expediente de caducidad de la licencia, en el que se dará audiencia al interesado por período mínimo de quince días hábiles.",
+        "La caducidad de la licencia será declarada por la Administración competente para concederla, tras el correspondiente expediente.",
+        "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 197. La a) recoge el apartado 6: «En el caso de que las licencias no especificaran un plazo de caducidad, los plazos mínimos para la ejecución de los actos de edificación y uso del suelo, salvo que el planeamiento prevea otros distintos, serán los siguientes: a) Un año para comenzar las obras. b) Tres años para finalizar las obras». La b) es literal del apartado 7: «se iniciará expediente de caducidad de la licencia, en el que se dará audiencia al interesado por período mínimo de quince días hábiles». La c) es su segundo párrafo: «La caducidad de la licencia será declarada por la Administración competente para concederla». Las tres son ciertas, así que la correcta es la d). Trampas habituales: los plazos del apartado 6 son mínimos, no máximos; la audiencia se cuenta en días hábiles; y el mero vencimiento no basta, hacen falta expediente y declaración. Declarada y notificada la caducidad, para comenzar o acabar las obras hay que obtener una nueva licencia ajustada a la ordenación en vigor (apartado 9)." },
   {
     "id": "E35-09",
     "tema": "E35",
+    "subtema": "Prórroga de los plazos de la licencia (art. 197.8)",
+    "estado": "retirada",
     "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el titular solicita prórroga del plazo para finalizar una obra cuya cobertura de aguas ya se ha realizado según proyecto. ¿Qué condiciones temporales acumulativas exige el artículo 197.8 para formular la solicitud?",
     "o": [
       "Que haya transcurrido al menos la mitad del plazo y falten más de dos meses para su conclusión.",
@@ -116,24 +91,20 @@ export default [
       "Que no haya transcurrido la mitad del plazo y resten menos de dos meses para concluir."
     ],
     "c": 0,
-    "exp": "Art. 197.8 TRLFOTU: solicitud expresa antes de dos meses de la conclusión y después de transcurrir al menos la mitad del plazo. Pedir antes de alcanzar esa mitad o dentro de los dos meses finales incumple las condiciones. La cobertura de aguas es además requisito para prorrogar la finalización y ya se cumple en el supuesto. La mitad transcurrida no fija la duración de la prórroga."
+    "exp": "Retirada el 02-11-2026 al ajustar el bloque a la mezcla de Zizur Mayor 2026: la prórroga del art. 197.8 ya se pregunta en E32-04. El dato era correcto y sigue en el resumen (tabla del art. 197). Art. 197.8 TRLFOTU: solicitud expresa antes de dos meses de la conclusión y después de transcurrir al menos la mitad del plazo. Pedir antes de alcanzar esa mitad o dentro de los dos meses finales incumple las condiciones. La cobertura de aguas es además requisito para prorrogar la finalización y ya se cumple en el supuesto. La mitad transcurrida no fija la duración de la prórroga."
   },
-  {
-    "id": "E35-10",
-    "tema": "E35",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, unas obras de un proyecto sectorial de incidencia supramunicipal han seguido los requisitos del artículo 47. ¿Desde qué actuación permite su apartado 5 el inicio directo de las obras?",
-    "o": [
-      "Desde la aprobación definitiva del proyecto sectorial por el Gobierno de Navarra.",
-      "Desde la declaración de interés general y su traslado a las entidades locales afectadas.",
-      "Desde la aportación por el promotor del proyecto de ejecución al departamento competente.",
-      "Desde la notificación a las entidades locales de la comunicación departamental de cumplimiento."
-    ],
-    "c": 3,
-    "exp": "Art. 47.5 TRLFOTU: el inicio directo se vincula a la notificación local de la comunicación departamental sobre cumplimiento de requisitos. La aprobación del instrumento, la declaración de interés general y la aportación del proyecto son hitos anteriores que no sustituyen la autorización de ejecución, la audiencia local y esa comunicación. Subsisten las obligaciones tributarias y la autorización final de actividad de los apartados posteriores."
-  },
+  { id: "E35-10", tema: "E35", subtema: "Exención de controles locales en planes y proyectos sectoriales (art. 47)", tipo: "SEL",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de los siguientes es uno de los requisitos para que las obras previstas en un Plan o Proyecto Sectorial de Incidencia Supramunicipal no estén sujetas a licencia ni a cualquier otro control preventivo local?",
+    o: ["Que el Departamento competente comunique a las entidades locales afectadas el cumplimiento de los requisitos.",
+        "Que el ayuntamiento afectado informe favorablemente la adecuación de las obras a su planeamiento urbanístico municipal.",
+        "Que el promotor de las obras sea una Administración pública o una entidad que dependa de ella.",
+        "Que las obras queden exentas de las obligaciones tributarias ante las entidades locales afectadas."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 47: las obras previstas en un Plan o Proyecto Sectorial de Incidencia Supramunicipal, «sin perjuicio de las obligaciones tributarias que correspondan ante las entidades locales, no estarán sujetas a licencia o cualquier otro control preventivo local cuando se cumplan los siguientes requisitos». Uno de ellos (apartado 5) es que «Por el Departamento competente en materia de ordenación del territorio y urbanismo, se comunique el cumplimiento de todos estos requisitos a las entidades locales afectadas, pudiendo, a partir de dicha notificación, el promotor iniciar directamente las obras o la puesta en funcionamiento de la actividad». La b) es falsa: el Departamento autoriza la ejecución «previa audiencia de las entidades locales afectadas» (apartado 4), no con su informe favorable. La c) es falsa: el artículo habla del promotor, sin exigir que sea una Administración pública. La d) es falsa: las obligaciones tributarias ante las entidades locales subsisten. Los demás requisitos son la declaración de interés general por el Gobierno de Navarra y su comunicación, la acreditación del proyecto de ejecución, la autorización departamental de las obras, la certificación final y la autorización departamental del inicio de la actividad." },
   {
     "id": "E35-11",
     "tema": "E35",
+    "subtema": "Licencia de actividad clasificada: plazo y silencio (art. 42 LF 17/2020)",
+    "estado": "retirada",
     "q": "De acuerdo con la Ley Foral 17/2020, de 16 de diciembre, reguladora de las Actividades con Incidencia Ambiental, se tramita una nueva licencia de actividad clasificada con documentación completa y sin suspensión del cómputo. ¿Qué combinación de plazo máximo para resolver y notificar y sentido del silencio establece su artículo 42?",
     "o": [
       "Dos meses desde la documentación completa; silencio estimatorio.",
@@ -142,50 +113,34 @@ export default [
       "Cuatro meses desde la documentación completa; silencio estimatorio."
     ],
     "c": 1,
-    "exp": "Art. 42 LF 17/2020, desarrollado por art. 53 DF 26/2022: cuatro meses para resolver y notificar y silencio desestimatorio. Dos meses estimatorios remiten al régimen urbanístico general, no a esta LAC. Tres meses corresponden al procedimiento reglamentario de modificación sustancial, no a la implantación inicial. Mantener cuatro meses pero atribuir estimación también contradice la regla especial."
+    "exp": "Retirada el 02-11-2026 al ajustar el bloque a la mezcla de Zizur Mayor 2026: duplicaba E20-06 y E21-08, que preguntan lo mismo. El dato era correcto y sigue en el resumen. Art. 42 LF 17/2020, desarrollado por art. 53 DF 26/2022: cuatro meses para resolver y notificar y silencio desestimatorio. Dos meses estimatorios remiten al régimen urbanístico general, no a esta LAC. Tres meses corresponden al procedimiento reglamentario de modificación sustancial, no a la implantación inicial. Mantener cuatro meses pero atribuir estimación también contradice la regla especial."
   },
-  {
-    "id": "E35-12",
-    "tema": "E35",
-    "q": "Conforme al Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las Actividades con Incidencia Ambiental, señale la afirmación INCORRECTA sobre el inicio y la caducidad de una actividad sometida a licencia de actividad clasificada, según su artículo 56.",
-    "o": [
-      "La declaración de puesta en marcha debe manifestar la fecha de inicio y el cumplimiento de las condiciones de la licencia.",
-      "La caducidad por falta de puesta en funcionamiento requiere resolución expresa, previa audiencia a la persona titular.",
-      "Si hay vertido al dominio público hidráulico sujeto a autorización, se acompaña la solicitud de autorización al organismo de cuenca.",
-      "La actividad puede ponerse en marcha tras presentar la declaración responsable en los términos legales y reglamentarios."
-    ],
-    "c": 2,
-    "exp": "Art. 56.3 DF 26/2022: debe acompañarse la autorización de vertido, no la solicitud de autorización. El apartado 1 permite la puesta en marcha tras la declaración en los términos legales y exige manifestar fecha de inicio y cumplimiento de condiciones. El apartado 2 exige resolución expresa de caducidad total o parcial, previa audiencia, si vence el plazo sin puesta en funcionamiento."
-  },
-  {
-    "id": "E35-13",
-    "tema": "E35",
-    "q": "Según la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, la Administración tiene constancia de una falsedad esencial incorporada a una declaración responsable de una actividad ya iniciada. ¿Qué efecto establece directamente el artículo 69.4, sin perjuicio de las responsabilidades procedentes?",
-    "o": [
-      "La imposibilidad de continuar la actividad desde que se tenga constancia de la falsedad esencial.",
-      "La suspensión del plazo para resolver la declaración desde que se requiera subsanar la falsedad.",
-      "La conversión de la declaración en solicitud de licencia desde que se compruebe la falsedad.",
-      "La imposibilidad de continuar la actividad desde que adquiera firmeza la sanción por la falsedad."
-    ],
-    "c": 0,
-    "exp": "Art. 69.4 LPAC: la falsedad esencial determina imposibilidad de continuar desde que se tenga constancia de los hechos, sin esperar a una sanción firme. La norma no convierte la declaración en solicitud de licencia ni establece como consecuencia la suspensión de un plazo para concederla. La resolución puede incorporar restitución y otras consecuencias en los términos legales; no toda errata tiene carácter esencial."
-  },
-  {
-    "id": "E35-14",
-    "tema": "E35",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se ejecuta una actuación sujeta a declaración responsable sin haberla presentado, siendo preceptiva. ¿Qué tratamiento establece expresamente el artículo 195.8?",
-    "o": [
-      "Se trata como una actuación con licencia ineficaz, sometida al procedimiento de caducidad del título.",
-      "Se trata como una declaración incompleta, pendiente de un requerimiento que suspenda su eficacia.",
-      "Se trata como una solicitud de licencia no resuelta, sometida al régimen de silencio administrativo.",
-      "Se trata como una actuación sin licencia, con el mismo régimen de protección de legalidad y sanción."
-    ],
-    "c": 3,
-    "exp": "Art. 195.8 TRLFOTU: las actuaciones sujetas a declaración responsable realizadas sin presentarla se consideran sin licencia a todos los efectos y reciben el mismo régimen de protección de legalidad y sancionador. No hay una licencia cuya caducidad declarar, una declaración presentada que completar ni una solicitud pendiente que genere silencio. La literalidad del apartado se refiere a declaración responsable."
-  },
+  { id: "E35-12", tema: "E35", subtema: "Apertura: inicio de la actividad tras la licencia de actividad clasificada (art. 44 LF 17/2020)", tipo: "COMB2",
+    q: "Conforme a lo señalado en el artículo 44.1 de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, ¿cuál es el plazo para el inicio de las actividades sujetas a licencia de actividad clasificada?",
+    o: ["Un año desde el otorgamiento de la licencia de actividad clasificada, salvo que se establezca un plazo distinto.",
+        "Dos años desde el otorgamiento de la licencia de actividad clasificada, salvo que se establezca un plazo distinto.",
+        "Un año desde la concesión de la licencia de apertura, salvo que se establezca un plazo distinto.",
+        "Dos años desde la concesión de la licencia de apertura, salvo que se establezca un plazo distinto."],
+    c: 1, exp: "Ley Foral 17/2020, art. 44.1: «Una vez otorgada la licencia de actividad clasificada, el titular dispondrá de un plazo máximo de dos años para iniciar la actividad, salvo que se establezca un plazo distinto». La a) y la c) acortan el plazo a un año. La c) y la d) lo cuentan desde una «licencia de apertura» que la ley vigente no regula: la actividad se pone en marcha tras la presentación por el promotor de una declaración responsable (art. 44.2), no con la antigua licencia de apertura de la Ley Foral 4/2005, derogada. Si vence el plazo sin presentar la declaración, la licencia «agotará sus efectos y devendrá ineficaz» (art. 45.1). Es casi literal la pregunta 67 del examen de Zizur Mayor de 31-01-2026 (clave B)." },
+  { id: "E35-13", tema: "E35", subtema: "Declaración responsable y comunicación: efectos (art. 69 LPAC)", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA sobre las declaraciones responsables y las comunicaciones, de acuerdo con la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas:",
+    o: ["Permiten el ejercicio de un derecho o el inicio de una actividad desde el día siguiente al de su presentación ante la Administración.",
+        "La Administración puede exigir ambas de forma acumulativa para iniciar una misma actividad si así lo establece una ordenanza.",
+        "La falsedad de carácter esencial de un dato incorporado a ellas impide continuar la actividad desde que se tiene constancia de ella.",
+        "La comunicación puede presentarse dentro de un plazo posterior al inicio de la actividad cuando lo solicite el interesado."],
+    c: 2, exp: "Ley 39/2015, art. 69.4: «La inexactitud, falsedad u omisión, de carácter esencial, de cualquier dato o información que se incorpore a una declaración responsable o a una comunicación [...] determinará la imposibilidad de continuar con el ejercicio del derecho o actividad afectada desde el momento en que se tenga constancia de tales hechos, sin perjuicio de las responsabilidades penales, civiles o administrativas a que hubiera lugar». No hace falta esperar a una sanción firme. La a) es falsa: permiten el reconocimiento o ejercicio de un derecho o el inicio de una actividad «desde el día de su presentación» (art. 69.3). La b) es falsa: «Únicamente será exigible, bien una declaración responsable, bien una comunicación para iniciar una misma actividad u obtener el reconocimiento de un mismo derecho o facultad para su ejercicio, sin que sea posible la exigencia de ambas acumulativamente» (art. 69.6). La d) es falsa: la comunicación solo puede presentarse después del inicio «cuando la legislación correspondiente lo prevea expresamente» (art. 69.3, párrafo segundo), no a petición del interesado. En urbanismo, el art. 195.4 del Decreto Foral Legislativo 1/2017 habla de la imposibilidad de iniciar la actividad urbanística." },
+  { id: "E35-14", tema: "E35", subtema: "Actuación sujeta a declaración responsable realizada sin presentarla (art. 195.8)", tipo: "DEF",
+    q: "Conforme a lo establecido en el artículo 195.8 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, las actuaciones sujetas a declaración responsable que se realicen sin haberse presentado la misma cuando sea preceptiva se considerarán:",
+    o: ["Actuaciones sin licencia a todos los efectos, con el mismo régimen de protección de la legalidad y sancionador.",
+        "Actuaciones legalizables mediante la presentación posterior de la declaración, sin aplicarles régimen sancionador.",
+        "Actuaciones con declaración ineficaz, sujetas a orden de cese pero excluidas del régimen sancionador.",
+        "Actuaciones con licencia presunta, si transcurren dos meses sin que la entidad local formule oposición."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 195.8: «Las actuaciones sujetas a declaración responsable que se realicen sin haberse presentado la misma cuando sea preceptiva se considerarán como actuaciones sin licencia a todos los efectos, aplicándoseles el mismo régimen de protección de la legalidad y sancionador que a las obras y usos sin licencia». La b) es falsa: presentar después la declaración no borra la actuación realizada sin título ni excluye la sanción. La c) es falsa: se aplica el régimen completo de protección de la legalidad y también el sancionador de las obras y usos sin licencia. La d) es falsa: la declaración no genera licencias presuntas; el silencio de dos meses del art. 194.7 se refiere a las solicitudes de licencia. Ojo: el apartado 8 habla literalmente de declaración responsable, no de comunicación." },
   {
     "id": "E35-15",
     "tema": "E35",
+    "subtema": "Pamplona: cambio de titularidad (ordenanza de control posterior)",
+    "estado": "retirada",
     "q": "Según la Ordenanza municipal reguladora del procedimiento de control posterior de las actividades y obras de adecuación iniciadas por comunicación previa o declaración responsable en el término municipal de Pamplona, publicada en el BON de 12 de mayo de 2014, un establecimiento mantiene su actividad en funcionamiento y sus condiciones, cambiando únicamente de titular. ¿Qué instrumento prevé su artículo 3 para este supuesto?",
     "o": [
       "Una declaración responsable de inicio de actividad suscrita por el nuevo titular.",
@@ -194,6 +149,34 @@ export default [
       "Una solicitud de revisión de la licencia de primera utilización por cambio de titular."
     ],
     "c": 1,
-    "exp": "Art. 3 de la ordenanza de control posterior de Pamplona: comunicación previa para cambio de titularidad de actividad en funcionamiento. La declaración del art. 4 corresponde al inicio de actividad y/o a las obras comprendidas en su ámbito; no se exige por este mero cambio una nueva licencia de actividad ni revisar primera utilización. Si cambian uso, actividad o condiciones materiales, debe examinarse el título adicional que proceda."
+    "exp": "Retirada el 02-11-2026 al ajustar el bloque a la mezcla de Zizur Mayor 2026: duplicaba E36-15, y la ordenanza de control posterior es materia del Tema 36. El dato era correcto y sigue en el resumen. Art. 3 de la ordenanza de control posterior de Pamplona: comunicación previa para cambio de titularidad de actividad en funcionamiento. La declaración del art. 4 corresponde al inicio de actividad y/o a las obras comprendidas en su ámbito; no se exige por este mero cambio una nueva licencia de actividad ni revisar primera utilización. Si cambian uso, actividad o condiciones materiales, debe examinarse el título adicional que proceda."
   },
+  { id: "E35-16", tema: "E35", subtema: "Actos sujetos y no sujetos a licencia (art. 190)", tipo: "NEG",
+    q: "Conforme al artículo 190 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuáles de los siguientes actos no están sujetos a licencia urbanística?",
+    o: ["La primera utilización u ocupación de los edificios e instalaciones, en general, y la modificación del uso de los mismos.",
+        "La demolición de las construcciones, salvo en los casos declarados de ruina inminente.",
+        "La extracción de áridos y la explotación de canteras, aunque se produzcan en terrenos de dominio público y estén sujetas a concesión administrativa.",
+        "Las parcelaciones o divisiones de fincas incluidas en un proyecto de reparcelación."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 190.4.b): se consideran actos no sujetos a licencia urbanística «Las parcelaciones o divisiones de fincas incluidas en un proyecto de reparcelación». Las otras tres son letras del art. 190.2, que enumera los actos sujetos a previa licencia: la a) es la letra h); la b) es la letra i), cuya única salvedad son «los casos declarados de ruina inminente»; y la c) es la letra m), que exige licencia aun en terrenos de dominio público y con concesión. Ojo: las parcelaciones urbanísticas y las segregaciones y divisiones de fincas rústicas sí están sujetas (art. 190.2.f). Sigue la pregunta 43 del examen de Zizur Mayor de 31-01-2026 (clave D)." },
+  { id: "E35-17", tema: "E35", subtema: "Concepto y caracteres de la licencia urbanística (art. 190.1)", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA: según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la licencia urbanística:",
+    o: ["Completa, para cada parcela, las determinaciones más detalladas de la ordenación urbanística.",
+        "Es el acto administrativo de control previo por el que la entidad local autoriza la actuación.",
+        "Es un acto reglado y declarativo referido a actuaciones en el suelo, el subsuelo y el vuelo.",
+        "Se otorga previa comprobación de la conformidad de la actuación al ordenamiento urbanístico."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 190.1: «La licencia urbanística es el acto administrativo de control previo, de carácter reglado y declarativo, mediante el cual la entidad local correspondiente autoriza las actuaciones urbanísticas proyectadas de uso, aprovechamiento, transformación, segregación y edificación del suelo, subsuelo y vuelo, previa comprobación de su conformidad al ordenamiento urbanístico vigente». La b), la c) y la d) recogen esos elementos. La a) es la INCORRECTA: la licencia no completa ni modifica la ordenación, sino que comprueba que la actuación se ajusta a ella; «Las licencias se otorgarán de acuerdo con las previsiones de la legislación y del planeamiento» (art. 196.2). Es casi literal la pregunta 45 del examen de Zizur Mayor de 31-01-2026 (clave A)." },
+  { id: "E35-18", tema: "E35", subtema: "Declaración responsable: contenido (art. 69.1 LPAC)", tipo: "LIT",
+    q: "Según el artículo 69.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, en la declaración responsable el interesado manifiesta, bajo su responsabilidad, que cumple con los requisitos establecidos en la normativa vigente para obtener el reconocimiento de un derecho o facultad o para su ejercicio, y además:",
+    o: ["Que dispone de la documentación que así lo acredita, que la aportará a la Administración junto con la propia declaración y que se compromete a mantener su cumplimiento durante el período inherente a dicho reconocimiento o ejercicio.",
+        "Que dispondrá de la documentación acreditativa antes de iniciar la actividad, que la pondrá a disposición de la Administración cuando le sea requerida y que se compromete a mantener su cumplimiento durante el período inherente a dicho reconocimiento o ejercicio.",
+        "Que dispone de la documentación que así lo acredita, que la pondrá a disposición de la Administración cuando le sea requerida y que se compromete a mantener su cumplimiento hasta que la Administración compruebe lo declarado.",
+        "Que dispone de la documentación que así lo acredita, que la pondrá a disposición de la Administración cuando le sea requerida y que se compromete a mantener su cumplimiento durante el período inherente a dicho reconocimiento o ejercicio."],
+    c: 3, exp: "Ley 39/2015, art. 69.1: declaración responsable es «el documento suscrito por un interesado en el que éste manifiesta, bajo su responsabilidad, que cumple con los requisitos establecidos en la normativa vigente para obtener el reconocimiento de un derecho o facultad o para su ejercicio, que dispone de la documentación que así lo acredita, que la pondrá a disposición de la Administración cuando le sea requerida, y que se compromete a mantener el cumplimiento de las anteriores obligaciones durante el período de tiempo inherente a dicho reconocimiento o ejercicio». La a) cambia la puesta a disposición «cuando le sea requerida» por una aportación junto con la declaración. La b) cambia el presente «dispone» por un futuro: la documentación debe tenerse ya al declarar. La c) limita el compromiso hasta la comprobación administrativa, cuando debe durar todo el período inherente al reconocimiento o ejercicio. Además, la Administración puede requerir la documentación en cualquier momento y el interesado debe aportarla (art. 69.1, párrafo segundo). Sigue la pregunta 99 del examen de Zizur Mayor de 31-01-2026 (clave D)." },
+  { id: "E35-19", tema: "E35", subtema: "Cambio de planeamiento con licencia sin iniciar (art. 197.4)", tipo: "META",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, obtenida una licencia urbanística, no se han comenzado las obras, pero en el plazo de ejecución entra en vigor una modificación de planeamiento. En esta situación, el Ayuntamiento:",
+    o: ["Declarará extinguida la eficacia de la licencia en cuanto sea disconforme con las nuevas determinaciones, previa fijación de la indemnización que proceda.",
+        "Podrá modificar o revocar la licencia en cuanto sea disconforme con las nuevas determinaciones, previa fijación de la indemnización correspondiente.",
+        "Mantendrá la eficacia de la licencia, al ser válida la ordenación vigente en el momento en que fue concedida, sin indemnización alguna.",
+        "Ninguna de las respuestas anteriores es correcta."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 197.4, párrafo primero: si a la entrada en vigor de una modificación o revisión del planeamiento se hubiera obtenido licencia urbanística, «pero aún no se hubiera iniciado la realización de los actos que ampare, se declarará extinguida su eficacia en cuanto sea disconforme con las nuevas determinaciones, previa fijación de la indemnización que proceda por la reducción o extinción de aprovechamiento, en su caso, así como por los perjuicios causados». La b) es la regla del párrafo segundo, para cuando ya se hubiera iniciado la ejecución: entonces «el ayuntamiento podrá modificarla o revocarla, previa fijación de la indemnización correspondiente». La c) traslada la regla de la prórroga del art. 197.8 («siendo válida la ordenación vigente en el momento en que la licencia fue concedida»), que no se aplica al cambio de planeamiento. Como la a) es correcta, la d) es falsa. Es casi literal la pregunta 44 del examen de Zizur Mayor de 31-01-2026 (clave A)." },
 ];
