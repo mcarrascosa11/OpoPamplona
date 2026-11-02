@@ -1,7 +1,9 @@
 // Resumen del tema E45. Formato: cabecera de src/data/resumenes.js.
+// Revisado el 2-11-2026: vigencia comprobada en el BOE (solo el RD 707/2026, posterior a la convocatoria,
+// modifica la Orden) y memorización ampliada con las cifras de alto rendimiento.
 export default {
     intro:
-      "La Orden TMA/851/2021, de 23 de julio, aprueba el documento técnico de condiciones básicas de accesibilidad y no discriminación para el acceso y la utilización de los ESPACIOS PÚBLICOS URBANIZADOS. Desarrolla el Real Decreto 505/2007 y sustituye a la Orden VIV/561/2010, que DEROGA. Es la norma de la CALLE: se aplica a los espacios peatonales y vehiculares, de paso o estancia, NO ADSCRITOS A UNA EDIFICACIÓN, en suelo en situación básica de urbanizado (más los tramos urbanos de las playas); lo adscrito a los edificios lo regula el CTE (DB SUA). La Orden tiene un artículo único, una transitoria, una derogatoria, dos finales y un ANEXO con 11 capítulos, 47 artículos y un apéndice de normas UNE. Su núcleo es el ITINERARIO PEATONAL ACCESIBLE (1,80 m de ancho, 2,20 m de alto, pendiente longitudinal máxima del 6 % y transversal del 2 %), y alrededor de él se regulan las áreas de estancia, los elementos de urbanización (pavimentos, rampas, escaleras, ascensores), los cruces con la calzada (vados, pasos, isletas, semáforos), el mobiliario, el aparcamiento reservado, las obras y la señalización, incluido el pavimento táctil. Son condiciones MÍNIMAS para proyectar, construir y renovar, que solo pueden exceptuarse de forma excepcional y justificada. Texto vigente en la fecha de la convocatoria (BON 21-05-2026): el inicial, sin modificaciones.",
+      "La Orden TMA/851/2021, de 23 de julio, aprueba el documento técnico de condiciones básicas de accesibilidad y no discriminación para el acceso y la utilización de los ESPACIOS PÚBLICOS URBANIZADOS. Desarrolla el Real Decreto 505/2007 y sustituye a la Orden VIV/561/2010, que DEROGA. Es la norma de la CALLE: se aplica a los espacios peatonales y vehiculares, de paso o estancia, NO ADSCRITOS A UNA EDIFICACIÓN, en suelo en situación básica de urbanizado (más los tramos urbanos de las playas); lo adscrito a los edificios lo regula el CTE (DB SUA). La Orden tiene un artículo único, una transitoria, una derogatoria, dos finales y un ANEXO con 11 capítulos, 47 artículos y un apéndice de normas UNE. Su núcleo es el ITINERARIO PEATONAL ACCESIBLE (1,80 m de ancho, 2,20 m de alto, pendiente longitudinal máxima del 6 % y transversal del 2 %), y alrededor de él se regulan las áreas de estancia, los elementos de urbanización (pavimentos, rampas, escaleras, ascensores), los cruces con la calzada (vados, pasos, isletas, semáforos), el mobiliario, el aparcamiento reservado, las obras y la señalización, incluido el pavimento táctil. Son condiciones MÍNIMAS para proyectar, construir y renovar, que solo pueden exceptuarse de forma excepcional y justificada. Texto vigente en la fecha de la convocatoria (BON 21-05-2026): el inicial, sin modificaciones, correcciones de errores ni sentencias. La única modificación, la del Real Decreto 707/2026, de 2 de septiembre (Reglamento de las condiciones básicas de accesibilidad cognitiva), reescribe el art. 32 y suprime el art. 47 con efectos desde el 2-1-2027: es posterior a la convocatoria y no se estudia, así que esos dos artículos se estudian en su redacción inicial.",
     bloques: [
       {
         h: "La Orden: estructura, aplicación y vigencia",
@@ -46,7 +48,7 @@ export default {
       {
         h: "Áreas de estancia (cap. IV, arts. 6-9)",
         nota:
-          "Las áreas de descanso y las plazas, parques y jardines comparten tres requisitos (altura libre de 2,20 m, sin escalones aislados y pavimento del art. 11), y todas las áreas de estancia exigen ACCESO desde un itinerario peatonal accesible, que se considera parte de él. Luego cada tipo añade sus cifras: 1 plaza para silla de ruedas por cada 40 o fracción en las áreas con presencia de espectadores; descanso cada 50 m como máximo en parques; 1 de cada 5 elementos de juego o ejercicio con criterios de accesibilidad.",
+          "Las áreas de descanso y las plazas, parques y jardines comparten tres requisitos (altura libre de 2,20 m, sin escalones aislados y pavimento del art. 11). En las áreas de descanso, las de espectadores, las plazas, parques y jardines y los sectores de juego, el ACCESO desde un itinerario peatonal accesible se considera parte de él y cumple sus mismos requisitos; las playas se conectan con su propio itinerario hasta la orilla. Luego cada tipo añade sus cifras: 1 plaza para silla de ruedas por cada 40 o fracción en las áreas con presencia de espectadores; áreas de descanso cada 50 m como máximo en plazas, parques y jardines; 1 de cada 5 elementos de juego o ejercicio con criterios de accesibilidad.",
         items: [
           "Art. 6.1 — ÁREAS DE DESCANSO: altura libre de 2,20 m, sin escalones aislados, pavimento del art. 11 y BANCOS del art. 26",
           "Art. 6.3 — ÁREAS CON ESPECTADORES: una plaza reservada para usuarios de silla de ruedas o de productos de apoyo, sin asiento y señalizada, por cada CUARENTA o fracción. Dimensión mínima 1,50 m de longitud × 1,00 m de ancho, junto al itinerario accesible y a otros asientos para acompañantes; nunca en espacios residuales o aislados",
@@ -134,7 +136,7 @@ export default {
       "Semáforos: cálculo a 0,50 m/s; el verde intermitente permite llegar desde el centro de la calzada a la acera o isleta (art. 23)",
       "Pulsador: a 1,50 m como máximo del paso, entre 0,80 y 1,20 m, 12 cm², vibración y flecha de 4 cm (art. 23.2)",
       "Proporciones: 1/5 bancos, mesas y elementos de juego; 1/10 aseos, vestuarios y duchas; 1/40 plazas de aparcamiento y plazas de espectadores",
-      "Áreas de descanso en parques a intervalos no superiores a 50 m (art. 7.3)",
+      "Áreas de descanso en plazas, parques y jardines a intervalos no superiores a 50 m (art. 7.3)",
       "Barandilla con desnivel > 55 cm: 90 cm si el desnivel es menor de 6 m y 1,10 m si es de 6 m o más (art. 30.2)",
       "Pasamanos dobles a 0,90-1,10 y 0,70-0,75 m, prolongados 30 cm; doble central si el ancho > 4 m (art. 30.3)",
       "Mobiliario en la banda exterior, a 40 cm del bordillo; sin salientes de más de 15 cm entre 0,40 y 2,20 m (art. 25)",
@@ -171,7 +173,7 @@ export default {
             ["Vestuarios y duchas exteriores de playa", "1 de cada 10 o fracción de cada agrupación", "34.4-5"],
             ["Plazas de aparcamiento reservadas", "1 de cada 40 o fracción (aparte de residencia y trabajo)", "35.1"]
           ],
-          nota: "Regla para recordarlo: 5 para lo que se usa sentado al aire libre (bancos, mesas, juegos), 10 para las cabinas y 40 para lo que se cuenta por plazas (aparcamiento y espectadores)."
+          nota: "Regla para recordarlo: 5 para el mobiliario de estancia y el juego (bancos, mesas, elementos de juego o ejercicio), 10 para las cabinas (aseos, vestuarios y duchas) y 40 para lo que se cuenta por plazas (aparcamiento y espectadores)."
         },
         {
           titulo: "Orden TMA/851/2021: alturas que más se preguntan",
@@ -191,7 +193,9 @@ export default {
             ["Pasamanos superior / inferior", "0,90-1,10 m / 0,70-0,75 m", "30.3.c"],
             ["Vallas de obra y pasamanos junto a andamio", "≥ 90 cm / 90 cm", "39.3-4"],
             ["Asiento de inodoro y de ducha", "45 a 50 cm", "34.3.d-e"],
-            ["Banco (asiento)", "40 a 45 cm", "26.1.a"]
+            ["Banco (asiento)", "40 a 45 cm", "26.1.a"],
+            ["Mecanismos de la cabina de aseo / apertura de contenedores", "0,70-1,20 m / 0,70-1,10 m", "34.3.f y 28.b"],
+            ["Bandas de señalización en vidrios (5 a 10 cm de ancho)", "0,85-1,10 m y 1,50-1,70 m", "41.4"]
           ],
           nota: "Lo manipulable se mueve casi siempre entre 0,80 y 1,20 m; lo que se usa de frente en silla de ruedas, con un hueco inferior de 70 × 80 × 50 cm."
         },
@@ -224,6 +228,8 @@ export default {
             ["Frente a ascensores (todas las paradas)", "Direccional, transversal", "Ancho de la puerta × 80-120 cm", "46.2.b"],
             ["Encuentro vado-calzada", "Advertencia", "60-120 cm de fondo sobre al menos 1,80 m", "46.3.a"],
             ["Localización del paso desde la fachada", "Direccional", "80-120 cm de ancho", "46.3.b"],
+            ["Isletas de refugio", "Advertencia en cada extremo y direccional longitudinal", "Franjas de advertencia como en el vado; franja-guía de 80-120 cm que une sus centros, si la longitud de la isleta lo permite", "46.4"],
+            ["Paso no perpendicular de más de 8,00 m", "Franjas-guía (excepción a los dos tipos del art. 45.2)", "20-40 cm de ancho", "46.5"],
             ["Cruce de franjas o giro ≥ 45°", "Advertencia", "Paralelogramo de 80-120 cm de lado", "46.7.a"],
             ["Giro < 45°", "Direccional en inglete", "Mismo ancho que la franja", "46.7.b"]
           ],
@@ -247,7 +253,7 @@ export default {
             ["Barandilla no escalable", "Sin apoyos entre 20 y 70 cm", "30.2.b"],
             ["Huecos entre barrotes", "≤ 10 cm", "30.2.c"],
             ["Resistencia horizontal", "3,0 kN/m con aglomeraciones · 1,6 kN/m en el resto (a 1,20 m)", "30.2.d"],
-            ["Pasamanos", "Ø 3-4,5 cm; 4 cm de la pared; dobles; prolongación 30 cm", "30.3"],
+            ["Pasamanos", "Ø 3-4,5 cm; ≥ 4 cm de la pared; dobles; prolongación 30 cm", "30.3"],
             ["Pasamanos central doble", "Rampa o escalera de más de 4,00 m de ancho", "30.3.d"],
             ["Zócalo en rampas", "≥ 10 cm en bordes libres", "30.5"],
             ["Alcorque con borde elevado", "≥ 15 cm de altura", "12.1.b"],
@@ -267,6 +273,125 @@ export default {
             ["0,5 m", "0,7 cm"]
           ],
           nota: "Art. 41.2. Regla: 1,4 cm por cada metro de distancia, hasta 7 cm a partir de 5 m. Fuentes de palo seco u otras testadas."
+        },
+        {
+          titulo: "Orden TMA/851/2021: áreas de estancia (arts. 6-9)",
+          columnas: ["Área", "Requisitos y cifras", "Artículo"],
+          filas: [
+            ["Áreas de descanso", "Altura libre ≥ 2,20 m; sin escalones aislados; pavimento del art. 11; bancos del art. 26; el acceso desde el itinerario forma parte de él", "6.1-2"],
+            ["Áreas con presencia de espectadores", "1 plaza para silla de ruedas o productos de apoyo, sin asiento y señalizada, por cada 40 o fracción; 1,50 m de longitud × 1,00 m de ancho; junto al itinerario y a asientos para acompañantes; nunca en espacios residuales o aislados", "6.3"],
+            ["Plazas, parques y jardines (salvo las áreas ajardinadas)", "Altura libre ≥ 2,20 m; sin escalones aislados; pavimento del art. 11; al menos un itinerario accesible que conecte instalaciones, actividades y servicios; áreas de descanso a intervalos ≤ 50 m; en parques y jardines, información con ubicación y distancias", "7"],
+            ["Sectores de juegos infantiles y de ejercicios", "Al menos 1 de cada 5 elementos con criterios de accesibilidad (en juegos infantiles, dinámico o que genere movimiento al introducirse; si hay varios, de distinta categoría); contrastes cromáticos y de texturas; círculo libre de 1,50 m junto a cada elemento accesible, fuera del itinerario", "8"],
+            ["Tramos urbanos de las playas", "Puntos accesibles durante toda la temporada de baño; itinerario hasta la orilla (sobre pavimento, el del art. 5; sobre arena, pasarelas aptas para caminar descalzo con el ancho y alto del art. 5); aseo, vestuario y ducha del art. 34; superficie horizontal de 3,40 × 1,80 m y 2,20 m de altura, preferiblemente en sombra", "9"]
+          ],
+          nota: "Las áreas de descanso y las plazas, parques y jardines repiten el mismo trío: 2,20 m de altura libre, sin escalones aislados y pavimento del art. 11. Las cifras propias de cada área son 40 (espectadores), 50 m (descanso), 1 de cada 5 (juegos) y 3,40 × 1,80 m (playas)."
+        },
+        {
+          titulo: "Orden TMA/851/2021: rampa y escalera, parámetro a parámetro (arts. 14, 15, 30 y 46)",
+          columnas: ["Parámetro", "Rampa (art. 14)", "Escalera (art. 15)"],
+          filas: [
+            ["Relación con el itinerario accesible", "Salva sus desniveles: plano de pendiente superior al 6 % (salvo los de los cruces con la calzada)", "No forma parte de él: elemento complementario, colindante o próximo a rampas y ascensores"],
+            ["Ancho libre mínimo", "1,80 m", "1,20 m"],
+            ["Pasamanos al medir el ancho", "No se descuentan si sobresalen 12 cm o menos", "No se descuentan si sobresalen 12 cm o menos"],
+            ["Tramo", "Longitud máxima de 9,00 m en proyección horizontal", "Directriz recta; de 3 a 12 escalones"],
+            ["Pendiente o peldaño", "Longitudinal: 10 % en tramos de hasta 3,00 m y 8 % en tramos de hasta 9,00 m; transversal: 2 %", "Huella ≥ 28 cm; contrahuella de 13 a 17,5 cm; 54 cm ≤ 2C + H ≤ 70 cm; ángulo de 75° a 90°; sin bocel ni discontinuidades; contrahuella entre tramos con variación ≤ 1 cm"],
+            ["Rellano sin cambio de dirección", "Ancho de la rampa × 1,50 m de fondo", "Ancho de la escalera × 1,20 m de fondo"],
+            ["Rellano con cambio de dirección", "Ancho libre de paso ≥ 1,80 m", "Ancho libre de paso ≥ 1,20 m"],
+            ["Espacio libre al inicio y al final", "Su anchura × 1,50 m", "Su anchura × 1,20 m"],
+            ["Pasamanos", "A ambos lados; dobles (0,90-1,10 m y 0,70-0,75 m, medidos desde el plano inclinado); central si el ancho supera 4,00 m; prolongados 30 cm", "A ambos lados; dobles (medidos desde la línea de vértices de los peldaños); central si el ancho supera 4,00 m; prolongados 30 cm"],
+            ["Protección lateral", "Barandillas y zócalos (≥ 10 cm en los bordes libres) si hay desniveles", "Barandillas si hay desniveles (el art. 15.6 no exige zócalos)"],
+            ["Señalización", "Franja táctil direccional transversal en ambos extremos (ancho de la rampa × 80-120 cm)", "Igual, y en el extremo superior a 30 cm de la primera contrahuella; banda de 5 cm a 3 cm del borde de cada escalón, contrastada"],
+            ["Altura libre", "≥ 2,20 m; los espacios inferiores más bajos se protegen con elementos fijos detectables con bastón", "Igual"]
+          ],
+          nota: "Navarra 2026 (P39) preguntó la longitud máxima del tramo de rampa al 8 %: 9 m. Trampa: el vado también tiene 10 % / 8 %, pero en tramos de 2 y 3 m (art. 20.6)."
+        },
+        {
+          titulo: "Orden TMA/851/2021: ascensores, andenes móviles y escaleras mecánicas (arts. 16 y 17)",
+          columnas: ["Elemento", "Dato", "Artículo"],
+          filas: [
+            ["Cabina de una puerta", "1,10 × 1,40 m (ancho × profundidad)", "16.2.a"],
+            ["Cabina de dos puertas enfrentadas", "1,10 × 1,40 m (ancho × profundidad)", "16.2.b"],
+            ["Cabina de dos puertas en ángulo", "1,60 × 1,40 m", "16.2.c"],
+            ["Puertas", "Paso libre ≥ 90 cm; sensor de cierre en toda la altura del lateral", "16.3"],
+            ["Cabina", "Parcialmente transparente; espejo o dispositivo equivalente; pasamanos en las paredes sin puertas; alarma utilizable por todos y bucle de inducción magnética", "16.1, 16.3, 16.4 y 16.6"],
+            ["Botonera y planta", "Símbolos contrastados, en alto relieve y braille; número de planta en alto relieve, preferentemente en la jamba derecha exterior (sentido salida)", "16.5"],
+            ["Fuera de la cabina", "Círculo libre de 1,50 m junto a las puertas; franja táctil direccional en todas las paradas (ancho de la puerta × 80-120 cm)", "16.7-8 y 46.2.b"],
+            ["Normativa", "Marcado CE (Directiva 2014/33/UE) y UNE-EN 81-70, en su última versión publicada en el DOUE", "16.9 y apéndice"],
+            ["Andén móvil y escalera mecánica", "Complementarios, no forman parte del itinerario; ancho libre ≥ 1,00 m; velocidad ≤ 0,50 m/s", "17.1.a y c"],
+            ["Andén móvil inclinado", "Pendiente máxima del 12 %", "17.1.b"],
+            ["Embarque y desembarque", "Superficie horizontal ≥ 80 cm antes de generar o suprimir los peldaños o la superficie inclinada; pasamanos móviles contrastados y prolongados 80 cm", "17.1.d y f"]
+          ],
+          nota: "Trampa: la cabina de dos puertas ENFRENTADAS mide lo mismo que la de una puerta (1,10 × 1,40); solo crece la de puertas EN ÁNGULO (1,60 × 1,40). Los 0,50 m/s de las escaleras mecánicas coinciden con la velocidad de cálculo del semáforo (art. 23.6)."
+        },
+        {
+          titulo: "Orden TMA/851/2021: mobiliario urbano (arts. 25-29)",
+          columnas: ["Elemento", "Dato", "Artículo"],
+          filas: [
+            ["Mobiliario en general", "No invade el itinerario; preferentemente en la banda exterior, a ≥ 40 cm del límite bordillo-calzada; sin aristas vivas por debajo de 2,20 m; detectable a ≤ 40 cm del suelo (salvo mesas y fuentes); sin salientes de más de 15 cm entre 0,40 y 2,20 m", "25"],
+            ["Bancos", "1 por agrupación y, en todo caso, 1 de cada 5 o fracción: asiento de 40-45 cm de fondo y de 40-45 cm de altura; reposabrazos; respaldo ≥ 45 cm con ángulo ≤ 105°; franja frontal libre de 60 cm; círculo de 1,50 m en un lateral", "26.1"],
+            ["Mesas de estancia", "Plano ≥ 80 cm de ancho; altura ≤ 85 cm; 1 por agrupación y 1 de cada 5 o fracción con hueco inferior de 70 × 80 × 50 cm y círculo de 1,50 m", "26.2"],
+            ["Fuentes", "Al menos un grifo a 80-90 cm con hueco inferior de 70 cm; accionable con puño o codo; círculo de 1,50 m; sin acumulación de agua", "27"],
+            ["Papeleras y contenedores enterrados", "Boca a 70-90 cm; los enterrados no generan cambios de nivel en el pavimento", "28.a y c"],
+            ["Contenedores semienterrados", "Boca a 0,70-1,10 m", "28.a"],
+            ["Contenedores no enterrados", "Boca a 0,70-1,20 m; hasta 1,70 m si tienen boca adicional a 0,70-1,10 m", "28.a"],
+            ["Apertura de contenedores", "Mecanismo a 0,70-1,10 m, con puño o codo; pedal ≤ 20 cm; fuerza ≤ 25 N; cierre retardado", "28.b"],
+            ["Bolardos", "Alineados; altura de 0,75 a 1,00 m; ancho o diámetro ≥ 10 cm; redondeados y sin aristas; color contrastado al menos en el tramo superior", "29"]
+          ],
+          nota: "Las bocas de papeleras y contenedores empiezan siempre en 0,70 m; lo que cambia es el máximo: 0,90 m (enterrados), 1,10 m (semienterrados) y 1,20 m (no enterrados)."
+        },
+        {
+          titulo: "Orden TMA/851/2021: cabinas de aseo, vestuarios y duchas (art. 34)",
+          columnas: ["Elemento", "Dato"],
+          filas: [
+            ["Proporción", "Al menos 1 de cada 10 o fracción de cada agrupación (aseos públicos; vestuarios y duchas exteriores de playa)"],
+            ["Exterior", "Comunicada con el itinerario; sistema visual y sonoro o háptico de libre u ocupado; círculo de 1,50 m delante de la puerta, fuera del itinerario y del barrido de la puerta; acceso nivelado, sin resaltes ni escalones"],
+            ["Puerta", "Abatible hacia el exterior o corredera; paso libre ≥ 80 cm; apertura desde fuera en caso de emergencia"],
+            ["Interior", "Círculo de 1,50 m en toda la altura junto a la puerta; altura libre ≥ 2,20 m; suelo del art. 11.1"],
+            ["Lavabo", "Hueco inferior de 70 × 80 × 50 cm; cara superior a ≤ 85 cm"],
+            ["Inodoro", "Asiento a 45-50 cm con apoyo para la espalda; espacio lateral de transferencia ≥ 80 cm de ancho × 120 cm de fondo (65 cm hasta el borde frontal del inodoro)"],
+            ["Barras del inodoro", "Fija junto a la pared y abatible junto a la transferencia (ambas abatibles si hay doble transferencia); a 70-75 cm de altura; separadas 65-70 cm; longitud ≥ 70 cm"],
+            ["Ducha de la cabina", "Área nivelada; asiento con respaldo de 40-45 cm de fondo y ≥ 40 cm de ancho, a 45-50 cm; transferencia de 0,80 × 1,20 m si está en una esquina; barras horizontales perimetrales y una vertical a 60 cm de la esquina o del respaldo"],
+            ["Mecanismos y espejo", "Pulsadores o palancas de poco esfuerzo; elementos manipulables a 0,70-1,20 m; alcance desde el asiento ≤ 60 cm; borde inferior del espejo a ≤ 90 cm; sistema de llamada de auxilio"],
+            ["Vestuario de playa", "Banco con respaldo: asiento ≥ 40 cm de ancho, 40-45 cm de fondo y 45-50 cm de altura; transferencia de 0,80 × 1,20 m; reposabrazos abatibles al menos en el lado de la transferencia"],
+            ["Ducha exterior de playa", "Comunicada con el itinerario; área nivelada con pendiente de evacuación ≤ 2 %; asiento con respaldo y apoyabrazos abatibles a ambos lados; transferencias de 0,80 × 1,20 m"]
+          ],
+          nota: "Cifras del aseo que se cruzan: 45-50 cm (asientos), 70-75 cm (barras), 65-70 cm (separación de barras), 80 × 120 cm (transferencia), 85 cm (lavabo), 90 cm (espejo) y 0,70-1,20 m (mecanismos)."
+        },
+        {
+          titulo: "Orden TMA/851/2021: obras e intervenciones en la vía pública (arts. 39 y 46.6)",
+          columnas: ["Situación", "Exigencia", "Artículo"],
+          filas: [
+            ["La obra impide mantener el itinerario habitual", "Itinerario peatonal accesible alternativo, señalizado, lo más adecuado posible al art. 5", "39.1"],
+            ["Itinerario bajo un andamio o estructura provisional", "Protección y señalización específicas; montantes recubiertos frente a golpes y en colores de alto contraste", "39.2"],
+            ["Itinerario alternativo por el exterior del andamio", "Pasamanos continuo a 90 cm y guía o elemento inferior, o franja-guía de pavimento táctil", "39.3"],
+            ["Franja-guía táctil provisional", "Direccional, longitudinal, de 40 cm de ancho", "46.6"],
+            ["Vallado de la zona de obras", "Vallas o elementos estables, rígidos, sin aristas vivas y detectables; altura ≥ 90 cm; color contrastado; las bases no invaden el itinerario", "39.4"],
+            ["Señalización del vallado", "Luminosa o de advertencia al inicio, al final y cada 50 m o fracción", "39.4"],
+            ["Puertas, portones y salientes", "No invaden el itinerario; salientes protegidos con materiales seguros y de color contrastado hasta 2,20 m de altura", "39.5"]
+          ],
+          nota: "Las obras (art. 39) y los elementos comerciales y terrazas (art. 33) son los elementos TEMPORALES a los que también se aplica el documento técnico (art. 2.2)."
+        },
+        {
+          titulo: "Orden TMA/851/2021: cifras que se repiten (no confundir)",
+          columnas: ["Cifra", "Dónde aparece", "Artículos"],
+          filas: [
+            ["4 mm", "Resalte máximo del pavimento; resalte vado-calzada (inferior a 4 mm); altura de acanaladuras y botones del pavimento táctil", "11.1, 20.3 y 45.2"],
+            ["12 cm · 12 cm²", "Vuelo máximo de los pasamanos que no se descuentan del ancho de rampas y escaleras · superficie mínima del botón del pulsador", "14.2.a y 15.2 · 23.2.a"],
+            ["30 cm", "Prolongación de los pasamanos; franja táctil del extremo superior de la escalera, a 30 cm de la primera contrahuella; separación máxima de la franja de advertencia respecto de la calzada (10-30 cm)", "30.3.e, 46.2.a y 46.3.a"],
+            ["40 cm", "Franja-guía de encaminamiento y la provisional de obras; distancia mínima del mobiliario al bordillo; altura máxima de detección del mobiliario; máximo de las franjas-guía de pasos no perpendiculares (20-40 cm)", "46.1, 46.6, 25.a, 25.b y 46.5"],
+            ["80-120 cm", "Fondo de las franjas táctiles de rampas, escaleras y ascensores; ancho de la franja-guía que localiza el paso y de la que cruza la isleta; lado del paralelogramo de advertencia", "46.2, 46.3.b, 46.4.b y 46.7.a"],
+            ["85 cm · 90 cm", "Altura máxima de mesas, mostradores de kiosco y lavabos · barandilla con desnivel menor de 6 m, puerta del ascensor, pasamanos junto a andamio, vallas de obra y borde inferior del espejo del aseo", "26.2.b, 33.4 y 34.3.c · 30.2.a, 16.3, 39.3-4 y 34.3.f"],
+            ["Círculo de 1,50 m", "Junto a elementos de juego accesibles, puertas del ascensor, bancos, mesas, fuentes y cabinas de aseo (fuera y dentro)", "8.4, 16.7, 26, 27.b y 34.2-3"],
+            ["Hueco de 70 × 80 × 50 cm", "Mesas, mostradores de kiosco, lavabos y rótulos sobre planos casi horizontales", "26.2.c, 33.4, 34.3.c y 41.1.c"],
+            ["1,20 m", "Ancho de la escalera, de sus rellanos y del espacio libre al inicio y al final; ancho del vado propio de la plaza reservada", "15.2, 15.4, 15.7 y 35.2"],
+            ["1,50 m", "Rellanos y espacio libre de la rampa; espacio intermedio de la isleta; distancia máxima del pulsador al paso; ancho de la transferencia lateral de la plaza en batería y de la zona libre en la acera lateral de la plaza en línea; longitud de la plaza para silla de ruedas con espectadores", "14.3, 14.6, 22.2, 23.2.a, 35.3-4 y 6.3"],
+            ["1,80 m", "Ancho del itinerario, de la rampa y de su rellano con giro, y del plano principal del vado; ancho mínimo para la franja de advertencia; longitud mínima de la isleta; ancho de la superficie de los puntos accesibles de playa", "5.2.b, 14.2.a, 14.3, 20.2, 46.3.a, 22.2 y 9.4"],
+            ["12 %", "Pendiente máxima del andén móvil inclinado y del plano de la isleta al nivel de calzada o sobre plataforma de hasta 4 cm", "17.1.b y 22.2"],
+            ["0,50 m/s", "Velocidad máxima de andenes móviles y escaleras mecánicas; velocidad de cálculo de la fase peatonal del semáforo", "17.1.c y 23.6"],
+            ["8,00 m · 14,00 m", "Paso no perpendicular de más de 8,00 m: franjas-guía táctiles · cruce de más de 14,00 m: isleta obligatoria", "46.5 · 22.4"],
+            ["50 m", "Intervalo máximo de las áreas de descanso en plazas, parques y jardines; señalización luminosa de las vallas de obra cada 50 m o fracción", "7.3 y 39.4"]
+          ],
+          nota: "Si dudas entre dos cifras, piensa en el elemento: 1,80 m es lo que forma parte del itinerario (itinerario, rampa, vado); 1,20 m, lo complementario (escalera) y el vado propio de la plaza reservada."
         }
       ],
       datos: [
@@ -279,7 +404,12 @@ export default {
         "Art. 32.3: en los teclados numéricos se señaliza de forma táctil la tecla 5.",
         "Art. 36: las paradas y marquesinas cumplen además el RD 1544/2007 (accesibilidad en los modos de transporte).",
         "Art. 42.2: en todos los puntos de cruce debe figurar el nombre de las vías.",
-        "Art. 43.2: el Símbolo de accesibilidad para la movilidad sigue la UNE 41501."
+        "Art. 43.2: el Símbolo de accesibilidad para la movilidad sigue la UNE 41501.",
+        "Preámbulo: la Convención Internacional sobre los derechos de las personas con discapacidad se aprobó el 13-12-2006 por la Asamblea General de la ONU, España la ratificó el 3-12-2007 y está en vigor desde el 3-5-2008. La Orden VIV/561/2010, de 1 de febrero, fue la primera norma estatal de estas características: el «mínimo común denominador» para todo el Estado.",
+        "Tramitación (preámbulo): a propuesta de la Dirección General de Agenda Urbana y Arquitectura; consultadas todas las comunidades autónomas, Ceuta y Melilla, la FEMP y el Consejo Nacional de la Discapacidad; sometida al procedimiento de información de la Directiva (UE) 2015/1535 y del RD 1337/1999; cumple los principios del art. 129 de la Ley 39/2015.",
+        "Art. 23.2: el pulsador del semáforo tiene sistema de vibración integrado e información gráfica o en lectura fácil, y siempre que sea posible el semáforo admitirá el accionamiento a distancia.",
+        "Art. 44.1.a: el braille va en la parte inferior izquierda del rótulo, a 1 cm como mínimo y 3 cm como máximo de los márgenes izquierdo e inferior.",
+        "Apéndice: las normas UNE se aplican en la versión fechada que cita (UNE 41501:2002 y UNE 103501:1994), salvo la UNE-EN 81-70, que se aplica en la última versión publicada en el DOUE. Todas pueden sustituirse por normas de otros Estados de la UE, del EEE o con acuerdo de asociación aduanera con la UE que tengan especificaciones técnicas equivalentes."
       ],
       excepciones: [
         "Las ESCALERAS, los andenes móviles y las escaleras mecánicas NO forman parte del itinerario peatonal accesible: son elementos complementarios (arts. 15 y 17). Las rampas y los ascensores sí garantizan su continuidad.",
@@ -291,7 +421,12 @@ export default {
         "Mesas y fuentes quedan fuera de la regla de detección a 40 cm de altura del mobiliario (art. 25.b).",
         "Las áreas ajardinadas se exceptúan de los requisitos generales de plazas, parques y jardines (art. 7.1).",
         "El art. 2.3 permite exceptuar requisitos solo de manera excepcional y adecuadamente justificada, con soluciones alternativas y respetando la normativa autonómica o local.",
-        "Posterior a la convocatoria y por tanto no exigible: según el consolidado del BOE (actualizado el 3-9-2026), el RD 707/2026 modifica el art. 32 con efectos desde el 2-1-2027."
+        "Pavimento táctil: se usan dos tipos, direccional y de advertencia, «excepto en el caso previsto en el apartado 5 del artículo siguiente»: los pasos no perpendiculares de más de 8,00 m, que se señalizan con franjas-guía de 20 a 40 cm (arts. 45.2 y 46.5).",
+        "La flecha en relieve del pulsador no se coloca si pudiera causar confusión por la ubicación del pulsador y la coincidencia de dos o más pasos de peatones muy cercanos o con el mismo origen (art. 23.2.b).",
+        "La señalización de los vidrios con dos bandas puede obviarse si la superficie vidriada contiene otros elementos informativos que garanticen su detección o si hay mobiliario detectable a todo lo largo (art. 41.4).",
+        "Las marcas viales de la zona de transferencia de las plazas reservadas no se exigen cuando esa zona coincide con un paso de peatones u otro espacio donde esté clara la prohibición de aparcar (art. 35.3-4).",
+        "Condicionales literales: los pasamanos se prolongan 30 cm «siempre que no supongan un riesgo» (art. 30.3.e); junto a la rampa habrá una escalera «siempre que sea posible» (art. 14.8); la ampliación de la acera hacia la calzada se adopta «siempre que no se condicione la seguridad de la circulación» (art. 20.11).",
+        "Posterior a la convocatoria y por tanto no exigible: según el consolidado del BOE (actualizado el 3-9-2026), el Real Decreto 707/2026, de 2 de septiembre (Reglamento de las condiciones básicas de accesibilidad cognitiva), reescribe el art. 32 y suprime el art. 47 del anexo con efectos desde el 2-1-2027. Se estudian en su redacción inicial, la vigente el 21-05-2026."
       ]
     }
   };
