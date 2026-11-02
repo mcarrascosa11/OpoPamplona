@@ -33,7 +33,7 @@ export default {
           "Art. 4 — las licencias que no puedan exigirse SE SUSTITUYEN por declaraciones responsables o comunicaciones previas. El declarante deberá estar en posesión del JUSTIFICANTE DE PAGO DEL TRIBUTO cuando sea preceptivo; la declaración debe contener manifestación EXPLÍCITA del cumplimiento de los requisitos y, en su caso, de disponer de la documentación y del proyecto; los proyectos han de estar FIRMADOS POR TÉCNICOS COMPETENTES; y varias actuaciones sobre la misma actividad o local se TRAMITARÁN CONJUNTAMENTE",
           "Art. 5 — SUJECIÓN AL RÉGIMEN GENERAL DE CONTROL: la presentación habilita desde ese momento para el ejercicio material de la actividad, pero NO PREJUZGA la adecuación del establecimiento a la normativa ni limita las potestades de comprobación, inspección, sanción y control de cualquier Administración. Habilita además a las ENTIDADES LOCALES a regular el procedimiento de comprobación posterior",
           "DESFASE NORMATIVO: los arts. 4.1 y 5 remiten al art. 71 bis de la Ley 30/1992, DEROGADA. La base jurídica vigente de la declaración responsable y la comunicación es el ART. 69 DE LA LEY 39/2015",
-          "DF 11.ª — habilita a las Comunidades Autónomas a AMPLIAR el umbral de superficie, el catálogo de actividades y otros supuestos de inexigibilidad de licencia",
+          "Contexto, fuera del Título I: la DF 10.ª habilita a las COMUNIDADES AUTÓNOMAS para AMPLIAR el umbral de superficie y el catálogo de actividades y servicios y para determinar otros supuestos de inexigibilidad de licencia, y la DF 9.ª habilita al GOBIERNO para modificar el umbral; son las «disposiciones finales 9 y 10» que cita la exposición de motivos de la Ordenanza de control posterior de Pamplona. Las notas del texto del tema la citan por error como DF 11.ª (comprobado en el consolidado del BOE)",
         ],
       },
       {
@@ -47,7 +47,7 @@ export default {
           "TÍTULO I — RÉGIMEN DE COMUNICACIÓN (obras menores simples, art. 3): obras INTERIORES EN VIVIENDAS que no afecten a la habitabilidad, no supongan cambio de uso ni del número de viviendas y no afecten a elementos comunes —revestimientos, carpintería interior, aparatos sanitarios, instalaciones—; y obras EN FACHADAS Y CUBIERTAS salvo Casco Antiguo y siempre que se mantengan MATERIALES, COLORES Y DISEÑO existentes —retejado, bajantes, pintura, reparación de paramentos, barandillas y molduras, carpintería exterior—",
           "LÍMITES de las actuaciones comunicadas (art. 3): en ningún caso pueden tramitarse así las obras que exijan la colocación de ANDAMIOS, la OCUPACIÓN DE LA VÍA PÚBLICA por cualquier medio —salvo contenedores, que van por su propia ordenanza— o el uso de TRABAJOS TEMPORALES EN ALTURA O VEHÍCULOS GRÚA. Tampoco las obras en edificios o elementos CATALOGADOS",
           "Art. 4 — documentación de las comunicadas: instancia normalizada con la UBICACIÓN de la obra y constancia de haber sido revisada previamente por el personal encargado del enterado · acreditación de representación · MEMORIA descriptiva · PRESUPUESTO detallado por partidas con materiales y mano de obra · FOTOGRAFÍAS en actuaciones sobre fachadas o cubiertas · y autoliquidación de tributos con justificante de pago",
-          "TÍTULO II — PROCEDIMIENTO ABREVIADO (art. 6): obras interiores de albañilería y tabiquería que superen los supuestos de comunicadas · nueva implantación de instalaciones en viviendas · obras en LOCALES —fachadas, revestimientos, instalaciones— · cerramientos de balcones y toldos en plantas elevadas previa aprobación de MODELO COMÚN para la comunidad · toldos y RÓTULOS en locales · apertura de huecos en planta baja de locales con licencia de apertura sin modificar la configuración general de la fachada · obras en fachadas y cubiertas excluidas de comunicadas por cambiar materiales, colores o diseño o por estar en CASCO ANTIGUO, y rehabilitaciones integrales de fachada, que deben mantener DISEÑO UNITARIO · obras en instalaciones comunes · catas y derribos puntuales previos a un proyecto · y pequeñas reformas en zonas ajardinadas",
+          "TÍTULO II — PROCEDIMIENTO ABREVIADO (art. 6): obras interiores de albañilería y tabiquería que superen los supuestos de comunicadas · nueva implantación de instalaciones en viviendas · obras en LOCALES —fachadas, revestimientos, instalaciones— · cerramientos de balcones y toldos en plantas elevadas previa aprobación de MODELO COMÚN para la comunidad · toldos y RÓTULOS en locales · apertura de huecos en planta baja de locales con licencia de apertura sin modificar la configuración general de la fachada · obras en fachadas y cubiertas excluidas de comunicadas por cambiar materiales, colores o diseño o por estar en CASCO ANTIGUO, y rehabilitaciones integrales de fachada, que deben mantener DISEÑO UNITARIO · obras en instalaciones comunes · catas y derribos puntuales previos a un proyecto, si se justifica su necesidad · pequeñas reformas en zonas ajardinadas · obras menores de características análogas · y las que, pudiendo ser actuaciones comunicadas, no siguieron el procedimiento del art. 5 (presentación en el Registro del Área de Urbanismo previa revisión por el personal encargado del enterado)",
           "PROTECCIÓN Y ABREVIADO: no pueden tramitarse por procedimiento abreviado las obras en edificios y elementos catalogados con GRADOS DE PROTECCIÓN 1 Y 2. En GRADO 3 sí se sigue el abreviado, tanto para las obras del art. 6 como para las del art. 3, siempre que no afecten a elementos de interés reseñados en el catálogo, y también en obras de restauración, reparación y mantenimiento de dichos elementos",
         ],
       },
@@ -71,18 +71,20 @@ export default {
       {
         h: "Ordenanza de control posterior de Pamplona (BON 12/05/2014)",
         nota:
-          "Es la norma que da cobertura al control ex post en Pamplona, al amparo del art. 5 de la Ley 12/2012 y del art. 84 de la LRBRL. Su distinción básica se pregunta invertida con frecuencia: la COMUNICACIÓN PREVIA sirve para el CAMBIO DE TITULARIDAD de una actividad ya en funcionamiento, mientras que la DECLARACIÓN RESPONSABLE sirve para PONER EN MARCHA una actividad y, en su caso, ejecutar obras de acondicionamiento sin proyecto. Ambas habilitan desde su presentación. Del procedimiento retén el plazo único de DIEZ DÍAS para subsanar y el efecto característico: la eficacia queda EN SUSPENSO hasta la subsanación, y si no se subsana se declara la INEFICACIA.",
+          "Es la norma que da cobertura al control ex post en Pamplona, al amparo del art. 5 de la Ley 12/2012 y del art. 84 de la LRBRL. Su distinción básica se pregunta invertida con frecuencia: la COMUNICACIÓN PREVIA sirve para el CAMBIO DE TITULARIDAD de una actividad ya en funcionamiento, mientras que la DECLARACIÓN RESPONSABLE sirve para PONER EN MARCHA una actividad y, en su caso, ejecutar obras de acondicionamiento sin proyecto. Ambas habilitan desde su presentación. Del procedimiento retén los DIEZ DÍAS para subsanar la documentación (art. 5.4) y para alegar cuando la actividad o las obras no están amparadas (art. 7.2), y el efecto característico: la eficacia queda EN SUSPENSO hasta la subsanación, y si no se subsana se declara la INEFICACIA.",
         items: [
           "Art. 1 — OBJETO: regular el procedimiento de control posterior del Ayuntamiento de Pamplona sobre las actividades iniciadas mediante comunicación previa o declaración responsable, y sobre las OBRAS DE ACONDICIONAMIENTO de los locales cuando NO requieran proyecto conforme al art. 2.2 de la LOE. El control se limita a la IMPLANTACIÓN y no excluye los demás procedimientos de control sobre el funcionamiento",
           "Art. 3 — COMUNICACIÓN PREVIA: acto por el que el interesado pone en conocimiento del Ayuntamiento el CAMBIO DE TITULARIDAD de actividades YA EN FUNCIONAMIENTO. Su presentación HABILITA para comenzar el ejercicio de la actividad",
           "Art. 4 — DECLARACIÓN RESPONSABLE: acto por el que quien pretende PONER EN MARCHA una actividad manifiesta bajo su responsabilidad que cumple los requisitos, que dispone de la documentación acreditativa y que se COMPROMETE A MANTENER SU CUMPLIMIENTO durante la duración de la actividad. Puede además manifestar la intención de realizar obras de acondicionamiento sin proyecto, o tener por objeto EXCLUSIVO esas obras en actividades ya en funcionamiento. Su presentación HABILITA para iniciar la actividad o las obras",
-          "Art. 5 — presentación: instancia normalizada en el registro municipal, con el CERTIFICADO TÉCNICO que corresponda, el documento acreditativo del PAGO DE LA TASA y el ALTA EN EL IAE. Deben mantenerse EN EL LUGAR DE LA ACTIVIDAD, a disposición del Ayuntamiento, copia del documento diligenciado con su entrada en registro, copia del certificado técnico y la documentación complementaria",
+          "Art. 5 — presentación: instancia normalizada en el registro municipal, con el CERTIFICADO TÉCNICO que corresponda, el documento acreditativo del PAGO DE LA TASA y el ALTA EN EL IAE. Deben mantenerse EN EL LUGAR DE LA ACTIVIDAD, a disposición del Ayuntamiento, copia del documento diligenciado con su entrada en registro, copia del certificado técnico y de la documentación complementaria, y la documentación adicional que corresponda según los modelos municipales",
           "Art. 5.4 — SUBSANACIÓN: si la documentación fuera inexacta o insuficiente se requiere al interesado para que en DIEZ DÍAS subsane, con aviso de que en otro caso se dictará resolución declarando la INEFICACIA de la declaración responsable y, en su caso, el CESE de la actividad. La eficacia queda EN SUSPENSO hasta la subsanación",
           "Art. 6 — FASE DE COMPROBACIÓN: en COMUNICACIÓN PREVIA el control se centra en la correspondencia entre los datos comunicados y los obrantes en el Ayuntamiento sobre ubicación del local, actividad y titular anterior. En DECLARACIÓN RESPONSABLE, en verificar si la actividad puede acogerse al trámite y comprobar el certificado técnico, el USO URBANÍSTICO y las condiciones básicas del local —superficie mínima, entreplantas—",
           "Art. 6.5 — el control puede completarse con INSPECCIÓN IN SITU, previo requerimiento de la documentación técnica. De las actuaciones se levanta ACTA, que tiene en todo caso la consideración de DOCUMENTO PÚBLICO y el valor probatorio correspondiente en los procedimientos sancionadores, sin perjuicio de las pruebas que aporte el administrado",
+          "Art. 6.1, 6.4 y 6.6 — toda actividad puesta en funcionamiento por declaración responsable es objeto de control posterior de las condiciones de apertura o de ejecución de obras, igual que las actividades que se transmitan y sean comunicadas; el Ayuntamiento puede requerir la documentación técnica que estime necesaria; y no aportar en plazo la documentación del art. 5.3 conlleva el CESE de la actividad por orden del órgano competente en materia de urbanismo",
           "Art. 7.1 — TERMINACIÓN favorable: valorado que concurren las circunstancias adecuadas, se concluye el procedimiento mediante RESOLUCIÓN del órgano competente en materia de urbanismo, que se notifica al interesado y debe estar EN EL LOCAL a disposición de las administraciones",
           "Art. 7.2 — actividad ajena al ámbito de la Ley 12/2012 u obras no amparadas: requerimiento de DIEZ DÍAS para alegar; a la vista de ello, resolución declarando la INEFICACIA, concesión de plazo para solicitar licencia y SUSPENSIÓN de la actividad. Si no fuera legalizable, CIERRE del establecimiento; igual si hay deficiencias técnicas NO subsanables, previo período de diez días de audiencia",
           "Art. 7.3 — deficiencias SUBSANABLES: requerimiento para corregirlas en el plazo que se considere oportuno. Si fueran ESENCIALES, previa valoración técnico-jurídica, se acuerda la SUSPENSIÓN CAUTELAR con plazo para subsanar. Esa suspensión, como ACTO DE TRÁMITE CUALIFICADO, es recurrible en vía administrativa y judicial. Corregidas, se resuelve como en el 7.1; en caso contrario, ineficacia y CIERRE DEFINITIVO",
+          "Art. 7.4 — COMUNICACIÓN PREVIA presentada sin los datos requeridos: se pide su subsanación, su eficacia queda EN SUSPENSO hasta que se subsanen y, si vence el plazo sin hacerlo, el órgano competente en materia de urbanismo declara su INEFICACIA",
           "Art. 7.5 — INEXACTITUD, FALSEDAD U OMISIÓN DE CARÁCTER ESENCIAL, o la no presentación: imposibilidad de continuar con el ejercicio del derecho o actividad DESDE EL MOMENTO EN QUE SE TENGA CONSTANCIA, sin perjuicio de responsabilidades penales, civiles o administrativas. La resolución puede determinar la obligación de RESTITUIR la situación jurídica al momento previo y la IMPOSIBILIDAD DE INSTAR UN NUEVO PROCEDIMIENTO con el mismo objeto durante un período determinado — regla equivalente al art. 69.4 de la Ley 39/2015",
           "Art. 7.6 — los plazos concedidos para adoptar medidas correctoras o subsanar deficiencias o requisitos de la fase de comprobación se consideran PLAZOS DE AUDIENCIA PREVIA a la resolución sobre el cese cautelar o definitivo de la actividad. Art. 7.7 — todas esas medidas, sin perjuicio de la tramitación, en su caso, del oportuno EXPEDIENTE SANCIONADOR (numeración del BON nº 90/2014, que manda sobre el PDF municipal)",
         ],
@@ -92,7 +94,7 @@ export default {
       "Art. 192 LFOTU: ocho letras. NO define «obra menor» — remite a las ORDENANZAS MUNICIPALES (letras b y e)",
       "Autoconsumo solar: SIN LIMITACIÓN DE POTENCIA (cualquier cifra en un distractor es falsa)",
       "Tres excepciones de la letra g): BIC o catalogado · afección a cimientos o estructura · necesidad de EIA",
-      "Puntos de recarga: solo los situados EN EL INTERIOR de edificaciones (letra h)",
+      "Puntos de recarga: solo los situados EN EL INTERIOR de edificaciones, y no si pueden suponer un impacto sobre bienes de interés cultural o protegidos (letra h)",
       "Las letras g) y h) las añadió la LEY FORAL 4/2021, de 22 de abril",
       "Art. 192.2: la declaración responsable NO exime ni condiciona la inspección, control y sanción municipales",
       "Ley 12/2012: umbral vigente de 750 M² de superficie útil de exposición y venta (antes 300 y 500)",
@@ -109,35 +111,119 @@ export default {
       "Art. 10.4: la licencia ampara las OBRAS pero NO LOS USOS",
       "Ordenanza de 2014: COMUNICACIÓN PREVIA = cambio de titularidad · DECLARACIÓN RESPONSABLE = puesta en marcha y obras sin proyecto",
       "Subsanación en la ordenanza de control posterior: 10 DÍAS, con la eficacia EN SUSPENSO hasta subsanar",
+      "Control posterior (art. 6.2 y 6.3): en la comunicación previa se cotejan UBICACIÓN, ACTIVIDAD y TITULAR ANTERIOR; en la declaración responsable, el acogimiento al trámite, el CERTIFICADO TÉCNICO, el USO URBANÍSTICO y las CONDICIONES BÁSICAS del local",
       "El acta de inspección es DOCUMENTO PÚBLICO con valor probatorio (art. 6.5)",
       "La suspensión cautelar es ACTO DE TRÁMITE CUALIFICADO y por tanto recurrible (art. 7.3)",
     ],
     memorizacion: {
       tablas: [
         {
-          titulo: "E36: cifras y efectos que no se deben cruzar",
-          columnas: ["Fuente y supuesto", "Dato", "Cautela"],
+          titulo: "E36: plazos y cifras que no se deben cruzar",
+          columnas: ["Norma y artículo", "Supuesto", "Dato"],
           filas: [
-            ["Ley 12/2012, art. 2.1", "750 m²", "Superficie útil de exposición y venta al público; umbral de la Ley 20/2013"],
-            ["Ordenanza de obras menores de 2007, art. 5.2.a", "10 días hábiles", "Subsanación documental en su procedimiento"],
-            ["Ordenanza de obras menores de 2007, art. 5.3", "15 días hábiles", "Análisis excepcional según su tenor; no es espera general actual"],
-            ["Ordenanza de obras menores de 2007, art. 9.3", "1 mes", "Resolución del abreviado si todavía procede licencia"],
-            ["Ordenanza de obras menores de 2007, art. 10.3.e", "3 meses / 6 meses", "Inicio / fin de obras según la ordenanza; cotejar título y ley posteriores"],
-            ["Ordenanza de control posterior de 2014, art. 5.4", "10 días", "Subsanación; eficacia suspendida hasta completarla"]
+            ["Art. 192.1.g TRLFOTU", "Autoconsumo solar sobre edificaciones o construcciones y pérgolas de aparcamiento", "Sin limitación de potencia"],
+            ["Ley 12/2012, art. 2.1", "Superficie útil de exposición y venta al público del establecimiento", "No superior a 750 m² (Ley 20/2013); antes 500 m² (Ley 14/2013) y 300 m² en origen"],
+            ["Obras menores 2007, art. 5.2.a", "Documentación incompleta de una actuación comunicada", "10 días hábiles para completarla; si no, archivo sin más trámite"],
+            ["Obras menores 2007, art. 5.3", "Comunicada que, por causas excepcionales, no puede analizarse de inmediato", "15 días hábiles para avisar de deficiencias o inadecuación; sin aviso, la actuación es conforme y pueden iniciarse las obras"],
+            ["Obras menores 2007, art. 9.2", "Subsanación en el procedimiento abreviado", "10 días hábiles, con advertencia de tenerle por desistido"],
+            ["Obras menores 2007, art. 9.3", "Resolución del procedimiento abreviado", "No superior a 1 mes desde el día siguiente a tener la documentación completa y subsanada"],
+            ["Obras menores 2007, art. 9.5", "Retirada de la licencia abreviada", "En los 4 días siguientes a su tramitación; si no, se comunica en el domicilio"],
+            ["Obras menores 2007, art. 10.3.e", "Comienzo y finalización de las obras", "3 meses para comenzar y 6 para terminar, desde la concesión o la comunicación, salvo plazo superior en la licencia"],
+            ["Obras menores 2007, art. 10.3.e", "Prórroga o aplazamiento", "Como máximo, la mitad de los plazos anteriores"],
+            ["Control posterior 2014, art. 5.4", "Documentación inexacta o insuficiente", "10 días para subsanar; eficacia en suspenso; si no, ineficacia y, en su caso, cese"],
+            ["Control posterior 2014, art. 7.2", "Actividad ajena a la Ley 12/2012 u obras no amparadas", "10 días para alegar; el cierre, previo período de 10 días de alegaciones"],
+            ["Control posterior 2014, art. 7.3", "Deficiencias técnicas subsanables", "Plazo «que se considere oportuno»; si son esenciales, suspensión cautelar con plazo para subsanar"]
           ],
-          nota: "El art. 69 LPAC y el art. 195 TRLFOTU atribuyen efectos a la presentación válida de la declaración. Los plazos de la ordenanza de 2007 no crean licencia previa donde la ley posterior impone declaración."
+          nota: "Son plazos literales de las ordenanzas de 2007 y 2014. El art. 5.3 de la de 2007 no es un silencio estimatorio de licencia ni una espera previa general para las declaraciones responsables, cuyo régimen general está en el art. 69 de la Ley 39/2015 y en el art. 195 TRLFOTU (se estudian en sus temas); la ordenanza no convierte en licencia lo que la ley somete a declaración."
+        },
+        {
+          titulo: "Art. 192.1 TRLFOTU: actuaciones sujetas a declaración responsable o comunicación",
+          columnas: ["Letra", "Actuación", "Matiz"],
+          filas: [
+            ["a)", "Obras ligadas al acondicionamiento de los locales para desempeñar la actividad comercial", "De conformidad con la normativa sectorial aplicable (Ley 12/2012)"],
+            ["b)", "Obras de escasa entidad o dimensión", "Las que se determinen en las ordenanzas municipales"],
+            ["c)", "Cerramientos y vallados", "—"],
+            ["d)", "Carteles publicitarios", "Visibles desde la vía pública"],
+            ["e)", "Obras menores", "La ley no las define: lo hacen las ordenanzas (en Pamplona, la de 2007)"],
+            ["f)", "Trabajos previos a la construcción", "Tales como sondeos, prospecciones, catas y ensayos"],
+            ["g)", "Autoconsumo solar sobre edificaciones o construcciones y pérgolas de aparcamiento", "Sin limitación de potencia; fuera, BIC o catalogados, afección a cimientos o estructura y necesidad de EIA (LF 4/2021)"],
+            ["h)", "Puntos de recarga de vehículos eléctricos", "En el interior de edificaciones, salvo impacto sobre BIC u otros bienes protegidos (LF 4/2021)"]
+          ],
+          nota: "Régimen «a los efectos de su constancia, realización y control posterior» (art. 192.1), que no exime ni condiciona la inspección, el control y la sanción de la entidad local (art. 192.2)."
+        },
+        {
+          titulo: "Ordenanza de obras menores (2007): actuación comunicada frente a procedimiento abreviado",
+          columnas: ["Aspecto", "Actuación comunicada (Título I)", "Licencia por procedimiento abreviado (Título II)"],
+          filas: [
+            ["Interior de viviendas", "Revestimientos, carpintería interior, aparatos sanitarios y reparación, renovación o modificación de instalaciones, sin afectar a habitabilidad, uso, número de viviendas ni elementos comunes", "Albañilería y tabiquería que superen las comunicadas, sin cambios sustanciales de distribución; nueva implantación de instalaciones o infraestructuras"],
+            ["Fachadas y cubiertas", "Retejado, bajantes, pintura, reparación de paramentos y elementos de fachada, carpintería exterior: fuera del Casco Antiguo y manteniendo materiales, colores y diseño", "Cambio de materiales, colores o diseño, Casco Antiguo y rehabilitaciones integrales (diseño unitario); cierres de balcones y toldos en plantas elevadas con modelo común; toldos y rótulos; huecos en planta baja de locales con licencia de apertura"],
+            ["Otras obras", "—", "Obras en locales; instalaciones o infraestructuras comunes; catas o derribos puntuales previos a un proyecto; pequeñas reformas en zonas ajardinadas; obras análogas; comunicadas que no siguieron el art. 5"],
+            ["Quedan fuera", "Andamios, ocupación de la vía pública (salvo contenedores), trabajos temporales en altura o vehículos grúa; edificios o elementos catalogados", "Catalogados con grados 1 y 2; en grado 3, abreviado si no se afecta a elementos de interés del catálogo"],
+            ["Documentación", "Instancia revisada por el personal del enterado, representación, memoria, presupuesto por partidas, fotografías (fachadas o cubiertas) y autoliquidación (art. 4)", "La general del art. 7.1, con técnico director si se afecta a elementos estructurales menores o de interés, y la específica de cada obra: planos, fotografías, estudios visados (art. 7.2)"],
+            ["Trámite", "Examen inmediato y diligencia de «conforme»; excepcionalmente, 15 días hábiles (art. 5)", "Informe municipal y resolución en 1 mes; cuenta periódica al órgano competente (art. 9)"]
+          ],
+          nota: "La exposición de motivos excluye de las dos vías las actuaciones en edificios o elementos protegidos, los declarados fuera de ordenación y las obras que excedan de obra menor; el articulado concreta la protección: catalogados, fuera de las comunicadas; grados 1 y 2, fuera del abreviado; grado 3, abreviado con límites (arts. 3 y 6)."
+        },
+        {
+          titulo: "Ordenanza de control posterior (2014): comunicación previa frente a declaración responsable",
+          columnas: ["Aspecto", "Comunicación previa", "Declaración responsable"],
+          filas: [
+            ["Objeto", "Cambio de titularidad de actividades que ya se encuentran en funcionamiento (art. 3.1)", "Poner en marcha una actividad y, en su caso, obras de acondicionamiento del local sin proyecto (art. 2.2 LOE); o solo esas obras en actividades ya en funcionamiento (art. 4.1)"],
+            ["Efecto de la presentación", "Habilita para comenzar el ejercicio de la actividad (art. 3.2)", "Habilita para iniciar la actividad o las obras (art. 4.1)"],
+            ["Contenido", "El cambio de titular, en instancia modelo", "Que cumple los requisitos, que dispone de la documentación y que se compromete a mantener su cumplimiento; certificado técnico según modelo (arts. 4.1 y 5.1)"],
+            ["Qué se comprueba", "Correspondencia con los datos municipales: ubicación del local, actividad desarrollada y titular anterior (art. 6.2)", "Si la actividad puede acogerse al trámite; certificado técnico, uso urbanístico y condiciones básicas del local, como superficie mínima o entreplantas (art. 6.3)"],
+            ["Datos omitidos o documentación insuficiente", "Subsanación; eficacia en suspenso; si no, ineficacia (art. 7.4)", "Subsanación en 10 días; eficacia en suspenso; si no, ineficacia y, en su caso, cese (art. 5.4)"],
+            ["En la Ley 12/2012", "Cambio de titularidad sin licencia: comunicación previa «a los solos efectos informativos» (art. 3.2)", "Sustituye a las licencias que ya no pueden exigirse (art. 4.1)"]
+          ],
+          nota: "Las dos son control posterior: la presentación habilita y la comprobación llega después. El procedimiento termina por resolución del órgano competente en materia de urbanismo, que debe estar en el local (art. 7.1)."
+        },
+        {
+          titulo: "Citas a la Ley 30/1992 que hoy se leen en la Ley 39/2015",
+          columnas: ["Cita antigua", "Dónde aparece", "Precepto actual"],
+          filas: [
+            ["Art. 71 bis (declaración responsable y comunicación)", "Ley 12/2012, arts. 4.1 y 5; control posterior 2014, art. 2.2", "Art. 69"],
+            ["Art. 71 (subsanación)", "Obras menores 2007, art. 5.2.a; control posterior 2014, art. 7.4", "Art. 68"],
+            ["Art. 42.1 (obligación de resolver; desistimiento)", "Obras menores 2007, art. 9.2", "Arts. 21 y 68"],
+            ["Art. 38.4 (registros)", "Obras menores 2007, art. 9.1", "Art. 16"]
+          ],
+          nota: "La exposición de motivos de la ordenanza de 2014 cita también los 300 m² del Real Decreto-ley 19/2012: el umbral vigente de la Ley 12/2012 es de 750 m²."
         }
       ],
       datos: [
-        "Art. 192.1 TRLFOTU: ocho letras a–h; g) autoconsumo solar sin limitación de potencia y h) puntos de recarga en el interior de edificaciones, con las excepciones de protección aplicables.",
-        "Ley 12/2012: 300 m² iniciales → 500 m² por Ley 14/2013 → 750 m² por Ley 20/2013; el límite vigente es de superficie útil de exposición y venta.",
-        "Pamplona 2007: obra menor exige conjuntamente sencillez técnica y escasa entidad constructiva y económica; no equivale sin más a ausencia de proyecto en cualquier actuación.",
-        "Pamplona 2014: comunicación previa de cambio de titular; declaración responsable de inicio de actividad y, en su ámbito, obras de adecuación; control posterior e inspección posible, no visita presencial universal."
+        "Art. 192.1 TRLFOTU: ocho letras (a-h); la Ley Foral 4/2021, de 22 de abril (BON de 28-04-2021; en vigor el 29-04-2021), añadió las letras g) y h) para aclarar que el autoconsumo solar va por declaración responsable o comunicación y no por licencia de obras.",
+        "Art. 192 TRLFOTU: no define la obra menor; las letras b) (obras de escasa entidad o dimensión) y e) (obras menores) remiten a las ordenanzas municipales.",
+        "Ley 12/2012, de 26 de diciembre: norma estatal (Jefatura del Estado); BOE n.º 311, de 27-12-2012; en vigor el 28-12-2012; derogó el Real Decreto-ley 19/2012. Título I, «De las medidas urgentes de impulso del comercio» = arts. 1 a 5.",
+        "Ley 12/2012, art. 2.1: actividades comerciales minoristas y servicios del anexo, en establecimientos permanentes situados en cualquier parte del territorio nacional, con superficie útil de exposición y venta al público no superior a 750 m².",
+        "Ley 12/2012, art. 3.1: no puede exigirse licencia previa de instalaciones, de funcionamiento o de actividad, ni otras de clase similar o análogas.",
+        "Ley 12/2012, art. 4: justificante de pago del tributo cuando sea preceptivo; manifestación explícita del cumplimiento de los requisitos, incluido, en su caso, disponer de la documentación y del proyecto; proyectos firmados por técnicos competentes; tramitación conjunta de varias actuaciones de la misma actividad o local.",
+        "Ley 12/2012, art. 5: la presentación habilita desde ese momento para el ejercicio material de la actividad, no prejuzga su acomodo a la normativa ni limita las potestades de control, y habilita a las entidades locales para regular la comprobación posterior.",
+        "Ordenanza de obras menores: aprobación inicial por el Pleno el 15-03-2007 (BON n.º 36, de 23-03-2007); aprobación definitiva publicada en el BON n.º 64, de 23-05-2007; en vigor el 1-06-2007. Título Preliminar (arts. 1-2), Título I, comunicación (arts. 3-5), Título II, abreviado (arts. 6-9), Título III, condiciones y efectos (arts. 10-11), disposición transitoria única y disposición derogatoria.",
+        "Obra menor (art. 2): sencillez técnica, escasa entidad constructiva y escasa entidad económica, de concurrencia conjunta; normalmente, pequeñas obras de simple reparación, decoración, ornato o cerramiento, sin proyecto técnico ni presupuestos elevados.",
+        "Exclusiones del concepto de obra menor (art. 2): obras del art. 2.2 LOE; obras en edificios que no se ajusten a la ordenación del planeamiento; obras que afecten a la estructura portante (incluidas escaleras y entreplantas) o a elementos comunes, salvo las de fachadas, cubiertas e instalaciones de la propia ordenanza; implantación de una actividad en un local no utilizado antes o sustancialmente diferente a la autorizada; implantación o modificación sustancial de actividades clasificadas.",
+        "Técnico director en el abreviado (art. 7): si las obras afectan puntualmente a elementos estructurales menores (aleros, losas de balcones, correas de cubierta o similares) o a elementos de interés de edificios catalogados, y en viviendas del Casco Antiguo con derribos de tabiquería o cambios de distribución que afecten a cocinas, baños o aseos.",
+        "Vía pública y medios auxiliares (art. 8): se piden preferentemente con la licencia abreviada; por separado, solo se autorizan si ya se ha otorgado la licencia de obras. Con andamios, montacargas, vehículos grúa o trabajos en altura: certificado de contratación de director de obra o de ejecución o, en su defecto, de que la instalación y retirada se hará bajo la dirección de técnico competente.",
+        "Licencia abreviada (art. 9): el expediente se considera iniciado con la entrada de la documentación completa; el plazo se interrumpe con el requerimiento de subsanación, que debe precisar deficiencias y plazo; se da cuenta periódicamente al órgano competente de las licencias otorgadas.",
+        "Ordenanza de control posterior: aprobada definitivamente por el Pleno el 28-04-2014; BON n.º 90, de 12-05-2014; en vigor el 1-06-2014. Título I, disposiciones generales (arts. 1-4); Título II, procedimiento (arts. 5-7); su disposición derogatoria deroga la ordenanza de actividades inocuas aprobada por el Pleno el 18-05-2012.",
+        "Control posterior, arts. 1 y 2: se limita a la implantación de las actividades y a las obras de acondicionamiento sin proyecto; dos títulos habilitantes, la comunicación previa y la declaración responsable, al amparo del art. 5 de la Ley 12/2012.",
+        "Control posterior, art. 5: instancia normalizada en el registro municipal; con la declaración, el certificado técnico según los modelos municipales; justificante de pago de la tasa y alta en el epígrafe del IAE. En el local: copia diligenciada de la comunicación o declaración, copia del certificado técnico y de la documentación complementaria, y la documentación adicional de los modelos.",
+        "Control posterior, art. 6.5: inspección in situ, con requerimiento previo de la documentación técnica; el acta tiene, en todo caso, la consideración de documento público y el valor probatorio correspondiente en los procedimientos sancionadores.",
+        "Control posterior, art. 6.6: no aportar en plazo la documentación del art. 5.3 conlleva el cese de la actividad mediante orden del órgano competente en materia de urbanismo."
       ],
       excepciones: [
-        "Solar del art. 192.1.g: BIC o catalogado, afección a cimientos o estructura y necesidad de evaluación de impacto ambiental quedan fuera de esa letra.",
-        "Art. 192.2: declaración responsable no elimina inspección, control ni sanción local.",
-        "Art. 3.3 Ley 12/2012: dispensa de licencia de obras de acondicionamiento solo si no precisan proyecto según art. 2.2 LOE; art. 3.4 conserva el régimen de las obras de edificación.",
+        "Art. 192.1.g: no están sujetas a este régimen las instalaciones solares en edificios BIC o catalogados (se aplica el art. 62.7.c), las que afecten a los cimientos o la estructura del edificio y las que necesiten evaluación de impacto ambiental.",
+        "Art. 192.1.h: los puntos de recarga en el interior de edificaciones quedan fuera si pudieran suponer un impacto sobre bienes declarados de interés cultural o sujetos a cualquier otro régimen de protección.",
+        "Art. 192.2: la declaración responsable no exime ni condiciona la inspección, el control ni la sanción de la entidad local sobre las obras que no se ajusten a la legislación, al planeamiento o a la propia declaración.",
+        "Ley 12/2012, art. 2.2: quedan al margen del Título I las actividades con impacto en el patrimonio histórico-artístico o en el uso privativo y ocupación de los bienes de dominio público.",
+        "Ley 12/2012, art. 3.3 y 3.4: la dispensa de licencia para obras de acondicionamiento exige que no requieran proyecto según el art. 2.2 LOE; las obras de edificación precisas siguen su normativa (licencia, requisitos y competencia).",
+        "Obras menores, art. 3: no son actuaciones comunicadas las obras de fachadas y cubiertas del Casco Antiguo o que cambien materiales, colores o diseño; ni las que exijan andamios, ocupar la vía pública (salvo contenedores, que siguen su propia ordenanza), trabajos temporales en altura o vehículos grúa; ni las obras en edificios o elementos catalogados.",
+        "Obras menores, art. 6: los catalogados con grados 1 y 2 no van por el abreviado; en grado 3 sí, también para las obras del art. 3, si no afectan a elementos de interés reseñados en el catálogo, y en obras de restauración, reparación y mantenimiento de esos elementos.",
+        "Obras menores, art. 6.6: las obras que podían ser comunicadas pero no siguieron el art. 5 (presentación en el Registro del Área de Urbanismo previa revisión del personal del enterado) pasan al procedimiento abreviado.",
+        "Obras menores, art. 10.1: nunca se adquieren por silencio las licencias contrarias a la legislación o al planeamiento, ni cuando por falseamiento, error u omisión de datos no se pudo notificar la subsanación, la inadecuación del procedimiento u otra comunicación.",
+        "Obras menores, art. 10.3.e: el plazo de finalización cede si la licencia señala uno superior, y la caducidad se evita pidiendo prórroga o aplazamiento (como máximo, la mitad de los plazos).",
+        "Obras menores, art. 10.4: la licencia ampara obras, no usos; si el uso no está legalizado ni es legalizable, la obra no da derecho a la licencia del uso, y si no está legalizado no resulta amparada obra alguna.",
+        "Control posterior, art. 7.2: actividad ajena a la Ley 12/2012 u obras no amparadas: ineficacia, plazo para pedir licencia y suspensión de la actividad; cierre si no es legalizable o hay deficiencias técnicas no subsanables, previo período de 10 días.",
+        "Control posterior, art. 7.3: deficiencias esenciales, previa valoración técnico-jurídica: suspensión cautelar con plazo para subsanar, recurrible por ser acto de trámite cualificado; si no se corrigen, ineficacia y cierre definitivo.",
+        "Control posterior, art. 7.5: inexactitud, falsedad u omisión esencial, o no presentación: imposibilidad de continuar desde que se tenga constancia, posible restitución al estado previo e imposibilidad de un nuevo procedimiento con el mismo objeto durante un periodo determinado (como el art. 69.4 de la Ley 39/2015); todo ello sin perjuicio del expediente sancionador (art. 7.7).",
         "Las reglas procedimentales de 2007 y 2014 se leen con la legislación posterior; una pregunta sobre el tenor de la ordenanza no equivale a afirmar su aplicación íntegra hoy."
       ]
     },
