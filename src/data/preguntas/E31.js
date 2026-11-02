@@ -1,22 +1,30 @@
 // Banco de preguntas del tema E31. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 31 ESPECÍFICO · TRLFOTU IV — EJECUCIÓN DEL PLANEAMIENTO (E31) · 15 preguntas originales revisadas ----------
-  {
-    "id": "E31-01",
-    "tema": "E31",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el estudio sobre la adecuación de los coeficientes de homogeneización utilizados para calcular el aprovechamiento tipo debe incorporarse al:",
-    "o": [
-      "Proyecto de Urbanización.",
-      "Programa de Actuación Urbanizadora.",
-      "Proyecto de Reparcelación.",
-      "Proyecto de distribución de costes."
-    ],
-    "c": 2,
-    "exp": "Art. 150.1 del DFL 1/2017: el Proyecto de Reparcelación debe incluir ese estudio para garantizar la equidistribución efectiva. El Proyecto de Urbanización define las obras (art. 134); el Programa organiza la actuación del Agente Urbanizador (art. 172); el proyecto de distribución de costes reparte las obras comunes entre unidades (art. 133)."
-  },
+  // ── E31 · DFL 1/2017 (TRLFOTU), Título IV: ejecución del planeamiento (arts. 130-189) ─────────────────
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección
+  // 2 bis): 3 META (E31-01, E31-11, E31-13), 3 DATO (E31-04, E31-10, E31-15), 2 NEG (E31-09, E31-12),
+  // 1 LISTA (E31-16), 1 LIT (E31-03), 1 AFIRM (E31-07), 1 SEL (E31-08), 1 DEF (E31-14), 1 ALCANCE (E31-05)
+  // y 1 COMB2 (E31-17). Reescritas in situ, con su id, su tema de fondo y su tipo: E31-01, 03, 04, 05, 07,
+  // 08, 09, 10, 11, 12, 13, 14 y 15. Nuevas: E31-16 (art. 157.3, sistemas de actuación pública) y E31-17
+  // (art. 160.3, recepción de obras por silencio y plazo de garantía). Retiradas (no se borran: el historial
+  // va por id): E31-02 (art. 133, reparto de costes comunes; queda en el resumen) y E31-06 (art. 151,
+  // urbanización por fases; queda en el resumen).
+  // Vigencia: texto consolidado del BOE (BOE-A-2017-12907), última actualización publicada el 31-12-2025
+  // (LF 16/2025, que solo añade el Título VII). En el Título IV, la única nota de vigencia del TXT es la del
+  // art. 187.3 (dotación supramunicipal), ya incorporada. Nada posterior al 21-05-2026.
+  // Letra correcta: A 4, B 4, C 3, D 4. Metas en la d): correctas en E31-01 («Todas») y E31-13 («a) y c)»);
+  // «Ninguna» es falsa en E31-11.
+  { id: "E31-01", tema: "E31", subtema: "Reparcelación: criterios de formulación", tipo: "META",
+    q: "Señale la respuesta CORRECTA en relación con los criterios de formulación del Proyecto de Reparcelación establecidos en el artículo 150 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, salvo que los propietarios, por unanimidad, adopten otros diferentes:",
+    o: ["El Proyecto de Reparcelación deberá contener un estudio que analice la adecuación o inadecuación de los coeficientes de homogeneización utilizados para el cálculo del aprovechamiento tipo.",
+        "El exceso de aprovechamiento privado en relación con los aprovechamientos subjetivos de todos los propietarios y demás titulares se adjudicará a la Administración para su incorporación al Patrimonio Municipal del Suelo.",
+        "Si la cuantía de los derechos de un propietario no alcanzase el 15 por 100 de la parcela mínima edificable, la adjudicación podrá sustituirse por una indemnización en metálico.",
+        "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 150 (criterios a los que se ajusta el Proyecto de Reparcelación «salvo que los propietarios, por unanimidad, adopten otros diferentes»): las tres afirmaciones recogen el texto del artículo. La a) es del apartado 1: «El Proyecto de Reparcelación deberá contener un estudio que analice la adecuación o inadecuación de los coeficientes de homogeneización utilizados para el cálculo del aprovechamiento tipo». La b) es del apartado 4: «El exceso de aprovechamiento privado en relación con los aprovechamientos subjetivos de todos los propietarios y demás titulares se adjudicará a la Administración para su incorporación al Patrimonio Municipal del Suelo»; no se reparte entre los propietarios. La c) es del apartado 6: cuando la escasa cuantía de los derechos no permita adjudicar fincas independientes, los solares podrán adjudicarse pro indiviso, y «si la cuantía de esos derechos no alcanzase el 15 por 100 de la parcela mínima edificable, la adjudicación podrá sustituirse por una indemnización en metálico». Por eso la correcta es la d)." },
   {
     "id": "E31-02",
     "tema": "E31",
+    "estado": "retirada",
     "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando el planeamiento imponga a varias unidades de ejecución de una misma área de reparto costear obras comunes que no sean sistemas generales, la distribución de esos costes se hará proporcionalmente:",
     "o": [
       "A la superficie de suelo incluida en cada unidad de ejecución.",
@@ -27,48 +35,28 @@ export default [
     "c": 1,
     "exp": "Art. 133.1 y 133.3 del DFL 1/2017: el criterio es el aprovechamiento asignado a cada unidad. La superficie de suelo, el presupuesto de sus obras interiores y el número de parcelas no son la base de reparto establecida para estas obras comunes."
   },
-  {
-    "id": "E31-03",
-    "tema": "E31",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, señale la afirmación INCORRECTA sobre los Proyectos de Urbanización:",
-    "o": [
-      "Su tramitación y aprobación se ajustan al procedimiento previsto para los Estudios de Detalle.",
-      "Pueden establecer fases de ejecución que constituyan una unidad funcional directamente utilizable.",
-      "Deben incorporar las prescripciones de accesibilidad universal y de eficacia y eficiencia energéticas.",
-      "Su ámbito debe coincidir con una unidad de ejecución, sin poder comprender varias unidades."
-    ],
-    "c": 3,
-    "exp": "Art. 134.1 del DFL 1/2017: un Proyecto de Urbanización puede abarcar una o varias unidades de ejecución o ámbitos incluidos en un Plan Especial de Actuación Urbana. Por tanto, es incorrecta la limitación a una unidad. Las restantes afirmaciones recogen, respectivamente, los apartados 5, 3 y 4 del mismo artículo."
-  },
-  {
-    "id": "E31-04",
-    "tema": "E31",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué umbral específico de población fija el artículo 142.4 para exigir la programación de plazos de las unidades de ejecución en los municipios de la Comarca de Pamplona?",
-    "o": [
-      "Más de 1.000 habitantes.",
-      "Más de 500 habitantes.",
-      "Más de 2.000 habitantes.",
-      "Más de 1.500 habitantes."
-    ],
-    "c": 0,
-    "exp": "Art. 142.4 del DFL 1/2017: el umbral específico de la Comarca de Pamplona es más de 1.000 habitantes. Los umbrales de 500, 1.500 y 2.000 habitantes no son los establecidos por este precepto. En el resto de municipios que no estén en los supuestos obligatorios, la programación es potestativa."
-  },
-  {
-    "id": "E31-05",
-    "tema": "E31",
-    "q": "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la prohibición de realizar parcelaciones que originen lotes inferiores a las dimensiones mínimas admite una excepción cuando dichos lotes:",
-    "o": [
-      "Se adjudican en proindiviso a los propietarios de la finca de origen para mantener la titularidad conjunta.",
-      "Se adjudican al Ayuntamiento para materializar el exceso de aprovechamiento e incorporarlos al Patrimonio Municipal del Suelo.",
-      "Son adquiridos simultáneamente por propietarios colindantes para agruparlos con sus fincas y constituir una nueva.",
-      "Se segregan de fincas cuya edificabilidad no se ha agotado y conservan acceso independiente a la vía pública."
-    ],
-    "c": 2,
-    "exp": "Art. 147.1 del DFL 1/2017: la excepción exige adquisición simultánea por los propietarios de terrenos colindantes para agrupar los lotes con sus fincas. La titularidad proindiviso no elimina la exigencia de parcela mínima; adjudicar el exceso de aprovechamiento al Ayuntamiento tampoco autoriza lotes inferiores, y disponer de edificabilidad remanente y acceso no constituye la excepción prevista."
-  },
+  { id: "E31-03", tema: "E31", subtema: "Proyectos de Urbanización", tipo: "LIT",
+    q: "Conforme a lo establecido en el artículo 134 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los Proyectos de Urbanización:",
+    o: ["No podrán contener determinaciones sobre ordenación ni régimen del suelo y de la edificación, y deberán detallar y programar las obras que comprendan con la precisión necesaria para que puedan ser ejecutadas por técnico distinto del autor del proyecto.",
+        "Podrán contener determinaciones de ordenación pormenorizada del suelo y de la edificación, y deberán detallar y programar las obras que comprendan con la precisión necesaria para que puedan ser ejecutadas por técnico distinto del autor del proyecto.",
+        "No podrán contener determinaciones sobre ordenación ni régimen del suelo y de la edificación, y deberán detallar y programar las obras que comprendan con la precisión necesaria para que puedan ser ejecutadas bajo la dirección facultativa del autor del proyecto.",
+        "No podrán contener determinaciones sobre ordenación ni régimen del suelo y de la edificación, y deberán expresar las características básicas de las obras que comprendan con la precisión necesaria para estimar el coste de su ejecución."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 134.1: los Proyectos de Urbanización «No podrán contener determinaciones sobre ordenación ni régimen del suelo y de la edificación, y deberán detallar y programar las obras que comprendan con la precisión necesaria para que puedan ser ejecutadas por técnico distinto del autor del proyecto». La b) invierte la prohibición: no pueden contener determinaciones de ordenación y tampoco «modificar las previsiones del planeamiento que desarrollan», aunque sí efectuar «las adaptaciones exigidas por la ejecución material de las obras» (apartado 2). La c) cambia «técnico distinto del autor del proyecto» por la dirección del propio autor. La d) describe un documento de características básicas para estimar costes, como el anteproyecto de urbanización del Programa de Actuación Urbanizadora (art. 172.3) o el proyecto constructivo básico del proyecto de distribución de costes (art. 133.2); el Proyecto de Urbanización tiene que detallar y programar las obras." },
+  { id: "E31-04", tema: "E31", subtema: "Unidades de ejecución: programación de plazos", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 142 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué umbral de población fija específicamente para los municipios de la Comarca de Pamplona a partir del cual las Unidades de Ejecución deben establecer, en el ámbito de la programación del plan, los plazos para su ejecución?",
+    o: ["Más de 500 habitantes.", "Más de 1.000 habitantes.", "Más de 2.000 habitantes.", "Más de 3.000 habitantes."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 142.4: «Las Unidades de Ejecución delimitadas en municipios de más de tres mil habitantes o cuyo planeamiento prevea alcanzar dicha población, así como en los municipios de más de mil habitantes de la Comarca de Pamplona, deberán establecer en el ámbito de la programación del plan, los plazos para su ejecución. En el resto de municipios esta programación será potestativa». El umbral propio de la Comarca de Pamplona es más de 1.000 habitantes. Más de 3.000 habitantes es el umbral general, no el específico de la Comarca; 500 y 2.000 habitantes no aparecen en el precepto." },
+  { id: "E31-05", tema: "E31", subtema: "Parcelación: parcelas mínimas e indivisibles", tipo: "ALCANCE",
+    q: "Conforme a lo establecido en el artículo 147 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una parcelación que dé lugar a lotes de superficie o dimensiones inferiores a las determinadas como mínimas en el planeamiento o en la legislación sectorial podrá realizarse:",
+    o: ["En ningún caso.",
+        "Cuando los lotes sean adquiridos simultáneamente por los propietarios de terrenos colindantes con el fin de agruparlos con sus fincas para constituir una nueva.",
+        "Cuando los lotes se adjudiquen pro indiviso a varios propietarios porque la escasa cuantía de sus derechos no permite adjudicar fincas independientes a todos ellos.",
+        "Cuando los lotes se segreguen de fincas cuya edificabilidad no se haya agotado y conserven un acceso independiente desde la vía pública."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 147.1: «No podrá realizarse parcelación alguna que dé lugar a lotes de superficie o dimensiones inferiores a las determinadas como mínimas en el planeamiento o en la legislación sectorial, salvo que dichos lotes sean adquiridos simultáneamente por los propietarios de terrenos colindantes con el fin de agruparlos con sus fincas para constituir una nueva». La a) olvida esa única excepción. La c) confunde la regla con la adjudicación pro indiviso de solares en la reparcelación (art. 150.6), que no permite lotes por debajo del mínimo: el art. 150.7 prohíbe adjudicar como fincas independientes superficies inferiores a la parcela mínima edificable. La d) no es una excepción prevista: tener edificabilidad sin agotar y acceso propio no habilita lotes inferiores al mínimo." },
   {
     "id": "E31-06",
     "tema": "E31",
+    "estado": "retirada",
     "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en una unidad de ejecución cuya urbanización se ha programado por fases, señale la afirmación INCORRECTA:",
     "o": [
       "Las indemnizaciones reconocidas por bienes incompatibles son exigibles al aprobarse la reparcelación, aunque aún no deba iniciarse su fase.",
@@ -79,121 +67,75 @@ export default [
     "c": 0,
     "exp": "Art. 151.3 del DFL 1/2017: no puede exigirse el abono de esas indemnizaciones mientras no se acuerde el inicio de la fase ni haya transcurrido su plazo de programación. La aprobación de la reparcelación no basta. Las cuotas comunes se regulan en el apartado 4, con las compensaciones allí previstas; las específicas, en el 5; y la afección por la totalidad de gastos, en el 2."
   },
-  {
-    "id": "E31-07",
-    "tema": "E31",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en una actuación de competencia municipal, contra los acuerdos de la Junta de Compensación podrá interponerse el recurso de:",
-    "o": [
-      "Reposición ante el órgano rector de la Junta de Compensación.",
-      "Alzada ante el departamento foral competente en urbanismo.",
-      "Reposición ante el Ayuntamiento del municipio correspondiente.",
-      "Alzada ante la Administración actuante en la unidad de ejecución."
-    ],
-    "c": 3,
-    "exp": "Art. 165.4 del DFL 1/2017: procede recurso de alzada ante la Administración actuante. El precepto no establece reposición ante la Junta ni ante el Ayuntamiento, ni atribuye la alzada al departamento foral por su competencia general en urbanismo."
-  },
-  {
-    "id": "E31-08",
-    "tema": "E31",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la incorporación automática de todos los propietarios al sistema de compensación se produce con:",
-    "o": [
-      "La aprobación inicial del Proyecto de Reparcelación.",
-      "La aprobación definitiva de los Estatutos de la Junta.",
-      "El otorgamiento de la escritura de constitución de la Junta.",
-      "La aprobación definitiva del Proyecto de Reparcelación."
-    ],
-    "c": 1,
-    "exp": "Art. 162.3 del DFL 1/2017: la aprobación definitiva de los Estatutos incorpora a todos los propietarios al sistema. La escritura de constitución determina la personalidad jurídica de la Junta (art. 162.4); la aprobación inicial de la reparcelación marca el límite para solicitar la exclusión del sistema (art. 163), y la definitiva produce la transmisión de las cesiones obligatorias (art. 166.2)."
-  },
-  {
-    "id": "E31-09",
-    "tema": "E31",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en el sistema de reparcelación voluntaria, señale la afirmación INCORRECTA:",
-    "o": [
-      "El Proyecto de Reparcelación debe ser formulado por la totalidad de los propietarios afectados por la actuación.",
-      "Los propietarios afectados designarán un único representante ante la Administración a efectos de notificar las sucesivas actuaciones.",
-      "El procedimiento de aprobación del Proyecto de Reparcelación será el previsto para la aprobación de los Estudios de Detalle.",
-      "La falta de alegaciones convierte la aprobación inicial en definitiva aunque el Ayuntamiento no haya previsto expresamente ese efecto."
-    ],
-    "c": 3,
-    "exp": "Art. 169.c) del DFL 1/2017: para prescindir de aprobación definitiva expresa, el Ayuntamiento debe haber acordado ese efecto en la aprobación inicial y no deben presentarse alegaciones. La ausencia de alegaciones por sí sola no basta. La formulación por todos y la representación única figuran en el apartado a); la remisión a los Estudios de Detalle, en el b)."
-  },
-  {
-    "id": "E31-10",
-    "tema": "E31",
-    "q": "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un propietario disconforme con la proporción de terrenos que ha de ceder como retribución al Agente Urbanizador solicita pagar en metálico, por conducto notarial dirigido al agente y al municipio y con la garantía exigida. ¿Dentro de qué plazo siguiente a la aprobación del Programa de Actuación Urbanizadora debe solicitarlo?",
-    "o": [
-      "Quince días.",
-      "Veinte días.",
-      "Diez días.",
-      "Treinta días."
-    ],
-    "c": 2,
-    "exp": "Art. 173.2.b) del DFL 1/2017: la solicitud debe dirigirse por conducto notarial al Agente Urbanizador y al Municipio dentro de los diez días siguientes a la aprobación del Programa, asegurando el pago mediante garantía financiera o real proporcional a la del agente. Los plazos de quince, veinte y treinta días no corresponden a este trámite."
-  },
-  {
-    "id": "E31-11",
-    "tema": "E31",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el plazo de cuarenta días para resolver la aprobación y adjudicación de un Programa de Actuación Urbanizadora se cuenta desde:",
-    "o": [
-      "La finalización del plazo de presentación de propuestas.",
-      "La publicación del anuncio de concurrencia pública.",
-      "La presentación de la primera alternativa técnica.",
-      "La aprobación municipal de la alternativa técnica elegida."
-    ],
-    "c": 0,
-    "exp": "Art. 174.8 del DFL 1/2017: los cuarenta días se cuentan desde la finalización del plazo de presentación de propuestas. La primera alternativa puede iniciar la tramitación (apartado 1) y el anuncio abre la concurrencia pública (apartado 2), pero ninguno inicia el plazo para resolver. El precepto tampoco lo vincula a una aprobación previa de la alternativa elegida."
-  },
-  {
-    "id": "E31-12",
-    "tema": "E31",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en el sistema de cooperación, señale la afirmación INCORRECTA sobre los gastos de urbanización:",
-    "o": [
-      "La Administración puede convenir con los propietarios un aplazamiento del pago cuando las circunstancias lo aconsejen.",
-      "Las cantidades exigibles a cuenta se calculan sobre las inversiones a realizar en los doce meses siguientes.",
-      "El plazo para satisfacer las cantidades a cuenta no puede ser inferior a un mes desde el requerimiento.",
-      "Transcurrido el plazo de pago señalado, la Administración procederá a exigir las cuotas por vía de apremio."
-    ],
-    "c": 1,
-    "exp": "Art. 176.1 del DFL 1/2017: las cantidades a cuenta se limitan a las inversiones a realizar en los seis meses siguientes, no a las previstas para los doce meses siguientes. El mismo apartado fija un plazo de pago no inferior a un mes y la vía de apremio tras su transcurso. El aplazamiento convenido se contempla en el apartado 2."
-  },
-  {
-    "id": "E31-13",
-    "tema": "E31",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los estatutos de la Comisión gestora del sistema de ejecución forzosa se aprueban:",
-    "o": [
-      "Por los propietarios adheridos a la gestión, antes de constituirse la Comisión.",
-      "Por la propia Comisión gestora, en su sesión de constitución formal.",
-      "Por la Administración actuante, al aprobar el Proyecto de Reparcelación.",
-      "Por la Administración actuante, de oficio, al acordar el sistema."
-    ],
-    "c": 3,
-    "exp": "Art. 179.3 del DFL 1/2017: la Administración actuante aprueba de oficio los estatutos al acordar el sistema. No se someten a aprobación de los propietarios adheridos ni de la propia Comisión. Tampoco se espera a aprobar la reparcelación: la Comisión ya constituida acuerda iniciar ese proyecto en su primera sesión (art. 181.1)."
-  },
-  {
-    "id": "E31-14",
-    "tema": "E31",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué condición exige la ocupación directa a la unidad de ejecución donde los propietarios afectados harán efectivos sus aprovechamientos?",
-    "o": [
-      "Que sea excedentaria en aprovechamiento.",
-      "Que esté incluida en la misma área de reparto.",
-      "Que tenga aprobado el proyecto de reparcelación.",
-      "Que se gestione por un sistema público."
-    ],
-    "c": 0,
-    "exp": "Arts. 187.1.b) y 189.1 del DFL 1/2017: debe identificarse una unidad excedentaria en la que hacer efectivo el aprovechamiento. Puede estar en otra área de reparto, con valoración pericial de terrenos y aprovechamientos. No se exige reparcelación ya aprobada, como confirma el art. 189.4, ni que el sistema de actuación de la unidad sea público."
-  },
-  {
-    "id": "E31-15",
-    "tema": "E31",
-    "q": "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los propietarios afectados por ocupación directa pueden solicitar el inicio del expediente de justiprecio si pasan cuatro años sin aprobarse definitivamente el instrumento de redistribución que debe acoger sus derechos. ¿Desde qué momento se cuentan esos cuatro años?",
-    "o": [
-      "Desde la notificación de la relación de terrenos y propietarios afectados.",
-      "Desde la aprobación definitiva del plan que fija el destino dotacional.",
-      "Desde la ocupación del terreno por la Administración actuante.",
-      "Desde la delimitación de la unidad que debe acoger los aprovechamientos."
-    ],
-    "c": 2,
-    "exp": "Art. 189.4 del DFL 1/2017: los cuatro años se cuentan desde la ocupación. La notificación previa, la aprobación del planeamiento y la delimitación de la unidad no inician ese plazo. Una vez solicitada la iniciación del expediente, debe transcurrir otro plazo de seis meses para que se lleve a cabo por ministerio de la ley."
-  },
+  { id: "E31-07", tema: "E31", subtema: "Sistema de compensación: Junta de Compensación", tipo: "AFIRM",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de las siguientes afirmaciones sobre la Junta de Compensación es CORRECTA?",
+    o: ["Tendrá naturaleza privada, personalidad jurídica y plena capacidad para el cumplimiento de sus fines.",
+        "Los cargos de su órgano rector podrán recaer indistintamente en personas físicas o jurídicas.",
+        "Contra sus acuerdos podrá interponerse recurso de alzada ante la Administración actuante.",
+        "Un representante de la Administración actuante formará parte de su órgano rector si así lo prevén sus Estatutos."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 165.4: «Contra los acuerdos de la Junta de Compensación podrá interponerse recurso de alzada ante la Administración actuante». Las demás son falsas: la Junta «tendrá naturaleza administrativa, personalidad jurídica y plena capacidad para el cumplimiento de sus fines» (apartado 1), no privada; «Los cargos del órgano rector recaerán necesariamente en personas físicas» (apartado 2); y «Un representante de la Administración actuante formará parte del órgano rector de la Junta, en todo caso» (apartado 3), no solo cuando lo prevean los Estatutos." },
+  { id: "E31-08", tema: "E31", subtema: "Sistema de compensación: Estatutos y constitución de la Junta", tipo: "SEL",
+    q: "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de los siguientes efectos produce el acto de aprobación definitiva de los Estatutos de la Junta de Compensación?",
+    o: ["La incorporación automática de todos los propietarios al sistema de compensación.",
+        "La adquisición por la Junta de Compensación de personalidad jurídica y capacidad de obrar.",
+        "La transmisión a la Administración de los terrenos de cesión obligatoria y gratuita.",
+        "La suspensión del otorgamiento de licencias de parcelación y edificación en la unidad."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 162.3: «El acto de aprobación definitiva de los Estatutos implica la incorporación automática de todos los propietarios al sistema de compensación, quedando vinculados en lo sucesivo por los acuerdos de la Junta y de la Administración actuante». La b) no es efecto de esa aprobación: los propietarios tienen un plazo máximo de tres meses para constituir la Junta en escritura pública, y «A partir de su constitución, la Junta de Compensación adquirirá personalidad jurídica y capacidad de obrar» (art. 162.4). La c) se produce con la aprobación definitiva del proyecto de reparcelación (arts. 153.1.a y 166.2). La d) puede declararse junto con la aprobación inicial del Proyecto de Reparcelación (art. 152.2)." },
+  { id: "E31-09", tema: "E31", subtema: "Sistema de reparcelación voluntaria", tipo: "NEG",
+    q: "Conforme a lo establecido en el artículo 169 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, no es una de las reglas por las que se rige la reparcelación voluntaria:",
+    o: ["Se presentará un Proyecto de Reparcelación formulado por la totalidad de los propietarios afectados.",
+        "Los propietarios afectados designarán un único representante en sus relaciones con la Administración actuante.",
+        "El procedimiento para la aprobación del Proyecto de Reparcelación será el mismo que el establecido en el artículo 74 para los Estudios de Detalle.",
+        "La aprobación inicial se convertirá en definitiva, sin acuerdo expreso, siempre que no se presenten alegaciones en la fase de información pública."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 169: la reparcelación voluntaria se rige por estas reglas: «a) Se presentará un Proyecto de Reparcelación formulado por la totalidad de los propietarios afectados. Los propietarios afectados designarán un único representante en sus relaciones con la Administración actuante [...]. b) El procedimiento para la aprobación del Proyecto de Reparcelación será el mismo que el establecido en el artículo 74 para los Estudios de Detalle. c) No será preceptiva la aprobación definitiva expresa por el Ayuntamiento cuando éste, en el mismo acto de aprobación inicial, acordase elevar dicha aprobación a definitiva si no se presentasen alegaciones al documento en la fase de información pública». Las opciones a), b) y c) reproducen las reglas a) y b). La d) no es una regla del precepto: la falta de alegaciones solo evita la aprobación definitiva expresa si el Ayuntamiento lo acordó así en el mismo acto de aprobación inicial." },
+  { id: "E31-10", tema: "E31", subtema: "Agente Urbanizador: retribución en metálico", tipo: "DATO",
+    q: "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando se haya determinado la retribución del Agente Urbanizador en terrenos edificables y un propietario exprese su disconformidad con la proporción de terrenos que le corresponda ceder, podrá solicitar el pago en metálico, por conducto notarial dirigido al Agente Urbanizador y al Municipio, dentro del siguiente plazo desde la aprobación del Programa de Actuación Urbanizadora:",
+    o: ["Diez días.", "Quince días.", "Veinte días.", "Treinta días."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 173.2.b): procede la retribución en metálico cuando, «habiéndose determinado la retribución en terrenos edificables, algún propietario exprese su disconformidad con la proporción de terrenos que le corresponda ceder». En ese supuesto, «el propietario podrá solicitar el pago en metálico por conducto notarial dirigido al Agente Urbanizador y al Municipio dentro de los diez días siguientes a la aprobación del Programa de Actuación Urbanizadora», asegurando el pago con garantía financiera o real proporcional a la prestada por el Agente Urbanizador. Quince, veinte y treinta días no son el plazo de este trámite; treinta días es el período de concurrencia pública del art. 174.2." },
+  { id: "E31-11", tema: "E31", subtema: "Agente Urbanizador: tramitación del Programa", tipo: "META",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿desde cuándo se cuenta el plazo de cuarenta días del que dispone el Ayuntamiento para resolver sobre la aprobación y adjudicación de un Programa de Actuación Urbanizadora?",
+    o: ["Desde la publicación del anuncio de concurrencia pública en el Boletín Oficial de Navarra.",
+        "Desde la presentación de la alternativa técnica por quien promueve el Programa.",
+        "Desde la finalización del plazo de presentación de propuestas.",
+        "Ninguna de las respuestas anteriores es correcta."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 174.8: «El plazo para que el Ayuntamiento resuelva sobre la aprobación y adjudicación de un Programa de Actuación Urbanizadora será de cuarenta días desde la finalización del plazo de presentación de propuestas». El anuncio en el Boletín Oficial de Navarra abre el período de concurrencia pública de treinta días (apartado 2) y la alternativa técnica del promotor inicial puede iniciar la tramitación (apartado 1.a), pero ninguno de esos momentos inicia el cómputo de los cuarenta días. Como la c) es correcta, «Ninguna de las respuestas anteriores es correcta» es falsa." },
+  { id: "E31-12", tema: "E31", subtema: "Sistema de cooperación", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA en relación con lo establecido en el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, sobre el sistema de cooperación:",
+    o: ["Los propietarios aportan el suelo de cesión obligatoria y la Administración ejecuta las obras de urbanización con cargo a los mismos.",
+        "La Administración podrá exigir cantidades a cuenta de los gastos de urbanización por las inversiones a realizar en los doce meses siguientes.",
+        "El pago de las cantidades a cuenta deberá efectuarse en el plazo que se señale, nunca inferior a un mes, desde el requerimiento de la Administración.",
+        "El Proyecto de Reparcelación podrá formularse por los propietarios que representen más del 35 por 100 de la superficie reparcelable."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 176.1: «La Administración actuante podrá exigir a los propietarios afectados el pago de cantidades a cuenta de los gastos de urbanización por el importe correspondiente a las inversiones a realizar en los seis meses siguientes», no en los doce meses siguientes; por eso la b) es la INCORRECTA. Las demás recogen el texto: la a), el art. 175.1 («los propietarios aportan el suelo de cesión obligatoria y la Administración ejecuta las obras de urbanización con cargo a los mismos»); la c), el mismo art. 176.1 («Dicho pago deberá efectuarse en el plazo que se señale, nunca inferior a un mes, desde el requerimiento que se formule por la Administración»); y la d), el art. 177, según el cual el Proyecto de Reparcelación se formulará por el Ayuntamiento, de oficio o a instancia de alguno de los propietarios afectados, o «Por los propietarios que representen más del 35 por 100 de la superficie reparcelable»." },
+  { id: "E31-13", tema: "E31", subtema: "Sistema de ejecución forzosa: Comisión gestora", tipo: "META",
+    q: "Conforme a lo establecido en los artículos 178 y 179 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en el sistema de ejecución forzosa:",
+    o: ["El sistema podrá acordarse, en los supuestos legalmente previstos, a instancia de los propietarios de terrenos de la unidad de ejecución que representen, al menos, el 25 por 100 de la superficie total.",
+        "El Presidente de la Comisión gestora, que dispondrá de voto de calidad, será elegido por todos sus miembros entre los representantes de los propietarios.",
+        "Los estatutos de la Comisión gestora se aprobarán de oficio por la Administración actuante al acordar el sistema.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 178.2: el sistema de ejecución forzosa «podrá acordarse a instancia de los propietarios de terrenos enclavados en la unidad de ejecución que representen, al menos, el 25 por 100 de la superficie total», en cualquiera de los supuestos de incumplimiento que enumera; y art. 179.3: «Los estatutos de dicha Comisión gestora se aprobarán de oficio por la Administración actuante al acordar el sistema». Por tanto, a) y c) son correctas. La b) es falsa: según el art. 179.2, el Presidente de la Comisión, «que dispondrá de voto de calidad en las votaciones, será elegido por todos sus miembros entre los representantes de la Administración», no entre los de los propietarios." },
+  { id: "E31-14", tema: "E31", subtema: "Obtención de terrenos dotacionales: ocupación directa", tipo: "DEF",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿en qué consiste la ocupación directa como forma de obtención de los terrenos destinados a sistemas generales en suelo urbano no consolidado o en suelo urbanizable?",
+    o: ["En su obtención, derivada de su inclusión o adscripción en un área de reparto, asignando aprovechamientos subjetivos en unidades de ejecución deficitarias.",
+        "En su obtención, derivada de su inclusión o adscripción en un área de reparto, asignando aprovechamientos subjetivos en unidades de ejecución excedentarias.",
+        "En su obtención, derivada de su inclusión o adscripción en un área de reparto, abonando a sus titulares el justiprecio conforme a la legislación de expropiación forzosa.",
+        "En su obtención, derivada de su inclusión o adscripción en un área de reparto, mediante su cesión obligatoria por los propietarios de la unidad de ejecución."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 187.1.b): los terrenos destinados a sistemas generales en suelo urbano no consolidado o en suelo urbanizable se obtendrán «Mediante ocupación directa, derivada de su inclusión o adscripción en un área de reparto, asignando aprovechamientos subjetivos en unidades de ejecución excedentarias»; y el art. 189.1 exige determinar previamente el aprovechamiento subjetivo del titular y «la unidad de ejecución excedentaria en la que haya de hacerse efectivo tal aprovechamiento». La a) cambia excedentarias por deficitarias. La c) describe la expropiación forzosa, que es una modalidad distinta y subsidiaria: solo procede «Cuando las modalidades anteriores no resultaren posibles» (art. 187.1.c). La d) describe la otra modalidad, la cesión obligatoria «derivada de su inclusión o adscripción en un área de reparto» (art. 187.1.a), que tampoco es ocupación directa; la cesión obligatoria y gratuita derivada de la gestión de las unidades de ejecución es, además, la forma de obtener los sistemas locales (art. 187.2)." },
+  { id: "E31-15", tema: "E31", subtema: "Obtención de terrenos dotacionales: justiprecio tras la ocupación directa", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 189 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los propietarios afectados por una ocupación directa podrán solicitar al Ayuntamiento el inicio del expediente de justiprecio cuando, sin haberse aprobado definitivamente el instrumento de redistribución de la unidad de ejecución destinada a acogerlos, hayan transcurrido desde la ocupación:",
+    o: ["Dos años.", "Tres años.", "Cuatro años.", "Cinco años."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 189.4: «Transcurridos cuatro años desde la ocupación sin que se hubiera producido la aprobación definitiva del instrumento de redistribución de la unidad de ejecución destinada a acoger a los propietarios afectados por la ocupación directa, éstos podrán solicitar al Ayuntamiento el inicio del expediente de justiprecio, que se llevará a cabo por ministerio de la Ley, una vez transcurridos seis meses desde dicha solicitud». Dos, tres y cinco años no son el plazo legal. No hay que confundirlo con el mes que debe pasar desde la notificación para poder ocupar (art. 189.2.b) ni con los seis meses que se cuentan desde la solicitud." },
+  { id: "E31-16", tema: "E31", subtema: "Sistemas de actuación", tipo: "LISTA",
+    q: "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, son sistemas de actuación pública:",
+    o: ["Cooperación, ejecución forzosa y expropiación.",
+        "Cooperación, compensación y expropiación.",
+        "Ejecución forzosa, expropiación y agente urbanizador.",
+        "Cooperación, ejecución forzosa y reparcelación voluntaria."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 157.3: «Los sistemas de actuación pública son los siguientes: a) Cooperación. b) Ejecución forzosa. c) Expropiación». Compensación, reparcelación voluntaria y Agente Urbanizador son los sistemas de actuación privada (art. 157.2): cada distractor cambia uno de los públicos por uno de ellos. La Administración elige en cada caso el sistema (art. 157.1) y, si el Plan no lo establece, se puede entender elegido el de compensación o el de reparcelación voluntaria (art. 158.2)." },
+  { id: "E31-17", tema: "E31", subtema: "Sistemas privados: recepción de las obras de urbanización", tipo: "COMB2",
+    q: "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, finalizadas las obras de urbanización en un sistema de actuación privada, ¿en qué plazo desde la solicitud de recepción pueden los particulares entender recibidas las obras si la Administración no resuelve expresamente, y qué duración mínima tiene el plazo de garantía?",
+    o: ["Un mes; plazo de garantía no inferior a seis meses.",
+        "Un mes; plazo de garantía no inferior a un año.",
+        "Tres meses; plazo de garantía no inferior a seis meses.",
+        "Tres meses; plazo de garantía no inferior a un año."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 160.3: la entrega requiere «un acto formal y positivo de recepción o conformidad» de la Administración «dentro del mes siguiente a la solicitud de entrega de las obras»; pero «En el caso de que la Administración no resuelva expresamente dentro de los tres meses siguientes desde la solicitud de recepción de las obras de urbanización, los particulares podrán entender que las obras quedan recibidas por la Administración». Además, «El plazo de garantía no podrá ser inferior a un año, sin perjuicio de la responsabilidad por vicios ocultos que tendrá una duración de quince años». Un mes es el plazo del acto expreso de recepción, no el del silencio, y seis meses no es la garantía mínima." },
 ];

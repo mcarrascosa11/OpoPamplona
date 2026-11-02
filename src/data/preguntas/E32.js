@@ -1,22 +1,31 @@
 // Banco de preguntas del tema E32. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 32 ESPECÍFICO · TRLFOTU V — LICENCIAS Y DISCIPLINA (E32) ----------
-  {
-    "id": "E32-01",
-    "tema": "E32",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de las siguientes actuaciones está exceptuada de licencia urbanística por estar ya detallada y programada en un proyecto aprobado?",
-    "o": [
-      "La demolición de un edificio que no haya sido declarado en ruina inminente.",
-      "La corta de una masa arbórea no autorizada por la legislación agraria.",
-      "Los movimientos de tierra incluidos en un proyecto de urbanización.",
-      "La extracción de áridos prevista en un proyecto de explotación minera."
-    ],
-    "c": 2,
-    "exp": "El art. 190.2.g exceptúa los movimientos de tierra detallados y programados como obras a ejecutar en un proyecto de urbanización o edificación aprobado. La demolición exige licencia salvo ruina inminente (190.2.i); la excepción para talas se refiere a labores autorizadas por la legislación agraria (190.2.k). La extracción de áridos está sujeta a licencia (190.2.m)."
-  },
+  // ── E32 · DFL 1/2017 (TRLFOTU), Título V (licencias y disciplina) y Título VII (entidades colaboradoras) ──
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección
+  // 2 bis): 3 META (E32-06, E32-08, E32-13), 3 DATO (E32-07, E32-12, E32-18), 2 NEG (E32-10, E32-14),
+  // 1 LISTA (E32-17), 1 LIT (E32-05), 1 AFIRM (E32-04), 1 SEL (E32-15), 1 DEF (E32-16), 1 ALCANCE (E32-01)
+  // y 1 COMB2 (E32-03). Reescritas in situ, con su id y su tipo: E32-01, 03, 04, 05, 06, 07, 08, 10, 12, 13,
+  // 14 y 15. Nuevas: E32-16 (art. 190.1, concepto de licencia), E32-17 (art. 213.1, responsables) y E32-18
+  // (art. 218.1, multas). Retiradas (no se borran: el historial va por id): E32-02 (art. 193), E32-09
+  // (art. 207.7) y E32-11 (art. 224.3); sus datos quedan en el resumen.
+  // Vigencia: consolidado del BOE (BOE-A-2017-12907, última actualización publicada el 31-12-2025; pestaña
+  // «Análisis»). En el alcance solo han cambiado el art. 207.6 (LF 27/2018), el art. 192.1, letras g) y h)
+  // (LF 4/2021) y el Título VII, añadido por la LF 16/2025, de 22 de diciembre, de Presupuestos Generales de
+  // Navarra para 2026 (BON n.º 260, 31-12-2025; en vigor el 1-1-2026). Ninguna pregunta depende de normas
+  // posteriores al 21-05-2026.
+  // Letra correcta: A 4, B 4, C 4, D 3. Metas en la d): correctas en E32-06 («Todas») y E32-08 («a) y c)»);
+  // «Ninguna» es falsa en E32-13.
+  { id: "E32-01", tema: "E32", subtema: "Licencias: actos sujetos", tipo: "ALCANCE",
+    q: "Conforme a lo establecido en el artículo 190.2 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los movimientos de tierra, tales como desmontes, explanaciones, excavaciones y terraplenados, están sujetos a previa licencia urbanística:",
+    o: ["Salvo que estén detallados y programados como obras a ejecutar en un proyecto de reparcelación definitivamente aprobado.",
+        "Salvo que estén detallados y programados como obras a ejecutar en un proyecto de urbanización o de edificación aprobado.",
+        "Salvo que se trate de labores agrícolas o forestales autorizadas por la legislación agraria.",
+        "Salvo que se realicen en terrenos de dominio público y estén sujetos a una concesión administrativa."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 190.2.g): están sujetos a previa licencia «Los movimientos de tierra, tales como desmontes, explanaciones, excavaciones y terraplenados, salvo que tales actos estén detallados y programados como obras a ejecutar en un proyecto de urbanización o de edificación aprobado». La a) cambia el proyecto: el proyecto de reparcelación excluye de licencia las parcelaciones o divisiones de fincas que incluye (art. 190.4.b), no los movimientos de tierra. La c) traslada la excepción de otra letra: la corta de arbolado está sujeta a licencia «con excepción de las labores autorizadas por la legislación agraria» (art. 190.2.k). La d) invierte la regla de la extracción de áridos, que exige licencia «aunque se produzcan en terrenos de dominio público y estén sujetas a concesión administrativa» (art. 190.2.m); además, a los particulares que actúan en dominio público se les exige también licencia, sin perjuicio de la autorización o concesión del titular (art. 190.5)." },
   {
     "id": "E32-02",
     "tema": "E32",
+    "estado": "retirada",
     "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en un municipio de 3.000 habitantes se adquiere el derecho a edificar mediante una actuación asistemática. En defecto de previsión expresa en el planeamiento y sin ampliación justificada, ¿en qué plazo debe solicitarse la licencia de edificación desde que la parcela esté urbanizada conforme al artículo 104?",
     "o": [
       "Un año.",
@@ -27,87 +36,49 @@ export default [
     "c": 3,
     "exp": "El art. 193 duplica, para las actuaciones asistemáticas, los plazos previstos para las sistemáticas en defecto de previsión expresa en el planeamiento. En municipios de menos de 5.000 habitantes el plazo de referencia es de dos años; por tanto, en este caso son cuatro. El cómputo parte de que la parcela esté urbanizada conforme al art. 104, no de la adquisición del terreno."
   },
-  {
-    "id": "E32-03",
-    "tema": "E32",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el plazo máximo de dos meses para resolver una licencia urbanística comienza:",
-    "o": [
-      "Con la presentación de la documentación completa en el registro general.",
-      "Con la presentación de la solicitud inicial, aunque deba subsanarse.",
-      "Con la emisión del informe municipal favorable sobre el proyecto.",
-      "Con la recepción del informe de habitabilidad del departamento competente."
-    ],
-    "c": 0,
-    "exp": "El art. 194.7 sitúa el inicio del plazo en la presentación de la documentación completa en el registro general. La solicitud incompleta y la emisión de informes no son el momento inicial que fija este precepto. El informe de habitabilidad tiene su propio plazo en el art. 194.4.a."
-  },
-  {
-    "id": "E32-04",
-    "tema": "E32",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, además de cumplir los requisitos temporales de solicitud, para obtener la prórroga del plazo de finalización de las obras es necesario haber ejecutado, según el proyecto técnico:",
-    "o": [
-      "La cimentación y la estructura portante.",
-      "La cobertura de aguas del edificio.",
-      "Los cerramientos exteriores y sus carpinterías.",
-      "Las instalaciones generales del edificio."
-    ],
-    "c": 1,
-    "exp": "El art. 197.8 exige que se haya hecho la cobertura de aguas del edificio para solicitar y obtener la prórroga de finalización. El hito legal no es la terminación de la estructura, las carpinterías ni las instalaciones. La prórroga para comenzar las obras comporta por sí misma la del plazo para acabarlas."
-  },
-  {
-    "id": "E32-05",
-    "tema": "E32",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, incumplida una orden de ejecución y transcurrido el plazo de cumplimiento voluntario de la última multa coercitiva impuesta, el Ayuntamiento estará obligado a:",
-    "o": [
-      "Reiterar la orden, abriendo una nueva serie de multas coercitivas.",
-      "Iniciar la expropiación del inmueble por incumplimiento de su función social.",
-      "Sustituir la orden de ejecución por una sanción de importe equivalente.",
-      "Ejecutar subsidiariamente las obras ordenadas con cargo al obligado."
-    ],
-    "c": 3,
-    "exp": "El art. 198.3 obliga a la ejecución subsidiaria con cargo al obligado una vez transcurrido el plazo de cumplimiento voluntario de la última multa coercitiva. La alternativa inicial entre multas y ejecución subsidiaria no permite prolongar indefinidamente la coerción ni sustituir las obras por una sanción. Este supuesto tampoco impone la expropiación."
-  },
-  {
-    "id": "E32-06",
-    "tema": "E32",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, constituye por sí solo uno de los supuestos de declaración de ruina de un edificio:",
-    "o": [
-      "Que las obras necesarias cuesten exactamente el 50 % de su valor actual, excluido el terreno.",
-      "Que precise obras de conservación estando declarado fuera de ordenación.",
-      "Que presente un agotamiento generalizado de sus elementos estructurales o fundamentales.",
-      "Que incumpla las condiciones de habitabilidad exigidas a los edificios de nueva planta."
-    ],
-    "c": 2,
-    "exp": "El art. 199.2.b contempla el agotamiento generalizado de los elementos estructurales o fundamentales. El supuesto económico exige superar el 50 %, no igualarlo. En un edificio fuera de ordenación deben requerirse obras que no puedan autorizarse; la mera necesidad de conservación no basta. El incumplimiento de condiciones propias de nueva planta no es, por sí solo, una causa de ruina del art. 199.2."
-  },
-  {
-    "id": "E32-07",
-    "tema": "E32",
-    "q": "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se paralizan unas obras en curso sin licencia que podrían ser compatibles con la ordenación vigente. Si el requerimiento no fija otro plazo, el interesado deberá solicitar la licencia para legalizarlas en:",
-    "o": [
-      "Un mes.",
-      "Dos meses.",
-      "Tres meses.",
-      "Seis meses."
-    ],
-    "c": 1,
-    "exp": "El art. 202.b establece el plazo señalado en el requerimiento y, en su defecto, dos meses para solicitar la licencia o su modificación. La suspensión inmediata de las obras prevista en el mismo artículo no equivale a una orden automática de demolición: esta dependerá de la incompatibilidad o de que no se obtenga la legalización."
-  },
-  {
-    "id": "E32-08",
-    "tema": "E32",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál es el plazo para ejercer las facultades de restauración de la legalidad urbanística sobre terrenos de titularidad privada clasificados como suelo no urbanizable de protección?",
-    "o": [
-      "Diez años.",
-      "Cuatro años.",
-      "Ocho años.",
-      "Quince años."
-    ],
-    "c": 0,
-    "exp": "El art. 205.2 fija diez años para los terrenos de titularidad privada clasificados como suelo no urbanizable de protección. Debe distinguirse del plazo general de cuatro años para obras terminadas del art. 203 y de la ausencia de plazo del art. 205.1 para los bienes y espacios allí enumerados de titularidad pública. Los ocho años del art. 225 corresponden a la prescripción de infracciones graves."
-  },
+  { id: "E32-03", tema: "E32", subtema: "Licencias: plazo de resolución y silencio", tipo: "COMB2",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿en qué plazo máximo deben resolverse las licencias desde que se presenta la documentación completa en el registro general y qué sucede si transcurre sin haberse comunicado acto alguno, salvo que la normativa básica estatal disponga lo contrario?",
+    o: ["Dos meses; se entenderá otorgada la licencia por silencio administrativo.",
+        "Dos meses; se entenderá denegada la licencia por silencio administrativo.",
+        "Tres meses; se entenderá otorgada la licencia por silencio administrativo.",
+        "Tres meses; se entenderá denegada la licencia por silencio administrativo."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 194.7: «Las licencias se resolverán en el plazo máximo de dos meses desde que se presente la documentación completa en el registro general. Transcurrido dicho plazo sin haberse comunicado acto alguno, se entenderá otorgada la licencia por silencio administrativo, salvo cuando se dispusiera lo contrario en la normativa básica estatal». La b) y la d) invierten el sentido del silencio, y la c) y la d) cambian el plazo: tres meses con silencio desestimatorio es el régimen de las autorizaciones provisionales pedidas por el interesado (art. 207.6), no el de las licencias. Aun siendo positivo, el silencio nunca permite adquirir facultades o derechos contrarios a la legislación o a la ordenación territorial o urbanística, y son nulas de pleno derecho las licencias así obtenidas (arts. 194.7, párrafo segundo, y 196.4 y 5)." },
+  { id: "E32-04", tema: "E32", subtema: "Licencias: prórroga de los plazos", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA sobre la prórroga de los plazos de las licencias, de acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo:",
+    o: ["La prórroga puede solicitarse en cualquier momento anterior a la conclusión del plazo, aunque no haya transcurrido su mitad.",
+        "La obtención de la prórroga del plazo para comenzar las obras comporta por sí misma la prórroga del plazo para acabarlas.",
+        "La prórroga del plazo para acabar las obras exige que se haya concluido la estructura del edificio, según el proyecto técnico.",
+        "Concedida la prórroga, será válida la ordenación urbanística vigente en el momento en que se solicitó la prórroga."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 197.8: «La obtención de la prórroga del plazo para comenzar las obras comportará por sí misma la prórroga del plazo para acabarlas, debiendo señalarse expresamente la indicación de este último». La a) es falsa: la prórroga se pide «antes de dos meses de la conclusión de los plazos previstos» y «no podrá ser válidamente solicitada si no ha transcurrido al menos la mitad del plazo». La c) cambia el hito: «La prórroga para acabar las obras solo podrá ser solicitada y obtenida si se ha hecho la cobertura de aguas del edificio, según el proyecto técnico». La d) es falsa porque es válida «la ordenación vigente en el momento en que la licencia fue concedida»." },
+  { id: "E32-05", tema: "E32", subtema: "Órdenes de ejecución: multas coercitivas", tipo: "LIT",
+    q: "Conforme a lo establecido en el artículo 198.3 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el incumplimiento de una orden de ejecución faculta al Ayuntamiento para proceder a su ejecución subsidiaria, o para imponer multas coercitivas:",
+    o: ["Hasta doce sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, hasta el límite del deber legal de conservación.",
+        "Hasta diez sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, hasta el límite del deber legal de conservación.",
+        "Hasta doce sucesivas por períodos de quince días y en cuantía de 600 a 6.000 euros, hasta el límite del deber legal de conservación.",
+        "Hasta doce sucesivas por períodos de un mes y en cuantía de 300 a 6.000 euros, hasta el límite del deber legal de conservación."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 198.3: el incumplimiento de una orden de ejecución faculta al Ayuntamiento para proceder a su ejecución subsidiaria, «o para imponer multas coercitivas, hasta doce sucesivas por períodos de un mes y en cuantía de 600 a 6.000 euros, hasta el límite del deber legal de conservación». La b) cambia el número de multas (diez), la c) su periodicidad (quince días) y la d) la cuantía mínima: 300 euros es el mínimo de la multa por infracción leve (art. 218.1.a). Además, «En todo caso, transcurrido el plazo de cumplimiento voluntario derivado de la última multa coercitiva impuesta, la Administración actuante estará obligada a ejecutar subsidiariamente las obras ordenadas, con cargo al obligado». Las mismas multas coercitivas se prevén para la reposición de la realidad física alterada (art. 207.3)." },
+  { id: "E32-06", tema: "E32", subtema: "Declaración de ruina", tipo: "META",
+    q: "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿en cuál de los siguientes supuestos se declarará el estado ruinoso de una construcción?",
+    o: ["Cuando el coste de las obras necesarias sea superior al 50 por 100 del valor actual del edificio o plantas afectadas, excluido el valor del terreno.",
+        "Cuando el edificio presente un agotamiento generalizado de sus elementos estructurales o fundamentales.",
+        "Cuando se requiera la realización de obras que no pudieran ser autorizadas por encontrarse el edificio en situación de fuera de ordenación.",
+        "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 199.2: «Se declarará el estado ruinoso en los siguientes supuestos: a) Cuando el coste de las obras necesarias sea superior al 50 por 100 del valor actual del edificio o plantas afectadas, excluido el valor del terreno. b) Cuando el edificio presente un agotamiento generalizado de sus elementos estructurales o fundamentales. c) Cuando se requiera la realización de obras que no pudieran ser autorizadas por encontrarse el edificio en situación de fuera de ordenación». Las tres opciones reproducen los tres supuestos, así que la correcta es la d). Matices que suelen preguntarse: el coste ha de ser superior (no igual) al 50 por 100 y se excluye el valor del terreno; declara la ruina el Ayuntamiento, de oficio o a instancia de cualquier interesado, previa audiencia del propietario y de los moradores (art. 199.1), y si hay urgencia y peligro en la demora dispone lo necesario el Alcalde, bajo su responsabilidad (art. 199.4)." },
+  { id: "E32-07", tema: "E32", subtema: "Protección de la legalidad: obras en curso", tipo: "DATO",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando se estén ejecutando sin licencia unas obras compatibles con la ordenación vigente, la Entidad Local dispondrá su suspensión inmediata y requerirá al interesado para que solicite la preceptiva licencia. Si el requerimiento no señala plazo, ¿de cuánto dispone el interesado para solicitarla?",
+    o: ["Un mes.", "Dos meses.", "Tres meses.", "Seis meses."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 202.b): «Si las obras o usos fueran compatibles con la ordenación vigente, se requerirá al interesado para que en el plazo señalado en el requerimiento, o en su defecto, de dos meses, solicite la preceptiva licencia o su modificación». Si no procede la legalización, se decreta la demolición, reconstrucción o cesación definitiva a costa del interesado. Los demás plazos son de otros supuestos del tema: un mes es el plazo para pagar el resto de la multa reducida (art. 221); tres meses, el que tiene la entidad local antes de que el Departamento actúe subsidiariamente en suelo no urbanizable (art. 204), y seis meses, la ampliación máxima del plazo para ejecutar la restauración (art. 207.5) o el plazo para pedir nueva licencia tras la caducidad (art. 197.10)." },
+  { id: "E32-08", tema: "E32", subtema: "Restauración del orden: acción sin plazo", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 205 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la acción de la Administración para restaurar el orden urbanístico infringido no estará sujeta a plazo alguno de prescripción cuando se trate de actuaciones ilegales:",
+    o: ["Sobre bienes de dominio público o en sus servidumbres de protección.",
+        "Sobre bienes de titularidad privada en suelo no urbanizable de protección.",
+        "Sobre viales, zonas verdes o espacios libres de titularidad pública.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 205.1: «La acción de la Administración para restaurar el orden infringido cuando se trate de actuaciones ilegales sobre bienes de dominio público o en sus servidumbres de protección, viales, zonas verdes, espacios libres o bienes de interés cultural, todos ellos de titularidad pública, no estará sujeta a plazo alguno de prescripción». La b) es falsa: cuando se trate de actuaciones sobre bienes de titularidad privada en suelo no urbanizable de protección «la acción prescribirá a los diez años» (art. 205.2). Fuera de estos casos, la Entidad Local actúa contra las obras ya terminadas dentro de los cuatro años siguientes a su total terminación o a la aparición de signos físicos exteriores (art. 203)." },
   {
     "id": "E32-09",
     "tema": "E32",
+    "estado": "retirada",
     "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una edificación declarada ilegal, con orden administrativa de demolición, obtiene la autorización provisional del artículo 207 durante la tramitación de un nuevo planeamiento. Mientras esa autorización despliegue efectos, se le aplica el régimen de:",
     "o": [
       "Los edificios conformes con el planeamiento vigente.",
@@ -118,22 +89,17 @@ export default [
     "c": 2,
     "exp": "El art. 207.7 somete estas edificaciones al régimen de fuera de ordenación mientras despliega efectos la autorización provisional. Esta mantiene la situación existente en las condiciones del art. 207.6; no convierte la construcción en conforme con el planeamiento vigente ni sustituye la legalización por una declaración responsable."
   },
-  {
-    "id": "E32-10",
-    "tema": "E32",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de las siguientes conductas está tipificada como infracción urbanística grave?",
-    "o": [
-      "La tala de árboles sin licencia cuando esta sea preceptiva.",
-      "La obstaculización de la labor inspectora urbanística.",
-      "La ejecución de obras de urbanización sin el proyecto exigible.",
-      "La edificación en parcelas inferiores a la mínima edificable."
-    ],
-    "c": 3,
-    "exp": "El art. 215.9 tipifica como grave la edificación en parcelas inferiores a la mínima establecida. La tala sin licencia, la obstaculización de la inspección y las obras de urbanización sin proyecto se incluyen entre las infracciones leves del art. 214. La clasificación depende del tipo legal, no de la impresión de gravedad que produzca la conducta."
-  },
+  { id: "E32-10", tema: "E32", subtema: "Infracciones leves y graves", tipo: "NEG",
+    q: "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, no es una infracción urbanística leve:",
+    o: ["La realización de parcelaciones urbanísticas que, no contraviniendo el planeamiento, se lleven a cabo sin licencia.",
+        "La realización de obras sin el correspondiente Proyecto de Urbanización, cuando la aprobación de este fuere preceptiva.",
+        "La edificación en parcelas cuya superficie sea inferior a la establecida como mínima edificable.",
+        "Las acciones y omisiones que perturben, retrasen o impidan el ejercicio de las funciones de vigilancia urbanística."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 215.9: es infracción grave «La edificación en parcelas cuya superficie sea inferior a la establecida como mínima edificable». Las demás son leves según el art. 214: «La realización de parcelaciones urbanísticas que, no contraviniendo el planeamiento, se lleven a cabo sin licencia o sin los correspondientes proyectos de reparcelación definitivamente aprobados» (214.1), «La realización de obras sin el correspondiente Proyecto de Urbanización, cuando la aprobación de éste fuere preceptiva» (214.4) y las acciones y omisiones que perturben, retrasen o impidan las funciones de vigilancia del cumplimiento de la legalidad urbanística encomendadas a los funcionarios (214.13). Las leves se sancionan con multa de 300 a 6.000 euros y las graves, de 6.000 a 60.000 euros (art. 218.1)." },
   {
     "id": "E32-11",
     "tema": "E32",
+    "estado": "retirada",
     "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, caduca un procedimiento sancionador urbanístico y se archivan las actuaciones. Si la infracción todavía no ha prescrito, al incoar un nuevo procedimiento deberá:",
     "o": [
       "Nombrarse un instructor distinto.",
@@ -144,56 +110,47 @@ export default [
     "c": 0,
     "exp": "El art. 224.3 permite incoar un nuevo procedimiento si la infracción no ha prescrito, pero exige nombrar un instructor distinto. No ordena cambiar el órgano resolutor ni obtener autorización judicial. La caducidad del procedimiento y la prescripción de la infracción son instituciones diferentes."
   },
-  {
-    "id": "E32-12",
-    "tema": "E32",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, para obtener la reducción de la sanción por una actuación no legalizable, el compromiso de restaurar el orden infringido debe garantizarse mediante aval. ¿Qué porcentaje del importe de las obras o actuaciones necesarias debe cubrir?",
-    "o": [
-      "El 30 %.",
-      "El 50 %.",
-      "El 75 %.",
-      "El 100 %."
-    ],
-    "c": 3,
-    "exp": "El art. 221.2.c exige aval por el 100 % del importe de las obras o actuaciones necesarias. El 50 % es la reducción de la sanción en este supuesto, no la cobertura del aval. Para actuaciones legalizables, el art. 221.1 prevé una reducción del 30 % y una fianza del 50 %, de ahí la necesidad de distinguir ambos regímenes."
-  },
-  {
-    "id": "E32-13",
-    "tema": "E32",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando un acto administrativo haya autorizado una actividad constitutiva de infracción urbanística, el plazo de prescripción comienza a contar:",
-    "o": [
-      "Desde la terminación material de las obras autorizadas.",
-      "Desde la anulación del acto administrativo que la autorizó.",
-      "Desde la primera inspección que constate la infracción.",
-      "Desde la notificación de la incoación del expediente sancionador."
-    ],
-    "c": 1,
-    "exp": "El art. 225.6 establece como inicio la anulación de los actos administrativos que autorizaron las actividades infractoras. Esta regla especial desplaza en ese supuesto el cómputo desde la terminación de las obras del art. 225.4. La inspección y la incoación del expediente no son el momento inicial señalado por el apartado 6."
-  },
-  {
-    "id": "E32-14",
-    "tema": "E32",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, si el informe de los servicios técnicos municipales discrepa del emitido por una entidad privada colaboradora urbanística:",
-    "o": [
-      "Prevalece el informe de la entidad colaboradora por su acreditación técnica.",
-      "Debe resolver la discrepancia la entidad que concedió la acreditación.",
-      "Prevalece el informe de los servicios técnicos municipales.",
-      "Debe emitirse un tercer informe por otra entidad colaboradora."
-    ],
-    "c": 2,
-    "exp": "El art. 249.6 establece que los informes de los servicios técnicos municipales prevalecen sobre los de las entidades privadas colaboradoras. El carácter equiparable de los efectos de sus certificados no les atribuye autoridad ni permite desplazar el criterio municipal. La ley no remite la discrepancia al acreditador ni exige un tercer informe."
-  },
-  {
-    "id": "E32-15",
-    "tema": "E32",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de estas infracciones de una entidad privada colaboradora urbanística está tipificada como grave, sin que concurran perjuicios irreparables ni peligro inminente para personas, bienes o medio ambiente?",
-    "o": [
-      "Expedir negligentemente certificados con datos falsos o inexactos.",
-      "Ejercer sus funciones mediante personal técnico no habilitado o no cualificado.",
-      "Obstaculizar las actuaciones de supervisión del órgano administrativo competente.",
-      "Omitir la comunicación al Ayuntamiento de infracciones urbanísticas detectadas."
-    ],
-    "c": 0,
-    "exp": "El art. 254.3.a califica como grave la expedición negligente de certificados con datos falsos o inexactos. Las otras conductas están tipificadas como muy graves en el art. 254.2. También es muy grave la expedición dolosa de documentos que no se ajusten a la realidad. La salvedad del enunciado excluye la agravación del art. 254.2.g."
-  },
+  { id: "E32-12", tema: "E32", subtema: "Reducción de sanciones", tipo: "DATO",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, para que se reduzca la sanción por actividades, construcciones o usos no legalizables, el infractor debe comprometerse a restaurar el orden infringido y garantizar ese compromiso mediante aval. ¿Qué porcentaje del importe de las obras o actuaciones necesarias debe cubrir el aval?",
+    o: ["El 30 %.", "El 50 %.", "El 75 %.", "El 100 %."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 221.2.c): el infractor debe comprometerse «a restaurar el orden infringido a su situación inicial en los plazos que le señale la Administración y garantice este compromiso mediante aval por el 100 por 100 del importe de las obras o actuaciones necesarias». Con ello, con el pago del resto de la multa en el plazo máximo de un mes y con la conformidad por escrito y la renuncia a impugnar, la sanción se reduce en un 50 por 100 (art. 221.2). El 30 % es la reducción para las actuaciones legalizables, y el 50 % es tanto la reducción para las no legalizables como la fianza que se exige en las legalizables (art. 221.1.c). El 75 % no aparece en el precepto." },
+  { id: "E32-13", tema: "E32", subtema: "Prescripción de infracciones y sanciones", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 225 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, las sanciones impuestas por infracciones urbanísticas prescribirán:",
+    o: ["Las impuestas por infracciones muy graves a los diez años, por infracciones graves a los ocho y por leves a los cuatro años.",
+        "Las impuestas por infracciones muy graves a los cuatro años, por infracciones graves a los dos y por leves a los seis meses.",
+        "Las impuestas por infracciones muy graves a los tres años, por infracciones graves a los dos y por leves a los seis meses.",
+        "Ninguna de las respuestas anteriores es correcta."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 225.5: «Las sanciones impuestas por infracciones muy graves prescribirán a los cuatro años, las impuestas por infracciones graves a los dos y por infracciones leves a los seis meses». La a) da los plazos de prescripción de las infracciones, no de las sanciones: las «muy graves prescribirán a los diez años, las graves a los ocho y las leves a los cuatro años» (art. 225.1). La c) da los del régimen de las entidades privadas colaboradoras urbanísticas: tres años, dos años y seis meses (art. 256.5). Como la b) es correcta, la d) es falsa. Si un acto administrativo autorizó la actividad infractora, la prescripción corre desde que se anula (art. 225.6)." },
+  { id: "E32-14", tema: "E32", subtema: "Entidades colaboradoras: régimen jurídico", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA en relación con lo establecido en el artículo 249 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, sobre las entidades privadas colaboradoras urbanísticas:",
+    o: ["Actuarán a instancia del interesado o del ayuntamiento, no siendo su intervención preceptiva.",
+        "En todo caso, los informes de los servicios municipales prevalecerán sobre la documentación que ellas emitan.",
+        "Los interesados que utilicen voluntariamente sus servicios tendrán preferencia en la tramitación municipal.",
+        "Los certificados de conformidad surtirán efectos equiparables a los emitidos por los servicios técnicos municipales."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 249.4: «Los interesados podrán voluntariamente hacer uso de los servicios prestados por las entidades privadas colaboradoras, sin que de ello pueda derivarse tratamiento diferenciado alguno por parte del ayuntamiento»; la c) le atribuye un trato preferente que la ley excluye. Las demás son ciertas: las entidades «actuarán a instancia del interesado o del ayuntamiento, no siendo su intervención preceptiva» (249.2); «En todo caso, los informes emitidos por los servicios municipales prevalecerán sobre la documentación emitida por las entidades colaboradoras en el ejercicio de sus funciones» (249.6), y «Los certificados de conformidad surtirán efectos equiparables a los emitidos por los servicios técnicos municipales» (249.7). Además, en ningún caso tienen carácter de autoridad (249.3) y responden de los daños y perjuicios que causen (249.1). El Título VII lo añadió la Ley Foral 16/2025, de 22 de diciembre, en vigor desde el 1-1-2026." },
+  { id: "E32-15", tema: "E32", subtema: "Entidades colaboradoras: infracciones", tipo: "SEL",
+    q: "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de las siguientes conductas de una entidad privada colaboradora urbanística está tipificada como infracción grave, siempre que no produzca perjuicios irreparables ni comporte un peligro inminente para las personas, los bienes o el medio ambiente?",
+    o: ["La expedición dolosa de actas de comprobación, certificados e informes que no se ajusten a la realidad de los hechos.",
+        "La realización de su actividad y funciones mediante personal técnico no habilitado o no cualificado.",
+        "La vulneración de los principios de confidencialidad, imparcialidad e independencia en el ejercicio de sus funciones.",
+        "La falta de comunicación al ayuntamiento de las infracciones urbanísticas detectadas durante sus labores."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 254.3.d): es infracción grave «Vulnerar los principios de confidencialidad, imparcialidad e independencia en el ejercicio de sus funciones o el régimen de incompatibilidades que les resulte aplicable». También son graves la expedición negligente de actas, certificados e informes con datos falsos o inexactos, el ejercicio incompleto o con resultados erróneos de sus funciones y la falta de actualización de la póliza de seguro (art. 254.3.a, b y c). Las demás opciones son muy graves según el art. 254.2: «La expedición dolosa de actas de comprobación, certificados e informes que no se ajusten a la realidad de los hechos» (letra e), «Realizar su actividad y funciones mediante personal técnico no habilitado o no cualificado» (letra d) y «No comunicar al ayuntamiento las infracciones urbanísticas que pudieran detectar durante el desarrollo de sus labores de comprobación, verificación, inspección y control» (letra f). La salvedad del enunciado excluye el art. 254.2.g), que convierte en muy graves las graves que produzcan perjuicios irreparables o comporten un peligro inminente. Las graves se sancionan con multa de 30.001 a 100.000 euros (art. 255.1.b)." },
+  { id: "E32-16", tema: "E32", subtema: "Licencias: concepto", tipo: "DEF",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la licencia urbanística es el acto administrativo:",
+    o: ["De control previo, de carácter reglado y declarativo, por el que la entidad local autoriza las actuaciones urbanísticas proyectadas.",
+        "De control previo, de carácter discrecional y constitutivo, por el que la entidad local autoriza las actuaciones urbanísticas proyectadas.",
+        "De control posterior, de carácter reglado y declarativo, por el que la entidad local comprueba las actuaciones urbanísticas ejecutadas.",
+        "De control previo, de carácter reglado y constitutivo, por el que la entidad local autoriza las actuaciones urbanísticas proyectadas."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 190.1: «La licencia urbanística es el acto administrativo de control previo, de carácter reglado y declarativo, mediante el cual la entidad local correspondiente autoriza las actuaciones urbanísticas proyectadas de uso, aprovechamiento, transformación, segregación y edificación del suelo, subsuelo y vuelo, previa comprobación de su conformidad al ordenamiento urbanístico vigente». La b) le atribuye carácter discrecional y constitutivo, y la d), constitutivo; la ley insiste en su «carácter reglado» (arts. 194.5 y 196.3). La c) describe un control posterior, que es el propio de las actuaciones sujetas a declaración responsable o comunicación, que lo están «a los efectos de su constancia, realización y control posterior» (art. 192.1)." },
+  { id: "E32-17", tema: "E32", subtema: "Personas responsables", tipo: "LISTA",
+    q: "Conforme a lo establecido en el artículo 213.1 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en las obras que se ejecuten sin licencia urbanística ni orden de ejecución, o con inobservancia de sus condiciones, serán responsables, sin perjuicio de que estos reclamen a terceras personas:",
+    o: ["El promotor, el empresario de las obras y el técnico redactor del proyecto.",
+        "El promotor, el técnico redactor del proyecto y el técnico director de las obras.",
+        "El promotor, el empresario de las obras y el técnico director de las mismas.",
+        "El empresario de las obras, el técnico redactor del proyecto y el técnico director."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 213.1: «En las obras y demás usos del suelo que se ejecuten sin licencia urbanística ni orden de ejecución, o con inobservancia de sus condiciones, serán responsables el promotor, el empresario de las obras y el técnico director de las mismas, sin perjuicio de que éstos reclamen a terceras personas». El técnico redactor del proyecto, que aparece en la a), la b) y la d), no figura en la lista; además, la b) omite al empresario y la d), al promotor. Además, se considera promotor al propietario del suelo que tuvo conocimiento de las obras infractoras; en las parcelaciones ilegales responden también los propietarios iniciales de los terrenos y los intermediarios (art. 213.3), y si la licencia es manifiestamente constitutiva de infracción grave o muy grave, responde quien la otorgó (art. 213.2). Los perjudicados pueden exigir el resarcimiento a cualquiera de los responsables, con carácter solidario (art. 213.5)." },
+  { id: "E32-18", tema: "E32", subtema: "Sanciones: cuantía de las multas", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 218.1 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿hasta qué cuantía llega la multa con la que se sancionan las infracciones urbanísticas muy graves, cuyo mínimo es de 60.000 euros?",
+    o: ["300.000 euros.", "500.000 euros.", "600.000 euros.", "1.000.000 de euros."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 218.1: «a) Las leves, con multa desde 300 hasta 6.000 euros. b) Las graves, con multa desde 6.000 hasta 60.000 euros. c) Las muy graves, con multa desde 60.000 hasta 300.000 euros». 500.000 euros es el máximo de la multa por infracción muy grave de las entidades privadas colaboradoras urbanísticas (art. 255.1.c), y 1.000.000 de euros, la cuantía mínima del seguro de responsabilidad civil que estas deben tener (art. 251.b); 600.000 euros no es ninguno de los límites del art. 218.1. Si el beneficio de la infracción supera la sanción, esta se incrementa en la cuantía equivalente al beneficio obtenido (art. 218.2)." },
 ];

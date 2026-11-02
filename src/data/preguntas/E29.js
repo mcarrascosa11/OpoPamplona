@@ -1,199 +1,124 @@
 // Banco de preguntas del tema E29. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-    // ---------- TEMA 29 ESPECÍFICO · DFL 1/2017 LFOTU (I) (E29) · 15 preguntas originales revisadas con guía IA ----------
-  {
-    "id": "E29-01",
-    "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿en qué momento debe desarrollarse el proceso consultivo de participación ciudadana exigido para elaborar un Plan Parcial?",
-    "o": [
-      "Tras la aprobación inicial.",
-      "Tras la información pública.",
-      "Tras la aprobación definitiva.",
-      "Antes de la aprobación inicial."
-    ],
-    "c": 3,
-    "exp": "El art. 7.3 exige un proceso consultivo previo a la aprobación inicial de los Planes Parciales, entre otros instrumentos. No se sustituye por la información pública posterior ni se aplaza a la ejecución. Debe distinguirse de la regla general del art. 7.2, que exige exposición pública antes de la aprobación definitiva."
-  },
-  {
-    "id": "E29-02",
-    "tema": "E29",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, si la ordenanza reguladora de la cédula urbanística no establece un plazo menor, ¿en qué plazo máximo debe resolverse una solicitud de información territorial y urbanística?",
-    "o": [
-      "Un mes.",
-      "Dos meses.",
-      "Tres meses.",
-      "Seis meses."
-    ],
-    "c": 1,
-    "exp": "El art. 8.3 establece dos meses, salvo que la ordenanza reguladora de la cédula urbanística fije un plazo menor. No remite al plazo de otro procedimiento de acceso ni permite que la ordenanza amplíe ese máximo. Las resoluciones denegatorias deben ser motivadas y agotan la vía administrativa, conforme a los apartados 4 y 5."
-  },
-  {
-    "id": "E29-03",
-    "tema": "E29",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los acuerdos de la Comisión de Ordenación del Territorio relativos al planeamiento municipal son recurribles administrativamente ante:",
-    "o": [
-      "El Consejo Social de Política Territorial.",
+  // ── E29 · DFL 1/2017, texto refundido de la LFOTU (I): Título Preliminar, Título I y Título II ─────────────────
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección 2 bis):
+  // 3 META (E29-04, E29-06, E29-09), 3 DATO (E29-01, E29-02, E29-10), 2 NEG (E29-11, E29-16), 1 LISTA (E29-15),
+  // 1 LIT (E29-13), 1 AFIRM (E29-14), 1 SEL (E29-08), 1 DEF (E29-05), 1 ALCANCE (E29-07) y 1 COMB2 (E29-12).
+  // Reescritas in situ, con su id y su tipo: E29-01, E29-02 y E29-04 a E29-15 (las de cálculo o supuesto, 09, 11, 12 y
+  // 13, pasan a preguntar el dato sin operar, como en los exámenes reales). Nueva: E29-16 (art. 58.5). Retirada (no se borra: el
+  // historial va por id): E29-03 (recurso contra los acuerdos de la Comisión de Ordenación del Territorio, art. 14.5).
+  // Preguntas reales: E29-07 y E29-13 son las P4 y P9 del examen de Arquitectos del Gobierno de Navarra de 7-3-2026,
+  // copiadas literalmente con su clave (A); E29-14 es la P15 de ese examen (clave C), con la errata «Parcialees»
+  // corregida; E29-08 es la P37 del examen de Zizur Mayor de 31-01-2026, copiada literalmente (clave A).
+  // Vigencia a 21-05-2026, contrastada con el BOE (BOE-A-2017-12907, texto consolidado y pestaña «Análisis») y con
+  // LexNavarra (detalle.asp?r=39197): dentro del alcance del tema solo se han modificado el art. 54 (LF 20/2022, de 1 de
+  // julio, con efectos desde el 29-07-2022) y el art. 55 (LF 5/2020 en el apartado 6 y LF 9/2025, de 30 de junio, en
+  // vigor desde el 12-07-2025). El texto del tema ya recoge esas redacciones. La LF 15/2025 solo modifica la LF 10/2010
+  // y la LF 16/2025 añade el Título VII (tema E32): no afectan a este tema.
+  // Letra correcta: A 3, B 4, C 4, D 4. Metas en la d): correctas en E29-04 («Todas») y E29-09 («a) y c)»);
+  // «Ninguna» es falsa en E29-06. Enunciados: todos citan la norma completa; 7 citan además el artículo (01, 05, 08,
+  // 09, 10, 11 y 16); 9 acaban en «:» y 6 son preguntas directas.
+  { id: "E29-01", tema: "E29", subtema: "Participación ciudadana (art. 7)", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 7.2 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cualquiera de los instrumentos de ordenación territorial o urbanísticos será sometido, previamente a su aprobación definitiva, a un período de participación ciudadana, mediante la exposición pública y, en su caso, audiencia a las entidades locales, no menor de:",
+    o: ["Cinco días.", "Diez días.", "Quince días.", "Veinte días."],
+    c: 3, exp: "DFL 1/2017, art. 7.2: «En todo caso, cualquiera de los instrumentos de ordenación territorial o urbanísticos contemplados en esta ley foral será sometido a un período no menor de veinte días de participación ciudadana, mediante la exposición pública y, en su caso, audiencia a las entidades locales, previamente a su aprobación definitiva». Cinco, diez y quince días no son el mínimo legal; diez días es, por ejemplo, el plazo en que la Administración foral notifica sus acuerdos a las demás Administraciones afectadas (art. 19.2.a) y el plazo máximo para que el ayuntamiento remita al Departamento el Plan Parcial o Especial aprobado definitivamente (art. 72.4). Este mínimo general se refuerza en los instrumentos de ordenación territorial del art. 28.1, los Planes Generales Municipales, los Planes Parciales, los Planes Especiales, los Planes Especiales de Actuación Urbana y las modificaciones de planeamiento que planteen actuaciones de nueva urbanización, que cuentan además con «un proceso de participación ciudadana de carácter consultivo previo a la aprobación inicial del instrumento» (art. 7.3). Veinte días es también el período mínimo de información pública de los convenios sobre planeamiento (art. 24.2) y el de los Estudios de Detalle (art. 74.b)." },
+  { id: "E29-02", tema: "E29", subtema: "Información territorial y urbanística (art. 8)", tipo: "DATO",
+    q: "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, si la Ordenanza reguladora de la cédula urbanística no establece un plazo menor, ¿en qué plazo máximo deben resolverse las solicitudes de información territorial y urbanística?",
+    o: ["Un mes.", "Dos meses.", "Tres meses.", "Seis meses."],
+    c: 1, exp: "DFL 1/2017, art. 8.3: «Las solicitudes de información territorial y urbanística deberán ser resueltas en el plazo máximo de dos meses, salvo que la Ordenanza reguladora de la cédula urbanística establezca uno menor». Un mes, tres meses y seis meses no son el plazo de la ley foral, y la ordenanza solo puede acortarlo. Las resoluciones que denieguen total o parcialmente la información serán motivadas (art. 8.4) y «agotan la vía administrativa» (art. 8.5). Solo cabe denegarla en los tres casos del art. 8.2: expedientes en los que la legislación básica no reconoce el derecho de acceso; datos amparados por el secreto de la propiedad intelectual o que afecten a la confidencialidad de datos y expedientes personales; y documentos o datos inconclusos, solicitudes manifiestamente abusivas o formuladas de forma tan general que sea imposible determinar su objeto. Para acceder no hay que acreditar un interés determinado (art. 8.1)." },
+  { id: "E29-03", tema: "E29", subtema: "Comisión de Ordenación del Territorio (art. 14.5)", estado: "retirada", sustituidaPor: "E29-16",
+    q: "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los acuerdos de la Comisión de Ordenación del Territorio relativos al planeamiento municipal son recurribles administrativamente ante:",
+    o: ["El Consejo Social de Política Territorial.",
       "El Pleno del Ayuntamiento afectado.",
       "El Gobierno de Navarra.",
-      "El titular del departamento competente en urbanismo."
-    ],
-    "c": 2,
-    "exp": "El art. 14.5 establece el recurso administrativo ante el Gobierno de Navarra. No lo atribuye al departamento que preside la Comisión, al Consejo Social ni al Ayuntamiento cuyo planeamiento resulte afectado. Debe distinguirse la presidencia y composición de la Comisión de la competencia para conocer del recurso."
-  },
-  {
-    "id": "E29-04",
-    "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Ayuntamiento ha tramitado el cambio de planeamiento comprometido en un convenio, pero finalmente se deniega su aprobación definitiva. ¿Qué efecto establece el artículo 24.3 sobre el convenio?",
-    "o": [
-      "Se entiende automáticamente resuelto.",
-      "Se prorroga hasta la revisión del plan.",
-      "Se convierte en convenio de gestión.",
-      "Se suspende hasta su ratificación foral."
-    ],
-    "c": 0,
-    "exp": "El art. 24.3 obliga al Ayuntamiento a tramitar el cambio comprometido, conservando su potestad de planeamiento por razones de interés público. Si finalmente no se aprueba definitivamente ese cambio, el convenio se entiende automáticamente resuelto. No queda pendiente de una revisión futura, no se convierte en convenio de gestión ni necesita una ratificación departamental."
-  },
-  {
-    "id": "E29-05",
-    "tema": "E29",
-    "q": "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué efecto producen las determinaciones territoriales vinculantes para la planificación?",
-    "o": [
-      "Orientan el planeamiento local, que puede apartarse de ellas motivadamente.",
-      "Modifican directamente el régimen jurídico de los terrenos afectados.",
-      "Obligan a respetar su contenido al elaborar o modificar el planeamiento local.",
-      "Su eficacia queda condicionada a la aceptación del Ayuntamiento afectado."
-    ],
-    "c": 2,
-    "exp": "El art. 29.1.b obliga a atenerse a su contenido al elaborar, aprobar y modificar la planificación urbanística local, sin aplicación directa e inmediata sobre los terrenos. No son simples orientaciones de las que el municipio pueda apartarse ni requieren aceptación municipal para resultar vinculantes. La modificación directa del régimen del suelo corresponde a las vinculantes sobre el territorio del art. 29.1.a."
-  },
-  {
-    "id": "E29-06",
-    "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿a quién corresponde actualizar la Estrategia Territorial de Navarra, a propuesta del Consejo Social de Política Territorial?",
-    "o": [
-      "Al Parlamento de Navarra.",
-      "Al Gobierno de Navarra.",
-      "A la Comisión de Ordenación del Territorio.",
-      "Al titular del departamento competente en urbanismo."
-    ],
-    "c": 1,
-    "exp": "El art. 33.9 atribuye la actualización al Gobierno de Navarra. El Parlamento aprueba la Estrategia, conforme al art. 33.5, pero no es el órgano al que se encomienda su actualización. La Comisión interviene mediante informe y el departamento elabora el instrumento; ninguna de esas funciones sustituye la competencia del Gobierno."
-  },
-  {
-    "id": "E29-07",
-    "tema": "E29",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la modificación de un Plan de Ordenación Territorial sigue el procedimiento de elaboración y aprobación, con una salvedad: no resulta necesaria la fase de:",
-    "o": [
-      "Información pública.",
-      "Audiencia a los municipios.",
-      "Informe del Consejo Social.",
-      "Avance del instrumento."
-    ],
-    "c": 3,
-    "exp": "El art. 37.6 dispensa de la fase de avance en la modificación del Plan de Ordenación Territorial. Mantiene la remisión al procedimiento del art. 36: la información pública y audiencia del proyecto y el informe del Consejo Social no quedan dispensados por esta salvedad."
-  },
-  {
-    "id": "E29-08",
-    "tema": "E29",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de las siguientes determinaciones tiene carácter de ordenación urbanística pormenorizada?",
-    "o": [
-      "La delimitación de unidades de ejecución y fijación de sistemas de actuación.",
-      "La fijación de la edificabilidad máxima de cada sector de suelo urbanizable.",
-      "La definición de los sistemas generales de espacios libres y equipamientos.",
-      "El señalamiento de las categorías y subcategorías del suelo no urbanizable."
-    ],
-    "c": 0,
-    "exp": "El art. 49.3.g incluye las unidades de ejecución y los sistemas de actuación entre las determinaciones pormenorizadas. La edificabilidad máxima de los sectores urbanizables, los sistemas generales y las categorías del suelo no urbanizable son estructurantes, conforme al art. 49.2.d, c y a, respectivamente."
-  },
-  {
-    "id": "E29-09",
-    "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se acuerda suspender licencias para estudiar un plan urbanístico. Seis meses después se aprueba inicialmente el plan, manteniendo la suspensión en las áreas afectadas. Si no llega antes la aprobación definitiva, ¿cuánto tiempo más puede durar la suspensión desde esa aprobación inicial?",
-    "o": [
-      "6 meses.",
-      "12 meses.",
-      "24 meses.",
-      "18 meses."
-    ],
-    "c": 3,
-    "exp": "El art. 70.3 fija, cuando la aprobación inicial se produce durante el primer año, un máximo total de dos años desde el acuerdo previo de suspensión. Consumidos seis meses, quedan dieciocho. No se abre un nuevo plazo de dos años desde la aprobación inicial; la suspensión se extingue antes si se aprueba definitivamente el planeamiento."
-  },
-  {
-    "id": "E29-10",
-    "tema": "E29",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un Plan Sectorial de Incidencia Supramunicipal afecta a varios municipios. ¿Cómo se distribuye entre sus Ayuntamientos la cesión del aprovechamiento prevista en el artículo 43.2?",
-    "o": [
-      "En proporción al número de habitantes de cada municipio afectado.",
-      "En proporción al coste de urbanización asumido por cada municipio.",
-      "En proporción a la superficie de cada término incluida en la actuación.",
-      "En proporción al aprovechamiento lucrativo localizado en cada municipio."
-    ],
-    "c": 2,
-    "exp": "El art. 43.2 distribuye la cesión en proporción a la superficie del término municipal incluida en el área de actuación. La población, el coste de urbanización y la localización del aprovechamiento no son el criterio de reparto. La cesión total es del 10 % del aprovechamiento lucrativo susceptible de tráfico inmobiliario, libre de cargas."
-  },
-  {
-    "id": "E29-11",
-    "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un municipio de 1.500 habitantes incluido en el ámbito del planeamiento supramunicipal de la Comarca de Pamplona prevé una actuación de nueva urbanización con 40 viviendas adicionales. ¿Qué porcentaje mínimo de la nueva capacidad residencial debe reservarse a vivienda protegida?",
-    "o": [
-      "El 20 %.",
-      "El 50 %.",
-      "El 35 %.",
-      "El 30 %."
-    ],
-    "c": 1,
-    "exp": "El art. 54.1.a exige el 50 % en los municipios incluidos en el ámbito del planeamiento supramunicipal de la Comarca de Pamplona, aunque no alcancen 10.000 habitantes. No procede aplicar el 20 % por tener menos de 2.000 habitantes ni el 35 % del tramo intermedio. La reducción por inviabilidad hasta el 30 % excluye los municipios de ese ámbito; tampoco concurre el supuesto de incremento de tres o menos viviendas."
-  },
-  {
-    "id": "E29-12",
-    "tema": "E29",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en un municipio comprendido en el artículo 54.1.b una actuación prevé 60 viviendas protegidas, de las que 40 son de protección oficial. ¿Cuántas de estas VPO deben destinarse como mínimo a arrendamiento?",
-    "o": [
-      "12 viviendas.",
-      "18 viviendas.",
-      "20 viviendas.",
-      "24 viviendas."
-    ],
-    "c": 0,
-    "exp": "El art. 54.4.b exige destinar a arrendamiento al menos el 30 % de las VPO resultantes cuando estas sean diez o más en los municipios de los apartados 1.a y 1.b. El cálculo es 0,30 × 40 = 12. Dieciocho aplicaría el porcentaje a todas las protegidas; veinte y veinticuatro aplicarían, respectivamente, un 50 % y un 60 % a las VPO."
-  },
-  {
-    "id": "E29-13",
-    "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un sector de suelo urbanizable residencial de 50.000 m² incluye 10.000 m² de sistemas generales y 30.000 m² construidos de uso residencial. En un núcleo de más de 500 habitantes, ¿cuál es la reserva mínima de zonas verdes y espacios libres de carácter local exigida por el artículo 55.3.b?",
-    "o": [
-      "4.000 m².",
-      "5.000 m².",
-      "10.000 m².",
-      "6.000 m²."
-    ],
-    "c": 3,
-    "exp": "El art. 55.3.b exige cumplir dos mínimos: 20 m² por cada 100 m² construidos, que dan 6.000 m², y el 10 % del sector excluidos los sistemas generales, que da 4.000 m². Basta cumplir el mayor: 6.000 m². No se suman ambos mínimos; los 5.000 m² resultarían de no excluir los sistemas generales."
-  },
-  {
-    "id": "E29-14",
-    "tema": "E29",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué determinación estructurante del Plan General Municipal puede ajustar excepcionalmente un Plan Parcial en las condiciones del artículo 60.3?",
-    "o": [
-      "El uso global del sector.",
-      "La edificabilidad máxima.",
-      "La delimitación del sector.",
-      "La reserva de vivienda protegida."
-    ],
-    "c": 2,
-    "exp": "El art. 60.3 permite ajustar la delimitación del sector si mejora su ordenación y ejecución y la diferencia de superficie no supera el 3 % del ámbito, con la modificación de clasificación que proceda. Esta excepción no permite alterar el uso global, la edificabilidad máxima o la reserva obligatoria de vivienda protegida. Las determinaciones pormenorizadas sí pueden modificarse justificando su congruencia con la ordenación estructurante."
-  },
-  {
-    "id": "E29-15",
-    "tema": "E29",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, sobre un ámbito con ordenación pormenorizada vigente, ¿cuál de las siguientes determinaciones puede ser objeto de un Estudio de Detalle conforme al artículo 63?",
-    "o": [
-      "El cambio del uso pormenorizado residencial a terciario.",
-      "El reajuste de las alineaciones de un viario de carácter local.",
-      "El reajuste de las rasantes de un viario de sistema general.",
-      "El aumento del aprovechamiento tipo mediante un cambio de uso."
-    ],
-    "c": 1,
-    "exp": "El art. 63.1.a permite reajustar alineaciones y rasantes de edificaciones y viarios, exceptuando los elementos viarios de sistemas generales. No habilita a cambiar los usos pormenorizados ni a aumentar el aprovechamiento tipo por un cambio de uso. Las excepciones del art. 63.2 para determinadas mejoras edificatorias no amparan ese último supuesto."
-  },
+      "El titular del departamento competente en urbanismo."],
+    c: 2, exp: "El art. 14.5 establece el recurso administrativo ante el Gobierno de Navarra. No lo atribuye al departamento que preside la Comisión, al Consejo Social ni al Ayuntamiento cuyo planeamiento resulte afectado. Debe distinguirse la presidencia y composición de la Comisión de la competencia para conocer del recurso." },
+  { id: "E29-04", tema: "E29", subtema: "Convenios urbanísticos (arts. 23 y 24)", tipo: "META",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en relación con los convenios urbanísticos:",
+    o: ["Serán nulas de pleno derecho sus estipulaciones que contravengan, infrinjan o defrauden objetivamente normas imperativas, incluidas las del planeamiento territorial o urbanístico.",
+      "Su negociación, celebración y cumplimiento se rigen por los principios de transparencia y publicidad, y tendrán a todos los efectos carácter jurídico-administrativo.",
+      "En los convenios sobre planeamiento, si finalmente no se aprobara definitivamente el cambio de planeamiento, el convenio se entenderá automáticamente resuelto.",
+      "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "DFL 1/2017, arts. 23 y 24: «Serán nulas de pleno derecho las estipulaciones de los convenios urbanísticos que contravengan, infrinjan o defrauden objetivamente en cualquier forma normas imperativas legales o reglamentarias, incluidas las del planeamiento territorial o urbanístico» (art. 23.4); su negociación, celebración y cumplimiento «se rigen por los principios de transparencia y publicidad» (art. 23.2) y «tendrán a todos los efectos carácter jurídico-administrativo» (art. 23.5); y en los convenios sobre planeamiento, «Si, finalmente, no se aprobara definitivamente el cambio de planeamiento, el convenio se entenderá automáticamente resuelto» (art. 24.3). Las tres son ciertas, así que la correcta es la d). El Ayuntamiento está obligado a tramitar el cambio comprometido, pero «conservará la plenitud de su potestad de planeamiento por razones de interés público» (art. 24.3). Los convenios sobre planeamiento los aprueba el Ayuntamiento, previa información pública de veinte días como mínimo (art. 24.2); los de gestión, la Administración actuante, previa información pública de veinte días hábiles desde su publicación en el Boletín Oficial de Navarra (art. 25.5)." },
+  { id: "E29-05", tema: "E29", subtema: "Determinaciones de los instrumentos de ordenación territorial (art. 29.1)", tipo: "DEF",
+    q: "Conforme a lo establecido en el artículo 29.1 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué caracteriza a las determinaciones de los instrumentos de ordenación territorial vinculantes para la planificación?",
+    o: ["Ratifican o modifican el régimen jurídico directa e inmediatamente aplicable a los terrenos y prevalecen sobre las previsiones contrarias del planeamiento local.",
+      "Constituyen criterios, directrices y guías de actuación de carácter no vinculante para la actuación territorial y urbanística de los poderes públicos.",
+      "No tienen aplicación directa e inmediata, pero obligan a atenerse a su contenido al elaborar, aprobar y modificar el planeamiento urbanístico local.",
+      "Se aplican de forma directa e inmediata a los terrenos, pero ceden ante las previsiones contrarias del planeamiento urbanístico local."],
+    c: 2, exp: "DFL 1/2017, art. 29.1.b): son «Determinaciones vinculantes para la planificación, que no tendrán aplicación directa e inmediata, pero obligan a atenerse a su contenido al elaborar, aprobar y modificar la planificación urbanística local, bien sea cuando se decida su elaboración, bien sea en el plazo previsto en la propia determinación». La a) define las vinculantes sobre el territorio, que sí son de aplicación directa: ratifican o modifican el régimen jurídico «directa e inmediatamente aplicable a los terrenos sobre los que incidan» y «prevalecerán sobre las previsiones contrarias del planeamiento local» (art. 29.1.a). La b) define las orientativas: «criterios, directrices y guías de actuación de carácter no vinculante» (art. 29.1.c). La d) mezcla las dos primeras y les da la vuelta: lo que se aplica directamente prevalece sobre el planeamiento local, no cede ante él. La ejecutividad de todas ellas comienza con la publicación de la aprobación definitiva del instrumento en el Boletín Oficial de Navarra (art. 29.2)." },
+  { id: "E29-06", tema: "E29", subtema: "Estrategia Territorial de Navarra (art. 33)", tipo: "META",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la Estrategia Territorial de Navarra se aprobará:",
+    o: ["Por el Gobierno de Navarra.",
+      "Por el Parlamento de Navarra.",
+      "Por la Comisión de Ordenación del Territorio.",
+      "Ninguna de las respuestas anteriores es correcta."],
+    c: 1, exp: "DFL 1/2017, art. 33.5: «La Estrategia Territorial de Navarra se aprobará por el Parlamento de Navarra». Es la b), y por eso la d) es falsa. Al Gobierno de Navarra (a) le corresponde la actualización de la Estrategia, «a propuesta del Consejo Social de Política Territorial» (art. 33.9), y aprueba mediante decreto foral los Planes de Ordenación Territorial (art. 36.6) y los Planes de Acción Territorial (art. 40.5). La Comisión de Ordenación del Territorio (c) informa el proyecto de Estrategia, junto con el Consejo Social de Política Territorial (art. 33.3), pero no lo aprueba. El proyecto se somete a información pública y audiencia de las entidades locales «por plazo de al menos dos meses» (art. 33.2), y el titular del Departamento propone al Gobierno su remisión al Parlamento (art. 33.4). Sus determinaciones tienen carácter orientativo (art. 31.3); el Consejo Social hace un seguimiento anual y cada cuatro años remite al Gobierno y al Parlamento una memoria sobre su aplicación (art. 33.6 y 33.7)." },
+  { id: "E29-07", tema: "E29", subtema: "Planes de Ordenación Territorial (art. 34.4)", tipo: "ALCANCE",
+    q: "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, las determinaciones de los Planes de Ordenación Territorial:",
+    o: ["Tendrán carácter vinculante, salvo que en ellos se establezca expresamente su carácter orientativo.",
+      "Tendrán carácter orientativo, salvo que en ellos se establezca expresamente su carácter vinculante.",
+      "Tendrán carácter vinculante exclusivamente.",
+      "Tendrán carácter orientativo exclusivamente."],
+    c: 0, exp: "DFL 1/2017, art. 34.4: «Las determinaciones de los planes de ordenación territorial tendrán carácter vinculante salvo que en ellos se establezca expresamente su carácter orientativo». La b) invierte la regla y la excepción, y la c) y la d) suprimen la salvedad. No lo confundas con la Estrategia Territorial de Navarra, cuyas determinaciones «tendrán carácter orientativo» (art. 31.3). Los Planes de Ordenación Territorial se aprueban por el Gobierno de Navarra mediante decreto foral (art. 36.6), tienen vigencia indefinida (art. 37.1) y su modificación sigue el procedimiento de aprobación, «no siendo necesaria la fase de avance» (art. 37.6). Es la pregunta 4 del examen de Arquitectos del Gobierno de Navarra de 7-3-2026, copiada literalmente (clave A)." },
+  { id: "E29-08", tema: "E29", subtema: "Determinaciones estructurantes (art. 49.2)", tipo: "SEL",
+    q: "¿Cuál de las siguientes determinaciones de ordenación urbanística se considera estructurante conforme al artículo 49 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo?",
+    o: ["Establecimiento de normas de protección en el suelo no urbanizable para, según cada categoría, mantener su naturaleza rústica, proteger el medio natural y asegurar el carácter aislado de las construcciones.",
+      "La definición de los sistemas locales de vías públicas, servicios urbanos, espacios libres públicos y equipamientos públicos o privados, o conjuntos de dotaciones públicas necesarios para completar los servicios de los sistemas generales, pero sin considerarse de tal carácter.",
+      "La definición detallada de las tramas urbanas, especialmente mediante las alineaciones y rasantes de las edificaciones y los elementos viarios.",
+      "La definición de áreas de renovación, regeneración y rehabilitación y criterios básicos para desarrollar actuaciones en suelo urbano."],
+    c: 0, exp: "DFL 1/2017, art. 49.2.e): es determinación estructurante el «Establecimiento de normas de protección en el suelo no urbanizable para, según cada categoría, mantener su naturaleza rústica, proteger el medio natural y asegurar el carácter aislado de las construcciones». Las otras tres son pormenorizadas: los sistemas locales (art. 49.3.e), la definición detallada de las tramas urbanas mediante alineaciones y rasantes (art. 49.3.a) y las áreas de renovación, regeneración y rehabilitación (art. 49.3.m). Las seis estructurantes del art. 49.2 son: las clases de suelo y, en el no urbanizable, sus categorías y subcategorías; los sectores; los sistemas generales; en suelo urbanizable, la edificabilidad máxima, los usos globales y el porcentaje obligatorio de vivienda protegida; las normas de protección del suelo no urbanizable; y las áreas de reserva para el patrimonio municipal de suelo. Es la pregunta 37 del examen de Zizur Mayor de 31-01-2026, copiada literalmente (clave A)." },
+  { id: "E29-09", tema: "E29", subtema: "Suspensión del otorgamiento de licencias (art. 70)", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 70 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en relación con la suspensión del otorgamiento de licencias:",
+    o: ["La suspensión acordada antes de la aprobación inicial para estudiar la formación o reforma del plan se extinguirá, en todo caso, en el plazo de un año.",
+      "Extinguidos los efectos de la suspensión, no podrán acordarse nuevas suspensiones en el plazo de dos años por idéntica finalidad.",
+      "En cualquier caso, la suspensión se extingue con la aprobación definitiva del planeamiento.",
+      "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "DFL 1/2017, art. 70.3: la suspensión acordada antes de la aprobación inicial (art. 70.1) «se extinguirá, en todo caso, en el plazo de un año», y «En cualquier caso, la suspensión se extingue con la aprobación definitiva del planeamiento»: la a) y la c) son ciertas. La b) es falsa: «Extinguidos los efectos de la suspensión en cualquiera de los supuestos previstos, no podrán acordarse nuevas suspensiones en el plazo de tres años por idéntica finalidad» (art. 70.4), no de dos. Si la aprobación inicial llega dentro de ese año, la suspensión se mantiene en las áreas cuyas nuevas determinaciones modifiquen la ordenación y sus efectos se extinguen definitivamente a los dos años desde el acuerdo de suspensión; si llega después, la suspensión derivada de la aprobación inicial dura como máximo un año; y si no hubo suspensión previa, la que determina por sí sola la aprobación inicial dura como máximo dos años (art. 70.3). Quienes solicitaron licencia antes de publicarse la suspensión tienen derecho a ser indemnizados del coste oficial de los proyectos y a la devolución de las tasas (art. 70.6)." },
+  { id: "E29-10", tema: "E29", subtema: "Planes Sectoriales de Incidencia Supramunicipal: cesión (art. 43.2)", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 43.2 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el desarrollo de un Plan Sectorial de Incidencia Supramunicipal deberá prever la cesión a los Ayuntamientos afectados, libre de cargas de urbanización y de cualesquiera otras, del siguiente porcentaje del aprovechamiento lucrativo susceptible de tráfico inmobiliario:",
+    o: ["El 5 por 100.", "El 10 por 100.", "El 15 por 100.", "El 20 por 100."],
+    c: 1, exp: "DFL 1/2017, art. 43.2: «El desarrollo de Plan Sectorial de Incidencia Supramunicipal deberá prever la cesión a los Ayuntamientos afectados del 10 por 100 del aprovechamiento lucrativo susceptible de tráfico inmobiliario, libre de cargas de urbanización y de cualesquiera otras». El 5, el 15 y el 20 por 100 no figuran en el precepto. La cesión se reparte entre los Ayuntamientos «en proporción a la superficie de su término municipal que esté incluida en el área de actuación», y no se computan como aprovechamiento lucrativo los equipamientos y dotaciones públicas destinados al uso o al servicio públicos. No la confundas con la garantía mínima del 6 por ciento del coste de urbanización que se exige a los Planes y Proyectos Sectoriales de iniciativa particular (arts. 43.3.b y 44.3.b), ni con el 10 por 100 del sector que los polígonos industriales destinan a grandes zonas verdes (art. 55.3.c)." },
+  { id: "E29-11", tema: "E29", subtema: "Vivienda protegida: estándares mínimos (art. 54.1)", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA en relación con lo establecido en el artículo 54.1 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, sobre los estándares mínimos de reserva de viviendas sujetas a algún régimen de protección pública, teniendo en cuenta la población prevista por el planeamiento:",
+    o: ["En los municipios incluidos en el ámbito del planeamiento supramunicipal de la Comarca de Pamplona: el 50 % de la nueva capacidad residencial.",
+      "En los municipios con población igual o superior a 2.000 habitantes e inferior a 10.000 habitantes: el 30 % de la nueva capacidad residencial.",
+      "En los municipios con población igual o superior a 10.000 habitantes: el 50 % de la nueva capacidad residencial.",
+      "En los municipios con población inferior a 2.000 habitantes: el 20 % de la nueva capacidad residencial."],
+    c: 1, exp: "DFL 1/2017, art. 54.1, en la redacción dada por la Ley Foral 20/2022, de 1 de julio (con efectos desde el 29-07-2022): el estándar mínimo es «el 50% de la nueva capacidad residencial» en los municipios incluidos en el ámbito del planeamiento supramunicipal de la Comarca de Pamplona y en los que cuenten con una población igual o superior a 10.000 habitantes (art. 54.1.a); en los de población «igual o superior a 2.000 habitantes e inferior a 10.000 habitantes: el 35% de la nueva capacidad residencial» (art. 54.1.b); y en los de población inferior a 2.000 habitantes, «el 20% de la nueva capacidad residencial» (art. 54.1.c). La incorrecta es la b), que cambia el 35 % por el 30 %, que es el porcentaje hasta el que puede reducirse el estándar del 50 % por inviabilidad objetiva, pasados al menos cuatro años desde la publicación de la aprobación definitiva del Plan Municipal y fuera de la Comarca de Pamplona (en el tramo del 35 % la reducción llega hasta el 10 %). El Pleno puede reducir o eliminar el estándar, por mayoría simple, si el incremento de viviendas es igual o inferior a 3, 10 o 25, según el tramo." },
+  { id: "E29-12", tema: "E29", subtema: "Vivienda protegida: distribución interna (art. 54.4)", tipo: "COMB2",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en la distribución interna del estándar mínimo de vivienda protegida de una actuación en un municipio de la Comarca de Pamplona en la que resultan diez o más viviendas de protección oficial, ¿qué porcentajes mínimos se exigen?",
+    o: ["Un 50 % del total de las viviendas como VPO y un 30 % de estas en arrendamiento.",
+      "Un 60 % del total de las viviendas como VPO y un 50 % de estas en arrendamiento.",
+      "Un 50 % del total de las viviendas como VPO y un 50 % de estas en arrendamiento.",
+      "Un 60 % del total de las viviendas como VPO y un 30 % de estas en arrendamiento."],
+    c: 3, exp: "DFL 1/2017, art. 54.4, en la redacción de la Ley Foral 20/2022, de 1 de julio: en la distribución interna del estándar mínimo de vivienda protegida, «a) Al menos un 60% del total de las viviendas deberán ser de protección oficial (VPO), salvo si el número de viviendas es igual o inferior a 3, en cuyo caso el 100% deberán ser de protección oficial» y «b) Asimismo, en los municipios señalados en los apartados 1.a) y 1.b) del presente artículo, cuando el número de viviendas de protección oficial resultantes sea igual o superior a 10, como mínimo el 30% de las mismas se destinarán a viviendas en régimen de arrendamiento». Los municipios de la Comarca de Pamplona están en el apartado 1.a), así que rige la d). El 50 % de la a), la b) y la c) es el estándar mínimo de reserva del art. 54.1.a), no la proporción de VPO ni la de alquiler. Además, en las actuaciones de dotación y sustitución, las nuevas viviendas en edificios donde la mayoría tuviera la calificación de protegidas deben ser protegidas del mismo tipo que la mayoría (art. 54.4.c)." },
+  { id: "E29-13", tema: "E29", subtema: "Dotación supramunicipal (art. 55.6)", tipo: "LIT",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en los sectores de suelo urbanizable de uso predominante residencial, la edificabilidad de la reserva de suelo con el carácter de Dotación Supramunicipal:",
+    o: ["No computará a efectos del cálculo de la adjudicación obligatoria de aprovechamiento al ayuntamiento, ni se sumará al resto para el cálculo del aprovechamiento máximo del sector, así como tampoco generará reservas de dotaciones públicas.",
+      "No computará a efectos del cálculo de la adjudicación obligatoria de aprovechamiento al ayuntamiento, ni se sumará al resto para el cálculo del aprovechamiento máximo del sector, pero generará reservas de dotaciones públicas.",
+      "Computará a efectos del cálculo de la adjudicación obligatoria de aprovechamiento al ayuntamiento, y se sumará al resto para el cálculo del aprovechamiento máximo del sector, y generará reservas de dotaciones públicas.",
+      "Computará a efectos del cálculo de la adjudicación obligatoria de aprovechamiento al ayuntamiento, y se sumará al resto para el cálculo del aprovechamiento máximo del sector, pero no generará reservas de dotaciones públicas."],
+    c: 0, exp: "DFL 1/2017, art. 55.6 (redacción vigente): «La edificabilidad de estas parcelas no computará a efectos del cálculo de la adjudicación obligatoria de aprovechamiento al ayuntamiento, ni se sumará al resto para el cálculo del aprovechamiento máximo del sector, así como tampoco generará reservas de dotaciones públicas». Las otras tres cambian una o varias piezas: la b) le hace generar dotaciones, la c) le da los tres efectos y la d) la hace computar y sumar. Del mismo apartado: la reserva tiene una superficie no inferior a 3 m² por cada 100 m² construidos de uso residencial, tiene la condición de solar y se califica para viviendas sometidas a algún régimen de protección pública y para alojamientos dotacionales; su edificabilidad no será inferior al 7 por 100 de la edificabilidad total del sector; y si la parcela resultante tiene 300 m² o menos, pasa al patrimonio del municipio, que debe destinarla a dotaciones públicas. Es la pregunta 9 del examen de Arquitectos del Gobierno de Navarra de 7-3-2026, copiada literalmente (clave A)." },
+  { id: "E29-14", tema: "E29", subtema: "Planes Parciales (art. 60.3)", tipo: "AFIRM",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el Texto Refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los Planes Parciales:",
+    o: ["No pueden modificar determinaciones de carácter estructurante establecidas en el Plan General Municipal, salvo que, de manera justificada, quede autorizado en el mismo.",
+      "Deben introducir las determinaciones estructurantes de las que el Plan General Municipal carece.",
+      "Pueden modificar cualquier determinación de ordenación pormenorizada establecida por el Plan General Municipal siempre que justifiquen su congruencia con la ordenación estructurante de aquel.",
+      "Han de delimitar los distintos sectores en que proceda dividir el territorio, señalando sobre cada uno de ellos los criterios y condiciones básicas de ordenación."],
+    c: 2, exp: "DFL 1/2017, art. 60.3: «No obstante los Planes Parciales podrán modificar cualquier determinación de ordenación pormenorizada establecida por el Plan General Municipal para el sector, siempre que aquellos justifiquen su congruencia con la ordenación estructurante del Plan General Municipal». La a) es falsa: «En ningún caso, los Planes Parciales podrán modificar las determinaciones de carácter estructurante establecidas en el Plan General Municipal, salvo la delimitación del sector que desarrollen producida por ajustes de superficie que mejoren su ordenación y ejecución y que no supongan una diferencia de superficie superior o inferior al 3 por ciento del ámbito» (art. 60.3); la salvedad es ese ajuste, no una autorización del propio Plan General. La b) es falsa: la ordenación estructurante la establece el Plan General para todo el término (art. 57.2) y el Plan Parcial establece la pormenorizada de un sector (art. 60.1). La d) es falsa: delimitar los sectores es una determinación estructurante del Plan General (art. 49.2.b). Además, no pueden aprobarse Planes Parciales sin que, previa o simultáneamente, se haya aprobado definitivamente el Plan General Municipal (art. 60.2). Es la pregunta 15 del examen de Arquitectos del Gobierno de Navarra de 7-3-2026 (clave C), con la errata «Parcialees» del enunciado corregida." },
+  { id: "E29-15", tema: "E29", subtema: "Estudios de Detalle (art. 63)", tipo: "LISTA",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, sobre un ámbito con ordenación pormenorizada ya establecida, ¿qué determinaciones pueden establecer, modificar o reajustar, entre otras, los Estudios de Detalle?",
+    o: ["Las alineaciones y rasantes de los viarios de sistema general, la ordenación de volúmenes y alturas de los edificios y la ordenación de fachadas.",
+      "Las alineaciones y rasantes de las edificaciones, el régimen de usos pormenorizados y la ordenación de fachadas.",
+      "Las alineaciones y rasantes de las edificaciones, la ordenación de volúmenes y alturas de los edificios y la ordenación de fachadas.",
+      "Las alineaciones y rasantes de las edificaciones, la ordenación de volúmenes y alturas de los edificios y el aprovechamiento tipo del ámbito."],
+    c: 2, exp: "DFL 1/2017, art. 63.1: los Estudios de Detalle pueden establecer, modificar o reajustar «a) El señalamiento de alineaciones y rasantes de las edificaciones y viarios, salvo las de los elementos viarios que tengan el carácter de sistemas generales» y «b) La regulación del tipo de obras admisibles y las condiciones que deben cumplir las edificaciones [...], así como la ordenación y composición de los volúmenes y alturas de los edificios de acuerdo con las condiciones fijadas en el Plan General Municipal, la morfología y tipología de las viviendas y de las edificaciones y la ordenación de fachadas», además de las determinaciones de accesibilidad de la letra c). La a) incluye los viarios de sistema general, que el precepto excluye; la b) mete el régimen de usos pormenorizados, que es determinación pormenorizada del art. 49.3.d) pero no figura entre las del Estudio de Detalle; y la d) el aprovechamiento tipo, que el Estudio de Detalle no puede incrementar (art. 63.2). Solo pueden formularse donde ya esté establecida la ordenación pormenorizada y «en ningún caso podrán alterar las condiciones urbanísticas de los predios colindantes» (art. 63.2). La información pública dura veinte días desde la publicación del anuncio de la aprobación inicial en el Boletín Oficial de Navarra (art. 74.b)." },
+  { id: "E29-16", tema: "E29", subtema: "Plan Urbanístico Municipal: documentación (art. 58.5)", tipo: "NEG",
+    q: "De conformidad con lo establecido en el artículo 58 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de los siguientes documentos no forma parte de aquellos en los que se desarrollan las determinaciones del Plan Urbanístico Municipal?",
+    o: ["La Memoria de viabilidad y sostenibilidad económica.",
+      "El Sistema de indicadores de gestión, sostenibilidad y resultado.",
+      "La Evaluación del planeamiento vigente y su grado de cumplimiento.",
+      "El Programa de desarrollo y ejecución del Plan General Municipal."],
+    c: 2, exp: "DFL 1/2017, art. 58.5: «Las determinaciones de los Planes Urbanísticos Municipales se desarrollarán en los siguientes documentos»: Memoria; incidencia sobre el territorio y afecciones ambientales; planos de información y de ordenación; Normativa; «e) Programa de desarrollo y ejecución del Plan General Municipal»; «f) Memoria de viabilidad y sostenibilidad económica»; «g) Sistema de indicadores de gestión, sostenibilidad y resultado»; y resumen ejecutivo. La a), la b) y la d) son literales. La «Evaluación del planeamiento vigente y grado de cumplimiento» no es documento del Plan Urbanístico Municipal, sino de la Estrategia y Modelo de Ocupación Territorial (art. 58.4.b), que tiene carácter previo a la formulación de aquel (art. 58.2). El Plan General Municipal se compone de ambas piezas (art. 58.1), también en los municipios de población igual o inferior a tres mil habitantes; en ellos la Estrategia es una memoria que recoge de forma simplificada sus contenidos (art. 59.2), y la relación de documentos del Plan Urbanístico Municipal del art. 59.3 no incluye el sistema de indicadores ni el resumen ejecutivo." },
 ];

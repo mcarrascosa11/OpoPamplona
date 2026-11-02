@@ -1,87 +1,60 @@
 // Banco de preguntas del tema E28. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-    // ---------- RDL 7/2015 (E28) · 15 preguntas originales: norma completa y artículo en cada enunciado ----------
-  {
-    "id": "E28-01",
-    "tema": "E28",
-    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, en un edificio constituido en régimen de propiedad horizontal se proyectan obras para realizar ajustes razonables de accesibilidad. ¿Cuándo se considera desproporcionada la carga económica conforme a su artículo 2.5?",
-    "o": [
-      "El coste anual antes de ayudas excede de doce mensualidades ordinarias de gastos comunes.",
-      "El coste anual descontadas las ayudas excede de doce mensualidades ordinarias de gastos comunes.",
-      "El coste total descontadas las ayudas excede de doce mensualidades ordinarias de gastos comunes.",
-      "El coste anual descontadas las ayudas alcanza doce mensualidades ordinarias de gastos comunes."
-    ],
-    "c": 1,
-    "exp": "Art. 2.5 RDL 7/2015: El umbral es el coste de las obras repercutido anualmente, una vez descontadas las ayudas públicas, cuando EXCEDE de doce mensualidades ordinarias de gastos comunes. El coste total, el bruto antes de ayudas o la mera igualdad con el umbral no reproducen ese criterio."
-  },
-  {
-    "id": "E28-02",
-    "tema": "E28",
-    "q": "De conformidad con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se pretende incrementar las dotaciones públicas de un ámbito de suelo urbanizado. ¿Qué circunstancia impide calificar la intervención como actuación de dotación según el artículo 7.1.b)?",
-    "o": [
-      "Que las nuevas dotaciones respondan a un aumento de edificabilidad.",
-      "Que las nuevas dotaciones respondan a un incremento de densidad.",
-      "Que las nuevas dotaciones exijan reformar la urbanización del ámbito.",
-      "Que las nuevas dotaciones respondan a la asignación de nuevos usos."
-    ],
-    "c": 2,
-    "exp": "Art. 7.1.b RDL 7/2015: La actuación de dotación reajusta las dotaciones por mayor edificabilidad, densidad o nuevos usos, pero no requiere reformar ni renovar la urbanización del ámbito. Si esa reforma es necesaria, la actuación deja de encajar en el artículo 7.1.b."
-  },
-  {
-    "id": "E28-03",
-    "tema": "E28",
-    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, una actuación de dotación incrementa la edificabilidad media ponderada mediante una modificación del planeamiento. ¿Sobre qué base se calcula el deber de cesión de aprovechamiento conforme al artículo 18.2.a)?",
-    "o": [
-      "La edificabilidad media ponderada previa de la actuación.",
-      "El incremento de edificabilidad total en las parcelas afectadas.",
-      "El incremento de edificabilidad media ponderada del municipio.",
-      "El incremento de edificabilidad media ponderada de la actuación."
-    ],
-    "c": 3,
-    "exp": "Art. 18.2.a RDL 7/2015: En actuaciones de dotación, el porcentaje de cesión se aplica solo al incremento de edificabilidad media ponderada que resulte, en su caso, de la modificación del instrumento de ordenación. La ley permite sustituir la entrega por su valor en metálico para los destinos indicados en el propio artículo."
-  },
-  {
-    "id": "E28-04",
-    "tema": "E28",
-    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, un sector sin integrar en la malla urbana ni disponer de los servicios propios del suelo urbanizado tiene aprobada la ordenación que prevé su urbanización. Las obras han empezado, pero siguen sin terminar. ¿Cuál es su situación básica conforme al artículo 21?",
-    "o": [
-      "Rural, hasta que termine la correspondiente actuación de urbanización.",
-      "Urbanizado, desde que se aprueba el instrumento de ordenación.",
-      "Urbanizado, desde que comienza materialmente la urbanización.",
-      "Urbanizado, desde que se aprueba el proyecto de urbanización."
-    ],
-    "c": 0,
-    "exp": "Art. 21.2.b RDL 7/2015: El artículo 21.2.b mantiene en situación rural el suelo cuyo paso a urbanizado está previsto o permitido por los instrumentos de ordenación hasta que termine la correspondiente actuación de urbanización. Ni la aprobación del plan o proyecto ni el inicio material bastan en este supuesto."
-  },
-  {
-    "id": "E28-05",
-    "tema": "E28",
-    "q": "De acuerdo con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se modifica un complejo inmobiliario privado y no concurre el supuesto previsto en el artículo 26.6.a). ¿Cuál de los siguientes requisitos permite prescindir de autorización administrativa conforme al artículo 26.6.b)?",
-    "o": [
-      "Que no aumente la superficie privativa del conjunto.",
-      "Que no aumente el volumen edificado del conjunto.",
-      "Que no aumente el número de elementos privativos.",
-      "Que no aumente la cuota total de elementos comunes."
-    ],
-    "c": 2,
-    "exp": "Art. 26.6.b RDL 7/2015: El artículo 26.6.b exceptúa de la autorización la modificación del complejo que no provoque un incremento del número de elementos privativos. La superficie, el volumen y las cuotas no son el criterio utilizado en esta excepción."
-  },
-  {
-    "id": "E28-06",
-    "tema": "E28",
-    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se valora una explotación en suelo rural cuya renta anual real, incluidas las subvenciones, asciende a 19.000 €. La renta potencial es de 18.000 € antes de incorporar 3.000 € de subvenciones estables aplicables al aprovechamiento. Ambas rentas están calculadas una vez descontados sus costes. ¿Qué renta anual debe capitalizarse conforme al artículo 36.1.a)?",
-    "o": [
-      "21.000 €/año.",
-      "19.000 €/año.",
-      "18.000 €/año.",
-      "22.000 €/año."
-    ],
-    "c": 0,
-    "exp": "Art. 36.1.a RDL 7/2015: La renta potencial computable es 18.000 + 3.000 = 21.000 €/año, superior a la real de 19.000 €. El artículo 36.1.a ordena capitalizar la mayor de ambas. Elegir 19.000 € omitiría la renta potencial; elegir 18.000 € omitiría la subvención estable; sumar 3.000 € a la renta real de 19.000 € supondría contabilizar dos veces la ayuda ya incluida."
-  },
+  // ── E28 · RDL 7/2015, de 30 de octubre, texto refundido de la Ley de Suelo y Rehabilitación Urbana ──────────
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección
+  // 2 bis): 3 META (E28-04, E28-08, E28-10), 3 DATO (E28-01, E28-03, E28-12), 2 NEG (E28-14, E28-17),
+  // 1 LISTA (E28-02), 1 LIT (E28-13), 1 AFIRM (E28-06), 1 SEL (E28-05), 1 DEF (E28-16), 1 ALCANCE (E28-11)
+  // y 1 COMB2 (E28-09). Reescritas in situ, con su id, su artículo y su tipo: E28-01 a E28-06 y E28-08 a E28-14
+  // (se quitan los dos cálculos numéricos de E28-06 y E28-08: Zizur no pide hacer cuentas). E28-13 y E28-16 son
+  // las preguntas 36 y 35 del examen de Zizur Mayor de 2026, copiadas literalmente con su clave (A y B); E28-11
+  // está adaptada de la pregunta 5 de Noáin 2022 (se cambia su d). Nuevas: E28-16 (art. 2.2) y E28-17 (art. 15). Retiradas
+  // (no se borran: el historial va por id): E28-07 (art. 37.1.a) y E28-15 (art. 68.2); sus datos siguen en el
+  // resumen.
+  // Vigencia: texto consolidado del BOE (BOE-A-2015-11723), sin cambios desde el 25-05-2023. El art. 20.1.b) va
+  // en la redacción de la Ley 12/2023 (40 % y 20 %). No se pregunta lo anulado por la STC 143/2017 (silencio
+  // negativo del art. 11.4 incluido) ni el art. 38.2.a), con nota de vigencia por la STC 218/2015.
+  // Letra correcta: A 4, B 4, C 3, D 4. Metas en la d): correctas en E28-04 («Todas») y E28-08 («a) y c)»);
+  // «Ninguna» es falsa en E28-10.
+  { id: "E28-01", tema: "E28", subtema: "Ajustes razonables: carga desproporcionada (art. 2.5)", tipo: "DATO",
+    q: "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, en los edificios constituidos en régimen de propiedad horizontal la carga de los ajustes razonables se entenderá desproporcionada cuando el coste de las obras repercutido anualmente, y descontando las ayudas públicas a las que se pueda tener derecho, exceda de un número de mensualidades ordinarias de gastos comunes. ¿Cuál es ese número?",
+    o: ["Seis mensualidades.", "Nueve mensualidades.", "Doce mensualidades.", "Dieciocho mensualidades."],
+    c: 2, exp: "Real Decreto Legislativo 7/2015, art. 2.5: «Se entenderá que la carga es desproporcionada, en los edificios constituidos en régimen de propiedad horizontal, cuando el coste de las obras repercutido anualmente, y descontando las ayudas públicas a las que se pueda tener derecho, exceda de doce mensualidades ordinarias de gastos comunes». Seis, nueve y dieciocho mensualidades no aparecen en el precepto. Con carácter general, para saber si una carga es proporcionada se tienen en cuenta «los costes de la medida, los efectos discriminatorios que su no adopción podría representar, la estructura y características de la persona o entidad que haya de ponerla en práctica y la posibilidad que tengan aquéllas de obtener financiación oficial o cualquier otra ayuda»." },
+  { id: "E28-02", tema: "E28", subtema: "Actuaciones de transformación urbanística (art. 7.1)", tipo: "LISTA",
+    q: "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se entiende por actuaciones de transformación urbanística:",
+    o: ["Las de nueva urbanización, las de reforma o renovación de la urbanización de un ámbito de suelo urbanizado y las actuaciones de dotación.",
+      "Las de nueva urbanización, las de reforma o renovación de la urbanización de un ámbito de suelo urbanizado y las de rehabilitación edificatoria.",
+      "Las de nueva urbanización, las de rehabilitación edificatoria y las de nueva edificación o de sustitución de la edificación existente.",
+      "Las de nueva urbanización, las actuaciones de dotación en suelo urbanizado y las de rehabilitación edificatoria de edificios existentes."],
+    c: 0, exp: "Real Decreto Legislativo 7/2015, art. 7.1: son actuaciones de transformación urbanística «a) Las actuaciones de urbanización, que incluyen: 1) Las de nueva urbanización [...] 2) Las que tengan por objeto reformar o renovar la urbanización de un ámbito de suelo urbanizado [...]» y «b) Las actuaciones de dotación». La nueva edificación, la sustitución de la edificación existente y la rehabilitación edificatoria son actuaciones edificatorias (art. 7.2), «incluso cuando requieran obras complementarias de urbanización», así que b), c) y d) mezclan las dos categorías. Recuerda que la actuación de dotación incrementa las dotaciones públicas de un ámbito de suelo urbanizado para reajustar su proporción con la mayor edificabilidad o densidad o con los nuevos usos asignados, y «no requieran la reforma o renovación de la urbanización de éste»." },
+  { id: "E28-03", tema: "E28", subtema: "Suelo para patrimonio público: porcentaje (art. 18.1.b)", tipo: "DATO",
+    q: "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, las actuaciones de urbanización comportan el deber de entregar a la Administración competente, con destino a patrimonio público de suelo, el suelo libre de cargas de urbanización correspondiente al porcentaje de la edificabilidad media ponderada de la actuación que fije la legislación urbanística. Con carácter general, ese porcentaje no podrá ser superior al:",
+    o: ["10 por ciento.", "15 por ciento.", "20 por ciento.", "25 por ciento."],
+    c: 1, exp: "Real Decreto Legislativo 7/2015, art. 18.1.b): «Con carácter general, el porcentaje a que se refiere el párrafo anterior no podrá ser inferior al 5 por ciento ni superior al 15 por ciento». El 20 por ciento es el tope excepcional: la legislación urbanística «podrá permitir excepcionalmente reducir o incrementar este porcentaje de forma proporcionada y motivada, hasta alcanzar un máximo del 20 por ciento en el caso de su incremento, para las actuaciones o los ámbitos en los que el valor de las parcelas resultantes sea sensiblemente inferior o superior, respectivamente, al medio en los restantes de su misma categoría de suelo». El 10 por ciento cabe dentro de la horquilla, pero no es su límite superior, y el 25 por ciento no aparece en la ley. En las actuaciones de dotación el porcentaje se aplica solo al incremento de la edificabilidad media ponderada (art. 18.2.a)." },
+  { id: "E28-04", tema: "E28", subtema: "Situación básica de suelo rural (art. 21.2)", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 21.2 del Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, está en la situación de suelo rural:",
+    o: ["En todo caso, el suelo preservado por la ordenación territorial y urbanística de su transformación mediante la urbanización.",
+      "El suelo para el que los instrumentos de ordenación territorial y urbanística prevean o permitan su paso a la situación de suelo urbanizado, hasta que termine la correspondiente actuación de urbanización.",
+      "Cualquier otro suelo que no reúna los requisitos establecidos para encontrarse en la situación de suelo urbanizado.",
+      "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Real Decreto Legislativo 7/2015, art. 21.2: «Está en la situación de suelo rural: a) En todo caso, el suelo preservado por la ordenación territorial y urbanística de su transformación mediante la urbanización [...]. b) El suelo para el que los instrumentos de ordenación territorial y urbanística prevean o permitan su paso a la situación de suelo urbanizado, hasta que termine la correspondiente actuación de urbanización, y cualquier otro que no reúna los requisitos a que se refiere el apartado siguiente». Las tres opciones son literales, así que la correcta es la d). La b) es la clave del tema: el suelo con plan aprobado y obras empezadas sigue siendo rural hasta que termina la urbanización, cuya terminación se presume con la recepción de las obras (art. 7.4). Solo hay dos situaciones básicas, rural y urbanizado (art. 21.1)." },
+  { id: "E28-05", tema: "E28", subtema: "Complejo inmobiliario privado: autorización (art. 26.6)", tipo: "SEL",
+    q: "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, la constitución y modificación del complejo inmobiliario privado deberá ser autorizada por la Administración competente donde se ubique la finca o fincas sobre las que se constituya. ¿Cuál de los siguientes es uno de los supuestos en que la ley exime de esa autorización?",
+    o: ["Cuando la modificación del complejo no provoque un incremento de la superficie construida.",
+      "Cuando la modificación del complejo no provoque un incremento del volumen edificado.",
+      "Cuando la modificación del complejo no provoque un incremento del número de sus elementos privativos.",
+      "Cuando la modificación del complejo no provoque un incremento de la cuota de los elementos comunes."],
+    c: 2, exp: "Real Decreto Legislativo 7/2015, art. 26.6: la constitución y modificación del complejo inmobiliario privado «deberá ser autorizada por la Administración competente donde se ubique la finca o fincas sobre las que se constituya tal régimen» y «No será necesaria dicha autorización en los supuestos siguientes: a) Cuando el número y características de los elementos privativos resultantes del complejo inmobiliario sean los que resulten de la licencia de obras que autorice la construcción de las edificaciones que integren aquel. b) Cuando la modificación del complejo no provoque un incremento del número de sus elementos privativos». La superficie construida, el volumen edificado y las cuotas de los elementos comunes no son el criterio de la ley. Sin esa autorización, o su testimonio notarial, el título no se puede inscribir." },
+  { id: "E28-06", tema: "E28", subtema: "Valoración en el suelo rural (art. 36)", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA en relación con lo establecido en el artículo 36 del Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, sobre la valoración en el suelo rural:",
+    o: ["Los terrenos se tasarán mediante la capitalización de la renta anual real o potencial, la que sea inferior, de la explotación según su estado en el momento al que deba entenderse referida la valoración.",
+      "El valor del suelo rural podrá ser corregido al alza en función de factores objetivos de localización, como la accesibilidad a núcleos de población o a centros de actividad económica.",
+      "Las edificaciones, construcciones e instalaciones, cuando deban valorarse con independencia del suelo, se tasarán por el método residual estático según su estado y antigüedad.",
+      "Podrán considerarse las expectativas derivadas de la asignación de edificabilidades y usos por la ordenación territorial o urbanística, aunque no hayan sido aún plenamente realizados."],
+    c: 1, exp: "Real Decreto Legislativo 7/2015, art. 36.1.a), párrafo tercero: «El valor del suelo rural así obtenido podrá ser corregido al alza en función de factores objetivos de localización, como la accesibilidad a núcleos de población o a centros de actividad económica o la ubicación en entornos de singular valor ambiental o paisajístico, cuya aplicación y ponderación habrá de ser justificada en el correspondiente expediente de valoración [...]». a) es falsa: se capitaliza la renta anual real o potencial, «la que sea superior» (art. 36.1.a). c) es falsa: esas edificaciones se tasan «por el método de coste de reposición según su estado y antigüedad» (art. 36.1.b); el método residual estático es el del suelo urbanizado (art. 37.1.b). d) es falsa: «En ninguno de los casos previstos en el apartado anterior podrán considerarse expectativas derivadas de la asignación de edificabilidades y usos por la ordenación territorial o urbanística que no hayan sido aún plenamente realizados» (art. 36.2)." },
   {
     "id": "E28-07",
     "tema": "E28",
+    "estado": "retirada",
     "q": "Conforme al Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se valora una parcela de suelo urbanizado sin edificar a la que la ordenación no asigna edificabilidad ni uso privado. ¿Qué parámetros de referencia establece el artículo 37.1.a)?",
     "o": [
       "La edificabilidad máxima y el uso mayoritario del ámbito espacial homogéneo.",
@@ -92,100 +65,53 @@ export default [
     "c": 1,
     "exp": "Art. 37.1.a RDL 7/2015: Cuando la parcela no tiene asignadas edificabilidad o uso privado, el artículo 37.1.a atribuye la edificabilidad media y el uso mayoritario del ámbito espacial homogéneo definido por usos y tipologías. No se toma la edificabilidad máxima, el uso económicamente más valioso ni la referencia de todo el municipio."
   },
-  {
-    "id": "E28-08",
-    "tema": "E28",
-    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, un suelo expropiado para ejecutar una actuación de urbanización cambia de uso por una modificación del planeamiento que no supone un nuevo ejercicio pleno de la potestad de ordenación. El nuevo uso incrementa su valor hasta 260.000 €, calculados con los mismos criterios que el justiprecio original, de 150.000 €, actualizado a 180.000 €. ¿Qué cantidad corresponde por retasación conforme al artículo 47.2.b)?",
-    "o": [
-      "260.000 €.",
-      "110.000 €.",
-      "150.000 €.",
-      "80.000 €."
-    ],
-    "c": 3,
-    "exp": "Art. 47.2.b RDL 7/2015: Artículo 47.2.b: el expropiado o sus causahabientes tienen derecho a la diferencia entre el nuevo valor, calculado con los mismos criterios aplicados en la expropiación, y el justiprecio ACTUALIZADO. 260.000 − 180.000 = 80.000 €. Los 110.000 € resultarían de restar incorrectamente el justiprecio sin actualizar."
-  },
-  {
-    "id": "E28-09",
-    "tema": "E28",
-    "q": "De acuerdo con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se extingue un derecho de superficie por el transcurso de su plazo, sin pacto de liquidación. ¿Qué sucede con la propiedad de lo edificado y con los derechos impuestos por el superficiario, conforme al artículo 54.5?",
-    "o": [
-      "El propietario recibe lo edificado sin indemnizar y se extinguen esos derechos.",
-      "El propietario recibe lo edificado con indemnización y se extinguen esos derechos.",
-      "El propietario recibe lo edificado sin indemnizar y subsisten esos derechos.",
-      "El propietario recibe lo edificado con indemnización y subsisten esos derechos."
-    ],
-    "c": 0,
-    "exp": "Art. 54.5 RDL 7/2015: Al vencer el plazo, el propietario del suelo hace suya la propiedad de lo edificado sin deber de indemnizar por ello, sin perjuicio de los pactos de liquidación. La extinción por plazo determina asimismo la extinción de los derechos reales o personales impuestos por el superficiario."
-  },
-  {
-    "id": "E28-10",
-    "tema": "E28",
-    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se pretende inscribir un acto firme de aprobación de un expediente de ejecución urbanística que modifica fincas registrales y hacer constar la incoación de un expediente de disciplina urbanística. ¿Qué asientos corresponden, respectivamente, de acuerdo con los artículos 65 y 67?",
-    "o": [
-      "Aprobación: nota marginal; incoación: anotación preventiva.",
-      "Aprobación: anotación preventiva; incoación: inscripción.",
-      "Aprobación: inscripción; incoación: anotación preventiva.",
-      "Aprobación: inscripción; incoación: nota marginal."
-    ],
-    "c": 2,
-    "exp": "Art. 65.1 y 67.1–2 RDL 7/2015: Los actos firmes de aprobación del artículo 65.1.a acceden mediante INSCRIPCIÓN (art. 67.1). La incoación de expedientes de disciplina del artículo 65.1.c se hace constar mediante ANOTACIÓN PREVENTIVA (art. 67.2), no por nota marginal."
-  },
-  {
-    "id": "E28-11",
-    "tema": "E28",
-    "q": "Conforme al Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, un arrendatario con derecho de retorno ocupaba una vivienda de 120 m² y debe abandonarla por una actuación aislada no expropiatoria. ¿Qué superficie mínima debe tener la vivienda que ha de proporcionarle el propietario según el artículo 19.2?",
-    "o": [
-      "60 m².",
-      "90 m².",
-      "80 m².",
-      "120 m²."
-    ],
-    "c": 1,
-    "exp": "Art. 19.2 RDL 7/2015: la vivienda de retorno debe tener al menos el 50 % de la superficie anterior y, cuando esta alcanzaba 90 m² o más, un mínimo de 90 m². El 50 % de 120 m² son 60 m², pero prevalece el mínimo legal de 90 m²; no se exige reproducir íntegramente los 120 m². Debe además ofrecer características análogas y ubicarse en el mismo solar o en el entorno."
-  },
-  {
-    "id": "E28-12",
-    "tema": "E28",
-    "q": "De acuerdo con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, la ordenación prevé una nueva urbanización de suelo rural y una reforma o renovación de suelo urbanizado. ¿Qué porcentajes mínimos de edificabilidad residencial deben reservarse para vivienda protegida, respectivamente, conforme a la regla general del artículo 20.1.b)?",
-    "o": [
-      "30 % y 10 %.",
-      "30 % y 20 %.",
-      "40 % y 10 %.",
-      "40 % y 20 %."
-    ],
-    "c": 3,
-    "exp": "Art. 20.1.b RDL 7/2015: la reserva mínima general es del 40 % de la edificabilidad residencial en suelo rural incluido en actuaciones de nueva urbanización y del 20 % en suelo urbanizado sometido a reforma o renovación. La ley permite determinadas excepciones justificadas en la legislación e instrumentos de ordenación; la pregunta solicita la regla general."
-  },
-  {
-    "id": "E28-13",
-    "tema": "E28",
-    "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se valora mediante el método residual suelo urbanizado sometido a una actuación de reforma o renovación. El planeamiento establece expresamente usos y edificabilidades tanto para su situación de origen como para la resultante de la reforma. ¿Cuáles se toman como referencia conforme al artículo 37.3?",
-    "o": [
-      "Los usos y edificabilidades de su situación de origen.",
-      "Los usos y edificabilidades de su situación reformada.",
-      "Los usos y edificabilidades medios del ámbito original.",
-      "Los usos y edificabilidades medios del ámbito reformado."
-    ],
-    "c": 0,
-    "exp": "Art. 37.3 RDL 7/2015: al aplicar el método residual a suelo urbanizado sometido a reforma o renovación, se consideran los usos y edificabilidades atribuidos por la ordenación en su situación de origen, no los que resultan de la reforma ni medias del ámbito."
-  },
-  {
-    "id": "E28-14",
-    "tema": "E28",
-    "q": "De conformidad con el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, la Administración ha ocupado terrenos destinados a dotaciones públicas sin aprobar el instrumento que debe adjudicar al propietario otros terrenos de valor equivalente. Según el artículo 48.e), ¿cuánto tiempo debe transcurrir desde la ocupación para advertir a la Administración del inicio del expediente de justiprecio y cuánto desde la advertencia para presentar la hoja de aprecio?",
-    "o": [
-      "Tres años y seis meses, respectivamente.",
-      "Cuatro años y tres meses, respectivamente.",
-      "Cuatro años y seis meses, respectivamente.",
-      "Cinco años y tres meses, respectivamente."
-    ],
-    "c": 2,
-    "exp": "Art. 48.e RDL 7/2015: transcurridos cuatro años desde la ocupación sin aprobación definitiva del instrumento de adjudicación, los interesados pueden advertir a la Administración; seis meses después de la advertencia, pueden iniciar el expediente de justiprecio mediante la hoja de aprecio. Ambos plazos se exigen en secuencia."
-  },
+  { id: "E28-08", tema: "E28", subtema: "Reversión: supuestos en que no procede (art. 47.1)", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 47.1 del Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, si se alterara el uso que motivó la expropiación de suelo en virtud de modificación o revisión del instrumento de ordenación territorial y urbanística, no procede la reversión cuando concurra alguna de las siguientes circunstancias:",
+    o: ["Que el uso dotacional público que hubiera motivado la expropiación hubiera sido efectivamente implantado y mantenido durante ocho años.",
+      "Haberse producido la expropiación para la formación o ampliación de un patrimonio público de suelo, aunque el nuevo uso no sea compatible con los fines de éste.",
+      "Haberse producido la expropiación por incumplimiento de los deberes o no levantamiento de las cargas propias del régimen aplicable al suelo conforme a esta ley.",
+      "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Real Decreto Legislativo 7/2015, art. 47.1: si se alterara el uso que motivó la expropiación, «procede la reversión salvo que concurra alguna de las siguientes circunstancias: a) Que el uso dotacional público que hubiera motivado la expropiación hubiera sido efectivamente implantado y mantenido durante ocho años, o bien que el nuevo uso asignado al suelo sea igualmente dotacional público. b) Haberse producido la expropiación para la formación o ampliación de un patrimonio público de suelo, siempre que el nuevo uso sea compatible con los fines de éste. c) Haberse producido la expropiación para la ejecución de una actuación de urbanización. d) Haberse producido la expropiación por incumplimiento de los deberes o no levantamiento de las cargas propias del régimen aplicable al suelo conforme a esta ley», además de los supuestos de la Ley de Expropiación Forzosa. Las opciones a) y c) son literales; la b) invierte la condición del patrimonio público de suelo, que exige que el nuevo uso sea compatible con sus fines. Por eso la correcta es la d). Ojo: si se expropió para urbanizar, sí procede la reversión cuando pasan diez años sin concluir la urbanización (art. 47.2.a)." },
+  { id: "E28-09", tema: "E28", subtema: "Extinción del derecho de superficie (art. 54.5)", tipo: "COMB2",
+    q: "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, a la extinción del derecho de superficie por el transcurso de su plazo de duración, sin que se hayan pactado normas sobre la liquidación de su régimen:",
+    o: ["El propietario del suelo hace suya la propiedad de lo edificado sin satisfacer indemnización, y se extinguen los derechos reales o personales impuestos por el superficiario.",
+      "El propietario del suelo hace suya la propiedad de lo edificado satisfaciendo una indemnización, y se extinguen los derechos reales o personales impuestos por el superficiario.",
+      "El propietario del suelo hace suya la propiedad de lo edificado sin satisfacer indemnización, y subsisten los derechos reales o personales impuestos por el superficiario.",
+      "El propietario del suelo hace suya la propiedad de lo edificado satisfaciendo una indemnización, y subsisten los derechos reales o personales impuestos por el superficiario."],
+    c: 0, exp: "Real Decreto Legislativo 7/2015, art. 54.5: «A la extinción del derecho de superficie por el transcurso de su plazo de duración, el propietario del suelo hace suya la propiedad de lo edificado, sin que deba satisfacer indemnización alguna cualquiera que sea el título en virtud del cual se hubiera constituido el derecho. No obstante, podrán pactarse normas sobre la liquidación del régimen del derecho de superficie» y «La extinción del derecho de superficie por el transcurso de su plazo de duración determina la de toda clase de derechos reales o personales impuestos por el superficiario». b) y d) añaden una indemnización que la ley excluye, y c) y d) mantienen unos derechos que se extinguen con el plazo. Distinto es que los derechos del propietario y del superficiario se reúnan por otra causa: entonces las cargas siguen gravándolos por separado hasta que venza el plazo." },
+  { id: "E28-10", tema: "E28", subtema: "Registro: anotación preventiva (arts. 65 y 67)", tipo: "META",
+    q: "Indique cuál de los siguientes actos se hará constar en el Registro de la Propiedad mediante anotación preventiva, conforme a lo establecido en el artículo 67 del Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana.",
+    o: ["Los actos firmes de aprobación de los expedientes de ejecución de la ordenación urbanística en cuanto supongan la modificación de las fincas registrales afectadas por el instrumento de ordenación.",
+      "La interposición de recurso contencioso-administrativo que pretenda la anulación de instrumentos de ordenación urbanística, de ejecución, o de actos administrativos de intervención.",
+      "Las condiciones especiales a que se sujeten los actos de conformidad, aprobación o autorización administrativa, en los términos previstos por las leyes.",
+      "Ninguna de las respuestas anteriores es correcta."],
+    c: 1, exp: "Real Decreto Legislativo 7/2015, art. 67.2: «Se harán constar mediante anotación preventiva los actos de las letras c) y f) del apartado 1 y el apartado 2 del artículo 65», y «Tales anotaciones caducarán a los cuatro años y podrán ser prorrogadas a instancia del órgano urbanístico actuante o resolución del órgano jurisdiccional, respectivamente». La b) es la letra f) del art. 65.1, así que es la correcta y la d) es falsa. La a) es la letra a), que se inscribe: «Se harán constar mediante inscripción los actos y acuerdos a que se refieren las letras a), b), g) y h) del apartado 1 del artículo 65» (art. 67.1). La c) es la letra d), que va por nota marginal: «Se harán constar mediante nota marginal los demás actos y acuerdos a que se refiere el artículo 65» (art. 67.3). La otra anotación preventiva es la de la incoación de expedientes de disciplina urbanística o de restauración de la legalidad (letra c)." },
+  { id: "E28-11", tema: "E28", subtema: "Derecho de realojamiento (art. 19.1)", tipo: "ALCANCE",
+    q: "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, cuando la ejecución de una actuación sobre el medio urbano mediante expropiación requiera el desalojo de los ocupantes legales de un inmueble, ¿debe garantizarse su derecho al realojamiento?",
+    o: ["No, nunca.", "Sí, siempre.", "Sí, si los ocupantes son residentes habituales.", "Sí, si los ocupantes son propietarios del inmueble."],
+    c: 2, exp: "Real Decreto Legislativo 7/2015, art. 19.1: «En la ejecución de las actuaciones sobre el medio urbano que requieran el desalojo de los ocupantes legales de inmuebles que constituyan su residencia habitual, deberán garantizar el derecho de aquéllos al realojamiento [...]: a) la Administración expropiante o, en su caso, el beneficiario de la expropiación, cuando se actúe por expropiación». El derecho depende de que el inmueble sea la residencia habitual del ocupante legal (la que constituye su domicilio durante más de 183 días al año, art. 2.3): por eso no valen ni «nunca» ni «siempre». Tampoco depende de la propiedad: la ley habla de «ocupantes legales», que pueden ser propietarios o no, y un propietario cuya residencia habitual no sea ese inmueble no tiene derecho de realojamiento. Además, si el expropiado opta por cobrar el justiprecio en metálico, no tendrá derecho de realojo (art. 19.1.a). Adaptada de la pregunta 5 del examen de Arquitecto de Noáin de 2022: a), b) y c) son sus opciones; la d) se ha cambiado porque la original (un requisito de renta que la ley no recoge) delataba la respuesta." },
+  { id: "E28-12", tema: "E28", subtema: "Reserva de vivienda protegida (art. 20.1.b)", tipo: "DATO",
+    q: "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, ¿qué porcentaje mínimo de la edificabilidad residencial prevista por la ordenación urbanística debe comprender, con carácter general, la reserva para vivienda sujeta a un régimen de protección pública en el suelo rural que vaya a ser incluido en actuaciones de nueva urbanización?",
+    o: ["10 por ciento.", "20 por ciento.", "30 por ciento.", "40 por ciento."],
+    c: 3, exp: "Real Decreto Legislativo 7/2015, art. 20.1.b), en la redacción de la disposición final cuarta de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda (en vigor desde el 26-05-2023): la reserva «comprenderá, como mínimo, los terrenos necesarios para realizar el 40 por ciento de la edificabilidad residencial prevista por la ordenación urbanística en el suelo rural que vaya a ser incluido en actuaciones de nueva urbanización y el 20 por ciento en el suelo urbanizado que deba someterse a actuaciones de reforma o renovación de la urbanización». El 20 por ciento es el mínimo del suelo urbanizado sometido a reforma o renovación, y el 30 y el 10 por ciento eran los mínimos de la redacción original de 2015, ya sustituidos. La legislación urbanística puede fijar o permitir excepcionalmente una reserva inferior o eximirla para determinados municipios o actuaciones, con las garantías que señala el propio precepto." },
+  { id: "E28-13", tema: "E28", subtema: "Valoración del suelo urbanizado en reforma o renovación (art. 37.3)", tipo: "LIT",
+    q: "De acuerdo con el artículo 37 sobre valoración en el suelo urbanizado del Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el Texto Refundido de la Ley del Suelo y Rehabilitación Urbana, cuando se trate de suelo urbanizado sometido a actuaciones de reforma o renovación:",
+    o: ["El método residual considerará los usos y edificabilidades atribuidos por la ordenación en situación de origen.",
+      "El método residual considerará los usos y edificabilidades atribuidos por la ordenación en situación de su destino.",
+      "El método residual considerará los usos y edificabilidades atribuidos por la ordenación en su situación futura.",
+      "Se calculará por el método de coste de reposición según su estado y antigüedad."],
+    c: 0, exp: "Real Decreto Legislativo 7/2015, art. 37.3: «Cuando se trate de suelo urbanizado sometido a actuaciones de reforma o renovación de la urbanización, el método residual a que se refieren los apartados anteriores considerará los usos y edificabilidades atribuidos por la ordenación en su situación de origen». b) y c) toman la ordenación de destino o futura, en lugar de la de origen que exige el precepto. d) trae el método del coste de reposición, que la ley aplica a las edificaciones del suelo rural que se valoran con independencia del suelo (art. 36.1.b). Es la pregunta 36 del examen de Arquitecto municipal de Zizur Mayor de 31-01-2026, copiada literalmente (clave A)." },
+  { id: "E28-14", tema: "E28", subtema: "Supuestos indemnizatorios y fuera de ordenación (art. 48)", tipo: "NEG",
+    q: "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, ¿cuál de los siguientes supuestos no da lugar a derecho de indemnización?",
+    o: ["Las vinculaciones y limitaciones singulares que lleven consigo una restricción de la edificabilidad o el uso que no sea susceptible de distribución equitativa.",
+      "La modificación o extinción de la eficacia de los títulos administrativos habilitantes de obras y actividades, determinadas por el cambio sobrevenido de la ordenación territorial o urbanística.",
+      "La ocupación de terrenos destinados por la ordenación a dotaciones públicas, hasta la aprobación definitiva del instrumento que adjudique al propietario otros de valor equivalente.",
+      "Las situaciones de fuera de ordenación en que queden las construcciones y edificaciones existentes como consecuencia de los cambios en la ordenación territorial o urbanística."],
+    c: 3, exp: "Real Decreto Legislativo 7/2015, art. 48.a), párrafo segundo: «Las situaciones de fuera de ordenación producidas por los cambios en la ordenación territorial o urbanística no serán indemnizables, sin perjuicio de que pueda serlo la imposibilidad de usar y disfrutar lícitamente de la construcción o edificación incursa en dicha situación durante su vida útil». Las otras tres están entre las lesiones que «Dan lugar en todo caso a derecho de indemnización»: a) es la letra b) del artículo («Las vinculaciones y limitaciones singulares que excedan de los deberes legalmente establecidos respecto de construcciones y edificaciones, o lleven consigo una restricción de la edificabilidad o el uso que no sea susceptible de distribución equitativa»), b) es la letra c) y c) es la letra e). En la ocupación de terrenos dotacionales, la indemnización se fija según el artículo 112 de la Ley de Expropiación Forzosa y, pasados cuatro años sin aprobarse el instrumento, los interesados pueden advertir a la Administración e iniciar el expediente de justiprecio seis meses después de la advertencia." },
   {
     "id": "E28-15",
     "tema": "E28",
+    "estado": "retirada",
     "q": "Según el Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se practica en el Registro de la Propiedad una nota marginal por la iniciación de un expediente de distribución de beneficios y cargas. ¿Cuál es su duración y posible prórroga conforme al artículo 68.2?",
     "o": [
       "Tres años, prorrogables por otros dos a instancia del solicitante.",
@@ -196,4 +122,18 @@ export default [
     "c": 1,
     "exp": "Art. 68.2 RDL 7/2015: la nota marginal dura tres años y puede prorrogarse otros tres a instancia del órgano o agrupación de interés urbanístico que haya solicitado su práctica. No basta la iniciativa de cualquier titular registral."
   },
+  { id: "E28-16", tema: "E28", subtema: "Infravivienda (art. 2.2)", tipo: "DEF",
+    q: "Según el artículo 2 del Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, se denomina infravivienda:",
+    o: ["La vivienda que incumpla parcialmente algunos de los requisitos de superficie, número, dimensión y características de las piezas habitables.",
+      "La edificación, o parte de ella, destinada a vivienda, que no reúne las condiciones mínimas exigidas de conformidad con la legislación aplicable.",
+      "El asentamiento irregular donde se establece una persona o una comunidad que está fuera del margen de reglamentos o las normas establecidas.",
+      "La vivienda que presente deficiencias leves en sus dotaciones e instalaciones básicas."],
+    c: 1, exp: "Real Decreto Legislativo 7/2015, art. 2.2: infravivienda es «la edificación, o parte de ella, destinada a vivienda, que no reúne las condiciones mínimas exigidas de conformidad con la legislación aplicable». El mismo apartado añade que «En todo caso, se entenderá que no reúnen dichas condiciones las viviendas que incumplan los requisitos de superficie, número, dimensión y características de las piezas habitables, las que presenten deficiencias graves en sus dotaciones e instalaciones básicas y las que no cumplan los requisitos mínimos de seguridad, accesibilidad universal y habitabilidad exigibles a la edificación». a) rebaja el supuesto a incumplir «parcialmente algunos» de esos requisitos, y no es la definición; c) describe un asentamiento irregular, figura que la ley no define; d) habla de deficiencias «leves», y la ley exige que sean «graves». Es la pregunta 35 del examen de Arquitecto municipal de Zizur Mayor de 31-01-2026, copiada literalmente (clave B)." },
+  { id: "E28-17", tema: "E28", subtema: "Deber legal de conservación: límites (art. 15)", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA: De conformidad con lo establecido en el artículo 15 del Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana, en relación con el deber legal de conservación:",
+    o: ["El límite de las obras que deban ejecutarse a costa de los propietarios en cumplimiento del deber legal de conservación de las edificaciones se establece en las tres cuartas partes del valor actual de construcción de un inmueble de nueva planta, equivalente al original.",
+      "En los casos de inejecución injustificada de las obras ordenadas, el límite máximo del deber de conservación podrá elevarse, si así lo dispone la legislación autonómica, hasta el 75% del coste de reposición de la construcción o el edificio correspondiente.",
+      "Cuando se supere el límite del deber legal de conservación, las obras que lo rebasen para obtener mejoras de interés general correrán a cargo de los fondos de la Administración que las ordene.",
+      "La Administración competente podrá imponer, en cualquier momento, la realización de obras para el cumplimiento del deber legal de conservación, de conformidad con lo dispuesto en la legislación estatal y autonómica aplicables."],
+    c: 0, exp: "Real Decreto Legislativo 7/2015, art. 15.3: «El límite de las obras que deban ejecutarse a costa de los propietarios en cumplimiento del deber legal de conservación de las edificaciones se establece en la mitad del valor actual de construcción de un inmueble de nueva planta, equivalente al original [...]». La a) cambia «la mitad» por «las tres cuartas partes», así que es la INCORRECTA. Las demás son literales: la b) es el art. 15.4, párrafo segundo (en la inejecución injustificada, el límite «podrá elevarse, si así lo dispone la legislación autonómica, hasta el 75% del coste de reposición»); la c), el art. 15.2 («Cuando se supere dicho límite, correrán a cargo de los fondos de la Administración que ordene las obras que lo rebasen para obtener mejoras de interés general»); y la d), el art. 15.4, párrafo primero. No confundas el límite general, la mitad, con su elevación excepcional al 75 %." },
 ];

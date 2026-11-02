@@ -1,199 +1,133 @@
 // Banco de preguntas del tema E30. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 30 ESPECÍFICO · TRLFOTU III — 15 preguntas originales revisadas, cinco capítulos ----------
-  {
-    "id": "E30-01",
-    "tema": "E30",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una modificación del planeamiento reduce el aprovechamiento de unos terrenos una vez vencido el plazo para cumplir los deberes urbanísticos. Para que concurra el supuesto indemnizatorio del artículo 84.2.a, el incumplimiento de esos deberes debe ser imputable a:",
-    "o": [
-      "Los propietarios de los terrenos.",
-      "La Administración.",
-      "El promotor de la actuación.",
-      "La dirección técnica de las obras."
-    ],
-    "c": 1,
-    "exp": "El art. 84.2.a contempla la modificación posterior al vencimiento cuando el incumplimiento sea imputable a la Administración. La imputación a propietarios, promotor o dirección técnica no satisface esa condición. La indemnización comprende la reducción del aprovechamiento y, en su caso, los gastos de cumplimiento que hayan quedado inservibles."
-  },
-  {
-    "id": "E30-02",
-    "tema": "E30",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un inmueble catalogado necesita obras de conservación por 160.000 euros. El coste de reposición del edificio es de 240.000 euros y el valor del suelo asciende a 60.000 euros. ¿En qué importe se sitúa el límite del deber de conservación del artículo 85.3?",
-    "o": [
-      "150.000 euros.",
-      "160.000 euros.",
-      "240.000 euros.",
-      "120.000 euros."
-    ],
-    "c": 3,
-    "exp": "El art. 85.3 fija el límite en la mitad del coste de reposición del bien, excluido el suelo: 240.000 / 2 = 120.000 euros. Los 150.000 incluirían indebidamente el suelo; los 160.000 son el presupuesto de las obras y los 240.000, el coste completo de reposición. Al superar las obras el límite, las Administraciones competentes deben prestar la cooperación que puede recabar el propietario del bien catalogado."
-  },
-  {
-    "id": "E30-03",
-    "tema": "E30",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en un ámbito de suelo urbano se incrementa la densidad residencial sin necesidad de reformar ni renovar su urbanización. ¿Cómo se denomina la actuación descrita en el artículo 90?",
-    "o": [
-      "Actuación de dotación.",
-      "Actuación edificatoria.",
-      "Actuación de reforma o renovación de la urbanización.",
-      "Actuación de nueva urbanización."
-    ],
-    "c": 0,
-    "exp": "El art. 90.5 considera actuaciones de dotación los incrementos de edificabilidad o densidad o las modificaciones de uso en suelo urbano que no requieran reformar o renovar la urbanización. La actuación edificatoria del art. 90.6 exige que no concurran esas condiciones. Tampoco se trata de reformar la urbanización ni de transformar suelo mediante nueva urbanización."
-  },
-  {
-    "id": "E30-04",
-    "tema": "E30",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando el planeamiento no concreta las normas mínimas para que una parcela urbana tenga condición de solar, ¿cuál de los siguientes requisitos NO aparece enumerado en el artículo 91?",
-    "o": [
-      "El abastecimiento de agua.",
-      "El señalamiento de alineaciones y rasantes.",
-      "El alumbrado público de la vía de frente.",
-      "El encintado de aceras de la vía de frente."
-    ],
-    "c": 2,
-    "exp": "El art. 91 exige, en defecto de concreción por el plan, acceso rodado, abastecimiento de agua, evacuación de aguas, suministro eléctrico, calzada pavimentada y encintado de aceras. Añade alineaciones y rasantes y el reparto de cargas cuando sea preciso. No enumera el alumbrado público entre esos mínimos; no debe confundirse con el suministro de energía eléctrica a la parcela."
-  },
-  {
-    "id": "E30-05",
-    "tema": "E30",
-    "q": "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de estas circunstancias determina la inclusión de unos terrenos en la categoría de suelo no urbanizable de preservación?",
-    "o": [
-      "Su sometimiento a un régimen sectorial de protección incompatible con su transformación.",
-      "La decisión justificada del plan municipal por la funcionalidad de infraestructuras.",
-      "Su exclusión de la urbanización por un instrumento de ordenación territorial.",
-      "La existencia de riesgos naturales incompatibles con su urbanización."
-    ],
-    "c": 1,
-    "exp": "El art. 92.1.e, en relación con el art. 92.2.b, incluye en preservación los terrenos que el planeamiento municipal decide justificadamente mantener por razones de conservación, capacidad y funcionalidad de infraestructuras, entre otras. Los regímenes sectoriales, la exclusión por ordenación territorial y los riesgos incompatibles corresponden a protección, conforme al art. 92.1.a, b y c y al art. 92.2.a."
-  },
-  {
-    "id": "E30-06",
-    "tema": "E30",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una actuación de dotación incrementa el aprovechamiento de su ámbito de 12.000 a 18.000 m² homogeneizados. Sin aplicar ajustes excepcionales, ¿a qué aprovechamiento equivale la entrega obligatoria a la Administración del artículo 96.2.a?",
-    "o": [
-      "600 m².",
-      "1.800 m².",
-      "1.200 m².",
-      "900 m²."
-    ],
-    "c": 0,
-    "exp": "El art. 96.2.a aplica el 10 % al incremento: (18.000 − 12.000) × 0,10 = 600 m². No se calcula sobre el aprovechamiento total nuevo ni sobre el anterior. Los 900 m² aplicarían el 15 %, máximo excepcional que requiere justificación y no se aplica al supuesto."
-  },
-  {
-    "id": "E30-07",
-    "tema": "E30",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, un área de reparto tiene 27.000 m² construibles lucrativos y otros 3.000 m² construibles de dotacional privado, ya homogeneizados. Su superficie total es de 25.000 m², incluidos 10.000 m² de sistemas generales y locales existentes. ¿Cuál es su aprovechamiento tipo?",
-    "o": [
-      "1,08 m² construibles por m² de suelo.",
-      "1,20 m² construibles por m² de suelo.",
-      "1,80 m² construibles por m² de suelo.",
-      "2,00 m² construibles por m² de suelo."
-    ],
-    "c": 3,
-    "exp": "El art. 100.1 incluye el dotacional privado en el numerador y excluye los sistemas generales y locales ya existentes del denominador: (27.000 + 3.000) / (25.000 − 10.000) = 2,00. Omitir el dotacional privado daría 1,80; mantener los sistemas existentes en el denominador daría 1,20; cometer ambos errores daría 1,08."
-  },
-  {
-    "id": "E30-08",
-    "tema": "E30",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, al autorizar la urbanización y edificación simultáneas, ¿qué porcentaje de la carga urbanística de la parcela o ámbito no pueden exceder las garantías exigidas?",
-    "o": [
-      "El 10 %.",
-      "El 20 %.",
-      "El 30 %.",
-      "El 50 %."
-    ],
-    "c": 2,
-    "exp": "El art. 105 exige garantías pertinentes y proporcionadas, con un máximo del 30 % de la carga urbanística de la parcela o ámbito. Es un límite máximo, no una cuantía fija ni un mínimo. El 10 % de cesión de aprovechamiento corresponde a otro deber y no determina esta garantía."
-  },
-  {
-    "id": "E30-09",
-    "tema": "E30",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, supuesta la compatibilidad con los valores del suelo y el cumplimiento de la normativa sectorial, ¿cuál de estas actuaciones figura entre las autorizables, en lugar de las permitidas, en suelo no urbanizable?",
-    "o": [
-      "El cambio de actividad de un edificio legal.",
-      "La ejecución de un cierre de parcela.",
-      "Las casetas de aperos de 12 m² en total.",
-      "El riego de apoyo a una explotación agrícola."
-    ],
-    "c": 0,
-    "exp": "El art. 110.4.b incluye entre las autorizables los cambios de uso o actividad en edificaciones preexistentes. Los cierres, las edificaciones menores de aperos que en conjunto no superen 15 m² y las instalaciones de riego reguladas por la normativa de infraestructuras agrícolas figuran entre las permitidas del art. 110.2. Estas últimas pueden requerir otras licencias o autorizaciones, aunque no la del art. 117."
-  },
-  {
-    "id": "E30-10",
-    "tema": "E30",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se ha concedido autorización para una actividad terciaria que debe emplazarse en suelo no urbanizable de preservación. ¿Cuándo debe cumplirse la adjudicación al Ayuntamiento del aprovechamiento prevista en el artículo 113.2?",
-    "o": [
+  // ── E30 · DFL 1/2017, de 26 de julio, TRLFOTU · Título III: régimen urbanístico del suelo (arts. 84-129) ──────
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección 2 bis):
+  // 3 META (E30-02, E30-03, E30-14), 3 DATO (E30-08, E30-12, E30-15), 2 NEG (E30-04, E30-16), 1 LISTA (E30-05),
+  // 1 LIT (E30-11), 1 AFIRM (E30-13), 1 SEL (E30-09), 1 DEF (E30-07), 1 ALCANCE (E30-01) y 1 COMB2 (E30-06).
+  // Reescritas in situ, con su id, su subtema y su tipo: E30-01 a E30-09 y E30-11 a E30-15 (las que eran de cálculo,
+  // 02, 06 y 07, pasan a META, COMB2 y DEF sin cuentas, como en Zizur). Nueva: E30-16 (art. 96.3). Retirada (no se
+  // borra: el historial va por id): E30-10 (momento de la adjudicación del art. 113.2; el dato queda en el resumen).
+  // Recicladas de exámenes reales, en versión casi literal: E30-05 = Zizur 2026 P40; E30-12 = Zizur 2026 P41;
+  // E30-14 = Zizur 2026 P62 (con una sola meta, en la d); E30-09 = Navarra 2026 P21; E30-11 = Navarra 2026 P22;
+  // E30-16 = Navarra 2026 P20.
+  // Vigencia: temas/E_Tema30.txt contrastado con el consolidado del BOE (BOE-A-2017-12907, pestaña «Análisis»,
+  // última actualización publicada el 31-12-2025) y LexNavarra (r=39197). En el Título III solo cambiaron el art.
+  // 96.2.a) (LF 27/2018), el art. 98.b) (LF 5/2020 y LF 9/2025) y los arts. 117 y 118 (LF 17/2020), ya incorporados
+  // en el TXT con su «Nota de Vigencia»; nada derogado ni posterior al 21-05-2026.
+  // Letra correcta: A 3, B 4, C 4, D 4. Metas en la d): correctas en E30-02 («Todas») y E30-03 («a) y c)»);
+  // «Ninguna» es falsa en E30-14.
+  { id: "E30-01", tema: "E30", subtema: "Indemnizaciones: anulación, demora o denegación de licencias", tipo: "ALCANCE",
+    q: "Conforme a lo establecido en el artículo 84.2.f) del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la anulación de una licencia, la demora injustificada en su otorgamiento y su denegación improcedente podrán dar lugar a la indemnización de los daños y perjuicios causados. ¿Procederá la indemnización si existe negligencia grave imputable al perjudicado?",
+    o: ["En ningún caso.",
+        "Solo por los gastos que hayan resultado inservibles.",
+        "Siempre que también concurra culpa de la Administración.",
+        "Sí, aunque moderada en proporción a la culpa del perjudicado."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 84.2.f): «La anulación de una licencia, la demora injustificada en su otorgamiento y su denegación improcedente podrán dar lugar a la indemnización de los daños y perjuicios causados de acuerdo con las normas generales que regulan la responsabilidad de la Administración. En ningún caso habrá lugar a indemnización si existe dolo, culpa o negligencia graves imputables al perjudicado». La exclusión es absoluta. La b) toma la partida de «los gastos efectuados en cumplimiento de los citados deberes que resulten inservibles», que el art. 84.2.a) indemniza en las revisiones o modificaciones del planeamiento, no en este supuesto. La c) y la d) introducen una culpa concurrente de la Administración y una moderación proporcional que el precepto no prevé: si hay dolo, culpa o negligencia graves del perjudicado, no hay indemnización." },
+  { id: "E30-02", tema: "E30", subtema: "Deberes legales de uso, conservación y rehabilitación", tipo: "META",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en relación con los deberes legales de uso, conservación y rehabilitación de los propietarios de toda clase de terrenos y construcciones:",
+    o: ["Deberán ejecutar las obras de conservación y de reforma en fachadas o espacios visibles desde la vía pública que ordenen los Ayuntamientos por motivos de interés turístico o estético, aunque no estuvieran previamente incluidas en el planeamiento.",
+        "El coste de las obras necesarias les corresponde, salvo cuando la normativa sectorial aplicable disponga que se sufragarán por la Administración o por los concesionarios de servicios públicos.",
+        "Los propietarios de bienes catalogados podrán recabar la cooperación de las Administraciones competentes, que habrán de prestarla cuando las obras excedan de la mitad del coste de reposición del bien, excluido el valor del suelo.",
+        "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 85. La a) reproduce el art. 85.1.d): «Ejecutar las obras de conservación y de reforma en fachadas o espacios visibles desde la vía pública, que ordenen los Ayuntamientos por motivos de interés turístico o estético, aunque no estuvieran previamente incluidas en el planeamiento». La b), el primer párrafo del art. 85.3: «El coste de las obras necesarias en virtud de lo dispuesto en este artículo corresponde a los propietarios, salvo cuando la normativa sectorial aplicable disponga que se sufragarán por la Administración o por los concesionarios de servicios públicos». La c), el segundo párrafo: los propietarios de bienes catalogados «podrán recabar, para conservarlos, la cooperación de las Administraciones competentes, que habrán de prestarla cuando tales obras excedieran de los límites del deber de conservación, entendido como la mitad del coste de reposición del bien, excluido el valor del suelo». Las tres son correctas, así que la respuesta es la d). El límite es la mitad del coste de reposición sin el suelo: la ley foral no contiene otro porcentaje." },
+  { id: "E30-03", tema: "E30", subtema: "Suelo urbano: condiciones", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 90.1 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, tendrá la condición de suelo urbano aquel que, estando legalmente integrado en una malla urbana conformada por una red de viales, dotaciones y parcelas propia del núcleo o asentamiento de población del que forme parte, cumpla alguna de las siguientes condiciones:",
+    o: ["Haber sido urbanizado en ejecución del correspondiente instrumento de ordenación.",
+        "Estar ocupado por la edificación en al menos la mitad del espacio apto para la misma, según la ordenación propuesta por el instrumento de planificación correspondiente.",
+        "Tener instaladas y operativas las infraestructuras y los servicios necesarios, mediante su conexión en red, o poder llegar a contar con ellos sin otras obras que las de acometida con las instalaciones preexistentes.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 90.1: es suelo urbano el integrado en la malla urbana que cumpla alguna de estas condiciones: «a) Haber sido urbanizado en ejecución del correspondiente instrumento de ordenación. b) Tener instaladas y operativas, conforme a lo establecido en la legislación aplicable, las infraestructuras y los servicios necesarios, mediante su conexión en red, [...] o poder llegar a contar con ellos sin otras obras que las de acometida con las instalaciones preexistentes. [...] c) Estar ocupado por la edificación en al menos dos de las terceras partes del espacio apto para la misma». La a) y la c) de la pregunta recogen dos de esas condiciones; la b) rebaja a la mitad las dos terceras partes que exige la ley. Por eso la correcta es la d). Recuerde también que la colindancia con carreteras de circunvalación o con vías de comunicación interurbanas no comporta, por sí misma, la condición de suelo urbano (art. 90.1.b)." },
+  { id: "E30-04", tema: "E30", subtema: "Solar", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA en relación con lo establecido en el artículo 91 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, sobre los requisitos que deben reunir las superficies de suelo urbano aptas para la edificación para tener la consideración de solares cuando el planeamiento no concrete las normas mínimas de urbanización:",
+    o: ["Que cuenten, como mínimo, con acceso rodado, abastecimiento de agua, evacuación de aguas y suministro de energía eléctrica.",
+        "Que tengan señaladas alineaciones y rasantes.",
+        "Que la vía a que la parcela dé frente tenga pavimentada la calzada y alumbrado público.",
+        "Que, cuando fuese preciso, se haya realizado el reparto de cargas de la urbanización."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 91: son solares las superficies de suelo urbano aptas para la edificación que reúnan estos requisitos: «1. Que estén urbanizadas con arreglo a las normas mínimas establecidas en cada caso por el planeamiento, y si éste no las concretare, se precisará que cuente, como mínimo, con acceso rodado, abastecimiento de agua, evacuación de aguas y suministro de energía eléctrica, y además que la vía a que la parcela dé frente tenga pavimentada la calzada y encintado de aceras. 2. Que tengan señaladas alineaciones y rasantes. 3. Que, cuando fuese preciso, se haya realizado el reparto de cargas de la urbanización». La c) es la incorrecta: cambia el «encintado de aceras» por un alumbrado público que el artículo no exige. La a), la b) y la d) son literales." },
+  { id: "E30-05", tema: "E30", subtema: "Suelo no urbanizable: categorías y subcategorías", tipo: "LISTA",
+    q: "Según el artículo 92 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en el suelo no urbanizable tanto de protección como de preservación, el planeamiento podrá distinguir las siguientes subcategorías:",
+    o: ["Suelo de valor paisajístico, de valor ambiental, de valor para su explotación natural, de valor cultural, de salvaguarda del modelo de desarrollo, de prevención de riesgos, destinado a infraestructuras y destinado para actividades especiales.",
+        "Suelo de valor paisajístico, de valor ambiental, de alta productividad agrícola, de valor cultural, de salvaguarda del modelo de desarrollo, de prevención de riesgos, destinado a infraestructuras y destinado para actividades especiales.",
+        "Suelo de valor paisajístico, de valor ambiental, de valor para su explotación natural, de valor cultural, de salvaguarda del modelo de desarrollo, de prevención de riesgos, destinado a infraestructuras y de entorno de núcleos de población.",
+        "Suelo de valor paisajístico, de valor ambiental, de valor para su explotación natural, de valor cultural, de reserva para futuros desarrollos, de prevención de riesgos, destinado a infraestructuras y destinado para actividades especiales."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 92.3: «En el suelo no urbanizable, tanto de protección como de preservación, el planeamiento podrá distinguir las siguientes subcategorías, en atención al motivo que justifica dicha clasificación: a) Suelo de valor paisajístico. b) Suelo de valor ambiental. c) Suelo de valor para su explotación natural. d) Suelo de valor cultural. e) Suelo de salvaguarda del modelo de desarrollo. f) Suelo de prevención de riesgos. g) Suelo destinado a infraestructuras. h) Suelo destinado para actividades especiales». Cada distractor cambia una de las ocho: la b) pone una alta productividad agrícola en lugar del valor para su explotación natural; la c), un entorno de núcleos de población en lugar de las actividades especiales; y la d), una reserva para futuros desarrollos en lugar de la salvaguarda del modelo de desarrollo. Ninguna de esas tres figura en el art. 92.3. No hay que confundir estas subcategorías con las dos categorías del art. 92.2 (protección y preservación). Versión de la pregunta 40 de Zizur Mayor 2026." },
+  { id: "E30-06", tema: "E30", subtema: "Deberes en suelo urbano consolidado: actuaciones de dotación", tipo: "COMB2",
+    q: "Conforme a lo establecido en el artículo 96.2.a) del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿qué suelo deberán entregar obligatoria y gratuitamente a la Administración actuante, con carácter general, los propietarios de terrenos de suelo urbano consolidado sobre los que se prevean actuaciones de dotación?",
+    o: ["El correspondiente al 10 por 100 del aprovechamiento total resultante.",
+        "El correspondiente al 10 por 100 del incremento del aprovechamiento.",
+        "El correspondiente al 15 por 100 del aprovechamiento total resultante.",
+        "El correspondiente al 15 por 100 del incremento del aprovechamiento."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 96.2.a), en la redacción dada por la Ley Foral 27/2018, vigente el 21-05-2026: «El deber de entregar obligatoria y gratuitamente a la Administración actuante el suelo correspondiente al 10 por 100 del incremento del aprovechamiento del correspondiente ámbito, que resulte de la modificación del instrumento de ordenación». La base es el incremento, no el aprovechamiento total (a y c). El 15 % (c y d) solo cabe de forma excepcional, igual que la reducción: «Con carácter excepcional, y a la vista de la memoria de viabilidad y sostenibilidad económica, el porcentaje se podrá reducir hasta un mínimo de un 5 por ciento, o incrementar de forma proporcionada y motivada hasta un máximo de un 15 por ciento». No debe confundirse con el suelo urbano no consolidado, donde se cede el 10 % del aprovechamiento del ámbito, salvo la mera sustitución de la edificación sin incremento (art. 96.3.c)." },
+  { id: "E30-07", tema: "E30", subtema: "Áreas de reparto y aprovechamiento tipo", tipo: "DEF",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cómo se obtiene el aprovechamiento tipo de cada área de reparto delimitada?",
+    o: ["Dividiendo el aprovechamiento lucrativo total, excluido el dotacional privado, debidamente homogeneizado, por su superficie total, excluidos los terrenos afectados a sistemas generales o locales ya existentes.",
+        "Dividiendo el aprovechamiento lucrativo total, incluido el dotacional privado, debidamente homogeneizado, por su superficie total, incluidos los terrenos afectados a sistemas generales o locales ya existentes.",
+        "Dividiendo el aprovechamiento lucrativo total, incluido el dotacional privado, debidamente homogeneizado, por su superficie total, excluidos los terrenos afectados a sistemas generales o locales ya existentes.",
+        "Dividiendo el aprovechamiento lucrativo total, incluido el dotacional privado, sin homogeneizar, por su superficie total, excluidos los terrenos afectados a sistemas generales o locales ya existentes."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 100.1: «El aprovechamiento tipo de cada área de reparto delimitada se obtendrá dividiendo el aprovechamiento lucrativo total correspondiente a la ordenación urbanística prevista por el planeamiento de desarrollo para dicha área, incluido el dotacional privado, debidamente homogeneizado, expresado siempre en metros cuadrados construibles, por su superficie total, excluidos los terrenos afectados a sistemas generales o locales ya existentes». La a) saca del numerador el dotacional privado, que la ley incluye; la b) deja en el denominador los sistemas generales o locales ya existentes, que la ley excluye; y la d) prescinde de la homogeneización, que se hace con el sistema de coeficientes de usos y tipologías que el Plan General Municipal fija «en atención a los respectivos valores de mercado» (art. 100.2)." },
+  { id: "E30-08", tema: "E30", subtema: "Urbanización y edificación simultáneas", tipo: "DATO",
+    q: "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, cuando la Administración autorice la urbanización y edificación simultáneas, ¿qué porcentaje de la carga urbanística de la parcela o ámbito no podrán exceder las garantías pertinentes y proporcionadas que exija?",
+    o: ["El 10 por ciento.",
+        "El 20 por ciento.",
+        "El 30 por ciento.",
+        "El 50 por ciento."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 105: «La Administración podrá autorizar la urbanización y edificación simultáneas, exigiendo para ello y, en todo caso, las garantías pertinentes y proporcionadas que no podrán exceder del 30 por ciento de la carga urbanística de la parcela o ámbito, mediante aval económico suficiente o cualquier otra garantía de las admitidas en Derecho». Es un tope, no una cuantía fija. El 10 % es el porcentaje de las cesiones de aprovechamiento (arts. 96 y 98); el 20 % es el de las ampliaciones de instalaciones agrícolas o ganaderas permitidas en suelo no urbanizable (art. 110.2.d); y el 50 % corresponde a la mitad del coste de reposición que limita el deber de conservación (art. 85.3), no a las garantías." },
+  { id: "E30-09", tema: "E30", subtema: "Suelo no urbanizable: actividades permitidas y autorizables", tipo: "SEL",
+    q: "A efectos de lo dispuesto en el artículo 110 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ¿cuál de las siguientes tiene la consideración de actuación autorizable en suelo no urbanizable?",
+    o: ["Los cierres de parcela.",
+        "La contención, movimientos de tierras y la apertura de pistas o caminos siempre que no estén vinculados a la implantación de actividades o usos constructivos, a actividades extractivas o a la implantación de vertederos de residuos.",
+        "Las instalaciones de riego o de drenaje de apoyo a las explotaciones agrícolas reguladas por la normativa en materia de infraestructuras agrícolas.",
+        "Los cambios de uso o actividad en edificaciones preexistentes."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 110.4: «Tendrán la consideración de actuaciones autorizables: a) Las constructivas, salvo aquellas señaladas como permitidas en el apartado 2 de este artículo. b) Los cambios de uso o actividad en edificaciones preexistentes. c) Aquellas otras expresamente reguladas por la legislación sectorial». Las otras tres son actuaciones permitidas del art. 110.2: «c) Los cierres de parcela», «e) La contención, movimientos de tierras y la apertura de pistas o caminos siempre que no estén vinculados a la implantación de actividades o usos constructivos, a actividades extractivas o a la implantación de vertederos de residuos» y «f) Instalaciones de riego o de drenaje de apoyo a las explotaciones agrícolas reguladas por la normativa en materia de infraestructuras agrícolas». Las permitidas no precisan la autorización de actividad autorizable del art. 117, sin perjuicio de licencia, autorización o informe de otros órganos. Versión casi literal de la pregunta 21 de Navarra 2026." },
+  { id: "E30-10", tema: "E30", estado: "retirada",
+    q: "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, se ha concedido autorización para una actividad terciaria que debe emplazarse en suelo no urbanizable de preservación. ¿Cuándo debe cumplirse la adjudicación al Ayuntamiento del aprovechamiento prevista en el artículo 113.2?",
+    o: [
       "Al finalizar las obras de urbanización.",
       "Antes del inicio de cualquier actuación.",
       "Al obtener la licencia de primera utilización.",
       "Al inscribir la edificación en el Registro."
     ],
-    "c": 1,
-    "exp": "El art. 113.2 sitúa la adjudicación después de concederse la autorización y antes de iniciar cualquier actuación. No permite aplazarla a la terminación de las obras, a la primera utilización ni a la inscripción. Su cuantía equivale al 10 % del incremento de valor de los terrenos afectados."
-  },
-  {
-    "id": "E30-11",
-    "tema": "E30",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una edificación con uso residencial en suelo no urbanizable de preservación puede englobar dos unidades de vivienda por parcela conforme al artículo 115.3. ¿Hasta qué grado máximo se admite el parentesco entre sus titulares?",
-    "o": [
-      "Hasta el primer grado de consanguinidad o afinidad.",
-      "Hasta el segundo grado de consanguinidad o afinidad.",
-      "Hasta el cuarto grado de consanguinidad o afinidad.",
-      "Hasta el tercer grado de consanguinidad o afinidad."
-    ],
-    "c": 3,
-    "exp": "El art. 115.3 establece parentesco hasta el tercer grado de consanguinidad o afinidad. Limitarlo al primero o al segundo excluiría casos admitidos; ampliarlo al cuarto permitiría un supuesto no previsto. La excepción se refiere a dos unidades dentro de una edificación residencial, no a autorizar otra vivienda independiente en una parcela que ya tiene ese uso."
-  },
-  {
-    "id": "E30-12",
-    "tema": "E30",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, una actividad autorizable en suelo no urbanizable afecta a varios términos municipales y no está sujeta a las autorizaciones ambientales o de energía y minas del artículo 118. ¿Ante quién se presenta directamente la solicitud?",
-    "o": [
-      "El Ayuntamiento donde se ubique la edificación principal.",
-      "Cada Ayuntamiento afectado, mediante solicitudes separadas.",
-      "El departamento de ordenación del territorio y urbanismo.",
-      "La Comisión de Ordenación del Territorio."
-    ],
-    "c": 2,
-    "exp": "El art. 118.1.a exige presentar directamente la solicitud ante el departamento competente en ordenación del territorio y urbanismo cuando la actividad afecta a varios municipios. No se selecciona un Ayuntamiento por la localización de la edificación ni se tramitan solicitudes independientes. La solicitud se dirige al departamento, no a la Comisión de Ordenación del Territorio. Se mantiene el informe municipal previo a la resolución previsto en el art. 118.2."
-  },
-  {
-    "id": "E30-13",
-    "tema": "E30",
-    "q": "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, señale la afirmación correcta sobre la determinación y pago del justiprecio:",
-    "o": [
-      "El pago mediante terrenos se limita a parcelas resultantes de la propia actuación expropiatoria.",
-      "El mutuo acuerdo es posible antes de la fijación definitiva del justiprecio en vía administrativa.",
-      "El pago mediante terrenos de valor equivalente lleva aparejado el incremento del 5 % del justiprecio.",
-      "Las obras que motivan la expropiación por infracción grave no prescrita se incluyen en el justiprecio."
-    ],
-    "c": 1,
-    "exp": "El art. 125.3 permite el mutuo acuerdo en cualquier momento anterior a la fijación definitiva en vía administrativa. El pago en terrenos puede proceder de la propia actuación o de otras de la Administración y no lleva el incremento del 5 %, conforme al art. 125.4. El art. 125.5 excluye las obras determinantes de una infracción grave o muy grave no prescrita en la expropiación por esa causa."
-  },
-  {
-    "id": "E30-14",
-    "tema": "E30",
-    "q": "Conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, para que el Jurado de Expropiación de Navarra pueda constituirse válidamente y adoptar acuerdos en segunda convocatoria, debe asistir su Presidente junto con un mínimo de:",
-    "o": [
-      "Dos vocales.",
-      "Un vocal.",
-      "Tres vocales.",
-      "Cuatro vocales."
-    ],
-    "c": 0,
-    "exp": "El art. 126.3 exige al Presidente y dos vocales en segunda convocatoria. Un vocal no alcanza el mínimo y tres o cuatro no son exigibles en esa convocatoria. En primera convocatoria deben asistir todos los miembros del Jurado, que son cinco según el art. 126.2."
-  },
-  {
-    "id": "E30-15",
-    "tema": "E30",
-    "q": "De acuerdo con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, en el procedimiento previo a la expropiación por incumplimiento de deberes urbanísticos, el propietario cumple las condiciones de subsanación dentro del plazo concedido. ¿Qué actuación procede según el artículo 128.4?",
-    "o": [
-      "Archivar las actuaciones sin incoar expediente sancionador.",
-      "Conceder un nuevo plazo para formular alegaciones.",
-      "Continuar el procedimiento de expropiación anunciado.",
-      "Incoar expediente sancionador en sustitución de la expropiación."
-    ],
-    "c": 3,
-    "exp": "El art. 128.4 dispone que, cumplidas las condiciones de subsanación, se incoe el expediente sancionador sustitutorio de la expropiación. Subsanar evita esa expropiación, pero no determina el archivo sin sanción ni exige repetir la audiencia. Si no se subsana, procede iniciar el expediente expropiatorio conforme al apartado 3."
-  },
+    c: 1, exp: "Retirada el 02-11-2026 al ajustar el bloque a la mezcla de Zizur Mayor 2026; el dato era correcto y queda en el resumen (tabla de cesiones del 10 %). El art. 113.2 sitúa la adjudicación después de concederse la autorización y antes de iniciar cualquier actuación. No permite aplazarla a la terminación de las obras, a la primera utilización ni a la inscripción. Su cuantía equivale al 10 % del incremento de valor de los terrenos afectados." },
+  { id: "E30-11", tema: "E30", subtema: "Vivienda unifamiliar aislada en suelo no urbanizable", tipo: "LIT",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, la superficie mínima de la parcela para construir viviendas aisladas en suelo no urbanizable de preservación:",
+    o: ["No será inferior a 10.000 m², pero podrá ser incrementada o reducida por los planes y normas municipales.",
+        "No será inferior a 10.000 m², pero podrá ser incrementada por los planes y normas municipales.",
+        "No será inferior a 1.500 m², pero podrá ser incrementada por los planes y normas municipales.",
+        "No será inferior a 10.000 m², sin que los planes y normas municipales puedan incrementarla."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 115.2: «La superficie mínima de la parcela para construir viviendas aisladas en suelo no urbanizable no será inferior a 10.000 metros cuadrados [...]. La superficie mínima de la parcela podrá ser incrementada por los planes y normas municipales». Los planes pueden aumentarla, pero no reducirla (a), y tampoco tienen vedado incrementarla (d). Los 1.500 m² (c) son la superficie mínima de las viviendas en barrios rurales tradicionales (art. 116.2). Versión de la pregunta 22 de Navarra 2026." },
+  { id: "E30-12", tema: "E30", subtema: "Procedimiento de autorización en suelo no urbanizable", tipo: "DATO",
+    q: "En el procedimiento de autorización de actividades autorizables en suelo no urbanizable regulado en el artículo 117 del Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el cese de la actividad autorizada conllevará la obligación del titular de la actividad de reponer los terrenos afectados por la misma a su estado original, mediante la demolición o retirada de las construcciones, en el plazo máximo de:",
+    o: ["Un año.",
+        "Dos años.",
+        "Cinco años.",
+        "Diez años."],
+    c: 2, exp: "Decreto Foral Legislativo 1/2017, art. 117.4, en la redacción dada por la Ley Foral 17/2020, vigente el 21-05-2026: «La ejecución o puesta en marcha de la actividad deberá realizarse en el plazo máximo de dos años desde que se otorgara la autorización, trascurrido el cual esta agotará automáticamente sus efectos y devendrá ineficaz. El cese de la actividad autorizada conllevará la obligación del titular de la actividad de reponer los terrenos afectados por la misma a su estado original en el plazo máximo de cinco años, mediante la demolición o retirada de las construcciones». Los dos años son el plazo de ejecución o puesta en marcha, no el de reposición; un año y diez años no aparecen en el artículo. El promotor ya se compromete en la solicitud a revertir el suelo en ese plazo de cinco años (art. 119.m). Versión de la pregunta 41 de Zizur Mayor 2026." },
+  { id: "E30-13", tema: "E30", subtema: "Justiprecio", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA en relación con la determinación y pago del justiprecio conforme al Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo:",
+    o: ["El mutuo acuerdo será posible en cualquier momento anterior a la fijación definitiva en vía administrativa del justiprecio.",
+        "La aceptación por los expropiados, en el plazo concedido al efecto, del precio ofrecido por la Administración les dará derecho a percibirlo incrementado en un 10 por 100.",
+        "El pago mediante la adjudicación de terrenos de valor equivalente deberá hacerse con terrenos resultantes de la propia actuación expropiatoria.",
+        "El justiprecio se fijará por mutuo acuerdo o, en su defecto, por el departamento competente en materia de ordenación del territorio y urbanismo."],
+    c: 0, exp: "Decreto Foral Legislativo 1/2017, art. 125.3: «El mutuo acuerdo será posible en cualquier momento anterior a la fijación definitiva en vía administrativa del justiprecio». La b) eleva al 10 % un incremento que es del 5 %: la aceptación del precio ofrecido da derecho «a percibir dicho precio incrementado en un 5 por 100» (art. 125.3). La c) es falsa porque los terrenos pueden ser «resultantes de la propia actuación o de cualesquiera otras de las que sea titular la Administración actuante» (art. 125.4), y en ese caso no se aplica el incremento del 5 %. La d) cambia el órgano: «El justiprecio se fijará por mutuo acuerdo o, en su defecto por el Jurado de Expropiación de Navarra, de acuerdo con la legislación aplicable» (art. 125.2); el departamento de ordenación del territorio y urbanismo es el que resuelve las autorizaciones en suelo no urbanizable (art. 117), no el justiprecio." },
+  { id: "E30-14", tema: "E30", subtema: "Jurado de Expropiación de Navarra", tipo: "META",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, el Jurado de Expropiación de Navarra:",
+    o: ["Es un órgano administrativo adscrito al Gobierno de Navarra, formado por seis miembros designados por el Gobierno de Navarra entre personas con experiencia profesional en valoraciones inmobiliarias.",
+        "Entenderá y decidirá sobre los expedientes de justiprecio que se produzcan en las expropiaciones de cualquier clase que lleven a cabo las Administraciones Públicas de Navarra.",
+        "Podrá constituirse válidamente y adoptar acuerdos en segunda convocatoria con la asistencia del Presidente y un Vocal.",
+        "Ninguna de las respuestas anteriores es correcta."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 126.1: «El Jurado de Expropiación de Navarra entenderá y decidirá sobre los expedientes de justiprecio que se produzcan en las expropiaciones de cualquier clase que lleven a cabo las Administraciones Públicas de Navarra». La a) falla en el número: el Jurado «estará formado por cinco miembros, que serán designados por el Gobierno de Navarra entre personas con experiencia profesional en valoraciones inmobiliarias, uno de los cuales será su Presidente» (art. 126.2). La c) también es falsa: en segunda convocatoria se exige «la del Presidente y dos Vocales», y en primera, «la asistencia de todos sus miembros» (art. 126.3). Como la b) es correcta, la d) es falsa. Versión de la pregunta 62 de Zizur Mayor 2026, que también daba seis miembros en la a)." },
+  { id: "E30-15", tema: "E30", subtema: "Expropiación por incumplimiento de deberes urbanísticos", tipo: "DATO",
+    q: "De conformidad con el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, previamente al inicio del procedimiento de expropiación por incumplimiento de los deberes urbanísticos, la Administración actuante notificará al propietario y, en su caso, al promotor el supuesto de incumplimiento que concurra. ¿Qué plazo les otorgará para formular alegaciones?",
+    o: ["Diez días.",
+        "Quince días.",
+        "Veinte días.",
+        "Un mes."],
+    c: 1, exp: "Decreto Foral Legislativo 1/2017, art. 128.1: la Administración actuante notificará al propietario y promotor, en su caso, el supuesto de incumplimiento que concurra, «otorgándole un plazo de quince días para formular alegaciones». El mes no es el plazo de alegaciones, sino el mínimo del plazo de subsanación que se concede después, «no inferior a un mes ni superior a tres» (art. 128.2); diez y veinte días no aparecen en el artículo. Si no se subsana, se inicia el expediente expropiatorio; si se cumplen las condiciones de subsanación, se incoa el expediente sancionador, sustitutorio de la expropiación (art. 128.3 y 4)." },
+  { id: "E30-16", tema: "E30", subtema: "Deberes en suelo urbano no consolidado", tipo: "NEG",
+    q: "Según el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, los deberes de los propietarios de suelo urbano no consolidado son, entre otros (señálese la que NO proceda):",
+    o: ["Ceder obligatoria y gratuitamente a la Administración todo el suelo necesario para los viales, espacios libres, zonas verdes y dotaciones públicas de carácter local.",
+        "Ceder obligatoria y gratuitamente el suelo necesario para la ejecución de los sistemas generales que el planeamiento, en su caso, incluya en el ámbito correspondiente, a efectos de su gestión.",
+        "Proceder a la distribución equitativa de los beneficios y cargas derivados del planeamiento, con anterioridad al inicio de la ejecución material del mismo.",
+        "Ceder obligatoria y gratuitamente los terrenos destinados a dotación supramunicipal para la construcción de viviendas sometidas a algún régimen de protección pública."],
+    c: 3, exp: "Decreto Foral Legislativo 1/2017, art. 96.3: los propietarios de suelo urbano no consolidado deben «a) Ceder obligatoria y gratuitamente a la Administración todo el suelo necesario para los viales, espacios libres, zonas verdes y dotaciones públicas de carácter local al servicio del ámbito de desarrollo en el que sus terrenos resulten incluidos», «b) Ceder obligatoria y gratuitamente el suelo necesario para la ejecución de los sistemas generales que el planeamiento, en su caso, incluya en el ámbito correspondiente, a efectos de su gestión» y «d) Proceder a la distribución equitativa de los beneficios y cargas derivados del planeamiento, con anterioridad al inicio de la ejecución material del mismo». La cesión de los terrenos destinados a dotación supramunicipal para la construcción de viviendas sometidas a algún régimen de protección pública es un deber del suelo urbanizable (art. 98.b), que en la redacción vigente, dada por las Leyes Forales 5/2020 y 9/2025, alcanza también a los alojamientos dotacionales. Versión de la pregunta 20 de Navarra 2026." },
 ];
