@@ -217,11 +217,11 @@ c) Sin perjuicio de lo establecido en los párrafos anteriores, un 10 por 100 de
 
 d) Previo concurso de méritos, que se realizará conforme a las disposiciones que se dicten reglamentariamente, podrán ascender al grado inmediatamente superior hasta un 10 por 100 de los funcionarios de los grados 1 a 6, ambos inclusive .
 
-Artículo 17 Nota de Vigencia
+Artículo 17
 
-1. A los funcionarios que asciendan de nivel se les asignará el grado que resulte de dividir entre ocho el número de años de servicios reconocidos.
+(Suprimido).
 
-2. No obstante, la retribución correspondiente al grado que se les asigne en el nuevo nivel no podrá ser inferior a la del grado que ostentaban en el nivel anterior.
+[Nota de vigencia: artículo eliminado por el artículo único, apartado cuatro, de la Ley Foral 12/2023, de 29 de marzo («Se elimina el artículo 17»), en vigor desde el 19-04-2023. Ya no existe la regla de «dividir entre ocho» los años de servicios para asignar grado al ascender de nivel.]
 
 Artículo 18 
 
@@ -332,6 +332,8 @@ Artículo 25
 La excedencia podrá ser voluntaria, especial o forzosa.
 
 Artículo 26 Nota de Vigencia
+
+[Nota de vigencia: el artículo 4.1 de la Ley Foral 7/2025, de 4 de junio, de medidas extraordinarias y urgentes en materia de personal para la reducción de la temporalidad, suspende la aplicación de este artículo 26 durante dos años desde su entrada en vigor (del 17-06-2025 al 17-06-2027). Durante ese periodo, y por tanto el 21-05-2026, se aplica a las excedencias voluntarias la regulación del artículo 4.2 de esa ley foral, que es la que se reproduce a continuación. La redacción suspendida del artículo 26 (Ley Foral 12/2023) no se estudia.]
 
 1. Procederá declarar la excedencia voluntaria, a petición del personal funcionario, en los siguientes casos:
 
@@ -777,7 +779,9 @@ f) A cumplir las órdenes de sus superiores jerárquicos en las materias propias
 
 g) A sustituir en sus funciones a sus compañeros ausentes del servicio, incluidos los superiores.
 
-h) A residir en la localidad de su destino, salvo la autorización expresa en contrario Nota de Vigencia.
+h) (Suprimida).
+
+[Nota de vigencia: «Se suprime la letra h) del artículo 56», Ley Foral 3/2010, de 23 de febrero, relativa al deber de residencia. La residencia se regula ahora en el artículo 58.]
 
 i) A asistir puntualmente al correspondiente lugar de trabajo y a cumplir estrictamente la jornada que reglamentariamente se determine.
 
@@ -899,9 +903,9 @@ k) La reiteración o reincidencia en faltas leves.
 
 l) En general, el incumplimiento de los deberes que perturbe el eficaz funcionamiento de los servicios o produzca perjuicios a la Administración o a los ciudadanos.
 
-m) El acoso sexual Nota de Vigencia.
+[Nota de vigencia: la antigua letra m), «El acoso sexual», ya no figura entre las faltas graves; tras la modificación de los artículos 63 y 64 por la Ley Foral 19/2024, de 26 de diciembre, de Presupuestos Generales de Navarra para 2025, el acoso sexual es falta muy grave (artículo 64, letra l).]
 
-Artículo 64 
+Artículo 64
 
 Son faltas muy graves:
 
@@ -1017,67 +1021,37 @@ Artículo 72
 
 La responsabilidad por faltas disciplinarias se entenderá sin perjuicio de la responsabilidad civil o penal que pudiera derivarse de aquéllas.
 
-CAPÍTULO X. Derechos pasivos Nota de Vigencia-
+CAPÍTULO X. Derechos pasivos (Derogado)
+
+[Nota de vigencia: «Se deroga el capítulo X del Título II del Texto Refundido del Estatuto del Personal al servicio de las Administraciones Públicas de Navarra», disposición derogatoria única de la Ley Foral 10/2003, de 5 de marzo, sobre régimen transitorio de los derechos pasivos del personal funcionario de los Montepíos de las Administraciones Públicas de Navarra. Los artículos 73 a 79 (pensiones, jubilación forzosa a los 65 años, jubilación voluntaria con 35 años de servicios o 55 de edad y 30 de servicios, viudedad, orfandad y pensiones especiales) no están vigentes y no se estudian.]
 
 Artículo 73
 
-1. Los funcionarios causarán para sí o para sus familiares las siguientes pensiones:
-
-a) De jubilación.
-
-b) De viudedad.
-
-c) De orfandad.
-
-d) Pensiones especiales.
-
-2. Los funcionarios contribuirán a la financiación del régimen de derechos pasivos establecido en el presente Estatuto con el porcentaje de sus retribuciones personales básicas que reglamentariamente se determine.
+(Derogado).
 
 Artículo 74
 
-1. La jubilación podrá ser:
+(Derogado).
 
-a) Forzosa.
+Artículo 75
 
-b) Voluntaria.
-
-c) Por incapacidad.
-
-d) Especial.
-
-2. La jubilación forzosa se declarará de oficio al cumplir el funcionario 65 años de edad .
-
-3. Procederá la jubilación voluntaria, a instancia del funcionario que reúna alguno de los siguientes requisitos:
-
-a) Haber prestado 35 años de servicios reconocidos.
-
-b) Haber cumplido 55 años de edad y haber prestado 30 años de servicios reconocidos.
-
-4. Procederá también la jubilación, previa instrucción de expediente que podrá iniciarse de oficio a instancia del interesado, cuando éste padezca incapacidad permanente para el ejercicio de sus funciones. La declaración de incapacidad podrá ser revisada, de oficio o a instancia del interesado, rehabilitando al funcionario para el desempeño del cargo.
-
-5. Podrán declararse jubilaciones especiales en aquellos casos en que así se establezca reglamentariamente.
-
-Artículo 75 Nota de Vigencia
-
-Serán beneficiarios de la pensión de viudedad los cónyuges y parejas estables de los funcionarios y de los pensionistas por jubilación que reúnan los requisitos que se determinen reglamentariamente.
+(Derogado).
 
 Artículo 76
 
-1. Si el funcionario o pensionista por jubilación dejasen, además del cónyuge viudo, hijos menores de edad, la pensión de viudedad se incrementará, en concepto de pensión de orfandad, en el porcentaje que reglamentariamente se determine.
-
-2. Si el funcionario o pensionista por jubilación fallecidos fueran viudos y dejasen hijos menores de edad, éstos se distribuirán, a partes iguales, la cuantía acumulada de las pensiones de viudedad y orfandad que hubieran podido corresponderles.
+(Derogado).
 
 Artículo 77
 
-Si al fallecimiento del funcionario o pensionista por jubilación no quedare cónyuge viudo ni hijos menores de edad, los ascendientes que hubieren convivido con el causante en total dependencia económica del mismo serán beneficiarios de las pensiones especiales que reglamentariamente se determinen.
+(Derogado).
 
 Artículo 78
 
-Reglamentariamente se determinarán los requisitos necesarios para el devengo y percepción de las pensiones a que se refieren los artículos anteriores, así como los beneficiarios, la cuantía y la extinción de las mismas.
+(Derogado).
 
 Artículo 79
 
-La cuantía de las pensiones establecidas en el presente Estatuto se actualizará anualmente en el mismo porcentaje que las retribuciones personales básicas de los funcionarios en activo.
+(Derogado).
 
 CAPÍTULO XI. Órganos de representación, negociación colectiva y participación en la determinación de las condiciones de trabajo Nota de Vigencia-
 
