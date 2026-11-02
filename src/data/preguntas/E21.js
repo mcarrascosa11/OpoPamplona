@@ -1,7 +1,21 @@
 // Banco de preguntas del tema E21. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 21 · DF 26/2022 · PREGUNTAS REVISADAS ----------
-  { id: "E21-01", tema: "E21",
+  // ── E21 · DF 26/2022, Reglamento de desarrollo de la LF 17/2020 (actividades con incidencia ambiental) ──
+  // 02-11-2026: chequeo del tema. Alcance: Títulos I, IV y VI y Anejos I y II. Vigencia a 21-05-2026 comprobada
+  // en LexNavarra (r=54772; BON n.º 89, de 9-5-2022, con corrección de errores en el BON de 13-5-2022): el índice
+  // no tiene ninguna «Nota de vigencia», así que el decreto no se ha modificado. La LF 17/2020 (BOE-A-2021-526)
+  // solo ha cambiado en su DA 8.ª (LF 14/2025 y LF 15/2026, esta posterior), que el reglamento no cita. El
+  // art. 58.1.l remite al RD 2267/2004, derogado por el RD 164/2025 (BOE 10-4-2025): no se pregunta.
+  // 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección 2 bis): 3 META (07, 10, 17),
+  // 3 DATO (05, 06, 12), 2 NEG (04, 16), 1 LISTA (20), 1 LIT (13), 1 AFIRM (14), 1 SEL (11), 1 DEF (18),
+  // 1 ALCANCE (09) y 1 COMB2 (08). Todas reescritas in situ con su id.
+  // Retiradas (no se borran: el historial va por id): E21-01 (objeto del art. 1) y E21-02 (fecha de instalación
+  // existente), que quedan en el resumen; E21-03 (silencio; pasa a E21-08); E21-15 (Anejo I; pasa a E21-14);
+  // E21-19 y E21-27 (instalaciones independientes, art. 3; en el resumen); E21-21 y E21-29 (información pública
+  // de la modificación sustancial; pasa a E21-06); E21-26 (duplicaba E21-18) y E21-28 (duplicaba E21-20).
+  // Letra correcta: A 4, B 4, C 4, D 3. Metas en la d): correctas en E21-07 («a) y c)») y E21-17 («Todas»);
+  // «Ninguna» es falsa en E21-10.
+  { id: "E21-01", tema: "E21", estado: "retirada",
   q: "¿Qué conjunto recoge correctamente el contenido regulado por el DF 26/2022?",
   o: [
     "Intervención ambiental, disciplina urbanística y responsabilidad medioambiental",
@@ -12,7 +26,7 @@ export default [
   c: 2,
   exp: "Art. 1: regula los procedimientos de intervención ambiental; la inspección y restauración de la legalidad; y la sustitución de multas por prestaciones ambientales."
 },
-  { id: "E21-02", tema: "E21",
+  { id: "E21-02", tema: "E21", estado: "retirada",
   q: "¿Qué fecha utiliza el art. 2.a del DF 26/2022 para definir una instalación existente?",
   o: [
     "30 de marzo de 2022",
@@ -23,7 +37,7 @@ export default [
   c: 2,
   exp: "Art. 2.a: instalación existente es la que estaba en funcionamiento y había sido autorizada antes del 22 de junio de 2021, con la condición adicional prevista para las instalaciones que hubieran solicitado las autorizaciones exigibles."
 },
-  { id: "E21-03", tema: "E21",
+  { id: "E21-03", tema: "E21", estado: "retirada", sustituidaPor: "E21-08",
   q: "¿Qué efecto produce, con carácter general, la falta de resolución expresa dentro del plazo en los procedimientos del DF 26/2022?",
   o: [
     "Silencio desestimatorio, con posibilidad de recurso",
@@ -34,128 +48,75 @@ export default [
   c: 0,
   exp: "Art. 7: el vencimiento del plazo sin resolución expresa permite entender desestimadas las solicitudes y habilita para interponer los recursos procedentes."
 },
-  { id: "E21-04", tema: "E21",
-  q: "¿Qué información no puede tener carácter confidencial según el art. 8.3?",
-  o: [
-    "Ubicación e impactos ambientales de la instalación",
-    "Datos personales sometidos a protección legal",
-    "Información comercial protegida legalmente",
-    "Derechos de propiedad intelectual e industrial"
-  ],
-  c: 0,
-  exp: "Art. 8.3: no pueden ser confidenciales los datos relativos a la ubicación y a los potenciales impactos ambientales, incluidos consumos, residuos y emisiones."
-},
-  { id: "E21-05", tema: "E21",
-  q: "¿En qué plazo puede inadmitirse una solicitud de licencia de actividad clasificada por razones de competencia municipal?",
-  o: [
-    "15 días desde la presentación",
-    "20 días desde la presentación",
-    "1 mes desde la presentación",
-    "10 días desde la presentación"
-  ],
-  c: 0,
-  exp: "Art. 47: la inadmisión expresa y motivada puede acordarse en el plazo de 15 días y por razones de competencia municipal basadas en el planeamiento urbanístico o en las ordenanzas municipales."
-},
-  { id: "E21-06", tema: "E21",
-  q: "¿Cuál es el plazo mínimo de información pública en la tramitación de una licencia de actividad clasificada?",
-  o: [
-    "15 días",
-    "20 días",
-    "30 días",
-    "10 días"
-  ],
-  c: 1,
-  exp: "Art. 48.1: el periodo de información pública no será inferior a 20 días."
-},
-  { id: "E21-07", tema: "E21",
-  q: "¿Qué carácter tienen los informes de los Departamentos de la Administración foral en la licencia de actividad clasificada?",
-  o: [
-    "Facultativos y vinculantes, con plazo general de quince días",
-    "Preceptivos y no vinculantes, con plazo general de veinte días",
-    "Facultativos y no vinculantes, con plazo general de un mes",
-    "Preceptivos y vinculantes, con plazo general de un mes"
-  ],
-  c: 3,
-  exp: "Arts. 49.6 y 49.7: son preceptivos y vinculantes en el momento de la concesión. El plazo general es de un mes, salvo que su normativa específica establezca uno mayor."
-},
-  { id: "E21-08", tema: "E21",
-  q: "¿Cuál es el plazo máximo para resolver y notificar una licencia de actividad clasificada?",
-  o: [
-    "2 meses, con silencio estimatorio",
-    "3 meses, con silencio desestimatorio",
-    "4 meses, con silencio desestimatorio",
-    "6 meses, con silencio estimatorio"
-  ],
-  c: 2,
-  exp: "Art. 53.1: el plazo máximo es de 4 meses desde la presentación de la documentación completa. Transcurrido el plazo, la solicitud se entiende desestimada."
-},
-  { id: "E21-09", tema: "E21",
-  q: "¿Qué combinación permite conceder licencia de obras durante la tramitación de una licencia de actividad clasificada?",
-  o: [
-    "Declaración responsable presentada, ausencia de riesgos y resolución ambiental favorable",
-    "Información pública finalizada, informe ambiental favorable y ausencia de licencia urbanística",
-    "Ausencia de autorización en suelo no urbanizable, ausencia de riesgos y ausencia de autorización ganadera",
-    "Proyecto técnico presentado, informe sanitario favorable y ausencia de alegaciones"
-  ],
-  c: 2,
-  exp: "Art. 55.1: deben concurrir acumulativamente los requisitos relativos a suelo no urbanizable, seguridad y salud, y autorización ganadera."
-},
-  { id: "E21-10", tema: "E21",
-  q: "Si el titular comunica que una modificación es no sustancial, ¿cuándo puede ejecutarla si el órgano competente no se pronuncia en sentido contrario?",
-  o: [
-    "Después de 3 meses",
-    "Después de 6 meses",
-    "Después de 15 días",
-    "Después de 1 mes"
-  ],
-  c: 3,
-  exp: "Arts. 57.b y 57.c: si transcurre un mes sin pronunciamiento contrario del órgano competente, puede ejecutarse la modificación calificada por el titular como no sustancial."
-},
-  { id: "E21-11", tema: "E21",
-  q: "¿Qué incremento constituye modificación sustancial según el art. 58?",
-  o: [
-    "Más del 25% del consumo de agua, materias primas o energía",
-    "Más del 50% de la capacidad de producción",
-    "Más del 25% del almacenamiento de productos químicos",
-    "Más del 50% de las emisiones atmosféricas"
-  ],
-  c: 1,
-  exp: "Art. 58: el incremento superior al 50% de la capacidad de producción constituye modificación sustancial. Los porcentajes varían según el parámetro considerado."
-},
-  { id: "E21-12", tema: "E21",
-  q: "¿Qué condición establece el art. 58.g para considerar sustancial el incremento de residuos peligrosos?",
-  o: [
-    "Más de 10 t/año y más del 25% del total autorizado",
-    "Más de 20 t/año y más del 50% del total autorizado",
-    "Cualquier incremento superior al 10% del total autorizado",
-    "Más de 4 t/año y más del 25% del total autorizado"
-  ],
-  c: 3,
-  exp: "Art. 58.g: más de 4 toneladas/año, siempre que exista modificación estructural del proceso y el incremento represente más del 25% del total autorizado."
-},
-  { id: "E21-13", tema: "E21",
-  q: "¿Qué plazo máximo existe para poner en funcionamiento una modificación sustancial una vez resuelto el procedimiento?",
-  o: [
-    "2 años, salvo plazo específico",
-    "4 años, salvo plazo específico",
-    "6 meses, salvo plazo específico",
-    "1 año, salvo plazo específico"
-  ],
-  c: 0,
-  exp: "Art. 60.1: el plazo máximo es de 2 años, salvo que se establezca otro plazo."
-},
-  { id: "E21-14", tema: "E21",
-  q: "En el Anejo I, ¿qué superficie de zona de ventas determina que una actividad comercial precise informe de protección civil?",
-  o: [
-    "500 m² de superficie construida",
-    "750 m² de superficie construida",
-    "1.000 m² de superficie construida",
-    "300 m² de superficie construida"
-  ],
-  c: 1,
-  exp: "Anejo I, apartado 15.6: las actividades comerciales y centros comerciales precisan informe cuando la zona de ventas supera los 750 m²."
-},
-  { id: "E21-15", tema: "E21",
+  { id: "E21-04", tema: "E21", subtema: "Confidencialidad de datos", tipo: "NEG",
+    q: "De conformidad con el artículo 8 del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, la Administración ambiental podrá considerar el carácter confidencial de los datos contenidos en una solicitud que sean relativos a determinados aspectos. ¿Cuál de los siguientes no es uno de ellos?",
+    o: ["La información de carácter comercial e industrial, cuando dicha confidencialidad esté prevista en una norma con rango de Ley o Reglamento Comunitario.",
+        "Los datos relativos a los consumos de agua, energía y combustibles, cuando la persona titular los haya señalado como confidenciales en su solicitud.",
+        "Los derechos de propiedad intelectual e industrial, salvo en los supuestos en los que la persona titular haya consentido en su divulgación.",
+        "Los datos personales, siempre y cuando el interesado a quien conciernan no haya consentido en su tratamiento o revelación."],
+    c: 1, exp: "Decreto Foral 26/2022, art. 8. Según el apartado 2, la Administración ambiental podrá considerar confidenciales los datos relativos a «La información de carácter comercial e industrial, cuando dicha confidencialidad esté prevista en una norma con rango de Ley o Reglamento Comunitario» (opción a), a «Los derechos de propiedad intelectual e industrial», salvo que la persona titular «haya consentido en su divulgación» (opción c), y a «Los datos personales», siempre que el interesado «no haya consentido en su tratamiento o revelación» (opción d). En cambio, el apartado 3 dispone: «En ningún caso tendrán carácter confidencial los datos relativos a la ubicación y a los potenciales impactos ambientales del proyecto o instalación y, en concreto, los relativos a consumos de agua, energía y combustibles, producción de residuos, emisiones a la atmósfera y aguas residuales». Por eso la b) no es uno de ellos, aunque la persona titular los haya señalado como confidenciales al presentar la solicitud (art. 8.1)." },
+  { id: "E21-05", tema: "E21", subtema: "Admisión a trámite", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 47 del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, el órgano competente para conceder la licencia de actividad clasificada podrá inadmitirla de forma expresa y motivada, por razones de competencia municipal basadas en el planeamiento urbanístico o en las ordenanzas municipales, en el plazo de:",
+    o: ["Diez días.", "Quince días.", "Veinte días.", "Un mes."],
+    c: 1, exp: "Decreto Foral 26/2022, art. 47: «El órgano competente para conceder la licencia de actividad clasificada podrá inadmitir de forma expresa y motivada la licencia de actividad en el plazo de quince días por razones de competencia municipal, basadas en el planeamiento urbanístico o en las ordenanzas municipales». Diez días es el plazo para subsanar la solicitud de modificación sustancial (art. 59.2); veinte días, la duración mínima de la información pública de la licencia (art. 48.1); un mes, el plazo de los informes de la Administración de la Comunidad Foral (art. 49.7)." },
+  { id: "E21-06", tema: "E21", subtema: "Información pública", tipo: "DATO",
+    q: "Según el Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, una vez completada la documentación que debe acompañar a la solicitud de licencia de actividad clasificada, ¿cuál es la duración mínima del período de información pública, contado desde su publicación en el Boletín Oficial de Navarra?",
+    o: ["Diez días.", "Quince días.", "Veinte días.", "Treinta días."],
+    c: 2, exp: "Decreto Foral 26/2022, art. 48.1: «se abrirá un período de información pública que no será inferior a veinte días a partir de su publicación en el Boletín Oficial de Navarra», con anuncio en el tablón del Ayuntamiento y notificación personal a las personas propietarias y ocupantes de las fincas inmediatas. Quince días es el mínimo de la información pública en la modificación sustancial (art. 59.3) y en las modificaciones de oficio o a solicitud de la persona titular, cuando se acuerda (arts. 63.3 y 64.3); diez días, el plazo para subsanar la solicitud de modificación sustancial (art. 59.2); treinta días no figura en el Reglamento." },
+  { id: "E21-07", tema: "E21", subtema: "Informes preceptivos y vinculantes", tipo: "META",
+    q: "De conformidad con lo establecido en el artículo 49 del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, en la tramitación de la licencia de actividad clasificada:",
+    o: ["Los proyectos que requieran autorización de actividades en suelo no urbanizable deberán remitir, con carácter previo a la concesión de la licencia, el expediente completo al Departamento competente en materia de ordenación del territorio y urbanismo.",
+        "Si los informes de los órganos de la Administración de la Comunidad Foral de Navarra no se emiten y notifican en el plazo de un mes, se suspenderá la tramitación de la licencia hasta que se reciban.",
+        "Si el Departamento con competencias en ordenación del territorio y urbanismo deniega la autorización en suelo no urbanizable, se dictará resolución motivada poniendo fin al procedimiento y se archivarán las actuaciones.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Decreto Foral 26/2022, art. 49. La a) recoge el apartado 2: los proyectos que requieran autorización de actividades en suelo no urbanizable «deberán remitir, con carácter previo a la concesión de licencias, el expediente completo al Departamento competente en materia de ordenación del territorio y urbanismo». La c) recoge el apartado 3: si ese Departamento deniega la autorización, el órgano competente «dictará resolución motivada poniendo fin al procedimiento y archivará las actuaciones». La b) es falsa: según el apartado 7, los informes se emiten en un mes desde la recepción del resultado de la información pública y, «Si transcurrido este plazo no se hubiesen emitido y notificado, se continuará con la tramitación»; la tramitación no se suspende. Por eso la correcta es la d)." },
+  { id: "E21-08", tema: "E21", subtema: "Resolución de la licencia", tipo: "COMB2",
+    q: "Según el Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, ¿en qué plazo máximo, contado desde que se presente la documentación completa, debe dictarse y notificarse la resolución del procedimiento de licencia de actividad clasificada, y qué efecto produce su vencimiento sin que se haya notificado?",
+    o: ["Tres meses; la solicitud se entiende desestimada.",
+        "Tres meses; la solicitud se entiende estimada.",
+        "Cuatro meses; la solicitud se entiende desestimada.",
+        "Cuatro meses; la solicitud se entiende estimada."],
+    c: 2, exp: "Decreto Foral 26/2022, art. 53.1: el órgano competente «dictará y notificará la resolución que ponga fin al procedimiento en el plazo máximo de cuatro meses desde que se presente la documentación completa. Transcurrido el plazo máximo de cuatro meses sin que se hubiese notificado la resolución, deberá entenderse desestimada la solicitud de licencia de actividad clasificada». Es la regla del art. 7.1 para todos los procedimientos del Reglamento: el vencimiento del plazo sin resolución expresa legitima a los interesados «para entenderlos desestimados por silencio administrativo»; por eso la b) y la d) son falsas. Tres meses es el plazo de los procedimientos de modificación sustancial, de oficio y a solicitud de la persona titular (arts. 59.7, 63.6 y 64.7), no el de la licencia: la a) también es falsa." },
+  { id: "E21-09", tema: "E21", subtema: "Licencia de obras y modificación sustancial", tipo: "ALCANCE",
+    q: "En una actividad que cuenta con licencia de actividad clasificada se está tramitando el procedimiento de modificación sustancial de la instalación. Según el Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, ¿puede concederse la licencia de obras necesaria para ejecutar la modificación?",
+    o: ["Sí, siempre que la instalación no presente riesgos para la seguridad ni para la salud de las personas.",
+        "No, hasta que haya transcurrido el plazo de tres meses previsto para resolver la modificación sustancial.",
+        "No, en tanto no se haya resuelto el correspondiente procedimiento de modificación sustancial.",
+        "Sí, si el órgano competente no se pronuncia en sentido contrario en el plazo de un mes."],
+    c: 2, exp: "Decreto Foral 26/2022, art. 61.4: «No se podrán conceder licencias de obras en tanto no se haya resuelto el correspondiente procedimiento de modificación sustancial de la instalación sometida a la licencia de actividad clasificada». La a) traslada a la modificación sustancial los requisitos del art. 55.1, que solo permiten conceder licencia de obras mientras se tramita la licencia de actividad clasificada inicial. La b) confunde la regla con el plazo de tres meses para resolver la modificación sustancial (art. 59.7): lo que impide la licencia de obras es que el procedimiento no esté resuelto, no que corra un plazo; y si vence sin resolución, la solicitud se entiende desestimada (art. 7.1). La d) aplica el plazo de un mes del art. 57.c), propio de la modificación que la persona titular considera no sustancial." },
+  { id: "E21-10", tema: "E21", subtema: "Régimen de modificación", tipo: "META",
+    q: "De conformidad con el Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, en relación con la modificación de las actividades o instalaciones sujetas a licencia de actividad clasificada:",
+    o: ["El órgano competente para conceder la licencia deberá determinar expresamente, en el plazo de un mes, si la modificación comunicada es sustancial o no sustancial.",
+        "La resolución que determina el tipo de modificación tendrá una vigencia de seis meses; transcurrido ese plazo sin iniciar el procedimiento, perderá su eficacia.",
+        "Resuelto el procedimiento de modificación sustancial, la persona titular dispondrá de un plazo máximo de un año para su puesta en funcionamiento, salvo que se establezca otro.",
+        "Ninguna de las respuestas anteriores es correcta."],
+    c: 0, exp: "Decreto Foral 26/2022, arts. 57 y 60. La a) es el art. 57.b): «En el plazo de un mes el órgano competente para conceder la licencia de actividad clasificada deberá determinar expresamente si la modificación comunicada es sustancial o no sustancial». La b) es falsa: esa resolución «tendrá una vigencia de cuatro meses», no de seis (art. 57.e). La c) es falsa: la persona titular dispondrá de «un plazo máximo de dos años para la puesta en funcionamiento de la misma, salvo que se establezca un plazo distinto» (art. 60.1), no de un año. Como la a) es correcta, la d) también es falsa." },
+  { id: "E21-11", tema: "E21", subtema: "Modificación sustancial: criterios", tipo: "SEL",
+    q: "Conforme a lo establecido en el artículo 58.1 del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, se considerará como una modificación sustancial cualquier modificación de la actividad o instalación que implique, entre otras, alguna de las siguientes circunstancias:",
+    o: ["Un incremento superior al 25 % de la emisión másica de cualquiera de los contaminantes atmosféricos que figuren en la licencia.",
+        "Un incremento superior al 25 % de la capacidad de producción de la actividad o instalación, expresada en unidades de producto.",
+        "Un incremento superior al 25 % de las cantidades autorizadas en el consumo de agua, de materias primas o de energía.",
+        "Un incremento superior al 25 % de la capacidad total de almacenamiento de productos químicos, sustancias peligrosas y residuos."],
+    c: 0, exp: "Decreto Foral 26/2022, art. 58.1.d): es modificación sustancial «Un incremento superior al 25% de la emisión másica de cualquiera de los contaminantes atmosféricos que figuren en la licencia de actividad clasificada o del total de las emisiones atmosféricas producidas en cada uno de los focos emisores». Los parámetros de las demás opciones tienen umbrales distintos: la capacidad de producción de la b) exige un incremento «de más del 50%» (art. 58.1.b); el consumo de agua, materias primas o energía de la c), uno «superior al 50%» (art. 58.1.c); y la capacidad total de almacenamiento de productos químicos, sustancias peligrosas relevantes y residuos de la d), uno «superior al 40%» (art. 58.1.j). El 25 % rige también para los vertidos (art. 58.1.e y f)." },
+  { id: "E21-12", tema: "E21", subtema: "Modificación sustancial: residuos peligrosos", tipo: "DATO",
+    q: "Según el Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, es modificación sustancial el incremento en la generación de residuos peligrosos que supere una determinada cantidad anual, siempre que se produzca una modificación estructural del proceso y un incremento de más del 25 % del total de residuos peligrosos generados, calculados sobre la cantidad máxima autorizada. ¿Qué cantidad anual debe superarse?",
+    o: ["2 toneladas.", "4 toneladas.", "10 toneladas.", "20 toneladas."],
+    c: 1, exp: "Decreto Foral 26/2022, art. 58.1.g): «Un incremento en la generación de residuos peligrosos de más de 4 toneladas al año siempre que se produzca una modificación estructural del proceso y un incremento de más del 25% del total de residuos peligrosos generados calculados sobre la cantidad máxima de producción de residuos peligrosos autorizada». Las 20 toneladas al año son el umbral de los residuos no peligrosos, que además exige un incremento de más del 50 % (art. 58.1.h); 2 y 10 toneladas no aparecen en el artículo." },
+  { id: "E21-13", tema: "E21", subtema: "Eficacia de la modificación sustancial", tipo: "LIT",
+    q: "Conforme a lo establecido en el artículo 61 del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, en relación con la eficacia de la modificación sustancial de una instalación sometida a licencia de actividad clasificada:",
+    o: ["Las condiciones establecidas en la resolución de modificación sustancial comenzarán a ser aplicables a partir de la fecha de dicha resolución o, en su caso, de la fecha que se establezca en ella.",
+        "Las condiciones establecidas en la resolución de modificación sustancial comenzarán a ser aplicables a partir de la fecha de su publicación en el Boletín Oficial de Navarra.",
+        "Las condiciones establecidas en la resolución de modificación sustancial comenzarán a ser aplicables a partir de la fecha de presentación de la declaración responsable de puesta en funcionamiento.",
+        "Las condiciones establecidas en la resolución de modificación sustancial comenzarán a ser aplicables a partir de la fecha de concesión de la licencia de obras necesaria para ejecutarla."],
+    c: 2, exp: "Decreto Foral 26/2022, art. 61.1: «Las condiciones establecidas en la resolución de modificación sustancial de la instalación comenzarán a ser aplicables a partir de la fecha de presentación de la declaración responsable de puesta en funcionamiento». La a) toma la regla de las modificaciones de oficio y a solicitud de la persona titular, cuyas condiciones rigen desde la fecha de la resolución o la fijada en ella (arts. 63.7 y 64.9). La b) confunde la eficacia con la publicación de la resolución en el Boletín Oficial de Navarra, que el art. 59.7 exige pero que no marca el inicio de su aplicación. La d) es falsa: el art. 61.4 solo impide conceder licencias de obras mientras no se resuelva la modificación sustancial. La modificación no puede entrar en funcionamiento sin esa declaración responsable previa (art. 60.2) y dispone para ello de dos años, salvo que se establezca un plazo distinto (art. 60.1)." },
+  { id: "E21-14", tema: "E21", subtema: "Anejo I: protección civil", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA. De acuerdo con el Anejo I del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, en relación con los umbrales a partir de los cuales las instalaciones y actividades sometidas a licencia de actividad clasificada precisan informe preceptivo y vinculante del Departamento u organismo público competente en materia de protección civil:",
+    o: ["Las actividades comerciales y centros comerciales, cuando la superficie construida de la zona de ventas sea superior a 750 m².",
+        "Las actividades de carácter docente, cuando la superficie construida del establecimiento sea superior a 500 m².",
+        "Las actividades administrativas, incluso centros de investigación, cuando su superficie construida sea superior a 1.000 m².",
+        "Los campings, cuando la superficie construida del establecimiento de alojamiento sea superior a 500 m²."],
+    c: 0, exp: "Decreto Foral 26/2022, Anejo I, apartado 1.C), grupo 15.6: precisan informe preceptivo y vinculante de protección civil las «Actividades comerciales y centros comerciales, cuando la superficie construida de la zona de ventas sea superior a 750 m²». La b) es falsa: las actividades de carácter docente lo precisan «cuando su superficie construida sea superior a 1000 m²». La c) es falsa: las de carácter administrativo, incluso centros de investigación, «cuando su superficie construida sea superior a 2000 m²». La d) es falsa: los campings lo precisan «en todos los casos»; los 500 m² son el umbral de las demás actividades de alojamiento turístico, excepto casas rurales (grupo 15.5)." },
+  { id: "E21-15", tema: "E21", estado: "retirada", sustituidaPor: "E21-14",
   q: "¿Cuál es el régimen del Anejo I para alojamiento turístico, campings y espectáculos?",
   o: [
     "Alojamiento >500 m² incluidos campings; espectáculos >300 personas",
@@ -166,40 +127,28 @@ export default [
   c: 2,
   exp: "Anejo I: alojamiento turístico con superficie construida superior a 500 m², excepto casas rurales; campings en todos los casos; espectáculos en locales cubiertos con aforo superior a 100 personas."
 },
-  { id: "E21-16", tema: "E21",
-  q: "¿Cuál de estas actividades pertenece al Anejo II, relativo al informe de salud pública?",
-  o: [
-    "Actividades docentes de más de 1.000 m²",
-    "Aparcamientos de vehículos de más de 1.000 m²",
-    "Industrias y almacenamientos de más de 1.000 m²",
-    "Nuevos cementerios o ampliación de los existentes"
-  ],
-  c: 3,
-  exp: "El Anejo II incluye, entre otros supuestos, la construcción de nuevos cementerios o la ampliación de los existentes, además de tatuaje/piercing no sanitarios e instalaciones de riesgo de legionela."
-},
-  { id: "E21-17", tema: "E21",
-  q: "¿Qué relación existe entre el procedimiento de reposición de la realidad física alterada y el procedimiento sancionador?",
-  o: [
-    "Ambos procedimientos deben finalizar siempre simultáneamente",
-    "La existencia de un sancionador en curso impide iniciar el procedimiento de reposición sobre los mismos hechos y sujetos",
-    "El procedimiento sancionador queda suspendido hasta finalizar el de reposición",
-    "El procedimiento de reposición debe iniciarse antes que el sancionador"
-  ],
-  c: 1,
-  exp: "Art. 80.1: no podrá iniciarse el procedimiento de reposición mientras exista un procedimiento sancionador en curso sobre los mismos hechos y sujetos."
-},
-  { id: "E21-18", tema: "E21",
-  q: "¿Qué órgano tiene la consideración de órgano ambiental a efectos del DF 26/2022?",
-  o: [
-    "El órgano de la Dirección General competente en medio ambiente que realiza el análisis técnico y formula las declaraciones e informes de impacto ambiental",
-    "El órgano competente en protección civil",
-    "El órgano estatal competente en evaluación ambiental",
-    "El órgano municipal que concede la licencia clasificada"
-  ],
-  c: 0,
-  exp: "Art. 2.c: es el órgano de la Dirección General con competencias en medio ambiente encargado del análisis técnico y de formular las declaraciones e informes de impacto ambiental."
-},
-  { id: "E21-19", tema: "E21",
+  { id: "E21-16", tema: "E21", subtema: "Anejo II: salud pública", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA. Conforme al Anejo II del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, precisan informe preceptivo y vinculante del Departamento u organismo competente en salud pública:",
+    o: ["La construcción de nuevos cementerios o la ampliación de los cementerios ya existentes.",
+        "Las actividades sometidas a licencia de actividad clasificada que cuenten con torres de refrigeración.",
+        "Los establecimientos no sanitarios en los que se realicen prácticas de tatuaje y/o piercing.",
+        "Los tanatorios y velatorios de cadáveres que precisen licencia de actividad clasificada."],
+    c: 3, exp: "Decreto Foral 26/2022, Anejo II. La a) es su letra b): «Construcción de nuevos cementerios o ampliación de los existentes». La b) está en su letra e): cualquier actividad con licencia de actividad clasificada que cuente con instalaciones de riesgo de legionela, como las «Torres de refrigeración y condensadores evaporativos». La c) es su letra c): «Establecimientos no sanitarios en los que se realicen prácticas de tatuaje y/o piercing». Los tanatorios y velatorios de cadáveres no están en el Anejo II: figuran en el Anejo I (grupo 15.2), «cuando su ocupación sea superior a 100 personas», y lo que exigen es informe del Departamento competente en protección civil; solo pasarían a necesitar informe de salud pública si contaran con alguno de los equipos o instalaciones de la letra e) del Anejo II. Por eso la d) es la INCORRECTA." },
+  { id: "E21-17", tema: "E21", subtema: "Reposición e indemnización", tipo: "META",
+    q: "Conforme a lo establecido en los artículos 80 y 81 del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, en relación con el procedimiento específico para la determinación de los deberes de reposición e indemnización:",
+    o: ["No podrá iniciarse mientras exista un procedimiento sancionador en curso sobre los mismos hechos y los mismos sujetos.",
+        "Los hechos declarados probados por las resoluciones penales firmes vinculan a las resoluciones que se adopten en él.",
+        "Si transcurren seis meses desde su iniciación sin que se haya adoptado y notificado la resolución, se entenderá caducado.",
+        "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Decreto Foral 26/2022, arts. 80 y 81. La a) es literal del art. 80.1: «Este procedimiento no podrá iniciarse mientras exista un procedimiento sancionador en curso sobre los mismos hechos y los mismos sujetos». La b) recoge el art. 81.1: «Los hechos declarados probados por las resoluciones penales firmes y por las resoluciones de los procedimientos sancionadores que pongan fin a la vía administrativa vinculan a las resoluciones que se adopten en el procedimiento específico de determinación de los deberes de reposición e indemnización». La c) recoge el art. 81.4: la resolución debe adoptarse y notificarse «en el plazo máximo de seis meses a contar desde la iniciación del procedimiento» y, si no, «el procedimiento se entenderá caducado», con archivo de las actuaciones. Las tres son correctas: la respuesta es la d)." },
+  { id: "E21-18", tema: "E21", subtema: "Definiciones", tipo: "DEF",
+    q: "¿Qué se entiende por órgano ambiental a efectos del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental?",
+    o: ["El órgano competente para autorizar la implantación de las instalaciones, proyectos y el ejercicio de las actividades incluidas en el ámbito de aplicación de la Ley Foral 17/2020, de 16 de diciembre.",
+        "El órgano de la Dirección General con competencias en medio ambiente que realiza el análisis técnico de los expedientes de evaluación ambiental y formula las declaraciones e informes de impacto ambiental.",
+        "El órgano de la entidad local competente para conceder la licencia de actividad clasificada que realiza el análisis técnico del proyecto y formula el informe sobre sus afecciones ambientales.",
+        "El órgano del Departamento con competencias en medio ambiente que otorga las autorizaciones ambientales integradas y unificadas e inspecciona el cumplimiento de sus condiciones."],
+    c: 1, exp: "Decreto Foral 26/2022, art. 2.c): órgano ambiental es el «órgano de la Dirección General con competencias en medio ambiente que realiza el análisis técnico de los expedientes de evaluación ambiental y formula las declaraciones de impacto ambiental y los informes de impacto ambiental». La a) es la definición de órgano sustantivo del art. 2.b): «órgano competente para autorizar la implantación de las instalaciones, proyectos y el ejercicio de las actividades incluidas en el ámbito de aplicación» de la Ley Foral 17/2020. La c) atribuye la función a la entidad local que concede la licencia de actividad clasificada, que no es el órgano ambiental. La d) define al órgano por funciones que el art. 2.c) no recoge (otorgar autorizaciones e inspeccionar): autorizar la implantación es lo propio del órgano sustantivo, y el órgano ambiental se define por el análisis técnico de los expedientes de evaluación ambiental y por formular las declaraciones e informes de impacto ambiental." },
+  { id: "E21-19", tema: "E21", estado: "retirada",
   q: "¿Cuándo se consideran independientes dos instalaciones situadas en el mismo emplazamiento?",
   o: [
     "Cuando no exista relación técnica o, existiendo, no constituyan unidades subordinadas",
@@ -210,18 +159,14 @@ export default [
   c: 0,
   exp: "Art. 3.1: son independientes cuando no guardan relación de índole técnica o, aun guardándola, no constituyen unidades subordinadas."
 },
-  { id: "E21-20", tema: "E21",
-  q: "¿Qué documento debe acompañar a la solicitud de licencia de actividad clasificada para iniciar el cómputo del plazo?",
-  o: [
-    "El certificado final de obra",
-    "La declaración responsable de puesta en marcha",
-    "El proyecto técnico conforme a la normativa aplicable",
-    "El informe favorable de protección civil"
-  ],
-  c: 2,
-  exp: "Arts. 45.1 y 45.2: la solicitud se acompaña del proyecto técnico conforme a lo previsto reglamentariamente."
-},
-  { id: "E21-21", tema: "E21",
+  { id: "E21-20", tema: "E21", subtema: "Proyecto técnico de licencia clasificada", tipo: "LISTA",
+    q: "Conforme a lo establecido en el artículo 46 del Decreto Foral 26/2022, de 30 de marzo, por el que se aprueba el reglamento de desarrollo de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental, el proyecto técnico que acompaña a la solicitud de licencia de actividad clasificada constará de los siguientes documentos:",
+    o: ["Memoria, diagrama de flujo, documentación gráfica y presupuesto económico de las medidas de protección ambiental.",
+        "Memoria, estudio de alternativas, documentación gráfica y pliego de condiciones de las medidas de protección ambiental.",
+        "Memoria, estudio de alternativas, documentación gráfica y presupuesto económico de las medidas de protección ambiental.",
+        "Memoria, diagrama de flujo, documentación gráfica y pliego de condiciones de las medidas de protección ambiental."],
+    c: 0, exp: "Decreto Foral 26/2022, art. 46.2: «El Proyecto técnico constará de los siguientes documentos»: «Memoria referente a todos los aspectos incluidos en el punto anterior», «Diagrama de flujo con definición del proceso y desarrollo de la actividad en todas sus etapas», «Documentación gráfica descriptiva» de lo considerado en la Memoria y «Presupuesto económico reflejando el coste de todas las medidas de protección ambiental incluidas en el Proyecto». El artículo no exige un estudio de alternativas (b y c) ni un pliego de condiciones (b y d). Además, sin el proyecto técnico no empieza a contar el plazo para conceder la licencia (art. 45.2)." },
+  { id: "E21-21", tema: "E21", estado: "retirada", sustituidaPor: "E21-06",
   q: "¿Cuál es el plazo mínimo de información pública en el procedimiento de modificación sustancial?",
   o: [
     "10 días",
@@ -232,23 +177,19 @@ export default [
   c: 1,
   exp: "Art. 59.3: el expediente de modificación sustancial se somete a información pública durante un plazo no inferior a 15 días."
 },
-  // ---------- TEMA 21 · Decreto Foral 26/2022 (E21) ----------
-  // Ampliación sobre las E21-01..17 ya existentes: solo cobertura genuinamente nueva
-  // (se descartaron 11 de las 15 generadas por duplicar, con otra redacción, el mismo
-  // artículo/apartado que una pregunta ya existente del tema).
-  { id: "E21-26", tema: "E21", subtema: "Definiciones",
+  { id: "E21-26", tema: "E21", subtema: "Definiciones", estado: "retirada", sustituidaPor: "E21-18",
     q: "A efectos del Decreto Foral 26/2022, ¿qué se entiende por órgano ambiental?",
     o: ["El órgano de la Dirección General con competencias en medio ambiente que analiza técnicamente los expedientes de evaluación ambiental y formula las declaraciones e informes de impacto ambiental", "El órgano competente para autorizar la implantación de instalaciones y actividades", "El órgano de la Administración General del Estado encargado de las evaluaciones ambientales", "El órgano municipal competente para conceder la licencia de actividad clasificada"],
     c: 0, exp: "Art. 2.c del Decreto Foral 26/2022: el órgano ambiental es el órgano de la Dirección General con competencias en medio ambiente que realiza el análisis técnico de los expedientes de evaluación ambiental y formula las declaraciones de impacto ambiental y los informes de impacto ambiental." },
-  { id: "E21-27", tema: "E21", subtema: "Instalaciones independientes",
+  { id: "E21-27", tema: "E21", subtema: "Instalaciones independientes", estado: "retirada",
     q: "Dos instalaciones sometidas al Reglamento se ubican en el mismo emplazamiento. ¿Cuándo se consideran independientes y deben disponer cada una de su autorización?",
     o: ["Únicamente cuando desarrollen actividades incluidas en catálogos diferentes", "Siempre que compartan instalaciones auxiliares", "Cuando tengan necesariamente titulares distintos", "Cuando no guarden relación técnica o, aun guardándola, no constituyan unidades subordinadas"],
     c: 3, exp: "Art. 3.1 del Decreto Foral 26/2022: se consideran independientes cuando no guarden relación de índole técnica o cuando, aun guardándola, no constituyan unidades subordinadas." },
-  { id: "E21-28", tema: "E21", subtema: "Proyecto técnico de licencia clasificada",
+  { id: "E21-28", tema: "E21", subtema: "Proyecto técnico de licencia clasificada", estado: "retirada", sustituidaPor: "E21-20",
     q: "En una solicitud de licencia de actividad clasificada, ¿qué documento debe acompañar necesariamente a la solicitud para iniciar el cómputo del plazo de concesión?",
     o: ["Un informe favorable del Departamento competente en medio ambiente", "Un proyecto técnico conforme a lo previsto reglamentariamente", "La declaración responsable de puesta en marcha", "El certificado final de obra"],
     c: 1, exp: "Arts. 45.1 y 45.2 del Decreto Foral 26/2022: la solicitud se presenta ante la entidad local y se acompaña de proyecto técnico; para iniciar el cómputo del plazo se exige que la solicitud vaya acompañada del proyecto técnico conforme al artículo siguiente." },
-  { id: "E21-29", tema: "E21", subtema: "Procedimiento de modificación sustancial",
+  { id: "E21-29", tema: "E21", subtema: "Procedimiento de modificación sustancial", estado: "retirada", sustituidaPor: "E21-06",
     q: "En el procedimiento de modificación sustancial, ¿cuál es el plazo mínimo de información pública establecido por el artículo 59?",
     o: ["Veinte días", "Un mes", "Diez días", "Quince días"],
     c: 3, exp: "Art. 59.3 del Decreto Foral 26/2022: el expediente de modificación sustancial se someterá a información pública durante un plazo que no será inferior a quince días desde su publicación en el Boletín Oficial de Navarra." },
