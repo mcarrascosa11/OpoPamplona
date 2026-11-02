@@ -5,6 +5,10 @@
 // Puesto al día ese mismo día: art. 5 (párrafo de ascensores suprimido), art. 27 (Dotacional Complejo),
 // art. 28 (texto refundido de 2021), art. 35 (apartado 8 suprimido), arts. 35 bis y 39 bis, arts. 63.2.a,
 // 64, 66, 73, 74 y 75 y esquema 2 (alta productividad, 2013), art. 79 (2010) y Sección Décima (arts. 80-85).
+// 02-11-2026, chequeo del tema: sin restos de redacciones anteriores. Se corrige el art. 31 (la regla general
+// es la SUPERFICIE de las plazas, no su número, y faltaba la exención del apartado E) y se añaden a la
+// memorización tres tablas (art. 27, tipos de usos; art. 28, tabla n.º 1 estructurante; art. 31, garajes
+// A/B), un dato (listas de Unidades Integradas del art. 9) y una excepción (art. 31.E).
 export default {
     intro:
       "El Plan Municipal de Pamplona: trayectoria (PGOU-84 → Plan Municipal aprobado por la C.O.T. en 2002 → homologación a la LF 35/2002 en 2007 → Texto Refundido de 2008), documentos que lo integran (art. 5 NUG) y la Normativa Urbanística General en la redacción vigente el 21-05-2026: el Texto Refundido de 2008 con todas sus modificaciones posteriores (2010-2021) ya incorporadas. Tiene 85 artículos más los arts. 35 bis y 39 bis (añadidos en 2010); los arts. 80 a 85 (Sección Décima, ascensores en edificios existentes) se añadieron en 2013. Estructura: Título Preliminar (arts. 1-7, disposiciones de carácter general), Título Primero (arts. 8-15, división territorial) y Título Segundo (arts. 16-85, régimen urbanístico del suelo, en diez secciones). Concepto transversal: cada determinación es de carácter GENERAL, ESTRUCTURANTE o PORMENORIZADO, y el propio artículo lo dice. Lo más preguntable de lo modificado: el art. 28 (texto refundido de 2021: residencia eventual, zonas comerciales del plano 22 y apartado 21, locales de apuestas a 400 m), los arts. 35 bis y 39 bis (1,13 × superficie útil; 110 m² = 5 piezas), el art. 74 (almacenes agrícolas), el art. 79 (equipamientos deportivos) y los arts. 80-85 (ascensores). Ojo: el Plan remite a la LF 35/2002 (y en algún artículo a la LF 10/1994), hoy sustituidas por el TRLFOTU-2017.",
@@ -90,7 +94,7 @@ export default {
         items: [
           "Art. 29 (Dotaciones): las de dominio público ya obtenidas pueden cambiar de uso dotacional justificándolo en la licencia; las privadas existentes, mediante modificación del Plan. SUPRESIÓN de una dotación pública: modificación del Plan y obtener para el mismo dominio otra u otras que la compensen; en las privadas, la misma regla, pero la compensatoria es para el dominio público. El cese de la actividad NO es supresión. Los nuevos equipamientos públicos se ceden obligatoria y gratuitamente al municipio. Las pormenorizadas se regulan igual que las estructurantes salvo régimen distinto justificado del planeamiento de desarrollo; las estructurantes se señalan en el plano de Propuesta n.º 4",
           "Art. 30 (general): actividad económica = actividades terciarias desde los usos dotacionales hasta el límite de los industriales (centros de investigación, tecnológicos, parques empresariales); excluye los estrictamente industriales; SOLO se asigna como uso global",
-          "Art. 31 (Garajes): general, plazas no menores que las de la normativa de VPO. A) Planeamientos incorporados: 1 plaza por vivienda + 1 por cada 100 m² de uso no residencial; comercial u oficinas, 1 por 100 m²; industrial, las que justifique la actividad. B) Resto: 1,3 plazas por vivienda + 1 por 100 m² de otros usos; comercial u oficinas, 1 por 75 m²; industrial, 1 por 200 m² (en sótano o en superficie dentro de la parcela). Con usos mezclados, en planta baja se respeta una franja exterior de 10 m para usos terciarios. Dotaciones: solo en sótano y sin exigencia de número salvo que la NUP la prevea. Imposibilidad técnica: más de 2 plantas de sótano para dotar hasta 2 plazas por vivienda y 2 por 100 m²; entonces, subsuelo del espacio público. Rampas dentro del edificio; no se eliminan plazas legalmente existentes en suelo urbano consolidado",
+          "Art. 31 (Garajes): carácter general, la SUPERFICIE de las plazas no puede ser inferior a la prevista en la normativa de VPO; el resto es pormenorizado. A) Planeamientos incorporados: 1 plaza por vivienda + 1 por cada 100 m² de uso no residencial; comercial u oficinas, 1 por 100 m²; industrial, las que justifique la actividad. B) Resto: 1,3 plazas por vivienda + 1 por 100 m² de otros usos; comercial u oficinas, 1 por 75 m²; industrial, 1 por 200 m² (en sótano o en superficie dentro de la parcela). Con usos mezclados, en planta baja se respeta una franja exterior de 10 m para usos terciarios. Dotaciones: solo en sótano y sin exigencia de número salvo que la NUP la prevea. Imposibilidad técnica: más de 2 plantas de sótano para dotar hasta 2 plazas por vivienda y 2 por 100 m²; entonces, subsuelo del espacio público. En suelo urbano (zonas o zonas ordenadas), la licencia puede eximir de construir los garajes si se justifica una especialísima dificultad técnica (31.E). Rampas dentro del edificio; no se eliminan plazas legalmente existentes en suelo urbano consolidado",
           "Art. 32 (pormenorizado): trasteros e instalaciones solo bajo cubierta o en sótano (en residenciales con locales, también en planta baja respetando la franja de 10 m). En subsuelo público, trasteros de menos de 15 m², uno por vivienda como máximo, justificando la imposibilidad de otra ubicación y que el espacio público no sea relevante. Los construidos en sótano al amparo del art. 35.2 no se eliminan salvo para sustituirlos por plazas de aparcamiento",
         ],
       },
@@ -312,6 +316,34 @@ export default {
           nota: "La «O» significa que ya hay ordenación incorporada; la «R», que se remite a un planeamiento posterior; la «N», nuevo desarrollo (en «S.N.», «no ordenado»). Los arts. 22, 23 y 24 son estructurantes; los arts. 21, 42 y 54, generales."
         },
         {
+          titulo: "Art. 27: tipos de usos",
+          columnas: ["Criterio", "Tipo", "Qué es", "Plano y carácter"],
+          filas: [
+            ["Nivel de asignación", "Global", "El de la Zona, Sector o Área (a veces, el de una Unidad Integrada completa)", "Plano general n.º 3 (usos globales mayoritarios); asignación ESTRUCTURANTE"],
+            ["Nivel de asignación", "Pormenorizado", "El de la Unidad Básica o la parcela; lo fija el Plan o lo establecen o modifican Planes Especiales o Parciales", "Plano general n.º 4 y particular n.º 1; pormenorizado. Respecto de los globales no puede superar el % de los tolerados (límite ESTRUCTURANTE)"],
+            ["Nivel de asignación", "Detallado", "El de las edificaciones; lo fija el planeamiento pormenorizado, el proyecto del sistema de actuación o la propia licencia", "Pormenorizado; tampoco puede superar el % de los tolerados"],
+            ["Compatibilidad", "Principal", "El más adecuado en la Unidad Básica, parcela o edificación", "General"],
+            ["Compatibilidad", "Permitido (1)", "Idéntica idoneidad de implantación que el principal", "General"],
+            ["Compatibilidad", "Necesario (2)", "Complementa al principal o al permitido para el correcto funcionamiento del ámbito", "General"],
+            ["Compatibilidad", "Tolerado (3)", "Coexiste con el principal y el permitido sin superar un porcentaje: el 25 % de la superficie construida (art. 28, regla 1)", "General"],
+            ["Compatibilidad", "Prohibido (4)", "No puede coexistir con ellos por razones de conformación urbana, ambientales, higiénico-sanitarias u otras", "General"]
+          ],
+          nota: "Criterio de funcionalidad (general): residencial (colectivo o unifamiliar); productivo (industria, actividad económica, comercio, oficinas, agrícola); dotacional (sanitario, asistencial, docente, cultural, deportivo, recreativo, administrativo, religioso, residencia comunitaria, mercado, y desde 2012 el Dotacional Complejo); espacios libres. La actividad económica solo se asigna como uso global (art. 30)."
+        },
+        {
+          titulo: "Art. 28, tabla n.º 1: usos pormenorizados respecto de los usos globales (ESTRUCTURANTE)",
+          columnas: ["Uso pormenorizado", "Permitido (1) en el uso global", "Tolerado (3) en", "Prohibido (4) en"],
+          filas: [
+            ["Residencial colectivo (con locales en PB o en todas las plantas)", "Residencial colectivo", "—", "Residencial unifamiliar, industrial, comercial, oficinas y actividad económica"],
+            ["Residencial unifamiliar", "Residencial colectivo y residencial unifamiliar", "—", "Industrial, comercial, oficinas y actividad económica"],
+            ["Industrial", "Industrial", "Residencial colectivo, comercial y oficinas", "Residencial unifamiliar y actividad económica"],
+            ["Comercial", "Comercial", "Todos los demás: residencial colectivo y unifamiliar, industrial, oficinas y actividad económica", "—"],
+            ["Oficinas", "Oficinas y actividad económica", "Residencial colectivo y unifamiliar, industrial y comercial", "—"],
+            ["Dotacional", "Todos los usos globales", "—", "—"]
+          ],
+          nota: "Claves del texto: 1 permitido, 2 necesario, 3 tolerado (25 %), 4 prohibido; la tabla n.º 1 no usa el 2. Las tablas n.º 2 (usos pormenorizados de parcela respecto de los de Unidad Básica) y n.º 3 (usos detallados respecto de los pormenorizados de parcela) son pormenorizadas, y ninguna de las tres se aplica al suelo no urbanizable."
+        },
+        {
           titulo: "Art. 28: reglas de aplicación de las tablas que más se preguntan (texto refundido de 2021)",
           columnas: ["Regla", "Contenido", "Carácter"],
           filas: [
@@ -343,6 +375,17 @@ export default {
             ["Medición", "Línea quebrada mínima que une los dos puntos de fachada más próximos, a través de espacio de uso público"]
           ],
           nota: "Es el único apartado que añade la modificación de 2021; el resto del art. 28 se publica refundido con las modificaciones de 2010, 2014 y 2019."
+        },
+        {
+          titulo: "Art. 31: dotación y ubicación de garajes",
+          columnas: ["Parcela", "A) Planeamientos que el Plan incorpora", "B) Resto de actuaciones del Plan"],
+          filas: [
+            ["Uso exclusivo residencial", "En sótano (en el unifamiliar, también en PB); 1 plaza por vivienda + 1 por cada 100 m² de otros usos", "En sótano (en el unifamiliar, también en PB); 1,3 plazas por vivienda + 1 por cada 100 m² de otros usos"],
+            ["Residencial con otros usos mezclados", "Solo en sótano o en PB, respetando una franja exterior de 10 m para usos terciarios; 1 por vivienda + 1 por cada 100 m²", "Igual ubicación; 1,3 por vivienda + 1 por cada 100 m²"],
+            ["Uso exclusivo comercial u oficinas", "En sótano; 1 plaza por cada 100 m² construidos", "En sótano; 1 plaza por cada 75 m² construidos"],
+            ["Uso exclusivo industrial", "Las que justificadamente necesite la actividad", "En sótano o en superficie, siempre dentro de la parcela; 1 plaza por cada 200 m² construidos"]
+          ],
+          nota: "Salvo la industrial del apartado A, todas añaden «salvo que en la Normativa Urbanística Particular se prevea una mayor exigencia». General: la superficie de las plazas no es inferior a la de la normativa de VPO; lo demás es pormenorizado. C) Dotaciones públicas o privadas: garaje solo en sótano bajo la edificación y sin exigencia de número de plazas, salvo que la NUP la prevea. D) Imposibilidad técnica (más de 2 plantas de sótano para dotar hasta 2 plazas por vivienda y 2 por cada 100 m² de otros usos): subsuelo de la parte indispensable del espacio público, sin afectar a infraestructuras, instalaciones ni arbolado. E) En suelo urbano (zonas o zonas ordenadas), la licencia puede eximir por especialísima dificultad técnica. F) Rampas dentro del edificio. G) En suelo urbano consolidado no se eliminan plazas legalmente existentes."
         },
         {
           titulo: "Cifras clave de la NUG",
@@ -530,6 +573,7 @@ export default {
         "Art. 1: objeto, el régimen urbanístico de los suelos y edificaciones en que se aplica el Plan; art. 2: ámbito, el término municipal de Pamplona.",
         "Art. 3: ejecutivo desde su publicación y entrada en vigor; vigencia indefinida; deroga el PGOU-84 salvo lo recogido en la NUP del Plan Municipal y en cinco ordenanzas del PGOU-84 (Edificación, Urbanización, Accesibilidad, Actividades MINP y Procedimiento Urbanístico).",
         "Art. 7: cada modificación se titula «Modificación del Plan Municipal de Pamplona…», recibe número de orden tras su aprobación definitiva e incluye la refundición de lo afectado.",
+        "Art. 9: Unidades Integradas por ser núcleos de funcionamiento con entidad propia (14): Buztintxuri, Rochapea, Chantrea, San Jorge, Casco Viejo, Beloso, Ermitagaña-Mendebaldea, San Juan, Ensanches, Lezkairu, Iturrama, Milagrosa, Etxabakoitz y Mendillorri. Por ser ámbitos con cierta homogeneidad o relacionados entre sí (10): Santa Lucía, Arantzadi, Trinitarios, Landaben, Ciudadela-Taconera, Irunlarrea, Berichitos, Donapea, Acella y Arrosadía.",
         "Art. 16: Pamplona es un núcleo urbano de tipología compleja.",
         "Art. 17: lo que se obtiene en ejecución directa del Plan es de titularidad y uso públicos, salvo que la NUP o los planos lo consideren privado.",
         "Art. 27: en el Dotacional Complejo no computa la superficie de los usos auxiliares de la dotación principal; la normativa se aplica al conjunto de la dotación.",
@@ -557,6 +601,7 @@ export default {
         "En las zonas comerciales de centralidad, los planes especiales pueden admitir vivienda y residencias en planta baja (art. 28.18).",
         "El cese de la actividad en una dotación no es su supresión (art. 29).",
         "Las dotaciones no tienen exigencia de número de plazas de garaje, salvo que la NUP la prevea (art. 31.C).",
+        "En suelo urbano (zonas o zonas ordenadas), la licencia puede eximir de construir los garajes vinculados al uso pormenorizado si se justifica una especialísima dificultad técnica (art. 31.E). Otra cosa es la imposibilidad técnica (más de 2 plantas de sótano para dotar la parcela de hasta 2 plazas por vivienda y 2 por cada 100 m² de otros usos): entonces se prevé ocupar el subsuelo de la parte indispensable del espacio público (art. 31.D).",
         "En SNU no se puede agrupar la edificabilidad de varias parcelas, salvo que el Ayuntamiento lo considere de utilidad pública o interés social; para los almacenes agrícolas, si se justifica la necesidad y vinculación de las parcelas y el Ayuntamiento lo considera de interés social (art. 74).",
         "Almacenes agrícolas en zona de riesgo alto: solo rehabilitación o renovación de instalaciones existentes, sin superar la superficie ocupada (art. 74).",
         "Los polideportivos de barrio, frontones y otros pequeños equipamientos deportivos no tienen limitación de ocupación (art. 79).",
