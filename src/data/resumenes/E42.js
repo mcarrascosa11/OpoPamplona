@@ -1,7 +1,14 @@
 // Resumen del tema E42. Formato: cabecera de src/data/resumenes.js.
+// Chequeo del 02-11-2026. Vigencia a 21-05-2026 contrastada con el BOE (BOE-A-2019-751: texto consolidado, «Última
+// actualización, publicada el 31/12/2018», y pestaña «Análisis» sin referencias posteriores) y con LexNavarra
+// (detalle.asp?r=50972, sin notas de modificación): la ley no se ha modificado desde su publicación (BON n.º 250, de
+// 31-12-2018), así que el TXT, que es el texto literal de los arts. 1-14, está al día. Corregido ese día: el bloque de
+// los arts. 13-14 ya no presenta el art. 15 (Título IV, fuera del alcance), la rúbrica del Título IV, la nota que
+// atribuía «silencio» a las medidas cautelares y dos imprecisiones (destinatario de la comunicación del art. 13.2 y
+// quién puede pedir el inicio). Añadidos la tabla de listas cerradas, dos datos y una excepción.
 export default {
     intro:
-      "Ley corta y de estructura muy clara: tres títulos que responden a QUÉ es un lugar de la memoria, CÓMO se declara e inscribe, y QUÉ régimen de protección arrastra esa inscripción. Es un tema que se examina bien porque casi todo su contenido son PLAZOS y EFECTOS, y porque el procedimiento del art. 7 concentra la mayoría de las preguntas posibles. Para un arquitecto municipal hay tres puntos de contacto directos y conviene tenerlos localizados: la resolución de inicio SUSPENDE cautelarmente las licencias de parcelación, edificación o demolición y los efectos de las ya otorgadas; las entidades locales DEBEN comunicar previamente al Gobierno de Navarra las solicitudes de licencia que afecten a un lugar de la memoria; y los instrumentos de planificación territorial y urbanística que afecten a estos bienes necesitan la CONFORMIDAD del departamento competente. Conviene estudiarla en paralelo con el tema 37, porque su arquitectura —registro, declaración, deberes del titular, autorización de intervenciones— replica la de la Ley Foral del Patrimonio Cultural, pero con plazos propios que no coinciden.",
+      "Ley corta y de estructura muy clara: tres títulos que responden a QUÉ es un lugar de la memoria, CÓMO se declara e inscribe, y QUÉ régimen de protección arrastra esa inscripción. Es un tema que se examina bien porque casi todo su contenido son PLAZOS y EFECTOS, y porque el procedimiento del art. 7 concentra la mayoría de las preguntas posibles. Para un arquitecto municipal hay tres puntos de contacto directos y conviene tenerlos localizados: la resolución de inicio SUSPENDE cautelarmente las licencias de parcelación, edificación o demolición y los efectos de las ya otorgadas; las entidades locales DEBEN comunicar a la Administración de la Comunidad Foral, con carácter previo a su tramitación, las solicitudes de licencia que afecten a un lugar de la memoria; y los instrumentos de planificación territorial y urbanística que afecten a estos bienes necesitan la CONFORMIDAD del departamento competente. Conviene estudiarla en paralelo con el tema 37, porque su arquitectura —registro, declaración, deberes del titular, autorización de intervenciones— replica la de la Ley Foral del Patrimonio Cultural, pero con plazos propios que no coinciden.",
     bloques: [
       {
         h: "Objeto, concepto y alcance cronológico (arts. 1-4)",
@@ -21,7 +28,7 @@ export default {
       {
         h: "El Registro y el procedimiento de declaración (arts. 6-8)",
         nota:
-          "El art. 7 es el artículo estrella del tema y conviene recorrerlo por sus plazos, que son cuatro y distintos: TRES MESES para resolver y notificar el inicio si la petición viene de un particular, con silencio DESESTIMATORIO · UN MES como mínimo para audiencia e información pública · TRES MESES para el informe de la Comisión Técnica, que es PRECEPTIVO Y VINCULANTE · y DOCE MESES de caducidad del procedimiento. Y la consecuencia de la caducidad es singular: no puede volver a iniciarse otro procedimiento sobre el mismo bien en TRES AÑOS, salvo que lo inste el propio titular. La resolución final no la dicta el departamento sino el GOBIERNO DE NAVARRA mediante Acuerdo.",
+          "El art. 7 es el artículo estrella del tema y conviene recorrerlo por sus plazos, que son cuatro y distintos: TRES MESES para adoptar y notificar la resolución de inicio cuando la pide motivadamente cualquier persona física o jurídica, con silencio DESESTIMATORIO · UN MES como mínimo para audiencia e información pública · TRES MESES para el informe de la Comisión Técnica, que es PRECEPTIVO Y VINCULANTE · y DOCE MESES de caducidad del procedimiento. Y la consecuencia de la caducidad es singular: no puede volver a iniciarse otro procedimiento sobre el mismo bien en TRES AÑOS, salvo que lo inste el propio titular. La resolución final no la dicta el departamento sino el GOBIERNO DE NAVARRA mediante Acuerdo.",
         items: [
           "Art. 6.1 — se crea el REGISTRO DE LUGARES DE LA MEMORIA HISTÓRICA DE NAVARRA como instrumento de PUBLICIDAD Y CONTROL. Es PÚBLICO y su consulta, telemática o presencial, es GRATUITA (art. 6.3)",
           "Art. 6.2 — contenido: cada lugar tiene su FOLIO O FICHA REGISTRAL · constan la resolución de inicio y la de declaración e inscripción, y las que modifiquen el contenido registral · descripción de las características identificativas y de las medidas provisionales, cautelares y definitivas · TRANSMISIONES E INTERVENCIONES que afecten a los bienes · y cuantos actos administrativos les afecten",
@@ -47,13 +54,13 @@ export default {
           "Art. 11.1 — OBLIGACIONES de propietarios, titulares de derechos o poseedores: a) COMUNICAR al departamento las transmisiones o actuaciones que efectúen por cualquier título, así como los daños u otras afectaciones · b) PERMITIR SU SEÑALIZACIÓN · c) PERMITIR LA VISITA PÚBLICA AL MENOS CUATRO DÍAS AL MES, en días y horas previamente señalados, dispensable total o parcialmente por causa justificada, y permitir la INSPECCIÓN del departamento",
           "Art. 11.2 — quien DESCUBRA RESTOS HUMANOS en los terrenos delimitados en el MAPA DE FOSAS DE NAVARRA, o incluso fuera de ellos, deberá comunicarlo DE FORMA INMEDIATA al departamento competente",
           "Art. 11.3 — DERECHOS de los titulares: recibir ASISTENCIA TÉCNICA del departamento en todo lo relativo a conservación, protección o modificación, y solicitar SUBVENCIONES u otras medidas de fomento",
-          "Art. 12 — INCUMPLIMIENTO: faculta a la Administración foral para realizar DE FORMA DIRECTA las intervenciones necesarias, dando cuenta inmediata al titular · puede dar lugar a la EXPROPIACIÓN FORZOSA por causa de utilidad pública o interés social · y el departamento puede imponer MULTAS COERCITIVAS",
+          "Art. 12 — INCUMPLIMIENTO: el de los deberes del art. 10 faculta a la Administración foral para realizar DE FORMA DIRECTA las intervenciones necesarias, dando cuenta inmediata al titular, sin requerimiento previo · el de los arts. 10.1 y 11.1 puede dar lugar a la EXPROPIACIÓN FORZOSA por causa de utilidad pública o interés social · y el de los arts. 10 y 11 permite al departamento imponer MULTAS COERCITIVAS",
         ],
       },
       {
-        h: "Régimen de protección, intervenciones y planeamiento (arts. 13-15)",
+        h: "Régimen de protección, intervenciones y planeamiento (arts. 13-14)",
         nota:
-          "Aquí están los tres plazos que más te afectan como técnico municipal, y los tres tienen sentido de silencio distinto, así que conviene tabularlos. Las MEDIDAS CAUTELARES previas duran como máximo TRES MESES, dentro de los cuales debe incoarse el procedimiento —compáralo con los DOS MESES del art. 30 de la Ley del Patrimonio Cultural, que es la trampa cruzada—. La AUTORIZACIÓN de intervenciones se resuelve en TRES MESES con silencio ESTIMATORIO. Y el informe sobre instrumentos de planificación se emite en SEIS MESES y, de no emitirse, se entiende FAVORABLE. Añade el deber del art. 13.2: la entidad local debe comunicar previamente las solicitudes de licencia de derribo, obra o intervención que afecten a un lugar de la memoria.",
+          "Aquí están los tres plazos que más te afectan como técnico municipal, y conviene tabularlos con su consecuencia. Las MEDIDAS CAUTELARES previas duran como máximo TRES MESES, dentro de los cuales debe incoarse el procedimiento —compáralo con los DOS MESES del art. 30 de la Ley del Patrimonio Cultural, que es la trampa cruzada—. La AUTORIZACIÓN de intervenciones se resuelve en TRES MESES con silencio ESTIMATORIO. Y el informe sobre instrumentos de planificación se emite en SEIS MESES y, de no emitirse, se entiende FAVORABLE. Añade el deber del art. 13.2: la entidad local debe comunicar previamente las solicitudes de licencia de derribo, obra o intervención que afecten a un lugar de la memoria.",
         items: [
           "Art. 13.1 — MEDIDAS CAUTELARES: la Administración foral puede SUSPENDER cualquier clase de obra o intervención para salvaguardar la integridad de un bien y en orden a su posterior inscripción. Su duración NO PODRÁ SER SUPERIOR A TRES MESES, dentro de los cuales deberá incoarse, en su caso, el procedimiento de declaración e inscripción",
           "Art. 13.2 — DEBER DE LAS ENTIDADES LOCALES: deberán comunicar a la Administración de la Comunidad Foral, CON CARÁCTER PREVIO A SU TRAMITACIÓN, las solicitudes de LICENCIA DE DERRIBO, DE OBRA O INTERVENCIÓN que les sean formuladas y afecten a un lugar de la memoria",
@@ -64,7 +71,7 @@ export default {
           "Art. 14.1-2 — PLANEAMIENTO: los instrumentos de planificación territorial y urbanística que afecten a lugares de la memoria o a bienes con anotación preventiva establecerán DETERMINACIONES DE ORDENACIÓN acordes con el régimen de especial protección, y esos expedientes deberán contar con la PRECEPTIVA CONFORMIDAD del departamento competente",
           "Art. 14.3 — ese informe se emitirá en el plazo de SEIS MESES desde su solicitud; en caso de NO SER EMITIDO en ese plazo, SE ENTENDERÁ FAVORABLE",
           "Art. 14.4 — en las actuaciones sometidas a los instrumentos de PREVENCIÓN Y CONTROL AMBIENTAL se adoptarán las medidas protectoras y cautelares necesarias para conservar los bienes inscritos o con anotación preventiva",
-          "Art. 15 — régimen de SEÑALIZACIÓN de los lugares de la memoria histórica",
+          "FUERA DEL ALCANCE: el Título IV (arts. 15-17: señalización, mapa de lugares y actividades de divulgación) y el Título V (arts. 18-25: régimen sancionador). Del art. 15 solo entra lo que recoge el art. 11.1.b): el titular debe PERMITIR la señalización",
         ],
       },
     ],
@@ -73,7 +80,7 @@ export default {
       "Alcance cronológico: del GOLPE MILITAR DE JULIO DE 1936 al 29 DE DICIEMBRE DE 1978, entrada en vigor de la Constitución",
       "Ese alcance NO se aplica a los espacios memoriales del art. 2.2",
       "El Registro es PÚBLICO y su consulta, telemática o presencial, GRATUITA",
-      "Petición de particular: resolución de inicio en TRES MESES; el silencio es DESESTIMATORIO",
+      "Inicio a petición motivada de cualquier persona física o jurídica: resolución de inicio en TRES MESES; el silencio es DESESTIMATORIO",
       "La resolución de inicio SUSPENDE las licencias de parcelación, edificación o demolición Y LOS EFECTOS DE LAS YA OTORGADAS",
       "Audiencia e información pública: plazo mínimo de UN MES cada una",
       "Informe de la Comisión Técnica de Coordinación: TRES MESES, PRECEPTIVO Y VINCULANTE",
@@ -177,10 +184,29 @@ export default {
             ["Reacción ante el incumplimiento", "Intervención directa, sin regla expresa sobre quién paga (art. 12.1)", "Ejecución subsidiaria, previo requerimiento, A CARGO DEL TITULAR (art. 29.1), o intervención directa (art. 29.2)"]
           ],
           nota: "Las dos leyes comparten estructura (registro, anotación, deberes, autorización, planeamiento), pero sus cifras no coinciden. Estudiarlas a la vez y preguntarse siempre de qué ley es cada plazo."
+        },
+        {
+          titulo: "LF 29/2018: listas cerradas de los Títulos I a III",
+          columnas: ["Lista", "Nº", "Elementos", "Artículo"],
+          filas: [
+            ["Valores del objeto de la ley", "3", "Respeto de los Derechos Humanos y del derecho de las víctimas a la verdad, la justicia y la reparación, con garantías de no repetición · la memoria como herramienta para construir sociedades más éticas, justas y democráticas · fomento del respeto, la tolerancia, la negociación, el acuerdo y la solidaridad", "Art. 1"],
+            ["Supuestos que podrán declararse (categoría histórica)", "3", "Fosas o enterramientos individuales o colectivos de personas fusiladas y desaparecidas · lugares de detención y asesinato · obras públicas construidas con trabajos forzados de personas presas", "Art. 2.1"],
+            ["Criterios para graduar las medidas de protección", "5", "Ubicación · trascendencia de los hechos · estado de conservación · adecuación urbanística · impacto económico y social", "Art. 2.3"],
+            ["Principios generales", "7", "Carácter general de la protección · colaboración institucional · colaboración con los titulares de los bienes · fomento · accesibilidad · divulgación · igualdad", "Art. 3"],
+            ["Competencias de la Administración foral", "6", "Garantizar su conservación y protección · medidas cautelares o, en su caso, expropiación forzosa · fomento y divulgación · potestad sancionadora · gestión del Registro · las demás que le atribuya expresamente la ley foral", "Art. 5.1"],
+            ["Contenido del Registro", "5", "Folio o ficha registral de cada lugar · resoluciones de inicio, de declaración e inscripción y las que modifiquen el contenido registral · características identificativas y medidas provisionales, cautelares y definitivas · transmisiones e intervenciones · cuantos actos administrativos afecten a los bienes", "Art. 6.2"],
+            ["Contenido mínimo de la resolución de inicio", "7", "Identificación del lugar · valores materiales, históricos o simbólicos · partes del bien objeto de declaración · delimitación cartográfica con coordenadas geográficas · propiedad y personas afectadas · medidas de conservación, señalización y divulgación · medidas cautelares necesarias", "Art. 7.a)"],
+            ["Deberes de los titulares", "3", "Facilitar las actuaciones de conservación, protección y mantenimiento · utilizar los bienes de modo compatible con sus valores · facilitar las actuaciones contra su destrucción y deterioro", "Art. 10.1"],
+            ["Obligaciones de propietarios, titulares de derechos o simples poseedores", "4", "Comunicar transmisiones, actuaciones, daños y afectaciones · permitir la señalización · permitir la visita pública (al menos 4 días al mes) y la inspección, y facilitar información · las demás que imponga la ley foral o el ordenamiento", "Art. 11.1"],
+            ["Derechos de los titulares", "2", "Asistencia técnica del departamento · solicitar subvenciones u otras medidas de fomento", "Art. 11.3"],
+            ["Proyecto de conservación", "4 + firma", "Estudio histórico del lugar · diagnóstico de su estado de conservación actual · propuesta de actuación · presupuesto económico de ejecución; suscrito por personal técnico competente", "Art. 13.3.a)"]
+          ],
+          nota: "Trampas de cómputo: siete principios (no seis), seis competencias contando la cláusula residual de la letra f), y tres deberes (art. 10.1) frente a cuatro obligaciones (art. 11.1). El art. 11.2 (restos humanos) no es una obligación del titular: obliga a cualquiera que los descubra."
         }
       ],
       datos: [
-        "Denominación completa: Ley Foral 29/2018, de 26 de diciembre, de Lugares de la Memoria Histórica de Navarra. Para la convocatoria entran los Títulos I a III (arts. 1–14).",
+        "Denominación completa: Ley Foral 29/2018, de 26 de diciembre, de Lugares de la Memoria Histórica de Navarra (BON n.º 250, de 31-12-2018). No se ha modificado: el texto vigente el 21-05-2026 es el original. Para la convocatoria entran los Títulos I a III (arts. 1–14).",
+        "Art. 2.3: los lugares de la memoria, además de su dimensión física, son ESPACIOS DE HOMENAJE Y REPARACIÓN a las víctimas y gozan de especial protección; las medidas se gradúan en cada caso, salvaguardando siempre su naturaleza memorialista y reparadora.",
         "Art. 1: objeto, regular la declaración, protección, conservación y difusión de los lugares, como espacios de transmisión de la memoria que promuevan una cultura de paz y convivencia.",
         "Art. 3: siete principios. Carácter general de la protección (deber de poderes públicos Y ciudadanía), colaboración institucional (con la AGE y las entidades locales), colaboración con los titulares, fomento, accesibilidad, divulgación (forma parte del sistema educativo) e igualdad de género.",
         "Art. 5.1: competencias forales. Conservación y protección, medidas cautelares o expropiación forzosa, fomento y divulgación, potestad sancionadora y gestión del Registro. Las ejerce el departamento de memoria histórica, asesorado por la Comisión Técnica de Coordinación creada por la LF 33/2013, de 26 de noviembre.",
@@ -189,19 +215,21 @@ export default {
         "Art. 7.a): contenido mínimo de la resolución de inicio. Identificación del lugar · valores materiales, históricos o simbólicos · partes del bien objeto de declaración · delimitación cartográfica con coordenadas geográficas · propiedad y personas afectadas · medidas de conservación, señalización y divulgación · medidas cautelares necesarias.",
         "Art. 7.d): la notificación y el anuncio indican el objeto de la declaración, su justificación, los datos de identificación del lugar y la unidad administrativa donde se tramita y exhibe el expediente.",
         "Art. 9.1: la declaración y la inscripción, o la anotación preventiva, suponen un reconocimiento singular y la aplicación del régimen de protección.",
+        "Art. 10.2 y 10.4: la Administración de la Comunidad Foral GARANTIZA la conservación y protección de los lugares; el departamento de memoria histórica colabora en su conservación, mantenimiento y rehabilitación mediante partidas presupuestarias designadas al efecto, colaboración que se establecerá REGLAMENTARIAMENTE.",
         "Art. 13.3.b): la resolución de autorización valora el proyecto y fija condiciones especiales y recomendaciones técnicas y correctoras. Indica además las obras que no necesitan procedimiento por no afectar al valor del bien."
       ],
       excepciones: [
         "Arts. 7.a), 13.3.b) y 14.3: tres silencios distintos. Petición de inicio: DESESTIMATORIO · autorización de intervención: ESTIMATORIO · conformidad sobre planeamiento: FAVORABLE.",
         "Art. 4.2: el periodo 1936–1978 no se aplica a los espacios memoriales del art. 2.2. Un monolito erigido en 1995 puede declararse lugar de la memoria.",
         "Art. 7.b): la suspensión alcanza también los EFECTOS de las licencias YA OTORGADAS, no solo las solicitudes pendientes.",
-        "Art. 7.i): tras la caducidad, la veda de 3 años no opera si el nuevo procedimiento lo insta la persona TITULAR del bien. Sí opera frente a asociaciones, entidades locales o cualquier otro solicitante.",
+        "Art. 7.i): tras la caducidad, la veda de 3 años no opera si el nuevo procedimiento lo insta la persona TITULAR del bien. Sí opera frente a asociaciones, entidades locales o cualquier otro solicitante, y también frente a una nueva iniciación de oficio.",
         "Art. 11.2: el deber de comunicar restos humanos recae sobre CUALQUIERA y rige también fuera del mapa de fosas. No tiene un plazo en horas: es inmediato.",
         "Art. 12: la intervención directa (12.1) solo procede por incumplir los deberes del art. 10. La expropiación (12.2) procede por los arts. 10.1 y 11.1, y las multas coercitivas (12.3) por los arts. 10 y 11.",
         "Las multas coercitivas del art. 12.3 son un medio de ejecución forzosa, no una sanción. El régimen sancionador (Título V, arts. 18–25) queda fuera del alcance de la convocatoria.",
         "Art. 13.3.b): los 3 meses se cuentan desde la fecha de la SOLICITUD, no desde el informe de la Comisión Técnica.",
         "Art. 13.2: la comunicación del ayuntamiento es PREVIA A LA TRAMITACIÓN de la licencia, no previa a la resolución ni posterior al otorgamiento.",
-        "El art. 15 (señalización) y el resto del Título IV (mapa digital y sensibilización, arts. 15–17) no entran en la convocatoria. El art. 11.1.b) solo obliga a permitir la señalización."
+        "Art. 7.h): si no procede la declaración, quien resuelve la finalización del procedimiento y retira la anotación preventiva es el ÓRGANO INICIADOR, no el Gobierno de Navarra.",
+        "El Título IV («Divulgación y difusión de los lugares de la memoria histórica de Navarra y de sus valores»: art. 15, señalización; art. 16, mapa de lugares; art. 17, actividades de divulgación) no entra en la convocatoria. El art. 11.1.b) solo obliga a permitir la señalización «conforme a lo establecido en el artículo 15»."
       ]
     },
   };

@@ -1,199 +1,127 @@
 // Banco de preguntas del tema E40. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 40 ESPECÍFICO · RD 849/1986 DOMINIO PÚBLICO HIDRÁULICO (E40) ----------
-  {
-    "id": "E40-V2-01",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, ¿qué terreno delimita el cauce natural de una corriente continua o discontinua conforme al artículo 4.1?",
-    "o": [
-      "El cubierto por las aguas en las máximas crecidas ordinarias.",
-      "El cubierto por las aguas en la máxima crecida histórica conocida.",
-      "El cubierto por las aguas en la avenida de cien años de retorno.",
-      "El cubierto por las aguas en la avenida de quinientos años de retorno."
-    ],
-    "c": 0,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 4.1: terreno cubierto por las aguas en las máximas crecidas ordinarias, determinado con los criterios e información del precepto. La máxima crecida histórica conocida no sustituye este concepto; las avenidas de cien y quinientos años son referencias de flujo preferente y zona inundable, respectivamente, no la delimitación del cauce."
-  },
-  {
-    "id": "E40-V2-02",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, ¿qué anchuras generales establece el artículo 6.2 para las zonas de servidumbre y de policía, respectivamente?",
-    "o": [
-      "5 metros y 50 metros.",
-      "10 metros y 100 metros.",
-      "5 metros y 100 metros.",
-      "10 metros y 50 metros."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 6.2: servidumbre de 5 m para uso público y policía de 100 m para condicionar usos y actividades. Las combinaciones con 10 m de servidumbre o 50 m de policía modifican las anchuras generales; el artículo 6.4 contempla su posible modificación en los supuestos que enumera."
-  },
-  {
-    "id": "E40-V2-03",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, para la avenida de 100 años, ¿cuál de estos pares de calado y velocidad satisface algún criterio de graves daños del artículo 9.2?",
-    "o": [
-      "Calado: 0,50 m; velocidad: 1,00 m/s.",
-      "Calado: 0,70 m; velocidad: 0,80 m/s.",
-      "Calado: 1,00 m; velocidad: 0,50 m/s.",
-      "Calado: 0,60 m; velocidad: 0,80 m/s."
-    ],
-    "c": 1,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 9.2: basta calado > 1 m, velocidad > 1 m/s o producto > 0,5 m²/s. El par 0,70 × 0,80 da 0,56 m²/s y cumple el tercer criterio. Los pares 0,50 × 1,00 y 1,00 × 0,50 dan exactamente 0,50; ni el calado ni la velocidad alcanzan un valor superior a 1. El par 0,60 × 0,80 da 0,48 y tampoco supera otro umbral."
-  },
-  {
-    "id": "E40-V2-04",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en suelo rural dentro de la zona de flujo preferente, el artículo 9 bis.2 admite excepcionalmente pequeñas edificaciones agrícolas, bajo los requisitos que establece. ¿Qué superficie máxima fija?",
-    "o": [
-      "50 m².",
-      "30 m².",
-      "25 m².",
-      "40 m²."
-    ],
-    "c": 3,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 9 bis.2: superficie máxima de 40 m². Las cifras 25, 30 y 50 no son el máximo reglamentario. La excepción exige no aumentar la vulnerabilidad ni incrementar significativamente la inundabilidad o condicionar las defensas; no habilita cualquier edificio agrícola."
-  },
-  {
-    "id": "E40-V2-05",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en una nueva edificación autorizable conforme al artículo 9 ter, ¿qué hito temporal exige su apartado 2 para que el promotor disponga del certificado del Registro de la Propiedad que acredita la anotación de su ubicación en zona de flujo preferente?",
-    "o": [
-      "Con carácter previo al inicio de las obras.",
-      "Con carácter previo a solicitar la licencia.",
-      "Al finalizar las obras de la edificación.",
-      "Al solicitar su primera ocupación."
-    ],
-    "c": 0,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 9 ter.2: el certificado debe estar disponible con carácter previo al inicio de las obras. El artículo no fija como hito la solicitud de licencia, la finalización o la primera ocupación. Este requisito se añade a la declaración responsable de riesgo del artículo 9 bis.3."
-  },
-  {
-    "id": "E40-V2-06",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, solicitado el informe ordinario sobre actos y planes del artículo 14 quater.4, sin requerimiento de información complementaria que suspenda el plazo, ¿qué plazo y efecto de la falta de emisión establece?",
-    "o": [
-      "Dos meses; informe desfavorable.",
-      "Cuatro meses; informe desfavorable.",
-      "Dos meses; informe favorable.",
-      "Cuatro meses; informe favorable."
-    ],
-    "c": 1,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 14 quater.4: cuatro meses desde la recepción de la solicitud; si no se emite, se entiende desfavorable. Dos meses y sentido positivo corresponden al informe específico del apartado 7 sobre instrumentos de ordenación territorial o urbanística que afecten directamente a terrenos previstos para infraestructuras hidráulicas de interés general, no al supuesto ordinario preguntado."
-  },
-  {
-    "id": "E40-V2-07",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, conforme al artículo 2, ¿qué conjunto está formado por bienes que integran el dominio público hidráulico del Estado, con las salvedades legales?",
-    "o": [
-      "Aguas superficiales continentales y subterráneas renovables, cauces naturales discontinuos y aguas procedentes de la desalación del mar.",
-      "Aguas superficiales continentales y subterráneas renovables, cauces artificiales de riego y aguas procedentes de la desalación del mar.",
-      "Aguas superficiales continentales y subterráneas renovables, cauces naturales discontinuos y lechos de embalses superficiales en cauces privados.",
-      "Aguas superficiales continentales y subterráneas renovables, cauces artificiales de riego y lechos de embalses superficiales en cauces privados."
-    ],
-    "c": 0,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 2.a), b), c) y e): incluye las aguas continentales superficiales y las subterráneas renovables, los cauces naturales continuos o discontinuos y las aguas desaladas del mar. Los cauces artificiales de riego no son el supuesto de la letra b); la letra c) se refiere a embalses superficiales en cauces públicos, no privados. Las restantes opciones introducen uno o ambos errores."
-  },
-  {
-    "id": "E40-V2-08",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en zona de flujo preferente, en suelo urbanizado a 30 de diciembre de 2016, se proyectan nuevos usos residenciales cumpliendo los demás requisitos del artículo 9 ter.1. ¿Qué avenida determina la cota a la que no deben verse afectados?",
-    "o": [
-      "La avenida con un periodo de retorno de diez años.",
-      "La avenida con un periodo de retorno de cien años.",
-      "La avenida con un periodo de retorno de quinientos años.",
-      "La avenida con un periodo de retorno de mil años."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 9 ter.1.f): los nuevos usos residenciales deben situarse a una cota tal que no los afecte la avenida de 500 años. Los 100 años se utilizan para delimitar la zona de flujo preferente, no esta cota residencial; diez y mil años tampoco son el umbral del precepto. Esta condición no sustituye los demás requisitos para edificar."
-  },
-  {
-    "id": "E40-V2-09",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en una zona inundable situada fuera de la zona de policía se solicita una nueva actividad. El planeamiento no ha sido informado por la administración hidráulica ni recoge sus previsiones. ¿Qué régimen establece el artículo 14 bis.5?",
-    "o": [
-      "Autoriza la administración competente, con las limitaciones de uso y previo informe de la administración hidráulica.",
-      "Autoriza el organismo de cuenca, con las limitaciones de uso y previo informe de la administración urbanística.",
-      "Autoriza la administración competente, con las limitaciones de uso y posterior comunicación a la administración hidráulica.",
-      "Autoriza el organismo de cuenca, con las limitaciones de uso y posterior comunicación a la administración urbanística."
-    ],
-    "c": 0,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 14 bis.5: fuera de la zona de policía autoriza la administración competente, sujeta a las limitaciones de uso y al informe previo de la administración hidráulica. No atribuye por esa sola ubicación la autorización al organismo de cuenca, ni sustituye el informe previo por una comunicación posterior. La excepción relativa al planeamiento informado no concurre en el supuesto."
-  },
-  {
-    "id": "E40-V2-10",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, una descarga contaminante alcanza un acuífero mediante filtración a través del suelo; otra se inyecta en el agua subterránea sin percolación. ¿Cómo se clasifican, respectivamente, conforme al artículo 245.1?",
-    "o": [
-      "Vertido directo y vertido indirecto.",
-      "Vertido indirecto y vertido directo.",
-      "Vertido directo y vertido directo.",
-      "Vertido indirecto y vertido indirecto."
-    ],
-    "c": 1,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 245.1: filtración a través del suelo o subsuelo hacia aguas subterráneas es vertido indirecto; inyección sin percolación es directo. La inversión intercambia ambas definiciones; las respuestas que equiparan las dos técnicas ignoran el criterio de percolación."
-  },
-  {
-    "id": "E40-V2-11",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en el procedimiento de autorización de vertido del artículo 249.2, ¿qué plazo máximo de notificación de la resolución y qué efecto de la falta de notificación establece el Reglamento?",
-    "o": [
-      "Seis meses; solicitud desestimada.",
-      "Un año; solicitud estimada.",
-      "Un año; solicitud desestimada.",
-      "Seis meses; solicitud estimada."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 249.2: plazo máximo de un año para notificar resolución motivada y silencio desestimatorio. El plazo de seis meses del artículo 247.3 se refiere a resoluciones de la fase de examen previo, no a la resolución final de autorización; el sentido estimatorio contradice el apartado preguntado."
-  },
-  {
-    "id": "E40-V2-12",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en la zona de servidumbre el propietario proyecta sembrar especies no arbóreas y plantar especies arbóreas, sin deteriorar el ecosistema fluvial ni impedir el paso público. ¿Qué régimen corresponde respectivamente conforme al artículo 7.2?",
-    "o": [
-      "La siembra es libre para el propietario y la plantación requiere autorización del organismo de cuenca.",
-      "La siembra requiere autorización del organismo de cuenca y la plantación es libre para el propietario.",
-      "La siembra y la plantación son libres para el propietario, sin autorización del organismo de cuenca.",
-      "La siembra y la plantación requieren autorización del organismo de cuenca para su realización por el propietario."
-    ],
-    "c": 0,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 7.2: el propietario puede sembrar especies no arbóreas libremente bajo las condiciones del enunciado; la plantación de especies arbóreas requiere autorización del organismo de cuenca. La segunda opción invierte ambos regímenes; la tercera dispensa indebidamente la autorización de la plantación arbórea; la cuarta somete indebidamente a autorización la siembra no arbórea."
-  },
-  {
-    "id": "E40-V2-13",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, según el artículo 14.1, ¿qué efecto tiene la calificación de un terreno como zona inundable sobre su titularidad y calificación jurídica?",
-    "o": [
-      "Modifica su titularidad, pero conserva su calificación jurídica.",
-      "Conserva su titularidad, pero modifica su calificación jurídica.",
-      "Conserva tanto su titularidad como su calificación jurídica.",
-      "Modifica tanto su titularidad como su calificación jurídica."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 14.1: la calificación como zona inundable no modifica la titularidad dominical ni la calificación jurídica de los terrenos. Las otras tres opciones atribuyen un cambio que el precepto excluye; las restricciones de uso no convierten por sí solas el terreno en dominio público."
-  },
-  {
-    "id": "E40-V2-14",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, se solicita una autorización previa para construir en zona de policía al amparo del artículo 78 ter. No concurre la excepción de planeamiento informado. ¿Qué plazo y efecto del silencio establece su apartado 2.b)?",
-    "o": [
-      "Cuatro meses desde el inicio del procedimiento, con silencio desestimatorio.",
-      "Cuatro meses desde el inicio del procedimiento, con silencio estimatorio.",
-      "Seis meses desde el inicio del procedimiento, con silencio estimatorio.",
-      "Seis meses desde el inicio del procedimiento, con silencio desestimatorio."
-    ],
-    "c": 3,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 78 ter.2.b): seis meses desde el inicio del procedimiento y silencio desestimatorio. Cuatro meses corresponde en el apartado 3 a la conformidad con la propuesta autonómica cuando la tramitación ha sido encomendada, no al plazo de esta autorización. Ninguna opción de silencio estimatorio reproduce el apartado 2.b)."
-  },
-  {
-    "id": "E40-V2-15",
-    "tema": "E40",
-    "q": "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en zona de flujo preferente sobre suelo rural a 30 de diciembre de 2016, se proponen actuaciones nuevas y se cumplen los requisitos específicos de las excepciones previstas en el artículo 9 bis. No se aplica el régimen especial municipal del artículo 9 quater. ¿Qué actuación NO está permitida?",
-    "o": [
-      "Una depuradora urbana de aguas residuales.",
-      "Una canalización subterránea de saneamiento.",
-      "Una zona destinada al alojamiento en un camping.",
-      "Una edificación agrícola de 40 m² de superficie."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas. Art. 9 bis.1.c): se prohíben las nuevas zonas destinadas al alojamiento en campings. El apartado 1.d) admite excepcionalmente depuradoras urbanas con el estudio de alternativas y restantes condiciones que describe; el 1.i) exceptúa infraestructuras de saneamiento y canalizaciones subterráneas; el apartado 2 admite pequeñas edificaciones agrícolas de hasta 40 m² con sus requisitos. El supuesto declara cumplidas las condiciones de esas excepciones y excluye el régimen especial del artículo 9 quater."
-  },
+  // ── E40 · RD 849/1986, Reglamento del Dominio Público Hidráulico: Título Preliminar, Títulos I y II y Título III, cap. II ──
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección 2 bis):
+  // 3 META (E40-V2-03, E40-V2-11, E40-V2-15), 3 DATO (E40-V2-02, E40-V2-04, E40-V2-16), 2 NEG (E40-V2-10,
+  // E40-V2-12), 1 LISTA (E40-V2-07), 1 LIT (E40-V2-09), 1 AFIRM (E40-V2-13), 1 SEL (E40-V2-14), 1 DEF (E40-V2-01),
+  // 1 ALCANCE (E40-V2-05) y 1 COMB2 (E40-V2-06).
+  // Reescritas in situ, con su id, su subtema y su tipo: E40-V2-01 a E40-V2-07 y E40-V2-09 a E40-V2-15.
+  // Nueva: E40-V2-16 (arts. 84.2 y 87.1, uso privativo por disposición legal hasta 7.000 m³).
+  // Retirada (no se borra: el historial va por id): E40-V2-08 (art. 9 ter.1.f); la avenida de 500 años de los usos
+  // residenciales en flujo preferente pasa a la E40-V2-05 y el dato sigue en el resumen.
+  // Preguntas reales copiadas literalmente con su clave: E40-V2-01 es la P61 (D) y E40-V2-15 la P41 (A) del examen de
+  // Arquitectos del Gobierno de Navarra de 7-3-2026; como en el original, no citan el número de la norma.
+  // Vigencia a 21-05-2026 contrastada con el BOE (BOE-A-1986-10638, pestaña «Análisis», última actualización
+  // 03-06-2026): el TXT recoge el RD 665/2023 y el RD 1085/2024 (en vigor el 24-10-2024; en el alcance toca los
+  // arts. 55.2, 115.3.c, 163.6, 164.5, 169.5, 189.3.a, 192.4.c, 194.1.a, 198.2, 259 bis.4, 263 bis.1.a y 264.1).
+  // La sección 6.ª bis del capítulo III del título II (art. 139 ter, plantas fotovoltaicas flotantes, RD 662/2024)
+  // seguía vigente el 21-05-2026: la STS de 29-04-2026 que la anula se publicó en el BOE el 03-06-2026. El TXT ya la
+  // da por «(Anulado)»; no se pregunta.
+  // Letra correcta: A 4, B 4, C 4, D 3. Metas en la d): correctas en E40-V2-03 («a) y c)») y E40-V2-11 («Todas»);
+  // en la E40-V2-15 (real) «a) y c)» es falsa y la correcta es la a). Enunciados: 13 citan la norma completa (las
+  // dos reales, no); 7 citan además el artículo (03, 04, 05, 07, 09, 10 y 12); 9 acaban en «:», 4 son preguntas
+  // directas y 2 imperativas.
+  { id: "E40-V2-01", tema: "E40", subtema: "Cauce público (art. 4.1)", tipo: "DEF",
+    q: "Según el Reglamento del Dominio Público Hidráulico, los límites del cauce se determinan por:",
+    o: ["Los márgenes que alcanzan las aguas en la máxima crecida conocida en los últimos 10 años.",
+        "El nivel de aguas ordinarias y la zona de servidumbre.",
+        "El nivel máximo alcanzado en las crecidas conocidas en los últimos 25 años.",
+        "El terreno cubierto por las aguas en las máximas crecidas ordinarias."],
+    c: 3, exp: "RD 849/1986 (RDPH), art. 4.1: «Se entiende por cauce público al álveo o cauce natural de una corriente continua o discontinua cuyo terreno queda cubierto por las aguas en las máximas crecidas ordinarias». Ni la a) ni la c) son el criterio: el reglamento no atiende a la crecida máxima conocida en un número fijo de años; los diez años del art. 4.2 son la longitud mínima de la serie con la que se calcula el caudal de la máxima crecida ordinaria, que es «la media de los máximos caudales instantáneos anuales en su régimen natural», en un período que «será superior a diez años consecutivos». La b) tampoco: la zona de servidumbre grava las márgenes, que son «los terrenos que lindan con los cauces» (arts. 6.1 y 6.2.a), es decir, terrenos situados fuera del cauce. Es la P61 del examen de Arquitectos del Gobierno de Navarra de 7-3-2026, copiada literalmente (clave D)." },
+  { id: "E40-V2-02", tema: "E40", subtema: "Zona de policía: anchura (arts. 6.2 y 9.1)", tipo: "DATO",
+    q: "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, las márgenes de los terrenos que lindan con los cauces están sujetas en toda su extensión longitudinal a una zona de policía, en la que se condicionará el uso del suelo y las actividades que en él se desarrollen, de una anchura de:",
+    o: ["25 metros.", "50 metros.", "100 metros.", "200 metros."],
+    c: 2, exp: "RD 849/1986 (RDPH), art. 6.2.b): las márgenes están sujetas «A una zona de policía de cien metros de anchura, en la que se condicionará el uso del suelo y las actividades que en él se desarrollen»; el art. 9.1 añade que esos 100 metros se miden «horizontalmente a partir del cauce». La zona de servidumbre para uso público es de cinco metros (art. 6.2.a). El reglamento no fija anchuras generales de 25, 50 ni 200 metros: la de ambas zonas solo puede modificarse en las zonas próximas a la desembocadura en el mar, en el entorno inmediato de los embalses o cuando las condiciones topográficas o hidrográficas lo hagan necesario para la seguridad de personas y bienes (art. 6.4)." },
+  { id: "E40-V2-03", tema: "E40", subtema: "Zona de flujo preferente y vía de intenso desagüe (art. 9.2)", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 9.2 del Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en relación con la zona de flujo preferente:",
+    o: ["Se entiende por vía de intenso desagüe la zona por la que pasaría la avenida de 100 años de periodo de retorno sin producir una sobreelevación mayor que 0,3 m respecto a la cota de la lámina de agua que se produciría con esa misma avenida considerando toda la llanura de inundación existente.",
+        "Se considerará que pueden producirse graves daños sobre las personas y los bienes cuando las condiciones hidráulicas durante la avenida satisfagan uno o más de los siguientes criterios: calado superior a 1 m, velocidad superior a 1 m/s o producto de ambas variables superior a 0,3 m²/s.",
+        "La zona de flujo preferente es la constituida por la unión de la vía de intenso desagüe y de la zona donde, para la avenida de 100 años de periodo de retorno, se puedan producir graves daños sobre las personas y los bienes.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "RD 849/1986 (RDPH), art. 9.2. La a) es literal: «Se entiende por vía de intenso desagüe la zona por la que pasaría la avenida de 100 años de periodo de retorno sin producir una sobreelevación mayor que 0,3 m, respecto a la cota de la lámina de agua que se produciría con esa misma avenida considerando toda la llanura de inundación existente». La c) también: «La zona de flujo preferente es aquella zona constituida por la unión de la zona o zonas donde se concentra preferentemente el flujo durante las avenidas, o vía de intenso desagüe, y de la zona donde, para la avenida de 100 años de periodo de retorno, se puedan producir graves daños sobre las personas y los bienes, quedando delimitado su límite exterior mediante la envolvente de ambas zonas». Por eso la correcta es la d). La b) es falsa porque rebaja el umbral del tercer criterio: hay graves daños cuando las condiciones hidráulicas «satisfagan uno o más de los siguientes criterios: a) Que el calado sea superior a 1 m. b) Que la velocidad sea superior a 1 m/s. c) Que el producto de ambas variables sea superior a 0,5 m2/s». Los 0,3 m son la sobreelevación máxima que define la vía de intenso desagüe, no un umbral de graves daños." },
+  { id: "E40-V2-04", tema: "E40", subtema: "Flujo preferente en suelo rural: edificaciones agrícolas (art. 9 bis.2)", tipo: "DATO",
+    q: "Conforme a lo establecido en el artículo 9 bis.2 del Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en la zona de flujo preferente, en suelos que a 30 de diciembre de 2016 se encontraban en la situación básica de suelo rural, se permite excepcionalmente la construcción de pequeñas edificaciones destinadas a usos agrícolas con una superficie máxima de:",
+    o: ["30 m².", "40 m².", "50 m².", "60 m²."],
+    c: 1, exp: "RD 849/1986 (RDPH), art. 9 bis.2: «Excepcionalmente se permite la construcción de pequeñas edificaciones destinadas a usos agrícolas con una superficie máxima de 40 m2», siempre que no representen un aumento de la vulnerabilidad de la seguridad de las personas o bienes frente a las avenidas y no se incremente de manera significativa la inundabilidad del entorno inmediato ni aguas abajo. Las superficies de 30, 50 y 60 m² no figuran en el precepto. La excepción opera sobre una regla general muy restrictiva: en el suelo que era rural el 30-12-2016, el apartado 1.b) prohíbe las nuevas edificaciones en la zona de flujo preferente." },
+  { id: "E40-V2-05", tema: "E40", subtema: "Flujo preferente en suelo urbanizado: garajes y sótanos (art. 9 ter.1.f)", tipo: "ALCANCE",
+    q: "Conforme a lo establecido en el artículo 9 ter del Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, una nueva edificación de carácter residencial situada en la zona de flujo preferente, en suelo que a 30 de diciembre de 2016 se encontraba en la situación básica de suelo urbanizado, podrá disponer de garajes subterráneos y sótanos:",
+    o: ["Siempre que se garantice la estanqueidad del recinto para la avenida de 500 años de período de retorno, se realicen estudios específicos para evitar el colapso de las edificaciones y dispongan de respiraderos y vías de evacuación por encima de la cota de dicha avenida.",
+        "Siempre que se garantice la estanqueidad del recinto para la avenida de 100 años de período de retorno, se realicen estudios específicos para evitar el colapso de las edificaciones y dispongan de respiraderos y vías de evacuación por encima de la cota de dicha avenida.",
+        "En ningún caso, porque en la zona de flujo preferente no se permiten garajes subterráneos, sótanos ni cualquier otra edificación bajo rasante.",
+        "Siempre, sin otros requisitos que los generales, por encontrarse el suelo en la situación básica de suelo urbanizado a 30 de diciembre de 2016."],
+    c: 0, exp: "RD 849/1986 (RDPH), art. 9 ter.1.f): «Podrán disponer de garajes subterráneos y sótanos, siempre que se garantice la estanqueidad del recinto para la avenida de 500 años de período de retorno, y que se realicen estudios específicos para evitar el colapso de las edificaciones, todo ello teniendo en cuenta la carga sólida transportada y que además dispongan de respiraderos y vías de evacuación por encima de la cota de dicha avenida». La b) cambia la avenida de 500 años por la de 100, que es la que sirve para delimitar la zona de flujo preferente (art. 9.2). La c) aplica al suelo urbanizado la prohibición de «garajes subterráneos, sótanos y cualquier edificación bajo rasante» del art. 9 bis.1.b), que solo rige en el suelo que el 30-12-2016 estaba en la situación de suelo rural. La d) olvida que el art. 9 ter.1 admite estas obras solo «siempre que se reúnan los siguientes requisitos», entre ellos que los nuevos usos residenciales se dispongan a una cota no afectada por la avenida de 500 años." },
+  { id: "E40-V2-06", tema: "E40", subtema: "Informe previo sobre planes: plazo y silencio (art. 14 quater.4)", tipo: "COMB2",
+    q: "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, un ayuntamiento solicita al organismo de cuenca el informe previo sobre un plan urbanístico que afecta a los usos permitidos en la zona de policía de un cauce. Si no se pide información complementaria, ¿en qué plazo debe emitirse el informe y qué efecto tiene que no se emita en ese plazo?",
+    o: ["Dos meses; se entenderá favorable.",
+        "Cuatro meses; se entenderá desfavorable.",
+        "Dos meses; se entenderá desfavorable.",
+        "Cuatro meses; se entenderá favorable."],
+    c: 1, exp: "RD 849/1986 (RDPH), art. 14 quater.4: el informe previo del art. 25.4 del TRLA sobre los actos y planes de las comunidades autónomas y entidades locales «se emitirá en un plazo de cuatro meses, que quedará suspendido en el supuesto de que se solicite información complementaria al solicitante. El informe se entenderá desfavorable si no se emite en este plazo». Los dos meses con sentido positivo de la a) son los del informe vinculante del art. 14 quater.7, que se exige antes de la aprobación inicial a los instrumentos que afecten directamente a terrenos previstos para obras hidráulicas de interés general: «Este informe se entenderá positivo si no se emite y notifica en el plazo de dos meses». La c) toma el plazo de ese otro informe y la d) da al silencio el sentido contrario al del art. 14 quater.4." },
+  { id: "E40-V2-07", tema: "E40", subtema: "Bienes del dominio público hidráulico (art. 2)", tipo: "LISTA",
+    q: "Conforme a lo establecido en el artículo 2 del Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, constituyen, entre otros bienes y con las salvedades expresamente establecidas en la Ley, el dominio público hidráulico del Estado:",
+    o: ["Las aguas continentales superficiales, los cauces de corrientes naturales continuas o discontinuas y los terrenos de las márgenes sujetos a la zona de servidumbre.",
+        "Las aguas continentales superficiales, los cauces de corrientes naturales continuas o discontinuas y las aguas procedentes de la desalación de agua de mar.",
+        "Las aguas continentales superficiales, los cauces de corrientes naturales continuas o discontinuas y los cauces, cajeros y márgenes de las acequias.",
+        "Las aguas continentales superficiales, los cauces de corrientes naturales continuas o discontinuas y las aguas minerales y termales."],
+    c: 1, exp: "RD 849/1986 (RDPH), art. 2: «Constituyen el dominio público hidráulico del Estado, con las salvedades expresamente establecidas en la Ley: a) Las aguas continentales, tanto las superficiales como las subterráneas renovables [...] b) Los cauces de corrientes naturales, continuas o discontinuas [...] e) Aguas procedentes de la desalación de agua de mar». La a) es falsa: las márgenes son «los terrenos que lindan con los cauces» (art. 6.1), terrenos situados fuera del cauce que solo quedan gravados por la servidumbre; el art. 7.2 se dirige a «Los propietarios de estas zonas de servidumbre». La c) también: «En toda acequia o acueducto el cauce, los cajeros y márgenes serán considerados como parte integrante de la heredad o edificio a que vayan a ser destinadas las aguas» (art. 40). Y la d): «Las aguas minerales y termales se regularán por su legislación específica» (art. 1.4), previo expediente para su exclusión del ámbito de la Ley de Aguas." },
+  { id: "E40-V2-08", tema: "E40", subtema: "Flujo preferente en suelo urbanizado: cota residencial (art. 9 ter.1.f)", estado: "retirada", sustituidaPor: "E40-V2-05",
+    q: "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en zona de flujo preferente, en suelo urbanizado a 30 de diciembre de 2016, se proyectan nuevos usos residenciales cumpliendo los demás requisitos del artículo 9 ter.1. ¿Qué avenida determina la cota a la que no deben verse afectados?",
+    o: ["La avenida con un periodo de retorno de diez años.",
+        "La avenida con un periodo de retorno de cien años.",
+        "La avenida con un periodo de retorno de quinientos años.",
+        "La avenida con un periodo de retorno de mil años."],
+    c: 2, exp: "Retirada el 02-11-2026 para dejar 15 activas con la mezcla del examen real. Su dato (art. 9 ter.1.f: «los nuevos usos residenciales se dispondrán a una cota tal que no se vean afectados por la avenida con periodo de retorno de 500 años») se pregunta ahora en la E40-V2-05, junto con los garajes y sótanos, y sigue en el resumen." },
+  { id: "E40-V2-09", tema: "E40", subtema: "Zona inundable fuera de la zona de policía (art. 14 bis.5)", tipo: "LIT",
+    q: "Conforme a lo establecido en el artículo 14 bis.5 del Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en las zonas inundables situadas fuera de la zona de policía, cuando el plan de ordenación urbana no haya sido informado por la administración hidráulica ni recoja sus previsiones, las actividades:",
+    o: ["Serán autorizadas por el organismo de cuenca, con sujeción, al menos, a las limitaciones de uso que se establecen en este artículo, y al informe que emitirá con carácter previo la administración competente.",
+        "Serán autorizadas por la administración competente, con sujeción, al menos, a las limitaciones de uso que se establecen en este artículo, y a la declaración responsable que se presentará con carácter previo ante la administración hidráulica.",
+        "Serán autorizadas por la administración competente, con sujeción, al menos, a las limitaciones de uso que se establecen en este artículo, y al informe que emitirá con carácter previo la administración hidráulica.",
+        "Serán autorizadas por la administración competente, con sujeción, al menos, a las limitaciones de uso que se establecen en este artículo, y a la comunicación que se remitirá con posterioridad a la administración hidráulica."],
+    c: 2, exp: "RD 849/1986 (RDPH), art. 14 bis.5: se distingue entre las zonas inundables incluidas en la zona de policía, en las que cualquier obra o trabajo «precisará autorización administrativa o declaración responsable de los organismos de cuenca», y las «situadas fuera de dicha zona de policía, en las que las actividades serán autorizadas por la administración competente con sujeción, al menos, a las limitaciones de uso que se establecen en este artículo, y al informe que emitirá con carácter previo la administración hidráulica de conformidad con el artículo 25.4 del TRLA», salvo que el plan haya sido informado y haya recogido sus previsiones. La a) invierte los papeles: fuera de la zona de policía no autoriza el organismo de cuenca, sino la administración competente, y el informe previo es de la administración hidráulica. La b) cambia ese informe por una declaración responsable y la d) por una comunicación posterior." },
+  { id: "E40-V2-10", tema: "E40", subtema: "Vertidos directos e indirectos (art. 245.1)", tipo: "NEG",
+    q: "De conformidad con lo establecido en el artículo 245.1 del Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, no es un vertido indirecto:",
+    o: ["El realizado en aguas subterráneas mediante inyección sin percolación a través del suelo o del subsuelo.",
+        "El realizado en aguas superficiales a través de azarbes o por cualquier otro medio de desagüe.",
+        "El realizado en aguas superficiales a través de redes de colectores de recogida de aguas residuales o de aguas pluviales.",
+        "El realizado en aguas subterráneas mediante filtración a través del suelo o del subsuelo."],
+    c: 0, exp: "RD 849/1986 (RDPH), art. 245.1: «Son vertidos indirectos tanto los realizados en aguas superficiales a través de azarbes, redes de colectores de recogida de aguas residuales o de aguas pluviales o por cualquier otro medio de desagüe, o a cualquier otro elemento del dominio público hidráulico, así como los realizados en aguas subterráneas mediante filtración a través del suelo o del subsuelo». Por eso b), c) y d) son vertidos indirectos. La a) no lo es: «Son vertidos directos los que se produzcan como consecuencia de la emisión directa de contaminantes a las aguas continentales o a cualquier otro elemento del dominio público hidráulico, así como la descarga de contaminantes en el agua subterránea mediante inyección sin percolación a través del suelo o del subsuelo». En las aguas subterráneas, lo que separa ambos supuestos es la percolación: filtración a través del suelo (indirecto) frente a inyección sin percolación (directo)." },
+  { id: "E40-V2-11", tema: "E40", subtema: "Autorización de vertido: competencia, plazo y vigencia (arts. 245.2 y 249)", tipo: "META",
+    q: "De conformidad con el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, en relación con las autorizaciones de vertido:",
+    o: ["La autorización de los vertidos efectuados en cualquier punto de la red de alcantarillado gestionada por una entidad local corresponderá al órgano local competente.",
+        "El organismo de cuenca notificará la resolución motivada en el plazo máximo de un año y, de no hacerlo, podrá entenderse desestimada la solicitud de autorización.",
+        "Tendrán un plazo máximo de vigencia de cinco años, entendiéndose renovadas por plazos sucesivos de igual duración, siempre que el vertido no sea causa de incumplimiento de los objetivos medioambientales.",
+        "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "RD 849/1986 (RDPH), arts. 245.2 y 249. La a) resume el art. 245.2: la autorización «corresponde a la administración hidráulica competente, salvo en los casos de vertidos efectuados en cualquier punto de la red de alcantarillado o de colectores gestionados por las Administraciones autonómicas o locales o por entidades dependientes de las mismas, en los que la autorización corresponderá al órgano autonómico o local competente». La b) es literal del art. 249.2: «El organismo de cuenca notificará la resolución motivada en el plazo máximo de un año y, de no hacerlo, podrá entenderse desestimada la solicitud de autorización». La c) reproduce el art. 249.4: «Las autorizaciones de vertido tendrán un plazo máximo de vigencia de cinco años, entendiéndose renovadas por plazos sucesivos de igual duración al autorizado, siempre que el vertido no sea causa de incumplimiento de los objetivos medioambientales». Como las tres son ciertas, la correcta es la d). No se confunda el año del art. 249.2 con los seis meses del art. 247.3, que es el plazo para notificar la denegación o el requerimiento de correcciones tras el examen técnico inicial." },
+  { id: "E40-V2-12", tema: "E40", subtema: "Zona de servidumbre: fines y usos (art. 7)", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA en relación con lo establecido en el artículo 7 del Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, sobre la zona de servidumbre para uso público.",
+    o: ["Tiene entre sus fines el paso público peatonal y el desarrollo de los servicios de vigilancia, conservación y salvamento.",
+        "Sus propietarios podrán libremente sembrar y plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso.",
+        "Las talas o plantaciones de especies arbóreas requerirán la presentación de una declaración responsable ante el organismo de cuenca.",
+        "Solo podrán autorizarse edificaciones en casos muy justificados, con la mínima ocupación de la zona, tanto en su suelo como en su vuelo."],
+    c: 2, exp: "RD 849/1986 (RDPH), art. 7.2, párrafo segundo: «Las talas o plantaciones de especies arbóreas requerirán autorización del organismo de cuenca», no una declaración responsable; por eso la c) es la incorrecta. Las demás reproducen el art. 7: la zona de servidumbre tiene como fines la «Protección del ecosistema fluvial y del dominio público hidráulico», el «Paso público peatonal y para el desarrollo de los servicios de vigilancia, conservación y salvamento» y el «Varado y amarre de embarcaciones de forma ocasional y en caso de necesidad» (apartado 1, opción a); sus propietarios «podrán libremente sembrar y plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso» (apartado 2, opción b); y «Solo podrán autorizarse edificaciones en zona de servidumbre en casos muy justificados», que se ejecutarán «con la mínima ocupación de la misma, tanto en su suelo como en su vuelo» (apartado 3, opción d)." },
+  { id: "E40-V2-13", tema: "E40", subtema: "Zona inundable: limitaciones de uso (arts. 14 y 14 bis)", tipo: "AFIRM",
+    q: "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, señale la respuesta CORRECTA en relación con las limitaciones a los usos del suelo en la zona inundable.",
+    o: ["En los suelos que a 30 de diciembre de 2016 estaban en la situación básica de suelo rural, las nuevas actividades, edificaciones y usos asociados se realizarán, en la medida de lo posible, fuera de las zonas inundables.",
+        "La calificación de unos terrenos como zona inundable altera su calificación jurídica, aunque no su titularidad dominical.",
+        "En los suelos que a 30 de diciembre de 2016 estaban en la situación básica de suelo urbanizado no podrá permitirse la construcción de nuevas edificaciones en la zona inundable.",
+        "La declaración responsable sobre el riesgo de inundación no integrada en un expediente de autorización se presentará ante la administración hidráulica con una antelación mínima de tres meses antes del inicio de la actividad."],
+    c: 0, exp: "RD 849/1986 (RDPH), art. 14 bis.1: «Las nuevas actividades, edificaciones y usos asociados en aquellos suelos que se encuentren en situación básica de suelo rural a 30 de diciembre de 2016 se realizarán, en la medida de lo posible, fuera de las zonas inundables». La b) es falsa: «La calificación como zonas inundables no alterará la calificación jurídica y la titularidad dominical que dichos terrenos tuviesen» (art. 14.1). La c) también, porque en el suelo urbanizado a esa fecha «podrá permitirse la construcción de nuevas edificaciones, teniendo en cuenta, en la medida de lo posible, lo establecido en las letras a) y b) del apartado 1» (art. 14 bis.2). Y la d) cambia el plazo: si la declaración responsable no se ha incluido en un expediente de autorización de la administración hidráulica, «deberá presentarse ante ésta con una antelación mínima de un mes antes del inicio de la actividad» (art. 14 bis.3)." },
+  { id: "E40-V2-14", tema: "E40", subtema: "Zona de policía: declaración responsable o autorización (arts. 78 bis a 80)", tipo: "SEL",
+    q: "De acuerdo con el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, ¿cuál de las siguientes actuaciones en la zona de policía puede realizarse presentando una declaración responsable ante el organismo de cuenca, sin necesidad de autorización previa?",
+    o: ["La reparación de una edificación existente que conlleve un cambio de uso.",
+        "La colocación de carteles sujetos por postes y la instalación de pastores eléctricos.",
+        "La extracción de áridos por el propietario de la finca o por quien goce de su autorización.",
+        "Las obras de defensa o nivelación de terrenos que alteren sensiblemente el relieve natural."],
+    c: 1, exp: "RD 849/1986 (RDPH), art. 78 bis.1: pueden realizarse presentando una declaración responsable, «siempre que no se produzcan alteraciones sustanciales del relieve natural y se respete la zona de servidumbre», las actividades que enumera, entre ellas «g) Carteles sujetos por postes e instalación de pastores eléctricos». Las otras tres exigen autorización previa del organismo de cuenca por el procedimiento del art. 78 ter: la a), porque «para reparación de edificaciones existentes con cambio de uso o para realizar cualquier tipo de construcción será necesario la obtención de una autorización previa del organismo de cuenca» (art. 78 ter.1), y la declaración responsable solo cubre las obras de reparación que no impliquen cambios estructurales, aumento de volumen, altura o superficie, «ni un cambio del uso al que estén destinadas» (art. 78 bis.1.e); la c), porque las extracciones de áridos se autorizan al propietario o a quien goce de su autorización por el procedimiento del art. 78 ter (art. 80); y la d), porque las obras de defensa o nivelaciones que alteren sensiblemente el relieve natural siguen también el art. 78 ter (art. 79)." },
+  { id: "E40-V2-15", tema: "E40", subtema: "Flujo preferente en suelo rural: usos prohibidos (art. 9 bis.1)", tipo: "META",
+    q: "Según el Reglamento del Dominio Público Hidráulico, ¿qué tipo de instalación nueva NO se permitirá en los suelos que se encuentren en la zona de flujo preferente y en situación básica de suelo rural?",
+    o: ["Acampadas, zonas destinadas al alojamiento en los campings y edificios de usos vinculados.",
+        "Obras de reposición, conservación, mejora y protección de infraestructuras lineales ya existentes.",
+        "Infraestructuras de saneamiento, abastecimiento y otras canalizaciones subterráneas.",
+        "Las respuestas a) y c) son correctas."],
+    c: 0, exp: "RD 849/1986 (RDPH), art. 9 bis.1: en los suelos que a 30 de diciembre de 2016 se encontraban en situación básica de suelo rural «no se permitirá la instalación de nuevas: [...] c) Acampadas, zonas destinadas al alojamiento en los campings y edificios de usos vinculados». La b) y la c) son excepciones expresas de la letra i), que prohíbe las infraestructuras lineales diseñadas de modo tendente al paralelismo con el cauce: «Quedan exceptuadas las infraestructuras de saneamiento, abastecimiento y otras canalizaciones subterráneas, así como las obras de conservación, mejora y protección de infraestructuras lineales ya existentes»; la letra d) exceptúa también «las obras de reposición, conservación, mejora y protección» de las depuradoras ya existentes. Como la c) es falsa, también lo es la d). Es la P41 del examen de Arquitectos del Gobierno de Navarra de 7-3-2026, copiada literalmente (clave A)." },
+  { id: "E40-V2-16", tema: "E40", subtema: "Usos privativos por disposición legal: volumen máximo (arts. 84.2 y 87.1)", tipo: "DATO",
+    q: "Según el Real Decreto 849/1986, de 11 de abril, por el que se aprueba el Reglamento del Dominio Público Hidráulico, que desarrolla los títulos Preliminar, I, IV, V, VI y VII de la Ley 29/1985, de 2 de agosto, de Aguas, ¿hasta qué volumen total anual puede el propietario de un predio utilizar en él, por disposición legal, las aguas procedentes de manantiales situados en su interior y aprovechar en él aguas subterráneas?",
+    o: ["3.000 metros cúbicos.", "5.000 metros cúbicos.", "7.000 metros cúbicos.", "10.000 metros cúbicos."],
+    c: 2, exp: "RD 849/1986 (RDPH), art. 84.2: «se podrán utilizar en un predio aguas procedentes de manantiales situados en su interior y aprovechar en él aguas subterráneas cuando el volumen total anual no sobrepase los 7.000 metros cúbicos». El art. 87.1 lo reitera: el derecho «queda limitado a un volumen máximo anual de 7.000 metros cúbicos, aunque sean más de uno los puntos de derivación o extracción dentro del mismo predio», y si el volumen fuera superior, el propietario «solicitará la concesión de la totalidad de aquél». Las cifras de 3.000, 5.000 y 10.000 m³ no figuran en el reglamento. Estos aprovechamientos se inscriben en la sección B del Registro de Aguas (art. 189.3.b)." },
 ];

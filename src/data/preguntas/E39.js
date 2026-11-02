@@ -1,199 +1,113 @@
 // Banco de preguntas del tema E39. Formato y reglas: cabecera de src/data/preguntas.js.
 export default [
-  // ---------- TEMA 39 ESPECÍFICO · RD 1492/2011 REGLAMENTO DE VALORACIONES (E39) ----------
-  {
-    "id": "E39-V2-01",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, una edificación en suelo rural no se ajusta a la legalidad y ya no procede dictar medidas de restablecimiento que impliquen su demolición. ¿Qué tratamiento establece el artículo 5.2.a) para su valor y su contribución a la renta de la explotación?",
-    "o": [
-      "Se valora independientemente y se considera en la renta de la explotación.",
-      "Se valora independientemente y se excluye de la renta de la explotación.",
-      "Se excluye de valoración y se considera en la renta de la explotación.",
-      "Se excluye de valoración y se excluye de la renta de la explotación."
-    ],
-    "c": 3,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 5.2.a): esas edificaciones no son objeto de valoración ni se tienen en consideración al calcular la renta de la explotación. Valorar por separado o computar su aportación a la renta incumple uno o ambos efectos. El transcurso del plazo para demoler no equivale a legalización."
-  },
-  {
-    "id": "E39-V2-02",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, para identificar los usos y actividades que sustentan una renta potencial, cuando faltan referentes estadísticamente significativos, ¿qué exige el artículo 8.2?",
-    "o": [
-      "Un estudio de mercado inmobiliario y la acreditación de la titularidad registral.",
-      "Un estudio económico de viabilidad y la acreditación de la titularidad registral.",
-      "Un estudio económico de viabilidad y la acreditación de los títulos habilitantes.",
-      "Un estudio de mercado inmobiliario y la acreditación de los títulos habilitantes."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 8.2: en defecto de referentes estadísticamente significativos, se justifica la explotación mediante estudio económico de viabilidad y se acredita la obtención de los títulos habilitantes necesarios para implantarla. Un estudio de mercado inmobiliario no sustituye la viabilidad de la explotación; la titularidad registral no sustituye las autorizaciones necesarias."
-  },
-  {
-    "id": "E39-V2-03",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, al calcular el tipo r3 para actividades extractivas, comerciales, industriales o de servicios, ¿qué límites fija el artículo 12.1.c), respectivamente para el coeficiente corrector y para el tipo resultante expresado en porcentaje?",
-    "o": [
-      "Coeficiente no inferior a 1; tipo resultante no superior al 6 %.",
-      "Coeficiente no inferior a 1; tipo resultante no superior al 8 %.",
-      "Coeficiente no inferior a 0,5; tipo resultante no superior al 6 %.",
-      "Coeficiente no inferior a 0,5; tipo resultante no superior al 8 %."
-    ],
-    "c": 1,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 12.1.c): r3 resulta de multiplicar r1 por un coeficiente determinado según el riesgo de la explotación, que no puede ser inferior a la unidad; el tipo resultante no puede superar el 8 %. El 0,5 altera el mínimo del coeficiente y el 6 % altera el máximo del tipo. No se trata de la letra b) ni del Anexo I anulados."
-  },
-  {
-    "id": "E39-V2-04",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, cuando no existe ni puede existir explotación rural por las características naturales del suelo, ¿a qué fracción de la renta real mínima de la tierra equivale la renta teórica que se capitaliza según el artículo 16?",
-    "o": [
-      "A la mitad de la renta real mínima.",
-      "A la cuarta parte de la renta real mínima.",
-      "A la tercera parte de la renta real mínima.",
-      "A dos tercios de la renta real mínima."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 16: renta teórica R0 igual a la tercera parte de la renta real mínima obtenida de estadísticas y estudios de organismos públicos e instituciones del ámbito territorial. La mitad, cuarta parte y dos tercios cambian esa proporción. No basta la ausencia actual de explotación: su posibilidad debe quedar excluida por las características naturales del suelo."
-  },
-  {
-    "id": "E39-V2-05",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, al valorar una construcción susceptible de desvinculación del suelo rural conforme al artículo 18.3, ¿qué porcentaje máximo del valor de reposición bruto puede alcanzar su valor al final de la vida útil?",
-    "o": [
-      "El 15 % del valor de reposición bruto.",
-      "El 20 % del valor de reposición bruto.",
-      "El 25 % del valor de reposición bruto.",
-      "El 10 % del valor de reposición bruto."
-    ],
-    "c": 3,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 18.3: el valor final VF se determina según las características de la construcción y no puede superar el 10 % de VR. No es un porcentaje fijo obligatorio: es un techo. Los límites del 15 %, 20 % y 25 % no son los establecidos por este precepto."
-  },
-  {
-    "id": "E39-V2-06",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, una parcela de suelo urbanizado no tiene asignada edificabilidad ni uso privado por la ordenación. ¿Qué edificabilidad y uso se le atribuyen conforme al artículo 20.3?",
-    "o": [
-      "La edificabilidad máxima y el uso mayoritario del ámbito espacial homogéneo.",
-      "La edificabilidad media y el uso de mayor valor del ámbito espacial homogéneo.",
-      "La edificabilidad media y el uso mayoritario del ámbito espacial homogéneo.",
-      "La edificabilidad máxima y el uso de mayor valor del ámbito espacial homogéneo."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 20.3: edificabilidad media, calculada según el art. 21, y uso mayoritario del ámbito espacial homogéneo. No se sustituye la media por la máxima ni el uso mayoritario por el más valioso. Es una regla supletoria ante la falta de asignación, no una libre elección del tasador."
-  },
-  {
-    "id": "E39-V2-07",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, para calcular el valor de repercusión de un suelo urbanizado no edificado, se obtiene un valor en venta de 2.800 €/m² edificable, K = 1,40 y un valor de construcción de 1.200 €/m² edificable. ¿Qué resultado da el residual estático del artículo 22.2?",
-    "o": [
-      "1.600,00 €/m² edificable.",
-      "800,00 €/m² edificable.",
-      "1.142,86 €/m² edificable.",
-      "2.720,00 €/m² edificable."
-    ],
-    "c": 1,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 22.2: VRS = Vv / K − Vc = 2.800 / 1,40 − 1.200 = 800 €/m² edificable. Los 1.600 omiten K; los 1.142,86 dividen por K también el coste, aplicando (Vv − Vc) / K; los 2.720 multiplican Vv por K en lugar de dividirlo. No debe confundirse €/m² edificable con €/m² de suelo."
-  },
-  {
-    "id": "E39-V2-08",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, para la tasación conjunta de suelo y edificación por comparación, ¿cuál es el número mínimo de muestras comparables de transacciones reales u ofertas que exige el artículo 24.1 dentro de un conjunto estadísticamente significativo?",
-    "o": [
-      "Seis muestras comparables.",
-      "Cuatro muestras comparables.",
-      "Ocho muestras comparables.",
-      "Cinco muestras comparables."
-    ],
-    "c": 0,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 24.1: número igual o superior a seis muestras comparables. Cuatro y cinco no alcanzan el mínimo; ocho puede cumplirlo, pero no es el mínimo legal. Además de la cantidad, deben cumplirse las condiciones de semejanza o equivalencia y justificarse la selección."
-  },
-  {
-    "id": "E39-V2-09",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, al calcular la indemnización por iniciativa y promoción del artículo 29.1, los costes necesarios, justificados y cuantificados se incrementan con las tasas correspondientes. ¿Qué techo establece el precepto, usando K y Vc definidos en el artículo 22.2?",
-    "o": [
-      "El producto (K − 1) × Vc.",
-      "El cociente Vc / K.",
-      "El producto K × Vc.",
-      "El producto (K + 1) × Vc."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 29.1: la suma de los costes no puede superar K × Vc, con K y Vc definidos en el art. 22.2. Aplicar (K − 1) limita el cálculo al componente adicional sobre la construcción; usar (K + 1) suma otra vez esa unidad; dividir por K invierte la operación. El límite se refiere a los costes necesarios y justificados incrementados por tasa libre de riesgo y prima de riesgo, no a la fórmula de privación del art. 28.1.a)."
-  },
-  {
-    "id": "E39-V2-10",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, ¿qué valores establece el artículo 22.2 para K, respectivamente con carácter general, como mínimo en los supuestos de reducción y como máximo en los supuestos de aumento?",
-    "o": [
-      "1,40; 1,20; 1,50.",
-      "1,40; 1,10; 1,60.",
-      "1,20; 1,10; 1,50.",
-      "1,50; 1,20; 1,60."
-    ],
-    "c": 0,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 22.2: 1,40 general; reducción justificada hasta 1,20 y aumento justificado hasta 1,50. Los otros tríos cambian uno o varios límites."
-  },
-  {
-    "id": "E39-V2-11",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, para una construcción rural valorable independientemente del suelo, VR = 100.000 €, VF = 10.000 € y β = 0,50. ¿Qué valor resulta de la fórmula del artículo 18.1?",
-    "o": [
-      "50.000 €.",
-      "45.000 €.",
-      "60.000 €.",
-      "55.000 €."
-    ],
-    "c": 3,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 18.1: 100.000 − (100.000 − 10.000) × 0,50 = 55.000 €. 50.000 omite VF; 45.000 conserva la pérdida; 60.000 suma VF después de depreciar todo VR."
-  },
-  {
-    "id": "E39-V2-12",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, una edificación presenta defectos permanentes que no comprometen las condiciones normales de habitabilidad y estabilidad. ¿Qué estado de conservación le atribuye el Anexo II?",
-    "o": [
-      "Normal.",
-      "Regular.",
-      "Deficiente.",
-      "Ruinoso."
-    ],
-    "c": 1,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Anexo II: regular = defectos permanentes sin comprometer habitabilidad y estabilidad. Normal no necesita reparaciones importantes; deficiente compromete condiciones; ruinoso manifiestamente inhabitable o ruina legal."
-  },
-  {
-    "id": "E39-V2-13",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, ¿qué vida útil máxima establece el Anexo III para edificios industriales y almacenes?",
-    "o": [
-      "50 años.",
-      "40 años.",
-      "35 años.",
-      "30 años."
-    ],
-    "c": 2,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Anexo III: industriales y almacenes 35; comerciales y servicios 50; viales y pavimentados 40; liviana fija 30."
-  },
-  {
-    "id": "E39-V2-14",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, para un edificio de varios usos, ¿cómo se obtiene la prima de riesgo de referencia conforme al Anexo IV?",
-    "o": [
-      "Ponderando las primas según la superficie de cada uso.",
-      "Ponderando las primas según el valor en venta de cada uso.",
-      "Ponderando las primas según el valor de construcción de cada uso.",
-      "Ponderando las primas según el número de elementos de cada uso."
-    ],
-    "c": 0,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Anexo IV: se ponderan por superficie destinada a cada uso, no venta, construcción o número de elementos."
-  },
-  {
-    "id": "E39-V2-15",
-    "tema": "E39",
-    "q": "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, en una parcela urbanizada con cargas pendientes, VS = 200.000 €, G = 50.000 €, TLR = 0,02 y PR = 0,08. ¿Qué valor descontadas las cargas resulta del artículo 22.3?",
-    "o": [
-      "150.000 €.",
-      "145.000 €.",
-      "155.000 €.",
-      "180.000 €."
-    ],
-    "c": 1,
-    "exp": "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 22.3: VSo = VS − G × (1 + TLR + PR) = 200.000 − 55.000 = 145.000 €. 150.000 omite tasas; 155.000 cambia signos; 180.000 aplica 0,90 al total VS."
-  },
+  // ── E39 · RD 1492/2011, de 24 de octubre, Reglamento de valoraciones de la Ley de Suelo ─────────────────────────────
+  // 02-11-2026, chequeo del tema: 15 activas con la mezcla de Zizur Mayor 2026 (GUIA_PREGUNTAS.md, sección 2 bis):
+  // 3 META (E39-V2-10, E39-V2-12, E39-V2-17), 3 DATO (E39-V2-04, E39-V2-05, E39-V2-13), 2 NEG (E39-V2-08, E39-V2-14),
+  // 1 LISTA (E39-V2-09), 1 LIT (E39-V2-06), 1 AFIRM (E39-V2-02), 1 SEL (E39-V2-16), 1 DEF (E39-V2-11),
+  // 1 ALCANCE (E39-V2-01) y 1 COMB2 (E39-V2-03). Las preguntas no tenían campo tipo: se asigna al reescribirlas.
+  // Reescritas in situ, con su id y su artículo o anexo: E39-V2-01 a E39-V2-06 y E39-V2-08 a E39-V2-14 (la 11 pasa
+  // del cálculo del art. 18.1 a su fórmula; la 10, de los valores de K a una META de los arts. 22 y 23; la 08 y la 09
+  // cambian de dato dentro del mismo artículo). Nuevas: E39-V2-16 (art. 10) y E39-V2-17 (art. 17). Retiradas (no se
+  // borran: el historial va por id): E39-V2-07 (cálculo con la fórmula del residual estático del art. 22.2, que en el
+  // texto del tema es una imagen) y E39-V2-15 (cálculo del art. 22.3); Zizur no pide hacer cuentas y sus fórmulas
+  // siguen en el resumen.
+  // Vigencia a 21-05-2026: BOE consolidado (BOE-A-2011-17629, pestaña «Análisis», última actualización 03-02-2022).
+  // No se pregunta lo derogado o anulado (art. 2, art. 6.2.b, art. 12.1.b y Anexo I), ni el límite literal de dos del
+  // art. 17.2 (la STC 141/2014 anuló el límite legal del doble), ni el art. 28 (STC 218/2015 sobre el art. 25.2.a del
+  // TRLS de 2008). Sin repetir E28 (TRLSRU, arts. 36 y 37.3) ni E38 (seis comparables de la Orden ECO).
+  // Letra correcta: A 4, B 4, C 3, D 4. Metas en la d): correctas en E39-V2-10 («a) y c)») y E39-V2-17 («Todas»);
+  // «Ninguna» es falsa en E39-V2-12. Enunciados: los 15 citan la norma completa; 8 citan además el artículo y 3 el
+  // anexo; 9 acaban en «:» y 6 son preguntas directas.
+  { id: "E39-V2-01", tema: "E39", subtema: "Edificaciones ilegales no demolibles en suelo rural (art. 5.2)", tipo: "ALCANCE",
+    q: "Conforme a lo establecido en el artículo 5.2 del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, las edificaciones, construcciones e instalaciones situadas en suelo en situación de rural que no se ajusten a la legalidad al tiempo de su valoración, y para las que no proceda dictar medidas de restablecimiento de la legalidad urbanística que impliquen su demolición:",
+    o: ["En ningún caso serán objeto de valoración ni se tendrán en consideración a efectos del cálculo de la renta de la explotación.",
+        "Serán objeto de valoración cuando hayan transcurrido los plazos para adoptar medidas de restablecimiento de la legalidad.",
+        "No serán objeto de valoración, salvo que sean compatibles con el uso o rendimiento considerado en la valoración del suelo.",
+        "En todo caso serán objeto de valoración, aunque no se tendrán en consideración a efectos del cálculo de la renta de la explotación."],
+    c: 0, exp: "Real Decreto 1492/2011, art. 5.2.a): en esos supuestos, «En suelo en situación de rural, en ningún caso serán objeto de valoración y tampoco serán tenidas en consideración a los efectos del cálculo de la renta de la explotación». La b) es falsa: que ya no proceda la demolición no las legaliza; solo se ajusta a la legalidad lo que se realizó «de conformidad con la ordenación urbanística y el acto administrativo legitimante que requiriesen» o lo que ha sido posteriormente legalizado (art. 5.1). La c) es falsa: la compatibilidad con el uso o rendimiento considerado es una condición para tasar por separado lo que sí se ajusta a la legalidad (art. 6.4), no una excepción para lo ilegal. La d) es falsa porque el precepto excluye a la vez la valoración y el cómputo en la renta. En suelo urbanizado la regla es otra: no se computan en la tasación conjunta (art. 5.2.b)." },
+  { id: "E39-V2-02", tema: "E39", subtema: "Renta real y cálculo de la renta de la explotación (arts. 8 y 9)", tipo: "AFIRM",
+    q: "Señale la respuesta CORRECTA en relación con la renta de la explotación en suelo rural, según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo:",
+    o: ["La renta anual de la explotación se referirá al año agrícola o de campaña, y no al año natural.",
+        "La renta real es la que corresponda a la explotación según su estado y actividad en el momento de la valoración.",
+        "Las subvenciones otorgadas con carácter estable a los cultivos y aprovechamientos considerados no se computan como ingresos.",
+        "Para identificar los usos de la renta potencial bastará con un estudio de mercado inmobiliario de la zona."],
+    c: 1, exp: "Real Decreto 1492/2011, art. 8.1: «Se entenderá por renta real, aquella que corresponda a la explotación del suelo rural de acuerdo con su estado y actividad en el momento de la valoración», ya sea la existente, debidamente acreditada, o la atribuible según los cultivos y aprovechamientos efectivamente implantados. La a) es falsa: la renta anual, real o potencial, «podrá estar referida al año natural o al año agrícola o de campaña» (art. 9.1). La c) es falsa: son ingresos «Las subvenciones que, con carácter estable, se otorguen a los cultivos y aprovechamientos considerados» (art. 9.3.d). La d) es falsa: los usos de la renta potencial se identifican con referentes estadísticamente significativos o, en su defecto, con «un estudio económico de viabilidad de la explotación» y acreditando «la obtención de los títulos habilitantes necesarios para su implantación» (art. 8.2)." },
+  { id: "E39-V2-03", tema: "E39", subtema: "Tipo de capitalización r3 (art. 12.1.c)", tipo: "COMB2",
+    q: "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, cuando en el suelo rural se desarrollen actividades extractivas, comerciales, industriales y de servicios, el tipo de capitalización r3 resulta de multiplicar r1 por un coeficiente corrector. ¿Qué límites se fijan para ese coeficiente y para el resultado de su aplicación sobre r1, expresado en porcentaje?",
+    o: ["El coeficiente no podrá ser inferior a la unidad y el resultado no podrá ser superior a seis.",
+        "El coeficiente no podrá ser superior a la unidad y el resultado no podrá ser superior a ocho.",
+        "El coeficiente no podrá ser inferior a la unidad y el resultado no podrá ser superior a ocho.",
+        "El coeficiente no podrá ser superior a la unidad y el resultado no podrá ser superior a seis."],
+    c: 2, exp: "Real Decreto 1492/2011, art. 12.1.c): r3 es «el resultado de multiplicar el tipo de capitalización r1 por un coeficiente corrector que deberá ser determinado en función de la naturaleza y características de cada explotación de acuerdo con el riesgo previsible en la obtención de rentas», y «El valor de este coeficiente corrector no podrá ser inferior a la unidad y el resultado de su aplicación sobre el tipo de capitalización general r1, expresado en porcentaje, no podrá ser superior a ocho». La a) y la d) rebajan el máximo a seis; la b) y la d) convierten el mínimo del coeficiente en un máximo. El coeficiente se determina con estudios estadísticos sobre la rentabilidad esperada de cada actividad en su ámbito territorial. No confundir con la letra b) del mismo apartado (r2, agropecuario y forestal), declarada nula con el Anexo I por la STS de 8 de junio de 2020." },
+  { id: "E39-V2-04", tema: "E39", subtema: "Explotación imposible: renta teórica (art. 16)", tipo: "DATO",
+    q: "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, cuando no existiera explotación en el suelo rural y tampoco pudiera existir por causa de las características naturales del suelo, ¿a qué fracción de la renta real mínima de la tierra equivale la renta teórica que se capitaliza?",
+    o: ["A la cuarta parte.", "A la tercera parte.", "A la mitad.", "A dos terceras partes."],
+    c: 1, exp: "Real Decreto 1492/2011, art. 16: el valor se determina «capitalizando una renta teórica, R0, equivalente a la tercera parte de la renta real mínima de la tierra establecida a partir de las distintas estadísticas y estudios publicados por organismos públicos e instituciones de acuerdo con el ámbito territorial en el que se encuentre», con la expresión V = R0 / r1. La cuarta parte, la mitad y las dos terceras partes no figuran en el precepto. Ojo al supuesto: no basta con que hoy no haya explotación; tiene que ser imposible por las características naturales del suelo (art. 7.2). Si cabe una explotación legal y viable, se capitaliza la renta potencial (art. 8.2)." },
+  { id: "E39-V2-05", tema: "E39", subtema: "Valor al final de la vida útil (art. 18.3)", tipo: "DATO",
+    q: "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, al valorar con independencia del suelo una construcción situada en suelo rural, ¿qué límite máximo se fija para su valor al final de la vida útil, en porcentaje del valor de reposición bruto?",
+    o: ["El 10 por ciento.", "El 15 por ciento.", "El 20 por ciento.", "El 25 por ciento."],
+    c: 0, exp: "Real Decreto 1492/2011, art. 18.3: «El valor de la edificación, construcción o instalación al final de la vida útil, se determinará de acuerdo con las características de la misma y no podrá ser superior al 10 por ciento del valor de reposición bruto». El 15, el 20 y el 25 por ciento no aparecen en el precepto. Es un máximo, no un porcentaje fijo: VF se determina según las características de cada elemento y entra en la fórmula V = VR – (VR – VF) · β del art. 18.1." },
+  { id: "E39-V2-06", tema: "E39", subtema: "Edificabilidad y uso de referencia sin asignación (art. 20.3)", tipo: "LIT",
+    q: "Conforme a lo establecido en el artículo 20.3 del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, si los terrenos no tienen asignada edificabilidad o uso privado por la ordenación urbanística:",
+    o: ["Se les atribuirá la edificabilidad media y el uso mayoritario en el ámbito espacial homogéneo en que por usos y tipologías la ordenación urbanística los haya incluido.",
+        "Se les atribuirá la edificabilidad máxima y el uso mayoritario en el ámbito espacial homogéneo en que por usos y tipologías la ordenación urbanística los haya incluido.",
+        "Se les atribuirá la edificabilidad media y el uso de mayor valor en el ámbito espacial homogéneo en que por usos y tipologías la ordenación urbanística los haya incluido.",
+        "Se les atribuirá la edificabilidad media y el uso mayoritario en el área de reparto en que por usos y tipologías la ordenación urbanística los haya incluido."],
+    c: 0, exp: "Real Decreto 1492/2011, art. 20.3: «Si los terrenos no tienen asignada edificabilidad o uso privado por la ordenación urbanística, se les atribuirá la edificabilidad media, así definida en el artículo siguiente, y el uso mayoritario en el ámbito espacial homogéneo en que por usos y tipologías la ordenación urbanística los haya incluido». La b) cambia la edificabilidad media por la máxima; la c), el uso mayoritario por el de mayor valor; y la d), el ámbito espacial homogéneo por el área de reparto. El ámbito espacial homogéneo es la zona de suelo urbanizado que, según el instrumento de ordenación, tiene parámetros jurídico-urbanísticos propios que la diferencian por usos y tipologías edificatorias, y la edificabilidad media se calcula con la fórmula del art. 21, que descuenta el suelo dotacional público ya afectado a su destino." },
+  { id: "E39-V2-07", tema: "E39", subtema: "Valor de repercusión por el método residual estático (art. 22.2)", estado: "retirada",
+    q: "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, para calcular el valor de repercusión de un suelo urbanizado no edificado, se obtiene un valor en venta de 2.800 €/m² edificable, K = 1,40 y un valor de construcción de 1.200 €/m² edificable. ¿Qué resultado da el residual estático del artículo 22.2?",
+    o: ["1.600,00 €/m² edificable.", "800,00 €/m² edificable.", "1.142,86 €/m² edificable.", "2.720,00 €/m² edificable."],
+    c: 1, exp: "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 22.2: VRS = Vv / K − Vc = 2.800 / 1,40 − 1.200 = 800 €/m² edificable. Los 1.600 omiten K; los 1.142,86 dividen por K también el coste, aplicando (Vv − Vc) / K; los 2.720 multiplican Vv por K en lugar de dividirlo. No debe confundirse €/m² edificable con €/m² de suelo." },
+  { id: "E39-V2-08", tema: "E39", subtema: "Condiciones de semejanza de los comparables (art. 24.1)", tipo: "NEG",
+    q: "Conforme a lo establecido en el artículo 24.1 del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, no es una de las condiciones de semejanza o equivalencia básica que deben tenerse en cuenta en la selección de los comparables:",
+    o: ["La configuración geométrica de la parcela.", "La calidad de la edificación.", "La orientación geográfica de la parcela.", "La fecha de toma de datos del comparable."],
+    c: 2, exp: "Real Decreto 1492/2011, art. 24.1: en la selección de los comparables «deberán tenerse en cuenta las siguientes condiciones de semejanza o equivalencia básica»: localización; uso; configuración geométrica de la parcela; tipología y parámetros urbanísticos básicos; superficie; antigüedad y estado de conservación; calidad de la edificación; gravámenes o cargas que condicionen el valor atribuible al derecho de propiedad; y fecha de toma de datos del comparable. La orientación no figura en esa enumeración: la c) cambia «configuración geométrica» por «orientación geográfica». La a), la b) y la d) son las letras c), g) e i) del precepto. Otras circunstancias que produzcan diferencias significativas de valor solo pueden considerarse, de forma justificada, al homogeneizar los precios (art. 24.2). Además, el conjunto de comparables debe ser estadísticamente significativo, con al menos seis muestras." },
+  { id: "E39-V2-09", tema: "E39", subtema: "Indemnización de la iniciativa y promoción: costes (art. 29.1)", tipo: "LISTA",
+    q: "Conforme a lo establecido en el artículo 29.1 del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, la indemnización por la iniciativa y promoción de las actuaciones de urbanización y edificación se determinará por la suma de los costes de:",
+    o: ["Proyectos técnicos, operación financiera, gestión y promoción, obras preparatorias, indemnizaciones pagadas y tributos.",
+        "Proyectos técnicos, operación financiera, gestión y promoción, obras preparatorias, indemnizaciones pagadas y beneficio del promotor.",
+        "Proyectos técnicos, operación financiera, gestión y promoción, obras de urbanización ejecutadas, indemnizaciones pagadas y tributos.",
+        "Proyectos técnicos, operación financiera, gestión y promoción, obras preparatorias, valor del suelo aportado y tributos."],
+    c: 0, exp: "Real Decreto 1492/2011, art. 29.1: la indemnización «se determinará por la suma de los siguientes costes»: a) los de los proyectos técnicos de ordenación y ejecución; b) «Los costes relativos a la constitución de la operación financiera, de gestión y promoción»; c) los de «las obras preparatorias que, en su caso, se hubieran acometido con anterioridad al inicio de las actuaciones»; d) «Las indemnizaciones pagadas»; y e) «Los tributos relacionados con dichas actuaciones». La b) cambia los tributos por un beneficio del promotor, que no se indemniza: los costes solo se incrementan en la tasa libre de riesgo y la prima de riesgo. La c) cambia las obras preparatorias por las de urbanización ejecutadas, que se valoran en proporción al grado de ejecución (apartados 2.c y 3). La d) cambia las indemnizaciones pagadas por el valor del suelo aportado. La suma de los costes no puede superar el producto K · Vc del art. 22.2." },
+  { id: "E39-V2-10", tema: "E39", subtema: "Suelo urbanizado: coeficiente K, suelo edificado y residual (arts. 22 y 23)", tipo: "META",
+    q: "De conformidad con lo establecido en los artículos 22 y 23 del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, en la valoración del suelo en situación de urbanizado:",
+    o: ["El coeficiente K, que pondera los gastos generales y el beneficio empresarial de la promoción, tendrá con carácter general un valor de 1,40.",
+        "En suelo edificado o en curso de edificación, el valor de la tasación será el inferior de los obtenidos por comparación y por el método residual.",
+        "La aplicación del método residual no considerará otros parámetros económicos que los que puedan deducirse de la situación en el momento de la tasación.",
+        "Las respuestas a) y c) son correctas."],
+    c: 3, exp: "Real Decreto 1492/2011, art. 23: «Cuando se trate de suelo edificado o en curso de edificación, el valor de la tasación será el superior de los siguientes»: la tasación conjunta del suelo y de la edificación legal por el método de comparación y el método residual aplicado exclusivamente al suelo. Por eso la b), que dice «el inferior», es falsa. La a) es cierta: K, que pondera los gastos generales, incluidos los de financiación, gestión y promoción, y el beneficio empresarial normal de la promoción, «tendrá con carácter general un valor de 1,40», reducible hasta un mínimo de 1,20 y ampliable hasta un máximo de 1,50 en los casos del art. 22.2. La c) es literal del art. 22.4, que añade: «En ningún caso se considerarán las expectativas de plusvalías o alteraciones de valor que pudieran producirse en el futuro». Como a) y c) son ciertas, la respuesta es la d)." },
+  { id: "E39-V2-11", tema: "E39", subtema: "Construcciones rurales valoradas aparte: fórmula (art. 18.1)", tipo: "DEF",
+    q: "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, siendo VR el valor de reposición bruto, VF el valor al final de la vida útil y β el coeficiente corrector por antigüedad y estado de conservación, ¿con qué expresión se calcula, conforme a su artículo 18.1, el valor de una construcción que se valora con independencia del suelo rural?",
+    o: ["V = VF + (VR − VF) · β.", "V = (VR − VF) · (1 − β).", "V = VR − (VR − VF) · β.", "V = VR − (VR − VF) / β."],
+    c: 2, exp: "Real Decreto 1492/2011, art. 18.1: «V = VR – (VR – VF). β», siendo «VR = Valor de reposición bruto», «VF = Valor de la edificación, construcción o instalación al final de su vida útil» y «β = Coeficiente corrector por antigüedad y estado de conservación». Con β = 0 (elemento nuevo en estado normal, según el Anexo II) el valor es VR, y con β = 1 (fin de la vida útil o estado ruinoso) es VF. La a) invierte el efecto de β: daría VF para un elemento nuevo y VR al final de su vida útil. La b) olvida el valor final: con β = 1 daría cero en lugar de VF. La d) divide por β en lugar de multiplicar. VF no puede superar el 10 % de VR (art. 18.3)." },
+  { id: "E39-V2-12", tema: "E39", subtema: "Estados de conservación (Anexo II)", tipo: "META",
+    q: "Señale la respuesta CORRECTA sobre los criterios para determinar el estado de conservación de las edificaciones, construcciones e instalaciones del Anexo II del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo:",
+    o: ["Regular: cuando precisen reparaciones de relativa importancia, comprometiendo las normales condiciones de habitabilidad y estabilidad.",
+        "Normal: cuando, a pesar de su edad, cualquiera que fuera ésta, no necesiten reparaciones importantes.",
+        "Deficiente: cuando presenten defectos permanentes, sin que comprometan las normales condiciones de habitabilidad y estabilidad.",
+        "Ninguna de las respuestas anteriores es correcta."],
+    c: 1, exp: "Real Decreto 1492/2011, Anexo II: «Normal: Cuando a pesar de su edad, cualquiera que fuera ésta, no necesiten reparaciones importantes». La a) y la c) intercambian dos definiciones: es «Regular» el estado de las que «presenten defectos permanentes, sin que comprometan las normales condiciones de habitabilidad y estabilidad», y «Deficiente» el de las que «precisen reparaciones de relativa importancia, comprometiendo las normales condiciones de habitabilidad y estabilidad». Como la b) es cierta, la d) es falsa. El cuarto estado es el «Ruinoso»: edificaciones, construcciones o instalaciones «manifiestamente inhabitables o declaradas legalmente en ruina». El estado de conservación y el porcentaje de vida útil transcurrido dan el coeficiente β de la tabla del mismo anexo." },
+  { id: "E39-V2-13", tema: "E39", subtema: "Vida útil máxima (Anexo III)", tipo: "DATO",
+    q: "Según el Anexo III del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, ¿cuál es la vida útil máxima de los edificios industriales y almacenes?",
+    o: ["30 años.", "35 años.", "40 años.", "50 años."],
+    c: 1, exp: "Real Decreto 1492/2011, Anexo III, «Vida útil máxima de edificaciones, construcciones e instalaciones»: edificios industriales y almacenes, 35 años. Los distractores son vidas útiles de otras filas de la misma tabla: 30 años, las casetas, cobertizos, tinglados, barracones y similares de construcción liviana fija; 40 años, los viales, patios pavimentados, aparcamientos al aire libre y similares; 50 años, los edificios comerciales y de servicios. Los edificios residenciales llegan a 100 años y los de oficinas y administrativos a 75. La vida útil se establece según las características del elemento, sin superar esos máximos (art. 18.4)." },
+  { id: "E39-V2-14", tema: "E39", subtema: "Primas de riesgo de referencia (Anexo IV)", tipo: "NEG",
+    q: "Señale la respuesta INCORRECTA en relación con los porcentajes de referencia de las primas de riesgo que establece el Anexo IV del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo:",
+    o: ["Edificio de uso residencial (primera residencia): 8 %.", "Edificio de oficinas: 10 %.", "Hoteles: 11 %.", "Edificios industriales: 12 %."],
+    c: 3, exp: "Real Decreto 1492/2011, Anexo IV, «Primas de riesgo»: residencial de primera residencia, 8; residencial de segunda residencia, 12; oficinas, 10; comerciales, 12; industriales, 14; plazas de aparcamiento, 9; hoteles, 11; residencias de estudiantes y de la tercera edad, 12; otros, 12. La d) es la incorrecta: a los edificios industriales les corresponde el 14 %, la referencia más alta del cuadro; el 12 % es el de la segunda residencia, los comerciales, las residencias y «Otros». La a), la b) y la c) son literales del cuadro. Son las primas «a las que se refiere el apartado 3 del artículo 22 de este Reglamento», que no pueden superar el porcentaje que se determine para el coeficiente K; en edificios de varios usos se ponderan «en función de la superficie destinada a cada uno de los usos»." },
+  { id: "E39-V2-15", tema: "E39", subtema: "Suelo con cargas pendientes (art. 22.3)", estado: "retirada",
+    q: "Según el Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, en una parcela urbanizada con cargas pendientes, VS = 200.000 €, G = 50.000 €, TLR = 0,02 y PR = 0,08. ¿Qué valor descontadas las cargas resulta del artículo 22.3?",
+    o: ["150.000 €.", "145.000 €.", "155.000 €.", "180.000 €."],
+    c: 1, exp: "Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo. Art. 22.3: VSo = VS − G × (1 + TLR + PR) = 200.000 − 55.000 = 145.000 €. 150.000 omite tasas; 155.000 cambia signos; 180.000 aplica 0,90 al total VS." },
+  { id: "E39-V2-16", tema: "E39", subtema: "Clases de explotaciones en suelo rural (art. 10)", tipo: "SEL",
+    q: "Conforme a lo establecido en el artículo 10 del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, ¿cuáles de las siguientes son explotaciones destinadas a añadir valor a la producción agropecuaria, forestal o minera?",
+    o: ["Los invernaderos y las piscifactorías.", "Los parques solares y eólicos.", "Los campings y el turismo rural.", "Los mataderos y los aserraderos."],
+    c: 3, exp: "Real Decreto 1492/2011, art. 10.3.b): son explotaciones destinadas a «Añadir valor a la producción agropecuaria, forestal o minera, como pudieran ser las instalaciones de enriquecimiento mineral, los centros logísticos de carga, mataderos, aserraderos, centrales hortofrutícolas, plantas agroenergéticas y dendroenergéticas, y otras actividades análogas». Las otras tres son de la misma clase (explotaciones comerciales, industriales, de servicios y otras), pero con otra finalidad: los invernaderos y las piscifactorías sirven para «Intensificar la producción agropecuaria, forestal o minera» (letra a); los parques solares y eólicos, para «Generar energía en tiempo real» (letra c); y los campings y el turismo rural son infraestructuras para la docencia, investigación y ocio relacionadas con el medio rural (letra d)." },
+  { id: "E39-V2-17", tema: "E39", subtema: "Factor de corrección por localización (art. 17)", tipo: "META",
+    q: "Conforme a lo establecido en el artículo 17 del Real Decreto 1492/2011, de 24 de octubre, por el que se aprueba el Reglamento de valoraciones de la Ley de Suelo, en relación con el factor de corrección por localización del suelo rural:",
+    o: ["Cuando alguno de los tres factores de corrección no resulte de aplicación, tomará como valor la unidad.",
+        "La distancia kilométrica que se utiliza para calcular el factor u2 en ningún caso será superior a 60 km.",
+        "Son entornos de singular valor ambiental o paisajístico, en todo caso, los espacios incluidos en la Red Natura 2000.",
+        "Todas las respuestas anteriores son correctas."],
+    c: 3, exp: "Real Decreto 1492/2011, art. 17. La a) es literal del art. 17.2: «cuando alguno de los tres factores de corrección no resulte de aplicación tomará como valor la unidad», de modo que el producto u1 · u2 · u3 no se anula. La b) recoge el art. 17.4: en u2 = 1,6 − 0,01 · d, d es la distancia kilométrica por las vías de transporte existentes y el trayecto más favorable, y «Esta distancia, en ningún caso, será superior a 60 km». La c) recoge el art. 17.5: son entornos de singular valor ambiental o paisajístico los terrenos protegidos por la legislación aplicable por sus valores ambientales, culturales, históricos, arqueológicos, científicos y paisajísticos «y, en todo caso, los espacios incluidos en la Red Natura 2000». Las tres son ciertas, así que la respuesta es la d). Para u1 se cuentan los habitantes de los núcleos situados a menos de 4 km (P1) y a más de 4 y menos de 40 km o 50 minutos de trayecto (P2)." },
 ];
