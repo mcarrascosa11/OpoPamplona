@@ -5,9 +5,16 @@ export default [
   // (GUIA_PREGUNTAS.md, sección 2 bis). Tema no normativo: cada enunciado cita el documento
   // oficial que corresponde (Memoria I, Anexo VI y Catálogo del Plan Municipal; Privilegio de la
   // Unión; leyes de 1888 y 1915; Plan de Alineaciones de 1957; PGOU de 1984). Todo dato está en
-  // temas/E_Tema52.txt con las correcciones de src/data/textosTemas/E52.js.
+  // temas/E_Tema52.txt con las correcciones de src/data/textosTemas/E52.js o en el texto literal del
+  // capítulo VII de la Memoria I (temas/E_Tema52_Memoria7.txt), que es lo que muestra «Leer temas».
   // Ajustadas el 18-10-2026 a la referencia de Zizur Mayor 2026: E52-04 pasa de NEG a META y E52-07
   // de LIT a ALCANCE. Sin articulado: los enunciados citan apartado, capítulo o ficha del documento.
+  // Revisadas el 02-11-2026 contra ese texto: las 15 claves están en él. Se corrige solo la forma de
+  // cuatro: E52-03 (Labrit era el único nombre que no es de santo), E52-07 (la correcta era la única
+  // opción sin salvedades), E52-08 (LIT: ahora cambia una sola pieza, el órgano que formuló las Normas
+  // de 1977, para que la correcta no sea la «media» de las otras tres) y E52-13 (LISTA: distractores
+  // hechos con los objetivos y propuestas reales del PGOU-84).
+  // Mezcla: 3 META, 3 DATO, 2 NEG, LISTA, LIT, AFIRM, SEL, DEF, ALCANCE y COMB2; letras 4/4/4/3.
   { id: "E52-01", tema: "E52", subtema: "Planeamiento comarcal", tipo: "DATO",
     q: "Conforme a lo establecido en los apartados 1.1, 1.8.3 y 1.9 de la Memoria I (Análisis) del Plan Municipal de Pamplona, ¿en qué año se delimitó la Comarca de Pamplona a efectos urbanísticos, con 93 Ayuntamientos y Concejos?",
     o: ["En 1974.",
@@ -23,12 +30,12 @@ export default [
         "Fue el primer planeamiento general de Pamplona, estuvo vigente 27 años y su consecuencia urbana directa fue el Tercer Ensanche."],
     c: 1, exp: "Plan General de Alineaciones de 1957 (tema, apdo. 6, y Memoria I del Plan Municipal, apdos. 1.1, 1.8.3 y 1.9). La INCORRECTA es la b): el Ministerio de la Vivienda autorizó en 1966 la revisión anticipada, pero esta «no se llevó a cabo porque se dio prioridad a un Plan Comarcal, encargado por la Diputación Foral, que no llegó a redactarse». El cambio está en «se llevó a cabo mediante». Las demás son literales del tema: documento intermedio entre los planes de ensanche del XIX y los Planes Generales de la Ley del Suelo de 1956; Ordenanzas de zonificación, régimen de la edificación y de las actividades industriales y condiciones volumétricas y estéticas; primer planeamiento general, vigente 27 años, del que se desarrolla el Tercer Ensanche." },
   { id: "E52-03", tema: "E52", subtema: "Ciudad fortificada", tipo: "NEG",
-    q: "Conforme a lo establecido en la ficha «Recintos» del Catálogo del Plan Municipal de Pamplona, ¿cuál de los siguientes no es uno de los cinco baluartes de la Ciudadela?",
+    q: "Conforme a lo establecido en la ficha «Recintos» del Catálogo del Plan Municipal de Pamplona, ¿cuál de los siguientes no figura entre los cinco baluartes de la Ciudadela?",
     o: ["Baluarte de Labrit.",
-        "Baluarte de Santa María.",
+        "Baluarte de La Victoria.",
         "Baluarte de San Felipe el Real.",
         "Baluarte de Santiago."],
-    c: 0, exp: "Catálogo del Plan Municipal, ficha «Recintos» (tema, apdo. 4, «La Ciudadela»): la planta en pentágono estrellado tiene un baluarte en cada uno de sus cinco ángulos: Santa María, Santiago, San Antón, La Victoria y San Felipe el Real. El de Labrit NO es de la Ciudadela, sino del recinto amurallado: la Ley de 7 de enero de 1915 autorizó el derribo del frente sur «entre la Ciudadela y el baluarte de Labrit» (apdo. 5). Santa María, Santiago y San Felipe el Real sí figuran en la ficha." },
+    c: 0, exp: "Catálogo del Plan Municipal, ficha «Recintos» (tema, apdo. 4, «La Ciudadela»): la planta en pentágono estrellado tiene un baluarte en cada uno de sus cinco ángulos: Santa María, Santiago, San Antón, La Victoria y San Felipe el Real. El de Labrit NO es de la Ciudadela, sino del recinto amurallado: la Ley de 7 de enero de 1915 autorizó el derribo del frente sur «entre la Ciudadela y el baluarte de Labrit» (apdo. 5). La Victoria, San Felipe el Real y Santiago sí figuran en la ficha; La Victoria es, con San Antón, uno de los dos baluartes cuyo derribo autorizó la Ley de 22 de agosto de 1888 para el Primer Ensanche, pero sigue siendo uno de los cinco de la planta original." },
   { id: "E52-04", tema: "E52", subtema: "PGOU de 1984", tipo: "META",
     q: "Conforme a lo establecido en el capítulo 2 del Anexo VI «La ciudad actual» del Plan Municipal de Pamplona, respecto del Plan General de Ordenación Urbana de Pamplona de 1984:",
     o: ["Se adjudicó el concurso para su redacción en la sesión plenaria de 20 de diciembre de 1979.",
@@ -51,19 +58,19 @@ export default [
         "Las respuestas b) y c) son correctas."],
     c: 1, exp: "Contexto previo del Plan de Alineaciones de 1957 (tema, apdo. 6): los informes de 1945 «recomendaron seguir ocupando la meseta hacia el NOROESTE (San Juan, Iturrama, Abejeras: el futuro III Ensanche) y ordenar la periferia con usos industriales y de servicios». Solo la b) es correcta, y por eso la d) es falsa. La a) es la postura del geógrafo Leoncio Urabayen, que discrepó de los informes y defendió crecer por el llano bajo, hacia el norte, entre el Arga y el monte Ezkaba. La c) no la recoge ninguno: los ríos Elorz y Sadar solo se citan para describir el emplazamiento, al sur de la ciudad (apdo. 0)." },
   { id: "E52-07", tema: "E52", subtema: "Ciudad medieval", tipo: "ALCANCE",
-    q: "De conformidad con el Privilegio de la Unión, otorgado por Carlos III el Noble el 8 de septiembre de 1423, el rey unió jurídicamente:",
-    o: ["Los tres burgos en una única entidad municipal, con un solo ayuntamiento, un escudo y unas únicas rentas.",
-        "Solo el Burgo de San Cernin y la Población de San Nicolás, con un solo ayuntamiento, un escudo y unas únicas rentas.",
-        "Los tres burgos en una única entidad municipal, aunque cada burgo conservó su propio ayuntamiento y su escudo.",
-        "Los tres burgos en una única entidad municipal, salvo en las rentas, que siguieron siendo propias de cada burgo."],
-    c: 0, exp: "Privilegio de la Unión de 8 de septiembre de 1423 (tema, apdo. 3): Carlos III el Noble unió jurídicamente los tres burgos en una única entidad municipal («una sola universidad, un concejo y una comunidad indivisible»), con un solo ayuntamiento, un escudo y unas únicas rentas, y mandó construir la Casa Consistorial en la antigua «tierra de nadie» donde confluían los tres burgos, como símbolo de la unión. La b) limita la unión a San Cernin y San Nicolás: esa fue su unión municipal de hacia 1287, posterior a la guerra de la Navarrería (1276), no el Privilegio, que alcanzó también a la Navarrería. La c) y la d) añaden excepciones que el Privilegio no contiene: el ayuntamiento, el escudo y las rentas pasaron a ser únicos, no propios de cada burgo." },
+    q: "De conformidad con el Privilegio de la Unión, otorgado por Carlos III el Noble el 8 de septiembre de 1423, la unión jurídica de los burgos de Pamplona alcanzó:",
+    o: ["A los tres burgos, con un solo ayuntamiento, un escudo y unas únicas rentas.",
+        "Exclusivamente al Burgo de San Cernin y a la Población de San Nicolás.",
+        "A los tres burgos, salvo en las rentas, que siguieron siendo propias de cada uno.",
+        "A la Navarrería y al Burgo de San Cernin, que compartieron concejo y escudo."],
+    c: 0, exp: "Privilegio de la Unión de 8 de septiembre de 1423 (tema, apdo. 3): Carlos III el Noble puso fin a los enfrentamientos «uniendo jurídicamente los tres burgos en una única entidad municipal (“una sola universidad, un concejo y una comunidad indivisible”), con un solo ayuntamiento, un escudo y unas únicas rentas», y mandó construir la Casa Consistorial en la antigua «tierra de nadie» donde confluían los tres burgos. La b) limita la unión a San Cernin y San Nicolás: esa fue su unión municipal de hacia 1287, posterior a la guerra de la Navarrería (1276), no el Privilegio, que alcanzó también a la Navarrería. La c) añade una salvedad que el Privilegio no contiene: las rentas pasaron a ser únicas, no propias de cada burgo. La d) deja fuera a la Población de San Nicolás, cuando el Privilegio unió a los tres burgos en un solo concejo." },
   { id: "E52-08", tema: "E52", subtema: "Planeamiento comarcal", tipo: "LIT",
-    q: "Conforme a lo establecido en los apartados 1.1, 1.8.3 y 1.9 de la Memoria I (Análisis) del Plan Municipal de Pamplona, en el planeamiento comarcal posterior al Plan de Alineaciones de 1957:",
-    o: ["Las Normas Subsidiarias y Complementarias de la Comarca se aprobaron inicialmente por Orden Ministerial de 28 de enero de 1977, y el Decreto Foral 103/1988, de 28 de marzo, ordenó formar las Normas Urbanísticas Comarcales, aprobadas definitivamente en 1999.",
-        "Las Normas Subsidiarias y Complementarias de la Comarca se aprobaron definitivamente por Decreto Foral de 28 de enero de 1977, y el Decreto Foral 103/1988, de 28 de marzo, ordenó formar las Normas Urbanísticas Comarcales, aprobadas definitivamente en 1999.",
-        "Las Normas Subsidiarias y Complementarias de la Comarca se aprobaron definitivamente por Orden Ministerial de 28 de enero de 1977, y el Decreto Foral 103/1988, de 28 de marzo, ordenó formar las Normas Urbanísticas Comarcales, aprobadas definitivamente en 1999.",
-        "Las Normas Subsidiarias y Complementarias de la Comarca se aprobaron definitivamente por Orden Ministerial de 28 de enero de 1977, y el Decreto Foral 103/1988, de 28 de marzo, ordenó formar las Normas Urbanísticas Comarcales, que no llegaron a aprobarse."],
-    c: 2, exp: "Memoria I del Plan Municipal, apdos. 1.1, 1.8.3 y 1.9 (tema, apdo. 6, bloque añadido): las Normas Subsidiarias y Complementarias de la Comarca «se aprobaron definitivamente por Orden Ministerial de 28 de enero de 1977» (correcciones por OM de 16-12-1977), y «el Decreto Foral 103/1988, de 28 de marzo, ordenó formar las NORMAS URBANÍSTICAS COMARCALES, aprobadas definitivamente el 22 de marzo de 1999» (BON n.º 74, de 14-06-1999). La a) cambia «definitivamente» por «inicialmente»; la b) sustituye la Orden Ministerial por un Decreto Foral; la d) dice que las Normas Comarcales no se aprobaron, lo que el texto afirma del Plan Comarcal de la Diputación, que no llegó a redactarse." },
+    q: "Conforme a lo establecido en el apartado 7.3.3 de la Memoria I (Análisis) del Plan Municipal de Pamplona, las Normas Subsidiarias y Complementarias de la Comarca de Pamplona y su zona de influencia, primer planeamiento comarcal que entró en vigor:",
+    o: ["Fueron formuladas por el Ayuntamiento de Pamplona y obtuvieron su aprobación definitiva por Orden Ministerial de 28 de enero de 1977.",
+        "Fueron formuladas por la Comisión Provincial de Urbanismo y obtuvieron su aprobación definitiva por Orden Ministerial de 28 de enero de 1977.",
+        "Fueron formuladas por la Diputación Foral de Navarra y obtuvieron su aprobación definitiva por Orden Ministerial de 28 de enero de 1977.",
+        "Fueron formuladas por la Dirección General de Urbanismo y obtuvieron su aprobación definitiva por Orden Ministerial de 28 de enero de 1977."],
+    c: 2, exp: "Memoria I (Análisis) del Plan Municipal de Pamplona, apdo. 7.3.3, que reproduce el apdo. 1.8: «El primer planeamiento comarcal que entró en vigor fue el constituido por las Normas Subsidiarias y Complementarias de la Comarca de Pamplona y su zona de influencia. Fueron formuladas por la Diputación Foral de Navarra y obtuvieron su aprobación definitiva por Orden Ministerial de 28 de enero de 1977», con correcciones cumplimentadas por otra Orden Ministerial de 16 de diciembre de 1977. Las otras tres cambian solo el órgano que las formuló por otro que aparece en la misma historia: la a), el Ayuntamiento de Pamplona, que en 1966 pidió la revisión anticipada de su Plan de 1957; la b), la Comisión Provincial de Urbanismo, que según la autorización ministerial de 1966 debía delimitar un marco de planeamiento más amplio; y la d), la Dirección General de Urbanismo, que en 1965 configuró las áreas metropolitanas de España, entre ellas Pamplona y su comarca." },
   { id: "E52-09", tema: "E52", subtema: "Desarrollo urbano desde 1950", tipo: "AFIRM",
     q: "Respecto del Tercer Ensanche, consecuencia urbana directa del Plan General de Alineaciones de Pamplona de 1957, señale la respuesta CORRECTA:",
     o: ["Su Primera Zona fue aprobada por el Pleno en sesiones de 27 de diciembre de 1962 y 21 de mayo de 1963.",
@@ -95,10 +102,10 @@ export default [
   { id: "E52-13", tema: "E52", subtema: "PGOU de 1984", tipo: "LISTA",
     q: "Conforme a lo establecido en el capítulo 2 del Anexo VI «La ciudad actual» del Plan Municipal de Pamplona, ¿cuáles fueron los principios de actuación del Plan General de Ordenación Urbana de Pamplona de 1984?",
     o: ["Homogeneidad de las diferentes zonas, austeridad en las propuestas e incorporación de nuevas áreas aptas para el futuro desarrollo.",
-        "Aceptar la ciudad existente, defender los recursos naturales e incorporar nuevas áreas aptas para el futuro desarrollo.",
-        "Aceptar la ciudad existente, defender los recursos naturales y reformar el Casco Antiguo mediante nuevas aperturas viarias.",
-        "Aceptar la ciudad existente, urbanizar las márgenes del Arga e incorporar nuevas áreas aptas para el futuro desarrollo."],
-    c: 1, exp: "Anexo VI «La ciudad actual» del Plan Municipal, cap. 2 (tema, apdo. 8, bloque añadido): «Principios de actuación: se acepta la ciudad existente; se defienden los recursos naturales; se incorporan nuevas áreas aptas para el futuro desarrollo». La a) mezcla los principios con los OBJETIVOS del Plan («Homogeneidad de las diferentes zonas de Pamplona» y «Austeridad en las propuestas»). La c) cambia el tercer principio por una reforma viaria del casco, cuando el Plan de 1984 apostó por la rehabilitación (Oficina de Rehabilitación de Viviendas, PERI). La d) sustituye la defensa de los recursos naturales por la urbanización de las márgenes del Arga." },
+        "Aceptación de la ciudad existente, defensa de los recursos naturales e incorporación de nuevas áreas aptas para el futuro desarrollo.",
+        "Aceptación de la ciudad existente, defensa de los recursos naturales y homogeneidad de las diferentes zonas de Pamplona.",
+        "Homogeneidad de las diferentes zonas, austeridad en las propuestas y consolidación de la ciudad central."],
+    c: 1, exp: "Anexo VI «La ciudad actual» del Plan Municipal, cap. 2 (= Memoria I, apdo. 7.2; tema, apdo. 8, bloque añadido): «Principios de actuación: se acepta la ciudad existente; se defienden los recursos naturales; se incorporan nuevas áreas aptas para el futuro desarrollo». La Memoria los presenta como «los tres principios de actuación que sustentaron sus estrategias de desarrollo». La a) conserva el tercer principio, pero lo acompaña de los dos OBJETIVOS del Plan («Homogeneidad de las diferentes zonas de Pamplona» y «Austeridad en las propuestas»). La c) cambia el tercer principio por el primer objetivo, la homogeneidad. La d) reúne los dos objetivos y una de las propuestas del Plan, «consolidar la ciudad central» (Memoria, 7.2.4), que no es un principio de actuación." },
   { id: "E52-14", tema: "E52", subtema: "Ciudad fortificada", tipo: "DATO",
     q: "Conforme a la historia de la Ciudadela de Pamplona, cuyas trazas estaban listas en 1571, ¿a qué ingeniero militar encargó Felipe II la nueva fortaleza?",
     o: ["Juan Bautista Antonelli.",
