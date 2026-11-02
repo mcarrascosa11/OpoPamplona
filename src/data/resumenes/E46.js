@@ -1,12 +1,12 @@
 // Resumen del tema E46. Formato: cabecera de src/data/resumenes.js.
 export default {
     intro:
-      "La Ley Foral 4/2022, de 22 de marzo, de Cambio Climático y Transición Energética, es la ley navarra que fija los objetivos de mitigación y adaptación y los traslada a la planificación, a la edificación, al alumbrado, a la movilidad y a la gestión del territorio. El tema solo comprende cuatro partes: la PERSPECTIVA CLIMÁTICA en normas, presupuestos y planes (Título II, cap. III, arts. 16-19), la EFICIENCIA ENERGÉTICA EN LA EDIFICACIÓN Y EN EL ALUMBRADO EXTERIOR (Título III, cap. II, arts. 38-43), la MOVILIDAD SOSTENIBLE (Título III, cap. III, arts. 44-52) y la ADAPTACIÓN AL CAMBIO CLIMÁTICO (Título IV, arts. 61-70). Para un arquitecto municipal lo decisivo son las obligaciones directas sobre edificios y aparcamientos (renovables térmicas, fotovoltaica, certificado energético inscrito antes de la licencia de primera ocupación, cubrición fotovoltaica de aparcamientos que no computa urbanísticamente), los umbrales de población que activan los planes municipales (5.000 y 10.000 habitantes) y las exigencias de adaptación para el planeamiento y la urbanización. Vigencia a la fecha de la convocatoria (BON 21-05-2026): el consolidado del BOE no recoge modificaciones posteriores a la de 30-12-2022, así que el texto del tema es el vigente, salvo el art. 68 (pobreza energética), modificado por la Ley Foral 35/2022, cuya redacción actual no se ha podido cotejar y por eso no se estudia en su letra.",
+      "La Ley Foral 4/2022, de 22 de marzo, de Cambio Climático y Transición Energética, es la ley navarra que fija los objetivos de mitigación y adaptación y los traslada a la planificación, a la edificación, al alumbrado, a la movilidad y a la gestión del territorio. El tema solo comprende cuatro partes: la PERSPECTIVA CLIMÁTICA en normas, presupuestos y planes (Título II, cap. III, arts. 16-19), la EFICIENCIA ENERGÉTICA EN LA EDIFICACIÓN Y EN EL ALUMBRADO EXTERIOR (Título III, cap. II, arts. 38-43), la MOVILIDAD SOSTENIBLE (Título III, cap. III, arts. 44-52) y la ADAPTACIÓN AL CAMBIO CLIMÁTICO (Título IV, arts. 61-70). Para un arquitecto municipal lo decisivo son las obligaciones directas sobre edificios y aparcamientos (renovables térmicas, fotovoltaica, certificado energético inscrito antes de la licencia de primera ocupación, cubrición fotovoltaica de aparcamientos que no computa urbanísticamente), los umbrales de población que activan los planes municipales (5.000 y 10.000 habitantes) y las exigencias de adaptación para el planeamiento y la urbanización. Vigencia a la fecha de la convocatoria (BON 21-05-2026), comprobada en la pestaña «Análisis» del BOE en noviembre de 2026: la ley solo tiene dos referencias posteriores, la moratoria del art. 18 (disposición final segunda del Decreto-ley Foral 1/2022) y la modificación de los arts. 33 y 68 por la disposición final sexta de la Ley Foral 35/2022, de 28 de diciembre (BON n.º 264, de 30-12-2022). Dentro del alcance, el texto del tema es el vigente salvo el art. 68 (pobreza energética), cuya redacción actual no se ha podido leer y por eso no se estudia en su letra.",
     bloques: [
       {
         h: "Perspectiva climática y otras medidas de planificación (Título II, cap. III, arts. 16-19)",
         nota:
-          "La idea central es que el clima entra como criterio obligatorio en TODO lo que se tramita: leyes y reglamentos (evaluación de impacto climático preceptiva), presupuestos (Navarra y entidades locales de más de 5.000 habitantes) y planes sometidos a evaluación ambiental estratégica, incluido el planeamiento municipal. Dos datos muy preguntables: el indicador del 2,5 % del PIB y la reserva de suelo para renovables en los nuevos desarrollos urbanísticos. La disposición final segunda del Decreto-ley Foral 1/2022 demoró la aplicación del art. 18 hasta el 2 de abril de 2023.",
+          "La idea central es que el clima entra como criterio obligatorio en TODO lo que se tramita: leyes y reglamentos (evaluación de impacto climático preceptiva), presupuestos (Navarra y entidades locales de más de 5.000 habitantes) y planes sometidos a evaluación ambiental estratégica, incluido el planeamiento municipal. Dos datos muy preguntables: el indicador del 2,5 % del PIB y la reserva de suelo para renovables en los nuevos desarrollos urbanísticos. La disposición final segunda del Decreto-ley Foral 1/2022, de 13 de abril, demoró hasta el 2 de abril de 2023 la perspectiva climática en los instrumentos de planificación y la reserva de suelo para renovables del art. 18, y dejó fuera de ese artículo los planes que estuvieran en tramitación en esa fecha.",
         items: [
           "Art. 16 — En la elaboración de leyes forales, disposiciones de carácter general y planes de las administraciones de Navarra se incorpora la PERSPECTIVA CLIMÁTICA. El órgano que tramita la iniciativa incorpora con carácter PRECEPTIVO una EVALUACIÓN DE IMPACTO CLIMÁTICO, que analiza su repercusión en la mitigación y en la adaptación",
           "Art. 17.1 — Perspectiva climática en el proyecto de Ley Foral de Presupuestos Generales de Navarra y en los presupuestos de las ENTIDADES LOCALES DE MÁS DE 5.000 HABITANTES: las memorias valoran el impacto de los programas en los objetivos de la planificación climática y energética",
@@ -34,7 +34,7 @@ export default {
       {
         h: "Fotovoltaica en los edificios (art. 39)",
         nota:
-          "No confundir las tres bases de cálculo: el 35 % de la SUPERFICIE DE OCUPACIÓN EN PLANTA (obra nueva, rehabilitación integral, cambio de uso o reforma de cubierta con más de 500 m² de cubierta), el 20 % de las PLAZAS de aparcamiento en superficie de edificios no residenciales nuevos, y el 35 % o el 40 % del CONSUMO ANUAL de electricidad en los grandes edificios no residenciales existentes (antes de 2030 o de 2040).",
+          "No confundir las tres bases de cálculo: el 35 % de la SUPERFICIE DE OCUPACIÓN EN PLANTA (obra nueva, rehabilitación integral, cambio de uso o reforma de cubierta con más de 500 m² de cubierta), el 20 % de las PLAZAS de aparcamiento en superficie de edificios no residenciales nuevos, y el 35 % o el 40 % del CONSUMO ANUAL de electricidad en los grandes edificios no residenciales existentes (antes de 2030 o de 2040). Ojo a los usos: el 39.1 nombra el residencial, el industrial, el comercial y el dotacional (no el terciario); el 39.3, igual que el 42.1, el dotacional, el comercial, el terciario y el industrial (no el residencial); el 39.4, solo el dotacional, el comercial y el industrial.",
         items: [
           "Art. 39.1 — Edificios RESIDENCIALES, INDUSTRIALES, COMERCIALES y DOTACIONALES de MÁS DE 500 m² DE CUBIERTA en proyección horizontal, de nueva construcción, rehabilitación integral, cambio de uso o reforma de cubierta: fotovoltaica individual o compartida en AL MENOS EL 35 % DE SU SUPERFICIE DE OCUPACIÓN EN PLANTA, en orientaciones SUR, SURESTE y SUROESTE",
           "Art. 39.2 — Si la protección del patrimonio arquitectónico o cultural lo dificulta, la obligación se entiende cumplida por las vías del apartado 5",
@@ -56,7 +56,7 @@ export default {
           "Art. 40.6 — Desde el 1-1-2025, los edificios de NUEVA CONSTRUCCIÓN incorporan AUTOCONSUMO eléctrico proporcional a su cubierta, orientación y consumo previsible; condiciones coherentes con el CTE, fijadas reglamentariamente en dos años",
           "Art. 41.1 — No se otorga la LICENCIA DE PRIMERA OCUPACIÓN de nuevas edificaciones sin el certificado de eficiencia energética DEBIDAMENTE INSCRITO",
           "Art. 41.2 — Tampoco el CERTIFICADO DE FINAL DE OBRA DEL TÉCNICO en obras de REHABILITACIÓN, REFORMA o CAMBIO DE USO de edificios existentes",
-          "Art. 41.3-4 — Solo cuando el certificado sea exigible según la legislación básica estatal. No afecta a licencias ni certificados SOLICITADOS antes de la entrada en vigor de la ley foral"
+          "Art. 41.3-4 — Solo cuando el certificado sea exigible según la legislación básica estatal. No afecta a licencias ni certificados SOLICITADOS antes de la entrada en vigor de la ley foral (2-4-2022)"
         ]
       },
       {
@@ -144,18 +144,18 @@ export default {
           "Datos que caen: la reserva ESTRATÉGICA de 60 hm³ de Itoiz para el abastecimiento, el abastecimiento en alta como DERECHO HUMANO y de carácter PÚBLICO y PRIORITARIO, y los PLANES DE SEQUÍA revisados cada TRES AÑOS.",
         items: [
           "Art. 66.1-2 — El cambio climático se integra en la planificación hidrológica (eventos extremos, prácticas de adaptación, parámetros de seguimiento, prioridad de los recursos ahorrados para los ecosistemas acuáticos y, en sequía extrema, para el abastecimiento urbano, recuperación de aluviales contaminados por nitratos). En el ciclo urbano, prioridad a la GESTIÓN DE LA DEMANDA",
-          "Art. 66.3 — El departamento competente redacta y actualiza el PLAN DIRECTOR DEL CICLO INTEGRAL DEL AGUA DE USO URBANO (abastecimiento y saneamiento como derecho universal). La reserva de 60 hm³ del embalse de ITOIZ, del Consorcio de usuarios del Canal de Navarra, es ESTRATÉGICA y no puede destinarse a usos de menor prioridad. El derecho humano al agua se desarrolla por reglamento",
+          "Art. 66.3 — El departamento competente redacta y actualiza el PLAN DIRECTOR DEL CICLO INTEGRAL DEL AGUA DE USO URBANO (abastecimiento y saneamiento como derecho universal). La reserva de 60 hm³ del embalse de ITOIZ, cuya titularidad tiene el Consorcio de usuarios del abastecimiento de poblaciones desde el Canal de Navarra, es ESTRATÉGICA y no puede destinarse a usos de menor prioridad. El derecho humano al agua se desarrolla por reglamento",
           "Art. 66.4 — Sistema de seguimiento con las entidades locales del grado de ejecución del plan director",
-          "Art. 67.1-2 — Reducir la vulnerabilidad del sistema hídrico: caudales ecológicos en las cuencas internas (en las intercomunitarias, según lo acordado con los organismos de cuenca), restauración, INTERCONEXIÓN de redes de abastecimiento, evaluación de masas de agua y estudio de los usos del suelo en el ciclo hidrológico",
+          "Art. 67.1-2 — Reducir la vulnerabilidad del sistema hídrico: caudales ecológicos en las cuencas internas (en las intercomunitarias, en los términos que se acuerden con los órganos de cuenca), restauración, INTERCONEXIÓN de redes de abastecimiento, evaluación de masas de agua y estudio de los usos del suelo en el ciclo hidrológico",
           "Art. 67.3-5 — PLANES DE SEQUÍA de las administraciones navarras, REVISADOS CADA TRES AÑOS. El SUMINISTRO EN ALTA para consumo humano es un derecho humano y ciudadano, PÚBLICO y PRIORITARIO frente a otros usos. Revisión de la normativa navarra de regulación fluvial, abastecimiento y depuración con proyecciones climáticas"
         ]
       },
       {
         h: "Pobreza energética, salud, transición justa y turismo (arts. 68-70)",
         nota:
-          "Atención al art. 68: el texto del tema es el ORIGINAL y lo modificó la Ley Foral 35/2022. Se resume solo su finalidad, no su letra. De los arts. 69 y 70, lo examinable es la estrategia de transición justa y justicia climática en un año y el contenido de la adaptación del turismo.",
+          "Atención al art. 68: el texto del tema es el ORIGINAL y lo modificó la disposición final sexta de la Ley Foral 35/2022. Se resume solo su finalidad, no su letra. De los arts. 69 y 70, lo examinable es la estrategia de transición justa y justicia climática en un año y el contenido de la adaptación del turismo.",
         items: [
-          "Art. 68 — POBREZA ENERGÉTICA (redacción modificada por la Ley Foral 35/2022, no cotejada): protección frente a los cortes de suministro de agua, electricidad y gas de las personas en situación de vulnerabilidad económica y desarrollo reglamentario de los mecanismos de compensación. La obligación original del apartado 4 (destinar la energía excedentaria del autoconsumo al Fondo climático) está superada, y el apartado 3 se comprometió a remitirse a la normativa estatal (Acuerdo de la Junta de Cooperación Estado-Navarra de 28-12-2022). No se estudia su letra",
+          "Art. 68 — POBREZA ENERGÉTICA (modificado por la disposición final sexta de la Ley Foral 35/2022; redacción vigente no leída): su finalidad es proteger frente a los cortes de suministro de agua, electricidad y gas a las personas en situación de vulnerabilidad económica y desarrollar por reglamento los mecanismos de compensación. El Acuerdo de la Junta de Cooperación Estado-Navarra de 28-12-2022 (BOE de 23-1-2023) comprometió remitir su apartado 3 (no cortar suministros sin informe favorable de los servicios sociales) a la normativa estatal; la revisión anterior situaba la reforma también en el apartado 4 (energía excedentaria del autoconsumo al Fondo climático), sin que se haya podido comprobar. No se estudia su letra",
           "Art. 69.1 — Salud y sectores vulnerables, en sinergia con las estrategias de envejecimiento activo, políticas sociales y de género: efectos del cambio climático en la salud, prevención frente a las ALTAS TEMPERATURAS (en especial, exposición laboral), especies vectores de enfermedad, información accesible a las personas con discapacidad y estudios diferenciados por sexo",
           "Art. 69.2 — En UN AÑO, ESTRATEGIA DE TRANSICIÓN JUSTA Y JUSTICIA CLIMÁTICA: diagnóstico de sectores afectados por la transición energética y medidas para paliar sus efectos; es el instrumento navarro de adaptación socioeconómica",
           "Art. 70 — TURISMO (Gobierno y entidades locales): criterios de sostenibilidad en la promoción, evaluación de riesgos climáticos, sensibilización de trabajadores y turistas, CERTIFICACIONES AMBIENTALES y rehabilitación energética, ahorro de energía y agua y renovables en las instalaciones turísticas"
@@ -182,7 +182,7 @@ export default {
       "Planeamiento: delimitar y proteger suelo agrario periurbano, paisajes agrarios, huerta y vega (art. 64.1.c)",
       "Nuevas urbanizaciones y reurbanizaciones: renaturalización y drenaje sostenible (art. 64.1.e)",
       "Itoiz: 60 hm³ estratégicos para abastecimiento; Planes de Sequía revisados cada tres años (arts. 66.3 y 67.3)",
-      "Art. 68 (pobreza energética): modificado por la Ley Foral 35/2022; no se estudia la letra del TXT"
+      "Art. 68 (pobreza energética): modificado por la disposición final sexta de la Ley Foral 35/2022; no se estudia la letra del TXT"
     ],
     memorizacion: {
       tablas: [
@@ -220,7 +220,7 @@ export default {
             ["Vivienda colectiva", "Calificación B o superior", "Desde 1-1-2030", "40.3"],
             ["Obra nueva", "Autoconsumo eléctrico proporcional a cubierta, orientación y consumo", "Desde 1-1-2025", "40.6"]
           ],
-          nota: "Cumplimiento alternativo de la fotovoltaica (art. 39.5): participar en proyectos renovables públicos o de comunidades energéticas equivalentes, o producir el 35 % del consumo con otras renovables propias. Patrimonio protegido: se cumple por esa vía (art. 39.2)."
+          nota: "Cumplimiento alternativo de la fotovoltaica (art. 39.5): participar en proyectos renovables públicos o de comunidades energéticas equivalentes, o producir el 35 % del consumo con otras renovables propias. Patrimonio protegido: se cumple por esa vía (art. 39.2). Usos, la trampa clásica: el 39.1 incluye el residencial y no nombra el terciario; el 39.3 incluye el terciario y no el residencial; el 38.3 y el 40.6 alcanzan a todos los edificios nuevos, sea cual sea su uso."
         },
         {
           titulo: "Ley Foral 4/2022: aparcamientos",
@@ -233,12 +233,14 @@ export default {
             ["Privado de uso público vinculado a actividad económica", "Más de 40 plazas", "≥ 5 % para vehículos libres de emisiones", "52.3"],
             ["Públicos de las administraciones navarras y vías públicas", "—", "Reserva de plazas para vehículos libres de emisiones", "52.1"]
           ],
-          nota: "Las instalaciones renovables en aparcamientos de suelo urbano no computan en ocupación, edificabilidad, distancia a linderos ni altura (art. 42.5). Los municipios pueden exceptuar por inviabilidad técnica, recurso, paisaje o patrimonio (art. 42.7)."
+          nota: "Las instalaciones renovables en aparcamientos de suelo urbano no computan en ocupación, edificabilidad, distancia a linderos ni altura (art. 42.5). Los municipios pueden exceptuar por inviabilidad técnica, recurso, paisaje o patrimonio (art. 42.7). No confundir los 500 m² de área del aparcamiento (art. 42.1) con los 500 m² de cubierta del edificio (art. 39.1), ni el 20 % de las plazas del art. 39.3 (edificios no residenciales nuevos, sin umbral de superficie) con la cubrición de todas las plazas del art. 42.1 (aparcamiento privado de más de 500 m²)."
         },
         {
           titulo: "Ley Foral 4/2022: planes y plazos",
           columnas: ["Instrumento", "Quién", "Plazo o periodicidad", "Artículo"],
           filas: [
+            ["Plan de rehabilitación de la vivienda de Navarra (alineado con la ERESEE 2020 y el PNIEC 2021-2030)", "Gobierno de Navarra", "Antes del 1-1-2025", "40.4"],
+            ["Condiciones y porcentajes del autoconsumo en obra nueva (reglamento)", "Departamento competente en energía", "Dos años", "40.6"],
             ["Plan de adecuación del alumbrado exterior público", "Ayuntamientos", "Cuatro años", "43.4"],
             ["Informe de seguimiento de la movilidad sostenible", "Departamento de transportes", "Cada dos años", "44.4"],
             ["Plan de movilidad sostenible", "Municipios de más de 5.000 hab. y Comarca de Pamplona", "Dos años; vigencia de seis con seguimiento bienal", "45.1, 45.2 y 45.5"],
@@ -250,15 +252,18 @@ export default {
             ["Planes de Sequía", "Administraciones navarras", "Revisión cada tres años", "67.3"],
             ["Estrategia de transición justa y justicia climática", "Gobierno de Navarra", "Un año", "69.2"]
           ],
-          nota: "Los plazos se cuentan desde la entrada en vigor de la ley foral cuando el artículo lo dice; no confundir la vigencia de seis años de los planes de movilidad con la revisión trienal de los Planes de Sequía."
+          nota: "La ley foral entró en vigor el 2-4-2022 (BON n.º 66, de 1-4-2022). Solo los arts. 45.1, 45.2 y 62.3 cuentan el plazo expresamente «desde la entrada en vigor»; los demás dan el plazo sin fijar su inicio. No confundir la vigencia de seis años de los planes de movilidad con la revisión trienal de los Planes de Sequía."
         },
         {
           titulo: "Ley Foral 4/2022: fechas de las obligaciones",
           columnas: ["Fecha", "Obligación", "Artículo"],
           filas: [
             ["1-1-2022", "Taxis por sustitución cero emisiones o ECO (más de 20.000 hab.)", "48.2"],
+            ["2-4-2022", "Entrada en vigor de la ley foral (BON n.º 66, de 1-4-2022); las licencias y certificados solicitados antes quedan fuera del art. 41", "41.4"],
             ["1-1-2023", "Contador de calorías en residenciales centralizados; VTC cero emisiones o ECO", "38.7 y 48.3"],
-            ["Antes de 1-1-2025", "Certificados energéticos registrados; Plan de rehabilitación de la vivienda", "40.1 y 40.4"],
+            ["2-4-2023", "Fin de la moratoria del art. 18 (DF 2.ª del Decreto-ley Foral 1/2022); los planes en tramitación en esa fecha quedan fuera", "18"],
+            ["2022, 2023 y 2024", "Línea de ayudas para hacer los certificados energéticos", "40.1"],
+            ["Antes de 1-1-2025", "Certificados energéticos registrados; Plan de rehabilitación de la vivienda; medios para la clase B", "40.1, 40.3 y 40.4"],
             ["1-1-2025", "Autoconsumo eléctrico en obra nueva", "40.6"],
             ["2025", "Calderas de vivienda colectiva con rendimiento del 80 % sobre PCS", "38.4"],
             ["30-06-2027", "Sin fósiles en obra nueva; sin gasóleo con gas canalizado; 50 % renovable", "38.1-3"],
@@ -268,29 +273,116 @@ export default {
             ["2050", "Cero emisiones en el transporte público de viajeros", "48.4"]
           ],
           nota: "La fecha que más se pregunta en edificación es el 30 de junio de 2027 (art. 38)."
+        },
+        {
+          titulo: "Ley Foral 4/2022: porcentajes que se confunden",
+          columnas: ["Porcentaje", "Qué mide", "Supuesto", "Artículo"],
+          filas: [
+            ["2,5 %", "Inversión anual del PIB de la Comunidad Foral en medidas públicas de acción climática (indicador objetivo)", "Conjunto de la economía navarra", "17.5"],
+            ["Al menos 50 %", "Demanda conjunta de calefacción y ACS cubierta con renovables", "Obra nueva, rehabilitación integral o cambio de uso, desde el 30-06-2027", "38.3"],
+            ["80 % / 85 %", "Rendimiento mínimo a carga total de las calderas, sobre el PCS", "Vivienda colectiva, en 2025 / en 2030", "38.4"],
+            ["Al menos 35 %", "Superficie de ocupación en planta con fotovoltaica (S, SE, SO)", "Más de 500 m² de cubierta: obra nueva, rehabilitación integral, cambio de uso o reforma de cubierta", "39.1"],
+            ["Al menos 20 %", "Plazas de aparcamiento en superficie cubiertas con fotovoltaica", "Edificios dotacionales, comerciales, terciarios e industriales nuevos", "39.3"],
+            ["Al menos 50 %", "Ocupación en planta construida para uso dotacional, comercial o industrial (condición para aplicar el apartado)", "Edificios existentes", "39.4"],
+            ["35 % + 35 %", "Consumo anual de electricidad + superficie de ocupación en planta", "Existentes de más de 4.000 m², antes de 2030", "39.4.a"],
+            ["40 % + 35 %", "Consumo anual de electricidad + superficie de ocupación en planta", "Existentes de más de 2.000 m², antes de 2040", "39.4.b"],
+            ["35 %", "Consumo anual de electricidad producido con otras renovables propias (cumplimiento alternativo)", "Cualquier obligado del art. 39", "39.5.b"],
+            ["Más del 50 %", "Consumo energético cubierto con renovables", "Aparcamientos privados existentes de 1.500 m² o más y 50 kW o más", "42.2"],
+            ["No inferior al 5 %", "Plazas reservadas a vehículos libres de emisiones (crece por reglamento)", "Aparcamientos privados de uso público vinculados a una actividad económica con más de 40 plazas", "52.3"],
+            ["Al menos 25 %", "Tierras agrícolas en agricultura ecológica", "Objetivo de 2030 (Pacto Verde Europeo, estrategia «de la granja a la mesa»)", "63.3"]
+          ],
+          nota: "Tres 35 % distintos en el art. 39 (ocupación en planta, consumo de los existentes de más de 4.000 m² y cumplimiento alternativo) y tres 50 % que no son lo mismo: la demanda térmica renovable (38.3), la ocupación en planta que define a los existentes del 39.4 y el «más del 50 %» del consumo de los aparcamientos privados existentes (42.2)."
+        },
+        {
+          titulo: "Ley Foral 4/2022: quién debe hacer qué",
+          columnas: ["Órgano u obligado", "Obligación o facultad", "Artículo"],
+          filas: [
+            ["Órgano que tramita cualquier iniciativa normativa o planificadora", "Evaluación de impacto climático, con carácter preceptivo", "16.2"],
+            ["Gobierno de Navarra", "Justificar ante el Parlamento, en el informe de la Ley Foral de Cuentas Generales, las inejecuciones de las partidas climáticas", "17.4"],
+            ["Gobierno de Navarra", "Mecanismos para que desde el 30-06-2027 no se instalen térmicos fósiles en obra nueva; ayudas para cambiar de fuente donde se prohíbe el gasóleo", "38.1 y 38.2"],
+            ["Departamento competente en certificación energética", "Línea de ayudas para los certificados en 2022, 2023 y 2024", "40.1"],
+            ["Departamento competente en energía", "Reglamento del autoconsumo en obra nueva (dos años) y excepciones al apagado de la iluminación ornamental, publicitaria y comercial", "40.6 y 43.8"],
+            ["Municipios", "Imponer renovables en aparcamientos en suelo rústico no protegido; excepcionar o modificar las obligaciones de los aparcamientos mediante informe (también en el planeamiento)", "42.4 y 42.7"],
+            ["Titulares o explotadores de aparcamientos", "Pueden construir y gestionar las instalaciones por medio de terceros", "42.6"],
+            ["Ayuntamientos", "Niveles más estrictos frente a la contaminación lumínica en áreas de especial valor astronómico y natural; plan de adecuación del alumbrado público en cuatro años", "43.4"],
+            ["Departamentos del Gobierno de Navarra", "Ayudas, estudios, campañas y planes para sustituir el alumbrado público, sobre todo en municipios con menos recursos", "43.11"],
+            ["Administración de la Comunidad Foral", "Plan Director de Movilidad Sostenible de Navarra (líneas estratégicas y coordinación)", "44.3"],
+            ["Departamento competente en transportes", "Informe de seguimiento de la movilidad sostenible cada dos años; reglamento de los planes de transporte de empresas en dos años", "44.4 y 47.3"],
+            ["Órganos consultivos forales de transportes y movilidad", "Informe previo y no vinculante de los planes de movilidad que superan el ámbito municipal", "45.5"],
+            ["Ayuntamientos", "Coordinar el planeamiento urbanístico con los planes de movilidad sostenible", "45.6"],
+            ["Ayuntamientos de municipios de menos de 5.000 hab.", "Plan de transporte de los polígonos de más de 200 trabajadores, con las empresas del polígono", "47.1.c"],
+            ["Administraciones navarras titulares de vías y aparcamientos públicos", "Reserva de plazas para vehículos libres de emisiones, sea cual sea la forma de gestión; las concesionarias se adaptan", "52.1 y 52.2"],
+            ["Departamento competente en medio ambiente", "Áreas de sensibilidad y exclusión para renovables y herramienta cartográfica, en un año", "62.3"],
+            ["Departamento competente en el medio rural", "Monitoreo y seguimiento del cambio climático en el sector primario", "63.1"],
+            ["Departamento competente en planificación hidrológica y ciclo integral del agua de uso urbano", "Redacción, seguimiento y actualización del plan director del ciclo integral del agua de uso urbano", "66.3"],
+            ["Administraciones públicas navarras", "Planes de Sequía, revisados cada tres años", "67.3"],
+            ["Gobierno de Navarra", "Guía de buenas prácticas agrícolas (un año) y estrategia de transición justa y justicia climática (un año)", "63.4 y 69.2"]
+          ],
+          nota: "El Gobierno y la Administración foral planifican, fomentan y regulan; los ayuntamientos aprueban los planes (clima, movilidad, alumbrado, mercancías) y pueden endurecer o exceptuar (contaminación lumínica, aparcamientos)."
+        },
+        {
+          titulo: "Ley Foral 4/2022: listas cerradas (cuántos elementos)",
+          columnas: ["Lista", "N.º", "Elementos", "Artículo"],
+          filas: [
+            ["Perspectiva climática en los planes sometidos a EAE", "3", "Emisiones directas e inducidas; vulnerabilidad actual y prevista; necesidades energéticas y generación renovable (cada una con sus medidas)", "18.1"],
+            ["Contenido mínimo del plan de acción para el clima y la energía sostenible", "5", "Emisiones; elementos vulnerables; objetivos y estrategias (con cambios de planeamiento y ordenanzas); sensibilización y formación; evaluación y seguimiento", "19.4"],
+            ["Objetivos de las nuevas instalaciones de alumbrado exterior", "4", "Condiciones nocturnas naturales; eficiencia energética; evitar la intrusión lumínica doméstica; prevenir la contaminación lumínica del cielo", "43.2"],
+            ["Actuaciones de las administraciones sobre el alumbrado exterior", "8", "Reglamentos técnicos; ahorro y sustitución; calificación A; resplandor y luz intrusa; luminancia y uniformidad; regímenes de funcionamiento; inspección; régimen sancionador", "43.3"],
+            ["Contenido del plan de adecuación del alumbrado", "3 (entre otros)", "Análisis de la iluminación existente; actuaciones concretas; calendario", "43.5"],
+            ["Principios de las políticas de movilidad y transporte", "8", "Menos movilidad privada motorizada; no motorizada; transporte público e intermodalidad; peatonal y ciclista; trasvase al ferrocarril; accesibilidad; seguridad; cero emisiones", "44.2"],
+            ["Medidas mínimas de los planes de movilidad sostenible", "7", "Dos solo en municipios de más de 10.000 hab.: zonas de bajas emisiones (a) y reparto de mercancías (f)", "45.4"],
+            ["Obligados a planes de transporte sostenible", "3", "Empresas e instituciones de más de 200 personas en un centro; grandes superficies comerciales; polígonos de más de 200 trabajadores en municipios de menos de 5.000", "47.1"],
+            ["Tareas del Gobierno de Navarra en adaptación (PNACC 2021-2030)", "7", "Seguimiento y anticipación; I+D+i; coordinación; minimizar impactos; informar y sensibilizar; revisar planes sectoriales; menos consumo de agua", "61"],
+            ["Criterios de adaptación en el medio natural", "12", "Letras a) a l)", "62.2"],
+            ["Orientaciones de la adaptación en el medio urbano", "8", "Letras a) a h): alerta temprana, ordenación urbana, suelo agrario periurbano, diseño bioclimático, renaturalización y drenaje, huertos, cubiertas verdes, pavimentos", "64.1"],
+            ["Contenido climático de la EAE y la EIA sectoriales", "3", "Vulnerabilidad; emisiones por alternativa; objetivo de reducción en los planes de ámbito navarro", "65"],
+            ["Aspectos de la planificación hidrológica", "8", "Letras a) a h)", "66.1"],
+            ["Medidas sobre recursos hídricos", "5", "Caudales ecológicos; medidas económicas; interconexión de redes; prioridad de los recursos ahorrados; vulnerabilidad de las masas de agua", "67.1"],
+            ["Medidas de salud y sectores vulnerables", "5", "Letras a) a e)", "69.1"],
+            ["Medidas en el turismo", "5", "Sostenibilidad en la promoción; riesgos climáticos; sensibilización; certificaciones ambientales; rehabilitación energética, agua y renovables", "70"]
+          ],
+          nota: "Útil para las preguntas de lista y de «Todas son correctas»: conocer cuántas piezas tiene cada enumeración ayuda a detectar la que sobra o la que falta."
         }
       ],
       datos: [
-        "Denominación: Ley Foral 4/2022, de 22 de marzo, de Cambio Climático y Transición Energética (BOE 19-4-2022).",
+        "Denominación: Ley Foral 4/2022, de 22 de marzo, de Cambio Climático y Transición Energética (BON n.º 66, de 1-4-2022; BOE n.º 93, de 19-4-2022). En vigor desde el 2-4-2022.",
         "Alcance del tema: Título II, cap. III (arts. 16-19); Título III, caps. II (arts. 38-43) y III (arts. 44-52); Título IV (arts. 61-70).",
-        "Art. 18: la disposición final segunda del Decreto-ley Foral 1/2022, de 13 de abril, demoró la aplicación de sus previsiones hasta el 2 de abril de 2023.",
+        "Art. 18: la disposición final segunda del Decreto-ley Foral 1/2022, de 13 de abril, demoró la aplicación de sus previsiones (perspectiva climática en los instrumentos de planificación y reserva de suelo para renovables) hasta el 2 de abril de 2023.",
         "Art. 39.6: la energía solar en edificios se integra obligatoriamente en las condiciones estéticas de las ordenanzas urbanísticas.",
         "Art. 40.4: el Plan de rehabilitación de la vivienda se alinea con la ERESEE 2020 y el PNIEC 2021-2030.",
         "Art. 42.8: las obligaciones sobre aparcamientos son de directa aplicación, aunque se desarrollen reglamentariamente.",
         "Art. 43.9: la detección de presencia en alumbrados especiales solo es obligatoria en la Red de Carreteras de Navarra.",
         "Art. 45.2: el plan de movilidad de la Comarca de Pamplona lo elaboran conjuntamente los municipios del transporte comarcal (Ley Foral 8/1998) y la Mancomunidad.",
         "Art. 61: el marco de la adaptación es el PNACC 2021-2030.",
-        "Art. 67.4: el suministro en alta para consumo humano es derecho humano y ciudadano, de carácter público y prioritario."
+        "Art. 67.4: el suministro en alta para consumo humano es derecho humano y ciudadano, de carácter público y prioritario.",
+        "Art. 17.4: el Gobierno de Navarra justifica ante el Parlamento, en el informe de la Ley Foral de Cuentas Generales de cada año, las inejecuciones de las partidas climáticas.",
+        "Art. 40.6: las condiciones y porcentajes del autoconsumo en obra nueva han de ser coherentes y complementarios con el Código Técnico de la Edificación.",
+        "Art. 43.3.c: el alumbrado exterior debe tener como mínimo la calificación energética A (no confundir con la clase B de la vivienda colectiva del art. 40.3).",
+        "Art. 45.3: las comarcas (art. 361 de la Ley Foral 6/1990, de la Administración Local de Navarra) pueden elaborar planes comarcales de movilidad, coherentes con los municipales.",
+        "Art. 45.5: los planes de movilidad que superan el ámbito de un municipio llevan informe previo y no vinculante de los órganos consultivos forales de transportes y movilidad; la tramitación se regula por reglamento.",
+        "Art. 48.2: taxis según la clasificación de la Dirección General de Tráfico vigente en cada momento; ATPC son las Áreas Territoriales de Prestación Conjunta; remisión a la Ley Foral 9/2005, de 6 de julio, del Taxi.",
+        "Art. 52.1-2: la reserva de plazas en las vías y aparcamientos públicos rige cualquiera que sea su forma de gestión; las administraciones titulares instan a la concesionaria a adaptarse.",
+        "Art. 66.3: la reserva estratégica de 60 hm³ desde el embalse de Itoiz es del Consorcio de usuarios del abastecimiento de poblaciones desde el Canal de Navarra y no puede destinarse a usos de menor prioridad.",
+        "Perspectiva de género: en la movilidad (art. 44.5, distintas pautas de hombres y mujeres) y en los estudios de salud (art. 69.1.e, análisis diferenciado de mujeres y hombres).",
+        "Discapacidad: los protocolos ante eventos extremos atienden sus necesidades (art. 64.1.a) y la información de riesgos usa canales accesibles (art. 69.1.d).",
+        "Vigencia (comprobada el 2-11-2026 en la pestaña «Análisis» del BOE; última actualización del consolidado, 30-12-2022): solo constan la disposición final segunda del Decreto-ley Foral 1/2022 (art. 18) y la disposición final sexta de la Ley Foral 35/2022 (arts. 33 y 68). El anteproyecto de modificación tramitado en 2025 (afectaría, entre otros, a los arts. 13, 18, 38, 40, 43 y 58) no consta aprobado antes del 21-05-2026: si se hubiera aprobado una ley foral de reforma, el BOE la habría publicado y anotado, así que se estudia el texto actual."
       ],
       excepciones: [
-        "Art. 68 (pobreza energética): el texto del tema es el original; lo modificó la Ley Foral 35/2022, de 28 de diciembre, y no se ha podido cotejar la redacción vigente. No se estudia su letra.",
+        "Art. 68 (pobreza energética): el texto del tema es el original; lo modificó la disposición final sexta de la Ley Foral 35/2022, de 28 de diciembre (BON n.º 264, de 30-12-2022), y no se ha podido leer la redacción vigente. No se estudia su letra.",
+        "Art. 18: no se aplica a las nuevas formulaciones, revisiones o modificaciones de planes directores sectoriales, planes territoriales, planeamiento municipal y demás planes sometidos a evaluación ambiental estratégica que estuvieran en tramitación el 2-4-2023 (disposición final segunda del Decreto-ley Foral 1/2022).",
+        "Art. 38.2: la prohibición del suministro de gasóleo solo rige en las entidades de población donde existe red de distribución de gas natural canalizado.",
+        "Art. 39.4: la fotovoltaica de los edificios existentes no residenciales se exige «siempre que la disponibilidad de cubiertas o fachadas lo permitan».",
+        "Art. 42.1: por debajo de los 500 m², cubrir todas las plazas es potestativo («sin perjuicio de que en aquellas de superficie inferior pueda también cubrirse»); pero el art. 39.3, que no tiene umbral de superficie, exige cubrir al menos el 20 % de las plazas en superficie de los edificios dotacionales, comerciales, terciarios e industriales nuevos.",
+        "Art. 47.1.c: el plan de transporte de los polígonos de más de 200 trabajadores en municipios de menos de 5.000 habitantes no lo hacen las empresas: lo elabora el ayuntamiento, en colaboración con ellas.",
+        "Art. 48.2: las ordenanzas pueden adelantar, para todos los taxis o parte de ellos, la exigencia de 2030 (cero emisiones o equivalente).",
+        "Arts. 66.1.f y 67.1.d: los recursos hídricos conseguidos con ahorro y eficiencia se derivan con prioridad a los objetivos de calidad de los ecosistemas acuáticos y, en caso de sequía extrema, al abastecimiento urbano.",
+        "Art. 67.1.a: en las cuencas intercomunitarias, los caudales ecológicos se aplican en los términos que se acuerden con los órganos de cuenca.",
         "Patrimonio arquitectónico o cultural: la obligación fotovoltaica del art. 39.1 se cumple por las vías alternativas del art. 39.5 (art. 39.2).",
         "Taxis: los eurotaxis quedan fuera de la exigencia de cero emisiones o ECO desde 2022 (art. 48.2). VTC: quedan fuera los vehículos históricos (art. 48.3).",
         "Climatización de espacios abiertos: solo permitida si todo el consumo de la actividad es autoconsumo o renovable certificada (art. 38.6).",
         "Art. 41: la exigencia del certificado inscrito solo rige cuando la legislación básica estatal lo exige, y no afecta a licencias solicitadas antes de la entrada en vigor de la ley foral.",
         "Art. 42.7: los municipios pueden exceptuar o modificar las obligaciones de los aparcamientos por inviabilidad técnica, insuficiencia de recursos renovables o protección del paisaje o del patrimonio.",
-        "Art. 43.8: el apagado de la iluminación ornamental, publicitaria y comercial admite excepciones reglamentarias y casos de fuerza mayor.",
-        "Anteproyecto de modificación tramitado en 2025 (afectaría, entre otros, a los arts. 13, 18, 38, 40, 43 y 58): no consta aprobado antes del 21-05-2026. El consolidado del BOE, consultado en octubre de 2026, no recoge reformas posteriores a la de 30-12-2022; no se ha podido comprobar en LexNavarra ni en el BON. Si se hubiera aprobado una ley foral de reforma, el BOE la habría publicado y consolidado, así que se estudia el texto actual."
+        "Art. 43.8: el apagado de la iluminación ornamental, publicitaria y comercial admite excepciones reglamentarias y casos de fuerza mayor."
       ]
     }
   };

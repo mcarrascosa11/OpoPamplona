@@ -1,7 +1,7 @@
 // Resumen del tema E47. Formato: cabecera de src/data/resumenes.js.
 export default {
     intro:
-      "La Ley Foral 2/2018, de 13 de abril, de Contratos Públicos, regula los contratos públicos celebrados dentro del ámbito de competencias de la Comunidad Foral de Navarra, incluidos los de las entidades locales navarras. Esta primera parte del temario abarca el TÍTULO PRELIMINAR (objeto, principios, ámbito objetivo y subjetivo, negocios excluidos y encargos a entes instrumentales, arts. 1-8) y los capítulos I a IV del TÍTULO I: poderes adjudicadores, centrales de compras y contratación conjunta (arts. 9-11); contratistas, con capacidad, solvencia y prohibiciones de contratar (arts. 12-26); tipología de los contratos y régimen jurídico, con los contratos reservados (arts. 27-38); y las reglas de gestión contractual: objeto, estudios de viabilidad, lotes, valor estimado, precio, contenido mínimo y duración (arts. 39-45). Es una ley con fuerte componente social: criterios sociales y ambientales PRECEPTIVOS, división en LOTES como regla y una reserva mínima del 6 % para centros especiales de empleo y empresas de inserción. Vigencia a la fecha de la convocatoria (BON 21-05-2026), según el consolidado del BOE (última actualización 19-03-2026): rige la redacción dada por las Leyes Forales 15/2019, 5/2020, 17/2021, 35/2022, 2/2024, 19/2024 y 16/2025. No están vigentes el art. 7.1.l) (anulado por la STC 65/2024), dos incisos del art. 36.1 (anulados por la STC 11/2026), el antiguo tercer párrafo del art. 18, el último párrafo del art. 41.4.b) y el art. 45.4 (suprimidos por la Ley Foral 17/2021); el art. 7.1.m) carece de contenido normativo.",
+      "La Ley Foral 2/2018, de 13 de abril, de Contratos Públicos, regula los contratos públicos celebrados dentro del ámbito de competencias de la Comunidad Foral de Navarra, incluidos los de las entidades locales navarras. Esta primera parte del temario abarca el TÍTULO PRELIMINAR (objeto, principios, ámbito objetivo y subjetivo, negocios excluidos y encargos a entes instrumentales, arts. 1-8) y los capítulos I a IV del TÍTULO I: poderes adjudicadores, centrales de compras y contratación conjunta (arts. 9-11); contratistas, con capacidad, solvencia y prohibiciones de contratar (arts. 12-26); tipología de los contratos y régimen jurídico, con los contratos reservados (arts. 27-38); y las reglas de gestión contractual: objeto, estudios de viabilidad, lotes, valor estimado, precio, contenido mínimo y duración (arts. 39-45). Es una ley con fuerte componente social: criterios sociales y ambientales PRECEPTIVOS, división en LOTES como regla y una reserva mínima del 6 % para centros especiales de empleo de iniciativa social y empresas de inserción. Vigencia a la fecha de la convocatoria (BON 21-05-2026), comprobada con la pestaña «Análisis» del consolidado del BOE (última actualización 19-03-2026) y con las leyes modificadoras: en este tema rige la redacción dada por las Leyes Forales 27/2018, 15/2019, 5/2020, 20/2020, 17/2021, 31/2022, 35/2022, 2/2024, 19/2024 y 16/2025 (esta última añade el art. 13.4 y reescribe el art. 15). No están vigentes el art. 7.1.l) (anulado por la STC 65/2024), dos incisos del art. 36.1 (anulados por la STC 11/2026), el antiguo tercer párrafo del art. 18, el último párrafo del art. 41.4.b) y el art. 45.4 (suprimidos por la Ley Foral 17/2021); el art. 7.1.m) carece de contenido normativo.",
     bloques: [
       {
         h: "Objeto y principios (Título Preliminar, arts. 1-2)",
@@ -73,11 +73,11 @@ export default {
         items: [
           "Art. 12 — Pueden contratar personas naturales o jurídicas, españolas o extranjeras, con plena CAPACIDAD DE OBRAR, sin PROHIBICIONES, incompatibilidades ni CONFLICTO DE INTERESES y con SOLVENCIA suficiente; y con la HABILITACIÓN empresarial o profesional exigible",
           "Art. 13.1-3 — UTE o participación conjunta mediante DOCUMENTO PRIVADO con la voluntad de concurrir, el porcentaje de cada uno y una representación única (sin perjuicio de facultades mancomunadas de cobros y pagos). Responsabilidad SOLIDARIA. La escritura pública de la UTE no es necesaria hasta la ADJUDICACIÓN",
-          "Art. 13.4 — Cambio de composición DURANTE LA LICITACIÓN = modificación de la oferta y EXCLUSIÓN. TRAS LA ADJUDICACIÓN, el órgano de contratación puede autorizarlo expresamente si: a) se ha ejecutado al menos el 20 % y ha pasado UN AÑO desde el inicio (en concesiones, la QUINTA PARTE del plazo explotada); b) se mantiene la solvencia; c) los nuevos acreditan capacidad y no prohibición. En participación conjunta SIN UTE, el cambio subjetivo es una CESIÓN del contrato",
+          "Art. 13.4 (apartado añadido por la Ley Foral 16/2025) — Cambio de composición DURANTE LA LICITACIÓN = modificación de la oferta y EXCLUSIÓN. TRAS LA ADJUDICACIÓN, el órgano de contratación puede autorizarlo expresamente si: a) se ha ejecutado al menos el 20 % y ha pasado UN AÑO desde el inicio (en concesiones, la QUINTA PARTE del plazo explotada); b) se mantiene la solvencia; c) los nuevos acreditan capacidad y no prohibición. En participación conjunta SIN UTE, el cambio subjetivo es una CESIÓN del contrato",
           "Art. 14 — Capacidad de obrar y representación de la propuesta adjudicataria; inscripción registral o habilitación si la legislación específica lo exige; empresas de la UE y del EEE, habilitación según su Estado; autorización especial u organización en servicios",
-          "Art. 15 — Empresas de terceros Estados: capacidad según su Estado y solvencia como el resto. Sin acuerdo internacional de acceso recíproco, el órgano decide CASO POR CASO su admisión y puede fijar un TRATO DIFERENCIADO en los pliegos. En OBRAS, SUCURSAL en España con apoderados e inscripción en el Registro Mercantil",
+          "Art. 15 (redacción de la Ley Foral 16/2025) — Empresas de terceros Estados: capacidad según su Estado y solvencia como el resto. Sin acuerdo internacional de acceso recíproco, el órgano decide CASO POR CASO su admisión y puede fijar un TRATO DIFERENCIADO en los pliegos. En OBRAS, SUCURSAL en España con apoderados e inscripción en el Registro Mercantil",
           "Art. 16 — SOLVENCIA ECONÓMICA Y FINANCIERA, específica y proporcionada al importe de licitación. Medios: declaraciones de entidades financieras o seguro de riesgos profesionales; balances; VOLUMEN DE NEGOCIOS de los TRES últimos ejercicios, cuyo mínimo anual NO EXCEDE DE UNA VEZ Y MEDIA el valor estimado (en prestaciones continuadas plurianuales, el valor medio anual), salvo riesgos especiales justificados en el informe de necesidades (art. 138.3), y por lotes o grupos de lotes; patrimonio neto o ratio activo-pasivo; declaración sobre MOROSIDAD; periodo medio de pago a proveedores. Si hay razón justificada, cualquier otro documento adecuado",
-          "Art. 17 — SOLVENCIA TÉCNICA O PROFESIONAL: OBRAS de los CINCO últimos años con certificados de buena ejecución; SUMINISTROS o SERVICIOS de los TRES últimos años (se pueden admitir periodos anteriores si se justifica); personal técnico, instalaciones, cadena de suministro, controles, titulaciones (si no son criterio de adjudicación), gestión medioambiental, plantilla media de tres años, maquinaria, parte a subcontratar, muestras; y en suministros, trazabilidad de la cadena para garantizar los convenios de la OIT y los derechos humanos (productos tecnológicos y de comercio justo)",
+          "Art. 17 — SOLVENCIA TÉCNICA O PROFESIONAL: OBRAS de los CINCO últimos años con certificados de buena ejecución; SUMINISTROS o SERVICIOS de los TRES últimos años (en ambos casos pueden tenerse en cuenta periodos anteriores, previa justificación); personal técnico, instalaciones, cadena de suministro, controles, titulaciones (si no son criterio de adjudicación), gestión medioambiental, plantilla media de tres años, maquinaria, parte a subcontratar, muestras; y en suministros, trazabilidad de la cadena para garantizar los convenios de la OIT y los derechos humanos (productos tecnológicos y de comercio justo)",
           "Art. 18 — Se puede acreditar la solvencia con la de OTRAS EMPRESAS, con independencia del vínculo; la dominante de un grupo, con las sociedades del grupo si acredita que dispone de sus medios; por SUBCONTRATACIÓN, con compromiso formal y SUMANDO la solvencia de todos. [El antiguo párrafo sobre la solvencia de las Empresas de Inserción como Centros de Inserción Sociolaboral fue SUPRIMIDO por la Ley Foral 17/2021]",
           "Art. 18 bis — REUTILIZACIÓN de la documentación de capacidad, representación, solvencia y habilitación aportada en un procedimiento anterior del que se resultó ADJUDICATARIO, dentro del mismo órgano de contratación, si no han variado las circunstancias y NO HAN PASADO TRES AÑOS desde aquella adjudicación; se pide al presentar la oferta y se puede subsanar (art. 51.2)",
           "Art. 19-21 — Quien preparó documentos del contrato solo es excluido si no hay otro medio de garantizar la igualdad, previa AUDIENCIA, y se comunica a los demás su participación. Los contratos de vigilancia, supervisión, control y DIRECCIÓN de la ejecución no se adjudican al adjudicatario del contrato controlado ni a sus vinculadas. Empresa VINCULADA: influencia dominante (mayoría del capital, de los votos o designación de más de la mitad del órgano de administración). Certificados de calidad basados en normas europeas, con reconocimiento de los equivalentes"
@@ -88,7 +88,7 @@ export default {
         nota:
           "Tres regímenes de apreciación: letras a) y b), según la legislación ESTATAL; c) a h), de forma AUTOMÁTICA mientras duren sus causas; i) a m), DECLARACIÓN EXPRESA del órgano competente, limitada a su ámbito y extensible a todos por el consejero a propuesta de la Junta de Contratación Pública. Duración máxima de CINCO AÑOS e inicio del procedimiento antes de TRES AÑOS.",
         items: [
-          "Art. 22.1.a-h — Condena firme por delitos (terrorismo, organización criminal, financiación ilegal de partidos, trata, corrupción, cohecho, fraude, Hacienda y Seguridad Social, derechos de los trabajadores, violencia de género, prevaricación, malversación, blanqueo, ORDENACIÓN DEL TERRITORIO Y URBANISMO, patrimonio histórico, medio ambiente) o inhabilitación especial; sanciones firmes graves o muy graves (incluidas las de la Ley 2/2023 y la Ley 4/2023); registro de sanciones muy graves en PRL; concurso o insolvencia; prohibición por sanción en subvenciones o materia tributaria; no estar al corriente tributario o de Seguridad Social, no cumplir el 2 % de trabajadores con discapacidad o no tener PLAN DE IGUALDAD (empresas de 50 o más trabajadores); incompatibilidades de altos cargos y cargos electos (y sus familiares en conflicto de intereses); contratar a ex altos cargos en los DOS AÑOS siguientes al cese",
+          "Art. 22.1.a-h — Condena firme por delitos (terrorismo, organización criminal, financiación ilegal de partidos, trata, corrupción, cohecho, fraude, Hacienda y Seguridad Social, derechos de los trabajadores, violencia de género, prevaricación, malversación, blanqueo, ORDENACIÓN DEL TERRITORIO Y URBANISMO, patrimonio histórico, medio ambiente) o inhabilitación especial; sanciones firmes graves o muy graves (incluidas no solicitar en plazo la afiliación o el alta de los trabajadores y las de la Ley 2/2023 y la Ley 4/2023); registro de sanciones muy graves en PRL; concurso o insolvencia; prohibición por sanción en subvenciones o materia tributaria; no estar al corriente tributario o de Seguridad Social, no cumplir el 2 % de trabajadores con discapacidad o no tener PLAN DE IGUALDAD (empresas de 50 o más trabajadores); incompatibilidades de altos cargos y cargos electos (y sus familiares en conflicto de intereses); contratar a ex altos cargos en los DOS AÑOS siguientes al cese",
           "Art. 22.1.i-m — FALSEDAD en la declaración responsable o en los datos de capacidad y solvencia, o no comunicar datos al Registro Voluntario de Licitadores; RETIRAR indebidamente la proposición o impedir la adjudicación por no aportar la documentación (dolo, culpa o negligencia); NO FORMALIZAR el contrato por causa imputable; incumplir cláusulas definidas como infracción grave o muy grave con penalidades o indemnización; dar lugar a la RESOLUCIÓN FIRME de un contrato por causa de la que se fue declarado culpable",
           "Art. 22.2-4 — Se extienden a las empresas que son continuación o derivan de las incursas. Prueba: certificado de antecedentes penales (letra a) o certificado administrativo o judicial, sustituibles por DECLARACIÓN RESPONSABLE; si hay dudas, se requieren los documentos",
           "Art. 23 — Apreciación según el bloque anterior. FIABILIDAD (self-cleaning): salvo la letra a), se puede probar que se pagó la indemnización y se adoptaron medidas; en la letra f), hay fiabilidad si se pagan o se acuerda pagar las deudas antes de la propuesta de adjudicación cuando la deuda es INFERIOR AL 4 % DEL VALOR ESTIMADO. Si las medidas son insuficientes, se motiva",
@@ -162,6 +162,7 @@ export default {
       "Criterios sociales y medioambientales transversales y preceptivos: de adjudicación y de ejecución (art. 2.3)",
       "Plan de contratación anticipado, junto con la aprobación de los presupuestos (art. 2.5)",
       "Administraciones Públicas de Navarra: solo las letras a) a d) del art. 4.1; los entes de la letra e) requieren dos requisitos acumulativos",
+      "Los organismos autónomos de las entidades locales son Administración Pública (letra c); las entidades públicas empresariales, consorcios, sociedades y fundaciones de la letra e) son poderes adjudicadores, pero no Administración (art. 4.2)",
       "Entidades privadas sujetas por el objeto: subvención directa de más del 50 % en obras de hospitales, centros deportivos, culturales, recreativos, de ocio, escolares, universitarios y administrativos (art. 5.a)",
       "Juntas de compensación sujetas cuando ejecutan sistemas generales u obras públicas de urbanización (art. 5.d)",
       "Art. 7.1.l) anulado por la STC 65/2024; art. 7.1.m) sin contenido normativo",
@@ -176,6 +177,7 @@ export default {
       "Prohibiciones: a) y b) según la ley estatal; c) a h) automáticas; i) a m) declaración expresa (art. 23)",
       "Fiabilidad en deudas tributarias o sociales inferiores al 4 % del valor estimado (art. 23.5)",
       "Prohibición declarada: máximo cinco años; inicio antes de tres años; propuesta vinculante de la Junta de Contratación Pública (art. 24)",
+      "Órganos de la prohibición: declara el titular del Departamento afectado; la Junta propone (vinculante) en las Administraciones; el titular del Departamento de contratación pública la extiende a todos (arts. 23.4 y 24)",
       "Inscripción de la prohibición en el Registro Voluntario de Licitadores: caduca a los tres meses de terminar (art. 25.2)",
       "Entidades locales de menos de 2.000 habitantes: la incompatibilidad del electo es solo causa de abstención en contratos de mínima tramitación (art. 26)",
       "Contrato mixto con concesión, separable y único: normas de obras, suministros o servicios si su valor alcanza el umbral europeo (art. 33.1.b)",
@@ -195,12 +197,14 @@ export default {
           titulo: "Ley Foral 2/2018: porcentajes",
           columnas: ["Porcentaje", "Para qué", "Artículo"],
           filas: [
+            ["Más de la mitad", "Financiación pública de la actividad, o miembros designados de los órganos de administración, dirección o vigilancia, de un ente de la letra e)", "4.1.e.2.º"],
             ["Más del 50 %", "Subvención directa que somete a la ley foral obras y servicios de entidades privadas", "5.a-b"],
             ["Más del 20 %", "Volumen en el mercado que impide la exclusión de la cooperación horizontal", "7.1.i.3.º"],
             ["Más del 80 %", "Actividad del ente instrumental para quien lo controla", "8.2.c"],
             ["Hasta el 50 %", "Prestaciones del encargo contratadas con terceros (salvo justa causa)", "8.7"],
             ["Al menos el 20 %", "Ejecución para autorizar el cambio en una UTE tras la adjudicación (con un año)", "13.4.a"],
             ["1,5 veces", "Volumen de negocios mínimo anual exigible respecto del valor estimado", "16.2.c"],
+            ["Mayoría / más de la mitad", "Presunción de influencia dominante (empresa vinculada): mayoría del capital o de los votos, o designación de más de la mitad del órgano de administración, dirección o vigilancia", "20.2"],
             ["Al menos el 2 %", "Trabajadores con discapacidad en empresas de 50 o más (si no, prohibición)", "22.1.f"],
             ["Menos del 4 %", "Deuda tributaria o social que permite demostrar la fiabilidad pagando o acordando el pago", "23.5"],
             ["Al menos el 6 %", "Reserva social sobre lo adjudicado el ejercicio anterior", "36.4"],
@@ -229,12 +233,14 @@ export default {
             ["Tres años", "Duración máxima y ventana previa en reservados del Anexo II.B de más de 750.000 €", "38.2"],
             ["Diez años", "Gastos de explotación en el estudio de viabilidad", "40"],
             ["12 meses", "Arrendamiento de productos: hasta 12 meses, valor total; más de 12, valor total con el residual; duración indeterminada, valor mensual × 48", "42.7"],
+            ["Doce meses", "Contratos periódicos: valor real de los sucesivos del ejercicio o de los 12 meses previos (ajustado), o valor de los de los 12 meses siguientes a la primera entrega", "42.8"],
             ["48 meses", "Servicios sin importe total: hasta 48 meses, valor de toda la duración; más de 48 o duración indeterminada, importe mensual × 48", "42.9.d"],
             ["Cinco años", "Duración máxima de suministros y servicios con prórrogas", "45.2"],
             ["Cuatro años", "Duración de acuerdos marco y sistemas dinámicos", "45.2"],
             ["Nueve / veinticuatro meses", "Prórroga obligatoria por imprevistos (general / derecho fundamental)", "45.3"],
             ["Tres meses / quince días", "Antelación del anuncio / invitación del nuevo contrato para la prórroga obligatoria", "45.3"],
-            ["Treinta años", "Duración máxima de las concesiones de obras", "45.5"]
+            ["Treinta años", "Duración máxima de las concesiones de obras", "45.5"],
+            ["Más de cinco años", "Concesiones cuya duración no puede exceder el tiempo razonable de amortización de las inversiones con un rendimiento sobre el capital", "45.6"]
           ],
           nota: "Regla de los tres años: ejercicios del ente instrumental, volumen de negocios, servicios previos, reutilización de documentación, inicio del procedimiento de prohibición y reservados de más de 750.000 €."
         },
@@ -248,7 +254,7 @@ export default {
             ["Más de 5.000.000 €", "Estudio de viabilidad en contratos con explotación posterior", "40"],
             ["Menos de 80.000 € / 1.000.000 €", "Lotes de suministros o servicios / obras adjudicables sin publicidad de umbral europeo", "42.10"]
           ],
-          nota: "Las concesiones de obras y servicios exigen estudio de viabilidad en todo caso, sin umbral (art. 40)."
+          nota: "Las concesiones de obras y servicios exigen estudio de viabilidad en todo caso, sin umbral (art. 40). El «umbral europeo» al que remiten los arts. 8.6 y 33.1.b) no está en este tema: es el del art. 89 (tema E48), que el Gobierno de Navarra actualiza por decreto foral; a 21-05-2026, 216.000 € y 5.404.000 € (Decreto Foral 133/2025, vigente desde el 1-1-2026)."
         },
         {
           titulo: "Ley Foral 2/2018: apreciación de las prohibiciones de contratar",
@@ -284,30 +290,143 @@ export default {
             ["Adjudicación", "Procedimiento ordinario con mención de la reserva en el anuncio", "Reglas del art. 37 y mención de la reserva en el anuncio"]
           ],
           nota: "Tras la STC 11/2026 ya no se incluyen en el art. 36.1 los centros especiales de empleo sin ánimo de lucro ni las entidades promotoras de empresas de inserción calificadas como centros de inserción sociolaboral."
+        },
+        {
+          titulo: "Ley Foral 2/2018: quién queda sujeto y cómo (arts. 4, 5 y 9)",
+          columnas: ["Entidad", "¿Poder adjudicador?", "¿Administración Pública de Navarra?", "Artículo"],
+          filas: [
+            ["Parlamento de Navarra, Cámara de Comptos y Defensor del Pueblo de Navarra", "Sí", "Sí", "4.1.a y 4.2"],
+            ["Administración de la Comunidad Foral y sus organismos autónomos", "Sí", "Sí", "4.1.b y 4.2"],
+            ["Entidades locales de Navarra y sus organismos autónomos", "Sí", "Sí, con las particularidades de la legislación foral de Administración Local", "4.1.c y 4.2"],
+            ["Universidad Pública de Navarra", "Sí", "Sí", "4.1.d y 4.2"],
+            ["Entidades públicas empresariales, entidades de derecho público, consorcios, sociedades mercantiles y laborales, fundaciones y otros entes vinculados o dependientes", "Sí, si reúnen conjuntamente los dos requisitos de la letra e)", "No", "4.1.e y 9.1"],
+            ["Partidos políticos, sindicatos, organizaciones empresariales y sus fundaciones y asociaciones", "Sí, si reúnen los requisitos de la letra e)", "No", "4.3"],
+            ["Entidades privadas con obras del art. 5.a) subvencionadas directamente en más del 50 %, concesionarios de obras públicas y juntas de compensación", "No: solo se sujetan esos contratos, por su objeto", "No", "5 y 34.3"]
+          ],
+          nota: "Poder adjudicador = entidad del ámbito subjetivo (art. 9.1); órgano de contratación = el que tiene atribuida la facultad de contratar en su nombre (art. 9.2). Solo las letras a) a d) son Administración Pública y celebran contratos administrativos (art. 34.1)."
+        },
+        {
+          titulo: "Ley Foral 2/2018: órganos y publicaciones",
+          columnas: ["Órgano o medio", "Qué hace", "Artículo"],
+          filas: [
+            ["Órgano de contratación", "Contrata en nombre del poder adjudicador; autoriza de forma expresa el cambio en la UTE tras la adjudicación; decide caso por caso sobre empresas de terceros Estados; inicia el procedimiento de prohibición en las Administraciones", "9.2, 13.4, 15 y 24.5"],
+            ["Central de compras", "Tiene en todo caso la condición de órgano de contratación; la adhesión exige dos actos expresos", "10.1-2"],
+            ["Titular del Departamento afectado", "Declara la prohibición de contratar en la Administración de la Comunidad Foral, sus organismos autónomos y sus entidades vinculadas", "24.1"],
+            ["Titular del Departamento de adscripción o tutela", "Declara la prohibición en los poderes adjudicadores que no son Administración (si dependen de varias, la de control o participación mayoritaria)", "24.1"],
+            ["Titular del Departamento competente en contratación pública", "Extiende la prohibición a todos los poderes adjudicadores a propuesta de la Junta; declara la del incumplimiento de comunicar datos al Registro Voluntario de Licitadores, con propuesta vinculante de la Junta", "23.4 y 24.2"],
+            ["Junta de Contratación Pública", "Propuesta de resolución vinculante en las prohibiciones de las Administraciones (puede iniciar de oficio); recibe las sentencias, sanciones y resoluciones firmes y las comunica a la Junta Consultiva estatal y a las comunidades autónomas", "24.5 y 25.1"],
+            ["Registro Voluntario de Licitadores de Navarra", "Inscribe las prohibiciones; la inscripción caduca a los tres meses de terminar su duración y se cancela de oficio", "25.2"],
+            ["Administración General del Estado", "Sus declaraciones de prohibición (y las autonómicas o locales no navarras a las que dé eficacia general) se aplican en Navarra", "24.6"],
+            ["Autoridad de defensa de la competencia de la Comunidad Foral", "Informe previo si no se divide en lotes por riesgo de restringir la competencia", "41.4.a"],
+            ["Tribunal Administrativo de Contratos Públicos de Navarra", "Resuelve las reclamaciones especiales; sus resoluciones se recurren ante la jurisdicción contencioso-administrativa", "35.1.e"],
+            ["Portal de Contratación", "Declaración de ente instrumental; orden de encargo por encima de la menor cuantía; justificación de superar el 50 % con terceros; creación de centrales de compras", "8.2.d, 8.6, 8.7 y 10.3"],
+            ["Diario Oficial de la Unión Europea", "Orden de encargo que supera los umbrales europeos, en un máximo de 48 días desde su aprobación", "8.6"],
+            ["Memoria de las Cuentas Anuales del ente instrumental", "Refleja el cumplimiento del 80 % de actividad, que se verifica en la auditoría", "8.2.c"]
+          ],
+          nota: "No confundir: el titular del Departamento AFECTADO declara; la Junta PROPONE (vinculante) en las Administraciones; el titular del Departamento de CONTRATACIÓN PÚBLICA extiende la prohibición a todos los poderes adjudicadores."
+        },
+        {
+          titulo: "Ley Foral 2/2018: tipos de contrato (arts. 28-32)",
+          columnas: ["Contrato", "Objeto", "Rasgo que lo distingue"],
+          filas: [
+            ["Obras (art. 28)", "Ejecución, o proyecto y ejecución, de obras del Anexo I, o realización por cualquier medio de una obra según las necesidades del contratante", "Obra = resultado de trabajos de construcción o ingeniería civil destinado a cumplir por sí mismo una función económica o técnica"],
+            ["Suministros (art. 29)", "Compra, arrendamiento financiero, arrendamiento o venta a plazos de productos, con o sin opción de compra (con colocación e instalación accesorias)", "En todo caso: equipos y programas informáticos y de telecomunicaciones, fabricación según características del contratante y entregas sucesivas por precio unitario"],
+            ["Servicios (art. 30)", "Prestación de un servicio por un precio, distinta de obras o suministros, incluso de forma sucesiva y por precio unitario", "Al contratante, a un tercero o al público; nunca ejercicio de la autoridad inherente a los poderes públicos; incluye los programas de ordenador a medida"],
+            ["Concesión de obras (art. 31)", "El mismo que el contrato de obras", "Retribución: derecho a explotar la obra, solo o con un precio, transfiriendo el riesgo operacional"],
+            ["Concesión de servicios (art. 32)", "Prestación de un servicio", "Retribución: derecho a explotar el servicio, solo o con un precio, transfiriendo el riesgo operacional"]
+          ],
+          nota: "Las adquisiciones de bienes del Patrimonio Histórico Español se rigen por su legislación específica (art. 29.3) y por la legislación patrimonial (art. 34.1)."
+        },
+        {
+          titulo: "Ley Foral 2/2018: contratos mixtos (art. 33)",
+          columnas: ["Combinación de prestaciones", "Normas de adjudicación", "Artículo"],
+          filas: [
+            ["Obras, servicios o suministros entre sí", "Las de la prestación principal", "33.1.a"],
+            ["Obras, suministros o servicios con concesiones, no separables", "Las de la prestación principal", "33.1.b.1.º"],
+            ["Obras, suministros o servicios con concesiones, separables y en un contrato único", "Las de obras, suministros o servicios si el valor estimado de esas prestaciones es igual o superior al umbral europeo; si no, las de concesiones", "33.1.b.2.º"],
+            ["Contratos de la ley foral con otros no regulados en ella, no separables", "Las de la prestación principal", "33.2.a"],
+            ["Contratos de la ley foral con otros no regulados en ella, separables y en un contrato único", "Las de esta ley foral, en todo caso", "33.2.b"]
+          ],
+          nota: "Solo cabe el contrato mixto si las prestaciones están directamente vinculadas entre sí y forman una unidad funcional (art. 33.4). El régimen jurídico de cada prestación se aplica en lo que sea compatible con la principal (art. 33.3)."
+        },
+        {
+          titulo: "Ley Foral 2/2018: requisitos acumulativos y listas cerradas",
+          columnas: ["Figura", "Requisitos", "Artículo"],
+          filas: [
+            ["Ente vinculado sujeto a la ley (letra e)", "Dos, conjuntamente: fines de interés público no industriales ni mercantiles y sin riesgo empresarial; y financiación pública de más de la mitad de su actividad, influencia dominante o designación de más de la mitad de sus órganos", "4.1.e"],
+            ["Ente instrumental", "Cuatro: control análogo (sin autonomía decisoria); sin participación directa de capital privado; más del 80 % de su actividad para quien lo controla; declaración expresa anunciada en el Portal", "8.2"],
+            ["Ente instrumental de varios poderes adjudicadores", "Tres, todas: órganos decisorios con representantes de todos; influencia decisiva conjunta; sin intereses contrarios a los suyos", "8.5"],
+            ["Cooperación horizontal excluida", "Cinco: auténtica cooperación con derechos y deberes recíprocos; exclusivamente interés público; no más del 20 % en el mercado; sin transferencias salvo el reembolso del coste real; sin participación privada", "7.1.i"],
+            ["Servicios precomerciales", "Excluidos, salvo que concurran las dos condiciones: beneficios exclusivamente del órgano de contratación y remuneración íntegra por él", "7.1.g"],
+            ["Cambio de composición de la UTE tras la adjudicación", "Tres: 20 % ejecutado y un año (concesiones, la quinta parte del plazo explotada); mantenimiento de la solvencia; capacidad y no prohibición de los nuevos", "13.4"],
+            ["Adhesión a una central de compras", "Dos actos expresos: el del poder adjudicador y el del órgano competente de la central", "10.2"],
+            ["Reserva del Anexo II.B", "Tres condiciones de la organización (fines del Anexo II.B, reinversión de beneficios, estructura participativa) y, en contratos de más de 750.000 €, dos más (duración máxima de tres años; sin contrato igual de más de 750.000 € en los tres años anteriores)", "38.1-2"],
+            ["Combinaciones de lotes", "Dos: previstas en el pliego (con su solvencia y capacidad) y evaluación comparativa previa", "41.7"],
+            ["Valor estimado", "Cuatro elementos: importe de licitación, opciones y prórrogas, primas o pagos a participantes y todas las modificaciones al alza previstas", "42.2"],
+            ["Alternativas si no se alcanza el 6 %", "Tres: subcontratar accesorios con centros especiales de empleo o empresas de inserción; remitir las ofertas de empleo; organizar prácticas laborales", "36.5"]
+          ],
+          nota: "Cuenta los requisitos: 2 (letra e), 4 (ente instrumental), 3 (control conjunto), 5 (cooperación horizontal), 3 (UTE), 2 (central de compras), 3 + 2 (Anexo II.B), 2 (combinación de lotes) y 4 (valor estimado)."
+        },
+        {
+          titulo: "Ley Foral 2/2018: cálculo del valor estimado (art. 42)",
+          columnas: ["Supuesto", "Base de cálculo", "Apartado"],
+          filas: [
+            ["Regla general", "Importe total sin IVA, con opciones, prórrogas, primas y todas las modificaciones al alza previstas", "42.1-2"],
+            ["Unidades funcionales separadas", "Valor total de todas, salvo que la unidad contrate de forma autónoma, con financiación específica y competencias propias", "42.3"],
+            ["Obras y concesiones de obras", "Importe de las obras más los suministros y servicios puestos a disposición del contratista", "42.5"],
+            ["Concesiones (además)", "Tasas y multas de los usuarios, pagos y ventajas públicas, subsidios de terceros, venta de activos y suministros y servicios aportados", "42.6"],
+            ["Arrendamiento financiero, arrendamiento o venta a plazos de productos", "Hasta 12 meses, valor total; más de 12, valor total con el residual; duración indeterminada, valor mensual × 48", "42.7"],
+            ["Suministros o servicios periódicos", "Valor real de los sucesivos del ejercicio o de los 12 meses previos (ajustado), o de los de los 12 meses siguientes a la primera entrega", "42.8"],
+            ["Servicios sin importe total", "Hasta 48 meses, valor de toda la duración; más de 48 o indeterminada, importe mensual × 48", "42.9.d"],
+            ["Lotes adjudicados a la vez", "Valor de todos los lotes; excepción para lotes de menos de 80.000 € (suministros y servicios) o 1.000.000 € (obras), hasta el 20 % del valor acumulado", "42.10"],
+            ["Acuerdos marco y sistemas dinámicos", "Valor máximo estimado del conjunto de contratos durante toda su duración", "42.11"],
+            ["Asociación para la innovación", "Valor máximo de las actividades de I+D y de las adquisiciones finales", "42.12"]
+          ],
+          nota: "El valor se calcula con los precios habituales del mercado en el momento del envío del anuncio o, si no lo hay, del inicio del procedimiento (art. 42.4). Los importes de la ley se entienden sin IVA salvo indicación expresa (art. 43.3)."
         }
       ],
       datos: [
         "Denominación: Ley Foral 2/2018, de 13 de abril, de Contratos Públicos. Consolidado del BOE actualizado el 19-03-2026 (STC 11/2026).",
-        "Modificaciones relevantes para el tema: Ley Foral 15/2019 (arts. 13.1, 14.4 y 17.2.a), Ley Foral 5/2020 y Ley Foral 17/2021 (arts. 7, 14, 16, 17, 18, 18 bis, 21, 24.4.a, 39, 41, 43.3, 44 y 45.4), Ley Foral 35/2022 (añadió al art. 36.1 los incisos luego anulados por la STC 11/2026, según el fallo de esta), Leyes Forales 35/2022 y 2/2024 (arts. 45.1 y 45.3: prórroga obligatoria prevista en el pliego y prórroga por imprevistos de nueve o veinticuatro meses; atribución tomada del diagnóstico sobre el consolidado del BOE, no recotejada), Leyes Forales 2/2024 y 19/2024 (art. 16.2.c) y Ley Foral 16/2025 (arts. 13.4 y 15).",
+        "Modificaciones que afectan al tema (pestaña «Análisis» del BOE y leyes modificadoras): Ley Foral 27/2018 (art. 36.9); Ley Foral 15/2019 (arts. 7.1.b y g, 8.6, 13.1, 14.4, 17.2.a, 23.2, 24.5 y 34); Ley Foral 5/2020 (art. 18); Ley Foral 20/2020 (art. 8.4); Ley Foral 17/2021 (arts. 7.1.l a n, 14, 16, 17, 18, 18 bis, 21, 24.4.a, 39.2-3, 41.2, 41.4.b, 43.3, 44.1.ñ, 44.2 y 45.4); Leyes Forales 31/2022 y 35/2022 (art. 36.1, con los incisos que luego anuló la STC 11/2026); Ley Foral 35/2022 (art. 45); Ley Foral 2/2024 (arts. 16.2.c, 22.1.b y f y 45: prórroga obligatoria prevista en el pliego y de hasta veinticuatro meses si se garantiza un derecho fundamental); Ley Foral 19/2024 (arts. 16.2.c y 22.1.f); Ley Foral 16/2025 (art. 13.4, añadido, y art. 15); STC 65/2024 (art. 7.1.l) y STC 11/2026 (art. 36.1).",
         "Art. 2.5: el plan de contratación se publica con independencia del anuncio de información previa del art. 90.",
+        "Art. 3: son contratos públicos los onerosos celebrados por escrito; hay onerosidad cuando el contratista obtiene algún beneficio económico, directo o indirecto.",
+        "Art. 6: un contrato puede adjudicarse directamente a una sociedad de capital mixto si el socio privado se eligió conforme al Título I para ese contrato y no se modifican su objeto ni sus condiciones.",
         "Art. 8.2.d: la declaración de ente instrumental se anuncia en el Portal de Contratación con el ámbito de los encargos.",
+        "Art. 8.8 y 8.10: los entes instrumentales no pueden licitar en los procedimientos de la entidad de la que dependen, y los encargos que infrinjan el art. 8 son nulos de pleno derecho.",
+        "Art. 10.1: la central de compras se crea exclusivamente para ese fin y tiene en todo caso la condición de órgano de contratación.",
         "Art. 10.3: la creación de una central de compras se publica en el Portal de Contratación con su objeto y sus miembros.",
+        "Art. 11.2: en la contratación totalmente conjunta la responsabilidad es conjunta aunque un solo poder adjudicador administre el procedimiento; en la parcial, solo por lo hecho conjuntamente.",
+        "Art. 13.2: los participantes en una UTE responden solidariamente de las obligaciones contraídas.",
         "Art. 13.3: la escritura pública de la UTE solo es necesaria tras la adjudicación a su favor.",
+        "Art. 16.1 y 16.2.c: la solvencia económica se ajusta al importe de licitación; el volumen de negocios exigido se limita por el valor estimado (como máximo 1,5 veces).",
         "Art. 19.3: los contratos de dirección, vigilancia o control de la ejecución no pueden adjudicarse al adjudicatario del contrato controlado ni a sus empresas vinculadas.",
+        "Art. 22.1.h: la prohibición por contratar a un ex alto cargo dura mientras siga en la empresa, con un máximo de dos años desde su cese.",
+        "Art. 22.3: la no concurrencia de la letra a) se prueba con certificado de antecedentes penales, sustituible por declaración responsable.",
         "Art. 30.3: los servicios no pueden implicar ejercicio de la autoridad inherente a los poderes públicos.",
+        "Arts. 36.6 y 38.3: el anuncio de licitación debe mencionar la reserva.",
         "Art. 36.10: publicación anual del listado e importe de los contratos reservados.",
-        "Art. 43.3: los importes de la ley se entienden sin IVA salvo indicación expresa."
+        "Art. 40: el estudio de viabilidad valora la sostenibilidad y rentabilidad económica, financiera y social y, en particular, el impacto de género.",
+        "Art. 43.3: los importes de la ley se entienden sin IVA salvo indicación expresa.",
+        "Art. 43.9: se prohíbe el pago aplazado del precio, salvo arrendamiento financiero, arrendamiento con opción de compra o autorización legal.",
+        "Art. 45.1: la prórroga se acuerda de forma expresa por ambas partes, salvo que el pliego permita al órgano de contratación aprobar la prórroga obligatoria."
       ],
       excepciones: [
         "Art. 7.1.l) ANULADO por la STC 65/2024, de 11 de abril, con efectos pro futuro: los servicios jurídicos de abogado y la certificación notarial ya no están excluidos por esta letra.",
-        "Art. 7.1.m) sin contenido normativo: la disposición adicional vigesimoprimera a la que remite fue vaciada por las Leyes Forales 35/2022 y 2/2024 (STC 65/2024, FJ 2).",
+        "Art. 7.1.m) sin contenido normativo: según la STC 65/2024 (FJ 2), tras las Leyes Forales 35/2022 y 2/2024 la disposición adicional vigesimoprimera a la que remite ya no contiene un régimen al margen de la ley foral (solo conserva, en su apartado 1, especialidades para adquirir medicamentos con patente, hoy con la redacción de la Ley Foral 19/2024).",
         "Art. 18: el antiguo párrafo sobre la solvencia de las Empresas de Inserción procedentes de Centros de Inserción Sociolaboral fue SUPRIMIDO por la Ley Foral 17/2021 (apartado Doce).",
         "Art. 36.1: incisos sobre los centros especiales de empleo sin ánimo de lucro y las entidades promotoras de empresas de inserción ANULADOS por la STC 11/2026, de 11 de febrero (BOE 19-03-2026), con los efectos de su FJ 5.",
         "Art. 41.4.b): su último párrafo (informe previo de la Administración de la que depende una entidad del art. 4.1.e) fue SUPRIMIDO por la Ley Foral 17/2021 (apartado Diecinueve).",
         "Art. 45.4 SUPRIMIDO por la Ley Foral 17/2021 (apartado Veintitrés): los contratos de asistencia jurídica y defensa judicial ya no tienen una duración especial.",
+        "Art. 7.1.g): los servicios precomerciales están excluidos, salvo que concurran las dos condiciones (beneficios exclusivamente del órgano de contratación y remuneración íntegra por él).",
+        "Art. 8.7: las prestaciones de un encargo contratadas con terceros pueden superar el 50 % si se justifica exhaustivamente una justa causa, que se publica en el Portal con el encargo.",
+        "Art. 16.2.c): el límite de 1,5 veces el valor estimado puede superarse en casos justificados (riesgos especiales), indicando las razones en el informe de necesidades del art. 138.3.",
+        "Art. 19.1: quien preparó documentos del contrato solo es excluido si no hay otro medio de garantizar la igualdad de trato, y previa audiencia.",
         "Fiabilidad (art. 23.5): no cabe frente a la prohibición por condena penal de la letra a).",
-        "Concesiones (art. 45.6): no pueden prorrogarse; la concesión de obras admite más de treinta años solo por circunstancias excepcionales (art. 45.5).",
-        "Contratos reservados (art. 36.7): si quedan desiertos, pueden licitarse sin reserva, pero su importe computa en el 6 %."
+        "Art. 29.2.a): los programas de ordenador desarrollados a medida son contratos de servicios, no de suministros.",
+        "Contratos reservados (art. 36.7): si quedan desiertos, pueden licitarse sin reserva, pero su importe computa en el 6 %.",
+        "Art. 36.8: en los contratos reservados no se exigen garantías, salvo que de forma excepcional se motive su necesidad en el expediente.",
+        "Art. 45.2: los cinco años de suministros y servicios admiten un plazo mayor por circunstancias excepcionales justificadas; los acuerdos marco, cuatro años salvo casos excepcionales justificados.",
+        "Concesiones (art. 45.6): no pueden prorrogarse; la concesión de obras admite más de treinta años solo por circunstancias excepcionales (art. 45.5)."
       ]
     }
   };
