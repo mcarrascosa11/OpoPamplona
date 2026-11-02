@@ -1003,6 +1003,7 @@ El trámite de audiencia supondrá la suspensión del plazo para dictar resoluci
 
 TÍTULO IV
 Grupos de Interés
+[Nota de estudio: el Título IV no forma parte del alcance oficial del tema G9 en la convocatoria de 2026, que solo incluye los Títulos I, II (capítulos I y III), III y VI. Se conserva como referencia.]
 Artículo 46. Grupos de interés.
 A los efectos de esta ley foral, se consideran grupos de interés las organizaciones y personas, sea cual sea el estatuto jurídico, que, desarrollando sus actividades en Navarra, se dedican profesionalmente, en todo o en parte de su actividad, a influir directa o indirectamente en los procesos de elaboración de las políticas o disposiciones normativas, en la aplicación de las mismas o en la toma de decisiones en defensa de intereses propios, de terceras personas u organizaciones o incluso de intereses generales, sin que ello impida el ejercicio de los derechos individuales de reunión y de acceso o petición.
 
@@ -1078,7 +1079,7 @@ Artículo 63. Consejo de Transparencia de Navarra.
 
 1. El Consejo de Transparencia de Navarra, como órgano independiente destinado a promover la transparencia en la Comunidad Foral de Navarra, velará por el cumplimiento de las obligaciones de publicidad activa y garantizará el derecho de acceso a la información pública.
 
-2. El Consejo de Transparencia de Navarra ejercerá las funciones que la presente ley foral le atribuye, actuando con objetividad, profesionalidad, sometimiento al ordenamiento jurídico, autonomía y plena independencia, y se adscribirá orgánicamente al departamento competente en materia de transparencia Nota de Vigencia.
+2. El Consejo de Transparencia de Navarra ejercerá las funciones que la presente ley foral le atribuye, actuando con objetividad, profesionalidad, sometimiento al ordenamiento jurídico, autonomía y plena independencia, y se adscribirá orgánicamente al departamento competente en materia de transparencia.
 
 Artículo 64. Funciones del Consejo de Transparencia de Navarra.
 
@@ -1106,11 +1107,11 @@ j) Promover actividades de formación y sensibilización.
 
 k) Colaborar, en las materias que le son propias, con órganos de naturaleza análoga.
 
-l) Velar por el deber de la Administración de la Comunidad Foral de Navarra y de las entidades locales de Navarra de facilitar información a las y los parlamentarios forales y las y los miembros electos de las entidades locales para el ejercicio de sus funciones, conforme a la normativa que sea de aplicación en cada caso Nota de Vigencia.
+l) Velar por el deber de la Administración de la Comunidad Foral de Navarra y de las entidades locales de Navarra de facilitar información a las y los parlamentarios forales y las y los miembros electos de las entidades locales para el ejercicio de sus funciones, conforme a la normativa que sea de aplicación en cada caso.
 
-m) Aquellas otras que le sean atribuidas por una norma de rango legal o reglamentario Nota de Vigencia.
+m) Aquellas otras que le sean atribuidas por una norma de rango legal o reglamentario.
 
-Artículo 65. Composición del Consejo de Transparencia de Navarra Nota de Vigencia.
+Artículo 65. Composición del Consejo de Transparencia de Navarra.
 
 1. El Consejo de Transparencia de Navarra estará compuesto por la persona titular de la presidencia y por los y las siguientes vocales, que recaerán en personal técnico con experiencia en esta materia:
 
@@ -1124,7 +1125,7 @@ d) Una persona a propuesta de la Cámara de Comptos.
 
 e) Una persona a propuesta del Defensor del Pueblo de Navarra.
 
-f) Una persona a propuesta de la Universidad Púbica de Navarra.
+f) Una persona a propuesta de la Universidad Pública de Navarra.
 
 g) Una persona a propuesta del Parlamento de Navarra.
 
@@ -1144,7 +1145,7 @@ Expirado el mandato, quien estuviera en ese momento en el cargo continuará en s
 
 5. El Consejo de Transparencia de Navarra procurará garantizar la presencia equilibrada entre mujeres y hombres de tal manera que las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento de acuerdo con lo dispuesto en la letra f) del artículo 4.1 de la Ley Foral 17/2019, de 4 de abril, de igualdad entre Mujeres y Hombres.
 
-Artículo 65 bis. Dietas Nota de Vigencia.
+Artículo 65 bis. Dietas.
 
 1. Las y los miembros del Consejo de Transparencia de Navarra podrán compatibilizar su tarea con su puesto de trabajo en la Administración a la que pertenezcan y serán retribuidos por su participación como ponentes en los dictámenes con las dietas que se establezcan reglamentariamente por la persona titular del departamento competente en materia de transparencia, compatibles con su remuneración como funcionarios.
 
@@ -1172,9 +1173,9 @@ Artículo 67. Organización y funcionamiento.
 
 1. La organización y funcionamiento del Consejo de Transparencia de Navarra se regirá por el reglamento que éste órgano apruebe. Dicho reglamento deberá publicarse en el Boletín Oficial de Navarra.
 
-2. Para el ejercicio de las funciones de transparencia y acceso a la información pública, el Consejo de Transparencia de Navarra contará con el apoyo jurídico, técnico y administrativo que será facilitado por el departamento competente en materia de transparencia, con los medios personales, económicos y materiales del mismo que sean necesarios, así como del departamento competente en materia de archivos Nota de Vigencia.
+2. Para el ejercicio de las funciones de transparencia y acceso a la información pública, el Consejo de Transparencia de Navarra contará con el apoyo jurídico, técnico y administrativo que será facilitado por el departamento competente en materia de transparencia, con los medios personales, económicos y materiales del mismo que sean necesarios, así como del departamento competente en materia de archivos.
 
-Artículo 68. Colaboración con el Consejo de Transparencia de Navarra Nota de Vigencia.
+Artículo 68. Colaboración con el Consejo de Transparencia de Navarra.
 
 Las administraciones públicas de Navarra y los demás organismos y entidades que se relacionan en el artículo 2.1, en el artículo 2.2 y en el artículo 3 de esta ley deberán facilitar al Consejo de Transparencia de Navarra la información que les solicite y prestarle la colaboración necesaria para el desarrollo de sus funciones.
 
