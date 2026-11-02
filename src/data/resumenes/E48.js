@@ -1,7 +1,7 @@
 // Resumen del tema E48. Formato: cabecera de src/data/resumenes.js.
 export default {
     intro:
-      "La Ley Foral 2/2018, de 13 de abril, de Contratos Públicos, dedica el capítulo V de su Título I (arts. 46-103) a cómo se LICITA y se ADJUDICA un contrato: reglas comunes de la licitación (plazos, consultas, Mesa de Contratación, proposiciones y declaración responsable), contenido de los pliegos y de los criterios de adjudicación, los NUEVE procedimientos de adjudicación, los sistemas de racionalización (acuerdo marco, sistema dinámico de compra y puja electrónica), la publicidad en el Portal de Contratación de Navarra y en el DOUE según el UMBRAL EUROPEO, la licitación electrónica y la fase final de adjudicación, perfección y formalización. La idea que lo ordena todo: el procedimiento ABIERTO y el RESTRINGIDO se usan indistintamente; el resto es EXCEPCIONAL y debe motivarse (art. 71.2). Vigencia a la fecha de la convocatoria (BON 21-05-2026): rige el texto consolidado del BOE (actualizado el 19-03-2026), con el art. 85.4.a) SUPRIMIDO por la Ley Foral 20/2024 (desde el 1-1-2025), el art. 88.3 en la redacción de la Ley Foral 16/2025 y los umbrales europeos del Decreto Foral 133/2025 (216.000 € y 5.404.000 €, desde el 1-1-2026).",
+      "La Ley Foral 2/2018, de 13 de abril, de Contratos Públicos, dedica el capítulo V de su Título I (arts. 46-103) a cómo se LICITA y se ADJUDICA un contrato: reglas comunes de la licitación (plazos, consultas, Mesa de Contratación, proposiciones y declaración responsable), contenido de los pliegos y de los criterios de adjudicación, los NUEVE procedimientos de adjudicación, los sistemas de racionalización (acuerdo marco, sistema dinámico de compra y puja electrónica), la publicidad en el Portal de Contratación de Navarra y en el DOUE según el UMBRAL EUROPEO, la licitación electrónica y la fase final de adjudicación, perfección y formalización. La idea que lo ordena todo: el procedimiento ABIERTO y el RESTRINGIDO se usan indistintamente; el resto es EXCEPCIONAL y debe motivarse (art. 71.2). Vigencia a la fecha de la convocatoria (BON 21-05-2026): rige el texto consolidado (BOE, actualizado el 19-03-2026, y LexNavarra), con la gran reforma de la Ley Foral 17/2021 ya incorporada (Mesa de Contratación, arts. 50-51; declaración responsable, art. 55; apertura y valoración, arts. 96-98; penalidad por retirar la oferta, art. 100.1; suspensión de 10 o 15 días naturales y formalización en 5 días naturales, art. 101), el art. 85.4.a) SUPRIMIDO por la Ley Foral 20/2024 (desde el 1-1-2025), el art. 88.3 en la redacción de la Ley Foral 16/2025 (desde el 1-1-2026) y los umbrales europeos del Decreto Foral 133/2025 (216.000 € y 5.404.000 €, desde el 1-1-2026). No consta ninguna otra modificación del capítulo hasta el 21-05-2026.",
     bloques: [
       {
         h: "Reglas comunes de la licitación (arts. 46-49)",
@@ -89,7 +89,7 @@ export default {
           "Art. 67.1 — Subrogación según el convenio sectorial; si no existe o no la regula, de TODOS los trabajadores que venían realizando la actividad. Se avisa a la representación sindical para que en un MÁXIMO DE QUINCE DÍAS informe si las condiciones del centro son superiores",
           "Art. 67.2 — La empresa saliente da los listados del personal; si se retrasa, PENALIDAD DEL 0,1 % del precio de adjudicación por día. La Administración verifica la información antes de incluirla en el pliego",
           "Art. 67.3-8 — Se aplica también a socios trabajadores de cooperativas; si la Administración pasa a prestar directamente el servicio, subroga al personal; si la saliente era un Centro Especial de Empleo, se subrogan las personas con discapacidad; penalidades dentro del art. 146; ACCIÓN DIRECTA del nuevo contratista contra el antiguo si los costes son mayores de lo informado; el contratista responde de salarios y cotizaciones impagados aunque el contrato se resuelva (retención de pagos y de la garantía definitiva)",
-          "Art. 68 — Etiquetas: pueden exigirse si sus requisitos están vinculados al objeto, son objetivos y no discriminatorios, se adoptan en procedimiento abierto y transparente, son accesibles y los fija un tercero independiente. Se aceptan etiquetas equivalentes; la CARGA DE LA PRUEBA de la equivalencia es del interesado",
+          "Art. 68 — Etiquetas: si se quieren características específicas medioambientales o sociales, el órgano DEBERÁ exigir una etiqueta específica como medio de prueba (en las prescripciones técnicas, los criterios de adjudicación o las condiciones de ejecución) siempre que se cumplan TODAS estas condiciones: requisitos vinculados al objeto, objetivos y no discriminatorios, adoptados en procedimiento abierto y transparente, accesibles y fijados por un tercero sobre el que la empresa no influya de forma decisiva. Si la etiqueta incluye requisitos ajenos al objeto, no se exige como tal, pero las prescripciones pueden remitirse a sus especificaciones. Se aceptan etiquetas equivalentes y, si fue manifiestamente imposible obtenerla en plazo por causa no imputable, otros medios de prueba; la CARGA DE LA PRUEBA de la equivalencia es del interesado",
           "Art. 69 — Pueden exigirse informes de pruebas o certificados de organismos de evaluación de la conformidad; se aceptan los equivalentes y, si no hay acceso a ellos por causa no imputable, otros medios como un informe técnico del fabricante",
           "Art. 70.1 — Garantía provisional: excepcional y motivada, máximo 2 % del presupuesto de licitación; responde del mantenimiento de la oferta hasta la formalización y se devuelve a los no adjudicatarios tras la adjudicación",
           "Art. 70.2 — Garantía definitiva: el pliego puede preverla antes de la formalización, máximo 4 % del importe de adjudicación; responde hasta el final del plazo de garantía (penalidades por demora, daños). Se INCAUTA si el contrato se resuelve por incumplimiento culpable",
@@ -107,7 +107,7 @@ export default {
           "Art. 74 — NEGOCIADO: el órgano consulta y negocia con una o varias empresas cuando no puede definir los medios ideales o evaluar las soluciones del mercado. Si se limita el número de candidatos, NUNCA MENOS DE 3, advirtiéndolo en los pliegos. Puede ir en fases sucesivas",
           "Art. 75.1 — NEGOCIADO SIN CONVOCATORIA DE LICITACIÓN, supuestos: abierto o restringido sin solicitudes u ofertas adecuadas (sin cambiar sustancialmente las condiciones); suministros fabricados solo para investigación (sin producción en serie); exclusividad técnica, artística o de derechos; EXTREMADA URGENCIA por hechos imprevisibles; entregas adicionales del proveedor inicial; repetición de obras o servicios conforme a un proyecto de base adjudicado por abierto, restringido o negociado; suministros cotizados en bolsa; compras de ocasión; condiciones ventajosas por cese o liquidación; servicios que derivan de un concurso de proyectos (se invita a todos los ganadores)",
           "Art. 75.4 — Si no es posible la concurrencia, se motiva en el informe justificativo; no hace falta Mesa ni Plataforma de licitación y pueden aprobarse en un único acto el expediente, el gasto y la adjudicación",
-          "Art. 76 — DIÁLOGO COMPETITIVO: para contratos especialmente complejos (obras con soluciones innovadoras, servicios intelectuales, grandes proyectos TIC); NO para servicios y suministros disponibles en el mercado. Documento descriptivo de necesidades; premios o pagos posibles; límite de candidatos NUNCA INFERIOR A 3; trato igual y confidencialidad (el acuerdo del participante para revelar no puede ser una renuncia general); adjudicación solo por la MEJOR RELACIÓN CALIDAD-PRECIO",
+          "Art. 76 — DIÁLOGO COMPETITIVO: cuando el órgano, de forma motivada, considere que no pueden obtenerse resultados satisfactorios con el abierto, el restringido o el negociado; contratos especialmente complejos (obras con soluciones innovadoras, servicios intelectuales, grandes proyectos TIC); NO para servicios y suministros disponibles en el mercado. Documento descriptivo de necesidades; premios o pagos posibles; límite de candidatos NUNCA INFERIOR A 3; trato igual y confidencialidad (el acuerdo del participante para revelar no puede ser una renuncia general); adjudicación solo por la MEJOR RELACIÓN CALIDAD-PRECIO",
           "Art. 77 — ASOCIACIÓN PARA LA INNOVACIÓN: I+D de obras, servicios o productos innovadores y su adquisición posterior, cuando el mercado no ofrece solución. Fase de I+D por los pliegos y, supletoriamente, por las normas del contrato de servicios. Mínimo de 3 invitados. Puede concluirse o reducirse la asociación si no se alcanzan objetivos, SIN INDEMNIZACIÓN (salvo compensaciones previstas). Adquisición de prestaciones sucesivas como máximo durante CUATRO AÑOS, salvo circunstancias excepcionales",
           "Art. 78 — La invitación a los seleccionados es escrita y SIMULTÁNEA, e indica acceso a pliegos, fechas límite de documentación adicional y de ofertas, dirección e idioma, anuncio publicado, documentación, criterios y su ponderación si no estaba en el anuncio"
         ]
@@ -117,7 +117,7 @@ export default {
         nota:
           "Para el arquitecto, el concurso de proyectos es la pieza clave: JURADO de personas físicas independientes, ANONIMATO hasta el dictamen y dictamen VINCULANTE. Umbral para el DOUE: 216.000 € (DF 133/2025).",
         items: [
-          "Art. 79.1 — Se utiliza para planes o proyectos singulares de ordenación territorial, urbanismo, arquitectura, ingeniería y procesamiento de datos. Jurado compuesto EXCLUSIVAMENTE por personas físicas independientes de los participantes",
+          "Art. 79.1 — Para planes o proyectos singulares, PRINCIPALMENTE en ordenación territorial, urbanismo, arquitectura, ingeniería y procesamiento de datos, el órgano de contratación UTILIZARÁ el concurso de proyectos. Jurado compuesto EXCLUSIVAMENTE por personas físicas independientes de los participantes (pregunta real de Navarra 2026, P48)",
           "Art. 79.2 — Normas reguladoras aprobadas previamente y anuncio con los premios y pagos. Los medios de publicidad dependen del valor estimado de premios y pagos, sumando en su caso los contratos derivados. En concurso restringido, los seleccionados cobran la compensación fijada en proporción a sus gastos. Valor estimado IGUAL O SUPERIOR A 216.000 €: anuncio en el DOUE",
           "Art. 79.3 — Abierto o restringido. Se valora la calidad (valores técnicos, funcionales, arquitectónicos, culturales o medioambientales). En el restringido se invita como mínimo a los CINCO candidatos de mejor puntuación",
           "Art. 79.4-5 — Proyectos ANÓNIMOS hasta que el Jurado hace público su dictamen. Si la normativa sectorial exige una cualificación, al menos la MAYORÍA del Jurado debe tenerla. Miembros sujetos a abstención y recusación",
@@ -230,9 +230,12 @@ export default {
       "Igual o superior al umbral: 30 días desde el ENVÍO del anuncio. Inferior: abierto 15 días desde la PUBLICACIÓN, restringido y negociado 10 + 10 (arts. 91 y 94)",
       "Oferta anormalmente baja: 5 días para justificar; solo se rechaza si no justifica, y siempre si incumple convenios o normas sociales y ambientales (art. 98)",
       "Adjudicación en 1 MES desde la apertura económica; si no, retirada sin penalidad; retirada anticipada, penalidad del 2 % del importe de licitación (art. 100.1)",
-      "El contrato se PERFECCIONA con la ADJUDICACIÓN; suspensión 10 días naturales (electrónica) o 15 (no electrónica); con una sola oferta no hay suspensión (art. 101)",
+      "El contrato se PERFECCIONA con la ADJUDICACIÓN; suspensión 10 días naturales (electrónica) o 15 (no electrónica); con una sola oferta en un procedimiento con convocatoria no hay suspensión (art. 101)",
       "Formalización en 5 días naturales desde el fin de la suspensión; si falla el contratista, penalidad del 5 % del valor estimado o nuevo plazo improrrogable (art. 101.6-7)",
-      "Renuncia (interés público) y desistimiento (infracción no subsanable): solo antes de la adjudicación (art. 103)"
+      "Renuncia (interés público) y desistimiento (infracción no subsanable): solo antes de la adjudicación (art. 103)",
+      "Desempate: criterios del pliego, en el orden del art. 99.1 si el pliego no dice otro; documentación en un mínimo de 5 días; si persiste el empate, SORTEO (art. 99)",
+      "Junta de Contratación Pública de Navarra: de ella dependen el Portal y la Plataforma; representante en la Mesa por encima de 10.000.000 €; informe VINCULANTE si la propuesta incurre en infracción (arts. 50.5, 88.1, 95.1 y 100.2)",
+      "Admiten negociación: negociado, negociado sin convocatoria, diálogo competitivo y asociación para la innovación; no el concurso de proyectos ni el simplificado (Zizur 2026, P75)"
     ],
     memorizacion: {
       tablas: [
@@ -240,10 +243,11 @@ export default {
           titulo: "LF 2/2018: umbrales económicos del capítulo V",
           columnas: ["Regla", "Servicios y suministros", "Obras", "Artículo"],
           filas: [
-            ["Mesa de Contratación obligatoria", "Más de 60.000 €", "Más de 200.000 €", "50.5"],
+            ["Mesa de Contratación obligatoria (en concesiones, en todo caso)", "Más de 60.000 €", "Más de 200.000 €", "50.5"],
             ["Representante de la Junta en la Mesa", "Más de 10.000.000 € (IVA excluido)", "Más de 10.000.000 € (IVA excluido)", "50.5"],
             ["Procedimiento simplificado", "Inferior a 60.000 €", "Inferior a 200.000 €", "80.1"],
             ["Régimen de menor cuantía", "Hasta 15.000 €", "Hasta 40.000 €", "81.1"],
+            ["Menor cuantía en prestaciones sucesivas", "Gasto previsto de los 48 meses siguientes sin superar 15.000 €", "—", "81.3"],
             ["Basados en acuerdo marco: solo reserva de crédito y factura", "Inferior a 75.000 €", "Inferior a 75.000 €", "83.4"],
             ["Basados en acuerdo marco: solo factura", "Inferior a 3.000 €", "Inferior a 3.000 €", "83.4"],
             ["Umbral europeo (DOUE)", "216.000 € (servicios sociales: 750.000 €)", "5.404.000 € (también concesiones)", "89.1"],
@@ -304,6 +308,7 @@ export default {
           titulo: "LF 2/2018: plazos de la licitación y la adjudicación",
           columnas: ["Trámite", "Plazo", "Artículo"],
           filas: [
+            ["Remisión del anuncio de información previa (para poder reducir plazos)", "Entre 12 meses y 35 días antes de la publicación del anuncio de licitación", "90.1"],
             ["Información adicional sobre los pliegos", "3 días (solicitud en los 3 últimos días: no obliga a ampliar)", "49.3"],
             ["Subsanación de defectos ante la Mesa", "Mínimo 5 días", "51.2"],
             ["Acreditación del propuesto como adjudicatario", "Máximo 7 días desde el requerimiento", "55.8"],
@@ -321,6 +326,57 @@ export default {
             ["Basados en acuerdo marco o sistema dinámico", "Agrupados, 30 días tras el fin de cada trimestre", "102.2"]
           ],
           nota: "Los «5 días» se repiten mucho (subsanación, aclaraciones mínimas, anormalmente baja, desempate, formalización, anuncio de adjudicación): la diferencia está en si es plazo mínimo, máximo o fijo y desde cuándo se cuenta."
+        },
+        {
+          titulo: "LF 2/2018: quién hace qué en la licitación y la adjudicación",
+          columnas: ["Órgano", "Qué hace en el capítulo V", "Artículos"],
+          filas: [
+            ["Órgano de contratación", "Fija plazos y amplía el inicial si no atendió a tiempo una petición de información; consultas preliminares; autoriza o exige variantes; decide motivadamente qué no es confidencial y puede eximir del sigilo; avisa a la representación sindical de la nueva licitación; ADJUDICA (1 mes desde la apertura económica); declara DESIERTO; renuncia o desiste, solo antes de adjudicar", "46, 48, 54, 57, 67.1, 100, 101.5 y 103"],
+            ["Mesa de Contratación (o unidad gestora si no hay Mesa)", "Califica la documentación y las causas de exclusión; valora la solvencia; admite, selecciona e invita; valora la oferta técnica; abre las ofertas; acepta o excluye la oferta anormalmente baja; pide la documentación al propuesto; ELEVA LA PROPUESTA de adjudicación; da plazo de subsanación (mínimo 5 días) y de aclaración (5 a 10 días); decide la acreditación previa excepcional", "51, 55.9, 97 y 98.3"],
+            ["Presidencia de la Mesa", "Reparte las tareas entre los miembros e informa a todos; ante ella se pide una reunión presencial o telemática", "50.3-4"],
+            ["Junta de Contratación Pública de Navarra", "De ella dependen el Portal de Contratación y la Plataforma de Licitación Electrónica; designa a un representante en la Mesa si el valor estimado supera 10.000.000 € (IVA excluido); emite informe VINCULANTE si la propuesta incurre en infracción del ordenamiento", "50.5, 88.1, 95.1 y 100.2"],
+            ["Jurado del concurso de proyectos", "Solo personas físicas independientes de los participantes; si se exige una cualificación, al menos la mayoría la tiene; informe firmado por todos con la clasificación; dictamen VINCULANTE", "79.1, 79.5 y 79.6"],
+            ["Tribunal Administrativo de Contratos Públicos de Navarra", "Si todos los interesados renuncian expresamente a reclamar ante él, la suspensión termina antes; la mera reclamación suspende la adjudicación hasta que se resuelva o venza el plazo para resolverla", "101.2-3"],
+            ["Representación sindical del centro de trabajo", "En un máximo de 15 días informa si las condiciones laborales de las personas a subrogar son superiores; el pliego debe incluirlas", "67.1"],
+            ["Comisión Europea", "Se le informa si se rechaza una oferta anormalmente baja por ayuda estatal ilegal y de la renuncia o el reinicio de un contrato anunciado en el DOUE", "98.2.f y 103.4"]
+          ],
+          nota: "La Mesa PROPONE y el órgano de contratación ADJUDICA. La adjudicación se ajusta a la propuesta salvo infracción del ordenamiento: con informe vinculante de la Junta, la licitación queda sin efecto, salvo que la infracción afecte solo al propuesto (entonces se adjudica al siguiente no afectado)."
+        },
+        {
+          titulo: "LF 2/2018: publicidad, qué se anuncia, dónde y cuándo",
+          columnas: ["Anuncio", "Portal de Contratación de Navarra", "DOUE", "Artículo"],
+          filas: [
+            ["Licitación de valor igual o superior al umbral europeo", "Después del DOUE: al confirmarse la publicación o a las 48 [horas] de la confirmación de recepción; con la fecha de envío y sin contenido distinto", "Sí: su ENVÍO precede a cualquier otra publicidad", "89"],
+            ["Licitación de valor inferior al umbral europeo", "Sí, salvo negociado sin convocatoria, simplificado y menor cuantía (otros medios, solo a efectos informativos)", "Potestativo", "92 y 93"],
+            ["Anuncio de información previa", "Sí", "Si el valor estimado alcanza el umbral europeo", "90"],
+            ["Concurso de proyectos", "Anuncio de la convocatoria con premios y pagos (medios según su valor estimado)", "Si el valor estimado es igual o superior a 216.000 €", "79.2"],
+            ["Adjudicación", "En 5 días desde el fin de la suspensión, salvo la menor cuantía; si no hubo anuncio de licitación, con explicación sucinta de hechos y fundamentos", "Si alcanza el umbral: en 30 días desde la adjudicación", "102.1"],
+            ["Contratos basados en acuerdo marco o sistema dinámico", "Agrupados, en los 30 días siguientes al fin de cada trimestre", "Igual, cuando corresponda", "102.2"],
+            ["Contratos de menor cuantía", "Cada trimestre, de forma agregada por empresa o profesional, con adjudicataria e importe", "—", "88.2.j y 102.3"],
+            ["Pliegos y documentación complementaria", "Acceso libre, directo, completo y gratuito desde el anuncio (salvo las excepciones del art. 49.2)", "—", "49.1"],
+            ["Composición de la Mesa de Contratación", "Se publica la designación de sus miembros", "—", "50.2"],
+            ["Consultas preliminares del mercado", "Preferentemente por el Portal; no usarlo se motiva en el expediente", "—", "48.2"],
+            ["Renuncia o reinicio del procedimiento", "Se notifica a quienes licitaron", "Se informa a la Comisión Europea si el contrato se anunció en el DOUE", "103.4"]
+          ],
+          nota: "El Portal, dependiente de la Junta de Contratación Pública de Navarra, es el medio OFICIAL de publicidad de las licitaciones, y publicar la información del art. 88.2 es obligatorio en todo caso; solo excepcionalmente, y justificándolo, se omite en los contratos declarados secretos o reservados (art. 88.3, en la redacción de la Ley Foral 16/2025)."
+        },
+        {
+          titulo: "LF 2/2018: listas cerradas del capítulo V",
+          columnas: ["Lista", "Elementos", "Artículo"],
+          filas: [
+            ["Procedimientos de adjudicación (9)", "Abierto, restringido, negociado, negociado sin convocatoria, diálogo competitivo, asociación para la innovación, concurso de proyectos, simplificado y régimen especial de menor cuantía", "71.1"],
+            ["Supuestos del negociado sin convocatoria (10)", "Sin solicitudes u ofertas adecuadas en abierto o restringido; suministros fabricados solo para investigación; exclusividad técnica, artística o de derechos; extremada urgencia; entregas adicionales del proveedor inicial; repetición de obras o servicios según un proyecto de base; materias primas cotizadas en bolsa; compras de ocasión; cese o liquidación del suministrador; servicios derivados de un concurso de proyectos", "75.1"],
+            ["Acceso no electrónico a los pliegos (3)", "Circunstancias técnicas; razones de confidencialidad; seguridad en las concesiones de obras y de servicios", "49.2"],
+            ["Modalidades de las prescripciones técnicas (3)", "Por referencia a especificaciones con la mención «o equivalente»; en términos de rendimiento o exigencias funcionales; mixta", "60.2"],
+            ["Formas de fijar la mejor calidad precio (3)", "Solo criterios de coste-eficacia; coste-eficacia más criterios cualitativos; solo cualitativos con precio fijo", "64.3"],
+            ["Condiciones para exigir una etiqueta (5)", "Requisitos vinculados al objeto; objetivos y no discriminatorios; procedimiento abierto y transparente; accesible a todos; fijada por un tercero sin influencia decisiva de la empresa", "68.2"],
+            ["Formas de constituir las garantías (5)", "Metálico; aval a primer requerimiento; seguro de caución; retención en el precio si el pliego lo prevé; combinación de las anteriores", "70.3"],
+            ["Procedimientos con puja electrónica (6)", "Abierto, restringido, negociado, nueva licitación de un acuerdo marco, sistema dinámico de compra y simplificado; nunca en prestaciones intelectuales como la redacción de proyectos de obras", "86.2"],
+            ["Cierre de la puja electrónica (3)", "Fecha y hora fijadas; falta de nuevas pujas que cumplan las diferencias mínimas; fin de las fases previstas", "87.6"],
+            ["Criterios de desempate (6, en este orden si el pliego no dice otro)", "Igualdad de género; fijos con discapacidad; empresa de inserción; menos eventuales; entidad sin ánimo de lucro en prestaciones sociales o asistenciales; comercio justo", "99.1"],
+            ["Contenido mínimo de la adjudicación (4)", "Razones del rechazo de candidaturas u ofertas; características y ventajas de la oferta seleccionada; plazo de suspensión de la eficacia; medios de impugnación", "100.3"]
+          ],
+          nota: "Las listas de la ley se preguntan cambiando o añadiendo un elemento: en el negociado sin convocatoria no basta la urgencia simple (solo la EXTREMADA urgencia por hechos imprevisibles) y la lista de la puja electrónica no incluye el diálogo competitivo, la asociación para la innovación ni el concurso de proyectos."
         }
       ],
       datos: [
@@ -331,7 +387,10 @@ export default {
         "Art. 67.8: el contratista responde de los salarios impagados y de las cotizaciones de los trabajadores subrogados aunque el contrato se resuelva; la Administración retiene pagos y no devuelve la garantía definitiva.",
         "Art. 89.3: el anuncio en el Portal no puede contener indicaciones distintas a las del anuncio europeo y debe indicar la fecha de envío al DOUE.",
         "Art. 98.2.d: la justificación puede invocar las normas internacionales del anexo XIV de la Directiva 2014/24.",
-        "Art. 102.4: la publicación de los anuncios del art. 88 con los datos mínimos sustituye al informe escrito de cada contrato."
+        "Art. 102.4: la publicación de los anuncios del art. 88 con los datos mínimos sustituye al informe escrito de cada contrato.",
+        "Art. 77.12: tras una asociación para la innovación, la adquisición de prestaciones sucesivas solo puede durar como máximo CUATRO AÑOS desde la adquisición, salvo que por circunstancias excepcionales sea necesario un periodo mayor.",
+        "Preguntas reales de este capítulo: Navarra 2026, P48 (concurso de proyectos: Jurado compuesto exclusivamente por personas físicas independientes, concurso abierto o restringido y dictamen vinculante; clave A, en el banco como E48-16) y Zizur 2026, P75 (procedimientos que admiten negociación: negociado, negociado sin convocatoria, diálogo competitivo y asociación para la innovación; clave A). En el texto: la invitación del negociado sin convocatoria fija los criterios de negociación (art. 75.2), los pliegos del negociado y del diálogo competitivo también (art. 59.3) y en la asociación para la innovación el órgano negocia las propuestas por fases (arts. 77.3.d y 77.7).",
+        "Art. 89.3: el texto consolidado dice «transcurridas 48 desde la confirmación de la recepción del envío», sin la palabra «horas»; se entiende que son 48 horas."
       ],
       excepciones: [
         "Art. 85.4.a) SUPRIMIDO por la Ley Foral 20/2024, de 26 de diciembre (disposición final segunda), con efectos desde el 1-1-2025: ya no se publica un anuncio simplificado en el DOUE para cada contrato del sistema dinámico de compra.",
@@ -346,7 +405,11 @@ export default {
         "Con una sola oferta en un procedimiento con convocatoria no hay plazo de suspensión (art. 101.2).",
         "Los basados en acuerdo marco y sistema dinámico son eficaces desde la notificación de la adjudicación, sin esperar a la suspensión (art. 101.4).",
         "Sin formalizar no se ejecuta, salvo emergencia, urgencia y contratos cuya única documentación es la factura (art. 101.9).",
-        "Art. 89.3: el texto dice «transcurridas 48 desde la confirmación de la recepción del envío»; se entiende 48 horas, pero la palabra falta en el TXT."
+        "Restringido con menos candidatos aptos que el mínimo de cinco: se puede seguir con los que cumplen, pero sin invitar a quien no pidió participar ni a quien no reúne las condiciones (art. 73.2).",
+        "Negociado sin convocatoria sin concurrencia posible: se motiva en el informe justificativo, no hacen falta Mesa ni Plataforma para recibir la oferta y pueden aprobarse en un único acto el expediente, el gasto y la adjudicación (art. 75.4).",
+        "La Plataforma de Licitación Electrónica no se usa en la menor cuantía ni en los supuestos del art. 75.1 en que por su naturaleza solo puede haber un licitador (art. 95.2).",
+        "Si la propuesta de adjudicación incurre en infracción del ordenamiento, con informe vinculante de la Junta la licitación queda sin efecto, SALVO que la infracción afecte solo al propuesto: entonces se adjudica al siguiente no afectado (art. 100.2).",
+        "La publicación en el Portal es obligatoria en todo caso; solo excepcionalmente, y justificándolo, se omite en los contratos declarados secretos o reservados con medidas de seguridad especiales (art. 88.3, Ley Foral 16/2025)."
       ]
     }
   };

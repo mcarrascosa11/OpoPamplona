@@ -1,7 +1,7 @@
 // Resumen del tema E49. Formato: cabecera de src/data/resumenes.js.
 export default {
     intro:
-      "La Ley Foral 2/2018, de 13 de abril, de Contratos Públicos, regula en el capítulo VI de su Título I (arts. 104-115) la EJECUCIÓN de todos los contratos públicos: riesgo y ventura, obligaciones sociales y condiciones especiales, subcontratación, cesión, informe de ejecución, REVISIÓN DE PRECIOS y MODIFICACIÓN. El Título II (arts. 131-161 bis) añade las normas propias de los contratos que celebran las ADMINISTRACIONES PÚBLICAS: libertad de pactos y condiciones generales, Mesa de Contratación, expedientes (ordinario, anticipado y de emergencia), prerrogativas en la ejecución (interpretación, modificación, penalidades, suspensión), pago del precio y extinción (cumplimiento, recepción, plazo de garantía y resolución). El hilo conductor son los porcentajes sobre el IMPORTE DE ADJUDICACIÓN: 50 % de tope de modificaciones, 10 % de modificación permitida (siempre dentro de los límites del art. 114.1) y de variación de unidades, 20 % de tope de penalidades. Vigencia a la fecha de la convocatoria (BON 21-05-2026): no hay preceptos derogados en este bloque; rige el texto consolidado del BOE (actualizado el 19-03-2026), con el art. 109.1 en la redacción de la Ley Foral 2/2024 y el art. 146 en la de la Ley Foral 35/2022.",
+      "La Ley Foral 2/2018, de 13 de abril, de Contratos Públicos, regula en el capítulo VI de su Título I (arts. 104-115) la EJECUCIÓN de todos los contratos públicos: riesgo y ventura, obligaciones sociales y condiciones especiales, subcontratación, cesión, informe de ejecución, REVISIÓN DE PRECIOS y MODIFICACIÓN. El Título II (arts. 131-161 bis) añade las normas propias de los contratos que celebran las ADMINISTRACIONES PÚBLICAS: libertad de pactos y condiciones generales, Mesa de Contratación, expedientes (ordinario, anticipado y de emergencia), prerrogativas en la ejecución (interpretación, modificación, penalidades, suspensión), pago del precio y extinción (cumplimiento, recepción, plazo de garantía y resolución). El hilo conductor son los porcentajes sobre el IMPORTE DE ADJUDICACIÓN: 50 % de tope de modificaciones, 10 % de modificación permitida (siempre dentro de los límites del art. 114.1) y de variación de unidades, 20 % de tope de penalidades. Vigencia a la fecha de la convocatoria (BON 21-05-2026): ningún precepto del bloque está derogado y no hay cambios posteriores a esa fecha. Rige el texto consolidado del BOE (actualizado el 19-03-2026): arts. 108 bis y 161 bis añadidos y arts. 138, 139.2, 141.2, 152.2 y 158.2 en la redacción de la Ley Foral 17/2021; art. 111.1, en la de la Ley Foral 5/2020; arts. 107.3 y 146, en la de la Ley Foral 35/2022, y art. 109.1, en la de la Ley Foral 2/2024.",
     bloques: [
       {
         h: "Principios de ejecución y condiciones especiales (arts. 104-106)",
@@ -25,7 +25,7 @@ export default {
           "Art. 107.1, párr. 3.º — En obras y en servicios prestados en instalaciones bajo supervisión directa, el contratista comunica, como tarde al iniciar la ejecución, nombre, contacto y representantes de los subcontratistas, y notifica los cambios",
           "Art. 107.2 — Formalizado el contrato, solo cabe subcontratar PRESTACIONES ACCESORIAS si lo prevé el pliego y con: comunicación escrita del subcontrato y autorización expresa; condiciones de pago no más desfavorables que las de la ley o el pliego; declaración del subcontratista de no estar excluido y de respetar como mínimo el convenio sectorial",
           "Art. 107.3 — En caso de demora en el pago, el subcontratista cobra intereses e indemnización por costes de cobro. Si reclama judicial o arbitralmente las facturas vencidas, se RETIENE PROVISIONALMENTE la garantía definitiva hasta que el contratista acredite haberle pagado lo declarado en la resolución firme; mientras tanto, la garantía sigue produciendo todos sus efectos",
-          "Art. 107.4 — El adjudicatario es el ÚNICO RESPONSABLE ante la Administración y el único obligado ante los subcontratistas",
+          "Art. 107.4 — El adjudicatario es el ÚNICO RESPONSABLE ante la Administración y el único obligado ante los subcontratistas (sin perjuicio de los pagos directos del apartado 6)",
           "Art. 107.5 — Subcontratar prestaciones NO PERMITIDAS por el pliego es ILEGAL y da lugar a la RESOLUCIÓN del contrato",
           "Art. 107.6 — Los pliegos pueden prever PAGOS DIRECTOS al subcontratista si se acredita el impago del principal; se entienden hechos por cuenta del contratista y son abonos a buena cuenta",
           "Art. 108.1 — Cesión, solo si las cualidades técnicas o personales del cedente no fueron determinantes de la adjudicación y no implica otras modificaciones sustanciales ni elude la ley: a) por CLÁUSULA INEQUÍVOCA de los pliegos, con al menos el 20 % de la prestación inicial ejecutado, UN AÑO desde el inicio de la ejecución y autorización expresa; b) por SUCESIÓN universal o parcial (fusión, escisión, aportación o transmisión de empresas o ramas) o por CONCURSO del contratista, incluso en fase de liquidación",
@@ -81,7 +81,7 @@ export default {
       {
         h: "Expedientes de contratación (arts. 137-140)",
         nota:
-          "Tres clases de expediente: ORDINARIO, ANTICIPADO y de EMERGENCIA (art. 137). En el simplificado y el negociado sin convocatoria basta el documento de reserva de crédito y no se dicta la resolución de aprobación del expediente.",
+          "Tres clases de expediente: ORDINARIO, ANTICIPADO y de EMERGENCIA (art. 137). En el simplificado y en el negociado sin convocatoria el expediente lleva el documento de RESERVA DE CRÉDITO y no se dicta la resolución que aprueba el expediente y autoriza el gasto (art. 138.3.b y 138.4).",
         items: [
           "Art. 138.1-2 — Todo contrato, salvo los de menor cuantía, va precedido de un expediente que justifica la necesidad. La preparación corresponde a la UNIDAD GESTORA del contrato",
           "Art. 138.3 — Se inicia con un INFORME RAZONADO de la unidad gestora (necesidades, idoneidad del objeto, características y valor estimado, adecuación del precio al mercado, procedimiento, solvencia, criterios de adjudicación y su vinculación, necesidades de los destinatarios). Contiene además: pliegos; documento de RESERVA DE CRÉDITO (en simplificado y negociado sin convocatoria); INFORME JURÍDICO; FISCALIZACIÓN de la Intervención",
@@ -174,7 +174,8 @@ export default {
       "Penalidades: leves ≤ 1 %, graves 1-5 %, muy graves 5-10 % (20 % si condiciones especiales); tope 20 %; > 10 % prohibición de contratar (art. 146)",
       "Demora del contratista: mora automática; 0,40 € por cada 1.000 € diarios o resolución (art. 147)",
       "Pago en 30 días naturales (sanitarias 60); interés BCE + 8 puntos; > 4 meses suspensión; > 8 meses resolución; 40 € de costes de cobro (art. 155)",
-      "Recepción en 15 días; garantía en obras de edificación e ingeniería civil ≥ 3 años; resto ≤ 2 años (arts. 158-159)",
+      "Penalidades: las impone el ÓRGANO DE CONTRATACIÓN (no la Mesa), a propuesta de la unidad gestora y previa audiencia; no excluyen la indemnización (art. 148)",
+      "Recepción en 15 días (obras: el pliego puede ampliarlo hasta 30 días tras la finalización); garantía en las obras de «Construcción general de inmuebles y obras de ingeniería civil» ≥ 3 años; resto ≤ 2 años (arts. 158-159)",
       "Resolución por incumplimiento de condiciones de ejecución: prohibición de contratar de 5 AÑOS (art. 161.4)"
     ],
     memorizacion: {
@@ -210,24 +211,28 @@ export default {
           nota: "Cesión y revisión de precios comparten el «20 % + un año», pero el año se cuenta desde el INICIO DE LA EJECUCIÓN en la cesión y desde la FORMALIZACIÓN en la revisión."
         },
         {
-          titulo: "LF 2/2018: plazos del Título II",
+          titulo: "LF 2/2018: plazos del tema (por orden de artículo)",
           columnas: ["Trámite", "Plazo", "Artículo"],
           filas: [
+            ["Cesión por cláusula del pliego", "1 año desde el INICIO DE LA EJECUCIÓN (y 20 % ejecutado)", "108.1.a"],
+            ["Revisión de precios", "1 año desde la FORMALIZACIÓN (y 20 % ejecutado), salvo suministro de combustibles", "109.1"],
             ["Fecha de referencia de la revisión", "Adjudicación dentro de los 3 meses siguientes al fin del plazo de ofertas", "110.1"],
             ["Audiencia en la modificación", "5 días", "143.1 y 143.3.c"],
             ["Proyecto técnico / expediente de modificación con continuación provisional", "6 meses / 8 meses desde la resolución", "143.3"],
+            ["Suspensión del contrato (con acta) por demora en el pago", "Demora de más de 4 meses", "150.1"],
             ["Anexo del acta de suspensión de obras", "10 días hábiles (excepcionalmente 1 mes)", "150.2"],
             ["Aceptación de bienes o servicios del subcontratista", "Máximo 30 días", "153.3"],
             ["Pago del precio", "30 días naturales (60 en entidades sanitarias)", "155.1-2"],
+            ["Intereses de demora en obras", "Desde el trigésimo día natural tras la expedición de la certificación", "155.3"],
             ["Suspensión por demora en el pago", "Más de 4 meses, avisando con 1 mes", "155.4"],
             ["Resolución por demora en el pago", "Más de 8 meses", "155.5 y 160.1.h"],
             ["Silencio ante la reclamación de pago", "1 mes", "155.7"],
             ["Recepción", "15 días (obras: hasta 30 días tras la finalización si lo dice el pliego)", "158.2"],
-            ["Plazo de garantía", "Obras de edificación e ingeniería civil ≥ 3 años; resto ≤ 2 años", "159.2"],
+            ["Plazo de garantía", "Obras de «Construcción general de inmuebles y obras de ingeniería civil» (anexo I): no inferior a 3 años; resto: no superior a 2 años", "159.2"],
             ["Audiencias en la resolución", "10 días (contratista y demás interesados)", "160.3"],
             ["Prohibición de contratar por incumplir condiciones de ejecución", "5 años", "161.4"]
           ],
-          nota: "Coste fijo de cobro: 40 € (art. 155.6). Interés de demora: tipo del BCE + 8 puntos (art. 155.3)."
+          nota: "Coste fijo de cobro: 40 € (art. 155.6). Interés de demora: tipo del BCE + 8 puntos (art. 155.3). Los «más de 4 meses» de demora en el pago aparecen dos veces: suspensión con acta (art. 150.1) y suspensión del cumplimiento a iniciativa del contratista, avisando con un mes (art. 155.4)."
         },
         {
           titulo: "LF 2/2018: subcontratación frente a cesión",
@@ -241,6 +246,78 @@ export default {
             ["Incumplimiento", "Subcontratar lo no permitido: ilegal y resolución", "—"]
           ],
           nota: "En concurso del contratista, la cesión se ofrece antes a los demás licitadores por su orden (art. 108.2)."
+        },
+        {
+          titulo: "LF 2/2018: quién hace qué en la ejecución",
+          columnas: ["Órgano", "Qué hace en este tema", "Artículos"],
+          filas: [
+            ["Órgano de contratación", "Aprueba el expediente y autoriza el gasto; ordena lo necesario en la emergencia; autoriza la cesión por cláusula; interpreta el contrato; aprueba la modificación y decide la continuación provisional de las obras; aprueba el nuevo programa de trabajo; impone las penalidades; acuerda la suspensión, la invalidez y la resolución", "108.1.a, 138.4, 140.1, 142, 143, 145, 148.2, 150.1, 151.1, 160.3"],
+            ["Unidad gestora del contrato", "Prepara el contrato e inicia el expediente con un informe razonado; supervisa, inspecciona y controla la ejecución y dicta instrucciones; propone la modificación, la continuación provisional y las penalidades; sin Mesa, admite, selecciona y formula la propuesta de adjudicación; un técnico suyo firma el acta de suspensión; emite y publica el informe de correcta ejecución", "108 bis, 135.2, 138.2-3, 141, 143.1, 143.3, 148.2, 150.1"],
+            ["Mesa de Contratación", "Órgano profesional especializado de ASISTENCIA (Presidencia y mínimo 4 vocales); formula la propuesta de adjudicación con el orden de prelación y las puntuaciones. No impone penalidades", "134, 136.1"],
+            ["Director facultativo de la obra", "Redacta la propuesta de modificación en obras y la propuesta técnica motivada de la continuación provisional; firma el acta de suspensión de obras con su anexo", "143.1, 143.3.a, 150.2"],
+            ["Consejo de Navarra", "Dictamen en la interpretación, la modificación y la invalidez, solo si el contratista se opone", "142, 143.1, 151.1"],
+            ["Junta de Contratación Pública", "Arbitraje sobre los precios de las nuevas unidades de obra; informe previo para que los pliegos contradigan las Condiciones Generales", "115.1, 132"],
+            ["Intervención", "Fiscaliza el expediente ordinario y la aprobación posterior de la emergencia; un vocal de la Mesa asume la Intervención", "134.1, 138.3.d, 140.1.b"],
+            ["Servicios jurídicos", "Informe jurídico del expediente; informe de los servicios jurídicos del órgano de contratación en la resolución", "138.3.c, 160.3.c"],
+            ["Representantes de los trabajadores", "Instan la resolución por conflictos laborales o huelga (letra k), salvo el impago de salarios a subrogables de más del 5 %, que permite resolver de oficio", "160.2"],
+            ["Portal de Contratación de Navarra", "Publica el informe de correcta ejecución y, en todo caso, los contratos de emergencia", "108 bis, 140.1.b"]
+          ],
+          nota: "Trampa de examen (Zizur 2026, P76): las penalidades no las impone la Mesa de Contratación, sino el órgano de contratación, a propuesta de la unidad gestora y previa audiencia del contratista (art. 148.2)."
+        },
+        {
+          titulo: "LF 2/2018: causas de resolución (art. 160.1, lista cerrada)",
+          columnas: ["Letra", "Causa", "Matiz"],
+          filas: [
+            ["a", "Muerte o incapacidad sobrevenida del contratista individual o extinción de la personalidad jurídica de la sociedad", "Salvo que se acuerde continuar con herederos o sucesores; en fusión, escisión, aportación o transmisión se subroga la entidad resultante si conserva la solvencia"],
+            ["b", "Declaración de insolvencia; en concurso, apertura de la fase de liquidación", "Salvo que el contratista preste garantías suficientes a juicio de la Administración"],
+            ["c", "Mutuo acuerdo", "Si no concurre otra causa imputable al contratista y razones de interés público hacen innecesaria o inconveniente la permanencia del contrato"],
+            ["d", "Falta de constitución de garantías", "Cuando sean obligatorias"],
+            ["e", "Falta de ejecución en plazo", "Cuando el plazo tenga carácter esencial"],
+            ["f", "Penalidades que alcancen el 20 % del importe de adjudicación", "Aislada o conjuntamente"],
+            ["g", "Incumplimiento de las condiciones especiales de ejecución", "Las del art. 66"],
+            ["h", "Demora en el pago por la Administración durante más de 8 meses", "Cuando lo solicite el contratista"],
+            ["i", "Impago de salarios a los trabajadores del contrato o incumplimiento grave de los convenios colectivos", "Durante la ejecución"],
+            ["j", "Incumplimiento de las restantes obligaciones contractuales esenciales", "—"],
+            ["k", "Conflictos laborales prolongados o huelga mantenida que impidan la correcta ejecución", "A instancia de los representantes de los trabajadores; de oficio si los salarios adeudados a trabajadores subrogables superan el 5 % del precio de adjudicación (160.2)"],
+            ["l", "Las establecidas expresamente en el contrato", "—"],
+            ["m", "Las demás señaladas en la ley foral", "—"]
+          ],
+          nota: "Excepcionalmente puede continuarse el contrato si la resolución causa grave perjuicio al interés público (160.2). Procedimiento (160.3): audiencia del contratista 10 días si es de oficio, audiencia de los demás interesados 10 días (y del avalista o asegurador si se propone incautar la garantía) e informe de los servicios jurídicos. Sin dictamen del Consejo de Navarra."
+        },
+        {
+          titulo: "LF 2/2018: listas cerradas de preparación, revisión y modificación",
+          columnas: ["Lista", "Elementos", "Artículo"],
+          filas: [
+            ["Límites de la libertad de pactos", "Interés público, ordenamiento jurídico y principios de buena administración", "131"],
+            ["Mesa de Contratación", "Presidencia + mínimo 4 vocales: 2 técnicos especializados en la materia, 1 que asume la Intervención y 1 licenciado o graduado en Derecho que ejerce la Secretaría", "134.1"],
+            ["Mesa con normativa específica (el art. 134 es supletorio)", "Parlamento de Navarra, Defensor del Pueblo, Cámara de Comptos, entidades de la Administración Local de Navarra y Universidad Pública de Navarra", "134.2"],
+            ["Clases de expediente", "Ordinaria, anticipada y de emergencia", "137"],
+            ["Expediente ordinario: contenido", "Informe razonado de la unidad gestora + a) pliegos; b) reserva de crédito (simplificado y negociado sin convocatoria); c) informe jurídico; d) fiscalización de la Intervención", "138.3"],
+            ["Emergencia: cuándo", "Acontecimientos catastróficos, situaciones que supongan grave peligro o necesidades que afecten a la seguridad pública", "140.1"],
+            ["Contratos con revisión de precios", "Obras, equipamiento de las Administraciones, suministro de energía y recuperación de la inversión de 5 años o más; el resto, si materias primas, bienes intermedios y energía superan el 20 % del presupuesto base de licitación", "109.1"],
+            ["Costes no revisables", "Amortizaciones, costes financieros, gastos generales o de estructura y beneficio industrial", "109.1"],
+            ["Modificación que afecta al contenido sustancial", "a) habría permitido otros candidatos, otra oferta o más participantes; b) altera el equilibrio económico a favor del contratista; c) amplía considerablemente el ámbito; d) sustituye al contratista fuera de los casos de la ley", "114.2"],
+            ["Supuestos que permiten modificar", "a) circunstancias imprevisibles para una entidad adjudicadora diligente; b) previsión expresa en los pliegos; c) valor inferior al 10 % del importe de adjudicación o del valor de la concesión", "114.3"],
+            ["Prohibido modificar", "a) para subsanar deficiencias de ejecución del contratista; b) para incluir obras, servicios o suministros susceptibles de aprovechamiento independiente", "114.4"],
+            ["Continuación provisional de obras: trámites", "a) propuesta técnica motivada del director facultativo (importe máximo y descripción básica); b) informe de la unidad gestora; c) audiencia al contratista 5 días; d) certificado de crédito, si es necesario; e) decisión motivada del órgano de contratación", "143.3"]
+          ],
+          nota: "La modificación tiene la misma publicidad que la adjudicación (art. 143.2). La continuación provisional exige grave perjuicio para el interés público, importe máximo no superior al 50 % del importe de adjudicación y crédito suficiente."
+        },
+        {
+          titulo: "LF 2/2018: listas cerradas de ejecución, pago y extinción",
+          columnas: ["Lista", "Elementos", "Artículo"],
+          filas: [
+            ["Condiciones especiales de ejecución", "Económicas, de innovación, medioambientales o sociales. Es obligatoria al menos una y se exigen a todos los subcontratistas", "106"],
+            ["Subcontratación posterior de prestaciones accesorias", "a) comunicación escrita y autorización expresa; b) condiciones de pago no más desfavorables que las de la ley o el pliego; c) declaración de no estar excluido y de respetar como mínimo el convenio sectorial", "107.2"],
+            ["Cesión: supuestos", "a) cláusula inequívoca del pliego (20 % + 1 año desde el inicio de la ejecución + autorización expresa); b) sucesión universal o parcial (fusión, escisión, aportación o transmisión de empresas o ramas) o concurso, incluso en liquidación", "108.1"],
+            ["Supuestos de penalidad que prevén los pliegos", "a) incumplimiento parcial; b) ejecución defectuosa; c) condiciones especiales; d) subcontratación (y, en todo caso, impago a subcontratistas acreditado por resolución firme); e) adscripción de medios; f) órdenes de la unidad gestora; g) obligaciones laborales o sociales; h) igualdad; i) cualquier incumplimiento que perjudique", "146.1"],
+            ["Criterios para clasificar los incumplimientos", "Tipo de incumplimiento, grado de negligencia, relevancia económica de los perjuicios y reincidencia", "146.2"],
+            ["Daños de los que responde la Administración", "Los derivados de una orden suya inmediata y directa y los de vicios del proyecto en obras, sin perjuicio de repetir", "149.1"],
+            ["Abonos a cuenta embargables", "a) salarios y cuotas sociales del personal del contrato; b) deudas con subcontratistas y suministradores del contrato (además de lo que digan las normas tributarias y de Seguridad Social)", "152.3"],
+            ["Formas de extinción", "Cumplimiento o resolución", "157"],
+            ["Recepción o conformidad", "Acto formal y positivo en 15 días; suministros: firma del albarán; servicios de prestación continuada: visto bueno de la unidad gestora en la factura; obras y concesión de obras: el pliego puede ampliarlo a 30 días tras la finalización", "158.2"]
+          ],
+          nota: "Penalidades y causa de resolución se encadenan: más del 10 % del importe de adjudicación abre la prohibición de contratar (art. 146.3) y el 20 % es causa de resolución (art. 160.1.f)."
         }
       ],
       datos: [
@@ -250,7 +327,22 @@ export default {
         "Art. 110.2: si la Administración General del Estado ha aprobado fórmulas tipo para un contrato, no puede usarse otra.",
         "Art. 115.1: sin acuerdo sobre los precios de nuevas unidades de obra, el contratista puede pedir arbitraje a la Junta de Contratación Pública.",
         "Art. 155.3: interés de demora = tipo de la más reciente operación principal de refinanciación del BCE antes del semestre + 8 puntos porcentuales.",
-        "Art. 161.4: la prohibición de contratar se declara conforme al art. 22.1.m) de la ley foral."
+        "Art. 161.4: la prohibición de contratar se declara conforme al art. 22.1.m) de la ley foral.",
+        "Vigencia (BON 21-05-2026): ningún precepto del tema está derogado. Redacciones posteriores a 2018: arts. 108 bis y 161 bis (añadidos) y 138, 139.2, 141.2, 152.2 y 158.2 (Ley Foral 17/2021); 111.1 (Ley Foral 5/2020); 107.3 y 146 (Ley Foral 35/2022); 109.1 (Ley Foral 2/2024).",
+        "Art. 106.1: es OBLIGATORIO fijar en el pliego al menos una condición especial de ejecución, vinculada al objeto, no discriminatoria, compatible con el Derecho comunitario e indicada en el anuncio de licitación y en los pliegos.",
+        "Art. 108 bis: informe de correcta ejecución, de oficio, por la unidad gestora a la finalización del contrato; se publica en el Portal de Contratación de Navarra, recoge los porcentajes de cesión y subcontratación y sirve para acreditar la solvencia sin certificado específico.",
+        "Art. 110.1: índices o fórmulas de carácter oficial fijados en el pliego e invariables durante la vigencia del contrato.",
+        "Art. 111.2: en obras y en suministros de fabricación, el coeficiente de revisión se aplica sobre el precio liquidado de la prestación realizada.",
+        "Art. 113: el importe de la revisión se abona o descuenta en las certificaciones o pagos parciales y, excepcionalmente, en la certificación final o en la liquidación.",
+        "Art. 136.2: las propuestas de adjudicación no generan derecho alguno mientras no se apruebe la resolución de adjudicación.",
+        "Art. 139.1: en la tramitación anticipada, los pliegos someten la adjudicación a la condición de que exista crédito adecuado y suficiente en el ejercicio correspondiente.",
+        "Art. 147.2: la constitución en mora del contratista es automática, sin necesidad de intimación previa de la Administración.",
+        "Art. 150.3: acordada la suspensión, la Administración abona al contratista los daños y perjuicios efectivamente sufridos.",
+        "Art. 151.3: si la invalidez produce un grave trastorno al interés público, el contrato puede seguir produciendo efectos, con sus mismas cláusulas, hasta que se adopten las medidas urgentes.",
+        "Art. 155.6: además del interés de demora, 40 € fijos por costes de cobro y una compensación razonable por los costes que superen esos 40 €.",
+        "Art. 156: la cesión del derecho de cobro exige notificación fehaciente; tras la toma de razón, el mandamiento de pago se expide a favor del cesionario.",
+        "Art. 161.3: en la resolución por incumplimiento culpable se incautan las garantías en la cuantía necesaria y, si no bastan, se cobra por los mecanismos de los ingresos de Derecho público.",
+        "Art. 161.5: lo que reste del contrato resuelto puede adjudicarse a quien quedó en segundo lugar y, si renuncia, a los siguientes por su orden de clasificación."
       ],
       excepciones: [
         "En la menor cuantía no hay expediente de contratación (art. 138.1) ni informe de evaluación de la ejecución (art. 108 bis).",
@@ -261,7 +353,23 @@ export default {
         "La Administración responde de los daños a terceros solo si derivan de una orden suya inmediata y directa o de vicios del proyecto en obras (art. 149.1).",
         "Aunque concurra causa de resolución, puede continuarse el contrato si resolverlo perjudica gravemente el interés público (art. 160.2).",
         "Mutuo acuerdo solo si no hay otra causa de resolución imputable al contratista (art. 160.1.c).",
-        "Art. 160.2: el texto refiere la regla de la instancia de los trabajadores a la letra k) (conflictos laborales y huelga), aunque la excepción se formula sobre el impago de salarios (letra i); se reproduce tal cual."
+        "Art. 160.2: el texto refiere la regla de la instancia de los trabajadores a la letra k) (conflictos laborales y huelga), aunque la excepción se formula sobre el impago de salarios (letra i); se reproduce tal cual.",
+        "Revisión en mora: se aplican los índices de las fechas previstas en el contrato, salvo que los del periodo real den un coeficiente INFERIOR (art. 112).",
+        "Fecha de referencia de la revisión: si la adjudicación se produce después de los tres meses siguientes al fin del plazo de ofertas, se toma la fecha en que terminan esos tres meses (art. 110.1).",
+        "No se subcontratan las prestaciones de carácter personalísimo (art. 107.1).",
+        "Pagos directos a subcontratistas: solo si los pliegos los prevén y se acredita el impago del contratista principal; se entienden hechos por cuenta de este (art. 107.6).",
+        "No cabe la cesión si las cualidades técnicas o personales del cedente fueron determinantes de la adjudicación (art. 108.1).",
+        "Concurso del contratista: la apertura de la liquidación es causa de resolución salvo garantías suficientes (art. 160.1.b), pero el contrato puede cederse incluso abierta la fase de liquidación (art. 108.1.b).",
+        "Pliegos que contradigan las Condiciones Generales: solo en supuestos especiales y previo informe de la Junta de Contratación Pública (art. 132).",
+        "Mesa de las entidades de la Administración Local de Navarra: su normativa específica; el art. 134 solo es supletorio (art. 134.2).",
+        "Sin Mesa y sin personal técnico suficiente: informan al menos dos personas que trabajen en la materia o hayan tramitado el expediente (art. 135.1).",
+        "Si el único criterio de adjudicación es el precio, la propuesta solo recoge el importe de las ofertas (art. 136.1).",
+        "Emergencia: sin expediente, sin requisitos formales e incluso sin crédito suficiente; lo que ya no sea de emergencia se contrata por las reglas generales (art. 140).",
+        "Penalidades por demora distintas de 0,40 € por cada 1.000 €: solo si las especiales características del contrato lo hacen necesario y se justifica en el expediente (art. 147.3).",
+        "Unidades nuevas en suministros y servicios: no pueden licitarse por el simplificado si las modificaciones superan el porcentaje del pliego o, en todo caso, el 50 % del precio de adjudicación (art. 115.2).",
+        "Plazo de pago de 60 días naturales en las entidades públicas de asistencia sanitaria (art. 155.2).",
+        "Si el acto de recepción o conformidad no se celebra en plazo por causa imputable al órgano de contratación, se considera celebrado el último día del plazo (art. 155.1).",
+        "Plazo de garantía: puede no fijarse si por la naturaleza del contrato no es necesario, justificándolo en el expediente y consignándolo en el pliego (art. 159.1)."
       ]
     }
   };
