@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { TEMAS_GENERAL, TEMAS_ESP, temaTitulo, esGeneral, temaNum, totalGeneral, totalEsp } from "./data/temas.js";
 import { PREGUNTAS } from "./data/preguntas.js";
+import { REALES, EXAMENES_REALES } from "./data/reales.js";
 import { RESUMENES } from "./data/resumenes.js";
 import { SUPUESTOS } from "./data/supuestos.js";
 import { loadState, saveState, syncDisponible, getCodigo, setCodigo, codigoSeguro, generarCodigoSeguro } from "./lib/storage.js";
@@ -11,6 +12,11 @@ import { TEXTOS_TEMAS } from "./data/textosTemas.js";
 // en cambio, excluye las retiradas tras una auditoría editorial.
 const esPreguntaActiva = (pregunta) => pregunta.estado !== "retirada";
 const PREGUNTAS_ACTIVAS = PREGUNTAS.filter(esPreguntaActiva);
+// Preguntas literales de exámenes reales (src/data/reales.js), con la respuesta oficial.
+const REALES_ACTIVAS = REALES.filter(esPreguntaActiva);
+const TODAS_ACTIVAS = [...PREGUNTAS_ACTIVAS, ...REALES_ACTIVAS];
+const realesDeExamen = (codigo) =>
+  ((EXAMENES_REALES.find((e) => e.codigo === codigo) || {}).preguntas || []).filter(esPreguntaActiva);
 
 /* ---------- TOKENS (tablero de delineación) ---------- */
 // Los valores son variables CSS: cambian solas con el atributo data-theme del <div id="app-wrap">.
@@ -257,6 +263,7 @@ function Inicio({ state, setTab, reload }) {
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(150px,1fr))", gap: 12, margin: "18px 0" }}>
         <Stat n={PREGUNTAS_ACTIVAS.length} label="preguntas activas" />
+        <Stat n={REALES_ACTIVAS.length} label="preguntas de exámenes reales" />
         <Stat n={vistas} label="respondidas" />
         <Stat n={`${pct}%`} label="aciertos brutos" accent={pct >= 70 ? C.ok : pct >= 50 ? C.amber : C.red} />
         <Stat n={`${pctNeto}%`} label="neto (−1/3 por fallo)" accent={pctNeto >= 50 ? C.ok : pctNeto >= 35 ? C.amber : C.red} />
@@ -1338,11 +1345,16 @@ function Test({ state, persist }) {
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
   const [answers, setAnswers] = useState([]); const [confirmFin, setConfirmFin] = useState(false); const [filtroRev, setFiltroRev] = useState("todas");
   const [modo, setModo] = useState("todos"); const [num, setNum] = useState(10);
+  // Origen de las preguntas: banco de estudio, exámenes reales o ambos.
+  const [fuente, setFuente] = useState("banco");
+  const [examenReal, setExamenReal] = useState(EXAMENES_REALES[0].codigo);
+  const BANCO = fuente === "reales" ? REALES_ACTIVAS : fuente === "ambos" ? TODAS_ACTIVAS : PREGUNTAS_ACTIVAS;
+  const tituloExamenReal = (EXAMENES_REALES.find((e) => e.codigo === examenReal) || {}).titulo || "Examen real";
   const temasLeidos = Object.keys(state.leidos || {}).filter(
   (codigo) => state.leidos[codigo]
 );
 
-const preguntasAprendido = PREGUNTAS_ACTIVAS.filter(
+const preguntasAprendido = BANCO.filter(
   (q) => temasLeidos.includes(q.tema)
 );
   const [parteR, setParteR] = useState("E"); const [desde, setDesde] = useState(1); const [hasta, setHasta] = useState(5);
@@ -1350,7 +1362,7 @@ const preguntasAprendido = PREGUNTAS_ACTIVAS.filter(
   const [alcanceFallos, setAlcanceFallos] = useState("recientes");
   const [examen, setExamen] = useState(false); const [tiempoExamen, setTiempoExamen] = useState(90);
   const [segRestantes, setSegRestantes] = useState(0);
-  const temasDisp = [...new Set(PREGUNTAS_ACTIVAS.map((q) => q.tema))];
+  const temasDisp = [...new Set(BANCO.map((q) => q.tema))];
 
   useEffect(() => {
     if (fase !== "run" || !examen) return;
@@ -1368,34 +1380,39 @@ const preguntasAprendido = PREGUNTAS_ACTIVAS.filter(
     const lo = Math.min(desde, hasta), hi = Math.max(desde, hasta);
     return n >= lo && n <= hi;
   };
-  const disponiblesRango = PREGUNTAS_ACTIVAS.filter(enRango).length;
+  const disponiblesRango = BANCO.filter(enRango).length;
   const enTema = (q) => q.tema === `${parteR}${temaUnico}`;
-  const disponiblesTema = PREGUNTAS_ACTIVAS.filter(enTema).length;
+  const disponiblesTema = BANCO.filter(enTema).length;
 
 const iniciar = () => {
-  let base = PREGUNTAS_ACTIVAS;
+  let base = BANCO;
 
   if (modo === "falladas") {
     const ids = alcanceFallos === "recientes"
       ? state.falladas.slice(-100)
       : state.falladas;
 
-    base = PREGUNTAS_ACTIVAS.filter((q) => ids.includes(q.id));
+    base = TODAS_ACTIVAS.filter((q) => ids.includes(q.id));
 
   } else if (modo === "rango") {
-    base = PREGUNTAS_ACTIVAS.filter(enRango);
+    base = BANCO.filter(enRango);
 
   } else if (modo === "tema") {
-    base = PREGUNTAS_ACTIVAS.filter(enTema);
+    base = BANCO.filter(enTema);
 
   } else if (modo === "aprendido") {
     base = preguntasAprendido;
+
+  } else if (modo === "examenreal") {
+    base = realesDeExamen(examenReal);
   }
 
   if (!base.length) return;
 
   const seleccionBase =
-    modo === "aprendido"
+    modo === "examenreal"
+      ? base // el examen entero, en su orden original
+      : modo === "aprendido"
       ? seleccionarAdaptativas(base, state.preguntas, state.falladas, num)
       : shuffle(base).slice(0, Math.min(num, base.length));
 
@@ -1428,6 +1445,7 @@ const iniciar = () => {
     }
     if (modo === "falladas") return `Repasar mis fallos · ${pool.length} preguntas`;
     if (modo === "aprendido") return `Repasar lo aprendido · ${pool.length} preguntas`;
+    if (modo === "examenreal") return `${tituloExamenReal} · ${pool.length} preguntas`;
     return `Todo el banco · ${pool.length} preguntas`;
   };
 
@@ -1457,7 +1475,9 @@ const iniciar = () => {
       ? temasSeleccionados.join(" · ")
       : modo === "rango"
         ? `${letra}${Math.min(...numeros)}–${letra}${Math.max(...numeros)}`
-        : modo === "aprendido"
+        : modo === "examenreal"
+          ? tituloExamenReal
+          : modo === "aprendido"
           ? "Repasar lo aprendido"
           : modo === "falladas"
             ? "Repasar mis fallos"
@@ -1489,7 +1509,7 @@ next.sesiones = [
   const irA = (i) => { if (i >= 0 && i < pool.length) { setIdx(i); setConfirmFin(false); } };
 
   if (fase === "config") {
-    const nF = state.falladas.filter((id) => PREGUNTAS_ACTIVAS.some((q) => q.id === id)).length;
+    const nF = state.falladas.filter((id) => TODAS_ACTIVAS.some((q) => q.id === id)).length;
     const maxTema = parteR === "G" ? totalGeneral : totalEsp;
     const nums = Array.from({ length: maxTema }, (_, i) => i + 1);
     const presets = parteR === "G" ? [[1, 5], [6, 10], [11, 13]] : [[1, 5], [6, 10], [11, 15], [16, 20], [21, 25], [26, 30], [31, 35], [36, 40], [41, 45], [46, 50], [51, 55], [56, 59]];
@@ -1497,13 +1517,14 @@ next.sesiones = [
   (modo === "falladas" && !nF) ||
   (modo === "rango" && !disponiblesRango) ||
   (modo === "tema" && !disponiblesTema) ||
-  (modo === "aprendido" && !preguntasAprendido.length);
+  (modo === "aprendido" && !preguntasAprendido.length) ||
+  (modo === "examenreal" && !realesDeExamen(examenReal).length);
     return (
       <Ficha codigo="1ª PRUEBA · TEST" titulo="Configura la tanda">
         <p style={p}>Cuatro opciones, una válida. Corrección como el examen real: cada fallo resta 1/3; en blanco, ni suma ni resta.</p>
         <Label>Modo</Label>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
-          <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({PREGUNTAS_ACTIVAS.length})</Chip>
+          <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({BANCO.length})</Chip>
           <Chip on={modo === "tema"} onClick={() => setModo("tema")}>Un solo tema</Chip>
           <Chip on={modo === "rango"} onClick={() => setModo("rango")}>Por rango de temas</Chip>
           <Chip
@@ -1514,7 +1535,29 @@ next.sesiones = [
   Repaso inteligente ({temasLeidos.length})
 </Chip>
           <Chip on={modo === "falladas"} onClick={() => setModo("falladas")} disabled={!nF}>Repasar mis fallos ({nF})</Chip>
+          <Chip on={modo === "examenreal"} onClick={() => setModo("examenreal")}>Examen real completo</Chip>
         </div>
+
+        {modo !== "falladas" && modo !== "examenreal" && (
+          <>
+            <Label>Preguntas</Label>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
+              <Chip on={fuente === "banco"} onClick={() => setFuente("banco")}>Banco de estudio ({PREGUNTAS_ACTIVAS.length})</Chip>
+              <Chip on={fuente === "reales"} onClick={() => setFuente("reales")}>De exámenes reales ({REALES_ACTIVAS.length})</Chip>
+              <Chip on={fuente === "ambos"} onClick={() => setFuente("ambos")}>Ambos ({TODAS_ACTIVAS.length})</Chip>
+            </div>
+          </>
+        )}
+
+        {modo === "examenreal" && (
+          <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
+            <Label>Examen</Label>
+            <select value={examenReal} onChange={(e) => setExamenReal(e.target.value)} style={{ ...selectStyle, width: "100%" }}>
+              {EXAMENES_REALES.map((e) => <option key={e.codigo} value={e.codigo}>{e.titulo} ({realesDeExamen(e.codigo).length})</option>)}
+            </select>
+            <p style={{ ...pSmall, marginTop: 10, marginBottom: 0 }}>Preguntas literales del examen, en su orden y con la respuesta de la plantilla oficial. Se quitan las que no son de tu temario, las anuladas, las que han quedado desfasadas por cambios normativos hasta el 21-05-2026 y las pocas cuya respuesta oficial contradice el texto vigente.</p>
+          </div>
+        )}
 
         {modo === "tema" && (
           <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
@@ -1577,10 +1620,14 @@ next.sesiones = [
           </div>
         )}
 
-        <Label>Nº de preguntas</Label>
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 18 }}>
-          {[5, 10, 20, 40, 100].map((n) => <Chip key={n} on={num === n} onClick={() => setNum(n)}>{n}</Chip>)}
-        </div>
+        {modo !== "examenreal" && (
+          <>
+            <Label>Nº de preguntas</Label>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 18 }}>
+              {[5, 10, 20, 40, 100].map((n) => <Chip key={n} on={num === n} onClick={() => setNum(n)}>{n}</Chip>)}
+            </div>
+          </>
+        )}
 
         <Label>Simulacro de examen</Label>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: examen ? 10 : 18 }}>
