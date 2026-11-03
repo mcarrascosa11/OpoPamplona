@@ -477,6 +477,8 @@ export default [
     c: 2,
     exp: "Pregunta real n.º 33 del examen de Arquitecto/a del Ayuntamiento de Noáin (4-1-2022). Respuesta según la plantilla oficial: c. Referencia: LF 17/2020.",
     real: { examen: "NOA22A", n: 33 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema E20: LF 17/2020, art. 85 (Título III, capítulo IV, infracciones y sanciones)",
   },
   {
     id: "R-NOA22A-034",
