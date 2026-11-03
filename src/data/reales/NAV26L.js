@@ -469,6 +469,8 @@ export default [
     c: 1,
     exp: "Pregunta real n.º 51 del examen para listas de Arquitecto/a del Gobierno de Navarra (14-1-2026). Respuesta según la plantilla oficial: b. Referencia: LF 10/2010.",
     real: { examen: "NAV26L", n: 51 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema E14: LF 10/2010, Títulos IX y X (registros de contratos de arrendamiento y de grandes tenedoras de vivienda)",
   },
   {
     id: "R-NAV26L-052",
