@@ -11,7 +11,7 @@
    el 21-05-2026, las anuladas por el tribunal y aquellas cuya respuesta
    oficial contradice el texto vigente («respuesta oficial discutible»).
    Los recuentos de la cabecera de cada archivo son los de la extracción:
-   las 10 «respuesta oficial discutible» se retiraron después de la
+   las 9 «respuesta oficial discutible» se retiraron después de la
    revisión y no están sumadas ahí. Total: 657 preguntas, 510 activas.
    ================================================================== */
 import NAV26 from "./reales/NAV26.js";
