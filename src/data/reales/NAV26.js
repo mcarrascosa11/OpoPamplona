@@ -591,6 +591,8 @@ export default [
     c: 0,
     exp: "Pregunta real n.º 42 del examen de Arquitecto/a del Gobierno de Navarra (7-3-2026). Respuesta según la plantilla oficial: a. Referencia: LF 17/2020 y DF 26/2022.",
     real: { examen: "NAV26", n: 42 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema E20: LF 17/2020, art. 26.4 (Título I, capítulo III, autorización ambiental unificada)",
   },
   {
     id: "R-NAV26-043",
@@ -605,6 +607,8 @@ export default [
     c: 1,
     exp: "Pregunta real n.º 43 del examen de Arquitecto/a del Gobierno de Navarra (7-3-2026). Respuesta según la plantilla oficial: b. Referencia: LF 17/2020, art. 65.1.",
     real: { examen: "NAV26", n: 43 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema E20: LF 17/2020, art. 65 (Título II, inspección y seguimiento)",
   },
   {
     id: "R-NAV26-044",
@@ -819,6 +823,8 @@ export default [
     c: 2,
     exp: "Pregunta real n.º 58 del examen de Arquitecto/a del Gobierno de Navarra (7-3-2026). Respuesta según la plantilla oficial: c. Referencia: CTE DB-SUA, sección SUA 8.",
     real: { examen: "NAV26", n: 58 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema E6: CTE DB-SUA, sección SUA 8 (seguridad frente al riesgo causado por la acción del rayo)",
   },
   {
     id: "R-NAV26-059",
@@ -1386,7 +1392,7 @@ export default [
   },
   {
     id: "R-NAV26-097",
-    tema: "G5",
+    tema: "G6",
     q: "De conformidad con el artículo 46 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, los medios o soportes en que se almacenen documentos deberán contar con medidas de seguridad, de acuerdo con lo previsto en el Esquema Nacional de Seguridad, que garanticen:",
     o: [
       "La compatibilidad, disponibilidad, encriptación, protección y estabilidad de los documentos almacenados.",
@@ -1395,7 +1401,7 @@ export default [
       "La integridad, autenticidad, confidencialidad, accesibilidad, seguridad y recuperación de los documentos almacenados.",
     ],
     c: 2,
-    exp: "Pregunta real n.º 97 del examen de Arquitecto/a del Gobierno de Navarra (7-3-2026). Respuesta según la plantilla oficial: c. Referencia: Ley 40/2015.",
+    exp: "Pregunta real n.º 97 del examen de Arquitecto/a del Gobierno de Navarra (7-3-2026). Respuesta según la plantilla oficial: c. Referencia: Ley 40/2015, art. 46 (igual redacción que la Ley 39/2015, art. 17.3).",
     real: { examen: "NAV26", n: 97 },
   },
   {
