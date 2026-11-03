@@ -464,6 +464,8 @@ export default [
     c: 1,
     exp: "Pregunta real n.º 50 del examen para listas de Arquitecto/a del Gobierno de Navarra (3-10-2020). Respuesta según la plantilla oficial: b. Referencia: DFL 1/2017.",
     real: { examen: "NAV20", n: 50 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema E30: DFL 1/2017, disposición transitoria primera, apartado 2 (municipios sin Plan General Municipal)",
   },
   {
     id: "R-NAV20-051",
