@@ -41,7 +41,8 @@ const normalizarEstado = (s) => {
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 // Las opciones se muestran siempre en su orden original, como en el examen: así cuadran las letras
 // que citan las explicaciones y las opciones «Todas son correctas», «Ninguna…» o «b) y c)».
-const ordenOpciones = () => [0, 1, 2, 3];
+// Algunos exámenes reales tienen tres opciones en vez de cuatro: se muestran las que haya.
+const ordenOpciones = (q) => (q && Array.isArray(q.o) ? q.o.map((_, i) => i) : [0, 1, 2, 3]);
 
 // No modifica el historial: solamente decide qué preguntas merecen volver a
 // aparecer hoy. La prioridad combina el fallo aún pendiente, el rendimiento
@@ -446,7 +447,6 @@ function VistaLectura({ state, persist }) {
   const raizRef = useRef(null);
 
   const [sidebarVisible, setSidebarVisible] = useState(true);
-
   useEffect(() => {
     const onChange = () => {
       const activa = !!document.fullscreenElement;
@@ -1553,9 +1553,13 @@ next.sesiones = [
           <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
             <Label>Examen</Label>
             <select value={examenReal} onChange={(e) => setExamenReal(e.target.value)} style={{ ...selectStyle, width: "100%" }}>
-              {EXAMENES_REALES.map((e) => <option key={e.codigo} value={e.codigo}>{e.titulo} ({realesDeExamen(e.codigo).length})</option>)}
+              {[...new Set(EXAMENES_REALES.map((e) => e.grupo || "Otros"))].map((g) => (
+                <optgroup key={g} label={g === "Navarra" ? "Navarra" : "Otras administraciones (solo normativa estatal del temario)"}>
+                  {EXAMENES_REALES.filter((e) => (e.grupo || "Otros") === g).map((e) => <option key={e.codigo} value={e.codigo}>{e.titulo} ({realesDeExamen(e.codigo).length})</option>)}
+                </optgroup>
+              ))}
             </select>
-            <p style={{ ...pSmall, marginTop: 10, marginBottom: 0 }}>Preguntas literales del examen, en su orden y con la respuesta de la plantilla oficial. Se quitan las que no son de tu temario, las anuladas, las que han quedado desfasadas por cambios normativos hasta el 21-05-2026 y las pocas cuya respuesta oficial contradice el texto vigente.</p>
+            <p style={{ ...pSmall, marginTop: 10, marginBottom: 0 }}>Preguntas literales del examen, en su orden y con la respuesta de la plantilla oficial. Se quitan las que no son de tu temario (en los exámenes de otras comunidades, toda su normativa autonómica y municipal), las anuladas, las que han quedado desfasadas por cambios normativos hasta el 21-05-2026 y las pocas cuya respuesta oficial contradice el texto vigente. Algunos exámenes tienen solo tres opciones por pregunta.</p>
           </div>
         )}
 
