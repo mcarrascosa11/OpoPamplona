@@ -19,6 +19,8 @@ export default [
     c: 3,
     exp: "Pregunta real n.º 2 del examen de Arquitecto/a municipal del Ayuntamiento de Zizur Mayor (31-1-2026). Respuesta según la plantilla oficial: d. Referencia: Ley 7/1985 (LBRL).",
     real: { examen: "ZIZ26", n: 2 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema G3: LBRL, art. 4 (Título I)",
   },
   {
     id: "R-ZIZ26-003",
@@ -28,6 +30,8 @@ export default [
     c: 1,
     exp: "Pregunta real n.º 3 del examen de Arquitecto/a municipal del Ayuntamiento de Zizur Mayor (31-1-2026). Respuesta según la plantilla oficial: b. Referencia: LF 6/1990.",
     real: { examen: "ZIZ26", n: 3 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema G4: LF 6/1990, art. 228 (Título VI, contratación)",
   },
   {
     id: "R-ZIZ26-004",
@@ -37,6 +41,8 @@ export default [
     c: 2,
     exp: "Pregunta real n.º 4 del examen de Arquitecto/a municipal del Ayuntamiento de Zizur Mayor (31-1-2026). Respuesta según la plantilla oficial: c. Referencia: LF 6/1990.",
     real: { examen: "ZIZ26", n: 4 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema G4: LF 6/1990, art. 80 (Título III, capítulo I, funcionamiento de las entidades locales)",
   },
   {
     id: "R-ZIZ26-005",
@@ -46,6 +52,8 @@ export default [
     c: 1,
     exp: "Pregunta real n.º 5 del examen de Arquitecto/a municipal del Ayuntamiento de Zizur Mayor (31-1-2026). Respuesta según la plantilla oficial: b. Referencia: CE.",
     real: { examen: "ZIZ26", n: 5 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema G1: CE, art. 87.1 (Título III)",
   },
   {
     id: "R-ZIZ26-006",
@@ -160,6 +168,8 @@ export default [
     c: 3,
     exp: "Pregunta real n.º 17 del examen de Arquitecto/a municipal del Ayuntamiento de Zizur Mayor (31-1-2026). Respuesta según la plantilla oficial: d. Referencia: Ley 40/2015.",
     real: { examen: "ZIZ26", n: 17 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema G5: Ley 40/2015, art. 38 (Título Preliminar, capítulo V)",
   },
   {
     id: "R-ZIZ26-018",
@@ -912,6 +922,8 @@ export default [
     c: 0,
     exp: "Pregunta real n.º 95 del examen de Arquitecto/a municipal del Ayuntamiento de Zizur Mayor (31-1-2026). Respuesta según la plantilla oficial: a. Referencia: Ley 7/1985 (LBRL).",
     real: { examen: "ZIZ26", n: 95 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema G3: LBRL, art. 26 (Título II, capítulo III, competencias municipales)",
   },
   {
     id: "R-ZIZ26-096",
@@ -921,6 +933,8 @@ export default [
     c: 0,
     exp: "Pregunta real n.º 96 del examen de Arquitecto/a municipal del Ayuntamiento de Zizur Mayor (31-1-2026). Respuesta según la plantilla oficial: a. Referencia: LO 3/2007.",
     real: { examen: "ZIZ26", n: 96 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema G11: LO 3/2007, arts. 20, 22 y 31 (Título II)",
   },
   {
     id: "R-ZIZ26-097",
