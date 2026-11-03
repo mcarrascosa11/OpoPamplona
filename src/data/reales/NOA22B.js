@@ -37,6 +37,8 @@ export default [
     c: 3,
     exp: "Pregunta real n.º 4 del examen de Arquitecto/a del Ayuntamiento de Noáin (Valle de Elorz), lista de contratación temporal, segundo ejercicio (enero de 2022). Respuesta según la plantilla oficial: d. Referencia: Ley 40/2015.",
     real: { examen: "NOA22B", n: 4 },
+    estado: "retirada",
+    motivo: "fuera del alcance del tema G5: Ley 40/2015, art. 38 (Título Preliminar, capítulo V)",
   },
   {
     id: "R-NOA22B-005",
