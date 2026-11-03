@@ -447,6 +447,7 @@ function VistaLectura({ state, persist }) {
   const raizRef = useRef(null);
 
   const [sidebarVisible, setSidebarVisible] = useState(true);
+
   useEffect(() => {
     const onChange = () => {
       const activa = !!document.fullscreenElement;
