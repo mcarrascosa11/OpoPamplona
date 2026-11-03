@@ -10,6 +10,10 @@ push crea un despliegue que ocupa espacio. En octubre de 2026 se llenaron los 10
 pushes en un solo día).
 
 - Agrupa los cambios y haz un solo push al terminar, no uno por commit ni por archivo.
+- Si un cambio necesita varios commits (por ejemplo, varios `push_files` porque no cabe en uno), pon
+  `[skip deploy]` en el mensaje de todos menos el último: `vercel.json` (`ignoreCommand`) hace que Vercel
+  no construya esos commits, y solo el último genera despliegue. Sube primero los datos y al final los
+  archivos que los importan, para que cualquier commit intermedio compile igual.
 - Trabaja en `main` o en una sola rama por cambio. Al fusionarla, borra la rama: mientras exista, Vercel
   conserva su última preview.
 - No crees ramas de prueba, temporales o variantes (`-v2`, `-final`, `-fix`…). Si hace falta conservar algo,
