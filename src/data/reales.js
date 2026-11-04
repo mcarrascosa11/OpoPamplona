@@ -37,6 +37,11 @@ import GC25 from "./reales/GC25.js";
 import EXT24E from "./reales/EXT24E.js";
 import VAL24E from "./reales/VAL24E.js";
 import CAM19 from "./reales/CAM19.js";
+import CLM25 from "./reales/CLM25.js";
+import AND24 from "./reales/AND24.js";
+import AVI24 from "./reales/AVI24.js";
+import EXT22 from "./reales/EXT22.js";
+import MAD18 from "./reales/MAD18.js";
 
 // Primero Navarra y después el resto; dentro de cada grupo, del más reciente al más antiguo.
 export const EXAMENES_REALES = [
@@ -55,10 +60,15 @@ export const EXAMENES_REALES = [
   { codigo: "GRA26", titulo: "Ayuntamiento de Granada · abril 2026", grupo: "Otras administraciones", preguntas: GRA26 },
   { codigo: "VAL26", titulo: "Ayuntamiento de València · marzo 2026", grupo: "Otras administraciones", preguntas: VAL26 },
   { codigo: "UA25", titulo: "Universidad de Alicante · 7-10-2025", grupo: "Otras administraciones", preguntas: UA25 },
+  { codigo: "CLM25", titulo: "Junta de Comunidades de Castilla-La Mancha · 21-9-2025", grupo: "Otras administraciones", preguntas: CLM25 },
   { codigo: "GC25", titulo: "Cabildo de Gran Canaria · 7-4-2025", grupo: "Otras administraciones", preguntas: GC25 },
+  { codigo: "AND24", titulo: "Junta de Andalucía · 9-11-2024", grupo: "Otras administraciones", preguntas: AND24 },
   { codigo: "EXT24E", titulo: "Junta de Extremadura · Estabilización · 13-7-2024", grupo: "Otras administraciones", preguntas: EXT24E },
   { codigo: "VAL24E", titulo: "Ayuntamiento de València · Estabilización · 22-6-2024", grupo: "Otras administraciones", preguntas: VAL24E },
+  { codigo: "AVI24", titulo: "Ayuntamiento de Ávila · 29-2-2024", grupo: "Otras administraciones", preguntas: AVI24 },
+  { codigo: "EXT22", titulo: "Junta de Extremadura · 28-5-2022", grupo: "Otras administraciones", preguntas: EXT22 },
   { codigo: "CAM19", titulo: "Comunidad de Madrid · 18-5-2019", grupo: "Otras administraciones", preguntas: CAM19 },
+  { codigo: "MAD18", titulo: "Ayuntamiento de Madrid · 30-6-2018", grupo: "Otras administraciones", preguntas: MAD18 },
 ];
 
 export const REALES = EXAMENES_REALES.flatMap((e) => e.preguntas);
