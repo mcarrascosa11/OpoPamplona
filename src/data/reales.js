@@ -42,6 +42,8 @@ import AND24 from "./reales/AND24.js";
 import AVI24 from "./reales/AVI24.js";
 import EXT22 from "./reales/EXT22.js";
 import MAD18 from "./reales/MAD18.js";
+import EST22 from "./reales/EST22.js";
+import ZAR25 from "./reales/ZAR25.js";
 
 // Primero Navarra y después el resto; dentro de cada grupo, del más reciente al más antiguo.
 export const EXAMENES_REALES = [
@@ -50,6 +52,7 @@ export const EXAMENES_REALES = [
   { codigo: "NAV26L", titulo: "Gobierno de Navarra · Listas · 14-1-2026", grupo: "Navarra", preguntas: NAV26L },
   { codigo: "NAV23", titulo: "Gobierno de Navarra · Concurso-oposición · 30-9-2023", grupo: "Navarra", preguntas: NAV23 },
   { codigo: "NAV22", titulo: "Gobierno de Navarra · Oposición · 30-4-2022", grupo: "Navarra", preguntas: NAV22 },
+  { codigo: "EST22", titulo: "Ayuntamiento de Estella-Lizarra · 22-4-2022", grupo: "Navarra", preguntas: EST22 },
   { codigo: "NOA22B", titulo: "Ayuntamiento de Noáin · 2º ejercicio · enero 2022", grupo: "Navarra", preguntas: NOA22B },
   { codigo: "NOA22A", titulo: "Ayuntamiento de Noáin · 1er ejercicio · 4-1-2022", grupo: "Navarra", preguntas: NOA22A },
   { codigo: "NAV20", titulo: "Gobierno de Navarra · Listas · 3-10-2020", grupo: "Navarra", preguntas: NAV20 },
@@ -59,6 +62,7 @@ export const EXAMENES_REALES = [
   { codigo: "CYL26", titulo: "Junta de Castilla y León · 16-5-2026", grupo: "Otras administraciones", preguntas: CYL26 },
   { codigo: "GRA26", titulo: "Ayuntamiento de Granada · abril 2026", grupo: "Otras administraciones", preguntas: GRA26 },
   { codigo: "VAL26", titulo: "Ayuntamiento de València · marzo 2026", grupo: "Otras administraciones", preguntas: VAL26 },
+  { codigo: "ZAR25", titulo: "Ayuntamiento de Zaragoza · 18-12-2025", grupo: "Otras administraciones", preguntas: ZAR25 },
   { codigo: "UA25", titulo: "Universidad de Alicante · 7-10-2025", grupo: "Otras administraciones", preguntas: UA25 },
   { codigo: "CLM25", titulo: "Junta de Comunidades de Castilla-La Mancha · 21-9-2025", grupo: "Otras administraciones", preguntas: CLM25 },
   { codigo: "GC25", titulo: "Cabildo de Gran Canaria · 7-4-2025", grupo: "Otras administraciones", preguntas: GC25 },
