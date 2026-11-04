@@ -16,7 +16,9 @@
    ciudades va retirada («fuera del temario de Pamplona»). En todos los
    exámenes, las preguntas de una norma del temario pero de una parte
    que el alcance oficial excluye van retiradas («fuera del alcance del
-   tema …»). Los recuentos de la cabecera de cada archivo pueden no
+   tema …»). Los exámenes de arquitecto/a técnico/a de Navarra van en su
+   propio grupo y solo dejan activas las preguntas del temario de
+   Arquitecto de Pamplona (incluida la normativa foral). Los recuentos de la cabecera de cada archivo pueden no
    reflejar las retiradas añadidas en revisiones posteriores.
    ================================================================== */
 import NAV26 from "./reales/NAV26.js";
@@ -44,8 +46,12 @@ import EXT22 from "./reales/EXT22.js";
 import MAD18 from "./reales/MAD18.js";
 import EST22 from "./reales/EST22.js";
 import ZAR25 from "./reales/ZAR25.js";
+import ATNAV25 from "./reales/ATNAV25.js";
+import ATUPNA25 from "./reales/ATUPNA25.js";
+import ATNAV23 from "./reales/ATNAV23.js";
+import ATNAV20 from "./reales/ATNAV20.js";
 
-// Primero Navarra y después el resto; dentro de cada grupo, del más reciente al más antiguo.
+// Primero Navarra, después los de arquitecto técnico de Navarra y al final el resto; dentro de cada grupo, del más reciente al más antiguo.
 export const EXAMENES_REALES = [
   { codigo: "NAV26", titulo: "Gobierno de Navarra · Oposición · 7-3-2026", grupo: "Navarra", preguntas: NAV26 },
   { codigo: "ZIZ26", titulo: "Ayuntamiento de Zizur Mayor · 31-1-2026", grupo: "Navarra", preguntas: ZIZ26 },
@@ -56,6 +62,11 @@ export const EXAMENES_REALES = [
   { codigo: "NOA22B", titulo: "Ayuntamiento de Noáin · 2º ejercicio · enero 2022", grupo: "Navarra", preguntas: NOA22B },
   { codigo: "NOA22A", titulo: "Ayuntamiento de Noáin · 1er ejercicio · 4-1-2022", grupo: "Navarra", preguntas: NOA22A },
   { codigo: "NAV20", titulo: "Gobierno de Navarra · Listas · 3-10-2020", grupo: "Navarra", preguntas: NAV20 },
+  // Arquitecto/a técnico/a (nivel B) en Navarra: solo las preguntas del temario de Arquitecto de Pamplona.
+  { codigo: "ATNAV25", titulo: "Gobierno de Navarra · Arq. técnico · 27-9-2025", grupo: "Navarra · Arquitecto técnico", preguntas: ATNAV25 },
+  { codigo: "ATUPNA25", titulo: "Universidad Pública de Navarra · Arq. técnico · 2025", grupo: "Navarra · Arquitecto técnico", preguntas: ATUPNA25 },
+  { codigo: "ATNAV23", titulo: "Gobierno de Navarra · Arq. técnico · 28-10-2023", grupo: "Navarra · Arquitecto técnico", preguntas: ATNAV23 },
+  { codigo: "ATNAV20", titulo: "Gobierno de Navarra · Arq. técnico · 26-9-2020", grupo: "Navarra · Arquitecto técnico", preguntas: ATNAV20 },
   // Fuera de Navarra: solo normativa estatal del temario de Pamplona.
   { codigo: "MEL26", titulo: "Ciudad Autónoma de Melilla · 7-10-2026", grupo: "Otras administraciones", preguntas: MEL26 },
   { codigo: "CAS26", titulo: "Ayuntamiento de Caspe · septiembre 2026", grupo: "Otras administraciones", preguntas: CAS26 },

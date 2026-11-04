@@ -1555,7 +1555,7 @@ next.sesiones = [
             <Label>Examen</Label>
             <select value={examenReal} onChange={(e) => setExamenReal(e.target.value)} style={{ ...selectStyle, width: "100%" }}>
               {[...new Set(EXAMENES_REALES.map((e) => e.grupo || "Otros"))].map((g) => (
-                <optgroup key={g} label={g === "Navarra" ? "Navarra" : "Otras administraciones (solo normativa estatal del temario)"}>
+                <optgroup key={g} label={g === "Navarra" ? "Navarra" : g === "Navarra · Arquitecto técnico" ? "Navarra · Arquitecto/a técnico/a (solo lo del temario de Pamplona)" : "Otras administraciones (solo normativa estatal del temario)"}>
                   {EXAMENES_REALES.filter((e) => (e.grupo || "Otros") === g).map((e) => <option key={e.codigo} value={e.codigo}>{e.titulo} ({realesDeExamen(e.codigo).length})</option>)}
                 </optgroup>
               ))}
