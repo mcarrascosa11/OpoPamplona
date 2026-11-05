@@ -7,6 +7,8 @@ import { SUPUESTOS } from "./data/supuestos.js";
 import { loadState, saveState, syncDisponible, getCodigo, setCodigo, codigoSeguro, generarCodigoSeguro } from "./lib/storage.js";
 import { supabase } from "./lib/supabase.js";
 import { TEXTOS_TEMAS } from "./data/textosTemas.js";
+import { REPARTO_PAMPLONA, BLOQUES_SEMANA, bloqueDelDia, pesoBloque } from "./data/reparto.js";
+import { siguienteRepaso, preguntasVencidas, resumenCajas, NIVELES_SEGURIDAD, consejoSeguridad } from "./lib/repaso.js";
 
 // El historial conserva todas las preguntas contestadas. El banco de estudio,
 // en cambio, excluye las retiradas tras una auditoría editorial.
@@ -28,16 +30,26 @@ const INK_FIJA = "#1C1B19"; // texto sobre subrayados: siempre oscuro, el fondo 
 const MONO = "ui-monospace, 'SF Mono', 'Cascadia Mono', 'Roboto Mono', Menlo, Consolas, monospace";
 const SANS = "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
 
-const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: [], leidos: {}, preguntas: {}, notasResumen: {} });
-// Compatibilidad con estados guardados antes de introducir preguntas o notasResumen.
+const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: [], leidos: {}, preguntas: {}, notasResumen: {}, confianza: {} });
+// Compatibilidad con estados guardados antes de introducir preguntas, notasResumen o confianza.
 const normalizarEstado = (s) => {
   const base = s || defaultState();
   return {
     ...base,
+    temas: base.temas || {},
+    falladas: base.falladas || [],
+    sesiones: base.sesiones || [],
     preguntas: base.preguntas || {},
     notasResumen: base.notasResumen || {},
+    confianza: base.confianza || {},
   };
 };
+// Orden del temario (G1–G13 y después E1–E59), como van las preguntas en el examen.
+const ordenTema = (t) => (t[0] === "G" ? 0 : 100) + (parseInt(t.slice(1), 10) || 0);
+// Netas con el criterio del examen: cada fallo resta 1/3.
+const netasDe = (s) => (s.aciertos || 0) - (s.fallos || 0) / 3;
+const fmtNum = (x, d = 1) => x.toFixed(d).replace(".", ",");
+const TITULO_SIMULACRO_PAMPLONA = "Simulacro Pamplona";
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 // Las opciones se muestran siempre en su orden original, como en el examen: así cuadran las letras
 // que citan las explicaciones y las opciones «Todas son correctas», «Ninguna…» o «b) y c)».
@@ -47,7 +59,7 @@ const ordenOpciones = (q) => (q && Array.isArray(q.o) ? q.o.map((_, i) => i) : [
 // No modifica el historial: solamente decide qué preguntas merecen volver a
 // aparecer hoy. La prioridad combina el fallo aún pendiente, el rendimiento
 // histórico y el tiempo transcurrido desde la última vez que se vio.
-const seleccionarAdaptativas = (preguntas, historial, falladas, cantidad) => {
+const seleccionarAdaptativas = (preguntas, historial, falladas, cantidad, pesoTema = null) => {
   const ahora = Date.now();
   const pendientes = new Set(falladas || []);
   const ponderadas = preguntas.map((q) => {
@@ -74,6 +86,8 @@ const seleccionarAdaptativas = (preguntas, historial, falladas, cantidad) => {
     // Muchos aciertos no expulsan una pregunta: solo evitan que desplace a
     // una laguna real por el mero hecho de haber aparecido muchas veces.
     peso -= Math.min(0.8, aciertos * 0.08);
+    // Opcional: más peso para los temas que más caen en el examen.
+    if (pesoTema) peso *= pesoTema(q.tema);
 
     return { q, peso: Math.max(0.2, peso) };
   });
@@ -185,6 +199,31 @@ function Header({ tab, setTab, saving, darkMode, toggleDark }) {
 }
 
 /* ---------- INICIO + sincronización ---------- */
+// Lo que toca hoy según la semana tipo del plan de estudio.
+function HoyToca({ state, setTab }) {
+  const hoy = new Date();
+  const dia = hoy.getDay();
+  const bloque = bloqueDelDia(hoy);
+  const vencidas = preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas).length;
+  const simulacros = (state.sesiones || []).filter((s) => s.titulo === TITULO_SIMULACRO_PAMPLONA).slice(-6);
+  const titulo = bloque ? `${bloque.nombre} · ${bloque.titulo}` : dia === 6 ? "Sábado · Simulacro Pamplona" : "Domingo · Día libre";
+  return (
+    <Ficha codigo="HOY TOCA" titulo={titulo}>
+      {bloque && (
+        <p style={p}>Sesión de hoy: primero los <b>{vencidas}</b> fallos que vuelven hoy y después preguntas de {bloque.detalle}, unas {pesoBloque(bloque)} de 100 en el examen. Corrige cada fallo leyendo el artículo y apunta la regla en una línea.</p>
+      )}
+      {dia === 6 && <p style={p}>Simulacro de 100 con el reparto de Pamplona, a 100 minutos y marcando la seguridad. Después, 20 minutos para mirar los fallos.</p>}
+      {dia === 0 && <p style={p}>Descanso. Mañana vuelven {vencidas} fallos{vencidas ? " como mínimo" : ""}.</p>}
+      {simulacros.length > 0 && (
+        <p style={{ ...pSmall, fontFamily: MONO }}>
+          Simulacros Pamplona (netas): {simulacros.map((s) => fmtNum(netasDe(s))).join(" · ")} · corte 50 · objetivo 60–70
+        </p>
+      )}
+      {dia !== 0 && <button className="cta" style={ctaPrimary} onClick={() => setTab("test")}>{dia === 6 ? "Empezar el simulacro →" : "Empezar la sesión de hoy →"}</button>}
+    </Ficha>
+  );
+}
+
 function Inicio({ state, setTab, reload }) {
   const [codigo, setCod] = useState(getCodigo());
   const [backupMsg, setBackupMsg] = useState(null); // { ok, texto }
@@ -257,6 +296,7 @@ function Inicio({ state, setTab, reload }) {
 
   return (
     <div>
+      <HoyToca state={state} setTab={setTab} />
       <Ficha codigo="PLAN DE ATAQUE" titulo="Cómo se gana esta plaza">
         <p style={p}>Dos pruebas eliminatorias. La <b>1ª</b> (test, 100 preguntas, 30 pts, penaliza 1/3) solo te deja competir: basta superar 15. La <b>2ª</b> (supuestos, 70 pts, mínimo 35) decide la plaza y rompe los empates. <b>Las horas, en la 2ª.</b></p>
         <p style={p}>Sin consulta de textos en ninguna prueba: hay que llevar artículos, plazos y umbrales memorizados. Por eso el test cita el artículo en cada explicación.</p>
@@ -1345,7 +1385,14 @@ function Test({ state, persist }) {
   const [pool, setPool] = useState([]); const [idx, setIdx] = useState(0);
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
   const [answers, setAnswers] = useState([]); const [confirmFin, setConfirmFin] = useState(false); const [filtroRev, setFiltroRev] = useState("todas");
-  const [modo, setModo] = useState("todos"); const [num, setNum] = useState(10);
+  // Por defecto, lo que toca según el plan: el sábado el simulacro Pamplona y el resto de días la sesión de hoy.
+  const esSabado = new Date().getDay() === 6;
+  const [modo, setModo] = useState(esSabado ? "pamplona" : "hoy"); const [num, setNum] = useState(10);
+  const [bloqueSel, setBloqueSel] = useState(() => (bloqueDelDia() || BLOQUES_SEMANA[0]).dia);
+  const [numHoy, setNumHoy] = useState(45);
+  // Seguridad de cada respuesta (seguro / dudo / a ciegas), en paralelo a answers.
+  const [conSeguridad, setConSeguridad] = useState(esSabado);
+  const [conf, setConf] = useState([]);
   // Origen de las preguntas: banco de estudio, exámenes reales o ambos.
   const [fuente, setFuente] = useState("banco");
   const [examenReal, setExamenReal] = useState(EXAMENES_REALES[0].codigo);
@@ -1361,7 +1408,17 @@ const preguntasAprendido = BANCO.filter(
   const [parteR, setParteR] = useState("E"); const [desde, setDesde] = useState(1); const [hasta, setHasta] = useState(5);
   const [temaUnico, setTemaUnico] = useState(1);
   const [alcanceFallos, setAlcanceFallos] = useState("recientes");
-  const [examen, setExamen] = useState(false); const [tiempoExamen, setTiempoExamen] = useState(90);
+  const [examen, setExamen] = useState(esSabado); const [tiempoExamen, setTiempoExamen] = useState(esSabado ? 100 : 90);
+  const bloque = BLOQUES_SEMANA.find((b) => b.dia === bloqueSel) || BLOQUES_SEMANA[0];
+  const vencidasHoy = useMemo(
+    () => preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas),
+    [state.preguntas, state.falladas]
+  );
+  const elegirModo = (m) => {
+    setModo(m);
+    if (m === "pamplona") { setExamen(true); setTiempoExamen(100); setConSeguridad(true); }
+  };
+  const marcarConf = (i, v) => setConf((prev) => { const n = [...prev]; n[i] = v; return n; });
   const [segRestantes, setSegRestantes] = useState(0);
   const temasDisp = [...new Set(BANCO.map((q) => q.tema))];
 
@@ -1385,8 +1442,42 @@ const preguntasAprendido = BANCO.filter(
   const enTema = (q) => q.tema === `${parteR}${temaUnico}`;
   const disponiblesTema = BANCO.filter(enTema).length;
 
+// Sesión de hoy: primero los fallos que vuelven hoy (hasta el 60 % de la tanda) y después
+// preguntas del bloque del día, con más peso para lo no visto, lo fallado y los temas que más caen.
+const seleccionHoy = () => {
+  const cupo = Math.min(vencidasHoy.length, Math.round(numHoy * 0.6));
+  const repaso = vencidasHoy.slice(0, cupo);
+  const usados = new Set(repaso.map((q) => q.id));
+  const delBloque = TODAS_ACTIVAS.filter((q) => bloque.temas.includes(q.tema) && !usados.has(q.id));
+  const nuevas = seleccionarAdaptativas(delBloque, state.preguntas, state.falladas, numHoy - repaso.length,
+    (t) => 0.5 + (REPARTO_PAMPLONA[t] || 0) / 4);
+  return [...shuffle(repaso), ...nuevas];
+};
+
+// Simulacro Pamplona: 100 preguntas con el reparto estimado por tema. Para medir el nivel
+// sin inflarlo, se eligen primero las que no has visto; van en el orden del temario.
+const seleccionPamplona = () => {
+  const historial = state.preguntas || {};
+  const elegir = (lista, n) => shuffle(lista)
+    .map((q) => ({ q, vista: (historial[q.id]?.vistas || 0) > 0 ? 1 : 0 }))
+    .sort((x, y) => x.vista - y.vista)
+    .slice(0, n)
+    .map((x) => x.q);
+  const elegidas = [];
+  for (const [t, n] of Object.entries(REPARTO_PAMPLONA)) {
+    if (!n) continue;
+    elegidas.push(...elegir(TODAS_ACTIVAS.filter((q) => q.tema === t), n));
+  }
+  if (elegidas.length < 100) {
+    const usados = new Set(elegidas.map((q) => q.id));
+    elegidas.push(...elegir(TODAS_ACTIVAS.filter((q) => !usados.has(q.id) && (REPARTO_PAMPLONA[q.tema] || 0) > 0), 100 - elegidas.length));
+  }
+  return elegidas.sort((a, b) => ordenTema(a.tema) - ordenTema(b.tema));
+};
+
 const iniciar = () => {
   let base = BANCO;
+  const especial = modo === "hoy" ? seleccionHoy() : modo === "pamplona" ? seleccionPamplona() : null;
 
   if (modo === "falladas") {
     const ids = alcanceFallos === "recientes"
@@ -1408,9 +1499,9 @@ const iniciar = () => {
     base = realesDeExamen(examenReal);
   }
 
-  if (!base.length) return;
+  if (especial ? !especial.length : !base.length) return;
 
-  const seleccionBase =
+  const seleccionBase = especial ? especial :
     modo === "examenreal"
       ? base // el examen entero, en su orden original
       : modo === "aprendido"
@@ -1425,6 +1516,7 @@ const iniciar = () => {
     setPool(seleccion);
     setIdx(0); setSel(null); setShown(false);
     setAnswers(new Array(seleccion.length).fill(null));
+    setConf(new Array(seleccion.length).fill(null));
     setConfirmFin(false); setFiltroRev("todas");
     if (examen) setSegRestantes(tiempoExamen * 60);
     setFase("run");
@@ -1439,6 +1531,8 @@ const iniciar = () => {
   }));
 
   const tituloTanda = () => {
+    if (modo === "hoy") return `Sesión de hoy · ${bloque.titulo} · ${pool.length} preguntas`;
+    if (modo === "pamplona") return `${TITULO_SIMULACRO_PAMPLONA} · ${pool.length} preguntas`;
     if (modo === "tema") return `${parteR}${temaUnico} · ${pool.length} preguntas`;
     if (modo === "rango") {
       const lo = Math.min(desde, hasta), hi = Math.max(desde, hasta);
@@ -1459,20 +1553,40 @@ const iniciar = () => {
       else if (!r.blank) { t.fallos += 1; next.falladas = [...next.falladas.filter((x) => x !== r.id), r.id]; }
       next.temas[r.tema] = t;
       const pq = next.preguntas[r.id] || { vistas: 0, aciertos: 0, fallos: 0, ultima: null };
+      const repaso = siguienteRepaso(pq, r.ok ? "ok" : r.blank ? "blanco" : "fallo");
       next.preguntas[r.id] = {
+        ...pq,
         vistas: (pq.vistas || 0) + 1,
         aciertos: (pq.aciertos || 0) + (r.ok ? 1 : 0),
         fallos: (pq.fallos || 0) + (!r.ok && !r.blank ? 1 : 0),
         ultima: Date.now(),
+        caja: repaso.caja,
+        proxima: repaso.proxima,
       };
     });
+    // Seguridad: aciertos y fallos según lo seguro que ibas (los blancos no cuentan).
+    const confianza = { ...(state.confianza || {}) };
+    const seguridadTanda = {};
+    rs.forEach((r, i) => {
+      const nivel = conf[i];
+      if (!nivel || r.blank) return;
+      const acum = confianza[nivel] || { aciertos: 0, fallos: 0 };
+      confianza[nivel] = { aciertos: acum.aciertos + (r.ok ? 1 : 0), fallos: acum.fallos + (r.ok ? 0 : 1) };
+      const tanda = seguridadTanda[nivel] || { aciertos: 0, fallos: 0 };
+      seguridadTanda[nivel] = { aciertos: tanda.aciertos + (r.ok ? 1 : 0), fallos: tanda.fallos + (r.ok ? 0 : 1) };
+    });
+    next.confianza = confianza;
     const a = rs.filter((r) => r.ok).length, f = rs.filter((r) => !r.ok && !r.blank).length, b = rs.filter((r) => r.blank).length;
     // Temas reales que han salido en esta tanda (por si el pool mezcla varios)
     const temasSeleccionados = [...new Set(pool.map((q) => q.tema))];
     const numeros = temasSeleccionados.map((t) => parseInt(t.replace(/\D/g, ""), 10));
     const letra = (temasSeleccionados[0] || "E")[0];
 
-    const titulo = modo === "tema"
+    const titulo = modo === "hoy"
+      ? `Sesión de hoy · ${bloque.titulo}`
+      : modo === "pamplona"
+      ? TITULO_SIMULACRO_PAMPLONA
+      : modo === "tema"
       ? temasSeleccionados.join(" · ")
       : modo === "rango"
         ? `${letra}${Math.min(...numeros)}–${letra}${Math.max(...numeros)}`
@@ -1493,9 +1607,10 @@ next.sesiones = [
     fallos: f,
     blancos: b,
     examen,
-    titulo
+    titulo,
+    ...(Object.keys(seguridadTanda).length ? { seguridad: seguridadTanda } : {})
   }
-].slice(-30);
+].slice(-60);
     await persist(next);
     setConfirmFin(false);
     setFase("fin");
@@ -1508,6 +1623,16 @@ next.sesiones = [
 
   // ── Modo examen: sin corrección hasta el final, navegación libre ──
   const irA = (i) => { if (i >= 0 && i < pool.length) { setIdx(i); setConfirmFin(false); } };
+
+  // Botones de seguridad bajo las opciones (solo si se ha elegido marcarla).
+  const chipsSeguridad = (i, bloqueado) => (conSeguridad ? (
+    <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", margin: "-4px 0 14px" }}>
+      <span style={{ ...pSmall, margin: 0 }}>¿Cómo de seguro?</span>
+      {NIVELES_SEGURIDAD.map((n) => (
+        <Chip key={n.id} on={conf[i] === n.id} disabled={bloqueado} onClick={() => marcarConf(i, conf[i] === n.id ? null : n.id)}>{n.nombre}</Chip>
+      ))}
+    </div>
+  ) : null);
 
   if (fase === "config") {
     const nF = state.falladas.filter((id) => TODAS_ACTIVAS.some((q) => q.id === id)).length;
@@ -1524,6 +1649,10 @@ next.sesiones = [
       <Ficha codigo="1ª PRUEBA · TEST" titulo="Configura la tanda">
         <p style={p}>Cuatro opciones, una válida. Corrección como el examen real: cada fallo resta 1/3; en blanco, ni suma ni resta.</p>
         <Label>Modo</Label>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 10 }}>
+          <Chip on={modo === "hoy"} onClick={() => elegirModo("hoy")}>Sesión de hoy{vencidasHoy.length ? ` (${vencidasHoy.length} fallos vuelven hoy)` : ""}</Chip>
+          <Chip on={modo === "pamplona"} onClick={() => elegirModo("pamplona")}>Simulacro Pamplona (100)</Chip>
+        </div>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
           <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({BANCO.length})</Chip>
           <Chip on={modo === "tema"} onClick={() => setModo("tema")}>Un solo tema</Chip>
@@ -1539,7 +1668,29 @@ next.sesiones = [
           <Chip on={modo === "examenreal"} onClick={() => setModo("examenreal")}>Examen real completo</Chip>
         </div>
 
-        {modo !== "falladas" && modo !== "examenreal" && (
+        {modo === "hoy" && (
+          <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
+            <Label>Bloque del día</Label>
+            <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 10 }}>
+              {BLOQUES_SEMANA.map((b) => (
+                <Chip key={b.dia} on={bloqueSel === b.dia} onClick={() => setBloqueSel(b.dia)}>{b.nombre} · {b.titulo}</Chip>
+              ))}
+            </div>
+            <p style={{ ...pSmall, margin: 0 }}>
+              {new Date().getDay() === 6 ? "Hoy es sábado: según el plan toca el simulacro Pamplona. " : new Date().getDay() === 0 ? "Hoy es domingo, día libre en el plan. " : ""}
+              Primero van los fallos que vuelven hoy ({vencidasHoy.length}; como mucho, el 60 % de la sesión). El resto son preguntas de {bloque.titulo} ({bloque.detalle}), unas {pesoBloque(bloque)} de 100 en el examen: primero las que no has visto y las que fallas, con más peso para los temas que más caen.
+            </p>
+          </div>
+        )}
+
+        {modo === "pamplona" && (
+          <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
+            <Label>Simulacro con el reparto de Pamplona</Label>
+            <p style={{ ...pSmall, margin: 0 }}>100 preguntas repartidas por tema según el examen estimado de Pamplona (por ejemplo, 10 de E29 y 4 de E53). Salen primero las que no has visto, de exámenes reales y del banco, en el orden del temario como en el examen. Lo recomendado: cronometrado a 100 minutos y marcando la seguridad de cada respuesta.</p>
+          </div>
+        )}
+
+        {modo !== "falladas" && modo !== "examenreal" && modo !== "hoy" && modo !== "pamplona" && (
           <>
             <Label>Preguntas</Label>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
@@ -1625,7 +1776,15 @@ next.sesiones = [
           </div>
         )}
 
-        {modo !== "examenreal" && (
+        {modo === "hoy" && (
+          <>
+            <Label>Tamaño de la sesión</Label>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 18 }}>
+              {[[30, "Corta · 30"], [45, "Normal · 45"], [60, "Larga · 60"]].map(([n, t]) => <Chip key={n} on={numHoy === n} onClick={() => setNumHoy(n)}>{t}</Chip>)}
+            </div>
+          </>
+        )}
+        {modo !== "examenreal" && modo !== "hoy" && modo !== "pamplona" && (
           <>
             <Label>Nº de preguntas</Label>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 18 }}>
@@ -1643,11 +1802,18 @@ next.sesiones = [
           <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 18, background: C.paper }}>
             <Label>Tiempo del simulacro</Label>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-              {[30, 60, 90, 120].map((m) => <Chip key={m} on={tiempoExamen === m} onClick={() => setTiempoExamen(m)}>{m} min</Chip>)}
+              {[30, 60, 90, 100, 120].map((m) => <Chip key={m} on={tiempoExamen === m} onClick={() => setTiempoExamen(m)}>{m} min</Chip>)}
             </div>
             <p style={{ ...pSmall, marginTop: 10, marginBottom: 0 }}>Como en el examen real: puedes moverte libremente entre preguntas y cambiar lo marcado hasta que finalices. No se corrige nada sobre la marcha; las respuestas válidas y las explicaciones aparecen todas juntas al terminar. El reloj corre desde el primer segundo y no se puede pausar; al agotarse, lo que quede sin contestar cuenta como en blanco.</p>
           </div>
         )}
+
+        <Label>Seguridad de cada respuesta</Label>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: conSeguridad ? 8 : 18 }}>
+          <Chip on={!conSeguridad} onClick={() => setConSeguridad(false)}>No marcar</Chip>
+          <Chip on={conSeguridad} onClick={() => setConSeguridad(true)}>Marcar seguro, dudo o a ciegas</Chip>
+        </div>
+        {conSeguridad && <p style={{ ...pSmall, marginBottom: 18 }}>Al contestar, marca cómo de seguro vas. Al final verás cuánto aciertas en cada caso y si te compensa contestar cuando dudas o dejarlo en blanco.</p>}
 
         <button className="cta" style={ctaPrimary} onClick={iniciar} disabled={okComenzar}>Comenzar</button>
         <p style={{ ...pSmall, marginTop: 14 }}>Temas con preguntas ahora: {temasDisp.length} de 72. El resto se irá poblando.</p>
@@ -1682,6 +1848,7 @@ next.sesiones = [
               </button>
             ))}
           </div>
+          {chipsSeguridad(idx, false)}
           <p style={{ ...pSmall, marginBottom: 14 }}>
             {esBlanco(marcada)
               ? "Sin contestar. Puedes dejarla en blanco y volver a ella antes de finalizar."
@@ -1736,6 +1903,7 @@ next.sesiones = [
             );
           })}
         </div>
+        {chipsSeguridad(idx, shown)}
         {shown && (
           <div style={{ borderLeft: `3px solid ${C.slate}`, padding: "8px 14px", background: C.card, margin: "4px 0 16px" }}>
             <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate, marginBottom: 4 }}>EXPLICACIÓN</div>
@@ -1779,6 +1947,32 @@ next.sesiones = [
             </div>
           </div>
         )}
+        {(() => {
+          const filas = NIVELES_SEGURIDAD.map((n) => {
+            let ok = 0, ko = 0;
+            rs.forEach((r, i) => { if (conf[i] === n.id && !r.blank) { if (r.ok) ok += 1; else ko += 1; } });
+            const acum = (state.confianza || {})[n.id] || { aciertos: 0, fallos: 0 };
+            return { ...n, ok, ko, consejo: consejoSeguridad(acum.aciertos, acum.fallos) };
+          }).filter((x) => x.ok + x.ko > 0);
+          if (!filas.length) return null;
+          return (
+            <div style={{ marginBottom: 18 }}>
+              <Label>Según lo seguro que ibas</Label>
+              <div style={{ display: "grid", gap: 6 }}>
+                {filas.map((x) => (
+                  <div key={x.id} style={{ borderBottom: `1px solid ${C.hair}`, paddingBottom: 6 }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", gap: 10, fontFamily: MONO, fontSize: 12.5, color: C.ink }}>
+                      <b>{x.nombre}</b>
+                      <span><b style={{ color: C.ok }}>{x.ok}✓</b> · <b style={{ color: C.red }}>{x.ko}✗</b> · {Math.round((x.ok / (x.ok + x.ko)) * 100)}% en esta tanda</span>
+                    </div>
+                    <p style={{ ...pSmall, margin: "2px 0 0" }}>{x.consejo.pct !== null ? `En total aciertas el ${x.consejo.pct}%. ` : ""}{x.consejo.texto}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })()}
+        {f + b > 0 && <p style={{ ...pSmall, marginBottom: 14 }}>Los {f + b} fallos y blancos vuelven mañana en la sesión de hoy. Cada vez que los aciertes cuando les toque, se espacian más: 3, 7, 14 y 30 días.</p>}
         <button className="cta" style={ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
       </Ficha>
 
@@ -2152,8 +2346,95 @@ function Progreso({ state, persist }) {
   const entradas = Object.entries(state.temas).map(([k, t]) => ({ k, ...t, pct: t.vistas ? Math.round((t.aciertos / t.vistas) * 100) : 0 })).sort((a, b) => a.pct - b.pct);
   const flojos = entradas.filter((e) => e.vistas >= 3 && e.pct < 60);
   const reset = async () => { if (window.confirm("¿Borrar todo el progreso (test y supuestos)? No se puede deshacer.")) await persist(defaultState()); };
+
+  // Preguntas del examen que se escaparían en cada tema: las que caen según el reparto
+  // estimado × la parte que no aciertas. Solo con 5 o más preguntas contestadas del tema.
+  const MIN_VISTAS = 5;
+  const porTema = Object.entries(REPARTO_PAMPLONA).filter(([, n]) => n > 0).map(([t, n]) => {
+    const s = state.temas[t] || {};
+    const vistas = s.vistas || 0;
+    const acierto = vistas ? (s.aciertos || 0) / vistas : null;
+    return { t, n, vistas, acierto, escapan: acierto === null ? null : n * (1 - acierto) };
+  });
+  const perdidas = porTema.filter((x) => x.vistas >= MIN_VISTAS).sort((a, b) => b.escapan - a.escapan).slice(0, 12);
+  const maxEscapan = Math.max(0.01, ...perdidas.map((x) => x.escapan));
+  const sinDatos = porTema.filter((x) => x.vistas < MIN_VISTAS && x.n >= 2).sort((a, b) => b.n - a.n);
+  const idsActivos = useMemo(() => new Set(TODAS_ACTIVAS.map((q) => q.id)), []);
+  const cajas = resumenCajas(state.preguntas, state.falladas, idsActivos);
+  const vencidas = preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas).length;
+
+  // Informe en texto para pegarlo en el chat con Claude y que prepare preguntas sobre los fallos.
+  const [informe, setInforme] = useState("");
+  const [copiado, setCopiado] = useState(null);
+  const generarInforme = () => {
+    const mapa = new Map(TODAS_ACTIVAS.map((q) => [q.id, q]));
+    const lineas = [`INFORME DE FALLOS · OpoPamplona · ${new Date().toLocaleDateString("es-ES")}`];
+    const ses = state.sesiones || [];
+    lineas.push(`Tandas guardadas: ${ses.length} · en repaso: ${cajas.enRepaso} · superadas: ${cajas.superadas} · vencen hoy: ${vencidas}`);
+    const sims = ses.filter((s) => s.titulo === TITULO_SIMULACRO_PAMPLONA).map((s) => fmtNum(netasDe(s)));
+    if (sims.length) lineas.push(`Simulacros Pamplona (netas): ${sims.join(" · ")}`);
+    const cf = state.confianza || {};
+    const seg = NIVELES_SEGURIDAD.filter((n) => cf[n.id]).map((n) => `${n.nombre} ${cf[n.id].aciertos}✓/${cf[n.id].fallos}✗`);
+    if (seg.length) lineas.push(`Seguridad: ${seg.join(" · ")}`);
+    lineas.push("", "TEMAS · contestadas · % acierto · preguntas en el reparto");
+    Object.entries(state.temas)
+      .map(([t, s]) => ({ t, v: s.vistas || 0, pct: s.vistas ? Math.round(((s.aciertos || 0) / s.vistas) * 100) : 0, n: REPARTO_PAMPLONA[t] || 0 }))
+      .sort((a, b) => b.n * (100 - b.pct) - a.n * (100 - a.pct))
+      .forEach((x) => lineas.push(`${x.t} · ${x.v} · ${x.pct}% · ${x.n}`));
+    lineas.push("", "PREGUNTAS MÁS FALLADAS · id · tema · fallos/vistas · caja · enunciado");
+    Object.entries(state.preguntas || {})
+      .filter(([id, h]) => (h.fallos || 0) > 0 && mapa.has(id))
+      .sort((a, b) => (b[1].fallos - a[1].fallos) || ((b[1].ultima || 0) - (a[1].ultima || 0)))
+      .slice(0, 60)
+      .forEach(([id, h]) => { const q = mapa.get(id); lineas.push(`${id} · ${q.tema} · ${h.fallos}/${h.vistas} · caja ${h.caja ?? "-"} · ${q.q.slice(0, 110)}`); });
+    return lineas.join("\n");
+  };
+  const copiarInforme = async () => {
+    const texto = generarInforme();
+    setInforme(texto);
+    try { await navigator.clipboard.writeText(texto); setCopiado(true); } catch { setCopiado(false); }
+  };
+
   return (
     <div>
+      <Ficha codigo="PRIORIDADES" titulo="Dónde pierdes puntos">
+        <p style={p}>Preguntas del examen que se te escaparían en cada tema: las que caen según el reparto estimado de Pamplona por la parte que fallas o dejas en blanco. Arriba, lo que más te cuesta.</p>
+        {perdidas.length === 0 ? <p style={pSmall}>Aún no hay datos: hace falta haber contestado al menos {MIN_VISTAS} preguntas de un tema.</p> : (
+          <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr)", gap: 8, marginBottom: 12 }}>
+            {perdidas.map((x) => (
+              <div key={x.t} style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                <div style={{ fontFamily: MONO, fontSize: 11, width: 38, color: C.ink2, flexShrink: 0 }}>{x.t}</div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ fontFamily: SANS, fontSize: 12.5, color: C.ink, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{temaTitulo(x.t)}</div>
+                  <div style={{ height: 6, background: C.hair, borderRadius: 3, marginTop: 3, overflow: "hidden" }}><div style={{ width: `${(x.escapan / maxEscapan) * 100}%`, height: "100%", background: C.red }} /></div>
+                </div>
+                <div style={{ fontFamily: MONO, fontSize: 12, width: 92, textAlign: "right", color: C.ink, flexShrink: 0 }}>{fmtNum(x.escapan)} de {x.n}</div>
+              </div>
+            ))}
+          </div>
+        )}
+        {sinDatos.length > 0 && <p style={pSmall}>Sin datos suficientes en temas que pesan: {sinDatos.map((x) => `${x.t} (${x.n})`).join(", ")}.</p>}
+      </Ficha>
+
+      <Ficha codigo="REPASO" titulo="Tus fallos en repaso">
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(110px,1fr))", gap: 12, marginBottom: 14 }}>
+          <Stat n={vencidas} label="vuelven hoy" accent={vencidas ? C.red : C.ok} />
+          <Stat n={cajas.enRepaso} label="en repaso" />
+          <Stat n={cajas.superadas} label="superadas" accent={C.ok} />
+        </div>
+        <p style={pSmall}>Cada fallo o blanco vuelve al día siguiente; si lo aciertas cuando le toca, a los 3, 7, 14 y 30 días. Tras acertarlo a los 30 días, queda superado.</p>
+        <Label style={{ marginTop: 14 }}>Pasar tus fallos a Claude</Label>
+        <p style={pSmall}>Copia un informe con tus temas y tus preguntas más falladas, pégalo en el chat con Claude y te prepara preguntas nuevas sobre lo que fallas, sacadas del texto de la norma.</p>
+        <button className="cta" style={ctaGhost} onClick={copiarInforme}>Copiar mis fallos para Claude</button>
+        {copiado === true && <p style={{ ...pSmall, marginTop: 8, color: C.ok }}>Copiado. Pégalo en el chat con Claude.</p>}
+        {copiado === false && (
+          <>
+            <p style={{ ...pSmall, marginTop: 8, color: C.red }}>No se ha podido copiar solo. Mantén pulsado el texto, selecciónalo todo y cópialo.</p>
+            <textarea readOnly value={informe} rows={8} onFocus={(e) => e.target.select()} style={{ width: "100%", boxSizing: "border-box", fontFamily: MONO, fontSize: 11, color: C.ink, background: C.card, border: `1px solid ${C.hair}`, borderRadius: 4, padding: 8 }} />
+          </>
+        )}
+      </Ficha>
+
       <Ficha codigo="PROGRESO" titulo="Dónde estás flojo">
         {entradas.length === 0 ? <p style={p}>Aún no hay datos. Haz una tanda de test y aparecerá tu rendimiento por tema.</p> : (
           <>
@@ -2163,7 +2444,7 @@ function Progreso({ state, persist }) {
                 <p style={{ ...pSmall, margin: 0 }}>Temas por debajo del 60%: {flojos.map((f) => f.k).join(", ")}. Repásalos antes de avanzar.</p>
               </div>
             )}
-            <div style={{ display: "grid", gap: 8 }}>
+            <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr)", gap: 8 }}>
               {entradas.map((e) => (
                 <div key={e.k} style={{ display: "flex", alignItems: "center", gap: 12 }}>
                   <div style={{ fontFamily: MONO, fontSize: 11, width: 38, color: C.ink2, flexShrink: 0 }}>{e.k}</div>
