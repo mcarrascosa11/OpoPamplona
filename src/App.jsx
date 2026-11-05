@@ -9,6 +9,7 @@ import { supabase } from "./lib/supabase.js";
 import { TEXTOS_TEMAS } from "./data/textosTemas.js";
 import { REPARTO_PAMPLONA, BLOQUES_SEMANA, bloqueDelDia, pesoBloque } from "./data/reparto.js";
 import { siguienteRepaso, preguntasVencidas, resumenCajas, NIVELES_SEGURIDAD, consejoSeguridad } from "./lib/repaso.js";
+import { semanaPlan, sesionesPendientes, isoLocal, fechaDeIso, planDelDia } from "./lib/plan.js";
 
 // El historial conserva todas las preguntas contestadas. El banco de estudio,
 // en cambio, excluye las retiradas tras una auditoría editorial.
@@ -122,6 +123,9 @@ export default function App() {
   const [state, setState] = useState(null);
   const [saving, setSaving] = useState("idle");
   const [tab, setTab] = useState("inicio");
+  // Sesión elegida en el calendario de Inicio (un día atrasado o el de hoy) para abrirla en Test.
+  const [preset, setPreset] = useState(null);
+  const abrirSesion = (pr) => { setPreset(pr); setTab("test"); };
   const [darkMode, setDarkMode] = useState(() => {
     try { return localStorage.getItem("opo-dark-mode") === "1"; } catch { return false; }
   });
@@ -153,10 +157,10 @@ export default function App() {
       <style>{baseCSS}</style>
       <Header tab={tab} setTab={setTab} saving={saving} darkMode={darkMode} toggleDark={toggleDark} />
       <main style={{ maxWidth: 920, margin: "0 auto", padding: "0 18px 64px" }}>
-        {tab === "inicio" && <Inicio state={state} setTab={setTab} reload={() => loadState().then((s) => setState(normalizarEstado(s)))} />}
+        {tab === "inicio" && <Inicio state={state} setTab={setTab} abrirSesion={abrirSesion} reload={() => loadState().then((s) => setState(normalizarEstado(s)))} />}
         {tab === "temas" && <VistaLectura state={state} persist={persist} />}
         {tab === "resumenes" && <Resumenes state={state} persist={persist} />}
-        {tab === "test" && <Test state={state} persist={persist} />}
+        {tab === "test" && <Test state={state} persist={persist} preset={preset} clearPreset={() => setPreset(null)} />}
         {tab === "supuestos" && <Supuestos state={state} persist={persist} />}
         {tab === "progreso" && <Progreso state={state} persist={persist} />}
       </main>
@@ -199,40 +203,77 @@ function Header({ tab, setTab, saving, darkMode, toggleDark }) {
 }
 
 /* ---------- INICIO + sincronización ---------- */
-// Lo que toca hoy según la semana tipo del plan de estudio.
-function HoyToca({ state, setTab }) {
+// Lo que toca hoy según la semana tipo del plan de estudio, con la semana en un calendario:
+// cada día hecho, pendiente u hoy. Tocar un día pendiente abre su sesión en Test.
+function HoyToca({ state, abrirSesion }) {
   const hoy = new Date();
   const dia = hoy.getDay();
   const bloque = bloqueDelDia(hoy);
   const vencidas = preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas).length;
   const simulacros = (state.sesiones || []).filter((s) => s.titulo === TITULO_SIMULACRO_PAMPLONA).slice(-6);
+  const semana = semanaPlan(state.sesiones, hoy);
+  const pendientes = sesionesPendientes(state.sesiones, hoy);
+  const deHoy = semana.find((d) => d.iso === isoLocal(hoy));
   const titulo = bloque ? `${bloque.nombre} · ${bloque.titulo}` : dia === 6 ? "Sábado · Simulacro Pamplona" : "Domingo · Día libre";
-  // Para 90 netas, lo que se marca como «seguro» tiene que acertarse más del 95 % de las veces.
+  // Lo que se marca como «seguro» tiene que acertarse siempre: el objetivo es 100 para asegurar 90.
   const seguro = (state.confianza || {}).seguro;
   const nSeguro = seguro ? (seguro.aciertos || 0) + (seguro.fallos || 0) : 0;
+  const abrir = (d) => abrirSesion(d.item.tipo === "simulacro" ? { modo: "pamplona", fecha: d.iso } : { modo: "hoy", bloque: d.item.bloque.dia, fecha: d.iso });
+  const estilo = {
+    hecha: { bg: C.okSoft, border: C.ok, color: C.ok, marca: "✓ hecha" },
+    pendiente: { bg: C.redSoft, border: C.red, color: C.red, marca: "pendiente" },
+    hoy: { bg: C.card, border: C.ink, color: C.ink, marca: "hoy" },
+    futura: { bg: "transparent", border: C.hair, color: C.ink2, marca: "" },
+    libre: { bg: "transparent", border: C.hair, color: C.ink2, marca: "" },
+    antes: { bg: "transparent", border: C.hair, color: C.ink2, marca: "" },
+  };
   return (
     <Ficha codigo="HOY TOCA" titulo={titulo}>
-      {bloque && (
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(7, minmax(0, 1fr))", gap: 4, marginBottom: 12 }}>
+        {semana.map((d) => {
+          const e = estilo[d.estado];
+          const pulsable = d.estado === "pendiente" || d.estado === "hoy";
+          return (
+            <button key={d.iso} className="opt" disabled={!pulsable} onClick={() => abrir(d)}
+              title={`${d.largo} · ${d.nombre}${e.marca ? ` · ${e.marca}` : ""}`}
+              style={{ minWidth: 0, padding: "6px 2px", borderRadius: 4, border: `1.5px solid ${e.border}`, background: e.bg, cursor: pulsable ? "pointer" : "default", textAlign: "center", fontFamily: MONO, color: e.color }}>
+              <div style={{ fontSize: 11, fontWeight: 700 }}>{d.corto}</div>
+              <div style={{ fontSize: 9.5, marginTop: 2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{d.estado === "hecha" ? "✓" : d.estado === "pendiente" ? "pend." : d.estado === "hoy" ? "hoy" : d.estado === "libre" ? "libre" : d.item.tipo === "simulacro" ? "simul." : "·"}</div>
+            </button>
+          );
+        })}
+      </div>
+      {bloque && deHoy?.estado !== "hecha" && (
         <p style={p}>Sesión de hoy: primero los <b>{vencidas}</b> fallos que vuelven hoy y después preguntas de {bloque.detalle}, unas {pesoBloque(bloque)} de 100 en el examen. Corrige cada fallo leyendo el artículo y apunta la regla en una línea.</p>
       )}
-      {dia === 6 && <p style={p}>Simulacro de 100 con el reparto de Pamplona, a 100 minutos y marcando la seguridad. Después, 20 minutos para mirar los fallos.</p>}
-      {dia === 0 && <p style={p}>Descanso. Mañana vuelven {vencidas} fallos{vencidas ? " como mínimo" : ""}.</p>}
+      {dia === 6 && deHoy?.estado !== "hecha" && <p style={p}>Simulacro de 100 con el reparto de Pamplona, a 100 minutos y marcando la seguridad. Después, 20 minutos para mirar los fallos.</p>}
+      {deHoy?.estado === "hecha" && <p style={p}>La sesión de hoy ya está hecha.{pendientes.length ? " Si te apetece, puedes recuperar una atrasada." : ""}</p>}
+      {dia === 0 && <p style={p}>Día libre.{pendientes.length ? " Si te apetece, puedes recuperar una sesión atrasada." : ""} Mañana vuelven {vencidas} fallos{vencidas ? " como mínimo" : ""}.</p>}
+      {pendientes.length > 0 && (
+        <div style={{ marginBottom: 12 }}>
+          <Label>Atrasadas · toca una para hacerla</Label>
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 6 }}>
+            {pendientes.map((d) => <Chip key={d.iso} onClick={() => abrir(d)}>{d.corto} · {d.nombre}</Chip>)}
+          </div>
+          <p style={{ ...pSmall, margin: 0 }}>No hace falta recuperarlas todas. Tus fallos no se pierden: se acumulan y salen primero en la siguiente sesión. Si solo puedes hacer una, mejor la de hoy; si un día puedes más, recupera la atrasada que más pesa.</p>
+        </div>
+      )}
       {simulacros.length > 0 && (
         <p style={{ ...pSmall, fontFamily: MONO }}>
-          Simulacros Pamplona (netas): {simulacros.map((s) => fmtNum(netasDe(s))).join(" · ")} · objetivo 90 · corte 50
+          Simulacros Pamplona (netas): {simulacros.map((s) => fmtNum(netasDe(s))).join(" · ")} · objetivo 100 · corte 50
         </p>
       )}
       {nSeguro >= 10 && (
         <p style={{ ...pSmall, fontFamily: MONO, color: seguro.aciertos / nSeguro >= 0.95 ? C.ok : C.red }}>
-          Cuando marcas «seguro» aciertas el {Math.round((seguro.aciertos / nSeguro) * 100)} % · objetivo: más del 95 %
+          Cuando marcas «seguro» aciertas el {Math.round((seguro.aciertos / nSeguro) * 100)} % · objetivo: 100 %
         </p>
       )}
-      {dia !== 0 && <button className="cta" style={ctaPrimary} onClick={() => setTab("test")}>{dia === 6 ? "Empezar el simulacro →" : "Empezar la sesión de hoy →"}</button>}
+      {deHoy && deHoy.estado === "hoy" && <button className="cta" style={ctaPrimary} onClick={() => abrir(deHoy)}>{dia === 6 ? "Empezar el simulacro →" : "Empezar la sesión de hoy →"}</button>}
     </Ficha>
   );
 }
 
-function Inicio({ state, setTab, reload }) {
+function Inicio({ state, setTab, abrirSesion, reload }) {
   const [codigo, setCod] = useState(getCodigo());
   const [backupMsg, setBackupMsg] = useState(null); // { ok, texto }
   const [syncMsg, setSyncMsg] = useState(null);
@@ -304,9 +345,9 @@ function Inicio({ state, setTab, reload }) {
 
   return (
     <div>
-      <HoyToca state={state} setTab={setTab} />
+      <HoyToca state={state} abrirSesion={abrirSesion} />
       <Ficha codigo="PLAN DE ATAQUE" titulo="Cómo se gana esta plaza">
-        <p style={p}>Dos pruebas eliminatorias. La <b>1ª</b> (test, 100 preguntas, 30 pts, penaliza 1/3) solo te deja competir: basta superar 15. La <b>2ª</b> (supuestos, 70 pts, mínimo 35) decide la plaza y rompe los empates. <b>Las horas, en la 2ª.</b></p>
+        <p style={p}>Dos pruebas eliminatorias que se suman. La <b>1ª</b> (test, 100 preguntas, 30 pts, penaliza 1/3, mínimo 15) y la <b>2ª</b> (supuestos, 70 pts, mínimo 35). <b>Primero el test, apuntando a 100 de 100 para asegurar 90; los supuestos, después.</b></p>
         <p style={p}>Sin consulta de textos en ninguna prueba: hay que llevar artículos, plazos y umbrales memorizados. Por eso el test cita el artículo en cada explicación.</p>
       </Ficha>
 
@@ -1388,15 +1429,30 @@ function Resumenes({ state, persist }) {
 }
 
 /* ---------- TEST ---------- */
-function Test({ state, persist }) {
+function Test({ state, persist, preset, clearPreset }) {
   const [fase, setFase] = useState("config");
   const [pool, setPool] = useState([]); const [idx, setIdx] = useState(0);
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
   const [answers, setAnswers] = useState([]); const [confirmFin, setConfirmFin] = useState(false); const [filtroRev, setFiltroRev] = useState("todas");
   // Por defecto, lo que toca según el plan: el sábado el simulacro Pamplona y el resto de días la sesión de hoy.
-  const esSabado = new Date().getDay() === 6;
+  // Lo que viene del calendario de Inicio manda; si no, lo del día: el sábado el simulacro y el resto la sesión de hoy.
+  const esSabado = preset ? preset.modo === "pamplona" : new Date().getDay() === 6;
   const [modo, setModo] = useState(esSabado ? "pamplona" : "hoy"); const [num, setNum] = useState(10);
-  const [bloqueSel, setBloqueSel] = useState(() => (bloqueDelDia() || BLOQUES_SEMANA[0]).dia);
+  const [bloqueSel, setBloqueSel] = useState(() => preset?.bloque || (bloqueDelDia() || BLOQUES_SEMANA[0]).dia);
+  // Día del plan que cubre esta sesión: hoy si es lo que toca hoy, si no el día atrasado
+  // que tenga ese mismo bloque (o simulacro). Sin día (null) es una tanda extra.
+  const pendientesPlan = sesionesPendientes(state.sesiones);
+  const hoyIso = isoLocal(new Date());
+  const planPara = (tipo, dia) => {
+    const hoyItem = planDelDia(new Date());
+    if (hoyItem.tipo === tipo && (tipo !== "bloque" || hoyItem.bloque.dia === dia)) return hoyIso;
+    const x = pendientesPlan.find((d) => d.item.tipo === tipo && (tipo !== "bloque" || d.item.bloque.dia === dia));
+    return x ? x.iso : null;
+  };
+  const [planFecha, setPlanFecha] = useState(() => preset?.fecha || (esSabado ? planPara("simulacro") : planPara("bloque", preset?.bloque || (bloqueDelDia() || BLOQUES_SEMANA[0]).dia)));
+  useEffect(() => { if (preset) clearPreset(); }, []);
+  const nombrePlan = (iso) => fechaDeIso(iso).toLocaleDateString("es-ES", { weekday: "long", day: "numeric" });
+  const elegirBloque = (dia) => { setBloqueSel(dia); setPlanFecha(planPara("bloque", dia)); };
   const [numHoy, setNumHoy] = useState(45);
   // Seguridad de cada respuesta (seguro / dudo / a ciegas), en paralelo a answers.
   const [conSeguridad, setConSeguridad] = useState(esSabado);
@@ -1422,9 +1478,15 @@ const preguntasAprendido = BANCO.filter(
     () => preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas),
     [state.preguntas, state.falladas]
   );
-  const elegirModo = (m) => {
+  const elegirModo = (m, fecha) => {
     setModo(m);
     if (m === "pamplona") { setExamen(true); setTiempoExamen(100); setConSeguridad(true); }
+    if (m === "pamplona") setPlanFecha(fecha !== undefined ? fecha : planPara("simulacro"));
+    if (m === "hoy") setPlanFecha(fecha !== undefined ? fecha : planPara("bloque", bloqueSel));
+  };
+  const recuperar = (d) => {
+    if (d.item.tipo === "simulacro") elegirModo("pamplona", d.iso);
+    else { setBloqueSel(d.item.bloque.dia); elegirModo("hoy", d.iso); }
   };
   const marcarConf = (i, v) => setConf((prev) => { const n = [...prev]; n[i] = v; return n; });
   const [segRestantes, setSegRestantes] = useState(0);
@@ -1616,6 +1678,7 @@ next.sesiones = [
     blancos: b,
     examen,
     titulo,
+    ...(planFecha && (modo === "hoy" || modo === "pamplona") ? { plan: planFecha } : {}),
     ...(Object.keys(seguridadTanda).length ? { seguridad: seguridadTanda } : {})
   }
 ].slice(-60);
@@ -1656,6 +1719,17 @@ next.sesiones = [
     return (
       <Ficha codigo="1ª PRUEBA · TEST" titulo="Configura la tanda">
         <p style={p}>Cuatro opciones, una válida. Corrección como el examen real: cada fallo resta 1/3; en blanco, ni suma ni resta.</p>
+        {pendientesPlan.length > 0 && (
+          <div style={{ border: `1.5px solid ${C.amber}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
+            <Label>Sesiones atrasadas</Label>
+            <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 8 }}>
+              {pendientesPlan.map((d) => (
+                <Chip key={d.iso} on={planFecha === d.iso && (modo === "hoy" || modo === "pamplona")} onClick={() => recuperar(d)}>{d.corto} · {d.nombre}</Chip>
+              ))}
+            </div>
+            <p style={{ ...pSmall, margin: 0 }}>Toca una para hacerla ahora; al terminarla queda marcada en el calendario. No hace falta recuperarlas todas: tus fallos no se pierden y salen primero en cualquier sesión.</p>
+          </div>
+        )}
         <Label>Modo</Label>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 10 }}>
           <Chip on={modo === "hoy"} onClick={() => elegirModo("hoy")}>Sesión de hoy{vencidasHoy.length ? ` (${vencidasHoy.length} fallos vuelven hoy)` : ""}</Chip>
@@ -1681,11 +1755,12 @@ next.sesiones = [
             <Label>Bloque del día</Label>
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 10 }}>
               {BLOQUES_SEMANA.map((b) => (
-                <Chip key={b.dia} on={bloqueSel === b.dia} onClick={() => setBloqueSel(b.dia)}>{b.nombre} · {b.titulo}</Chip>
+                <Chip key={b.dia} on={bloqueSel === b.dia} onClick={() => elegirBloque(b.dia)}>{b.nombre} · {b.titulo}</Chip>
               ))}
             </div>
             <p style={{ ...pSmall, margin: 0 }}>
               {new Date().getDay() === 6 ? "Hoy es sábado: según el plan toca el simulacro Pamplona. " : new Date().getDay() === 0 ? "Hoy es domingo, día libre en el plan. " : ""}
+              {planFecha && planFecha !== hoyIso ? `Recuperas la sesión del ${nombrePlan(planFecha)}. ` : ""}
               Primero van los fallos que vuelven hoy ({vencidasHoy.length}; como mucho, el 60 % de la sesión). El resto son preguntas de {bloque.titulo} ({bloque.detalle}), unas {pesoBloque(bloque)} de 100 en el examen: primero las que no has visto y las que fallas, con más peso para los temas que más caen.
             </p>
           </div>
@@ -1694,7 +1769,7 @@ next.sesiones = [
         {modo === "pamplona" && (
           <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
             <Label>Simulacro con el reparto de Pamplona</Label>
-            <p style={{ ...pSmall, margin: 0 }}>100 preguntas repartidas por tema según el examen estimado de Pamplona (por ejemplo, 10 de E29 y 4 de E53). Salen primero las que no has visto, de exámenes reales y del banco, en el orden del temario como en el examen. Lo recomendado: cronometrado a 100 minutos y marcando la seguridad de cada respuesta.</p>
+            <p style={{ ...pSmall, margin: 0 }}>{planFecha && planFecha !== hoyIso ? `Recuperas el simulacro del ${nombrePlan(planFecha)}. ` : ""}100 preguntas repartidas por tema según el examen estimado de Pamplona (por ejemplo, 10 de E29 y 4 de E53). Salen primero las que no has visto, de exámenes reales y del banco, en el orden del temario como en el examen. Lo recomendado: cronometrado a 100 minutos y marcando la seguridad de cada respuesta.</p>
           </div>
         )}
 
