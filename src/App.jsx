@@ -207,6 +207,9 @@ function HoyToca({ state, setTab }) {
   const vencidas = preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas).length;
   const simulacros = (state.sesiones || []).filter((s) => s.titulo === TITULO_SIMULACRO_PAMPLONA).slice(-6);
   const titulo = bloque ? `${bloque.nombre} · ${bloque.titulo}` : dia === 6 ? "Sábado · Simulacro Pamplona" : "Domingo · Día libre";
+  // Para 90 netas, lo que se marca como «seguro» tiene que acertarse más del 95 % de las veces.
+  const seguro = (state.confianza || {}).seguro;
+  const nSeguro = seguro ? (seguro.aciertos || 0) + (seguro.fallos || 0) : 0;
   return (
     <Ficha codigo="HOY TOCA" titulo={titulo}>
       {bloque && (
@@ -216,7 +219,12 @@ function HoyToca({ state, setTab }) {
       {dia === 0 && <p style={p}>Descanso. Mañana vuelven {vencidas} fallos{vencidas ? " como mínimo" : ""}.</p>}
       {simulacros.length > 0 && (
         <p style={{ ...pSmall, fontFamily: MONO }}>
-          Simulacros Pamplona (netas): {simulacros.map((s) => fmtNum(netasDe(s))).join(" · ")} · corte 50 · objetivo 60–70
+          Simulacros Pamplona (netas): {simulacros.map((s) => fmtNum(netasDe(s))).join(" · ")} · objetivo 90 · corte 50
+        </p>
+      )}
+      {nSeguro >= 10 && (
+        <p style={{ ...pSmall, fontFamily: MONO, color: seguro.aciertos / nSeguro >= 0.95 ? C.ok : C.red }}>
+          Cuando marcas «seguro» aciertas el {Math.round((seguro.aciertos / nSeguro) * 100)} % · objetivo: más del 95 %
         </p>
       )}
       {dia !== 0 && <button className="cta" style={ctaPrimary} onClick={() => setTab("test")}>{dia === 6 ? "Empezar el simulacro →" : "Empezar la sesión de hoy →"}</button>}
