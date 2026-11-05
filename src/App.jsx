@@ -1434,10 +1434,14 @@ function Test({ state, persist, preset, clearPreset }) {
   const [pool, setPool] = useState([]); const [idx, setIdx] = useState(0);
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
   const [answers, setAnswers] = useState([]); const [confirmFin, setConfirmFin] = useState(false); const [filtroRev, setFiltroRev] = useState("todas");
+  // Repetir los fallos al acabar: ronda inmediata hasta acertar cada uno una vez. No toca estadísticas.
+  const [cola, setCola] = useState([]); const [selRep, setSelRep] = useState(null); const [shownRep, setShownRep] = useState(false);
+  const [rondaRep, setRondaRep] = useState({ total: 0, intentos: 0 });
   // Por defecto, lo que toca según el plan: el sábado el simulacro Pamplona y el resto de días la sesión de hoy.
   // Lo que viene del calendario de Inicio manda; si no, lo del día: el sábado el simulacro y el resto la sesión de hoy.
   const esSabado = preset ? preset.modo === "pamplona" : new Date().getDay() === 6;
   const [modo, setModo] = useState(esSabado ? "pamplona" : "hoy"); const [num, setNum] = useState(10);
+  const [masModos, setMasModos] = useState(false);
   const [bloqueSel, setBloqueSel] = useState(() => preset?.bloque || (bloqueDelDia() || BLOQUES_SEMANA[0]).dia);
   // Día del plan que cubre esta sesión: hoy si es lo que toca hoy, si no el día atrasado
   // que tenga ese mismo bloque (o simulacro). Sin día (null) es una tanda extra.
@@ -1735,7 +1739,10 @@ next.sesiones = [
           <Chip on={modo === "hoy"} onClick={() => elegirModo("hoy")}>Sesión de hoy{vencidasHoy.length ? ` (${vencidasHoy.length} fallos vuelven hoy)` : ""}</Chip>
           <Chip on={modo === "pamplona"} onClick={() => elegirModo("pamplona")}>Simulacro Pamplona (100)</Chip>
         </div>
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: masModos ? 10 : 16 }}>
+          <Chip on={masModos} onClick={() => setMasModos((v) => !v)}>{masModos ? "Menos modos ▴" : "Más modos ▾"}</Chip>
+        </div>
+        {masModos && <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
           <Chip on={modo === "todos"} onClick={() => setModo("todos")}>Todo el banco ({BANCO.length})</Chip>
           <Chip on={modo === "tema"} onClick={() => setModo("tema")}>Un solo tema</Chip>
           <Chip on={modo === "rango"} onClick={() => setModo("rango")}>Por rango de temas</Chip>
@@ -1748,7 +1755,7 @@ next.sesiones = [
 </Chip>
           <Chip on={modo === "falladas"} onClick={() => setModo("falladas")} disabled={!nF}>Repasar mis fallos ({nF})</Chip>
           <Chip on={modo === "examenreal"} onClick={() => setModo("examenreal")}>Examen real completo</Chip>
-        </div>
+        </div>}
 
         {modo === "hoy" && (
           <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
@@ -1991,12 +1998,62 @@ next.sesiones = [
           <div style={{ borderLeft: `3px solid ${C.slate}`, padding: "8px 14px", background: C.card, margin: "4px 0 16px" }}>
             <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate, marginBottom: 4 }}>EXPLICACIÓN</div>
             <p style={{ ...pSmall, margin: 0 }}>{cur.exp}</p>
+            {(sel === null || cur._order[sel] !== cur.c) && <ApuntarRegla key={cur.id} q={cur} state={state} persist={persist} />}
           </div>
         )}
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
           {!shown && <button className="cta" style={ctaPrimary} onClick={responder} disabled={sel === null}>Comprobar</button>}
           {!shown && <button className="cta" style={ctaGhost} onClick={enBlanco}>Dejar en blanco</button>}
           {shown && <button className="cta" style={ctaPrimary} onClick={siguiente}>{idx + 1 < pool.length ? "Siguiente →" : "Ver resultado"}</button>}
+        </div>
+      </Ficha>
+    );
+  }
+  if (fase === "repite") {
+    const qr = cola[0];
+    if (!qr) {
+      return (
+        <Ficha codigo="REPETIR FALLOS" titulo={`Acertados los ${rondaRep.total} fallos`}>
+          <p style={p}>{rondaRep.intentos === rondaRep.total ? "Todos a la primera." : `Te ha costado ${rondaRep.intentos} intentos.`} Volverán mañana en la sesión de hoy y después, espaciados, hasta que queden superados.</p>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+            <button className="cta" style={ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
+            <button className="cta" style={ctaGhost} onClick={() => setFase("fin")}>Volver al resultado</button>
+          </div>
+        </Ficha>
+      );
+    }
+    const acierto = selRep !== null && qr._order[selRep] === qr.c;
+    const siguienteRep = () => {
+      setCola((c) => (acierto ? c.slice(1) : [...c.slice(1), c[0]]));
+      setSelRep(null); setShownRep(false);
+    };
+    return (
+      <Ficha codigo={`REPETIR FALLOS · quedan ${cola.length} de ${rondaRep.total}`} titulo={`${qr.tema} · ${temaTitulo(qr.tema)}`}>
+        <p style={{ ...p, fontWeight: 600, fontSize: 16 }}>{qr.q}</p>
+        <div style={{ display: "grid", gap: 8, margin: "16px 0" }}>
+          {qr._order.map((origIdx, shownIdx) => {
+            const isC = origIdx === qr.c; let bg = C.card, border = C.hair;
+            if (shownRep) { if (isC) { bg = C.okSoft; border = C.ok; } else if (selRep === shownIdx) { bg = C.redSoft; border = C.red; } }
+            else if (selRep === shownIdx) border = C.ink;
+            return (
+              <button key={shownIdx} onClick={() => !shownRep && setSelRep(shownIdx)} disabled={shownRep} className="opt"
+                style={{ textAlign: "left", padding: "12px 14px", background: bg, border: `1.5px solid ${border}`, borderRadius: 4, cursor: shownRep ? "default" : "pointer", fontFamily: SANS, fontSize: 14.5, color: C.ink, display: "flex", gap: 10, lineHeight: 1.45 }}>
+                <span style={{ fontFamily: MONO, fontWeight: 700, color: shownRep && isC ? C.ok : C.ink2 }}>{String.fromCharCode(97 + shownIdx)})</span>
+                <span>{qr.o[origIdx]}</span>
+              </button>
+            );
+          })}
+        </div>
+        {shownRep && (
+          <div style={{ borderLeft: `3px solid ${acierto ? C.ok : C.red}`, padding: "8px 14px", background: C.card, margin: "4px 0 16px" }}>
+            <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: acierto ? C.ok : C.red, marginBottom: 4 }}>{acierto ? "ACERTADA · SALE DE LA RONDA" : "OTRA VEZ · VUELVE AL FINAL"}</div>
+            <p style={{ ...pSmall, margin: 0 }}>{qr.exp}</p>
+          </div>
+        )}
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          {!shownRep && <button className="cta" style={ctaPrimary} disabled={selRep === null} onClick={() => { setShownRep(true); setRondaRep((r) => ({ ...r, intentos: r.intentos + 1 })); }}>Comprobar</button>}
+          {shownRep && <button className="cta" style={ctaPrimary} onClick={siguienteRep}>{acierto && cola.length === 1 ? "Terminar" : "Siguiente →"}</button>}
+          <button className="cta" style={ctaGhost} onClick={() => setFase("fin")}>Dejar la ronda</button>
         </div>
       </Ficha>
     );
@@ -2055,8 +2112,14 @@ next.sesiones = [
             </div>
           );
         })()}
-        {f + b > 0 && <p style={{ ...pSmall, marginBottom: 14 }}>Los {f + b} fallos y blancos vuelven mañana en la sesión de hoy. Cada vez que los aciertes cuando les toque, se espacian más: 3, 7, 14 y 30 días.</p>}
-        <button className="cta" style={ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
+        {f + b > 0 && <p style={{ ...pSmall, marginBottom: 14 }}>Los {f + b} fallos y blancos vuelven mañana en la sesión de hoy. Cada vez que los aciertes cuando les toque, se espacian más: 3, 7, 14 y 30 días. Antes, repítelos ahora hasta acertarlos: es lo que más fija el dato.</p>}
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          {f + b > 0 && <button className="cta" style={ctaPrimary} onClick={() => {
+            const falladas = pool.filter((q, i) => !rs[i].ok);
+            setCola(shuffle(falladas)); setSelRep(null); setShownRep(false); setRondaRep({ total: falladas.length, intentos: 0 }); setFase("repite");
+          }}>Repetir los {f + b} fallos ahora</button>}
+          <button className="cta" style={f + b > 0 ? ctaGhost : ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
+        </div>
       </Ficha>
 
       <Ficha codigo="REVISIÓN" titulo="Pregunta a pregunta">
@@ -2098,6 +2161,7 @@ next.sesiones = [
               <div style={{ borderLeft: `3px solid ${C.slate}`, padding: "8px 14px", background: C.card }}>
                 <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate, marginBottom: 4 }}>EXPLICACIÓN</div>
                 <p style={{ ...pSmall, margin: 0 }}>{q.exp}</p>
+                {!r.ok && <ApuntarRegla key={q.id} q={q} state={state} persist={persist} />}
               </div>
             </div>
           );
@@ -2558,6 +2622,31 @@ function Progreso({ state, persist }) {
         </Ficha>
       )}
       <div style={{ marginTop: 18 }}><button className="cta" style={{ ...ctaGhost, color: C.red, borderColor: C.red }} onClick={reset}>Borrar progreso</button></div>
+    </div>
+  );
+}
+
+/* ---------- APUNTAR REGLA ----------
+   Guarda en una línea la regla que explica un fallo, al final de las anotaciones del
+   tema (las mismas que se editan en Resúmenes), con el id de la pregunta. */
+function ApuntarRegla({ q, state, persist }) {
+  const [texto, setTexto] = useState("");
+  const [guardada, setGuardada] = useState(false);
+  const guardar = async () => {
+    const limpio = texto.trim().replace(/\s+/g, " ");
+    if (!limpio) return;
+    const previas = (state.notasResumen || {})[q.tema] || "";
+    const linea = `- ${limpio} (${q.id})`;
+    await persist({ ...state, notasResumen: { ...(state.notasResumen || {}), [q.tema]: previas.trim() ? `${previas.trimEnd()}\n${linea}` : linea } });
+    setGuardada(true); setTexto("");
+  };
+  return (
+    <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", marginTop: 10 }}>
+      <input value={texto} onChange={(e) => { setTexto(e.target.value); setGuardada(false); }} onKeyDown={(e) => { if (e.key === "Enter") guardar(); }}
+        placeholder="Apuntar la regla en una línea" aria-label="Regla que explica el fallo"
+        style={{ flex: "1 1 200px", minWidth: 0, fontFamily: SANS, fontSize: 13.5, padding: "8px 10px", border: `1.5px solid ${C.hair}`, borderRadius: 4, background: C.card, color: C.ink }} />
+      <button className="cta" style={{ ...ctaGhost, padding: "7px 12px", fontSize: 12 }} onClick={guardar} disabled={!texto.trim()}>Guardar</button>
+      {guardada && <span style={{ ...pSmall, margin: 0, color: C.ok }}>Guardada en las anotaciones de {q.tema}.</span>}
     </div>
   );
 }
