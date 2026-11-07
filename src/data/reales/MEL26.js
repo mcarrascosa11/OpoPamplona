@@ -81,7 +81,7 @@ export default [
     q: "De conformidad con lo establecido en el artículo 21, de la Ley 39/2015 la Administración está obligada a dictar resolución expresa y a notificarla en todos los procedimientos cualquiera que sea su forma de iniciación, en los siguientes casos:",
     o: ["La Administración no está obligada a dictar resolución expresa, en ningún caso.", "Cuando el procedimiento haya caducado.", "Cuando el interesado renuncie a su derecho, como consecuencia de la finalización del procedimiento por pacto o convenio."],
     c: 1,
-    exp: "Pregunta real n.º 8 del examen de Arquitecto de la Ciudad Autónoma de Melilla (7-10-2026). Respuesta según la plantilla oficial: b. Respuesta corregida por el tribunal en la plantilla definitiva de 27-10-2026 (la plantilla provisional daba la c). Referencia: Ley 39/2015, art. 21.1.",
+    exp: "Pregunta real n.º 8 del examen de Arquitecto de la Ciudad Autónoma de Melilla (7-10-2026). Respuesta según la plantilla oficial: b. Respuesta corregida por el tribunal en la plantilla definitiva de 27-10-2026 (la plantilla provisional daba la c). Referencia: Ley 39/2015, art. 21.1: la Administración debe resolver y notificar en todos los procedimientos, y en los casos de prescripción, renuncia del derecho, caducidad del procedimiento, desistimiento o desaparición sobrevenida del objeto la resolución declara esa circunstancia; por eso, si el procedimiento ha caducado, hay que dictar resolución (b). La c) mezcla dos cosas: la renuncia sí obliga a resolver, pero la terminación por pacto o convenio es una de las excepciones a esa obligación, junto con los derechos sometidos solo a declaración responsable o comunicación. La a) contradice el propio artículo.",
     real: { examen: "MEL26", n: 8 },
   },
   {
