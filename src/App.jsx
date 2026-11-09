@@ -2065,7 +2065,10 @@ next.sesiones = [
     const aprobado = sobre30 >= 15;
     const visibles = pool
       .map((q, i) => ({ q, i, r: rs[i] }))
-      .filter(({ r }) => (filtroRev === "fallos" ? !r.ok && !r.blank : filtroRev === "blancos" ? r.blank : true));
+      .filter(({ r, i }) => (filtroRev === "fallos" ? !r.ok && !r.blank : filtroRev === "blancos" ? r.blank : filtroRev === "seguroMal" ? !r.ok && !r.blank && conf[i] === "seguro" : true));
+    // Lo que se marcó como «seguro» y se falló: datos mal aprendidos, lo primero que corregir.
+    const seguroMal = rs.filter((r, i) => !r.ok && !r.blank && conf[i] === "seguro").length;
+    const nombreSeguridad = (i) => (NIVELES_SEGURIDAD.find((n) => n.id === conf[i]) || {}).nombre;
     return (
       <>
       <Ficha codigo={examen ? "RESULTADO · SIMULACRO DE EXAMEN" : "RESULTADO"} titulo={examen ? `Simulacro corregido (criterio real, ${tiempoExamen} min)` : "Tanda corregida (criterio real)"}>
@@ -2128,6 +2131,7 @@ next.sesiones = [
           <Chip on={filtroRev === "todas"} onClick={() => setFiltroRev("todas")}>Todas ({pool.length})</Chip>
           <Chip on={filtroRev === "fallos"} onClick={() => setFiltroRev("fallos")} disabled={!f}>Solo fallos ({f})</Chip>
           <Chip on={filtroRev === "blancos"} onClick={() => setFiltroRev("blancos")} disabled={!b}>Solo en blanco ({b})</Chip>
+          {seguroMal > 0 && <Chip on={filtroRev === "seguroMal"} onClick={() => setFiltroRev("seguroMal")}>Falladas yendo seguro ({seguroMal})</Chip>}
         </div>
         {visibles.map(({ q, i, r }) => {
           const acc = r.ok ? C.ok : r.blank ? C.ink2 : C.red;
@@ -2137,6 +2141,7 @@ next.sesiones = [
                 <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 0.5, color: C.ink2 }}>{i + 1} · {q.tema} — {temaTitulo(q.tema)}</span>
                 <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, fontWeight: 700, color: acc }}>
                   {r.ok ? "✓ ACIERTO" : r.blank ? "— EN BLANCO" : "✗ FALLO"}
+                  {nombreSeguridad(i) && <span style={{ color: !r.ok && !r.blank && conf[i] === "seguro" ? C.red : C.ink2, fontWeight: 600 }}>{` · marcaste ${nombreSeguridad(i).toLowerCase()}`}</span>}
                 </span>
               </div>
               <p style={{ ...p, fontWeight: 600 }}>{q.q}</p>
