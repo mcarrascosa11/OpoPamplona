@@ -19,7 +19,7 @@ const esPreguntaActiva = (pregunta) => pregunta.estado !== "retirada";
 // real (la del examen más reciente de Navarra, por el orden de reales.js) y, si no hay real, la
 // primera del banco. En «Examen real completo» siguen saliendo todas.
 // Clave: el enunciado normalizado; si es corto (genérico), también las opciones.
-const normTxt = (t) => String(t || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+const normTxt = (t) => String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
 const claveDup = (q) => { const e = normTxt(q.q); return e.length > 60 ? e : `${e}|${(q.o || []).map(normTxt).sort().join("|")}`; };
 const ALIAS_DUPLICADAS = new Map(); // id quitado → id que se queda
 const PRIMERA_POR_CLAVE = new Map();
