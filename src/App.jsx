@@ -1721,7 +1721,7 @@ next.sesiones = [
     detalle: pool.map((q, i) => ({ id: q.id, r: esBlanco(respDadas[i]) ? null : q._order[respDadas[i]], s: conf[i] || null })),
     ...(Object.keys(seguridadTanda).length ? { seguridad: seguridadTanda } : {})
   }
-].slice(-60)
+].slice(-200)
   // Solo las 30 últimas guardan el detalle, para que el progreso no crezca sin límite.
   .map((x, k, arr) => (k < arr.length - 30 && x.detalle ? (({ detalle, ...resto }) => resto)(x) : x));
     await persist(next);
@@ -2494,6 +2494,95 @@ function Supuestos({ state, persist }) {
 }
 
 /* ---------- PROGRESO ---------- */
+/* ---------- EVOLUCIÓN ----------
+   Acierto por día (todas las tandas de ese día juntas) y nota sobre 30 de los simulacros
+   (tandas cronometradas de 50 preguntas o más). La nota de hoy es la del último simulacro;
+   debajo, una estimación con tus datos de cada tema ponderados por el reparto de Pamplona. */
+const nota30 = (s) => (s.n ? Math.max(0, (((s.aciertos || 0) - (s.fallos || 0) / 3) / s.n) * 30) : 0);
+const fechaCorta = (iso) => `${Number(iso.slice(8, 10))}/${Number(iso.slice(5, 7))}`;
+
+function LineaEvolucion({ puntos, max, refs = [], formato, color }) {
+  // puntos: [{ etiqueta, valor }] en orden; max: tope del eje; refs: [{ valor, texto }]
+  const W = 480, H = 180, x0 = 60, x1 = W - 58, y0 = 22, y1 = H - 32;
+  const X = (i) => (puntos.length < 2 ? (x0 + x1) / 2 : x0 + (i * (x1 - x0)) / (puntos.length - 1));
+  const Y = (v) => y1 - (Math.max(0, Math.min(max, v)) / max) * (y1 - y0);
+  const ultimo = puntos[puntos.length - 1];
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} style={{ width: "100%", maxWidth: 600, height: "auto", display: "block" }} role="img">
+      {[0, max / 2, max].map((v) => (
+        <g key={v}>
+          <line x1={x0} x2={x1} y1={Y(v)} y2={Y(v)} style={{ stroke: C.hair }} strokeWidth="1" />
+          <text x={x0 - 8} y={Y(v) + 4} textAnchor="end" style={{ fill: C.ink2, fontFamily: MONO, fontSize: 14 }}>{formato(v)}</text>
+        </g>
+      ))}
+      {refs.map((r) => (
+        <g key={r.texto}>
+          <line x1={x0} x2={x1} y1={Y(r.valor)} y2={Y(r.valor)} style={{ stroke: C.ink2 }} strokeWidth="1" strokeDasharray="4 4" />
+          <text x={x1 + 6} y={Y(r.valor) + 4} style={{ fill: C.ink2, fontFamily: MONO, fontSize: 14 }}>{r.texto}</text>
+        </g>
+      ))}
+      {puntos.length > 1 && <polyline points={puntos.map((pt, i) => `${X(i)},${Y(pt.valor)}`).join(" ")} style={{ fill: "none", stroke: color }} strokeWidth="2" />}
+      {puntos.map((pt, i) => (
+        <circle key={i} cx={X(i)} cy={Y(pt.valor)} r={i === puntos.length - 1 ? 4.5 : 3} style={{ fill: color }}>
+          <title>{`${pt.etiqueta}: ${formato(pt.valor)}`}</title>
+        </circle>
+      ))}
+      {ultimo && <text x={X(puntos.length - 1)} y={Y(ultimo.valor) - 10} textAnchor="middle" style={{ fill: C.ink, fontFamily: MONO, fontSize: 15, fontWeight: 700 }}>{formato(ultimo.valor)}</text>}
+      {puntos.length > 0 && <text x={X(0)} y={H - 8} textAnchor="start" style={{ fill: C.ink2, fontFamily: MONO, fontSize: 14 }}>{puntos[0].etiqueta}</text>}
+      {puntos.length > 1 && <text x={X(puntos.length - 1)} y={H - 8} textAnchor="end" style={{ fill: C.ink2, fontFamily: MONO, fontSize: 14 }}>{ultimo.etiqueta}</text>}
+    </svg>
+  );
+}
+
+function Evolucion({ state }) {
+  const ses = (state.sesiones || []).filter((s) => s.n > 0);
+  if (!ses.length) return null;
+  const porDia = new Map();
+  for (const s of ses) {
+    const d = isoLocal(new Date(s.fecha));
+    const a = porDia.get(d) || { d, n: 0, aciertos: 0, fallos: 0, blancos: 0 };
+    a.n += s.n; a.aciertos += s.aciertos || 0; a.fallos += s.fallos || 0; a.blancos += s.blancos || 0;
+    porDia.set(d, a);
+  }
+  const dias = [...porDia.values()].sort((x, y) => (x.d < y.d ? -1 : 1)).slice(-30);
+  const sims = ses.filter((s) => s.examen && s.n >= 50).slice(-12);
+  const ultimoSim = sims[sims.length - 1];
+  // Estimación con el reparto: netas por pregunta de cada tema (aciertos − fallos/3 entre contestadas)
+  // por las preguntas que caen de ese tema; los temas con menos de 5 contestadas usan tu media.
+  const tot = Object.values(state.temas || {}).reduce((a, t) => ({ v: a.v + (t.vistas || 0), a: a.a + (t.aciertos || 0), f: a.f + (t.fallos || 0) }), { v: 0, a: 0, f: 0 });
+  const media = tot.v ? (tot.a - tot.f / 3) / tot.v : 0;
+  const netasEst = Object.entries(REPARTO_PAMPLONA).reduce((sum, [t, w]) => {
+    const st = (state.temas || {})[t];
+    const r = st && st.vistas >= 5 ? ((st.aciertos || 0) - (st.fallos || 0) / 3) / st.vistas : media;
+    return sum + w * r;
+  }, 0);
+  const notaEst = Math.max(0, (netasEst / 100) * 30);
+  const hoy = dias[dias.length - 1];
+  const pct = (d) => (d.n ? (d.aciertos / d.n) * 100 : 0);
+  return (
+    <Ficha codigo="EVOLUCIÓN" titulo="Cómo vas">
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(130px,1fr))", gap: 12, marginBottom: 12 }}>
+        <Stat n={ultimoSim ? `${fmtNum(nota30(ultimoSim), 2)}/30` : "—"} label="nota si fuera hoy (último simulacro)" accent={ultimoSim && nota30(ultimoSim) >= 15 ? C.ok : C.red} />
+        <Stat n={`${fmtNum(notaEst, 2)}/30`} label="estimación con todos tus temas" accent={notaEst >= 15 ? C.ok : C.red} />
+        <Stat n={`${Math.round(pct(hoy))} %`} label={`acierto el ${fechaCorta(hoy.d)} (${hoy.n} preguntas)`} />
+      </div>
+      <p style={pSmall}>
+        {ultimoSim ? `El último simulacro (${fechaCorta(isoLocal(new Date(ultimoSim.fecha)))}, ${ultimoSim.n} preguntas) da ${fmtNum(nota30(ultimoSim), 2)} sobre 30. ` : "Aún no has hecho ningún simulacro de 50 preguntas o más. "}
+        La estimación aplica tu acierto y tus fallos de cada tema al reparto del examen de Pamplona. Corte: 15. Objetivo: 30.
+      </p>
+      {sims.length > 0 && (
+        <>
+          <Label style={{ marginTop: 14 }}>Nota sobre 30 en los simulacros</Label>
+          <LineaEvolucion puntos={sims.map((s) => ({ etiqueta: fechaCorta(isoLocal(new Date(s.fecha))), valor: nota30(s) }))} max={30} refs={[{ valor: 15, texto: "corte" }]} formato={(v) => fmtNum(v, v % 1 ? 1 : 0)} color={C.red} />
+        </>
+      )}
+      <Label style={{ marginTop: 14 }}>Porcentaje de acierto por día</Label>
+      <LineaEvolucion puntos={dias.map((d) => ({ etiqueta: fechaCorta(d.d), valor: pct(d) }))} max={100} formato={(v) => `${Math.round(v)} %`} color={C.ink} />
+      <p style={{ ...pSmall, marginTop: 6 }}>Las sesiones de hoy llevan muchos fallos que vuelven, así que su acierto sale más bajo que el de un simulacro.</p>
+    </Ficha>
+  );
+}
+
 function Progreso({ state, persist }) {
   const entradas = Object.entries(state.temas).map(([k, t]) => ({ k, ...t, pct: t.vistas ? Math.round((t.aciertos / t.vistas) * 100) : 0 })).sort((a, b) => a.pct - b.pct);
   const flojos = entradas.filter((e) => e.vistas >= 3 && e.pct < 60);
@@ -2566,6 +2655,7 @@ function Progreso({ state, persist }) {
 
   return (
     <div>
+      <Evolucion state={state} />
       <Ficha codigo="PRIORIDADES" titulo="Dónde pierdes puntos">
         <p style={p}>Preguntas del examen que se te escaparían en cada tema: las que caen según el reparto estimado de Pamplona por la parte que fallas o dejas en blanco. Arriba, lo que más te cuesta.</p>
         {perdidas.length === 0 ? <p style={pSmall}>Aún no hay datos: hace falta haber contestado al menos {MIN_VISTAS} preguntas de un tema.</p> : (
