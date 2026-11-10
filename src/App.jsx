@@ -14,10 +14,28 @@ import { semanaPlan, sesionesPendientes, isoLocal, fechaDeIso, planDelDia } from
 // El historial conserva todas las preguntas contestadas. El banco de estudio,
 // en cambio, excluye las retiradas tras una auditoría editorial.
 const esPreguntaActiva = (pregunta) => pregunta.estado !== "retirada";
-const PREGUNTAS_ACTIVAS = PREGUNTAS.filter(esPreguntaActiva);
+// Preguntas repetidas: la misma pregunta copiada en el banco desde un examen real, o repetida
+// por el tribunal en dos exámenes. En las sesiones y simulacros cuenta una sola vez: se queda la
+// real (la del examen más reciente de Navarra, por el orden de reales.js) y, si no hay real, la
+// primera del banco. En «Examen real completo» siguen saliendo todas.
+// Clave: el enunciado normalizado; si es corto (genérico), también las opciones.
+const normTxt = (t) => String(t || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+const claveDup = (q) => { const e = normTxt(q.q); return e.length > 60 ? e : `${e}|${(q.o || []).map(normTxt).sort().join("|")}`; };
+const ALIAS_DUPLICADAS = new Map(); // id quitado → id que se queda
+const PRIMERA_POR_CLAVE = new Map();
+const quitarDuplicadas = (lista) => lista.filter((q) => {
+  const k = claveDup(q);
+  const queda = PRIMERA_POR_CLAVE.get(k);
+  if (queda) { ALIAS_DUPLICADAS.set(q.id, queda); return false; }
+  PRIMERA_POR_CLAVE.set(k, q.id);
+  return true;
+});
 // Preguntas literales de exámenes reales (src/data/reales.js), con la respuesta oficial.
-const REALES_ACTIVAS = REALES.filter(esPreguntaActiva);
+const REALES_ACTIVAS = quitarDuplicadas(REALES.filter(esPreguntaActiva));
+const PREGUNTAS_ACTIVAS = quitarDuplicadas(PREGUNTAS.filter(esPreguntaActiva));
 const TODAS_ACTIVAS = [...PREGUNTAS_ACTIVAS, ...REALES_ACTIVAS];
+// Todas las preguntas, también retiradas y repetidas, para ver tandas antiguas.
+const PREGUNTA_POR_ID = new Map([...PREGUNTAS, ...REALES].map((q) => [q.id, q]));
 const realesDeExamen = (codigo) =>
   ((EXAMENES_REALES.find((e) => e.codigo === codigo) || {}).preguntas || []).filter(esPreguntaActiva);
 
@@ -35,7 +53,7 @@ const defaultState = () => ({ temas: {}, falladas: [], supuestos: {}, sesiones: 
 // Compatibilidad con estados guardados antes de introducir preguntas, notasResumen o confianza.
 const normalizarEstado = (s) => {
   const base = s || defaultState();
-  return {
+  return migrarDuplicadas({
     ...base,
     temas: base.temas || {},
     falladas: base.falladas || [],
@@ -43,7 +61,19 @@ const normalizarEstado = (s) => {
     preguntas: base.preguntas || {},
     notasResumen: base.notasResumen || {},
     confianza: base.confianza || {},
-  };
+  });
+};
+// El repaso de una pregunta repetida que se ha quitado pasa a su gemela, si esta aún no tiene historial.
+const migrarDuplicadas = (est) => {
+  let preguntas = est.preguntas, falladas = est.falladas, cambio = false;
+  for (const [de, a] of ALIAS_DUPLICADAS) {
+    if (preguntas[de] && !preguntas[a]) {
+      if (preguntas === est.preguntas) preguntas = { ...preguntas };
+      preguntas[a] = { ...preguntas[de] }; cambio = true;
+    }
+    if (falladas.includes(de) && !falladas.includes(a)) { falladas = [...falladas, a]; cambio = true; }
+  }
+  return cambio ? { ...est, preguntas, falladas } : est;
 };
 // Orden del temario (G1–G13 y después E1–E59), como van las preguntas en el examen.
 const ordenTema = (t) => (t[0] === "G" ? 0 : 100) + (parseInt(t.slice(1), 10) || 0);
@@ -1619,7 +1649,8 @@ const iniciar = () => {
   };
 
   const finalizar = async (ansParam) => {
-    const rs = corregir(ansParam || answers);
+    const respDadas = ansParam || answers;
+    const rs = corregir(respDadas);
     const next = { ...state, temas: { ...state.temas }, falladas: [...state.falladas], preguntas: { ...(state.preguntas || {}) } };
     rs.forEach((r, i) => {
       // Un acierto marcado «dudo» o «a ciegas» no se sabía: vuelve al repaso como un fallo
@@ -1686,9 +1717,13 @@ next.sesiones = [
     examen,
     titulo,
     ...(planFecha && (modo === "hoy" || modo === "pamplona") ? { plan: planFecha } : {}),
+    // Detalle para volver a ver la tanda: id, opción elegida (índice original o null) y seguridad.
+    detalle: pool.map((q, i) => ({ id: q.id, r: esBlanco(respDadas[i]) ? null : q._order[respDadas[i]], s: conf[i] || null })),
     ...(Object.keys(seguridadTanda).length ? { seguridad: seguridadTanda } : {})
   }
-].slice(-60);
+].slice(-60)
+  // Solo las 30 últimas guardan el detalle, para que el progreso no crezca sin límite.
+  .map((x, k, arr) => (k < arr.length - 30 && x.detalle ? (({ detalle, ...resto }) => resto)(x) : x));
     await persist(next);
     setConfirmFin(false);
     setFase("fin");
@@ -2134,51 +2169,8 @@ next.sesiones = [
       </Ficha>
 
       <Ficha codigo="REVISIÓN" titulo="Pregunta a pregunta">
-        <p style={p}>Aquí está la corrección completa: la opción válida, lo que marcaste y la explicación de cada pregunta.</p>
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 18 }}>
-          <Chip on={filtroRev === "todas"} onClick={() => setFiltroRev("todas")}>Todas ({pool.length})</Chip>
-          <Chip on={filtroRev === "fallos"} onClick={() => setFiltroRev("fallos")} disabled={!f}>Solo fallos ({f})</Chip>
-          <Chip on={filtroRev === "blancos"} onClick={() => setFiltroRev("blancos")} disabled={!b}>Solo en blanco ({b})</Chip>
-          {seguroMal > 0 && <Chip on={filtroRev === "seguroMal"} onClick={() => setFiltroRev("seguroMal")}>Falladas yendo seguro ({seguroMal})</Chip>}
-        </div>
-        {visibles.map(({ q, i, r }) => {
-          const acc = r.ok ? C.ok : r.blank ? C.ink2 : C.red;
-          return (
-            <div key={q.id} style={{ border: `1px solid ${C.hair}`, borderLeft: `3px solid ${acc}`, borderRadius: 4, padding: 14, marginBottom: 12, background: C.paper }}>
-              <div style={{ display: "flex", justifyContent: "space-between", gap: 10, flexWrap: "wrap", marginBottom: 8 }}>
-                <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 0.5, color: C.ink2 }}>{i + 1} · {q.tema} — {temaTitulo(q.tema)}</span>
-                <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, fontWeight: 700, color: acc }}>
-                  {r.ok ? "✓ ACIERTO" : r.blank ? "— EN BLANCO" : "✗ FALLO"}
-                  {nombreSeguridad(i) && <span style={{ color: !r.ok && !r.blank && conf[i] === "seguro" ? C.red : C.ink2, fontWeight: 600 }}>{` · marcaste ${nombreSeguridad(i).toLowerCase()}`}</span>}
-                </span>
-              </div>
-              <p style={{ ...p, fontWeight: 600 }}>{q.q}</p>
-              <div style={{ display: "grid", gap: 6, margin: "10px 0 12px" }}>
-                {q._order.map((origIdx, shownIdx) => {
-                  const esCorrecta = origIdx === q.c, esTuya = answers[i] === shownIdx;
-                  let bg = C.card, border = C.hair;
-                  if (esCorrecta) { bg = C.okSoft; border = C.ok; } else if (esTuya) { bg = C.redSoft; border = C.red; }
-                  return (
-                    <div key={shownIdx} style={{ padding: "9px 12px", background: bg, border: `1.5px solid ${border}`, borderRadius: 4, fontFamily: SANS, fontSize: 14, color: C.ink, display: "flex", gap: 10, lineHeight: 1.45 }}>
-                      <span style={{ fontFamily: MONO, fontWeight: 700, color: esCorrecta ? C.ok : C.ink2 }}>{String.fromCharCode(97 + shownIdx)})</span>
-                      <span style={{ flex: 1 }}>{q.o[origIdx]}</span>
-                      {(esCorrecta || esTuya) && (
-                        <span style={{ fontFamily: MONO, fontSize: 10, letterSpacing: 0.5, alignSelf: "center", whiteSpace: "nowrap", color: esCorrecta ? C.ok : C.red }}>
-                          {esCorrecta && esTuya ? "correcta · tu respuesta" : esCorrecta ? "correcta" : "tu respuesta"}
-                        </span>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-              <div style={{ borderLeft: `3px solid ${C.slate}`, padding: "8px 14px", background: C.card }}>
-                <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate, marginBottom: 4 }}>EXPLICACIÓN</div>
-                <p style={{ ...pSmall, margin: 0 }}>{q.exp}</p>
-                {!r.ok && <ApuntarRegla key={q.id} q={q} state={state} persist={persist} />}
-              </div>
-            </div>
-          );
-        })}
+        <p style={p}>Aquí está la corrección completa: la opción válida, lo que marcaste y la explicación de cada pregunta. La puedes volver a ver más adelante en Progreso, en «Últimas tandas».</p>
+        <RevisionTanda items={pool.map((q, i) => ({ q, elegida: esBlanco(answers[i]) ? null : q._order[answers[i]], conf: conf[i] || null }))} state={state} persist={persist} />
         <button className="cta" style={ctaGhost} onClick={() => setFase("config")}>Otra tanda</button>
       </Ficha>
       </>
@@ -2555,6 +2547,23 @@ function Progreso({ state, persist }) {
     try { await navigator.clipboard.writeText(texto); setCopiado(true); } catch { setCopiado(false); }
   };
 
+  // Ver una tanda antigua (las que se guardaron con detalle).
+  const [verFecha, setVerFecha] = useState(null);
+  const fechaLarga = (f) => new Date(f).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
+  const sesionVista = verFecha ? (state.sesiones || []).find((x) => x.fecha === verFecha) : null;
+  if (sesionVista) {
+    const items = (sesionVista.detalle || []).map((d) => ({ q: PREGUNTA_POR_ID.get(d.id), elegida: d.r, conf: d.s })).filter((x) => x.q);
+    return (
+      <div>
+        <button className="cta" style={{ ...ctaGhost, marginBottom: 14 }} onClick={() => setVerFecha(null)}>← Volver al progreso</button>
+        <Ficha codigo={`TANDA ANTIGUA · ${fechaLarga(sesionVista.fecha)}`} titulo={sesionVista.titulo || `Tanda · ${sesionVista.n} preguntas`}>
+          <p style={{ ...pSmall, fontFamily: MONO }}>{sesionVista.aciertos}✓ · {sesionVista.fallos}✗ · {sesionVista.blancos}∅ / {sesionVista.n} · {fmtNum(netasDe(sesionVista), 2)} netas</p>
+          <RevisionTanda items={items} state={state} persist={persist} />
+        </Ficha>
+      </div>
+    );
+  }
+
   return (
     <div>
       <Ficha codigo="PRIORIDADES" titulo="Dónde pierdes puntos">
@@ -2622,20 +2631,88 @@ function Progreso({ state, persist }) {
       {state.sesiones.length > 0 && (
         <Ficha codigo="HISTORIAL" titulo="Últimas tandas">
           <div style={{ display: "grid", gap: 6 }}>
-            {[...state.sesiones].reverse().slice(0, 10).map((s, i) => (
-             <div key={i} style={{ display: "flex", justifyContent: "space-between", fontFamily: MONO, fontSize: 12, color: C.ink2, borderBottom: `1px solid ${C.hair}`, paddingBottom: 5 }}>
-  <span>
+            {[...state.sesiones].reverse().slice(0, 30).map((s, i) => (
+             <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8, fontFamily: MONO, fontSize: 12, color: C.ink2, borderBottom: `1px solid ${C.hair}`, paddingBottom: 5 }}>
+  <span style={{ minWidth: 0 }}>
     <b style={{ color: C.ink }}>{s.titulo || `Tanda · ${s.n} preguntas`}</b><br />
     {new Date(s.fecha).toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}
   </span>
-  <span><b style={{ color: C.ok }}>{s.aciertos}✓</b> · <b style={{ color: C.red }}>{s.fallos}✗</b> · {s.blancos}∅ <span style={{ color: C.ink }}>/ {s.n}</span></span>
+  <span style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
+    <span><b style={{ color: C.ok }}>{s.aciertos}✓</b> · <b style={{ color: C.red }}>{s.fallos}✗</b> · {s.blancos}∅ <span style={{ color: C.ink }}>/ {s.n}</span></span>
+    {s.detalle && s.detalle.length > 0 && <button className="cta" style={{ ...ctaGhost, padding: "5px 10px", fontSize: 11 }} onClick={() => { setVerFecha(s.fecha); window.scrollTo({ top: 0 }); }}>Ver</button>}
+  </span>
 </div>
             ))}
+            <p style={{ ...pSmall, margin: "4px 0 0" }}>Las tandas hechas desde el 10 de noviembre se pueden volver a ver con «Ver». Las anteriores solo guardaron el resumen.</p>
           </div>
         </Ficha>
       )}
       <div style={{ marginTop: 18 }}><button className="cta" style={{ ...ctaGhost, color: C.red, borderColor: C.red }} onClick={reset}>Borrar progreso</button></div>
     </div>
+  );
+}
+
+/* ---------- REVISIÓN DE UNA TANDA ----------
+   items: [{ q, elegida (índice original o null), conf ("seguro" | "dudo" | "ciegas" | null) }].
+   Se usa al acabar una tanda y para ver tandas antiguas desde Progreso. */
+function RevisionTanda({ items, state, persist }) {
+  const [filtro, setFiltro] = useState("todas");
+  const res = items.map((it, i) => {
+    const blank = it.elegida === null || it.elegida === undefined;
+    return { ...it, i, blank, ok: !blank && it.elegida === it.q.c };
+  });
+  const f = res.filter((x) => !x.ok && !x.blank).length, b = res.filter((x) => x.blank).length;
+  const seguroMal = res.filter((x) => !x.ok && !x.blank && x.conf === "seguro").length;
+  const visibles = res.filter((x) => (filtro === "fallos" ? !x.ok && !x.blank : filtro === "blancos" ? x.blank : filtro === "seguroMal" ? !x.ok && !x.blank && x.conf === "seguro" : true));
+  const nombre = (c) => (NIVELES_SEGURIDAD.find((n) => n.id === c) || {}).nombre;
+  return (
+    <>
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 18 }}>
+        <Chip on={filtro === "todas"} onClick={() => setFiltro("todas")}>Todas ({res.length})</Chip>
+        <Chip on={filtro === "fallos"} onClick={() => setFiltro("fallos")} disabled={!f}>Solo fallos ({f})</Chip>
+        <Chip on={filtro === "blancos"} onClick={() => setFiltro("blancos")} disabled={!b}>Solo en blanco ({b})</Chip>
+        {seguroMal > 0 && <Chip on={filtro === "seguroMal"} onClick={() => setFiltro("seguroMal")}>Falladas yendo seguro ({seguroMal})</Chip>}
+      </div>
+      {visibles.map((x) => {
+        const { q, i } = x;
+        const acc = x.ok ? C.ok : x.blank ? C.ink2 : C.red;
+        return (
+          <div key={`${q.id}-${i}`} style={{ border: `1px solid ${C.hair}`, borderLeft: `3px solid ${acc}`, borderRadius: 4, padding: 14, marginBottom: 12, background: C.paper }}>
+            <div style={{ display: "flex", justifyContent: "space-between", gap: 10, flexWrap: "wrap", marginBottom: 8 }}>
+              <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 0.5, color: C.ink2 }}>{i + 1} · {q.tema} — {temaTitulo(q.tema)}</span>
+              <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, fontWeight: 700, color: acc }}>
+                {x.ok ? "✓ ACIERTO" : x.blank ? "— EN BLANCO" : "✗ FALLO"}
+                {nombre(x.conf) && <span style={{ color: !x.ok && !x.blank && x.conf === "seguro" ? C.red : C.ink2, fontWeight: 600 }}>{` · marcaste ${nombre(x.conf).toLowerCase()}`}</span>}
+              </span>
+            </div>
+            <p style={{ ...p, fontWeight: 600 }}>{q.q}</p>
+            <div style={{ display: "grid", gap: 6, margin: "10px 0 12px" }}>
+              {q.o.map((texto, k) => {
+                const esCorrecta = k === q.c, esTuya = x.elegida === k;
+                let bg = C.card, border = C.hair;
+                if (esCorrecta) { bg = C.okSoft; border = C.ok; } else if (esTuya) { bg = C.redSoft; border = C.red; }
+                return (
+                  <div key={k} style={{ padding: "9px 12px", background: bg, border: `1.5px solid ${border}`, borderRadius: 4, fontFamily: SANS, fontSize: 14, color: C.ink, display: "flex", gap: 10, lineHeight: 1.45 }}>
+                    <span style={{ fontFamily: MONO, fontWeight: 700, color: esCorrecta ? C.ok : C.ink2 }}>{String.fromCharCode(97 + k)})</span>
+                    <span style={{ flex: 1 }}>{texto}</span>
+                    {(esCorrecta || esTuya) && (
+                      <span style={{ fontFamily: MONO, fontSize: 10, letterSpacing: 0.5, alignSelf: "center", whiteSpace: "nowrap", color: esCorrecta ? C.ok : C.red }}>
+                        {esCorrecta && esTuya ? "correcta · tu respuesta" : esCorrecta ? "correcta" : "tu respuesta"}
+                      </span>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+            <div style={{ borderLeft: `3px solid ${C.slate}`, padding: "8px 14px", background: C.card }}>
+              <div style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 1, color: C.slate, marginBottom: 4 }}>EXPLICACIÓN</div>
+              <p style={{ ...pSmall, margin: 0 }}>{q.exp}</p>
+              {!x.ok && <ApuntarRegla key={`${q.id}-${i}`} q={q} state={state} persist={persist} />}
+            </div>
+          </div>
+        );
+      })}
+    </>
   );
 }
 
