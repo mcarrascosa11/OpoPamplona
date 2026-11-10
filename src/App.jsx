@@ -1479,7 +1479,7 @@ const preguntasAprendido = BANCO.filter(
   const [examen, setExamen] = useState(esSabado); const [tiempoExamen, setTiempoExamen] = useState(esSabado ? 100 : 90);
   const bloque = BLOQUES_SEMANA.find((b) => b.dia === bloqueSel) || BLOQUES_SEMANA[0];
   const vencidasHoy = useMemo(
-    () => preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas),
+    () => preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas, Date.now(), (t) => REPARTO_PAMPLONA[t] || 0),
     [state.preguntas, state.falladas]
   );
   const elegirModo = (m, fecha) => {
@@ -1621,13 +1621,16 @@ const iniciar = () => {
   const finalizar = async (ansParam) => {
     const rs = corregir(ansParam || answers);
     const next = { ...state, temas: { ...state.temas }, falladas: [...state.falladas], preguntas: { ...(state.preguntas || {}) } };
-    rs.forEach((r) => {
+    rs.forEach((r, i) => {
+      // Un acierto marcado «dudo» o «a ciegas» no se sabía: vuelve al repaso como un fallo
+      // (sin contar como fallo en las estadísticas).
+      const suerte = r.ok && (conf[i] === "dudo" || conf[i] === "ciegas");
       const t = next.temas[r.tema] || { vistas: 0, aciertos: 0, fallos: 0 }; t.vistas += 1;
       if (r.ok) { t.aciertos += 1; next.falladas = next.falladas.filter((x) => x !== r.id); }
       else if (!r.blank) { t.fallos += 1; next.falladas = [...next.falladas.filter((x) => x !== r.id), r.id]; }
       next.temas[r.tema] = t;
       const pq = next.preguntas[r.id] || { vistas: 0, aciertos: 0, fallos: 0, ultima: null };
-      const repaso = siguienteRepaso(pq, r.ok ? "ok" : r.blank ? "blanco" : "fallo");
+      const repaso = siguienteRepaso(pq, suerte ? "suerte" : r.ok ? "ok" : r.blank ? "blanco" : "fallo");
       next.preguntas[r.id] = {
         ...pq,
         vistas: (pq.vistas || 0) + 1,
@@ -2115,13 +2118,18 @@ next.sesiones = [
             </div>
           );
         })()}
-        {f + b > 0 && <p style={{ ...pSmall, marginBottom: 14 }}>Los {f + b} fallos y blancos vuelven mañana en la sesión de hoy. Cada vez que los aciertes cuando les toque, se espacian más: 3, 7, 14 y 30 días. Antes, repítelos ahora hasta acertarlos: es lo que más fija el dato.</p>}
+        {(() => {
+          const suertes = rs.filter((r, i) => r.ok && (conf[i] === "dudo" || conf[i] === "ciegas")).length;
+          if (!(f + b + suertes)) return null;
+          const partes = [f + b ? `Los ${f + b} fallos y blancos` : "", suertes ? `${f + b ? "y los" : "Los"} ${suertes} aciertos que marcaste dudo o a ciegas` : ""].filter(Boolean).join(" ");
+          return <p style={{ ...pSmall, marginBottom: 14 }}>{partes} vuelven mañana en la sesión de hoy. Cada vez que los aciertes cuando les toque, se espacian más: 3, 7, 14 y 30 días. No hace falta repetirlos ahora: lo que los fija es recordarlos esos días, cuando ya se te empiezan a olvidar.</p>;
+        })()}
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-          {f + b > 0 && <button className="cta" style={ctaPrimary} onClick={() => {
+          <button className="cta" style={ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
+          {f + b > 0 && <button className="cta" style={ctaGhost} onClick={() => {
             const falladas = pool.filter((q, i) => !rs[i].ok);
             setCola(shuffle(falladas)); setSelRep(null); setShownRep(false); setRondaRep({ total: falladas.length, intentos: 0 }); setFase("repite");
-          }}>Repetir los {f + b} fallos ahora</button>}
-          <button className="cta" style={f + b > 0 ? ctaGhost : ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
+          }}>Repetir los {f + b} fallos ahora (opcional)</button>}
         </div>
       </Ficha>
 

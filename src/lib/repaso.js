@@ -14,7 +14,8 @@ const MARGEN = 12 * 3_600_000; // un acierto unas horas antes de su fecha tambi�
 
 const finDelDia = (ahora) => { const d = new Date(ahora); d.setHours(23, 59, 59, 999); return d.getTime(); };
 
-// resultado: "ok" | "fallo" | "blanco". Devuelve solo { caja, proxima }.
+// resultado: "ok" | "fallo" | "blanco" | "suerte" (acierto marcado dudo o a ciegas, que vuelve
+// como un fallo porque no se sabía). Devuelve solo { caja, proxima }.
 export function siguienteRepaso(registro, resultado, ahora = Date.now()) {
   const caja = Number(registro?.caja) || 0;
   const proxima = Number(registro?.proxima) || 0;
@@ -27,8 +28,11 @@ export function siguienteRepaso(registro, resultado, ahora = Date.now()) {
   return { caja, proxima: proxima || null };
 }
 
-// Preguntas que toca repasar hoy, de la más atrasada a la más reciente.
-export function preguntasVencidas(preguntas, historial = {}, falladas = [], ahora = Date.now()) {
+// Preguntas que toca repasar hoy. Sin pesoDe, de la más atrasada a la más reciente.
+// Con pesoDe (tema → preguntas que caen en el examen), primero las de los temas que más pesan,
+// sin dejar atrás las de temas ligeros: cada día de retraso las va subiendo
+// (una de un tema que no pesa alcanza a una recién vencida de E29, que pesa 10, en una semana).
+export function preguntasVencidas(preguntas, historial = {}, falladas = [], ahora = Date.now(), pesoDe = null) {
   const limite = finDelDia(ahora);
   const pendientes = new Set(falladas || []);
   const out = [];
@@ -42,7 +46,9 @@ export function preguntasVencidas(preguntas, historial = {}, falladas = [], ahor
       out.push({ q, p: Number(h?.ultima) || 0 }); // fallo antiguo, de antes de las cajas
     }
   }
-  return out.sort((a, b) => a.p - b.p).map((x) => x.q);
+  if (!pesoDe) return out.sort((a, b) => a.p - b.p).map((x) => x.q);
+  const prioridad = (x) => Math.sqrt((pesoDe(x.q.tema) || 0) + 1) * (1 + Math.max(0, (ahora - x.p) / 86_400_000) / 3);
+  return out.map((x) => ({ ...x, pr: prioridad(x) })).sort((a, b) => b.pr - a.pr).map((x) => x.q);
 }
 
 export function resumenCajas(historial = {}, falladas = [], idsActivos = null) {
