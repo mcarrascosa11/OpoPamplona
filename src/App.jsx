@@ -82,6 +82,20 @@ const netasDe = (s) => (s.aciertos || 0) - (s.fallos || 0) / 3;
 const fmtNum = (x, d = 1) => x.toFixed(d).replace(".", ",");
 const TITULO_SIMULACRO_PAMPLONA = "Simulacro Pamplona";
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+// Mezcla la tanda repartiendo las preguntas de cada bloque de la semana a lo largo de toda ella,
+// para que no salgan muchas seguidas de lo mismo (por ejemplo, veinte de suelo al principio).
+const BLOQUE_DE_TEMA = new Map(BLOQUES_SEMANA.flatMap((b) => b.temas.map((t) => [t, b.dia])));
+const intercalar = (lista) => {
+  const grupos = new Map();
+  for (const q of shuffle(lista)) {
+    const k = BLOQUE_DE_TEMA.get(q.tema) ?? q.tema;
+    if (!grupos.has(k)) grupos.set(k, []);
+    grupos.get(k).push(q);
+  }
+  const conClave = [];
+  for (const g of grupos.values()) g.forEach((q, i) => conClave.push({ q, k: (i + 0.15 + Math.random() * 0.7) / g.length }));
+  return conClave.sort((a, b) => a.k - b.k).map((x) => x.q);
+};
 // Las opciones se muestran siempre en su orden original, como en el examen: así cuadran las letras
 // que citan las explicaciones y las opciones «Todas son correctas», «Ninguna…» o «b) y c)».
 // Algunos exámenes reales tienen tres opciones en vez de cuatro: se muestran las que haya.
@@ -1546,8 +1560,8 @@ const preguntasAprendido = BANCO.filter(
   const enTema = (q) => q.tema === `${parteR}${temaUnico}`;
   const disponiblesTema = BANCO.filter(enTema).length;
 
-// Sesión de hoy: primero los fallos que vuelven hoy (hasta el 60 % de la tanda) y después
-// preguntas del bloque del día, con más peso para lo no visto, lo fallado y los temas que más caen.
+// Sesión de hoy: los fallos que vuelven hoy (hasta el 60 % de la tanda) y preguntas del bloque
+// del día, con más peso para lo no visto, lo fallado y los temas que más caen. Todo mezclado.
 const seleccionHoy = () => {
   const cupo = Math.min(vencidasHoy.length, Math.round(numHoy * 0.6));
   const repaso = vencidasHoy.slice(0, cupo);
@@ -1555,11 +1569,11 @@ const seleccionHoy = () => {
   const delBloque = TODAS_ACTIVAS.filter((q) => bloque.temas.includes(q.tema) && !usados.has(q.id));
   const nuevas = seleccionarAdaptativas(delBloque, state.preguntas, state.falladas, numHoy - repaso.length,
     (t) => 0.5 + (REPARTO_PAMPLONA[t] || 0) / 4);
-  return [...shuffle(repaso), ...nuevas];
+  return intercalar([...repaso, ...nuevas]);
 };
 
 // Simulacro Pamplona: 100 preguntas con el reparto estimado por tema. Para medir el nivel
-// sin inflarlo, se eligen primero las que no has visto; van en el orden del temario.
+// sin inflarlo, se eligen primero las que no has visto; van mezcladas.
 const seleccionPamplona = () => {
   const historial = state.preguntas || {};
   const elegir = (lista, n) => shuffle(lista)
@@ -1576,7 +1590,7 @@ const seleccionPamplona = () => {
     const usados = new Set(elegidas.map((q) => q.id));
     elegidas.push(...elegir(TODAS_ACTIVAS.filter((q) => !usados.has(q.id) && (REPARTO_PAMPLONA[q.tema] || 0) > 0), 100 - elegidas.length));
   }
-  return elegidas.sort((a, b) => ordenTema(a.tema) - ordenTema(b.tema));
+  return intercalar(elegidas);
 };
 
 const iniciar = () => {
@@ -1806,7 +1820,7 @@ next.sesiones = [
             <p style={{ ...pSmall, margin: 0 }}>
               {new Date().getDay() === 6 ? "Hoy es sábado: según el plan toca el simulacro Pamplona. " : new Date().getDay() === 0 ? "Hoy es domingo, día libre en el plan. " : ""}
               {planFecha && planFecha !== hoyIso ? `Recuperas la sesión del ${nombrePlan(planFecha)}. ` : ""}
-              Primero van los fallos que vuelven hoy ({vencidasHoy.length}; como mucho, el 60 % de la sesión). El resto son preguntas de {bloque.titulo} ({bloque.detalle}), unas {pesoBloque(bloque)} de 100 en el examen: primero las que no has visto y las que fallas, con más peso para los temas que más caen.
+              Entran los fallos que vuelven hoy ({vencidasHoy.length}; como mucho, el 60 % de la sesión) y preguntas de {bloque.titulo} ({bloque.detalle}), unas {pesoBloque(bloque)} de 100 en el examen, eligiendo antes las que no has visto y las que fallas, con más peso para los temas que más caen. Todo va mezclado, sin muchas seguidas del mismo bloque.
             </p>
           </div>
         )}
@@ -1814,7 +1828,7 @@ next.sesiones = [
         {modo === "pamplona" && (
           <div style={{ border: `1px solid ${C.hair}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
             <Label>Simulacro con el reparto de Pamplona</Label>
-            <p style={{ ...pSmall, margin: 0 }}>{planFecha && planFecha !== hoyIso ? `Recuperas el simulacro del ${nombrePlan(planFecha)}. ` : ""}100 preguntas repartidas por tema según el examen estimado de Pamplona (por ejemplo, 10 de E29 y 4 de E53). Salen primero las que no has visto, de exámenes reales y del banco, en el orden del temario como en el examen. Lo recomendado: cronometrado a 100 minutos y marcando la seguridad de cada respuesta.</p>
+            <p style={{ ...pSmall, margin: 0 }}>{planFecha && planFecha !== hoyIso ? `Recuperas el simulacro del ${nombrePlan(planFecha)}. ` : ""}100 preguntas repartidas por tema según el examen estimado de Pamplona (por ejemplo, 10 de E29 y 4 de E53). Se eligen antes las que no has visto, de exámenes reales y del banco, y van mezcladas, sin muchas seguidas del mismo bloque. Lo recomendado: cronometrado a 100 minutos y marcando la seguridad de cada respuesta.</p>
           </div>
         )}
 
