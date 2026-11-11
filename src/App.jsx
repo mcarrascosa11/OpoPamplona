@@ -2548,9 +2548,22 @@ function LineaEvolucion({ puntos, max, refs = [], formato, color }) {
   );
 }
 
+// Acierto en las preguntas de exámenes reales (id R-…) frente a las del banco de la app.
+// Cuenta cada vez que ha salido una pregunta, también las repetidas.
+const realesFrenteApp = (preguntas = {}) => {
+  const r = { reales: { v: 0, a: 0, f: 0 }, app: { v: 0, a: 0, f: 0 } };
+  for (const [id, h] of Object.entries(preguntas)) {
+    const g = id.startsWith("R-") ? r.reales : r.app;
+    g.v += h.vistas || 0; g.a += h.aciertos || 0; g.f += h.fallos || 0;
+  }
+  return r;
+};
+const pctDe = (g) => (g.v ? Math.round((g.a / g.v) * 100) : null);
+
 function Evolucion({ state }) {
   const ses = (state.sesiones || []).filter((s) => s.n > 0);
   if (!ses.length) return null;
+  const rf = realesFrenteApp(state.preguntas);
   const porDia = new Map();
   for (const s of ses) {
     const d = isoLocal(new Date(s.fecha));
@@ -2584,6 +2597,16 @@ function Evolucion({ state }) {
         {ultimoSim ? `El último simulacro (${fechaCorta(isoLocal(new Date(ultimoSim.fecha)))}, ${ultimoSim.n} preguntas) da ${fmtNum(nota30(ultimoSim), 2)} sobre 30. ` : "Aún no has hecho ningún simulacro de 50 preguntas o más. "}
         La estimación aplica tu acierto y tus fallos de cada tema al reparto del examen de Pamplona. Corte: 15. Objetivo: 30.
       </p>
+      {(rf.reales.v > 0 || rf.app.v > 0) && (
+        <>
+          <Label style={{ marginTop: 14 }}>Exámenes reales frente a preguntas de la app</Label>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(130px,1fr))", gap: 12, marginBottom: 8 }}>
+            <Stat n={pctDe(rf.reales) === null ? "—" : `${pctDe(rf.reales)} %`} label={`acierto en preguntas de exámenes reales (${rf.reales.a} de ${rf.reales.v})`} />
+            <Stat n={pctDe(rf.app) === null ? "—" : `${pctDe(rf.app)} %`} label={`acierto en preguntas de la app (${rf.app.a} de ${rf.app.v})`} />
+          </div>
+          <p style={pSmall}>Cuenta cada vez que te ha salido una pregunta, también las repetidas; los blancos cuentan como no acertadas. Las de exámenes reales incluyen las de otras administraciones.</p>
+        </>
+      )}
       {sims.length > 0 && (
         <>
           <Label style={{ marginTop: 14 }}>Nota sobre 30 en los simulacros</Label>
@@ -2631,6 +2654,8 @@ function Progreso({ state, persist }) {
     const cf = state.confianza || {};
     const seg = NIVELES_SEGURIDAD.filter((n) => cf[n.id]).map((n) => `${n.nombre} ${cf[n.id].aciertos}✓/${cf[n.id].fallos}✗`);
     if (seg.length) lineas.push(`Seguridad: ${seg.join(" · ")}`);
+    const rf = realesFrenteApp(state.preguntas);
+    lineas.push(`Acierto en exámenes reales: ${pctDe(rf.reales) ?? "-"}% (${rf.reales.a}✓/${rf.reales.f}✗ de ${rf.reales.v}) · en preguntas de la app: ${pctDe(rf.app) ?? "-"}% (${rf.app.a}✓/${rf.app.f}✗ de ${rf.app.v})`);
     lineas.push("", "TEMAS · contestadas · % acierto · preguntas en el reparto");
     Object.entries(state.temas)
       .map(([t, s]) => ({ t, v: s.vistas || 0, pct: s.vistas ? Math.round(((s.aciertos || 0) / s.vistas) * 100) : 0, n: REPARTO_PAMPLONA[t] || 0 }))
