@@ -34,6 +34,10 @@ const quitarDuplicadas = (lista) => lista.filter((q) => {
 const REALES_ACTIVAS = quitarDuplicadas(REALES.filter(esPreguntaActiva));
 const PREGUNTAS_ACTIVAS = quitarDuplicadas(PREGUNTAS.filter(esPreguntaActiva));
 const TODAS_ACTIVAS = [...PREGUNTAS_ACTIVAS, ...REALES_ACTIVAS];
+// Repaso espaciado: solo entran los temas que tienen alguna pregunta en el reparto estimado de
+// Pamplona. Los fallos de los demás siguen saliendo en las sesiones de su bloque y en «Repasar mis fallos» (en «Más modos»).
+const entraEnRepaso = (tema) => (REPARTO_PAMPLONA[tema] || 0) > 0;
+const ACTIVAS_REPASO = TODAS_ACTIVAS.filter((q) => entraEnRepaso(q.tema));
 // Todas las preguntas, también retiradas y repetidas, para ver tandas antiguas.
 const PREGUNTA_POR_ID = new Map([...PREGUNTAS, ...REALES].map((q) => [q.id, q]));
 const realesDeExamen = (codigo) =>
@@ -253,7 +257,7 @@ function HoyToca({ state, abrirSesion }) {
   const hoy = new Date();
   const dia = hoy.getDay();
   const bloque = bloqueDelDia(hoy);
-  const vencidas = preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas).length;
+  const vencidas = preguntasVencidas(ACTIVAS_REPASO, state.preguntas, state.falladas).length;
   const simulacros = (state.sesiones || []).filter((s) => s.titulo === TITULO_SIMULACRO_PAMPLONA).slice(-6);
   const semana = semanaPlan(state.sesiones, hoy);
   const pendientes = sesionesPendientes(state.sesiones, hoy);
@@ -1523,7 +1527,7 @@ const preguntasAprendido = BANCO.filter(
   const [examen, setExamen] = useState(esSabado); const [tiempoExamen, setTiempoExamen] = useState(esSabado ? 100 : 90);
   const bloque = BLOQUES_SEMANA.find((b) => b.dia === bloqueSel) || BLOQUES_SEMANA[0];
   const vencidasHoy = useMemo(
-    () => preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas, Date.now(), (t) => REPARTO_PAMPLONA[t] || 0),
+    () => preguntasVencidas(ACTIVAS_REPASO, state.preguntas, state.falladas, Date.now(), (t) => REPARTO_PAMPLONA[t] || 0),
     [state.preguntas, state.falladas]
   );
   const elegirModo = (m, fecha) => {
@@ -1669,7 +1673,9 @@ const iniciar = () => {
     rs.forEach((r, i) => {
       // Un acierto marcado «dudo» o «a ciegas» no se sabía: vuelve al repaso como un fallo
       // (sin contar como fallo en las estadísticas).
-      const suerte = r.ok && (conf[i] === "dudo" || conf[i] === "ciegas");
+      // Un acierto a ciegas vuelve como un fallo; uno con duda avanza como un acierto normal
+      // (si fue suerte, se fallará en la siguiente vuelta y volverá a empezar).
+      const suerte = r.ok && conf[i] === "ciegas";
       const t = next.temas[r.tema] || { vistas: 0, aciertos: 0, fallos: 0 }; t.vistas += 1;
       if (r.ok) { t.aciertos += 1; next.falladas = next.falladas.filter((x) => x !== r.id); }
       else if (!r.blank) { t.fallos += 1; next.falladas = [...next.falladas.filter((x) => x !== r.id), r.id]; }
@@ -2168,10 +2174,14 @@ next.sesiones = [
           );
         })()}
         {(() => {
-          const suertes = rs.filter((r, i) => r.ok && (conf[i] === "dudo" || conf[i] === "ciegas")).length;
-          if (!(f + b + suertes)) return null;
-          const partes = [f + b ? `Los ${f + b} fallos y blancos` : "", suertes ? `${f + b ? "y los" : "Los"} ${suertes} aciertos que marcaste dudo o a ciegas` : ""].filter(Boolean).join(" ");
-          return <p style={{ ...pSmall, marginBottom: 14 }}>{partes} vuelven mañana en la sesión de hoy. Cada vez que los aciertes cuando les toque, se espacian más: 3, 7, 14 y 30 días. No hace falta repetirlos ahora: lo que los fija es recordarlos esos días, cuando ya se te empiezan a olvidar.</p>;
+          const enCola = (i) => entraEnRepaso(pool[i].tema);
+          const fallosCola = rs.filter((r, i) => !r.ok && enCola(i)).length;
+          const fuera = rs.filter((r, i) => !r.ok && !enCola(i)).length;
+          const suertes = rs.filter((r, i) => r.ok && conf[i] === "ciegas" && enCola(i)).length;
+          if (!(fallosCola + suertes + fuera)) return null;
+          const partes = [fallosCola ? `Los ${fallosCola} fallos y blancos` : "", suertes ? `${fallosCola ? "y los" : "Los"} ${suertes} aciertos que marcaste a ciegas` : ""].filter(Boolean).join(" ");
+          const notaFuera = fuera ? ` ${fuera === 1 ? "Un fallo es" : `${fuera} fallos son`} de temas que no tienen preguntas en el reparto estimado: no ${fuera === 1 ? "entra" : "entran"} en el repaso, pero te ${fuera === 1 ? "saldrá" : "saldrán"} en las sesiones de su bloque.` : "";
+          return <p style={{ ...pSmall, marginBottom: 14 }}>{partes ? `${partes} vuelven mañana en la sesión de hoy. Cada vez que los aciertes cuando les toque, también marcando dudo, se espacian más: 3, 7, 14 y 30 días. No hace falta repetirlos ahora: lo que los fija es recordarlos esos días, cuando ya se te empiezan a olvidar.` : ""}{notaFuera}</p>;
         })()}
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
           <button className="cta" style={ctaPrimary} onClick={() => setFase("config")}>Otra tanda</button>
@@ -2637,9 +2647,9 @@ function Progreso({ state, persist }) {
   const perdidas = porTema.filter((x) => x.vistas >= MIN_VISTAS).sort((a, b) => b.escapan - a.escapan).slice(0, 12);
   const maxEscapan = Math.max(0.01, ...perdidas.map((x) => x.escapan));
   const sinDatos = porTema.filter((x) => x.vistas < MIN_VISTAS && x.n >= 2).sort((a, b) => b.n - a.n);
-  const idsActivos = useMemo(() => new Set(TODAS_ACTIVAS.map((q) => q.id)), []);
+  const idsActivos = useMemo(() => new Set(ACTIVAS_REPASO.map((q) => q.id)), []);
   const cajas = resumenCajas(state.preguntas, state.falladas, idsActivos);
-  const vencidas = preguntasVencidas(TODAS_ACTIVAS, state.preguntas, state.falladas).length;
+  const vencidas = preguntasVencidas(ACTIVAS_REPASO, state.preguntas, state.falladas).length;
 
   // Informe en texto para pegarlo en el chat con Claude y que prepare preguntas sobre los fallos.
   const [informe, setInforme] = useState("");
@@ -2720,7 +2730,7 @@ function Progreso({ state, persist }) {
           <Stat n={cajas.enRepaso} label="en repaso" />
           <Stat n={cajas.superadas} label="superadas" accent={C.ok} />
         </div>
-        <p style={pSmall}>Cada fallo o blanco vuelve al día siguiente; si lo aciertas cuando le toca, a los 3, 7, 14 y 30 días. Tras acertarlo a los 30 días, queda superado.</p>
+        <p style={pSmall}>Cada fallo, blanco o acierto a ciegas vuelve al día siguiente; si lo aciertas cuando le toca (seguro o con duda), a los 3, 7, 14 y 30 días. Tras acertarlo a los 30 días, queda superado. Solo entran los temas con alguna pregunta en el reparto estimado de Pamplona; los fallos de los demás siguen saliendo en las sesiones de su bloque y en «Repasar mis fallos» (en «Más modos»).</p>
         <Label style={{ marginTop: 14 }}>Pasar tus fallos a Claude</Label>
         <p style={pSmall}>Copia un informe con tus temas y tus preguntas más falladas, pégalo en el chat con Claude y te prepara preguntas nuevas sobre lo que fallas, sacadas del texto de la norma.</p>
         <button className="cta" style={ctaGhost} onClick={copiarInforme}>Copiar mis fallos para Claude</button>
