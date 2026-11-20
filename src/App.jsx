@@ -1481,7 +1481,7 @@ function Test({ state, persist, preset, clearPreset }) {
   const [fase, setFase] = useState("config");
   const [pool, setPool] = useState([]); const [idx, setIdx] = useState(0);
   const [sel, setSel] = useState(null); const [shown, setShown] = useState(false);
-  const [answers, setAnswers] = useState([]); const [confirmFin, setConfirmFin] = useState(false); const [filtroRev, setFiltroRev] = useState("todas");
+  const [answers, setAnswers] = useState([]); const [hechas, setHechas] = useState([]); const [confirmFin, setConfirmFin] = useState(false); const [filtroRev, setFiltroRev] = useState("todas");
   // Repetir los fallos al acabar: ronda inmediata hasta acertar cada uno una vez. No toca estadísticas.
   const [cola, setCola] = useState([]); const [selRep, setSelRep] = useState(null); const [shownRep, setShownRep] = useState(false);
   const [rondaRep, setRondaRep] = useState({ total: 0, intentos: 0 });
@@ -1637,7 +1637,7 @@ const iniciar = () => {
   
     setPool(seleccion);
     setIdx(0); setSel(null); setShown(false);
-    setAnswers(new Array(seleccion.length).fill(null));
+    setAnswers(new Array(seleccion.length).fill(null)); setHechas(new Array(seleccion.length).fill(false));
     setConf(new Array(seleccion.length).fill(null));
     setConfirmFin(false); setFiltroRev("todas");
     if (examen) setSegRestantes(tiempoExamen * 60);
@@ -1750,9 +1750,13 @@ next.sesiones = [
   };
 
   // ── Modo práctica: corrección al momento ──
-  const responder = () => { if (sel === null || shown) return; marcarRespuesta(idx, sel); setShown(true); };
-  const enBlanco = () => { if (shown) return; marcarRespuesta(idx, null); setShown(true); };
-  const siguiente = async () => { if (idx + 1 < pool.length) { setIdx(idx + 1); setSel(null); setShown(false); } else await finalizar(); };
+  // Se puede volver a las preguntas ya corregidas para verlas otra vez (sin cambiar la respuesta).
+  const marcarHecha = (i) => setHechas((prev) => { const n = [...prev]; n[i] = true; return n; });
+  const verPregunta = (i) => { const h = !!hechas[i]; setIdx(i); setSel(h ? (answers[i] ?? null) : null); setShown(h); };
+  const responder = () => { if (sel === null || shown) return; marcarRespuesta(idx, sel); marcarHecha(idx); setShown(true); };
+  const enBlanco = () => { if (shown) return; marcarRespuesta(idx, null); marcarHecha(idx); setShown(true); };
+  const siguiente = async () => { if (idx + 1 < pool.length) verPregunta(idx + 1); else await finalizar(); };
+  const anterior = () => { if (idx > 0) verPregunta(idx - 1); };
 
   // ── Modo examen: sin corrección hasta el final, navegación libre ──
   const irA = (i) => { if (i >= 0 && i < pool.length) { setIdx(i); setConfirmFin(false); } };
@@ -2060,9 +2064,15 @@ next.sesiones = [
           </div>
         )}
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          {idx > 0 && <button className="cta" style={ctaGhost} onClick={anterior}>← Anterior</button>}
           {!shown && <button className="cta" style={ctaPrimary} onClick={responder} disabled={sel === null}>Comprobar</button>}
           {!shown && <button className="cta" style={ctaGhost} onClick={enBlanco}>Dejar en blanco</button>}
           {shown && <button className="cta" style={ctaPrimary} onClick={siguiente}>{idx + 1 < pool.length ? "Siguiente →" : "Ver resultado"}</button>}
+          {(() => {
+            const libre = hechas.findIndex((h) => !h);
+            const actual = libre === -1 ? pool.length - 1 : libre;
+            return actual > idx + 1 ? <button className="cta" style={ctaGhost} onClick={() => verPregunta(actual)}>Ir a la pregunta {actual + 1} →</button> : null;
+          })()}
         </div>
       </Ficha>
     );
