@@ -260,6 +260,7 @@ function HoyToca({ state, abrirSesion }) {
   const vencidas = preguntasVencidas(ACTIVAS_REPASO, state.preguntas, state.falladas).length;
   const simulacros = (state.sesiones || []).filter((s) => s.titulo === TITULO_SIMULACRO_PAMPLONA).slice(-6);
   const semana = semanaPlan(state.sesiones, hoy);
+  const tandaAMedias = leerTanda();
   const pendientes = sesionesPendientes(state.sesiones, hoy);
   const deHoy = semana.find((d) => d.iso === isoLocal(hoy));
   const titulo = bloque ? `${bloque.nombre} · ${bloque.titulo}` : dia === 6 ? "Sábado · Simulacro Pamplona" : "Domingo · Día libre";
@@ -291,8 +292,14 @@ function HoyToca({ state, abrirSesion }) {
           );
         })}
       </div>
+      {tandaAMedias && (
+        <div style={{ border: `1.5px solid ${C.red}`, borderRadius: 6, padding: 12, marginBottom: 12 }}>
+          <p style={{ ...pSmall, margin: "0 0 8px" }}>Tienes una tanda sin terminar: {tandaAMedias.titulo || "tanda"}, con {contestadasTanda(tandaAMedias)} contestadas.</p>
+          <button className="cta" style={ctaPrimary} onClick={() => abrirSesion({ continuar: true })}>Continuar donde la dejé →</button>
+        </div>
+      )}
       {bloque && deHoy?.estado !== "hecha" && (
-        <p style={p}>Sesión de hoy: primero los <b>{vencidas}</b> fallos que vuelven hoy y después preguntas de {bloque.detalle}, unas {pesoBloque(bloque)} de 100 en el examen. Corrige cada fallo leyendo el artículo y apunta la regla en una línea.</p>
+        <p style={p}>Sesión de hoy: los <b>{vencidas}</b> fallos que vuelven hoy (como mucho, el 60 % de la sesión), mezclados con preguntas de {bloque.detalle}, unas {pesoBloque(bloque)} de 100 en el examen. Corrige cada fallo leyendo el artículo y apunta la regla en una línea.</p>
       )}
       {dia === 6 && deHoy?.estado !== "hecha" && <p style={p}>Simulacro de 100 con el reparto de Pamplona, a 100 minutos y marcando la seguridad. Después, 20 minutos para mirar los fallos.</p>}
       {deHoy?.estado === "hecha" && <p style={p}>La sesión de hoy ya está hecha.{pendientes.length ? " Si te apetece, puedes recuperar una atrasada." : ""}</p>}
@@ -1477,6 +1484,15 @@ function Resumenes({ state, persist }) {
 }
 
 /* ---------- TEST ---------- */
+// Tanda en curso: se guarda en este navegador mientras se hace, para poder seguirla
+// si se cierra la pestaña o se recarga la app. Se borra al terminarla o al descartarla.
+const CLAVE_TANDA = "opo-tanda-en-curso";
+const leerTanda = () => {
+  try { const x = JSON.parse(localStorage.getItem(CLAVE_TANDA) || "null"); return x && Array.isArray(x.ids) && x.ids.length ? x : null; } catch { return null; }
+};
+const borrarTanda = () => { try { localStorage.removeItem(CLAVE_TANDA); } catch {} };
+const contestadasTanda = (x) => (x.examen ? (x.answers || []).filter((a) => a !== null && a !== undefined).length : (x.hechas || []).filter(Boolean).length);
+
 function Test({ state, persist, preset, clearPreset }) {
   const [fase, setFase] = useState("config");
   const [pool, setPool] = useState([]); const [idx, setIdx] = useState(0);
@@ -1502,7 +1518,8 @@ function Test({ state, persist, preset, clearPreset }) {
     return x ? x.iso : null;
   };
   const [planFecha, setPlanFecha] = useState(() => preset?.fecha || (esSabado ? planPara("simulacro") : planPara("bloque", preset?.bloque || (bloqueDelDia() || BLOQUES_SEMANA[0]).dia)));
-  useEffect(() => { if (preset) clearPreset(); }, []);
+  const [pendiente, setPendiente] = useState(() => leerTanda());
+  useEffect(() => { if (preset?.continuar && pendiente) continuarTanda(); if (preset) clearPreset(); }, []);
   const nombrePlan = (iso) => fechaDeIso(iso).toLocaleDateString("es-ES", { weekday: "long", day: "numeric" });
   const elegirBloque = (dia) => { setBloqueSel(dia); setPlanFecha(planPara("bloque", dia)); };
   const [numHoy, setNumHoy] = useState(45);
@@ -1641,6 +1658,29 @@ const iniciar = () => {
     setConf(new Array(seleccion.length).fill(null));
     setConfirmFin(false); setFiltroRev("todas");
     if (examen) setSegRestantes(tiempoExamen * 60);
+    setPendiente(null);
+    setFase("run");
+  };
+
+  // Retomar la tanda guardada, tal como estaba (respuestas, seguridad, pregunta y tiempo que quedaba).
+  const continuarTanda = () => {
+    const x = pendiente; if (!x) return;
+    const qs = x.ids.map((id, i) => { const q = PREGUNTA_POR_ID.get(id); return q ? { ...q, _order: (x.orders && x.orders[i]) || ordenOpciones(q) } : null; });
+    if (qs.some((q) => !q)) { borrarTanda(); setPendiente(null); return; }
+    const n = qs.length;
+    const ans = Array.from({ length: n }, (_, i) => (x.answers && x.answers[i] !== undefined ? x.answers[i] : null));
+    const hech = Array.from({ length: n }, (_, i) => !!(x.hechas && x.hechas[i]));
+    const cf = Array.from({ length: n }, (_, i) => (x.conf && x.conf[i]) || null);
+    setModo(x.modo || "hoy"); if (x.bloqueSel) setBloqueSel(x.bloqueSel);
+    setExamen(!!x.examen); setTiempoExamen(x.tiempoExamen || 90);
+    setPlanFecha(x.planFecha ?? null); setConSeguridad(!!x.conSeguridad);
+    if (x.examenReal) setExamenReal(x.examenReal);
+    setPool(qs); setAnswers(ans); setHechas(hech); setConf(cf);
+    const i = Math.max(0, Math.min(x.idx || 0, n - 1));
+    setIdx(i); setSel(!x.examen && hech[i] ? ans[i] : null); setShown(!x.examen && hech[i]);
+    setConfirmFin(false); setFiltroRev("todas");
+    if (x.examen) setSegRestantes(Math.max(60, x.segRestantes || 0));
+    setPendiente(null);
     setFase("run");
   };
   const cur = pool[idx];
@@ -1665,6 +1705,19 @@ const iniciar = () => {
     if (modo === "examenreal") return `${tituloExamenReal} · ${pool.length} preguntas`;
     return `Todo el banco · ${pool.length} preguntas`;
   };
+
+  // Guarda la tanda en curso a cada respuesta (y cada segundo del cronómetro en modo examen).
+  useEffect(() => {
+    if (fase !== "run" || !pool.length) return;
+    try {
+      localStorage.setItem(CLAVE_TANDA, JSON.stringify({
+        v: 1, guardada: Date.now(), titulo: tituloTanda(),
+        ids: pool.map((q) => q.id), orders: pool.map((q) => q._order),
+        idx, answers, hechas, conf, modo, bloqueSel, examen, tiempoExamen, segRestantes, planFecha, conSeguridad, examenReal,
+      }));
+    } catch {}
+  }, [fase, pool, idx, answers, hechas, conf, segRestantes]);
+  useEffect(() => { if (fase === "fin") borrarTanda(); }, [fase]);
 
   const finalizar = async (ansParam) => {
     const respDadas = ansParam || answers;
@@ -1785,6 +1838,18 @@ next.sesiones = [
     return (
       <Ficha codigo="1ª PRUEBA · TEST" titulo="Configura la tanda">
         <p style={p}>Cuatro opciones, una válida. Corrección como el examen real: cada fallo resta 1/3; en blanco, ni suma ni resta.</p>
+        {pendiente && (
+          <div style={{ border: `1.5px solid ${C.red}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
+            <Label>Tanda sin terminar</Label>
+            <p style={{ ...pSmall, margin: "0 0 10px" }}>
+              {pendiente.titulo || "Tanda"}: ibas por la pregunta {(pendiente.idx || 0) + 1} y llevabas {contestadasTanda(pendiente)} contestadas. Se guardó el {new Date(pendiente.guardada || Date.now()).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" })}. Si empiezas otra tanda, esta se descarta.
+            </p>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+              <button className="cta" style={ctaPrimary} onClick={continuarTanda}>Continuar donde la dejé</button>
+              <button className="cta" style={ctaGhost} onClick={() => { borrarTanda(); setPendiente(null); }}>Descartarla</button>
+            </div>
+          </div>
+        )}
         {pendientesPlan.length > 0 && (
           <div style={{ border: `1.5px solid ${C.amber}`, borderRadius: 6, padding: 14, marginBottom: 16, background: C.paper }}>
             <Label>Sesiones atrasadas</Label>
